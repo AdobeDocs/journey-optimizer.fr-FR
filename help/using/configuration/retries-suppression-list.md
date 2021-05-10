@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Lorsqu’un message échoue en raison d’un échec de rebonds modéré, plusieu
 
 Dans la configuration par défaut, le seuil de limite est défini à 3 erreurs, ce qui signifie que l&#39;adresse est envoyée à la liste de quarantaine à la troisième erreur rencontrée. Si une diffusion réussit après une nouvelle tentative, le compteur d’erreurs est réinitialisé.
 
-Vous pouvez modifier le seuil de limite directement à partir du menu Paramètres généraux à l’aide du bouton Modifier.
+Vous pouvez modifier le seuil de limite à l’aide du bouton **[!UICONTROL Modifier]**.
 
 ![](../assets/retries-edition.png)
