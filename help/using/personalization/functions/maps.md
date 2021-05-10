@@ -2,20 +2,20 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Fonctions de mappage {#maps}
+# Fonctions de mappage{#maps}
 
 ![](../../assets/do-not-localize/badge.png)
 
 [!DNL Profile Query Language] (PQL) offre des fonctions pour faciliter l&#39;interaction avec les cartes.
 
-## Get
+## Get{#get}
 
 La fonction `get` est utilisée pour récupérer la valeur d&#39;un mappage pour une clé donnée.
 
@@ -33,7 +33,7 @@ La requête PQL suivante obtient la valeur de la carte d&#39;identité pour la c
 get(identityMap,"example@example.com")
 ```
 
-## Clés
+## Clés{#keys}
 
 La fonction `keys` est utilisée pour récupérer toutes les clés d&#39;un mappage donné.
 
@@ -51,7 +51,7 @@ La requête PQL suivante récupère toutes les clés de la carte `identityMap`.
 keys(identityMap)
 ```
 
-## Valeurs
+## Valeurs {#values}
 
 La fonction `values` est utilisée pour récupérer toutes les valeurs d’une carte donnée.
 
