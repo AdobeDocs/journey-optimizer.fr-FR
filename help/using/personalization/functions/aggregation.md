@@ -2,10 +2,10 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Les fonctions d’agrégation sont utilisées pour regrouper plusieurs valeurs dans des tableaux [!DNL Profile Query Language] (PQL) afin de former une seule valeur de synthèse.
 
-## Count
+## Count{#count}
 
 La fonction `count` renvoie le nombre d&#39;éléments contenus dans le tableau donné.
 
@@ -33,7 +33,7 @@ La requête PQL suivante renvoie le nombre de commandes dans le tableau.
 count(orders)
 ```
 
-## Somme
+## Sum{#sum}
 
 La fonction `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
 
@@ -51,7 +51,7 @@ La requête PQL suivante renvoie la somme de tous les prix de commande.
 sum(orders.order.price)
 ```
 
-## Moyenne
+## Moyenne{#average}
 
 La fonction `average` renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.
 
@@ -69,7 +69,7 @@ La requête PQL suivante renvoie le prix moyen de toutes les commandes.
 average(orders.order.price)
 ```
 
-## Minimum
+## Minimum{#min}
 
 La fonction `min` renvoie la plus petite des valeurs sélectionnées dans le tableau.
 
@@ -87,7 +87,7 @@ La requête PQL suivante renvoie le prix le plus bas de toutes les commandes.
 min(orders.order.price)
 ```
 
-## Maximum
+## Maximum{#max}
 
 La fonction `max` renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.
 
