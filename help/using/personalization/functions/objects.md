@@ -2,9 +2,9 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ isNull({OBJECT})
 
 **Exemple**
 
-La requête PQL suivante vérifie si l’adresse de domicile de la personne n’existe pas.
+L’opération suivante vérifie si l’adresse de domicile de la personne n’existe pas.
 
 ```sql
 isNull(person.homeAddress)
@@ -43,7 +43,7 @@ isNotNull({OBJECT})
 
 **Exemple**
 
-La requête PQL suivante vérifie si l&#39;adresse de domicile de la personne existe.
+L’opération suivante vérifie si l’adresse de domicile de la personne existe.
 
 ```sql
 isNotNull(person.homeAddress)
