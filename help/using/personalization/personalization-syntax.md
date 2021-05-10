@@ -2,7 +2,7 @@
 title: Syntaxe de la personnalisation
 description: Découvrez comment utiliser la syntaxe de personnalisation
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Il utilise un modèle et un objet d’entrée pour générer du code HTML ou d�
 
 Exemple d&#39;expression simple :
 
-```
+```sql
 {{profile.person.name}}
 ```
 
@@ -65,7 +65,7 @@ Toutes les références sont validées par rapport au Schéma de Profil avec un 
 
 **Déterminez l&#39;extension** d&#39;adresse électronique :
 
-```
+```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
 {%else if contains(profile.personalEmail.address, ".org")%}
@@ -81,7 +81,7 @@ Pour en savoir plus sur le service de segmentation et de segmentation, consultez
 
 **Générer un contenu différent en fonction de l’appartenance** au segment :
 
-```
+```sql
 {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
   Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
 {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
@@ -91,7 +91,7 @@ Pour en savoir plus sur le service de segmentation et de segmentation, consultez
 
 **Déterminez si un profil est déjà membre** :
 
-```
+```sql
 {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
     You're a member!
 {%else%}
@@ -149,7 +149,7 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 L&#39;aide **if** est utilisée pour définir un bloc conditionnel.
 Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il est ignoré.
 
-```
+```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
@@ -159,7 +159,7 @@ L&#39;instruction **else if** spécifie une nouvelle condition à tester si la p
 
 **Générer différents liens de magasin en fonction d’expressions** conditionnelles :
 
-```
+```sql
 {%#if profile.homeAddress.countryCode = "FR"%}
   <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
 {%else%}
@@ -173,7 +173,7 @@ L&#39;instruction **else if** spécifie une nouvelle condition à tester si la p
 
 **Générer du contenu en fonction de l’extension** d’adresse électronique :
 
-```
+```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
@@ -189,14 +189,14 @@ Nous pouvons nous référer aux éléments individuels de la baie en utilisant l
 
 Exemple :
 
-```
+```sql
 {{#each profile.productsInCart}}
     <li>{{this.name}}</li>
     </br>
 {{/each}}
 ```
 
-```
+```sql
 {{#each profile.homeAddress.city}}
   {{@index}} : {{this}}<br>
 {{/each}}
@@ -204,7 +204,7 @@ Exemple :
 
 **Générer une liste de produits que cet utilisateur a dans son panier** :
 
-```
+```sql
 {{#each profile.products as |product|}}
     <li>{{product.productName}} {{product.productRating}}</li>
    </br>
@@ -217,7 +217,7 @@ L&#39;aide **#with** permet de modifier le jeton d&#39;évaluation de template-p
 
 Exemple :
 
-```
+```sql
 {{#with profile.person.name}}
 {{this.firstName}} {{this.lastName}}
 {{/with}}
