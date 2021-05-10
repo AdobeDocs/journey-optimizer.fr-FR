@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65e677860a6ba77532cc23b992d2671652548d0f
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 11%
 
 ---
 
@@ -32,13 +32,15 @@ Journey Optimizer vous permet de déléguer entièrement vos sous-domaines à l�
 
 Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Configuration du message]** / **[!UICONTROL Délégation de sous-domaine]**, puis cliquez sur **[!UICONTROL Déléguer le sous-domaine]**.
+1. Accédez au menu **[!UICONTROL Canaux]** / **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Déléguer le sous-domaine]**.
 
    ![](../assets/subdomain-delegate.png)
 
 1. Spécifiez le nom du sous-domaine à déléguer.
 
-1. La liste des enregistrements à placer sur les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants.
+   ![](../assets/subdomain-name.png)
+
+1. La liste des enregistrements à placer dans les serveurs DNS s’affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants.
 
    Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d’hébergement de domaine. Si tout est correctement configuré, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
 
@@ -50,8 +52,6 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
 1. Une fois la délégation de sous-domaine envoyée, le sous-domaine s’affiche dans la liste avec l’état **[!UICONTROL Traitement]**. Pour plus d&#39;informations sur les états des sous-domaines, consultez [cette section](access-subdomains.md).
 
-   ![](../assets/subdomain-processing.png)
-
    Les vérifications de configuration ci-dessous seront effectuées jusqu&#39;à ce que le sous-domaine soit vérifié et peuvent être utilisées pour configurer les paramètres prédéfinis des messages afin d&#39;envoyer des messages :
 
    1. enregistrements NS,
@@ -59,15 +59,15 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
    1. Configuration des URL,
    1. Audit de la délivrabilité.
 
-   Vous pouvez suivre la progression de la validation d’un sous-domaine à tout moment en l’ouvrant à partir de la liste.
+   ![](../assets/subdomain-processing.png)
 
-   ![](../assets/subdomain-processing-steps.png)
+1. Une fois les vérifications effectuées, vous êtes informé par une notification **[!DNL Journey Optimizer]** et le sous-domaine obtient l’état **[!UICONTROL Success]**. Il est maintenant prêt à être utilisé pour diffuser des messages.
 
-1. Une fois les vérifications effectuées, vous serez averti xxxxx ( ! !où les utilisateurs sont informés : Vous devez vérifier manuellement la page ou envoyer un message électronique/averti par impulsion ?).
+   Pour plus d&#39;informations sur les états des sous-domaines, consultez [cette section](access-subdomains.md).
 
-   Le sous-domaine obtient le **[!UICONTROL Succès]** (! !ou vérifié ?) et est maintenant prêt à être utilisé pour diffuser des messages. Pour plus d&#39;informations sur les états des sous-domaines, consultez [cette section](access-subdomains.md).
+   ![](../assets/subdomain-notification.png)
 
-   Vous pouvez accéder à des informations détaillées en ouvrant le sous-domaine à partir de la liste :
+   Vous pouvez accéder à des informations détaillées sur le sous-domaine en l’ouvrant à partir de la liste. Vous pouvez ainsi :
 
    * Récupérez le nom de sous-domaine (lecture seule) configuré pendant le processus de délégation, ainsi que les URL générées (ressources, page miroir, URL de suivi),
    * Ajoutez un enregistrement TXT de vérification de site Google sur votre sous-domaine pour vous assurer qu’il est vérifié (voir [Ajouter un enregistrement TXT Google à un sous-domaine](google-txt.md)).
