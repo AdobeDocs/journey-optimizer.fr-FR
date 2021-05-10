@@ -2,10 +2,10 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 6%
+source-wordcount: '98'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ get({MAP},{STRING})
 
 **Exemple**
 
-La requête PQL suivante obtient la valeur de la carte d&#39;identité pour la clé `example@example.com`.
+L&#39;opération suivante obtient la valeur de la carte d&#39;identité pour la clé `example@example.com`.
 
 ```sql
 get(identityMap,"example@example.com")
@@ -45,7 +45,7 @@ keys({MAP})
 
 **Exemple**
 
-La requête PQL suivante récupère toutes les clés de la carte `identityMap`.
+L&#39;opération suivante récupère toutes les clés de la carte `identityMap`.
 
 ```sql
 keys(identityMap)
@@ -63,7 +63,7 @@ values({MAP})
 
 **Exemple**
 
-La requête PQL suivante récupère toutes les valeurs de la carte `identityMap`.
+L&#39;opération suivante récupère toutes les valeurs de la carte `identityMap`.
 
 ```sql
 values(identityMap)
