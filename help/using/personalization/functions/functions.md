@@ -2,7 +2,7 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 1220db4c2210338ca4fb8b4df9d1d96288f0e72d
+source-git-commit: 215d2e548bc3d711d359138ff36283f6a8bb9828
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 7%
@@ -39,7 +39,7 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 **Fonctions de tableau**
 
-<table>
+<table style="table-layout:fixed">
     <tr><td>[Average](agrégation.md#average)</td><td>[In](array-liste.md#in)</td><td>[Minimum](agrégation.md#minimum) (min)</td></tr>
     <tr><td>[Count](agrégation.md#count)</td><td>[Inclut](array-liste.md#inclut)</td><td>[Not in](array-liste.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](array-liste.md#distinct)</td><td>[Intersects](array-liste.md#intersects)</td><td>[Sous-ensemble de](array-liste.md#subset)</td></tr>
