@@ -2,10 +2,10 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Est nul
+## Est nul{#isNull}
 
 La fonction `isNull` détermine si une référence d&#39;objet n&#39;existe pas.
 
@@ -31,7 +31,7 @@ La requête PQL suivante vérifie si l’adresse de domicile de la personne n’
 isNull(person.homeAddress)
 ```
 
-## N’est pas nul
+## N’est pas nul{#isNotNull}
 
 La fonction `isNotNull` détermine si une référence d&#39;objet existe.
 
