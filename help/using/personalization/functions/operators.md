@@ -2,18 +2,18 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Opérateurs {#operators}
+# Les opérateurs {#operators}
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Et
+## Et {#and}
 
 La fonction `and` est utilisée pour créer une conjonction logique.
 
@@ -31,7 +31,7 @@ La requête suivante de la LPQ remettra à toutes les personnes ayant le pays d&
 homeAddress.countryISO = "CA" and person.birthYear = 1985
 ```
 
-## Ou
+## Ou{#or}
 
 La fonction `or` est utilisée pour créer une disjonction logique.
 
@@ -49,7 +49,7 @@ La requête suivante de la LPQ remettra à toutes les personnes ayant le pays d&
 homeAddress.countryISO = "CA" or person.birthYear = 1985
 ```
 
-## Non
+## Not{#not}
 
 La fonction `not` (ou `!`) est utilisée pour créer une négation logique.
 
@@ -68,7 +68,7 @@ La requête suivante de la LPQ rendra au Canada toutes les personnes qui n&#39;o
 not (homeAddress.countryISO = "CA")
 ```
 
-## If
+## If{#if}
 
 La fonction `if` est utilisée pour résoudre une expression selon si une condition spécifiée est vraie.
 
@@ -92,7 +92,7 @@ La requête suivante définit la valeur sur `1` si le pays d&#39;origine est le 
 if (homeAddress.countryISO = "CA", 1, 2)
 ```
 
-## Est égal à
+## Est égal à{#equals}
 
 La fonction `=` (est égal à) vérifie si une valeur ou une expression est égale à une autre valeur ou expression.
 
@@ -110,7 +110,7 @@ La requête PQL suivante vérifie si le pays d&#39;adresse d&#39;origine est au 
 homeAddress.countryISO = "CA"
 ```
 
-## N’est pas égal
+## N’est pas égal{#notequal}
 
 La fonction `!=` (différent) vérifie si une valeur ou une expression est **différente de** égale à une autre valeur ou expression.
 
@@ -128,7 +128,7 @@ La requête PQL suivante vérifie si le pays d&#39;adresse d&#39;origine n&#39;e
 homeAddress.countryISO != "CA"
 ```
 
-## Supérieur à
+## Supérieur à{#greaterthan}
 
 La fonction `>` (supérieure à) est utilisée pour vérifier si la première valeur est supérieure à la seconde.
 
@@ -146,7 +146,7 @@ La requête PQL suivante définit les personnes dont les anniversaires ne tomben
 person.birthMonth > 2
 ```
 
-## Supérieur ou égal à
+## Supérieur ou égal à{#greaterthanorequal}
 
 La fonction `>=` (supérieure ou égale à) est utilisée pour vérifier si la première valeur est supérieure ou égale à la seconde.
 
@@ -164,7 +164,7 @@ La requête PQL suivante définit les personnes dont les anniversaires ne tomben
 person.birthMonth >= 3
 ```
 
-## Inférieur à
+## Inférieur à{#lessthan}
 
 La fonction de comparaison `<` (inférieur à) permet de vérifier si la première valeur est inférieure à la seconde.
 
@@ -182,7 +182,7 @@ La requête PQL suivante définit les personnes dont l&#39;anniversaire a lieu e
 person.birthMonth < 2
 ```
 
-## Inférieur ou égal à
+## Inférieur ou égal à{#lessthanorequal}
 
 La fonction de comparaison `<=` (inférieure ou égale à) permet de vérifier si la première valeur est inférieure ou égale à la seconde.
 
@@ -200,7 +200,7 @@ La requête PQL suivante définit les personnes dont l&#39;anniversaire est en j
 person.birthMonth <= 2
 ```
 
-## Ajoute
+## Ajoute{#add}
 
 La fonction `+` (addition) est utilisée pour rechercher la somme de deux expressions d&#39;argument.
 
@@ -218,7 +218,7 @@ La requête PQL suivante résume le prix de deux produits différents.
 product1.price + product2.price
 ```
 
-## Multiplier
+## Multiplier{#multiply}
 
 La fonction `*` (multiplication) est utilisée pour trouver le produit de deux expressions d&#39;arguments.
 
@@ -236,7 +236,7 @@ La requête suivante de la LPQ recherche le produit de l&#39;inventaire et le pr
 product.inventory * product.price
 ```
 
-## Soustraire
+## Soustraire{#substract}
 
 La fonction `-` (soustraction) permet de trouver la différence entre deux expressions d&#39;argument.
 
@@ -254,7 +254,7 @@ La requête PQL suivante identifie la différence de prix entre deux produits di
 product1.price - product2.price
 ```
 
-## Diviser
+## Diviser {#divide}
 
 La fonction `/` (division) est utilisée pour trouver le quotient de deux expressions d&#39;argument.
 
@@ -272,7 +272,7 @@ La requête suivante de PQL recherche le quotient entre le total des produits ve
 totalProduct.price / totalProduct.sold
 ```
 
-## Reste
+## Reste{#remainder}
 
 La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la division des deux expressions d&#39;argument.
 
