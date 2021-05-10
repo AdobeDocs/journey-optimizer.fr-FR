@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
+source-git-commit: 701d6b64d167b5c38268368fcb640cc18d8ec817
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 8%
+source-wordcount: '427'
+ht-degree: 7%
 
 ---
 
@@ -33,11 +33,17 @@ La langue de modèle est exploitée dans les fonctions d’aide disponibles dans
 
 ![](../assets/access-helper-functions.png)
 
-Ils sont regroupés en trois catégories : Fonctions, assistants et opérateurs
+Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
 
-### Fonctions
+### Fonctions{#functions-helper}
 
 **Fonctions de tableau**
+
+| [Moyenne](aggregation.md#average) | [Dans](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
+| [Compter](aggregation.md#count) | [Comprend ](arrays-list.md#includes)  | [Non dans](arrays-list.md#notin) (notIn) |
+| [Distinct](arrays-list.md#distinct) | [Intersects](arrays-list.md#intersects) | [Sous-ensemble de ](arrays-list.md#subset) |
+| [Premier point](arrays-list.md#head) (en-tête) | [Dernier n dans la baie](arrays-list.md#last-n) (lastN) | Somme |
+| [Premier n dans la baie](arrays-list.md#first-n) (topN)| [Maximum](aggregation.md#maximum) (max) | [Superset de ](arrays-list.md#superset) |
 
 * [Moyenne](aggregation.md#average)
 * [Count](aggregation.md#count)
@@ -94,7 +100,7 @@ Ils sont regroupés en trois catégories : Fonctions, assistants et opérateurs
 * Rogner
 * [majuscule](#upper)
 
-### Assistance
+### Aide{#helper-helper}
 
 * [Chaque](../personalization-syntax.md#each)
 * [if](../personalization-syntax.md#if)
@@ -102,7 +108,7 @@ Ils sont regroupés en trois catégories : Fonctions, assistants et opérateurs
 * [Sauf](../personalization-syntax.md#unless)
 * [with](../personalization-syntax.md#with)
 
-### Les opérateurs
+### Les opérateurs{#operators-helper}
 
 Ces opérateurs ne peuvent être utilisés qu&#39;avec des nombres.
 
