@@ -2,10 +2,10 @@
 title: Syntaxe de la personnalisation
 description: Découvrez comment utiliser la syntaxe de personnalisation
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Exemple d&#39;expression simple :
 {{profile.person.name}}
 ```
 
-où :
+where:
 
 * **** profileest un espace de nommage.
 * **person.** name est un jeton composé par attributs. La structure des attributs est définie dans un Schéma Adobe Experience Platform XDM. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
@@ -144,7 +144,7 @@ Chaque paramètre est une expression Handlebars. Ces assistants sont accessibles
 Ces assistants de blocs sont identifiés par un # précédant le nom de l&#39;aide et nécessitent une fermeture /, correspondante du même nom.
 Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fermeture ({{/}}).
 
-### If
+### If{#if}
 
 L&#39;aide **if** est utilisée pour définir un bloc conditionnel.
 Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il est ignoré.
@@ -167,7 +167,7 @@ L&#39;instruction **else if** spécifie une nouvelle condition à tester si la p
 {%/if%}
 ```
 
-### Sauf
+### Sauf si{#unless}
 
 **#** unlesshelper est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;assistance **#if**, si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
 
@@ -181,13 +181,13 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-### Chaque
+### Chacun{#each}
 
 L&#39;assistance **each** est utilisée pour effectuer une itération sur une baie.
 La syntaxe de l&#39;assistance est ```{{#each ArrayName}}``` YourContent {{/each}.
 Nous pouvons nous référer aux éléments individuels de la baie en utilisant le mot-clé **this** à l&#39;intérieur du bloc. L&#39;index de l&#39;élément du tableau peut être rendu à l&#39;aide de {{@index}}.
 
-Exemple :
+Exemple :
 
 ```
 {{#each profile.productsInCart}}
@@ -211,11 +211,11 @@ Exemple :
 {{/each}}
 ```
 
-### Avec
+### Avec {#with}
 
 L&#39;aide **#with** permet de modifier le jeton d&#39;évaluation de template-part.
 
-Exemple :
+Exemple :
 
 ```
 {{#with profile.person.name}}
@@ -235,6 +235,6 @@ L&#39;aide **#with** est utile pour définir également une variable de raccourc
 ```
 
 
-## Limitations
+## Limites
 
 * L’utilisation de la variable **xEvent** n’est pas disponible dans les expressions de personnalisation. Toute référence à xEvent entraîne des échecs de validation.
