@@ -2,14 +2,14 @@
 title: Contextes de personnalisation dans Journey Optimizer
 description: Découvrez dans quels contextes vous pouvez ajouter la personnalisation
 translation-type: tm+mt
-source-git-commit: e0d412eff669282a42673392896f5df4139d55d7
+source-git-commit: 11e73011374fee3af1c0780acf9d96f122214e8e
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 0%
+source-wordcount: '435'
+ht-degree: 1%
 
 ---
 
-# Zones de personnalisation {#personalization-areas}
+# Contexte et outil de personnalisation {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ Tous les champs associés à l’icône de l’éditeur peuvent ouvrir l’édit
 
 ## Personnaliser vos courriels
 
-Lors de la création du message de canal de courrier électronique, le champ **Objet du message électronique** peut être personnalisé.
+Lorsque vous créez un courrier électronique, vous pouvez ajouter une personnalisation dans le champ **Objet du message électronique** du message.
 
 ![](assets/perso_subject.png)
 
@@ -37,9 +37,7 @@ Dans le concepteur de courrier électronique, vous pouvez personnaliser le conte
 
 ## Personnaliser les notifications Push
 
-Dans le **canal Push**, la personnalisation vous permet d’affiner votre notification Push.
-
-Vous pouvez ajouter la personnalisation dans les champs suivants :
+Vous pouvez également personnaliser vos **notifications Push** dans les champs suivants :
 
 * **Titre**
 * **Corps**
@@ -49,8 +47,7 @@ Vous pouvez ajouter la personnalisation dans les champs suivants :
 
 ![](assets/perso_push.png)
 
-Pour obtenir une documentation complète sur la configuration des notifications Push, consultez [cette section](../configure-push.md).
-
+Pour en savoir plus sur la configuration des notifications Push, consultez [cette section](../configure-push.md).
 
 ## Utilisation de l’éditeur d’expressions
 
@@ -67,7 +64,7 @@ La partie gauche de l’écran affiche un sélecteur de domaine qui vous permet 
 * **Profil**  : liste toutes les références associées au schéma de profil décrites dans la documentation [ du modèle de données ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)Adobe Experience Platform (XDM).
 * **Appartenance**  au segment : liste tous les segments créés dans le service de segmentation Adobe Experience Platform. Pour plus d&#39;informations sur la segmentation, [cliquez ici](https://experienceleague.corp.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
 * **Offres**  : liste toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](https://experienceleague.corp.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning).
-* **Contexte**  : lorsque l’ **** activité de messagerie est utilisée dans un parcours, des champs de parcours contextuels sont disponibles dans ce menu. Reportez-vous à [cette section](https://experienceleague.corp.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
+* **Contexte**  : lorsque l’ **** activité de messagerie est utilisée dans un parcours, des champs de parcours contextuels sont disponibles dans ce menu. Consultez [cette section](https://experienceleague.corp.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
 
 Lors de la sélection, la référence est ajoutée dans l’éditeur.
 
