@@ -2,9 +2,9 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '546'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ La fonction `and` est utilisée pour créer une conjonction logique.
 
 **Exemple**
 
-La requête suivante de la LPQ remettra à toutes les personnes ayant le pays d&#39;origine le Canada et l&#39;année de naissance de 1985.
+L&#39;opération suivante permettra de renvoyer toutes les personnes ayant le pays d&#39;origine comme Canada et année de naissance en 1985.
 
 ```sql
 homeAddress.countryISO = "CA" and person.birthYear = 1985
@@ -43,7 +43,7 @@ La fonction `or` est utilisée pour créer une disjonction logique.
 
 **Exemple**
 
-La requête suivante de la LPQ remettra à toutes les personnes ayant le pays d&#39;origine le Canada ou l&#39;année de naissance de 1985.
+L&#39;opération suivante permettra à toutes les personnes qui ont un pays d&#39;origine de retourner au Canada ou à l&#39;année de naissance de 1985.
 
 ```sql
 homeAddress.countryISO = "CA" or person.birthYear = 1985
@@ -62,7 +62,7 @@ not ({QUERY})
 
 **Exemple**
 
-La requête suivante de la LPQ rendra au Canada toutes les personnes qui n&#39;ont pas leur pays d&#39;origine.
+L&#39;opération suivante rendra au Canada toutes les personnes qui n&#39;ont pas leur pays d&#39;origine.
 
 ```sql
 not (homeAddress.countryISO = "CA")
@@ -86,7 +86,7 @@ if ({TEST_EXPRESSION}, {TRUE_EXPRESSION}, {FALSE_EXPRESSION})
 
 **Exemple**
 
-La requête suivante définit la valeur sur `1` si le pays d&#39;origine est le Canada et `2` si le pays d&#39;origine n&#39;est pas le Canada.
+L&#39;opération suivante définit la valeur sur `1` si le pays d&#39;origine est le Canada et `2` si le pays d&#39;origine n&#39;est pas le Canada.
 
 ```sql
 if (homeAddress.countryISO = "CA", 1, 2)
@@ -104,7 +104,7 @@ La fonction `=` (est égal à) vérifie si une valeur ou une expression est éga
 
 **Exemple**
 
-La requête PQL suivante vérifie si le pays d&#39;adresse d&#39;origine est au Canada.
+L&#39;opération suivante vérifie si le pays d&#39;adresse d&#39;origine est au Canada.
 
 ```sql
 homeAddress.countryISO = "CA"
@@ -122,7 +122,7 @@ La fonction `!=` (différent) vérifie si une valeur ou une expression est **dif
 
 **Exemple**
 
-La requête PQL suivante vérifie si le pays d&#39;adresse d&#39;origine n&#39;est pas au Canada.
+L&#39;opération suivante vérifie si le pays d&#39;adresse d&#39;origine n&#39;est pas au Canada.
 
 ```sql
 homeAddress.countryISO != "CA"
@@ -140,7 +140,7 @@ La fonction `>` (supérieure à) est utilisée pour vérifier si la première va
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont les anniversaires ne tombent pas en janvier ou février.
+L’opération suivante définit les personnes dont les anniversaires ne tombent pas en janvier ou février.
 
 ```sql
 person.birthMonth > 2
@@ -158,7 +158,7 @@ La fonction `>=` (supérieure ou égale à) est utilisée pour vérifier si la p
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont les anniversaires ne tombent pas en janvier ou février.
+L’opération suivante définit les personnes dont les anniversaires ne tombent pas en janvier ou février.
 
 ```sql
 person.birthMonth >= 3
@@ -176,7 +176,7 @@ La fonction de comparaison `<` (inférieur à) permet de vérifier si la premiè
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont l&#39;anniversaire a lieu en janvier.
+L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en janvier.
 
 ```sql
 person.birthMonth < 2
@@ -194,7 +194,7 @@ La fonction de comparaison `<=` (inférieure ou égale à) permet de vérifier s
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont l&#39;anniversaire est en janvier ou février.
+L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en janvier ou février.
 
 ```sql
 person.birthMonth <= 2
@@ -212,7 +212,7 @@ La fonction `+` (addition) est utilisée pour rechercher la somme de deux expres
 
 **Exemple**
 
-La requête PQL suivante résume le prix de deux produits différents.
+L&#39;opération suivante représente le prix de deux produits différents.
 
 ```sql
 product1.price + product2.price
@@ -230,7 +230,7 @@ La fonction `*` (multiplication) est utilisée pour trouver le produit de deux e
 
 **Exemple**
 
-La requête suivante de la LPQ recherche le produit de l&#39;inventaire et le prix d&#39;un produit pour déterminer la valeur brute du produit.
+L&#39;opération suivante recherche le produit de l&#39;inventaire et le prix d&#39;un produit pour trouver la valeur brute du produit.
 
 ```sql
 product.inventory * product.price
@@ -248,7 +248,7 @@ La fonction `-` (soustraction) permet de trouver la différence entre deux expre
 
 **Exemple**
 
-La requête PQL suivante identifie la différence de prix entre deux produits différents.
+L&#39;opération suivante identifie la différence de prix entre deux produits différents.
 
 ```sql
 product1.price - product2.price
@@ -266,7 +266,7 @@ La fonction `/` (division) est utilisée pour trouver le quotient de deux expres
 
 **Exemple**
 
-La requête suivante de PQL recherche le quotient entre le total des produits vendus et le total des sommes gagnées pour déterminer le coût moyen par article.
+L&#39;opération suivante recherche le quotient entre le total des produits vendus et le total des recettes pour déterminer le coût moyen par article.
 
 ```sql
 totalProduct.price / totalProduct.sold
@@ -284,7 +284,7 @@ La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la div
 
 **Exemple**
 
-La requête PQL suivante vérifie si l&#39;âge de la personne est divisible de cinq ans.
+L&#39;opération suivante vérifie si l&#39;âge de la personne est divisible de cinq ans.
 
 ```sql
 person.age % 5 = 0
