@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 701d6b64d167b5c38268368fcb640cc18d8ec817
+source-git-commit: d34871fdbe36629cf38ad0b9f8ac76f14e1c0284
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -39,11 +39,13 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 **Fonctions de tableau**
 
+|  |  |  |
+| --------- | ----------- | ----------- |
 | [Moyenne](aggregation.md#average) | [Dans](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
-| [Compter](aggregation.md#count) | [Comprend ](arrays-list.md#includes)  | [Non dans](arrays-list.md#notin) (notIn) |
-| [Distinct](arrays-list.md#distinct) | [Intersects](arrays-list.md#intersects) | [Sous-ensemble de ](arrays-list.md#subset) |
-| [Premier point](arrays-list.md#head) (en-tête) | [Dernier n dans la baie](arrays-list.md#last-n) (lastN) | Somme |
-| [Premier n dans la baie](arrays-list.md#first-n) (topN)| [Maximum](aggregation.md#maximum) (max) | [Superset de ](arrays-list.md#superset) |
+| [Count](aggregation.md#count) | [Inclut](arrays-list.md#includes) | [Not in](arrays-list.md#notin) (notIn) |
+| [Distinct](arrays-list.md#distinct) | [Intersectes](arrays-list.md#intersects) | [Sous-ensemble de](arrays-list.md#subset) |
+| [Premier élément](arrays-list.md#head)  (en-tête) | [N dernier dans le tableau](arrays-list.md#last-n)  (lastN) | Sum |
+| [Premier n dans la baie](arrays-list.md#first-n)  (topN) | [Maximum](aggregation.md#maximum) (max.) | [Paramètre supérieur à](arrays-list.md#superset) |
 
 * [Moyenne](aggregation.md#average)
 * [Count](aggregation.md#count)
@@ -58,7 +60,7 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 * [Minimum](aggregation.md#minimum) (min)
 * [Not in](arrays-list.md#notin) (notIn)
 * [Sous-ensemble de](arrays-list.md#subset)
-* Sum
+* Somme
 * [Paramètre supérieur à](arrays-list.md#superset)
 
 **Fonctions de mappage**
