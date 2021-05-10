@@ -2,7 +2,7 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 5%
@@ -29,7 +29,7 @@ La fonction `+` (addition) est utilisée pour rechercher la somme de deux expres
 
 L&#39;opération suivante représente le prix de deux produits différents.
 
-```
+```sql
 {%=product1.price + product2.price%}
 ```
 
@@ -47,7 +47,7 @@ La fonction `*` (multiplication) est utilisée pour trouver le produit de deux e
 
 L&#39;opération suivante recherche le produit de l&#39;inventaire et le prix d&#39;un produit pour trouver la valeur brute du produit.
 
-```
+```sql
 {%=product.inventory * product.price%}
 ```
 
@@ -65,7 +65,7 @@ La fonction `-` (soustraction) permet de trouver la différence entre deux expre
 
 L&#39;opération suivante identifie la différence de prix entre deux produits différents.
 
-```
+```sql
 {%=product1.price - product2.price%}
 ```
 
@@ -83,7 +83,7 @@ La fonction `/` (division) est utilisée pour trouver le quotient de deux expres
 
 L&#39;opération suivante recherche le quotient entre le total des produits vendus et le total des recettes pour déterminer le coût moyen par article.
 
-```
+```sql
 {%=totalProduct.price / totalProduct.sold%}
 ```
 
@@ -101,6 +101,6 @@ La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la div
 
 L&#39;opération suivante vérifie si l&#39;âge de la personne est divisible de cinq ans.
 
-```
+```sql
 {%=person.age % 5 = 0%}
 ```
