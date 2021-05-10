@@ -2,9 +2,9 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: a7b1c24b1a5a07807050237d3e89c51ced28c749
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 8%
 
 ---
@@ -48,9 +48,9 @@ Ils sont regroupés en trois catégories : Fonctions, assistants et opérateurs
 * [Inclut](arrays-list.md#includes)
 * [Intersectes](arrays-list.md#intersects)
 * [N dernier dans le tableau](arrays-list.md#last-n)  (lastN)
-* [Maximum](aggregation.md#maximum)
-* [Minimum](aggregation.md#minimum)
-* [Pas dans](arrays-list.md#notin)
+* [Maximum](aggregation.md#maximum) (max.)
+* [Minimum](aggregation.md#minimum) (min)
+* [Not in](arrays-list.md#notin) (notIn)
 * [Sous-ensemble de](arrays-list.md#subset)
 * Sum
 * [Paramètre supérieur à](arrays-list.md#superset)
@@ -129,7 +129,7 @@ La fonction **lowerCase** convertit une chaîne en lettres minuscules.
 
 Syntaxe :
 
-```
+```sql
 {%=lowerCase(string)%}
 ```
 
@@ -137,7 +137,7 @@ Exemple :
 
 Cette fonction convertit le prénom du profil en lettres minuscules.
 
-```
+```sql
 {%=lowerCase(profile.person.name.firstName)%}
 ```
 
@@ -147,7 +147,7 @@ La fonction **upper** convertit une chaîne en lettres minuscules.
 
 Syntaxe :
 
-```
+```sql
 {%=upperCase(string)%}
 ```
 
@@ -155,6 +155,6 @@ Exemple :
 
 Cette fonction convertit le nom de profil en majuscules.
 
-```
+```sql
 {%=upperCase(profile.person.name.lastName)%}
 ```
