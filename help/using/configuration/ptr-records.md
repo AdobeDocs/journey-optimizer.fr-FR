@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,14 @@ Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent v
 
 ## Accéder aux enregistrements PTR de vos sous-domaines
 
-Une fois qu’un sous-domaine est délégué dans la gestion du parcours du client, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir du menu **[!UICONTROL Configuration du message]** / **[!UICONTROL Enregistrements PTR]**.
+Une fois qu’un sous-domaine est délégué dans la gestion du parcours du client, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir du menu **[!UICONTROL Canaux]** / **[!UICONTROL enregistrements PTR]**.
 
-    -SCREENSHOT-
+![](../assets/ptr-records.png)
 
 La liste affiche les enregistrements PTR générés pour chaque sous-domaine délégué, en utilisant la syntaxe ci-dessous :
 
-Les enregistrements PTR respectent une syntaxe de dénomination spécifique :
 * &quot;r&quot; pour le compte rendu,
-* &quot;xx&quot; pour 2 derniers chiffres de l’adresse IP,
+* &quot;xx&quot; pour les deux derniers chiffres de l’adresse IP,
 * nom du sous-domaine.
 
 Vous pouvez ouvrir un enregistrement PTR à partir de la liste pour afficher le nom de sous-domaine et l’adresse IP associés.
