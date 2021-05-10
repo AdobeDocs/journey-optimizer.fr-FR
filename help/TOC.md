@@ -7,9 +7,9 @@ type: Documentation
 solution: Journey Optimizer
 hide: true
 translation-type: tm+mt
-source-git-commit: a04249301947e694d0f775c4cfcc751f20b4f2a3
+source-git-commit: 11e73011374fee3af1c0780acf9d96f122214e8e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 42%
 
 ---
@@ -38,11 +38,12 @@ ht-degree: 42%
       + [Utiliser les composants de contenu des concepteurs de courrier électronique](using/content-components.md)
    + Personnalisation {#personalization}
       + [Prise en main](using/personalization/personalize.md)
-      + [Zones de personnalisation](using/personalization/personalization-aeras.md)
+      + [Contexte de la personnalisation](using/personalization/personalization-aeras.md)
       + [Syntaxe de la personnalisation](using/personalization/personalization-syntax.md)
       + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + [Cas d’utilisation de la personnalisation](using/personalization/personalization-use-case.md)
-      + Langage de modèle{#functions}
+      + Fonctions de personnalisation{#functions}
+         + [Fonctions d’assistance](using/personalization/functions/functions.md)
          + [Opérateurs](using/personalization/functions/operators.md)
          + [Agrégation](using/personalization/functions/aggregation.md)
          + [Tableaux et liste](using/personalization/functions/arrays-list.md)
