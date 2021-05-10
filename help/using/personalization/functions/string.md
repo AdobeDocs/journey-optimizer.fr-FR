@@ -2,9 +2,9 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 2cd1a6cfede96bd1afb0b3f784d20cda5ebc6cb7
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '747'
 ht-degree: 7%
 
 ---
@@ -263,4 +263,43 @@ La requête suivante est utilisée pour extraire le nom de domaine d’une adres
 
 ```sql
 regexGroup(emailAddress,"@(\w+)", 1)
+```
+
+
+## Fonctions
+
+## Minuscule{#lower}
+
+La fonction **lowerCase** convertit une chaîne en lettres minuscules.
+
+Syntaxe :
+
+```sql
+{%=lowerCase(string)%}
+```
+
+Exemple :
+
+Cette fonction convertit le prénom du profil en lettres minuscules.
+
+```sql
+{%=lowerCase(profile.person.name.firstName)%}
+```
+
+## majuscule{#upper}
+
+La fonction **upper** convertit une chaîne en lettres minuscules.
+
+Syntaxe :
+
+```sql
+{%=upperCase(string)%}
+```
+
+Exemple :
+
+Cette fonction convertit le nom de profil en majuscules.
+
+```sql
+{%=upperCase(profile.person.name.lastName)%}
 ```
