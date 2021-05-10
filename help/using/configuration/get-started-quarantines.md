@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65e677860a6ba77532cc23b992d2671652548d0f
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 0%
 
 Avec Journey Optimizer, vous pouvez contrôler toutes les adresses électroniques qui sont automatiquement exclues de l’envoi dans un parcours.
 
-La liste détaillée des adresses électroniques exclues est disponible dans le menu Paramètres / Paramètres généraux en cliquant sur le lien liste de suppression de Vue.
+Pour accéder à la liste détaillée des adresses électroniques exclues, ouvrez le menu **[!UICONTROL Canaux]** / **[!UICONTROL Général]**, puis cliquez sur le lien **[!UICONTROL listes de suppression de Vue]**.
 
 ![](../assets/message-settings.png)
 
 Des filtres sont disponibles pour vous aider à parcourir la liste (date de suppression, catégorie et raison). Vous pouvez également télécharger la liste au format CSV à des fins d’analyse et de rapports.
 
-! lors de l’évaluation, filtre de date de création uniquement
-
 ![](../assets/suppression-list.png)
+
+    !! lors de l’évaluation, seul le filtre de date de création est disponible 
