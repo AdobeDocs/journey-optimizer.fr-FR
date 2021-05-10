@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: d34871fdbe36629cf38ad0b9f8ac76f14e1c0284
+source-git-commit: 1220db4c2210338ca4fb8b4df9d1d96288f0e72d
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,13 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 **Fonctions de tableau**
 
-|  |  |  |
-| --------- | ----------- | ----------- |
-| [Moyenne](aggregation.md#average) | [Dans](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
-| [Count](aggregation.md#count) | [Inclut](arrays-list.md#includes) | [Not in](arrays-list.md#notin) (notIn) |
-| [Distinct](arrays-list.md#distinct) | [Intersectes](arrays-list.md#intersects) | [Sous-ensemble de](arrays-list.md#subset) |
-| [Premier élément](arrays-list.md#head)  (en-tête) | [N dernier dans le tableau](arrays-list.md#last-n)  (lastN) | Sum |
-| [Premier n dans la baie](arrays-list.md#first-n)  (topN) | [Maximum](aggregation.md#maximum) (max.) | [Paramètre supérieur à](arrays-list.md#superset) |
+<table>
+    <tr><td>[Average](agrégation.md#average)</td><td>[In](array-liste.md#in)</td><td>[Minimum](agrégation.md#minimum) (min)</td></tr>
+    <tr><td>[Count](agrégation.md#count)</td><td>[Inclut](array-liste.md#inclut)</td><td>[Not in](array-liste.md#notin) (notIn)</td></tr>
+    <tr><td>[Distinct](array-liste.md#distinct)</td><td>[Intersects](array-liste.md#intersects)</td><td>[Sous-ensemble de](array-liste.md#subset)</td></tr>
+    <tr><td>[Premier élément](array-liste.md#head) (head)</td><td>[N dernier dans le tableau](array-liste.md#last-n) (lastN)</td><td>Sum</td></tr>
+    <tr><td>[Premier n dans la baie](array-liste.md#first-n) (topN)</td><td>[Maximum](agrégation.md#maximum) (max.)</td><td>[Paramètre supérieur de](array-liste.md#superset)</td></tr>
+</table>
 
 * [Moyenne](aggregation.md#average)
 * [Count](aggregation.md#count)
