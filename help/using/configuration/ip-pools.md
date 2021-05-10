@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Par exemple, il est recommandé d’avoir un pool d’adresses IP pour vos messa
 
 Pour créer un pool d’adresses IP, procédez comme suit :
 
-1. Accédez au menu **[Configuration du message]** / **[!UICONTROL Pool IP]**, puis cliquez sur **[!UICONTROL Créer un pool IP]**.
+1. Accédez au menu **[!UICONTROL Canaux]** / **[!UICONTROL pools IP]**, puis cliquez sur **[!UICONTROL Créer un pool IP]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -42,22 +42,18 @@ Pour créer un pool d’adresses IP, procédez comme suit :
 
 1. Sélectionnez les adresses IP à inclure dans le pool dans la liste déroulante, puis cliquez sur **[!UICONTROL Envoyer]**.
 
+   ![](../assets/ip-pool-config.png)
+
    >[!NOTE]
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-   ![](../assets/ip-pool-config.png)
-
-   ! Bouton Envoyer grisé sur l’instance d’affichage
-
 Le pool IP est maintenant créé et s’affiche dans la liste. Vous pouvez la sélectionner pour accéder à ses propriétés et afficher les paramètres prédéfinis de message associés (voir [Création d’un paramètre prédéfini de message](message-presets.md)).
 
-    -SCREENSHOT-
-    
-     ! !aucun pool ip créé sur la scène 
+![](../assets/ip-pool-created.png)
 
 Pour modifier un pool d’adresses IP, ouvrez-le, puis modifiez ses propriétés selon vos besoins.
 
 >[!NOTE]
 >
->Si un paramètre prédéfini de message a été associé, vous devez d’abord le supprimer pour modifier le pool d’adresses IP. Une fois le pool d’adresses IP modifié, vous pouvez associer à nouveau le paramètre prédéfini de message.
+>Si un paramètre prédéfini de message a été associé au pool d’adresses IP, vous devez d’abord le supprimer avant de modifier le pool d’adresses IP. Une fois les modifications effectuées, vous pouvez associer à nouveau le paramètre prédéfini de message.
