@@ -13,7 +13,7 @@ internal: n
 snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 translation-type: tm+mt
-source-git-commit: 289d73da78f369854c851d7822ea69849c9ebd2d
+source-git-commit: c7c0c3921374265072d9f4ad117ddd5115dbe8e6
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 8%
@@ -31,11 +31,11 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
    Pour tout nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](about-subdomain-delegation.md)
 
-2. **Créez des pools d’adresses IP.**
+1. **Créez des pools d’adresses IP.**
 
    Améliorez la délivrabilité et la réputation de vos e-mails en regroupant les adresses IP configurées avec votre instance. [En savoir plus](ip-pools.md)
 
-3. **Configurez les courriers électroniques et les messages** Push.
+1. **Configurez les courriers électroniques et les messages** Push.
 
    1. Avant de commencer à envoyer des notifications Push avec [!DNL Journey Optimizer], vous devez définir les paramètres dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push-configuration.md)
 
