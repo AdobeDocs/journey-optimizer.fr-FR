@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 0%
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,8 @@ Les raisons possibles de l’échec et leur catégorie associée sont les suivan
 
 | Raison | Description | Catégorie de suppression |
 |------|-----------|----|
-| Zone de courrier plein | La boîte aux lettres du destinataire est pleine et n&#39;a pas pu recevoir le message. | Doux |
+| Zone de courrier plein | La boîte aux lettres du destinataire est pleine et n&#39;a pas pu recevoir le message. | Soft |
 | Échec du DNS | xxx | Doux |
-| Destinataire non valide | xxx | dur |
-!- enrichir
+| Destinataire non valide | xxx | Hard |
+
+    !! liste d’enrichissement 
