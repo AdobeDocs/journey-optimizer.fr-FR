@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 1fe06829b1030bdaa42427a31f6f329512d05242
+source-git-commit: 3114dd81b3006c76d179543ac8063894a2c7aee4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 **Fonctions de tableau**
 
 <table>
-    <tr><td>[Average](agrégation.md#average)</td><td>[In](array-liste.md#in)</td><td>[Minimum](agrégation.md#minimum) (min)</td></tr>
+    <tr><td><a href="aggregation.md#average">Moyenne</a></td><td><a href="arrays-list.md#in">Dans</a></td><td><a href="aggregation.md#minimum">Minimum</a></td></tr>
     <tr><td>[Count](agrégation.md#count)</td><td>[Inclut](array-liste.md#inclut)</td><td>[Not in](array-liste.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](array-liste.md#distinct)</td><td>[Intersects](array-liste.md#intersects)</td><td>[Sous-ensemble de](array-liste.md#subset)</td></tr>
     <tr><td>[Premier élément](array-liste.md#head) (head)</td><td>[N dernier dans le tableau](array-liste.md#last-n) (lastN)</td><td>Sum</td></tr>
