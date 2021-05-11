@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: db6f737c306801935887320bb3c6ff634cbc074c
+source-git-commit: 6326dbd0efdca6f7013e5fa4b59eb0e39d302bc3
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 3%
+source-wordcount: '628'
+ht-degree: 2%
 
 ---
 
@@ -41,49 +41,49 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Moyenne</a></td><td>La fonction "moyenne" renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#average">Moyenne</a></td><td>Cette fonction renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">Dans</a></td><td>La fonction "in" est utilisée pour déterminer si un élément est membre d'un tableau ou d'une liste.</td>
+        <td><a href="arrays-list.md#in">Dans</a></td><td>Cette fonction permet de déterminer si un élément est membre d'une baie ou d'une liste.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimum</a></td><td>La fonction "min" renvoie la plus petite des valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#min">Minimum</a>(min)</td><td>Cette fonction renvoie la plus petite des valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td>[Count](agrégation.md#count)</td><td></td>
+        <td><a href="aggregation.md#count">Count</a></td><td>Cette fonction renvoie le nombre d'éléments dans le tableau donné.</td>
     </tr>
     <tr>
-        <td>[Inclut](array-liste.md#inclut)</td><td></td>
+        <td><a href="arrays-list.md#includes">Inclut</a></td><td>Cette fonction détermine si un tableau ou une liste contient un élément donné.</td>
     </tr>
     <tr>
-        <td>[Not in](array-liste.md#notin) (notIn)</td><td></td>
+        <td><a href="arrays-list.md#notin">Not in</a>(notIn)</td><td>Cette fonction détermine si un élément n'est pas membre d'un tableau ou d'une liste.</td>
     </tr>
     <tr>
-        <td>[Distinct](array-liste.md#distinct)</td><td></td>
+        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>Cette fonction récupère les valeurs d'un tableau ou d'une liste dont les valeurs de duplicata sont supprimées.</td>
     </tr>
     <tr>
-        <td>[Intersects](array-liste.md#intersects)</td><td></td>
+        <td><a href="arrays-list.md#intersects">Intersectes</a></td><td>Cette fonction détermine si deux baies ou listes ont au moins un membre commun</td>
     </tr>
     <tr>
-        <td>[Sous-ensemble de](array-liste.md#subset)</td><td></td>
+        <td><a href="arrays-list.md#subset">Sous-ensemble de</a>(sous-ensembleDe)</td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sous-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
     </tr>
     <tr>
-        <td>[Premier élément](array-liste.md#head) (head)</td><td></td>
+        <td><a href="arrays-list.md#head">Premier élément</a> (en-tête)</td><td>Cette fonction renvoie le premier élément du tableau ou de la liste</td>
     </tr>
     <tr>
-        <td>[N dernier dans le tableau](array-liste.md#last-n) (lastN)</td><td></td>
+        <td><a href="arrays-list.md#last-n">N dernier dans le tableau</a> (lastN)</td><td>Cette fonction renvoie les derniers éléments "N" d'un tableau, lorsqu'ils sont triés par ordre croissant en fonction de l'expression numérique donnée.</td>
     </tr>
     <tr>
         <td>Sum</td><td></td>
     </tr>
     <tr>
-        <td>[Premier n dans la baie](array-liste.md#first-n) (topN)</td><td></td>
+        <td><a href="arrays-list.md#first-n">Premier n dans la baie</a> (topN)</td><td>Cette fonction renvoie les premiers éléments "N" d'un tableau, lorsqu'ils sont triés par ordre croissant en fonction de l'expression numérique donnée.</td>
     </tr>
     <tr>
-        <td>[Maximum](agrégation.md#maximum) (max.)</td><td></td>
+        <td><a href="aggregation.md#max">Maximum</a>(max.)</td><td>Cette fonction renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-    <td>[Paramètre supérieur de](array-liste.md#superset)</td><td></td>
+    <td><a href="arrays-list.md#superset">Paramètre supérieur à</td><td>Cette fonction se termine si un tableau spécifique (tableau A) est un superset d'un autre tableau (tableau B), c'est-à-dire si ce tableau A contient tous les éléments du tableau B.</td>
     </tr>
 </table>
 
