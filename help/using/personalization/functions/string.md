@@ -2,9 +2,9 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 2cd1a6cfede96bd1afb0b3f784d20cda5ebc6cb7
+source-git-commit: 3114dd81b3006c76d179543ac8063894a2c7aee4
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 7%
 
 ---
@@ -264,9 +264,6 @@ La requête suivante est utilisée pour extraire le nom de domaine d’une adres
 ```sql
 regexGroup(emailAddress,"@(\w+)", 1)
 ```
-
-
-## Fonctions
 
 ## Minuscule{#lower}
 
