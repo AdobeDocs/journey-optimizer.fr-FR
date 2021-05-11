@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 6326dbd0efdca6f7013e5fa4b59eb0e39d302bc3
+source-git-commit: e6d736ee9c1b2c83ce510d6ee96a133814a8c463
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 2%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -41,58 +41,66 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Moyenne</a></td><td>Cette fonction renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#average">Moyenne</a>  (moyenne)</td><td>Cette fonction renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">Dans</a></td><td>Cette fonction permet de déterminer si un élément est membre d'une baie ou d'une liste.</td>
+        <td><a href="arrays-list.md#in">In</a> (in)</td><td>Cette fonction permet de déterminer si un élément est membre d'une baie ou d'une liste.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimum</a>(min)</td><td>Cette fonction renvoie la plus petite des valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#min">Minimum</a> (min)</td><td>Cette fonction renvoie la plus petite des valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Count</a></td><td>Cette fonction renvoie le nombre d'éléments dans le tableau donné.</td>
+        <td><a href="aggregation.md#count">Count</a> (count)</td><td>Cette fonction renvoie le nombre d'éléments dans le tableau donné.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">Inclut</a></td><td>Cette fonction détermine si un tableau ou une liste contient un élément donné.</td>
+        <td><a href="arrays-list.md#includes">Inclut</a>  (inclut)</td><td>Cette fonction détermine si un tableau ou une liste contient un élément donné.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Not in</a>(notIn)</td><td>Cette fonction détermine si un élément n'est pas membre d'un tableau ou d'une liste.</td>
+        <td><a href="arrays-list.md#notin">Not in</a> (notIn)</td><td>Cette fonction détermine si un élément n'est pas membre d'un tableau ou d'une liste.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>Cette fonction récupère les valeurs d'un tableau ou d'une liste dont les valeurs de duplicata sont supprimées.</td>
+        <td><a href="arrays-list.md#distinct">Distinct</a>  (distinct)</td><td>Cette fonction récupère les valeurs d'un tableau ou d'une liste dont les valeurs de duplicata sont supprimées.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersectes</a></td><td>Cette fonction détermine si deux baies ou listes ont au moins un membre commun</td>
+        <td><a href="arrays-list.md#intersects">Intersects</a>  (intersectes)</td><td>Cette fonction détermine si deux baies ou listes ont au moins un membre commun</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">Sous-ensemble de</a>(sous-ensembleDe)</td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sous-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
+        <td><a href="arrays-list.md#subset">Sous-ensemble de</a> (sous-ensembleDe)</td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sous-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">Premier élément</a> (en-tête)</td><td>Cette fonction renvoie le premier élément du tableau ou de la liste</td>
+        <td><a href="arrays-list.md#head">Premier élément</a>  (en-tête)</td><td>Cette fonction renvoie le premier élément du tableau ou de la liste</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">N dernier dans le tableau</a> (lastN)</td><td>Cette fonction renvoie les derniers éléments "N" d'un tableau, lorsqu'ils sont triés par ordre croissant en fonction de l'expression numérique donnée.</td>
+        <td><a href="arrays-list.md#last-n">N dernier dans le tableau</a>  (lastN)</td><td>Cette fonction renvoie les derniers éléments "N" d'un tableau, lorsqu'ils sont triés par ordre croissant en fonction de l'expression numérique donnée.</td>
     </tr>
     <tr>
         <td>Sum</td><td></td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">Premier n dans la baie</a> (topN)</td><td>Cette fonction renvoie les premiers éléments "N" d'un tableau, lorsqu'ils sont triés par ordre croissant en fonction de l'expression numérique donnée.</td>
+        <td><a href="arrays-list.md#first-n">Premier n dans la baie</a>  (topN)</td><td>Cette fonction renvoie les premiers éléments "N" d'un tableau, lorsqu'ils sont triés par ordre croissant en fonction de l'expression numérique donnée.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">Maximum</a>(max.)</td><td>Cette fonction renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#max">Maximum</a> (max.)</td><td>Cette fonction renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Paramètre supérieur à</td><td>Cette fonction se termine si un tableau spécifique (tableau A) est un superset d'un autre tableau (tableau B), c'est-à-dire si ce tableau A contient tous les éléments du tableau B.</td>
+    <td><a href="arrays-list.md#superset">Superset of</a> (supersetOf)</td><td>Cette fonction se termine si un tableau spécifique (tableau A) est un superset d'un autre tableau (tableau B), c'est-à-dire si ce tableau A contient tous les éléments du tableau B.</td>
     </tr>
 </table>
 
 
 **Fonctions de mappage**
 
-* [Get](maps.md#get)
-* [Clés](maps.md#keys)
-* [Valeurs](maps.md#values)
+<table>
+    <tr>
+        <td><a href="maps.md#get">Get</a> (get)</td><td>Cette fonction est utilisée pour récupérer la valeur d'un mappage pour une clé donnée.</td>
+    </tr>
+    <tr>
+        <td><a href="maps.md#keys">Touches</a>  (clés)</td><td>Cette fonction est utilisée pour récupérer toutes les clés d'un mappage donné.</td>
+    </tr>
+    <tr>
+        <td><a href="maps.md#values">Valeurs</a>  (valeurs)</td><td>Cette fonction récupère toutes les valeurs d’un mappage donné.</td>
+    </tr>
+</table>
 
 **Fonctions d’objet**
 
