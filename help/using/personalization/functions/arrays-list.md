@@ -2,9 +2,9 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
+source-git-commit: 6326dbd0efdca6f7013e5fa4b59eb0e39d302bc3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '493'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ L’opération suivante définit les personnes dont la couleur préférée est l
 
 ## Distinct{#distinct}
 
-La fonction `distinct` permet de supprimer des valeurs de duplicata d&#39;un tableau ou d&#39;une liste.
+La fonction `distinct` est utilisée pour obtenir des valeurs d&#39;un tableau ou d&#39;une liste avec des valeurs de duplicata supprimées.
 
 **Format**
 
