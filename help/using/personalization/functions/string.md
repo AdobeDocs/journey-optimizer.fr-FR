@@ -2,7 +2,7 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 3114dd81b3006c76d179543ac8063894a2c7aee4
+source-git-commit: 031bce5c0bd45a591993d53b16b87cacefc6102c
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 7%
@@ -285,7 +285,7 @@ Cette fonction convertit le prénom du profil en lettres minuscules.
 
 ## majuscule{#upper}
 
-La fonction **upper** convertit une chaîne en lettres minuscules.
+La fonction **upper** convertit une chaîne en majuscules.
 
 Syntaxe :
 
