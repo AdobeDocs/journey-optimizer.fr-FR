@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 071e5e2a854c3fce289398ffe639d5ca47e4f59e
+source-git-commit: db6f737c306801935887320bb3c6ff634cbc074c
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 3%
 
 ---
 
@@ -40,36 +40,14 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 **Fonctions de tableau**
 
 <table>
-    <tr><td><a href="aggregation.md#average">Moyenne</a></td><td><a href="arrays-list.md#in">Dans</a></td><td><a href="aggregation.md#minimum">Minimum</a></td></tr>
-    <tr><td>[Count](agrégation.md#count)</td><td>[Inclut](array-liste.md#inclut)</td><td>[Not in](array-liste.md#notin) (notIn)</td></tr>
-    <tr><td>[Distinct](array-liste.md#distinct)</td><td>[Intersects](array-liste.md#intersects)</td><td>[Sous-ensemble de](array-liste.md#subset)</td></tr>
-    <tr><td>[Premier élément](array-liste.md#head) (head)</td><td>[N dernier dans le tableau](array-liste.md#last-n) (lastN)</td><td>Sum</td></tr>
-    <tr><td>[Premier n dans la baie](array-liste.md#first-n) (topN)</td><td>[Maximum](agrégation.md#maximum) (max.)</td><td>[Paramètre supérieur de](array-liste.md#superset)</td></tr>
-</table>
-
-
-**Fonctions de mappage**
-
-* [Get](maps.md#get)
-* [Clés](maps.md#keys)
-* [Valeurs](maps.md#values)
-
-**Fonctions d’objet**
-
-* [N’est pas nul](objects.md#isNotNull)
-* [Est nul](objects.md#isNull)
-
-**Fonctions de chaîne**
-
-<table>
     <tr>
-        <td>[Average](agrégation.md#average)</td><td>La fonction "moyenne" renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#average">Moyenne</a></td><td>La fonction "moyenne" renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td>[In](array-liste.md#in)</td><td>La fonction "in" est utilisée pour déterminer si un élément est membre d'un tableau ou d'une liste.</td>
+        <td><a href="arrays-list.md#in">Dans</a></td><td>La fonction "in" est utilisée pour déterminer si un élément est membre d'un tableau ou d'une liste.</td>
     </tr>
     <tr>
-        <td>[Minimum](agrégation.md#minimum) (min)</td><td>La fonction "min" renvoie la plus petite des valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#min">Minimum</a></td><td>La fonction "min" renvoie la plus petite des valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
         <td>[Count](agrégation.md#count)</td><td></td>
@@ -96,7 +74,7 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
         <td>[N dernier dans le tableau](array-liste.md#last-n) (lastN)</td><td></td>
     </tr>
     <tr>
-        <td>Somme</td><td></td>
+        <td>Sum</td><td></td>
     </tr>
     <tr>
         <td>[Premier n dans la baie](array-liste.md#first-n) (topN)</td><td></td>
@@ -105,10 +83,23 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
         <td>[Maximum](agrégation.md#maximum) (max.)</td><td></td>
     </tr>
     <tr>
-        <td>[Paramètre supérieur de](array-liste.md#superset)</td><td></td>
+    <td>[Paramètre supérieur de](array-liste.md#superset)</td><td></td>
     </tr>
 </table>
 
+
+**Fonctions de mappage**
+
+* [Get](maps.md#get)
+* [Clés](maps.md#keys)
+* [Valeurs](maps.md#values)
+
+**Fonctions d’objet**
+
+* [N’est pas nul](objects.md#isNotNull)
+* [Est nul](objects.md#isNull)
+
+**Fonctions de chaîne**
 
 <table>
     <tr>
