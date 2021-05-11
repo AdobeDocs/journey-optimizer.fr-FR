@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 3114dd81b3006c76d179543ac8063894a2c7aee4
+source-git-commit: 071e5e2a854c3fce289398ffe639d5ca47e4f59e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 3%
+source-wordcount: '522'
+ht-degree: 2%
 
 ---
 
@@ -63,29 +63,49 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 <table>
     <tr>
-        <td>[Average](agrégation.md#average)</td>
-        <td>[In](array-liste.md#in)</td>
-        <td>[Minimum](agrégation.md#minimum) (min)</td>
+        <td>[Average](agrégation.md#average)</td><td>La fonction "moyenne" renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td>[Count](agrégation.md#count)</td>
-        <td>[Inclut](array-liste.md#inclut)</td>
-        <td>[Not in](array-liste.md#notin) (notIn)</td>
+        <td>[In](array-liste.md#in)</td><td>La fonction "in" est utilisée pour déterminer si un élément est membre d'un tableau ou d'une liste.</td>
     </tr>
     <tr>
-        <td>[Distinct](array-liste.md#distinct)</td>
-        <td>[Intersects](array-liste.md#intersects)</td>
-        <td>[Sous-ensemble de](array-liste.md#subset)</td>
+        <td>[Minimum](agrégation.md#minimum) (min)</td><td>La fonction "min" renvoie la plus petite des valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td>[Premier élément](array-liste.md#head) (head)</td>
-        <td>[N dernier dans le tableau](array-liste.md#last-n) (lastN)</td>
-        <td>Somme</td>
+        <td>[Count](agrégation.md#count)</td><td></td>
     </tr>
     <tr>
-        <td>[Premier n dans la baie](array-liste.md#first-n) (topN)</td>
-        <td>[Maximum](agrégation.md#maximum) (max.)</td>
-        <td>[Paramètre supérieur de](array-liste.md#superset)</td>
+        <td>[Inclut](array-liste.md#inclut)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Not in](array-liste.md#notin) (notIn)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Distinct](array-liste.md#distinct)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Intersects](array-liste.md#intersects)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Sous-ensemble de](array-liste.md#subset)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Premier élément](array-liste.md#head) (head)</td><td></td>
+    </tr>
+    <tr>
+        <td>[N dernier dans le tableau](array-liste.md#last-n) (lastN)</td><td></td>
+    </tr>
+    <tr>
+        <td>Somme</td><td></td>
+    </tr>
+    <tr>
+        <td>[Premier n dans la baie](array-liste.md#first-n) (topN)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Maximum](agrégation.md#maximum) (max.)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Paramètre supérieur de](array-liste.md#superset)</td><td></td>
     </tr>
 </table>
 
