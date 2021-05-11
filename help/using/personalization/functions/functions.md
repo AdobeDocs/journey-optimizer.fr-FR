@@ -2,9 +2,9 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: e6d736ee9c1b2c83ce510d6ee96a133814a8c463
+source-git-commit: 031bce5c0bd45a591993d53b16b87cacefc6102c
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
@@ -104,51 +104,99 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 **Fonctions d’objet**
 
-* [N’est pas nul](objects.md#isNotNull)
-* [Est nul](objects.md#isNull)
+<table>
+    <tr>
+        <td><a href="objects.md#isNotNull">N’est pas nul</a>  (isNotNull)</td><td>Cette fonction permet de déterminer s’il existe une référence d’objet.</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#isNull">Est nul</a>  (isNull)</td><td>Cette fonction permet de déterminer si une référence d'objet n'existe pas.</td>
+    </tr>
+</table>
 
 **Fonctions de chaîne**
 
 <table>
     <tr>
-        <td>Camel Case</td>
-        <td>Concat</td>
-        <td>[Contient](string.md#contains)</td>
+        <td><a href="objects.md#isNotNull">Camel Case</a>  (chamelCase)</td><td>Cette fonction est utilisée pour</td>
     </tr>
     <tr>
-        <td>[Ne contient pas](string.md#doesNotContain)</td>
-        <td>[Ne se termine pas par](string.md#doesNotEndWith)</td>
-        <td>[Ne début pas avec](string.md#doesNotStartWith)</td>
+        <td><a href="objects.md#isNull">Concat</a>  (Concat)</td><td>Cette fonction est utilisée pour</td>
     </tr>
     <tr>
-        <td>Encode64</td>
-        <td>[Se termine par](string.md#endsWith)</td>
-        <td>[Est égal à](string.md#equals)</td>
+        <td><a href="string.md#contains">Contient</a>  (contient)</td><td>Cette fonction est utilisée pour déterminer si une chaîne contient une sous-chaîne spécifiée.</td>
     </tr>
     <tr>
-        <td>Est égal àIgnoreCase</td>
-        <td>IsEmpty</td>
-        <td>Length</td>
+        <td><a href="string.md#doesNotContain">Ne contient</a>  pas (ne contient pas)</td><td>Cette fonction est utilisée pour déterminer si une chaîne ne contient pas de sous-chaîne spécifiée.</td>
     </tr>
     <tr>
-        <td>[J’aime](string.md#like)</td>
-        <td>[Minuscule](string.md#lower)</td>
-        <td>[Correspond](string.md#match)</td>
+        <td><a href="string.md#doesNotEndWith">Ne se termine pas par</a>  (nePasTerminerAvec)</td><td>Cette fonction est utilisée pour déterminer si une chaîne ne se termine pas par une sous-chaîne spécifiée.</td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#doesNotStartWith">N'est pas début avec</a>  (nePasDémarrerAvec)</td><td>Cette fonction est utilisée pour déterminer si une chaîne ne se début pas avec une sous-chaîne spécifiée.</td>
     </tr>
     <tr>
-        <td> MD5</td>
-        <td>[N’est pas égal à](string.md#notEqualTo)</td>
-        <td>[Groupe d’expressions régulières](string.md#regexGroup) (regexGroup)</td>
+        <td><a href="string.md#doesNotContain">Encode64</a> ()</td><td>Cette fonction est utilisée pour</td>
     </tr>
     <tr>
-        <td>Replace</td><td>ReplaceAll</td>
-        <td>Partage</td>
-        <td>[Débuts avec](string.md#démarreAvec)</td>
+        <td><a href="string.md#endsWith">Se termine par</a>  (se termine par)</td><td>Cette fonction est utilisée pour déterminer si une chaîne se termine par une sous-chaîne spécifiée.</td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#equals">Est égal</a> (=)</td><td>Cette fonction est utilisée pour déterminer si une chaîne ne se début pas avec une sous-chaîne spécifiée.</td>
     </tr>
     <tr>
-        <td>Cas de titre</td>
-        <td>Rogner</td>
-        <td>[majuscule](string.md#upper)</td>
+        <td><a href="string.md#doesNotContain">EqualsIgnoreCase</a> ()</td><td>Cette fonction est utilisée pour</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#endsWith">IsEmpty</a> ()</td><td>Cette fonction est utilisée pour </td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#equals">Length</a> ()</td><td>Cette fonction est utilisée pour</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">J’aime</a>  (j’aime)</td><td>Cette fonction permet de déterminer si une chaîne correspond à un modèle spécifié.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#lower">Minuscule</a>  (minuscule)</td><td>Cette fonction convertit une chaîne en lettres minuscules</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#matches">Correspond</a> (correspond)</td><td>Cette fonction permet de déterminer si une chaîne correspond à une expression régulière spécifique.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">MD5</a> ()</td><td>Cette fonction est utilisée pour </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">N’est pas égal à</a>  (notEqualsTo)</td><td>Cette fonction est utilisée pour déterminer si une chaîne n'est pas égale à la chaîne spécifiée.</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Groupe</a>  d’expressions régulières (regexGroup)</td><td>Cette fonction est utilisée pour extraire des informations spécifiques, en fonction de l'expression régulière fournie.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">Replace</a> (replace)</td><td>Cette fonction est utilisée pour </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">Remplacer tout</a>  (replaceAll)</td><td>Cette fonction est utilisée pour</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Fractionner</a>  (fractionner)</td><td>Cette fonction est utilisée pour</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#startsWith">Débuts avec</a>  (commence par)</td><td>Cette fonction est utilisée pour déterminer si une chaîne est début avec une sous-chaîne spécifiée.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#startsWith">Case</a>  de titre (titleCase)</td><td>Cette fonction est utilisée pour</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Rognage</a>  (rognage)</td><td>Cette fonction est utilisée pour</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#upper">Majuscule</a>  (majuscule)</td><td>Cette fonction convertit une chaîne en majuscules</td>
     </tr>
 </table>
 
