@@ -2,9 +2,9 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 031bce5c0bd45a591993d53b16b87cacefc6102c
+source-git-commit: 0bfc6dbf63edd8dc2bc3127d613628ddc45c7d78
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '920'
 ht-degree: 1%
 
 ---
@@ -202,11 +202,11 @@ Ils sont regroupés en trois catégories : [Fonctions](#functions-helper), [Assi
 
 ### Aide{#helper-helper}
 
-* [Chaque](../personalization-syntax.md#each)
-* [if](../personalization-syntax.md#if)
-* let
-* [Sauf](../personalization-syntax.md#unless)
-* [with](../personalization-syntax.md#with)
+* Chacun - [En savoir plus](../personalization-syntax.md#each)
+* Si - [En savoir plus](../personalization-syntax.md#if)
+* Laisser - En savoir plus
+* Sauf si - [En savoir plus](../personalization-syntax.md#unless)
+* Avec - [En savoir plus](../personalization-syntax.md#with)
 
 ### Les opérateurs{#operators-helper}
 
@@ -214,59 +214,44 @@ Ces opérateurs ne peuvent être utilisés qu&#39;avec des nombres.
 
 <table>
     <tr>
-        <td>[Ajout](maths.md#add) (+)</td>
-        <td>Cet opérateur ajoute deux nombres</td>
+        <td><a href="operators.md#add">Addition</a> ('+')</td><td>Cet opérateur ajoute deux nombres</td>
     </tr>
     <tr>
-        <td>[And](opérateurs.md#and) (et)</td>
-        <td>Cet opérateur crée une conjonction logique.</td>
+        <td><a href="operators.md#and">Et</a>  (et)</td><td>Cet opérateur crée une conjonction logique.</td>
+    <tr>
+        <td><a href="operators.md#divide">Diviser</a> (/)</td><td>Cet opérateur est utilisé pour trouver le quotient de deux nombres.</td>
     </tr>
     <tr>
-        <td>[Division](maths.md#split) (/)</td>
-        <td>Cet opérateur est utilisé pour trouver le quotient de deux nombres.</td>
+        <td><a href="operators.md#and">Est égal à</a> (=)</td><td>Cette opération vérifie si les valeurs sont égales.</td>
     </tr>
     <tr>
-        <td>[Est égal à](opérateurs.md#and) (=)</td>
-        <td>Cette opération vérifie si les valeurs sont égales.</td>
+        <td><a href="operators.md#greaterthan">Supérieur à</a> ()</td><td>Cet opérateur vérifie si la première valeur est supérieure à la seconde.</td>
     </tr>
     <tr>
-        <td>[Supérieur à](opérateurs.md#supérieur à)</td>
-        <td>Cet opérateur vérifie si la première valeur est supérieure à la seconde.</td>
+        <td><a href="operators.md#greaterthanorequal">Supérieur ou égal à</a>  (=&gt;)</td><td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde.</td>
     </tr>
     <tr>
-        <td>[Supérieur ou égal à](opérateurs.md#plus grand nombre d’instances)</td>
-        <td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde.</td>
+        <td><a href="operators.md#multiply">Multiplication</a> (*)</td><td>Cet opérateur multiplie deux nombres</td>
     </tr>
     <tr>
-        <td>[Multiplication](maths.md#multiply) (*) </td>
-        <td>Cet opérateur multiplie deux nombres</td>
+        <td><a href="operators.md#not">Négation</a> (!)</td><td>Cet opérateur crée une négation logique.</td>
     </tr>
     <tr>
-        <td>[Négation](opérateurs.md#not) (!) </td>
-        <td>Cet opérateur crée une négation logique.</td>
+        <td><a href="operators.md#notequal">N’est pas égal à</a>  (=!)</td><td>Cet opérateur vérifie si une expression donnée n'est pas égale à la valeur donnée.</td>
     </tr>
     <tr>
-        <td>[Non égal à](opérateurs.md#notqual) (=!) </td>
-        <td>Cet opérateur vérifie si une expression donnée n'est pas égale à la valeur donnée.</td>
+        <td><a href="operators.md#or">Ou</a> (ou)</td><td>Cet opérateur crée une disjonction logique.</td>
     </tr>
     <tr>
-        <td>[Or](opérateurs.md#or) (ou) </td>
-        <td>Cet opérateur crée une disjonction logique.</td>
+        <td><a href="operators.md#remainder">Remainder</a> (%)</td><td>Cet opérateur est utilisé pour calculer les restes après avoir divisé deux nombres.</td>
     </tr>
     <tr>
-        <td>[Remainder](maths.md#reste) (%) </td>
-        <td>Cet opérateur est utilisé pour calculer les restes après avoir divisé deux nombres.</td>
+        <td><a href="operators.md#remainder">Plus petit que</a> ()</td><td>Cet opérateur vérifie si la première valeur est inférieure à la seconde.</td>
     </tr>
     <tr>
-        <td>Plus petit que</td>
-        <td>Cet opérateur vérifie si la première valeur est inférieure à la seconde.</td>
+        <td><a href="operators.md#greaterthanorequal">Plus petit ou égal à</a> ()</td><td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la seconde.</td>
     </tr>
     <tr>
-        <td>Plus petite ou égale à</td>
-        <td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la seconde.</td>
-    </tr>
-    <tr>
-        <td>[Substraction](maths.md#subact) (-) </td>
-        <td>Cet opérateur sous-chaîne deux nombres</td>
+        <td><a href="operators.md#substract">Substraction</a> ()</td><td>Cet opérateur sous-chaîne deux nombres</td>
     </tr>
 </table>
