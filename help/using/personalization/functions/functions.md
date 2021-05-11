@@ -2,10 +2,10 @@
 title: Bibliothèque des fonctions d'assistance
 description: Bibliothèque des fonctions d’assistance Journey Optimizer
 translation-type: tm+mt
-source-git-commit: 0bfc6dbf63edd8dc2bc3127d613628ddc45c7d78
+source-git-commit: 3fa63e103c2185062ff779c35d19387aea523f62
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 1%
+source-wordcount: '904'
+ht-degree: 0%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 1%
 ## A propos du modèle de langue
 
 Utilisez le langage de modèle Journey Optimizer pour effectuer des opérations sur les données, telles que des calculs, le formatage ou les conversions de données, les conditions et les manipuler dans le contexte de la personnalisation.
-
-Les fonctions disponibles sont répertoriées dans les pages suivantes :
-
-* [Opérateurs](operators.md)
-* [Agrégation](aggregation.md)
-* [Tableaux et liste](arrays-list.md)
-* [Mathématique](maths.md)
-* [Mappages](maps.md)
-* [Objets](objects.md)
-* [Chaîne](string.md)
 
 La langue de modèle est exploitée dans les fonctions d’aide disponibles dans la liste déroulante Personnalisation de l’éditeur d’expressions.
 
