@@ -1,17 +1,17 @@
 ---
-title: Rechercher une balise
+title: Recherche d’une balise
 description: Les balises vous permettent de mieux organiser et trier vos offres.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Rechercher une balise
+# Recherche d’une balise
 
-Vous pouvez rechercher des balises spécifiques en envoyant une requête de GET à l&#39;API [!DNL Offer Library] qui inclut soit la balise `@id`, soit le nom de la balise dans le chemin de la requête.
+Vous pouvez rechercher des balises spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut la balise `@id` ou le nom de la balise dans le chemin de la requête.
 
 **Format d’API**
 
@@ -21,13 +21,13 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les balises. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | Définit le schéma associé aux balises. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Chaîne utilisée pour correspondre à la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:tag:124e147572cd7866` |
-| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la mise en majuscules, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `Holiday sales and promotions` |
+| `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:tag:124e147572cd7866` |
+| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Holiday sales and promotions` |
 
-**Demande**
+**Requête**
 
 ```shell
 curl -X GET \
@@ -41,7 +41,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la balise, y compris les informations sur votre ID de conteneur, l&#39;ID d&#39;instance et la balise unique `@id`.
+Une réponse réussie renvoie les détails de la balise, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` de balise unique.
 
 ```json
 {
