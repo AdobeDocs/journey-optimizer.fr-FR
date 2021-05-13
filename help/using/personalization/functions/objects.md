@@ -2,10 +2,10 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 89%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 7%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Est nul{#isNull}
+## Fonction isNull
 
-La fonction `isNull` détermine si une référence d&#39;objet n&#39;existe pas.
+La fonction `isNull` détermine si une référence d’objet n’existe pas.
 
 **Format**
 
@@ -25,15 +25,15 @@ isNull({OBJECT})
 
 **Exemple**
 
-L’opération suivante vérifie si l’adresse de domicile de la personne n’existe pas.
+La requête PQL suivante vérifie si l’adresse de la personne n’existe pas.
 
 ```sql
 isNull(person.homeAddress)
 ```
 
-## N’est pas nul{#isNotNull}
+## Fonction isNotNull
 
-La fonction `isNotNull` détermine si une référence d&#39;objet existe.
+La fonction `isNotNull` détermine si une référence d’objet existe.
 
 **Format**
 
@@ -43,7 +43,7 @@ isNotNull({OBJECT})
 
 **Exemple**
 
-L’opération suivante vérifie si l’adresse de domicile de la personne existe.
+La requête PQL suivante vérifie si l’adresse de la personne existe.
 
 ```sql
 isNotNull(person.homeAddress)
