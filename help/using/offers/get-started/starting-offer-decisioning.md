@@ -2,10 +2,10 @@
 title: Prise en main de Decision Management
 description: Commencez avec la gestion des décisions. En savoir plus sur son architecture, ses offres et ses décisions, ainsi que sur les cas d'utilisation courants qu'elle permet d'effectuer.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 0%
+ht-degree: 38%
 
 ---
 
@@ -19,23 +19,23 @@ La fonctionnalité Gestion de la décision comprend deux composants principaux :
 * La **bibliothèque d&#39;Offres centralisée** est l&#39;interface dans laquelle vous créez et gérez les différents éléments qui composent vos offres, et définissez leurs règles et contraintes.
 * **Moteur de décision d&#39;Offre** qui exploite les données Adobe Experience Platform et les profils client en temps réel, ainsi que la bibliothèque d&#39;Offres, afin de sélectionner l&#39;heure, les clients et les canaux appropriés pour la livraison des offres.
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
-Les avantages incluent :
+Voici quelques-uns des avantages :
 
-* Amélioration des performances des campagnes en fournissant des offres personnalisées sur plusieurs canaux,
-* Workflows améliorés : au lieu de créer plusieurs diffusions ou campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en modifiant les offres dans différentes parties du modèle,
+* Amélioration des performances des campagnes en fournissant des offres personnalisées sur plusieurs canaux ;
+* Workflows améliorés : au lieu de créer plusieurs diffusions ou campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en modifiant les offres dans différentes parties du modèle ;
 * Contrôle du nombre d’affichages d’une offre sur plusieurs campagnes et clients.
 
-![](../assets/do-not-localize/how-to-video.png) [Regardez ces ](#tutorial-videos) vidéos didacticielles pour en savoir plus sur la gestion des décisions.
+![](../../assets/do-not-localize/how-to-video.png) [Regardez ces ](#tutorial-videos) vidéos didacticielles pour en savoir plus sur la gestion des décisions.
 
 ## À propos des offres et décisions {#offers-offer-activities}
 
-Une **Offre** est composée de contenu, de règles d&#39;éligibilité et de contraintes qui définissent les conditions dans lesquelles elle est présentée à vos clients.
+Une **Offre** est composée de contenu, de règles d’éligibilité et de contraintes qui définissent les conditions dans lesquelles elle est présentée à vos clients.
 
-Il est créé à l’aide de la **bibliothèque d’Offres**, qui fournit un catalogue d&#39;offres central dans lequel vous pouvez associer des règles d&#39;éligibilité et des contraintes à plusieurs éléments de contenu pour créer et publier des offres (voir [interface utilisateur de la bibliothèque d’Offres](../get-started/user-interface.md)).
+Elle est créée à l’aide de la **bibliothèque des offres**, qui fournit un catalogue centralisé dans lequel vous pouvez associer des règles d’éligibilité et des contraintes à plusieurs éléments de contenu pour créer et publier des offres (voir la section[Interface utilisateur de la bibliothèque des offres](../get-started/user-interface.md)).
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 Une fois que la bibliothèque d&#39;Offres a été enrichie avec des offres, vous pouvez intégrer vos offres dans **décisions** (précédemment appelées &quot;activités d&#39;offre&quot;).
 
@@ -45,19 +45,19 @@ Les décisions sont des conteneurs pour vos offres qui exploiteront le moteur de
 
 Les fonctionnalités de gestion des décisions et l’intégration à Adobe Experience Platform vous permettent de couvrir de nombreux cas d’utilisation afin d’augmenter l’engagement et la conversion des clients.
 
-* Affichez sur votre site Web les offres de la page d’accueil qui correspondent au point d’intérêt du client visiteur, en fonction des données de Adobe Experience Platform.
+* Affichez sur votre site Web les offres de la page d’accueil qui correspondent au point d’intérêt du client visiteur, en fonction des données issues d’Adobe Experience Platform.
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
-* Si les clients se rendent près d&#39;un de vos magasins, envoyez-leur des notifications Push leur rappelant les offres disponibles en fonction de leurs attributs (niveau de fidélité, sexe, anciens achats...).
+* Si les clients passent près de l’un de vos magasins, adressez-leur des notifications Push leur rappelant les offres disponibles en fonction de leurs attributs (niveau de fidélité, genre, achats antérieurs...).
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * La gestion des décisions vous aide également à améliorer l’expérience de vos clients lorsque vous contactez votre équipe d’assistance. Les API de gestion des décisions vous permettent d’afficher dans le portail des agents de votre centre d’appels des informations sur les meilleures offres échangées par le client et les prochaines.
 
-   ![](../assets/call-center.png)
+   ![](../../assets/call-center.png)
 
-## Vidéos didactiques {#tutorial-videos}
+## Tutoriels vidéo {#tutorial-videos}
 
 >[!NOTE]
 >
