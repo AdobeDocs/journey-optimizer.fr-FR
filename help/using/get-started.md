@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
-## Qu&#39;est-ce que [!DNL Journey Optimizer] ?{#about-cjm}
+## Présentation d’[!DNL Journey Optimizer] {#about-cjm}
 
 [!DNL Journey Optimizer] aide les sociétés à proposer des expériences connectées, contextuelles et personnalisées à leurs clients. Le parcours client est l’ensemble du processus d’interaction d’un client avec la marque, depuis le premier moment de contact jusqu’au départ du client. Il début avec la phase de sensibilisation, où le client apprend à propos de la marque et des débuts engageants. Le client interagira ensuite davantage avec la marque, visitera les sites Web et physiques, effectuera des achats, enverra des messages ou publiera des commentaires.
 
@@ -48,10 +48,10 @@ Saisissez un objet, vos commentaires et cliquez sur **Soumettre**. Si nécessair
 
 >[!NOTE]
 >
->Les lignes directrices et procédures générales de Adobe Experience Cloud sur la protection des renseignements personnels s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité](https://www.adobe.com/privacy/experience-cloud.html) de Adobe Experience Cloud.
+>Les lignes directrices et procédures générales de Adobe Experience Cloud sur la protection des renseignements personnels s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité](https://www.adobe.com/fr/privacy/experience-cloud.html) de Adobe Experience Cloud.
 
 
-**Voir aussi**
+**Voir également**
 
 * [Étapes clés du début](quick-start.md)
 * [Créer votre premier message](get-started-content.md)
