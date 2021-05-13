@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1059'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -13,74 +13,74 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Dans cette section, vous trouverez comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Toutes les vérifications répertoriées ci-dessous peuvent être effectuées lorsque le parcours est en mode test ou lorsque le parcours est actif. La recommandation consiste à effectuer toutes les vérifications ci-dessous en mode test, puis à passer à la publication. Voir [cette page](../building-journeys/testing-the-journey.md).
+Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d’effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d’effectuer la publication. Voir [cette page](../building-journeys/testing-the-journey.md).
 
-## Recherche d’erreurs avant le test{#section_h3q_kqk_fhb}
+## Vérification des erreurs avant le test{#section_h3q_kqk_fhb}
 
-Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont toujours détectées par le système.
+Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
 
-Les erreurs s’affichent avec un symbole d’avertissement affiché sur les activités elles-mêmes sur la trame. Placez votre curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous cliquez sur l&#39;activité, vous devriez voir la ligne en erreur avec un avertissement. Par exemple, si un champ obligatoire est vide, une erreur s’affiche.
+Les erreurs sont représentées par un symbole d’avertissement, affiché sur l’activité elle-même, dans la zone de travail. Placez le curseur sur le point d’exclamation pour afficher le message d’erreur. Si vous cliquez sur l’activité, vous devez voir la ligne contenant l’erreur associée à un avertissement. Par exemple, si un champ obligatoire est vide, une erreur s’affiche.
 
 ![](../assets/journey63.png)
 
-Par exemple, dans la trame, lorsque deux activités sont déconnectées, un avertissement s’affiche.
+Par exemple, dans la zone de travail, lorsque deux activités sont déconnectées, un avertissement s’affiche.
 
 ![](../assets/canvas-disconnected.png)
 
-Un signe d’avertissement peut s’afficher en regard de l’activation/désactivation de **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**. Ce panneau d&#39;avertissement affiche les erreurs détectées par le système et empêche l&#39;activation du mode de test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des erreurs visibles sur les activités, mais parfois elles sont liées à d&#39;autres problèmes. Dans ce cas, vous pouvez les afficher, essayer d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à identifier le problème, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs bloquant le test et les erreurs bloquant la publication sont similaires.
+En regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**, un signe d’avertissement peut s’afficher. Il indique les erreurs détectées par le système et empêche l’activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d’autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d’identifier le problème à l’aide de la description de l’erreur. Si vous ne parvenez pas à l’identifier, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
 
-Le système détecte deux types de problèmes : erreurs et avertissements. Les erreurs bloquent la publication et l’activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l&#39;activation ou la publication des tests. Vous verrez une description du problème et un ID de journal des publications du type ERR_XXX_XXX. Cela permettra à l&#39;assistance technique d&#39;identifier le problème.
+Le système détecte deux types de problèmes : les erreurs et les avertissements. Les erreurs bloquent la publication et l’activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l’activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Ce format facilite l’identification du problème par l’assistance technique.
 
-Deux couleurs différentes peuvent être affichées sur le signe en regard de la bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**. Le signe s&#39;affiche en rouge en cas d&#39;erreur. Il s’affiche en orange en cas d’avertissement.
+Le signe en regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]** peut apparaître dans deux couleurs différentes. Il est rouge en cas d’erreur, et orange pour un avertissement.
 
 ![](../assets/journey75.png)
 
-Les erreurs et avertissements globaux au parcours apparaissent en premier dans la liste. Les erreurs et les avertissements liés à des activités spécifiques sont répertoriés après, par ordre d’activité ou par apparence dans le parcours de gauche à droite. Le bouton **[!UICONTROL Copier les détails]** copie les informations techniques sur le parcours que l&#39;équipe d&#39;assistance peut utiliser pour résoudre les problèmes.
+Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d’activité ou d’apparition dans le parcours, de gauche à droite. Le bouton **[!UICONTROL Copier les détails]** copie les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes.
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d&#39;erreur]**. Voir [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
-## Vérification de l&#39;envoi correct des événements{#section_rqz_11t_dgb}
+## Vérification de l’envoi correct des événements{#section_rqz_11t_dgb}
 
-Le point de départ d&#39;un parcours est toujours un événement. Vous pouvez effectuer des tests à l’aide d’outils tels que Postman.
+Le point de départ d’un parcours est toujours un événement. Il est possible d’effectuer des tests à l’aide d’outils tels que Postman.
 
-Vous pouvez vérifier si l’appel d’API que vous envoyez via ces outils est correctement envoyé ou non. Si vous recevez une erreur, cela signifie que votre appel comporte un problème. Vérifiez à nouveau la charge utile, l’en-tête (et en particulier l’ID d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur quelle est l’URL appropriée pour l’accès.
+Vous pouvez ainsi vérifier si l’appel d’API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l’en-tête (et en particulier l’identifiant d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur l’URL appropriée pour l’accès.
 
-Les événements ne sont pas poussés directement de la source vers les parcours. En effet, les parcours dépendent des API d’assimilation en flux continu de Adobe Experience Platform. Par conséquent, en cas de problèmes liés au événement, vous pouvez consulter [cette page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) pour le dépannage des API d&#39;assimilation en flux continu.
+Les événements ne sont pas poussés directement de la source vers les parcours. En effet, les parcours dépendent des API d’assimilation en flux continu de Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter [cette page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
-## Vérification de l’entrée des personnes dans le parcours {#section_x4v_zzs_dgb}
+## Vérification de l’entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
-Le rapports parcours mesure les entrées des gens dans un parcours en temps réel.
+Les rapports produits par Journey donnent des mesures en temps réel des entrées des visiteurs dans un parcours.
 
-Si vous envoyez le événement avec succès mais que vous ne voyez pas d&#39;entrée dans le parcours, cela signifie que quelque chose ne va pas entre l&#39;envoi du événement et la réception du événement dans le parcours.
+Si l’événement a été envoyé avec succès, mais que vous ne voyez pas d’entrée dans le parcours, cela signifie qu’une erreur s’est produite entre l’envoi de l’événement et la réception de l’événement dans le parcours.
 
-Voici quelques éléments que l’administrateur doit vérifier :
+En tant qu’administrateur, vous devez vérifier les points suivants :
 
-* Êtes-vous sûr que le parcours où vous prévoyez que le événement entrant est en mode test ou en direct ?
-* Avez-vous enregistré votre événement avant de copier la charge utile à partir de la prévisualisation de charge utile ?
-* Votre charge de événement contient-elle un ID de événement ?
-* As-tu atteint la bonne URL ?
-* Avez-vous suivi la structure de charge utile des API d&#39;importation en flux continu, à l&#39;aide de la prévisualisation de structure de charge dans le volet de configuration du événement ? Voir [cette page](../event/about-creating.md#preview-the-payload).
-* Avez-vous utilisé les paires clé/valeur appropriées dans l’en-tête de votre événement ?
+* Êtes-vous certain que le parcours où vous attendez l’événement entrant est en mode test ou actif ?
+* Avez-vous enregistré l’événement avant de copier la payload depuis l’aperçu de la payload ?
+* La payload d’événement contient-elle un identifiant d’événement ?
+* Avez-vous atteint la bonne URL ?
+* Avez-vous appliqué la structure de payload des API d’ingestion en flux continu en utilisant l’aperçu de la structure de payload dans le volet de configuration des événements ? Voir [cette page](../event/about-creating.md#preview-the-payload).
+* Avez-vous utilisé les paires clé/valeur appropriées dans l’en-tête de l’événement ?
 
    ```
    X-gw-ims-org-id - your ORGID
    Content-type - application/json
    ```
 
-## Vérification de la navigation des personnes dans le parcours{#section_l5y_yzs_dgb}
+## Vérification de la manière dont les visiteurs naviguent dans le parcours{#section_l5y_yzs_dgb}
 
-Parcours rapports mesure le progrès des individus dans un parcours. Il est facile d&#39;identifier où et pourquoi une personne a été arrêtée.
+Les rapports produits par Journey mesurent la progression des individus dans un parcours. Il est très facile d’identifier où et pourquoi une personne s’est arrêtée.
 
-Voici quelques éléments à vérifier :
+Les éléments à vérifier sont les suivants :
 
-* Est-ce dû à une condition excluant la personne ? Par exemple, la condition est &quot;sexe = homme&quot; et la personne est une femme. Cette vérification peut être effectuée par un utilisateur de l’entreprise si la condition n’est pas trop complexe.
-* Est-ce dû à un appel à une source de données qui ne répond pas ? Lorsque le parcours est en test, ces informations sont visibles dans les journaux de mode test. Lorsque le parcours est actif, un administrateur peut tester les appels directs à la source de données et vérifier la réponse reçue. Un administrateur peut également duplicata le parcours et le tester.
+* La situation est-elle due à une condition excluant la personne concernée ? Par exemple, la condition est « genre = masculin » et la personne est une femme. Si la condition n’est pas trop complexe, un utilisateur chargé de la conception de parcours peut effectuer cette vérification.
+* La situation est-elle due à une source de données qui ne répond pas ? Lorsque le parcours est en test, ces informations apparaissent dans les journaux du mode test. Lorsque le parcours est actif, un administrateur peut tester les appels directs à la source de données et vérifier la réponse reçue. Il peut également dupliquer le parcours et le tester.
 
-## Vérification de l&#39;envoi des messages {#section_qb1_yzs_dgb}
+## Vérification de l’envoi des messages{#section_qb1_yzs_dgb}
 
-Si des individus circulent de la bonne manière dans le parcours mais ne reçoivent pas de messages qu&#39;ils devraient recevoir, vous pouvez vérifier si :
+Si les individus suivent le bon chemin dans le parcours sans recevoir de messages, vous pouvez vérifier les points suivants :
 
 * Journey Optimizer a correctement pris en compte la demande d&#39;envoi du message. Un utilisateur d&#39;entreprise peut accéder au message supposé être envoyé et vérifier si l&#39;heure de la dernière exécution correspond à l&#39;heure d&#39;exécution de votre parcours. Il peut également vérifier les derniers appels/événements d&#39;API reçus.
-* Journey Optimizer a envoyé le message avec succès. Dans les journaux d’envoi du message, vous pouvez voir l’état de chaque exécution. Vous pouvez voir si c&#39;est vert, rouge et quel était le problème. Un utilisateur d’entreprise peut accéder à cet écran et envoyer les journaux à un administrateur pour plus d’informations.
+* Journey Optimizer a envoyé le message avec succès. Dans les journaux d’envoi du message, vous pouvez voir l’état de chaque exécution. en vert ou en rouge, et la nature du problème. Un utilisateur chargé de la conception de parcours peut accéder à cet écran et envoyer les journaux à un administrateur pour plus d’informations.
 
-Dans le cas d’un message envoyé par le biais d’une action personnalisée, la seule chose qui peut être vérifiée pendant le test de parcours est le fait que l’appel du système de l’action personnalisée entraîne ou non une erreur. Si l&#39;appel au système externe associé à l&#39;action personnalisée ne conduit pas à une erreur mais n&#39;entraîne pas l&#39;envoi d&#39;un message, certaines enquêtes doivent être effectuées du côté du système externe.
+Dans le cas d’un message envoyé par le biais d’une action personnalisée, le seul élément vérifiable pendant le test du parcours est l’apparition ou non d’une erreur suite à l’appel du système à l’aide d’une action personnalisée. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais ne déclenche pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.
