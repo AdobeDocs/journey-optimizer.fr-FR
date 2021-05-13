@@ -2,38 +2,38 @@
 title: Création de balises
 description: Découvrez comment créer des offres dans Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
-# Créer des balises {#creating-tags}
+# Création de balises {#creating-tags}
 
-L’association de balises à vos offres facilite leur organisation. Par exemple, vous pouvez étiqueter vos offres Black Friday avec la balise Black Friday. Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque d’Offres pour localiser facilement toutes les offres associées à cette balise.
+L’association de balises à vos offres facilite leur organisation. Par exemple, vous pouvez libeller vos offres Black Friday à l’aide de la balise « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à cette balise.
 
-Les balises peuvent également être utilisées pour regrouper les offres dans des collections d’offres. Voir [Création de collections](../offer-library/creating-collections.md).
+Les balises peuvent également être utilisées pour regrouper les offres sous forme de collections d’offres. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-![](../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 La liste des balises créées est accessible dans le menu **[!UICONTROL Composants]**.
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
-Pour créer une balise, procédez comme suit :
+Pour créer une balise, procédez comme suit :
 
-1. Accédez à l&#39;onglet **[!UICONTROL Balises]**, puis cliquez sur **[!UICONTROL Créer une balise]**.
+1. Accédez à l’onglet **[!UICONTROL Balises]**, puis cliquez sur **[!UICONTROL Créer une balise]**.
 
 1. Indiquez le nom de la balise, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. Une fois la balise créée, elle s’affiche dans la liste. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
-## Vidéo didactique {#video}
+## Tutoriel vidéo {#video}
 
 >[!NOTE]
 >
