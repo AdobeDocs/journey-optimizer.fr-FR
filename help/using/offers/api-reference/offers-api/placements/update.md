@@ -1,27 +1,27 @@
 ---
-title: mettre à jour un emplacement
-description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
+title: mise à jour d’un placement
+description: Les placements sont des conteneurs utilisés pour présenter vos offres.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Mettre à jour un emplacement
+# Mise à jour d’un placement
 
-Vous pouvez modifier ou mettre à jour un emplacement dans votre conteneur en adressant une requête de PATCH à l&#39;API [!DNL Offer Library].
+Vous pouvez modifier ou mettre à jour un emplacement dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
 
-Pour plus d’informations sur le correctif JSON, y compris les opérations disponibles, consultez la [documentation officielle sur le correctif JSON](http://jsonpatch.com/).
+Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
 ## En-têtes Accepter et Type de contenu
 
-Le tableau suivant présente les valeurs valides qui comprennent les champs *Content-Type* et *Accepter* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Type de contenu* et *Accepter* dans l’en-tête de la requête :
 
 | Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **Format d’API**
@@ -32,11 +32,11 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les emplacements. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID d&#39;instance de l&#39;emplacement que vous souhaitez mettre à jour. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{INSTANCE_ID}` | ID d’instance de l’emplacement que vous souhaitez mettre à jour. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
-**Demande**
+**Requête**
 
 ```shell
 curl -X PATCH \
@@ -63,13 +63,13 @@ curl -X PATCH \
 
 | Paramètre | Description |
 | --------- | ----------- |
-| `op` | Appel d&#39;opération utilisé pour définir l&#39;action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
+| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
 | `path` | Chemin d’accès du paramètre à mettre à jour. |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour du placement, y compris son identifiant d&#39;instance unique et son emplacement `@id`.
+Une réponse réussie renvoie les détails mis à jour de l’emplacement, y compris son identifiant d’instance unique et l’`@id` d’emplacement.
 
 ```json
 {
