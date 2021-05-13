@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Le **[!UICONTROL rapport en direct]** de l’adresse électronique est divisé e
 
 * **[!UICONTROL Envoyé]** : Nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -37,7 +37,7 @@ Le **[!UICONTROL rapport en direct]** de l’adresse électronique est divisé e
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi]** détaille la réussite de votre diffusion :
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
