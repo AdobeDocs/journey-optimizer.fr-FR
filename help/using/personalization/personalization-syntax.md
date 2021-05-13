@@ -1,11 +1,10 @@
 ---
 title: Syntaxe de la personnalisation
 description: Découvrez comment utiliser la syntaxe de personnalisation
-translation-type: tm+mt
 source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +25,7 @@ Exemple d&#39;expression simple :
 {{profile.person.name}}
 ```
 
-where:
+où :
 
 * **** profileest un espace de nommage.
 * **person.** name est un jeton composé par attributs. La structure des attributs est définie dans un Schéma Adobe Experience Platform XDM. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
