@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Les fonctionnalités de message Journey Optimizer sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Reportez-vous à [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou email conçu à l&#39;aide de Journey Optimizer.
+Les fonctionnalités de message Journey Optimizer sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou email conçu à l&#39;aide de Journey Optimizer.
 
 Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md).
 
@@ -47,7 +47,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
 ## Paramètres de canal
 
-Les paramètres **Canal** s&#39;affichent. Ces champs sont en lecture seule. Cette configuration est effectuée lors de la création du message. Reportez-vous à [cette section](../get-started-content.md).
+Les paramètres **Canal** s&#39;affichent. Ces champs sont en lecture seule. Cette configuration est effectuée lors de la création du message. Consultez [cette section](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
