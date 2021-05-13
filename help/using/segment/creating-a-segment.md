@@ -5,11 +5,11 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Créer des segments {#build-segments}
+# Création de segments {#build-segments}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -19,7 +19,7 @@ Dans cet exemple, nous allons créer un segment pour cible à tous les clients r
 
    ![](../assets/create-segment.png)
 
-   L’écran de définition de segment vous permet de configurer tous les champs requis pour définir votre segment. Découvrez comment configurer des segments dans la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. Découvrez comment configurer des segments dans la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](../assets/segment-builder.png)
 
@@ -31,7 +31,7 @@ Dans cet exemple, nous allons créer un segment pour cible à tous les clients r
 
    >[!NOTE]
    >
-   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **XDM Individuel** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la documentation [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **XDM Individuel** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la documentation [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
    ![](../assets/drag-fields.png)
 
@@ -50,4 +50,4 @@ Dans cet exemple, nous allons créer un segment pour cible à tous les clients r
 
 1. Une fois le segment prêt, cliquez sur **[!UICONTROL Enregistrer]**. Il s’affiche dans la liste des segments Adobe Experience Platform. Notez qu’une barre de recherche est disponible pour vous aider à rechercher un segment spécifique dans la liste.
 
-Le segment peut désormais être utilisé dans vos parcours. Pour plus d&#39;informations à ce sujet, consultez [cette section](../segment/about-segments.md).
+Le segment peut désormais être utilisé dans vos parcours. Voir à ce propos [cette section](../segment/about-segments.md).
