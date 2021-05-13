@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -43,7 +43,7 @@ Le **[!UICONTROL rapport global]** par courriel est divisé en différents widge
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi]** détaille la réussite de votre diffusion :
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -71,7 +71,7 @@ La table **[!UICONTROL E-mail - Statistiques de suivi]** contient les données d
 
 * **[!UICONTROL Ouvre]** : Nombre de fois où la diffusion a été ouverte dans une diffusion.
 
-* **[!UICONTROL Ouverture]** unique : Nombre de destinataires qui ont ouvert la diffusion.
+* **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
 
 * **[!UICONTROL Taux]** d&#39;ouverture : Pourcentage de messages ouverts.
 
@@ -85,6 +85,6 @@ Le rapport **[!UICONTROL Ouvrir et cliquer]** identifie l&#39;interaction de vos
 
 * **[!UICONTROL Clics]** uniques : nombre de destinataires qui ont cliqué sur un contenu d’un courrier électronique.
 
-* **[!UICONTROL Ouverture]** unique : Nombre de destinataires qui ont ouvert la diffusion.
+* **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
 
 Le graphique **[!UICONTROL E-mail - URL supérieure]** et le tableau indiquent les URL de votre diffusion les plus visitées.
