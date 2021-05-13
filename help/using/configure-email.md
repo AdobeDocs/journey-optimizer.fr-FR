@@ -1,9 +1,8 @@
 ---
 title: Configuration d’un courrier électronique
 description: Découvrez comment configurer un courrier électronique dans Journey Optimizer
-exl-id: 6f389e93-3332-4137-8662-26b46b914504
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
