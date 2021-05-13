@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Pour ce type de événement, vous pouvez uniquement ajouter une étiquette et une description. Le reste de la configuration ne peut pas être modifié. Il a été effectué par l’utilisateur technique. Voir [cette page](../event/about-events.md).
+Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C’est l’utilisateur technique qui s’en charge. Voir [cette page](../event/about-events.md).
 
 ![](../assets/general-events.png)
 
 Lorsque vous déposez un événement métier, il ajoute automatiquement une activité **Lire le segment**. Pour plus d&#39;informations sur les événements d&#39;activité, consultez [cette section](../event/about-events.md)
 
-## Écoute des événements pendant une période spécifique {#events-specific-time}
+## Écoute d’événements au cours d’une période spécifique {#events-specific-time}
 
-Une activité événement positionnée dans le parcours écoute les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer un délai d’expiration pour le événement.
+Une activité d’événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer une temporisation pour l’événement.
 
-Le parcours écoute ensuite le événement pendant la durée spécifiée dans le délai d’attente. Si un événement est reçu au cours de cette période, la personne s&#39;écoule dans le chemin du événement. Dans le cas contraire, le client va soit suivre un délai d’expiration, soit terminer son parcours.
+Ce faisant, le parcours écoutera l’événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l’événement. Si ce n’est pas le cas, le client va, au choix, s’engager dans un chemin de temporisation ou terminer son parcours.
 
-Pour configurer un délai d’expiration pour un événement, procédez comme suit :
+Pour configurer une temporisation d’événement, procédez comme suit :
 
-1. Activez l&#39;option **[!UICONTROL Activer le délai d&#39;expiration du événement]** à partir des propriétés du événement.
+1. Activez l’option **[!UICONTROL Définir la temporisation de l’événement]** dans les propriétés de l’événement.
 
-1. Indiquez la durée d’attente du événement par le parcours.
+1. Définissez la durée pendant laquelle le parcours attendra l’événement.
 
-1. Si vous souhaitez envoyer les individus dans un chemin de délai d’attente lorsqu’aucun événement n’est reçu dans le délai d’attente spécifié, activez l’option **[!UICONTROL Définir le chemin d’expiration]**. Si cette option n’est pas activée, le parcours se terminera pour l’utilisateur une fois le délai dépassé.
+1. Si vous souhaitez orienter les individus vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un itinéraire de temporisation]**. Si cette option n’est pas activée, le parcours se termine pour l’individu une fois le délai de temporisation atteint.
 
    ![](../assets/event-timeout.png)
 
-Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il envoie alors une remise de repas uniquement si le client entre dans le restaurant le lendemain. Nous avons donc configuré le événement de restaurant avec un délai d&#39;attente d&#39;un jour :
+Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il n’envoie ensuite un message d’offre de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l’événement « restaurant » avec une temporisation d’un jour :
 
 * Si le événement du restaurant est reçu moins d&#39;une journée après la notification d&#39;accueil, le message push de remise de repas est envoyé.
-* Si aucun événement de restaurant n’est reçu le lendemain, la personne passe par le chemin du délai d’attente.
+* Si aucun événement « restaurant » n’est reçu dans la journée qui suit, le client s’engage dans l’itinéraire de temporisation.
 
-Notez que si vous souhaitez configurer un dépassement de délai sur plusieurs événements positionnés après une activité **[!UICONTROL Wait]**, vous devez configurer le dépassement de délai sur un seul de ces événements uniquement.
+Notez que si vous souhaitez configurer une temporisation pour plusieurs événements placés après une activité d’**[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
 
-Le délai d’attente s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Wait]**. Si aucun événement n’est reçu après le délai d’attente spécifié, les individus suivent un seul chemin d’expiration ou terminent leur parcours.
+La temporisation s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu après la temporisation spécifiée, les individus s’engagent dans un itinéraire de temporisation unique ou terminent leur parcours.
 
 ![](../assets/event-timeout-group.png)
