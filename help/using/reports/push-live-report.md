@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Le **[!UICONTROL rapport dynamique]** Push est divisé en différents widgets d�
 
 * **[!UICONTROL Envoyé]** : Nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
