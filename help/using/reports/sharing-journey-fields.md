@@ -1,11 +1,11 @@
 ---
 title: Champs du parcours
-description: Champs de parcours
+description: Champs du parcours
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
@@ -19,28 +19,28 @@ Ce mixin est utilisé dans le schéma du parcours (en relation avec journeyStepE
 
 Identifiant du parcours principal.
 
-Type : chaîne
+Type : Chaîne
 
 ## journeyVersionID
 
 Identifiant de la version du parcours. Cet identifiant représente l’identité d’un parcours.
 
-Type : string
+Type : Chaîne
 
 ## name
 
 Nom du parcours.
 
-Type : string
+Type : Chaîne
 
 ## description
 
 Description du parcours.
 
-Type : string
+Type : Chaîne
 
 ## version
 
 Version, représentée sous la forme `major`.`minor`
 
-Type : string
+Type : Chaîne
