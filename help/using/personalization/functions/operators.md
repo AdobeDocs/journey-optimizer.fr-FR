@@ -2,20 +2,20 @@
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
 translation-type: tm+mt
-source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 8%
+source-wordcount: '561'
+ht-degree: 99%
 
 ---
 
-# Les opérateurs {#operators}
+# Opérateurs {#operators}
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Et {#and}
+## And
 
-La fonction `and` est utilisée pour créer une conjonction logique.
+La fonction `and` sert à créer une conjonction logique.
 
 **Format**
 
@@ -25,13 +25,13 @@ La fonction `and` est utilisée pour créer une conjonction logique.
 
 **Exemple**
 
-L&#39;opération suivante permettra de renvoyer toutes les personnes ayant le pays d&#39;origine comme Canada et année de naissance en 1985.
+La requête suivante PQL renverra toutes les personnes ayant pour pays d’origine le Canada et pour année de naissance 1985.
 
 ```sql
 homeAddress.countryISO = "CA" and person.birthYear = 1985
 ```
 
-## Ou{#or}
+## Or
 
 La fonction `or` est utilisée pour créer une disjonction logique.
 
@@ -43,13 +43,13 @@ La fonction `or` est utilisée pour créer une disjonction logique.
 
 **Exemple**
 
-L&#39;opération suivante permettra à toutes les personnes qui ont un pays d&#39;origine de retourner au Canada ou à l&#39;année de naissance de 1985.
+La requête suivante PQL renverra toutes les personnes ayant pour pays d’origine le Canada ou pour année de naissance 1985.
 
 ```sql
 homeAddress.countryISO = "CA" or person.birthYear = 1985
 ```
 
-## Not{#not}
+## Not
 
 La fonction `not` (ou `!`) est utilisée pour créer une négation logique.
 
@@ -62,15 +62,15 @@ not ({QUERY})
 
 **Exemple**
 
-L&#39;opération suivante rendra au Canada toutes les personnes qui n&#39;ont pas leur pays d&#39;origine.
+La requête suivante PQL renverra toutes les personnes qui n’ont pas pour pays d’origine le Canada.
 
 ```sql
 not (homeAddress.countryISO = "CA")
 ```
 
-## If{#if}
+## If
 
-La fonction `if` est utilisée pour résoudre une expression selon si une condition spécifiée est vraie.
+La fonction `if` est utilisée pour résoudre une expression selon qu’une condition spécifiée est vraie ou non.
 
 **Format**
 
@@ -80,21 +80,21 @@ if ({TEST_EXPRESSION}, {TRUE_EXPRESSION}, {FALSE_EXPRESSION})
 
 | Argument | Description |
 | --------- | ----------- |
-| `{TEST_EXPRESSION}` | Expression booléenne qui est en cours de test. |
-| `{TRUE_EXPRESSION}` | Expression dont la valeur sera utilisée si `{TEST_EXPRESSION}` est true. |
-| `{FALSE_EXPRESSION}` | Expression dont la valeur sera utilisée si `{TEST_EXPRESSION}` est false. |
+| `{TEST_EXPRESSION}` | L’expression booléenne en cours de test. |
+| `{TRUE_EXPRESSION}` | L’expression dont la valeur sera utilisée si `{TEST_EXPRESSION}` est vraie. |
+| `{FALSE_EXPRESSION}` | L’expression dont la valeur sera utilisée si `{TEST_EXPRESSION}` est fausse. |
 
 **Exemple**
 
-L&#39;opération suivante définit la valeur sur `1` si le pays d&#39;origine est le Canada et `2` si le pays d&#39;origine n&#39;est pas le Canada.
+La requête PQL suivante définit la valeur sur `1` si le pays d’origine est le Canada et sur `2` si le pays d’origine n’est pas le Canada.
 
 ```sql
 if (homeAddress.countryISO = "CA", 1, 2)
 ```
 
-## Est égal à{#equals}
+## Est égal à
 
-La fonction `=` (est égal à) vérifie si une valeur ou une expression est égale à une autre valeur ou expression.
+La fonction `=` (est égal) vérifie si une valeur ou expression est égale à une autre valeur ou expression.
 
 **Format**
 
@@ -104,15 +104,15 @@ La fonction `=` (est égal à) vérifie si une valeur ou une expression est éga
 
 **Exemple**
 
-L&#39;opération suivante vérifie si le pays d&#39;adresse d&#39;origine est au Canada.
+La requête PQL suivante vérifie si le pays de l’adresse du domicile est le Canada.
 
 ```sql
 homeAddress.countryISO = "CA"
 ```
 
-## N’est pas égal{#notequal}
+## Différent de
 
-La fonction `!=` (différent) vérifie si une valeur ou une expression est **différente de** égale à une autre valeur ou expression.
+La fonction `!=` (différent de) vérifie si une valeur ou expression est **différente** d’une autre valeur ou expression.
 
 **Format**
 
@@ -122,15 +122,15 @@ La fonction `!=` (différent) vérifie si une valeur ou une expression est **dif
 
 **Exemple**
 
-L&#39;opération suivante vérifie si le pays d&#39;adresse d&#39;origine n&#39;est pas au Canada.
+La requête PQL suivante vérifie si le pays de l’adresse du domicile n’est pas le Canada.
 
 ```sql
 homeAddress.countryISO != "CA"
 ```
 
-## Supérieur à{#greaterthan}
+## Supérieur à
 
-La fonction `>` (supérieure à) est utilisée pour vérifier si la première valeur est supérieure à la seconde.
+La fonction `>` (supérieur à) permet de vérifier si la première valeur est supérieure à la seconde.
 
 **Format**
 
@@ -140,15 +140,15 @@ La fonction `>` (supérieure à) est utilisée pour vérifier si la première va
 
 **Exemple**
 
-L’opération suivante définit les personnes dont les anniversaires ne tombent pas en janvier ou février.
+La requête PQL suivante définit les personnes dont l’anniversaire ne tombe ni en janvier ni en février.
 
 ```sql
 person.birthMonth > 2
 ```
 
-## Supérieur ou égal à{#greaterthanorequal}
+## Supérieur ou égal à
 
-La fonction `>=` (supérieure ou égale à) est utilisée pour vérifier si la première valeur est supérieure ou égale à la seconde.
+La fonction `>=` (supérieur ou égal à) permet de vérifier si la première valeur est supérieure ou égale à la seconde.
 
 **Format**
 
@@ -158,15 +158,15 @@ La fonction `>=` (supérieure ou égale à) est utilisée pour vérifier si la p
 
 **Exemple**
 
-L’opération suivante définit les personnes dont les anniversaires ne tombent pas en janvier ou février.
+La requête PQL suivante définit les personnes dont l’anniversaire ne tombe ni en janvier ni en février.
 
 ```sql
 person.birthMonth >= 3
 ```
 
-## Inférieur à{#lessthan}
+## Inférieur à
 
-La fonction de comparaison `<` (inférieur à) permet de vérifier si la première valeur est inférieure à la seconde.
+La fonction `<` (inférieur à) permet de vérifier si la première valeur est inférieure à la seconde.
 
 **Format**
 
@@ -176,15 +176,15 @@ La fonction de comparaison `<` (inférieur à) permet de vérifier si la premiè
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en janvier.
+La requête PQL suivante définit les personnes dont l’anniversaire tombe en janvier.
 
 ```sql
 person.birthMonth < 2
 ```
 
-## Inférieur ou égal à{#lessthanorequal}
+## Inférieur ou égal à
 
-La fonction de comparaison `<=` (inférieure ou égale à) permet de vérifier si la première valeur est inférieure ou égale à la seconde.
+La fonction `<=` (inférieur ou égal à) permet de vérifier si la première valeur est inférieure ou égale à la seconde.
 
 **Format**
 
@@ -194,15 +194,15 @@ La fonction de comparaison `<=` (inférieure ou égale à) permet de vérifier s
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en janvier ou février.
+La requête PQL suivante définit les personnes dont l’anniversaire tombe en janvier ou en février.
 
 ```sql
 person.birthMonth <= 2
 ```
 
-## Ajoute{#add}
+## Addition
 
-La fonction `+` (addition) est utilisée pour rechercher la somme de deux expressions d&#39;argument.
+La fonction `+` (addition) est utilisée pour trouver la somme de deux expressions d’argument.
 
 **Format**
 
@@ -212,15 +212,15 @@ La fonction `+` (addition) est utilisée pour rechercher la somme de deux expres
 
 **Exemple**
 
-L&#39;opération suivante représente le prix de deux produits différents.
+La requête PQL suivante additionne le prix de deux produits différents.
 
 ```sql
 product1.price + product2.price
 ```
 
-## Multiplier{#multiply}
+## Multiplication
 
-La fonction `*` (multiplication) est utilisée pour trouver le produit de deux expressions d&#39;arguments.
+La fonction `*` (multiplication) est utilisée pour trouver le produit de deux expressions d’argument.
 
 **Format**
 
@@ -230,15 +230,15 @@ La fonction `*` (multiplication) est utilisée pour trouver le produit de deux e
 
 **Exemple**
 
-L&#39;opération suivante recherche le produit de l&#39;inventaire et le prix d&#39;un produit pour trouver la valeur brute du produit.
+La requête PQL suivante trouve le produit de l’inventaire et du prix d’un produit pour obtenir la valeur brute du produit.
 
 ```sql
 product.inventory * product.price
 ```
 
-## Soustraire{#substract}
+## Soustraction
 
-La fonction `-` (soustraction) permet de trouver la différence entre deux expressions d&#39;argument.
+La fonction `-` (soustraction) permet de trouver la différence entre deux expressions d’argument.
 
 **Format**
 
@@ -248,15 +248,15 @@ La fonction `-` (soustraction) permet de trouver la différence entre deux expre
 
 **Exemple**
 
-L&#39;opération suivante identifie la différence de prix entre deux produits différents.
+La requête PQL suivante trouve la différence de prix entre deux produits différents.
 
 ```sql
 product1.price - product2.price
 ```
 
-## Diviser {#divide}
+## Division
 
-La fonction `/` (division) est utilisée pour trouver le quotient de deux expressions d&#39;argument.
+La fonction `/` (division) est utilisée pour trouver le quotient de deux expressions d’argument.
 
 **Format**
 
@@ -266,15 +266,15 @@ La fonction `/` (division) est utilisée pour trouver le quotient de deux expres
 
 **Exemple**
 
-L&#39;opération suivante recherche le quotient entre le total des produits vendus et le total des recettes pour déterminer le coût moyen par article.
+La requête PQL suivante trouve le quotient entre le total des produits vendus et le total des revenus obtenus pour déterminer le coût moyen par article.
 
 ```sql
 totalProduct.price / totalProduct.sold
 ```
 
-## Reste{#remainder}
+## Reste
 
-La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la division des deux expressions d&#39;argument.
+La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la division des deux expressions d’argument.
 
 **Format**
 
@@ -284,7 +284,7 @@ La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la div
 
 **Exemple**
 
-L&#39;opération suivante vérifie si l&#39;âge de la personne est divisible de cinq ans.
+La requête PQL suivante vérifie si l’âge de la personne est divisible par cinq.
 
 ```sql
 person.age % 5 = 0
