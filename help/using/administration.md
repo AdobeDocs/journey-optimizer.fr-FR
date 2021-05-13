@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -20,7 +20,7 @@ Les marques ne peuvent pas être créées ou modifiées par les utilisateurs fin
 
 Pour configurer les paramètres de marque de votre instance [!DNL Journey Optimizer], vous devez contacter l&#39;Adobe et partager les informations suivantes :
 
-* Raison sociale
+* Nom de la société
 
 * Adresse électronique de l’expéditeur (de)
 
@@ -42,9 +42,9 @@ Pour tout nouveau sous-domaine à utiliser dans [!DNL Journey Optimizer], la pre
 
 Lors de la mise en oeuvre d’une solution, les composants externes sont requis : il s&#39;agit notamment de la configuration des liens et des pages Web à suivre, de l&#39;affichage des pages miroir, etc.
 
-Bien que ces exigences soient gérées au moyen de composants hébergés à la fois par l’Adobe et le client, elles incluent des URL visibles par les destinataires des courriels.  Afin d’éviter que des URL indiquant la solution technique sous-jacente ou le fournisseur d’hébergement ne soient installées, il est possible de configurer des sous-domaines pour rendre cette opération transparente pour les destinataires des courriels.
+Bien que ces exigences soient gérées au moyen de composants hébergés à la fois par Adobe et le client, elles incluent des URL visibles par les destinataires des emails.  Afin d&#39;éviter que des URL indiquant la solution technique sous-jacente ou le fournisseur d&#39;hébergement ne soient installées, il est possible de configurer des sous-domaines pour rendre cette opération transparente pour les destinataires des emails.
 
-À la suite de ces délégations, l&#39;infrastructure mise en place par l&#39;Adobe garantit que les services suivants sont effectués pour chaque domaine d&#39;envoi délégué ou en alias CNAME :
+À la suite de ces délégations, l&#39;infrastructure mise en place par Adobe garantit que les services suivants sont mis en œuvre pour chaque domaine d&#39;envoi délégué ou en alias CNAME :
 
 * Création de boîtes de réception &quot;maître de poste&quot; et &quot;abus&quot;
 
@@ -52,7 +52,7 @@ Bien que ces exigences soient gérées au moyen de composants hébergés à la f
 
 * Configuration d’enregistrement DMARC de base
 
-Les paramètres établis par l&#39;Adobe ne sont valables qu&#39;à partir du moment où la délégation a été terminée puis vérifiée par l&#39;Adobe, et restent fonctionnels.
+Les paramètres établis par Adobe ne sont valables qu&#39;à partir du moment où la délégation a été effectuée puis vérifiée par Adobe, et restent fonctionnels.
 
 [En savoir plus sur la délégation](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html) de domaine.
 
@@ -73,7 +73,7 @@ En savoir plus sur les sources de données dans cette [section](../using/datasou
 
 Les événements vous permettent de déclencher vos parcours à l&#39;unité pour envoyer des messages, en temps réel, à la personne qui arrive sur le parcours.
 
-Dans la configuration du événement, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées à la suite du modèle de données d’expérience Adobe (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion de diffusion (notamment ceux issus du kit de développement Adobe Mobile SDK).
+Dans la configuration du événement, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées à la suite du modèle de données d’expérience Adobe (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK).
 
 En savoir plus sur les événements dans cette [section](../using/event/about-events.md)
 
