@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Après le premier message, nous attendons un jour que les clients ouvrent le mes
 
 Ensuite, nous attendons un achat et envoyons un message push pour remercier le client.
 
-## Conditions préalables
+## Conditions préalables  
 
 Pour que cette utilisation fonctionne, vous devez configurer les éléments suivants :
 
@@ -59,17 +59,17 @@ Vous devez configurer un événement qui est envoyé à votre parcours lorsqu’
 
 Pour cela, nous utilisons un événement fondé sur des règles. Pour plus d&#39;informations sur les événements, consultez cette [page](../event/about-events.md).
 
-1. Dans le menu de gauche, cliquez sur l&#39;icône **[!UICONTROL Admin]**, puis sur **[!UICONTROL Événements]**. Cliquez sur **[!UICONTROL Ajouter]** pour créer un événement.
+1. Dans le menu de gauche, cliquez sur l’icône **[!UICONTROL Administration]**, puis sur **[!UICONTROL Événements]**. Cliquez sur **[!UICONTROL Ajouter]** pour créer un événement.
 
-1. Entrez le nom de votre événement.
+1. Saisissez le nom de votre événement.
 
 1. Dans le champ **[!UICONTROL Événement ID type]**, sélectionnez **[!UICONTROL Règle basée sur]**.
 
-1. Définissez le **[!UICONTROL Schéma]** et la charge utile **[!UICONTROL Champs]**. Vous pouvez utiliser plusieurs champs, par exemple, le produit acheté, la date d’achat et l’identifiant d’achat.
+1. Définissez les champs **[!UICONTROL Schéma]** et **[!UICONTROL Payload]**. Vous pouvez utiliser plusieurs champs, par exemple, le produit acheté, la date d’achat et l’identifiant d’achat.
 
 1. Dans le champ **[!UICONTROL Événement ID condition]**, définissez la condition utilisée par le système pour identifier les événements qui déclenchent votre parcours. Par exemple, vous pouvez ajouter un champ `purchaseMessage` et définir la règle suivante : `purchaseMessage="thank you"`
 
-1. Définissez l&#39;**[!UICONTROL Espace de nommage]** et la **[!UICONTROL clé]**.
+1. Définissez l’**[!UICONTROL espace de noms]** et la **[!UICONTROL clé]**.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -117,11 +117,11 @@ Reportez-vous à cette [section](../segment/about-segments.md) pour savoir comme
 
 1. Après le événement, déposez une activité **Message** et sélectionnez le message de remerciement.
 
-1. Ajoutez une activité **End**.
+1. Ajoutez une activité **Fin**.
 
-## Test et publication du parcours
+## Tester et publier le parcours
 
-1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il n’y a aucune erreur.
+1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur,
 
 1. Cliquez sur la bascule **Test** située dans le coin supérieur droit pour activer le mode test. Définissez comment vous souhaitez que les profils de test entrent dans le test : un seul profil, ou jusqu&#39;à 100 à la fois. Reportez-vous à cette [section](testing-the-journey.md) pour savoir comment utiliser le mode test.
 
