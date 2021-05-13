@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -17,12 +17,12 @@ Utilisez [!DNL Journey Optimizer] pour suivre le consentement de vos destinatair
 
 Des règlements tels que le RGPD stipulent que vous devez respecter des exigences spécifiques avant de pouvoir utiliser les informations provenant de sujets de données. En outre, les sujets de données devraient pouvoir modifier leur consentement à tout moment.
 
-**Pourquoi est-ce important ?**
+**Pourquoi est-ce important ?**
 
 * Ne pas se conformer à ces règlements introduit des risques juridiques réglementaires pour votre marque.
 * Il vous aide à éviter d&#39;envoyer des communications non sollicitées à vos destinataires, ce qui pourrait les faire marquer vos messages comme du spam et nuire à votre réputation.
 
-Pour en savoir plus sur la gestion de la confidentialité et les réglementations applicables, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).
+Pour en savoir plus sur la gestion de la confidentialité et les réglementations applicables, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr).
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -62,7 +62,7 @@ Pour ajouter un lien de désabonnement, procédez comme suit :
 
    >[!NOTE]
    >
-   >L&#39;URL de votre landing page tiers inclut trois paramètres qui seront utilisés pour mettre à jour les préférences des profils par le biais d&#39;un appel d&#39;Adobe I/O. &#x200B; [En savoir plus sur cette section](#consent-service-api).
+   >L&#39;URL de votre landing page tiers inclut trois paramètres qui seront utilisés pour mettre à jour les préférences des profils par le biais d&#39;un appel d&#39;Adobe I/O. &#x200B; [En savoir plus dans cette section](#consent-service-api).
 
 1. Envoyez votre message avec le lien vers votre landing page via un [parcours](building-journeys/journey.md).
 
@@ -94,7 +94,7 @@ Cet appel POST Adobe I/O est le suivant :
 
 Point de terminaison : cjm.adobe.io/imp/consent/preferences
 
-Paramètres de requête :
+Paramètres de requête:
 * **params** : contient la charge utile chiffrée
 * **sig** : signature  <!--which signature?-->
 * **pid** : ID de profil chiffré
@@ -111,7 +111,7 @@ Exigences d’en-tête :
 * x-sandbox-name
 * autorisation (jeton utilisateur de votre compte technique) <!--How do you find this information? And other header elements?-->
 
-Corps de la demande :
+Corps de la requête:
 
 ```
 {
