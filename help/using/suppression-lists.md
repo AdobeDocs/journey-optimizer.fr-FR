@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Pour contrôler les courriers électroniques reçus par leurs propriétaires de 
 
 Si vous ne tenez pas compte de leurs commentaires (tels que les plaintes de spam, les rebonds, etc.) en conséquence, ils évalueront votre réputation à la baisse. La liste de suppression vous aide à respecter les commentaires des FAI.
 
-Les destinataires dont les adresses électroniques sont supprimées sont automatiquement exclus de la diffusion des messages. Cela permettra d&#39;accélérer les diffusions, car le taux d&#39;erreur a un effet significatif sur la vitesse de diffusion.
+Les destinataires dont les adresses électroniques sont supprimées sont automatiquement exclus de la diffusion des messages. Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
 ### Plaintes de spam {#spam-complaints}
 
@@ -31,7 +31,7 @@ La liste de suppression collecte les adresses électroniques qui marquent votre 
 
 Cela peut entraîner le blocage de votre adresse IP ou du domaine d’envoi, ce qui peut être évité si ces adresses sont sur la liste de suppression.
 
-### Rebonds {#bounces}
+### Bounces {#bounces}
 
 En outre, la liste de suppression contient des adresses électroniques qui rebondissent fortement ou rebondissent trop souvent. Si vous continuez à envoyer ces adresses, cela peut avoir une incidence sur vos taux de diffusion, car cela indique aux FAI que vous ne suivez pas les bonnes pratiques de maintenance des listes d&#39;adresses de courriel et que, par conséquent, vous ne pouvez pas être un expéditeur digne de confiance.
 
@@ -51,10 +51,10 @@ Par exemple, si quelqu’un écrit à un service à la clientèle demandant de n
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
-Il existe trois types d’erreurs lorsqu’une diffusion échoue :
+Trois types d’erreur sont liés à une diffusion en échec :
 
-* **Rebond** dur. Un rebond dur indique une adresse électronique non valide (c’est-à-dire une adresse électronique qui n’existe pas). Ceci implique un message de retour du serveur de messagerie de réception qui indique explicitement que l&#39;adresse n&#39;est pas valide, tel que &quot;utilisateur inconnu&quot;.
-* **Rebonds** doux. Il s’agit d’un rebond temporaire de courrier électronique survenu pour une adresse électronique valide.
+* **Hard bounce**. Un rebond dur indique une adresse électronique non valide (c’est-à-dire une adresse électronique qui n’existe pas). Ceci implique un message de retour du serveur de messagerie de réception qui indique explicitement que l&#39;adresse n&#39;est pas valide, tel que &quot;utilisateur inconnu&quot;.
+* **Soft bounce**. Il s’agit d’un rebond temporaire de courrier électronique survenu pour une adresse électronique valide.
 * **Ignoré**. Il s’agit d’un rebond de courrier électronique qui s’est produit pour une adresse électronique valide, mais qui est connu pour être temporaire, tel qu’une tentative de connexion ayant échoué, un problème temporaire lié au spam (réputation de courrier électronique) ou un problème technique temporaire.
 
 Les rebonds durs et les rebonds en douceur peuvent être une raison pour laquelle une adresse électronique doit être automatiquement ajoutée à la liste de suppression.
