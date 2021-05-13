@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 2%
+ht-degree: 33%
 
 ---
 
@@ -15,11 +15,11 @@ Vous pouvez créer une décision (précédemment appelée activité d&#39;offre)
 
 ## En-têtes Accepter et Type de contenu
 
-Le tableau suivant présente les valeurs valides qui comprennent les champs *Content-Type* et *Accepter* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Type de contenu* et *Accepter* dans l’en-tête de la requête :
 
 | Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
 **Format d’API**
@@ -30,10 +30,10 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Demande**
+**Requête**
 
 ```shell
 curl -X POST \
