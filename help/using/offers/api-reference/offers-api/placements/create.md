@@ -1,25 +1,25 @@
 ---
-title: Création d’un emplacement
-description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
+title: Création d’un placement
+description: Les placements sont des conteneurs utilisés pour présenter vos offres.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 2%
+ht-degree: 87%
 
 ---
 
-# Création d’un emplacement
+# Création d’un placement
 
-Vous pouvez créer un emplacement en adressant une requête de POST à l&#39;API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
+Vous pouvez créer un emplacement en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
 
 ## En-têtes Accepter et Type de contenu
 
-Le tableau suivant présente les valeurs valides qui comprennent les champs *Content-Type* et *Accepter* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Type de contenu* et *Accepter* dans l’en-tête de la requête :
 
 | Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **Format d’API**
@@ -30,10 +30,10 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les emplacements. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Demande**
+**Requête**
 
 ```shell
 curl -X POST \
@@ -54,7 +54,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails du placement nouvellement créé, y compris son identifiant d’instance unique et son emplacement `@id`. Vous pouvez utiliser l’ID d’instance dans les étapes suivantes pour mettre à jour ou supprimer votre emplacement. Vous pouvez utiliser votre emplacement unique `@id` dans les didacticiels ultérieurs pour créer des décisions, des règles de décision et des offres de secours.
+Une réponse réussie renvoie les détails de l’emplacement nouvellement créé, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre emplacement. Vous pouvez utiliser votre emplacement unique `@id` dans les didacticiels ultérieurs pour créer des décisions, des règles de décision et des offres de secours.
 
 ```json
 {
