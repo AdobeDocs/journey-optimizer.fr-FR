@@ -1,47 +1,47 @@
 ---
-title: Concevez votre parcours
+title: Concevoir le parcours
 description: Découvrez comment concevoir votre parcours
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1437'
-ht-degree: 0%
+ht-degree: 72%
 
 ---
 
-# Concevez votre parcours
+# Concevoir le parcours
 
 ![](../assets/do-not-localize/badge.png)
 
-L’interface de parcours vous permet de faire glisser et déposer facilement des activités de la palette dans la zone de travail. Vous pouvez également cliquer sur une activité en doublon pour l’ajouter dans la trame à l’étape suivante disponible. Chaque activité a un rôle et une place spécifiques dans le processus. Les activités sont séquencées. Lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, etc.
+L’interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
 
 ## Commencer avec la conception de parcours
 
-La **palette** se trouve sur le côté gauche de l’écran. Toutes les activités disponibles sont triées en plusieurs catégories : **[!UICONTROL Événements]**, **[!UICONTROL Orchestration]** et **[!UICONTROL Actions]**. Vous pouvez développer/réduire les différentes catégories en cliquant sur leur nom. Pour utiliser une activité dans votre parcours, faites-la glisser de la palette vers votre canevas.
+La **palette** se situe sur la partie gauche de l’écran. Toutes les activités disponibles sont classées dans plusieurs catégories : **[!UICONTROL Événements]**, **[!UICONTROL Orchestration]** et **[!UICONTROL Actions]**. Vous pouvez développer/réduire les différentes catégories en cliquant sur leur nom. Pour utiliser une activité dans votre parcours, faites-la glisser de la palette vers la zone de travail.
 
-Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la trame comme première étape sont masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
+Lors du démarrage d’un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont masqués. Cela concerne toutes les actions, l’activité de la condition, l’attente et la réaction.
 
 ![](../assets/journey38.png)
 
-L&#39;icône **[!UICONTROL Filtrer les éléments]** dans le coin supérieur gauche vous permet d&#39;afficher les filtres suivants :
+L’icône **[!UICONTROL Filtrer les éléments]** dans le coin supérieur gauche vous permet d’afficher les filtres suivants :
 
-* **Afficher uniquement les éléments** disponibles : masquez ou affichez les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de nommage différent de celui utilisé dans votre parcours. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, elles apparaîtront grisées.
+* **Afficher uniquement les éléments disponibles** : masquez ou affichez les éléments indisponibles dans la palette, par exemple les événements qui utilisent un espace de noms différent de ceux utilisés dans votre parcours. Par défaut, les éléments non disponibles sont masqués. Si vous choisissez de les afficher, ils apparaîtront grisés.
 
-* **Afficher uniquement les éléments** récents : ce filtre vous permet d&#39;afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux prêts à l&#39;emploi. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments sont affichés.
+* **Afficher uniquement les éléments récents** : ce filtre vous permet d’afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d’usine. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments s’affichent.
 
 Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]**.
 
-La zone de travail **canvas** est la zone centrale du concepteur de parcours. C&#39;est dans cette zone que vous pouvez déposer vos activités et les configurer. Cliquez sur une activité dans la trame pour la configurer. Le volet de configuration de l&#39;activité s&#39;ouvre alors sur le côté droit.
+La **zone de travail** est la zone centrale du concepteur de parcours. C’est là que vous pouvez déposer vos activités et les configurer. Cliquez sur une activité de la zone de travail pour la configurer. Le volet de configuration de l’activité s’ouvre alors sur le côté droit.
 
 ![](../assets/journey39.png)
 
-Le **volet de configuration de l&#39;activité** s&#39;affiche lorsque vous cliquez sur une activité de la palette. Renseignez les champs obligatoires. Cliquez sur l&#39;icône **[!UICONTROL Supprimer]** pour supprimer l&#39;activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou **[!UICONTROL Ok]** pour confirmer. Pour supprimer des activités, vous pouvez également sélectionner une ou plusieurs activités et appuyer sur la touche Retour arrière. Appuyez sur la touche d&#39;échappement pour fermer le volet de configuration de l&#39;activité.
+Le **volet de configuration des activités** s’affiche lorsque vous cliquez sur une activité dans la palette. Renseignez les champs obligatoires. Cliquez sur l’icône **[!UICONTROL Supprimer]** pour supprimer l’activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou sur **[!UICONTROL OK]** pour les confirmer. Vous pouvez également supprimer des activités en les sélectionnant, puis en appuyant sur la touche Retour arrière. Appuyez sur la touche d’échappement pour fermer le volet de configuration des activités.
 
-Par défaut, les champs en lecture seule sont masqués. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l&#39;activité.
+Par défaut, les champs en lecture seule sont masqués. Pour les afficher, cliquez sur l’icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l’activité.
 
 ![](../assets/journey59bis.png)
 
-Selon l’état du parcours, vous pouvez exécuter différentes actions sur votre parcours à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Duplicata]**, **[!UICONTROL Supprimer]**, **[!UICONTROL propriétés du Parcours]**, **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent dans le contexte. Le bouton journal du mode test s&#39;affiche lorsque le mode test est activé.
+Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent en fonction du contexte. Le bouton journal du mode test s&#39;affiche lorsque le mode test est activé.
 
 ![](../assets/journey41.png)
 
@@ -63,60 +63,60 @@ Lorsque vous début votre parcours avec un événement, le parcours est déclenc
 
 Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu’ils utilisent le même espace de nommage. Les événements sont configurés au préalable. [En savoir plus sur les événements](about-journey-activities.md#event-activities)
 
-Vous pouvez également ajouter un événement **Réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d’envoyer un autre message si l’utilisateur a ouvert le message précédent ou cliqué dessus. Pour en savoir plus, consultez cette [section](reaction-events.md).
+Vous pouvez également ajouter un événement **Réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d’envoyer un autre message si l’utilisateur a ouvert le message précédent ou cliqué dessus. En savoir plus dans cette [section](reaction-events.md).
 
-L&#39;activité d&#39;événement **Qualification de segment** vous permet de faire entrer ou avancer des individus dans un parcours en fonction des entrées et sorties de segments Adobe Experience Platform. Vous pouvez faire entrer tous les nouveaux clients argentés dans un parcours et envoyer des messages personnalisés. Pour en savoir plus, consultez cette [section](segment-qualification-events.md).
+L&#39;activité d&#39;événement **Qualification de segment** vous permet de faire entrer ou avancer des individus dans un parcours en fonction des entrées et sorties de segments Adobe Experience Platform. Vous pouvez faire entrer tous les nouveaux clients argentés dans un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
 
 **Orchestration**
 
 Dans les activités d&#39;orchestration, vous trouverez l&#39;activité **Lire segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l’activité](read-segment.md) du segment Lu.
 
-Les autres activités vous permettent d’ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d’attente avant l’exécution de l’activité suivante ou de terminer votre parcours. Pour en savoir plus, consultez cette [section](about-journey-activities.md#orchestration-activities).
+Les autres activités vous permettent d’ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d’attente avant l’exécution de l’activité suivante ou de terminer votre parcours. En savoir plus dans cette [section](about-journey-activities.md#orchestration-activities).
 
 **Actions**
 
 Vous trouverez ici l&#39;activité **Message** qui vous permet d&#39;inclure un message conçu dans Journey Optimizer. [En savoir plus sur l&#39;activité de message](journeys-message.md)
 
-Vous trouverez également les actions personnalisées que vous avez configurées pour envoyer des messages avec des systèmes tiers. Pour en savoir plus, consultez cette [section](about-journey-activities.md#action-activities).
+Vous trouverez également les actions personnalisées que vous avez configurées pour envoyer des messages avec des systèmes tiers. En savoir plus dans cette [section](about-journey-activities.md#action-activities).
 
-## Utilisation des chemins dans la trame {#paths}
+## Utilisation des chemins dans la zone de travail {#paths}
 
-Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activités) vous permettent de définir une action de secours en cas d&#39;erreur ou d&#39;expiration. Dans le volet de configuration de l&#39;activité, cochez la case : **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d&#39;erreur]**. Un autre chemin est ajouté après l’activité. La durée du délai d’expiration est définie dans les propriétés du parcours (voir [cette page](../building-journeys/journey-gs.md#change-properties) par un utilisateur administrateur. Par exemple, si l&#39;envoi d&#39;un courriel prend trop de temps ou est erroné, vous pouvez décider d&#39;envoyer un SMS.
+Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d’erreur ou de temporisation. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Un autre chemin est alors ajouté après l’activité. La temporisation est définie dans les propriétés du parcours (voir [cette page](../building-journeys/journey-gs.md#change-properties) par un utilisateur administrateur. Par exemple, si l’envoi d’un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d’envoyer un SMS.
 
 ![](../assets/journey42.png)
 
-Diverses activités (événement, action, attente) vous permettent d’ajouter plusieurs chemins. Pour ce faire, placez votre curseur sur l&#39;activité et cliquez sur le symbole &quot;+&quot;. Seules les activités de événement et d’attente peuvent être définies en parallèle. Si plusieurs événements sont définis en parallèle, le chemin choisi sera celui du premier événement.
+Différentes activités (événement, action, attente) peuvent être suivies de plusieurs chemins. Pour ce faire, placez votre curseur sur l’activité en question et cliquez ensuite sur le symbole « + ». Seules les activités d’événement et d’attente peuvent être définies en parallèle. Si plusieurs événements sont définis en parallèle, le chemin choisi est celui du premier événement qui se produit.
 
-Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre le événement indéfiniment. Ce n&#39;est pas obligatoire, juste une bonne pratique. Si vous souhaitez écouter un ou plusieurs événements seulement pendant une certaine période, vous placez un ou plusieurs événements et une activité d&#39;attente en parallèle. Voir [cette section](../building-journeys/general-events.md#events-specific-time).
+Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre indéfiniment qu’il se produise. Notez qu’il s’agit d’une bonne pratique et que cela n’est, en aucun cas, obligatoire. Si vous souhaitez limiter l’écoute d’un ou de plusieurs événements à une période bien définie, vous devez placer en parallèle un ou plusieurs événements et une activité d’attente. Consultez [cette section](../building-journeys/general-events.md#events-specific-time).
 
-Pour supprimer le chemin, placez le curseur dessus et cliquez sur l&#39;icône **[!UICONTROL Supprimer la flèche]**.
+Pour supprimer le chemin d’accès, placez votre curseur sur celui-ci et cliquez sur l’icône **[!UICONTROL Supprimer la flèche]**.
 
 ![](../assets/journey42ter.png)
 
-Dans la trame, lorsque deux activités sont déconnectées, un avertissement s’affiche. Placez votre curseur sur l’icône d’avertissement pour afficher le message d’erreur. Pour résoudre le problème, il vous suffit de déplacer l’activité déconnectée et de la connecter à l’activité précédente.
+Dans la zone de travail, un avertissement s’affiche lorsque deux activités sont déconnectées. Placez le curseur sur l’icône d’avertissement pour afficher le message d’erreur. Pour résoudre le problème, il suffit de déplacer l’activité déconnectée et de la relier à l’activité précédente.
 
 ![](../assets/canvas-disconnected.png)
 
-## Copie et collage des activités {#copy-paste}
+## Opérations de copier/coller d’activités {#copy-paste}
 
-Vous pouvez copier une ou plusieurs activités d’un parcours et les coller dans le même parcours ou dans un autre. Cela vous permet de gagner du temps si vous souhaitez réutiliser de nombreuses activités qui ont déjà été configurées dans un parcours précédent.
+Vous pouvez copier une ou plusieurs activités d’un parcours et les coller soit dans le même parcours, soit dans un autre. C’est un gain de temps si vous souhaitez réutiliser de nombreuses activités déjà configurées lors d’un parcours précédent.
 
 **Remarques importantes**
 
-* Vous pouvez copier/coller sur différents onglets et navigateurs. Vous pouvez uniquement copier/coller des activités dans la même instance.
-* Vous ne pouvez pas copier/coller un événement si le parcours de destination comporte un événement qui utilise un autre espace de nommage.
-* Les activités collées peuvent référencer des données qui n’existent pas dans le parcours de destination, par exemple si vous copiez/collez des données sur différents sandbox. Vérifiez toujours les erreurs et effectuez les ajustements nécessaires.
-* Notez que vous ne pouvez pas annuler une action. Pour supprimer des activités collées, vous devez les sélectionner et les supprimer. Par conséquent, veillez à ne sélectionner que les activités dont vous avez besoin avant de les copier.
-* Vous pouvez copier des activités de n’importe quel parcours, même celles qui sont en lecture seule.
+* Vous pouvez effectuer une opération copier/coller dans différents onglets et navigateurs. Vous ne pouvez copier/coller des activités que dans la même instance.
+* Vous ne pouvez pas copier/coller un événement si le parcours de destination comporte un événement utilisant un autre espace de noms.
+* Les activités collées peuvent référencer des données qui n’existent pas dans le parcours de destination, par exemple si vous copiez/collez des données dans différents environnements Sandbox. Recherchez toujours des erreurs et effectuez les ajustements nécessaires.
+* Notez que vous ne pouvez pas annuler une action. Pour supprimer des activités collées, vous devez les sélectionner et les supprimer. Vous devez donc veiller, avant de les copier, à ne sélectionner que les activités dont vous avez besoin.
+* Vous pouvez copier des activités issues de n’importe quel parcours, même celles qui sont en lecture seule.
 * Vous pouvez sélectionner n’importe quelle activité, même celles qui ne sont pas liées. Les activités liées resteront liées après avoir été collées.
 
-Pour copier/coller des activités, procédez comme suit :
+Pour copier/coller des activités, procédez comme suit :
 
 1. Ouvrez un parcours.
-1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** si vous souhaitez sélectionner toutes les activités.
+1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
    ![](../assets/copy-paste1.png)
-1. Appuyez sur **Ctrl/Commande + C**.
-Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dessus et utiliser l&#39;icône **Copier** en haut à gauche du volet de configuration de l&#39;activité.
+1. Appuyez sur **Ctrl/Commande + C**.
+Si vous ne souhaitez copier qu’une seule activité, vous pouvez cliquer dessus et utiliser l’icône **Copier** en haut à gauche du volet de configuration de l’activité.
    ![](../assets/copy-paste2.png)
-1. Dans n’importe quel parcours, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un noeud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées afin que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au noeud.
+1. Dans un parcours quelconque, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
    ![](../assets/copy-paste3.png)
