@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 
 ## Sélectionner des profils de test{#select-test-profiles}
 
-Les profils de test vous permettent de cible d’autres destinataires qui ne répondent pas aux critères de ciblage définis.
+Les profils de test permettent de cibler des destinataires additionnels, qui ne correspondent pas aux critères de ciblage définis.
 
 Pour sélectionner des profils de test, procédez comme suit :
 
@@ -102,7 +102,7 @@ Pour une prévisualisation de notification Push :
 
    ![](assets/preview-android.png)
 
-## Envoyer des BAT{#send-proofs}
+## Envoyez des bons à tirer{#send-proofs}
 
 Un BAT est un message spécifique qui vous permet de tester un message avant de l’envoyer à l’audience principale. Les destinataires du BAT sont chargés d&#39;approuver le message : rendu, contenu, paramètres de personnalisation, configuration.
 
@@ -122,7 +122,7 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
 Vous devez envoyer des BAT après toute modification du contenu du message.
 
-## Rendu du courrier électronique{#email-rendering}
+## Rendu des emails{#email-rendering}
 
 Vous pouvez exploiter votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualisation instantanément votre **rendu de courrier électronique** dans les clients de messagerie les plus courants.
 
