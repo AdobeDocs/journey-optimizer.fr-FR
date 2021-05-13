@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-## À propos de l&#39;activité de segment de lecture {#about-segment-trigger-actvitiy}
+## À propos de l’activité Lecture de segment {#about-segment-trigger-actvitiy}
 
-L’activité Lire le segment vous permet de faire entrer un parcours à toutes les personnes appartenant à un segment Adobe Experience Platform. L&#39;entrée dans un parcours peut être effectuée une seule fois ou régulièrement.
+L’activité Lecture de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
 Prenons l’exemple du segment &quot;Ouverture et passage en caisse de l’application Luma&quot; créé dans le cas d’utilisation de [Créer des segments](../segment/about-segments.md). Avec l’activité Lire le segment, vous pouvez faire entrer toutes les personnes appartenant à ce segment dans un parcours et les faire s’enchaîner dans des parcours personnalisés qui exploiteront toutes les fonctionnalités de parcours : conditions, minuteries, événements, actions.
 
@@ -27,11 +27,11 @@ Prenons l’exemple du segment &quot;Ouverture et passage en caisse de l’appli
 
 Les étapes de configuration de l’activité de segment Lu sont les suivantes :
 
-1. Dépliez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lire le segment]** dans votre canevas.
+1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lecture de segment]** dans votre zone de travail.
 
-   L&#39;activité doit être positionnée comme la première étape d&#39;un parcours.
+   L’activité doit être la première étape d’un parcours.
 
-1. Ajoutez une **[!UICONTROL étiquette]** à l&#39;activité (facultatif).
+1. Ajoutez un **[!UICONTROL libellé]** à l’activité (facultatif).
 
 1. Dans le champ **[!UICONTROL Segment]**, sélectionnez le segment Adobe Experience Platform qui va entrer dans le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -39,55 +39,55 @@ Les étapes de configuration de l’activité de segment Lu sont les suivantes :
 
    >[!NOTE]
    >
-   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** entrent dans le parcours. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** entrent dans le parcours. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
    ![](../assets/read-segment-selection.png)
 
-   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
+   Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/read-segment-copy.png)
 
-1. Dans le champ **[!UICONTROL Espace de nommage]**, choisissez l’espace de nommage à utiliser pour identifier les individus. [En savoir plus sur les espaces de nommage](../event/about-creating.md#select-the-namespace).
+1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. [En savoir plus sur les espaces de nommage](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
-   >Les personnes appartenant à un segment qui n&#39;a pas l&#39;identité sélectionnée (espace de nommage) parmi leurs différentes identités ne peuvent pas entrer dans le parcours.
+   >Les personnes appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas entrer dans le parcours.
 
-1. L&#39;activité **[!UICONTROL Lire le segment]** vous permet de spécifier l&#39;heure à laquelle le segment va entrer dans le parcours. Pour ce faire, cliquez sur le lien **[!UICONTROL Modifier la planification du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL type de Planificateur]**.
+1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
 
    ![](../assets/read-segment-schedule.png)
 
-   Par défaut, les segments entrent dans le parcours **[!UICONTROL Dès que possible]**, ce qui signifie 1 heure après la publication du parcours. Si vous souhaitez que le segment entre dans le parcours à une date/heure spécifique ou sur une base récurrente, sélectionnez la valeur souhaitée dans la liste.
+   Par défaut, les segments rejoignent le parcours **[!UICONTROL Dès que possible]**, c’est-à-dire 1 heure après la publication de celui-ci. Si vous souhaitez que le segment rejoigne le parcours à une date/heure spécifique ou de façon récurrente, sélectionnez la valeur de votre choix dans la liste.
 
    >[!NOTE]
    >
-   >Notez que la section **[!UICONTROL Planification]** n&#39;est disponible que lorsqu&#39;une activité **[!UICONTROL Lire le segment]** a été supprimée dans le canevas.
+   >Notez que la section **[!UICONTROL Planificateur]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture de segment]** a été déposée dans la zone de travail.
 
    ![](../assets/read-segment-schedule-list.png)
 
 ### Tester et publier le parcours {#testing-publishing}
 
-L&#39;activité **[!UICONTROL Lire le segment]** vous permet de tester le parcours soit sur un profil unitaire, soit sur 100 profils de test aléatoire sélectionnés parmi les profils qualifiés pour le segment.
+L’activité **[!UICONTROL Lecture de segment]** vous permet de tester le parcours sur un profil unitaire ou sur 100 profils de test aléatoires sélectionnés parmi les profils qualifiés pour le segment.
 
-Pour ce faire, activez le mode de test, puis sélectionnez l’option de votre choix dans le volet de gauche.
+Pour cela, activez le mode test, puis sélectionnez l’option de votre choix dans le volet de gauche.
 
 ![](../assets/read-segment-test-mode.png)
 
-Vous pouvez ensuite configurer et exécuter le mode de test comme vous le faites habituellement. [Apprenez à tester un parcours](testing-the-journey.md).
+Vous pouvez ensuite configurer et exécuter le mode test comme vous le faites habituellement. [Apprenez à tester un parcours](testing-the-journey.md).
 
-Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les journaux]** permet d’afficher les résultats du test en fonction de l’option de test sélectionnée :
+Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les journaux]** vous permet d’afficher les résultats du test en fonction de l’option de test sélectionnée :
 
-* **[!UICONTROL Profil unique à la fois]** : les journaux de test affichent les mêmes informations que lors de l’utilisation du mode de test unitaire. Pour plus d&#39;informations à ce sujet, reportez-vous à [cette section](testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Profil unique à la fois]** : les journaux de test affichent les mêmes informations que lors de l’utilisation du mode test unitaire. Voir à ce propos [cette section](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** : les journaux de test vous permettent de suivre la progression de l’exportation de segments à partir de Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes qui sont entrées sur le parcours.
+* **[!UICONTROL Jusqu’à 100 profils à la fois]** : les journaux de test vous permettent de suivre l’avancement de l’export des segments à partir d’Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes ayant rejoint le parcours.
 
-   Notez que le test du parcours en utilisant jusqu’à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
+   Notez que tester le parcours en utilisant jusqu’à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
 
    ![](../assets/read-segment-log.png)
 
-Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment entrent le parcours à la date et à l’heure spécifiées dans la section des propriétés du parcours **[!UICONTROL Planificateur]**.
+Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
 >[!NOTE]
 >
