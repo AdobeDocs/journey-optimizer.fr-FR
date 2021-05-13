@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Vous pouvez accéder directement au rapport parcours global à partir de votre p
 La page **[!UICONTROL Rapport global]** du parcours s’affiche avec les onglets suivants :
 
 * [Parcours](#journey-global)
-* [Courriel](#email-global)
+* [E-mail](#email-global)
 * [Push](#push-global)
 
 Le rapport **[!UICONTROL global]** parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce sujet, consultez cette [section](global-report.md#modify-dashboard).
@@ -63,7 +63,7 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi de courriel]** détaille la 
 
 * **[!UICONTROL Envoyé]** : Nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Taux]** de diffusion : Pourcentage de messages envoyés avec succès.
 
@@ -91,7 +91,7 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi de courriel]** détaille la 
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données disponibles pour les courriers électroniques envoyés, telles que :
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -121,7 +121,7 @@ Le tableau **[!UICONTROL Notification Push - Envoi de statistiques]** détaille 
 
 * **[!UICONTROL Envoyé]** : Nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Taux]** de diffusion : Pourcentage de messages envoyés avec succès.
 
@@ -153,7 +153,7 @@ Le graphique **[!UICONTROL Résumé des notifications Push]** contient les donn�
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Erreurs]** : Nombre total d’erreurs survenues au cours d’une diffusion qui l’empêchait d’être envoyée aux profils.
 
