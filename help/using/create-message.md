@@ -2,10 +2,10 @@
 title: Créer un message
 description: Découvrez comment créer un message
 translation-type: tm+mt
-source-git-commit: 8ba98f797fd146cc39e09fd697de38247a56e3e9
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ Pour créer un message, procédez comme suit :
 
    * Sélectionnez le **[!UICONTROL paramètre prédéfini]** à utiliser pour le message.
 
-      Les paramètres prédéfinis incluent tous les paramètres requis pour qu’une notification par courrier électronique et/ou push soit envoyée en fonction de votre marque. [En savoir plus sur l’identité graphique](configuration/about-subdomain-delegation.md).
+      Les paramètres prédéfinis incluent tous les paramètres requis pour qu’une notification par courrier électronique et/ou push soit envoyée en fonction de votre marque. [En savoir plus sur l’identité graphique](administration.md#cjm-branding).
 
    * Sélectionnez le ou les canaux à utiliser pour ce message : Courriel et/ou notification Push. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
    Notez que vous pouvez accéder et modifier à tout moment le titre, la description et le paramètre prédéfini du message à l’aide du bouton **[!UICONTROL Propriétés]** de l’interface de message.
@@ -67,11 +67,11 @@ Pour créer un message, procédez comme suit :
    >Vous pouvez personnaliser vos messages à l’aide des données des profils à l’aide de l’éditeur d’Expressions. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](personalization/personalize.md).
 
 
-1. Contrôlez le rendu de vos messages et vérifiez les paramètres de personnalisation avec les profils de test, en utilisant la section prévisualisation sur le côté gauche. Pour plus d&#39;informations à ce sujet, consultez [cette section](preview.md).
+1. Contrôlez le rendu de vos messages et vérifiez les paramètres de personnalisation avec les profils de test, en utilisant la section prévisualisation sur le côté gauche. Voir à ce propos [cette section](preview.md).
 
    ![](assets/messages-simple-preview.png)
 
-1. Vérifiez les alertes dans la section supérieure de l’éditeur.  Certains d&#39;entre eux sont de simples avertissements, mais d&#39;autres peuvent vous empêcher de publier le message. Pour en savoir plus, consultez [cette section](alerts.md).
+1. Vérifiez les alertes dans la section supérieure de l’éditeur.  Certains d&#39;entre eux sont de simples avertissements, mais d&#39;autres peuvent vous empêcher de publier le message. En savoir plus dans [cette section](alerts.md).
 
 1. Vous pouvez maintenant publier votre message en cliquant sur le bouton **[!UICONTROL Publier]**, ou le conserver en tant que brouillon et le publier ultérieurement. Pour plus d&#39;informations sur la façon de publier des messages, consultez [cette section](publish-manage-message.md).
 
