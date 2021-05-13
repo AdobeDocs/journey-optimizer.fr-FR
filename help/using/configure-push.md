@@ -1,12 +1,11 @@
 ---
 title: Configuration d’une notification Push
 description: Découvrez comment créer une notification Push à Journey Optimizer
-exl-id: 3b9deb7d-77cf-47ca-998e-63aa8aca42fd
 translation-type: tm+mt
-source-git-commit: 71eeab336d42f1b8ebe4e4baa4b3217f4778368b
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 0%
+source-wordcount: '976'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Les notifications Push sont configurées lors de la création d’un message, dans l’onglet **[!UICONTROL Notification Push]** (voir [Création d’un message](create-message.md)).
 
-Utilisez les onglets dédiés pour définir les paramètres de notification Push pour les systèmes d’exploitation iOS et Android.
+Vous pouvez configurer le contenu des notifications Push pour les systèmes d’exploitation iOS ou Android à l’aide des onglets dédiés.
 
 ![](assets/create-content-push.png)
 
@@ -40,40 +39,6 @@ Sélectionnez le comportement lorsqu’un destinataire clique sur le corps de la
 * Utilisez l&#39;option **[!UICONTROL Deplink]** pour rediriger le destinataire vers un contenu spécifique situé dans l&#39;application. Entrez le lien profond dans le champ associé.
 * Utilisez l&#39;option **[!UICONTROL URL Web]** pour rediriger le destinataire vers une URL externe. Entrez l’URL dans le champ associé.
 
-## Ajouter le média
-
-Dans la version iOS, vous pouvez ajouter une image, une vidéo ou un fichier GIF qui s’affichera dans votre notification.
-
-Dans la version Android, vous ne pouvez ajouter qu’une icône d’image et une image pour les notifications élargies.
-
-Cliquez sur le bouton **[!UICONTROL Ajouter le média]** pour sélectionner un fichier dans [!DNL Adobe Experience Manager Assets Essentials].
-
-![](assets/push-config-add-media.png)
-
-Découvrez comment utiliser [!DNL Adobe Experience Manager Assets Essentials] dans [cette page](assets-essentials.md).
-
-Vous pouvez également entrer l&#39;URL du média et ajouter la personnalisation en cliquant sur le champ **[!UICONTROL Ajouter le média]**. **POUR VÉRIFIER / NE FONCTIONNE PAS**
-
-Une fois ajouté, le support s’affiche à droite de l’organisme de notification.
-
-![](assets/push-config-media-preview.png)
-
-## Boutons Ajouter
-
-Vous pouvez créer des notifications pratiques en ajoutant des boutons à vos notifications Push.
-
-Si l’écran du périphérique est verrouillé, ces boutons ne s’affichent pas : seuls le titre et le message de la notification sont visibles. Si leur périphérique est déverrouillé, les destinataires verront les boutons.
-
-Dans la version iOS, vous pouvez ajouter jusqu’à 4 boutons. Dans la version Android, vous pouvez ajouter jusqu’à 3 boutons.
-
-Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les paramètres : l’étiquette et l’action associée. Les actions possibles sont les mêmes que pour le comportement de [clic](#on-click-behavior).
-
-**NE FONCTIONNE PAS**
-
->[!NOTE]
->
->Pour iOS, utilisez le champ **[!UICONTROL catégorie iOS]** pour associer des actions à une catégorie de notification.
-
 ## Envoyer une notification silencieuse
 
 Une notification Push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l’application. Il est utilisé par exemple pour informer votre application de la disponibilité du nouveau contenu ou pour lancer un téléchargement en arrière-plan.
@@ -81,8 +46,6 @@ Une notification Push silencieuse (ou notification en arrière-plan) est une ins
 Sélectionnez l&#39;option **[!UICONTROL Notification silencieuse]** pour avertir l&#39;application en silence : dans ce cas, la notification est transférée directement à la demande. Aucune alerte n&#39;est affichée sur l&#39;écran du périphérique.
 
 Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des paires clé/valeur.
-
-![](assets/push-config-silent-notification.png)
 
 ## Options avancées
 
@@ -99,16 +62,9 @@ Configurez les **[!UICONTROL options avancées]**. Les paramètres disponibles s
 | **[!UICONTROL Ajouter un indicateur de contenu modifiable]** | iOS | Envoie l’indicateur de contenu modifiable dans la charge utile Push et permet de modifier le contenu de la notification Push en utilisant l’extension d’application du service de notification fournie dans le SDK iOS. Pour plus d’informations à ce sujet, consultez la [documentation destinée aux développeurs Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Vous pouvez ensuite exploiter vos extensions d&#39;applications mobiles pour modifier davantage le contenu ou la présentation des notifications Push arrivant  [!DNL Journey Optimizer] Par exemple, les utilisateurs peuvent utiliser cette option pour déchiffrer des données, modifier le corps ou le titre d&#39;une notification, ajouter un identifiant de thread à une notification, etc. |
 | **[!UICONTROL Visibilité des notifications]** | Android | Définit la visibilité de la notification Push. <b></b> privé affichera la notification sur tous les verrous, mais dissimulera les informations sensibles ou privées sur les verrous sécurisés. <b>La </b> publication affichera la notification dans son intégralité sur tous les écrans de verrouillage. <b>Le </b> Secrétariat ne divulguera aucune partie de la notification sur un écran de verrouillage sécurisé. Pour plus d’informations à ce sujet, consultez la [documentation destinée aux développeurs Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Priorité de notification]** | Android | Définit l’importance de la notification Push de Faible à Max. Cette opération détermine l’intrusion de la notification Push lors de sa diffusion. Pour plus d’informations à ce sujet, consultez la [documentation destinée aux développeurs Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance). |
-| **[!UICONTROL Priorité de diffusion]** | Android | Définit une priorité élevée ou normale pour vos notifications Push. Pour plus d&#39;informations sur la priorité des messages, consultez la [documentation destinée aux développeurs de Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+| **[!UICONTROL Delivery priority]** | Android | Définit une priorité élevée ou normale pour vos notifications Push. Pour plus d&#39;informations sur la priorité des messages, consultez la [documentation destinée aux développeurs Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
 
 ## Données personnalisées
 
-Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la charge utile, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications Push dans Adobe Experience Platform et le lancement d&#39;Adobe, consultez [cette section](push-configuration.md).
+Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la charge utile, en fonction de la configuration de votre application mobile. Pour plus d’informations sur la configuration des notifications Push dans Adobe Experience Platform et le lancement d’Adobe, voir [cette section](push-configuration.md).
 
-## Envoyer une notification silencieuse
-
-Une notification Push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l’application. Il est utilisé par exemple pour informer votre application de la disponibilité du nouveau contenu ou pour lancer un téléchargement en arrière-plan.
-
-Sélectionnez l&#39;option **[!UICONTROL Notification silencieuse]** pour avertir l&#39;application en silence : dans ce cas, la notification est transférée directement à la demande. Aucune alerte n&#39;est affichée sur l&#39;écran du périphérique.
-
-Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des paires clé/valeur.
