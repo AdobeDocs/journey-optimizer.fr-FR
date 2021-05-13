@@ -2,10 +2,10 @@
 title: À propos des sources de données
 description: Découvrez comment configurer une source de données
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
->title="A propos des sources de données"
+>title="À propos des sources de données"
 >abstract="La configuration d’une source de données est toujours effectuée par un utilisateur technique. Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple : définition de conditions, données de paramètres et de personnalisation dans les actions, définition d’attente personnalisée, définition de fuseau horaire."
 
 Elle vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. Par exemple :
