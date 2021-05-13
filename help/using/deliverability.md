@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 La délivrabilité est une mesure du succès de vos diffusions dans vos boîtes de réception destinataires.
 
-**La** délivrabilité des courriels se rapporte à l&#39;ensemble des caractéristiques qui déterminent la capacité d&#39;un message à atteindre sa destination, par l&#39;intermédiaire d&#39;une adresse de courriel personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format. Ces caractéristiques se répartissent en quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Ensemble, ils forment la base d&#39;un programme de livraison de courrier électronique réussi.
+**La délivrabilité des emails désigne l’ensemble des caractéristiques qui déterminent la capacité d’un message à atteindre sa destination, par l’intermédiaire d’une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.** Ces caractéristiques se répartissent en quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Ensemble, ils forment la base d’un programme de délivrabilité des emails réussi.
 
 Le **taux de délivrabilité** correspond au nombre de messages qui ont atteint les boîtes de réception des destinataires par rapport au nombre de messages qui ont été remis. Elle dépend de nombreux facteurs, notamment :
 
 * Plaintes de spam limitées
 * Taux de rebond dur bas
-* Qualité des adresses ciblées
+* la qualité des adresses ciblées
 * Contenu du message
-* Connaissance de l&#39;expéditeur
+* la réputation de l&#39;expéditeur
 
 Pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], nous vous recommandons d’utiliser les meilleures pratiques répertoriées dans cette section. Les problèmes de délivrabilité sont généralement liés à la protection contre le spam mise en oeuvre par les prestataires Internet (FAI) et les administrateurs de serveurs de messagerie.
 
@@ -33,7 +33,7 @@ Les FAI disposent généralement d&#39;un moyen de rapports important d&#39;un m
 
 En règle générale, n’essayez pas d’empêcher les destinataires qui souhaitent s’exclure en les obligeant à remplir des champs tels que leur adresse électronique ou leur nom, par exemple. Le landing page de désinscription ne doit comporter qu’un seul bouton de validation.
 
-Faites attention lorsque vous demandez une confirmation supplémentaire : un utilisateur peut voir deux adresses électroniques redirigées vers la même zone (par exemple : firstname.lastname@club.com et firstname.lastname@internet-club.com). Si le profil est capable de se souvenir de la première adresse seulement et souhaite se désabonner via un message envoyé à l&#39;autre, le formulaire refusera cette adresse car l&#39;identifiant chiffré et l&#39;adresse électronique saisie ne correspondent pas.
+Faites attention lorsque vous demandez une confirmation supplémentaire : un utilisateur peut voir deux adresses électroniques redirigées vers la même zone (par exemple : firstname.lastname@club.com et firstname.lastname@internet-club.com). Si le profil est capable de se souvenir uniquement de la première adresse et souhaite se désinscrire via un message envoyé à l’autre, le formulaire refusera cette adresse car l’identifiant chiffré et l’adresse email saisie ne correspondront pas.
 
 ## Listes de suppression d&#39;exploitation {#suppression-lists}
 
@@ -63,7 +63,7 @@ Spammers are also known to replace text with images to stop offending text from 
 
 Pour améliorer votre taux de délivrabilité et vous assurer que vos courriels atteignent vos destinataires, suivez les principes ci-dessous lors de la conception du contenu de votre message :
 
-* **Nom et adresse** de l&#39;expéditeur : L&#39;adresse doit identifier explicitement l&#39;expéditeur. Le domaine doit être détenu par l&#39;expéditeur et enregistré auprès de celui-ci. Le registre des domaines ne doit pas être privatisé.
+* **Le nom et l&#39;adresse de l&#39;expéditeur** : l&#39;adresse doit identifier explicitement l&#39;expéditeur qui doit être propriétaire du domaine et l&#39;avoir enregistré. Le registre du domaine ne doit pas être privatisé.
 
 <!--* **Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).
 * **Personalize your email**: Personalizing the email increases the chances of your message being opened.
