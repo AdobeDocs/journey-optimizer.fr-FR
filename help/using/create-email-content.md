@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 32%
 
 ---
 
@@ -81,36 +81,36 @@ Le contenu de votre courrier électronique peut désormais être utilisé dans u
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="A propos des composants Structure"
->abstract="Les composants de structure définissent la disposition du courrier électronique."
+>title="À propos des composants Structure"
+>abstract="Les composants de structure définissent la disposition de votre email."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
->title="Définition des colonnes de courrier électronique"
->abstract="Le Concepteur de courriers électroniques vous permet de définir facilement la disposition de votre courrier électronique en définissant la structure des colonnes."
+>title="Définition des colonnes de l’email"
+>abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
 
-Le concepteur de courrier électronique vous permet de définir facilement la structure de votre courrier électronique. En ajoutant et en déplaçant des éléments structuraux à l&#39;aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre courrier électronique en quelques secondes.
+Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
-Pour modifier la structure d’un courrier électronique :
+Pour éditer la structure d’un email :
 
-1. Ouvrez un contenu existant ou créez un nouveau contenu de courrier électronique.
-1. Accédez aux **[!UICONTROL composants de structure]** en sélectionnant l&#39;icône **+** sur la gauche.
+1. Ouvrez un contenu existant ou créez un contenu d’email.
+1. Accédez aux **[!UICONTROL Composants de structure]** en sélectionnant l’icône **+** de gauche.
 1. Faites glisser et déposez les composants de structure dont vous avez besoin pour façonner votre courrier électronique.
-Une ligne bleue matérialise l&#39;emplacement exact des composants de la structure avant de la déposer. Vous pouvez la déposer au-dessus, entre ou en dessous de tout autre composant, mais pas à l’intérieur.
+Une ligne bleue matérialise la position exacte des composants de structure avant de les déposer. Vous pouvez placer vos composants au-dessus, entre ou sous n’importe quel composant, mais pas à l’intérieur.
 
    >[!NOTE]
    >
-   >Notez que la pile de colonnes n’est pas compatible avec tous les programmes de messagerie. Si elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
+   >Les colonnes empilées ne sont pas compatibles avec tous les programmes de messagerie. Lorsqu’elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
    >
-   >Une fois placé dans le courrier électronique, vous ne pouvez ni déplacer ni supprimer vos composants, à moins qu’un composant de contenu ou un fragment ne soit déjà inséré.
+   >Une fois qu’ils ont été placés dans l’email, vous ne pouvez pas déplacer ni supprimer vos composants, à moins qu’un composant de contenu ou un fragment ne soit déjà placé à l’intérieur.
 
-1. Plusieurs composants de structure composés d’une ou de plusieurs colonnes sont disponibles.
+1. Plusieurs composants de structure constitués d’une ou de plusieurs colonnes sont disponibles.
 
-   Sélectionnez le composant **[!UICONTROL n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches au bas de chaque colonne.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches au bas de chaque colonne.
 
    >[!NOTE]
    >
-   >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n&#39;est pas vide.
+   >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n’est pas vide.
 
 Une fois la structure définie, vous pouvez ajouter des fragments de contenu et des composants à votre courrier électronique.
 
@@ -118,14 +118,14 @@ Une fois la structure définie, vous pouvez ajouter des fragments de contenu et 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Utilisation d’un en-tête prédéfini"
+>title="Utilisation d’un pré-titre "
 >abstract="Le préen-tête vous permet de configurer un texte de résumé court qui peut vous aider à mieux suivre et personnaliser vos courriels."
 
 Un préen-tête est un texte de résumé court qui suit la ligne d’objet lors de l’affichage d’un courrier électronique à partir de votre client de messagerie. Le préen-tête peut vous aider à mieux suivre et personnaliser vos courriels.
 
 Sélectionnez la zone de modification **[!UICONTROL Préen-tête]** et ajoutez du contenu.
 
-Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL Champs de personnalisation]** dans le contenu de l’en-tête.
+Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL champ de personnalisation]** dans le contenu du pré-titre.
 
 >[!NOTE]
 >
@@ -147,19 +147,19 @@ Lorsqu’il s’agit de définir des arrière-plans avec le concepteur de courri
 
 Vous trouverez ci-dessous les paramètres d’arrière-plan disponibles que vous pouvez utiliser.
 
-* Définissez une **[!UICONTROL couleur d’arrière-plan]** pour l’ensemble du courrier électronique. Assurez-vous de sélectionner les paramètres de corps dans l&#39;arborescence de navigation accessible à partir de la palette de gauche.
+* Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
 
-* Définissez la même couleur d’arrière-plan pour tous les composants de la structure en sélectionnant **[!UICONTROL Couleur d’arrière-plan de la fenêtre d’affichage]**. Cette option vous permet de sélectionner un autre paramètre dans la couleur d’arrière-plan.
+* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un autre paramètre dans la couleur d’arrière-plan.
 
 * Définissez une couleur d’arrière-plan différente pour chaque composant de structure. Sélectionnez une structure dans l&#39;arborescence de navigation accessible à partir de la palette de gauche pour appliquer une couleur d&#39;arrière-plan spécifique uniquement à cette structure.
 
    Veillez à ne pas définir de couleur d’arrière-plan de fenêtre d’affichage, car elle peut masquer les couleurs d’arrière-plan de la structure.
 
-* Définissez une **[!UICONTROL image d’arrière-plan]** pour le contenu d’un composant de structure.
+* Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
 
    >[!NOTE]
    >
-   >Certains programmes électroniques ne prennent pas en charge les images d’arrière-plan. Si elle n’est pas prise en charge, la couleur d’arrière-plan de la rangée est utilisée à la place. Veillez à sélectionner une couleur d’arrière-plan de secours appropriée au cas où l’image ne s’afficherait pas.
+   >Certains programmes électroniques ne prennent pas en charge les images d’arrière-plan. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Veillez à sélectionner une couleur d’arrière-plan de secours appropriée au cas où l’image ne s’afficherait pas.
 
 * Définissez une couleur d’arrière-plan au niveau de la colonne.
 
@@ -171,18 +171,18 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan disponibles que vous
 
 ### Exemple : ajuster l’alignement vertical et le remplissage {#example--adjusting-vertical-alignment-and-padding}
 
-Vous souhaitez ajuster le remplissage et l’alignement vertical à l’intérieur d’un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
+Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
 
 1. Sélectionnez le composant de structure directement dans le courrier électronique ou utilisez l&#39;arborescence de structure disponible à partir de la palette **gauche**.
-1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle que vous souhaitez modifier. Vous pouvez également le sélectionner dans l’arborescence de la structure.
+1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l&#39;arborescence.
 
-   Les paramètres modifiables de cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]** à droite.
+   Les paramètres éditables pour cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]** situé à droite.
 
-1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez **[!UICONTROL Haut]**.
+1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez **[!UICONTROL Monter]**.
 
-   Le composant de contenu s’affiche en haut de la colonne.
+   Le composant de contenu s&#39;affiche au-dessus de la colonne.
 
-1. Sous **[!UICONTROL Marge intérieure]**, définissez le remplissage supérieur dans la colonne. Cliquez sur l’icône de verrouillage pour interrompre la synchronisation avec le remplissage inférieur.
+1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l&#39;intérieur de la colonne. Cliquez sur l’icône de verrouillage pour interrompre la synchronisation avec le remplissage inférieur.
 
    Définissez les marges de gauche et de droite pour cette colonne.
 
@@ -192,15 +192,15 @@ Vous souhaitez ajuster le remplissage et l’alignement vertical à l’intérie
 
 ## Définir un style pour les liens {#about-styling-links}
 
-Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur de courriers électroniques.
+Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
 
-1. Dans un composant où un lien est inséré, sélectionnez le texte d’étiquette du lien.
+1. Dans un composant dans lequel un lien est inséré, sélectionnez le texte du libellé du lien.
 
-1. Dans les paramètres du composant, cochez **[!UICONTROL Lien de soulignement]** pour souligner le texte d’étiquette de votre lien.
+1. Dans les paramètres du composant, cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
 
-1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez une **[!UICONTROL Cible]**.
+1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez un attribut de **[!UICONTROL Cible]**.
 
-1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]**.
+1. Pour changer la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]**.
 
 1. Choisissez la couleur dont vous avez besoin.
 
@@ -210,8 +210,8 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 Dans l’interface de Designer de messagerie, lorsque vous sélectionnez un élément et affichez ses paramètres sur le panneau latéral, vous pouvez personnaliser les attributs insérés et leur valeur pour cet élément spécifique.
 
-1. Sélectionnez un élément dans votre contenu.
-1. Dans le panneau latéral, recherchez les paramètres **[!UICONTROL Styles en ligne]**.
+1. Sélectionnez un élément de votre contenu.
+1. Sur le panneau latéral, recherchez les paramètres de **[!UICONTROL styles intégrés]**.
 
 1. Modifiez les valeurs des attributs existants ou ajoutez-en de nouveaux à l’aide du bouton **+**. Vous pouvez ajouter n’importe quel attribut et valeur compatible CSS.
 
@@ -236,7 +236,7 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 
    ![](assets/text_version_2.png)
 
-1. Vous pouvez ensuite modifier la version en texte brut suivant vos besoins.
+1. Vous pouvez ensuite éditer la version en texte brut comme vous le souhaitez.
 
 >[!CAUTION]
 >
