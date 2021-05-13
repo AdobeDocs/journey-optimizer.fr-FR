@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Vous pouvez tester votre parcours à l’aide de profils de test. Cette étape est recommandée pour valider vos paramètres et messages.
 
-Pour en savoir plus, consultez cette [section](testing-the-journey.md).
+En savoir plus dans cette [section](testing-the-journey.md).
 
 ## Activer votre parcours
 
@@ -26,7 +26,7 @@ Vous devez publier votre parcours pour l’activer.
 
 ![](../assets/jo-journeyuc2_32bis.png)
 
-Pour en savoir plus, consultez cette [section](publishing-the-journey.md).
+En savoir plus dans cette [section](publishing-the-journey.md).
 
 
 Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils de rapports dédiés afin de mesurer l’efficacité de votre parcours.
@@ -35,7 +35,7 @@ Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils d
 
 [En savoir plus sur les rapports](../reports/live-report.md)
 
-## Envoyer des messages {#send-messages}
+## Envoyer les messages {#send-messages}
 
 Lorsque le contenu de votre message est défini et publié, il est prêt à être envoyé par l’intermédiaire d’un [parcours](journey.md).
 
@@ -49,7 +49,7 @@ Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au m
 
 Les messages peuvent être planifiés via l&#39;activité **[!UICONTROL Lire le segment]** dans un [parcours](journey.md). Vous pouvez indiquer quand le segment va entrer dans le parcours. [En savoir plus sur l’activité](read-segment.md) du segment Lu.
 
-Pour ce faire, procédez comme suit :
+Pour ce faire, procédez comme suit :
 
 1. Modifiez un parcours, faites glisser et déposez une activité **[!UICONTROL Lire le segment]** et configurez-la par début. [En savoir plus sur la configuration de l’activité](read-segment.md#configuring-segment-trigger-activity) de segment Lu.
 
@@ -75,7 +75,7 @@ Pour ce faire, procédez comme suit :
 
    >[!NOTE]
    >
-   >Par défaut, les segments entrent dans le parcours **[!UICONTROL Dès que possible]**, ce qui signifie 1 heure après la publication du parcours.
+   >Par défaut, les segments rejoignent le parcours **[!UICONTROL Dès que possible]**, c’est-à-dire 1 heure après la publication de celui-ci.
 
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer vos modifications.
 
