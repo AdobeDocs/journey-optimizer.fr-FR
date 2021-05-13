@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Pour insérer une décision dans un message électronique, procédez comme suit 
 
 1. Sélectionnez l&#39;emplacement correspondant aux offres à afficher.
 
-   Les emplacements sont des conteneurs utilisés pour présenter vos offres. Dans cet exemple, nous utiliserons l’emplacement &quot;Image de début de courrier électronique&quot;. Cet emplacement a été créé dans la bibliothèque d’Offres pour afficher les offres de type image situées en haut des messages.
+   Les placements sont des conteneurs utilisés pour présenter vos offres. Dans cet exemple, nous utiliserons l’emplacement &quot;Image de début de courrier électronique&quot;. Cet emplacement a été créé dans la bibliothèque d’Offres pour afficher les offres de type image situées en haut des messages.
 
 1. Sélectionnez l’activité d’offre à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
 
