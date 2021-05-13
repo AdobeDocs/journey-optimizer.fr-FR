@@ -1,19 +1,19 @@
 ---
-title: Collections de listes
-description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies définies par un spécialiste du marketing, telles que la catégorie de l’offre.
+title: Liste des collections
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Collections de listes
+# Liste des collections
 
-Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies définies par un spécialiste du marketing, telles que la catégorie de l’offre.
+Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
 
-Vous pouvez vue une liste de toutes les collections au sein d’un conteneur en exécutant une seule requête de GET à l’API [!DNL Offer Library].
+Vous pouvez afficher une liste de toutes les collections au sein d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
 **Format d’API**
 
@@ -23,12 +23,12 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les collections. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Définit le schéma associé aux collections. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `{QUERY_PARAMS}` | Paramètres de requête facultatifs pour filtrer les résultats en fonction. | `limit=1` |
+| `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=1` |
 
-**Demande**
+**Requête**
 
 ```shell
 curl -X GET \
@@ -42,18 +42,18 @@ curl -X GET \
 
 ## Utilisation des paramètres de requête
 
-Vous pouvez utiliser des paramètres de requête pour la page et filtrer les résultats lors de la mise en vente des ressources.
+Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l’organisation en liste des ressources.
 
 ### Pagination
 
-Les paramètres de requête les plus courants pour la pagination sont les suivants :
+Les paramètres de requête les plus courants pour la pagination sont les suivants :
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets de doublon pour l’empêcher d’être jetée et pour échapper des caractères spéciaux. Les caractères `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d’une barre oblique inverse lorsqu’ils apparaissent dans la chaîne de requête. | `demo collection` |
-| `qop` | Applique l’opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` /  `OR` |
-| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[, field=field2,...] et (les expressions de chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Triez les résultats selon une propriété spécifique. Ajouter un `-` avant le titre (`orderby=-title`) triera les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
+| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l’empêcher d’être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d’une barre oblique inverse lorsqu’ils apparaissent dans la chaîne de requête. | `demo collection` |
+| `qop` | Applique l’opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
+| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
+| `orderBy` | Triez les résultats en fonction d’une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limitez le nombre de collections renvoyées. | `limit=5` |
 
 **Réponse**
