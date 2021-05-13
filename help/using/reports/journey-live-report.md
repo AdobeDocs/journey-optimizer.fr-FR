@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Vous pouvez accéder directement au rapport parcours en direct à partir de votr
 La page **[!UICONTROL Rapport en direct]** du parcours s’affiche avec les onglets suivants :
 
 * [Parcours](#journey-live)
-* [Courriel](#email-live)
+* [E-mail](#email-live)
 * [Push](#push-live)
 
 Le rapport **[!UICONTROL En direct]** parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce sujet, consultez cette [section](live-report.md#modify-dashboard).
@@ -63,7 +63,7 @@ Pour obtenir un rapport détaillé sur une diffusion de courriel spécifique, co
 
 Les widgets **[!UICONTROL Envoi de statistiques]** et **[!UICONTROL Envoi de mesures par courriel]** décrivent la réussite de votre diffusion :
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -75,7 +75,7 @@ Le graphique **[!UICONTROL Résumé du courriel]** détaille les principales inf
 
 * **[!UICONTROL Envoyé]** : Nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -109,7 +109,7 @@ Pour un rapport détaillé sur une diffusion Push spécifique, consultez la sect
 
 * **[!UICONTROL Envoyé]** : Nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Livré]** : Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : Nombre total d&#39;erreurs cumulées pendant la diffusion et le traitement automatique des retours par rapport au nombre total de messages envoyés.
 
