@@ -1,27 +1,27 @@
 ---
-title: Créer des offres personnalisées
-description: Une offre personnalisée est un message marketing personnalisable basé sur des règles d'éligibilité et des contraintes.
+title: Création d’offres personnalisées
+description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Créer une offre personnalisée
 
-Une offre personnalisée est un message marketing personnalisable basé sur des règles d&#39;éligibilité et des contraintes.
+Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 
-Vous pouvez créer une offre personnalisée en adressant une requête de POST à l&#39;API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
+Vous pouvez créer une offre personnalisée en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 
 ## En-têtes Accepter et Type de contenu
 
-Le tableau suivant présente les valeurs valides qui comprennent les champs *Content-Type* et *Accepter* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Type de contenu* et *Accepter* dans l’en-tête de la requête :
 
 | Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Format d’API**
@@ -32,10 +32,10 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les offres personnalisées. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Demande**
+**Requête**
 
 ```shell
 curl -X POST \
@@ -82,7 +82,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur l&#39;offre personnalisée nouvellement créée, y compris son identifiant d&#39;instance unique et son emplacement `@id`. Vous pouvez utiliser l’ID d’instance dans les étapes suivantes pour mettre à jour ou supprimer votre offre personnalisée.
+Une réponse réussie renvoie des informations sur l’offre personnalisée nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre offre personnalisée.
 
 ```json
 {
