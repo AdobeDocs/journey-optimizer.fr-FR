@@ -2,7 +2,7 @@
 title: Alertes dans les messages
 description: Découvrez comment vérifier la validation du contenu des messages et résoudre les problèmes
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 03af839084edafbc93188750db1f9f6c8b559d9e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Tous les avertissements et erreurs possibles sont détaillés [ci-dessous](#aler
 
 Les paramètres et éléments contrôlés par le système sont répertoriés ci-dessous. Vous trouverez également des informations sur la façon d&#39;adapter votre configuration pour résoudre les problèmes correspondants.
 
-**Avertissements** :
+**Avertissements**:
 
 * **[!UICONTROL opt-out lien absent du corps]** du courrier électronique : il est recommandé d’ajouter un lien de désinscription dans votre corps de courriel. Découvrez comment le configurer dans [cette section](consent.md).
 
@@ -51,7 +51,7 @@ Les paramètres et éléments contrôlés par le système sont répertoriés ci-
 
 * **[!UICONTROL La taille du courrier électronique a dépassé la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre courrier électronique ne dépasse pas 100 Ko. Découvrez comment modifier le contenu du courrier électronique dans [cette section](create-email-content.md).
 
-**Erreurs** :
+**Erreurs**:
 
 * **[!UICONTROL Objet non présent]** : l’objet du courrier électronique est obligatoire. Découvrez comment le définir et le personnaliser dans [cette section](configure-email.md).
 
@@ -61,7 +61,7 @@ Les paramètres et éléments contrôlés par le système sont répertoriés ci-
 
 * **[!UICONTROL La variable de courriel est vide]** : cette erreur s’affiche lorsque le contenu du courrier électronique n’a pas été configuré. Découvrez comment concevoir du contenu de courriel dans [cette section](design-emails.md).
 
-* **[!UICONTROL Le paramètre prédéfini n’existe]** pas : vous ne pouvez pas publier votre message si le paramètre prédéfini sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre paramètre prédéfini dans le message **[!UICONTROL Propriétés]**. Pour en savoir plus sur l&#39;identité graphique, consultez [cette section](configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Le paramètre prédéfini n’existe]** pas : vous ne pouvez pas publier votre message si le paramètre prédéfini sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre paramètre prédéfini dans le message **[!UICONTROL Propriétés]**. Pour en savoir plus sur l&#39;identité graphique, consultez [cette section](administration.md#cjm-branding).
 
 * **[!UICONTROL La charge utile Push iOS/Android a dépassé la limite de 4 Ko]** : la taille de notification Push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l&#39;utilisation des images ou des émoticônes. Découvrez comment gérer votre contenu de notification Push dans [cette section](configure-push.md).
 
