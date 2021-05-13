@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Utilisez le mode **[!UICONTROL Code votre propre]** pour importer du code HTML b
 
 1. Entrez ou collez votre code HTML brut.
 
-1. Utilisez le volet de gauche pour tirer parti des fonctionnalités de personnalisation [!DNL Journey Optimizer]. Pour plus d&#39;informations à ce sujet, consultez [cette section](personalization/personalize.md).
+1. Utilisez le volet de gauche pour tirer parti des fonctionnalités de personnalisation [!DNL Journey Optimizer]. Voir à ce propos [cette section](personalization/personalize.md).
 
    ![](assets/code-editor.png)
 
@@ -47,7 +47,7 @@ Utilisez le mode **[!UICONTROL Code votre propre]** pour importer du code HTML b
 
    ![](assets/code-editor-change-design.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Prévisualisation]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test. Pour plus d&#39;informations à ce sujet, consultez [cette section](preview.md).
+1. Cliquez sur le bouton **[!UICONTROL Prévisualisation]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test. Voir à ce propos [cette section](preview.md).
 
    ![](assets/code-editor-preview.png)
 
@@ -75,6 +75,6 @@ Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
 1. Faites glisser et déposez le fichier HTML ou .zip contenant votre contenu HTML.
 
-1. Une fois le contenu HTML téléchargé, vous pouvez tirer parti des fonctions de Designer de messagerie pour modifier et prévisualisation votre courrier électronique. [En savoir plus sur cette section](create-email-content.md).
+1. Une fois le contenu HTML téléchargé, vous pouvez tirer parti des fonctions de Designer de messagerie pour modifier et prévisualisation votre courrier électronique. [En savoir plus dans cette section](create-email-content.md).
 
    ![](assets/html-imported.png)
