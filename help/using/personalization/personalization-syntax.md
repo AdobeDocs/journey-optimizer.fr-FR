@@ -2,10 +2,10 @@
 title: Syntaxe de la personnalisation
 description: Découvrez comment utiliser la syntaxe de personnalisation
 translation-type: tm+mt
-source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -22,14 +22,14 @@ Il utilise un modèle et un objet d’entrée pour générer du code HTML ou d�
 
 Exemple d&#39;expression simple :
 
-```sql
+```
 {{profile.person.name}}
 ```
 
 where:
 
 * **** profileest un espace de nommage.
-* **person.** name est un jeton composé par attributs. La structure des attributs est définie dans un Schéma Adobe Experience Platform XDM. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+* **person.** name est un jeton composé par attributs. La structure des attributs est définie dans un Schéma Adobe Experience Platform XDM. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 ## Règles générales de syntaxe
 
@@ -45,7 +45,7 @@ Les mots **true**, **false**, **null** et **undefined** ne sont autorisés que d
 
 Dans les barres de contrôle, les valeurs renvoyées par {{expression}} sont **HTML-escape**. Si l’expression contient &amp;, la sortie HTML avec séquence d’échappement renvoyée est générée sous la forme &amp;. Si vous ne souhaitez pas que les barres de contrôle échappent à une valeur, utilisez le &quot;triple-stash&quot;.
 
-## Profil
+## Profile
 
 Cet espace de nommage vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la documentation [Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
@@ -65,7 +65,7 @@ Toutes les références sont validées par rapport au Schéma de Profil avec un 
 
 **Déterminez l&#39;extension** d&#39;adresse électronique :
 
-```sql
+```
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
 {%else if contains(profile.personalEmail.address, ".org")%}
@@ -81,7 +81,7 @@ Pour en savoir plus sur le service de segmentation et de segmentation, consultez
 
 **Générer un contenu différent en fonction de l’appartenance** au segment :
 
-```sql
+```
 {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
   Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
 {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
@@ -91,7 +91,7 @@ Pour en savoir plus sur le service de segmentation et de segmentation, consultez
 
 **Déterminez si un profil est déjà membre** :
 
-```sql
+```
 {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
     You're a member!
 {%else%}
@@ -111,9 +111,9 @@ Ce chemin possède la structure suivante :
 3 - ID d’Activité
 4 - Attributs spécifiques à l&#39;Offre. Selon le type d’offre, les attributs pris en charge peuvent être utilisés. Par exemple, pour les images `deliveryUrl`.
 
-Pour plus d&#39;informations sur l&#39;API Décisions, consultez cette [page](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+Pour plus d&#39;informations sur l&#39;API Décisions, consultez cette [page](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
 
-Pour plus d&#39;informations sur la représentation des Offres, consultez cette [page](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
+Pour plus d&#39;informations sur la représentation des Offres, consultez cette [page](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
 
 Toutes les références sont validées par rapport aux Offres Schéma avec un mécanisme de validation décrit [ici](personalization-validation.md).
 
@@ -144,12 +144,12 @@ Chaque paramètre est une expression Handlebars. Ces assistants sont accessibles
 Ces assistants de blocs sont identifiés par un # précédant le nom de l&#39;aide et nécessitent une fermeture /, correspondante du même nom.
 Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fermeture ({{/}}).
 
-### If{#if}
+### If
 
 L&#39;aide **if** est utilisée pour définir un bloc conditionnel.
 Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il est ignoré.
 
-```sql
+```
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
@@ -159,7 +159,7 @@ L&#39;instruction **else if** spécifie une nouvelle condition à tester si la p
 
 **Générer différents liens de magasin en fonction d’expressions** conditionnelles :
 
-```sql
+```
 {%#if profile.homeAddress.countryCode = "FR"%}
   <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
 {%else%}
@@ -167,13 +167,13 @@ L&#39;instruction **else if** spécifie une nouvelle condition à tester si la p
 {%/if%}
 ```
 
-### Sauf si{#unless}
+### Sauf
 
 **#** unlesshelper est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;assistance **#if**, si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
 
 **Générer du contenu en fonction de l’extension** d’adresse électronique :
 
-```sql
+```
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
@@ -181,7 +181,7 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-### Chacun{#each}
+### Chaque
 
 L&#39;assistance **each** est utilisée pour effectuer une itération sur une baie.
 La syntaxe de l&#39;assistance est ```{{#each ArrayName}}``` YourContent {{/each}.
@@ -189,14 +189,14 @@ Nous pouvons nous référer aux éléments individuels de la baie en utilisant l
 
 Exemple :
 
-```sql
+```
 {{#each profile.productsInCart}}
     <li>{{this.name}}</li>
     </br>
 {{/each}}
 ```
 
-```sql
+```
 {{#each profile.homeAddress.city}}
   {{@index}} : {{this}}<br>
 {{/each}}
@@ -204,20 +204,20 @@ Exemple :
 
 **Générer une liste de produits que cet utilisateur a dans son panier** :
 
-```sql
+```
 {{#each profile.products as |product|}}
     <li>{{product.productName}} {{product.productRating}}</li>
    </br>
 {{/each}}
 ```
 
-### Avec {#with}
+### Avec
 
 L&#39;aide **#with** permet de modifier le jeton d&#39;évaluation de template-part.
 
 Exemple :
 
-```sql
+```
 {{#with profile.person.name}}
 {{this.firstName}} {{this.lastName}}
 {{/with}}
