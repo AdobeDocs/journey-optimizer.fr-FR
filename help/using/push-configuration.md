@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '902'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Pour attribuer des droits de propriété et de Société :
    * **[!UICONTROL Développer]**
    * **[!UICONTROL Gérer les Environnements]**
    * **[!UICONTROL Gérer les extensions]**
-   * **[!UICONTROL Publier]**
+   * **[!UICONTROL Publiez]**
 
    ![](assets/push_product_3.png)
 
@@ -64,7 +64,7 @@ Pour attribuer des droits de propriété et de Société :
 1. Ajoutez les droits suivants :
 
    * **[!UICONTROL Gérer les configurations d’application]**
-   * **[!UICONTROL Gérer les propriétés]**
+   * **[!UICONTROL Gérer des propriétés]**
 
    ![](assets/push_product_5.png)
 
