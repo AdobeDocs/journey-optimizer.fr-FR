@@ -5,21 +5,21 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Utiliser [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
+# Utilisation [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
 
 ![](assets/do-not-localize/badge.png)
 
-## Commencer avec [!DNL Assets Essentials] {#get-started-assets-essentials}
+## Prise en main d’[!DNL Assets Essentials] {#get-started-assets-essentials}
 
 [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour renseigner vos messages. Vous pouvez y accéder directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Assets]**. Vous pouvez également accéder aux fichiers et aux dossiers lors de la conception d’un contenu de courrier électronique. [En savoir plus sur la conception](design-emails.md) des courriels.
 
 Vous avez besoin d&#39;autorisations spécifiques pour accéder à [!DNL Adobe Experience Manager Assets Essentials]. [En savoir plus sur les autorisations pour le Adobe Experience Manager Assets Essentials](permissions.md#assets-permissions).
 
-## Télécharger des ressources{#add-asset}
+## Chargement des ressources{#add-asset}
 
 Pour télécharger des fichiers dans [!DNL Assets Essentials], vous devez d&#39;abord parcourir ou créer le dossier dans lequel ils seront stockés :
 
@@ -43,11 +43,11 @@ Pour télécharger des fichiers dans [!DNL Assets Essentials], vous devez d&#39;
 
 1. Sélectionnez le fichier à télécharger. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**.
 
-1. Une fois votre fichier téléchargé, vous pouvez le gérer à l’aide de différentes options détaillées dans cette [section](#manage-asset). Votre fichier peut également être modifié avec le mode **Modifier** de [!DNL Assets Essentials]. Pour plus d&#39;informations à ce sujet, consultez cette [page](#edit-assets).
+1. Une fois votre fichier téléchargé, vous pouvez le gérer à l’aide de différentes options détaillées dans cette [section](#manage-asset). Votre fichier peut également être modifié avec le mode **Modifier** de [!DNL Assets Essentials]. Pour plus d’informations, consultez cette [cette page](#edit-assets).
 
    ![](assets/media_library_12.png)
 
-## Gérer les ressources{#manage-asset}
+## Gestion des ressources{#manage-asset}
 
 Vous pouvez gérer les ressources disponibles dans [!DNL Adobe Experience Manager Assets Essentials]. Cliquez sur votre fichier pour accéder à d’autres options.
 
