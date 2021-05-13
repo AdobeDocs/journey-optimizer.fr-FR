@@ -1,26 +1,26 @@
 ---
-title: Accès au catalogue d'offres exporté
-description: Découvrez comment accéder au catalogue d'offres sur Adobe Experience Platform une fois qu’il a été exporté.
+title: Accès au catalogue d’offres exporté
+description: Découvrez comment accéder au catalogue d’offres sur Adobe Experience Platform une fois qu’il a été exporté.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Accédez au catalogue d&#39;offres exporté {#access-exported-catalog}
+# Accès au catalogue d’offres exporté {#access-exported-catalog}
 
-Le catalogue d&#39;offres exporté est accessible dans le menu Adobe Experience Platform **[!UICONTROL Datasets]**. Un jeu de données est créé pour chaque objet de votre bibliothèque d’Offres.
+Le catalogue d’offres exporté est accessible dans le menu **[!UICONTROL Jeux de données]** d’Adobe Experience Platform. Un jeu de données est créé pour chaque objet de votre bibliothèque des offres.
 
-![](../assets/datasets-list.png)
+![](../../assets/datasets-list.png)
 
 Cliquez sur un jeu de données pour accéder à ses détails.
 
-![](../assets/dataset-activity.png)
+![](../../assets/dataset-activity.png)
 
-Le bouton **[!UICONTROL Prévisualisation dataset]** vous permet d&#39;afficher le lot le plus récent du jeu de données. Le volet de gauche fournit des informations sur les types de données qui ont été exportées.
+Le bouton **[!UICONTROL Prévisualiser le jeu de données]** vous permet d’afficher le lot réussi le plus récent du jeu de données. Le volet de gauche fournit des informations sur les types de données qui ont été exportées.
 
-![](../assets/dataset-preview.png)
+![](../../assets/dataset-preview.png)
 
-Pour plus d&#39;informations sur la manière de parcourir et d&#39;utiliser les jeux de données, consultez la [documentation relative aux jeux de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#getting-started).
+Pour plus d’informations sur la recherche et l’utilisation des jeux de données, reportez-vous à la [documentation sur les jeux de données d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started).
