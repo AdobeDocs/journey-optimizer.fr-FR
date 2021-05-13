@@ -1,78 +1,78 @@
 ---
-title: Champs d'exécution d'action de événements de parcoursStep
-description: Champs d'exécution d'action de événements de parcoursStep
+title: Champs d’exécution d’action des événements journeyStep
+description: Champs d’exécution d’action des événements journeyStep
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Champs d&#39;exécution d&#39;action de événements d&#39;étape de parcours {#sharing-execution-fields}
+# Champs d’exécution d’action des événements journeyStep {#sharing-execution-fields}
 
 ![](../assets/do-not-localize/badge.png)
 
-Ce mixin sera partagé par les variables voyageStepEvent et voyageStepProfileEvent.
+Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
-Si l’étape comporte une action à traiter, ces champs sont ajoutés à la charge utile du événement.
+Si l’étape comporte une action à traiter, ces champs sont ajoutés à la payload de l’événement.
 
 ## actionID
 
 ID de l’action en cours d’exécution.
 
-Type : string
+Type : Chaîne
 
 ## actionName
 
-Nom de l’action. Si aucun nom n&#39;a été défini, stepName est exécuté.
+Nom de l’action Si aucun nom n’a été défini, stepName est exécuté.
 
-Type : string
+Type : Chaîne
 
 ## actionType
 
-Type de l&#39;action.
+Type de l’action.
 
-Type : string
+Type : Chaîne
 
-## actionParamétré
+## actionParameterized
 
 Indique si l’action est paramétrée ou non.
 
-Type : booléen
+Type : booléen
 
 ## actionExecutionTime
 
 Durée (en millisecondes) d’exécution d’une action en cours.
 
-Type : long
+Type : long
 
 ## actionExecutionError
 
-Type d’erreur survenant lors de l’appel de l’action.
+Type d’erreur se produisant lors de l’appel de l’action.
 
-Type : string
+Type : Chaîne
 
-Valeurs :
+Values:
 * http
-* recouvrement
+* capping
 * timeout
-* erreur
+* error
 
 ## actionExecutionErrorCode
 
-Code d&#39;erreur d&#39;exécution d&#39;action. Présente si l’erreur comporte un code, par exemple HTTP.
+Code d’erreur d’exécution d’action. Présent si l’erreur comporte un code, par exemple HTTP.
 
-Type : string
+Type : Chaîne
 
 ## actionExecutionOriginError
 
-Un dépassement de délai peut se produire dans deux cas :
+Une temporisation peut se produire dans deux cas :
 
-* lors de la première tentative, une action est exécutée. Dans ce cas, l’exécution n’est pas terminée, il n’y a donc pas d’erreur sous-jacente.
-* sur une nouvelle tentative : dans ce cas, actionExecOrigError/actionExecOrigErrorCode décrit l&#39;erreur rencontrée lors de la tentative avant la nouvelle tentative.
+* Lors de la première tentative d’exécution d’une action. Dans ce cas, l’exécution n’est pas terminée, il n’y a donc pas d’erreur associée.
+* Lors d’une nouvelle tentative : dans ce cas, le code actionExecOrigError/actionExecOrigErrorCode décrit l’erreur rencontrée lors de la tentative, et avant la nouvelle tentative.
 
-Par exemple, un courrier électronique est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est refaite, mais la durée des deux tentatives dépasse le délai d&#39;attente. Ensuite, l’exécution de l’action est balisée en tant que délai d’expiration. La partie action se présente comme suit :
+Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de la première tentative. La récupération est de nouveau tentée, mais la durée des deux tentatives excède la temporisation. L’exécution de l’action est ensuite balisée pour indiquer un dépassement de délai. La partie action se présente comme suit :
 
 ```
     ...
@@ -85,13 +85,13 @@ Par exemple, un courrier électronique est envoyé et une erreur HTTP 500 est re
     "actionExecOrigErrorCode": "500"
 ```
 
-Type : string
+Type : Chaîne
 
 ## actionExecutionOriginCode
 
-Code d&#39;erreur de l&#39;actionExecOrigError.
+Code d’erreur d’actionExecOrigError.
 
-Type : string
+Type : Chaîne
 
 ## actionBusinessType
 
@@ -99,36 +99,36 @@ Indique le type d’action.
 
 Valeurs :
 
-* construction
-* Courriel ACS
-* SMS ACS
-* Push ACS
-* client
+* builtin
+* ACS E-mail
+* ACS SMS
+* ACS Push
+* customer
 * Epsilon
 * ...
 
-Type : string
+Type : Chaîne
 
 ## deliveryJobID
 
-Cette section décrit l’ID de tâche de diffusion pour le Parcours par lot.
+Cette section décrit l’ID de traitement de diffusion pour le parcours par lot.
 
-Type : string
+Type : Chaîne
 
 ## batchDeliveryID
 
-Cette section décrit l&#39;ID de diffusion du Parcours de commandes.
+Cette section décrit l’ID de diffusion pour le parcours par lot.
 
-Type : string
+Type : Chaîne
 
 ## fromSegmentTrigger
 
-Cette section décrit si le Parcours de lot est déclenché à partir du segment d’Audience.
+Cette section décrit si le parcours par lot est déclenché à partir du segment d’audience.
 
-Type : booléen
+Type : booléen
 
 ## actionSchedulerCount
 
-Nombre de demandes de notification de Planificateur envoyées au service de Planificateur pendant le traitement de l’étape.
+Nombre de demandes de notification de Planificateur envoyées au service Planificateur au cours du traitement de l’étape.
 
-Type : long
+Type : long
