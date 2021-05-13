@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Voici les principales étapes de configuration de la source de données :
+Les principales étapes de configuration d’une source de données sont les suivantes :
 
 >[!NOTE]
 >
->La configuration de la source de données est toujours effectuée par un **utilisateur technique**.
+>La configuration d’une source de données est toujours effectuée par un **utilisateur technique**.
 
 1. Sélectionnez le menu **[!UICONTROL Admin]** / **[!UICONTROL Sources de données]**.
 
-   La liste des sources de données s’affiche. Voir [cette page](../user-interface.md) pour plus d&#39;informations sur l&#39;interface.
+   La liste des sources de données s’affiche. Voir [cette page](../user-interface.md) pour plus d’informations sur l’interface.
 
    ![](../assets/journey18.png)
 
-1. Vous pouvez ensuite ajouter des groupes de champs à la source de données intégrée (voir [cette page](../datasource/adobe-experience-platform-data-source.md)) ou créer une nouvelle source de données externe (voir [cette page](../datasource/external-data-sources.md)) et les groupes de champs associés (voir [cette page](../datasource/configure-data-sources.md#define-field-groups)).
+1. Ensuite, vous pouvez soit ajouter des groupes de champs à la source de données intégrée (voir [cette page](../datasource/adobe-experience-platform-data-source.md)), soit créer une source de données externe (voir [cette page](../datasource/external-data-sources.md)) et les groupes de champs associés (voir [cette page](../datasource/configure-data-sources.md#define-field-groups)).
 
    ![](../assets/journey23.png)
 
@@ -35,38 +35,38 @@ Voici les principales étapes de configuration de la source de données :
 
 ## Définir des groupes de champs {#define-field-groups}
 
-Les groupes de champs sont des ensembles de champs que vous pouvez récupérer à partir d’une source de données et utiliser dans un parcours.
+Les groupes de champs sont des ensembles de champs que vous pouvez récupérer d’une source de données et utiliser dans un parcours.
 
-Pour chaque source de données, vous pouvez définir plusieurs groupes de champs, chacun avec une durée de cache spécifique.
+Pour chaque source de données, vous pouvez définir plusieurs groupes de champs ayant chacun une durée de mise en cache spécifique.
 
-Par exemple, vous pouvez créer un groupe de champs avec le numéro de téléphone, le courriel, le prénom et l’adresse du profil. Vous pourrez alors utiliser ces données dans votre parcours pour créer des conditions. Par exemple, vous pouvez décider d&#39;envoyer un SMS uniquement si le numéro de téléphone du profil n&#39;est pas vide. S’il est vide, vous pouvez envoyer un courriel.
+Vous pouvez, par exemple, créer un groupe de champs avec le numéro de téléphone, l’adresse e-mail, le prénom et l’adresse du profil. Vous pourrez alors utiliser ces données dans votre parcours afin de créer des conditions. Par exemple, vous pouvez choisir de n’envoyer un SMS que si le numéro de téléphone du profil est renseigné. Si le champ est vide, vous pouvez envoyer un e-mail.
 
-Même si un nom par défaut est automatiquement ajouté, nous vous recommandons de donner un nom à votre groupe de champs. En effet, le nom du groupe de champs sera visible pour les autres utilisateurs dans [!DNL Journey Optimizer]. Il est recommandé de donner un nom approprié aux groupes de champs.
+Bien qu’un nom par défaut soit automatiquement ajouté à votre groupe de champs, nous vous recommandons d’attribuer un nom personnalisé. En effet, ce nom sera visible par d’autres utilisateurs de [!DNL Journey Optimizer]. Il est conseillé d’attribuer au groupe un nom pertinent.
 
-Lorsqu’un champ de source de données est utilisé dans un parcours, le système récupère tous les champs définis pour ce groupe de champs. Par conséquent, il est recommandé de ne sélectionner que les champs dont vous avez besoin pour vos parcours. Cela réduira la latence des requêtes dans vos parcours, augmentant ainsi les performances. Notez que vous pourrez facilement ajouter d’autres champs dans les groupes de champs ultérieurement.
+Lorsqu’un champ de source de données est utilisé dans un parcours, le système récupère tous ceux qui sont définis pour ce groupe. Par conséquent, il est recommandé de ne sélectionner que les champs dont vous avez besoin pour vos parcours. Cela permettra de réduire la latence des requêtes dans vos parcours et d’améliorer les performances. Notez que vous pourrez facilement ajouter d’autres champs dans les groupes ultérieurement.
 
-**[!UICONTROL La]** durée du cache est également importante car elle vous aidera à optimiser les performances. La durée du cache signifie que, dans un parcours, si les données d’un groupe de champs sont récupérées une fois, le système les met temporairement en cache. Si les mêmes données sont requises ultérieurement dans le même parcours, le système n’envoie pas d’autre requête à la source de données. La configuration de la durée du cache doit être adaptée à chaque cas d&#39;utilisation. Si vous devez récupérer des données en temps réel telles que l’état de réservation d’hôtel, les informations météorologiques ou le nombre de points de fidélité, vous associerez le groupe de champs contenant ces champs à une courte durée de cache (1 seconde, par exemple). Pour les champs mis à jour moins fréquemment (nom, sexe), vous allez créer un second groupe de champs avec une durée de cache plus longue (5 jours, par exemple).
+La **[!UICONTROL durée de mise en cache]** est également un élément important, car elle contribue à l’optimisation des performances. Concrètement, cela signifie que dans le cadre d’un parcours, si des données d’un groupe de champs sont récupérées une fois, le système les met temporairement en cache. Si les mêmes données sont requises plus tard dans le même parcours, le système n’effectue aucune autre requête vers la source de données. La configuration de la durée de mise en cache doit être adaptée à chaque cas d’utilisation. Si vous devez récupérer des données en temps réel, telles que le statut d’une réservation d’hôtel, des informations météorologiques ou le nombre de points de fidélité, vous associerez le groupe contenant ces champs à une durée de mise en cache brève (1 seconde, par exemple). Pour les champs mis à jour moins souvent (nom, genre, etc.), vous créerez un deuxième groupe de champs avec une durée de mise en cache plus longue (5 jours, par exemple).
 
-Le nombre de parcours qui utilisent un groupe de champs s’affiche dans le champ **[!UICONTROL Utilisé dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL parcours de Vue]** pour afficher la liste des parcours utilisant ce groupe de champs.
+Le nombre de parcours qui font appel à un groupe de champs est affiché dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
 
 >[!NOTE]
 >
->Notez que si un groupe de champs n’a pas de champ, il ne s’affichera pas dans l’éditeur d’expressions.
+>Notez que si un groupe ne contient aucun champ, il ne s’affiche pas dans l’éditeur d’expression.
 
 ![](../assets/journey3bis.png)
 
 ## Cycle de vie du groupe de champs {#field-group-lifecycle}
 
-Vous pouvez ajouter ou supprimer des champs d’un groupe de champs qui n’est utilisé dans aucun brouillon ou parcours actif.
+Vous pouvez ajouter des champs à un groupe qui n’est utilisé dans aucun parcours actif ou dans un état de brouillon, ou en supprimer.
 
-Vous pouvez ajouter mais vous ne pouvez pas supprimer un champ d’un groupe de champs utilisé dans un ou plusieurs parcours préliminaires ou actifs. Cela évitera de briser les parcours.
+Vous pouvez ajouter un champ à un groupe utilisé dans un ou plusieurs parcours actifs ou dans un état de brouillon, mais pas en supprimer. Cela permet d’éviter l’interruption des parcours.
 
-Pour supprimer un champ d’un groupe de champs utilisé dans un ou plusieurs parcours, procédez comme suit. Utilisons un exemple de groupe de champs nommé &quot;Groupe de champs A&quot;.
+Pour supprimer un champ d’un groupe utilisé dans un ou plusieurs parcours, procédez comme suit. Prenons l’exemple d’un groupe de champs appelé « Groupe de champs A ».
 
-1. Dans la liste des groupes de champs, placez le curseur sur &quot;Groupe de champs A&quot; et cliquez sur l&#39;icône **[!UICONTROL Duplicata]** située à droite. Nommez le groupe de champs dupliqué &quot;Groupe de champs B&quot;, par exemple.
-1. Dans &quot;Groupe de champs B&quot;, supprimez les champs dont vous ne souhaitez plus.
-1. Dans &quot;Groupe de champs A&quot;, vérifiez où ce groupe de champs est utilisé. Ces informations s’affichent dans le champ **[!UICONTROL Utilisé dans]**.
-1. Ouvrez tous les parcours qui utilisent &quot;Groupe de champs A&quot;.
-1. Créez de nouvelles versions de chacun de ces parcours. Modifiez toutes les activités à l’aide du &quot;Groupe de champs A&quot; et sélectionnez &quot;Groupe de champs B&quot;.
-1. Arrêtez les anciennes versions des parcours qui utilisent &quot;Groupe de champs A&quot;. Vous ne devriez alors pas avoir de parcours utilisant &quot;Groupe de champs A&quot;.
-1. Supprimez &quot;Groupe de champs A&quot; tel qu’il n’est plus utilisé.
+1. Dans la liste des groupes de champs, placez le curseur sur « Groupe de champs A » et cliquez ensuite sur l’icône **[!UICONTROL Dupliquer]** située à droite. Appelez le groupe de champs dupliqué « Groupe de champs B », par exemple.
+1. Dans « Groupe de champs B », supprimez les champs dont vous n’avez plus besoin.
+1. Dans « Groupe de champs A », vérifiez à quel emplacement ce groupe de champs est utilisé. Ces informations sont affichées dans le champ **[!UICONTROL Utilisé(e) dans]**.
+1. Ouvrez tous les parcours qui utilisent « Groupe de champs A ».
+1. Créez de nouvelles versions de chacun de ces parcours. Modifiez toutes les activités qui utilisent « Groupe de champs A » et sélectionnez « Groupe de champs B ».
+1. Arrêtez les anciennes versions des parcours qui utilisent « Groupe de champs A ». Normalement, il ne devrait plus y avoir de parcours qui utilisent « Groupe de champs A ».
+1. Supprimez « Groupe de champs A », car il n’est plus utilisé.
