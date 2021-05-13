@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -46,7 +46,7 @@ Pour mettre à jour un message publié :
 
    ![](assets/message-modify.png)
 
-1. Confirmez votre choix. Une version préliminaire du message est créée.
+1. Validez votre choix. Une version préliminaire du message est créée.
 
    ![](assets/message-modify-v2.png)
 
