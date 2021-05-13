@@ -2,10 +2,10 @@
 title: Cas d’utilisation de la personnalisation
 description: Cas d’utilisation de la personnalisation
 translation-type: tm+mt
-source-git-commit: 3dc152e04c217ccce405725e8ce50cebfeb057f0
+source-git-commit: 274086b4479a482ceb8e79e56d554f7d7b6cf545
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -56,7 +56,7 @@ Pour ce cas d’utilisation, les conditions préalables suivantes sont nécessai
 
    ![](assets/perso-uc5.png)
 
-1. Dans l&#39;activité **Message**, sélectionnez le message précédemment créé. Cliquez sur **Ok**.
+1. Dans l&#39;activité **Message**, sélectionnez le message précédemment créé. Cliquez sur **OK**.
 
    ![](assets/perso-uc6.png)
 
