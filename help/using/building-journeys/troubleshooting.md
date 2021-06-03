@@ -1,11 +1,10 @@
 ---
-title: Dépannage des parcours
+title: Dépannage de parcours
 description: Découvrez comment résoudre les erreurs dans les parcours
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 89%
+source-wordcount: '1055'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +44,7 @@ Le point de départ d’un parcours est toujours un événement. Il est possible
 
 Vous pouvez ainsi vérifier si l’appel d’API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l’en-tête (et en particulier l’identifiant d’organisation) et l’URL de destination. Vous pouvez demander à votre administrateur l’URL appropriée pour l’accès.
 
-Les événements ne sont pas poussés directement de la source vers les parcours. En effet, les parcours dépendent des API d’assimilation en flux continu de Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter [cette page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s’appuient sur les API d’ingestion en flux continu d’Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter [cette page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 ## Vérification de l’entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
@@ -80,7 +79,7 @@ Les éléments à vérifier sont les suivants :
 
 Si les individus suivent le bon chemin dans le parcours sans recevoir de messages, vous pouvez vérifier les points suivants :
 
-* Journey Optimizer a correctement pris en compte la demande d&#39;envoi du message. Un utilisateur d&#39;entreprise peut accéder au message supposé être envoyé et vérifier si l&#39;heure de la dernière exécution correspond à l&#39;heure d&#39;exécution de votre parcours. Il peut également vérifier les derniers appels/événements d&#39;API reçus.
-* Journey Optimizer a envoyé le message avec succès. Dans les journaux d’envoi du message, vous pouvez voir l’état de chaque exécution. en vert ou en rouge, et la nature du problème. Un utilisateur chargé de la conception de parcours peut accéder à cet écran et envoyer les journaux à un administrateur pour plus d’informations.
+* [!DNL Journey Optimizer] a correctement pris en compte la demande d’envoi. Un utilisateur chargé de la conception de parcours peut accéder au message censé être envoyé et vérifier si l’heure de la dernière exécution correspond à l’heure d’exécution de votre parcours. Il peut également vérifier les derniers appels/événements d’API reçus.
+* [!DNL Journey Optimizer] a bien envoyé le message. Dans les journaux d’envoi des messages, vous pouvez voir le statut de chaque exécution, en vert ou en rouge, et la nature du problème. Un utilisateur chargé de la conception de parcours peut accéder à cet écran et envoyer les journaux à un administrateur pour plus d’informations.
 
 Dans le cas d’un message envoyé par le biais d’une action personnalisée, le seul élément vérifiable pendant le test du parcours est l’apparition ou non d’une erreur suite à l’appel du système à l’aide d’une action personnalisée. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais ne déclenche pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.
