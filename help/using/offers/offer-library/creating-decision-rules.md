@@ -1,11 +1,10 @@
 ---
 title: Création de règles de décision
 description: Découvrez comment créer des règles de décision dans Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 85%
+source-wordcount: '271'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Nommez votre règle et fournissez une description, puis configurez-la en fonction de vos besoins.
 
-   Pour ce faire, le **Créateur de segments** d’Adobe Experience Platform est disponible pour vous aider à créer les conditions de la règle. Pour plus d’informations sur son utilisation, reportez-vous à la [documentation dédiée](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/ui/segment-builder.html).
+   Pour ce faire, le **Créateur de segments** d’Adobe Experience Platform est disponible pour vous aider à créer les conditions de la règle. Pour plus d’informations sur son utilisation, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
    Dans cet exemple, la règle cible les clients qui ont le niveau de fidélité « Or ».
 
@@ -49,6 +48,6 @@ Pour créer cette règle de décision, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service d’applications d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, il fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
