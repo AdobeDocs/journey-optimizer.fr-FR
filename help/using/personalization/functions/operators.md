@@ -1,11 +1,10 @@
 ---
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ca739254e8b113d6f511573c0aa427427b263b3b
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 99%
+source-wordcount: '300'
+ht-degree: 62%
 
 ---
 
@@ -13,45 +12,50 @@ ht-degree: 99%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## And
+## Fonctions booléennes
+
+Fonctions booléennes sont utilisés pour exécuter une logique booléenne sur différents éléments.
+
+### And{#and}
 
 La fonction `and` sert à créer une conjonction logique.
 
 **Format**
 
 ```sql
-{QUERY} and {QUERY}
+{%= query1 and query2 %}
 ```
 
 **Exemple**
 
-La requête suivante PQL renverra toutes les personnes ayant pour pays d’origine le Canada et pour année de naissance 1985.
+L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France et année de naissance 1985.
 
 ```sql
-homeAddress.countryISO = "CA" and person.birthYear = 1985
+{%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
 ```
 
-## Or
+### Or{#or}
 
 La fonction `or` est utilisée pour créer une disjonction logique.
 
 **Format**
 
 ```sql
-{QUERY} or {QUERY}
+{%= query1 or query2 %}
 ```
 
 **Exemple**
 
-La requête suivante PQL renverra toutes les personnes ayant pour pays d’origine le Canada ou pour année de naissance 1985.
+L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France ou année de naissance 1985.
 
 ```sql
-homeAddress.countryISO = "CA" or person.birthYear = 1985
+{%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
 ```
 
-## Not
+<!--
+## Not{#not}
 
-La fonction `not` (ou `!`) est utilisée pour créer une négation logique.
+The `not` (or `!`) function is used to create a logical negation.
 
 **Format**
 
@@ -60,232 +64,130 @@ not ({QUERY})
 !({QUERY})
 ```
 
-**Exemple**
+**Example**
 
-La requête suivante PQL renverra toutes les personnes qui n’ont pas pour pays d’origine le Canada.
+The following operation will return all people who do not have their home country as Canada.
 
 ```sql
 not (homeAddress.countryISO = "CA")
 ```
+-->
 
-## If
 
-La fonction `if` est utilisée pour résoudre une expression selon qu’une condition spécifiée est vraie ou non.
 
-**Format**
 
-```sql
-if ({TEST_EXPRESSION}, {TRUE_EXPRESSION}, {FALSE_EXPRESSION})
-```
 
-| Argument | Description |
-| --------- | ----------- |
-| `{TEST_EXPRESSION}` | L’expression booléenne en cours de test. |
-| `{TRUE_EXPRESSION}` | L’expression dont la valeur sera utilisée si `{TEST_EXPRESSION}` est vraie. |
-| `{FALSE_EXPRESSION}` | L’expression dont la valeur sera utilisée si `{TEST_EXPRESSION}` est fausse. |
+## Fonctions de comparaison
 
-**Exemple**
+Fonctions de comparaison sont utilisées pour comparer différentes expressions et valeurs, renvoyant true ou false en conséquence.
 
-La requête PQL suivante définit la valeur sur `1` si le pays d’origine est le Canada et sur `2` si le pays d’origine n’est pas le Canada.
-
-```sql
-if (homeAddress.countryISO = "CA", 1, 2)
-```
-
-## Est égal à
+### Est égal à{#equals}
 
 La fonction `=` (est égal) vérifie si une valeur ou expression est égale à une autre valeur ou expression.
 
 **Format**
 
 ```sql
-{EXPRESSION} = {VALUE}
+{%= expression = value %}
 ```
 
 **Exemple**
 
-La requête PQL suivante vérifie si le pays de l’adresse du domicile est le Canada.
+L&#39;opération suivante vérifie si le pays de l&#39;adresse du domicile est la France.
 
 ```sql
-homeAddress.countryISO = "CA"
+{%= profile.homeAddress.country = "France" %}
 ```
 
-## Différent de
+### Différent de{#notequal}
 
 La fonction `!=` (différent de) vérifie si une valeur ou expression est **différente** d’une autre valeur ou expression.
 
 **Format**
 
 ```sql
-{EXPRESSION} != {VALUE}
+{%= expression != value %}
 ```
 
 **Exemple**
 
-La requête PQL suivante vérifie si le pays de l’adresse du domicile n’est pas le Canada.
+L&#39;opération suivante vérifie si le pays de l&#39;adresse du domicile n&#39;est pas la France.
 
 ```sql
-homeAddress.countryISO != "CA"
+{%= profile.homeAddress.country != "France" %}
 ```
 
-## Supérieur à
+### Supérieur à{#greaterthan}
 
 La fonction `>` (supérieur à) permet de vérifier si la première valeur est supérieure à la seconde.
 
 **Format**
 
 ```sql
-{EXPRESSION} > {EXPRESSION} 
+{%= expression1 > expression2 %}
 ```
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont l’anniversaire ne tombe ni en janvier ni en février.
+L&#39;opération suivante définit les personnes nées strictement après 1970.
 
 ```sql
-person.birthMonth > 2
+{%= profile.person.birthYear > 1970 %}
 ```
 
-## Supérieur ou égal à
+### Supérieur ou égal à{#greaterthanorequal}
 
 La fonction `>=` (supérieur ou égal à) permet de vérifier si la première valeur est supérieure ou égale à la seconde.
 
 **Format**
 
 ```sql
-{EXPRESSION} >= {EXPRESSION} 
+{%= expression1 >= expression2 %}
 ```
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont l’anniversaire ne tombe ni en janvier ni en février.
+L&#39;opération suivante définit les personnes nées en 1970 ou après.
 
 ```sql
-person.birthMonth >= 3
+{%= profile.person.birthYear >= 1970 %}
 ```
 
-## Inférieur à
+### Inférieur à{#lessthan}
 
 La fonction `<` (inférieur à) permet de vérifier si la première valeur est inférieure à la seconde.
 
 **Format**
 
 ```sql
-{EXPRESSION} < {EXPRESSION} 
+{%= expression1 < expression2 %}
 ```
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont l’anniversaire tombe en janvier.
+L&#39;opération suivante définit les personnes nées avant 2000.
 
 ```sql
-person.birthMonth < 2
+{%= profile.person.birthYear < 2000 %}
 ```
 
-## Inférieur ou égal à
+### Inférieur ou égal à{#lessthanorequal}
 
 La fonction `<=` (inférieur ou égal à) permet de vérifier si la première valeur est inférieure ou égale à la seconde.
 
 **Format**
 
 ```sql
-{EXPRESSION} <= {EXPRESSION} 
+{%= expression1 <= expression2 %}
 ```
 
 **Exemple**
 
-La requête PQL suivante définit les personnes dont l’anniversaire tombe en janvier ou en février.
+L&#39;opération suivante définit les personnes nées en 2000 ou avant.
 
 ```sql
-person.birthMonth <= 2
+{%= profile.person.birthYear <= 2000 %}
 ```
 
-## Addition
+**Opérations avec des nombres**
 
-La fonction `+` (addition) est utilisée pour trouver la somme de deux expressions d’argument.
-
-**Format**
-
-```sql
-{NUMBER} + {NUMBER}
-```
-
-**Exemple**
-
-La requête PQL suivante additionne le prix de deux produits différents.
-
-```sql
-product1.price + product2.price
-```
-
-## Multiplication
-
-La fonction `*` (multiplication) est utilisée pour trouver le produit de deux expressions d’argument.
-
-**Format**
-
-```sql
-{NUMBER} * {NUMBER}
-```
-
-**Exemple**
-
-La requête PQL suivante trouve le produit de l’inventaire et du prix d’un produit pour obtenir la valeur brute du produit.
-
-```sql
-product.inventory * product.price
-```
-
-## Soustraction
-
-La fonction `-` (soustraction) permet de trouver la différence entre deux expressions d’argument.
-
-**Format**
-
-```sql
-{NUMBER} - {NUMBER}
-```
-
-**Exemple**
-
-La requête PQL suivante trouve la différence de prix entre deux produits différents.
-
-```sql
-product1.price - product2.price
-```
-
-## Division
-
-La fonction `/` (division) est utilisée pour trouver le quotient de deux expressions d’argument.
-
-**Format**
-
-```sql
-{NUMBER} / {NUMBER}
-```
-
-**Exemple**
-
-La requête PQL suivante trouve le quotient entre le total des produits vendus et le total des revenus obtenus pour déterminer le coût moyen par article.
-
-```sql
-totalProduct.price / totalProduct.sold
-```
-
-## Reste
-
-La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la division des deux expressions d’argument.
-
-**Format**
-
-```sql
-{NUMBER} % {NUMBER}
-```
-
-**Exemple**
-
-La requête PQL suivante vérifie si l’âge de la personne est divisible par cinq.
-
-```sql
-person.age % 5 = 0
-```
