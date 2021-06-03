@@ -1,44 +1,42 @@
 ---
 title: Contextes de personnalisation dans Journey Optimizer
-description: Découvrez dans quels contextes vous pouvez ajouter la personnalisation
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+description: Découvrez dans quels contextes vous pouvez ajouter la personnalisation.
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 80%
 
 ---
 
-# Zones de personnalisation {#personalization-areas}
+# Contexte et outil de personnalisation {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
-Le contenu et l&#39;affichage des messages envoyés par Journey Optimizer peuvent être personnalisés de plusieurs manières.
+Le contenu et l’affichage des messages diffusés par Journey Optimizer peuvent être personnalisés de plusieurs façons différentes.
 
 Tous les champs associés à l’icône de l’éditeur peuvent ouvrir l’éditeur de personnalisation et recevoir du contenu de personnalisation.
 
 ![](assets/perso_icon.png)
 
-## Personnaliser vos courriels
+## Personnaliser vos emails
 
-Lors de la création du message de canal de courrier électronique, le champ **Objet du message électronique** peut être personnalisé.
+Lorsque vous créez un email, vous pouvez ajouter une personnalisation dans le champ **Objet de l&#39;email** du message.
 
 ![](assets/perso_subject.png)
 
-Dans le concepteur de courrier électronique, vous pouvez personnaliser le contenu :
+Dans le Concepteur d’email, vous pouvez personnaliser le contenu :
 
-* Dans le **message** : cliquez à l’intérieur d’un bloc de texte, cliquez sur l’icône **Personnaliser** de la barre d’outils contextuelle et sélectionnez **Insérer la personnalisation**. Pour plus d’informations sur l’interface de Designer d’e-mail, voir cette [section](../design-emails.md).
+* Dans le **message** : cliquez dans un bloc de texte, puis cliquez sur l’icône **Personnaliser** dans la barre d’outils contextuelle et sélectionnez le champ **Insérer une personnalisation**. Pour plus d’informations sur l’interface du Concepteur d’email, reportez-vous à [cette section](../design-emails.md).
 
    ![](assets/perso_insert.png)
 
-* Pour un **lien** : sélectionnez du texte ou une image à l’intérieur d’un bloc de texte, cliquez sur l’icône **Insérer un lien** de la barre d’outils contextuelle. Dans la fenêtre, vous pouvez ajouter un bloc de personnalisation en cliquant sur l&#39;icône **Ajouter la personnalisation**.
+* Pour un **lien** : sélectionnez du texte ou une image à l’intérieur d’un bloc de texte, puis cliquez sur l’icône **Insérer un lien** de la barre d’outils contextuelle. Dans la fenêtre, vous pouvez ajouter un bloc de personnalisation en cliquant sur l’icône **Ajouter une personnalisation**.
 
    ![](assets/perso_link.png)
 
-## Personnaliser les notifications Push
+## Personnaliser les notifications push
 
-Dans le **canal Push**, la personnalisation vous permet d’affiner votre notification Push.
-
-Vous pouvez ajouter la personnalisation dans les champs suivants :
+Vous pouvez également personnaliser vos **notifications push** dans les champs suivants :
 
 * **Titre**
 * **Corps**
@@ -48,32 +46,35 @@ Vous pouvez ajouter la personnalisation dans les champs suivants :
 
 ![](assets/perso_push.png)
 
-Pour obtenir une documentation complète sur la configuration des notifications Push, consultez [cette section](../configure-push.md).
+Pour en savoir plus sur la configuration des notifications push, consultez [cette section](../create-push.md).
 
+## Utiliser l’éditeur d’expression
 
-## Utilisation de l’éditeur d’expressions
+L’éditeur d’expression est l’élément central de la personnalisation dans Journey Optimizer.
 
-L’éditeur d’expressions est l’élément central de la personnalisation dans Journey Optimizer.
+Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).
 
-Il est disponible dans tous les contextes où vous devez définir la personnalisation comme les courriels, les notifications Push et les offres.
-
-Dans l’interface de l’éditeur d’expressions, vous sélectionnez, organisez, personnalisez et validez toutes les données afin de créer une personnalisation personnalisée pour votre contenu.
+Dans l’interface de l’éditeur d’expression, vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser votre contenu.
 
 ![](assets/perso_ee1.png)
 
-La partie gauche de l’écran affiche un sélecteur de domaine qui vous permet de sélectionner la source à personnaliser.
+La partie gauche de l’écran affiche un sélecteur de domaine qui vous permet de sélectionner la source en vue de la personnalisation.
 
-* **Profil**  : liste toutes les références associées au schéma de profil décrites dans la documentation [ du modèle de données ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr)Adobe Experience Platform (XDM).
-* **Appartenance**  au segment : liste tous les segments créés dans le service de segmentation Adobe Experience Platform. Pour plus d&#39;informations sur la segmentation, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
-* **Offres**  : liste toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../../using/offers/get-started/starting-offer-decisioning.md).
+* **Profil** : répertorie toutes les références associées au schéma de profil décrit dans la [ documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+* **Appartenance à un segment** : répertorie tous les segments créés dans le service Adobe Experience Platform Segmentation. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en) plus d’informations sur la segmentation
+* **Offres** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md)
+* **Contexte**  : lorsque l&#39;activité  **** Messagerie est utilisée dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. Consultez [cette section](personalization-use-case.md)
+* **Fonctions**  d’assistance : répertorie toutes les fonctions d’assistance disponibles pour effectuer des opérations sur les données, telles que les calculs, le formatage ou les conversions des données, les conditions et les manipuler dans le contexte de la personnalisation. [En savoir plus](functions/functions.md)
 
-Lors de la sélection, la référence est ajoutée dans l’éditeur.
+
+
+Lorsqu’elle est sélectionnée, la référence est ajoutée dans l’éditeur.
 
 >[!NOTE]
 >
->L’icône d’informations en regard de l’icône &quot;+&quot; ouvre une info-bulle fournissant plus de détails pour chaque variable.
+>L’icône d’informations située en regard de l’icône « + » ouvre une info-bulle fournissant plus de détails sur chaque variable.
 
-Dans l’exemple suivant, l’éditeur d’expressions vous permet de sélectionner les profils qui ont leur anniversaire aujourd’hui, puis de terminer la personnalisation en insérant une offre spécifique correspondant à ce jour.
+Dans l’exemple suivant, l’éditeur d’expression vous permet de sélectionner les profils dont l’anniversaire est aujourd’hui, puis de terminer la personnalisation en insérant une offre spécifique correspondant à cette journée.
 
 ![](assets/perso_ee2.png)
 
