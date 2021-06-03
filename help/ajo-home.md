@@ -1,11 +1,10 @@
 ---
 keywords: Journey Optimizer;accueil;rubriques populaires
-title: Documentation du produit Journey Optimizer
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: Documentation produit de Journey Optimizer
+source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 5%
+source-wordcount: '223'
+ht-degree: 79%
 
 ---
 
@@ -14,33 +13,34 @@ ht-degree: 5%
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 ![](using/assets/do-not-localize/badge.png)
-**[!DNL Journey Optimizer]** est actuellement en  **version bêta** et fait l’objet de modifications fréquentes sans préavis. En tant qu’utilisateur, partagez votre expérience à partir du bouton Commentaires bêta dans l’interface utilisateur du produit. Les problèmes connus sont répertoriés dans cette [page](using/known-issues.md).
+**[!DNL Journey Optimizer]** est actuellement en **version bêta** et fait l’objet de modifications fréquentes sans préavis. En tant qu’utilisateur, partagez votre expérience via le bouton Commentaires bêta de l’interface utilisateur du produit. Les problèmes connus sont répertoriés sur cette [page](using/known-issues.md).
 
-## Nouveautés?
+## Nouveautés
 
+* [Contrôle ](using/administration/permissions-overview.md) </br> d’accès Découvrez comment définir et gérer les autorisations attribuées aux  [!DNL Journey Optimizer] utilisateurs
 
-* [](using/offers/get-started/starting-offer-decisioning.md) </br> Gestion des décisionsCréez des offres et proposez la meilleure offre et la meilleure expérience à vos clients
+* [Fonctions d’assistance ](using/personalization/functions/functions.md) </br> : utilisez les fonctions d’assistance de l’éditeur d’expression pour personnaliser le contenu des messages.
 
-* [Prévisualisation et ](using/preview.md) </br> messages de testUtiliser des profils de test pour les messages de prévisualisation, envoyer des BAT et contrôler le rendu des courriers électroniques
+* [Gestion des décisions](using/offers/get-started/starting-offer-decisioning.md) </br> Créez des offres et proposez la meilleure offre et la meilleure expérience à vos clients.
 
-* [Rapports en directDiscover ](using/reports/live-report.md) </br> Rapports en temps réel pour vos parcours et messages
+* [Prévisualisation et test de messages](using/preview.md) </br> Utilisez des profils de test pour prévisualiser des messages, envoyer des justificatifs et contrôler le rendu des emails.
 
-* [](using/reports/global-report.md) </br> Rapports globauxDécouvrez comment suivre et mesurer l&#39;efficacité de vos parcours et messages
+* [Rapports en direct et ](using/reports/live-report.md) rapports  [ ](using/reports/global-report.md)</br> globauxDécouvrez les fonctionnalités de reporting pour suivre et mesurer l&#39;efficacité de vos parcours et messages
 
-* [Créer des ](using/building-journeys/creating-test-profiles.md) </br> profils de testCréer des profils de test et les utiliser pour tester vos messages et vos parcours
+* [Créer des profils de test](using/building-journeys/creating-test-profiles.md) </br> Créez des profils de test et utilisez-les pour tester vos messages et vos parcours.
 
 ## Prise en main
 
-* [Qu&#39;est-ce que Journey Optimizer ?](using/get-started.md) </br> Découvrez les principales fonctionnalités et comment commencer
+* [Qu’est-ce que Journey Optimizer ?](using/get-started.md) </br> Découvrez les principales fonctionnalités et comment démarrer
 
-* [Conception d&#39;un ](using/design-emails.md) </br>contenu de courrier électroniqueConception d&#39;un nouveau courrier électronique ou importation d&#39;un contenu HTML existant
+* [Concevoir le contenu d’un email](using/design-emails.md) </br> Concevez un nouvel email ou importez du contenu HTML existant
 
-* [Envoyer des ](using/building-journeys/journey.md) </br> messagesDécouvrez comment ajouter des messages push et électroniques dans vos parcours clients
+* [Envoyer des messages](using/building-journeys/journey.md) </br> Découvrez comment ajouter des emails et des messages push dans vos parcours clients.
 
-* [Créer votre premier ](using/building-journeys/journeys-uc.md) </br>voyageDécouvrez comment créer et exécuter un parcours
+* [Créer votre premier parcours](using/building-journeys/journeys-uc.md) </br> Découvrez comment créer et exécuter un parcours.
 
 ## Ressources supplémentaires
 
-* [Guide Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)
-* [Présentation de l’accès Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)
-* [Ressources des développeurs Adobe Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
+* [Guide d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)
+* [Présentation de l’accès à Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)
+* [Ressources de développeur Adobe Experience Platform](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
