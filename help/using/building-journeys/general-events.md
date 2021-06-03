@@ -2,11 +2,10 @@
 solution: Journey Orchestration
 title: Événements généraux
 description: Découvrez comment utiliser les événements généraux
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 86%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +17,7 @@ Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une 
 
 ![](../assets/general-events.png)
 
-Lorsque vous déposez un événement métier, il ajoute automatiquement une activité **Lire le segment**. Pour plus d&#39;informations sur les événements d&#39;activité, consultez [cette section](../event/about-events.md)
+Lorsque vous déposez un événement métier, cela ajoute automatiquement une activité **Lecture de segment**. Pour plus d&#39;informations sur les événements métier, consultez [cette section](../event/about-events.md)
 
 ## Écoute d’événements au cours d’une période spécifique {#events-specific-time}
 
@@ -38,11 +37,11 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il n’envoie ensuite un message d’offre de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l’événement « restaurant » avec une temporisation d’un jour :
 
-* Si le événement du restaurant est reçu moins d&#39;une journée après la notification d&#39;accueil, le message push de remise de repas est envoyé.
+* Si l’événement &quot;restaurant&quot; est reçu moins d’un jour après la notification push de bienvenue, l’activité push de remise sur un repas est envoyée.
 * Si aucun événement « restaurant » n’est reçu dans la journée qui suit, le client s’engage dans l’itinéraire de temporisation.
 
-Notez que si vous souhaitez configurer une temporisation pour plusieurs événements placés après une activité d’**[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
+Notez que si vous souhaitez configurer un délai d’expiration sur plusieurs événements placés après une activité **[!UICONTROL Attente]** , vous devez configurer le délai d’expiration sur l’un de ces événements uniquement.
 
-La temporisation s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu après la temporisation spécifiée, les individus s’engagent dans un itinéraire de temporisation unique ou terminent leur parcours.
+Le délai d’expiration s’applique à tous les événements placés après l’activité **[!UICONTROL Attente]** . Si aucun événement n’est reçu avant le délai d’expiration spécifié, les individus s’engagent dans un seul chemin d’accès au délai d’expiration ou mettent fin à leur parcours.
 
 ![](../assets/event-timeout-group.png)
