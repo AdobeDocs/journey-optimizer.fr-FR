@@ -1,11 +1,10 @@
 ---
 title: Activité d’attente
 description: En savoir plus sur l’activité d’attente
-translation-type: tm+mt
-source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -53,17 +52,13 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 
 >[!NOTE]
 >
->Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Événement.offerOpened.activité.endTime}), le champ du événement se présente sous la forme 2016-08-12T09:46:06Z.
+>Vous pouvez tirer parti d’une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Event.offerOpened.activity.endTime}), le champ de l’événement se présentant sous la forme 2016-08-12T09:46:06Z.
 >
 >La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible actuellement de pointer directement, à partir de l’interface, vers un horodatage ISO-8601 complet associant l’heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
-
->[!CAUTION]
->
->The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
