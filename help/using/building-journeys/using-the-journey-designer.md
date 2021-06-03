@@ -1,11 +1,10 @@
 ---
 title: Concevoir le parcours
 description: Découvrez comment concevoir votre parcours
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 72%
+source-wordcount: '1435'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 72%
 
 L’interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
 
-## Commencer avec la conception de parcours
+## Prise en main de la conception de parcours
 
 La **palette** se situe sur la partie gauche de l’écran. Toutes les activités disponibles sont classées dans plusieurs catégories : **[!UICONTROL Événements]**, **[!UICONTROL Orchestration]** et **[!UICONTROL Actions]**. Vous pouvez développer/réduire les différentes catégories en cliquant sur leur nom. Pour utiliser une activité dans votre parcours, faites-la glisser de la palette vers la zone de travail.
 
@@ -41,41 +40,41 @@ Par défaut, les champs en lecture seule sont masqués. Pour les afficher, cliqu
 
 ![](../assets/journey59bis.png)
 
-Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent en fonction du contexte. Le bouton journal du mode test s&#39;affiche lorsque le mode test est activé.
+Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, afficher les **[!UICONTROL Propriétés du parcours]** et effectuer un **[!UICONTROL Test]**. Ces boutons s’affichent lorsqu’aucune activité n’est sélectionnée. Certains boutons s’affichent en fonction du contexte. Le bouton de journal du mode test s’affiche lorsque le mode test est activé.
 
 ![](../assets/journey41.png)
 
 ## Démarrage de votre parcours
 
-Lorsque vous concevez votre parcours, la première question que vous voulez poser est comment les profils vont entrer dans le parcours. Il existe deux possibilités :
+Lorsque vous concevez votre parcours, la première question à se poser est : comment les profils vont-ils entrer dans le parcours ? Il existe deux possibilités :
 
-**Début avec événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus entrent dans l&#39; **** unité du parcours en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
+**Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les particuliers entrent dans le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-**Début avec un segment** Lu : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, toutes les personnes appartenant au segment spécifié entrent dans le parcours. Les messages inclus dans votre parcours sont envoyés aux personnes appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
+**Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, toutes les particuliers appartenant au segment spécifié entrent dans le parcours. Les messages inclus dans votre parcours sont envoyés aux particuliers appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
 
 ## Définir les étapes suivantes
 
-Après votre premier événement ou segment de lecture, vous pouvez combiner les différentes activités afin de créer vos scénarios de canaux croisés en plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
+Après votre premier événement ou votre première lecture de segment, vous pouvez combiner les différentes activités afin de créer vos scénarios cross-canal en plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
 
 **Événements**
 
-Lorsque vous début votre parcours avec un événement, le parcours est déclenché à la réception du événement. La personne suivra ensuite, individuellement, les étapes suivantes définies dans votre parcours.
+Lorsque vous débutez votre parcours avec un événement, le parcours est déclenché à la réception de l&#39;événement. La personne suivra ensuite, individuellement, les étapes suivantes définies dans votre parcours.
 
-Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu’ils utilisent le même espace de nommage. Les événements sont configurés au préalable. [En savoir plus sur les événements](about-journey-activities.md#event-activities)
+Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu’ils utilisent le même espace de noms. Les événements sont configurés au préalable. [En savoir plus sur les événements](about-journey-activities.md#event-activities)
 
-Vous pouvez également ajouter un événement **Réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d’envoyer un autre message si l’utilisateur a ouvert le message précédent ou cliqué dessus. En savoir plus dans cette [section](reaction-events.md).
+Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d’envoyer un autre message si le particulier a ouvert le message précédent ou cliqué dessus. En savoir plus dans cette [section](reaction-events.md).
 
-L&#39;activité d&#39;événement **Qualification de segment** vous permet de faire entrer ou avancer des individus dans un parcours en fonction des entrées et sorties de segments Adobe Experience Platform. Vous pouvez faire entrer tous les nouveaux clients argentés dans un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
+L’activité d’événement **Qualification du segment**, vous permet de faire entrer des particuliers ou leur permettre de progresser dans un parcours en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire entrer tous les nouveaux clients argent dans un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
 
 **Orchestration**
 
-Dans les activités d&#39;orchestration, vous trouverez l&#39;activité **Lire segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l’activité](read-segment.md) du segment Lu.
+Dans les activités d&#39;orchestration, vous trouverez l&#39;activité **Lecture de segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l’activité Lecture de segment](read-segment.md).
 
-Les autres activités vous permettent d’ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d’attente avant l’exécution de l’activité suivante ou de terminer votre parcours. En savoir plus dans cette [section](about-journey-activities.md#orchestration-activities).
+Les autres activités vous permettent d’ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d’attente avant l’exécution de l’activité suivante, ou de terminer votre parcours. En savoir plus dans cette [section](about-journey-activities.md#orchestration-activities).
 
 **Actions**
 
-Vous trouverez ici l&#39;activité **Message** qui vous permet d&#39;inclure un message conçu dans Journey Optimizer. [En savoir plus sur l&#39;activité de message](journeys-message.md)
+Vous trouverez ici l&#39;activité **Message** qui vous permet d&#39;inclure un message conçu dans [!DNL Journey Optimizer]. [En savoir plus sur l&#39;activité Message](journeys-message.md)
 
 Vous trouverez également les actions personnalisées que vous avez configurées pour envoyer des messages avec des systèmes tiers. En savoir plus dans cette [section](about-journey-activities.md#action-activities).
 
