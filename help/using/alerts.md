@@ -1,11 +1,10 @@
 ---
 title: Alertes dans les messages
-description: Découvrez comment vérifier la validation du contenu des messages et résoudre les problèmes
-translation-type: tm+mt
-source-git-commit: 03af839084edafbc93188750db1f9f6c8b559d9e
+description: Découvrez comment vérifier la validation du contenu des messages et résoudre les problèmes.
+source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +14,9 @@ ht-degree: 0%
 
 ## Vérifications avant publication {#message-alerting}
 
-Lorsque vous créez votre message, des alertes vous avertissent lorsque vous devez prendre des mesures importantes avant de le publier.
+Lorsque vous créez votre message, des alertes vous avertissent si vous devez effectuer des opérations importantes avant de le publier.
 
-Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-dessous :
+Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-dessous :
 
 ![](assets/message-alerts.png)
 
@@ -25,49 +24,49 @@ Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-de
 >
 >Si ce bouton ne s’affiche pas, aucune alerte n’a été détectée.
 
-Deux types d’alertes peuvent survenir :
+Deux types d’alertes peuvent survenir :
 
-* **Les** avertissements se rapportent aux recommandations et aux meilleures pratiques. Par exemple, un message s’affiche si le lien d’exclusion est manquant.
+* Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. Par exemple, un message s’affiche si le lien de désinscription est manquant.
 
-* **Vous** empêchez de publier le message tant qu’il n’est pas résolu. Par exemple, un message vous avertit que l’objet est manquant.
+* Les **erreurs** vous empêchent de publier le message tant qu’elles ne sont pas corrigées. Par exemple, un message vous avertit que l’objet est manquant.
 
 Tous les avertissements et erreurs possibles sont détaillés [ci-dessous](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> Vous devez résoudre toutes les alertes **error** avant la publication.
+> Vous devez résoudre toutes les alertes d’**erreur** avant de procéder à la publication.
 
 ## Liste des avertissements et des erreurs {#alerts-and-warnings}
 
-Les paramètres et éléments contrôlés par le système sont répertoriés ci-dessous. Vous trouverez également des informations sur la façon d&#39;adapter votre configuration pour résoudre les problèmes correspondants.
+Les paramètres et les éléments vérifiés par le système sont répertoriés ci-dessous. Vous trouverez également des informations sur la façon d’adapter votre configuration pour résoudre les problèmes correspondants.
 
-**Avertissements**:
+**Avertissements** :
 
-* **[!UICONTROL opt-out lien absent du corps]** du courrier électronique : il est recommandé d’ajouter un lien de désinscription dans votre corps de courriel. Découvrez comment le configurer dans [cette section](consent.md).
+* **[!UICONTROL Lien de désinscription ne figurant pas dans le corps de l’email]** : il est recommandé d’ajouter un lien de désinscription dans le corps de votre email. Découvrez comment configurer ce lien dans [cette section](consent.md).
 
-* **[!UICONTROL La version de texte de html est vide]** : n&#39;oubliez pas de définir une version textuelle de votre corps de courriel, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché. Découvrez comment créer la version de texte dans [cette section](create-email-content.md#generate-text-version).
+* **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre email, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](create-email-content.md#generate-text-version).
 
-* **[!UICONTROL Le lien vide est présent dans le corps]** du courrier électronique : vérifiez que tous les liens de votre courrier électronique sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](create-email-content.md).
+* **[!UICONTROL Lien vide figurant dans le corps de l’email]** : vérifiez que tous les liens de votre email sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](create-email-content.md).
 
-* **[!UICONTROL La taille du courrier électronique a dépassé la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre courrier électronique ne dépasse pas 100 Ko. Découvrez comment modifier le contenu du courrier électronique dans [cette section](create-email-content.md).
+* **[!UICONTROL La taille de l’email dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre email ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](create-email-content.md).
 
-**Erreurs**:
+**Erreurs** :
 
-* **[!UICONTROL Objet non présent]** : l’objet du courrier électronique est obligatoire. Découvrez comment le définir et le personnaliser dans [cette section](configure-email.md).
+* **[!UICONTROL Ligne d’objet absente]** : la ligne d’objet d’email est obligatoire. Découvrez comment définir et personnaliser cette ligne dans [cette section](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL La variable Push est vide]** : cette erreur s’affiche lorsque le titre ou l’organisme de notification Push est manquant. Découvrez comment définir le contenu des notifications Push dans [cette section](configure-push.md).
+* **[!UICONTROL Variante push vide]** : cette erreur s’affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
 
-* **[!UICONTROL La variable de courriel est vide]** : cette erreur s’affiche lorsque le contenu du courrier électronique n’a pas été configuré. Découvrez comment concevoir du contenu de courriel dans [cette section](design-emails.md).
+* **[!UICONTROL Variante d’email vide]** : cette erreur s’affiche si le contenu de l’email n’est pas configuré. Découvrez comment concevoir le contenu des emails dans [cette section](design-emails.md).
 
-* **[!UICONTROL Le paramètre prédéfini n’existe]** pas : vous ne pouvez pas publier votre message si le paramètre prédéfini sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre paramètre prédéfini dans le message **[!UICONTROL Propriétés]**. Pour en savoir plus sur l&#39;identité graphique, consultez [cette section](administration.md#cjm-branding).
+* **[!UICONTROL Paramètre prédéfini absent]** : vous ne pouvez pas publier votre message si le paramètre prédéfini que vous avez sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre paramètre prédéfini dans le message **[!UICONTROL Propriétés]**. Pour en savoir plus la stratégie de marque, consultez [cette section](configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL La charge utile Push iOS/Android a dépassé la limite de 4 Ko]** : la taille de notification Push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l&#39;utilisation des images ou des émoticônes. Découvrez comment gérer votre contenu de notification Push dans [cette section](configure-push.md).
+* **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](create-push.md).
 
 >[!CAUTION]
 >
-> Pour pouvoir publier votre message, vous devez résoudre toutes les **alertes d&#39;erreur**.
+> Pour pouvoir publier votre message, vous devez résoudre toutes les alertes d’**erreur**.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->
