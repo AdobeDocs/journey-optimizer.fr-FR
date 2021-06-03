@@ -1,11 +1,10 @@
 ---
 title: Confidentialité
-description: Découvrez comment gérer la confidentialité
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: Découvrez comment gérer la confidentialité.
+source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 50%
 
 ![](assets/do-not-localize/badge.png)
 
-Journey Optimizer est un outil puissant pour traiter de grandes quantités de données, y compris des informations personnelles et des données sensibles.
+Journey Optimizer est un outil puissant permettant de traiter de gros volumes de données, notamment des informations personnelles et des données sensibles.
 
 * **Les données personnelles** sont des informations qui permettent d&#39;identifier directement ou indirectement un individu vivant.
 * **Les données personnelles sensibles** sont des informations relatives à l&#39;origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux renseignements génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques ainsi qu&#39;à l&#39;appartenance syndicale.
@@ -25,25 +24,25 @@ Les principales législations se réfèrent de la manière suivante aux différe
 * Un **responsable du traitement des données** est un individu ou une partie qui collecte, utilise ou partage des données personnelles selon les instructions du contrôleur de données.
 * Un **titulaire de données** est une personne vivante dont les données à caractère personnel sont collectées, utilisées ou partagées et qui peut être identifiée, directement ou indirectement, par référence à ces données à caractère personnel.
 
-En tant que société de collecte et de partage de données personnelles, vous êtes le contrôleur de données, vos clients sont les sujets de données et Adobe Experience Cloud agit comme un processeur de données lors de la gestion de leurs données personnelles selon vos instructions. Notez qu’il vous appartient, en tant que contrôleur de données, de gérer la relation avec les objets de données.
+Dans une entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Experience Cloud agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu’il vous appartient, en tant que contrôleur de données, de gérer la relation avec les titulaires de données.
 
 ## Recommandations générales {#general-recommendations}
 
-Les données personnelles et sensibles doivent être gérées avec soin. Suivez les principes généraux ci-dessous :
+Les données personnelles et sensibles doivent être gérées avec soin. Suivez les principes généraux ci-dessous :
 
 * Utilisez toujours les informations personnelles de manière responsable et éthique.
 
-* Ne pas envoyer de messages non sollicités (&quot;spam&quot;). L&#39;Adobe croit fermement aux principes de la permission marketing pour favoriser la valeur et la fidélité de la clientèle tout au long de sa vie et interdit donc strictement l&#39;utilisation de Journey Optimizer pour envoyer des messages non sollicités.
+* Abstenez-vous d’envoyer des messages non sollicités (« courrier indésirable »). Adobe croit fermement dans les principes du consentement (permission marketing) pour fidéliser le client et offrir une valeur ajoutée tout au long de sa durée de vie et interdit donc strictement l’utilisation de Journey Optimizer pour envoyer des messages non sollicités.
 
-Journey Optimizer vous permet de gérer les droits attribués à vos utilisateurs au moyen de différents profils de produits prédéfinis ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. En savoir plus sur la gestion des droits d’accès des utilisateurs dans [Gérer les autorisations](permissions.md).
+Journey Optimizer vous permet de gérer les droits attribués à vos utilisateurs au moyen de différents profils de produit prédéfinis ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. En savoir plus sur la gestion des droits d’accès des utilisateurs dans [Gérer les autorisations](../administration/permissions.md).
 
-Journey Optimizer vous permet également de suivre les messages envoyés et le comportement de vos destinataires à travers les ouvertures et les clics sur les liens. [En savoir plus sur la gestion](message-tracking.md) du suivi.
+Journey Optimizer vous permet également de suivre les messages envoyés et le comportement de vos destinataires à travers les ouvertures et les clics sur les liens. [En savoir plus sur la gestion du suivi](message-tracking.md).
 
 ## Gestion de la confidentialité {#privacy-management}
 
-La gestion de la confidentialité fait référence à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements sur la protection de la vie privée.
+La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité.
 
-Par conséquent, pour gérer correctement la confidentialité et les données personnelles, vous devez respecter les lois applicables à la ou aux régions où vous opérez. Ces règlements incluent :
+De ce fait, pour gérer correctement la confidentialité et les données personnelles, vous devez travailler dans le cadre des législations applicables aux zones géographiques où vous intervenez. Ces règlements incluent :
 
 * [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Règlement général européen sur la protection des données)
 * [DPA](https://www.gov.uk/data-protection) (mise en œuvre du RGPD au Royaume-Uni)
@@ -54,17 +53,17 @@ Par conséquent, pour gérer correctement la confidentialité et les données pe
 
 Journey Optimizer hérite de la plupart des modifications apportées au jeu de données dans Adobe Experience Platform.
 
-Par conséquent, les demandes de protection de la vie privée (droit d&#39;accès et droit d&#39;être oublié) sont gérées par l&#39;Experience Platform. Vous devez envoyer vos requêtes à l&#39;aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr), puis sélectionner **Profil** et **AEP Data Lake** dans la liste de produit lorsque [vous créez votre demande de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--Learn more in the [Privacy Service documentation](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html).-->
+Par conséquent, les demandes d’accès à des informations personnelles (droit d’accès et droit à l’oubli) sont gérées via Experience Platform. Vous devez envoyer vos requêtes à l’aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr), puis sélectionner **Profil** et **Lac de données AEP** dans la liste de produits lorsque vous [créez votre requête de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
->[La ](../../help/using/consent.md) gestion du consentement est gérée directement à Journey Optimizer.
+>La [gestion du consentement](../../help/using/consent.md) est directement gérée dans Journey Optimizer.
 
-## Confidentialité d&#39;Adobe Experience Cloud {#experience-cloud-privacy}
+## Confidentialité d’Adobe Experience Cloud {#experience-cloud-privacy}
 
-Journey Optimizer fait partie des solutions de Adobe Experience Cloud. La façon dont la vie privée est gérée obéit aux principes généraux de Adobe Experience Cloud. [En savoir plus sur la confidentialité](https://www.adobe.com/fr/privacy/experience-cloud.html) de Adobe Experience Cloud.
+Journey Optimizer fait partie intégrante des solutions Adobe Experience Cloud. La façon dont la confidentialité est gérée obéit aux principes généraux d’Adobe Experience Cloud. [En savoir plus sur la confidentialité d’Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html).
 
-En tant que société utilisant les solutions Adobe Experience Cloud, vous choisissez les informations à collecter et à envoyer à votre compte Adobe Experience Cloud. Parmi les types d&#39;informations pouvant être collectées, citons les activités de navigation sur le Web, les adresses IP, les informations de localisation des appareils mobiles, les taux de succès des campagnes, les articles achetés ou placés dans un panier, etc. Pour plus d&#39;informations à ce sujet, consultez la [Politique de confidentialité d&#39;Adobe](https://www.adobe.com/fr/privacy/policy.html).
+En tant que société utilisant les solutions Adobe Experience Cloud, vous choisissez les informations à collecter et à envoyer à votre compte Adobe Experience Cloud. Parmi les types d’informations pouvant être collectées, citons les activités de navigation sur le web, les adresses IP, les informations de localisation des appareils mobiles, les taux de succès des campagnes, les articles achetés ou placés dans un panier, etc. Pour plus d’informations à ce sujet, consultez la [Politique de confidentialité d’Adobe](https://www.adobe.com/fr/privacy/policy.html).
 
 Adobe vous demande de fournir à vos clients des politiques de confidentialité décrivant :
 
@@ -73,6 +72,6 @@ Adobe vous demande de fournir à vos clients des politiques de confidentialité 
 
 >[!NOTE]
 >
->En ce qui concerne tous les produits d’Adobe, les utilisateurs de Journey Optimizer peuvent se désabonner en partageant les informations collectées à leur sujet par le biais d’applications et de sites Web. Pour en savoir plus, consultez la [FAQ sur l’utilisation de Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud-usage-info-faq.html).
+>Pour tous les produits Adobe, les utilisateurs de Journey Optimizer peuvent s’opposer (opt-out) au partage des informations collectées à leur sujet par le biais d’applications et de sites web. Pour en savoir plus, consultez la [FAQ sur l’utilisation d’Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
