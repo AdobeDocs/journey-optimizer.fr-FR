@@ -1,0 +1,206 @@
+---
+title: Assistants
+description: Bibliothèque de fonctions
+source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 60%
+
+---
+
+
+# Assistants {#gs-helpers}
+
+![](../../assets/do-not-localize/badge.png)
+
+
+## Conditions{#if-function}
+
+L&#39;assistant `if` est utilisé pour définir un bloc conditionnel.
+Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il est ignoré.
+
+**Syntaxe**
+
+```sql
+{%#if contains(profile.personalEmail.address, ".edu")%}
+<a href="https://www.adobe.com/academia">Check out this link</a>
+```
+
+À la suite de l&#39;assistant `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
+L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la première instruction renvoie false.
+
+
+**Format**
+
+```sql
+{
+    {
+        {%#if condition1%} element_1 
+        {%else if condition2%} element_2 
+        {%else%} default_element 
+        {%/if%}
+    }
+}
+```
+
+**Exemples**
+
+1. **Rendu de différents liens de magasin en fonction d’expressions conditionnelles**
+
+   ```sql
+   {%#if profile.homeAddress.countryCode = "FR"%}
+   <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
+   {%else%}
+   <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
+   {%/if%}
+   ```
+
+1. **Déterminer l’extension de l’adresse électronique**
+
+   ```sql
+   {%#if contains(profile.personalEmail.address, ".edu")%}
+   <a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
+   {%else if contains(profile.personalEmail.address, ".org")%}
+   <a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
+   {%else%}
+   <a href="https://www.adobe.com/users">Checkout our page</a>
+   {%/if%}
+   ```
+
+1. **Ajout d’un lien conditionnel**
+
+   L&#39;opération suivante ajoutera un lien vers le &#39;site web www.adobe.com/academia&#39; pour les profils avec des adresses email &#39;.edu&#39; uniquement, vers le &#39;site web www.adobe.com/org&#39; pour les profils avec des adresses email &#39;.org&#39;, et l&#39;URL par défaut &#39;www.adobe.com/users&#39; pour tous les autres profils :
+
+   ```sql
+   {%#if contains(profile.personalEmail.address, ".edu")%}
+   <a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
+   {%else if contains(profile.personalEmail.address, ".org")%}
+   <a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
+   {%else%}
+   <a href="https://www.adobe.com/users">Checkout our page</a>
+   {%/if%}
+   ```
+
+1. **Contenu conditionnel basé sur l’appartenance à un segment**
+
+   ```sql
+   {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
+   Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
+   {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
+   Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
+   {%/if%}
+   ```
+
+1. **Déterminer si un profil est déjà membre**
+
+   ```sql
+   {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
+       You're a member!
+   {%else%}
+       You should be a member! Sign up now!
+   {%/if%}
+   ```
+
+>[!NOTE]
+>
+>Pour en savoir plus sur la segmentation et le service de segmentation, consultez cette [section](../../segment/about-segments.md).
+
+
+## Unless{#unless}
+
+L&#39;assistant `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l’assistant `if`, si l’évaluation de l’expression renvoie false, le bloc est rendu.
+
+**Syntaxe**
+
+```sql
+{%#unless unlessCondition%} element_1 {%else%} default_element {%/unless%}
+```
+
+**Exemple**
+
+Générer du contenu en fonction de l’extension d’adresse électronique :
+
+```sql
+{%#unless endsWith(profile.personalEmail.address, ".edu")%}
+Some Normal Content
+{%else%}
+Some edu specific content Content
+{%/unless%}
+```
+
+## Each{#each}
+
+L&#39;assistant `each` est utilisée pour effectuer une itération sur un tableau.
+La syntaxe de l&#39;assistant est ```{{#each ArrayName}}``` YourContent {{/each}}.
+Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l&#39;intérieur du bloc. L&#39;index de l&#39;élément du tableau peut être rendu à l&#39;aide de {{@index}}.
+
+**Syntaxe**
+
+```sql
+{{#each profile.productsInCart}}
+    <li>{{this.name}}</li>
+    </br>
+{{/each}}
+```
+
+**Exemple**
+
+```sql
+{{#each profile.homeAddress.city}}
+  {{@index}} : {{this}}<br>
+{{/each}}
+```
+
+**Exemple**
+
+Générer une liste de produits que cet utilisateur a dans son panier :
+
+```sql
+{{#each profile.products as |product|}}
+    <li>{{product.productName}} {{product.productRating}}</li>
+   </br>
+{{/each}}
+```
+
+## Avec{#with}
+
+L’assistant `with` permet de modifier le jeton d’évaluation de la partie template.
+
+**Syntaxe**
+
+```sql
+{{#with profile.person.name}}
+{{this.firstName}} {{this.lastName}}
+{{/with}}
+```
+
+L’assistant `with` est utile pour définir également une variable de raccourci.
+
+**Exemple**
+
+Utiliser l’option avec pour attribuer un alias aux noms de variables longs par rapport aux noms plus courts :
+
+```sql
+{{#with profile.person.name as |name|}}
+ Hi {{name.firstName}} {{name.lastName}}!
+ Checkout our trending products for today!
+{{/with}}
+```
+
+## Let{#let}
+
+La fonction `let` permet à une expression d’être stockée en tant que variable et d’être utilisé ultérieurement dans une requête.
+
+**Syntaxe**
+
+```sql
+{% let variable = expression %} {{variable}}
+```
+
+**Exemple**
+
+L’exemple suivant permet d’utiliser toutes les sommes des totaux des produits pour la transaction en USD, pour laquelle la somme est supérieure à 100 USD et inférieure à 1 000 USD.
+
+```sql
+{% let variable = expression %} {{variable}}
+```
