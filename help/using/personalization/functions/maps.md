@@ -1,70 +1,69 @@
 ---
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 85%
+source-wordcount: '98'
+ht-degree: 66%
 
 ---
 
-# Fonctions de mappage {#maps}
+# Fonctions de carte{#maps}
 
 ![](../../assets/do-not-localize/badge.png)
 
-[!DNL Profile Query Language] (PQL) offre des fonctions pour faciliter l&#39;interaction avec les cartes.
+[!DNL Profile Query Language] (PQL) offre des fonctions permettant de faciliter l’interaction avec les cartes.
 
-## Get
+## Get{#get}
 
 La fonction `get` est utilisée pour récupérer la valeur d’une carte pour une clé donnée.
 
 **Format**
 
 ```sql
-get({MAP},{STRING})
+{%= get(map, string) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie la valeur de la carte d’identité pour la clé `example@example.com`.
+L’opération suivante récupère la valeur de la carte d’identité pour la clé `example@example.com`.
 
 ```sql
-get(identityMap,"example@example.com")
+{%= get(identityMap,"example@example.com") %}
 ```
 
-## Keys
+## Keys{#keys}
 
 La fonction `keys` est utilisée pour récupérer toutes les clés d’une carte donnée.
 
 **Format**
 
 ```sql
-keys({MAP})
+{%= keys(map) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie toutes les clés pour la carte `identityMap`.
+L’opération suivante récupère toutes les clés pour la carte `identityMap`.
 
 ```sql
-keys(identityMap)
+{%= keys(identityMap) %}
 ```
 
-## Values
+## Values{#values}
 
 La fonction `values` est utilisée pour récupérer toutes les valeurs d’une carte donnée.
 
 **Format**
 
 ```sql
-values({MAP})
+{%= values(map) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie toutes les valeurs pour la carte `identityMap`.
+L’opération suivante récupère toutes les valeurs de la carte `identityMap`.
 
 ```sql
-values(identityMap)
+{%= values(identityMap) %}
 ```
