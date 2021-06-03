@@ -1,50 +1,49 @@
 ---
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 89%
+source-wordcount: '55'
+ht-degree: 60%
 
 ---
 
-# Fonctions d&#39;objet {#objects}
+# Fonctions d’objet {#objects}
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Fonction isNull
+## Fonction isNull{#isNull}
 
 La fonction `isNull` détermine si une référence d’objet n’existe pas.
 
 **Format**
 
 ```sql
-isNull({OBJECT})
+{%= isNull(object) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante vérifie si l’adresse de la personne n’existe pas.
+L’opération suivante vérifie si l’adresse de la personne n’existe pas.
 
 ```sql
-isNull(person.homeAddress)
+{%= isNull(person.homeAddress) %}
 ```
 
-## Fonction isNotNull
+## Fonction isNotNull{#isNotNull}
 
 La fonction `isNotNull` détermine si une référence d’objet existe.
 
 **Format**
 
 ```sql
-isNotNull({OBJECT})
+{%= isNotNull(object) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante vérifie si l’adresse de la personne existe.
+L’opération suivante vérifie si l’adresse de domicile de la personne existe.
 
 ```sql
-isNotNull(person.homeAddress)
+{%= isNotNull(person.homeAddress) %}
 ```
