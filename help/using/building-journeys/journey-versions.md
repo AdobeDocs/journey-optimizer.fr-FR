@@ -1,8 +1,7 @@
 ---
 title: Versions de parcours
 description: En savoir plus sur les versions de parcours
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -13,7 +12,9 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/badge.png)
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [cette page](../building-journeys/using-the-journey-designer.md). Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l’application. Vous pouvez ensuite définir l’ordre de tri souhaité ; l’application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail.
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [cette page](../building-journeys/using-the-journey-designer.md).
+
+Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l’application. Vous pouvez ensuite définir l’ordre de tri souhaité ; l’application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail.
 
 ![](../assets/journeyversions1.png)
 
