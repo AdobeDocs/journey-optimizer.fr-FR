@@ -1,106 +1,105 @@
 ---
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 85%
+source-wordcount: '155'
+ht-degree: 54%
 
 ---
 
-# Fonctions d&#39;agrégation {#aggregation}
+# Fonctions d’agrégation {#aggregation}
 
 ![](../../assets/do-not-localize/badge.png)
 
-Les fonctions d’agrégation sont utilisées pour regrouper plusieurs valeurs dans des tableaux [!DNL Profile Query Language] (PQL) afin de former une seule valeur de synthèse.
+Les fonctions d’agrégation sont utilisées pour regrouper plusieurs valeurs afin de former une seule valeur de résumé.
 
-## Count
+## Count{#count}
 
 La fonction `count` renvoie le nombre d’éléments dans le tableau donné.
 
 **Format**
 
 ```sql
-count({ARRAY})
+{%= count(array) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie le nombre de commandes du tableau.
+L’opération suivante renvoie le nombre de commandes dans le tableau .
 
 ```sql
-count(orders)
+{%= count(orders) %}
 ```
 
-## Sum
+## Sum{#sum}
 
 La fonction `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 
 ```sql
-sum({ARRAY})
+{%= sum(array) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie la somme des prix de toutes les commandes.
+L&#39;opération suivante renvoie la somme des prix de toutes les commandes.
 
 ```sql
-sum(orders.order.price)
+{%=sum(orders.order.price)%}
 ```
 
-## Average
+## Average{#average}
 
 La fonction `average` renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 
 ```sql
-average({ARRAY})
+{%= average(array) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie le prix moyen de toutes les commandes.
+L’opération suivante renvoie le prix moyen de toutes les commandes.
 
 ```sql
-average(orders.order.price)
+{%=average(orders.order.price)%}
 ```
 
-## Minimum
+## Minimum{#min}
 
 La fonction `min` renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 
 ```sql
-min({ARRAY})
+{%= min(array) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie le prix le plus bas de toutes les commandes.
+L’opération suivante renvoie le prix le plus bas de toutes les commandes.
 
 ```sql
-min(orders.order.price)
+{%=min(orders.order.price)%}
 ```
 
-## Maximum
+## Maximum{#max}
 
 La fonction `max` renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 
 ```sql
-max({ARRAY})
+{%= max(array) %}
 ```
 
 **Exemple**
 
-La requête PQL suivante renvoie le prix le plus élevé de toutes les commandes.
+L’opération suivante renvoie le prix le plus élevé de toutes les commandes.
 
 ```sql
-max(orders.order.price)
+{%=max(orders.order.price)%}
 ```
