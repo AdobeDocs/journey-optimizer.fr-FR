@@ -1,11 +1,10 @@
 ---
 title: Gestion des fuseaux horaires
 description: En savoir plus sur la gestion des fuseaux horaires
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: bcc9f5c7bdb660462ca412ed2528dab16d610418
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -32,19 +31,19 @@ Le fuseau horaire peut également être fixe. Effacez le fuseau horaire prédéf
 
 Pour cela, dans **[!UICONTROL Propriétés]**, sélectionnez un fuseau horaire.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Utilisation de profils pour définir le fuseau horaire du parcours {#timezone-from-profiles}
 
-Si le événement d&#39;entrée du parcours a un espace de nommage, ce qui signifie que le parcours peut atteindre le service de Profil client en temps réel de Adobe Experience Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de la personne qui s&#39;écoule dans le parcours.
+Si un espace de noms est associé à l’événement d’entrée du parcours, ce qui signifie que ce dernier peut accéder au service de profil client en temps réel d’Adobe Experience Platform, le fuseau horaire est prédéfini avec celui spécifié dans le profil de l’individu qui participe au parcours.
 
-Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
+Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
 
 Si le profil de l’individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
 
 Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Utiliser le fuseau horaire du profil dans les retardateurs et conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Utilisation des fuseaux horaires dans les expressions {#timezone-in-expressions}
 
