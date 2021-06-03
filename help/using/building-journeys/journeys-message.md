@@ -1,29 +1,28 @@
 ---
-title: Ajouter un message dans un parcours
-description: Ajouter un message dans un parcours
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: Ajout d’un message dans un parcours
+description: Ajout d’un message dans un parcours
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 6%
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
-# Ajouter un message dans un parcours
+# Ajout d’un message dans un parcours
 
 ![](../assets/do-not-localize/badge.png)
 
-Les fonctionnalités de message Journey Optimizer sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou email conçu à l&#39;aide de Journey Optimizer.
+[!DNL Journey Optimizer]Les fonctionnalités de message sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou e-mail conçu à l&#39;aide de Journey Optimizer.
 
 Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md).
 
-## Ajouter une activité de message
+## Ajout d&#39;une activité de message
 
-1. Comme toujours, début votre parcours avec un événement ou une activité **Lire le segment**.
+1. Comme toujours, débutez votre parcours avec un événement ou une activité **Lecture de segment**.
 
    ![](../assets/jo-message0.png)
 
-1. Dans la section **Actions** de la palette, faites glisser une activité **Message** dans le canevas.
+1. Dans la section **Actions** de la palette, faites glisser-déposer une activité **Message** dans la zone de travail.
 
    ![](../assets/jo-message1.png)
 
@@ -51,4 +50,4 @@ Les paramètres **Canal** s&#39;affichent. Ces champs sont en lecture seule. Cet
 
 ![](../assets/jo-message4.png)
 
-Vous pouvez utiliser l&#39;icône **Activer le champ de modification** située sur le côté droit du champ pour forcer une valeur spécifique. Cela peut être utile à des fins de test. Par exemple, pour un courrier électronique, vous pouvez ajouter votre adresse électronique. Lors de la publication du parcours, le courrier électronique vous sera envoyé.
+Vous pouvez utiliser l&#39;icône **Activer le champ de modification** située sur le côté droit du champ pour forcer une valeur spécifique. Cela peut être utile à des fins de test. Par exemple, pour un e-mail, vous pouvez ajouter votre adresse e-mail. Lors de la publication du parcours, l&#39;e-mail vous sera envoyé.
