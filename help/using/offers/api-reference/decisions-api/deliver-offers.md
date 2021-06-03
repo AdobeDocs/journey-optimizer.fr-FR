@@ -1,21 +1,20 @@
 ---
 title: Diffusion d’offres
-description: La gestion des décisions est un ensemble de services et de programmes d’interface utilisateur qui permet aux spécialistes du marketing de créer et de diffuser des expériences d’offre personnalisées pour les utilisateurs finaux sur plusieurs canaux et applications à l’aide d’une logique métier et de règles de décision.
-translation-type: tm+mt
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
+description: Decision Management est un ensemble de services et d’interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d’offres personnalisées aux utilisateurs finaux par le biais de canaux et d’applications en s’appuyant sur une logique commerciale et des règles de décision.
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 69%
+source-wordcount: '945'
+ht-degree: 99%
 
 ---
 
 # Diffuser des offres à l’aide de l’API Decisions
 
-Avec la gestion des décisions, vous pouvez créer et diffuser des expériences d’offre personnalisées par l’utilisateur final, entre canaux et applications, en utilisant la logique métier et les règles de décision. Une offre est un message marketing auquel des règles peuvent être associées et qui spécifie qui est éligible pour voir l’offre.
+Avec Decision Management, vous pouvez créer et diffuser des expériences d’offre personnalisées pour l’utilisateur final, entre les canaux et les applications, en utilisant la logique commerciale et les règles de décision. Une offre est un message marketing auquel des règles peuvent être associées et qui spécifie qui est éligible pour voir l’offre.
 
 Vous pouvez créer et diffuser des offres en effectuant une requête POST à l’API [!DNL Decisions].
 
-Ce didacticiel nécessite une bonne compréhension des API, en particulier en ce qui concerne la gestion des décisions. Pour plus d&#39;informations, consultez le [Guide du développeur de l&#39;API de gestion des décisions](../getting-started.md). Ce didacticiel nécessite également que vous disposiez d’un ID de placement et d’une valeur d’ID de décision uniques. Si vous n’avez pas acquis ces valeurs, consultez les didacticiels pour [créer un emplacement](../offers-api/placements/create.md) et [créer une décision](../activities-api/activities/create.md).
+Ce tutoriel nécessite une bonne compréhension des API, en particulier concernant Decision Management. Pour plus d’informations, consultez le [Guide du développeur de l’API Decision Management](../getting-started.md). Ce tutoriel nécessite aussi que vous disposiez d’un identifiant d’emplacement et d’un identifiant de décision uniques. Si vous ne disposez pas de ces valeurs, consultez les tutoriels sur la [création d’un emplacement](../offers-api/placements/create.md) et la [création d’une décision](../activities-api/activities/create.md).
 
 ![](../../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -100,17 +99,17 @@ curl -X POST \
 
 | Propriété | Description | Exemple |
 | -------- | ----------- | ------- |
-| `xdm:propositionRequests` | Cet objet contient les identifiants de placement et de décision. |
+| `xdm:propositionRequests` | Cet objet contient les identifiants d’emplacement et de décision. |
 | `xdm:propositionRequests.xdm:placementId` | Identifiant d’emplacement unique. | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | Identificateur de décision unique. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests.xdm:activityId` | Identifiant de décision unique. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Nombre d’offres à renvoyer. Le nombre maximal est 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Cet objet contient des informations sur le profil pour lequel la décision est demandée. Pour une requête d’API, il contient un profil. |
-| `xdm:profiles.xdm:identityMap` | Cet objet contient un ensemble d’identités d’utilisateur final basées sur le code d’intégration d’espace de noms de l’identité. Le mappage d’identité peut comporter plusieurs identités de chaque espace de noms. Pour plus d’informations sur les espaces de noms, voir la [présentation de l’espace de noms d’identité](https://docs.adobe.com/content/help/fr-FR/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Cet objet contient un ensemble d’identités d’utilisateur final basées sur le code d’intégration d’espace de noms de l’identité. Le mappage d’identité peut comporter plusieurs identités de chaque espace de noms. Pour plus d’informations sur les espaces de noms, voir la [présentation de l’espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | Identifiant généré par le client pouvant être utilisé pour identifier de manière unique une demande de décision de profil. Cette identifiant est repris dans la réponse et n’influence pas le résultat de la décision. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Cet objet représente la structure de contrôle des règles de déduplication. Il s’agit d’une série d’indicateurs qui définissent si la même option peut être proposée dans une certaine dimension. Un indicateur défini sur true signifie que les duplicatas sont autorisés et ne doivent pas être supprimés pour la catégorie indiquée par l’indicateur. Un indicateur défini sur false signifie que le moteur de décision ne doit pas faire la même proposition pour la dimension et doit plutôt choisir la meilleure option suivante pour l’une des sous-décisions. |
-| `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si elle est définie sur true, plusieurs décisions peuvent se voir attribuer la même option. | `"xdm:acrossActivities": true` |
+| `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si la valeur est définie sur true, plusieurs décisions peuvent se voir attribuer la même option. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Si la valeur est définie sur true, plusieurs emplacements peuvent se voir attribuer la même option. | `"xdm:acrossPlacements": true` |
-| `xdm:mergePolicy.xdm:id` | Identifie la stratégie de fusion selon laquelle gérer les données renvoyées par le service d’accès aux profils. Si l’un d’eux n’est pas spécifié dans la demande, Decision Management ne transmettra aucun service d’accès au profil, sinon il transmettra l’identifiant fourni par l’appelant. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
+| `xdm:mergePolicy.xdm:id` | Identifie la stratégie de fusion selon laquelle gérer les données renvoyées par le service d’accès aux profils. S’il n’y a pas de stratégie spécifiée dans la requête, Decision Management ne transmet aucun service d’accès au profil. Dans le cas contraire, il transmet l’identifiant fourni par l’appelant. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Ensemble d’indicateurs qui formate le contenu de la réponse. |
 | `xdm:responseFormat.xdm:includeContent` | Valeur booléenne qui, si elle est définie sur `true`, inclut le contenu de la réponse. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | Objet utilisé pour spécifier les métadonnées supplémentaires renvoyées. Si cette propriété n’est pas incluse, `xdm:id` et `repo:etag` sont renvoyés par défaut. | `name` |
@@ -177,8 +176,8 @@ Une réponse réussie renvoie des informations sur votre proposition, y compris 
 | Propriété | Description | Exemple |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | Identifiant unique de l’entité de proposition associée à un événement XDM DecisionEvent. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | Cet objet contient une seule proposition de décision. Plusieurs options peuvent être renvoyées pour la décision. Si aucune option n&#39;est trouvée, l&#39;offre de secours de la décision est renvoyée. Les propositions de décision uniques comprennent toujours une propriété `options` ou une propriété `fallback`. Lorsqu’elle est présente, la propriété `options` ne peut pas être vide. |
-| `xdm:propositions.xdm:activity` | Cet objet contient l&#39;identifiant unique d&#39;une décision. | `"xdm:id": "xcore:activity:ffed0123"` |
+| `xdm:propositions` | Cet objet contient une proposition de décision unique. Plusieurs options peuvent être renvoyées pour la décision. Si aucune option n’est trouvée, l’offre de secours de la décision est renvoyée. Les propositions de décision uniques comprennent toujours une propriété `options` ou `fallback`. Lorsqu’elle est présente, la propriété `options` ne peut pas être vide. |
+| `xdm:propositions.xdm:activity` | Cet objet contient l’identifiant unique d’une décision. | `"xdm:id": "xcore:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | Cet objet contient l’identifiant unique d’un emplacement d’offre. | `"xdm:id": "xcore:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | Cet objet contient une seule option, y compris son identifiant unique. En cas de présence, cet objet ne peut pas être vide. | `xdm:id": "xcore:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | Définit le type du composant. `@type` agit en tant que contrat de traitement pour le client. Une fois l’expérience assemblée, le compositeur recherche le ou les composants ayant un type spécifique. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
@@ -191,14 +190,14 @@ Une réponse réussie renvoie des informations sur votre proposition, y compris 
 
 ## Tutoriel vidéo {#video}
 
-La vidéo suivante est destinée à vous aider à comprendre les composants de la gestion des décisions.
+La vidéo suivante est destinée à vous aider à comprendre les composants de gestion de décision.
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service d’applications d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, il fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif d’Offer Decisioning créé sur Adobe Experience Platform. Toutefois, elle fournit des instructions générales sur l’utilisation d’Offer Decisioning dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
 ## Étapes suivantes
 
-En suivant ce guide d’API, vous avez créé et diffusé des offres à l’aide de l’API [!DNL Decisions]. Pour plus d&#39;informations, consultez l&#39;[aperçu de la gestion des décisions](../../../offers/get-started/starting-offer-decisioning.md).
+En suivant ce guide d’API, vous avez créé et diffusé des offres à l’aide de l’API [!DNL Decisions]. Pour plus d’informations, consultez la [présentation de Decision Management](../../../offers/get-started/starting-offer-decisioning.md).
