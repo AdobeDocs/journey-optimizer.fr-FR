@@ -1,27 +1,26 @@
 ---
 title: Configuration d’un événement unitaire
 description: Découvrez comment configurer un événement unitaire
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 84%
+source-wordcount: '1674'
+ht-degree: 99%
 
 ---
 
-# Configurer un événement unitaire {#configure-an-event}
+# Configuration d&#39;un événement unitaire {#configure-an-event}
 
 ![](../assets/do-not-localize/badge.png)
 
-Les événements unitaires sont liés à un profil spécifique. Ils peuvent être basés sur des règles ou générés par le système.  En savoir plus sur le événement unitaire [cette section](../event/about-events.md).
+Les événements unitaires sont liés à un profil spécifique. Ils peuvent être basés sur des règles ou générés par le système.  En savoir plus sur les événements unitaires dans [cette section](../event/about-events.md).
 
-Voici les premières étapes de la configuration d’un nouveau événement :
+Les premières étapes nécessaires pour configurer un nouvel événement sont les suivantes :
 
-1. Dans le menu de gauche, cliquez sur l’icône **[!UICONTROL Administration]**, puis sur **[!UICONTROL Événements]**. La liste des événements s’affiche.
+1. Dans la section ADMINISTRATION, accédez à **[!UICONTROL Configurations]**, puis cliquez sur **[!UICONTROL Événements]**. La liste des événements s’affiche.
 
    ![](../assets/jo-event1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer un événement. Le volet de configuration d’événement s’ouvre dans la partie droite de l’écran.
+1. Cliquez sur **[!UICONTROL Ajouter]** pour créer un événement. Le volet de configuration d’événement s’ouvre dans la partie droite de l’écran.
 
    ![](../assets/jo-event2.png)
 
@@ -33,17 +32,17 @@ Voici les premières étapes de la configuration d’un nouveau événement :
    >
    >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
-1. Dans le champ **[!UICONTROL Type]**, choisissez **événements unitaires**.
+1. Dans le champ **[!UICONTROL Type]**, choisissez **Événements unitaires**.
 
    ![](../assets/jo-event3bis.png)
 
-1. Dans le champ **[!UICONTROL Événement ID type]**, sélectionnez le type d’ID de événement à utiliser : **Règle basée sur** ou **Généré par le système**. Pour en savoir plus sur les types d&#39;ID de événement, consultez [cette section](../event/about-events.md#event-id-type).
+1. Dans le champ **[!UICONTROL Type d’identifiant d’événement]**, sélectionnez le type d&#39;identifiant d’événement à utiliser : **Basé sur une règle** ou **Généré par le système** Pour en savoir plus sur les types d&#39;identifiant d’événements, reportez-vous à [cette section](../event/about-events.md#event-id-type).
 
    ![](../assets/jo-event4.png)
 
 1. Le nombre de parcours qui font appel à cet événement apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cet événement.
 
-1. Définissez les champs schéma et charge utile : c’est là que vous sélectionnez les informations de événement (généralement appelées données utiles) que les parcours attendent de recevoir. Vous pourrez alors utiliser ces informations dans votre parcours. Consultez [cette section](../event/about-creating.md#define-the-payload-fields).
+1. Définissez les champs de payload et de schéma : c’est dans ces champs que vous sélectionnez les informations d’événement (désignées généralement sous le nom de payload) que le parcours s’attend à recevoir. Vous pourrez alors utiliser ces informations dans votre parcours. Consultez [cette section](../event/about-creating.md#define-the-payload-fields).
 
    ![](../assets/jo-event5.png)
 
@@ -54,10 +53,10 @@ Voici les premières étapes de la configuration d’un nouveau événement :
 1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d’identifiant d’événement]**. À l’aide de l’éditeur d’expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
    ![](../assets/jo-event6.png)
 
-   Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement correspondant à cette condition (**[!UICONTROL champ Ville]** et **[!UICONTROL valeur Paris]**), il le transmet aux parcours.
+   Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet aux parcours.
 
 1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l’ajout d’un espace de noms permet d’exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l’événement. Consultez [cette section](../event/about-creating.md#select-the-namespace).
-1. Définissez la clé : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, les parcours sélectionnent la clé qui doit correspondre à l’espace de nommage (par exemple, si vous sélectionnez un espace de nommage de courriel, la clé de courriel est sélectionnée). Consultez [cette section](../event/about-creating.md#define-the-event-key).
+1. Définissez la clé : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, le parcours sélectionne la clé qui doit correspondre à l’espace de noms ; par exemple, si vous sélectionnez un espace de noms d’email, la clé d’email est sélectionnée. Consultez [cette section](../event/about-creating.md#define-the-event-key).
 
    ![](../assets/jo-event7.png)
 
@@ -68,7 +67,7 @@ Voici les premières étapes de la configuration d’un nouveau événement :
 
    L’événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d’événements. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## Définition des champs de charge utile {#define-the-payload-fields}
+## Définition des champs de payload {#define-the-payload-fields}
 
 La définition de la payload vous permet de choisir les informations que le système s’attend à recevoir de l’événement dans votre parcours, ainsi que la clé permettant d’identifier la personne associée à l’événement. La payload est basée sur la définition de champ XDM d’Experience Cloud. Pour plus d’informations sur XDM, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
@@ -76,7 +75,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    ![](../assets/journey8.png)
 
-   Tous les champs définis dans le schéma sont affichés. La liste des champs varie d’un schéma à l’autre. Vous pouvez rechercher un champ spécifique, ou utiliser les filtres pour afficher l’ensemble des nœuds et des champs ou uniquement les champs sélectionnés. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés. Vous ne pouvez pas les désélectionner. Tous les champs obligatoires pour que le événement soit correctement reçu par les parcours sont sélectionnés par défaut.
+   Tous les champs définis dans le schéma sont affichés. La liste des champs varie d’un schéma à l’autre. Vous pouvez rechercher un champ spécifique, ou utiliser les filtres pour afficher l’ensemble des nœuds et des champs ou uniquement les champs sélectionnés. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés. Vous ne pouvez pas les désélectionner. Tous les champs obligatoires pour que les parcours reçoivent correctement l’événement sont sélectionnés par défaut.
 
    >[!NOTE]
    >
@@ -84,7 +83,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    ![](../assets/journey9.png)
 
-1. Sélectionnez les champs que vous prévoyez de recevoir de l’événement. Il s’agit des champs que l’utilisateur chargé de la conception de parcours exploitera dans le parcours. Ils doivent également inclure la clé qui sera utilisée pour identifier la personne associée au événement (voir [cette section](../event/about-creating.md#define-the-event-key)).
+1. Sélectionnez les champs que vous prévoyez de recevoir de l’événement. Il s’agit des champs que l’utilisateur chargé de la conception de parcours exploitera dans le parcours. Ils doivent également inclure la clé qui sera utilisée pour identifier la personne associée à l’événement (voir [cette section](../event/about-creating.md#define-the-event-key)).
 
    ![](../assets/journey10.png)
 
@@ -100,7 +99,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    ![](../assets/journey12.png)
 
-## Sélectionnez l’espace de nommage {#select-the-namespace}
+## Sélectionnez l’espace de noms {#select-the-namespace}
 
 Un espace de noms vous permet de définir le type de clé utilisé pour identifier la personne associée à l’événement. Sa configuration est facultative. Elle est obligatoire si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant de [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr). Il n’est pas nécessaire de définir l’espace de noms si vous utilisez uniquement des données provenant d’un système tiers via une source de données personnalisée.
 
@@ -119,7 +118,7 @@ Sélectionnez un espace de noms dans la liste déroulante.
 
 Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même espace de noms. Voir [cette page](../building-journeys/journey.md).
 
-## Définir la clé de événement {#define-the-event-key}
+## Définition de la clé d’événement {#define-the-event-key}
 
 La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l’événement et permettant au système d’identifier la personne associée à l’événement. Il peut s’agir de l’Experience Cloud ID, d’un ID CRM ou encore d’une adresse e-mail.
 
@@ -141,14 +140,14 @@ Si vous devez utiliser une autre clé, telle qu’un ID CRM ou une adresse e-ma
 
    ![](../assets/journey20.png)
 
-Lorsque l’événement est reçu, la valeur de la clé permet au système d’identifier la personne qui y est associée. Associée à un espace de nommage (voir [cette section](../event/about-creating.md#select-the-namespace)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
+Lorsque l’événement est reçu, la valeur de la clé permet au système d’identifier la personne qui y est associée. Associée à un espace de noms (voir [cette section](../event/about-creating.md#select-the-namespace)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clé sert également à vérifier qu’une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n’autorise pas qu’une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
 Vous avez également accès aux fonctions d’expression avancées (**[!UICONTROL Mode avancé]**) si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d’un champ (les 10 premiers caractères, par exemple), etc. Voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
 
 ## Ajoutez une condition {#add-a-condition}
 
-La condition n’est disponible que pour les événements générés par le système. Vous pouvez définir une condition de événement qui permet au système de filtrer le traitement des événements. Si la condition est vraie, l’événement est traité. Dans le cas contraire, il est ignoré.
+La condition n’est disponible que pour les événements générés par le système. Vous pouvez définir une condition d’événement qui permet au système de filtrer le traitement des événements. Si la condition est vraie, l’événement est traité. Dans le cas contraire, il est ignoré.
 
 La condition relative aux événements ne peut être basée que sur les données transmises dans la payload d’événement. La condition définie au niveau de l’événement ne peut pas être modifiée par un marketeur dans la zone de travail. L’objectif est de rendre cette condition plus stricte lorsque cet événement est utilisé. Par exemple, si vous ne souhaitez pas que les marketeurs utilisent des événements d’abandon de panier si la valeur du panier est trop faible, vous pouvez créer une condition sur le champ d’événement « valeur du panier » et imposer une valeur supérieure à 100 euros.
 
@@ -158,7 +157,7 @@ Vous pouvez, par exemple, définir une condition pour ne traiter que les événe
 
 ![](../assets/journey78.png)
 
-## Prévisualisation de la charge utile {#preview-the-payload}
+## Prévisualisation de la payload {#preview-the-payload}
 
 Cet aperçu vous permet de valider la définition de la payload.
 
