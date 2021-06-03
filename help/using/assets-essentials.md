@@ -1,11 +1,10 @@
 ---
 title: Adobe Experience Manager Assets Essentials
-description: Commencer avec Assets Essentials
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: Prise en main d’Assets Essentials
+source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 4%
+source-wordcount: '404'
+ht-degree: 3%
 
 ---
 
@@ -15,25 +14,27 @@ ht-degree: 4%
 
 ## Prise en main d’[!DNL Assets Essentials] {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour renseigner vos messages. Vous pouvez y accéder directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Assets]**. Vous pouvez également accéder aux fichiers et aux dossiers lors de la conception d’un contenu de courrier électronique. [En savoir plus sur la conception](design-emails.md) des courriels.
+[!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages. Il est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** . Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email. [En savoir plus sur la conception](design-emails.md) des emails.
 
-Vous avez besoin d&#39;autorisations spécifiques pour accéder à [!DNL Adobe Experience Manager Assets Essentials]. [En savoir plus sur les autorisations pour le Adobe Experience Manager Assets Essentials](permissions.md#assets-permissions).
+Pour des procédures plus détaillées sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
 ## Chargement des ressources{#add-asset}
 
-Pour télécharger des fichiers dans [!DNL Assets Essentials], vous devez d&#39;abord parcourir ou créer le dossier dans lequel ils seront stockés :
+Pour charger des fichiers dans la [!DNL Assets Essentials], vous devez d’abord parcourir ou créer le dossier dans lequel ils seront stockés.
 
-1. Dans la page d&#39;accueil [!DNL Adobe Journey Optimizer], sélectionnez l&#39;onglet **[!UICONTROL Actifs]** pour accéder à [!DNL Assets Essentials].
+Pour plus d’informations sur le chargement de ressources, consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
+
+1. Sur la [!DNL Adobe Journey Optimizer] page d’accueil, sélectionnez l’onglet **[!UICONTROL Ressources]** pour accéder à [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
-1. Cliquez avec le doublon sur un dossier de la section centrale ou de la vue de l&#39;arborescence pour l&#39;ouvrir.
+1. Double-cliquez sur un dossier dans la section centrale ou dans l’arborescence pour l’ouvrir.
 
    Vous pouvez également cliquer sur **[!UICONTROL Créer un dossier]** pour créer un dossier.
 
    ![](assets/media_library_8.png)
 
-1. Une fois dans le dossier sélectionné ou créé, cliquez sur **[!UICONTROL Ajouter les ressources]** pour télécharger une nouvelle ressource dans votre dossier.
+1. Une fois que vous êtes dans le dossier sélectionné ou créé, cliquez sur **[!UICONTROL Ajouter les ressources]** pour charger une nouvelle ressource dans votre dossier.
 
    ![](assets/media_library_2.png)
 
@@ -41,15 +42,15 @@ Pour télécharger des fichiers dans [!DNL Assets Essentials], vous devez d&#39;
 
    ![](assets/media_library_3.png)
 
-1. Sélectionnez le fichier à télécharger. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**.
+1. Sélectionnez le fichier que vous souhaitez charger. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**.
 
-1. Une fois votre fichier téléchargé, vous pouvez le gérer à l’aide de différentes options détaillées dans cette [section](#manage-asset). Votre fichier peut également être modifié avec le mode **Modifier** de [!DNL Assets Essentials]. Pour plus d’informations, consultez cette [cette page](#edit-assets).
+1. Une fois votre ressource téléchargée, vous pouvez la gérer à l’aide de différentes options présentées dans cette [section](#manage-asset). Votre ressource peut également être modifiée davantage à l’aide du mode **Modifier** de [!DNL Assets Essentials]. Pour plus d’informations, consultez cette [cette page](#edit-assets).
 
    ![](assets/media_library_12.png)
 
 ## Gestion des ressources{#manage-asset}
 
-Vous pouvez gérer les ressources disponibles dans [!DNL Adobe Experience Manager Assets Essentials]. Cliquez sur votre fichier pour accéder à d’autres options.
+Vous pouvez gérer les ressources disponibles dans [!DNL Adobe Experience Manager Assets Essentials]. Cliquez sur votre ressource pour accéder à d’autres options.
 
 ![](assets/media_library_12.png)
 
@@ -57,29 +58,31 @@ Les actions suivantes sont disponibles dans la barre d’outils :
 
 ![](assets/media_library_4.png)
 
-* **[!UICONTROL Informations]** détaillées pour accéder à d’autres détails sur vos fichiers.
-* **[!UICONTROL Téléchargez]** vers le début directement en local.
-* **[!UICONTROL Supprimez]** la ressource pour la supprimer de  [!DNL Assets Essentials].
-* **** Copie pour copier/coller la ressource dans un autre dossier.
-* **** Moveto déplace votre fichier vers d’autres dossiers.
+* **** Informations détaillées pour accéder à d’autres détails sur vos ressources.
+* **** Téléchargez pour lancer le téléchargement local direct.
+* **** Supprimez la ressource de  [!DNL Assets Essentials].
+* **** Copiez pour copier/coller la ressource dans un autre dossier.
+* **** Déplacez votre ressource vers d’autres dossiers.
 
-## Insérer des actifs dans les messages {#use-assets}
+Pour plus d’informations sur la gestion des ressources, consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html).
 
-Vous pouvez insérer des fichiers dans l’un de vos messages par l’intermédiaire du concepteur de messages électroniques. [En savoir plus sur la conception](design-emails.md) des courriels.
+## Insérer des ressources dans les messages {#use-assets}
 
-Pour insérer une ressource à partir de [!DNL Adobe Experience Manager Assets Essentials] :
+Vous pouvez insérer des ressources dans l&#39;un de vos messages via le Concepteur d&#39;email. [En savoir plus sur la conception](design-emails.md) des emails.
 
-1. Dans le concepteur de courrier électronique, sélectionnez **[!UICONTROL Sélecteur de ressources]** dans le volet de gauche.
+Pour insérer une ressource de [!DNL Adobe Experience Manager Assets Essentials] :
+
+1. Dans le Concepteur d’email, sélectionnez **[!UICONTROL Sélecteur de ressources]** dans le volet de gauche.
 
    ![](assets/media_library_5.png)
 
-1. Sélectionnez le dossier de fichiers. Vous pouvez également rechercher votre fichier ou votre dossier dans la barre de recherche.
+1. Sélectionnez le dossier de ressources. Vous pouvez également rechercher votre ressource ou votre dossier dans la barre de recherche.
 
-1. Faites glisser et déposez votre fichier dans un composant de structure ****.
+1. Faites glisser et déposez votre ressource dans un **[!UICONTROL composant de structure]**.
 
    ![](assets/media_library_6.png)
 
-Vous pouvez personnaliser davantage vos ressources, par exemple en ajoutant un lien externe ou un texte avec les paramètres **[!UICONTROL Composants]**. [En savoir plus sur les paramètres des composants](content-components.md)
+Vous pouvez personnaliser davantage vos ressources, par exemple en ajoutant un lien externe ou du texte avec les **[!UICONTROL paramètres des composants]**. [En savoir plus sur les paramètres des composants](content-components.md)
 
 <!--
 
@@ -104,6 +107,6 @@ Following actions are available in the toolbar:
 
 When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
 
-For more information on how to share access to your folders, refer to this [page](permissions.md#assets-permissions).
+For more information on how to share access to your folders, refer to this page.
 
 -->
