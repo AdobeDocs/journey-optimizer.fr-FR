@@ -6,7 +6,7 @@ user-guide-description: Utilisation de Journey Optimizer pour fournir aux client
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: fc39593802d296c035f1c77f237ae19cc73ce059
+source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 83%
@@ -192,7 +192,7 @@ ht-degree: 83%
    + Configuration des messages {#configuration}
       + [Paramètres techniques](using/administration/administration.md)
       + [Création de paramètres de message prédéfinis](using/configuration/message-presets.md)
-      + Configuration des notifications push{#push-config}
+      + Configuration de notifications push{#push-config}
          + [Prise en main des notifications push](using/push-gs.md)
          + [Configuration du canal push](using/push-configuration.md)
       + Configuration des emails {#email-config}
