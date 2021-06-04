@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 17%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 17%
 
 La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En gros, si un client gère la zone &quot;example.com&quot;, il peut déléguer la sous-zone &quot;marketing.example.com&quot; à l’Adobe.
 
-En déléguant un sous-domaine à utiliser avec Adobe Optimizer, les clients peuvent compter sur l’Adobe pour gérer l’infrastructure DNS nécessaire pour répondre aux exigences de délivrabilité standard du secteur pour leurs domaines d’envoi de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de leurs domaines.
-domaines de messagerie internes.
+En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les clients peuvent s’appuyer sur l’Adobe pour gérer l’infrastructure DNS nécessaire pour répondre aux exigences de délivrabilité standard de l’industrie pour leurs domaines d’envoi de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS pour leurs domaines d’email internes.
 
-Journey Optimizer vous permet de déléguer entièrement vos sous-domaines à l’Adobe. Ce faisant, Adobe pourra diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes email.
+[!DNL Journey Optimizer] vous permet de déléguer entièrement vos sous-domaines à Adobe directement à partir de l’interface du produit. Ce faisant, Adobe pourra diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes email.
 
 >[!NOTE]
 >
