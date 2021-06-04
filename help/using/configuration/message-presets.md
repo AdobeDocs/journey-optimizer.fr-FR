@@ -1,7 +1,7 @@
 ---
 title: Création de paramètres de message prédéfinis
 description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des paramètres prédéfin
 > La configuration des paramètres de message prédéfinis est limitée aux administrateurs de Parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 Une fois les paramètres prédéfinis de message configurés, vous pouvez les sélectionner lors de la création de messages à partir de la liste **[!UICONTROL Paramètres prédéfinis]**.
 
 ## Créer un paramètre prédéfini de message {#create-message-preset}
@@ -27,6 +28,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 1. Accédez au menu **[!UICONTROL Canaux]** / **[!UICONTROL Paramètres de message prédéfinis]**, puis cliquez sur **[!UICONTROL Créer un paramètre de message prédéfini]**.
 
    ![](../assets/preset-create.png)
+
 
 1. Saisissez un nom et une description (facultatif) pour le paramètre prédéfini, puis sélectionnez le ou les canaux à configurer.
 
@@ -80,6 +82,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    Ces contrôles incluent les tests de délivrabilité effectués par l’équipe de délivrabilité d’Adobe :
 
+
    * Validation SPF
    * Validation DKIM
    * Validation des enregistrements MX
@@ -87,6 +90,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
    * Vérification de l’hôte Helo
    * Vérification du pool d’adresses IP
    * Enregistrement A/PTR, vérification du sous-domaine t/m/res
+
 
 1. Une fois les vérifications effectuées, le paramètre prédéfini du message obtient le statut **[!UICONTROL Principal]**. Il est prêt à être utilisé pour diffuser des messages.
 
