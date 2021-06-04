@@ -1,9 +1,9 @@
 ---
 title: Création de paramètres de message prédéfinis
-description: Découvrez comment créer des paramètres prédéfinis de message de notification push et par email
-source-git-commit: 4353b8f01bb4e47f6f2384e464341c0ee80ecaf2
+description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
+source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,12 @@ ht-degree: 0%
 
 # Création de paramètres de message prédéfinis
 
-Avec [!DNL Journey Optimizer], vous pouvez configurer des paramètres prédéfinis de message qui définissent tous les paramètres techniques requis pour les emails et les notifications push (type d’email, nom et adresse email de l’expéditeur, applications mobiles, etc.).
+Avec [!DNL Journey Optimizer], vous pouvez configurer des paramètres prédéfinis de message qui définissent tous les paramètres techniques requis pour les messages de notification électronique et push : type de courrier électronique, nom et adresse électronique de l’expéditeur, applications mobiles, etc.
 
-Vous pouvez configurer autant de paramètres prédéfinis de message que vous le souhaitez, en fonction des différentes marques pour lesquelles vous devez communiquer.
+>[!CAUTION]
+>
+> La configuration des paramètres de message prédéfinis est limitée aux administrateurs de Parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
+
 
 Une fois les paramètres prédéfinis de message configurés, vous pouvez les sélectionner lors de la création de messages à partir de la liste **[!UICONTROL Paramètres prédéfinis]**.
 
@@ -25,24 +28,48 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    ![](../assets/preset-create.png)
 
-1. Attribuez un nom et une description (facultatif) au paramètre prédéfini, puis spécifiez le ou les canaux à configurer.
+1. Saisissez un nom et une description (facultatif) pour le paramètre prédéfini, puis sélectionnez le ou les canaux à configurer.
 
    ![](../assets/preset-general.png)
 
-1. Configurez les paramètres de l&#39;email et de la notification push :
 
-   Pour le canal Email, spécifiez :
+   >[!NOTE]
+   >
+   > * Les noms doivent commencer par une lettre (A-Z). Il ne peut contenir que des caractères alphanumériques et des caractères `_`, `.`, `-`.
 
-   * le type de communication qui sera envoyé avec le paramètre prédéfini (messages transactionnels ou marketing),
-   * Le [sous-domaine](about-subdomain-delegation.md) à utiliser pour envoyer les emails,
-   * Le [pool IP](ip-pools.md) à associer au paramètre prédéfini,
-   * Paramètres d’en-tête à utiliser pour les emails envoyés à l’aide du paramètre prédéfini.
+
+1. Configurez les paramètres **email**.
 
    ![](../assets/preset-email.png)
 
-   Pour le canal Notification push, spécifiez les applications mobiles IOS et/ou Android à utiliser pour vos messages. Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../push-configuration.md).
+   * Sélectionnez le type de message qui sera envoyé avec le paramètre prédéfini : **Transactionnel** ou **Marketing**
+
+      >[!CAUTION]
+      >
+      > **** Les messages transactionnels peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques, tels que la réinitialisation du mot de passe, l’état de la commande, la notification de diffusion, par exemple.
+
+   * Sélectionnez le sous-domaine à utiliser pour envoyer les emails. [En savoir plus](about-subdomain-delegation.md)
+   * Sélectionnez le pool d’adresses IP à associer au paramètre prédéfini. [En savoir plus](ip-pools.md)
+   * Renseignez les paramètres d&#39;en-tête des emails envoyés à l&#39;aide du paramètre prédéfini.
+
+      >[!NOTE]
+      >
+      > * Les noms doivent commencer par une lettre (A-Z). Il ne peut contenir que des caractères alphanumériques et des caractères `_`, `.`, `-`.
+         > 
+         > 
+      * À l’exception de la balise **Répondre à (transférer l’email)**, le domaine des adresses électroniques doit utiliser le sous-domaine sélectionné actuel.
+
+
+
+1. Configurez les paramètres **notification push**.
 
    ![](../assets/preset-push.png)
+
+   * Sélectionnez au moins une plateforme : iOS et/ou Android
+
+   * Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
+
+      Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../push-configuration.md).
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le paramètre prédéfini de message en tant que brouillon et reprendre sa configuration ultérieurement.
 
@@ -54,13 +81,13 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    Ces contrôles incluent les tests de délivrabilité effectués par l’équipe de délivrabilité d’Adobe :
 
-   * validation SPF,
-   * Validation DKIM,
-   * Validation des enregistrements MX,
-   * Vérifier la placée sur la liste bloquée des adresses IP,
-   * Vérification de l’hôte Helo,
-   * vérification du pool d’adresses IP,
-   * Enregistrement A/PTR, vérification du sous-domaine t/m/res.
+   * Validation SPF
+   * Validation DKIM
+   * Validation des enregistrements MX
+   * Vérifier l’liste bloquée des adresses IP
+   * Vérification de l’hôte Helo
+   * Vérification du pool d’adresses IP
+   * Enregistrement A/PTR, vérification du sous-domaine t/m/res
 
 1. Une fois les vérifications effectuées, le paramètre prédéfini du message obtient le statut **[!UICONTROL Principal]**. Il est prêt à être utilisé pour diffuser des messages.
 
@@ -101,3 +128,4 @@ Pour modifier un paramètre prédéfini de message, vous devez d’abord le dés
    >[!NOTE]
    >
    >Les paramètres prédéfinis de message désactivés ne peuvent pas être supprimés pour éviter tout problème dans les parcours utilisant ces paramètres prédéfinis pour envoyer des messages.
+
