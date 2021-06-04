@@ -1,9 +1,9 @@
 ---
 title: Création de paramètres de message prédéfinis
 description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
-source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
+source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    >[!NOTE]
    >
-   > Les noms doivent commencer par une lettre (A-Z). Il ne peut contenir que des caractères alphanumériques et des caractères `_` `.` `-`.
+   > Les noms doivent commencer par une lettre (A-Z). Elle ne peut contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d’union `-`.
 
 1. Configurez les paramètres **email**.
 
@@ -53,7 +53,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
       >[!NOTE]
       >
-      > * Les noms doivent commencer par une lettre (A-Z). Il ne peut contenir que des caractères alphanumériques et des caractères `_`, `.`, `-`.
+      > * Les noms doivent commencer par une lettre (A-Z). Elle ne peut contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d’union `-`.
          > 
          > 
       * À l’exception de la balise **Répondre à (transférer l’email)**, le domaine des adresses électroniques doit utiliser le sous-domaine sélectionné actuel.
