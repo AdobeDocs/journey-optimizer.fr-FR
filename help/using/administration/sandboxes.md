@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 69%
+source-wordcount: '347'
+ht-degree: 70%
 
 ---
 
@@ -47,13 +47,21 @@ Pour affecter des environnements de test :
 
 1. Sélectionnez un **[!UICONTROL Profil de produit]**.
 
+   ![](../assets/sandbox_1.png)
+
 1. Sélectionnez l’onglet **[!UICONTROL Autorisations]** .
 
-1. Sélectionnez la fonctionnalité **[!UICONTROL Accès aux environnements de test]** .
+1. Sélectionnez la fonctionnalité **[!UICONTROL Environnements de test]** .
+
+   ![](../assets/sandbox_2.png)
 
 1. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
+   ![](../assets/sandbox_3.png)
+
 1. Si nécessaire, sous **[!UICONTROL Éléments d’autorisation inclus]**, cliquez sur l’icône X en regard de pour supprimer l’accès des environnements de test à votre **[!UICONTROL profil de produit]**.
+
+   ![](../assets/sandbox_4.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
