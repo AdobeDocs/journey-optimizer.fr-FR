@@ -1,7 +1,7 @@
 ---
 title: Création de paramètres de message prédéfinis
 description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    * Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
 
-      Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../push-configuration.md).
+      Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../push-gs.md).
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le paramètre prédéfini de message en tant que brouillon et reprendre sa configuration ultérieurement.
 
