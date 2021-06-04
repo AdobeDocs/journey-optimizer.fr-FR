@@ -1,10 +1,10 @@
 ---
 title: Jeu de données d’emplacements
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les emplacements.
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 92%
+source-wordcount: '369'
+ht-degree: 85%
 
 ---
 
@@ -60,11 +60,11 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Champ :** contentTypes
 **Type :** tableau
 
-* **Type de média MIME**
+**_experience > prise de décision > contentTypes > MIME Type de média**
 
-   **Titre :** Type de média MIME
-   **Description :** contrainte pour le type de média des composants attendue à cet emplacement. Un de composant peut avoir plusieurs types de média, par exemple différents formats d’image.
-   **Type :** chaîne
+**Titre :** MIME Media Type 
+**Description :** contrainte du type de média des composants attendus à cet emplacement. Un de composant peut avoir plusieurs types de média, par exemple différents formats d’image.
+**Type :** Chaîne
 
 #### _experience > prise de décision > Description de l’emplacement
 
