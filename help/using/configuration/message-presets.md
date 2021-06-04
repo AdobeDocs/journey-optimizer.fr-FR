@@ -1,7 +1,7 @@
 ---
 title: Création de paramètres de message prédéfinis
 description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
-source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -35,8 +35,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    >[!NOTE]
    >
-   > * Les noms doivent commencer par une lettre (A-Z). Il ne peut contenir que des caractères alphanumériques et des caractères `_`, `.`, `-`.
-
+   > Les noms doivent commencer par une lettre (A-Z). Il ne peut contenir que des caractères alphanumériques et des caractères `_` `.` `-`.
 
 1. Configurez les paramètres **email**.
 
@@ -65,7 +64,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    ![](../assets/preset-push.png)
 
-   * Sélectionnez au moins une plateforme : iOS et/ou Android
+   * Sélectionnez au moins une plateforme : **iOS** et/ou **Android**
 
    * Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
 
@@ -77,7 +76,7 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
 1. Une fois le paramètre prédéfini de message créé, il s’affiche dans la liste avec l’état **[!UICONTROL Traitement]**.
 
-   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’il a été correctement configuré. Le temps de traitement est d’environ 48h à 72h, et peut prendre jusqu’à 7 à 10 jours.
+   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’il a été correctement configuré. Le temps de traitement est d’environ **48h-72h** et peut prendre jusqu’à **7-10 jours**.
 
    Ces contrôles incluent les tests de délivrabilité effectués par l’équipe de délivrabilité d’Adobe :
 
