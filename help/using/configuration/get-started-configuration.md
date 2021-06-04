@@ -8,7 +8,7 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 29%
@@ -24,7 +24,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
 1. **Configuration des messages et des canaux** : définir des paramètres prédéfinis, adapter et personnaliser les emails et les messages push ;
 
-   * Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push-configuration.md)
+   * Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push-gs.md)
 
    * Créez des paramètres prédéfinis de message pour configurer tous les paramètres techniques requis pour les messages de notification push et par email. [En savoir plus](message-presets.md)
 
