@@ -1,10 +1,10 @@
 ---
 title: Prise en main de la configuration push
 description: Présentation du flux de données et des composants des notifications push
-source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 2%
+source-wordcount: '861'
+ht-degree: 1%
 
 ---
 
@@ -58,8 +58,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
    * Création de propriétés mobiles côté client et ajout d’extensions. Le SDK s’intègre étroitement à ces extensions pour offrir une expérience de collecte de données transparente.
    * Enregistrement de l’identifiant de lot d’applications mobiles et des informations d’identification de l’application
 
-* **Adobe Experience Platform Real-time Customer**
-Profile offre une vue d’ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment le web, les appareils mobiles, le CRM et des tiers. Profile vous permet de consolider vos données client en une vue unifiée offrant un compte horodaté et exploitable de chaque interaction client. Le jeton push d’un utilisateur de l’application donné est stocké par rapport au profil de l’utilisateur en tant que données d’enregistrement, tandis que les interactions de l’utilisateur avec les notifications push sont suivies en tant que données d’événements de série temporelle. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
+* **Adobe Experience Platform Real-time Customer**  Profile offre une vue d’ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment le web, les appareils mobiles, le CRM et des tiers. Profile vous permet de consolider vos données client en une vue unifiée offrant un compte horodaté et exploitable de chaque interaction client. Le jeton push d’un utilisateur de l’application donné est stocké par rapport au profil de l’utilisateur en tant que données d’enregistrement, tandis que les interactions de l’utilisateur avec les notifications push sont suivies en tant que données d’événements de série temporelle. [En savoir plus sur le profil client en temps réel de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
 
 * **[!DNL Adobe Journey Optimizer]** : une fois vos intégrations d’applications mobiles avec les composants mentionnés ci-dessus en place et vos profils client dans Adobe Experience Platform, vous pouvez créer et orchestrer des notifications push dans Adobe Journey Optimizer pour interagir avec vos utilisateurs.
 
