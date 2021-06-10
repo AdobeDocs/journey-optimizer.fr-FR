@@ -1,11 +1,10 @@
 ---
-title: Publication du parcours
+title: Publier le parcours
 description: Découvrez comment publier un parcours
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
