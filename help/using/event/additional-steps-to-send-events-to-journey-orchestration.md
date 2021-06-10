@@ -1,11 +1,10 @@
 ---
-title: Autres étapes pour envoyer des événements à un parcours
-description: Découvrez les étapes supplémentaires à suivre pour envoyer des événements à un parcours
-translation-type: tm+mt
+title: Étapes supplémentaires pour l’envoi d’événements à un parcours
+description: En savoir plus sur les étapes supplémentaires pour l’envoi d’événements à un parcours
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 83%
 
 Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans [!DNL Journey Optimizer], procédez comme suit :
 
-1. Récupérez l’URL d’entrée à partir des API Adobe Experience Platform. En savoir plus sur [Présentation des API d&#39;importation en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
+1. Récupérez l’URL d&#39;inlet à partir des API Adobe Experience Platform. En savoir plus sur [Présentation des API d&#39;ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr).
 1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. En savoir plus sur [cette page](../event/about-creating.md#define-the-payload-fields).
 
 Vous devez ensuite configurer le système de données qui envoie les événements vers les API d’ingestion en flux continu à l’aide de la payload que vous avez copiée :
@@ -85,4 +84,4 @@ Voici un exemple d’événement d’API d’ingestion en flux continu :
 
 Pour identifier plus facilement l’endroit où coller la partie « données », vous pouvez utiliser un outil de visualisation JSON tel que [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com).
 
-Pour résoudre les problèmes liés aux API d’ingestion en flux continu, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+Pour résoudre les problèmes liés aux API d’ingestion en flux continu, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr).
