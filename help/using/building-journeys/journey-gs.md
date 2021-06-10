@@ -28,7 +28,7 @@ Pour envoyer des messages avec des parcours, la configuration suivante est requi
 
    ![](../assets/jo-datasource.png)
 
-1. **Configurer une action** : Lles fonctionnalités de message Journey Optimizer sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**.
+1. **Configurer une action** : les fonctionnalités de messagerie Journey Optimizer sont intégrées ; il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**.
 
    ![](../assets/create-content-push.png)
 
@@ -52,7 +52,7 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
    ![](../assets/read-segment.png)
 
-1. Faites glisser et déposez les étapes suivantes que l’utilisateur doit suivre. Par exemple, vous pouvez ajouter une condition suivie d’un message. Pour en savoir plus sur les activités, consultez [cette section](using-the-journey-designer.md).
+1. Faites glisser et déposez les étapes suivantes que l’individu doit suivre. Par exemple, vous pouvez ajouter une condition suivie d’un message. Pour en savoir plus sur les activités, consultez [cette section](using-the-journey-designer.md).
 
 1. Testez votre parcours à l’aide de profils de test. En savoir plus dans cette [section](testing-the-journey.md)
 
