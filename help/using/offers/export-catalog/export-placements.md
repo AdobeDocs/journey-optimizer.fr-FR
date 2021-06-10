@@ -14,44 +14,44 @@ Chaque fois qu’une offre est modifiée, le jeu de données généré automatiq
 
 ![](../../assets/dataset-placements.png)
 
-Le lot ayant réussi le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s’affiche dans le volet de gauche.
+Le lot le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s’affiche dans le volet de gauche.
 
 >[!NOTE]
 >
->Découvrez comment accéder aux jeux de données exportés pour chaque objet de votre bibliothèque d’offres dans [cette section](../export-catalog/access-dataset.md).
+>Découvrez comment accéder aux jeux de données exportés pour chaque objet de la bibliothèque des offres dans [cette section](../export-catalog/access-dataset.md).
 
-Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d’objets de décision - Emplacements]**.
+Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d’objets de décision - Emplacements]**.
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
 ## Identifiant
 
 **Champ :** _id 
-**Titre :** Identifier 
-**Description :** Identificateur unique pour l’enregistrement.
+**Titre :** identifiant 
+**Description :** identifiant unique de l’enregistrement.
 **Type :** Chaîne
 
-## _expérience
+## _experience
 
 **Champ :** _experience 
 **Type :** objet
 
 ### _experience > prise de décision
 
-**Champ :** décision 
+**Champ :** prise de décision
 **Type :** objet
 
 #### _experience > prise de décision > Identifiant de canal de référencement
 
 **Champ :** channelID
-**Titre :** Identifiant de canal de l’emplacement
-**Description :** canal dans lequel la proposition a été faite. La valeur est un URI de canal valide. Voir https://ns.adobe.com/xdm/channels/channel.
+**Titre :** identifiant du canal de l’emplacement
+**Description :** canal dans lequel la proposition a été effectuée. La valeur est un URI de canal valide. Voir https://ns.adobe.com/xdm/channels/channel.
 **Type :** chaîne
 
 #### _experience > prise de décision > Type de composant de contenu
 
 **Champ :** componentType
-**Titre :** Type de composant de contenu
+**Titre :** type de composant de contenu
 **Description :** ensemble énuméré d’URI où chaque valeur correspond à un type donné du composant de contenu. Certains consommateurs des représentations de contenu s’attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
 **Type :** chaîne
 
@@ -63,20 +63,20 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **_experience > prise de décision > contentTypes > MIME Type de média**
 
 **Titre :** MIME Media Type 
-**Description :** contrainte du type de média des composants attendus à cet emplacement. Un de composant peut avoir plusieurs types de média, par exemple différents formats d’image.
+**Description :** contrainte du type de média des composants attendus à cet emplacement. Un composant peut avoir plusieurs types de média, par exemple différents formats d’image.
 **Type :** Chaîne
 
 #### _experience > prise de décision > Description de l’emplacement
 
 **Champ :** description
-**Titre :** Description de l’emplacement
-**Description :** Permet de véhiculer les intentions lisibles par l’homme sur la manière dont le contenu dynamique est utilisé dans la diffusion globale des messages. Le fait qu’un certain espace est une \&quot;bannière\&quot; sur une page web est souvent communiqué par la description et non par une méthode formelle.
+**Titre :** description de l’emplacement
+**Description :** permet de véhiculer les intentions lisibles par l’homme sur la manière dont le contenu dynamique est utilisé dans la diffusion globale des messages. Le fait qu’un certain espace est une \&quot;bannière\&quot; sur une page web est souvent communiqué par la description et non par une méthode formelle.
 **Type :** chaîne
 
 #### _experience > prise de décision > Nom de l’emplacement
 
 **Champ :** nom
-**Titre :** Nom de l’emplacement
+**Titre :** nom de l’emplacement
 **Description :** nom attribué à l’emplacement pour s’y référer dans les interactions humaines.
 **Type :** chaîne
 
