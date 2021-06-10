@@ -13,7 +13,7 @@ ht-degree: 95%
 
 ![](../assets/do-not-localize/badge.png)
 
-Dans ce cas d’utilisation, vous verrez comment utiliser plusieurs types de personnalisation dans un seul message de notification push. Trois types de personnalisation seront utilisés :
+Dans ce cas d’utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
 
 * **Profil** : personnalisation des messages à partir d&#39;un champ de profil
 * **Décision** de l’offre : personnalisation basée sur les variables de décision d’offre
@@ -24,8 +24,8 @@ L’objectif de cet exemple est de pousser (push) un événement vers Journey Op
 Pour ce cas d’utilisation, les conditions préalables suivantes doivent être remplies 
 
 * Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../create-message.md).
-* Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l’élément. Reportez-vous à cette [section](../event/about-events.md).
-* Créez une décision (auparavant « activité d’offre ») ; consultez cette [section](../offers/offer-activities/create-offer-activities.md).
+* Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l’article. Reportez-vous à cette [section](../event/about-events.md).
+* Créer une décision (auparavant « activité d’offre ») ; consultez cette [section](../offers/offer-activities/create-offer-activities.md).
 
 ## Étape 1 - Ajouter une personnalisation au profil
 
@@ -37,7 +37,7 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
    ![](assets/perso-uc2.png)
 
-1. Saisissez l’objet et ajoutez la personnalisation de profil. Utilisez la barre de recherche pour rechercher le champ de prénom du profil. Dans le champ de texte de l’objet, placez le curseur à l’endroit où vous souhaitez insérer le champ de personnalisation, puis cliquez sur l’icône **+**. Cliquez sur **Enregistrer**.
+1. Saisissez l’objet et ajoutez la personnalisation de profil. Utilisez la barre de recherche pour rechercher le champ de prénom du profil. Dans le texte de l’objet, placez le curseur à l’endroit où vous souhaitez insérer le champ de personnalisation, puis cliquez sur l’icône **+**. Cliquez sur **Enregistrer**.
 
    ![](assets/perso-uc3.png)
 
@@ -80,7 +80,7 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 1. Sélectionnez la catégorie **Contexte**. Cet élément n’est disponible que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s’affichent :
 
    * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l’activité **Message** dans le parcours.
-   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys).
+   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=fr#building-advanced-conditions-journeys).
 
    ![](assets/perso-uc10.png)
 
@@ -96,7 +96,7 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
    ![](assets/perso-uc13.png)
 
-1. Dans la liste déroulante, sélectionnez **Décision d’offre** pour insérer une variable de prise de décision d’offre. Sélectionnez l’emplacement et cliquez sur l’icône **+** en regard de la décision (auparavant « activité d’offre ») pour l’ajouter au corps.
+1. Dans la liste déroulante, sélectionnez **Décision d’offre** pour insérer une variable Offer Decisioning. Sélectionnez l’emplacement et cliquez sur l’icône **+** en regard de la décision (auparavant « activité d’offre ») pour l’ajouter au corps.
 
    ![](assets/perso-uc14.png)
 
