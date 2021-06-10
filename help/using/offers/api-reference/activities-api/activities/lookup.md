@@ -1,17 +1,16 @@
 ---
-title: Décisions de liste
-description: Une décision contient la logique qui sous-tend la sélection d’une offre.
-translation-type: tm+mt
+title: Répertorier les décisions
+description: Une décision contient la logique sous-tendant la sélection d’une offre.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # Rechercher une décision
 
-Vous pouvez rechercher des décisions spécifiques (précédemment connues sous le nom d&#39;activités d&#39;offre) en adressant une demande de GET à l&#39;API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de la décision dans le chemin de la demande.
+Vous pouvez rechercher des décisions (auparavant « activités d’offre ») spécifiques en exécutant une requête GET sur l’API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de l’activité dans le chemin de la requête.
 
 **Format d’API**
 
@@ -41,7 +40,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l&#39;emplacement, y compris des informations sur votre identifiant de conteneur, votre identifiant d&#39;instance et, la décision unique `@id`.
+Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` de décision unique.
 
 ```json
 {
