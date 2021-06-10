@@ -1,15 +1,14 @@
 ---
 title: Activité de fin
-description: Découvrez comment utiliser l'activité finale
-translation-type: tm+mt
+description: Découvrez comment utiliser l’activité de fin
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '62'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Activité de fin {#section_vqp_4ft_dgb}
+# Activité de fin{#section_vqp_4ft_dgb}
 
 ![](../assets/do-not-localize/badge.png)
 
