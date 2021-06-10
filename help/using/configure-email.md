@@ -1,30 +1,29 @@
 ---
-title: Configuration d’un courrier électronique
-description: Découvrez comment configurer un courrier électronique dans Journey Optimizer
-translation-type: tm+mt
+title: Configuration d'un email
+description: Découvrez comment configurer un email dans Journey Optimizer
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Configurer un courrier électronique {#configure-email}
+# Configuration d&#39;un email {#configure-email}
 
 ![](assets/do-not-localize/badge.png)
 
-Les messages électroniques sont configurés lors de la création d’un message, dans l’onglet **[!UICONTROL Courriel]** (voir [Créer un message](create-message.md)).
+Les emails sont configurés lors de la création d’un message, dans l’onglet **[!UICONTROL Email]** (voir [Créer un message](create-message.md)).
 
 ![](assets/emails-configuration.png)
 
 >[!NOTE]
 >
->Les **[!UICONTROL e-mail]** et **[!UICONTROL nom]** sont en lecture seule et déterminés par le **[!UICONTROL paramètre prédéfini]** qui a été sélectionné lors de la création du [message](create-message.md).
+>L’**[!UICONTROL email de l’expéditeur]** et le **[!UICONTROL nom de l’expéditeur]** sont en lecture seule et déterminés par le **[!UICONTROL préréglage]** qui a été sélectionné lors de la [création du message](create-message.md).
 
-Pour configurer un courrier électronique, procédez comme suit :
+Les étapes pour configurer un email sont les suivantes :
 
-1. Spécifiez l&#39;**[!UICONTROL objet du courriel]**. Pour ce faire, cliquez sur le bouton à droite pour ouvrir l’éditeur d’Expressions et composer l’objet du courrier électronique. Découvrez comment ajouter la personnalisation dans [cette section](personalization/personalization-aeras.md)
+1. Spécifiez l&#39;**[!UICONTROL objet de l&#39;email]**. Pour ce faire, cliquez sur le bouton à droite pour ouvrir l’éditeur d’expression et composer l’objet de l&#39;email. Découvrez comment ajouter la personnalisation dans [cette section](personalization/personalization-aeras.md)
 
-1. Cliquez sur le bouton **[!UICONTROL E-mail Designer]** pour concevoir votre adresse électronique. Découvrez comment concevoir des courriers électroniques dans [cette section](design-emails.md)).
+1. Cliquez sur le bouton **[!UICONTROL Concepteur d’email]** pour concevoir votre email. Découvrez comment concevoir des emails dans [cette section](design-emails.md).
 
-1. Si vous souhaitez suivre le comportement de vos destinataires par le biais d’ouvertures et/ou de clics sur des liens, assurez-vous que les options **[!UICONTROL Ouvrir le suivi pour le courrier électronique]** et **[!UICONTROL Suivi des clics pour le courrier électronique]** sont activées. Pour en savoir plus sur le suivi, consultez [cette section](message-tracking.md).
+1. Si vous souhaitez suivre le comportement de vos destinataires par le biais d’ouvertures et/ou de clics sur des liens, assurez-vous que les options **[!UICONTROL Suivi des ouvertures des emails]** et **[!UICONTROL Suivi des clics des emails]** sont activées. En savoir plus sur les suivi dans [cette section](message-tracking.md).
