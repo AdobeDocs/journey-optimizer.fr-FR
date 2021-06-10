@@ -16,7 +16,7 @@ Découvrez les fonctionnalités de personnalisation de Parcours Optimier pour ad
 
 Journey Optimizer utilise une syntaxe de personnalisation simple **intégrée** basée sur des barres de contrôle, qui vous permet de créer des expressions avec du contenu encadré par des accolades doubles **{{}}**. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction. En savoir plus dans [Syntaxe de personnalisation](personalization-syntax.md).
 
-La personnalisation est basée sur les données de profil gérées par le schéma **Profil individuel XDM** défini dans Adobe Experience Platform. Pour plus d’informations à ce sujet, consultez la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+La personnalisation est basée sur les données de profil gérées par le schéma **Profil individuel XDM** défini dans Adobe Experience Platform. Pour plus d’informations à ce sujet, consultez la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 >[!CAUTION]
 >Le schéma **XDM Individual Profile** est le seul schéma que vous pouvez utiliser pour personnaliser le contenu dans Journey Optimizer.
