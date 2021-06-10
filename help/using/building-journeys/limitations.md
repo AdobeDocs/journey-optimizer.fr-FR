@@ -1,11 +1,10 @@
 ---
-title: Limites du parcours
-description: En savoir plus sur les restrictions de Parcours
-translation-type: tm+mt
+title: Limites de parcours
+description: En savoir plus sur les limites de parcours
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +12,11 @@ ht-degree: 70%
 
 ![](../assets/do-not-localize/badge.png)
 
-Voici les limites liées à l&#39;utilisation des parcours.
+Voici les limites liées à l’utilisation des parcours.
 
 ## Limites des listes de parcours
 
-* Dans la liste parcours, les filtres, les recherches et la sélection de colonnes sont réinitialisés lors de l’actualisation de la page.
+* Dans la liste de parcours, les filtres, les recherches et la sélection de colonnes sont réinitialisés lors de l’actualisation de la page.
 
 ## Limites des actions générales
 
@@ -25,11 +24,11 @@ Voici les limites liées à l&#39;utilisation des parcours.
 * En cas d’erreur, deux reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé. 
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié. 
 * Il n’y a pas d’intégration de produit avec Adobe Campaign Classic.
-* Vous ne pouvez pas placer deux actions en parallèle, vous devez les ajouter l’une après l’autre.
+* Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
 
-## Limitations des actions de message
+## Limites des actions de message
 
-* L&#39;activité **Message** ne vous permet pas d&#39;utiliser des données contextuelles provenant du parcours. La personnalisation des messages est effectuée directement lors de la conception du message dans Journey Optimizer.
+* L’activité **Message** ne vous permet pas d’utiliser des données contextuelles provenant du parcours. La personnalisation des messages est effectuée directement lors de la conception du message dans Journey Optimizer.
 
 * Lorsque vous ajoutez un message multicanal, deux messages sont envoyés.
 
@@ -40,21 +39,21 @@ Voici les limites liées à l&#39;utilisation des parcours.
 
 * Le segment et l’espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
-* Un parcours commençant par un **segment de lecture** ne peut pas se début avec un autre événement dans les versions suivantes.
+* Un parcours commençant par une **lecture de segment** ne peut pas commencer par un autre événement dans les versions suivantes.
  
 
 ## Limites des actions personnalisées
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
-* Le nom du paramètre de requête ou de l’en-tête ne doit pas commencer par « . » or &quot;$&quot;. 
+* Le nom du paramètre de requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
 
 ## Limites des événements
 
-* Pour les événements générés par le système, les données en flux continu utilisées pour lancer un parcours client doivent être configurées dans Journey Optimizer en premier pour obtenir un identifiant d’orchestration unique.Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
+* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
  
 
 ## Limites des sources de données
@@ -73,7 +72,7 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
 
-## Limitations des segments de lecture
+## Limites de lecture de segment
 
-* Il n’est pas possible de déclencher un parcours basé sur un segment dans une période plus courte que 1 heure.
-* Les segments en flux continu sont toujours à jour, mais les segments par lot ne sont pas calculés au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l&#39;évaluation quotidienne des lots.
+* Il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
+* Les segments diffusés en continu sont toujours à jour, mais les segments par lots ne sont pas calculés au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
