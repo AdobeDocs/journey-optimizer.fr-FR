@@ -1,11 +1,10 @@
 ---
 title: À propos des données Adobe Analytics
 description: Découvrez comment exploiter les données Adobe Analytics
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +24,10 @@ Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, 
 
 1. Sélectionnez la suite de rapports à activer, cliquez sur **[!UICONTROL Suivant]** et sur **[!UICONTROL Terminer]**.
 
-1. Partagez l’ID de données source avec votre point de contact de programme bêta.
+1. Partagez l’ID de données source avec votre point de contact de programme Bêta.
 
 Cela active le connecteur source Analytics pour cette suite de rapports. Chaque fois que des données entrent, elles sont transformées en événement d’expérience et envoyées dans Adobe Experience Platform.
 
 ![](../assets/jo-event9.png)
 
-Pour plus d’informations sur le connecteur source Adobe Analytics, consultez la [documentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) et le [didacticiel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Pour plus d’informations sur le connecteur source Adobe Analytics, consultez la [documentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) et le [tutoriel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr).
