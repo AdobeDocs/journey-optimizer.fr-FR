@@ -1,17 +1,16 @@
 ---
 title: Supprimer les décisions
-description: Une décision contient la logique qui sous-tend la sélection d’une offre.
-translation-type: tm+mt
+description: Une décision contient la logique sous-tendant la sélection d’une offre.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # Supprimer une décision
 
-Il peut parfois être nécessaire de supprimer (DELETE) une décision (précédemment connue sous le nom d&#39;activité d&#39;offre). Seules les décisions que vous créez dans le conteneur locataire peuvent être supprimées. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant le $id de l’offre de secours que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) une décision (auparavant « activité d’offre »). Seules les décisions que vous créez dans le conteneur du tenant peuvent être supprimées. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant le $id de l’offre de secours que vous souhaitez supprimer.
 
 **Format d’API**
 
@@ -41,4 +40,4 @@ curl -X DELETE \
 
 Une réponse réussie renvoie un statut HTTP 202 (Pas de contenu) et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’envoyer une demande de recherche (GET) à la décision. Vous devez inclure un en-tête Accepter dans la requête, mais vous devez recevoir un état HTTP 404 (Non trouvé) car la décision a été supprimée du conteneur.
+Vous pouvez confirmer la suppression en tentant d’exécuter une requête de recherche (GET) sur la décision. Vous devez inclure un en-tête Accepter dans la requête, mais vous devriez recevoir le statut HTTP 404 (Introuvable) car la décision a été supprimée du conteneur.
