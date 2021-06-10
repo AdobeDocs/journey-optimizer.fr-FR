@@ -12,33 +12,33 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/badge.png)
 
-La délivrabilité est une mesure de la réussite de vos diffusions vers les boîtes de réception de vos destinataires.
+La délivrabilité est une mesure du succès de vos diffusions atteignant les boîtes de réception de vos destinataires.
 
 **La délivrabilité des emails désigne l’ensemble des caractéristiques qui déterminent la capacité d’un message à atteindre sa destination, par l’intermédiaire d’une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.** Ces caractéristiques se répartissent dans quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Ensemble, elles forment la base d’un programme de délivrabilité des emails réussi.
 
 Le **taux de délivrabilité** correspond au nombre de messages qui ont atteint les boîtes de réception des destinataires comparé au nombre de messages délivrés. Il dépend de nombreux facteurs, notamment :
 
-* Plaintes pour courrier indésirable limitées
+* Plaintes contre le spam limitées
 * Taux de hard bounces faibles
 * Qualité des adresses ciblées
 * Contenu des messages
 * Réputation de l’expéditeur
 
-Pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], nous vous recommandons d’observer les bonnes pratiques répertoriées dans cette section. En règle générale, les problèmes sont liés à la protection contre le courrier indésirable mise en œuvre par les fournisseurs de services Internet (FAI) et les administrateurs de serveurs de messagerie.
+Pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], nous vous recommandons d’observer les bonnes pratiques répertoriées dans cette section. En règle générale, les problèmes de délivrabilité sont liés à la protection contre le spam mise en œuvre par les fournisseurs d’accès Internet (FAI) et les administrateurs de serveurs de messagerie.
 
 ## Réduire les taux de plainte {#reduce-complaint-rate}
 
-Les FAI disposent généralement d’un moyen important pour signaler un message reçu comme constituant du courrier indésirable. Cela permet d’identifier les sources non fiables. En répondant rapidement aux requêtes d’exclusion et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des exclusions](consent.md#opt-out-management).
+Les FAI disposent généralement d’un moyen important pour signaler un message reçu comme étant du spam. Cela permet d’identifier les sources non fiables. En répondant rapidement aux demandes d’opt-out et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des opt-out](consent.md#opt-out-management).
 
-Il est recommandé de ne pas empêcher les destinataires qui le souhaitent de s’exclure en les obligeant à remplir des champs tels que leur adresse email ou leur nom. La page d’entrée du formulaire de désinscription ne doit comporter qu’un seul bouton de validation.
+Il est recommandé de ne pas empêcher les destinataires qui le souhaitent de s’exclure en les obligeant à remplir des champs tels que leur adresse email ou leur nom. La landing page du formulaire de désinscription ne doit comporter qu’un seul bouton de validation.
 
 Redoublez d’attention lorsque vous demandez une confirmation supplémentaire : un utilisateur peut posséder deux adresses email redirigées vers la même boîte de réception (par exemple, prénom.nom@club.com et prénom.nom@internet-club.com). Si le profil est capable de se souvenir uniquement de la première adresse et souhaite se désinscrire via un message envoyé à l’autre, le formulaire refusera cette adresse car l’identifiant chiffré et l’adresse email saisie ne correspondront pas.
 
-## Exploiter les listes de suppression {#suppression-lists}
+## Utiliser les listes de suppression {#suppression-lists}
 
-[!DNL Journey Optimizer] gère une liste de suppression qui rassemble les plaintes pour courrier indésirable ainsi que les hard bounces et les soft bounces qui surviennent de manière systématique.
+[!DNL Journey Optimizer] gère une liste de suppression qui rassemble les plaintes contre le spam, les hard bounces et soft bounces qui surviennent de manière systématique.
 
-Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur la liste de suppression sont exclus par défaut de toute diffusion future, car un envoi à ces contacts pourrait nuire à votre réputation d’envoi.
+Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur la liste de suppression sont exclus par défaut de toute diffusion future. En effet, un envoi à ces contacts pourrait nuire à votre réputation d’envoi.
 
 [En savoir plus sur la liste](suppression-list.md) de suppression.
 
@@ -47,7 +47,7 @@ Pour protéger votre délivrabilité, les destinataires dont les adresses se tro
 Utilisez les outils proposés par [!DNL Journey Optimizer] pour surveiller votre délivrabilité.
 
 L’onglet **[!UICONTROL Exécutions]** de la liste de messages vous permet de vérifier les performances de vos diffusions au moyen d’un ensemble d’indicateurs en temps réel. Cet onglet affiche, entre autres :
-* Le nombre de messages exécutés, envoyés et remis avec succès.
+* Le nombre de messages exécutés, envoyés et délivrés avec succès.
 * Le nombre de messages ayant été ouverts et le nombre de messages/liens ayant fait l’objet d’un clic.
 
 [En savoir plus sur la surveillance de l’exécution des messages ](message-monitoring.md).
@@ -67,7 +67,7 @@ Pour améliorer votre taux de délivrabilité et vous assurer que vos emails att
 <!--* **Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).
 * **Personalize your email**: Personalizing the email increases the chances of your message being opened.
 * **Images and text**: Respect a decent text/image ratio (for example 60% text and 40% images).-->
-* **Lien de désinscription et page d’entrée** : le lien de désinscription est essentiel. Il doit être visible et valide et le formulaire doit fonctionner.
+* **Lien de désinscription et landing page** : le lien de désinscription est essentiel. Il doit être visible et valide, et le formulaire doit fonctionner.
 
 <!--**Use tools** offered by Journey Optimizer to optimize the content of your email (delivery analysis, anti-spam analysis).-->
 
