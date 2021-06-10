@@ -1,11 +1,10 @@
 ---
 title: Champs de récupération des données des événements journeyStep
 description: Champs de récupération des données des événements journeyStep
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +24,11 @@ Type : long
 
 ## fetchTypeInError
 
-Définit si l’erreur de récupération se trouve sur Adobe Experience Platform ou sur une source de données personnalisée.
+Définit si la récupération en erreur se trouve dans Adobe Experience Platform ou dans une source de données personnalisée.
 
-Type : Chaîne
+Type : chaîne
 
-Values:
+Valeurs :
 * aep
 * custom
 
@@ -37,9 +36,9 @@ Values:
 
 Type d’erreur se produisant lors du traitement de la récupération des données.
 
-Type : Chaîne
+Type : chaîne
 
-Valeurs :
+Valeurs :
 * http
 * capping
 * timedout
@@ -49,7 +48,7 @@ Valeurs :
 
 Code de l’erreur de récupération. Présent si l’erreur comporte un code, par exemple HTTP. Par exemple, si actionExecError contient http, le code 404 représente l’erreur HTTP 404.
 
-Type : Chaîne
+Type : chaîne
 
 ## fetchOriginError
 
@@ -69,13 +68,13 @@ Par exemple, les données sont extraites du service Profil unifié et une erreur
     "fetchOrigErrorCode": "500"
 ```
 
-Type : Chaîne
+Type : chaîne
 
 ## fetchOriginErrorCode
 
 Code d’erreur fourni par le système interrogé par [!DNL Journey Orchestration]. Il peut s’agir par exemple d’un code 404, 500, etc.
 
-Type : Chaîne
+Type : chaîne
 
 ## fetchCount
 
