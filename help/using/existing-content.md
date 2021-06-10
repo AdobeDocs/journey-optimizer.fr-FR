@@ -1,49 +1,48 @@
 ---
-title: Importer ou coder vos courriels
-description: Découvrez comment importer du contenu de courrier électronique ou coder vos courriers électroniques
-translation-type: tm+mt
+title: Importer ou coder vos e-mails
+description: Découvrez comment importer du contenu d'e-mail ou coder vos e-mails
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-# Importer ou coder votre contenu de courriel {#existing-content}
+# Importer ou coder votre contenu d&#39;e-mail {#existing-content}
 
 ![](assets/do-not-localize/badge.png)
 
-Journey Optimizer vous permet d’importer du contenu HTML existant pour concevoir vos courriels. Ce contenu peut être du code HTML brut ou du contenu provenant d’un fichier HTML existant ou d’un dossier zip.
+Journey Optimizer vous permet d’importer du contenu HTML existant pour concevoir vos e-mails. Ce contenu peut être du code HTML brut ou du contenu provenant d’un fichier HTML existant ou d’un dossier zip.
 
-Pour coder du contenu HTML ou importer du contenu existant, procédez comme suit :
+Pour coder du contenu HTML ou importer du contenu existant, procédez comme suit :
 
-1. [Créer un message](create-message.md)
+1. [Création d’un message](create-message.md)
 
-1. Ouvrez **[!UICONTROL Concepteur de courriers électroniques]** dans la section **[!UICONTROL Modifier le contenu]**.
+1. Ouvrez le **[!UICONTROL Concepteur d&#39;email]** dans la section **[!UICONTROL Modifier le contenu]**.
 
    ![](assets/import-html_1.png)
 
-1. Sélectionnez **[!UICONTROL Code votre propre]** ou **[!UICONTROL Importer HTML]**. Reportez-vous aux sections ci-dessous pour connaître les étapes suivantes.
+1. Sélectionnez **[!UICONTROL Coder votre propre contenu]** ou **[!UICONTROL Importer HTML]**. Reportez-vous aux sections ci-dessous pour connaître les étapes suivantes.
 
-## Code votre propre {#import-raw-html-code}
+## Coder votre propre contenu {#import-raw-html-code}
 
-Utilisez le mode **[!UICONTROL Code votre propre]** pour importer du code HTML brut et/ou coder votre contenu de courrier électronique. Cette méthode nécessite des compétences HTML.
+Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du code HTML brut et/ou coder votre contenu d&#39;e-mail. Cette méthode nécessite des compétences HTML.
 
 >[!CAUTION]
 >
-> Les images de [Adobe Experience Manager Assets Essentials](assets-essentials.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
+> Les images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
 
-1. Dans la page d&#39;accueil e-mail Designer, sélectionnez **[!UICONTROL Code votre propre]**.
+1. Dans la page d&#39;accueil du Concepteur d’email, sélectionnez **[!UICONTROL Coder votre propre contenu]**.
 
    ![](assets/code-your-own.png)
 
-1. Entrez ou collez votre code HTML brut.
+1. Saisissez ou collez votre code HTML brut.
 
 1. Utilisez le volet de gauche pour tirer parti des fonctionnalités de personnalisation [!DNL Journey Optimizer]. Voir à ce propos [cette section](personalization/personalize.md).
 
    ![](assets/code-editor.png)
 
-1. Si vous souhaitez ouvrir le concepteur de messagerie pour début votre courrier électronique à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu d’options.
+1. Si vous souhaitez ouvrir le Concepteur d’email pour commencer votre e-mail à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu d’options.
 
    ![](assets/code-editor-change-design.png)
 
@@ -56,25 +55,25 @@ Utilisez le mode **[!UICONTROL Code votre propre]** pour importer du code HTML b
    ![](assets/code-editor-save.png)
 
 
-## Importer du code HTML {#import-html-content-from-file}
+## Importer du contenu HTML {#import-html-content-from-file}
 
-Vous pouvez importer du contenu HTML dans le concepteur de messages électroniques. Ce contenu peut être :
+Vous pouvez importer du contenu HTML dans le Concepteur d’email. Ce contenu peut être :
 
 * Un **fichier HTML** avec une feuille de style incorporée,
-* Un dossier **.zip** avec le fichier HTML, la feuille de style (.css) et les images.
+* Un **dossier .zip** avec le fichier HTML, la feuille de style (.css) et les images.
 
    >[!NOTE]
    >
    >Il n’existe aucune contrainte sur la structure des fichiers .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip.
 
-Pour importer un fichier contenant du contenu HTML, procédez comme suit :
+Pour importer un fichier contenant du contenu HTML, procédez comme suit :
 
-1. Dans la page d&#39;accueil E-mail Designer, sélectionnez **[!UICONTROL Importer du code HTML]**.
+1. Dans la page d&#39;accueil du Concepteur d’email, sélectionnez **[!UICONTROL Importer du contenu HTML]**.
 
    ![](assets/import-html_2.png)
 
 1. Faites glisser et déposez le fichier HTML ou .zip contenant votre contenu HTML.
 
-1. Une fois le contenu HTML téléchargé, vous pouvez tirer parti des fonctions de Designer de messagerie pour modifier et prévisualisation votre courrier électronique. [En savoir plus dans cette section](create-email-content.md).
+1. Une fois le contenu HTML téléchargé, vous pouvez tirer parti des fonctions du Concepteur d’email pour modifier et prévisualiser votre e-mail. [En savoir plus dans cette section](create-email-content.md).
 
    ![](assets/html-imported.png)
