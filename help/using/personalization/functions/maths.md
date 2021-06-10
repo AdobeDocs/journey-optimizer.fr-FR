@@ -1,11 +1,10 @@
 ---
 title: Bibliothèque de fonctions
 description: Bibliothèque de fonctions
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 90%
 
 ![](../../assets/do-not-localize/badge.png)
 
-Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur les valeurs de [!DNL Profile Query Language] (PQL).
+Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur des valeurs dans [!DNL Profile Query Language] (PQL).
 
 ## Addition
 
