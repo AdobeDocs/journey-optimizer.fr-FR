@@ -46,11 +46,11 @@ Selon le statut du parcours, vous pouvez effectuer différentes actions à l’a
 
 ## Démarrage de votre parcours
 
-Lorsque vous concevez votre parcours, la première question à se poser est : comment les profils vont-ils entrer dans le parcours ? Il existe deux possibilités :
+Lorsque vous concevez votre parcours, la première question que vous devez vous poser est la suivante : comment les profils vont-ils rejoindre le parcours ? Il existe deux possibilités :
 
-**Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les particuliers entrent dans le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
+**Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-**Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, toutes les particuliers appartenant au segment spécifié entrent dans le parcours. Les messages inclus dans votre parcours sont envoyés aux particuliers appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
+**Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, tous les individus appartenant au segment spécifié rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
 
 ## Définir les étapes suivantes
 
@@ -62,9 +62,9 @@ Lorsque vous débutez votre parcours avec un événement, le parcours est décle
 
 Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu’ils utilisent le même espace de noms. Les événements sont configurés au préalable. [En savoir plus sur les événements](about-journey-activities.md#event-activities)
 
-Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d’envoyer un autre message si le particulier a ouvert le message précédent ou cliqué dessus. En savoir plus dans cette [section](reaction-events.md).
+Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d’envoyer un autre message si l’individu a ouvert le message précédent ou cliqué dessus. En savoir plus dans cette [section](reaction-events.md).
 
-L’activité d’événement **Qualification du segment**, vous permet de faire entrer des particuliers ou leur permettre de progresser dans un parcours en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire entrer tous les nouveaux clients argent dans un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
+L’activité d’événement **Qualification du segment** vous permet de faire en sorte que des individus rejoignent un parcours ou y progressent en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
 
 **Orchestration**
 
