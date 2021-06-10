@@ -2,11 +2,10 @@
 solution: Journey Orchestration
 title: À propos de la configuration des actions personnalisées
 description: Découvrez comment configurer une action personnalisée
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 94%
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 94%
 
 ![](../assets/do-not-localize/badge.png)
 
-Si vous utilisez un système tiers pour envoyer des messages ou si vous souhaitez que les parcours envoient des appels d&#39;API à un système tiers, vous devez configurer sa connexion aux parcours. L’action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [cette page](../building-journeys/about-journey-activities.md#action-activities). À titre d’exemple, Epsilon, Facebook, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à l’aide d’actions personnalisées.
+Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. L’action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [cette page](../building-journeys/about-journey-activities.md#action-activities). À titre d’exemple, Epsilon, Facebook, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à l’aide d’actions personnalisées.
 Les limites sont répertoriées dans [cette page](../building-journeys/limitations.md).
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
@@ -70,6 +69,10 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 Dans la section **[!UICONTROL Paramètres de message]**, collez un exemple de payload JSON à envoyer au service externe.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Les noms de champ de la payload ne peuvent pas contenir de &quot;.&quot; caractère « ? » supplémentaire.
 
 Vous aurez la possibilité de définir le type de paramètre (par exemple : string, integer, etc.).
 
