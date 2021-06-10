@@ -1,17 +1,16 @@
 ---
 title: Créer des décisions
-description: Une décision contient la logique qui sous-tend la sélection d’une offre.
-translation-type: tm+mt
+description: Une décision contient la logique sous-tendant la sélection d’une offre.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # Créer une décision
 
-Vous pouvez créer une décision (précédemment appelée activité d&#39;offre) en adressant une demande de POST à l&#39;API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
+Vous pouvez créer une décision (auparavant « activité d’offre ») en exécutant une requête POST sur l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 
 ## En-têtes Accepter et Type de contenu
 
@@ -65,7 +64,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son identifiant d&#39;instance unique et son emplacement `@id`. Vous pouvez utiliser l’ID d’instance dans les étapes suivantes pour mettre à jour ou supprimer votre décision.
+Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre décision.
 
 ```json
 {
