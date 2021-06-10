@@ -1,11 +1,10 @@
 ---
 title: Création de placements
 description: Découvrez comment créer des emplacements dans Adobe Experience Platform.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ Dans l’exemple ci-dessous, trois emplacements correspondent à différents typ
 
 ![](../../assets/offers_placement_schema.png)
 
-La liste des placements est accessible dans le menu **[!UICONTROL Composants]**. Des filtres sont disponibles pour vous aider à récupérer des emplacements en fonction d’un canal ou d’un contenu spécifique.
+La liste des emplacements est accessible dans le menu **[!UICONTROL Composants]**. Des filtres sont disponibles pour vous aider à récupérer des emplacements en fonction d’un canal ou d’un contenu spécifique.
 
 ![](../../assets/placements_filter.png)
 
@@ -48,6 +47,6 @@ Pour créer une emplacement, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service d’applications d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, il fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Elle fournit toutefois des instructions générales sur l’utilisation d’Offer Decisioning dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
