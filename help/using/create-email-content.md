@@ -1,87 +1,86 @@
 ---
-title: Créer des courriels à Journey Optimizer
-description: Découvrez comment concevoir le contenu de vos courriels
-translation-type: tm+mt
+title: Créer des emails dans Journey Optimizer
+description: Découvrez comment concevoir le contenu de vos emails
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1570'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
-# Concevez votre contenu de courrier électronique dans l&#39;interface utilisateur {#create-email-content}
+# Concevoir le contenu de vos emails dans l’interface utilisateur {#create-email-content}
 
 ![](assets/do-not-localize/badge.png)
 
-Une fois [créé votre message](create-message.md), vous pouvez début à créer votre contenu de courrier électronique.
+Une fois que vous avez [créé votre message](create-message.md), vous pouvez commencer à créer le contenu de votre email.
 
-1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur de messages électroniques]** dans la section **[!UICONTROL Modifier le contenu]**.
+1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur d’email]** dans la section **[!UICONTROL Modifier le contenu]**.
 
    ![](assets/import-html_1.png)
 
-1. Dans la page d&#39;accueil E-mail Designer, choisissez la manière de concevoir votre courrier électronique à l’aide des options suivantes :
+1. Dans la page d’accueil du Concepteur d’email, choisissez la manière de concevoir votre email à l’aide des options suivantes :
 
-   * Sélectionnez **[!UICONTROL Créer à partir de zéro]** pour utiliser les fonctionnalités de concepteur de courrier électronique pour créer votre contenu de courrier électronique.
+   * Sélectionnez **[!UICONTROL Créer en partant de zéro]** pour utiliser les fonctionnalités du Concepteur d’email afin de créer le contenu de votre email.
 
-   * Sélectionnez **[!UICONTROL Début à partir du modèle]** pour créer votre courrier électronique à partir d’une liste de modèles intégrée. Notez que vous ne pouvez pas créer d’autres modèles.
+   * Sélectionnez **[!UICONTROL Démarrer à partir d’un modèle]** pour créer votre email à partir d’une liste intégrée de modèles. Notez que vous ne pouvez pas créer d’autres modèles.
 
-   * Sélectionnez **[!UICONTROL Code votre propre]** pour entrer ou coller du code HTML brut. [En savoir plus](existing-content.md#import-raw-html-code).
+   * Sélectionnez **[!UICONTROL Coder le vôtre]** pour saisir ou coller du code HTML brut. [En savoir plus](existing-content.md#import-raw-html-code).
 
-   * Sélectionnez **[!UICONTROL Importer HTML]** pour importer un fichier HTML ou un dossier .zip. [En savoir plus](existing-content.md#import-html-content-from-file).
+   * Sélectionnez **[!UICONTROL Importer un fichier HTML]** pour importer un fichier HTML ou un dossier .zip. [En savoir plus](existing-content.md#import-html-content-from-file).
 
    ![](assets/email_designer_25.png)
 
-## Créer à partir de zéro
+## Créer en partant de zéro
 
-Pour début de la création de votre contenu de courrier électronique avec le concepteur de courrier électronique, procédez comme suit :
+Pour commencer à créer le contenu de votre email avec le Concepteur d’email, procédez comme suit :
 
-1. Après avoir sélectionné l&#39;option **[!UICONTROL Concevoir à partir de zéro]**, début de concevoir le contenu de votre courrier électronique en faisant glisser et en déposant les **[!UICONTROL composants de structure]** pour définir la disposition de votre courrier électronique.
+1. Après avoir sélectionné l’option **[!UICONTROL Créer en partant de zéro]**, commencez à concevoir le contenu de votre email en faisant glisser et en déposant les **[!UICONTROL Composants de structure]** pour définir la disposition de votre email.
 
    ![](assets/email_designer_2.png)
 
-1. Dans la liste déroulante **[!UICONTROL Composants de contenu]**, vous pouvez ajouter autant de **[!UICONTROL composants de contenu]** que nécessaire dans votre composant de structure. [En savoir plus sur les composants](content-components.md) de contenu.
+1. Dans la liste déroulante **[!UICONTROL Composants du contenu]**, vous pouvez ajouter autant de **[!UICONTROL Composants de contenu]** que nécessaire dans votre composant de structure. [En savoir plus sur les composants de contenu](content-components.md).
 
    ![](assets/email_designer_3.png)
 
-1. Chaque composant peut être personnalisé avec la section **[!UICONTROL Paramètres du composant]**. Par exemple, vous pouvez modifier le style de texte, le remplissage ou la marge de votre composant. [En savoir plus sur les styles dans l’éditeur](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html) de courrier électronique.
+1. Chaque composant peut être davantage personnalisé via la section **[!UICONTROL Paramètres des composants]**. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de votre composant. [En savoir plus sur les styles dans l’éditeur d’email](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html?lang=fr).
 
    ![](assets/email_designer_4.png)
 
-1. A partir du sélecteur **[!UICONTROL Ressources]**, vous pouvez ajouter directement à votre adresse électronique des ressources stockées dans la **[!UICONTROL bibliothèque de ressources]**. [En savoir plus sur la gestion](assets-essentials.md) des ressources.
+1. À partir du **[!UICONTROL sélecteur de ressources]**, vous pouvez ajouter directement à votre adresse email des ressources stockées dans la **[!UICONTROL bibliothèque de ressources]**. [En savoir plus sur la gestion des ressources](assets-essentials.md).
 
-   Cliquez avec le doublon sur le dossier contenant vos ressources et faites glisser et déposez la ressource que vous souhaitez ajouter à votre courrier électronique.
+   Double-cliquez sur le dossier contenant vos ressources, puis faites glisser et déposez la ressource que vous souhaitez ajouter à votre email.
 
    ![](assets/email_designer_5.png)
 
-1. Ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation](personalization/personalize.md) du contenu.
+1. Ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Liens]** du volet de gauche, vérifiez la liste de toutes les URL de votre contenu qui seront suivies. Si nécessaire, vous pouvez modifier leurs **[!UICONTROL Type de suivi]**, **[!UICONTROL Étiquette]** et **[!UICONTROL Balises]**.
+1. Dans l’onglet **[!UICONTROL Liens]** du volet de gauche, vérifiez la liste de toutes les URL de votre contenu qui feront l’objet d’un suivi. Si nécessaire, vous pouvez modifier leur **[!UICONTROL Type de tracking]**, leur **[!UICONTROL Libellé]** et leurs **[!UICONTROL Balises]**.
 
    ![](assets/email_designer_7.png)
 
-1. Si nécessaire, vous pouvez passer à l’éditeur de code pour personnaliser davantage votre courrier électronique en cliquant sur **[!UICONTROL Passer à l’éditeur de code]** dans le menu avancé. Pour plus d&#39;informations sur l&#39;éditeur de code, consultez cette [page](existing-content.md#import-raw-html-code).
+1. Au besoin, vous pouvez passer à l’éditeur de code pour personnaliser davantage votre email en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Pour plus d’informations sur l’éditeur de code, consultez [cette page](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
    >
-   >Vous ne pourrez pas utiliser le concepteur visuel pour ce courrier électronique après avoir basculé vers l’éditeur de code.
+   >Vous ne pourrez pas utiliser le concepteur visuel pour cet email après avoir basculé vers l’éditeur de code.
 
    ![](assets/email_designer_26.png)
 
-1. Cliquez sur **[!UICONTROL Prévisualisation]** pour vérifier le rendu de votre courrier électronique. Vous pouvez choisir l’ordinateur de bureau ou la vue mobile.
+1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier le rendu de votre email. Vous pouvez choisir la vue bureau ou la vue mobile.
 
    ![](assets/email_designer_8.png)
 
-1. Lorsque votre adresse électronique est prête, cliquez sur **[!UICONTROL Enregistrer et fermer]**.
+1. Lorsque votre email est prêt, cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
-Le contenu de votre courrier électronique peut désormais être utilisé dans un message. [Découvrez comment envoyer un message](publish-manage-message.md).
+Le contenu de votre email peut maintenant être utilisé dans un message. [Découvrez comment envoyer un message](publish-manage-message.md).
 
-## Définir la structure de courriel {#defining-the-email-structure}
+## Définir la structure d’un email {#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="À propos des composants Structure"
+>title="À propos des composants de structure"
 >abstract="Les composants de structure définissent la disposition de votre email."
 
 >[!CONTEXTUALHELP]
@@ -95,7 +94,7 @@ Pour éditer la structure d’un email :
 
 1. Ouvrez un contenu existant ou créez un contenu d’email.
 1. Accédez aux **[!UICONTROL Composants de structure]** en sélectionnant l’icône **+** de gauche.
-1. Faites glisser et déposez les composants de structure dont vous avez besoin pour façonner votre courrier électronique.
+1. Faites glisser et déposez les composants de structure dont vous avez besoin pour donner forme à votre email.
 Une ligne bleue matérialise la position exacte des composants de structure avant de les déposer. Vous pouvez placer vos composants au-dessus, entre ou sous n’importe quel composant, mais pas à l’intérieur.
 
    >[!NOTE]
@@ -106,74 +105,74 @@ Une ligne bleue matérialise la position exacte des composants de structure avan
 
 1. Plusieurs composants de structure constitués d’une ou de plusieurs colonnes sont disponibles.
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches au bas de chaque colonne.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches situées en bas de chaque colonne.
 
    >[!NOTE]
    >
    >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n’est pas vide.
 
-Une fois la structure définie, vous pouvez ajouter des fragments de contenu et des composants à votre courrier électronique.
+Une fois la structure définie, vous pouvez ajouter des fragments et des composants de contenu à votre email.
 
-## Utiliser un préen-tête {#preheader}
+## Utiliser un pré-titre {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Utilisation d’un pré-titre "
->abstract="Le préen-tête vous permet de configurer un texte de résumé court qui peut vous aider à mieux suivre et personnaliser vos courriels."
+>title="Utilisation d’un pré-titre"
+>abstract="Le pré-titre vous permet de configurer un texte de résumé court vous aidant à mieux suivre et personnaliser vos emails."
 
-Un préen-tête est un texte de résumé court qui suit la ligne d’objet lors de l’affichage d’un courrier électronique à partir de votre client de messagerie. Le préen-tête peut vous aider à mieux suivre et personnaliser vos courriels.
+Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Il peut vous aider à mieux suivre et personnaliser vos emails.
 
-Sélectionnez la zone de modification **[!UICONTROL Préen-tête]** et ajoutez du contenu.
+Sélectionnez la zone de modification **[!UICONTROL Pré-titre]** et ajoutez du contenu.
 
-Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL champ de personnalisation]** dans le contenu du pré-titre.
+Vous pouvez ajouter un **[!UICONTROL Bloc de contenu]**, un **[!UICONTROL Contenu dynamique]** ou un **[!UICONTROL Champ de personnalisation]** dans le contenu du pré-titre.
 
 >[!NOTE]
 >
->Notez que les en-têtes d’entrée ne sont pas compatibles avec tous les clients de messagerie. Si ce n’est pas le cas, le préen-tête ne s’affiche pas.
+>Notez que les pré-titres ne sont pas compatibles avec tous les clients de messagerie. S’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
 
 ## Paramètres d’arrière-plan {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Paramètres d’arrière-plan"
->abstract="Le concepteur de courrier électronique vous permet de personnaliser la couleur d&#39;arrière-plan ou l&#39;image d&#39;arrière-plan de votre contenu.Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
+>abstract="Le Concepteur d’email vous permet de personnaliser la couleur ou l’image de fond de votre contenu. Notez que l’image de fond n’est pas prise en charge par tous les clients de messagerie."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Informations supplémentaires"
 
-Lorsqu’il s’agit de définir des arrière-plans avec le concepteur de courrier électronique, l’Adobe recommande ce qui suit :
+Lorsqu’il s’agit de définir des arrière-plans avec le Concepteur d’email, Adobe recommande ce qui suit :
 
-1. Appliquez une couleur d’arrière-plan au corps de votre courrier électronique, si votre conception l’exige.
-1. Dans la plupart des cas, définissez les couleurs d’arrière-plan au niveau de la colonne.
-1. Essayez de ne pas utiliser de couleurs d’arrière-plan sur les composants d’image ou de texte, car ils sont difficiles à gérer.
+1. Appliquez une couleur de fond au corps de votre email, si votre conception l’exige.
+1. Dans la plupart des cas, définissez les couleurs de fond au niveau de la colonne.
+1. Essayez de ne pas utiliser de couleurs de fond sur les composants d’image ou de texte, car ceux-ci sont difficiles à gérer.
 
-Vous trouverez ci-dessous les paramètres d’arrière-plan disponibles que vous pouvez utiliser.
+Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez utiliser.
 
 * Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
 
-* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un autre paramètre dans la couleur d’arrière-plan.
+* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un autre paramètre dans la couleur de fond.
 
-* Définissez une couleur d’arrière-plan différente pour chaque composant de structure. Sélectionnez une structure dans l&#39;arborescence de navigation accessible à partir de la palette de gauche pour appliquer une couleur d&#39;arrière-plan spécifique uniquement à cette structure.
+* Définissez une couleur de fond différente pour chaque composant de structure. Sélectionnez une structure dans l’arborescence de navigation accessible via la palette de gauche pour n’appliquer une couleur de fond spécifique qu’à cette structure.
 
-   Veillez à ne pas définir de couleur d’arrière-plan de fenêtre d’affichage, car elle peut masquer les couleurs d’arrière-plan de la structure.
+   Veillez à ne pas définir de couleur de fond de fenêtre, car celle-ci pourrait cacher les couleurs de fond de la structure.
 
 * Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
 
    >[!NOTE]
    >
-   >Certains programmes électroniques ne prennent pas en charge les images d’arrière-plan. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Veillez à sélectionner une couleur d’arrière-plan de secours appropriée au cas où l’image ne s’afficherait pas.
+   >Certaines messageries ne prennent pas en charge les images de fond. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Veillez à sélectionner une couleur de fond de secours appropriée au cas où l’image ne s’afficherait pas.
 
-* Définissez une couleur d’arrière-plan au niveau de la colonne.
+* Définissez une couleur de fond au niveau de la colonne.
 
    >[!NOTE]
    >
-   >Il s’agit du cas d’utilisation le plus courant. L’Adobe recommande de définir les couleurs d’arrière-plan au niveau de la colonne, ce qui offre une plus grande souplesse lors de la modification de l’ensemble du contenu du courrier électronique.
+   >Il s’agit du cas pratique le plus courant. Adobe recommande de définir les couleurs de fond au niveau de la colonne, car cela donne une plus grande flexibilité lors de la modification du contenu entier de l’email.
 
-   Vous pouvez également définir une image d’arrière-plan au niveau de la colonne, mais elle est rarement utilisée.
+   Vous pouvez également définir une image de fond au niveau de la colonne, mais ce scénario est rare.
 
-### Exemple : ajuster l’alignement vertical et le remplissage {#example--adjusting-vertical-alignment-and-padding}
+### Exemple : ajuster l’alignement vertical et la marge intérieure {#example--adjusting-vertical-alignment-and-padding}
 
 Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
 
-1. Sélectionnez le composant de structure directement dans le courrier électronique ou utilisez l&#39;arborescence de structure disponible à partir de la palette **gauche**.
+1. Sélectionnez le composant de structure directement dans l’email ou à l’aide de l’arborescence de structure disponible dans la **palette** de gauche.
 1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l&#39;arborescence.
 
    Les paramètres éditables pour cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]** situé à droite.
@@ -182,11 +181,11 @@ Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#3
 
    Le composant de contenu s&#39;affiche au-dessus de la colonne.
 
-1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l&#39;intérieur de la colonne. Cliquez sur l’icône de verrouillage pour interrompre la synchronisation avec le remplissage inférieur.
+1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l&#39;intérieur de la colonne. Cliquez sur l’icône de verrou pour interrompre la synchronisation avec la marge intérieure inférieure.
 
-   Définissez les marges de gauche et de droite pour cette colonne.
+   Définissez la marge intérieure gauche et droite de cette colonne.
 
-1. Procédez de la même façon pour ajuster l&#39;alignement et le remplissage des autres colonnes.
+1. Procédez de la même façon pour ajuster l’alignement et la marge intérieure des autres colonnes.
 
 1. Enregistrez vos modifications.
 
@@ -206,29 +205,29 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Enregistrez vos modifications.
 
-## Ajouter les attributs de style en ligne {#adding-inline-styling-attributes}
+## Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
 
-Dans l’interface de Designer de messagerie, lorsque vous sélectionnez un élément et affichez ses paramètres sur le panneau latéral, vous pouvez personnaliser les attributs insérés et leur valeur pour cet élément spécifique.
+Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élément et en affichez les paramètres dans le panneau latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
 1. Sélectionnez un élément de votre contenu.
 1. Sur le panneau latéral, recherchez les paramètres de **[!UICONTROL styles intégrés]**.
 
-1. Modifiez les valeurs des attributs existants ou ajoutez-en de nouveaux à l’aide du bouton **+**. Vous pouvez ajouter n’importe quel attribut et valeur compatible CSS.
+1. Modifiez les valeurs des attributs existants ou ajoutez de nouveaux attributs à l’aide du bouton **+**. Vous pouvez ajouter un attribut et une valeur quelconques compatibles avec la feuille CSS.
 
-La mise en forme est ensuite appliquée à l’élément sélectionné. Si aucun attribut de style spécifique n’est défini pour les éléments enfants, la mise en forme de l’élément parent est héritée.
+Le style est ensuite appliqué à l’élément sélectionné. Si aucun attribut de style spécifique n’est défini pour les éléments enfants, le style de l’élément parent est hérité.
 
 
-## Créer la version textuelle d’un courrier électronique {#generate-text-version}
+## Créer la version texte d’un email {#generate-text-version}
 
-Il est recommandé de créer une version textuelle de votre corps de courrier électronique, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
+Il est recommandé de créer une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
-Par défaut, le concepteur de courrier électronique crée une version de **[!UICONTROL texte simple]** de votre courrier électronique, y compris des champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
+Par défaut, le Concepteur d’email crée une version en **[!UICONTROL texte brut]** de votre email, y compris des champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
 
-Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
+Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
 
-1. Dans votre courrier électronique, sélectionnez l&#39;onglet **[!UICONTROL Texte simple]**.
+1. Dans votre email, sélectionnez l’onglet **[!UICONTROL Texte brut]**.
 
-1. Utilisez la bascule **[!UICONTROL Synchroniser avec HTML]** pour désactiver la synchronisation.
+1. Utilisez le bouton bascule **[!UICONTROL Synchroniser avec le code HTML]** pour désactiver la synchronisation.
 
    ![](assets/text_version_1.png)
 
@@ -236,14 +235,14 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 
    ![](assets/text_version_2.png)
 
-1. Vous pouvez ensuite éditer la version en texte brut comme vous le souhaitez.
+1. Vous pouvez ensuite modifier la version en texte brut comme vous le souhaitez.
 
 >[!CAUTION]
 >
->* Les modifications apportées à la vue **[!UICONTROL Texte simple]** ne sont pas reflétées dans la vue HTML.
+>* Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne sont pas reflétées dans la vue HTML.
    >
    >
-* Si vous réactivez l’option **[!UICONTROL Synchroniser avec HTML]** après la mise à jour de votre contenu de texte brut, vos modifications seront perdues et remplacées par du contenu de texte généré à partir de la version HTML.
+* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
 
 >
 
