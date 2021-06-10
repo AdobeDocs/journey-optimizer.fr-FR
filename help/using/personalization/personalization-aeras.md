@@ -1,6 +1,6 @@
 ---
 title: Contextes de personnalisation dans Journey Optimizer
-description: Découvrez dans quels contextes vous pouvez ajouter la personnalisation.
+description: Découvrez dans quels contextes vous pouvez ajouter une personnalisation.
 source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '446'
@@ -61,9 +61,9 @@ Dans l’interface de l’éditeur d’expression, vous sélectionnez, organisez
 La partie gauche de l’écran affiche un sélecteur de domaine qui vous permet de sélectionner la source en vue de la personnalisation.
 
 * **Profil** : répertorie toutes les références associées au schéma de profil décrit dans la [ documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
-* **Appartenance à un segment** : répertorie tous les segments créés dans le service Adobe Experience Platform Segmentation. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en) plus d’informations sur la segmentation
+* **Appartenance à un segment** : répertorie tous les segments créés dans le service Adobe Experience Platform Segmentation. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr) plus d’informations sur la segmentation
 * **Offres** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md)
-* **Contexte**  : lorsque l&#39;activité  **** Messagerie est utilisée dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. Consultez [cette section](personalization-use-case.md)
+* **Contexte**  : lorsque l&#39;activité  **** Messagerie est utilisée dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. Reportez-vous à [cette section](personalization-use-case.md)
 * **Fonctions**  d’assistance : répertorie toutes les fonctions d’assistance disponibles pour effectuer des opérations sur les données, telles que les calculs, le formatage ou les conversions des données, les conditions et les manipuler dans le contexte de la personnalisation. [En savoir plus](functions/functions.md)
 
 
