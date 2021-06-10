@@ -1,9 +1,8 @@
 ---
 title: Champs d’exécution d’action des événements journeyStep
 description: Champs d’exécution d’action des événements journeyStep
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
 ht-degree: 100%
 
@@ -21,19 +20,19 @@ Si l’étape comporte une action à traiter, ces champs sont ajoutés à la pay
 
 ID de l’action en cours d’exécution.
 
-Type : Chaîne
+Type : chaîne
 
 ## actionName
 
 Nom de l’action Si aucun nom n’a été défini, stepName est exécuté.
 
-Type : Chaîne
+Type : chaîne
 
 ## actionType
 
 Type de l’action.
 
-Type : Chaîne
+Type : chaîne
 
 ## actionParameterized
 
@@ -51,9 +50,9 @@ Type : long
 
 Type d’erreur se produisant lors de l’appel de l’action.
 
-Type : Chaîne
+Type : chaîne
 
-Values:
+Valeurs :
 * http
 * capping
 * timeout
@@ -63,7 +62,7 @@ Values:
 
 Code d’erreur d’exécution d’action. Présent si l’erreur comporte un code, par exemple HTTP.
 
-Type : Chaîne
+Type : chaîne
 
 ## actionExecutionOriginError
 
@@ -85,19 +84,19 @@ Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de 
     "actionExecOrigErrorCode": "500"
 ```
 
-Type : Chaîne
+Type : chaîne
 
 ## actionExecutionOriginCode
 
 Code d’erreur d’actionExecOrigError.
 
-Type : Chaîne
+Type : chaîne
 
 ## actionBusinessType
 
 Indique le type d’action.
 
-Valeurs :
+Valeurs :
 
 * builtin
 * ACS E-mail
@@ -107,19 +106,19 @@ Valeurs :
 * Epsilon
 * ...
 
-Type : Chaîne
+Type : chaîne
 
 ## deliveryJobID
 
 Cette section décrit l’ID de traitement de diffusion pour le parcours par lot.
 
-Type : Chaîne
+Type : chaîne
 
 ## batchDeliveryID
 
 Cette section décrit l’ID de diffusion pour le parcours par lot.
 
-Type : Chaîne
+Type : chaîne
 
 ## fromSegmentTrigger
 
