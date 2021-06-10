@@ -1,11 +1,10 @@
 ---
 title: Test du parcours
 description: En savoir plus sur le test d’un parcours
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1609'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +52,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
-* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode d&#39;essai doit vérifier si une personne qui entre dans le parcours est un profil d&#39;essai ou non et doit donc être en mesure d&#39;atteindre Adobe Experience Platform.
+* Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant rejoindre un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi les rapports.
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
@@ -61,13 +60,13 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Déclenchement d’événements {#firing_events}
 
-Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera entrer une personne dans le parcours.
+Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera qu’un individu rejoint le parcours.
 
 >[!NOTE]
 >
 >Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
 
-Pour cela, vous devez savoir quels profils sont marqués comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse e-mail, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant de profil**.
+Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse e-mail, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant de profil**.
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
@@ -99,11 +98,11 @@ Lors du déclenchement d’un événement, l’écran de **configuration de l’
 
 Pour plus d’informations sur l’utilisation du mode test, consultez [cette page](../building-journeys/testing-the-journey.md).
 
-## Mode de test pour les événements métier {#test-business}
+## Mode test pour événements métier {#test-business}
 
-Lors de l&#39;utilisation d&#39;un événement de fonctionnement (voir [cette section](../event/about-events.md)), le mode test vous permet de déclencher une seule entrée de profil de test dans le parcours, de simuler le événement et de transmettre l&#39;ID de profil approprié. Vous devez transmettre les paramètres de événement et l&#39;identifiant du profil de test qui va entrer le parcours dans le test. Vous ne pouvez pas utiliser l&#39;option **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** qui existe pour d&#39;autres parcours basés sur les segments. En mode test, aucun mode &quot;vue de code&quot; n’est disponible pour les parcours en fonction des événements d’entreprise.
+Lors de l&#39;utilisation d&#39;un événement métier (voir [cette section](../event/about-events.md)), le mode test vous permet de déclencher une seule entrée de profil de test dans le parcours, de simuler le événement et de transmettre l&#39;identifiant de profil approprié. Vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. Vous ne pouvez pas utiliser l&#39;option **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** qui existe pour d&#39;autres parcours basés sur les segments. En mode test, aucun mode « Affichage du code » n’est disponible pour les parcours en fonction des événements métier.
 
-Notez que lorsque vous déclenchez pour la première fois un événement métier, vous ne pouvez pas modifier la définition du événement métier dans la même session de test. Vous pouvez uniquement faire entrer le même individu ou un autre individu dans le parcours en transmettant le même identifiant ou un autre identifiant. Si vous souhaitez modifier les paramètres du événement métier, vous devez arrêter et début à nouveau le mode de test.
+Notez que lorsque vous déclenchez pour la première fois un événement métier, vous ne pouvez pas modifier la définition de l&#39;événement métier dans la même session de test. Vous pouvez uniquement faire en sorte qu’un même individu ou qu’un autre individu rejoigne le parcours en transmettant le même identifiant ou un autre identifiant. Si vous souhaitez modifier les paramètres de l&#39;événement métier, vous devez arrêter et démarrer à nouveau le mode test.
 
 ## Affichage des journaux {#viewing_logs}
 
