@@ -1,21 +1,20 @@
 ---
 title: Accès aux champs XDM des événements
 description: En savoir plus sur le schéma XDM DecisioningEvents.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Accès aux champs XDM des événements{#decisioningevents-xdm-schema}
 
-Vous pouvez accéder au schéma XDM des événements de prise de décision directement à partir d’un jeu de données contenant des événements de gestion des décisions.
+Vous pouvez accéder au schéma XDM DecisioningEvents directement à partir d’un jeu de données contenant des événements Decision Management.
 
 ![](../../assets/access-schema.png)
 
-Le schéma contient tous les champs nécessaires pour envoyer des informations de la gestion des décisions à Adobe Experience Platform.
+Le schéma contient tous les champs nécessaires pour envoyer des informations de Decision Management vers Adobe Experience Platform.
 
 Pour obtenir plus d’informations sur un champ spécifique, sélectionnez-le afin d’afficher un volet d’informations contenant les propriétés du champ.
 
