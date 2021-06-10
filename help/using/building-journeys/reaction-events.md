@@ -1,11 +1,10 @@
 ---
 title: Événements de réaction
 description: En savoir plus sur les événements de réaction
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +12,11 @@ ht-degree: 75%
 
 ![](../assets/do-not-localize/badge.png)
 
-Parmi les différentes activités d’événement disponibles dans la palette, vous trouverez l’événement **[!UICONTROL Réactions]** intégré. Cette activité vous permet de réagir au suivi des données liées à un message envoyé dans le même parcours. Nous capturons ces informations en temps réel au moment où elles sont partagées avec Adobe Experience Platform. Dans le cas des notifications push, vous pouvez réagir aux messages envoyés, aux messages en échec et à ceux sur lesquels un utilisateur a cliqué. Pour les SMS, vous pouvez réagir aux messages envoyés ou en échec. Dans le cas des e-mails, vous pouvez réagir aux messages envoyés, ouverts et en échec, ainsi qu’à ceux sur lesquels un utilisateur a cliqué.
+Parmi les différentes activités d’événement disponibles dans la palette, vous trouverez l’événement **[!UICONTROL Réactions]** intégré. Cette activité vous permet de réagir aux données de suivi liées à un message envoyé au sein du même parcours. Ces données sont collectées en temps réel au moment de leur partage avec Adobe Experience Platform. Dans le cas des notifications push, vous pouvez réagir aux messages envoyés, aux messages en échec et à ceux sur lesquels un utilisateur a cliqué. Pour les SMS, vous pouvez réagir aux messages envoyés ou en échec. Dans le cas des e-mails, vous pouvez réagir aux messages envoyés, ouverts et en échec, ainsi qu’à ceux sur lesquels un utilisateur a cliqué.
 
 Vous pouvez également utiliser ce mécanisme pour effectuer une action en l’absence de réaction à vos messages. Pour ce faire, créez un deuxième chemin parallèlement à l’activité de réaction et ajoutez une activité d’attente. En l’absence de réaction au cours de la période définie dans l’activité d’attente, ce deuxième chemin sera choisi. Vous pouvez opter, par exemple, pour l’envoi d’un message de relance.
 
-Notez que vous ne pouvez utiliser une activité de réaction dans la trame que si une activité **Message** est antérieure.
+Notez que vous ne pouvez utiliser une activité de réaction dans la zone de travail que s’il existe au préalable une activité **Message**.
 
 Voir [À propos des activités d’action](../building-journeys/about-journey-activities.md#action-activities).
 
@@ -35,7 +34,7 @@ La procédure de configuration des événements de réaction comprend les étape
 >
 >Les événements de réaction ne peuvent pas suivre les messages qui se produisent dans un autre parcours.
 >
->Les événements de réaction effectuent le suivi des clics sur les liens de type &quot;suivi&quot;. Les liens de désabonnement et de page miroir ne sont pas pris en compte.
+>Ils effectuent le suivi des clics sur les liens de type « suivi ». Les liens de désabonnement et de page miroir ne sont pas pris en compte.
 
 >[!IMPORTANT]
 >
