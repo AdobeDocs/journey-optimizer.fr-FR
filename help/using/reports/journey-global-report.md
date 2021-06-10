@@ -19,7 +19,7 @@ Vous pouvez accéder directement au rapport global de parcours à partir de votr
 La page **[!UICONTROL Rapport global]** du parcours s’affiche avec les onglets suivants :
 
 * [Parcours](#journey-global)
-* [E-mail](#email-global)
+* [Email](#email-global)
 * [Push](#push-global)
 
 Le rapport **[!UICONTROL global]** de parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d’informations à ce propos, consultez cette [section](global-report.md#modify-dashboard).
@@ -30,11 +30,11 @@ Le rapport **[!UICONTROL global]** de parcours est divisé en différents widget
 
 ![](../assets/global_report_2.png)
 
-Le widget **[!UICONTROL Performance du parcours]** vous permet de voir le chemin de vos profils ciblés pas à pas tout au long du parcours.
+Le widget **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement de vos profils ciblés pas à pas tout au long du parcours.
 
-Le widget **[!UICONTROL Statistiques du parcours]** affiche les IPC suivants :
+Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
-* **[!UICONTROL Profil entrés]** : nombre total de particuliers ayant atteint l’événement d’entrée du parcours.
+* **[!UICONTROL Profils entrés]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 
 * **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours.
 
@@ -98,7 +98,7 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données dis
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
-* **[!UICONTROL Hard bounces]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Cela implique un message d’erreur qui indique explicitement que l’adresse n’est pas valide, tel que Utilisateur inconnu.
+* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Un message d’erreur indique explicitement que l’adresse n’est pas valide, comme Utilisateur inconnu.
 
 * **[!UICONTROL Soft bounces]** : nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.
 
@@ -116,7 +116,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l&#39;onglet **[!UICO
 
 Pour obtenir un rapport détaillé sur une diffusion push spécifique, reportez-vous à ce [rapport global push](#push-global-report).
 
-Le tableau **[!UICONTROL Notification push - Statistiques d&#39;envoi]** détaille les principales informations relatives à vos notifications push avec graphique et IPC :
+Le tableau **[!UICONTROL Notification push - Statistiques d&#39;envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
 * **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
 
