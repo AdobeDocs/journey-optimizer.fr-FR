@@ -1,19 +1,18 @@
 ---
-title: Décisions de liste
-description: Une décision contient la logique qui sous-tend la sélection d’une offre.
-translation-type: tm+mt
+title: Répertorier les décisions
+description: Une décision contient la logique sous-tendant la sélection d’une offre.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Décisions de liste
+# Répertorier les décisions
 
-Une décision (précédemment connue sous le nom d&#39;activité d&#39;offre) contient la logique qui sous-tend la sélection d&#39;une offre.
+Une décision (auparavant « activité d’offre ») contient la logique qui sous-tend la sélection d’une offre.
 
-Vous pouvez vue une liste de toutes les décisions d&#39;un conteneur en exécutant une seule requête de GET à l&#39;API [!DNL Offer Library].
+Vous pouvez afficher une liste de toutes les décisions au sein d’un conteneur en exécutant une seule requête GET sur l’API [!DNL Offer Library].
 
 **Format d’API**
 
@@ -54,11 +53,11 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 | `qop` | Applique l’opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
 | `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
 | `orderBy` | Triez les résultats en fonction d’une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
-| `limit` | Limiter le nombre de décisions renvoyées. | `limit=5` |
+| `limit` | Limitez le nombre de décisions renvoyées. | `limit=5` |
 
 **Réponse**
 
-Une réponse positive renvoie une liste de décisions qui sont présentes dans le conteneur auquel vous avez accès.
+Une réponse réussie renvoie une liste de décisions présentes dans le conteneur auquel vous avez accès.
 
 ```json
 {
