@@ -1,11 +1,10 @@
 ---
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '822'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,8 +51,8 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 
 * L’activité **[!UICONTROL Saut]** n’est disponible que dans les parcours utilisant un espace de noms.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
-* Vous ne pouvez pas accéder à un parcours qui début avec un événement **Qualification de segment** ou **Lire le segment**.
-* Vous ne pouvez pas avoir une activité **[!UICONTROL Sauter]** et un événement **Qualification de segment** ou **Lire le segment** dans le même parcours.
+* Vous ne pouvez pas accéder à un parcours commençant par un événement **Qualification du segment** ou **Lecture de segment**.
+* Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement **Qualification du segment** ou **Lecture de segment**.
 * Vous pouvez inclure autant d’activités **[!UICONTROL Saut]** que nécessaire dans un parcours. Après un **[!UICONTROL saut]**, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
 * Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
