@@ -1,11 +1,10 @@
 ---
 title: Utilisation d’un segment dans un parcours
 description: Découvrez comment utiliser un segment dans un parcours
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +16,15 @@ ht-degree: 48%
 
 L’activité Lecture de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
-Prenons l’exemple du segment &quot;Ouverture et passage en caisse de l’application Luma&quot; créé dans le cas d’utilisation de [Créer des segments](../segment/about-segments.md). Avec l’activité Lire le segment, vous pouvez faire entrer toutes les personnes appartenant à ce segment dans un parcours et les faire s’enchaîner dans des parcours personnalisés qui exploiteront toutes les fonctionnalités de parcours : conditions, minuteries, événements, actions.
+Prenons l’exemple du segment « Ouverture et passage en caisse de l’application Luma » créé dans le cas d’utilisation de [Création de segments](../segment/about-segments.md). Avec l’activité Lecture de segment, vous pouvez faire en sorte que tous les individus appartenant à ce segment rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
 
 >[!NOTE]
 >
->Il n’est pas possible de déclencher un parcours basé sur un segment dans une période plus courte que 1 heure.
+>Il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
 
 ### Configuration de l’activité {#configuring-segment-trigger-activity}
 
-Les étapes de configuration de l’activité de segment Lu sont les suivantes :
+Les étapes de configuration de l’activité Lecture de segment sont les suivantes :
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lecture de segment]** dans votre zone de travail.
 
@@ -33,13 +32,13 @@ Les étapes de configuration de l’activité de segment Lu sont les suivantes :
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité (facultatif).
 
-1. Dans le champ **[!UICONTROL Segment]**, sélectionnez le segment Adobe Experience Platform qui va entrer dans le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans le champ **[!UICONTROL Segment]**, sélectionnez le segment Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
    >[!NOTE]
    >
-   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** entrent dans le parcours. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
+   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
    ![](../assets/read-segment-selection.png)
 
@@ -49,11 +48,11 @@ Les étapes de configuration de l’activité de segment Lu sont les suivantes :
 
    ![](../assets/read-segment-copy.png)
 
-1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. [En savoir plus sur les espaces de nommage](../event/about-creating.md#select-the-namespace).
+1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace)
 
    >[!NOTE]
    >
-   >Les personnes appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas entrer dans le parcours.
+   >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours.
 
 1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
 
@@ -75,7 +74,7 @@ Pour cela, activez le mode test, puis sélectionnez l’option de votre choix da
 
 ![](../assets/read-segment-test-mode.png)
 
-Vous pouvez ensuite configurer et exécuter le mode test comme vous le faites habituellement. [Apprenez à tester un parcours](testing-the-journey.md).
+Vous pouvez ensuite configurer et exécuter le mode test comme vous le faites habituellement. [Découvrez comment tester un parcours](testing-the-journey.md).
 
 Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les journaux]** vous permet d’afficher les résultats du test en fonction de l’option de test sélectionnée :
 
@@ -91,36 +90,36 @@ Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publicati
 
 >[!NOTE]
 >
->Lorsqu’un parcours basé sur un segment qui n’est pas récurrent (&quot;en commençant dès que possible&quot; ou &quot;une fois&quot;) est exécuté, son état devient automatiquement &quot;fermé&quot;.
+>Lorsqu’un parcours basé sur un segment qui n’est pas récurrent (« commençant dès que possible » ou « une fois ») est exécuté, son état devient automatiquement « fermé ».
 >
 >Pour les parcours récurrents basés sur des segments, le parcours se ferme automatiquement une fois sa dernière occurrence exécutée. Si aucune date/heure de fin n&#39;a été spécifiée, vous devrez fermer manuellement le parcours à de nouvelles entrées pour le terminer.
 
 
-## Ciblage des Audiences dans les parcours par segment
+## Ciblage des audiences dans les parcours basés sur segment
 
-Les parcours basés sur les segments sont toujours débuts avec une activité **Lire le segment** pour récupérer les individus appartenant à un segment Adobe Experience Platform.
+Les parcours basés sur segments débutent toujours avec une activité **Lecture de segment** pour récupérer les individus appartenant à un segment Adobe Experience Platform.
 
 L’audience appartenant au segment est récupérée une fois ou régulièrement.
 
-Une fois le parcours entré, vous pouvez créer des cas d’utilisation de l’orchestration des audiences, ce qui permet aux individus du segment initial de s’écouler dans différentes branches du parcours.
+Après l’entrée dans le parcours, vous pouvez créer des cas d’utilisation d’orchestration des audiences, ce qui permet aux individus du segment initial de progresser dans différentes branches du parcours.
 
 **Segmentation**
 
-Vous pouvez utiliser des conditions pour effectuer la segmentation à l’aide de l’activité **Condition**. Vous pouvez, par exemple, faire en sorte que VIP personnes empruntent un chemin particulier et qu’elles ne suivent pas VIP flux dans un autre chemin.
+Vous pouvez utiliser des conditions pour effectuer la segmentation à l’aide de l’activité **Condition**. Vous pouvez, par exemple, faire en sorte que les personnes VIP empruntent un chemin particulier et que les personnes non VIP suivent un autre chemin.
 
-La segmentation peut être basée sur :
+La segmentation peut être basée sur :
 
-* données de source de données
-* le contexte des événements faisant partie des données du parcours, par exemple : est-ce qu&#39;une personne a cliqué sur le message qu&#39;elle a reçu il y a une heure ?
-* une date, par exemple : sommes-nous en juin lorsqu&#39;une personne traverse le parcours?
-* une heure, par exemple : est-ce le matin dans le fuseau horaire de la personne?
-* un algorithme fractionnant l’audience circulant dans le parcours en fonction d’un pourcentage, par exemple : 90 à 10 % pour exclure une Population témoin
+* des données de source de données
+* le contexte des événements faisant partie des données du parcours, par exemple : est-ce qu&#39;une personne a cliqué sur le message qu&#39;elle a reçu il y a une heure ?
+* une date, par exemple : sommes-nous en juin lorsqu&#39;une personne traverse le parcours?
+* une heure, par exemple : est-ce le matin dans le fuseau horaire de la personne ?
+* un algorithme fractionnant l’audience circulant dans le parcours en fonction d’un pourcentage, par exemple : 90 à 10 % pour exclure une population témoin
 
 ![](../assets/read-segment-audience1.png)
 
 **Exclusion**
 
-La même activité **Condition** utilisée pour la segmentation (voir ci-dessus) vous permet également d’exclure une partie de la population. Par exemple, vous pouvez exclure VIP personnes en les faisant glisser dans une branche avec une étape de fin juste après.
+La même activité **Condition** utilisée pour la segmentation (voir ci-dessus) vous permet également d’exclure une partie de la population. Par exemple, vous pouvez exclure les personnes VIP en les faisant glisser dans une branche avec une étape de fin juste après.
 
 Cette exclusion peut se produire juste après la récupération des segments, à des fins de comptage de population ou le long d’un parcours à plusieurs étapes.
 
@@ -132,7 +131,7 @@ Les parcours vous permettent de créer des branches N et de les associer après 
 
 Par conséquent, vous pouvez faire en sorte que deux audiences reviennent à une expérience commune.
 
-Par exemple, après avoir suivi une expérience différente pendant dix jours dans un parcours, les clients VIP et non VIP peuvent revenir au même chemin.
+Par exemple, après avoir suivi une expérience différente pendant dix jours dans un parcours, les clients VIP et non VIP peuvent revenir sur le même chemin.
 
 Après une union, vous pouvez fractionner à nouveau l’audience en exécutant une segmentation ou une exclusion.
 
