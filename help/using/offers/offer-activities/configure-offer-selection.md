@@ -1,11 +1,10 @@
 ---
 title: Configurer la sélection des offres dans les décisions
 description: Découvrez comment gérer la sélection des offres dans les décisions.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 52%
 
 ## À propos de la priorité des offres {#about-offers-priority}
 
-Par défaut, lorsque plusieurs offres sont éligibles pour un placement donné dans une décision (précédemment connue sous le nom d&#39;activité d&#39;offre), les offres ayant la priorité la plus élevée **** sont livrées en premier aux clients. Les scores de priorité des offres sont attribués lors de la création d’une offre (voir [Création d’une offre personnalisée](../offer-library/creating-personalized-offers.md)).
+Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision (auparavant « activité d’offre »), les offres présentant la **priorité** la plus élevée sont diffusées en premier aux clients. Les scores de priorité des offres sont attribués lors de la création d’une offre (voir [Création d’une offre personnalisée](../offer-library/creating-personalized-offers.md)).
 
 ![](../../assets/offer-priority.png)
 
@@ -23,9 +22,9 @@ Pour plus d’informations sur la création d’une formule de classement, repor
 
 ## Affectation d’une formule de classement à un placement {#assign-ranking-formula}
 
-Une fois qu&#39;une formule de classement a été créée, vous pouvez l&#39;affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
+Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
-* Créez une décision ou modifiez une décision existante, puis créez les emplacements qui contiendront vos offres (voir [Créer des décisions](../offer-activities/create-offer-activities.md)).
+* Créez une décision ou modifiez-en une, puis créez les emplacements qui contiendront vos offres (voir [Création de décisions](../offer-activities/create-offer-activities.md)).
 
 * Pour chaque placement, sélectionnez **[!UICONTROL Classement]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
 
@@ -35,4 +34,4 @@ Une fois qu&#39;une formule de classement a été créée, vous pouvez l&#39;aff
 
    ![](../../assets/ranking-selection.png)
 
-La formule de classement est désormais associée au placement. Si plusieurs offres sont admissibles à ce placement, la décision utilisera la formule de classement pour calculer l&#39;offre à livrer en premier.
+La formule de classement est désormais associée au placement. Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilise la formule de classement pour calculer l’offre à diffuser en premier.
