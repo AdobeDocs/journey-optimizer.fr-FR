@@ -1,11 +1,10 @@
 ---
 title: Création d’une offre de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +66,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur l’offre de secours nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance lors d’étapes ultérieures pour mettre à jour ou supprimer votre offre de secours. Vous pouvez utiliser votre offre de secours unique `@id` dans un didacticiel ultérieur pour créer une décision.
+Une réponse réussie renvoie des informations sur l’offre de secours nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance lors d’étapes ultérieures pour mettre à jour ou supprimer votre offre de secours. Vous pouvez utiliser votre offre de secours unique `@id` dans un tutoriel ultérieur pour créer une décision.
 
 
 ```json
