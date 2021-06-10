@@ -1,6 +1,6 @@
 ---
 title: Prise en main
-description: Découvrez comment commencer à utiliser l’API de la bibliothèque des offres pour effectuer des opérations essentielles à l’aide du moteur de gestion de décision.
+description: Découvrez comment commencer à utiliser l’API de la bibliothèque des offres pour effectuer des opérations essentielles à l’aide du moteur Decision Management.
 source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '599'
@@ -8,9 +8,9 @@ ht-degree: 96%
 
 ---
 
-# Guide du développeur de l’API de gestion de décision
+# Guide du développeur de l’API Decision Management
 
-Ce guide du développeur décrit les étapes à suivre pour vous aider à démarrer l’API [!DNL Offer Library]. Le guide fournit ensuite des exemples d’appels API pour effectuer des opérations clés à l’aide du moteur de gestion de déciion.
+Ce guide du développeur décrit les étapes à suivre pour commencer à utiliser l’API [!DNL Offer Library]. Le guide fournit ensuite des exemples d’appels API pour effectuer des opérations clés à l’aide du moteur Decision Management.
 
 ![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -20,7 +20,7 @@ Ce guide nécessite une compréhension professionnelle des composants suivants d
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) : Cadre normalisé selon lequel [!DNL Experience Platform] organise les données de l’expérience client.
    * [Notions de base de la composition du schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) : en savoir plus sur les blocs de création de base des schémas XDM.
-* [Gestion de décision](../../../using/offers/get-started/starting-offer-decisioning.md) : explique les concepts et les composants utilisés pour la prise de décision basée sur l’expérience en général et pour la prise de décision relative aux offres en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l’expérience client.
+* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md) : explique les concepts et les composants utilisés pour Experience Decisioning en général et pour Offer Decisioning en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l’expérience client.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr) : PQL est un langage puissant pour écrire des expressions sur des instances XDM. PQL est utilisé pour définir des règles de décision.
 
 ## Lecture d’exemples d’appels API
@@ -45,7 +45,7 @@ Un conteneur est un mécanisme d’isolement qui permet de séparer différentes
 
 Un administrateur peut regrouper des entités principales, des ressources et des autorisations d’accès similaires dans des profils. La charge de gestion est ainsi réduite et est assurée par l’[Adobe Admin Console](https://adminconsole.adobe.com/). Pour créer des profils et leur affecter des utilisateurs, vous devez être un administrateur de produit pour Adobe Experience Platform. Il suffit de créer des profils de produit qui correspondent à certaines autorisations en une seule étape, puis d’ajouter des utilisateurs à ces profils. Les profils agissent comme des groupes ayant reçu des autorisations, et chaque utilisateur réel ou technique de ce groupe hérite de ces autorisations.
 
-Avec les privilèges d’administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs via l‘[Adobe Admin Console](https://adminconsole.adobe.com/). Pour plus d’informations, voir la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
+Avec les privilèges d’administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs via l‘[Adobe Admin Console](https://adminconsole.adobe.com/). Pour plus d’informations, voir la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr).
 
 ### Liste des conteneurs accessibles aux utilisateurs et aux intégrations
 
@@ -125,10 +125,10 @@ Ce document couvrait les connaissances préalables requises pour effectuer des a
 
 ## Tutoriel vidéo {#video}
 
-La vidéo suivante est destinée à vous aider à comprendre les composants de gestion de décision.
+La vidéo suivante est destinée à vous aider à comprendre les composants de Decision Management.
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif d’Offer Decisioning créé sur Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif d’Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d’Offer dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
