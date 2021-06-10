@@ -1,11 +1,10 @@
 ---
 title: Mettre à jour le profil
-description: Découvrez comment utiliser l'activité Mettre à jour l'profil dans un parcours
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: Découvrez comment utiliser l’activité Mettre à jour le profil dans un parcours.
+source-git-commit: ce9484905b359900096858e46c05aef09efaa760
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '462'
+ht-degree: 93%
 
 ---
 
@@ -28,9 +27,9 @@ L’activité d’action **[!UICONTROL Mettre à jour le profil]** vous permet d
 
 En mode test, la mise à jour du profil ne sera pas simulée. La mise à jour sera effectuée sur le profil de test.
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs de profil par le biais d’une importation de fichier csv ou d’appels d’API. Une méthode plus simple consiste à utiliser une activité d&#39;action **Mettre à jour le profil** et à passer le champ booléen du profil de test de false à true.
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs de profil par le biais d’un import de fichier csv ou d’appels d’API. Une méthode plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à redéfinir le champ booléen du profil de test de false à true.
 
-Pour plus d&#39;informations sur la façon de transformer un profil existant en profil de test, consultez cette [section](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+Pour plus d’informations sur la façon de transformer un profil existant en profil de test, consultez [cette section](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Utilisation de la mise à jour du profil
 
@@ -46,7 +45,11 @@ Pour plus d&#39;informations sur la façon de transformer un profil existant en 
 
    ![](../assets/profileupdate2.png)
 
-1. Sélectionnez un jeu de données dans la liste. La sélection du jeu de données détermine l’endroit où sera stockée la nouvelle valeur du champ de profil.
+1. Sélectionnez un jeu de données dans la liste.
+
+   >[!NOTE]
+   >
+   >L’action **Mettre à jour le profil** met à jour les données de profil en temps réel, mais elle ne met pas à jour les jeux de données. La sélection du jeu de données est nécessaire, car le profil est un enregistrement associé à un jeu de données.
 
 1. Cliquez sur le champ **Valeur** pour définir la valeur à utiliser :
 
