@@ -1,9 +1,8 @@
 ---
-title: Recherche d’un placement
-description: Les placements sont des conteneurs utilisés pour présenter vos offres.
-translation-type: tm+mt
+title: Recherche d’un emplacement
+description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
 ht-degree: 100%
 
