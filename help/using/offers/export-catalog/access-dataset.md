@@ -1,9 +1,8 @@
 ---
 title: Accès au catalogue d’offres exporté
 description: Découvrez comment accéder au catalogue d’offres sur Adobe Experience Platform une fois qu’il a été exporté.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
