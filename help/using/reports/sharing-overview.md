@@ -1,11 +1,10 @@
 ---
 title: Présentation du partage des étapes du parcours
 description: Présentation du partage des étapes du parcours
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -13,15 +12,15 @@ ht-degree: 70%
 
 ![](../assets/do-not-localize/badge.png)
 
-Outre les [rapports en temps réel](live-report.md) et les [capacités de rapports global](global-report.md) intégrées, [!DNL Journey Optimizer] peut envoyer automatiquement des données de performances de parcours à Adobe Experience Platform afin qu&#39;elles puissent être combinées avec d&#39;autres données à des fins d&#39;analyse.
+Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de reporting global](global-report.md) intégrées, [!DNL Journey Optimizer] peut automatiquement envoyer des données de performances de parcours à Adobe Experience Platform afin qu’elles soient combinées à d’autres données à des fins d’analyse.
 
 >[!NOTE]
 >
 >Cette fonction n’est pas activée par défaut sur toutes les instances nouvellement déployées. L’activation est effectuée sur demande.
 
-Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Optimizer] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations du parcours peuvent être combinées avec les données de Adobe Experience Platform, que ce soit à partir d’autres propriétés numériques ou de propriétés hors ligne, afin d’offrir une vue de performances plus complète.
+Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Optimizer] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
-[!DNL Journey Optimizer] crée automatiquement les schémas et flux nécessaires dans les jeux de données à Adobe Experience Platform pour chaque étape qu&#39;un individu effectue dans un parcours. Un événement d’étape correspond à un individu qui se déplace d’un nœud à un autre d’un parcours. Par exemple, dans un parcours qui comporte un événement, une condition et une action, trois événements d’étape sont envoyés à Adobe Experience Platform.
+[!DNL Journey Optimizer] crée automatiquement les schémas et les flux nécessaires dans les jeux de données d’Adobe Experience Platform pour chaque étape d’un parcours individuel. Un événement d’étape correspond à un individu qui se déplace d’un nœud à un autre d’un parcours. Par exemple, dans le cadre d’un parcours comportant un événement, une condition et une action, trois événements d’étape sont envoyés à Adobe Experience Platform.
 
 La liste des champs XDM transmis est complète. Certains contiennent des codes générés par le système et d’autres portent des noms conçus pour être lisibles. Il peut s’agir, par exemple, du libellé de l’activité de parcours ou du statut de l’étape : nombre de fois où une action a expiré ou s’est terminée par une erreur.
 
@@ -49,7 +48,7 @@ Les jeux de données suivants sont transmis :
 
 ![](../assets/sharing3.png)
 
-Les listes des champs XDM transmis à Adobe Experience Platform sont détaillées ici :
+Les listes des champs XDM transmis à Adobe Experience Platform sont détaillées ici :
 
 * [Champs communs des événements journeySteps](../reports/sharing-common-fields.md)
 * [Champs d’exécution d’action des événements journeyStep](../reports/sharing-execution-fields.md)
@@ -57,4 +56,4 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaillée
 * [Champs d’identité des événements journeyStep](../reports/sharing-identity-fields.md)
 * [Champs du parcours](../reports/sharing-journey-fields.md)
 
-Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr).
