@@ -1,11 +1,10 @@
 ---
 title: 'Source de données Adobe Experience Platform '
-description: Découvrez comment configurer la source de données Adobe Experience Platform
-translation-type: tm+mt
+description: Découvrez comment configurer la source de données Adobe Experience Platform
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 88%
 
 ![](../assets/do-not-localize/badge.png)
 
-La source de données Adobe Experience Platform définit la connexion au service de Profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. Pour plus d’informations sur le service de profil client en temps réel, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
+La source de données Adobe Experience Platform définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. Pour plus d’informations sur le service de profil client en temps réel, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 
 >[!NOTE]
 >
@@ -35,7 +34,7 @@ Les principales étapes nécessaires pour ajouter des groupes de champs à la so
 
    ![](../assets/journey24.png)
 
-1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ liste les schémas Profil et Événements d’expérience disponibles dans Adobe Experience Platform. La création du schéma n’est pas effectuée dans [!DNL Journey Optimizer], mais Il est exécuté à Adobe Experience Platform.
+1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans Adobe Experience Platform. La création du schéma n’est pas effectuée dans [!DNL Journey Optimizer], mais elle l’est dans Adobe Experience Platform.
 1. Sélectionnez les champs que vous souhaitez utiliser.
 1. Définissez la durée de mise en cache.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
