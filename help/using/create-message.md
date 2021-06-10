@@ -42,10 +42,10 @@ Pour créer un nouveau message, procédez comme suit :
 
    * Sélectionnez le **[!UICONTROL Préréglage]** à utiliser pour le message.
 
-      Les paramètres prédéfinis incluent tous les paramètres requis pour qu’une notification par e-mail et/ou push soit envoyée en fonction de votre marque. [En savoir plus sur les paramètres prédéfinis](../using/configuration/message-presets.md).
+      Les préréglages comprennent tous les paramètres requis pour qu’un email et/ou une notification push soit envoyés selon votre marque. [En savoir plus sur les paramètres prédéfinis](../using/configuration/message-presets.md).
 
-   * Sélectionnez le ou les canaux à utiliser pour ce message : notification par e-mail ou push. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
-   Notez que vous pouvez accéder et modifier à tout moment le titre, la description et le paramètre prédéfini du message à l’aide du bouton **[!UICONTROL Propriétés]** de l’interface de message.
+   * Sélectionnez le ou les canaux à utiliser pour ce message : email et/ou notification push. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
+   Notez que vous pouvez à tout moment accéder au titre, à la description et au préréglage et les modifier à l’aide du bouton **[!UICONTROL Propriétés]** de l’interface de message.
 
    ![](assets/message-properties.png)
 
@@ -56,7 +56,7 @@ Pour créer un nouveau message, procédez comme suit :
 
    ![](assets/create-messages-content.png)
 
-   Vous pouvez désormais créer le contenu du message et adapter les paramètres. Des informations détaillées sur la configuration des notifications par e-mail et push sont disponibles dans les sections suivantes :
+   Vous pouvez désormais créer le contenu du message et adapter les paramètres. Des informations détaillées sur la configuration des emails et des notifications push sont disponibles dans les sections suivantes :
 
    * [Créer un email](create-email.md)
    * [Créer des notifications push](create-push.md)
