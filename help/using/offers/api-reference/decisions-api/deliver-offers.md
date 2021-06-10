@@ -1,6 +1,6 @@
 ---
 title: Diffusion d’offres
-description: Decision Management est un ensemble de services et d’interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d’offres personnalisées aux utilisateurs finaux par le biais de canaux et d’applications en s’appuyant sur une logique commerciale et des règles de décision.
+description: Decision Management est un ensemble de services et d’interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d’offres personnalisées aux utilisateurs finaux par le biais de canaux et d’applications en s’appuyant sur une logique métier et des règles de décision.
 source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '945'
@@ -10,11 +10,11 @@ ht-degree: 99%
 
 # Diffuser des offres à l’aide de l’API Decisions
 
-Avec Decision Management, vous pouvez créer et diffuser des expériences d’offre personnalisées pour l’utilisateur final, entre les canaux et les applications, en utilisant la logique commerciale et les règles de décision. Une offre est un message marketing auquel des règles peuvent être associées et qui spécifie qui est éligible pour voir l’offre.
+Avec Decision Management, vous pouvez créer et proposer des expériences d’offre personnalisées aux utilisateurs finaux par le biais de canaux et des applications en s’appuyant sur une logique métier et des règles de décision. Une offre est un message marketing auquel des règles peuvent être associées et qui spécifie qui est éligible pour voir l’offre.
 
 Vous pouvez créer et diffuser des offres en effectuant une requête POST à l’API [!DNL Decisions].
 
-Ce tutoriel nécessite une bonne compréhension des API, en particulier concernant Decision Management. Pour plus d’informations, consultez le [Guide du développeur de l’API Decision Management](../getting-started.md). Ce tutoriel nécessite aussi que vous disposiez d’un identifiant d’emplacement et d’un identifiant de décision uniques. Si vous ne disposez pas de ces valeurs, consultez les tutoriels sur la [création d’un emplacement](../offers-api/placements/create.md) et la [création d’une décision](../activities-api/activities/create.md).
+Ce tutoriel nécessite une bonne compréhension des API, tout particulièrement en ce qui concerne Decision Management. Pour plus d’informations, consultez le [Guide de l’API Decision Management destiné aux développeurs](../getting-started.md). Ce tutoriel nécessite aussi que vous disposiez d’un identifiant d’emplacement et d’un identifiant de décision uniques. Si vous ne disposez pas de ces valeurs, consultez les tutoriels sur la [création d’un emplacement](../offers-api/placements/create.md) et la [création d’une décision](../activities-api/activities/create.md).
 
 ![](../../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -190,11 +190,11 @@ Une réponse réussie renvoie des informations sur votre proposition, y compris 
 
 ## Tutoriel vidéo {#video}
 
-La vidéo suivante est destinée à vous aider à comprendre les composants de gestion de décision.
+La vidéo suivante est destinée à vous aider à comprendre les composants de Decision Management.
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif d’Offer Decisioning créé sur Adobe Experience Platform. Toutefois, elle fournit des instructions générales sur l’utilisation d’Offer Decisioning dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif d’Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des instructions générales sur l’utilisation d’Offer Decisioning dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
