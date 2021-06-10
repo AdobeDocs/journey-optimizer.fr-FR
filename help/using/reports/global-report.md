@@ -24,7 +24,7 @@ Le **[!UICONTROL rapport global]** vous permet de mesurer l&#39;efficacité de v
 
 ## Modifier le tableau de bord {#modify-dashboard}
 
-Chaque tableau de bord de rapports peut être modifié en redimensionnant ou en supprimant des widgets ou en modifiant la période ciblée. La modification des widgets n’affecte que le tableau de bord de l’utilisateur actuel. Les autres utilisateurs verront leurs propres tableaux de bord ou ceux définis par défaut.
+Chaque tableau de bord de rapports peut être modifié en redimensionnant ou en supprimant des widgets ou en modifiant la période ciblée. La modification des widgets n’a un impact que sur le tableau de bord de l’utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
 
 1. Dans votre tableau de bord **[!UICONTROL Rapport global]**, cliquez sur le bouton du planificateur.
 
@@ -40,10 +40,10 @@ Chaque tableau de bord de rapports peut être modifié en redimensionnant ou en 
 
    ![](../assets/global_report_9.png)
 
-1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d&#39;autres widgets pour lesquels bous n&#39;avez pas besoin de suivre les bounces.
+1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d&#39;autres widgets dont vous n’avez pas besoin pour suivre les bounces.
 
    ![](../assets/global_report_10.png)
 
 1. Une fois satisfait de l’ordre d’affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre tableau de bord est alors enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports globaux. Si nécessaire, utilisez l&#39;option **[!UICONTROL Réinitialiser]** pour restaurer les widgets et l&#39;ordre des widgets par défaut.
+Votre tableau de bord est maintenant enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports globaux. Si nécessaire, utilisez l&#39;option **[!UICONTROL Réinitialiser]** pour restaurer les widgets par défaut et l&#39;ordre des widgets.
