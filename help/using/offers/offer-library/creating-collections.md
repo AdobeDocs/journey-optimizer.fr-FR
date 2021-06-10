@@ -1,11 +1,10 @@
 ---
 title: Création de collections
 description: Découvrez comment organiser des offres à l’aide de collections.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -55,6 +54,6 @@ Pour créer une collection, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service d’applications d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, il fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
