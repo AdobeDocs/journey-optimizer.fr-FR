@@ -1,11 +1,10 @@
 ---
 title: Création d’un placement
 description: Les placements sont des conteneurs utilisés pour présenter vos offres.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +53,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement nouvellement créé, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre emplacement. Vous pouvez utiliser votre emplacement unique `@id` dans les didacticiels ultérieurs pour créer des décisions, des règles de décision et des offres de secours.
+Une réponse réussie renvoie les détails de l’emplacement nouvellement créé, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre emplacement. Vous pouvez utiliser l’`@id` d’emplacement unique dans des tutoriels ultérieurs pour créer des décisions, des règles de décision et des offres de secours.
 
 ```json
 {
