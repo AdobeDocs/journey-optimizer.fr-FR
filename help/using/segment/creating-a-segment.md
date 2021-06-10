@@ -1,11 +1,10 @@
 ---
 title: Création d’un segment
-description: Découvrez comment créer des segments
-translation-type: tm+mt
+description: Découvrez comment création des segments
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -13,13 +12,13 @@ ht-degree: 10%
 
 ![](../assets/do-not-localize/badge.png)
 
-Dans cet exemple, nous allons créer un segment pour cible à tous les clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients auraient dû ouvrir l&#39;application Luma dans les 7 derniers jours, puis faire un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
+Dans cet exemple, nous allons créer un segment pour cibler tous les clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients doivent avoir ouvert l&#39;application Luma dans les 7 derniers jours, puis fait un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
 
 1. Accédez au menu **[!UICONTROL Segments]**, puis cliquez sur le bouton **[!UICONTROL Créer un segment]**.
 
    ![](../assets/create-segment.png)
 
-   L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. Découvrez comment configurer des segments dans la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. Découvrez comment configurer des segments dans la [documentation de service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
    ![](../assets/segment-builder.png)
 
@@ -27,18 +26,18 @@ Dans cet exemple, nous allons créer un segment pour cible à tous les clients r
 
    ![](../assets/segment-properties.png)
 
-1. Faites glisser et déposez les champs de votre choix depuis le volet de gauche vers l’espace de travail central, puis configurez-les en fonction de vos besoins.
+1. Réalisez un glisser-déposer dans les champs de votre choix depuis le volet de gauche vers l’espace de travail central, puis configurez-les en fonction de vos besoins.
 
    >[!NOTE]
    >
-   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **XDM Individuel** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la documentation [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **profil individuel XDM** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la [documentation Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
    ![](../assets/drag-fields.png)
 
-   Dans cet exemple, nous devons nous baser sur les champs **Attributes** et **Événements** pour créer le segment :
+   Dans cet exemple, nous devons nous baser sur les champs **Attributs** et **Événements** pour créer le segment :
 
-   * **Attributs** : profils qui vivent à Atlanta, San Francisco ou Seattle, nés après 1980,
-   * **Événements** : profils qui ont ouvert l&#39;application Luma au cours des 7 derniers jours, puis effectué un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
+   * **Attributs** : profils qui vivent à Atlanta, San Francisco ou Seattle, nés après 1980,
+   * **Événements** : profils qui ont ouvert l&#39;application Luma au cours des 7 derniers jours, puis effectué un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
 
       ![](../assets/add-attributes.png)
 
