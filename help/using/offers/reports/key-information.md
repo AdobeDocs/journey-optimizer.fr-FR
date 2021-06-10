@@ -1,15 +1,14 @@
 ---
-title: Informations clés des événements de gestion des décisions
-description: En savoir plus sur les informations clés envoyées avec chaque événement de gestion des décisions.
-translation-type: tm+mt
+title: Informations clés des événements de gestion de décision
+description: En savoir plus sur les informations clés envoyées avec chaque événement de gestion de décision.
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# Informations clés des événements de gestion des décisions {#events-key-information}
+# Informations clés des événements de gestion de décision {#events-key-information}
 
 Chaque événement envoyé lorsqu’une décision est prise contient quatre points de données clés que vous pouvez exploiter à des fins d’analyse et de création de rapports.
 
@@ -18,7 +17,7 @@ Chaque événement envoyé lorsqu’une décision est prise contient quatre poin
 * **[!UICONTROL Fallback]** : Nom et ID de l’offre de secours, si aucune offre personnalisée n’a été sélectionnée,
 * **[!UICONTROL Placement]** : Nom, ID et canal du placement utilisé pour diffuser l’offre,
 * **[!UICONTROL Selections]** : Nom et ID de l’offre sélectionnée pour le profil,
-* **[!UICONTROL Activité]** : Nom et ID de la décision (précédemment connue sous le nom d&#39;activité d&#39;offre).
+* **[!UICONTROL Activité]** : Nom et ID de la décision (précédemment connue sous le nom d&#39;activité d&#39;offre).
 
 En outre, vous pouvez également utiliser les champs **[!UICONTROL identityMap]** et **[!UICONTROL Timestamp]** pour récupérer des informations sur le profil et le moment où l’offre a été diffusée.
 
