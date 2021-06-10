@@ -1,17 +1,16 @@
 ---
-title: Mettre à jour les décisions
-description: Une décision contient la logique qui sous-tend la sélection d’une offre.
-translation-type: tm+mt
+title: Mettre des décisions à jour
+description: Une décision contient la logique sous-tendant la sélection d’une offre.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# Mettre à jour une décision
+# Mettre une décision à jour
 
-Vous pouvez modifier ou mettre à jour une décision dans votre conteneur en adressant une demande PATCH à l&#39;API [!DNL Offer Library].
+Vous pouvez modifier ou mettre à jour une décision dans votre conteneur en exécutant une requête PATCH sur l’API [!DNL Offer Library].
 
 Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
@@ -64,7 +63,7 @@ curl -X PATCH \
 
 **Réponse**
 
-Une réponse positive renvoie les détails mis à jour de la décision, y compris son identifiant d&#39;instance unique et sa décision `@id`.
+Une réponse réussie renvoie les détails mis à jour de la décision, y compris son identifiant d’instance unique et son `@id` de décision.
 
 ```json
 {
