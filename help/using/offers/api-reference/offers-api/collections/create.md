@@ -1,11 +1,10 @@
 ---
 title: Création d’une collection
 description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +56,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la collection nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre collection. Vous pouvez utiliser votre collection unique `@id` dans un didacticiel ultérieur pour créer une décision.
+Une réponse réussie renvoie des informations sur la collection nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre collection. Vous pouvez utiliser votre `@id` de collection unique dans un tutoriel ultérieur pour créer une décision.
 
 ```json
 {
