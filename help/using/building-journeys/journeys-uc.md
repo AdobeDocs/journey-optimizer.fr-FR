@@ -12,21 +12,21 @@ ht-degree: 98%
 
 ![](../assets/do-not-localize/badge.png)
 
-Cette section présente un cas d’utilisation qui combine une Lecture de segment, un événement, des événements de réaction et des e-mails/messages push.
+Cette section présente un cas d’utilisation qui combine une Lecture de segment, un événement, des événements de réaction et des emails/messages push.
 
 ![](../assets/jo-uc1.png)
 
 ## Description du cas d’utilisation
 
-Dans ce cas d’utilisation, nous souhaitons envoyer un premier message (e-mail et push) à tous les clients appartenant à un segment spécifique.
+Dans ce cas d’utilisation, nous souhaitons envoyer un premier message (email et push) à tous les clients appartenant à un segment spécifique.
 
 Sur la base de leur réaction au premier message, nous voulons envoyer des messages spécifiques.
 
-Après le premier message, nous attendons un jour que les clients ouvrent le message push ou l&#39;e-mail. S&#39;il n&#39;y a pas de réaction, nous leur envoyons un e-mail de suivi.
+Après le premier message, nous attendons un jour que les clients ouvrent le message push ou l&#39;email. S&#39;il n&#39;y a pas de réaction, nous leur envoyons un email de relance.
 
 Ensuite, nous attendons un achat et envoyons un message push pour remercier le client.
 
-## Conditions préalables  
+## Prérequis
 
 Pour que ce cas d&#39;utilisation fonctionne, vous devez configurer les éléments suivants :
 
@@ -36,7 +36,7 @@ Pour que ce cas d&#39;utilisation fonctionne, vous devez configurer les élémen
 
 ### Création du segment
 
-Dans notre parcours, nous voulons exploiter un segment spécifique de clients. Toutes les personnes appartenant au segment entrent dans le parcours et suivent les différentes étapes. Dans notre exemple, nous avons besoin d&#39;un segment qui cible tous les clients qui vivent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
+Dans notre parcours, nous voulons utiliser un segment spécifique de clients. Tous les individus appartenant au segment rejoignent le parcours et suivent les différentes étapes. Dans notre exemple, nous avons besoin d&#39;un segment qui cible tous les clients qui vivent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
 
 Pour plus d’informations sur les segments, consultez cette [page](../segment/about-segments.md).
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur les segments, consultez cette [page](../segment/a
 
    ![](../assets/add-attributes.png)
 
-Le segment est maintenant configuré et prêt à être utilisé dans votre parcours. En utilisant une activité **Lecture de segment**, vous pouvez faire entrer dans le parcours toutes les personnes appartenant au segment.
+Le segment est maintenant configuré et prêt à être utilisé dans votre parcours. En utilisant une activité **Lecture de segment**, vous pouvez faire en sorte que tous les individus appartenant au segment rejoignent le parcours.
 
 ### Configurer l’événement
 
@@ -80,9 +80,9 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
 Pour ce cas d’utilisation, nous devons créer trois messages :
 
-* un premier message push et e-mail
+* un premier message push et email
 * un message de remerciement push
-* un message de suivi par e-mail
+* un email de relance
 
 ![](../assets/jo-uc3.png)
 
@@ -90,29 +90,29 @@ Consultez cette [section](../segment/about-segments.md) pour savoir comment conc
 
 ## Concevoir le parcours
 
-1. Débutez le parcours avec une activité **Lecture de segment**. Sélectionnez le segment créé précédemment. Toutes les personnes appartenant au segment entrent dans le parcours.
+1. Débutez le parcours avec une activité **Lecture de segment**. Sélectionnez le segment créé précédemment. Tous les individus appartenant au segment rejoignent le parcours.
 
    ![](../assets/jo-uc4.png)
 
-1. Déposez une activité **Message** et sélectionnez le premier message push et e-mail. Ce message est envoyé à toutes les personnes du parcours.
+1. Déposez une activité **Message** et sélectionnez le premier message push et email. Ce message est envoyé à tous individus dans le parcours.
 
    ![](../assets/jo-uc5.png)
 
 1. Placez votre curseur sur l&#39;activité du message et cliquez sur le symbole « + » pour créer un nouveau chemin.
 
-1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L&#39;événement est déclenché lorsqu’une personne appartenant au segment ouvre la version push du premier message.
+1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L&#39;événement est déclenché lorsqu’un individu appartenant au segment ouvre la version push du premier message.
 
-1. Dans le second chemin, ajoutez un événement **Réaction** et sélectionnez **E-mail ouvert**. L&#39;événement est déclenché lorsque l’utilisateur ouvre l&#39;e-mail.
+1. Dans le second chemin, ajoutez un événement **Réaction** et sélectionnez **Email ouvert**. L&#39;événement est déclenché lorsque l’individu ouvre l’email.
 
-1. Dans l&#39;une des activités de la réaction, cochez la case **Définir la temporisation de l&#39;événement**, définissez une durée (1 jour dans notre exemple) et cochez **Ajouter un itinéraire de temporisation**. Cela crée un autre chemin pour les personnes qui n’ouvrent pas le premier message push ou e-mail.
+1. Dans l&#39;une des activités de la réaction, cochez la case **Définir la temporisation de l&#39;événement**, définissez une durée (1 jour dans notre exemple) et cochez **Ajouter un itinéraire de temporisation**. Cela crée un autre itinéraire pour les individus qui n’ouvrent pas le premier message push ou l’email.
 
    >[!NOTE]
    >
    >Lors de la configuration d’une temporisation sur plusieurs événements (les deux réactions dans ce cas), il vous suffit de configurer la temporisation sur l’un de ces événements.
 
-1. Dans le chemin de la temporisation, déposez une activité **Message** et sélectionnez le message de suivi d&#39;e-mail. Ce message est envoyé aux personnes qui n’ouvrent pas le premier e-mail ou la première notification push le lendemain.
+1. Dans l’itinéraire de temporisation, déposez une activité **Message** et sélectionnez l’email de relance. Ce message est envoyé aux individus qui n’ouvrent pas le premier email ou la première notification push le lendemain.
 
-1. Connectez les trois chemins à l&#39;événement d’achat créé précédemment. L&#39;événement est déclenché lorsqu’une personne effectue un achat.
+1. Connectez les trois chemins à l&#39;événement d’achat créé précédemment. L&#39;événement est déclenché lorsqu’un individu effectue un achat.
 
 1. Après l&#39;événement, déposez une activité **Message** et sélectionnez le message de remerciement.
 
@@ -122,6 +122,6 @@ Consultez cette [section](../segment/about-segments.md) pour savoir comment conc
 
 1. Avant de tester votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur,
 
-1. Cliquez sur la bascule **Test** située dans le coin supérieur droit pour activer le mode test. Définissez comment vous souhaitez que les profils de test entrent dans le test : un seul profil, ou jusqu&#39;à 100 à la fois. Reportez-vous à cette [section](testing-the-journey.md) pour savoir comment utiliser le mode test.
+1. Cliquez sur la bascule **Test** située dans le coin supérieur droit pour activer le mode test. Définissez comment vous souhaitez que les profils de test rejoignent le test : un seul profil, ou jusqu&#39;à 100 à la fois. Reportez-vous à cette [section](testing-the-journey.md) pour savoir comment utiliser le mode test.
 
 1. Lorsque le parcours est prêt, publiez-le à l’aide du bouton **Publier** situé dans le coin supérieur droit.
