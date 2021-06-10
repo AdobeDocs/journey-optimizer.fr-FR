@@ -14,45 +14,45 @@ Chaque fois qu’une offre est modifiée, le jeu de données généré automatiq
 
 ![](../../assets/dataset-fallback.png)
 
-Le lot ayant réussi le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s’affiche dans le volet de gauche.
+Le lot le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s’affiche dans le volet de gauche.
 
 >[!NOTE]
 >
->Découvrez comment accéder aux jeux de données exportés pour chaque objet de votre bibliothèque d’offres dans [cette section](../export-catalog/access-dataset.md).
+>Découvrez comment accéder aux jeux de données exportés pour chaque objet de la bibliothèque des offres dans [cette section](../export-catalog/access-dataset.md).
 
-Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d’objets de décision - Offres de secours]**.
+Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d’objets de décision - Offres de secours]**.
 
 ## Identifiant
 
 **Champ :** _id 
-**Titre :** Identifier 
-**Description :** Identificateur unique pour l’enregistrement.
+**Titre :** identifiant 
+**Description :** identifiant unique de l’enregistrement.
 **Type :** Chaîne
 
-## _expérience
+## _experience
 
 **Champ :** _experience 
 **Type :** objet
 
 ### _experience > prise de décision
 
-**Champ :** décision 
+**Champ :** prise de décision
 **Type :** objet
 
 #### _experience > prise de décision > caractéristiques
 
 **Champ :** caractéristiques 
 **Titre :** Caractéristiques d&#39;option de décision
-**Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent présenter des caractéristiques différentes (clés dans la carte). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l’option de décision.
+**Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent présenter des caractéristiques différentes (clés dans la carte). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l’option de décision.
 **Type :** objet
 
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
 #### _experience > prise de décision > contenu
 
-**Champ :** contenus
-**Titre** Détails du contenu 
-**Description**: Eléments de contenu pour rendre l’élément de décision dans différents contextes. Une seule option de décision peut comporter plusieurs variantes de contenu. Le contenu est une information destinée à une audience destinée à être consommée dans une expérience (numérique). Le contenu est diffusé à travers des canaux dans un emplacement particulier.
+**Champ :** contenu 
+**Titre :** détails du contenu 
+**Description :** éléments de contenu pour afficher l’élément de décision dans différents contextes. Une seule option de décision peut comporter plusieurs variantes de contenu. Le contenu est une information destinée à une audience destinée à être consommée dans une expérience (numérique). Le contenu est diffusé à travers des canaux dans un emplacement particulier.
 **Type :** tableau
 
 **_experience > prise de décision > contenu > composants**
@@ -65,7 +65,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **_experience > prise de décision > contenu > composants > Type de composant de contenu**
 
    **Champ :** _type
-   **Titre :** Type de composant de contenu
+   **Titre :** type de composant de contenu
    **Description :** ensemble énuméré d’URI où chaque valeur correspond à un type donné du composant de contenu. Certains consommateurs des représentations de contenu s’attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
    **Type :** chaîne
 
@@ -78,7 +78,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **Format**
 
       **Champ :** format
-      **Titre :** Format
+      **Titre :** format
       **Description :** Manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. La bonne pratique consiste à sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de médias Internet] (http://www.iana.org/ assignments/media-types/) définissant les formats de médias informatiques).
       **Type :**chaîne
       **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
@@ -86,7 +86,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **Langue**
 
       **Champ :** langue
-      **Titre :** Langue
+      **Titre :** langue
       **Description :** La ou les langues de la ressource. \nLes langues sont spécifiées dans le code de langue tel que défini dans [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), qui fait partie du BCP 47, utilisé ailleurs dans XDM.
       **Type :** tableau
       **Exemples :** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
@@ -99,27 +99,27 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **identifiant**
 
       **Champ :** id
-      **Description :** Un identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
       **Type :**Chaîne
       **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
       **Champ :** name
-      **Description :** Quelques conseils sur l&#39;emplacement du référentiel qui stocke l&#39;actif externe par le \&quot;repo:id\&quot;.
+      **Description :** conseils sur l’emplacement du référentiel qui stocke la ressource externe par le \&quot;repo:id\&quot;.
       **Type :** Chaîne
 
    * **repositoryID**
 
       **Champ :** repositoryID
-      **Description :** Un identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
       **Type :**Chaîne
       **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Champ :** resolveURL
-      **Description :** Un localisateur de ressources unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d’obtenir la ressource sans que le client comprenne où la ressource est gérée et les API à appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus utile.
+      **Description :** localisateur de ressources unique facultatif permettant de lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d’obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus utile.
       **Type :**Chaîne
       **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
@@ -132,7 +132,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **_experience > prise de décision > contenu > composants > deliveryURL**
 
    **Champ :** deliveryURL
-   **Description :** Un localisateur de ressources unique facultatif pour obtenir le fichier à partir d’un réseau de diffusion de contenu ou d’un point de terminaison de service. Cette URL permet d’accéder publiquement à la ressource par un agent utilisateur.
+   **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d’accéder publiquement à la ressource par un agent utilisateur.
    **Type :**Chaîne
    **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
@@ -147,28 +147,28 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** 
 **Titre du placement :** Emplacement 
-**Description :** Emplacement à respecter. La valeur est l’URI (@id) de l’emplacement d’offre qui est référencé. Voir schéma https://ns.adobe.com/experience/decisioning/placement.
+**Description :** Emplacement à respecter. La valeur est l’URI (@id) de l’emplacement d’offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
 **Type :** Chaîne
 
 #### _experience > prise de décision > État du cycle de vie
 
-**Champ :** lifecycleStatus 
-**Title :** Lifecycle Status 
-**Description :** Le statut de cycle de vie permet d’exécuter des workflows avec un objet. L’état peut avoir une incidence lorsqu’un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
+**Champ :** lifecycleStatus
+**Titre :** statut du cycle de vie
+**Description :** le statut de cycle de vie permet d’exécuter des workflows avec un objet. L’état peut avoir une incidence lorsqu’un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
 **Type :** string Valeurs 
 **possibles :**  &quot;Brouillon&quot; (par défaut), &quot;Approuvé&quot;, &quot;En direct&quot;, &quot;Terminé&quot;, &quot;Archivé&quot;
 
 #### _experience > prise de décision > Nom de l’option de décision
 
-**Champ :** name
-**Titre :** Nom d&#39;option de décision
-**Description:** Nom d&#39;option affiché dans diverses interfaces utilisateur.
+**Champ :** nom
+**Titre :** nom de l’option de décision
+**Description :** nom d’option affiché dans diverses interfaces utilisateur.
 **Type :** Chaîne
 
 #### _experience > prise de décision > balises
 
 **Champ :** balises 
-**Titre :** Balises 
+**Titre :** balises 
 **Description :** ensemble de balises associées à cette entité. Les balises sont utilisées dans les expressions de filtre pour limiter l’inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
