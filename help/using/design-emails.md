@@ -1,30 +1,29 @@
 ---
-title: Courriels de création
-description: Découvrez comment concevoir vos courriels
-translation-type: tm+mt
+title: Conception d'e-mails
+description: Découvrez comment concevoir vos e-mails
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Commencer la conception de courrier électronique {#get-started-content-design}
+# Prise en main de la conception d&#39;e-mails {#get-started-content-design}
 
 ![](assets/do-not-localize/badge.png)
 
-Lors de la création de contenu de courrier électronique avec [!DNL Journey Optimizer], vous pouvez :
+Lors de la création de contenu d&#39;e-mails avec [!DNL Journey Optimizer], vous pouvez :
 
-* **Concevez vos e-mails à** partir de rien dans l&#39;interface du concepteur de vos e-mails et tirez parti des images de  [Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir votre contenu de messagerie ou utiliser des modèles intégrés [dans cette section](create-email-content.md).
+* **Concevoir vos e-mails à partir de rien** dans l&#39;interface du concepteur d&#39;e-mail et tirer parti des images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir votre contenu d&#39;e-mail ou utiliser des modèles intégrés [dans cette section](create-email-content.md).
 
-* **Code ou collez** du code HTML brut directement dans le concepteur de courrier électronique. Découvrez comment coder votre propre contenu [dans cette section](existing-content.md#import-raw-html-code).
+* **Codez ou collez du code HTML brut** directement dans le concepteur d&#39;email. Découvrez comment coder votre propre contenu [dans cette section](existing-content.md#import-raw-html-code).
 
-* **Importez du** contenu HTML existant à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu de courriel [dans cette section](existing-content.md#import-html-content-from-file).
+* **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu d&#39;e-mail [dans cette section](existing-content.md#import-html-content-from-file).
 
-Ces fonctionnalités sont toutes disponibles lors de l’accès au Concepteur de courriers électroniques à partir de l’écran de création de messages. [En savoir plus sur la création](create-message.md) de messages.
+Ces fonctionnalités sont toutes disponibles lors de l’accès au concepteur d’email à partir de l’écran de création de messages. [En savoir plus sur la création de messages](create-message.md).
 
 ![](assets/content-editors.png)
 
 >[!NOTE]
 >
->Notez que les modèles de la zone inférieure sont statiques et ne peuvent pas être modifiés. Elles ne sont disponibles qu&#39;à titre d&#39;illustration.
+>Notez que les modèles de la zone inférieure sont statiques et ne peuvent pas être modifiés. Ils ne sont disponibles qu&#39;à titre d&#39;illustration.
