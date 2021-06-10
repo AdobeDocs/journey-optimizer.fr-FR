@@ -27,53 +27,53 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 ## Identifiant
 
 **Champ :** _id 
-**Titre :** Identifier 
-**Description :** Identificateur unique pour l’enregistrement.
+**Titre :** identifiant 
+**Description :** identifiant unique de l’enregistrement.
 **Type :** Chaîne
 
-## _expérience
+## _experience
 
 **Champ :** _experience 
 **Type :** objet
 
 ### _experience > prise de décision
 
-**Champ :** décision 
+**Champ :** prise de décision
 **Type :** objet
 
 #### _experience > prise de décision > calendarConstraints
 
 **Champ :** calendarConstraints 
 **Titre :** Détails de la contrainte Calendrier 
-**Description :** Les contraintes Calendrier déterminent si une option de décision est valide dans une plage de dates. En dehors de cette plage de dates, l&#39;option ne peut pas être proposée.
+**Description :** les contraintes Calendrier déterminent si une option de décision est valide dans une plage de dates. En dehors de cette plage de dates, l&#39;option ne peut pas être proposée.
 **Type :** objet
 
 * **Date et heure de fin**
 
    **Champ :** endDate
    **Titre :** Date et heure de fin
-   **Description :** La date de fin de validité des options de décision. Les options qui ont dépassé leur date de fin ne peuvent plus être proposées dans le processus de décision.
+   **Description :** date de fin de validité des options de décision. Les options qui ont dépassé leur date de fin ne peuvent plus être proposées dans le processus de décision.
    **Type :** Chaîne
 
 * **Date et heure de début**
 
    **Champ :** startDate
    **Titre :** Date et heure de début
-   **Description :** La date de début de validité des options de décision. Les options qui n&#39;ont pas atteint leur date de début ne peuvent pas encore être proposées dans le processus de prise de décision.
+   **Description :** date de début de validité des options de décision. Les options qui n&#39;ont pas atteint leur date de début ne peuvent pas encore être proposées dans le processus de prise de décision.
    **Type :** Chaîne
 
 #### _experience > prise de décision > caractéristiques
 
 **Champ :** caractéristiques 
 **Titre :** Caractéristiques d&#39;option de décision
-**Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent présenter des caractéristiques différentes (clés dans la carte). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l’option de décision.
+**Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent présenter des caractéristiques différentes (clés dans la carte). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l’option de décision.
 **Type :** objet
 
 #### _experience > prise de décision > contenu
 
-**Champ :** contenus
-**Titre** Détails du contenu 
-**Description**: Eléments de contenu pour rendre l’élément de décision dans différents contextes. Une seule option de décision peut comporter plusieurs variantes de contenu. Le contenu est une information destinée à une audience destinée à être consommée dans une expérience (numérique). Le contenu est diffusé à travers des canaux dans un emplacement particulier.
+**Champ :** contenu 
+**Titre :** détails du contenu 
+**Description :** éléments de contenu pour afficher l’élément de décision dans différents contextes. Une seule option de décision peut comporter plusieurs variantes de contenu. Le contenu est une information destinée à une audience destinée à être consommée dans une expérience (numérique). Le contenu est diffusé à travers des canaux dans un emplacement particulier.
 **Type :** tableau
 
 **_experience > prise de décision > contenu > composants**
@@ -86,7 +86,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **_experience > prise de décision > contenu > composants > Type de composant de contenu**
 
    **Champ :** _type
-   **Titre :** Type de composant de contenu
+   **Titre :** type de composant de contenu
    **Description :** Un ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s’attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
    **Type :** Chaîne
 
@@ -99,14 +99,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **Format**
 
       **Champ :** format
-      **Titre :** Format
+      **Titre :** format
       **Description :** Manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de média Internet](http://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques).
       **Type :**Chaîne
       **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Langue**
       **Champ :** langue
-      **Titre :** Langue
+      **Titre :** langue
       **Description :** La ou les langues de la ressource. \nLes langues sont spécifiées dans le code de langue tel que défini dans [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), qui fait partie du BCP 47, utilisé ailleurs dans XDM.
       **Type :** tableau
       **Exemples :** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
@@ -119,27 +119,27 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **identifiant**
 
       **Champ :** id
-      **Description :** Un identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
       **Type :**Chaîne
       **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
       **Champ :** name
-      **Description :** Quelques conseils sur l&#39;emplacement du référentiel qui stocke l&#39;actif externe par le \&quot;repo:id\&quot;.
+      **Description :** conseils sur l’emplacement du référentiel qui stocke la ressource externe par le \&quot;repo:id\&quot;.
       **Type :** Chaîne
 
    * **repositoryID**
 
       **Champ :** repositoryID
-      **Description :** Un identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s’attendre à ce qu’une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
       **Type :**Chaîne
       **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Champ :** resolveURL
-      **Description :** Un localisateur de ressources unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d’obtenir la ressource sans que le client comprenne où la ressource est gérée et les API à appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus utile.
+      **Description :** localisateur de ressources unique facultatif permettant de lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d’obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus utile.
       **Type :**Chaîne
       **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
@@ -152,7 +152,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **_experience > prise de décision > contenu > composants > deliveryURL**
 
    **Champ :** deliveryURL
-   **Description :** Un localisateur de ressources unique facultatif pour obtenir le fichier à partir d’un réseau de diffusion de contenu ou d’un point de terminaison de service. Cette URL permet d’accéder publiquement à la ressource par un agent utilisateur.
+   **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d’accéder publiquement à la ressource par un agent utilisateur.
    **Type :**Chaîne
    **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
@@ -167,22 +167,22 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** 
 **Titre du placement :** Emplacement 
-**Description :** Emplacement à respecter. La valeur est l’URI (@id) de l’emplacement d’offre qui est référencé. Voir schéma https://ns.adobe.com/experience/decisioning/placement.
+**Description :** Emplacement à respecter. La valeur est l’URI (@id) de l’emplacement d’offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
 **Type :** Chaîne
 
 #### _experience > prise de décision > État du cycle de vie
 
-**Champ :** lifecycleStatus 
-**Title :** Lifecycle Status 
-**Description :** Le statut de cycle de vie permet d’exécuter des workflows avec un objet. L’état peut avoir une incidence lorsqu’un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
+**Champ :** lifecycleStatus
+**Titre :** statut du cycle de vie
+**Description :** le statut de cycle de vie permet d’exécuter des workflows avec un objet. L’état peut avoir une incidence lorsqu’un objet est visible ou jugé pertinent. Les modifications de statut sont effectuées par les clients ou les services qui utilisent les objets.
 **Type :** string Valeurs 
 **possibles :**  &quot;Brouillon&quot; (par défaut), &quot;Approuvé&quot;, &quot;En direct&quot;, &quot;Terminé&quot;, &quot;Archivé&quot;
 
 #### _experience > prise de décision > Nom de l’option de décision
 
-**Champ :** name
-**Titre :** Nom d&#39;option de décision
-**Description:** Nom d&#39;option affiché dans diverses interfaces utilisateur.
+**Champ :** nom
+**Titre :** nom de l’option de décision
+**Description :** nom d’option affiché dans diverses interfaces utilisateur.
 **Type :** Chaîne
 
 #### _experience > prise de décision > profileConstraints
@@ -203,7 +203,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** 
 **Titre de la règle d’éligibilité :** 
-**Description de la règle d’éligibilité :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d’autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l’option est admissible pour un profil donné. La valeur est l’URI (@id) de la règle d’éligibilité référencée. Voir schéma https://ns.adobe.com/experience/decisioning/rule.
+**Description de la règle d’éligibilité :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d’autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l’option est admissible pour un profil donné. La valeur est l’URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 
 **_experience > prise de décision > profileConstraints > Type de contrainte de profil**
@@ -214,7 +214,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Type :** string Valeurs 
 **possibles :**
 * &quot;none&quot; (par défaut)
-* &quot;éligibilitéRule&quot; : « La contrainte de profil est exprimée sous la forme d’une règle unique qui doit être évaluée comme égale à true avant que l’action contrainte ne soit autorisée. »
+* &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d’une règle unique qui doit être évaluée comme égale à true avant que l’action contrainte ne soit autorisée. »
 * &quot;anySegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit être membre d&#39;au moins l&#39;un d&#39;eux avant que l&#39;action contrainte ne soit autorisée. »
 * &quot;allSegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit en être membre pour que l&#39;action restreinte soit autorisée. »
 * &quot;règles&quot; : « La contrainte de profil est exprimée sous la forme d&#39;un certain nombre de règles différentes, par exemple l&#39;éligibilité, l&#39;applicabilité, l&#39;adaptabilité, qui doivent toutes être vérifiées avant que l&#39;action contrainte ne soit autorisée. »
@@ -229,14 +229,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **Identifiant**
 
    **Champ :** _id
-   **Titre :** Identifiant
+   **Titre :** identifiant
    **Description :** Identité du segment dans l’espace de noms connexe.
    **Type :** Chaîne
 
 * **Espace de noms**
 
    **Champ :** espace de noms
-   **Titre :** Espace de noms
+   **Titre :** espace de noms
    **Description :** Espace de noms associé à l’attribut `xid`.
    **Type :** objet
    **Obligatoire :** &quot;code&quot;
@@ -244,7 +244,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **Code**
 
       **Champ :** code
-      **Titre :** Code
+      **Titre :** code
       **Description :** Le code est un identifiant lisible par l’homme pour l’espace de noms et peut être utilisé pour demander l’identifiant technique d’espace de noms utilisé pour le traitement des graphiques d’identités.
       **Type :** Chaîne
 
@@ -272,23 +272,23 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **Fonction de score**
 
    **Champ :** fonction
-   **Titre :** Fonction de score
-   **Description :** Une référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision seront ensuite classées en fonction de ce score. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir schéma https://ns.adobe.com/experience/decisioning/function.
+   **Titre :** fonction de score
+   **Description :** Une référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision seront ensuite classées en fonction de ce score. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
    **Type :** Chaîne
 
 * **Type d&#39;évaluation de commande**
 
    **Champ :** orderEvaluationType
-   **Titre :** Type d’évaluation de commande
+   **Titre :** type d’évaluation d’ordre
    **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
    **Type :**Chaîne
    **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Stratégie de ranking**
 
-   **Champ :** classementStratégie
-   **Titre :** Stratégie de ranking
-   **Description :** Une référence à une stratégie qui classe une option de liste de décision. Les options de décision seront renvoyées dans une liste ordonnée. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
+   **Champ :** rankingStrategy
+   **Titre :** stratégie de classement
+   **Description :** Une référence à une stratégie qui classe une option de liste de décision. Les options de décision seront renvoyées dans une liste ordonnée. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Type :** Chaîne
 
 **_experience > prise de décision > ranking > Priority**
