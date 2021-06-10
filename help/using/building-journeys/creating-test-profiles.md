@@ -18,7 +18,7 @@ Il existe différentes manières de créer un profil de test dans Adobe Experien
 
 La création d’un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 
-## Conditions préalables  {#test-profile-prerequisites}
+## Conditions préalables{#test-profile-prerequisites}
 
 Pour pouvoir créer des profils, il vous faut d’abord créer un schéma ainsi qu’un jeu de données dans Adobe [!DNL Journey Optimizer].
 
@@ -132,7 +132,7 @@ Dans Adobe Experience Platform, vous pouvez créer des profils en téléchargean
 1. Vérifiez que les profils de test ont été correctement ajoutés.
    ![](../assets/test-profiles-21.png)
 
-Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du test d’un parcours. Consultez [cette section](../building-journeys/testing-the-journey.md).
+Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du test d’un parcours. Reportez-vous à [cette section](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
 > Pour plus d’informations sur les imports de fichiers CSV, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials).
