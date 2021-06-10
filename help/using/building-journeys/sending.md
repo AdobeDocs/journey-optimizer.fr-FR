@@ -1,11 +1,10 @@
 ---
-title: Exécution du parcours début
-description: Découvrez comment début de votre parcours et envoyer des messages
-translation-type: tm+mt
+title: Débuter l'exécution du parcours
+description: Découvrez comment débuter de votre parcours et envoyer des messages
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 13%
 
 ![](../assets/do-not-localize/badge.png)
 
-## Testez votre parcours
+## Tester votre parcours
 
 Vous pouvez tester votre parcours à l’aide de profils de test. Cette étape est recommandée pour valider vos paramètres et messages.
 
@@ -43,33 +42,33 @@ Lorsque le contenu de votre message est défini et publié, il est prêt à êtr
 >
 >Vous pouvez ajouter un message qui est toujours en mode Version préliminaire à un parcours, mais assurez-vous que le message est publié avant de publier le parcours.
 
-Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au moyen de plusieurs indicateurs. [En savoir plus sur la surveillance de l’exécution](../message-monitoring.md) des messages.
+Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au moyen de plusieurs indicateurs. [En savoir plus sur la surveillance de l’exécution des messages](../message-monitoring.md).
 
-## Planifier les messages {#schedule-messages}
+## Planifier des messages {#schedule-messages}
 
-Les messages peuvent être planifiés via l&#39;activité **[!UICONTROL Lire le segment]** dans un [parcours](journey.md). Vous pouvez indiquer quand le segment va entrer dans le parcours. [En savoir plus sur l’activité](read-segment.md) du segment Lu.
+Les messages peuvent être planifiés via l&#39;activité **[!UICONTROL Lecture de segment]** dans un [parcours](journey.md). Vous pouvez indiquer quand le segment va rejoindre le parcours. [En savoir plus sur l’activité Lecture de segment](read-segment.md).
 
 Pour ce faire, procédez comme suit :
 
-1. Modifiez un parcours, faites glisser et déposez une activité **[!UICONTROL Lire le segment]** et configurez-la par début. [En savoir plus sur la configuration de l’activité](read-segment.md#configuring-segment-trigger-activity) de segment Lu.
+1. Modifiez un parcours, faites glisser et déposez une activité **[!UICONTROL Lecture de segment]** et commencez à la configurer. [En savoir plus sur la configuration de l’activité Lecture de segment](read-segment.md#configuring-segment-trigger-activity).
 
-1. Cliquez sur le lien **[!UICONTROL Modifier la planification du parcours]** pour accéder aux propriétés du parcours.
+1. Cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours.
 
    ![](../assets/message-read-segment-schedule.png)
 
-1. Configurez le champ **[!UICONTROL type de Planificateur]** : sélectionnez la valeur souhaitée dans la liste pour que le segment entre dans le parcours à une date/heure spécifique ou sur une base récurrente.
+1. Configurez le champ **[!UICONTROL Type de planificateur]** : sélectionnez la valeur souhaitée dans la liste pour que le segment rejoigne le parcours à une date/heure spécifique ou sur une base récurrente.
 
    >[!NOTE]
    >
-   >La section **[!UICONTROL Planification]** n&#39;est disponible que lorsqu&#39;une activité **[!UICONTROL Lire le segment]** a été déposée dans le canevas.
+   >La section **[!UICONTROL Planificateur]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture de segment]** a été déposée dans la zone de travail.
 
    ![](../assets/message-read-segment-scheduler.png)
 
-1. Si vous sélectionnez **[!UICONTROL Une fois]**, définissez une date et une heure spécifiques auxquelles le segment va entrer dans le parcours.
+1. Si vous sélectionnez **[!UICONTROL Une fois]**, définissez une date et une heure spécifiques auxquelles le segment va rejoindre le parcours.
 
    ![](../assets/message-read-segment-scheduler-once.png)
 
-1. Si vous sélectionnez une méthode périodique, modifiez la date et l’heure du début. Vous pouvez également définir une date et une heure de fin facultatives.
+1. Si vous sélectionnez une méthode récurrente, modifiez la date et l’heure du début. Vous pouvez également définir une date et une heure de fin facultatives.
 
    ![](../assets/message-read-segment-scheduler-daily.png)
 
