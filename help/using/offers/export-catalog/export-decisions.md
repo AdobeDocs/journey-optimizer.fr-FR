@@ -14,37 +14,37 @@ Chaque fois qu’une offre est modifiée, le jeu de données généré automatiq
 
 ![](../../assets/dataset-activities.png)
 
-Le lot le plus récent du jeu de données qui a réussi s&#39;affiche à droite. La vue hiérarchique du schéma du jeu de données s’affiche dans le volet de gauche.
+Le lot le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s’affiche dans le volet de gauche.
 
 >[!NOTE]
 >
->Découvrez comment accéder aux jeux de données exportés pour chaque objet de votre bibliothèque d’offres dans [cette section](../export-catalog/access-dataset.md).
+>Découvrez comment accéder aux jeux de données exportés pour chaque objet de la bibliothèque des offres dans [cette section](../export-catalog/access-dataset.md).
 
-Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d’objets de décision - Décisions]** (auparavant « Référentiel d’objets de décision - Activités »).
+Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d’objets de décision - Décisions]** (auparavant « Référentiel d’objets de décision - Activités »).
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
 ## Identifiant
 
 **Champ :** _id 
-**Titre :** Identifier 
-**Description :** Identificateur unique pour l’enregistrement.
+**Titre :** identifiant 
+**Description :** identifiant unique de l’enregistrement.
 **Type :** Chaîne
 
-## _expérience
+## _experience
 
 **Champ :** _experience 
 **Type :** objet
 
 ### _experience > prise de décision
 
-**Champ :** décision 
+**Champ :** prise de décision
 **Type :** objet
 
 #### _experience > prise de décision > critères
 
 **Champ :** critères
-**Titre :** Critères
+**Titre :** critères
 **Description :** définit un ensemble de critères de décision où chaque décision contient un ensemble de contraintes.
 **Type :** tableau
 
@@ -65,21 +65,21 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **Description**
 
    **Champ :** description
-   **Titre :** Description
+   **Titre :** description
    **Description :** description de la sélection d’options. Permet de véhiculer les intentions lisibles par l’homme sur la manière dont ou la raison pour laquelle cette sélection d’options a été effectuée et/ou qui indiquent l’option qui correspondra.
    **Type :** chaîne
 
 * **Filtre d’option**
 
    **Champ :** filtre
-   **Titre :** Filtre d’option
-   **Description :** référence à un filtre basé sur les balises qui associe les options d’un inventaire à l’aide de leurs balises jointes. La valeur est l’URI (@id) de la règle de décision référencée. Voir schéma https https://ns.adobe.com/experience/decisioning/filter.
+   **Titre :** filtre d’option
+   **Description :** référence à un filtre basé sur les balises qui associe les options d’un inventaire à l’aide de leurs balises jointes. La valeur est l’URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
    **Type :** chaîne
 
 * **Type de contrainte de profil**
 
    **Champ :** optionSelectionType
-   **Titre :** Type de contrainte de profil
+   **Titre :** type de contrainte de profil
    **Description :** détermine si des contraintes sont actuellement définies et comment elles sont exprimées. Cela peut être via une requête de filtre ou une ou plusieurs appartenances à un segment.
    **Type :** chaîne
    **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
@@ -87,9 +87,9 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **Liste d’options**
 
    **Champ :** options
-   **Titre :** Liste d’options
+   **Titre :** liste d’options
    **Description :** liste qui spécifie directement les options sans évaluer de requête de filtre. Vous pouvez spécifier une liste d’options ou une règle de filtre d’option.
-   **Type :** emplacements de
+   **Type :** tableau
 
    <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
@@ -100,10 +100,10 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Description :**  la contrainte de placement indique que ce critère s’applique uniquement aux emplacements répertoriés. Ce n’est que lorsque les emplacements ciblés figurent dans la liste `xdm:placements` que la sélection d’options est prise en compte. Sinon, l’ensemble des critères de décision est ignoré. Lorsque la liste xdm:placements est omise ou est vide, le critère est pris en compte pour tout emplacement ciblé. Les emplacements répertoriés ici imposent des critères implicites pour la sélection d’options. Une option à prendre en compte doit comporter une représentation pour l’emplacement ciblé.
 **Type :** tableau
 
-* **Identificateur d’emplacement**
+* **Identifiant d’emplacement**
 
-   **Titre :** Identificateur d’emplacement
-   **Description :** référence à une entité d’emplacement. La valeur est l’URI (@id) de l’emplacement qui est référencé. Voir schéma https://ns.adobe.com/experience/decisioning/placement.
+   **Titre :** identifiant d’emplacement
+   **Description :** référence à une entité d’emplacement. La valeur est l’URI (@id) de l’emplacement qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
    **Type :** Chaîne
 
 **_experience > prise de décision > critères > profileConstraints**
@@ -116,26 +116,26 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **_experience > prise de décision > critères > profileConstraints > Description**
 
    **Champ :** description
-   **Titre :** Description
+   **Titre :** description
    **Description :** Description des contraintes de profil. Elle est utilisée pour transmettre des intentions lisibles sur la façon et les raisons pour lesquelles cette contrainte de profil a été construite et/ou sur l&#39;option qui sera incluse ou exclue par elle.
    **Type :** Chaîne
 
 * **_experience > prise de décision > critères > profileConstraints > Règle d’éligibilité**
 
-   **Champ :** éligibilitéRule
-   **Titre :** Règle d&#39;éligibilité
-   **Description :** Une référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d’autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l’option est admissible pour un profil donné. La valeur est l’URI (@id) de la règle d’éligibilité référencée. Voir schéma https://ns.adobe.com/experience/decisioning/rule.
+   **Champ :** eligibilityRule
+   **Titre :** règle d’éligibilité
+   **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d’autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l’option est admissible pour un profil donné. La valeur est l’URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
    **Type :** Chaîne
 
 * **_experience > prise de décision > critères > profileConstraints > Type de contrainte de profil**
 
    **Champ :** profileConstraintType
-   **Titre :** Type de contrainte de profil
+   **Titre :** type de contrainte de profil
    **Description :** Détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s’agir d’une règle ou d’un ou plusieurs abonnements de segment.
    **Type :**Chaîne
    **Valeurs possibles :**
    * &quot;aucun&quot; (par défaut)
-   * &quot;éligibilitéRule&quot; : « La contrainte de profil est exprimée sous la forme d’une règle unique qui doit être évaluée comme égale à true avant que l’action contrainte ne soit autorisée. »
+   * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d’une règle unique qui doit être évaluée comme égale à true avant que l’action contrainte ne soit autorisée. »
    * &quot;anySegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit être membre d&#39;au moins l&#39;un d&#39;eux avant que l&#39;action contrainte ne soit autorisée. »
    * &quot;allSegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit en être membre pour que l&#39;action restreinte soit autorisée. »
    * &quot;règles&quot; : « La contrainte de profil est exprimée sous la forme d&#39;un certain nombre de règles différentes, par exemple l&#39;éligibilité, l&#39;applicabilité, l&#39;adaptabilité, qui doivent toutes être vérifiées avant que l&#39;action contrainte ne soit autorisée. »
@@ -143,21 +143,21 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **_experience > prise de décision > critères > profileConstraints > segmentIdentities**
 
    **Champ :** segmentIdentities
-   **Titre :** Identifiants de segment
+   **Titre :** identifiants de segment
    **Description :** identifiants des segments.
-   **Type :** identifiant de
+   **Type :** tableau
 
    * **Identifiant**
 
       **Champ :** _id
-      **Titre :** Identifiant
+      **Titre :** identifiant
       **Description :** Identité du segment dans l’espace de noms connexe.
       **Type :** Chaîne
 
    * **espace de noms**
 
       **Champ :** espace de noms
-      **Titre :** Espace de noms
+      **Titre :** espace de noms
       **Description :** Espace de noms associé à l’attribut `xid`.
       **Type :** objet
       **Obligatoire :** &quot;code&quot;
@@ -165,7 +165,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
       * **Code**
 
          **Champ :** code
-         **Titre :** Code
+         **Titre :** code
          **Description :** Le code est un identifiant lisible par l’homme pour l’espace de noms et peut être utilisé pour demander l’identifiant technique d’espace de noms utilisé pour le traitement des graphiques d’identités.
          **Type :** Chaîne
    * **Identifiant d’expérience**
@@ -186,36 +186,36 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * **_experience > prise de décision > critères > classement > ordre**
 
    **Champ :** order
-   **Titre :** Évaluation de commande
+   **Titre :** évaluation d’ordre
    **Description :** Évaluation d&#39;un ordre relatif d&#39;une ou de plusieurs options de décision. Les options dont les valeurs ordinales sont supérieures sont sélectionnées pour les options dont les valeurs ordinales sont inférieures. Les valeurs déterminées par cette méthode peuvent être ordonnées mais les distances entre elles ne peuvent pas être mesurées et ni les sommes ni les produits ne peuvent être calculés. La médiane et le mode sont les seules mesures de tendance centrale qui peuvent être utilisées pour les données ordinales.
    **Type :** objet
 
    * **Fonction de score**
 
       **Champ :** fonction
-      **Titre :** Fonction de score
-      **Description :** Une référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision seront ensuite classées en fonction de ce score. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir schéma https://ns.adobe.com/experience/decisioning/function.
+      **Titre :** fonction de score
+      **Description :** Une référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision seront ensuite classées en fonction de ce score. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
       **Type :** Chaîne
 
    * **Type d&#39;évaluation de commande**
 
       **Champ :** orderEvaluationType
-      **Titre :** Type d’évaluation de commande
+      **Titre :** type d’évaluation d’ordre
       **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
       **Type :**Chaîne
       **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
    * **Stratégie de ranking**
 
-      **Champ :** classementStratégie
-      **Titre :** Stratégie de ranking
-      **Description :** Une référence à une stratégie qui classe une option de liste de décision. Les options de décision seront renvoyées dans une liste ordonnée. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
+      **Champ :** rankingStrategy
+      **Titre :** stratégie de classement
+      **Description :** Une référence à une stratégie qui classe une option de liste de décision. Les options de décision seront renvoyées dans une liste ordonnée. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
       **Type :** Chaîne
 
 * **_experience > prise de décision > critères > classement > Priorité**
 
    **Champ :** priority
-   **Titre :** Priorité
+   **Titre :** priorité
    **Description :** La priorité d’une option de décision unique par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n’est fournie sont prioritaires à l’aide de cette propriété. Les options ayant des valeurs de priorité plus élevées sont sélectionnées avant les options de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
    **Type :** integer
    **Valeur minimale :** 0
@@ -231,7 +231,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 #### _experience > prise de décision > Option de secours
 
 **Champ :** secours
-**Titre :** Option de secours
+**Titre :** option de secours
 **Description :** référence à une option de secours utilisée lorsque la prise de décision dans le contexte de cette décision ne remplit aucune des options habituelles (cela se produit généralement lorsque des contraintes strictes sont appliquées). La valeur est l’URI (@id) de l’option de secours référencée.
 **Type :** chaîne
 
