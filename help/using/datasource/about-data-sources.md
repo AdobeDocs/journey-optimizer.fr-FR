@@ -1,11 +1,10 @@
 ---
 title: À propos des sources de données
 description: Découvrez comment configurer une source de données
-translation-type: tm+mt
 source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +24,7 @@ Elle vous permet de définir une connexion à un système afin de récupérer de
 * [Définition d’une attente personnalisée](../building-journeys/wait-activity.md#custom)
 * [Définition d’un fuseau horaire](../building-journeys/timezone-management.md)
 
-Cette configuration n’est pas requise si vos parcours utilisent uniquement les données locales provenant d’une payload d’événement. Par exemple, si votre parcours est composé d’un événement suivi d’une activité de message qui utilise uniquement les données du événement, il n’est pas nécessaire de configurer une source de données.
+Cette configuration n’est pas requise si vos parcours utilisent uniquement les données locales provenant d’une payload d’événement. Par exemple, si votre parcours comprend un événement suivi d’une activité d’email qui utilise uniquement les données de l’événement, il n’est pas nécessaire de configurer une source de données.
 
 Il existe deux types de sources de données :
 
@@ -34,4 +33,4 @@ Il existe deux types de sources de données :
 
 Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [cette page](../datasource/configure-data-sources.md#define-field-groups).
 
-Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=fr).
