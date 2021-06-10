@@ -1,11 +1,10 @@
 ---
 title: Événements de qualification de segment
 description: En savoir plus sur les événements de qualification de segment
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +24,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 >
 >N’oubliez pas que les segments Adobe Experience Platform sont calculés une fois par jour (segments **par lot**) ou en temps réel (segments **diffusés**, à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
 >
->Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent entrer dans le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
+>Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
 
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification de segment]** dans la zone de travail.
@@ -90,14 +89,14 @@ Pour plus d’informations sur la segmentation en diffusion continue, consultez 
 
 ### Éviter les surcharges{#overloads-speed-segment-qualification}
 
-Voici quelques bonnes pratiques qui aideront à éviter la surcharge des systèmes utilisés dans les parcours (sources de données, actions personnalisées, **activités Message**).
+Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités de **message**).
 
 Dans une activité **[!UICONTROL Qualification du segment]**, n’utilisez pas un segment par lot immédiatement après sa création. Il évitera le premier pic de calcul. Notez qu’un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser un segment qui n’a jamais été calculé.
 
 ![](../assets/segment-error.png)
 
-Mettez en place une règle de limitation pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger (consultez cette [section](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). Notez que la règle de limitation ne permet pas de nouvelle tentative. Si vous avez besoin d’effectuer une nouvelle tentative, vous devez utiliser un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les conditions ou les actions.
+Mettez en place une règle de limitation pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger (consultez cette [section](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr)). Notez que la règle de limitation ne permet pas de nouvelle tentative. Si vous avez besoin d’effectuer une nouvelle tentative, vous devez utiliser un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les conditions ou les actions.
 
-Avant d’utiliser le segment dans un parcours en production, évaluez toujours d’abord le volume de particuliers qualifiés pour ce segment tous les jours. Pour ce faire, vous pouvez vérifier le menu **[!UICONTROL Segments]**, ouvrir le segment, puis consulter le graphique **[!UICONTROL Profils au fil du temps]**.
+Avant d’utiliser le segment dans un parcours en production, évaluez toujours d’abord le volume de particuliers qualifiés pour ce segment tous les jours. Pour ce faire, vous pouvez vérifier le menu **[!UICONTROL Segments]**, ouvrir le segment, puis consulter le graphique **[!UICONTROL Profils sur toute la durée]**.
 
 ![](../assets/segment-overload.png)
