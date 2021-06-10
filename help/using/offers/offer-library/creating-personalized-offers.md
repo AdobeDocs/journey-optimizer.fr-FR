@@ -1,11 +1,10 @@
 ---
 title: Création d’offres personnalisées
 description: Découvrez comment créer des offres personnalisées dans Adobe Experience Platform.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +26,7 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 
 Pour créer une **offre**, procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Créer une offre]**, puis sélectionnez **[!UICONTROL offre personnalisée]**.
+1. Cliquez sur **[!UICONTROL Créer une offre]**, puis sélectionnez **[!UICONTROL Offre personnalisée]**.
 
    ![](../../assets/create_offer.png)
 
@@ -127,12 +126,12 @@ Elle est maintenant prête à être diffusée aux utilisateurs. Vous pouvez la s
 
 ![](../../assets/offer_created.png)
 
-Une fois une offre créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées, ainsi que surveiller toutes les modifications qui y ont été apportées à l&#39;aide de l&#39;onglet **[!UICONTROL Journal des modifications]** (voir [Surveillance des modifications apportées aux offres et décisions](../get-started/user-interface.md#monitoring-changes)).
+Une fois l’offre créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées et surveiller toutes les modifications qui y ont été apportées dans l’onglet **[!UICONTROL Log des modifications]** (voir [Surveillance des modifications apportées aux offres et aux décisions](../get-started/user-interface.md#monitoring-changes)).
 
 ## Tutoriel vidéo {#video}
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service d’applications d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, il fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Elle fournit toutefois des instructions générales sur l’utilisation d’Offer Decisioning dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
