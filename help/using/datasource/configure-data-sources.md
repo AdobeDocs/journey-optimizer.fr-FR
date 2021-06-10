@@ -1,11 +1,10 @@
 ---
-title: Configuration d’une source de données
-description: Découvrez comment configurer une source de données
-translation-type: tm+mt
+title: Configurer une source de données
+description: Découvrez comment configurer une source de données.
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ Les principales étapes de configuration d’une source de données sont les sui
 >
 >La configuration d’une source de données est toujours effectuée par un **utilisateur technique**.
 
-1. Sélectionnez le menu **[!UICONTROL Admin]** / **[!UICONTROL Sources de données]**.
+1. Sélectionnez le menu **[!UICONTROL Admin]**/**[!UICONTROL Sources de données]**.
 
    La liste des sources de données s’affiche. Voir [cette page](../user-interface.md) pour plus d’informations sur l’interface.
 
