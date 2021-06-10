@@ -98,7 +98,7 @@ La fonction `doesNotContain` permet de déterminer si une chaîne ne contient pa
 
 **Exemple**
 
-La requête suivante détermine si l’adresse électronique de la personne ne contient pas la chaîne « 2010@gm » en respectant la casse.
+La requête suivante détermine si l’adresse email de la personne ne contient pas la chaîne « 2010@gm » en respectant la casse.
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
@@ -123,7 +123,7 @@ La fonction `doesNotEndWith` permet de déterminer si une chaîne ne se termine 
 
 **Exemple**
 
-La requête suivante détermine si l’adresse électronique de la personne ne se termine pas par « .com » en respectant la casse.
+La requête suivante détermine si l’adresse e-mail de la personne ne se termine pas par « .com » en respectant la casse.
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
@@ -398,7 +398,7 @@ La fonction `Group` est utilisée pour extraire des informations spécifiques en
 
 **Exemple**
 
-La requête suivante est utilisée pour extraire le nom de domaine d’une adresse électronique.
+La requête suivante est utilisée pour extraire le nom de domaine d’une adresse email.
 
 ```sql
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
