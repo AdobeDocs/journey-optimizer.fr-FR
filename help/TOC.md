@@ -1,15 +1,15 @@
 ---
 product: experience cloud
 audience: end-user
-user-guide-title: Guide Journey Optimizer
-user-guide-description: Utilisation de Journey Optimizer pour fournir aux clients des expériences connectées, contextuelles et personnalisées
+user-guide-title: Guide de Journey Optimizer
+user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 84%
+source-wordcount: '635'
+ht-degree: 83%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 84%
       + [Prise en main](using/personalization/personalize.md)
       + [Zones de personnalisation](using/personalization/personalization-aeras.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Validation de personnalisation](using/personalization/personalization-validation.md)
-      + [Cas d’utilisation de personnalisation](using/personalization/personalization-use-case.md)
+      + [Validation de la personnalisation](using/personalization/personalization-validation.md)
+      + [Cas d’utilisation de la personnalisation](using/personalization/personalization-use-case.md)
       + Fonctions d’assistance{#functions}
          + [Liste des fonctions d’assistance](using/personalization/functions/functions.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
@@ -66,6 +66,7 @@ ht-degree: 84%
       + [Limites](using/building-journeys/limitations.md)
       + [Versions de parcours](using/building-journeys/journey-versions.md)
       + [Profils de test](using/building-journeys/creating-test-profiles.md)
+      + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Création d‘un parcours{#create-journey}
       + [Prise en main des parcours](using/building-journeys/journey-gs.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
@@ -90,12 +91,12 @@ ht-degree: 84%
       + [Envoi de messages à plusieurs canaux](using/building-journeys/journeys-uc.md)
 + Tracker et suivre vos diffusions {#reporting}
    + [Tracking des messages](using/message-tracking.md)
-   + [Surveillance de messages](using/message-monitoring.md)
-   + Rapports dynamiques {#live-report}
+   + [Surveillance des messages](using/message-monitoring.md)
+   + Rapport dynamique {#live-report}
       + [Présentation](using/reports/live-report.md)
-      + [Rapport dynamique de parcours](using/reports/journey-live-report.md)
-      + [Rapport dynamique d&#39;e-mail](using/reports/email-live-report.md)
-      + [Rapport dynamiques sur les notifications push](using/reports/push-live-report.md)
+      + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
+      + [Rapport dynamique sur les emails](using/reports/email-live-report.md)
+      + [Rapport dynamique sur les notifications push](using/reports/push-live-report.md)
    + Rapport global {#global-report}
       + [Présentation](using/reports/global-report.md)
       + [Rapport global de parcours](using/reports/journey-global-report.md)
@@ -112,7 +113,7 @@ ht-degree: 84%
       + [Prise en main de la délivrabilité](using/deliverability.md)
       + [Liste de suppression](using/suppression-list.md)
 + Gestion des décisions {#offer-decisioniong}
-   + Prise en main de la gestion de décisions {#get-started}
+   + Prise en main de Decision Management {#get-started}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface utilisateur](using/offers/get-started/user-interface.md)
       + [Glossaire](using/offers/get-started/glossary.md)
@@ -126,7 +127,7 @@ ht-degree: 84%
       + [Création de collections](using/offers/offer-library/creating-collections.md)
       + [Création de formules de classement](using/offers/offer-library/create-ranking-formulas.md)
    + Création et gestion de décisions {#create-manage-activities}
-      + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
+      + [Créer des décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configuration de la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
    + Création de rapports de gestion de décisions {create-reports}
       + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
@@ -179,7 +180,7 @@ ht-degree: 84%
             + [Mise à jour d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Suppression d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
       + Créer et gérer des décisions à l’aide d’API {#activities-api}
-         + [Décisions de liste](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [Répertorier les décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Recherche d’une décision](using/offers/api-reference/activities-api/activities/lookup.md)
          + [Création d&#39;une décision](using/offers/api-reference/activities-api/activities/create.md)
          + [Mise à jour d&#39;une décision](using/offers/api-reference/activities-api/activities/update.md)
@@ -208,13 +209,14 @@ ht-degree: 84%
          + [Modifier l’adresse Principale du courrier électronique](using/configuration/primary-email-addresses.md)
    + Configurer des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
+      + [Intégration avec des systèmes externes](using/configuration/external-systems.md)
       + Configuration des événements {#events-journeys}
          + [Principe général](using/event/about-events.md)
          + Configuration d&#39;un événement unitaire {#unitary-events}
             + [Prise en main des événements unitaires](using/event/about-creating.md)
             + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
             + [Tirer profit d&#39;Adobe Analytics](using/event/about-analytics.md)
-         + [Configuration d’un événement d&#39;entreprise](using/event/about-creating-business.md)
+         + [Configuration d’un événement métier](using/event/about-creating-business.md)
          + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
       + Configuration d&#39;une source de données{#data-source-journeys}
          + [À propos des sources de données](using/datasource/about-data-sources.md)
