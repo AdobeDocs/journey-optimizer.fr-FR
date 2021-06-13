@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 83%
@@ -117,36 +117,36 @@ ht-degree: 83%
       + [Interface utilisateur](using/offers/get-started/user-interface.md)
       + [Glossaire](using/offers/get-started/glossary.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
-      + [Étapes clés de la création d’une offre](using/offers/offer-library/key-steps.md)
-      + [Création d’emplacements](using/offers/offer-library/creating-placements.md)
+      + [Étapes clés de la création d&#39;une offre](using/offers/offer-library/key-steps.md)
+      + [Création d&#39;emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
       + [Création de balises](using/offers/offer-library/creating-tags.md)
-      + [Création d’offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
-      + [Création d’offres de secours](using/offers/offer-library/creating-fallback-offers.md)
+      + [Création d&#39;offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
+      + [Création d&#39;offres de secours](using/offers/offer-library/creating-fallback-offers.md)
       + [Création de collections](using/offers/offer-library/creating-collections.md)
       + [Création de formules de classement](using/offers/offer-library/create-ranking-formulas.md)
-   + Création et gestion de décisions {#create-manage-activities}
-      + [Créer des décisions](using/offers/offer-activities/create-offer-activities.md)
+   + Création et gestion des décisions {#create-manage-activities}
+      + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configuration de la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
    + Création de rapports de gestion de décisions {create-reports}
       + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
-   + Export de votre catalogue d’offres {#export-catalog}
-      + [Prise en main de l’export de catalogues d’offres ](using/offers/export-catalog/get-started-export.md)
-      + [Accès au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
-      + [Jeu de données d’offres personnalisées](using/offers/export-catalog/export-offers.md)
+   + Export de votre catalogue d&#39;offres {#export-catalog}
+      + [Prise en main de l&#39;export de catalogues d&#39;offres ](using/offers/export-catalog/get-started-export.md)
+      + [Accès au catalogue d&#39;offres exporté](using/offers/export-catalog/access-dataset.md)
+      + [Jeu de données d&#39;offres personnalisées](using/offers/export-catalog/export-offers.md)
       + [Jeu de données de décisions](using/offers/export-catalog/export-decisions.md)
       + [Jeu de données d&#39;emplacements](using/offers/export-catalog/export-placements.md)
       + [Jeu de données de secours](using/offers/export-catalog/export-fallback.md)
-   + Référence d’API {#api-reference}
+   + Référence d&#39;API {#api-reference}
       + [Prise en main](using/offers/api-reference/getting-started.md)
-      + Créer et gérer des offres à l’aide d’API {#offers-api}
+      + Créer et gérer des offres à l&#39;aide d&#39;API {#offers-api}
          + Emplacements {#placements}
             + [Liste des placements](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [Recherche d’un placement](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [Création d’un placement](using/offers/api-reference/offers-api/placements/create.md)
-            + [Mise à jour d’un placement](using/offers/api-reference/offers-api/placements/update.md)
+            + [Recherche d&#39;un emplacement](using/offers/api-reference/offers-api/placements/lookup.md)
+            + [Création d&#39;un emplacement](using/offers/api-reference/offers-api/placements/create.md)
+            + [Mise à jour d&#39;un emplacement](using/offers/api-reference/offers-api/placements/update.md)
             + [Supprimer un emplacement](using/offers/api-reference/offers-api/placements/delete.md)
          + Règles de décision {#decision-rules}
             + [Liste des règles de décision](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
@@ -156,7 +156,7 @@ ht-degree: 83%
             + [Supprimer une règle de décision](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Balises {#tags}
             + [Liste des balises](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Recherche d’une balise](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Recherche d&#39;une balise](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Créer une balise](using/offers/api-reference/offers-api/tags/create.md)
             + [Mettre à jour une balise](using/offers/api-reference/offers-api/tags/update.md)
             + [Supprimer une balise](using/offers/api-reference/offers-api/tags/delete.md)
@@ -168,22 +168,22 @@ ht-degree: 83%
             + [Supprimer une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/delete.md)
          + Collections {#collections}
             + [Liste des collections](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [Recherche d’une collection](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [Création d’une collection](using/offers/api-reference/offers-api/collections/create.md)
+            + [Recherche d&#39;une collection](using/offers/api-reference/offers-api/collections/lookup.md)
+            + [Création d&#39;une collection](using/offers/api-reference/offers-api/collections/create.md)
             + [Mettre à jour une collection](using/offers/api-reference/offers-api/collections/update.md)
-            + [Suppression d’une collection](using/offers/api-reference/offers-api/collections/delete.md)
+            + [Suppression d&#39;une collection](using/offers/api-reference/offers-api/collections/delete.md)
          + Offres de secours {#fallback-offers}
             + [Liste des offres de secours](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [Rechercher une offre de secours](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [Création d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [Mise à jour d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [Suppression d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Créer et gérer des décisions à l’aide d’API {#activities-api}
-         + [Répertorier les décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [Recherche d’une décision](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Création d&#39;une décision](using/offers/api-reference/activities-api/activities/create.md)
-         + [Mise à jour d&#39;une décision](using/offers/api-reference/activities-api/activities/update.md)
-         + [Suppression d&#39;une décision](using/offers/api-reference/activities-api/activities/delete.md)
+            + [Création d&#39;une offre de secours](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Mise à jour d&#39;une offre de secours](using/offers/api-reference/offers-api/fallback-offers/update.md)
+            + [Suppression d&#39;une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+      + Créer et gérer des décisions à l&#39;aide d&#39;API {#activities-api}
+         + [Liste des décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [Recherche une décision](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [Création d’une décision](using/offers/api-reference/activities-api/activities/create.md)
+         + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
+         + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
       + Diffusion d’offres à l’aide d’API {#offer-delivery}
          + [API Decisions](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK web Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
