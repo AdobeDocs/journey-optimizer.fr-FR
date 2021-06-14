@@ -1,9 +1,13 @@
 ---
 title: Surveillance de l’exécution des messages
 description: Découvrez les instructions de surveillance et de délivrabilité
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Délivrabilité
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '557'
 ht-degree: 98%
 
 ---
