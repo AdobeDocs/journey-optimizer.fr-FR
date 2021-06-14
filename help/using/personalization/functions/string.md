@@ -1,9 +1,13 @@
 ---
-title: Bibliothèque de fonctions
-description: Bibliothèque de fonctions
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+title: Bibliothèque de fonctions de chaîne
+description: Bibliothèque de fonctions de chaîne
+feature: Personnalisation
+topic: Personnalisation
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1201'
 ht-degree: 58%
 
 ---
