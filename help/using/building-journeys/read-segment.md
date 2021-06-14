@@ -1,9 +1,13 @@
 ---
 title: Utilisation d’un segment dans un parcours
 description: Découvrez comment utiliser un segment dans un parcours
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '968'
+feature: Parcours
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '971'
 ht-degree: 100%
 
 ---
