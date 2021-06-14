@@ -1,10 +1,14 @@
 ---
 title: Création de paramètres de message prédéfinis
 description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: Paramétrage de l’application
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 1%
 
 ---
 
