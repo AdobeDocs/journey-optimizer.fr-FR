@@ -1,9 +1,13 @@
 ---
 title: Gestion de la désinscription
 description: Découvrez comment gérer la désinscription et la confidentialité
-source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
+feature: Parcours
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '616'
 ht-degree: 100%
 
 ---
