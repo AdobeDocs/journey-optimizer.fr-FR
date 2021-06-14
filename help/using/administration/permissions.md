@@ -12,9 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: Populations témoins
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 16%
 
 ---
@@ -53,7 +57,7 @@ Pour attribuer un **[!UICONTROL profil de produit]** :
 
    ![](../assets/access_control_3.png)
 
-1. Saisissez le nom ou l’adresse email de votre utilisateur et sélectionnez l’utilisateur.
+1. Saisissez le nom ou l’adresse email de votre utilisateur et sélectionnez-le.
 
    Si l’utilisateur n’a pas été précédemment créé dans le [!DNL Admin Console], reportez-vous à la [documentation Ajouter des utilisateurs](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
@@ -63,7 +67,7 @@ Pour attribuer un **[!UICONTROL profil de produit]** :
 
 L’utilisateur doit alors recevoir un email le redirigeant vers votre instance.
 
-Pour plus d’informations sur la gestion des utilisateurs, consultez la [documentation du Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+Pour plus d’informations sur la gestion des utilisateurs, consultez la [documentation du Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
 Lors de l’accès à l’instance, l’utilisateur voit une vue spécifique en fonction des autorisations attribuées dans le **[!UICONTROL profil de produit]**. Si l’utilisateur ne dispose pas du droit d’accès à une fonctionnalité, l’écran suivant s’affiche.
 
@@ -109,7 +113,7 @@ Si nécessaire, vous pouvez également créer un profil de produit avec des auto
 
 [!DNL Journey Optimizer] vous permet de créer vos propres  **** profils de produit et d’attribuer un ensemble d’autorisations et d’environnements Sandbox à vos utilisateurs. Avec **[!UICONTROL Profils de produit]**, vous pouvez autoriser ou refuser l’accès à certaines fonctionnalités ou objets de l’interface.
 
-Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Pour plus d’informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr).
 
 
 Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** où nous accorderons des droits en lecture seule à la fonction de Parcours. Les utilisateurs ne pourront accéder qu’aux parcours et les afficher. Ils ne pourront pas accéder à d’autres fonctionnalités telles que **[!UICONTROL Gestion des décisions]** ou **[!UICONTROL Messages]** dans [!DNL Journey Optimizer].
@@ -150,7 +154,7 @@ Pour créer nos **Parcours en lecture seule** **[!UICONTROL profils de produit]*
 
    ![](../assets/access_control_13.png)
 
-1. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
