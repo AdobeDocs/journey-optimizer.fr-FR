@@ -1,9 +1,13 @@
 ---
 title: Activité de condition
 description: En savoir plus sur l’activité de condition
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '922'
+feature: Parcours
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '925'
 ht-degree: 100%
 
 ---
@@ -16,7 +20,7 @@ Les types de conditions disponibles sont au nombre de quatre :
 
 * [Condition de source de données](#data_source_condition)
 * [Condition de temps](#time_condition)
-* [Division en pourcentage](#percentage_split)
+* [Partage en pourcentage](#percentage_split)
 * [Condition de date](#date_condition)
 
 ![](../assets/journey49.png)
@@ -55,7 +59,7 @@ Lorsqu’une erreur se produit dans une action ou une condition, le parcours d�
 
 ## Condition de source de données {#data_source_condition}
 
-Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Pour savoir comment utiliser l’éditeur d’expression, voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr). L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. Voir [cette page](../datasource/external-data-sources.md).
+Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Pour savoir comment utiliser l’éditeur d’expression, voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html). L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. Voir [cette page](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
