@@ -1,9 +1,13 @@
 ---
 title: Mettre des décisions à jour
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '158'
+feature: Offres
+topic: Intégrations
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '160'
 ht-degree: 100%
 
 ---
@@ -12,18 +16,18 @@ ht-degree: 100%
 
 Vous pouvez modifier ou mettre à jour une décision dans votre conteneur en exécutant une requête PATCH sur l’API [!DNL Offer Library].
 
-Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
+Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
 ## En-têtes Accepter et Type de contenu
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Type de contenu* et *Accepter* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
-| Nom de l’en-tête | Valeur |
+| Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
-**Format d’API**
+**Format d&#39;API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -31,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | ID d’instance de la décision. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
@@ -57,8 +61,8 @@ curl -X PATCH \
 
 | Paramètre | Description |
 | --------- | ----------- |
-| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
-| `path` | Chemin d’accès du paramètre à mettre à jour. |
+| `op` | Appel d&#39;opération utilisé pour définir l&#39;action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
+| `path` | Chemin d&#39;accès du paramètre à mettre à jour. |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 
 **Réponse**
