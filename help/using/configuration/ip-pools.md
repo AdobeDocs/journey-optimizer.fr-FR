@@ -1,6 +1,6 @@
 ---
 title: Création de pools d’adresses IP
-description: Découvrez comment xxxx
+description: '"Découvrez comment gérer les ip-pools"'
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 2d8b7bbaee7509d4cc33445c64b2382ed14a9678
+feature: Paramétrage de l’application
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
