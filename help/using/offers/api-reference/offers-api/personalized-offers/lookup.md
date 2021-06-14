@@ -1,9 +1,13 @@
 ---
 title: Liste des offres personnalisées
 description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '174'
+feature: Offres
+topic: Intégrations
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -14,7 +18,7 @@ Une offre personnalisée est un message marketing personnalisable basé sur des 
 
 Vous pouvez rechercher des offres personnalisées spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit l’offre personnalisée `@id` soit le nom de l’offre personnalisée dans le chemin de la requête.
 
-**Format d’API**
+**Format d&#39;API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
@@ -22,7 +26,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les offres personnalisées. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Définit le schéma associé aux offres personnalisées. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres « id » et « name » ne peuvent pas être utilisés ensemble. | `xcore:personalized-offer:124cc332095cfa74` |
