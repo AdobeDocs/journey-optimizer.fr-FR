@@ -1,16 +1,20 @@
 ---
 title: Création de collections
-description: Découvrez comment organiser des offres à l’aide de collections.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '296'
+description: Découvrez comment organiser des offres à l'aide de collections.
+feature: Offres
+topic: Intégrations
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
 
 # Création de collections {#creating-collections}
 
-Les collections permettent d’organiser vos offres en les regroupant en catégories de votre choix. Vous pouvez, par exemple, créer une collection « sport » qui contiendra uniquement des offres liées au sport.
+Les collections permettent d&#39;organiser vos offres en les regroupant en catégories de votre choix. Vous pouvez, par exemple, créer une collection « sport » qui contiendra uniquement des offres liées au sport.
 
 ![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -20,13 +24,13 @@ La liste des collections d&#39;offres est accessible dans le menu **[!UICONTROL 
 
 Vous pouvez créer deux types de collections :
 
-* **Les collections dynamiques** sont des collections d’offres basées sur des balises. Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec la balise sélectionnée, elle est automatiquement ajoutée à la collection.
+* **Les collections dynamiques** sont des collections d&#39;offres basées sur des balises. Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec la balise sélectionnée, elle est automatiquement ajoutée à la collection.
 
-* **Les collections statiques** sont des collections créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour que si j’y ajoute manuellement d’autres offres.
+* **Les collections statiques** sont des collections créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour que si j&#39;y ajoute manuellement d&#39;autres offres.
 
 Pour créer une collection, procédez comme suit :
 
-1. Accédez à l’onglet **[!UICONTROL Collections]**, puis cliquez sur **[!UICONTROL Créer une collection]**.
+1. Accédez à l&#39;onglet **[!UICONTROL Collections]**, puis cliquez sur **[!UICONTROL Créer une collection]**.
 
 1. Indiquez le nom et le type de la collection à créer.
 
@@ -34,7 +38,7 @@ Pour créer une collection, procédez comme suit :
 
 1. Pour créer une collection dynamique, utilisez le volet de gauche pour sélectionner la balise des offres à ajouter à la collection, puis cliquez sur **[!UICONTROL Enregistrer]**. Toutes les offres avec la balise sélectionnée seront enregistrées dans la collection.
 
-   Pour plus d’informations sur la création de balises, voir [Création de balises](../offer-library/creating-tags.md).
+   Pour plus d&#39;informations sur la création de balises, voir [Création de balises](../offer-library/creating-tags.md).
 
    ![](../../assets/dynamic_collection.png)
 
@@ -46,7 +50,7 @@ Pour créer une collection, procédez comme suit :
    >
    >Les collections statiques ne sont pas mises à jour automatiquement. Pour ajouter des offres à une collection statique, vous devez les modifier et les ajouter manuellement.
 
-1. Une fois la collection créée, elle s’affiche dans la liste. Vous pouvez la sélectionner pour la modifier ou la supprimer.
+1. Une fois la collection créée, elle s&#39;affiche dans la liste. Vous pouvez la sélectionner pour la modifier ou la supprimer.
 
    ![](../../assets/collection_created.png)
 
@@ -54,6 +58,6 @@ Pour créer une collection, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d’Offer dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
