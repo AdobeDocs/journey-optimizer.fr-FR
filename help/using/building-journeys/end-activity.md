@@ -1,9 +1,13 @@
 ---
 title: Activité de fin
 description: Découvrez comment utiliser l’activité de fin
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '62'
+feature: Parcours
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '65'
 ht-degree: 100%
 
 ---
