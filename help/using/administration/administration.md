@@ -1,11 +1,15 @@
 ---
 title: Paramètres techniques
-description: Découvrez les instructions relatives à l’administration et aux paramètres.
+description: Découvrez les directives relatives à l’administration et aux paramètres.
 hidefromtoc: true
 hide: true
-source-git-commit: 8a94c63b4a0cba1014e9778caa24720fb975ae52
+feature: Paramétrage de l’application
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 100%
 
 ---
@@ -14,12 +18,12 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/badge.png)
 
-## Configuration des paramètres de stratégie de marque{#cjm-branding}
+## Configuration des paramètres de branding{#cjm-branding}
 
-Chaque entreprise dispose de directives visuelles et techniques en ce qui concerne la marque. Vous pouvez définir un ensemble de spécifications pour présenter une marque cohérente à vos clients, des logos aux aspects techniques, tels que l’expéditeur de l’email, le domaine de l’URL des pages miroir ou les paramètres de suivi des messages.
+Chaque entreprise dispose de directives visuelles et techniques en ce qui concerne la marque. Vous pouvez définir un ensemble de spécifications pour présenter une marque cohérente à vos clients, depuis les logos jusqu’aux aspects techniques, tels que l’expéditeur de l’email, le domaine de l’URL des pages miroir ou les paramètres de suivi des messages.
 Les marques ne peuvent pas être créées ou modifiées par les utilisateurs finaux : cette configuration est gérée par Adobe.
 
-Pour configurer les paramètres de stratégie de marque de votre instance [!DNL Journey Optimizer], vous devez contacter Adobe et communiquer les informations suivantes :
+Pour configurer les paramètres de branding de votre instance [!DNL Journey Optimizer], vous devez contacter Adobe et communiquer les informations suivantes :
 
 * Nom de la société
 
@@ -29,9 +33,9 @@ Pour configurer les paramètres de stratégie de marque de votre instance [!DNL 
 
 * Adresse de réponse
 
-Une fois les paramètres de stratégie de marque configurés, vous pourrez les sélectionner lors de la création de messages.
+Une fois les paramètres de branding configurés, vous pourrez les sélectionner lors de la création de messages.
 
-Une fois les paramètres de stratégie de marque configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Paramètres prédéfinis]** lors de la création de messages. [En savoir plus sur la création de contenu](../create-message.md).
+Une fois les paramètres de branding configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages. [En savoir plus sur la création de contenu](../create-message.md).
 
 ## Configuration du canal de notification push
 
@@ -72,7 +76,7 @@ En savoir plus sur les sources de données dans [cette section](../datasource/ab
 
 ### Événements
 
-Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à la personne suivant le parcours.
+Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l’individu progressant dans le parcours.
 
 Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK).
 
