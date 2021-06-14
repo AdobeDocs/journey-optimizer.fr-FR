@@ -1,9 +1,13 @@
 ---
 title: Prise en main des messages
 description: Découvrez comment créer des messages dans Journey Optimizer
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '100'
+feature: Présentation
+topic: Gestion de contenu
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '103'
 ht-degree: 100%
 
 ---
