@@ -1,26 +1,30 @@
 ---
-title: Créer des décisions
+title: Création de décisions
 description: Découvrez comment créer des décisions
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '605'
+feature: Offres
+topic: Intégrations
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
 
-# Créer des décisions {#create-offer-activities}
+# Création de décisions {#create-offer-activities}
 
-Les décisions (auparavant « activités d’offre ») sont des conteneurs pour vos offres qui s’appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
+Les décisions (précédemment appelées activités d&#39;offre) sont des conteneurs qui s&#39;appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
 ![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
-La liste des décisions est accessible dans le menu **[!UICONTROL Offre]**/l’onglet **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leur statut ou de leurs dates de début ou de fin.
+La liste des décisions est accessible dans le menu **[!UICONTROL Offres]**/onglet **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leurs statuts ou de leurs dates de début ou de fin.
 
 ![](../../assets/activities-list.png)
 
 Avant de créer une décision, vérifiez que les composants suivants ont été créés dans la bibliothèque des offres :
 
-* [Placements](../offer-library/creating-placements.md),
+* [Emplacements](../offer-library/creating-placements.md),
 * [Collections](../offer-library/creating-collections.md),
 * [Offres personnalisées](../offer-library/creating-personalized-offers.md),
 * [Offres de secours](../offer-library/creating-fallback-offers.md).
@@ -29,13 +33,13 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 1. Accédez à la liste des décisions, puis cliquez sur **[!UICONTROL Créer une activité]**.
 
-1. Indiquez le nom de la décision, ainsi que sa date et son heure de début et de fin, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Indiquez le nom de la décision, ainsi que ses dates et heures de début et de fin, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](../../assets/activities-name.png)
 
 ## Ajout de décisions {#add-decisions}
 
-1. Effectuez un glisser-déposer d’un emplacement de la liste pour l’ajouter à la décision, puis cliquez sur **[!UICONTROL Ajouter une collection]**.
+1. Effectuez un glisser-déposer d&#39;un emplacement de la liste pour l&#39;ajouter à la décision, puis cliquez sur **[!UICONTROL Ajouter une collection]**.
 
    ![](../../assets/activities-placement.png)
 
@@ -43,33 +47,33 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../../assets/activities-collection.png)
 
-1. Les offres sélectionnées sont ajoutées à l’emplacement. Dans cet exemple, nous avons sélectionné deux offres qui s’afficheront dans un placement de type JSON destiné à présenter des offres dans une solution de centre d’appels.
+1. Les offres sélectionnées sont ajoutées à l&#39;emplacement. Dans cet exemple, nous avons sélectionné deux offres qui s&#39;afficheront dans un emplacement de type JSON destiné à présenter des offres dans une solution de centre d&#39;appels.
 
    ![](../../assets/offers-added.png)
 
-1. Par défaut, si plusieurs offres sont éligibles pour ce placement, ce sont les offres ayant le score de priorité le plus élevé qui sont diffusées au client.
+1. Par défaut, si plusieurs offres sont éligibles pour cet emplacement, ce sont les offres ayant le score de priorité le plus élevé qui sont diffusées au client.
 
-   Si vous souhaitez utiliser une formule spécifique pour choisir l’offre éligible à diffuser, sélectionnez une formule de classement dans la liste déroulante **[!UICONTROL Classer les offres par]**. Voir à ce propos [cette section](../offer-activities/configure-offer-selection.md).
+   Si vous souhaitez utiliser une formule spécifique pour choisir l&#39;offre éligible à diffuser, sélectionnez une formule de classement dans la liste déroulante **[!UICONTROL Classer les offres par]**. Voir à ce propos [cette section](../offer-activities/configure-offer-selection.md).
 
-1. Le champ **[!UICONTROL Contrainte]** limite la sélection des offres pour ce placement. Cette contrainte peut être appliquée en utilisant une règle de décision ou un ou plusieurs segments Adobe Experience Platform.
+1. Le champ **[!UICONTROL Contrainte]** limite la sélection des offres pour cet emplacement. Cette contrainte peut être appliquée en utilisant une règle de décision ou un ou plusieurs segments Adobe Experience Platform.
 
-   Pour limiter la sélection des offres aux membres d’un segment Adobe Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter des segments]**.
+   Pour limiter la sélection des offres aux membres d&#39;un segment Adobe Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter des segments]**.
 
    ![](../../assets/activity_constraint_segment.png)
 
-   Ajoutez un ou plusieurs segments du volet de gauche, combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**, puis cliquez sur **[!UICONTROL Sélectionner]** pour confirmer.
+   Ajoutez un ou plusieurs segments du volet de gauche, combinez-les à l&#39;aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**, puis cliquez sur **[!UICONTROL Sélectionner]** pour confirmer.
 
-   Pour plus d’informations sur l’utilisation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+   Pour plus d&#39;informations sur l&#39;utilisation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
    ![](../../assets/activity_constraint_segment2.png)
 
-   Si vous souhaitez ajouter une contrainte de sélection pour ce placement à l’aide d’une règle de décision, sélectionnez l’option **[!UICONTROL Règle de décision]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone **[!UICONTROL Règle de décision]**. Pour plus d’informations sur la façon de créer une règle de décision, reportez-vous à [cette section](../offer-library/creating-decision-rules.md).
+   Si vous souhaitez ajouter une contrainte de sélection pour cet emplacement à l&#39;aide d&#39;une règle de décision, sélectionnez l&#39;option **[!UICONTROL Règle de décision]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone **[!UICONTROL Règle de décision]**. Pour plus d&#39;informations sur la façon de créer une règle de décision, reportez-vous à [cette section](../offer-library/creating-decision-rules.md).
 
    ![](../../assets/activity_constraint_rule.png)
 
-## Ajout d’une offre de secours {#add-fallback}
+## Ajout d&#39;une offre de secours {#add-fallback}
 
-Sélectionnez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres, puis cliquez sur **[!UICONTROL Suivant]**.
+Sélectionnez l&#39;offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d&#39;éligibilité et contraintes des offres, puis cliquez sur **[!UICONTROL Suivant]**.
 
 ![](../../assets/add-fallback-offer.png)
 
@@ -77,11 +81,11 @@ Sélectionnez l’offre de secours qui sera présentée en dernier recours aux c
 
 Si tout est configuré correctement et que votre décision est prête à être utilisée pour présenter des offres aux clients, cliquez sur **[!UICONTROL Terminer]**, puis sélectionnez **[!UICONTROL Enregistrer et activer]**.
 
-Vous pouvez également enregistrer la décision en tant que version préliminaire afin de la modifier et de l’activer ultérieurement.
+Vous pouvez également enregistrer la décision en tant que version préliminaire afin de la modifier et de l&#39;activer ultérieurement.
 
 ![](../../assets/save-activities.png)
 
-La décision s’affiche dans la liste avec l’état **[!UICONTROL En ligne]** ou **[!UICONTROL Version préliminaire]**, selon que vous l’ayez activée ou non à l’étape précédente.
+La décision s&#39;affiche dans la liste avec l&#39;état **[!UICONTROL Actif]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez activée ou non à l&#39;étape précédente.
 
 Elle est maintenant prête à être utilisée pour diffuser des offres vers les clients. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
@@ -100,6 +104,6 @@ Pour plus d’informations sur la diffusion des offres, reportez-vous aux sectio
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Elle fournit toutefois des instructions générales sur l’utilisation d’Offer Decisioning dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d’Offer dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
