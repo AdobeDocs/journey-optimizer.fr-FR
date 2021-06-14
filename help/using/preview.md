@@ -1,9 +1,13 @@
 ---
 title: Prévisualisation de messages et envoi de BAT
 description: Découvrez comment prévisualiser et tester vos messages
-source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
+feature: Parcours
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '810'
 ht-degree: 97%
 
 ---
