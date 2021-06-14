@@ -1,10 +1,14 @@
 ---
 title: Liste de suppression
 description: Découvrez ce qu’est la liste de suppression, son objectif et ce qu’elle contient.
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+feature: Délivrabilité
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 63%
+source-wordcount: '643'
+ht-degree: 64%
 
 ---
 
@@ -22,9 +26,9 @@ Il rassemble les adresses et les domaines de courriel qui sont supprimés dans t
 
 ## Pourquoi une liste de suppression ? {#why-suppression-list}
 
-Pour contrôler les emails reçus par les propriétaires de boîte de réception et s’assurer que ces derniers ne reçoivent que les emails souhaités, les fournisseurs de services Internet (FAI) et les filtres de courrier indésirable commercial disposent de leurs algorithmes propriétaires afin de suivre la réputation globale des expéditeurs d’email en fonction des adresses IP et du ou des domaine(s) d’envoi qu’ils utilisent.
+Pour contrôler les emails reçus par les propriétaires de boîte de réception et s’assurer que ces derniers ne reçoivent que les emails souhaités, les fournisseurs d’accès Internet (FAI) et les filtres de spam commercial disposent de leurs algorithmes propriétaires afin de suivre la réputation globale des expéditeurs d’email en fonction des adresses IP et du ou des domaine(s) d’envoi qu’ils utilisent.
 
-Si vous ne tenez pas compte de leurs commentaires (tels que les plaintes pour courrier indésirable, les bounces, etc.), ils évalueront votre réputation à la baisse. La liste de suppression vous aide à tenir compte des commentaires des FAI.
+Si vous ne tenez pas compte de leurs retours (comme les plaintes contre le spam, les bounces, etc.), ils évalueront votre réputation à la baisse. La liste de suppression vous permet de tenir compte des retours des FAI.
 
 Les destinataires dont les adresses email sont supprimées sont automatiquement exclus de la diffusion des messages. Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
@@ -32,7 +36,7 @@ Les destinataires dont les adresses email sont supprimées sont automatiquement 
 
 Les adresses email sont ajoutées à la liste de suppression comme suit :
 
-* Tous les **hard bounces** et les **plaintes pour courrier indésirable** envoient automatiquement les adresses email correspondantes à la liste de suppression après une seule occurrence.
+* Tous les **hard bounces** et les **plaintes contre le spam** envoient automatiquement les adresses email correspondantes à la liste de suppression après une seule occurrence.
 
 * **Les** soft bounces et les  **** ignorances temporaires n’envoient pas immédiatement une adresse électronique à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs reprises sont alors effectuées, et lorsque le compteur d&#39;erreurs atteint le seuil, l&#39;adresse est ajoutée à la liste de suppression. En savoir plus sur les [reprises](configuration/retries.md).
 
@@ -51,23 +55,23 @@ Pour chaque adresse, la raison de base de la suppression et la catégorie de sup
 
 Trois types d’erreur sont liés à une diffusion en échec :
 
-* **Hard bounce**. Un hard bounce indique une adresse email non valide (c’est-à-dire une adresse email qui n’existe pas). Cela implique un message de bounce du serveur de messagerie de réception indiquant explicitement que l’adresse n’est pas valide (par exemple, « Utilisateur inconnu »).
-* **Soft bounce**. Il s’agit d’un bounce d’email temporaire survenu pour une adresse email valide.
-* **Ignoré**. Il s’agit d’un bounce d’email qui s’est produit pour une adresse email valide, mais qui est temporaire (par exemple, une tentative de connexion ayant échoué, un problème temporaire lié à du courrier indésirable (réputation d’email) ou un problème technique temporaire).<!--does it exist in CJM?-->
+* **Hard bounce**. Un hard bounce indique une adresse email non valide (c’est-à-dire une adresse email qui n’existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide (par exemple, « Utilisateur inconnu »).
+* **Soft bounce**. Il s’agit d’un email bounce temporaire qui s’est produit en raison d’une adresse email valide.
+* **Ignoré**. Il s’agit d’un email bounce qui s’est produit en raison d’une adresse email valide, mais qui est temporaire (par exemple, une tentative infructueuse de connexion, un problème temporaire lié à du spam (réputation relative aux emails) ou un problème technique temporaire).<!--does it exist in CJM?-->
 
 Un **hard bounce** ajoute automatiquement l’adresse électronique à la liste de suppression.
 
 Une erreur **soft bounce** ou **ignored** qui se produit trop de fois envoie également l’adresse électronique à la liste de suppression après plusieurs tentatives. [En savoir plus sur les reprises](configuration/retries.md)
 
-Si vous continuez à envoyer des emails à ces adresses, cela peut avoir une incidence sur vos taux de diffusion, car cela indique aux FAI que vous ne suivez pas les bonnes pratiques en matière de maintenance des listes d’adresses email et que, par conséquent, vous n’êtes peut-être pas un expéditeur digne de confiance.
+Si vous continuez à envoyer des emails à ces adresses, cela peut avoir une incidence sur vos taux de diffusion, car cela indique aux FAI que vous ne suivez pas les bonnes pratiques en matière de gestion des listes d’adresses email et que, par conséquent, vous n’êtes peut-être pas un expéditeur digne de confiance.
 
-### Plaintes pour courrier indésirable {#spam-complaints}
+### Plaintes contre le spam {#spam-complaints}
 
-La liste de suppression collecte les adresses email qui marquent votre message comme indésirable. Par exemple, si une personne demande à un service client de ne plus jamais recevoir d’emails de votre part, son adresse email est supprimée de votre instance et vous ne pourrez plus envoyer d’emails à cette adresse.
+La liste de suppression collecte les adresses email qui marquent votre message comme spam. Par exemple, si une personne demande à un service client de ne plus jamais recevoir d’emails de votre part, son adresse email est supprimée de votre instance et vous ne pourrez plus envoyer d’emails à cette adresse.
 
-Envoyer un email à des destinataires ayant déposé une plainte pour courrier indésirable peut avoir un impact énorme sur votre réputation d’envoi car cette action informe les FAI que vous envoyez des emails indésirables et n’écoutez pas vos destinataires.
+Envoyer un email à des destinataires ayant déposé une plainte contre le spam peut avoir un très fort impact sur votre réputation d’envoi, car cela indique aux FAI que vous envoyez des emails indésirables et que vous n’êtes pas à l’écoute de vos destinataires.
 
-Cela peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi, ce qui peut être évité si ces adresses figurent dans la liste de suppression.
+Votre adresse IP ou votre domaine d’envoi peuvent ainsi être bloqués, ce qui pourrait être évité si ces adresses figuraient dans la liste de suppression.
 
 <!--### Unsubscriptions {#unsubscriptions}
 
