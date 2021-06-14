@@ -1,9 +1,13 @@
 ---
 title: Rapport dynamique sur les emails
 description: Découvrez comment utiliser les données du rapport dynamique sur les emails
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '346'
+feature: Création de rapports
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -28,7 +32,7 @@ Les widgets **[!UICONTROL Performances des emails]** et **[!UICONTROL Résumé d
 
 * **[!UICONTROL Bounces]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, empêchant l’erreur d’être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs qui se sont produites au cours d’une diffusion, l’empêchant d’être envoyée aux profils.
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
@@ -46,7 +50,7 @@ Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent d
 
 Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de bounces]** contiennent les données disponibles relatives aux messages ayant fait l’objet d’un rebond, notamment :
 
-* **[!UICONTROL Hard bounces]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Un message d’erreur indique explicitement que l’adresse n’est pas valide, comme Utilisateur inconnu.
+* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Un message d’erreur indique explicitement que l’adresse n’est pas valide, comme Utilisateur inconnu.
 
 * **[!UICONTROL Soft bounces]** : nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.
 
