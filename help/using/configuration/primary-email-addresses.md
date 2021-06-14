@@ -1,6 +1,6 @@
 ---
 title: Paramètres généraux des messages
-description: Découvrez comment xxxx
+description: Découvrez comment définir des adresses électroniques
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+feature: Paramétrage de l’application
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '122'
+ht-degree: 7%
 
 ---
 
