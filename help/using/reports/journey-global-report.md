@@ -1,9 +1,13 @@
 ---
 title: Rapport global de parcours
 description: Découvrez comment utiliser les données du rapport global de parcours
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Création de rapports
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1079'
 ht-degree: 98%
 
 ---
