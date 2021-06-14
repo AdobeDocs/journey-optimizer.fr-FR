@@ -1,9 +1,13 @@
 ---
 title: Prise en main de Decision Management
 description: Prise en main de Decision Management Découvrez son architecture, ses offres et décisions, ainsi que les cas dʼutilisation courants qu’il vous permet de réaliser.
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: ht
-source-wordcount: '494'
+feature: Offres
+topic: Intégrations
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
@@ -24,15 +28,15 @@ Voici quelques-uns des avantages :
 
 * Amélioration des performances des campagnes en fournissant des offres personnalisées sur plusieurs canaux ;
 * Workflows améliorés : au lieu de créer plusieurs diffusions ou campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en modifiant les offres dans différentes parties du modèle ;
-* Contrôle du nombre d’affichages d’une offre sur plusieurs campagnes et clients.
+* Contrôle du nombre d&#39;affichages d&#39;une offre sur plusieurs campagnes et clients.
 
 ![](../../assets/do-not-localize/how-to-video.png) [Regardez ces tutoriels vidéo](#tutorial-videos) pour en savoir plus sur Decision Management.
 
 ## À propos des offres et décisions {#offers-offer-activities}
 
-Une **Offre** est composée de contenu, de règles d’éligibilité et de contraintes qui définissent les conditions dans lesquelles elle est présentée à vos clients.
+Une **Offre** est composée de contenu, de règles d&#39;éligibilité et de contraintes qui définissent les conditions dans lesquelles elle est présentée à vos clients.
 
-Elle est créée à l’aide de la **bibliothèque des offres**, qui fournit un catalogue centralisé dans lequel vous pouvez associer des règles d’éligibilité et des contraintes à plusieurs éléments de contenu pour créer et publier des offres (voir la section[Interface utilisateur de la bibliothèque des offres](../get-started/user-interface.md)).
+Elle est créée à l&#39;aide de la **bibliothèque des offres**, qui fournit un catalogue centralisé dans lequel vous pouvez associer des règles d&#39;éligibilité et des contraintes à plusieurs éléments de contenu pour créer et publier des offres (voir la section[Interface utilisateur de la bibliothèque des offres](../get-started/user-interface.md)).
 
 ![](../../assets/offer_structure.png)
 
@@ -44,11 +48,11 @@ Les décisions sont des conteneurs qui s’appuient sur le moteur de décision p
 
 Les fonctionnalités de Decision Management et l’intégration à Adobe Experience Platform vous permettent de couvrir de nombreux cas d’utilisation pour vous aider à augmenter l’engagement et la conversion des clients.
 
-* Affichez sur votre site Web les offres de la page d’accueil qui correspondent au point d’intérêt du client visiteur, en fonction des données issues d’Adobe Experience Platform.
+* Affichez sur votre site Web les offres de la page d&#39;accueil qui correspondent au point d&#39;intérêt du client visiteur, en fonction des données issues d&#39;Adobe Experience Platform.
 
    ![](../../assets/website.png)
 
-* Si les clients passent près de l’un de vos magasins, adressez-leur des notifications Push leur rappelant les offres disponibles en fonction de leurs attributs (niveau de fidélité, genre, achats antérieurs...).
+* Si les clients passent près de l&#39;un de vos magasins, adressez-leur des notifications Push leur rappelant les offres disponibles en fonction de leurs attributs (niveau de fidélité, genre, achats antérieurs...).
 
    ![](../../assets/push_sample.png)
 
