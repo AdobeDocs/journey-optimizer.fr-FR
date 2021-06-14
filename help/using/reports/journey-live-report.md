@@ -1,9 +1,13 @@
 ---
 title: Rapport dynamique sur les parcours
 description: Découvrez comment utiliser les données du rapport dynamique sur les parcours
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '789'
+feature: Création de rapports
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -22,7 +26,7 @@ La page **[!UICONTROL Rapport dynamique]** sur les parcours s’affiche avec les
 * [Email](#email-live)
 * [Push](#push-live)
 
-Le **[!UICONTROL Rapport dynamique]** sur les parcours est divisé en différents widgets présentant le succès et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d’informations à ce sujet, consultez cette [section](live-report.md#modify-dashboard).
+Le **[!UICONTROL Rapport dynamique]** sur les parcours est divisé en différents widgets présentant le succès et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d’informations à ce propos, consultez cette [section](live-report.md#modify-dashboard).
 
 ## Onglet Parcours {#journey-live}
 
@@ -88,7 +92,7 @@ Le graphique **[!UICONTROL Résumé des emails]** présente les principales info
 
 Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de bounces]** contiennent les données disponibles relatives aux messages ayant fait l’objet d’un rebond, notamment :
 
-* **[!UICONTROL Hard bounces]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Un message d’erreur indique explicitement que l’adresse n’est pas valide, comme Utilisateur inconnu.
+* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Un message d’erreur indique explicitement que l’adresse n’est pas valide, comme Utilisateur inconnu.
 
 * **[!UICONTROL Soft bounces]** : nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.
 
