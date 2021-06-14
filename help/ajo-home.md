@@ -1,10 +1,14 @@
 ---
 keywords: Journey Optimizer;accueil;sujets les plus consultés
 title: Documentation du produit Journey Optimizer
-source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
+feature: Présentation
+topic: Gestion de contenu
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 79%
+source-wordcount: '226'
+ht-degree: 80%
 
 ---
 
