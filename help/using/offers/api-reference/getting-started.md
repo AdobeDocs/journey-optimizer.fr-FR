@@ -1,9 +1,13 @@
 ---
 title: Prise en main
 description: Découvrez comment commencer à utiliser l’API de la bibliothèque des offres pour effectuer des opérations essentielles à l’aide du moteur Decision Management.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Offres
+topic: Intégrations
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 96%
 
 ---
@@ -18,7 +22,7 @@ Ce guide du développeur décrit les étapes à suivre pour commencer à utilise
 
 Ce guide nécessite une compréhension professionnelle des composants suivants d’Adobe Experience Platform :
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) : Cadre normalisé selon lequel [!DNL Experience Platform] organise les données de l’expérience client.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) : cadre normalisé selon lequel [!DNL Experience Platform] organise les données de l’expérience client.
    * [Notions de base de la composition du schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) : en savoir plus sur les blocs de création de base des schémas XDM.
 * [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md) : explique les concepts et les composants utilisés pour Experience Decisioning en général et pour Offer Decisioning en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l’expérience client.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr) : PQL est un langage puissant pour écrire des expressions sur des instances XDM. PQL est utilisé pour définir des règles de décision.
@@ -49,7 +53,7 @@ Avec les privilèges d’administrateur, vous pouvez accorder ou retirer des aut
 
 ### Liste des conteneurs accessibles aux utilisateurs et aux intégrations
 
-**Format d’API**
+**Format d&#39;API**
 
 ```http
 GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
@@ -57,7 +61,7 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{PRODUCT_CONTEXT}` | Filtre la liste des conteneurs par leur association aux contextes de produits. | `acp` |
 | `{PROPERTY}` | Filtre le type de conteneur renvoyé. | `_instance.containerType==decisioning` |
 
