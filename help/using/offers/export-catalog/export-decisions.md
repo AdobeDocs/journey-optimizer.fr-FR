@@ -1,146 +1,150 @@
 ---
-title: Prise en main de l’export de catalogues d’offres
+title: Prise en main de l'export de catalogues d'offres
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les décisions.
-source-git-commit: 95be47fbf6944f7e6a743056b6cc29b45ae291fe
+feature: Offres
+topic: Intégrations
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 83%
+source-wordcount: '1556'
+ht-degree: 100%
 
 ---
 
 # Jeu de données de décisions {#decisions-dataset}
 
-Chaque fois qu’une offre est modifiée, le jeu de données généré automatiquement pour les décisions (anciennement appelé activités) est mis à jour.
+Chaque fois qu&#39;une offre est modifiée, le jeu de données généré automatiquement pour les décisions (auparavant appelées activités d&#39;offre) est mis à jour.
 
 ![](../../assets/dataset-activities.png)
 
-Le lot le plus récent dans le jeu de données s’affiche à droite. La vue hiérarchique du schéma du jeu de données s’affiche dans le volet de gauche.
+Le dernier lot du jeu de données s&#39;affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
 
 >[!NOTE]
 >
->Découvrez comment accéder aux jeux de données exportés pour chaque objet de la bibliothèque des offres dans [cette section](../export-catalog/access-dataset.md).
+>Découvrez comment accéder aux jeux de données exportés pour chaque objet de votre bibliothèque des offres dans [cette section](../export-catalog/access-dataset.md).
 
-Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d’objets de décision - Décisions]** (auparavant « Référentiel d’objets de décision - Activités »).
+Vous trouverez ci-dessous la liste de tous les champs pouvant être utilisés dans le jeu de données **[!UICONTROL Référentiel d&#39;objets de décision - Décisions]** (anciennement appelé Référentiel d&#39;objets de décision - Activités).
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
 ## Identifiant
 
 **Champ :** _id 
-**Titre :** identifiant 
-**Description :** identifiant unique de l’enregistrement.
-**Type :** Chaîne
+**Titre :** identifiant
+**Description :** identifiant unique de l&#39;enregistrement.
+**Type :** chaîne
 
 ## _experience
 
-**Champ :** _experience 
+**Champ :** _experience
 **Type :** objet
 
-### _experience > prise de décision
+### _experience > prise de décisions
 
-**Champ :** prise de décision
+**Champ :** prise de décisions
 **Type :** objet
 
-#### _experience > prise de décision > critères
+#### _experience > prise de décisions > critères
 
 **Champ :** critères
 **Titre :** critères
-**Description :** définit un ensemble de critères de décision où chaque décision contient un ensemble de contraintes.
+**Description :** définit un jeu de critères de décision, chacun d&#39;eux contenant un jeu de contraintes.
 **Type :** tableau
 
-**_experience > prise de décision > critères > description**
+**_experience > prise de décisions > critères > description**
 
-**Champ :** description 
-**Titre :** Description 
-**:** Description du critère. Permet de véhiculer les intentions lisibles par l’homme sur la manière dont ou la raison pour laquelle ce critère a été créé et comment il influe sur la décision.
-**Type :** Chaîne
+**Champ :** description
+**Titre :** description
+**Description :** description du critère. Utilisé pour transmettre des intentions lisibles par l&#39;homme sur la façon dont ce critère a été construit ou pourquoi et sur la façon dont il influence la décision.
+**Type :** chaîne
 
-**_experience > prise de décision > critères > optionSelection**
+**_experience > prise de décisions > critères > optionSelection**
 
-**Champ :** optionSelection 
-**Titre :** Sélection d’options 
-**Description :**  La sélection d’options définit la validité/l’applicabilité des options dans ce contexte.
+**Champ :** optionSelection
+**Titre :** sélection d&#39;options
+**Description :** la sélection d&#39;options définit la validité/l&#39;applicabilité des options dans ce contexte.
 **Type :** objet
 
 * **Description**
 
    **Champ :** description
    **Titre :** description
-   **Description :** description de la sélection d’options. Permet de véhiculer les intentions lisibles par l’homme sur la manière dont ou la raison pour laquelle cette sélection d’options a été effectuée et/ou qui indiquent l’option qui correspondra.
+   **Description :** description de la sélection d&#39;options. Utilisé pour transmettre des intentions lisibles par l&#39;homme sur la manière ou les raisons pour lesquelles cette option de sélection a été construite et/ou sur l&#39;option qui correspondra.
    **Type :** chaîne
 
-* **Filtre d’option**
+* **Filtre d&#39;options**
 
    **Champ :** filtre
-   **Titre :** filtre d’option
-   **Description :** référence à un filtre basé sur les balises qui associe les options d’un inventaire à l’aide de leurs balises jointes. La valeur est l’URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
+   **Titre :** filtre d&#39;options
+   **Description :** référence à un filtre basé sur les balises qui correspond aux options d&#39;un inventaire à l&#39;aide de leurs balises jointes. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
    **Type :** chaîne
 
 * **Type de contrainte de profil**
 
    **Champ :** optionSelectionType
    **Titre :** type de contrainte de profil
-   **Description :** détermine si des contraintes sont actuellement définies et comment elles sont exprimées. Cela peut être via une requête de filtre ou une ou plusieurs appartenances à un segment.
+   **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec un ou plusieurs abonnements au segment.
    **Type :** chaîne
-   **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
+   **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
 
-* **Liste d’options**
+* **Liste d&#39;options**
 
    **Champ :** options
-   **Titre :** liste d’options
-   **Description :** liste qui spécifie directement les options sans évaluer de requête de filtre. Vous pouvez spécifier une liste d’options ou une règle de filtre d’option.
+   **Titre :** liste d&#39;options
+   **Description :** liste qui spécifie directement les options sans évaluer une requête de filtre. Vous pouvez spécifier une liste d&#39;options ou une règle de filtrage des options.
    **Type :** tableau
 
    <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
-**_experience > prise de décision > critères > emplacements**
+**_experience > prise de décisions > critères > emplacements**
 
-**Champ :** emplacements 
-**Titre :** Restrictions de positionnement 
-**Description :**  la contrainte de placement indique que ce critère s’applique uniquement aux emplacements répertoriés. Ce n’est que lorsque les emplacements ciblés figurent dans la liste `xdm:placements` que la sélection d’options est prise en compte. Sinon, l’ensemble des critères de décision est ignoré. Lorsque la liste xdm:placements est omise ou est vide, le critère est pris en compte pour tout emplacement ciblé. Les emplacements répertoriés ici imposent des critères implicites pour la sélection d’options. Une option à prendre en compte doit comporter une représentation pour l’emplacement ciblé.
+**Champ :** emplacements
+**Titre :** restrictions d&#39;emplacement
+**Description :** la contrainte d&#39;emplacement indique que ce critère s&#39;applique uniquement aux emplacements répertoriés. La sélection d&#39;option est uniquement prise en compte lorsque l&#39;emplacement ciblé se trouve dans la liste `xdm:placements`. Sinon, l&#39;intégralité des critères de décision est ignorée. Lorsque la liste &#39;xdm:placements&#39; est omise ou vide, le critère est pris en compte pour tout emplacement ciblé. Les emplacements répertoriés ici imposent des critères implicites pour la sélection de l&#39;option. Une option à prendre en compte doit comporter une représentation pour l&#39;emplacement ciblé.
 **Type :** tableau
 
-* **Identifiant d’emplacement**
+* **Identifiant d&#39;emplacement**
 
-   **Titre :** identifiant d’emplacement
-   **Description :** référence à une entité d’emplacement. La valeur est l’URI (@id) de l’emplacement qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
-   **Type :** Chaîne
+   **Titre :** identifiant d&#39;emplacement
+   **Description :** référence à une entité d&#39;emplacement. La valeur est l&#39;URI (@id) de l&#39;emplacement qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
+   **Type :** chaîne
 
-**_experience > prise de décision > critères > profileConstraints**
+**_experience > prise de décisions > critères > profileConstraints**
 
-**Champ :** profileConstraints 
-**Titre :** 
-**Description de la contrainte de profil :**  la contrainte de profil détermine si une sélection d’options est éligible pour cette identité de profil à ce moment, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante des options de la sélection d&#39;options, la contrainte de profil qui prend la valeur &quot;false&quot; annule l&#39;ensemble de la sélection d&#39;options. D’un autre côté, une règle de contrainte de profil qui prend une option en tant que paramètre est évaluée pour chaque option de qualification de la sélection d’options.
+**Champ :** profileConstraints
+**Titre :** contraintes de profil
+**Description :** la contrainte de profil décide si une sélection d&#39;option est éligible pour cette identité de profil, à ce stade, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante par rapport aux options de la sélection d&#39;options, la contrainte de profil qui évalue &#39;false&#39; annule toute la sélection d&#39;options. D&#39;un autre côté, une règle de contrainte de profil qui utilise une option comme paramètre est évaluée pour chaque option de qualification de la sélection d&#39;options.
 **Type :** objet
 
-* **_experience > prise de décision > critères > profileConstraints > Description**
+* **_experience > prise de décisions > critères > profileConstraints> Description**
 
    **Champ :** description
    **Titre :** description
-   **Description :** Description des contraintes de profil. Elle est utilisée pour transmettre des intentions lisibles sur la façon et les raisons pour lesquelles cette contrainte de profil a été construite et/ou sur l&#39;option qui sera incluse ou exclue par elle.
-   **Type :** Chaîne
+   **Description :** description de la contrainte de profil. Utilisé pour transmettre des intentions lisibles par l&#39;homme sur la manière ou les raisons pour lesquelles cette contrainte de profil a été construite et/ou sur l&#39;option qui sera incluse ou exclue par cette contrainte.
+   **Type :** chaîne
 
-* **_experience > prise de décision > critères > profileConstraints > Règle d’éligibilité**
+* **_experience > prise de décisions > critères > profileConstraints > Règle d&#39;éligibilité**
 
    **Champ :** eligibilityRule
-   **Titre :** règle d’éligibilité
-   **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d’autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l’option est admissible pour un profil donné. La valeur est l’URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
-   **Type :** Chaîne
+   **Titre :** règle d&#39;éligibilité
+   **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle permet de décider si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
+   **Type :** chaîne
 
-* **_experience > prise de décision > critères > profileConstraints > Type de contrainte de profil**
+* **_experience > prise de décisions > critères > profileConstraints > Type de contrainte de profil**
 
    **Champ :** profileConstraintType
    **Titre :** type de contrainte de profil
-   **Description :** Détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s’agir d’une règle ou d’un ou plusieurs abonnements de segment.
-   **Type :**Chaîne
+   **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec un ou plusieurs appartenances au segment.
+   **Type :** chaîne
    **Valeurs possibles :**
-   * &quot;aucun&quot; (par défaut)
-   * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d’une règle unique qui doit être évaluée comme égale à true avant que l’action contrainte ne soit autorisée. »
-   * &quot;anySegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit être membre d&#39;au moins l&#39;un d&#39;eux avant que l&#39;action contrainte ne soit autorisée. »
-   * &quot;allSegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit en être membre pour que l&#39;action restreinte soit autorisée. »
-   * &quot;règles&quot; : « La contrainte de profil est exprimée sous la forme d&#39;un certain nombre de règles différentes, par exemple l&#39;éligibilité, l&#39;applicabilité, l&#39;adaptabilité, qui doivent toutes être vérifiées avant que l&#39;action contrainte ne soit autorisée. »
+   * &quot;none&quot; (par défaut)
+   * &quot;eligibilityRule&quot; : &quot;La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée sur true avant que l&#39;action contrainte ne soit autorisée.&quot;
+   * &quot;anySegments&quot; : &quot;La contrainte de profil est exprimée sous la forme d&#39;un ou plusieurs segments et le profil doit être membre d&#39;au moins l&#39;un d&#39;eux avant que l&#39;action limitée ne soit autorisée.&quot;
+   * &quot;allSegments&quot; : &quot;La contrainte de profil est exprimée sous la forme d&#39;un ou plusieurs segments et le profil doit être un membre de tous ces segments avant que l&#39;action limitée ne soit autorisée.&quot;
+   * &quot;rules&quot; : &quot;La contrainte de profil est exprimée sous la forme d&#39;un certain nombre de règles différentes, par exemple l&#39;éligibilité, l&#39;applicabilité, l&#39;adaptabilité, qui doivent toutes être évaluées sur true avant que l&#39;action limitée ne soit autorisée.&quot;
 
-* **_experience > prise de décision > critères > profileConstraints > segmentIdentities**
+* **_experience > prise de décisions > critères > profileConstraints> segmentIdentities**
 
    **Champ :** segmentIdentities
    **Titre :** identifiants de segment
@@ -151,14 +155,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
       **Champ :** _id
       **Titre :** identifiant
-      **Description :** Identité du segment dans l’espace de noms connexe.
-      **Type :** Chaîne
+      **Description :** identité du client dans l&#39;espace de noms connexe.
+      **Type :** chaîne
 
-   * **espace de noms**
+   * **namespace**
 
       **Champ :** espace de noms
       **Titre :** espace de noms
-      **Description :** Espace de noms associé à l’attribut `xid`.
+      **Description :** espace de noms associé à l&#39;attribut `xid`.
       **Type :** objet
       **Obligatoire :** &quot;code&quot;
 
@@ -166,87 +170,87 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
          **Champ :** code
          **Titre :** code
-         **Description :** Le code est un identifiant lisible par l’homme pour l’espace de noms et peut être utilisé pour demander l’identifiant technique d’espace de noms utilisé pour le traitement des graphiques d’identités.
-         **Type :** Chaîne
-   * **Identifiant d’expérience**
+         **Description :** le code est un identifiant lisible par l&#39;homme pour l&#39;espace de noms et peut être utilisé pour demander l&#39;identifiant technique d&#39;espace de noms utilisé pour le traitement des graphiques d&#39;identités.
+         **Type :** chaîne
+   * **Identifiant d&#39;expérience**
 
       **Champ :** xid
-      **Titre :** identifiant d’expérience
-      **Description** : Lorsqu’elle est présente, cette valeur représente un identifiant d’espace de noms croisé unique pour tous les identifiants d’espace de noms inclus dans tous les espaces de noms.
-      **Type :** Chaîne
+      **Titre :** identifiant de l&#39;expérience
+      **Description :** lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
+      **Type :** chaîne
 
 
-**_experience > prise de décision > critères > classement**
+**_experience > prise de décisions > critères > classement**
 
-**Champ :** ranking
-**Titre :** Détails de ranking
-**Description :** Rang (priorité). Définit comment la \&quot;meilleure option\&quot; est déterminée en fonction du contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent aux contraintes de profil, le classement décide de la ou des options supérieures à proposer.
+**Champ :** classement
+**Titre :** détails du classement
+**Description :** classement (priorité). Définit la manière dont la \&quot;meilleure option\&quot; est déterminée selon le contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent aux contraintes de profil, le classement décidera de la ou des (N premières) options proposées.
 **Type :** objet
 
-* **_experience > prise de décision > critères > classement > ordre**
+* **_experience > prise de décisions > critères > classement > ordre**
 
-   **Champ :** order
-   **Titre :** évaluation d’ordre
-   **Description :** Évaluation d&#39;un ordre relatif d&#39;une ou de plusieurs options de décision. Les options dont les valeurs ordinales sont supérieures sont sélectionnées pour les options dont les valeurs ordinales sont inférieures. Les valeurs déterminées par cette méthode peuvent être ordonnées mais les distances entre elles ne peuvent pas être mesurées et ni les sommes ni les produits ne peuvent être calculés. La médiane et le mode sont les seules mesures de tendance centrale qui peuvent être utilisées pour les données ordinales.
+   **Champ :** ordre
+   **Titre :** évaluation de l&#39;ordre
+   **Description :** évaluation d&#39;un ordre relatif d&#39;une ou de plusieurs options de décision. Les options avec des valeurs ordinales plus élevées sont sélectionnées à la place de n&#39;importe quelle option avec des valeurs ordinales plus faibles. Les valeurs déterminées par cette méthode peuvent être ordonnées, mais les distances entre elles ne peuvent pas être mesurées et, ni les sommes ni les produits ne peuvent être calculés. La médiane et le mode sont les seules mesures de tendance centrale qui peuvent être utilisées pour les données ordinales.
    **Type :** objet
 
-   * **Fonction de score**
+   * **Fonction de notation**
 
       **Champ :** fonction
-      **Titre :** fonction de score
-      **Description :** Une référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision seront ensuite classées en fonction de ce score. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
-      **Type :** Chaîne
+      **Titre :** fonction de notation
+      **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec une option à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
+      **Type :** chaîne
 
-   * **Type d&#39;évaluation de commande**
+   * **Type d&#39;évaluation de l&#39;ordre**
 
       **Champ :** orderEvaluationType
-      **Titre :** type d’évaluation d’ordre
-      **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
-      **Type :**Chaîne
+      **Titre :** type d&#39;évaluation de l&#39;ordre
+      **Description :** indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la classer.
+      **Type :** chaîne
       **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
-   * **Stratégie de ranking**
+   * **Stratégie de classement**
 
       **Champ :** rankingStrategy
       **Titre :** stratégie de classement
-      **Description :** Une référence à une stratégie qui classe une option de liste de décision. Les options de décision seront renvoyées dans une liste ordonnée. La valeur de cette propriété est l’URI (@id) de la fonction à appeler avec l’option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
-      **Type :** Chaîne
+      **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec une option à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
+      **Type :** chaîne
 
-* **_experience > prise de décision > critères > classement > Priorité**
+* **_experience > prise de décisions > critères > classement > priorité**
 
-   **Champ :** priority
+   **Champ :** priorité
    **Titre :** priorité
-   **Description :** La priorité d’une option de décision unique par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n’est fournie sont prioritaires à l’aide de cette propriété. Les options ayant des valeurs de priorité plus élevées sont sélectionnées avant les options de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
-   **Type :** integer
-   **Valeur minimale :** 0
-   **Valeur par défaut ** 0
+   **Description :** priorité d&#39;une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction d&#39;ordre n&#39;est fournie sont classées par priorité à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de manière aléatoire uniforme et utilisée pour la proposition de décision.
+   **Type :** entier
+   **Valeur minimale :**0
+   **Valeur par défaut :** 0
 
-#### _experience > prise de décision > Date et heure de fin de l’activité
+#### _experience > prise de décisions > Date et heure de fin d&#39;activité
 
-**Champ :** endTime 
-**Title :** Date de fin de l’activité et heure 
-**Description :** Date de fin de la décision (anciennement appelée activité) et heure de fin. La propriété a la sémantique de la propriété « endTime » de schema.org définie sur http://schema.org/Action.
+**Champ :** endTime
+**Titre :** date et heure de fin d&#39;activité
+**Description :** date et heure de fin de la décision (anciennement appelée activité). La propriété a la sémantique de la propriété &#39;endTime&#39; de schema.org définie sur http://schema.org/Action.
 **Type :** chaîne
 
-#### _experience > prise de décision > Option de secours
+#### _experience > prise de décisions > Option de secours
 
 **Champ :** secours
 **Titre :** option de secours
-**Description :** référence à une option de secours utilisée lorsque la prise de décision dans le contexte de cette décision ne remplit aucune des options habituelles (cela se produit généralement lorsque des contraintes strictes sont appliquées). La valeur est l’URI (@id) de l’option de secours référencée.
+**Description :** référence à une option de secours utilisée lors de la prise de décisions dans le cadre de cette décision ne remplit aucune des options standard (cela se produit généralement lorsque des contraintes difficiles sont appliquées). La valeur est l&#39;URI (@id) de l&#39;option de secours référencée.
 **Type :** chaîne
 
-#### _experience > prise de décision > Nom de l’activité
+#### _experience > prise de décisions > Nom de l&#39;activité
 
-**Champ :** nom 
-**Titre :** Nom de l’activité 
-**Description :** Nom de la décision (anciennement appelé activité) affiché dans différentes interfaces utilisateur.
-**Type :** Chaîne
+**Champ :** nom
+**Titre :** nom de l&#39;activité
+**Description :** nom de la décision (auparavant appelée activité) affiché dans différentes interfaces utilisateur.
+**Type :** chaîne
 
-#### _experience > prise de décision > Date et heure de début de l’activité
+#### _experience > prise de décisions > Date et heure de début d&#39;activité
 
-**Champ :** startTime 
-**Titre :** Date de début de l’activité et Heure 
-**Description :** Date de début de la décision (anciennement appelée activité) et heure de fin. La propriété a la sémantique de la propriété « startTime » de schema.org définie sur http://schema.org/Action.
+**Champ :** startTime
+**Titre :** date et heure de début d&#39;activité
+**Description :** date et heure de début de la décision (anciennement appelée activité). La propriété a la sémantique de la propriété &#39;startTime&#39; de schema.org définie sur http://schema.org/Action.
 **Type :** chaîne
 
 ## _repo
@@ -254,9 +258,9 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Champ :** _repo 
 **Type :** objet
 
-### _repo > Activity ETag
+### _repo > Etag d’activité
 
-**Champ :** 
-**Titre de l’etag :** Activity ETag 
-**Description :** révision à laquelle l’objet de décision (anciennement appelé activité) se trouvait lors de la prise de l’instantané.
-**Type :** Chaîne
+**Champ :** etag
+**Titre :** Etag d’activité
+**Description :** révision à laquelle l&#39;objet de l&#39;option de décision (auparavant appelée activité) se trouvait lors de la prise de l&#39;instantané.
+**Type :** chaîne
