@@ -1,22 +1,26 @@
 ---
 title: Liste des balises
 description: Les balises vous permettent de mieux organiser et trier vos offres.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '306'
+feature: Offres
+topic: Intégrations
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
 
 # Liste des balises
 
-Les balises vous permettent de mieux organiser et trier vos offres. Par exemple, vous pouvez libeller vos offres Black Friday à l’aide de la balise « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à cette balise.
+Les balises vous permettent de mieux organiser et trier vos offres. Par exemple, vous pouvez libeller vos offres Black Friday à l&#39;aide de la balise « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à cette balise.
 
 Les balises peuvent également être utilisées pour regrouper les offres sous forme de collections. Pour plus d’informations, consultez le tutoriel sur la [création de collections](../../../offer-library/creating-collections.md).
 
 Vous pouvez afficher une liste de toutes les balises d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
-**Format d’API**
+**Format d&#39;API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUERY_PARAMS}
@@ -24,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les balises. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | Définit le schéma associé aux balises. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
@@ -43,7 +47,7 @@ curl -X GET \
 
 ## Utilisation des paramètres de requête
 
-Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l’organisation en liste des ressources.
+Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
 ### Pagination
 
@@ -51,10 +55,10 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l’empêcher d’être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d’une barre oblique inverse lorsqu’ils apparaissent dans la chaîne de requête. | JSON du site Web |
-| `qop` | Applique l’opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
+| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | JSON du site Web |
+| `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
 | `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
-| `orderBy` | Triez les résultats en fonction d’une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limitez le nombre de balises renvoyées. | `limit=5` |
 
 **Réponse**
