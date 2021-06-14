@@ -1,9 +1,13 @@
 ---
 title: Rapport dynamique
 description: Découvrez comment utiliser les données du rapport dynamique
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '235'
+feature: Création de rapports
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
@@ -35,7 +39,7 @@ Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou e
 
    ![](../assets/report_modify_2.png)
 
-1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d’autres widgets dont vous n’avez pas besoin pour suivre les bounces.
+1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d&#39;autres widgets dont vous n’avez pas besoin pour suivre les bounces.
 
    ![](../assets/report_modify_3.png)
 
