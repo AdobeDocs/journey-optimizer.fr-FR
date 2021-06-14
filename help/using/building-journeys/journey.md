@@ -1,9 +1,13 @@
 ---
 title: Principe général
 description: Principe général
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: Parcours
+topic: Gestion de contenu
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '118'
 ht-degree: 85%
 
 ---
