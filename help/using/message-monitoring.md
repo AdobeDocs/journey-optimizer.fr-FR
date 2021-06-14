@@ -1,9 +1,13 @@
 ---
 title: Surveiller l’exécution des messages
 description: Découvrez les instructions de surveillance
-source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
+feature: Surveillance
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 85%
 
 ---
