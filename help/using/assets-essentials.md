@@ -1,10 +1,14 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Prise en main d’Assets Essentials
-source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
+feature: Présentation
+topic: Gestion de contenu
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '407'
+ht-degree: 4%
 
 ---
 
@@ -12,7 +16,7 @@ ht-degree: 3%
 
 ![](assets/do-not-localize/badge.png)
 
-## Prise en main d’[!DNL Assets Essentials] {#get-started-assets-essentials}
+## Prise en main d&#39;[!DNL Assets Essentials] {#get-started-assets-essentials}
 
 [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages. Il est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** . Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email. [En savoir plus sur la conception](design-emails.md) des emails.
 
