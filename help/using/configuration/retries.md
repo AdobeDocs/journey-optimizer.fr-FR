@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 80c307a349a8ca7449639e7819683bf1f3ec3d13
+feature: Paramétrage de l’application
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 39%
+source-wordcount: '215'
+ht-degree: 40%
 
 ---
 
@@ -39,6 +43,6 @@ Vous pouvez modifier le seuil limite à l&#39;aide du bouton **[!UICONTROL Modif
 
 Les reprises seront effectuées pendant **3,5 jours** à partir du moment où le message a été ajouté à la file d’attente des emails.
 
-Le délai minimum entre les reprises et le nombre maximum de reprises à effectuer sont <!--managed by the Enhanced MTA,--> en fonction des performances d’une IP, à la fois historiquement et sur un domaine donné.
+Le délai minimum entre les reprises et le nombre maximum de reprises à effectuer sont <!--managed by the Enhanced MTA,--> en fonction des performances d’une adresse IP, à la fois historiquement et sur un domaine donné.
 
-Au bout de 3,5 jours, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de bounce.<!--???-->
+Après 3,5 jours, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de bounce.<!--???-->
