@@ -2,9 +2,13 @@
 solution: Journey Orchestration
 title: À propos de la configuration des actions personnalisées
 description: Découvrez comment configurer une action personnalisée
-source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
+feature: Actions
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
