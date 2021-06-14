@@ -8,9 +8,11 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: Paramétrage de l’application
+topic: Administration
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 29%
 
 ---
@@ -50,6 +52,6 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
    * La configuration **Source de données** vous permet de définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées dans vos parcours. En savoir plus sur les sources de données dans [cette section](../datasource/about-data-sources.md).
 
-   * **Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à la personne suivant le parcours.** Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). En savoir plus sur les événements dans [cette section](../event/about-events.md).
+   * **Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l’individu progressant dans le parcours.** Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). En savoir plus sur les événements dans [cette section](../event/about-events.md).
 
    * [!DNL Journey Optimizer] est fourni avec les fonctionnalités de message intégrées : vous pouvez concevoir votre contenu et publier votre message. Si vous utilisez un système tiers pour envoyer vos messages, créez une **action personnalisée**. En savoir plus sur les actions dans [cette section](../action/action.md).
