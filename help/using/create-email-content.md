@@ -1,9 +1,13 @@
 ---
 title: Créer des emails dans Journey Optimizer
 description: Découvrez comment concevoir le contenu de vos emails
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '1570'
+feature: Présentation
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---
@@ -240,8 +244,10 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 >[!CAUTION]
 >
 >* Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne sont pas reflétées dans la vue HTML.
->
->* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
+   >
+   >
+* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
+
 >
 
 
