@@ -1,9 +1,13 @@
 ---
 title: Rapport global
 description: Découvrez comment utiliser les données du rapport global
-source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
+feature: Création de rapports
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '263'
 ht-degree: 93%
 
 ---
