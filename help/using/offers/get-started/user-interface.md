@@ -1,9 +1,13 @@
 ---
 title: Interface utilisateur
-description: En savoir plus sur l’interface utilisateur de la bibliothèque des offres.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '461'
+description: En savoir plus sur l'interface utilisateur de la bibliothèque des offres.
+feature: Offres
+topic: Intégrations
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -14,9 +18,9 @@ La bibliothèque des offres vous permet de créer et de gérer vos emplacements 
 
 Utilisez le menu **[!UICONTROL Offres]** pour gérer les offres personnalisées et de secours, les organiser en collections et les diffuser en créant des décisions :
 
-* **[!UICONTROL Offres]** : accédez à vos offres personnalisées et de secours ou créez-en de nouvelles. Voir [Création d’une offre](../offer-library/creating-personalized-offers.md) et [Création d’une offre de secours](../offer-library/creating-fallback-offers.md).
+* **[!UICONTROL Offres]** : accédez à vos offres personnalisées et de secours ou créez-en de nouvelles. Voir [Création d&#39;une offre](../offer-library/creating-personalized-offers.md) et [Création d&#39;une offre de secours](../offer-library/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]** : créez et gérez des collections d’offres dynamiques et statiques. Voir [À propos des collections d’offres](../offer-library/creating-collections.md).
+* **[!UICONTROL Collections]** : créez et gérez des collections d&#39;offres dynamiques et statiques. Voir [À propos des collections d&#39;offres](../offer-library/creating-collections.md).
 
 * **[!UICONTROL Décisions]** : créez et gérez des décisions pour diffuser vos offres. Voir [Création de décisions](../offer-activities/create-offer-activities.md).
 
@@ -24,13 +28,13 @@ Utilisez le menu **[!UICONTROL Offres]** pour gérer les offres personnalisées 
 
 Utilisez le menu **[!UICONTROL Composants]** pour gérer les composants requis afin de créer des offres :
 
-* **[!UICONTROL Emplacements]** : créez et gérez les emplacements où vos offres s’afficheront. Voir [Création d’emplacements](../offer-library/creating-placements.md).
+* **[!UICONTROL Emplacements]** : créez et gérez les emplacements où vos offres s’afficheront. Voir [Création d&#39;emplacements](../offer-library/creating-placements.md).
 
 * **[!UICONTROL Balises]** : créez et gérez des balises pour organiser et filtrer vos offres. Voir [Création de balises](../offer-library/creating-tags.md).
 
-* **[!UICONTROL Règles]** : gérez les conditions dans lesquelles vos offres sont présentées. Voir [Création d’une règle de décision](../offer-library/creating-decision-rules.md).
+* **[!UICONTROL Règles]** : gérez les conditions selon lesquelles vos offres sont présentées. Voir [Création d&#39;une règle de décision](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Classements]** : créez et gérez des formules de classement afin de déterminer quelle offre doit être présentée en premier pour un emplacement donné. Voir [Création de formules de classement](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Classements]** créez et gérez des formules de classement afin de déterminer l&#39;offre qui doit être présentée en premier pour un emplacement donné. Voir [Création de formules de classement](../offer-library/create-ranking-formulas.md).
 
 ![](../../assets/offer_activities.png)
 
@@ -38,7 +42,7 @@ Utilisez le menu **[!UICONTROL Composants]** pour gérer les composants requis a
 
 Utilisez la **barre de recherche** pour rechercher un élément spécifique.
 
-Pour accéder aux **filtres**, vous pouvez également cliquer sur l’icône en forme de filtre en haut à gauche de la liste. Il permettent de filtrer les éléments affichés en fonction de différents critères. Vous pouvez, par exemple, filtrer les emplacements créés pour le canal de communication par email et les contenus de type image.
+Pour accéder aux **filtres**, vous pouvez également cliquer sur l&#39;icône en forme de filtre en haut à gauche de la liste. Il permettent de filtrer les éléments affichés en fonction de différents critères. Vous pouvez, par exemple, filtrer les emplacements créés pour le canal de communication par email et les contenus de type image.
 
 ![](../../assets/filters.png)
 
@@ -52,13 +56,13 @@ Notez que la personnalisation des colonnes est enregistrée pour chaque utilisat
 
 ![](../../assets/columns.png)
 
-## Volet d’informations
+## Volet d&#39;informations
 
-Dans les différentes listes, sélectionnez un élément pour afficher un volet d’informations afin de récupérer des informations et d’exécuter des actions de base sur l’élément.
+Dans les différentes listes, sélectionnez un élément pour afficher un volet d&#39;informations afin de récupérer des informations et d&#39;exécuter des actions de base sur l&#39;élément.
 
 ![](../../assets/information-pane.png)
 
-Les listes des offres et des décisions vous permettent désormais d’effectuer des actions en masse sur plusieurs éléments. Pour cela, sélectionnez les offres ou décisions de votre choix, puis l’action à exécuter dans le volet d’informations.
+Les listes des offres et des décisions vous permettent également d&#39;effectuer des actions en masse sur plusieurs éléments. Pour cela, sélectionnez les offres ou décisions de votre choix, puis l’action à exécuter dans le volet d’informations.
 
 ![](../../assets/bulk-actions.png)
 
@@ -68,8 +72,8 @@ Vous pouvez également dupliquer une offre ou une décision existante afin de cr
 
 ## Logs des modifications des offres et des décisions {#changes-logs}
 
-La bibliothèque des offres permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour cela, ouvrez l’offre ou la décision en cliquant sur son nom dans la liste, puis sélectionnez l’onglet **[!UICONTROL Log des modifications]**.
+La bibliothèque des offres permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour cela, ouvrez l&#39;offre ou la décision en cliquant sur son nom dans la liste, puis sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]**.
 
-Toutes les modifications apportées s’affichent dans cet écran, ainsi que le nom de l’utilisateur qui les a effectuées.
+Toutes les modifications apportées s&#39;affichent dans cet écran, ainsi que le nom de l&#39;utilisateur qui les a effectuées.
 
 ![](../../assets/change-logs.png)
