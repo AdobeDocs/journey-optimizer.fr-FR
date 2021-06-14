@@ -11,9 +11,13 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 4b515b497de3721794f22c6833ed1f5269110171
+feature: Paramétrage de l’application
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '650'
 ht-degree: 8%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 8%
 Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses électroniques qui sont automatiquement exclues de l’envoi dans un parcours, telles que :
 
 * Adresses non valides (hard bounces) ou présentant un soft bounce constant, et susceptibles d’affecter la réputation de votre email si vous continuez à les inclure dans vos diffusions.
-* Les destinataires qui déposent une plainte pour courrier indésirable contre l’un de vos emails.
+* Les destinataires qui déposent une plainte pour spam contre l’un de vos emails.
 
 <!--Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md). NOT TRUE as confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
