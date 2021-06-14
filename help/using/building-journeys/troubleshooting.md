@@ -1,9 +1,13 @@
 ---
 title: Dépannage de parcours
 description: Découvrez comment résoudre les erreurs dans les parcours
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: Parcours
+topic: Gestion de contenu
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1058'
 ht-degree: 99%
 
 ---
