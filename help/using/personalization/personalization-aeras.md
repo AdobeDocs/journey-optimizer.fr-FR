@@ -1,9 +1,13 @@
 ---
 title: Contextes de personnalisation dans Journey Optimizer
 description: Découvrez dans quels contextes vous pouvez ajouter une personnalisation.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Personnalisation
+topic: Personnalisation
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 80%
 
 ---
