@@ -3,9 +3,13 @@ title: Délégation de sous-domaines
 description: Découvrez comment déléguer vos sous-domaines
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+feature: Paramétrage de l’application
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 71%
 
 ---
