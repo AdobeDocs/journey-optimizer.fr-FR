@@ -9,7 +9,7 @@ hide: true
 source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,30 +25,30 @@ ht-degree: 83%
 + Messages {#create-messages}
    + [Prise en main des messages](using/get-started-content.md)
    + Créer des messages {#create-message}
-      + [Création d’un message](using/create-message.md)
+      + [Création d&#39;un message](using/create-message.md)
       + [Créer un email](using/create-email.md)
       + [Créez une notification push](using/create-push.md)
    + [Ajout et gestion des ressources](using/assets-essentials.md)
-   + Concepteur d’email {#email-designer}
+   + Concepteur d&#39;email {#email-designer}
       + [Prise en main de la conception d&#39;e-mails](using/design-emails.md)
-      + [Conception de votre contenu d&#39;e-mail dans l’interface utilisateur](using/create-email-content.md)
+      + [Conception de votre contenu d&#39;e-mail dans l&#39;interface utilisateur](using/create-email-content.md)
       + [Importer ou coder le contenu de votre e-mail](using/existing-content.md)
-      + [Utiliser les composants de contenu du concepteur d’email](using/content-components.md)
+      + [Utiliser les composants de contenu du concepteur d&#39;email](using/content-components.md)
    + Personnalisation{#personalization}
       + [Prise en main](using/personalization/personalize.md)
       + [Zones de personnalisation](using/personalization/personalization-aeras.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Validation de la personnalisation](using/personalization/personalization-validation.md)
-      + [Cas d’utilisation de la personnalisation](using/personalization/personalization-use-case.md)
-      + Fonctions d’assistance{#functions}
-         + [Liste des fonctions d’assistance](using/personalization/functions/functions.md)
-         + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
+      + [Cas d&#39;utilisation de la personnalisation](using/personalization/personalization-use-case.md)
+      + Fonctions d&#39;assistance{#functions}
+         + [Liste des fonctions d&#39;assistance](using/personalization/functions/functions.md)
+         + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
          + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
          + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
          + [Assistants](using/personalization/functions/helpers.md)
          + [Fonctions de mappage](using/personalization/functions/maps.md)
-         + [Fonctions d’objet](using/personalization/functions/objects.md)
+         + [Fonctions d&#39;objet](using/personalization/functions/objects.md)
          + [Fonctions de chaîne](using/personalization/functions/string.md)
    + [Ajout d&#39;offres personnalisées](using/deliver-personalized-offers.md)
    + Valider et publier {#create-message}
@@ -86,7 +86,7 @@ ht-degree: 83%
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
       + [Sauter](using/building-journeys/jump.md)
       + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
-   + Cas d’utilisation {#journey-use-cases}
+   + Cas d&#39;utilisation {#journey-use-cases}
       + [Envoi de messages à plusieurs canaux](using/building-journeys/journeys-uc.md)
 + Tracker et suivre vos diffusions {#reporting}
    + [Tracking des messages](using/message-tracking.md)
@@ -105,15 +105,15 @@ ht-degree: 83%
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Champs du parcours](using/reports/sharing-journey-fields.md)
       + [Champs communs](using/reports/sharing-common-fields.md)
-      + [Champs d’exécution d’action](using/reports/sharing-execution-fields.md)
+      + [Champs d&#39;exécution d&#39;action](using/reports/sharing-execution-fields.md)
       + [Champs de récupération de données](using/reports/sharing-fetch-fields.md)
-      + [Champs d’identité](using/reports/sharing-identity-fields.md)
+      + [Champs d&#39;identité](using/reports/sharing-identity-fields.md)
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/deliverability.md)
       + [Liste de suppression](using/suppression-list.md)
-+ Gestion des décisions {#offer-decisioniong}
-   + Prise en main de Decision Management {#get-started}
-      + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
++ Decision Management {#offer-decisioniong}
+   + Prise en main de Decision Management {#get-started}
+      + [À propos de Decision Management](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface utilisateur](using/offers/get-started/user-interface.md)
       + [Glossaire](using/offers/get-started/glossary.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
@@ -129,7 +129,7 @@ ht-degree: 83%
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configuration de la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
    + Création de rapports de gestion de décisions {create-reports}
-      + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
+      + [Prise en main des événements Decision Management](using/offers/reports/get-started-events.md)
       + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
    + Export de votre catalogue d&#39;offres {#export-catalog}
@@ -144,9 +144,9 @@ ht-degree: 83%
       + Créer et gérer des offres à l&#39;aide d&#39;API {#offers-api}
          + Emplacements {#placements}
             + [Liste des placements](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [Recherche d&#39;un emplacement](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [Création d&#39;un emplacement](using/offers/api-reference/offers-api/placements/create.md)
-            + [Mise à jour d&#39;un emplacement](using/offers/api-reference/offers-api/placements/update.md)
+            + [Recherche d&#39;un placement](using/offers/api-reference/offers-api/placements/lookup.md)
+            + [Création d&#39;un placement](using/offers/api-reference/offers-api/placements/create.md)
+            + [Mise à jour d&#39;un placement](using/offers/api-reference/offers-api/placements/update.md)
             + [Supprimer un emplacement](using/offers/api-reference/offers-api/placements/delete.md)
          + Règles de décision {#decision-rules}
             + [Liste des règles de décision](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
@@ -180,33 +180,33 @@ ht-degree: 83%
             + [Suppression d&#39;une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
       + Créer et gérer des décisions à l&#39;aide d&#39;API {#activities-api}
          + [Liste des décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [Recherche une décision](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [Recherche d&#39;une décision](using/offers/api-reference/activities-api/activities/lookup.md)
          + [Création d’une décision](using/offers/api-reference/activities-api/activities/create.md)
          + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
          + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
-      + Diffusion d’offres à l’aide d’API {#offer-delivery}
+      + Diffusion d&#39;offre à l&#39;aide d&#39;API {#offer-delivery}
          + [API Decisions](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK web Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
 + Configuration {#get-started}
-   + [Prise en main de la configuration Journey Optimizer](using/configuration/get-started-configuration.md)
+   + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configuration des messages {#configuration}
       + [Paramètres techniques](using/administration/administration.md)
-      + [Création de paramètres de message prédéfinis](using/configuration/message-presets.md)
+      + [Création de préréglages de message](using/configuration/message-presets.md)
       + [Configuration du canal push](using/push-configuration.md)
       + [Configuration de notifications push](using/push-gs.md)
-      + Configuration des emails {#email-config}
+      + Configuration des e-mails {#email-config}
          + Délégation de sous-domaines {#delegate-subdomains}
-            + [Prise en main de la délégation de sous-domaine](using/configuration/about-subdomain-delegation.md)
-            + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
+            + [Prise en main de la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
+            + [Délégation d&#39;un sous-domaine](using/configuration/delegate-subdomain.md)
             + [Accès aux sous-domaines délégués](using/configuration/access-subdomains.md)
-            + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
+            + [Ajout d&#39;un enregistrement TXT Google](using/configuration/google-txt.md)
             + [Accès aux enregistrements PTR](using/configuration/ptr-records.md)
-         + [Création de pools d’adresses IP](using/configuration/ip-pools.md)
-         + Surveiller les adresses électroniques {#monitor-reputation}
-            + [Gérer la liste de suppression](using/configuration/manage-suppression-list.md)
+         + [Création de pools d&#39;adresses IP](using/configuration/ip-pools.md)
+         + Surveillance des adresses e-mail {#monitor-reputation}
+            + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
-         + [Modifier l’adresse Principale du courrier électronique](using/configuration/primary-email-addresses.md)
-   + Configurer des parcours {#configure-journeys}
+         + [Modification de l&#39;adresse e-mail principale](using/configuration/primary-email-addresses.md)
+   + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + [Intégration avec des systèmes externes](using/configuration/external-systems.md)
       + Configuration des événements {#events-journeys}
@@ -215,19 +215,19 @@ ht-degree: 83%
             + [Prise en main des événements unitaires](using/event/about-creating.md)
             + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
             + [Tirer profit d&#39;Adobe Analytics](using/event/about-analytics.md)
-         + [Configuration d’un événement métier](using/event/about-creating-business.md)
-         + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+         + [Configuration d&#39;un événement métier](using/event/about-creating-business.md)
+         + [Étapes supplémentaires pour l&#39;envoi d&#39;événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
       + Configuration d&#39;une source de données{#data-source-journeys}
          + [À propos des sources de données](using/datasource/about-data-sources.md)
-         + [Configuration d’une source de données](using/datasource/configure-data-sources.md)
+         + [Configuration d&#39;une source de données](using/datasource/configure-data-sources.md)
          + [Source de données Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
          + [Sources de données externes](using/datasource/external-data-sources.md)
-      + Configuration d’action {#action-journeys}
+      + Configuration d&#39;action {#action-journeys}
          + [À propos des actions](using/action/action.md)
          + [Configurer une action](using/action/about-custom-action-configuration.md)
-+ Contrôle d’accès {#administration}
-   + [Présentation du contrôle d’accès](using/administration/permissions-overview.md)
-   + [Profils de produit intégrés](using/administration/ootb-product-profiles.md)
++ Contrôle d&#39;accès {#administration}
+   + [Présentation du contrôle d&#39;accès](using/administration/permissions-overview.md)
+   + [Profils de produits natifs](using/administration/ootb-product-profiles.md)
    + [Gestion des utilisateurs et des profils de produits](using/administration/permissions.md)
-   + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
-   + [Gestion des environnements de test](using/administration/sandboxes.md)
+   + [Niveaux d&#39;autorisation](using/administration/high-low-permissions.md)
+   + [Gestion des environnements Sandbox](using/administration/sandboxes.md)
