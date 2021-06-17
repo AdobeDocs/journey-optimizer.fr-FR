@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,9 @@ Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné
 
 ![](../../assets/offer-priority.png)
 
-De plus, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres. Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ».
+De plus, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
+
+Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ».
 
 Pour plus d&#39;informations sur la création d&#39;une formule de classement, reportez-vous à [cette section](../offer-library/create-ranking-formulas.md).
 
@@ -28,14 +30,18 @@ Pour plus d&#39;informations sur la création d&#39;une formule de classement, r
 
 Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
-* Créez une décision ou modifiez une décision existante, puis créez les emplacements qui contiendront vos offres (voir [Création de décisions](../offer-activities/create-offer-activities.md)).
+1. Créez une décision ou modifiez une décision existante, puis créez les emplacements qui contiendront vos offres (voir [Création de décisions](../offer-activities/create-offer-activities.md)).
 
-* Pour chaque emplacement, sélectionnez **[!UICONTROL Classement]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
+1. Pour chaque emplacement, sélectionnez **[!UICONTROL Classement]** dans la liste déroulante.
+
+1. Cliquez sur **[!UICONTROL Ajouter le classement]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
-* Sélectionnez la formule de classement souhaitée, puis cliquez sur **[!UICONTROL Sélectionner]**.
+1. Sélectionnez la formule de classement souhaitée, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](../../assets/ranking-selection.png)
 
-La formule de classement est désormais associée à l&#39;emplacement. Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera la formule de classement pour calculer l&#39;offre à diffuser en premier.
+La formule de classement est désormais associée à l&#39;emplacement.
+
+Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera la formule de classement pour calculer l&#39;offre à diffuser en premier.
