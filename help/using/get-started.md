@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6783aaec0d050074624b9aa8219252ebf7618088
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 21%
 
 ---
 
@@ -17,41 +17,40 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="Contenu de test"
->abstract="Testez le contenu pour l’intégration de l’aide contextuelle dans CJM."
+>abstract="Testez le contenu pour l’intégration de l’aide contextuelle dans AJO."
 
-![](assets/do-not-localize/badge.png)
+## Présentation d’[!DNL Adobe Journey Optimizer] {#about-cjm}
 
-## Présentation d’[!DNL Journey Optimizer] {#about-cjm}
+[!DNL Adobe Journey Optimizer] aide les sociétés à proposer des expériences connectées, contextuelles et personnalisées à leurs clients. Le parcours client est l’ensemble du processus d’interaction d’un client avec la marque, depuis le premier moment de contact jusqu’au départ du client. Il débute avec la phase de sensibilisation, où le client découvre la marque et des commence de façon. Le client interagira ensuite davantage avec la marque, se rendra sur les sites Web et physiques, effectuera des achats, enverra des messages ou publiera des commentaires.
 
-[!DNL Journey Optimizer] aide les sociétés à proposer des expériences connectées, contextuelles et personnalisées à leurs clients. Le parcours client est l’ensemble du processus d’interaction d’un client avec la marque, depuis le premier moment de contact jusqu’au départ du client. Il débute avec la phase de sensibilisation, où le client découvre la marque et des commence de façon. Le client interagira ensuite davantage avec la marque, se rendra sur les sites Web et physiques, effectuera des achats, enverra des messages ou publiera des commentaires.
+[!DNL Adobe Journey Optimizer] est conçu de manière native sur  [!DNL Adobe Experience Platform] et combine un profil client en temps réel unifié, un framework ouvert d’abord API, un offer decisioning centralisé et une intelligence artificielle (IA) et un apprentissage automatique (ML) pour la personnalisation et l’optimisation. Journey Optimizer permet aux marques de déterminer intelligemment la meilleure interaction possible sur l’échelle, la vitesse et la flexibilité pour l’ensemble du parcours client. Avec [!DNL Adobe Journey Optimizer], les entreprises peuvent créer et diffuser des campagnes marketing planifiées (comme des promotions hebdomadaires pour un magasin de vente au détail) et des communications individuelles personnalisées (comme une notification push pour un article qu’un client d’application de fidélité peut avoir examiné et qui était précédemment en rupture de stock) dans la même application.
 
-[!DNL Journey Optimizer] suit les clients à toutes les étapes du parcours client et fournit aux sociétés les informations dont elles ont besoin pour interagir avec des clients à forte valeur ajoutée aux points de contact les plus importants. Il aide les sociétés à trouver le meilleur moyen d&#39;interagir avec les clients à chaque étape du parcours d&#39;un client.
+## Cas d’utilisation
 
-Exploitant les capacités [!DNL Journey Optimizer], enrichies de fonctions Messages et Lecture de segment, [!DNL Journey Optimizer] permet aux marques de fournir des expériences personnalisées à canal variable en temps réel et à l&#39;échelle grâce à un ensemble de fonctionnalités intelligentes, extensibles, API-first, et permettent d&#39;essayer, acheter et créer facilement de la valeur. Cet ensemble de nouvelles fonctionnalités offre des parcours en temps réel, une création moderne et des capacités de diffusion à grande vitesse.&#x200B;
+* Les marketeurs peuvent utiliser [!DNL Adobe Journey Optimizer] pour envoyer à la fois des communications personnalisées et des communications par lots basées sur l’audience. Par exemple, une boutique de vêtements envoie généralement des enquêtes après achat à tous les clients qui ont acheté des produits la semaine dernière. En raison des intempéries, quelques envois ont été retardés. En voyant les clients qui n’ont pas reçu leurs envois, la boutique de vêtements peut les exclure de l’envoi de satisfaction client programmée et envoyer à la place un email personnalisé s’excusant du retard et proposant un code de remise avec des recommandations de produits basées sur les achats passés du client.
 
->[!NOTE]
->
->[!DNL Journey Optimizer] est actuellement à la version bêta. L&#39;accès est limité à un petit groupe de clients bêta. Sachez que l&#39;interface du produit, les capacités et les flux d&#39;utilisation peuvent changer sans préavis. En tant que client bêta, vous pouvez partager dez [commentaires](#cjm-share-feedback). Les problèmes connus sont répertoriés dans cette [page](known-issues.md).
+   Les marketeurs peuvent également utiliser l’application pour envoyer des communications en temps réel basées sur le comportement. Par exemple, le même détaillant pourrait engager un client fidèle qui se rend sur le parking du magasin en temps réel en lui envoyant une notification push à propos d’un pull qui est de nouveau en stock au même niveau que le client.
 
-Les principales fonctionnalités sont les suivantes :
+* Les non-spécialistes du marketing tels que les équipes d’exploitation et le service clientèle qui s’impliquent dans l’expérience client peuvent utiliser [!DNL Adobe Journey Optimizer] pour gérer diverses tâches, telles que des notifications opérationnelles, voire pour surveiller le processus d’intégration. Prenez par exemple un parc d’attraction où les visiteurs du parc téléchargent une application mobile dans le cadre de leur expérience dans le parc. Le personnel de maintenance peut utiliser [!DNL Adobe Journey Optimizer] pour avertir les visiteurs du parc des trajets actuellement fermés en raison de travaux de maintenance.
 
-* **Fondement des données et de la segmentation** : intégrez les données de l&#39;entreprise pour un profil client unique en temps réel et tirez parti des puissantes capacités de segmentation des audiences pour garantir une expérience optimale pour chaque personne.
+## Fonctionnalités principales
 
-* **Création de contenu et personnalisation contextuelle** : créez facilement du contenu beau et réactif sans l&#39;aide des services informatiques.
+[!DNL Adobe Journey Optimizer] est une application agile et évolutive permettant de créer et de proposer des expériences client personnalisées, connectées et opportunes sur n’importe quelle application, périphérique ou canal.
 
-* **Orchestration des expériences sur plusieurs canaux** : créez visuellement des parcours clients complexes à l’aide d’une interface glisser-déposer pour orchestrer et automatiser des messages personnalisés sur des canaux e-mails et mobiles.
+![](assets/ajo-capabilities.png)
 
-* **Rapports et optimisation de la réussite d&#39;une campagne** : découpez dynamiquement les données de performances des campagnes sur plusieurs segments à l’aide de rapports prêts à l’emploi ou personnalisables. Intégration avec Adobe Analytics pour une analyse plus profonde des performances et des conversions des campagnes.
+Les fonctionnalités principales sont les suivantes :
 
-## Partage de commentaires {#cjm-share-feedback}
+* **Real-time Customer Insights &amp; Engagement**  : un profil intégré fusionne les données en direct de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d’optimiser les expériences personnelles et contextuelles des clients à leur époque.
 
-En tant que client bêta, vous pouvez partager vos commentaires à l’aide du bouton bleu situé en haut de l’espace de travail.
+* **Orchestration et exécution omnicanal modernes**  : un canevas unique sur lequel harmoniser et optimiser le parcours client pour l’interaction client 1:1 et la sensibilisation marketing, afin d’aider les marques à offrir plus de valeur tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d’aider les marques à réagir aux signaux en temps réel et à lier ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
 
-Saisissez un objet, vos commentaires et cliquez sur **Envoyer**. Si nécessaire, vous pouvez joindre un fichier à vos commentaires.
+* **Prise de décision intelligente et personnalisation**  : les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et l’apprentissage automatique pour faire surface des informations prédictives tout au long de l’expérience client, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. L’Offer decisioning alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
 
 >[!NOTE]
 >
->Les lignes directrices et procédures générales de Adobe Experience Cloud sur la protection des renseignements personnels s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html).
+> Les lignes directrices et procédures générales de Adobe Experience Cloud sur la protection des renseignements personnels s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html).
+> Vous devez également connaître les [barrières de sécurité pour les données Real-time Customer Profile avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
 
 
 **Voir également**
@@ -60,3 +59,4 @@ Saisissez un objet, vos commentaires et cliquez sur **Envoyer**. Si nécessaire,
 * [Créer votre premier message](get-started-content.md)
 * [Concevoir des parcours et envoyer des messages](building-journeys/journey-gs.md)
 * [Rapports dynamiques](reports/live-report.md)
+* [FAQ sur Journey Optimizer](assets/do-not-localize/AJO-FAQ.pdf)  (PDF)
