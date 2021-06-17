@@ -5,18 +5,16 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '63'
+ht-degree: 60%
 
 ---
 
 # Champs d’identité des événements journeyStep {#sharing-identity-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Ce mixin est spécifique à journeyStepEvent : cet événement est en relation avec le parcours, et ne dispose pas de l’identityMap décrivant l’identité du profil, le cas échéant.
+Ce groupe de champs est spécifique à journeyStepEvent : cet événement est en relation avec parcours et ne dispose pas de identityMap décrivant l’identité du profil, le cas échéant.
 
 Pour un événement journeyStepEvent, nous devons également ajouter des champs liés à l’identité :
 
