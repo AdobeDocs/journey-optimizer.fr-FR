@@ -5,7 +5,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Création de segments {#build-segments}
-
-![](../assets/do-not-localize/badge.png)
 
 Dans cet exemple, nous allons créer un segment pour cibler tous les clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients doivent avoir ouvert l&#39;application Luma dans les 7 derniers jours, puis fait un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
 
