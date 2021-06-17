@@ -5,7 +5,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 85%
@@ -13,8 +13,6 @@ ht-degree: 85%
 ---
 
 # Principe général{#jo-general-principle}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] vous permettent de créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
