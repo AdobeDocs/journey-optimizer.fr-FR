@@ -6,16 +6,14 @@ feature: Actions
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 91%
+source-wordcount: '241'
+ht-degree: 84%
 
 ---
 
 # À propos des actions {#about_actions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_actions"
@@ -25,6 +23,8 @@ ht-degree: 91%
 Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise.
 
 [!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Reportez-vous à [cette section](../get-started-content.md).
+
+Si vous disposez d’Adobe Campaign v7 ou v8, une intégration est disponible sur demande. Voir [cette page](../action/acc-action.md).
 
 Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
@@ -36,6 +36,6 @@ Les actions personnalisées vous permettent de configurer la connexion d’un sy
 
 Les actions sont disponibles dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]** Voir [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
-Pour afficher la liste des actions ou configurer une nouvelle action, accédez à **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** dans le volet de navigation de gauche. La liste des actions s’affiche. Pour plus d’informations sur l’interface, voir [cette page](../user-interface.md)
+Pour afficher la liste des actions ou configurer une nouvelle action, sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s’affiche. Pour plus d’informations sur l’interface, voir [cette page](../user-interface.md)
 
 ![](../assets/custom1.png)
