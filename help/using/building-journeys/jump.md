@@ -5,16 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Passage d’un parcours à un autre {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 L’activité d’action **[!UICONTROL Saut]** permet d’inviter des individus à passer d’un parcours à un autre. Cette fonctionnalité permet d’effectuer les opérations suivantes :
 
@@ -55,8 +53,8 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 
 * L’activité **[!UICONTROL Saut]** n’est disponible que dans les parcours utilisant un espace de noms.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
-* Vous ne pouvez pas accéder à un parcours commençant par un événement **Qualification du segment** ou **Lecture de segment**.
-* Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement **Qualification du segment** ou **Lecture de segment**.
+* Vous ne pouvez pas accéder à un parcours commençant par un événement **Qualification de segment** ou **Lecture de segment**.
+* Vous ne pouvez pas avoir une activité **[!UICONTROL Saut]** et un événement **Qualification de segment** ou **Lire le segment** dans le même parcours.
 * Vous pouvez inclure autant d’activités **[!UICONTROL Saut]** que nécessaire dans un parcours. Après un **[!UICONTROL saut]**, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
 * Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
@@ -78,7 +76,7 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
    ![](../assets/jump2.png)
 
 1. Cliquez dans le champ **Parcours cible**.
-La liste contient toutes les versions de parcours en version brouillon, version active ou en mode test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement de **qualification de segment** ne sont pas disponibles. Les parcours cible qui créeraient un schéma de boucle sont également filtrés.
+La liste contient toutes les versions de parcours en version brouillon, version active ou en mode test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement **Qualification de segment** ne sont pas disponibles. Les parcours cible qui créeraient un schéma de boucle sont également filtrés.
 
    ![](../assets/jump3.png)
 
