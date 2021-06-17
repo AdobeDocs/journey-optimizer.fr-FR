@@ -15,10 +15,10 @@ feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -38,7 +38,7 @@ La colonne **[!UICONTROL Status]** fournit des informations sur le processus de 
 
 Pour accéder à des informations détaillées sur un sous-domaine, ouvrez-le dans la liste. Vous pouvez :
 
-* Récupérez le nom du sous-domaine (lecture seule) configuré pendant le processus de délégation, ainsi que les URL générées (ressources, page miroir, URL de tracking),
+* Récupérer le nom du sous-domaine (lecture seule) configuré pendant le processus de délégation, ainsi que les URL générées (ressources, pages miroir, URL de tracking),
 
 * Ajoutez un enregistrement TXT de vérification de site Google à votre sous-domaine pour vous assurer qu’il est vérifié (voir [Ajout d’un enregistrement TXT Google à un sous-domaine](google-txt.md)).
 
