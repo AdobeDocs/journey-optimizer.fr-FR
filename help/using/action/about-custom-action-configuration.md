@@ -6,23 +6,21 @@ feature: Actions
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 98%
+source-wordcount: '624'
+ht-degree: 88%
 
 ---
 
 # Configurer une action {#configure-an-action}
-
-![](../assets/do-not-localize/badge.png)
 
 Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. L’action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [cette page](../building-journeys/about-journey-activities.md#action-activities). À titre d’exemple, Epsilon, Facebook, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à l’aide d’actions personnalisées.
 Les limites sont répertoriées dans [cette page](../building-journeys/limitations.md).
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 
-1. Dans la liste **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Ajouter]** pour créer une action. Le volet de configuration des actions s’ouvre dans la droite de l’écran.
+1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. Cliquez sur **[!UICONTROL Créer une action]** pour créer une action. Le volet de configuration des actions s’ouvre dans la droite de l’écran.
 
    ![](../assets/custom2.png)
 
@@ -36,7 +34,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 1. Le nombre de parcours qui font appel à cette action apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cette action.
 1. Définissez les différents paramètres de **[!UICONTROL Configuration d’URL]**. Voir [cette page](../action/about-custom-action-configuration.md#url-configuration).
 1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Définissez les **[!UICONTROL Paramètres de message]**. Voir [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Définissez les **[!UICONTROL Paramètres d’action]**. Voir [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    L’action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Voir [cette page](../building-journeys/about-journey-activities.md#action-activities).
@@ -58,7 +56,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
    >Nous vous recommandons vivement d’utiliser le protocole HTTPS pour des raisons de sécurité. L’utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n’est pas autorisée.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d’appel : il peut s’agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
-1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un champ d’en-tête]** pour définir une nouvelle paire clé/valeur. Ces en-têtes correspondent aux en-têtes HTTP de la requête adressée au service externe. Pour supprimer des paires clé/valeur, placez le curseur sur le champ **[!UICONTROL En-têtes]**, puis cliquez sur l’icône **[!UICONTROL Supprimer]**.
+1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un champ d’en-tête]** pour définir une nouvelle paire clé/valeur. Ces en-têtes correspondent aux en-têtes HTTP de la requête adressée au service externe. Pour supprimer des paires clé/valeur, placez le curseur sur le champ d’en-tête et cliquez sur l’icône **[!UICONTROL Supprimer]** .
 
    Les en-têtes **[!UICONTROL Content-Type]** et **[!UICONTROL Charset]** sont définis par défaut et ne peuvent pas être supprimés ni remplacés.
 
@@ -66,11 +64,11 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
    >
    >Les en-têtes sont validés conformément à ces [règles d’analyse](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## Définir les paramètres de message {#define-the-message-parameters}
+## Définition des paramètres d’action {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
-Dans la section **[!UICONTROL Paramètres de message]**, collez un exemple de payload JSON à envoyer au service externe.
+Dans la section **[!UICONTROL Paramètres d’action]** , collez un exemple de payload JSON à envoyer au service externe.
 
 ![](../assets/customactionpayloadmessage.png)
 
