@@ -5,22 +5,20 @@ feature: Événements
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
-# Utilisation des données Adobe Analytics{#analytics-data}
+# Utilisation des données Adobe Analytics{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
 
 >[!NOTE]
 >
 >Cette section s’applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics.
-
-Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
 
 Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, la suite de rapports que vous souhaitez utiliser :
 
@@ -34,4 +32,4 @@ Cela active le connecteur source Analytics pour cette suite de rapports. Chaque 
 
 ![](../assets/jo-event9.png)
 
-Pour plus d’informations sur le connecteur source Adobe Analytics, consultez la [documentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) et le [tutoriel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr).
+Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) et le [tutoriel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
