@@ -5,26 +5,24 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1554'
+ht-degree: 91%
 
 ---
 
 # Concevoir le contenu de vos emails dans l’interface utilisateur {#create-email-content}
 
-![](assets/do-not-localize/badge.png)
-
 Une fois que vous avez [créé votre message](create-message.md), vous pouvez commencer à créer le contenu de votre email.
 
-1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur d’email]** dans la section **[!UICONTROL Modifier le contenu]**.
+1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur d’email]** dans la section **[!UICONTROL Corps]**.
 
    ![](assets/import-html_1.png)
 
 1. Dans la page d’accueil du Concepteur d’email, choisissez la manière de concevoir votre email à l’aide des options suivantes :
 
-   * Sélectionnez **[!UICONTROL Créer en partant de zéro]** pour utiliser les fonctionnalités du Concepteur d’email afin de créer le contenu de votre email.
+   * Sélectionnez **[!UICONTROL Créer en partant de zéro]** pour utiliser les fonctionnalités du Concepteur d’email afin de créer le contenu de votre email. [En savoir plus](#design-scratch)
 
    * Sélectionnez **[!UICONTROL Démarrer à partir d’un modèle]** pour créer votre email à partir d’une liste intégrée de modèles. Notez que vous ne pouvez pas créer d’autres modèles.
 
@@ -34,13 +32,39 @@ Une fois que vous avez [créé votre message](create-message.md), vous pouvez co
 
    ![](assets/email_designer_25.png)
 
-## Créer en partant de zéro
+## Créer en partant de zéro {#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="À propos des composants de structure"
+>abstract="Les composants de structure définissent la disposition de votre email."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Définition des colonnes de l’email"
+>abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
+
+Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
 Pour commencer à créer le contenu de votre email avec le Concepteur d’email, procédez comme suit :
 
 1. Après avoir sélectionné l’option **[!UICONTROL Créer en partant de zéro]**, commencez à concevoir le contenu de votre email en faisant glisser et en déposant les **[!UICONTROL Composants de structure]** pour définir la disposition de votre email.
 
+   >[!NOTE]
+   >
+   >Les colonnes empilées ne sont pas compatibles avec tous les programmes de messagerie. Lorsqu’elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
+   >
+   >Une fois qu’ils ont été placés dans l’email, vous ne pouvez pas déplacer ni supprimer vos composants, à moins qu’un composant de contenu ou un fragment ne soit déjà placé à l’intérieur.
+
    ![](assets/email_designer_2.png)
+
+1. Ajoutez autant de **[!UICONTROL composants de structure]** que nécessaire.
+
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches situées en bas de chaque colonne.
+
+   >[!NOTE]
+   >
+   >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n’est pas vide.
 
 1. Dans la liste déroulante **[!UICONTROL Composants du contenu]**, vous pouvez ajouter autant de **[!UICONTROL Composants de contenu]** que nécessaire dans votre composant de structure. [En savoir plus sur les composants de contenu](content-components.md).
 
@@ -64,6 +88,10 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >Pour en savoir plus sur les liens et le tracking des messages, consultez [cette page](message-tracking.md).
+
 1. Au besoin, vous pouvez passer à l’éditeur de code pour personnaliser davantage votre email en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Pour plus d’informations sur l’éditeur de code, consultez [cette page](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
@@ -72,7 +100,9 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 
    ![](assets/email_designer_26.png)
 
-1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier le rendu de votre email. Vous pouvez choisir la vue bureau ou la vue mobile.
+1. Cliquez sur **[!UICONTROL Afficher l’aperçu]** pour vérifier le rendu de votre email. Vous pouvez choisir la vue bureau ou la vue mobile.
+
+   Pour plus d&#39;informations sur la prévisualisation de votre email, consultez la section [Prévisualisation et test de vos messages](preview.md).
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 
 Le contenu de votre email peut maintenant être utilisé dans un message. [Découvrez comment envoyer un message](publish-manage-message.md).
 
-## Définir la structure d’un email {#defining-the-email-structure}
+## Créer la version texte d’un email {#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="À propos des composants de structure"
->abstract="Les composants de structure définissent la disposition de votre email."
+Il est recommandé de créer une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="Définition des colonnes de l’email"
->abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
+Par défaut, le Concepteur d’email crée une version en **[!UICONTROL texte brut]** de votre email, y compris des champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
 
-Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
+Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
 
-Pour éditer la structure d’un email :
+1. Dans votre email, sélectionnez l’onglet **[!UICONTROL Texte brut]**.
 
-1. Ouvrez un contenu existant ou créez un contenu d’email.
-1. Accédez aux **[!UICONTROL Composants de structure]** en sélectionnant l’icône **+** de gauche.
-1. Faites glisser et déposez les composants de structure dont vous avez besoin pour donner forme à votre email.
-Une ligne bleue matérialise la position exacte des composants de structure avant de les déposer. Vous pouvez placer vos composants au-dessus, entre ou sous n’importe quel composant, mais pas à l’intérieur.
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. Utilisez le bouton bascule **[!UICONTROL Synchroniser avec le code HTML]** pour désactiver la synchronisation.
+
+   ![](assets/text_version_1.png)
+
+1. Cliquez sur la coche pour confirmer votre choix.
+
+   ![](assets/text_version_2.png)
+
+1. Vous pouvez ensuite modifier la version en texte brut comme vous le souhaitez.
+
+>[!CAUTION]
+>
+>* Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne sont pas reflétées dans la vue HTML.
    >
-   >Les colonnes empilées ne sont pas compatibles avec tous les programmes de messagerie. Lorsqu’elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
    >
-   >Une fois qu’ils ont été placés dans l’email, vous ne pouvez pas déplacer ni supprimer vos composants, à moins qu’un composant de contenu ou un fragment ne soit déjà placé à l’intérieur.
+* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
 
-1. Plusieurs composants de structure constitués d’une ou de plusieurs colonnes sont disponibles.
-
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches situées en bas de chaque colonne.
-
-   >[!NOTE]
-   >
-   >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n’est pas vide.
-
-Une fois la structure définie, vous pouvez ajouter des fragments et des composants de contenu à votre email.
 
 ## Utiliser un pré-titre {#preheader}
 
@@ -124,15 +147,33 @@ Une fois la structure définie, vous pouvez ajouter des fragments et des composa
 >title="Utilisation d’un pré-titre"
 >abstract="Le pré-titre vous permet de configurer un texte de résumé court vous aidant à mieux suivre et personnaliser vos emails."
 
-Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Il peut vous aider à mieux suivre et personnaliser vos emails.
-
-Sélectionnez la zone de modification **[!UICONTROL Pré-titre]** et ajoutez du contenu.
-
-Vous pouvez ajouter un **[!UICONTROL Bloc de contenu]**, un **[!UICONTROL Contenu dynamique]** ou un **[!UICONTROL Champ de personnalisation]** dans le contenu du pré-titre.
-
 >[!NOTE]
 >
 >Notez que les pré-titres ne sont pas compatibles avec tous les clients de messagerie. S’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
+
+Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Il peut vous aider à mieux suivre et personnaliser vos emails.
+
+1. Depuis le Concepteur d&#39;email, ajoutez des **[!UICONTROL composants de structure]** pour commencer à concevoir votre email.
+
+   ![](assets/preheader_1.png)
+
+1. Dans le volet de droite **[!UICONTROL Paramètres du corps]**, cliquez sur **Modifier** en regard du champ **[!UICONTROL Prétitre]** pour ajouter du contenu.
+
+   ![](assets/preheader_2.png)
+
+1. Ajoutez votre pré-titre. Vous pouvez la personnaliser davantage en cliquant sur l’icône **[!UICONTROL Ajouter une personnalisation]** .
+
+   ![](assets/preheader_3.png)
+
+1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]** , vous pouvez ajouter **[!UICONTROL Bloc de contenu]**, **[!UICONTROL Contenu dynamique]** ou **[!UICONTROL Champs de personnalisation]**.
+
+1. Cliquez sur **[!UICONTROL Valider]** pour vérifier la syntaxe de votre personnalisation.
+
+   ![](assets/preheader_4.png)
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+Votre pré-titre est maintenant configuré pour votre email.
 
 ## Paramètres d’arrière-plan {#about-backgrounds}
 
@@ -172,7 +213,7 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez util
 
    Vous pouvez également définir une image de fond au niveau de la colonne, mais ce scénario est rare.
 
-### Exemple : ajuster l’alignement vertical et la marge intérieure {#example--adjusting-vertical-alignment-and-padding}
+## Ajuster l&#39;alignement vertical et la marge intérieure {#adjusting-vertical-alignment-and-padding}
 
 Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
 
@@ -220,32 +261,5 @@ Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élém
 
 Le style est ensuite appliqué à l’élément sélectionné. Si aucun attribut de style spécifique n’est défini pour les éléments enfants, le style de l’élément parent est hérité.
 
-
-## Créer la version texte d’un email {#generate-text-version}
-
-Il est recommandé de créer une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
-
-Par défaut, le Concepteur d’email crée une version en **[!UICONTROL texte brut]** de votre email, y compris des champs de personnalisation. Cette version est automatiquement générée et synchronisée avec la version HTML de votre contenu.
-
-Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
-
-1. Dans votre email, sélectionnez l’onglet **[!UICONTROL Texte brut]**.
-
-1. Utilisez le bouton bascule **[!UICONTROL Synchroniser avec le code HTML]** pour désactiver la synchronisation.
-
-   ![](assets/text_version_1.png)
-
-1. Cliquez sur la coche pour confirmer votre choix.
-
-   ![](assets/text_version_2.png)
-
-1. Vous pouvez ensuite modifier la version en texte brut comme vous le souhaitez.
-
->[!CAUTION]
->
->* Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne sont pas reflétées dans la vue HTML.
->
->* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
->
 
 
