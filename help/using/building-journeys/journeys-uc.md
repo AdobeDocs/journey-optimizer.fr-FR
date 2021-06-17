@@ -5,18 +5,16 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 89%
 
 ---
 
-# Cas d&#39;utilisation de parcours
+# Envoi de messages à plusieurs canaux
 
-![](../assets/do-not-localize/badge.png)
-
-Cette section présente un cas d’utilisation qui combine une Lecture de segment, un événement, des événements de réaction et des emails/messages push.
+Cette section présente un cas pratique qui combine un segment de lecture, un événement, des événements de réaction et des messages électroniques/push.
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ Dans notre parcours, nous voulons utiliser un segment spécifique de clients. To
 
 Pour plus d’informations sur les segments, consultez cette [page](../segment/about-segments.md).
 
-1. Dans le menu **[!UICONTROL Segments]**, cliquez sur **[!UICONTROL Créer un segment]**.
+1. Dans la section du menu CLIENT , sélectionnez **[!UICONTROL Segments]**.
+
+1. Cliquez sur le bouton **[!UICONTROL Créer un segment]** situé en haut à droite de la liste de segments.
 
 1. Dans le volet **[!UICONTROL Propriétés de segment]**, saisissez le nom du segment.
 
@@ -54,7 +54,7 @@ Pour plus d’informations sur les segments, consultez cette [page](../segment/a
 
    ![](../assets/add-attributes.png)
 
-Le segment est maintenant configuré et prêt à être utilisé dans votre parcours. En utilisant une activité **Lecture de segment**, vous pouvez faire en sorte que tous les individus appartenant au segment rejoignent le parcours.
+Le segment est maintenant configuré et prêt à être utilisé dans votre parcours. À l’aide d’une activité **Lecture de segment** , vous pouvez faire entrer dans le parcours toutes les personnes appartenant au segment.
 
 ### Configurer l’événement
 
@@ -62,7 +62,7 @@ Vous devez configurer un événement qui est envoyé à votre parcours lorsqu’
 
 Pour cela, nous utilisons un événement basé sur des règles. Pour plus d’informations sur les événements, consultez cette [page](../event/about-events.md).
 
-1. Dans la section ADMINISTRATION, accédez à **[!UICONTROL Configurations]**, puis cliquez sur **[!UICONTROL Événements]**. Cliquez sur **[!UICONTROL Ajouter]** pour créer un événement.
+1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**, puis cliquez sur **[!UICONTROL Événements]**. Cliquez sur **[!UICONTROL Créer un événement]** pour créer un événement.
 
 1. Saisissez le nom de votre événement.
 
@@ -72,7 +72,7 @@ Pour cela, nous utilisons un événement basé sur des règles. Pour plus d’in
 
 1. Dans le champ **[!UICONTROL Condition d’identifiant d’événement]**, définissez la condition utilisée par le système pour identifier les événements qui déclenchent votre parcours. Par exemple, vous pouvez ajouter un champ `purchaseMessage` et définir la règle suivante : `purchaseMessage="thank you"`
 
-1. Définissez l’**[!UICONTROL espace de noms]** et la **[!UICONTROL clé]**.
+1. Définissez l’ **[!UICONTROL espace de noms]** et l’**[!UICONTROL identifiant de profil]**.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -94,7 +94,7 @@ Consultez cette [section](../segment/about-segments.md) pour savoir comment conc
 
 ## Concevoir le parcours
 
-1. Débutez le parcours avec une activité **Lecture de segment**. Sélectionnez le segment créé précédemment. Tous les individus appartenant au segment rejoignent le parcours.
+1. Commencez le parcours par une activité **Lecture de segment** . Sélectionnez le segment créé précédemment. Tous les individus appartenant au segment rejoignent le parcours.
 
    ![](../assets/jo-uc4.png)
 
