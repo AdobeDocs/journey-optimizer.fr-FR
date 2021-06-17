@@ -1,64 +1,71 @@
 ---
 title: Configuration de notifications push
 description: Découvrez comment configurer votre environnement pour envoyer des notifications push avec Journey Optimizer.
-hide: true
-hidefromtoc: true
 feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 78%
+source-wordcount: '1564'
+ht-degree: 19%
 
 ---
 
-# Configuration du canal Notification push {#push-notification-configuration}
+# Configuration du canal de notification push {#push-notification-configuration}
 
-![](assets/do-not-localize/badge.png)
+[!DNL Journey Optimizer] vous permet de créer vos parcours et d’envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur l’application mobile, ainsi que dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. Pour comprendre le flux de données des notifications push dans Adobe Parcours optimizer, reportez-vous à [cette page](push-gs.md).
 
-Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez définir des paramètres dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch].
+## Avant de commencer
 
-## Paramètres d’Adobe Experience Platform{#platform-settings}
+<!--
+### Check provisioning
 
-Pour configurer votre application mobile dans [!DNL Adobe Experience Platform Launch], procédez comme suit :
+Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
 
-1. [Accorder des droits de propriété et d’entreprise](#push-rights)
-1. [Ajoutez les informations d’identification push de votre application mobile dans Platform Launch](#push-credentials-launch).
-1. [Créez une configuration Edge](#edge-configuration) permettant à l’extension **[!UICONTROL Edge]** d’envoyer des données personnalisées d’un appareil mobile vers [!DNL Adobe Experience Platform].
-1. [Configurez une propriété Platform Launch](#launch-property).
-1. [Publiez la propriété](#publish-property).
-1. [Configurez la source ProfileDataSource](#configure-profiledatasource).
+| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
+| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
+-->
 
-### Étape 1 : accorder des droits de propriété et d’entreprise{#push-rights}
+### Configuration des autorisations
 
-Avant de créer une application mobile, vous devez d’abord vous assurer que vous possédez ou accordez les autorisations utilisateur appropriées.
+Avant de créer une application mobile, vous devez vous assurer que vous disposez ou attribuez les autorisations utilisateur appropriées dans **Adobe Experience Platform Launch**. Pour en savoir plus, consultez la [documentation Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=fr).
 
-Pour plus d’informations sur la gestion des utilisateurs avec [!DNL Adobe Experience Platform Launch], consultez la [documentation de Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=fr#experience-cloud-permissions).
+>[!CAUTION]
+>
+>La configuration push doit être effectuée par un utilisateur expert. Selon votre modèle de mise en oeuvre et les personnes impliquées dans cette mise en oeuvre, vous devrez peut-être attribuer l’ensemble des autorisations à un profil de produit unique ou partager des autorisations entre le développeur de l’application et l’administrateur **Adobe Journey Optimizer**. En savoir plus sur les **autorisations Adobe Experience Platform Launch** dans [cette documentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions)
 
-Pour accorder des droits de propriété et d’entreprise :
+<!--ou need to your have access to perform following roles :
 
-1. Accédez à [!DNL Admin Console].
+* Manage Datastreams
+* Manage Client-side Properties
+* Manage App Configurations
+-->
+
+Pour attribuer des droits **Propriété** et **Société**, procédez comme suit :
+
+1. Accédez à **[!DNL Admin Console]**.
 
 1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
 
    ![](assets/push_product_1.png)
 
-1. Sélectionnez un **[!UICONTROL Profil de produit]** existant ou créez-en un en cliquant sur le bouton **[!UICONTROL Nouveau profil]**. Pour plus d’informations sur la création d’un **[!UICONTROL Nouveau profil]**, consultez la [documentation d’Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=fr#ui).
+1. Sélectionnez un **[!UICONTROL Profil de produit]** existant ou créez-en un en cliquant sur le bouton **[!UICONTROL Nouveau profil]**. Découvrez comment créer un **[!UICONTROL nouveau profil]** dans la [documentation de la console d’administration](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=fr#ui).
 
 1. Dans l’onglet **[!UICONTROL Autorisations]**, sélectionnez **[!UICONTROL Droits de propriété]**.
 
    ![](assets/push_product_2.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter tout]**. Les droits suivants sont alors ajoutés à votre profil de produit :
+1. Cliquez sur **[!UICONTROL Ajouter tout]**. Vous ajouterez ainsi les droits suivants à votre profil de produit :
    * **[!UICONTROL Approuver]**
    * **[!UICONTROL Développer]**
    * **[!UICONTROL Gérer les environnements]**
    * **[!UICONTROL Gérer les extensions]**
    * **[!UICONTROL Publier]**
 
-   ![](assets/push_product_3.png)
+   Ces autorisations sont requises pour installer et publier l’extension Adobe Journey Optimizer et publier la propriété de l’application dans le SDK Adobe Experience Platform Mobile.
 
 1. Sélectionnez ensuite **[!UICONTROL Droits d’entreprise]** dans le menu de gauche.
 
@@ -69,13 +76,17 @@ Pour accorder des droits de propriété et d’entreprise :
    * **[!UICONTROL Gérer les configurations d’application]**
    * **[!UICONTROL Gérer les propriétés]**
 
+   Ces autorisations sont requises pour que le développeur de l’application mobile configure les informations d’identification push dans **Adobe Experience Launch** et définissent les paramètres prédéfinis de notification push dans **Adobe Journey Optimizer**.
+
    ![](assets/push_product_5.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Pour attribuer ce **[!UICONTROL Profil de produit]** à des utilisateurs :
+Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez comme suit :
 
-1. Dans l’onglet **[!UICONTROL Produits]** de [!DNL Admin Console], sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
+1. Accédez à **[!DNL Admin Console]**.
+
+1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
 
 1. Sélectionnez votre **[!UICONTROL Profil de produit]** précédemment configuré.
 
@@ -91,45 +102,89 @@ Pour attribuer ce **[!UICONTROL Profil de produit]** à des utilisateurs :
 
    ![](assets/push_product_7.png)
 
+### Configuration de votre application
 
-Vous disposez désormais des autorisations utilisateur appropriées pour créer et configurer une application mobile dans [!DNL Adobe Experience Platform Launch].
+La configuration technique implique une collaboration étroite entre le développeur de l’application et l’administrateur de l’entreprise. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez définir les paramètres dans Adobe Experience Platform Launch et intégrer votre application mobile avec les SDK Adobe Experience Platform Mobile.
 
-### Étape 2 : ajouter les informations d’identification push de votre application mobile dans Platform Launch {#push-credentials-launch}
+Suivez les étapes de mise en oeuvre présentées dans les liens ci-dessous :
+
+* Pour **Apple iOS** : Découvrez comment enregistrer votre application avec des APNS dans la [Documentation Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)
+* Pour **Google Android** : Découvrez comment configurer une application cliente Firebase Cloud Messaging sur Android dans [Documentation Google](https://firebase.google.com/docs/cloud-messaging/android/client)
+
+### Intégration de votre application mobile avec le SDK Adobe Experience Platform
+
+Le SDK Mobile Adobe Experience Platform fournit des API d’intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Consultez la [documentation du SDK Mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/overview) pour obtenir une configuration avec les SDK mobiles Adobe Experience Platform dans votre application.
+
+D’ici la fin de cette période, vous aurez également créé et configuré une propriété mobile dans Adobe Experience Platform Launch. En règle générale, vous créez une propriété mobile pour chaque application mobile que vous souhaitez gérer. Découvrez comment créer et configurer une propriété mobile dans la [documentation Adobe Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+
+
+## Étape 1 : Ajout des informations d’identification push de votre application dans Adobe Experience Platform Launch {#push-credentials-launch}
 
 Après avoir accordé les autorisations utilisateur appropriées, vous devez maintenant ajouter les informations d’identification push de votre application mobile dans [!DNL Adobe Experience Platform Launch].
 
-Pour plus d’informations et de procédures sur l’ajout des informations d’identification push de votre application mobile, reportez-vous aux étapes détaillées dans la [documentation du SDK Mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer#configure-the-journey-optimizer-extension-in-launch).
+L’enregistrement des informations d’identification push de l’application mobile est nécessaire pour autoriser Adobe à envoyer des notifications push en votre nom. Reportez-vous aux étapes détaillées ci-dessous :
+
+1. Dans [!DNL Adobe Experience Platform Launch], vérifiez que **[!UICONTROL Côté client]** est sélectionné dans le menu déroulant.
+
+1. Sélectionnez l’onglet **[!UICONTROL Configurations d’application]** dans le panneau de gauche et cliquez sur **[!UICONTROL Configuration d’application]** pour créer une configuration.
+
+1. Entrez un **[!UICONTROL Nom]** pour la configuration.
+
+1. Dans le menu déroulant **[!UICONTROL Type de service de messagerie]**, sélectionnez le **[!UICONTROL Type de service de messagerie]** à utiliser pour ces informations d’identification.
+
+   * **Pour Android**
+
+      ![](assets/add-app-config-android.png)
+
+      1. Indiquez l’ **[!UICONTROL ID d’application (nom du package Android)]** : en règle générale, le nom du module est l’ID d’application dans votre fichier `build.gradle`.
+
+      1. Faites glisser et déposez les informations d’identification push FCM. Pour plus d’informations sur la manière d’obtenir les informations d’identification push, voir [Documentation Google](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+   * **Pour iOS**
+
+      ![](assets/add-app-config-ios.png)
+
+      1. Renseignez l’application mobile **Bundle Id** dans le champ **[!UICONTROL App ID (iOS Bundle ID)]** . L’ID de bundle d’application se trouve dans l’onglet **Général** de la cible Principale dans **XCode**.
+
+      1. Faites glisser et déposez la **Clé d’authentification de notification push Apple** pour votre compte de développeur Apple. Cette clé peut être obtenue à partir de la page **Certificats**, **Identifiants** et **Profils**.
+
+      1. Indiquez l’ **ID de clé**. Chaîne de 10 caractères attribuée lors de la création de la clé d’authentification p8. Elle se trouve sous l’onglet **Clés** de la page **Certificats**, **Identifiants** et **Profils**.
+
+      1. Indiquez l’ **ID d’équipe**. Il s’agit d’une valeur de chaîne qui se trouve sous l’onglet Appartenance .
+
+
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer votre configuration d’application.
 
 <!--
-Note that to add push credentials in [!DNL Adobe Experience Platform Launch], the owner of the mobile app should fetch them from APNs/FCM.
-1. From [!DNL Adobe Experience Platform Launch], ensure that **[!UICONTROL Client Side]** is selected in the drop-down menu.
+## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
 
-1. Select the **[!UICONTROL App Configurations]** tab in the left-hand panel and click **[!UICONTROL App Configuration]** to create a new configuration.
+Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs attributes such as Session Timeouts, the [!DNL Adobe Experience Platform] sandbox to be targeted and the **[!UICONTROL Adobe Experience Platform Datasets]** to be used for mobile SDK to send data to.
 
-1. Enter a **[!UICONTROL Name]** for the configuration.
+For further details and procedures on how to set up a **[!UICONTROL Platform Launch property]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
-1. From the **[!UICONTROL Messaging Service Type]** drop-down menu, select the **[!UICONTROL Messaging service type]** to be used for these credentials. Here, we selected **[!UICONTROL Apple Push Notification Service]** since we are working with iOS.
 
-1. Enter the mobile app **[!UICONTROL Bundle Id]** in the **[!UICONTROL App ID (iOS Bundle ID)]** field if you are using Apple push notification service or in the **[!UICONTROL App ID (Android package name)]** field if you are using Firebase Cloud Messaging.
+To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
-    ![](assets/push_launch_app_configuration.png)
+* **[!UICONTROL Mobile Core]** (installed automatically)
+* **[!UICONTROL Profile]** (installed automatically)
+* **[!UICONTROL Adobe Experience Platform Edge]**
+* **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-1. Drag and drop the .p8 key file or the .json private key file to the **[!UICONTROL Push Credentials]** field.
-
-1. Enter the **[!UICONTROL Key Id]** and **[!UICONTROL Team Id]** if you are using Apple push notification service.
-
-1. Click **[!UICONTROL Save]** to create your app configuration.
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
-### Étape 3 : créer une configuration Edge {#edge-configuration}
+## Étape 2 : Configuration de l’extension Adobe Journey Optimizer dans votre propriété mobile
 
-La **[!UICONTROL configuration Edge]** est utilisée par l’extension **[!UICONTROL Edge]** pour envoyer des données personnalisées d’un appareil mobile vers [!DNL Adobe Experience Platform].
-Pour configurer [!DNL Adobe Experience Platform], vous devez fournir le nom du **[!UICONTROL Sandbox]** et le **[!UICONTROL Jeu de données d’événement]**.
+L’ **extension Adobe Journey Optimizer** pour les SDK mobiles Adobe Experience Platform alimente les notifications push pour vos applications mobiles et vous aide à collecter des jetons push utilisateur et à gérer la mesure des interactions avec les services Adobe Experience Platform.
 
-Pour plus d’informations et de procédures sur la création de la **[!UICONTROL configuration Edge]**, reportez-vous aux étapes détaillées dans la [documentation du SDK Mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+Découvrez comment configurer l’extension Journey Optimizer dans la [documentation du SDK Mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
 
 
-<!--
+<!-- 
+**[!UICONTROL Edge configuration]** is used by **[!UICONTROL Edge]** extension to send custom data from mobile device to [!DNL Adobe Experience Platform]. 
+To configure [!DNL Adobe Experience Platform], you must provide the **[!UICONTROL Sandbox]** name and **[!UICONTROL Event Dataset]**.
+
+For further details and procedures on how to create **[!UICONTROL Edge configuration]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+
 1. From [!DNL Adobe Experience Platform Launch], select the **[!UICONTROL Edge Configurations]** tab and click **[!UICONTROL Edge Configurations]**.
     
 1. Select **[!UICONTROL New Edge Configuration]** to add a new **[!UICONTROL Edge Configuration]**.
@@ -140,24 +195,8 @@ Pour plus d’informations et de procédures sur la création de la **[!UICONTRO
 1. Fill in the **[!UICONTROL Sandbox]**, **[!UICONTROL Event dataset]** and **[!UICONTROL Profile Dataset]** fields. Then, click **[!UICONTROL Save]**.
     
     ![](assets/push-config-4.png)
--->
 
-### Étape 4 : configurer une propriété Platform Launch {#launch-property}
 
-Configurer une propriété [!DNL Adobe Experience Platform Launch] permet au développeur d’applications mobiles ou au marketeur de configurer les attributs des SDK mobiles, tels que les temporisations de session, l’environnement Sandbox [!DNL Adobe Experience Platform] à cibler et les **[!UICONTROL Jeux de données Adobe Experience Platform]** à utiliser pour envoyer des données au SDK mobile.
-
-Pour plus d’informations et de procédures sur la configuration d’une **[!UICONTROL propriété de Platform launch]**, reportez-vous aux étapes détaillées dans la [documentation du SDK Mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
-
-Pour obtenir les SDK nécessaires au fonctionnement des notifications push, vous devez disposer des extensions SDK suivantes, pour Android et iOS :
-
-* **[!UICONTROL Mobile Core]** (installée automatiquement)
-* **[!UICONTROL Profil]** (installée automatiquement)
-* **[!UICONTROL Adobe Experience Platform Edge]**
-* **[!UICONTROL Adobe Experience Platform Assurance]**, facultative mais recommandée pour déboguer la mise en œuvre mobile.
-
-Pour en savoir plus sur les extensions [!DNL Adobe Experience Platform Launch], consultez la [documentation de Platform Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=fr).
-
-<!--
 
 1. From [!DNL Adobe Experience Platform Launch], ensure that **[!UICONTROL Client Side]** is selected in the drop-down menu.
 
@@ -188,123 +227,129 @@ To configure **[!UICONTROL Adobe Experience Platform Edge Extension]** to send c
 To configure **[!UICONTROL Adobe Experience Platform Messaging]** extension to send push profile and push interactions to the correct datasets, follow the same steps as above. Use **[!UICONTROL Sandbox]**, **[!UICONTROL Event dataset]** and **[!UICONTROL Profile Dataset]** created in the [Adobe Experience Platform setup](#edge-configuration).
 -->
 
-### Étape 5 : publier la propriété {#publish-property}
+<!--
+## Step 4: Publish the Property {#publish-property}
 
-Vous devez maintenant publier la propriété pour intégrer votre configuration et l’utiliser dans l’application mobile.
+You now need to publish the property to integrate your configuration and to use it in the mobile app. 
 
-Pour publier votre propriété, reportez-vous aux étapes détaillées dans la [documentation du SDK mobile d’Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+To publish your property, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)
 
-### Étape 6 : configurer la source ProfileDataSource {#configure-profiledatasource}
+## Step 5: Configure the ProfileDataSource {#configure-profiledatasource}
 
-Pour configurer `ProfileDataSource`, utilisez l’URL `ProfileDCInletURL` de [!DNL Adobe Experience Platform] et ajoutez ce qui suit dans l’application mobile :
+To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Adobe Experience Platform] setup and add the following in the mobile app:
 
 ```
     MobileCore.updateConfiguration(
     mutableMapOf("messaging.dccs" to <ProfileDCSInletURL>)
 ```
 
-<!--
-## Test your mobile app with custom action {#mobile-app-test}
-
-After configuring your mobile app in both Adobe Experience Platform and Adobe Launch, you can now test it before sending push notifications to your profiles. In this use case, we will create a journey to target our mobile app and set a custom action which will trigger the push notification.
-
-You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
-
-For this journey to work, you need to create an XDM schema. For more information, refer to [XDM documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion).
-
-1. In the left menu, click **[!UICONTROL Data]** then **[!UICONTROL Schemas]** under **[!UICONTROL Data management]** to create your XDM schema.
-
-    ![](assets/test_push_1.png)
-
-1. Click **[!UICONTROL Create schema]** then select **[!UICONTROL XDM Experience event]**.
-
-    ![](assets/test_push_2.png)
-
-1. In the right pane, enter the name of your schema and description. Enable this schema for **[!UICONTROL Profile]**.
-
-1. In the left pane, click **[!UICONTROL Add]** under **[!UICONTROL Mixins]** and select  **[!UICONTROL Create a new Mixin]**. For more information on how to create mixin, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/create-mixin.html?lang=en#api).
-
-    ![](assets/test_push_3.png)
-
-1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add mixin]** when done.
-
-    ![](assets/test_push_4.png)
-
-1. In the **[!UICONTROL Field properties]** window, add a **[!UICONTROL Field name]**, **[!UICONTROL Display name]** and select **[!UICONTROL String]** as **[!UICONTROL Type]**.
-
-    ![](assets/test_push_5.png)
-
-1. Check **[!UICONTROL Required]** and click **[!UICONTROL Apply]**.
-
-1. Click **[!UICONTROL Save]**. Your schema is now created and can be used in an **[!UICONTROL Event schema]**.
-
-You then need to set up an **[!UICONTROL Event schema]** where you will set the custom action which you will need to enter in your mobile app to trigger your push notification.
-
-1. From the left menu of the home page, click the **[!UICONTROL Admin]** icon, then click **[!UICONTROL Manage]** from the **[!UICONTROL Events]** card to create your new **[!UICONTROL Event schema]**.
-
-1. Click **[!UICONTROL Add]**, the event configuration pane opens on the right side of the screen.
-
-    ![](assets/test_push_6.png)
-
-1. Enter the name of your event. You can also add a description.
-
-1. In the **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
-
-1. In the **[!UICONTROL Parameters]**, select your previously created XDM event.
-
-    ![](assets/test_push_7.png)
-
-1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field.
-
-1. Drag and your previously added mixin to define the condition that will be used by the system to identify the events that will trigger your journey.
-
-    ![](assets/test_push_8.png)
-
-1. Type in the syntax that you will need to use to trigger your push notification in your test app, in this example **order confirmation**.
-
-    ![](assets/test_push_9.png)
-
-1. Select **[!UICONTROL ECID]** as your **[!UICONTROL Namespace]**.
-
-1. Click **[!UICONTROL Ok]** then **[!UICONTROL Save]**.
-
-Your **[!UICONTROL Event schema]** is now created and can now be used in a journey.
-
-1. In the left menu from [!DNL Journey Optimizer] homepage, click **[!UICONTROL Journeys]**.
-
-1. Click **[!UICONTROL Create]** to create a new journey.
-
-    ![](assets/test_push_10.png)
-
-1. Edit the journey's properties in the configuration pane displayed on the right side. Learn more in this [section](building-journeys/journey-gs.md#change-properties).
-
-1. Start by drag and dropping the **[!UICONTROL Event schema]** created in the previous steps from the **[!UICONTROL Events]** drop-down.
-
-    ![](assets/test_push_11.png)
-
-1. From the **[!UICONTROL Actions]** drop-down, drag and drop a **[!UICONTROL Message]** activity to your journey.
-
-1. Select a previously created message. For more information on how to create push notifications, refer to this [page](create-message.md).
-
-1. Drag and drop an **[!UICONTROL End]** activity to your journey.
-
-1. Activate **[!UICONTROL Test]** to your journey to start testing your push notifications and click **[!UICONTROL Trigger an event]**.
-
-    ![](assets/test_push_12.png)
-
-1. Enter your ECID in the **[!UICONTROL Key]** field then your event that will trigger the push notification in our case **order confirmation**.
-
-    ![](assets/test_push_13.png)
-
-1. Click **[!UICONTROL Send]**.
-
-Your event will be triggered and you will receive your push notification to your mobile app.
-
-![](assets/test_push_14.png)
 -->
 
-### Étape 7 : Créer un paramètre prédéfini de message {#message-preset}
+## Étape 3 : Testez votre application mobile avec un événement {#mobile-app-test}
+
+Après avoir configuré votre application mobile dans Adobe Experience Platform et Adobe Launch, vous pouvez désormais la tester avant d’envoyer des notifications push à vos profils. Dans ce cas pratique, nous allons créer un parcours pour cibler notre application mobile et définir un événement qui déclenchera la notification push.
+
+<!--
+You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
+-->
+
+Pour que ce parcours fonctionne, vous devez créer un schéma XDM. Pour plus d’informations, reportez-vous à la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion).
+
+1. Dans le menu de gauche, accédez à **[!UICONTROL Schémas]**.
+
+1. Cliquez sur **[!UICONTROL Créer un schéma]** puis sélectionnez **[!UICONTROL XDM ExperienceEvent]**.
+
+   ![](assets/test_push_2.png)
+
+1. Sélectionnez **[!UICONTROL Créer un groupe de champs]**.
+
+1. Saisissez un **[!UICONTROL Nom d’affichage]** et une **[!UICONTROL Description]**. Cliquez sur **[!UICONTROL Ajouter des groupes de champs]** lorsque vous avez terminé. Pour plus d’informations sur la création de groupes de champs, consultez la [documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr).
+
+
+   ![](assets/test_push_4.png)
+
+1. Sur le côté gauche, sélectionnez le schéma. Dans le volet de droite, saisissez le nom de votre schéma et votre description. Activez ce schéma pour **[!UICONTROL Profil]**.
+
+   ![](assets/test_push_4b.png)
+
+
+1. Sur le côté gauche, sélectionnez le groupe de champs, puis cliquez sur l’icône + pour créer un champ. Dans la zone **[!UICONTROL Le champ regroupe les propriétés]**, sur le côté droit, saisissez un **[!UICONTROL nom du champ]**, **[!UICONTROL nom d’affichage]** et sélectionnez **[!UICONTROL Chaîne]** comme **[!UICONTROL type]**.
+
+   ![](assets/test_push_5.png)
+
+1. Cochez **[!UICONTROL Obligatoire]** et cliquez sur **[!UICONTROL Appliquer]**.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Votre schéma est maintenant créé et peut être utilisé dans un événement.
+
+Vous devez ensuite configurer un événement.
+
+1. Dans le menu de gauche de la page d’accueil, sous ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Cliquez sur **[!UICONTROL Gérer]** dans la section **[!UICONTROL Événements]** pour créer votre événement.
+
+1. Cliquez sur **[!UICONTROL Créer un événement]**. Le volet de configuration des événements s’ouvre sur le côté droit de l’écran.
+
+   ![](assets/test_push_6.png)
+
+1. Saisissez le nom de votre événement. Vous pouvez également ajouter une description.
+
+1. Dans le champ **[!UICONTROL Type d’identifiant d’événement]**, sélectionnez **[!UICONTROL Basé sur des règles]**.
+
+1. Dans la section **[!UICONTROL Paramètres]**, sélectionnez le schéma créé précédemment.
+
+   ![](assets/test_push_7.png)
+
+1. Dans la liste des champs, vérifiez que le champ créé dans le groupe de champs du schéma est sélectionné.
+
+   ![](assets/test_push_7b.png)
+
+1. Cliquez sur **[!UICONTROL Modifier]** dans le champ **[!UICONTROL Condition de l’ID d’événement]** . Faites glisser et déposez le champ précédemment ajouté pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
+
+   ![](assets/test_push_8.png)
+
+1. Saisissez la syntaxe à utiliser pour déclencher votre notification push dans votre application de test, dans cet exemple **confirmation de commande**.
+
+   ![](assets/test_push_9.png)
+
+1. Sélectionnez **[!UICONTROL ECID]** comme **[!UICONTROL Espace de noms]**.
+
+1. Cliquez sur **[!UICONTROL Ok]** puis sur **[!UICONTROL Enregistrer]**.
+
+Votre événement est maintenant créé et peut maintenant être utilisé dans un parcours.
+
+1. Dans le menu de gauche, cliquez sur **[!UICONTROL Parcours]**.
+
+1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
+
+1. Modifiez les propriétés du parcours dans le volet de configuration affiché dans la partie droite de l’écran. En savoir plus dans cette [section](building-journeys/journey-gs.md#change-properties).
+
+1. Commencez par faire glisser l’événement créé lors des étapes précédentes à partir de la liste déroulante **[!UICONTROL Événements]**.
+
+   ![](assets/test_push_11.png)
+
+1. Dans la liste déroulante **[!UICONTROL Actions]**, placez une activité **[!UICONTROL Message]** dans votre parcours.
+
+1. Sélectionnez un message créé précédemment. Pour plus d’informations sur la création de notifications push, consultez cette [page](create-message.md).
+
+1. Placez une activité **[!UICONTROL Fin]** dans votre parcours.
+
+1. Cliquez sur la bascule **[!UICONTROL Test]** pour commencer à tester vos notifications push et cliquez sur **[!UICONTROL Déclencher un événement]**.
+
+   ![](assets/test_push_12.png)
+
+1. Saisissez votre ECID dans le champ **[!UICONTROL Clé]** puis saisissez **confirmation de commande** dans le deuxième champ.
+
+   ![](assets/test_push_13.png)
+
+1. Cliquez sur **[!UICONTROL Envoyer]**.
+
+Votre événement sera déclenché et vous recevrez votre notification push vers votre application mobile.
+
+## Étape 4 : Créer un paramètre de message prédéfini pour push{#message-preset}
 
 Une fois votre application mobile configurée dans [!DNL Adobe Experience Platform Launch], vous devez créer un paramètre prédéfini de message afin de pouvoir envoyer des notifications push depuis **[!DNL Journey Optimizer]**.
 
 Découvrez comment créer et configurer un paramètre de message prédéfini dans [cette section](configuration/message-presets.md).
+
+Vous êtes maintenant prêt à envoyer des notifications push avec Journey Optimizer.
+
+* Découvrez comment créer un message push dans [cette page](create-push.md).
+* Découvrez comment envoyer ajouter un message dans un parcours dans [cette section](building-journeys/journeys-message.md).
