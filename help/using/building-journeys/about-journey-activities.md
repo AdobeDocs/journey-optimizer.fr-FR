@@ -5,16 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # À propos des activités de parcours {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 Combinez les différentes activités d’événement, d’orchestration et d’action afin de créer des scénarios cross-canal à plusieurs étapes.
 
@@ -24,7 +22,7 @@ Les événements configurés par l’utilisateur technique (voir [cette page](..
 
 * [Événements généraux](../building-journeys/general-events.md)
 * [Réaction](../building-journeys/reaction-events.md)
-* [Qualification du segment](../building-journeys/segment-qualification-events.md)
+* [Qualification de segment](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
