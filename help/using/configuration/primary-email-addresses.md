@@ -15,21 +15,21 @@ feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 7%
 
 ---
 
 
-# Déterminer les adresses Principales des profils
+# Modifier les adresses email Principales
 
 Lorsque vous ciblez un profil, plusieurs adresses email peuvent être disponibles dans la base de données (adresse email personnelle, professionnelle, etc.).
 
 Avec Journey Optimizer, vous pouvez déterminer l’adresse électronique à utiliser à partir du service de profil et établir la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** / **[!UICONTROL Général]** .
+1. Accédez au menu **[!UICONTROL Canaux]** `>` **[!UICONTROL Général]** .
 1. Le champ actuellement utilisé par défaut pour déterminer les adresses email des profils s’affiche dans cet écran. Cliquez sur **[!UICONTROL Modifier]** pour le modifier.
 
    ![](../assets/primary-address.png)
