@@ -16,16 +16,14 @@ feature: Populations témoins
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
-# Gérer les utilisateurs et les profils de produits {#manage-permissions}
-
-![](../assets/do-not-localize/badge.png)
+# Gestion des utilisateurs et des profils de produits {#manage-permissions}
 
 >[!IMPORTANT]
 >
@@ -87,7 +85,7 @@ Notez que si vous modifiez un **[!UICONTROL profil de produit]** personnalisé o
 
 1. Sélectionnez l’onglet **[!UICONTROL Autorisations]** .
 
-   L’onglet **[!UICONTROL Autorisations]** affiche la liste des fonctionnalités qui s’appliquent au produit ***[!UICONTROL Experience Cloud - Applications Platform]** .
+   L’onglet **[!UICONTROL Autorisations]** affiche la liste des fonctionnalités qui s’appliquent au produit **[!UICONTROL Experience Cloud - Applications Platform]** .
 
    ![](../assets/access_control_5.png)
 
