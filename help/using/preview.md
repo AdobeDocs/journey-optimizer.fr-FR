@@ -5,16 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '877'
+ht-degree: 87%
 
 ---
 
 # Prévisualiser et tester vos messages{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré [du contenu personnalisé](personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
 
@@ -22,7 +20,10 @@ Pour détecter d’éventuelles erreurs dans le contenu des e-mails ou les param
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment créer des profils de test dans [cette page](building-journeys/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT.
+>
+>Découvrez comment créer des profils de test dans [cette page](building-journeys/creating-test-profiles.md).
+
 
 Pour tester le contenu de votre message, vous devez :
 
@@ -33,13 +34,18 @@ Vous pourrez ensuite [envoyer des BAT](#send-proofs) à vos profils de test.
 
 De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment déverrouiller les Prévisualisations d&#39;e-mail Litmus dans [cette section](#email-rendering)
 
+>[!CAUTION]
+>
+>Lors de la prévisualisation d&#39;un message ou de l&#39;envoi de BAT, seules les données de personnalisation de profil s&#39;affichent. La personnalisation basée sur les données contextuelles, telles que les informations d’événement, ne peut être testée que dans le contexte d’un parcours. Découvrez comment tester la personnalisation dans [ce cas pratique](personalization/personalization-use-case.md).
+
+
 ## Sélectionner des profils de test{#select-test-profiles}
 
 Utilisez [Profils de test](building-journeys/creating-test-profiles.md) pour cibler des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage définis.
 
 Pour sélectionner des profils de test, procédez comme suit :
 
-1. Dans l’interface de messagerie ou dans le concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Prévisualisation]** pour accéder à la sélection du profil de test.
+1. Dans l&#39;interface du message ou dans le concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Afficher l&#39;aperçu]** pour accéder à la sélection du profil de test.
 
    ![](assets/email-preview-button.png)
 
@@ -124,6 +130,10 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
    ![](assets/send-proof-view.png)
 
 Vous devez envoyer des BAT après toute modification du contenu du message.
+
+>[!NOTE]
+>
+> Dans le BAT envoyé aux profils de test, le lien vers la page miroir n&#39;est pas principal. Elle n’est activée que dans les messages finaux.
 
 ## Rendu des emails{#email-rendering}
 
