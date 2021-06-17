@@ -5,22 +5,20 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 91%
 
 ---
 
 # Créer des rapports de parcours{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de reporting global](global-report.md) intégrées, [!DNL Journey Optimizer] peut automatiquement envoyer des données de performances de parcours à Adobe Experience Platform afin qu’elles soient combinées à d’autres données à des fins d’analyse.
 
 >[!NOTE]
 >
->Cette fonction n’est pas activée par défaut sur toutes les instances nouvellement déployées. L’activation est effectuée sur demande.
+>Cette fonction est activée par défaut sur toutes les instances pour les événements d’étapes de parcours. Pour les événements d’étape de profil de parcours, l’activation est effectuée sur demande. Les schémas et les jeux de données créés pendant la mise en service de cette fonctionnalité ne doivent pas être modifiés.
 
 Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Optimizer] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
