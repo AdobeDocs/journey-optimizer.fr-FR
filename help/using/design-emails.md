@@ -5,7 +5,7 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Prise en main de la conception d&#39;e-mails {#get-started-content-design}
-
-![](assets/do-not-localize/badge.png)
 
 Lors de la création de contenu d&#39;e-mails avec [!DNL Journey Optimizer], vous pouvez :
 
