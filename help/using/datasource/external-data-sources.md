@@ -5,16 +5,14 @@ feature: Sources de données
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 98%
 
 ---
 
 # Sources de données externes {#concept_t2s_kqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
 
@@ -31,7 +29,7 @@ L’appel est composé d’une URL principale (_https://api.adobeweather.org/wea
 
 Les principales étapes nécessaires pour créer et configurer une source de données externe sont les suivantes :
 
-1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Ajouter]** pour créer une source de données externe.
+1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Créer une source de données]** pour créer une source de données externe.
 
    ![](../assets/journey25.png)
 
@@ -58,8 +56,8 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
 
    * **[!UICONTROL Type]** : « API key »
-   * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
+   * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
    * **[!UICONTROL Emplacement]** : « Paramètre de requête » (la clé API se trouve dans l’URL)
 
    ![](../assets/journey28.png)
@@ -71,8 +69,8 @@ Pour le jeu de paramètres « long/lat », nous créons un groupe de champs av
 * **[!UICONTROL Utilisé(e) dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
 * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous choisissons la méthode GET.
 * **[!UICONTROL Durée de mise en cache]** : dans ce cas, nous souhaitons que les données météo soient mises en cache pendant 10 minutes.
-* **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de la payload renvoyée par l’appel. Dans cet exemple, nous avons utilisé une payload trouvée sur un site web d’API météo. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller une nouvelle payload]** si vous souhaitez modifier la payload actuellement transmise.
 * **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres, séparés par une virgule (« long,lat » dans notre exemple). Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr).
+* **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de la payload renvoyée par l’appel. Dans cet exemple, nous avons utilisé une payload trouvée sur un site web d’API météo. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller une nouvelle payload]** si vous souhaitez modifier la payload actuellement transmise.
 * **[!UICONTROL Payload envoyée]** : ce champ ne figure pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez la payload qui sera envoyée au système tiers.
 
 Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous devez indiquer ce(s) dernier(s) dans le champ **[!UICONTROL Valeurs dynamiques]**. Ils sont alors automatiquement ajoutés à la fin de l’appel. Dans le cas d’un appel POST, vous devez :
