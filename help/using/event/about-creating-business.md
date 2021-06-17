@@ -5,16 +5,14 @@ feature: Événements
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 98%
+source-wordcount: '842'
+ht-degree: 94%
 
 ---
 
 # Configurer un événement métier {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 Contrairement aux événements unitaires, les événements métier ne sont pas liés à un profil spécifique. Le type d’ID d’événement est toujours basé sur des règles. Pour en savoir plus sur les événements métier, reportez-vous à [cette section](../event/about-events.md).
 
@@ -37,11 +35,11 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 
 Les premières étapes pour configurer un événement métier sont les suivantes :
 
-1. Dans la section ADMINISTRATION, accédez à **[!UICONTROL Configurations]**, puis cliquez sur **[!UICONTROL Événements]**. La liste des événements s’affiche.
+1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Événements]**, cliquez sur **[!UICONTROL Gérer]**. La liste des événements s’affiche.
 
    ![](../assets/jo-event1.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter]** pour créer un événement. Le volet de configuration d’événement s’ouvre dans la partie droite de l’écran.
+1. Cliquez sur **[!UICONTROL Créer un événement]** pour créer un événement. Le volet de configuration d’événement s’ouvre dans la partie droite de l’écran.
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
 La définition de la payload vous permet de choisir les informations que le système s’attend à recevoir de l’événement dans votre parcours, ainsi que la clé permettant d’identifier la personne associée à l’événement. La payload est basée sur la définition de champ XDM d’Experience Cloud. Pour plus d’informations sur XDM, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
-1. Sélectionnez un schéma XDM dans la liste et cliquez ensuite sur le champ **[!UICONTROL Payload]** ou sur l’icône **[!UICONTROL Modifier]**.
+1. Sélectionnez un schéma XDM dans la liste et cliquez sur le champ **[!UICONTROL Champs]** ou sur l’icône **[!UICONTROL Modifier]**.
 
    ![](../assets/journey8-business.png)
 
@@ -92,15 +90,13 @@ La définition de la payload vous permet de choisir les informations que le syst
 
 1. Sélectionnez les champs que vous prévoyez de recevoir de l’événement. Il s’agit des champs que l’utilisateur chargé de la conception de parcours exploitera dans le parcours.
 
-   ![](../assets/journey10-business.png)
-
 1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL Enregistrer]** ou appuyez sur la touche **[!UICONTROL Entrée]**.
 
-   Le nombre de champs sélectionnés s’affiche dans le champ **[!UICONTROL Payload]**.
+   Le nombre de champs sélectionnés apparaît dans le champ **[!UICONTROL Champs]**.
 
    ![](../assets/journey12-business.png)
 
-## Prévisualiser la payload {#preview-the-payload}
+## Prévisualisation de la payload {#preview-the-payload}
 
 Cet aperçu vous permet de valider la définition de la payload.
 
