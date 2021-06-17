@@ -5,16 +5,14 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
-# Rapport global d&#39;email {#email-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Envoyer le rapport global par courriel {#email-global-report}
 
 Le **[!UICONTROL rapport global d&#39;email]** ne cible qu’une diffusion par email spécifique.
 
@@ -42,15 +40,31 @@ Le **[!UICONTROL rapport global]** d&#39;email est divisé en différents widget
 
 * **[!UICONTROL Taux de plaintes de courrier indésirable]** : pourcentage d&#39;emails marqués comme étant indésirables par les destinataires par rapport aux messages envoyés. Pour plus d’informations sur les plaintes, consultez cette [page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability).
 
-* **[!UICONTROL Taux de désinscription]** : nombre de désinscriptions uniques par rapport aux messages diffusés.
+* **[!UICONTROL Taux de désabonnement]** : Pourcentage de désabonnements uniques par rapport au nombre de messages délivrés. Cet indicateur ne dépend pas du nombre de clics effectués sur le lien de désinscription, mais du nombre de désinscriptions initialisés par les destinataires. Pour en savoir plus sur les désabonnements, consultez cette [page](../consent.md).
 
-Le graphique **[!UICONTROL Statistiques d&#39;envoi]** détaille la réussite de votre diffusion :
+**[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l&#39;activité destinataire de votre diffusion :
+
+* **[!UICONTROL Ouvertures]** :nombre de fois où la diffusion a été ouverte dans une diffusion.
+
+* **[!UICONTROL Ouvertures uniques]** : pourcentage de diffusions ouvertes.
+
+* **[!UICONTROL Taux d’ouvertures]** : nombre total de messages ouverts par rapport au nombre de messages diffusés.
+
+* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l&#39;objet d&#39;un clic dans un e-mail.
+
+* **[!UICONTROL Clics uniques]** : nombre de destinataires qui ont cliqué sur un contenu dans un e-mail.
+
+* **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec le parcours.
+
+Le graphique **[!UICONTROL Statistiques d’envoi]** présente le succès de votre diffusion :
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Bounces]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+
+![](../assets/global_report_5.png)
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
@@ -62,27 +76,13 @@ Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de r
 
 Pour plus d&#39;informations sur les rebonds, consultez la page [Liste de suppression](../suppression-list.md) .
 
-![](../assets/global_report_5.png)
-
-Le graphique et le tableau **[!UICONTROL Raisons de l&#39;erreur]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
-
-Le graphique et le tableau **[!UICONTROL Email - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;email.
+Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
 
 ![](../assets/global_report_6.png)
 
-Le tableau **[!UICONTROL Email - Statistiques de suivi]** contient les données disponibles pour l&#39;activité destinataire de votre diffusion :
+Le graphique **[!UICONTROL Email - Domaine du destinataire supérieur]** et le tableau détaillent les domaines les plus utilisés par les destinataires pour ouvrir l’email.
 
-* **[!UICONTROL Ouvertures]** :nombre de fois où la diffusion a été ouverte dans une diffusion.
-
-* **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
-
-* **[!UICONTROL Taux d’ouvertures]** : pourcentage de messages ouverts.
-
-* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l&#39;objet d&#39;un clic dans un email.
-
-* **[!UICONTROL Clics uniques]** : nombre de destinataires qui ont cliqué sur un contenu dans un email.
-
-* **[!UICONTROL Taux de clics]** : pourcentage de clics dans une diffusion.
+Le graphique et le tableau **[!UICONTROL Email - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
 
 Le rapport **[!UICONTROL Ouvertures vs. clics]** identifie l&#39;interaction de vos destinataires avec la diffusion :
 
@@ -90,4 +90,4 @@ Le rapport **[!UICONTROL Ouvertures vs. clics]** identifie l&#39;interaction de 
 
 * **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
 
-Le graphique et le tableau **[!UICONTROL Email - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
+
