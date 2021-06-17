@@ -5,16 +5,14 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 82%
+ht-degree: 76%
 
 ---
 
 # Créer un email {#configure-email}
-
-![](assets/do-not-localize/badge.png)
 
 Une fois que vous avez [créé un message](create-message.md), utilisez l’onglet **[!UICONTROL Email]** pour définir les paramètres et le contenu du canal email.
 
@@ -26,7 +24,7 @@ Une fois que vous avez [créé un message](create-message.md), utilisez l’ongl
 
 Les étapes pour configurer un email sont les suivantes :
 
-1. Spécifiez l&#39;**[!UICONTROL objet de l&#39;email]**. Pour ce faire, cliquez sur le bouton à droite pour ouvrir l’éditeur d’expression et composer l’objet de l&#39;email. Découvrez comment ajouter la personnalisation dans [cette section](personalization/personalization-aeras.md)
+1. Spécifiez l&#39;**[!UICONTROL objet de l&#39;email]**. Pour ce faire, cliquez sur le bouton à droite pour ouvrir l’éditeur d’expression et composer l’objet de l&#39;email. Découvrez comment ajouter la personnalisation dans [cette section](personalization/personalize.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Concepteur d’email]** pour concevoir votre email. Découvrez comment concevoir des emails dans [cette section](design-emails.md).
 
