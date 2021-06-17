@@ -5,16 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '702'
+ht-degree: 87%
 
 ---
 
 # Gestion de la désinscription {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 Utilisez [!DNL Journey Optimizer] pour suivre le consentement de vos destinataires à la communication et comprendre comment ils veulent interagir avec votre marque en gérant leurs préférences et leurs abonnements. <!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,18 @@ Corps de la requête:
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## Lien de désabonnement dans l’en-tête {#unsubscribe-email}
+
+Si le logiciel client de messagerie des destinataires prend en charge l’affichage d’un lien de désabonnement dans l’en-tête de l’email, les emails envoyés avec [!DNL Journey Optimizer] incluent automatiquement ce lien.
+
+Par exemple, le lien de désabonnement s’affiche comme suit dans Gmail :
+
+![](assets/unsubscribe-email.png)
+
+Si un destinataire clique sur ce lien, le profil correspondant est immédiatement désinscrit et ce choix est mis à jour dans Experience Platform.
+
+Le fait de cliquer sur le lien de désabonnement de l’en-tête a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l’email. Pour en savoir plus sur la gestion des opt-out, consultez [cette section](#opt-out-management).
 
 ## Gestion des désinscriptions push {#push-opt-out-management}
 
