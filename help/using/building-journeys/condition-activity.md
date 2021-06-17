@@ -5,16 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 96%
 
 ---
 
 # Activité de condition{#section_e2n_pft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Les types de conditions disponibles sont au nombre de quatre :
 
@@ -76,6 +74,8 @@ Cette condition vous permet d’effectuer des actions différentes en fonction d
 ## Partage en pourcentage {#percentage_split}
 
 Cette option vous permet de fractionner l’audience de manière aléatoire afin de définir une action différente pour chaque groupe. Définissez le nombre de divisions, ainsi que la répartition pour chaque chemin. La division est un calcul statistique, dans la mesure où le système ne peut pas prévoir le nombre de personnes qui suivront cette activité du parcours. Par conséquent, la marge d’erreur de la division est très faible. Cette fonction est basée sur un mécanisme Java aléatoire (pour en savoir plus, consultez cette [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+En mode test, lorsque vous atteignez un partage, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches fractionnées si vous souhaitez que le test choisisse un autre chemin. Consultez à ce sujet [cette page](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
