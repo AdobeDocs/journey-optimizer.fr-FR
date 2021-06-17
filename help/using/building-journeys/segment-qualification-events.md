@@ -5,16 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 89%
 
 ---
 
 # Événements de qualification de segment {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
 
 ## À propos des événements de qualification de segment{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
 
 
-1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification de segment]** dans la zone de travail.
+1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité **[!UICONTROL Qualification de segment]** dans votre zone de travail.
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 * l’horodatage de la qualification
 * l’identifiant de segment
 
-Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification du segment]**, vous avez accès au nœud **[!UICONTROL Qualification de segment]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
+Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité **[!UICONTROL Qualification de segment]** , vous avez accès au noeud **[!UICONTROL Qualification de segment]** . Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
 
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Un nouveau parcours contenant un événement de qualification de segment est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l’intervalle d’actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d’utiliser ce parcours.
 
 ## Bonnes pratiques {#best-practices-segments}
 
