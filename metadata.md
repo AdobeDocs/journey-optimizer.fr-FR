@@ -6,10 +6,10 @@ index: true
 product: Journey Optimizer
 solution: Journey Optimizer
 solution-title: Documentation Journey Optimizer
-source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
+source-git-commit: 34b567ff172444e32251e0d1d3878f44ea342d5c
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
