@@ -1,5 +1,5 @@
 ---
-title: Gestion des environnements de test
+title: Gestion des environnements Sandbox
 description: Découvrez comment gérer les environnements de test
 page-status-flag: never-activated
 uuid: null
@@ -16,16 +16,14 @@ feature: Populations témoins
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
-# Gestion des environnements de test {#sandboxes}
-
-![](../assets/do-not-localize/badge.png)
+# Gestion des environnements Sandbox {#sandboxes}
 
 ## Utilisation des environnements de test {#using-sandbox}
 
