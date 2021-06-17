@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 100%
 >title="À propos des composants de contenu"
 >abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d&#39;un email."
 
-![](assets/do-not-localize/badge.png)
 
 Lorsque vous créez à partir de zéro votre contenu d&#39;e-mail, les **[!UICONTROL composants de contenu]** vous permettent de personnaliser davantage votre e-mail à l’aide de composants bruts et vides que vous pouvez utiliser une fois placés dans un e-mail.
 Vous pouvez ajouter autant de **[!UICONTROL composants de contenu]** que nécessaire dans un **[!UICONTROL composant de structure]** qui définit la disposition de votre e-mail.
@@ -104,8 +103,6 @@ Pour rendre un contenu externe compatible avec le Concepteur d’email, Adobe re
 
 1. Copiez-collez le code HTML à ajouter à votre e-mail et cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/email_designer_24.png)
-
 1. Vous pouvez désormais personnaliser davantage votre code HTML en modifiant le **[!UICONTROL style]**, la **[!UICONTROL marge]** et la **[!UICONTROL bordure]** par exemple ou en ajoutant un lien pour rediriger votre audience vers un autre contenu.
 
 ## Image {#image}
@@ -116,9 +113,9 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
    ![](assets/email_designer_9.png)
 
-1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image de votre ordinateur.
+1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources.
 
-   Vous pouvez également cliquer sur **[!UICONTROL Sélecteur de ressources]** pour ajouter un fichier à votre e-mail. Pour plus d’informations sur les ressources, consultez cette [section](assets-essentials.md).
+   Pour en savoir plus sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
 1. Cliquez sur le composant que vous venez d&#39;ajouter pour configurer vos **[!UICONTROL composants de contenu]** et pour accéder aux **[!UICONTROL Paramètres des composants]** dans le volet droit du Concepteur d&#39;email.
 
