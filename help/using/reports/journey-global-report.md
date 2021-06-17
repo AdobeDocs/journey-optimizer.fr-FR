@@ -5,16 +5,14 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 98%
+source-wordcount: '1095'
+ht-degree: 90%
 
 ---
 
-# Rapport global de parcours {#journey-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Rapport global parcours {#journey-global-report}
 
 Vous pouvez accéder directement au rapport global de parcours à partir de votre parcours à l&#39;aide du bouton **[!UICONTROL Rapport global]**.
 
@@ -44,23 +42,27 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 * **[!UICONTROL Parcours individuel en échec]** : nombre total de parcours individuels qui n’ont pas été exécutés avec succès.
 
-Les widgets **[!UICONTROL Performances de l&#39;événement]** et **[!UICONTROL Principaux événements]** vous permettent de savoir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
+![](../assets/global_report_12.png)
 
-Les widgets **[!UICONTROL Performance de l&#39;action]** et **[!UICONTROL Principales actions]** représentent l’action et les erreurs les plus réussies survenues lorsque vos **[!UICONTROL Actions]** ont été déclenchées. Le tableau **[!UICONTROL Principales actions]** contient les données disponibles pour **[!UICONTROL Actions]**, telles que :
+Les **[!UICONTROL Événements reçus par les widgets event]**, **[!UICONTROL Événements par origine]** et **[!UICONTROL Meilleurs événements]** vous permettent de voir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
+
+![](../assets/global_report_13.png)
+
+**[!UICONTROL Performances des actions]**,  **[!UICONTROL Erreurs d’action]** Les motifs et les  **[!UICONTROL principaux widgets d’action représentent l’action et les erreurs les plus réussies qui se sont produites au moment du déclenchement de vos]**   **** actions.
+
+Le tableau **[!UICONTROL Principales actions]** contient les données disponibles pour **[!UICONTROL Actions]**, telles que :
 
 * **[!UICONTROL Actions exécutées avec succès]** : nombre total d’**[!UICONTROL actions]** exécutées avec succès pour un parcours.
 
 * **[!UICONTROL Erreur lors de l&#39;action]** : nombre total d&#39;erreurs survenues pour les **[!UICONTROL actions]**.
-
-Le graphique **[!UICONTROL Raisons de l&#39;erreur]** détaille le type d&#39;erreurs survenues pour les **[!UICONTROL actions]**.
-
-<!--Events by origin-->
 
 ## Onglet E-mail {#email-global}
 
 À partir de votre **[!UICONTROL Rapport global]** de parcours, l&#39;onglet **[!UICONTROL E-mail]** détaille les principales informations relatives aux diffusions par e-mail envoyées dans votre parcours.
 
 Pour obtenir un rapport détaillé sur une diffusion par e-mail spécifique, consultez la section [Rapport global d&#39;e-mail](#email-global-report).
+
+![](../assets/global_report_14.png)
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d&#39;e-mail]** détaille la réussite de votre diffusion :
 
@@ -92,6 +94,10 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi d&#39;e-mail]** détaille la
 
 * **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec le parcours.
 
+* **[!UICONTROL Désabonner]** : Nombre de clics sur le lien de désinscription.
+
+* **[!UICONTROL Réclamations relatives aux spams]** : Nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
+
 Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données disponibles pour les e-mails envoyés, telles que :
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
@@ -99,6 +105,8 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données dis
 * **[!UICONTROL Bounces]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+
+![](../assets/global_report_15.png)
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
@@ -110,15 +118,19 @@ Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de r
 
 Pour plus d&#39;informations sur les rebonds, consultez la page [Liste de suppression](../suppression-list.md) .
 
-Le graphique et le tableau **[!UICONTROL E-mail - URL supérieure]** indiquent les URL de votre diffusion les plus visitées.
+![](../assets/global_report_16.png)
 
-Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
+Le graphique et le tableau **[!UICONTROL Email - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
+
+Le graphique **[!UICONTROL Email - Domaine du destinataire supérieur]** et le tableau détaillent les domaines les plus utilisés par les destinataires pour ouvrir l’email.
 
 ## Onglet Push {#push-global}
 
 Dans le **[!UICONTROL rapport global]** de votre parcours, l&#39;onglet **[!UICONTROL Push]** détaille les informations principales par rapport aux diffusions push envoyées dans votre parcours.
 
 Pour obtenir un rapport détaillé sur une diffusion push spécifique, reportez-vous à ce [rapport global push](#push-global-report).
+
+![](../assets/global_report_17.png)
 
 Le tableau **[!UICONTROL Notification push - Statistiques d&#39;envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
@@ -160,6 +172,10 @@ Le graphique **[!UICONTROL Résumé des notifications push]** contient les donn�
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
+![](../assets/global_report_18.png)
+
 Le graphique et le tableau **[!UICONTROL Raisons de l&#39;erreur]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
+
+![](../assets/global_report_19.png)
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plate-forme]**, **[!UICONTROL Envoi par plate-forme]** et **[!UICONTROL Ventilation par plate-forme]** décrivent le succès de votre notification push en fonction du système opérationnel de votre destinataire.
