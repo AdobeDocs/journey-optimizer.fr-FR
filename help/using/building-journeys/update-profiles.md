@@ -1,22 +1,20 @@
 ---
 title: Mettre à jour le profil
-description: Découvrez comment utiliser l’activité Mettre à jour le profil dans un parcours.
+description: Découvrez comment utiliser l’activité Mise à jour de profil dans un parcours
 feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 93%
+ht-degree: 65%
 
 ---
 
 # Mettre à jour le profil {#update-profile}
 
-![](../assets/do-not-localize/badge.png)
-
-L’activité d’action **[!UICONTROL Mettre à jour le profil]** vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique.
+L’activité d’action **[!UICONTROL Mettre à jour le profil]** permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l’événement, d’une source de données ou à l’aide d’une valeur spécifique.
 
 ## Remarques importantes
 
@@ -31,7 +29,7 @@ L’activité d’action **[!UICONTROL Mettre à jour le profil]** vous permet d
 
 En mode test, la mise à jour du profil ne sera pas simulée. La mise à jour sera effectuée sur le profil de test.
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs de profil par le biais d’un import de fichier csv ou d’appels d’API. Une méthode plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à redéfinir le champ booléen du profil de test de false à true.
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platorm, vous pouvez mettre à jour les attributs de profil par le biais d’un import de fichier csv ou d’appels d’API. Une méthode plus simple consiste à utiliser une activité d’action **Mettre à jour le profil** et à remplacer le champ booléen du profil de test par false.
 
 Pour plus d’informations sur la façon de transformer un profil existant en profil de test, consultez [cette section](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 
@@ -39,13 +37,13 @@ Pour plus d’informations sur la façon de transformer un profil existant en pr
 
 1. Concevez votre parcours en commençant par un événement. Consultez cette [section](../building-journeys/journey.md).
 
-1. Dans la section **Action** de la palette, déposez l’activité **Mettre à jour le profil** sur la zone de travail.
+1. Dans la section **Action** de la palette, déposez l’activité **Mettre à jour le profil** dans la zone de travail.
 
    ![](../assets/profileupdate0.png)
 
 1. Sélectionnez un schéma dans la liste.
 
-1. Cliquez sur **Champs** pour sélectionner le champ à mettre à jour. Vous ne pouvez sélectionner qu’un seul champ.
+1. Cliquez sur **Champ** pour sélectionner le champ à mettre à jour. Vous ne pouvez sélectionner qu’un seul champ.
 
    ![](../assets/profileupdate2.png)
 
@@ -65,6 +63,6 @@ Pour plus d’informations sur la façon de transformer un profil existant en pr
 
       ![](../assets/profileupdate3.png)
 
-L’action **Mettre à jour le profil** est désormais configurée.
+**Mettre à jour le profil** est maintenant configuré.
 
 ![](../assets/profileupdate1.png)
