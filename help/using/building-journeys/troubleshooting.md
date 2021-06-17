@@ -5,7 +5,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 99%
@@ -13,8 +13,6 @@ ht-degree: 99%
 ---
 
 # Dépannage{#concept_nlv_bcv_2fb}
-
-![](../assets/do-not-localize/badge.png)
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d’effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d’effectuer la publication. Voir [cette page](../building-journeys/testing-the-journey.md).
 
