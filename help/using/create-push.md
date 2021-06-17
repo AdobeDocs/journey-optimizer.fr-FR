@@ -5,16 +5,14 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 73%
+source-wordcount: '1248'
+ht-degree: 61%
 
 ---
 
 # Créez une notification push {#create-push-notification}
-
-![](assets/do-not-localize/badge.png)
 
 Une fois que vous avez [créé un message](create-message.md), cliquez sur l&#39;onglet **[!UICONTROL Notification push]** pour définir les paramètres et le contenu de la notification push.
 
@@ -30,7 +28,7 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 
 Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l’éditeur d’expression pour définir le contenu et les données de personnalisation. En savoir plus sur la personnalisation dans l’éditeur d’expression de [cette section](personalization/personalize.md)
 
-Utilisez la section centrale pour visualiser l’affichage de la notification push sur les appareils iOS et Android.
+Utilisez la section d’aperçu de l’appareil pour visualiser l’affichage de la notification push sur les appareils iOS et Android.
 
 ## Comportement en cas de clic {#on-click-behavior}
 
@@ -60,7 +58,6 @@ Deux options sont disponibles. Vous pouvez :
 
 Une fois ajouté, le support s&#39;affiche à droite du corps de la notification.
 
-
 ## Ajouter des boutons
 
 Vous pouvez créer une notification exploitable en ajoutant des boutons à votre contenu push.
@@ -69,13 +66,15 @@ Si l’écran du périphérique est verrouillé, les boutons suivants ne s’aff
 
 Dans la version iOS, vous pouvez ajouter jusqu’à 4 boutons. Dans la version Android, vous pouvez ajouter jusqu’à 3 boutons.
 
-Cliquez sur **[!UICONTROL Ajouter un bouton]** pour définir les paramètres : le libellé et l&#39;action associée. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
-
-
 >[!NOTE]
 >
 >Pour iOS, utilisez le champ **[!UICONTROL catégorie iOS]** pour associer les actions à une catégorie de notification.
 
+Cliquez sur **[!UICONTROL Ajouter un bouton]** pour définir les paramètres : le libellé et l&#39;action associée. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
+
+Cliquez sur **[!UICONTROL Développer la vue]** pour prévisualiser vos boutons personnalisés.
+
+![](assets/push_buttons.png)
 
 ## Envoyer une notification silencieuse
 
@@ -95,17 +94,16 @@ Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notific
 
 | Paramètre | Description |
 |---------|---------|
-| **[!UICONTROL Réductible]**  (iOS/Android) | Un message réductible est un message qui peut être remplacé par un nouveau message. Par exemple, une application qui met à jour les utilisateurs avec les dernières informations sur une rubrique. Dans ce cas, seul le message le plus récent est pertinent. D’un autre côté, avec des messages non réductibles, chaque message est important pour l’application cliente et doit être diffusé. |
-| **[!UICONTROL Son personnalisé]** (iOS / Android) | Son à émettre par le terminal mobile lors de la réception de la notification. Le son doit être assemblé dans l’application. |
+| **[!UICONTROL Réductible]**  (iOS/Android) | Un message réductible est un message qui peut être remplacé par un nouveau message s’il est obsolète. Les messages utilisés pour indiquer à une application mobile de synchroniser les données du serveur constituent des cas d’utilisation courants de messages réductibles. Par exemple, une application sportive qui met à jour les utilisateurs avec le dernier score. Seul le message le plus récent est pertinent. D’un autre côté, avec un message non réductible, chaque message est important pour l’application cliente et doit être diffusé. |
+| **[!UICONTROL Son personnalisé]**  (iOS / Android) | Son à émettre par le terminal mobile lors de la réception de la notification. Le son doit être assemblé dans l’application. |
 | **[!UICONTROL Badges]** (iOS / Android) | Un badge est utilisé pour afficher directement sur l’icône de l’application le nombre de nouvelles informations non lues. <br/>La valeur du badge disparaît dès que l’utilisateur ouvre ou lit le nouveau contenu de l’application. Lorsqu’une notification est reçue sur un appareil, elle peut actualiser ou ajouter une valeur de badge pour l’application associée.<br/>Par exemple, si vous stockez le nombre d’articles non lus de vos clients, vous pouvez tirer parti de la personnalisation pour envoyer la valeur unique de badge d’articles non lus pour chaque client. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](personalization/personalize.md). |
 | **[!UICONTROL Groupe de notifications]**   (iOS uniquement) | Associez un groupe de notification à la notification push.<br/>À partir d’iOS 12, les groupes de notifications vous permettent de consolider les threads de message et les rubriques de notification en identifiants de threads. Par exemple, une marque peut envoyer des notifications marketing sous un identifiant de groupe, tout en conservant d’autres notifications de type opérationnel sous un ou plusieurs identifiants différents.<br/>Pour illustrer cela, vous pouvez avoir les groupes de notification groupID : 123 « Consultez la nouvelle collection printanière de pulls » et groupID : 456 « Votre colis a été livré ». Dans cet exemple, toutes les notifications de diffusion sont regroupées sous l&#39;identifiant de groupe : 456. |
 | **[!UICONTROL Canal de notification]** (Android uniquement) | Associez un canal de notification à la notification push.<br/>À partir d&#39;Android 8.0 (niveau API 26), toutes les notifications doivent être affectées à un canal pour s’afficher. Consultez à ce sujet la [documentation pour développeur Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Ajouter un indicateur de disponibilité de contenu]** (iOS uniquement) | Envoie l&#39;indicateur de disponibilité de contenu dans la payload push pour veiller à ce que l&#39;application sorte de veille à la réception de la notification push et puisse accéder ainsi aux données de la payload.<br/> Ce mécanisme fonctionne même si l&#39;application est en cours d&#39;exécution à l&#39;arrière-plan et qu&#39;elle ne nécessite pas l&#39;intervention de l&#39;utilisateur (comme appuyer sur la notification push, par exemple). Toutefois, il ne s&#39;applique pas si l&#39;application n&#39;est pas en cours d&#39;exécution. Consultez à ce sujet la [documentation pour développeur Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| **[!UICONTROL Ajouter un indicateur de contenu modifiable]** (iOS uniquement) | Envoie l’indicateur de contenu modifiable dans la payload push et permet de modifier le contenu de la notification push en utilisant l’extension d’application du service de notification fournie dans le SDK iOS. Consultez à ce sujet la [documentation pour développeur Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Vous pouvez ensuite exploiter vos extensions d&#39;applications mobiles pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis [!DNL Journey Optimizer] Par exemple, les utilisateurs peuvent utiliser cette option pour déchiffrer des données, modifier le corps ou le titre d&#39;une notification, ajouter un identifiant de thread à une notification, etc. |
-| **[!UICONTROL Visibilité de la notification]** (Android uniquement) | Définit la visibilité de la notification push. <br/><b>private</b> affichera la notification sur tous les écrans verrouillés, mais dissimulera les informations sensibles ou privées sur les écrans verrouillés sécurisés. <br/><b>public</b> affichera la notification dans son intégralité sur tous les écrans verrouillés. <br/><b>secret</b> ne divulguera aucune partie de la notification sur un écran verrouillé sécurisé. <br/>Consultez à ce sujet la [documentation pour développeur Android](https://developer.android.com/reference/android/app/Notification). |
+| **[!UICONTROL Ajouter un indicateur de contenu modifiable]** (iOS uniquement) | Envoie l’indicateur de contenu modifiable dans la payload push et permet de modifier le contenu de la notification push en utilisant l’extension d’application du service de notification fournie dans le SDK iOS. Consultez à ce sujet la [documentation pour développeur Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Vous pouvez ensuite tirer parti des extensions de votre application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis  [!DNL Journey Optimizer]. Par exemple, les utilisateurs peuvent utiliser cette option pour décrypter des données, modifier le corps ou le texte du titre d’une notification, ajouter un identifiant de thread à une notification, etc. |
+| **[!UICONTROL Visibilité des notifications]**  (Android uniquement) | Définit la visibilité de la notification push. <br/><b></b> La confidentialité affichera la notification sur tous les écrans de verrouillage, mais masquera les informations sensibles ou privées sur les écrans de verrouillage sécurisés. <br/><b>public</b> affichera la notification dans son intégralité sur tous les écrans verrouillés. <br/><b>secret</b> ne divulguera aucune partie de la notification sur un écran verrouillé sécurisé. <br/>Consultez à ce sujet la [documentation pour développeur Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Priorité des notifications]**  (Android uniquement) | Définit l’importance de la notification push de Faible à Max. Cette opération détermine l’intrusion de la notification push lors de sa diffusion. Consultez à ce sujet la [documentation pour développeur Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Priorité de diffusion]** (Android uniquement) | Définit une priorité élevée ou normale pour vos notifications push. Pour plus d&#39;informations sur la priorité des messages, consultez la [documentation destinée aux développeurs Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
-
 
 **Rubriques connexes**
 
