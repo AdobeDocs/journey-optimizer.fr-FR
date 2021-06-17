@@ -5,16 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 94%
 
 ---
 
 # Utiliser un segment dans un parcours {#segment-trigger-activity}
-
-![](../assets/do-not-localize/badge.png)
 
 ## À propos de l’activité Lecture de segment {#about-segment-trigger-actvitiy}
 
@@ -25,10 +23,12 @@ Prenons l’exemple du segment « Ouverture et passage en caisse de l’applica
 >[!NOTE]
 >
 >Il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
+>
+>Le module complémentaire payant Burst permet d’envoyer très rapidement des messages push en gros volumes pour des parcours simples comprenant un segment de lecture et un message push simple. Voir à ce sujet [cette section](../building-journeys/journey-gs.md#burst)
 
 ### Configuration de l’activité {#configuring-segment-trigger-activity}
 
-Les étapes de configuration de l’activité Lecture de segment sont les suivantes :
+Les étapes de configuration de l’activité Lecture de segment sont les suivantes :
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lecture de segment]** dans votre zone de travail.
 
@@ -101,7 +101,7 @@ Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publicati
 
 ## Ciblage des audiences dans les parcours basés sur segment
 
-Les parcours basés sur segments débutent toujours avec une activité **Lecture de segment** pour récupérer les individus appartenant à un segment Adobe Experience Platform.
+Les parcours basés sur des segments commencent toujours par une activité **Lecture de segment** pour récupérer les individus appartenant à un segment Adobe Experience Platform.
 
 L’audience appartenant au segment est récupérée une fois ou régulièrement.
 
