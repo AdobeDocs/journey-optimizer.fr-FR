@@ -5,17 +5,15 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 69%
+source-wordcount: '559'
+ht-degree: 68%
 
 ---
 
 
 # Syntaxe de personnalisation {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 La personnalisation dans [!DNL Journey Optimizer] est basée sur la syntaxe de modèle appelée Handlebars.
 Pour une description complète de la syntaxe Handlebars, reportez-vous à la [documentation HandlebarsJS](https://handlebarsjs.com/).
@@ -24,14 +22,12 @@ Cette syntaxe utilise un modèle et un objet d’entrée pour générer du code 
 
 Exemple d&#39;expression simple :
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 où :
 
-* **profile** est un espace de noms.
-* **person.name** est un jeton composé par des attributs. La structure des attributs est définie dans un schéma XDM Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+* `profile` est un espace de noms.
+* `person.name` est un jeton composé par des attributs. La structure des attributs est définie dans un schéma XDM Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 ## Règles générales de syntaxe
 
@@ -59,15 +55,19 @@ Les attributs doivent être définis dans le schéma avant d&#39;être référen
 
 **Exemples de références :**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## Segments{#perso-segments}
 
@@ -84,20 +84,18 @@ Pour référencer une offre, vous devez déclarer un chemin avec les différente
 
 Ce chemin possède la structure suivante :
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 où :
 
 * `offers` identifie l’expression de chemin appartenant à l’espace de noms de l’offre
 * `Type`  détermine le type de représentation de l’offre. Les valeurs possibles sont les suivantes : `image`, `html` et `text`
 * `Placement Id` et  `Activity Id` sont des identifiants d’emplacement et d’activité.
-* `Attributes` sont des attributs spécifiques à l’offre qui dépendent du type d’offre. Exemple : `deliveryUrl` pour les images.
+* `Attributes` sont des attributs spécifiques à l’offre qui dépendent du type d’offre. Exemple : `deliveryUrl` pour les images
 
 Pour plus d’informations sur l’API Decisions et sur la Représentation des offres, consultez [cette page](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
-Toutes les références sont validées par rapport au schéma Offres avec un mécanisme de validation décrit dans [cette page](personalization-validation.md).
+Toutes les références sont validées par rapport au schéma Offres avec un mécanisme de validation décrit dans [cette page](personalization-validation.md)
 
 **Exemples de références :**
 
