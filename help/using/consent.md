@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
+source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 87%
+source-wordcount: '740'
+ht-degree: 85%
 
 ---
 
@@ -131,15 +131,17 @@ Corps de la requête:
 
 ## Lien de désabonnement dans l’en-tête {#unsubscribe-email}
 
-Si le logiciel client de messagerie des destinataires prend en charge l’affichage d’un lien de désabonnement dans l’en-tête de l’email, les emails envoyés avec [!DNL Journey Optimizer] incluent automatiquement ce lien.
+Si le client de messagerie des destinataires prend en charge l’affichage d’un lien de désabonnement dans l’en-tête de l’email, les emails envoyés avec [!DNL Journey Optimizer] incluent automatiquement ce lien.
 
 Par exemple, le lien de désabonnement s’affiche comme suit dans Gmail :
 
 ![](assets/unsubscribe-email.png)
 
-Si un destinataire clique sur ce lien, le profil correspondant est immédiatement désinscrit et ce choix est mis à jour dans Experience Platform.
+En fonction du client de messagerie, cliquer sur le lien de désabonnement de l’en-tête a l’un des impacts suivants :
 
-Le fait de cliquer sur le lien de désabonnement de l’en-tête a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l’email. Pour en savoir plus sur la gestion des opt-out, consultez [cette section](#opt-out-management).
+* Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+
+* Cela a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l&#39;email : le destinataire est redirigé vers une landing page comprenant un bouton pour confirmer son désinscription. Pour en savoir plus sur la gestion des opt-out, consultez [cette section](#opt-out-management).
 
 ## Gestion des désinscriptions push {#push-opt-out-management}
 
