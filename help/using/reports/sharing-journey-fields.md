@@ -5,18 +5,16 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '71'
+ht-degree: 81%
 
 ---
 
 # Champs du parcours {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Ce mixin est utilisé dans le schéma du parcours (en relation avec journeyStepEvent). Il contient les champs suivant :
+Ce groupe de champs est utilisé dans le schéma de parcours (par rapport à journeyStepEvent). Il contient les champs suivant :
 
 ## journeyID
 
