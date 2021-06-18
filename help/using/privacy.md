@@ -1,9 +1,9 @@
 ---
 title: Confidentialité
 description: Découvrez comment gérer la confidentialité.
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '720'
 ht-degree: 100%
 
 ---
@@ -11,9 +11,7 @@ ht-degree: 100%
 
 # Confidentialité {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer est un outil puissant permettant de traiter de gros volumes de données, notamment des informations personnelles et des données sensibles.
+[!DNL Journey Optimizer] est un outil puissant permettant de traiter de gros volumes de données, notamment des informations personnelles et des données sensibles.
 
 * **Les données personnelles** sont des informations qui permettent d&#39;identifier directement ou indirectement un individu vivant.
 * **Les données personnelles sensibles** sont des informations relatives à l&#39;origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux renseignements génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques ainsi qu&#39;à l&#39;appartenance syndicale.
