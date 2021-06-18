@@ -5,21 +5,19 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 65%
 
 ---
 
-# Rapport dynamique {#live-report}
+# Prise en main du rapport en direct {#live-report}
 
-![](../assets/do-not-localize/badge.png)
+Utilisez le **[!UICONTROL rapport en direct]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord intégré.
+Les données sont disponibles dans le **[!UICONTROL rapport en direct]** dès que votre diffusion est envoyée ou que votre parcours est exécuté.
 
-Le **[!UICONTROL Rapport dynamique]** vous permet de mesurer et de visualiser en temps réel l’efficacité de vos parcours et les performances de vos messages via un tableau de bord intégré.
-Les données de vos diffusions sont disponibles dans le **[!UICONTROL Rapport dynamique]** dès l’exécution de votre diffusion ou de votre parcours.
-
-* Si vous souhaitez cibler un parcours ou des diffusions dans un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur l’icône **[!UICONTROL Rapport dynamique]**. Vous trouverez alors les rapports dynamiques Parcours, Email et Push.
+* Si vous souhaitez cibler un ou plusieurs parcours dans le contexte d&#39;un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur l&#39;icône **[!UICONTROL Rapport en direct]**. Vous trouverez alors les rapports dynamiques Parcours, Email et Push.
 
    ![](../assets/report_journey.png)
 
@@ -27,11 +25,11 @@ Les données de vos diffusions sont disponibles dans le **[!UICONTROL Rapport dy
 
    ![](../assets/report_2.png)
 
-## Modifier le tableau de bord {#modify-dashboard}
+## Personnalisation du tableau de bord {#modify-dashboard}
 
 Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets. La modification des widgets n’a un impact que sur le tableau de bord de l’utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
 
-1. Dans votre rapport dynamique, cliquez sur **[!UICONTROL Modifier le tableau de bord]**.
+1. Dans votre rapport en direct, cliquez sur **[!UICONTROL Modifier]**.
 
    ![](../assets/report_modify_1.png)
 
