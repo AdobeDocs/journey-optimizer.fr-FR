@@ -5,7 +5,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Versions de parcours{#concept_ldc_k55_zgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Voir [cette page](../building-journeys/using-the-journey-designer.md).
 
