@@ -5,18 +5,16 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 61%
+source-wordcount: '104'
+ht-degree: 51%
 
 ---
 
 # Fonctions de carte{#maps}
 
-![](../../assets/do-not-localize/badge.png)
-
-[!DNL Profile Query Language] (PQL) offre des fonctions permettant de faciliter l’interaction avec les cartes.
+Utilisez les fonctions de carte dans la personnalisation pour faciliter l’interaction avec les cartes.
 
 ## Get{#get}
 
