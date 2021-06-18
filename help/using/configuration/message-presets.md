@@ -1,26 +1,28 @@
 ---
-title: Création de paramètres de message prédéfinis
+title: Création de préréglages de message
 description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
 feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
 
 
-# Création de paramètres de message prédéfinis
+# Création de préréglages de message
 
 Avec [!DNL Journey Optimizer], vous pouvez configurer des paramètres prédéfinis de message qui définissent tous les paramètres techniques requis pour les messages de notification électronique et push : type de courrier électronique, nom et adresse électronique de l’expéditeur, applications mobiles, etc.
 
 >[!CAUTION]
 >
-> La configuration des paramètres de message prédéfinis est limitée aux administrateurs de Parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * La configuration des paramètres de message prédéfinis est limitée aux administrateurs de Parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* Vous devez effectuer les étapes de configuration Email et Push avant de créer des paramètres prédéfinis de message.
 
 
 Une fois les paramètres prédéfinis de message configurés, vous pouvez les sélectionner lors de la création de messages à partir de la liste **[!UICONTROL Paramètres prédéfinis]**.
@@ -33,11 +35,9 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    ![](../assets/preset-create.png)
 
-
 1. Saisissez un nom et une description (facultatif) pour le paramètre prédéfini, puis sélectionnez le ou les canaux à configurer.
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
    * Sélectionnez le pool d’adresses IP à associer au paramètre prédéfini. [En savoir plus](ip-pools.md)
    * Renseignez les paramètres d&#39;en-tête des emails envoyés à l&#39;aide du paramètre prédéfini.
 
+      >[!CAUTION]
+      >
+      >À l’exception du champ **Répondre à (courrier électronique de transfert)** , le domaine des adresses électroniques doit utiliser le [sous-domaine délégué](about-subdomain-delegation.md) sélectionné actuellement.
+
+      * **[!UICONTROL Nom]** de l&#39;expéditeur : Nom de l’expéditeur, tel que le nom de votre marque.
+
+      * **[!UICONTROL Email de l&#39;expéditeur]** : Adresse électronique que vous souhaitez utiliser pour vos communications. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com*.
+
+      * **[!UICONTROL Réponse (nom)]** : Nom qui sera utilisé lorsque le destinataire clique sur le bouton  **** Répondre de son logiciel de messagerie.
+
+      * **[!UICONTROL Répondre à (email)]** : Adresse électronique qui sera utilisée lorsque le destinataire clique sur le bouton  **** Répondre de son logiciel de messagerie. Les emails envoyés à cette adresse seront transférés à l&#39;adresse **[!UICONTROL Réponse (email de transfert)]** fournie ci-dessous. Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les emails seront ignorés.
+
+      * **[!UICONTROL Répondre à (transférer l&#39;email)]** : Tous les emails reçus par  [!DNL Journey Optimizer] pour le sous-domaine délégué seront transférés vers cette adresse email. Vous pouvez spécifier n’importe quelle adresse, à l’exception d’une adresse électronique définie sur le sous-domaine délégué. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, toute adresse telle que *abc@marketing.luma.com* est interdite.
+
+      * **[!UICONTROL Message d’erreur]** : Toutes les erreurs générées par les FAI après quelques jours de diffusion du courrier (bounces asynchrones) sont reçues sur cette adresse.
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * Les noms doivent commencer par une lettre (A-Z). Elle ne peut contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d’union `-`.
-         > 
-         > 
-      * À l’exception de la balise **Répondre à (transférer l’email)**, le domaine des adresses électroniques doit utiliser le sous-domaine sélectionné actuel.
-
+      >Les noms doivent commencer par une lettre (A-Z). Elle ne peut contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d’union `-`.
 
 
 1. Configurez les paramètres **notification push**.
@@ -86,7 +100,6 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    Ces contrôles incluent les tests de délivrabilité effectués par l’équipe de délivrabilité d’Adobe :
 
-
    * Validation SPF
    * Validation DKIM
    * Validation des enregistrements MX
@@ -94,7 +107,6 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
    * Vérification de l’hôte Helo
    * Vérification du pool d’adresses IP
    * Enregistrement A/PTR, vérification du sous-domaine t/m/res
-
 
 1. Une fois les vérifications effectuées, le paramètre prédéfini du message obtient le statut **[!UICONTROL Principal]**. Il est prêt à être utilisé pour diffuser des messages.
 
