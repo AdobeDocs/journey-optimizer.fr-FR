@@ -5,7 +5,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
@@ -38,10 +38,11 @@ Dans cet exemple, nous allons créer un segment pour cibler tous les clients ré
 
    Dans cet exemple, nous devons nous baser sur les champs **Attributs** et **Événements** pour créer le segment :
 
-   * **Attributs** : profils qui vivent à Atlanta, San Francisco ou Seattle, nés après 1980,
-   * **Événements** : profils qui ont ouvert l&#39;application Luma au cours des 7 derniers jours, puis effectué un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
+   * **Attributs** : profils qui vivent à Atlanta, San Francisco ou Seattle, nés après 1980
 
       ![](../assets/add-attributes.png)
+
+   * **Événements** : profils qui ont ouvert l&#39;application Luma au cours des 7 derniers jours, puis effectué un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
 
       ![](../assets/add-events.png)
 
