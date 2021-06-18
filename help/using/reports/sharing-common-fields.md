@@ -5,18 +5,16 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 98%
 
 ---
 
 # Champs communs des événements journeysteps {#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Ce mixin sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
+Ce groupe de champs sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
 Il s’agit des champs XDM communs que [!DNL Journey Optimizer] envoie à Adobe Experience Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
 
