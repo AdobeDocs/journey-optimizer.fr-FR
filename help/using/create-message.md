@@ -5,7 +5,7 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 96%
@@ -13,8 +13,6 @@ ht-degree: 96%
 ---
 
 # Création d’un message {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 Les messages sont disponibles à partir du raccourci **[!UICONTROL Messages]** dans le volet de navigation de gauche. Tous les messages sont répertoriés, triés par date de publication (pour les messages publiés) ou par date de création (pour les messages en version préliminaire).
 
