@@ -5,7 +5,7 @@ feature: Délivrabilité
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 64%
@@ -13,8 +13,6 @@ ht-degree: 64%
 ---
 
 # Liste de suppression {#suppression-list}
-
-![](assets/do-not-localize/badge.png)
 
 Une liste de suppression se compose d’adresses email que vous souhaitez exclure de vos diffusions, car l’envoi à ces contacts peut nuire à votre réputation d’envoi et à vos taux de diffusion.
 
