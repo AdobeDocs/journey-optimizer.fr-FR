@@ -5,16 +5,14 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 91%
 
 ---
 
 # Rapport dynamique sur les parcours {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 Vous pouvez accéder directement au rapport dynamique sur les parcours depuis votre parcours en cliquant sur le bouton **[!UICONTROL Rapport dynamique]**.
 
@@ -64,7 +62,7 @@ Pour obtenir un rapport détaillé sur une diffusion email spécifique, consulte
 
 ![](../assets/report_email_1.png)
 
-Les widgets **[!UICONTROL Statistiques d’envoi]** et **[!UICONTROL Mesures d’envoi par email]** indiquent le succès de votre diffusion :
+Le widget **[!UICONTROL Statistiques d’envoi d’emails]** détaille les informations principales relatives à votre message :
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -72,9 +70,7 @@ Les widgets **[!UICONTROL Statistiques d’envoi]** et **[!UICONTROL Mesures d�
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs qui se sont produites au cours d’une diffusion, l’empêchant d’être envoyée aux profils.
 
-<!--Hard and bounce - by Email-->
-
-Le graphique **[!UICONTROL Résumé des emails]** présente les principales informations relatives à votre message :
+Le tableau **[!UICONTROL Envoi de mesures par email]** et le graphique **[!UICONTROL Email Summary]** détaillent le succès de votre diffusion :
 
 * **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
 
@@ -88,9 +84,13 @@ Le graphique **[!UICONTROL Résumé des emails]** présente les principales info
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans une diffusion.
 
+* **[!UICONTROL Désabonner]** : Nombre de clics sur le lien de désinscription.
+
+* **[!UICONTROL Réclamations relatives aux spams]** : Nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
+
 ![](../assets/report_email_2.png)
 
-Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de bounces]** contiennent les données disponibles relatives aux messages ayant fait l’objet d’un rebond, notamment :
+Les widgets **[!UICONTROL Raisons de rebond]**, **[!UICONTROL Catégories de rebond]** et **[!UICONTROL Hard et bounce - par email]** contiennent les données disponibles relatives aux messages rebonds, telles que :
 
 * **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Un message d’erreur indique explicitement que l’adresse n’est pas valide, comme Utilisateur inconnu.
 
