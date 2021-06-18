@@ -5,45 +5,35 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 84%
 
 ---
 
 # Limites {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 Voici les limites liées à l’utilisation des parcours.
-
-## Limites des listes de parcours
-
-* Dans la liste de parcours, les filtres, les recherches et la sélection de colonnes sont réinitialisés lors de l’actualisation de la page.
 
 ## Limites des actions générales
 
 * Il n’y a pas de limite d’envoi. 
-* En cas d’erreur, deux reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé. 
+* Trois reprises sont systématiquement effectuées en cas d&#39;erreur. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d’erreur renvoyé. 
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié. 
-* Il n’y a pas d’intégration de produit avec Adobe Campaign Classic.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
 
 ## Limites des actions de message
-
-* L’activité **Message** ne vous permet pas d’utiliser des données contextuelles provenant du parcours. La personnalisation des messages est effectuée directement lors de la conception du message dans Journey Optimizer.
 
 * Lorsque vous ajoutez un message multicanal, deux messages sont envoyés.
 
 ## Limites des versions de parcours {#journey-versions-limitations}
 
-* Un parcours commençant par une activité d’événement dans la version_v1 ne peut pas débuter avec un autre élément qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
-* Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d’autres versions.
-
-* Le segment et l’espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
+* Un parcours commençant par une activité d’événement dans v1 ne peut pas commencer par autre chose qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
+* Un parcours commençant par une activité **Qualification de segment** dans v1 doit toujours commencer par une **Qualification de segment** dans d’autres versions.
+* Le segment et l’espace de noms choisi dans **Qualification de segment** (premier noeud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
-* Un parcours commençant par une **lecture de segment** ne peut pas commencer par un autre événement dans les versions suivantes.
+* Un parcours commençant par un **segment de lecture** ne peut pas commencer par un autre événement dans les versions suivantes.
  
 
 ## Limites des actions personnalisées
