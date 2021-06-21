@@ -1,11 +1,11 @@
 ---
-title: Prise en main de la configuration push
+title: Prise en main de la configuration de notifications push
 description: Présentation du flux de données et des composants des notifications push
 feature: Paramétrage de l’application
-topic: Administration
+topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 3%
