@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 96%
+source-wordcount: '495'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ Les messages sont disponibles à partir du raccourci **[!UICONTROL Messages]** d
 
 >[!NOTE]
 >
->Chaque utilisateur peut accéder aux messages, les créer, les modifier et les publier. En savoir plus sur les autorisations utilisateur [dans cette section](../using/administration/permissions.md).
+>Les utilisateurs peuvent accéder aux messages, les créer, les modifier et/ou les publier en fonction de leur profil de produit. En savoir plus sur les autorisations utilisateur [dans cette section](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
