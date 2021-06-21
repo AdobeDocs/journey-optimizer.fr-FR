@@ -1,17 +1,20 @@
 ---
-title: Confidentialité
+title: 'Confidentialité in [!DNL Journey Optimizer] '
 description: Découvrez comment gérer la confidentialité.
-source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
+topic: Confidentialité
+role: User
+level: Intermediate
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 95%
 
 ---
 
 
-# Confidentialité {#privacy}
+# Gestion de la confidentialité avec [!DNL Journey Optimizer]{#privacy}
 
-[!DNL Journey Optimizer] est un outil puissant permettant de traiter de gros volumes de données, notamment des informations personnelles et des données sensibles.
+[!DNL Journey Optimizer] est un outil puissant permettant de traiter de gros volumes de données, notamment des informations personnelles et des données sensibles. Pour offrir de meilleures expériences client, vous devez collecter et stocker les données personnelles de vos clients. Lorsque vous utilisez ces données, il est important de comprendre et de respecter la confidentialité de vos clients. Les nouvelles réglementations légales et organisationnelles donnent aux utilisateurs le droit d’accéder à leurs données personnelles et de les supprimer de vos banques de données sur demande.
 
 * **Les données personnelles** sont des informations qui permettent d&#39;identifier directement ou indirectement un individu vivant.
 * **Les données personnelles sensibles** sont des informations relatives à l&#39;origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux renseignements génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques ainsi qu&#39;à l&#39;appartenance syndicale.
