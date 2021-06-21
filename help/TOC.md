@@ -205,7 +205,7 @@ ht-degree: 100%
             + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
          + [Modification de l&#39;adresse e-mail principale](using/configuration/primary-email-addresses.md)
-      + [Création de paramètres prédéfinis de message](using/configuration/message-presets.md)
+      + [Création de préréglages de message](using/configuration/message-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + [Intégration avec des systèmes externes](using/configuration/external-systems.md)
