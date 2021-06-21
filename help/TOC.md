@@ -8,12 +8,12 @@ solution: Journey Optimizer
 source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Optimizer] Aide {#using}
+# Aide de [!DNL Journey Optimizer] {#using}
 
 + [Documentation du produit](ajo-home.md)
 + Prise en main{#get-started}
@@ -33,7 +33,7 @@ ht-degree: 89%
       + [Importer ou coder le contenu de votre e-mail](using/existing-content.md)
       + [Utiliser les composants de contenu du concepteur d&#39;email](using/content-components.md)
    + Personnalisation{#personalization}
-      + [Prise en main avec personnalisation](using/personalization/personalize.md)
+      + [Prise en main  de la personnalisation](using/personalization/personalize.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + [Cas d&#39;utilisation de la personnalisation](using/personalization/personalization-use-case.md)
@@ -81,25 +81,25 @@ ht-degree: 89%
       + [Lecture de segment](using/building-journeys/read-segment.md)
       + [Message](using/building-journeys/journeys-message.md)
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
-      + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
+      + [Actions d&#39;Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Sauter](using/building-journeys/jump.md)
       + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
    + Cas d&#39;utilisation {#journey-use-cases}
       + [Envoi de messages à plusieurs canaux](using/building-journeys/journeys-uc.md)
-      + [Envoyer un message à l&#39;aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-+ Tracker et suivre vos diffusions {#reporting}
+      + [Envoi de messages à l&#39;aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
++ Tracker et surveiller {#reporting}
    + [Tracking des messages](using/message-tracking.md)
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
-      + [Accès au tableau de bord des rapports en direct](using/reports/live-report.md)
-      + [Rapport parcours](using/reports/journey-live-report.md)
-      + [Rapport Email Live](using/reports/email-live-report.md)
-      + [Rapport Push Live](using/reports/push-live-report.md)
+      + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
+      + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
+      + [Rapport dynamique sur les e-mails](using/reports/email-live-report.md)
+      + [Rapport dynamique sur les notifications push](using/reports/push-live-report.md)
    + Rapport global {#global-report}
       + [Accès au tableau de bord des rapports globaux](using/reports/global-report.md)
-      + [Rapport global parcours](using/reports/journey-global-report.md)
-      + [Envoyer le rapport Global par courriel](using/reports/email-global-report.md)
-      + [Rapport Push global](using/reports/push-global-report.md)
+      + [Rapport global sur les parcours](using/reports/journey-global-report.md)
+      + [Rapport global sur les e-mails](using/reports/email-global-report.md)
+      + [Rapport global sur les notifications push](using/reports/push-global-report.md)
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Champs du parcours](using/reports/sharing-journey-fields.md)
@@ -110,13 +110,13 @@ ht-degree: 89%
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/deliverability.md)
       + [Liste de suppression](using/suppression-list.md)
-+ Decision Management {#offer-decisioniong}
-   + Prise en main de la gestion des décisions {#get-started}
-      + [À propos de Decision Management](using/offers/get-started/starting-offer-decisioning.md)
++ Decision Management {#offer-decisioniong}
+   + Prise en main de Decision Management {#get-started}
+      + [À propos de Decision Management](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface utilisateur](using/offers/get-started/user-interface.md)
       + [Étapes clés de création et de gestion des offres](using/offers/offer-library/key-steps.md)
-      + [Cas pratique : insérer des offres dans un email](using/offers/offers-e2e.md)
-   + Créer des composants {#create-components}
+      + [Cas d&#39;utilisation : insertion d&#39;offres dans un e-mail](using/offers/offers-e2e.md)
+   + Création de composants {#create-components}
       + [Création d&#39;emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
       + [Création de balises](using/offers/offer-library/creating-tags.md)
@@ -181,9 +181,9 @@ ht-degree: 89%
       + Créer et gérer des décisions à l&#39;aide d&#39;API {#activities-api}
          + [Liste des décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Recherche d&#39;une décision](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Création d’une décision](using/offers/api-reference/activities-api/activities/create.md)
-         + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
-         + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
+         + [Création d&#39;une décision](using/offers/api-reference/activities-api/activities/create.md)
+         + [Mise à jour d&#39;une décision](using/offers/api-reference/activities-api/activities/update.md)
+         + [Suppression d&#39;une décision](using/offers/api-reference/activities-api/activities/delete.md)
       + Diffusion d&#39;offre à l&#39;aide d&#39;API {#offer-delivery}
          + [API Decisions](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK web Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
@@ -191,8 +191,8 @@ ht-degree: 89%
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configuration des messages {#configuration}
       + Configuration de notifications push{#push-config}
-         + [Prise en main de la configuration push](using/push-gs.md)
-         + [Configuration du canal de notification push](using/push-configuration.md)
+         + [Prise en main de la configuration de notifications push](using/push-gs.md)
+         + [Configuration du canal de notifications push](using/push-configuration.md)
       + Configuration des e-mails {#email-config}
          + Délégation de sous-domaines {#delegate-subdomains}
             + [Prise en main de la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
@@ -205,7 +205,7 @@ ht-degree: 89%
             + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
          + [Modification de l&#39;adresse e-mail principale](using/configuration/primary-email-addresses.md)
-      + [Création de préréglages de message](using/configuration/message-presets.md)
+      + [Création de paramètres prédéfinis de message](using/configuration/message-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + [Intégration avec des systèmes externes](using/configuration/external-systems.md)
@@ -225,7 +225,7 @@ ht-degree: 89%
       + Configuration d&#39;action {#action-journeys}
          + [À propos des actions](using/action/action.md)
          + [Configurer une action](using/action/about-custom-action-configuration.md)
-         + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
 + Contrôle d&#39;accès {#administration}
    + [Présentation du contrôle d&#39;accès](using/administration/permissions-overview.md)
    + [Profils de produits natifs](using/administration/ootb-product-profiles.md)
