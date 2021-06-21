@@ -2,17 +2,17 @@
 title: Configuration de notifications push
 description: Découvrez comment configurer votre environnement pour envoyer des notifications push avec Journey Optimizer.
 feature: Paramétrage de l’application
-topic: Administration
+topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 19%
 
 ---
 
-# Configuration du canal de notification push {#push-notification-configuration}
+# Configuration du canal de notifications push {#push-notification-configuration}
 
 [!DNL Journey Optimizer] vous permet de créer vos parcours et d’envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur l’application mobile, ainsi que dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. Pour comprendre le flux de données des notifications push dans Adobe Parcours optimizer, reportez-vous à [cette page](push-gs.md).
 
