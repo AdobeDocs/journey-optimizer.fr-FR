@@ -1,14 +1,14 @@
 ---
 keywords: Journey Optimizer;accueil;sujets les plus consultés
-title: Documentation du produit Journey Optimizer
+title: Documentation Journey Optimizer
 feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
 source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 81%
 
 * [Création de votre premier parcours](using/building-journeys/journeys-uc.md) </br> Découvrez comment créer et exécuter un parcours.
 
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Configurer les étapes clés de configuration de Journey Optimizer
+* [Configuration [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Découvrez les étapes clés de la configuration de Journey Optimizer.
 
-* [Accorder l’accès  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> à Découvrez comment définir et gérer les autorisations attribuées aux  [!DNL Journey Optimizer] utilisateurs
+* [Octroi du contrôle d&#39;accès [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Découvrez comment définir et gérer les autorisations attribuées aux utilisateurs de [!DNL Journey Optimizer].
 
-* [Gestion des décisions](using/offers/get-started/starting-offer-decisioning.md) </br> Créez des offres et proposez les meilleures offre et expérience à vos clients.
+* [Decision management](using/offers/get-started/starting-offer-decisioning.md) </br> Créez des offres et proposez les meilleures offres et expériences à vos clients.
 
 ## Ressources supplémentaires
 
