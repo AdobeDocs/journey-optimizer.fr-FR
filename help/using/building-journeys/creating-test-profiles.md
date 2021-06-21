@@ -5,9 +5,9 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: 26cecf08f2032c58458f69ff1f2779e3c2603d18
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1365'
 ht-degree: 41%
 
 ---
@@ -93,7 +93,7 @@ Les informations suivantes sont requises :
 2. **Fichier** CSV : Fichier séparé par des virgules contenant la liste des profils de test à créer. Le cas d’utilisation exige un format prédéfini pour le fichier CSV contenant la liste des profils de test à créer. Chaque ligne du fichier doit inclure les champs suivants dans l’ordre correct :
 
    1. **ID de personne** : Identifiant unique du profil de test. Les valeurs de ce champ doivent refléter l’espace de noms d’identité sélectionné. (Par exemple, si **Téléphone** est sélectionné pour l’espace de noms d’identité, les valeurs de ce champ doivent être des numéros de téléphone. De même, si **Email** est sélectionné, les valeurs de ce champ doivent être Emails.)
-   1. **Email** : Testez l’adresse électronique du profil. (Le champ **ID de personne** et le champ **Email** peuvent potentiellement contenir les mêmes valeurs si **Email** est sélectionné comme espace de noms d’identité)
+   1. **Email** : Testez l’adresse électronique du profil. (Le champ **ID de personne** et le champ **Adresse électronique** peuvent potentiellement contenir les mêmes valeurs si **Email** est sélectionné comme espace de noms d’identité.)
    1. **Prénom** : Tester le prénom du profil.
    1. **Nom** : Nom du profil de test.
    1. **Ville** : Test de la ville de résidence du profil
