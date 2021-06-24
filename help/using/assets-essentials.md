@@ -5,16 +5,16 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
+source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 2%
 
 ---
 
-# Utilisation [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
+# Utilisez [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
-## Prise en main d&#39;[!DNL Assets Essentials] {#get-started-assets-essentials}
+## Prise en main d&#39;[!DNL Assets Essentials]  {#get-started-assets-essentials}
 
 [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages. Il est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** . Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email. [En savoir plus sur la conception](design-emails.md) des emails.
 
@@ -24,7 +24,7 @@ Pour des procédures plus détaillées sur [!DNL Assets Essentials], consultez l
 
 Pour charger des fichiers dans la [!DNL Assets Essentials], vous devez d’abord parcourir ou créer le dossier dans lequel ils seront stockés. Vous pourrez alors les insérer dans le contenu de votre email.
 
-Pour plus d’informations sur le chargement de ressources, consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
+Pour plus d’informations sur le chargement de ressources, consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
 
 1. Sur la [!DNL Adobe Journey Optimizer] page d’accueil, sélectionnez l’onglet **[!UICONTROL Ressources]** sous le menu **[!UICONTROL Gestion de contenu]** pour accéder à [!DNL Assets Essentials].
 
