@@ -1,5 +1,5 @@
 ---
-title: Création de pools d’adresses IP
+title: Création de pools d'adresses IP
 description: '"Découvrez comment gérer les ip-pools"'
 page-status-flag: never-activated
 uuid: null
@@ -18,30 +18,30 @@ level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
 
-# Création de pools d’adresses IP
+# Création de pools d&#39;adresses IP
 
-## À propos des pools d’adresses IP
+## À propos des pools d&#39;adresses IP
 
-Avec Journey Optimizer, vous pouvez créer des pools d’adresses IP pour regrouper les adresses IP de vos sous-domaines.
+Avec Journey Optimizer, vous pouvez créer des pools d&#39;adresses IP pour regrouper les adresses IP de vos sous-domaines.
 
-La création de pools d’adresses IP est vivement recommandée pour la délivrabilité des emails. Ce faisant, vous pouvez empêcher la réputation d’un sous-domaine d’avoir un impact sur vos autres sous-domaines.
+La création de pools d&#39;adresses IP est vivement recommandée pour la délivrabilité des e-mails. Ce faisant, vous pouvez empêcher la réputation d&#39;un sous-domaine d&#39;avoir un impact sur vos autres sous-domaines.
 
-Par exemple, il est recommandé d’avoir un pool d’adresses IP pour vos messages marketing, et un autre pour vos messages transactionnels. De cette manière, si l’un de vos messages marketing fonctionne mal et est déclaré comme indésirable par un client, cela n’affecte pas les messages transactionnels envoyés à ce même client, qui recevra toujours des messages transactionnels (confirmations d’achat, messages de récupération de mot de passe, etc.).
+Par exemple, il est recommandé d&#39;avoir un pool d&#39;adresses IP pour vos messages marketing, et un autre pour vos messages transactionnels. De cette manière, si les performances de l&#39;un de vos messages marketing sont mauvaises et s&#39;il est déclaré comme indésirable par un client, cela n&#39;affecte pas les messages transactionnels envoyés à ce même client, qui recevra toujours des messages transactionnels (confirmations d’achat, messages de récupération de mot de passe, etc.).
 
-## Création d’un pool d’adresses IP
+## Création d&#39;un pool d&#39;adresses IP
 
-Pour créer un pool d’adresses IP, procédez comme suit :
+Pour créer un pool d&#39;adresses IP, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** / **[!UICONTROL Pools d’adresses IP]**, puis cliquez sur **[!UICONTROL Créer un pool d’adresses IP]**.
+1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Pools d&#39;adresses IP]**, puis cliquez sur **[!UICONTROL Créer un pool d&#39;adresses IP]**.
 
    ![](../assets/ip-pool-create.png)
 
-1. Attribuez un nom et une description (facultatif) au pool d’adresses IP.
+1. Attribuez un nom et une description (facultatif) au pool d&#39;adresses IP.
 
    >[!NOTE]
    >
@@ -55,12 +55,12 @@ Pour créer un pool d’adresses IP, procédez comme suit :
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-Le pool d’adresses IP est maintenant créé et s’affiche dans la liste. Vous pouvez la sélectionner pour accéder à ses propriétés et afficher le paramètre de message prédéfini associé. Pour plus d&#39;informations sur l&#39;association d&#39;un paramètre prédéfini de message à un pool d&#39;adresses IP, consultez [cette section](message-presets.md)).
+Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher le préréglage de message associé. Pour plus d&#39;informations sur l&#39;association d&#39;un préréglage de message à un pool d&#39;adresses IP, consultez [cette section](message-presets.md).
 
 ![](../assets/ip-pool-created.png)
 
-Pour modifier un pool d’adresses IP, ouvrez-le, puis modifiez ses propriétés selon vos besoins.
+Pour modifier un pool d&#39;adresses IP, ouvrez-le, puis modifiez ses propriétés selon vos besoins.
 
 >[!NOTE]
 >
->Si un paramètre prédéfini de message a été associé au pool d’adresses IP, vous devez d’abord le supprimer avant de modifier le pool d’adresses IP. Une fois vos modifications effectuées, vous pouvez associer à nouveau le paramètre de message prédéfini.
+>Si un préréglage de message a été associé au pool d&#39;adresses IP, vous devez d&#39;abord le supprimer avant de modifier le pool d&#39;adresses IP. Une fois vos modifications effectuées, vous pouvez associer à nouveau le préréglage de message.
