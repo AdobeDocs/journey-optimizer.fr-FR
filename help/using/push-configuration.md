@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 19%
+ht-degree: 23%
 
 ---
 
@@ -48,13 +48,13 @@ Pour attribuer des droits **Propriété** et **Société**, procédez comme suit
 
 1. Accédez à **[!DNL Admin Console]**.
 
-1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
+1. Dans l&#39;onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
 
    ![](assets/push_product_1.png)
 
 1. Sélectionnez un **[!UICONTROL Profil de produit]** existant ou créez-en un en cliquant sur le bouton **[!UICONTROL Nouveau profil]**. Découvrez comment créer un **[!UICONTROL nouveau profil]** dans la [documentation de la console d’administration](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=fr#ui).
 
-1. Dans l’onglet **[!UICONTROL Autorisations]**, sélectionnez **[!UICONTROL Droits de propriété]**.
+1. Dans l&#39;onglet **[!UICONTROL Autorisations]**, sélectionnez **[!UICONTROL Droits de propriété]**.
 
    ![](assets/push_product_2.png)
 
@@ -67,13 +67,13 @@ Pour attribuer des droits **Propriété** et **Société**, procédez comme suit
 
    Ces autorisations sont requises pour installer et publier l’extension Adobe Journey Optimizer et publier la propriété de l’application dans le SDK Adobe Experience Platform Mobile.
 
-1. Sélectionnez ensuite **[!UICONTROL Droits d’entreprise]** dans le menu de gauche.
+1. Sélectionnez ensuite **[!UICONTROL Droits d&#39;entreprise]** dans le menu de gauche.
 
    ![](assets/push_product_4.png)
 
 1. Ajoutez les droits suivants :
 
-   * **[!UICONTROL Gérer les configurations d’application]**
+   * **[!UICONTROL Gérer les configurations d&#39;application]**
    * **[!UICONTROL Gérer les propriétés]**
 
    Ces autorisations sont requises pour que le développeur de l’application mobile configure les informations d’identification push dans **Adobe Experience Launch** et définissent les paramètres prédéfinis de notification push dans **Adobe Journey Optimizer**.
@@ -86,19 +86,19 @@ Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez
 
 1. Accédez à **[!DNL Admin Console]**.
 
-1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
+1. Dans l&#39;onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
 
 1. Sélectionnez votre **[!UICONTROL Profil de produit]** précédemment configuré.
 
-1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
+1. Dans l&#39;onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
 
    ![](assets/push_product_6.png)
 
-1. Saisissez le nom ou l’adresse email de votre utilisateur et sélectionnez-le. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
+1. Saisissez le nom ou l&#39;adresse email de votre utilisateur et sélectionnez-le. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
    >[!NOTE]
    >
-   >Si l’utilisateur n’a pas été créé auparavant dans Admin Console, consultez la [documentation relative à l’ajout d’utilisateurs](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Si l&#39;utilisateur n&#39;a pas été créé auparavant dans Admin Console, consultez la [documentation relative à l&#39;ajout d&#39;utilisateurs](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -120,7 +120,7 @@ D’ici la fin de cette période, vous aurez également créé et configuré une
 
 ## Étape 1 : Ajout des informations d’identification push de votre application dans Adobe Experience Platform Launch {#push-credentials-launch}
 
-Après avoir accordé les autorisations utilisateur appropriées, vous devez maintenant ajouter les informations d’identification push de votre application mobile dans [!DNL Adobe Experience Platform Launch].
+Après avoir accordé les autorisations utilisateur appropriées, vous devez maintenant ajouter les informations d&#39;identification push de votre application mobile dans [!DNL Adobe Experience Platform Launch].
 
 L’enregistrement des informations d’identification push de l’application mobile est nécessaire pour autoriser Adobe à envoyer des notifications push en votre nom. Reportez-vous aux étapes détaillées ci-dessous :
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Étape 3 : Testez votre application mobile avec un événement {#mobile-app-test}
+## Étape 3 : Test de votre application mobile avec un événement {#mobile-app-test}
 
 Après avoir configuré votre application mobile dans Adobe Experience Platform et Adobe Launch, vous pouvez désormais la tester avant d’envoyer des notifications push à vos profils. Dans ce cas pratique, nous allons créer un parcours pour cibler notre application mobile et définir un événement qui déclenchera la notification push.
 
@@ -291,7 +291,7 @@ Vous devez ensuite configurer un événement.
 
 1. Saisissez le nom de votre événement. Vous pouvez également ajouter une description.
 
-1. Dans le champ **[!UICONTROL Type d’identifiant d’événement]**, sélectionnez **[!UICONTROL Basé sur des règles]**.
+1. Dans le champ **[!UICONTROL Type d&#39;identifiant d&#39;événement]**, sélectionnez **[!UICONTROL Basé sur des règles]**.
 
 1. Dans la section **[!UICONTROL Paramètres]**, sélectionnez le schéma créé précédemment.
 
@@ -319,7 +319,7 @@ Votre événement est maintenant créé et peut maintenant être utilisé dans u
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
 
-1. Modifiez les propriétés du parcours dans le volet de configuration affiché dans la partie droite de l’écran. En savoir plus dans cette [section](building-journeys/journey-gs.md#change-properties).
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](building-journeys/journey-gs.md#change-properties).
 
 1. Commencez par faire glisser l’événement créé lors des étapes précédentes à partir de la liste déroulante **[!UICONTROL Événements]**.
 
@@ -343,11 +343,11 @@ Votre événement est maintenant créé et peut maintenant être utilisé dans u
 
 Votre événement sera déclenché et vous recevrez votre notification push vers votre application mobile.
 
-## Étape 4 : Créer un paramètre de message prédéfini pour push{#message-preset}
+## Étape 4 : Création d’un paramètre prédéfini de message pour push{#message-preset}
 
-Une fois votre application mobile configurée dans [!DNL Adobe Experience Platform Launch], vous devez créer un paramètre prédéfini de message afin de pouvoir envoyer des notifications push depuis **[!DNL Journey Optimizer]**.
+Une fois votre application mobile configurée dans [!DNL Adobe Experience Platform Launch], vous devez créer un préréglage de message afin de pouvoir envoyer des notifications push depuis **[!DNL Journey Optimizer]**.
 
-Découvrez comment créer et configurer un paramètre de message prédéfini dans [cette section](configuration/message-presets.md).
+Découvrez comment créer et configurer un préréglage de message dans [cette section](configuration/message-presets.md).
 
 Vous êtes maintenant prêt à envoyer des notifications push avec Journey Optimizer.
 
