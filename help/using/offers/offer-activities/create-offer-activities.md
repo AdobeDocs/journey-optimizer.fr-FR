@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -85,7 +85,7 @@ Vous pouvez également enregistrer la décision en tant que version préliminair
 
 ![](../../assets/save-activities.png)
 
-La décision s&#39;affiche dans la liste avec l&#39;état **[!UICONTROL Actif]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez activée ou non à l&#39;étape précédente.
+La décision s’affiche dans la liste avec le statut **[!UICONTROL Live]** ou **[!UICONTROL Version préliminaire]**, selon que vous l’avez activée ou non à l’étape précédente.
 
 Elle est maintenant prête à être utilisée pour diffuser des offres vers les clients. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
