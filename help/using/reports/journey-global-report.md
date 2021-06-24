@@ -5,14 +5,14 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 90%
+source-wordcount: '1093'
+ht-degree: 88%
 
 ---
 
-# Rapport global parcours {#journey-global-report}
+# Rapport global sur les parcours {#journey-global-report}
 
 Vous pouvez accéder directement au rapport global de parcours à partir de votre parcours à l&#39;aide du bouton **[!UICONTROL Rapport global]**.
 
@@ -32,9 +32,9 @@ Le rapport **[!UICONTROL global]** de parcours est divisé en différents widget
 
 ![](../assets/global_report_2.png)
 
-Le widget **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement de vos profils ciblés pas à pas tout au long du parcours.
+Le widget **[!UICONTROL Performances des Parcours]** vous permet de voir le chemin d’accès de vos profils ciblés pas à pas dans votre parcours.
 
-Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
+Le widget **[!UICONTROL Statistiques de Parcours]** affiche les IPC suivants :
 
 * **[!UICONTROL Profils entrés]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 
