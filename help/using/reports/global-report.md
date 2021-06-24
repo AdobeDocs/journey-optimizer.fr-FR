@@ -1,14 +1,14 @@
 ---
 title: Rapport global
 description: Découvrez comment utiliser les données du rapport global
-feature: Création de rapports
+feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
-> Si des requêtes personnalisées sont effectuées par le biais d’API lors de l’utilisation du service Query, attendez-vous à un certain délai pour vos rapports.
+> Si des requêtes personnalisées sont effectuées par le biais d&#39;API lors de l&#39;utilisation du service Query, attendez-vous à une certaine attente pour vos rapports.
 
 Utilisez le **[!UICONTROL rapport global]** pour mesurer l’impact de vos parcours et diffusions sur une période sélectionnée.
 
@@ -26,7 +26,7 @@ Utilisez le **[!UICONTROL rapport global]** pour mesurer l’impact de vos parco
 
 ## Personnalisation du tableau de bord {#modify-dashboard}
 
-Chaque tableau de bord de rapports peut être modifié en redimensionnant ou en supprimant des widgets ou en modifiant la période ciblée. La modification des widgets n’a un impact que sur le tableau de bord de l’utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
+Chaque tableau de bord de rapports peut être modifié en redimensionnant ou en supprimant des widgets ou en modifiant la période ciblée. La modification des widgets n&#39;a un impact que sur le tableau de bord de l&#39;utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
 
 1. Dans votre tableau de bord **[!UICONTROL Rapport global]**, cliquez sur le bouton du planificateur.
 
@@ -42,10 +42,10 @@ Chaque tableau de bord de rapports peut être modifié en redimensionnant ou en 
 
    ![](../assets/global_report_9.png)
 
-1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d&#39;autres widgets dont vous n’avez pas besoin pour suivre les bounces.
+1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d&#39;autres widgets dont vous n&#39;avez pas besoin pour suivre les bounces.
 
    ![](../assets/global_report_10.png)
 
-1. Une fois satisfait de l’ordre d’affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 
 Votre tableau de bord est maintenant enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports globaux. Si nécessaire, utilisez l&#39;option **[!UICONTROL Réinitialiser]** pour restaurer les widgets par défaut et l&#39;ordre des widgets.
