@@ -1,6 +1,6 @@
 ---
 title: Création de préréglages de message
-description: Découvrez comment configurer et surveiller les paramètres prédéfinis de message
+description: Découvrez comment configurer et surveiller les préréglages de message
 feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
@@ -8,30 +8,30 @@ level: Intermediate
 source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 1%
+ht-degree: 75%
 
 ---
 
 
 # Création de préréglages de message
 
-Avec [!DNL Journey Optimizer], vous pouvez configurer des paramètres prédéfinis de message qui définissent tous les paramètres techniques requis pour les messages de notification électronique et push : type de courrier électronique, nom et adresse électronique de l’expéditeur, applications mobiles, etc.
+Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de message qui définissent tous les paramètres techniques requis pour les messages de notification par e-mail et push : type d&#39;e-mail, nom et adresse e-mail de l&#39;expéditeur, applications mobiles, etc.
 
 >[!CAUTION]
 >
-> * La configuration des paramètres de message prédéfinis est limitée aux administrateurs de Parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
+> * La configuration des préréglages de message est limitée aux administrateurs de parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
    >
    > 
 * Vous devez effectuer les étapes de configuration Email et Push avant de créer des paramètres prédéfinis de message.
 
 
-Une fois les paramètres prédéfinis de message configurés, vous pouvez les sélectionner lors de la création de messages à partir de la liste **[!UICONTROL Paramètres prédéfinis]**.
+Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Paramètres prédéfinis]** lors de la création de messages.
 
-## Créer un paramètre prédéfini de message {#create-message-preset}
+## Création d&#39;un préréglage de message {#create-message-preset}
 
-Pour créer un paramètre prédéfini de message, procédez comme suit :
+Pour créer un préréglage de message, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** / **[!UICONTROL Paramètres de message prédéfinis]**, puis cliquez sur **[!UICONTROL Créer un paramètre de message prédéfini]**.
+1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Préréglages de message]**, puis cliquez sur **[!UICONTROL Créer un préréglage de message]**.
 
    ![](../assets/preset-create.png)
 
@@ -41,21 +41,21 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
    >[!NOTE]
    >
-   > Les noms doivent commencer par une lettre (A-Z). Elle ne peut contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d’union `-`.
+   > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Configurez les paramètres **email**.
+1. Configurez les paramètres d&#39;**e-mail**.
 
    ![](../assets/preset-email.png)
 
-   * Sélectionnez le type de message qui sera envoyé avec le paramètre prédéfini : **Transactionnel** ou **Marketing**
+   * Sélectionnez le type de message qui sera envoyé avec le paramètre prédéfini : **Transactionnel** ou **Marketing**.
 
       >[!CAUTION]
       >
-      > **** Les messages transactionnels peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques, tels que la réinitialisation du mot de passe, l’état de la commande, la notification de diffusion, par exemple.
+      > Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques, tels que la réinitialisation du mot de passe, le statut de la commande, la notification de diffusion, par exemple.
 
-   * Sélectionnez le sous-domaine à utiliser pour envoyer les emails. [En savoir plus](about-subdomain-delegation.md)
-   * Sélectionnez le pool d’adresses IP à associer au paramètre prédéfini. [En savoir plus](ip-pools.md)
-   * Renseignez les paramètres d&#39;en-tête des emails envoyés à l&#39;aide du paramètre prédéfini.
+   * Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
+   * Sélectionnez le pool d&#39;adresses IP à associer au paramètre prédéfini. [En savoir plus](ip-pools.md)
+   * Renseignez les paramètres d&#39;en-tête des e-mails envoyés à l&#39;aide du paramètre prédéfini.
 
       >[!CAUTION]
       >
@@ -77,74 +77,74 @@ Pour créer un paramètre prédéfini de message, procédez comme suit :
 
       >[!NOTE]
       >
-      >Les noms doivent commencer par une lettre (A-Z). Elle ne peut contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d’union `-`.
+      >Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
 
-1. Configurez les paramètres **notification push**.
+1. Configurez les paramètres de **notification push**.
 
    ![](../assets/preset-push.png)
 
-   * Sélectionnez au moins une plateforme : **iOS** et/ou **Android**
+   * Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
 
    * Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
 
       Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../push-gs.md).
 
-1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le paramètre prédéfini de message en tant que brouillon et reprendre sa configuration ultérieurement.
+1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que version préliminaire et reprendre sa configuration ultérieurement.
 
    ![](../assets/preset-submit.png)
 
-1. Une fois le paramètre prédéfini de message créé, il s’affiche dans la liste avec l’état **[!UICONTROL Traitement]**.
+1. Une fois le préréglage de message créé, il s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
 
-   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’il a été correctement configuré. Le temps de traitement est d’environ **48h-72h** et peut prendre jusqu’à **7-10 jours**.
+   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu&#39;il a été correctement configuré. Le temps de traitement est d&#39;environ **48 h-72 h** et peut prendre jusqu&#39;à **7-10 jours**.
 
-   Ces contrôles incluent les tests de délivrabilité effectués par l’équipe de délivrabilité d’Adobe :
+   Ces contrôles incluent les tests de délivrabilité effectués par l&#39;équipe chargée de la délivrabilité d&#39;Adobe :
 
    * Validation SPF
    * Validation DKIM
    * Validation des enregistrements MX
-   * Vérifier l’liste bloquée des adresses IP
-   * Vérification de l’hôte Helo
-   * Vérification du pool d’adresses IP
+   * Vérification de la liste bloquée des adresses IP
+   * Vérification de l&#39;hôte Helo
+   * Vérification du pool d&#39;adresses IP
    * Enregistrement A/PTR, vérification du sous-domaine t/m/res
 
-1. Une fois les vérifications effectuées, le paramètre prédéfini du message obtient le statut **[!UICONTROL Principal]**. Il est prêt à être utilisé pour diffuser des messages.
+1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## Surveillance des paramètres prédéfinis de message
+## Surveillance des préréglages de message
 
-Tous vos paramètres prédéfinis de message s’affichent dans le menu **[!UICONTROL Canaux]** / **[!UICONTROL Paramètres prédéfinis de message]** . Des filtres sont disponibles pour vous aider à parcourir la liste (type de canal, utilisateur, statut).
+Tous vos préréglages de message s&#39;affichent dans le menu **[!UICONTROL Canaux]**/**[!UICONTROL Préréglages de message]**. Des filtres sont disponibles pour vous aider à parcourir la liste (type de canal, utilisateur, statut).
 
 ![](../assets/preset-filters.png)
 
-Les paramètres de message prédéfinis peuvent avoir les états suivants :
+Les préréglages de message peuvent avoir les statuts suivants :
 
-* **[!UICONTROL Version préliminaire]** : Le paramètre prédéfini du message a été enregistré en tant que brouillon et n’a pas encore été envoyé. Ouvrez-le pour reprendre la configuration.
-* **[!UICONTROL Traitement]** : Le paramètre prédéfini du message a été envoyé et passe par plusieurs étapes de vérification.
-* **[!UICONTROL Principal]** : Le paramètre prédéfini du message a été vérifié et peut être sélectionné pour créer des messages.
-* **[!UICONTROL Échec]** : Une ou plusieurs vérifications ont échoué lors de la vérification du paramètre prédéfini du message.
-* **[!UICONTROL Désactivé]** : Le paramètre prédéfini du message est désactivé. Il ne peut pas être utilisé pour créer de nouveaux messages.
+* **[!UICONTROL Version préliminaire]** : le préréglage de message a été enregistré en tant que version préliminaire et n&#39;a pas encore été envoyé. Ouvrez-le pour reprendre la configuration.
+* **[!UICONTROL Traitement]** : le préréglage de message a été envoyé et passe par plusieurs étapes de vérification.
+* **[!UICONTROL Actif]** : le préréglage de message a été vérifié et peut être sélectionné pour créer des messages.
+* **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification du préréglage de message.
+* **[!UICONTROL Désactivé]** : le préréglage de message est désactivé. Il ne peut pas être utilisé pour créer de nouveaux messages.
 
-## Modifier les paramètres prédéfinis de message
+## Modifier les préréglages de message
 
-Pour modifier un paramètre prédéfini de message, vous devez d’abord le désactiver afin de le rendre indisponible pour créer de nouveaux messages (les messages publiés utilisant ce paramètre prédéfini ne seront pas affectés et continueront à fonctionner). Vous devez ensuite dupliquer le paramètre prédéfini de message pour créer une version que vous utiliserez pour créer de nouveaux messages :
+Pour modifier un préréglage de message, vous devez d&#39;abord le désactiver afin de le rendre indisponible pour créer de nouveaux messages (les messages publiés l&#39;utilisant ne seront pas affectés et continueront à fonctionner). Vous devez ensuite dupliquer le préréglage de message pour créer une version que vous utiliserez pour créer de nouveaux messages :
 
-1. Accédez à la liste des paramètres prédéfinis de message, puis désactivez le paramètre prédéfini de message que vous souhaitez modifier.
+1. Accédez à la liste des préréglages de message, puis désactivez le préréglage de message que vous souhaitez modifier.
 
    ![](../assets/preset-deactivate.png)
 
-1. Dupliquez le paramètre prédéfini de message désactivé. Une copie avec le statut **[!UICONTROL Brouillon]** est automatiquement ajoutée à la liste.
+1. Dupliquez le préréglage de message désactivé. Une copie avec le statut **[!UICONTROL Version préliminaire]** est automatiquement ajoutée à la liste.
 
    ![](../assets/preset-duplicated.png)
 
-1. Ouvrez le paramètre prédéfini de message dupliqué, modifiez-le selon vos besoins, puis soumettez vos modifications. Le paramètre prédéfini de message passe par le même cycle de validation que lors de l’[étape de création](#create-message-preset).
+1. Ouvrez le préréglage de message dupliqué, modifiez-le selon vos besoins, puis soumettez vos modifications. Le préréglage de message passe par le même cycle de validation que lors de l&#39;[étape de création](#create-message-preset).
 
-1. Une fois validé, il obtient le statut **[!UICONTROL Principal]** et est prêt à être utilisé pour créer de nouveaux messages.
+1. Une fois validé, il obtient le statut **[!UICONTROL Actif]** et est prêt à être utilisé pour créer de nouveaux messages.
 
    >[!NOTE]
    >
-   >Les paramètres prédéfinis de message désactivés ne peuvent pas être supprimés pour éviter tout problème dans les parcours utilisant ces paramètres prédéfinis pour envoyer des messages.
+   >Les préréglages de message désactivés ne peuvent pas être supprimés afin d&#39;éviter tout problème dans les parcours les utilisant pour envoyer des messages.
 
