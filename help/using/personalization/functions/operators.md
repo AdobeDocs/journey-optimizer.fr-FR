@@ -8,15 +8,15 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 60%
+ht-degree: 89%
 
 ---
 
 # Opérateurs {#operators}
 
-## Fonctions booléennes
+## Fonctions booléennes 
 
-Fonctions booléennes sont utilisés pour exécuter une logique booléenne sur différents éléments.
+Les fonctions booléennes sont utilisées pour exécuter une logique booléenne sur différents éléments.
 
 ### And{#and}
 
@@ -30,7 +30,7 @@ La fonction `and` sert à créer une conjonction logique.
 
 **Exemple**
 
-L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France et année de naissance 1985.
+L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France et pour année de naissance 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -48,7 +48,7 @@ La fonction `or` est utilisée pour créer une disjonction logique.
 
 **Exemple**
 
-L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France ou année de naissance 1985.
+L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France ou pour année de naissance 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -79,9 +79,9 @@ not (homeAddress.countryISO = "CA")
 
 
 
-## Fonctions de comparaison
+## Fonctions de comparaison 
 
-Fonctions de comparaison sont utilisées pour comparer différentes expressions et valeurs, renvoyant true ou false en conséquence.
+Les fonctions de comparaison sont utilisées pour comparer différentes expressions et valeurs, renvoyant true ou false en conséquence.
 
 ### Est égal à{#equals}
 
@@ -103,7 +103,7 @@ L&#39;opération suivante vérifie si le pays de l&#39;adresse du domicile est l
 
 ### Différent de{#notequal}
 
-La fonction `!=` (différent de) vérifie si une valeur ou expression est **différente** d’une autre valeur ou expression.
+La fonction `!=` (différent de) vérifie si une valeur ou expression est **différente** d&#39;une autre valeur ou expression.
 
 **Format**
 
