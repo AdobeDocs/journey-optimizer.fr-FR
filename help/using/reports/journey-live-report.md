@@ -5,10 +5,10 @@ feature: Création de rapports
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 91%
+source-wordcount: '818'
+ht-degree: 88%
 
 ---
 
@@ -32,9 +32,9 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UIC
 
 ![](../assets/report_journey_2.png)
 
-Les **[!UICONTROL Performances du parcours]** vous permettent de voir le cheminement détaillé de vos profils ciblés tout au long du parcours.
+**[!UICONTROL Les]** performances des parcours vous permettent de voir le chemin d’accès de vos profils ciblés pas à pas dans votre parcours.
 
-Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
+Le widget **[!UICONTROL Statistiques de Parcours]** affiche les IPC suivants :
 
 * **[!UICONTROL Profils entrés]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 
@@ -54,7 +54,7 @@ Les widgets **[!UICONTROL Action exécutée au cours des 24 dernières heures]*
 
 * **[!UICONTROL Erreurs lors de l’action]** : nombre total d’erreurs qui se sont produites pour les actions.
 
-## Onglet Email {#email-live}
+## Onglet E-mail {#email-live}
 
 Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UICONTROL Email]** présente les principales informations relatives aux diffusions email envoyées dans votre parcours.
 
