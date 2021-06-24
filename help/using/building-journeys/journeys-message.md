@@ -1,6 +1,6 @@
 ---
-title: Ajout d’un message dans un parcours
-description: Ajout d’un message dans un parcours
+title: Ajout d'un message dans un parcours
+description: Ajout d'un message dans un parcours
 feature: Parcours
 topic: Gestion de contenu
 role: User
@@ -12,9 +12,9 @@ ht-degree: 66%
 
 ---
 
-# Ajout d’un message dans un parcours
+# Ajout d&#39;un message dans un parcours
 
-[!DNL Journey Optimizer]Les fonctionnalités de message sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou e-mail conçu à l&#39;aide de Journey Optimizer.
+Les fonctionnalités de message [!DNL Journey Optimizer] sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou e-mail conçu à l&#39;aide de Journey Optimizer.
 
 Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md).
 
@@ -32,7 +32,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
    ![](../assets/jo-message2.png)
 
-1. Cliquez dans le champ **Message**. La liste des messages disponibles conçus dans Journey Optimizer s’affiche. Vous pouvez filtrer la liste par état.
+1. Cliquez dans le champ **Message**. La liste des messages disponibles conçus dans Journey Optimizer s&#39;affiche. Vous pouvez filtrer la liste par état.
 
    ![](../assets/jo-message3.png)
 
@@ -40,7 +40,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
    ![](../assets/jo-message4-ter.png)
 
-   Si vous souhaitez vérifier votre message, vous pouvez cliquer sur l&#39;icône **Ouvrir le message** dans le champ **Message**. Le message s’ouvre dans un nouvel onglet.
+   Si vous souhaitez vérifier votre message, vous pouvez cliquer sur l&#39;icône **Ouvrir le message** dans le champ **Message**. Le message s&#39;ouvre dans un nouvel onglet.
 
    ![](../assets/jo-message4-bis.png)
 
