@@ -1,6 +1,6 @@
 ---
-title: Paramètres Journey Optimizer et instructions de configuration
-description: Découvrez les instructions relatives à la configuration des messages et des parcours
+title: Paramètres et instructions de configuration relatifs à Journey Optimizer
+description: Découvrez les instructions de configuration relatives aux messages et aux parcours
 audience: administrators
 content-type: reference
 role: Administrator
@@ -13,45 +13,45 @@ topic: Administration
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main de la configuration [!DNL Journey Optimizer]
+# Prise en main de la configuration de [!DNL Journey Optimizer]
 
-Lors de l’accès à [!DNL Journey Optimizer] pour la première fois, vous recevez un environnement de test de production et un certain nombre d’adresses IP vous sont attribués en fonction de votre contrat.
+Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous recevez un environnement Sandbox de production et un certain nombre d&#39;adresses IP vous sont attribuées en fonction de votre contrat.
 
-Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les étapes de configuration suivantes :
+Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les étapes de configuration suivantes :
 
-1. **Configuration des messages et des canaux** : définir des paramètres prédéfinis, adapter et personnaliser les emails et les messages push ;
+1. **Configuration des messages et des canaux** : définir des paramètres prédéfinis, adapter et personnaliser les e-mails et les messages push
 
    * Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push-gs.md)
 
-   * Créez des paramètres prédéfinis de message pour configurer tous les paramètres techniques requis pour les messages de notification push et par email. [En savoir plus](message-presets.md)
+   * Créez des paramètres prédéfinis de message pour configurer tous les paramètres techniques requis pour les messages de notification push et par e-mail. [En savoir plus](message-presets.md)
 
-   * Déterminez l’adresse électronique à utiliser en priorité pour vos destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
+   * Déterminez l&#39;adresse électronique à utiliser en priorité pour vos destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
 
-   * Gérez le nombre de jours pendant lesquels des reprises sont effectuées avant d’envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
+   * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 
    <!--
     * Understand push notification flow. [Learn more](../push-gs.md)
     -->
 
-1. **Déléguer des sous-domaines** : pour tout nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](about-subdomain-delegation.md)
+1. **Déléguer des sous-domaines** : pour un nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **Créer des pools** d’adresses IP : améliorez la délivrabilité et la réputation de vos emails en regroupant les adresses IP configurées avec votre instance. [En savoir plus](ip-pools.md)
+1. **Créer des pools d&#39;adresses IP** : améliorez la délivrabilité et la réputation de vos e-mails en regroupant les adresses IP configurées avec votre instance. [En savoir plus](ip-pools.md)
 
    ![](../assets/ip-pool.png)
 
-1. **Configuration de parcours** : pour créer des parcours, vous devez configurer les  **[!UICONTROL sources de données]**, les  **** événements et les  **[!UICONTROL actions]**. [En savoir plus](about-data-sources-events-actions.md)
+1. **Configurer des parcours** : pour créer des parcours, vous devez configurer les **[!UICONTROL sources de données]**, les **[!UICONTROL événements]** et les **[!UICONTROL actions]**. [En savoir plus](about-data-sources-events-actions.md)
 
    ![](../assets/admin-menu.png)
 
-   * La configuration **Source de données** vous permet de définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées dans vos parcours. En savoir plus sur les sources de données dans [cette section](../datasource/about-data-sources.md).
+   * La configuration des **sources de données** vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. En savoir plus sur les sources de données dans [cette section](../datasource/about-data-sources.md).
 
-   * **Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l’individu progressant dans le parcours.** Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). En savoir plus sur les événements dans [cette section](../event/about-events.md).
+   * **Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.** Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d&#39;ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). En savoir plus sur les événements dans [cette section](../event/about-events.md).
 
-   * [!DNL Journey Optimizer] est fourni avec les fonctionnalités de message intégrées : vous pouvez concevoir votre contenu et publier votre message. Si vous utilisez un système tiers pour envoyer vos messages, créez une **action personnalisée**. En savoir plus sur les actions dans [cette section](../action/action.md).
+   * [!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées : vous pouvez concevoir votre contenu et publier votre message. Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une **action personnalisée**. En savoir plus sur les actions dans [cette section](../action/action.md).
