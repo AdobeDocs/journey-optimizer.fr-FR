@@ -1,44 +1,44 @@
 ---
 title: Rapport global d'email
 description: Découvrez comment utiliser les données du rapport global d'email
-feature: Création de rapports
+feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
-# Envoyer le rapport global par courriel {#email-global-report}
+# Rapport global sur les e-mails {#email-global-report}
 
-Le **[!UICONTROL rapport global d&#39;email]** ne cible qu’une diffusion par email spécifique.
+Le **[!UICONTROL rapport global d&#39;email]** ne cible qu&#39;une diffusion par email spécifique.
 
 À partir de l&#39;onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, sélectionnez **[!UICONTROL Vue globale]**, puis, dans le menu avancé de la diffusion sélectionnée, sélectionnez **[!UICONTROL Rapport global]**.
 
 ![](../assets/global_report_3.png)
 
-Le **[!UICONTROL rapport global]** d&#39;email est divisé en différents widgets détaillant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d’informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
+Le **[!UICONTROL rapport global]** d&#39;email est divisé en différents widgets détaillant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
 
 ![](../assets/global_report_4.png)
 
 **[!UICONTROL Performances des emails]** présente les principales informations relatives à votre message avec les KPI :
 
-* **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
 * **[!UICONTROL Taux de diffusion]** : pourcentage de messages envoyés avec succès.
 
-* **[!UICONTROL Taux de bounce]** : pourcentage d&#39;emails ayant fait l’objet d’un bounce par rapport aux emails envoyés.
+* **[!UICONTROL Taux de bounce]** : pourcentage d&#39;emails ayant fait l&#39;objet d&#39;un bounce par rapport aux emails envoyés.
 
-* **[!UICONTROL Taux d’erreurs]** : pourcentage d’erreurs survenues au cours d’une diffusion, l&#39;empêchant d’être envoyée, par rapport aux emails envoyés.
+* **[!UICONTROL Taux d&#39;erreurs]** : pourcentage d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée, par rapport aux emails envoyés.
 
-* **[!UICONTROL Taux d’ouvertures]** : pourcentage de messages ouverts.
+* **[!UICONTROL Taux d&#39;ouvertures]** : pourcentage de messages ouverts.
 
 * **[!UICONTROL Taux de clics]** : pourcentage de clics dans une diffusion.
 
-* **[!UICONTROL Taux de plaintes de courrier indésirable]** : pourcentage d&#39;emails marqués comme étant indésirables par les destinataires par rapport aux messages envoyés. Pour plus d’informations sur les plaintes, consultez cette [page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability).
+* **[!UICONTROL Taux de plaintes de courrier indésirable]** : pourcentage d&#39;emails marqués comme étant indésirables par les destinataires par rapport aux messages envoyés. Pour plus d&#39;informations sur les plaintes, consultez cette [page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability).
 
 * **[!UICONTROL Taux de désabonnement]** : Pourcentage de désabonnements uniques par rapport au nombre de messages délivrés. Cet indicateur ne dépend pas du nombre de clics effectués sur le lien de désinscription, mais du nombre de désinscriptions initialisés par les destinataires. Pour en savoir plus sur les désabonnements, consultez cette [page](../consent.md).
 
@@ -48,7 +48,7 @@ Le **[!UICONTROL rapport global]** d&#39;email est divisé en différents widget
 
 * **[!UICONTROL Ouvertures uniques]** : pourcentage de diffusions ouvertes.
 
-* **[!UICONTROL Taux d’ouvertures]** : nombre total de messages ouverts par rapport au nombre de messages diffusés.
+* **[!UICONTROL Taux d&#39;ouvertures]** : nombre total de messages ouverts par rapport au nombre de messages diffusés.
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l&#39;objet d&#39;un clic dans un e-mail.
 
@@ -60,21 +60,21 @@ Le graphique **[!UICONTROL Statistiques d’envoi]** présente le succès de vot
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounces]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
 ![](../assets/global_report_5.png)
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
-* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Un message d’erreur indique explicitement que l’adresse n’est pas valide, comme Utilisateur inconnu.
+* **[!UICONTROL Hard bounce]** : nombre total d&#39;erreurs permanentes, telles qu&#39;une adresse email incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
-* **[!UICONTROL Soft bounce]** : nombre total d’erreurs temporaires, par exemple une boîte de réception pleine.
+* **[!UICONTROL Soft bounce]** : nombre total d&#39;erreurs temporaires, par exemple une boîte de réception pleine.
 
-* **[!UICONTROL Ignorés]** : nombre total d&#39;erreurs temporaires, telles que Absence du bureau, ou une erreur technique, par exemple si le type d’expéditeur est Postmaster.
+* **[!UICONTROL Ignorés]** : nombre total d&#39;erreurs temporaires, telles que Absence du bureau, ou une erreur technique, par exemple si le type d&#39;expéditeur est Postmaster.
 
-Pour plus d&#39;informations sur les rebonds, consultez la page [Liste de suppression](../suppression-list.md) .
+Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppression](../suppression-list.md).
 
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
 
