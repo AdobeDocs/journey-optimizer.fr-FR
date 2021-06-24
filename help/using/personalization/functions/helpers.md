@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 60%
 ## Conditions{#if-function}
 
 L&#39;assistant `if` est utilisé pour définir un bloc conditionnel.
-Si l’évaluation de l’expression renvoie true, le bloc est rendu, sinon il est ignoré.
+Si l&#39;évaluation de l&#39;expression renvoie true, le bloc est rendu, sinon il est ignoré.
 
 **Syntaxe**
 
@@ -46,7 +46,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 **Exemples**
 
-1. **Rendu de différents liens de magasin en fonction d’expressions conditionnelles**
+1. **Générer différents liens de boutique en fonction d&#39;expressions conditionnelles**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -56,7 +56,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
    {%/if%}
    ```
 
-1. **Déterminer l’extension de l’adresse électronique**
+1. **Déterminer l&#39;extension d&#39;adresse e-mail**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -68,9 +68,9 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
    {%/if%}
    ```
 
-1. **Ajout d’un lien conditionnel**
+1. **Ajout d&#39;un lien conditionnel**
 
-   L&#39;opération suivante ajoutera un lien vers le &#39;site web www.adobe.com/academia&#39; pour les profils avec des adresses email &#39;.edu&#39; uniquement, vers le &#39;site web www.adobe.com/org&#39; pour les profils avec des adresses email &#39;.org&#39;, et l&#39;URL par défaut &#39;www.adobe.com/users&#39; pour tous les autres profils :
+   L&#39;opération suivante ajoutera un lien vers le site Web &#39;www.adobe.com/academia&#39; pour les profils avec des adresses e-mail &#39;.edu&#39; uniquement, vers le site Web &#39;www.adobe.com/org&#39; pour les profils avec des adresses e-mail &#39;.org&#39;, et l&#39;URL par défaut &#39;www.adobe.com/users&#39; pour tous les autres profils :
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -82,7 +82,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
    {%/if%}
    ```
 
-1. **Contenu conditionnel basé sur l’appartenance à un segment**
+1. **Contenu conditionnel basé sur l&#39;appartenance à un segment**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -109,7 +109,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 ## Unless{#unless}
 
-L&#39;assistant `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l’assistant `if`, si l’évaluation de l’expression renvoie false, le bloc est rendu.
+L&#39;assistant `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;assistant `if`, si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
 
 **Syntaxe**
 
@@ -119,7 +119,7 @@ L&#39;assistant `unless` est utilisé pour définir un bloc conditionnel. Par op
 
 **Exemple**
 
-Générer du contenu en fonction de l’extension d’adresse électronique :
+Générer du contenu en fonction de l&#39;extension d&#39;adresse e-mail :
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -163,9 +163,9 @@ Générer une liste de produits que cet utilisateur a dans son panier :
 {{/each}}
 ```
 
-## Avec{#with}
+## With{#with}
 
-L’assistant `with` permet de modifier le jeton d’évaluation de la partie template.
+L&#39;assistant `with` permet de modifier le jeton d&#39;évaluation d&#39;une partie de modèle.
 
 **Syntaxe**
 
@@ -175,11 +175,11 @@ L’assistant `with` permet de modifier le jeton d’évaluation de la partie te
 {{/with}}
 ```
 
-L’assistant `with` est utile pour définir également une variable de raccourci.
+L&#39;assistant `with` est utile pour définir également une variable de raccourci.
 
 **Exemple**
 
-Utiliser l’option avec pour attribuer un alias aux noms de variables longs par rapport aux noms plus courts :
+Utiliser l&#39;option avec pour attribuer un alias aux noms de variables longs par rapport aux noms plus courts :
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -190,7 +190,7 @@ Utiliser l’option avec pour attribuer un alias aux noms de variables longs par
 
 ## Let{#let}
 
-La fonction `let` permet à une expression d’être stockée en tant que variable et d’être utilisé ultérieurement dans une requête.
+La fonction `let` permet à une expression d&#39;être stockée en tant que variable et d&#39;être utilisé ultérieurement dans une requête.
 
 **Syntaxe**
 
@@ -200,7 +200,7 @@ La fonction `let` permet à une expression d’être stockée en tant que variab
 
 **Exemple**
 
-L’exemple suivant permet d’utiliser toutes les sommes des totaux des produits pour la transaction en USD, pour laquelle la somme est supérieure à 100 USD et inférieure à 1 000 USD.
+L&#39;exemple suivant laisse toutes les sommes des totaux des produits avec la transaction en USD lorsque la somme est supérieure à 100 USD et inférieure à 1000 USD.
 
 ```sql
 {% let variable = expression %} {{variable}}
