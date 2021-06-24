@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Pour créer une offre de secours, procédez comme suit :
 
    ![](../../assets/fallback_review.png)
 
-1. L&#39;offre de secours s&#39;affiche dans la liste avec le statut **[!UICONTROL En ligne]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez approuvée ou non à l&#39;étape précédente.
+1. L’offre de secours s’affiche dans la liste avec le statut **[!UICONTROL Live]** ou **[!UICONTROL Version préliminaire]**, selon que vous l’avez approuvée ou non à l’étape précédente.
 
    Elle est maintenant prête à être diffusée vers les clients. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier. <!-- no suppression? -->
 
