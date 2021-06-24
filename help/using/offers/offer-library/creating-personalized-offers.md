@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -98,7 +98,7 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
 
    ![](../../assets/offer_rule.png)
 
-1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres.
+1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d’une offre est élevée, plus sa priorité est comparée à d’autres offres.
 
 1. Spécifiez la **[!UICONTROL Limitation]** de l&#39;offre, soit le nombre total de fois où l&#39;offre sera présentée au total à tous les utilisateurs. Si le nombre de fois où l&#39;offre a été diffusée à tous les utilisateurs correspond à celui que vous avez indiqué dans ce champ, la diffusion de l&#39;offre s&#39;arrête.
 
@@ -124,7 +124,7 @@ Vous pouvez également enregistrer l&#39;offre en tant que version préliminaire
 
 ![](../../assets/offer_review.png)
 
-L&#39;offre s&#39;affiche dans la liste avec le statut **[!UICONTROL En ligne]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez approuvée ou non à l&#39;étape précédente.
+L’offre s’affiche dans la liste avec le statut **[!UICONTROL En ligne]** ou **[!UICONTROL En création]**, selon que vous l’avez approuvée ou non à l’étape précédente.
 
 Elle est maintenant prête à être diffusée aux utilisateurs. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
