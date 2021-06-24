@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Nommez votre règle et fournissez une description, puis configurez-la en fonction de vos besoins.
 
-   Pour ce faire, le **Créateur de segments** d&#39;Adobe Experience Platform est disponible pour vous aider à créer les conditions de la règle. Pour plus d&#39;informations sur son utilisation, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   Pour ce faire, le **Créateur de segments** d&#39;Adobe Experience Platform est disponible pour vous aider à créer les conditions de la règle. Pour plus d&#39;informations sur son utilisation, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
 
    Dans cet exemple, la règle cible les clients qui ont le niveau de fidélité « Or ».
 
@@ -52,6 +52,6 @@ Pour créer cette règle de décision, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d’Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
