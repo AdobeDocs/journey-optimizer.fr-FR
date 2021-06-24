@@ -18,27 +18,27 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 7%
+ht-degree: 86%
 
 ---
 
 
 # Modifier les adresses email Principales
 
-Lorsque vous ciblez un profil, plusieurs adresses email peuvent être disponibles dans la base de données (adresse email personnelle, professionnelle, etc.).
+Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail personnelle, professionnelle, etc.).
 
-Avec Journey Optimizer, vous pouvez déterminer l’adresse électronique à utiliser à partir du service de profil et établir la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, procédez comme suit :
+Avec Journey Optimizer, vous pouvez déterminer l&#39;adresse e-mail à utiliser à partir du service de profil et établir la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Canaux]** `>` **[!UICONTROL Général]** .
-1. Le champ actuellement utilisé par défaut pour déterminer les adresses email des profils s’affiche dans cet écran. Cliquez sur **[!UICONTROL Modifier]** pour le modifier.
+1. Le champ actuellement utilisé par défaut pour déterminer les adresses e-mail des profils s&#39;affiche dans cet écran. Cliquez sur **[!UICONTROL Modifier]** pour le modifier.
 
    ![](../assets/primary-address.png)
 
-1. Cliquez sur le bouton de modification pour sélectionner le nouveau champ à utiliser comme adresse email Principale.
+1. Cliquez sur le bouton de modification pour sélectionner le nouveau champ à utiliser comme adresse e-mail principale.
 
    ![](../assets/primary-address-edit.png)
 
-1. La liste des champs XDM de type courrier électronique disponibles s’affiche. Sélectionnez le champ à utiliser, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. La liste des champs XDM de type e-mail disponibles s&#39;affiche. Sélectionnez le champ à utiliser, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/primary-address-field.png)
 
