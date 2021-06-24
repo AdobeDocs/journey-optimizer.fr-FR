@@ -8,17 +8,17 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 52%
+ht-degree: 96%
 
 ---
 
-# Fonctions d’agrégation {#aggregation}
+# Fonctions d&#39;agrégation {#aggregation}
 
-Les fonctions d’agrégation sont utilisées pour regrouper plusieurs valeurs afin de former une seule valeur de résumé.
+Les fonctions d&#39;agrégation sont utilisées pour regrouper plusieurs valeurs afin de former une seule valeur de synthèse.
 
 ## Count{#count}
 
-La fonction `count` renvoie le nombre d’éléments dans le tableau donné.
+La fonction `count` renvoie le nombre d&#39;éléments dans le tableau donné.
 
 **Format**
 
@@ -28,7 +28,7 @@ La fonction `count` renvoie le nombre d’éléments dans le tableau donné.
 
 **Exemple**
 
-L’opération suivante renvoie le nombre de commandes dans le tableau .
+L&#39;opération suivante renvoie le nombre de commandes dans le tableau.
 
 ```sql
 {%= count(orders) %}
@@ -64,7 +64,7 @@ La fonction `average` renvoie la moyenne arithmétique de toutes les valeurs sé
 
 **Exemple**
 
-L’opération suivante renvoie le prix moyen de toutes les commandes.
+L&#39;opération suivante renvoie le prix moyen de toutes les commandes.
 
 ```sql
 {%=average(orders.order.price)%}
@@ -82,7 +82,7 @@ La fonction `min` renvoie la plus petite de toutes les valeurs sélectionnées d
 
 **Exemple**
 
-L’opération suivante renvoie le prix le plus bas de toutes les commandes.
+L&#39;opération suivante renvoie le prix le plus bas de toutes les commandes.
 
 ```sql
 {%=min(orders.order.price)%}
@@ -100,7 +100,7 @@ La fonction `max` renvoie la plus grande de toutes les valeurs sélectionnées d
 
 **Exemple**
 
-L’opération suivante renvoie le prix le plus élevé de toutes les commandes.
+L&#39;opération suivante renvoie le prix le plus élevé de toutes les commandes.
 
 ```sql
 {%=max(orders.order.price)%}
