@@ -8,15 +8,15 @@ level: Intermediate
 source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
 # Prévisualiser et tester vos messages{#preview-and-proof}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré [du contenu personnalisé](personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré [du contenu personnalisé](personalization/personalize.md), vous pourrez vérifier comment ce contenu s&#39;affiche dans le message en exploitant les données du profil de test.
 
-Pour détecter d’éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT pour tester les profils. Un BAT doit être envoyé chaque fois qu’une modification est apportée afin de valider le contenu le plus récent.
+Pour détecter d&#39;éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT pour tester les profils. Un BAT doit être envoyé chaque fois qu&#39;une modification est apportée afin de valider le contenu le plus récent.
 
 >[!CAUTION]
 >
@@ -32,7 +32,7 @@ Pour tester le contenu de votre message, vous devez :
 
 Vous pourrez ensuite [envoyer des BAT](#send-proofs) à vos profils de test.
 
-De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s’affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment déverrouiller les Prévisualisations d&#39;e-mail Litmus dans [cette section](#email-rendering)
+De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment déverrouiller les Prévisualisations d&#39;e-mail Litmus dans [cette section](#email-rendering)
 
 >[!CAUTION]
 >
@@ -41,7 +41,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 
 ## Sélectionner des profils de test{#select-test-profiles}
 
-Utilisez [Profils de test](building-journeys/creating-test-profiles.md) pour cibler des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage définis.
+Utilisez des [profils de test](building-journeys/creating-test-profiles.md) pour cibler des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis.
 
 Pour sélectionner des profils de test, procédez comme suit :
 
@@ -55,17 +55,17 @@ Pour sélectionner des profils de test, procédez comme suit :
 
    Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#getting-started).
 
-   Dans l’exemple ci-dessous, nous utiliserons l’espace de noms **E-mail**.
+   Dans l&#39;exemple ci-dessous, nous utiliserons l&#39;espace de noms **E-mail**.
 
-1. Utilisez le champ de recherche pour trouver l’espace de noms, sélectionnez-le et cliquez sur **[!UICONTROL Sélectionner]**.
+1. Utilisez le champ de recherche pour trouver l&#39;espace de noms, sélectionnez-le et cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](assets/preview-email-namespace.png)
 
-1. Saisissez la valeur permettant d’identifier le profil de test et cliquez sur **[!UICONTROL Rechercher le profil de test]**.
+1. Saisissez la valeur permettant d&#39;identifier le profil de test et cliquez sur **[!UICONTROL Rechercher le profil de test]**.
 
    ![](assets/preview-identity-value.png)
 
-1. Si vous avez ajouté une personnalisation à votre message, ajoutez d’autres profils afin de pouvoir tester différentes variantes du message en fonction des données du profil. Une fois ajoutés, les profils sont répertoriés sous les champs de sélection.
+1. Si vous avez ajouté une personnalisation à votre message, ajoutez d&#39;autres profils afin de pouvoir tester différentes variantes du message en fonction des données du profil. Une fois ajoutés, les profils sont répertoriés sous les champs de sélection.
 
    ![](assets/preview-profile-list.png)
 
@@ -89,15 +89,15 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
 1. Dans la prévisualisation du message, les éléments personnalisés sont remplacés par les données de profil de test sélectionnées.
 
-   Par exemple, pour ce message, le contenu de l&#39;e-mail et l’objet de l&#39;e-mail sont personnalisés :
+   Par exemple, pour ce message, le contenu de l&#39;e-mail et l&#39;objet de l&#39;e-mail sont personnalisés :
 
    ![](assets/preview-test-profile.png)
 
-1. Sélectionnez d’autres profils de test pour prévisualiser le rendu des e-mails pour chaque variante de votre message.
+1. Sélectionnez d&#39;autres profils de test pour prévisualiser le rendu des e-mails pour chaque variante de votre message.
 
 Pour une prévisualisation de notification push :
 
-1. Accédez au canal **[!UICONTROL push]** à partir de la liste déroulante **[!UICONTROL Canaux]** située en haut à gauche de l’écran **[!UICONTROL Prévisualisation]**.
+1. Accédez au canal **[!UICONTROL push]** à partir de la liste déroulante **[!UICONTROL Canaux]** située en haut à gauche de l&#39;écran **[!UICONTROL Prévisualisation]**.
 
    ![](assets/preview-select-channel.png)
 
@@ -117,15 +117,15 @@ Un BAT est un message spécifique qui permet de tester un message avant son envo
 
 Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouvez envoyer des BAT.
 
-1. Dans l’écran **[!UICONTROL Prévisualisation]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
+1. Dans l&#39;écran **[!UICONTROL Prévisualisation]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
 
    ![](assets/send-proof-button.png)
 
-1. Sélectionnez les profils de test qui recevront le BAT et cliquez sur **[!UICONTROL Envoyer le BAT]**. Si nécessaire, vous pouvez ajouter un préfixe à l’objet du BAT.
+1. Sélectionnez les profils de test qui recevront le BAT et cliquez sur **[!UICONTROL Envoyer le BAT]**. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT.
 
    ![](assets/send-proof-select.png)
 
-1. De retour dans l’écran **[!UICONTROL Prévisualisation]**, cliquez sur le bouton **[!UICONTROL Afficher les BAT]** pour vérifier l’état.
+1. De retour dans l&#39;écran **[!UICONTROL Prévisualisation]**, cliquez sur le bouton **[!UICONTROL Afficher les BAT]** pour vérifier l&#39;état.
 
    ![](assets/send-proof-view.png)
 
@@ -146,13 +146,13 @@ Pour accéder aux fonctionnalités de rendu des e-mails, vous devez :
 
 Suivez ensuite les étapes ci-dessous :
 
-1. Dans le Concepteur d’email, cliquez sur le bouton **[!UICONTROL Prévisualiser]** et sélectionnez l’onglet **[!UICONTROL Rendu des e-mails]**.
+1. Dans le Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Prévisualiser]** et sélectionnez l&#39;onglet **[!UICONTROL Rendu des e-mails]**.
 
 1. Cliquez sur **Connecter votre compte Litmus** dans la section supérieure droite.
 
    ![](assets/email-rendering-litmus.png)
 
-1. Saisissez vos informations d’identification et connectez-vous.
+1. Saisissez vos informations d&#39;identification et connectez-vous.
 
    ![](assets/email-rendering-credentials.png)
 
@@ -164,5 +164,5 @@ Suivez ensuite les étapes ci-dessous :
 
 >[!CAUTION]
 >
->Lorsque vous connectez votre compte **Litmus** à [!DNL Journey Optimizer], vous acceptez que les messages de test soient envoyés à Litmus : une fois envoyés, ces e-mail ne sont plus gérés par Adobe. En conséquence, la politique e-mail de rétention des données de Litmus s’applique à ces e-mails, y compris les données de personnalisation qui peuvent être incluses dans ces messages de test.
+>Lorsque vous connectez votre compte **Litmus** à [!DNL Journey Optimizer], vous acceptez que les messages de test soient envoyés à Litmus : une fois envoyés, ces e-mail ne sont plus gérés par Adobe. En conséquence, la politique e-mail de rétention des données de Litmus s&#39;applique à ces e-mails, y compris les données de personnalisation qui peuvent être incluses dans ces messages de test.
 
