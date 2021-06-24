@@ -1,6 +1,6 @@
 ---
-title: Cas d’utilisation de la personnalisation
-description: Cas d’utilisation de la personnalisation
+title: Cas d'utilisation de la personnalisation
+description: Cas d'utilisation de la personnalisation
 feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
@@ -8,26 +8,26 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
 
-# Cas d’utilisation de la personnalisation {#personalization-use-case}
+# Cas d&#39;utilisation de la personnalisation {#personalization-use-case}
 
-Dans ce cas d’utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
+Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
 
-* **Profil** : personnalisation des messages à partir d&#39;un champ de profil
-* **Décision** de l’offre : personnalisation basée sur les variables de décision d’offre
-* **Contexte** : personnalisation basée sur les données contextuelles du parcours
+* **Profil** : personnalisation des messages en fonction d&#39;un champ de profil
+* **Décision d&#39;offre** : personnalisation basée sur des variables de prise de décision d&#39;offre
+* **Contexte** : personnalisation basée sur les données contextuelles du parcours
 
 L’objectif de cet exemple est de transmettre un événement à [!DNL Journey Optimizer] chaque fois qu’une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
 
-Pour ce cas d’utilisation, les conditions préalables suivantes doivent être remplies 
+Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies 
 
 * Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../create-message.md).
-* Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l’article. Reportez-vous à cette [section](../event/about-events.md).
-* Créer une décision (auparavant « activité d’offre ») ; consultez cette [section](../offers/offer-activities/create-offer-activities.md).
+* Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
+* Créer une décision (auparavant « activité d&#39;offre ») ; consultez cette [section](../offers/offer-activities/create-offer-activities.md).
 
 ## Étape 1 - Ajouter une personnalisation au profil
 
@@ -39,13 +39,13 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
    ![](assets/perso-uc2.png)
 
-1. Saisissez l’objet et ajoutez la personnalisation de profil. Utilisez la barre de recherche pour rechercher le champ de prénom du profil. Dans le texte de l’objet, placez le curseur à l’endroit où vous souhaitez insérer le champ de personnalisation, puis cliquez sur l’icône **+**. Cliquez sur **Enregistrer**.
+1. Saisissez l&#39;objet et ajoutez la personnalisation de profil. Utilisez la barre de recherche pour rechercher le champ de prénom du profil. Dans le texte de l&#39;objet, placez le curseur à l&#39;endroit où vous souhaitez insérer le champ de personnalisation, puis cliquez sur l&#39;icône **+**. Cliquez sur **Enregistrer**.
 
    ![](assets/perso-uc3.png)
 
    >[!NOTE]
    >
-   >Laissez le message à l’état préliminaire. Ne le publiez pas encore.
+   >Laissez le message à l&#39;état préliminaire. Ne le publiez pas encore.
 
 ## Étape 2 - Créer le parcours
 
@@ -53,25 +53,25 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
    ![](assets/perso-uc4.png)
 
-1. Ajoutez votre événement d’entrée, un **Message** et une activité **Fin**.
+1. Ajoutez votre événement d&#39;entrée, un **Message** et une activité **Fin**.
 
    ![](assets/perso-uc5.png)
 
-1. Dans l’activité **Message**, sélectionnez le message précédemment créé. Cliquez sur **OK**.
+1. Dans l&#39;activité **Message**, sélectionnez le message précédemment créé. Cliquez sur **OK**.
 
    ![](assets/perso-uc6.png)
 
-   Un message s’affiche pour vous informer que les données de l’événement d’entrée et les propriétés du parcours ont été transmises au message.
+   Un message s&#39;affiche pour vous informer que les données de l&#39;événement d&#39;entrée et les propriétés du parcours ont été transmises au message.
 
    ![](assets/perso-uc7.png)
 
    >[!NOTE]
    >
-   >Le message s’affiche avec une icône d’avertissement. En effet, le message n’est pas encore publié.
+   >Le message s&#39;affiche avec une icône d&#39;avertissement. En effet, le message n&#39;est pas encore publié.
 
 ## Étape 3 - Ajouter une personnalisation aux données contextuelles
 
-1. Dans l’activité **Message**, cliquez sur l’icône **Ouvrir le message**. Le message s’ouvre dans un nouvel onglet.
+1. Dans l&#39;activité **Message**, cliquez sur l&#39;icône **Ouvrir le message**. Le message s&#39;ouvre dans un nouvel onglet.
 
    ![](assets/perso-uc8.png)
 
@@ -79,14 +79,14 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
    ![](assets/perso-uc9.png)
 
-1. Sélectionnez la catégorie **Contexte**. Cet élément n’est disponible que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s’affichent :
+1. Sélectionnez la catégorie **Contexte**. Cet élément n&#39;est disponible que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
-   * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l’activité **Message** dans le parcours.
+   * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité **Message** dans le parcours.
    * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=fr#building-advanced-conditions-journeys).
 
    ![](assets/perso-uc10.png)
 
-1. Développez l’élément **Événements** et recherchez le champ du numéro de commande associé à votre événement. Vous pouvez également utiliser la zone de recherche. Cliquez sur l’icône **+** pour insérer le champ de personnalisation dans le texte de l’objet. Cliquez sur **Enregistrer**.
+1. Développez l&#39;élément **Événements** et recherchez le champ du numéro de commande associé à votre événement. Vous pouvez également utiliser la zone de recherche. Cliquez sur l&#39;icône **+** pour insérer le champ de personnalisation dans le texte de l&#39;objet. Cliquez sur **Enregistrer**.
 
    ![](assets/perso-uc11.png)
 
@@ -94,15 +94,15 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
    ![](assets/perso-uc12.png)
 
-1. Tapez le message et, à partir de la catégorie **Contexte**, insérez le nom de l’élément de commande et la progression de la commande.
+1. Tapez le message et, à partir de la catégorie **Contexte**, insérez le nom de l&#39;élément de commande et la progression de la commande.
 
    ![](assets/perso-uc13.png)
 
-1. Dans la liste déroulante, sélectionnez **Décision d’offre** pour insérer une variable Offer Decisioning. Sélectionnez l’emplacement et cliquez sur l’icône **+** en regard de la décision (auparavant « activité d’offre ») pour l’ajouter au corps.
+1. Dans la liste déroulante, sélectionnez **Décision d&#39;offre** pour insérer une variable Offer Decisioning. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision (auparavant « activité d&#39;offre ») pour l&#39;ajouter au corps.
 
    ![](assets/perso-uc14.png)
 
-1. Cliquez sur Valider pour vous assurer qu’il n’y a aucune erreur, puis sur **Enregistrer**.
+1. Cliquez sur Valider pour vous assurer qu&#39;il n&#39;y a aucune erreur, puis sur **Enregistrer**.
 
    ![](assets/perso-uc15.png)
 
@@ -112,11 +112,11 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
 ## Étape 4 - Tester et publier le parcours
 
-1. Ouvrez de nouveau le parcours. Si le parcours est déjà ouvert, veillez à actualiser la page. Maintenant que le message est publié, vous pouvez constater qu’il n’y a aucune erreur dans le parcours. Cliquez sur le bouton **Test**, puis sur **Déclencher un événement**.
+1. Ouvrez de nouveau le parcours. Si le parcours est déjà ouvert, veillez à actualiser la page. Maintenant que le message est publié, vous pouvez constater qu&#39;il n&#39;y a aucune erreur dans le parcours. Cliquez sur le bouton **Test**, puis sur **Déclencher un événement**.
 
    ![](assets/perso-uc17.png)
 
-1. Entrez les différentes valeurs à transmettre dans le test. Le mode test ne fonctionne qu’avec les profils de test. L’identifiant de profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
+1. Entrez les différentes valeurs à transmettre dans le test. Le mode test ne fonctionne qu&#39;avec les profils de test. L&#39;identifiant de profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
 
    ![](assets/perso-uc18.png)
 
@@ -124,5 +124,5 @@ Pour ce cas d’utilisation, les conditions préalables suivantes doivent être 
 
    ![](assets/perso-uc19.png)
 
-1. Vérifiez qu’il n’y a pas d’erreur et publiez le parcours.
+1. Vérifiez qu&#39;il n&#39;y a pas d&#39;erreur et publiez le parcours.
 
