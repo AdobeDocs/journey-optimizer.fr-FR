@@ -8,15 +8,15 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 52%
+ht-degree: 89%
 
 ---
 
-# Fonctions d’objet {#objects}
+# Fonctions d&#39;objet {#objects}
 
-## Fonction isNull{#isNull}
+## isNull{#isNull}
 
-La fonction `isNull` détermine si une référence d’objet n’existe pas.
+La fonction `isNull` détermine si une référence d&#39;objet n&#39;existe pas.
 
 **Format**
 
@@ -26,7 +26,7 @@ La fonction `isNull` détermine si une référence d’objet n’existe pas.
 
 **Exemple**
 
-L’opération suivante vérifie si l’adresse de la personne n’existe pas.
+L&#39;opération suivante vérifie si l&#39;adresse de la personne n&#39;existe pas.
 
 ```sql
 {%= isNull(person.homeAddress) %}
@@ -34,7 +34,7 @@ L’opération suivante vérifie si l’adresse de la personne n’existe pas.
 
 ## Fonction isNotNull{#isNotNull}
 
-La fonction `isNotNull` détermine si une référence d’objet existe.
+La fonction `isNotNull` détermine si une référence d&#39;objet existe.
 
 **Format**
 
@@ -44,7 +44,7 @@ La fonction `isNotNull` détermine si une référence d’objet existe.
 
 **Exemple**
 
-L’opération suivante vérifie si l’adresse de domicile de la personne existe.
+L&#39;opération suivante vérifie si l&#39;adresse de la personne existe.
 
 ```sql
 {%= isNotNull(person.homeAddress) %}
