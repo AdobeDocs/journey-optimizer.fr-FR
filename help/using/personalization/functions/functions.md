@@ -5,21 +5,25 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 97%
+source-wordcount: '1181'
+ht-degree: 95%
 
 ---
 
 
-# Langage de modèle et fonctions d&#39;assistance {#functionsL}
+# Bibliothèque de fonctions d&#39;assistance{#functionsL}
 
 Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation dans [cette page](../personalization-syntax.md).
+
+[!DNL :arrow_forward:] [Découvrez comment utiliser les fonctions d’assistance en vidéo](#video)
 
 Le langage de modèle est utilisé dans les fonctions d&#39;assistance disponibles dans la liste déroulante de personnalisation de l&#39;éditeur d&#39;expression, comme ci-dessous :
 
 ![](../assets/access-helper-functions.png)
+
+
 
 Dans l&#39;éditeur d&#39;expression [!DNL Journey Optimizer], les fonctions d&#39;assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
 
@@ -279,3 +283,8 @@ Les fonctions de comparaison sont utilisées pour comparer différentes expressi
     </tr>
 </table>
 
+## Vidéo pratique{#video}
+
+Découvrez comment transformer des valeurs de personnalisation à l’aide de fonctions d’assistance à la personnalisation et comprendre différents cas d’utilisation des fonctions d’assistance.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
