@@ -5,16 +5,18 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Beginner
-source-git-commit: 9656fc4b9f0935949abfd83db194c00da0f35cf4
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 79%
+source-wordcount: '663'
+ht-degree: 75%
 
 ---
 
 # Prise en main de la personnalisation{#add-personalization}
 
 Découvrez les [!DNL Adobe Journey Optimizer] fonctionnalités de personnalisation pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s&#39;agir de son prénom, de ses centres d&#39;intérêt, de l&#39;endroit où il habite, de ce qu&#39;il a acheté et plus encore.
+
+[!DNL :arrow_forward:] [Découvrez comment personnaliser un message dans ces vidéos](#video-perso)
 
 [!DNL Journey Optimizer] utilise une syntaxe de personnalisation simple  **** intégrée basée sur Handlebars qui vous permet de créer des expressions avec des contenus entourés de doubles accolades **{}}**. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction. En savoir plus dans [Syntaxe de personnalisation](personalization-syntax.md).
 
@@ -103,3 +105,12 @@ Dans l&#39;exemple suivant, l&#39;éditeur d&#39;expression vous permet de séle
 
 ![](assets/perso_ee2.png)
 
+## Tutoriels vidéo{#video-perso}
+
+Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+
+Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
