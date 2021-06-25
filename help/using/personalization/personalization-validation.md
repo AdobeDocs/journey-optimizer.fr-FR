@@ -5,10 +5,10 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 86%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 100%
 
 ## Mécanismes de validation
 
-Dans l’écran de l’éditeur d’expression, le bouton **Valider** vous permet de valider la syntaxe de personnalisation.
+Dans l’écran **Éditeur d’expression**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
 
 >[!NOTE]
-> La validation est automatiquement effectuée lorsque vous cliquez sur **Ajouter** pour fermer la fenêtre de l’éditeur.
+> La validation est automatiquement exécutée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
 
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Si la syntaxe de personnalisation n’est pas valide, vous ne pouvez pas fermer la fenêtre de l’éditeur d’expressions.
+> Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur d&#39;expression.
 
 
 ## Erreurs courantes
@@ -69,7 +69,7 @@ Les expressions des barres de contrôle sont entourées de **{{expression}}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### Erreurs spécifiques liées aux offres
+## Erreurs spécifiques liées aux offres
 
 Les erreurs liées à l’intégration des offres dans un email ou une notification push présentent le modèle suivant :
 
