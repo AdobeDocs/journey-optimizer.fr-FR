@@ -5,18 +5,16 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 43%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
 # Ajout d’offres personnalisées {#deliver-personalized-offers}
 
-## À propos de la gestion des décisions {#about-offer-decisioning}
-
-Avec [!DNL Journey Optimizer], vous pouvez insérer dans vos emails des décisions (précédemment connues sous le nom d&#39;activités d&#39;offre) qui utiliseront le moteur de décision d’offre afin de sélectionner la meilleure offre à proposer à vos clients.
+Dans [!DNL Journey Optimizer] e-mail, vous pouvez insérer des décisions (précédemment appelées &quot;activités d’offre&quot;) qui exploiteront le moteur de décision d’offre afin de sélectionner la meilleure offre à diffuser à vos clients.
 
 Par exemple, vous pouvez ajouter une décision qui affichera dans votre email une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 
@@ -29,7 +27,7 @@ Pour un **exemple complet** montrant comment configurer des offres, les utiliser
 
 >[!CAUTION]
 >
->Vous devez d’abord définir une décision d’offre. Découvrez comment créer des décisions dans [cette section](offers/offer-activities/create-offer-activities.md).
+>Avant de commencer, vous devez [définir une décision d’offre](offers/offer-activities/create-offer-activities.md).
 
 Pour insérer une décision dans un email, procédez comme suit :
 
