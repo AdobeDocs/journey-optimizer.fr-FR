@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,32 @@ ht-degree: 100%
       + [Créer un email](using/create-email.md)
       + [Créez une notification push](using/create-push.md)
    + [Ajout et gestion des ressources](using/assets-essentials.md)
-   + Concepteur d&#39;email {#email-designer}
+   + Conception d&#39;emails {#email-designer}
       + [Prise en main de la conception d&#39;e-mails](using/design-emails.md)
       + [Conception de votre contenu d&#39;e-mail dans l&#39;interface utilisateur](using/create-email-content.md)
       + [Importer ou coder le contenu de votre e-mail](using/existing-content.md)
       + [Utiliser les composants de contenu du concepteur d&#39;email](using/content-components.md)
-   + Personnalisation{#personalization}
-      + [Prise en main  de la personnalisation](using/personalization/personalize.md)
-      + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Validation de la personnalisation](using/personalization/personalization-validation.md)
-      + [Cas d&#39;utilisation de la personnalisation](using/personalization/personalization-use-case.md)
-      + Fonctions d&#39;assistance{#functions}
-         + [Liste des fonctions d&#39;assistance](using/personalization/functions/functions.md)
-         + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
-         + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
-         + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
-         + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
-         + [Assistants](using/personalization/functions/helpers.md)
-         + [Fonctions de mappage](using/personalization/functions/maps.md)
-         + [Fonctions d&#39;objet](using/personalization/functions/objects.md)
-         + [Fonctions de chaîne](using/personalization/functions/string.md)
-   + [Ajout d&#39;offres personnalisées](using/deliver-personalized-offers.md)
    + Valider et publier {#create-message}
       + [Prévisualisation et BAT](using/preview.md)
       + [Vérification des alertes](using/alerts.md)
       + [Publication de messages](using/publish-manage-message.md)
    + [Gestion de la désinscription](using/consent.md)
++ Personnalisation{#personalization}
+   + [Prise en main  de la personnalisation](using/personalization/personalize.md)
+   + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
+   + [Validation de la personnalisation](using/personalization/personalization-validation.md)
+   + [Cas pratique : ajouter de la personnalisation dans une notification push](using/personalization/personalization-use-case.md)
+   + Fonctions d&#39;assistance{#functions}
+      + [Liste des fonctions d&#39;assistance](using/personalization/functions/functions.md)
+      + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
+      + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
+      + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
+      + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
+      + [Assistants](using/personalization/functions/helpers.md)
+      + [Fonctions de mappage](using/personalization/functions/maps.md)
+      + [Fonctions d&#39;objet](using/personalization/functions/objects.md)
+      + [Fonctions de chaîne](using/personalization/functions/string.md)
+   + [Ajout d&#39;offres personnalisées](using/deliver-personalized-offers.md)
 + Segments{#segment}
    + [À propos des segments](using/segment/about-segments.md)
    + [Création de segments](using/segment/creating-a-segment.md)
