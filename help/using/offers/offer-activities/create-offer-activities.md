@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 93%
 
 ---
 
@@ -37,11 +37,15 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../../assets/activities-name.png)
 
-## Ajout d&#39;offres {#add-offers}
+## Ajout de portées de décision {#add-decision-scopes}
 
 1. Effectuez un glisser-déposer d&#39;un emplacement de la liste pour l&#39;ajouter à la décision, puis cliquez sur **[!UICONTROL Ajouter une collection]**.
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >Le même emplacement peut être sélectionné plusieurs fois dans la décision.
 
 1. Sélectionnez la collection qui contient les offres à prendre en compte, puis cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -104,6 +108,6 @@ Pour plus d’informations sur la diffusion des offres, reportez-vous aux sectio
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d’Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
