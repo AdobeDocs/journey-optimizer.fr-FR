@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 91%
+source-wordcount: '1597'
+ht-degree: 85%
 
 ---
 
@@ -215,20 +215,29 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez util
 
 ## Ajuster l&#39;alignement vertical et la marge intérieure {#adjusting-vertical-alignment-and-padding}
 
-Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
+Dans cet exemple, nous allons ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes.
 
-1. Sélectionnez le composant de structure directement dans l’email ou à l’aide de l’arborescence de structure disponible dans la **palette** de gauche.
-1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l&#39;arborescence.
+1. Sélectionnez le composant de structure directement dans l&#39;email ou à l&#39;aide de l&#39;**[!UICONTROL Arborescence de navigation]** disponible dans le menu de gauche.
 
-   Les paramètres éditables pour cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]** situé à droite.
+   ![](assets/alignment_1.png)
 
-1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez **[!UICONTROL Monter]**.
+1. Dans la barre d’outils, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle que vous souhaitez modifier. Vous pouvez également la sélectionner dans l&#39;arborescence.
 
-   Le composant de contenu s&#39;affiche au-dessus de la colonne.
+   Les paramètres éditables pour cette colonne sont affichés dans le menu **[!UICONTROL Paramètres de colonne]** .
+
+   ![](assets/alignment_2.png)
+
+1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez **[!UICONTROL Bas]**.
+
+   Le composant de contenu se déplace au bas de la colonne.
+
+   ![](assets/alignment_3.png)
 
 1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l&#39;intérieur de la colonne. Cliquez sur l’icône de verrou pour interrompre la synchronisation avec la marge intérieure inférieure.
 
    Définissez la marge intérieure gauche et droite de cette colonne.
+
+   ![](assets/alignment_4.png)
 
 1. Procédez de la même façon pour ajuster l’alignement et la marge intérieure des autres colonnes.
 
@@ -238,13 +247,25 @@ Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#3
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
 
-1. Dans un composant dans lequel un lien est inséré, sélectionnez le texte du libellé du lien.
+1. Dans un composant de contenu **[!UICONTROL Texte]** où un lien est inséré, sélectionnez votre lien.
 
-1. Dans les paramètres du composant, cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
+1. Dans le menu **[!UICONTROL Paramètres du composant]**, cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
 
-1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez un attribut de **[!UICONTROL Cible]**.
+   ![](assets/link_1.png)
+
+1. Choisissez comment votre audience sera redirigée avec la liste déroulante **[!UICONTROL Cible]** :
+
+   * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué (par défaut).
+   * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
+   * **[!UICONTROL Self]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué.
+   * **[!UICONTROL Parent]** : ouvre le lien dans le cadre parent.
+   * **[!UICONTROL Haut]** : ouvre le lien dans le corps complet de la fenêtre.
+
+   ![](assets/link_2.png)
 
 1. Pour changer la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]**.
+
+   ![](assets/link_3.png)
 
 1. Choisissez la couleur dont vous avez besoin.
 
