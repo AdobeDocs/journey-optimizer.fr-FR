@@ -5,7 +5,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: f76f9c39b460bc3d70ba3258764d35583cd5fd77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 35%
@@ -22,8 +22,7 @@ Pour plus d’informations sur la façon de créer et gérer des offres, reporte
 
 Pour un **exemple complet** montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un email, consultez [cette section](offers/offers-e2e.md#insert-decision-in-email).
 
-[!DNL :arrow_forward:] [Découvrez comment ajouter des offres en tant que personnalisation dans cette vidéo](#video-offers)
-
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment ajouter des offres en tant que personnalisation dans cette vidéo](#video-offers)
 
 ## Insérer une décision dans un email {#insert-offers}
 
