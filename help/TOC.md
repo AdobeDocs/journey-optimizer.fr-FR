@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,10 +38,10 @@ ht-degree: 98%
       + [Publication de messages](using/publish-manage-message.md)
    + [Gestion de la désinscription](using/consent.md)
 + Personnalisation{#personalization}
-   + [Prise en main  de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main   de la personnalisation](using/personalization/personalize.md)
    + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
    + [Validation de la personnalisation](using/personalization/personalization-validation.md)
-   + [Cas pratique : ajouter de la personnalisation dans une notification push](using/personalization/personalization-use-case.md)
+   + [Cas d&#39;utilisation : ajouter une personnalisation dans une notification push](using/personalization/personalization-use-case.md)
    + Fonctions d&#39;assistance{#functions}
       + [Liste des fonctions d&#39;assistance](using/personalization/functions/functions.md)
       + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
