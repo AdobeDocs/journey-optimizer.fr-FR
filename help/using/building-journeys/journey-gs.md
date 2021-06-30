@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
+source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 78%
+source-wordcount: '1768'
+ht-degree: 76%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 78%
 
 Pour envoyer des messages avec des parcours, la configuration suivante est requise :
 
-1. **Configurer un événement** : si vous souhaitez déclencher vos parcours une fois qu’un événement est reçu, vous devez configurer un événement. Vous devez définir les informations attendues et comment les traiter. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../event/about-events.md).
+1. **Configurer un événement** : si vous souhaitez déclencher vos parcours une fois qu&#39;un événement est reçu, vous devez configurer un événement. Vous devez définir les informations attendues et comment les traiter. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../event/about-events.md).
 
    ![](../assets/jo-event7bis.png)
 
-1. **Créer un segment** : votre parcours peut également écouter les segments Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez créer des segments. [En savoir plus](../segment/about-segments.md).
+1. **Créer un segment** : votre parcours peut également écouter les segments Adobe Experience Platform afin d&#39;envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez créer des segments. [En savoir plus](../segment/about-segments.md).
 
    ![](../assets/segment2.png)
 
-1. **Configurer la source de données** : vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l’approvisionnement. Cette étape n’est pas obligatoire si vous n’exploitez que les données des événements de votre parcours. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../datasource/about-data-sources.md)
+1. **Configurer la source de données** : vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l&#39;approvisionnement. Cette étape n&#39;est pas obligatoire si vous n&#39;exploitez que les données des événements de votre parcours. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../datasource/about-data-sources.md)
 
    ![](../assets/jo-datasource.png)
 
@@ -36,17 +36,17 @@ Pour envoyer des messages avec des parcours, la configuration suivante est requi
 
 ## Création de votre parcours{#jo-build}
 
-Cette étape est effectuée par l’**utilisateur chargé de la conception de parcours**. C’est là que vous créez vos parcours. Combinez les différentes activités d’événement, d’orchestration et d’action afin de créer des scénarios cross-canal à plusieurs étapes.
+Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de parcours**. C&#39;est là que vous créez vos parcours. Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 
 Voici les étapes principales pour envoyer des messages à travers des parcours :
 
-1. Dans la section du menu Gestion des PARCOURS , cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s’affiche.
+1. Dans la section du menu Gestion des PARCOURS , cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s&#39;affiche.
 
    ![](../assets/interface-journeys.png)
 
 1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
 
-1. Modifiez les propriétés du parcours dans le volet de configuration affiché dans la partie droite de l’écran. En savoir plus dans cette [section](journey-gs.md#change-properties).
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](journey-gs.md#change-properties).
 
    ![](../assets/jo-properties.png)
 
@@ -54,55 +54,57 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
    ![](../assets/read-segment.png)
 
-1. Faites glisser et déposez les étapes suivantes que l’individu doit suivre. Par exemple, vous pouvez ajouter une condition suivie d’un message. Pour en savoir plus sur les activités, consultez [cette section](using-the-journey-designer.md).
+1. Faites glisser et déposez les étapes suivantes que l&#39;individu doit suivre. Par exemple, vous pouvez ajouter une condition suivie d&#39;un message. Pour en savoir plus sur les activités, consultez [cette section](using-the-journey-designer.md).
 
-1. Testez votre parcours à l’aide de profils de test. En savoir plus dans cette [section](testing-the-journey.md)
+1. Testez votre parcours à l&#39;aide de profils de test. En savoir plus dans cette [section](testing-the-journey.md)
 
-1. Publiez votre parcours pour l’activer. En savoir plus dans cette [section](publishing-the-journey.md).
+1. Publiez votre parcours pour l&#39;activer. En savoir plus dans cette [section](publishing-the-journey.md).
 
    ![](../assets/jo-journeyuc2_32bis.png)
 
-1. Surveillez votre parcours à l’aide des outils de rapports dédiés afin de mesurer l’efficacité de votre parcours. En savoir plus dans cette [section](../reports/live-report.md).
+1. Surveillez votre parcours à l&#39;aide des outils de rapports dédiés afin de mesurer l&#39;efficacité de votre parcours. En savoir plus dans cette [section](../reports/live-report.md).
 
    ![](../assets/jo-dynamic_report_journey_12.png)
 
 ## Modification des propriétés {#change-properties}
 
-Cliquez sur l’icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
+Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
 
 Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et définir une durée **[!UICONTROL Temporisation et erreur]** si vous êtes administrateur.
 
-La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : UID JourneyVersion, OrgID, orgName, sandboxName.
+Pour les parcours en direct, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
+
+La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : UID JourneyVersion, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
 ### Entrée{#entrance}
 
-Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c’est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse rejoindre de nouveau le parcours et rebénéficier de l’offre.
+Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c&#39;est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse rejoindre de nouveau le parcours et rebénéficier de l&#39;offre.
 
-Lorsqu’un parcours &quot;se termine&quot;, il a le statut **[!UICONTROL Fermé]**. Il n’est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
+Lorsqu’un parcours &quot;se termine&quot;, il a le statut **[!UICONTROL Fermé]**. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
 
 Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
-Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans les propriétés du parcours (champ **[!UICONTROL Temporisation et erreur]**), le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
+Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d&#39;erreur ou de temporisation. Si la durée de traitement de l&#39;activité qui interroge un système tiers dépasse la durée de temporisation définie dans les propriétés du parcours (champ **[!UICONTROL Temporisation et erreur]**), le deuxième chemin d&#39;accès est choisi pour effectuer une éventuelle action de remplacement.
 
 Les valeurs autorisées sont comprises entre 1 et 30 secondes.
 
-Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Temporisation et erreur]** si votre parcours est sensible au temps (c’est le cas, par exemple, lorsqu’il convient de réagir à la position en temps réel d’une personne), car l’action ne peut pas être différée de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d’accorder davantage de temps au système appelé pour envoyer une réponse valide.
+Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Temporisation et erreur]** si votre parcours est sensible au temps (c&#39;est le cas, par exemple, lorsqu&#39;il convient de réagir à la position en temps réel d&#39;une personne), car l&#39;action ne peut pas être différée de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d&#39;accorder davantage de temps au système appelé pour envoyer une réponse valide.
 
-Les parcours utilisent également une temporisation globale. Pour plus d’informations, consultez la [section suivante](#global_timeout).
+Les parcours utilisent également une temporisation globale. Pour plus d&#39;informations, consultez la [section suivante](#global_timeout).
 
 ### Temporisation de parcours globale {#global_timeout}
 
-Outre la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette valeur de temporisation mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d’autres termes, la durée du parcours d’un individu ne peut pas excéder 30 jours. Après cette période de temporisation de 30 jours, les données le concernant sont supprimées. Les individus qui sont encore actifs dans le parcours au terme de cette période de temporisation sont arrêtés et considérés comme des « erreurs » dans le cadre du reporting.
+Outre la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, il existe une temporisation globale qui n&#39;est pas affichée dans l&#39;interface et qui ne peut pas être modifiée. Cette valeur de temporisation mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 30 jours. Après cette période de temporisation de 30 jours, les données le concernant sont supprimées. Les individus qui sont encore actifs dans le parcours au terme de cette période de temporisation sont arrêtés et considérés comme des « erreurs » dans le cadre du reporting.
 
 >[!NOTE]
 >
->Les parcours ne réagissent pas directement aux demandes de désinscription, de suppression ou d’accès. Cependant, la temporisation globale limite à 30 jours la durée d’activité d’un individu au sein d’un parcours.
+>Les parcours ne réagissent pas directement aux demandes de désinscription, de suppression ou d&#39;accès. Cependant, la temporisation globale limite à 30 jours la durée d&#39;activité d&#39;un individu au sein d&#39;un parcours.
 
-Compte tenu de la temporisation de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 30 jours.
+Compte tenu de la temporisation de 30 jours, lorsque la rentrée n&#39;est pas autorisée, nous sommes dans l&#39;impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 30 jours.
 
 ### Fuseau horaire et fuseau horaire du profil {#timezone}
 
@@ -110,7 +112,7 @@ Les fuseaux horaires sont définis au niveau du parcours.
 
 Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours.
 
-Pour plus d’informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
+Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
 
 ### Mode de rafale {#burst}
 
@@ -138,40 +140,40 @@ Le mode d’éclatement sera désactivé si vous modifiez un parcours d’éclat
 
 Ensuite, testez et publiez votre parcours normalement. Les messages du mode test ne sont pas envoyés via le mode d’éclatement.
 
-## Terminaison d’un parcours
+## Terminaison d&#39;un parcours
 
-Deux raisons peuvent entraîner la terminaison d’un parcours pour un individu :
+Deux raisons peuvent entraîner la terminaison d&#39;un parcours pour un individu :
 
-* Le client arrive à la dernière activité d’un chemin. Il ne doit pas nécessairement s’agir d’une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
-* Le client arrive à une activité de condition (ou à une activité d’attente avec une condition) et ne répond à aucune des conditions.
+* Le client arrive à la dernière activité d&#39;un chemin. Il ne doit pas nécessairement s&#39;agir d&#39;une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
+* Le client arrive à une activité de condition (ou à une activité d&#39;attente avec une condition) et ne répond à aucune des conditions.
 
 Il peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-gs.md#change-properties)
 
-Les raisons suivantes peuvent entraîner la fermeture d’un parcours :
+Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
 * Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
 * Un parcours basé sur un segment « unique » qui a terminé son exécution.
-* Après la dernière occurrence d’un parcours récurrent basé sur un segment.
+* Après la dernière occurrence d&#39;un parcours récurrent basé sur un segment.
 
-Lorsqu’un parcours est fermé (pour l’une des raisons ci-dessus), il a le statut **[!UICONTROL Fermé]**. Le parcours n’est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+Lorsqu’un parcours est fermé (pour l’une des raisons ci-dessus), il a le statut **[!UICONTROL Fermé]**. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
-Si nécessaire, il est possible d’arrêter la progression de tous les individus dans le parcours. L’arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
+Si nécessaire, il est possible d&#39;arrêter la progression de tous les individus dans le parcours. L&#39;arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
 
 Voici comment fermer ou arrêter manuellement un parcours :
 
-Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entrées]** permettent de terminer les parcours **actifs**. Fermer un parcours suppose le **blocage de tout nouvel accès** et la possibilité, pour les clients ayant déjà rejoints le parcours, de poursuivre l’expérience jusqu’à son terme. Il s’agit de la méthode recommandée pour mettre fin à un parcours, car elle offre la meilleure expérience pour les clients. L’arrêt d’un parcours suppose qu’il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l’arrêt.
+Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entrées]** permettent de terminer les parcours **actifs**. Fermer un parcours suppose le **blocage de tout nouvel accès** et la possibilité, pour les clients ayant déjà rejoints le parcours, de poursuivre l&#39;expérience jusqu&#39;à son terme. Il s&#39;agit de la méthode recommandée pour mettre fin à un parcours, car elle offre la meilleure expérience pour les clients. L&#39;arrêt d&#39;un parcours suppose qu&#39;il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt.
 
 >[!NOTE]
 >
 >Notez que vous ne pouvez pas reprendre un parcours fermé ou arrêté.
 
-### Fermeture d’un parcours
+### Fermeture d&#39;un parcours
 
-Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre.
+Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qui l&#39;ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre.
 
 Une fois fermé, un parcours a le statut **[!UICONTROL Fermé]**. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
-La version d’un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
+La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
 
 Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Ellipse]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
 
@@ -184,16 +186,16 @@ Vous pouvez également réaliser les opérations suivantes :
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**. Une boîte de dialogue s’affiche.
+1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**. Une boîte de dialogue s&#39;affiche.
 1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** pour confirmer.
 
-### Arrêt d’un parcours
+### Arrêt d&#39;un parcours
 
-Vous pouvez arrêter un parcours lorsqu’une urgence s’est produite et qu’il doit être mis fin immédiatement à tout processus.
+Vous pouvez arrêter un parcours lorsqu&#39;une urgence s&#39;est produite et qu&#39;il doit être mis fin immédiatement à tout processus.
 
-La version d’un parcours arrêté ne peut pas être redémarrée.
+La version d&#39;un parcours arrêté ne peut pas être redémarrée.
 
-Lorsqu’un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
+Lorsqu&#39;un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
 
 Vous pouvez arrêter un parcours, par exemple, si un marketeur se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Ellipse]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
 
@@ -206,5 +208,5 @@ Vous pouvez également réaliser les opérations suivantes :
 
 ![](../assets/finish_drop_down_list.png)
 
-1. Cliquez sur **[!UICONTROL Arrêter]**. Une boîte de dialogue s’affiche.
+1. Cliquez sur **[!UICONTROL Arrêter]**. Une boîte de dialogue s&#39;affiche.
 1. Cliquez sur **[!UICONTROL Arrêter]** pour confirmer.
