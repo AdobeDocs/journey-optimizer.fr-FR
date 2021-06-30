@@ -5,14 +5,14 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 94%
+source-wordcount: '958'
+ht-degree: 93%
 
 ---
 
-# Utiliser un segment dans un parcours {#segment-trigger-activity}
+# Utilisation d’un segment dans un parcours {#segment-trigger-activity}
 
 ## À propos de l’activité Lecture de segment {#about-segment-trigger-actvitiy}
 
@@ -21,8 +21,6 @@ L’activité Lecture de segment vous permet de faire entrer dans un parcours to
 Prenons l’exemple du segment « Ouverture et passage en caisse de l’application Luma » créé dans le cas d’utilisation de [Création de segments](../segment/about-segments.md). Avec l’activité Lecture de segment, vous pouvez faire en sorte que tous les individus appartenant à ce segment rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
 
 >[!NOTE]
->
->Il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
 >
 >Le module complémentaire payant Burst permet d’envoyer très rapidement des messages push en gros volumes pour des parcours simples comprenant un segment de lecture et un message push simple. Voir à ce sujet [cette section](../building-journeys/journey-gs.md#burst)
 
@@ -62,7 +60,7 @@ Les étapes de configuration de l’activité Lecture de segment sont les suivan
 
    ![](../assets/read-segment-schedule.png)
 
-   Par défaut, les segments rejoignent le parcours **[!UICONTROL Dès que possible]**, c’est-à-dire 1 heure après la publication de celui-ci. Si vous souhaitez que le segment rejoigne le parcours à une date/heure spécifique ou de façon récurrente, sélectionnez la valeur de votre choix dans la liste.
+   Par défaut, les segments entrent dans le parcours **[!UICONTROL Dès que possible]**. Si vous souhaitez que le segment rejoigne le parcours à une date/heure spécifique ou de façon récurrente, sélectionnez la valeur de votre choix dans la liste.
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les j
 Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
 >[!NOTE]
->
->Lorsqu’un parcours basé sur un segment qui n’est pas récurrent (« commençant dès que possible » ou « une fois ») est exécuté, son état devient automatiquement « fermé ».
 >
 >Pour les parcours récurrents basés sur des segments, le parcours se ferme automatiquement une fois sa dernière occurrence exécutée. Si aucune date/heure de fin n&#39;a été spécifiée, vous devrez fermer manuellement le parcours à de nouvelles entrées pour le terminer.
 
