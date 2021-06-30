@@ -7,10 +7,10 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 30e916e834bfed304f246264cdb091cb5ad60d41
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,11 @@ Lorsque Journey Optimizer exécute un appel à une API externe, les barrières 
 
 ## Limitation{#capping}
 
-L&#39;API de limitation native offre une barrière de sécurité technique en amont qui permet de protéger votre système externe. Au préalable, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une règle de limitation afin que votre système ne sature pas.
+L&#39;API de limitation native offre une barrière de sécurité technique en amont qui permet de protéger votre système externe.
+
+Pour les sources de données externes, le nombre maximal d’appels par seconde est défini sur 15. Si le nombre d’appels dépasse 15 par seconde, les appels restants sont ignorés. Vous pouvez augmenter cette limite pour les sources de données externes privées. Contactez l’Adobe pour placer sur la liste autorisée le point de terminaison . Cela n’est pas possible pour les sources de données externes publiques.
+
+Pour les actions personnalisées, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une règle de limitation afin que votre système ne sature pas.
 
 Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée). Au moment de l&#39;exécution, Journey Optimizer vérifie si une règle de limitation est définie et applique le taux défini lors des appels à ce point d&#39;entrée. Si le nombre d&#39;appels dépasse le taux défini, les appels restants sont ignorés et comptabilisés comme des erreurs dans les rapports.
 
@@ -68,7 +72,7 @@ Prenons un exemple pour une temporisation de 5 secondes.
 
 **Comment configurer une règle de limitation ? Existe-t-il une règle de limitation par défaut ?**
 
-Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée), à l&#39;aide de l&#39;API de limitation. Consultez [cette section](../configuration/external-systems.md#capping) et [cette page](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr).
+Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée), à l&#39;aide de l&#39;API de limitation. Consultez [cette section](../configuration/external-systems.md#capping) et [cette page](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
 
 **Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
 
