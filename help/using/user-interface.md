@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
+source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 77%
+source-wordcount: '1256'
+ht-degree: 74%
 
 ---
 
@@ -154,7 +154,7 @@ Dans la plupart des listes, une barre de recherche permet de rechercher un élé
 
 Pour accéder aux filtres, cliquez sur l&#39;icône en forme de filtre en haut à gauche de la liste. Le menu Filtrer permet de filtrer les éléments affichés en fonction de différents critères. Il est possible d&#39;afficher uniquement les éléments d&#39;un certain type ou dans un statut donné, ceux que vous avez créés, ou ceux que vous avez modifiés au cours des 30 derniers jours. Les options varient en fonction du contexte.
 
-Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Vous pouvez choisir d&#39;afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l&#39;aide des **[!UICONTROL filtres d&#39;activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](building-journeys/using-the-journey-designer.md).
+Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur état, type et version à partir des **[!UICONTROL filtres d’état et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lire le segment]**, **[!UICONTROL Evénement commercial]** ou **[!UICONTROL Démarrer]**. Vous pouvez choisir d&#39;afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l&#39;aide des **[!UICONTROL filtres d&#39;activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
