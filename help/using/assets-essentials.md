@@ -5,9 +5,9 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
+source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '395'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> Pour travailler avec [!DNL Adobe Experience Manager Assets Essentials], vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que vous faites partie des **utilisateurs consommateurs d’Assets Essentials** ou/et des **profils utilisateurs d’Assets Essentials**. <br> Pour plus d’informations à ce propos, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html).
+> Pour utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs qui doivent accéder à [!DNL Assets Essentials] font partie des **utilisateurs consommateurs d’Assets Essentials** ou/et **utilisateurs d’Assets Essentials** profils de produit. <br> Pour plus d’informations à ce propos, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html).
 
 [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages. Il est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** . Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email. [En savoir plus sur la conception](design-emails.md) des emails.
 
