@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
+source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 49%
+source-wordcount: '395'
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,7 @@ Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], vous devez :
 
 * **Définissez les autorisations** utilisateur : connectez-vous à  [!DNL Adobe Journey Optimizer] et accordez l’accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
 
-* **Déployer[!DNL Adobe Experience Manager Assets Essentials]**: pour gérer les ressources et les images dans vos messages, vous devez déployer  [!DNL Assets Essentials] pour votre organisation et vous assurer que vous faites partie des profils  **Utilisateurs du client** Assets Essentials/et  **UtilisateursProduit** Assets Essentials. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **Déployer[!DNL Adobe Experience Manager Assets Essentials]**: pour gérer les ressources et les images dans vos messages, vous devez déployer  [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs, qui doivent accéder à  [!DNL Assets Essentials], font partie des profils  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **Configurez vos canaux** : définissez les paramètres de votre email et de votre notification push. [En savoir plus](../using/configuration/get-started-configuration.md)
 
