@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
+source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 62%
 
 ---
 
@@ -17,24 +17,132 @@ ht-degree: 100%
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 
-## Prise en main
-
-* [Présentation de Journey Optimizer](using/get-started.md) </br> Découvrez les principales fonctionnalités et comment commencer à utiliser la solution.
-
-* [Conception du contenu d&#39;un email](using/design-emails.md) </br> Créez un nouvel email ou importez du contenu HTML existant.
-
-* [Envoi de messages](using/building-journeys/journeys-message.md) </br> Découvrez comment ajouter des emails et des messages push dans vos parcours clients.
-
-* [Création de votre premier parcours](using/building-journeys/journeys-uc.md) </br> Découvrez comment créer et exécuter un parcours.
-
-* [Configuration [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Découvrez les étapes clés de la configuration de Journey Optimizer.
-
-* [Octroi du contrôle d&#39;accès [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Découvrez comment définir et gérer les autorisations attribuées aux utilisateurs de [!DNL Journey Optimizer].
-
-* [Decision management](using/offers/get-started/starting-offer-decisioning.md) </br> Créez des offres et proposez les meilleures offres et expériences à vos clients.
-
-## Ressources supplémentaires
-
-* [Guide d&#39;Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr)
-* [Présentation de l&#39;accès à Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr)
-* [Ressources Adobe Experience Platform destinées aux développeurs](https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html)
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <div><strong>Prise en main</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <div>
+      <a href="using/get-started.md">Présentation de Journey Optimizer</a>
+    </div>
+    <p>  Découvrez les principales fonctionnalités et comment commencer à utiliser la solution.
+    <p>
+    <div>
+      <a href="using/design-emails.md">Concevoir un contenu d'email</a>
+    </div>
+    <p>
+    Concevoir un nouvel email ou importer un contenu HTML existant
+    <p>
+    <div>
+      <a href="using/building-journeys/journeys-message.md">Envoyer les messages</a>
+    </div>
+    <p>Découvrez comment ajouter des messages push et des emails dans vos parcours clients
+    <p>
+    <div>
+    <a href="using/building-journeys/journeys-uc.md">Créer votre premier parcours</a>
+    </div>
+    <p>Découvrez comment créer et exécuter un parcours
+    <p>
+    <div>
+    <a href="using/configuration/get-started-configuration.md">Configuration de [!DNL Journey Optimizer]</a>
+    </div>
+    <p>Découvrez les étapes clés de la configuration de [!DNL Journey Optimizer]
+    <p>
+    <div>
+    <a href="using/administration/permissions-overview.md">Accorder l’accès à [!DNL Journey Optimizer]</a>
+    </div>
+    <p>Découvrez comment définir et gérer les autorisations affectées aux utilisateurs de [!DNL Journey Optimizer]
+    <p>
+    <div>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">Gestion des décisions</a>
+    </div>
+    <p>  Créez des offres et proposez les meilleures offres et expériences à vos clients.
+    <p>
+    <p>
+    <div><strong>Ressources supplémentaires</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr">Documentation Adobe Experience Platform</a>
+    </div>
+      <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr">Présentation de l'accès à Adobe Experience Platform</a>
+    </div>
+      <div>
+      <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html">Ressources Adobe Experience Platform destinées aux développeurs</a>
+    </div>
+  </td>
+   <td>
+   <div><strong>Liens directs vers les ressources clés</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <p>GESTION DES PARCOURS</p>
+    <li>
+      <a href="using/building-journeys/journey-gs.md">Parcours</a>
+    </li>
+    <li>
+      <a href="using/create-message.md">Messages</a>
+    </li>
+    <p>
+    <p>DECISION MANAGEMENT</p>
+    <li>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">Offres</a>
+    </li>
+     <li>
+      <a href="using/offers/offer-library/key-steps.md">Composants</a>
+    </li>
+    <p>
+    <p>GESTION DE CONTENU</p>
+    <li>
+      <a href="using/assets-essentials.md">Assets</a>
+    </li>
+    <p>
+    <p>GESTION DES DONNÉES</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr">Schémas</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr">Jeux de données</a>
+    </li>
+        <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=fr">Requêtes</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr">Surveillance</a>
+    </li>
+    <p>
+    <p>CONNEXIONS</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr">Sources</a>
+    </li>
+    <p>
+    <p>CLIENT</p>
+    <li>
+      <a href="using/segment/about-segments.md">Segments</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr">Profils</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">Identité</a>
+    </li>
+    <p>
+    <p>ADMINISTRATION</p>
+    <li>
+      <a href="using/configuration/about-data-sources-events-actions.md">Configurations </a>
+    </li>
+    <li>
+      <a href="using/configuration/get-started-configuration.md">Canaux</a>
+    </li>
+     <li>
+      <a href="using/administration/sandboxes.md">Environnements de test</a>
+    </li>
+  </td>
+</tr>
+</table>
