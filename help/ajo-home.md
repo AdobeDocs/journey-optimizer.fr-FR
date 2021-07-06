@@ -5,7 +5,7 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
+source-git-commit: 6a2304fc3b6262d339b7bf1f229f12ba68f1a993
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 51%
@@ -68,22 +68,22 @@ ht-degree: 51%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Description du produit Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr">Documentation Adobe Experience Platform</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation Adobe Experience Platform</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr">Présentation de l'accès à Adobe Experience Platform</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr" target="_blank">Présentation de l'accès à Adobe Experience Platform</a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html">Ressources Adobe Experience Platform destinées aux développeurs</a>
+      <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources Adobe Experience Platform destinées aux développeurs</a>
     </li>
     </div>
   </td>
@@ -125,7 +125,7 @@ ht-degree: 51%
       <a href="using/get-started-queries.md">Requêtes</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr">Surveillance</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr" target="_blank">Surveillance</a>
     </li>
     <p>
     <p>CONNEXIONS</p>
