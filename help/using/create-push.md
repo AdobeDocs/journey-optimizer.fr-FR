@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -78,7 +78,7 @@ Cliquez sur **[!UICONTROL Développer la vue]** pour prévisualiser vos boutons 
 
 ## Envoyer une notification silencieuse
 
-Une notification push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l&#39;application. Elle est par exemple utilisée pour informer votre application de la disponibilité d&#39;un nouveau contenu ou pour lancer un téléchargement en arrière-plan.
+Une notification push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l&#39;application. Il est utilisé, par exemple, pour informer votre application de la disponibilité du nouveau contenu ou lancer un téléchargement en arrière-plan.
 
 Sélectionnez l&#39;option **[!UICONTROL Notification silencieuse]** pour avertir l&#39;application en silence : dans ce cas, la notification est transférée directement à l&#39;application. Aucune alerte ne s&#39;affiche sur l&#39;écran de l&#39;appareil.
 
