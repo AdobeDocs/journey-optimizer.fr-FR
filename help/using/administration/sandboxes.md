@@ -5,10 +5,10 @@ feature: Populations témoins
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. [Découvrez comment affecter des environnements Sandbox](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] reflète les environnements Sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
-Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d&#39;utilisation des environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr).
+Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d’utilisation des environnements de test ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d&#39;un environnement Sandbox à un autre, cliquez sur l&#39;environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
 
@@ -28,7 +28,7 @@ La commande de sélecteur des environnements Sandbox se trouve dans la partie su
 
 >[!IMPORTANT]
 >
-> La gestion des environnements Sandbox peut uniquement être effectuée par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> La gestion des environnements Sandbox peut uniquement être effectuée par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**. Pour plus d’informations à ce sujet, consultez la [documentation de la console d’administration](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
 
 Vous pouvez choisir d&#39;affecter différents environnements Sandbox aux **[!UICONTROL profils de produit]** prêts à l&#39;emploi ou personnalisés.
 
@@ -46,7 +46,7 @@ Pour affecter des environnements Sandbox :
 
    ![](../assets/sandbox_2.png)
 
-1. Dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
+1. Dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements de test](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr){target=&quot;_blank&quot;}.
 
    ![](../assets/sandbox_3.png)
 
@@ -64,4 +64,4 @@ Pour configurer l&#39;accessibilité de votre contenu, vous devez affecter un do
 
 Notez que pour que votre contenu soit synchronisé avec l&#39;environnement Sandbox correct, vous devez suivre la même syntaxe que cet environnement. Par exemple, si votre environnement Sandbox est appelé développement, votre dossier partagé doit porter le même nom.
 
-[Découvrez comment gérer les dossiers partagés](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) .
+[Découvrez comment gérer les dossiers partagés](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}.
