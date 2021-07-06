@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -143,7 +143,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **resolveURL**
 
       **Champ :** resolveURL
-      **Description :** localisateur de ressource unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d&#39;obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
+      **Description :** localisateur de ressource unique facultatif pour lire la ressource dans un référentiel de contenu. Cela facilite l’obtention de la ressource sans que le client ne comprenne où la ressource est gérée et les API à appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
       **Type :** chaîne
       **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
@@ -193,7 +193,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** profileConstraints 
 **Titre :** Détails de la contrainte de profil
-**Description :** Les contraintes de profil déterminent si une option est éligible pour cette identité de profil, à l&#39;heure actuelle, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante des options de la sélection d&#39;options, la contrainte de profil qui prend la valeur &quot;false&quot; annule l&#39;ensemble de la sélection d&#39;options. D&#39;un autre côté, une règle de contrainte de profil qui prend une option en tant que paramètre est évaluée pour chaque option de qualification de la sélection d&#39;options.
+**Description :** Les contraintes de profil déterminent si une option est éligible pour cette identité de profil, à l&#39;heure actuelle, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante des options de la sélection d&#39;options, la contrainte de profil qui prend la valeur &quot;false&quot; annule l&#39;ensemble de la sélection d&#39;options. D’un autre côté, une règle de contrainte de profil qui utilise une option comme paramètre est évaluée pour chaque option admissible de la sélection d’option.
 **Type :** objet
 
 **_experience > prise de décision > profileConstraints > Description**
@@ -212,9 +212,9 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **_experience > prise de décision > profileConstraints > Type de contrainte de profil**
 
-**Champ :** profileConstraintType
-**Titre :** type de contrainte de profil
-**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s&#39;agir d&#39;une règle ou d&#39;un ou plusieurs abonnements de segment.
+**Champ :** profileConstraintType 
+**Titre :** Type de contrainte de profil 
+**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s&#39;agir d&#39;une règle ou d&#39;un ou plusieurs abonnements de segment.
 **Type :** chaîne 
 **Valeurs possibles :**
 * &quot;none&quot; (par défaut)
@@ -299,7 +299,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** priorité
 **Titre :** priorité
-**Description :** priorité d&#39;une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
+**Description :** priorité d&#39;une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n’est donnée sont classées par priorité à l’aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
 **Type :** entier
 **Valeur minimum :** 0
 **Valeur par défaut :** 0
