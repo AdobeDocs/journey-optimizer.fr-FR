@@ -1,24 +1,24 @@
 ---
-title: Cas d'utilisation de la personnalisation
-description: Cas d'utilisation de la personnalisation
+title: Cas d'utilisation de la personnalisation&deux-points; notification de statut de la commande
+description: Découvrez comment personnaliser un message à l’aide des informations de profil, de décision d’offre et de contexte
 feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 97%
+source-wordcount: '624'
+ht-degree: 90%
 
 ---
 
 
-# Cas d&#39;utilisation de la personnalisation {#personalization-use-case}
+# Cas pratique de personnalisation : notification de statut de la commande {#personalization-use-case}
 
 Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
 
 * **Profil** : personnalisation des messages en fonction d&#39;un champ de profil
-* **Décision d&#39;offre** : personnalisation basée sur des variables de prise de décision d&#39;offre
+* **Décision** de l’offre : personnalisation basée sur des variables d’offer decisioning
 * **Contexte** : personnalisation basée sur les données contextuelles du parcours
 
 L’objectif de cet exemple est de transmettre un événement à [!DNL Journey Optimizer] chaque fois qu’une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
@@ -116,7 +116,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc17.png)
 
-1. Entrez les différentes valeurs à transmettre dans le test. Le mode test ne fonctionne qu&#39;avec les profils de test. L&#39;identifiant de profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
+1. Entrez les différentes valeurs à transmettre dans le test. Le mode test ne fonctionne qu&#39;avec les profils de test. L’identifiant de profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
 
    ![](assets/perso-uc18.png)
 
