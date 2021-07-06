@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Dans cet exemple, nous allons créer un segment pour cibler tous les clients ré
 
    ![](../assets/create-segment.png)
 
-   L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. Découvrez comment configurer des segments dans la [documentation de service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+   L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. Découvrez comment configurer des segments dans la [documentation Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
    ![](../assets/segment-builder.png)
 
@@ -32,7 +32,7 @@ Dans cet exemple, nous allons créer un segment pour cibler tous les clients ré
 
    >[!NOTE]
    >
-   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **profil individuel XDM** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la [documentation Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **profil individuel XDM** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la [documentation du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
    ![](../assets/drag-fields.png)
 
