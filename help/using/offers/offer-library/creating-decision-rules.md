@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Nommez votre règle et fournissez une description, puis configurez-la en fonction de vos besoins.
 
-   Pour ce faire, le **Créateur de segments** d&#39;Adobe Experience Platform est disponible pour vous aider à créer les conditions de la règle. Pour plus d&#39;informations sur son utilisation, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
+   Pour ce faire, le **créateur de segments** est disponible pour vous aider à créer les conditions de la règle. [En savoir plus](../../segment/about-segments.md)
 
    Dans cet exemple, la règle cible les clients qui ont le niveau de fidélité « Or ».
 
