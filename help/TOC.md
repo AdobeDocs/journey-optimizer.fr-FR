@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 99%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 99%
       + [Conception de votre contenu d&#39;e-mail dans l&#39;interface utilisateur](using/create-email-content.md)
       + [Importer ou coder le contenu de votre e-mail](using/existing-content.md)
       + [Utiliser les composants de contenu du concepteur d&#39;email](using/content-components.md)
+   + [Ajout de liens et suivi des messages](using/message-tracking.md)
    + Valider et publier {#create-message}
       + [Prévisualisation et BAT](using/preview.md)
       + [Vérification des alertes](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 99%
    + [Prise en main   de la personnalisation](using/personalization/personalize.md)
    + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
    + [Validation de la personnalisation](using/personalization/personalization-validation.md)
-   + [Cas d&#39;utilisation : ajouter une personnalisation dans une notification push](using/personalization/personalization-use-case.md)
+   + Cas d&#39;utilisation{#personalization-use-cases}
+      + [Notification d’état de commande](using/personalization/personalization-use-case.md)
+      + [Email d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
    + Fonctions d&#39;assistance{#functions}
       + [Liste des fonctions d&#39;assistance](using/personalization/functions/functions.md)
       + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 99%
       + [Envoi de messages à plusieurs canaux](using/building-journeys/journeys-uc.md)
       + [Envoi de messages à l&#39;aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Tracker et surveiller {#reporting}
-   + [Tracking des messages](using/message-tracking.md)
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
       + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
