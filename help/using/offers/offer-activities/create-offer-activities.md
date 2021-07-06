@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur la diffusion des offres, reportez-vous aux sectio
 
 >[!NOTE]
 >
->Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées et visualiser toutes les modifications qui y ont été apportées dans l’onglet **[!UICONTROL Log des modifications]** (voir [Log des modifications apportées aux offres et aux décisions](../get-started/user-interface.md#changes-log)).
+>Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées et visualiser toutes les modifications qui lui ont été apportées à l’aide de l’onglet **[!UICONTROL Journal des modifications]** (voir [Journal des modifications des offres et des décisions](../get-started/user-interface.md#changes-log)).
 
 ## Tutoriel vidéo {#video}
 
