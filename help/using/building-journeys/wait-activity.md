@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 89%
+source-wordcount: '415'
+ht-degree: 85%
 
 ---
 
@@ -50,7 +50,7 @@ Sélectionnez la date d&#39;exécution de l&#39;activité suivante.
 
 ## Attente personnalisée{#custom}
 
-Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l&#39;aide d&#39;une expression avancée basée sur un champ provenant d&#39;un événement ou d&#39;une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr). Pour plus d&#39;informations sur le format dateTimeOnly, voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=fr).
+Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l&#39;aide d&#39;une expression avancée basée sur un champ provenant d&#39;un événement ou d&#39;une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir [Documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr){target=&quot;_blank&quot;}. Pour plus d’informations sur le format dateTimeOnly, consultez la [documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=fr){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
