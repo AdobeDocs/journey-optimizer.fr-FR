@@ -5,10 +5,10 @@ feature: Paramétrage de l’application
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 89%
+source-wordcount: '797'
+ht-degree: 87%
 
 ---
 
@@ -49,13 +49,13 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 
 * **SDK mobile Adobe Experience Platform** qui fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Le SDK fournit une extension [!DNL Adobe Journey Optimizer] exposant diverses API spécifiques à la messagerie push et permettant le flux de données comme l’enregistrement du jeton push ou l’envoi d’événements de suivi push ou de tout autre événement d’expérience personnalisé à Adobe Experience Platform. Le SDK fournit également de nombreuses autres extensions qui activent d&#39;autres fonctionnalités Adobe Experience Cloud ainsi que des fonctionnalités de partenaires tiers.
 
-   L&#39;intégration du SDK nécessite également la configuration des services de [collecte de données](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr) Adobe Experience Platform, notamment :
+   L’intégration du SDK nécessite également la configuration des services de [collecte de données](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr){target=&quot;_blank&quot;} de Adobe Experience Platform tels que :
 
    * Création d&#39;un flux de données pour configurer les jeux de données de profil et d&#39;événement d&#39;expérience par rapport auxquels les données sont transmises à Adobe Experience Platform
    * Création de propriétés mobiles côté client et ajout d&#39;extensions. Le SDK s&#39;intègre étroitement avec ces extensions pour offrir une expérience de collecte de données transparente.
    * Enregistrement de l&#39;identifiant d&#39;offre groupée d&#39;applications mobiles et des informations d&#39;identification de l&#39;application
 
-* Le **Profil client en temps réel Adobe Experience Platform** offre une vue holistique de chaque client en combinant des données issues de plusieurs canaux, notamment le web, les appareils mobiles, le CRM et des tiers. Le Profil vous permet de consolider vos données client en une vue unifiée offrant un compte horodaté et exploitable de chaque interaction client. Le jeton push d&#39;un utilisateur de l&#39;application donné est stocké par rapport au profil de l&#39;utilisateur en tant que données d&#39;enregistrement, tandis que les interactions de l&#39;utilisateur avec les notifications push sont suivies en tant que données d&#39;événements de série temporelle. [En savoir plus sur le Profil client en temps réel Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
+* Le **Profil client en temps réel Adobe Experience Platform** offre une vue holistique de chaque client en combinant des données issues de plusieurs canaux, notamment le web, les appareils mobiles, le CRM et des tiers. Le Profil vous permet de consolider vos données client en une vue unifiée offrant un compte horodaté et exploitable de chaque interaction client. Le jeton push d&#39;un utilisateur de l&#39;application donné est stocké par rapport au profil de l&#39;utilisateur en tant que données d&#39;enregistrement, tandis que les interactions de l&#39;utilisateur avec les notifications push sont suivies en tant que données d&#39;événements de série temporelle. [En savoir plus sur le Profil client en temps réel Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 * **[!DNL Adobe Journey Optimizer]**[!DNL Adobe Journey Optimizer] : une fois que vos intégrations d&#39;applications mobiles avec les composants mentionnés ci-dessus sont en place, ainsi que vos profils client dans Adobe Experience Platform, vous pouvez créer et orchestrer des notifications push dans pour interagir avec vos utilisateurs.
 
