@@ -15,10 +15,10 @@ feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '465'
+ht-degree: 93%
 
 ---
 
@@ -47,6 +47,10 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    ![](../assets/subdomain-name.png)
 
+   >[!CAUTION]
+   >
+   >Assurez-vous d’avoir saisi un sous-domaine valide, tel que marketing.company.com. La délégation d’un sous-domaine non valide à l’Adobe n’est pas autorisée.
+
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
 
    Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
@@ -73,7 +77,7 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    ![](../assets/subdomain-processing.png)
 
-1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
+1. Une fois les vérifications effectuées, le sous-domaine obtient l’état **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
 
    <!-- later on, users will be notified in Pulse -->
 
