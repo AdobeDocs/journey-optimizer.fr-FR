@@ -7,10 +7,10 @@ feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -35,5 +35,5 @@ Bien que ces exigences soient gérées au moyen de composants hébergés à la f
 **En savoir plus**
 
 * Découvrez comment [déléguer vos sous-domaines](delegate-subdomain.md) directement à partir de l&#39;interface.
-* Découvrez comment [ajouter des enregistrements TXT Google](google-txt.md) à vos sous-domaines pour réussir la diffusion des e-mails aux adresses Gmail.
+* Découvrez comment [ajouter des enregistrements TXT Google](google-txt.md) à vos sous-domaines pour garantir la diffusion réussie des emails aux adresses Gmail.
 * Découvrez comment [accéder aux enregistrements PTR](ptr-records.md) générés pour vos sous-domaines, ce qui permet aux serveurs de messagerie de les vérifier.
