@@ -7,10 +7,10 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 93%
+source-wordcount: '1027'
+ht-degree: 89%
 
 ---
 
@@ -66,7 +66,7 @@ Prenons un exemple pour une temporisation de 5 secondes.
 * Le premier appel dure plus de 5 secondes : l&#39;appel est annulé et il n&#39;y a aucune reprise. Il est compté comme une erreur de temporisation dans les rapports.
 * Le premier appel échoue après 2 secondes (le système externe renvoie une erreur) : 3 secondes restent pour les reprises, si des emplacements de limitation sont disponibles.
    * Si l&#39;une des trois reprises réussit avant la fin des 5 secondes, l&#39;appel est effectué et aucune erreur ne se produit.
-   * Si la fin du délai de temporisation est atteinte lors des nouvelles reprises, l&#39;appel est annulé et compté comme une erreur de temporisation dans les rapports.
+   * Si la fin du délai d’expiration est atteinte lors des nouvelles tentatives, l’appel est annulé et compté comme une erreur de délai d’expiration dans les rapports.
 
 ## Questions fréquemment posées{#faq}
 
@@ -74,7 +74,7 @@ Prenons un exemple pour une temporisation de 5 secondes.
 
 Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée), à l&#39;aide de l&#39;API de limitation. Consultez [cette section](../configuration/external-systems.md#capping) et [cette page](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
 
-**Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
+**Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d’attente minimale entre deux reprises ?**
 
 Pour un appel donné, trois reprises au maximum peuvent être effectuées jusqu&#39;à la fin du délai de temporisation. Le nombre de reprises et la durée entre chaque reprise ne peuvent pas être modifiés. Reportez-vous à [cette section](../configuration/external-systems.md#timeout).
 
