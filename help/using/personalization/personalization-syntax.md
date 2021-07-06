@@ -5,10 +5,10 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Exemple d&#39;expression simple :
 où :
 
 * `profile` est un espace de noms.
-* `person.name` est un jeton composé par des attributs. La structure des attributs est définie dans un schéma XDM Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+* `person.name` est un jeton composé par des attributs. La structure des attributs est définie dans un schéma XDM Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Règles générales de syntaxe
 
@@ -45,7 +45,7 @@ Dans Handlebars, les valeurs renvoyées par {{expression}} se caractérisent par
 
 ## Profile
 
-Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 Les attributs doivent être définis dans le schéma avant d&#39;être référencés dans un bloc de personnalisation [!DNL Journey Optimizer].
 
