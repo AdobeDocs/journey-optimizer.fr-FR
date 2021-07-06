@@ -5,10 +5,10 @@ feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 91%
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -58,4 +58,4 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaill�
 * [Champs d’identité des événements journeyStep](../reports/sharing-identity-fields.md)
 * [Champs du parcours](../reports/sharing-journey-fields.md)
 
-Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr).
+Pour plus d’informations sur la création de rapports d’événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr){target=&quot;_blank&quot;}.
