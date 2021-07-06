@@ -4,7 +4,7 @@ description: Découvrez comment gérer la confidentialité.
 topic: Confidentialité
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 95%
@@ -35,7 +35,7 @@ Les données personnelles et sensibles doivent être gérées avec soin. Suivez 
 
 * Abstenez-vous d’envoyer des messages non sollicités (« courrier indésirable »). Adobe croit fermement dans les principes du consentement (permission marketing) pour fidéliser le client et offrir une valeur ajoutée tout au long de sa durée de vie et interdit donc strictement l’utilisation de Journey Optimizer pour envoyer des messages non sollicités.
 
-Journey Optimizer vous permet de gérer les droits attribués à vos utilisateurs au moyen de différents profils de produit prédéfinis ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Découvrez la gestion des droits d’accès des utilisateurs dans [Gérer les autorisations](../administration/permissions.md).
+Journey Optimizer vous permet de gérer les droits attribués à vos utilisateurs au moyen de différents profils de produit prédéfinis ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Découvrez la gestion des droits d’accès des utilisateurs dans [Gérer les autorisations](administration/permissions.md).
 
 Journey Optimizer vous permet également de suivre les messages envoyés et le comportement de vos destinataires à travers les ouvertures et les clics sur les liens. [En savoir plus sur la gestion du suivi](message-tracking.md).
 
