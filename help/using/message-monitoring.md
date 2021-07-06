@@ -5,10 +5,10 @@ feature: Surveillance
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '540'
+ht-degree: 97%
 
 ---
 
@@ -87,6 +87,6 @@ Pour chaque exécution de message, plusieurs indicateurs s&#39;affichent :
 
 * **[!UICONTROL Erreurs]** : nombre de messages qui ne peuvent pas être envoyés en raison d&#39;une défaillance technique.
 
-* **[!UICONTROL Plaintes contre le spam]** : nombre de messages signalés comme spam par les destinataires. [En savoir plus sur les plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability)
+* **[!UICONTROL Plaintes contre le spam]** : nombre de messages signalés comme spam par les destinataires. Pour en savoir plus sur les plaintes, consultez le [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 Cliquer sur chaque lien hypertexte entraîne l&#39;ouverture de la vue de synthèse de message correspondante. [En savoir plus sur les messages](create-message.md).
