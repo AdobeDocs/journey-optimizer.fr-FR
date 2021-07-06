@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 87%
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Les décisions (précédemment appelées activités d&#39;offre) sont des conteneurs qui s&#39;appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
-![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 La liste des décisions est accessible dans le menu **[!UICONTROL Offres]**/onglet **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leurs statuts ou de leurs dates de début ou de fin.
 
