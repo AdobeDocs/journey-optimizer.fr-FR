@@ -6,7 +6,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Une fois votre message créé, vous pouvez le publier pour le rendre disponible 
 
 >[!CAUTION]
 >
->Avant de publier, vérifiez et résolvez les alertes. [En savoir plus](alerts.md).
+>Avant de publier, vérifiez et résolvez les alertes. [En savoir plus](alerts.md)
 
 ![](assets/publish-message.png)
 
