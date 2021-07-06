@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
@@ -18,7 +18,7 @@ Vous pouvez créer des règles de décision d&#39;offre basées sur les données
 
 Par exemple, vous pouvez indiquer que vous souhaitez qu&#39;une « offre vêtements d&#39;hiver pour femmes » s&#39;affiche lorsque (genre = « femme ») et (région = « nord-est »).
 
-![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 La liste des règles de décision créées est accessible dans le menu **[!UICONTROL Composants]**.
 
