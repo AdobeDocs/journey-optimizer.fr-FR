@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1597'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -180,7 +180,7 @@ Votre pré-titre est maintenant configuré pour votre email.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Paramètres d’arrière-plan"
->abstract="Le Concepteur d’email vous permet de personnaliser la couleur ou l’image de fond de votre contenu. Notez que l’image de fond n’est pas prise en charge par tous les clients de messagerie."
+>abstract="Le Concepteur d&#39;email vous permet de personnaliser la couleur d&#39;arrière-plan ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Informations supplémentaires"
 
 Lorsqu’il s’agit de définir des arrière-plans avec le Concepteur d’email, Adobe recommande ce qui suit :
