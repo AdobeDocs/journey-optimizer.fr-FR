@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 97%
@@ -30,9 +30,9 @@ Voici quelques-uns des avantages :
 * Workflows améliorés : au lieu de créer plusieurs diffusions ou campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en modifiant les offres dans différentes parties du modèle ;
 * Contrôle du nombre d&#39;affichages d&#39;une offre sur plusieurs campagnes et clients.
 
-![](../../assets/do-not-localize/how-to-video.png) [Regardez ces tutoriels vidéo](#tutorial-videos) pour en savoir plus sur Decision Management.
+➡️ [Regardez ces tutoriels vidéo](#tutorial-videos) pour en savoir plus sur Decision Management.
 
-## À propos des offres et décisions {#offers-offer-activities}
+## À propos des offres et des décisions {#offers-offer-activities}
 
 Une **Offre** est composée de contenu, de règles d&#39;éligibilité et de contraintes qui définissent les conditions dans lesquelles elle est présentée à vos clients.
 
@@ -98,7 +98,7 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 >
 >Ces vidéos s’appliquent au service applicatif Offer Decisioning basé sur Adobe Experience Platform et ne sont pas spécifiques à [!DNL Adobe Journey Optimizer]. Elles fournissent toutefois des directives générales pour l&#39;utilisation de Decision Management dans le contexte de [!DNL Journey Optimizer].
 
-### Qu&#39;est-ce que Decision Management ? {#what-is-offer-decisioning}
+### Qu&#39;est-ce que Decision Management ?  {#what-is-offer-decisioning}
 
 La vidéo ci-dessous présente les principales fonctionnalités, l’architecture et les cas d’utilisation de Decision Management :
 
