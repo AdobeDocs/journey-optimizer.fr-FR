@@ -5,10 +5,10 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 99%
+ht-degree: 92%
 
 ---
 
@@ -107,11 +107,11 @@ Toutes les références sont validées par rapport au schéma d&#39;offre avec u
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Contenu textuel de l&#39;offre provenant du moteur de décision :
+* Contenu textuel de l’offre provenant du moteur de prise de décision :
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* Contenu HTML de l&#39;offre provenant du moteur de décision :
+* Contenu HTML de l’offre provenant du moteur de prise de décision :
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -121,7 +121,7 @@ Toutes les références sont validées par rapport au schéma d&#39;offre avec u
 Un assistant Handlebars est un identifiant simple qui peut être suivi de paramètres.
 Chaque paramètre est une expression Handlebars. Ces assistants sont accessibles depuis n&#39;importe quel contexte dans un modèle.
 
-Ces assistants de bloc sont identifiés par un # précédant le nom de l&#39;assistant et nécessitent une fermeture /, du même nom.
+Ces assistants de bloc sont identifiés par un # précédant le nom de l’assistant et nécessitent une fermeture / correspondante du même nom.
 Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fermeture ({{/}}).
 
 
