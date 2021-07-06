@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 48%
+ht-degree: 45%
 
 ---
 
@@ -57,4 +57,4 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours et e
 
 * **Créer des parcours** : envoyez des messages, utilisez des données contextuelles, affinez les audiences, concevez et exécutez des cas d&#39;utilisation à plusieurs étapes. [En savoir plus](building-journeys/journey.md)
 
-* **Surveiller les messages et les parcours** : contrôlez l&#39;exécution des messages, vérifiez les rapports de message et de parcours, assurez le suivi des mesures de délivrabilité. [En savoir plus](message-monitoring.md)
+* **Surveillez les messages et les parcours** : contrôler l’exécution des messages, vérifier les rapports des messages et des parcours, suivre les mesures de délivrabilité. [En savoir plus](message-monitoring.md)
