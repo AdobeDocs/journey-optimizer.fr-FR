@@ -5,10 +5,10 @@ feature: Événements
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 86%
+source-wordcount: '197'
+ht-degree: 88%
 
 ---
 
@@ -32,4 +32,4 @@ Cela active le connecteur source Analytics pour cette suite de rapports. Chaque 
 
 ![](../assets/jo-event9.png)
 
-Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) et le [tutoriel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target=&quot;_blank&quot;} et [tutoriel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target=&quot;_blank&quot;}.
