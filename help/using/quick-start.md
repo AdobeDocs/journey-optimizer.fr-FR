@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 45%
+source-wordcount: '403'
+ht-degree: 43%
 
 ---
 
@@ -26,7 +26,7 @@ Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], vous devez :
 
 * **Définissez les autorisations** utilisateur : connectez-vous à  [!DNL Adobe Journey Optimizer] et accordez l’accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
 
-* **Déployer[!DNL Adobe Experience Manager Assets Essentials]**: pour gérer les ressources et les images dans vos messages, vous devez déployer  [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs, qui doivent accéder à  [!DNL Assets Essentials], font partie des profils  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **Déployer[!DNL Adobe Experience Manager Assets Essentials]**: pour gérer les ressources et les images dans vos messages, vous devez déployer  [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs, qui doivent accéder à  [!DNL Assets Essentials], font partie des profils  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **Configurez vos canaux** : définissez les paramètres de votre email et de votre notification push. [En savoir plus](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], vous devez :
 
 * **Identifier les données et créer un schéma et un jeu de données** : intégrez vos données à Adobe Experience Platform, créez un espace de noms d&#39;identités et un jeu de données activé pour les profils, créez des segments et testez les profils.
 
-   * Découvrez comment prévisualiser et créer un jeu de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr)
+   * Découvrez comment prévisualiser et créer un jeu de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr){target=&quot;_blank&quot;}
 
-   * Découvrez comment créer un espace de noms d’identité dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#manage-namespaces)
+   * Découvrez comment créer un espace de noms d’identité dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#manage-namespaces){target=&quot;_blank&quot;}
 
    * Découvrez comment créer des profils de test dans [cette page](../using/building-journeys/creating-test-profiles.md)
 
-   * En savoir plus sur l’ingestion de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr)
+   * En savoir plus sur l’ingestion de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target=&quot;_blank&quot;}
 
 
 ### Flux d&#39;utilisation
