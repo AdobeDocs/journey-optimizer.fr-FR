@@ -5,10 +5,10 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 90%
+source-wordcount: '626'
+ht-degree: 89%
 
 ---
 
@@ -82,7 +82,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 1. Sélectionnez la catégorie **Contexte**. Cet élément n&#39;est disponible que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
    * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité **Message** dans le parcours.
-   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=fr#building-advanced-conditions-journeys).
+   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=fr#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
 
    ![](assets/perso-uc10.png)
 
