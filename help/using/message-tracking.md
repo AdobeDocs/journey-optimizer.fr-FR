@@ -1,22 +1,22 @@
 ---
 title: Suivre vos messages
-description: Découvrez comment suivre les messages envoyés.
+description: Découvrez comment ajouter des liens et suivre les messages envoyés
 feature: Surveillance
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 16%
+source-wordcount: '573'
+ht-degree: 11%
 
 ---
 
-# Tracking des messages {#tracking}
+# Ajout de liens et suivi des messages {#tracking}
 
-Utilisez [!DNL Journey Optimizer] pour tracker les messages envoyés et le comportement de vos destinataires.
+Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et suivre les messages envoyés afin de surveiller le comportement de vos destinataires.
 
-## Activer le suivi {#enable-tracking}
+## Activation du suivi {#enable-tracking}
 
 Vous pouvez activer le tracking au niveau du message en cochant les options **[!UICONTROL Ouvrir le tracking pour les emails]** et/ou **[!UICONTROL Suivi des clics pour les emails]** lors de la [création de votre message](create-message.md).
 
@@ -50,7 +50,7 @@ Pour insérer des liens dans le contenu de votre email, procédez comme suit :
 
    * **[!UICONTROL Lien]** de désabonnement : Insérez un lien pour vous désabonner de la réception des communications de votre marque. Pour en savoir plus sur la gestion des opt-out, consultez [cette section](consent.md#opt-out-management).
 
-   * **[!UICONTROL Page miroir]** : Insérez un lien pour afficher le contenu de l&#39;email dans un navigateur web.
+   * **[!UICONTROL Page miroir]** : Insérez un lien pour afficher le contenu de l&#39;email dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
@@ -65,7 +65,29 @@ Pour insérer des liens dans le contenu de votre email, procédez comme suit :
 
    ![](assets/message-tracking-link-settings.png)
 
-## Gérer le suivi {#manage-tracking}
+## Lien vers une page miroir {#mirror-page}
+
+La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de votre email.
+
+Pour ajouter un lien vers une page miroir dans votre email, [insérez un lien](#insert-links) et sélectionnez **[!UICONTROL Page miroir]** comme type de lien.
+
+![](assets/message-tracking-mirror-page.png)
+
+La page miroir est automatiquement créée.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas modifier le lien généré automatiquement.
+
+Une fois l&#39;email envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l&#39;email s&#39;affiche dans leur navigateur web par défaut.
+
+>[!NOTE]
+>
+>Dans la balise [BAT](preview.md#send-proofs) envoyée aux profils de test, le lien vers la page miroir n’est pas principal. Elle n’est activée que dans les messages finaux.
+
+La période de conservation d’une page miroir est de 60 jours. Après ce délai, la page miroir ne sera plus disponible.
+
+## Gestion du suivi {#manage-tracking}
 
 Le [Concepteur d’email](create-email-content.md) permet de gérer les URL trackées, comme l’édition du type de tracking pour chaque lien.
 
