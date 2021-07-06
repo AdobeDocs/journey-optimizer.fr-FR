@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 83%
+source-wordcount: '1603'
+ht-degree: 82%
 
 ---
 
@@ -70,7 +70,7 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 
    ![](assets/email_designer_3.png)
 
-1. Chaque composant peut être davantage personnalisé via la section **[!UICONTROL Paramètres des composants]**. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de votre composant. [En savoir plus sur les styles dans l’éditeur d’email](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html?lang=fr).
+1. Chaque composant peut être davantage personnalisé via la section **[!UICONTROL Paramètres des composants]**. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de votre composant. Pour en savoir plus sur les styles de l’éditeur de courrier électronique, consultez la [documentation Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html?lang=fr){target=&quot;_blank&quot;}.
 
    ![](assets/email_designer_4.png)
 
