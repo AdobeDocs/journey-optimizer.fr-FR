@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 87%
+source-wordcount: '607'
+ht-degree: 86%
 
 ---
 
@@ -67,7 +67,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    Ajoutez un ou plusieurs segments du volet de gauche, combinez-les à l&#39;aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**, puis cliquez sur **[!UICONTROL Sélectionner]** pour confirmer.
 
-   Pour plus d&#39;informations sur l&#39;utilisation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+   Pour plus d’informations sur l’utilisation des segments, consultez [cette page](../../segment/about-segments.md).
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur la diffusion des offres, reportez-vous aux sectio
 
 >[!NOTE]
 >
->Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées et visualiser toutes les modifications qui lui ont été apportées à l’aide de l’onglet **[!UICONTROL Journal des modifications]** (voir [Journal des modifications des offres et des décisions](../get-started/user-interface.md#changes-log)).
+>Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées et visualiser toutes les modifications qui lui ont été apportées à l’aide de l’onglet **[!UICONTROL Journal des modifications]**. [En savoir plus](../get-started/user-interface.md#changes-log).
 
 ## Tutoriel vidéo {#video}
 
