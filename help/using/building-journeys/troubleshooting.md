@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 100%
+source-wordcount: '1062'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Le point de départ d&#39;un parcours est toujours un événement. Il est possib
 
 Vous pouvez ainsi vérifier si l&#39;appel d&#39;API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l&#39;en-tête (et en particulier l&#39;identifiant d&#39;organisation) et l&#39;URL de destination. Vous pouvez demander à votre administrateur l&#39;URL appropriée pour l&#39;accès.
 
-Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s&#39;appuient sur les API d&#39;ingestion en flux continu d&#39;Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter [cette page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr) pour la résolution des problèmes concernant les API d&#39;ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s&#39;appuient sur les API d&#39;ingestion en flux continu d&#39;Adobe Experience Platform. Par conséquent, en cas de problèmes liés aux événements, vous pouvez consulter la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target=&quot;_blank&quot;} pour la résolution des problèmes des API d’ingestion en flux continu.
 
 ## Vérification de l&#39;entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
 
