@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 35%
+source-wordcount: '536'
+ht-degree: 34%
 
 ---
 
@@ -79,7 +79,7 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
    >[!NOTE]
    >
-   >Dans cet exemple, nous utiliserons l’espace de noms **Email**. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#getting-started).
+   >Dans cet exemple, nous utiliserons l’espace de noms **Email**. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](get-started-identity.md).
 
 1. Dans la liste des espaces de noms d’identité, sélectionnez **[!UICONTROL Email]** et cliquez sur **[!UICONTROL Sélectionner]**.
 
