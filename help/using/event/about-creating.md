@@ -5,10 +5,10 @@ feature: Événements
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 87%
+source-wordcount: '1720'
+ht-degree: 82%
 
 ---
 
@@ -73,7 +73,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 ## Définition des champs de payload {#define-the-payload-fields}
 
-La définition de la payload vous permet de choisir les informations que le système s&#39;attend à recevoir de l&#39;événement dans votre parcours, ainsi que la clé permettant d&#39;identifier la personne associée à l&#39;événement. La payload est basée sur la définition de champ XDM d&#39;Experience Cloud. Pour plus d&#39;informations sur XDM, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+La définition de la payload vous permet de choisir les informations que le système s&#39;attend à recevoir de l&#39;événement dans votre parcours, ainsi que la clé permettant d&#39;identifier la personne associée à l&#39;événement. La payload est basée sur la définition de champ XDM d&#39;Experience Cloud. Pour plus d’informations sur XDM, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Sélectionnez un schéma XDM dans la liste et cliquez sur le champ **[!UICONTROL Champs]** ou sur l’icône **[!UICONTROL Modifier]**.
 
@@ -101,9 +101,9 @@ La définition de la payload vous permet de choisir les informations que le syst
 
 ## Sélectionnez l&#39;espace de noms {#select-the-namespace}
 
-Un espace de noms vous permet de définir le type de clé utilisé pour identifier la personne associée à l&#39;événement. Sa configuration est facultative. Elle est obligatoire si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant de [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr). Il n&#39;est pas nécessaire de définir l&#39;espace de noms si vous utilisez uniquement des données provenant d&#39;un système tiers via une source de données personnalisée.
+Un espace de noms vous permet de définir le type de clé utilisé pour identifier la personne associée à l&#39;événement. Sa configuration est facultative. Elle est requise si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant de [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}. Il n&#39;est pas nécessaire de définir l&#39;espace de noms si vous utilisez uniquement des données provenant d&#39;un système tiers via une source de données personnalisée.
 
-Vous pouvez utiliser l&#39;un des espaces de noms prédéfinis ou en créer un à l&#39;aide du service Espace de noms d&#39;identité. Voir cette [page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr).
+Vous pouvez utiliser l&#39;un des espaces de noms prédéfinis ou en créer un à l&#39;aide du service Espace de noms d&#39;identité. Reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 Si vous sélectionnez un schéma ayant une identité Principale, les champs **[!UICONTROL Identifiant du profileur]** et **[!UICONTROL Espace de noms]** sont préremplis. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un espace de noms et la clé sera préremplie (sous le champ **[!UICONTROL Espace de noms]**) à l&#39;aide de _identityMap > id_.
 
@@ -122,7 +122,7 @@ Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs é
 
 La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l&#39;événement et permettant au système d&#39;identifier la personne associée à l&#39;événement. Il peut s&#39;agir de l&#39;Experience Cloud ID, d&#39;un ID CRM ou encore d&#39;une adresse e-mail.
 
-Si vous prévoyez d&#39;exploiter les données stockées dans la base de données de profils clients en temps réel, vous devez sélectionner, comme clé d&#39;événement, les informations que vous avez définies en tant qu&#39;identité d&#39;un profil dans le [service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Si vous prévoyez d’exploiter les données stockées dans la base de données Real-time Customer Profile, vous devez sélectionner, comme clé d’événement, les informations que vous avez définies comme identité d’un profil dans le [service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Le système pourra ainsi effectuer la réconciliation entre l&#39;événement et le profil de l&#39;individu. Si vous sélectionnez un schéma doté d’une identité Principale, les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Espace de noms]** sont préremplis. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un espace de noms et la clé sera préremplie (sous le champ **[!UICONTROL Espace de noms]**) à l&#39;aide de _identityMap > id_.
 
@@ -143,7 +143,7 @@ Si vous devez utiliser une autre clé, telle qu&#39;un ID CRM ou une adresse e-
 Lorsque l&#39;événement est reçu, la valeur de la clé permet au système d&#39;identifier la personne qui y est associée. Associée à un espace de noms (voir [cette section](../event/about-creating.md#select-the-namespace)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
-Vous avez également accès aux fonctions d&#39;expression avancées (**[!UICONTROL Mode avancé]**) si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d&#39;un champ (les 10 premiers caractères, par exemple), etc. Voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr).
+Vous avez également accès aux fonctions d&#39;expression avancées (**[!UICONTROL Mode avancé]**) si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d&#39;un champ (les 10 premiers caractères, par exemple), etc. Voir [Documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Ajoutez une condition {#add-a-condition}
 
@@ -151,7 +151,7 @@ La condition n’est disponible que pour les événements générés par le syst
 
 La condition relative aux événements ne peut être basée que sur les données transmises dans la payload d&#39;événement. La condition définie au niveau de l&#39;événement ne peut pas être modifiée par un marketeur dans la zone de travail. L&#39;objectif est de rendre cette condition plus stricte lorsque cet événement est utilisé. Par exemple, si vous ne souhaitez pas que les marketeurs utilisent des événements d&#39;abandon de panier si la valeur du panier est trop faible, vous pouvez créer une condition sur le champ d&#39;événement « valeur du panier » et imposer une valeur supérieure à 100 euros.
 
-Vous pouvez utiliser l&#39;éditeur d&#39;expression simple ou avancé pour configurer des conditions sur les événements. Voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+Vous pouvez utiliser l&#39;éditeur d&#39;expression simple ou avancé pour configurer des conditions sur les événements. Voir [Documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}.
 
 Vous pouvez, par exemple, définir une condition pour ne traiter que les événements d&#39;un type spécifique et ignorer les autres. Si votre événement est un abandon de panier et que la payload comprend le champ de valeur de panier, vous pouvez définir une condition d&#39;événement afin de ne traiter les événements que si la valeur du panier est supérieure à 100 euros.
 
