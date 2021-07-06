@@ -6,10 +6,10 @@ feature: Populations témoins
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 97%
+source-wordcount: '853'
+ht-degree: 95%
 
 ---
 
@@ -101,8 +101,7 @@ Si nécessaire, vous pouvez également créer un profil de produit avec des auto
 
 [!DNL Journey Optimizer] vous permet de créer vos propres **[!UICONTROL profils de produit]** et d&#39;attribuer un ensemble de droits et d&#39;environnements Sandbox à vos utilisateurs. Avec les **[!UICONTROL profils de produit]**, vous pouvez autoriser ou refuser l&#39;accès à certaines fonctionnalités ou à certains objets de l&#39;interface.
 
-Pour plus d&#39;informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d&#39;Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr).
-
+Pour plus d’informations sur la création et la gestion des environnements de test, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs pourront uniquement accéder aux parcours et les afficher. Ils ne pourront pas accéder à d&#39;autres fonctionnalités telles que **[!UICONTROL Gestion des décisions]** ou **[!UICONTROL Messages]** dans [!DNL Journey Optimizer].
 
@@ -142,7 +141,7 @@ Pour créer nos **[!UICONTROL profils de produit]** **Parcours en lecture seule*
 
    ![](../assets/access_control_13.png)
 
-1. Dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
+1. Dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](sandboxes.md).
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
