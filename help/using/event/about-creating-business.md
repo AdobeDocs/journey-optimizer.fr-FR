@@ -5,10 +5,10 @@ feature: Événements
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 94%
+source-wordcount: '846'
+ht-degree: 92%
 
 ---
 
@@ -78,7 +78,7 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
 ## Définition des champs de payload {#define-the-payload-fields}
 
-La définition de la payload vous permet de choisir les informations que le système s&#39;attend à recevoir de l&#39;événement dans votre parcours, ainsi que la clé permettant d&#39;identifier la personne associée à l&#39;événement. La payload est basée sur la définition de champ XDM d&#39;Experience Cloud. Pour plus d&#39;informations sur XDM, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+La définition de la payload vous permet de choisir les informations que le système s&#39;attend à recevoir de l&#39;événement dans votre parcours, ainsi que la clé permettant d&#39;identifier la personne associée à l&#39;événement. La payload est basée sur la définition de champ XDM d&#39;Experience Cloud. Pour plus d’informations sur XDM, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Sélectionnez un schéma XDM dans la liste et cliquez sur le champ **[!UICONTROL Champs]** ou sur l’icône **[!UICONTROL Modifier]**.
 
