@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 85%
 
 ---
 
@@ -44,4 +44,4 @@ Après avoir créé une formule de classement, vous pouvez l’affecter à un em
 
 La formule de classement est désormais associée à l&#39;emplacement.
 
-Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera la formule de classement pour calculer l&#39;offre à diffuser en premier.
+Si plusieurs offres peuvent être présentées à cet emplacement, la décision utilisera la formule de la formule de classement pour calculer la première offre à diffuser.
