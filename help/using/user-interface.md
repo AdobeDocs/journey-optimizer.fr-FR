@@ -5,9 +5,9 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1274'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ Une fois connecté à [Adobe Experience Cloud](http://experience.adobe.com), acc
 
 >[!NOTE]
 >
->* Les concepts clés lors de la navigation dans l’interface utilisateur sont communs à Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide) .
+>* Les concepts clés lors de la navigation dans l’interface utilisateur sont communs à Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
    >
    >
 * Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications apportées à l’interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
@@ -61,31 +61,31 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL GESTION DES DONNÉES]**
 
-* **[!UICONTROL Schémas]** - Utilisez Adobe Experience Platform pour créer et gérer des schémas de modèle de données d&#39;expérience (XDM) dans une zone de travail visuelle interactive appelé Éditeur de schéma. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr)
+* **[!UICONTROL Schémas]** - Utilisez Adobe Experience Platform pour créer et gérer des schémas de modèle de données d&#39;expérience (XDM) dans une zone de travail visuelle interactive appelé Éditeur de schéma. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Jeux de données]** - Toutes les données correctement ingérées par Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour la collecte de données, généralement sous la forme d&#39;un tableau, qui contient un schéma (des colonnes) et des champs (des lignes). [Découvrez comment prévisualiser et créer un jeu de données dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr)
+* **[!UICONTROL Jeux de données]** - Toutes les données correctement ingérées par Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour la collecte de données, généralement sous la forme d&#39;un tableau, qui contient un schéma (des colonnes) et des champs (des lignes). [Découvrez comment prévisualiser et créer un jeu de données dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=fr)
+* **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=fr){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr)
+* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNEXIONS]**
 
-* **[!UICONTROL Sources]** - Utilisez ce menu pour ingérer des données provenant de diverses sources (applications Adobe, enregistrements basés sur cloud, bases de données, etc.) et structurer, libeller et améliorer les données entrantes. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr)
+* **[!UICONTROL Sources]** - Utilisez ce menu pour ingérer des données provenant de diverses sources (applications Adobe, enregistrements basés sur cloud, bases de données, etc.) et structurer, libeller et améliorer les données entrantes. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target=&quot;_blank&quot;}
 
 **[!UICONTROL CLIENT]**
 
 * **[!UICONTROL Segments]** - Créez et gérez des définitions de segment Experience Platform et exploitez-les dans vos parcours. En savoir plus sur [cette page](segment/about-segments.md)
 
-* **[!UICONTROL Profils]** - Le profil client en temps réel offre une vue d&#39;ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr)
+* **[!UICONTROL Profils]** - Le profil client en temps réel offre une vue d&#39;ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Identités]** - Le service d&#39;identités d&#39;Adobe Experience Platform gère l&#39;identification inter-appareils, inter-canaux et en temps quasi réel de vos clients, dans ce qu&#39;on appelle un graphique d&#39;identités dans Adobe Experience Platform. [Découvrez comment créer un espace de noms d&#39;identité dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#manage-namespaces)
+* **[!UICONTROL Identités]** - Le service d&#39;identités d&#39;Adobe Experience Platform gère l&#39;identification inter-appareils, inter-canaux et en temps quasi réel de vos clients, dans ce qu&#39;on appelle un graphique d&#39;identités dans Adobe Experience Platform. [Découvrez comment créer un espace de noms d&#39;identité dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#manage-namespaces){target=&quot;_blank&quot;}
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Administration des parcours]** - Utilisez ce menu pour configurer les [événements](event/about-events.md), les [sources de données](datasource/about-data-sources.md) et les [actions](action/action.md) à utiliser dans vos parcours.
 
-* **[!UICONTROL Environnements de test]** - Adobe Experience fournit des environnements de test qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l&#39;évolution d&#39;applications d&#39;expérience numérique. [En savoir plus sur les environnements de test dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr)
+* **[!UICONTROL Environnements de test]** - Adobe Experience fournit des environnements de test qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l&#39;évolution d&#39;applications d&#39;expérience numérique. [En savoir plus sur les environnements de test dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}
 
 
 ## Cas d’utilisation internes au produit
