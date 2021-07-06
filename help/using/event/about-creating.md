@@ -5,7 +5,7 @@ feature: Événements
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 87%
@@ -147,7 +147,7 @@ Vous avez également accès aux fonctions d&#39;expression avancées (**[!UICONT
 
 ## Ajoutez une condition {#add-a-condition}
 
-La condition n&#39;est disponible que pour les événements générés par le système. Vous pouvez définir une condition d&#39;événement qui permet au système de filtrer le traitement des événements. Si la condition est vraie, l&#39;événement est traité. Dans le cas contraire, il est ignoré.
+La condition n’est disponible que pour les événements générés par le système. Vous pouvez définir une condition d&#39;événement qui permet au système de filtrer le traitement des événements. Si la condition est vraie, l&#39;événement est traité. Dans le cas contraire, il est ignoré.
 
 La condition relative aux événements ne peut être basée que sur les données transmises dans la payload d&#39;événement. La condition définie au niveau de l&#39;événement ne peut pas être modifiée par un marketeur dans la zone de travail. L&#39;objectif est de rendre cette condition plus stricte lorsque cet événement est utilisé. Par exemple, si vous ne souhaitez pas que les marketeurs utilisent des événements d&#39;abandon de panier si la valeur du panier est trop faible, vous pouvez créer une condition sur le champ d&#39;événement « valeur du panier » et imposer une valeur supérieure à 100 euros.
 
