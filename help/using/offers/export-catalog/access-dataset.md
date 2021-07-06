@@ -5,14 +5,14 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '102'
+ht-degree: 86%
 
 ---
 
-# Accès au catalogue d’offres exporté {#access-exported-catalog}
+# Accès au catalogue d&#39;offres exporté {#access-exported-catalog}
 
 Le catalogue d’offres exporté est accessible dans le menu **[!UICONTROL Jeux de données]** d’Adobe Experience Platform. Un jeu de données est créé pour chaque objet de votre bibliothèque des offres.
 
@@ -26,4 +26,4 @@ Le bouton **[!UICONTROL Prévisualiser le jeu de données]** vous permet d’aff
 
 ![](../../assets/dataset-preview.png)
 
-Pour plus d’informations sur la recherche et l’utilisation des jeux de données, reportez-vous à la [documentation sur les jeux de données d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started).
+Pour plus d’informations sur la navigation et l’utilisation des jeux de données, consultez [cette page](../../get-started-datasets.md).
