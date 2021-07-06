@@ -4,10 +4,10 @@ description: Découvrez comment créer des requêtes dans Adobe Journey Optimize
 feature: Schémas
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -24,5 +24,5 @@ Découvrez comment utiliser l’éditeur de requêtes dans [cette documentation]
 
 **Voir également**
 
-* [Documentation de Query Service](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [Vidéo de présentation de Query Service](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [Documentation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target=&quot;_blank&quot;}
+* [Vidéo de présentation de Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=fr){target=&quot;_blank&quot;}
