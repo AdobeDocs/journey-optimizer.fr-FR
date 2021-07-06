@@ -1,14 +1,14 @@
 ---
-title: Création d'offres personnalisées
+title: Création d’offres personnalisées
 description: Découvrez comment créer des offres personnalisées dans Adobe Experience Platform.
 feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 95%
+source-wordcount: '954'
+ht-degree: 90%
 
 ---
 
@@ -90,7 +90,7 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
 
    Vous pouvez limiter la présentation de l&#39;offre aux membres d&#39;un ou de plusieurs segments d&#39;Adobe Experience Platform. Pour cela, activez l&#39;option **[!UICONTROL Visiteurs appartenant à un ou plusieurs segments]**, puis ajoutez un ou plusieurs segments dans le volet de gauche et combinez-les à l&#39;aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**.
 
-   Pour plus d&#39;informations sur l&#39;utilisation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+   Pour plus d’informations sur l’utilisation des segments, consultez [cette page](../../segment/about-segments.md).
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ Elle est maintenant prête à être diffusée aux utilisateurs. Vous pouvez la s
 
 ![](../../assets/offer_created.png)
 
-Une fois l&#39;offre créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées et surveiller toutes les modifications qui y ont été apportées dans l&#39;onglet **[!UICONTROL Log des modifications]** (voir [Surveillance des modifications apportées aux offres et aux décisions](../get-started/user-interface.md#monitoring-changes)).
+Une fois une offre créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées, ainsi que surveiller tous les changements qui lui ont été apportés à l&#39;aide de l&#39;onglet **[!UICONTROL Journal des modifications]**. [En savoir plus](../get-started/user-interface.md#monitoring-changes).
 
 ## Tutoriel vidéo {#video}
 
