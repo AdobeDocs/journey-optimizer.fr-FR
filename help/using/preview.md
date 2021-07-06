@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 90%
+source-wordcount: '914'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,6 @@ Pour détecter d&#39;éventuelles erreurs dans le contenu des e-mails ou les par
 >
 >Découvrez comment créer des profils de test dans [cette page](building-journeys/creating-test-profiles.md).
 
-
 Pour tester le contenu de votre message, vous devez :
 
 * [sélectionner des profils de test](#select-test-profiles)
@@ -38,6 +37,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 >
 >Lors de la prévisualisation d&#39;un message ou de l&#39;envoi de BAT, seules les données de personnalisation de profil s&#39;affichent. La personnalisation basée sur les données contextuelles, telles que les informations d’événement, ne peut être testée que dans le contexte d’un parcours. Découvrez comment tester la personnalisation dans [ce cas pratique](personalization/personalization-use-case.md).
 
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment prévisualiser, tester et publier votre email dans cette vidéo](#video-preview)
 
 ## Sélectionner des profils de test{#select-test-profiles}
 
@@ -166,3 +166,8 @@ Suivez ensuite les étapes ci-dessous :
 >
 >Lorsque vous connectez votre compte **Litmus** à [!DNL Journey Optimizer], vous acceptez que les messages de test soient envoyés à Litmus : une fois envoyés, ces e-mail ne sont plus gérés par Adobe. En conséquence, la politique e-mail de rétention des données de Litmus s&#39;applique à ces e-mails, y compris les données de personnalisation qui peuvent être incluses dans ces messages de test.
 
+## Vidéo pratique{#video-preview}
+
+Découvrez comment tester le rendu des emails dans les boîtes de réception, comment prévisualiser vos emails personnalisés par rapport aux profils de test, envoyer des bons à tirer et publier votre email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
