@@ -5,16 +5,16 @@ feature: Paramétrage de l’application
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1561'
 ht-degree: 23%
 
 ---
 
 # Configuration du canal de notifications push {#push-notification-configuration}
 
-[!DNL Journey Optimizer] vous permet de créer vos parcours et d’envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur l’application mobile, ainsi que dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. Pour comprendre le flux de données des notifications push dans Adobe Parcours optimizer, reportez-vous à [cette page](push-gs.md).
+[!DNL Journey Optimizer] vous permet de créer vos parcours et d’envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur l’application mobile, ainsi que dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. Pour comprendre le flux de données des notifications push dans [!DNL Adobe Journey Optimizer], reportez-vous à [cette page](push-gs.md).
 
 ## Avant de commencer
 
