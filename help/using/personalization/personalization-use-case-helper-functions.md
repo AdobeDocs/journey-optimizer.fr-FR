@@ -5,9 +5,9 @@ feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1084'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ Procédez de la façon suivante :
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le [type de données du nom de personne](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html).
+      En savoir plus sur le type de données de nom de personne [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 6. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
@@ -98,7 +98,7 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 1. Créez un événement dont le schéma inclut le tableau `productListItems` .
 2. Définissez tous les champs de ce tableau comme champs de charge utile pour cet événement.
 
-   En savoir plus sur le [type de données de l’élément de liste de produits](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html).
+   En savoir plus sur le type de données d’élément de liste de produits [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
 
 3. Créez un parcours commençant par cet événement.
 4. Ajoutez le message au parcours.
@@ -328,15 +328,15 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 
 ### Fonctions Handlebars
 
-[Assistants](functions/helpers.md)
+* [Assistants](functions/helpers.md)
 
-[Fonctions de chaîne](functions/string.md)
+* [Fonctions de chaîne](functions/string.md)
 
 ### Cas d’utilisation
 
-[Personnalisation avec les informations de profil, le contexte et l’offre](personalization-use-case.md)
+* [Personnalisation avec les informations de profil, le contexte et l’offre](personalization-use-case.md)
 
-[Personnalisation avec offre basée sur la décision](../offers/offers-e2e.md)
+* [Personnalisation avec offre basée sur la décision](../offers/offers-e2e.md)
 
 ## Tutoriel vidéo{#helper-functions-video}
 
