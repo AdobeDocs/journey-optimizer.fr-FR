@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 95%
@@ -20,7 +20,7 @@ Avant de créer une offre, assurez-vous que vous avez créé les éléments suiv
 * Une **règle de décision** qui définit la condition dans laquelle l&#39;offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
 * Une ou plusieurs **balises** que vous souhaitez associer à l&#39;offre. Voir [Création de balises](../offer-library/creating-tags.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Offres]**.
 
@@ -136,6 +136,6 @@ Une fois l&#39;offre créée, vous pouvez cliquer sur son nom dans la liste pour
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d’Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
