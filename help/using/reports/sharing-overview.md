@@ -1,18 +1,18 @@
 ---
 title: Présentation du partage des étapes du parcours
 description: Présentation du partage des étapes du parcours
-feature: Création de rapports
+feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 91%
 
 ---
 
-# Créer des rapports de parcours{#design-jo-reports}
+# Création de rapports de parcours{#design-jo-reports}
 
 Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de reporting global](global-report.md) intégrées, [!DNL Journey Optimizer] peut automatiquement envoyer des données de performances de parcours à Adobe Experience Platform afin qu’elles soient combinées à d’autres données à des fins d’analyse.
 
