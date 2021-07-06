@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 55%
+source-wordcount: '1374'
+ht-degree: 50%
 
 ---
 
@@ -22,9 +22,9 @@ Les méthodes disponibles pour créer des profils de test sont présentées ci-d
 
 * Vous pouvez créer un profil de test en téléchargeant un fichier [csv](#create-test-profiles-csv) ou en utilisant les [appels d’API](#create-test-profiles-api). Outre ces deux méthodes, Adobe Journey Optimizer est fourni avec un [cas d’utilisation interne au produit](#use-case-1) spécifique pour faciliter la création de profils de test.
 
-* Vous pouvez également charger un fichier json dans un jeu de données. Voir à ce propos la [documentation sur Data Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset).
+* Vous pouvez également charger un fichier json dans un jeu de données. Voir à ce propos la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-Notez que la création d’un profil de test est similaire à la création de profils standard dans Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
+Notez que la création d’un profil de test est similaire à la création de profils standard dans Adobe Experience Platform. Pour plus d’informations, consultez la [documentation de Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Conditions préalables {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la création de schémas, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#prerequisites).
+>Pour plus d’informations sur la création de schéma, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#prerequisites){target=&quot;_blank&quot;}.
 
 Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez de la façon suivante :
 
@@ -76,7 +76,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 
 >[!NOTE]
 >
-> Pour plus d&#39;informations sur la création de jeux de données, consultez la [documentation du service de catalogue](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started).
+> Pour plus d’informations sur la création de jeux de données, consultez la [documentation du service de catalogue](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started){target=&quot;_blank&quot;}.
 
 ## Cas d’utilisation interne au produit{#use-case-1}
 
@@ -88,7 +88,7 @@ Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d’utilisat
 
 Les informations suivantes sont requises :
 
-1. **Espace de noms** d’identité : L’espace de  [noms ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr) d’identité utilisé pour identifier de manière unique les profils de test. Par exemple, si le courrier électronique est utilisé pour identifier les profils de test, l’espace de noms d’identité **Email** doit être sélectionné. Si l’identifiant unique est le numéro de téléphone, l’espace de noms d’identité **Phone** doit être sélectionné.
+1. **Espace de noms** d’identité : L’espace de  [noms ](../get-started-identity.md) d’identité utilisé pour identifier de manière unique les profils de test. Par exemple, si le courrier électronique est utilisé pour identifier les profils de test, l’espace de noms d’identité **Email** doit être sélectionné. Si l’identifiant unique est le numéro de téléphone, l’espace de noms d’identité **Phone** doit être sélectionné.
 
 2. **Fichier** CSV : Fichier séparé par des virgules contenant la liste des profils de test à créer. Le cas d’utilisation exige un format prédéfini pour le fichier CSV contenant la liste des profils de test à créer. Chaque ligne du fichier doit inclure les champs suivants dans l’ordre correct :
 
@@ -171,11 +171,11 @@ Dans Adobe Experience Platform, vous pouvez créer des profils en téléchargean
 Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du test d&#39;un parcours. Reportez-vous à [cette section](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Pour plus d&#39;informations sur les imports de fichiers CSV, consultez la [documentation sur l&#39;ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials).
+> Pour plus d’informations sur les importations csv, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials){target=&quot;_blank&quot;}.
 
 ## Création de profils de test à l&#39;aide d&#39;appels d&#39;API{#create-test-profiles-api}
 
-Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. En savoir plus sur cette [page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Pour en savoir plus, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Vous devez utiliser un schéma de profil qui contient le groupe de champs &quot;Détails du test de profil&quot;. L’indicateur testProfile fait partie de ce groupe de champs.
 Lors de la création d&#39;un profil, veillez à transmettre la valeur : testProfile = true.
