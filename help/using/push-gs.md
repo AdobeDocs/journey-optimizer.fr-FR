@@ -5,10 +5,10 @@ feature: Paramétrage de l’application
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 98%
+source-wordcount: '793'
+ht-degree: 89%
 
 ---
 
@@ -20,16 +20,16 @@ Cette page vous aidera à configurer et à comprendre les services et les workfl
 
 Les étapes de configuration du canal push dans [!DNL Adobe Journey Optimizer] sont présentées dans [cette page](push-configuration.md).
 
-## Notifications push et Adobe Journey Optimizer
+## Notifications push et [!DNL Adobe Journey Optimizer]
 
 Le graphique suivant montre les systèmes et services impliqués dans les flux de données associés et décrit comment les notifications push sont diffusées sous la forme d&#39;un service de bout en bout.
 
 ![](assets/push-flow.png)
 
 1. Enregistrement de votre application mobile de marque (Android ou iOS) auprès d&#39;APNs d&#39;Apple et des services de messagerie push Google FCM
-1. Les services de messagerie génèrent un jeton push, qui est un identifiant qu&#39;Adobe Journey Optimizer utilisera pour cibler l&#39;appareil spécifique avec une notification push.
+1. Les services de messagerie génèrent un jeton push, qui est un identifiant que [!DNL Adobe Journey Optimizer] utilisera pour cibler l’appareil spécifique avec une notification push.
 1. Le jeton push généré précédemment est transmis à Adobe Experience Platform et synchronisé avec le profil client en temps réel. Cette opération est effectuée en standard avec un SDK client facile à intégrer.
-1. Les messages push sont créés dans Adobe Journey Optimizer ; ils sont créés selon un préréglage de message.
+1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer], les messages push sont créés par rapport à un paramètre prédéfini de message.
 1. Les messages push peuvent être inclus dans la zone de travail d&#39;orchestration des parcours.
 1. Lors de la publication des parcours, les profils client basés sur les conditions des parcours sont qualifiés pour recevoir des notifications push. Les payloads de messagerie push sont personnalisées à cette étape.
 1. Les payloads push personnalisées sont transférées vers un service de diffusion de messagerie push interne.
@@ -47,7 +47,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - pour envoyer des notifications à l&#39;application mobile Android
    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - pour envoyer des notifications à l&#39;application mobile iOS
 
-* **SDK mobile Adobe Experience Platform** qui fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Le SDK fournit une extension Adobe Journey Optimizer exposant différentes API spécifiques à la messagerie push et permettant les flux de données, comme l&#39;enregistrement du jeton push ou l&#39;envoi d&#39;événements de suivi push ou de tout autre événement d&#39;expérience personnalisé à Adobe Experience Platform. Le SDK fournit également de nombreuses autres extensions qui activent d&#39;autres fonctionnalités Adobe Experience Cloud ainsi que des fonctionnalités de partenaires tiers.
+* **SDK mobile Adobe Experience Platform** qui fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Le SDK fournit une extension [!DNL Adobe Journey Optimizer] exposant diverses API spécifiques à la messagerie push et permettant le flux de données comme l’enregistrement du jeton push ou l’envoi d’événements de suivi push ou de tout autre événement d’expérience personnalisé à Adobe Experience Platform. Le SDK fournit également de nombreuses autres extensions qui activent d&#39;autres fonctionnalités Adobe Experience Cloud ainsi que des fonctionnalités de partenaires tiers.
 
    L&#39;intégration du SDK nécessite également la configuration des services de [collecte de données](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr) Adobe Experience Platform, notamment :
 
@@ -57,7 +57,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 
 * Le **Profil client en temps réel Adobe Experience Platform** offre une vue holistique de chaque client en combinant des données issues de plusieurs canaux, notamment le web, les appareils mobiles, le CRM et des tiers. Le Profil vous permet de consolider vos données client en une vue unifiée offrant un compte horodaté et exploitable de chaque interaction client. Le jeton push d&#39;un utilisateur de l&#39;application donné est stocké par rapport au profil de l&#39;utilisateur en tant que données d&#39;enregistrement, tandis que les interactions de l&#39;utilisateur avec les notifications push sont suivies en tant que données d&#39;événements de série temporelle. [En savoir plus sur le Profil client en temps réel Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr)
 
-* **[!DNL Adobe Journey Optimizer]** : une fois que vos intégrations d&#39;applications mobiles avec les composants mentionnés ci-dessus sont en place, ainsi que vos profils client dans Adobe Experience Platform, vous pouvez créer et orchestrer des notifications push dans Adobe Journey Optimizer pour interagir avec vos utilisateurs.
+* **[!DNL Adobe Journey Optimizer]**[!DNL Adobe Journey Optimizer] : une fois que vos intégrations d&#39;applications mobiles avec les composants mentionnés ci-dessus sont en place, ainsi que vos profils client dans Adobe Experience Platform, vous pouvez créer et orchestrer des notifications push dans pour interagir avec vos utilisateurs.
 
 ## Configuration technique des notifications push et workflows pratiques
 
