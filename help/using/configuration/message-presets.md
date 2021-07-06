@@ -5,10 +5,10 @@ feature: Paramétrage de l’application
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 75%
+source-wordcount: '920'
+ht-degree: 71%
 
 ---
 
@@ -26,6 +26,8 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 
 
 Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Paramètres prédéfinis]** lors de la création de messages.
+
+![](../assets/do-not-localize/how-to-video.png) [Découvrez comment créer et utiliser des paramètres prédéfinis d’email dans cette vidéo](#video-presets)
 
 ## Création d&#39;un préréglage de message {#create-message-preset}
 
@@ -108,7 +110,7 @@ Pour créer un préréglage de message, procédez comme suit :
    * Vérification du pool d&#39;adresses IP
    * Enregistrement A/PTR, vérification du sous-domaine t/m/res
 
-1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
+1. Une fois les vérifications effectuées, le paramètre de message prédéfini obtient le statut **[!UICONTROL Principal]**. Il est prêt à être utilisé pour diffuser des messages.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -148,3 +150,8 @@ Pour modifier un préréglage de message, vous devez d&#39;abord le désactiver 
    >
    >Les préréglages de message désactivés ne peuvent pas être supprimés afin d&#39;éviter tout problème dans les parcours les utilisant pour envoyer des messages.
 
+## Vidéo pratique{#video-presets}
+
+Découvrez comment créer des paramètres prédéfinis de message, comment les utiliser et comment déléguer un sous-domaine et créer un pool d’adresses IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
