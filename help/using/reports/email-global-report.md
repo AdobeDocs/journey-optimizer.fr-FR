@@ -5,10 +5,10 @@ feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -38,7 +38,7 @@ Le **[!UICONTROL rapport global]** d&#39;email est divisé en différents widget
 
 * **[!UICONTROL Taux de clics]** : pourcentage de clics dans une diffusion.
 
-* **[!UICONTROL Taux de plaintes de courrier indésirable]** : pourcentage d&#39;emails marqués comme étant indésirables par les destinataires par rapport aux messages envoyés. Pour plus d&#39;informations sur les plaintes, consultez cette [page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability).
+* **[!UICONTROL Taux de plaintes de courrier indésirable]** : pourcentage d&#39;emails marqués comme étant indésirables par les destinataires par rapport aux messages envoyés. Pour plus d’informations sur les plaintes, consultez le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 * **[!UICONTROL Taux de désabonnement]** : Pourcentage de désabonnements uniques par rapport au nombre de messages délivrés. Cet indicateur ne dépend pas du nombre de clics effectués sur le lien de désinscription, mais du nombre de désinscriptions initialisés par les destinataires. Pour en savoir plus sur les désabonnements, consultez cette [page](../consent.md).
 
