@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 4%
@@ -42,7 +42,7 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
 
 1. [Configurer la décision](#configure-decision)
 
-   * Création d’une décision
+   * Création d&#39;une décision
    * Sélectionner les emplacements que vous avez créés
    * Pour chaque emplacement, sélectionnez la collection .
    * Pour chaque emplacement, sélectionnez un classement (facultatif).
@@ -186,7 +186,7 @@ Lors de la configuration de la décision, vous devez ajouter vos offres personna
 
 Les étapes détaillées pour créer une collection sont décrites dans [cette section](../../using/offers/offer-library/creating-collections.md).
 
-## Configuration de la décision {#configure-decision}
+## Configurer la décision {#configure-decision}
 
 Vous devez maintenant créer une décision qui combinera des emplacements avec les offres personnalisées et l’offre de secours que vous venez de créer.
 
@@ -194,7 +194,7 @@ Cette combinaison sera utilisée par le moteur d’Offer decisioning pour trouve
 
 Pour créer et configurer une décision d’offre, procédez comme suit :
 
-1. Création d’une décision. En savoir plus dans [cette section](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Création d&#39;une décision. En savoir plus dans [cette section](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. Sélectionnez les emplacements *Web - Image*, *Email - Image* et *Non numérique - Texte*.
 
@@ -220,7 +220,7 @@ Votre décision est maintenant prête à être utilisée pour diffuser des offre
 
 Les étapes détaillées pour créer et configurer une décision sont décrites dans [cette section](../../using/offers/offer-activities/create-offer-activities.md).
 
-## Insérez la décision dans un email {#insert-decision-in-email}
+## Insérer la décision dans un email {#insert-decision-in-email}
 
 Maintenant que votre décision est en ligne, vous pouvez l’insérer dans un email. Procédez comme suit :
 
