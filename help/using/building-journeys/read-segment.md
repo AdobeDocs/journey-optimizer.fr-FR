@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -88,7 +88,7 @@ Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les j
 
    ![](../assets/read-segment-log.png)
 
-Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
+Une fois les tests terminés, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
 >[!NOTE]
 >
