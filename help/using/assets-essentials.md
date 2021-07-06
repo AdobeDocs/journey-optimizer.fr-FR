@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 4%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> Pour utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs qui doivent accéder à [!DNL Assets Essentials] font partie des **utilisateurs consommateurs d’Assets Essentials** ou/et **utilisateurs d’Assets Essentials** profils de produit. <br> Pour plus d’informations à ce propos, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html).
+> Pour utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs qui doivent accéder à [!DNL Assets Essentials] font partie des **utilisateurs consommateurs d’Assets Essentials** ou/et **utilisateurs d’Assets Essentials** profils de produit. <br> Pour plus d’informations à ce sujet, consultez cette  [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
 [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages. Il est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** . Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email. [En savoir plus sur la conception](design-emails.md) des emails.
 
-Pour des procédures plus détaillées sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+Pour des procédures plus détaillées sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 ## Chargement et insertion de ressources{#add-asset}
 
 Pour charger des fichiers dans la [!DNL Assets Essentials], vous devez d’abord parcourir ou créer le dossier dans lequel ils seront stockés. Vous pourrez alors les insérer dans le contenu de votre email.
 
-Pour plus d’informations sur le chargement de ressources, consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+Pour plus d’informations sur le chargement de ressources, consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
 1. Sur la [!DNL Adobe Journey Optimizer] page d’accueil, sélectionnez l’onglet **[!UICONTROL Ressources]** sous le menu **[!UICONTROL Gestion de contenu]** pour accéder à [!DNL Assets Essentials].
 
@@ -54,7 +54,7 @@ Pour plus d’informations sur le chargement de ressources, consultez la [docume
 
 1. Une fois votre ressource chargée, vous pouvez désormais insérer vos ressources dans l’un de vos messages via le Concepteur d’email.
 
-   Votre ressource peut également être modifiée davantage à l’aide du mode **Modifier** de [!DNL Assets Essentials]. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html).
+   Votre ressource peut également être modifiée davantage à l’aide du mode **Modifier** de [!DNL Assets Essentials]. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
