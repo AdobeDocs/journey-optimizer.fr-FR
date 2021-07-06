@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
@@ -18,7 +18,7 @@ L&#39;association de balises à vos offres facilite leur organisation. Par exemp
 
 Les balises peuvent également être utilisées pour regrouper les offres sous forme de collections d&#39;offres. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 La liste des balises créées est accessible dans le menu **[!UICONTROL Composants]**.
 
@@ -40,6 +40,6 @@ Pour créer une balise, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s’applique au service applicatif d’Offer decisioning créé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d’Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
