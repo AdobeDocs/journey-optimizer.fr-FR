@@ -4,7 +4,7 @@ description: Découvrez comment utiliser des jeux de données Adobe Experience P
 feature: Jeux de données
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 18%
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 Toutes les données ingérées dans Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour la collecte de données, généralement sous la forme d&#39;un tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
 
-Découvrez comment créer des jeux de données dans [cette documentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Découvrez comment créer des jeux de données dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 L’ajout de données à Adobe Experience Platform est la base de la création d’un profil. Vous pourrez ensuite exploiter les profils dans [!DNL Adobe Journey Optimizer]. Commencez par définir des schémas, utilisez les outils ETL pour préparer et normaliser vos données, puis créez des jeux de données basés sur vos schémas.
 
