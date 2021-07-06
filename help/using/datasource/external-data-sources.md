@@ -5,9 +5,9 @@ feature: Sources de données
 topic: Administration
 role: Administrator
 level: Intermediate
-source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1329'
 ht-degree: 98%
 
 ---
@@ -41,14 +41,14 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
    >[!NOTE]
    >
-   >N’utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
+   >N&#39;utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
 1. Ajoutez une description à la source de données. Cette étape est facultative.
-1. Ajoutez l’URL du service externe. Dans notre exemple : _https://api.adobeweather.org/weather_.
+1. Ajoutez l&#39;URL du service externe. Dans notre exemple : _https://api.adobeweather.org/weather_.
 
    >[!CAUTION]
    >
-   >Nous vous recommandons vivement d’utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n’est pas autorisée.
+   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n’est pas autorisée.
 
    ![](../assets/journey27.png)
 
@@ -69,7 +69,7 @@ Pour le jeu de paramètres « long/lat », nous créons un groupe de champs av
 * **[!UICONTROL Utilisé(e) dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
 * **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous choisissons la méthode GET.
 * **[!UICONTROL Durée de mise en cache]** : dans ce cas, nous souhaitons que les données météo soient mises en cache pendant 10 minutes.
-* **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres, séparés par une virgule (« long,lat » dans notre exemple). Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [cette page](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr).
+* **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres, séparés par une virgule (« long,lat » dans notre exemple). Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [Documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr){target=&quot;_blank&quot;}.
 * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de la payload renvoyée par l’appel. Dans cet exemple, nous avons utilisé une payload trouvée sur un site web d’API météo. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller une nouvelle payload]** si vous souhaitez modifier la payload actuellement transmise.
 * **[!UICONTROL Payload envoyée]** : ce champ ne figure pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez la payload qui sera envoyée au système tiers.
 
