@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
       **Champ :** id
       **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
       **Type :** chaîne
-      **Exemple :** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
