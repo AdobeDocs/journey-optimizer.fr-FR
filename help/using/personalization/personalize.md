@@ -8,17 +8,17 @@ level: Beginner
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 70%
+ht-degree: 95%
 
 ---
 
 # Prise en main de la personnalisation{#add-personalization}
 
-Découvrez les [!DNL Adobe Journey Optimizer] fonctionnalités de personnalisation pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s&#39;agir de son prénom, de ses centres d&#39;intérêt, de l&#39;endroit où il habite, de ce qu&#39;il a acheté et plus encore.
+Découvrez les fonctionnalités de personnalisation de [!DNL Adobe Journey Optimizer] pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s&#39;agir de son prénom, de ses centres d&#39;intérêt, de l&#39;endroit où il habite, de ce qu&#39;il a acheté et plus encore.
 
 ➡️ [Découvrez comment personnaliser un message dans ces vidéos](#video-perso)
 
-[!DNL Journey Optimizer] utilise une syntaxe de personnalisation simple  **** intégrée basée sur Handlebars qui vous permet de créer des expressions avec des contenus entourés de doubles accolades **{}}**. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction. En savoir plus dans [Syntaxe de personnalisation](personalization-syntax.md).
+[!DNL Journey Optimizer] utilise une syntaxe de personnalisation simple **intégrée** basée sur Handlebars, qui vous permet de créer des expressions avec du contenu placé entre des accolades doubles **{{}}**. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction. En savoir plus dans [Syntaxe de personnalisation](personalization-syntax.md).
 
 La personnalisation est basée sur les données de profil gérées par le schéma **Profil individuel XDM** défini dans Adobe Experience Platform. Pour en savoir plus, consultez la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
@@ -31,12 +31,12 @@ La personnalisation est basée sur les données de profil gérées par le schém
 
 * `Hello {{profile.person.name.fullName}}`
 
-Lors du traitement du message (email et push), Journey Optimizer remplace l’expression par les données contenues dans la base de données de la plateforme Experience Cloud :  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` devient &quot;Bonjour John Doe&quot;.
+Lors du traitement du message (e-mail et push), Journey Optimizer remplace l&#39;expression par les données contenues dans la base de données Experience Cloud Platform : `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` devient &quot;Hello John Doe&quot;.
 
 
-## Contexte de personnalisation{#personalization-areas}
+## Contextes de personnalisation{#personalization-areas}
 
-Le contenu et l&#39;affichage des messages diffusés par [!DNL Journey Optimizer] peuvent être personnalisés de différentes manières.
+Le contenu et l&#39;affichage des messages diffusés par [!DNL Journey Optimizer] peuvent être personnalisés de plusieurs façons différentes.
 
 Dans chaque champ contenant l&#39;icône de l&#39;éditeur, vous pouvez ouvrir l&#39;éditeur de personnalisation (également appelé Éditeur d&#39;expression) et définir la personnalisation.
 
@@ -63,7 +63,7 @@ Dans les deux cas, vous accédez à l’éditeur de personnalisation.
 ![](assets/perso_ee.png)
 
 
-### Personnaliser vos notifications push
+### Personnalisation de vos notifications push
 
 Vous pouvez également personnaliser vos **notifications push** dans les champs suivants :
 
@@ -77,7 +77,7 @@ Vous pouvez également personnaliser vos **notifications push** dans les champs 
 
 Pour en savoir plus sur la configuration des notifications push, consultez [cette section](../push-gs.md).
 
-## Utilisation de l’éditeur d’expression
+## Utilisation de l&#39;éditeur d&#39;expression
 
 L&#39;éditeur d&#39;expression est l&#39;élément central de la personnalisation dans [!DNL Journey Optimizer].
 
@@ -87,13 +87,13 @@ Dans l&#39;interface de l&#39;éditeur d&#39;expression, vous sélectionnez, org
 
 ![](assets/perso_ee1.png)
 
-La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous permet de sélectionner la source en vue de la personnalisation. Les sources disponibles sont les suivantes :
+La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous permet de sélectionner la source en vue de la personnalisation. Les sources disponibles sont les suivantes :
 
 * **Profil**  : répertorie toutes les références associées au schéma de profil décrit dans la documentation du modèle de données  [Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 * **Appartenance à un segment** : répertorie tous les segments créés dans le service Adobe Experience Platform Segmentation. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr) plus d&#39;informations sur la segmentation{target=&quot;_blank&quot;}.
 * **Offres** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md).
 * **Contexte** : lorsque l&#39;activité **Message** est utilisée dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. En savoir plus dans [cette section](personalization-use-case.md).
-* **Fonctions d&#39;assistance** : répertorie toutes les fonctions d&#39;assistance disponibles pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. En savoir plus dans [cette section](functions/functions.md).
+* **Fonctions helper** : répertorie toutes les fonctions helper disponibles pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et les manipuler dans le contexte de la personnalisation. En savoir plus dans [cette section](functions/functions.md).
 
 Lorsqu&#39;elle est sélectionnée, la référence est ajoutée dans l&#39;éditeur.
 
