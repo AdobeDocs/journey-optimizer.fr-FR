@@ -6,9 +6,9 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
 ## Ajout d&#39;une activité de message
 
-1. Comme toujours, commencez votre parcours par un événement ou une activité **Lecture de segment** .
+1. Comme toujours, débutez votre parcours avec un événement ou une activité **Lecture de segment**.
 
    ![](../assets/jo-message0.png)
 
@@ -36,7 +36,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
    ![](../assets/jo-message3.png)
 
-1. Choisissez un message et cliquez sur **Sélectionner**. Vous pouvez également créer un message directement à partir de cet écran en cliquant sur **Créer un message**.
+1. Choisissez un message et cliquez sur **Sélectionner**. Vous pouvez également créer un nouveau message directement à partir de cet écran en cliquant sur **Créer un message**.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -46,10 +46,10 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
 1. Ajoutez les étapes suivantes à votre parcours.
 
-## Paramètres de courrier électronique et paramètres de notification push
+## Paramètres de l&#39;e-mail et paramètres Push
 
-Les sections **[!UICONTROL Paramètres de l’email]** et **[!UICONTROL Paramètres push]** affichent des champs en lecture seule. Cette configuration est généralement effectuée lors de la création du message. Consultez [cette section](../get-started-content.md).
+Les sections **[!UICONTROL Paramètres de l&#39;e-mail]** et **[!UICONTROL Paramètres Push]** affichent des champs en lecture seule. Cette configuration est généralement effectuée lors de la création du message. Consultez [cette section](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Pour forcer une valeur spécifique, vous pouvez utiliser l’icône **Activer le remplacement de paramètre** à droite du champ. Cette option peut s’avérer utile à des fins de test. Par exemple, pour un e-mail, vous pouvez ajouter votre adresse e-mail. Une fois le parcours publié, l’e-mail vous est envoyé.
+Pour forcer une valeur spécifique, vous pouvez utiliser l’icône **Activer la substitution de paramètre** à droite du champ. Cette option peut être utile à des fins de test. Par exemple, pour un e-mail, vous pouvez ajouter votre adresse e-mail. Une fois le parcours publié, l&#39;e-mail vous est envoyé.
