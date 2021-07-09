@@ -6,9 +6,9 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Vous pouvez sélectionner un fuseau horaire ou choisir d&#39;utiliser celui déf
 
 >[!NOTE]
 >
->Le fuseau horaire du profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences** .
+>Le fuseau horaire de profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences**.
 
 ## Définition d&#39;un fuseau horaire fixe {#fixed-timezone}
 
 Le fuseau horaire peut également être fixe. Effacez le fuseau horaire prédéfini et sélectionnez-en un dans la liste déroulante. Si vous utilisez un fuseau horaire fixe, il sera identique pour tous les individus qui participent au parcours.
 
-Pour ce faire, dans le volet **[!UICONTROL Propriétés du Parcours]**, sélectionnez un fuseau horaire.
+Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionnez un fuseau horaire.
 
 ![](../assets/journey72.png)
 
@@ -47,7 +47,7 @@ Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il 
 
 Si le profil de l&#39;individu ne contient pas de fuseau horaire, celui qui sera récupéré sera celui défini dans le champ du fuseau horaire.
 
-Pour ce faire, dans **[!UICONTROL Propriétés]**, cochez **[!UICONTROL Utiliser le fuseau horaire du profil dans les attentes et les conditions]**.
+Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Utiliser le fuseau horaire du profil dans les attentes et conditions]**.
 
 ![](../assets/journey73.png)
 
