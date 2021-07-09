@@ -8,12 +8,12 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
 
-# Cas pratique de personnalisation : notification de statut de la commande {#personalization-use-case}
+# Cas d&#39;utilisation de la personnalisation: notification de statut de la commande {#personalization-use-case}
 
 Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
 
@@ -21,7 +21,7 @@ Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de p
 * **Décision** de l’offre : personnalisation basée sur des variables d’offer decisioning
 * **Contexte** : personnalisation basée sur les données contextuelles du parcours
 
-L’objectif de cet exemple est de transmettre un événement à [!DNL Journey Optimizer] chaque fois qu’une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
+L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Journey Optimizer] chaque fois qu&#39;une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
 
 Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies 
 
