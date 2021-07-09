@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,7 @@ Veuillez noter que si vous modifiez un **[!UICONTROL profil de produit]** person
 
 1. Sélectionnez l&#39;onglet **[!UICONTROL Autorisations]**.
 
-   L’onglet **[!UICONTROL Autorisations]** affiche la liste des fonctionnalités qui s’appliquent au produit **[!UICONTROL Experience Cloud - Applications Platform]** .
+   L&#39;onglet **[!UICONTROL Autorisations]** affiche la liste des fonctionnalités qui s&#39;appliquent au produit **[!UICONTROL Experience Cloud - Applications optimisées par Platform]**.
 
    ![](../assets/access_control_5.png)
 
