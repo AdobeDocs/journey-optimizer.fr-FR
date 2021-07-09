@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 74%
+ht-degree: 94%
 
 ---
 
@@ -40,17 +40,17 @@ Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de 
 
 Voici les étapes principales pour envoyer des messages à travers des parcours :
 
-1. Dans la section du menu Gestion des PARCOURS , cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s&#39;affiche.
+1. Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s&#39;affiche.
 
    ![](../assets/interface-journeys.png)
 
-1. Cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
+1. Cliquez sur **[!UICONTROL Créer un parcours]** pour créer un parcours.
 
 1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](journey-gs.md#change-properties).
 
    ![](../assets/jo-properties.png)
 
-1. Commencez par faire glisser un événement ou une activité **Lecture de segment** de la palette vers la zone de travail. Pour en savoir plus sur la conception d&#39;un parcours, consultez [cette section](using-the-journey-designer.md).
+1. Commencez par effectuer un glisser-déposer d’un événement ou d’une activité **Lecture de segment** de la palette vers la zone de travail. Pour en savoir plus sur la conception d&#39;un parcours, consultez [cette section](using-the-journey-designer.md).
 
    ![](../assets/read-segment.png)
 
@@ -82,7 +82,7 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c&#39;est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse rejoindre de nouveau le parcours et rebénéficier de l&#39;offre.
 
-Lorsqu’un parcours &quot;se termine&quot;, il a le statut **[!UICONTROL Fermé]**. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
+Lorsqu&#39;un parcours prend fin, le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
 
 Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
@@ -114,31 +114,31 @@ Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experie
 
 Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
 
-### Mode de rafale {#burst}
+### Mode rafale {#burst}
 
-Le mode d’envoi rapide est un module complémentaire payant qui permet d’envoyer des messages push très rapidement en grandes quantités. Il est utilisé pour les parcours simples qui incluent un segment de lecture et un message push simple. La fonction d’envoi rapide est utilisée lorsque le retard dans la diffusion des messages est essentiel pour l’entreprise, lorsque vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une info-bulle destinée aux utilisateurs qui ont installé votre application de canal d’actualités.
+Le mode rafale est un module complémentaire payant qui permet d&#39;envoyer des messages push très rapidement en grandes quantités. Il est utilisé pour les parcours simples qui incluent une lecture de segment et un message push simple. Le mode rafale est utilisé lorsque le retard dans la diffusion des messages est critique pour l&#39;entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux utilisateurs qui ont installé votre application de canal d&#39;actualités.
 
-Limites:
+Limites :
 
-* Le parcours doit commencer par un segment lu. Les événements ne sont pas autorisés.
-* L’étape suivante doit être un message push. Aucune autre activité ou étape n’est autorisée (à l’exception de l’activité de fin facultative) :
+* Le parcours doit commencer par une lecture de segment. Les événements ne sont pas autorisés.
+* L&#39;étape suivante doit être un message push. Aucune autre activité ou étape n&#39;est autorisée (à l&#39;exception de l&#39;activité de fin facultative) :
    * Canal push uniquement
-   * Aucune personnalisation n’est autorisée dans le message
-   * Le message doit être de petite taille (&lt;2 Ko).
+   * Aucune personnalisation n&#39;est autorisée dans le message
+   * Le message doit être de petite taille (&lt;2 Ko).
 
-Remarque importante :
+Remarque importante :
 
 Si l’une des exigences n’est pas remplie, le mode d’éclatement n’est pas disponible dans le parcours.
 
-Pour activer le mode de rafale, ouvrez votre parcours et cliquez sur l’icône en forme de crayon, en haut à droite, pour accéder aux propriétés du parcours. Activez ensuite le bouton d’activation/désactivation **Activer le mode d’éclatement** .
+Pour activer le mode rafale, ouvrez votre parcours et cliquez sur l&#39;icône en forme de crayon, en haut à droite, pour accéder aux propriétés du parcours. Activez ensuite le bouton d&#39;activation/de désactivation **Activer le mode rafale**.
 
 ![](../assets/burst.png)
 
-Le mode d’éclatement sera désactivé si vous modifiez un parcours d’éclatement et ajoutez une activité non conforme à l’éclatement (message, toute autre action, un événement, etc.). Un message s’affiche.
+Le mode rafale sera désactivé si vous modifiez un parcours rafale et ajoutez une activité non conforme au mode rafale (message, toute autre action, un événement, etc.). Un message s&#39;affiche.
 
 ![](../assets/burst2.png)
 
-Ensuite, testez et publiez votre parcours normalement. Les messages du mode test ne sont pas envoyés via le mode d’éclatement.
+Ensuite, testez et publiez votre parcours normalement. Les messages du mode test ne sont pas envoyés via le mode rafale.
 
 ## Terminaison d&#39;un parcours
 
@@ -155,7 +155,7 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 * Un parcours basé sur un segment « unique » qui a terminé son exécution.
 * Après la dernière occurrence d’un parcours basé sur un segment récurrent.
 
-Lorsqu’un parcours est fermé (pour l’une des raisons ci-dessus), il a le statut **[!UICONTROL Fermé]**. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
 Si nécessaire, il est possible d&#39;arrêter la progression de tous les individus dans le parcours. L&#39;arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
 
@@ -171,11 +171,11 @@ Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entr
 
 Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qui l&#39;ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre.
 
-Une fois fermé, un parcours a le statut **[!UICONTROL Fermé]**. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+Lorsqu&#39;un parcours est fermé, le statut **[!UICONTROL Fermé]** lui est attribué. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
 La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
 
-Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Ellipse]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
+Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
 
 ![](../assets/journey-finish-quick-action.png)
 
@@ -197,7 +197,7 @@ La version d&#39;un parcours arrêté ne peut pas être redémarrée.
 
 Lorsqu&#39;un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
 
-Vous pouvez arrêter un parcours, par exemple, si un marketeur se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Ellipse]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
+Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
 
 ![](../assets/journey-finish-quick-action.png)
 
