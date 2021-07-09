@@ -6,13 +6,13 @@ topic: Intégrations
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
 ---
 
-# Accès aux champs XDM des événements{#decisioningevents-xdm-schema}
+# Accès aux champs XDM des événements {#decisioningevents-xdm-schema}
 
 Vous pouvez accéder au schéma XDM DecisioningEvents directement à partir d’un jeu de données contenant des événements Decision Management.
 
