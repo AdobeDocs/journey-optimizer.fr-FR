@@ -6,9 +6,9 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ La **zone de travail** est la zone centrale du concepteur de parcours. C&#39;est
 
 ![](../assets/journey39.png)
 
-Le **volet de configuration des activités** s&#39;affiche lorsque vous cliquez sur une activité dans la palette. Renseignez les champs obligatoires. Cliquez sur l’icône **[!UICONTROL Supprimer]** pour supprimer l’activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou **[!UICONTROL Ok]** pour confirmer. Vous pouvez également supprimer des activités en les sélectionnant, puis en appuyant sur la touche Retour arrière. Appuyez sur la touche d&#39;échappement pour fermer le volet de configuration des activités.
+Le **volet de configuration des activités** s&#39;affiche lorsque vous cliquez sur une activité dans la palette. Renseignez les champs obligatoires. Cliquez sur l&#39;icône **[!UICONTROL Supprimer]** pour supprimer l&#39;activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou sur **[!UICONTROL OK]** pour les confirmer. Vous pouvez également supprimer des activités en les sélectionnant, puis en appuyant sur la touche Retour arrière. Appuyez sur la touche d&#39;échappement pour fermer le volet de configuration des activités.
 
-Par défaut, les champs en lecture seule sont masqués. Pour afficher les champs en lecture seule, cliquez sur l’icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration des activités. Ce paramètre s’applique à toutes les activités de tous les parcours.
+Par défaut, les champs en lecture seule sont masqués. Pour afficher les champs en lecture seule, cliquez sur l&#39;icône **Afficher les champs en lecture seule** en haut à gauche du volet de configuration de l&#39;activité. Ce paramètre s&#39;applique à toutes les activités de tous les parcours.
 
 ![](../assets/journey59bis.png)
 
@@ -52,11 +52,11 @@ Lorsque vous concevez votre parcours, la première question que vous devez vous 
 
 **Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-**Commencer par une lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, tous les individus appartenant au segment spécifié rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
+**Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, tous les individus appartenant au segment spécifié rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
 
 ## Définir les étapes suivantes
 
-Après votre premier événement ou votre premier segment de lecture, vous pouvez combiner les différentes activités pour créer vos scénarios cross-canal à plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
+Après votre premier événement ou votre première lecture de segment, vous pouvez combiner les différentes activités afin de créer vos scénarios cross-canal en plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
 
 **Événements**
 
@@ -66,11 +66,11 @@ Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition
 
 Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d&#39;envoyer un autre message si l&#39;individu a ouvert le message précédent ou cliqué dessus. En savoir plus dans cette [section](reaction-events.md).
 
-L’activité d’événement **Qualification de segment** vous permet de faire entrer ou avancer des individus dans un parcours en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
+L&#39;activité d&#39;événement **Qualification du segment** vous permet de faire en sorte que des individus rejoignent un parcours ou y progressent en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
 
 **Orchestration**
 
-Dans les activités d’orchestration, vous trouverez l’activité **Lecture de segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l’activité Lecture de segment](read-segment.md).
+Dans les activités d&#39;orchestration, vous trouverez l&#39;activité **Lecture de segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
 
 Les autres activités vous permettent d&#39;ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d&#39;attente avant l&#39;exécution de l&#39;activité suivante, ou de terminer votre parcours. En savoir plus dans cette [section](about-journey-activities.md#orchestration-activities).
 
@@ -86,11 +86,11 @@ Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.)
 
 ![](../assets/journey42.png)
 
-Différentes activités (événement, action, attente) peuvent être suivies de plusieurs chemins. Pour ce faire, placez le curseur sur l’activité et cliquez sur le symbole &quot;+&quot;. Seules les activités d&#39;événement et d&#39;attente peuvent être définies en parallèle. Si plusieurs événements sont définis en parallèle, le chemin choisi est celui du premier événement qui se produit.
+Différentes activités (événement, action, attente) peuvent être suivies de plusieurs chemins. Pour ce faire, placez votre curseur sur l&#39;activité en question et cliquez ensuite sur le symbole « + ». Seules les activités d&#39;événement et d&#39;attente peuvent être définies en parallèle. Si plusieurs événements sont définis en parallèle, le chemin choisi est celui du premier événement qui se produit.
 
 Lorsque vous écoutez un événement, nous vous recommandons de ne pas attendre indéfiniment qu&#39;il se produise. Notez qu&#39;il s&#39;agit d&#39;une bonne pratique et que cela n&#39;est, en aucun cas, obligatoire. Si vous souhaitez limiter l&#39;écoute d&#39;un ou de plusieurs événements à une période bien définie, vous devez placer en parallèle un ou plusieurs événements et une activité d&#39;attente. Consultez [cette section](../building-journeys/general-events.md#events-specific-time).
 
-Pour supprimer le chemin, placez le curseur dessus et cliquez sur l’icône **[!UICONTROL Supprimer le chemin]** .
+Pour supprimer le chemin d&#39;accès, placez votre curseur sur celui-ci et cliquez sur l&#39;icône **[!UICONTROL Supprimer le chemin]**.
 
 ![](../assets/journey42ter.png)
 
