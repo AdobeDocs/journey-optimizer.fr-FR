@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Les fonctionnalités de Decision Management et l’intégration à Adobe Experie
 
 ## Glossaire {#glossary}
 
-Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez lorsque vous utiliserez la gestion des décisions.
+Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez lorsque vous utiliserez Decision Management.
 
 * **Limitation** ou **Capping de la fréquence** : la limitation est utilisée comme contrainte pour définir le nombre de présentations d&#39;une offre. Il existe deux types de limitations : le nombre de fois où une offre peut être proposée à l&#39;audience cible combinée, également appelée « limitation globale », et le nombre de fois où une offre peut être proposée au même utilisateur final, également appelée « limitation de profil ».
 
