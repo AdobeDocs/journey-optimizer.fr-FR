@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 74%
+ht-degree: 92%
 
 ---
 
@@ -18,16 +18,16 @@ Une fois connecté à [Adobe Experience Cloud](http://experience.adobe.com), acc
 
 >[!NOTE]
 >
->* Les concepts clés lors de la navigation dans l’interface utilisateur sont communs à Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+>* Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
    >
    >
-* Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications apportées à l’interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
+* Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
    >
    > 
-* Les composants et fonctionnalités disponibles dans l’interface utilisateur dépendent de vos autorisations et de votre package de licence. Pour toute question, contactez le responsable du succès client de votre Adobe.
+* Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur dépendent de vos autorisations et de votre package de licence. Pour toute question, contactez votre responsable clients Adobe.
 
 
-## Navigation de gauche
+## Navigation gauche
 
 Utilisez les liens sur la gauche pour parcourir les fonctionnalités.
 
@@ -88,30 +88,30 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 * **[!UICONTROL Environnements de test]** - Adobe Experience fournit des environnements de test qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l&#39;évolution d&#39;applications d&#39;expérience numérique. [En savoir plus sur les environnements de test dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}
 
 
-## Cas d’utilisation internes au produit
+## Cas d&#39;utilisation internes au produit
 
-Tirez parti des [!DNL Adobe Journey Optimizer] cas d’utilisation de la page d’accueil et fournissez quelques entrées rapides pour créer un parcours client.
+Tirez parti des cas d&#39;utilisation [!DNL Adobe Journey Optimizer] de la page d&#39;accueil et fournissez quelques entrées rapides pour créer un parcours client.
 
 ![](assets/use-cases-home.png)
 
-Les cas d’utilisation disponibles sont les suivants :
+Les cas d&#39;utilisation disponibles sont les suivants :
 
-* **Créez des profils de test** pour créer des profils de test à l’aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en oeuvre ce cas pratique [dans cette page](building-journeys/creating-test-profiles.md#use-case-1).
-* **Envoyer un message d&#39;anniversaire aux clients**, pour envoyer automatiquement un email afin de souhaiter à vos clients la fin de leur anniversaire. (bientôt disponible)
+* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas pratique [sur cette page](building-journeys/creating-test-profiles.md#use-case-1).
+* **Envoyer un message d&#39;anniversaire aux clients** : pour envoyer automatiquement un e-mail afin de souhaiter un bon anniversaire à vos clients. (bientôt disponible)
 * **Envoyez des emails à vos nouveaux clients**, afin d’envoyer facilement jusqu’à deux emails pour accueillir vos nouveaux clients enregistrés. (bientôt disponible)
-* **Envoyez des messages push à la liste importée de clients**, afin d’envoyer rapidement une notification push à une liste de clients importés à partir d’un fichier CSV. (bientôt disponible)
+* **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)
 
-Cliquez sur **[!UICONTROL Afficher les détails]** pour en savoir plus sur chaque cas d’utilisation.
+Cliquez sur **[!UICONTROL Afficher les détails]** pour en savoir plus sur chaque cas d&#39;utilisation.
 
-Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d’utilisation.
+Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d&#39;utilisation.
 
-Vous pouvez accéder aux cas d’utilisation exécutés à partir du bouton **[!UICONTROL Afficher la bibliothèque de cas d’utilisation]** .
+Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **[!UICONTROL Afficher la bibliothèque de cas d&#39;utilisation]**.
 
 ## Obtention d’aide et de support
 
-Accédez aux pages d’aide de la clé Adobe Journey Optimizer à partir de la section inférieure de la page d’accueil.
+Accédez aux pages d&#39;aide principales d&#39;Adobe Journey Optimizer à partir de la section inférieure de la page d&#39;accueil.
 
-Utilisez l’icône **Aide** pour accéder aux pages d’aide, contacter l’assistance et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
+Utilisez l&#39;icône **Aide** pour accéder aux pages d&#39;aide, contacter l&#39;assistance et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d&#39;aide dans le champ de recherche.
 
 ![](assets/ajo-help.png)
 
