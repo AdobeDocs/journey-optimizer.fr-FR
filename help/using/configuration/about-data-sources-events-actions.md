@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-feature: Paramétrage de l’application
+feature: Paramétrage de l'application
 topic: Administration
 role: Administrator
 level: Intermediate
