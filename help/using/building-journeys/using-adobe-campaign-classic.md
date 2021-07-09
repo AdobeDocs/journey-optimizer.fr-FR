@@ -1,26 +1,26 @@
 ---
-title: Actions d’Adobe Campaign v7/v8
-description: En savoir plus sur les actions Adobe Campaign v7/v8
+title: Actions d'Adobe Campaign v7/v8
+description: En savoir plus sur les actions Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Actions d’Adobe Campaign v7/v8 {#using_campaign_classic}
+# Actions d&#39;Adobe Campaign v7/v8 {#using_campaign_classic}
 
-Une intégration est disponible si vous disposez d’Adobe Campaign v7 ou v8. Il vous permettra d’envoyer des emails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle Adobe Campaign.
+Une intégration est disponible si vous disposez d&#39;Adobe Campaign v7 ou v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign.
 
-La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de la mise en service. Contactez l’Adobe.
+La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement. Contactez Adobe.
 
 Pour que cela fonctionne, vous devez configurer une action dédiée. Reportez-vous à cette [section](../action/acc-action.md).
 
-Un cas pratique de bout en bout est présenté dans cette [section](../building-journeys/campaign-classic-use-case.md).
+Un cas d&#39;utilisation complet est présenté dans cette [section](../building-journeys/campaign-classic-use-case.md).
 
 1. Concevez votre parcours en commençant par un événement. Consultez cette [section](../building-journeys/journey.md).
 1. Dans la section **Action** de la palette, sélectionnez une action Campaign et ajoutez-la à votre parcours.
