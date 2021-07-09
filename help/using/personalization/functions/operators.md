@@ -6,9 +6,9 @@ topic: Personnalisation
 role: Data Engineer
 level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ not (homeAddress.countryISO = "CA")
 
 ## Fonctions de comparaison 
 
-Les fonctions de comparaison sont utilisées pour comparer différentes expressions et valeurs, renvoyant true ou false en conséquence.
+Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
 
 ### Est égal à{#equals}
 
