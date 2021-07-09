@@ -6,15 +6,15 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # À propos des activités de parcours {#about-journey-activities}
 
-Combinez les différentes activités d’événement, d’orchestration et d’action afin de créer des scénarios cross-canal à plusieurs étapes.
+Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 
 ## Activités d’événement {#event-activities}
 
@@ -22,7 +22,7 @@ Les événements configurés par l’utilisateur technique (voir [cette page](..
 
 * [Événements généraux](../building-journeys/general-events.md)
 * [Réaction](../building-journeys/reaction-events.md)
-* [Qualification de segment](../building-journeys/segment-qualification-events.md)
+* [Qualification du segment](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
@@ -61,6 +61,6 @@ La plupart des activités vous permettent de définir un **[!UICONTROL libellé]
 
 ![](../assets/journey59bis.png)
 
-Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’un individu s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](../assets/journey42.png)
