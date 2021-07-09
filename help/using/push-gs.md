@@ -1,14 +1,14 @@
 ---
 title: Prise en main de la configuration de notifications push
 description: Présentation du flux de données et des composants des notifications push
-feature: Paramétrage de l’application
+feature: Paramétrage de l'application
 topic: Push
 role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre
 
 Cette page vous aidera à configurer et à comprendre les services et les workflows clés impliqués dans les notifications push dans [!DNL Journey Optimizer].
 
-Les étapes de configuration du canal push dans [!DNL Adobe Journey Optimizer] sont présentées dans [cette page](push-configuration.md).
+Les étapes de configuration du canal push dans [!DNL Adobe Journey Optimizer] sont présentées sur [cette page](push-configuration.md).
 
 ## Notifications push et [!DNL Adobe Journey Optimizer]
 
