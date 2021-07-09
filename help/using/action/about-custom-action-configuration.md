@@ -7,9 +7,9 @@ topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Les limites sont répertoriées dans [cette page](../building-journeys/limitatio
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 
-1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. Cliquez sur **[!UICONTROL Créer une action]** pour créer une action. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
+1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. Cliquez sur **[!UICONTROL Créer une action]** pour créer une nouvelle action. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
 
    ![](../assets/custom2.png)
 
@@ -34,7 +34,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 1. Le nombre de parcours qui font appel à cette action apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cette action.
 1. Définissez les différents paramètres de **[!UICONTROL Configuration d&#39;URL]**. Voir [cette page](../action/about-custom-action-configuration.md#url-configuration).
 1. Configurez la section **[!UICONTROL Authentification]**. Cette configuration est la même que pour les sources de données.  Consultez [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Définissez les **[!UICONTROL Paramètres d’action]**. Voir [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Définissez les **[!UICONTROL paramètres d&#39;action]**. Voir [cette page](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    L&#39;action personnalisée est maintenant configurée et prête à être utilisée dans vos parcours. Voir [cette page](../building-journeys/about-journey-activities.md#action-activities).
@@ -56,7 +56,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
    >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
-1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un champ d&#39;en-tête]** pour définir une nouvelle paire clé/valeur. Ces en-têtes correspondent aux en-têtes HTTP de la requête adressée au service externe. Pour supprimer des paires clé/valeur, placez le curseur sur le champ d’en-tête et cliquez sur l’icône **[!UICONTROL Supprimer]** .
+1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un champ d&#39;en-tête]** pour définir une nouvelle paire clé/valeur. Ces en-têtes correspondent aux en-têtes HTTP de la requête adressée au service externe. Pour supprimer des paires clé/valeur, placez le curseur sur le champ En-tête, puis cliquez sur l&#39;icône **[!UICONTROL Supprimer]**.
 
    Les en-têtes **[!UICONTROL Content-Type]** et **[!UICONTROL Charset]** sont définis par défaut et ne peuvent pas être supprimés ni remplacés.
 
@@ -68,7 +68,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
 ![](../assets/messageparameterssection.png)
 
-Dans la section **[!UICONTROL Paramètres d’action]** , collez un exemple de payload JSON à envoyer au service externe.
+Dans la section **[!UICONTROL Paramètres d&#39;action]**, collez un exemple de payload JSON à envoyer au service externe.
 
 ![](../assets/customactionpayloadmessage.png)
 
