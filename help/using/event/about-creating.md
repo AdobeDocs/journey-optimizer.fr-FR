@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1720'
-ht-degree: 82%
+ht-degree: 94%
 
 ---
 
@@ -34,11 +34,11 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
    >
    >N&#39;utilisez ni espaces ni caractères spéciaux. Utilisez 30 caractères au maximum.
 
-1. Dans le champ **[!UICONTROL Type]**, sélectionnez **Unitary**.
+1. Dans le champ **[!UICONTROL Type]**, choisissez **Unitaire**.
 
    ![](../assets/jo-event3bis.png)
 
-1. Dans le champ **[!UICONTROL Type d’ID d’événement]** , sélectionnez le type d’ID d’événement à utiliser : **Basé sur des règles** ou **Système généré**. Pour en savoir plus sur les types d&#39;identifiant d&#39;événements, reportez-vous à [cette section](../event/about-events.md#event-id-type).
+1. Dans le champ **[!UICONTROL Type d&#39;identifiant d&#39;événement]**, sélectionnez le type d&#39;identifiant d&#39;événement à utiliser : **Basé sur une règle** ou **Généré par le système**. Pour en savoir plus sur les types d&#39;identifiant d&#39;événements, reportez-vous à [cette section](../event/about-events.md#event-id-type).
 
    ![](../assets/jo-event4.png)
 
@@ -50,7 +50,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]** , seuls les schémas dont le champ est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d&#39;expérience sont disponibles.
+   >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]**, seuls les schémas dont le champ est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d&#39;expérience sont disponibles.
 
 1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l&#39;aide de l&#39;éditeur d&#39;expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
    ![](../assets/jo-event6.png)
@@ -59,10 +59,10 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
    >[!NOTE]
    >
-   >L’éditeur d’expression avancé n’est pas disponible lors de la définition de la **[!UICONTROL condition d’identifiant d’événement]**.
+   >L&#39;éditeur d&#39;expression avancé n&#39;est pas disponible lors de la définition de la **[!UICONTROL condition d&#39;identifiant d&#39;événement]**.
 
 1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l&#39;ajout d&#39;un espace de noms permet d&#39;exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l&#39;événement. Consultez [cette section](../event/about-creating.md#select-the-namespace).
-1. Définissez l&#39;identifiant du profil : choisissez un champ dans vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, le parcours sélectionne la clé qui doit correspondre à l&#39;espace de noms ; par exemple, si vous sélectionnez un espace de noms d&#39;email, la clé d&#39;email est sélectionnée. Consultez [cette section](../event/about-creating.md#define-the-event-key).
+1. Définissez l&#39;identifiant du profil : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l&#39;événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, le parcours sélectionne la clé qui doit correspondre à l&#39;espace de noms ; par exemple, si vous sélectionnez un espace de noms d&#39;email, la clé d&#39;email est sélectionnée. Consultez [cette section](../event/about-creating.md#define-the-event-key).
 
    ![](../assets/jo-event7.png)
 
@@ -75,7 +75,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 La définition de la payload vous permet de choisir les informations que le système s&#39;attend à recevoir de l&#39;événement dans votre parcours, ainsi que la clé permettant d&#39;identifier la personne associée à l&#39;événement. La payload est basée sur la définition de champ XDM d&#39;Experience Cloud. Pour plus d’informations sur XDM, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
-1. Sélectionnez un schéma XDM dans la liste et cliquez sur le champ **[!UICONTROL Champs]** ou sur l’icône **[!UICONTROL Modifier]**.
+1. Sélectionnez un schéma XDM dans la liste et cliquez ensuite sur le champ **[!UICONTROL Champs]** ou sur l&#39;icône **[!UICONTROL Modifier]**.
 
    ![](../assets/journey8.png)
 
@@ -93,9 +93,9 @@ La définition de la payload vous permet de choisir les informations que le syst
    >
    >Pour les événements générés par le système, le champ **[!UICONTROL eventID]** est automatiquement ajouté à la liste des champs sélectionnés afin que [!DNL Journey Optimizer] puisse identifier l&#39;événement. Le système à l&#39;origine de l&#39;envoi de l&#39;événement ne doit pas générer d&#39;identifiant, mais plutôt utiliser celui indiqué dans l&#39;aperçu de la payload. Consultez [cette section](../event/about-creating.md#preview-the-payload).
 
-1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL Ok]** ou appuyez sur **[!UICONTROL Entrée]**.
+1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL OK]** ou appuyez sur la touche **[!UICONTROL Entrée]**.
 
-   Le nombre de champs sélectionnés apparaît dans le champ **[!UICONTROL Champs]**.
+   Le nombre de champs sélectionnés s&#39;affiche dans le champ **[!UICONTROL Champs]**.
 
    ![](../assets/journey12.png)
 
@@ -105,7 +105,7 @@ Un espace de noms vous permet de définir le type de clé utilisé pour identifi
 
 Vous pouvez utiliser l&#39;un des espaces de noms prédéfinis ou en créer un à l&#39;aide du service Espace de noms d&#39;identité. Reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target=&quot;_blank&quot;}.
 
-Si vous sélectionnez un schéma ayant une identité Principale, les champs **[!UICONTROL Identifiant du profileur]** et **[!UICONTROL Espace de noms]** sont préremplis. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un espace de noms et la clé sera préremplie (sous le champ **[!UICONTROL Espace de noms]**) à l&#39;aide de _identityMap > id_.
+Si vous sélectionnez un schéma doté d&#39;une identité principale, les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Espace de noms]** sont déjà renseignés. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un espace de noms et la clé sera préremplie (sous le champ **[!UICONTROL Espace de noms]**) à l&#39;aide de _identityMap > id_.
 
 Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
 
@@ -118,13 +118,13 @@ Sélectionnez un espace de noms dans la liste déroulante.
 
 Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même espace de noms. Voir [cette page](../building-journeys/journey.md).
 
-## Définition de l’identifiant de profil {#define-the-event-key}
+## Définition de l&#39;identifiant du profil {#define-the-event-key}
 
 La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l&#39;événement et permettant au système d&#39;identifier la personne associée à l&#39;événement. Il peut s&#39;agir de l&#39;Experience Cloud ID, d&#39;un ID CRM ou encore d&#39;une adresse e-mail.
 
 Si vous prévoyez d’exploiter les données stockées dans la base de données Real-time Customer Profile, vous devez sélectionner, comme clé d’événement, les informations que vous avez définies comme identité d’un profil dans le [service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
-Le système pourra ainsi effectuer la réconciliation entre l&#39;événement et le profil de l&#39;individu. Si vous sélectionnez un schéma doté d’une identité Principale, les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Espace de noms]** sont préremplis. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un espace de noms et la clé sera préremplie (sous le champ **[!UICONTROL Espace de noms]**) à l&#39;aide de _identityMap > id_.
+Le système pourra ainsi effectuer la réconciliation entre l&#39;événement et le profil de l&#39;individu. Si vous sélectionnez un schéma doté d&#39;une identité principale, les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Espace de noms]** sont déjà renseignés. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un espace de noms et la clé sera préremplie (sous le champ **[!UICONTROL Espace de noms]**) à l&#39;aide de _identityMap > id_.
 
 Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
 
@@ -132,7 +132,7 @@ Lors de la sélection de champs, les champs d&#39;identité principale sont bali
 
 Si vous devez utiliser une autre clé, telle qu&#39;un ID CRM ou une adresse e-mail, vous devez l&#39;ajouter manuellement :
 
-1. Cliquez à l’intérieur du champ **[!UICONTROL Identifiant du profil]** ou sur l’icône en forme de crayon.
+1. Cliquez dans le champ **[!UICONTROL Identifiant du profil]** ou sur l&#39;icône représentant un crayon.
 
    ![](../assets/journey16.png)
 
