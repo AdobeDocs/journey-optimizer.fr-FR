@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 49%
     <p>Découvrez comment ajouter des messages push et des emails dans vos parcours clients
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Créer votre premier parcours</a>
+    <a href="using/building-journeys/journeys-uc.md">Création de votre premier parcours</a>
     </div>
     <p>Découvrez comment créer et exécuter un parcours
     <p>
@@ -110,7 +110,7 @@ ht-degree: 49%
       <a href="using/offers/offer-library/key-steps.md">Composants</a>
     </li>
     <p>
-    <p>GESTION DE CONTENU</p>
+    <p>GESTION DU CONTENU</p>
     <li>
       <a href="using/assets-essentials.md">Assets</a>
     </li>
