@@ -7,9 +7,9 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et un
 
 ![](../assets/general-events.png)
 
-Lorsque vous déposez un événement commercial, il ajoute automatiquement une activité **Lecture de segment** . Pour plus d&#39;informations sur les événements métier, consultez [cette section](../event/about-events.md)
+Lorsque vous déposez un événement métier, cela ajoute automatiquement une activité **Lecture de segment**. Pour plus d&#39;informations sur les événements métier, consultez [cette section](../event/about-events.md)
 
 ## Écoute d&#39;événements au cours d&#39;une période spécifique {#events-specific-time}
 
@@ -29,11 +29,11 @@ Ce faisant, le parcours écoutera l&#39;événement au cours de la période déf
 
 Pour configurer une temporisation d&#39;événement, procédez comme suit :
 
-1. Activez l’option **[!UICONTROL Définir le délai d’expiration de l’événement]** dans les propriétés de l’événement.
+1. Activez l&#39;option **[!UICONTROL Définir la temporisation de l&#39;événement]** dans les propriétés de l&#39;événement.
 
 1. Définissez la durée pendant laquelle le parcours attendra l&#39;événement.
 
-1. Si vous souhaitez envoyer les individus dans un chemin d’accès au délai d’expiration alors qu’aucun événement n’est reçu au cours du délai d’expiration spécifié, activez l’option **[!UICONTROL Définir un chemin d’accès au délai d’expiration]** . Si cette option n&#39;est pas activée, le parcours se termine pour l&#39;individu une fois le délai de temporisation atteint.
+1. Si vous souhaitez orienter les individus vers un chemin de temporisation, alors qu&#39;aucun événement n&#39;est reçu au cours de la temporisation spécifiée, activez l&#39;option **[!UICONTROL Ajouter un itinéraire de temporisation]**. Si cette option n&#39;est pas activée, le parcours se termine pour l&#39;individu une fois le délai de temporisation atteint.
 
    ![](../assets/event-timeout.png)
 
