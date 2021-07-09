@@ -6,9 +6,9 @@ topic: Personnalisation
 role: Data Engineer
 level: Intermediate
 source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 86%
 
 ## Mécanismes de validation
 
-Dans l’écran **Éditeur d’expression**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
+Dans l&#39;écran **Éditeur d&#39;expression**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
 
 >[!NOTE]
-> La validation est automatiquement exécutée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
+> La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
 
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur d&#39;expression.
+> Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur d&#39;expressions.
 
 
 ## Erreurs courantes
