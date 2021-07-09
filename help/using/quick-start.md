@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 43%
+ht-degree: 79%
 
 ---
 
@@ -16,31 +16,31 @@ ht-degree: 43%
 
 ## Étapes clés pour débuter {#cjm-key-steps}
 
-Avec [!DNL Adobe Journey Optimizer], vous pouvez importer du contenu de message existant ou concevoir un nouveau contenu, personnaliser les messages avec les données de profil client, créer des événements pour déclencher les messages, définir des segments et affiner les audiences, envoyer des messages multicanaux, créer et ajouter des offres, et accéder à un ensemble complet d’outils de reporting et de surveillance pour mesurer l’impact de vos messages et de vos parcours client.
+Avec [!DNL Adobe Journey Optimizer], vous pouvez importer du contenu de message existant ou concevoir un nouveau contenu, personnaliser les messages à l&#39;aide de données de profil client, créer des événements pour déclencher des messages, définir des segments et affiner les audiences, envoyer des messages multicanal, créer et ajouter des offres, et accéder à un ensemble complet d&#39;outils de reporting et de surveillance pour mesurer l&#39;impact de vos messages et de vos parcours client.
 
 Selon votre organisation, vous pouvez définir plusieurs types d&#39;utilisateurs et leur accorder l&#39;accès à certaines fonctionnalités en fonction de leurs autorisations.
 
 ### Conditions préalables   {#cjm-prerequisites}
 
-Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], vous devez :
+Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], vous devez :
 
-* **Définissez les autorisations** utilisateur : connectez-vous à  [!DNL Adobe Journey Optimizer] et accordez l’accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
+* **Définir des autorisations d&#39;utilisateur** : connectez-vous à [!DNL Adobe Journey Optimizer] et accordez l&#39;accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
 
 * **Déployer[!DNL Adobe Experience Manager Assets Essentials]**: pour gérer les ressources et les images dans vos messages, vous devez déployer  [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs, qui doivent accéder à  [!DNL Assets Essentials], font partie des profils  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
-* **Configurez vos canaux** : définissez les paramètres de votre email et de votre notification push. [En savoir plus](../using/configuration/get-started-configuration.md)
+* **Configurer vos canaux** : définissez les paramètres de vos e-mails et de vos notifications push. [En savoir plus](../using/configuration/get-started-configuration.md)
 
-* **Définissez vos paramètres** prédéfinis : créez vos paramètres prédéfinis et configurez vos paramètres de marque. [En savoir plus](../using/configuration/message-presets.md)
+* **Définir vos préréglages** : créez vos préréglages et configurez vos paramètres de branding. [En savoir plus](../using/configuration/message-presets.md)
 
-* **Identifier les données et créer un schéma et un jeu de données** : intégrez vos données à Adobe Experience Platform, créez un espace de noms d&#39;identités et un jeu de données activé pour les profils, créez des segments et testez les profils.
+* **Identifier les données et créer un schéma et un jeu de données** : intégrez vos données à Adobe Experience Platform, créez un espace de noms d&#39;identité et un jeu de données activé pour les profils, créez des segments et testez les profils.
 
-   * Découvrez comment prévisualiser et créer un jeu de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr){target=&quot;_blank&quot;}
+   * Découvrez comment prévisualiser et créer un jeu de données dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr).{target=&quot;_blank&quot;}
 
    * Découvrez comment créer un espace de noms d’identité dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#manage-namespaces){target=&quot;_blank&quot;}
 
    * Découvrez comment créer des profils de test dans [cette page](../using/building-journeys/creating-test-profiles.md)
 
-   * En savoir plus sur l’ingestion de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target=&quot;_blank&quot;}
+   * En savoir plus sur l&#39;ingestion de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target=&quot;_blank&quot;}
 
 
 ### Flux d&#39;utilisation
@@ -51,9 +51,9 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours et e
 
 * **Télécharger des ressources** : utilisez Adobe Experience Manager Assets Essentials pour gérer les ressources et les images. [En savoir plus](assets-essentials.md)
 
-* **Ajouter des offres** : Utilisez Journey Optimizer Decision Management pour ajouter des offres personnalisées dans vos messages. [En savoir plus](../using/offers/get-started/starting-offer-decisioning.md)
+* **Ajouter des offres** : utilisez Journey Optimizer Decision Management pour ajouter des offres personnalisées dans vos messages. [En savoir plus](../using/offers/get-started/starting-offer-decisioning.md)
 
-* **Définition de l’audience** : créer des segments, créer des événements, gérer le consentement et la confidentialité. [En savoir plus](../using/segment/about-segments.md)
+* **Définir l&#39;audience** : créez des segments et des événements, gérez le consentement et la confidentialité. [En savoir plus](../using/segment/about-segments.md)
 
 * **Créer des parcours** : envoyez des messages, utilisez des données contextuelles, affinez les audiences, concevez et exécutez des cas d&#39;utilisation à plusieurs étapes. [En savoir plus](building-journeys/journey.md)
 
