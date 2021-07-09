@@ -8,17 +8,17 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
-# Utilisation des données Adobe Analytics{#analytics-data}
+# Exploitation des données Adobe Analytics{#analytics-data}
 
-Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
+Vous pouvez exploiter toutes les données d&#39;événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Platform afin de déclencher des parcours et d&#39;automatiser les expériences de vos clients.
 
 >[!NOTE]
 >
->Cette section s’applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics.
+>Cette section s&#39;applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics.
 
 Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, la suite de rapports que vous souhaitez utiliser :
 
