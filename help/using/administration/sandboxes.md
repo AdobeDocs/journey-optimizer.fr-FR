@@ -1,5 +1,5 @@
 ---
-title: Gestion des environnements de test
+title: Gestion des environnements Sandbox
 description: Découvrir comment gérer les environnements de test
 feature: Populations témoins
 topic: Administration
@@ -12,9 +12,9 @@ ht-degree: 89%
 
 ---
 
-# Gestion des environnements de test {#sandboxes}
+# Gestion des environnements Sandbox {#sandboxes}
 
-## Utilisation des environnements de test {#using-sandbox}
+## Utilisation des environnements Sandbox {#using-sandbox}
 
 [!DNL Journey Optimizer] vous permet de partitionner votre instance en environnements virtuels séparés appelés Sandbox.
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. [Découvrez comment affecter des environnements Sandbox](permissions.md#create-product-profile).
