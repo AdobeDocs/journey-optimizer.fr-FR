@@ -6,15 +6,15 @@ topic: Personnalisation
 role: Data Engineer
 level: Experienced
 source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Fonctions de carte{#maps}
+# Fonctions de mappage{#maps}
 
-Utilisez les fonctions de carte dans la personnalisation pour faciliter l’interaction avec les cartes.
+Utilisez les fonctions de mappage dans la personnalisation pour faciliter l’interaction avec les mappages.
 
 ## Get{#get}
 
