@@ -1,5 +1,5 @@
 ---
-title: 'Confidentialité in [!DNL Journey Optimizer] '
+title: 'Confidentialité  in [!DNL Journey Optimizer] '
 description: Découvrez comment gérer la confidentialité.
 topic: Confidentialité
 role: User
@@ -7,7 +7,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
