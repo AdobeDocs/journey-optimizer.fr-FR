@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 
 >[!CAUTION]
 >
->Lors de la prévisualisation d&#39;un message ou de l&#39;envoi de BAT, seules les données de personnalisation de profil s&#39;affichent. La personnalisation basée sur les données contextuelles, telles que les informations d’événement, ne peut être testée que dans le contexte d’un parcours. Découvrez comment tester la personnalisation dans [ce cas pratique](personalization/personalization-use-case.md).
+>Lors de la prévisualisation d&#39;un message ou de l&#39;envoi de BAT, seules les données de personnalisation de profil s&#39;affichent. La personnalisation basée sur les données contextuelles, telles que les informations d&#39;événement, ne peut être testée que dans le contexte d&#39;un parcours. Découvrez comment tester la personnalisation dans [ce cas d&#39;utilisation](personalization/personalization-use-case.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment prévisualiser, tester et publier votre email dans cette vidéo](#video-preview)
 
@@ -45,7 +45,7 @@ Utilisez des [profils de test](building-journeys/creating-test-profiles.md) pour
 
 Pour sélectionner des profils de test, procédez comme suit :
 
-1. Dans l&#39;interface du message ou dans le concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Afficher l&#39;aperçu]** pour accéder à la sélection du profil de test.
+1. Dans l&#39;interface de messagerie ou dans le concepteur d&#39;e-mail, cliquez sur le bouton **[!UICONTROL Afficher l&#39;aperçu]** pour accéder à la sélection du profil de test.
 
    ![](assets/email-preview-button.png)
 
@@ -133,7 +133,7 @@ Vous devez envoyer des BAT après toute modification du contenu du message.
 
 >[!NOTE]
 >
-> Dans le BAT envoyé aux profils de test, le lien vers la page miroir n&#39;est pas principal. Elle n’est activée que dans les messages finaux.
+> Dans le BAT envoyé aux profils de test, le lien vers la page miroir n&#39;est pas actif. Il n&#39;est activé que dans les messages finaux.
 
 ## Rendu des emails{#email-rendering}
 
@@ -168,6 +168,6 @@ Suivez ensuite les étapes ci-dessous :
 
 ## Vidéo pratique{#video-preview}
 
-Découvrez comment tester le rendu des emails dans les boîtes de réception, comment prévisualiser vos emails personnalisés par rapport aux profils de test, envoyer des bons à tirer et publier votre email.
+Découvrez comment tester le rendu des e-mails dans les boîtes de réception, prévisualiser vos e-mails personnalisés par rapport aux profils de test, envoyer des bons à tirer et publier votre e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
