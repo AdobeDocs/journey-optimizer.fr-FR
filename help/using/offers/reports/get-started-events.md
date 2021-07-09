@@ -6,13 +6,13 @@ topic: Intégrations
 role: User
 level: Beginner
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
-# Prise en main des événements de gestion de décision {#monitor-offer-events}
+# Prise en main des événements Decision Management {#monitor-offer-events}
 
 Chaque fois que la gestion de décision prend une décision pour un profil donné, les informations relatives à ces événements sont automatiquement envoyées à Adobe Experience Platform.
 
