@@ -6,9 +6,9 @@ topic: Gestion de contenu
 role: User
 level: Beginner
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
