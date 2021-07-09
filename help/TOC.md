@@ -68,7 +68,7 @@ ht-degree: 96%
       + [Limites](using/building-journeys/limitations.md)
       + [Versions de parcours](using/building-journeys/journey-versions.md)
       + [Profils de test](using/building-journeys/creating-test-profiles.md)
-      + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
+      + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
    + Création d‘un parcours{#create-journey}
       + [Prise en main des parcours](using/building-journeys/journey-gs.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
