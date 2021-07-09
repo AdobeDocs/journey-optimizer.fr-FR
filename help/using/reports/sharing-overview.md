@@ -8,17 +8,17 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
 
 # Création de rapports de parcours{#design-jo-reports}
 
-Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de reporting global](global-report.md) intégrées, [!DNL Journey Optimizer] peut automatiquement envoyer des données de performances de parcours à Adobe Experience Platform afin qu’elles soient combinées à d’autres données à des fins d’analyse.
+Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de reporting global](global-report.md) natives, [!DNL Journey Optimizer] peut automatiquement envoyer des données de performances de parcours à Adobe Experience Platform afin qu&#39;elles soient combinées à d&#39;autres données à des fins d&#39;analyse.
 
 >[!NOTE]
 >
->Cette fonction est activée par défaut sur toutes les instances pour les événements d’étapes de parcours. Pour les événements d’étape de profil de parcours, l’activation est effectuée sur demande. Les schémas et les jeux de données créés pendant la mise en service de cette fonctionnalité ne doivent pas être modifiés.
+>Cette fonction est activée par défaut sur toutes les instances pour les événements d&#39;étapes de parcours. Pour les événements d’étape de profil de parcours, l’activation est effectuée sur demande. Les schémas et les jeux de données créés pendant l’approvisionnement de cette fonctionnalité ne doivent pas être modifiés.
 
 Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Optimizer] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
