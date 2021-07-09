@@ -1,14 +1,14 @@
 ---
 title: Champs communs des événements journeysteps
 description: Champs communs des événements journeysteps
-feature: Création de rapports
+feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
