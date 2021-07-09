@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -129,19 +129,19 @@ Corps de la requête:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## Lien de désabonnement dans l’en-tête {#unsubscribe-email}
+## Lien de désabonnement dans l&#39;en-tête {#unsubscribe-email}
 
-Si le client de messagerie des destinataires prend en charge l’affichage d’un lien de désabonnement dans l’en-tête de l’email, les emails envoyés avec [!DNL Journey Optimizer] incluent automatiquement ce lien.
+Si le client de messagerie des destinataires prend en charge l&#39;affichage d&#39;un lien de désabonnement dans l&#39;en-tête des e-mails, les e-mails envoyés avec [!DNL Journey Optimizer] incluent automatiquement ce lien.
 
-Par exemple, le lien de désabonnement s’affiche comme suit dans Gmail :
+Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 
 ![](assets/unsubscribe-email.png)
 
-En fonction du client de messagerie, cliquer sur le lien de désabonnement de l’en-tête a l’un des impacts suivants :
+En fonction du client de messagerie, cliquer sur le lien de désabonnement de l&#39;en-tête aura l&#39;un des impacts suivants :
 
-* Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
+* Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
 
-* Cela a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l&#39;email : le destinataire est redirigé vers une landing page comprenant un bouton pour confirmer son désinscription. Pour en savoir plus sur la gestion des opt-out, consultez [cette section](#opt-out-management).
+* Cela a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l&#39;e-mail : le destinataire est redirigé vers une landing page comprenant un bouton pour confirmer sa désinscription. En savoir plus sur la gestion des opt-outs dans [cette section](#opt-out-management).
 
 ## Gestion des désinscriptions push {#push-opt-out-management}
 
