@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -53,8 +53,8 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 
 * L’activité **[!UICONTROL Saut]** n’est disponible que dans les parcours utilisant un espace de noms.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
-* Vous ne pouvez pas accéder à un parcours commençant par un événement **Qualification de segment** ou **Lecture de segment**.
-* Vous ne pouvez pas avoir une activité **[!UICONTROL Saut]** et un événement **Qualification de segment** ou **Lire le segment** dans le même parcours.
+* Vous ne pouvez pas accéder à un parcours commençant par un événement **Qualification du segment** ou **Lecture de segment**.
+* Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement **Qualification du segment** ou **Lecture de segment**.
 * Vous pouvez inclure autant d’activités **[!UICONTROL Saut]** que nécessaire dans un parcours. Après un **[!UICONTROL saut]**, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
 * Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
