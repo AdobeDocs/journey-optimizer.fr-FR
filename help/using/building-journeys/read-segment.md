@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -22,11 +22,11 @@ Prenons l’exemple du segment « Ouverture et passage en caisse de l’applica
 
 >[!NOTE]
 >
->Le module complémentaire payant Burst permet d’envoyer très rapidement des messages push en gros volumes pour des parcours simples comprenant un segment de lecture et un message push simple. Voir à ce sujet [cette section](../building-journeys/journey-gs.md#burst)
+>Le module complémentaire payant Rafale permet d&#39;envoyer très rapidement des messages push en gros volumes pour des parcours simples comprenant une lecture de segment et un message push simple. Voir à ce sujet [cette section](../building-journeys/journey-gs.md#burst)
 
 ### Configuration de l’activité {#configuring-segment-trigger-activity}
 
-Les étapes de configuration de l’activité Lecture de segment sont les suivantes :
+Les étapes de configuration de l&#39;activité Lecture de segment sont les suivantes :
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lecture de segment]** dans votre zone de travail.
 
@@ -97,7 +97,7 @@ Une fois les tests terminés, vous pouvez publier votre parcours (voir [Publicat
 
 ## Ciblage des audiences dans les parcours basés sur segment
 
-Les parcours basés sur des segments commencent toujours par une activité **Lecture de segment** pour récupérer les individus appartenant à un segment Adobe Experience Platform.
+Les parcours basés sur segments débutent toujours avec une activité **Lecture de segment** pour récupérer les individus appartenant à un segment Adobe Experience Platform.
 
 L’audience appartenant au segment est récupérée une fois ou régulièrement.
 
