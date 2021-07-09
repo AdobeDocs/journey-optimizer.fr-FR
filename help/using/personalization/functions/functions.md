@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -263,7 +263,7 @@ Les fonctions booléennes sont utilisées pour exécuter une logique booléenne 
 
 ### Fonctions de comparaison 
 
-Les fonctions de comparaison sont utilisées pour comparer différentes expressions et valeurs, renvoyant true ou false en conséquence.
+Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
 
 <table>
     <tr>
@@ -285,6 +285,6 @@ Les fonctions de comparaison sont utilisées pour comparer différentes expressi
 
 ## Vidéo pratique{#video}
 
-Découvrez comment transformer des valeurs de personnalisation à l’aide de fonctions d’assistance à la personnalisation et comprendre différents cas d’utilisation des fonctions d’assistance.
+Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
