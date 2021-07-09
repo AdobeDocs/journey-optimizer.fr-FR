@@ -6,15 +6,15 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Envoi de messages à plusieurs canaux
 
-Cette section présente un cas pratique qui combine un segment de lecture, un événement, des événements de réaction et des messages électroniques/push.
+Cette section présente un cas d&#39;utilisation qui combine une Lecture de segment, un événement, des événements de réaction et des e-mails/messages push.
 
 ![](../assets/jo-uc1.png)
 
@@ -42,7 +42,7 @@ Dans notre parcours, nous voulons utiliser un segment spécifique de clients. To
 
 Pour plus d&#39;informations sur les segments, consultez cette [page](../segment/about-segments.md).
 
-1. Dans la section du menu CLIENT , sélectionnez **[!UICONTROL Segments]**.
+1. Dans la section du menu CLIENT, sélectionnez **[!UICONTROL Segments]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un segment]** situé en haut à droite de la liste de segments.
 
@@ -54,7 +54,7 @@ Pour plus d&#39;informations sur les segments, consultez cette [page](../segment
 
    ![](../assets/add-attributes.png)
 
-Le segment est maintenant configuré et prêt à être utilisé dans votre parcours. À l’aide d’une activité **Lecture de segment** , vous pouvez faire entrer dans le parcours toutes les personnes appartenant au segment.
+Le segment est maintenant configuré et prêt à être utilisé dans votre parcours. En utilisant une activité **Lecture de segment**, vous pouvez faire en sorte que tous les individus appartenant au segment rejoignent le parcours.
 
 ### Configurer l&#39;événement
 
@@ -72,7 +72,7 @@ Pour cela, nous utilisons un événement basé sur des règles. Pour plus d&#39;
 
 1. Dans le champ **[!UICONTROL Condition d&#39;identifiant d&#39;événement]**, définissez la condition utilisée par le système pour identifier les événements qui déclenchent votre parcours. Par exemple, vous pouvez ajouter un champ `purchaseMessage` et définir la règle suivante : `purchaseMessage="thank you"`
 
-1. Définissez l’ **[!UICONTROL espace de noms]** et l’**[!UICONTROL identifiant de profil]**.
+1. Définissez l&#39;**[!UICONTROL espace de noms]** et l&#39;**[!UICONTROL identifiant du profil]**.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -94,7 +94,7 @@ Consultez cette [section](../segment/about-segments.md) pour savoir comment conc
 
 ## Concevoir le parcours
 
-1. Commencez le parcours par une activité **Lecture de segment** . Sélectionnez le segment créé précédemment. Tous les individus appartenant au segment rejoignent le parcours.
+1. Débutez le parcours avec une activité **Lecture de segment**. Sélectionnez le segment créé précédemment. Tous les individus appartenant au segment rejoignent le parcours.
 
    ![](../assets/jo-uc4.png)
 
