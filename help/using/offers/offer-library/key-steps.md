@@ -6,9 +6,9 @@ topic: Intégrations
 role: User
 level: Intermediate
 source-git-commit: 5631a1937b854c3e14d1816df9e8d30690588303
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Les principales étapes de création, de configuration et de gestion des offres,
 
 ![](../../assets/offer-create-manage-process.png)
 
-Pour obtenir un exemple complet de bout en bout montrant comment configurer des offres, utilisez-les dans une décision et utilisez cette décision dans un email, consultez [cette page](../offers-e2e.md).
+Pour obtenir un exemple complet montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un e-mail, consultez [cette page](../offers-e2e.md).
 
 ## Création de composants
 
 Avant de commencer à créer des offres, vous devez définir plusieurs composants que vous utiliserez dans vos offres.
 
-1. **Créez des emplacements**, qui sont des conteneurs qui seront utilisés pour présenter vos offres. Vous pouvez, par exemple, créer un emplacement réservé aux offres au format d’image uniquement, et situé en haut de vos messages.
+1. **Créez des emplacements** qui sont des conteneurs utilisés pour présenter vos offres. Vous pouvez, par exemple, créer un emplacement réservé aux offres au format d&#39;image uniquement, et situé en haut de vos messages.
 
 1. **Créez des règles de décision** qui spécifient les conditions dans lesquelles les offres sont présentées.
 
@@ -46,20 +46,20 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 
 1. **Créez des offres de secours**, qui sont les dernières offres de recours à afficher si les clients ne sont éligibles à aucune des offres sélectionnées.
 
-1. **Créez une** collection afin d’inclure les offres personnalisées que vous avez créées et de les utiliser dans une décision.
+1. **Créez une collection** afin d&#39;inclure les offres personnalisées que vous avez créées et de les utiliser dans une décision.
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Créer des offres</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Création d’offres</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Création d'offres de secours</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Création de collections</a></p></td></tr>
 </table>
 
-## Créer et configurer des décisions
+## Création et configuration des décisions
 
-1. **Créez une** décision qui combine des emplacements avec les offres personnalisées et les offres de secours. Cette combinaison sera utilisée par le moteur d’Offer decisioning pour trouver la meilleure offre pour un profil spécifique.
+1. **Créez une décision** qui combine des emplacements avec des offres personnalisées et des offres de secours. Cette combinaison sera utilisée par le moteur Offer Decisioning pour trouver la meilleure offre pour un profil spécifique.
 
-1. **Configurez la décision**. Pour ce faire, sélectionnez les emplacements, puis, pour chaque emplacement, sélectionnez une collection et un secours.
+1. **Configurez la décision**. Pour ce faire, sélectionnez les emplacements, puis, pour chaque emplacement, sélectionnez une collection et une offre de secours.
 
 1. Si nécessaire, vous pouvez **attribuer une formule de classement** à un emplacement lors de la configuration de la décision.
 
@@ -67,6 +67,6 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">Création de décisions</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">Configuration des décisions</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Attribuer un classement</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Attribution d'un classement</a></p></td>
 </tr>
 </table>
