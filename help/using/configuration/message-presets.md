@@ -1,14 +1,14 @@
 ---
 title: Création de préréglages de message
 description: Découvrez comment configurer et surveiller les préréglages de message
-feature: Paramétrage de l’application
+feature: Paramétrage de l'application
 topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 71%
+ht-degree: 95%
 
 ---
 
@@ -22,10 +22,10 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 > * La configuration des préréglages de message est limitée aux administrateurs de parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
    >
    > 
-* Vous devez effectuer les étapes de configuration Email et Push avant de créer des paramètres prédéfinis de message.
+* Vous devez effectuer les étapes de configuration E-mail et Push avant de créer des préréglages de message.
 
 
-Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Paramètres prédéfinis]** lors de la création de messages.
+Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages.
 
 ![](../assets/do-not-localize/how-to-video.png) [Découvrez comment créer et utiliser des paramètres prédéfinis d’email dans cette vidéo](#video-presets)
 
@@ -61,19 +61,19 @@ Pour créer un préréglage de message, procédez comme suit :
 
       >[!CAUTION]
       >
-      >À l’exception du champ **Répondre à (courrier électronique de transfert)** , le domaine des adresses électroniques doit utiliser le [sous-domaine délégué](about-subdomain-delegation.md) sélectionné actuellement.
+      >À l&#39;exception du champ **Répondre à (transférer l&#39;e-mail)**, le domaine des adresses e-mails doit utiliser le [sous-domaine délégué](about-subdomain-delegation.md).
 
-      * **[!UICONTROL Nom]** de l&#39;expéditeur : Nom de l’expéditeur, tel que le nom de votre marque.
+      * **[!UICONTROL Nom de l&#39;expéditeur]** : nom de l&#39;expéditeur, tel que le nom de votre marque.
 
-      * **[!UICONTROL Email de l&#39;expéditeur]** : Adresse électronique que vous souhaitez utiliser pour vos communications. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com*.
+      * **[!UICONTROL E-mail de l&#39;expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com*.
 
-      * **[!UICONTROL Réponse (nom)]** : Nom qui sera utilisé lorsque le destinataire clique sur le bouton  **** Répondre de son logiciel de messagerie.
+      * **[!UICONTROL Répondre à (nom)]** : le nom qui sera utilisé lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
 
-      * **[!UICONTROL Répondre à (email)]** : Adresse électronique qui sera utilisée lorsque le destinataire clique sur le bouton  **** Répondre de son logiciel de messagerie. Les emails envoyés à cette adresse seront transférés à l&#39;adresse **[!UICONTROL Réponse (email de transfert)]** fournie ci-dessous. Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les emails seront ignorés.
+      * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. Les e-mails envoyés à cette adresse seront transférés à l&#39;adresse **[!UICONTROL Répondre à (transférer l&#39;e-mail)]** fournie ci-dessous. Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les e-mails seront ignorés.
 
-      * **[!UICONTROL Répondre à (transférer l&#39;email)]** : Tous les emails reçus par  [!DNL Journey Optimizer] pour le sous-domaine délégué seront transférés vers cette adresse email. Vous pouvez spécifier n’importe quelle adresse, à l’exception d’une adresse électronique définie sur le sous-domaine délégué. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, toute adresse telle que *abc@marketing.luma.com* est interdite.
+      * **[!UICONTROL Répondre à (transférer l&#39;email)]** : tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué seront transférés vers cette adresse e-mail. Vous pouvez spécifier n&#39;importe quelle adresse, à l&#39;exception d&#39;une adresse e-mail définie sur le sous-domaine délégué. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, toute adresse telle que *abc@marketing.luma.com* est interdite.
 
-      * **[!UICONTROL Message d’erreur]** : Toutes les erreurs générées par les FAI après quelques jours de diffusion du courrier (bounces asynchrones) sont reçues sur cette adresse.
+      * **[!UICONTROL Message d&#39;erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l&#39;e-mail (bounces asynchrones) sont reçues sur cette adresse.
 
       ![](../assets/preset-header.png)
 
