@@ -1,46 +1,46 @@
 ---
-title: Envoyer un message à l'aide de Campaign v7/v8
-description: Découvrez comment envoyer un message à l'aide de Campaign v7/v8
+title: Envoi de messages à l'aide de Campaign v7/v8
+description: Découvrez comment envoyer un message à l'aide de Campaign v7/v8
 feature: Actions
 topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Envoyer un message à l’aide de Campaign v7/v8 {#campaign-classic-use-case}
+# Envoi de messages à l&#39;aide de Campaign v7/v8 {#campaign-classic-use-case}
 
-Ce cas pratique présente toutes les étapes nécessaires pour envoyer un email à l’aide de l’intégration avec Adobe Campaign Classic v7 et Adobe Campaign v8.
+Ce cas pratique présente toutes les étapes nécessaires pour envoyer un e-mail à l&#39;aide de l&#39;intégration à Adobe Campaign Classic v7 et Adobe Campaign v8.
 
-Nous allons tout d’abord créer un modèle d’email transactionnel dans Campaign. Ensuite, dans Journey Optimizer, nous allons créer l’événement, l’action et la conception du parcours.
+Nous allons tout d&#39;abord créer un modèle d&#39;e-mail transactionnel dans Campaign. Ensuite, dans Journey Optimizer, nous allons créer l&#39;événement, l&#39;action et la conception du parcours.
 
-Pour en savoir plus sur l&#39;intégration de Campaign, consultez les pages suivantes :
+Pour en savoir plus sur l&#39;intégration de Campaign, consultez les pages suivantes :
 
-* [Création d’une action de campagne](../action/acc-action.md)
-* [Utilisation de l’action dans un parcours](../building-journeys/using-adobe-campaign-classic.md).
+* [Création d&#39;une action Campaign](../action/acc-action.md)
+* [Utilisation de l&#39;action dans un parcours](../building-journeys/using-adobe-campaign-classic.md).
 
-**Adobe Campaign**
+**Adobe Campaign**
 
 Votre instance Campaign doit être configurée pour cette intégration. La fonctionnalité de messagerie transactionnelle doit être configurée.
 
 1. Connectez-vous à votre instance de pilotage Campaign.
 
-1. Sous **Administration** > **Plateforme** > **Enumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d’événement (&quot;parcours-event&quot;, dans notre exemple). Vous devrez utiliser le nom interne du type d’événement lors de l’écriture ultérieure du fichier JSON.
+1. Sous **Administration** > **Plate-forme** > **Énumérations**, sélectionnez l&#39;énumération **Type d&#39;événement** (eventType). Créez un type d&#39;événement (« journey-event », dans notre exemple). Vous devrez utiliser le nom interne du type d&#39;événement lors de l&#39;écriture ultérieure du fichier JSON.
 
    ![](../assets/accintegration-uc-1.png)
 
-1. Déconnectez-vous et reconnectez-vous à l’instance pour que la création soit effective.
+1. Déconnectez-vous et reconnectez-vous à l&#39;instance pour que la création prenne effet.
 
-1. Sous **Message Center** > **Modèles de messages transactionnels**, créez un modèle d&#39;email basé sur le type d&#39;événement précédemment créé.
+1. Sous **Message Center** > **Modèles de messages transactionnels**, créez un modèle d&#39;e-mail basé sur le type d&#39;événement précédemment créé.
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Concevez votre modèle. Dans cet exemple, nous utilisons la personnalisation sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de notre événement Journey Optimizer. Veillez à utiliser les noms de champ corrects dans Campaign.
+1. Concevez votre modèle. Dans cet exemple, nous utilisons la personnalisation sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de notre événement Journey Optimizer. Veillez à utiliser les noms de champ corrects dans Campaign.
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -48,7 +48,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](../assets/accintegration-uc-4.png)
 
-1. Vous devez maintenant écrire la charge utile JSON correspondant au modèle.
+1. Vous devez maintenant écrire la payload JSON correspondant au modèle.
 
 ```
 {
@@ -61,18 +61,18 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 }
 ```
 
-* Pour le canal, vous devez saisir &quot;email&quot;.
-* Pour eventType, utilisez le nom interne du type d’événement créé précédemment.
-* L’adresse électronique est une variable. Vous pouvez donc saisir n’importe quel libellé.
+* Pour le canal, vous devez saisir le type &quot;e-mail&quot;.
+* Pour eventType, utilisez le nom interne du type d&#39;événement créé précédemment.
+* L&#39;adresse e-mail est une variable. Vous pouvez donc saisir n&#39;importe quel libellé.
 * Sous ctx, les champs de personnalisation sont également des variables.
 
-**Journey Optimizer**
+**Journey Optimizer**
 
-1. Tout d’abord, vous devez créer un événement. Veillez à inclure le champ &quot;purchaseOrderNumber&quot;.
+1. Tout d&#39;abord, vous devez créer un événement. Veillez à inclure le champ « purchaseOrderNumber ».
 
    ![](../assets/accintegration-uc-5.png)
 
-1. Vous devez ensuite créer, dans Journey Optimizer, une action correspondant à votre modèle Campaign. Dans la liste déroulante **Type d’action**, sélectionnez **Adobe Campaign Classic**.
+1. Vous devez ensuite créer, dans Journey Optimizer, une action correspondant à votre modèle Campaign. Dans le menu déroulant **Type d&#39;action**, sélectionnez **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
@@ -80,15 +80,15 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Pour l&#39;adresse email et les deux champs de personnalisation, remplacez **Constante** par **Variable**.
+1. Pour l&#39;adresse e-mail et les deux champs de personnalisation, remplacez **Constante** par **Variable**.
 
    ![](../assets/accintegration-uc-8.png)
 
-1. Créez maintenant un parcours et commencez par l’événement précédemment créé.
+1. Créez maintenant un parcours et commencez par l&#39;événement précédemment créé.
 
    ![](../assets/accintegration-uc-9.png)
 
-1. Ajoutez l’action et mappez chaque champ au champ correct dans Journey Optimizer.
+1. Ajoutez l&#39;action et mappez chaque champ au champ correct dans Journey Optimizer.
 
    ![](../assets/accintegration-uc-10.png)
 
