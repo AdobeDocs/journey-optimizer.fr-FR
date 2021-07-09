@@ -8,21 +8,21 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
-# Concevoir le contenu de vos emails dans l’interface utilisateur {#create-email-content}
+# Concevoir le contenu de vos emails dans l&#39;interface utilisateur {#create-email-content}
 
 Une fois que vous avez [créé votre message](create-message.md), vous pouvez commencer à créer le contenu de votre email.
 
-1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur d’email]** dans la section **[!UICONTROL Corps]**.
+1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur d&#39;email]** dans la section **[!UICONTROL Corps]**.
 
    ![](assets/import-html_1.png)
 
-1. Dans la page d’accueil du Concepteur d’email, choisissez la manière de concevoir votre email à l’aide des options suivantes :
+1. Dans la page d&#39;accueil du Concepteur d&#39;email, choisissez la manière de concevoir votre email à l&#39;aide des options suivantes :
 
-   * Sélectionnez **[!UICONTROL Créer en partant de zéro]** pour utiliser les fonctionnalités du Concepteur d’email afin de créer le contenu de votre email. [En savoir plus](#design-scratch)
+   * Sélectionnez **[!UICONTROL Créer en partant de zéro]** pour utiliser les fonctionnalités du Concepteur d&#39;email afin de créer le contenu de votre email. [En savoir plus](#design-scratch)
 
    * Sélectionnez **[!UICONTROL Démarrer à partir d’un modèle]** pour créer votre email à partir d’une liste intégrée de modèles. Notez que vous ne pouvez pas créer d’autres modèles.
 
@@ -90,7 +90,7 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les liens et le tracking des messages, consultez [cette page](message-tracking.md).
+   >Pour en savoir plus sur les liens et le suivi des messages, consultez [cette page](message-tracking.md).
 
 1. Au besoin, vous pouvez passer à l’éditeur de code pour personnaliser davantage votre email en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Pour plus d’informations sur l’éditeur de code, consultez [cette page](existing-content.md#import-raw-html-code).
 
@@ -100,9 +100,9 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 
    ![](assets/email_designer_26.png)
 
-1. Cliquez sur **[!UICONTROL Afficher l’aperçu]** pour vérifier le rendu de votre email. Vous pouvez choisir la vue bureau ou la vue mobile.
+1. Cliquez sur **[!UICONTROL Afficher l&#39;aperçu]** pour vérifier le rendu de votre e-mail. Vous pouvez choisir la vue bureau ou la vue mobile.
 
-   Pour plus d&#39;informations sur la prévisualisation de votre email, consultez la section [Prévisualisation et test de vos messages](preview.md).
+   Pour plus d&#39;informations sur la prévisualisation de votre e-mail, consultez la section [Prévisualiser et tester vos messages](preview.md).
 
    ![](assets/email_designer_8.png)
 
@@ -110,7 +110,7 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 
 Le contenu de votre email peut maintenant être utilisé dans un message. [Découvrez comment envoyer un message](publish-manage-message.md).
 
-## Créer la version texte d’un email {#generate-text-version}
+## Création de la version texte d&#39;un email {#generate-text-version}
 
 Il est recommandé de créer une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 
@@ -153,19 +153,19 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 
 Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Il peut vous aider à mieux suivre et personnaliser vos emails.
 
-1. Depuis le Concepteur d&#39;email, ajoutez des **[!UICONTROL composants de structure]** pour commencer à concevoir votre email.
+1. Depuis le Concepteur d&#39;e-mail, ajoutez des **[!UICONTROL composants de structure]** pour commencer à concevoir votre e-mail.
 
    ![](assets/preheader_1.png)
 
-1. Dans le volet de droite **[!UICONTROL Paramètres du corps]**, cliquez sur **Modifier** en regard du champ **[!UICONTROL Prétitre]** pour ajouter du contenu.
+1. Dans le volet de droite **[!UICONTROL Paramètres du corps]**, cliquez sur **Modifier** en regard du champ **[!UICONTROL Pré-titre]** pour ajouter du contenu.
 
    ![](assets/preheader_2.png)
 
-1. Ajoutez votre pré-titre. Vous pouvez la personnaliser davantage en cliquant sur l’icône **[!UICONTROL Ajouter une personnalisation]** .
+1. Ajoutez votre pré-titre. Vous pouvez le personnaliser davantage en cliquant sur l&#39;icône **[!UICONTROL Ajouter une personnalisation]**.
 
    ![](assets/preheader_3.png)
 
-1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]** , vous pouvez ajouter **[!UICONTROL Bloc de contenu]**, **[!UICONTROL Contenu dynamique]** ou **[!UICONTROL Champs de personnalisation]**.
+1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]**, vous pouvez ajouter **[!UICONTROL Bloc de contenu]**, **[!UICONTROL Contenu dynamique]** ou **[!UICONTROL Champs de personnalisation]**.
 
 1. Cliquez sur **[!UICONTROL Valider]** pour vérifier la syntaxe de votre personnalisation.
 
@@ -173,13 +173,13 @@ Un pré-titre est un texte de résumé court qui suit l’objet d’un message l
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre pré-titre est maintenant configuré pour votre email.
+Votre pré-titre est maintenant configuré pour votre e-mail.
 
-## Paramètres d’arrière-plan {#about-backgrounds}
+## Paramètres d&#39;arrière-plan {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Paramètres d’arrière-plan"
+>title="Paramètres d&#39;arrière-plan"
 >abstract="Le Concepteur d&#39;email vous permet de personnaliser la couleur d&#39;arrière-plan ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Informations supplémentaires"
 
@@ -213,7 +213,7 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez util
 
    Vous pouvez également définir une image de fond au niveau de la colonne, mais ce scénario est rare.
 
-## Ajuster l&#39;alignement vertical et la marge intérieure {#adjusting-vertical-alignment-and-padding}
+## Ajustement de l&#39;alignement vertical et la marge intérieure {#adjusting-vertical-alignment-and-padding}
 
 Dans cet exemple, nous allons ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes.
 
@@ -243,7 +243,7 @@ Dans cet exemple, nous allons ajuster la marge intérieure et l&#39;alignement v
 
 1. Enregistrez vos modifications.
 
-## Définir un style pour les liens {#about-styling-links}
+## Définition d’un style pour les liens {#about-styling-links}
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
 
@@ -271,7 +271,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Enregistrez vos modifications.
 
-## Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
+## Ajout des attributs de style intégrés {#adding-inline-styling-attributes}
 
 Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élément et en affichez les paramètres dans le panneau latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
