@@ -1,14 +1,14 @@
 ---
-title: Bibliothèque de fonctions d’objets
-description: Bibliothèque de fonctions d’objets
+title: Bibliothèque de fonctions d'objets
+description: Bibliothèque de fonctions d'objets
 feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
 level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
