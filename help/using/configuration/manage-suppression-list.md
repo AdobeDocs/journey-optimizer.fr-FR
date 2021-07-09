@@ -11,7 +11,7 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Paramétrage de l’application
+feature: Paramétrage de l'application
 topic: Administration
 role: Administrator
 level: Intermediate
