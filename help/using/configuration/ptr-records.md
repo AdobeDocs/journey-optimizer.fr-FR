@@ -1,6 +1,6 @@
 ---
 title: Enregistrements PTR
-description: '"Découvrez comment gérer les ptr-records"'
+description: '"Découvrir comment gérér les enregistrements ptr"'
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -16,9 +16,9 @@ topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent v
 
 ## Accès aux enregistrements PTR de vos sous-domaines
 
-Une fois qu&#39;un sous-domaine est délégué dans Customer Journey Management, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir du menu **[!UICONTROL Canaux]** `>` **[!UICONTROL Enregistrements PTR]** .
+Une fois qu&#39;un sous-domaine est délégué dans Customer Journey Management, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir du menu **[!UICONTROL Canaux]** `>` **[!UICONTROL Enregistrements PTR]**.
 
 ![](../assets/ptr-records.png)
 
