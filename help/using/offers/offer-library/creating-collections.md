@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez créer deux types de collections :
 
 * **Les collections dynamiques** sont des collections d&#39;offres basées sur des balises. Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec la balise sélectionnée, elle est automatiquement ajoutée à la collection.
 
-* **Les collections statiques** sont des collections créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour qu’en y ajoutant manuellement d’autres offres.
+* **Les collections statiques** sont des collections créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour qu&#39;en y ajoutant manuellement d&#39;autres offres.
 
 Pour créer une collection, procédez comme suit :
 
