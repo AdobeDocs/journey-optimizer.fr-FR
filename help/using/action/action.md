@@ -7,9 +7,9 @@ topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les actions sont des connexions par le biais desquelles vous proposez des expér
 
 [!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Reportez-vous à [cette section](../get-started-content.md).
 
-Si vous disposez d’Adobe Campaign v7 ou v8, une intégration est disponible sur demande. Voir [cette page](../action/acc-action.md).
+Si vous disposez d’Adobe Campaign v7 ou v8, une intégration est disponible sur demande. Voir [cette page](../action/acc-action.md).
 
 Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, Adobe.io, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
