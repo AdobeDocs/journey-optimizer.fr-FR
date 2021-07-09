@@ -2,9 +2,9 @@
 title: Débuter l'exécution du parcours
 description: Découvrez comment débuter de votre parcours et envoyer des messages
 source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils d
 
 [En savoir plus sur les rapports](../reports/live-report.md)
 
-## Envoyer les messages {#send-messages}
+## Envoi des messages {#send-messages}
 
 Lorsque le contenu de votre message est défini et publié, il est prêt à être envoyé par l’intermédiaire d’un [parcours](journey.md).
 
@@ -42,13 +42,13 @@ Lorsque le contenu de votre message est défini et publié, il est prêt à êtr
 
 Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au moyen de plusieurs indicateurs. [En savoir plus sur la surveillance de l’exécution des messages](../message-monitoring.md).
 
-## Planifier des messages {#schedule-messages}
+## Planification des messages {#schedule-messages}
 
-Les messages peuvent être planifiés via l’activité **[!UICONTROL Lecture de segment]** dans un [parcours](journey.md). Vous pouvez indiquer quand le segment va rejoindre le parcours. [En savoir plus sur l’activité Lecture de segment](read-segment.md).
+Les messages peuvent être planifiés via l&#39;activité **[!UICONTROL Lecture de segment]** dans un [parcours](journey.md). Vous pouvez indiquer quand le segment va rejoindre le parcours. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
 
 Pour ce faire, procédez comme suit :
 
-1. Editez un parcours, faites glisser et déposez une activité **[!UICONTROL Lecture de segment]** et commencez à la configurer. [En savoir plus sur la configuration de l’activité](read-segment.md#configuring-segment-trigger-activity) Lecture de segment .
+1. Modifiez un parcours, faites glisser et déposez une activité **[!UICONTROL Lecture de segment]** et commencez à la configurer. [En savoir plus sur la configuration de l&#39;activité Lecture de segment](read-segment.md#configuring-segment-trigger-activity).
 
 1. Cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours.
 
