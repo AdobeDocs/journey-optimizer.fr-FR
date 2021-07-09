@@ -1,18 +1,18 @@
 ---
-title: Champs d’exécution d’action des événements journeyStep
-description: Champs d’exécution d’action des événements journeyStep
-feature: Création de rapports
+title: Champs d'exécution d'action des événements journeyStep
+description: Champs d'exécution d'action des événements journeyStep
+feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Champs d’exécution d’action des événements journeyStep {#sharing-execution-fields}
+# Champs d&#39;exécution d&#39;action des événements journeyStep {#sharing-execution-fields}
 
 Ce groupe de champs sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
