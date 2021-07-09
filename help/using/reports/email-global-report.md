@@ -8,11 +8,11 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
-# Rapport global sur les e-mails {#email-global-report}
+# Rapport global d’e-mail {#email-global-report}
 
 Le **[!UICONTROL rapport global d&#39;email]** ne cible qu&#39;une diffusion par email spécifique.
 
@@ -40,7 +40,7 @@ Le **[!UICONTROL rapport global]** d&#39;email est divisé en différents widget
 
 * **[!UICONTROL Taux de plaintes de courrier indésirable]** : pourcentage d&#39;emails marqués comme étant indésirables par les destinataires par rapport aux messages envoyés. Pour plus d’informations sur les plaintes, consultez le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
-* **[!UICONTROL Taux de désabonnement]** : Pourcentage de désabonnements uniques par rapport au nombre de messages délivrés. Cet indicateur ne dépend pas du nombre de clics effectués sur le lien de désinscription, mais du nombre de désinscriptions initialisés par les destinataires. Pour en savoir plus sur les désabonnements, consultez cette [page](../consent.md).
+* **[!UICONTROL Taux de désabonnement]** : pourcentage de désabonnements uniques par rapport au nombre de messages diffusés. Cet indicateur ne dépend pas du nombre de clics effectués sur le lien de désabonnement, mais du nombre de désabonnements effectués par les destinataires. Pour en savoir plus sur les désabonnements, consultez cette [page](../consent.md).
 
 **[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l&#39;activité destinataire de votre diffusion :
 
@@ -80,7 +80,7 @@ Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent d
 
 ![](../assets/global_report_6.png)
 
-Le graphique **[!UICONTROL Email - Domaine du destinataire supérieur]** et le tableau détaillent les domaines les plus utilisés par les destinataires pour ouvrir l’email.
+Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
 
 Le graphique et le tableau **[!UICONTROL Email - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
 
