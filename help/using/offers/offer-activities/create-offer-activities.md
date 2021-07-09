@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -89,7 +89,7 @@ Vous pouvez également enregistrer la décision en tant que version préliminair
 
 ![](../../assets/save-activities.png)
 
-La décision s’affiche dans la liste avec le statut **[!UICONTROL Live]** ou **[!UICONTROL Version préliminaire]**, selon que vous l’avez activée ou non à l’étape précédente.
+La décision s&#39;affiche dans la liste avec l&#39;état **[!UICONTROL Actif]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez activée ou non à l&#39;étape précédente.
 
 Elle est maintenant prête à être utilisée pour diffuser des offres vers les clients. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
