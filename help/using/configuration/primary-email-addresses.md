@@ -1,6 +1,6 @@
 ---
 title: Paramètres généraux des messages
-description: Découvrez comment définir des adresses électroniques
+description: Découvrez comment définir des adresses e-mail
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -11,25 +11,25 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Paramétrage de l’application
+feature: Paramétrage de l'application
 topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Modifier les adresses email Principales
+# Modification des adresses e-mail principales
 
 Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail personnelle, professionnelle, etc.).
 
 Avec Journey Optimizer, vous pouvez déterminer l&#39;adresse e-mail à utiliser à partir du service de profil et établir la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** `>` **[!UICONTROL Général]** .
+1. Accédez au menu **[!UICONTROL Canaux]** `>` **[!UICONTROL Général]**.
 1. Le champ actuellement utilisé par défaut pour déterminer les adresses e-mail des profils s&#39;affiche dans cet écran. Cliquez sur **[!UICONTROL Modifier]** pour le modifier.
 
    ![](../assets/primary-address.png)
