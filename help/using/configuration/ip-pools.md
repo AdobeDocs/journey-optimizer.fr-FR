@@ -1,6 +1,6 @@
 ---
 title: Création de pools d'adresses IP
-description: '"Découvrez comment gérer les ip-pools"'
+description: '"Découvrir comment gérer les pools d''adresses IP"'
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -16,9 +16,9 @@ topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
