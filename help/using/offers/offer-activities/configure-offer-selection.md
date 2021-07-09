@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ Après avoir créé une formule de classement, vous pouvez l’affecter à un em
 
 1. Pour chaque emplacement, sélectionnez **[!UICONTROL Classement]** dans la liste déroulante.
 
-1. Cliquez sur **[!UICONTROL Ajouter le classement]**.
+1. Cliquez sur **[!UICONTROL Ajouter un classement]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
