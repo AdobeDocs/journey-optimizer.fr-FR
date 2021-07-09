@@ -6,9 +6,9 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1093'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Le rapport **[!UICONTROL global]** de parcours est divisé en différents widget
 
 ![](../assets/global_report_2.png)
 
-Le widget **[!UICONTROL Performances des Parcours]** vous permet de voir le chemin d’accès de vos profils ciblés pas à pas dans votre parcours.
+Le widget **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement de vos profils ciblés pas à pas tout au long du parcours.
 
-Le widget **[!UICONTROL Statistiques de Parcours]** affiche les IPC suivants :
+Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 * **[!UICONTROL Profils entrés]** : nombre total de personnes ayant atteint l&#39;événement d&#39;entrée du parcours.
 
@@ -44,11 +44,11 @@ Le widget **[!UICONTROL Statistiques de Parcours]** affiche les IPC suivants :
 
 ![](../assets/global_report_12.png)
 
-Les **[!UICONTROL Événements reçus par les widgets event]**, **[!UICONTROL Événements par origine]** et **[!UICONTROL Meilleurs événements]** vous permettent de voir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
+Les widgets **[!UICONTROL Événements reçus par événement]****** et **[!UICONTROL Événements par origine]** vous permettent de savoir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
 
 ![](../assets/global_report_13.png)
 
-**[!UICONTROL Performances des actions]**,  **[!UICONTROL Erreurs d’action]** Les motifs et les  **[!UICONTROL principaux widgets d’action représentent l’action et les erreurs les plus réussies qui se sont produites au moment du déclenchement de vos]**   **** actions.
+Les widgets **[!UICONTROL Performance de l&#39;action]**, **[!UICONTROL Raisons de l&#39;erreur de l&#39;action]** et **[!UICONTROL Principales actions]** représentent l&#39;action la plus réussie et les erreurs survenues lorsque vos **[!UICONTROL Actions]** ont été déclenchées.
 
 Le tableau **[!UICONTROL Principales actions]** contient les données disponibles pour **[!UICONTROL Actions]**, telles que :
 
@@ -94,9 +94,9 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi d&#39;e-mail]** détaille la
 
 * **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec le parcours.
 
-* **[!UICONTROL Désabonner]** : Nombre de clics sur le lien de désinscription.
+* **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
-* **[!UICONTROL Réclamations relatives aux spams]** : Nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
+* **[!UICONTROL Plaintes contre le spal]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données disponibles pour les e-mails envoyés, telles que :
 
@@ -122,7 +122,7 @@ Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppre
 
 Le graphique et le tableau **[!UICONTROL Email - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
 
-Le graphique **[!UICONTROL Email - Domaine du destinataire supérieur]** et le tableau détaillent les domaines les plus utilisés par les destinataires pour ouvrir l’email.
+Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
 
 ## Onglet Push {#push-global}
 
