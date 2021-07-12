@@ -5,9 +5,9 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
-workflow-type: ht
-source-wordcount: '541'
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -67,5 +67,4 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 ## Limites de lecture de segment
 
-* Il n’est pas possible de déclencher un parcours basé sur les segments dans un délai inférieur à 1 heure.
 * Les segments diffusés en continu sont toujours à jour, mais les segments par lots ne sont pas calculés au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
