@@ -5,7 +5,7 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 97%
@@ -37,7 +37,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 >
 >Lors de la prévisualisation d&#39;un message ou de l&#39;envoi de BAT, seules les données de personnalisation de profil s&#39;affichent. La personnalisation basée sur les données contextuelles, telles que les informations d&#39;événement, ne peut être testée que dans le contexte d&#39;un parcours. Découvrez comment tester la personnalisation dans [ce cas d&#39;utilisation](personalization/personalization-use-case.md).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez comment prévisualiser, tester et publier votre email dans cette vidéo](#video-preview)
+➡️ [Découvrez comment prévisualiser, tester et publier votre email dans cette vidéo](#video-preview)
 
 ## Sélectionner des profils de test{#select-test-profiles}
 
