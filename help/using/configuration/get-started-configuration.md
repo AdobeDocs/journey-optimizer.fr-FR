@@ -3,15 +3,15 @@ title: Paramètres et instructions de configuration relatifs à Journey Optimiz
 description: Découvrez les instructions de configuration relatives aux messages et aux parcours
 audience: administrators
 content-type: reference
-role: Administrator
+role: Admin
 level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Paramétrage de l'application
 topic: Administration
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: ht
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%
 
