@@ -1,10 +1,10 @@
 ---
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 18%
+source-wordcount: '209'
+ht-degree: 17%
 
 ---
 
@@ -15,9 +15,10 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Juillet 2021
 
-* Ajout de liens directs vers la documentation des services Experience Platform dans la [!DNL Journey Optimizer] page d’accueil et le tableau de contenu.
+* Ajout de liens directs vers la documentation des services Experience Platform dans la [!DNL Journey Optimizer] page d’accueil et la table des matières.
+* Nouvelles landing pages pour les services Experience Platform disponibles dans [!DNL Journey Optimizer]
 * Ajout de liens vers la [!DNL Journey Optimizer] description du produit dans la page d’accueil.
-* Ajout de tutoriels vidéo dans les pages de documentation
+* Ajout de tutoriels vidéo sur plusieurs pages
 * Image optimisée de la page d’accueil
 * Déplacement, amélioration et changement de nom de la section &#39;Suivi des messages&#39; en &#39;Ajouter des liens et tracker les messages&#39;. [En savoir plus](message-tracking.md)
 * Ajout d’une sous-section sur les pages miroir. [En savoir plus](message-tracking.md#mirror-page)
