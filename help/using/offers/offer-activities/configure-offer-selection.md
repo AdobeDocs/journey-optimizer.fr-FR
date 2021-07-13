@@ -5,36 +5,44 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 807157d4d6fc1dba018bbe796c8bd213504589dc
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 89%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # Configuration de la sélection des offres dans les décisions {#offers-selection-in-activities}
 
-## À propos de la priorité des offres {#about-offers-priority}
+Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d’une décision (précédemment appelée activité d’offre). Vous pouvez classer les offres par :
+* Priorité des offres
+* Formule de classement
 
-Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision (auparavant « activité d’offre »), les offres présentant la **priorité** la plus élevée sont diffusées en premier aux clients. Les scores de priorité des offres sont attribués lors de la création d’une offre (voir [Création d’une offre personnalisée](../offer-library/creating-personalized-offers.md)).
+## Priorité des offres {#about-offers-priority}
+
+Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision (auparavant « activité d’offre »), les offres présentant la **priorité** la plus élevée sont diffusées en premier aux clients.
 
 ![](../../assets/offer-priority.png)
 
-De plus, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
+Les scores de priorité des offres sont attribués lors de la création d’une offre. Découvrez comment créer une offre personnalisée dans [cette section](../offer-library/creating-personalized-offers.md)).
+
+## Formule de classement {#assign-ranking-formula}
+
+En plus de la priorité des offres, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
 
 Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ».
 
-Pour plus d&#39;informations sur la création d&#39;une formule de classement, reportez-vous à [cette section](../offer-library/create-ranking-formulas.md).
+Découvrez comment créer une formule de classement dans [cette section](../offer-library/create-ranking-formulas.md).
 
-## Affectation d&#39;une formule de classement à un emplacement {#assign-ranking-formula}
+Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un emplacement dans une décision (auparavant appelée activité d&#39;offre). Pour ce faire, procédez comme suit :
 
-Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
+1. Créez une décision ou modifiez une décision existante. Voir [Créer des décisions](../offer-activities/create-offer-activities.md).
 
-1. Créez une décision ou modifiez une décision existante, puis créez les emplacements qui contiendront vos offres (voir [Création de décisions](../offer-activities/create-offer-activities.md)).
+1. Ajoutez les emplacements qui contiendront vos offres. Voir [Créer des emplacements](../offer-library/creating-placements.md).
 
-1. Pour chaque emplacement, sélectionnez **[!UICONTROL Classement]** dans la liste déroulante.
+1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-1. Cliquez sur **[!UICONTROL Ajouter un classement]**.
+1. Choisissez de classer les offres par **[!UICONTROL Classement]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
