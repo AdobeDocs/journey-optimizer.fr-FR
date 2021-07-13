@@ -5,8 +5,8 @@ feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: ht
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 
@@ -21,6 +21,8 @@ Dans l&#39;onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**
 ![](../assets/live_report_2.png)
 
 Le **[!UICONTROL rapport dynamique]** sur les notifications push est divisé en différents widgets détaillant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d’informations à ce propos consultez cette [section](live-report.md#modify-dashboard).
+
+![](../assets/live_report_3.png)
 
 Les **[!UICONTROL performances des notifications push]** et les widgets de **[!UICONTROL résumé des notifications push]** présentent les principales informations relatives à votre message avec un graphique et des KPI :
 
@@ -37,6 +39,8 @@ Les **[!UICONTROL performances des notifications push]** et les widgets de **[!U
 * **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée (par exemple, clic sur un bouton ou rejet).
 
 * **[!UICONTROL Engagements]** : nombre total d’ouvertures et d’actions pour cette notification push, c’est-à-dire si le profil a ouvert la notification ou si un utilisateur a cliqué sur un bouton.
+
+![](../assets/live_report_4.png)
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plate-forme]**, **[!UICONTROL Envoi par plate-forme]** et **[!UICONTROL Ventilation par plate-forme]** décrivent le succès de votre notification push en fonction du système opérationnel.
 
