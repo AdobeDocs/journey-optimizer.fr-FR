@@ -5,7 +5,7 @@ feature: Paramétrage de l'application
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 95%
@@ -27,7 +27,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 
 Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages.
 
-![](../assets/do-not-localize/how-to-video.png) [Découvrez comment créer et utiliser des paramètres prédéfinis d’email dans cette vidéo](#video-presets)
+➡️ [Découvrez comment créer et utiliser des paramètres prédéfinis de messagerie dans cette vidéo](#video-presets)
 
 ## Création d&#39;un préréglage de message {#create-message-preset}
 
