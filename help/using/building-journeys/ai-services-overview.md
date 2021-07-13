@@ -3,10 +3,10 @@ product: Journey Optimizer
 title: Présentation du service IA
 description: Présentation du service IA
 feature: Journey Optimizer
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 89%
