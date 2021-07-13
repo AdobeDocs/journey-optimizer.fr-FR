@@ -14,10 +14,10 @@ snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Populations témoins
 topic: Administration
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: ht
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 100%
 
@@ -109,9 +109,9 @@ L&#39;autorisation de haut niveau **[!UICONTROL Afficher les événements de par
 Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à Journey Optimizer :
-   * journeys_events.read
-   * journeys_data_sources.read
-   * journeys_actions.read
+   * parcours_events.read
+   * parcours_data_sources.read
+   * parcours_actions.read
 
 * Spécifiques à Adobe Experience Platform :
    * schemas.read
@@ -252,7 +252,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à la gestion des décisions :
    * activities.read
-   * offer.read
+   * offers.read
    * placements.read
    * ranking_strategy.read
 
@@ -271,9 +271,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à la gestion des décisions :
    * offer_activity.read
-   * offer.read
-   * offer.write
-   * offer.delete
+   * offers.read
+   * offers.write
+   * offers.delete
    * placements.read
    * placements.write
    * placements.delete
@@ -296,7 +296,7 @@ Elle comprend les autorisations de bas niveau suivantes :
    * ranking_strategy.write
    * ranking_strategy.delete
    * activities.read
-   * offer.read
+   * offers.read
    * placements.read
 
 ## Fonction d&#39;administration {#administration-permissions}
