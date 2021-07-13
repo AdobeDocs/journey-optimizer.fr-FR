@@ -5,8 +5,8 @@ feature: Reporting
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: ht
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -21,6 +21,8 @@ Dans l’onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, 
 ![](../assets/live_report.png)
 
 Le **[!UICONTROL Rapport dynamique]** sur les emails est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d’informations à ce sujet, consultez cette [section](live-report.md#modify-dashboard).
+
+![](../assets/live_report_5.png)
 
 Les widgets **[!UICONTROL Performances des emails]** et **[!UICONTROL Résumé des emails]** présentent les principales informations relatives à votre message avec un graphique et des KPI :
 
@@ -43,6 +45,8 @@ Le graphique **[!UICONTROL Statistiques d’envoi]** présente le succès de vot
 * **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, empêchant l’erreur d’être envoyée aux profils.
+
+![](../assets/live_report_6.png)
 
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
 
