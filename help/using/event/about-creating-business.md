@@ -5,10 +5,10 @@ feature: Événements
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 98%
+source-wordcount: '854'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 * Les événements métier ne peuvent être placés que comme première étape d&#39;un parcours.
 * Lorsqu&#39;un événement métier est placé comme première étape d&#39;un parcours, le type de planificateur du parcours est « événement métier ».
 * Seule une activité de lecture de segment peut être placée après un événement métier. Elle est automatiquement ajoutée comme étape suivante.
-* Les événements métier ne peuvent pas être déclenchés plus fréquemment que toutes les heures.
+* Pour autoriser plusieurs exécutions d’événements commerciaux, activez l’option correspondante dans la section **[!UICONTROL Exécution]** des propriétés du parcours.
 * Une fois qu&#39;un événement métier est déclenché, l&#39;exportation du segment est retardée de 15 minutes à jusqu&#39;à une heure.
 * Lors du test d&#39;un événement métier, vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. En outre, lorsque vous testez un parcours basé sur un événement métier, vous ne pouvez déclencher qu&#39;une seule entrée de profil. Consultez [cette section](../building-journeys/testing-the-journey.md#test-business). En mode test, aucun mode « Affichage du code » n&#39;est disponible.
 * Qu&#39;advient-il des personnes qui se trouvent actuellement dans le parcours si un nouvel événement métier se produit ? La même chose que lorsque des personnes se trouvent encore dans un parcours récurrent lorsqu&#39;une nouvelle récurrence se produit. Leur chemin est terminé. En conséquence, les spécialistes du marketing doivent veiller à ne pas créer de parcours trop longs s&#39;ils s&#39;attendent à des événements métier fréquents.
