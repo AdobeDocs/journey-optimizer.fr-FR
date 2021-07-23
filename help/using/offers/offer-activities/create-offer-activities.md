@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 90%
+source-wordcount: '863'
+ht-degree: 55%
 
 ---
 
@@ -31,7 +31,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 ## Création de la décision {#create-activity}
 
-1. Accédez à la liste des décisions, puis cliquez sur **[!UICONTROL Créer une activité]**.
+1. Accédez à la liste des décisions, puis cliquez sur **[!UICONTROL Créer une décision]**.
 
 1. Indiquez le nom de la décision, ainsi que ses dates et heures de début et de fin, puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -83,26 +83,67 @@ Sélectionnez l&#39;offre de secours qui sera présentée en dernier recours aux
 
 ## Examen et enregistrement de la décision {#review}
 
-Si tout est configuré correctement et que votre décision est prête à être utilisée pour présenter des offres aux clients, cliquez sur **[!UICONTROL Terminer]**, puis sélectionnez **[!UICONTROL Enregistrer et activer]**.
+Si tout est configuré correctement, un résumé des propriétés de décision s’affiche.
 
-Vous pouvez également enregistrer la décision en tant que version préliminaire afin de la modifier et de l&#39;activer ultérieurement.
+1. Assurez-vous que la décision est prête à être utilisée pour présenter des offres aux clients.
+1. Cliquez sur **[!UICONTROL Terminer]**.
+1. Sélectionnez ensuite **[!UICONTROL Enregistrer et activez]**.
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   Vous pouvez également enregistrer la décision en tant que version préliminaire afin de la modifier et de l&#39;activer ultérieurement.
 
 La décision s&#39;affiche dans la liste avec l&#39;état **[!UICONTROL Actif]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez activée ou non à l&#39;étape précédente.
 
-Elle est maintenant prête à être utilisée pour diffuser des offres vers les clients. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
+Elle est maintenant prête à être utilisée pour diffuser des offres vers les clients.
 
-Pour plus d’informations sur la diffusion des offres, reportez-vous aux sections suivantes :
+## Liste de décisions {#decision-list}
 
-* [Ajouter des offres personnalisées dans les messages](../../deliver-personalized-offers.md)
-* [Diffuser des offres à l’aide d’API](../api-reference/decisions-api/deliver-offers.md)
+Dans la liste de décisions, vous pouvez sélectionner la décision d’afficher ses propriétés. De là, vous pouvez également le modifier, modifier son état (**Brouillon**, **Live**, **Complète**, **Archivé**), dupliquer la décision ou la supprimer.
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées et visualiser toutes les modifications qui lui ont été apportées à l’aide de l’onglet **[!UICONTROL Journal des modifications]**. [En savoir plus](../get-started/user-interface.md#changes-log).
+Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d’édition de décision, où vous pouvez modifier les [détails](#create-activity), [portées de décision](#add-decision-scopes) et [l’offre de secours](#add-fallback).
+
+Sélectionnez une décision en direct et cliquez sur **[!UICONTROL Désactiver]** pour redéfinir le statut de la décision sur **[!UICONTROL Version préliminaire]**.
+
+Pour définir à nouveau l’état sur **[!UICONTROL Live]**, cliquez sur le bouton **[!UICONTROL Activer]** qui s’affiche désormais.
+
+![](../../assets/decision_activate.png)
+
+Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessous.
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Terminé]** : définit l’état de la décision sur  **[!UICONTROL Terminé]**, ce qui signifie que la décision ne peut plus être appelée. Cette action n’est disponible que pour les décisions activées. La décision est toujours disponible dans la liste, mais vous ne pouvez pas la redéfinir sur **[!UICONTROL Brouillon]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement le dupliquer, le supprimer ou l’archiver.
+
+* **[!UICONTROL Dupliquer]** : crée une décision avec les mêmes propriétés, portées de décision et offre de secours. Par défaut, la nouvelle décision a le statut **[!UICONTROL Version préliminaire]** .
+
+* **[!UICONTROL Supprimer]** : supprime la décision de la liste.
+
+   >[!CAUTION]
+   >
+   >La décision et son contenu ne seront plus accessibles. Cette action ne peut pas être annulée.
+   >
+   >Si la décision est utilisée dans un autre objet, elle ne peut pas être supprimée.
+
+* **[!UICONTROL Archive]** : Définit l’état de décision sur  **[!UICONTROL Archivé]**. La décision est toujours disponible dans la liste, mais vous ne pouvez pas la redéfinir sur **[!UICONTROL Brouillon]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement le dupliquer ou le supprimer.
+
+Vous pouvez également supprimer ou modifier l’état de plusieurs décisions en même temps en cochant les cases correspondantes.
+
+![](../../assets/decision_multiple-selection.png)
+
+Si vous souhaitez modifier l’état de plusieurs décisions dont les statuts sont différents, seuls les états pertinents seront modifiés.
+
+![](../../assets/decision_change-status.png)
+
+Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste.
+
+![](../../assets/decision_click-name.png)
+
+Vous pouvez ainsi accéder à des informations détaillées sur cette décision. Sélectionnez l’onglet **[!UICONTROL Journal des modifications]** sur [surveiller tous les changements](../get-started/user-interface.md#changes-log) qui ont été apportés à la décision.
+
+![](../../assets/decision_information.png)
 
 ## Tutoriel vidéo {#video}
 
