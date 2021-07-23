@@ -5,10 +5,10 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 94%
+source-wordcount: '292'
+ht-degree: 81%
 
 ---
 
@@ -47,6 +47,10 @@ Pour créer cette règle de décision, procédez comme suit :
 1. Une fois la règle créée, elle s&#39;affiche dans la liste des règles. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, vous ne pourrez pas l’exploiter dans une offre.
 
 ## Tutoriel vidéo {#video}
 
