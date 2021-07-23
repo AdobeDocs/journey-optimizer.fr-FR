@@ -5,9 +5,9 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: af60022d99c3f881b8d932682e92ed142deb75d2
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1156'
 ht-degree: 91%
 
 ---
@@ -18,7 +18,7 @@ Une fois connecté à [Adobe Experience Cloud](http://experience.adobe.com), acc
 
 >[!NOTE]
 >
->* Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+>* Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
    >
    >
 * Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
