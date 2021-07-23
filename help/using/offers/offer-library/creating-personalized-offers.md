@@ -1,14 +1,14 @@
 ---
-title: Création d’offres personnalisées
+title: Création d'offres personnalisées
 description: Découvrez comment créer des offres personnalisées dans Adobe Experience Platform.
 feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 94%
+source-wordcount: '1226'
+ht-degree: 68%
 
 ---
 
@@ -98,6 +98,10 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
 
    ![](../../assets/offer_rule.png)
 
+   >[!CAUTION]
+   >
+   >Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, vous ne pourrez pas l’exploiter dans une offre.
+
 1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres.
 
 1. Spécifiez la **[!UICONTROL Limitation]** de l&#39;offre, soit le nombre total de fois où l&#39;offre sera présentée au total à tous les utilisateurs. Si le nombre de fois où l&#39;offre a été diffusée à tous les utilisateurs correspond à celui que vous avez indiqué dans ce champ, la diffusion de l&#39;offre s&#39;arrête.
@@ -118,19 +122,68 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
 
 ## Examen de l&#39;offre {#review}
 
-Une fois les règles d&#39;éligibilité et les contraintes définies, un résumé des propriétés de l&#39;offre s&#39;affiche. Si tout est configuré correctement et que votre offre est prête à être présentée aux utilisateurs, cliquez sur **[!UICONTROL Terminer]**, puis sélectionnez **[!UICONTROL Enregistrer et valider]**.
+Une fois les règles d&#39;éligibilité et les contraintes définies, un résumé des propriétés de l&#39;offre s&#39;affiche.
 
-Vous pouvez également enregistrer l&#39;offre en tant que version préliminaire pour la modifier et l&#39;approuver ultérieurement.
+1. Assurez-vous que tout est correctement configuré.
 
-![](../../assets/offer_review.png)
+1. Lorsque votre offre est prête à être présentée aux utilisateurs, cliquez sur **[!UICONTROL Terminer]**.
 
-L&#39;offre s&#39;affiche dans la liste avec le statut **[!UICONTROL En ligne]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez approuvée ou non à l&#39;étape précédente.
+1. Sélectionnez **[!UICONTROL Enregistrer et approuver]**.
 
-Elle est maintenant prête à être diffusée aux utilisateurs. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
+   ![](../../assets/offer_review.png)
+
+   Vous pouvez également enregistrer l&#39;offre en tant que version préliminaire pour la modifier et l&#39;approuver ultérieurement.
+
+L’offre s’affiche dans la liste avec le statut **[!UICONTROL Validé]** ou **[!UICONTROL Version préliminaire]**, selon que vous l’avez approuvée ou non à l’étape précédente.
+
+Elle est maintenant prête à être diffusée aux utilisateurs.
 
 ![](../../assets/offer_created.png)
 
-Une fois une offre créée, vous pouvez cliquer sur son nom dans la liste pour accéder à des informations détaillées, ainsi que surveiller tous les changements qui lui ont été apportés à l&#39;aide de l&#39;onglet **[!UICONTROL Journal des modifications]**. [En savoir plus](../get-started/user-interface.md#monitoring-changes).
+## Liste des offres {#offer-list}
+
+Dans la liste des offres, vous pouvez sélectionner l&#39;offre pour afficher ses propriétés. Vous pouvez également le modifier, modifier son état (**Version préliminaire**, **Approuvé**, **Archivé**), dupliquer l’offre ou la supprimer.
+
+![](../../assets/offer_created.png)
+
+Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d’édition de l’offre, où vous pouvez modifier les [détails](#create-offer), [représentations](#representations) de l’offre, ainsi que modifier les [règles d’éligibilité et les contraintes](#eligibility).
+
+Sélectionnez une offre validée et cliquez sur **[!UICONTROL Annuler l’approbation]** pour redéfinir l’état de l’offre sur **[!UICONTROL Version préliminaire]**.
+
+Pour redéfinir l’état sur **[!UICONTROL Approuvé]**, cliquez sur le bouton correspondant qui s’affiche maintenant.
+
+![](../../assets/offer_approve.png)
+
+Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessous.
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Dupliquer]** : crée une offre avec les mêmes propriétés, représentations, règles d’éligibilité et contraintes. Par défaut, la nouvelle offre a le statut **[!UICONTROL Version préliminaire]**.
+* **[!UICONTROL Supprimer]** : supprime l’offre de la liste.
+
+   >[!CAUTION]
+   >
+   >L&#39;offre et son contenu ne seront plus accessibles. Cette action ne peut pas être annulée.
+   >
+   >Si l’offre est utilisée dans une collection ou une décision, elle ne peut pas être supprimée. Vous devez d’abord supprimer l’offre de tous les objets.
+
+* **[!UICONTROL Archive]** : définit l’état de l’offre sur  **[!UICONTROL Archivé]**. L’offre est toujours disponible à partir de la liste, mais vous ne pouvez pas redéfinir son état sur **[!UICONTROL Version préliminaire]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement le dupliquer ou le supprimer.
+
+Vous pouvez également supprimer ou modifier l’état de plusieurs offres en même temps en cochant les cases correspondantes.
+
+![](../../assets/offer_multiple-selection.png)
+
+Si vous souhaitez modifier l&#39;état de plusieurs offres dont les statuts sont différents, seuls les statuts correspondants seront modifiés.
+
+![](../../assets/offer_change-status.png)
+
+Une fois une offre créée, vous pouvez cliquer sur son nom dans la liste.
+
+![](../../assets/offer_click-name.png)
+
+Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sélectionnez l’onglet **[!UICONTROL Journal des modifications]** sur [surveiller tous les changements](../get-started/user-interface.md#monitoring-changes) qui ont été apportés à l’offre.
+
+![](../../assets/offer_information.png)
 
 ## Tutoriel vidéo {#video}
 
