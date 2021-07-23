@@ -5,10 +5,10 @@ feature: Présentation
 topic: Gestion de contenu
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 4%
 
 ---
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur le chargement de ressources, consultez la [docume
 
 1. Sélectionnez le fichier que vous souhaitez charger. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**.
 
-   Pour en savoir plus sur la gestion de vos ressources, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+   Pour en savoir plus sur la gestion de vos ressources, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Une fois votre ressource chargée, vous pouvez désormais insérer vos ressources dans l’un de vos messages via le Concepteur d’email.
 
