@@ -4,10 +4,10 @@ description: Découvrez comment gérer la confidentialité.
 topic: Confidentialité
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 86%
+source-wordcount: '773'
+ht-degree: 84%
 
 ---
 
@@ -54,7 +54,7 @@ De ce fait, pour gérer correctement la confidentialité et les données personn
 
 [!DNL Journey Optimizer] hérite de la plupart des modifications apportées au jeu de données dans Adobe Experience Platform.
 
-Par conséquent, les demandes d’accès à des informations personnelles (droit d’accès et droit à l’oubli) sont gérées via Experience Platform. Vous devez envoyer vos demandes à l’aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target=&quot;_blank&quot;}, et sélectionner **Profil** et **Lac de données AEP** dans la liste de produits lors de la [création de votre demande d’accès à des informations personnelles](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+Par conséquent, les demandes d’accès à des informations personnelles (droit d’accès et droit à l’oubli) sont gérées via Experience Platform. Vous devez envoyer vos demandes à l’aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target=&quot;_blank&quot;}, et sélectionner **Profil** et **Lac de données AEP** dans la liste de produits lors de la [création de votre demande d’accès à des informations personnelles](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
