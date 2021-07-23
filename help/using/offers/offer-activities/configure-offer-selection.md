@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Intermediate
-source-git-commit: 807157d4d6fc1dba018bbe796c8bd213504589dc
+source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 51%
@@ -24,7 +24,7 @@ Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné
 
 ![](../../assets/offer-priority.png)
 
-Les scores de priorité des offres sont attribués lors de la création d’une offre. Découvrez comment créer une offre personnalisée dans [cette section](../offer-library/creating-personalized-offers.md)).
+Les scores de priorité des offres sont attribués lors de la création d’une offre. Découvrez comment créer une offre personnalisée dans [cette section](../offer-library/creating-personalized-offers.md).
 
 ## Formule de classement {#assign-ranking-formula}
 
