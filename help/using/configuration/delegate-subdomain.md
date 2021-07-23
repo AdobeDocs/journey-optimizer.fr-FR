@@ -15,10 +15,10 @@ feature: Paramétrage de l’application
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 93%
+source-wordcount: '482'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,9 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    >[!CAUTION]
    >
-   >Assurez-vous d’avoir saisi un sous-domaine valide, tel que marketing.company.com. La délégation d’un sous-domaine non valide à l’Adobe n’est pas autorisée.
+   >La délégation d’un sous-domaine non valide à l’Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votreentreprise.com.
+   >
+   >Notez que les sous-domaines à plusieurs niveaux tels que email.marketing.votreentreprise.com ne sont actuellement pas pris en charge.
 
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
 
