@@ -5,9 +5,9 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '431'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,6 @@ L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous perm
 * Vous ne pouvez pas utiliser l&#39;action **Mettre à jour le profil** pour générer des événements d&#39;expérience, par exemple un achat.
 * Comme toute autre action, vous pouvez définir un itinéraire alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
 * La requête de mise à jour envoyée à Platform sera rapide mais pas immédiate/ne démarrera pas dans la seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action Mettre à jour le profil positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour de « champ 1 » dans l&#39;action.
-* Les sources de données ont une notion de la durée de mise en cache au niveau du groupe de champs. Si vous prévoyez d&#39;utiliser un champ de profil récemment mis à jour dans un parcours, veillez à définir une durée de mise en cache très courte.
 
 ## Utilisation du mode test {#using-the-test-mode}
 
