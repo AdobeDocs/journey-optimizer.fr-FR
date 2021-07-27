@@ -5,9 +5,9 @@ feature: Sources de données
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1315'
 ht-degree: 99%
 
 ---
@@ -54,7 +54,6 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
 1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisé]** ou **[!UICONTROL Clé API]**. Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Dans cet exemple, nous allons effectuer les choix suivants :
 
-
    * **[!UICONTROL Type]** : « API key »
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
    * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
@@ -67,8 +66,7 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 Pour le jeu de paramètres « long/lat », nous créons un groupe de champs avec les informations suivantes :
 
 * **[!UICONTROL Utilisé(e) dans]** : affiche le nombre de parcours qui utilisent un groupe de champs. Vous pouvez cliquer sur l’icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant ce groupe de champs.
-* **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre cas, nous choisissons la méthode GET.
-* **[!UICONTROL Durée de mise en cache]** : dans ce cas, nous souhaitons que les données météo soient mises en cache pendant 10 minutes.
+* **[!UICONTROL Méthode]** : sélectionnez la méthode POST ou GET. Dans notre exemple, nous choisissons la méthode GET.
 * **[!UICONTROL Valeurs dynamiques]** : saisissez les différents paramètres, séparés par une virgule (« long,lat » dans notre exemple). Étant donné que les valeurs des paramètres dépendent du contexte d’exécution, elles sont définies dans les parcours. Voir [Documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr){target=&quot;_blank&quot;}.
 * **[!UICONTROL Payload en réponse]** : cliquez dans le champ **[!UICONTROL Payload]** et collez un exemple de la payload renvoyée par l’appel. Dans cet exemple, nous avons utilisé une payload trouvée sur un site web d’API météo. Vérifiez que les types de champs sont corrects. À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload. Notez que vous pouvez cliquer sur **[!UICONTROL Coller une nouvelle payload]** si vous souhaitez modifier la payload actuellement transmise.
 * **[!UICONTROL Payload envoyée]** : ce champ ne figure pas dans notre exemple. Il n’est disponible que si vous sélectionnez la méthode POST. Collez la payload qui sera envoyée au système tiers.
