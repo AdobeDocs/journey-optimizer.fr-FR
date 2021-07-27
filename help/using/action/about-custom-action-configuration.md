@@ -6,10 +6,10 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ Dans la section **[!UICONTROL Paramètres d&#39;action]**, collez un exemple de 
 
 >[!NOTE]
 >
->Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; .
+>Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; . Ils ne peuvent pas commencer par un caractère &quot;$&quot;.
 
 Vous aurez la possibilité de définir le type de paramètre (par exemple : string, integer, etc.).
 
