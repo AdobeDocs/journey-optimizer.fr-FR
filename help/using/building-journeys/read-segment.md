@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 92%
+source-wordcount: '1039'
+ht-degree: 87%
 
 ---
 
@@ -56,7 +56,13 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
    >
    >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours.
 
-1. Dans le champ **[!UICONTROL Taux de limitation]** , définissez le débit de l’activité Lecture de segment . Cette valeur est stockée dans la payload de version parcours. La valeur par défaut est 17.000 et doit être comprise entre 500 et 17.000.
+1. Définissez le champ **[!UICONTROL Taux de limitation]** sur la limite de débit de l’activité de lecture de segment.
+
+   Cette valeur est stockée dans la payload de version parcours. La valeur par défaut est de 17 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 17 000 messages par seconde.
+
+   >[!NOTE]
+   >
+   >Le taux de ralentissement global par environnement de test est défini sur 17 000 messages par seconde. Par conséquent, le taux de ralentissement de tous les segments lus qui s’exécutent simultanément dans le même environnement de test s’élève à 17 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
 1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
 
