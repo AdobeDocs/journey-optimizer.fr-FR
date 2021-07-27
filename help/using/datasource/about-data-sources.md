@@ -5,10 +5,10 @@ feature: Sources de données
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 87%
+source-wordcount: '291'
+ht-degree: 85%
 
 ---
 
@@ -34,5 +34,9 @@ Il existe deux types de sources de données :
 * Les sources de données externes qui vous permettent de définir une connexion à des systèmes externes. Il s’agit des sources de données que vous pouvez créer. Voir [cette page](../datasource/external-data-sources.md).
 
 Pour chaque source de données, vous définissez les informations à récupérer à l’aide de groupes de champs. Les groupes de champs sont des ensembles de champs qui peuvent être récupérés à partir d’une source de données. Voir [cette page](../datasource/configure-data-sources.md#define-field-groups).
+
+>[!NOTE]
+>
+>Les relations de schémas sont désormais prises en charge pour les sources de données.
 
 Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation de données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=fr){target=&quot;_blank&quot;}.
