@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
-workflow-type: ht
+source-git-commit: 7937c3b7c9247868a7a506991850537493a76cf1
+workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Les fonctionnalités de message [!DNL Journey Optimizer] sont intégrées, il vo
 
 Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md).
 
-## Ajout d&#39;une activité de message
+## Ajouter une activité Message
 
 1. Comme toujours, débutez votre parcours avec un événement ou une activité **Lecture de segment**.
 
