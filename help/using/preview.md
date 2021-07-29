@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 97%
+source-wordcount: '965'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 >
 >Lors de la prévisualisation d&#39;un message ou de l&#39;envoi de BAT, seules les données de personnalisation de profil s&#39;affichent. La personnalisation basée sur les données contextuelles, telles que les informations d&#39;événement, ne peut être testée que dans le contexte d&#39;un parcours. Découvrez comment tester la personnalisation dans [ce cas d&#39;utilisation](personalization/personalization-use-case.md).
 
-➡️ [Découvrez comment prévisualiser, tester et publier votre email dans cette vidéo](#video-preview)
+➡️ [Découvrez comment prévisualiser, tester et publier votre e-mail dans cette vidéo](#video-preview)
 
 ## Sélectionner des profils de test{#select-test-profiles}
 
@@ -53,7 +53,7 @@ Pour sélectionner des profils de test, procédez comme suit :
 
    ![](assets/previewselect-namespace.png)
 
-   Pour en savoir plus sur les espaces de noms d’identité Adobe Experience Platform [dans cette section](get-started-identity.md){target=&quot;_blank&quot;}.
+   Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](get-started-identity.md){target=&quot;_blank&quot;}.
 
    Dans l&#39;exemple ci-dessous, nous utiliserons l&#39;espace de noms **E-mail**.
 
@@ -121,7 +121,13 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    ![](assets/send-proof-button.png)
 
-1. Sélectionnez les profils de test qui recevront le BAT et cliquez sur **[!UICONTROL Envoyer le BAT]**. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT.
+1. Dans la fenêtre **[!UICONTROL Envoyer le BAT]** , saisissez les profils de test en plus de l&#39;email du destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de votre organisation.
+
+   Vous pouvez ajouter jusqu’à 10 destinataires pour la diffusion de votre BAT.
+
+   ![](assets/send-proof-button_2.png)
+
+1. Sélectionnez ensuite les profils de test qui recevront le BAT et cliquez sur **[!UICONTROL Envoyer le BAT]**. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, par exemple . - _ ( ) [ ], sont autorisés comme préfixe à l’objet.
 
    ![](assets/send-proof-select.png)
 
