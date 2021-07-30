@@ -8,13 +8,13 @@ level: Intermediate
 source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 55%
+ht-degree: 58%
 
 ---
 
 # Création de décisions {#create-offer-activities}
 
-Les décisions (précédemment appelées activités d&#39;offre) sont des conteneurs qui s&#39;appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
+Les décisions (précédemment appelées activités d’offre) sont des conteneurs qui s’appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
