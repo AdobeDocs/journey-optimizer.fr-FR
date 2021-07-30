@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> Pour utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs qui doivent accéder à [!DNL Assets Essentials] font partie des **utilisateurs consommateurs d’Assets Essentials** ou/et **utilisateurs d’Assets Essentials** profils de produit. <br> Pour plus d’informations à ce sujet, consultez cette  [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+> Pour utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs qui doivent accéder à [!DNL Assets Essentials] font partie des **utilisateurs consommateurs d’Assets Essentials** ou/et **utilisateurs d’Assets Essentials** profils de produit. <br> Pour plus d’informations à ce sujet, consultez cette  [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
 [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages. Il est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** . Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’email. [En savoir plus sur la conception](design-emails.md) des emails.
 
-Pour des procédures plus détaillées sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+Pour des procédures plus détaillées sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Chargement et insertion de ressources{#add-asset}
 
