@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Vous pouvez maintenant créer et configurer vos offres. Dans cet exemple, vous a
 
    ![](../assets/offers-e2e-representations.png)
 
-1. Dans la section **[!UICONTROL Eligibilité de l&#39;offre]** , sélectionnez **[!UICONTROL Par règle de décision définie]** et effectuez un glisser-déposer de la règle de votre choix.
+1. Dans la section **[!UICONTROL Éligibilité de l&#39;offre]**, sélectionnez **[!UICONTROL Par règle de décision définie]** et effectuez un glisser-déposer de la règle de votre choix.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -204,7 +204,7 @@ Pour créer et configurer une décision d&#39;offre, procédez comme suit :
 
    ![](../assets/offers-e2e-decision-collection.png)
 
-1. Si vous avez défini un classement lors de la [création de vos composants](#define-components), vous pouvez l&#39;affecter à un emplacement dans la décision. Si plusieurs offres peuvent être présentées à cet emplacement, la décision utilisera cette formule pour calculer la première offre à diffuser.
+1. Si vous avez défini un classement lors de la [création de vos composants](#define-components), vous pouvez l&#39;affecter à un emplacement dans la décision. Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera cette formule pour calculer l&#39;offre à diffuser en premier.
 
    Les étapes détaillées pour attribuer une formule de classement à un emplacement sont présentées dans [cette section](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
