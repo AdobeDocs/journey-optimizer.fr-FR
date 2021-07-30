@@ -18,7 +18,7 @@ level: Intermediate
 source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    >[!CAUTION]
    >
-   >La délégation d’un sous-domaine non valide à l’Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votreentreprise.com.
+   >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votreentreprise.com.
    >
    >Notez que les sous-domaines à plusieurs niveaux tels que email.marketing.votreentreprise.com ne sont actuellement pas pris en charge.
 
@@ -79,7 +79,7 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    ![](../assets/subdomain-processing.png)
 
-1. Une fois les vérifications effectuées, le sous-domaine obtient l’état **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
+1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
 
    <!-- later on, users will be notified in Pulse -->
 
