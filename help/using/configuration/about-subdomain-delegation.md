@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,5 +35,5 @@ Bien que ces exigences soient gérées au moyen de composants hébergés à la f
 **En savoir plus**
 
 * Découvrez comment [déléguer vos sous-domaines](delegate-subdomain.md) directement à partir de l&#39;interface.
-* Découvrez comment [ajouter des enregistrements TXT Google](google-txt.md) à vos sous-domaines pour garantir la diffusion réussie des emails aux adresses Gmail.
+* Découvrez comment [ajouter des enregistrements Google TXT](google-txt.md) à vos sous-domaines pour réussir la diffusion des e-mails aux adresses Gmail.
 * Découvrez comment [accéder aux enregistrements PTR](ptr-records.md) générés pour vos sous-domaines, ce qui permet aux serveurs de messagerie de les vérifier.
