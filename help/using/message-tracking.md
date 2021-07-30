@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Lien de désabonnement]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des opt-outs dans [cette section](consent.md#opt-out-management).
 
-   * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l&#39;e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
+   * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
@@ -67,9 +67,9 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 ## Lien vers une page miroir {#mirror-page}
 
-La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de votre email.
+La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de votre e-mail.
 
-Pour ajouter un lien vers une page miroir dans votre email, [insérez un lien](#insert-links) et sélectionnez **[!UICONTROL Page miroir]** comme type de lien.
+Pour ajouter un lien vers une page miroir dans votre e-mail, [insérez un lien](#insert-links) et sélectionnez **[!UICONTROL Page miroir]** comme type de lien.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -79,13 +79,13 @@ La page miroir est automatiquement créée.
 >
 >Vous ne pouvez pas modifier le lien généré automatiquement.
 
-Une fois l&#39;email envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l&#39;email s&#39;affiche dans leur navigateur web par défaut.
+Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l’email s&#39;affiche dans leur navigateur web par défaut.
 
 >[!NOTE]
 >
->Dans la balise [BAT](preview.md#send-proofs) envoyée aux profils de test, le lien vers la page miroir n’est pas principal. Il n&#39;est activé que dans les messages finaux.
+>Dans le [BAT](preview.md#send-proofs) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n’est activé que dans les messages finaux.
 
-La période de conservation d’une page miroir est de 60 jours. Après ce délai, la page miroir ne sera plus disponible.
+La période de conservation d’une page miroir est de 60 jours. Passé ce délai, la page miroir n’est plus disponible.
 
 ## Gestion du suivi {#manage-tracking}
 
