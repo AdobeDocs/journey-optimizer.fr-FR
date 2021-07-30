@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -39,4 +39,4 @@ Pour chaque source de données, vous définissez les informations à récupérer
 >
 >Les relations de schémas sont désormais prises en charge pour les sources de données.
 
-Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation de données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=fr){target=&quot;_blank&quot;}.
+Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=fr){target=&quot;_blank&quot;}.
