@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous perm
 
 En mode test, la mise à jour du profil ne sera pas simulée. La mise à jour sera effectuée sur le profil de test.
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs de profil par le biais d’un import de fichier CSV ou d’appels d’API. Une méthode plus simple consiste à utiliser une activité d&#39;action **Mettre à jour le profil** et à redéfinir le champ booléen du profil de test de false à true.
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs de profil par le biais d&#39;un import de fichier csv ou d&#39;appels d&#39;API. Une méthode plus simple consiste à utiliser une activité d&#39;action **Mettre à jour le profil** et à redéfinir le champ booléen du profil de test de false à true.
 
 Pour plus d&#39;informations sur la façon de transformer un profil existant en profil de test, consultez [cette section](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 
