@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de 
 
 >[!NOTE]
 >
->Cette fonction est activée par défaut sur toutes les instances pour les événements d&#39;étapes de parcours. Pour les événements d’étape de profil de parcours, l’activation est effectuée sur demande. Les schémas et les jeux de données créés pendant l’approvisionnement de cette fonctionnalité ne doivent pas être modifiés.
+>Cette fonction est activée par défaut sur toutes les instances pour les événements d&#39;étapes de parcours. Pour les événements d&#39;étape de profil de parcours, l&#39;activation est effectuée sur demande. Les schémas et les jeux de données créés pendant l’approvisionnement de cette fonctionnalité ne doivent pas être modifiés.
 
 Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Optimizer] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
@@ -58,4 +58,4 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaill�
 * [Champs d’identité des événements journeyStep](../reports/sharing-identity-fields.md)
 * [Champs du parcours](../reports/sharing-journey-fields.md)
 
-Pour plus d’informations sur la création de rapports d’événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr){target=&quot;_blank&quot;}.
+Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr){target=&quot;_blank&quot;}.
