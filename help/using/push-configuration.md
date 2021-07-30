@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '1579'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Configuration des autorisations
 
-Avant de créer une application mobile, vous devez d&#39;abord vous assurer que vous possédez ou accordez les autorisations utilisateur appropriées dans **Adobe Experience Platform Launch**. Pour en savoir plus, consultez la [documentation Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=fr){target=&quot;_blank&quot;}.
+Avant de créer une application mobile, vous devez d&#39;abord vous assurer que vous possédez ou accordez les autorisations utilisateur appropriées dans **Adobe Experience Platform Launch**. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=fr){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ Pour attribuer des droits **Propriété** et **Société**, procédez comme suit
 
    ![](assets/push_product_1.png)
 
-1. Sélectionnez un **[!UICONTROL Profil de produit]** existant ou créez-en un en cliquant sur le bouton **[!UICONTROL Nouveau profil]**. Découvrez comment créer un **[!UICONTROL nouveau profil]** dans la [documentation de la console d’administration](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=fr#ui){target=&quot;_blank&quot;}.
+1. Sélectionnez un **[!UICONTROL Profil de produit]** existant ou créez-en un en cliquant sur le bouton **[!UICONTROL Nouveau profil]**. Découvrez comment créer un **[!UICONTROL nouveau profil]** dans la [documentation de l’Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=fr#ui){target=&quot;_blank&quot;}.
 
 1. Dans l&#39;onglet **[!UICONTROL Autorisations]**, sélectionnez **[!UICONTROL Droits de propriété]**.
 
@@ -109,13 +109,13 @@ La configuration technique implique une collaboration étroite entre le dévelop
 Suivez les étapes de mise en œuvre présentées dans les liens ci-dessous :
 
 * Pour **Apple iOS** : découvrez comment enregistrer votre application auprès du service APNs dans la [Documentation Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).{target=&quot;_blank&quot;}
-* Pour **Google Android** : Découvrez comment configurer une application cliente Firebase Cloud Messaging sur Android dans [Documentation Google](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}
+* Pour **Google Android** : découvrez comment configurer une application cliente Firebase Cloud Messaging sur Android dans la [documentation Google](https://firebase.google.com/docs/cloud-messaging/android/client).{target=&quot;_blank&quot;}
 
 ### Intégration de votre application mobile au SDK Adobe Experience Platform
 
-Le SDK mobile Adobe Experience Platform fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Consultez la [documentation du SDK Mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;} pour obtenir une configuration avec les SDK mobiles Adobe Experience Platform dans votre application.
+Le SDK mobile Adobe Experience Platform fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Consultez la [documentation du SDK mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;} pour configurer les SDK mobiles Adobe Experience Platform dans votre application.
 
-À la fin de cette lecture, vous aurez également créé et configuré une propriété mobile dans Adobe Experience Platform Launch. En règle générale, vous créez une propriété mobile pour chaque application mobile que vous souhaitez gérer. Découvrez comment créer et configurer une propriété mobile dans la [documentation Adobe Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
+À la fin de cette lecture, vous aurez également créé et configuré une propriété mobile dans Adobe Experience Platform Launch. En règle générale, vous créez une propriété mobile pour chaque application mobile que vous souhaitez gérer. Découvrez comment créer et configurer une propriété mobile dans la [documentation d’Adobe Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
 
 
 ## Étape 1 : ajout des informations d&#39;identification push de votre application dans Adobe Experience Platform Launch {#push-credentials-launch}
@@ -138,7 +138,7 @@ L&#39;enregistrement des informations d&#39;identification push de l&#39;applica
 
       1. Indiquez l&#39;**[!UICONTROL ID d&#39;application (nom du package Android)]** : en règle générale, le nom du package est l&#39;ID d&#39;application dans votre fichier `build.gradle`.
 
-      1. Effectuez un glisser-déposer des informations d&#39;identification push FCM. Pour plus d’informations sur la manière d’obtenir les informations d’identification push, voir [Documentation Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
+      1. Effectuez un glisser-déposer des informations d&#39;identification push FCM. Pour plus d&#39;informations sur l&#39;obtention des informations d&#39;identification push, consultez la [documentation Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}.
    * **Pour iOS**
 
       ![](assets/add-app-config-ios.png)
@@ -176,7 +176,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 L&#39;**extension Adobe Journey Optimizer** pour les SDK mobiles Adobe Experience Platform alimente les notifications push pour vos applications mobiles et vous aide à collecter des jetons push utilisateur et à gérer la mesure des interactions avec les services Adobe Experience Platform.
 
-Découvrez comment configurer l’extension Journey Optimizer dans la [documentation du SDK Mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
+Découvrez comment configurer l&#39;extension Journey Optimizer dans la [documentation du SDK mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
 
 
 <!-- 
@@ -253,7 +253,7 @@ Après avoir configuré votre application mobile dans Adobe Experience Platfor
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Pour que ce parcours fonctionne, vous devez créer un schéma XDM. Pour plus d’informations, reportez-vous à la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
+Pour que ce parcours fonctionne, vous devez créer un schéma XDM. Pour plus d&#39;informations, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
 
 1. Dans le menu de gauche, accédez à **[!UICONTROL Schémas]**.
 
@@ -263,7 +263,7 @@ Pour que ce parcours fonctionne, vous devez créer un schéma XDM. Pour plus d�
 
 1. Sélectionnez **[!UICONTROL Créer un groupe de champs]**.
 
-1. Saisissez un **[!UICONTROL Nom d&#39;affichage]** et une **[!UICONTROL Description]**. Cliquez sur **[!UICONTROL Ajouter des groupes de champs]** lorsque vous avez terminé. Pour plus d’informations sur la création de groupes de champs, consultez la [documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target=&quot;_blank&quot;}.
+1. Saisissez un **[!UICONTROL Nom d&#39;affichage]** et une **[!UICONTROL Description]**. Cliquez sur **[!UICONTROL Ajouter des groupes de champs]** lorsque vous avez terminé. Pour plus d&#39;informations sur la création de groupes de champs, consultez la [documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target=&quot;_blank&quot;}.
 
 
    ![](assets/test_push_4.png)
