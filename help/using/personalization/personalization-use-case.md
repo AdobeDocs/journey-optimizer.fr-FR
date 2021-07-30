@@ -1,5 +1,5 @@
 ---
-title: Cas d'utilisation de la personnalisation&deux-points; notification de statut de la commande
+title: Cas d'utilisation de la personnalisation&colon; notification de statut de la commande
 description: Découvrez comment personnaliser un message à l’aide des informations de profil, de décision d’offre et de contexte
 feature: Personnalisation
 topic: Personnalisation
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
 
 * **Profil** : personnalisation des messages en fonction d&#39;un champ de profil
-* **Décision** de l’offre : personnalisation basée sur des variables d’offer decisioning
+* **Décision d&#39;offre** : personnalisation basée sur des variables de prise de décision d&#39;offre
 * **Contexte** : personnalisation basée sur les données contextuelles du parcours
 
 L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Journey Optimizer] chaque fois qu&#39;une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
@@ -82,7 +82,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 1. Sélectionnez la catégorie **Contexte**. Cet élément n&#39;est disponible que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
    * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité **Message** dans le parcours.
-   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=fr#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
+   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=fr#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
 
    ![](assets/perso-uc10.png)
 
@@ -116,7 +116,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc17.png)
 
-1. Entrez les différentes valeurs à transmettre dans le test. Le mode test ne fonctionne qu&#39;avec les profils de test. L’identifiant de profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
+1. Entrez les différentes valeurs à transmettre dans le test. Le mode test ne fonctionne qu&#39;avec les profils de test. L&#39;identifiant du profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
 
    ![](assets/perso-uc18.png)
 
