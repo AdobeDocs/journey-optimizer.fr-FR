@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Une fois connecté à [Adobe Experience Cloud](http://experience.adobe.com), acc
 
 >[!NOTE]
 >
->* Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+>* Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
    >
    >
 * Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
@@ -49,7 +49,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Messages]** - Créez, concevez, tester et publiez des e-mails et messages push. [En savoir plus](create-message.md)
 
-**[!UICONTROL DECISION MANAGEMENT]**
+**[!UICONTROL GESTION DES DÉCISIONS]**
 
 * **[!UICONTROL Offres]** - Accédez à vos sources et ensembles de données récents à partir de ce menu. Utilisez cette section pour créer de nouvelles offres. [En savoir plus](offers/offer-library/creating-personalized-offers.md)
 
@@ -98,7 +98,7 @@ Les cas d&#39;utilisation disponibles sont les suivants :
 
 * **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas pratique [sur cette page](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envoyer un message d&#39;anniversaire aux clients** : pour envoyer automatiquement un e-mail afin de souhaiter un bon anniversaire à vos clients. (bientôt disponible)
-* **Envoyez des emails à vos nouveaux clients**, afin d’envoyer facilement jusqu’à deux emails pour accueillir vos nouveaux clients enregistrés. (bientôt disponible)
+* **Envoyer des e-mails pour souhaiter la bienvenue aux nouveaux clients** : pour envoyer facilement jusqu&#39;à deux e-mails afin d&#39;accueillir vos nouveaux clients enregistrés. (bientôt disponible)
 * **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)
 
 Cliquez sur **[!UICONTROL Afficher les détails]** pour en savoir plus sur chaque cas d&#39;utilisation.
@@ -139,7 +139,7 @@ Pour modifier la langue :
 
 ## Recherche
 
-N’importe où depuis l’interface de Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud au centre de la barre supérieure pour rechercher des ressources, des parcours ou des messages dans vos environnements de test. Commencez à saisir du contenu pour afficher les meilleurs résultats.
+Depuis n&#39;importe où dans l&#39;interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud au centre de la barre supérieure pour rechercher des ressources, des parcours ou des messages dans vos environnements Sandbox. Commencez à saisir du contenu pour afficher les meilleurs résultats.
 
 ![](assets/unified-search.png)
 
@@ -154,7 +154,7 @@ Dans la plupart des listes, une barre de recherche permet de rechercher un élé
 
 Pour accéder aux filtres, cliquez sur l&#39;icône en forme de filtre en haut à gauche de la liste. Le menu Filtrer permet de filtrer les éléments affichés en fonction de différents critères. Il est possible d&#39;afficher uniquement les éléments d&#39;un certain type ou dans un statut donné, ceux que vous avez créés, ou ceux que vous avez modifiés au cours des 30 derniers jours. Les options varient en fonction du contexte.
 
-Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur état, type et version à partir des **[!UICONTROL filtres d’état et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lire le segment]**, **[!UICONTROL Evénement commercial]** ou **[!UICONTROL Démarrer]**. Vous pouvez choisir d&#39;afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l&#39;aide des **[!UICONTROL filtres d&#39;activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](building-journeys/using-the-journey-designer.md).
+Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lecture de segment]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**. Vous pouvez choisir d&#39;afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l&#39;aide des **[!UICONTROL filtres d&#39;activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
