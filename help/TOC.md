@@ -8,14 +8,14 @@ solution: Journey Optimizer
 source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
 
 # Aide de [!DNL Journey Optimizer] {#using}
 
-+ [Documentation Journey Optimizer](ajo-home.md)
++ [Documentation Journey Optimizer](ajo-home.md)
 + Nouveautés {#whats-new}
    + [Notes de mise à jour](using/release-notes.md)
    + [Dernières mises à jour](using/documentation-updates.md)
@@ -42,12 +42,12 @@ ht-degree: 95%
       + [Publication de messages](using/publish-manage-message.md)
    + [Gestion de la désinscription](using/consent.md)
 + Personnalisation{#personalization}
-   + [Prise en main   de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main    de la personnalisation](using/personalization/personalize.md)
    + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
    + [Validation de la personnalisation](using/personalization/personalization-validation.md)
    + Cas d&#39;utilisation{#personalization-use-cases}
-      + [Notification d’état de commande](using/personalization/personalization-use-case.md)
-      + [Email d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
+      + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
+      + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
    + Fonctions d&#39;assistance{#functions}
       + [Liste des fonctions d&#39;assistance](using/personalization/functions/functions.md)
       + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
