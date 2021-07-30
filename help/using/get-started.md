@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer] est conçu de manière native sur [!DNL Adobe Experience Platform] et associe un profil client en temps réel unifié, un framework ouvert API-First, une fonction Offer Decisioning centralisée, une intelligence artificielle (IA) et du machine learning (ML) pour la personnalisation et l&#39;optimisation. Journey Optimizer permet aux marques de déterminer intelligemment la meilleure interaction possible, avec l&#39;échelle, la vitesse et la flexibilité adaptées, pour l&#39;ensemble du parcours client. Avec [!DNL Adobe Journey Optimizer], les entreprises peuvent créer et diffuser des campagnes marketing planifiées (comme des promotions hebdomadaires pour un magasin de vente au détail) et des communications individuelles personnalisées (comme une notification push pour un article qu&#39;un client d&#39;une application avec points de fidélité peut avoir consulté et qui était précédemment en rupture de stock) dans la même application.
 
-➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (vidéo)
+➡️ [Découvrez Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=fr){target=&quot;_blank&quot;} (vidéo)
 
 
 ## Cas d&#39;utilisation
@@ -47,13 +47,13 @@ Les fonctionnalités principales sont les suivantes :
 
 * **Connaissance du client et engagement en temps réel** : un profil intégré fusionne les données actives de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d&#39;optimiser les expériences personnelles et contextuelles des clients en temps réel.
 
-* **Exécution et orchestration omnicanal modernes**  : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l&#39;engagement client 1:1 et les activités marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
+* **Exécution et orchestration omnicanal modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l&#39;engagement client 1:1 et les activités marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
 
 * **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l&#39;intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l&#39;expérience client, ce qui facilite l&#39;automatisation des décisions et l&#39;optimisation de l&#39;expérience à grande échelle. Offer Decisioning alimente les offres centralisées sur tous les canaux à l&#39;échelle via [!DNL Adobe Journey Optimizer].
 
 ## Architecture
 
-Découvrez l’architecture de base de [!DNL Adobe Journey Optimizer], les points d’intégration et la relation de [!DNL Journey Optimizer] avec d’autres applications d’Adobe.
+Découvrez l’architecture de base de [!DNL Adobe Journey Optimizer], les points d’intégration et la relation de [!DNL Journey Optimizer] avec d’autres applications Adobe.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 
