@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,6 +87,6 @@ Pour chaque exécution de message, plusieurs indicateurs s&#39;affichent :
 
 * **[!UICONTROL Erreurs]** : nombre de messages qui ne peuvent pas être envoyés en raison d&#39;une défaillance technique.
 
-* **[!UICONTROL Plaintes contre le spam]** : nombre de messages signalés comme spam par les destinataires. Pour en savoir plus sur les plaintes, consultez le [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability){target=&quot;_blank&quot;}.
+* **[!UICONTROL Plaintes contre le spam]** : nombre de messages signalés comme spam par les destinataires. Pour en savoir plus sur les plaintes, consultez le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 Cliquer sur chaque lien hypertexte entraîne l&#39;ouverture de la vue de synthèse de message correspondante. [En savoir plus sur les messages](create-message.md).
