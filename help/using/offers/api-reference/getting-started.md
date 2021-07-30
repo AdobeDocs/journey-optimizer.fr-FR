@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -22,18 +22,18 @@ Ce guide du développeur décrit les étapes à suivre pour commencer à utilise
 
 Ce guide nécessite une compréhension professionnelle des composants suivants d&#39;Adobe Experience Platform :
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;} : Cadre normalisé selon lequel  [!DNL Experience Platform] organise les données d’expérience client.
-   * [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target=&quot;_blank&quot;} : Découvrez les blocs de création de base des schémas XDM.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;} : cadre normalisé selon lequel [!DNL Experience Platform] organise les données de l’expérience client.
+   * [Notions de base sur la composition du schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target=&quot;_blank&quot;} : en savoir plus sur les blocs de création de base des schémas XDM.
 * [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md) : explique les concepts et les composants utilisés pour Experience Decisioning en général et pour Offer Decisioning en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l&#39;expérience client.
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr){target=&quot;_blank&quot;} : PQL est un langage puissant pour écrire des expressions sur des instances XDM. PQL est utilisé pour définir des règles de décision.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr){target=&quot;_blank&quot;} : PQL est un langage puissant pour écrire des expressions sur des instances XDM. PQL est utilisé pour définir des règles de décision.
 
 ## Lecture d&#39;exemples d&#39;appels API
 
-Ce guide fournit des exemples d&#39;appels API pour démontrer comment formater vos requêtes. Il s&#39;agit notamment de chemins d&#39;accès, d&#39;en-têtes requis et de payloads de requêtes correctement formatés. L&#39;exemple JSON renvoyé dans les réponses de l&#39;API est également fourni. Pour plus d’informations sur les conventions utilisées dans la documentation pour les exemples d’appels API, consultez la section [comment lire des exemples d’appels API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=fr#how-do-i-format-an-api-request){target=&quot;_blank&quot;} dans le guide de dépannage [!DNL Experience Platform].
+Ce guide fournit des exemples d&#39;appels API pour démontrer comment formater vos requêtes. Il s&#39;agit notamment de chemins d&#39;accès, d&#39;en-têtes requis et de payloads de requêtes correctement formatés. L&#39;exemple JSON renvoyé dans les réponses de l&#39;API est également fourni. Pour plus d&#39;informations sur les conventions utilisées dans la documentation pour les exemples d&#39;appels d&#39;API, voir la section concernant la [lecture d&#39;exemples d&#39;appels d&#39;API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=fr#how-do-i-format-an-api-request){target=&quot;_blank&quot;} dans le guide de dépannage [!DNL Experience Platform].
 
 ## Collecte des valeurs des en-têtes requis
 
-Pour lancer des appels aux API [!DNL Platform], vous devez d’abord suivre le [tutoriel sur l’authentification](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr){target=&quot;_blank&quot;}. Le tutoriel d&#39;authentification fournit les valeurs de chacun des en-têtes requis dans tous les appels d&#39;API [!DNL Experience Platform], comme indiqué ci-dessous :
+Pour effectuer des appels aux API [!DNL Platform], vous devez d&#39;abord suivre le [tutoriel d&#39;authentification](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr){target=&quot;_blank&quot;} Le tutoriel d&#39;authentification fournit les valeurs de chacun des en-têtes requis dans tous les appels d&#39;API [!DNL Experience Platform], comme indiqué ci-dessous :
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -49,7 +49,7 @@ Un conteneur est un mécanisme d&#39;isolement qui permet de séparer différent
 
 Un administrateur peut regrouper des entités principales, des ressources et des autorisations d&#39;accès similaires dans des profils. La charge de gestion est ainsi réduite et est assurée par l&#39;[Adobe Admin Console](https://adminconsole.adobe.com/). Pour créer des profils et leur affecter des utilisateurs, vous devez être un administrateur de produit pour Adobe Experience Platform. Il suffit de créer des profils de produit qui correspondent à certaines autorisations en une seule étape, puis d&#39;ajouter des utilisateurs à ces profils. Les profils agissent comme des groupes ayant reçu des autorisations, et chaque utilisateur réel ou technique de ce groupe hérite de ces autorisations.
 
-Avec les privilèges d’administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs par l’intermédiaire de [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Pour plus d’informations, consultez la [Présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target=&quot;_blank&quot;}.
+Avec les privilèges d&#39;administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs via l‘[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Pour plus d&#39;informations, voir la [présentation du contrôle d&#39;accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target=&quot;_blank&quot;}
 
 ### Liste des conteneurs accessibles aux utilisateurs et aux intégrations
 
