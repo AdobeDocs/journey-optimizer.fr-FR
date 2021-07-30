@@ -7,20 +7,20 @@ level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # Prise en main des requêtes {#queries-gs}
 
-Query Editor est un outil interactif fourni par Adobe Experience Platform Query Service qui vous permet d’écrire, de valider et d’exécuter des requêtes pour les données d’expérience client dans l’interface utilisateur [!DNL Adobe Journey Optimizer].
+Query Editor est un outil interactif fourni par Adobe Experience Platform Query Service. Il permet d’écrire, de valider et d’exécuter des requêtes pour les données d’expérience client dans l’interface utilisateur dans [!DNL Adobe Journey Optimizer].
 
-Query Editor prend en charge le développement de requêtes à des fins d’analyse et d’exploration de données, et vous permet d’exécuter des requêtes interactives à des fins de développement, ainsi que des requêtes non interactives pour remplir des [jeux de données](get-started-datasets.md).
+Query Editor prend en charge le développement de requête pour l’analyse et l’exploration de données. Il vous permet également d’exécuter des requêtes interactives à des fins de développement, ainsi que des requêtes non interactives pour renseigner des [jeux de données](get-started-datasets.md).
 
 
 ![](assets/queries-home.png)
 
-Découvrez comment utiliser l’éditeur de requêtes dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
+Découvrez comment utiliser Query Editor dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 **Voir également**
 
