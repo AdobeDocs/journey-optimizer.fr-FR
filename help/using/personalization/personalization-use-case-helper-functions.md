@@ -1,6 +1,6 @@
 ---
-title: Cas d’utilisation de la personnalisation&deux-points; email d'abandon de panier
-description: Découvrez comment personnaliser un message à l’aide de fonctions d’assistance
+title: Cas d’utilisation de la personnalisation&colon; e-mail d’abandon de panier
+description: Découvrez comment personnaliser un message à l’aide de fonctions helper
 feature: Personnalisation
 topic: Personnalisation
 role: Data Engineer
@@ -8,61 +8,61 @@ level: Intermediate
 source-git-commit: 7fb159eb495b2ac2c1eded0921b63dbc4bae9cac
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Cas d&#39;utilisation de la personnalisation: email d&#39;abandon de panier {#personalization-use-case-helper-functions}
+# Cas d&#39;utilisation de la personnalisation: e-mail d’abandon de panier {#personalization-use-case-helper-functions}
 
-Dans cet exemple, vous allez personnaliser le corps d&#39;un email. Ce message cible les clients qui ont laissé des articles dans leur panier mais n’ont pas effectué leur achat.
+Dans cet exemple, vous allez personnaliser le corps d’un e-mail. Ce message cible les clients qui ont laissé des articles dans leur panier mais n’ont pas effectué leur achat.
 
-Vous utiliserez ces types de fonctions d’assistance :
+Vous utiliserez ces types de fonctions helper :
 
-* Fonction de chaîne `upperCase` permettant d&#39;insérer le prénom du client en majuscules. [En savoir plus](functions/string.md#upper).
-* L’assistant `each` pour répertorier les éléments qui se trouvent dans le panier. [En savoir plus](functions/helpers.md#each).
-* L’ `if` assistant, pour insérer une note spécifique au produit si le produit associé se trouve dans le panier. [En savoir plus](functions/helpers.md#if-function).
+* La fonction de chaîne `upperCase` permettant d&#39;insérer le prénom du client en majuscules. [En savoir plus](functions/string.md#upper).
+* La fonction helper `each` permettant de répertorier les articles qui se trouvent dans le panier. [En savoir plus](functions/helpers.md#each).
+* La fonction helper `if` permettant d’insérer une note spécifique au produit si le produit associé se trouve dans le panier. [En savoir plus](functions/helpers.md#if-function).
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-Avant de commencer, vérifiez que vous savez comment configurer ces éléments :
-* Un message électronique. [En savoir plus](../create-message.md)
-* Corps d’un email. [En savoir plus](../create-email-content.md).
+Avant de commencer, vérifiez que vous savez comment configurer ces éléments :
+* Un message e-mail. [En savoir plus](../create-message.md)
+* Le corps d’un email. [En savoir plus](../create-email-content.md).
 * Un événement unitaire. [En savoir plus](../event/about-events.md).
-* Parcours commençant par un événement. [En savoir plus](../building-journeys/using-the-journey-designer.md).
+* Un parcours commençant par un événement. [En savoir plus](../building-journeys/using-the-journey-designer.md).
 
 Procédez de la façon suivante :
-1. [Créez un message électronique](#configure-email).
-1. [Insérez le prénom du client en majuscules](#uppercase-function).
-1. [Créez l’événement initial et le parcours](#create-context).
-1. [Ajoutez le contenu du panier à l&#39;email](#each-helper).
-1. [Insérez une note](#if-helper) spécifique au produit.
+1. [Créer un message e-mail](#configure-email).
+1. [Insérer le prénom du client en majuscules](#uppercase-function).
+1. [Créer l’événement initial et le parcours](#create-context).
+1. [Ajouter le contenu du panier à l’e-mail](#each-helper).
+1. [Insérer une note spécifique au produit.](#if-helper)
 1. [Tester et publier le parcours](#test-and-publish).
 
-## Étape 1 : création de l&#39;email de {#configure-email}
+## Étape 1 : créer l’e-mail{#configure-email}
 
-1. Créez ou modifiez un email, puis cliquez sur **[!UICONTROL Concepteur d&#39;email]**.
+1. Créez ou modifiez un e-mail, puis cliquez sur **[!UICONTROL Concepteur d’email]**.
    ![](../assets/personalization-uc-helpers-1.png)
 
-1. Dans la palette gauche de la page d&#39;accueil du Concepteur d&#39;email, placez trois composants de structure sur le corps du message.
+1. Dans la palette gauche de la page d&#39;accueil du Concepteur d&#39;email, effectuez un glisser-déposer de trois composants de structure dans le corps du message.
 
-1. Faites glisser et déposez un composant de contenu HTML sur chaque nouveau composant de structure.
+1. Effectuez un glisser-déposer d’un composant de contenu HTML dans chaque nouveau composant de structure.
 
    ![](../assets/personalization-uc-helpers-2.png)
 
-## Étape 2 : Insérez le prénom du client en majuscules {#uppercase-function}
+## Étape 2 : insérer le prénom du client en majuscules {#uppercase-function}
 
 1. Sur la page d’accueil du Concepteur d’email, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. Dans la fenêtre **[!UICONTROL Modifier HTML]** , ajoutez la fonction de chaîne `upperCase` :
-   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
-   1. Utilisez le champ de recherche pour rechercher &quot;majuscules&quot;.
-   1. Dans les résultats de la recherche, ajoutez la fonction `upperCase` . Pour ce faire, cliquez sur le signe plus (+) en regard de `{%= upperCase(string) %}: string`.
+1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction de chaîne `upperCase` :
+   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions helper]**.
+   1. Utilisez le champ de recherche pour trouver « uppercase ».
+   1. À partir des résultats de la recherche, ajoutez la fonction `upperCase`. Pour ce faire, cliquez sur le signe plus (+) en regard de `{%= upperCase(string) %}: string`.
 
-      L’éditeur d’expression affiche cette expression :
+      L’éditeur d’expression affiche cette expression :
 
       ```handlebars
       {%= upperCase(string) %}
@@ -70,13 +70,13 @@ Procédez de la façon suivante :
 
       ![](../assets/personalization-uc-helpers-4.png)
 
-1. Supprimez l’espace réservé &quot;string&quot; de l’expression.
-1. Ajoutez le jeton de prénom :
+1. Supprimez l’espace réservé « string » de l’expression.
+1. Ajoutez le jeton de prénom :
    1. Dans la liste, sélectionnez **[!UICONTROL Profil]**.
    1. Sélectionnez **[!UICONTROL Profil]** > **[!UICONTROL Personne]** > **[!UICONTROL Nom complet]**.
    1. Ajoutez le jeton **[!UICONTROL Prénom]** à l’expression.
 
-      L’éditeur d’expression affiche cette expression :
+      L’éditeur d’expression affiche cette expression :
 
       ```handlebars
       {%= upperCase(profile.person.name.firstName) %}
@@ -84,21 +84,21 @@ Procédez de la façon suivante :
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le type de données de nom de personne [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Apprenez-en davantage sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/personalization-uc-helpers-6.png)
 1. Enregistrez le message.
 
-## Étape 3 : Créer l’événement initial et le parcours associé {#create-context}
+## Étape 3 : créer l’événement initial et le parcours associé {#create-context}
 
-Le contenu du panier est une information contextuelle issue du parcours. Par conséquent, vous devez ajouter un événement initial et l’email à un parcours avant de pouvoir ajouter des informations spécifiques au panier à l’email.
+Le contenu du panier est une information contextuelle provenant du parcours. Par conséquent, vous devez ajouter un événement initial et l’e-mail à un parcours avant de pouvoir ajouter des informations spécifiques au panier à l’e-mail.
 
-1. Créez un événement dont le schéma inclut le tableau `productListItems` .
-1. Définissez tous les champs de ce tableau comme champs de charge utile pour cet événement.
+1. Créez un événement dont le schéma inclut le tableau `productListItems`.
+1. Définissez tous les champs de ce tableau comme champs de payload pour cet événement.
 
-   En savoir plus sur le type de données d’élément de liste de produits [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Créez un parcours commençant par cet événement.
 1. Ajoutez le message au parcours.
@@ -114,9 +114,9 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 
    ![](../assets/personalization-uc-helpers-8.png)
 
-## Étape 4 : Insérer la liste des éléments du panier {#each-helper}
+## Étape 4 : insérer la liste des articles du panier {#each-helper}
 
-1. rouvrez le message.
+1. Rouvrez le message.
 
    ![](../assets/personalization-uc-helpers-18.png)
 
@@ -125,12 +125,12 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. Dans la fenêtre **[!UICONTROL Modifier HTML]** , ajoutez l’assistant `each` :
-   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
-   1. Utilisez le champ de recherche pour rechercher &quot;chacun&quot;.
-   1. Dans les résultats de la recherche, ajoutez l’assistant `each` .
+1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `each` :
+   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions helper]**.
+   1. Utilisez le champ de recherche pour trouver « each ».
+   1. À partir des résultats de la recherche, ajoutez la fonction helper `each`.
 
-      L’éditeur d’expression affiche cette expression :
+      L’éditeur d’expression affiche cette expression :
 
       ```handlebars
       {{#each someArray as |variable|}} {{/each}}
@@ -138,20 +138,20 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 
       ![](../assets/personalization-uc-helpers-9.png)
 
-1. Ajoutez le tableau `productListItems` à l’expression :
+1. Ajoutez le tableau `productListItems` à l’expression :
 
-   1. Supprimez l’espace réservé &quot;someArray&quot; de l’expression.
+   1. Supprimez l’espace réservé « someArray » de l’expression.
    1. Dans la liste, sélectionnez **[!UICONTROL Contexte]**.
 
       L’option **[!UICONTROL Contexte]** n’est disponible qu’une fois le contexte du parcours transmis au message.
 
-   1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL nom_événement]***, puis développez le noeud **[!UICONTROL productListItems]**.
+   1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez le nœud **[!UICONTROL productListItems]**.
 
       Dans cet exemple, *event_name* représente le nom de votre événement.
 
-   1. Ajoutez le jeton **[!UICONTROL Product]** à l’expression.
+   1. Ajoutez le jeton **[!UICONTROL Produit]** à l’expression.
 
-      L’éditeur d’expression affiche cette expression :
+      L’éditeur d’expression affiche cette expression :
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
@@ -160,16 +160,16 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 
       ![](../assets/personalization-uc-helpers-10.png)
 
-   1. Modifiez l’expression :
-      1. Supprimez la chaîne &quot;.product&quot;.
-      1. Remplacez l’espace réservé &quot;variable&quot; par &quot;product&quot;.
+   1. Modifiez l’expression :
+      1. Supprimez la chaîne « .product ».
+      1. Remplacez l’espace réservé « variable » par « product ».
 
-      Cet exemple illustre l’expression modifiée :
+      Cet exemple illustre l’expression modifiée :
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-1. Collez ce code entre la balise `{{#each}}` d’ouverture et la balise `{/each}}` de fermeture :
+1. Collez ce code entre la balise `{{#each}}` d’ouverture et la balise `{/each}}` de fermeture :
 
    ```html
    <table>
@@ -183,16 +183,16 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
    </table>
    ```
 
-1. Ajoutez les jetons de personnalisation pour le nom de l’article, la quantité et le prix :
+1. Ajoutez les jetons de personnalisation pour le nom de l’article, la quantité et le prix :
 
-   1. Supprimez l’espace réservé &quot;#name&quot; du tableau HTML.
-   1. Dans les résultats de recherche précédents, ajoutez le jeton **[!UICONTROL Nom]** à l’expression.
+   1. Supprimez l’espace réservé « #name » du tableau HTML.
+   1. À partir des résultats de recherche précédents, ajoutez le jeton **[!UICONTROL Nom]** à l’expression.
 
-   Répétez deux fois ces étapes :
-   * Remplacez l’espace réservé &quot;#quantity&quot; par le jeton **[!UICONTROL Quantity]** .
-   * Remplacez l’espace réservé &quot;#priceTotal&quot; par le jeton **[!UICONTROL Prix total]** .
+   Répétez deux fois ces étapes :
+   * Remplacez l’espace réservé « #quantity » par le jeton **[!UICONTROL Quantité]**.
+   * Remplacez l’espace réservé « #priceTotal » par le jeton **[!UICONTROL Prix total]**.
 
-   Cet exemple illustre l’expression modifiée :
+   Cet exemple illustre l’expression modifiée :
 
    ```handlebars
    {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -210,19 +210,19 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
    ![](../assets/personalization-uc-helpers-11.png)
 
-## Étape 5 : Insertion d’une note spécifique au produit {#if-helper}
+## Étape 5 : insérer une note spécifique au produit {#if-helper}
 
 1. Sur la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le composant HTML dans lequel vous souhaitez insérer la note.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. Dans la fenêtre **[!UICONTROL Modifier HTML]** , ajoutez l’assistant `if` :
-   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
-   1. Utilisez le champ de recherche pour rechercher &quot;if&quot;.
-   1. Dans les résultats de la recherche, ajoutez l’assistant `if` .
+1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `if` :
+   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions helper]**.
+   1. Utilisez le champ de recherche pour trouver « if ».
+   1. À partir des résultats de la recherche, ajoutez la fonction helper `if`.
 
-      L’éditeur d’expression affiche cette expression :
+      L’éditeur d’expression affiche cette expression :
 
       ```handlebars
       {%#if condition1%} render_1
@@ -232,13 +232,13 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
       ```
       ![](../assets/personalization-uc-helpers-12.png)
 
-1. Supprimez cette condition de l’expression :
+1. Supprimez cette condition de l’expression :
 
    ```handlebars
    {%else if condition2%} render_2
    ```
 
-   Cet exemple illustre l’expression modifiée :
+   Cet exemple illustre l’expression modifiée :
 
    ```handlebars
    {%#if condition1%} render_1
@@ -246,16 +246,16 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
    {%/if%}
    ```
 
-1. Ajoutez le jeton de nom de produit à la condition :
-   1. Supprimez l’espace réservé &quot;condition1&quot; de l’expression.
+1. Ajoutez le jeton de nom de produit à la condition :
+   1. Supprimez l’espace réservé « condition1 » de l’expression.
    1. Dans la liste, sélectionnez **[!UICONTROL Contexte]**.
-   1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL nom_événement]***, puis développez le noeud **[!UICONTROL productListItems]**.
+   1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez le nœud **[!UICONTROL productListItems]**.
 
       Dans cet exemple, *event_name* représente le nom de votre événement.
 
    1. Ajoutez le jeton **[!UICONTROL Nom]** à l’expression.
 
-      L’éditeur d’expression affiche cette expression :
+      L’éditeur d’expression affiche cette expression :
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name%}
@@ -265,16 +265,16 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
       ```
       ![](../assets/personalization-uc-helpers-13.png)
 
-1. Modifiez l’expression :
+1. Modifiez l’expression :
    1. Dans l&#39;éditeur d&#39;expression, indiquez le nom du produit après le jeton `name`.
 
-      Utilisez cette syntaxe, où *product_name* représente le nom de votre produit :
+      Utilisez cette syntaxe, où *product_name* représente le nom de votre produit :
 
       ```javascript
       = "product_name"
       ```
 
-      Dans cet exemple, le nom du produit est &quot;Juno Jacket&quot; :
+      Dans cet exemple, le nom du produit est « Juno Jacket » :
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
@@ -283,7 +283,7 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
       {%/if%}
       ```
 
-   1. Remplacez l’espace réservé &quot;render_1&quot; par le texte de la note.
+   1. Remplacez l’espace réservé « render_1 » par le texte de la note.
 
       Exemple :
 
@@ -293,14 +293,14 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
          {%else%} default_render
       {%/if%}
       ```
-   1. Supprimez l’espace réservé &quot;default_render&quot; de l’expression.
+   1. Supprimez l’espace réservé « default_render » de l’expression.
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/personalization-uc-helpers-14.png)
 
-1. Enregistrez et publiez le message.
+1. Enregistrez le message et publiez-le.
 
-## Étape 6 : Test et publication du parcours {#test-and-publish}
+## Étape 6 : tester et publier le parcours {#test-and-publish}
 
 1. Ouvrez le parcours. Si le parcours est déjà ouvert, actualisez la page.
 1. Activez le bouton d’activation/désactivation **[!UICONTROL Test]**, puis cliquez sur **[!UICONTROL Déclencher un événement]**.
@@ -309,19 +309,19 @@ Le contenu du panier est une information contextuelle issue du parcours. Par con
 
    ![](../assets/personalization-uc-helpers-15.png)
 
-1. Dans la fenêtre **[!UICONTROL Configuration de l&#39;événement]** , saisissez les valeurs d&#39;entrée, puis cliquez sur **[!UICONTROL Envoyer]**.
+1. Dans la fenêtre **[!UICONTROL Configuration de l&#39;événement]**, saisissez les valeurs d&#39;entrée, puis cliquez sur **[!UICONTROL Envoyer]**.
 
    Le mode test fonctionne uniquement avec les profils de test.
 
    ![](../assets/personalization-uc-helpers-16.png)
 
-   L’email est envoyé à l’adresse du profil de test.
+   L’e-mail est envoyé à l’adresse du profil de test.
 
-   Dans cet exemple, l’e-mail contient la note relative à Juno Jacket, car ce produit se trouve dans le panier :
+   Dans cet exemple, l’e-mail contient la note relative à Juno Jacket, car ce produit se trouve dans le panier :
 
    ![](../assets/personalization-uc-helpers-17.png)
 
-1. Vérifiez qu’il n’y a pas d’erreur, puis publiez le parcours.
+1. Vérifiez qu&#39;il n&#39;y a pas d&#39;erreur et publiez le parcours.
 
 
 ## Rubriques connexes
