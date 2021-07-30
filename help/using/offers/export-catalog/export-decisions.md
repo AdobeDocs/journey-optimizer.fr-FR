@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
    **Champ :** optionSelectionType
    **Titre :** type de contrainte de profil
-   **Description :** détermine si des contraintes sont actuellement définies et comment elles sont exprimées. Cela peut se faire avec une requête de filtre ou avec un ou plusieurs abonnements au segment.
+   **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec un ou plusieurs abonnements au segment.
    **Type :** chaîne
    **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
 
@@ -114,7 +114,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** profileConstraints 
 **Titre :** contrainte de profil
-**Description :** la contrainte de profil détermine si une option est éligible pour cette identité de profil, à l&#39;heure actuelle, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante par rapport aux options de la sélection d&#39;options, la contrainte de profil qui évalue &#39;false&#39; annule toute la sélection d&#39;options. D’un autre côté, une règle de contrainte de profil qui utilise une option comme paramètre est évaluée pour chaque option admissible de la sélection d’option.
+**Description :** la contrainte de profil détermine si une option est éligible pour cette identité de profil, à l&#39;heure actuelle, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante par rapport aux options de la sélection d&#39;options, la contrainte de profil qui évalue &#39;false&#39; annule toute la sélection d&#39;options. D&#39;un autre côté, une règle de contrainte de profil qui prend une option en tant que paramètre est évaluée pour chaque option de qualification de la sélection d&#39;options.
 **Type :** objet
 
 * **_experience > prise de décision > critères > profileConstraints > Description**
@@ -135,7 +135,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
    **Champ :** profileConstraintType
    **Titre :** type de contrainte de profil
-   **Description :** détermine si des contraintes sont actuellement définies et comment elles sont exprimées. Il peut s&#39;agir d&#39;une règle ou d&#39;un ou plusieurs abonnements de segment.
+   **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s&#39;agir d&#39;une règle ou d&#39;un ou plusieurs abonnements de segment.
    **Type :** chaîne
    **Valeurs possibles :**
    * &quot;none&quot; (par défaut)
@@ -220,7 +220,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
    **Champ :** priorité
    **Titre :** priorité
-   **Description :** La priorité d&#39;une option de décision unique par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n’est donnée sont classées par priorité à l’aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de manière aléatoire uniforme et utilisée pour la proposition de décision.
+   **Description :** La priorité d&#39;une option de décision unique par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de manière aléatoire uniforme et utilisée pour la proposition de décision.
    **Type :** entier
    **Valeur minimale :**0
    **Valeur par défaut :** 0
