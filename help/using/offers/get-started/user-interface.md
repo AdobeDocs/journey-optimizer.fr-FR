@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -98,7 +98,7 @@ Vous pouvez également dupliquer une offre ou une décision existante afin de cr
 
 ## Logs des modifications des offres et des décisions {#changes-logs}
 
-La bibliothèque des offres vous permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour cela, ouvrez l&#39;offre ou la décision en cliquant sur son nom dans la liste, puis sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]**.
+La bibliothèque des offres permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour cela, ouvrez l&#39;offre ou la décision en cliquant sur son nom dans la liste, puis sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]**.
 
 Toutes les modifications apportées s&#39;affichent dans cet écran, ainsi que le nom de l&#39;utilisateur qui les a effectuées.
 
