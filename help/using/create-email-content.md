@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +180,7 @@ Votre pré-titre est maintenant configuré pour votre e-mail.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Paramètres d&#39;arrière-plan"
->abstract="Le Concepteur d&#39;email vous permet de personnaliser la couleur d&#39;arrière-plan ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
+>abstract="Le Concepteur d’email vous permet de personnaliser la couleur ou l’image de fond de votre contenu. Notez que l’image de fond n’est pas prise en charge par tous les clients de messagerie."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Informations supplémentaires"
 
 Lorsqu’il s’agit de définir des arrière-plans avec le Concepteur d’email, Adobe recommande ce qui suit :
@@ -217,19 +217,19 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez util
 
 Dans cet exemple, nous allons ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes.
 
-1. Sélectionnez le composant de structure directement dans l&#39;email ou à l&#39;aide de l&#39;**[!UICONTROL Arborescence de navigation]** disponible dans le menu de gauche.
+1. Sélectionnez le composant de structure directement dans l’email ou à l’aide de l’**[!UICONTROL arborescence de navigation]** disponible dans le menu de gauche.
 
    ![](assets/alignment_1.png)
 
-1. Dans la barre d’outils, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle que vous souhaitez modifier. Vous pouvez également la sélectionner dans l&#39;arborescence.
+1. Dans la barre d&#39;outils, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à modifier. Vous pouvez également la sélectionner dans l&#39;arborescence.
 
-   Les paramètres éditables pour cette colonne sont affichés dans le menu **[!UICONTROL Paramètres de colonne]** .
+   Les paramètres modifiables pour cette colonne sont affichés dans le menu **[!UICONTROL Paramètres de colonne]**.
 
    ![](assets/alignment_2.png)
 
 1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez **[!UICONTROL Bas]**.
 
-   Le composant de contenu se déplace au bas de la colonne.
+   Le composant de contenu se déplace en bas de la colonne.
 
    ![](assets/alignment_3.png)
 
@@ -247,9 +247,9 @@ Dans cet exemple, nous allons ajuster la marge intérieure et l&#39;alignement v
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
 
-1. Dans un composant de contenu **[!UICONTROL Texte]** où un lien est inséré, sélectionnez votre lien.
+1. Dans un **[!UICONTROL composant de contenu]** texte où un lien est inséré, sélectionnez votre lien.
 
-1. Dans le menu **[!UICONTROL Paramètres du composant]**, cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
+1. Dans les **[!UICONTROL paramètres du composant]**, cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
 
    ![](assets/link_1.png)
 
