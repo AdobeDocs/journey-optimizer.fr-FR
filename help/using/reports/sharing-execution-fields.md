@@ -6,7 +6,7 @@ topic: Gestion de contenu
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 
