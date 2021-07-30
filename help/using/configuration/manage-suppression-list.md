@@ -18,7 +18,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 | Motif | Description | Catégorie de suppression |
 ---------|----------|--------- |
-| **[!UICONTROL Indéterminé]** | La raison du rebond reçue de l’agent de transfert de message (MTA) du domaine du destinataire n’a pas pu être identifiée. | Ignoré |
+| **[!UICONTROL Indéterminé]** | Le motif du bounce reçu du MTA (Message Transfer Agent) du domaine du destinataire n&#39;a pas pu être identifié. | Ignoré |
 | **[!UICONTROL Destinataire non valide]** | Le destinataire n&#39;est pas valide ou n&#39;existe pas. | Hard |
 | **[!UICONTROL Soft Bounce]** | Le message a fait l&#39;objet d&#39;un soft bounce pour un motif autre que les erreurs soft répertoriées dans ce tableau, par exemple lors d&#39;un envoi supérieur au taux autorisé recommandé par un FAI. | Soft |
 | **[!UICONTROL Échec du DNS]** | Le message a fait l&#39;objet d&#39;un bounce en raison d&#39;un échec du DNS. | Soft |
