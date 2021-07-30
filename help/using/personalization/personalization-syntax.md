@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Dans Handlebars, les valeurs renvoyées par {{expression}} se caractérisent par
 
 ## Profile
 
-Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 Les attributs doivent être définis dans le schéma avant d&#39;être référencés dans un bloc de personnalisation [!DNL Journey Optimizer].
 
@@ -107,11 +107,11 @@ Toutes les références sont validées par rapport au schéma d&#39;offre avec u
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Contenu textuel de l’offre provenant du moteur de prise de décision :
+* Contenu textuel de l&#39;offre provenant du moteur de décision :
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* Contenu HTML de l’offre provenant du moteur de prise de décision :
+* Contenu HTML de l&#39;offre provenant du moteur de décision :
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -121,7 +121,7 @@ Toutes les références sont validées par rapport au schéma d&#39;offre avec u
 Un assistant Handlebars est un identifiant simple qui peut être suivi de paramètres.
 Chaque paramètre est une expression Handlebars. Ces assistants sont accessibles depuis n&#39;importe quel contexte dans un modèle.
 
-Ces assistants de bloc sont identifiés par un # précédant le nom de l’assistant et nécessitent une fermeture / correspondante du même nom.
+Ces assistants de bloc sont identifiés par un # précédant le nom de l&#39;assistant et nécessitent une fermeture /, du même nom.
 Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fermeture ({{/}}).
 
 
