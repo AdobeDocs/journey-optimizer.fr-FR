@@ -1,7 +1,7 @@
 ---
 keywords: Journey Optimizer;accueil;sujets les plus consultés
 title: Documentation Journey Optimizer
-description: Centre d’aide sur les produits Adobe Journey Optimizer
+description: Centre d’aide du produit Adobe Journey Optimizer
 feature: Présentation
 topic: Gestion de contenu
 role: User
@@ -9,11 +9,11 @@ level: Beginner
 source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# Documentation sur l’Adobe [!DNL Journey Optimizer] {#cjm-documentation}
+# Documentation Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -27,35 +27,35 @@ ht-degree: 50%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Qu’est-ce que [!DNL Journey Optimizer] ?</a>
+      <a href="using/get-started.md">Présentation de [!DNL Journey Optimizer]</a>
     </div>
     <p>  Découvrez les principales fonctionnalités et comment commencer à utiliser la solution.
     <p>
     <div>
-      <a href="using/design-emails.md">Concevoir un contenu d'email</a>
+      <a href="using/design-emails.md">Conception d’un contenu d’e-mail</a>
     </div>
     <p>
-    Concevoir un nouvel email ou importer un contenu HTML existant
+    Concevez un nouvel e-mail ou importez un contenu HTML existant.
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Envoyer les messages</a>
+      <a href="using/building-journeys/journeys-message.md">Envoi de messages</a>
     </div>
-    <p>Découvrez comment ajouter des messages push et des emails dans vos parcours clients
+    <p>Découvrez comment ajouter des e-mails et des messages push dans vos parcours clients.
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Création de votre premier parcours</a>
     </div>
-    <p>Découvrez comment créer et exécuter un parcours
+    <p>Découvrez comment créer et exécuter un parcours.
     <p>
     <div>
     <a href="using/configuration/get-started-configuration.md">Configuration de [!DNL Journey Optimizer]</a>
     </div>
-    <p>Découvrez les étapes clés de la configuration de [!DNL Journey Optimizer]
+    <p>Découvrez les étapes clés de la configuration de [!DNL Journey Optimizer].
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">Accorder l’accès à [!DNL Journey Optimizer]</a>
+    <a href="using/administration/permissions-overview.md">Octroi de l’accès à [!DNL Journey Optimizer]</a>
     </div>
-    <p>Découvrez comment définir et gérer les autorisations affectées aux utilisateurs de [!DNL Journey Optimizer]
+    <p>Découvrez comment définir et gérer les autorisations affectées aux utilisateurs de [!DNL Journey Optimizer].
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestion des décisions</a>
@@ -69,12 +69,12 @@ ht-degree: 50%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation Adobe Experience Platform</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation d’Adobe Experience Platform </a>
     </li>
     </div>
       <div>
@@ -102,7 +102,7 @@ ht-degree: 50%
       <a href="using/create-message.md">Messages</a>
     </li>
     <p>
-    <p>DECISION MANAGEMENT</p>
+    <p>GESTION DES DÉCISIONS</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">Offres</a>
     </li>
@@ -110,9 +110,9 @@ ht-degree: 50%
       <a href="using/offers/offer-library/key-steps.md">Composants</a>
     </li>
     <p>
-    <p>GESTION DU CONTENU</p>
+    <p>GESTION DE CONTENU</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/assets-essentials.md">Ressources</a>
     </li>
     <p>
     <p>GESTION DES DONNÉES</p>
@@ -153,7 +153,7 @@ ht-degree: 50%
       <a href="using/configuration/get-started-configuration.md">Canaux</a>
     </li>
      <li>
-      <a href="using/administration/sandboxes.md">Environnements de test</a>
+      <a href="using/administration/sandboxes.md">Environnements Sandbox</a>
     </li>
   </td>
 </tr>
