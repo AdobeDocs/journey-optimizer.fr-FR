@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 ![](assets/push-flow.png)
 
 1. Enregistrement de votre application mobile de marque (Android ou iOS) auprès d&#39;APNs d&#39;Apple et des services de messagerie push Google FCM
-1. Les services de messagerie génèrent un jeton push, qui est un identifiant que [!DNL Adobe Journey Optimizer] utilisera pour cibler l’appareil spécifique avec une notification push.
+1. Les services de messagerie génèrent un jeton push, qui est un identifiant qu’utilisera [!DNL Adobe Journey Optimizer] pour cibler l’appareil spécifique avec une notification push.
 1. Le jeton push généré précédemment est transmis à Adobe Experience Platform et synchronisé avec le profil client en temps réel. Cette opération est effectuée en standard avec un SDK client facile à intégrer.
-1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer], les messages push sont créés par rapport à un paramètre prédéfini de message.
+1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer] ; ils sont créés selon un préréglage de message.
 1. Les messages push peuvent être inclus dans la zone de travail d&#39;orchestration des parcours.
 1. Lors de la publication des parcours, les profils client basés sur les conditions des parcours sont qualifiés pour recevoir des notifications push. Les payloads de messagerie push sont personnalisées à cette étape.
 1. Les payloads push personnalisées sont transférées vers un service de diffusion de messagerie push interne.
@@ -47,9 +47,9 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - pour envoyer des notifications à l&#39;application mobile Android
    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - pour envoyer des notifications à l&#39;application mobile iOS
 
-* **SDK mobile Adobe Experience Platform** qui fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Le SDK fournit une extension [!DNL Adobe Journey Optimizer] exposant diverses API spécifiques à la messagerie push et permettant le flux de données comme l’enregistrement du jeton push ou l’envoi d’événements de suivi push ou de tout autre événement d’expérience personnalisé à Adobe Experience Platform. Le SDK fournit également de nombreuses autres extensions qui activent d&#39;autres fonctionnalités Adobe Experience Cloud ainsi que des fonctionnalités de partenaires tiers.
+* **SDK mobile Adobe Experience Platform** qui fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Le SDK fournit une extension [!DNL Adobe Journey Optimizer] exposant différentes API spécifiques à la messagerie push et permettant les flux de données, comme l&#39;enregistrement du jeton push ou l&#39;envoi d&#39;événements de suivi push ou de tout autre événement d&#39;expérience personnalisé à Adobe Experience Platform. Le SDK fournit également de nombreuses autres extensions qui activent d&#39;autres fonctionnalités Adobe Experience Cloud ainsi que des fonctionnalités de partenaires tiers.
 
-   L’intégration du SDK nécessite également la configuration des services de [collecte de données](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr){target=&quot;_blank&quot;} de Adobe Experience Platform tels que :
+   L&#39;intégration du SDK nécessite également la configuration des services de [collecte de données](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr){target=&quot;_blank&quot;} d’Adobe Experience Platform, notamment :
 
    * Création d&#39;un flux de données pour configurer les jeux de données de profil et d&#39;événement d&#39;expérience par rapport auxquels les données sont transmises à Adobe Experience Platform
    * Création de propriétés mobiles côté client et ajout d&#39;extensions. Le SDK s&#39;intègre étroitement avec ces extensions pour offrir une expérience de collecte de données transparente.
