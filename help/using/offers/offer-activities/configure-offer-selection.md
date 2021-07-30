@@ -8,17 +8,17 @@ level: Intermediate
 source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 51%
+ht-degree: 96%
 
 ---
 
 # Configuration de la sélection des offres dans les décisions {#offers-selection-in-activities}
 
-Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d’une décision (précédemment appelée activité d’offre). Vous pouvez classer les offres par :
-* Priorité des offres
+Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d’une décision (précédemment appelée activité d’offre). Vous pouvez classer les offres par :
+* Priorité d’offre
 * Formule de classement
 
-## Priorité des offres {#about-offers-priority}
+## Priorité d’offre {#about-offers-priority}
 
 Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision (auparavant « activité d’offre »), les offres présentant la **priorité** la plus élevée sont diffusées en premier aux clients.
 
@@ -28,7 +28,7 @@ Les scores de priorité des offres sont attribués lors de la création d’une 
 
 ## Formule de classement {#assign-ranking-formula}
 
-En plus de la priorité des offres, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
+En plus de la priorité d’offre, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
 
 Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ».
 
@@ -52,4 +52,4 @@ Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un 
 
 La formule de classement est désormais associée à l&#39;emplacement.
 
-Si plusieurs offres peuvent être présentées à cet emplacement, la décision utilisera la formule de la formule de classement pour calculer la première offre à diffuser.
+Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera la formule de classement pour calculer l&#39;offre à diffuser en premier.
