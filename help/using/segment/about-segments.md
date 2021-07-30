@@ -8,15 +8,15 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 # Prise en main des segments {#about-segments}
 
-[!DNL Journey Optimizer] vous permet de créer des segments Adobe Experience Platform à l’aide des données de profil client en temps réel directement à partir du menu **[!UICONTROL Segments]** et d’exploiter ces segments dans vos parcours.
+[!DNL Journey Optimizer] vous permet de créer des segments Adobe Experience Platform à l’aide des données de profil client en temps réel directement à partir du menu **[!UICONTROL Segments]** et de les exploiter dans vos parcours.
 
-Notez que les segments peuvent également être créés à partir du service de segmentation lui-même. Pour en savoir plus, consultez la [documentation de Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target=&quot;_blank&quot;}.
+Notez que les segments peuvent également être créés à partir du service de segmentation lui-même. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 Vous pouvez exploiter les segments dans les parcours de différentes manières :
 
@@ -30,15 +30,15 @@ Vous pouvez exploiter les segments dans les parcours de différentes manières 
 
 ## Méthode d’évaluation dans Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
 
-Dans Adobe Journey Optimizer, les audiences sont générées à partir des définitions de segment à l’aide de l’une des méthodes d’évaluation suivantes :
+Dans Adobe Journey Optimizer, les audiences sont générées à partir des définitions de segment à l’aide de l’une des méthodes d’évaluation suivantes :
 
-* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données s’enchaînent dans le système.
-* Segmentation par lots : la liste des audiences du segment est mise à jour toutes les heures, en fonction des données arrivées au cours de la dernière heure.
+* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données affluent dans le système.
+* Segmentation par lots : la liste des audiences du segment est mise à jour toutes les heures, en fonction des données arrivées au cours de la dernière heure.
 
 Le système détermine la segmentation par lots et la segmentation par flux pour chaque définition de segment, en fonction de la complexité et du coût de l’évaluation de la règle de segment.
 
-Vous pouvez afficher la méthode d’évaluation pour chaque segment dans la colonne **[!UICONTROL Méthode d’évaluation]** de la liste de segments.
+Vous pouvez afficher la méthode d’évaluation pour chaque segment dans la colonne **[!UICONTROL Méthode d’évaluation]** de la liste des segments.
 
 Une fois que vous avez défini un segment pour la première fois, les profils sont ajoutés à l’audience lorsqu’ils remplissent les critères.
 
-Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience dépassée, elle est constamment tenue à jour et toujours prête pour le ciblage.
+Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
