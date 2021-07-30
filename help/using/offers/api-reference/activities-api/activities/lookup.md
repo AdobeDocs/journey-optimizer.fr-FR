@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Recherche d’une décision
 
-Vous pouvez rechercher des décisions spécifiques (précédemment appelées activités d’offre) en adressant une requête GET à l’API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de la décision dans le chemin de la requête.
+Vous pouvez rechercher des décisions spécifiques (auparavant appelées activités d&#39;offres) en exécutant une requête GET sur l&#39;API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de l&#39;activité dans le chemin de la requête.
 
 **Format d&#39;API**
 
