@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 78%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], vous devez :
 
 * **Définir des autorisations d&#39;utilisateur** : connectez-vous à [!DNL Adobe Journey Optimizer] et accordez l&#39;accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
 
-* **Déployer[!DNL Adobe Experience Manager Assets Essentials]**: pour gérer les ressources et les images dans vos messages, vous devez déployer  [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs, qui doivent accéder à  [!DNL Assets Essentials], font partie des profils  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
+* **Déployer[!DNL Adobe Experience Manager Assets Essentials]** : pour gérer les ressources et les images dans vos messages, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs, qui doivent accéder à [!DNL Assets Essentials], font partie des profils **Assets Essentials Consumer Users** et/ou **Assets Essentials Users Product**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}
 
 * **Configurer vos canaux** : définissez les paramètres de vos e-mails et de vos notifications push. [En savoir plus](../using/configuration/get-started-configuration.md)
 
@@ -36,7 +36,7 @@ Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], vous devez :
 
    * Découvrez comment prévisualiser et créer un jeu de données dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr).{target=&quot;_blank&quot;}
 
-   * Découvrez comment créer un espace de noms d’identité dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}
+   * Découvrez comment créer un espace de noms d&#39;identité dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}
 
    * Découvrez comment créer des profils de test dans [cette page](../using/building-journeys/creating-test-profiles.md)
 
@@ -57,4 +57,4 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours et e
 
 * **Créer des parcours** : envoyez des messages, utilisez des données contextuelles, affinez les audiences, concevez et exécutez des cas d&#39;utilisation à plusieurs étapes. [En savoir plus](building-journeys/journey.md)
 
-* **Surveillez les messages et les parcours** : contrôler l’exécution des messages, vérifier les rapports des messages et des parcours, suivre les mesures de délivrabilité. [En savoir plus](message-monitoring.md)
+* **Surveiller les messages et les parcours** : contrôlez l&#39;exécution des messages, vérifiez les rapports de message et de parcours, et assurez le suivi des mesures de délivrabilité. [En savoir plus](message-monitoring.md)
