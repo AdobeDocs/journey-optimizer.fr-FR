@@ -7,13 +7,13 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 25%
+ht-degree: 97%
 
 ---
 
 # Prise en main des schémas {#schemas-gs}
 
-Les schémas sont la manière standard de décrire les données en Experience Platform, ce qui permet à toutes les données conformes aux schémas d’être réutilisées au sein d’une organisation sans conflit, voire partagées entre plusieurs organisations.
+Les schémas sont la manière standard de décrire les données dans Experience Platform. Ils permettent à toutes les données conformes aux schémas d’être réutilisables sans conflit au sein d’une organisation et même d’être partagées entre plusieurs organisations.
 
 ➡️ [Découvrez comment créer et configurer un schéma](#video-schema) (vidéo)
 
@@ -27,20 +27,20 @@ L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Jour
 
 Découvrez comment utiliser l’interface utilisateur des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 
-La documentation étape par étape pour créer un schéma à l’aide de l’éditeur de schémas est disponible dans [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target=&quot;_blank&quot;}.
+La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible dans [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target=&quot;_blank&quot;}.
 
 
 ## Vidéo pratique{#video-schema}
 
-Découvrez comment créer un schéma, ajouter des groupes de champs, créer et configurer des groupes de champs personnalisés.
+Découvrez comment créer un schéma, ajouter des groupes de champs, et créer et configurer des groupes de champs personnalisés.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 **Voir également**
 
-* [Créer un schéma, un jeu de données et ingérer des données pour ajouter des profils de test dans Journey Optimizer](building-journeys/creating-test-profiles.md)
+* [Création d’un schéma, d’un jeu de données et ingestion des données pour ajouter des profils de test dans Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}
-* [Bonnes pratiques pour la modélisation des données](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;}
-* [Créez un schéma à l’aide de l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}
-* [Définition d’une relation entre deux schémas à l’aide de l’éditeur de schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target=&quot;_blank&quot;}
+* [Bonnes pratiques pour la modélisation des données](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=fr){target=&quot;_blank&quot;}
+* [Création d’un schéma à l’aide de l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=fr){target=&quot;_blank&quot;}
+* [Définition d’une relation entre deux schémas à l’aide de l’éditeur de schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=fr){target=&quot;_blank&quot;}
 
