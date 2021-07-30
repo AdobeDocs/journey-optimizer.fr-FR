@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -72,9 +72,9 @@ Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux 
 
 Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et définir une durée **[!UICONTROL Temporisation et erreur]** si vous êtes administrateur.
 
-Pour les parcours en direct, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
+Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
 
-La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : UID JourneyVersion, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
+La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : UID JourneyVersion, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
@@ -86,7 +86,7 @@ Lorsqu&#39;un parcours prend fin, le statut **[!UICONTROL Fermé]** lui est attr
 
 Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
-### Délai dépassé et erreur dans les activités de parcours {#timeout_and_error}
+### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
 Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d&#39;erreur ou de temporisation. Si la durée de traitement de l&#39;activité qui interroge un système tiers dépasse la durée de temporisation définie dans les propriétés du parcours (champ **[!UICONTROL Temporisation et erreur]**), le deuxième chemin d&#39;accès est choisi pour effectuer une éventuelle action de remplacement.
 
@@ -98,7 +98,7 @@ Les parcours utilisent également une temporisation globale. Pour plus d&#39;inf
 
 ### Temporisation de parcours globale {#global_timeout}
 
-Outre le [délai d’expiration](#timeout_and_error) utilisé dans les activités de parcours, il existe également un délai d’expiration de parcours global qui n’est pas affiché dans l’interface et ne peut pas être modifié. Cette valeur de temporisation mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 30 jours. Après cette période de temporisation de 30 jours, les données le concernant sont supprimées. Les individus qui sont encore actifs dans le parcours au terme de cette période de temporisation sont arrêtés et considérés comme des « erreurs » dans le cadre du reporting.
+Outre la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, il existe une temporisation globale qui n&#39;est pas affichée dans l&#39;interface et qui ne peut pas être modifiée. Cette valeur de temporisation mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 30 jours. Après cette période de temporisation de 30 jours, les données le concernant sont supprimées. Les individus qui sont encore actifs dans le parcours au terme de cette période de temporisation sont arrêtés et considérés comme des « erreurs » dans le cadre du reporting.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Limites :
 
 Remarque importante :
 
-Si l’une des exigences n’est pas remplie, le mode d’éclatement n’est pas disponible dans le parcours.
+Si l&#39;une des exigences n&#39;est pas remplie, le mode rafale ne sera pas disponible dans le parcours.
 
 Pour activer le mode rafale, ouvrez votre parcours et cliquez sur l&#39;icône en forme de crayon, en haut à droite, pour accéder aux propriétés du parcours. Activez ensuite le bouton d&#39;activation/de désactivation **Activer le mode rafale**.
 
@@ -153,7 +153,7 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
 * Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
 * Un parcours basé sur un segment « unique » qui a terminé son exécution.
-* Après la dernière occurrence d’un parcours basé sur un segment récurrent.
+* Après la dernière occurrence d&#39;un parcours récurrent basé sur un segment.
 
 Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
