@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Dans cet exemple, nous allons créer un segment pour cibler tous les clients ré
 
    ![](../assets/create-segment.png)
 
-   L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. Découvrez comment configurer des segments dans la [documentation Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target=&quot;_blank&quot;}.
+   L’écran de définition de segment vous permet de configurer tous les champs à paramétrer. Découvrez comment configurer des segments dans la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
    ![](../assets/segment-builder.png)
 
