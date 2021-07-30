@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation dans [cette page](../personalization-syntax.md).
 
-➡️ [Découvrez comment utiliser les fonctions d’assistance](#video) (vidéo)
+➡️ [Découvrez comment utiliser les fonctions d&#39;assistance](#video) (vidéo)
 
 Le langage de modèle est utilisé dans les fonctions d&#39;assistance disponibles dans la liste déroulante de personnalisation de l&#39;éditeur d&#39;expression, comme ci-dessous :
 
@@ -75,7 +75,7 @@ Dans l&#39;éditeur d&#39;expression [!DNL Journey Optimizer], les fonctions d&#
         <td><a href="aggregation.md#max">Maximum</a></td><td>Cette fonction renvoie la plus grande de toutes les valeurs sélectionnées dans un tableau.</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset of</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sur-ensemble d’un autre tableau (tableau B), c’est-à-dire si ce tableau A contient tous les éléments du tableau B.</td>
+    <td><a href="arrays-list.md#superset">Superset of</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sur-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
     </tr>
 </table>
 
