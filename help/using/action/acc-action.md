@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour chaque action configurée, une activité d’action est disponible dans la 
 
 ## Conditions préalables
 
-Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Reportez-vous à la [documentation Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target=&quot;_blank&quot;}.
+Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Consultez la [documentation d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target=&quot;_blank&quot;}.
 
 Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Il vous faudra ensuite coller cette payload lors de la configuration de l’action dans Journey Orchestration (voir ci-dessous)
 
