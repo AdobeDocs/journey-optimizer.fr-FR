@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    >[!NOTE]
    >
-   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
@@ -58,7 +58,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
 1. Définissez le champ **[!UICONTROL Taux de limitation]** sur la limite de débit de l’activité de lecture de segment.
 
-   Cette valeur est stockée dans la payload de version parcours. La valeur par défaut est de 17 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 17 000 messages par seconde.
+   Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 17 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 17 000 messages par seconde.
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](../assets/read-segment-schedule.png)
 
-   Par défaut, les segments entrent dans le parcours **[!UICONTROL Dès que possible]**. Si vous souhaitez que le segment rejoigne le parcours à une date/heure spécifique ou de façon récurrente, sélectionnez la valeur de votre choix dans la liste.
+   Par défaut, les segments rejoignent le parcours **[!UICONTROL Le plus tôt possible]**. Si vous souhaitez que le segment rejoigne le parcours à une date/heure spécifique ou de façon récurrente, sélectionnez la valeur de votre choix dans la liste.
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les j
 
    ![](../assets/read-segment-log.png)
 
-Une fois les tests terminés, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
+Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
 >[!NOTE]
 >
