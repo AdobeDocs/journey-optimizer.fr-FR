@@ -20,9 +20,8 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 >[!CAUTION]
 >
 > * La configuration des préréglages de message est limitée aux administrateurs de parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
-   >
-   > 
-* Vous devez effectuer les étapes de configuration E-mail et Push avant de créer des préréglages de message.
+>
+> * Vous devez effectuer les étapes de configuration E-mail et Push avant de créer des préréglages de message.
 
 
 Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages.
