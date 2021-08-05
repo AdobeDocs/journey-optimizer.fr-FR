@@ -5,7 +5,7 @@ feature: Offres
 topic: Intégrations
 role: User
 level: Beginner
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Les fonctionnalités de Decision Management et l’intégration à Adobe Experie
 
 * Decision Management permet également d’améliorer l’expérience de vos clients lorsqu’ils contactent votre équipe d’assistance. Les API Decision Management permettent d’afficher, sur le portail des agents de votre centre d’appels, des informations relatives aux offres échangées par le client ainsi que les meilleures offres suivantes.
 
-   ![](../../assets/call-center.png)
+   ![](../../assets/do-not-localize/call-center.png)
 
 
 ## Glossaire {#glossary}
