@@ -5,9 +5,9 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 2d882b8d10cc642b04705dd924fd2b129f4f78ac
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -27,18 +27,3 @@ Vous pouvez exploiter les segments dans les parcours de différentes manières 
 * Utilisez l’activité d’événement **Qualification du segment** pour faire en sorte que des individus rejoignent un parcours ou y progressent en fonction des entrées et des sorties de segments Adobe Experience Platform. Par exemple, vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et leur envoyer des messages. Pour plus d’informations sur l’utilisation de cette activité, consultez [cette section](../building-journeys/segment-qualification-events.md).
 
 * Créez des **conditions complexes** dans vos parcours à l’aide de l’éditeur d’expression simple ou avancé. En savoir plus dans [cette section](../building-journeys/condition-activity.md#using-a-segment).
-
-## Méthode d’évaluation dans Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
-
-Dans Adobe Journey Optimizer, les audiences sont générées à partir des définitions de segment à l’aide de l’une des méthodes d’évaluation suivantes :
-
-* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données affluent dans le système.
-* Segmentation par lots : la liste des audiences du segment est mise à jour toutes les heures, en fonction des données arrivées au cours de la dernière heure.
-
-Le système détermine la segmentation par lots et la segmentation par flux pour chaque définition de segment, en fonction de la complexité et du coût de l’évaluation de la règle de segment.
-
-Vous pouvez afficher la méthode d’évaluation pour chaque segment dans la colonne **[!UICONTROL Méthode d’évaluation]** de la liste des segments.
-
-Une fois que vous avez défini un segment pour la première fois, les profils sont ajoutés à l’audience lorsqu’ils remplissent les critères.
-
-Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
