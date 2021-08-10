@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
       + [Publication de messages](using/publish-manage-message.md)
    + [Gestion de la désinscription](using/consent.md)
 + Personnalisation{#personalization}
-   + [Prise en main    de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main     de la personnalisation](using/personalization/personalize.md)
    + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
    + [Validation de la personnalisation](using/personalization/personalization-validation.md)
    + Cas d&#39;utilisation{#personalization-use-cases}
@@ -120,9 +120,9 @@ ht-degree: 98%
       + [Prise en main de la délivrabilité](using/deliverability.md)
       + [Liste de suppression](using/suppression-list.md)
       + [Liste autorisée](using/allow-list.md)
-+ Decision Management {#offer-decisioniong}
-   + Prise en main de Decision Management {#get-started}
-      + [À propos de Decision Management](using/offers/get-started/starting-offer-decisioning.md)
++ Gestion des décisions {#offer-decisioniong}
+   + Prise en main de la gestion des décisions {#get-started}
+      + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface utilisateur](using/offers/get-started/user-interface.md)
       + [Étapes clés de création et de gestion des offres](using/offers/offer-library/key-steps.md)
       + [Cas d&#39;utilisation : insertion d&#39;offres dans un e-mail](using/offers/offers-e2e.md)
@@ -138,8 +138,8 @@ ht-degree: 98%
    + Création et gestion des décisions {#create-manage-activities}
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configuration de la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
-   + Créer des rapports de gestion des décisions {#create-reports}
-      + [Prise en main des événements Decision Management](using/offers/reports/get-started-events.md)
+   + Création de rapports de gestion de décisions {#create-reports}
+      + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
    + Export de votre catalogue d&#39;offres {#export-catalog}
