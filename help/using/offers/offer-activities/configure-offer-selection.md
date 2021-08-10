@@ -8,14 +8,14 @@ level: Intermediate
 source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Configuration de la sélection des offres dans les décisions {#offers-selection-in-activities}
 
-Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d’une décision (précédemment appelée activité d’offre). Vous pouvez classer les offres par :
-* Priorité d’offre
+Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision (précédemment appelée « activité d&#39;offre »). Vous pouvez classer les offres par :
+* Priorité des offres
 * Formule de classement
 
 ## Priorité d’offre {#about-offers-priority}
@@ -24,7 +24,7 @@ Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné
 
 ![](../../assets/offer-priority.png)
 
-Les scores de priorité des offres sont attribués lors de la création d’une offre. Découvrez comment créer une offre personnalisée dans [cette section](../offer-library/creating-personalized-offers.md).
+Les scores de priorité d&#39;une offre sont attribués lors de sa création. Découvrez comment créer une offre personnalisée dans [cette section](../offer-library/creating-personalized-offers.md).
 
 ## Formule de classement {#assign-ranking-formula}
 
@@ -36,7 +36,7 @@ Découvrez comment créer une formule de classement dans [cette section](../offe
 
 Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un emplacement dans une décision (auparavant appelée activité d&#39;offre). Pour ce faire, procédez comme suit :
 
-1. Créez une décision ou modifiez une décision existante. Voir [Créer des décisions](../offer-activities/create-offer-activities.md).
+1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 
 1. Ajoutez les emplacements qui contiendront vos offres. Voir [Créer des emplacements](../offer-library/creating-placements.md).
 
