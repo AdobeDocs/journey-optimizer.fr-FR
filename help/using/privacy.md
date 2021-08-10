@@ -1,5 +1,5 @@
 ---
-title: 'Confidentialité   in [!DNL Journey Optimizer] '
+title: 'Confidentialité    in [!DNL Journey Optimizer] '
 description: Découvrez comment gérer la confidentialité.
 topic: Confidentialité
 role: User
@@ -7,7 +7,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,16 +45,16 @@ La gestion de la confidentialité se rapporte à tous les processus et outils qu
 
 De ce fait, pour gérer correctement la confidentialité et les données personnelles, vous devez travailler dans le cadre des législations applicables aux zones géographiques où vous intervenez. Ces règlements incluent :
 
-* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Règlement général européen sur la protection des données)
+* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_fr) (Règlement général européen sur la protection des données)
 * [DPA](https://www.gov.uk/data-protection) (mise en œuvre du RGPD au Royaume-Uni)
-* [Directive européenne sur la protection de la vie privée et les communications électroniques](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
+* [Directive européenne sur la protection de la vie privée et les communications électroniques](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (loi des États-Unis fixant les règles et les exigences relatives aux emails commerciaux)
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (loi thaïlandaise sur la protection des données personnelles)
 
 [!DNL Journey Optimizer] hérite de la plupart des modifications apportées au jeu de données dans Adobe Experience Platform.
 
-Par conséquent, les demandes d’accès à des informations personnelles (droit d’accès et droit à l’oubli) sont gérées via Experience Platform. Vous devez envoyer vos requêtes à l’aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target=&quot;_blank&quot;}, puis sélectionner **Profil** et **Lac de données AEP** dans la liste de produits lorsque vous [créez votre requête de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
+Par conséquent, les demandes d’accès à des informations personnelles (droit d’accès et droit à l’oubli) sont gérées via Experience Platform. Vous devez envoyer vos requêtes à l’aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target=&quot;_blank&quot;}, puis sélectionner **Profil** et **Lac de données AEP** dans la liste de produits lorsque vous [créez votre requête de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
