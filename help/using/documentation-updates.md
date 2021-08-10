@@ -4,7 +4,7 @@ description: En savoir plus sur les mises de la documentation la plus récente
 source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Nouveau cas d’utilisation : [personnaliser un message avec des fonctions helper](personalization/personalization-use-case-helper-functions.md)
 * Mise à jour de la documentation Lecture de segment pour prendre en compte les impacts sur les segments matérialisés. [En savoir plus](building-journeys/read-segment.md)
 * Mise à jour des limites de parcours. [En savoir plus](building-journeys/limitations.md)
-* Mise à jour de la section &quot;Configurer la sélection des offres dans les décisions&quot;. [En savoir plus](offers/offer-activities/configure-offer-selection.md)
-* Ajout d’un avertissement indiquant que les offres basées sur un événement ne sont actuellement pas prises en charge. [En savoir plus](offers/offer-library/creating-personalized-offers.md#eligibility)
+* Mise à jour de la section Configuration de la sélection des offres dans les décisions. [En savoir plus](offers/offer-activities/configure-offer-selection.md)
+* Ajout d&#39;un avertissement indiquant que les offres basées sur un événement ne sont actuellement pas prises en charge. [En savoir plus](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Le nouvel onglet [!UICONTROL Aperçu] de la gestion des décisions a été documenté. [En savoir plus](offers/get-started/user-interface.md#overview)
-* De nouvelles sections ont été ajoutées pour décrire les actions disponibles dans les listes d’offres et de décisions : [Liste des offres](offers/offer-library/creating-personalized-offers.md#offer-list) et [Liste des décisions](offers/offer-activities/create-offer-activities.md#decision-list).
+* De nouvelles sections ont été ajoutées pour décrire les actions disponibles dans les listes des offres et des décisions : [Liste des offres](offers/offer-library/creating-personalized-offers.md#offer-list) et [Liste des décisions](offers/offer-activities/create-offer-activities.md#decision-list).
