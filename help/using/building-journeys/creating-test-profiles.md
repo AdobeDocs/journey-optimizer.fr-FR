@@ -44,9 +44,8 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
    >[!NOTE]
    >
    >* Cliquez sur le nom du schéma pour le modifier et mettre à jour ses propriétés.
-      >
-      >
-   * Cliquez sur le bouton **[!UICONTROL Ajouter]** dans la section Groupes de champs pour sélectionner d&#39;autres groupes de champs à ajouter au schéma.
+   >
+   >* Cliquez sur le bouton **[!UICONTROL Ajouter]** dans la section Groupes de champs pour sélectionner d&#39;autres groupes de champs à ajouter au schéma.
 
 
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l&#39;identité principale.
