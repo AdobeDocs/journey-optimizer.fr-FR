@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    >[!NOTE]
    >
-   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpr%C3%A9tation-des-r%C3%A9sultats-de-segmentation){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
@@ -56,13 +56,13 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
    >
    >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours.
 
-1. Définissez le champ **[!UICONTROL Taux de limitation]** sur la limite de débit de l’activité de lecture de segment.
+1. Définissez le champ **[!UICONTROL Taux de limitation]** sur la limite du débit de l’activité Lecture de segment.
 
-   Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 17 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 17 000 messages par seconde.
+   Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 17 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 17 000 messages par seconde.
 
    >[!NOTE]
    >
-   >Le taux de ralentissement global par environnement de test est défini sur 17 000 messages par seconde. Par conséquent, le taux de ralentissement de tous les segments lus qui s’exécutent simultanément dans le même environnement de test s’élève à 17 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
+   >Le taux de limitation global par environnement Sandbox est défini sur 17 000 messages par seconde. Par conséquent, le taux de limitation de toutes les lectures de segment qui s&#39;exécutent simultanément dans le même environnement Sandbox s&#39;élève à 17 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
 1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
 
