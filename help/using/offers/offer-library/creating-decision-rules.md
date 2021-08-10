@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Nommez votre règle et fournissez une description, puis configurez-la en fonction de vos besoins.
 
-   Pour ce faire, le **créateur de segments** est disponible pour vous aider à créer les conditions de la règle. [En savoir plus](../../segment/about-segments.md)
+   Pour ce faire, le **Créateur de segments** est disponible pour vous aider à créer les conditions de la règle. [En savoir plus](../../segment/about-segments.md)
 
    Dans cet exemple, la règle cible les clients qui ont le niveau de fidélité « Or ».
 
@@ -50,7 +50,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 >[!CAUTION]
 >
->Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, vous ne pourrez pas l’exploiter dans une offre.
+>Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target=&quot;_blank&quot;}, vous ne pourrez pas l&#39;exploiter dans une offre.
 
 ## Tutoriel vidéo {#video}
 
