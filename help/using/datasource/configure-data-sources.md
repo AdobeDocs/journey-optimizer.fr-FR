@@ -1,5 +1,5 @@
 ---
-title: Configurer une source de données
+title: Configuration d'une source de données
 description: Découvrez comment configurer une source de données.
 feature: Sources de données
 topic: Administration
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
