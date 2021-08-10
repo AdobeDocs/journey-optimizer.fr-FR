@@ -35,13 +35,11 @@ Une fois que vous avez [créé votre message](create-message.md), vous pouvez co
 ## Créer en partant de zéro {#design-scratch}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_structure_components"
 >title="À propos des composants de structure"
 >abstract="Les composants de structure définissent la disposition de votre email."
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_columns"
 >title="Définition des colonnes de l’email"
 >abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
@@ -137,14 +135,14 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 >[!CAUTION]
 >
 >* Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne sont pas reflétées dans la vue HTML.
->
->* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
+   >
+   >
+* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
 
 
 ## Utiliser un pré-titre {#preheader}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_preheader"
 >title="Utilisation d’un pré-titre"
 >abstract="Le pré-titre vous permet de configurer un texte de résumé court vous aidant à mieux suivre et personnaliser vos emails."
@@ -180,7 +178,6 @@ Votre pré-titre est maintenant configuré pour votre e-mail.
 ## Paramètres d&#39;arrière-plan {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_backgroundimage"
 >title="Paramètres d&#39;arrière-plan"
 >abstract="Le Concepteur d’email vous permet de personnaliser la couleur ou l’image de fond de votre contenu. Notez que l’image de fond n’est pas prise en charge par tous les clients de messagerie."
