@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ La bibliothèque des offres vous permet de créer et de gérer vos emplacements 
 
 Utilisez le menu **[!UICONTROL Offres]** pour gérer les offres personnalisées et de secours, les organiser en collections et les diffuser en créant des décisions :
 
-* **[!UICONTROL Aperçu]** : Vous découvrez  [!DNL Offer Decisioning]? Suivez les étapes à l’écran pour commencer à configurer des emplacements, des offres et des collections. Lorsque vous connaissez déjà [!DNL Offer Decisioning], consultez la présentation de vos offres, collections et décisions les plus récentes. Voir [Aperçu](#overview).
+* **[!UICONTROL Aperçu]** : vous découvrez [!DNL Offer Decisioning] ? Suivez les étapes à l’écran pour commencer à configurer des emplacements, des offres et des collections. Lorsque vous connaissez déjà [!DNL Offer Decisioning], consultez l&#39;aperçu de vos offres, collections et décisions les plus récentes. Voir [Aperçu](#overview).
 
 * **[!UICONTROL Offres]** : accédez à vos offres personnalisées et de secours ou créez-en de nouvelles. Voir [Création d&#39;une offre](../offer-library/creating-personalized-offers.md) et [Création d&#39;une offre de secours](../offer-library/creating-fallback-offers.md).
 
@@ -42,13 +42,13 @@ Utilisez le menu **[!UICONTROL Composants]** pour gérer les composants requis a
 
 ## Présentation {#overview}
 
-Lorsque vous découvrez [!DNL Offer Decisioning], l’onglet **[!UICONTROL Aperçu]** vous guide tout au long des principales étapes nécessaires pour commencer à créer votre première décision d’offre.
+Lorsque vous découvrez [!DNL Offer Decisioning], l&#39;onglet **[!UICONTROL Aperçu]** vous guide tout au long des principales étapes nécessaires pour commencer à créer votre première décision d&#39;offre.
 
 ![](../../assets/overview_onboarding.png)
 
 Suivez les étapes à l’écran pour commencer à créer des emplacements, des offres et des collections.
 
-Une fois que vous avez terminé ces premières étapes, vous êtes invité à créer des décisions d’offre (précédemment appelées activités d’offre).
+Une fois que vous avez terminé ces premières étapes, vous êtes invité à créer des décisions d&#39;offre (précédemment appelées « activités d&#39;offre »).
 
 ![](../../assets/overview_collection-created.png)
 
@@ -56,11 +56,11 @@ Une fois que vous avez terminé ces premières étapes, vous êtes invité à cr
 >
 >Les principales étapes pour créer des offres et les utiliser dans une décision sont présentées dans [cette section](../offer-library/key-steps.md).
 
-Lorsque vous connaissez mieux [!DNL Offer Decisioning] et que vous avez déjà créé au moins une décision d’offre, l’onglet **[!UICONTROL Aperçu]** affiche vos offres, collections et décisions les plus récentes.
+Lorsque vous connaissez mieux [!DNL Offer Decisioning] et que vous avez déjà créé au moins une décision d&#39;offre, l&#39;onglet **[!UICONTROL Aperçu]** affiche vos offres, collections et décisions les plus récentes.
 
-Cliquez sur une offre ou une décision pour accéder directement aux détails de l’élément sélectionné.
+Cliquez sur une offre ou une décision pour accéder directement aux détails de l&#39;élément sélectionné.
 
-Cliquez sur le bouton **[!UICONTROL Afficher tout]** pour accéder aux listes d’offres, de collections ou de décisions.
+Cliquez sur le bouton **[!UICONTROL Afficher tout]** pour accéder aux listes d&#39;offres, de collections ou de décisions.
 
 ![](../../assets/overview_view-all.png)
 
