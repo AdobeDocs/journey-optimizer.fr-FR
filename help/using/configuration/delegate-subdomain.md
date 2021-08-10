@@ -18,14 +18,14 @@ level: Intermediate
 source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Délégation d&#39;un sous-domaine
 
-La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En fait, si un client traite la zone &quot;exemple.com&#39;&#39;, il peut déléguer la sous-zone &quot;marketing.exemple.com&quot; à Adobe.
+La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En fait, si un client traite la zone « exemple.com », il peut déléguer la sous-zone « marketing.exemple.com » à Adobe.
 
 En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les clients peuvent compter sur Adobe pour gérer l&#39;infrastructure DNS requise afin de répondre aux exigences de délivrabilité standard de leurs domaines de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de leurs domaines de messagerie internes.
 
@@ -49,9 +49,9 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    >[!CAUTION]
    >
-   >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votreentreprise.com.
+   >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
    >
-   >Notez que les sous-domaines à plusieurs niveaux tels que email.marketing.votreentreprise.com ne sont actuellement pas pris en charge.
+   >Veuillez noter que les sous-domaines à plusieurs niveaux tels que email.marketing.votre_entreprise.com ne sont actuellement pas pris en charge.
 
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
 
