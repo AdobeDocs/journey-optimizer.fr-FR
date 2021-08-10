@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -121,13 +121,13 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    ![](assets/send-proof-button.png)
 
-1. Dans la fenêtre **[!UICONTROL Envoyer le BAT]** , saisissez les profils de test en plus de l&#39;email du destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de votre organisation.
+1. Dans la fenêtre **[!UICONTROL Envoyer le BAT]**, saisissez les profils de test en plus de l&#39;e-mail du destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de votre organisation.
 
-   Vous pouvez ajouter jusqu’à 10 destinataires pour la diffusion de votre BAT.
+   Vous pouvez ajouter jusqu&#39;à 10 destinataires pour la diffusion de votre BAT.
 
    ![](assets/send-proof-button_2.png)
 
-1. Sélectionnez ensuite les profils de test qui recevront le BAT et cliquez sur **[!UICONTROL Envoyer le BAT]**. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, par exemple . - _ ( ) [ ], sont autorisés comme préfixe à l’objet.
+1. Ensuite, sélectionnez les profils de test qui recevront le BAT et cliquez sur **[!UICONTROL Envoyer le BAT]**. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, par exemple . - _ ( ) [ ], sont autorisés comme préfixe à l&#39;objet.
 
    ![](assets/send-proof-select.png)
 
