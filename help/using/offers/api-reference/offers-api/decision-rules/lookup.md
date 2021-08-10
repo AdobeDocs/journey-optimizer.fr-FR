@@ -8,11 +8,11 @@ level: Experienced
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Recherche d’une décision rules
+# Recherche d’une règle  De décision
 
 Vous pouvez rechercher une règle de décision spécifique en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit la règle de décision `@id` soit le nom de la règle de décision dans le chemin de la requête.
 
