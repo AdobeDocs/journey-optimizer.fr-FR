@@ -5,10 +5,10 @@ feature: Parcours
 topic: Gestion de contenu
 role: User
 level: Intermediate
-source-git-commit: a2aed1dbfa53aee6f5fe0aeec52773d22bc4ed29
+source-git-commit: 1f93158f89e7e05e8e7978960f09cc7e1d4cdc7a
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 98%
 
 ---
 
