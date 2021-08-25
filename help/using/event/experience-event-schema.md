@@ -1,14 +1,14 @@
 ---
 title: À propos des schémas ExperienceEvent pour les événements de parcours
 description: En savoir plus sur les schémas ExperienceEvent pour les événements de parcours
-feature: Schémas
+feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 97%
 
 ---
 
@@ -72,14 +72,14 @@ Voici le schéma d&#39;achat avec la relation définie dans le champ Identifiant
 
 Dans Journey Optimizer, vous pouvez ensuite exploiter tous les champs des tables liées :
 
-* lors de la configuration d&#39;un événement unitaire, [En savoir plus](../event/experience-event-schema.md#unitary_event_configuration)
+* lors de la configuration d’un événement d’entreprise ou unitaire, [En savoir plus](../event/experience-event-schema.md#unitary_event_configuration)
 * lors de l&#39;utilisation de conditions dans un parcours, [En savoir plus](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * dans la personnalisation des messages, [En savoir plus](../event/experience-event-schema.md#message_personalization)
 * dans la personnalisation d&#39;actions personnalisées, [En savoir plus](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configuration d&#39;événements unitaires{#unitary_event_configuration}
+### Configuration des événements{#unitary_event_configuration}
 
-Les champs de schéma liés sont disponibles dans la configuration d&#39;événements unitaires :
+Les champs de schéma associés sont disponibles dans la configuration unitaire et des événements métier :
 
 * lorsque vous parcourez les champs de schéma d&#39;événement dans l&#39;écran de configuration des événements ;
 * lors de la définition d&#39;une condition pour les événements générés par le système.
@@ -89,8 +89,7 @@ Les champs de schéma liés sont disponibles dans la configuration d&#39;événe
 Les champs liés ne sont pas disponibles :
 
 * dans la formule de clé d&#39;événement ;
-* dans la condition d&#39;identifiant d&#39;événement (événements basés sur des règles) ;
-* dans les événements métier (à venir ultérieurement).
+* dans la condition d&#39;identifiant d&#39;événement (événements basés sur des règles).
 
 Pour savoir comment configurer un événement unitaire, consultez cette [page](../event/about-creating.md).
 
