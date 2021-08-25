@@ -1,7 +1,7 @@
 ---
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
-source-git-commit: 932a95691e80267a581072b3fa0b81ad108117a3
+source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 50%
@@ -25,7 +25,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’une nouvelle section pour décrire comment récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. [En savoir plus](allow-list.md#reporting)
 * Mise à jour de la section Activer la liste autorisée . [En savoir plus](allow-list.md#enable-allow-list)
 * Mise à jour de la section Surveillance des paramètres prédéfinis du message avec les raisons possibles d’échec de la création des paramètres prédéfinis et des détails sur ces erreurs. [En savoir plus](configuration/message-presets.md#monitor-message-presets)
-* Mise à jour et changement du nom de la section Période des reprises afin de tenir compte du fait que vous pouvez désormais ajuster le paramètre de nouvelle tentative d’email dans les paramètres prédéfinis du message. [En savoir plus](configuration/retries.md)
+* Mise à jour et changement du nom de la section Période des reprises afin de tenir compte du fait que vous pouvez désormais ajuster le paramètre de nouvelle tentative d’email dans les paramètres prédéfinis du message. [En savoir plus](configuration/retries.md#retry-duration)
 * Ajout d’une nouvelle section décrivant comment insérer un lien d’exclusion d’un clic dans le contenu d’un email. [En savoir plus](message-tracking.md#one-click-opt-out-link)
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
