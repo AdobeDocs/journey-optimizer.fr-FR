@@ -2,13 +2,13 @@
 title: Rapport dynamique sur les emails
 description: Découvrez comment utiliser les données du rapport dynamique sur les emails
 feature: Reporting
-topic: Gestion de contenu
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 79%
 
 ---
 
@@ -56,4 +56,10 @@ Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de 
 
 * **[!UICONTROL Soft bounces]** : nombre total d&#39;erreurs temporaires, telles qu&#39;une boîte de réception pleine.
 
-* **[!UICONTROL Ignorées]** : nombre total d’erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d’expéditeur est administrateur).
+* **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
+
+>[!NOTE]
+>
+>Les profils avec le statut **[!UICONTROL Supprimés]** ou **[!UICONTROL Non autorisés]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
+>
+>Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
