@@ -5,10 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 57%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -77,7 +77,7 @@ Lorsque la liste autorisée n&#39;est **pas vide**, la logique de liste autoris�
 
 ## Rapport d’exclusion {#reporting}
 
-Lorsque cette fonction est activée sur un environnement de test hors production, vous pouvez récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) pour effectuer les appels API ci-dessous.
+Lorsque cette fonction est activée sur un environnement de test hors production, vous pouvez récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} pour effectuer les appels d’API ci-dessous.
 
 Pour obtenir le **nombre d&#39;emails** qui n&#39;ont pas été envoyés car les destinataires n&#39;étaient pas sur la liste autorisée, utilisez la requête suivante :
 
