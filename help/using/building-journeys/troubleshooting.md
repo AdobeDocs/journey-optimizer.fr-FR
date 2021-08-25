@@ -1,14 +1,14 @@
 ---
 title: Dépannage de parcours
 description: Découvrez comment résoudre les erreurs dans les parcours
-feature: Parcours
-topic: Gestion de contenu
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1058'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ En tant qu&#39;administrateur, vous devez vérifier les points suivants :
 * La payload d&#39;événement contient-elle un identifiant d&#39;événement ?
 * Avez-vous atteint la bonne URL ?
 * Avez-vous appliqué la structure de payload des API d&#39;ingestion en flux continu en utilisant l&#39;aperçu de la structure de payload dans le volet de configuration des événements ? Voir [cette page](../event/about-creating.md#preview-the-payload).
-* Avez-vous utilisé les paires clé/valeur appropriées dans l&#39;en-tête de l&#39;événement ?
+* Avez-vous utilisé les paires clé-valeur appropriées dans l’en-tête de votre événement ?
 
    ```
    X-gw-ims-org-id - your ORGID
