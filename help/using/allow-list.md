@@ -1,14 +1,14 @@
 ---
 title: Liste autorisée
 description: Découvrez comment utiliser la liste autorisée.
-feature: Délivrabilité
-topic: Gestion de contenu
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e2743c8fa624a7a95b12c3adb5dc17a1b632c25d
+source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 86%
+source-wordcount: '564'
+ht-degree: 57%
 
 ---
 
@@ -24,18 +24,17 @@ La liste autorisée vous permet de spécifier des adresses e-mail ou des domaine
 
 ## Activation de la liste autorisée {#enable-allow-list}
 
-Pour activer cette fonction sur un environnement de test hors production, mettez à jour la liste autorisée afin qu’elle ne soit plus vide. Pour le désactiver, effacez la liste autorisée afin qu’elle soit à nouveau vide.
+Pour activer la liste autorisée sur un environnement de test hors production, vous devez mettre à jour les paramètres généraux à l’aide du point de terminaison API correspondant dans le service de paramètres prédéfinis de message.
 
-Pour en savoir plus sur la logique de liste autorisée, consultez [cette section](#logic).
+* Grâce à cette API, vous pouvez également désactiver la fonctionnalité à tout moment.
 
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+* Vous pouvez mettre à jour la liste autorisée avant ou après l’activation de la fonction.
 
-* Using this API, you can also disable the feature at any time.
+* La logique de liste autorisée s’applique lorsque la fonction est activée **et** si la liste autorisée est **non** vide. En savoir plus dans [cette section](#logic).
 
-* You can update the allowed list before or after enabling the feature.
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
@@ -54,7 +53,9 @@ Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 >
 >La liste autorisée peut contenir jusqu&#39;à 1 000 entrées.
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## Logique de liste autorisée {#logic}
 
@@ -68,6 +69,31 @@ Lorsque la liste autorisée n&#39;est **pas vide**, la logique de liste autoris�
 
 * Si une entité est **sur la liste autorisée** et pas sur la liste de suppression, l&#39;e-mail peut être envoyé au destinataire correspondant. Cependant, si l&#39;entité figure également dans la [liste de suppression](suppression-list.md), le destinataire correspondant ne recevra pas l&#39;e-mail, la raison étant **[!UICONTROL Supprimé]**.
 
+>[!NOTE]
+>
+>Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](building-journeys/read-segment.md) et [Message](building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
+>
+>En savoir plus sur [Rapport dynamique](reports/live-report.md) et [Rapport global](reports/global-report.md).
 
+## Rapport d’exclusion {#reporting}
 
+Lorsque cette fonction est activée sur un environnement de test hors production, vous pouvez récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) pour effectuer les appels API ci-dessous.
+
+Pour obtenir le **nombre d&#39;emails** qui n&#39;ont pas été envoyés car les destinataires n&#39;étaient pas sur la liste autorisée, utilisez la requête suivante :
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+Pour obtenir la **liste des adresses email** qui n&#39;ont pas été envoyées car les destinataires n&#39;étaient pas sur la liste autorisée, utilisez la requête suivante :
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
 
