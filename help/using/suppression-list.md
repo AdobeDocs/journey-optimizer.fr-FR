@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '701'
 ht-degree: 74%
 
 ---
@@ -55,7 +55,7 @@ Pour chaque adresse, la raison de base de la suppression et la catégorie de sup
 >
 >Les profils ayant le statut **[!UICONTROL Supprimés]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](building-journeys/read-segment.md) et [Message](building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
 >
->En savoir plus sur [Rapport dynamique](reports/live-report.md) et [Rapport global](reports/global-report.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
+>En savoir plus sur [Rapport dynamique](reports/live-report.md) et [Rapport global](reports/global-report.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
 ### Échecs de diffusion {#delivery-failures}
 
