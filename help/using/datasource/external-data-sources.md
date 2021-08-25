@@ -1,14 +1,14 @@
 ---
 title: 'Sources de données externes '
 description: Découvrez comment configurer des sources de données externes
-feature: Sources de données
+feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 100%
+source-wordcount: '1308'
+ht-degree: 93%
 
 ---
 
@@ -114,10 +114,10 @@ La définition du point d’entrée à appeler pour générer le jeton d’accè
 
 * endpoint : URL à utiliser pour générer le point d’entrée
 * méthode de la requête HTTP sur le point d’entrée (GET ou POST)
-* headers : paires clé/valeur à injecter en tant qu’en-têtes dans cet appel, le cas échéant
-* body : décrit le corps de l’appel en cas d’utilisation de la méthode POST. Nous prenons en charge une structure de corps limitée, définie dans bodyParams (paires clé/valeur). bodyType décrit le format et le codage du corps dans l’appel :
-   * &#39;form&#39; : signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées comme suit : key1=value1&amp;key2=value2&amp;…
-   * &#39;json&#39; : signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées sous la forme d’un objet json, tel quel : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* headers : paires clé-valeur à injecter en tant qu’en-têtes dans cet appel, le cas échéant
+* body : décrit le corps de l’appel en cas d’utilisation de la méthode POST. Nous prenons en charge une structure de corps limitée, définie dans bodyParams (paires clé-valeur). bodyType décrit le format et le codage du corps dans l’appel :
+   * &#39;form&#39; : Cela signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé-valeur seront sérialisées telles quelles : key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39; : Cela signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé-valeur seront sérialisées sous la forme d’un objet json en l’état : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 La définition de la méthode d’injection du jeton d’accès dans la requête HTTP de l’action :
 
