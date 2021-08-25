@@ -5,7 +5,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 70%
@@ -146,11 +146,9 @@ En cas d’échec de la création d’un paramètre prédéfini de message, les 
 
 Si l’une de ces erreurs se produit, contactez l’[équipe d’assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
 
-* **Échec** de la validation SPF : SPF (Sender Policy Framework) est un protocole d’authentification d’email qui permet de spécifier des adresses IP autorisées pouvant envoyer des emails à partir d’un sous-domaine donné.
-L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les emails aux fournisseurs de messagerie.
+* **Échec** de la validation SPF : SPF (Sender Policy Framework) est un protocole d’authentification d’email qui permet de spécifier des adresses IP autorisées pouvant envoyer des emails à partir d’un sous-domaine donné. L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les emails aux fournisseurs de messagerie.
 
-* **Échec** de la validation DKIM : DKIM permet au serveur destinataire de vérifier que le message reçu a été envoyé par l&#39;expéditeur véritable du domaine associé et que le contenu du message d&#39;origine n&#39;a pas été modifié en cours de route.
-L&#39;échec de validation DKIM signifie que les serveurs de messagerie de réception ne peuvent pas vérifier l&#39;authenticité du contenu du message et son association avec le domaine d&#39;envoi.
+* **Échec** de la validation DKIM : DKIM permet au serveur destinataire de vérifier que le message reçu a été envoyé par l&#39;expéditeur véritable du domaine associé et que le contenu du message d&#39;origine n&#39;a pas été modifié en cours de route. L&#39;échec de validation DKIM signifie que les serveurs de messagerie de réception ne peuvent pas vérifier l&#39;authenticité du contenu du message et son association avec le domaine d&#39;envoi.
 
 * **Échec** de la validation des enregistrements MX : L’échec de validation des enregistrements MX signifie que les serveurs de messagerie chargés d’accepter les emails entrants pour le compte d’un sous-domaine donné ne sont pas correctement configurés.
 
