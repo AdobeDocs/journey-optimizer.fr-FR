@@ -1,14 +1,14 @@
 ---
 title: Interface utilisateur
 description: Interface utilisateur de Journey Optimizer
-feature: Présentation
-topic: Gestion de contenu
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 74%
 
 ---
 
@@ -85,6 +85,9 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Environnements Sandbox]** - Adobe Experience Platform fournit des environnements Sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l&#39;évolution d&#39;applications d&#39;expérience numérique. [En savoir plus](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## Cas d&#39;utilisation internes au produit
 
@@ -94,7 +97,7 @@ Tirez parti des cas d&#39;utilisation [!DNL Adobe Journey Optimizer] de la page 
 
 Les cas d&#39;utilisation disponibles sont les suivants :
 
-* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas pratique [sur cette page](building-journeys/creating-test-profiles.md#use-case-1).
+* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en oeuvre ce cas pratique [sur cette page](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envoyer un message d&#39;anniversaire aux clients** : pour envoyer automatiquement un e-mail afin de souhaiter un bon anniversaire à vos clients. (bientôt disponible)
 * **Envoyer des e-mails pour souhaiter la bienvenue aux nouveaux clients** : pour envoyer facilement jusqu&#39;à deux e-mails afin d&#39;accueillir vos nouveaux clients enregistrés. (bientôt disponible)
 * **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)
@@ -104,6 +107,139 @@ Cliquez sur **[!UICONTROL Afficher les détails]** pour en savoir plus sur chaqu
 Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d&#39;utilisation.
 
 Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **[!UICONTROL Afficher la bibliothèque de cas d&#39;utilisation]**.
+
+## Accessibilité{#accessibility}
+
+Les fonctionnalités d’accessibilité de Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
+
+* Accessibilité à l’aide du clavier
+* Contraste de couleur
+* Validation des champs obligatoires
+
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+
+Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
+
+| Action | Raccourci |
+| --- | --- |
+| Déplacement entre les éléments, sections et groupes de menus de l’interface utilisateur | Tabulation |
+| Revenez en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur. | Maj+Tabulation |
+| Déplacement dans des sections pour définir la cible d’action sur des éléments individuels | Flèche |
+| Sélectionner ou effacer un élément ciblé | Entrée ou Barre d’espacement |
+| Annuler une sélection, réduire un panneau ou fermer une boîte de dialogue | Échap |
+
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+
+Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
+
+<table>
+  <thead>
+    <tr>
+      <th>Elément de l’interface</th>
+      <th>Action</th>
+      <th>Raccourci</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Liste des parcours, actions, sources de données ou événements</td>
+    <td>Créer un parcours, une action, une source de données ou un événement</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Canevas de parcours à l’état préliminaire</td>
+    <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
+    <td>Double-cliquez sur l’activité.</td>
+  </tr>
+  <tr>
+    <td>Sélectionner toutes les activités</td>
+    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Supprimer les activités sélectionnées</td>
+    <td>Supprimer ou Retour arrière, puis Entrée pour confirmer la suppression</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+Volet de configuration de ces éléments :
+
+<ul>
+  <li>Activité dans un parcours</li>
+  <li>Événement</li>
+  <li>Source de données</li>
+  <li>Action</li>
+</ul>
+
+</td>
+    <td>Accéder au champ suivant à configurer</td>
+    <td>Tabulation</td>
+  </tr>
+  <tr>
+    <td>Enregistrez les modifications et fermez le volet de configuration.</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Ignorer les modifications et fermer le volet de configuration</td>
+    <td>Échap</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Parcours en mode test</td>
+    <td>Activation ou désactivation du mode test</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Déclenchement d’un événement dans un parcours basé sur un événement</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+Déclenchez un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Profil unique à la fois]** est activée.
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Afficher les journaux de test</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Champ de texte</td>
+    <td>Sélectionner tout le texte du champ sélectionné</td>
+    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Fenêtre contextuelle</td>
+    <td>Enregistrer les modifications ou confirmer l’action</td>
+    <td>Entrée</td>
+  </tr>
+  <tr>
+    <td>Fermer la fenêtre</td>
+    <td>Échap</td>
+  </tr>
+  <tr>
+    <td>Éditeur d’expression simple</td>
+    <td>Sélection et ajout d’un champ</td>
+    <td>Double-cliquer sur un champ</td>
+  </tr>
+  <tr>
+    <td>Navigation dans les champs XDM</td>
+    <td>Sélectionner tous les champs d’un noeud</td>
+    <td>Sélectionner le noeud parent</td>
+  </tr>
+  <tr>
+    <td>Aperçu de la payload</td>
+    <td>Sélectionner la payload</td>
+    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
+  </tr>
+</table>
 
 ## Obtention d’aide et de support
 
@@ -135,16 +271,17 @@ Pour modifier la langue :
 * Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
    ![](assets/select-language.png)
 
-## Recherche
+## Recherche{#unified-search}
 
-Depuis n&#39;importe où dans l&#39;interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud au centre de la barre supérieure pour rechercher des ressources, des parcours ou des messages dans vos environnements Sandbox. Commencez à saisir du contenu pour afficher les meilleurs résultats.
+N’importe où depuis l’interface de Adobe Journey Optimizer, utilisez la fonctionnalité de recherche Adobe Experience Cloud unifié au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données, des messages, etc. dans vos environnements de test.
+
+Commencez à saisir du contenu pour afficher les meilleurs résultats. Les articles d’aide sur les mots-clés saisis apparaissent également dans les résultats.
 
 ![](assets/unified-search.png)
 
-Appuyez sur **Entrée** pour accéder à tous les résultats et les filtrer.
+Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par objet commercial.
 
 ![](assets/search-and-filter.png)
-
 
 ## Filtrer les listes{#section_lgm_hpz_pgb}
 
