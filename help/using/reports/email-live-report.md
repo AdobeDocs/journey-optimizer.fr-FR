@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 79%
 
 ---
@@ -62,4 +62,4 @@ Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de 
 >
 >Les profils avec le statut **[!UICONTROL Supprimés]** ou **[!UICONTROL Non autorisés]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
 >
->Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
+>Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
