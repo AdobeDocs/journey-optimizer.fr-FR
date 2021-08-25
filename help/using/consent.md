@@ -1,14 +1,14 @@
 ---
 title: Gestion de la désinscription
 description: Découvrez comment gérer la désinscription et la confidentialité
-feature: Parcours
-topic: Gestion de contenu
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 89%
 
 ---
 
@@ -36,6 +36,8 @@ La possibilité pour les destinataires de se désabonner de la réception des co
 Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans chaque e-mail envoyé aux destinataires :
 * Lorsqu&#39;ils cliquent sur ce lien, les destinataires sont dirigés vers une page de destination contenant un bouton pour confirmer leur désinscription.
 * Lorsqu&#39;ils cliquent sur le bouton de désinscription, un appel d’Adobe I/O est lancé pour mettre à jour les données du profil avec ces informations. [En savoir plus à ce sujet](#consent-service-api).
+
+### Ajout d’un lien de désabonnement {#add-unsubscribe-link}
 
 Pour ajouter un lien de désabonnement, procédez comme suit :
 
@@ -87,7 +89,7 @@ Dans l&#39;onglet **[!UICONTROL Attributs]**, vous pouvez voir la valeur de **[!
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## Appel d&#39;API de désinscription {#opt-out-api}
+### Appel d&#39;API de désinscription {#opt-out-api}
 
 Une fois que le destinataire s’est désabonné en cliquant sur le lien de désabonnement, une API Adobe I/O <!--Consent service API to capture the encrypted data and-->est appelée pour mettre à jour la préférence de profil correspondante.
 
@@ -129,6 +131,14 @@ Corps de la requête:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## Exclusion en un clic {#one-click-opt-out}
+
+Comme de nombreux clients recherchent un processus plus facile pour se désabonner, vous pouvez également ajouter un lien d’exclusion en un clic dans votre contenu d’email. Ce lien permettra à vos destinataires de se désabonner rapidement de vos communications, sans être redirigés vers une landing page dans laquelle ils doivent confirmer leur désinscription.
+
+Découvrez comment ajouter un lien d’exclusion au contenu de votre message dans [cette section](message-tracking.md#one-click-opt-out-link).
+
+Une fois votre message envoyé via un [parcours](building-journeys/journey.md), si un destinataire clique sur le lien d’exclusion, il est immédiatement désinscrit.
 
 ## Lien de désabonnement dans l&#39;en-tête {#unsubscribe-email}
 
