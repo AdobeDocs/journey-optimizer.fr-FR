@@ -6,10 +6,10 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: c62048e0fb7e5de2e7cdf8bc6ae17d62ef04d35c
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 67%
 
 ---
 
@@ -49,20 +49,41 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Ajoutez l&#39;**[!UICONTROL URL]** du service externe.
+1. Dans le champ **[!UICONTROL URL]** , spécifiez l&#39;URL du service externe :
 
+   * Si l’URL est statique, saisissez l’URL dans ce champ.
+
+   * Si l’URL comprend un chemin dynamique, saisissez uniquement la partie statique de l’URL, c’est-à-dire le schéma, l’hôte, le port et, éventuellement, une partie statique du chemin.
+
+      Exemple : `https://xxx.yyy.com:8080/somethingstatic/`
+
+      Vous spécifiez le chemin dynamique de l’URL lors de l’ajout de l’action personnalisée à un parcours. [En savoir plus](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
-   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
+   >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
-1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un champ d&#39;en-tête]** pour définir une nouvelle paire clé/valeur. Ces en-têtes correspondent aux en-têtes HTTP de la requête adressée au service externe. Pour supprimer des paires clé/valeur, placez le curseur sur le champ En-tête, puis cliquez sur l&#39;icône **[!UICONTROL Supprimer]**.
+1. Dans la section **[!UICONTROL En-têtes]** , définissez les en-têtes HTTP du message de demande à envoyer au service externe :
+   1. Pour ajouter un champ d’en-tête, cliquez sur **[!UICONTROL Ajouter un champ d’en-tête]**.
+   1. Saisissez la clé du champ d’en-tête.
+   1. Pour définir une valeur dynamique pour la paire clé-valeur, sélectionnez **[!UICONTROL Variable]**. Sinon, sélectionnez **[!UICONTROL Constante]**.
 
-   Les en-têtes **[!UICONTROL Content-Type]** et **[!UICONTROL Charset]** sont définis par défaut et ne peuvent pas être supprimés ni remplacés.
+      Par exemple, pour un horodatage, vous pouvez définir une valeur dynamique.
+
+   1. Si vous avez sélectionné **[!UICONTROL Constante]**, saisissez la valeur constante.
+
+      Si vous avez sélectionné **[!UICONTROL Variable]**, vous spécifiez cette variable lors de l’ajout de l’action personnalisée à un parcours. [En savoir plus](../building-journeys/using-custom-actions.md).
+
+      ![](../assets/journeyurlconfiguration2.png)
+
+   1. Pour supprimer un champ d’en-tête, pointez sur le champ d’en-tête et cliquez sur l’icône **[!UICONTROL Supprimer]** .
+   Les champs d’en-tête **[!UICONTROL Content-Type]** et **[!UICONTROL Charset]** sont définis par défaut. Vous ne pouvez pas modifier ni supprimer ces champs.
+
+   Après avoir ajouté l’action personnalisée à un parcours, vous pouvez toujours y ajouter des champs d’en-tête si le parcours est en état de brouillon. Si vous ne souhaitez pas que le parcours soit affecté par les modifications de configuration, dupliquez l’action personnalisée et ajoutez les champs d’en-tête à la nouvelle action personnalisée.
 
    >[!NOTE]
    >
-   >Les en-têtes sont validés conformément à ces [règles d&#39;analyse](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Les en-têtes sont validés conformément aux règles d’analyse des champs. [En savoir plus](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
 ## Définition des paramètres d’action {#define-the-message-parameters}
 
