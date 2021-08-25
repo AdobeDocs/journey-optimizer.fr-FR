@@ -1,14 +1,14 @@
 ---
 title: Configurer une notification push
 description: Découvrez comment créer une notification push dans Journey Optimizer
-feature: Présentation
-topic: Gestion de contenu
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ Une notification push silencieuse (ou notification en arrière-plan) est une ins
 
 Sélectionnez l&#39;option **[!UICONTROL Notification silencieuse]** pour avertir l&#39;application en silence : dans ce cas, la notification est transférée directement à l&#39;application. Aucune alerte ne s&#39;affiche sur l&#39;écran de l&#39;appareil.
 
-Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des paires clé/valeur.
+Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des paires clé-valeur.
 
 ## Données personnalisées
 
