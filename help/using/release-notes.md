@@ -1,9 +1,9 @@
 ---
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '966'
 ht-degree: 38%
 
 ---
@@ -79,7 +79,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tr>
 <td>
 <p>Vous pouvez maintenant définir la période de reprise sur une base par paramètre prédéfini afin de vous assurer que les tentatives de reprise ne sont plus exécutées lorsqu’elles ne sont plus nécessaires. Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un message transactionnel réinitialisé par mot de passe contenant un lien valide seulement pendant une journée. Notez que les paramètres de reprise s’appliquent uniquement au canal email.</p>
-<p>Pour plus d'informations, consultez la <a href="configuration/retries.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="configuration/retries.md#retry-duration">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -122,9 +122,9 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 * **Arrière-plan**  : les images d’arrière-plan sont désormais prises en charge dans l’aperçu en direct. [En savoir plus](preview.md)
 * **Lien d’exclusion en un clic**  : vous pouvez insérer un nouveau type de lien dans le contenu de votre email : le lien  **Opt-** outlink permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une landing page pour confirmer leur désinscription. [En savoir plus](message-tracking.md#one-click-opt-out-link)
 
-**Personnalisation**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **Configuration des e-mails**
 
