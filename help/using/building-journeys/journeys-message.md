@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 87%
+source-wordcount: '779'
+ht-degree: 90%
 
 ---
 
@@ -105,5 +105,4 @@ Activez l&#39;optimisation de l&#39;heure d&#39;envoi sur un e-mail ou un messag
 
 Pour les e-mails, choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push.
 
-Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option **Envoyer pendant**. Si vous choisissez &quot;six heures&quot; comme valeur, [!DNL Journey Optimizer]vérifie chaque profil utilisateur pour déterminer si le temps d’envoi optimal se produit dans les six heures suivant l’heure d’exécution du parcours et sélectionnez l’heure déterminée pour l’optimisation du temps d’envoi. Si cette heure n’est pas comprise dans les six heures suivantes, [!DNL Journey Optimizer] enverra le message par défaut au moment de l’exécution du parcours.
-
+Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option **Envoyer pendant**. Si vous choisissez &quot;six heures&quot; comme valeur, [!DNL Journey Optimizer] vérifie chaque profil utilisateur et sélectionne l’heure d’envoi optimale dans les six heures suivant l’heure d’exécution du parcours.
