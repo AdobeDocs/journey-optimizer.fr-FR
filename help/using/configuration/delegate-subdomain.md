@@ -11,14 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Paramétrage de l’application
+feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
+source-git-commit: 848b6e84e0a4469be438e89dfc3e3e4a72dc6b6c
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 56%
 
 ---
 
@@ -55,7 +55,7 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
 
-   Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
+1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
 
    ![](../assets/subdomain-submit.png)
 
@@ -65,19 +65,9 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
 1. Une fois la délégation de sous-domaine envoyée, le sous-domaine s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
-   Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que le sous-domaine soit vérifié et puisse être utilisé pour envoyer des messages.
-
-   Cette étape est effectuée par Adobe et peut prendre jusqu&#39;à 3 heures.
-
-   1. Vérifiez si le sous-domaine a été délégué au DNS Adobe (enregistrement NS, enregistrement SOA, configuration de zone, enregistrement propriétaire),
-   1. Configuration du DNS pour le domaine,
-   1. Création des URL de tracking et miroir,
-   1. Configuration de CDN Cloud Front,
-   1. Création, validation et association d&#39;un certificat SSL pour réseau CDN,
-   1. Création d&#39;un DNS de transfert,
-   1. Création d&#39;un enregistrement PTR.
-
    ![](../assets/subdomain-processing.png)
+
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre que l’Adobe effectue les vérifications requises, ce qui peut prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
 
@@ -85,4 +75,31 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    ![](../assets/subdomain-notification.png)
 
+## Validation de sous-domaine {#subdomain-validation}
 
+Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que le sous-domaine soit vérifié et puisse être utilisé pour envoyer des messages.
+
+>[!NOTE]
+>
+>Ces étapes sont effectuées par Adobe et peuvent prendre jusqu’à 3 heures.
+
+1. **Pre-validate** : Adobe vérifie si le sous-domaine a été délégué au DNS de l’Adobe (enregistrement NS, enregistrement SOA, configuration de zone, enregistrement propriétaire). Si l’étape de prévalidation échoue, une erreur est renvoyée avec la raison correspondante, sinon l’Adobe passe à l’étape suivante.
+
+1. **Configuration du DNS pour le domaine**:
+
+   * **Enregistrement** MX : Mail eXchange record : enregistrement du serveur de messagerie qui traite les emails entrants envoyés au sous-domaine.
+   * **Enregistrement** SPF : Enregistrement Sender Policy Framework : répertorie les adresses IP des serveurs de messagerie qui peuvent envoyer des emails à partir du sous-domaine.
+   * **Enregistrement** DKIM : DomainKeys Identified Mail : utilise le cryptage de la clé publique-privée pour authentifier le message afin d’éviter les usurpations.
+   * **A** : Mappage IP par défaut.
+
+1. **Créer des URL** de tracking et miroir : si le domaine est email.example.com, le domaine tracking/mirror sera data.email.example.com. Il est sécurisé en installant le certificat SSL.
+
+1. **Configuration de CDN CloudFront** : si le réseau de diffusion de contenu n’est pas déjà configuré, Adobe le prévoit pour l’imsorption.
+
+1. **Créer un domaine CDN** : si le domaine est email.example.com, le domaine CDN sera cdn.email.example.com.
+
+1. **Créez et joignez un certificat** SSL CDN : Adobe crée le certificat CDN pour le domaine CDN et joint le certificat au domaine CDN.
+
+1. **Création d’un DNS** avancé : s’il s’agit du premier sous-domaine que vous déléguez, Adobe crée le DNS avant qui est requis pour créer des enregistrements de PTR, un pour chacune de vos adresses IP.
+
+1. **Créer un enregistrement** PTR : L’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les emails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez le premier sous-domaine, un pour chaque adresse IP, toutes les adresses IP pointant vers le premier sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement du PTR est : *192.1.2.1 PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué.

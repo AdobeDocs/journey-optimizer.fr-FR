@@ -5,10 +5,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+source-git-commit: b2eedebb42f878cec0e7747e015693fad4667cff
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 70%
+source-wordcount: '1251'
+ht-degree: 69%
 
 ---
 
@@ -148,9 +148,9 @@ Si l’une de ces erreurs se produit, contactez l’[équipe d’assistance clie
 
 * **Échec** de la validation SPF : SPF (Sender Policy Framework) est un protocole d’authentification d’email qui permet de spécifier des adresses IP autorisées pouvant envoyer des emails à partir d’un sous-domaine donné. L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les emails aux fournisseurs de messagerie.
 
-* **Échec** de la validation DKIM : DKIM permet au serveur destinataire de vérifier que le message reçu a été envoyé par l&#39;expéditeur véritable du domaine associé et que le contenu du message d&#39;origine n&#39;a pas été modifié en cours de route. L&#39;échec de validation DKIM signifie que les serveurs de messagerie de réception ne peuvent pas vérifier l&#39;authenticité du contenu du message et son association avec le domaine d&#39;envoi.
+* **Échec** de la validation DKIM : DKIM (DomainKeys Identified Mail) permet au serveur destinataire de vérifier que le message reçu a été envoyé par l&#39;expéditeur véritable du domaine associé et que le contenu du message d&#39;origine n&#39;a pas été modifié en chemin. L&#39;échec de validation DKIM signifie que les serveurs de messagerie de réception ne peuvent pas vérifier l&#39;authenticité du contenu du message et son association avec le domaine d&#39;envoi :
 
-* **Échec** de la validation des enregistrements MX : L’échec de validation des enregistrements MX signifie que les serveurs de messagerie chargés d’accepter les emails entrants pour le compte d’un sous-domaine donné ne sont pas correctement configurés.
+* **Échec** de la validation des enregistrements MX : L’échec de validation des enregistrements MX (Mail eXchange) signifie que les serveurs de messagerie chargés d’accepter les emails entrants pour le compte d’un sous-domaine donné ne sont pas correctement configurés.
 
 * **Les configurations de délivrabilité ont échoué** : L’échec des configurations de délivrabilité peut être dû à l’une des raisons suivantes :
    * Placer sur la liste bloquée les adresses IP allouées
