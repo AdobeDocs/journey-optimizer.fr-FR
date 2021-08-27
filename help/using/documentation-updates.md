@@ -1,10 +1,10 @@
 ---
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 50%
+source-wordcount: '426'
+ht-degree: 49%
 
 ---
 
@@ -27,6 +27,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour de la section Surveillance des paramètres prédéfinis du message avec les raisons possibles d’échec de la création des paramètres prédéfinis et des détails sur ces erreurs. [En savoir plus](configuration/message-presets.md#monitor-message-presets)
 * Mise à jour et changement du nom de la section Période des reprises afin de tenir compte du fait que vous pouvez désormais ajuster le paramètre de nouvelle tentative d’email dans les paramètres prédéfinis du message. [En savoir plus](configuration/retries.md#retry-duration)
 * Ajout d’une nouvelle section décrivant comment insérer un lien d’exclusion d’un clic dans le contenu d’un email. [En savoir plus](message-tracking.md#one-click-opt-out-link)
+* Mise à jour de la section Déléguer un sous-domaine avec des informations plus détaillées sur le processus de validation effectué par Adobe. [En savoir plus](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
