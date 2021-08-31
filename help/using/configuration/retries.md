@@ -15,33 +15,49 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
+source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 38%
+source-wordcount: '392'
+ht-degree: 13%
 
 ---
 
 
 # Reprises {#retries}
 
-Lorsqu’un message électronique échoue en raison d’une erreur **Soft bounce** ou **Ignoré** temporaire, plusieurs reprises sont effectuées. Chaque erreur incrémente un compteur d&#39;erreurs. Lorsque ce compteur atteint le seuil limite, l&#39;adresse est ajoutée à la liste de suppression.
+Lorsqu’un message électronique échoue en raison d’une erreur **Soft bounce** temporaire, plusieurs reprises sont effectuées. Chaque erreur incrémente un compteur d&#39;erreurs. Lorsque ce compteur atteint le seuil limite, l&#39;adresse est ajoutée à la liste de suppression.
 
 >[!NOTE]
 >
 >Pour en savoir plus sur les types d&#39;erreurs, consultez la section [Types d&#39;échec de diffusion](../suppression-list.md#delivery-failures) .
 
-Dans la configuration par défaut, le seuil est défini à trois erreurs :
+Dans la configuration par défaut, le seuil est défini sur 5 erreurs.
 
-* Pour une même diffusion, à la troisième erreur rencontrée, l&#39;adresse est supprimée.
+* Pour une même diffusion, à la cinquième erreur rencontrée dans la [période de reprise](#retry-duration), l’adresse est supprimée.
 
-* S&#39;il existe des diffusions différentes et que deux erreurs se produisent au moins à 24 heures d&#39;intervalle, le compteur d&#39;erreurs est incrémenté à chaque erreur et l&#39;adresse est également supprimée à la troisième tentative.
+* S&#39;il existe des diffusions différentes et que deux erreurs sont séparées d&#39;au moins 24 heures, le compteur d&#39;erreurs est incrémenté à chaque erreur et l&#39;adresse est également supprimée à la cinquième tentative.
 
 Si une diffusion réussit après une reprise, le compteur d&#39;erreurs de l&#39;adresse est réinitialisé.
 
-Vous pouvez modifier le seuil limite à l&#39;aide du bouton **[!UICONTROL Modifier]** depuis le menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Général]**.
+Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez modifier le seuil d’erreur en procédant comme suit.
 
-![](../assets/retries-edition.png)
+1. Accédez à **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Liste de suppression]**.
+
+1. Sélectionnez le bouton **[!UICONTROL Modifier les règles de suppression]** .
+
+   ![](../assets/suppression-list-edit-retries.png)
+
+1. Modifiez le nombre autorisé de soft bounces consécutifs en fonction de vos besoins.
+
+   ![](../assets/suppression-list-edit-soft-bounces.png)
+
+   Vous devez saisir une valeur entière comprise entre 1 et 20, ce qui signifie que le nombre minimum de reprises est de 1 et que le nombre maximum est de 20.
+
+   >[!CAUTION]
+   >
+   >Toute valeur supérieure à 10 peut entraîner des problèmes de réputation de délivrabilité, ainsi que le ralentissement ou l’liste bloquée des adresses IP par les FAI. [En savoir plus sur la délivrabilité](../deliverability.md)
+
+<!--![](../assets/retries-edition.png)-->
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
@@ -62,3 +78,5 @@ Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un e
 Découvrez comment ajuster les paramètres de reprise d’email lors de la création d’un paramètre de message prédéfini dans [cette section](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
+
+<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

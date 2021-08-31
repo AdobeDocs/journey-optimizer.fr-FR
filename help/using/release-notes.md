@@ -1,10 +1,10 @@
 ---
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
-source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
+source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 38%
+source-wordcount: '1045'
+ht-degree: 36%
 
 ---
 
@@ -51,6 +51,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </tr>
 </tbody>
 </table>
+
 <!--
 <table>
 <thead>
@@ -84,6 +85,23 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Définir des adresses à exclure de l'envoi - Liste de suppression</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’ajout d’adresses et de domaines de courriel dans la liste de suppression est désormais disponible dans l’interface utilisateur, une par une, soit en mode masse via un téléchargement de fichier CSV.</p>
+<p>Pour plus d'informations, consultez la <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--
 <table>
 <thead>
@@ -129,10 +147,8 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 **Configuration des e-mails**
 
 * **Liste autorisée**  : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](allow-list.md#enable-allow-list)
-
+* **Navigation**  : la liste de suppression, accessible sous  **Administration > Canaux > Configuration des emails >** Menu général, a été déplacée vers le nouveau sous-menu  **Liste de suppression** , qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](configuration/manage-suppression-list.md#access-suppression-list)
 <!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
-<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
-
 
 ### Correctifs
 

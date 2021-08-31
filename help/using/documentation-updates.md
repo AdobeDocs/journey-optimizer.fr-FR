@@ -1,10 +1,10 @@
 ---
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 49%
+source-wordcount: '456'
+ht-degree: 35%
 
 ---
 
@@ -28,8 +28,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour et changement du nom de la section Période des reprises afin de tenir compte du fait que vous pouvez désormais ajuster le paramètre de nouvelle tentative d’email dans les paramètres prédéfinis du message. [En savoir plus](configuration/retries.md#retry-duration)
 * Ajout d’une nouvelle section décrivant comment insérer un lien d’exclusion d’un clic dans le contenu d’un email. [En savoir plus](message-tracking.md#one-click-opt-out-link)
 * Mise à jour de la section Déléguer un sous-domaine avec des informations plus détaillées sur le processus de validation effectué par Adobe. [En savoir plus](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* Ajout d’une section décrivant comment ajouter manuellement des adresses et des domaines de courriel à la liste de suppression. [En savoir plus](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* Mise à jour des sections [Accéder à la liste de suppression](configuration/manage-suppression-list.md#access-suppression-list) et [Reprises](configuration/retries.md) pour refléter la nouvelle interface utilisateur.
 
 
 ## Juillet 2021
@@ -46,7 +46,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Nouveau cas d’utilisation : [personnaliser un message avec des fonctions helper](personalization/personalization-use-case-helper-functions.md)
 * Mise à jour de la documentation Lecture de segment pour prendre en compte les impacts sur les segments matérialisés. [En savoir plus](building-journeys/read-segment.md)
 * Mise à jour des limites de parcours. [En savoir plus](building-journeys/limitations.md)
-* Mise à jour de la section Configuration de la sélection des offres dans les décisions. [En savoir plus](offers/offer-activities/configure-offer-selection.md)
+* Mise à jour de la section Configurer la sélection des offres dans les décisions . [En savoir plus](offers/offer-activities/configure-offer-selection.md)
 * Ajout d&#39;un avertissement indiquant que les offres basées sur un événement ne sont actuellement pas prises en charge. [En savoir plus](offers/offer-library/creating-personalized-offers.md#eligibility)
-* Le nouvel onglet [!UICONTROL Aperçu] de la gestion des décisions a été documenté. [En savoir plus](offers/get-started/user-interface.md#overview)
-* De nouvelles sections ont été ajoutées pour décrire les actions disponibles dans les listes des offres et des décisions : [Liste des offres](offers/offer-library/creating-personalized-offers.md#offer-list) et [Liste des décisions](offers/offer-activities/create-offer-activities.md#decision-list).
+* Documentation du nouvel onglet **[!UICONTROL Aperçu]** de la gestion des décisions. [En savoir plus](offers/get-started/user-interface.md#overview)
+* Ajout de nouvelles sections pour décrire les actions disponibles dans les listes d’offres et de décisions : [Liste des offres](offers/offer-library/creating-personalized-offers.md#offer-list) et [Liste des décisions](offers/offer-activities/create-offer-activities.md#decision-list).
