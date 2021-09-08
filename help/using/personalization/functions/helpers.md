@@ -1,19 +1,31 @@
 ---
 title: Assistants
 description: Assistants
-feature: Personnalisation
-topic: Personnalisation
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
-
 # Assistants {#gs-helpers}
+
+## Valeur de secours par défaut{#default-value}
+
+L’assistant `Default Fallback Value` est utilisé pour renvoyer une valeur de secours par défaut si un attribut est vide ou nul. Ce mécanisme fonctionne pour les attributs de profil et les événements de Parcours.
+
+**Syntaxe**
+
+```sql
+Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+```
+
+Dans cet exemple, la valeur `there` s&#39;affiche si l&#39;attribut `firstName` de ce profil est vide ou nul.
 
 ## Conditions{#if-function}
 
