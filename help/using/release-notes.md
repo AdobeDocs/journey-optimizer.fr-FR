@@ -2,7 +2,7 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
+source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 91%
@@ -142,7 +142,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Personnalisation**
 
-* **Éditeur d’expression**  : vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation : lorsque le champ de personnalisation est vide pour un profil, la valeur de retour arrière s’affiche. [En savoir plus](personalization/functions/helper.md)
+* **Éditeur d’expression**  : vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation : lorsque le champ de personnalisation est vide pour un profil, la valeur de retour arrière s’affiche. [En savoir plus](personalization/functions/helpers.md)
 
 **Configuration des e-mails**
 
