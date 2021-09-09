@@ -1,26 +1,27 @@
 ---
-title: Rapport global d'email
-description: Découvrez comment utiliser les données du rapport global d'email
+title: Rapport global sur les e-mails
+description: Découvrez comment utiliser les données du rapport global sur les e-mails
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Rapport global d’e-mail {#email-global-report}
+# Rapport global sur les e-mails {#email-global-report}
 
-Le **[!UICONTROL rapport global d&#39;email]** ne cible qu&#39;une diffusion par email spécifique.
+Le **[!UICONTROL rapport global sur les e-mails]** ne cible qu&#39;une diffusion par email spécifique.
 
 À partir de l&#39;onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, sélectionnez **[!UICONTROL Vue globale]**, puis, dans le menu avancé de la diffusion sélectionnée, sélectionnez **[!UICONTROL Rapport global]**.
 
 ![](../assets/global_report_3.png)
 
-Le **[!UICONTROL rapport global]** d&#39;email est divisé en différents widgets détaillant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
+Le **[!UICONTROL rapport global sur les e-mails]** est divisé en différents widgets détaillant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
 
 ![](../assets/global_report_4.png)
 
@@ -92,6 +93,6 @@ Le rapport **[!UICONTROL Ouvertures vs. clics]** identifie l&#39;interaction de 
 
 >[!NOTE]
 >
->Les profils avec le statut **[!UICONTROL Supprimés]** ou **[!UICONTROL Non autorisés]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
+>Les profils avec le statut **[!UICONTROL Supprimé]** ou **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi de l’e-mail.
 >
->Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d‘Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.

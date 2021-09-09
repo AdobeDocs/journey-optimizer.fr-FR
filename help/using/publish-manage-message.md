@@ -2,13 +2,14 @@
 title: Publication et modification d’un message
 description: Découvrez comment publier et mettre à jour vos messages
 snippet: y
-feature: Parcours
-topic: Gestion de contenu
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---

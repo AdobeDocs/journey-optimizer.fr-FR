@@ -5,10 +5,11 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
+exl-id: f19749c4-d683-4db6-bede-9360b9610eef
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,14 +73,14 @@ Voici le schéma d&#39;achat avec la relation définie dans le champ Identifiant
 
 Dans Journey Optimizer, vous pouvez ensuite exploiter tous les champs des tables liées :
 
-* lors de la configuration d’un événement d’entreprise ou unitaire, [En savoir plus](../event/experience-event-schema.md#unitary_event_configuration)
+* lors de la configuration d’un événement métier ou unitaire, [En savoir plus](../event/experience-event-schema.md#unitary_event_configuration)
 * lors de l&#39;utilisation de conditions dans un parcours, [En savoir plus](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * dans la personnalisation des messages, [En savoir plus](../event/experience-event-schema.md#message_personalization)
 * dans la personnalisation d&#39;actions personnalisées, [En savoir plus](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Configuration des événements{#unitary_event_configuration}
 
-Les champs de schéma associés sont disponibles dans la configuration unitaire et des événements métier :
+Les champs de schéma liés sont disponibles dans la configuration d’événements métier et unitaires :
 
 * lorsque vous parcourez les champs de schéma d&#39;événement dans l&#39;écran de configuration des événements ;
 * lors de la définition d&#39;une condition pour les événements générés par le système.

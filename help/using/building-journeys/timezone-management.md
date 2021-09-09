@@ -1,13 +1,14 @@
 ---
 title: Gestion des fuseaux horaires
 description: En savoir plus sur la gestion des fuseaux horaires
-feature: Parcours
-topic: Gestion de contenu
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---

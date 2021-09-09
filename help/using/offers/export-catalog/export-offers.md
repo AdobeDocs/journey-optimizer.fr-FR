@@ -1,13 +1,14 @@
 ---
 title: Jeu de données d'offres personnalisées
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2008'
 ht-degree: 100%
 
 ---
@@ -324,6 +325,3 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Titre :** ETag Option de décision 
 **Description :** La révision à laquelle l&#39;objet de l&#39;option de décision se trouvait au moment de la prise de l&#39;instantané.
 **Type :** chaîne
-
-
-

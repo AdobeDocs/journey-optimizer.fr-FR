@@ -1,14 +1,15 @@
 ---
 title: Ajout d’offres personnalisées
 description: Découvrez comment ajouter des offres personnalisées à vos messages
-feature: Parcours
-topic: Gestion de contenu
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1f93158f89e7e05e8e7978960f09cc7e1d4cdc7a
+exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 98%
+source-wordcount: '536'
+ht-degree: 100%
 
 ---
 

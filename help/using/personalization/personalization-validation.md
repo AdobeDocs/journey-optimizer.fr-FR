@@ -1,17 +1,17 @@
 ---
 title: Validation de la personnalisation
 description: En savoir plus sur la validation de la personnalisation et la résolution des problèmes
-feature: Personnalisation
-topic: Personnalisation
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
-
 
 # Validation de la personnalisation {#personalization-validation}
 
@@ -22,12 +22,10 @@ Dans l&#39;écran **Éditeur d&#39;expression**, utilisez le bouton **Valider** 
 >[!NOTE]
 > La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
 
-
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur d&#39;expressions.
-
 
 ## Erreurs courantes
 
@@ -117,4 +115,3 @@ HTML : content<br/></td>
   </tr> 
  </tbody> 
 </table>
-

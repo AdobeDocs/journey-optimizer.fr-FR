@@ -2,12 +2,13 @@
 title: Rapport dynamique
 description: Découvrez comment utiliser les données du rapport dynamique
 feature: Reporting
-topic: Gestion de contenu
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 100%
 
 ---

@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +98,7 @@ Tirez parti des cas d&#39;utilisation [!DNL Adobe Journey Optimizer] de la page 
 
 Les cas d&#39;utilisation disponibles sont les suivants :
 
-* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en oeuvre ce cas pratique [sur cette page](building-journeys/creating-test-profiles.md#use-case-1).
+* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas d’utilisation [sur cette page](building-journeys/creating-test-profiles.md#use-case-1).
 * **Envoyer un message d&#39;anniversaire aux clients** : pour envoyer automatiquement un e-mail afin de souhaiter un bon anniversaire à vos clients. (bientôt disponible)
 * **Envoyer des e-mails pour souhaiter la bienvenue aux nouveaux clients** : pour envoyer facilement jusqu&#39;à deux e-mails afin d&#39;accueillir vos nouveaux clients enregistrés. (bientôt disponible)
 * **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)
@@ -110,58 +111,58 @@ Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **
 
 ## Accessibilité{#accessibility}
 
-Les fonctionnalités d’accessibilité de Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
+Les fonctionnalités d’accessibilité dans Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
 
 * Accessibilité à l’aide du clavier
-* Contraste de couleur
+* Contraste des couleurs
 * Validation des champs obligatoires
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
 
-Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
+Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
 
 | Action | Raccourci |
 | --- | --- |
 | Déplacement entre les éléments, sections et groupes de menus de l’interface utilisateur | Tabulation |
-| Revenez en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur. | Maj+Tabulation |
-| Déplacement dans des sections pour définir la cible d’action sur des éléments individuels | Flèche |
-| Sélectionner ou effacer un élément ciblé | Entrée ou Barre d’espacement |
-| Annuler une sélection, réduire un panneau ou fermer une boîte de dialogue | Échap |
+| Retour en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur. | Maj+Tabulation |
+| Déplacement à l’intérieur des sections pour définir la mise en évidence sur des éléments individuels | Flèche |
+| Sélection ou suppression d‘un élément mis en évidence | Entrée ou Barre d’espacement |
+| Annulation d’une sélection, réduction d’un panneau ou fermeture d’une boîte de dialogue | Échap |
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
 
-Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
+Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
 
 <table>
   <thead>
     <tr>
-      <th>Elément de l’interface</th>
+      <th>Élément de l’interface</th>
       <th>Action</th>
       <th>Raccourci</th>
     </tr>
   </thead>
   <tr>
-    <td>Liste des parcours, actions, sources de données ou événements</td>
-    <td>Créer un parcours, une action, une source de données ou un événement</td>
+    <td>Liste de parcours, d’actions, de sources de données ou d’événements</td>
+    <td>Création d’un parcours, d’une action, d’une source de données ou d’un événement</td>
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Canevas de parcours à l’état préliminaire</td>
-    <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
-    <td>Double-cliquez sur l’activité.</td>
+    <td rowspan="3">Zone de travail de parcours au statut de brouillon</td>
+    <td>Ajout d‘une activité à partir de la palette gauche à la première position disponible, du haut vers le bas</td>
+    <td>Double-clic sur l’activité</td>
   </tr>
   <tr>
-    <td>Sélectionner toutes les activités</td>
+    <td>Sélection de toutes les activités</td>
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
   <tr>
-    <td>Supprimer les activités sélectionnées</td>
+    <td>Suppression des activités sélectionnées</td>
     <td>Supprimer ou Retour arrière, puis Entrée pour confirmer la suppression</td>
   </tr>
   <tr>
   <td rowspan="3">
 
-Volet de configuration de ces éléments :
+Volet de configuration de ces éléments :
 
 <ul>
   <li>Activité dans un parcours</li>
@@ -171,15 +172,15 @@ Volet de configuration de ces éléments :
 </ul>
 
 </td>
-    <td>Accéder au champ suivant à configurer</td>
+    <td>Accès au champ suivant à configurer</td>
     <td>Tabulation</td>
   </tr>
   <tr>
-    <td>Enregistrez les modifications et fermez le volet de configuration.</td>
-    <td>Enter</td>
+    <td>Enregistrement des modifications et fermeture du volet de configuration</td>
+    <td>Entrée</td>
   </tr>
   <tr>
-    <td>Ignorer les modifications et fermer le volet de configuration</td>
+    <td>Rejet des modifications et fermeture du volet de configuration</td>
     <td>Échap</td>
   </tr>
   <tr>
@@ -194,13 +195,13 @@ Volet de configuration de ces éléments :
   <tr>
     <td>
 
-Déclenchez un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Profil unique à la fois]** est activée.
+Déclenchement d’un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée
 
 </td>
     <td>P</td>
   </tr>
   <tr>
-    <td>Afficher les journaux de test</td>
+    <td>Affichage des journaux de test</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -212,31 +213,31 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
 -->
   <tr>
     <td>Champ de texte</td>
-    <td>Sélectionner tout le texte du champ sélectionné</td>
+    <td>Sélection de tout le texte du champ sélectionné</td>
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Fenêtre contextuelle</td>
-    <td>Enregistrer les modifications ou confirmer l’action</td>
+    <td>Enregistrement des modifications ou confirmation de l’action</td>
     <td>Entrée</td>
   </tr>
   <tr>
-    <td>Fermer la fenêtre</td>
+    <td>Fermeture de la fenêtre</td>
     <td>Échap</td>
   </tr>
   <tr>
     <td>Éditeur d’expression simple</td>
     <td>Sélection et ajout d’un champ</td>
-    <td>Double-cliquer sur un champ</td>
+    <td>Double-clic sur un champ</td>
   </tr>
   <tr>
-    <td>Navigation dans les champs XDM</td>
-    <td>Sélectionner tous les champs d’un noeud</td>
-    <td>Sélectionner le noeud parent</td>
+    <td>Parcours des champs XDM</td>
+    <td>Sélection de tous les champs d’un nœud</td>
+    <td>Sélection du nœud parent</td>
   </tr>
   <tr>
     <td>Aperçu de la payload</td>
-    <td>Sélectionner la payload</td>
+    <td>Sélection de la payload</td>
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
 </table>
@@ -273,13 +274,13 @@ Pour modifier la langue :
 
 ## Recherche{#unified-search}
 
-N’importe où depuis l’interface de Adobe Journey Optimizer, utilisez la fonctionnalité de recherche Adobe Experience Cloud unifié au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données, des messages, etc. dans vos environnements de test.
+Depuis n’importe où dans l’interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données, des messages et plus encore dans vos environnements Sandbox.
 
 Commencez à saisir du contenu pour afficher les meilleurs résultats. Les articles d’aide sur les mots-clés saisis apparaissent également dans les résultats.
 
 ![](assets/unified-search.png)
 
-Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par objet commercial.
+Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par objet métier.
 
 ![](assets/search-and-filter.png)
 

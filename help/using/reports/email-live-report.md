@@ -1,26 +1,27 @@
 ---
-title: Rapport dynamique sur les emails
-description: Découvrez comment utiliser les données du rapport dynamique sur les emails
+title: Rapport dynamique sur les e-mails
+description: Découvrez comment utiliser les données du Rapport dynamique sur les e-mails
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Rapport dynamique sur les emails {#email-live-report}
+# Rapport dynamique sur les e-mails {#email-live-report}
 
-Le **[!UICONTROL Rapport dynamique]** sur les emails ne cible qu’une diffusion email spécifique.
+Le **[!UICONTROL Rapport dynamique]** sur les e-mails ne cible qu’une diffusion email spécifique.
 
 Dans l’onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, sélectionnez **[!UICONTROL Affichage dynamique]**, puis, dans le menu avancé de la diffusion sélectionnée, sélectionnez **[!UICONTROL Rapport dynamique]**.
 
 ![](../assets/live_report.png)
 
-Le **[!UICONTROL Rapport dynamique]** sur les emails est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d’informations à ce sujet, consultez cette [section](live-report.md#modify-dashboard).
+Le **[!UICONTROL Rapport dynamique]** sur les e-mails est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d’informations à ce sujet, consultez cette [section](live-report.md#modify-dashboard).
 
 ![](../assets/live_report_5.png)
 
@@ -60,6 +61,6 @@ Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de 
 
 >[!NOTE]
 >
->Les profils avec le statut **[!UICONTROL Supprimés]** ou **[!UICONTROL Non autorisés]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
+>Les profils avec le statut **[!UICONTROL Supprimé]** ou **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi de l’e-mail.
 >
->Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d‘Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.

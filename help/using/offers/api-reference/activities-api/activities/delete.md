@@ -1,18 +1,19 @@
 ---
 title: Supprimer les décisions
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
 
-# Suppression d’une décision
+# Supprimer une décision
 
 Il peut parfois être nécessaire de supprimer (DELETE) une décision (précédemment appelée activité d&#39;offre). Seules les décisions créées dans le conteneur du tenant peuvent être supprimées. Pour ce faire, il vous suffit d&#39;exécuter une requête DELETE sur l&#39;API [!DNL Offer Library] en utilisant le $id de l&#39;offre de secours que vous souhaitez supprimer.
 

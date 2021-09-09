@@ -1,12 +1,13 @@
 ---
 title: Prise en main des schémas
 description: Découvrez comment utiliser les schémas Adobe Experience Platform dans Adobe Journey Optimizer
-feature: Schémas
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
@@ -43,4 +44,3 @@ Découvrez comment créer un schéma, ajouter des groupes de champs, et créer e
 * [Bonnes pratiques pour la modélisation des données](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=fr){target=&quot;_blank&quot;}
 * [Création d’un schéma à l’aide de l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=fr){target=&quot;_blank&quot;}
 * [Définition d’une relation entre deux schémas à l’aide de l’éditeur de schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=fr){target=&quot;_blank&quot;}
-

@@ -3,10 +3,11 @@ title: Configuration de notifications push
 description: Découvrez comment configurer votre environnement pour envoyer des notifications push avec Journey Optimizer.
 role: Admin
 level: Intermediate
-source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
+exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1576'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +30,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Configuration des autorisations
 
-Avant de créer une application mobile, vous devez d&#39;abord vous assurer que vous possédez ou accordez les autorisations utilisateur appropriées dans **Adobe Experience Platform Launch**. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
+Avant de créer une application mobile, vous devez d&#39;abord vous assurer que vous possédez ou accordez les autorisations utilisateur appropriées dans **Adobe Experience Platform Launch**. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=fr){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
->La configuration des notifications push doit être effectuée par un utilisateur expérimenté. Selon votre modèle de mise en œuvre et les rôles impliqués dans cette mise en œuvre, vous devrez peut-être attribuer le jeu complet des autorisations à un profil de produit unique ou partager des autorisations entre le développeur d&#39;application et l&#39;administrateur **Adobe Journey Optimizer**. En savoir plus sur les autorisations **Adobe Experience Platform Launch** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
+>La configuration des notifications push doit être effectuée par un utilisateur expérimenté. Selon votre modèle de mise en œuvre et les rôles impliqués dans cette mise en œuvre, vous devrez peut-être attribuer le jeu complet des autorisations à un profil de produit unique ou partager des autorisations entre le développeur d&#39;application et l&#39;administrateur **Adobe Journey Optimizer**. En savoir plus sur les autorisations **Adobe Experience Platform Launch** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=fr#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 

@@ -1,13 +1,14 @@
 ---
 title: Prise en main
 description: Découvrez comment commencer à utiliser l'API de la bibliothèque des offres pour effectuer des opérations essentielles à l'aide du moteur Decision Management.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 773bee50-849f-4b07-9423-67de5279ad28
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '611'
 ht-degree: 100%
 
 ---

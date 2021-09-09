@@ -1,6 +1,6 @@
 ---
 title: Gestion de la liste de suppression
-description: 'Découvrez comment accéder à la liste de suppression de Journey Optimizer et la gérer '
+description: Découvrez comment accéder à la liste de suppression de Journey Optimizer et la gérer
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -15,20 +15,20 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
+exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 29%
+ht-degree: 43%
 
 ---
-
 
 # Gestion de la liste de suppression {#manage-suppression-list}
 
 Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l&#39;envoi dans un parcours, telles que :
 
 * Adresses non valides (hard bounces).
-* Adresses qui soft bounces de manière cohérente et qui peuvent nuire à la réputation de vos emails si vous continuez à les inclure dans vos diffusions.
+* Les adresses qui font l’objet de soft bounces systématiques et qui sont susceptibles de nuire à votre réputation en matière d’e-mails si vous continuez à les inclure dans vos diffusions.
 * Les destinataires qui déposent une plainte pour spam contre l&#39;un de vos e-mails.
 
 Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../suppression-list.md).
@@ -79,7 +79,7 @@ Pour exporter la liste de suppression au format CSV, cliquez sur le bouton **[!U
 
 ## Catégories de suppression et motifs {#suppression-categories-and-reasons}
 
-Lorsqu&#39;un message ne parvient pas à être envoyé à une adresse email, [!DNL Journey Optimizer] détermine la raison de l&#39;échec de la diffusion et l&#39;associe à une **[!UICONTROL catégorie de suppression]**.
+Lorsqu&#39;un message ne parvient pas à être envoyé à une adresse e-mail, [!DNL Journey Optimizer] détermine les motifs de l&#39;échec de la diffusion et l&#39;associe à une **[!UICONTROL catégorie de suppression]**.
 
 Les catégories de suppression sont les suivantes :
 
@@ -87,7 +87,7 @@ Les catégories de suppression sont les suivantes :
 
    >[!NOTE]
    >
-   >Lorsque l&#39;erreur est le résultat d&#39;une plainte de spam, elle est également classée dans la catégorie **Hard**. L&#39;adresse email du destinataire ayant émis la plainte est immédiatement envoyée à la liste de suppression.
+   >Lorsque l&#39;erreur est le résultat d&#39;une plainte de spam, elle est également classée dans la catégorie **Hard**. L’adresse e-mail du destinataire ayant émis la plainte est immédiatement envoyée à la liste de suppression.
 
 * **Soft** : les erreurs de type Soft envoient une adresse à la liste de suppression une fois que le compteur d&#39;erreurs a atteint le seuil limite. [En savoir plus sur les reprises](retries.md)
 
@@ -97,13 +97,13 @@ Les catégories de suppression sont les suivantes :
     * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
     -->
 
-* **Manuel** : Vous pouvez également ajouter manuellement une adresse électronique ou un domaine à la liste de suppression. [En savoir plus](#add-addresses-and-domains)
+* **Manuel** : vous pouvez également ajouter manuellement une adresse électronique ou un domaine à la liste de suppression. [En savoir plus](#add-addresses-and-domains)
 
 >[!NOTE]
 >
 >Pour en savoir plus sur les soft bounces et les hard bounces, consultez la section [Types de diffusion en échec](../suppression-list.md#delivery-failures).
 
-Pour chaque adresse électronique répertoriée, vous pouvez également vérifier le **[!UICONTROL Type]** (adresse électronique ou domaine), le **[!UICONTROL motif]** de l’exclusion, de la personne qui l’a ajoutée et la date/l’heure de son ajout à la liste de suppression.
+Pour chaque adresse e-mail répertoriée, vous pouvez également vérifier le **[!UICONTROL type]** (e-mail ou domaine), le **[!UICONTROL motif]** de son exclusion et la date/l’heure de son ajout à la liste de suppression.
 
 ![](../assets/suppression-list.png)
 
@@ -227,6 +227,3 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
-
-
-

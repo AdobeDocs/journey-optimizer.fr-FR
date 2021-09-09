@@ -1,13 +1,14 @@
 ---
 title: Recherche d’un emplacement
 description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 100%
 
 Vous pouvez rechercher des emplacements spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit l’emplacement `@id` soit le nom de l’emplacement dans le chemin de la requête.
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}

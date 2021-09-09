@@ -1,13 +1,14 @@
 ---
 title: Bibliothèque de fonctions arithmétiques
 description: Bibliothèque de fonctions arithmétiques
-feature: Personnalisation
-topic: Personnalisation
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---

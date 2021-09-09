@@ -1,13 +1,14 @@
 ---
 title: mise à jour d’un emplacement
 description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---

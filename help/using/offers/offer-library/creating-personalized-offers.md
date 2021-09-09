@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1223'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +41,7 @@ Pour créer une **offre**, procédez comme suit :
 
    >[!NOTE]
    >
-   >La section **[!UICONTROL Attributs de l’offre]** vous permet d’associer des paires clé-valeur à l’offre à des fins de création de rapports et d’analyse.
+   >La section **[!UICONTROL Attributs de l’offre]** vous permet d’associer des paires clé-valeur à l’offre à des fins de rapports et d’analyse.
 
 ## Configuration des représentations de l&#39;offre {#representations}
 

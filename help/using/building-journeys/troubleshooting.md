@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
+exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +62,7 @@ En tant qu&#39;administrateur, vous devez vérifier les points suivants :
 * La payload d&#39;événement contient-elle un identifiant d&#39;événement ?
 * Avez-vous atteint la bonne URL ?
 * Avez-vous appliqué la structure de payload des API d&#39;ingestion en flux continu en utilisant l&#39;aperçu de la structure de payload dans le volet de configuration des événements ? Voir [cette page](../event/about-creating.md#preview-the-payload).
-* Avez-vous utilisé les paires clé-valeur appropriées dans l’en-tête de votre événement ?
+* Avez-vous utilisé les paires clé-valeur appropriées dans l’en-tête de l’événement ?
 
    ```
    X-gw-ims-org-id - your ORGID

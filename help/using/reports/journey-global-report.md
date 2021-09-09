@@ -2,12 +2,13 @@
 title: Rapport global de parcours
 description: Découvrez comment utiliser les données du rapport global de parcours
 feature: Reporting
-topic: Gestion de contenu
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
+exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 100%
 
 ---

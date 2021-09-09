@@ -2,12 +2,13 @@
 title: Rapport global sur les notifications push
 description: Découvrez comment utiliser les données du rapport global sur les notifications push.
 feature: Reporting
-topic: Gestion de contenu
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '317'
 ht-degree: 100%
 
 ---

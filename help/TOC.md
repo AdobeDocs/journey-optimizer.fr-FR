@@ -42,7 +42,7 @@ ht-degree: 100%
       + [Publication de messages](using/publish-manage-message.md)
    + [Gestion de la désinscription](using/consent.md)
 + Personnalisation{#personalization}
-   + [Prise en main     de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main      de la personnalisation](using/personalization/personalize.md)
    + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
    + [Validation de la personnalisation](using/personalization/personalization-validation.md)
    + Cas d&#39;utilisation{#personalization-use-cases}
@@ -242,7 +242,7 @@ ht-degree: 100%
    + [Sources](using/get-started-sources.md)
 + Contrôle d&#39;accès {#administration}
    + [Présentation du contrôle d&#39;accès](using/administration/permissions-overview.md)
-   + [Profils de produits natifs](using/administration/ootb-product-profiles.md)
+   + [Profils de produit natifs](using/administration/ootb-product-profiles.md)
    + [Gestion des utilisateurs et des profils de produits](using/administration/permissions.md)
    + [Niveaux d&#39;autorisation](using/administration/high-low-permissions.md)
    + [Gestion des environnements Sandbox](using/administration/sandboxes.md)

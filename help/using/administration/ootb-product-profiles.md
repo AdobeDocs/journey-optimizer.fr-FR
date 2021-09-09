@@ -12,14 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-feature: Populations témoins
+feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 99%
+source-wordcount: '975'
+ht-degree: 100%
 
 ---
 
@@ -103,4 +103,4 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Gestion des décisions| <ul><li>**Gérer les décisions** : la lecture, la création, la modification et la suppression des entités de décisions.</li><li>**Afficher les décisions** : accès en lecture seule aux entités de prise de décision.</li><li>**Gérer les stratégies de classement** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et l&#39;utilisation des fonctions d&#39;action.</li><li>**Publier les décisions** : activer ou désactiver les activités de prise de décision.</li></ul>|
+|Gestion des décisions| <ul><li>**Gérer les décisions** : la lecture, la création, la modification et la suppression des entités de décisions.</li><li>**Afficher les décisions** : accès en lecture seule aux entités de prise de décision.</li><li>**Gérer les stratégies de classement** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et l&#39;utilisation des fonctions d&#39;action.</li><li>**Publier les décisions** : activer ou désactiver les activités de prise de décision.</li></ul>|

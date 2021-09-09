@@ -1,13 +1,14 @@
 ---
 title: Liste des balises
 description: Les balises vous permettent de mieux organiser et trier vos offres.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---
@@ -20,7 +21,7 @@ Les balises peuvent également être utilisées pour regrouper les offres sous f
 
 Vous pouvez afficher une liste de toutes les balises d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUERY_PARAMS}

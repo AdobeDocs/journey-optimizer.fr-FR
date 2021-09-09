@@ -1,13 +1,14 @@
 ---
 title: Répertorier les décisions
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 100%
 
 Vous pouvez rechercher des décisions spécifiques (auparavant appelées activités d&#39;offres) en exécutant une requête GET sur l&#39;API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de l&#39;activité dans le chemin de la requête.
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}

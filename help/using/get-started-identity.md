@@ -1,12 +1,13 @@
 ---
 title: Prise en main des identités dans Journey Optimizer
 description: Découvrez comment gérer les identités dans Adobe Journey Optimizer
-feature: Profils
+feature: Profiles
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
@@ -36,4 +37,3 @@ Un **graphique d’identités** est une carte des relations entre différentes i
 La visionneuse de graphiques d’identités de l’interface utilisateur [!DNL Adobe Journey Optimizer] permet de visualiser et de mieux comprendre quelles identités de client sont regroupées, et de quelles façons. La visionneuse vous permet de faire glisser différentes parties du graphique et d’interagir avec celles-ci. Vous pouvez ainsi examiner les relations d’identité complexes, effectuer plus efficacement le débogage et bénéficier d’une plus grande transparence en ce qui concerne l’utilisation des informations.
 
 Découvrez le **graphique d’identités** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=fr){target=&quot;_blank&quot;}.
-

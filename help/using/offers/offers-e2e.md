@@ -1,13 +1,14 @@
 ---
 title: Utilisation d’offres personnalisées dans un e-mail
 description: Découvrez un exemple complet montrant toutes les étapes nécessaires pour configurer des offres et les utiliser dans un e-mail.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: 851d988a-2582-4c30-80f3-b881d90771be
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1338'
 ht-degree: 100%
 
 ---
@@ -265,4 +266,3 @@ Une fois vos modifications enregistrées et le message publié, vos offres sont 
 * Découvrez comment publier des messages dans [cette section](../../using/publish-manage-message.md).
 
 * Découvrez comment les messages sont déclenchés par un ou plusieurs parcours dans [cette section](../building-journeys/journey.md).
-

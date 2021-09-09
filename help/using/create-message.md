@@ -1,13 +1,14 @@
 ---
 title: Création d'un message
 description: Découvrez comment créer un message
-feature: Présentation
-topic: Gestion de contenu
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '492'
 ht-degree: 100%
 
 ---

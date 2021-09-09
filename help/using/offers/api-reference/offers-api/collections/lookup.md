@@ -1,13 +1,14 @@
 ---
 title: Recherche d’une collection
 description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -18,7 +19,7 @@ Les collections sont des sous-ensembles d’offres basés sur des conditions pr�
 
 Vous pouvez rechercher des collections spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut la collection `@id` ou le nom de la collection dans le chemin de la requête.
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}

@@ -1,13 +1,14 @@
 ---
 title: Suppression d’une collection
 description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 100%
 
 Il peut parfois être nécessaire de supprimer (DELETE) une collection. Seules les collections que vous créez dans le conteneur du tenant peuvent être supprimées. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant le $id de la collection que vous souhaitez supprimer.
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}

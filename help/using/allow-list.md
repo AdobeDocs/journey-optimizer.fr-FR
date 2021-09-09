@@ -5,10 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +21,11 @@ La liste autorisée vous permet de spécifier des adresses e-mail ou des domaine
 
 >[!CAUTION]
 >
->Cette fonctionnalité **n&#39;est pas** disponible sur les environnements Sandbox de production. Il s’applique uniquement au canal email.
+>Cette fonctionnalité **n&#39;est pas** disponible sur les environnements Sandbox de production. Elle s’applique uniquement au canal e-mail.
 
 ## Activation de la liste autorisée {#enable-allow-list}
 
-Pour activer la liste autorisée sur un environnement de test hors production, vous devez mettre à jour les paramètres généraux à l’aide du point de terminaison API correspondant dans le service de paramètres prédéfinis de message.
+Pour activer la liste autorisée sur un environnement Sandbox hors production, vous devez mettre à jour les paramètres généraux à l’aide du point d’entrée API correspondant dans le service de préréglages de message.
 
 * Grâce à cette API, vous pouvez également désactiver la fonctionnalité à tout moment.
 
@@ -71,15 +72,15 @@ Lorsque la liste autorisée n&#39;est **pas vide**, la logique de liste autoris�
 
 >[!NOTE]
 >
->Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](building-journeys/read-segment.md) et [Message](building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
+>Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](building-journeys/read-segment.md) et [Message](building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi de l’e-mail.
 >
->En savoir plus sur [Rapport dynamique](reports/live-report.md) et [Rapport global](reports/global-report.md).
+>En savoir plus sur le [Rapport dynamique](reports/live-report.md) et le [Rapport global](reports/global-report.md).
 
 ## Rapport d’exclusion {#reporting}
 
-Lorsque cette fonction est activée sur un environnement de test hors production, vous pouvez récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} pour effectuer les appels d’API ci-dessous.
+Lorsque cette fonction est activée sur un environnement Sandbox hors production, vous pouvez récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;} pour effectuer les appels API ci-dessous.
 
-Pour obtenir le **nombre d&#39;emails** qui n&#39;ont pas été envoyés car les destinataires n&#39;étaient pas sur la liste autorisée, utilisez la requête suivante :
+Pour obtenir le **nombre d’e-mails** qui n’ont pas été envoyés car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
 
 ```
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -88,7 +89,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-Pour obtenir la **liste des adresses email** qui n&#39;ont pas été envoyées car les destinataires n&#39;étaient pas sur la liste autorisée, utilisez la requête suivante :
+Pour obtenir la **liste des adresses e-mail** qui n’ont pas été envoyées car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
 
 ```
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
@@ -96,4 +97,3 @@ _experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT
 _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
-

@@ -1,17 +1,17 @@
 ---
 title: Syntaxe de personnalisation
 description: Découvrez comment utiliser la syntaxe de personnalisation
-feature: Personnalisation
-topic: Personnalisation
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
-
 
 # Syntaxe de personnalisation {#personalization-syntax}
 
@@ -45,7 +45,7 @@ Dans Handlebars, les valeurs renvoyées par {{expression}} se caractérisent par
 
 ## Profile
 
-Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
+Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 Les attributs doivent être définis dans le schéma avant d&#39;être référencés dans un bloc de personnalisation [!DNL Journey Optimizer].
 
@@ -75,7 +75,6 @@ Découvrez comment exploiter les attributs de profil dans des conditions dans [c
 
 >[!NOTE]
 >Pour en savoir plus sur la segmentation et le service de segmentation, consultez [cette section](../segment/about-segments.md).
-
 
 ## Offres
 
@@ -128,7 +127,6 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 >[!NOTE]
 >
 >Les fonctions d&#39;assistance sont présentées dans [cette section](functions/helpers.md).
-
 
 ## Types littéraux
 

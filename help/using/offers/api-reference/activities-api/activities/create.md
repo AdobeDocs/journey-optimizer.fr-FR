@@ -1,18 +1,19 @@
 ---
 title: Créer des décisions
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 100%
 
 ---
 
-# Création d’une décision
+# Créer une décision
 
 Vous pouvez créer une décision (auparavant appelée activité d&#39;offre) en exécutant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 

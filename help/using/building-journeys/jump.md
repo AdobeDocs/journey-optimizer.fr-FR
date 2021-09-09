@@ -1,13 +1,14 @@
 ---
 title: Passage d’un parcours à un autre
 description: Passage d’un parcours à un autre
-feature: Parcours
-topic: Gestion de contenu
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '826'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,14 @@
 ---
 title: Créer des emails dans Journey Optimizer
 description: Découvrez comment concevoir le contenu de vos emails
-feature: Présentation
-topic: Gestion de contenu
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1585'
 ht-degree: 100%
 
 ---
@@ -35,13 +36,11 @@ Une fois que vous avez [créé votre message](create-message.md), vous pouvez co
 ## Créer en partant de zéro {#design-scratch}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_structure_components"
 >title="À propos des composants de structure"
 >abstract="Les composants de structure définissent la disposition de votre email."
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_columns"
 >title="Définition des colonnes de l’email"
 >abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
@@ -144,7 +143,6 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 ## Utiliser un pré-titre {#preheader}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_preheader"
 >title="Utilisation d’un pré-titre"
 >abstract="Le pré-titre vous permet de configurer un texte de résumé court vous aidant à mieux suivre et personnaliser vos emails."
@@ -180,7 +178,6 @@ Votre pré-titre est maintenant configuré pour votre e-mail.
 ## Paramètres d&#39;arrière-plan {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_backgroundimage"
 >title="Paramètres d&#39;arrière-plan"
 >abstract="Le Concepteur d’email vous permet de personnaliser la couleur ou l’image de fond de votre contenu. Notez que l’image de fond n’est pas prise en charge par tous les clients de messagerie."
@@ -284,6 +281,3 @@ Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élém
 1. Modifiez les valeurs des attributs existants ou ajoutez de nouveaux attributs à l’aide du bouton **+**. Vous pouvez ajouter un attribut et une valeur quelconques compatibles avec la feuille CSS.
 
 Le style est ensuite appliqué à l’élément sélectionné. Si aucun attribut de style spécifique n’est défini pour les éléments enfants, le style de l’élément parent est hérité.
-
-
-

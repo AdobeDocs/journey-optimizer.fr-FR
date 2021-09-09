@@ -1,13 +1,14 @@
 ---
 title: Prise en main de l'export de catalogues d'offres
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les décisions.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1554'
 ht-degree: 100%
 
 ---

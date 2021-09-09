@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40dd6e3714aea3dc95183e1decbf1b8f83dad50a
+exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +33,8 @@ Vous pouvez exploiter les segments dans les parcours de différentes manières 
 
 Dans Adobe Journey Optimizer, les audiences sont générées à partir des définitions de segment à l’aide de l’une des méthodes d’évaluation suivantes :
 
-* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données s’enchaînent dans le système.
-* Segmentation par lots : la liste des audiences du segment est mise à jour toutes les heures, en fonction des données arrivées au cours de la dernière heure.
+* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données affluent dans le système.
+* Segmentation par lots : la liste des audiences du segment est mise à jour toutes les heures, en fonction des données arrivées au cours de la dernière heure.
 
 Le système détermine la segmentation par lots et la segmentation par flux pour chaque définition de segment, en fonction de la complexité et du coût de l’évaluation de la règle de segment.
 

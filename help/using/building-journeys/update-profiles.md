@@ -1,13 +1,14 @@
 ---
 title: Mettre à jour le profil
 description: Découvrez comment utiliser l'activité Mettre à jour le profil dans un parcours.
-feature: Parcours
-topic: Gestion de contenu
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
+exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---

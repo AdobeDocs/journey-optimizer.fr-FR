@@ -5,10 +5,11 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +19,7 @@ Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et sui
 
 ## Activation du suivi {#enable-tracking}
 
-Vous pouvez activer le tracking au niveau des emails en cochant les options **[!UICONTROL Ouvrir le tracking pour les emails]** et/ou **[!UICONTROL Suivi des clics pour les emails]** lors de la [création de votre message](create-message.md).
+Vous pouvez activer le suivi au niveau des messages électroniques en cochant les options **[!UICONTROL Suivi des ouvertures pour les e-mails]** et/ou **[!UICONTROL Suivi des clics pour les e-mails]** lorsque vous [créez votre message](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -52,7 +53,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
 
-   * **[!UICONTROL Exclusion]** : Insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur désinscription. En savoir plus dans [cette section](#one-click-opt-out-link).
+   * **[!UICONTROL Désinscription]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur désinscription. En savoir plus dans [cette section](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
@@ -91,29 +92,29 @@ La période de conservation d’une page miroir est de 60 jours. Passé ce dél
 
 ## Lien d’exclusion en un clic {#one-click-opt-out-link}
 
-Pour permettre à vos destinataires de se désabonner rapidement de la réception des communications de votre marque, vous pouvez insérer un lien d&#39;opt-out en un clic dans votre contenu d&#39;email. Cette capacité empêche les utilisateurs d’être redirigés vers une landing page où ils doivent confirmer leur choix, ce qui accélère le processus de désabonnement.
+Pour permettre à vos destinataires de se désabonner rapidement de la réception des communications de votre marque, vous pouvez insérer un lien d’exclusion en un clic dans le contenu de votre e-mail. Cette capacité empêche les utilisateurs d’être redirigés vers une landing page où ils doivent confirmer leur choix, ce qui accélère le processus de désinscription.
 
-Pour ajouter un lien d’exclusion dans votre email, procédez comme suit.
+Pour ajouter un lien d’exclusion dans votre e-mail, procédez comme suit.
 
-1. [Insérez un ](#insert-links) lien et sélectionnez  **[!UICONTROL Opt-]** out comme type de lien.
+1. [Insérez un lien](#insert-links) et sélectionnez **[!UICONTROL Désinscription]** comme type de lien.
 
    ![](assets/message-tracking-opt-out.png)
 
-1. Sélectionnez le mode d’application du droit d’opposition : au niveau du canal, de l’identité ou de l’abonnement.
+1. Sélectionnez le mode d’application de la désinscription : au niveau du canal, de l’identité ou de l’abonnement.
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Canal]** : L’opt-out s’applique aux prochains messages envoyés à la cible du profil (c’est-à-dire son adresse email) pour le canal actuel. Si plusieurs cibles sont associées à un profil, l&#39;opt-out s&#39;applique à toutes les cibles (adresses email, par exemple) du profil pour ce canal.
-   * **[!UICONTROL Identité]** : L’opt-out s’applique aux prochains messages envoyés à la cible spécifique (c’est-à-dire l’adresse email) utilisée pour le message en cours.
-   * **[!UICONTROL Inscription]** : L&#39;opt-out s&#39;applique aux futurs messages associés à une liste d&#39;abonnements spécifique. Cette option ne peut être sélectionnée que si le message actif est associé à une liste d&#39;abonnements.
+   * **[!UICONTROL Canal]** : la désinscription s’applique aux futurs messages envoyés à la cible du profil (c’est-à-dire son adresse e-mail) pour le canal actuel. Si plusieurs cibles sont associées à un profil, la désinscription s’applique à toutes les cibles (adresses e-mail, par exemple) du profil pour ce canal.
+   * **[!UICONTROL Identité]** : la désinscription s’applique aux futurs messages envoyés à la cible spécifique (c’est-à-dire l’adresse e-mail) utilisée pour le message en cours.
+   * **[!UICONTROL Abonnement]** : la désinscription s’applique aux futurs messages associés à une liste d’abonnement spécifique. Cette option ne peut être sélectionnée que si le message actif est associé à une liste d’abonnement.
 
-1. Saisissez l&#39;URL de la landing page vers laquelle l&#39;utilisateur sera redirigé une fois désabonné. Cette page n’est disponible que pour confirmer que l’exclusion a réussi.
+1. Saisissez l’URL de la landing page vers laquelle l’utilisateur sera redirigé une fois désabonné. Cette page n’est disponible que pour confirmer que la désinscription a réussi.
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Une fois votre message envoyé, si un destinataire clique sur le lien de désinscription, il est immédiatement désinscrit.
+Une fois votre message envoyé, si un destinataire clique sur le lien d’exclusion, il est immédiatement désinscrit.
 
 ## Gestion du suivi {#manage-tracking}
 
@@ -142,5 +143,3 @@ Le [Concepteur d&#39;e-mail](create-email-content.md) permet de gérer les URL s
 Le nombre de messages ayant été ouverts et le nombre de liens ayant fait l&#39;objet d&#39;un clic sont répertoriés dans l&#39;onglet [Exécutions](message-monitoring.md).
 
 La création de rapports sur les ouvertures et les clics est disponible dans le [rapport dynamique sur les e-mails](reports/email-live-report.md) et dans le [Rapport global sur les e-mails](reports/email-global-report.md).
-
-

@@ -1,13 +1,14 @@
 ---
 title: Suppression d’offres personnalisées
 description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 100%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 100%
 
 Il peut parfois être nécessaire de supprimer (DELETE) une offre personnalisée. Seules les offres personnalisées que vous créez dans le conteneur de tenant peuvent être supprimées. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant le $id de l’offre personnalisée que vous souhaitez supprimer.
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}

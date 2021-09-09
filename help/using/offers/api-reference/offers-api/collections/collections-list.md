@@ -1,13 +1,14 @@
 ---
 title: Liste des collections
 description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
@@ -18,7 +19,7 @@ Les collections sont des sous-ensembles d’offres basés sur des conditions pr�
 
 Vous pouvez afficher une liste de toutes les collections au sein d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}

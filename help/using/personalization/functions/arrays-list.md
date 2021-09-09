@@ -1,13 +1,14 @@
 ---
 title: Bibliothèque de fonctions de tableau
 description: Bibliothèque de fonctions de tableau
-feature: Personnalisation
-topic: Personnalisation
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
@@ -233,10 +234,3 @@ L&#39;opération suivante définit les personnes qui ont mangé des sushis et de
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-

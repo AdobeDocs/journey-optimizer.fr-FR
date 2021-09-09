@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +63,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    >[!NOTE]
    >
-   >Le taux de ralentissement global par environnement de test est défini sur 20 000 messages par seconde. Par conséquent, le taux de ralentissement de tous les segments lus qui s’exécutent simultanément dans le même environnement de test s’élève à 20 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
+   >Le taux de limitation global par environnement Sandbox est défini sur 20 000 messages par seconde. Par conséquent, le taux de limitation de toutes les lectures de segment qui s&#39;exécutent simultanément dans le même environnement Sandbox s&#39;élève à 20 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
 1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
 

@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
+exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -67,7 +68,7 @@ La fonctionnalité d&#39;optimisation de l&#39;heure d&#39;envoi d&#39;Adobe Jo
 >
 >Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
 
-Le modèle d&#39;optimisation de l&#39;heure d&#39;envoi ingère vos données Adobe Journey Optimizer et examine les taux d&#39;ouverture au niveau de l&#39;utilisateur (pour les e-mails et les notifications push) et de clics (pour les e-mails) afin de déterminer à quel moment vos clients sont les plus susceptibles d&#39;interagir avec vos messages. L&#39;optimisation de l&#39;heure d&#39;envoi nécessite au moins un mois de données de suivi des messages pour formuler des recommandations éclairées. Pour chaque utilisateur, le système sélectionne automatiquement la meilleure heure à l’aide des scores suivants :
+Le modèle d&#39;optimisation de l&#39;heure d&#39;envoi ingère vos données Adobe Journey Optimizer et examine les taux d&#39;ouverture au niveau de l&#39;utilisateur (pour les e-mails et les notifications push) et de clics (pour les e-mails) afin de déterminer à quel moment vos clients sont les plus susceptibles d&#39;interagir avec vos messages. L&#39;optimisation de l&#39;heure d&#39;envoi nécessite au moins un mois de données de suivi des messages pour formuler des recommandations éclairées. Pour chaque utilisateur, le système sélectionne automatiquement la meilleure heure à l’aide des scores suivants :
 
 * La meilleure heure de chaque jour de la semaine pour optimiser l&#39;engagement
 * Le meilleur jour de la semaine pour optimiser l&#39;engagement
@@ -87,16 +88,16 @@ Ces informations sont stockées avec le profil de l&#39;utilisateur et sont réf
 >* Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
 
-### Activer l’optimisation du temps d’envoi{#activate-send-time-optimization}
+### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Activer l’optimisation du temps d’envoi"
+>title="Activer l’optimisation de l’heure d’envoi"
 >abstract="Choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Activer l’optimisation du temps d’envoi"
+>title="Activer l’optimisation de l’heure d’envoi"
 >abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
 
 Activez l&#39;optimisation de l&#39;heure d&#39;envoi sur un e-mail ou un message push en sélectionnant le commutateur **Optimisation de l&#39;heure d&#39;envoi** dans les paramètres de l&#39;activité Message.

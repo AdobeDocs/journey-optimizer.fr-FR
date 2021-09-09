@@ -3,7 +3,8 @@ title: Prise en main des jeux de données
 description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans Adobe Journey Optimizer
 role: User
 level: Beginner
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -40,4 +41,3 @@ Découvrez comment créer un jeu de données, le mapper à un schéma, y ajouter
 * [Création d’un schéma, d’un jeu de données et ingestion des données pour ajouter des profils de test dans Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Présentation de l’ingestion par flux](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target=&quot;_blank&quot;}
 * [Ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target=&quot;_blank&quot;}
-

@@ -1,13 +1,14 @@
 ---
 title: Jeu de données d'emplacements
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les emplacements.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '369'
 ht-degree: 100%
 
 ---

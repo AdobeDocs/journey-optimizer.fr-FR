@@ -5,10 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +39,7 @@ Les adresses email sont ajoutées à la liste de suppression comme suit :
 
 * Les **soft bounces**<!--and temporary **ignored** errors--> n’envoient pas immédiatement l’adresse email à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs [reprises](configuration/retries.md) sont alors effectuées, et lorsque le compteur d’erreurs atteint le seuil, l’adresse est ajoutée à la liste de suppression.
 
-* Vous pouvez également [**ajouter manuellement** une adresse ou un domaine](configuration/manage-suppression-list.md#add-addresses-and-domains) à la liste de suppression.
+* Vous pouvez également ajouter [**manuellement** une adresse ou un domaine](configuration/manage-suppression-list.md#add-addresses-and-domains) à la liste de suppression.
 
 Pour en savoir plus sur les hard bounces et les soft bounces, consultez [cette section](#delivery-failures).
 
@@ -53,21 +54,21 @@ Pour chaque adresse, la raison de base de la suppression et la catégorie de sup
 
 >[!NOTE]
 >
->Les profils ayant le statut **[!UICONTROL Supprimés]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de Parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](building-journeys/read-segment.md) et [Message](building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** telles qu’elles sont filtrées avant l’envoi par e-mail .
+>Les profils ayant le statut **[!UICONTROL Supprimé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](building-journeys/read-segment.md) et [Message](building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi de l’e-mail.
 >
->En savoir plus sur [Rapport dynamique](reports/live-report.md) et [Rapport global](reports/global-report.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>En savoir plus sur le [Rapport dynamique](reports/live-report.md) et le [Rapport global](reports/global-report.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.
 
 ### Échecs de diffusion {#delivery-failures}
 
-Il existe deux types d&#39;erreurs lorsqu&#39;une diffusion échoue :
+Deux types d’erreur sont liés à une diffusion en échec :
 
-* **Hard bounce**. Un hard bounce indique une adresse email non valide (c&#39;est-à-dire une adresse email qui n&#39;existe pas). Cela implique un message rebond du serveur de messagerie de réception qui indique explicitement que l’adresse n’est pas valide.
+* **Hard bounce**. Un hard bounce indique une adresse email non valide (c&#39;est-à-dire une adresse email qui n&#39;existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide.
 * **Soft bounce**. Il s&#39;agit d&#39;un email bounce temporaire qui s&#39;est produit en raison d&#39;une adresse email valide.
 <!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 Un **hard bounce** ajoute automatiquement l&#39;adresse e-mail à la liste de suppression.
 
-Un **soft bounce** <!--or an **ignored** error--> qui survient trop de fois envoie également l’adresse électronique à la liste de suppression après plusieurs tentatives. [En savoir plus sur les reprises](configuration/retries.md)
+Un **soft bounce** <!--or an **ignored** error--> qui se produit trop de fois envoie également l’adresse e-mail à la liste de suppression après plusieurs reprises. [En savoir plus sur les reprises](configuration/retries.md)
 
 Si vous continuez à envoyer des e-mails à ces adresses, cela peut avoir une incidence sur vos taux de diffusion, car cela indique aux FAI que vous ne suivez pas les bonnes pratiques en matière de gestion des listes d&#39;adresses e-mail et que, par conséquent, vous n&#39;êtes peut-être pas un expéditeur digne de confiance.
 

@@ -1,13 +1,14 @@
 ---
 title: Création de collections
 description: Découvrez comment organiser des offres à l'aide de collections.
-feature: Offres
-topic: Intégrations
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
