@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 75%
 
 ---
 
@@ -45,43 +45,67 @@ Pour créer une **offre**, procédez comme suit :
 
 ## Configuration des représentations de l&#39;offre {#representations}
 
-1. Ajoutez une ou plusieurs représentations pour votre offre à l&#39;aide du bouton **[!UICONTROL Ajouter une représentation]**.
+Une offre peut être affichée à différents endroits dans un message : dans une bannière supérieure avec une image, comme texte dans un paragraphe, comme bloc HTML, etc. Plus une offre a de représentations, plus il y a d&#39;occasions d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement.
 
-   >[!NOTE]
-   >
-   >Une offre peut être affichée à différents endroits dans un message : dans une bannière supérieure avec une image, sous forme de texte dans un paragraphe, sous forme de bloc html, etc. Plus une offre a de représentations, plus il y a d&#39;occasions d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement.
+Pour ajouter une ou plusieurs représentations à votre offre et les configurer, procédez comme suit.
 
-1. Pour chaque représentation, spécifiez le **[!UICONTROL Canal]** et l&#39;**[!UICONTROL Emplacement]** où l&#39;offre sera affichée.
+1. Pour la première représentation, commencez par sélectionner le **[!UICONTROL canal]** qui sera utilisé.
 
    ![](../../assets/channel-placement.png)
 
-   Le bouton **[!UICONTROL Parcourir]** permet de filtrer les emplacements disponibles, en fonction de leur canal et/ou de leur type de contenu.
+   Seuls les emplacements disponibles pour le canal sélectionné s’affichent dans la liste déroulante **[!UICONTROL Placement]** .
+
+1. Sélectionnez un emplacement dans la liste ou utilisez le bouton en regard de la liste déroulante **[!UICONTROL Placement]** pour parcourir tous les emplacements.
+
+   ![](../../assets/browse-button-placements.png)
+
+   Vous pouvez toujours filtrer les emplacements selon leur canal et/ou type de contenu. Sélectionnez un emplacement et cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](../../assets/browse-placements.png)
 
-1. Ajoutez le contenu à chaque représentation provenant de la bibliothèque de ressources Adobe Experience Cloud ou d&#39;un emplacement public externe.
+1. Ajoutez du contenu à votre représentation.
 
-   * Pour ajouter du contenu issu de la bibliothèque de ressources Adobe Experience Cloud, faites-le glisser du volet de gauche vers la zone de représentation, puis spécifiez l&#39;URL à associer au contenu dans le champ **[!UICONTROL Lien de destination]**.
+   >[!NOTE]
+   >
+   >Notez que seul le contenu correspondant au type de contenu de l&#39;emplacement peut être utilisé.
+
+   * Si l’emplacement sélectionné est de type image, vous pouvez ajouter du contenu provenant de la bibliothèque de ressources Adobe Experience Cloud, un référentiel centralisé de ressources fourni par [!DNL Adobe Experience Manager Assets Essentials].
 
       >[!NOTE]
       >
-      >Il n&#39;est possible d&#39;effectuer un glisser-déposer du contenu qu&#39;à partir du Sélecteur de ressources dans le panneau de gauche. Notez que seul le contenu correspondant au type de contenu de l&#39;emplacement peut être utilisé.
+      > Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs font partie des **utilisateurs consommateurs d’Assets Essentials** ou/et **utilisateurs d’Assets Essentials** profils de produit. En savoir plus sur [cette page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
-      ![](../../assets/offer_drag_content.png)
+      Choisissez l’option **[!UICONTROL Bibliothèque de ressources]** et sélectionnez **[!UICONTROL Parcourir]**.
 
-   * Pour ajouter du contenu à partir d&#39;un emplacement public externe, cliquez sur le bouton **[!UICONTROL Ajouter du contenu]**, puis spécifiez le nom, l&#39;URL et le lien de destination du contenu à ajouter.
+      ![](../../assets/offer-browse-asset-library.png)
 
-      Assurez-vous que le contenu que vous ajoutez correspond au type de contenu de l&#39;emplacement sélectionné.
+      Parcourez les ressources pour sélectionner l’image de votre choix et cliquez sur **[!UICONTROL Sélectionner]**.
 
-      ![](../../assets/offer_add_content.png)
+      ![](../../assets/offer-select-asset.png)
 
-   * Vous pouvez également insérer du contenu de type texte. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter du contenu]**, puis sélectionnez l&#39;option **[!UICONTROL Texte personnalisé]**. Dans le champ **[!UICONTROL Texte]**, saisissez le texte qui s&#39;affichera dans l&#39;offre.
+   * Pour ajouter du contenu provenant d’un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l’adresse URL du contenu à ajouter.
+
+      ![](../../assets/offer-content-url.png)
+
+   * Vous pouvez également insérer du contenu de type texte lors de la sélection d’un emplacement compatible. Sélectionnez l’option **[!UICONTROL Personnalisée]** et saisissez le texte qui s’affichera dans l’offre.
+
+      ![](../../assets/offer-text-content.png)
 
       >[!NOTE]
       >
       >Cette option n&#39;est pas disponible pour les emplacements de type image.
 
-      ![](../../assets/offer_text_content.png)
+1. Lorsque vous ajoutez du contenu tel qu’une image ou une URL, vous pouvez spécifier un **[!UICONTROL Lien destination]** : les utilisateurs qui cliquent sur l’offre sont redirigés vers la page correspondante.
+
+   ![](../../assets/offer-destination-link.png)
+
+1. Enfin, sélectionnez la langue de votre choix pour vous aider à identifier et gérer les éléments à afficher pour les utilisateurs.
+
+1. Pour ajouter une autre représentation, utilisez le bouton **[!UICONTROL Ajouter une représentation]** et ajoutez autant de représentations que nécessaire.
+
+   ![](../../assets/offer-add-representation.png)
+
+1. Une fois que vous avez ajouté toutes vos représentations, sélectionnez **[!UICONTROL Suivant]**.
 
 ## Ajout de règles d’éligibilité et de contraintes {#eligibility}
 

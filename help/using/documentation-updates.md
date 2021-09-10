@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 79%
+source-wordcount: '473'
+ht-degree: 76%
 
 ---
 
@@ -30,6 +30,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour de la section Déléguer un sous-domaine avec des informations plus détaillées sur le processus de validation effectué par Adobe. [En savoir plus](configuration/delegate-subdomain.md#subdomain-validation)
 * Ajout d’une section décrivant comment ajouter manuellement des adresses et des domaines de courriel à la liste de suppression. [En savoir plus](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Mise à jour des sections [Accéder à la liste de suppression](configuration/manage-suppression-list.md#access-suppression-list) et [Reprises](configuration/retries.md) pour refléter la nouvelle interface utilisateur.
+* Le nouveau flux pour ajouter et configurer des représentations lors de la création d’une offre a été documenté. [En savoir plus](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juillet 2021

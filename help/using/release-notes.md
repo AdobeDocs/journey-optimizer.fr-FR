@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 91%
+source-wordcount: '1113'
+ht-degree: 88%
 
 ---
 
@@ -148,7 +148,10 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 * **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](allow-list.md#enable-allow-list)
 * **Navigation**  : la liste de suppression, accessible sous  **Administration > Canaux > Configuration des emails >** Menu général, a été déplacée vers le nouveau sous-menu  **Liste de suppression** , qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**Gestion des décisions**
+
+* La manière dont vous ajoutez et configurez des représentations lors de la création d’une offre a été mise à jour pour améliorer l’expérience utilisateur. En particulier, la bibliothèque de ressources s’affiche désormais uniquement lorsque vous définissez du contenu de type image pour une représentation. [En savoir plus](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Correctifs
 
