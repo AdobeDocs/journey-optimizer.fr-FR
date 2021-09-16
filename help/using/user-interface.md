@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 100%
+source-wordcount: '1527'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 Une fois connecté à [Adobe Experience Cloud](http://experience.adobe.com), accédez à [!DNL Journey Optimizer].
 
+Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+
+Les composants et fonctionnalités disponibles dans l’interface utilisateur dépendent de vos [autorisations](administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Pour toute question, contactez votre responsable clients Adobe.
+
 >[!NOTE]
 >
->* Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
->
->* Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
->
-> * Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur dépendent de vos autorisations et de votre package de licence. Pour toute question, contactez votre responsable clients Adobe.
+>Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
 
 
 ## Navigation gauche
@@ -111,32 +111,32 @@ Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **
 
 ## Accessibilité{#accessibility}
 
-Les fonctionnalités d’accessibilité dans Adobe Journey Optimizer sont fournies par Adobe Experience Platform :
+Les fonctionnalités d’accessibilité de [!DNL Adobe Journey Optimizer] sont héritées de Adobe Experience Platform :
 
 * Accessibilité à l’aide du clavier
 * Contraste des couleurs
 * Validation des champs obligatoires
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
 
-Vous pouvez utiliser les raccourcis clavier suivants dans Adobe Journey Optimizer :
+Vous pouvez utiliser ces raccourcis clavier courants dans [!DNL Journey Optimizer] :
 
 | Action | Raccourci |
 | --- | --- |
 | Déplacement entre les éléments, sections et groupes de menus de l’interface utilisateur | Tabulation |
-| Retour en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur. | Maj+Tabulation |
-| Déplacement à l’intérieur des sections pour définir la mise en évidence sur des éléments individuels | Flèche |
-| Sélection ou suppression d‘un élément mis en évidence | Entrée ou Barre d’espacement |
+| Retour en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur | Maj+Tabulation |
+| Déplacement dans des sections pour définir la cible d’action sur des éléments individuels | Flèche |
+| Sélection ou suppression d’un élément ciblé | Entrée ou Barre d’espace |
 | Annulation d’une sélection, réduction d’un panneau ou fermeture d’une boîte de dialogue | Échap |
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
 
 Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
 
 <table>
   <thead>
     <tr>
-      <th>Élément de l’interface</th>
+      <th>Élément d’interface</th>
       <th>Action</th>
       <th>Raccourci</th>
     </tr>
@@ -147,9 +147,9 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Opt
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Zone de travail de parcours au statut de brouillon</td>
-    <td>Ajout d‘une activité à partir de la palette gauche à la première position disponible, du haut vers le bas</td>
-    <td>Double-clic sur l’activité</td>
+    <td rowspan="3">Zone de travail de parcours en version préliminaire</td>
+    <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
+    <td>Effectuez un double clic sur l’activité.</td>
   </tr>
   <tr>
     <td>Sélection de toutes les activités</td>
@@ -157,7 +157,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Opt
   </tr>
   <tr>
     <td>Suppression des activités sélectionnées</td>
-    <td>Supprimer ou Retour arrière, puis Entrée pour confirmer la suppression</td>
+    <td>Suppr ou Retour arrière, puis Entrée pour confirmer la suppression</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -177,7 +177,7 @@ Volet de configuration de ces éléments :
   </tr>
   <tr>
     <td>Enregistrement des modifications et fermeture du volet de configuration</td>
-    <td>Entrée</td>
+    <td>Enter</td>
   </tr>
   <tr>
     <td>Rejet des modifications et fermeture du volet de configuration</td>
@@ -195,7 +195,7 @@ Volet de configuration de ces éléments :
   <tr>
     <td>
 
-Déclenchement d’un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée
+Déclenchez un événement dans un parcours basé sur des segments pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée.
 
 </td>
     <td>P</td>
@@ -213,7 +213,7 @@ Déclenchement d’un événement dans un parcours basé sur des segments pour l
 -->
   <tr>
     <td>Champ de texte</td>
-    <td>Sélection de tout le texte du champ sélectionné</td>
+    <td>Sélection de tout le texte dans le champ sélectionné</td>
     <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
   <tr>
@@ -231,7 +231,7 @@ Déclenchement d’un événement dans un parcours basé sur des segments pour l
     <td>Double-clic sur un champ</td>
   </tr>
   <tr>
-    <td>Parcours des champs XDM</td>
+    <td>Navigation à travers les champs XDM</td>
     <td>Sélection de tous les champs d’un nœud</td>
     <td>Sélection du nœud parent</td>
   </tr>
