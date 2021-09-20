@@ -11,12 +11,12 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 0c7ca9a87a55c04b977a29c6be446da143722e37
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
+source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 83%
