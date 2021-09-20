@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 87%
 
 ---
 
@@ -142,3 +142,24 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 >[!CAUTION]
 >
 >L&#39;utilisation de la variable **xEvent** n&#39;est pas disponible dans les expressions de personnalisation. Toute référence à xEvent entraîne des échecs de validation.
+
+## Personnalisation des URL{#perso-urls}
+
+Journey Orchestration vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour ce faire :
+
+* Créez un lien dans votre contenu Email ou Push. Pour en savoir plus sur la création de liens, consultez [cette page](../message-tracking#insert-links)).
+* Cliquez sur l’icône de personnalisation. Cette icône est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>`
+>Dans l’éditeur d’expression, lorsque vous modifiez une URL personnalisée, les fonctions d’assistance et l’appartenance aux segments sont désactivées pour des raisons de sécurité.
+
+** Exemples d’URL personnalisées **
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+

@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 88%
+source-wordcount: '1174'
+ht-degree: 86%
 
 ---
 
@@ -52,23 +52,23 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
-<th><strong>Personalized URLs</strong><br/></th>
+<th><strong>URL personnalisées</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>Les URL personnalisées orientent les destinataires vers des pages spécifiques d'un site web ou vers un microsite personnalisé, en fonction des attributs du profil. Dans Adobe Journey Optimizer, vous pouvez désormais ajouter une personnalisation aux URL dans le contenu de votre message. La personnalisation de l'URL peut être appliquée au texte et aux images, et utiliser les données de profil ou les données contextuelles.</p>
+<p>Pour plus d'informations, consultez la <a href="personalization/personalization-syntax.md#perso-urls">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
@@ -95,7 +95,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>L’ajout d’adresses et de domaines de courriel dans la liste de suppression est désormais disponible dans l’interface utilisateur, une par une, soit en mode masse via un téléchargement de fichier CSV.</p>
+<p>L’ajout d’adresses et de domaines de messagerie dans la liste de suppression est désormais disponible dans l’interface utilisateur, une par une, ou en masse via un téléchargement de fichier CSV.</p>
 <p>Pour plus d'informations, consultez la <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">documentation détaillée</a>.</p>
 </td>
 </tr>
