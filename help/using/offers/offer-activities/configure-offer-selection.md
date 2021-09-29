@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,9 @@ ht-degree: 100%
 Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision (précédemment appelée « activité d&#39;offre »). Vous pouvez classer les offres par :
 * Priorité des offres
 * Formule de classement
+* [Classement](#use-ranking-strategy)  AI (en accès anticipé pour certains utilisateurs uniquement)
+
+![](../../assets/offer-rank-by.png)
 
 ## Priorité d’offre {#about-offers-priority}
 
@@ -54,3 +57,41 @@ Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un 
 La formule de classement est désormais associée à l&#39;emplacement.
 
 Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera la formule de classement pour calculer l&#39;offre à diffuser en premier.
+
+## Classement par l&#39;IA {#use-ranking-strategy}
+
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+
+>[!CAUTION]
+>
+>L’utilisation du classement AI est actuellement disponible en accès anticipé pour certains utilisateurs uniquement.
+
+Après avoir créé une stratégie de classement, vous pouvez l&#39;affecter à un emplacement dans une décision (précédemment appelée « activité d&#39;offre »). Pour ce faire, procédez comme suit :
+
+1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
+
+1. Ajoutez les emplacements qui contiendront vos offres. Voir [Créer des emplacements](../offer-library/creating-placements.md).
+
+1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
+
+1. Choisissez de classer les offres à l&#39;aide du **[!UICONTROL classement par l&#39;IA]** dans la liste déroulante.
+
+   ![](../../assets/ranking-selection-ai-ranking.png)
+
+1. Cliquez sur **[!UICONTROL Ajouter un classement]**.
+
+   ![](../../assets/ranking-selection-ai-ranking-add.png)
+
+1. Sélectionnez la stratégie de classement que vous avez créée. Tous les détails de la stratégie de classement s&#39;affichent.
+
+   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+
+1. Cliquez sur **[!UICONTROL Sélectionner]**.
+
+La stratégie de classement est désormais associée à l&#39;emplacement.
+
+Si plusieurs offres sont éligibles, le système de modèles formés détermine l&#39;offre qui doit être présentée en premier pour un emplacement donné.
+
+<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
+
+<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

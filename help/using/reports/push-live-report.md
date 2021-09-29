@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 89%
 
 ---
 
@@ -39,11 +39,27 @@ Les **[!UICONTROL performances des notifications push]** et les widgets de **[!U
 
 * **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée (par exemple, clic sur un bouton ou rejet).
 
-* **[!UICONTROL Engagements]** : nombre total d’ouvertures et d’actions pour cette notification push, c’est-à-dire si le profil a ouvert la notification ou si un utilisateur a cliqué sur un bouton.
+* **[!UICONTROL Engagements]** : nombre total d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification ou si un utilisateur a cliqué sur un bouton.
+
+Le tableau **[!UICONTROL Mesures d’envoi - par push]** détaille le succès de votre diffusion :
+
+* **[!UICONTROL Ciblé]** : Nombre de profils utilisateur qui remplissent les critères de ciblage pour cette diffusion.
+
+* **[!UICONTROL Exclu]** : Nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
+
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs qui se sont produites au cours d’une diffusion, l’empêchant d’être envoyée aux profils.
+
+* **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
 ![](../assets/live_report_4.png)
 
-Les graphiques et tableaux **[!UICONTROL Suivi par plate-forme]**, **[!UICONTROL Envoi par plate-forme]** et **[!UICONTROL Ventilation par plate-forme]** décrivent le succès de votre notification push en fonction du système opérationnel.
+Les graphiques et les tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** indiquent le succès de votre notification push selon votre système opérationnel.
 
 Le widget **[!UICONTROL Statistiques d&#39;envoi - Échec]** vous permet de voir combien d&#39;erreurs et de rebonds ont eu lieu.
 

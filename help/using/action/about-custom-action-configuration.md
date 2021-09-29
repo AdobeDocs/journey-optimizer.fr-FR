@@ -7,17 +7,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 96%
 
 ---
 
 # Configurer une action {#configure-an-action}
 
 Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d&#39;API à un système tiers, c&#39;est à cet emplacement que vous configurez la connexion de ce système aux parcours. L&#39;action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [cette page](../building-journeys/about-journey-activities.md#action-activities). À titre d&#39;exemple, Epsilon, Facebook, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à l&#39;aide d&#39;actions personnalisées.
+
 Les limites sont répertoriées dans [cette page](../limitations.md).
+
+Vous pouvez transmettre des collections de manière dynamique à l’aide d’actions personnalisées. Reportez-vous à ce [cas pratique](../limitations.md).
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 
@@ -56,12 +59,14 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
    * Si l’URL comprend un chemin dynamique, saisissez uniquement la partie statique de l’URL, c’est-à-dire le schéma, l’hôte, le port et, éventuellement, une partie statique du chemin.
 
-      Exemple : `https://xxx.yyy.com:8080/somethingstatic/`
+      Exemple : `https://xxx.yyy.com/somethingstatic/`
 
       Vous spécifiez le chemin dynamique de l’URL lors de l’ajout de l’action personnalisée à un parcours. [En savoir plus](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
+   >
+   >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
 1. Dans la section **[!UICONTROL En-têtes]** , définissez les en-têtes HTTP du message de demande à envoyer au service externe :
@@ -106,3 +111,4 @@ Vous pourrez également préciser si le paramètre est une constante ou une vari
 * Le paramètre « Variable » signifie que la valeur du paramètre varie. Le marketeur qui utilise cette action personnalisée dans un parcours peut transmettre la valeur de son choix ou bien indiquer où récupérer la valeur de ce paramètre (à partir de l&#39;événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le marketeur voit dans le parcours pour nommer ce paramètre.
 
 ![](../assets/customactionpayloadmessage2.png)
+

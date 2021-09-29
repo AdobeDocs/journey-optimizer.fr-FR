@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 100%
+source-wordcount: '1363'
+ht-degree: 95%
 
 ---
 
@@ -182,3 +182,7 @@ Vous pouvez modifier la durée de mise en cache du jeton pour une source de donn
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points de terminaison d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée du cache est de 1 heure. Dans la payload de l’action personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.

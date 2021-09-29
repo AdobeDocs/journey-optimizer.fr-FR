@@ -6,16 +6,20 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 88%
 
 ---
 
 # À propos de Decision Management {#about-offer-decision}
 
 Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les meilleures offre et expérience possibles à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées.
+
+>[!NOTE]
+>
+>Si vous êtes un utilisateur de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=&quot;_blank&quot;} qui exploite le service d’application **Offer Decisioning**, toutes les fonctionnalités de gestion de décision décrites dans cette section s’appliquent également à vous.
 
 La fonctionnalité Decision Management comprend deux composants principaux :
 
@@ -60,6 +64,13 @@ Les fonctionnalités de Decision Management et l’intégration à Adobe Experie
 
    ![](../../assets/do-not-localize/call-center.png)
 
+## Accorder l’accès à la gestion des décisions {#granting-acess-to-decision-management}
+
+Les autorisations d’accès et d’utilisation des fonctionnalités de l’offer decisioning sont gérées à l’aide de [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+
+Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs. Pour en savoir plus sur la gestion des utilisateurs et des autorisations [!DNL Journey Optimizer] dans [cette section](../../administration/permissions.md).
+
+Les autorisations spécifiques à la gestion de la décision sont répertoriées dans [cette section](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Glossaire {#glossary}
 
@@ -96,7 +107,7 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 >[!NOTE]
 >
->Ces vidéos s’appliquent au service applicatif Offer Decisioning basé sur Adobe Experience Platform et ne sont pas spécifiques à [!DNL Adobe Journey Optimizer]. Elles fournissent toutefois des directives générales pour l&#39;utilisation de Decision Management dans le contexte de [!DNL Journey Optimizer].
+>Ces vidéos s’appliquent au service applicatif Offer Decisioning basé sur Adobe Experience Platform et ne sont pas spécifiques à [!DNL Adobe Journey Optimizer]. Cependant, ils fournissent des conseils génériques pour utiliser la gestion des décisions dans le contexte de [!DNL Journey Optimizer].
 
 ### Qu&#39;est-ce que Decision Management ?  {#what-is-offer-decisioning}
 

@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 74%
+source-wordcount: '712'
+ht-degree: 56%
 
 ---
 
@@ -15,8 +15,33 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Septembre 2021
 
+* Les pages de fonctions suivantes ont été mises à jour : [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* Les fonctions suivantes ont été ajoutées : [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* Le type de date date dateOnly a été ajouté à la documentation de l’éditeur d’expression. [En savoir plus](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* Ajout d’informations sur la durée du cache d’action personnalisée. [En savoir plus](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Ajout d’informations sur les ports par défaut des actions personnalisées. [En savoir plus](action/about-custom-action-configuration.md#url-configuration)
+
+* Ajout d’informations sur plusieurs cas d’utilisation d’événements professionnels. [En savoir plus](event/about-creating-business.md#multiple-business-events)
+
+* Ajout d’exemples fréquemment utilisés pour interroger les événements d’étape de Parcours dans le lac de données. [En savoir plus](reports/query-examples.md)
+
 * Ajout d’une nouvelle page **Limites**. [En savoir plus](limitations.md)
+
 * Amélioration de la page **Démarrage rapide** avec des étapes pour différentes personnes. [En savoir plus](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* Désormais, toutes les fonctionnalités de gestion de la décision décrites dans la section dédiée s’appliquent également aux utilisateurs de Adobe Experience Platform qui exploitent le service d’application Offer Decisioning. [En savoir plus](offers/get-started/starting-offer-decisioning.md)
+
+* Ajout d’une sous-section afin de clarifier les différences entre l’utilisation des segments et des règles de décision lors de l’application d’une contrainte afin de restreindre la sélection des offres pour un emplacement donné. [En savoir plus](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* Ajout d’exemples de formule de classement spécifiques pour illustrer certains cas d’utilisation réels. [En savoir plus](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* Ajout d’une sous-section sur la modification des pools d’adresses IP - [En savoir plus](configuration/ip-pools.md#edit-ip-pool)
 
 ## Août 2021
 
@@ -35,7 +60,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour de la section Déléguer un sous-domaine avec des informations plus détaillées sur le processus de validation effectué par Adobe. [En savoir plus](configuration/delegate-subdomain.md#subdomain-validation)
 * Ajout d’une section décrivant comment ajouter manuellement des adresses et des domaines de courriel à la liste de suppression. [En savoir plus](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Mise à jour des sections [Accéder à la liste de suppression](configuration/manage-suppression-list.md#access-suppression-list) et [Reprises](configuration/retries.md) pour refléter la nouvelle interface utilisateur.
-* Le nouveau flux pour ajouter et configurer des représentations lors de la création d’une offre a été documenté. [En savoir plus](offers/offer-library/creating-personalized-offers.md#representations)
+* Le nouveau flux pour ajouter et configurer des représentations lors de la création d&#39;une offre a été documenté. [En savoir plus](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juillet 2021

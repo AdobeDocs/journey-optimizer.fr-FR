@@ -16,24 +16,24 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 41%
 
 ---
 
 # Création de pools d&#39;adresses IP
 
-## À propos des pools d&#39;adresses IP
+## À propos des pools d&#39;adresses IP {#about-ip-pools}
 
 Avec Journey Optimizer, vous pouvez créer des pools d&#39;adresses IP pour regrouper les adresses IP de vos sous-domaines.
 
 La création de pools d&#39;adresses IP est vivement recommandée pour la délivrabilité des e-mails. Ce faisant, vous pouvez empêcher la réputation d&#39;un sous-domaine d&#39;avoir un impact sur vos autres sous-domaines.
 
-Par exemple, il est recommandé d&#39;avoir un pool d&#39;adresses IP pour vos messages marketing, et un autre pour vos messages transactionnels. De cette manière, si les performances de l&#39;un de vos messages marketing sont mauvaises et s&#39;il est déclaré comme indésirable par un client, cela n&#39;affecte pas les messages transactionnels envoyés à ce même client, qui recevra toujours des messages transactionnels (confirmations d’achat, messages de récupération de mot de passe, etc.).
+Par exemple, il est recommandé d&#39;avoir un pool d&#39;adresses IP pour vos messages marketing, et un autre pour vos messages transactionnels. De cette manière, si l’un de vos messages marketing fonctionne mal et est déclaré comme indésirable par un client, cela n’affecte pas les messages transactionnels envoyés à ce même client, qui recevra toujours des messages transactionnels (confirmations d’achat, messages de récupération de mot de passe, etc.).
 
-## Création d&#39;un pool d&#39;adresses IP
+## Création d&#39;un pool d&#39;adresses IP {#create-ip-pool}
 
 Pour créer un pool d&#39;adresses IP, procédez comme suit :
 
@@ -55,12 +55,49 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher le préréglage de message associé. Pour plus d&#39;informations sur l&#39;association d&#39;un préréglage de message à un pool d&#39;adresses IP, consultez [cette section](message-presets.md).
+Le pool d’adresses IP est maintenant créé et s’affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher le préréglage de message associé. Pour plus d&#39;informations sur l&#39;association d&#39;un préréglage de message à un pool d&#39;adresses IP, consultez [cette section](message-presets.md).
 
 ![](../assets/ip-pool-created.png)
 
-Pour modifier un pool d&#39;adresses IP, ouvrez-le, puis modifiez ses propriétés selon vos besoins.
+## Modification d’un pool d’adresses IP {#edit-ip-pool}
+
+Pour modifier un pool d’adresses IP :
+
+1. Dans la liste, cliquez sur le nom du pool d’adresses IP pour l’ouvrir.
+
+   ![](../assets/ip-pool-list.png)
+
+1. Modifiez ses propriétés selon vos besoins. Vous pouvez modifier la description et ajouter ou supprimer des adresses IP.
+
+   ![](../assets/ip-pool-edit.png)
+
+   >[!CAUTION]
+   >
+   >Procédez avec une attention particulière lorsque vous envisagez de supprimer une adresse IP, car cela imposera une charge supplémentaire aux autres adresses IP et peut avoir de graves répercussions sur votre délivrabilité. En cas de doute, contactez un expert en délivrabilité.
+
+1. Enregistrez vos modifications.
 
 >[!NOTE]
 >
->Si un préréglage de message a été associé au pool d&#39;adresses IP, vous devez d&#39;abord le supprimer avant de modifier le pool d&#39;adresses IP. Une fois vos modifications effectuées, vous pouvez associer à nouveau le préréglage de message.
+>Le nom du pool d’adresses IP n’est pas modifiable. Si vous souhaitez le modifier, vous devez supprimer le pool d’adresses IP et en créer un autre avec le nom de votre choix.
+
+La mise à jour est effective immédiatement ou de manière asynchrone, selon que le pool d’adresses IP est associé ou non à un [paramètre prédéfini de message](message-presets.md) :
+
+* Si le pool d’adresses IP est **non** sélectionné dans un paramètre prédéfini de message, la mise à jour est instantanée (**[!UICONTROL statut]** ).
+* Si le pool d’adresses IP **est** sélectionné dans un paramètre prédéfini de message, la mise à jour peut prendre jusqu’à 7 à 10 jours ouvrables (état **[!UICONTROL Traitement]** ).
+
+<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
+
+Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
+
+![](../assets/ip-pool-recent-update.png)
+
+>[!NOTE]
+>
+>Une fois qu’un pool d’adresses IP a été mis à jour, vous devrez peut-être attendre :
+>* quelques minutes avant d&#39;être consommée par les messages unitaires,
+>* jusqu’au lot suivant pour que le pool d’adresses IP soit efficace dans les messages par lots.
+
+
+Vous pouvez également utiliser le bouton **[!UICONTROL Supprimer]** pour supprimer un pool IP. Notez que vous ne pouvez pas supprimer un pool d’adresses IP associé à un paramètre de message prédéfini.
+

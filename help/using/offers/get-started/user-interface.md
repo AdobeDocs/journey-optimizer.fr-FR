@@ -6,16 +6,20 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 94%
 
 ---
 
 # Interface utilisateur {#user-interface}
 
 La bibliothèque des offres vous permet de créer et de gérer vos emplacements et vos offres à un emplacement unique, mais aussi d’accéder à toutes les décisions (auparavant « activités d’offre ») créées.
+
+>[!NOTE]
+>
+>Si vous rencontrez des problèmes lors de l’accès à la bibliothèque des offres ou à certaines de ses fonctionnalités, vérifiez auprès d’un utilisateur administrateur que les droits requis vous ont été attribués. Voir [Accorder l’accès à la gestion des décisions](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 Utilisez le menu **[!UICONTROL Offres]** pour gérer les offres personnalisées et de secours, les organiser en collections et les diffuser en créant des décisions :
 

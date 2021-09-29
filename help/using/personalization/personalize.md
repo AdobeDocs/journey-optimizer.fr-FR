@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,6 @@ Dans les deux cas, vous accédez à l’éditeur de personnalisation.
 
 ![](assets/perso_ee.png)
 
-
 ### Personnalisation de vos notifications push
 
 Vous pouvez également personnaliser vos **notifications push** dans les champs suivants :
@@ -78,7 +77,13 @@ Vous pouvez également personnaliser vos **notifications push** dans les champs 
 
 Pour en savoir plus sur la configuration des notifications push, consultez [cette section](../push-gs.md).
 
-## Utilisation de l&#39;éditeur d&#39;expression
+### Personnaliser vos offres {#personalize-offers}
+
+Vous pouvez également accéder à l’éditeur de personnalisation lors de l’ajout de contenu de type texte aux représentations de vos offres.
+
+Pour en savoir plus sur la gestion du contenu avec la gestion des décisions, consultez [cette section](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## Utilisation de l&#39;éditeur d&#39;expression {#use-expression-editor}
 
 L&#39;éditeur d&#39;expression est l&#39;élément central de la personnalisation dans [!DNL Journey Optimizer].
 

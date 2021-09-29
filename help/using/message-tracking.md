@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '834'
 ht-degree: 100%
 
 ---
@@ -112,7 +112,9 @@ Pour ajouter un lien d’exclusion dans votre e-mail, procédez comme suit.
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+   Vous pouvez personnaliser vos liens. Pour en savoir plus sur les URL personnalisées, consultez [cette section](personalization/personalization-syntax.md).
+
+1. Enregistrez vos modifications.
 
 Une fois votre message envoyé, si un destinataire clique sur le lien d’exclusion, il est immédiatement désinscrit.
 

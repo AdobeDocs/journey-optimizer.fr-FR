@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,7 @@ ht-degree: 100%
    + Cas d&#39;utilisation {#journey-use-cases}
       + [Envoi de messages à plusieurs canaux](using/building-journeys/journeys-uc.md)
       + [Envoi de messages à l&#39;aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+      + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
 + Tracker et surveiller {#reporting}
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
@@ -115,6 +116,7 @@ ht-degree: 100%
       + [Champs d&#39;exécution d&#39;action](using/reports/sharing-execution-fields.md)
       + [Champs de récupération de données](using/reports/sharing-fetch-fields.md)
       + [Champs d&#39;identité](using/reports/sharing-identity-fields.md)
+      + [Exemples de requêtes](using/reports/query-examples.md)
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/deliverability.md)
       + [Liste de suppression](using/suppression-list.md)
@@ -130,6 +132,7 @@ ht-degree: 100%
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
       + [Création de balises](using/offers/offer-library/creating-tags.md)
       + [Création de formules de classement](using/offers/offer-library/create-ranking-formulas.md)
+      + [Création de stratégies de classement](using/offers/offer-library/create-ranking-strategies.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
       + [Création d&#39;offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
       + [Création d&#39;offres de secours](using/offers/offer-library/creating-fallback-offers.md)

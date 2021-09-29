@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -98,7 +98,7 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
 Pour une prévisualisation de notification push :
 
-1. Accédez au canal **[!UICONTROL push]** à partir de la liste déroulante **[!UICONTROL Canaux]** située en haut à gauche de l&#39;écran **[!UICONTROL Prévisualisation]**.
+1. Passez au canal **[!UICONTROL Push]** à partir de la liste déroulante **[!UICONTROL Canaux]** en haut à droite de l’écran **[!UICONTROL Aperçu]**.
 
    ![](assets/preview-select-channel.png)
 
