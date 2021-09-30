@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 40%
 
 ---
@@ -30,11 +30,9 @@ Vous pourrez ensuite affecter des membres de l’équipe aux profils de produit 
 
 En savoir plus dans les pages suivantes :
 
-* **Prise en main des profils de produit et des autorisations**
-
 * **Définissez les** autorisations utilisateur et accordez l’accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
 
-* **Déployez[!DNL Adobe Experience Manager Assets Essentials]** pour gérer les ressources et les images dans vos messages : Les utilisateurs qui doivent accéder à  [!DNL Assets Essentials] doivent faire partie des profils  **Utilisateurs du client** Assets Essentials et  **UtilisateursProduit** Assets Essentials. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}
+* **Déployez[!DNL Adobe Experience Manager Assets Essentials]** pour gérer les ressources et les images dans vos messages : Les utilisateurs qui doivent accéder à  [!DNL Assets Essentials] doivent faire partie des profils  **Utilisateurs du client** Assets Essentials et  **UtilisateursProduit** Assets Essentials. [En savoir plus dans la documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}
 
 * **Configurez votre** canal et définissez vos paramètres de messagerie électronique et de notification push. [En savoir plus](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ En savoir plus dans les pages suivantes :
 
 En tant qu’administrateur de données, vous devez **identifier les données et créer un schéma et un jeu de données** pour intégrer vos données dans Adobe Experience Platform.
 
-Les étapes de création d’un espace de noms d’identité et d’un jeu de données activé pour les profils, ainsi que de création de segments et de profils de test, sont présentées dans les sections ci-dessous :
+Les étapes de création d’un espace de noms d’identité et d’un jeu de données activé pour les profils, la création de segments et les profils de test sont détaillées dans les sections ci-dessous :
 
 * Découvrez comment prévisualiser et créer un **jeu de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr){target=&quot;_blank&quot;}
 
@@ -63,7 +61,7 @@ En outre, pour pouvoir envoyer des messages dans parcours, vous devez configurer
 
 ## Créer des messages, des offres et des parcours
 
-En tant que praticien de Parcours, reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres, des ressources et envoyer des messages :
+En tant que praticien de Parcours, reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres et des ressources et envoyer des messages :
 
 * **Créer des messages** : accédez aux messages, concevez ou chargez du contenu d&#39;email et push, ajoutez des messages de personnalisation et de prévisualisation. [En savoir plus](create-message.md)
 
