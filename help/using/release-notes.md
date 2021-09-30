@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 72%
+source-wordcount: '1529'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle mesure est disponible dans les rapports : l’audience ciblée pour les emails et les messages push est visible dans les rapports en ligne et globaux.</p>
+<p>De nouvelles mesures sont disponibles dans les rapports : Les messages ciblés et exclus pour les emails et les notifications push sont visibles dans les rapports en ligne et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="reports/live-report.md">documentation détaillée.</a></p>
 <p>Une nouvelle colonne de la liste d'exécution des messages affiche le nombre de profils ciblés pour chaque exécution du message. </p>
 <p>Pour plus d'informations, consultez la <a href="message-monitoring.md">documentation détaillée</a>.</p>
 </td>
