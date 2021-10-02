@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 96%
+source-wordcount: '844'
+ht-degree: 88%
 
 ---
 
@@ -108,7 +108,7 @@ Vous aurez la possibilité de définir le type de paramètre (par exemple : str
 Vous pourrez également préciser si le paramètre est une constante ou une variable :
 
 * Le paramètre « Constante » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une personne ayant un rôle technique. La valeur reste identique dans tous les parcours et le marketeur ne la voit pas lors de l&#39;utilisation de l&#39;action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond à la valeur transmise.
-* Le paramètre « Variable » signifie que la valeur du paramètre varie. Le marketeur qui utilise cette action personnalisée dans un parcours peut transmettre la valeur de son choix ou bien indiquer où récupérer la valeur de ce paramètre (à partir de l&#39;événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le marketeur voit dans le parcours pour nommer ce paramètre.
+* Le paramètre « Variable » signifie que la valeur du paramètre varie. Les marketeurs qui utilisent cette action personnalisée dans un parcours peuvent transmettre la valeur de leur choix ou indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, de Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que les marketeurs verront dans le parcours pour nommer ce paramètre.
 
 ![](../assets/customactionpayloadmessage2.png)
 

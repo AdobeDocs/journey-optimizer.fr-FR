@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -139,7 +139,7 @@ Comme de nombreux clients recherchent un processus plus facile pour se désabonn
 
 Découvrez comment ajouter un lien d’exclusion au contenu de votre message dans [cette section](message-tracking.md#one-click-opt-out-link).
 
-Une fois votre message envoyé via un [parcours](building-journeys/journey.md), si un destinataire clique sur le lien d’exclusion, il est immédiatement désinscrit.
+Une fois votre message envoyé via un [parcours](building-journeys/journey.md), si un destinataire clique sur le lien d’exclusion, son profil est immédiatement exclu.
 
 ## Lien de désabonnement dans l&#39;en-tête {#unsubscribe-email}
 

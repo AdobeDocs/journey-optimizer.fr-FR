@@ -2,7 +2,7 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
+source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 70%
@@ -49,7 +49,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
 <p>Pour plus d’informations sur les collections, consultez la <a href="building-journeys/collections.md">documentation détaillée</a>. </p>
 <p>Les fonctions de filtre et d’intersection ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
-<p>Consultez la documentation sur les fonctions <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> et <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> .</p>
+<p>Consultez la documentation sur les fonctions <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> et <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> .</p>
 </td>
 </tr>
 </tbody>
