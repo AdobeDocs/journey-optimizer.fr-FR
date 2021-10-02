@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 100%
+source-wordcount: '1035'
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ Vous pouvez utiliser des conditions pour effectuer la segmentation à l’aide d
 La segmentation peut être basée sur :
 
 * des données de source de données
-* le contexte des événements faisant partie des données du parcours, par exemple : est-ce qu&#39;une personne a cliqué sur le message qu&#39;elle a reçu il y a une heure ?
+* le contexte des événements faisant partie des données de parcours, par exemple : une personne a-t-elle cliqué sur le message reçu il y a une heure ?
 * une date, par exemple : sommes-nous en juin lorsqu&#39;une personne traverse le parcours?
 * une heure, par exemple : est-ce le matin dans le fuseau horaire de la personne ?
 * un algorithme fractionnant l’audience circulant dans le parcours en fonction d’un pourcentage, par exemple : 90 à 10 % pour exclure une population témoin
