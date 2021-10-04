@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Transmission dynamique des collections à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 76b260de3f27d09d6676b18ca262b74be3d32d2c
+source-git-commit: 61ec1d33ab500837bc0a58961f1abf5fc436e487
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 5%
@@ -148,7 +148,7 @@ Vous pouvez voir que &quot;products&quot; est un tableau de deux objets. Vous de
 
    ![](../assets/uc-collection-4.png)
 
-Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) et [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html) :
+Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) et [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) :
 
 ![](../assets/uc-collection-5.png)
 
