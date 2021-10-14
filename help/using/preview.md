@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 98%
+source-wordcount: '1006'
+ht-degree: 87%
 
 ---
 
@@ -122,13 +122,19 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    ![](assets/send-proof-button.png)
 
-1. Dans la fenêtre **[!UICONTROL Envoyer le BAT]**, saisissez les profils de test en plus de l&#39;e-mail du destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de votre organisation.
+1. Dans la fenêtre **[!UICONTROL Envoyer le BAT]** , saisissez l&#39;email du destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de votre organisation.
 
-   Vous pouvez ajouter jusqu&#39;à 10 destinataires pour la diffusion de votre BAT.
+   Notez que vous pouvez ajouter jusqu’à dix destinataires pour votre diffusion BAT.
 
    ![](assets/send-proof-button_2.png)
 
-1. Ensuite, sélectionnez les profils de test qui recevront le BAT et cliquez sur **[!UICONTROL Envoyer le BAT]**. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, par exemple . - _ ( ) [ ], sont autorisés comme préfixe à l&#39;objet.
+1. Sélectionnez ensuite les **Profils de test** qui seront utilisés pour personnaliser le contenu du message.
+
+   Chaque destinataire du BAT recevra autant de messages que le nombre de profils de test sélectionnés. Par exemple, si vous avez ajouté cinq emails de destinataires et sélectionné dix profils de test, vous enverrez alors cinquante messages de BAT et chaque destinataire en recevra dix.
+
+1. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, par exemple . - _ ( ) [ ], sont autorisés comme préfixe à l&#39;objet.
+
+1. Cliquez sur **[!UICONTROL Envoyer le BAT]**.
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    ![](assets/send-proof-view.png)
 
-Vous devez envoyer des BAT après toute modification du contenu du message.
+Il est recommandé d&#39;envoyer des bons à tirer après chaque modification du contenu du message.
 
 >[!NOTE]
 >
-> Dans le BAT envoyé aux profils de test, le lien vers la page miroir n&#39;est pas actif. Il n&#39;est activé que dans les messages finaux.
+>Dans le BAT envoyé aux profils de test, le lien vers la page miroir n&#39;est pas actif. Il n&#39;est activé que dans les messages finaux.
 
 ## Rendu des emails{#email-rendering}
 
