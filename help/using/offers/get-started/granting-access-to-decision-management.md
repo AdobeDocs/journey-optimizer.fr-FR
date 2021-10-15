@@ -10,17 +10,17 @@ exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# Accorder l’accès à la gestion des décisions {#granting-acess-to-decision-management}
+# Octroi de l’accès à la gestion des décisions {#granting-acess-to-decision-management}
 
-Les autorisations d’accès et d’utilisation des fonctionnalités de l’offer decisioning sont gérées à l’aide de [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Les autorisations d’accès et d’utilisation des fonctionnalités d’Offer Decisioning sont gérées à l’aide d’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs. Pour en savoir plus sur la gestion des utilisateurs et des autorisations [!DNL Journey Optimizer] dans [cette section](../../administration/permissions.md).
+Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs. Pour en savoir plus sur la gestion des utilisateurs et des autorisations [!DNL Journey Optimizer], consultez [cette section](../../administration/permissions.md).
 
-Les autorisations spécifiques à la gestion de la décision sont répertoriées dans [cette section](../../administration/high-low-permissions.md#manage-decisioning).
+Les autorisations spécifiques à la gestion des décisions sont répertoriées dans [cette section](../../administration/high-low-permissions.md#manage-decisioning).
 
 <!--If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
@@ -30,7 +30,7 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. Ouvrez le [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), puis sélectionnez **[!UICONTROL Adobe Experience Platform]**.
+1. Ouvrez l&#39;[Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), puis sélectionnez **[!UICONTROL Adobe Experience Platform]**.
 
    <!--![](../../assets/offers_admin_console.png)-->
 
@@ -40,9 +40,9 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    >[!NOTE]
    >
-   >Vous pouvez avoir autant de profils de produits que vous le souhaitez, correspondant aux différents rôles que vous souhaitez configurer pour votre organisation.
+   >Vous pouvez avoir autant de profils de produit que vous le souhaitez, correspondant aux différents rôles que vous souhaitez configurer pour votre organisation.
 
-1. Indiquez le nom et la description du profil de produits, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Indiquez le nom et la description du profil de produit, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](../../assets/create-product-profile.png)
 
@@ -52,7 +52,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    ![](../../assets/enable-services.png)
 
-1. Dans la section **[!UICONTROL Gestion des décisions]** , cliquez sur le bouton **+** pour attribuer des autorisations au profil de produit, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans la section **[!UICONTROL Gestion des décisions]**, cliquez sur le bouton **+** pour attribuer des autorisations au profil de produit, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../../assets/configure-profile.png)
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->Pour plus d’informations sur la gestion des autorisations des utilisateurs, consultez la [documentation du Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+>Pour plus d&#39;informations sur la gestion des autorisations des utilisateurs, consultez la [documentation de l‘Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 

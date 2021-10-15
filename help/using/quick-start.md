@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -25,43 +25,43 @@ Selon votre organisation, vous pouvez définir plusieurs types d&#39;utilisateur
 
 Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], plusieurs étapes sont nécessaires pour préparer votre environnement.
 
-En tant qu’administrateur système, vous devez **comprendre les profils de produit et attribuer des autorisations** pour l’administration des environnements de test et la configuration des canaux. Vous devez également configurer des environnements de test et les gérer pour les profils de produit disponibles.
-Vous pourrez ensuite affecter des membres de l’équipe aux profils de produit et **configurer la configuration du canal** pour la messagerie.
+En tant qu’administrateur système, vous devez **comprendre les profils de produit et attribuer des autorisations** pour l’administration des environnements sandbox et la configuration des canaux. Vous devez également configurer des environnements sandbox et les gérer pour les profils de produit disponibles.
+Vous pourrez ensuite affecter des membres de l’équipe aux profils de produit et **définir la configuration du canal** pour la messagerie.
 
-En savoir plus dans les pages suivantes :
+En savoir plus dans les pages suivantes :
 
-* **Définissez les** autorisations utilisateur et accordez l’accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
+* **Définissez des autorisations utilisateur** et accordez l&#39;accès aux membres de votre équipe. [En savoir plus](../using/administration/permissions.md)
 
-* **Déployez[!DNL Adobe Experience Manager Assets Essentials]** pour gérer les ressources et les images dans vos messages : Les utilisateurs qui doivent accéder à  [!DNL Assets Essentials] doivent faire partie des profils  **Utilisateurs du client** Assets Essentials et  **UtilisateursProduit** Assets Essentials. [En savoir plus dans la documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}
+* **Déployez[!DNL Adobe Experience Manager Assets Essentials]** pour gérer les ressources et les images dans vos messages : les utilisateurs qui ont besoin d’accéder à [!DNL Assets Essentials] doivent faire partie des profils de produit **Utilisateurs clients Assets Essentials** et/ou **Utilisateurs Assets Essentials**. [En savoir plus dans la documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}
 
-* **Configurez votre** canal et définissez vos paramètres de messagerie électronique et de notification push. [En savoir plus](../using/configuration/get-started-configuration.md)
+* **Configurez vos canaux** : définissez les paramètres de vos e-mails et de vos notifications push. [En savoir plus](../using/configuration/get-started-configuration.md)
 
-* **Définissez vos** paramètres prédéfinis et configurez vos paramètres de marque. [En savoir plus](../using/configuration/message-presets.md)
+* **Définissez vos préréglages** et configurez vos paramètres de marque. [En savoir plus](../using/configuration/message-presets.md)
 
-* **Gérez** les environnements de test pour partitionner votre instance en environnements virtuels séparés. [En savoir plus](../using/administration/sandboxes.md)
+* **Gérez les environnements sandbox** pour partitionner votre instance en environnements virtuels séparés. [En savoir plus](../using/administration/sandboxes.md)
 
 
 ## Préparation des données et configuration des parcours
 
 En tant qu’administrateur de données, vous devez **identifier les données et créer un schéma et un jeu de données** pour intégrer vos données dans Adobe Experience Platform.
 
-Les étapes de création d’un espace de noms d’identité et d’un jeu de données activé pour les profils, la création de segments et les profils de test sont détaillées dans les sections ci-dessous :
+Les étapes de création d’un espace de noms d’identité et d’un jeu de données activé pour les profils, la création de segments et de profils de test sont présentées dans les sections suivantes :
 
-* Découvrez comment prévisualiser et créer un **jeu de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr){target=&quot;_blank&quot;}
+* Découvrez comment prévisualiser et créer un **jeu de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr){target=&quot;_blank&quot;}
 
-* Découvrez comment créer un **espace de noms d’identité** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#manage-namespaces){target=&quot;_blank&quot;}
+* Découvrez comment créer un **espace de noms d&#39;identité** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr#manage-namespaces){target=&quot;_blank&quot;}
 
 * Découvrez comment créer des **profils de test** dans [cette page](../using/building-journeys/creating-test-profiles.md)
 
-* En savoir plus sur **l’ingestion de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target=&quot;_blank&quot;}
+* En savoir plus sur l’**ingestion de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target=&quot;_blank&quot;}
 
 * Découvrez comment **définir l’audience**, créer des segments, gérer le consentement et la confidentialité dans [cette page](../using/segment/about-segments.md)
 
-En outre, pour pouvoir envoyer des messages dans parcours, vous devez configurer les **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**. En savoir plus dans [cette section](../using/configuration/about-data-sources-events-actions.md)
+En outre, pour pouvoir envoyer des messages dans des parcours, vous devez configurer les **[!UICONTROL sources de données]**, les **[!UICONTROL événements]** et les **[!UICONTROL actions]**. En savoir plus dans [cette section](../using/configuration/about-data-sources-events-actions.md)
 
-## Créer des messages, des offres et des parcours
+## Création de messages, d’offres et de parcours
 
-En tant que praticien de Parcours, reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres et des ressources et envoyer des messages :
+En tant que gestionnaire de parcours, reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres et des ressources et envoyer des messages :
 
 * **Créer des messages** : accédez aux messages, concevez ou chargez du contenu d&#39;email et push, ajoutez des messages de personnalisation et de prévisualisation. [En savoir plus](create-message.md)
 

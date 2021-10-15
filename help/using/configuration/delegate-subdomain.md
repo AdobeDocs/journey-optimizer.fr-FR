@@ -19,7 +19,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 53%
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    ![](../assets/subdomain-processing.png)
 
-   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre que l’Adobe effectue les vérifications requises, ce qui peut prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
 
@@ -81,25 +81,25 @@ Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que 
 
 >[!NOTE]
 >
->Ces étapes sont effectuées par Adobe et peuvent prendre jusqu’à 3 heures.
+>Ces étapes sont effectuées par Adobe et peuvent prendre jusqu&#39;à 3 heures.
 
-1. **Pre-validate** : Adobe vérifie si le sous-domaine a été délégué au DNS de l’Adobe (enregistrement NS, enregistrement SOA, configuration de zone, enregistrement propriétaire). Si l’étape de prévalidation échoue, une erreur est renvoyée avec la raison correspondante, sinon l’Adobe passe à l’étape suivante.
+1. **Pré-validation** : Adobe vérifie si le sous-domaine a été délégué au DNS Adobe (enregistrement NS, enregistrement SOA, configuration de zone, enregistrement propriétaire). Si l’étape de pré-validation échoue, une erreur est renvoyée avec la raison correspondante, sinon Adobe passe à l’étape suivante.
 
 1. **Configuration du DNS pour le domaine**:
 
-   * **Enregistrement** MX : Mail eXchange record : enregistrement du serveur de messagerie qui traite les emails entrants envoyés au sous-domaine.
-   * **Enregistrement** SPF : Enregistrement Sender Policy Framework : répertorie les adresses IP des serveurs de messagerie qui peuvent envoyer des emails à partir du sous-domaine.
-   * **Enregistrement** DKIM : DomainKeys Identified Mail : utilise le cryptage de la clé publique-privée pour authentifier le message afin d’éviter les usurpations.
-   * **A** : Mappage IP par défaut.
+   * **Enregistrement MX** (enregistrement Mail eXchange) : enregistrement du serveur de messagerie qui traite les e-mails entrants envoyés au sous-domaine.
+   * **Enregistrement SPF** (enregistrement Sender Policy Framework) : répertorie les adresses IP des serveurs de messagerie qui peuvent envoyer des e-mails à partir du sous-domaine.
+   * **Enregistrement DKIM** (enregistrement standard DomainKeys Identified Mail) : utilise le chiffrement de la clé publique-privée pour authentifier le message afin d’éviter les usurpations.
+   * **A** : mappage IP par défaut.
 
-1. **Créer des URL** de tracking et miroir : si le domaine est email.example.com, le domaine tracking/mirror sera data.email.example.com. Il est sécurisé en installant le certificat SSL.
+1. **Création des URL de tracking et miroir** : si le domaine est email.example.com, le domaine tracking/mirror sera data.email.example.com. La sécurité est assurée par l’installation du certificat SSL.
 
-1. **Configuration de CDN CloudFront** : si le réseau de diffusion de contenu n’est pas déjà configuré, Adobe le prévoit pour l’imsorption.
+1. **Approvisionnement de CDN CloudFront** : si le réseau CDN n’est pas déjà configuré, Adobe l’approvisionne pour l’imsorg.
 
-1. **Créer un domaine CDN** : si le domaine est email.example.com, le domaine CDN sera cdn.email.example.com.
+1. **Création d’un domaine CDN** : si le domaine est email.example.com, le domaine CDN sera cdn.email.example.com.
 
-1. **Créez et joignez un certificat** SSL CDN : Adobe crée le certificat CDN pour le domaine CDN et joint le certificat au domaine CDN.
+1. **Création et association d’un certificat SSL CDN** : Adobe crée le certificat CDN pour le domaine CDN et associe le certificat au domaine CDN.
 
-1. **Création d’un DNS** avancé : s’il s’agit du premier sous-domaine que vous déléguez, Adobe crée le DNS avant qui est requis pour créer des enregistrements de PTR, un pour chacune de vos adresses IP.
+1. **Création d’un DNS forward** : s’il s’agit du premier sous-domaine que vous déléguez, Adobe crée le DNS forward qui est requis pour créer des enregistrements PTR, un pour chacune de vos adresses IP.
 
-1. **Créer un enregistrement** PTR : L’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les emails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez le premier sous-domaine, un pour chaque adresse IP, toutes les adresses IP pointant vers le premier sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement du PTR est : *192.1.2.1 PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué.
+1. **Création d’un enregistrement PTR** : l’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les e-mails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez le premier sous-domaine, un pour chaque adresse IP, toutes les adresses IP pointant vers le premier sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement PTR est : *192.1.2.1 PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué.

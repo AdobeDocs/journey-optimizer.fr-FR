@@ -9,7 +9,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 * Lors du test d&#39;un événement métier, vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. En outre, lorsque vous testez un parcours basé sur un événement métier, vous ne pouvez déclencher qu&#39;une seule entrée de profil. Consultez [cette section](../building-journeys/testing-the-journey.md#test-business). En mode test, aucun mode « Affichage du code » n&#39;est disponible.
 * Qu&#39;advient-il des personnes qui se trouvent actuellement dans le parcours si un nouvel événement métier se produit ? La même chose que lorsque des personnes se trouvent encore dans un parcours récurrent lorsqu&#39;une nouvelle récurrence se produit. Leur chemin est terminé. En conséquence, les spécialistes du marketing doivent veiller à ne pas créer de parcours trop longs s&#39;ils s&#39;attendent à des événements métier fréquents.
 
-## Plusieurs événements professionnels
+## Plusieurs événements métier
 
-Voici quelques remarques importantes qui s’appliquent lorsque plusieurs événements professionnels sont reçus d’une même ligne.
+Voici quelques remarques importantes qui s’appliquent lorsque plusieurs événements métier sont reçus simultanément.
 
-**Quel est le comportement lors de la réception d’un événement d’entreprise pendant le traitement du parcours ?**
+**Quel est le comportement lors de la réception d’un événement métier pendant le traitement du parcours ?**
 
-Les événements professionnels suivent les règles de rentrée de la même manière que pour les événements unitaires. Si un parcours permet une rentrée, l’événement d’entreprise suivant est traité.
+Les événements métier suivent les règles de rentrée de la même manière que les événements unitaires. Si un parcours permet une rentrée, l’événement métier suivant est traité.
 
-**Quelles sont les barrières de sécurité pour éviter la surcharge des segments matérialisés ?**
+**Quelles sont les barrières de sécurité permettant d’éviter la surcharge des segments matérialisés ?**
 
-Pour les événements professionnels, la réutilisation de la rubrique est définie sur une heure. Cela signifie que pour un parcours donné, dans une fenêtre de temps d’une heure, aucune nouvelle tâche d’exportation n’est créée. Les données transmises par la première tâche d’événement sont réutilisées. Pour les parcours planifiés, il n’y a pas de garde-fou.
+Pour les événements métier, la réutilisation du topic est définie sur une heure. Cela signifie que pour un parcours donné, dans une fenêtre de temps d’une heure, aucun nouveau traitement d’export n’est créé. Les données transmises par le premier traitement d’événement sont réutilisées. Pour les parcours planifiés, il n’y a pas de barrières de sécurité.
 
 ## Prise en main des événements métier
 
@@ -85,7 +85,7 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
    >[!NOTE]
    >
-   >Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles, ils dépendent du type de données. Par exemple, pour un type chaîne de champ, vous pouvez utiliser &quot;contient&quot; ou &quot;égal à&quot;.
+   >Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles ; ils dépendent du type de données. Par exemple, pour un type de chaîne de champ, vous pouvez utiliser « contient » ou « égal à ».
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

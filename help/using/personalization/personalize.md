@@ -9,7 +9,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,7 @@ Vous pouvez également personnaliser vos **notifications push** dans les champs 
 
 Pour en savoir plus sur la configuration des notifications push, consultez [cette section](../push-gs.md).
 
-### Personnaliser vos offres {#personalize-offers}
+### Personnalisation de vos offres {#personalize-offers}
 
 Vous pouvez également accéder à l’éditeur de personnalisation lors de l’ajout de contenu de type texte aux représentations de vos offres.
 

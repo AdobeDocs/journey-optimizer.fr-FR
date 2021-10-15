@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1529'
-ht-degree: 70%
+ht-degree: 95%
 
 ---
 
@@ -46,10 +46,10 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
-<p>Pour plus d’informations sur les collections, consultez la <a href="building-journeys/collections.md">documentation détaillée</a>. </p>
-<p>Les fonctions de filtre et d’intersection ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
-<p>Consultez la documentation sur les fonctions <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> et <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> .</p>
+<p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
+<p>Pour plus d'informations sur les collections, consultez la <a href="building-journeys/collections.md">documentation détaillée</a>. </p>
+<p>Les fonctions filter et intersect ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
+<p>Consultez la documentation sur les fonctions <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=fr">filter</a> et <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -77,14 +77,14 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Parcours**
 
-* Les schémas et les jeux de données générés par le système qui ont été créés pendant la mise en service des événements d’étape sont désormais en lecture seule, ce qui permet d’éviter toute modification involontaire des schémas critiques. [En savoir plus](reports/sharing-overview.md)
+* Les schémas et les jeux de données générés par le système qui ont été créés pendant l&#39;approvisionnement des événements d’étape sont désormais en lecture seule, ce qui permet d’éviter toute modification involontaire des schémas critiques. [En savoir plus](reports/sharing-overview.md)
 * Libellez de manière claire l’activité **Attente** avec un libellé qui s’affichera dans la zone de travail. Le libellé est également utilisé dans les journaux des modes de reporting et de test pour identifier clairement ce que vous faites. [En savoir plus](building-journeys/about-journey-activities.md#best-practices)
 * Trouvez plus rapidement vos événements et actions en filtrant les éléments dans les catégories **Événements** et **Action** à l’aide de la recherche. Les activités d’orchestration ne sont plus filtrées. [En savoir plus](building-journeys/using-the-journey-designer.md)
-* Lors de la définition d’une condition d’identifiant d’événement dans un événement d’entreprise ou basé sur des règles, l’opérateur &quot;contient&quot; est désormais disponible pour les types de chaînes de champs. [En savoir plus](event/about-creating.md)
+* Lors de la définition d’une condition d’identifiant d’événement dans un événement métier ou basé sur des règles, l’opérateur &quot;contains&quot; est désormais disponible pour les types de chaînes de champs. [En savoir plus](event/about-creating.md)
 
 **Configuration des e-mails**
 
-* Lorsqu’un pool d’adresses IP a été associé à un paramètre prédéfini de message, vous pouvez désormais le modifier, la mise à jour étant asynchrone. Vous pouvez également vérifier l’état de chaque mise à jour du pool d’adresses IP. [En savoir plus](configuration/ip-pools.md#edit-ip-pool)
+* Lorsqu’un groupe d’adresses IP a été associé à un préréglage de message, vous pouvez désormais le modifier, la mise à jour étant asynchrone. Vous pouvez également vérifier l’état de chaque mise à jour du groupe d’adresses IP. [En savoir plus](configuration/ip-pools.md#edit-ip-pool)
 
 ## Version d’août 2021 {#august-2021-release}
 
@@ -214,12 +214,12 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Personnalisation**
 
-* **Éditeur d’expression**  : vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation : lorsque le champ de personnalisation est vide pour un profil, la valeur de retour arrière s’affiche. [En savoir plus](personalization/functions/helpers.md)
+* **Éditeur d’expression** : vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation : lorsque le champ de personnalisation est vide pour un profil, la valeur de secours s’affiche. [En savoir plus](personalization/functions/helpers.md)
 
 **Configuration des e-mails**
 
 * **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](allow-list.md#enable-allow-list)
-* **Navigation**  : la liste de suppression, accessible sous  **Administration > Canaux > Configuration des emails >** Menu général, a été déplacée vers le nouveau sous-menu  **Liste de suppression** , qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](configuration/manage-suppression-list.md#access-suppression-list)
+* **Navigation** : la liste de suppression, accessible sous le menu **Administration > Canaux > Configuration des emails > Général** a été déplacée vers le nouveau sous-menu  **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestion des décisions**
 

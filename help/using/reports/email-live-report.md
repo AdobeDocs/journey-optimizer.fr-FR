@@ -9,7 +9,7 @@ exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
 source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Le **[!UICONTROL Rapport dynamique]** sur les e-mails est divisé en différents
 
 Les widgets **[!UICONTROL Performances des emails]** et **[!UICONTROL Résumé des emails]** présentent les principales informations relatives à votre message avec un graphique et des KPI :
 
-* **[!UICONTROL Ciblé]** : Nombre de profils utilisateur qui remplissent les critères de ciblage pour cette diffusion.
+* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
@@ -41,13 +41,13 @@ Les widgets **[!UICONTROL Performances des emails]** et **[!UICONTROL Résumé d
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
-* **[!UICONTROL Réclamations relatives aux spams]** : Nombre de messages classés comme spam.
+* **[!UICONTROL Réclamations relatives aux spams]** : nombre de messages classés comme spam.
 
-* **[!UICONTROL Désinscriptions]** : Nombre de clics sur le lien de désinscription.
+* **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
-* **[!UICONTROL Exclu]** : Nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
+* **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
 
-Le widget **[!UICONTROL Statistiques d’envoi]** détaille le succès de votre diffusion :
+Le widget **[!UICONTROL Statistiques d’envoi]** détaille le succès de votre diffusion :
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 

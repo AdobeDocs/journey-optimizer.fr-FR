@@ -10,7 +10,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que le
 
 Les limites sont répertoriées dans [cette page](../limitations.md).
 
-Vous pouvez transmettre des collections de manière dynamique à l’aide d’actions personnalisées. Reportez-vous à ce [cas pratique](../limitations.md).
+Vous pouvez transmettre des collections de manière dynamique à l’aide d’actions personnalisées. Reportez-vous à ce [cas d’utilisation](../limitations.md).
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 
@@ -66,7 +66,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
    >
    >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
    >
-   >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
+   >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
 1. Dans la section **[!UICONTROL En-têtes]** , définissez les en-têtes HTTP du message de demande à envoyer au service externe :

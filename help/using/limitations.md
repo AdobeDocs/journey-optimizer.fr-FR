@@ -9,20 +9,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: f177c9b2c7c7a7fa6182d07e773efd0683886d34
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Limites {#limitations}
 
-Les droits, les limites de produit et les barrières de performance sont répertoriés dans la [ page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Les droits, les limites de produit et les barrières de performance sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
 Vous trouverez ci-dessous des limites supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
 
 ## Limites des messages
 
-* Vous ne pouvez pas ajouter de pièces jointes à un email avec [!DNL Journey Optimizer].
-* La fonctionnalité Email Cci n’est pas prise en charge dans [!DNL Journey Optimizer].
+* Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
+* La fonctionnalité E-mail Cci n’est pas prise en charge dans [!DNL Journey Optimizer].
 
 ## Limites dans les parcours
 
@@ -67,7 +67,7 @@ Vous trouverez ci-dessous des limites supplémentaires lors de l’utilisation d
 
 Un délai est associé à la création/la mise à jour de profils basés sur l’API dans Adobe Experience Platform. La cible de niveau de service (TSL) en termes de latence est d’atteindre moins de 1 minute entre l&#39;ingestion et le profil unifié pour 95 % des demandes, avec un volume de 20K demandes par seconde (DPS).
 
-Si un parcours est déclenché simultanément à la création d’un profil et qu’il vérifie/récupère immédiatement des informations à partir du service de profil, il se peut qu’il ne fonctionne pas correctement.
+Si un parcours est déclenché simultanément à la création d’un profil et qu’il vérifie/récupère immédiatement des informations auprès du service de profil, il est possible qu&#39;il ne fonctionne pas correctement.
 
 Vous pouvez choisir l’une des deux solutions suivantes :
 

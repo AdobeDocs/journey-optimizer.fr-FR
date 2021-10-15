@@ -19,13 +19,13 @@ Le volet de configuration des activités affiche les paramètres de configuratio
 
 >[!NOTE]
 >
->Vous ne pouvez pas transmettre une collection simple dans les paramètres d’une action personnalisée. Les champs de collection plus complexes (tableaux d’objets) ne sont pas pris en charge.  Notez également qu’un format spécifique est attendu pour les paramètres (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence.
+>Vous ne pouvez pas transmettre une simple collection dans les paramètres d’une action personnalisée. Les champs de collection plus complexes (tableaux d’objets) ne sont pas pris en charge.  Notez également qu’un format spécifique est attendu pour les paramètres (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence.
 
 ## Configuration d&#39;URL
 
 ### Chemin dynamique
 
-Si l’URL contient un chemin dynamique, indiquez le chemin dans le champ **[!UICONTROL Chemin]**.
+Si l’URL contient un chemin dynamique, spécifiez le chemin dans le champ **[!UICONTROL Chemin]**.
 
 >[!NOTE]
 >
@@ -48,12 +48,12 @@ L’URL concaténée se présente comme suit :
 
 ### En-têtes
 
-La section **[!UICONTROL Configuration d’URL]** affiche les champs d’en-tête dynamiques, mais pas les champs d’en-tête constants. Les champs d’en-tête dynamique sont des champs d’en-tête HTTP dont la valeur est configurée comme variable. [En savoir plus](../action/about-custom-action-configuration.md).
+La section **[!UICONTROL Configuration de l’URL]** affiche les champs d’en-tête dynamiques, mais pas les champs d’en-tête constants. Les champs d’en-tête dynamique sont des champs d’en-tête HTTP dont la valeur est configurée comme variable. [En savoir plus](../action/about-custom-action-configuration.md).
 
 Si nécessaire, spécifiez la valeur des champs d’en-tête dynamique :
 
 1. Sélectionnez l’action personnalisée dans le parcours.
-1. Dans le volet de configuration, cliquez sur l’icône en forme de crayon en regard du champ d’en-tête de la section **[!UICONTROL Configuration d’URL]**.
+1. Dans le volet de configuration, cliquez sur l’icône en forme de crayon en regard du champ d’en-tête de la section **[!UICONTROL Configuration de l’URL]**.
 
    ![](../assets/journey-dynamicheaderfield.png)
 

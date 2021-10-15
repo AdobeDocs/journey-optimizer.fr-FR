@@ -9,7 +9,7 @@ exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
 source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ Les **[!UICONTROL performances des notifications push]** et les widgets de **[!U
 
 * **[!UICONTROL Engagements]** : nombre total d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification ou si un utilisateur a cliqué sur un bouton.
 
-Le tableau **[!UICONTROL Mesures d’envoi - par push]** détaille le succès de votre diffusion :
+Le tableau **[!UICONTROL Mesures d’envoi - par push]** détaille le succès de votre diffusion :
 
-* **[!UICONTROL Ciblé]** : Nombre de profils utilisateur qui remplissent les critères de ciblage pour cette diffusion.
+* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
-* **[!UICONTROL Exclu]** : Nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
+* **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 

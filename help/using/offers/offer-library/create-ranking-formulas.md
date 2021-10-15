@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -83,9 +83,9 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### Offres optimisées avec un attribut d’offre spécifique basé sur l’attribut de profil
+### Booster les offres avec un attribut d’offre spécifique basé sur l’attribut de profil
 
-Si le profil réside dans la ville correspondant à l’offre, double la priorité de toutes les offres de cette ville.
+Si le profil réside dans la ville correspondant à l’offre, doublez la priorité de toutes les offres de cette ville.
 
 **Formule de classement:**
 
@@ -93,7 +93,7 @@ Si le profil réside dans la ville correspondant à l’offre, double la priorit
 if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
-### Offres optimisées pour lesquelles la date de fin est inférieure à 24 heures
+### Booster les offres pour lesquelles la date de fin est inférieure à 24 heures
 
 **Formule de classement:**
 
@@ -101,9 +101,9 @@ if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offe
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### Offres optimisées avec un attribut d’offre spécifique basé sur les données contextuelles
+### Booster les offres avec un attribut d’offre spécifique basé sur les données contextuelles
 
-Augmentez certaines offres en fonction des données contextuelles transmises dans l’appel de prise de décision. Par exemple, si la valeur `contextData.weather=hot` est transmise dans l’appel de prise de décision, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
+Boostez certaines offres en fonction des données contextuelles transmises dans l’appel de prise de décision. Par exemple, si la valeur `contextData.weather=hot` est transmise dans l’appel de prise de décision, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
 
 **Formule de classement:**
 
@@ -114,7 +114,7 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 Notez que lorsque vous utilisez l’API de prise de décision, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous.
 
-**Extrait de code du corps de la requête :**
+**Extrait de code du corps de la requête :**
 
 ```
 "xdm:profiles": [
@@ -137,9 +137,9 @@ Notez que lorsque vous utilisez l’API de prise de décision, les données cont
  }],
 ```
 
-### Offrir plus d’offres en fonction de la propension des clients à acheter le produit proposé
+### Booster les offres en fonction de la propension des clients à acheter le produit proposé
 
-Si nous avons 2 instances de *CustomerAI* calculant la propension à acheter *travelInsurance* et *extraBBagage* pour une compagnie aérienne, la formule de classement suivante augmentera la priorité (de 50 points) de l’offre spécifique à l’assurance ou aux bagages si le score de propension du client à acheter ce produit est supérieur à 90.
+Si nous avons 2 instances de *CustomerAI* calculant la propension à acheter *travelInsurance* et *extraBBagage* pour une compagnie aérienne, la formule de classement suivante augmentera la priorité (de 50 points) de l’offre spécifique à l’assurance ou aux bagages si le score de propension du client à acheter ce produit est supérieur à 90.
 
 Cependant, comme chaque instance *CustomerAI* crée son propre objet dans le schéma de profil unifié, il n’est pas possible de sélectionner dynamiquement le score en fonction du type de propension à l’offre. Vous devez donc chaîner les instructions `if` pour d’abord vérifier le type de propension de l’offre, puis extraire le score à partir du champ de profil approprié.
 
@@ -153,11 +153,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-Une meilleure solution consiste à stocker les scores dans un tableau du profil. L’exemple suivant illustre plusieurs scores de propension différents en utilisant une formule de classement simple. On s’attend à ce que vous disposiez d’un schéma de profil avec un tableau de scores. Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient les éléments suivants :
+Une meilleure solution consiste à stocker les scores dans un tableau du profil. L’exemple suivant illustre plusieurs scores de propension différents en utilisant une formule de classement simple. Il est attendu que vous disposiez d’un schéma de profil avec un tableau de scores. Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient les éléments suivants :
 
 ![](../../assets/ranking-example-schema.png)
 
-Ainsi, pour un profil tel que :
+Ainsi, pour un profil tel que :
 
 ```
 {"_salesvelocity": {"individualScoring": [
@@ -177,11 +177,11 @@ Ainsi, pour un profil tel que :
 }
 ```
 
-Les offres contiennent un attribut pour *propensionType* correspondant à la catégorie des scores :
+Les offres contiennent un attribut pour *propensionType* correspondant à la catégorie des scores :
 
 ![](../../assets/ranking-example-propensityType.png)
 
-Votre formule de classement peut alors définir la priorité de chaque offre pour qu’elle soit égale aux clients *propensionScore* pour ce *propensionType*. Si aucun score n’est trouvé, utilisez la priorité statique définie sur l’offre :
+Votre formule de classement peut alors définir la priorité de chaque offre pour qu’elle soit égale aux clients *propensionScore* pour ce *propensionType*. Si aucun score n’est trouvé, utilisez la priorité statique définie sur l’offre :
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

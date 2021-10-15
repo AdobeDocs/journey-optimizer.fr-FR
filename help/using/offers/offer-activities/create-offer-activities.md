@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Les décisions (précédemment appelées activités d’offre) sont des conteneu
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-La liste des décisions est accessible dans le menu **[!UICONTROL Offres]** > **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leurs statuts ou de leurs dates de début ou de fin.
+La liste des décisions est accessible dans le menu **[!UICONTROL Offres]**> onglet **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leurs statuts ou de leurs dates de début ou de fin.
 
 ![](../../assets/activities-list.png)
 
@@ -62,9 +62,9 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 1. Par défaut, si plusieurs offres sont éligibles pour cet emplacement, ce sont les offres ayant le score de priorité le plus élevé qui sont diffusées au client.
 
-   Si vous souhaitez utiliser une formule spécifique ou une stratégie de classement pour choisir l&#39;offre éligible à diffuser, sélectionnez une formule de classement dans la liste déroulante **[!UICONTROL Offres de classement par]** . Voir à ce propos [cette section](../offer-activities/configure-offer-selection.md).
+   Si vous souhaitez utiliser une formule ou une stratégie de classement spécifiques pour choisir l&#39;offre éligible à diffuser, sélectionnez-la dans la liste déroulante **[!UICONTROL Classer les offres par]**. Voir à ce propos [cette section](../offer-activities/configure-offer-selection.md).
 
-1. Le champ **[!UICONTROL Contrainte]** limite la sélection des offres pour cet emplacement. Cette contrainte peut être appliquée en utilisant une **règle de décision** ou un ou plusieurs **segments Adobe Experience Platform**. Toutes deux sont détaillées dans [cette section](#segments-vs-decision-rules).
+1. Le champ **[!UICONTROL Contrainte]** limite la sélection des offres pour cet emplacement. Cette contrainte peut être appliquée en utilisant une **règle de décision** ou un ou plusieurs **segments Adobe Experience Platform**. Ceux-ci sont présentés dans [cette section](#segments-vs-decision-rules).
 
    * Pour limiter la sélection des offres aux membres d&#39;un segment Adobe Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter des segments]**.
 
@@ -74,13 +74,13 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
       ![](../../assets/activity_constraint_segment2.png)
 
-      Découvrez comment utiliser les segments dans [cette section](../../segment/about-segments.md).
+      Découvrez comment utiliser des segments dans [cette section](../../segment/about-segments.md).
 
    * Si vous souhaitez ajouter une contrainte de sélection pour cet emplacement à l&#39;aide d&#39;une règle de décision, sélectionnez l&#39;option **[!UICONTROL Règle de décision]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone **[!UICONTROL Règle de décision.]**
 
       ![](../../assets/activity_constraint_rule.png)
 
-      Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md).
+      Pour plus d&#39;informations sur la création d’une règle de décision, reportez-vous à [cette section](../offer-library/creating-decision-rules.md).
 
 ### Utilisation des segments par rapport aux règles de décision {#segments-vs-decision-rules}
 
@@ -88,17 +88,17 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 Pour appliquer une contrainte, vous pouvez restreindre la sélection des offres aux membres d’un ou de plusieurs **segments Adobe Experience Platform**, ou vous pouvez utiliser une **règle de décision**, les deux solutions correspondant à des utilisations différentes.
 
-En gros, la sortie d’un segment est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision. La différence entre ces deux usages est présentée ci-dessous.
+Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision. La différence entre ces deux usages est présentée ci-dessous.
 
 * **Segments**
 
-   D’une part, les segments sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la Gestion des offres ne recalcule pas le segment, qui peut ne pas être à jour lors de la présentation de l’offre.
+   D’une part, les segments sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la gestion des offres ne recalcule pas le segment, qui peut ne pas être à jour lors de la présentation de l’offre.
 
    En savoir plus sur les segments dans [cette section](../../segment/about-segments.md).
 
 * **Règles de décision**
 
-   D’un autre côté, une règle de décision est basée sur les données disponibles dans Adobe Experience Platform et détermine à qui une offre peut être affichée. Une fois sélectionnée dans une offre ou une décision pour un emplacement donné, la règle est exécutée chaque fois qu’une décision est prise, ce qui garantit que chaque profil obtient la dernière et la meilleure offre.
+   D’un autre côté, une règle de décision est basée sur les données disponibles dans Adobe Experience Platform et détermine à qui une offre peut être montrée. Une fois sélectionnée dans une offre ou une décision pour un emplacement donné, la règle est exécutée chaque fois qu’une décision est prise, ce qui garantit que chaque profil obtient la dernière et la meilleure offre.
 
    Pour en savoir plus sur les règles de décision, consultez [cette section](../offer-library/creating-decision-rules.md).
 

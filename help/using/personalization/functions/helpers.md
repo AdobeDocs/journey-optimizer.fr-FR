@@ -1,6 +1,6 @@
 ---
-title: Assistants
-description: Assistants
+title: Helpers
+description: Helpers
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Assistants {#gs-helpers}
+# Helpers {#gs-helpers}
 
 ## Valeur de secours par défaut{#default-value}
 
-L’assistant `Default Fallback Value` est utilisé pour renvoyer une valeur de secours par défaut si un attribut est vide ou nul. Ce mécanisme fonctionne pour les attributs de profil et les événements de Parcours.
+L’helper `Default Fallback Value` est utilisé pour renvoyer une valeur de secours par défaut si un attribut est vide ou nul. Ce mécanisme fonctionne pour les attributs de profil et les événements de parcours.
 
 **Syntaxe**
 
@@ -29,7 +29,7 @@ Dans cet exemple, la valeur `there` s&#39;affiche si l&#39;attribut `firstName` 
 
 ## Conditions{#if-function}
 
-L&#39;assistant `if` est utilisé pour définir un bloc conditionnel.
+L&#39;helper `if` est utilisé pour définir un bloc conditionnel.
 Si l&#39;évaluation de l&#39;expression renvoie true, le bloc est rendu, sinon il est ignoré.
 
 **Syntaxe**
@@ -39,7 +39,7 @@ Si l&#39;évaluation de l&#39;expression renvoie true, le bloc est rendu, sinon 
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-À la suite de l&#39;assistant `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
+À la suite de l&#39;helper `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
 L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la première instruction renvoie false.
 
 
@@ -121,7 +121,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 ## Unless{#unless}
 
-L&#39;assistant `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;assistant `if`, si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
+L&#39;helper `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;helper `if`, si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
 
 **Syntaxe**
 
@@ -143,8 +143,8 @@ Some edu specific content Content
 
 ## Each{#each}
 
-L&#39;assistant `each` est utilisée pour effectuer une itération sur un tableau.
-La syntaxe de l&#39;assistant est ```{{#each ArrayName}}``` YourContent {{/each}}.
+L&#39;helper `each` est utilisé pour effectuer une itération sur un tableau.
+La syntaxe de l&#39;helper est ```{{#each ArrayName}}``` YourContent {{/each}}.
 Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l&#39;intérieur du bloc. L&#39;index de l&#39;élément du tableau peut être rendu à l&#39;aide de {{@index}}.
 
 **Syntaxe**
@@ -177,7 +177,7 @@ Générer une liste de produits que cet utilisateur a dans son panier :
 
 ## With{#with}
 
-L&#39;assistant `with` permet de modifier le jeton d&#39;évaluation d&#39;une partie de modèle.
+L&#39;helper `with` permet de modifier le jeton d&#39;évaluation d&#39;une partie de modèle.
 
 **Syntaxe**
 
@@ -187,7 +187,7 @@ L&#39;assistant `with` permet de modifier le jeton d&#39;évaluation d&#39;une p
 {{/with}}
 ```
 
-L&#39;assistant `with` est utile pour définir également une variable de raccourci.
+L&#39;helper `with` est utile pour définir également une variable de raccourci.
 
 **Exemple**
 

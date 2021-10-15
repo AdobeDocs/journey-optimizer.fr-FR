@@ -19,31 +19,31 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # Reprises {#retries}
 
-Lorsqu’un message électronique échoue en raison d’une erreur **Soft bounce** temporaire, plusieurs reprises sont effectuées. Chaque erreur incrémente un compteur d&#39;erreurs. Lorsque ce compteur atteint le seuil limite, l&#39;adresse est ajoutée à la liste de suppression.
+Lorsqu’un e-mail échoue en raison d’une erreur temporaire **Soft bounce**, plusieurs reprises sont effectuées. Chaque erreur incrémente un compteur d&#39;erreurs. Lorsque ce compteur atteint le seuil limite, l&#39;adresse est ajoutée à la liste de suppression.
 
 >[!NOTE]
 >
 >Pour en savoir plus sur les types d’erreurs, consultez la section [Types d’échec de diffusion](../suppression-list.md#delivery-failures).
 
-Dans la configuration par défaut, le seuil est défini sur 5 erreurs.
+Dans la configuration par défaut, le seuil est défini à cinq erreurs.
 
-* Pour une même diffusion, à la cinquième erreur rencontrée dans la [période de reprise](#retry-duration), l’adresse est supprimée.
+* Pour une même diffusion, à la cinquième erreur rencontrée pendant la [période de reprise](#retry-duration), l’adresse est supprimée.
 
-* S&#39;il existe des diffusions différentes et que deux erreurs sont séparées d&#39;au moins 24 heures, le compteur d&#39;erreurs est incrémenté à chaque erreur et l&#39;adresse est également supprimée à la cinquième tentative.
+* S&#39;il existe des diffusions différentes et que deux erreurs se produisent au moins à 24 heures d&#39;intervalle, le compteur d&#39;erreurs est incrémenté à chaque erreur et l&#39;adresse est également supprimée à la cinquième tentative.
 
 Si une diffusion réussit après une reprise, le compteur d&#39;erreurs de l&#39;adresse est réinitialisé.
 
-Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez modifier le seuil d’erreur en procédant comme suit.
+Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez modifier le seuil d’erreur en procédant comme suit.
 
-1. Accédez à **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Liste de suppression]**.
+1. Accédez à **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste de suppression]**.
 
-1. Sélectionnez le bouton **[!UICONTROL Modifier les règles de suppression]** .
+1. Sélectionnez le bouton **[!UICONTROL Modifier les règles de suppression]**.
 
    ![](../assets/suppression-list-edit-retries.png)
 
@@ -55,7 +55,7 @@ Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez modi
 
    >[!CAUTION]
    >
-   >Toute valeur supérieure à 10 peut entraîner des problèmes de réputation de délivrabilité, ainsi que le ralentissement ou l’liste bloquée des adresses IP par les FAI. [En savoir plus sur la délivrabilité](../deliverability.md)
+   >Toute valeur supérieure à 10 peut entraîner des problèmes de réputation en matière de délivrabilité, ainsi que la limitation ou la mise sur liste bloquée des adresses IP par les FAI. [En savoir plus sur la délivrabilité](../deliverability.md)
 
 <!--![](../assets/retries-edition.png)-->
 

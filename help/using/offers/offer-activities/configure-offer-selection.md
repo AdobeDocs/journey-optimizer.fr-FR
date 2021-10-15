@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision (précédemment appelée « activité d&#39;offre »). Vous pouvez classer les offres par :
 * Priorité des offres
 * Formule de classement
-* [Classement](#use-ranking-strategy)  AI (en accès anticipé pour certains utilisateurs uniquement)
+* [Classement par l’IA](#use-ranking-strategy) (en accès anticipé pour certains utilisateurs uniquement)
 
 ![](../../assets/offer-rank-by.png)
 
@@ -64,7 +64,7 @@ Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la
 
 >[!CAUTION]
 >
->L’utilisation du classement AI est actuellement disponible en accès anticipé pour certains utilisateurs uniquement.
+>L&#39;utilisation du classement par l&#39;IA est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
 
 Après avoir créé une stratégie de classement, vous pouvez l&#39;affecter à un emplacement dans une décision (précédemment appelée « activité d&#39;offre »). Pour ce faire, procédez comme suit :
 

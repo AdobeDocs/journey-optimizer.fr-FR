@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1527'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Une fois connecté à [Adobe Experience Cloud](http://experience.adobe.com), acc
 
 Les concepts clés lors de la navigation dans l&#39;interface utilisateur sont les mêmes que ceux d&#39;Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
 
-Les composants et fonctionnalités disponibles dans l’interface utilisateur dépendent de vos [autorisations](administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Pour toute question, contactez votre responsable clients Adobe.
+Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur dépendent de vos [autorisations](administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Pour toute question, contactez votre responsable clients Adobe.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **
 
 ## Accessibilité{#accessibility}
 
-Les fonctionnalités d’accessibilité de [!DNL Adobe Journey Optimizer] sont héritées de Adobe Experience Platform :
+Les fonctionnalités d’accessibilité de [!DNL Adobe Journey Optimizer] sont héritées d’Adobe Experience Platform :
 
 * Accessibilité à l’aide du clavier
 * Contraste des couleurs
@@ -119,7 +119,7 @@ Les fonctionnalités d’accessibilité de [!DNL Adobe Journey Optimizer] sont h
 
 [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation Adobe Experience Platform.
 
-Vous pouvez utiliser ces raccourcis clavier courants dans [!DNL Journey Optimizer] :
+Vous pouvez utiliser les raccourcis clavier suivants dans [!DNL Journey Optimizer]:
 
 | Action | Raccourci |
 | --- | --- |
@@ -268,7 +268,7 @@ Pour modifier la langue :
 
 * Cliquez sur **Préférences** depuis votre avatar, en haut à droite.
    ![](assets/preferences.png)
-* Cliquez ensuite sur la langue affichée sous votre adresse électronique.
+* Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
 * Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
    ![](assets/select-language.png)
 

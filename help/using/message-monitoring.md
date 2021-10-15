@@ -9,7 +9,7 @@ exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour chaque exécution de message, plusieurs indicateurs s&#39;affichent :
 
 * **[!UICONTROL Date de début]** : date et heure auxquelles le message a été exécuté à partir du parcours.
 
-* **[!UICONTROL Ciblé]** : Nombre de profils ciblés pour chaque exécution du message.
+* **[!UICONTROL Ciblés]** : nombre de profils ciblés pour chaque exécution du message.
 
 * **[!UICONTROL Exclus]** : nombre de profils ayant été exclus de la cible initiale en raison de règles d&#39;exclusion.
 

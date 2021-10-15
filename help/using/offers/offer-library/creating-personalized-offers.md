@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
 source-wordcount: '1394'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Pour ajouter une ou plusieurs représentations à votre offre et les configurer,
 
 1. Sélectionnez un emplacement dans la liste.
 
-   Vous pouvez également utiliser le bouton en regard de la liste déroulante **[!UICONTROL Placement]** pour parcourir tous les emplacements.
+   Vous pouvez également utiliser le bouton en regard de la liste déroulante **[!UICONTROL Emplacement]** pour parcourir tous les emplacements.
 
    ![](../../assets/browse-button-placements.png)
 
@@ -92,19 +92,19 @@ Vous pouvez ajouter différents types de contenu à une représentation.
 
 ### Ajout d’images
 
-Si l’emplacement sélectionné est de type image, vous pouvez ajouter du contenu provenant de la bibliothèque **Adobe Experience Cloud Asset**, un référentiel centralisé de ressources fourni par [!DNL Adobe Experience Manager Assets Essentials].
+Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du contenu provenant de la bibliothèque **Adobe Experience Cloud Asset**, un référentiel centralisé de ressources fourni par [!DNL Adobe Experience Manager Assets Essentials].
 
 >[!NOTE]
 >
 > Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target=&quot;_blank&quot;}, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs font partie des **utilisateurs consommateurs d&#39;Assets Essentials** ou/et des profils de produits **utilisateurs d&#39;Assets Essentials**. En savoir plus sur [cette page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
-1. Choisissez l’option **[!UICONTROL Bibliothèque de ressources]** .
+1. Choisissez l’option **[!UICONTROL Bibliothèque de ressources]**.
 
 1. Sélectionnez **[!UICONTROL Parcourir]**.
 
    ![](../../assets/offer-browse-asset-library.png)
 
-1. Parcourir les ressources pour sélectionner l’image de votre choix
+1. Parcourez les ressources pour sélectionner l&#39;image de votre choix.
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**.
 
@@ -116,17 +116,17 @@ Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectio
 
 ![](../../assets/offer-content-url.png)
 
-### Ajouter du texte personnalisé {#custom-text}
+### Ajout de texte personnalisé {#custom-text}
 
 Vous pouvez également insérer du contenu de type texte lors de la sélection d&#39;un emplacement compatible.
 
-1. Sélectionnez l’option **[!UICONTROL Personnalisée]** .
+1. Sélectionnez l’option **[!UICONTROL Personnaliser]**.
 
    >[!NOTE]
    >
    >Cette option n&#39;est pas disponible pour les emplacements de type image.
 
-1. Saisissez le texte qui s’affichera dans l’offre dans la zone dédiée.
+1. Saisissez le texte qui s’affichera au sein de l’offre dans la zone dédiée.
 
    ![](../../assets/offer-text-content2.png)
 

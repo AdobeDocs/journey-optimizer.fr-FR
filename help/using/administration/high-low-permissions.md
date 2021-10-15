@@ -19,7 +19,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -303,7 +303,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation Gérer la délégation des sous-domaines {#manage-subdomain}
 
-L’autorisation de haut niveau **[!UICONTROL Gérer la délégation des sous-domaines]** permet aux utilisateurs de créer, modifier et supprimer des délégations de sous-domaines (y compris le pool d’adresses IP).
+L&#39;autorisation de haut niveau **[!UICONTROL Gérer la délégation des sous-domaines]** permet aux utilisateurs de créer, de modifier et de supprimer la délégation des sous-domaines (y compris le pool d&#39;adresses IP).
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -313,7 +313,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation Afficher les enregistrements PTR {#view-ptr}
 
-L’autorisation de haut niveau **[!UICONTROL Afficher les enregistrements PTR]** permet aux utilisateurs d’afficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+L&#39;autorisation de haut niveau **[!UICONTROL Afficher les enregistrements PTR]** permet aux utilisateurs d&#39;afficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -322,7 +322,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation Gérer les pools d&#39;adresses IP {#manage-ip-pools}
 
-L’autorisation de haut niveau **[!UICONTROL Gérer les pools d’adresses IP]** permet aux utilisateurs de créer, modifier et supprimer la définition de l’affinité.
+L&#39;autorisation de haut niveau **[!UICONTROL Gérer les pools d&#39;adresses IP]** permet aux utilisateurs de créer, de modifier et de supprimer la définition des affinités.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -332,7 +332,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation Gérer les paramètres généraux des messages {#manage-message-settings}
 
-L’autorisation de haut niveau **[!UICONTROL Gérer les paramètres généraux des messages]** permet aux utilisateurs de créer, modifier et supprimer des paramètres globaux au niveau de l’environnement de test.
+L&#39;autorisation de haut niveau **[!UICONTROL Gérer les paramètres généraux des messages]** permet aux utilisateurs de créer,de  modifier et de supprimer des paramètres globaux au niveau de l&#39;environnement sandbox.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -345,7 +345,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation Afficher les paramètres généraux des messages {#view-message-settings}
 
-L’autorisation de haut niveau **[!UICONTROL Afficher les paramètres généraux des messages]** permet aux utilisateurs d’afficher les paramètres généraux des messages, tels que l’adresse d’exécution.
+L&#39;autorisation de haut niveau **[!UICONTROL Afficher les paramètres généraux des messages]** permet aux utilisateurs d&#39;afficher les paramètres généraux des messages, tels que l&#39;adresse d&#39;exécution.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -356,7 +356,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation Gérer les préréglages de message {#manage-message-presets}
 
-L’autorisation de haut niveau **[!UICONTROL Gérer les paramètres prédéfinis de message]** permet aux utilisateurs de créer, modifier et supprimer des paramètres prédéfinis de message sur plusieurs canaux au niveau de l’environnement de test.
+L&#39;autorisation de haut niveau **[!UICONTROL Gérer les préréglages de message]** permet aux utilisateurs de créer, de modifier et de supprimer des préréglages de message sur les canaux au niveau de l&#39;environnement sandbox.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -379,17 +379,17 @@ Elle comprend les autorisations de bas niveau suivantes :
 * IP_pools.read
 * mobile_setting.read (à partir d&#39;Adobe Experience Platform Launch)
 
-### Gestion des autorisations de suppression {#manage-suppression}
+### Autorisation Gérer la suppression {#manage-suppression}
 
-L’autorisation de haut niveau **[!UICONTROL Gérer la suppression]** permet aux utilisateurs de définir le nombre de rebonds avant l’ajout d’une adresse électronique à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans/depuis la liste de suppression.
+L’autorisation de haut niveau **[!UICONTROL Gérer la suppression]** permet aux utilisateurs de définir le nombre de bounces avant l’ajout d’une adresse e-mail à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans la liste de suppression.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
-* delete_list.write
-* delete_list.delete
+* suppression_list.write
+* suppression_list.delete
 
 ### Autorisation Afficher la liste de suppression {#view-suppresion-list}
 
@@ -410,7 +410,7 @@ L’autorisation de haut niveau **[!UICONTROL Exporter la liste de suppression]*
 Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à Journey Optimizer :
-   * delete_list.export
+   * suppression_list.export
 * Spécifiques à Adobe Experience Platform :
    * profiles.read
    * datasets.read

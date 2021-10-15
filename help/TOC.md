@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
       + [Publication de messages](using/publish-manage-message.md)
    + [Gestion de la désinscription](using/consent.md)
 + Personnalisation{#personalization}
-   + [Prise en main      de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main       de la personnalisation](using/personalization/personalize.md)
    + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
    + [Validation de la personnalisation](using/personalization/personalization-validation.md)
    + Cas d&#39;utilisation{#personalization-use-cases}
@@ -55,7 +55,7 @@ ht-degree: 98%
       + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
       + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
       + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
-      + [Assistants](using/personalization/functions/helpers.md)
+      + [Helpers](using/personalization/functions/helpers.md)
       + [Fonctions de mappage](using/personalization/functions/maps.md)
       + [Fonctions d&#39;objet](using/personalization/functions/objects.md)
       + [Fonctions de chaîne](using/personalization/functions/string.md)

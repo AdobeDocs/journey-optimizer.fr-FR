@@ -9,7 +9,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ L&#39;icône **[!UICONTROL Filtrer les éléments]** dans le coin supérieur gau
 
 * **Afficher uniquement les éléments récents** : ce filtre vous permet d&#39;afficher uniquement les cinq derniers événements et actions utilisés, en plus de ceux d&#39;usine. Il est spécifique à chaque utilisateur. Par défaut, tous les éléments s&#39;affichent.
 
-Vous pouvez également utiliser le champ **[!UICONTROL Rechercher.]** Seuls les événements et les actions sont filtrés.
+Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]**. Seuls les événements et les actions sont filtrés.
 
 La **zone de travail** est la zone centrale du concepteur de parcours. C&#39;est là que vous pouvez déposer vos activités et les configurer. Cliquez sur une activité de la zone de travail pour la configurer. Le volet de configuration de l&#39;activité s&#39;ouvre alors sur le côté droit.
 
