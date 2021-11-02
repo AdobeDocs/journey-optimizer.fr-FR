@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
+source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 88%
+source-wordcount: '1053'
+ht-degree: 87%
 
 ---
 
@@ -41,6 +41,15 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 ➡️ [Découvrez comment prévisualiser, tester et publier votre e-mail dans cette vidéo](#video-preview)
 
 ## Sélectionner des profils de test{#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Prévisualiser et tester vos messages"
+>abstract="Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Rendu des emails"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Aperçu"
+
+
 
 Utilisez des [profils de test](building-journeys/creating-test-profiles.md) pour cibler des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis.
 
@@ -122,19 +131,19 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    ![](assets/send-proof-button.png)
 
-1. Dans la fenêtre **[!UICONTROL Envoyer le BAT]** , saisissez l&#39;email du destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de votre organisation.
+1. Dans la **[!UICONTROL Envoyer un bon à tirer]** , saisissez l’email de votre destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de vos organisations.
 
    Notez que vous pouvez ajouter jusqu’à dix destinataires pour votre diffusion BAT.
 
    ![](assets/send-proof-button_2.png)
 
-1. Sélectionnez ensuite les **Profils de test** qui seront utilisés pour personnaliser le contenu du message.
+1. Sélectionnez ensuite le **Profils de test** qui sera utilisé pour personnaliser le contenu du message.
 
    Chaque destinataire du BAT recevra autant de messages que le nombre de profils de test sélectionnés. Par exemple, si vous avez ajouté cinq emails de destinataires et sélectionné dix profils de test, vous enverrez alors cinquante messages de BAT et chaque destinataire en recevra dix.
 
 1. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, par exemple . - _ ( ) [ ], sont autorisés comme préfixe à l&#39;objet.
 
-1. Cliquez sur **[!UICONTROL Envoyer le BAT]**.
+1. Cliquez sur **[!UICONTROL Envoyer un bon à tirer]**.
 
    ![](assets/send-proof-select.png)
 
