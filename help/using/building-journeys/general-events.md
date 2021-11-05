@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Lorsque vous déposez un événement métier, cela ajoute automatiquement une ac
 
 Une activité d&#39;événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer une temporisation pour l&#39;événement.
 
-Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n&#39;est pas le cas, le client va, au choix, s&#39;engager dans un chemin de temporisation ou terminer son parcours.
+Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client va soit s’engager dans un chemin d’accès au délai d’expiration, soit terminer son parcours.
 
 Pour configurer une temporisation d&#39;événement, procédez comme suit :
 

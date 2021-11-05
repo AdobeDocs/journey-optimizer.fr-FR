@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Transmission dynamique des collections à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 61ec1d33ab500837bc0a58961f1abf5fc436e487
+source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 98%
+source-wordcount: '446'
+ht-degree: 97%
 
 ---
 
@@ -52,23 +52,6 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
    ```
 
 ## Limites {#limitations}
-
-* Les tableaux d’objets contenant des sous-objets ne sont pas pris en charge. Par exemple :
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
 
 * Les tableaux d’objets imbriqués dans un tableau d’objets ne sont pas pris en charge pour l’instant. Par exemple :
 

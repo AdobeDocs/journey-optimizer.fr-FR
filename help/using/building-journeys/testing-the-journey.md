@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1618'
 ht-degree: 100%
 
 ---
@@ -136,8 +136,6 @@ Les différents statuts du parcours d’un individu sont les suivants :
 * _Terminé_ : l’individu a atteint la fin du parcours.
 * _Erreur_ : le parcours de l’individu a été arrêté en raison d’une erreur.
 * _Délai dépassé_ : le parcours de l’individu a été arrêté, car l’exécution d’une étape a pris trop de temps.
-
-Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
 
 Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
 

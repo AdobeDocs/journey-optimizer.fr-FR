@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
@@ -82,7 +82,7 @@ Lorsque cette fonction est activée sur un environnement Sandbox hors production
 
 Pour obtenir le **nombre d’e-mails** qui n’ont pas été envoyés car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
 
-```
+```sql
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
 _experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
 _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
@@ -91,7 +91,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.r
 
 Pour obtenir la **liste des adresses e-mail** qui n’ont pas été envoyées car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
 
-```
+```sql
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
 _experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
 _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND

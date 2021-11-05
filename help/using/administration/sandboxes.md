@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,8 @@ Les environnements Sandbox sont affectés par le biais des profils de produit da
 Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d&#39;utilisation des environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 La commande de sélecteur des environnements Sandbox se trouve dans la partie supérieure gauche de votre écran. Pour passer d&#39;un environnement Sandbox à un autre, cliquez sur l&#39;environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Affectation d&#39;environnements Sandbox {#assign-sandboxes}
 
@@ -66,3 +68,9 @@ Pour configurer l&#39;accessibilité de votre contenu, vous devez affecter un do
 Notez que pour que votre contenu soit synchronisé avec l&#39;environnement Sandbox correct, vous devez suivre la même syntaxe que cet environnement. Par exemple, si votre environnement Sandbox est appelé développement, votre dossier partagé doit porter le même nom.
 
 [Découvrez comment gérer les dossiers partagés](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}.
+
+## Vidéo pratique{#video}
+
+Découvrez ce que sont les environnements Sandbox et comment faire la distinction entre les environnements Sandbox de développement et de production. Découvrez comment créer, réinitialiser et supprimer des environnements Sandbox.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

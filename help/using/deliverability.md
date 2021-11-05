@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 95%
 
 ---
 
@@ -29,11 +29,13 @@ Le **taux de délivrabilité** correspond au nombre de messages qui ont atteint 
 
 Pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], nous vous recommandons d&#39;observer les bonnes pratiques répertoriées dans cette section. En règle générale, les problèmes de délivrabilité sont liés à la protection contre le spam mise en œuvre par les fournisseurs d&#39;accès Internet (FAI) et les administrateurs de serveurs de messagerie.
 
+Pour une analyse plus approfondie de ce qu&#39;est la délivrabilité et pour en savoir plus sur les termes, concepts et approches clés de la délivrabilité, reportez-vous à la section [Guide des bonnes pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr){target=&quot;_blank&quot;}.
+
 ## Réduire les taux de plainte {#reduce-complaint-rate}
 
 Les FAI disposent généralement d&#39;un moyen important pour signaler un message reçu comme étant du spam. Cela permet d&#39;identifier les sources non fiables. En répondant rapidement aux demandes d&#39;opt-out et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des opt-out](consent.md#opt-out-management).
 
-Il est recommandé de ne pas empêcher les destinataires qui le souhaitent de s&#39;exclure en les obligeant à remplir des champs tels que leur adresse email ou leur nom. La landing page du formulaire de désinscription ne doit comporter qu&#39;un seul bouton de validation.
+Il est recommandé de ne pas empêcher les destinataires qui le souhaitent de s&#39;exclure en les obligeant à remplir des champs tels que leur adresse e-mail ou leur nom. La page de destination du formulaire de désinscription ne doit comporter qu&#39;un seul bouton de validation.
 
 Redoublez d&#39;attention lorsque vous demandez une confirmation supplémentaire : un utilisateur peut posséder deux adresses email redirigées vers la même boîte de réception (par exemple, prénom.nom@club.com et prénom.nom@internet-club.com). Si le profil est capable de se souvenir uniquement de la première adresse et souhaite se désinscrire via un message envoyé à l&#39;autre, le formulaire refusera cette adresse car l&#39;identifiant chiffré et l&#39;adresse email saisie ne correspondront pas.
 
@@ -70,8 +72,16 @@ Pour améliorer votre taux de délivrabilité et vous assurer que vos emails att
 <!--* **Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).
 * **Personalize your email**: Personalizing the email increases the chances of your message being opened.
 * **Images and text**: Respect a decent text/image ratio (for example 60% text and 40% images).-->
-* **Lien de désinscription et landing page** : le lien de désinscription est essentiel. Il doit être visible et valide, et le formulaire doit fonctionner.
+* **Lien de désinscription et page de destination** : le lien de désinscription est essentiel. Il doit être visible et valide, et le formulaire doit fonctionner.
 
 <!--**Use tools** offered by Journey Optimizer to optimize the content of your email (delivery analysis, anti-spam analysis).-->
 
 [En savoir plus sur la conception du contenu des emails](design-emails.md).
+
+<!--
+## Establish your reputation as a sender
+
+If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+
+To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).
+-->

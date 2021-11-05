@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 54b5a2c09ae9d7fd18f9b6a7d0053d78ae3e50b0
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Une fois que vous avez [créé un message](create-message.md), utilisez l&#39;on
 
 Les étapes pour configurer un email sont les suivantes :
 
-1. Spécifiez l&#39;**[!UICONTROL objet de l&#39;email]**. Pour ce faire, cliquez sur le bouton à droite pour ouvrir l&#39;éditeur d&#39;expression et composer l&#39;objet de l&#39;email. Découvrez comment ajouter la personnalisation dans [cette section](personalization/personalize.md)
+1. Indiquez l’objet du courrier électronique dans la variable **[!UICONTROL Objet]** champ . Pour ce faire, cliquez sur le bouton à droite pour ouvrir l&#39;éditeur d&#39;expression et composer l&#39;objet de l&#39;email. Découvrez comment ajouter la personnalisation dans [cette section](personalization/personalize.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Concepteur d&#39;email]** pour concevoir votre email. Découvrez comment concevoir des e-mails dans [cette section](design-emails.md).
 

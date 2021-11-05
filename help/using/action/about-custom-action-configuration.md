@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 92%
@@ -20,7 +20,7 @@ Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que le
 
 Les limites sont répertoriées dans [cette page](../limitations.md).
 
-Vous pouvez transmettre des collections de manière dynamique à l’aide d’actions personnalisées. Reportez-vous à ce [cas d’utilisation](../limitations.md).
+Vous pouvez transmettre des collections de manière dynamique à l’aide d’actions personnalisées. Reportez-vous à ce [cas d’utilisation](../building-journeys/collections.md).
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 88%
 
 ---
 
@@ -41,19 +41,35 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 * **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours.
 
-* **[!UICONTROL Parcours individuels en échec]** : nombre total de parcours individuels n’ayant pas été exécutés avec succès.
+* **[!UICONTROL Parcours individuels en échec]**: Nombre total de parcours individuels qui n’ont pas été exécutés avec succès.
 
 ![](../assets/report_journey_3.png)
 
-Les widgets **[!UICONTROL Événement exécuté au cours des 24 dernières heures]**, **[!UICONTROL Événements exécutés]** et **[!UICONTROL Événements]** vous permettent de voir quel événement a été exécuté avec succès au moyen d’un chiffre récapitulatif, d’un graphique et d’un tableau.
+Le **[!UICONTROL Événement exécuté au cours des dernières 24 heures]** et **[!UICONTROL Événements]** Les widgets vous permettent de voir quel de vos événements a été exécuté avec succès par l’intermédiaire d’un nombre résumé, d’un graphique et d’un tableau.
 
 ![](../assets/report_journey_4.png)
 
-Les widgets **[!UICONTROL Action exécutée au cours des 24 dernières heures]** et **[!UICONTROL Actions exécutées et erreurs]** représentent les actions avec le plus de succès et les erreurs qui se produites au moment où les actions ont été déclenchées. Le graphique Action, le tableau et les chiffres récapitulatifs contiennent les données disponibles pour les actions, notamment :
+Le **[!UICONTROL Action exécutée au cours des dernières 24 heures]** et **[!UICONTROL Actions exécutées et erreurs]** Les widgets représentent l’action et les erreurs qui ont réussi le mieux lors du déclenchement de vos actions. Le graphique Action, le tableau et les chiffres récapitulatifs contiennent les données disponibles pour les actions, notamment :
 
-* **[!UICONTROL Actions exécutées avec succès]** : nombre total d’actions exécutées avec succès pour un parcours.
+* **[!UICONTROL Actions exécutées]**: Nombre total d’actions exécutées avec succès pour un parcours.
 
-* **[!UICONTROL Erreurs lors de l’action]** : nombre total d’erreurs qui se sont produites pour les actions.
+* **[!UICONTROL Erreurs dans les actions]**: Nombre total d’erreurs qui se sont produites pour les actions.
+
+<!--
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## Onglet E-mail {#email-live}
 

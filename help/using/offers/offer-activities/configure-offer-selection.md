@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un 
 
 1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-1. Choisissez de classer les offres par **[!UICONTROL Classement]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
+1. Sélectionner **[!UICONTROL Formule de classement]** comme méthode de classement, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,21 +74,15 @@ Après avoir créé une stratégie de classement, vous pouvez l&#39;affecter à 
 
 1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-1. Choisissez de classer les offres à l&#39;aide du **[!UICONTROL classement par l&#39;IA]** dans la liste déroulante.
+1. Choisir de classer les offres par **[!UICONTROL Classement AI]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
 
    ![](../../assets/ranking-selection-ai-ranking.png)
-
-1. Cliquez sur **[!UICONTROL Ajouter un classement]**.
-
-   ![](../../assets/ranking-selection-ai-ranking-add.png)
 
 1. Sélectionnez la stratégie de classement que vous avez créée. Tous les détails de la stratégie de classement s&#39;affichent.
 
    ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Cliquez sur **[!UICONTROL Sélectionner]**.
-
-La stratégie de classement est désormais associée à l&#39;emplacement.
+1. Cliquez sur **[!UICONTROL Sélectionner]**. La stratégie de classement est désormais associée à l&#39;emplacement.
 
 Si plusieurs offres sont éligibles, le système de modèles formés détermine l&#39;offre qui doit être présentée en premier pour un emplacement donné.
 

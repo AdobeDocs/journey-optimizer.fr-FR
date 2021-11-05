@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
+source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
 workflow-type: tm+mt
 source-wordcount: '1749'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -176,4 +176,4 @@ Cet aperçu vous permet de valider la définition de la payload.
 
 1. Vérifiez l&#39;aperçu pour valider la définition de la payload.
 
-1. Vous pouvez ensuite partager l&#39;aperçu de la payload avec la personne responsable de l&#39;envoi de l&#39;événement. Cette payload peut l&#39;aider à concevoir la configuration d&#39;un envoi d&#39;événement vers [!DNL Journey Optimizer]. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vous pouvez ensuite partager l&#39;aperçu de la payload avec la personne responsable de l&#39;envoi de l&#39;événement. Cette payload peut les aider à concevoir la configuration d’un envoi d’événement vers [!DNL Journey Optimizer]. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 >abstract="Un événement est lié à une personne. Il décrit son comportement (par exemple, cette personne a acheté un produit, a visité un magasin, a quitté un site web, etc.) ou un événement qui s’est produit en rapport avec cette personne (par exemple, elle a accumulé 10 000 points de fidélité). C’est ce type d’élément que [!DNL Journey Optimizer] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite."
 
 La configuration d’événement vous permet de définir les informations que [!DNL Journey Optimizer] recevra en tant qu’événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement.
+
+>[!NOTE]
+>
+>Pour plus d’informations sur la configuration d’un événement, consultez la [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >

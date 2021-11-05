@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 96%
+source-wordcount: '1041'
+ht-degree: 91%
 
 ---
 
@@ -56,6 +56,8 @@ Si vous utilisez le [service de segmentation Adobe Experience Platform](https:
 
 Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
+Dans l’éditeur simple, vous trouverez également la catégorie Propriétés du Parcours, sous les catégories Événement et Source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Pour plus d’informations, voir [Documentation du Journey Orchestration Adobe](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html){target=&quot;_blank&quot;}
+
 ## Condition de source de données {#data_source_condition}
 
 Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Pour savoir comment utiliser l’éditeur d’expression, consultez la [documentation d’Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}. L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. Voir [cette page](../datasource/external-data-sources.md).
@@ -86,13 +88,29 @@ En mode test, lorsqu&#39;un partage est atteint, la branche supérieure est touj
 
 ## Condition de date {#date_condition}
 
-Cette condition vous permet de définir un flux différent en fonction de la date. Par exemple, si la personne accède à l’étape pendant la période de soldes, vous lui enverrez un message spécifique. Le reste de l’année, vous lui enverrez un autre message.
+Cette condition vous permet de définir un flux différent en fonction de la date. Par exemple, si la personne entre dans l’étape pendant la période &quot;soldes&quot;, vous lui enverrez un message spécifique. Le reste de l’année, vous lui enverrez un autre message.
 
 >[!NOTE]
 >
 >Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [cette page](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
+
+<!--
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+
+The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+
+The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+
+The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+
+![](../assets/profile-cap-condition.png)
+-->
 
 ## Utilisation de segments dans des conditions {#using-a-segment}
 

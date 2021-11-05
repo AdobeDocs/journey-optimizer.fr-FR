@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 94%
+source-wordcount: '691'
+ht-degree: 81%
 
 ---
 
 # Prise en main de la personnalisation{#add-personalization}
 
-Découvrez les [!DNL Adobe Journey Optimizer] fonctionnalités de personnalisation pour adapter vos messages à chaque destinataire spécifique en exploitant les données et les informations que vous avez à leur sujet. Il peut s&#39;agir de leur prénom, de leurs centres d&#39;intérêt, de leur lieu de vie, de ce qu&#39;ils ont acheté, etc.
+Discover [!DNL Adobe Journey Optimizer] fonctionnalités de personnalisation pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous disposez à leur sujet. Il peut s&#39;agir de leur prénom, de leurs centres d&#39;intérêt, de leur lieu de vie, de ce qu&#39;ils ont acheté, etc.
 
 ➡️ [Découvrez comment personnaliser un message dans ces vidéos](#video-perso)
 
@@ -45,7 +45,7 @@ Dans chaque champ contenant l&#39;icône de l&#39;éditeur, vous pouvez ouvrir l
 
 ### Personnaliser vos emails
 
-Lorsque vous créez un e-mail, vous pouvez ajouter une personnalisation dans le champ **Objet de l&#39;e-mail** du message.
+Lorsque vous créez un email, vous pouvez ajouter une personnalisation dans le **[!UICONTROL Objet]** du message.
 
 ![](assets/perso_subject.png)
 
@@ -93,13 +93,17 @@ Dans l&#39;interface de l&#39;éditeur d&#39;expression, vous sélectionnez, org
 
 ![](assets/perso_ee1.png)
 
-La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous permet de sélectionner la source en vue de la personnalisation. Les sources disponibles sont les suivantes :
+La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous permet de sélectionner la source en vue de la personnalisation.
 
-* **Profil** : répertorie toutes les références associées au schéma de profil décrit dans la [ documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
-* **Appartenance à un segment** : répertorie tous les segments créés dans le service Adobe Experience Platform Segmentation. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr) plus d&#39;informations sur la segmentation{target=&quot;_blank&quot;}.
-* **Offres** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md).
-* **Contexte** : lorsque l&#39;activité **Message** est utilisée dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. En savoir plus dans [cette section](personalization-use-case.md).
-* **Fonctions helper** : répertorie toutes les fonctions helper disponibles pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et les manipuler dans le contexte de la personnalisation. En savoir plus dans [cette section](functions/functions.md).
+![](assets/perso_ee3.png)
+
+Les sources disponibles sont les suivantes :
+
+* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la section [Documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Abonnements aux segments]** : répertorie tous les segments créés dans le service de segmentation Adobe Experience Platform. Plus d’informations sur la segmentation disponibles [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target=&quot;_blank&quot;}.
+* **[!UICONTROL Offrir des décisions]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md).
+* **[!UICONTROL Attributs contextuels]** : lorsque la variable **Message** est utilisé dans un parcours. Les champs de parcours contextuels sont disponibles via ce menu. En savoir plus dans [cette section](personalization-use-case.md).
+* **[!UICONTROL Fonctions helper]** : répertorie toutes les fonctions helper disponibles pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et les manipuler dans le contexte de la personnalisation. En savoir plus dans [cette section](functions/functions.md).
 
 Lorsqu&#39;elle est sélectionnée, la référence est ajoutée dans l&#39;éditeur.
 

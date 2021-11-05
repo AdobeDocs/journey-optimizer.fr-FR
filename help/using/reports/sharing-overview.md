@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 7e4b5342fc57029517ae4d6a6c1e8e03e0dc0c3b
+source-git-commit: 2731f3fef651f4d75e2d1e19199a6cd8050b3475
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 98%
 
 ---
 
@@ -53,10 +53,7 @@ Les jeux de données suivants sont transmis :
 
 Les listes des champs XDM transmis à Adobe Experience Platform sont détaillées ici :
 
-* [Champs communs des événements journeySteps](../reports/sharing-common-fields.md)
-* [Champs d’exécution d’action des événements journeyStep](../reports/sharing-execution-fields.md)
-* [Champs de récupération des données des événements journeyStep](../reports/sharing-fetch-fields.md)
-* [Champs d’identité des événements journeyStep](../reports/sharing-identity-fields.md)
-* [Champs du parcours](../reports/sharing-journey-fields.md)
+* [Liste des champs d’événement d’étape](../reports/sharing-field-list.md)
+* [Champs d’événement d’étape hérités](../reports/sharing-legacy-fields.md)
 
 Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr){target=&quot;_blank&quot;}.

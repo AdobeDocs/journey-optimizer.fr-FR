@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 84%
 
 ---
 
@@ -66,6 +66,20 @@ Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de 
 * **[!UICONTROL Soft bounces]** : nombre total d&#39;erreurs temporaires, telles qu&#39;une boîte de réception pleine.
 
 * **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
+
+![](../assets/live_report_8.png)
+
+>[!NOTE]
+>
+>Les widgets et mesures Offres ne sont disponibles que si une décision a été insérée dans un courrier électronique. Pour plus d’informations sur la gestion des décisions, reportez-vous à cette section [page](../offers/get-started/starting-offer-decisioning.md).
+
+Le **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiques des offres]** au fil du temps, les widgets mesurent le succès et l’impact de votre offre sur votre audience ciblée. Il détaille les informations principales relatives à votre message avec les KPI :
+
+* **[!UICONTROL Offre envoyée]**: Nombre total d&#39;envois pour l&#39;offre.
+
+* **[!UICONTROL Impression de l&#39;offre]**: Nombre d’ouvertures de l’offre dans une diffusion.
+
+* **[!UICONTROL Clics sur les offres]**: Nombre de clics sur une offre dans une diffusion.
 
 >[!NOTE]
 >

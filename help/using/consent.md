@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 97%
+source-wordcount: '824'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,7 @@ Pour en savoir plus sur la gestion de la confidentialité et les réglementation
 La possibilité pour les destinataires de se désabonner de la réception des communications d&#39;une marque est une exigence légale. Pour en savoir plus sur la législation applicable, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr#regulations){target=&quot;_blank&quot;}.
 
 Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans chaque e-mail envoyé aux destinataires :
+
 * Lorsqu&#39;ils cliquent sur ce lien, les destinataires sont dirigés vers une page de destination contenant un bouton pour confirmer leur désinscription.
 * Lorsqu&#39;ils cliquent sur le bouton de désinscription, un appel d’Adobe I/O est lancé pour mettre à jour les données du profil avec ces informations. [En savoir plus à ce sujet](#consent-service-api).
 
@@ -56,7 +57,7 @@ Pour ajouter un lien de désabonnement, procédez comme suit :
 
    ![](assets/opt-out-link-type.png)
 
-1. Dans le cadre **[!UICONTROL URL de la page de désinscription]**, copiez le lien vers votre page de destination.
+1. Dans le **[!UICONTROL Lien]** collez le lien vers votre landing page.
 
    ![](assets/opt-out-link-url.png)
 
@@ -99,6 +100,7 @@ Cet appel Adobe I/O POST est le suivant :
 Point d&#39;entrée : cjm.adobe.io/imp/consent/preferences
 
 Paramètres de requête:
+
 * **params** : contient la payload chiffrée
 * **sig** : signature <!--which signature?-->
 * **pid** : ID de profil chiffré
@@ -110,6 +112,7 @@ Ces paramètres sont disponibles à partir du lien de désabonnement envoyé à 
 <!--QUESTION: How do you get the URL built for each recipient? Do you have to wait until each targeted recipient receives the unsubscribe link or can you deduce it in advance? Is it done automatically upon the API call or do you have to do something manually for each profile? In other words will the LP automatically include the 3 parameters or do you have to insert something manually? Still not completely clear-->
 
 Exigences d’en-tête :
+
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name
@@ -135,11 +138,11 @@ Corps de la requête:
 
 ## Désinscription en un clic {#one-click-opt-out}
 
-Comme de nombreux clients recherchent un processus plus facile pour se désabonner, vous pouvez également ajouter un lien d’exclusion en un clic dans votre contenu d’e-mail. Ce lien permettra à vos destinataires de se désabonner rapidement de vos communications, sans être redirigés vers une landing page dans laquelle ils doivent confirmer leur désinscription.
+Comme de nombreux clients recherchent un processus plus facile pour se désabonner, vous pouvez également ajouter un lien d’exclusion en un clic dans votre contenu d’e-mail. Ce lien permettra à vos destinataires de se désabonner rapidement de vos communications, sans être redirigés vers une page de destination dans laquelle ils doivent confirmer leur désinscription.
 
 Découvrez comment ajouter un lien d’exclusion au contenu de votre message dans [cette section](message-tracking.md#one-click-opt-out-link).
 
-Une fois votre message envoyé via un [parcours](building-journeys/journey.md), si un destinataire clique sur le lien d’exclusion, son profil est immédiatement exclu.
+Une fois que votre message est envoyé via une [parcours](building-journeys/journey.md), si un destinataire clique sur le lien d’exclusion, son profil est immédiatement désinscrit.
 
 ## Lien de désabonnement dans l&#39;en-tête {#unsubscribe-email}
 
@@ -153,7 +156,7 @@ En fonction du client de messagerie, cliquer sur le lien de désabonnement de l&
 
 * Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-* Cela a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l&#39;e-mail : le destinataire est redirigé vers une landing page comprenant un bouton pour confirmer sa désinscription. En savoir plus sur la gestion des opt-outs dans [cette section](#opt-out-management).
+* Cela a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l&#39;e-mail : le destinataire est redirigé vers une page de destination comprenant un bouton pour confirmer sa désinscription. En savoir plus sur la gestion des opt-outs dans [cette section](#opt-out-management).
 
 ## Gestion des désinscriptions push {#push-opt-out-management}
 

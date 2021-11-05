@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: df5231a4b04fb29fdbbad46bc140cec68a40f8f2
+source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Cette requête permet de répertorier chaque erreur rencontrée dans les parcour
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -35,7 +35,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 _Exemple_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -51,7 +51,7 @@ Cette requête renvoie toutes les erreurs différentes qui se sont produites lor
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
@@ -60,7 +60,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Exemple_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
@@ -75,7 +75,7 @@ Le résultat doit être supérieur à 0. Cette requête renvoie le nombre exact 
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -85,7 +85,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Exemple_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -99,7 +99,7 @@ Le résultat doit être supérieur à 0. Cette requête ne nous indique que si l
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -109,7 +109,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Exemple_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -123,7 +123,7 @@ La requête renvoie la liste de tous les messages ainsi que leur nombre appelés
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -134,7 +134,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 _Exemple_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -149,7 +149,7 @@ La requête renvoie la liste de tous les messages ainsi que leur nombre appelés
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
@@ -159,7 +159,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 _Exemple_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
@@ -173,7 +173,7 @@ La requête renvoie la liste de tous les noms de parcours ainsi que le nombre de
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
@@ -183,7 +183,7 @@ ORDER BY DATE(timestamp) desc
 
 _Exemple_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
@@ -199,7 +199,7 @@ La requête renvoie, pour la période définie, le nombre de profils ayant rejoi
 
 _Requête du lac de données_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
@@ -208,7 +208,7 @@ ORDER BY DATE(timestamp) desc
 
 _Exemple_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 GROUP BY DATE(timestamp)

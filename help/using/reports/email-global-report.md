@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 78%
 
 ---
 
@@ -90,6 +90,32 @@ Le rapport **[!UICONTROL Ouvertures vs. clics]** identifie l&#39;interaction de 
 * **[!UICONTROL Clics uniques]** : nombre de destinataires qui ont cliqué sur un contenu dans un email.
 
 * **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
+
+![](../assets/global_report_20.png)
+
+>[!NOTE]
+>
+>Les widgets et mesures Offres ne sont disponibles que si une décision a été insérée dans un courrier électronique. Pour plus d’informations sur la gestion des décisions, reportez-vous à cette section [page](../offers/get-started/starting-offer-decisioning.md).
+
+Le **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiques des offres]** au fil du temps, les widgets mesurent le succès et l’impact de votre offre sur votre audience ciblée. Il détaille les informations principales relatives à votre message avec les KPI :
+
+* **[!UICONTROL Offre envoyée]**: Nombre total d&#39;envois pour l&#39;offre.
+
+* **[!UICONTROL Impression de l&#39;offre]**: Nombre d’ouvertures de l’offre dans une diffusion.
+
+* **[!UICONTROL Clics sur les offres]**: Nombre de clics sur une offre dans une diffusion.
+
+Le **[!UICONTROL Statistiques détaillées des offres]** contient les données disponibles pour l&#39;activité des destinataires avec votre offre :
+
+* **[!UICONTROL Nom de l’emplacement]**: Nom de l’emplacement utilisé pour afficher votre offre. Pour plus d’informations sur l’emplacement, reportez-vous à cette section [page](../offers/offer-library/creating-placements.md).
+
+* **[!UICONTROL Nom de l’offre]**: Nom de l&#39;offre ajoutée dans la diffusion. Pour plus d’informations sur l’emplacement, reportez-vous à cette section [page](../offers/offer-library/creating-personalized-offers.md).
+
+* **[!UICONTROL Offre envoyée]**: Nombre total d&#39;envois pour l&#39;offre.
+
+* **[!UICONTROL Taux d&#39;impression des offres]**: Pourcentage d&#39;offres ouvertes par rapport au nombre d&#39;offres envoyées.
+
+* **[!UICONTROL Taux de clics des offres]**: Pourcentage d&#39;utilisateurs ayant interagi avec l&#39;offre.
 
 >[!NOTE]
 >

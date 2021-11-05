@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
+source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 97%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 97%
 Avant de créer une offre, assurez-vous que vous avez créé les éléments suivants :
 
 * Un **emplacement** dans lequel l&#39;offre sera affichée. Voir [Créer des emplacements](../offer-library/creating-placements.md)
-* Si vous souhaitez ajouter une condition d&#39;éligibilité : une **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
-* Une ou plusieurs **balises** que vous souhaitez peut-être associer à l’offre. Voir [Création de balises](../offer-library/creating-tags.md).
+* Si vous souhaitez ajouter une condition d&#39;éligibilité : a **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
+* Un ou plusieurs **tags** que vous souhaitez peut-être associer à l’offre. Voir [Création de balises](../offer-library/creating-tags.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -120,15 +120,25 @@ Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectio
 
 Vous pouvez également insérer du contenu de type texte lors de la sélection d&#39;un emplacement compatible.
 
-1. Sélectionnez l’option **[!UICONTROL Personnaliser]**.
+1. Sélectionnez la **[!UICONTROL Personnalisé]** et cliquez sur **[!UICONTROL Ajouter du contenu]**.
+
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
    >Cette option n&#39;est pas disponible pour les emplacements de type image.
 
-1. Saisissez le texte qui s’affichera au sein de l’offre dans la zone dédiée.
+1. Saisissez le texte qui s’affichera dans l’offre.
 
-   ![](../../assets/offer-text-content2.png)
+   ![](../../assets/offer-text-content.png)
+
+   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur d’expression. En savoir plus sur [personnalisation](../../personalization/personalize.md#use-expression-editor).
+
+   ![](../../assets/offer-personalization.png)
+
+   >[!NOTE]
+   >
+   >Seule la variable **[!UICONTROL Attributs de profil]**, **[!UICONTROL Abonnements aux segments]** et **[!UICONTROL Fonctions d’assistance]** Les sources sont disponibles pour la gestion de la décision.
 
 ## Ajout de règles d&#39;éligibilité et de contraintes {#eligibility}
 

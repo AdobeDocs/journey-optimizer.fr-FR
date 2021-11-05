@@ -1,19 +1,19 @@
 ---
-title: Bibliothèque de fonctions d'assistance
+title: Prise en main des fonctions d’assistance
 description: Bibliothèque de fonctions d'assistance Journey Optimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 87%
 
 ---
 
-# Bibliothèque de fonctions d&#39;assistance{#functionsL}
+# Prise en main des fonctions d’assistance{#functionsL}
 
 Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation dans [cette page](../personalization-syntax.md).
 
@@ -23,13 +23,17 @@ Le langage de modèle est utilisé dans les fonctions d&#39;assistance disponibl
 
 ![](../assets/access-helper-functions.png)
 
-
-
 Dans l&#39;éditeur d&#39;expression [!DNL Journey Optimizer], les fonctions d&#39;assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
+
+Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
+
+Accédez aux sous-catégories en cliquant sur le `>` icône . Sélectionnez une fonction en cliquant sur la fonction `+` icon : la fonction est automatiquement ajoutée à l’écran de personnalisation.
+
+Cliquez sur le bouton `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
 
 ## Fonctions{#functions-helper}
 
-**Fonctions de tableau**
+### Fonctions de tableau
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ Dans l&#39;éditeur d&#39;expression [!DNL Journey Optimizer], les fonctions d&#
     </tr>
 </table>
 
+### Fonctions de date et d’heure{#date-functions}
 
-**Fonctions de mappage**
+<table>
+    <tr>
+        <td><a href="dates.md#age">Âge</a></td><td>Cette fonction récupère l’âge à partir d’une date donnée.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Durée actuelle en millisecondes</a></td><td>Cette fonction récupère l’heure actuelle en millisecondes époque</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">Différence entre dates</a></td><td>Cette fonction récupère la différence entre deux dates en nombre de jours</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">Jour de la semaine</a></td><td>Cette fonction récupère le jour de la semaine.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">Jour de l’année</a></td><td>Cette fonction récupère le jour de l’année</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">Date de format</a></td><td>Cette fonction formate une valeur de date et d’heure</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Jours définis</a></td><td>Cette fonction définit le jour du mois pour la date et l’heure données</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Jours définis</a></td><td>Cette fonction définit l’heure de la date et de l’heure</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">À UTC</a></td><td>Cette fonction convertit un datetime en UTC.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">Semaine de l’année</a></td><td>Cette fonction renvoie la semaine de l’année</td>
+    </tr>
+</table>
+</table>
+
+### Fonctions de mappage
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ Dans l&#39;éditeur d&#39;expression [!DNL Journey Optimizer], les fonctions d&#
     </tr>
 </table>
 
-**Fonctions de chaîne**
+### Fonctions de chaîne
 
 <table>
     <tr>

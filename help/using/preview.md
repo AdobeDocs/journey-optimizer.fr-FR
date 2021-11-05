@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
+source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 87%
@@ -111,7 +111,7 @@ Pour une prévisualisation de notification push :
 
    ![](assets/preview-select-channel.png)
 
-1. Appliquez les mêmes étapes que celles décrites ci-dessus pour sélectionner un profil de test et sélectionner le type de périphérique pour prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**
+1. Appliquez les mêmes étapes que celles décrites ci-dessus pour sélectionner un profil de test et sélectionner le type de périphérique pour prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
    ![](assets/preview-iOS.png)
 

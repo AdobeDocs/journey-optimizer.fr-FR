@@ -5,15 +5,14 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 93%
 
 ---
 
-
-# Aide de [!DNL Journey Optimizer] {#using}
+# Aide de Adobe Journey Optimizer {#using}
 
 + [Documentation Journey Optimizer](ajo-home.md)
 + Nouveautés {#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 100%
    + [Dernières mises à jour](using/documentation-updates.md)
 + Prise en main{#get-started}
    + [Qu&#39;est-ce que Journey Optimizer ?](using/get-started.md)
-   + [Démarrage rapide](using/quick-start.md)
+   + Démarrage rapide{#quick-start}
+      + [Présentation](using/quick-start.md)
+      + [Prise en main en tant que marketeur](using/path/marketer.md)
+      + [Prise en main en tant qu’ingénieur de données](using/path/data-engineer.md)
+      + [Prise en main en tant qu’administrateur](using/path/administrator.md)
+      + [Prise en main en tant que développeur](using/path/developer.md)
    + [Interface utilisateur](using/user-interface.md)
    + [Limites](using/limitations.md)
 + Messages {#create-messages}
@@ -50,10 +54,11 @@ ht-degree: 100%
       + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
       + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
    + Fonctions d&#39;assistance{#functions}
-      + [Liste des fonctions d&#39;assistance](using/personalization/functions/functions.md)
+      + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
       + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
       + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
       + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
+      + [Fonctions de date](using/personalization/functions/dates.md)
       + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
       + [Helpers](using/personalization/functions/helpers.md)
       + [Fonctions de mappage](using/personalization/functions/maps.md)
@@ -97,6 +102,7 @@ ht-degree: 100%
       + [Envoi de messages à plusieurs canaux](using/building-journeys/journeys-uc.md)
       + [Envoi de messages à l&#39;aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
+      + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
 + Tracker et surveiller {#reporting}
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
@@ -111,11 +117,14 @@ ht-degree: 100%
       + [Rapport global sur les notifications push](using/reports/push-global-report.md)
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
-      + [Champs du parcours](using/reports/sharing-journey-fields.md)
-      + [Champs communs](using/reports/sharing-common-fields.md)
-      + [Champs d&#39;exécution d&#39;action](using/reports/sharing-execution-fields.md)
-      + [Champs de récupération de données](using/reports/sharing-fetch-fields.md)
-      + [Champs d&#39;identité](using/reports/sharing-identity-fields.md)
+      + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
+      + Champs d’événement d’étape hérités {#legacy-step-event-fields}
+         + [A propos des champs hérités](using/reports/sharing-legacy-fields.md)
+         + [Champs du parcours](using/reports/sharing-journey-fields.md)
+         + [Champs communs](using/reports/sharing-common-fields.md)
+         + [Champs d&#39;exécution d&#39;action](using/reports/sharing-execution-fields.md)
+         + [Champs de récupération de données](using/reports/sharing-fetch-fields.md)
+         + [Champs d&#39;identité](using/reports/sharing-identity-fields.md)
       + [Exemples de requêtes](using/reports/query-examples.md)
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/deliverability.md)
@@ -140,6 +149,7 @@ ht-degree: 100%
    + Création et gestion des décisions {#create-manage-activities}
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configuration de la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
+      + [Créer des simulations](using/offers/offer-activities/simulation.md)
    + Création de rapports de gestion de décisions {#create-reports}
       + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)

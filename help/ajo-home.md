@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 80%
 
 ---
 
@@ -28,14 +28,21 @@ ht-degree: 100%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Présentation de [!DNL Journey Optimizer]</a>
+      <a href="using/get-started.md">Qu’est-ce que [!DNL Journey Optimizer] ?</a>
     </div>
-    <p>  Découvrez les principales fonctionnalités et comment commencer à utiliser la solution.
+    <p>Découvrez les fonctionnalités clés et les cas d’utilisation
     <p>
     <div>
       <a href="using/release-notes.md">Notes de mise à jour</a>
     </div>
-    <p>Découvrez les nouvelles fonctionnalités, les dernières améliorations et les correctifs
+    <p>Nouvelles fonctionnalités, dernières améliorations et correctifs
+   <p>
+    <div>
+      <a href="using/quick-start.md">Guide de démarrage rapide</a>
+    </div>
+    <p>
+    Découvrez comment commencer en tant qu’administrateur, ingénieur de données ou praticien de Parcours
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">Conception d’un contenu d’e-mail</a>
@@ -54,14 +61,14 @@ ht-degree: 100%
     <p>Découvrez comment créer et exécuter un parcours.
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">Configuration de [!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">Configuration [!DNL Journey Optimizer]</a>
     </div>
-    <p>Découvrez les étapes clés de la configuration de [!DNL Journey Optimizer].
+    <p>Découvrez les étapes clés de la configuration [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">Octroi de l’accès à [!DNL Journey Optimizer]</a>
+    <a href="using/administration/permissions-overview.md">Octroi de l'accès à [!DNL Journey Optimizer]</a>
     </div>
-    <p>Découvrez comment définir et gérer les autorisations affectées aux utilisateurs de [!DNL Journey Optimizer].
+    <p>Définition et gestion des autorisations affectées à [!DNL Journey Optimizer] utilisateurs
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestion des décisions</a>

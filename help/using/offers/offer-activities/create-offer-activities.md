@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
+source-git-commit: 7f8871fdaf5bb543ce8dc894f3a7dc7304eccf36
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 100%
+source-wordcount: '1287'
+ht-degree: 58%
 
 ---
 
@@ -32,55 +32,91 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 ## Création de la décision {#create-activity}
 
-1. Accédez à la liste des décisions, puis cliquez sur **[!UICONTROL Créer une décision]**.
+1. Accédez à la liste de décisions, puis cliquez sur **[!UICONTROL Créer une décision]**.
 
 1. Indiquez le nom de la décision.
 
-1. Définissez une date et une heure de début et de fin, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Si nécessaire, définissez une date et une heure de début et de fin, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](../../assets/activities-name.png)
 
-## Ajout des portées de décision {#add-decision-scopes}
+## Définition des portées de décision {#add-decision-scopes}
 
-1. Effectuez un glisser-déposer d&#39;un emplacement de la liste pour l&#39;ajouter à la décision, puis cliquez sur **[!UICONTROL Ajouter une collection]**.
+1. Sélectionnez un emplacement dans la liste déroulante. Il sera ajouté à la première portée de décision de votre décision.
 
    ![](../../assets/activities-placement.png)
 
+1. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner les critères d’évaluation de cet emplacement.
+
+   ![](../../assets/activities-evaluation-criteria.png)
+
+   Chaque critère consiste en une collection d’offres associée à une contrainte d’éligibilité et à une méthode de classement permettant de déterminer les offres à afficher dans l’emplacement.
+
    >[!NOTE]
    >
-   >Un même emplacement peut être sélectionné plusieurs fois dans la décision.
+   >Au moins un critère d’évaluation est requis.
 
-1. Sélectionnez la collection qui contient les offres à prendre en compte, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Sélectionnez la collection d’offres qui contient les offres à prendre en compte, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](../../assets/activities-collection.png)
 
-1. Les offres sélectionnées sont ajoutées à l&#39;emplacement.
+   >[!NOTE]
+   >
+   >Vous pouvez cliquer sur le bouton **[!UICONTROL Ouvrir les collections d’offres]** lien pour afficher la liste des collections dans un nouvel onglet, qui permet de parcourir les collections et les offres qu’elles contiennent.
 
-   Dans cet exemple, nous avons sélectionné deux offres qui s&#39;afficheront dans un emplacement de type JSON destiné à présenter des offres dans une solution de centre d&#39;appels.
+   La collection sélectionnée est ajoutée au critère.
 
-   ![](../../assets/offers-added.png)
+   ![](../../assets/activities-collection-added.png)
 
-1. Par défaut, si plusieurs offres sont éligibles pour cet emplacement, ce sont les offres ayant le score de priorité le plus élevé qui sont diffusées au client.
+1. Utilisez la variable **[!UICONTROL Eligibilité]** pour restreindre la sélection des offres pour cet emplacement.
 
-   Si vous souhaitez utiliser une formule ou une stratégie de classement spécifiques pour choisir l&#39;offre éligible à diffuser, sélectionnez-la dans la liste déroulante **[!UICONTROL Classer les offres par]**. Voir à ce propos [cette section](../offer-activities/configure-offer-selection.md).
+   Cette contrainte peut être appliquée en utilisant une **règle de décision** ou un ou plusieurs **segments Adobe Experience Platform**. Ceux-ci sont présentés dans [cette section](#segments-vs-decision-rules).
 
-1. Le champ **[!UICONTROL Contrainte]** limite la sélection des offres pour cet emplacement. Cette contrainte peut être appliquée en utilisant une **règle de décision** ou un ou plusieurs **segments Adobe Experience Platform**. Ceux-ci sont présentés dans [cette section](#segments-vs-decision-rules).
-
-   * Pour limiter la sélection des offres aux membres d&#39;un segment Adobe Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter des segments]**.
+   * Pour restreindre la sélection des offres aux membres d’un segment Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajout de segments]**.
 
       ![](../../assets/activity_constraint_segment.png)
 
-      Ajoutez un ou plusieurs segments du volet de gauche, combinez-les à l&#39;aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**, puis cliquez sur **[!UICONTROL Sélectionner]** pour confirmer.
+      Ajoutez un ou plusieurs segments depuis le volet de gauche, puis combinez-les à l’aide de la fonction **[!UICONTROL Et]** / **[!UICONTROL Ou]** opérateurs logiques.
 
       ![](../../assets/activity_constraint_segment2.png)
 
-      Découvrez comment utiliser des segments dans [cette section](../../segment/about-segments.md).
+      Découvrez comment utiliser les segments dans [cette section](../../segment/about-segments.md).
 
-   * Si vous souhaitez ajouter une contrainte de sélection pour cet emplacement à l&#39;aide d&#39;une règle de décision, sélectionnez l&#39;option **[!UICONTROL Règle de décision]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone **[!UICONTROL Règle de décision.]**
+   * Si vous souhaitez ajouter une contrainte de sélection à une règle de décision, utilisez la variable **[!UICONTROL Règle de décision]** et sélectionnez la règle de votre choix.
 
       ![](../../assets/activity_constraint_rule.png)
 
-      Pour plus d&#39;informations sur la création d’une règle de décision, reportez-vous à [cette section](../offer-library/creating-decision-rules.md).
+      Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md).
+
+1. Définissez la méthode de classement à utiliser pour sélectionner la meilleure offre pour chaque profil.
+
+   ![](../../assets/activity_ranking-method.png)
+
+   * Par défaut, si plusieurs offres sont éligibles pour cet emplacement, l’offre ayant le score de priorité le plus élevé est diffusée au client.
+
+   * Si vous souhaitez utiliser une formule spécifique pour choisir l’offre éligible à diffuser, sélectionnez **[!UICONTROL Formule de classement]**. Découvrez comment classer les offres dans [cette section](../offer-activities/configure-offer-selection.md).
+
+1. Cliquez sur **[!UICONTROL Ajouter]** pour définir d’autres critères pour le même emplacement.
+
+   ![](../../assets/activity_add-collection.png)
+
+1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence sera évaluée en premier, etc.
+
+   Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les collections afin de les réorganiser selon vos besoins.
+
+   ![](../../assets/activity_reorder-collections.png)
+
+1. Vous pouvez également évaluer plusieurs critères en même temps. Pour ce faire, faites glisser la collection au-dessus d’une autre.
+
+   ![](../../assets/activity_move-collection.png)
+
+   Ils ont maintenant le même rang et seront donc évalués en même temps.
+
+   ![](../../assets/activity_same-rank-collections.png)
+
+1. Pour ajouter un autre emplacement pour vos offres dans le cadre de cette décision, utilisez la variable **[!UICONTROL Nouvelle portée]** bouton . Répétez les étapes ci-dessus pour chaque portée de décision.
+
+   ![](../../assets/activity_new-scope.png)
 
 ### Utilisation des segments par rapport aux règles de décision {#segments-vs-decision-rules}
 
@@ -104,17 +140,30 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 
 ## Ajout d&#39;une offre de secours {#add-fallback}
 
-Sélectionnez l&#39;offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d&#39;éligibilité et contraintes des offres, puis cliquez sur **[!UICONTROL Suivant]**.
+Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres.
+
+Pour ce faire, sélectionnez-le dans la liste des offres de secours disponibles pour les emplacements définis dans la décision, puis cliquez sur **[!UICONTROL Suivant]**.
 
 ![](../../assets/add-fallback-offer.png)
+
+>[!NOTE]
+>
+>Vous pouvez cliquer sur le bouton **[!UICONTROL Ouvrir la bibliothèque d’offres]** lien pour afficher la liste des offres dans un nouvel onglet.
 
 ## Examen et enregistrement de la décision {#review}
 
 Si tout est configuré correctement, un résumé des propriétés de la décision s&#39;affiche.
 
-1. Vérifiez que la décision est prête à être utilisée pour présenter des offres aux clients.
+1. Assurez-vous que la décision est prête à être utilisée pour présenter des offres aux clients. Toutes les portées de décision et l’offre de secours qu’elle contient s’affichent.
+
+   ![](../../assets/review-decision.png)
+
+   Vous pouvez développer ou réduire chaque emplacement. Vous pouvez également prévisualiser les offres disponibles, les informations d’éligibilité et de classement pour chaque emplacement.
+
+   ![](../../assets/review-decision-details.png)
+
 1. Cliquez sur **[!UICONTROL Terminer]**.
-1. Sélectionnez ensuite **[!UICONTROL Enregistrer et activer]**.
+1. Sélectionner **[!UICONTROL Enregistrer et activer]**.
 
    ![](../../assets/save-activities.png)
 

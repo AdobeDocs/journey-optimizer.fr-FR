@@ -6,10 +6,10 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 100%
+source-wordcount: '795'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre application mobile à tout moment, en particulier lorsqu&#39;ils ne l&#39;utilisent pas activement. Elles peuvent vous aider à réaliser divers cas d&#39;utilisation, tels que fournir des mises à jour sur votre service, demander à un utilisateur de prendre des mesures, avertir l&#39;utilisateur d&#39;une nouvelle transaction, etc. Les plateformes d&#39;appareil nécessitent un accord préalable avant que les utilisateurs finaux puissent recevoir ou afficher vos notifications. L&#39;accord préalable de l&#39;utilisateur peut être reçu dès le premier lancement de l&#39;application après l&#39;installation ou au cours d&#39;une session ou d&#39;un workflow ultérieur, selon le cas. [!DNL Journey Optimizer] prend en charge les notifications push et vous permet d&#39;envoyer des notifications extrêmement pertinentes à des taux de débit de pointe. Les notifications push peuvent inclure une personnalisation et un contexte basé sur les parcours afin d&#39;exploiter les données de votre marque avec Adobe Experience Cloud.
 
-Cette page vous aidera à configurer et à comprendre les services et les workflows clés impliqués dans les notifications push dans [!DNL Journey Optimizer].
+Cette page vous aidera à configurer et à comprendre les services clés et les workflows impliqués dans les notifications push dans [!DNL Journey Optimizer].
 
 Les étapes de configuration du canal push dans [!DNL Adobe Journey Optimizer] sont présentées sur [cette page](push-configuration.md).
 

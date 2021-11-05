@@ -2,18 +2,123 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
+source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 95%
+source-wordcount: '2022'
+ht-degree: 74%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter les dernières [mises à jour de la documentation](documentation-updates.md).
+Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter le [dernières mises à jour de la documentation](documentation-updates.md).
+
+## Version d’octobre 2021 {#oct-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
+<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+</td>
+</tr>
+</tbody>
+</table-->
 
 
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestion des décisions - Simulation des offres</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais simuler les offres qui seront diffusées à un profil de test pour un emplacement donné dans l’interface utilisateur de Journey Optimizer. Cela vous permet de valider facilement votre logique de prise de décision, y compris les contraintes d’éligibilité et les algorithmes de classement avant de les mettre en production. Cette fonctionnalité permet aux utilisateurs non techniques et techniques de tester rapidement l’offer decisioning et de résoudre les problèmes potentiels.</p>
+<p>Pour plus d'informations, consultez la <a href="offers/offer-activities/simulation.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestion des décisions - Personnaliser vos offres</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais personnaliser le contenu de vos offres à l’aide des segments et des attributs de profil Adobe Experience Platform à l’aide du même composant d’éditeur d’expression que celui de l’interface utilisateur de Journey Optimizer. </p>
+<p>Pour plus d'informations, consultez la <a href="offers/offer-library/creating-personalized-offers.md#content">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target=&quot;_blank&quot;} pour effectuer d’autres modifications.
+
+### Améliorations
+
+**Parcours**
+
+* **Editeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec des cartes. Cette fonctionnalité peut être utilisée avec les listes d’abonnements. Par exemple, à partir d’un segment, vous pouvez désormais obtenir une adresse électronique à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](building-journeys/message-to-subscribers-uc.md)
+
+   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
+* **Surveillance** - Les événements d’étape pour les parcours en direct et le mode test ont été améliorés. [Nouveaux champs](reports/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les traitements d&#39;export de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédente sont toujours disponibles dans la variable [stepEvents](reports/sharing-legacy-fields.md) catégorie.
+* **Accessibilité** - Des améliorations ont été apportées à l’accessibilité dans parcours.
+* **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](building-journeys/collections.md)
+* **Listes** - Les écrans de liste ont été améliorés pour les parcours, les événements, les actions et les sources de données.
+
+**Reporting**
+
+* **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les nombres et les pourcentages dans la variable **Vue globale** de **Exécution** . [En savoir plus](message-monitoring.md)
+* **Nouvelles mesures** - De nouvelles mesures et de nouveaux widgets sont désormais disponibles dans **En direct** et **Global** rapports pour mesurer l’impact de vos offres sur les destinataires. [En savoir plus](reports/journey-global-report.md)
+
+**Administration**
+
+* **Modifier les paramètres prédéfinis de message** - Vous pouvez désormais modifier les paramètres prédéfinis de message et surveiller leur état de mise à jour. [En savoir plus](configuration/message-presets.md#edit-message-preset)
+* **Modification des enregistrements PTR** - Vous pouvez désormais modifier les enregistrements PTR et surveiller leur état de mise à jour. [En savoir plus](configuration/ptr-records.md#edit-ptr-record)
+
+**Personnalisation**
+
+* **Nouvelle fonction d’assistance pour le formatage des dates** - Vous pouvez maintenant spécifier comment une chaîne de date doit être représentée. [En savoir plus](personalization/functions/dates.md#format-date)
+
+**Gestion des décisions**
+
+* **Séquencement des évaluations** - Le nouveau flux de création de décision, amélioré, vous permet non seulement de naviguer plus facilement entre les objets de décision, mais également de contrôler entièrement la manière dont les collections d’offres sont évaluées par le moteur de décision. Cela inclut les collections qui sont évaluées ensemble ou séparément, et dans quel ordre les collections doivent être évaluées. [En savoir plus](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+
+### Correctifs
+
+* Correction d’un problème qui empêchait l’affichage de la liste de Parcours, de la liste de messages et du concepteur d’emails lorsque la langue du navigateur n’était pas l’anglais.
+* Correction d&#39;une erreur de syntaxe qui se produisait lors de l&#39;ajout d&#39;une personnalisation à l&#39;aide d&#39;une expression dans le Concepteur d&#39;email : Les caractères étaient échappés par erreur.
+* Correction d’un problème qui entraînait une erreur 404 lors de la navigation dans la variable **Administration** .
+* Correction d’un problème qui déclenchait d’autres parcours en direct lors du test d’un parcours à l’aide d’un événement d’entreprise.
 
 ## Version de septembre 2021 {#september-2021-release}
 
@@ -28,7 +133,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>De nouvelles mesures sont disponibles dans les rapports : Les messages ciblés et exclus pour les emails et les notifications push sont visibles dans les rapports en ligne et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="reports/live-report.md">documentation détaillée.</a></p>
+<p>De nouvelles mesures sont disponibles dans les rapports : Les messages ciblés et exclus pour les emails et les notifications push sont visibles dans les rapports en ligne et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, reportez-vous à la section <a href="reports/live-report.md">documentation détaillée.</a></p>
 <p>Une nouvelle colonne de la liste d'exécution des messages affiche le nombre de profils ciblés pour chaque exécution du message. </p>
 <p>Pour plus d'informations, consultez la <a href="message-monitoring.md">documentation détaillée</a>.</p>
 </td>
@@ -55,23 +160,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 ### Améliorations
 
@@ -210,7 +299,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 **Conception de contenu**
 
 * **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](preview.md)
-* **Lien d’exclusion en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**exclusion** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une landing page pour confirmer leur désinscription. [En savoir plus](message-tracking.md#one-click-opt-out-link)
+* **Lien d’exclusion en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**exclusion** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur désinscription. [En savoir plus](message-tracking.md#one-click-opt-out-link)
 
 **Personnalisation**
 

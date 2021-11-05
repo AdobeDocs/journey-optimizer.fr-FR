@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,10 @@ Les sections **[!UICONTROL Paramètres de l&#39;e-mail]** et **[!UICONTROL Param
 
 ![](../assets/jo-message4.png)
 
-Pour forcer une valeur spécifique, vous pouvez utiliser l’icône **Activer la substitution de paramètre** à droite du champ. Cette option peut être utile à des fins de test. Par exemple, pour un e-mail, vous pouvez ajouter votre adresse e-mail. Une fois le parcours publié, l&#39;e-mail vous est envoyé.
+Pour forcer une valeur spécifique, vous pouvez utiliser l’icône **Activer la substitution de paramètre** à droite du champ. Cette option peut s’avérer utile à divers fins :
+
+* Par exemple, pour tester un email, vous pouvez ajouter votre adresse email. Une fois le parcours publié, l&#39;e-mail vous est envoyé.
+* Vous pouvez vous référer à l&#39;adresse email des abonnés d&#39;une liste. Voir [cas pratique](message-to-subscribers-uc.md).
 
 ## Optimisation de l’heure d’envoi{#send-time-optimization}
 
