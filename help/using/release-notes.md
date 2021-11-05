@@ -2,9 +2,9 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
+source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '1999'
 ht-degree: 74%
 
 ---
@@ -98,7 +98,8 @@ Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://
 **Reporting**
 
 * **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les nombres et les pourcentages dans la variable **Vue globale** de **Exécution** . [En savoir plus](message-monitoring.md)
-* **Nouvelles mesures** - De nouvelles mesures et de nouveaux widgets sont désormais disponibles dans **En direct** et **Global** rapports pour mesurer l’impact de vos offres sur les destinataires. [En savoir plus](reports/journey-global-report.md)
+
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Administration**
 
