@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1749'
 ht-degree: 57%
 
 ---
@@ -192,6 +192,10 @@ Pour modifier un paramètre prédéfini de message, procédez comme suit.
 
 Une fois les modifications envoyées, le paramètre de message prédéfini passe par un cycle de validation similaire à celui en place lorsque [création d’un paramètre prédéfini](#create-message-preset).
 
+>[!NOTE]
+>
+>Si vous modifiez uniquement la variable **[!UICONTROL Description]**, **[!UICONTROL Type d&#39;email]** et/ou **[!UICONTROL Paramètres de reprise par email]** , la mise à jour est instantanée.
+
 Pour les paramètres prédéfinis de message qui ont la variable **[!UICONTROL Principal]** , vous pouvez vérifier les détails de la mise à jour. Pour ce faire :
 
 * Cliquez sur le bouton **[!UICONTROL Mise à jour récente]** qui s’affiche en regard du nom principal du paramètre prédéfini.
@@ -214,23 +218,31 @@ Une mise à jour de paramètre prédéfini de message peut avoir les états suiv
 * **[!UICONTROL Succès]**: Le paramètre prédéfini de message mis à jour a été vérifié et peut être sélectionné pour créer des messages.
 * **[!UICONTROL En échec]**: Une ou plusieurs vérifications ont échoué lors de la vérification de la mise à jour des paramètres prédéfinis du message.
 
-**En cours de traitement**
+Chaque état est présenté ci-dessous.
 
-Plusieurs contrôles de délivrabilité seront effectués pour vérifier que le paramètre prédéfini a été correctement mis à jour. Le temps de traitement est proche **48h à 72h**, et peuvent prendre jusqu’à **7 à 10 jours ouvrés**. En savoir plus sur les contrôles effectués lors du cycle de validation dans [cette section](#create-message-preset).
+### En cours de traitement
+
+Plusieurs contrôles de délivrabilité seront effectués pour vérifier que le paramètre prédéfini a été correctement mis à jour.
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier un paramètre prédéfini de message pendant la mise à jour. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas été effectuée correctement.
+>Si vous modifiez uniquement la variable **[!UICONTROL Description]**, **[!UICONTROL Type d&#39;email]** et/ou **[!UICONTROL Paramètres de reprise par email]** , la mise à jour est instantanée.
+
+Le temps de traitement est proche **48h à 72h**, et peuvent prendre jusqu’à **7 à 10 jours ouvrés**. En savoir plus sur les contrôles effectués lors du cycle de validation dans [cette section](#create-message-preset).
 
 Si vous modifiez un paramètre prédéfini qui était déjà principal :
 
 * Son statut reste **[!UICONTROL Principal]** pendant que le processus de validation est en cours.
 
-* Le **[!UICONTROL Mise à jour récente]** s’affiche en regard du nom du paramètre prédéfini dans la liste des paramètres prédéfinis de message.
+* Le **[!UICONTROL Mise à jour récente]** s’affiche en regard du nom du paramètre prédéfini dans la liste des paramètres prédéfinis du message.
 
 * Pendant le processus de validation, les messages configurés à l’aide de ce paramètre prédéfini utilisent toujours l’ancienne version du paramètre prédéfini.
 
-**Succès**
+>[!NOTE]
+>
+>Vous ne pouvez pas modifier un paramètre prédéfini de message pendant la mise à jour. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas été effectuée correctement.
+
+### Réussite
 
 Une fois le processus de validation réussi, la nouvelle version du paramètre prédéfini est automatiquement utilisée dans tous les messages utilisant ce paramètre prédéfini. Cependant, vous devrez peut-être attendre :
 * quelques minutes avant qu&#39;il soit consommé par les messages unitaires ;
@@ -238,22 +250,22 @@ Une fois le processus de validation réussi, la nouvelle version du paramètre p
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**Échec**
+### Échoué
 
 Si le processus de validation échoue, l’ancienne version du paramètre prédéfini est toujours utilisée.
 
-Les types d&#39;erreur de mise à jour possibles sont les suivants :
-* **Erreur d’autorisation**: le jeton porteur n’est pas valide ou n’est pas autorisé.
-* **Modification illégale**: une modification a été effectuée sur un ou plusieurs champs non autorisés.
-* **Échec de la condition**: certains champs ne peuvent avoir que des valeurs spécifiques, ce qui n’a pas été fait.
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+En savoir plus sur les raisons possibles de l’échec dans [cette section](#monitor-message-presets).
 
 En cas d’échec de la mise à jour, le paramètre prédéfini est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à jour les paramètres à corriger.
 
 ## Désactivation d’un paramètre prédéfini de message {#deactivate-preset}
 
-Pour créer un **[!UICONTROL Principal]** paramètre de message prédéfini non disponible pour créer des messages, vous pouvez le désactiver. Toutefois, les messages publiés utilisant ce paramètre prédéfini ne seront pas affectés et continueront à fonctionner.
+Pour créer un **[!UICONTROL Principal]** paramètre prédéfini de message non disponible pour créer des messages, vous pouvez le désactiver. Toutefois, les messages publiés utilisant ce paramètre prédéfini ne seront pas affectés et continueront à fonctionner.
 
 >[!NOTE]
 >

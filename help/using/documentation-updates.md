@@ -2,9 +2,9 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '835'
 ht-degree: 87%
 
 ---
@@ -25,8 +25,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Nouvelles limites ajoutées à la variable **Guide de développement de l’API Decision Management** sur les contraintes d’offre non prises en charge avec le mobile [!DNL Experience Edge] workflows. [En savoir plus](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Nouveau **Créer des simulations** . [En savoir plus](offers/offer-activities/simulation.md)
 * Mise à jour **Ajout de portées de décision** . [En savoir plus](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Mise à jour **Définition du contenu de vos représentations** . [En savoir plus](offers/offer-library/creating-personalized-offers.md#content)
-* Ajout d’une nouvelle section sur la définition et la personnalisation du contenu pour les représentations des offres. [En savoir plus](offers/offer-library/creating-personalized-offers.md#content)
+* Mise à jour **Définition du contenu de vos représentations** , y compris une nouvelle section [sous-section](offers/offer-library/creating-personalized-offers.md#custom-text) sur la définition et la personnalisation du texte personnalisé. [En savoir plus](offers/offer-library/creating-personalized-offers.md#content)
 
 ## Septembre 2021
 

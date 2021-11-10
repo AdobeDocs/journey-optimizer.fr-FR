@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 25%
@@ -52,7 +52,7 @@ Vous pouvez modifier un enregistrement PTR pour modifier le sous-domaine associ�
    >
    >Vous ne pouvez pas modifier la variable **[!UICONTROL IP]** et **[!UICONTROL Enregistrement PTR]** champs.
 
-1. Cliquez sur **[!UICONTROL SAve]** pour confirmer vos modifications.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications.
 
 Un **[!UICONTROL Mise à jour]** s’affiche en regard du nom de l’enregistrement PTR dans la liste.
 
