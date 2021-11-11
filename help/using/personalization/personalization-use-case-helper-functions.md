@@ -7,13 +7,13 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Cas pratique de personnalisation : email d&#39;abandon de panier {#personalization-use-case-helper-functions}
+# Cas d’utilisation de la personnalisation : e-mail d’abandon de panier {#personalization-use-case-helper-functions}
 
 Dans cet exemple, vous allez personnaliser le corps d’un e-mail. Ce message cible les clients qui ont laissé des articles dans leur panier mais n’ont pas effectué leur achat.
 
