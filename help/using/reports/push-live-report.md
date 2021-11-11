@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
 source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Le tableau **[!UICONTROL Mesures d’envoi - par push]** détaille le succès de
 
 ![](../assets/live_report_4.png)
 
-Les graphiques et les tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** indiquent le succès de votre notification push selon votre système opérationnel.
+Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
 
 Le widget **[!UICONTROL Statistiques d&#39;envoi - Échec]** vous permet de voir combien d&#39;erreurs et de rebonds ont eu lieu.
 
