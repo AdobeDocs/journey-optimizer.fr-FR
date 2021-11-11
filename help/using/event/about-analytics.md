@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, 
 
 1. Sélectionnez la suite de rapports à activer, cliquez sur **[!UICONTROL Suivant]** et sur **[!UICONTROL Terminer]**.
 
-1. Partagez l’ID de données source avec votre point de contact de programme Bêta.
+1. Partagez l’ID de données source avec votre point de contact de programme en version bêta.
 
 Cela active le connecteur source Analytics pour cette suite de rapports. Chaque fois que des données entrent, elles sont transformées en événement d’expérience et envoyées dans Adobe Experience Platform.
 
