@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 100%
 
@@ -219,7 +219,7 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
   <tr>
     <td rowspan="2">Fenêtre contextuelle</td>
     <td>Enregistrement des modifications ou confirmation de l’action</td>
-    <td>Enter</td>
+    <td>Entrée</td>
   </tr>
   <tr>
     <td>Fermeture de la fenêtre</td>

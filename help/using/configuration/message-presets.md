@@ -36,7 +36,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
    ![](../assets/preset-create.png)
 
-1. Saisissez un nom et une description (facultatif) pour le paramètre prédéfini, puis sélectionnez le ou les canaux à configurer.
+1. Saisissez un nom et une description (facultatif) pour le préréglage, puis sélectionnez le ou les canaux à configurer.
 
    ![](../assets/preset-general.png)
 
@@ -48,14 +48,14 @@ Pour créer un préréglage de message, procédez comme suit :
 
    ![](../assets/preset-email.png)
 
-   * Sélectionnez le type de message qui sera envoyé avec le paramètre prédéfini : **Transactionnel** ou **Marketing**.
+   * Sélectionnez le type de message qui sera envoyé avec le préréglage : **Transactionnel** ou **Marketing**.
 
       >[!CAUTION]
       >
       > Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques, tels que la réinitialisation du mot de passe, le statut de la commande, la notification de diffusion, par exemple.
 
    * Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
-   * Sélectionnez le pool d&#39;adresses IP à associer au paramètre prédéfini. [En savoir plus](ip-pools.md)
+   * Sélectionnez le pool d&#39;adresses IP à associer au préréglage. [En savoir plus](ip-pools.md)
    * Renseignez les paramètres d’en-tête des e-mails envoyés à l’aide du préréglage.
 
       >[!CAUTION]

@@ -9,7 +9,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: aad1fa2ca9c845e6362df69aaa9debf6c2dc5c80
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -147,7 +147,7 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 
 Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour ce faire :
 
-* Créez un lien dans votre contenu e-mail ou push. Pour en savoir plus sur la création de liens, reportez-vous à la section [cette page](../message-tracking.md#insert-links).
+* Créez un lien dans votre contenu e-mail ou push. Pour en savoir plus sur la création de liens, consultez [cette page](../message-tracking.md#insert-links).
 * Cliquez sur l’icône de personnalisation. Cette icône est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
 
 ![](assets/perso-url.png)
@@ -156,7 +156,7 @@ Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre mes
 >
 >Dans l’éditeur d’expression, lorsque vous modifiez une URL personnalisée, les fonctions helper et l’appartenance à des segments sont désactivées pour des raisons de sécurité.
 
-**Exemples d’URL personnalisées**
+**Exemples d’adresses URL personnalisées**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`

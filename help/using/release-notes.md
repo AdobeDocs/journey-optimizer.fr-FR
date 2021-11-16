@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1999'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 
@@ -134,7 +134,7 @@ Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://
 <tbody>
 <tr>
 <td>
-<p>De nouvelles mesures sont disponibles dans les rapports : Les messages ciblés et exclus pour les emails et les notifications push sont visibles dans les rapports en ligne et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, reportez-vous à la section <a href="reports/live-report.md">documentation détaillée.</a></p>
+<p>De nouvelles mesures sont disponibles dans les rapports : Ciblé et Exclu pour les e-mails et les messages push sont visibles dans les rapports dynamiques et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="reports/live-report.md">documentation détaillée.</a></p>
 <p>Une nouvelle colonne de la liste d'exécution des messages affiche le nombre de profils ciblés pour chaque exécution du message. </p>
 <p>Pour plus d'informations, consultez la <a href="message-monitoring.md">documentation détaillée</a>.</p>
 </td>
@@ -155,7 +155,7 @@ Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://
 <p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
 <p>Pour plus d'informations sur les collections, consultez la <a href="building-journeys/collections.md">documentation détaillée</a>. </p>
 <p>Les fonctions filter et intersect ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
-<p>Consultez la documentation sur les fonctions <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=fr">filter</a> et <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a>.</p>
+<p>Consultez la documentation sur les fonctions <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=fr">filter</a> et <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=fr">intersect</a>.</p>
 </td>
 </tr>
 </tbody>

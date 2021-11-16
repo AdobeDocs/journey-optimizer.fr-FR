@@ -9,7 +9,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -46,8 +46,8 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 >id="ac_preview_testprofiles"
 >title="Prévisualiser et tester vos messages"
 >abstract="Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Rendu des emails"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Aperçu"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=fr#email-rendering" text="Rendu des e-mails"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=fr#preview-your-messages" text="Aperçu"
 
 
 
@@ -131,33 +131,33 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    ![](assets/send-proof-button.png)
 
-1. Dans la **[!UICONTROL Envoyer un bon à tirer]** , saisissez l’email de votre destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de vos organisations.
+1. Dans la fenêtre **[!UICONTROL Envoyer un BAT]**, saisissez l’e-mail du destinataire et cliquez sur **[!UICONTROL Ajouter]** pour envoyer le BAT à vous-même ou aux membres de votre organisation.
 
-   Notez que vous pouvez ajouter jusqu’à dix destinataires pour votre diffusion BAT.
+   Vous pouvez ajouter jusqu’à dix destinataires pour la diffusion de votre BAT.
 
    ![](assets/send-proof-button_2.png)
 
-1. Sélectionnez ensuite le **Profils de test** qui sera utilisé pour personnaliser le contenu du message.
+1. Sélectionnez ensuite les **Profils de test** qui seront utilisés pour personnaliser le contenu du message.
 
-   Chaque destinataire du BAT recevra autant de messages que le nombre de profils de test sélectionnés. Par exemple, si vous avez ajouté cinq emails de destinataires et sélectionné dix profils de test, vous enverrez alors cinquante messages de BAT et chaque destinataire en recevra dix.
+   Chaque destinataire du BAT recevra autant de messages que le nombre de profils de test sélectionnés. Par exemple, si vous avez ajouté cinq e-mails de destinataires et sélectionné dix profils de test, vous enverrez alors cinquante messages de BAT et chaque destinataire en recevra dix.
 
 1. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, par exemple . - _ ( ) [ ], sont autorisés comme préfixe à l&#39;objet.
 
-1. Cliquez sur **[!UICONTROL Envoyer un bon à tirer]**.
+1. Cliquez sur **[!UICONTROL Envoyer un BAT]**.
 
    ![](assets/send-proof-select.png)
 
-1. De retour dans l&#39;écran **[!UICONTROL Prévisualisation]**, cliquez sur le bouton **[!UICONTROL Afficher les BAT]** pour vérifier l&#39;état.
+1. De retour dans l’écran **[!UICONTROL Prévisualisation]**, cliquez sur le bouton **[!UICONTROL Afficher les BAT]** pour vérifier le statut.
 
    ![](assets/send-proof-view.png)
 
-Il est recommandé d&#39;envoyer des bons à tirer après chaque modification du contenu du message.
+Il est recommandé d’envoyer des BAT après chaque modification du contenu du message.
 
 >[!NOTE]
 >
 >Dans le BAT envoyé aux profils de test, le lien vers la page miroir n&#39;est pas actif. Il n&#39;est activé que dans les messages finaux.
 
-## Rendu des emails{#email-rendering}
+## Rendu des e-mails{#email-rendering}
 
 Vous pouvez exploiter votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires.
 

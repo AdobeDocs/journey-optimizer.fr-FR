@@ -9,13 +9,13 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
 # Prise en main de la personnalisation{#add-personalization}
 
-Discover [!DNL Adobe Journey Optimizer] fonctionnalités de personnalisation pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous disposez à leur sujet. Il peut s&#39;agir de leur prénom, de leurs centres d&#39;intérêt, de leur lieu de vie, de ce qu&#39;ils ont acheté, etc.
+Découvrez les fonctionnalités de personnalisation de [!DNL Adobe Journey Optimizer] pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêt, de son lieu de vie, de ce qu’il a acheté, etc.
 
 ➡️ [Découvrez comment personnaliser un message dans ces vidéos](#video-perso)
 

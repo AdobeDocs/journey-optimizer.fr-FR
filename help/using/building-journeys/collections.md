@@ -7,7 +7,7 @@ exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Vous pouvez voir que « products » est un tableau de deux objets. Vous devez 
 
    ![](../assets/uc-collection-4.png)
 
-Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=fr) et [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) :
+Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=fr) et [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=fr) :
 
 ![](../assets/uc-collection-5.png)
 

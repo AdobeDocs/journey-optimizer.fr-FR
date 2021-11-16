@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. Ouvrez l&#39;[Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html), puis sélectionnez **[!UICONTROL Adobe Experience Platform]**.
+1. Ouvrez l&#39;[Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), puis sélectionnez **[!UICONTROL Adobe Experience Platform]**.
 
    <!--![](../../assets/offers_admin_console.png)-->
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la gestion des autorisations des utilisateurs, consultez la [documentation de l‘Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+>Pour plus d&#39;informations sur la gestion des autorisations des utilisateurs, consultez la [documentation de l‘Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 

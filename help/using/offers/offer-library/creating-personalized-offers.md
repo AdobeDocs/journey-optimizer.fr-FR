@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 94%
 Avant de créer une offre, assurez-vous que vous avez créé les éléments suivants :
 
 * Un **emplacement** dans lequel l&#39;offre sera affichée. Voir [Créer des emplacements](../offer-library/creating-placements.md)
-* Si vous souhaitez ajouter une condition d&#39;éligibilité : a **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
-* Un ou plusieurs **tags** que vous souhaitez peut-être associer à l’offre. Voir [Création de balises](../offer-library/creating-tags.md).
+* Si vous souhaitez ajouter une condition d’éligibilité : une **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
+* Une ou plusieurs **balises** que vous souhaitez associer à l’offre. Voir [Création de balises](../offer-library/creating-tags.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 

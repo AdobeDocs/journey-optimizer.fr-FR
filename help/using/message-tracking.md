@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Pour ajouter un lien d’exclusion dans votre e-mail, procédez comme suit.
 
 1. Enregistrez vos modifications.
 
-Une fois votre message envoyé, si les destinataires cliquent sur le lien de désinscription, ils sont immédiatement désinscrits.
+Une fois le message envoyé, si les destinataires cliquent sur le lien de désinscription, ils sont immédiatement désinscrits.
 
 ## Gestion du suivi {#manage-tracking}
 

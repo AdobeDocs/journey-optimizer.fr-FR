@@ -53,4 +53,4 @@ Le graphique et le tableau **[!UICONTROL Raisons de l&#39;erreur]** vous permett
 
 ![](../assets/push_global_report_2.png)
 
-Les graphiques et tableaux **[!UICONTROL Suivi par plate-forme]**, **[!UICONTROL Envoi par plate-forme]** et **[!UICONTROL Ventilation par plate-forme]** décrivent le succès de votre notification push en fonction du système opérationnel de votre destinataire.
+Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel de votre destinataire.

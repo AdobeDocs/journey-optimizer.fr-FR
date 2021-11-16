@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 100%
 
@@ -37,11 +37,9 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**Gérer les parcours** : la lecture, la création, la modification et la suppression de parcours.</li><li>**Publier le parcours** : la publication des parcours.</li><li>**Afficher les événements de parcours, les sources de données et les actions** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**Afficher le rapport de parcours** : la lecture et la modification des rapports de parcours.</li></ul>|
-|Messages| <ul><li>**Gérer les messages** : la lecture, la création, la modification et la suppression de messages.</li><li>**Publier des messages** : la publication des messages.</li><li>**Gérer l&#39;aperçu et le test des messages** : la lecture, la création et la modification de l&#39;aperçu du message et l&#39;envoi du test/BAT.</li><li>**Afficher le rapport des messages** : la lecture, la création, la modification et la suppression d&#39;un rapport de messages.</li></ul>|
+|Parcours| <ul><li>**Gérer les parcours** : la lecture, la création, la modification et la suppression de parcours.</li><li>**Publier le parcours** : la publication des parcours.</li><li>**Afficher les événements de parcours, les sources de données et les actions** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**Afficher le rapport de parcours** : la lecture et la modification des rapports de parcours.</li></ul>| |Messages| <ul><li>**Gérer les messages** : la lecture, la création, la modification et la suppression de messages.</li><li>**Publier des messages** : la publication des messages.</li><li>**Gérer l&#39;aperçu et le test des messages** : la lecture, la création et la modification de l&#39;aperçu du message et l&#39;envoi du test/BAT.</li><li>**Afficher le rapport des messages** : la lecture, la création, la modification et la suppression d&#39;un rapport de messages.</li></ul>|
 |Gestion des décisions| <ul><li>**Gérer les décisions** : la lecture, la création, la modification et la suppression des entités de décisions.</li><li>**Gérer les stratégies de classement** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et l&#39;utilisation des fonctions d&#39;action.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Gérer les segments** : la lecture, la création, la modification et la suppression de segments.</li><li>**Gérer les profils** : la lecture, la création, la modification et la suppression de profils.</li><li>**Lire les jeux de données** : accès en lecture seule aux jeux de données.</li><li>**Lecture des schémas** : accès en lecture seule aux schémas.</li><li>**Gestion des stratégies de fusion** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
-|Administration| <ul><li>**Afficher les préréglages de message** : accès en lecture seule aux paramètres de messages prédéfinis.</li></ul>|
+|Adobe Experience Platform| <ul><li>**Gérer les segments** : la lecture, la création, la modification et la suppression de segments.</li><li>**Gérer les profils** : la lecture, la création, la modification et la suppression de profils.</li><li>**Lire les jeux de données** : accès en lecture seule aux jeux de données.</li><li>**Lecture des schémas** : accès en lecture seule aux schémas.</li><li>**Gestion des stratégies de fusion** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Administration| <ul><li>**Afficher les préréglages de message** : accès en lecture seule aux paramètres de messages prédéfinis.</li></ul>|
 
 ## Gestionnaire de parcours {#journey-manager}
 
@@ -51,11 +49,9 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**Gérer les parcours** : la lecture, la création, la modification et la suppression de parcours.</li><li>**Afficher les événements de parcours** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**Afficher le rapport de parcours** : la lecture et la modification des rapports de parcours.</li></ul>|
-|Messages| <ul><li>**Gérer les messages** : la lecture, la création, la modification et la suppression de messages.</li><li> **Gérer l&#39;aperçu et le test des messages** : la lecture, la création et la modification de l&#39;aperçu du message et l&#39;envoi du test/BAT.</li><li>**Afficher le rapport des messages** : la lecture, la création, la modification et la suppression d&#39;un rapport de messages.</li></ul>|
+|Parcours| <ul><li>**Gérer les parcours** : la lecture, la création, la modification et la suppression de parcours.</li><li>**Afficher les événements de parcours** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**Afficher le rapport de parcours** : la lecture et la modification des rapports de parcours.</li></ul>| |Messages| <ul><li>**Gérer les messages** : la lecture, la création, la modification et la suppression de messages.</li><li> **Gérer l&#39;aperçu et le test des messages** : la lecture, la création et la modification de l&#39;aperçu du message et l&#39;envoi du test/BAT.</li><li>**Afficher le rapport des messages** : la lecture, la création, la modification et la suppression d&#39;un rapport de messages.</li></ul>|
 |Gestion des décisions| <ul><li>**Gérer les décisions** : la lecture, la création, la modification et la suppression des entités de décisions.</li><li>**Gérer les stratégies de classement** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et l&#39;utilisation des fonctions d&#39;action.</li></ul>|
-|Adobe Experience Platform| <ul><li> **Gérer les segments** : la lecture, la création, la modification et la suppression de segments.</li><li>**Gérer les profils** : la lecture, la création, la modification et la suppression de profils.</li><li>**Lire les jeux de données** : accès en lecture seule aux jeux de données.</li><li>**Lecture des schémas** : accès en lecture seule aux schémas.</li><li>**Gestion des stratégies de fusion** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
-|Administration| <ul><li>**Afficher les préréglages de message** : accès en lecture seule aux paramètres de messages prédéfinis.</li></ul>|
+|Adobe Experience Platform| <ul><li> **Gérer les segments** : la lecture, la création, la modification et la suppression de segments.</li><li>**Gérer les profils** : la lecture, la création, la modification et la suppression de profils.</li><li>**Lire les jeux de données** : accès en lecture seule aux jeux de données.</li><li>**Lecture des schémas** : accès en lecture seule aux schémas.</li><li>**Gestion des stratégies de fusion** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Administration| <ul><li>**Afficher les préréglages de message** : accès en lecture seule aux paramètres de messages prédéfinis.</li></ul>|
 
 ## Observateur de parcours {#journey-viewer}
 
@@ -67,8 +63,7 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**Afficher les parcours** : accès en lecture seule aux parcours.</li><li>**Afficher les événements de parcours, les sources de données, les actions** : accès en lecture seule aux événements de parcours et aux sources de données.</li><li>**Afficher le rapport de parcours** : accès en lecture seule aux rapports de parcours.</li></ul>|
-|Messages| <ul><li>**Afficher les messages** : accès en lecture seule aux messages.</li><li>**Afficher le rapport des messages** : accès en lecture seule aux rapports des messages.</li></ul>|
+|Parcours| <ul><li>**Afficher les parcours** : accès en lecture seule aux parcours.</li><li>**Afficher les événements de parcours, les sources de données, les actions** : accès en lecture seule aux événements de parcours et aux sources de données.</li><li>**Afficher le rapport de parcours** : accès en lecture seule aux rapports de parcours.</li></ul>| |Messages| <ul><li>**Afficher les messages** : accès en lecture seule aux messages.</li><li>**Afficher le rapport des messages** : accès en lecture seule aux rapports des messages.</li></ul>|
 |Gestion des décisions| <ul><li>**Afficher les décisions** : accès en lecture seule aux entités de décision.</li></ul>|
 
 ## Gestionnaire des messages {#message-manager}
@@ -79,11 +74,9 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**Afficher les parcours** : accès en lecture seule aux parcours.</li><li>**Afficher les événements de parcours, les sources de données et les actions** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li></ul>|
-|Messages| <ul><li>**Gérer les messages** : la lecture, la création, la modification et la suppression de messages.</li><li>**Gérer l&#39;aperçu et le test des messages** : la lecture, la création et la modification de l&#39;aperçu du message et l&#39;envoi du test/BAT.</li><li> **Afficher le rapport des messages** : la lecture, la création, la modification et la suppression de rapports de messages.</li></ul>|
+|Parcours| <ul><li>**Afficher les parcours** : accès en lecture seule aux parcours.</li><li>**Afficher les événements de parcours, les sources de données et les actions** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li></ul>| |Messages| <ul><li>**Gérer les messages** : la lecture, la création, la modification et la suppression de messages.</li><li>**Gérer l&#39;aperçu et le test des messages** : la lecture, la création et la modification de l&#39;aperçu du message et l&#39;envoi du test/BAT.</li><li> **Afficher le rapport des messages** : la lecture, la création, la modification et la suppression de rapports de messages.</li></ul>|
 |Gestion des décisions| <ul><li>**Gérer les décisions** : la lecture, la création, la modification et la suppression des entités de décisions.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Lire les profils** : accès en lecture seule au profil pour la prévisualisation et le test.</li><li>**Lire les jeux de données** : accès en lecture seule aux jeux de données.</li><li>**Lecture des schémas** : accès en lecture seule aux schémas.</li><li>**Gestion des stratégies de fusion** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
-|Administration| <ul><li>**Afficher les préréglages de message** : accès en lecture seule aux paramètres de messages prédéfinis.</li></ul>|
+|Adobe Experience Platform| <ul><li>**Lire les profils** : accès en lecture seule au profil pour la prévisualisation et le test.</li><li>**Lire les jeux de données** : accès en lecture seule aux jeux de données.</li><li>**Lecture des schémas** : accès en lecture seule aux schémas.</li><li>**Gestion des stratégies de fusion** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Administration| <ul><li>**Afficher les préréglages de message** : accès en lecture seule aux paramètres de messages prédéfinis.</li></ul>|
 
 ## Gestionnaire de prise de décisions {#decisioning-manager}
 

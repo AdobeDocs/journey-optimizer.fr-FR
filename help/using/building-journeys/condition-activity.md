@@ -9,7 +9,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusie
 
 Notez que la conception de parcours n’est pas sans conséquences sur le plan fonctionnel. Lorsque plusieurs chemins sont définis après une condition, seul le premier chemin éligible est exécuté. Cela signifie que vous pouvez modifier la priorité des chemins en les plaçant les uns au-dessus ou en dessous des autres.
 
-Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (un homme VIP) franchit cette étape, le premier chemin sera choisi, même si cette personne est également éligible au second, car le premier chemin est &quot;au-dessus&quot;. Pour modifier cette priorité, déplacez vos activités verticalement.
+Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (à savoir, un VIP de sexe masculin) franchit cette étape, le premier chemin d’accès est choisi, même s’il est également éligible au second, compte tenu de sa position hiérarchique supérieure. Pour modifier cette priorité, déplacez vos activités verticalement.
 
 ![](../assets/journey48.png)
 
