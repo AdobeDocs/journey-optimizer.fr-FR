@@ -1,0 +1,61 @@
+---
+product: adobe campaign
+title: toString
+description: En savoir plus sur la fonction toString
+feature: Journeys
+role: Data Engineer
+level: Experienced
+source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 100%
+
+---
+
+# toString {#toString}
+
+Convertit une valeur d’argument en valeur de chaîne, selon son type. Pour plus d’informations sur les types de données, consultez [cette page](../expression/data-types.md).
+
+## Catégorie
+
+Conversion
+
+## Syntaxe de la fonction
+
+`toString(<parameter>)`
+
+## Paramètres
+
+| Paramètre | Description |
+|--- |--- |
+| dateTime | Convertit la date au format UTC |
+| dateTimeOnly | Convertit la date au format UTC |
+| durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
+| fuseau horaire | Convertit le paramètre en représentation sous forme de chaîne de l’identifiant de fuseau horaire (id JODA) |
+| integer | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
+| decimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
+| boolean | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
+
+## Signatures et type renvoyé
+
+`toString(<dateTimeOnly>)`
+
+`toString(<dateTime>)`
+
+`toString(<duration>)`
+
+`toString(<timeZone>)`
+
+`toString(<boolean>)`
+
+`toString(<integer>)`
+
+`toString(<decimal>)`
+
+Renvoie une chaîne.
+
+## Exemple
+
+`toString(4)`
+
+Renvoie « 4 ».

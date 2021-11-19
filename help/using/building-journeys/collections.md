@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Transmission dynamique des collections à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,6 @@ Vous pouvez transmettre une collection dans des paramètres d’action personnal
     ]
    }
    ```
-
 * Pour tester les collections à l’aide du mode test, vous devez utiliser le mode Affichage du code. Le mode Affichage du code n’est pas pris en charge pour les événements métier pour l’instant. Vous ne pouvez envoyer qu’une collection avec un seul élément.
 
 ## Procédure générale {#general-procedure}
@@ -132,7 +131,7 @@ Vous pouvez voir que « products » est un tableau de deux objets. Vous devez 
 
    ![](../assets/uc-collection-4.png)
 
-Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=fr) et [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=fr) :
+Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](functions/functionfilter.md) et [intersect](functions/functionintersect.md) :
 
 ![](../assets/uc-collection-5.png)
 

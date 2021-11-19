@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 5%
+source-wordcount: '301'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +33,7 @@ Pour configurer ce parcours, procédez comme suit :
 
       Pour pouvoir modifier l&#39;adresse email, vous devez avoir publié le message précédemment.
 
-   1. Dans l&#39;éditeur d&#39;expression, saisissez l&#39;expression permettant de récupérer les adresses email des abonnés. [En savoir plus](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=fr){target=&quot;_blank&quot;}.
+   1. Dans l&#39;éditeur d&#39;expression, saisissez l&#39;expression permettant de récupérer les adresses email des abonnés. [En savoir plus](expression/expressionadvanced.md).
 
       Cet exemple illustre une expression qui comprend des références aux champs de mappage :
 
@@ -49,7 +50,7 @@ Pour configurer ce parcours, procédez comme suit :
 
       Dans cet exemple, la liste des abonnements est nommée `daily-email`. Les adresses électroniques sont définies comme clés dans la variable `subscribers` map, qui est liée à la carte de la liste d’abonnements.
 
-      En savoir plus sur [références aux champs](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) dans les expressions.
+      En savoir plus sur [références aux champs](expression/field-references.md) dans les expressions.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ Pour configurer ce parcours, procédez comme suit :
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Terminez le parcours par une **[!UICONTROL Fin]** activité.
-
-
-
-
