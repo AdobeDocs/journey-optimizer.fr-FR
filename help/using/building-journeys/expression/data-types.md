@@ -5,7 +5,8 @@ description: En savoir plus sur les types de données dans les expressions avanc
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 97%
@@ -128,7 +129,7 @@ Il sʼagit dʼune description de la date, telle quʼelle est utilisée pour les 
 
 Format JSON : chaîne.
 
-Format : AAAA-MM-JJ (ISO-8601), par exemple : « 2021-03-11 ».
+Format : AAAA-MM-JJ (ISO-8601), par exemple : « 2021-03-11 ».
 
 Elle doit être encapsulée dans une fonction toDateOnly.
 

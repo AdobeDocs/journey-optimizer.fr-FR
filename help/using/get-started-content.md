@@ -1,6 +1,6 @@
 ---
 title: Prise en main des messages
-description: Découvrez comment créer des messages dans Journey Optimizer
+description: Découvrez comment créer des messages dans Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -19,7 +19,7 @@ Utilisez [!DNL Journey Optimizer] pour exploiter plusieurs ressources, telles qu
 
 * Tirez parti des **fonctionnalités de conception d&#39;email** [!DNL Journey Optimizer] pour créer ou importer des emails réactifs.
 
-* Utilisez **Adobe Experience Manager Assets Essentials** pour créer votre propre base de données de ressources et enrichir vos emails.
+* Utilisez **Adobe Experience Manager Assets Essentials** pour créer votre propre base de données de ressources et enrichir vos emails.
 
 * Améliorez l’expérience des clients en créant des **messages push et des emails personnalisés** en fonction de leurs attributs de profil.
 

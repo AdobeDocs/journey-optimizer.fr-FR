@@ -26,7 +26,7 @@ Dans le parcours cible, le premier événement déclenché en interne par l’ac
 
 >[!NOTE]
 >
->Reportez-vous également au tutoriel vidéo de Journey Orchestration [ici](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=fr){target=&quot;_blank&quot;}
+>Reportez-vous également au tutoriel vidéo de Journey Orchestration [ici](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=fr){target=&quot;_blank&quot;}
 
 ## Cycle de vie
 

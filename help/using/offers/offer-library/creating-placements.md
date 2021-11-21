@@ -1,6 +1,6 @@
 ---
 title: Création d'emplacements
-description: Découvrez comment créer des emplacements dans Adobe Experience Platform.
+description: Découvrez comment créer des emplacements dans Adobe Experience Platform.
 feature: Offers
 topic: Integrations
 role: User
@@ -52,6 +52,6 @@ Pour créer une emplacement, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)

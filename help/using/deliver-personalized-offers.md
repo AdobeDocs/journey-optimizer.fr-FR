@@ -80,7 +80,7 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
    >[!NOTE]
    >
-   >Dans cet exemple, nous utiliserons l&#39;espace de noms **E-mail**. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](get-started-identity.md).
+   >Dans cet exemple, nous utiliserons l&#39;espace de noms **E-mail**. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](get-started-identity.md).
 
 1. Dans la liste des espaces de noms d&#39;identité, sélectionnez **[!UICONTROL E-mail]** et cliquez sur **[!UICONTROL Sélectionner]**.
 

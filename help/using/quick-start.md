@@ -1,6 +1,6 @@
 ---
 title: Démarrage rapide
-description: Journey Optimizer - Démarrage rapide
+description: Journey Optimizer - Démarrage rapide
 feature: Overview
 topic: Content Management
 role: User

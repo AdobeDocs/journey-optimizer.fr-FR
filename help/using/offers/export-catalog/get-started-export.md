@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Prise en main de l&#39;export de catalogues d&#39;offres {#export-catalog}
 
-Journey Optimizer permet d’exporter automatiquement votre catalogue d’offres vers Adobe Experience Platform.
+Journey Optimizer permet d’exporter automatiquement votre catalogue d’offres vers Adobe Experience Platform.
 
 L&#39;export crée un jeu de données pour chaque objet de votre bibliothèque des offres (voir [Accès aux jeux de données exportés](../export-catalog/access-dataset.md)). Comprend :
 

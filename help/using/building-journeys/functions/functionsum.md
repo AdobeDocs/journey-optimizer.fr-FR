@@ -5,7 +5,8 @@ description: En savoir plus sur la fonction sum
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 100%

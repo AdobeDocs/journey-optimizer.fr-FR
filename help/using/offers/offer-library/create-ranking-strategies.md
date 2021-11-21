@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Création de stratégies de classement
-description: Découvrez comment créer des stratégies de classement dans Adobe Experience Platform.
+description: Découvrez comment créer des stratégies de classement dans Adobe Experience Platform.
 feature: Ranking Formulas
 role: User
 level: Intermediate

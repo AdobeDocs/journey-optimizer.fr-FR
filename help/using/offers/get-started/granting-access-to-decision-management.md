@@ -30,7 +30,7 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. Ouvrez l&#39;[Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), puis sélectionnez **[!UICONTROL Adobe Experience Platform]**.
+1. Ouvrez l&#39;[Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), puis sélectionnez **[!UICONTROL Adobe Experience Platform]**.
 
    <!--![](../../assets/offers_admin_console.png)-->
 
@@ -48,7 +48,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    <!--To access the product profile’s permissions, select the **[!UICONTROL Permissions]** line.-->
 
-1. Sélectionnez les services à activer pour le profil de produit. Par défaut, tous les services sont sélectionnés, ce qui est recommandé pour s&#39;assurer que toutes les fonctionnalités d&#39;Experience Platform sont disponibles.
+1. Sélectionnez les services à activer pour le profil de produit. Par défaut, tous les services sont sélectionnés, ce qui est recommandé pour s&#39;assurer que toutes les fonctionnalités d&#39;Experience Platform sont disponibles.
 
    ![](../../assets/enable-services.png)
 

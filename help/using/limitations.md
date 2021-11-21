@@ -1,6 +1,6 @@
 ---
-title: Limites de Journey Optimizer
-description: En savoir plus sur les limites de Journey Optimizer
+title: Limites de Journey Optimizer
+description: En savoir plus sur les limites de Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Limites {#limitations}
 
-Les droits, les limites de produit et les barrières de performance sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Les droits, les limites de produit et les barrières de performance sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
 Vous trouverez ci-dessous des limites supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
 
@@ -56,7 +56,7 @@ Vous trouverez ci-dessous des limites supplémentaires lors de l’utilisation d
 
 ### Événements
 
-* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
+* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
  
 
 ### Sources de données

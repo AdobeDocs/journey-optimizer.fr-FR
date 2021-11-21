@@ -2,13 +2,13 @@
 title: Prise en main de Journey Optimizer pour les marketeurs
 description: En tant que praticien de Parcours, découvrez comment utiliser Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 56%
 
 ---
-
 
 # Prise en main pour les marketeurs
 
@@ -38,9 +38,9 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
 1. **Concevoir des parcours client** pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] permet de créer des cas d&#39;utilisation d&#39;orchestration en temps réel à l&#39;aide de données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
-   * Envoyez des **messages unitaires** en temps réel déclenchés lorsqu&#39;un événement est reçu ou **par lots** à l&#39;aide de segments Adobe Experience Platform.
+   * Envoyez des **messages unitaires** en temps réel déclenchés lorsqu’un événement est reçu ou **par lots** à l’aide de segments Adobe Experience Platform.
 
-   * Tirez parti des **données contextuelles** issues des événements, des informations d&#39;Adobe Experience Platform ou des données provenant de services d&#39;API tiers.
+   * Tirez parti des **données contextuelles** issues des événements, des informations d&#39;Adobe Experience Platform ou des données provenant de services d&#39;API tiers.
 
    * Utilisez l&#39;**action intégrée** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
@@ -51,4 +51,3 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
    Découvrez comment concevoir et exécuter des parcours [dans cette section](../building-journeys/journey-gs.md)
 
 1. **Surveillance des messages et des parcours**. Pour vous assurer que vos messages sont exécutés, envoyés et diffusés avec succès, [!DNL Journey Optimizer] offre des fonctionnalités permettant de surveiller les messages actuellement publiés et déclenchés. Découvrez comment surveiller les performances [dans cette section](../message-monitoring.md).
-

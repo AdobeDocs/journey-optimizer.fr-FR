@@ -63,7 +63,7 @@ Pour sélectionner des profils de test, procédez comme suit :
 
    ![](assets/previewselect-namespace.png)
 
-   Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](get-started-identity.md){target=&quot;_blank&quot;}.
+   Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](get-started-identity.md){target=&quot;_blank&quot;}.
 
    Dans l&#39;exemple ci-dessous, nous utiliserons l&#39;espace de noms **E-mail**.
 

@@ -1,6 +1,6 @@
 ---
 title: Création d'offres de secours
-description: Découvrez comment créer des offres dans Adobe Experience Platform.
+description: Découvrez comment créer des offres dans Adobe Experience Platform.
 feature: Offers
 topic: Integrations
 role: User
@@ -23,7 +23,7 @@ La liste des offres de secours est accessible dans le menu **[!UICONTROL Offres]
 
 ![](../../assets/offers_list.png)
 
-Pour créer une offre de secours, procédez comme suit :
+Pour créer une offre de secours, procédez comme suit :
 
 >[!NOTE]
 >
@@ -57,6 +57,6 @@ Pour créer une offre de secours, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)

@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
-* Envoyez des **messages unitaires** en temps réel déclenchés lorsqu&#39;un événement est reçu ou **par lots** à l&#39;aide de segments Adobe Experience Platform.
+* Envoyez des **messages unitaires** en temps réel déclenchés lorsqu’un événement est reçu ou **par lots** à l’aide de segments Adobe Experience Platform.
 
-* Tirez parti des **données contextuelles** issues des événements, des informations d&#39;Adobe Experience Platform ou des données provenant de services d&#39;API tiers.
+* Tirez parti des **données contextuelles** issues des événements, des informations d&#39;Adobe Experience Platform ou des données provenant de services d&#39;API tiers.
 
 * Utilisez l&#39;**action intégrée** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 

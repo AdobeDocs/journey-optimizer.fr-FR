@@ -25,7 +25,7 @@ Ce tutoriel nécessite une bonne compréhension des API, tout particulièrement 
 
 ## En-têtes Accepter et Type de contenu
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Type de contenu* et *Accepter* dans l&#39;en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
@@ -199,7 +199,7 @@ La vidéo suivante est destinée à vous aider à comprendre les composants de D
 
 >[!NOTE]
 >
->Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Elle fournit toutefois des instructions générales sur l’utilisation d’Offer Decisioning dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 

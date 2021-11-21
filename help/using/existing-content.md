@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Importer ou coder le contenu de votre e-mail {#existing-content}
 
-Journey Optimizer vous permet d’importer du contenu HTML existant pour concevoir vos e-mails. Ce contenu peut être du code HTML brut ou du contenu provenant d’un fichier HTML existant ou d’un dossier zip.
+Journey Optimizer vous permet d’importer du contenu HTML existant pour concevoir vos e-mails. Ce contenu peut être du code HTML brut ou du contenu provenant d’un fichier HTML existant ou d’un dossier zip.
 
 Pour coder du contenu HTML ou importer du contenu existant, procédez comme suit :
 
@@ -33,7 +33,7 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
 
 >[!CAUTION]
 >
-> Les images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
+> Les images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
 
 1. Dans la page d&#39;accueil du Concepteur d’email, sélectionnez **[!UICONTROL Coder votre propre contenu]**.
 

@@ -19,7 +19,7 @@ Vous pouvez accéder au schéma XDM DecisioningEvents directement à partir d’
 
 ![](../../assets/access-schema.png)
 
-Le schéma contient tous les champs nécessaires pour envoyer des informations de Decision Management vers Adobe Experience Platform.
+Le schéma contient tous les champs nécessaires pour envoyer des informations de Decision Management vers Adobe Experience Platform.
 
 Pour obtenir plus d&#39;informations sur un champ spécifique, sélectionnez-le afin d&#39;afficher un volet d&#39;informations contenant les propriétés du champ.
 

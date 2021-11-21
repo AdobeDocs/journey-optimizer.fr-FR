@@ -1,6 +1,6 @@
 ---
-title: Prise en main des profils dans Journey Optimizer
-description: Découvrez comment créer et gérer des profils dans Adobe Journey Optimizer
+title: Prise en main des profils dans Journey Optimizer
+description: Découvrez comment créer et gérer des profils dans Adobe Journey Optimizer
 feature: Profiles
 role: User
 level: Beginner
@@ -18,7 +18,7 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 >[!NOTE]
 >
->Si votre organisation débute avec [!DNL Adobe Journey Optimizer] et ne dispose pas encore de jeux de données ou de stratégies de fusion principaux, le tableau de bord **Profils** n’est pas visible. À la place, l’onglet **Aperçu** affiche des liens vers la documentation d’Adobe Experience Platform pour vous aider à prendre en main le profil client en temps réel.
+>Si votre organisation débute avec [!DNL Adobe Journey Optimizer] et ne dispose pas encore de jeux de données ou de stratégies de fusion principaux, le tableau de bord **Profils** n’est pas visible. À la place, l’onglet **Aperçu** affiche des liens vers la documentation d’Adobe Experience Platform pour vous aider à prendre en main le profil client en temps réel.
 
 ![](assets/profiles-home.png)
 

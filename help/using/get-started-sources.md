@@ -1,6 +1,6 @@
 ---
-title: Prise en main des connecteurs source dans Journey Optimizer
-description: Découvrez comment ingérer des données à partir de sources externes dans Adobe Journey Optimizer
+title: Prise en main des connecteurs source dans Journey Optimizer
+description: Découvrez comment ingérer des données à partir de sources externes dans Adobe Journey Optimizer
 feature: Schemas
 role: User
 level: Beginner

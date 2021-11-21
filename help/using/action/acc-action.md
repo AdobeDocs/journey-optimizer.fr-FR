@@ -1,5 +1,5 @@
 ---
-title: Intégration à Adobe Campaign v7/v8
+title: Intégration à Adobe Campaign v7/v8
 description: Découvrez comment effectuer une intégration à Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Intégration à Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# Intégration à Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
 Cette intégration est disponible pour Adobe Campaign Classic v7 à partir de la version 21.1 et Adobe Campaign v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign.
 
@@ -37,9 +37,9 @@ Pour chaque action configurée, une activité d’action est disponible dans la 
 
 ## Conditions préalables
 
-Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Consultez la [documentation d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target=&quot;_blank&quot;}.
+Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Consultez la [documentation d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target=&quot;_blank&quot;}.
 
-Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Il vous faudra ensuite coller cette payload lors de la configuration de l’action dans Journey Orchestration (voir ci-dessous)
+Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Il vous faudra ensuite coller cette payload lors de la configuration de l’action dans Journey Orchestration (voir ci-dessous)
 
 Voici un exemple :
 
@@ -64,7 +64,7 @@ Dans Journey Optimizer, vous devez configurer une action par message transactio
 
 1. Créez une nouvelle action. Reportez-vous à cette [section](../action/action.md).
 1. Entrez un nom et une description.
-1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
+1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
 1. Cliquez dans le champ **Payload** et collez un exemple de payload JSON correspondant au message Campaign Contactez Adobe pour obtenir cette payload.
 1. Ajustez les différents champs de sorte qu’ils soient statiques ou variables selon que vous souhaitez les mapper ou non sur la zone de travail des parcours. Certains champs, tels que les paramètres de canal pour l’adresse e-mail et les champs de personnalisation (ctx), doivent probablement être définis comme des variables pour le mappage dans le contexte du parcours.
 1. Cliquez sur **Enregistrer**.

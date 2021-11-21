@@ -19,12 +19,12 @@ Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les m
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=&quot;_blank&quot;} qui tire parti du service applicatif **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
+>Si vous êtes un utilisateur d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=&quot;_blank&quot;} qui tire parti du service applicatif **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
 
 La fonctionnalité Decision Management comprend deux composants principaux :
 
 * La **bibliothèque des offres centralisée** qui est l’interface qui vous permet de créer et de gérer les différents éléments qui composent vos offres et qui permet de définir leurs règles et contraintes.
-* Le **moteur de décision d’offre** qui tire parti des données Adobe Experience Platform et des profils client en temps réel, ainsi que de la bibliothèque des offres, pour sélectionner le bon moment, les clients et les canaux pour la diffusion des offres.
+* Le **moteur de décision d’offre** qui tire parti des données Adobe Experience Platform et des profils client en temps réel, ainsi que de la bibliothèque des offres, pour sélectionner le bon moment, les clients et les canaux pour la diffusion des offres.
 
 ![](../../assets/architecture.png)
 
@@ -50,9 +50,9 @@ Les décisions sont des conteneurs qui s’appuient sur le moteur de décision p
 
 ## Cas d’utilisation courants
 
-Les fonctionnalités de Decision Management et l’intégration à Adobe Experience Platform vous permettent de couvrir de nombreux cas d’utilisation pour vous aider à augmenter l’engagement et la conversion des clients.
+Les fonctionnalités de Decision Management et l’intégration à Adobe Experience Platform vous permettent de couvrir de nombreux cas d’utilisation pour vous aider à augmenter l’engagement et la conversion des clients.
 
-* Affichez sur votre site Web les offres de la page d&#39;accueil qui correspondent au point d&#39;intérêt du client visiteur, en fonction des données issues d&#39;Adobe Experience Platform.
+* Affichez sur votre site Web les offres de la page d&#39;accueil qui correspondent au point d&#39;intérêt du client visiteur, en fonction des données issues d&#39;Adobe Experience Platform.
 
    ![](../../assets/website.png)
 
@@ -107,7 +107,7 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 >[!NOTE]
 >
->Ces vidéos s’appliquent au service applicatif Offer Decisioning basé sur Adobe Experience Platform et ne sont pas spécifiques à [!DNL Adobe Journey Optimizer]. Elles fournissent toutefois des directives générales pour l&#39;utilisation de la gestion des décisions dans le contexte de [!DNL Journey Optimizer].
+>Ces vidéos s’appliquent au service applicatif Offer Decisioning basé sur Adobe Experience Platform et ne sont pas spécifiques à [!DNL Adobe Journey Optimizer]. Elles fournissent toutefois des directives générales pour l&#39;utilisation de la gestion des décisions dans le contexte de [!DNL Journey Optimizer].
 
 ### Qu&#39;est-ce que Decision Management ?  {#what-is-offer-decisioning}
 

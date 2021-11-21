@@ -15,7 +15,7 @@ ht-degree: 95%
 
 # Ajout d&#39;un message dans un parcours
 
-Les fonctionnalités de message [!DNL Journey Optimizer] sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou e-mail conçu à l&#39;aide de Journey Optimizer.
+Les fonctionnalités de message [!DNL Journey Optimizer] sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou e-mail conçu à l&#39;aide de Journey Optimizer.
 
 Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md).
 
@@ -33,7 +33,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
    ![](../assets/jo-message2.png)
 
-1. Cliquez dans le champ **Message**. La liste des messages disponibles conçus dans Journey Optimizer s&#39;affiche. Vous pouvez filtrer la liste par état.
+1. Cliquez dans le champ **Message**. La liste des messages disponibles conçus dans Journey Optimizer s’affiche. Vous pouvez filtrer la liste par état.
 
    ![](../assets/jo-message3.png)
 

@@ -19,7 +19,7 @@ Vous pouvez créer une décision (auparavant appelée activité d&#39;offre) en 
 
 ## En-têtes Accepter et Type de contenu
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Type de contenu* et *Accepter* dans l&#39;en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |

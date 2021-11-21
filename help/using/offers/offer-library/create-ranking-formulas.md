@@ -1,6 +1,6 @@
 ---
 title: Création de formules de classement
-description: Découvrez comment créer des formules de classement dans Adobe Experience Platform.
+description: Découvrez comment créer des formules de classement dans Adobe Experience Platform.
 feature: Offers
 topic: Integrations
 role: User

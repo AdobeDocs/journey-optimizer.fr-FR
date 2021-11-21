@@ -1,6 +1,6 @@
 ---
-title: Journey Optimizer
-description: Prise en main de Journey Optimizer
+title: Journey Optimizer
+description: Prise en main de Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Prise en main de Journey Optimizer {#cjm-gs}
+# Prise en main de Journey Optimizer {#cjm-gs}
 
 >[!CONTEXTUALHELP]
 >id="test_id"
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] est conçu de manière native sur [!DNL Adobe Experience Platform] et associe un profil client en temps réel unifié, un framework ouvert API-First, une fonction Offer Decisioning centralisée, une intelligence artificielle (IA) et du machine learning (ML) pour la personnalisation et l&#39;optimisation. Journey Optimizer permet aux marques de déterminer intelligemment la meilleure interaction possible, avec l&#39;échelle, la vitesse et la flexibilité adaptées, pour l&#39;ensemble du parcours client. Avec [!DNL Adobe Journey Optimizer], les entreprises peuvent créer et diffuser des campagnes marketing planifiées (comme des promotions hebdomadaires pour un magasin de vente au détail) et des communications individuelles personnalisées (comme une notification push pour un article qu&#39;un client d&#39;une application avec points de fidélité peut avoir consulté et qui était précédemment en rupture de stock) dans la même application.
 
-➡️ [Découvrez Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=fr){target=&quot;_blank&quot;} (vidéo)
+➡️ [Découvrez Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=fr){target=&quot;_blank&quot;} (vidéo)
 
 
 ## Cas d&#39;utilisation
@@ -61,7 +61,7 @@ Découvrez l’architecture de base de [!DNL Adobe Journey Optimizer], les point
 
 >[!NOTE]
 >
-> Les lignes directrices et procédures générales de Adobe Experience Cloud sur la protection des renseignements personnels s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html).
+> Les lignes directrices et procédures générales de Adobe Experience Cloud sur la protection des renseignements personnels s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html).
 > Vous devez également connaître les [barrières de sécurité pour les données du profil client en temps réel avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr).
 
 

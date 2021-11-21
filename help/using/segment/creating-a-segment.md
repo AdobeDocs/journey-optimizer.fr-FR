@@ -51,7 +51,7 @@ Dans cet exemple, nous allons créer un segment pour cibler tous les clients ré
 
    ![](../assets/segment-estimate.png)
 
-1. Une fois le segment prêt, cliquez sur **[!UICONTROL Enregistrer]**. Il s’affiche dans la liste des segments Adobe Experience Platform. Notez qu’une barre de recherche est disponible pour vous aider à rechercher un segment spécifique dans la liste.
+1. Une fois le segment prêt, cliquez sur **[!UICONTROL Enregistrer]**. Il s’affiche dans la liste des segments Adobe Experience Platform. Notez qu’une barre de recherche est disponible pour vous aider à rechercher un segment spécifique dans la liste.
 
 Le segment peut désormais être utilisé dans vos parcours. Voir à ce propos [cette section](../segment/about-segments.md).
 

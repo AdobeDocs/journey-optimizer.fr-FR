@@ -1,6 +1,6 @@
 ---
-title: À propos des données Adobe Analytics
-description: Découvrez comment exploiter les données Adobe Analytics
+title: À propos des données Adobe Analytics
+description: Découvrez comment exploiter les données Adobe Analytics
 feature: Events
 topic: Administration
 role: Admin

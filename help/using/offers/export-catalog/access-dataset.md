@@ -1,6 +1,6 @@
 ---
 title: Accès au catalogue d’offres exporté
-description: Découvrez comment accéder au catalogue d’offres sur Adobe Experience Platform une fois qu’il a été exporté.
+description: Découvrez comment accéder au catalogue d’offres sur Adobe Experience Platform une fois qu’il a été exporté.
 feature: Offers
 topic: Integrations
 role: User
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Accès au catalogue d&#39;offres exporté {#access-exported-catalog}
 
-Le catalogue d’offres exporté est accessible dans le menu **[!UICONTROL Jeux de données]** d’Adobe Experience Platform. Un jeu de données est créé pour chaque objet de votre bibliothèque des offres.
+Le catalogue d’offres exporté est accessible dans le menu **[!UICONTROL Jeux de données]** d’Adobe Experience Platform. Un jeu de données est créé pour chaque objet de votre bibliothèque des offres.
 
 ![](../../assets/datasets-list.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Créer des emails dans Journey Optimizer
+title: Créer des emails dans Journey Optimizer
 description: Découvrez comment concevoir le contenu de vos emails
 feature: Overview
 topic: Content Management

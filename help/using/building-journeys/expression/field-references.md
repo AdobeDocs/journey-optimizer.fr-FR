@@ -5,7 +5,8 @@ description: En savoir plus sur les références de champ dans les expressions a
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 39d94497a3481424bbca840e3ab42dab7b3545f6
+exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 67%
@@ -53,7 +54,7 @@ Une valeur par défaut peut être associée à un nom de champ. La syntaxe se pr
 
 >[!NOTE]
 >
->Le type du champ et la valeur par défaut doivent être identiques. Par exemple, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ne sera pas valide, car la valeur par défaut est un entier alors que la valeur attendue doit être une chaîne.
+>Le type du champ et la valeur par défaut doivent être identiques. Par exemple, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ne sera pas valide, car la valeur par défaut est un entier alors que la valeur attendue doit être une chaîne.
 
 Exemples :
 

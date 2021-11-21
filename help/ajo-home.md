@@ -1,7 +1,7 @@
 ---
-keywords: Journey Optimizer;accueil;sujets les plus consultés
-title: Documentation Journey Optimizer
-description: Centre d’aide du produit Adobe Journey Optimizer
+keywords: Journey Optimizer;accueil;sujets les plus consultés
+title: Documentation du produit Journey Optimizer
+description: Centre d’aide du produit Adobe Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -82,17 +82,17 @@ ht-degree: 82%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation d’Adobe Experience Platform </a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation d’Adobe Experience Platform </a>
     </li>
     </div>
       <div>
       <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr" target="_blank">Présentation de l'accès à Adobe Experience Platform</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr" target="_blank">Présentation de l'accès à Adobe Experience Platform</a>
     </li>
     </div>
       <div>

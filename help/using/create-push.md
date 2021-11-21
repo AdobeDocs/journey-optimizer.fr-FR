@@ -1,6 +1,6 @@
 ---
 title: Configurer une notification push
-description: Découvrez comment créer une notification push dans Journey Optimizer
+description: Découvrez comment créer une notification push dans Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -87,7 +87,7 @@ Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des p
 
 ## Données personnalisées
 
-Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications push dans Adobe Experience Platform et Adobe Launch, voir [cette section](push-gs.md).
+Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications push dans Adobe Experience Platform et Adobe Launch, voir [cette section](push-gs.md).
 
 ## Options avancées
 

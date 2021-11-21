@@ -1,5 +1,5 @@
 ---
-title: Actions d'Adobe Campaign v7/v8
+title: Actions d'Adobe Campaign v7/v8
 description: En savoir plus sur les actions Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Actions d&#39;Adobe Campaign v7/v8 {#using_campaign_classic}
+# Actions d&#39;Adobe Campaign v7/v8 {#using_campaign_classic}
 
 Une intégration est disponible si vous disposez d&#39;Adobe Campaign v7 ou v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign.
 

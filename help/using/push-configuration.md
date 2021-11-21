@@ -1,6 +1,6 @@
 ---
 title: Configuration de notifications push
-description: Découvrez comment configurer votre environnement pour envoyer des notifications push avec Journey Optimizer.
+description: Découvrez comment configurer votre environnement pour envoyer des notifications push avec Journey Optimizer.
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
@@ -30,7 +30,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Configuration des autorisations
 
-Avant de créer une application mobile, vous devez d&#39;abord vous assurer que vous possédez ou accordez les autorisations utilisateur appropriées dans **Adobe Experience Platform Launch**. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=fr){target=&quot;_blank&quot;}.
+Avant de créer une application mobile, vous devez d&#39;abord vous assurer que vous possédez ou accordez les autorisations utilisateur appropriées dans **Adobe Experience Platform Launch**. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=fr){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Pour attribuer des droits **Propriété** et **Société**, procédez comme suit
 
 1. Accédez à **[!DNL Admin Console]**.
 
-1. Dans l&#39;onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
+1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
 
    ![](assets/push_product_1.png)
 
@@ -85,7 +85,7 @@ Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez
 
 1. Accédez à **[!DNL Admin Console]**.
 
-1. Dans l&#39;onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
+1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Adobe Experience Platform Launch]**.
 
 1. Sélectionnez votre **[!UICONTROL Profil de produit]** précédemment configuré.
 

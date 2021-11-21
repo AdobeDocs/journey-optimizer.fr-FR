@@ -23,7 +23,7 @@ Pour envoyer des messages avec des parcours, la configuration suivante est requi
 
    ![](../assets/jo-event7bis.png)
 
-1. **Créer un segment** : votre parcours peut également écouter les segments Adobe Experience Platform afin d&#39;envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez créer des segments. [En savoir plus](../segment/about-segments.md).
+1. **Créer un segment** : votre parcours peut également écouter les segments Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez créer des segments. [En savoir plus](../segment/about-segments.md).
 
    ![](../assets/segment2.png)
 
@@ -31,7 +31,7 @@ Pour envoyer des messages avec des parcours, la configuration suivante est requi
 
    ![](../assets/jo-datasource.png)
 
-1. **Configurer une action** : les fonctionnalités de messagerie Journey Optimizer sont intégrées ; il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**.
+1. **Configurer une action** : les fonctionnalités de messagerie Journey Optimizer sont intégrées ; il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**.
 
    ![](../assets/create-content-push.png)
 

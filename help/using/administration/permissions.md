@@ -101,7 +101,7 @@ Si nécessaire, vous pouvez également créer un profil de produit avec des auto
 
 [!DNL Journey Optimizer] vous permet de créer vos propres **[!UICONTROL profils de produit]** et d&#39;attribuer un ensemble de droits et d&#39;environnements Sandbox à vos utilisateurs. Avec les **[!UICONTROL profils de produit]**, vous pouvez autoriser ou refuser l&#39;accès à certaines fonctionnalités ou à certains objets de l&#39;interface.
 
-Pour plus d&#39;informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d&#39;Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
+Pour plus d&#39;informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d&#39;Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs pourront uniquement accéder aux parcours et les afficher. Ils ne pourront pas accéder à d&#39;autres fonctionnalités telles que **[!UICONTROL Gestion des décisions]** ou **[!UICONTROL Messages]** dans [!DNL Journey Optimizer].
 

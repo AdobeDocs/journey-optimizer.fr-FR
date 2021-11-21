@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Lors de la création de contenu d&#39;e-mails avec [!DNL Journey Optimizer], vous pouvez :
 
-* **Concevoir vos e-mails à partir de rien** dans l&#39;interface du concepteur d&#39;e-mail et tirer parti des images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir votre contenu d&#39;e-mail ou utiliser des modèles intégrés [dans cette section](create-email-content.md).
+* **Concevoir vos e-mails à partir de rien** dans l&#39;interface du concepteur d&#39;e-mail et tirer parti des images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir votre contenu d&#39;e-mail ou utiliser des modèles intégrés [dans cette section](create-email-content.md).
 
 * **Codez ou collez du code HTML brut** directement dans le concepteur d&#39;email. Découvrez comment coder votre propre contenu [dans cette section](existing-content.md#import-raw-html-code).
 

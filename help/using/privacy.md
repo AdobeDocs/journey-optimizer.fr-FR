@@ -25,7 +25,7 @@ Les principales législations se réfèrent de la manière suivante aux différe
 * Un **responsable du traitement des données** est un individu ou une partie qui collecte, utilise ou partage des données personnelles selon les instructions du contrôleur de données.
 * Un **titulaire de données** est une personne vivante dont les données à caractère personnel sont collectées, utilisées ou partagées et qui peut être identifiée, directement ou indirectement, par référence à ces données à caractère personnel.
 
-Dans une entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Experience Cloud agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu’il vous appartient, en tant que contrôleur de données, de gérer la relation avec les titulaires de données.
+Dans une entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Experience Cloud agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu’il vous appartient, en tant que contrôleur de données, de gérer la relation avec les titulaires de données.
 
 ## Recommandations générales {#general-recommendations}
 
@@ -52,27 +52,27 @@ De ce fait, pour gérer correctement la confidentialité et les données personn
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (loi thaïlandaise sur la protection des données personnelles)
 
-[!DNL Journey Optimizer] hérite de la plupart des modifications apportées au jeu de données dans Adobe Experience Platform.
+[!DNL Journey Optimizer] hérite de la plupart des modifications apportées au jeu de données dans Adobe Experience Platform.
 
-Par conséquent, les demandes d’accès à des informations personnelles (droit d’accès et droit à l’oubli) sont gérées via Experience Platform. Vous devez envoyer vos requêtes à l’aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target=&quot;_blank&quot;}, puis sélectionner **Profil** et **Lac de données AEP** dans la liste de produits lorsque vous [créez votre requête de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
+Par conséquent, les demandes d’accès à des informations personnelles (droit d’accès et droit à l’oubli) sont gérées via Experience Platform. Vous devez envoyer vos requêtes à l’aide de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target=&quot;_blank&quot;}, puis sélectionner **Profil** et **Lac de données AEP** dans la liste de produits lorsque vous [créez votre requête de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
->La [gestion du consentement](../../help/using/consent.md) est directement gérée dans Journey Optimizer.
+>La [gestion du consentement](../../help/using/consent.md) est directement gérée dans Journey Optimizer.
 
-## Confidentialité d’Adobe Experience Cloud {#experience-cloud-privacy}
+## Confidentialité d’Adobe Experience Cloud {#experience-cloud-privacy}
 
-[!DNL Journey Optimizer] fait partie intégrante des solutions Adobe Experience Cloud. La façon dont la confidentialité est gérée obéit aux principes généraux d’Adobe Experience Cloud. Pour en savoir plus sur la confidentialité d’Adobe Experience Cloud, consultez [cette page](https://www.adobe.com/fr/privacy/experience-cloud.html).
+[!DNL Journey Optimizer] fait partie intégrante des solutions Adobe Experience Cloud. La façon dont la confidentialité est gérée obéit aux principes généraux d’Adobe Experience Cloud. Pour en savoir plus sur la confidentialité d’Adobe Experience Cloud, consultez [cette page](https://www.adobe.com/fr/privacy/experience-cloud.html).
 
-En tant que société utilisant les solutions Adobe Experience Cloud, vous choisissez les informations à collecter et à envoyer à votre compte Adobe Experience Cloud. Parmi les types d’informations pouvant être collectées, citons les activités de navigation sur le web, les adresses IP, les informations de localisation des appareils mobiles, les taux de succès des campagnes, les articles achetés ou placés dans un panier, etc. Pour plus d’informations à ce sujet, consultez la [Politique de confidentialité d’Adobe](https://www.adobe.com/fr/privacy/policy.html).
+En tant que société utilisant les solutions Adobe Experience Cloud, vous choisissez les informations à collecter et à envoyer à votre compte Adobe Experience Cloud. Parmi les types d’informations pouvant être collectées, citons les activités de navigation sur le web, les adresses IP, les informations de localisation des appareils mobiles, les taux de succès des campagnes, les articles achetés ou placés dans un panier, etc. Pour plus d’informations à ce sujet, consultez la [Politique de confidentialité d’Adobe](https://www.adobe.com/fr/privacy/policy.html).
 
 Adobe vous demande de fournir à vos clients des politiques de confidentialité décrivant :
 
-* Vos pratiques de confidentialité en rapport avec Adobe Experience Cloud
-* La manière dont les utilisateurs peuvent définir leurs préférences pour la collecte ou l&#39;utilisation de leurs informations en rapport avec Adobe Experience Cloud
+* Vos pratiques de confidentialité en rapport avec Adobe Experience Cloud
+* La manière dont les utilisateurs peuvent définir leurs préférences pour la collecte ou l&#39;utilisation de leurs informations en rapport avec Adobe Experience Cloud
 
 >[!NOTE]
 >
->Pour tous les produits Adobe, les utilisateurs de [!DNL Adobe Journey Optimizer] peuvent s’opposer (opt-out) au partage des informations collectées à leur sujet par le biais d’applications et de sites web. Pour en savoir plus, consultez le [FAQ sur l’utilisation d’Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud-usage-info-faq.html).
+>Pour tous les produits Adobe, les utilisateurs de [!DNL Adobe Journey Optimizer] peuvent s’opposer (opt-out) au partage des informations collectées à leur sujet par le biais d’applications et de sites web. Pour en savoir plus, consultez le [FAQ sur l’utilisation d’Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->

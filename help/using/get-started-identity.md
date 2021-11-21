@@ -1,6 +1,6 @@
 ---
-title: Prise en main des identités dans Journey Optimizer
-description: Découvrez comment gérer les identités dans Adobe Journey Optimizer
+title: Prise en main des identités dans Journey Optimizer
+description: Découvrez comment gérer les identités dans Adobe Journey Optimizer
 feature: Profiles
 role: User
 level: Beginner
@@ -26,7 +26,7 @@ Découvrez le **Service d’identités** dans [cette documentation](https://expe
 
 ## Espaces de noms d’identité
 
-Les **espaces de noms d’identité** sont des composants du Service d’identités qui servent d’indicateurs du contexte auquel une identité se rapporte. Par exemple, ils distinguent une valeur `name@email.com` comme adresse e-mail ou `443522` comme identifiant CRM numérique. L’utilisation des espaces de noms d’identité nécessite une compréhension des différents services d’Adobe Experience Platform impliqués. Avant de commencer à travailler avec les espaces de noms d’identité, veuillez consulter la documentation relative aux services suivants :
+Les **espaces de noms d’identité** sont des composants du Service d’identités qui servent d’indicateurs du contexte auquel une identité se rapporte. Par exemple, ils distinguent une valeur `name@email.com` comme adresse e-mail ou `443522` comme identifiant CRM numérique. L’utilisation des espaces de noms d’identité nécessite une compréhension des différents services d’Adobe Experience Platform impliqués. Avant de commencer à travailler avec les espaces de noms d’identité, veuillez consulter la documentation relative aux services suivants :
 
 Découvrez les **espaces de noms d’identité** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target=&quot;_blank&quot;}.
 

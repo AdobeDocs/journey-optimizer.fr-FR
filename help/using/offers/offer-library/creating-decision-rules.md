@@ -1,6 +1,6 @@
 ---
 title: Création de règles de décision
-description: Découvrez comment créer des règles de décision dans Adobe Experience Platform.
+description: Découvrez comment créer des règles de décision dans Adobe Experience Platform.
 feature: Offers
 topic: Integrations
 role: User
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Création de règles de décision {#creating-decision-rules}
 
-Vous pouvez créer des règles de décision d&#39;offre basées sur les données disponibles dans Adobe Experience Platform. Les règles de décision déterminent pour qui une offre peut être affichée.
+Vous pouvez créer des règles de décision d&#39;offre basées sur les données disponibles dans Adobe Experience Platform. Les règles de décision déterminent pour qui une offre peut être affichée.
 
 Par exemple, vous pouvez indiquer que vous souhaitez qu&#39;une « offre vêtements d&#39;hiver pour femmes » s&#39;affiche lorsque (genre = « femme ») et (région = « nord-est »).
 
@@ -57,6 +57,6 @@ Pour créer cette règle de décision, procédez comme suit :
 
 >[!NOTE]
 >
->Cette vidéo s&#39;applique au service applicatif d&#39;Offer Decisioning basé sur Adobe Experience Platform. Elle fournit toutefois des orientations générales pour l&#39;utilisation d&#39;Offer dans le contexte de Journey Optimizer.
+>Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

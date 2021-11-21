@@ -47,7 +47,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Amélioration de la page **Démarrage rapide** avec des étapes pour différents rôles. [En savoir plus](quick-start.md)
 
-* Désormais, toutes les fonctionnalités de Decision Management décrites dans la section dédiée s’appliquent également aux utilisateurs d’Adobe Experience Platform qui tirent parti du service applicatif Offer Decisioning. [En savoir plus](offers/get-started/starting-offer-decisioning.md)
+* Désormais, toutes les fonctionnalités de Decision Management décrites dans la section dédiée s’appliquent également aux utilisateurs d’Adobe Experience Platform qui tirent parti du service applicatif Offer Decisioning. [En savoir plus](offers/get-started/starting-offer-decisioning.md)
 
 * Ajout d’une sous-section pour clarifier les différences entre l’utilisation des segments et celle des règles de décision lors de l’application d’une contrainte afin de restreindre la sélection des offres pour un emplacement donné. [En savoir plus](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
@@ -78,8 +78,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Juillet 2021
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version du 21 juillet avec [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* Ajout de liens directs vers la documentation des services Experience Platform dans la page d’accueil [!DNL Journey Optimizer] et la table des matières.
-* Nouvelles pages de destination pour les services Experience Platform disponibles dans [!DNL Journey Optimizer]
+* Ajout de liens directs vers la documentation des services Experience Platform dans la page d’accueil [!DNL Journey Optimizer] et la table des matières.
+* Nouvelles pages de destination pour les services Experience Platform disponibles dans [!DNL Journey Optimizer]
 * Ajout de liens vers la description du produit [!DNL Journey Optimizer] dans la page d’accueil.
 * Ajout de tutoriels vidéo à plusieurs pages
 * Image optimisée de la page d’accueil

@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager Assets Essentials
+title: Adobe Experience Manager Assets Essentials
 description: Prise en main d’Assets Essentials
 feature: Overview
 topic: Content Management
@@ -29,7 +29,7 @@ Pour des procédures plus détaillées sur [!DNL Assets Essentials], consultez l
 
 Pour télécharger des fichiers dans [!DNL Assets Essentials], vous devez d’abord parcourir ou créer le dossier dans lequel il sera stocké. Vous pourrez alors les insérer dans le contenu de votre e-mail.
 
-Pour plus d’informations sur le téléchargement de ressources, consultez la documentation [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=fr){target=&quot;_blank&quot;}.
+Pour plus d’informations sur le téléchargement de ressources, consultez la documentation [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Sur la page d’accueil de [!DNL Adobe Journey Optimizer], sélectionnez l’onglet **[!UICONTROL Ressources]** dans le menu **[!UICONTROL Gestion de contenu]** pour accéder à [!DNL Assets Essentials].
 

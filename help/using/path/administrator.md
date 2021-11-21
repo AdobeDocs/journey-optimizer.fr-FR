@@ -2,7 +2,8 @@
 title: Prise en main de Journey Optimizer pour l’administrateur système
 description: En tant qu’administrateur système, découvrez comment utiliser Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 22%
@@ -62,9 +63,7 @@ Suivez les étapes répertoriées ci-dessous :
 1. **Gestion de la suppression et de la liste autorisée**: améliorer votre délivrabilité avec suppression et listes autorisées ;
 
    * A [liste de suppression](../suppression-list.md) se compose d’adresses email que vous souhaitez exclure de vos diffusions, car l’envoi à ces contacts peut nuire à votre réputation d’envoi et à vos taux de diffusion. Vous pouvez surveiller toutes les adresses électroniques qui sont automatiquement exclues de l’envoi d’un parcours, telles que les adresses non valides, les adresses qui rebondissent constamment et qui pourraient nuire à la réputation de votre email, ainsi que les destinataires qui envoient une plainte de spam d’une sorte contre l’un de vos emails. Découvrez comment gérer le [liste de suppression](../configuration/manage-suppression-list.md) et [reprises](../configuration/retries.md).
-
    ![](../assets/suppression-list-filtering-example.png)
 
    * Le [liste autorisée](../allow-list.md) vous permet de spécifier des adresses électroniques ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les courriers électroniques que vous envoyez à partir d’un environnement de test spécifique. Cela peut vous empêcher d&#39;envoyer accidentellement des e-mails à des adresses client réelles lorsque vous vous trouvez dans un environnement de test. Découvrez comment [activer la liste autorisée](../allow-list.md).
    En savoir plus sur la gestion de la délivrabilité dans [!DNL Adobe Journey Optimizer] [dans cette page](../deliverability.md).
-

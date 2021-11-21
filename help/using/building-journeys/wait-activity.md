@@ -51,7 +51,7 @@ Sélectionnez la date d&#39;exécution de l&#39;activité suivante.
 
 ## Attente personnalisée{#custom}
 
-Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l&#39;aide d&#39;une expression avancée basée sur un champ provenant d&#39;un événement ou d&#39;une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir [Documentation du Journey Orchestration](expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, consultez la [documentation de Journey Orchestration](expression/data-types.md).
+Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l&#39;aide d&#39;une expression avancée basée sur un champ provenant d&#39;un événement ou d&#39;une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir [Documentation du Journey Orchestration](expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, consultez la [documentation de Journey Orchestration](expression/data-types.md).
 
 >[!NOTE]
 >

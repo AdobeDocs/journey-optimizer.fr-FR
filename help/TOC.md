@@ -1,8 +1,8 @@
 ---
 product: Journey Optimizer
 audience: end-user
-user-guide-title: Guide de Journey Optimizer
-user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
+user-guide-title: Guide de Journey Optimizer
+user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
@@ -19,7 +19,7 @@ ht-degree: 93%
    + [Notes de mise à jour](using/release-notes.md)
    + [Dernières mises à jour](using/documentation-updates.md)
 + Prise en main{#get-started}
-   + [Qu&#39;est-ce que Journey Optimizer ?](using/get-started.md)
+   + [Qu&#39;est-ce que Journey Optimizer ?](using/get-started.md)
    + Démarrage rapide{#quick-start}
       + [Présentation](using/quick-start.md)
       + [Prise en main en tant que marketeur](using/path/marketer.md)
@@ -95,7 +95,7 @@ ht-degree: 93%
       + [Lecture de segment](using/building-journeys/read-segment.md)
       + [Message](using/building-journeys/journeys-message.md)
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
-      + [Actions d&#39;Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
+      + [Actions d&#39;Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Sauter](using/building-journeys/jump.md)
       + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
    + Créer des expressions {#building-advanced-conditions-journeys}
@@ -111,7 +111,7 @@ ht-degree: 93%
          + [Exemples](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Fonctions {#main-functions-journey}
          + [Principales fonctions](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
+         + Adobe Experience Platform {#adobe-experience-platform}
             + [inSegment](using/building-journeys/functions/functioninsegment.md)
          + Agrégation {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
@@ -326,7 +326,7 @@ ht-degree: 93%
          + Configuration d&#39;un événement unitaire {#unitary-events}
             + [Prise en main des événements unitaires](using/event/about-creating.md)
             + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
-            + [Tirer profit d&#39;Adobe Analytics](using/event/about-analytics.md)
+            + [Tirer profit d&#39;Adobe Analytics](using/event/about-analytics.md)
          + [Configuration d&#39;un événement métier](using/event/about-creating-business.md)
          + [Étapes supplémentaires pour l&#39;envoi d&#39;événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
       + Configuration d&#39;une source de données{#data-source-journeys}
@@ -337,7 +337,7 @@ ht-degree: 93%
       + Configuration d&#39;action {#action-journeys}
          + [À propos des actions](using/action/action.md)
          + [Configurer une action](using/action/about-custom-action-configuration.md)
-         + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
    + [Sources](using/get-started-sources.md)
 + Contrôle d&#39;accès {#administration}
    + [Présentation du contrôle d&#39;accès](using/administration/permissions-overview.md)

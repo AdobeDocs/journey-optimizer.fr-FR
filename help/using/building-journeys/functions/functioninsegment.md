@@ -5,7 +5,8 @@ description: En savoir plus sur la fonction inSegment
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
@@ -34,11 +35,11 @@ Seuls les individus présentant les statuts de participation **Réalisé** et **
 
 `IF inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 
-`ELSE inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
+`ELSE inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
 
 ## Catégorie
 
-Adobe Experience Platform
+Adobe Experience Platform
 
 ## Syntaxe de la fonction
 

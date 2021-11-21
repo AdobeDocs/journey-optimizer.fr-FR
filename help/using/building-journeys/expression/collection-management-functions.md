@@ -5,7 +5,8 @@ description: En savoir plus sur les types de données dans les fonctions de gest
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0c4940472be7c157f319ceefc5e7eed7287d39c3
+exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 82%
@@ -201,7 +202,7 @@ Le résultat est &quot;token_2&quot;.
 
 >[!NOTE]
 >
->Les événements d’expérience sont extraits d’Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
+>Les événements d’expérience sont extraits d’Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
 >
 >* La fonction **[!UICONTROL first]** renvoie l’événement le plus récent.
 >* La fonction **[!UICONTROL last]** renvoie l’événement le plus ancien.

@@ -141,8 +141,8 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
    **Valeurs possibles :**
    * &quot;none&quot; (par défaut)
    * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée comme égale à true avant que l&#39;action contrainte ne soit autorisée. »
-   * &quot;anySegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit être membre d&#39;au moins l&#39;un d&#39;eux avant que l&#39;action contrainte ne soit autorisée. »
-   * &quot;allSegments&quot; : « La contrainte de profil est exprimée en un ou plusieurs segments et le profil doit en être membre pour que l&#39;action restreinte soit autorisée. »
+   * « anySegments » : « La contrainte de profil est exprimée sous la forme d’un ou de plusieurs segments et le profil doit être membre d’au moins l’un d’entre eux avant que l’action contrainte ne soit autorisée. »
+   * « allSegments » : « La contrainte de profil est exprimée sous la forme d’un ou de plusieurs segments et le profil doit être membre de tous ces segments avant que l’action contrainte ne soit autorisée. »
    * &quot;rules&quot; : &quot;La contrainte de profil est exprimée sous la forme d&#39;un certain nombre de règles différentes, par exemple l&#39;éligibilité, l&#39;applicabilité, l&#39;adaptabilité, qui doivent toutes être évaluées sur true avant que l&#39;action limitée ne soit autorisée.&quot;
 
 * **_experience > prise de décision > critères > profileConstraints > segmentIdentities**
