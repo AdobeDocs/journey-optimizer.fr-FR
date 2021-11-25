@@ -102,6 +102,6 @@ Une réponse réussie renvoie des informations sur l’offre personnalisée nouv
 }
 ```
 
-## Limites {#limitations}
+## Limitations {#limitations}
 
 Certaines contraintes d’offre ne sont actuellement pas prises en charge avec le mobile [!DNL Experience Edge] workflows, par exemple `Capping`. Le `Capping` valeur de champ indique le nombre de fois où une offre peut être présentée à tous les utilisateurs. Pour plus d’informations, voir [Documentation sur les règles d’éligibilité et les contraintes d’offre](../../../offer-library/creating-personalized-offers.md).

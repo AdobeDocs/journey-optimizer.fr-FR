@@ -1,6 +1,6 @@
 ---
-title: Limites de Journey Optimizer
-description: En savoir plus sur les limites de Journey Optimizer
+title: Limitations de Journey Optimizer
+description: En savoir plus sur les limitations de Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,18 +13,18 @@ ht-degree: 100%
 
 ---
 
-# Limites {#limitations}
+# Limitations {#limitations}
 
-Les droits, les limites de produit et les barrières de performance sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Les droits, les limitations de produit et la sécurisation des performance sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
-Vous trouverez ci-dessous des limites supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
+Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
 
-## Limites des messages
+## Limitations des messages
 
 * Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
 * La fonctionnalité E-mail Cci n’est pas prise en charge dans [!DNL Journey Optimizer].
 
-## Limites dans les parcours
+## Limitations dans les parcours
 
 ### Actions générales
 

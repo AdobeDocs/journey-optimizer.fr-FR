@@ -1,6 +1,6 @@
 ---
-title: Limites de parcours
-description: En savoir plus sur les limites de parcours
+title: Limitations de parcours
+description: En savoir plus sur les limitations de parcours
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,22 +13,22 @@ ht-degree: 100%
 
 ---
 
-# Limites {#journey-limitations}
+# Limitations {#journey-limitations}
 
-Voici les limites liées à l&#39;utilisation des parcours.
+Voici les limitations liées à l&#39;utilisation des parcours.
 
-## Limites des actions générales
+## Limitations des actions générales
 
 * Il n’y a pas de limite d’envoi. 
 * En cas d&#39;erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. 
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine (voir cette [page](../building-journeys/reaction-events.md)). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié. 
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
 
-## Limites des actions de message
+## Limitations des actions de message
 
 * Lorsque vous ajoutez un message multicanal, deux messages sont envoyés.
 
-## Limites des versions de parcours {#journey-versions-limitations}
+## Limitations des versions de parcours {#journey-versions-limitations}
 
 * Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
 * Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d&#39;autres versions.
@@ -36,7 +36,7 @@ Voici les limites liées à l&#39;utilisation des parcours.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
 * Un parcours commençant par une **lecture de segment** ne peut pas commencer par un autre événement dans les versions suivantes.
 
-## Actions personnalisées limitations
+## Actions personnalisées  limitations
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
@@ -45,12 +45,12 @@ Voici les limites liées à l&#39;utilisation des parcours.
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
 
-## Limites des événements
+## Limitations des événements
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
  
 
-## Sources de données limitations
+## Sources de données  limitations
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
@@ -66,6 +66,6 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
 
-## Limites de lecture de segment
+## Limitations de lecture de segment
 
 * Les segments diffusés en continu sont toujours à jour, mais les segments par lots ne sont pas calculés au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
