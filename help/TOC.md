@@ -8,18 +8,18 @@ solution: Journey Optimizer
 source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Aide de Adobe Journey Optimizer {#using}
+# Aide d’Adobe Journey Optimizer {#using}
 
 + [Documentation Journey Optimizer](ajo-home.md)
 + Nouveautés {#whats-new}
    + [Notes de mise à jour](using/release-notes.md)
    + [Dernières mises à jour](using/documentation-updates.md)
 + Prise en main{#get-started}
-   + [Qu&#39;est-ce que Journey Optimizer ?](using/get-started.md)
+   + [Qu’est-ce que Journey Optimizer ?](using/get-started.md)
    + Démarrage rapide{#quick-start}
       + [Présentation](using/quick-start.md)
       + [Prise en main en tant que marketeur](using/path/marketer.md)
@@ -27,44 +27,44 @@ ht-degree: 93%
       + [Prise en main en tant qu’administrateur](using/path/administrator.md)
       + [Prise en main en tant que développeur](using/path/developer.md)
    + [Interface utilisateur](using/user-interface.md)
-   + [Limites](using/limitations.md)
+   + [Limitations](using/limitations.md)
 + Messages {#create-messages}
    + [Prise en main des messages](using/get-started-content.md)
-   + Créer des messages {#create-message}
-      + [Création d&#39;un message](using/create-message.md)
-      + [Créer un email](using/create-email.md)
-      + [Créez une notification push](using/create-push.md)
+   + Création de messages {#create-message}
+      + [Création d’un message](using/create-message.md)
+      + [Création d’un e-mail](using/create-email.md)
+      + [Création d’une notification push](using/create-push.md)
    + [Ajout et gestion des ressources](using/assets-essentials.md)
-   + Conception d&#39;emails {#email-designer}
-      + [Prise en main de la conception d&#39;e-mails](using/design-emails.md)
-      + [Conception de votre contenu d&#39;e-mail dans l&#39;interface utilisateur](using/create-email-content.md)
-      + [Importer ou coder le contenu de votre e-mail](using/existing-content.md)
-      + [Utiliser les composants de contenu du concepteur d&#39;email](using/content-components.md)
+   + Conception d’e-mails {#email-designer}
+      + [Prise en main de la conception d’e-mails](using/design-emails.md)
+      + [Conception de votre contenu d’e-mail dans l’interface utilisateur](using/create-email-content.md)
+      + [Import ou codage du contenu de votre e-mail](using/existing-content.md)
+      + [Utilisation des composants de contenu du concepteur d’e-mail](using/content-components.md)
    + [Ajout de liens et suivi des messages](using/message-tracking.md)
-   + Valider et publier {#create-message}
+   + Validation et publication {#create-message}
       + [Prévisualisation et BAT](using/preview.md)
       + [Vérification des alertes](using/alerts.md)
       + [Publication de messages](using/publish-manage-message.md)
    + [Gestion de la désinscription](using/consent.md)
 + Personnalisation{#personalization}
-   + [Prise en main       de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main  de la personnalisation](using/personalization/personalize.md)
    + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
    + [Validation de la personnalisation](using/personalization/personalization-validation.md)
-   + Cas d&#39;utilisation{#personalization-use-cases}
+   + Cas pratiques{#personalization-use-cases}
       + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
       + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
-   + Fonctions d&#39;assistance{#functions}
-      + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
-      + [Fonctions d&#39;agrégation](using/personalization/functions/aggregation.md)
+   + Fonctions helper{#functions}
+      + [Prise en main des fonctions helper](using/personalization/functions/functions.md)
+      + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
       + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
       + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
       + [Fonctions de date](using/personalization/functions/dates.md)
       + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
       + [Helpers](using/personalization/functions/helpers.md)
       + [Fonctions de mappage](using/personalization/functions/maps.md)
-      + [Fonctions d&#39;objet](using/personalization/functions/objects.md)
+      + [Fonctions d’objet](using/personalization/functions/objects.md)
       + [Fonctions de chaîne](using/personalization/functions/string.md)
-   + [Ajout d&#39;offres personnalisées](using/deliver-personalized-offers.md)
+   + [Ajout d’offres personnalisées](using/deliver-personalized-offers.md)
 + Segments, profils et identité{#segment}
    + Segments {#segments}
       + [Prise en main des segments](using/segment/about-segments.md)
@@ -77,10 +77,10 @@ ht-degree: 93%
       + [Versions de parcours](using/building-journeys/journey-versions.md)
       + [Profils de test](using/building-journeys/creating-test-profiles.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
-   + Création d‘un parcours{#create-journey}
+   + Création d’un parcours{#create-journey}
       + [Prise en main des parcours](using/building-journeys/journey-gs.md)
-      + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
-      + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
+      + [Conception de votre parcours](using/building-journeys/using-the-journey-designer.md)
+      + [Test de votre parcours](using/building-journeys/testing-the-journey.md)
       + [Publication de votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
@@ -95,10 +95,10 @@ ht-degree: 93%
       + [Lecture de segment](using/building-journeys/read-segment.md)
       + [Message](using/building-journeys/journeys-message.md)
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
-      + [Actions d&#39;Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
-      + [Sauter](using/building-journeys/jump.md)
-      + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
-   + Créer des expressions {#building-advanced-conditions-journeys}
+      + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
+      + [Saut](using/building-journeys/jump.md)
+      + [Mise à jour du profil](using/building-journeys/update-profiles.md)
+   + Création d’expressions {#building-advanced-conditions-journeys}
       + [Présentation](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxe {#syntax}
          + [Généralités](using/building-journeys/expression/generalities.md)
@@ -110,7 +110,7 @@ ht-degree: 93%
          + [Propriétés du parcours](using/building-journeys/expression/journey-properties.md)
          + [Exemples](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Fonctions {#main-functions-journey}
-         + [Principales fonctions](using/building-journeys/expression/functions.md)
+         + [Fonctions principales](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inSegment](using/building-journeys/functions/functioninsegment.md)
          + Agrégation {#aggregation}
@@ -184,12 +184,12 @@ ht-degree: 93%
             + [trim](using/building-journeys/functions/functiontrim.md)
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
-   + Cas d&#39;utilisation {#journey-use-cases}
-      + [Envoi de messages à plusieurs canaux](using/building-journeys/journeys-uc.md)
-      + [Envoi de messages à l&#39;aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+   + Cas pratiques {#journey-use-cases}
+      + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
+      + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
-      + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
-+ Tracker et surveiller {#reporting}
+      + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
++ Suivi et surveillance {#reporting}
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
       + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
@@ -204,13 +204,13 @@ ht-degree: 93%
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
-      + Champs d’événement d’étape hérités {#legacy-step-event-fields}
-         + [A propos des champs hérités](using/reports/sharing-legacy-fields.md)
+      + Champs d’événement d’étape anciens {#legacy-step-event-fields}
+         + [À propos des champs anciens](using/reports/sharing-legacy-fields.md)
          + [Champs du parcours](using/reports/sharing-journey-fields.md)
          + [Champs communs](using/reports/sharing-common-fields.md)
-         + [Champs d&#39;exécution d&#39;action](using/reports/sharing-execution-fields.md)
+         + [Champs d’exécution d’action](using/reports/sharing-execution-fields.md)
          + [Champs de récupération de données](using/reports/sharing-fetch-fields.md)
-         + [Champs d&#39;identité](using/reports/sharing-identity-fields.md)
+         + [Champs d’identité](using/reports/sharing-identity-fields.md)
       + [Exemples de requêtes](using/reports/query-examples.md)
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/deliverability.md)
@@ -221,78 +221,78 @@ ht-degree: 93%
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
       + [Interface utilisateur](using/offers/get-started/user-interface.md)
       + [Étapes clés de création et de gestion des offres](using/offers/offer-library/key-steps.md)
-      + [Cas d&#39;utilisation : insertion d&#39;offres dans un e-mail](using/offers/offers-e2e.md)
+      + [Cas pratique : insertion d’offres dans un e-mail](using/offers/offers-e2e.md)
    + Création de composants {#create-components}
-      + [Création d&#39;emplacements](using/offers/offer-library/creating-placements.md)
+      + [Création d’emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
       + [Création de balises](using/offers/offer-library/creating-tags.md)
       + [Création de formules de classement](using/offers/offer-library/create-ranking-formulas.md)
       + [Création de stratégies de classement](using/offers/offer-library/create-ranking-strategies.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
-      + [Création d&#39;offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
-      + [Création d&#39;offres de secours](using/offers/offer-library/creating-fallback-offers.md)
+      + [Création d’offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
+      + [Création d’offres de secours](using/offers/offer-library/creating-fallback-offers.md)
       + [Création de collections](using/offers/offer-library/creating-collections.md)
    + Création et gestion des décisions {#create-manage-activities}
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configuration de la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
-      + [Créer des simulations](using/offers/offer-activities/simulation.md)
+      + [Création de simulations](using/offers/offer-activities/simulation.md)
    + Création de rapports de gestion de décisions {#create-reports}
       + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
-   + Export de votre catalogue d&#39;offres {#export-catalog}
-      + [Prise en main de l&#39;export de catalogues d&#39;offres ](using/offers/export-catalog/get-started-export.md)
-      + [Accès au catalogue d&#39;offres exporté](using/offers/export-catalog/access-dataset.md)
-      + [Jeu de données d&#39;offres personnalisées](using/offers/export-catalog/export-offers.md)
+   + Export de votre catalogue d’offres {#export-catalog}
+      + [Prise en main de l’export de catalogues d’offres ](using/offers/export-catalog/get-started-export.md)
+      + [Accès au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
+      + [Jeu de données d’offres personnalisées](using/offers/export-catalog/export-offers.md)
       + [Jeu de données de décisions](using/offers/export-catalog/export-decisions.md)
-      + [Jeu de données d&#39;emplacements](using/offers/export-catalog/export-placements.md)
+      + [Jeu de données d’emplacements](using/offers/export-catalog/export-placements.md)
       + [Jeu de données de secours](using/offers/export-catalog/export-fallback.md)
-   + Référence d&#39;API {#api-reference}
+   + Référence d’API {#api-reference}
       + [Prise en main](using/offers/api-reference/getting-started.md)
-      + Créer et gérer des offres à l&#39;aide d&#39;API {#offers-api}
+      + Création et gestion des offres à l’aide d’API {#offers-api}
          + Emplacements {#placements}
-            + [Liste des placements](using/offers/api-reference/offers-api/placements/placements-list.md)
-            + [Recherche d&#39;un placement](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [Création d&#39;un placement](using/offers/api-reference/offers-api/placements/create.md)
-            + [Mise à jour d&#39;un placement](using/offers/api-reference/offers-api/placements/update.md)
-            + [Supprimer un emplacement](using/offers/api-reference/offers-api/placements/delete.md)
+            + [Liste des emplacements](using/offers/api-reference/offers-api/placements/placements-list.md)
+            + [Recherche d’un emplacement](using/offers/api-reference/offers-api/placements/lookup.md)
+            + [Création d’un emplacement](using/offers/api-reference/offers-api/placements/create.md)
+            + [Mise à jour d’un emplacement](using/offers/api-reference/offers-api/placements/update.md)
+            + [Suppression d’un emplacement](using/offers/api-reference/offers-api/placements/delete.md)
          + Règles de décision {#decision-rules}
             + [Liste des règles de décision](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
-            + [Rechercher une règle de décision](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [Créer une règle de décision](using/offers/api-reference/offers-api/decision-rules/create.md)
-            + [Mettre à jour une règle de décision](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [Supprimer une règle de décision](using/offers/api-reference/offers-api/decision-rules/delete.md)
+            + [Recherche d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/lookup.md)
+            + [Création d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [Mise à jour d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/update.md)
+            + [Suppression d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Balises {#tags}
             + [Liste des balises](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Recherche d&#39;une balise](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Créer une balise](using/offers/api-reference/offers-api/tags/create.md)
-            + [Mettre à jour une balise](using/offers/api-reference/offers-api/tags/update.md)
-            + [Supprimer une balise](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Recherche d’une balise](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Création d’une balise](using/offers/api-reference/offers-api/tags/create.md)
+            + [Mise à jour d’une balise](using/offers/api-reference/offers-api/tags/update.md)
+            + [Suppression d’une balise](using/offers/api-reference/offers-api/tags/delete.md)
          + Offres personnalisées {#personalized-offers}
             + [Liste des offres personnalisées](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
-            + [Rechercher une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-            + [Créer une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/create.md)
-            + [Mettre à jour une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/update.md)
-            + [Supprimer une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/delete.md)
+            + [Recherche d’une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
+            + [Création d’une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/create.md)
+            + [Mise à jour d’une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/update.md)
+            + [Suppression d’une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/delete.md)
          + Collections {#collections}
             + [Liste des collections](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [Recherche d&#39;une collection](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [Création d&#39;une collection](using/offers/api-reference/offers-api/collections/create.md)
-            + [Mettre à jour une collection](using/offers/api-reference/offers-api/collections/update.md)
-            + [Suppression d&#39;une collection](using/offers/api-reference/offers-api/collections/delete.md)
+            + [Recherche d’une collection](using/offers/api-reference/offers-api/collections/lookup.md)
+            + [Création d’une collection](using/offers/api-reference/offers-api/collections/create.md)
+            + [Mise à jour d’une collection](using/offers/api-reference/offers-api/collections/update.md)
+            + [Suppression d’une collection](using/offers/api-reference/offers-api/collections/delete.md)
          + Offres de secours {#fallback-offers}
             + [Liste des offres de secours](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-            + [Rechercher une offre de secours](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [Création d&#39;une offre de secours](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [Mise à jour d&#39;une offre de secours](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [Suppression d&#39;une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Créer et gérer des décisions à l&#39;aide d&#39;API {#activities-api}
+            + [Recherche d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+            + [Création d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Mise à jour d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/update.md)
+            + [Suppression d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+      + Création et gestion des décisions à l’aide d’API {#activities-api}
          + [Liste des décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [Recherche d&#39;une décision](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Création d&#39;une décision](using/offers/api-reference/activities-api/activities/create.md)
-         + [Mise à jour d&#39;une décision](using/offers/api-reference/activities-api/activities/update.md)
-         + [Suppression d&#39;une décision](using/offers/api-reference/activities-api/activities/delete.md)
-      + Diffusion d&#39;offre à l&#39;aide d&#39;API {#offer-delivery}
+         + [Recherche d’une décision](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [Création d’une décision](using/offers/api-reference/activities-api/activities/create.md)
+         + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
+         + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
+      + Diffusion d’offres à l’aide d’API {#offer-delivery}
          + [API Decisions](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [SDK web Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
 + Gestion des données {#data-management}
@@ -308,40 +308,40 @@ ht-degree: 93%
       + Configuration des e-mails {#email-config}
          + Délégation de sous-domaines {#delegate-subdomains}
             + [Prise en main de la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
-            + [Délégation d&#39;un sous-domaine](using/configuration/delegate-subdomain.md)
+            + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
             + [Accès aux sous-domaines délégués](using/configuration/access-subdomains.md)
-            + [Ajout d&#39;un enregistrement TXT Google](using/configuration/google-txt.md)
-            + [Accès et modification d’enregistrements PTR](using/configuration/ptr-records.md)
-         + [Création de pools d&#39;adresses IP](using/configuration/ip-pools.md)
+            + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
+            + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
+         + [Création de pools d’adresses IP](using/configuration/ip-pools.md)
          + Surveillance des adresses e-mail {#monitor-reputation}
             + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
-         + [Modification de l&#39;adresse e-mail principale](using/configuration/primary-email-addresses.md)
+         + [Modification de l’adresse e-mail principale](using/configuration/primary-email-addresses.md)
       + [Création de préréglages de message](using/configuration/message-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
-      + [Intégration avec des systèmes externes](using/configuration/external-systems.md)
+      + [Intégration aux systèmes externes](using/configuration/external-systems.md)
       + Configuration des événements {#events-journeys}
          + [Principe général](using/event/about-events.md)
-         + Configuration d&#39;un événement unitaire {#unitary-events}
+         + Configuration d’un événement unitaire {#unitary-events}
             + [Prise en main des événements unitaires](using/event/about-creating.md)
             + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
-            + [Tirer profit d&#39;Adobe Analytics](using/event/about-analytics.md)
-         + [Configuration d&#39;un événement métier](using/event/about-creating-business.md)
-         + [Étapes supplémentaires pour l&#39;envoi d&#39;événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-      + Configuration d&#39;une source de données{#data-source-journeys}
+            + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
+         + [Configuration d’un événement métier](using/event/about-creating-business.md)
+         + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + Configuration des sources de données{#data-source-journeys}
          + [À propos des sources de données](using/datasource/about-data-sources.md)
-         + [Configuration d&#39;une source de données](using/datasource/configure-data-sources.md)
+         + [Configuration d’une source de données](using/datasource/configure-data-sources.md)
          + [Source de données Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
          + [Sources de données externes](using/datasource/external-data-sources.md)
-      + Configuration d&#39;action {#action-journeys}
+      + Configuration des actions {#action-journeys}
          + [À propos des actions](using/action/action.md)
-         + [Configurer une action](using/action/about-custom-action-configuration.md)
+         + [Configuration d’une action](using/action/about-custom-action-configuration.md)
          + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
    + [Sources](using/get-started-sources.md)
-+ Contrôle d&#39;accès {#administration}
-   + [Présentation du contrôle d&#39;accès](using/administration/permissions-overview.md)
++ Contrôle d’accès {#administration}
+   + [Présentation du contrôle d’accès](using/administration/permissions-overview.md)
    + [Profils de produit natifs](using/administration/ootb-product-profiles.md)
    + [Gestion des utilisateurs et des profils de produits](using/administration/permissions.md)
-   + [Niveaux d&#39;autorisation](using/administration/high-low-permissions.md)
+   + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
    + [Gestion des environnements Sandbox](using/administration/sandboxes.md)
