@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1d7f661dc0a89e4754a76ecf2cdce1e43a5275ec
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 100%
+ht-degree: 60%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 Les enregistrements TXT font partie des enregistrements DNS. Ils servent à donner des informations textuelles à propos d&#39;un domaine, que des sources externes pourront lire par la suite.
 
-Pour garantir une bonne délivrabilité et une diffusion réussie des e-mails vers les adresses Gmail, Customer Journeys Management permet d&#39;ajouter des enregistrements TXT de vérification de site Google spéciaux à vos sous-domaines afin de s&#39;assurer qu&#39;ils soient vérifiés.
+Afin d&#39;assurer une bonne délivrabilité et une diffusion réussie des emails vers les adresses Gmail, [!DNL Journey Optimizer] vous permet d’ajouter des enregistrements TXT de vérification de site Google spéciaux à vos sous-domaines pour vous assurer qu’ils sont vérifiés.
 
->[!NOTE]
+>[!CAUTION]
 >
 > Cette opération ne peut être effectuée que lorsqu&#39;un sous-domaine a le statut **[!UICONTROL Succès]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
@@ -37,8 +37,8 @@ Pour ajouter un enregistrement TXT Google à votre sous-domaine, procédez comme
 
 1. Ouvrez le sous-domaine à partir du menu **[!UICONTROL Canaux]**/**[!UICONTROL Sous-domaines]**.
 
-1. Dans la section Enregistrement TXT Google, saisissez le code de vérification généré dans [Outils d&#39;administration G Suite](https://support.google.com/a/answer/183895), puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans le **[!UICONTROL Enregistrement de texte Google]** , saisissez le code de vérification généré à partir de [Espace de travail Google](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/subdomain-google-txt.png)
 
-1. Une fois l&#39;enregistrement TXT ajouté, vous devez le faire vérifier par Google. Pour ce faire, accédez aux outils d&#39;administration de G Suite, puis lancez l&#39;étape de vérification.
+1. Une fois l&#39;enregistrement TXT ajouté, vous devez le faire vérifier par Google. Pour ce faire, accédez à [Espace de travail Google](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->, puis lancez l’étape de vérification.

@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 86%
+source-wordcount: '795'
+ht-degree: 84%
 
 ---
 
@@ -13,6 +13,11 @@ ht-degree: 86%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
 
+
+## Novembre 2021
+
+* Une description complète de l’éditeur d’expression avancé utilisé dans parcours est désormais disponible. [En savoir plus](building-journeys/expression/expressionadvanced.md)
+* Nouvelle méthode de délégation de sous-domaine CNAME. [En savoir plus](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Octobre 2021
 

@@ -2,16 +2,36 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 78%
+source-wordcount: '2077'
+ht-degree: 74%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter le [dernières mises à jour de la documentation](documentation-updates.md).
+
+## Version de novembre 2021
+
+<table>
+<thead>
+<tr>
+<th><strong>Délégation de sous-domaine CNAME</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer prend désormais en charge les CNAME. Un enregistrement CNAME, ou nom canonique, est un enregistrement qui pointe vers une autre adresse de domaine plutôt qu’une adresse IP. La délégation de sous-domaine CNAME vous permet de créer un sous-domaine et d’utiliser des CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS afin de configurer un environnement pour l’envoi, le rendu et le suivi des emails.</p>
+<p>Cette méthode est recommandée si les stratégies de votre entreprise limitent la méthode de délégation de sous-domaine complète.</p>
+<p>En savoir plus sur la délégation de sous-domaine CNAME dans <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Version d’octobre 2021 {#oct-2021-release}
 
@@ -81,7 +101,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </table>
 
 
-Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target=&quot;_blank&quot;} pour effectuer d’autres modifications.
+Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} pour effectuer d’autres modifications.
 
 ### Améliorations
 

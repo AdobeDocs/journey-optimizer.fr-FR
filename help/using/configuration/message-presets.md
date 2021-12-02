@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 57%
+source-wordcount: '1751'
+ht-degree: 56%
 
 ---
 
@@ -114,7 +114,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
    Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu&#39;il a été correctement configuré. Le temps de traitement est proche **48h à 72h**, et peuvent prendre jusqu’à **7 à 10 jours ouvrés**.
 
-   Ces contrôles incluent les tests de délivrabilité effectués par l&#39;équipe chargée de la délivrabilité d&#39;Adobe :
+   Ces contrôles incluent la configuration et les tests techniques effectués par l’équipe d’Adobe :
 
    * Validation SPF
    * Validation DKIM

@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
+source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 25%
+source-wordcount: '479'
+ht-degree: 24%
 
 ---
 
@@ -24,7 +24,7 @@ Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent v
 
 ## Accès aux enregistrements PTR de vos sous-domaines
 
-Une fois qu’un sous-domaine est délégué dans Adobe Journey Optimizer, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir de la **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Enregistrements PTR]** .
+Une fois [un sous-domaine est délégué](delegate-subdomain.md) dans Adobe Journey Optimizer, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir de la **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Enregistrements PTR]** .
 
 ![](../assets/ptr-records.png)
 
@@ -39,6 +39,10 @@ Vous pouvez ouvrir un enregistrement PTR de la liste pour afficher le nom de sou
 ## Modification d’un enregistrement PTR {#edit-ptr-record}
 
 Vous pouvez modifier un enregistrement PTR pour modifier le sous-domaine associé à une adresse IP.
+
+>[!CAUTION]
+>
+>Vous ne pouvez pas modifier un enregistrement PTR associé à un sous-domaine qui a été délégué à Adobe à l’aide de la variable [méthode CNAME](delegate-subdomain.md#cname-subdomain-delegation).
 
 1. Dans la liste, cliquez sur un nom d’enregistrement PTR pour l’ouvrir.
 

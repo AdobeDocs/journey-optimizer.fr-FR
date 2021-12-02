@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 1d8eabfee83d80f74c54ec8dee5ec924bc165ee7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '1373'
+ht-degree: 62%
 
 ---
 
@@ -29,19 +29,23 @@ La délégation de noms de domaine est une méthode qui permet au propriétaire 
 
 En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les clients peuvent compter sur Adobe pour gérer l&#39;infrastructure DNS requise afin de répondre aux exigences de délivrabilité standard de leurs domaines de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de leurs domaines de messagerie internes.
 
+## Délégation complète de sous-domaine {#full-subdomain-delegation}
+
 [!DNL Journey Optimizer] vous permet de déléguer entièrement vos sous-domaines à Adobe directement à partir de l&#39;interface du produit. Ainsi, Adobe sera en mesure de diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes par e-mail.
 
 >[!NOTE]
 >
 >Par défaut, le contrat de licence [!DNL Journey Optimizer] vous permet de déléguer jusqu&#39;à 10 sous-domaines. Contactez votre contact Adobe si vous souhaitez augmenter cette limite.
->
->L&#39;utilisation de CNAME pour la délégation de sous-domaine n&#39;est actuellement pas prise en charge par Journey Optimizer.
 
 Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Délégation de sous-domaine]**.
+1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]** , puis cliquez sur **[!UICONTROL Configuration d’un sous-domaine]**.
 
    ![](../assets/subdomain-delegate.png)
+
+1. Sélectionner **[!UICONTROL Entièrement déléguée]** de la **[!UICONTROL Configuration de la méthode]** .
+
+   ![](../assets/subdomain-method-full.png)
 
 1. Indiquez le nom du sous-domaine à déléguer.
 
@@ -63,17 +67,103 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
    >
    >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que version préliminaire]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
 
-1. Une fois la délégation de sous-domaine envoyée, le sous-domaine s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
+1. Une fois la délégation de sous-domaine complète envoyée, le sous-domaine s’affiche dans la liste avec la variable **[!UICONTROL Traitement]** statut. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
    ![](../assets/subdomain-processing.png)
 
    Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
+   >[!NOTE]
+   >
+   >Tous les enregistrements manquants, c’est-à-dire les enregistrements non encore créés sur votre solution d’hébergement, seront répertoriés.
+
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
+
+   >[!NOTE]
+   >
+   >Le sous-domaine sera marqué comme **[!UICONTROL En échec]** si vous ne créez pas l’enregistrement de validation sur votre solution d’hébergement.
 
    <!-- later on, users will be notified in Pulse -->
 
-   ![](../assets/subdomain-notification.png)
+Une fois qu’un sous-domaine est délégué à l’Adobe dans [!DNL Journey Optimizer], un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. [En savoir plus](ptr-records.md)
+
+## Délégation de sous-domaine CNAME {#cname-subdomain-delegation}
+
+Si vous avez des stratégies de restriction spécifiques à un domaine et que vous souhaitez que l’Adobe n’ait qu’un contrôle partiel sur le DNS, vous pouvez choisir d’exécuter toutes les activités liées au DNS de votre côté.
+
+La délégation de sous-domaine CNAME vous permet de créer un sous-domaine et d’utiliser des CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS afin de configurer un environnement pour l’envoi, le rendu et le suivi des emails.
+
+>[!CAUTION]
+>
+>Cette méthode est recommandée si les stratégies de votre entreprise limitent la méthode de délégation de sous-domaine complète. Cette approche nécessite que vous gardiez et gériez vos enregistrements DNS vous-même. Adobe ne pourra pas vous aider à modifier, gérer ou gérer le DNS d’un sous-domaine configuré à l’aide de la méthode CNAME.
+
+Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
+
+1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]** , puis cliquez sur **[!UICONTROL Configuration d’un sous-domaine]**.
+
+1. Sélectionnez la **[!UICONTROL Configuration CNAME]** .
+
+   ![](../assets/subdomain-method-cname.png)
+
+   <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
+
+1. Indiquez le nom du sous-domaine à déléguer.
+
+   >[!CAUTION]
+   >
+   >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
+   >
+   >Veuillez noter que les sous-domaines à plusieurs niveaux tels que email.marketing.votre_entreprise.com ne sont actuellement pas pris en charge.
+
+1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
+
+1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est paramétré correctement, cochez la case &quot;Je confirme...&quot;.
+
+   ![](../assets/subdomain-create-dns-confirm.png)
+
+   >[!NOTE]
+   >
+   >Vous pouvez créer les enregistrements ultérieurement à l’aide du **[!UICONTROL Enregistrer en tant que brouillon]** bouton . Vous pourrez alors reprendre la délégation de sous-domaine à ce stade en l’ouvrant à partir de la liste de sous-domaines.
+
+1. Patientez jusqu’à ce que Adobe vérifie que ces enregistrements sont générés sans erreur sur votre solution d’hébergement. Ce processus peut prendre jusqu’à 2 minutes.
+
+   >[!NOTE]
+   >
+   >Tous les enregistrements manquants, c’est-à-dire les enregistrements non encore créés sur votre solution d’hébergement, seront répertoriés.
+
+1. Adobe génère un enregistrement de validation d’URL CDN SSL. Copiez cet enregistrement de validation dans votre plateforme d’hébergement. Si vous avez correctement créé cet enregistrement sur votre solution d’hébergement, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
+
+   ![](../assets/subdomain-cdn-url-validation.png)
+
+   >[!NOTE]
+   >
+   >Vous pouvez également créer l’enregistrement de validation et envoyer ultérieurement la configuration du sous-domaine à l’aide de la variable **[!UICONTROL Enregistrer en tant que brouillon]** bouton . Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
+
+1. Une fois la délégation de sous-domaine CNAME envoyée, le sous-domaine s’affiche dans la liste avec la variable **[!UICONTROL Traitement]** statut. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
+
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre que l’Adobe effectue les vérifications requises, qui prennent généralement 2 à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
+
+1. Une fois les vérifications réussies<!--i.e Adobe validates the record you created and installs it-->, le sous-domaine reçoit la valeur **[!UICONTROL Succès]** statut. Il est prêt à être utilisé pour diffuser des messages.
+
+   >[!NOTE]
+   >
+   >Le sous-domaine sera marqué comme **[!UICONTROL En échec]** si vous ne créez pas l’enregistrement de validation sur votre solution d’hébergement.
+
+Lors de la validation de l’enregistrement et de l’installation du certificat, Adobe crée automatiquement l’enregistrement PTR pour le sous-domaine CNAME. [En savoir plus](ptr-records.md)
+
+<!--
+
+**Questions**
+
+* Upon generating DNS records (i.e. copying them into your hosting solution), Adobe verifies that these records are generated without errors on your hosting solution, but I can see in the mocks that generating the record can take up to 2 minutes only vs 3 hours to validate record when using full delegation method, such as described here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html?lang=en. Do you confirm?
+
+* One you submit the CNAME subdomain delegation, do you go through the same validation steps as for full delegation (see here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation)? In that case, can it take up to 72 hours as seen in mocks vs up to 3 hours when using full delegation method?
+
+* Is a PTR record created for each CNAME subdomain? Is it different when fully delegating subdomain?
+
+* Question on existing documentation: I can read here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation that "Adobe creates PTR records only when you delegate the first subdomain, one for each IP, all IPs pointing to the first subdomain.": Does it mean "Adobe creates PTR records only when you delegate a subdomain for the first time"? If so, I'll change this sentence as I find it a bit confusing. Otherwise please advise.
+
+-->
 
 ## Validation de sous-domaine {#subdomain-validation}
 
@@ -91,6 +181,7 @@ Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que 
    * **Enregistrement SPF** (enregistrement Sender Policy Framework) : répertorie les adresses IP des serveurs de messagerie qui peuvent envoyer des e-mails à partir du sous-domaine.
    * **Enregistrement DKIM** (enregistrement standard DomainKeys Identified Mail) : utilise le chiffrement de la clé publique-privée pour authentifier le message afin d’éviter les usurpations.
    * **A** : mappage IP par défaut.
+   * **CNAME**: Un enregistrement de nom canonique ou CNAME est un type d’enregistrement DNS qui associe un nom d’alias à un nom de domaine vrai ou canonique.
 
 1. **Création des URL de tracking et miroir** : si le domaine est email.example.com, le domaine tracking/mirror sera data.email.example.com. La sécurité est assurée par l’installation du certificat SSL.
 
@@ -102,4 +193,4 @@ Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que 
 
 1. **Création d’un DNS forward** : s’il s’agit du premier sous-domaine que vous déléguez, Adobe crée le DNS forward qui est requis pour créer des enregistrements PTR, un pour chacune de vos adresses IP.
 
-1. **Création d’un enregistrement PTR** : l’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les e-mails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez le premier sous-domaine, un pour chaque adresse IP, toutes les adresses IP pointant vers le premier sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement PTR est : *192.1.2.1 PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué.
+1. **Création d’un enregistrement PTR** : l’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les e-mails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez un sous-domaine pour la première fois, un pour chaque adresse IP, toutes les adresses IP pointant vers ce sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement PTR est : *192.1.2.1 PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué. [En savoir plus sur les enregistrements PTR](ptr-records.md)
