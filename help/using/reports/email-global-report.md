@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
+source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 78%
+source-wordcount: '654'
+ht-degree: 100%
 
 ---
 
@@ -91,32 +91,33 @@ Le rapport **[!UICONTROL Ouvertures vs. clics]** identifie l&#39;interaction de 
 
 * **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
 
+<!--
 ![](../assets/global_report_20.png)
 
 >[!NOTE]
 >
->Les widgets et mesures Offres ne sont disponibles que si une décision a été insérée dans un courrier électronique. Pour plus d’informations sur la gestion des décisions, reportez-vous à cette section [page](../offers/get-started/starting-offer-decisioning.md).
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
 
-Le **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiques des offres]** au fil du temps, les widgets mesurent le succès et l’impact de votre offre sur votre audience ciblée. Il détaille les informations principales relatives à votre message avec les KPI :
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
 
-* **[!UICONTROL Offre envoyée]**: Nombre total d&#39;envois pour l&#39;offre.
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Impression de l&#39;offre]**: Nombre d’ouvertures de l’offre dans une diffusion.
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
-* **[!UICONTROL Clics sur les offres]**: Nombre de clics sur une offre dans une diffusion.
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
 
-Le **[!UICONTROL Statistiques détaillées des offres]** contient les données disponibles pour l&#39;activité des destinataires avec votre offre :
+The **[!UICONTROL Offers detailed statistic]** table contains the available data for recipient activity with your offer:
 
-* **[!UICONTROL Nom de l’emplacement]**: Nom de l’emplacement utilisé pour afficher votre offre. Pour plus d’informations sur l’emplacement, reportez-vous à cette section [page](../offers/offer-library/creating-placements.md).
+* **[!UICONTROL Placement name]**: Name of your placement used to display your offer. For more information on placement, refer to this [page](../offers/offer-library/creating-placements.md).
 
-* **[!UICONTROL Nom de l’offre]**: Nom de l&#39;offre ajoutée dans la diffusion. Pour plus d’informations sur l’emplacement, reportez-vous à cette section [page](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offer name]**: Name of the offer added in the delivery. For more information on placement, refer to this [page](../offers/offer-library/creating-personalized-offers.md).
 
-* **[!UICONTROL Offre envoyée]**: Nombre total d&#39;envois pour l&#39;offre.
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Taux d&#39;impression des offres]**: Pourcentage d&#39;offres ouvertes par rapport au nombre d&#39;offres envoyées.
+* **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
 
-* **[!UICONTROL Taux de clics des offres]**: Pourcentage d&#39;utilisateurs ayant interagi avec l&#39;offre.
-
+* **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
+-->
 >[!NOTE]
 >
 >Les profils avec le statut **[!UICONTROL Supprimé]** ou **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi de l’e-mail.
