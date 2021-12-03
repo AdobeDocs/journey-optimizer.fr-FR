@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '883'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 100%
       + [Création d’un message](using/create-message.md)
       + [Création d’un e-mail](using/create-email.md)
       + [Création d’une notification push](using/create-push.md)
+      + [Créer un SMS](using/create-sms.md)
    + [Ajout et gestion des ressources](using/assets-essentials.md)
    + Conception d’e-mails {#email-designer}
       + [Prise en main de la conception d’e-mails](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 100%
       + [Prise en main de la délivrabilité](using/deliverability.md)
       + [Liste de suppression](using/suppression-list.md)
       + [Liste autorisée](using/allow-list.md)
++ Landing pages {#landing-pages}
+   + [Prise en main des landing pages](using/landing-pages/get-started-lp.md)
+   + [Création d’une landing page](using/landing-pages/create-lp.md)
+   + [Concevoir une landing page](using/landing-pages/design-lp.md)
+   + [Créer une liste d’abonnements](using/landing-pages/subscription-list.md)
+   + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
 + Gestion des décisions {#offer-decisioniong}
    + Prise en main de la gestion des décisions {#get-started}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 100%
             + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
          + [Modification de l’adresse e-mail principale](using/configuration/primary-email-addresses.md)
+      + [Configurer le canal SMS](using/configuration/sms-configuration.md)
       + [Création de préréglages de message](using/configuration/message-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)

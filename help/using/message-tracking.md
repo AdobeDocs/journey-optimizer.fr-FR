@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
+source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '847'
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,8 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 1. Choisissez le type de lien que vous souhaitez créer :
 
    * **[!UICONTROL Lien externe]** : insérez un lien vers une URL externe.
+
+   * **[!UICONTROL Landing page]**: Insérez un lien vers une landing page. En savoir plus dans [cette section](landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Lien de désabonnement]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des opt-outs dans [cette section](consent.md#opt-out-management).
 

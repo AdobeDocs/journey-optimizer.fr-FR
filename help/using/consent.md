@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 95%
+source-wordcount: '823'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,9 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 Pour ajouter un lien de désabonnement, procédez comme suit :
 
 1. Construisez votre page de destination de désinscription.
-1. Hébergez votre page de destination sur le système tiers de votre choix.
+
+1. Hébergez-le sur le système tiers de votre choix.
+
 1. [Créez un message](../../help/using/create-message.md) dans [!DNL Journey Optimizer].
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->
