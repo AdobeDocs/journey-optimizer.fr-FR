@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
 
-# Créer une liste d’abonnements {#create-subscription-list}
+# Listes d&#39;abonnements {#create-subscription-list}
 
 ## Qu&#39;est-ce qu&#39;une liste d&#39;abonnements ?
 
@@ -22,13 +23,13 @@ Un service d’abonnement se rapporte aux produits et services marketing fournis
 
 Un service d&#39;abonnement peut être :
 
-* une newsletter, par exemple &quot;Série en cours&quot; ;
-* un événement, par exemple &quot;Summit 2021&quot; ;
-* un webinaire, par exemple &quot;En savoir plus sur le crypto&quot; ;
-* un intérêt sur un produit/un sport/un service/etc. particulier, par exemple &quot;Intéressé à acheter une maison dans les 12 prochains mois&quot; ;
-* une préférence sur la manière d’être informé, par exemple &quot;Recevoir de nouvelles notifications de chanson par email&quot; ;
+* une newsletter, par exemple : &quot;Série en cours&quot;
+* un événement, par exemple : &quot;Summit 2021&quot;
+* un webinaire, par exemple : &quot;En savoir plus sur le crypto&quot;
+* un intérêt sur un produit/un sport/un service/etc., par exemple : &quot;Intéressé à acheter une maison dans les 12 prochains mois&quot;
+* une préférence sur le mode de notification, par exemple : &quot;Recevez de nouvelles notifications de chanson par email&quot;
 
-Les profils peuvent être ajoutés à une liste d’abonnements au moyen d’un [landing page](create-lp.md). Un exemple est présenté dans la section [cette section](get-started-lp.md#subscription-to-a-service).
+Les profils peuvent être ajoutés à une liste d’abonnements au moyen d’un [landing page](create-lp.md). Un exemple est présenté dans la section [cette section](lp-use-cases.md#subscription-to-a-service).
 
 ## Définition d’une liste d’abonnements {#define-subscription-list}
 
@@ -38,7 +39,7 @@ Pour créer une liste d&#39;abonnements, procédez comme suit.
 
    ![](../assets/lp_subscription-lists.png)
 
-1. Dans la liste d’abonnements, cliquez sur **[!UICONTROL Créer un abonnement]** liste.
+1. Sélectionnez la **[!UICONTROL Créer une liste d’abonnements]** bouton .
 
    ![](../assets/lp_create-subscription-list.png)
 
@@ -50,31 +51,29 @@ Pour créer une liste d&#39;abonnements, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-La liste affiche toutes les listes d&#39;abonnements créées. Vous pouvez les filtrer selon la date de création ou de modification.
+La liste affiche toutes les listes d&#39;abonnements créées. Vous pouvez les filtrer selon la date de création ou de modification, et leur état.
 
 ![](../assets/lp_subscription-filters.png)
 
 Les statuts possibles sont les suivants :
 
-* **[!UICONTROL Pas démarré]**: Vous avez défini une date de début postérieure à la date du jour en cours. Les profils abonnés à cette liste ne recevront pas encore de communications relatives à cette liste d&#39;abonnements.
+* **[!UICONTROL Pas démarré]**: Vous avez défini une date de début postérieure à la date du jour en cours. Les profils abonnés ne recevront pas encore de communications relatives à cette liste d&#39;abonnements.
 * **[!UICONTROL En direct]**: Le jour en cours se compose de la date de début et de fin de la liste d’abonnements ou vous n’avez pas défini de date de fin/début, ce qui signifie que la liste d’abonnements est toujours active.
-* **[!UICONTROL Expiré]**: La date de fin est passée, la liste d&#39;abonnements n&#39;est plus valide. Les profils inscrits à cette liste ne recevront aucune communication relative à cette liste d&#39;abonnements.
+* **[!UICONTROL Expiré]**: La date de fin est dépassée, la liste d&#39;abonnements n&#39;est donc plus valide. Aucun profil abonné ne recevra aucune communication relative à cette liste d’abonnements.
 
-Une fois la liste d&#39;abonnements créée, vous pouvez l&#39;utiliser dans une landing page afin que les profils puissent s&#39;inscrire via un formulaire et être ajoutés à la liste. [En savoir plus](design-lp.md)
+Une fois la liste d&#39;abonnements créée, vous pouvez l&#39;utiliser dans une landing page. Les profils qui se connectent par le biais du formulaire de landing page seront ajoutés à la liste. [En savoir plus](design-lp.md)
 
-Vous pouvez également utiliser des listes d’abonnements comme segments lors de la création de parcours et de personnalisation.
+Vous pouvez également utiliser des listes d’abonnements comme segments lorsque [parcours de création](../building-journeys/journey-gs.md#jo-build) et l’ajout de la personnalisation.
+
+>[!NOTE]
+>
+>Vous pouvez surveiller les impacts de votre liste d’abonnements par le biais de rapports spécifiques. [En savoir plus](subscription-report.md)
 
 <!--
 
 **Questions**
 
 * Can't see the newly created subscription list in UI because their name included spacing > bug - to follow up (should be fixed for Dec. release)
-
-* How do you handle the different statuses? Live, Not started, Expired? Is it only through start/end dates?
-
-* What does it mean when a subscription list is expired or not started? You can't use it in a LP? And if a user is subscribed to this service, then he won't receive communications any more?
-
-* What else can you currently do with subscription lists apart from attach them to a landing page?
 
 * Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
 

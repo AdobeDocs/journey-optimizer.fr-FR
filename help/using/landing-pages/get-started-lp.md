@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -30,29 +31,26 @@ Une page d’entrée est une page web autonome à laquelle l’utilisateur est r
 
 <!--[!DNL Journey Optimizer] now allows you to:
 * Easily build landing pages to make users subscribe to your communications.
-* Set up opt-in and opt-out flows quickly and seamlessly.
+* Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-[!DNL Journey Optimizer] vous permet d’effectuer les opérations suivantes :
-
-* Utilisation [!DNL Journey Optimizer] fonctionnalités de conception de contenu pour créer facilement des landing pages réactives.
-* Créez des listes d’abonnements pour permettre aux utilisateurs de s’abonner à un service.
-* Permet à vos clients de s’inscrire ou de se désinscrire de vos communications.
-* Fournissez à vos destinataires la possibilité de se désabonner de la réception de vos communications.
+* Utilisation [!DNL Journey Optimizer] fonctionnalités de conception de contenu à créer facilement **landing pages réactives**.
+* Configuration **flux d’opt-in et d’opt-out** rapidement et facilement.
+* Créer des listes d’abonnements pour permettre aux utilisateurs de **abonnement à un service**. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
+* Fournissez à vos destinataires les **possibilité de se désabonner** de recevoir vos communications. [En savoir plus](lp-use-cases.md#opt-out)
+* Envoyer un **email de confirmation** lors de l’inclusion ou de l’exclusion. [En savoir plus](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Créer des landing pages</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Créer des listes d’abonnements</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Concevoir des landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Cas dʼutilisation</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Reporting</a></p></td>
 </tr>
 </table>
 
-<!--Easily build attractive/efficient landing pages to drive the best conversion.-->
+<!--
 
-<!--**Questions**
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
 
-* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
-
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->
+-->

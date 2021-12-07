@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 15%
+source-wordcount: '966'
+ht-degree: 14%
 
 ---
 
@@ -42,39 +43,45 @@ Les étapes de création d&#39;une landing page sont les suivantes.
 
    ![](../assets/lp_create-lp-details.png)
 
+1. Sélectionnez un paramètre prédéfini.
+
+   ![](../assets/lp_create-lp-presets.png)
+
+   >[!NOTE]
+   >
+   >Pour définir des paramètres prédéfinis de page d’entrée, contactez votre gestionnaire de compte d’Adobe ou le [Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-1. La Principale page et ses propriétés s’affichent. Découvrez comment configurer les paramètres de la page [here](#configure-primary-page).
+1. La Principale page et ses propriétés s’affichent. Découvrez comment configurer les paramètres de page Principaux [here](#configure-primary-page).
 
    ![](../assets/lp_primary-page.png)
 
-1. Cliquez sur l’icône + pour ajouter une sous-page. Découvrez comment configurer ses paramètres [here](#configure-subpages).
+1. Cliquez sur l’icône + pour ajouter une sous-page. Découvrez comment configurer les paramètres de sous-page [here](#configure-subpages).
 
    ![](../assets/lp_add-subpage.png)
 
-Une fois que vous avez configuré et conçu la variable [Principale page](#configure-primary-page) et le [sous-pages](#configure-subpages) le cas échéant, vous pouvez [test](#test) et [publier](#publish) votre landing page.
+Une fois que vous avez configuré et conçu la variable [Principale page](#configure-primary-page), et la variable [sous-pages](#configure-subpages) le cas échéant, vous pouvez [test](#test) et [publier](#publish) votre landing page.
 
 ## Configuration de la Principale page {#configure-primary-page}
 
-La Principale page est la page qui s’affiche immédiatement pour les utilisateurs lorsqu’ils cliquent sur le lien vers votre page d’entrée (provenant d’un email ou d’un site web, par exemple).
+La Principale page est la page qui s’affiche immédiatement pour les utilisateurs lorsqu’ils cliquent sur le lien vers votre page d’entrée (provenant d’un courrier électronique ou d’un site web, par exemple).
 
 Pour définir les Principaux paramètres de page, procédez comme suit.
 
 1. Vous pouvez modifier le nom de la page : **[!UICONTROL Principale page]** par défaut.
 
-1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment concevoir le contenu d&#39;une landing page [here](design-lp.md).
+1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu d&#39;une landing page [here](design-lp.md).
 
    ![](../assets/lp_open-designer.png)
 
-1. Définissez l&#39;URL de votre landing page.
+1. Définissez l&#39;URL de votre landing page. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Il est prérempli et ne peut pas être modifié dans l’interface utilisateur. Pour le configurer, contactez votre gestionnaire de compte d’Adobe ou le [Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
    >L&#39;URL de la landing page doit être unique.
 
    ![](../assets/lp_access-url.png)
-
-   La première partie de l’URL est préremplie et ne peut pas être modifiée via l’interface utilisateur. Pour le configurer, contactez votre gestionnaire de compte d’Adobe ou le [Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. Vous pouvez définir une date d’expiration pour votre page. Dans ce cas, vous devez sélectionner une action à l’expiration de la page :
 
@@ -86,29 +93,27 @@ Pour définir les Principaux paramètres de page, procédez comme suit.
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
-1. Si vous avez sélectionné une ou plusieurs listes d’abonnements pour la page Principale, elles s’affichent dans la variable **[!UICONTROL Liste d&#39;abonnements]** .
+1. Si vous avez sélectionné une ou plusieurs listes d’abonnements lors de la [conception de la Principale page](design-lp.md), elles s’affichent dans la variable **[!UICONTROL Liste d&#39;abonnements]** .
 
    ![](../assets/lp_subscription-list.png)
 
-1. Depuis la landing page, vous pouvez directement créer un parcours qui enverra un message de confirmation aux utilisateurs lorsqu’ils envoient le formulaire.
+1. Depuis la landing page, vous pouvez [création d’un parcours](../building-journeys/journey-gs.md#jo-build) qui enverra un message de confirmation aux utilisateurs lorsqu’ils envoient le formulaire. Découvrez comment créer un tel parcours à la fin de ce [cas pratique](lp-use-cases.md#subscription-to-a-service).
 
    ![](../assets/lp_create-journey.png)
 
-   Cliquez sur **[!UICONTROL Créer un parcours]** pour commencer [configuration de ce parcours](../building-journeys/journey-gs.md#jo-build). Vous serez redirigé vers le **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]** liste.
+   Cliquez sur **[!UICONTROL Créer un parcours]** pour être redirigé vers le **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]** liste.
 
 ## Configuration des sous-pages {#configure-subpages}
 
-Vous pouvez ajouter autant de sous-pages que nécessaire. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d&#39;erreur qui sera appelée lorsqu&#39;une erreur se produira avec la landing page.
+Vous pouvez ajouter jusqu’à 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire, et vous pouvez définir une page d’erreur qui sera appelée en cas de problème avec la page d’entrée.
 
-Pour définir les paramètres d’une sous-page, procédez comme suit.
+Pour définir les paramètres de sous-page, procédez comme suit.
 
 1. Vous pouvez modifier le nom de la page : **[!UICONTROL Sous-page 1]** par défaut.
 
-1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment concevoir le contenu d&#39;une landing page [here](design-lp.md).
+1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu d&#39;une landing page [here](design-lp.md).
 
-1. Définissez l&#39;URL de votre landing page.
-
-   La première partie de l’URL est préremplie et ne peut pas être modifiée via l’interface utilisateur. Pour le configurer, contactez votre gestionnaire de compte d’Adobe ou le [Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Définissez l&#39;URL de votre landing page. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Il est prérempli et ne peut pas être modifié dans l’interface utilisateur. Pour le configurer, contactez votre gestionnaire de compte d’Adobe ou le [Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
@@ -122,23 +127,31 @@ Une fois les paramètres et le contenu de votre landing page définis, vous pouv
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment créer des profils de test dans [cette page](../building-journeys/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment [créer un profil de test](../building-journeys/creating-test-profiles.md).
 
-1. Dans l&#39;interface de la landing page ou dans le concepteur de contenu, cliquez sur le bouton **[!UICONTROL Aperçu et test]** pour accéder à la sélection du profil de test.
+1. Dans l’interface de la landing page, cliquez sur le bouton **[!UICONTROL Aperçu et test]** pour accéder à la sélection du profil de test.
 
    ![](../assets/lp_preview-button.png)
 
-1. Sélectionnez un ou plusieurs profils de test.
+   >[!NOTE]
+   >
+   >Le **[!UICONTROL Aperçu]** est également accessible à partir du concepteur de contenu.
+
+1. Dans la **[!UICONTROL Aperçu et test]** sélectionnez un ou plusieurs profils de test.
 
    ![](../assets/lp_test-profiles.png)
 
    Les étapes de sélection des profils de test sont les mêmes que lors du test d’un message. Elles sont présentées dans [cette section](../preview.md#select-test-profiles).
 
-1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour tester votre landing page.
+1. Sélectionnez la **[!UICONTROL Aperçu]** et cliquez sur **[!UICONTROL Ouvrir l’aperçu]** pour tester votre landing page.
 
-   <!--![](../assets/lp_preview.png)-->
+   ![](../assets/lp_open-preview.png)
 
-1. Les éléments personnalisés sont remplacés par les données de profil de test sélectionnées. Sélectionnez d&#39;autres profils de test pour prévisualiser le rendu pour chaque variante de votre landing page.
+1. L&#39;aperçu de votre landing page s&#39;ouvre dans un nouvel onglet. Les éléments personnalisés sont remplacés par les données de profil de test sélectionnées.
+
+   ![](../assets/lp_preview.png)
+
+1. Sélectionnez d&#39;autres profils de test pour prévisualiser le rendu pour chaque variante de votre landing page.
 
 ## Vérification des alertes {#alerts}
 
@@ -156,7 +169,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. <!--For example, a message will display if -->
 
-* Les **erreurs** vous empêchent de publier le message tant qu’elles ne sont pas corrigées. Par exemple, un message vous avertit que l’URL de la Principale page est manquante.
+* Les **erreurs** vous empêchent de publier le message tant qu’elles ne sont pas corrigées. Par exemple, un avertissement s’affiche si l’URL de la Principale page est manquante.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -181,7 +194,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 ## Publier la landing page {#publish}
 
-Une fois votre landing page prête, vous pouvez la publier afin de la rendre disponible pour une utilisation dans un message ou sur un site web.
+Une fois votre landing page prête, vous pouvez la publier afin de la rendre disponible pour une utilisation dans un message.
 
 ![](../assets/lp_publish.png)
 
@@ -191,4 +204,9 @@ Une fois votre landing page prête, vous pouvez la publier afin de la rendre dis
 
 Une fois votre landing page publiée, elle est ajoutée à la liste des landing pages avec l&#39;événement **[!UICONTROL Publié]** statut.
 
-Il est maintenant en ligne et le lien vers celui-ci peut être utilisé dans une [message](../create-message.md) et envoyé par le biais d’un [parcours](../building-journeys/journey.md).
+Il est maintenant en ligne et prêt à être utilisé dans une [!DNL Journey Optimizer] [message](../create-message.md) qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Vous pouvez surveiller les impacts de votre landing page par le biais de rapports spécifiques. [En savoir plus](lp-report.md)
+

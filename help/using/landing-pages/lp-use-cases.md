@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 27%
+source-wordcount: '794'
+ht-degree: 24%
 
 ---
 
 # Cas pratiques de landing page
 
-Vous trouverez ci-dessous des exemples d’utilisation de [!DNL Journey Optimizer] landing pages pour que vos clients s’abonnent/se désabonnent de la réception de certaines ou de toutes vos communications.
+Vous trouverez ci-dessous quelques exemples d’utilisation [!DNL Journey Optimizer] landing pages pour que vos clients s’abonnent/se désabonnent de la réception de certaines ou de toutes vos communications.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -25,33 +26,65 @@ Vous trouverez ci-dessous des exemples d’utilisation de [!DNL Journey Optimize
 
 ## Abonnement à un service {#subscription-to-a-service}
 
-Les principales étapes pour que vos destinataires s&#39;abonnent à un service sont présentées ci-dessous.
+L’un des cas d’utilisation les plus courants consiste à inviter vos clients à [abonnement à un service](subscription-list.md) (comme une newsletter ou un événement) via une landing page. Les principales étapes sont présentées dans le graphique ci-dessous :
 
 ![](../assets/lp_subscription-uc.png)
 
-Supposons, par exemple, que vous organisiez un événement le mois prochain et que vous souhaitiez lancer une campagne d’enregistrement d’événement afin que vos clients intéressés soient mis à jour sur cet événement.
+Supposons, par exemple, que vous organisiez un événement le mois prochain et que vous souhaitiez lancer une campagne d’enregistrement d’événement.<!--to keep your customers that are interested updated on that event-->. Pour ce faire, vous allez envoyer un email comprenant un lien vers une landing page qui permettra à vos destinataires de s&#39;inscrire pour cet événement. Les utilisateurs qui s’inscrivent seront ajoutés à la liste d’abonnements que vous avez créée à cet effet.
 
-1. Créez la liste d’abonnements de l’enregistrement d’événement. En savoir plus sur [listes d’abonnements](subscription-list.md)
+### Configurer une landing page
 
-1. [Créer une landing page](create-lp.md), qui permettra à vos destinataires de s&#39;inscrire à votre événement.
+1. Créez la liste d’abonnements de l’enregistrement de l’événement, qui stockera les utilisateurs enregistrés. Découvrez comment créer une liste d’abonnements [here](subscription-list.md#define-subscription-list).
 
-1. Configurez et concevez la landing page d&#39;inscription, y compris le lien vers la liste d&#39;inscription. En savoir plus sur la création de la variable [Principale landing page](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. Créez une page de remerciement qui s&#39;affichera à vos destinataires une fois le formulaire d&#39;inscription envoyé. En savoir plus sur [landing sous-pages](create-lp.md#configure-subpages)
+1. [Créer une landing page](create-lp.md) pour permettre aux destinataires de s&#39;inscrire à votre événement.
 
-1. Créer un message e-mail. En savoir plus sur [création de messages](../create-message.md)
+1. Configurer l’enregistrement [Principale landing page](create-lp.md#configure-primary-page).
 
-1. [Insérer un lien](../message-tracking.md#insert-links) dans votre message. Sélectionner **[!UICONTROL Landing page]** comme la propriété **[!UICONTROL Type de lien]** et sélectionnez la variable [landing page](create-lp.md#configure-primary-page) que vous avez créé pour enregistrement.
+1. Lors de la conception de la variable [contenu de la page d’entrée](design-lp.md), sélectionnez la liste d&#39;abonnements que vous avez créée pour la mettre à jour avec les profils qui cochent la case d&#39;enregistrement.
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. Créez une page de remerciement qui s&#39;affichera à vos destinataires une fois le formulaire d&#39;inscription envoyé. Découvrez comment configurer des sous-pages d’entrée [here](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [](create-lp.md#publish)Publier la landing page.
+
+1. [Création d’un message électronique](../create-message.md) pour annoncer que l’inscription est maintenant ouverte à votre événement.
+
+1. [Insérer un lien](../message-tracking.md#insert-links) dans le contenu de votre message. Sélectionner **[!UICONTROL Landing page]** comme la propriété **[!UICONTROL Type de lien]** et sélectionnez la variable [landing page](create-lp.md#configure-primary-page) que vous avez créé pour enregistrement.
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. Enregistrez votre contenu et [publiez votre message](../publish-manage-message.md).
 
-1. Envoyer votre message par le biais d’un [parcours](../building-journeys/journey.md) pour annoncer que l’enregistrement est maintenant ouvert pour votre événement et pour diriger le trafic vers la page d’entrée de l’enregistrement.
+1. Envoyer votre message par le biais d’un [parcours](../building-journeys/journey.md) pour diriger le trafic vers la page d’entrée de l’enregistrement.
 
-   Une fois qu&#39;ils auront reçu l&#39;email, si vos destinataires cliquent sur le lien vers la landing page, ils seront redirigés vers la page de remerciement et ils seront ajoutés à la liste d&#39;inscription.
+   ![](../assets/lp_subscription-uc-journey.png)
 
-1. Vous pouvez envoyer un email de confirmation aux destinataires qui se sont inscrits à votre événement. Pour ce faire, envoyez-le via un autre parcours à l’aide de la fonction **[!UICONTROL Qualification du segment]** et sélectionnez la liste d’abonnements que vous avez créée comme segment.
+   Une fois qu&#39;ils ont reçu l&#39;email, si vos destinataires cliquent sur le lien vers la landing page, ils sont redirigés vers la page &#39;Merci&#39; et ils seront ajoutés à la liste d&#39;abonnements.
+
+### Envoyer un email de confirmation {#send-confirmation-email}
+
+De plus, vous pouvez envoyer un email de confirmation aux destinataires qui se sont inscrits à votre événement. Pour ce faire, procédez comme suit.
+
+1. Créer un autre [parcours](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la landing page en cliquant sur le bouton **[!UICONTROL Créer un parcours]** bouton . En savoir plus [ici](create-lp.md#configure-primary-page)
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification du segment]** dans la zone de travail. En savoir plus [ici](../building-journeys/segment-qualification-events.md)
+
+1. Cliquez sur dans le **[!UICONTROL Segment]** et sélectionnez la liste d’abonnements que vous avez créée.
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. Sélectionnez l&#39;email de confirmation de votre choix et envoyez-le par parcours.
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+Tous les utilisateurs qui se sont inscrits à votre événement recevront l’e-mail de confirmation.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
