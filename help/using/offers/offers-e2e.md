@@ -23,7 +23,7 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
 
 1. Avant de créer des offres, [définissez vos composants](#define-components)
 
-   * Création d&#39;emplacements
+   * Création d’emplacements
    * Création de règles de décision
    * Création de balises
    * Création de classements (facultatif)

@@ -1,5 +1,5 @@
 ---
-title: Cas d’utilisation de la personnalisation&deux-points ; notification d'état de commande
+title: 'Cas d’utilisation de la personnalisation : notification du statut de la commande'
 description: Découvrez comment personnaliser un message à l’aide des informations de profil, de décision d’offre et de contexte
 feature: Personalization
 topic: Personalization
@@ -9,7 +9,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 1. Sélectionnez la catégorie **Contexte**. Cet élément n&#39;est disponible que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
    * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité **Message** dans le parcours.
-   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. En savoir plus dans [Documentation du Journey Orchestration](../building-journeys/expression/journey-properties.md).
+   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md). 
 
    ![](assets/perso-uc10.png)
 

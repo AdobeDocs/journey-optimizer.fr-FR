@@ -9,7 +9,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -55,11 +55,11 @@ Si vous utilisez le [service de segmentation Adobe Experience Platform](https:
 
 >[!NOTE]
 >
->Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [Documentation du Journey Orchestration Adobe](expression/expressionadvanced.md).
+>Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Consultez la [documentation d’Adobe Journey Orchestration](expression/expressionadvanced.md).
 
 Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
-Dans l’éditeur simple, vous trouverez également la catégorie Propriétés du Parcours, sous les catégories Événement et Source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Pour plus d’informations, voir [Documentation du Journey Orchestration Adobe](expression/journey-properties.md)
+Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours dynamiques, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Pour plus d’informations, consultez la [documentation d’Adobe Journey Orchestration](expression/journey-properties.md).
 
 ## Condition de source de données {#data_source_condition}
 
@@ -91,7 +91,7 @@ En mode test, lorsqu&#39;un partage est atteint, la branche supérieure est touj
 
 ## Condition de date {#date_condition}
 
-Cette condition vous permet de définir un flux différent en fonction de la date. Par exemple, si la personne entre dans l’étape pendant la période &quot;soldes&quot;, vous lui enverrez un message spécifique. Le reste de l’année, vous lui enverrez un autre message.
+Cette condition vous permet de définir un flux différent en fonction de la date. Par exemple, si la personne accède à l’étape pendant la période de soldes, vous lui enverrez un message spécifique. Le reste de l’année, vous lui enverrez un autre message.
 
 >[!NOTE]
 >

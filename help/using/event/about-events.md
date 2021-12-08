@@ -9,7 +9,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La configuration d’événement vous permet de définir les informations que [!
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration d’un événement, consultez la [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>Pour plus d’informations sur la configuration d’un événement, consultez le [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=fr).
 
 >[!CAUTION]
 >

@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 67ec0951a06bf8c7806f6c8b996cce26e3eddfb6
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Avec [!DNL Adobe Journey Optimizer], vous pouvez importer du contenu de message 
 
 Selon votre organisation, vous pouvez définir plusieurs types d&#39;utilisateurs et leur accorder l&#39;accès à certaines fonctionnalités en fonction de leurs autorisations.
 
-Commencer avec [!DNL Journey Optimizer]? Utilisateur expérimenté avec des questions spécifiques ? Administrateur de l’instance de votre entreprise ? Prenez votre propre chemin pour atteindre vos objectifs plus rapidement !
+Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des questions spécifiques ? Administrateur de l’instance de votre entreprise ? Tracez votre propre chemin pour atteindre plus rapidement vos objectifs !
 
-Pour découvrir la puissance de Adobe Journey Optimizer avec des conseils détaillés, sélectionnez votre profil.
+Pour découvrir la puissance d’Adobe Journey Optimizer en obtenant des conseils détaillés, sélectionnez votre profil. 
 
 <table>
 <tr>
@@ -31,7 +31,7 @@ Pour découvrir la puissance de Adobe Journey Optimizer avec des conseils détai
     </a>
     <div>
     <a href="path/administrator.md">Je suis un administrateur</a>
-     <p>Préparez votre environnement, accordez l’accès, configurez les paramètres
+     <p>Préparer votre environnement, octroyer l’accès, configurer les paramètres
     <p>
     </div>
     <br>
@@ -42,7 +42,7 @@ Pour découvrir la puissance de Adobe Journey Optimizer avec des conseils détai
     </a>
     <div>
     <a href="path/data-engineer.md">Je suis ingénieur de données</a>
-     <p>Importation de profils, création d’audiences, création de schémas et de jeux de données
+     <p>Importer des profils, créer des audiences, créer des schémas et des jeux de données
     <p>
     </div>
     <br>
@@ -51,8 +51,8 @@ Pour découvrir la puissance de Adobe Journey Optimizer avec des conseils détai
       <a href="path/marketer.md">
        <img alt="Professionnel du marketing" src="../using/assets/do-not-localize/user-3.png" />
        </a>
-    <div><a href="path/marketer.md">Je suis un spécialiste du marketing</a>
-     <p>Concevoir des messages, ajouter des offres, des ressources et créer des parcours client
+    <div><a href="path/marketer.md">Je suis un professionnel du marketing</a>
+     <p>Concevoir des messages, ajouter des offres et des ressources et créer des parcours clients
     <p>
     </div>
     <br>

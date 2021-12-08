@@ -5,13 +5,13 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 74%
+ht-degree: 95%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter le [dernières mises à jour de la documentation](documentation-updates.md).
+Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter les [dernières mises à jour de la documentation](documentation-updates.md).
 
 ## Version de novembre 2021
 
@@ -71,14 +71,14 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Gestion des décisions - Simulation des offres</strong><br/></th>
+<th><strong>Gestion des décisions - Simulation des offres</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais simuler les offres qui seront diffusées à un profil de test pour un emplacement donné dans l’interface utilisateur de Journey Optimizer. Cela vous permet de valider facilement votre logique de prise de décision, y compris les contraintes d’éligibilité et les algorithmes de classement avant de les mettre en production. Cette fonctionnalité permet aux utilisateurs non techniques et techniques de tester rapidement l’offer decisioning et de résoudre les problèmes potentiels.</p>
-<p>Pour plus d'informations, consultez la <a href="offers/offer-activities/simulation.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais simuler les offres qui seront diffusées à un profil de test pour un emplacement donné dans l’interface utilisateur de Journey Optimizer. Cela vous permet de valider facilement votre logique de prise de décision, y compris les contraintes d’éligibilité et les algorithmes de classement avant de les mettre en production. Cette fonctionnalité permet aux utilisateurs non techniques et techniques de tester rapidement Offer Decisioning et de résoudre les problèmes potentiels. </p>
+<p>Pour plus d’informations, consultez la <a href="offers/offer-activities/simulation.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -87,13 +87,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Gestion des décisions - Personnaliser vos offres</strong><br/></th>
+<th><strong>Gestion des décisions - Personnaliser vos offres</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais personnaliser le contenu de vos offres à l’aide des segments et des attributs de profil Adobe Experience Platform à l’aide du même composant d’éditeur d’expression que celui de l’interface utilisateur de Journey Optimizer. </p>
+<p>Vous pouvez désormais personnaliser le contenu de vos offres à l’aide des segments et des attributs de profil Adobe Experience Platform en utilisant le même composant d’éditeur d’expression que celui de l’interface utilisateur de Journey Optimizer.  </p>
 <p>Pour plus d'informations, consultez la <a href="offers/offer-library/creating-personalized-offers.md#custom-text">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -101,45 +101,45 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </table>
 
 
-Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} pour effectuer d’autres modifications.
+Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} pour effectuer d’autres modifications. 
 
 ### Améliorations
 
 **Parcours**
 
-* **Editeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec des cartes. Cette fonctionnalité peut être utilisée avec les listes d’abonnements. Par exemple, à partir d’un segment, vous pouvez désormais obtenir une adresse électronique à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](building-journeys/message-to-subscribers-uc.md)
+* **Éditeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec les mappings. Cette fonctionnalité peut être exploitée avec les listes d’abonnements. Par exemple, à partir d’un segment, vous pouvez désormais obtenir une adresse e-mail à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](building-journeys/message-to-subscribers-uc.md)
 
    <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
-* **Surveillance** - Les événements d’étape pour les parcours en direct et le mode test ont été améliorés. [Nouveaux champs](reports/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les traitements d&#39;export de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédente sont toujours disponibles dans la variable [stepEvents](reports/sharing-legacy-fields.md) catégorie.
-* **Accessibilité** - Des améliorations ont été apportées à l’accessibilité dans parcours.
-* **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](building-journeys/collections.md)
-* **Listes** - Les écrans de liste ont été améliorés pour les parcours, les événements, les actions et les sources de données.
+* **Surveillance** - Les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](reports/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](reports/sharing-legacy-fields.md).
+* **Accessibilité** - Des améliorations d’accessibilité ont été apportées aux parcours. 
+* **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](building-journeys/collections.md)
+* **Listes** - Les écrans de liste ont été améliorés pour les parcours, les événements, les actions et les sources de données. 
 
 **Reporting**
 
-* **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les nombres et les pourcentages dans la variable **Vue globale** de **Exécution** . [En savoir plus](message-monitoring.md)
+* **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les chiffres et les pourcentages dans la **Vue globale** de l’onglet **Exécution**. [En savoir plus](message-monitoring.md)
 
 <!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Administration**
 
-* **Modifier les paramètres prédéfinis de message** - Vous pouvez désormais modifier les paramètres prédéfinis de message et surveiller leur état de mise à jour. [En savoir plus](configuration/message-presets.md#edit-message-preset)
-* **Modification des enregistrements PTR** - Vous pouvez désormais modifier les enregistrements PTR et surveiller leur état de mise à jour. [En savoir plus](configuration/ptr-records.md#edit-ptr-record)
+* **Modifier les paramètres prédéfinis de message** - Vous pouvez désormais modifier les préréglages de message et surveiller leur statut de mise à jour. [En savoir plus](configuration/message-presets.md#edit-message-preset)
+* **Modification des enregistrements PTR** - Vous pouvez désormais modifier les enregistrements PTR et surveiller leur statut de mise à jour. [En savoir plus](configuration/ptr-records.md#edit-ptr-record)
 
 **Personnalisation**
 
-* **Nouvelle fonction d’assistance pour le formatage des dates** - Vous pouvez maintenant spécifier comment une chaîne de date doit être représentée. [En savoir plus](personalization/functions/dates.md#format-date)
+* **Nouvelle fonction d’assistance pour le formatage des dates** - Vous pouvez désormais spécifier comment une chaîne de date doit être représentée. [En savoir plus](personalization/functions/dates.md#format-date)
 
 **Gestion des décisions**
 
-* **Séquencement des évaluations** - Le nouveau flux de création de décision, amélioré, vous permet non seulement de naviguer plus facilement entre les objets de décision, mais également de contrôler entièrement la manière dont les collections d’offres sont évaluées par le moteur de décision. Cela inclut les collections qui sont évaluées ensemble ou séparément, et dans quel ordre les collections doivent être évaluées. [En savoir plus](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **Séquencement des évaluations** - Le nouveau flux de création de décision a été amélioré et vous permet non seulement de naviguer plus facilement entre les objets de décision, mais également de contrôler entièrement la manière dont les collections d’offres sont évaluées par le moteur de décision. Cela inclut les collections qui sont évaluées ensemble ou séparément, et dans quel ordre les collections doivent être évaluées. [En savoir plus](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### Correctifs
 
-* Correction d’un problème qui empêchait l’affichage de la liste de Parcours, de la liste de messages et du concepteur d’emails lorsque la langue du navigateur n’était pas l’anglais.
-* Correction d&#39;une erreur de syntaxe qui se produisait lors de l&#39;ajout d&#39;une personnalisation à l&#39;aide d&#39;une expression dans le Concepteur d&#39;email : Les caractères étaient échappés par erreur.
-* Correction d’un problème qui entraînait une erreur 404 lors de la navigation dans la variable **Administration** .
-* Correction d’un problème qui déclenchait d’autres parcours en direct lors du test d’un parcours à l’aide d’un événement d’entreprise.
+* Correction d’un problème qui empêchait l’affichage de la liste des parcours, de la liste des messages et du concepteur d’e-mail lorsque la langue du navigateur n’était pas l’anglais.
+* Correction d’une erreur de syntaxe qui survenait lors de l’ajout d’une personnalisation à l’aide d’une expression dans le Concepteur d’e-mail : les caractères étaient placés par erreur dans une séquence d’échappement. 
+* Correction d’un problème qui entraînait une erreur 404 lors de la navigation dans le menu **Administration**. 
+* Correction d’un problème qui déclenchait d’autres parcours actifs lors du test d’un parcours à l’aide d’un événement métier. 
 
 ## Version de septembre 2021 {#september-2021-release}
 

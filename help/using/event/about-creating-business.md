@@ -9,7 +9,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 
 >[!NOTE]
 >
->Vous pouvez également consulter le cas d’utilisation des événements professionnels. [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=fr) sur le cas d’utilisation d’un événement métier.
 
 ## Remarques importantes
 
-* Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d&#39;événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
+* Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d’événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
 * Les événements métier ne peuvent être placés que comme première étape d&#39;un parcours.
 * Lorsqu&#39;un événement métier est placé comme première étape d&#39;un parcours, le type de planificateur du parcours est « événement métier ».
 * Seule une activité de lecture de segment peut être placée après un événement métier. Elle est automatiquement ajoutée comme étape suivante.
@@ -46,7 +46,7 @@ Les événements métier suivent les règles de rentrée de la même manière qu
 
 **Quelles sont les barrières de sécurité permettant d’éviter la surcharge des segments matérialisés ?**
 
-Dans le cas d’événements d’entreprise sur site, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de barrières de sécurité. En savoir plus sur les segments dans la section [Documentation de Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+Dans le cas d’événements métier unique, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de barrières de sécurité. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 ## Prise en main des événements métier
 
@@ -78,7 +78,7 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
    ![](../assets/jo-event5-business.png)
 
-   Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d&#39;événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
+   Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d’événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
 
    ![](../assets/test-profiles-4.png)
 
@@ -111,7 +111,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    >[!NOTE]
    >
-   > Assurez-vous que les champs suivants sont sélectionnés : `_id` et `timestamp`
+   > Assurez-vous que les champs suivants sont sélectionnés : `_id` et `timestamp`
 
 1. Sélectionnez les champs que vous prévoyez de recevoir de l&#39;événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours.
 
@@ -135,4 +135,4 @@ Cet aperçu vous permet de valider la définition de la payload.
 
 1. Vérifiez l&#39;aperçu pour valider la définition de la payload.
 
-1. Vous pouvez ensuite partager l&#39;aperçu de la payload avec la personne responsable de l&#39;envoi de l&#39;événement. Cette payload peut les aider à concevoir la configuration d’un envoi d’événement vers [!DNL Journey Optimizer]. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vous pouvez ensuite partager l&#39;aperçu de la payload avec la personne responsable de l&#39;envoi de l&#39;événement. Cette payload peut l’aider à concevoir la configuration d’un envoi d’événement vers [!DNL Journey Optimizer]. Consultez [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).

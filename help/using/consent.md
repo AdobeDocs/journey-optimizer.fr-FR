@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Pour ajouter un lien de désabonnement, procédez comme suit :
 
    ![](assets/opt-out-link-type.png)
 
-1. Dans le **[!UICONTROL Lien]** collez le lien vers votre landing page.
+1. Dans le champ **[!UICONTROL Lien]**, collez le lien vers votre page de destination. 
 
    ![](assets/opt-out-link-url.png)
 
@@ -145,7 +145,7 @@ Comme de nombreux clients recherchent un processus plus facile pour se désabonn
 
 Découvrez comment ajouter un lien d’exclusion au contenu de votre message dans [cette section](message-tracking.md#one-click-opt-out-link).
 
-Une fois que votre message est envoyé via une [parcours](building-journeys/journey.md), si un destinataire clique sur le lien d’exclusion, son profil est immédiatement désinscrit.
+Une fois votre message envoyé via un [parcours](building-journeys/journey.md), si un destinataire clique sur le lien de désinscription, il est immédiatement désinscrit. 
 
 ## Lien de désabonnement dans l&#39;en-tête {#unsubscribe-email}
 

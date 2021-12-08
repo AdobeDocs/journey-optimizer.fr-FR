@@ -9,7 +9,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -41,19 +41,19 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 * **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours.
 
-* **[!UICONTROL Parcours individuels en échec]**: Nombre total de parcours individuels qui n’ont pas été exécutés avec succès.
+* **[!UICONTROL Parcours individuels en échec]** : nombre total de parcours individuels qui n’ont pas été exécutés avec succès. 
 
 ![](../assets/report_journey_3.png)
 
-Le **[!UICONTROL Événement exécuté au cours des dernières 24 heures]** et **[!UICONTROL Événements]** Les widgets vous permettent de voir quel de vos événements a été exécuté avec succès par l’intermédiaire d’un nombre résumé, d’un graphique et d’un tableau.
+Les widgets **[!UICONTROL Événement exécuté au cours des 24 dernières heures]** et **[!UICONTROL Événements]** vous permettent de voir quel événement a été exécuté avec succès au moyen d’un chiffre récapitulatif, d’un graphique et d’un tableau. 
 
 ![](../assets/report_journey_4.png)
 
-Le **[!UICONTROL Action exécutée au cours des dernières 24 heures]** et **[!UICONTROL Actions exécutées et erreurs]** Les widgets représentent l’action et les erreurs qui ont réussi le mieux lors du déclenchement de vos actions. Le graphique Action, le tableau et les chiffres récapitulatifs contiennent les données disponibles pour les actions, notamment :
+Les widgets **[!UICONTROL Action exécutée au cours des 24 dernières heures]** et **[!UICONTROL Actions exécutées et erreurs]** représentent l’action avec le plus de succès et les erreurs qui sont produites au moment où les actions ont été déclenchées. Le graphique Action, le tableau et les chiffres récapitulatifs contiennent les données disponibles pour les actions, notamment :
 
-* **[!UICONTROL Actions exécutées]**: Nombre total d’actions exécutées avec succès pour un parcours.
+* **[!UICONTROL Actions exécutées]** : nombre total d’actions exécutées avec succès pour un parcours. 
 
-* **[!UICONTROL Erreurs dans les actions]**: Nombre total d’erreurs qui se sont produites pour les actions.
+* **[!UICONTROL Erreurs lors des actions]** : nombre total d’erreurs qui se sont produites pour les actions. 
 
 <!--
 ![](../assets/live_report_7.png)

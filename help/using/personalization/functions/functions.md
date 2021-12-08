@@ -1,6 +1,6 @@
 ---
 title: Prise en main des fonctions d’assistance
-description: Bibliothèque de fonctions d'assistance Journey Optimizer
+description: Bibliothèque de fonctions d’assistance Journey Optimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Dans l&#39;éditeur d&#39;expression [!DNL Journey Optimizer], les fonctions d&#
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 
-Accédez aux sous-catégories en cliquant sur le `>` icône . Sélectionnez une fonction en cliquant sur la fonction `+` icon : la fonction est automatiquement ajoutée à l’écran de personnalisation.
+Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur l’icône `+` : la fonction est automatiquement ajoutée à l’écran de personnalisation.
 
-Cliquez sur le bouton `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
+Cliquez sur l’icône `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
 
 ## Fonctions{#functions-helper}
 
@@ -83,38 +83,38 @@ Cliquez sur le bouton `...` pour afficher la description de la fonction et l’a
     </tr>
 </table>
 
-### Fonctions de date et d’heure{#date-functions}
+### Fonctions de date/heure{#date-functions}
 
 <table>
     <tr>
         <td><a href="dates.md#age">Âge</a></td><td>Cette fonction récupère l’âge à partir d’une date donnée.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Durée actuelle en millisecondes</a></td><td>Cette fonction récupère l’heure actuelle en millisecondes époque</td>
+        <td><a href="dates.md#current">Heure actuelle en millisecondes</a></td><td>Cette fonction récupère l’heure actuelle en millisecondes epoch.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">Différence entre dates</a></td><td>Cette fonction récupère la différence entre deux dates en nombre de jours</td>
+        <td><a href="dates.md#date-diff">Différence de date</a></td><td>Cette fonction récupère la différence entre deux dates en nombre de jours</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-week">Jour de la semaine</a></td><td>Cette fonction récupère le jour de la semaine.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">Jour de l’année</a></td><td>Cette fonction récupère le jour de l’année</td>
+        <td><a href="dates.md#day-year">Jour de l’année</a></td><td>Cette fonction récupère le jour de l’année.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">Date de format</a></td><td>Cette fonction formate une valeur de date et d’heure</td>
+        <td><a href="dates.md#format-date">Date de format</a></td><td>Cette fonction permet de formater une valeur de date et d’heure.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Jours définis</a></td><td>Cette fonction définit le jour du mois pour la date et l’heure données</td>
+        <td><a href="dates.md#set-days">Définir les jours</a></td><td>Cette fonction définit le jour du mois pour la date et l’heure données.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Jours définis</a></td><td>Cette fonction définit l’heure de la date et de l’heure</td>
+        <td><a href="dates.md#set-hours">Définir les jours</a></td><td>Cette fonction définit l’heure de la date et de l’heure.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">À UTC</a></td><td>Cette fonction convertit un datetime en UTC.</td>
+        <td><a href="dates.md#to-utc">En UTC</a></td><td>Cette fonction convertit une date-heure en UTC.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">Semaine de l’année</a></td><td>Cette fonction renvoie la semaine de l’année</td>
+        <td><a href="dates.md#week-of-year">Semaine de l’année</a></td><td>Cette fonction renvoie la semaine de l’année.</td>
     </tr>
 </table>
 </table>

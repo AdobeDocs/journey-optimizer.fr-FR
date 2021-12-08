@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: b5ce2ea81d4091b4fa9c09e83573f9043c5e55a8
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Si vous avez récemment migré vers un autre fournisseur de services de messagerie, une adresse IP, un domaine de messagerie ou un sous-domaine, vous devez établir votre réputation en tant qu’expéditeur. Sinon, vos diffusions peuvent être bloquées ou déplacées dans le dossier spam de la boîte aux lettres des destinataires.
 
-Pour réchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. Voir [cas pratique](../building-journeys/ramp-up-deliveries-uc.md).
+Pour réchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. Voir [cas d’utilisation](../building-journeys/ramp-up-deliveries-uc.md). 
 
 ## Type de condition de limite de profil {#profile_cap}
 
@@ -28,7 +28,7 @@ Les autres types de condition sont présentés dans cette section [section](../b
 
 Utilisez ce type de condition pour définir un nombre maximal de profils pour un chemin d’accès au parcours. Lorsque cette limite est atteinte, les profils entrant prennent un autre chemin.
 
-Vous pouvez utiliser ce type de condition pour augmenter le volume de vos diffusions. Voir [cas pratique](../building-journeys/ramp-up-deliveries-uc.md).
+Vous pouvez utiliser ce type de condition pour augmenter le volume de vos diffusions. Voir [cas d’utilisation](../building-journeys/ramp-up-deliveries-uc.md). 
 
 La limite par défaut est 1 000. Vous pouvez définir une valeur entière comprise entre 1 et 20 000.
 
@@ -44,7 +44,7 @@ Si vous avez récemment migré vers un autre fournisseur de services de messager
 
 Pour réchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur [optimisation de la délivrabilité dans Journey Optimizer](../deliverability.md).
 
-Ce cas pratique a pour but de créer un parcours pour accélérer vos diffusions email. Pour configurer ce parcours, procédez comme suit :
+Ce cas pratique a pour but de créer un parcours pour accélérer vos diffusions email. Pour configurer ce parcours, procédez comme suit:
 
 1. Création d’un parcours. [En savoir plus](../building-journeys/journey-gs.md).
 

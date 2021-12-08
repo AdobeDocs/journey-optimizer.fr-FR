@@ -9,7 +9,7 @@ exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -79,4 +79,4 @@ Si vous sélectionnez un champ d’une source de données externe qui nécessite
 
 ![](../../assets/journeyuc2_19.png)
 
-Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les paramètres de la source de données dans l’expression principale, vous pouvez définir leurs valeurs à l’aide du mot-clé « params ». Voir [cette page](../expression/field-references.md).
+Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les paramètres de la source de données dans l’expression principale, vous pouvez définir leurs valeurs à l’aide du mot-clé « params ». Consultez [cette page](../expression/field-references.md).

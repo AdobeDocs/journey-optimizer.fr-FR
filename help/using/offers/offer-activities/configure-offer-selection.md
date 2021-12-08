@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un 
 
 1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-1. Sélectionner **[!UICONTROL Formule de classement]** comme méthode de classement, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
+1. Sélectionnez **[!UICONTROL Formule de classement]** comme méthode de classement, puis cliquez sur **[!UICONTROL Ajouter un classement]**. 
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,7 +74,7 @@ Après avoir créé une stratégie de classement, vous pouvez l&#39;affecter à 
 
 1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-1. Choisir de classer les offres par **[!UICONTROL Classement AI]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
+1. Choisissez de classer les offres par **[!UICONTROL classement AI]** dans la liste déroulante, puis cliquez sur **[!UICONTROL Ajouter un classement]**. 
 
    ![](../../assets/ranking-selection-ai-ranking.png)
 

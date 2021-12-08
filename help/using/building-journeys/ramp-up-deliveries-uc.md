@@ -1,5 +1,5 @@
 ---
-title: Amélioration de vos diffusions
+title: Accélération de vos diffusions
 description: Découvrez comment accélérer vos diffusions
 feature: Journeys
 topic: Content Management
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ Si vous avez récemment migré vers un autre fournisseur de services de messager
 
 Pour réchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur [optimisation de la délivrabilité dans Journey Optimizer](../deliverability.md).
 
-Ce cas pratique a pour but de créer un parcours pour accélérer vos diffusions email. Pour configurer ce parcours, procédez comme suit :
+Ce cas pratique a pour but de créer un parcours pour accélérer vos diffusions email. Pour configurer ce parcours, procédez comme suit:
 
 1. Création d’un parcours. [En savoir plus](journey-gs.md).
 

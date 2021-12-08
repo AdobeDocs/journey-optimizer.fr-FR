@@ -9,7 +9,7 @@ exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: f99471ce5bca7272a6f25339c2de1d5f21657088
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -90,11 +90,11 @@ Pour chaque exécution de message, plusieurs indicateurs s&#39;affichent :
 
 * **[!UICONTROL Plaintes contre le spam]** : nombre de messages signalés comme spam par les destinataires. Pour en savoir plus sur les plaintes, consultez le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
-Vous pouvez choisir les colonnes à afficher dans le tableau. Pour ce faire, cliquez sur le bouton **[!UICONTROL Personnalisation du tableau]** en haut de l’écran et sélectionnez les colonnes à afficher.
+Vous pouvez choisir les colonnes à afficher dans le tableau. Pour ce faire, cliquez sur l’icône **[!UICONTROL Personnalisation du tableau]** en haut de l’écran et sélectionnez les colonnes à afficher.
 
 ![](assets/message-execution-customize-table.png)
 
-Dans **Vue globale** vous pouvez uniquement choisir d’afficher les données sous forme de nombres, de pourcentages ou des deux. Cliquez sur le bouton **Format des données** liste déroulante pour basculer entre les trois options.
+Dans **Vue globale**, vous pouvez uniquement choisir d’afficher les données sous forme de nombres, de pourcentages ou des deux. Cliquez sur la liste déroulante **Format des données** pour basculer entre les trois options.
 
 ![](assets/message-execution-data-format.png)
 

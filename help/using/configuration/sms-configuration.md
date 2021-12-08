@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 32%
+ht-degree: 35%
 
 ---
 
@@ -50,7 +51,7 @@ Une fois votre canal SMS configuré, vous devez créer un paramètre prédéfini
 
 Pour créer un préréglage de message, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Canaux]** > **[!UICONTROL Marques]** > **[!UICONTROL Paramètres prédéfinis de message]** , puis cliquez sur **[!UICONTROL Créer un paramètre prédéfini de message]**.
+1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Marques]**/**[!UICONTROL Préréglages de message]**, puis cliquez sur **[!UICONTROL Créer un préréglage de message]**. 
 
    ![](../assets/preset-create.png)
 

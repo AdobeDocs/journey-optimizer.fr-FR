@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -21,16 +21,16 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Octobre 2021
 
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 21 octobre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
-* Ajout **Date et heure** liste. [En savoir plus](personalization/functions/dates.md)
-* Nouveau **Sections de prise en main par persona utilisateur**. Prenez votre propre chemin pour atteindre vos objectifs plus rapidement ! [En savoir plus](quick-start.md)
-* Nouveau **Modifier un paramètre prédéfini de message** . [En savoir plus](configuration/message-presets.md#edit-message-preset)
-* Nouveau **Modification d’un enregistrement PTR** . [En savoir plus](configuration/ptr-records.md#edit-ptr-record)
-* Nouveau **Désactivation d’un paramètre prédéfini de message** . [En savoir plus](configuration/message-presets.md#edit-message-preset#deactivate-preset)
-* Nouvelles limites ajoutées à la variable **Guide de développement de l’API Decision Management** sur les contraintes d’offre non prises en charge avec le mobile [!DNL Experience Edge] workflows. [En savoir plus](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
-* Nouveau **Créer des simulations** . [En savoir plus](offers/offer-activities/simulation.md)
-* Mise à jour **Ajout de portées de décision** . [En savoir plus](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Mise à jour **Définition du contenu de vos représentations** , y compris une nouvelle section [sous-section](offers/offer-library/creating-personalized-offers.md#custom-text) sur la définition et la personnalisation du texte personnalisé. [En savoir plus](offers/offer-library/creating-personalized-offers.md#content)
+* Toutes les nouvelles fonctionnalités et améliorations apportées à la version d’octobre 2021 de [!DNL Journey Optimizer] ont été détaillées dans la documentation. [En savoir plus](release-notes.md)
+* Ajout de la liste des **fonctions Date/heure**. [En savoir plus](personalization/functions/dates.md)
+* Nouvelles **sections Prise en main par personnage utilisateur**. Tracez votre propre chemin pour atteindre plus rapidement vos objectifs ! [En savoir plus](quick-start.md)
+* Nouvelle section **Modification d’un préréglage de message**. [En savoir plus](configuration/message-presets.md#edit-message-preset)
+* Nouvelle section **Modification d’un enregistrement PTR**. [En savoir plus](configuration/ptr-records.md#edit-ptr-record)
+* Nouvelle section **Désactivation d’un préréglage de message**. [En savoir plus](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* Nouvelles limitations ajoutées au **guide du développeur de l’API de gestion des décisions** sur les contraintes d’offre non prises en charge par les workflows mobiles d’[!DNL Experience Edge]. [En savoir plus](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* Nouvelle section **Créer des simulations**. [En savoir plus](offers/offer-activities/simulation.md)
+* Mise à jour de la section **Ajouter des portées de décision**. [En savoir plus](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Mise à jour de la section **Définir le contenu de vos représentations**, y compris une nouvelle [sous-section](offers/offer-library/creating-personalized-offers.md#custom-text) sur la façon de définir et de personnaliser le texte personnalisé. [En savoir plus](offers/offer-library/creating-personalized-offers.md#content)
 
 ## Septembre 2021
 

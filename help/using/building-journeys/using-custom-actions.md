@@ -9,7 +9,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Si nécessaire, spécifiez la valeur des champs d’en-tête dynamique :
 
 ## Paramètres d’action
 
-Dans la section **[!UICONTROL Paramètres d’action]**, les paramètres de message sont définis en tant que _« Variable »_. Pour ces paramètres, vous pouvez indiquer où obtenir ces informations (événements ou sources de données, par exemple), transmettre les valeurs manuellement ou utiliser l’éditeur d’expression avancé pour des cas d’utilisation plus complexes (tels qu’une manipulation de données et une autre utilisation des fonctions). Pour plus d&#39;informations, consultez la section [Documentation du Journey Orchestration Adobe](expression/expressionadvanced.md).
+Dans la section **[!UICONTROL Paramètres d’action]**, les paramètres de message sont définis en tant que _« Variable »_. Pour ces paramètres, vous pouvez indiquer où obtenir ces informations (événements ou sources de données, par exemple), transmettre les valeurs manuellement ou utiliser l’éditeur d’expression avancé pour des cas d’utilisation plus complexes (tels qu’une manipulation de données et une autre utilisation des fonctions). Consultez la [documentation d’Adobe Journey Orchestration](expression/expressionadvanced.md).
 
 **Rubriques connexes**
 

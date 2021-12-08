@@ -111,7 +111,7 @@ Pour une prévisualisation de notification push :
 
    ![](assets/preview-select-channel.png)
 
-1. Appliquez les mêmes étapes que celles décrites ci-dessus pour sélectionner un profil de test et sélectionner le type de périphérique pour prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
+1. Appliquez les mêmes étapes que celles décrites ci-dessus pour sélectionner un profil de test et sélectionnez le type de périphérique pour prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**. 
 
    ![](assets/preview-iOS.png)
 

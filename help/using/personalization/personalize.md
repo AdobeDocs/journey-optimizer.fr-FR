@@ -9,7 +9,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Dans chaque champ contenant l&#39;icône de l&#39;éditeur, vous pouvez ouvrir l
 
 ### Personnaliser vos emails
 
-Lorsque vous créez un email, vous pouvez ajouter une personnalisation dans le **[!UICONTROL Objet]** du message.
+Lorsque vous créez un e-mail, vous pouvez ajouter une personnalisation dans le champ **[!UICONTROL Ligne d’objet]** du message. 
 
 ![](assets/perso_subject.png)
 
@@ -99,10 +99,10 @@ La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous perme
 
 Les sources disponibles sont les suivantes :
 
-* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la section [Documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
-* **[!UICONTROL Abonnements aux segments]** : répertorie tous les segments créés dans le service de segmentation Adobe Experience Platform. Plus d’informations sur la segmentation disponibles [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target=&quot;_blank&quot;}.
-* **[!UICONTROL Offrir des décisions]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md).
-* **[!UICONTROL Attributs contextuels]** : lorsque la variable **Message** est utilisé dans un parcours. Les champs de parcours contextuels sont disponibles via ce menu. En savoir plus dans [cette section](personalization-use-case.md).
+* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Abonnements aux segments]** : répertorie tous les segments créés dans le service Adobe Experience Platform Segmentation. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target=&quot;_blank&quot;} plus d’informations sur la segmentation.
+* **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md).
+* **[!UICONTROL Attributs contextuels]** : lorsque le **Message** est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. En savoir plus dans [cette section](personalization-use-case.md).
 * **[!UICONTROL Fonctions helper]** : répertorie toutes les fonctions helper disponibles pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et les manipuler dans le contexte de la personnalisation. En savoir plus dans [cette section](functions/functions.md).
 
 Lorsqu&#39;elle est sélectionnée, la référence est ajoutée dans l&#39;éditeur.

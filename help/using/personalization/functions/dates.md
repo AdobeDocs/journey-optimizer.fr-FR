@@ -9,17 +9,17 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Fonctions de date et d’heure{#date-time}
+# Fonctions de date/heure{#date-time}
 
 Les fonctions de date et d’heure sont utilisées pour effectuer des opérations de date et d’heure sur des valeurs dans Journey Optimizer.
 
 ## Âge{#age}
 
-Le `age` sert à récupérer l’âge à partir d’une date donnée.
+La fonction `age` sert à récupérer l’âge à partir d’une date donnée.
 
 **Format**
 
@@ -37,9 +37,9 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## Durée actuelle en millisecondes{#current-time}
+## Heure actuelle en millisecondes{#current-time}
 
-Le `currentTimeInMillis` est utilisée pour récupérer l’heure actuelle en millisecondes époque.
+La fonction `currentTimeInMillis` est utilisée pour récupérer l’heure actuelle en millisecondes Epoch.
 
 **Format**
 
@@ -57,9 +57,9 @@ The following operation gets all the keys for the map `identityMap`.
 ```
 -->
 
-## Différence entre dates{#date-diff}
+## Différence de date{#date-diff}
 
-Le `dateDiff` sert à récupérer la différence entre deux dates en nombre de jours.
+La fonction `dateDiff` sert à récupérer la différence entre deux dates en nombre de jours.
 
 **Format**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Jour de la semaine{#day-week}
 
-Le `dayOfWeek` est utilisée pour récupérer le jour de la semaine.
+La fonction `dayOfWeek` est utilisée pour récupérer le jour de la semaine.
 
 **Format**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Jour de l’année{#day-year}
 
-Le `dayOfYear` est utilisée pour récupérer le jour de l’année.
+La fonction `dayOfYear` est utilisée pour récupérer le jour de l’année.
 
 **Format**
 
@@ -120,7 +120,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Date de format{#format-date}
 
-Le `formatDate` sert à mettre en forme une valeur de date et d’heure. Le format doit être un modèle Java DateTimeFormat valide.
+La fonction `formatDate` sert à formater une valeur de date et d’heure. Le format doit être un modèle Java DateTimeFormat valide.
 
 **Format**
 
@@ -144,9 +144,9 @@ L’opération suivante renvoie la date au format suivant : MM/JJ/AA.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## Jours définis{#set-days}
+## Définir les jours{#set-days}
 
-Le `setDays` sert à définir le jour du mois pour la date et l’heure données.
+La fonction `setDays` sert à définir le jour du mois pour la valeur date-heure donnée.
 
 **Format**
 
@@ -164,9 +164,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Définition des heures{#set-hours}
+## Définir des heures{#set-hours}
 
-Le `setHours` sert à définir l’heure de la date et de l’heure.
+La fonction `setHours` sert à définir l’heure de la valeur date-heure.
 
 **Format**
 
@@ -185,9 +185,9 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## À UTC{#to-utc}
+## En UTC{#to-utc}
 
-Le `toUTC` est utilisée pour convertir un datetime en UTC.
+La fonction `toUTC` est utilisée pour convertir une heure en UTC.
 
 
 **Format**
@@ -207,9 +207,9 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## Semaine de l&#39;année UTC{#week-of-year}
+## Semaine de l’année UTC{#week-of-year}
 
-Le `weekOfYear` est utilisée pour récupérer la semaine de l’année.
+La fonction `weekOfYear` est utilisée pour récupérer la semaine de l’année.
 
 **Format**
 

@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 82%
     <div>
       <a href="using/release-notes.md">Notes de mise à jour</a>
     </div>
-    <p>Nouvelles fonctionnalités, dernières améliorations et correctifs
+    <p>Découvrez les nouvelles fonctionnalités, les dernières améliorations et les correctifs
    <p>
     <div>
       <a href="using/quick-start.md">Guide de démarrage rapide</a>
     </div>
     <p>
-    Découvrez comment commencer en tant qu’administrateur, ingénieur de données ou praticien de Parcours
+    Découvrez comment démarrer en tant qu’administrateur, ingénieur de données ou praticien Parcours
     <p>
     <p>
     <div>
@@ -68,7 +68,7 @@ ht-degree: 82%
     <div>
     <a href="using/administration/permissions-overview.md">Octroi de l’accès à [!DNL Journey Optimizer]</a>
     </div>
-    <p>Définition et gestion des autorisations affectées à [!DNL Journey Optimizer] utilisateurs
+    <p>Définir et gérer les autorisations attribuées aux utilisateurs de [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestion des décisions</a>

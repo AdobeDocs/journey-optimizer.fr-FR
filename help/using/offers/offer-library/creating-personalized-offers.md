@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectio
 
 Vous pouvez également insérer du contenu de type texte lors de la sélection d&#39;un emplacement compatible.
 
-1. Sélectionnez la **[!UICONTROL Personnalisé]** et cliquez sur **[!UICONTROL Ajouter du contenu]**.
+1. Sélectionnez l’option **[!UICONTROL Personnalisé]** et cliquez sur **[!UICONTROL Ajouter du contenu]**.
 
    ![](../../assets/offer-add-content.png)
 
@@ -132,13 +132,13 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
    ![](../../assets/offer-text-content.png)
 
-   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur d’expression. En savoir plus sur [personnalisation](../../personalization/personalize.md#use-expression-editor).
+   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur d’expression. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
 
    ![](../../assets/offer-personalization.png)
 
    >[!NOTE]
    >
-   >Seule la variable **[!UICONTROL Attributs de profil]**, **[!UICONTROL Abonnements aux segments]** et **[!UICONTROL Fonctions d’assistance]** Les sources sont disponibles pour la gestion de la décision.
+   >Seules les sources **[!UICONTROL Attributs de profil]**, **[!UICONTROL Abonnements aux segments]** et **[!UICONTROL Fonctions d’assistance]** sont disponibles pour la gestion des décisions.
 
 ## Ajout de règles d&#39;éligibilité et de contraintes {#eligibility}
 
