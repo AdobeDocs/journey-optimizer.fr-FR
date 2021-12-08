@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Rapport Landing page {#lp-report}
 
-Le rapport d’abonnement affiche des détails sur l’impact de vos landing pages. Deux types de rapports sont disponibles :
+Le rapport sur les landing pages affiche des détails sur l’impact de vos landing pages. Deux types de rapports sont disponibles :
 
 * Le **[!UICONTROL Rapport en direct]** pour mesurer et visualiser le succès de vos landing pages au cours des dernières 24 heures uniquement.
 
