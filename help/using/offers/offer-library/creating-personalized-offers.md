@@ -161,6 +161,7 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
       >[!CAUTION]
       >
       >Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target=&quot;_blank&quot;}, vous ne pourrez pas l&#39;exploiter dans une offre.
+
    Pour en savoir plus sur l’utilisation des segments par rapport aux règles de décision, consultez [cette section](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
 1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres.
