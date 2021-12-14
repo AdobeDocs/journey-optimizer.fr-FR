@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 24%
+source-wordcount: '872'
+ht-degree: 20%
 
 ---
 
@@ -105,39 +105,53 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 ### Configuration du droit d’opposition {#configure-opt-out}
 
-Pour permettre aux destinataires d&#39;un message de se désabonner de vos communications par le biais d&#39;une landing page, procédez comme suit.
+Pour permettre aux destinataires d&#39;un email de se désabonner de vos communications par le biais d&#39;une landing page, procédez comme suit.
 
-1. Créez votre [landing page](create-lp.md). Utilisation spécifique à la landing page **[!UICONTROL Formulaire]** composant, définir une **[!UICONTROL Exclusion]** et choisissez de mettre à jour **[!UICONTROL Canal (email)]**: le profil qui coche la zone d’exclusion sur votre page d’entrée sera exclu de toutes vos communications. [En savoir plus](design-lp.md)
+1. Créez votre landing page. [En savoir plus](create-lp.md)
+
+1. Définissez la Principale page. [En savoir plus](create-lp.md#configure-primary-page)
+
+1. [Conception](design-lp.md) le contenu Principal de la page : utiliser une landing page spécifique **[!UICONTROL Formulaire]** composant, définir une **[!UICONTROL Exclusion]** et choisissez de mettre à jour **[!UICONTROL Canal (email)]**: le profil qui coche la zone d’exclusion sur votre page d’entrée sera exclu de toutes vos communications.
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [Créez un message](../create-message.md) dans [!DNL Journey Optimizer].
+1. Ajouter une confirmation [subpage](create-lp.md#configure-subpages) qui s’affiche pour les utilisateurs qui envoient le formulaire.
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >Veillez à référencer la sous-page dans la variable **[!UICONTROL Formulaire]** du composant **[!UICONTROL Appel à l’action]** de la Principale page. [En savoir plus](design-lp.md)
+
+1. Une fois que vous avez configuré et défini le contenu de vos pages, [publier](create-lp.md#publish) la landing page.
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [Création d’un message électronique](../create-message.md) in [!DNL Journey Optimizer].
 
 1. Sélectionnez du texte dans votre contenu et [insérer un lien](../message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également utiliser un lien sur un bouton.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. Sélectionner **[!UICONTROL Landing page]** de la **[!UICONTROL Type de lien]** liste déroulante.
-
-1. Sélectionnez la [landing page](create-lp.md#configure-primary-page) que vous avez créé pour vous exclure.
+1. Sélectionner **[!UICONTROL Landing page]** de la **[!UICONTROL Type de lien]** et sélectionnez l’option [landing page](create-lp.md#configure-primary-page) que vous avez créé pour vous exclure.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
 1. Enregistrez votre contenu et [publiez votre message](../publish-manage-message.md).
 
-1. Envoyer votre message par le biais d’un [parcours](../building-journeys/journey.md).
+1. Envoyez votre message par un parcours. [En savoir plus](../building-journeys/journey.md).
 
-1. Une fois le message reçu, si le destinataire clique sur le lien de désabonnement, votre page de destination s’affiche.
+1. Une fois le message reçu, si un destinataire clique sur le lien de désabonnement contenu dans l&#39;email, votre landing page s&#39;affiche.
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. Si le destinataire clique sur le lien de désinscription dans la landing page, les données de profil sont mises à jour et ne recevront pas les communications de votre marque, sauf si vous vous êtes de nouveau abonné.
+1. Sur la landing page, si le destinataire coche la case et envoie le formulaire :
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * Le destinataire opt-out est redirigé vers l&#39;écran du message de confirmation.
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * Les données de profil sont mises à jour et ne recevront aucune communication de votre marque, sauf si vous vous êtes à nouveau abonné.
 
 Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform et accédez au profil en sélectionnant un espace de noms d&#39;identité et une valeur d&#39;identité correspondante. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target=&quot;_blank&quot;}.
 
