@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour proposer aux clients de
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
       + [Création d’un message](using/create-message.md)
       + [Création d’un e-mail](using/create-email.md)
       + [Création d’une notification push](using/create-push.md)
-      + [Créer un SMS](using/create-sms.md)
+      + [Création dʼun SMS](using/create-sms.md)
    + [Ajout et gestion des ressources](using/assets-essentials.md)
    + Conception d’e-mails {#email-designer}
       + [Prise en main de la conception d’e-mails](using/design-emails.md)
@@ -190,9 +190,10 @@ ht-degree: 97%
       + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
       + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + Suivi et surveillance {#reporting}
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
@@ -220,15 +221,15 @@ ht-degree: 97%
       + [Prise en main de la délivrabilité](using/deliverability.md)
       + [Liste de suppression](using/suppression-list.md)
       + [Liste autorisée](using/allow-list.md)
-+ Landing pages {#landing-pages}
-   + [Prise en main des landing pages](using/landing-pages/get-started-lp.md)
-   + [Création d’une landing page](using/landing-pages/create-lp.md)
-   + [Concevoir une landing page](using/landing-pages/design-lp.md)
-   + [Créer une liste d’abonnements](using/landing-pages/subscription-list.md)
++  Pages de destination {#landing-pages}
+   + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
+   + [Création d’une page de destination](using/landing-pages/create-lp.md)
+   + [Conception dʼune page de destination](using/landing-pages/design-lp.md)
+   + [Création d’une liste dʼabonnements](using/landing-pages/subscription-list.md)
    + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
    + Création de rapports {#lp-reporting}
-      + [Rapports sur les landing pages](using/landing-pages/lp-report.md)
-      + [Rapports sur les listes d’abonnements](using/landing-pages/subscription-report.md)
+      + [Création de rapports sur les pages de destination](using/landing-pages/lp-report.md)
+      + [Création de rapports sur les listes dʼabonnements](using/landing-pages/subscription-report.md)
 + Gestion des décisions {#offer-decisioniong}
    + Prise en main de la gestion des décisions {#get-started}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -330,7 +331,7 @@ ht-degree: 97%
             + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
          + [Modification de l’adresse e-mail principale](using/configuration/primary-email-addresses.md)
-      + [Configurer le canal SMS](using/configuration/sms-configuration.md)
+      + [Configuration du canal SMS](using/configuration/sms-configuration.md)
       + [Création de préréglages de message](using/configuration/message-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
