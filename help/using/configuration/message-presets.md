@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1751'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
    Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu&#39;il a été correctement configuré. Le temps de traitement est d’environ **48 h à 72 h** et peut prendre jusqu’à **7 à 10 jours ouvrables**. 
 
-   Ces contrôles incluent la configuration et les tests techniques effectués par l’équipe d’Adobe :
+   Ces vérifications comprennent des tests de configuration et des tests techniques effectués par l’équipe dʼAdobe :
 
    * Validation SPF
    * Validation DKIM
@@ -164,7 +164,7 @@ Les préréglages de message peuvent avoir les statuts suivants :
 
 En cas d’échec de la création d’un préréglage de message, les détails de chaque raison d’échec possible sont décrits ci-dessous.
 
-Si l’une de ces erreurs se produit, contactez l’[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
+Si l’une de ces erreurs se produit, contactez l’[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
 
 * **Échec de la validation SPF** : SPF (Sender Policy Framework) est un protocole d’authentification d’e-mail qui permet de spécifier des adresses IP autorisées pouvant envoyer des e-mails à partir d’un sous-domaine donné. L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les e-mails aux fournisseurs de messagerie.
 
