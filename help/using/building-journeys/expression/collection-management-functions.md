@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
 ht-degree: 100%
 
@@ -188,7 +188,7 @@ Cette expression renvoie le premier jeton de notification push associé aux appl
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
-Le résultat est « token_1 ».
+Le résultat est « token_1 ».
 
 **Exemple 2 :**
 
@@ -232,7 +232,7 @@ Cette expression renvoie le deuxième jeton de notification push de la liste.
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
-Le résultat est « token_2 ».
+Le résultat est « token_2 ».
 
 **Autres exemples**
 
