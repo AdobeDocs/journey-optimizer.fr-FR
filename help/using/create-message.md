@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
 source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Pour créer un nouveau message, procédez comme suit :
 
    * Saisissez un **[!UICONTROL Titre]** (obligatoire) et une **[!UICONTROL Description]**.
 
-   * Sélectionnez la **[!UICONTROL Catégorie de message]**: Marketing ou transactionnel.
+   * Sélectionnez la **[!UICONTROL Catégorie de message]** : marketing ou transactionnel.
 
    * Sélectionnez le **[!UICONTROL Préréglage]** à utiliser pour le message.
 
