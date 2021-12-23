@@ -1,6 +1,6 @@
 ---
-title: Rapport Landing page
-description: Découvrez comment utiliser les données de vos landing pages
+title: Rapport sur les pages de destination
+description: Découvrez comment utiliser les données de vos pages de destination
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,94 +9,94 @@ hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
 source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Rapport Landing page {#lp-report}
+# Rapport sur les pages de destination {#lp-report}
 
-Le rapport sur les landing pages affiche des détails sur l’impact de vos landing pages. Deux types de rapports sont disponibles :
+Le rapport sur les pages de destination affiche des informations relatives à l’impact de vos pages de destination. Deux types de rapports sont disponibles :
 
-* Le **[!UICONTROL Rapport en direct]** pour mesurer et visualiser le succès de vos landing pages au cours des dernières 24 heures uniquement.
+* Le **[!UICONTROL Rapport dynamique]** permet de mesurer et de visualiser les performances de vos pages de destination au cours des dernières 24 heures uniquement.
 
-* Le **[!UICONTROL Rapport global]** pour mesurer et visualiser le succès de vos landing pages sur une période sélectionnée.
+* Le **[!UICONTROL Rapport global]** permet de mesurer et de visualiser les performances de vos pages de destination sur une période sélectionnée.
 
-Pour accéder à vos rapports, sélectionnez **En direct** ou **[!UICONTROL Rapport global]** dans le menu avancé de la landing page sélectionnée.
+Pour accéder à vos rapports, sélectionnez **Rapport dynamique** ou **[!UICONTROL global]** dans le menu avancé de la page de destination sélectionnée.
 
 ![](../assets/landing_page_report_1.png)
 
-## Rapport en direct de la page d’entrée {#lp-live}
+## Rapport dynamique sur les pages de destination {#lp-live}
 
 ![](../assets/landing_page_report_2.png)
 
-Le **[!UICONTROL Performances de la landing page]** Le widget détaille les informations principales relatives à votre message au cours des dernières 24 heures à l’aide d’indicateurs clés de performance :
+Le widget **[!UICONTROL Performances de la page de destination]** présente les informations principales relatives à votre message au cours des dernières 24 heures à l’aide de KPI :
 
-* **[!UICONTROL Nombre total de visites]**: Nombre total de visites sur votre landing page à partir d&#39;un parcours ou d&#39;autres sources, y compris plusieurs visites d&#39;un seul destinataire.
+* **[!UICONTROL Nombre total de visites]** : nombre total de visites sur votre page de destination à partir dʼun parcours ou dʼautres sources, y compris les visites multiples dʼun seul destinataire.
 
-* **[!UICONTROL Conversions]**: Nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire.
+* **[!UICONTROL Conversions]** : nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire.
 
-* **[!UICONTROL Rebonds]**: Nombre de personnes qui n’ont pas interagi avec la landing page et n’ont pas effectué l’action d’inscription.
+* **[!UICONTROL Rebonds]** : nombre de personnes qui n’ont pas interagi avec la page de destination et n’ont pas effectué l’action d’inscription.
 
-Le **[!UICONTROL Sources de visite]** représente la manière dont les visiteurs accèdent à votre page d’entrée :
+Le widget **[!UICONTROL Sources des visites]** représente la manière dont les visiteurs accèdent à votre page de destination :
 
-* **[!UICONTROL Parcours(s)]**: Nombre de visites de votre landing page provenant d&#39;un parcours.
+* **[!UICONTROL Parcours]** : nombre de visites sur votre page de destination provenant dʼun parcours.
 
-* **[!UICONTROL Autres sources]**: Nombre de visites de votre page d’entrée provenant d’une source externe au lieu d’un parcours.
+* **[!UICONTROL Autres sources]** : nombre de visites sur votre page de destination provenant d’une source externe au lieu d’un parcours.
 
-Le **[!UICONTROL Liens les plus cliqués]** identifie l&#39;interaction des visiteurs avec la landing page :
+Le widget **[!UICONTROL Principaux liens ayant fait l’objet d’un clic]** identifie lʼinteraction des visiteurs avec la page de destination :
 
-* **[!UICONTROL Clics]**: Nombre de clics sur un contenu dans la landing page.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu de la page de destination.
 
-Le **[!UICONTROL Parcours(s)]** représente le nombre de visites de votre page d’entrée depuis un parcours.
+Le widget **[!UICONTROL Parcours]** représente le nombre de visites sur votre page de destination à partir dʼun parcours.
 
-Le **[!UICONTROL Autres sources]** représente le nombre de visites de votre page d’entrée à partir d’une source externe au lieu d’un parcours.
+Le widget **[!UICONTROL Autres sources]** représente le nombre de visites sur votre page de destination à partir d’une source externe au lieu d’un parcours.
 
 ![](../assets/landing_page_report_3.png)
 
-Le **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** les graphiques représentent le nombre total de visites et de personnes ayant interagi avec votre landing page au cours des dernières 24 heures, selon les messages envoyés.
+Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination au cours des dernières 24 heures, en fonction des messages envoyés.
 
-Le **[!UICONTROL Visites par canaux]** / **[!UICONTROL Conversions par canaux]** les graphiques représentent le nombre total de visites et de personnes ayant interagi avec votre landing page au cours des dernières 24 heures, selon les canaux.
+Les graphiques **[!UICONTROL Visites par canaux]** / **[!UICONTROL Conversions par canaux]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination au cours des dernières 24 heures, en fonction des canaux.
 
-## Rapport global de page d’entrée {#lp-global}
+## Rapport global sur les pages de destination {#lp-global}
 
 ![](../assets/landing_page_report_4.png)
 
-Le **[!UICONTROL Nombre de visites]** et **[!UICONTROL Nombre de visites au fil du temps]** Les widgets vous permettent de voir l’impact de votre landing page sur la période sélectionnée au moyen d’un graphique et d’indicateurs de performance clés avec les mesures suivantes :
+Les widgets **[!UICONTROL Nombre de visites]** et **[!UICONTROL Nombre de visites dans le temps]** vous permettent de mesurer l’impact de votre page de destination sur la période sélectionnée à lʼaide d’un graphique et de KPI comprenant les mesures suivantes :
 
-* **[!UICONTROL Nombre total de visites]**: Nombre total de visites de votre landing page provenant de parcours et de sources externes, y compris plusieurs visites d’un seul destinataire.
+* **[!UICONTROL Nombre total de visites]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul destinataire.
 
-* **[!UICONTROL Visiteurs uniques]**: Nombre de personnes ayant consulté votre landing page, plusieurs visites d&#39;un même destinataire ne sont pas prises en compte.
+* **[!UICONTROL Visiteurs uniques]** : nombre de personnes ayant visité votre page de destination, les visites multiples dʼun même destinataire ne sont pas prises en compte.
 
-Le **[!UICONTROL Performances de la landing page]** widget détaille les informations principales relatives à votre message par le biais des IPC :
+Le widget **[!UICONTROL Performances de la page de destination]** présente les informations principales relatives à votre message au moyen des indicateurs clé de performance :
 
-* **[!UICONTROL Taux de conversion]**: Nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire, par rapport au nombre total de visites.
+* **[!UICONTROL Taux de conversion]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre dʼinscrits à un formulaire par rapport au nombre total de visites.
 
-* **[!UICONTROL Taux de rebond]**: Nombre de personnes qui n&#39;ont pas interagi avec la landing page et n&#39;ont pas effectué l&#39;action d&#39;inscription, par rapport au nombre total de visites.
+* **[!UICONTROL Taux de rebond]** : nombre de personnes nʼayant pas interagi avec la page de destination ni effectué lʼaction dʼinscription, par rapport au nombre total de visites.
 
 ![](../assets/landing_page_report_5.png)
 
-Le **[!UICONTROL Sources de visite]** représente la manière dont les visiteurs accèdent à votre page d’entrée :
+Le widget **[!UICONTROL Sources des visites]** représente la façon dont les visiteurs accèdent à votre page de destination :
 
-* **[!UICONTROL Parcours(s)]**: Nombre de visites de votre landing page provenant d&#39;un parcours.
+* **[!UICONTROL Parcours]** : nombre de visites sur votre page de destination provenant dʼun parcours.
 
-* **[!UICONTROL Autres sources]**: Nombre de visites de votre page d’entrée provenant d’une source externe au lieu d’un parcours.
+* **[!UICONTROL Autres sources]** : nombre de visites de votre page de destination provenant d’une source externe au lieu d’un parcours.
 
-Le **[!UICONTROL Liens les plus cliqués]** identifie l&#39;interaction des visiteurs avec la diffusion :
+Le widget **[!UICONTROL Principaux liens ayant fait l’objet d’un clic]** identifie lʼinteraction des visiteurs avec la diffusion :
 
-* **[!UICONTROL Clics]**: Nombre de clics sur un contenu dans la landing page.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu de la page de destination.
 
-* **[!UICONTROL Taux de clics]**: Pourcentage de clics dans la landing page.
+* **[!UICONTROL Taux de clics]** : pourcentage de clics sur la page de destination.
 
-Le **[!UICONTROL Parcours(s)]** représente le nombre de visites de votre page d’entrée depuis un parcours :
+Le widget **[!UICONTROL Parcours]** représente le nombre de visites sur votre page de destination à partir dʼun parcours :
 
-* **[!UICONTROL Visites]**: Nombre de visites sur votre landing page, y compris plusieurs visites d’un seul destinataire.
+* **[!UICONTROL Visites]** : nombre de visites sur votre page de destination, y compris les visites multiples d’un seul destinataire.
 
-Le **[!UICONTROL Autres sources]** représente le nombre de visites de votre page d’entrée à partir d’une source externe au lieu d’un parcours.
+Le widget **[!UICONTROL Autres sources]** représente le nombre de visites sur votre page de destination à partir d’une source externe au lieu d’un parcours.
 
 ![](../assets/landing_page_report_6.png)
 
-Le **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** les graphiques représentent le nombre total de visites et de personnes qui ont interagi avec votre landing page avec succès pendant la période concernée en fonction des messages envoyés.
+Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination pendant la période concernée en fonction des messages envoyés.
 
-Le **[!UICONTROL Visites par canaux]** / **[!UICONTROL Conversions par canaux]** les graphiques représentent le nombre total de visites et de personnes qui ont interagi avec votre landing page avec succès pendant la période concernée en fonction des canaux.
+Les graphiques **[!UICONTROL Visites par canaux]**/ **[!UICONTROL Conversions par canaux]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination pendant la période concernée en fonction des canaux.
