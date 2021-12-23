@@ -1,6 +1,6 @@
 ---
-title: Prise en main des landing pages
-description: En savoir plus sur les landing pages dans Journey Optimizer
+title: Prise en main des pages de destination
+description: En savoir plus sur les pages de destination dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -9,23 +9,23 @@ hidefromtoc: true
 hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Prise en main des landing pages {#get-sarted-lp}
+# Prise en main des pages de destination {#get-sarted-lp}
 
 >[!CAUTION]
 >
->L’utilisation des landing pages est actuellement disponible en accès anticipé pour certains utilisateurs uniquement. Si vous souhaitez utiliser cette fonctionnalité, contactez votre chargé de compte d’Adobe.
+>Lʼutilisation des pages de destination est actuellement disponible en accès anticipé uniquement pour certains utilisateurs. Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
 
-Une page d’entrée est une page web autonome à laquelle l’utilisateur est redirigé après avoir cliqué à partir d’un courrier électronique, d’un site web, d’une publicité ou de tout autre emplacement numérique.
+Une page de destination est une page web autonome sur laquelle l’utilisateur arrive après avoir cliqué sur un lien présent dans un e-mail, un site Web, une publicité ou tout autre emplacement numérique.
 
 <!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
 
-[!DNL Journey Optimizer] vous permet de créer et de concevoir des landing pages afin d’orienter vos utilisateurs vers des formulaires en ligne où ils peuvent s’inscrire ou se désinscrire de la réception de vos communications, ou s’abonner à un service spécifique tel qu’une newsletter.
+[!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination afin de diriger vos utilisateurs vers des formulaires en ligne, à partir desquels ils pourront s’inscrire ou se désinscrire de lʼenvoi de vos communications, ainsi que s’abonner à un service spécifique, par exemple une newsletter.
 
 <!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
 
@@ -34,18 +34,18 @@ Une page d’entrée est une page web autonome à laquelle l’utilisateur est r
 * Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-* Utilisation [!DNL Journey Optimizer] fonctionnalités de conception de contenu à créer facilement **landing pages réactives**.
-* Configuration **flux d’opt-in et d’opt-out** rapidement et facilement.
-* Créer des listes d’abonnements pour permettre aux utilisateurs de **abonnement à un service**. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
-* Fournissez à vos destinataires les **possibilité de se désabonner** de recevoir vos communications. [En savoir plus](lp-use-cases.md#opt-out)
-* Envoyer un **email de confirmation** lors de l’inclusion ou de l’exclusion. [En savoir plus](lp-use-cases.md#send-confirmation-email)
+* Tirez parti des fonctionnalités de conception de contenu de [!DNL Journey Optimizer] et créez en toute facilité des **pages de destination dynamiques**.
+* Configurez les **flux dʼinscription et de désinscription** rapidement et sans effort.
+* Créez des listes d’abonnements afin de permettre aux utilisateurs de **sʼabonner à un service**. [En savoir plus](lp-use-cases.md#subscription-to-a-service)
+* Donnez à vos destinataires la **possibilité dʼannuler leur inscription** à lʼenvoi de vos communications. [En savoir plus](lp-use-cases.md#opt-out)
+* Envoyez un **e-mail de confirmation** lors de lʼinscription ou de la désinscription. [En savoir plus](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Créer des landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Créer des listes d’abonnements</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Concevoir des landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Reporting</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Création de pages de destination</a></p></td>
+<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Création de listes d’abonnements</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Conception de pages de destination</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Création de rapports</a></p></td>
 </tr>
 </table>
 
