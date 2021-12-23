@@ -1,5 +1,5 @@
 ---
-title: Rapport d'inscription
+title: Rapport dʼabonnement
 description: Découvrez comment utiliser les données de vos services d’abonnement
 feature: Journeys
 topic: Content Management
@@ -9,52 +9,52 @@ hidefromtoc: true
 hide: true
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
 source-git-commit: 1a2c87866404201ea4693ed58efe302b83db9efa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Rapport d&#39;inscription {#subscription-report}
+# Rapport dʼabonnement {#subscription-report}
 
-Le rapport d’abonnement affiche des détails sur l’activité de vos abonnés. Deux types de rapports sont disponibles :
+Le rapport dʼabonnement affiche des informations sur lʼactivité de vos abonnés. Deux types de rapports sont disponibles :
 
-* Le **[!UICONTROL Rapport en direct]** pour mesurer et visualiser les abonnements et désabonnements de vos diffusions sur les dernières 24 heures uniquement.
+* Le **[!UICONTROL Rapport dynamique]** vous permet de mesurer et de visualiser les abonnements et désabonnements relatifs à vos diffusions au cours des dernières 24 heures uniquement.
 
-* Le **[!UICONTROL Rapport global]** pour mesurer et visualiser les abonnements et désabonnements de vos diffusions sur une période sélectionnée.
+* Le **[!UICONTROL Rapport global]** vous permet de mesurer et de visualiser les abonnements et désabonnements relatifs à vos diffusions au cours dʼune période sélectionnée.
 
-Pour accéder à vos rapports, sélectionnez **En direct** ou **[!UICONTROL Rapport global]** dans le menu avancé de la liste d’abonnements sélectionnée.
+Pour accéder aux rapports, sélectionnez **Rapport dynamique** ou **[!UICONTROL global]** dans le menu avancé de la liste d’abonnements sélectionnée.
 
 ![](../assets/subscription_report_6.png)
 
-## Rapport d’inscription en direct {#subscription-live}
+## Rapport dʼabonnement dynamique {#subscription-live}
 
 ![](../assets/subscription_report_3.png)
 
-Le **[!UICONTROL Performances de l&#39;abonnement]** les indicateurs de performance clés et les **[!UICONTROL Abonnements par parcours]**/**[!UICONTROL Désabonnement par parcours]** les tableaux détaillent les informations principales relatives à l’engagement des visiteurs sur votre page d’entrée. Les tableaux et les indicateurs de performance clés contiennent les données disponibles liées à votre landing page, telles que :
+Les KPI des **[!UICONTROL Performances de lʼabonnement]** et les tableaux **[!UICONTROL Abonnements par parcours]**/**[!UICONTROL Désabonnements par parcours]** affichent les principales informations relatives à l’engagement des visiteurs sur votre page de destination. Les tableaux et les KPI contiennent les données disponibles relatives à votre page de destination, par exemple :
 
-* **[!UICONTROL Abonnements]**: Nombre total d&#39;abonnements au cours des dernières 24 heures.
+* **[!UICONTROL Abonnements]** : nombre total dʼabonnements au cours des dernières 24 heures.
 
-* **[!UICONTROL Désabonne]**: Nombre total de désabonnements au cours des dernières 24 heures.
+* **[!UICONTROL Désabonnements]** : nombre total de désabonnements au cours des dernières 24 heures.
 
-Le **[!UICONTROL Performances de l&#39;abonnement]** Le graphique présente l’évolution des abonnements au cours des dernières 24 heures.
+Le graphique **[!UICONTROL Performances de lʼabonnement]** montre l’évolution des abonnements au cours des dernières 24 heures.
 
 ![](../assets/subscription_report_4.png)
 
-Le **Abonnements - Ventilation** et **Désabonnements - Ventilation** les graphiques représentent le nombre total de personnes qui se sont inscrites ou se sont désabonnés au cours des dernières 24 heures, selon les messages, landing pages et canaux.
+Les graphiques **Abonnements - Ventilation** et **Désabonnements - Ventilation** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours des dernières 24 heures en fonction des messages, des pages de destination et des canaux.
 
-## Rapport global d&#39;inscription {#subscription-global}
+## Rapport dʼabonnement global {#subscription-global}
 
 ![](../assets/subscription_report_1.png)
 
-Le **[!UICONTROL Performances de l&#39;abonnement]** les indicateurs de performance clés et les **[!UICONTROL Abonnements par parcours]**/**[!UICONTROL Désabonnement par parcours]** les tableaux détaillent les informations principales relatives à l’engagement des visiteurs sur votre page d’entrée. Les tableaux et les indicateurs de performance clés contiennent les données disponibles liées à votre landing page, telles que :
+Les KPI des **[!UICONTROL Performances de lʼabonnement]** et les tableaux **[!UICONTROL Abonnements par parcours]**/**[!UICONTROL Désabonnements par parcours]** affichent les principales informations relatives à l’engagement des visiteurs sur votre page de destination. Les tableaux et les KPI contiennent les données disponibles relatives à votre page de destination, par exemple :
 
-* **[!UICONTROL Abonnements]**: Nombre total d&#39;abonnements sur la période correspondante.
+* **[!UICONTROL Abonnements]** : nombre total dʼabonnements sur la période correspondante.
 
-* **[!UICONTROL Désabonne]**: Nombre total de désabonnements sur la période correspondante.
+* **[!UICONTROL Désabonnements]** : nombre total de désabonnements sur la période correspondante.
 
-Le **[!UICONTROL Performances de l&#39;abonnement]** Le graphique montre l&#39;évolution des inscriptions sur la période correspondante.
+Le graphique **[!UICONTROL Performances de lʼabonnement]** montre lʼévolution des abonnements sur la période correspondante.
 
 ![](../assets/subscription_report_2.png)
 
-Le **Abonnements - Ventilation** et **Désabonnements - Ventilation** représente le nombre total de personnes qui se sont inscrites ou se sont désabonnés sur la période sélectionnée en fonction des messages, landing pages et canaux.
+Les graphiques **Abonnements - Ventilation** et **Désabonnements - Ventilation** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours de la période sélectionnée en fonction des messages, des pages de destination et des canaux.
