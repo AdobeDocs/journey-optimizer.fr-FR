@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 La création d&#39;un sous-domaine pour les campagnes e-mail permet aux marques d&#39;isoler différents types de trafic (marketing par rapport à entreprise, par exemple) dans des pools d&#39;adresses IP spécifiques et avec des domaines particuliers, ce qui accélère le processus de réchauffement des adresses IP et améliore la délivrabilité globale. Si vous partagez un domaine et qu&#39;il est bloqué ou ajouté à la liste bloquée, il peut y avoir un impact sur la diffusion des e-mails de votre entreprise. Les problèmes de réputation ou les blocages d&#39;un domaine particulier de vos communications marketing par e-mail auront un impact spécifique sur ce flux de messagerie. L&#39;utilisation de votre domaine principal comme adresse d&#39;expéditeur pour différents flux d&#39;e-mails peut également interrompre l&#39;authentification par e-mail, ce qui bloque ou place vos messages dans le dossier des courriers indésirables.
 
-## Pourquoi configurer des sous-domaines ?  {#why-setting-up-subdomains}
+## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
 
 Un sous-domaine est une division de votre domaine qui peut être utilisée pour isoler vos marques ou divers types de trafics (par ex. messages transactionnels et communications marketing).
 
@@ -42,11 +42,11 @@ Bien que ces exigences soient gérées au moyen de composants hébergés à la f
 
 ## Méthodes de configuration de sous-domaine {#subdomain-delegation-methods}
 
-La configuration de sous-domaine vous permet de configurer une sous-section de votre domaine (techniquement, une &quot;zone DNS&quot;) à utiliser avec Adobe Campaign. Les méthodes de configuration disponibles sont les suivantes :
+La configuration de sous-domaines vous permet de configurer une sous-section de votre domaine (techniquement, une « zone DNS ») à utiliser avec Adobe Campaign. Les méthodes de configuration disponibles sont les suivantes :
 
-* **Délégation complète de sous-domaine à Adobe ** (recommandée) : le sous-domaine est entièrement délégué à Adobe. Adobe peut contrôler et gérer tous les aspects du DNS nécessaires à la diffusion, au rendu et au tracking des messages. [En savoir plus sur la délégation complète de sous-domaine](delegate-subdomain.md#full-subdomain-delegation)
+* **Délégation complète de sous-domaine à Adobe** (recommandée) : le sous-domaine est entièrement délégué à Adobe. Adobe assure le contrôle et la gestion de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages. [En savoir plus sur la délégation complète de sous-domaine](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Utilisation de CNAME** : créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Grâce à cette configuration, vous et Adobe ashare êtes responsables de la maintenance du DNS. [En savoir plus sur la délégation de sous-domaine CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+* **Utilisation de CNAME** : créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Avec cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. [En savoir plus sur la délégation de sous-domaine CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
 Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le niveau d’effort impliqué :
 
@@ -57,4 +57,4 @@ Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le n
 
 Des informations supplémentaires sur la configuration de domaine sont disponibles dans [cette documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=fr).
 
-Si vous avez des questions concernant les méthodes de configuration de sous-domaine, contactez l’Adobe ou l’assistance clientèle pour demander des conseils sur la délivrabilité.
+Si vous avez des questions concernant les méthodes de configuration de sous-domaine, contactez Adobe ou éventuellement l’assistance clientèle pour obtenir des conseils sur la délivrabilité.
