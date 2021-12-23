@@ -1,6 +1,6 @@
 ---
-title: Créer une liste d’abonnements
-description: Découvrez comment configurer une liste d’abonnements dans Journey Optimizer
+title: Création d’une liste dʼabonnements
+description: Découvrez comment configurer une liste dʼabonnements dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -9,65 +9,65 @@ hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Listes d&#39;abonnements {#create-subscription-list}
+# Listes dʼabonnements {#create-subscription-list}
 
-## Qu&#39;est-ce qu&#39;une liste d&#39;abonnements ?
+## Qu’est-ce qu’une liste dʼabonnements ?
 
-Un service d’abonnement se rapporte aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt/etc. spécifique. sur une base continue. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
+Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt spécifique etc. de manière régulière. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
 
-Un service d&#39;abonnement peut être :
+Voici quelques exemples de services dʼabonnement :
 
-* une newsletter, par exemple : &quot;Série en cours&quot;
-* un événement, par exemple : &quot;Summit 2021&quot;
-* un webinaire, par exemple : &quot;En savoir plus sur le crypto&quot;
-* un intérêt sur un produit/un sport/un service/etc., par exemple : &quot;Intéressé à acheter une maison dans les 12 prochains mois&quot;
-* une préférence sur le mode de notification, par exemple : &quot;Recevez de nouvelles notifications de chanson par email&quot;
+* une newsletter, par exemple : « Programme des courses à pied du mois »
+* un événement, par exemple : « Summit 2021 »
+* un webinaire, par exemple : « En savoir plus sur la crypto »
+* un intérêt pour un produit/sport/service etc., par exemple : « Souhaite acheter une maison dans les 12 prochains mois »
+* une préférence en matière de notification, par exemple : « Recevoir les notifications de nouvelles chansons par e-mail »
 
-Les profils peuvent être ajoutés à une liste d’abonnements au moyen d’un [landing page](create-lp.md). Un exemple est présenté dans la section [cette section](lp-use-cases.md#subscription-to-a-service).
+Les profils peuvent être ajoutés à une liste dʼabonnements au moyen dʼune [page de destination](create-lp.md). Retrouvez un exemple dans [cette section](lp-use-cases.md#subscription-to-a-service).
 
-## Définition d’une liste d’abonnements {#define-subscription-list}
+## Définition d’une liste dʼabonnements {#define-subscription-list}
 
-Pour créer une liste d&#39;abonnements, procédez comme suit.
+Pour créer une liste dʼabonnements, procédez comme suit :
 
-1. Pour accéder aux listes d&#39;abonnements, sélectionnez **[!UICONTROL Client]** > **[!UICONTROL Liste d&#39;abonnements]**.
+1. Pour accéder aux listes dʼabonnements, sélectionnez **[!UICONTROL Client]** > **[!UICONTROL Liste dʼabonnements]**.
 
    ![](../assets/lp_subscription-lists.png)
 
-1. Sélectionnez la **[!UICONTROL Créer une liste d’abonnements]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Créer une liste dʼabonnements]**.
 
    ![](../assets/lp_create-subscription-list.png)
 
-1. Ajoutez un nom et une description. Ces champs sont obligatoires.
+1. Donnez-lui un nom et une description. Ces champs sont obligatoires.
 
-1. Vous pouvez définir une date de début et une date de fin.
+1. Vous pouvez définir une date de début et de fin.
 
    ![](../assets/lp_subscription-list-dates.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-La liste affiche toutes les listes d&#39;abonnements créées. Vous pouvez les filtrer selon la date de création ou de modification, et leur état.
+La liste reprend toutes les listes dʼabonnements créées. Vous pouvez les filtrer en fonction de leur date de création ou de modification et de leur statut.
 
 ![](../assets/lp_subscription-filters.png)
 
-Les statuts possibles sont les suivants :
+Voici les statuts possibles :
 
-* **[!UICONTROL Pas démarré]**: Vous avez défini une date de début postérieure à la date du jour en cours. Les profils abonnés ne recevront pas encore de communications relatives à cette liste d&#39;abonnements.
-* **[!UICONTROL En direct]**: Le jour en cours se compose de la date de début et de fin de la liste d’abonnements ou vous n’avez pas défini de date de fin/début, ce qui signifie que la liste d’abonnements est toujours active.
-* **[!UICONTROL Expiré]**: La date de fin est dépassée, la liste d&#39;abonnements n&#39;est donc plus valide. Aucun profil abonné ne recevra aucune communication relative à cette liste d’abonnements.
+* **[!UICONTROL Non démarrée]** : vous avez défini une date de début postérieure à la date du jour en cours. Les profils abonnés ne recevront pas encore les communications relatives à cette liste dʼabonnements.
+* **[!UICONTROL En direct]** : le jour en cours est compris entre les dates de début et de fin de la liste d’abonnements, ou vous n’avez pas défini de dates de fin/début, ce qui signifie que la liste d’abonnements est toujours active.
+* **[!UICONTROL Expirée]** : la date de fin est dépassée, la liste dʼabonnements nʼest donc plus valide. Tout profil abonné ne recevra plus de communications relatives à cette liste dʼabonnements.
 
-Une fois la liste d&#39;abonnements créée, vous pouvez l&#39;utiliser dans une landing page. Les profils qui se connectent par le biais du formulaire de landing page seront ajoutés à la liste. [En savoir plus](design-lp.md)
+Une fois la liste dʼabonnements créée, vous pouvez lʼutiliser dans une page de destination. Les profils inscrits par le biais du formulaire de la page de destination seront ajoutés à la liste. [En savoir plus](design-lp.md)
 
-Vous pouvez également utiliser des listes d’abonnements comme segments lorsque [parcours de création](../building-journeys/journey-gs.md#jo-build) et l’ajout de la personnalisation.
+Vous pouvez également utiliser les listes d’abonnements comme des segments lorsque vous [créez des parcours](../building-journeys/journey-gs.md#jo-build) et ajoutez de la personnalisation.
 
 >[!NOTE]
 >
->Vous pouvez surveiller les impacts de votre liste d’abonnements par le biais de rapports spécifiques. [En savoir plus](subscription-report.md)
+>Vous pouvez surveiller lʼimpact de votre liste d’abonnements grâce à des rapports spécifiques. [En savoir plus](subscription-report.md)
 
 <!--
 
