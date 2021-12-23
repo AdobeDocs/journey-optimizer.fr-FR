@@ -3,9 +3,9 @@ title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Novembre 2021
 
-* Une description complète de l’éditeur d’expression avancé utilisé dans parcours est désormais disponible. [En savoir plus](building-journeys/expression/expressionadvanced.md)
-* Nouvelle méthode de délégation de sous-domaine CNAME. [En savoir plus](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Une description complète de l’éditeur d’expression avancé utilisé dans les parcours est désormais disponible. [En savoir plus](building-journeys/expression/expressionadvanced.md)
+* Nouvelle méthode de délégation de sous-domaines CNAME. [En savoir plus](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Octobre 2021
 
