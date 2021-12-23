@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Activité de condition{#section_e2n_pft_dgb}
 
-Ces types de conditions sont disponibles :
+Les types de conditions disponibles sont les suivantes :
 
 * [Condition de source de données](#data_source_condition)
 * [Condition de temps](#time_condition)
