@@ -190,10 +190,9 @@ ht-degree: 100%
       + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
       + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
-
       <!--
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
+      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+      -->
 + Suivi et surveillance {#reporting}
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
