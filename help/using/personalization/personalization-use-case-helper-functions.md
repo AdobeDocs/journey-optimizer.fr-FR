@@ -207,6 +207,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       </table>
    {{/each}}
    ```
+   
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
    ![](../assets/personalization-uc-helpers-11.png)
 
