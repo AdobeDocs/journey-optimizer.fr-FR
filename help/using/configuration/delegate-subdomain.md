@@ -19,7 +19,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
 workflow-type: tm+mt
 source-wordcount: '1435'
-ht-degree: 59%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 59%
 
 La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe.
 
-En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les clients peuvent compter sur Adobe pour gérer l&#39;infrastructure DNS requise afin de répondre aux exigences de délivrabilité standard de leurs domaines de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de leurs domaines de messagerie internes.
+En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les clients peuvent compter sur Adobe pour gérer lʼinfrastructure DNS requise afin de répondre aux exigences de délivrabilité standard de leurs domaines de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de leurs domaines de messagerie internes.
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 
@@ -39,11 +39,11 @@ En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les cl
 
 Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]** , puis cliquez sur **[!UICONTROL Configuration d’un sous-domaine]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
    ![](../assets/subdomain-delegate.png)
 
-1. Sélectionner **[!UICONTROL Entièrement déléguée]** de la **[!UICONTROL Configuration de la méthode]** .
+1. Sélectionnez **[!UICONTROL Délégation complète]** dans la section **[!UICONTROL Configurer la méthode]**.
 
    ![](../assets/subdomain-method-full.png)
 
@@ -67,7 +67,7 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
    >
    >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que version préliminaire]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
 
-1. Une fois la délégation de sous-domaine complète envoyée, le sous-domaine s’affiche dans la liste avec la variable **[!UICONTROL Traitement]** statut. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
+1. Une fois la délégation de sous-domaine complète envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
    ![](../assets/subdomain-processing.png)
 
@@ -75,37 +75,37 @@ Pour déléguer un nouveau sous-domaine, procédez comme suit :
 
    >[!NOTE]
    >
-   >Tous les enregistrements manquants, c’est-à-dire les enregistrements non encore créés sur votre solution d’hébergement, seront répertoriés.
+   >Les enregistrements manquants, cʼest-à-dire ceux qui nʼont pas encore été créés sur votre solution dʼhébergement, seront répertoriés.
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
 
    >[!NOTE]
    >
-   >Le sous-domaine sera marqué comme **[!UICONTROL En échec]** si vous ne créez pas l’enregistrement de validation sur votre solution d’hébergement.
+   >Le statut du sous-domaine sera marqué comme **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
 
    <!-- later on, users will be notified in Pulse -->
 
-Une fois qu’un sous-domaine est délégué à l’Adobe dans [!DNL Journey Optimizer], un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. [En savoir plus](ptr-records.md)
+Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimizer], un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. [En savoir plus](ptr-records.md)
 
 >[!CAUTION]
 >
->L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation lorsqu’un autre possède la propriété **[!UICONTROL Traitement]** , vous obtiendrez un message d’erreur.
+>[!DNL Journey Optimizer] ****
 
-## Délégation de sous-domaine CNAME {#cname-subdomain-delegation}
+## Délégation de sous-domaines CNAME {#cname-subdomain-delegation}
 
-Si vous avez des stratégies de restriction spécifiques à un domaine et que vous souhaitez que l’Adobe n’ait qu’un contrôle partiel sur le DNS, vous pouvez choisir d’exécuter toutes les activités liées au DNS de votre côté.
+Si des stratégies de restriction par domaine sont en vigueur et que vous souhaitez quʼAdobe nʼait quʼun contrôle partiel sur le DNS, vous pouvez choisir dʼeffectuer toutes les activités liées au DNS de votre côté.
 
-La délégation de sous-domaine CNAME vous permet de créer un sous-domaine et d’utiliser des CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS afin de configurer un environnement pour l’envoi, le rendu et le suivi des emails.
+La délégation de sous-domaines CNAME permet de créer un sous-domaine et d’utiliser des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS afin de configurer un environnement pour l’envoi, le rendu et le suivi des e-mails.
 
 >[!CAUTION]
 >
->Cette méthode est recommandée si les stratégies de votre entreprise limitent la méthode de délégation de sous-domaine complète. Cette approche nécessite que vous gardiez et gériez vos enregistrements DNS vous-même. Adobe ne pourra pas vous aider à modifier, gérer ou gérer le DNS d’un sous-domaine configuré à l’aide de la méthode CNAME.
+>Cette méthode est recommandée si les stratégies de votre organisation interdisent la méthode de délégation de sous-domaine complète. En conséquence, vous devrez assumer la mise à jour et la gestion des enregistrements DNS. Adobe ne pourra pas vous aider à modifier, tenir à jour ou gérer le DNS dʼun sous-domaine configuré par la méthode CNAME.
 
-Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
+Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]** , puis cliquez sur **[!UICONTROL Configuration d’un sous-domaine]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
-1. Sélectionnez la **[!UICONTROL Configuration CNAME]** .
+1. Sélectionnez la méthode **[!UICONTROL Configuration CNAME]**.
 
    ![](../assets/subdomain-method-cname.png)
 
@@ -121,43 +121,43 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
 
-1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est paramétré correctement, cochez la case &quot;Je confirme...&quot;.
+1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case « Je confirme... ».
 
    ![](../assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
-   >Vous pouvez créer les enregistrements ultérieurement à l’aide du **[!UICONTROL Enregistrer en tant que brouillon]** bouton . Vous pourrez alors reprendre la délégation de sous-domaine à ce stade en l’ouvrant à partir de la liste de sous-domaines.
+   >Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que version préliminaire]**. Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
 
-1. Patientez jusqu’à ce que Adobe vérifie que ces enregistrements sont générés sans erreur sur votre solution d’hébergement. Ce processus peut prendre jusqu’à 2 minutes.
+1. Patientez jusquʼà ce quʼAdobe sʼassure que ces enregistrements ont été générés sans erreurs sur votre solution dʼhébergement. Cette opération peut prendre jusquʼà 2 minutes.
 
    >[!NOTE]
    >
-   >Tous les enregistrements manquants, c’est-à-dire les enregistrements non encore créés sur votre solution d’hébergement, seront répertoriés.
+   >Les enregistrements manquants, cʼest-à-dire ceux qui nʼont pas encore été créés sur votre solution dʼhébergement, seront répertoriés.
 
-1. Adobe génère un enregistrement de validation d’URL CDN SSL. Copiez cet enregistrement de validation dans votre plateforme d’hébergement. Si vous avez correctement créé cet enregistrement sur votre solution d’hébergement, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
+1. Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez terminé la création de cet enregistrement sur votre solution dʼhébergement, cochez la case « Je confirme... », puis cliquez sur **[!UICONTROL Envoyer]**.
 
    ![](../assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >
-   >Vous pouvez également créer l’enregistrement de validation et envoyer ultérieurement la configuration du sous-domaine à l’aide de la variable **[!UICONTROL Enregistrer en tant que brouillon]** bouton . Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
+   >Vous pouvez également créer lʼenregistrement de validation et envoyer ultérieurement la configuration du sous-domaine à lʼaide du bouton **[!UICONTROL Enregistrer en tant que version préliminaire]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en lʼouvrant à partir de la liste de sous-domaines.
 
-1. Une fois la délégation de sous-domaine CNAME envoyée, le sous-domaine s’affiche dans la liste avec la variable **[!UICONTROL Traitement]** statut. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
+1. Une fois la délégation de sous-domaine CNAME envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
-   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre que l’Adobe effectue les vérifications requises, qui prennent généralement 2 à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre quʼAdobe effectue les vérifications nécessaires, ce qui peut prendre entre 2 et 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
-1. Une fois les vérifications réussies<!--i.e Adobe validates the record you created and installs it-->, le sous-domaine reçoit la valeur **[!UICONTROL Succès]** statut. Il est prêt à être utilisé pour diffuser des messages.
+1. Une fois les vérifications effectuées<!--i.e Adobe validates the record you created and installs it-->, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
 
    >[!NOTE]
    >
-   >Le sous-domaine sera marqué comme **[!UICONTROL En échec]** si vous ne créez pas l’enregistrement de validation sur votre solution d’hébergement.
+   >Le statut du sous-domaine sera marqué comme **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
 
-Lors de la validation de l’enregistrement et de l’installation du certificat, Adobe crée automatiquement l’enregistrement PTR pour le sous-domaine CNAME. [En savoir plus](ptr-records.md)
+Dès la validation de lʼenregistrement et lʼinstallation du certificat terminées, Adobe crée automatiquement lʼenregistrement PTR pour le sous-domaine CNAME. [En savoir plus](ptr-records.md)
 
 >[!CAUTION]
 >
->L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation lorsqu’un autre possède la propriété **[!UICONTROL Traitement]** , vous obtiendrez un message d’erreur.
+>[!DNL Journey Optimizer] ****
 
 ## Validation de sous-domaine {#subdomain-validation}
 
@@ -175,7 +175,7 @@ Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que 
    * **Enregistrement SPF** (enregistrement Sender Policy Framework) : répertorie les adresses IP des serveurs de messagerie qui peuvent envoyer des e-mails à partir du sous-domaine.
    * **Enregistrement DKIM** (enregistrement standard DomainKeys Identified Mail) : utilise le chiffrement de la clé publique-privée pour authentifier le message afin d’éviter les usurpations.
    * **A** : mappage IP par défaut.
-   * **CNAME**: Un enregistrement de nom canonique ou CNAME est un type d’enregistrement DNS qui associe un nom d’alias à un nom de domaine vrai ou canonique.
+   * **CNAME** : un enregistrement de nom canonique ou CNAME est un type d’enregistrement DNS qui mappe un nom d’alias à un nom de domaine réel ou canonique.
 
 1. **Création des URL de tracking et miroir** : si le domaine est email.example.com, le domaine tracking/mirror sera data.email.example.com. La sécurité est assurée par l’installation du certificat SSL.
 
