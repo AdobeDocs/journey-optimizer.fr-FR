@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
-workflow-type: ht
-source-wordcount: '1338'
-ht-degree: 100%
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -258,6 +258,10 @@ Vous pouvez maintenant visualiser toutes les offres personnalisées et l&#39;off
 Utilisez la section **[!UICONTROL Offres]** ou les flèches des composants de contenu (flèches droite et gauche) pour parcourir les données. Vous pouvez également afficher les différentes offres qui font partie de la décision avec un profil client. En savoir plus dans [cette section](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 Une fois vos modifications enregistrées et le message publié, vos offres sont prêtes à être affichées pour les profils pertinents lors de l&#39;envoi du message dans le cadre d&#39;un parcours.
+
+>[!NOTE]
+>
+>Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre qui est référencée directement ou indirectement dans une [publié](../../using/publish-manage-message.md) , les mises à jour sont désormais automatiquement répercutées dans le message correspondant, sans avoir à le republier.
 
 **Rubriques connexes :**
 

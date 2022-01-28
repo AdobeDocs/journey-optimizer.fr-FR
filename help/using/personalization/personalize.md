@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
-workflow-type: ht
-source-wordcount: '691'
-ht-degree: 100%
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 89%
 
 ---
 
@@ -99,7 +99,7 @@ La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous perme
 
 Les sources disponibles sont les suivantes :
 
-* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
+* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 * **[!UICONTROL Abonnements aux segments]** : répertorie tous les segments créés dans le service Adobe Experience Platform Segmentation. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target=&quot;_blank&quot;} plus d’informations sur la segmentation.
 * **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../deliver-personalized-offers.md).
 * **[!UICONTROL Attributs contextuels]** : lorsque le **Message** est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. En savoir plus dans [cette section](personalization-use-case.md).
@@ -114,6 +114,24 @@ Lorsqu&#39;elle est sélectionnée, la référence est ajoutée dans l&#39;édit
 Dans l&#39;exemple suivant, l&#39;éditeur d&#39;expression vous permet de sélectionner les profils dont l&#39;anniversaire est aujourd&#39;hui, puis de terminer la personnalisation en insérant une offre spécifique correspondant à cette journée.
 
 ![](assets/perso_ee2.png)
+
+### Ajouter aux favoris{#fav}
+
+L’ajout d’attributs différents à votre menu favoris permet d’accéder rapidement aux éléments que vous utilisez le plus souvent. Pour ajouter un attribut à vos favoris, cliquez sur le menu ellipse et choisissez **[!UICONTROL Ajouter aux favoris]**.
+
+![](assets/favorite-option.png)
+
+Pour accéder aux éléments que vous avez préférés, utilisez le **[!UICONTROL Favoris]** dans le menu déroulant.
+
+![](assets/favorite-menu.png)
+
+Dans cette liste, vous pouvez ajouter rapidement l’objet de personnalisation à votre expression active.
+
+![](assets/favorite-list.png)
+
+Si vous ne souhaitez plus voir un élément dans votre liste de favoris, vous pouvez le supprimer des favoris.
+
+![](assets/favorite-remove.png)
 
 ## Tutoriels vidéo{#video-perso}
 

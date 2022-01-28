@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: ht
-source-wordcount: '890'
-ht-degree: 100%
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -66,18 +66,18 @@ ht-degree: 100%
       + [Fonctions d’objet](using/personalization/functions/objects.md)
       + [Fonctions de chaîne](using/personalization/functions/string.md)
    + [Ajout d’offres personnalisées](using/deliver-personalized-offers.md)
-+ Segments, profils et identité{#segment}
++ Segments, profils et identités{#segment}
    + Segments {#segments}
       + [Prise en main des segments](using/segment/about-segments.md)
       + [Création de segments](using/segment/creating-a-segment.md)
    + [Profils](using/get-started-profiles.md)
-   + [Identité](using/get-started-identity.md)
+   + [Identités](using/get-started-identity.md)
 + Parcours {#orchestrate-journeys}
    + À propos des parcours{#about-journeys}
       + [Principe général](using/building-journeys/journey.md)
       + [Versions de parcours](using/building-journeys/journey-versions.md)
       + [Profils de test](using/building-journeys/creating-test-profiles.md)
-      + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
+      + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Création d’un parcours{#create-journey}
       + [Prise en main des parcours](using/building-journeys/journey-gs.md)
       + [Conception de votre parcours](using/building-journeys/using-the-journey-designer.md)
@@ -190,9 +190,7 @@ ht-degree: 100%
       + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
       + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [Améliorez les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
 + Suivi et surveillance {#reporting}
    + [Surveillance des messages](using/message-monitoring.md)
    + Rapport dynamique {#live-report}
@@ -351,7 +349,8 @@ ht-degree: 100%
       + Configuration des actions {#action-journeys}
          + [À propos des actions](using/action/action.md)
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
-         + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Intégration avec Adobe Campaign v7/v8
+](using/action/acc-action.md)
    + [Sources](using/get-started-sources.md)
 + Contrôle d’accès {#administration}
    + [Présentation du contrôle d’accès](using/administration/permissions-overview.md)

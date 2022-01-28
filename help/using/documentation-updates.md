@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,18 @@ ht-degree: 100%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
 
+## Janvier 2022
+
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 janvier a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+
+* La section Classement de l’IA dédiée aux Offers decisionings a été mise à jour avec une description plus détaillée du modèle d’optimisation automatique. [En savoir plus](offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* Ajout d’une nouvelle section sur les exigences de schéma pour pouvoir envoyer des types d’événements lors de l’utilisation d’une stratégie de classement - [En savoir plus](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## Novembre 2021
 
 * Une description complète de l’éditeur d’expression avancé utilisé dans les parcours est désormais disponible. [En savoir plus](building-journeys/expression/expressionadvanced.md)
-* Nouvelle méthode de délégation de sous-domaines CNAME. [En savoir plus](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Ajout d’une section sur la méthode de délégation de sous-domaine CNAME - [En savoir plus](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Octobre 2021
 
@@ -52,7 +59,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Amélioration de la page **Démarrage rapide** avec des étapes pour différents rôles. [En savoir plus](quick-start.md)
 
-* Désormais, toutes les fonctionnalités de Decision Management décrites dans la section dédiée s’appliquent également aux utilisateurs d’Adobe Experience Platform qui tirent parti du service applicatif Offer Decisioning. [En savoir plus](offers/get-started/starting-offer-decisioning.md)
+* Désormais, toutes les fonctionnalités de gestion des décisions décrites dans la section dédiée s’appliquent également aux utilisateurs d’Adobe Experience Platform qui tirent parti du service applicatif Offer Decisioning.
+[En savoir plus](offers/get-started/starting-offer-decisioning.md)
 
 * Ajout d’une sous-section pour clarifier les différences entre l’utilisation des segments et celle des règles de décision lors de l’application d’une contrainte afin de restreindre la sélection des offres pour un emplacement donné. [En savoir plus](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

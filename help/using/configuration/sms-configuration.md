@@ -6,9 +6,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
-workflow-type: ht
-source-wordcount: '414'
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -88,8 +88,6 @@ Pour créer un préréglage de message, procédez comme suit :
 1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
 
    ![](../assets/preset-active.png)
-
-Pour en savoir plus sur la configuration dʼun préréglage de message pour les notifications push et les e-mails, reportez-vous à [cette section](message-presets.md).
 
 Vous êtes maintenant prêt à envoyer des messages SMS avec Journey Optimizer.
 

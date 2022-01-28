@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '219'
-ht-degree: 100%
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 83%
 
 ---
 
@@ -22,13 +22,17 @@ Une fois votre message créé, vous pouvez le publier pour le rendre disponible 
 
 >[!CAUTION]
 >
->Avant de publier, vérifiez et résolvez les alertes. [En savoir plus](alerts.md)
+>Avant de publier votre page, vérifiez et résolvez les alertes. [En savoir plus](alerts.md)
 
 ![](assets/publish-message.png)
 
 Une fois votre message publié, il est ajouté à la liste de messages avec l’état **[!UICONTROL Publié]**.
 
 Il est alors prêt à être déclenché par un ou plusieurs [parcours](building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre directement ou indirectement référencée dans un message publié, les mises à jour sont désormais automatiquement répercutées dans le message correspondant, sans avoir à la republier. [En savoir plus sur les offres](offers/get-started/starting-offer-decisioning.md)
 
 ## Mettre à jour un message en lecture seule {#modify-message}
 

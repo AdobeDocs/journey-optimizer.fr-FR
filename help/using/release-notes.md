@@ -2,16 +2,99 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
-workflow-type: ht
-source-wordcount: '2077'
-ht-degree: 100%
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+workflow-type: tm+mt
+source-wordcount: '2382'
+ht-degree: 88%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter les [dernières mises à jour de la documentation](documentation-updates.md).
+Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter le [dernières mises à jour de la documentation](documentation-updates.md) pour d’autres modifications.
+
+## Version de janvier 2022
+
+### Nouvelles fonctionnalités
+
+<table>
+<thead>
+<tr>
+<th><strong>Parcours - Optimisation de la montée en réputation de votre adresse IP avec des conditions de limitation de profil</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Lors de la configuration d’un <strong>Condition</strong> dans un parcours, vous pouvez maintenant définir une limite de profil. Ce nouveau type de condition vous permet de définir un nombre maximal de profils pour un chemin de parcours. Lorsque cette limite est atteinte, les profils entrants prennent un autre chemin. Vous pouvez ainsi augmenter le volume de vos diffusions (montée en puissance de l'IP). Par exemple, vous pouvez augmenter le nombre de diffusions sur un domaine en fractionnant l'exécution : envoyer 1 000 messages le 1er jour 2000 le 2 jour, etc.</p>
+<p>Pour plus d’informations, reportez-vous à la section <a href="building-journeys/condition-activity.md#profile_cap">documentation détaillée</a> et connexes <a href="building-journeys/ramp-up-deliveries-uc.md">exemple de cas d’utilisation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<!--th><strong>Journeys - Leverage segment entrances and exits in Read segment</strong><br/></th-->
+<th><strong>Parcours - Amélioration des segments en lecture</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<!--p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p-->
+<p>Le <strong>Lecture incrémentale</strong> a été ajoutée à l’option récurrente <strong>Lecture de segment</strong> activités. Cette option permet de ne cibler que les individus entrés dans le segment depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres du segment.</p>
+<p>Pour plus d'informations, consultez la <a href="building-journeys/read-segment.md#configuring-segment-trigger-activity">documentation détaillée</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations
+
+<!--
+**Performances**
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
+-->
+
+**Parcours**
+
+* Les événements d’étape Journey Optimizer peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le **profileID** dans le schéma d’événement d’étape de Parcours intégré, est désormais défini comme un champ d’identité. [En savoir plus](reports/sharing-overview.md#integration-cja)
+
+<!--
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
+-->
+
+**Offer Decisioning**
+
+<!--* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)-->
+
+* Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre directement ou indirectement référencée dans un message publié, les mises à jour sont désormais automatiquement répercutées dans le message correspondant, sans avoir à la republier. [En savoir plus](offers/offers-e2e.md#insert-decision-in-email)
+
+**Administration**
+
+* Les administrateurs peuvent désormais modifier les enregistrements PTR avec un CNAME configuré comme sous-domaine. [En savoir plus](configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+**Personnalisation**
+
+* **Ajouter aux favoris** - Pour améliorer l’efficacité lors de l’utilisation de la personnalisation, nous avons introduit le concept d’enregistrement des favoris. L’ajout d’attributs différents à votre menu favoris permet d’accéder rapidement aux éléments que vous utilisez le plus souvent. [En savoir plus](personalization/personalize.md#fav)
+
+<!--
+
+**Reporting**
+
+* New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
+* Deliveries can now be filtered depending on their status:
+
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
+    * From your Live/Global reports, you can choose to exclude journey test events.
+
+    [Learn more](message-monitoring.md)
+
+* From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
+
+-->
 
 ## Publication de novembre 2021
 
@@ -32,7 +115,6 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </tbody>
 </table>
 
-
 ## Version d’octobre 2021 {#oct-2021-release}
 
 <!--table>
@@ -51,22 +133,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </tbody>
 </table-->
 
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journeys - Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Nouvelles fonctionnalités
 
 <table>
 <thead>
@@ -109,7 +176,6 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 * **Éditeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec les mappings. Cette fonctionnalité peut être exploitée avec les listes d’abonnements. Par exemple, à partir d’un segment, vous pouvez désormais obtenir une adresse e-mail à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](building-journeys/message-to-subscribers-uc.md)
 
-   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 * **Surveillance** - Les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](reports/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](reports/sharing-legacy-fields.md).
 * **Accessibilité** - Des améliorations d’accessibilité ont été apportées aux parcours. 
 * **Collections** - Les tableaux d’objets contenant des sous-objets sont désormais pris en charge. [En savoir plus](building-journeys/collections.md)
@@ -129,6 +195,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 **Personnalisation**
 
 * **Nouvelle fonction d’assistance pour le formatage des dates** - Vous pouvez désormais spécifier comment une chaîne de date doit être représentée. [En savoir plus](personalization/functions/dates.md#format-date)
+
 
 **Gestion des décisions**
 

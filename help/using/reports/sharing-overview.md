@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 2731f3fef651f4d75e2d1e19199a6cd8050b3475
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 81%
 
 ---
 
@@ -57,3 +57,12 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaill�
 * [Champs d’événement d’étape hérités](../reports/sharing-legacy-fields.md)
 
 Pour plus d’informations sur le reporting des événements d’étape à Adobe Experience Platform, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=fr){target=&quot;_blank&quot;}.
+
+## Intégration à Customer Parcours Analytics{#integration-cja}
+
+Les événements d’étape Journey Optimizer peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Voici le workflow général :
+
+* Customer Journey Analytics ingère le jeu de données &quot;Événement d’étape de Parcours&quot;.
+* Le **profileID** dans le &quot;schéma d’événement d’étape de Parcours pour Journey Orchestration&quot; associé est défini comme un champ d’identité. Dans Customer Journey Analytics, vous pouvez ensuite lier ce jeu de données à tout autre jeu de données ayant la même valeur que l’identifiant basé sur la personne.
+* Si vous souhaitez utiliser ce jeu de données en Customer Journey Analytics, reportez-vous à cette section pour l’analyse de parcours cross-canal. [documentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+

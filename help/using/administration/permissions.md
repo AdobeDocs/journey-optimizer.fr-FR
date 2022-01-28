@@ -6,10 +6,10 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
-workflow-type: ht
-source-wordcount: '850'
-ht-degree: 100%
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,7 @@ Si nécessaire, vous pouvez également créer un profil de produit avec des auto
 
 Pour plus d&#39;informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d&#39;Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
-Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs pourront uniquement accéder aux parcours et les afficher. Ils ne pourront pas accéder à d&#39;autres fonctionnalités telles que **[!UICONTROL Gestion des décisions]** ou **[!UICONTROL Messages]** dans [!DNL Journey Optimizer].
+Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs ne pourront accéder qu’aux parcours et les afficher, mais pas accéder à d’autres fonctionnalités telles que **[!DNL  Decision management]** ou **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 Pour créer nos **[!UICONTROL profils de produit]** **Parcours en lecture seule** :
 
@@ -125,7 +125,7 @@ Pour créer nos **[!UICONTROL profils de produit]** **Parcours en lecture seule*
 
 1. Pour ajouter des autorisations permettant aux utilisateurs d&#39;accéder à différentes fonctionnalités, sélectionnez l&#39;onglet **[!UICONTROL Autorisations]**.
 
-1. Choisissez entre les différentes fonctionnalités telles que **[!UICONTROL Messages]**, **[!UICONTROL Segments]** ou **[!UICONTROL Gestion des décisions]** disponibles dans [!DNL Journey Optimizer] dans le menu de gauche.
+1. Effectuez une sélection parmi les différentes fonctionnalités telles que **[!DNL Messages]**, **[!DNL Segments]** ou **[!DNL Decision management]** disponible dans [!DNL Journey Optimizer] répertorié dans le menu de gauche.
 
    Nous sélectionnons ici la fonctionnalité **[!UICONTROL Parcours]**.
 
@@ -133,7 +133,7 @@ Pour créer nos **[!UICONTROL profils de produit]** **Parcours en lecture seule*
 
 1. Dans la liste **[!UICONTROL Éléments d&#39;autorisation disponibles]**, sélectionnez les autorisations à attribuer à votre **[!UICONTROL profil de produit]** en cliquant sur l&#39;icône plus (+).
 
-   Ici, nous sélectionnons **[!UICONTROL Afficher les parcours]** et **[!UICONTROL Afficher l&#39;événement de parcours, les sources de données, les actions]**.
+   Ici, sélectionnez **[!DNL View journeys]** et **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 
