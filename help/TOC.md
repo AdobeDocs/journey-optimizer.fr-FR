@@ -349,8 +349,7 @@ ht-degree: 99%
       + Configuration des actions {#action-journeys}
          + [À propos des actions](using/action/action.md)
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
-         + [Intégration avec Adobe Campaign v7/v8
-](using/action/acc-action.md)
+         + [Intégration avec Adobe Campaign v7/v8](using/action/acc-action.md)
    + [Sources](using/get-started-sources.md)
 + Contrôle d’accès {#administration}
    + [Présentation du contrôle d’accès](using/administration/permissions-overview.md)
