@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 92%
+source-wordcount: '879'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La section Classement de l’IA dédiée aux Offers decisionings a été mise à jour avec une description plus détaillée du modèle d’optimisation automatique. [En savoir plus](offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
 * Ajout d’une nouvelle section sur les exigences de schéma pour pouvoir envoyer des types d’événements lors de l’utilisation d’une stratégie de classement - [En savoir plus](offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
+* La section relative à [!DNL Journey Optimizer] les fonctionnalités de personnalisation ont été réorganisées pour une meilleure lisibilité. [En savoir plus](personalization/personalize.md)
 
 ## Novembre 2021
 

@@ -1,13 +1,13 @@
 ---
 title: Cas d’utilisation de la personnalisation&colon; e-mail d’abandon de panier
-description: Découvrez comment personnaliser un message à l’aide de fonctions helper
+description: Découvrez comment personnaliser un message à l’aide de fonctions helper.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
 
@@ -207,7 +207,6 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       </table>
    {{/each}}
    ```
-   
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
    ![](../assets/personalization-uc-helpers-11.png)
 

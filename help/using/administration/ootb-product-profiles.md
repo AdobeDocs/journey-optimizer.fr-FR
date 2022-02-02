@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 18%
 
 ---
@@ -25,7 +25,7 @@ Ce profil de produit comprend les autorisations suivantes :
 |-|-|
 |Parcours| <ul><li> **[!DNL Manage journeys]**: lecture, création, modification et suppression de parcours.</li><li>**[!DNL Publish journeys]**: publier des parcours.</li><li>**[!DNL Manage journeys events, data sources and actions]**: lire, créer, modifier et supprimer des événements, des sources ou des actions.</li><li>**[!DNL View journeys report]**: lire et modifier le rapport parcours.</li></ul>|
 |Messages|<ul><li> **[!DNL Manage messages]**: lire, créer, modifier l&#39;aperçu du message et envoyer test/BAT.</li><li>**[!DNL Manage messages preview and test]**: publier des messages.</li><li>**[!DNL Publish messages]**: lire, créer et modifier l&#39;aperçu du message et envoyer test/BAT.</li><li>**[!DNL View messages report]**: rapport lire et modifier les messages .</li></ul>|
-|Administration|<ul><li>**[!DNL Manage subdomains delegation]**: lire, créer, modifier et supprimer la délégation de sous-domaine.</li><li>**[!DNL Manage IP pools]**: lire, créer, modifier et supprimer le pool ip.</li><li>**[!DNL Manage PTR records]**: lire, créer, modifier et supprimer des enregistrements PTR.</li><li>**[!DNL View PTR records]**: accès en lecture seule aux enregistrements PTR.</li><li> **[!DNL Manage messages general settings]**: lire, créer, modifier et supprimer les paramètres généraux des messages.</li><li>**[!DNL Manage messages presets]**: lire, créer, modifier et supprimer l’identité graphique du contenu.</li><li>**[!DNL Manage suppression rules]**: accéder aux règles de suppression de lecture, création, modification et suppression ;</li><li>**[!DNL View suppression list]**: lire et exporter la liste de suppression locale.</li><li>**[!DNL Manage alerts]**: activer/désactiver des alertes pour les parcours, les messages et les droits ;</li></ul>|
+|Administration|<ul><li>**[!DNL Manage subdomains delegation]**: lire, créer, modifier et supprimer la délégation de sous-domaine.</li><li>**[!DNL Manage IP pools]**: lire, créer, modifier et supprimer le pool ip.</li><li>**[!DNL Manage PTR records]**: lire et modifier des enregistrements PTR.</li><li>**[!DNL View PTR records]**: accès en lecture seule aux enregistrements PTR.</li><li> **[!DNL Manage messages general settings]**: lire, créer, modifier et supprimer les paramètres généraux des messages.</li><li>**[!DNL Manage messages presets]**: lire, créer, modifier et supprimer l’identité graphique du contenu.</li><li>**[!DNL Manage suppression rules]**: accéder aux règles de suppression de lecture, création, modification et suppression ;</li><li>**[!DNL View suppression list]**: lire et exporter la liste de suppression locale.</li><li>**[!DNL Manage alerts]**: activer/désactiver des alertes pour les parcours, les messages et les droits ;</li></ul>|
 |Gestion des décisions|<ul><li>**[!DNL Manage decisions]**: lire, créer, modifier et supprimer des décisions.</li><li>**[!DNL Manage ranking strategies]**: lire, créer, modifier et supprimer des rapports de messages personnalisés et utiliser des fonctions d’action.</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: Accordez l’accès aux environnements de test.</li><li>**[!DNL Manage segments]**: lire, créer, modifier et supprimer des segments.</li><li>**[!DNL Manage profiles]**: lire, créer, modifier et supprimer des profils.</li><li>**[!DNL Read datasets]**: accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]**: accès en lecture seule aux schémas.</li><li>**[!DNL Read Identity namespace]**: accès en lecture seule à l’espace de noms d’identité.</li><li>**[!DNL Manage merge policies]**: lire, créer, modifier et supprimer des stratégies de fusion.</li></ul>|
 

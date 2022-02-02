@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+source-git-commit: 01573675c28972f863e3516577d8a06b403de312
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 99%
+source-wordcount: '910'
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 99%
       + [Création d’une notification push](using/create-push.md)
       + [Création dʼun SMS](using/create-sms.md)
    + [Ajout et gestion des ressources](using/assets-essentials.md)
+   + [Ajout d’offres personnalisées](using/deliver-personalized-offers.md)
    + Conception d’e-mails {#email-designer}
       + [Prise en main de la conception d’e-mails](using/design-emails.md)
       + [Conception de votre contenu d’e-mail dans l’interface utilisateur](using/create-email-content.md)
@@ -49,24 +50,28 @@ ht-degree: 99%
    + [Gestion de la désinscription](using/consent.md)
 + Personnalisation{#personalization}
    + [Prise en main  de la personnalisation](using/personalization/personalize.md)
-   + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-   + [Validation de la personnalisation](using/personalization/personalization-validation.md)
+   + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
+   + Utilisation de l’éditeur d’expression {#expression-editor}
+      + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
+      + [Ajout d’attributs aux favoris](using/personalization/personalization-favorites.md)
+      + [Validation de la personnalisation](using/personalization/personalization-validation.md)
+   + Création d’expressions {#build-expressions}
+      + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
+      + Fonctions helper{#functions}
+         + [Prise en main des fonctions helper](using/personalization/functions/functions.md)
+         + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
+         + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
+         + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
+         + [Fonctions de date](using/personalization/functions/dates.md)
+         + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
+         + [Helpers](using/personalization/functions/helpers.md)
+         + [Fonctions de mappage](using/personalization/functions/maps.md)
+         + [Fonctions d’objet](using/personalization/functions/objects.md)
+         + [Fonctions de chaîne](using/personalization/functions/string.md)
    + Cas pratiques{#personalization-use-cases}
       + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
       + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
-   + Fonctions helper{#functions}
-      + [Prise en main des fonctions helper](using/personalization/functions/functions.md)
-      + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
-      + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
-      + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
-      + [Fonctions de date](using/personalization/functions/dates.md)
-      + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
-      + [Helpers](using/personalization/functions/helpers.md)
-      + [Fonctions de mappage](using/personalization/functions/maps.md)
-      + [Fonctions d’objet](using/personalization/functions/objects.md)
-      + [Fonctions de chaîne](using/personalization/functions/string.md)
-   + [Ajout d’offres personnalisées](using/deliver-personalized-offers.md)
-+ Segments, profils et identités{#segment}
++ Segments, profils et identité{#segment}
    + Segments {#segments}
       + [Prise en main des segments](using/segment/about-segments.md)
       + [Création de segments](using/segment/creating-a-segment.md)
