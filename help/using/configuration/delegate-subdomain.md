@@ -16,14 +16,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
+source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 95%
+source-wordcount: '1468'
+ht-degree: 93%
 
 ---
 
 # Délégation d&#39;un sous-domaine
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname"
+>title="À propos de la délégation de sous-domaine"
+>abstract="Journey Optimizer vous permet de déléguer entièrement vos sous-domaines à l’Adobe. Adobe pourra diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS."
+
 
 La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe.
 
@@ -89,7 +95,7 @@ Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimiz
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer] ****
+>L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation lorsqu’un autre possède la propriété **[!UICONTROL Traitement]** , vous obtiendrez un message d’erreur.
 
 ## Délégation de sous-domaines CNAME {#cname-subdomain-delegation}
 
@@ -157,7 +163,7 @@ Dès la validation de lʼenregistrement et lʼinstallation du certificat termin�
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer] ****
+>L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation lorsqu’un autre possède la propriété **[!UICONTROL Traitement]** , vous obtiendrez un message d’erreur.
 
 ## Validation de sous-domaine {#subdomain-validation}
 
