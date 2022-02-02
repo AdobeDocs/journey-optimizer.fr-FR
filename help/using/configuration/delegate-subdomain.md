@@ -16,7 +16,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
+source-git-commit: 6e5bdf6a23621b7f645283dc6486d485bd8ee8cf
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 93%
@@ -29,7 +29,6 @@ ht-degree: 93%
 >id="ajo_admin_subdomainname"
 >title="À propos de la délégation de sous-domaine"
 >abstract="Journey Optimizer vous permet de déléguer entièrement vos sous-domaines à l’Adobe. Adobe pourra diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS."
-
 
 La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe.
 
