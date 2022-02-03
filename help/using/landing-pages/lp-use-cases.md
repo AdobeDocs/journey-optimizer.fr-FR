@@ -8,14 +8,14 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 77%
 
 ---
 
-# Cas d’utilisation de pages de destination
+# Cas d’utilisation de pages de destination {#lp-use-cases}
 
 Retrouvez ci-dessous quelques exemples sur la façon dont vous pouvez utiliser les pages de destination de [!DNL Journey Optimizer] afin que vos clients puissent sʼinscrire/se désinscrire de lʼenvoi de certaines ou de toutes vos communications.
 
@@ -105,37 +105,37 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 ### Configuration du droit de désinscription {#configure-opt-out}
 
-To enable the recipients of an email to unsubscribe from your communications through a landing page, follow the steps below.
+Pour permettre aux destinataires d&#39;un email de se désabonner de vos communications par le biais d&#39;une landing page, procédez comme suit.
 
-1. Create your landing page. [En savoir plus](create-lp.md)
+1. Créez votre landing page. [En savoir plus](create-lp.md)
 
-1. Define the primary page. [En savoir plus](create-lp.md#configure-primary-page)
+1. Définissez la Principale page. [En savoir plus](create-lp.md#configure-primary-page)
 
-1. [](design-lp.md)************
+1. [Conception](design-lp.md) le contenu Principal de la page : utiliser une landing page spécifique **[!UICONTROL Formulaire]** composant, définir une **[!UICONTROL Exclusion]** et choisissez de mettre à jour **[!UICONTROL Canal (email)]**: le profil qui coche la zone d’exclusion sur votre page d’entrée sera exclu de toutes vos communications.
 
    ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [](create-lp.md#configure-subpages)
+1. Ajouter une confirmation [subpage](create-lp.md#configure-subpages) qui s’affiche pour les utilisateurs qui envoient le formulaire.
 
    ![](../assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
-   >******** [En savoir plus](design-lp.md)
+   >Assurez-vous de référencer la sous-page dans le **[!UICONTROL Appel à l’action]** de la section **[!UICONTROL Formulaire]** composant. [En savoir plus](design-lp.md)
 
-1. [](create-lp.md#publish)
+1. Une fois que vous avez configuré et défini le contenu de vos pages, [publier](create-lp.md#publish) la landing page.
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [](../create-message.md)[!DNL Journey Optimizer]
+1. [Création d’un message électronique](../create-message.md) in [!DNL Journey Optimizer].
 
 1. Sélectionnez du texte dans votre contenu et [insérez un lien](../message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. ********[](create-lp.md#configure-primary-page)
+1. Sélectionner **[!UICONTROL Landing page]** de la **[!UICONTROL Type de lien]** et sélectionnez l’option [landing page](create-lp.md#configure-primary-page) que vous avez créé pour vous exclure.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
@@ -143,15 +143,15 @@ To enable the recipients of an email to unsubscribe from your communications thr
 
 1. Envoyez votre message par le biais d’un parcours. [En savoir plus](../building-journeys/journey.md).
 
-1. Once the message is received, if a recipient clicks the unsubscribe link in the email, your landing page is displayed.
+1. Une fois le message reçu, si un destinataire clique sur le lien de désabonnement contenu dans l&#39;email, votre landing page s&#39;affiche.
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-   If the recipient checks the box and submits the form:
+   Si le destinataire coche la case et envoie le formulaire :
 
-   * The opted-out recipient is redirected to the confirmation message screen.
+   * Le destinataire opt-out est redirigé vers l&#39;écran du message de confirmation.
 
-   * The profile data is updated and will not receive communications from your brand unless subscribed again.
+   * Les données de profil sont mises à jour et ne recevront aucune communication de votre marque, sauf si vous vous êtes à nouveau abonné.
 
 Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform puis au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target=&quot;_blank&quot;}.
 

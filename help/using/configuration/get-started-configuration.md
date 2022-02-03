@@ -9,15 +9,15 @@ solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
-workflow-type: ht
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
 ---
 
 
-# Prise en main de la configuration de [!DNL Journey Optimizer]
+# Prise en main de la configuration de [!DNL Journey Optimizer] {#start-optimizer-configuration}
 
 Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous recevez un environnement Sandbox de production et un certain nombre d&#39;adresses IP vous sont attribuées en fonction de votre contrat.
 
