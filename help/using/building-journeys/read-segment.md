@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1075'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    >[!NOTE]
    >
-   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpr%C3%A9tation-des-r%C3%A9sultats-de-segmentation){target=&quot;_blank&quot;}.
+   >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
@@ -77,7 +77,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](../assets/read-segment-schedule-list.png)
 
-   Le **Lecture incrémentale** permet de ne cibler que les individus entrés dans le segment depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres du segment. Cette option n’est disponible que pour les **Lecture de segment** activités.
+   Lʼoption **Lecture incrémentielle** vous permet de cibler uniquement les individus qui sont entrés dans le segment depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres du segment. Cette option n’est disponible que pour les activités **Lecture de segment** récurrentes.
 
 <!--
 
