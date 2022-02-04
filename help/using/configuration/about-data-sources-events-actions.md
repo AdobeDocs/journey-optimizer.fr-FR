@@ -1,15 +1,15 @@
 ---
-title: Administration et paramètres
-description: Découvrez les instructions relatives à l'administration et aux paramètres.
+title: Configuration de parcours
+description: Découvrez comment configurer les sources de données, les événements et les actions.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 97%
 
 ---
 
@@ -19,17 +19,17 @@ Pour envoyer des messages avec des parcours, vous devez configurer les **[!UICON
 
 ![](../assets/admin-menu.png)
 
-## Sources de données
+## Sources de données {#data-sources}
 
 La configuration des sources de données vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. [En savoir plus](../../using/datasource/about-data-sources.md)
 
-## Événements
+## Événements {#events}
 
 Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.
 
 Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d&#39;ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). [En savoir plus](../../using/event/about-events.md)
 
-## Actions
+## Actions {#actions}
 
 Les fonctionnalités de message Journey Optimizer sont intégrées : il vous suffit de concevoir votre contenu et de publier votre message. Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../../using/action/action.md)
 

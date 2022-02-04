@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
 
-# Liste des règles de décision
+# Liste des règles de décision {#list-decision-rules}
 
 Les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité. Vous pouvez afficher une liste de règles de décision existantes dans un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
@@ -30,11 +30,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | Définit le schéma associé aux règles de décision. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=1` |
 
-## Utilisation des paramètres de requête
+## Utilisation des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
-### Pagination
+### Pagination {#paging}
 
 Les paramètres de requête les plus courants pour la pagination sont les suivants :
 

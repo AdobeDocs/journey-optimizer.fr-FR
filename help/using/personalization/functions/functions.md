@@ -6,8 +6,8 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
-workflow-type: ht
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
 </table>
 </table>
 
-### Fonctions de mappage
+### Fonctions de mappage {#map-functions}
 
 <table>
     <tr>
@@ -144,7 +144,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
     </tr>
 </table>
 
-### Fonctions de chaîne
+### Fonctions de chaîne {#string-functions}
 
 <table>
     <tr>
@@ -280,7 +280,7 @@ Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base 
 </table>
 
 
-### Fonctions booléennes 
+### Fonctions booléennes  {#boolean-functions}
 
 Les fonctions booléennes sont utilisées pour exécuter une logique booléenne sur différents éléments.
 
@@ -300,7 +300,7 @@ Les fonctions booléennes sont utilisées pour exécuter une logique booléenne 
 </table>
 
 
-### Fonctions de comparaison 
+### Fonctions de comparaison  {#comparison-functions}
 
 Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
 
@@ -315,7 +315,7 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
         <td><a href="operators.md#greaterthanorequal">Greater or equals to</a></td><td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde valeur</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Not equals to</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
+        <td><a href="operators.md#notequal">N’est pas égal à</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
     </tr>
     <tr>
         <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la deuxième valeur.</td>

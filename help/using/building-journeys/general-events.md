@@ -7,14 +7,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
 ---
 
-# Événements généraux {#section_ofg_jss_dgb}
+# Événements généraux {#general-events}
 
 Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C&#39;est l&#39;utilisateur technique qui s&#39;en charge. Voir [cette page](../event/about-events.md).
 

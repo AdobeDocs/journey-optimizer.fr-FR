@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
 
-# Répertorier les décisions
+# Répertorier les décisions {#list-decisions}
 
 Une décision (précédemment appelée activité d&#39;offre) contient la logique qui sous-tend la sélection d&#39;une offre.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Utilisation des paramètres de requête
+## Utilisation des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
-### Pagination
+### Pagination {#paging}
 
 Les paramètres de requête les plus courants pour la pagination sont les suivants :
 

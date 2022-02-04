@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Les principales étapes de configuration d’une source de données sont les sui
 >
 >La configuration d’une source de données est toujours effectuée par un **utilisateur technique**.
 
-1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**. La liste des sources de données s’affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../user-interface.md)
+1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**. La liste des sources de données s’affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 
    ![](../assets/journey18.png)
 

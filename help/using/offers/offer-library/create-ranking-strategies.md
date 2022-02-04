@@ -2,21 +2,21 @@
 product: experience platform
 solution: Experience Platform
 title: Création de stratégies de classement
-description: Découvrez comment créer des stratégies de classement dans Adobe Experience Platform.
+description: Découvrez comment créer des modèles AI pour classer les offres
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: e01aacc63f0d395aed70bf9c332db19b322380f0
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 64%
+source-wordcount: '992'
+ht-degree: 99%
 
 ---
 
 # Classements par l&#39;IA {#ai-rankings}
 
-## Prise en main des classements par l&#39;IA
+## Prise en main des classements par l&#39;IA {#get-started-with-ai-rankings}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
@@ -32,21 +32,21 @@ Vous pouvez par exemple sélectionner une stratégie de classement pour le canal
 
 Une fois la formule de classement créée, affectez-la à un emplacement dans une décision. En savoir plus dans la section [Configuration de la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
 
-### Modèle d’optimisation automatique {#auto-optimization}
+### Modèle dʼoptimisation automatique {#auto-optimization}
 
-Actuellement dans [!DNL Journey Optimizer] Le seul type de modèle pris en charge pour le classement AI est **auto-optimisation**.
+Actuellement, le seul type de modèle pris en charge pour le classement par lʼIA dans [!DNL Journey Optimizer] est lʼ&#x200B;**optimisation automatique**.
 
-Un modèle d’optimisation automatique vise à diffuser des offres qui optimisent le retour, en fonction des indicateurs de performances clés (IPC) que vous définissez. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->À ce stade, l’optimisation automatique se concentre sur l’optimisation des clics sur les offres, avec pour cible la conversion des offres.
+Un modèle d’optimisation automatique vise à diffuser des offres qui maximisent le rendement, sur la base des indicateurs clés de performance (KPI) que vous avez définis. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme objectif final la conversion de lʼoffre.
 
 >[!NOTE]
 >
 >Le modèle d’optimisation automatique n’utilise aucune donnée contextuelle ou de profil utilisateur. Il optimise les résultats en fonction des performances globales des offres.
 
-Avec l’optimisation automatique, le défi est d’équilibrer l’apprentissage exploratoire et l’exploitation de cet apprentissage. Ce principe est connu sous le nom de **approche du &quot;bandit à plusieurs bras&quot;**.
+Toute la difficulté avec lʼoptimisation automatique consiste à atteindre un équilibre entre l’apprentissage exploratoire et l’exploitation de cet apprentissage. Ce principe est connu sous le nom d’**approche du « bandit manchot »**.
 
-Pour relever ce défi, le modèle d’optimisation automatique utilise la méthode **Échantillonnage de Thompson** qui permet d’identifier l’option à rechercher pour maximiser les récompenses attendues. En d&#39;autres termes, Thompson Sampling est un type de technique d&#39;apprentissage par le renforcement pour résoudre le dilemme de l&#39;exploration-exploitation dans un problème de bandit à plusieurs bras.
+Pour relever ce défi, le modèle d’optimisation automatique utilise la méthode **Échantillonnage de Thompson**, qui permet d’identifier l’option à poursuivre pour maximiser les gains attendus. En dʼautres termes, lʼéchantillonnage de Thompson est un type de technique dʼapprentissage par renforcement, cherchant à résoudre le dilemme exploration-exploitation dans un problème de bandit manchot.
 
-La méthode d’échantillonnage de Thompson permet également de gérer des défis tels que le problème du &quot;démarrage à froid&quot;, c’est-à-dire lorsqu’une nouvelle offre est introduite dans la campagne, elle ne dispose d’aucun historique à partir duquel elle pourrait s’entraîner.
+La méthode dʼéchantillonnage de Thompson permet également de relever des défis tels que le problème du « démarrage à froid », qui est le suivant : une nouvelle offre est introduite dans la campagne, mais elle nʼa pas dʼhistorique dont elle pourrait sʼinspirer.
 
 ## Création d’une stratégie de classement {#create-ranking-strategy}
 
@@ -128,7 +128,6 @@ Vous devez créer un jeu de données dans lequel les événements de conversion 
    >[!NOTE]
    >Le groupe de champs était auparavant appelé « mixin ».
 
-
 1. Saisissez un nom et enregistrez le schéma.<!--How do you edit the fields in this new schema? Examples?-->
 
 >[!NOTE]
@@ -155,24 +154,24 @@ Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce sch
 
    ![](../../assets/ai-ranking-dataset-name.png)
 
-Le jeu de données est maintenant prêt à être sélectionné pour collecter des données d’événement lors de la [création d’une stratégie de classement](#create-ranking-strategy).
+Le jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼune stratégie de classement](#create-ranking-strategy).
 
-## Configuration requise du schéma des offres {#schema-requirements}
+## Exigences relatives au schéma de lʼoffre {#schema-requirements}
 
-À ce stade, vous devez disposer des éléments suivants :
+À ce stade, vous devez avoir :
 
-* a créé la stratégie de classement,
-* a défini le type d&#39;événement que vous souhaitez capturer : offre affichée (impression) et/ou offre sur laquelle l&#39;utilisateur a cliqué (conversion),
-* et dans quel jeu de données vous souhaitez collecter les données d’événement.
+* créé la stratégie de classement,
+* défini le type dʼévénement à capturer : offre affichée (impression) et/ou offre ayant fait l’objet d’un clic (conversion)
+* ainsi que le jeu de données dans lequel vous souhaitez collecter les données d’événement.
 
-Désormais, chaque fois qu’une offre est affichée et/ou que vous cliquez dessus, vous souhaitez que l’événement correspondant soit automatiquement capturé par la variable **[!UICONTROL Événement d’expérience - Interactions de propositions]** groupe de champs à l’aide de [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} ou SDK Mobile.
+Désormais, chaque fois quʼune offre est affichée et/ou qu’un utilisateur clique dessus, vous souhaitez que lʼévénement correspondant soit automatiquement capturé par le groupe de champs **[!UICONTROL Événement dʼexpérience - Interactions de proposition]** à lʼaide du [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} ou du SDK mobile.
 
-Pour envoyer des types d’événement (offre affichée ou offre sur laquelle l’utilisateur a cliqué), vous devez définir la valeur correcte de chaque type d’événement dans un événement d’expérience envoyé dans Adobe Experience Platform. Vous trouverez ci-dessous les exigences de schéma à implémenter dans votre code JavaScript :
+Pour envoyer des types d’événement (offre affichée ou offre ayant fait l’objet d’un clic), vous devez définir la valeur correcte pour chaque type d’événement dans un événement d’expérience qui est envoyé dans Adobe Experience Platform. Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter dans votre code JavaScript :
 
-**Scénario :** Offre affichée
-**Type d’événement :** `decisioning.propositionDisplay`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
-**Exemple de payload :**
+**Scénario :** offre affichée
+**Type d’événement :** `decisioning.propositionDisplay`
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
+**Exemple de payload :**
 
 ```
 {
@@ -198,10 +197,10 @@ Pour envoyer des types d’événement (offre affichée ou offre sur laquelle l�
 }
 ```
 
-**Scénario :** Offre sur laquelle l’utilisateur a cliqué
-**Type d’événement :** `decisioning.propositionInteract`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
-**Exemple de payload :**
+**Scénario :** offre ayant fait l’objet d’un clic
+**Type d’événement :** `decisioning.propositionInteract`
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
+**Exemple de payload :**
 
 ```
 {

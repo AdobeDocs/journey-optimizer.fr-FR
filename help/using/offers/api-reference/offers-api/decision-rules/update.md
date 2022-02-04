@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
 
-# Mettre à jour une règle de décision
+# Mettre à jour une règle de décision {#update-decision-rule}
 
 Vous pouvez modifier ou mettre à jour des règles de décision dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
 
 Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

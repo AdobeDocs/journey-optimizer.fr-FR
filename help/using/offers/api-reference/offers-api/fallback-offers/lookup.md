@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
 ---
 
-# Rechercher des offres de secours
+# Rechercher des offres de secours {#look-up-fallback-offers}
 
 Vous pouvez rechercher des offres de secours spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit l’offre de secours `@id` soit le nom de l’offre de secours dans le chemin de la requête.
 

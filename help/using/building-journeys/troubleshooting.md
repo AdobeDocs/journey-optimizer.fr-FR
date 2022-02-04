@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
-workflow-type: ht
-source-wordcount: '1057'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 97%
 
 ---
 
-# Dépannage{#concept_nlv_bcv_2fb}
+# Dépannage de votre parcours{#troubleshooting}
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. Voir [cette page](../building-journeys/testing-the-journey.md).
 
-## Vérification des erreurs avant le test{#section_h3q_kqk_fhb}
+## Vérifier les erreurs avant le test{#checking-for-errors-before-testing}
 
 Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
 
@@ -41,7 +41,7 @@ Les erreurs et les avertissements globaux du parcours apparaissent en tête de l
 
 Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
-## Vérification de l&#39;envoi correct des événements{#section_rqz_11t_dgb}
+## Vérifier que les événements sont correctement envoyés{#checking-that-events-are-properly-sent}
 
 Le point de départ d&#39;un parcours est toujours un événement. Il est possible d&#39;effectuer des tests à l&#39;aide d&#39;outils tels que Postman.
 
@@ -49,7 +49,7 @@ Vous pouvez ainsi vérifier si l&#39;appel d&#39;API émis via ces outils est co
 
 Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s&#39;appuient sur les API d&#39;ingestion en flux continu d&#39;Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target=&quot;_blank&quot;} pour la résolution des problèmes concernant les API d&#39;ingestion en flux continu.
 
-## Vérification de l&#39;entrée des visiteurs dans le parcours{#section_x4v_zzs_dgb}
+## Vérifier si les personnes entrent dans le parcours{#checking-if-people-enter-the-journey}
 
 Les rapports produits par Journey donnent des mesures en temps réel des entrées des visiteurs dans un parcours.
 
@@ -69,7 +69,7 @@ En tant qu&#39;administrateur, vous devez vérifier les points suivants :
    Content-type - application/json
    ```
 
-## Vérification de la manière dont les visiteurs naviguent dans le parcours{#section_l5y_yzs_dgb}
+## Vérifier la manière dont les gens naviguent dans le parcours{#checking-how-people-navigate-through-the-journey}
 
 Les rapports produits par Journey mesurent la progression des individus dans un parcours. Il est très facile d&#39;identifier où et pourquoi une personne s&#39;est arrêtée.
 
@@ -78,7 +78,7 @@ Les éléments à vérifier sont les suivants :
 * La situation est-elle due à une condition excluant la personne concernée ? Par exemple, la condition est « genre = masculin » et la personne est une femme. Si la condition n&#39;est pas trop complexe, un utilisateur chargé de la conception de parcours peut effectuer cette vérification.
 * La situation est-elle due à une source de données qui ne répond pas ? Lorsque le parcours est en test, ces informations apparaissent dans les journaux du mode test. Lorsque le parcours est actif, un administrateur peut tester les appels directs à la source de données et vérifier la réponse reçue. Il peut également dupliquer le parcours et le tester.
 
-## Vérification de l&#39;envoi des messages{#section_qb1_yzs_dgb}
+## Vérifier que les messages sont envoyés avec succès{#checking-that-messages-are-sent-successfully}
 
 Si les individus suivent le bon chemin dans le parcours sans recevoir de messages, vous pouvez vérifier les points suivants :
 

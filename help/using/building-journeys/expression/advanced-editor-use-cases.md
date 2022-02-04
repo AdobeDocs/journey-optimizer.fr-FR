@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
 ---
 
-# Exemples d’expressions avancées
+# Exemples d’expressions avancées{#advanced-expression-examples}
 
 L’éditeur d’expression avancé sert à créer des conditions pour filtrer les utilisateurs dans vos parcours. Ces conditions permettent de cibler les utilisateurs en fonction de l’heure, de la date, de l’emplacement, de la durée ou des actions, notamment l’achat ou l’abandon de panier pour pouvoir les recibler dans le parcours.
 
@@ -25,7 +25,7 @@ L’éditeur d’expression avancé sert à créer des conditions pour filtrer l
 
 L’éditeur d’expression avancé est obligatoire pour effectuer des requêtes sur des séries temporelles, comme une liste d’achats ou des clics antérieurs sur des messages. L’éditeur simple ne permet pas d’effectuer ces requêtes.
 
-Les événements d’expérience sont extraits d’Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
+Les événements d’expérience sont récupérés d’Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
 
 * La fonction first renvoie l’événement le plus récent.
 * La fonction last renvoie l’événement le plus ancien.

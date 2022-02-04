@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
-# Supprimer une balise
+# Supprimer une balise {#delete-tag}
 
 Il peut parfois être nécessaire de supprimer (DELETE) une balise. Seules les balises que vous créez dans le conteneur de tenant peuvent être supprimées. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant le $id de la balise que vous souhaitez supprimer.
 

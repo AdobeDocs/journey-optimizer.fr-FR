@@ -1,19 +1,19 @@
 ---
 title: Étapes clés de la création d’une offre
-description: Découvrez les étapes clés nécessaires à la création dʼune offre.
+description: Découvrez les étapes clés nécessaires à la création dʼune offre
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
 ---
 
-# Étapes clés de création et de gestion des offres {#key-steps}
+# Étapes clés de création et de gestion des offres {#key-steps-to-manage-offers}
 
 Les principales étapes de création, de configuration et de gestion des offres, ainsi que de leur utilisation dans une décision, sont présentées ci-dessous.
 
@@ -21,7 +21,7 @@ Les principales étapes de création, de configuration et de gestion des offres,
 
 Pour obtenir un exemple complet montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un e-mail, consultez [cette page](../offers-e2e.md).
 
-## Création de composants
+## Création de composants {#create-components}
 
 Avant de commencer à créer des offres, vous devez définir plusieurs composants que vous utiliserez dans vos offres.
 
@@ -41,7 +41,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Création de formules de classement</a></p></td>
 </table>
 
-## Création et gestion des offres
+## Création et gestion des offres {#create-and-manage-offers}
 
 1. **Créez des offres** et configurez leur contenu et leurs propriétés.
 
@@ -56,7 +56,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Création de collections</a></p></td></tr>
 </table>
 
-## Création et configuration des décisions
+## Création et configuration des décisions {#create-and-configure-decisions}
 
 1. **Créez une décision** qui combine des emplacements avec des offres personnalisées et des offres de secours. Cette combinaison sera utilisée par le moteur Offer Decisioning pour trouver la meilleure offre pour un profil spécifique.
 

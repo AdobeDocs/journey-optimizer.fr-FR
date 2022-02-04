@@ -1,19 +1,19 @@
 ---
 title: Création de règles de décision
-description: Découvrez comment créer des règles de décision dans Adobe Experience Platform.
+description: Découvrez comment créer des règles de décision pour définir à qui les offres peuvent être affichées
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
-# Création de règles de décision {#creating-decision-rules}
+# Création de règles de décision {#create-decision-rules}
 
 Vous pouvez créer des règles de décision d&#39;offre basées sur les données disponibles dans Adobe Experience Platform. Les règles de décision déterminent pour qui une offre peut être affichée.
 
@@ -41,7 +41,8 @@ Pour créer cette règle de décision, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le Créateur de segments fourni pour créer des règles de décision présente certaines spécificités par rapport à celui utilisé avec le service **[!UICONTROL Destinations d&#39;audience]**. Par exemple, l&#39;onglet **[!UICONTROL Segments]** n&#39;est pas disponible. Cependant, le processus global décrit dans la documentation du Créateur de segments est toujours valide pour créer des règles de prise de décision pour les offres.
+   >Le Créateur de segments fourni pour créer des règles de décision présente certaines spécificités par rapport à celui utilisé avec le service **[!UICONTROL Destinations d&#39;audience]**. Par exemple, l&#39;onglet **[!UICONTROL Segments]** n&#39;est pas disponible. Cependant, le processus global décrit dans la documentation du Créateur de segments est toujours valide pour créer des règles de décision d&#39;offre.
+
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour valider.
 

@@ -1,19 +1,19 @@
 ---
 title: Création de balises
-description: Découvrez comment créer des offres dans Adobe Experience Platform.
+description: Découvrez comment créer des balises pour vos offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 95%
 
 ---
 
-# Création de balises {#creating-tags}
+# Création de balises {#create-tags}
 
 L&#39;association de balises à vos offres facilite leur organisation. Par exemple, vous pouvez libeller vos offres Black Friday à l&#39;aide de la balise « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à cette balise.
 

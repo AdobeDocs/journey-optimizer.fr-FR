@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
-# Création d&#39;une offre de secours
+# Création d&#39;une offre de secours {#create-fallback-offer}
 
 Vous pouvez créer une offre de secours en adressant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Création de simulations
+# Création de simulations {#create-simulations}
 
 ## À propos de la simulation
 
@@ -47,7 +47,7 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
 
    >[!NOTE]
    >
-   >Un espace de noms d’identité définit le contexte d’un identifiant, tel qu’une adresse e-mail ou un identifiant CRM. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../../get-started-identity.md){target=&quot;_blank&quot;}.
+   >Un espace de noms d’identité définit le contexte d’un identifiant, tel qu’une adresse e-mail ou un identifiant CRM. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Saisissez la valeur d’identité et cliquez sur **[!UICONTROL Affichage]** pour répertorier les profils disponibles. 
 
@@ -63,7 +63,7 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
 
 1. Vous pouvez cliquer sur le lien **[!UICONTROL Détails du profil]** pour afficher les données de profil sélectionnées. 
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Ajout de portée de décision
 
@@ -104,7 +104,7 @@ Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur
    >
    >Même si vous définissez plusieurs portées de décision, une seule demande d’API est simulée.  
    >
-   >Par défaut, tous les indicateurs de déduplication sont activés pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition dans plusieurs décisions/emplacements. Pour en savoir plus sur les propriétés des demandes de l’API [!DNL Decisions], consultez [cette section](../api-reference/decisions-api/deliver-offers.md). <!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
+   >Tous les indicateurs de déduplication sont activés par défaut pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition dans plusieurs décisions/placements. Pour en savoir plus sur les propriétés des demandes de l’API [!DNL Decisions], consultez [cette section](../api-reference/decisions-api/deliver-offers.md).<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
 
 <!--SIMULATIONS V2
 

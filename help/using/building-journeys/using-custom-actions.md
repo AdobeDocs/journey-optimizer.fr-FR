@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
 ---
 
-# Utilisation d’actions personnalisées {#section_f2c_hbg_nhb}
+# Utilisation d’actions personnalisées {#use-custom-actions}
 
 Le volet de configuration des activités affiche les paramètres de configuration de l’URL et les paramètres d’authentification configurés pour l’action personnalisée. [En savoir plus](../action/about-custom-action-configuration.md).
 

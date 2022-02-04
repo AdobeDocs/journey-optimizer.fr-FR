@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1751'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 >
 > * La configuration des préréglages de message est limitée aux administrateurs de parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Vous devez effectuer les étapes de configuration du canal E-mail et [Push](../push-configuration.md) avant de créer des préréglages de message. 
+> * Vous devez effectuer les étapes de configuration du canal E-mail et [Push](../messages/push-configuration.md) avant de créer des préréglages de message. 
 
 
 Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages. 
@@ -62,23 +62,18 @@ Pour créer un préréglage de message, procédez comme suit :
       >
       >Les adresses e-mail doivent utiliser le [sous-domaine délégué](about-subdomain-delegation.md) actuellement sélectionné. 
 
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
-
       * **[!UICONTROL Nom de l’expéditeur]** : le nom de l’expéditeur, tel que le nom de votre marque. 
 
       * **[!UICONTROL E-mail de l&#39;expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com*.
 
       * **[!UICONTROL Répondre à (nom)]** : le nom qui sera utilisé lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
 
-      * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les e-mails seront ignorés. 
+      * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les e-mails seront ignorés.
 
       * **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. 
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >À partir de la version d’octobre 2021, il n’est plus possible de définir une adresse e-mail de renvoi à partir de l’interface utilisateur [!DNL Journey Optimizer]. Si vous souhaitez que tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué soient transférés à une adresse e-mail spécifique, contactez l’[Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
+      >À partir de la version d’octobre 2021, il n’est plus possible de définir une adresse e-mail de renvoi à partir de l’interface utilisateur [!DNL Journey Optimizer]. Si vous souhaitez que tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué soient transférés à une adresse e-mail spécifique, contactez l’[Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
    * Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
 
-      Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../push-gs.md).
+      Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../messages/push-gs.md).
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ Pour créer un préréglage de message, procédez comme suit :
    >Si les vérifications ne réussissent pas, découvrez les raisons possibles de l’échec dans [cette section](#monitor-message-presets).
 
 1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ Pour les préréglages de message affichant le statut **[!UICONTROL Actif]**, vo
 
    ![](../assets/preset-view-update-details.png)
 
-Sur l’écran **[!UICONTROL Mise à jour récente]**, des informations telles que le statut de la mise à jour, <!--the approximate remaining time before completion (if validation is in progress)--> et la liste des modifications demandées sont disponibles. 
+Sur l’écran **[!UICONTROL Mise à jour récente]**, des informations telles que le statut de la mise à jour,  et la liste des modifications demandées sont disponibles. 
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ Si vous modifiez un préréglage qui était déjà actif :
 >
 >Vous ne pouvez pas modifier un préréglage de message pendant que la mise à jour est en cours. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi. 
 
-### Réussite
+### Réussite {#success}
 
 Une fois le processus de validation réussi, la nouvelle version du préréglage est automatiquement utilisée dans tous les messages utilisant ce préréglage. Cependant, vous devrez peut-être attendre :
 * quelques minutes avant qu’il soit consommé par les messages unitaires, 
 * jusqu’au lot suivant pour que le préréglage soit effectif dans les messages par lots. 
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### Échec
+### Échec {#failed}
 
 Si le processus de validation échoue, l’ancienne version du préréglage sera toujours utilisée. 
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 Pour en savoir plus sur les causes possibles d’échec, consultez [cette section](#monitor-message-presets). 
 
@@ -300,18 +286,6 @@ Pour empêcher la création de nouveaux messages à partir d’un préréglage d
 Vous ne pouvez pas modifier directement un préréglage de message désactivé. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier. 
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## Vidéo pratique{#video-presets}
 

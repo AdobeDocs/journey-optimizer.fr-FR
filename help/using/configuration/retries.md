@@ -1,23 +1,13 @@
 ---
 title: Reprises
 description: Découvrez comment les reprises sont effectuées avant d'envoyer une adresse à la liste de suppression
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -29,7 +19,7 @@ Lorsqu’un e-mail échoue en raison d’une erreur temporaire **Soft bounce**, 
 
 >[!NOTE]
 >
->Pour en savoir plus sur les types d’erreurs, consultez la section [Types d’échec de diffusion](../suppression-list.md#delivery-failures).
+>Pour en savoir plus sur les types d’erreurs, consultez la section [Types d’échec de diffusion](../messages/suppression-list.md#delivery-failures).
 
 Dans la configuration par défaut, le seuil est défini à cinq erreurs.
 
@@ -55,11 +45,7 @@ Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez mod
 
    >[!CAUTION]
    >
-   >Toute valeur supérieure à 10 peut entraîner des problèmes de réputation en matière de délivrabilité, ainsi que la limitation ou la mise sur liste bloquée des adresses IP par les FAI. [En savoir plus sur la délivrabilité](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >Toute valeur supérieure à 10 peut entraîner des problèmes de réputation en matière de délivrabilité, ainsi que la limitation ou la mise sur liste bloquée des adresses IP par les FAI. [En savoir plus sur la délivrabilité](../messages/deliverability.md)
 
 ## Période de reprise {#retry-duration}
 
@@ -77,6 +63,3 @@ Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un 
 
 Découvrez comment ajuster les paramètres de reprise d’e-mail lors de la création d’un préréglage de message dans [cette section](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

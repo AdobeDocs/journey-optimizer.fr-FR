@@ -1,23 +1,25 @@
 ---
-title: Délégation de sous-domaines
+title: Délégation de sous-domaines dans [!DNL Journey Optimizer]
 description: Découvrez comment déléguer vos sous-domaines
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 97%
 
 ---
 
 # Délégation de sous-domaines dans [!DNL Journey Optimizer] {#subdomain-delegation}
 
 La création d&#39;un sous-domaine pour les campagnes e-mail permet aux marques d&#39;isoler différents types de trafic (marketing par rapport à entreprise, par exemple) dans des pools d&#39;adresses IP spécifiques et avec des domaines particuliers, ce qui accélère le processus de réchauffement des adresses IP et améliore la délivrabilité globale. Si vous partagez un domaine et qu&#39;il est bloqué ou ajouté à la liste bloquée, il peut y avoir un impact sur la diffusion des e-mails de votre entreprise. Les problèmes de réputation ou les blocages d&#39;un domaine particulier de vos communications marketing par e-mail auront un impact spécifique sur ce flux de messagerie. L&#39;utilisation de votre domaine principal comme adresse d&#39;expéditeur pour différents flux d&#39;e-mails peut également interrompre l&#39;authentification par e-mail, ce qui bloque ou place vos messages dans le dossier des courriers indésirables.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et provenant d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
 ## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
 

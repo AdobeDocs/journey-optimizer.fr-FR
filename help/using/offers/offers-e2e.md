@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 Cette section présente un exemple complet de la configuration des offres et de leur utilisation dans un e-mail, en fonction d&#39;une décision que vous avez précédemment créée.
 
-## Principales étapes
+## Principales étapes {#main-steps}
 
 Les étapes clés de configuration des offres, de leur inclusion dans une décision et de l&#39;utilisation de cette décision dans un e-mail sont répertoriées ci-dessous :
 
@@ -225,11 +225,11 @@ Les étapes détaillées pour créer et configurer une décision sont présenté
 
 Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Procédez comme suit :
 
-1. Créez votre e-mail, puis ouvrez le [Concepteur d&#39;e-mail](../../using/design-emails.md) pour configurer son contenu.
+1. Créez votre e-mail, puis ouvrez le [Concepteur d&#39;e-mail](../../using/messages/design-emails.md) pour configurer son contenu.
 
 1. Ajoutez un composant de structure à partir de la palette gauche.
 
-1. Ajoutez un composant de contenu **[!UICONTROL Décision d&#39;offre]**. Découvrez comment utiliser les composants de contenu dans [cette section](../../using/content-components.md).
+1. Ajoutez un composant de contenu **[!UICONTROL Décision d&#39;offre]**. Découvrez comment utiliser les composants de contenu dans [cette section](../../using/messages/content-components.md).
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -255,19 +255,19 @@ Vous pouvez maintenant visualiser toutes les offres personnalisées et l&#39;off
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-Utilisez la section **[!UICONTROL Offres]** ou les flèches des composants de contenu (flèches droite et gauche) pour parcourir les données. Vous pouvez également afficher les différentes offres qui font partie de la décision avec un profil client. En savoir plus dans [cette section](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+Utilisez la section **[!UICONTROL Offres]** ou les flèches des composants de contenu (flèches droite et gauche) pour parcourir les données. Vous pouvez également afficher les différentes offres qui font partie de la décision avec un profil client. En savoir plus dans [cette section](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 
 Une fois vos modifications enregistrées et le message publié, vos offres sont prêtes à être affichées pour les profils pertinents lors de l&#39;envoi du message dans le cadre d&#39;un parcours.
 
 >[!NOTE]
 >
->Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre qui est référencée directement ou indirectement dans une [publié](../../using/publish-manage-message.md) , les mises à jour sont désormais automatiquement répercutées dans le message correspondant, sans avoir à le republier.
+>Lorsque vous mettez à jour une offre, une offre de secours, une collection d’offres ou une décision d’offre qui est directement ou indirectement référencée dans un message [publié](../../using/messages/publish-manage-message.md), les mises à jour sont désormais automatiquement reflétées dans le message correspondant, sans quʼil soit nécessaire de le republier.
 
 **Rubriques connexes :**
 
-* Découvrez comment vérifier la prévisualisation du message dans [cette section](../../using/preview.md#preview-your-messages).
+* Découvrez comment vérifier la prévisualisation du message dans [cette section](../../using/messages/preview.md#preview-your-messages).
 
-* Découvrez comment publier des messages dans [cette section](../../using/publish-manage-message.md).
+* Découvrez comment publier des messages dans [cette section](../../using/messages/publish-manage-message.md).
 
 * Découvrez comment les messages sont déclenchés par un ou plusieurs parcours dans [cette section](../building-journeys/journey.md).
 

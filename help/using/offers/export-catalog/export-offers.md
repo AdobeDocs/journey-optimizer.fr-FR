@@ -1,13 +1,13 @@
 ---
 title: Jeu de données d'offres personnalisées
-description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres.
+description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
 
@@ -29,14 +29,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Identifiant
+## Identifiant {#identifier}
 
 **Champ :** _id 
 **Titre :** identifiant 
 **Description :** identifiant unique de l&#39;enregistrement.
 **Type :** chaîne
 
-## _experience
+## _experience {#experience}
 
 **Champ :** _experience
 **Type :** objet
@@ -84,7 +84,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **_experience > prise de décision > contenu > composants**
 
 **Champ :** composants
-**Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat de placement.
+**Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
 **Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
@@ -314,7 +314,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Champ :** _repo 
 **Type :** objet

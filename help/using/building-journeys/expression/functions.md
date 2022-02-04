@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
-# Fonctions {#concept_p1r_qj5_dgb}
+# Fonctions {#functions}
 
 Une fonction peut avoir différentes signatures (ensemble différent de paramètres ordonnés). Une signature de fonction peut avoir de 0 à N expressions sous la forme de paramètres ordonnés.
 
@@ -69,7 +69,7 @@ Voici la liste des fonctions prises en charge :
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| Mathématiques | [round](../functions/functionround.md) |
 | Chaîne | [concat](../functions/functionconcat.md) |
 | Chaîne | [contain](../functions/functioncontain.md) |
 | Chaîne | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

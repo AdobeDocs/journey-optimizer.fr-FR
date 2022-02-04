@@ -8,8 +8,8 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
 
@@ -23,15 +23,15 @@ Pour commencer à créer du contenu pour votre [page principale](create-lp.md#co
 
 Plusieurs possibilités sʼoffrent alors à vous :
 
-* **Concevez votre page de destination à partir de rien** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets Essentials](../assets-essentials.md). Découvrez comment concevoir votre contenu ou utiliser des modèles intégrés [dans cette section](../create-email-content.md).
+* **Concevez votre page de destination à partir de rien** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Découvrez comment concevoir votre contenu ou utiliser des modèles intégrés [dans cette section](../messages/create-email-content.md).
 
-* **Codez ou collez du code HTML brut** directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../existing-content.md#import-raw-html-code).
+* **Codez ou collez du code HTML brut** directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../messages/existing-content.md#import-raw-html-code).
 
-* **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer du contenu [dans cette section](../existing-content.md#import-html-content-from-file).
+* **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer du contenu [dans cette section](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->Le concepteur de contenu pour la page de destination est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../design-emails.md).
+>Le concepteur de contenu pour la page de destination est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## Définition de contenu spécifique aux pages de destination {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   Vous pouvez prévisualiser certains de vos paramètres, tels que la couleur du libellé du bouton au survol à lʼaide du bouton **[!UICONTROL Prévisualiser]**. En savoir plus sur le test des pages de destination [ici](create-lp.md#test).
+   Vous pouvez prévisualiser certains de vos paramètres, tels que la couleur du libellé du bouton au survol à lʼaide du bouton **[!UICONTROL Prévisualiser]**. En savoir plus sur le test des pages de destination [ici](create-lp.md#test-landing-page).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

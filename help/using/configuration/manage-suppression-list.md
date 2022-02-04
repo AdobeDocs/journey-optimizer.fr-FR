@@ -1,23 +1,13 @@
 ---
 title: Gestion de la liste de suppression
 description: Découvrez comment accéder à la liste de suppression de Journey Optimizer et la gérer
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 100%
 
@@ -31,7 +21,7 @@ Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail
 * Les adresses qui font l’objet de soft bounces systématiques et qui sont susceptibles de nuire à votre réputation en matière d’e-mails si vous continuez à les inclure dans vos diffusions.
 * Les destinataires qui déposent une plainte pour spam contre l&#39;un de vos e-mails.
 
-Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../suppression-list.md).
+Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../messages/suppression-list.md).
 
 ## Accès à la liste de suppression {#access-suppression-list}
 
@@ -41,15 +31,9 @@ Pour accéder à la liste détaillée des adresses e-mail exclues, accédez à *
 >
 >Les autorisations d’affichage, d’export et de gestion de la liste de suppression sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 
-<!--![](../assets/suppression-list-link.png)
-
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
-
 ![](../assets/suppression-list-access.png)
 
 Des filtres sont disponibles pour vous aider à parcourir la liste.
-
-<!--![](../assets/suppression-list-filters-temp.png)-->
 
 ![](../assets/suppression-list-filters.png)
 
@@ -65,7 +49,7 @@ Si vous ajoutez manuellement une adresse e-mail ou un domaine par erreur, le bou
 
 ![](../assets/suppression-list-delete.png)
 
-La suppression d’une adresse e-mail ou d’un domaine de la liste de suppression signifie que vous recommencerez à délivrer à cette adresse ou à ce domaine. Par conséquent, cela peut avoir de graves répercussions sur votre délivrabilité et votre réputation IP, ce qui peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi. En savoir plus sur l’importance de la maintenance d’une liste de suppression dans [cette section](../suppression-list.md).
+La suppression d’une adresse e-mail ou d’un domaine de la liste de suppression signifie que vous recommencerez à délivrer à cette adresse ou à ce domaine. Par conséquent, cela peut avoir de graves répercussions sur votre délivrabilité et votre réputation IP, ce qui peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi. En savoir plus sur l’importance de la maintenance d’une liste de suppression dans [cette section](../messages/suppression-list.md).
 
 >[!NOTE]
 >
@@ -91,17 +75,11 @@ Les catégories de suppression sont les suivantes :
 
 * **Soft** : les erreurs de type Soft envoient une adresse à la liste de suppression une fois que le compteur d&#39;erreurs a atteint le seuil limite. [En savoir plus sur les reprises](retries.md)
 
-   <!--
-    **Ignored**:
-    * When the error occurred for a valid email address but is known to be temporary, such as a failed connection attempt or a temporary technical issue, the email address is added to the suppression list once the error counter reaches the limit threshold. [Learn more on retries](retries.md).
-    * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
-    -->
-
 * **Manuel** : vous pouvez également ajouter manuellement une adresse e-mail ou un domaine à la liste de suppression. [En savoir plus](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->Pour en savoir plus sur les soft bounces et les hard bounces, consultez la section [Types de diffusion en échec](../suppression-list.md#delivery-failures).
+>Pour en savoir plus sur les soft bounces et les hard bounces, consultez la section [Types de diffusion en échec](../messages/suppression-list.md#delivery-failures).
 
 Pour chaque adresse e-mail répertoriée, vous pouvez également vérifier le **[!UICONTROL type]** (e-mail ou domaine), le **[!UICONTROL motif]** de son exclusion et la date/l’heure de son ajout à la liste de suppression.
 
@@ -121,27 +99,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 >[!NOTE]
 >
->Les utilisateurs désabonnés ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Par conséquent, leurs adresses e-mail ne peuvent pas être envoyées à la liste de suppression. Leur choix est géré au niveau d&#39;Experience Platform. [En savoir plus sur la désinscription](../consent.md)
-
-<!--
-Removed from the table provided by SparkPost/Momentum:
-| **[!UICONTROL Undetermined]** | The bounce reason received from the recipient domain Message Transfer Agent (MTA) could not be identified. | Ignored |
-| **[!UICONTROL Too Large]** | The message bounced because it was too large for the recipient. [Retries](retries.md) will be performed: you can edit the message size and re-inject it for delivery. | Ignored |
-| **[!UICONTROL Timeout]** | The message timed out, meaning it soft bounced and reached the message retry limit (3.5 days). | Ignored |
-| **[!UICONTROL Admin Failure]** | The message was failed according to the policies configured by the sending system administrator. ///For example, if emails are blackholed at the global, domain or binding level using the "blackhole" directive, this bounce code is used. | Ignored |
-| **[!UICONTROL Generic Bounce: No RCPT]** | No recipient could be determined for the message. | Ignored |
-| **[!UICONTROL Generic Bounce]** | The message failed for unspecified reasons. | Ignored |
-| **[!UICONTROL Mail Block]** | The message was blocked by the receiver (i.e. recipient MTA). | Ignored |
-| **[!UICONTROL Spam Block]** | The message was blocked by the receiver as coming from a known spam source. It could be a sending IP block for example. | Ignored |
-| **[!UICONTROL Spam Content]** | The message content was blocked by the receiver (recipient MTA) as spam. | Ignored |
-| **[!UICONTROL Prohibited Attachment]** | The message was blocked by the receiver because it contained an attachment. | Ignored |
-| **[!UICONTROL Auto-Reply]** | The message is an auto-reply/vacation mail. | Ignored |
-| **[!UICONTROL Transient Failure]** | Message transmission has been temporarily delayed. | Ignored |
-| **[!UICONTROL Subscribe]** | The message is a subscribe request. | Ignored |
-| **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
--->
-
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
+>Les utilisateurs désabonnés ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Par conséquent, leurs adresses e-mail ne peuvent pas être envoyées à la liste de suppression. Leur choix est géré au niveau d&#39;Experience Platform. [En savoir plus sur la désinscription](../messages/consent.md)
 
 ## Ajout manuel d’adresses et de domaines {#add-addresses-and-domains}
 
@@ -186,7 +144,6 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   
    Vous pouvez également télécharger ce modèle à partir de la vue principale **[!UICONTROL Liste de suppression]**.
 
    >[!CAUTION]

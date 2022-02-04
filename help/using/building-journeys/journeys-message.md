@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
-# Ajout d&#39;un message dans un parcours
+# Ajout d&#39;un message dans un parcours{#add-a-message-in-a-journey}
 
-Les fonctionnalités de message [!DNL Journey Optimizer] sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou e-mail conçu à l&#39;aide de Journey Optimizer.
+Les fonctionnalités de message [!DNL Journey Optimizer] sont intégrées, il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../messages/get-started-content.md). Ensuite, vous ajoutez simplement, dans votre parcours, un message push ou e-mail conçu à l&#39;aide de Journey Optimizer.
 
 Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md).
 
@@ -49,7 +49,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
 ## Paramètres de l&#39;e-mail et paramètres Push
 
-Les sections **[!UICONTROL Paramètres de l&#39;e-mail]** et **[!UICONTROL Paramètres Push]** affichent des champs en lecture seule. Cette configuration est généralement effectuée lors de la création du message. Consultez [cette section](../get-started-content.md).
+Les sections **[!UICONTROL Paramètres de l&#39;e-mail]** et **[!UICONTROL Paramètres Push]** affichent des champs en lecture seule. Cette configuration est généralement effectuée lors de la création du message. Consultez [cette section](../messages/get-started-content.md).
 
 ![](../assets/jo-message4.png)
 

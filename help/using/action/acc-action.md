@@ -1,19 +1,20 @@
 ---
-title: Intégration à Adobe Campaign v7/v8
+title: 'Intégration avec Adobe Campaign v7/v8 '
 description: Découvrez comment effectuer une intégration à Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 
 ---
 
-# Intégration à Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# Intégration avec Adobe Campaign v7/v8
+ {#integrating-with-adobe-campaign-classic}
 
 Cette intégration est disponible pour Adobe Campaign Classic v7 à partir de la version 21.1 et Adobe Campaign v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign.
 
@@ -23,7 +24,7 @@ Un cas d’utilisation complet est présenté dans cette [section](../building-j
 
 Pour chaque action configurée, une activité d’action est disponible dans la palette du concepteur de parcours. Reportez-vous à cette [section](../building-journeys/using-adobe-campaign-classic.md).
 
-## Remarques importantes
+## Remarques importantes {#important-notes}
 
 * Il n’y a pas de limitation des messages. Nous limitons le nombre de messages pouvant être envoyés à 50 000/heure en nous basant sur le contrat de niveau de service Campaign actuel. C’est la raison pour laquelle Journey Optimizer ne devrait être utilisé que dans des cas d’utilisation unitaire (des événements individuels, et non des segments).
 
@@ -35,7 +36,7 @@ Pour chaque action configurée, une activité d’action est disponible dans la 
 
 * Vous ne pouvez pas utiliser une action Campaign avec un événement de qualification de segment.
 
-## Conditions préalables
+## Conditions préalables {#prerequisites}
 
 Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Consultez la [documentation d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target=&quot;_blank&quot;}.
 
@@ -58,7 +59,7 @@ Voici un exemple :
 * **eventType** : le nom interne de votre événement Campaign
 * **ctx** : variable basée sur la personnalisation de votre message.
 
-## Configuration de l’action
+## Configuration de l’action {#configure-action}
 
 Dans Journey Optimizer, vous devez configurer une action par message transactionnel. Procédez de la façon suivante :
 

@@ -1,29 +1,19 @@
 ---
-title: Délégation de sous-domaines
-description: Découvrez comment déléguer vos sous-domaines
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: Délégation d’un sous-domaine
+description: Découvrez comment déléguer vos sous-domaines.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 93%
+source-wordcount: '1469'
+ht-degree: 97%
 
 ---
 
-# Délégation d&#39;un sous-domaine {#delegate-subdomain}
+# Délégation d’un sous-domaine {#delegate-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
@@ -94,7 +84,7 @@ Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimiz
 
 >[!CAUTION]
 >
->L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation lorsqu’un autre possède la propriété **[!UICONTROL Traitement]** , vous obtiendrez un message d’erreur.
+>L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation alors quʼun autre se trouve à lʼétat **[!UICONTROL En cours de traitement]**, un message d’erreur sʼaffiche.
 
 ## Délégation de sous-domaines CNAME {#cname-subdomain-delegation}
 
@@ -113,8 +103,6 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 1. Sélectionnez la méthode **[!UICONTROL Configuration CNAME]**.
 
    ![](../assets/subdomain-method-cname.png)
-
-   <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
 
 1. Indiquez le nom du sous-domaine à déléguer.
 
@@ -162,7 +150,7 @@ Dès la validation de lʼenregistrement et lʼinstallation du certificat termin�
 
 >[!CAUTION]
 >
->L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation lorsqu’un autre possède la propriété **[!UICONTROL Traitement]** , vous obtiendrez un message d’erreur.
+>L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation alors qu’un autre se trouve à lʼétat **[!UICONTROL En cours de traitement]**, un message d’erreur sʼaffiche.
 
 ## Validation de sous-domaine {#subdomain-validation}
 

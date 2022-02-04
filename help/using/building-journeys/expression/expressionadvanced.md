@@ -6,17 +6,18 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 100%
 
 ---
 
-# À propos de l’éditeur d’expression avancé {#concept_uyj_trt_52b}
+# À propos de l’éditeur d’expression avancé {#about-the-advanced-expression-editor}
 
 Utilisez l’éditeur d’expression avancé pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données.
-Il est également à votre disposition si vous avez besoin de définir des paramètres d’action qui nécessitent de manipuler des données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires extraites de la source de données. Dans un parcours, la liste des champs d’événement affichée est contextuelle et varie selon les événements ajoutés.
+Il est également à votre disposition si vous avez besoin de définir des paramètres d’action qui nécessitent de manipuler des données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires récupérées de la source de données.
+Dans un parcours, la liste des champs d’événement affichée est contextuelle et varie selon les événements ajoutés.
 
 L’éditeur d’expression avancé propose un ensemble de fonctions et d’opérateurs intégrés destinées à manipuler des valeurs et à définir une expression spécifiquement adaptée à vos besoins. L’éditeur permet également de définir les valeurs du paramètre de source de données externe, de gérer les champs de mapping et les collections, notamment les événements d’expérience.
 
@@ -38,7 +39,7 @@ Lorsque cela est possible, vous pouvez basculer entre les deux modes à l’aide
 >
 >Vous pouvez définir des paramètres d’action en sélectionnant des champs ou à l’aide de l’éditeur d’expression avancé. Ces paramètres renvoient un type de données spécifique en fonction de leur expression.
 
-## Accès à l’éditeur d’expression avancé {#section_fdz_4nj_cjb}
+## Accès à l’éditeur d’expression avancé {#accessing-the-advanced-expression-editor}
 
 Il est possible d’accéder de différentes manières à l’éditeur d’expression avancé :
 
@@ -49,7 +50,7 @@ Il est possible d’accéder de différentes manières à l’éditeur d’expre
 * Lorsque vous créez un retardateur personnalisé, l’éditeur avancé s’affiche directement.
 * Lorsque vous mappez le paramètre d’action, cliquez sur le **[!UICONTROL Mode avancé]**.
 
-## Découverte de l’interface{#section_otq_tnj_cjb}
+## Découverte de l’interface{#discovering-the-interface}
 
 Cet écran vous permet d’entrer manuellement votre expression.
 

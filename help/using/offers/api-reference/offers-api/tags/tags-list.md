@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
 ---
 
-# Liste des balises
+# Liste des balises {#list-tags}
 
 Les balises vous permettent de mieux organiser et trier vos offres. Par exemple, vous pouvez libeller vos offres Black Friday à l&#39;aide de la balise « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à cette balise.
 
@@ -46,11 +46,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Utilisation des paramètres de requête
+## Utilisation des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
-### Pagination
+### Pagination {#paging}
 
 Les paramètres de requête les plus courants pour la pagination sont les suivants :
 

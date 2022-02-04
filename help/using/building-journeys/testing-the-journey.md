@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
-workflow-type: ht
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 100%
 
 ---
 
-# Test du parcours{#testing_the_journey}
+# Test de votre parcours{#testing_the_journey}
 
-Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
+Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication.
 
@@ -23,7 +23,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 Pour utiliser le mode test, procédez comme suit :
 
-1. Avant de tester votre parcours, vérifiez qu&#39;il est valide et qu&#39;il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Consultez [cette section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). Un symbole d’avertissement est affiché en cas d’erreur.
+1. Avant de tester votre parcours, vérifiez qu&#39;il est valide et qu&#39;il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Un symbole d’avertissement est affiché en cas d’erreur.
 
 1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
 

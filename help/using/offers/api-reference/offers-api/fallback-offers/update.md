@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
 
 ---
 
-# Mise à jour d’une offre de secours
+# Mise à jour d’une offre de secours {#update-fallback-offer}
 
 Vous pouvez modifier ou mettre à jour une offre de secours dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
 
 Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

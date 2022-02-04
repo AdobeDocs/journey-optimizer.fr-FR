@@ -1,19 +1,19 @@
 ---
-title: Liste des placements
-description: Les placements sont des conteneurs utilisés pour présenter vos offres.
+title: Liste des emplacements
+description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
 
-# Liste des emplacements
+# Liste des emplacements {#list-placements}
 
 Les emplacements sont des conteneurs utilisés pour présenter vos offres. Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 
@@ -32,11 +32,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | Définit le schéma associé aux emplacements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
 
-## Utilisation des paramètres de requête
+## Utilisation des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
-### Pagination
+### Pagination {#paging}
 
 Les paramètres de requête les plus courants pour la pagination sont les suivants :
 

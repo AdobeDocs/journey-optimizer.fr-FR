@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# Supprimer une règle de décision
+# Supprimer une règle de décision {#delete-decision-rule}
 
 Il peut parfois être nécessaire de supprimer (DELETE) une règle de décision. Seules les règles de décision que vous créez dans le conteneur de tenant peuvent être supprimées. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] à l’aide de l’ID d’instance de la règle de décision que vous souhaitez supprimer.
 

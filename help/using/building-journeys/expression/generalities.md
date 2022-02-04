@@ -6,8 +6,8 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Syntaxe de l’éditeur d’expression avancé {#syntax}
 
-## Parenthèses et priorité des expressions{#section_edf_fks_bgb}
+## Parenthèses et priorité des expressions{#parentheses-and-expression-priority}
 
 Il est possible d’utiliser des parenthèses pour améliorer la lisibilité d’une expression complexe. _(&lt;expression>)_ est l’équivalent de _&lt;expression>_. Il est également possible d’utiliser des parenthèses pour définir l’ordre d’évaluation et l’associativité.
 
@@ -28,7 +28,7 @@ Les expressions sont évaluées de gauche à droite. L’associativité des opé
 | `4 + 2 * 10` | <ul><li>« * » a la priorité sur « + » : 2 * 10 est évalué → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Les parenthèses modifient la priorité : (4 + 2) est évalué → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Sensible à la casse{#section_lrb_xh5_dgb}
+## Sensible à la casse{#case-sensitivity}
 
 Les règles de respect de la casse sont les suivantes :
 
@@ -36,7 +36,7 @@ Les règles de respect de la casse sont les suivantes :
 * Tous les noms de fonctions sont sensibles à la casse. Par exemple _inSegment()_ est valide, contrairement à la fonction _INSEGMENT()_.
 * Les références aux champs et les valeurs constantes respectent la casse : ces éléments ne sont pas intégrés au langage (par opposition aux opérateurs et aux fonctions), mais créés par l’utilisateur.
 
-## Type d’expression renvoyé{#section_gyc_435_53b}
+## Type d’expression renvoyé{#returned-expression-type}
 
 Selon le contexte d’utilisation, l’éditeur d’expression peut renvoyer différentes valeurs.
 

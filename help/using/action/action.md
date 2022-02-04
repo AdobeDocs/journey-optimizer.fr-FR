@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
 
-[!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Reportez-vous à [cette section](../get-started-content.md).
+[!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Reportez-vous à [cette section](../messages/get-started-content.md).
 
 Si vous disposez d’Adobe Campaign v7 ou v8, une intégration est disponible sur demande. Voir [cette page](../action/acc-action.md).
 
@@ -37,6 +37,6 @@ Les actions personnalisées vous permettent de configurer la connexion d&#39;un 
 
 Les actions sont disponibles dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]** Voir [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
-Pour afficher la liste des actions ou configurer une nouvelle action, sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s&#39;affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../user-interface.md)
+Pour afficher la liste des actions ou configurer une nouvelle action, sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s&#39;affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 
 ![](../assets/custom1.png)

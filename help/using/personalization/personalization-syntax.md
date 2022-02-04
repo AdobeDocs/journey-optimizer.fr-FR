@@ -1,11 +1,12 @@
 ---
 title: Syntaxe de personnalisation
-description: Découvrez comment utiliser la syntaxe de personnalisation
+description: Découvrez comment utiliser la syntaxe de personnalisation.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 100%
@@ -28,7 +29,7 @@ où :
 * `profile` est un espace de noms.
 * `person.name` est un jeton composé par des attributs. La structure des attributs est définie dans un schéma XDM Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
-## Règles générales de syntaxe
+## Règles générales de syntaxe {#general-rules}
 
 Les identificateurs peuvent être n&#39;importe quel caractère unicode, à l&#39;exception des caractères suivants :
 
@@ -75,7 +76,7 @@ Découvrez comment exploiter les attributs de profil dans des conditions dans [c
 >[!NOTE]
 >Pour en savoir plus sur la segmentation et le service de segmentation, consultez [cette section](../segment/about-segments.md).
 
-## Offres
+## Offres {#offers-syntax}
 
 Cet espace de noms vous permet de référencer les décisions d&#39;offre existantes.
 Pour référencer une offre, vous devez déclarer un chemin avec les différentes informations qui définissent une offre.
@@ -127,7 +128,7 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 >
 >Les fonctions d&#39;assistance sont présentées dans [cette section](functions/helpers.md).
 
-## Types littéraux
+## Types littéraux {#literal-types}
 
 [!DNL Adobe Journey Optimizer] prend en charge les types littéraux suivants :
 
@@ -146,7 +147,7 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 
 Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour ce faire :
 
-* Créez un lien dans votre contenu e-mail ou push. Pour en savoir plus sur la création de liens, consultez [cette page](../message-tracking.md#insert-links).
+* Créez un lien dans votre contenu e-mail ou push. Pour en savoir plus sur la création de liens, consultez [cette page](../messages/message-tracking.md#insert-links).
 * Cliquez sur l’icône de personnalisation. Cette icône est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
 
 ![](assets/perso-url.png)

@@ -1,19 +1,19 @@
 ---
 title: Configuration de la sélection des offres dans les décisions
-description: Découvrez comment gérer la sélection des offres dans les décisions.
+description: Découvrez comment gérer la sélection des offres dans les décisions
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
-workflow-type: ht
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 
 ---
 
-# Configuration de la sélection des offres dans les décisions {#offers-selection-in-activities}
+# Configuration de la sélection des offres dans les décisions {#offers-selection-in-decisions}
 
 Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision (précédemment appelée « activité d&#39;offre »). Vous pouvez classer les offres par :
 * Priorité des offres
@@ -22,7 +22,7 @@ Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choi
 
 ![](../../assets/offer-rank-by.png)
 
-## Priorité d’offre {#about-offers-priority}
+## Priorité d’offre {#offer-priority}
 
 Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision (auparavant « activité d’offre »), les offres présentant la **priorité** la plus élevée sont diffusées en premier aux clients.
 
@@ -86,6 +86,3 @@ Après avoir créé une stratégie de classement, vous pouvez l&#39;affecter à 
 
 Si plusieurs offres sont éligibles, le système de modèles formés détermine l&#39;offre qui doit être présentée en premier pour un emplacement donné.
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

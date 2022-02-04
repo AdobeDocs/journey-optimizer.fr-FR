@@ -1,19 +1,18 @@
 ---
-title: Création d'offres de secours
-description: Découvrez comment créer des offres dans Adobe Experience Platform.
-feature: Offers
+title: Création d’offres de secours
+description: Découvrez comment créer des offres de secours à afficher pour les clients qui ne sont éligibles à aucune offre
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 94%
 
 ---
 
-# Création d&#39;offres de secours {#creating-fallback-offers}
+# Création d&#39;offres de secours {#create-fallback-offers}
 
 L&#39;offre de secours est envoyée aux clients s&#39;ils ne sont pas éligibles pour d&#39;autres offres. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
 

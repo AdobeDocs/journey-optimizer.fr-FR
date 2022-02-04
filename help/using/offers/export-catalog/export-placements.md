@@ -1,13 +1,13 @@
 ---
-title: Jeu de données d'emplacements
-description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les emplacements.
+title: Jeu de données d’emplacements
+description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les emplacements
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 
@@ -29,14 +29,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## Identifiant
+## Identifiant {#identifier}
 
 **Champ :** _id 
 **Titre :** identifiant 
 **Description :** identifiant unique de l&#39;enregistrement.
 **Type :** chaîne
 
-## _experience
+## _experience {#experience}
 
 **Champ :** _experience
 **Type :** objet
@@ -85,7 +85,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Description :** nom attribué à l&#39;emplacement pour s&#39;y référer dans les interactions humaines.
 **Type :** chaîne
 
-## _repo
+## _repo {#repo}
 
 **Champ :** _repo 
 **Type :** objet

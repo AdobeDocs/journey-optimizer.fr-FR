@@ -1,19 +1,19 @@
 ---
-title: Création d'offres personnalisées
-description: Découvrez comment créer des offres personnalisées dans Adobe Experience Platform.
+title: Création d’offres personnalisées
+description: Découvrez comment créer, configurer et gérer vos offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 99%
 
 ---
 
-# Création d&#39;offres personnalisées {#creating-personalized-offers}
+# Création d&#39;offres personnalisées {#create-personalized-offers}
 
 Avant de créer une offre, assurez-vous que vous avez créé les éléments suivants :
 
@@ -90,7 +90,7 @@ Vous pouvez ajouter différents types de contenu à une représentation.
 >
 >Notez que seul le contenu correspondant au type de contenu de l&#39;emplacement peut être utilisé.
 
-### Ajout d’images
+### Ajout d’images {#images}
 
 Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du contenu provenant de la bibliothèque **Adobe Experience Cloud Asset**, un référentiel centralisé de ressources fourni par [!DNL Adobe Experience Manager Assets Essentials].
 
@@ -110,7 +110,7 @@ Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du con
 
    ![](../../assets/offer-select-asset.png)
 
-### Ajout d’URL
+### Ajout d’URL {#urls}
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
@@ -161,7 +161,6 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
       >[!CAUTION]
       >
       >Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target=&quot;_blank&quot;}, vous ne pourrez pas l&#39;exploiter dans une offre.
-      
    Pour en savoir plus sur l’utilisation des segments par rapport aux règles de décision, consultez [cette section](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
 1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres.

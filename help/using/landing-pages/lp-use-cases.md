@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ L’un des cas d’utilisation les plus courants consiste à inviter vos clients
 
 Supposons, par exemple, que vous organisiez un événement le mois prochain et que vous souhaitiez lancer une campagne d’inscription à cet événement<!--to keep your customers that are interested updated on that event-->. Pour ce faire, vous allez envoyer un e-mail qui contient un lien vers une page de destination sur laquelle vos destinataires pourront sʼinscrire à cet événement. Les utilisateurs qui s’inscrivent seront ajoutés à la liste d’abonnements que vous avez créée à cet effet.
 
-### Configuration dʼune page de destination
+### Configuration dʼune page de destination {#set-up-lp}
 
 1. Créez la liste d’abonnements relative aux inscriptions à l’événement, qui stockera les utilisateurs inscrits. Découvrez comment créer une liste d’abonnements [ici](subscription-list.md#define-subscription-list).
 
@@ -52,13 +52,13 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
 1. [Publier](create-lp.md#publish) la page de destination.
 
-1. [Créez un e-mail](../create-message.md) pour annoncer que l’inscription à lʼévénement a débuté.
+1. [Créez un e-mail](../messages/create-message.md) pour annoncer que l’inscription à lʼévénement a débuté.
 
-1. [Insérez un lien](../message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** en tant que **[!UICONTROL Type de lien]** et sélectionnez la [Page de destination](create-lp.md#configure-primary-page) que vous avez créée pour lʼinscription.
+1. [Insérez un lien](../messages/message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** en tant que **[!UICONTROL Type de lien]** et sélectionnez la [Page de destination](create-lp.md#configure-primary-page) que vous avez créée pour lʼinscription.
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. Enregistrez votre contenu et [publiez votre message](../publish-manage-message.md).
+1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
 
 1. Envoyez votre message par le biais dʼun [parcours](../building-journeys/journey.md) pour diriger le trafic vers la page de destination dʼinscription.
 
@@ -92,7 +92,7 @@ Tous les utilisateurs inscrits à votre événement recevront l’e-mail de conf
 
 Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination de désinscription dans vos e-mails.
 
-En savoir plus sur la gestion du consentement de vos destinataires et son caractère important dans [cette section](../consent.md).
+En savoir plus sur la gestion du consentement de vos destinataires et son caractère important dans [cette section](../messages/consent.md).
 
 ### Gestion du droit d&#39;opposition {#opt-out-management}
 
@@ -105,53 +105,53 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 ### Configuration du droit de désinscription {#configure-opt-out}
 
-Pour permettre aux destinataires d&#39;un email de se désabonner de vos communications par le biais d&#39;une landing page, procédez comme suit.
+Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos communications par le biais dʼune page de destination, procédez comme suit.
 
-1. Créez votre landing page. [En savoir plus](create-lp.md)
+1. Créez votre page de destination. [En savoir plus](create-lp.md)
 
-1. Définissez la Principale page. [En savoir plus](create-lp.md#configure-primary-page)
+1. Définissez la page principale. [En savoir plus](create-lp.md#configure-primary-page)
 
-1. [Conception](design-lp.md) le contenu Principal de la page : utiliser une landing page spécifique **[!UICONTROL Formulaire]** composant, définir une **[!UICONTROL Exclusion]** et choisissez de mettre à jour **[!UICONTROL Canal (email)]**: le profil qui coche la zone d’exclusion sur votre page d’entrée sera exclu de toutes vos communications.
+1. [Configurez](design-lp.md) le contenu de la page principale. Pour ce faire, utilisez le composant **[!UICONTROL Formulaire]**, spécialement conçu pour la page de destination, définissez une case à cocher de **[!UICONTROL Désinscription]** et choisissez de mettre à jour le **[!UICONTROL Canal (e-mail)]** : le profil qui active la case de désinscription sur votre page de destination sera désinscrit de toutes vos communications.
 
    ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. Ajouter une confirmation [subpage](create-lp.md#configure-subpages) qui s’affiche pour les utilisateurs qui envoient le formulaire.
+1. Ajoutez une [sous-page](create-lp.md#configure-subpages) de confirmation qui s’affichera pour les utilisateurs qui soumettent le formulaire.
 
    ![](../assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
-   >Assurez-vous de référencer la sous-page dans le **[!UICONTROL Appel à l’action]** de la section **[!UICONTROL Formulaire]** composant. [En savoir plus](design-lp.md)
+   >Veillez à référencer la sous-page dans la section **[!UICONTROL Appel à l’action]** de la page principale du composant **[!UICONTROL Formulaire]**. [En savoir plus](design-lp.md)
 
-1. Une fois que vous avez configuré et défini le contenu de vos pages, [publier](create-lp.md#publish) la landing page.
+1. Une fois que vous avez configuré et défini le contenu de vos pages, [publiez](create-lp.md#publish) la page de destination.
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [Création d’un message électronique](../create-message.md) in [!DNL Journey Optimizer].
+1. [Créez un message e-mail](../messages/create-message.md) dans [!DNL Journey Optimizer].
 
-1. Sélectionnez du texte dans votre contenu et [insérez un lien](../message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
+1. Sélectionnez du texte dans votre contenu et [insérez un lien](../messages/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. Sélectionner **[!UICONTROL Landing page]** de la **[!UICONTROL Type de lien]** et sélectionnez l’option [landing page](create-lp.md#configure-primary-page) que vous avez créé pour vous exclure.
+1. Sélectionnez **[!UICONTROL Page de destination]** dans la liste déroulante **[!UICONTROL Type de lien]**, puis sélectionnez la [page de destination](create-lp.md#configure-primary-page) que vous avez créée pour le désabonnement.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Enregistrez votre contenu et [publiez votre message](../publish-manage-message.md).
+1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
 
 1. Envoyez votre message par le biais d’un parcours. [En savoir plus](../building-journeys/journey.md).
 
-1. Une fois le message reçu, si un destinataire clique sur le lien de désabonnement contenu dans l&#39;email, votre landing page s&#39;affiche.
+1. Une fois le message reçu, si le destinataire clique sur le lien de désabonnement présent dans lʼe-mail, votre page de destination s’affiche.
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-   Si le destinataire coche la case et envoie le formulaire :
+   Si le destinataire coche la case et soumet le formulaire :
 
-   * Le destinataire opt-out est redirigé vers l&#39;écran du message de confirmation.
+   * Le destinataire qui sʼest désabonné est redirigé vers lʼécran du message de confirmation.
 
-   * Les données de profil sont mises à jour et ne recevront aucune communication de votre marque, sauf si vous vous êtes à nouveau abonné.
+   * Les données de son profil sont mises à jour et il ne recevra plus de communications de votre marque, sauf sʼil sʼabonne à nouveau.
 
 Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform puis au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target=&quot;_blank&quot;}.
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

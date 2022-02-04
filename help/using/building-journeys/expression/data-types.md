@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
 ---
 
-# Types de données {#concept_gp3_rj5_dgb}
+# Types de données {#data-types}
 
 D’un point de vue technique, une constante contient toujours un type de données. Dans une expression littérale, nous ne spécifions que la valeur. Le type de données peut être déduit de la valeur (par exemple : chaîne, entier, décimal, etc.). Pour des cas spécifiques, tels que la date et l’heure, des fonctions dédiées sont utilisées pour la représentation.
 

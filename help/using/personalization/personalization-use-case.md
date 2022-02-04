@@ -1,13 +1,13 @@
 ---
 title: 'Cas d’utilisation de la personnalisation : notification du statut de la commande'
-description: Découvrez comment personnaliser un message à l’aide des informations de profil, de décision d’offre et de contexte
+description: Découvrez comment personnaliser un message à l’aide des informations de profil, de décision d’offre et de contexte.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Jo
 
 Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies 
 
-* Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../create-message.md).
+* Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../messages/create-message.md).
 * Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
 * Créer une décision (auparavant « activité d&#39;offre ») ; consultez cette [section](../offers/offer-activities/create-offer-activities.md).
 
-## Étape 1 - Ajouter une personnalisation au profil
+## Étape 1 - Ajouter une personnalisation au profil {#add-perso}
 
 1. Cliquez sur le menu **[!UICONTROL Message]**, puis sélectionnez votre message.
 
@@ -47,7 +47,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
    >
    >Laissez le message à l&#39;état préliminaire. Ne le publiez pas encore.
 
-## Étape 2 - Créer le parcours
+## Étape 2 - Créer le parcours {#create-journey}
 
 1. Cliquez sur le menu **[!UICONTROL Parcours]** et créez un parcours.
 
@@ -69,7 +69,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
    >
    >Le message s&#39;affiche avec une icône d&#39;avertissement. En effet, le message n&#39;est pas encore publié.
 
-## Étape 3 - Ajouter une personnalisation aux données contextuelles
+## Étape 3 - Ajouter une personnalisation aux données contextuelles {#add-perso-contextual-data}
 
 1. Dans l&#39;activité **Message**, cliquez sur l&#39;icône **Ouvrir le message**. Le message s&#39;ouvre dans un nouvel onglet.
 
@@ -110,7 +110,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc16.png)
 
-## Étape 4 - Tester et publier le parcours
+## Étape 4 - Tester et publier le parcours {#test-publish}
 
 1. Ouvrez de nouveau le parcours. Si le parcours est déjà ouvert, veillez à actualiser la page. Maintenant que le message est publié, vous pouvez constater qu&#39;il n&#39;y a aucune erreur dans le parcours. Cliquez sur le bouton **Test**, puis sur **Déclencher un événement**.
 

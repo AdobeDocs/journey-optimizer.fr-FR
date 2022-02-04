@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
 ---
 
-# Mettre à jour une balise
+# Mettre à jour une balise {#update-tag}
 
 Vous pouvez modifier ou mettre à jour une balise dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
 
 Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

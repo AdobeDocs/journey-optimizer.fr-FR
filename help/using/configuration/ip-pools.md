@@ -1,29 +1,19 @@
 ---
 title: Création de pools d'adresses IP
 description: '"Découvrir comment gérer les pools d''adresses IP"'
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
-workflow-type: ht
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Création de pools d&#39;adresses IP
+# Création de pools d&#39;adresses IP {#create-ip-pools}
 
 ## À propos des pools d&#39;adresses IP {#about-ip-pools}
 
@@ -84,9 +74,7 @@ Pour modifier un pool d’adresses IP :
 La mise à jour est effective immédiatement ou de manière asynchrone, selon que le pool d’adresses IP est associé ou non à un [préréglage de message](message-presets.md) :
 
 * Si le pool d’adresses IP n’est **pas** sélectionné dans un préréglage de message, la mise à jour est instantanée (statut **[!UICONTROL Succès]**).
-* Si le pool d’adresses IP **est** sélectionné dans un préréglage de message, la mise à jour peut prendre jusqu’à 7 à 10 jours ouvrables (statut **[!UICONTROL En cours de traitement]**).
-
-<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
+* Si le pool d’adresses IP **is** sélectionnée dans un paramètre prédéfini de message, la mise à jour peut prendre jusqu’à 7-10 jours ouvrables (**[!UICONTROL Traitement]** status).
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 

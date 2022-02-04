@@ -8,23 +8,23 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: ht
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Listes dʼabonnements {#create-subscription-list}
 
-## Qu’est-ce qu’une liste dʼabonnements ?
+## Qu’est-ce qu’une liste dʼabonnements ? {#subscription-list-definition}
 
 Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt spécifique etc. de manière régulière. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
 
 Voici quelques exemples de services dʼabonnement :
 
-* une newsletter, par exemple : « Programme des courses à pied du mois »
-* un événement, par exemple : « Summit 2021 »
+* une newsletter, par exemple : &quot;Série en cours&quot;
+* un événement, par exemple : &quot;Summit 2021&quot;
 * un webinaire, par exemple : « En savoir plus sur la crypto »
 * un intérêt pour un produit/sport/service etc., par exemple : « Souhaite acheter une maison dans les 12 prochains mois »
 * une préférence en matière de notification, par exemple : « Recevoir les notifications de nouvelles chansons par e-mail »

@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Sources de données externes {#concept_t2s_kqt_52b}
+# Sources de données externes {#external-data-sources}
 
 Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
 
@@ -53,7 +53,7 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
    ![](../assets/journey27.png)
 
-1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisé]** ou **[!UICONTROL Clé API]**. Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Dans cet exemple, nous allons effectuer les choix suivants :
+1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisé]** ou **[!UICONTROL Clé API]**. Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans cet exemple, nous allons effectuer les choix suivants :
 
    * **[!UICONTROL Type]** : « API key »
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
@@ -87,7 +87,7 @@ Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La source de données est maintenant configurée et prête à être utilisée dans vos parcours ; par exemple, dans vos conditions ou pour personnaliser un e-mail. Si la température est supérieure à 30° C, vous pouvez choisir d’envoyer une communication spécifique.
 
-## Mode d’authentification personnalisé {#section_wjp_nl5_nhb}
+## Mode d’authentification personnalisé {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
@@ -185,4 +185,4 @@ Vous pouvez modifier la durée de mise en cache du jeton pour une source de donn
 
 >[!NOTE]
 >
->La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload d’authentification personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
+>La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload de l’authentification personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.

@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '859'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 99%
 
 ---
 
-# Envoi de messages à plusieurs canaux
+# Cas pratique : envoyer des messages multicanaux ;{#send-multi-channel-messages}
 
 Cette section présente un cas d&#39;utilisation qui combine une Lecture de segment, un événement, des événements de réaction et des e-mails/messages push.
 

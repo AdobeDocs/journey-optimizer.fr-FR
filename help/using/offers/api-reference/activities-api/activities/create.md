@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
 ---
 
-# Créer une décision
+# Créer une décision {#create-decision}
 
 Vous pouvez créer une décision (auparavant appelée activité d&#39;offre) en exécutant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

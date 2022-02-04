@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -22,13 +22,13 @@ Les champs d’événement d’étape sont organisés par catégorie.
 * Champs de profil
 * Champs d’événement de service
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | Nom du champ | Type | Description |
 |---|---|------------|
 | requestId | Chaîne | ID de requête utilisé par Journey Orchestration pour suivre le flux d’une requête. |
 
-## parcours
+## parcours {#journey-field}
 
 Ce groupe de champs est utilisé dans le schéma du parcours (en relation avec journeyStepEvent). Il contient les champs suivant :
 
@@ -40,7 +40,7 @@ Ce groupe de champs est utilisé dans le schéma du parcours (en relation avec j
 | description | Chaîne | Description du parcours |
 | version | Chaîne | Version, représentée sous la forme `major`.`minor` |
 
-## profil
+## profil {#profile-field}
 
 Ce groupe de champs est spécifique à journeyStepEvent : cet événement est en relation avec le parcours, et ne dispose pas de l&#39;identityMap décrivant l&#39;identité du profil, le cas échéant.
 
@@ -51,7 +51,7 @@ Pour journeyStepEvent, nous devons également ajouter des champs liés à l’id
 | Identifiant | Chaîne | L’identifiant de profil identifie le profil envoyé/utilisé dans un parcours. Par exemple : foo@adobe.com. |
 | espace de noms | Chaîne | Ce champ décrit l’espace de noms référencé par le profil utilisé dans le parcours. Par exemple : E-mail, ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 Ce mixin contient tous les champs correspondant à une tâche d’exportation de profil.
 
@@ -66,6 +66,6 @@ Ce mixin contient tous les champs correspondant à une tâche d’exportation de
 | eventType | Chaîne | Type d’événement indiquant s’il s’agit d’un événement d’erreur ou d’un événement d’information : Info, Erreur |
 | eventCode | Chaîne | Le code d’erreur indiquant la raison eventType correspondant |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 Cette catégorie contient les champs d’événement d’étape d’origine. Reportez-vous à cette [section](../reports/sharing-legacy-fields.md).

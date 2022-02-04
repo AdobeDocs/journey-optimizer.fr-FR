@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
-workflow-type: ht
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
 ---
 
-# Versions de parcours{#concept_ldc_k55_zgb}
+# Versions de parcours{#journey-versions}
 
 Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Voir [cette page](../building-journeys/using-the-journey-designer.md).
 
@@ -25,7 +25,7 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
 
 >[!NOTE]
 >
->Pour en savoir plus sur les limites des versions de parcours, voir [cette page](../limitations.md#journey-versions-limitations)
+>Pour en savoir plus sur les limites des versions de parcours, voir [cette page](../start/limitations.md#journey-versions-limitations)
 
 1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 

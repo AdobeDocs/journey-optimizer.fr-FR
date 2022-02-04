@@ -1,13 +1,13 @@
 ---
 title: Jeu de données d'offres de secours
-description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres de secours.
+description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres de secours
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
 
@@ -27,14 +27,14 @@ Le lot le plus récent dans le jeu de données s&#39;affiche à droite. La vue h
 
 Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d&#39;objets de décision - Offres de secours]**.
 
-## Identifiant
+## Identifiant {#identifier}
 
 **Champ :** _id 
 **Titre :** identifiant 
 **Description :** identifiant unique de l&#39;enregistrement.
 **Type :** chaîne
 
-## _experience
+## _experience {#experience}
 
 **Champ :** _experience
 **Type :** objet
@@ -63,7 +63,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **_experience > prise de décision > contenu > composants**
 
 **Champ :** composants
-**Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat de placement.
+**Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
 **Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
@@ -179,7 +179,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Champ :** _repo 
 **Type :** objet

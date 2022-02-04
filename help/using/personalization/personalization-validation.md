@@ -1,13 +1,13 @@
 ---
 title: Validation de la personnalisation
-description: En savoir plus sur la validation de la personnalisation et la résolution des problèmes
+description: En savoir plus sur la validation de la personnalisation et la résolution des problèmes.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Validation de la personnalisation {#personalization-validation}
 
-## Mécanismes de validation
+## Mécanismes de validation {#validation-mechanisms}
 
 Dans l&#39;écran **Éditeur d&#39;expression**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
 
@@ -27,7 +27,7 @@ Dans l&#39;écran **Éditeur d&#39;expression**, utilisez le bouton **Valider** 
 >[!IMPORTANT]
 > Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur d&#39;expressions.
 
-## Erreurs courantes
+## Erreurs courantes {#common-errors}
 
 * **Chemin « XYZ » introuvable**
 
@@ -67,7 +67,7 @@ Les expressions des barres de contrôle sont entourées de **{{expression}}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## Erreurs spécifiques liées aux offres
+## Erreurs spécifiques liées aux offres {#specific-errors}
 
 Les erreurs liées à l’intégration des offres dans un email ou une notification push présentent le modèle suivant :
 
@@ -88,7 +88,8 @@ La validation est effectuée pendant la publication du message ou pendant la val
   <tr> 
    <td>Ressource avec ID placementID et type OfferPlacement introuvable <br/>
 Ressource avec ID activityID et type OfferActivity introuvable<br/></td> 
-   <td>Vérifiez que ActivityID et/ou PlacementID sont disponibles</td> 
+   <td>Vérifiez que ActivityID et/ou PlacementID sont disponibles
+</td> 
   </tr> 
    <tr> 
    <td>Impossible de valider la ressource.</td> 

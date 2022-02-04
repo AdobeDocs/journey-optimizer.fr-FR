@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
-# Publication du parcours{#concept_mtc_lrt_52b}
+# Publication de votre parcours{#publishing-the-journey}
 
 Vous pouvez publier un parcours après avoir testé sa validité.
 
@@ -21,7 +21,7 @@ Si vous devez apporter des modifications à un parcours publié, vous devez en c
 
 Si vous arrêtez un parcours, il l’est définitivement. Toutes les personnes figurant dans le parcours seront définitivement arrêtées et les nouvelles entrées ne seront plus autorisées. Si vous devez réutiliser le parcours, vous devez le dupliquer et le publier.
 
-1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi toute publication s’avérera impossible. Consultez [cette section](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). Il est également recommandé de tester votre parcours avant de le publier. Voir [cette page](../building-journeys/testing-the-journey.md).
+1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi toute publication s’avérera impossible. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Il est également recommandé de tester votre parcours avant de le publier. Voir [cette page](../building-journeys/testing-the-journey.md).
 1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.
 
    ![](../assets/journeyuc1_18.png)

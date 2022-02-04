@@ -5,19 +5,19 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
-workflow-type: ht
+exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
 
-
-# Cas d’utilisation : améliorez vos diffusions
+# Cas d’utilisation : améliorez vos diffusions{#use-case-ramp-up-your-deliveries}
 
 Si vous avez récemment migré vers un autre fournisseur de services de messagerie, dʼadresse IP ou de domaine ou sous-domaine de messagerie, vous devez asseoir votre réputation d’expéditeur. Dans le cas contraire, vos diffusions risquent dʼêtre bloquées voire déplacées dans le dossier des courriers indésirables de la boîte aux lettres des destinataires. Découvrez comment accroître la réputation de vos e-mails grâce au préchauffage dʼadresses IP dans la section [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target=&quot;_blank&quot;}.
 
-Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur lʼ[optimisation de la délivrabilité dans Journey Optimizer](../deliverability.md).
+Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur lʼ[optimisation de la délivrabilité dans Journey Optimizer](../messages/deliverability.md).
 
 Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffusions e-mail. Pour configurer ce parcours, procédez comme suit :
 
@@ -44,8 +44,3 @@ Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffus
 1. Complétez le parcours avec les activités de votre choix.
 
 Une fois votre adresse IP préchauffée, vous pouvez supprimer cette condition.
-
-
-
-
-

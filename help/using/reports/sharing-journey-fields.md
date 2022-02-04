@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%
 
@@ -17,31 +17,31 @@ ht-degree: 100%
 
 Ce groupe de champs est utilisé dans le schéma du parcours (en relation avec journeyStepEvent). Il contient les champs suivant :
 
-## journeyID
+## journeyID {#journeyid-field}
 
 Identifiant du parcours principal.
 
 Type : chaîne
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 Identifiant de la version du parcours. Cet identifiant représente l’identité d’un parcours..
 
 Type : chaîne
 
-## name
+## name {#name-field}
 
 Nom du parcours.
 
 Type : chaîne
 
-## description
+## description {#description-field}
 
 Description du parcours.
 
 Type : chaîne
 
-## version
+## version {#version-field}
 
 Version, représentée sous la forme `major`.`minor`
 

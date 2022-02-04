@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%
 
@@ -19,13 +19,13 @@ Ce groupe de champs sera partagé par les variables journeyStepEvent et journeyS
 
 Lors du traitement d’une étape, il est possible de récupérer un nombre quelconque de données dans les groupes de champs.
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 Laps de temps total, en millisecondes, consacré à la récupération des données lors du traitement d’une étape.
 
 Type : long
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 Définit si la récupération en erreur se trouve dans Adobe Experience Platform ou dans une source de données personnalisée.
 
@@ -35,7 +35,7 @@ Valeurs :
 * aep
 * custom
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 Type d’erreur se produisant lors du traitement de la récupération des données.
 
@@ -47,13 +47,13 @@ Valeurs :
 * timedout
 * error
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 Code de l’erreur de récupération. Présent si l’erreur comporte un code, par exemple HTTP. Par exemple, si actionExecError contient http, le code 404 représente l’erreur HTTP 404.
 
 Type : chaîne
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 Un dépassement de délai peut se produire dans deux cas :
 
@@ -73,37 +73,37 @@ Par exemple, les données sont extraites du service Profil unifié et une erreur
 
 Type : chaîne
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 Code d’erreur fourni par le système interrogé par [!DNL Journey Orchestration]. Il peut s’agir par exemple d’un code 404, 500, etc.
 
 Type : chaîne
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 Nombre de récupérations de données, quel que soit le type de source.
 
 Type : long
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 Laps de temps total en millisecondes consacré à la récupération des données sur Adobe Experience Platform. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse.
 
 Type : long
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 Nombre de récupérations de données sur Adobe Experience Platform.
 
 Type : long
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 Laps de temps consacré à la récupération des données personnalisées en millisecondes. Remarque : ce laps de temps est calculé à partir du moment où le moteur envoie l’événement d’enrichissement au service d’enrichissement et reçoit la réponse
 
 Type : long
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 Nombre de récupérations de données personnalisées depuis les systèmes externes.
 

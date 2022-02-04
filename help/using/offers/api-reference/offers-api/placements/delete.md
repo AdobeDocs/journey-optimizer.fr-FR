@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
-# Supprimer un emplacement
+# Supprimer un emplacement {#delete-placement}
 
 Il peut parfois être nécessaire de supprimer (DELETE) un emplacement. Seuls les emplacements que vous créez dans le conteneur du tenant peuvent être supprimés. Pour ce faire, il suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] à l’aide de l’ID d’instance de l’emplacement que vous souhaitez supprimer.
 

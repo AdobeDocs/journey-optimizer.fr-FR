@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -19,37 +19,37 @@ Ce groupe de champs sera partagé par les variables journeyStepEvent et journeyS
 
 Si l’étape comporte une action à traiter, ces champs sont ajoutés à la payload de l’événement.
 
-## actionID
+## actionID {#actionid-field}
 
 ID de l’action en cours d’exécution.
 
 Type : chaîne
 
-## actionName
+## actionName {#actionname-field}
 
 Nom de l’action Si aucun nom n’a été défini, stepName est exécuté.
 
 Type : chaîne
 
-## actionType
+## actionType {#actionType-field}
 
 Type de l’action.
 
 Type : chaîne
 
-## actionParameterized
+## actionParameterized {#actionparameterized-field}
 
 Indique si l’action est paramétrée ou non.
 
 Type : booléen
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 Durée (en millisecondes) d’exécution d’une action en cours.
 
 Type : long
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 Type d’erreur se produisant lors de l’appel de l’action.
 
@@ -61,13 +61,13 @@ Valeurs :
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Code d’erreur d’exécution d’action. Présent si l’erreur comporte un code, par exemple HTTP.
 
 Type : chaîne
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 Une temporisation peut se produire dans deux cas :
 
@@ -89,13 +89,13 @@ Par exemple, un e-mail est envoyé et une erreur HTTP 500 est renvoyée lors de 
 
 Type : chaîne
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Code d’erreur d’actionExecOrigError.
 
 Type : chaîne
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 Indique le type d’action.
 
@@ -111,25 +111,25 @@ Valeurs :
 
 Type : chaîne
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 Cette section décrit l’ID de traitement de diffusion pour le parcours par lot.
 
 Type : chaîne
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 Cette section décrit l’ID de diffusion pour le parcours par lot.
 
 Type : chaîne
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 Cette section décrit si le parcours par lot est déclenché à partir du segment d’audience.
 
 Type : booléen
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 Nombre de demandes de notification de Planificateur envoyées au service Planificateur au cours du traitement de l’étape.
 

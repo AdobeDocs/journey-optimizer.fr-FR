@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 Cette section répertorie plusieurs exemples couramment utilisés pour interroger les événements d’étape du parcours dans le lac de données.
 
-## Erreurs de message/d’action
+## Erreurs de message/d’action {#message-action-errors}
 
-### Liste de chaque erreur rencontrée dans les parcours
+### Liste de chaque erreur rencontrée dans les parcours {#error-list-journey}
 
 Cette requête permet de répertorier chaque erreur rencontrée dans les parcours lors de l’exécution d’un message/d’une action.
 
@@ -45,9 +45,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Cette requête renvoie toutes les erreurs différentes qui se sont produites lors de l’exécution d’une action dans un parcours, ainsi que le nombre de fois où elles se sont produites.
 
-## Requêtes basées sur un profil
+## Requêtes basées sur un profil {#profile-based-queries}
 
-### Rechercher si un profil a rejoint un parcours spécifique
+### Rechercher si un profil a rejoint un parcours spécifique {#profile-entered-journey}
 
 _Requête du lac de données_
 
@@ -69,7 +69,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Le résultat doit être supérieur à 0. Cette requête renvoie le nombre exact de fois où un profil a rejoint un parcours.
 
-### Rechercher si un message spécifique a été envoyé à un profil
+### Rechercher si un message spécifique a été envoyé à un profil {#profile-specific-message}
 
 **Méthode 1 :** si le nom de votre message n’est pas unique dans le parcours (il est utilisé à plusieurs endroits).
 
@@ -119,7 +119,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 La requête renvoie la liste de tous les messages ainsi que leur nombre appelés pour le profil sélectionné.
 
-## Rechercher tous les messages reçus par un profil au cours des 30 derniers jours
+## Rechercher tous les messages reçus par un profil au cours des 30 derniers jours {#message-received-30-days}
 
 _Requête du lac de données_
 
@@ -145,7 +145,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La requête renvoie la liste de tous les messages ainsi que leur nombre appelés pour le profil sélectionné.
 
-### Rechercher tous les parcours qu’un profil a rejoint au cours des 30 derniers jours
+### Rechercher tous les parcours qu’un profil a rejoint au cours des 30 derniers jours {#profile-entered-30-days}
 
 _Requête du lac de données_
 
@@ -169,7 +169,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La requête renvoie la liste de tous les noms de parcours ainsi que le nombre de fois où le profil interrogé a rejoint le parcours.
 
-### Nombre de profils qualifiés pour un parcours par jour
+### Nombre de profils qualifiés pour un parcours par jour {#profile-qualified}
 
 _Requête du lac de données_
 
@@ -193,9 +193,9 @@ ORDER BY DATE(timestamp) desc
 
 La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la rentrée est activée, le nombre de profils peut être dupliqué sur plusieurs jours s’il a rejoint le parcours un autre jour.
 
-## Requêtes basées sur des parcours
+## Requêtes basées sur des parcours {#journey-based-queries}
 
-### Nombre de parcours actifs quotidiens
+### Nombre de parcours actifs quotidiens {#daily-active-journeys}
 
 _Requête du lac de données_
 

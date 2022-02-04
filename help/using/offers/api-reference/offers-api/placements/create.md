@@ -1,23 +1,23 @@
 ---
-title: Création d’un placement
-description: Les placements sont des conteneurs utilisés pour présenter vos offres.
+title: Création d’un emplacement
+description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
 ---
 
-# Création d&#39;un emplacement
+# Création d’un emplacement {#create-placement}
 
 Vous pouvez créer un emplacement en adressant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

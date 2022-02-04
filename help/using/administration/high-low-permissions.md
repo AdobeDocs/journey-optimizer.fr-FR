@@ -1,25 +1,14 @@
 ---
 title: Niveaux d'autorisation
 description: En savoir plus sur les autorisations de haut et de bas niveau
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
+source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 55%
+ht-degree: 98%
 
 ---
 
@@ -30,17 +19,17 @@ ht-degree: 55%
 Chaque profil de produit est constitué d&#39;autorisations permettant aux utilisateurs d&#39;accéder aux différentes fonctionnalités.
 Elles peuvent être divisées en deux types :
 
-* **Autorisation de haut niveau**: représente les différentes autorisations qui peuvent être affectées à **[!UICONTROL Profil de produit]** dans le [!DNL Admin console], par exemple **[!DNL Publish journeys]** et **[!DNL Manage subdomains delegation]**. Les autorisations de haut niveau englobent les autorisations de bas niveau.
+* **Autorisation de haut niveau** : représente les différentes autorisations qui peuvent être attribuées au **[!UICONTROL profil de produit]** dans [!DNL Admin console], telles que **[!DNL Publish journeys]** et **[!DNL Manage subdomains delegation]**. Les autorisations de haut niveau englobent les autorisations de bas niveau.
 
 * **Autorisation de bas niveau** : représente les différentes autorisations qui proviennent de l&#39;autorisation de haut niveau.
 
-Par exemple, la variable **[!DNL Journey administrator]** le profil de produit se voit attribuer la valeur **[!DNL Manage journeys]** autorisation. À partir de cette autorisation, les autorisations de bas niveau permettent à l&#39;administrateur de parcours d&#39;écrire, de lire et de supprimer des parcours.
+Par exemple, le profil de produit **[!DNL Journey administrator]** se voit attribuer lʼautorisation **[!DNL Manage journeys]**. À partir de cette autorisation, les autorisations de bas niveau permettent à lʼadministrateur de parcours dʼécrire, de lire et de supprimer des parcours.
 
 ## Fonction de parcours {#journey-capability}
 
-### [!DNL Manage journeys] autorisation {#manage-journeys}
+### Autorisation [!DNL Manage journeys] {#manage-journeys}
 
-Le **[!DNL Manage journeys]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des Parcours existants, ainsi que d’accéder aux objets utilisés dans la zone de travail du parcours pour créer le flux de parcours.
+Lʼautorisation de haut niveau **[!DNL Manage journeys]** permet aux utilisateurs de créer des parcours et de modifier/supprimer des parcours existants, ainsi que dʼaccéder aux objets utilisés dans la zone de travail de parcours pour concevoir le flux du parcours.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -58,9 +47,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * datasets.read
    * schemas.read
 
-### [!DNL Publish journeys] autorisation {#publish-journeys}
+### Autorisation [!DNL Publish journeys] {#publish-journeys}
 
-Le **[!DNL Publish journeys]** l’autorisation de haut niveau permet aux utilisateurs de publier des parcours.
+Lʼautorisation de haut niveau **[!DNL Publish journeys]** permet aux utilisateurs de publier des parcours.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -68,9 +57,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * journeys.publish
    * journeys.read
 
-### [!DNL View journeys] autorisation {#view-journeys}
+### Autorisation [!DNL View journeys] {#view-journeys}
 
-Le **[!DNL View journeys]** l’autorisation de haut niveau permet aux utilisateurs de parcourir et d’afficher des parcours.
+Lʼautorisation de haut niveau **[!DNL View journeys]** permet aux utilisateurs de parcourir et dʼafficher les parcours.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -81,9 +70,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * segments.read
    * profiles.read
 
-### [!DNL Manage journeys events, data sources and actions] autorisation {#manage-journeys-events}
+### Autorisation [!DNL Manage journeys events, data sources and actions] {#manage-journeys-events}
 
-Le **[!DNL Manage journeys events, data sources and actions]** l’autorisation de haut niveau permet aux utilisateurs de configurer des configurations d’événement et de données.
+Lʼautorisation de haut niveau **[!DNL Manage journeys events, data sources and actions]** permet aux utilisateurs de configurer des configurations d’événement et de données.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -103,9 +92,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys events, data sources and actions] autorisation {#view-journeys-event}
+### Autorisation [!DNL View journeys events, data sources and actions] {#view-journeys-event}
 
-Le **[!DNL View journeys events, data sources and actions]** l’autorisation de haut niveau permet aux utilisateurs d’utiliser l’événement et les données dans le flux de parcours.
+L’autorisation de haut niveau **[!DNL View journeys events, data sources and actions]** permet aux utilisateurs d’utiliser lʼévénement et les données dans le flux du parcours.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -119,9 +108,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys report] autorisation {#view-journeys-report}
+### Autorisation [!DNL View journeys report] {#view-journeys-report}
 
-Le **[!DNL View journeys report]** l’autorisation de haut niveau permet aux utilisateurs de créer des rapports de parcours en lecture seule.
+L’autorisation de haut niveau **[!DNL View journeys report]** permet aux utilisateurs dʼafficher en lecture seule un rapport sur le parcours.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -137,9 +126,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ## Fonction de messages {#message-capability}
 
-### [!DNL Manage messages] autorisation {#manage-messages}
+### Autorisation [!DNL Manage messages] {#manage-messages}
 
-Le **[!DNL Manage messages]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des messages.
+Lʼautorisation de haut niveau **[!DNL Manage messages]** permet aux utilisateurs de créer et modifier/supprimer un message.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -153,9 +142,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * segments.read
    * schemas.read
 
-### [!DNL Manage messages preview and test] autorisation {#mange-messages-preview}
+### Autorisation [!DNL Manage messages preview and test] {#mange-messages-preview}
 
-Le **[!DNL Manage messages preview and test]** l’autorisation de haut niveau permet aux utilisateurs de prévisualiser un message personnalisé.
+L’autorisation de haut niveau **[!DNL Manage messages preview and test]** permet aux utilisateurs de prévisualiser un message personnalisé.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -175,9 +164,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * queries.write
    * merge_policies.read
 
-### [!DNL Publish messages] autorisation {#publish-messages}
+### Autorisation [!DNL Publish messages] {#publish-messages}
 
-Le **[!DNL Publish messages]** l’autorisation de haut niveau permet aux utilisateurs de publier des messages.
+Lʼautorisation de haut niveau **[!DNL Publish messages]** permet aux utilisateurs de publier des messages.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -189,9 +178,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * schemas.read
    * datasets.read
 
-### [!DNL View messages] autorisation {#view-messages}
+### Autorisation [!DNL View messages] {#view-messages}
 
-Le **[!DNL View messages]** l’autorisation de haut niveau permet aux utilisateurs de lire uniquement les messages.
+Lʼautorisation de haut niveau **[!DNL View messages]** permet aux utilisateurs de lire uniquement les messages.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -203,9 +192,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * schemas.read
    * segments.read
 
-### [!DNL View messages report] autorisation {#view-message-reports}
+### Autorisation [!DNL View messages report] {#view-message-reports}
 
-Le **[!DNL View messages report]** l’autorisation de haut niveau permet aux utilisateurs d’envoyer des rapports push et des e-mails en lecture seule.
+Lʼautorisation de haut niveau **[!DNL View messages report]** permet aux utilisateurs dʼafficher en lecture seule un rapport sur les e-mails et les notifications push.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -219,9 +208,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ## Fonction de gestion des décisions {#decisions-permissions}
 
-### [!DNL Manage decisions] autorisation {#manage-decisioning}
+### Autorisation [!DNL Manage decisions] {#manage-decisioning}
 
-Le **[!DNL Manage decisions]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des **[!DNL Activity entities]**, ainsi que de gérer les objets utilisés dans ces activités pour prendre des décisions.
+Lʼautorisation de haut niveau **[!DNL Manage decisions]** permet aux utilisateurs de créer et de modifier/supprimer des **[!DNL Activity entities]** existantes, ainsi que de gérer les objets utilisés dans ces activités pour prendre des décisions.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -245,9 +234,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * profile.read
    * segments.read
 
-### [!DNL View decisions] autorisation {#view-decisions}
+### Autorisation [!DNL View decisions] {#view-decisions}
 
-Le **[!DNL View decisions]** l’autorisation de haut niveau permet aux utilisateurs d’utiliser une activité existante et les objets commerciaux associés pour prendre des décisions.
+Lʼautorisation de haut niveau **[!DNL View decisions]** permet aux utilisateurs dʼutiliser une activité existante et les objets métier associés pour prendre des décisions.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -264,9 +253,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * datasets.write
    * datasets.delete
 
-### [!DNL Publish offers decisioning] autorisation {#publish-decisions}
+### Autorisation [!DNL Publish offers decisioning] {#publish-decisions}
 
-Le **[!DNL Publish offers decisioning]** l’autorisation de haut niveau permet aux utilisateurs d’accéder à l’approbation/l’annulation de l’approbation des activités d’offre.
+Lʼautorisation de haut niveau **[!DNL Publish offers decisioning]** permet aux utilisateurs dʼobtenir un accès pour approuver/annuler lʼapprobation des activités dʼoffre.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -286,9 +275,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] autorisation {#manage-decisions}
+### Autorisation [!DNL Manage ranking strategies] {#manage-decisions}
 
-Le **[!DNL Manage ranking strategies]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer un rapport de messages personnalisés et d’utiliser des fonctions d’action.
+Lʼautorisation de haut niveau **[!DNL Manage ranking strategies]** permet aux utilisateurs de lire, de créer, de modifier et de supprimer un rapport de messages personnalisé et dʼutiliser des fonctionnalités dʼaction.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -302,9 +291,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ## Fonction d&#39;administration {#administration-permissions}
 
-### [!DNL Manage subdomains delegation] autorisation {#manage-subdomain}
+### Autorisation [!DNL Manage subdomains delegation] {#manage-subdomain}
 
-Le **[!DNL Manage subdomains delegation]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des délégations de sous-domaines (y compris le pool d’adresses IP).
+Lʼautorisation de haut niveau **[!DNL Manage subdomains delegation]** permet aux utilisateurs de créer, de modifier et de supprimer les délégations de sous-domaines (y compris le groupe dʼadresses IP).
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -312,7 +301,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### [!DNL Manage PTR records] autorisation {#manage-ptr}
+### Autorisation [!DNL Manage PTR records] {#manage-ptr}
 
 Le **[!DNL Manage PTR records]** l’autorisation de haut niveau permet aux utilisateurs de lire et de modifier les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
 
@@ -322,18 +311,18 @@ Elle comprend les autorisations de bas niveau suivantes :
 * PTR_records.write
 * subdomains_delegation.read
 
-### [!DNL View PTR records] autorisation {#view-ptr}
+### Autorisation [!DNL View PTR records] {#view-ptr}
 
-Le **[!DNL View PTR records]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+Lʼautorisation de haut niveau **[!DNL View PTR records]** permet aux utilisateurs dʼafficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### [!DNL Manage IP pools] autorisation {#manage-ip-pools}
+### Autorisation [!DNL Manage IP pools] {#manage-ip-pools}
 
-Le **[!DNL Manage IP pools]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer la définition d’affinité.
+Lʼautorisation de haut niveau **[!DNL Manage IP pools]** permet aux utilisateurs de créer, de modifier et de supprimer la définition des affinités.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -341,9 +330,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] autorisation {#manage-message-settings}
+### Autorisation [!DNL Manage messages general settings] {#manage-message-settings}
 
-Le **[!DNL Manage messages general settings]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des paramètres globaux au niveau de l’environnement de test.
+Lʼautorisation de haut niveau **[!DNL Manage messages general settings]** permet aux utilisateurs de créer, de modifier et de supprimer des paramètres globaux au niveau de lʼenvironnement sandbox.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -354,9 +343,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 * Spécifiques à Adobe Experience Platform :
    * schemas.read
 
-### [!DNL View messages general settings] autorisation {#view-message-settings}
+### Autorisation [!DNL View messages general settings] {#view-message-settings}
 
-Le **[!DNL View messages general settings]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les paramètres généraux des messages, tels que l’adresse d’exécution.
+Lʼautorisation de haut niveau **[!DNL View messages general settings]** permet aux utilisateurs dʼafficher les paramètres généraux des messages, tels que lʼadresse dʼexécution.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -365,9 +354,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 * Spécifiques à Adobe Experience Platform :
    * schemas.read
 
-### [!DNL Manage messages presets] autorisation {#manage-message-presets}
+### Autorisation [!DNL Manage messages presets] {#manage-message-presets}
 
-Le **[!DNL Manage messages presets]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des paramètres prédéfinis de message sur plusieurs canaux au niveau de l’environnement de test.
+Lʼautorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs de créer, de modifier et de supprimer des préréglages de message sur les canaux au niveau de lʼenvironnement sandbox.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -379,20 +368,20 @@ Elle comprend les autorisations de bas niveau suivantes :
    * IP_pools.read
    * mobile_setting.read (à partir d&#39;Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] autorisation {#view-message-presets}
+### Autorisation [!DNL View messages presets] {#view-message-presets}
 
-Le **[!DNL View messages presets]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les paramètres prédéfinis de message afin de connaître les paramètres prédéfinis de message à utiliser lors de la création d’un message.
+Lʼautorisation de haut niveau **[!DNL View messages presets]** permet aux utilisateurs dʼafficher les préréglages de message afin de savoir lesquels utiliser lors de la création dʼun message.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (à partir de la collecte de données Adobe Experience Platform)
+* mobile_setting.read (à partir de la collecte de données dʼAdobe Experience Platform)
 
-### [!DNL Manage suppression] autorisation {#manage-suppression}
+### Autorisation [!DNL Manage suppression] {#manage-suppression}
 
-Le **[!DNL Manage suppression]** l’autorisation de haut niveau permet aux utilisateurs de définir le nombre de rebonds avant l’ajout d’une adresse électronique à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans/depuis la liste de suppression.
+L’autorisation de haut niveau **[!DNL Manage suppression]** permet aux utilisateurs de définir le nombre de bounces avant l’ajout d’une adresse e-mail à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans la liste de suppression.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -402,9 +391,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 * suppression_list.write
 * suppression_list.delete
 
-### [!DNL View suppression list] autorisation {#view-suppression-list}
+### Autorisation [!DNL View suppression list] {#view-suppression-list}
 
-Le **[!DNL View suppression list]** l’autorisation de haut niveau permet aux utilisateurs d’afficher le contenu et les paramètres de la liste de suppression.
+L’autorisation de haut niveau **[!DNL View suppression list]** permet aux utilisateurs d’afficher le contenu et les paramètres de la liste de suppression.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -415,9 +404,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * profiles.read
    * datasets.read
 
-### [!DNL Export suppression list] autorisation {#export-suppression-list}
+### Autorisation [!DNL Export suppression list] {#export-suppression-list}
 
-Le **[!DNL Export suppression list]** l’autorisation de haut niveau permet aux utilisateurs de télécharger la liste de suppression sous la forme d’un fichier CSV.
+L’autorisation de haut niveau **[!DNL Export suppression list]** permet aux utilisateurs de télécharger la liste de suppression sous forme de fichier CSV.
 
 Elle comprend les autorisations de bas niveau suivantes :
 

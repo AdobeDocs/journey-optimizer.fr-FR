@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
-workflow-type: ht
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Le **[!UICONTROL rapport global sur les e-mails]** est divisé en différents wi
 
 * **[!UICONTROL Taux de plaintes de courrier indésirable]** : pourcentage d&#39;emails marqués comme étant indésirables par les destinataires par rapport aux messages envoyés. Pour plus d’informations sur les plaintes, consultez le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
-* **[!UICONTROL Taux de désabonnement]** : pourcentage de désabonnements uniques par rapport au nombre de messages diffusés. Cet indicateur ne dépend pas du nombre de clics effectués sur le lien de désabonnement, mais du nombre de désabonnements effectués par les destinataires. Pour en savoir plus sur les désabonnements, consultez cette [page](../consent.md).
+* **[!UICONTROL Taux de désabonnement]** : pourcentage de désabonnements uniques par rapport au nombre de messages diffusés. Cet indicateur ne dépend pas du nombre de clics effectués sur le lien de désabonnement, mais du nombre de désabonnements effectués par les destinataires. Pour en savoir plus sur les désabonnements, consultez cette [page](../messages/consent.md).
 
 **[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l&#39;activité destinataire de votre diffusion :
 
@@ -75,7 +75,7 @@ Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de r
 
 * **[!UICONTROL Ignorés]** : nombre total d&#39;erreurs temporaires, telles que Absence du bureau, ou une erreur technique, par exemple si le type d&#39;expéditeur est Postmaster.
 
-Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppression](../suppression-list.md).
+Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppression](../messages/suppression-list.md).
 
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >Les profils avec le statut **[!UICONTROL Supprimé]** ou **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports par e-mail** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi de l’e-mail.
 >
->Pour en savoir plus, consultez [Liste de suppression](../suppression-list.md) et [Liste autorisée](../allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d‘Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.
+>Pour en savoir plus, consultez [Liste de suppression](../messages/suppression-list.md) et [Liste autorisée](../messages/allow-list.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d‘Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.

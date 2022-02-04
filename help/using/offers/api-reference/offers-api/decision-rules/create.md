@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
 
-# Créer une règle de décision
+# Créer une règle de décision {#create-decision-rule}
 
 Les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
@@ -72,7 +72,8 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la règle nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre règle de décision. Vous pouvez utiliser votre `@id` de règle de décision unique dans un tutoriel ultérieur pour créer des offres personnalisées.
+Une réponse réussie renvoie des informations sur la règle de décision nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement.
+Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre règle de décision. Vous pouvez utiliser votre `@id` de règle de décision unique dans un tutoriel ultérieur pour créer des offres personnalisées.
 
 ```json
 {

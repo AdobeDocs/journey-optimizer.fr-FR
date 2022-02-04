@@ -1,19 +1,19 @@
 ---
-title: Création d'emplacements
-description: Découvrez comment créer des emplacements dans Adobe Experience Platform.
+title: Création d’emplacements
+description: Découvrez comment créer des emplacements pour vos offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '225'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 96%
 
 ---
 
-# Création d&#39;emplacements {#creating-placements}
+# Création d&#39;emplacements {#create-placements}
 
 Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 

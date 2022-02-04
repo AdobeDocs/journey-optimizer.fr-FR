@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 97%
 
 ---
 
-# Envoi de messages à l&#39;aide de Campaign v7/v8 {#campaign-classic-use-case}
+# Cas pratique : envoyer un message à l&#39;aide de Campaign v7/v8 ; {#campaign-classic-use-case}
 
 Ce cas pratique présente toutes les étapes nécessaires pour envoyer un e-mail à l&#39;aide de l&#39;intégration à Adobe Campaign Classic v7 et Adobe Campaign v8.
 

@@ -6,8 +6,8 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Opérateurs {#operators}
 
-## Fonctions booléennes 
+## Fonctions booléennes  {#boolean-functions}
 
 Les fonctions booléennes sont utilisées pour exécuter une logique booléenne sur différents éléments.
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 
 
-## Fonctions de comparaison 
+## Fonctions de comparaison  {#comparison-functions}
 
 Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
 

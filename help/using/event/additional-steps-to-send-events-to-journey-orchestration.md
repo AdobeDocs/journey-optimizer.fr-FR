@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
 
 ---
 
-# Étapes supplémentaires pour l’envoi d’événements {#concept_xrz_n1q_y2b}
+# Étapes supplémentaires pour l’envoi d’événements {#additional-steps-to-send-events}
 
 Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans [!DNL Journey Optimizer], procédez comme suit :
 

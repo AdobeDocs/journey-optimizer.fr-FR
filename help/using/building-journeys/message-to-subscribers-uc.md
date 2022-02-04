@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 96%
 
 ---
 
-# Envoyer un message aux abonnés d’une liste
+# Cas pratique : envoyer un message aux abonnés d&#39;une liste ;{#send-a-message-to-the-subscribers-of-a-list}
 
 Ce cas d’utilisation a pour but de créer un parcours pour envoyer un message aux abonnés d’une liste.
 

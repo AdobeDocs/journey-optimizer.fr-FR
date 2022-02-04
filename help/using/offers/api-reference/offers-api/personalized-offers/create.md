@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 
 ---
 
-# Créer une offre personnalisée
+# Créer une offre personnalisée {#create-personalized-offer}
 
 Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 
 Vous pouvez créer une offre personnalisée en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

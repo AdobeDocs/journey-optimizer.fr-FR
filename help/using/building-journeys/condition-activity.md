@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Activité de condition{#section_e2n_pft_dgb}
+# Activité de condition{#condition-activity}
 
 Les types de conditions disponibles sont les suivantes :
 
@@ -21,7 +21,7 @@ Les types de conditions disponibles sont les suivantes :
 * [Condition de temps](#time_condition)
 * [Partage en pourcentage](#percentage_split)
 * [Condition de date](#date_condition)
-* [Limite du profil](#profile_cap)
+* [Limite de profils](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -97,9 +97,9 @@ Cette condition vous permet de définir un flux différent en fonction de la dat
 
 ![](../assets/journey53.png)
 
-## Limite du profil {#profile_cap}
+## Limite de profils {#profile_cap}
 
-Utilisez ce type de condition pour définir un nombre maximal de profils pour le chemin dʼun parcours. Lorsque cette limite est atteinte, les profils entrants prennent un autre chemin. Ainsi, vos parcours ne dépasseront jamais la limite définie.
+Utilisez ce type de condition pour définir un nombre maximal de profils pour le chemin dʼun parcours. Lorsque cette limite est atteinte, les profils entrants prennent un autre chemin. De cette manière, vos parcours ne dépasseront jamais la limite définie.
 
 Utilisez ce type de condition pour augmenter le volume de vos diffusions. Voir [cas d’utilisation](ramp-up-deliveries-uc.md).
 
@@ -109,12 +109,12 @@ Le compteur s’applique uniquement à la version du parcours sélectionnée. Le
 
 Le chemin nominal a toujours la priorité sur le chemin alternatif, même si vous déplacez le chemin alternatif au-dessus du chemin nominal sur la zone de travail de parcours.
 
-Pour les parcours en direct, voici les seuils à prendre en compte pour s’assurer que la limite est atteinte :
+Pour les parcours actifs, voici les seuils à prendre en compte pour que la limite soit atteinte :
 
-* Pour une limite supérieure à 10 000, le nombre de profils distincts à injecter doit être au moins 1,3 fois la limite.
-* Pour une limite inférieure à 10 000, le nombre de profils distincts à injecter doit être de 1 000 plus la limite.
+* Pour une limite supérieure à 10 000, le nombre de profils distincts à injecter doit être au moins égal à 1,3 fois la limite.
+* Pour une limite inférieure à 10 000, le nombre de profils distincts à injecter doit être de 1 000 plus la limite.
 
-La limite de profil n’est pas prise en compte en mode test.
+La limite de profils n’est pas prise en compte en mode test.
 
 ![](../assets/profile-cap-condition.png)
 

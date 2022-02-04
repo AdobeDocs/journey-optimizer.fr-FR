@@ -1,15 +1,15 @@
 ---
 title: Cas d’utilisation de la personnalisation&colon; e-mail d’abandon de panier
-description: Découvrez comment personnaliser un message à l’aide de fonctions helper.
+description: Découvrez comment personnaliser le corps d’un email à travers un cas pratique.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 98%
 
 ---
 
@@ -26,8 +26,8 @@ Vous utiliserez ces types de fonctions helper :
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Avant de commencer, vérifiez que vous savez comment configurer ces éléments :
-* Un message e-mail. [En savoir plus](../create-message.md)
-* Le corps d’un email. [En savoir plus](../create-email-content.md).
+* Un message e-mail. [En savoir plus](../messages/create-message.md)
+* Le corps d’un email. [En savoir plus](../messages/create-email-content.md).
 * Un événement unitaire. [En savoir plus](../event/about-events.md).
 * Un parcours commençant par un événement. [En savoir plus](../building-journeys/using-the-journey-designer.md).
 
@@ -324,15 +324,15 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Vérifiez qu&#39;il n&#39;y a pas d&#39;erreur et publiez le parcours.
 
 
-## Rubriques connexes
+## Rubriques connexes {#related-topics}
 
-### Fonctions Handlebars
+### Fonctions Handlebars {#handlebars}
 
 * [Assistants](functions/helpers.md)
 
 * [Fonctions de chaîne](functions/string.md)
 
-### Cas d&#39;utilisation
+### Cas d&#39;utilisation {#use-case}
 
 * [Personnalisation avec les informations de profil, le contexte et l’offre](personalization-use-case.md)
 

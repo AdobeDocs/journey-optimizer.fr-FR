@@ -1,13 +1,13 @@
 ---
-title: Prise en main de l'export de catalogues d'offres
-description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les décisions.
+title: Prise en main de l’export de catalogues d’offres
+description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les décisions
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 100%
 
@@ -29,14 +29,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## Identifiant
+## Identifiant {#identifier}
 
 **Champ :** _id 
 **Titre :** identifiant 
 **Description :** identifiant unique de l&#39;enregistrement.
 **Type :** chaîne
 
-## _experience
+## _experience {#experience}
 
 **Champ :** _experience
 **Type :** objet
@@ -254,7 +254,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Description :** date et heure de début de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété &#39;startTime&#39; de schema.org définie sur http://schema.org/Action.
 **Type :** chaîne
 
-## _repo
+## _repo {#repo}
 
 **Champ :** _repo 
 **Type :** objet

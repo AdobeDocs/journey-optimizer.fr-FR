@@ -6,20 +6,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
-# À propos des schémas ExperienceEvent pour les événements [!DNL Journey Optimizer]
+# À propos des schémas ExperienceEvent pour les événements [!DNL Journey Optimizer] {#about-experienceevent-schemas}
 
 Les événements [!DNL Journey Optimizer] sont des événements d’expérience XDM envoyés à Adobe Experience Platform par l’intermédiaire de l’ingestion en flux continu.
 
 À ce titre, un prérequis important pour la configuration des événements dans [!DNL Journey Optimizer] est de maîtriser modèle de données d’expérience (ou XDM) d’Adobe Experience Platform et de savoir composer des schémas d’événements d’expérience XDM et diffuser des données au format XDM vers Adobe Experience Platform.
 
-## Schéma requis pour les événements [!DNL Journey Optimizer]
+## Schéma requis pour les événements [!DNL Journey Optimizer]  {#schema-requirements}
 
 La première étape de la configuration d’un événement pour [!DNL Journey Optimizer] consiste à définir un schéma XDM pour représenter l’événement et à créer un jeu de données pour enregistrer les instances de l’événement dans Adobe Experience Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements, mais envoyer les événements à un jeu de données spécifique permettra de conserver l’historique des événements des utilisateurs pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d’un schéma et d’un jeu de données appropriés pour votre événement, il est possible de réaliser ces deux tâches dans l’interface web d’Adobe Experience Platform.
 

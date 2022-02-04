@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
 ---
 
-# Création d&#39;une collection
+# Création d&#39;une collection {#create-collection}
 
 Les collections sont des sous-ensembles d&#39;offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l&#39;offre.
 
 Vous pouvez créer une collection en adressant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
 
-## En-têtes Accepter et Type de contenu
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

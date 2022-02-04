@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
-workflow-type: ht
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 >
 >Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=fr) sur le cas d’utilisation d’un événement métier.
 
-## Remarques importantes
+## Remarques importantes {#important-notes}
 
 * Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d’événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
 * Les événements métier ne peuvent être placés que comme première étape d&#39;un parcours.
@@ -36,7 +36,7 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 * Lors du test d&#39;un événement métier, vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. En outre, lorsque vous testez un parcours basé sur un événement métier, vous ne pouvez déclencher qu&#39;une seule entrée de profil. Consultez [cette section](../building-journeys/testing-the-journey.md#test-business). En mode test, aucun mode « Affichage du code » n&#39;est disponible.
 * Qu&#39;advient-il des personnes qui se trouvent actuellement dans le parcours si un nouvel événement métier se produit ? La même chose que lorsque des personnes se trouvent encore dans un parcours récurrent lorsqu&#39;une nouvelle récurrence se produit. Leur chemin est terminé. En conséquence, les spécialistes du marketing doivent veiller à ne pas créer de parcours trop longs s&#39;ils s&#39;attendent à des événements métier fréquents.
 
-## Plusieurs événements métier
+## Plusieurs événements métier {#multiple-business-events}
 
 Voici quelques remarques importantes qui s’appliquent lorsque plusieurs événements métier sont reçus simultanément.
 
@@ -48,7 +48,7 @@ Les événements métier suivent les règles de rentrée de la même manière qu
 
 Dans le cas d’événements métier unique, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de barrières de sécurité. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
-## Prise en main des événements métier
+## Prise en main des événements métier {#gs-business-events}
 
 Les premières étapes pour configurer un événement métier sont les suivantes :
 

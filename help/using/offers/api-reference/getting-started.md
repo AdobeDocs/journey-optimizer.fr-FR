@@ -1,38 +1,39 @@
 ---
 title: Prise en main
-description: Découvrez comment commencer à utiliser l'API de la bibliothèque des offres pour effectuer des opérations essentielles à l'aide du moteur Decision Management.
+description: 'Découvrez comment commencer à utiliser l''API de la bibliothèque des offres pour effectuer des opérations essentielles à l''aide du moteur de gestion des décisions. '
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
 ---
 
-# Guide du développeur de l&#39;API Decision Management
+# Guide du développeur de l&#39;API de gestion des décisions {#decision-management-api-developer-guide}
 
-Ce guide du développeur décrit les étapes à suivre pour commencer à utiliser l&#39;API [!DNL Offer Library]. Le guide fournit ensuite des exemples d&#39;appels API pour effectuer des opérations clés à l&#39;aide du moteur Decision Management.
+Ce guide du développeur décrit les étapes à suivre pour commencer à utiliser l&#39;API [!DNL Offer Library]. Le guide fournit ensuite des exemples d&#39;appels API pour effectuer des opérations clés à l&#39;aide du moteur de gestion des décisions.
+
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-## Conditions préalables
+## Conditions préalables {#prerequisites}
 
 Ce guide nécessite une compréhension professionnelle des composants suivants d&#39;Adobe Experience Platform :
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;} : cadre normalisé selon lequel [!DNL Experience Platform] organise les données de l’expérience client.
    * [Notions de base sur la composition du schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target=&quot;_blank&quot;} : en savoir plus sur les blocs de création de base des schémas XDM.
-* [Decision Management](../../../using/offers/get-started/starting-offer-decisioning.md) : explique les concepts et les composants utilisés pour Experience Decisioning en général et pour Offer Decisioning en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l&#39;expérience client.
+* [Gestion des décisions](../../../using/offers/get-started/starting-offer-decisioning.md) : explique les concepts et les composants utilisés pour Experience Decisioning en général et pour Offer Decisioning en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l&#39;expérience client.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr){target=&quot;_blank&quot;} : PQL est un langage puissant pour écrire des expressions sur des instances XDM. PQL est utilisé pour définir des règles de décision.
 
-## Lecture d&#39;exemples d&#39;appels API
+## Lecture d&#39;exemples d&#39;appels API {#reading-sample-api-calls}
 
-Ce guide fournit des exemples d&#39;appels API pour démontrer comment formater vos requêtes. Il s&#39;agit notamment de chemins d&#39;accès, d&#39;en-têtes requis et de payloads de requêtes correctement formatés. L’exemple JSON renvoyé dans les réponses de l’API est également fourni. Pour plus d&#39;informations sur les conventions utilisées dans la documentation pour les exemples d&#39;appels d&#39;API, voir la section concernant la [lecture d&#39;exemples d&#39;appels d&#39;API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=fr#how-do-i-format-an-api-request){target=&quot;_blank&quot;} dans le guide de dépannage [!DNL Experience Platform].
+Ce guide fournit des exemples d’appels API pour démontrer comment formater vos requêtes. Il s’agit notamment de chemins d’accès, d’en-têtes requis et de payloads de requêtes correctement formatés. L’exemple JSON renvoyé dans les réponses de l’API est également fourni. Pour plus d&#39;informations sur les conventions utilisées dans la documentation pour les exemples d&#39;appels d&#39;API, voir la section concernant la [lecture d&#39;exemples d&#39;appels d&#39;API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=fr#how-do-i-format-an-api-request){target=&quot;_blank&quot;} dans le guide de dépannage [!DNL Experience Platform].
 
-## Collecte des valeurs des en-têtes requis
+## Collecte des valeurs des en-têtes requis {#gather-values-for-required-headers}
 
 Pour effectuer des appels aux API [!DNL Platform], vous devez d&#39;abord suivre le [tutoriel d&#39;authentification](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr){target=&quot;_blank&quot;} Le tutoriel d&#39;authentification fournit les valeurs de chacun des en-têtes requis dans tous les appels d&#39;API [!DNL Experience Platform], comme indiqué ci-dessous :
 
@@ -44,7 +45,7 @@ Toutes les requêtes contenant une payload (POST, PUT, PATCH) requièrent un en-
 
 * `Content-Type: application/json`
 
-## Gérer l&#39;accès à un conteneur
+## Gérer l&#39;accès à un conteneur {#manage-access-to-container}
 
 Un conteneur est un mécanisme d&#39;isolement qui permet de séparer différentes préoccupations. L&#39;ID de conteneur est le premier élément de chemin d&#39;accès pour toutes les API du référentiel. Tous les objets de prise de décision résident dans un conteneur.
 
@@ -52,7 +53,7 @@ Un administrateur peut regrouper des entités principales, des ressources et des
 
 Avec les privilèges d&#39;administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs via l‘[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Pour plus d&#39;informations, voir la [présentation du contrôle d&#39;accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target=&quot;_blank&quot;}
 
-### Liste des conteneurs accessibles aux utilisateurs et aux intégrations
+### Liste des conteneurs accessibles aux utilisateurs et aux intégrations {#list-containers-accessible-to-users-and-integrations}
 
 **Format d&#39;API**
 
@@ -124,13 +125,14 @@ Une réponse positive renvoie des informations concernant les conteneurs de gest
 }
 ```
 
-## Étapes suivantes
+## Étapes suivantes {#next-steps}
 
 Ce document couvrait les connaissances préalables requises pour effectuer des appels à l&#39;API [!DNL Offer Library], y compris l&#39;acquisition de votre ID de conteneur. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
 
 ## Tutoriel vidéo {#video}
 
-La vidéo suivante est destinée à vous aider à comprendre les composants de Decision Management.
+La vidéo suivante est destinée à vous aider à comprendre les composants de gestion des décisions.
+
 
 >[!NOTE]
 >

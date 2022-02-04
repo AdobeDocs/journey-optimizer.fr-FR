@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Il s’agit des champs XDM communs que [!DNL Journey Optimizer] envoie à Adobe�
 
 Certains de ces champs ne sont disponibles que dans des modèles de traitement spécifiques (exécution d’une action, récupération de données, etc.) pour limiter la taille des événements.
 
-## entrance
+## entrance {#entrance-field}
 
 Indique si l’utilisateur est entré dans le parcours. S’il n’est pas présent, nous supposons que la valeur est false.
 
@@ -29,7 +29,7 @@ Type : booléen
 
 Valeurs : true/false
 
-## reentrance
+## reentrance {#reentrance-field}
 
 Indique si l’utilisateur est entré de nouveau dans le parcours avec la même instance. S’il n’est pas présent, nous supposons que la valeur est false.
 
@@ -37,37 +37,37 @@ Type : booléen
 
 Valeurs : true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 Indique si l’instance s’est terminée (avec succès ou non).
 
 Type : booléen
 
-## eventID
+## eventID {#eventid-field}
 
 ID de l’événement traité, pour le traitement de l’étape. Si l’événement est externe, la valeur est son eventId. Si l’événement est interne, la valeur est l’eventId interne (tel que scheduledNotificationReceived, executedAction, etc.).
 
 Type : Chaîne
 
-## nodeID
+## nodeID {#nodeid-field}
 
 ID de nœud client (à partir de la zone de travail).
 
 Type : Chaîne
 
-## stepID
+## stepID {#stepdid-field}
 
 Identifiant unique de l’étape en cours de traitement.
 
 Type : Chaîne
 
-## stepName
+## stepName {#stepname-field}
 
 Nom de l’étape en cours de traitement.
 
 Type : Chaîne
 
-## stepType
+## stepType {#steptype-field}
 
 Type de l’étape.
 
@@ -80,7 +80,7 @@ Valeurs possibles :
 * Planificateur
 * Retardateur
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 Statut de l’étape, représentant l’état de l’étape, une fois son traitement terminé (et l’événement de l’étape déclenché).
 
@@ -95,79 +95,79 @@ Le statut peut être :
 * dépassement de délai : l’étape a échoué avec une erreur de dépassement de délai survenue pendant une action ou un enrichissement.
 * instanceTimedout : l’étape a arrêté son traitement, car l’instance a atteint son délai d’expiration.
 
-## journeyID
+## journeyID {#journeyid-field}
 
 ID du parcours.
 
 Type : Chaîne
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 Identifiant de la version du parcours. Cet identifiant représente la référence d’identité du parcours, dans le cas du journeyStepEvent.
 
 Type : Chaîne
 
-## journeyVersionName
+## journeyVersionName {#journeyversionname-field}
 
 Nom de la version du parcours.
 
 Type : Chaîne
 
-## journeyVersion
+## journeyVersion {#journeyversion-field}
 
 Nom de la version du parcours.
 
 Type : Chaîne
 
-## instanceID
+## instanceID {#instanceid-field}
 
 ID interne de l’instance de parcours.
 
 Type : Chaîne
 
-## externalKey
+## externalKey {#externalkey-field}
 
 Clé externe extraite de l’événement pour le traiter.
 
 Type : Chaîne
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 ID d’étape du parent de l’étape en cours de traitement dans l’instance.
 
 Type : Chaîne
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 Nom de l’étape du parent de l’étape en cours.
 
 Type : Chaîne
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 Identifiant de la transition qui a conduit l’instance à l’étape de traitement.
 
 Type : Chaîne
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 Nom de la transition qui a conduit l’instance à l’étape de traitement.
 
 Type : Chaîne
 
-## inTest
+## inTest {#intest-field}
 
 Indique si ce parcours est en mode test ou non.
 
 Type : booléen
 
-## processingTime
+## processingTime {#processingtime-field}
 
 Durée totale, en millisecondes, entre l’entrée de l’étape d’instance et la fin du traitement.
 
 Type : long
 
-## instanceType
+## instanceType {#instancetype-field}
 
 Indique le type d’instance, s’il s’agit d’un lot ou d’une unité.
 
@@ -175,31 +175,31 @@ Type : Chaîne
 
 Valeurs : batch/unitary
 
-## recurrenceIndex
+## recurrenceIndex {#recurrenceindex-field}
 
 Indice de la récurrence si le parcours est &quot;batch&quot; et récurrent (pour la première exécution, recurrenceIndex = 1).
 
 Type : long
 
-## isBatchToUnitary
+## isBatchToUnitary {#isbatchtounitary-field}
 
 Indique si cette instance unitaire a été déclenchée à partir d’une instance de lot.
 
 Type : booléen
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 Clé externe pour un événement batch.
 
 Type : Chaîne
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 Il s’agit de l’ID d’instance de lot.
 
 Type : Chaîne
 
-## batchUnitaryBranchID
+## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 si l’instance a été déclenchée à partir d’une instance de lot, ID de branche unitaire.
 

@@ -8,8 +8,8 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >Lʼutilisation des pages de destination est actuellement disponible en accès anticipé uniquement pour certains utilisateurs. Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
 
-## Accès aux pages de destination
+## Accès aux pages de destination {#access-landing-pages}
 
 Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
 
@@ -31,7 +31,7 @@ La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments c
 
 ![](../assets/lp_access-list-filter.png)
 
-## Création d’une page de destination
+## Création d’une page de destination {#create-landing-page}
 
 Suivez les étapes de création dʼune page de destination décrites ci-après.
 
@@ -61,7 +61,7 @@ Suivez les étapes de création dʼune page de destination décrites ci-après.
 
    ![](../assets/lp_add-subpage.png)
 
-Une fois que vous avez configuré et conçu la [page principale](#configure-primary-page) et les [sous-pages](#configure-subpages) si vous en avez, vous pouvez [tester](#test) et [publier](#publish) votre page de destination.
+Une fois que vous avez configuré et conçu la [page principale](#configure-primary-page) et les [sous-pages](#configure-subpages) si vous en avez, vous pouvez [tester](#test-landing-page) et [publier](#publish-landing-page) votre page de destination.
 
 ## Configuration de la page principale {#configure-primary-page}
 
@@ -75,7 +75,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](../assets/lp_open-designer.png)
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
@@ -111,9 +111,9 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
 1. Vous pouvez modifier le nom de la page (par défaut, **[!UICONTROL Sous-page 1]**).
 
-1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu de votre page de destination [ici](design-lp.md).
+1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu de la page de destination [ici](design-lp.md).
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle dʼAdobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
@@ -121,7 +121,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
 ![](../assets/lp_subpage-settings.png)
 
-## Test de la page de destination {#test}
+## Test de la page de destination {#test-landing-page}
 
 Une fois les paramètres et le contenu de votre page de destination définis, vous pouvez utiliser des profils de test pour la prévisualiser. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche sur la page de destination en exploitant les données du profil de test.
 
@@ -141,7 +141,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
    ![](../assets/lp_test-profiles.png)
 
-   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../preview.md#select-test-profiles).
+   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../messages/preview.md#select-test-profiles).
 
 1. Sélectionnez lʼonglet **[!UICONTROL Prévisualisation]** et cliquez sur **[!UICONTROL Ouvrir la prévisualisation]** pour tester votre page de destination.
 
@@ -153,7 +153,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 1. Sélectionnez dʼautres profils de test pour prévisualiser le rendu de chaque variante de votre page de destination.
 
-## Vérification des alertes {#alerts}
+## Vérification des alertes {#check-alerts}
 
 Lorsque vous créez votre page de destination, des alertes vous avertissent si vous devez effectuer des actions importantes avant de la publier.
 
@@ -192,7 +192,7 @@ Deux types d’alertes peuvent avoir lieu :
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## Publication de la page de destination {#publish}
+## Publication de la page de destination {#publish-landing-page}
 
 Une fois votre page de destination configurée, vous pouvez la publier pour quʼelle puisse être utilisée dans un message.
 
@@ -200,11 +200,11 @@ Une fois votre page de destination configurée, vous pouvez la publier pour quʼ
 
 >[!CAUTION]
 >
->Avant de publier votre page, vérifiez et résolvez les alertes. [En savoir plus](#alerts)
+>Avant de publier votre page, vérifiez et résolvez les alertes. [En savoir plus](#check-alerts)
 
 Une fois votre page de destination publiée, elle est ajoutée à la liste de pages de destination avec le statut **[!UICONTROL Publié]**.
 
-Votre page est désormais en ligne et peut être utilisée dans un [!DNL Journey Optimizer] [message](../create-message.md) qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
+Votre page est désormais en ligne et peut être utilisée dans un [!DNL Journey Optimizer] [message](../messages/create-message.md) qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
 
 >[!NOTE]
 >

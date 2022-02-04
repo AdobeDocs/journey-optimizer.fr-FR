@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Création de profils de test {#create-test-profiles}
 
-Les profils de test sont requis lors de l’utilisation du mode test afin de savoir comment utiliser ce [dernier](../building-journeys/testing-the-journey.md) dans un parcours, ainsi que pour [prévisualiser et tester vos messages](../preview.md).
+Les profils de test sont requis lors de l’utilisation du mode test afin de savoir comment utiliser ce [dernier](../building-journeys/testing-the-journey.md) dans un parcours, ainsi que pour [prévisualiser et tester vos messages](../messages/preview.md).
 
 Les méthodes disponibles pour créer des profils de test sont présentées ci-dessous :
 
@@ -88,7 +88,7 @@ Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d’utilisat
 
 Les informations affichées sont requises :
 
-1. **Espace de noms d’identité** : [espace de noms d’identité](../get-started-identity.md) utilisé pour identifier de manière unique les profils de test. Par exemple, si l&#39;e-mail est utilisé pour identifier les profils de test, l’espace de noms d’identité **E-mail** doit être sélectionné. Si l’identifiant unique est le numéro de téléphone, l’espace de noms d’identité **Téléphone** doit être sélectionné.
+1. **Espace de noms d’identité** : [espace de noms d’identité](../start/get-started-identity.md) utilisé pour identifier de manière unique les profils de test. Par exemple, si l&#39;e-mail est utilisé pour identifier les profils de test, l’espace de noms d’identité **E-mail** doit être sélectionné. Si l’identifiant unique est le numéro de téléphone, l’espace de noms d’identité **Téléphone** doit être sélectionné.
 
 2. **Fichier CSV** : fichier séparé par des virgules contenant la liste des profils de test à créer. Le cas d’utilisation exige un format prédéfini pour le fichier CSV contenant la liste des profils de test à créer. Chaque ligne du fichier doit inclure les champs suivants dans l’ordre correct :
 
@@ -175,7 +175,7 @@ Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du 
 
 ## Création de profils de test à l&#39;aide d&#39;appels d&#39;API{#create-test-profiles-api}
 
-Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
+Vous pouvez également créer des profils de test au moyen d&#39;appels d&#39;API. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Vous devez utiliser un schéma de profil contenant le groupe de champs « Détails du test de profil ». L&#39;indicateur testProfile fait partie de ce groupe de champs.
 Lors de la création d&#39;un profil, veillez à transmettre la valeur : testProfile = true.

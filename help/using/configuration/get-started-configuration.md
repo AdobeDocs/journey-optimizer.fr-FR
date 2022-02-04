@@ -1,18 +1,15 @@
 ---
-title: Paramètres et instructions de configuration relatifs à Journey Optimizer
-description: Découvrez les instructions de configuration relatives aux messages et aux parcours
-audience: administrators
-content-type: reference
+title: 'Prise en main de la configuration de  [!DNL Journey Optimizer] '
+description: En savoir plus sur [!DNL Journey Optimizer] configuration
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +22,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
 1. **Configuration des messages et des canaux** : définir des paramètres prédéfinis, adapter et personnaliser les e-mails et les messages push
 
-   * Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push-gs.md)
+   * Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../messages/push-gs.md)
 
    * Créez des paramètres prédéfinis de message pour configurer tous les paramètres techniques requis pour les messages de notification push et par e-mail. [En savoir plus](message-presets.md)
 
@@ -34,7 +31,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
    * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
 
 1. **Déléguer des sous-domaines** : pour un nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](about-subdomain-delegation.md)

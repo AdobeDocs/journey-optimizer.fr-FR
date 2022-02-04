@@ -1,13 +1,13 @@
 ---
 title: Interface utilisateur
-description: En savoir plus sur l'interface utilisateur de la bibliothèque des offres.
+description: En savoir plus sur l'interface utilisateur de la bibliothèque des offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
-workflow-type: ht
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Cliquez sur le bouton **[!UICONTROL Afficher tout]** pour accéder aux listes d&
 
 ![](../../assets/overview_view-all.png)
 
-## Recherche et filtrage d’informations
+## Recherche et filtrage d’informations {#search-and-filter-information}
 
 Utilisez la **barre de recherche** pour rechercher un élément spécifique.
 
@@ -77,9 +77,10 @@ Pour accéder aux **filtres**, vous pouvez également cliquer sur l&#39;icône e
 
 ![](../../assets/filters.png)
 
-## Personnaliser les informations affichées
+## Personnaliser les informations affichées {#customize-displayed-information}
 
-Il est possible de personnaliser les listes des menus Decision Management à l’aide du bouton de configuration situé en haut à droite de ces listes.
+Il est possible de personnaliser les listes des menus de la gestion des décisions à l’aide du bouton de configuration situé en haut à droite de ces listes.
+
 
 Il est ainsi possible de choisir les informations à afficher selon vos besoins.
 
@@ -87,7 +88,7 @@ Notez que la personnalisation des colonnes est enregistrée pour chaque utilisat
 
 ![](../../assets/columns.png)
 
-## Volet d&#39;informations
+## Volet d&#39;informations {#information-pane}
 
 Dans les différentes listes, sélectionnez un élément pour afficher un volet d&#39;informations afin de récupérer des informations et d&#39;exécuter des actions de base sur l&#39;élément.
 
