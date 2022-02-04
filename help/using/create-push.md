@@ -6,18 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 89d0ef7323d8e1e7f415a9b2a058e4dca7a6ecb0
+source-git-commit: dc1dd69040086bd0fad332feb12cc817fec41544
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 82%
+source-wordcount: '1262'
+ht-degree: 99%
 
 ---
 
-# Création d’une notification push {#create-push-notification}
-
-Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre application mobile à tout moment, en particulier lorsqu&#39;ils ne l&#39;utilisent pas activement. Elles peuvent vous aider à réaliser divers cas d&#39;utilisation, tels que fournir des mises à jour sur votre service, demander à un utilisateur de prendre des mesures, avertir l&#39;utilisateur d&#39;une nouvelle transaction, etc. Les plateformes d&#39;appareil nécessitent un accord préalable avant que les utilisateurs finaux puissent recevoir ou afficher vos notifications. L’inclusion de l’utilisateur peut être reçue dès le lancement de l’application pour la première fois après l’installation, ou au cours d’une session ou d’un workflow ultérieur, selon le cas.
-
-[!DNL Journey Optimizer] prend en charge les notifications push et vous permet d&#39;envoyer des notifications extrêmement pertinentes à des taux de débit de pointe. Les notifications push peuvent inclure une personnalisation et un contexte basé sur les parcours afin d&#39;exploiter les données de votre marque avec Adobe Experience Cloud.
+# Créez une notification push {#create-push-notification}
 
 Une fois que vous avez [créé un message](create-message.md), cliquez sur l&#39;onglet **[!UICONTROL Notification push]** pour définir les paramètres et le contenu de la notification push.
 
@@ -27,11 +23,11 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 
 >[!NOTE]
 >
->La section **[!UICONTROL Composer le message]** est commune aux onglets **[!UICONTROL iOS]** et **[!UICONTROL Android]**. Toute modification apportée à cette section s’applique aux deux paramètres.
+>La section **[!UICONTROL Composer le message]** est commune aux onglets **[!UICONTROL iOS]** et **[!UICONTROL Android]**. Toute modification apportée à cette section s&#39;appliquera aux deux onglets.
 
-## Titre et contenu {#push-title-body}
+## Titre et contenu
 
-Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l&#39;éditeur d&#39;expression pour définir le contenu et les données de personnalisation. Consultez [cette section](../personalization/personalize.md) pour en savoir plus sur la personnalisation dans l&#39;éditeur d&#39;expression.
+Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l&#39;éditeur d&#39;expression pour définir le contenu et les données de personnalisation. Consultez [cette section](personalization/personalize.md) pour en savoir plus sur la personnalisation dans l&#39;éditeur d&#39;expression.
 
 Utilisez la section de prévisualisation des appareils pour visualiser la façon dont s&#39;affiche la notification push sur les appareils iOS et Android.
 
@@ -42,15 +38,15 @@ Utilisez la section de prévisualisation des appareils pour visualiser la façon
 >title="À propos du comportement en cas de clic"
 >abstract="Sélectionnez le comportement lorsqu&#39;un destinataire clique sur le corps de la notification push."
 
-Vous pouvez sélectionner le comportement lorsqu’un utilisateur clique sur le corps de la notification push.
+Sélectionnez le comportement lorsqu&#39;un destinataire clique sur le corps de la notification push.
 
 ![](assets/title-body-push.png)
 
-* Pour ouvrir l’application, sélectionnez la **[!UICONTROL Ouvrir l’application]** . L&#39;application associée à la notification est définie dans le message **[!UICONTROL Paramètre prédéfini]**. [En savoir plus](../configuration/message-presets.md) à propos des paramètres prédéfinis de message.
-* Pour rediriger l’utilisateur vers un élément de contenu spécifique dans une application, sélectionnez la variable **[!UICONTROL Deeplink]** .  Le contenu spécifique peut être une vue spécifique, une section spécifique d’une page ou un certain onglet. Une fois l&#39;option sélectionnée, saisissez le lien profond dans le champ associé.
-* Pour rediriger l’utilisateur vers une URL externe, utilisez la méthode **[!UICONTROL URL web]** . Une fois l&#39;option sélectionnée, saisissez l&#39;URL dans le champ associé.
+* Utilisez l&#39;option **[!UICONTROL Ouvrir l&#39;application]** pour ouvrir l&#39;application associée au **[!UICONTROL Préréglage]** du message.
+* Utilisez l&#39;option **[!UICONTROL Lien profond]** pour rediriger le destinataire vers un contenu spécifique situé dans l&#39;application. Saisissez le lien profond dans le champ associé.
+* Utilisez l&#39;option **[!UICONTROL URL Web]** pour rediriger le destinataire vers une URL externe. Saisissez l&#39;URL dans le champ associé.
 
-## Ajouter un média {#add-media-push}
+## Ajouter un média
 
 Dans la version iOS de votre notification push, vous pouvez ajouter une image, une vidéo ou un fichier GIF qui s&#39;affichera dans votre notification.
 
@@ -60,33 +56,33 @@ Dans la version Android, vous pouvez uniquement ajouter une icône d&#39;image e
 
 Deux options sont disponibles. Vous pouvez :
 
-* Utilisez la variable **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets Essentials]**.
+* Cliquer sur le bouton **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets Essentials]**.
 
    Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets Essentials]** dans [cette page](assets-essentials.md).
 
-* Ou saisissez l’URL du média dans la variable **[!UICONTROL Ajouter un média]** champ . Dans ce cas, vous pouvez ajouter une personnalisation à l’URL.
+* Ou saisir l&#39;URL du média en cliquant sur le champ **[!UICONTROL Ajouter un média]**. Dans ce cas, vous pouvez ajouter une personnalisation.
 
 Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 
-## Ajouter des boutons {#add-buttons-push}
+## Ajouter des boutons
 
-Créez une notification exploitable en ajoutant des boutons à votre contenu push.
+Vous pouvez créer une notification exploitable en ajoutant des boutons à votre contenu push.
 
 Si l&#39;écran de l&#39;appareil est verrouillé, les boutons suivants ne s&#39;affichent pas : seuls le **Titre** et le **Message** de la notification sont visibles. Si leur appareil est déverrouillé, les destinataires verront les boutons.
 
-Dans la version iOS, vous pouvez ajouter jusqu’à quatre boutons. Dans la version Android, vous pouvez ajouter jusqu’à trois boutons.
+Dans la version iOS, vous pouvez ajouter jusqu&#39;à 4 boutons. Dans la version Android, vous pouvez ajouter jusqu&#39;à 3 boutons.
 
 >[!NOTE]
 >
 >Pour iOS, utilisez le champ **[!UICONTROL catégorie iOS]** pour associer les actions à une catégorie de notification.
 
-1. Utilisez la variable **[!UICONTROL Bouton Ajouter]** pour définir les paramètres : le libellé et l&#39;action associée. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
+Cliquez sur **[!UICONTROL Ajouter un bouton]** pour définir les paramètres : le libellé et l&#39;action associée. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
 
-1. Utilisez la variable **[!UICONTROL Développer la vue]** sous l’image d’aperçu centrale pour prévisualiser vos boutons personnalisés.
+Cliquez sur **[!UICONTROL Développer la vue]** pour prévisualiser vos boutons personnalisés.
 
 ![](assets/push_buttons.png)
 
-## Envoyer une notification silencieuse {#silent-notification}
+## Envoyer une notification silencieuse
 
 Une notification push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l&#39;application. Elle est par exemple utilisée pour informer votre application de la disponibilité d&#39;un nouveau contenu ou pour lancer un téléchargement en arrière-plan.
 
@@ -98,7 +94,7 @@ Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des p
 
 Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications push dans Adobe Experience Platform et Adobe Launch, voir [cette section](push-gs.md).
 
-## Options avancées {#advanced-options-push}
+## Options avancées
 
 Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notification push. Les paramètres disponibles sont répertoriés ci-dessous :
 
@@ -106,7 +102,7 @@ Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notific
 |---------|---------|
 | **[!UICONTROL Réductible]** (iOS/Android) | Un message réductible est un message qui peut être remplacé par un nouveau message s&#39;il est obsolète. Les messages utilisés pour indiquer à une application mobile de synchroniser les données du serveur constituent des cas d&#39;utilisation courants de messages réductibles. Par exemple, une application sportive qui informe les utilisateurs du dernier score. Seul le message le plus récent est pertinent. D&#39;un autre côté, avec des messages non réductibles, chaque message est important pour l&#39;application cliente et doit être diffusé. |
 | **[!UICONTROL Son personnalisé]**     (iOS / Android) | Son à émettre par le terminal mobile lors de la réception de la notification. Le son doit être assemblé dans l&#39;application. |
-| **[!UICONTROL Badges]**     (iOS / Android) | Un badge est utilisé pour afficher directement sur l&#39;icône de l&#39;application le nombre de nouvelles informations non lues. <br/>La valeur du badge disparaît dès que l&#39;utilisateur ouvre ou lit le nouveau contenu de l&#39;application. Lorsqu&#39;une notification est reçue sur un appareil, elle peut actualiser ou ajouter une valeur de badge pour l&#39;application associée.<br/>Par exemple, si vous stockez le nombre d&#39;articles non lus de vos clients, vous pouvez tirer parti de la personnalisation pour envoyer la valeur unique de badge d&#39;articles non lus pour chaque client. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md). |
+| **[!UICONTROL Badges]**     (iOS / Android) | Un badge est utilisé pour afficher directement sur l&#39;icône de l&#39;application le nombre de nouvelles informations non lues. <br/>La valeur du badge disparaît dès que l&#39;utilisateur ouvre ou lit le nouveau contenu de l&#39;application. Lorsqu&#39;une notification est reçue sur un appareil, elle peut actualiser ou ajouter une valeur de badge pour l&#39;application associée.<br/>Par exemple, si vous stockez le nombre d&#39;articles non lus de vos clients, vous pouvez tirer parti de la personnalisation pour envoyer la valeur unique de badge d&#39;articles non lus pour chaque client. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](personalization/personalize.md). |
 | **[!UICONTROL Groupe de notifications]** (iOS uniquement) | Associez un groupe de notification à la notification push.<br/>À partir d&#39;iOS 12, les groupes de notifications vous permettent de consolider les threads de message et les rubriques de notification en identifiants de threads. Par exemple, une marque peut envoyer des notifications marketing sous un identifiant de groupe, tout en conservant d&#39;autres notifications de type opérationnel sous un ou plusieurs identifiants différents.<br/>Pour illustrer cela, vous pouvez avoir les groupes de notification groupID : 123 « Consultez la nouvelle collection printanière de pulls » et groupID : 456 « Votre colis a été livré ». Dans cet exemple, toutes les notifications de diffusion sont regroupées sous l&#39;identifiant de groupe : 456. |
 | **[!UICONTROL Canal de notification]**     (Android uniquement) | Associez un canal de notification à la notification push.<br/>À partir d&#39;Android 8.0 (niveau API 26), toutes les notifications doivent être affectées à un canal pour s&#39;afficher. Consultez à ce sujet la [documentation pour développeur Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Ajouter un indicateur de disponibilité de contenu]**     (iOS uniquement) | Envoie l&#39;indicateur de disponibilité de contenu dans la payload push pour veiller à ce que l&#39;application sorte de veille à la réception de la notification push et puisse accéder ainsi aux données de la payload.<br/> Ce mécanisme fonctionne même si l&#39;application est en cours d&#39;exécution à l&#39;arrière-plan et qu&#39;elle ne nécessite pas l&#39;intervention de l&#39;utilisateur (comme appuyer sur la notification push, par exemple). Toutefois, il ne s&#39;applique pas si l&#39;application n&#39;est pas en cours d&#39;exécution. Consultez à ce sujet la [documentation pour développeur Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
@@ -123,4 +119,4 @@ Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notific
 
 * [Configuration du canal push](push-gs.md)
 * [Création d&#39;un nouveau message](create-message.md)
-* [Ajout d&#39;un message dans un parcours](../building-journeys/journeys-message.md)
+* [Ajout d&#39;un message dans un parcours](building-journeys/journeys-message.md)
