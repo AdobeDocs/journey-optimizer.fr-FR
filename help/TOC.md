@@ -246,7 +246,7 @@ ht-degree: 98%
       + [Création de stratégies de classement](using/offers/offer-library/create-ranking-strategies.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
       + [Création d’offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
-      + [Création d’offres de secours](using/offers/offer-library/creating-fallback-offers.md)
+      + [Créer des offres de secours](using/offers/offer-library/creating-fallback-offers.md)
       + [Création de collections](using/offers/offer-library/creating-collections.md)
    + Création et gestion des décisions {#create-manage-activities}
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
