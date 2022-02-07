@@ -5,27 +5,28 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: d188bb6b-2924-4818-b007-be660cce249c
+source-git-commit: 06067a9fb5c7fb436bfa4843d07fc0a46fdf74ba
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
 # Ajout d’attributs aux favoris {#fav}
 
-L’ajout d’attributs différents à votre menu favoris permet d’accéder rapidement aux éléments que vous utilisez le plus souvent. Pour ajouter un attribut à vos favoris, cliquez sur le menu ellipse et choisissez **[!UICONTROL Ajouter aux favoris]**.
+L’ajout de différents attributs à votre menu de favoris vous permet dʼaccéder rapidement aux éléments que vous utilisez le plus fréquemment. Pour ajouter un attribut à vos favoris, cliquez sur le menu Ellipse et sélectionnez **[!UICONTROL Ajouter aux favoris]**.
 
 ![](assets/favorite-option.png)
 
-Pour accéder aux éléments que vous avez préférés, utilisez le **[!UICONTROL Favoris]** dans le menu déroulant.
+Pour accéder aux éléments mis en favoris, sélectionnez **[!UICONTROL Favoris]** dans le menu déroulant.
 
 ![](assets/favorite-menu.png)
 
-Dans cette liste, vous pouvez ajouter rapidement l’objet de personnalisation à votre expression active.
+Dans cette liste, vous pouvez rapidement ajouter lʼobjet de personnalisation à votre expression actuelle.
 
 ![](assets/favorite-list.png)
 
-Si vous ne souhaitez plus voir un élément dans votre liste de favoris, vous pouvez le supprimer des favoris.
+Si vous ne souhaitez plus voir un élément dans votre liste de favoris, vous pouvez le supprimer de vos favoris.
 
 ![](assets/favorite-remove.png)

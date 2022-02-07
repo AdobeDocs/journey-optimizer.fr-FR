@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Voici quelques exemples d’utilisation :
 | Instance de parcours | instanceUID | Identifiant d’instance de parcours | Identifiant de l’instance |
 |  | externalKey | Clé externe | Identifiant individuel déclenchant le parcours |
 |  | organizationId | Identifiant de l’organisation | Organisation de la marque |
-|  | sandboxName | Nom de l’environnement de test | Nom de l’environnement de test |
+|  | sandboxName | Nom de la sandbox | Nom de l’environnement de test |
 | Identité | profileId | Identifiant d’identité du profil | Identifiant du profil dans le parcours |
 |  | espace de noms | Espace de noms d’identité de profil | Espace de noms du profil dans le parcours (exemple : ECID) |
 | Nœud actuel | currentNodeId | Identifiant de nœud actuel | Identifiant de l’activité actuelle (nœud) |

@@ -6,13 +6,14 @@ role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
 
 ---
 
-# Intégration aux services intelligents {#ai-overview}
+# Intégration avec les services intelligents
+ {#ai-overview}
 
 L&#39;intégration aux **[!DNL Adobe Intelligent Services]** vous permet d&#39;exploiter la puissance de l&#39;intelligence artificielle et du machine learning dans les cas d&#39;utilisation de l&#39;expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d&#39;une entreprise en utilisant des configurations au niveau de l&#39;entreprise sans avoir besoin d&#39;expertise en sciences des données.
 

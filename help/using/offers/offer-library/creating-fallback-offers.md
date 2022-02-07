@@ -1,5 +1,5 @@
 ---
-title: Création d’offres de secours
+title: Créer des offres de secours
 description: Découvrez comment créer des offres de secours à afficher pour les clients qui ne sont éligibles à aucune offre
 topic: Integrations
 role: User

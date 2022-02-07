@@ -1,5 +1,5 @@
 ---
-title: Création d’offres personnalisées
+title: Créer des offres personnalisées
 description: Découvrez comment créer, configurer et gérer vos offres
 feature: Offers
 topic: Integrations

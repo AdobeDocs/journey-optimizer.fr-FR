@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
 ---
 
-# Prise en main des événements Decision Management {#monitor-offer-events}
+# Guide du développeur de l&#39;API de gestion des décisions {#monitor-offer-events}
 
 Chaque fois que la gestion de décision prend une décision pour un profil donné, les informations relatives à ces événements sont automatiquement envoyées à Adobe Experience Platform.
 
