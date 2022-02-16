@@ -1,13 +1,13 @@
 ---
-title: Prise en main de l’export de catalogues d’offres
-description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les décisions
+title: Commencer à exporter des catalogues d’offres
+description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les décisions.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1554'
 ht-degree: 100%
 
