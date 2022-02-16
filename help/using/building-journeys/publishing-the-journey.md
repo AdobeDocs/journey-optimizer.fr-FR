@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
-# Publication de votre parcours{#publishing-the-journey}
+# Publier votre parcours{#publishing-the-journey}
 
 Vous pouvez publier un parcours après avoir testé sa validité.
 
