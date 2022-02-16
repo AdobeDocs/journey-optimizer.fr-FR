@@ -7,15 +7,15 @@ role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # À propos de l’éditeur d’expression {#build-personalization-expressions}
 
-L&#39;éditeur d&#39;expression est l&#39;élément central de la personnalisation dans [!DNL Journey Optimizer]. Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).
+L&#39;éditeur d&#39;expression est lʼélément central de la personnalisation dans [!DNL Journey Optimizer]. Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).
 
 Dans l&#39;interface de l&#39;éditeur d&#39;expression, vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser votre contenu.
 
@@ -39,9 +39,9 @@ Lorsqu&#39;elle est sélectionnée, la référence est ajoutée dans l&#39;édit
 >
 >L&#39;icône d&#39;informations située en regard de l&#39;icône « + » ouvre une info-bulle fournissant plus de détails sur chaque variable.
 >
->Vous pouvez ajouter vos attributs utilisés à la fréquence la plus élevée aux favoris. En savoir plus dans [cette section](personalization-favorites.md).
+>Vous pouvez ajouter vos attributs les plus fréquemment utilisés aux favoris. En savoir plus dans [cette section](personalization-favorites.md).
 
-Dans l&#39;exemple suivant, l&#39;éditeur d&#39;expression vous permet de sélectionner les profils dont l&#39;anniversaire est aujourd&#39;hui, puis de terminer la personnalisation en insérant une offre spécifique correspondant à cette journée.
+Dans lʼexemple suivant, lʼéditeur dʼexpression vous permet de sélectionner les profils qui ont leur anniversaire aujourdʼhui, puis de terminer la personnalisation en insérant une offre spécifique correspondant à ce jour.
 
 ![](assets/perso_ee2.png)
 
