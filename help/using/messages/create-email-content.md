@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1568'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,17 +93,17 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
    >
    >Pour en savoir plus sur les liens et le suivi des messages, consultez [cette page](message-tracking.md).
 
-1. Au besoin, vous pouvez passer à l’éditeur de code pour personnaliser davantage votre email en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Pour plus d’informations sur l’éditeur de code, reportez-vous à la section [cette page](existing-content.md#import-raw-html-code).
+1. Au besoin, vous pouvez passer à l’éditeur de code pour personnaliser davantage votre e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Pour plus d’informations sur l’éditeur de code, consultez [cette page](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
    >
-   >Vous ne pourrez pas utiliser le concepteur visuel pour cet email après avoir basculé vers l’éditeur de code.
+   >Vous ne pourrez pas utiliser le concepteur visuel pour cet e-mail après avoir basculé vers l’éditeur de code.
 
    ![](assets/email_designer_26.png)
 
 1. Cliquez sur **[!UICONTROL Afficher l&#39;aperçu]** pour vérifier le rendu de votre e-mail. Vous pouvez choisir la vue bureau ou la vue mobile.
 
-   Pour plus d&#39;informations sur la prévisualisation de votre email, reportez-vous à la section [cette page](preview.md).
+   Pour plus d&#39;informations sur la façon de prévisualiser votre e-mail, reportez-vous à [cette page](preview.md).
 
    ![](assets/email_designer_8.png)
 
