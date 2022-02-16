@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 >
 >La liste autorisée peut contenir jusqu&#39;à 1 000 entrées.
 
-En savoir plus sur l’émission d’appels API dans [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html)Documentation de référence {target=&quot;_blank&quot;}.
+Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Logique de liste autorisée {#logic}
 
