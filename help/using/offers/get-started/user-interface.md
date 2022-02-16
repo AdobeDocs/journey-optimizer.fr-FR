@@ -1,13 +1,13 @@
 ---
 title: Interface utilisateur
-description: En savoir plus sur l'interface utilisateur de la bibliothèque des offres
+description: En savoir plus sur lʼinterface utilisateur de la bibliothèque des offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
 ht-degree: 100%
 
