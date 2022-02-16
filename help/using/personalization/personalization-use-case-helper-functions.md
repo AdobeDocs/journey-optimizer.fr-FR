@@ -1,15 +1,15 @@
 ---
 title: Cas d’utilisation de la personnalisation&colon; e-mail d’abandon de panier
-description: Découvrez comment personnaliser le corps d’un email à travers un cas pratique.
+description: Découvrez comment personnaliser le contenu d’un e-mail à travers un cas dʼutilisation.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
