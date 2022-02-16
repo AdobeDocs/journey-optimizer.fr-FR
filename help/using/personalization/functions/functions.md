@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -315,7 +315,7 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
         <td><a href="operators.md#greaterthanorequal">Greater or equals to</a></td><td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde valeur</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">N’est pas égal à</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
+        <td><a href="operators.md#notequal">Not equals to</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
     </tr>
     <tr>
         <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la deuxième valeur.</td>
