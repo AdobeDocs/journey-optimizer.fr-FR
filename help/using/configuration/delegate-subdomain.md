@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1472'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="À propos de la délégation de sous-domaine"
->abstract="Journey Optimizer vous permet de déléguer entièrement vos sous-domaines à l’Adobe. Adobe pourra diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS."
+>abstract="Journey Optimizer vous permet de déléguer entièrement vos sous-domaines à Adobe. Adobe pourra diffuser des messages en tant que service géré en contrôlant et en maintenant tous les aspects du DNS."
 
-La délégation de noms de domaine est une méthode qui permet au propriétaire d&#39;un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division (techniquement : une zone DNS située au-dessous, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe.
+La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe.
 
 En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les clients peuvent compter sur Adobe pour gérer lʼinfrastructure DNS requise afin de répondre aux exigences de délivrabilité standard de leurs domaines de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de leurs domaines de messagerie internes.
 
@@ -32,7 +32,7 @@ En déléguant un sous-domaine à utiliser avec [!DNL Journey Optimizer], les cl
 
 [!DNL Journey Optimizer] vous permet de déléguer entièrement vos sous-domaines à Adobe directement à partir de l&#39;interface du produit. Ainsi, Adobe sera en mesure de diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes par e-mail.
 
-Pour déléguer entièrement un nouveau sous-domaine à l’Adobe, procédez comme suit :
+Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
