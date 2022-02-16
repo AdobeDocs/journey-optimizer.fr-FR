@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La création d&#39;un sous-domaine pour les campagnes e-mail permet aux marques 
 
 >[!NOTE]
 >
->Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et provenant d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
+>Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et à partir d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
 ## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
 
@@ -48,7 +48,7 @@ La configuration de sous-domaines vous permet de configurer une sous-section de 
 
 * **Délégation complète de sous-domaine à Adobe** (recommandée) : le sous-domaine est entièrement délégué à Adobe. Adobe assure le contrôle et la gestion de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages. [En savoir plus sur la délégation complète de sous-domaine](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Utilisation de CNAME** : créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. [En savoir plus sur la délégation de sous-domaine CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+* **Utilisation de CNAME** : créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Avec cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. [En savoir plus sur la délégation de sous-domaine CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
 Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le niveau d’effort impliqué :
 
