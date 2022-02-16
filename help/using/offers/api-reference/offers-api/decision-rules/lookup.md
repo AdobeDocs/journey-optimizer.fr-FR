@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
 ---
 
-# Recherche d’une règle de décision {#lookup-decision-rule}
+# Rechercher une règle de décision {#lookup-decision-rule}
 
 Vous pouvez rechercher une règle de décision spécifique en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit la règle de décision `@id` soit le nom de la règle de décision dans le chemin de la requête.
 
