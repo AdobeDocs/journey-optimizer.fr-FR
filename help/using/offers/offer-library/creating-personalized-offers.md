@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1565'
 ht-degree: 99%
 
 ---
@@ -28,6 +28,12 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 ![](../../assets/offers_list.png)
 
 ## Création de l&#39;offre {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="À propos des attributs de l&#39;offre"
+>abstract="Les attributs de l&#39;offre vous permettent d&#39;associer des paires clé-valeur à l&#39;offre à des fins de reporting et d&#39;analyse."
+>additional-url="https://video.tv.adobe.com/v/329375?captions=fre-fr" text="Regarder une vidéo de démonstration"
 
 Pour créer une **offre**, procédez comme suit :
 
@@ -141,6 +147,30 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
    >Seules les sources **[!UICONTROL Attributs de profil]**, **[!UICONTROL Abonnements aux segments]** et **[!UICONTROL Fonctions d’assistance]** sont disponibles pour la gestion des décisions.
 
 ## Ajout de règles d&#39;éligibilité et de contraintes {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="À propos des contraintes d&#39;offre"
+>abstract="Les contraintes vous permettent de spécifier le type de priorisation de l&#39;offre et la manière dont elle est présentée à l&#39;utilisateur en comparaison avec d&#39;autres offres."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Regarder une vidéo de démonstration"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="À propos de l&#39;éligibilité de l&#39;offre"
+>abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
+>additional-url="https://video.tv.adobe.com/v/329373?captions=fre-fr" text="Regarder une vidéo de démonstration"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="À propos de la priorité de l&#39;offre"
+>abstract="Dans ce champ, vous pouvez spécifier les paramètres de priorité de l&#39;offre. La priorité est un nombre utilisé pour classer les offres répondant à toutes les contraintes comme l&#39;éligibilité, les dates et la limitation."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Regarder une vidéo de démonstration"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="À propos de la limitation de l&#39;offre"
+>abstract="Dans ce champ, vous pouvez spécifier le nombre de fois où l&#39;offre peut être présentée à tous les utilisateurs."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Regarder une vidéo de démonstration"
 
 Les règles d&#39;éligibilité et les contraintes permettent de définir les conditions d&#39;affichage d&#39;une offre.
 
