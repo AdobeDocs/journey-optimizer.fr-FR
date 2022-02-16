@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 98%
@@ -47,14 +47,14 @@ ht-degree: 98%
       + [Prévisualisation et BAT](using/messages/preview.md)
       + [Vérification des alertes](using/messages/alerts.md)
       + [Publication de messages](using/messages/publish-manage-message.md)
-   + [Gestion de la désinscription](using/messages/consent.md)
+   + [Gestion du consentement](using/messages/consent.md)
 + Personnalisation{#personalization}
    + [Prise en main  de la personnalisation](using/personalization/personalize.md)
    + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
    + Création d’expressions {#build-expressions}
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + Utilisation de l’éditeur d’expression {#expression-editor}
-         + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
+      + Work with the Expression Editor {#expression-editor}
+         + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
          + [Ajout d’attributs aux favoris](using/personalization/personalization-favorites.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + Fonctions helper{#functions}

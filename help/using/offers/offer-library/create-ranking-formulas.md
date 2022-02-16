@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ Les **formules de classement** vous permettent de définir des règles détermin
 
 Les formules de classement sont exprimées en **syntaxe PQL** et peuvent exploiter les attributs de profil, les données contextuelles et les attributs d&#39;offre. Pour plus d&#39;informations sur l&#39;utilisation de la syntaxe PQL, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr).
 
-Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un emplacement dans une décision (précédemment connue sous le nom d&#39;activité d&#39;offre). Voir à ce propos la section [Configuration de la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
+Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Voir à ce propos la section [Configuration de la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
 
 ## Création d&#39;une formule de classement {#create-ranking-formula}
 

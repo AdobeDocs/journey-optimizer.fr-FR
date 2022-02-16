@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 91%
 
 ---
 
@@ -104,4 +104,4 @@ Une réponse réussie renvoie des informations sur l’offre personnalisée nouv
 
 ## Limites {#limitations}
 
-Certaines contraintes d’offre ne sont actuellement pas prises en charge avec les workflows [!DNL Experience Edge] mobiles, par exemple `Capping`. La valeur du champ `Capping` indique le nombre de fois où une offre peut être présentée à tous les utilisateurs. Pour plus d’informations, voir [Documentation sur les règles d’éligibilité et les contraintes d’offres](../../../offer-library/creating-personalized-offers.md).
+Les représentations des offres et certaines contraintes d’offre ne sont actuellement pas prises en charge avec le mobile. [!DNL Experience Edge] workflows, par exemple `Capping`. La valeur du champ `Capping` indique le nombre de fois où une offre peut être présentée à tous les utilisateurs. Pour plus d’informations, voir [Documentation sur les règles d’éligibilité et les contraintes d’offres](../../../offer-library/creating-personalized-offers.md).

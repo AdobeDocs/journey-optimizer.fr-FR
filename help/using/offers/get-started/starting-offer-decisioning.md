@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 100%
+source-wordcount: '910'
+ht-degree: 98%
 
 ---
 
@@ -82,9 +82,9 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 * **Limitation** ou **Capping de la fréquence** : la limitation est utilisée comme contrainte pour définir le nombre de présentations d&#39;une offre. Il existe deux types de limitations : le nombre de fois où une offre peut être proposée à l&#39;audience cible combinée, également appelée « limitation globale », et le nombre de fois où une offre peut être proposée au même utilisateur final, également appelée « limitation de profil ».
 
-* **Collections** : les collections sont des sous-ensembles d’offres, basés sur des conditions prédéfinies établies par un marketeur, telles que la catégorie de l’offre.
+* **Collections** : les collections sont des sous-ensembles d&#39;offres, basés sur des conditions prédéfinies établies par un marketeur, telles que la catégorie de l&#39;offre.
 
-* **Décision** (précédemment connue sous le nom d&#39;activité d&#39;offre) : une décision contient la logique qui sous-tend la sélection d’une offre.
+* **Décision**: Une décision contient la logique qui oriente la sélection d’une offre.
 
 * **Règle de décision** : les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité.
 

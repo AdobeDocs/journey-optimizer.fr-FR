@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 97%
+source-wordcount: '920'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * La section relative à [!DNL Journey Optimizer] les fonctionnalités de personnalisation ont été réorganisées pour une meilleure lisibilité. [En savoir plus](../personalization/personalize.md)
 
+* La section Créer des paramètres prédéfinis de message a été divisée en plusieurs sections pour une meilleure clarté. [En savoir plus](../configuration/message-presets.md#create-message-preset)
+
+* La section Gestion des opt-out a été clarifiée et légèrement réorganisée. [En savoir plus](../messages/consent.md#opt-out-management)
+
+* Mise à jour de la section Insérer des liens pour prendre en compte les modifications récentes de l’interface utilisateur - [En savoir plus](../messages/message-tracking.md#insert-links)
 
 ## Novembre 2021 {#november-2021}
 
@@ -88,7 +93,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour de la section Activation de la liste autorisée. [En savoir plus](../messages/allow-list.md#enable-allow-list)
 * Mise à jour de la section Surveillance des préréglages du message avec les raisons possibles d’échec de la création des préréglages et des détails sur ces erreurs. [En savoir plus](../configuration/message-presets.md#monitor-message-presets)
 * Mise à jour et changement du nom de la section Période de reprise afin de tenir compte du fait que vous pouvez désormais ajuster le paramètre de nouvelle tentative d’e-mail dans les préréglages du message. [En savoir plus](../configuration/retries.md#retry-duration)
-* Ajout d’une nouvelle section décrivant comment insérer un lien d’exclusion en un clic dans le contenu d’un e-mail. [En savoir plus](../messages/message-tracking.md#one-click-opt-out-link)
+* Ajout d’une nouvelle section décrivant comment insérer un lien d’exclusion en un clic dans le contenu d’un e-mail. [En savoir plus](../messages/consent.md#one-click-opt-out-link)
 * Mise à jour de la section Délégation d’un sous-domaine avec des informations plus détaillées sur le processus de validation effectué par Adobe. [En savoir plus](../configuration/delegate-subdomain.md#subdomain-validation)
 * Ajout d’une section décrivant comment ajouter manuellement des adresses e-mail et des domaines à la liste de suppression. [En savoir plus](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Mise à jour des sections [Accéder à la liste de suppression](../configuration/manage-suppression-list.md#access-suppression-list) et [Reprises](../configuration/retries.md) pour refléter la nouvelle interface utilisateur.

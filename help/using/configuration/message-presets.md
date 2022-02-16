@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 100%
+source-wordcount: '1761'
+ht-degree: 98%
 
 ---
 
@@ -44,76 +44,11 @@ Pour créer un préréglage de message, procédez comme suit :
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Configurez les paramètres d’**e-mail**.
+1. Configurez les paramètres d’**e-mail.** [En savoir plus](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. Configurez les paramètres de **notification push.** [En savoir plus](#configure-push-settings)
 
-   * Sélectionnez le type de message qui sera envoyé avec le préréglage : **Transactionnel** ou **Marketing**.
-
-      >[!CAUTION]
-      >
-      > Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques, tels que la réinitialisation du mot de passe, le statut de la commande, la notification de diffusion, par exemple.
-
-   * Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
-   * Sélectionnez le pool d&#39;adresses IP à associer au préréglage. [En savoir plus](ip-pools.md)
-   * Renseignez les paramètres d’en-tête des e-mails envoyés à l’aide du préréglage.
-
-      >[!CAUTION]
-      >
-      >Les adresses e-mail doivent utiliser le [sous-domaine délégué](about-subdomain-delegation.md) actuellement sélectionné. 
-
-      * **[!UICONTROL Nom de l’expéditeur]** : le nom de l’expéditeur, tel que le nom de votre marque. 
-
-      * **[!UICONTROL E-mail de l&#39;expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com*.
-
-      * **[!UICONTROL Répondre à (nom)]** : le nom qui sera utilisé lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
-
-      * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les e-mails seront ignorés.
-
-      * **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. 
-      >[!NOTE]
-      >
-      >À partir de la version d’octobre 2021, il n’est plus possible de définir une adresse e-mail de renvoi à partir de l’interface utilisateur [!DNL Journey Optimizer]. Si vous souhaitez que tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué soient transférés à une adresse e-mail spécifique, contactez l’[Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
-
-   * Configurez les **paramètres de reprise d’e-mail**. Par défaut, la [période de reprise](retries.md#retry-duration) est définie sur 84 heures, mais vous pouvez ajuster ce paramètre pour mieux l’adapter à vos besoins.
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      Vous devez saisir une valeur entière (en heures ou minutes) dans la plage suivante :
-      * Pour le type d’e-mail marketing, la période de reprise minimale est de 6 heures.
-      * Pour le type d’e-mail transactionnel, la période de reprise minimale est de 10 minutes.
-      * Pour les deux types d’e-mail, la période de reprise maximale est de 84 heures (soit 5 040 minutes).
-
-
-1. Configurez les paramètres de **notification push**.
-
-   ![](../assets/preset-push.png)
-
-   * Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
-
-   * Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
-
-      Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../messages/push-gs.md).
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que version préliminaire et reprendre sa configuration ultérieurement.
 
@@ -140,6 +75,78 @@ Pour créer un préréglage de message, procédez comme suit :
 1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
 
    ![](../assets/preset-active.png)
+
+## Configurez les paramètres d&#39;e-mail {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. Sélectionnez le type de message qui sera envoyé avec le paramètre prédéfini : **Transactionnel** ou **Marketing**.
+
+   >[!CAUTION]
+   >
+   > Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques, tels que la réinitialisation du mot de passe, le statut de la commande, la notification de diffusion, par exemple.
+
+1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
+
+1. Sélectionnez le pool d&#39;adresses IP à associer au préréglage. [En savoir plus](ip-pools.md)
+
+1. Renseignez les paramètres d’en-tête des e-mails envoyés à l’aide du préréglage.
+
+   >[!CAUTION]
+   >
+   >Les adresses e-mail doivent utiliser le [sous-domaine délégué](about-subdomain-delegation.md) actuellement sélectionné. 
+
+   * **[!UICONTROL Nom de l’expéditeur]** : le nom de l’expéditeur, tel que le nom de votre marque. 
+
+   * **[!UICONTROL E-mail de l&#39;expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com*.
+
+   * **[!UICONTROL Répondre à (nom)]** : le nom qui sera utilisé lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
+
+   * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les e-mails seront ignorés.
+
+   * **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. 
+   >[!NOTE]
+   >
+   >À partir de la version d’octobre 2021, il n’est plus possible de définir une adresse e-mail de renvoi à partir de l’interface utilisateur [!DNL Journey Optimizer]. Si vous souhaitez que tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué soient transférés à une adresse e-mail spécifique, contactez l’[Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
+
+1. Configurez les **paramètres de reprise d’e-mail**. Par défaut, la [période de reprise](retries.md#retry-duration) est définie sur 84 heures, mais vous pouvez ajuster ce paramètre pour mieux l’adapter à vos besoins.
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   Vous devez saisir une valeur entière (en heures ou minutes) dans la plage suivante :
+   * Pour le type d’e-mail marketing, la période de reprise minimale est de 6 heures.
+   * Pour le type d’e-mail transactionnel, la période de reprise minimale est de 10 minutes.
+   * Pour les deux types d’e-mail, la période de reprise maximale est de 84 heures (soit 5 040 minutes).
+
+## Configuration des paramètres push {#configure-push-settings}
+
+1. Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
+
+1. Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
+
+![](../assets/preset-push.png)
+
+Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../messages/push-gs.md).
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## Surveillance des préréglages de message {#monitor-message-presets}
 

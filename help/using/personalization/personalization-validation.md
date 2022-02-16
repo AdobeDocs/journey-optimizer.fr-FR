@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Ressource avec ID activityID et type OfferActivity introuvable<br/></td>
    <td>Les offres d’image (toutes les offres personnalisées et de secours associées à la paire décision-emplacement) doivent avoir une URL publique renseignée (l’URL deliveryURL ne doit pas être vide).</td> 
   </tr> 
   <tr> 
-   <td>La décision (auparavant « activité d’offre ») contient des attributs autres que de profil.</td> 
+   <td>La décision contient des attributs qui ne sont pas des profils.</td> 
    <td>L’utilisation du modèle d’offre ne doit contenir que les attributs de profil.</td> 
   </tr> 
   <tr> 

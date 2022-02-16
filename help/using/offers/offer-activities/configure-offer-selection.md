@@ -6,25 +6,25 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 80%
 
 ---
 
 # Configuration de la sélection des offres dans les décisions {#offers-selection-in-decisions}
 
-Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision (précédemment appelée « activité d&#39;offre »). Vous pouvez classer les offres par :
+Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision. Vous pouvez classer les offres par :
 * Priorité des offres
 * Formule de classement
 * [Classement par l’IA](#use-ranking-strategy) (en accès anticipé pour certains utilisateurs uniquement)
 
 ![](../../assets/offer-rank-by.png)
 
-## Priorité d’offre {#offer-priority}
+## Priorité des offres {#offer-priority}
 
-Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision (auparavant « activité d’offre »), les offres présentant la **priorité** la plus élevée sont diffusées en premier aux clients.
+Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision, les offres présentant le niveau le plus élevé **priority** sera d’abord livré aux clients.
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la dat
 
 Découvrez comment créer une formule de classement dans [cette section](../offer-library/create-ranking-formulas.md).
 
-Après avoir créé une formule de classement, vous pouvez l&#39;affecter à un emplacement dans une décision (auparavant appelée activité d&#39;offre). Pour ce faire, procédez comme suit :
+Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
 1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 
@@ -60,13 +60,15 @@ Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la
 
 ## Classement par l&#39;IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+Vous pouvez également utiliser un système de modèles formé qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant une stratégie de classement. Découvrez comment créer une stratégie de classement dans [cette section](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >L&#39;utilisation du classement par l&#39;IA est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
 
-Après avoir créé une stratégie de classement, vous pouvez l&#39;affecter à un emplacement dans une décision (précédemment appelée « activité d&#39;offre »). Pour ce faire, procédez comme suit :
+Une fois une stratégie de classement créée, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
 1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 

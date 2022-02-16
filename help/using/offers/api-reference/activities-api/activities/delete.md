@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 92%
 
 ---
 
 # Supprimer une décision {#delete-decision}
 
-Il peut parfois être nécessaire de supprimer (DELETE) une décision (précédemment appelée activité d&#39;offre). Seules les décisions créées dans le conteneur du tenant peuvent être supprimées. Pour ce faire, il vous suffit d&#39;exécuter une requête DELETE sur l&#39;API [!DNL Offer Library] en utilisant le $id de l&#39;offre de secours que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) une décision. Seules les décisions créées dans le conteneur du tenant peuvent être supprimées. Pour ce faire, il vous suffit d&#39;exécuter une requête DELETE sur l&#39;API [!DNL Offer Library] en utilisant le $id de l&#39;offre de secours que vous souhaitez supprimer.
 
 **Format d&#39;API**
 

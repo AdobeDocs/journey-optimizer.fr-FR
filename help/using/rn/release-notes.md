@@ -2,7 +2,7 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '2419'
 ht-degree: 98%
@@ -326,7 +326,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 **Conception de contenu**
 
 * **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../messages/preview.md)
-* **Lien d’exclusion en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**exclusion** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur désinscription. [En savoir plus](../messages/message-tracking.md#one-click-opt-out-link)
+* **Lien d’exclusion en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**exclusion** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur désinscription. [En savoir plus](../messages/consent.md#one-click-opt-out-link)
 
 **Personnalisation**
 
