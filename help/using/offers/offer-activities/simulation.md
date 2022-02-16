@@ -1,15 +1,15 @@
 ---
 title: Création de simulations
-description: Découvrez comment simuler les offres qui seront diffusées pour un emplacement donné afin de valider votre logique de prise de décision
+description: Découvrez comment simuler les offres qui seront diffusées pour un emplacement donné afin de valider votre logique de prise de décision.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 60ccb9b918284b3fcb62101bc94bf64d2272e8e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
 
    >[!NOTE]
    >
-   >Les profils sélectionnés restent répertoriés en tant que profils de test dans la variable **[!UICONTROL Simulation]** d’une session à l’autre jusqu’à ce qu’elles soient supprimées à l’aide de **[!UICONTROL Gérer le profil]**.
+   >Les profils sélectionnés restent répertoriés en tant que profils de test dans l’onglet **[!UICONTROL Simulation]** d’une session à l’autre jusqu’à ce qu’ils soient supprimés à l’aide de **[!UICONTROL Gérer le profil]**.
 
 1. Vous pouvez cliquer sur le lien **[!UICONTROL Détails du profil]** pour afficher les données de profil sélectionnées. 
 
@@ -116,15 +116,15 @@ Pour modifier les paramètres par défaut de vos simulations, procédez comme su
 
    ![](../../assets/offers_simulation-settings.png)
 
-1. Dans le **[!UICONTROL Déduplication]** , vous pouvez choisir d’autoriser les offres en double pour les décisions et/ou les emplacements. Cela signifie que plusieurs décisions/emplacements peuvent se voir attribuer la même offre.
+1. Dans la section **[!UICONTROL Déduplication]**, vous pouvez choisir d’autoriser les offres en double à travers les décisions et/ou les emplacements. Cela signifie que plusieurs décisions/emplacements peuvent se voir attribuer la même offre.
 
    ![](../../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >Tous les indicateurs de déduplication sont activés par défaut pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition dans plusieurs décisions/placements. Pour en savoir plus sur les propriétés des demandes de l’API [!DNL Decisions], consultez [cette section](../api-reference/decisions-api/deliver-offers.md). 
+   >Tous les indicateurs de déduplication sont activés par défaut pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition à travers plusieurs décisions/emplacements. En savoir plus sur les [!DNL Decisions]propriétés de la demande API dans [cette section](../api-reference/decisions-api/deliver-offers.md). 
 
-1. Dans le **[!UICONTROL Format de réponse]** vous pouvez choisir d’inclure des métadonnées dans la vue de code. Cochez l’option correspondante, puis sélectionnez les métadonnées de votre choix. Elles s’affichent dans les payloads de requête et de réponse lors de la sélection de **[!UICONTROL Afficher le code]**. En savoir plus dans la section [Affichage des résultats de la simulation](#simulation-results) .
+1. Dans la section **[!UICONTROL Format de la réponse]**, vous pouvez choisir d’inclure les métadonnées dans l’affichage du code. Cochez l’option correspondante, puis sélectionnez les métadonnées de votre choix. Elles s’affichent dans les payloads de la requête et de la réponse lors de la sélection de **[!UICONTROL Afficher le code]**. En savoir plus dans la section [Affichage des résultats de la simulation](#simulation-results).
 
    ![](../../assets/offers_simulation-settings-response-format.png)
 
@@ -136,7 +136,7 @@ Pour modifier les paramètres par défaut de vos simulations, procédez comme su
 
 >[!NOTE]
 >
->Actuellement, pour les données de simulation, vous pouvez uniquement utiliser la variable **[!UICONTROL Hub]** API.
+>Actuellement, pour les données de simulation, vous pouvez uniquement utiliser l’API **[!UICONTROL Hub]**.
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -166,7 +166,7 @@ Une fois que vous avez ajouté une portée de décision et sélectionné un prof
 
    ![](../../assets/offers_simulation-offer-details.png)
 
-1. Cliquez sur **[!UICONTROL Afficher le code]** pour afficher les payloads de requête et de réponse. [En savoir plus](#view-code)
+1. Cliquez sur **[!UICONTROL Afficher le code]** pour afficher les payloads de la requête et de la réponse. [En savoir plus](#view-code)
 
 1. Sélectionnez un autre profil dans la liste pour afficher les résultats des décisions d’offre pour un autre profil de test. 
 
@@ -178,19 +178,19 @@ Une fois que vous avez ajouté une portée de décision et sélectionné un prof
 
 ## Afficher le code {#view-code}
 
-1. Utilisez la variable **[!UICONTROL Afficher le code]** pour afficher les payloads de requête et de réponse.
+1. Utilisez le bouton **[!UICONTROL Afficher le code]** pour afficher les payloads de la requête et de la réponse.
 
    ![](../../assets/offers_simulation-view-code.png)
 
-   L’affichage du code affiche les informations sur le développeur pour l’utilisateur actuel. Par défaut, la variable **[!UICONTROL Charge utile de réponse]** s’affiche.
+   L’affichage du code montre les informations sur le développeur à l’utilisateur actuel. Par défaut, la **[!UICONTROL Payload de réponse]** s’affiche.
 
    ![](../../assets/offers_simulation-request-payload.png)
 
-1. Cliquez sur **[!UICONTROL Charge utile de réponse]** ou **[!UICONTROL Charge utile de requête]** pour naviguer entre les deux onglets.
+1. Cliquez sur **[!UICONTROL Payload de réponse]** ou **[!UICONTROL Payload de requête]** pour naviguer entre les deux onglets.
 
    ![](../../assets/offers_simulation-response-payload.png)
 
-1. Pour utiliser le payload de requête en dehors de [!DNL Journey Optimizer] - à des fins de dépannage, par exemple, copiez-le à l’aide de la fonction **[!UICONTROL Copier dans le presse-papiers]** en haut de l’affichage du code.
+1. Pour utiliser la payload de la requête en dehors de [!DNL Journey Optimizer], à des fins de dépannage par exemple, copiez-la à l’aide du bouton **[!UICONTROL Copier dans le presse-papiers]** au-dessus de l’affichage du code.
 
    ![](../../assets/offers_simulation-copy-payload.png)
 
@@ -198,5 +198,5 @@ Une fois que vous avez ajouté une portée de décision et sélectionné un prof
 
    >[!NOTE]
    >
-   >Lors de la copie des payloads de requête ou de réponse dans votre propre code, veillez à remplacer {USER_TOKEN} et {API_KEY} par des valeurs valides. Découvrez comment récupérer ces valeurs dans la variable [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr)Documentation {target=&quot;_blank&quot;}.
+   >Lors de la copie des payloads de la requête ou de la réponse dans votre propre code, veillez à remplacer {USER_TOKEN} et {API_KEY} par des données valides. Découvrez comment récupérer ces valeurs dans la documentation [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr) {target=&quot;_blank&quot;}.
 
