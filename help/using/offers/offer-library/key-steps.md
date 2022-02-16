@@ -1,13 +1,13 @@
 ---
 title: Étapes clés de la création d’une offre
-description: Découvrez les étapes clés nécessaires à la création dʼune offre
+description: Découvrez les étapes clés nécessaires à la création dʼune offre.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
