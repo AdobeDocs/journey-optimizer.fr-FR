@@ -1,13 +1,13 @@
 ---
 title: Accès au catalogue d’offres exporté
-description: Découvrez comment accéder au catalogue d’offres sur Adobe Experience Platform une fois qu’il a été exporté
+description: Découvrez comment accéder au catalogue d’offres sur Adobe Experience Platform une fois qu’il a été exporté.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
 ht-degree: 100%
 
