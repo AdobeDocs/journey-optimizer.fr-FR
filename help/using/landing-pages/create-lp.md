@@ -9,7 +9,7 @@ hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](../assets/lp_open-designer.png)
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
@@ -113,7 +113,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
 1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu de la page de destination [ici](design-lp.md).
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
