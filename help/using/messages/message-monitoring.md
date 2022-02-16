@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Pour chaque exécution de message, plusieurs indicateurs s&#39;affichent :
 
 * **[!UICONTROL Parcours - Version - Action]** : nom du parcours utilisant le message, version du parcours et libellé de l&#39;action utilisant le message dans le parcours.
 
-* **[!UICONTROL Statut]** : statut d&#39;exécution du message.
+* **[!UICONTROL Statut]** : statut d’exécution du message.
 
 * **[!UICONTROL Date de début]** : date et heure auxquelles le message a été exécuté à partir du parcours.
 
