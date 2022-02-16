@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 
 * Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
 * La fonctionnalité E-mail Cci n’est pas prise en charge dans [!DNL Journey Optimizer].
-* Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et provenant d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
+* Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
 
 ## Limitations dans les parcours {#limitations-journeys}
 
@@ -44,23 +44,23 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 * Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d&#39;autres versions.
 * Le segment et l&#39;espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
-* Un parcours commençant par un **Lecture de segment** ne peut pas commencer avec un autre événement dans les versions suivantes.
+* Un parcours commençant par un événement **Lire le segment** ne peut pas commencer par un autre événement dans les versions suivantes.
 
 ### Actions personnalisées {#custom-actions}
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
-* Seules les méthodes d’appel POST et PUT sont prises en charge
-* Le nom du paramètre de requête ou de l’en-tête ne doit pas commencer par « . » or &quot;$&quot;
-* Les adresses IP ne sont pas autorisées
+* Seules les méthodes d’appel POST et PUT sont prises en charge.
+* Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »
+* Les adresses IP ne sont pas autorisées.
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
 
 ### Événements {#events}
 
-* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet Identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
+* En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 
 ### Sources de données  {#data-sources}
 
-* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
 ### Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
 
