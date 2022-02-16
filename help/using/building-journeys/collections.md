@@ -5,14 +5,14 @@ title: Transmission dynamique des collections à l’aide d’actions personnali
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Cas pratique : transmission dynamique de collections à l’aide d’actions personnalisées{#passing-collection}
+# Cas dʼutilisation : transmission dynamique de collections à l’aide d’actions personnalisées{#passing-collection}
 
 Vous pouvez transmettre une collection dans des paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge :
 
