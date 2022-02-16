@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1618'
 ht-degree: 100%
 
 ---
 
-# Test de votre parcours{#testing_the_journey}
+# Tester votre parcours{#testing_the_journey}
 
 Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
