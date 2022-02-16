@@ -1,13 +1,13 @@
 ---
-title: Prise en main de l’export de catalogues d’offres
-description: Découvrez comment exporter votre catalogue d'offres sous forme de jeu de données
+title: Commencer à exporter des catalogues d’offres
+description: Découvrez comment exporter votre catalogue dʼoffres sous forme de jeu de données
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
 ht-degree: 100%
 
