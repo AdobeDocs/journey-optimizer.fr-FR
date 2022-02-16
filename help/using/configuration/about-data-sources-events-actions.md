@@ -1,5 +1,5 @@
 ---
-title: Configuration de parcours
+title: Configurer des parcours
 description: Découvrez comment configurer les sources de données, les événements et les actions.
 feature: Application Settings
 topic: Administration
@@ -7,13 +7,13 @@ role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Configuration de parcours {#configure-journeys}
+# Configurer des parcours {#configure-journeys}
 
 Pour envoyer des messages avec des parcours, vous devez configurer les **[!UICONTROL Sources de données]**, les **[!UICONTROL Événements]** et les **[!UICONTROL Actions]**.
 
