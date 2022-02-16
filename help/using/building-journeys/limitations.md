@@ -40,7 +40,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
-* Le nom du paramètre de requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
+* Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
@@ -52,7 +52,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 ## Sources de données  limitations
 
-* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
 ## Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
 

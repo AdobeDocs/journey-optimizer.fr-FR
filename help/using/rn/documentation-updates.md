@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Ajout d’une nouvelle section sur les exigences relatives aux schémas requises pour pouvoir envoyer des types d’événement lors de l’utilisation d’une stratégie de classement. [En savoir plus](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* La section relative à [!DNL Journey Optimizer] les fonctionnalités de personnalisation ont été réorganisées pour une meilleure lisibilité. [En savoir plus](../personalization/personalize.md)
+* La section relative aux capacités de personnalisation de [!DNL Journey Optimizer] a été réorganisée pour une meilleure lisibilité. [En savoir plus](../personalization/personalize.md)
 
 * La section Créer des paramètres prédéfinis de message a été divisée en plusieurs sections pour une meilleure clarté. [En savoir plus](../configuration/message-presets.md#create-message-preset)
 
@@ -110,11 +110,11 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Image optimisée de la page d’accueil
 * Déplacement, amélioration et changement du nom de la section « Suivi des messages » en « Ajout de liens et suivi des messages ». [En savoir plus](../messages/message-tracking.md)
 * Ajout d’une sous-section aux pages miroir. [En savoir plus](../messages/message-tracking.md#mirror-page)
-* Les &quot;activités d’offre&quot; ont été renommées &quot;décisions&quot; et &quot;décisions&quot; &quot;portées de décision&quot; dans la documentation et les écrans. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
+* Renommez « activités d’offre » en « décisions » et « décisions » en « portées de décision » dans la documentation et les écrans. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
 * Nouveau cas d’utilisation : [personnaliser un message avec des fonctions helper](../personalization/personalization-use-case-helper-functions.md)
 * Mise à jour de la documentation sur Lecture de segment pour prendre en compte les impacts sur les segments matérialisés. [En savoir plus](../building-journeys/read-segment.md)
 * Mise à jour des limites de parcours. [En savoir plus](../start/limitations.md)
-* Mise à jour de la section Configuration de la sélection des offres dans les décisions. [En savoir plus](../offers/offer-activities/configure-offer-selection.md)
+* Mise à jour de la section Configurer la sélection des offres dans les décisions. [En savoir plus](../offers/offer-activities/configure-offer-selection.md)
 * Ajout d&#39;un avertissement indiquant que les offres basées sur un événement ne sont actuellement pas prises en charge. [En savoir plus](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documentation du nouvel onglet **[!UICONTROL Aperçu]** de la gestion des décisions. [En savoir plus](../offers/get-started/user-interface.md#overview)
 * Ajout de nouvelles sections pour décrire les actions disponibles dans les listes des offres et des décisions : [Liste des offres](../offers/offer-library/creating-personalized-offers.md#offer-list) et [Liste des décisions](../offers/offer-activities/create-offer-activities.md#decision-list).

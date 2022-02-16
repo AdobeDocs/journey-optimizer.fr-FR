@@ -1,6 +1,6 @@
 ---
 title: Prise en main de la gestion des décisions
-description: Prise en main de la gestion des décisions Découvrez son architecture, ses offres et décisions, ainsi que les cas dʼutilisation courants qu’il vous permet de réaliser
+description: Prise en main de la gestion des décisions Apprenez-en davantage sur son architecture, ses offres et décisions, ainsi que sur les cas dʼutilisation courants qu’il vous permet de d’exécuter.
 feature: Offers
 topic: Integrations
 role: User

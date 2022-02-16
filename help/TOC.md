@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ ht-degree: 98%
    + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
    + Création d’expressions {#build-expressions}
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + Work with the Expression Editor {#expression-editor}
-         + [About the Expression Editor](using/personalization/personalization-build-expressions.md)
+      + Utilisation de l’éditeur d’expression {#expression-editor}
+         + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
          + [Ajout d’attributs aux favoris](using/personalization/personalization-favorites.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + Fonctions helper{#functions}
@@ -86,8 +86,8 @@ ht-degree: 98%
    + Création d’un parcours{#create-journey}
       + [Prise en main des parcours](using/building-journeys/journey-gs.md)
       + [Conception de votre parcours](using/building-journeys/using-the-journey-designer.md)
-      + [Test de votre parcours](using/building-journeys/testing-the-journey.md)
-      + [Publication de votre parcours](using/building-journeys/publishing-the-journey.md)
+      + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
+      + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
    + Activités {#about-journey-building}
@@ -250,14 +250,14 @@ ht-degree: 98%
       + [Création de collections](using/offers/offer-library/creating-collections.md)
    + Création et gestion des décisions {#create-manage-activities}
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
-      + [Configuration de la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
+      + [Configurer la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
       + [Création de simulations](using/offers/offer-activities/simulation.md)
    + Création de rapports de gestion de décisions {#create-reports}
       + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
    + Export de votre catalogue d’offres {#export-catalog}
-      + [Prise en main de l’export de catalogues d’offres ](using/offers/export-catalog/get-started-export.md)
+      + [Commencer à exporter des catalogues d’offres ](using/offers/export-catalog/get-started-export.md)
       + [Accès au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
       + [Jeu de données d’offres personnalisées](using/offers/export-catalog/export-offers.md)
       + [Jeu de données de décisions](using/offers/export-catalog/export-decisions.md)
@@ -319,7 +319,7 @@ ht-degree: 98%
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configuration des messages {#configuration-message}
       + Configuration de notifications push{#push-config}
-         + [Prise en main de la configuration de notifications push](using/messages/push-gs.md)
+         + [Commencer la configuration de notifications push](using/messages/push-gs.md)
          + [Configuration du canal de notifications push](using/messages/push-configuration.md)
       + Configuration des e-mails {#email-configuration}
          + Délégation de sous-domaines {#delegate-subdomains}

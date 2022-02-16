@@ -15,7 +15,7 @@ ht-degree: 68%
 
 # Gestion du consentement {#consent}
 
-Utilisez [!DNL Journey Optimizer] pour suivre le consentement de vos destinataires à la communication et comprendre comment ils veulent interagir avec votre marque en gérant leurs préférences et leurs abonnements.
+Utilisez [!DNL Journey Optimizer] pour suivre le consentement de vos destinataires en matière de communication et comprendre comment ils veulent interagir avec votre marque en gérant leurs préférences et leurs abonnements.
 
 Des règlements tels que le RGPD stipulent que vous devez respecter des exigences spécifiques avant de pouvoir utiliser les informations provenant de sujets de données. En outre, les sujets de données devraient pouvoir modifier leur consentement à tout moment.
 
@@ -94,7 +94,7 @@ Exigences d’en-tête :
 * x-sandbox-name
 * autorisation (jeton utilisateur de votre compte technique)
 
-Corps de la requête:
+Contenu de la requête :
 
 ```
 {

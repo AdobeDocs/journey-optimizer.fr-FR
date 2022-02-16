@@ -1,5 +1,5 @@
 ---
-title: Configuration de la sélection des offres dans les décisions
+title: Configurer la sélection des offres dans les décisions
 description: Découvrez comment gérer la sélection des offres dans les décisions
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 80%
 
 ---
 
-# Configuration de la sélection des offres dans les décisions {#offers-selection-in-decisions}
+# Configurer la sélection des offres dans les décisions {#offers-selection-in-decisions}
 
 Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision. Vous pouvez classer les offres par :
 * Priorité des offres

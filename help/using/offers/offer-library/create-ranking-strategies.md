@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Création de stratégies de classement
-description: Découvrez comment créer des modèles AI pour classer les offres
+description: Découvrez comment créer des modèles AI pour classer les offres.
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez par exemple sélectionner une stratégie de classement pour le canal
 
 <!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
-Une fois la formule de classement créée, affectez-la à un emplacement dans une décision. En savoir plus dans la section [Configuration de la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
+Une fois la formule de classement créée, affectez-la à un emplacement dans une décision. En savoir plus dans la section [Configurer la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
 
 ### Modèle dʼoptimisation automatique {#auto-optimization}
 

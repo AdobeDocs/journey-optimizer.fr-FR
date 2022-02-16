@@ -1,6 +1,6 @@
 ---
 title: Validation de la personnalisation
-description: En savoir plus sur la validation de la personnalisation et la résolution des problèmes.
+description: En savoir plus sur la validation de la personnalisation et sur la résolution des problèmes.
 feature: Personalization
 topic: Personalization
 role: Data Engineer

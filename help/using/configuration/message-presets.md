@@ -220,7 +220,7 @@ Pour les préréglages de message affichant le statut **[!UICONTROL Actif]**, vo
 
    ![](../assets/preset-view-update-details.png)
 
-Sur l’écran **[!UICONTROL Mise à jour récente]**, des informations telles que le statut de la mise à jour,  et la liste des modifications demandées sont disponibles. 
+Sur l’écran **[!UICONTROL Mise à jour récente]**, vous pouvez voir des informations telles que le statut de la mise à jour et la liste des modifications demandées. 
 
 ![](../assets/preset-recent-update-screen.png)
 
