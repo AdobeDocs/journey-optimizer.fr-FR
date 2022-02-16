@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: f70ec99dc982fc0dd417262ac553bc1be294d56f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Création d’une notification push {#create-push-notification}
+# Créer une notification push {#create-push-notification}
 
-Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre application mobile à tout moment, en particulier lorsqu&#39;ils ne l&#39;utilisent pas activement. Elles peuvent vous aider à réaliser divers cas d&#39;utilisation, tels que fournir des mises à jour sur votre service, demander à un utilisateur de prendre des mesures, avertir l&#39;utilisateur d&#39;une nouvelle transaction, etc. Les plateformes d&#39;appareil nécessitent un accord préalable avant que les utilisateurs finaux puissent recevoir ou afficher vos notifications. L’inclusion de l’utilisateur peut être reçue dès le lancement de l’application pour la première fois après l’installation, ou au cours d’une session ou d’un workflow ultérieur, selon le cas.
+Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre application mobile à tout moment, en particulier lorsqu&#39;ils ne l&#39;utilisent pas activement. Elles peuvent vous aider à réaliser divers cas d&#39;utilisation, tels que fournir des mises à jour sur votre service, demander à un utilisateur de prendre des mesures, avertir l&#39;utilisateur d&#39;une nouvelle transaction, etc. Les plateformes d&#39;appareil nécessitent un accord préalable avant que les utilisateurs finaux puissent recevoir ou afficher vos notifications. Lʼaccord préalable de lʼutilisateur peut être reçu dès le lancement de lʼapplication pour la première fois après lʼinstallation, ou au cours dʼune session ou dʼun processus ultérieur, selon le cas.
 
 [!DNL Journey Optimizer] prend en charge les notifications push et vous permet d&#39;envoyer des notifications extrêmement pertinentes à des taux de débit de pointe. Les notifications push peuvent inclure une personnalisation et un contexte basé sur les parcours afin d&#39;exploiter les données de votre marque avec Adobe Experience Cloud.
 
@@ -27,7 +27,7 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 
 >[!NOTE]
 >
->La section **[!UICONTROL Composer le message]** est commune aux onglets **[!UICONTROL iOS]** et **[!UICONTROL Android]**. Toute modification apportée à cette section s’applique aux deux paramètres.
+>La section **[!UICONTROL Composer le message]** est commune aux onglets **[!UICONTROL iOS]** et **[!UICONTROL Android]**. Toute modification apportée à cette section sʼappliquera aux deux paramètres.
 
 ## Titre et contenu {#push-title-body}
 
@@ -40,15 +40,15 @@ Utilisez la section de prévisualisation des appareils pour visualiser la façon
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
 >title="À propos du comportement en cas de clic"
->abstract="Sélectionnez le comportement lorsqu&#39;un destinataire clique sur le corps de la notification push."
+>abstract="Sélectionnez le comportement lorsquʼun destinataire clique sur le contenu de la notification push."
 
-Vous pouvez sélectionner le comportement lorsqu’un utilisateur clique sur le corps de la notification push.
+Sélectionnez le comportement lorsquʼun utilisateur clique sur le contenu de la notification push.
 
 ![](assets/title-body-push.png)
 
-* Pour ouvrir l’application, sélectionnez la **[!UICONTROL Ouvrir l’application]** . L&#39;application associée à la notification est définie dans le message **[!UICONTROL Paramètre prédéfini]**. [En savoir plus](../configuration/message-presets.md) à propos des paramètres prédéfinis de message.
-* Pour rediriger l’utilisateur vers un élément de contenu spécifique dans une application, sélectionnez la variable **[!UICONTROL Deeplink]** .  Le contenu spécifique peut être une vue spécifique, une section spécifique d’une page ou un certain onglet. Une fois l&#39;option sélectionnée, saisissez le lien profond dans le champ associé.
-* Pour rediriger l’utilisateur vers une URL externe, utilisez la méthode **[!UICONTROL URL web]** . Une fois l&#39;option sélectionnée, saisissez l&#39;URL dans le champ associé.
+* Pour ouvrir l’application, sélectionnez l’option **[!UICONTROL Ouvrir l’application]**. Lʼapplication associée à la notification est définie dans le message **[!UICONTROL Préréglage]**. [En savoir plus](../configuration/message-presets.md) sur les préréglages de messages.
+* Pour rediriger l’utilisateur vers un élément de contenu spécifique dans une application, sélectionnez l’option **[!UICONTROL Lien profond]** .  Le contenu spécifique peut être un affichage spécifique, une section spécifique d’une page ou un certain onglet. Une fois lʼoption sélectionnée, saisissez le lien profond dans le champ correspondant.
+* Pour rediriger l’utilisateur vers une URL externe, utilisez l’option **[!UICONTROL URL Web]**. Une fois lʼoption sélectionnée, saisissez lʼURL dans le champ correspondant.
 
 ## Ajouter un média {#add-media-push}
 
@@ -60,11 +60,11 @@ Dans la version Android, vous pouvez uniquement ajouter une icône d&#39;image e
 
 Deux options sont disponibles. Vous pouvez :
 
-* Utilisez la variable **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets Essentials]**.
+* Cliquez sur le bouton **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets Essentials]**.
 
    Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets Essentials]** dans [cette page](assets-essentials.md).
 
-* Ou saisissez l’URL du média dans la variable **[!UICONTROL Ajouter un média]** champ . Dans ce cas, vous pouvez ajouter une personnalisation à l’URL.
+* Vous pouvez également saisir lʼURL du média en cliquant sur le champ **[!UICONTROL Ajouter un média]**. Dans ce cas, vous pouvez ajouter une personnalisation à l’URL.
 
 Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 
@@ -74,15 +74,15 @@ Créez une notification exploitable en ajoutant des boutons à votre contenu pus
 
 Si l&#39;écran de l&#39;appareil est verrouillé, les boutons suivants ne s&#39;affichent pas : seuls le **Titre** et le **Message** de la notification sont visibles. Si leur appareil est déverrouillé, les destinataires verront les boutons.
 
-Dans la version iOS, vous pouvez ajouter jusqu’à quatre boutons. Dans la version Android, vous pouvez ajouter jusqu’à trois boutons.
+Dans la version iOS, vous pouvez ajouter jusquʼà quatre boutons. Dans la version Android, vous pouvez ajouter jusquʼà trois boutons.
 
 >[!NOTE]
 >
 >Pour iOS, utilisez le champ **[!UICONTROL catégorie iOS]** pour associer les actions à une catégorie de notification.
 
-1. Utilisez la variable **[!UICONTROL Bouton Ajouter]** pour définir les paramètres : le libellé et l&#39;action associée. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
+1. Cliquez sur **[!UICONTROL Ajouter un bouton]** pour définir les paramètres : le libellé et lʼaction correspondante. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
 
-1. Utilisez la variable **[!UICONTROL Développer la vue]** sous l’image d’aperçu centrale pour prévisualiser vos boutons personnalisés.
+1. Utilisez l’icone **[!UICONTROL Expansion de l’affichage]** sous l’image d’aperçu centrale pour prévisualiser vos boutons personnalisés.
 
 ![](assets/push_buttons.png)
 
