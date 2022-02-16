@@ -1,15 +1,15 @@
 ---
-title: 'Prise en main de la configuration de  [!DNL Journey Optimizer] '
-description: En savoir plus sur [!DNL Journey Optimizer] configuration
+title: 'Commencer la configuration de  [!DNL Journey Optimizer] '
+description: 'En savoir plus sur la configuration de  [!DNL Journey Optimizer] '
 role: Admin
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
