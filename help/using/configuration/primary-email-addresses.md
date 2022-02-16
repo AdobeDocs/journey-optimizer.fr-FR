@@ -1,15 +1,15 @@
 ---
-title: 'Modification des adresses e-mail principales '
-description: Découvrez comment déterminer l’adresse électronique à utiliser à partir du service de profil.
+title: 'Modification des adresses e-mails principales '
+description: Découvrez comment déterminer l’adresse e-mail à utiliser à partir du service de profil.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
