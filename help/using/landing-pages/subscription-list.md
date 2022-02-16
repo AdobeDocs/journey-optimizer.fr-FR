@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Un service d’abonnement fait référence aux produits et services marketing fo
 
 Voici quelques exemples de services dʼabonnement :
 
-* une newsletter, par exemple : &quot;Série en cours&quot;
-* un événement, par exemple : &quot;Summit 2021&quot;
+* une newsletter, par exemple : « Série de courses »
+* un événement, par exemple : « Sommet 2021 »
 * un webinaire, par exemple : « En savoir plus sur la crypto »
 * un intérêt pour un produit/sport/service etc., par exemple : « Souhaite acheter une maison dans les 12 prochains mois »
 * une préférence en matière de notification, par exemple : « Recevoir les notifications de nouvelles chansons par e-mail »
