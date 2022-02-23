@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
+source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
 workflow-type: tm+mt
 source-wordcount: '1075'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
 1. Définissez le champ **[!UICONTROL Taux de limitation]** sur la limite du débit de l’activité Lecture de segment.
 
-   Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 17 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 17 000 messages par seconde.
+   Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 20 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 20 000 messages par seconde.
 
    >[!NOTE]
    >

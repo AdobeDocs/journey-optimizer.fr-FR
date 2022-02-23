@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 55%
 
 ---
 
@@ -32,7 +32,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|--------------|
 | base | chaîne |
-| cible | chaîne |
+| cible | chaîne (RegExp) |
 | remplacement | chaîne |
 
 ## Signature et type renvoyé
@@ -41,8 +41,28 @@ Chaîne
 
 Renvoie une chaîne.
 
-## Exemple
+## Exemple 1
 
 `replace("Hello World", "l", "x")`
 
 Renvoie « Hexlo World ».
+
+## Exemple 2 {#example_2}
+
+Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Voici un exemple :
+
+* Chaîne à évaluer : `|OFFER_A|OFFER_B`
+* fourni par un attribut de profil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* Chaîne à remplacer : `|OFFER_A`
+* Chaîne remplacée par : `''`
+* Vous devez ajouter `\\` avant l’événement `|` caractère.
+
+L’expression est :
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
+
+La chaîne renvoyée est la suivante : `|OFFER_B`
+
+Vous pouvez également créer la chaîne à remplacer à partir d’un attribut donné :
+
+`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

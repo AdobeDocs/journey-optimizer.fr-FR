@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1489'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,6 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
    ![](../assets/jo-event7.png)
 
-1. Pour les événements générés par le système, vous pouvez ajouter une condition. Cette étape est facultative. Elle permet au système de traiter uniquement les événements qui répondent à la condition. Cette condition ne peut être basée que sur les informations contenues dans l&#39;événement. Consultez [cette section](../event/about-creating.md#add-a-condition).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    L&#39;événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d&#39;événements. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
@@ -145,18 +144,6 @@ Lorsque l&#39;événement est reçu, la valeur de la clé permet au système d&#
 La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
 Vous avez également accès aux fonctions d&#39;expression avancées (**[!UICONTROL Mode avancé]**) si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d&#39;un champ (les 10 premiers caractères, par exemple), etc. Voir la [documentation de Journey Orchestration](../building-journeys/expression/expressionadvanced.md). 
-
-## Ajoutez une condition {#add-a-condition}
-
-La condition n’est disponible que pour les événements générés par le système. Vous pouvez définir une condition d&#39;événement qui permet au système de filtrer le traitement des événements. Si la condition est vraie, l&#39;événement est traité. Dans le cas contraire, il est ignoré.
-
-La condition relative aux événements ne peut être basée que sur les données transmises dans la payload d&#39;événement. La condition définie au niveau de l&#39;événement ne peut pas être modifiée par un marketeur dans la zone de travail. L&#39;objectif est de rendre cette condition plus stricte lorsque cet événement est utilisé. Par exemple, si vous ne souhaitez pas que les marketeurs utilisent des événements d&#39;abandon de panier si la valeur du panier est trop faible, vous pouvez créer une condition sur le champ d&#39;événement « valeur du panier » et imposer une valeur supérieure à 100 euros.
-
-Vous pouvez utiliser l&#39;éditeur d&#39;expression simple ou avancé pour configurer des conditions sur les événements. Voir la [documentation de Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
-
-Vous pouvez, par exemple, définir une condition pour ne traiter que les événements d&#39;un type spécifique et ignorer les autres. Si votre événement est un abandon de panier et que la payload comprend le champ de valeur de panier, vous pouvez définir une condition d&#39;événement afin de ne traiter les événements que si la valeur du panier est supérieure à 100 euros.
-
-![](../assets/journey78.png)
 
 ## Prévisualisation de la payload {#preview-the-payload}
 

@@ -1,26 +1,35 @@
 ---
 solution: Journey Orchestration
-title: À propos de la configuration des actions personnalisées
+title: Configuration d’une action personnalisée
 description: Découvrez comment configurer une action personnalisée
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 84%
 
 ---
 
-# Configurer une action {#configure-an-action}
+# Configuration d’une action personnalisée {#configure-an-action}
 
-Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d&#39;API à un système tiers, c&#39;est à cet emplacement que vous configurez la connexion de ce système aux parcours. L&#39;action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [cette page](../building-journeys/about-journey-activities.md#action-activities). À titre dʼexemple, Epsilon, Slack, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à lʼaide dʼactions personnalisées.
+Si vous utilisez un système tiers pour envoyer des messages ou si vous souhaitez que parcours envoie des appels d’API à un système tiers, utilisez des actions personnalisées pour configurer sa connexion à votre parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, Adobe.io, Firebase, etc.
 
-Les limites sont répertoriées dans [cette page](../start/limitations.md).
+Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des marketeurs. Une fois configurés, ils apparaissent dans la palette gauche de votre parcours, dans la **[!UICONTROL Action]** catégorie. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
-Vous pouvez transmettre des collections de manière dynamique à l’aide d’actions personnalisées. Reportez-vous à ce [cas d’utilisation](../building-journeys/collections.md).
+## Limites{#custom-actions-limitations}
+
+Les actions personnalisées sont assorties de quelques limites répertoriées dans la section [cette page](../start/limitations.md).
+
+Dans les paramètres d’action personnalisés, vous pouvez transmettre une collection simple, ainsi qu’une collection d’objets. En savoir plus sur les limites des collections dans [cette page](../building-journeys/collections.md#limitations).
+
+Notez également que les paramètres des actions personnalisées ont un format attendu (exemple : string, decimal, etc.). Vous devez veiller au respect de cette exigence. En savoir plus à ce sujet [cas pratique](../building-journeys/collections.md).
+
+
+## Étapes de configuration {#configuration-steps}
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 
