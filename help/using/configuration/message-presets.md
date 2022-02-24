@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
+source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 79%
@@ -100,7 +100,7 @@ Choisir **Transactionnel** pour les messages non commerciaux tels que la confirm
 
 ### Sous-domaine et pool d’adresses IP {#subdomains-and-ip-pools}
 
-Dans le **DÉTAILS DU SOUS-DOMAINE ET DU PPOL D’IP** , vous devez :
+Dans le **SOUS-DOMAINE ET DÉTAILS DU POOL IP** , vous devez :
 
 1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
 
