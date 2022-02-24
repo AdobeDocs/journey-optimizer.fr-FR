@@ -6,10 +6,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,11 +53,11 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Marques]**/**[!UICONTROL Préréglages de message]**, puis cliquez sur **[!UICONTROL Créer un préréglage de message]**. 
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Saisissez un nom et une description (facultatif) pour le préréglage, puis sélectionnez le canal SMS.
 
-   ![](../assets/sms_preset.png)
+   ![](assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Configurez les paramètres des **SMS**.
 
-   ![](../assets/preset-sms.png)
+   ![](assets/preset-sms.png)
 
    * Sélectionnez le **[!UICONTROL Type de SMS]** qui sera envoyé avec le préréglage : **[!UICONTROL Transactionnel]** ou **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que version préliminaire et reprendre sa configuration ultérieurement.
 
-   ![](../assets/sms_preset_2.png)
+   ![](assets/sms_preset_2.png)
 
 1. Une fois le préréglage de message créé, il s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
 
@@ -87,7 +87,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 Vous êtes maintenant prêt à envoyer des messages SMS avec Journey Optimizer.
 
