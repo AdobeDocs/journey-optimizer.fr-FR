@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 92%
 
 ---
 
@@ -58,8 +58,8 @@ Procédez de la façon suivante :
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction de chaîne `upperCase` :
-   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions helper]**.
-   1. Utilisez le champ de recherche pour trouver « uppercase ».
+   1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
+   1. Utilisez le champ de recherche pour trouver &quot;majuscules&quot;.
    1. À partir des résultats de la recherche, ajoutez la fonction `upperCase`. Pour ce faire, cliquez sur le signe plus (+) en regard de `{%= upperCase(string) %}: string`.
 
       L’éditeur d’expression affiche cette expression :
@@ -72,8 +72,8 @@ Procédez de la façon suivante :
 
 1. Supprimez l’espace réservé « string » de l’expression.
 1. Ajoutez le jeton de prénom :
-   1. Dans la liste, sélectionnez **[!UICONTROL Profil]**.
-   1. Sélectionnez **[!UICONTROL Profil]** > **[!UICONTROL Personne]** > **[!UICONTROL Nom complet]**.
+   1. Dans le menu de gauche, sélectionnez **[!UICONTROL Attributs de profil]**.
+   1. Sélectionner **[!UICONTROL Personne]** > **[!UICONTROL Nom complet]**.
    1. Ajoutez le jeton **[!UICONTROL Prénom]** à l’expression.
 
       L’éditeur d’expression affiche cette expression :
@@ -84,7 +84,7 @@ Procédez de la façon suivante :
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Apprenez-en davantage sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
+      En savoir plus sur le type de données du nom de la personne dans [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
@@ -126,7 +126,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `each` :
-   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions helper]**.
+   1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
    1. Utilisez le champ de recherche pour trouver « each ».
    1. À partir des résultats de la recherche, ajoutez la fonction helper `each`.
 
@@ -141,9 +141,9 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Ajoutez le tableau `productListItems` à l’expression :
 
    1. Supprimez l’espace réservé « someArray » de l’expression.
-   1. Dans la liste, sélectionnez **[!UICONTROL Contexte]**.
+   1. Dans le menu de gauche, sélectionnez **[!UICONTROL Attributs contextuels]**.
 
-      L’option **[!UICONTROL Contexte]** n’est disponible qu’une fois le contexte du parcours transmis au message.
+      **[!UICONTROL Attributs contextuels]** ne sont disponibles qu’une fois que le contexte du parcours a été transmis au message.
 
    1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez le nœud **[!UICONTROL productListItems]**.
 
@@ -218,7 +218,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `if` :
-   1. Dans la liste, sélectionnez **[!UICONTROL Fonctions helper]**.
+   1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
    1. Utilisez le champ de recherche pour trouver « if ».
    1. À partir des résultats de la recherche, ajoutez la fonction helper `if`.
 
@@ -248,7 +248,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 1. Ajoutez le jeton de nom de produit à la condition :
    1. Supprimez l’espace réservé « condition1 » de l’expression.
-   1. Dans la liste, sélectionnez **[!UICONTROL Contexte]**.
+   1. Dans le menu de gauche, sélectionnez **[!UICONTROL Attributs contextuels]**.
    1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez le nœud **[!UICONTROL productListItems]**.
 
       Dans cet exemple, *event_name* représente le nom de votre événement.

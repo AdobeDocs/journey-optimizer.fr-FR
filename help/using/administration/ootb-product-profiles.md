@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
+source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Ce profil de produit comprend les autorisations suivantes :
 |Messages|<ul><li> **[!DNL Manage messages]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li>**[!DNL Manage messages preview and test]** : la publication des messages.</li><li>**[!DNL Publish messages]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li>**[!DNL View messages report]** : la lecture et la modification du rapport de messages.</li></ul>|
 |Administration|<ul><li>**[!DNL Manage subdomains delegation]** : la lecture, la création, la modification et la suppression de la délégation de sous-domaine.</li><li>**[!DNL Manage IP pools]** : la lecture, la création, la modification et la suppression du groupe dʼadresses IP.</li><li>**[!DNL Manage PTR records]** : lire et modifier les enregistrements PTR.</li><li>**[!DNL View PTR records]** : accès en lecture seule aux enregistrements PTR.</li><li> **[!DNL Manage messages general settings]** : la lecture, la création, la modification et la suppression des paramètres généraux du message.</li><li>**[!DNL Manage messages presets]** : la lecture, la création, la modification et la suppression du branding de contenu.</li><li>**[!DNL Manage suppression rules]** : accès à la lecture, la création, la modification et la suppression des règles de suppression.</li><li>**[!DNL View suppression list]** : la lecture et lʼexportation de la liste de suppression locale.</li><li>**[!DNL Manage alerts]** : lʼactivation/la désactivation des alertes pour les parcours, les messages et les droits.</li></ul>|
 |Gestion des décisions|<ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des décisions.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et lʼutilisation des fonctions dʼaction.</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]** : octroi de lʼaccès aux environnements sandbox.</li><li>**[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Read Identity namespace]** : accès en lecture seule à lʼespace de noms d’identité.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]** : octroi de lʼaccès aux environnements sandbox.</li><li>**[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Read Identity namespace]** : accès en lecture seule à lʼespace de noms d’identité.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Bibliothèque Journey Optimizer|<ul><li>**[!DNL Manage Library Items]**: ajouter et supprimer des expressions enregistrées dans [!DNL Journey Optimizer] Bibliothèque.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 

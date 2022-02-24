@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 06067a9fb5c7fb436bfa4843d07fc0a46fdf74ba
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 84%
 
 ---
 
@@ -19,9 +19,7 @@ L’ajout de différents attributs à votre menu de favoris vous permet dʼaccé
 
 ![](assets/favorite-option.png)
 
-Pour accéder aux éléments mis en favoris, sélectionnez **[!UICONTROL Favoris]** dans le menu déroulant.
-
-![](assets/favorite-menu.png)
+Pour accéder aux éléments que vous avez mis en favori, utilisez le **[!UICONTROL Favoris]** dans le volet de gauche.
 
 Dans cette liste, vous pouvez rapidement ajouter lʼobjet de personnalisation à votre expression actuelle.
 

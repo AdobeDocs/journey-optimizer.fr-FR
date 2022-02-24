@@ -6,16 +6,21 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 80%
 
 ---
 
 # À propos de l’éditeur d’expression {#build-personalization-expressions}
 
-L&#39;éditeur d&#39;expression est lʼélément central de la personnalisation dans [!DNL Journey Optimizer]. Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).
+>[!CONTEXTUALHELP]
+>id="ajo_perso_editor"
+>title="À propos de l’éditeur d’expression"
+>abstract="L’éditeur d’expression vous permet de sélectionner, organiser, personnaliser et valider toutes les données afin de créer une personnalisation personnalisée de votre contenu."
+
+L’éditeur d’expression est l’élément central de la personnalisation dans [!DNL Journey Optimizer]. Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).
 
 Dans l&#39;interface de l&#39;éditeur d&#39;expression, vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser votre contenu.
 
@@ -33,13 +38,13 @@ Les sources disponibles sont les suivantes :
 * **[!UICONTROL Attributs contextuels]** : lorsque le **Message** est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans ce menu. En savoir plus dans [cette section](personalization-use-case.md).
 * **[!UICONTROL Fonctions helper]** : répertorie toutes les fonctions helper disponibles pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et les manipuler dans le contexte de la personnalisation. En savoir plus dans [cette section](functions/functions.md).
 
-Lorsqu&#39;elle est sélectionnée, la référence est ajoutée dans l&#39;éditeur.
+Cliquez sur le bouton + pour ajouter un attribut dans l&#39;éditeur.
 
 >[!NOTE]
 >
->L&#39;icône d&#39;informations située en regard de l&#39;icône « + » ouvre une info-bulle fournissant plus de détails sur chaque variable.
->
->Vous pouvez ajouter vos attributs les plus fréquemment utilisés aux favoris. En savoir plus dans [cette section](personalization-favorites.md).
+>Le menu de points de suspension en regard de l’icône &quot;+&quot; vous permet d’obtenir plus de détails sur chaque variable et d’ajouter vos attributs utilisés le plus souvent à [favoris](personalization-favorites.md).
+
+![](assets/attribute-details.png)
 
 Dans lʼexemple suivant, lʼéditeur dʼexpression vous permet de sélectionner les profils qui ont leur anniversaire aujourdʼhui, puis de terminer la personnalisation en insérant une offre spécifique correspondant à ce jour.
 
