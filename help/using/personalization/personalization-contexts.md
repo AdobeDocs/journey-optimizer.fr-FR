@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 1993dc5648bcd294ec2f8dfbbb783b81addf873f
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,9 +61,9 @@ Vous pouvez également accéder à l’éditeur de personnalisation lors de l’
 
 Pour en savoir plus sur la gestion du contenu avec la gestion des décisions, consultez [cette section](../offers/offer-library/creating-personalized-offers.md#custom-text).
 
-## URL personnalisées{#personalize-urls}
+## Créer des URL personnalisées{#personalize-urls}
 
-Dans le contenu de votre message, vous pouvez créer des liens avec la personnalisation. Par exemple, ajoutez des liens vers une page spécifique de votre site web pour vos nouveaux clients.
+Les URL personnalisées orientent les destinataires vers des pages spécifiques d&#39;un site web ou vers un microsite personnalisé, en fonction des attributs du profil. Dans Adobe Journey Optimizer, vous pouvez ajouter une personnalisation aux URL dans le contenu de votre message. La personnalisation de l&#39;URL peut être appliquée au texte et aux images, et utiliser les données de profil ou les données contextuelles.
 
-Découvrez comment utiliser les fonctionnalités de personnalisation pour insérer une URL personnalisée dans [cette section](personalization-syntax.md#perso-urls).
+Découvrez comment insérer une URL personnalisée dans [cette section](personalization-syntax.md#perso-urls).
 
