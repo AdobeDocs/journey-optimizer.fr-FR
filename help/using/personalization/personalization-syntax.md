@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '707'
+ht-degree: 92%
 
 ---
 
@@ -145,10 +145,12 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 
 ## Personnalisation des URL{#perso-urls}
 
-Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour ce faire :
+Les URL personnalisées orientent les destinataires vers des pages spécifiques d&#39;un site web ou vers un microsite personnalisé, en fonction des attributs du profil. Dans Adobe Journey Optimizer, vous pouvez ajouter une personnalisation aux URL dans le contenu de votre message. La personnalisation de l&#39;URL peut être appliquée au texte et aux images, et utiliser les données de profil ou les données contextuelles.
 
-* Créez un lien dans le contenu de votre message. Pour en savoir plus sur la création de liens, consultez [cette page](../messages/message-tracking.md#insert-links).
-* Sélectionnez l&#39;icône de personnalisation. Cette icône est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
+Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour personnaliser une URL, procédez comme suit :
+
+1. Créez un lien dans le contenu de votre message. [En savoir plus](../messages/message-tracking.md#insert-links)
+1. Sélectionnez les attributs à partir de l’icône de personnalisation. L’icône de personnalisation n’est disponible que pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Exclusion**.
 
 ![](assets/perso-url.png)
 
