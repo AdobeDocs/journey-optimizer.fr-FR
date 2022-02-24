@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 85%
 
 ---
 
@@ -60,3 +60,10 @@ Pour en savoir plus sur la configuration des notifications push, consultez [cett
 Vous pouvez également accéder à l’éditeur de personnalisation lors de l’ajout de contenu de type texte aux représentations de vos offres.
 
 Pour en savoir plus sur la gestion du contenu avec la gestion des décisions, consultez [cette section](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## URL personnalisées{#personalize-urls}
+
+Dans le contenu de votre message, vous pouvez créer des liens avec la personnalisation. Par exemple, ajoutez des liens vers une page spécifique de votre site web pour vos nouveaux clients.
+
+Découvrez comment utiliser les fonctionnalités de personnalisation pour insérer une URL personnalisée dans [cette section](personalization-syntax.md#perso-urls).
+

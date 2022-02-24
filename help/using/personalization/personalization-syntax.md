@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 98%
 
 ---
 
@@ -147,8 +147,8 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 
 Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour ce faire :
 
-* Créez un lien dans votre contenu e-mail ou push. Pour en savoir plus sur la création de liens, consultez [cette page](../messages/message-tracking.md#insert-links).
-* Cliquez sur l’icône de personnalisation. Cette icône est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
+* Créez un lien dans le contenu de votre message. Pour en savoir plus sur la création de liens, consultez [cette page](../messages/message-tracking.md#insert-links).
+* Sélectionnez l&#39;icône de personnalisation. Cette icône est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
 
 ![](assets/perso-url.png)
 
