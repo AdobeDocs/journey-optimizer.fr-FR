@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 163211f95436a37dee7deffea9ced1a3fa09dc34
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,22 @@ Pour enregistrer une expression dans la bibliothèque, procédez comme suit :
 
    ![](assets/library-save.png)
 
-1. Dans le volet de droite, attribuez un titre et une description à l’expression afin d’aider les utilisateurs à la trouver plus facilement, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Dans le volet de droite, saisissez un titre et une description pour l’expression afin d’aider les utilisateurs à la trouver plus facilement, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](assets/add-expression.png)
 
 1. L’expression est ajoutée à la bibliothèque. Les utilisateurs pourront désormais l’utiliser pour créer leur contenu de personnalisation.
+
+
+>[!NOTE]
+>
+>* Vous enregistrez jusqu’à 40 expressions dans la bibliothèque.
+>
+>* Les expressions ne doivent pas dépasser 200 Ko.
+>
+>* Les expressions enregistrées sont triées par date de création : l’expression ajoutée récemment s’affiche en premier dans la liste.
+
+
 
 Pour modifier une expression existante, ajoutez-la à l’éditeur, puis modifiez-la selon vos besoins. Cliquez sur **[!UICONTROL Ajouter à la bibliothèque]** pour valider la syntaxe et enregistrer l’expression.
 
