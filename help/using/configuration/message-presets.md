@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 98%
+source-wordcount: '1944'
+ht-degree: 84%
 
 ---
 
@@ -78,7 +78,11 @@ Pour créer un préréglage de message, procédez comme suit :
 
 ## Configurez les paramètres d&#39;e-mail {#configure-email-settings}
 
+Les paramètres d&#39;email sont définis dans une section dédiée de la configuration des paramètres prédéfinis du message.
+
 ![](../assets/preset-email.png)
+
+Pour définir les paramètres d&#39;email associés au paramètre prédéfini de message, procédez comme suit :
 
 1. Sélectionnez le type de message qui sera envoyé avec le paramètre prédéfini : **Transactionnel** ou **Marketing**.
 
@@ -90,7 +94,31 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Sélectionnez le pool d&#39;adresses IP à associer au préréglage. [En savoir plus](ip-pools.md)
 
-1. Renseignez les paramètres d’en-tête des e-mails envoyés à l’aide du préréglage.
+1. Pour identifier où et pourquoi une personne a cliqué sur votre lien, vous pouvez ajouter des paramètres UTM pour le suivi des URL dans la variable  **[!UICONTROL Configuration du suivi des URL (web analytics)]** .
+
+   En fonction des paramètres que vous définissez, un code UTM est appliqué à la fin de l’URL incluse dans le contenu de votre message. Vous pourrez ensuite comparer les résultats dans un outil d’analyse web, tel qu’Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >Vous pouvez ajouter jusqu’à 10 paramètres de suivi.
+
+   Vous pouvez saisir directement le texte de votre choix dans la variable **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** champs.
+
+   Vous pouvez également choisir parmi une liste de valeurs prédéfinies en accédant aux objets suivants :
+
+   * Attributs de parcours : ID source, Nom source, ID de version source
+   * Attributs de message : ID d’action, nom de l’action
+   * Attributs d’Offer decisioning : Identifiant de l’offre, Nom de l’offre
+
+   >[!CAUTION]
+   >
+   >Accédez au dossier nécessaire et sélectionnez un attribut de profil à utiliser comme valeur UTM.
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. Saisissez le **[!UICONTROL Paramètres d’en-tête]** pour les emails envoyés à l’aide de ce paramètre prédéfini.
 
    >[!CAUTION]
    >
@@ -107,15 +135,15 @@ Pour créer un préréglage de message, procédez comme suit :
    * **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. 
    >[!NOTE]
    >
-   >À partir de la version d’octobre 2021, il n’est plus possible de définir une adresse e-mail de renvoi à partir de l’interface utilisateur [!DNL Journey Optimizer]. Si vous souhaitez que tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué soient transférés à une adresse e-mail spécifique, contactez l’[Équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+   >Vous ne pouvez pas définir une adresse électronique de transfert à partir du [!DNL Journey Optimizer] de l’interface utilisateur. Si vous souhaitez que tous les emails soient reçus par [!DNL Journey Optimizer] pour que le sous-domaine délégué soit transféré vers une adresse électronique spécifique, contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
+   >Les noms doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Configurez les **paramètres de reprise d’e-mail**. Par défaut, la [période de reprise](retries.md#retry-duration) est définie sur 84 heures, mais vous pouvez ajuster ce paramètre pour mieux l’adapter à vos besoins.
+1. Configurez la variable **Paramètres de reprise par email**. Par défaut, la [période de reprise](retries.md#retry-duration) est définie sur 84 heures, mais vous pouvez ajuster ce paramètre pour mieux l’adapter à vos besoins.
 
    ![](../assets/preset-retry-paramaters.png)
 
@@ -125,6 +153,10 @@ Pour créer un préréglage de message, procédez comme suit :
    * Pour les deux types d’e-mail, la période de reprise maximale est de 84 heures (soit 5 040 minutes).
 
 ## Configuration des paramètres push {#configure-push-settings}
+
+Les paramètres push sont définis dans une section dédiée de la configuration des paramètres prédéfinis du message.
+
+Pour définir les paramètres push associés au paramètre prédéfini de message, procédez comme suit :
 
 1. Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
 
@@ -154,7 +186,7 @@ Tous vos préréglages de message s’affichent dans le menu **[!UICONTROL Canau
 
 ![](../assets/preset-filters.png)
 
-Les préréglages de message peuvent avoir les statuts suivants :
+Une fois créés, les paramètres prédéfinis de message peuvent avoir les états suivants :
 
 * **[!UICONTROL Version préliminaire]** : le préréglage de message a été enregistré en tant que version préliminaire et n&#39;a pas encore été envoyé. Ouvrez-le pour reprendre la configuration.
 * **[!UICONTROL Traitement]** : le préréglage de message a été envoyé et passe par plusieurs étapes de vérification.
@@ -164,7 +196,7 @@ Les préréglages de message peuvent avoir les statuts suivants :
 
 En cas d’échec de la création d’un préréglage de message, les détails de chaque raison d’échec possible sont décrits ci-dessous.
 
-Si l’une de ces erreurs se produit, contactez l’[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
+Si l’une de ces erreurs se produit, contactez [Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
 
 * **Échec de la validation SPF** : SPF (Sender Policy Framework) est un protocole d’authentification d’e-mail qui permet de spécifier des adresses IP autorisées pouvant envoyer des e-mails à partir d’un sous-domaine donné. L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les e-mails aux fournisseurs de messagerie.
 
