@@ -9,7 +9,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Le **[!UICONTROL rapport global]** vous permet de mesurer l&#39;impact de vos pa
 
 ## Personnalisation du tableau de bord {#modify-dashboard}
 
-Chaque tableau de bord de rapports peut être modifié en modifiant la période et en redimensionnant ou en supprimant des widgets. La modification des widgets n&#39;a un impact que sur le tableau de bord de l&#39;utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
+Chaque tableau de bord de reporting peut être modifié en modifiant la période et en redimensionnant ou en supprimant des widgets. La modification des widgets n&#39;a un impact que sur le tableau de bord de l&#39;utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
 
-1. Dans votre rapport Global , sélectionnez une heure de début et une heure de fin pour cibler des données spécifiques.
+1. Dans votre rapport global, sélectionnez une heure de début et une heure de fin pour cibler des données spécifiques.
 
    ![](../assets/report_modify_1.png)
 
-1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, reportez-vous à la section [cette page](../building-journeys/testing-the-journey.md).
+1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, consultez [cette page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/report_modify_2.png)
 

@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -168,11 +168,11 @@ Désormais, chaque fois quʼune offre est affichée et/ou qu’un utilisateur cl
 
 Pour envoyer des types d’événement (offre affichée ou offre ayant fait l’objet d’un clic), vous devez définir la valeur correcte pour chaque type d’événement dans un événement d’expérience qui est envoyé dans Adobe Experience Platform. Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter dans votre code JavaScript :
 
-### Scénario d&#39;offre affichée
+### Scénario d’offre affichée
 
 **Type d’événement :** `decisioning.propositionDisplay`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
-+++**Exemple de payload :**
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
++++**Exemple de payload :**
 
 ```
 {
@@ -200,11 +200,11 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 +++
 
-### Scénario sur l’offre cliquée
+### Scénario d’offre cliquée
 
 **Type d’événement :** `decisioning.propositionInteract`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
-+++**Exemple de payload :**
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
++++**Exemple de payload :**
 
 ```
 {

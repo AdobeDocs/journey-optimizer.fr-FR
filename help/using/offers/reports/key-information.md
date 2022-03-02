@@ -9,7 +9,7 @@ exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Chaque événement envoyé lorsqu&#39;une décision est prise contient quatre po
 * **[!UICONTROL Fallback]** : Nom et ID de l&#39;offre de secours, si aucune offre personnalisée n&#39;a été sélectionnée,
 * **[!UICONTROL Emplacement]** : Nom, ID et canal du placement utilisé pour diffuser l&#39;offre,
 * **[!UICONTROL Selections]** : Nom et ID de l&#39;offre sélectionnée pour le profil,
-* **[!UICONTROL Activité]**: Nom et ID de la décision.
+* **[!UICONTROL Activité]** : Nom et identifiant de la décision.
 
 En outre, vous pouvez également utiliser les champs **[!UICONTROL identityMap]** et **[!UICONTROL Timestamp]** pour récupérer des informations sur le profil et le moment où l&#39;offre a été diffusée.
 

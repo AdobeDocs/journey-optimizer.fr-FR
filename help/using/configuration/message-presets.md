@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -44,9 +44,9 @@ Pour créer un préréglage de message, procédez comme suit :
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Configurez les paramètres d’**e-mail.** [En savoir plus](#configure-email-settings)
+1. Configurez les paramètres d’**e-mail**. [En savoir plus](#configure-email-settings)
 
-1. Configurez les paramètres de **notification push.** [En savoir plus](#configure-push-settings)
+1. Configurez les paramètres de **notification push**. [En savoir plus](#configure-push-settings)
 
    <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
@@ -76,7 +76,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
    ![](assets/preset-active.png)
 
-## Configurez les paramètres d&#39;e-mail {#configure-email-settings}
+## Configurer les paramètres d’e-mail {#configure-email-settings}
 
 Les paramètres d&#39;email sont définis dans une section dédiée de la configuration des paramètres prédéfinis du message.
 
@@ -165,13 +165,13 @@ Vous devez saisir une valeur entière (en heures ou minutes) dans la plage suiva
 * Pour les emails transactionnels, la période de reprise minimale est de 10 minutes.
 * Pour les deux types d’e-mail, la période de reprise maximale est de 84 heures (soit 5 040 minutes).
 
-## Configuration des paramètres push {#configure-push-settings}
+## Configurer les paramètres des notifications push {#configure-push-settings}
 
 Les paramètres push sont définis dans une section dédiée de la configuration des paramètres prédéfinis du message.
 
 Pour définir les paramètres push associés au paramètre prédéfini de message, procédez comme suit :
 
-1. Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
+1. Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
 
 1. Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
 
@@ -193,7 +193,7 @@ Pour plus d&#39;informations sur la configuration de votre environnement pour en
 1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
 -->
 
-## Surveillance des préréglages de message {#monitor-message-presets}
+## Surveiller les préréglages de message {#monitor-message-presets}
 
 Tous vos préréglages de message s’affichent dans le menu **[!UICONTROL Canaux]**/**[!UICONTROL Préréglages de message]**. Des filtres sont disponibles pour vous aider à parcourir la liste (type de canal, utilisateur, statut).
 

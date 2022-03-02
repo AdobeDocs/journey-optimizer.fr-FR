@@ -9,7 +9,7 @@ exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: a7899319145aa8b8dafc8d120836507e34f85e30
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs una
 ## Remarques importantes{#important-notes}
 
 * Lors de l’utilisation d’une multiplication (`*`), les deux champs d’opération doivent avoir le même type, entier ou décimal. Exemple :
-   * l’exemple suivant est correct : `3.0 * 4.0`
+   * L’exemple suivant est correct :`3.0 * 4.0`
    * `3 * 4.0` entraîne une erreur
 
 ## Logique  {#logical}

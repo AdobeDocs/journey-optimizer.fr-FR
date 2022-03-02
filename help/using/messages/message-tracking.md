@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. En savoir plus dans [cette section](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Exclusion en un clic]**: Insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur désinscription. En savoir plus dans [cette section](consent.md#one-click-opt-out).
+   * **[!UICONTROL Désinscription en un clic]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur désinscription. En savoir plus dans [cette section](consent.md#one-click-opt-out).
 
-   * **[!UICONTROL Abonnement/Opt-in externe]**: Insérez un lien pour accepter la réception de communications de votre marque.
+   * **[!UICONTROL Abonnement/inscription externe]** : insérez un lien pour accepter la réception de communications de votre marque.
 
-   * **[!UICONTROL Désinscription/désinscription externe]**: Insérez un lien pour vous désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des opt-outs dans [cette section](consent.md#opt-out-management).
+   * **[!UICONTROL Désabonnement/désinscription externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des désinscriptions dans [cette section](consent.md#opt-out-management).
 
    * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
 
@@ -69,7 +69,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 1. Une fois le lien créé, vous pouvez toujours le modifier à partir du volet **[!UICONTROL Paramètres des composants]** à droite.
 
    * Vous pouvez éditer le lien et en modifier le type.
-   * Vous pouvez souligner le lien ou non en cochant l&#39;option correspondante.
+   * Vous pouvez souligner le lien ou non en cochant l’option correspondante.
 
    ![](assets/message-tracking-link-settings.png)
 

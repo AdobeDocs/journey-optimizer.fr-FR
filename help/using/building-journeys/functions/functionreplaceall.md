@@ -9,7 +9,7 @@ exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -47,4 +47,4 @@ Renvoie une chaîne.
 
 Renvoie « Hexxo Worxd ».
 
-Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Reportez-vous à l’exemple de la section [cette page](../functions/functionreplace.md#example_2).
+Comme le paramètre cible est un RegExp, selon la chaîne que vous souhaitez remplacer, vous devrez peut-être ajouter une séquence d’échappement à certains caractères. Reportez-vous à l’exemple de [cette page](../functions/functionreplace.md#example_2).

@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2646'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -74,13 +74,13 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <table>
 <thead>
 <tr>
-<th><strong>Transmettre des informations pour suivre vos messages avec les paramètres de suivi UTM</strong><br/></th>
+<th><strong>Transmettre des informations pour suivre vos messages avec les paramètres de tracking UTM</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dans le contenu des messages Journey Optimizer, vous pouvez maintenant ajouter des paramètres UTM à vos liens : ils peuvent fournir des données supplémentaires sur ce lien et vous aider à identifier où et pourquoi une personne a cliqué sur ce lien.</p>
+<p>Dans le contenu des messages Journey Optimizer, vous pouvez maintenant ajouter des paramètres UTM à vos liens : ils peuvent fournir des données supplémentaires sur ce lien et vous aider à identifier où et pourquoi une personne a cliqué sur ce lien.</p>
 <p>Pour plus d'informations, consultez la <a href="../configuration/message-presets.md#configure-email-settings">documentation détaillée</a>.</p-->
 </td>
 </tr>
@@ -91,14 +91,14 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Parcours**
 
-* Pour optimiser les performances, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine repasseront désormais à l’état En création . [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
-* L’intégration entre Journey Optimizer et Adobe Campaign Classic a été optimisée pour améliorer les performances. La configuration par défaut de limitation a été remplacée par 4 000 appels / 5 minutes.	[En savoir plus](../action/acc-action.md#important-notes)
+* Pour optimiser les performances, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine repassent désormais au statut Version préliminaire. [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
+* L’intégration entre Journey Optimizer et Adobe Campaign Classic a été optimisée pour améliorer les performances. La configuration par défaut de limitation a été remplacée par 4 000 appels/5 minutes.	[En savoir plus](../action/acc-action.md#important-notes)
 
 **Reporting**
 
-* Les diffusions peuvent désormais être filtrées en fonction de leur état :
-   * Dans la liste Exécution des messages , vous pouvez désormais exclure les BAT de la liste de vos diffusions.
-   * Dans vos rapports en direct/globaux, vous pouvez choisir d’exclure les événements de test.
+* Les diffusions peuvent désormais être filtrées en fonction de leur statut :
+   * Dans la liste Exécution des messages, vous pouvez désormais exclure les BAT de la liste de vos diffusions.
+   * Dans vos rapports dynamiques/globaux, vous pouvez choisir d’exclure les événements de test.
 
 * Vous pouvez désormais accéder aux rapports sur les données d’optimisation de l’heure d’envoi : le nombre de personnes qui ont reçu immédiatement des messages et le nombre de personnes qui ont reçu des messages avec une optimisation d’une heure, une optimisation de 2 heures, etc.
 
@@ -106,7 +106,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Gestion des décisions**
 
-* Les classements et le classement AI sont désormais regroupés dans un seul onglet.
+* Les classements et le classement IA sont désormais regroupés dans un seul onglet.
 
 ## Version de janvier 2022 {#january-2022-release}
 

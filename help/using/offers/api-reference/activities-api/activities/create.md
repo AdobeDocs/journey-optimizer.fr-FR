@@ -9,13 +9,13 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Créer une décision {#create-decision}
 
-Vous pouvez créer une décision en adressant une requête de POST à la fonction [!DNL Offer Library] API, lors de la saisie de votre ID de conteneur.
+Vous pouvez créer une décision en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 

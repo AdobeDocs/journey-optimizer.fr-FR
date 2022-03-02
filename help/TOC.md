@@ -47,7 +47,7 @@ ht-degree: 99%
       + [Prévisualisation et BAT](using/messages/preview.md)
       + [Vérification des alertes](using/messages/alerts.md)
       + [Publication de messages](using/messages/publish-manage-message.md)
-   + [Gestion du consentement](using/messages/consent.md)
+   + [Gérer le consentement](using/messages/consent.md)
 + Personnalisation{#personalization}
    + [Prise en main  de la personnalisation](using/personalization/personalize.md)
    + [Contextes de personnalisation](using/personalization/personalization-contexts.md)

@@ -9,13 +9,13 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Configurer la sélection des offres dans les décisions {#offers-selection-in-decisions}
 
-Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d&#39;une décision. Vous pouvez classer les offres par :
+Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d’une décision. Vous pouvez classer les offres par :
 * Priorité des offres
 * Formule de classement
 * [Classement par l’IA](#use-ranking-strategy) (en accès anticipé pour certains utilisateurs uniquement)
@@ -24,7 +24,7 @@ Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choi
 
 ## Priorité des offres {#offer-priority}
 
-Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision, les offres présentant le niveau le plus élevé **priority** sera d’abord livré aux clients.
+Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une décision, les offres avec la **priorité** la plus élevée sont diffusées en premier aux clients.
 
 ![](../../assets/offer-priority.png)
 
@@ -62,13 +62,13 @@ Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Vous pouvez également utiliser un système de modèles formé qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant une stratégie de classement. Découvrez comment créer une stratégie de classement dans [cette section](../offer-library/create-ranking-strategies.md).
+Vous pouvez également utiliser un système de modèles entraînés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant une stratégie de classement. Découvrez comment créer une stratégie de classement dans [cette section](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
->L&#39;utilisation du classement par l&#39;IA est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
+>L’utilisation du classement par l’IA est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
 
-Une fois une stratégie de classement créée, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
+Après avoir créé une stratégie de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
 1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 
