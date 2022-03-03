@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
+source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
 1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. Cliquez sur **[!UICONTROL Créer une action]** pour créer une nouvelle action. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
 
-   ![](../assets/custom2.png)
+   ![](assets/custom2.png)
 
 1. Saisissez le nom de l&#39;action.
 
@@ -60,7 +60,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
 Lors de la configuration d&#39;une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration d&#39;URL]** suivants :
 
-![](../assets/journeyurlconfiguration.png)
+![](assets/journeyurlconfiguration.png)
 
 1. Dans le champ **[!UICONTROL URL]**, spécifiez l&#39;URL du service externe :
 
@@ -89,7 +89,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
       Si vous avez sélectionné **[!UICONTROL Variable]**, vous spécifiez cette variable lors de l’ajout de l’action personnalisée à un parcours. [En savoir plus](../building-journeys/using-custom-actions.md).
 
-      ![](../assets/journeyurlconfiguration2.png)
+      ![](assets/journeyurlconfiguration2.png)
 
    1. Pour supprimer un champ d’en-tête, pointez sur le champ d’en-tête et cliquez sur l’icône **[!UICONTROL Supprimer]** .
    Les champs d’en-tête **[!UICONTROL Type de contenu]** et **[!UICONTROL CharSet]** sont définis par défaut. Vous ne pouvez pas modifier ni supprimer ces champs.
@@ -102,11 +102,11 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
 ## Définition des paramètres d’action {#define-the-message-parameters}
 
-![](../assets/messageparameterssection.png)
+![](assets/messageparameterssection.png)
 
 Dans la section **[!UICONTROL Paramètres d&#39;action]**, collez un exemple de payload JSON à envoyer au service externe.
 
-![](../assets/customactionpayloadmessage.png)
+![](assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +119,5 @@ Vous pourrez également préciser si le paramètre est une constante ou une vari
 * Le paramètre « Constante » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une personne ayant un rôle technique. La valeur reste identique dans tous les parcours et le marketeur ne la voit pas lors de l&#39;utilisation de l&#39;action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond à la valeur transmise.
 * Le paramètre « Variable » signifie que la valeur du paramètre varie. Le marketeur qui utilise cette action personnalisée dans un parcours sera libre de transmettre la valeur de son choix ou bien d’indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le marketeur voit dans le parcours pour nommer ce paramètre.
 
-![](../assets/customactionpayloadmessage2.png)
+![](assets/customactionpayloadmessage2.png)
 

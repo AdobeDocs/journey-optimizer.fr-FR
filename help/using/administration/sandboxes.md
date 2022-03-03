@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
+source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experienc
 
 Le sélecteur d’environnement Sandbox se trouve dans le coin supérieur droit de votre écran, à côté du nom de votre organisation. Pour passer d’un environnement Sandbox à un autre, cliquez sur l’environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
 
-![](../assets/sandbox_5.png)
+![](assets/sandbox_5.png)
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -43,21 +43,21 @@ Pour affecter des environnements Sandbox :
 
 1. Sélectionnez un **[!UICONTROL profil de produit]**.
 
-   ![](../assets/sandbox_1.png)
+   ![](assets/sandbox_1.png)
 
 1. Sélectionnez l&#39;onglet **[!UICONTROL Autorisations]**.
 
 1. Sélectionnez la fonctionnalité **[!UICONTROL Environnements Sandbox]**.
 
-   ![](../assets/sandbox_2.png)
+   ![](assets/sandbox_2.png)
 
 1. Dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr){target=&quot;_blank&quot;}.
 
-   ![](../assets/sandbox_3.png)
+   ![](assets/sandbox_3.png)
 
 1. Si nécessaire, dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône X pour supprimer l&#39;accès des environnements Sandbox à votre **[!UICONTROL profil de produit]**.
 
-   ![](../assets/sandbox_4.png)
+   ![](assets/sandbox_4.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -65,7 +65,7 @@ Pour affecter des environnements Sandbox :
 
 Pour configurer l&#39;accessibilité de votre contenu, vous devez affecter un dossier de contenu partagé à chacun de vos environnements Sandbox. Vous pouvez créer et configurer votre dossier partagé dans l&#39;onglet **[!UICONTROL Stockage]** affiché dans [!DNL Admin Console] pour les administrateurs. Si vous avez accès à [!DNL Admin Console] en tant qu&#39;administrateur système, vous pouvez créer des dossiers partagés et ajouter des délégués ayant un niveau d&#39;accès différent à ceux-ci.
 
-![](../assets/do-not-localize/content_access.png)
+![](assets/do-not-localize/content_access.png)
 
 Notez que pour que votre contenu soit synchronisé avec l&#39;environnement Sandbox correct, vous devez suivre la même syntaxe que cet environnement. Par exemple, si votre environnement Sandbox est appelé développement, votre dossier partagé doit porter le même nom.
 

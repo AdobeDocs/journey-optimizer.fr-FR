@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -31,23 +31,23 @@ Chaque tableau de bord de reporting peut être modifié en modifiant la période
 
 1. Dans votre rapport global, sélectionnez une heure de début et une heure de fin pour cibler des données spécifiques.
 
-   ![](../assets/report_modify_1.png)
+   ![](assets/report_modify_1.png)
 
 1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, consultez [cette page](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_2.png)
+   ![](assets/report_modify_2.png)
 
 1. Cliquez sur **[!UICONTROL Modifier]** pour commencer à personnaliser votre tableau de bord.
 
-   ![](../assets/report_modify_3.png)
+   ![](assets/report_modify_3.png)
 
 1. Ajustez la taille des widgets en faisant glisser leur coin inférieur droit.
 
-   ![](../assets/report_modify_4.png)
+   ![](assets/report_modify_4.png)
 
 1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer tout widget dont vous n’avez pas besoin.
 
-   ![](../assets/report_modify_5.png)
+   ![](assets/report_modify_5.png)
 
 1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 

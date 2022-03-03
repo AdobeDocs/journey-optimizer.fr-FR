@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
@@ -25,11 +25,11 @@ Le rapport sur les pages de destination affiche des informations relatives à l�
 
 Pour accéder à vos rapports, sélectionnez **Rapport dynamique** ou **[!UICONTROL global]** dans le menu avancé de la page de destination sélectionnée.
 
-![](../assets/landing_page_report_1.png)
+![](assets/landing_page_report_1.png)
 
 ## Rapport dynamique sur les pages de destination {#lp-live}
 
-![](../assets/landing_page_report_2.png)
+![](assets/landing_page_report_2.png)
 
 Le widget **[!UICONTROL Performances de la page de destination]** présente les informations principales relatives à votre message au cours des dernières 24 heures à l’aide de KPI :
 
@@ -53,7 +53,7 @@ Le widget **[!UICONTROL Parcours]** représente le nombre de visites sur votre p
 
 Le widget **[!UICONTROL Autres sources]** représente le nombre de visites sur votre page de destination à partir d’une source externe au lieu d’un parcours.
 
-![](../assets/landing_page_report_3.png)
+![](assets/landing_page_report_3.png)
 
 Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination au cours des dernières 24 heures, en fonction des messages envoyés.
 
@@ -61,7 +61,7 @@ Les graphiques **[!UICONTROL Visites par canaux]** / **[!UICONTROL Conversions p
 
 ## Rapport global sur les pages de destination {#lp-global}
 
-![](../assets/landing_page_report_4.png)
+![](assets/landing_page_report_4.png)
 
 Les widgets **[!UICONTROL Nombre de visites]** et **[!UICONTROL Nombre de visites dans le temps]** vous permettent de mesurer l’impact de votre page de destination sur la période sélectionnée à lʼaide d’un graphique et de KPI comprenant les mesures suivantes :
 
@@ -75,7 +75,7 @@ Le widget **[!UICONTROL Performances de la page de destination]** présente les 
 
 * **[!UICONTROL Taux de rebond]** : nombre de personnes nʼayant pas interagi avec la page de destination ni effectué lʼaction dʼinscription, par rapport au nombre total de visites.
 
-![](../assets/landing_page_report_5.png)
+![](assets/landing_page_report_5.png)
 
 Le widget **[!UICONTROL Sources des visites]** représente la façon dont les visiteurs accèdent à votre page de destination :
 
@@ -95,7 +95,7 @@ Le widget **[!UICONTROL Parcours]** représente le nombre de visites sur votre p
 
 Le widget **[!UICONTROL Autres sources]** représente le nombre de visites sur votre page de destination à partir d’une source externe au lieu d’un parcours.
 
-![](../assets/landing_page_report_6.png)
+![](assets/landing_page_report_6.png)
 
 Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination pendant la période concernée en fonction des messages envoyés.
 

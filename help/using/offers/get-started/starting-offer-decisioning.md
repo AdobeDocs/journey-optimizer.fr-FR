@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
@@ -26,7 +26,7 @@ La fonctionnalité de gestion des décisions comprend deux composants principaux
 * La **bibliothèque des offres centralisée** qui est l’interface qui vous permet de créer et de gérer les différents éléments qui composent vos offres et qui permet de définir leurs règles et contraintes.
 * Le **moteur de décision d’offre** qui tire parti des données Adobe Experience Platform et des profils client en temps réel, ainsi que de la bibliothèque des offres, pour sélectionner le bon moment, les clients et les canaux pour la diffusion des offres.
 
-![](../../assets/architecture.png)
+![](../assets/architecture.png)
 
 Voici quelques-uns des avantages :
 
@@ -42,7 +42,7 @@ Une **Offre** est composée de contenu, de règles d&#39;éligibilité et de con
 
 Elle est créée à l&#39;aide de la **bibliothèque des offres**, qui fournit un catalogue centralisé dans lequel vous pouvez associer des règles d&#39;éligibilité et des contraintes à plusieurs éléments de contenu pour créer et publier des offres (voir la section[Interface utilisateur de la bibliothèque des offres](../get-started/user-interface.md)).
 
-![](../../assets/offer_structure.png)
+![](../assets/offer_structure.png)
 
 Une fois la bibliothèque des offres enrichie d’offres, vous pouvez intégrer vos offres dans des **décisions** (auparavant « activités d&#39;offre »).
 
@@ -55,11 +55,11 @@ Les fonctionnalités de gestion des décisions et l’intégration à Adobe Exp
 
 * Affichez sur votre site Web les offres de la page d&#39;accueil qui correspondent au point d&#39;intérêt du client visiteur, en fonction des données issues d&#39;Adobe Experience Platform.
 
-   ![](../../assets/website.png)
+   ![](../assets/website.png)
 
 * Si les clients passent près de l&#39;un de vos magasins, adressez-leur des notifications Push leur rappelant les offres disponibles en fonction de leurs attributs (niveau de fidélité, genre, achats antérieurs...).
 
-   ![](../../assets/push_sample.png)
+   ![](../assets/push_sample.png)
 
 * La gestion des décisions permet également d’améliorer l’expérience de vos clients lorsqu’ils contactent votre équipe d’assistance.
 Les API de gestion des décisions permettent d’afficher, sur le portail des agents de votre centre d’appels, des informations relatives aux offres échangées par le client ainsi que les meilleures offres suivantes.

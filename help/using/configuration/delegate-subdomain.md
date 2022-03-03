@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 100%
@@ -36,15 +36,15 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
-   ![](../assets/subdomain-delegate.png)
+   ![](assets/subdomain-delegate.png)
 
 1. Sélectionnez **[!UICONTROL Délégation complète]** dans la section **[!UICONTROL Configurer la méthode]**.
 
-   ![](../assets/subdomain-method-full.png)
+   ![](assets/subdomain-method-full.png)
 
 1. Indiquez le nom du sous-domaine à déléguer.
 
-   ![](../assets/subdomain-name.png)
+   ![](assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
 1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   ![](../assets/subdomain-submit.png)
+   ![](assets/subdomain-submit.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
 1. Une fois la délégation de sous-domaine complète envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
-   ![](../assets/subdomain-processing.png)
+   ![](assets/subdomain-processing.png)
 
    Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
@@ -102,7 +102,7 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Sélectionnez la méthode **[!UICONTROL Configuration CNAME]**.
 
-   ![](../assets/subdomain-method-cname.png)
+   ![](assets/subdomain-method-cname.png)
 
 1. Indiquez le nom du sous-domaine à déléguer.
 
@@ -116,7 +116,7 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case « Je confirme... ».
 
-   ![](../assets/subdomain-create-dns-confirm.png)
+   ![](assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez terminé la création de cet enregistrement sur votre solution dʼhébergement, cochez la case « Je confirme... », puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   ![](../assets/subdomain-cdn-url-validation.png)
+   ![](assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Ce cas d’utilisation a pour but de créer un parcours pour envoyer un message 
 
 Dans cet exemple, le groupe de champs **[!UICONTROL Détails du consentement et des préférences]** de [!DNL Adobe Experience Platform] est utilisé. Pour trouver ce groupe de champs, à partir du menu **[!UICONTROL Gestion des données]**, choisissez **[!UICONTROL Schémas]**. Dans l’onglet **[!UICONTROL Groupes de champs]**, saisissez le nom du groupe de champs dans le champ de recherche.
 
-![Ce groupe de champs comprend l’élément abonnements](../assets/consent-and-preference-details-field-group.png).
+![Ce groupe de champs comprend l’élément abonnements](assets/consent-and-preference-details-field-group.png).
 
 Pour configurer ce parcours, procédez comme suit:
 
@@ -29,7 +29,7 @@ Pour configurer ce parcours, procédez comme suit:
 
    1. Cliquez sur le bouton **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ **[!UICONTROL Adresse]**, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
-      ![](../assets/message-to-subscribers-uc-1.png)
+      ![](assets/message-to-subscribers-uc-1.png)
 
       Si vous voulez modifier l’adresse e-mail, vous devez avoir publié le message précédemment.
 
@@ -52,10 +52,10 @@ Pour configurer ce parcours, procédez comme suit:
 
       En savoir plus sur les [références aux champs](expression/field-references.md) dans les expressions. 
 
-      ![](../assets/message-to-subscribers-uc-2.png)
+      ![](assets/message-to-subscribers-uc-2.png)
 
    1. Dans la boîte de dialogue **[!UICONTROL Ajouter une expression]**, cliquez sur **[!UICONTROL OK]**. 
 
-   ![](../assets/message-to-subscribers-uc-3.png)
+   ![](assets/message-to-subscribers-uc-3.png)
 
 1. Terminez le parcours par une activité de **[!UICONTROL Fin]**.

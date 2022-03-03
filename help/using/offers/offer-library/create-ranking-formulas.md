@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
@@ -29,23 +29,23 @@ Pour créer une formule de classement, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Composants]**, puis sélectionnez l&#39;onglet **[!UICONTROL Classements.]** La liste des classements précédemment créés s&#39;affiche.
 
-   ![](../../assets/rankings-list.png)
+   ![](../assets/rankings-list.png)
 
 1. Cliquez sur **[!UICONTROL Créer un classement]** pour créer une formule de classement.
 
-   ![](../../assets/ranking-create-formula.png)
+   ![](../assets/ranking-create-formula.png)
 
 1. Spécifiez le nom, la description et la formule de la formule de classement.
 
    Dans cet exemple, nous voulons augmenter la priorité de toutes les offres contenant l&#39;attribut « chaud » en cas de météo avec températures chaudes. Pour ce faire, **contextData.weather=hot** a été transmis dans l&#39;appel de décision.
 
-   ![](../../assets/ranking-syntax.png)
+   ![](../assets/ranking-syntax.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Votre formule de classement est créée. Vous pouvez la sélectionner dans la liste pour obtenir des détails et la modifier ou la supprimer.
 
    Elle est maintenant prête à être utilisée dans une décision pour classer les offres éligibles à un emplacement (voir [Configurer la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md)).
 
-   ![](../../assets/ranking-formula-created.png)
+   ![](../assets/ranking-formula-created.png)
 
 ## Exemples de formules de classement {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 Une meilleure solution consiste à stocker les scores dans un tableau du profil. L’exemple suivant illustre plusieurs scores de propension différents en utilisant une formule de classement simple. Il est attendu que vous disposiez d’un schéma de profil avec un tableau de scores. Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient les éléments suivants :
 
-![](../../assets/ranking-example-schema.png)
+![](../assets/ranking-example-schema.png)
 
 Ainsi, pour un profil tel que :
 
@@ -179,7 +179,7 @@ Ainsi, pour un profil tel que :
 
 Les offres contiennent un attribut pour *propensionType* correspondant à la catégorie des scores :
 
-![](../../assets/ranking-example-propensityType.png)
+![](../assets/ranking-example-propensityType.png)
 
 Votre formule de classement peut alors définir la priorité de chaque offre pour qu’elle soit égale aux clients *propensionScore* pour ce *propensionType*. Si aucun score n’est trouvé, utilisez la priorité statique définie sur l’offre :
 

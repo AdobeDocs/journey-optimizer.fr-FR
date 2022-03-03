@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -35,11 +35,11 @@ Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez mod
 
 1. Sélectionnez le bouton **[!UICONTROL Modifier les règles de suppression]**.
 
-   ![](../assets/suppression-list-edit-retries.png)
+   ![](assets/suppression-list-edit-retries.png)
 
 1. Modifiez le nombre autorisé de soft bounces consécutifs en fonction de vos besoins.
 
-   ![](../assets/suppression-list-edit-soft-bounces.png)
+   ![](assets/suppression-list-edit-soft-bounces.png)
 
    Vous devez saisir une valeur entière comprise entre 1 et 20, ce qui signifie que le nombre minimum de reprises est de 1 et que le nombre maximum est de 20.
 

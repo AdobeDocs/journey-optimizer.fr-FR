@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Tous les sous-domaines délégués s&#39;affichent dans le menu **[!UICONTROL Canaux]**/**[!UICONTROL Sous-domaines]**. Des filtres sont disponibles pour vous aider à affiner la liste (date de délégation, utilisateur ou statut).
 
-![](../assets/subdomain-list.png)
+![](assets/subdomain-list.png)
 
 La colonne **[!UICONTROL Statut]** fournit des informations sur le processus de délégation de sous-domaine :
 
@@ -32,4 +32,4 @@ Pour accéder à des informations détaillées sur un sous-domaine, ouvrez-le da
 
 * Ajouter un enregistrement TXT de vérification de site Google à votre sous-domaine pour vous assurer qu&#39;il est vérifié (voir [Ajout d&#39;un enregistrement TXT Google à un sous-domaine](google-txt.md)).
 
-![](../assets/subdomain-delegated.png)
+![](assets/subdomain-delegated.png)

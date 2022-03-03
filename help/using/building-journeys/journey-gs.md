@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 100%
@@ -21,19 +21,19 @@ Pour envoyer des messages avec des parcours, la configuration suivante est requi
 
 1. **Configurer un événement** : si vous souhaitez déclencher vos parcours une fois qu&#39;un événement est reçu, vous devez configurer un événement. Vous devez définir les informations attendues et comment les traiter. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../event/about-events.md).
 
-   ![](../assets/jo-event7bis.png)
+   ![](assets/jo-event7bis.png)
 
 1. **Créer un segment** : votre parcours peut également écouter les segments Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez créer des segments. [En savoir plus](../segment/about-segments.md).
 
-   ![](../assets/segment2.png)
+   ![](assets/segment2.png)
 
 1. **Configurer la source de données** : vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l&#39;approvisionnement. Cette étape n&#39;est pas obligatoire si vous n&#39;exploitez que les données des événements de votre parcours. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../datasource/about-data-sources.md)
 
-   ![](../assets/jo-datasource.png)
+   ![](assets/jo-datasource.png)
 
 1. **Configurer une action** : les fonctionnalités de messagerie Journey Optimizer sont intégrées ; il vous suffit de concevoir votre contenu et de publier votre message. Consultez [cette section](../messages/get-started-content.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**.
 
-   ![](../assets/create-content-push.png)
+   ![](assets/create-content-push.png)
 
 ## Création de votre parcours{#jo-build}
 
@@ -43,17 +43,17 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
 1. Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s&#39;affiche.
 
-   ![](../assets/interface-journeys.png)
+   ![](assets/interface-journeys.png)
 
 1. Cliquez sur **[!UICONTROL Créer un parcours]** pour créer un parcours.
 
 1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](journey-gs.md#change-properties).
 
-   ![](../assets/jo-properties.png)
+   ![](assets/jo-properties.png)
 
 1. Commencez par effectuer un glisser-déposer d’un événement ou d’une activité **Lecture de segment** de la palette vers la zone de travail. Pour en savoir plus sur la conception d&#39;un parcours, consultez [cette section](using-the-journey-designer.md).
 
-   ![](../assets/read-segment.png)
+   ![](assets/read-segment.png)
 
 1. Faites glisser et déposez les étapes suivantes que l&#39;individu doit suivre. Par exemple, vous pouvez ajouter une condition suivie d&#39;un message. Pour en savoir plus sur les activités, consultez [cette section](using-the-journey-designer.md).
 
@@ -61,11 +61,11 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
 1. Publiez votre parcours pour l&#39;activer. En savoir plus dans cette [section](publishing-the-journey.md).
 
-   ![](../assets/jo-journeyuc2_32bis.png)
+   ![](assets/jo-journeyuc2_32bis.png)
 
 1. Surveillez votre parcours à l&#39;aide des outils de rapports dédiés afin de mesurer l&#39;efficacité de votre parcours. En savoir plus dans cette [section](../reports/live-report.md).
 
-   ![](../assets/jo-dynamic_report_journey_12.png)
+   ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Modification des propriétés {#change-properties}
 
@@ -77,7 +77,7 @@ Pour les parcours actifs, cet écran affiche la date de publication et le nom de
 
 La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : UID JourneyVersion, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
-![](../assets/journey32.png)
+![](assets/journey32.png)
 
 ### Entrée{#entrance}
 
@@ -133,11 +133,11 @@ Si l&#39;une des exigences n&#39;est pas remplie, le mode rafale ne sera pas dis
 
 Pour activer le mode rafale, ouvrez votre parcours et cliquez sur l&#39;icône en forme de crayon, en haut à droite, pour accéder aux propriétés du parcours. Activez ensuite le bouton d&#39;activation/de désactivation **Activer le mode rafale**.
 
-![](../assets/burst.png)
+![](assets/burst.png)
 
 Le mode rafale sera désactivé si vous modifiez un parcours rafale et ajoutez une activité non conforme au mode rafale (message, toute autre action, un événement, etc.). Un message s&#39;affiche.
 
-![](../assets/burst2.png)
+![](assets/burst2.png)
 
 Ensuite, testez et publiez votre parcours normalement. Les messages du mode test ne sont pas envoyés via le mode rafale.
 
@@ -178,14 +178,14 @@ La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée
 
 Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 Vous pouvez également réaliser les opérations suivantes :
 
 1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez fermer.
 1. En haut à droite, cliquez sur la flèche vers le bas.
 
-   ![](../assets/finish_drop_down_list.png)
+   ![](assets/finish_drop_down_list.png)
 
 1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**. Une boîte de dialogue s&#39;affiche.
 1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** pour confirmer.
@@ -200,14 +200,14 @@ Lorsqu&#39;un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est
 
 Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 Vous pouvez également réaliser les opérations suivantes :
 
 1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez arrêter.
 1. En haut à droite, cliquez sur la flèche vers le bas.
 
-![](../assets/finish_drop_down_list.png)
+![](assets/finish_drop_down_list.png)
 
 1. Cliquez sur **[!UICONTROL Arrêter]**. Une boîte de dialogue s&#39;affiche.
 1. Cliquez sur **[!UICONTROL Arrêter]** pour confirmer.

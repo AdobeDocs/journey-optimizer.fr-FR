@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Les principales étapes de création, de configuration et de gestion des offres, ainsi que de leur utilisation dans une décision, sont présentées ci-dessous.
 
-![](../../assets/offer-create-manage-process.png)
+![](../assets/offer-create-manage-process.png)
 
 Pour obtenir un exemple complet montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un e-mail, consultez [cette page](../offers-e2e.md).
 

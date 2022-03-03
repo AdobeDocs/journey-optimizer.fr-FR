@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
@@ -19,11 +19,11 @@ Le **[!UICONTROL Rapport dynamique]** sur les e-mails ne cible qu’une diffusio
 
 Dans l’onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, sélectionnez **[!UICONTROL Affichage dynamique]**, puis, dans le menu avancé de la diffusion sélectionnée, sélectionnez **[!UICONTROL Rapport dynamique]**.
 
-![](../assets/live_report.png)
+![](assets/live_report.png)
 
 Le **[!UICONTROL Rapport dynamique]** sur les e-mails est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d’informations à ce sujet, consultez cette [section](live-report.md#modify-dashboard).
 
-![](../assets/live_report_5.png)
+![](assets/live_report_5.png)
 
 Les widgets **[!UICONTROL Performances des emails]** et **[!UICONTROL Résumé des emails]** présentent les principales informations relatives à votre message avec un graphique et des KPI :
 
@@ -55,7 +55,7 @@ Le widget **[!UICONTROL Statistiques d’envoi]** détaille le succès de votre 
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, empêchant l’erreur d’être envoyée aux profils.
 
-![](../assets/live_report_6.png)
+![](assets/live_report_6.png)
 
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
 
@@ -68,7 +68,7 @@ Les widgets **[!UICONTROL Causes des bounces]** et **[!UICONTROL Catégories de 
 * **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
 
 <!--
-![](../assets/live_report_8.png)
+![](assets/live_report_8.png)
 
 >[!NOTE]
 >

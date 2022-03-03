@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
@@ -37,23 +37,23 @@ Pour créer une liste dʼabonnements, procédez comme suit :
 
 1. Pour accéder aux listes dʼabonnements, sélectionnez **[!UICONTROL Client]** > **[!UICONTROL Liste dʼabonnements]**.
 
-   ![](../assets/lp_subscription-lists.png)
+   ![](assets/lp_subscription-lists.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une liste dʼabonnements]**.
 
-   ![](../assets/lp_create-subscription-list.png)
+   ![](assets/lp_create-subscription-list.png)
 
 1. Donnez-lui un nom et une description. Ces champs sont obligatoires.
 
 1. Vous pouvez définir une date de début et de fin.
 
-   ![](../assets/lp_subscription-list-dates.png)
+   ![](assets/lp_subscription-list-dates.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La liste reprend toutes les listes dʼabonnements créées. Vous pouvez les filtrer en fonction de leur date de création ou de modification et de leur statut.
 
-![](../assets/lp_subscription-filters.png)
+![](assets/lp_subscription-filters.png)
 
 Voici les statuts possibles :
 

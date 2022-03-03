@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -38,7 +38,7 @@ L’URL concaténée se présente comme suit :
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;Identifiant de campagne\>`/messages`
 
-![](../assets/journey-custom-action-url.png)
+![](assets/journey-custom-action-url.png)
 
 ### En-têtes
 
@@ -49,7 +49,7 @@ Si nécessaire, spécifiez la valeur des champs d’en-tête dynamique :
 1. Sélectionnez l’action personnalisée dans le parcours.
 1. Dans le volet de configuration, cliquez sur l’icône en forme de crayon en regard du champ d’en-tête de la section **[!UICONTROL Configuration de l’URL]**.
 
-   ![](../assets/journey-dynamicheaderfield.png)
+   ![](assets/journey-dynamicheaderfield.png)
 
 1. Sélectionnez un champ et cliquez sur **[!UICONTROL OK]**.
 

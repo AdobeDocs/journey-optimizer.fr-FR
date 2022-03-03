@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Les balises peuvent également être utilisées pour regrouper les offres sous f
 
 La liste des balises créées est accessible dans le menu **[!UICONTROL Composants]**.
 
-![](../../assets/tags_list.png)
+![](../assets/tags_list.png)
 
 Pour créer une balise, procédez comme suit :
 
@@ -31,11 +31,11 @@ Pour créer une balise, procédez comme suit :
 
 1. Indiquez le nom de la balise, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](../../assets/tags_create.png)
+   ![](../assets/tags_create.png)
 
 1. Une fois la balise créée, elle s&#39;affiche dans la liste. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
-   ![](../../assets/tags_created.png)
+   ![](../assets/tags_created.png)
 
 ## Tutoriel vidéo {#video}
 

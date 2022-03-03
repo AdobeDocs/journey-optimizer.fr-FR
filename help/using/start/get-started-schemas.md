@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Découvrez comment créer des schémas dans [cette documentation](https://experi
 
 L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Journey Optimizer] vous permet de gérer les ressources du modèle de données d’expérience (XDM), y compris les schémas, les classes, les groupes de champs de schéma et les types de données. Vous pouvez afficher et explorer les ressources de base fournies par Adobe, ainsi que créer des ressources et des schémas personnalisés pour votre organisation.
 
-![](../assets/schemas-home.png)
+![](assets/schemas-home.png)
 
 Découvrez comment utiliser l’interface utilisateur des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr){target=&quot;_blank&quot;}
 

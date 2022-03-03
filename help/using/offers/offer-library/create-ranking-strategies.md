@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Pour créer une stratégie de classement, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Composants]**, puis sélectionnez l&#39;onglet **[!UICONTROL Classements par l&#39;IA]**.
 
-   ![](../../assets/ai-ranking-list.png)
+   ![](../assets/ai-ranking-list.png)
 
    Toutes les stratégies de classement créées jusqu&#39;à présent y sont répertoriées.
 
@@ -62,7 +62,7 @@ Pour créer une stratégie de classement, procédez comme suit :
 
 1. Renseignez les champs suivants :
 
-   ![](../../assets/ai-ranking-fields.png)
+   ![](../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL Nom]** : nom unique que vous devez fournir.
 
@@ -84,7 +84,7 @@ Pour créer une stratégie de classement, procédez comme suit :
 
    * **[!UICONTROL Identifiant du jeu de données]** : pour la conversion, vous devez fournir un jeu de données dans lequel les événements sont collectés en les sélectionnant dans la liste déroulante. Découvrez comment créer un jeu de données dans [cette section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../../assets/ai-ranking-dataset-id.png)
+   ![](../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -92,7 +92,7 @@ Pour créer une stratégie de classement, procédez comme suit :
 
 1. Enregistrez et activez la stratégie de classement.
 
-   ![](../../assets/ai-ranking-save-activate.png)
+   ![](../assets/ai-ranking-save-activate.png)
 
 Elle est maintenant prête à être utilisée dans une décision de classement des offres éligibles pour un emplacement. En savoir plus dans [cette section](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->
 
@@ -102,11 +102,11 @@ Vous devez créer un jeu de données dans lequel les événements de conversion 
 
 1. Dans le menu **[!UICONTROL Data Management]**, sélectionnez **[!UICONTROL Schéma]**, accédez à l&#39;onglet **[!UICONTROL Parcourir]** et cliquez sur **[!UICONTROL Créer un schéma]**.
 
-   ![](../../assets/ai-ranking-create-schema.png)
+   ![](../assets/ai-ranking-create-schema.png)
 
 1. Sélectionnez **[!UICONTROL XDM ExperienceEvent]**.
 
-   ![](../../assets/ai-ranking-xdm-event.png)
+   ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -115,7 +115,7 @@ Vous devez créer un jeu de données dans lequel les événements de conversion 
 
 1. Dans le champ **[!UICONTROL Rechercher]**, saisissez « interaction de proposition » et sélectionnez le groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**.
 
-   ![](../../assets/ai-ranking-proposition-interactions.png)
+   ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -123,7 +123,7 @@ Vous devez créer un jeu de données dans lequel les événements de conversion 
 
 1. Cliquez sur **[!UICONTROL Ajouter des groupes de champs]**.
 
-   ![](../../assets/ai-ranking-add-field-group.png)
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >Le groupe de champs était auparavant appelé « mixin ».
@@ -138,21 +138,21 @@ Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce sch
 
 1. Dans le menu **[!UICONTROL Data Management]**, sélectionnez **[!UICONTROL Jeux de données]**, accédez à l&#39;onglet **[!UICONTROL Parcourir]** et cliquez sur **[!UICONTROL Créer un jeu de données]**.
 
-   ![](../../assets/ai-ranking-create-dataset.png)
+   ![](../assets/ai-ranking-create-dataset.png)
 
 1. Sélectionnez **[!UICONTROL Créer un jeu de données à partir d&#39;un schéma]**.
 
-   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. Sélectionnez le schéma que vous venez de créer dans la liste.
 
-   ![](../../assets/ai-ranking-dataset-select-schema.png)
+   ![](../assets/ai-ranking-dataset-select-schema.png)
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
 1. Attribuez un nom unique au jeu de données dans le champ **[!UICONTROL Nom]** et cliquez sur **[!UICONTROL Terminer]**.
 
-   ![](../../assets/ai-ranking-dataset-name.png)
+   ![](../assets/ai-ranking-dataset-name.png)
 
 Le jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼune stratégie de classement](#create-ranking-strategy).
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Pour envoyer des messages avec des parcours, vous devez configurer les **[!UICONTROL Sources de données]**, les **[!UICONTROL Événements]** et les **[!UICONTROL Actions]**.
 
-![](../assets/admin-menu.png)
+![](assets/admin-menu.png)
 
 ## Sources de données {#data-sources}
 
@@ -39,7 +39,7 @@ Lors de la définition de la [payload d&#39;événement](../event/about-creating
 
 Si des descripteurs tels que « xdm:alternateDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d&#39;affichage. Ceci est particulièrement utile lorsque vous utilisez des &quot;eVars&quot; et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux via un appel d&#39;API. Pour plus d&#39;informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.
 
-![](../assets/xdm-from-descriptors.png)
+![](assets/xdm-from-descriptors.png)
 
 Si un nom convivial est disponible, le champ s&#39;affiche sous la forme `<friendly-name>(<name>)`. Si aucun nom convivial n&#39;est disponible, le nom d&#39;affichage s&#39;affiche, par exemple `<display-name>(<name>)`. Si aucun d&#39;eux n&#39;est défini, seul le nom technique du champ s&#39;affiche `<name>`.
 

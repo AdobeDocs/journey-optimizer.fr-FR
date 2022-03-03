@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Le requêteur est un outil interactif fourni par Adobe Experience Platform Que
 Le requêteur prend en charge le développement de requête pour l’analyse et l’exploration de données. Il vous permet également d’exécuter des requêtes interactives à des fins de développement, ainsi que des requêtes non interactives pour renseigner des [jeux de données](get-started-datasets.md).
 
 
-![](../assets/queries-home.png)
+![](assets/queries-home.png)
 
 Découvrez comment utiliser le requêteur dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 

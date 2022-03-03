@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
-source-git-commit: 1a2c87866404201ea4693ed58efe302b83db9efa
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -25,11 +25,11 @@ Le rapport dʼabonnement affiche des informations sur lʼactivité de vos abonn�
 
 Pour accéder aux rapports, sélectionnez **Rapport dynamique** ou **[!UICONTROL global]** dans le menu avancé de la liste d’abonnements sélectionnée.
 
-![](../assets/subscription_report_6.png)
+![](assets/subscription_report_6.png)
 
 ## Rapport dʼabonnement dynamique {#subscription-live}
 
-![](../assets/subscription_report_3.png)
+![](assets/subscription_report_3.png)
 
 Les KPI des **[!UICONTROL Performances de lʼabonnement]** et les tableaux **[!UICONTROL Abonnements par parcours]**/**[!UICONTROL Désabonnements par parcours]** affichent les principales informations relatives à l’engagement des visiteurs sur votre page de destination. Les tableaux et les KPI contiennent les données disponibles relatives à votre page de destination, par exemple :
 
@@ -39,13 +39,13 @@ Les KPI des **[!UICONTROL Performances de lʼabonnement]** et les tableaux **[!U
 
 Le graphique **[!UICONTROL Performances de lʼabonnement]** montre l’évolution des abonnements au cours des dernières 24 heures.
 
-![](../assets/subscription_report_4.png)
+![](assets/subscription_report_4.png)
 
 Les graphiques **Abonnements - Ventilation** et **Désabonnements - Ventilation** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours des dernières 24 heures en fonction des messages, des pages de destination et des canaux.
 
 ## Rapport dʼabonnement global {#subscription-global}
 
-![](../assets/subscription_report_1.png)
+![](assets/subscription_report_1.png)
 
 Les KPI des **[!UICONTROL Performances de lʼabonnement]** et les tableaux **[!UICONTROL Abonnements par parcours]**/**[!UICONTROL Désabonnements par parcours]** affichent les principales informations relatives à l’engagement des visiteurs sur votre page de destination. Les tableaux et les KPI contiennent les données disponibles relatives à votre page de destination, par exemple :
 
@@ -55,6 +55,6 @@ Les KPI des **[!UICONTROL Performances de lʼabonnement]** et les tableaux **[!U
 
 Le graphique **[!UICONTROL Performances de lʼabonnement]** montre lʼévolution des abonnements sur la période correspondante.
 
-![](../assets/subscription_report_2.png)
+![](assets/subscription_report_2.png)
 
 Les graphiques **Abonnements - Ventilation** et **Désabonnements - Ventilation** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours de la période sélectionnée en fonction des messages, des pages de destination et des canaux.

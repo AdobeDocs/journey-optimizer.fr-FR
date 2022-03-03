@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
 
-![](../assets/lp_access-list.png)
+![](assets/lp_access-list.png)
 
 La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer selon leur état ou leur date de modification.
 
-![](../assets/lp_access-list-filter.png)
+![](assets/lp_access-list-filter.png)
 
 ## Création d’une page de destination {#create-landing-page}
 
@@ -37,15 +37,15 @@ Suivez les étapes de création dʼune page de destination décrites ci-après.
 
 1. Dans la liste des pages de destination, cliquez sur **[!UICONTROL Créer une page de destination]**.
 
-   ![](../assets/lp_create-lp.png)
+   ![](assets/lp_create-lp.png)
 
 1. Donnez-lui un titre. Si nécessaire, vous pouvez ajouter une description.
 
-   ![](../assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png)
 
 1. Sélectionnez un préréglage.
 
-   ![](../assets/lp_create-lp-presets.png)
+   ![](assets/lp_create-lp-presets.png)
 
    >[!NOTE]
    >
@@ -55,11 +55,11 @@ Suivez les étapes de création dʼune page de destination décrites ci-après.
 
 1. La page principale sʼaffiche ainsi que ses propriétés. Découvrez comment configurer les paramètres de la page principale [ici](#configure-primary-page).
 
-   ![](../assets/lp_primary-page.png)
+   ![](assets/lp_primary-page.png)
 
 1. Cliquez sur l’icône + pour ajouter une sous-page. Découvrez comment configurer les paramètres des sous-pages [ici](#configure-subpages).
 
-   ![](../assets/lp_add-subpage.png)
+   ![](assets/lp_add-subpage.png)
 
 Une fois que vous avez configuré et conçu la [page principale](#configure-primary-page) et les [sous-pages](#configure-subpages) si vous en avez, vous pouvez [tester](#test-landing-page) et [publier](#publish-landing-page) votre page de destination.
 
@@ -73,7 +73,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
 1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu de la page de destination [ici](design-lp.md).
 
-   ![](../assets/lp_open-designer.png)
+   ![](assets/lp_open-designer.png)
 
 1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
@@ -81,7 +81,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
    >
    >LʼURL de la page de destination doit être unique.
 
-   ![](../assets/lp_access-url.png)
+   ![](assets/lp_access-url.png)
 
 1. Vous pouvez définir une date d’expiration pour votre page. Dans ce cas, vous devez sélectionner une action à déclencher lors de l’expiration de la page :
 
@@ -89,17 +89,17 @@ Pour définir les paramètres de la page principale, procédez comme suit.
    * **[!UICONTROL Page personnalisée]** : [configurez une sous-page](#configure-subpages) et sélectionnez-la dans la liste déroulante qui s’affiche.
    * **[!UICONTROL Erreur du navigateur]** : saisissez le texte de l’erreur qui s’affichera à la place de la page.
 
-   ![](../assets/lp_expiry-date.png)
+   ![](assets/lp_expiry-date.png)
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
 1. Si vous avez sélectionné une ou plusieurs listes dʼabonnements lors de la [conception de la page principale](design-lp.md), elles sont affichées dans la section **[!UICONTROL Liste dʼabonnements]**.
 
-   ![](../assets/lp_subscription-list.png)
+   ![](assets/lp_subscription-list.png)
 
 1. Depuis la page de destination, vous pouvez directement [créer un parcours](../building-journeys/journey-gs.md#jo-build) qui enverra un message de confirmation aux utilisateurs lorsqu’ils soumettent le formulaire. Découvrez comment créer un tel parcours à la fin de ce [cas d’utilisation](lp-use-cases.md#subscription-to-a-service).
 
-   ![](../assets/lp_create-journey.png)
+   ![](assets/lp_create-journey.png)
 
    Cliquez sur **[!UICONTROL Créer un parcours]** pour être redirigé vers la liste **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Parcours]**.
 
@@ -119,7 +119,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
    >
    >LʼURL de la page de destination doit être unique.
 
-![](../assets/lp_subpage-settings.png)
+![](assets/lp_subpage-settings.png)
 
 ## Test de la page de destination {#test-landing-page}
 
@@ -131,7 +131,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Prévisualisation et test]** pour accéder à la sélection du profil de test.
 
-   ![](../assets/lp_preview-button.png)
+   ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
@@ -139,17 +139,17 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 1. À partir de lʼécran **[!UICONTROL Prévisualisation et test]**, sélectionnez un ou plusieurs profils de test.
 
-   ![](../assets/lp_test-profiles.png)
+   ![](assets/lp_test-profiles.png)
 
    Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../messages/preview.md#select-test-profiles).
 
 1. Sélectionnez lʼonglet **[!UICONTROL Prévisualisation]** et cliquez sur **[!UICONTROL Ouvrir la prévisualisation]** pour tester votre page de destination.
 
-   ![](../assets/lp_open-preview.png)
+   ![](assets/lp_open-preview.png)
 
 1. La prévisualisation de votre page de destination sʼouvre dans un nouvel onglet. Les éléments personnalisés sont remplacés par les données du profil de test sélectionné.
 
-   ![](../assets/lp_preview.png)
+   ![](assets/lp_preview.png)
 
 1. Sélectionnez dʼautres profils de test pour prévisualiser le rendu de chaque variante de votre page de destination.
 
@@ -159,7 +159,7 @@ Lorsque vous créez votre page de destination, des alertes vous avertissent si v
 
 Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-dessous :
 
-![](../assets/lp_alerts.png)
+![](assets/lp_alerts.png)
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 Une fois votre page de destination configurée, vous pouvez la publier pour quʼelle puisse être utilisée dans un message.
 
-![](../assets/lp_publish.png)
+![](assets/lp_publish.png)
 
 >[!CAUTION]
 >

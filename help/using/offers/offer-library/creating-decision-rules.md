@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
@@ -23,13 +23,13 @@ Par exemple, vous pouvez indiquer que vous souhaitez qu&#39;une « offre vêtem
 
 La liste des règles de décision créées est accessible dans le menu **[!UICONTROL Composants]**.
 
-![](../../assets/decision_rules_list.png)
+![](../assets/decision_rules_list.png)
 
 Pour créer cette règle de décision, procédez comme suit :
 
 1. Accédez à l&#39;onglet **[!UICONTROL Règles]**, puis cliquez sur **[!UICONTROL Créer une règle]**.
 
-   ![](../../assets/offers_decision_rule_creation.png)
+   ![](../assets/offers_decision_rule_creation.png)
 
 1. Nommez votre règle et fournissez une description, puis configurez-la en fonction de vos besoins.
 
@@ -37,7 +37,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
    Dans cet exemple, la règle cible les clients qui ont le niveau de fidélité « Or ».
 
-   ![](../../assets/offers_decision_rule_creation_segment.png)
+   ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Une fois la règle créée, elle s&#39;affiche dans la liste des règles. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
-   ![](../../assets/rule_created.png)
+   ![](../assets/rule_created.png)
 
 >[!CAUTION]
 >

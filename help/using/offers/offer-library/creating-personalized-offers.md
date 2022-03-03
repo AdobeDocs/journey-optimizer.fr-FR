@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Avant de créer une offre, assurez-vous que vous avez créé les éléments suiv
 
 La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Offres]**.
 
-![](../../assets/offers_list.png)
+![](../assets/offers_list.png)
 
 ## Création de l&#39;offre {#create-offer}
 
@@ -39,11 +39,11 @@ Pour créer une **offre**, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer une offre]**, puis sélectionnez **[!UICONTROL Offre personnalisée]**.
 
-   ![](../../assets/create_offer.png)
+   ![](../assets/create_offer.png)
 
 1. Indiquez le nom de l&#39;offre, ainsi que sa date et son heure de début et de fin. Vous pouvez également associer une ou plusieurs balise(s) existante(s) à l&#39;offre, ce qui vous permet de rechercher et d&#39;organiser plus facilement la bibliothèque des offres.
 
-   ![](../../assets/offer_details.png)
+   ![](../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Pour ajouter une ou plusieurs représentations à votre offre et les configurer,
 
 1. Pour la première représentation, commencez par sélectionner le **[!UICONTROL canal]** qui sera utilisé.
 
-   ![](../../assets/channel-placement.png)
+   ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ Pour ajouter une ou plusieurs représentations à votre offre et les configurer,
 
    Vous pouvez également utiliser le bouton en regard de la liste déroulante **[!UICONTROL Emplacement]** pour parcourir tous les emplacements.
 
-   ![](../../assets/browse-button-placements.png)
+   ![](../assets/browse-button-placements.png)
 
    Vous pouvez toujours filtrer les emplacements selon leur canal et/ou type de contenu. Choisissez un emplacement et cliquez sur **[!UICONTROL Sélectionner]**.
 
-   ![](../../assets/browse-placements.png)
+   ![](../assets/browse-placements.png)
 
 1. Ajoutez du contenu à chaque représentation. Découvrez comment dans [cette section](#content).
 
 1. Lorsque vous ajoutez du contenu tel qu&#39;une image ou une URL, vous pouvez spécifier un **[!UICONTROL Lien destination]** : les utilisateurs qui cliquent sur l&#39;offre sont redirigés vers la page correspondante.
 
-   ![](../../assets/offer-destination-link.png)
+   ![](../assets/offer-destination-link.png)
 
 1. Enfin, sélectionnez la langue de votre choix pour vous aider à identifier et gérer les éléments à afficher pour les utilisateurs.
 
 1. Pour ajouter une autre représentation, utilisez le bouton **[!UICONTROL Ajouter une représentation]**, puis ajoutez autant de représentations que nécessaire.
 
-   ![](../../assets/offer-add-representation.png)
+   ![](../assets/offer-add-representation.png)
 
 1. Une fois que vous avez ajouté toutes vos représentations, sélectionnez **[!UICONTROL Suivant]**.
 
@@ -108,19 +108,19 @@ Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du con
 
 1. Sélectionnez **[!UICONTROL Parcourir]**.
 
-   ![](../../assets/offer-browse-asset-library.png)
+   ![](../assets/offer-browse-asset-library.png)
 
 1. Parcourez les ressources pour sélectionner l&#39;image de votre choix.
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**.
 
-   ![](../../assets/offer-select-asset.png)
+   ![](../assets/offer-select-asset.png)
 
 ### Ajout d’URL {#urls}
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
-![](../../assets/offer-content-url.png)
+![](../assets/offer-content-url.png)
 
 ### Ajout de texte personnalisé {#custom-text}
 
@@ -128,7 +128,7 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
 1. Sélectionnez l’option **[!UICONTROL Personnalisé]** et cliquez sur **[!UICONTROL Ajouter du contenu]**.
 
-   ![](../../assets/offer-add-content.png)
+   ![](../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
 1. Saisissez le texte qui s’affichera dans l’offre.
 
-   ![](../../assets/offer-text-content.png)
+   ![](../assets/offer-text-content.png)
 
    Vous pouvez personnaliser votre contenu à l’aide de l’éditeur d’expression. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
 
-   ![](../../assets/offer-personalization.png)
+   ![](../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
 
       Pour plus d’informations sur l’utilisation des segments, consultez [cette page](../../segment/about-segments.md).
 
-      ![](../../assets/offer-eligibility-segment.png)
+      ![](../assets/offer-eligibility-segment.png)
 
    * Si vous souhaitez associer une règle de décision spécifique à l&#39;offre, sélectionnez **[!UICONTROL Par une règle de décision définie]**, puis faites glisser la règle de décision de votre choix depuis le volet de gauche vers la zone **[!UICONTROL Règle de décision]**. Pour plus d&#39;informations sur la façon de créer une règle de décision, reportez-vous à [cette section](../offer-library/creating-decision-rules.md).
 
-      ![](../../assets/offer_rule.png)
+      ![](../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ Les règles d&#39;éligibilité et les contraintes permettent de définir les co
    >
    >Si une diffusion email est supprimée ou si la préparation est effectuée à nouveau avant d&#39;être envoyée, la valeur de limitation de l&#39;offre est automatiquement mise à jour.
 
-   ![](../../assets/offer_capping.png)
+   ![](../assets/offer_capping.png)
 
    Dans l&#39;exemple ci-dessus :
 
@@ -221,7 +221,7 @@ Une fois les règles d&#39;éligibilité et les contraintes définies, un résum
 
 1. Sélectionnez **[!UICONTROL Enregistrer et approuver]**.
 
-   ![](../../assets/offer_review.png)
+   ![](../assets/offer_review.png)
 
    Vous pouvez également enregistrer l&#39;offre en tant que version préliminaire pour la modifier et l&#39;approuver ultérieurement.
 
@@ -229,13 +229,13 @@ L&#39;offre s&#39;affiche dans la liste avec le statut **[!UICONTROL Approuvé]*
 
 Elle est maintenant prête à être diffusée aux utilisateurs.
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 ## Liste des offres {#offer-list}
 
 Dans la liste des offres, vous pouvez sélectionner l&#39;offre pour afficher ses propriétés. Vous pouvez également la modifier, modifier son statut (**Version préliminaire**, **Approuvé**, **Archivé**), la dupliquer ou la supprimer.
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;édition de l&#39;offre, où vous pouvez modifier ses [détails](#create-offer), ses [représentations](#representations), ainsi que les [règles d&#39;éligibilité et les contraintes](#eligibility).
 
@@ -243,11 +243,11 @@ Sélectionnez une offre validée et cliquez sur **[!UICONTROL Annuler l&#39;appr
 
 Pour redéfinir le statut sur **[!UICONTROL Approuvé]**, sélectionnez le bouton correspondant qui s&#39;affiche maintenant.
 
-![](../../assets/offer_approve.png)
+![](../assets/offer_approve.png)
 
 Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessous.
 
-![](../../assets/offer_more-actions.png)
+![](../assets/offer_more-actions.png)
 
 * **[!UICONTROL Dupliquer]** : crée une offre avec les mêmes propriétés, représentations, règles d&#39;éligibilité et contraintes. Par défaut, la nouvelle offre a le statut **[!UICONTROL Version préliminaire]**.
 * **[!UICONTROL Supprimer]** : supprime l&#39;offre de la liste.
@@ -262,19 +262,19 @@ Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessou
 
 Vous pouvez également supprimer ou modifier le statut de plusieurs offres en même temps en cochant les cases correspondantes.
 
-![](../../assets/offer_multiple-selection.png)
+![](../assets/offer_multiple-selection.png)
 
 Si vous souhaitez modifier le statut de plusieurs offres dont les statuts sont différents, seuls les statuts correspondants seront modifiés.
 
-![](../../assets/offer_change-status.png)
+![](../assets/offer_change-status.png)
 
 Une fois une offre créée, vous pouvez cliquer sur son nom dans la liste.
 
-![](../../assets/offer_click-name.png)
+![](../assets/offer_click-name.png)
 
 Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]** pour [surveiller toutes les modifications](../get-started/user-interface.md#monitoring-changes) qui ont été apportées à l&#39;offre.
 
-![](../../assets/offer_information.png)
+![](../assets/offer_information.png)
 
 ## Tutoriel vidéo {#video}
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
@@ -27,4 +27,4 @@ Un cas d&#39;utilisation complet est présenté dans cette [section](../building
 1. Dans la section **Action** de la palette, sélectionnez une action Campaign et ajoutez-la à votre parcours.
 1. Dans les **paramètres d’action**, tous les champs attendus dans la payload du message s’affichent. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Cette opération est similaire aux actions personnalisées. Reportez-vous à cette [section](../building-journeys/using-custom-actions.md).
 
-![](../assets/accintegration2.png)
+![](assets/accintegration2.png)

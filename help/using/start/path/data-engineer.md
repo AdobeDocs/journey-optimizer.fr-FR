@@ -3,7 +3,7 @@ title: Prise en main de Journey Optimizer pour l’ingénieur de données
 description: En tant qu’ingénieur de données, découvrez comment utiliser Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Les étapes de création d’un espace de noms d’identité et d’un jeu de do
 
 En outre, pour pouvoir envoyer des messages dans des parcours, vous devez configurer les **[!UICONTROL sources de données]**, les **[!UICONTROL événements]** et les **[!UICONTROL actions]**. En savoir plus dans [cette section](../../configuration/about-data-sources-events-actions.md).
 
-![](../../assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 * La configuration des **sources de données** vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. En savoir plus sur les sources de données [dans cette section](../../datasource/about-data-sources.md).
 

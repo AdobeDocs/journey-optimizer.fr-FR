@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
@@ -21,17 +21,17 @@ Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#
 
 Dans l&#39;exemple ci-dessous, trois emplacements correspondent à différents types de contenu (image, texte, HTML).
 
-![](../../assets/offers_placement_schema.png)
+![](../assets/offers_placement_schema.png)
 
 La liste des emplacements est accessible dans le menu **[!UICONTROL Composants]**. Des filtres sont disponibles pour vous aider à récupérer des emplacements en fonction d&#39;un canal ou d&#39;un contenu spécifique.
 
-![](../../assets/placements_filter.png)
+![](../assets/placements_filter.png)
 
 Pour créer une emplacement, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer un emplacement]**.
 
-   ![](../../assets/offers_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. Définissez les propriétés de l&#39;emplacement :
 
@@ -40,13 +40,13 @@ Pour créer une emplacement, procédez comme suit :
    * **[!UICONTROL Type de contenu]** : type de contenu que l&#39;emplacement peut afficher : texte, HTML ou lien d&#39;image.
    * **[!UICONTROL Description]** : description de l&#39;emplacement (facultatif).
 
-   ![](../../assets/offers_placement_creation_properties.png)
+   ![](../assets/offers_placement_creation_properties.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour valider.
 
 1. Une fois l&#39;emplacement créé, il s&#39;affiche dans la liste des emplacements. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier.
 
-   ![](../../assets/placement_created.png)
+   ![](../assets/placement_created.png)
 
 ## Tutoriel vidéo {#video}
 

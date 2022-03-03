@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
@@ -40,13 +40,13 @@ Pour plus d&#39;informations sur la façon de transformer un profil existant en 
 
 1. Dans la section **Action** de la palette, déposez l&#39;activité **Mettre à jour le profil** sur la zone de travail.
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. Sélectionnez un schéma dans la liste.
 
 1. Cliquez sur **Champ** pour sélectionner le champ à mettre à jour. Vous ne pouvez sélectionner qu&#39;un seul champ.
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. Sélectionnez un jeu de données dans la liste.
 
@@ -58,12 +58,12 @@ Pour plus d&#39;informations sur la façon de transformer un profil existant en 
 
    * L&#39;éditeur d&#39;expression simple vous permet de sélectionner un champ à partir d&#39;une source de données ou de l&#39;événement entrant.
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * Si vous souhaitez définir une valeur spécifique ou utiliser des fonctions avancées, cliquez sur **Mode avancé**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 L&#39;action **Mettre à jour le profil** est maintenant configurée.
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

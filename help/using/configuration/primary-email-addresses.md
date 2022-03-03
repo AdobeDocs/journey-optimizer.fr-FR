@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
@@ -22,14 +22,14 @@ Avec Journey Optimizer, vous pouvez déterminer l&#39;adresse e-mail à utilise
 1. Accédez au menu **[!UICONTROL Canaux]** `>` **[!UICONTROL Général]**.
 1. Le champ actuellement utilisé par défaut pour déterminer les adresses e-mail des profils s&#39;affiche dans cet écran. Cliquez sur **[!UICONTROL Modifier]** pour le modifier.
 
-   ![](../assets/primary-address.png)
+   ![](assets/primary-address.png)
 
 1. Cliquez sur le bouton de modification pour sélectionner le nouveau champ à utiliser comme adresse e-mail principale.
 
-   ![](../assets/primary-address-edit.png)
+   ![](assets/primary-address-edit.png)
 
 1. La liste des champs XDM de type e-mail disponibles s&#39;affiche. Sélectionnez le champ à utiliser, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](../assets/primary-address-field.png)
+   ![](assets/primary-address-field.png)
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. >> will be done later on-->

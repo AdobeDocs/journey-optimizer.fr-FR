@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
+source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 100%
@@ -70,4 +70,4 @@ Dans Journey Optimizer, vous devez configurer une action par message transactio
 1. Ajustez les différents champs de sorte qu’ils soient statiques ou variables selon que vous souhaitez les mapper ou non sur la zone de travail des parcours. Certains champs, tels que les paramètres de canal pour l’adresse e-mail et les champs de personnalisation (ctx), doivent probablement être définis comme des variables pour le mappage dans le contexte du parcours.
 1. Cliquez sur **Enregistrer**.
 
-![](../assets/accintegration1.png)
+![](assets/accintegration1.png)

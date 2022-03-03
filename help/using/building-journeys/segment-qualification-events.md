@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification du segment]** dans la zone de travail.
 
-   ![](../assets/segment5.png)
+   ![](assets/segment5.png)
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
 
@@ -42,13 +42,13 @@ Il est possible de positionner ce type d’événement dès la première étape,
    >
    >Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
-   ![](../assets/segment6.png)
+   ![](assets/segment6.png)
 
    Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/segment-copy.png)
+   ![](assets/segment-copy.png)
 
 1. Dans le champ **[!UICONTROL Comportement]**, choisissez d’écouter les entrées de segment, les sorties ou les deux.
 
@@ -58,7 +58,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours.
 
-   ![](../assets/segment7.png)
+   ![](assets/segment7.png)
 
 La payload contient les informations contextuelles suivantes, utilisables dans des conditions et des actions :
 
@@ -70,7 +70,7 @@ Lorsque vous utilisez l&#39;éditeur d&#39;expression dans une condition ou une 
 
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
-![](../assets/segment8.png)
+![](assets/segment8.png)
 
 Un nouveau parcours contenant un événement de qualification du segment est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
 
@@ -98,10 +98,10 @@ Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les sy
 
 Dans une activité **[!UICONTROL Qualification du segment]**, n’utilisez pas un segment par lot immédiatement après sa création. Il évitera le premier pic de calcul. Notez qu’un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser un segment qui n’a jamais été calculé.
 
-![](../assets/segment-error.png)
+![](assets/segment-error.png)
 
 Mettez en place une règle de limitation pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger. Pour en savoir plus, consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target=&quot;_blank&quot;}. Notez que la règle de limitation ne permet pas de nouvelle tentative. Si vous avez besoin d’effectuer une nouvelle tentative, vous devez utiliser un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les conditions ou les actions.
 
 Avant d’utiliser le segment dans un parcours en production, évaluez toujours d’abord le volume de particuliers qualifiés pour ce segment tous les jours. Pour ce faire, vous pouvez vérifier le menu **[!UICONTROL Segments]**, ouvrir le segment, puis consulter le graphique **[!UICONTROL Profils sur toute la durée]**.
 
-![](../assets/segment-overload.png)
+![](assets/segment-overload.png)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
@@ -70,16 +70,16 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 
 1. Concevez votre **parcours d’origine**.
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
 1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Saut]**, depuis la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
 1. Cliquez dans le champ **Parcours cible**.
 La liste contient toutes les versions de parcours en version brouillon, version active ou en mode test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement **Qualification de segment** ne sont pas disponibles. Les parcours cible qui créeraient un schéma de boucle sont également filtrés.
 
-   ![](../assets/jump3.png)
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ La liste contient toutes les versions de parcours en version brouillon, version 
 1. Sélectionnez le parcours cible auquel vous souhaitez accéder.
 Le champ **Premier événement** est prérenseigné avec le nom du premier événement du parcours cible. Si votre parcours cible comporte plusieurs événements, le **[!UICONTROL saut]** n’est autorisé que pour le premier.
 
-   ![](../assets/jump4.png)
+   ![](assets/jump4.png)
 
 1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. De la même manière que pour les autres types d’actions, mappez chaque champ avec les champs de l’événement ou de la source de données d’origine. Ces informations seront transmises au parcours cible au moment de l’exécution.
 1. Ajoutez les activités suivantes pour terminer le parcours d’origine.
 
-   ![](../assets/jump5.png)
+   ![](assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ Votre activité **[!UICONTROL Saut]** est configurée. Dès que votre parcours e
 
 Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, une icône d’entrée **[!UICONTROL Saut]** est automatiquement ajoutée au début du parcours cible. Vous pouvez ainsi identifier que le parcours peut être déclenché depuis l’extérieur mais aussi en interne par le biais d’une activité **[!UICONTROL Saut]**.
 
-![](../assets/jump7.png)
+![](assets/jump7.png)
 
 ## Dépannage
 
@@ -113,4 +113,4 @@ Lorsque le parcours est publié ou en mode test, des erreurs se produisent dans 
 * le parcours cible est en version brouillon, fermé ou arrêté ;
 * le premier événement du parcours cible a changé et le mappage est interrompu.
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 100%
@@ -23,11 +23,11 @@ Avant de tester et de publier votre parcours, vérifiez que toutes les activité
 
 Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur l&#39;activité elle-même, dans la zone de travail. Placez le curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous cliquez sur l&#39;activité, vous devez voir la ligne contenant l&#39;erreur associée à un avertissement. Par exemple, si un champ obligatoire est vide, une erreur s&#39;affiche.
 
-![](../assets/journey63.png)
+![](assets/journey63.png)
 
 Par exemple, dans la zone de travail, lorsque deux activités sont déconnectées, un avertissement s&#39;affiche.
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 En regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**, un signe d&#39;avertissement peut s&#39;afficher. Il indique les erreurs détectées par le système et empêche l&#39;activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d&#39;autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d&#39;identifier le problème à l&#39;aide de la description de l&#39;erreur. Si vous ne parvenez pas à l&#39;identifier, vous pouvez copier les détails et les envoyer à l&#39;administrateur ou à l&#39;assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
 
@@ -35,7 +35,7 @@ Le système détecte deux types de problèmes : les erreurs et les avertissemen
 
 Le signe en regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]** peut apparaître dans deux couleurs différentes. Il est rouge en cas d&#39;erreur, et orange pour un avertissement.
 
-![](../assets/journey75.png)
+![](assets/journey75.png)
 
 Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d&#39;activité ou d&#39;apparition dans le parcours, de gauche à droite. Le bouton **[!UICONTROL Copier les détails]** copie les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes.
 

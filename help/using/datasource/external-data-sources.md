@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
@@ -32,11 +32,11 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
 1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Créer une source de données]** pour créer une source de données externe.
 
-   ![](../assets/journey25.png)
+   ![](assets/journey25.png)
 
    Le volet de configuration de la source de données s’ouvre alors dans la partie droite de l’écran.
 
-   ![](../assets/journey26.png)
+   ![](assets/journey26.png)
 
 1. Attribuez un nom à votre source de données.
 
@@ -51,7 +51,7 @@ Les principales étapes nécessaires pour créer et configurer une source de don
    >
    >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n’est pas autorisée.
 
-   ![](../assets/journey27.png)
+   ![](assets/journey27.png)
 
 1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisé]** ou **[!UICONTROL Clé API]**. Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans cet exemple, nous allons effectuer les choix suivants :
 
@@ -60,7 +60,7 @@ Les principales étapes nécessaires pour créer et configurer une source de don
    * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
    * **[!UICONTROL Emplacement]** : « Paramètre de requête » (la clé API se trouve dans l’URL)
 
-   ![](../assets/journey28.png)
+   ![](assets/journey28.png)
 
 1. Ajoutez un nouveau groupe de champs pour chaque jeu de paramètres d’API en cliquant sur **[!UICONTROL Ajouter un nouveau groupe de champs]**. N’utilisez ni espaces ni caractères spéciaux dans le nom du groupe de champs. Dans cet exemple, nous devons créer deux groupes de champs, un pour chaque jeu de paramètres (city et long/lat).
 
@@ -81,7 +81,7 @@ Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous deve
    {"id":{"param":"identifier"}}
    ```
 
-![](../assets/journey29.png)
+![](assets/journey29.png)
 
 Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -98,11 +98,11 @@ Ce mode d’authentification est utilisé pour une authentification complexe. Il
 
 Lorsque vous configurez l’authentification personnalisée, vous pouvez cliquer sur le bouton ci-dessous pour vérifier si la payload d’authentification personnalisée est correctement configurée.
 
-![](../assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 Si le test réussit, le bouton devient vert.
 
-![](../assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 Avec cette authentification, l’exécution de l’action est un processus en deux étapes :
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 100%
@@ -43,13 +43,13 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
    >
    >Seuls les individus présentant les états de participation **Réalisés** et **Existants** rejoignent le parcours. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target=&quot;_blank&quot;}.
 
-   ![](../assets/read-segment-selection.png)
+   ![](assets/read-segment-selection.png)
 
    Une fois le segment ajouté, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/read-segment-copy.png)
+   ![](assets/read-segment-copy.png)
 
 1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace)
 
@@ -67,7 +67,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
 1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
 
-   ![](../assets/read-segment-schedule.png)
+   ![](assets/read-segment-schedule.png)
 
    Par défaut, les segments rejoignent le parcours **[!UICONTROL Le plus tôt possible]**. Si vous souhaitez que le segment rejoigne le parcours à une date/heure spécifique ou de façon récurrente, sélectionnez la valeur de votre choix dans la liste.
 
@@ -75,7 +75,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
    >
    >Notez que la section **[!UICONTROL Planificateur]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture de segment]** a été déposée dans la zone de travail.
 
-   ![](../assets/read-segment-schedule-list.png)
+   ![](assets/read-segment-schedule-list.png)
 
    Lʼoption **Lecture incrémentielle** vous permet de cibler uniquement les individus qui sont entrés dans le segment depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres du segment. Cette option n’est disponible que pour les activités **Lecture de segment** récurrentes.
 
@@ -104,7 +104,7 @@ L’activité **[!UICONTROL Lecture de segment]** vous permet de tester le parco
 
 Pour cela, activez le mode test, puis sélectionnez l’option de votre choix dans le volet de gauche.
 
-![](../assets/read-segment-test-mode.png)
+![](assets/read-segment-test-mode.png)
 
 Vous pouvez ensuite configurer et exécuter le mode test comme vous le faites habituellement. [Découvrez comment tester un parcours](testing-the-journey.md).
 
@@ -116,7 +116,7 @@ Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les j
 
    Notez que tester le parcours en utilisant jusqu’à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
 
-   ![](../assets/read-segment-log.png)
+   ![](assets/read-segment-log.png)
 
 Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant au segment rejoindront le parcours à la date/heure spécifiée dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
@@ -144,7 +144,7 @@ La segmentation peut être basée sur :
 * une heure, par exemple : est-ce le matin dans le fuseau horaire de la personne ?
 * un algorithme fractionnant l’audience circulant dans le parcours en fonction d’un pourcentage, par exemple : 90 à 10 % pour exclure une population témoin
 
-![](../assets/read-segment-audience1.png)
+![](assets/read-segment-audience1.png)
 
 **Exclusion**
 
@@ -152,7 +152,7 @@ La même activité **Condition** utilisée pour la segmentation (voir ci-dessus)
 
 Cette exclusion peut se produire juste après la récupération des segments, à des fins de comptage de population ou le long d’un parcours à plusieurs étapes.
 
-![](../assets/read-segment-audience2.png)
+![](assets/read-segment-audience2.png)
 
 **Union**
 
@@ -164,4 +164,4 @@ Par exemple, après avoir suivi une expérience différente pendant dix jours d
 
 Après une union, vous pouvez fractionner à nouveau l’audience en exécutant une segmentation ou une exclusion.
 
-![](../assets/read-segment-audience3.png)
+![](assets/read-segment-audience3.png)

@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: c2052a2c4468239d22d8a8d57b4ceac0329773d1
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer permet d’ingérer des données à partir de sources externes tout en vous permettant de structurer, de libeller et d’améliorer les données entrantes à l’aide des services de Platform. Vous pouvez ingérer des données provenant de diverses sources telles que les applications Adobe, les stockages dans le cloud, des bases de données, etc.
 
-![](../assets/sources-home.png)
+![](assets/sources-home.png)
 
 Découvrez les connecteurs source et comment les configurer dans Journey Optimizer grâce à cette vidéo :
 

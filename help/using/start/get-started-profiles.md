@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 >
 >Si votre organisation débute avec [!DNL Adobe Journey Optimizer] et ne dispose pas encore de jeux de données ou de stratégies de fusion principaux, le tableau de bord **Profils** n’est pas visible. À la place, l’onglet **Aperçu** affiche des liens vers la documentation d’Adobe Experience Platform pour vous aider à prendre en main le profil client en temps réel.
 
-![](../assets/profiles-home.png)
+![](assets/profiles-home.png)
 
 Pour savoir comment accéder au **tableau de bord du profil** et l’utiliser, ainsi que pour obtenir des informations détaillées sur les mesures affichées dans le tableau de bord, consultez [cette section](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 

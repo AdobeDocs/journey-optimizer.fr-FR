@@ -5,7 +5,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
+source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 97%
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 # Niveaux d&#39;autorisation {#high-low-permissions}
 
-![](../assets/do-not-localize/permissions.png)
+![](assets/do-not-localize/permissions.png)
 
 Chaque profil de produit est constitué d&#39;autorisations permettant aux utilisateurs d&#39;accéder aux différentes fonctionnalités.
 Elles peuvent être divisées en deux types :
@@ -99,9 +99,9 @@ L’autorisation de haut niveau **[!DNL View journeys events, data sources and a
 Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à Journey Optimizer :
-   * parcours_events.read
-   * parcours_data_sources.read
-   * parcours_actions.read
+   * journeys_events.read
+   * journeys_data_sources.read
+   * journeys_actions.read
 
 * Spécifiques à Adobe Experience Platform :
    * schemas.read
@@ -417,11 +417,11 @@ Elle comprend les autorisations de bas niveau suivantes :
    * profiles.read
    * datasets.read
 
-## Fonctionnalité Bibliothèque Journey Optimizer {library-permissions}
+## Journey Optimizer Library capability {library-permissions}
 
-### Gestion des éléments de bibliothèque {#library-items}
+### Manage Library Items {#library-items}
 
-Le **[!DNL Manage Library Items]** l’autorisation de haut niveau permet aux utilisateurs d’ajouter et de supprimer des expressions enregistrées dans le [!DNL Journey Optimizer] Bibliothèque.
+**[!DNL Manage Library Items]**[!DNL Journey Optimizer]
 
 Elle comprend les autorisations de bas niveau suivantes :
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Chaque fois qu&#39;une offre est modifiée, le jeu de données généré automatiquement pour les emplacements est mis à jour.
 
-![](../../assets/dataset-placements.png)
+![](../assets/dataset-placements.png)
 
 Le lot le plus récent dans le jeu de données s&#39;affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
 

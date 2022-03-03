@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 100%
@@ -21,15 +21,15 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Événements]**, cliquez sur **[!UICONTROL Gérer]**. La liste des événements s&#39;affiche.
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. Cliquez sur **[!UICONTROL Créer un événement]** pour créer un événement. Le volet de configuration d&#39;événement s&#39;ouvre dans la partie droite de l&#39;écran.
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. Saisissez le nom de votre événement. Vous pouvez également ajouter une description.
 
-   ![](../assets/jo-event3.png)
+   ![](assets/jo-event3.png)
 
    >[!NOTE]
    >
@@ -37,24 +37,24 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 1. Dans le champ **[!UICONTROL Type]**, choisissez **Unitaire**.
 
-   ![](../assets/jo-event3bis.png)
+   ![](assets/jo-event3bis.png)
 
 1. Dans le champ **[!UICONTROL Type d&#39;identifiant d&#39;événement]**, sélectionnez le type d&#39;identifiant d&#39;événement à utiliser : **Basé sur une règle** ou **Généré par le système**. Pour en savoir plus sur les types d&#39;identifiant d&#39;événements, reportez-vous à [cette section](../event/about-events.md#event-id-type).
 
-   ![](../assets/jo-event4.png)
+   ![](assets/jo-event4.png)
 
 1. Le nombre de parcours qui font appel à cet événement apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur l&#39;icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cet événement.
 
 1. Définissez les champs de payload et de schéma : c&#39;est dans ces champs que vous sélectionnez les informations d&#39;événement (désignées généralement sous le nom de payload) que le parcours s&#39;attend à recevoir. Vous pourrez alors utiliser ces informations dans votre parcours. Consultez [cette section](../event/about-creating.md#define-the-payload-fields).
 
-   ![](../assets/jo-event5.png)
+   ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
    >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]**, seuls les schémas dont le champ est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d&#39;expérience sont disponibles.
 
 1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l&#39;aide de l&#39;éditeur d&#39;expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
-   ![](../assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
    Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet aux parcours.
 
@@ -65,7 +65,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l&#39;ajout d&#39;un espace de noms permet d&#39;exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l&#39;événement. Consultez [cette section](../event/about-creating.md#select-the-namespace).
 1. Définissez l&#39;identifiant du profil : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l&#39;événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, le parcours sélectionne la clé qui doit correspondre à l&#39;espace de noms ; par exemple, si vous sélectionnez un espace de noms d&#39;email, la clé d&#39;email est sélectionnée. Consultez [cette section](../event/about-creating.md#define-the-event-key).
 
-   ![](../assets/jo-event7.png)
+   ![](assets/jo-event7.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -77,7 +77,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
 1. Sélectionnez un schéma XDM dans la liste et cliquez ensuite sur le champ **[!UICONTROL Champs]** ou sur l&#39;icône **[!UICONTROL Modifier]**.
 
-   ![](../assets/journey8.png)
+   ![](assets/journey8.png)
 
    Tous les champs définis dans le schéma sont affichés. La liste des champs varie d&#39;un schéma à l&#39;autre. Vous pouvez rechercher un champ spécifique, ou utiliser les filtres pour afficher l&#39;ensemble des nœuds et des champs ou uniquement les champs sélectionnés. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés. Vous ne pouvez pas les désélectionner. Tous les champs obligatoires pour que les parcours reçoivent correctement l&#39;événement sont sélectionnés par défaut.
 
@@ -85,7 +85,7 @@ La définition de la payload vous permet de choisir les informations que le syst
    >
    >Pour les événements générés par le système, veillez à ajouter le groupe de champs &quot;orchestration&quot; au schéma XDM. Vous aurez ainsi la garantie que votre schéma contient toutes les informations requises pour fonctionner avec [!DNL Journey Optimizer].
 
-   ![](../assets/journey9.png)
+   ![](assets/journey9.png)
 
 1. Sélectionnez les champs que vous prévoyez de recevoir de l&#39;événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours. Ils doivent également inclure la clé qui sera utilisée pour identifier la personne associée à l&#39;événement (voir [cette section](../event/about-creating.md#define-the-event-key)).
 
@@ -97,7 +97,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    Le nombre de champs sélectionnés s&#39;affiche dans le champ **[!UICONTROL Champs]**.
 
-   ![](../assets/journey12.png)
+   ![](assets/journey12.png)
 
 ## Sélectionnez l&#39;espace de noms {#select-the-namespace}
 
@@ -109,12 +109,12 @@ Si vous sélectionnez un schéma doté d&#39;une identité principale, les champ
 
 Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 
 Sélectionnez un espace de noms dans la liste déroulante.
 
-![](../assets/journey17.png)
+![](assets/journey17.png)
 
 Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même espace de noms. Voir [cette page](../building-journeys/journey.md).
 
@@ -128,17 +128,17 @@ Le système pourra ainsi effectuer la réconciliation entre l&#39;événement et
 
 Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 Si vous devez utiliser une autre clé, telle qu&#39;un ID CRM ou une adresse e-mail, vous devez l&#39;ajouter manuellement :
 
 1. Cliquez dans le champ **[!UICONTROL Identifiant du profil]** ou sur l&#39;icône représentant un crayon.
 
-   ![](../assets/journey16.png)
+   ![](assets/journey16.png)
 
 1. Sélectionnez le champ choisi comme clé dans la liste des champs de payload. Vous pouvez également basculer vers l&#39;éditeur d&#39;expression avancé pour créer des clés plus complexes (une concaténation de deux champs des événements, par exemple). Voir ci-dessous.
 
-   ![](../assets/journey20.png)
+   ![](assets/journey20.png)
 
 Lorsque l&#39;événement est reçu, la valeur de la clé permet au système d&#39;identifier la personne qui y est associée. Associée à un espace de noms (voir [cette section](../event/about-creating.md#select-the-namespace)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
@@ -155,11 +155,11 @@ Cet aperçu vous permet de valider la définition de la payload.
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Afficher la payload]** pour prévisualiser la payload attendue par le système.
 
-   ![](../assets/journey13.png)
+   ![](assets/journey13.png)
 
    Vous remarquerez que les champs sélectionnés sont affichés.
 
-   ![](../assets/journey14.png)
+   ![](assets/journey14.png)
 
 1. Vérifiez l&#39;aperçu pour valider la définition de la payload.
 
