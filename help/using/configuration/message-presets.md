@@ -50,7 +50,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
    <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
-1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que version préliminaire et reprendre sa configuration ultérieurement.
+1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa configuration ultérieurement.
 
    ![](assets/preset-submit.png)
 
@@ -201,7 +201,8 @@ Tous vos préréglages de message s’affichent dans le menu **[!UICONTROL Canau
 
 Une fois créés, les paramètres prédéfinis de message peuvent avoir les états suivants :
 
-* **[!UICONTROL Version préliminaire]** : le préréglage de message a été enregistré en tant que version préliminaire et n&#39;a pas encore été envoyé. Ouvrez-le pour reprendre la configuration.
+* **[!UICONTROL Brouillon]** : le préréglage de message a été enregistré en tant que brouillon et n&#39;a pas encore été envoyé.
+Ouvrez-le pour reprendre la configuration.
 * **[!UICONTROL Traitement]** : le préréglage de message a été envoyé et passe par plusieurs étapes de vérification.
 * **[!UICONTROL Actif]** : le préréglage de message a été vérifié et peut être sélectionné pour créer des messages.
 * **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification du préréglage de message.
@@ -247,7 +248,7 @@ Pour modifier un préréglage de message, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous pouvez également enregistrer le préréglage de message en tant que version préliminaire et reprendre sa mise à jour ultérieurement. 
+   >Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa mise à jour ultérieurement. 
 
 Une fois les modifications soumises, le préréglage de message passera par un cycle de validation similaire à celui mis en place lors de la [création d’un préréglage](#create-message-preset). 
 
