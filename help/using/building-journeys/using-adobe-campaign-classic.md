@@ -1,0 +1,30 @@
+---
+title: Actions d'Adobe Campaign v7/v8
+description: En savoir plus sur les actions Adobe Campaign v7/v8
+feature: Actions
+topic: Administration
+role: Admin
+level: Intermediate
+exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 100%
+
+---
+
+# Actions d&#39;Adobe Campaign v7/v8 {#using_campaign_classic}
+
+Une intégration est disponible si vous disposez d&#39;Adobe Campaign v7 ou v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign.
+
+La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement. Contactez Adobe.
+
+Pour que cela fonctionne, vous devez configurer une action dédiée. Reportez-vous à cette [section](../action/acc-action.md).
+
+Un cas d&#39;utilisation complet est présenté dans cette [section](../building-journeys/campaign-classic-use-case.md).
+
+1. Concevez votre parcours en commençant par un événement. Consultez cette [section](../building-journeys/journey.md).
+1. Dans la section **Action** de la palette, sélectionnez une action Campaign et ajoutez-la à votre parcours.
+1. Dans les **paramètres d’action**, tous les champs attendus dans la payload du message s’affichent. Vous devez faire correspondre chacun de ces champs avec celui que vous souhaitez utiliser, et ce, depuis l’événement ou la source de données. Cette opération est similaire aux actions personnalisées. Reportez-vous à cette [section](../building-journeys/using-custom-actions.md).
+
+![](assets/accintegration2.png)
