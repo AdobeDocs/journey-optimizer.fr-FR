@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 91%
+source-wordcount: '613'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    >[!NOTE]
    >
-   >Laissez le message à l&#39;état préliminaire. Ne le publiez pas encore.
+   >Laissez le message à l&#39;état de brouillon. Ne le publiez pas encore.
 
 ## Étape 2 - Créer le parcours {#create-journey}
 
@@ -79,7 +79,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc9.png)
 
-1. Sélectionnez la **Attributs contextuels** . Les attributs contextuels ne sont disponibles que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
+1. Sélectionnez la catégorie **Contexte**. Cet élément n&#39;est disponible que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
    * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité **Message** dans le parcours.
    * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md). 
@@ -94,11 +94,11 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc12.png)
 
-1. Saisissez le message et insérez, à partir du ****[!UICONTROL Attributs contextuels]** , le nom de l’élément de commande et la progression de la commande.
+1. Tapez le message et, à partir de la catégorie **Contexte**, insérez le nom de l&#39;élément de commande et la progression de la commande.
 
    ![](assets/perso-uc13.png)
 
-1. Dans le menu de gauche, sélectionnez **Offrir des décisions** pour insérer une variable d’offer decisioning. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision (auparavant « activité d&#39;offre ») pour l&#39;ajouter au corps.
+1. Dans la liste déroulante, sélectionnez **Décision d&#39;offre** pour insérer une variable Offer Decisioning. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision (auparavant « activité d&#39;offre ») pour l&#39;ajouter au corps.
 
    ![](assets/perso-uc14.png)
 

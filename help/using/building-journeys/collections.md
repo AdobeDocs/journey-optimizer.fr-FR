@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Transmission dynamique des collections à l’aide d’actions personnalisées
 description: Envoi d'un message à l'aide de Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -103,7 +103,7 @@ Vous pouvez voir que « products » est un tableau de deux objets. Vous devez 
 
 1. Dans la section **[!UICONTROL Paramètres d’action]**, collez l’exemple JSON. La structure affichée est statique : lorsque vous collez la payload, tous les champs sont définis comme des constantes.
 
-   ![](assets/uc-collection-1.png)
+   ![](../assets/uc-collection-1.png)
 
 1. Si nécessaire, ajustez les types de champs. Les types de champs suivants sont pris en charge pour les collections : listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -119,27 +119,27 @@ Vous pouvez voir que « products » est un tableau de deux objets. Vous devez 
 
 1. Pour chaque champ, définissez le libellé qui sera affiché dans la zone de travail du parcours.
 
-   ![](assets/uc-collection-2.png)
+   ![](../assets/uc-collection-2.png)
 
 1. Créez votre parcours et ajoutez l’action personnalisée que vous avez créée. Voir [cette page](../building-journeys/using-custom-actions.md).
 
 1. Dans la section **[!UICONTROL Paramètres d’action]**, définissez le paramètre de tableau (« products » dans notre exemple) à l’aide de l’éditeur d’expression avancé.
 
-   ![](assets/uc-collection-3.png)
+   ![](../assets/uc-collection-3.png)
 
 1. Pour chacun des champs d’objet suivants, saisissez le nom de champ correspondant à partir du schéma XDM source. Si les noms sont identiques, cela n’est pas nécessaire. Dans notre exemple, il nous suffit de définir « product id » et « color ».
 
-   ![](assets/uc-collection-4.png)
+   ![](../assets/uc-collection-4.png)
 
 Pour le champ de tableau, vous pouvez également utiliser l’éditeur d’expression avancé pour effectuer une manipulation de données. Dans l’exemple suivant, nous utilisons les fonctions [filter](functions/functionfilter.md) et [intersect](functions/functionintersect.md) :
 
-![](assets/uc-collection-5.png)
+![](../assets/uc-collection-5.png)
 
 ## Cas particuliers{#examples}
 
 Pour les types et les tableaux de tableaux hétérogènes, le tableau est défini avec le type listAny. Vous pouvez uniquement mapper des éléments individuels, mais ne pouvez pas modifier le tableau en variable.
 
-![](assets/uc-collection-heterogeneous.png)
+![](../assets/uc-collection-heterogeneous.png)
 
 Exemple de type hétérogène :
 

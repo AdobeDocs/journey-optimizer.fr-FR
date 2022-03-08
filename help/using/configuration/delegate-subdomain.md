@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1472'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -36,15 +36,15 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
-   ![](assets/subdomain-delegate.png)
+   ![](../assets/subdomain-delegate.png)
 
 1. Sélectionnez **[!UICONTROL Délégation complète]** dans la section **[!UICONTROL Configurer la méthode]**.
 
-   ![](assets/subdomain-method-full.png)
+   ![](../assets/subdomain-method-full.png)
 
 1. Indiquez le nom du sous-domaine à déléguer.
 
-   ![](assets/subdomain-name.png)
+   ![](../assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,15 +56,16 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
 1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   ![](assets/subdomain-submit.png)
+   ![](../assets/subdomain-submit.png)
 
    >[!NOTE]
    >
-   >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que version préliminaire]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
+   >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**.
+Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
 
 1. Une fois la délégation de sous-domaine complète envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
-   ![](assets/subdomain-processing.png)
+   ![](../assets/subdomain-processing.png)
 
    Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
@@ -96,13 +97,13 @@ La délégation de sous-domaines CNAME permet de créer un sous-domaine et d’u
 >
 >Cette méthode est recommandée si les stratégies de votre organisation interdisent la méthode de délégation de sous-domaine complète. En conséquence, vous devrez assumer la mise à jour et la gestion des enregistrements DNS. Adobe ne pourra pas vous aider à modifier, tenir à jour ou gérer le DNS dʼun sous-domaine configuré par la méthode CNAME.
 
-Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
+Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
 1. Sélectionnez la méthode **[!UICONTROL Configuration CNAME]**.
 
-   ![](assets/subdomain-method-cname.png)
+   ![](../assets/subdomain-method-cname.png)
 
 1. Indiquez le nom du sous-domaine à déléguer.
 
@@ -116,11 +117,12 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case « Je confirme... ».
 
-   ![](assets/subdomain-create-dns-confirm.png)
+   ![](../assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
-   >Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que version préliminaire]**. Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
+   >Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**.
+Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
 
 1. Patientez jusquʼà ce quʼAdobe sʼassure que ces enregistrements ont été générés sans erreurs sur votre solution dʼhébergement. Cette opération peut prendre jusquʼà 2 minutes.
 
@@ -130,11 +132,11 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez terminé la création de cet enregistrement sur votre solution dʼhébergement, cochez la case « Je confirme... », puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   ![](../assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >
-   >Vous pouvez également créer lʼenregistrement de validation et envoyer ultérieurement la configuration du sous-domaine à lʼaide du bouton **[!UICONTROL Enregistrer en tant que version préliminaire]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en lʼouvrant à partir de la liste de sous-domaines.
+   >Vous pouvez également créer lʼenregistrement de validation et envoyer ultérieurement la configuration du sous-domaine à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en lʼouvrant à partir de la liste de sous-domaines.
 
 1. Une fois la délégation de sous-domaine CNAME envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
@@ -39,9 +39,9 @@ Les schémas suivants sont créés :
 * Schéma d’événement d’étape du parcours pour [!DNL Journey Orchestration] - Événement d’étape du parcours lié à des métadonnées de parcours.
 * Schéma du parcours avec champs de parcours pour [!DNL Journey Orchestration] - Métadonnées servant à décrire les parcours.
 
-![](assets/sharing1.png)
+![](../assets/sharing1.png)
 
-![](assets/sharing2.png)
+![](../assets/sharing2.png)
 
 Les jeux de données suivants sont transmis :
 
@@ -49,7 +49,7 @@ Les jeux de données suivants sont transmis :
 * Événements d’étape du parcours
 * Parcours
 
-![](assets/sharing3.png)
+![](../assets/sharing3.png)
 
 Les listes des champs XDM transmis à Adobe Experience Platform sont détaillées ici :
 

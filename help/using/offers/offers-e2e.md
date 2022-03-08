@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
 
 Le processus global de gestion des décisions pour utiliser les offres dans un e-mail peut être décrit comme suit :
 
-![](assets/offers-e2e-process.png)
+![](../assets/offers-e2e-process.png)
 
 ## Définition des composants {#define-components}
 
@@ -75,7 +75,7 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
    * *E-mail - Image*
    * *Non numérique - Texte*
 
-   ![](assets/offers-e2e-placements.png)
+   ![](../assets/offers-e2e-placements.png)
 
    Les étapes détaillées pour créer des emplacements sont présentées dans [cette section](../../using/offers/offer-library/creating-placements.md).
 
@@ -88,7 +88,7 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
    * *Clientes*
    * *Clients*
 
-   ![](assets/offers-e2e-rules.png)
+   ![](../assets/offers-e2e-rules.png)
 
    Les étapes détaillées pour créer des règles sont présentées dans [cette section](../../using/offers/offer-library/creating-decision-rules.md).
 
@@ -98,7 +98,7 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
 
    Dans cet exemple, créez la balise *Yoga*.
 
-   ![](assets/offers-e2e-tag.png)
+   ![](../assets/offers-e2e-tag.png)
 
    Les étapes détaillées pour créer des balises sont présentées dans [cette section](../../using/offers/offer-library/creating-tags.md).
 
@@ -130,17 +130,17 @@ Vous pouvez maintenant créer et configurer vos offres. Dans cet exemple, vous a
 
 1. Sélectionnez une image appropriée pour les deux premiers emplacements. Saisissez du texte personnalisé pour l&#39;emplacement *Non numérique - Texte*.
 
-   ![](assets/offers-e2e-representations.png)
+   ![](../assets/offers-e2e-representations.png)
 
 1. Dans la section **[!UICONTROL Éligibilité de l&#39;offre]**, sélectionnez **[!UICONTROL Par règle de décision définie]** et effectuez un glisser-déposer de la règle de votre choix.
 
-   ![](assets/offers-e2e-eligibility.png)
+   ![](../assets/offers-e2e-eligibility.png)
 
 1. Remplissez la **[!UICONTROL Priorité]**. Dans cet exemple, ajoutez *25*.
 
 1. Vérifiez votre offre, puis cliquez sur **[!UICONTROL Enregistrer et approuver]**.
 
-   ![](assets/offers-e2e-review.png)
+   ![](../assets/offers-e2e-review.png)
 
 1. Dans cet exemple, créez trois offres supplémentaires avec les mêmes représentations, mais des ressources différentes. Attribuez-les à des règles et priorités différentes, par exemple :
 
@@ -149,7 +149,7 @@ Vous pouvez maintenant créer et configurer vos offres. Dans cet exemple, vous a
    * Troisième offre - Règle de décision : *Clients*, Priorité : *25*
    * Quatrième offre - Règle de décision : *Clients*, Priorité : *15*
 
-   ![](assets/offers-e2e-offers-created.png)
+   ![](../assets/offers-e2e-offers-created.png)
 
 Les étapes détaillées pour créer et configurer des offres sont présentées dans [cette section](../../using/offers/offer-library/creating-personalized-offers.md).
 
@@ -165,11 +165,11 @@ Les étapes détaillées pour créer et configurer des offres sont présentées 
    * Une correspondant à l&#39;emplacement *E-mail - Image*
    * Une correspondant à l&#39;emplacement *Non numérique - Texte*
 
-   ![](assets/offers-e2e-fallback-representations.png)
+   ![](../assets/offers-e2e-fallback-representations.png)
 
 1. Vérifiez votre offre de secours, puis cliquez sur **[!UICONTROL Enregistrer et approuver]**.
 
-![](assets/offers-e2e-fallback.png)
+![](../assets/offers-e2e-fallback.png)
 
 Votre offre de secours est maintenant prête à être utilisée dans une décision.
 
@@ -183,7 +183,7 @@ Lors de la configuration de la décision, vous devez ajouter vos offres personna
 
 1. Utilisez la balise *Yoga* pour sélectionner les quatre offres personnalisées que vous avez créées précédemment.
 
-   ![](assets/offers-e2e-collection-using-tag.png)
+   ![](../assets/offers-e2e-collection-using-tag.png)
 
 Les étapes détaillées pour créer une collection sont présentées dans [cette section](../../using/offers/offer-library/creating-collections.md).
 
@@ -199,11 +199,11 @@ Pour créer et configurer une décision d&#39;offre, procédez comme suit :
 
 1. Sélectionnez les emplacements *Web - Image*, *E-mail - Image* et *Non numérique - Texte*.
 
-   ![](assets/offers-e2e-decision-placements.png)
+   ![](../assets/offers-e2e-decision-placements.png)
 
 1. Pour chaque emplacement, ajoutez la collection que vous avez créée.
 
-   ![](assets/offers-e2e-decision-collection.png)
+   ![](../assets/offers-e2e-decision-collection.png)
 
 1. Si vous avez défini un classement lors de la [création de vos composants](#define-components), vous pouvez l&#39;affecter à un emplacement dans la décision. Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera cette formule pour calculer l&#39;offre à diffuser en premier.
 
@@ -211,11 +211,11 @@ Pour créer et configurer une décision d&#39;offre, procédez comme suit :
 
 1. Sélectionnez l&#39;offre de secours que vous avez créée. Elle s&#39;affichera comme une offre de secours disponible pour les trois emplacements sélectionnés.
 
-   ![](assets/offers-e2e-decision-fallback.png)
+   ![](../assets/offers-e2e-decision-fallback.png)
 
 1. Vérifiez votre décision, puis cliquez sur **[!UICONTROL Enregistrer et approuver]**.
 
-   ![](assets/offers-e2e-review-decision.png)
+   ![](../assets/offers-e2e-review-decision.png)
 
 Votre décision est maintenant prête à être utilisée pour diffuser des offres optimisées et personnalisées.
 
@@ -231,21 +231,21 @@ Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-
 
 1. Ajoutez un composant de contenu **[!UICONTROL Décision d&#39;offre]**. Découvrez comment utiliser les composants de contenu dans [cette section](../../using/messages/content-components.md).
 
-   ![](assets/offers-e2e-decision-component.png)
+   ![](../assets/offers-e2e-decision-component.png)
 
 1. Sélectionnez-le. Dans la palette de droite, cliquez sur **[!UICONTROL Sélectionner la décision d&#39;offre]** pour ajouter une décision.
 
-   ![](assets/offers-e2e-select-offer-decision.png)
+   ![](../assets/offers-e2e-select-offer-decision.png)
 
 1. Sélectionnez l&#39;emplacement correspondant aux offres que vous souhaitez afficher dans la liste déroulante **[!UICONTROL Emplacements]**.
 
    Dans ce cas, parmi les emplacements que vous avez créés précédemment dans le cadre de cet exemple, seul l&#39;emplacement **E-mail - Image** est disponible car vous souhaitez utiliser la décision dans un e-mail. En savoir plus sur la [création d&#39;emplacements](../../using/offers/offer-library/creating-placements.md).
 
-   ![](assets/offers-e2e-select-placement-in-decision.png)
+   ![](../assets/offers-e2e-select-placement-in-decision.png)
 
 1. Les décisions correspondant à l&#39;emplacement **E-mail - Image** s&#39;affichent. Sélectionnez la décision à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
 
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
+   ![](../assets/offers-e2e-matching-placement-in-decision.png)
 
    >[!NOTE]
    >
@@ -253,7 +253,7 @@ Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-
 
 Vous pouvez maintenant visualiser toutes les offres personnalisées et l&#39;offre de secours dans le Concepteur d&#39;e-mail.
 
-![](assets/offers-e2e-offers-displayed.png)
+![](../assets/offers-e2e-offers-displayed.png)
 
 Utilisez la section **[!UICONTROL Offres]** ou les flèches des composants de contenu (flèches droite et gauche) pour parcourir les données. Vous pouvez également afficher les différentes offres qui font partie de la décision avec un profil client. En savoir plus dans [cette section](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 

@@ -1,41 +1,32 @@
 ---
 solution: Journey Orchestration
-title: Configurer une action personnalisée
+title: À propos de la configuration des actions personnalisées
 description: Découvrez comment configurer une action personnalisée
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '844'
 ht-degree: 100%
 
 ---
 
-# Configurer une action personnalisée {#configure-an-action}
+# Configurer une action {#configure-an-action}
 
-Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, Adobe.io, Firebase, etc.
+Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d&#39;API à un système tiers, c&#39;est à cet emplacement que vous configurez la connexion de ce système aux parcours. L&#39;action personnalisée définie par les utilisateurs techniques sera alors disponible dans la palette gauche du parcours, dans la catégorie **[!UICONTROL Action]** (voir [cette page](../building-journeys/about-journey-activities.md#action-activities). À titre dʼexemple, Epsilon, Slack, Adobe.io, Firebase, etc. sont des systèmes auxquels vous pouvez vous connecter à lʼaide dʼactions personnalisées.
 
-Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des professionnels du marketing. Une fois configurés, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
+Les limites sont répertoriées dans [cette page](../start/limitations.md).
 
-## Limites{#custom-actions-limitations}
-
-Les actions personnalisées sont assorties de quelques limites répertoriées dans [cette page](../start/limitations.md).
-
-Dans les paramètres d’action personnalisés, vous pouvez transmettre une collection simple, ainsi qu’une collection d’objets. En savoir plus au sujet de ces limites de collection sur [cette page](../building-journeys/collections.md#limitations).
-
-Notez également qu’un format spécifique est attendu pour les paramètres d’action personnalisés (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence. En savoir plus sur ce [cas d’utilisation](../building-journeys/collections.md).
-
-
-## Étapes de configuration {#configuration-steps}
+Vous pouvez transmettre des collections de manière dynamique à l’aide d’actions personnalisées. Reportez-vous à ce [cas d’utilisation](../building-journeys/collections.md).
 
 Les principales étapes nécessaires pour configurer une action personnalisée sont les suivantes :
 
 1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. Cliquez sur **[!UICONTROL Créer une action]** pour créer une nouvelle action. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
 
-   ![](assets/custom2.png)
+   ![](../assets/custom2.png)
 
 1. Saisissez le nom de l&#39;action.
 
@@ -60,7 +51,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
 Lors de la configuration d&#39;une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration d&#39;URL]** suivants :
 
-![](assets/journeyurlconfiguration.png)
+![](../assets/journeyurlconfiguration.png)
 
 1. Dans le champ **[!UICONTROL URL]**, spécifiez l&#39;URL du service externe :
 
@@ -89,7 +80,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
       Si vous avez sélectionné **[!UICONTROL Variable]**, vous spécifiez cette variable lors de l’ajout de l’action personnalisée à un parcours. [En savoir plus](../building-journeys/using-custom-actions.md).
 
-      ![](assets/journeyurlconfiguration2.png)
+      ![](../assets/journeyurlconfiguration2.png)
 
    1. Pour supprimer un champ d’en-tête, pointez sur le champ d’en-tête et cliquez sur l’icône **[!UICONTROL Supprimer]** .
    Les champs d’en-tête **[!UICONTROL Type de contenu]** et **[!UICONTROL CharSet]** sont définis par défaut. Vous ne pouvez pas modifier ni supprimer ces champs.
@@ -102,11 +93,11 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
 ## Définition des paramètres d’action {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
+![](../assets/messageparameterssection.png)
 
 Dans la section **[!UICONTROL Paramètres d&#39;action]**, collez un exemple de payload JSON à envoyer au service externe.
 
-![](assets/customactionpayloadmessage.png)
+![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +110,5 @@ Vous pourrez également préciser si le paramètre est une constante ou une vari
 * Le paramètre « Constante » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une personne ayant un rôle technique. La valeur reste identique dans tous les parcours et le marketeur ne la voit pas lors de l&#39;utilisation de l&#39;action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond à la valeur transmise.
 * Le paramètre « Variable » signifie que la valeur du paramètre varie. Le marketeur qui utilise cette action personnalisée dans un parcours sera libre de transmettre la valeur de son choix ou bien d’indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le marketeur voit dans le parcours pour nommer ce paramètre.
 
-![](assets/customactionpayloadmessage2.png)
+![](../assets/customactionpayloadmessage2.png)
 

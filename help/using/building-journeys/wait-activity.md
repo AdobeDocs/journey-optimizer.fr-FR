@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '393'
 ht-degree: 100%
 
 ---
@@ -25,9 +25,11 @@ Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;ac
 
 ## À propos de l&#39;activité d&#39;attente{#about_wait}
 
-Voici comment les attentes sont classées par priorité lorsque vous en utilisez plusieurs en parallèle. Si les attentes présentent la même configuration temporelle et une condition différente, mais superposée, celle qui est placée au-dessus est prioritaire. Supposons, par exemple, que la condition de la première attente soit « être une femme » et que la condition de la deuxième attente en parallèle est « être une VIP ». La première activité d&#39;attente sera donc prioritaire..
+Voici comment les attentes sont classées par priorité lorsque vous en utilisez plusieurs en parallèle. Si les attentes présentent la même configuration temporelle et une condition différente, mais superposée, celle qui est placée au-dessus est prioritaire. Supposons, par exemple, que la condition de la première attente soit « être une femme » et que la condition de la deuxième attente en parallèle est « être une VIP ». La première activité d&#39;attente sera donc prioritaire.
 
 Notez également que si deux attentes différentes s&#39;exécutent en parallèle, celle qui se produit en premier est prioritaire, quelle que soit sa position verticale. Par exemple, si une attente d&#39;une heure est placée au-dessus et une attente de 30 minutes en dessous, cette dernière est traitée après 30 minutes.
+
+Vous pouvez définir une condition afin de limiter l&#39;attente à une certaine population.
 
 >[!NOTE]
 >
@@ -39,13 +41,13 @@ Notez également que si deux attentes différentes s&#39;exécutent en parallèl
 
 Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante.
 
-![](assets/journey55.png)
+![](../assets/journey55.png)
 
 ## Attente à date fixe{#fixed_date}
 
 Sélectionnez la date d&#39;exécution de l&#39;activité suivante.
 
-![](assets/journey56.png)
+![](../assets/journey56.png)
 
 ## Attente personnalisée{#custom}
 
@@ -57,7 +59,7 @@ Cette option vous permet de définir une date personnalisée (le 12 juillet 20
 >
 >La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n&#39;est pas possible actuellement de pointer directement, à partir de l&#39;interface, vers un horodatage ISO-8601 complet associant l&#39;heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
 
-![](assets/journey57.png)
+![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +79,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](assets/journey57bis.png)-->
+![](../assets/journey57bis.png)-->

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
@@ -31,11 +31,11 @@ Les principales étapes nécessaires pour ajouter des groupes de champs à la so
 
    Le volet de configuration de la source de données s’ouvre alors dans la partie droite de l’écran.
 
-   ![](assets/journey23.png)
+   ![](../assets/journey23.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter un nouveau groupe de champs]** pour définir une nouvelle série de champs à récupérer. Voir [cette page](../datasource/configure-data-sources.md#define-field-groups).
 
-   ![](assets/journey24.png)
+   ![](../assets/journey24.png)
 
 1. Sélectionnez un schéma dans la liste déroulante **[!UICONTROL Schéma]**. Ce champ répertorie les schémas de profil et d’événements d’expérience disponibles dans Adobe Experience Platform. La création du schéma n’est pas effectuée dans [!DNL Journey Optimizer], mais elle l’est dans Adobe Experience Platform.
 1. Sélectionnez les champs que vous souhaitez utiliser.

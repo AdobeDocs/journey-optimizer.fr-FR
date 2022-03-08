@@ -5,16 +5,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 97%
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
 # Niveaux d&#39;autorisation {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
+![](../assets/do-not-localize/permissions.png)
 
 Chaque profil de produit est constitué d&#39;autorisations permettant aux utilisateurs d&#39;accéder aux différentes fonctionnalités.
 Elles peuvent être divisées en deux types :
@@ -99,9 +99,9 @@ L’autorisation de haut niveau **[!DNL View journeys events, data sources and a
 Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à Journey Optimizer :
-   * journeys_events.read
-   * journeys_data_sources.read
-   * journeys_actions.read
+   * parcours_events.read
+   * parcours_data_sources.read
+   * parcours_actions.read
 
 * Spécifiques à Adobe Experience Platform :
    * schemas.read
@@ -417,13 +417,16 @@ Elle comprend les autorisations de bas niveau suivantes :
    * profiles.read
    * datasets.read
 
-## Journey Optimizer Library capability {library-permissions}
+### Autorisation [!DNL Manage landing page settings] {#manage-landing-page-settings}
 
-### Manage Library Items {#library-items}
-
-**[!DNL Manage Library Items]**[!DNL Journey Optimizer]
+Le **[!DNL Manage landing page settings]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer et modifier des sous-domaines de landing page et des paramètres prédéfinis.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
-* library_item.create
-* ibrary_item.delete
+* Spécifiques à Journey Optimizer :
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete

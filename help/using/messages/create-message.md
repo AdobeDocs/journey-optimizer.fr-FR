@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 0160c6b95c980bc54b4d196828c05a822ec0d8fd
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Création d&#39;un message {#create-message}
 
-Les messages sont disponibles à partir du raccourci **[!UICONTROL Messages]** sur la navigation de gauche. Tous les messages sont répertoriés, triés par date de publication (pour les messages publiés) ou par date de création (pour les messages en version préliminaire).
+Les messages sont disponibles à partir du raccourci **[!UICONTROL Messages]** sur la navigation de gauche. Tous les messages sont répertoriés, triés par date de publication (pour les messages publiés) ou par date de création (pour les messages à l&#39;état de brouillon).
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Utilisez la bascule **[!UICONTROL Afficher récents]** pour ajouter des liens di
 
 ![](assets/show-recent-messages.png)
 
-Utilisez l&#39;icône en forme de filtre pour afficher uniquement les messages rédigés, publiés ou en cours de publication. Vous pouvez également effectuer une recherche sur le libellé du message, comme suit :
+Utilisez l&#39;icône en forme de filtre pour afficher uniquement les messages à l&#39;état de brouillon, publiés ou en cours de publication. Vous pouvez également effectuer une recherche sur le libellé du message, comme suit :
 
 ![](assets/filter-messages.png)
 
@@ -52,7 +52,8 @@ Pour créer un nouveau message, procédez comme suit :
    * Sélectionnez le ou les canaux à utiliser pour ce message : email et/ou notification push. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
    Notez que vous pouvez à tout moment accéder au titre, à la description et au préréglage et les modifier à l&#39;aide du bouton **[!UICONTROL Propriétés]** de l&#39;interface de message.
 
-1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création du message. Votre message est ajouté dans la liste de messages, dans l&#39;état **[!UICONTROL Version préliminaire]**.
+1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création du message. Votre message est ajouté dans la liste de messages, dans l&#39;état **[!UICONTROL Brouillon]**.
+
 
    Un onglet est disponible pour chaque canal sélectionné. Utilisez ces onglets pour configurer le contenu pour chaque canal. Vous pouvez supprimer un onglet en le sélectionnant et en cliquant sur le bouton **[!UICONTROL Supprimer le canal]** à droite.
 
@@ -65,7 +66,7 @@ Pour créer un nouveau message, procédez comme suit :
 
    >[!NOTE]
    >   
-   >Vous pouvez personnaliser vos messages à l’aide des données des profils à l’aide de l’éditeur d’expression. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md).
+   >Vous pouvez personnaliser vos messages à l&#39;aide des données de profil, au moyen de l&#39;éditeur d&#39;expression. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md).
 
 1. Contrôlez le rendu de vos messages et vérifiez les paramètres de personnalisation avec les profils de test, à l&#39;aide de la section prévisualisation sur le côté gauche. Voir à ce propos [cette section](preview.md).
 
@@ -73,7 +74,7 @@ Pour créer un nouveau message, procédez comme suit :
 
 1. Vérifiez les alertes dans la section supérieure de l&#39;éditeur.  Certains d&#39;entre eux sont de simples avertissements, mais d&#39;autres peuvent vous empêcher de publier le message. En savoir plus dans [cette section](alerts.md).
 
-1. Vous pouvez désormais publier votre message en cliquant sur le bouton **[!UICONTROL Publier]**, ou le conserver en tant que version préliminaire et le publier ultérieurement. Pour plus d&#39;informations sur la publication de messages, consultez [cette section](publish-manage-message.md).
+1. Vous pouvez désormais publier votre message en cliquant sur le bouton **[!UICONTROL Publier]**, ou le conserver en tant brouillon et le publier ultérieurement. Pour plus d&#39;informations sur la publication de messages, consultez [cette section](publish-manage-message.md).
 
 ## Dupliquer un message {#duplicate-message}
 

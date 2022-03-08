@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '240'
 ht-degree: 100%
 
 ---
@@ -20,31 +20,27 @@ Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** dès qu
 
 * Si vous souhaitez cibler un parcours ou des diffusions dans le contexte d&#39;un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur l&#39;icône **[!UICONTROL Rapport dynamique]**. Vous trouverez alors les rapports dynamiques Parcours, Email et Push.
 
-   ![](assets/report_journey.png)
+   ![](../assets/report_journey.png)
 
 * Si vous souhaitez cibler une diffusion spécifique, dans l’**[!UICONTROL Affichage dynamique]** de l’onglet **[!UICONTROL Exécutions]** de vos messages, sélectionnez **[!UICONTROL Rapport dynamique]** dans le menu avancé de la diffusion sélectionnée.
 
-   ![](assets/report_2.png)
+   ![](../assets/report_2.png)
 
 ## Personnalisation du tableau de bord {#modify-dashboard}
 
 Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets. La modification des widgets n’a un impact que sur le tableau de bord de l’utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
 
-1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, consultez [cette page](../building-journeys/testing-the-journey.md).
+1. Dans votre rapport dynamique, cliquez sur **[!UICONTROL Modifier]**.
 
-   ![](assets/report_modify_6.png)
-
-1. Pour redimensionner ou supprimer des widgets, cliquez sur **[!UICONTROL Modifier]**.
-
-   ![](assets/report_modify_7.png)
+   ![](../assets/report_modify_1.png)
 
 1. Ajustez la taille des widgets en faisant glisser leur coin inférieur droit.
 
-   ![](assets/report_modify_8.png)
+   ![](../assets/report_modify_2.png)
 
-1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer tout widget dont vous n’avez pas besoin.
+1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d&#39;autres widgets dont vous n&#39;avez pas besoin pour suivre les bounces.
 
-   ![](assets/report_modify_9.png)
+   ![](../assets/report_modify_3.png)
 
 1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 

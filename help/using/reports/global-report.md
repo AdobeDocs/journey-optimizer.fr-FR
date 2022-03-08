@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '261'
 ht-degree: 100%
 
 ---
@@ -27,28 +27,26 @@ Le **[!UICONTROL rapport global]** vous permet de mesurer l&#39;impact de vos pa
 
 ## Personnalisation du tableau de bord {#modify-dashboard}
 
-Chaque tableau de bord de reporting peut être modifié en modifiant la période et en redimensionnant ou en supprimant des widgets. La modification des widgets n&#39;a un impact que sur le tableau de bord de l&#39;utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
+Chaque tableau de bord de rapports peut être modifié en redimensionnant ou en supprimant des widgets ou en modifiant la période ciblée. La modification des widgets n&#39;a un impact que sur le tableau de bord de l&#39;utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
 
-1. Dans votre rapport global, sélectionnez une heure de début et une heure de fin pour cibler des données spécifiques.
+1. Dans votre tableau de bord **[!UICONTROL Rapport global]**, cliquez sur le bouton du planificateur.
 
-   ![](assets/report_modify_1.png)
+1. Sélectionnez les dates de début et de fin. Vous pouvez affiner davantage vos rapports en sélectionnant une **[!UICONTROL Heure de début]** et une **[!UICONTROL Heure de fin]**.
 
-1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, consultez [cette page](../building-journeys/testing-the-journey.md).
+   ![](../assets/global_report_6.png)
 
-   ![](assets/report_modify_2.png)
+1. Cliquez sur **[!UICONTROL Modifier]**.
 
-1. Cliquez sur **[!UICONTROL Modifier]** pour commencer à personnaliser votre tableau de bord.
-
-   ![](assets/report_modify_3.png)
+   ![](../assets/global_report_8.png)
 
 1. Ajustez la taille des widgets en faisant glisser leur coin inférieur droit.
 
-   ![](assets/report_modify_4.png)
+   ![](../assets/global_report_9.png)
 
-1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer tout widget dont vous n’avez pas besoin.
+1. Cliquez sur **[!UICONTROL Supprimer]** pour supprimer d&#39;autres widgets dont vous n&#39;avez pas besoin pour suivre les bounces.
 
-   ![](assets/report_modify_5.png)
+   ![](../assets/global_report_10.png)
 
 1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre tableau de bord est maintenant enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports dynamiques. Si nécessaire, utilisez l’option **[!UICONTROL Réinitialiser]** pour restaurer les widgets par défaut et leur ordre.
+Votre tableau de bord est maintenant enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports globaux. Si nécessaire, utilisez l&#39;option **[!UICONTROL Réinitialiser]** pour restaurer les widgets par défaut et l&#39;ordre des widgets.

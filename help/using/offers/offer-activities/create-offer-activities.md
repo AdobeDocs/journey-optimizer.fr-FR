@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1287'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Les décisions (précédemment appelées activités d’offre) sont des conteneu
 
 La liste des décisions est accessible dans le menu **[!UICONTROL Offres]**> onglet **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leurs statuts ou de leurs dates de début ou de fin.
 
-![](../assets/activities-list.png)
+![](../../assets/activities-list.png)
 
 Avant de créer une décision, vérifiez que les composants suivants ont été créés dans la bibliothèque des offres :
 
@@ -38,17 +38,17 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 1. Définissez une date et une heure de début et de fin si nécessaire, puis cliquez sur **[!UICONTROL Suivant]**. 
 
-   ![](../assets/activities-name.png)
+   ![](../../assets/activities-name.png)
 
 ## Définir des portées de décision {#add-decision-scopes}
 
 1. Sélectionnez un emplacement dans la liste déroulante. Il sera ajouté à la première portée de décision de votre décision. 
 
-   ![](../assets/activities-placement.png)
+   ![](../../assets/activities-placement.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner les critères d’évaluation de cet emplacement. 
 
-   ![](../assets/activities-evaluation-criteria.png)
+   ![](../../assets/activities-evaluation-criteria.png)
 
    Chaque critère consiste en une collection d’offres associée à une contrainte d’éligibilité et à une méthode de classement permettant de déterminer les offres à afficher dans l’emplacement. 
 
@@ -58,7 +58,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 1. Sélectionnez la collection d’offres qui contient les offres à prendre en compte, puis cliquez sur **[!UICONTROL Ajouter]**. 
 
-   ![](../assets/activities-collection.png)
+   ![](../../assets/activities-collection.png)
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    La collection sélectionnée est ajoutée au critère. 
 
-   ![](../assets/activities-collection-added.png)
+   ![](../../assets/activities-collection-added.png)
 
 1. Utilisez le champ **[!UICONTROL Éligibilité]** pour restreindre la sélection des offres pour cet emplacement. 
 
@@ -74,23 +74,23 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    * Pour limiter la sélection des offres aux membres d’un segment Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter des segments]**. 
 
-      ![](../assets/activity_constraint_segment.png)
+      ![](../../assets/activity_constraint_segment.png)
 
       Ajoutez un ou plusieurs segments depuis le volet de gauche, puis combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]**/**[!UICONTROL Ou]**. 
 
-      ![](../assets/activity_constraint_segment2.png)
+      ![](../../assets/activity_constraint_segment2.png)
 
       Découvrez comment utiliser des segments dans [cette section](../../segment/about-segments.md). 
 
    * Si vous souhaitez ajouter une contrainte de sélection avec une règle de décision, utilisez l’option **[!UICONTROL Règle de décision]** et sélectionnez la règle de votre choix. 
 
-      ![](../assets/activity_constraint_rule.png)
+      ![](../../assets/activity_constraint_rule.png)
 
       Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md). 
 
 1. Définissez la méthode de classement à utiliser pour sélectionner la meilleure offre pour chaque profil. 
 
-   ![](../assets/activity_ranking-method.png)
+   ![](../../assets/activity_ranking-method.png)
 
    * Par défaut, si plusieurs offres sont éligibles pour cet emplacement, l’offre ayant le score de priorité le plus élevé sera diffusée au client. 
 
@@ -98,25 +98,25 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 1. Cliquez sur **[!UICONTROL Ajouter]** pour définir d’autres critères pour le même emplacement. 
 
-   ![](../assets/activity_add-collection.png)
+   ![](../../assets/activity_add-collection.png)
 
 1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence sera évaluée en premier, etc. 
 
    Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les collections afin de les réorganiser selon vos besoins. 
 
-   ![](../assets/activity_reorder-collections.png)
+   ![](../../assets/activity_reorder-collections.png)
 
 1. Vous pouvez également évaluer plusieurs critères en même temps. Pour ce faire, glissez et déposez la collection au-dessus d’une autre. 
 
-   ![](../assets/activity_move-collection.png)
+   ![](../../assets/activity_move-collection.png)
 
    Elles possèdent désormais le même rang et seront donc évaluées en même temps. 
 
-   ![](../assets/activity_same-rank-collections.png)
+   ![](../../assets/activity_same-rank-collections.png)
 
 1. Pour ajouter un emplacement supplémentaire pour vos offres dans le cadre de cette décision, cliquez sur le bouton **[!UICONTROL Nouvelle portée]**. Répétez les étapes ci-dessus pour chaque portée de décision. 
 
-   ![](../assets/activity_new-scope.png)
+   ![](../../assets/activity_new-scope.png)
 
 ### Utilisation des segments par rapport aux règles de décision {#segments-vs-decision-rules}
 
@@ -144,7 +144,7 @@ Une fois que vous avez défini les portées de décision, définissez l’offre 
 
 Pour ce faire, sélectionnez-la dans la liste des offres de secours disponibles pour les emplacements définis dans la décision, puis cliquez sur **[!UICONTROL Suivant]**.
 
-![](../assets/add-fallback-offer.png)
+![](../../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
@@ -156,44 +156,45 @@ Si tout est configuré correctement, un résumé des propriétés de la décisio
 
 1. Assurez-vous que la décision est prête à être utilisée pour présenter des offres aux clients. Toutes les portées de décision et l’offre de secours qu’elle contient s’affichent. 
 
-   ![](../assets/review-decision.png)
+   ![](../../assets/review-decision.png)
 
    Vous pouvez développer ou réduire chaque emplacement. Vous pouvez également prévisualiser les offres disponibles, les détails d’éligibilité et de classement pour chaque emplacement. 
 
-   ![](../assets/review-decision-details.png)
+   ![](../../assets/review-decision-details.png)
 
 1. Cliquez sur **[!UICONTROL Terminer]**.
 1. Sélectionnez **[!UICONTROL Enregistrer et activer]**. 
 
-   ![](../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
 
-   Vous pouvez également enregistrer la décision en tant que version préliminaire afin de la modifier et de l&#39;activer ultérieurement.
+   Vous pouvez également enregistrer la décision en tant que brouillon afin de la modifier et de l&#39;activer ultérieurement.
 
-La décision s&#39;affiche dans la liste avec l&#39;état **[!UICONTROL Actif]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez activée ou non à l&#39;étape précédente.
+La décision s&#39;affiche dans la liste avec l&#39;état **[!UICONTROL Actif]** ou **[!UICONTROL Brouillon]**, selon que vous l&#39;avez activée ou non à l&#39;étape précédente.
 
 Elle est maintenant prête à être utilisée pour diffuser des offres vers les clients.
 
 ## Liste des décisions {#decision-list}
 
-Dans la liste des décisions, vous pouvez sélectionner la décision afin d&#39;afficher ses propriétés. Depuis cet emplacement, vous pouvez également la modifier, modifier son statut (**Version préliminaire**, **Actif**, **Terminé**, **Archivé**), la dupliquer ou la supprimer.
+Dans la liste des décisions, vous pouvez sélectionner la décision afin d&#39;afficher ses propriétés. Depuis cet emplacement, vous pouvez également la modifier, modifier son statut (**Brouillon**, **Actif**, **Terminé**, **Archivé**), la dupliquer ou la supprimer.
 
-![](../assets/decision_created.png)
+![](../../assets/decision_created.png)
 
 Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;édition de la décision, où vous pouvez modifier ses [détails](#create-activity), les [portées de décision](#add-decision-scopes) et l&#39;[offre de secours](#add-fallback).
 
-Sélectionnez une décision active et cliquez sur **[!UICONTROL Désactiver]** pour redéfinir le statut de la décision sur **[!UICONTROL Version préliminaire]**.
+Sélectionnez une décision active et cliquez sur **[!UICONTROL Désactiver]** pour redéfinir le statut de la décision sur **[!UICONTROL Brouillon]**.
 
 Pour définir à nouveau le statut sur **[!UICONTROL Actif]**, cliquez sur le bouton **[!UICONTROL Activer]** qui s&#39;affiche désormais.
 
-![](../assets/decision_activate.png)
+![](../../assets/decision_activate.png)
 
 Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessous.
 
-![](../assets/decision_more-actions.png)
+![](../../assets/decision_more-actions.png)
 
-* **[!UICONTROL Terminé]** : définit le statut de la décision sur **[!UICONTROL Terminé]**, ce qui signifie que la décision ne peut plus être appelée. Cette action n&#39;est disponible que pour les décisions activées. La décision est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Version préliminaire]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement la dupliquer, la supprimer ou l&#39;archiver.
+* **[!UICONTROL Terminé]** : définit le statut de la décision sur **[!UICONTROL Terminé]**, ce qui signifie que la décision ne peut plus être appelée. Cette action n&#39;est disponible que pour les décisions activées. La décision est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Brouillon]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement la dupliquer, la supprimer ou l&#39;archiver.
 
-* **[!UICONTROL Dupliquer]** : crée une décision avec les mêmes propriétés, portées de décision et offre de secours. Par défaut, la nouvelle décision a le statut **[!UICONTROL Version préliminaire]**.
+* **[!UICONTROL Dupliquer]** : crée une décision avec les mêmes propriétés, portées de décision et offre de secours. Par défaut, la nouvelle décision a le statut **[!UICONTROL Brouillon]**.
+
 
 * **[!UICONTROL Supprimer]** : supprime la décision de la liste.
 
@@ -203,23 +204,23 @@ Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessou
    >
    >Si la décision est utilisée dans un autre objet, elle ne peut pas être supprimée.
 
-* **[!UICONTROL Archiver]** : définit le statut de la décision sur **[!UICONTROL Archivé]**. La décision est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Version préliminaire]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement la dupliquer ou la supprimer.
+* **[!UICONTROL Archiver]** : définit le statut de la décision sur **[!UICONTROL Archivé]**. La décision est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Brouillon]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement la dupliquer ou la supprimer.
 
 Vous pouvez également supprimer ou modifier le statut de plusieurs décisions en même temps en cochant les cases correspondantes.
 
-![](../assets/decision_multiple-selection.png)
+![](../../assets/decision_multiple-selection.png)
 
 Si vous souhaitez modifier le statut de plusieurs décisions dont les statuts sont différents, seuls les statuts correspondants seront modifiés.
 
-![](../assets/decision_change-status.png)
+![](../../assets/decision_change-status.png)
 
 Une fois une décision créée, vous pouvez cliquer sur son nom dans la liste.
 
-![](../assets/decision_click-name.png)
+![](../../assets/decision_click-name.png)
 
 Vous pouvez ainsi accéder à des informations détaillées sur cette décision. Sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]** pour [surveiller toutes les modifications](../get-started/user-interface.md#changes-log) qui ont été apportées à la décision.
 
-![](../assets/decision_information.png)
+![](../../assets/decision_information.png)
 
 ## Tutoriel vidéo {#video}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '608'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Si un message est publié mais n&#39;est pas encore déclenché par un parcours,
 >
 >Si un message a été utilisé dans plusieurs parcours, une ligne par parcours est affichée pour chaque exécution.
 
-Par défaut, les messages s&#39;affichent à partir de la date d&#39;exécution la plus récente. Cliquez sur l’icône **[!UICONTROL Filtres]** pour rechercher les messages en fonction du canal, de la date de début et/ou de la date de fin. Vous pouvez également choisir d’exclure les événements de test de votre **Liste des exécutions**.
+Par défaut, les messages s&#39;affichent à partir de la date d&#39;exécution la plus récente. Cliquez sur l&#39;icône **[!UICONTROL Filtres]** pour rechercher les messages en fonction du canal, de la date de début et/ou de la date de fin.
 
 ![](assets/message-execution-tab-filters.png)
 

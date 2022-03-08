@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Pools d&#39;adresses IP]**, puis cliquez sur **[!UICONTROL Créer un pool d&#39;adresses IP]**.
 
-   ![](assets/ip-pool-create.png)
+   ![](../assets/ip-pool-create.png)
 
 1. Attribuez un nom et une description (facultatif) au pool d&#39;adresses IP.
 
@@ -39,7 +39,7 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
 
 1. Sélectionnez les adresses IP à inclure dans le pool dans la liste déroulante, puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   ![](assets/ip-pool-config.png)
+   ![](../assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
 
 Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher le préréglage de message associé. Pour plus d&#39;informations sur l&#39;association d&#39;un préréglage de message à un pool d&#39;adresses IP, consultez [cette section](message-presets.md).
 
-![](assets/ip-pool-created.png)
+![](../assets/ip-pool-created.png)
 
 ## Modification d&#39;un pool d&#39;adresses IP {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ Pour modifier un pool d’adresses IP :
 
 1. Dans la liste, cliquez sur le nom du pool d’adresses IP pour l’ouvrir.
 
-   ![](assets/ip-pool-list.png)
+   ![](../assets/ip-pool-list.png)
 
 1. Modifiez ses propriétés selon vos besoins. Vous pouvez modifier la description et ajouter ou supprimer des adresses IP.
 
-   ![](assets/ip-pool-edit.png)
+   ![](../assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ La mise à jour est effective immédiatement ou de manière asynchrone, selon qu
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 
-![](assets/ip-pool-recent-update.png)
+![](../assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

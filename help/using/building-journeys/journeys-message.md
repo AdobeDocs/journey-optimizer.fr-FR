@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -23,27 +23,27 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
 1. Comme toujours, débutez votre parcours avec un événement ou une activité **Lecture de segment**.
 
-   ![](assets/jo-message0.png)
+   ![](../assets/jo-message0.png)
 
 1. Dans la section **Actions** de la palette, faites glisser-déposer une activité **Message** dans la zone de travail.
 
-   ![](assets/jo-message1.png)
+   ![](../assets/jo-message1.png)
 
 1. Ajoutez un libellé et une description.
 
-   ![](assets/jo-message2.png)
+   ![](../assets/jo-message2.png)
 
 1. Cliquez dans le champ **Message**. La liste des messages disponibles conçus dans Journey Optimizer s’affiche. Vous pouvez filtrer la liste par état.
 
-   ![](assets/jo-message3.png)
+   ![](../assets/jo-message3.png)
 
 1. Choisissez un message et cliquez sur **Sélectionner**. Vous pouvez également créer un nouveau message directement à partir de cet écran en cliquant sur **Créer un message**.
 
-   ![](assets/jo-message4-ter.png)
+   ![](../assets/jo-message4-ter.png)
 
    Si vous souhaitez vérifier votre message, vous pouvez cliquer sur l&#39;icône **Ouvrir le message** dans le champ **Message**. Le message s&#39;ouvre dans un nouvel onglet.
 
-   ![](assets/jo-message4-bis.png)
+   ![](../assets/jo-message4-bis.png)
 
 1. Ajoutez les étapes suivantes à votre parcours.
 
@@ -51,7 +51,7 @@ Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer
 
 Les sections **[!UICONTROL Paramètres de l&#39;e-mail]** et **[!UICONTROL Paramètres Push]** affichent des champs en lecture seule. Cette configuration est généralement effectuée lors de la création du message. Consultez [cette section](../messages/get-started-content.md).
 
-![](assets/jo-message4.png)
+![](../assets/jo-message4.png)
 
 Pour forcer une valeur spécifique, vous pouvez utiliser l’icône **Activer la substitution de paramètre** à droite du champ. Cette option peut être utile à diverses fins :
 
@@ -105,7 +105,7 @@ Ces informations sont stockées avec le profil de l&#39;utilisateur et sont réf
 
 Activez l&#39;optimisation de l&#39;heure d&#39;envoi sur un e-mail ou un message push en sélectionnant le commutateur **Optimisation de l&#39;heure d&#39;envoi** dans les paramètres de l&#39;activité Message.
 
-![](assets/jo-message5.png)
+![](../assets/jo-message5.png)
 
 Pour les e-mails, choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push.
 

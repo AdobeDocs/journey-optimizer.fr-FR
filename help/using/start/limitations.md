@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 32113acec8df619efc024e555766cbf532720529
+source-git-commit: cf4bd9f8e76d5b1f43c45f68f2a08403c5b9c304
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 94%
+source-wordcount: '629'
+ht-degree: 92%
 
 ---
 
@@ -29,9 +29,8 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 
 * Un seul **Formulaire** peut être utilisé dans une seule Principale page.
 * Le **Formulaire** ne peut pas être utilisé dans les sous-pages.
+* Vous ne pouvez pas sélectionner la variable **Codez vos propres** lors de la conception d&#39;une landing Principale page.
 * Vous ne pouvez pas ajouter de pré-titre à une landing page.
-
-<!--You cannot select the **Code your own** option when designing a primary landing page.-->
 
 ## Limitations dans les parcours {#limitations-journeys}
 

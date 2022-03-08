@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
@@ -39,4 +39,4 @@ Les actions sont disponibles dans la palette gauche de votre parcours, dans la c
 
 Pour afficher la liste des actions ou configurer une nouvelle action, sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s&#39;affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 
-![](assets/custom1.png)
+![](../assets/custom1.png)

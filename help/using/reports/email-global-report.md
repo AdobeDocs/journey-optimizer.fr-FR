@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
@@ -19,11 +19,11 @@ Le **[!UICONTROL rapport global sur les e-mails]** ne cible qu&#39;une diffusion
 
 À partir de l&#39;onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, sélectionnez **[!UICONTROL Vue globale]**, puis, dans le menu avancé de la diffusion sélectionnée, sélectionnez **[!UICONTROL Rapport global]**.
 
-![](assets/global_report_3.png)
+![](../assets/global_report_3.png)
 
 Le **[!UICONTROL rapport global sur les e-mails]** est divisé en différents widgets détaillant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
 
-![](assets/global_report_4.png)
+![](../assets/global_report_4.png)
 
 **[!UICONTROL Performances des emails]** présente les principales informations relatives à votre message avec les KPI :
 
@@ -65,7 +65,7 @@ Le graphique **[!UICONTROL Statistiques d’envoi]** présente le succès de vot
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
-![](assets/global_report_5.png)
+![](../assets/global_report_5.png)
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
@@ -79,7 +79,7 @@ Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppre
 
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
 
-![](assets/global_report_6.png)
+![](../assets/global_report_6.png)
 
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
 
@@ -92,7 +92,7 @@ Le rapport **[!UICONTROL Ouvertures vs. clics]** identifie l&#39;interaction de 
 * **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
 
 <!--
-![](assets/global_report_20.png)
+![](../assets/global_report_20.png)
 
 >[!NOTE]
 >

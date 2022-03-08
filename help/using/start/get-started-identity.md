@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Les informations d’identification personnelle (PII) telles que l’adresse e-m
 
 Dans [!DNL Adobe Journey Optimizer], les **identités** relient les consommateurs sur les différents appareils et canaux. Le résultat est un [graphique d’identités](#id-graph). Le graphique d’identité lié est utilisé pour personnaliser les expériences en fonction des interactions entre tous les points de contact de votre entreprise.
 
-![](assets/identities-home.png)
+![](../assets/identities-home.png)
 
 Découvrez le **Service d’identités** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target=&quot;_blank&quot;}.
 

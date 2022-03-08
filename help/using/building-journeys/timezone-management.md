@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Le fuseau horaire peut également être fixe. Effacez le fuseau horaire prédéf
 
 Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionnez un fuseau horaire.
 
-![](assets/journey72.png)
+![](../assets/journey72.png)
 
 ## Utilisation de profils pour définir le fuseau horaire du parcours {#timezone-from-profiles}
 
@@ -50,7 +50,7 @@ Si le profil de l&#39;individu ne contient pas de fuseau horaire, celui qui sera
 
 Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Utiliser le fuseau horaire du profil dans les attentes et conditions]**.
 
-![](assets/journey73.png)
+![](../assets/journey73.png)
 
 ## Utilisation des fuseaux horaires dans les expressions {#timezone-in-expressions}
 

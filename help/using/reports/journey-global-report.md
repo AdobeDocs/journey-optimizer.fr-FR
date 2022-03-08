@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1090'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Vous pouvez accéder directement au rapport global de parcours à partir de votre parcours à l&#39;aide du bouton **[!UICONTROL Rapport global]**.
 
-![](assets/global_report_1.png)
+![](../assets/global_report_1.png)
 
 La page **[!UICONTROL Rapport global]** du parcours s&#39;affiche avec les onglets suivants :
 
@@ -31,7 +31,7 @@ Le rapport **[!UICONTROL global]** de parcours est divisé en différents widget
 
 À partir de votre **[!UICONTROL rapport global]** de parcours, l&#39;onglet **[!UICONTROL Parcours]** vous donne une vue claire des données de suivi les plus importantes concernant votre parcours.
 
-![](assets/global_report_2.png)
+![](../assets/global_report_2.png)
 
 Le widget **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement de vos profils ciblés pas à pas tout au long du parcours.
 
@@ -43,11 +43,11 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 * **[!UICONTROL Parcours individuel en échec]** : nombre total de parcours individuels qui n&#39;ont pas été exécutés avec succès.
 
-![](assets/global_report_12.png)
+![](../assets/global_report_12.png)
 
 Les widgets **[!UICONTROL Événements reçus par événement]****** et **[!UICONTROL Événements par origine]** vous permettent de savoir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
 
-![](assets/global_report_13.png)
+![](../assets/global_report_13.png)
 
 Les widgets **[!UICONTROL Performance de l&#39;action]**, **[!UICONTROL Raisons de l&#39;erreur de l&#39;action]** et **[!UICONTROL Principales actions]** représentent l&#39;action la plus réussie et les erreurs survenues lorsque vos **[!UICONTROL Actions]** ont été déclenchées.
 
@@ -63,7 +63,7 @@ Le tableau **[!UICONTROL Principales actions]** contient les données disponible
 
 Pour obtenir un rapport détaillé sur une diffusion par e-mail spécifique, consultez la section [Rapport global d&#39;e-mail](#email-global-report).
 
-![](assets/global_report_14.png)
+![](../assets/global_report_14.png)
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d&#39;e-mail]** détaille la réussite de votre diffusion :
 
@@ -107,7 +107,7 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données dis
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
-![](assets/global_report_15.png)
+![](../assets/global_report_15.png)
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
@@ -119,37 +119,14 @@ Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de r
 
 Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppression](../messages/suppression-list.md).
 
-![](assets/global_report_22.png)
-
-Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
-
-Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
-
-![](assets/global_report_16.png)
+![](../assets/global_report_16.png)
 
 Le graphique et le tableau **[!UICONTROL E-mail - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
 
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
 
-![](assets/global_report_23.png)
-
->[!NOTE]
->
->Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez cette [page](../building-journeys/journeys-message.md#send-time-optimization).
-
-Le graphique **[!UICONTROL Optimisé ou non optimisé]** détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
-
-* **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
-* **[!UICONTROL Ouvertures]** : nombre de fois où la diffusion a été ouverte dans une diffusion.
-* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans un e-mail.
-
-L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de votre diffusion selon la méthode d’envoi : optimisé ou normal.
-
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
-
 <!--
-![](assets/global_report_21.png)
+![](../assets/global_report_21.png)
 
 >[!NOTE]
 >
@@ -182,7 +159,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l&#39;onglet **[!UICO
 
 Pour obtenir un rapport détaillé sur une diffusion push spécifique, reportez-vous à ce [rapport global push](#push-global-report).
 
-![](assets/global_report_17.png)
+![](../assets/global_report_17.png)
 
 Le tableau **[!UICONTROL Notification push - Statistiques d&#39;envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
@@ -224,25 +201,10 @@ Le graphique **[!UICONTROL Résumé des notifications push]** contient les donn�
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
->[!NOTE]
->
->Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez cette [page](../building-journeys/journeys-message.md#send-time-optimization).
-
-Le graphique **[!UICONTROL Optimisé ou non optimisé]** détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
-
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
-* **[!UICONTROL Ouvertures]** : nombre de fois où la diffusion a été ouverte dans une diffusion.
-* **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
-
-L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de votre diffusion selon la méthode d’envoi : optimisé ou normal.
-
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
-
-![](assets/global_report_18.png)
+![](../assets/global_report_18.png)
 
 Le graphique et le tableau **[!UICONTROL Raisons de l&#39;erreur]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
 
-![](assets/global_report_19.png)
+![](../assets/global_report_19.png)
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel de votre destinataire.

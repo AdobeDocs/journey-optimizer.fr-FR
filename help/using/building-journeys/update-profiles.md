@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,6 @@ L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous perm
 * Vous ne pouvez pas utiliser l&#39;action **Mettre à jour le profil** pour générer des événements d&#39;expérience, par exemple un achat.
 * Comme toute autre action, vous pouvez définir un itinéraire alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
 * La requête de mise à jour envoyée à Platform sera rapide mais pas immédiate/ne démarrera pas dans la seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action Mettre à jour le profil positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour de « champ 1 » dans l&#39;action.
-* L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme une énumération.
 
 ## Utilisation du mode test {#using-the-test-mode}
 
@@ -40,13 +39,13 @@ Pour plus d&#39;informations sur la façon de transformer un profil existant en 
 
 1. Dans la section **Action** de la palette, déposez l&#39;activité **Mettre à jour le profil** sur la zone de travail.
 
-   ![](assets/profileupdate0.png)
+   ![](../assets/profileupdate0.png)
 
 1. Sélectionnez un schéma dans la liste.
 
 1. Cliquez sur **Champ** pour sélectionner le champ à mettre à jour. Vous ne pouvez sélectionner qu&#39;un seul champ.
 
-   ![](assets/profileupdate2.png)
+   ![](../assets/profileupdate2.png)
 
 1. Sélectionnez un jeu de données dans la liste.
 
@@ -58,12 +57,12 @@ Pour plus d&#39;informations sur la façon de transformer un profil existant en 
 
    * L&#39;éditeur d&#39;expression simple vous permet de sélectionner un champ à partir d&#39;une source de données ou de l&#39;événement entrant.
 
-      ![](assets/profileupdate4.png)
+      ![](../assets/profileupdate4.png)
 
    * Si vous souhaitez définir une valeur spécifique ou utiliser des fonctions avancées, cliquez sur **Mode avancé**.
 
-      ![](assets/profileupdate3.png)
+      ![](../assets/profileupdate3.png)
 
 L&#39;action **Mettre à jour le profil** est maintenant configurée.
 
-![](assets/profileupdate1.png)
+![](../assets/profileupdate1.png)

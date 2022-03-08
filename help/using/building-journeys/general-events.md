@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C&#39;est l&#39;utilisateur technique qui s&#39;en charge. Voir [cette page](../event/about-events.md).
 
-![](assets/general-events.png)
+![](../assets/general-events.png)
 
 Lorsque vous déposez un événement métier, cela ajoute automatiquement une activité **Lecture de segment**. Pour plus d&#39;informations sur les événements métier, consultez [cette section](../event/about-events.md)
 
@@ -36,7 +36,7 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 1. Si vous souhaitez orienter les individus vers un chemin de temporisation, alors qu&#39;aucun événement n&#39;est reçu au cours de la temporisation spécifiée, activez l&#39;option **[!UICONTROL Ajouter un itinéraire de temporisation]**. Si cette option n&#39;est pas activée, le parcours se termine pour l&#39;individu une fois le délai de temporisation atteint.
 
-   ![](assets/event-timeout.png)
+   ![](../assets/event-timeout.png)
 
 Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il n&#39;envoie ensuite un message d&#39;offre de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l&#39;événement « restaurant » avec une temporisation d&#39;un jour :
 
@@ -47,4 +47,4 @@ Notez que si vous souhaitez configurer une temporisation pour plusieurs événem
 
 La temporisation s&#39;applique à tous les événements postérieurs à l&#39;activité **[!UICONTROL Attente]**. Si aucun événement n&#39;est reçu avant la temporisation spécifiée, les individus s&#39;engagent dans un itinéraire de temporisation unique ou terminent leur parcours.
 
-![](assets/event-timeout-group.png)
+![](../assets/event-timeout-group.png)

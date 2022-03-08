@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Informations d’identification API]**, puis cliquez sur **[!UICONTROL Création d’informations d’identification API]**.
 
-   ![](assets/sms_4.png)
+   ![](../assets/sms_4.png)
 
 1. Sélectionnez Sinch an tant que **[!UICONTROL Fournisseur de SMS]**.
 
@@ -39,7 +39,7 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
    >
    > Sinch nécessite des informations d’identification API spéciales. Pour rechercher votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**, accédez au menu SMS > API depuis votre compte Sinch,
 
-   ![](assets/sms_5.png)
+   ![](../assets/sms_5.png)
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
@@ -53,11 +53,11 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Marques]**/**[!UICONTROL Préréglages de message]**, puis cliquez sur **[!UICONTROL Créer un préréglage de message]**. 
 
-   ![](assets/preset-create.png)
+   ![](../assets/preset-create.png)
 
 1. Saisissez un nom et une description (facultatif) pour le préréglage, puis sélectionnez le canal SMS.
 
-   ![](assets/sms_preset.png)
+   ![](../assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Configurez les paramètres des **SMS**.
 
-   ![](assets/preset-sms.png)
+   ![](../assets/preset-sms.png)
 
    * Sélectionnez le **[!UICONTROL Type de SMS]** qui sera envoyé avec le préréglage : **[!UICONTROL Transactionnel]** ou **[!UICONTROL Marketing]**.
 
@@ -75,9 +75,9 @@ Pour créer un préréglage de message, procédez comme suit :
 
    * Saisissez le **[!UICONTROL Numéro dʼexpéditeur]** à utiliser lors de vos communications.
 
-1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que version préliminaire et reprendre sa configuration ultérieurement.
+1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa configuration ultérieurement.
 
-   ![](assets/sms_preset_2.png)
+   ![](../assets/sms_preset_2.png)
 
 1. Une fois le préréglage de message créé, il s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
 
@@ -87,7 +87,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
 
-   ![](assets/preset-active.png)
+   ![](../assets/preset-active.png)
 
 Vous êtes maintenant prêt à envoyer des messages SMS avec Journey Optimizer.
 

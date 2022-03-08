@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
@@ -31,13 +31,13 @@ Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffus
 
    1. Définissez le champ **[!UICONTROL Limite]** sur le nombre maximal de destinataires pour cette diffusion.
 
-   ![](assets/profile-cap-condition.png)
+   ![](../assets/profile-cap-condition.png)
 
    Vous pouvez augmenter progressivement cette limite jusqu’au nombre total dʼabonnés.
 
 1. Ajoutez une activité de **[!UICONTROL Message]** vers le chemin nominal après lʼactivité de **[!UICONTROL Condition]**.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![](../assets/ramp-up-deliveries-message.png)
 
    Lors de lʼexécution du parcours, le message est envoyé aux profils entrants, dans la limite du nombre maximal de profils que vous avez spécifié. Lorsque cette limite est atteinte, les profils entrants empruntent lʼautre chemin.
 

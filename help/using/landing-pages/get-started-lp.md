@@ -5,34 +5,19 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '149'
 ht-degree: 100%
 
 ---
 
 # Prise en main des pages de destination {#get-sarted-lp}
 
->[!CAUTION]
->
->Lʼutilisation des pages de destination est actuellement disponible en accès anticipé uniquement pour certains utilisateurs. Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
-
 Une page de destination est une page web autonome sur laquelle l’utilisateur arrive après avoir cliqué sur un lien présent dans un e-mail, un site Web, une publicité ou tout autre emplacement numérique.
 
-<!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
-
 [!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination afin de diriger vos utilisateurs vers des formulaires en ligne, à partir desquels ils pourront s’inscrire ou se désinscrire de lʼenvoi de vos communications, ainsi que s’abonner à un service spécifique, par exemple une newsletter.
-
-<!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
-
-<!--[!DNL Journey Optimizer] now allows you to:
-* Easily build landing pages to make users subscribe to your communications.
-* Enable your customers to opt-in or opt-out from your communications.
-To move to RN-->
 
 * Tirez parti des fonctionnalités de conception de contenu de [!DNL Journey Optimizer] et créez en toute facilité des **pages de destination dynamiques**.
 * Configurez les **flux dʼinscription et de désinscription** rapidement et sans effort.

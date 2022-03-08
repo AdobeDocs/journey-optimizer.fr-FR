@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1618'
 ht-degree: 100%
 
 ---
@@ -27,11 +27,11 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
 
-   ![](assets/journeytest1.png)
+   ![](../assets/journeytest1.png)
 
 1. Utilisez le paramètre **[!UICONTROL Durée d’attente]**, dans le coin inférieur gauche, pour définir la durée de chaque activité d’attente et temporisation d’événement en mode test. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
 
-   ![](assets/journeytest_wait.png)
+   ![](../assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -39,15 +39,15 @@ Pour utiliser le mode test, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
-   ![](assets/journeyuctest1.png)
+   ![](../assets/journeyuctest1.png)
 
 1. Configurez les différents champs prévus. Dans le champ **Identifiant de profil**, saisissez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse e-mail. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
 
-   ![](assets/journeyuctest1-bis.png)
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des journaux](#viewing_logs).
 
-   ![](assets/journeyuctest2.png)
+   ![](../assets/journeyuctest2.png)
 
 1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Voir [cette page](../building-journeys/publishing-the-journey.md).
 
@@ -61,7 +61,6 @@ Pour utiliser le mode test, procédez comme suit :
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 * Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
-* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut Version préliminaire.
 
 ## Déclenchement d’événements {#firing_events}
 
@@ -75,17 +74,17 @@ Vous devez, au préalable, savoir quels profils sont identifiés comme profils d
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans la payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
-![](assets/journeytest4.png)
+![](../assets/journeytest4.png)
 
 L’interface vous permet de transmettre des paramètres d’événement simples. Si vous souhaitez transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez cliquer sur **[!UICONTROL Affichage du code]** pour voir l’intégralité du code de la payload et le modifier. Vous pouvez, par exemple, copier et coller des informations d’événement préparées par un utilisateur technique.
 
-![](assets/journeytest5.png)
+![](../assets/journeytest5.png)
 
 Un utilisateur technique peut également se servir de cette interface pour composer des payloads d’événement et déclencher des événements sans recourir à un outil tiers.
 
 Lorsque vous cliquez sur le bouton **[!UICONTROL Envoyer]**, le test commence. La progression de l’individu dans le parcours est représentée par un flux visuel. Le chemin devient progressivement vert à mesure du déplacement de l’individu dans le parcours. Si une erreur se produit, un symbole d’avertissement s’affiche à l’étape correspondante. Vous pouvez y placer le curseur pour afficher des informations plus précises sur l’erreur et accéder aux détails complets (le cas échéant).
 
-![](assets/journeytest6.png)
+![](../assets/journeytest6.png)
 
 Si vous sélectionnez un autre profil de test dans l’écran de configuration d’un événement et que vous exécutez de nouveau le test, le flux visuel est effacé et indique le chemin du nouvel individu.
 
@@ -99,7 +98,7 @@ Le mode test est également disponible pour les parcours qui utilisent un évén
 
 Lors du déclenchement d’un événement, l’écran de **configuration de l’événement** permet de définir les paramètres d’événement à transmettre au test. Vous pouvez afficher la condition d’identifiant d’événement en cliquant sur l’icône d’info-bulle située dans le coin supérieur droit. Une info-bulle est également disponible en regard de chaque champ qui fait partie de l’évaluation des règles.
 
-![](assets/jo-event8.png)
+![](../assets/jo-event8.png)
 
 Pour plus d’informations sur l’utilisation du mode test, consultez [cette page](../building-journeys/testing-the-journey.md).
 
@@ -113,7 +112,7 @@ Notez que lorsque vous déclenchez pour la première fois un événement métier
 
 Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
-![](assets/journeytest3.png)
+![](../assets/journeytest3.png)
 
 >[!NOTE]
 >

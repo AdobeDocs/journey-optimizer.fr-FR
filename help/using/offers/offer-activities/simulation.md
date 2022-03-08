@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Vous pouvez ainsi tester et affiner différentes versions de vos offres sans auc
 
 Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL Simulation]** dans le menu **[!UICONTROL Gestion des décisions]**/**[!UICONTROL Offres]**. 
 
-![](../assets/offers_simulation-tab.png)
+![](../../assets/offers_simulation-tab.png)
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -41,7 +41,7 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
 
 1. Cliquez sur **[!UICONTROL Gérer le profil]**.
 
-   ![](../assets/offers_simulation-manage-profile.png)
+   ![](../../assets/offers_simulation-manage-profile.png)
 
 1. Sélectionnez l’espace de noms d’identité à utiliser pour identifier les profils de test. Dans cet exemple, nous utiliserons l’espace de noms **E-mail**. 
 
@@ -51,15 +51,15 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
 
 1. Saisissez la valeur d’identité et cliquez sur **[!UICONTROL Affichage]** pour répertorier les profils disponibles. 
 
-   ![](../assets/offers_simulation-add-profile.png)
+   ![](../../assets/offers_simulation-add-profile.png)
 
 1. Ajoutez d’autres profils si vous souhaitez tester différentes données de profil et enregistrez votre sélection. 
 
-   ![](../assets/offers_simulation-save-profiles.png)
+   ![](../../assets/offers_simulation-save-profiles.png)
 
 1. Une fois ajoutés, tous les profils sont répertoriés dans la liste déroulante sous **[!UICONTROL Profil de test]**. Vous pouvez basculer entre les profils de test enregistrés pour afficher les résultats de chaque profil sélectionné. 
 
-   ![](../assets/offers_simulation-saved-profiles.png)
+   ![](../../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
@@ -75,11 +75,11 @@ Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur
 
 1. Sélectionnez **[!UICONTROL Ajouter une portée de décision]**.
 
-   ![](../assets/offers_simulation-add-decision.png)
+   ![](../../assets/offers_simulation-add-decision.png)
 
 1. Sélectionnez un emplacement dans la liste. 
 
-   ![](../assets/offers_simulation-add-decision-scope.png)
+   ![](../../assets/offers_simulation-add-decision-scope.png)
 
 1. Les décisions disponibles s’affichent. 
 
@@ -88,13 +88,13 @@ Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur
 
    Sélectionnez la décision de votre choix et cliquez sur **[!UICONTROL Ajouter]**.
 
-   ![](../assets/offers_simulation-add-decision-scope-add.png)
+   ![](../../assets/offers_simulation-add-decision-scope-add.png)
 
 1. La portée de décision que vous venez de définir s’affiche dans l’espace de travail principal. 
 
    Vous pouvez ajuster le nombre d’offres que vous souhaitez demander. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour cette portée de décision. 
 
-   ![](../assets/offers_simulation-request-offer.png)
+   ![](../../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur
 
 1. Répétez les étapes ci-dessus pour ajouter autant de décisions que nécessaire. 
 
-   ![](../assets/offers_simulation-add-more-decisions.png)
+   ![](../../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
@@ -114,11 +114,11 @@ Pour modifier les paramètres par défaut de vos simulations, procédez comme su
 
 1. Cliquez sur **[!UICONTROL Paramètres]**.
 
-   ![](../assets/offers_simulation-settings.png)
+   ![](../../assets/offers_simulation-settings.png)
 
 1. Dans la section **[!UICONTROL Déduplication]**, vous pouvez choisir d’autoriser les offres en double à travers les décisions et/ou les emplacements. Cela signifie que plusieurs décisions/emplacements peuvent se voir attribuer la même offre.
 
-   ![](../assets/offers_simulation-settings-deduplication.png)
+   ![](../../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ Pour modifier les paramètres par défaut de vos simulations, procédez comme su
 
 1. Dans la section **[!UICONTROL Format de la réponse]**, vous pouvez choisir d’inclure les métadonnées dans l’affichage du code. Cochez l’option correspondante, puis sélectionnez les métadonnées de votre choix. Elles s’affichent dans les payloads de la requête et de la réponse lors de la sélection de **[!UICONTROL Afficher le code]**. En savoir plus dans la section [Affichage des résultats de la simulation](#simulation-results).
 
-   ![](../assets/offers_simulation-settings-response-format.png)
+   ![](../../assets/offers_simulation-settings-response-format.png)
 
    >[!NOTE]
    >
@@ -158,13 +158,13 @@ Une fois que vous avez ajouté une portée de décision et sélectionné un prof
 
 1. Cliquez sur **[!UICONTROL Afficher les résultats]**.
 
-   ![](../assets/offers_simulation-view-results.png)
+   ![](../../assets/offers_simulation-view-results.png)
 
 1. La ou les meilleures offres disponibles sont affichées en fonction du profil sélectionné pour chaque décision. 
 
    Sélectionnez une offre pour afficher ses détails. 
 
-   ![](../assets/offers_simulation-offer-details.png)
+   ![](../../assets/offers_simulation-offer-details.png)
 
 1. Cliquez sur **[!UICONTROL Afficher le code]** pour afficher les payloads de la requête et de la réponse. [En savoir plus](#view-code)
 
@@ -180,19 +180,19 @@ Une fois que vous avez ajouté une portée de décision et sélectionné un prof
 
 1. Utilisez le bouton **[!UICONTROL Afficher le code]** pour afficher les payloads de la requête et de la réponse.
 
-   ![](../assets/offers_simulation-view-code.png)
+   ![](../../assets/offers_simulation-view-code.png)
 
    L’affichage du code montre les informations sur le développeur à l’utilisateur actuel. Par défaut, la **[!UICONTROL Payload de réponse]** s’affiche.
 
-   ![](../assets/offers_simulation-request-payload.png)
+   ![](../../assets/offers_simulation-request-payload.png)
 
 1. Cliquez sur **[!UICONTROL Payload de réponse]** ou **[!UICONTROL Payload de requête]** pour naviguer entre les deux onglets.
 
-   ![](../assets/offers_simulation-response-payload.png)
+   ![](../../assets/offers_simulation-response-payload.png)
 
 1. Pour utiliser la payload de la requête en dehors de [!DNL Journey Optimizer], à des fins de dépannage par exemple, copiez-la à l’aide du bouton **[!UICONTROL Copier dans le presse-papiers]** au-dessus de l’affichage du code.
 
-   ![](../assets/offers_simulation-copy-payload.png)
+   ![](../../assets/offers_simulation-copy-payload.png)
 
    <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
 

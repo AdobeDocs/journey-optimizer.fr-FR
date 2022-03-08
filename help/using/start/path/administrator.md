@@ -3,7 +3,7 @@ title: Prise en main de Journey Optimizer pour l’administrateur système
 description: En tant qu’administrateur système, découvrez comment utiliser Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
@@ -56,16 +56,16 @@ Suivez les étapes énumérées ci-dessous :
 
 1. **Déléguer des sous-domaines** : pour un nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](../../configuration/about-subdomain-delegation.md)
 
-   ![](../assets/subdomain.png)
+   ![](../../assets/subdomain.png)
 
 1. **Créer des pools d&#39;adresses IP** : améliorez la délivrabilité et la réputation de vos e-mails en regroupant les adresses IP configurées avec votre instance. [En savoir plus](../../configuration/ip-pools.md)
 
-   ![](../assets/ip-pool.png)
+   ![](../../assets/ip-pool.png)
 
 1. **Gérer les listes de suppression et d’autorisation** : améliorez votre délivrabilité grâce aux listes de suppression et d’autorisation. 
 
    * Une [liste de suppression](../../messages/suppression-list.md) est constituée d’adresses e-mail que vous souhaitez exclure de vos diffusions, car l’envoi d’e-mails à ces contacts pourrait nuire à votre réputation d’envoi et à vos taux de diffusion. Vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi d’un parcours, telles que les adresses non valides, les adresses qui entraînent constamment des soft bounces et qui pourraient nuire à la réputation de vos e-mails, ainsi que les destinataires qui demandent le classement de l’un de vos e-mails comme spam. Découvrez comment gérer la [liste de suppression](../../configuration/manage-suppression-list.md) et les [reprises](../../configuration/retries.md).
-   ![](../assets/suppression-list-filtering-example.png)
+   ![](../../assets/suppression-list-filtering-example.png)
 
    * La [liste autorisée](../../messages/allow-list.md) vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d’un environnement Sandbox spécifique. Cela peut vous empêcher d’envoyer accidentellement des e-mails à des adresses client réelles lorsque vous vous trouvez dans un environnement de test. Découvrez comment [activer la liste autorisée](../../messages/allow-list.md).
    En savoir plus sur la gestion de la délivrabilité dans [!DNL Adobe Journey Optimizer] [sur cette page](../../messages/deliverability.md).

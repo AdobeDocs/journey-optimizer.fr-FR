@@ -1,7 +1,7 @@
 ---
 title: Débuter l'exécution du parcours
 description: Découvrez comment débuter de votre parcours et envoyer des messages
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
@@ -21,14 +21,14 @@ En savoir plus dans cette [section](testing-the-journey.md).
 
 Vous devez publier votre parcours pour l’activer.
 
-![](assets/jo-journeyuc2_32bis.png)
+![](../assets/jo-journeyuc2_32bis.png)
 
 En savoir plus dans cette [section](publishing-the-journey.md).
 
 
 Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils de rapports dédiés afin de mesurer l’efficacité de votre parcours.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![](../assets/jo-dynamic_report_journey_12.png)
 
 [En savoir plus sur les rapports](../reports/live-report.md)
 
@@ -38,7 +38,7 @@ Lorsque le contenu de votre message est défini et publié, il est prêt à êtr
 
 >[!NOTE]
 >
->Vous pouvez ajouter un message qui est toujours en mode Version préliminaire à un parcours, mais assurez-vous que le message est publié avant de publier le parcours.
+>Vous pouvez ajouter un message qui est toujours en mode Brouillon à un parcours, mais assurez-vous que le message est publié avant de publier le parcours.
 
 Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au moyen de plusieurs indicateurs. [En savoir plus sur la surveillance de l’exécution des messages](../message-monitoring.md).
 
@@ -52,7 +52,7 @@ Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours.
 
-   ![](assets/message-read-segment-schedule.png)
+   ![](../assets/message-read-segment-schedule.png)
 
 1. Configurez le champ **[!UICONTROL Type de planificateur]** : sélectionnez la valeur souhaitée dans la liste pour que le segment rejoigne le parcours à une date/heure spécifique ou sur une base récurrente.
 
@@ -60,15 +60,15 @@ Pour ce faire, procédez comme suit :
    >
    >La section **[!UICONTROL Planificateur]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture de segment]** a été déposée dans la zone de travail.
 
-   ![](assets/message-read-segment-scheduler.png)
+   ![](../assets/message-read-segment-scheduler.png)
 
 1. Si vous sélectionnez **[!UICONTROL Une fois]**, définissez une date et une heure spécifiques auxquelles le segment va rejoindre le parcours.
 
-   ![](assets/message-read-segment-scheduler-once.png)
+   ![](../assets/message-read-segment-scheduler-once.png)
 
 1. Si vous sélectionnez une méthode récurrente, modifiez la date et l’heure du début. Vous pouvez également définir une date et une heure de fin facultatives.
 
-   ![](assets/message-read-segment-scheduler-daily.png)
+   ![](../assets/message-read-segment-scheduler-daily.png)
 
    >[!NOTE]
    >

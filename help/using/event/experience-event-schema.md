@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
@@ -23,33 +23,33 @@ Les événements [!DNL Journey Optimizer] sont des événements d’expérience 
 
 La première étape de la configuration d’un événement pour [!DNL Journey Optimizer] consiste à définir un schéma XDM pour représenter l’événement et à créer un jeu de données pour enregistrer les instances de l’événement dans Adobe Experience Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements, mais envoyer les événements à un jeu de données spécifique permettra de conserver l’historique des événements des utilisateurs pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d’un schéma et d’un jeu de données appropriés pour votre événement, il est possible de réaliser ces deux tâches dans l’interface web d’Adobe Experience Platform.
 
-![](assets/schema1.png)
+![](../assets/schema1.png)
 
 Un schéma XDM destiné aux événements [!DNL Journey Optimizer] doit répondre aux exigences suivantes :
 
 * Le schéma doit appartenir à la classe XDM ExperienceEvent.
 
-   ![](assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * Pour les événements générés par le système, le schéma doit inclure le groupe de champs eventID Orchestration. [!DNL Journey Optimizer] emploie ce champ pour identifier les événements utilisés dans les parcours.
 
-   ![](assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * Vous devez déclarer un champ d’identité pour identifier le sujet de l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cela n’est pas recommandé.
 
-   ![](assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * Si vous souhaitez que ces données soient disponibles pour une recherche ultérieure dans un parcours, marquez le schéma et le jeu de données pour le profil.
 
-   ![](assets/schema5.png)
+   ![](../assets/schema5.png)
 
-   ![](assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * N’hésitez pas à inclure des champs de données pour recueillir toutes les autres données contextuelles que vous souhaitez incorporer à l’événement, telles que des informations relatives à l’utilisateur, l’appareil à partir duquel l’événement a été généré, l’emplacement ou toute autre circonstance significative liée à l’événement.
 
-   ![](assets/schema7.png)
+   ![](../assets/schema7.png)
 
-   ![](assets/schema8.png)
+   ![](../assets/schema8.png)
 
 ## Utilisation des relations de schéma{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Pour définir une relation, vous devez disposer d&#39;un champ dédié dans le s
 
 Voici le schéma de catalogue de produits activé pour le profil avec l&#39;identifiant de produit défini comme identité principale.
 
-![](assets/schema9.png)
+![](../assets/schema9.png)
 
 Voici le schéma d&#39;achat avec la relation définie dans le champ Identifiant du produit.
 
-![](assets/schema10.png)
+![](../assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Les champs de schéma liés sont disponibles dans la configuration d’événeme
 * lorsque vous parcourez les champs de schéma d&#39;événement dans l&#39;écran de configuration des événements ;
 * lors de la définition d&#39;une condition pour les événements générés par le système.
 
-![](assets/schema11.png)
+![](../assets/schema11.png)
 
 Les champs liés ne sont pas disponibles :
 
@@ -100,7 +100,7 @@ Vous pouvez utiliser les données d&#39;une table de choix liée à un événeme
 
 Ajoutez une condition dans un parcours, modifiez l&#39;expression et développez le nœud d&#39;événement dans l&#39;éditeur d&#39;expression.
 
-![](assets/schema12.png)
+![](../assets/schema12.png)
 
 Pour savoir comment définir des conditions de parcours, consultez cette [page](../building-journeys/condition-activity.md).
 
@@ -108,7 +108,7 @@ Pour savoir comment définir des conditions de parcours, consultez cette [page](
 
 Les champs liés sont disponibles lors de la personnalisation d&#39;un message. Les champs associés sont affichés dans le contexte transmis du parcours au message.
 
-![](assets/schema14.png)
+![](../assets/schema14.png)
 
 Pour savoir comment personnaliser un message avec des informations de parcours contextuelles, consultez cette [page](../personalization/personalization-use-case.md).
 
@@ -116,6 +116,6 @@ Pour savoir comment personnaliser un message avec des informations de parcours c
 
 Les champs liés sont disponibles lors de la configuration des paramètres d&#39;action d&#39;une activité d&#39;action personnalisée de parcours.
 
-![](assets/schema13.png)
+![](../assets/schema13.png)
 
 Pour savoir comment utiliser des actions personnalisées, consultez cette [page](../building-journeys/using-custom-actions.md).

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
@@ -19,11 +19,11 @@ Le **[!UICONTROL rapport dynamique]** sur les notifications push ne cible qu&#39
 
 Dans l&#39;onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, sélectionnez **[!UICONTROL Vue active]**, puis, dans le menu avancé de la diffusion sélectionnée, sélectionnez **[!UICONTROL Rapport dynamique]**.
 
-![](assets/live_report_2.png)
+![](../assets/live_report_2.png)
 
 Le **[!UICONTROL rapport dynamique]** sur les notifications push est divisé en différents widgets détaillant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d’informations à ce propos consultez cette [section](live-report.md#modify-dashboard).
 
-![](assets/live_report_3.png)
+![](../assets/live_report_3.png)
 
 Les **[!UICONTROL performances des notifications push]** et les widgets de **[!UICONTROL résumé des notifications push]** présentent les principales informations relatives à votre message avec un graphique et des KPI :
 
@@ -57,7 +57,7 @@ Le tableau **[!UICONTROL Mesures d’envoi - par push]** détaille le succès de
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
-![](assets/live_report_4.png)
+![](../assets/live_report_4.png)
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
 

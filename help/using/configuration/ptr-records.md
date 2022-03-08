@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent v
 
 Une fois [quʼun sous-domaine est délégué ](delegate-subdomain.md)dans Adobe Journey Optimizer, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir du menu **[!UICONTROL Canaux]**/**[!UICONTROL Configuration de l’e-mail]**/**[!UICONTROL Enregistrements PTR]**. 
 
-![](assets/ptr-records.png)
+![](../assets/ptr-records.png)
 
 La liste affiche les enregistrements PTR générés pour chaque sous-domaine délégué, en utilisant la syntaxe ci-dessous :
 
@@ -49,11 +49,11 @@ Pour modifier un enregistrement PTR avec un sous-domaine qui est [entièrement d
 
 1. Dans la liste, cliquez sur un nom d’enregistrement PTR pour l’ouvrir.
 
-   ![](assets/ptr-record-select.png)
+   ![](../assets/ptr-record-select.png)
 
 1. Sélectionnez un sous-domaine [entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) à Adobe dans la liste.
 
-   ![](assets/ptr-record-subdomain.png)
+   ![](../assets/ptr-record-subdomain.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications.
 
@@ -63,15 +63,15 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
 
 1. Dans la liste, cliquez sur un nom d’enregistrement PTR pour l’ouvrir.
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](../assets/ptr-record-select-cname.png)
 
 1. Sélectionnez dans la liste un sous-domaine délégué à Adobe à l’aide de la [méthode CNAME](delegate-subdomain.md#cname-subdomain-delegation).
 
-   ![](assets/ptr-record-subdomain-cname.png)
+   ![](../assets/ptr-record-subdomain-cname.png)
 
 1. Vous devez créer un nouvel enregistrement DNS direct sur votre plateforme d’hébergement. Pour ce faire, copiez lʼenregistrement généré par Adobe. Une fois lʼopération terminée, cochez la case « Je confirme… ».
 
-   ![](assets/ptr-record-subdomain-confirm.png)
+   ![](../assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
 
 Une icône de **[!UICONTROL Traitement]** s’affiche en regard du nom de l’enregistrement PTR dans la liste.
 
-![](assets/ptr-record-updating.png)
+![](../assets/ptr-record-updating.png)
 
 Pour vérifier les détails de la mise à jour de l’enregistrement PTR, cliquez sur l’icône **[!UICONTROL Mise à jour]** ou **[!UICONTROL Mises à jour récentes]**. 
 
-![](assets/ptr-record-recent-update.png)
+![](../assets/ptr-record-recent-update.png)
 
 Vous pouvez voir des informations telles que l’état de mise à jour et les modifications demandées. 
 
-![](assets/ptr-record-updates.png)
+![](../assets/ptr-record-updates.png)
 
 ## États de mise à jour des enregistrements PTR {#ptr-record-update-statuses}
 
 Une mise à jour d’enregistrement PTR peut afficher les états suivants :
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL En cours de traitement]** : la mise à jour de l’enregistrement PTR a été envoyée et fait l’objet d’un processus de vérification.
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Réussite]** : l’enregistrement PTR mis à jour a été vérifié et le nouveau sous-domaine est désormais associé à l’adresse IP.
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification de la mise à jour de l’enregistrement PTR.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL En cours de traitement]** : la mise à jour de l’enregistrement PTR a été envoyée et fait l’objet d’un processus de vérification.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Réussite]** : l’enregistrement PTR mis à jour a été vérifié et le nouveau sous-domaine est désormais associé à l’adresse IP.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification de la mise à jour de l’enregistrement PTR.
 
 ### En cours de traitement {#processing}
 

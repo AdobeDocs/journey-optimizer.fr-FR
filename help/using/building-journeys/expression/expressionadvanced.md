@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Dans un parcours, la liste des champs d’événement affichée est contextuelle
 
 L’éditeur d’expression avancé propose un ensemble de fonctions et d’opérateurs intégrés destinées à manipuler des valeurs et à définir une expression spécifiquement adaptée à vos besoins. L’éditeur permet également de définir les valeurs du paramètre de source de données externe, de gérer les champs de mapping et les collections, notamment les événements d’expérience.
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 _Interface de l’éditeur d’expression avancé_
 
@@ -45,7 +45,7 @@ Il est possible d’accéder de différentes manières à l’éditeur d’expre
 
 * Lorsque vous créez une condition de source de données, vous pouvez y accéder en cliquant sur **[!UICONTROL Mode avancé]**.
 
-   ![](../assets/journeyuc2_33.png)
+   ![](../../assets/journeyuc2_33.png)
 
 * Lorsque vous créez un retardateur personnalisé, l’éditeur avancé s’affiche directement.
 * Lorsque vous mappez le paramètre d’action, cliquez sur le **[!UICONTROL Mode avancé]**.
@@ -54,7 +54,7 @@ Il est possible d’accéder de différentes manières à l’éditeur d’expre
 
 Cet écran vous permet d’entrer manuellement votre expression.
 
-![](../assets/journey70.png)
+![](../../assets/journey70.png)
 
 La partie gauche de l’écran contient les champs et les fonctions disponibles :
 
@@ -64,20 +64,20 @@ La partie gauche de l’écran contient les champs et les fonctions disponibles�
 * **[!UICONTROL Propriétés du parcours]** : cette section regroupe les champs techniques liés au parcours pour un profil donné. [En savoir plus](journey-properties.md)
 * **[!UICONTROL Fonctions]** : effectuez votre choix parmi la liste de fonctions intégrées permettant d’effectuer un filtrage complexe. Les fonctions sont classées par catégories. [En savoir plus](functions.md)
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 Un mécanisme de saisie semi-automatique affiche des suggestions contextuelles.
 
-![](../assets/journey68.png)
+![](../../assets/journey68.png)
 
 Un mécanisme de validation de syntaxe vérifie l’intégrité du code. Les erreurs s’affichent dans la partie supérieure de l’éditeur.
 
-![](../assets/journey69.png)
+![](../../assets/journey69.png)
 
 **Nécessité de paramètres pour la création de conditions à l’aide de l’éditeur d’expression avancé**
 
 Si vous sélectionnez un champ d’une source de données externe qui nécessite l’appel d’un paramètre (voir [cette page](../../datasource/external-data-sources.md). Le paramètre « ville », par exemple, est fréquemment utilisé dans une source de données météorologiques. Vous devez donc sélectionner l’emplacement où vous souhaitez obtenir ce paramètre. Il est également possible d’appliquer des fonctions aux paramètres pour effectuer des modifications de format ou des concaténations.
 
-![](../assets/journeyuc2_19.png)
+![](../../assets/journeyuc2_19.png)
 
 Dans les cas d’utilisation plus complexes, si vous souhaitez inclure les paramètres de la source de données dans l’expression principale, vous pouvez définir leurs valeurs à l’aide du mot-clé « params ». Consultez [cette page](../expression/field-references.md).

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -19,11 +19,11 @@ Le **[!UICONTROL Rapport global]** push ne cible qu’une seule diffusion push s
 
 Dans l’onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, sélectionnez **[!UICONTROL Affichage global]**, puis, dans le menu avancé de la diffusion sélectionnée, sélectionnez **[!UICONTROL Rapport global]**.
 
-![](assets/global_report_11.png)
+![](../assets/global_report_11.png)
 
 Le **[!UICONTROL Rapport global]** push est divisé en différents widgets présentant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
 
-![](assets/push_global_report.png)
+![](../assets/push_global_report.png)
 
 Le widget **[!UICONTROL Performances des notifications push]** présente les principales informations relatives à vos notifications push avec des KPI :
 
@@ -51,6 +51,6 @@ Le graphique **[!UICONTROL Résumé des notifications push]** contient les donn�
 
 Le graphique et le tableau **[!UICONTROL Raisons de l&#39;erreur]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
 
-![](assets/push_global_report_2.png)
+![](../assets/push_global_report_2.png)
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel de votre destinataire.

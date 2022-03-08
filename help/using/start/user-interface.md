@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur 
 
 Utilisez les liens sur la gauche pour parcourir les fonctionnalités.
 
-![](assets/ajo-home.png)
+![](../assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 Tirez parti des cas d&#39;utilisation [!DNL Adobe Journey Optimizer] de la page d&#39;accueil et fournissez quelques entrées rapides pour créer un parcours client.
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 Les cas d&#39;utilisation disponibles sont les suivants :
 
@@ -147,7 +147,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Op
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Zone de travail de parcours en version préliminaire</td>
+    <td rowspan="3">Zone de travail de parcours à l'état de brouillon</td>
     <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
     <td>Effectuez un double clic sur l’activité.</td>
   </tr>
@@ -219,7 +219,7 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
   <tr>
     <td rowspan="2">Fenêtre contextuelle</td>
     <td>Enregistrement des modifications ou confirmation de l’action</td>
-    <td>Enter</td>
+    <td>Entrée</td>
   </tr>
   <tr>
     <td>Fermeture de la fenêtre</td>
@@ -248,7 +248,7 @@ Accédez aux pages d&#39;aide principales d&#39;Adobe Journey Optimizer à par
 
 Utilisez l&#39;icône **Aide** pour accéder aux pages d&#39;aide, contacter l&#39;assistance et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d&#39;aide dans le champ de recherche.
 
-![](assets/ajo-help.png)
+![](../assets/ajo-help.png)
 
 ## Navigateurs pris en charge {#browsers}
 
@@ -267,10 +267,10 @@ Votre langue d&#39;interface par défaut est déterminée par la langue préfér
 Pour modifier la langue :
 
 * Cliquez sur **Préférences** depuis votre avatar, en haut à droite.
-   ![](assets/preferences.png)
+   ![](../assets/preferences.png)
 * Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
 * Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
-   ![](assets/select-language.png)
+   ![](../assets/select-language.png)
 
 ## Recherche{#unified-search}
 
@@ -278,11 +278,11 @@ Depuis n’importe où dans l’interface Adobe Journey Optimizer, utilisez la
 
 Commencez à saisir du contenu pour afficher les meilleurs résultats. Les articles d’aide sur les mots-clés saisis apparaissent également dans les résultats.
 
-![](assets/unified-search.png)
+![](../assets/unified-search.png)
 
 Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par objet métier.
 
-![](assets/search-and-filter.png)
+![](../assets/search-and-filter.png)
 
 ## Filtrer les listes{#filter-lists}
 
@@ -298,12 +298,12 @@ Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur
 
 Utilisez les colonnes **[!UICONTROL Dernière mise à jour]** et **[!UICONTROL Dernière mise à jour par]** pour vérifier quand s&#39;est produit la dernière mise à jour de vos parcours et qui l&#39;a enregistrée.
 
-![](assets/filter-journeys.png)
+![](../assets/filter-journeys.png)
 
 Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé(e) dans]** affiche le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 
-![](assets/journey3bis.png)
+![](../assets/journey3bis.png)
 
 Il est possible d&#39;effectuer des actions de base sur chaque élément des différentes listes. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
-![](assets/journey4.png)
+![](../assets/journey4.png)

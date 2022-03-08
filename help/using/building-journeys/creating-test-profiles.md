@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
@@ -34,13 +34,13 @@ Pour pouvoir créer des profils, il vous faut d&#39;abord créer un schéma ains
 Tout d&#39;abord, vous devez **créer un schéma**. Procédez de la façon suivante :
 
 1. Dans la section du menu DATA MANAGEMENT, cliquez sur **[!UICONTROL Schémas]**.
-   ![](assets/test-profiles-0.png)
+   ![](../assets/test-profiles-0.png)
 1. Cliquez sur **[!UICONTROL Créer un schéma]** dans le coin supérieur droit, puis sélectionnez un type de schéma, par exemple **Profil individuel XDM**.
-   ![](assets/test-profiles-1.png)
+   ![](../assets/test-profiles-1.png)
 1. Sélectionnez les groupes de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
-   ![](assets/test-profiles-1-ter.png)
+   ![](../assets/test-profiles-1-ter.png)
 Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s&#39;affiche dans l&#39;écran aperçu du schéma.
-   ![](assets/test-profiles-2.png)
+   ![](../assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 
 
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l&#39;identité principale.
-   ![](assets/test-profiles-3.png)
+   ![](../assets/test-profiles-3.png)
 1. Dans le volet de droite **[!UICONTROL Propriétés du champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité principale]**, puis sélectionnez un espace de noms. Si vous souhaitez que l&#39;identité principale soit une adresse e-mail, choisissez l&#39;espace de noms **[!UICONTROL E-mail]**. Cliquez sur **[!UICONTROL Appliquer]**.
-   ![](assets/test-profiles-4bis.png)
+   ![](../assets/test-profiles-4bis.png)
 1. Sélectionnez le schéma et activez l&#39;option **[!UICONTROL Profil]** dans le volet **[!UICONTROL Propriétés du schéma]**.
-   ![](assets/test-profiles-5.png)
+   ![](../assets/test-profiles-5.png)
 1. Cliquez sur **Enregistrer**.
 
 >[!NOTE]
@@ -64,15 +64,15 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez de la façon suivante :
 
 1. Accédez à **[!UICONTROL Jeux de données]**, puis cliquez sur **[!UICONTROL Créer un jeu de données]**.
-   ![](assets/test-profiles-6.png)
+   ![](../assets/test-profiles-6.png)
 1. Choisissez **[!UICONTROL Créer un jeu de données à partir d&#39;un schéma]**.
-   ![](assets/test-profiles-7.png)
+   ![](../assets/test-profiles-7.png)
 1. Sélectionnez le schéma créé précédemment, puis cliquez sur **[!UICONTROL Suivant]**.
-   ![](assets/test-profiles-8.png)
+   ![](../assets/test-profiles-8.png)
 1. Choisissez un nom, puis cliquez sur **[!UICONTROL Terminer]**.
-   ![](assets/test-profiles-9.png)
+   ![](../assets/test-profiles-9.png)
 1. Activez l&#39;option **[!UICONTROL Profil]**.
-   ![](assets/test-profiles-10.png)
+   ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 
 Depuis la page d’accueil d&#39;Adobe Journey Optimizer, vous pouvez exploiter le cas d’utilisation interne au produit des profils de test. Ce cas pratique facilite la création de profils de test utilisés pour les parcours de test avant la publication.
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d’utilisation.
 
@@ -119,11 +119,11 @@ Votre parcours sera composé d&#39;une activité **[!UICONTROL Lecture de segmen
 > Puisque vous allez mettre à jour le champ **testProfile**, les profils sélectionnés doivent inclure ce champ. Le schéma associé doit avoir le groupe de champs **Détails du test de profil**. Consultez [cette section](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Accédez à **Segments**, puis à **Créer un segment**, en haut à droite.
-   ![](assets/test-profiles-22.png)
+   ![](../assets/test-profiles-22.png)
 1. Définissez un nom pour votre segment et créez le segment : choisissez le ou les champs et la ou les valeurs pour cibler les profils de votre choix.
-   ![](assets/test-profiles-23.png)
+   ![](../assets/test-profiles-23.png)
 1. Cliquez sur **Enregistrer** et vérifiez que les profils sont correctement ciblés par le segment.
-   ![](assets/test-profiles-24.png)
+   ![](../assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -131,13 +131,13 @@ Votre parcours sera composé d&#39;une activité **[!UICONTROL Lecture de segmen
 
 1. Créez maintenant un parcours et commencez par une activité d&#39;orchestration **[!UICONTROL Lecture de segment]**.
 1. Sélectionnez le segment créé précédemment et l&#39;espace de noms utilisé par vos profils.
-   ![](assets/test-profiles-25.png)
+   ![](../assets/test-profiles-25.png)
 1. Ajoutez une activité d&#39;action **[!UICONTROL Mettre à jour le profil]**.
 1. Sélectionnez le schéma, le champ **testProfiles** et le jeu de données et définissez la valeur sur **true**. Pour ce faire, dans le champ **[!UICONTROL VALUE]**, cliquez sur l&#39;icône **Stylo** à droite, sélectionnez **[!UICONTROL Mode avancé]** et saisissez **true**.
-   ![](assets/test-profiles-26.png)
+   ![](../assets/test-profiles-26.png)
 1. Ajoutez une activité **Fin** et cliquez sur **[!UICONTROL Publier]**.
 1. Dans la section **[!UICONTROL Segments]** , vérifiez que les profils ont été correctement mis à jour.
-   ![](assets/test-profiles-28.png)
+   ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -149,24 +149,24 @@ Dans Adobe Experience Platform, vous pouvez créer des profils en télécharge
 
 1. Créez un fichier CSV simple à l&#39;aide d&#39;un tableur.
 1. Ajoutez une colonne pour chaque champ nécessaire. Assurez-vous d&#39;ajouter le champ de l&#39;identité principale (« personID » dans l&#39;exemple ci-dessus) et le champ « testProfile » défini sur « true ».
-   ![](assets/test-profiles-11.png)
+   ![](../assets/test-profiles-11.png)
 1. Ajoutez une ligne par profil et remplissez les valeurs de chaque champ.
-   ![](assets/test-profiles-12.png)
+   ![](../assets/test-profiles-12.png)
 1. Enregistrez la feuille de calcul au format CSV. Assurez-vous que les virgules sont utilisées comme séparateurs.
 1. Accédez aux **workflows** d&#39; Adobe Experience Platform.
-   ![](assets/test-profiles-14.png)
+   ![](../assets/test-profiles-14.png)
 1. Sélectionnez **Mapper un CSV à un schéma XDM**, puis cliquez sur **Lancer**.
-   ![](assets/test-profiles-16.png)
+   ![](../assets/test-profiles-16.png)
 1. Sélectionnez le jeu de données dans lequel vous souhaitez importer les profils. Cliquez sur **Suivant**.
-   ![](assets/test-profiles-17.png)
+   ![](../assets/test-profiles-17.png)
 1. Cliquez sur **Choisir les fichiers** et sélectionnez votre fichier CSV. Une fois le fichier téléchargé, cliquez sur **Suivant**.
-   ![](assets/test-profiles-18.png)
+   ![](../assets/test-profiles-18.png)
 1. Mappez les champs CSV source aux champs du schéma, puis cliquez sur **Terminer**.
-   ![](assets/test-profiles-19.png)
+   ![](../assets/test-profiles-19.png)
 1. L&#39;import de données démarre. Le statut passe de **Traitement** à **Succès**. Cliquez sur **Aperçu du jeu de données**, dans le coin supérieur droit.
-   ![](assets/test-profiles-20.png)
+   ![](../assets/test-profiles-20.png)
 1. Vérifiez que les profils de test ont été correctement ajoutés.
-   ![](assets/test-profiles-21.png)
+   ![](../assets/test-profiles-21.png)
 
 Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du test d&#39;un parcours. Reportez-vous à [cette section](../building-journeys/testing-the-journey.md).
 >[!NOTE]

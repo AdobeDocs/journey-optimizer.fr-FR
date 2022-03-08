@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
@@ -54,15 +54,15 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
 1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Événements]**, cliquez sur **[!UICONTROL Gérer]**. La liste des événements s&#39;affiche.
 
-   ![](assets/jo-event1.png)
+   ![](../assets/jo-event1.png)
 
 1. Cliquez sur **[!UICONTROL Créer un événement]** pour créer un événement. Le volet de configuration d&#39;événement s&#39;ouvre dans la partie droite de l&#39;écran.
 
-   ![](assets/jo-event2.png)
+   ![](../assets/jo-event2.png)
 
 1. Saisissez le nom de votre événement. Vous pouvez également ajouter une description.
 
-   ![](assets/jo-event3-business.png)
+   ![](../assets/jo-event3-business.png)
 
    >[!NOTE]
    >
@@ -70,20 +70,20 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
 1. Dans le champ **[!UICONTROL Type]**, choisissez **Métier**.
 
-   ![](assets/jo-event3bis-business.png)
+   ![](../assets/jo-event3bis-business.png)
 
 1. Le nombre de parcours qui font appel à cet événement apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur l&#39;icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cet événement.
 
 1. Définissez les champs de payload et de schéma : c&#39;est dans ces champs que vous sélectionnez les informations d&#39;événement (désignées généralement sous le nom de payload) que le parcours s&#39;attend à recevoir. Vous pourrez alors utiliser ces informations dans votre parcours. Consultez [cette section](../event/about-creating-business.md#define-the-payload-fields).
 
-   ![](assets/jo-event5-business.png)
+   ![](../assets/jo-event5-business.png)
 
    Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d’événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
 
-   ![](assets/test-profiles-4.png)
+   ![](../assets/test-profiles-4.png)
 
 1. Cliquez à l&#39;intérieur du champ **[!UICONTROL Condition de l&#39;identifiant d&#39;événement]**. À l&#39;aide de l&#39;éditeur d&#39;expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
-   ![](assets/jo-event6-business.png)
+   ![](../assets/jo-event6-business.png)
 
    Dans notre exemple, nous avons écrit une condition basée sur l&#39;ID du produit. Cela signifie que chaque fois que le système reçoit un événement correspondant à cette condition, il le transmet aux parcours.
 
@@ -93,7 +93,7 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/journey7-business.png)
+   ![](../assets/journey7-business.png)
 
    L&#39;événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d&#39;événements. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
@@ -103,11 +103,11 @@ La définition de la payload vous permet de choisir les informations que le syst
 
 1. Sélectionnez un schéma XDM dans la liste et cliquez ensuite sur le champ **[!UICONTROL Champs]** ou sur l&#39;icône **[!UICONTROL Modifier]**.
 
-   ![](assets/journey8-business.png)
+   ![](../assets/journey8-business.png)
 
    Tous les champs définis dans le schéma sont affichés. La liste des champs varie d&#39;un schéma à l&#39;autre. Vous pouvez rechercher un champ spécifique, ou utiliser les filtres pour afficher l&#39;ensemble des nœuds et des champs ou uniquement les champs sélectionnés. En fonction de la définition du schéma, certains champs peuvent être obligatoires et présélectionnés. Vous ne pouvez pas les désélectionner. Tous les champs obligatoires pour que les parcours reçoivent correctement l&#39;événement sont sélectionnés par défaut.
 
-   ![](assets/journey9-business.png)
+   ![](../assets/journey9-business.png)
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    Le nombre de champs sélectionnés s&#39;affiche dans le champ **[!UICONTROL Champs]**.
 
-   ![](assets/journey12-business.png)
+   ![](../assets/journey12-business.png)
 
 ## Prévisualisation de la payload {#preview-the-payload}
 
@@ -127,11 +127,11 @@ Cet aperçu vous permet de valider la définition de la payload.
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Afficher la payload]** pour prévisualiser la payload attendue par le système.
 
-   ![](assets/journey13-business.png)
+   ![](../assets/journey13-business.png)
 
    Vous remarquerez que les champs sélectionnés sont affichés.
 
-   ![](assets/journey14-business.png)
+   ![](../assets/journey14-business.png)
 
 1. Vérifiez l&#39;aperçu pour valider la définition de la payload.
 

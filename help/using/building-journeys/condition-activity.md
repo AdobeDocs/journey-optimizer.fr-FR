@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Les types de conditions disponibles sont les suivantes :
 * [Condition de date](#date_condition)
 * [Limite de profils](#profile_cap)
 
-![](assets/journey49.png)
+![](../assets/journey49.png)
 
 ## À propos de l’activité de condition {#about_condition}
 
@@ -31,13 +31,13 @@ Lorsque vous utilisez plusieurs conditions dans un parcours, vous pouvez défini
 
 Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusieurs conditions. Pour chaque condition, un nouveau chemin est ajouté dans la zone de travail après l’activité.
 
-![](assets/journey47.png)
+![](../assets/journey47.png)
 
 Notez que la conception de parcours n’est pas sans conséquences sur le plan fonctionnel. Lorsque plusieurs chemins sont définis après une condition, seul le premier chemin éligible est exécuté. Cela signifie que vous pouvez modifier la priorité des chemins en les plaçant les uns au-dessus ou en dessous des autres.
 
 Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (à savoir, un VIP de sexe masculin) franchit cette étape, le premier chemin d’accès est choisi, même s’il est également éligible au second, compte tenu de sa position hiérarchique supérieure. Pour modifier cette priorité, déplacez vos activités verticalement.
 
-![](assets/journey48.png)
+![](../assets/journey48.png)
 
 Vous pouvez créer un autre chemin pour les audiences qui ne sont pas éligibles aux conditions définies en cochant la case **[!UICONTROL Afficher le chemin pour d’autres cas que celui ou ceux ci-dessus]**. Notez que cette option n’est pas disponible dans les conditions de division. Voir [Division en pourcentage](#percentage_split).
 
@@ -46,7 +46,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 * ET : intersection de deux critères. Seuls les éléments répondant à tous les critères sont pris en compte.
 * OU : union de deux critères. Les éléments répondant à au moins l’un des deux critères sont pris en compte.
 
-![](assets/journey64.png)
+![](../assets/journey64.png)
 
 Si vous utilisez le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target=&quot;_blank&quot;} pour créer vos segments, vous pouvez les exploiter dans vos conditions de parcours. Pour plus d&#39;informations, consultez la section [Utilisation de segments dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -63,7 +63,7 @@ Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours,
 
 Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Pour savoir comment utiliser l’éditeur d’expression, consultez la [documentation d’Adobe Journey Orchestration](expression/expressionadvanced.md). L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. Voir [cette page](../datasource/external-data-sources.md).
 
-![](assets/journey50.png)
+![](../assets/journey50.png)
 
 ## Condition de temps{#time_condition}
 
@@ -73,7 +73,7 @@ Cette condition vous permet d’effectuer des actions différentes en fonction d
 >
 >Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [cette page](../building-journeys/timezone-management.md).
 
-![](assets/journey51.png)
+![](../assets/journey51.png)
 
 ## Partage en pourcentage {#percentage_split}
 
@@ -85,7 +85,7 @@ En mode test, lorsqu&#39;un partage est atteint, la branche supérieure est touj
 >
 >Notez qu’il n’existe aucun bouton permettant d’ajouter un chemin dans la condition de division en pourcentage. Le nombre de chemins dépend du nombre de divisions. Dans les conditions de division, vous ne pouvez pas ajouter de chemin pour d’autres cas, car cela ne peut pas se produire. Les utilisateurs se trouveront toujours dans l’un des chemins de division.
 
-![](assets/journey52.png)
+![](../assets/journey52.png)
 
 ## Condition de date {#date_condition}
 
@@ -95,7 +95,7 @@ Cette condition vous permet de définir un flux différent en fonction de la dat
 >
 >Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [cette page](../building-journeys/timezone-management.md).
 
-![](assets/journey53.png)
+![](../assets/journey53.png)
 
 ## Limite de profils {#profile_cap}
 
@@ -116,7 +116,7 @@ Pour les parcours actifs, voici les seuils à prendre en compte pour que la limi
 
 La limite de profils n’est pas prise en compte en mode test.
 
-![](assets/profile-cap-condition.png)
+![](../assets/profile-cap-condition.png)
 
 ## Utilisation de segments dans des conditions {#using-a-segment}
 
@@ -125,15 +125,15 @@ Cette section explique comment utiliser un segment dans une condition de parcour
 Pour utiliser un segment dans une condition de parcours, procédez comme suit :
 
 1. Ouvrez un parcours, déposez une activité **[!UICONTROL Condition]** et choisissez la **condition de source de données**.
-   ![](assets/journey47.png)
+   ![](../assets/journey47.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter un chemin]** pour chaque chemin supplémentaire nécessaire. Pour chaque chemin, cliquez sur le champ **[!UICONTROL Expression]**.
 
-   ![](assets/segment3.png)
+   ![](../assets/segment3.png)
 
 1. Sur le côté gauche, développez le nœud **[!UICONTROL Segments]**. Faites glisser et déposez le segment à utiliser pour votre condition. Par défaut, la condition sur le segment est &#39;true&#39;.
 
-   ![](assets/segment4.png)
+   ![](../assets/segment4.png)
 
    >[!NOTE]
    >

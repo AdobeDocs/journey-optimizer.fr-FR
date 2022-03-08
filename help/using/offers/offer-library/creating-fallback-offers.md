@@ -5,7 +5,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
@@ -20,7 +20,7 @@ L&#39;offre de secours est envoyée aux clients s&#39;ils ne sont pas éligibles
 
 La liste des offres de secours est accessible dans le menu **[!UICONTROL Offres]**.
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 Pour créer une offre de secours, procédez comme suit :
 
@@ -30,27 +30,27 @@ Pour créer une offre de secours, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer une offre]**, puis sélectionnez **[!UICONTROL Offre de secours]**.
 
-   ![](../assets/create_fallback.png)
+   ![](../../assets/create_fallback.png)
 
 1. Indiquez le nom de l&#39;offre de secours. Vous pouvez également y associer une ou plusieurs balise(s) existante(s), ce qui vous permet de rechercher et d&#39;organiser plus facilement la bibliothèque des offres.
 
-   ![](../assets/fallback_details.png)
+   ![](../../assets/fallback_details.png)
 
 1. Créez une ou plusieurs représentations pour l&#39;offre de secours. Pour ce faire, effectuez un glisser-déposer des emplacements depuis le volet de gauche, comme lors de la création d&#39;une offre personnalisée. Voir [Créer des offres personnalisées](../offer-library/creating-personalized-offers.md).
 
-   ![](../assets/fallback_content.png)
+   ![](../../assets/fallback_content.png)
 
 1. Une fois les représentations d&#39;offres de secours ajoutées, un résumé s&#39;affiche. Si tout est configuré correctement et que votre offre de secours est prête à être présentée aux clients, cliquez sur **[!UICONTROL Terminer]**, puis sélectionnez **[!UICONTROL Enregistrer et valider]**.
 
-   Vous pouvez également enregistrer l&#39;offre de secours en tant que version préliminaire pour la modifier et l&#39;approuver ultérieurement.
+   Vous pouvez également enregistrer l&#39;offre de secours en tant que brouillon pour la modifier et l&#39;approuver ultérieurement.
 
-   ![](../assets/fallback_review.png)
+   ![](../../assets/fallback_review.png)
 
-1. L&#39;offre de secours s&#39;affiche dans la liste avec le statut **[!UICONTROL En ligne]** ou **[!UICONTROL Version préliminaire]**, selon que vous l&#39;avez approuvée ou non à l&#39;étape précédente.
+1. L&#39;offre de secours s&#39;affiche dans la liste avec le statut **[!UICONTROL En ligne]** ou **[!UICONTROL Brouillon]**, selon que vous l&#39;avez approuvée ou non à l&#39;étape précédente.
 
    Elle est maintenant prête à être diffusée vers les clients. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier. <!-- no suppression? -->
 
-   ![](../assets/fallback_created.png)
+   ![](../../assets/fallback_created.png)
 
 ## Tutoriel vidéo {#video}
 

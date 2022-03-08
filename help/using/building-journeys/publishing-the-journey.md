@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
@@ -24,6 +24,6 @@ Si vous arrêtez un parcours, il l’est définitivement. Toutes les personnes f
 1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi toute publication s’avérera impossible. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Il est également recommandé de tester votre parcours avant de le publier. Voir [cette page](../building-journeys/testing-the-journey.md).
 1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.
 
-   ![](assets/journeyuc1_18.png)
+   ![](../assets/journeyuc1_18.png)
 
 Une fois le parcours publié, il est en lecture seule.
