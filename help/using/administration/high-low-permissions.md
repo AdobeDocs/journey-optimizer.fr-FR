@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 97%
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
@@ -417,13 +417,16 @@ Elle comprend les autorisations de bas niveau suivantes :
    * profiles.read
    * datasets.read
 
-## Fonctionnalité Bibliothèque Journey Optimizer {library-permissions}
+### Autorisation [!DNL Manage landing page settings] {#manage-landing-page-settings}
 
-### Gestion des éléments de bibliothèque {#library-items}
-
-Le **[!DNL Manage Library Items]** l’autorisation de haut niveau permet aux utilisateurs d’ajouter et de supprimer des expressions enregistrées dans le [!DNL Journey Optimizer] Bibliothèque.
+Le **[!DNL Manage landing page settings]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer et modifier des sous-domaines de landing page et des paramètres prédéfinis.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
-* library_item.create
-* ibrary_item.delete
+* Spécifiques à Journey Optimizer :
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete

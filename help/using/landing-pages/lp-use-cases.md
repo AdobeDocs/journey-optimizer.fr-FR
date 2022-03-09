@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 93%
 
 ---
 
 # Cas d’utilisation de pages de destination {#lp-use-cases}
 
 Retrouvez ci-dessous quelques exemples sur la façon dont vous pouvez utiliser les pages de destination de [!DNL Journey Optimizer] afin que vos clients puissent sʼinscrire/se désinscrire de lʼenvoi de certaines ou de toutes vos communications.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Abonnement à un service {#subscription-to-a-service}
 
@@ -32,13 +25,15 @@ L’un des cas d’utilisation les plus courants consiste à inviter vos clients
 
 Supposons, par exemple, que vous organisiez un événement le mois prochain et que vous souhaitiez lancer une campagne d’inscription à cet événement<!--to keep your customers that are interested updated on that event-->. Pour ce faire, vous allez envoyer un e-mail qui contient un lien vers une page de destination sur laquelle vos destinataires pourront sʼinscrire à cet événement. Les utilisateurs qui s’inscrivent seront ajoutés à la liste d’abonnements que vous avez créée à cet effet.
 
-### Configuration dʼune page de destination {#set-up-lp}
+### Configurer une landing page {#set-up-lp}
 
 1. Créez la liste d’abonnements relative aux inscriptions à l’événement, qui stockera les utilisateurs inscrits. Découvrez comment créer une liste d’abonnements [ici](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
 1. [Créez une page de destination](create-lp.md) pour permettre aux destinataires de sʼinscrire à votre événement.
+
+   ![](assets/lp_create-lp-details.png)
 
 1. Configurez la [page principale de la page de destination](create-lp.md#configure-primary-page).
 
@@ -57,6 +52,10 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 1. [Insérez un lien](../messages/message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** en tant que **[!UICONTROL Type de lien]** et sélectionnez la [Page de destination](create-lp.md#configure-primary-page) que vous avez créée pour lʼinscription.
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >Pour pouvoir publier votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
 1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
 
@@ -115,7 +114,7 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Ajoutez une [sous-page](create-lp.md#configure-subpages) de confirmation qui s’affichera pour les utilisateurs qui soumettent le formulaire.
 
@@ -138,6 +137,10 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 1. Sélectionnez **[!UICONTROL Page de destination]** dans la liste déroulante **[!UICONTROL Type de lien]**, puis sélectionnez la [page de destination](create-lp.md#configure-primary-page) que vous avez créée pour le désabonnement.
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >Pour pouvoir publier votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
 1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
 
