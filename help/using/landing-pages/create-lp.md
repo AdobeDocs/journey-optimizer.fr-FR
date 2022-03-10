@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 87%
+source-wordcount: '955'
+ht-degree: 81%
 
 ---
 
@@ -119,7 +119,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
 1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu de la page de destination [ici](design-lp.md).
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite l’exécution de la délégation de domaine. Elle est préremplie et ne peut pas être modifiée dans l’interface utilisateur. Pour la configurer, contactez votre gestionnaire de compte Adobe ou lʼ[équipe d’assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../building-journeys/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des bons à tirer. Découvrez comment [créer des profils de test](../building-journeys/creating-test-profiles.md).
 
 1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Prévisualisation et test]** pour accéder à la sélection du profil de test.
 
@@ -161,7 +161,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 ## Vérification des alertes {#check-alerts}
 
-Lorsque vous créez votre page de destination, des alertes vous avertissent si vous devez effectuer des actions importantes avant de la publier.
+Lorsque vous créez une landing page, des alertes vous avertissent lorsque vous devez effectuer des actions importantes avant de la publier.
 
 Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-dessous :
 
@@ -181,7 +181,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 >[!CAUTION]
 >
-> Vous devez résoudre toutes les alertes d’**erreur** avant de procéder à la publication.
+> Vous devez résoudre tous les **error** alertes avant publication.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publication de la page de destination {#publish-landing-page}

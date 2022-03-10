@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5b629d5e413a3ffc037af959c5e16b9a47e8a0e
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 62%
 
 ---
 
@@ -45,27 +45,27 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 **Avertissements** :
 
-* **[!UICONTROL Lien d’opt-out ne figurant pas dans le corps de l’email]** : il est recommandé d’ajouter un lien d’opt-out dans le corps de votre email. Découvrez comment configurer ce lien dans [cette section](consent.md).
+* **[!UICONTROL Le lien d’exclusion n’est pas présent dans le corps de l’email.]**: il est recommandé d’ajouter un lien de désinscription dans votre corps d’email. Découvrez comment configurer ce lien dans [cette section](consent.md).
 
-* **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre email, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](create-email-content.md#generate-text-version).
+* **[!UICONTROL La version texte du HTML est vide.]**: n&#39;oubliez pas de définir une version texte du corps de votre email, car elle sera utilisée lorsque le contenu du HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](create-email-content.md#generate-text-version).
 
-* **[!UICONTROL Lien vide figurant dans le corps de l’email]** : vérifiez que tous les liens de votre email sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](create-email-content.md).
+* **[!UICONTROL Le lien vide est présent dans le corps de l&#39;email.]**: vérifiez que tous les liens de votre email sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](create-email-content.md).
 
-* **[!UICONTROL La taille de l’email dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre email ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](create-email-content.md).
+* **[!UICONTROL La taille des emails a dépassé la limite de 100 Ko.]**: pour une diffusion optimale, veillez à ce que la taille de votre email ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](create-email-content.md).
 
 **Erreurs** :
 
-* **[!UICONTROL Ligne d’objet absente]** : la ligne d’objet d’email est obligatoire. Découvrez comment définir et personnaliser cette ligne dans [cette section](create-email.md).
+* **[!UICONTROL L’objet est manquant.]**: l’objet de l’email est obligatoire. Découvrez comment définir et personnaliser cette ligne dans [cette section](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL Variante push vide]** : cette erreur s’affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
+* **[!UICONTROL La version push du message est vide.]**: cette erreur s&#39;affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
 
-* **[!UICONTROL Variante d’email vide]** : cette erreur s’affiche si le contenu de l’email n’est pas configuré. Découvrez comment concevoir le contenu des emails dans [cette section](design-emails.md).
+* **[!UICONTROL La version email du message est vide.]**: cette erreur s&#39;affiche lorsque le contenu de l&#39;email n&#39;a pas été configuré. Découvrez comment concevoir le contenu des emails dans [cette section](design-emails.md).
 
-* **[!UICONTROL Préréglage absent]** : vous ne pouvez pas publier votre message si le préréglage que vous avez sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre préréglage dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur le branding, consultez [cette section](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Le paramètre prédéfini n’existe pas.]**: vous ne pouvez pas publier votre message si le paramètre prédéfini que vous avez sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre préréglage dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur le branding, consultez [cette section](../configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](create-push.md).
+* **[!UICONTROL La charge utile push iOS/Android a dépassé la limite de 4 Ko.]**: la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](create-push.md).
 
 >[!CAUTION]
 >

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 94%
+source-wordcount: '629'
+ht-degree: 82%
 
 ---
 
@@ -30,8 +30,7 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 * Un seul **Formulaire** peut être utilisé dans une seule Principale page.
 * Le **Formulaire** ne peut pas être utilisé dans les sous-pages.
 * Vous ne pouvez pas ajouter de pré-titre à une landing page.
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* Vous ne pouvez pas sélectionner la variable **Codez vos propres** lors de la conception d&#39;une landing Principale page.
 
 ## Limitations dans les parcours {#limitations-journeys}
 
@@ -50,7 +49,7 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 
 * Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
 * Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d&#39;autres versions.
-* Le segment et l&#39;espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
+* Le segment et l’espace de noms choisis dans **Qualification de segment** (premier noeud) ne peut pas être modifié dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
 * Un parcours commençant par un événement **Lire le segment** ne peut pas commencer par un autre événement dans les versions suivantes.
 
@@ -68,7 +67,7 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 
 ### Sources de données  {#data-sources}
 
-* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Les sources de données externes peuvent être utilisées dans un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
 ### Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
 

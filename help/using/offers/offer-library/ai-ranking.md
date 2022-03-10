@@ -6,7 +6,8 @@ description: En savoir plus sur les modèles AI qui permettent de classer les of
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
+source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 4%
@@ -116,4 +117,3 @@ Le problème de &quot;démarrage à froid&quot; se produit lorsqu’une nouvelle
 Par exemple, si nous voulons mesurer les performances d’une stratégie d’échantillonnage de Thompson (TS) utilisée dans le service de classement et que l’indicateur de performance clé est le taux de conversion (CVR), l’&quot;effet élévateur&quot; de la stratégie TS par rapport à la stratégie de base est défini comme suit :
 
 ![](../assets/ai-ranking-lift.png)
-
