@@ -2,7 +2,7 @@
 title: Débuter l'exécution du parcours
 description: Découvrez comment débuter de votre parcours et envoyer des messages
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
