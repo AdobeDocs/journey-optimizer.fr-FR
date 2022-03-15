@@ -4,9 +4,9 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
+source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '874'
 ht-degree: 17%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Configuration des sous-domaines de landing page"
->abstract="Pour pouvoir sélectionner un sous-domaine, vérifiez que vous avez déjà configuré au moins un sous-domaine de landing page."
+>title="Créer un paramètre prédéfini de landing page"
+>abstract="Pour pouvoir créer un paramètre prédéfini de page d’entrée, vérifiez que vous avez déjà configuré au moins un sous-domaine de page d’entrée à sélectionner dans la variable **Nom du sous-domaine** liste."
 
 Pour être en mesure de [créer des paramètres prédéfinis de landing page](#lp-create-preset), vous devez configurer les sous-domaines que vous utiliserez pour vos landing pages.
 
