@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez comment créer des emplacements dans cette vidéo](#video)
 
 Dans l&#39;exemple ci-dessous, trois emplacements correspondent à différents types de contenu (image, texte, HTML).
 
@@ -48,10 +48,12 @@ Pour créer une emplacement, procédez comme suit :
 
    ![](../assets/placement_created.png)
 
-## Tutoriel vidéo {#video}
+## Vidéo pratique{#video}
+
+Découvrez comment créer des emplacements dans Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
 >[!NOTE]
 >
 >Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)

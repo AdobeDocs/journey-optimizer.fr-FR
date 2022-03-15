@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 >abstract="C&#39;est à ce niveau qu&#39;est définie la connexion au système qui enverra les messages. Les actions définies ici seront ensuite disponibles dans la palette de gauche de votre parcours, dans la catégorie Action. "
 
 Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 [!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Reportez-vous à [cette section](../messages/get-started-content.md).
 
@@ -40,3 +42,9 @@ Les actions sont disponibles dans la palette gauche de votre parcours, dans la c
 Pour afficher la liste des actions ou configurer une nouvelle action, sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s&#39;affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 
 ![](assets/custom1.png)
+
+## Vidéo pratique {#video}
+
+Découvrez comment configurer des actions personnalisées.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)

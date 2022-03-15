@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -27,6 +27,8 @@ Elle vous permet de définir une connexion à un système afin de récupérer de
 * [Définition d’une attente personnalisée](../building-journeys/wait-activity.md#custom)
 * [Définition d’un fuseau horaire](../building-journeys/timezone-management.md)
 
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+
 Cette configuration n’est pas requise si vos parcours utilisent uniquement les données locales provenant d’une payload d’événement. Par exemple, si votre parcours comprend un événement suivi d’une activité d’email qui utilise uniquement les données de l’événement, il n’est pas nécessaire de configurer une source de données.
 
 Il existe deux types de sources de données :
@@ -41,3 +43,10 @@ Pour chaque source de données, vous définissez les informations à récupérer
 >Les relations de schémas sont désormais prises en charge pour les sources de données.
 
 Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=fr){target=&quot;_blank&quot;}.
+
+## Vidéo pratique {#video}
+
+Comprenez ce quʼest une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '1287'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Les décisions (précédemment appelées activités d’offre) sont des conteneurs qui s’appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez comment créer des activités d’offre dans cette vidéo](#video)
 
 La liste des décisions est accessible dans le menu **[!UICONTROL Offres]**> onglet **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leurs statuts ou de leurs dates de début ou de fin.
 
@@ -222,10 +222,12 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 ![](../assets/decision_information.png)
 
-## Tutoriel vidéo {#video}
+## Vidéo pratique{#video}
+
+Découvrez comment créer des activités d’offre dans Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 >[!NOTE]
 >
 >Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

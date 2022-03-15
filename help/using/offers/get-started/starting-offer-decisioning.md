@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '910'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Voici quelques-uns des avantages :
 * Workflows améliorés : au lieu de créer plusieurs diffusions ou campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en modifiant les offres dans différentes parties du modèle ;
 * Contrôle du nombre d&#39;affichages d&#39;une offre sur plusieurs campagnes et clients.
 
-➡️ [Regardez ces tutoriels vidéo](#tutorial-videos) pour en savoir plus sur la gestion des décisions.
+➡️ [En savoir plus sur la gestion des décisions dans ces vidéos](#video)
 
 ## À propos des offres et des décisions {#about-offers-and-decisions}
 
@@ -106,8 +106,7 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 * **Représentations** : une représentation est une information utilisée par un canal, comme la localisation ou la langue d&#39;affichage d&#39;une offre.
 
-
-## Tutoriels vidéo {#tutorial-videos}
+## Tutoriels vidéo{#video}
 
 >[!NOTE]
 >
@@ -126,3 +125,5 @@ La vidéo ci-dessous montre comment utiliser la gestion des décisions pour déf
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

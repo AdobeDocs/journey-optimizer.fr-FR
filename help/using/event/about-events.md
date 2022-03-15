@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '820'
 ht-degree: 100%
 
 ---
@@ -21,10 +21,6 @@ ht-degree: 100%
 >abstract="Un événement est lié à une personne. Il décrit son comportement (par exemple, cette personne a acheté un produit, a visité un magasin, a quitté un site web, etc.) ou un événement qui s’est produit en rapport avec cette personne (par exemple, elle a accumulé 10 000 points de fidélité). C’est ce type d’élément que [!DNL Journey Optimizer] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite."
 
 La configuration d’événement vous permet de définir les informations que [!DNL Journey Optimizer] recevra en tant qu’événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement.
-
->[!NOTE]
->
->Pour plus d’informations sur la configuration d’un événement, consultez le [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=fr).
 
 >[!CAUTION]
 >
@@ -40,6 +36,8 @@ Vous pouvez configurer deux types d’événements :
 >[!NOTE]
 >
 >Si vous modifiez un événement utilisé dans un parcours actif ou dans un état de brouillon, vous pouvez uniquement en modifier le nom ou la description, ou ajouter des champs de payload. La modification des parcours actifs ou dans un état de brouillon est strictement limitée pour éviter de les interrompre.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Type d’identifiant d&#39;événement{#event-id-type}
 
@@ -66,3 +64,13 @@ La payload contient les informations nécessaires au fonctionnement des API d’
 Après avoir transité par les API d’ingestion en flux continu, les événements se propagent dans un service interne appelé Pipeline, puis dans Adobe Experience Platform. Si l’indicateur du service de profil client en temps réel est activé pour le schéma d’événement et que ce dernier comprend également un identifiant de jeu de données avec l’indicateur de profil client en temps réel, le schéma est propagé dans ce service.
 
 Pour les événements générés par le système, le service Pipeline filtre les événements disposant d’une payload contenant des [!DNL Journey Optimizer] eventID (reportez-vous au processus de création d’événements ci-dessous) fournis par [!DNL Journey Optimizer] et contenus dans une payload d’événement. Pour les événements basés sur des règles, le système identifie l’événement à l’aide de la condition eventID. Ces événements sont écoutés par [!DNL Journey Optimizer] et le parcours correspondant est déclenché.
+
+## Tutoriels vidéo {#video}
+
+Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
+
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+
+Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

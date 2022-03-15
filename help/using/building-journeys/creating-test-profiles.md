@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1380'
 ht-degree: 94%
 
 ---
@@ -28,6 +28,8 @@ Il existe plusieurs façons de créer des profils de test. Vous trouverez dans c
 Vous pouvez également charger un fichier json dans un jeu de données existant. Pour en savoir plus à ce sujet, consultez la [documentation sur l&#39;ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target=&quot;_blank&quot;}.
 
 Veuillez noter que la création d&#39;un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
+
+➡️ [Découvrez comment créer des profils de test dans cette vidéo](#video)
 
 ## Conditions préalables {#test-profile-prerequisites}
 
@@ -227,3 +229,8 @@ curl -X POST \
 }
 }'
 ```
+## Vidéo pratique {#video}
+
+Découvrez comment créer des profils de test.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
 
 # Création de segments {#build-segments}
 
 Dans cet exemple, nous allons créer un segment pour cibler tous les clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients doivent avoir ouvert l&#39;application Luma dans les 7 derniers jours, puis fait un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
+
+➡️ [Découvrez comment créer des segments dans cette vidéo](#video-segment)
 
 1. Accédez au menu **[!UICONTROL Segments]**, puis cliquez sur le bouton **[!UICONTROL Créer un segment]**.
 
@@ -55,6 +57,8 @@ Dans cet exemple, nous allons créer un segment pour cibler tous les clients ré
 
 Le segment peut désormais être utilisé dans vos parcours. Voir à ce propos [cette section](../segment/about-segments.md).
 
-## Tutoriel vidéo{#create-segment-video}
+## Vidéo pratique{#video-segment}
+
+Découvrez comment créer des segments.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

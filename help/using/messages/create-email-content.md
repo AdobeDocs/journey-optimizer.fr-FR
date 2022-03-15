@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1615'
 ht-degree: 94%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 94%
 # Concevoir le contenu de vos emails dans l&#39;interface utilisateur {#create-email-content}
 
 Une fois que vous avez [créé votre message](create-message.md), vous pouvez commencer à créer le contenu de votre email.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur d&#39;email]** dans la section **[!UICONTROL Corps]**.
 
@@ -282,3 +284,9 @@ Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élém
 1. Modifiez les valeurs des attributs existants ou ajoutez de nouveaux attributs à l’aide du bouton **+**. Vous pouvez ajouter un attribut et une valeur quelconques compatibles avec la feuille CSS.
 
 Le style est ensuite appliqué à l’élément sélectionné. Si aucun attribut de style spécifique n’est défini pour les éléments enfants, le style de l’élément parent est hérité.
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer du contenu d&#39;email avec l&#39;éditeur de messages.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

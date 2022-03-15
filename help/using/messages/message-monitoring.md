@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 96%
 
 ---
 
 # Surveillance des messages {#monitor-message-execution}
 
 Pour vous assurer que vos messages sont exécutés, envoyés et diffusés avec succès, [!DNL Journey Optimizer] offre des fonctionnalités permettant de surveiller les messages actuellement publiés et déclenchés. Vous pouvez voir comment vos messages se comportent entre les parcours <!--and APIs--> en temps réel à partir de la liste **[!UICONTROL Exécutions]**.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour accéder à cette liste, sur la page d&#39;accueil de **[!DNL Journey Optimizer]**, sélectionnez **[!UICONTROL Messages]**, puis cliquez sur l&#39;onglet **[!UICONTROL Exécutions]**.
 
@@ -93,3 +95,9 @@ Dans **Vue globale**, vous pouvez uniquement choisir d’afficher les données s
 ![](assets/message-execution-data-format.png)
 
 Cliquer sur chaque lien hypertexte entraîne l&#39;ouverture de la vue de synthèse de message correspondante. [En savoir plus sur les messages](create-message.md).
+
+## Vidéo pratique {#video}
+
+En savoir plus sur les rapports en ligne et globaux, comment accéder au Parcours et analyser les rapports spécifiques aux messages et comment modifier les tableaux de bord des rapports.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)

@@ -5,10 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '367'
+ht-degree: 1%
 
 ---
 
@@ -21,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] fournit une bibliothèque dans laquelle vous pouvez accéder aux expressions de personnalisation enregistrées précédemment et qui ont été ajoutées par les utilisateurs administrateurs.
 
-1. Pour accéder aux expressions enregistrées, cliquez sur le bouton **[!UICONTROL Bibliothèque]** dans le volet de gauche. La liste affiche toutes les expressions qui ont été enregistrées par les utilisateurs administrateurs (voir [Enregistrement des expressions dans la bibliothèque](#save-expressions)).
+➡️ [Découvrez comment utiliser des expressions enregistrées dans cette vidéo](#video-preview)
 
-   >[!NOTE]
-   >
-   >Vous pouvez utiliser le bouton d’informations pour obtenir plus d’informations sur le contenu d’une expression enregistrée. Si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque, le bouton d’informations s’affiche dans le menu de ellipse.
+Pour accéder aux expressions enregistrées, cliquez sur le bouton **[!UICONTROL Bibliothèque]** dans le volet de gauche. La liste affiche toutes les expressions qui ont été enregistrées par les utilisateurs administrateurs (voir [Enregistrement des expressions dans la bibliothèque](#save-expressions)).
 
-   ![](assets/library-list.png)
+    >[!REMARQUE]
+    >
+    >Vous pouvez utiliser le bouton d’informations pour obtenir plus d’informations sur le contenu d’une expression enregistrée. Si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque, le bouton d’informations s’affiche dans le menu de ellipse.
+    
+    ![](assets/library-list.png)
 
-1. Cliquez sur le signe + pour insérer l’expression dans l’éditeur. Vous pouvez ensuite personnaliser et valider votre contenu de personnalisation comme vous le faites habituellement. [En savoir plus](../personalization/personalization-build-expressions.md)
+Cliquez sur le signe + pour insérer l’expression dans l’éditeur. Vous pouvez ensuite personnaliser et valider votre contenu de personnalisation comme vous le faites habituellement. [En savoir plus](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## Enregistrement d’une expression dans la bibliothèque {#save-expressions}
 
@@ -67,3 +70,10 @@ Pour enregistrer une expression dans la bibliothèque, procédez comme suit :
 Pour modifier une expression existante, ajoutez-la à l’éditeur, puis modifiez-la selon vos besoins. Cliquez sur **[!UICONTROL Ajouter à la bibliothèque]** pour valider la syntaxe et enregistrer l’expression.
 
 Pour supprimer une expression, cliquez sur le bouton représentant des ellipses, puis cliquez sur **[!UICONTROL Supprimer]**.
+
+## Vidéo pratique{#video}
+
+Découvrez comment utiliser des éléments de bibliothèque de personnalisation enregistrés dans un message et comment créer et gérer des éléments de bibliothèque de personnalisation.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+
