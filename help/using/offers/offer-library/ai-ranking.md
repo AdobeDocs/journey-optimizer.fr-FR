@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 4%
+source-wordcount: '1508'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## Prise en main des modèles AI {#get-started-with-ai-rankings}
 
-Vous pouvez utiliser un système de modèles formé qui classe les offres à afficher pour un profil donné.
+[!DNL Journey Optimizer] vous permet d’utiliser un système de modèles formé qui classe les offres à afficher pour un profil donné.
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ Vous pouvez utiliser un système de modèles formé qui classe les offres à aff
 Cette fonctionnalité vous permet de créer différents **Modèles AI** en fonction des objectifs de votre entreprise. En utilisant ces différentes stratégies basées sur des objectifs dans une décision, le système de modèles formé vous aidera à comprendre comment les différents modèles d’IA affectent vos objectifs.
 
 Par exemple, vous pouvez sélectionner un modèle d’IA pour le canal email et un autre pour le canal push. Pour chaque canal, le système de modèles formés exploite différents points de données pour déterminer l&#39;offre qui doit être présentée en premier pour un emplacement donné, plutôt que de prendre en compte les scores de priorité des offres ou une [formule de classement](create-ranking-formulas.md).
-
-Une fois qu’un modèle AI a été créé, affectez-le à un emplacement dans une décision. En savoir plus dans la section [Configurer la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
 
 >[!NOTE]
 >

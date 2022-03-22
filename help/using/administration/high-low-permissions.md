@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 96%
+source-wordcount: '1089'
+ht-degree: 95%
 
 ---
 
@@ -275,9 +275,9 @@ Elle comprend les autorisations de bas niveau suivantes :
    * datasets.read
    * profiles.read
 
-### Autorisation [!DNL Manage ranking strategies] {#manage-decisions}
+### Autorisation [!DNL Manage ranking strategies] {#manage-ranking-strategies}
 
-Lʼautorisation de haut niveau **[!DNL Manage ranking strategies]** permet aux utilisateurs de lire, de créer, de modifier et de supprimer un rapport de messages personnalisé et dʼutiliser des fonctionnalités dʼaction.
+Le **[!DNL Manage ranking strategies]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des stratégies de classement.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
