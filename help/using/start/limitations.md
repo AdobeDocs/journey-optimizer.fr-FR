@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 * La fonctionnalité E-mail Cci n’est pas prise en charge dans [!DNL Journey Optimizer].
 * Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
 
-## Limites des landing pages {#limitations-lp}
+## Limitations des pages de destinations {#limitations-lp}
 
-* Un seul **Formulaire** peut être utilisé dans une seule Principale page.
-* Le **Formulaire** ne peut pas être utilisé dans les sous-pages.
-* Vous ne pouvez pas ajouter de pré-titre à une landing page.
-* Vous ne pouvez pas sélectionner la variable **Codez vos propres** lors de la conception d&#39;une landing Principale page.
+* Un seul composant de **Formulaire** peut être utilisé dans une page principale unique.
+* Le composant de **Formulaire** ne peut pas être utilisé dans les sous-pages.
+* Vous ne pouvez pas ajouter de pré-titre à une page de destination.
+* Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
 
 ## Limitations dans les parcours {#limitations-journeys}
 
@@ -49,8 +49,8 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 
 * Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
 * Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d&#39;autres versions.
-* Le segment et l’espace de noms choisis dans **Qualification de segment** (premier noeud) ne peut pas être modifié dans les nouvelles versions.
-* La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
+* Le segment et l’espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
+* La règle de rentrée doit être la même dans toutes les versions du parcours.
 * Un parcours commençant par un événement **Lire le segment** ne peut pas commencer par un autre événement dans les versions suivantes.
 
 ### Actions personnalisées {#custom-actions}
@@ -67,7 +67,7 @@ Vous trouverez ci-dessous des limitations supplémentaires lors de l’utilisati
 
 ### Sources de données  {#data-sources}
 
-* Les sources de données externes peuvent être utilisées dans un parcours client pour rechercher des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
 ### Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
 
@@ -79,7 +79,7 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Ajouter une activité d’attente après le premier événement pour donner à Adobe Experience Platform le temps nécessaire pour exécuter l’ingestion sur le service de profil.
 
-* Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
+* Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse e-mail, etc.).
 
 ### Lecture de segment {#read-segment}
 
