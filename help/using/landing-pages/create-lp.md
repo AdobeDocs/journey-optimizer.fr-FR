@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -25,21 +25,21 @@ La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments c
 
 ![](assets/lp_access-list-filter.png)
 
-Depuis cette liste, vous pouvez accéder au [rapports de page d’entrée](lp-report.md) pour les éléments publiés.
+Depuis cette liste, vous pouvez accéder aux [rapports de page de destination](lp-report.md) pour les éléments publiés.
 
-Vous pouvez également supprimer, dupliquer et dépublier une landing page.
+Vous pouvez également supprimer, dupliquer et dépublier une page de destination.
 
 >[!CAUTION]
 >
->Si vous dépubliez une landing page référencée dans un message non publié, le message ne peut pas être publié tant que la landing page n’est pas republiée. Si le message est déjà publié, le lien vers la landing page est rompu et une page d&#39;erreur s&#39;affiche.
+>Si vous dépubliez une page de destination référencée dans un message non publié, le message ne peut pas être publié tant que la page de destination n’est pas republiée. Si le message est déjà publié, le lien vers la page de destination est rompu et une page d’erreur s’affiche.
 
-Cliquez sur les trois points en regard d’une landing page pour sélectionner l’action souhaitée.
+Cliquez sur les trois points en regard d’une page de destination pour sélectionner l’action souhaitée.
 
 ![](assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
->Vous ne pouvez pas supprimer une landing page publiée. Pour le supprimer, vous devez d’abord l’annuler.
+>Vous ne pouvez pas supprimer une page de destination publiée. Pour la supprimer, vous devez d’abord la dépublier.
 
 ## Création d’une page de destination {#create-landing-page}
 
@@ -53,7 +53,7 @@ Suivez les étapes de création dʼune page de destination décrites ci-après.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Sélectionnez un préréglage. Découvrez comment créer des paramètres prédéfinis de page d’entrée dans [cette section](../configuration/lp-configuration.md#lp-create-preset).
+1. Sélectionnez un préréglage. Découvrez comment créer des préréglages de page de destination dans [cette section](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_open-designer.png)
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -119,7 +119,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
 1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu de la page de destination [ici](design-lp.md).
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des bons à tirer. Découvrez comment [créer des profils de test](../building-journeys/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../building-journeys/creating-test-profiles.md).
 
 1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Prévisualisation et test]** pour accéder à la sélection du profil de test.
 
@@ -161,7 +161,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 ## Vérification des alertes {#check-alerts}
 
-Lorsque vous créez une landing page, des alertes vous avertissent lorsque vous devez effectuer des actions importantes avant de la publier.
+Lorsque vous créez votre page de destination, des alertes vous avertissent si vous devez effectuer des actions importantes avant de la publier.
 
 Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-dessous :
 
@@ -181,7 +181,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 >[!CAUTION]
 >
-> Vous devez résoudre tous les **error** alertes avant publication.
+> Vous devez résoudre toutes les alertes d’**erreur** avant de procéder à la publication.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
