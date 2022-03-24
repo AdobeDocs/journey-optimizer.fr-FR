@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Dans Handlebars, les valeurs renvoyées par {{expression}} se caractérisent par
 
 ## Profile
 
-Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Cet espace de noms vous permet de référencer tous les attributs définis dans le schéma de profil décrit dans la [documentation Modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
 Les attributs doivent être définis dans le schéma avant d&#39;être référencés dans un bloc de personnalisation [!DNL Journey Optimizer].
 
@@ -145,18 +145,18 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fer
 
 ## Personnalisation des URL{#perso-urls}
 
-Les URL personnalisées orientent les destinataires vers des pages spécifiques d&#39;un site web ou vers un microsite personnalisé, en fonction des attributs du profil. Dans Adobe Journey Optimizer, vous pouvez ajouter une personnalisation aux URL dans le contenu de votre message. La personnalisation de l&#39;URL peut être appliquée au texte et aux images, et utiliser les données de profil ou les données contextuelles.
+Les URL personnalisées orientent les destinataires vers des pages spécifiques dʼun site web ou vers un microsite personnalisé, en fonction des attributs du profil. Dans Adobe Journey Optimizer, vous pouvez ajouter une personnalisation aux URL dans le contenu de votre message. La personnalisation de lʼURL peut être appliquée au texte et aux images, ainsi qu’utiliser les données de profil ou les données contextuelles.
 
-Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour personnaliser une URL, procédez comme suit :
+Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour personnaliser une URL, procédez comme suit :
 
 1. Créez un lien dans le contenu de votre message. [En savoir plus](../messages/message-tracking.md#insert-links)
-1. Sélectionnez les attributs à partir de l’icône de personnalisation. L’icône de personnalisation n’est disponible que pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Exclusion**.
+1. Sélectionnez les attributs à partir de l’icône de personnalisation. L’icône de personnalisation nʼest disponible que pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Désinscription**.
 
 ![](assets/perso-url.png)
 
 >[!NOTE]
 >
->Dans l’éditeur d’expression, lorsque vous modifiez une URL personnalisée, les fonctions helper et l’appartenance à des segments sont désactivées pour des raisons de sécurité.
+>Dans l’éditeur d’expression, lorsque vous modifiez une URL personnalisée, les fonctions dʼassistance et l’appartenance à des segments sont désactivées pour des raisons de sécurité.
 
 **Exemples d’adresses URL personnalisées**
 
