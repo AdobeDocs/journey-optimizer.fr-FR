@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ L’un des cas d’utilisation les plus courants consiste à inviter vos clients
 
 Supposons, par exemple, que vous organisiez un événement le mois prochain et que vous souhaitiez lancer une campagne d’inscription à cet événement<!--to keep your customers that are interested updated on that event-->. Pour ce faire, vous allez envoyer un e-mail qui contient un lien vers une page de destination sur laquelle vos destinataires pourront sʼinscrire à cet événement. Les utilisateurs qui s’inscrivent seront ajoutés à la liste d’abonnements que vous avez créée à cet effet.
 
-### Configurer une landing page {#set-up-lp}
+### Configurer une page de destination {#set-up-lp}
 
 1. Créez la liste d’abonnements relative aux inscriptions à l’événement, qui stockera les utilisateurs inscrits. Découvrez comment créer une liste d’abonnements [ici](subscription-list.md#define-subscription-list).
 
@@ -55,7 +55,7 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
    >[!NOTE]
    >
-   >Pour pouvoir publier votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
+   >Pour pouvoir publier votre message, vérifiez que la page de destination sélectionnée n’a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
 1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
 
@@ -140,7 +140,7 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
    >[!NOTE]
    >
-   >Pour pouvoir publier votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
+   >Pour pouvoir publier votre message, vérifiez que la page de destination sélectionnée n’a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
 1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
 
@@ -160,7 +160,7 @@ Pour vérifier que le choix du profil correspondant a été mis à jour, accéde
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-Dans le **[!UICONTROL Attributs]** vous pouvez voir que la valeur de **[!UICONTROL choice]** a été remplacé par **[!UICONTROL non]**.
+Dans l’onglet **[!UICONTROL Attributs]**, la valeur du **[!UICONTROL choix]** a été remplacée par **[!UICONTROL non]**.
 
 <!--
 
