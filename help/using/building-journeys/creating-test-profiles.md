@@ -9,23 +9,23 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1380'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
-# Création de profils de test {#create-test-profiles}
+# Créer des profils de test {#create-test-profiles}
 
-Les profils de test sont requis lors de l’utilisation de la variable [mode test](../building-journeys/testing-the-journey.md) dans un parcours et à [prévisualiser et tester votre contenu ;](../messages/preview.md).
+Les profils de test sont requis lors de l’utilisation du [mode test](../building-journeys/testing-the-journey.md) dans un parcours ainsi que pour [prévisualiser et tester le contenu](../messages/preview.md).
 
-Il existe plusieurs façons de créer des profils de test. Vous trouverez dans cette page des informations détaillées sur :
+Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
 
-* Transformer [profil existant](#turning-profile-into-test) dans un profil de test
+* Transformer un [profil existant](#turning-profile-into-test) en profil de test.
 
-* Créer des profils de test en chargeant un [fichier csv](#create-test-profiles-csv) ou en utilisant [Appels API](#create-test-profiles-api).
+* Créer des profils de test en chargeant un [fichier CSV](#create-test-profiles-csv) ou en utilisant des [appels d’API](#create-test-profiles-api).
 
-   Outre ces deux méthodes, Adobe Journey Optimizer est fourni avec un [cas d’utilisation interne au produit](#use-case-1) spécifique pour faciliter la création de profils de test.
+   Outre ces deux méthodes, Adobe Journey Optimizer est fourni avec un [cas d’utilisation intégré](#use-case-1) spécifique pour faciliter la création de profils de test.
 
-Vous pouvez également charger un fichier json dans un jeu de données existant. Pour en savoir plus à ce sujet, consultez la [documentation sur l&#39;ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target=&quot;_blank&quot;}.
+Vous pouvez également charger un fichier JSON dans un jeu de données existant. Pour en savoir plus à ce sujet, consultez la [documentation sur l&#39;ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target=&quot;_blank&quot;}.
 
 Veuillez noter que la création d&#39;un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
 
@@ -33,9 +33,9 @@ Veuillez noter que la création d&#39;un profil de test est similaire à la cré
 
 ## Conditions préalables {#test-profile-prerequisites}
 
-Pour pouvoir créer des profils, il vous faut d&#39;abord créer un schéma ainsi qu&#39;un jeu de données dans Adobe [!DNL Journey Optimizer].
+Pour pouvoir créer des profils, il vous faut d’abord créer un schéma ainsi qu’un jeu de données dans Adobe [!DNL Journey Optimizer].
 
-À **création d’un schéma**, procédez comme suit :
+Pour **créer un schéma**, procédez comme suit :
 
 1. Dans la section du menu DATA MANAGEMENT, cliquez sur **[!UICONTROL Schémas]**.
    ![](assets/test-profiles-0.png)
@@ -114,7 +114,7 @@ Après avoir sélectionné l’espace de noms d’identité et fourni le fichier
 
 Vous pouvez transformer un profil existant en profil de test : vous pouvez mettre à jour les attributs de profil de la même manière que lorsque vous créez un profil.
 
-Pour ce faire, une méthode simple consiste à utiliser une activité d&#39;action **[!UICONTROL Mettre à jour le profil]** dans un parcours et à redéfinir le champ booléen testProfile de false à true.****
+Pour ce faire, une méthode simple consiste à utiliser une activité d’action **[!UICONTROL Mettre à jour le profil]** dans un parcours et à redéfinir le champ booléen **testProfile** de false à true.
 
 Votre parcours sera composé d&#39;une activité **[!UICONTROL Lecture de segment]** et **[!UICONTROL Mettre à jour le profil]**. Vous devez d&#39;abord créer un segment ciblant les profils que vous souhaitez transformer en profils de test.
 

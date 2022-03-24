@@ -9,7 +9,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1615'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -142,20 +142,20 @@ Si vous préférez utiliser un contenu différent pour la version en texte brut,
 >* Si vous réactivez l’option **[!UICONTROL Synchroniser avec le code HTML]** après la mise à jour de votre contenu en texte brut, vos modifications seront perdues et remplacées par du contenu texte généré à partir de la version HTML.
 
 
-## Ajout d’un pré-titre {#preheader}
+## Ajouter un pré-titre {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Ajouter un pré-titre"
->abstract="Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’email et il s’agit généralement d’une seule phrase."
+>abstract="Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase."
 
-Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’email et il s’agit généralement d’une seule phrase.
+Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase.
 
 >[!NOTE]
 >
->Les en-têtes prédéfinis ne sont pas pris en charge par tous les clients de messagerie. S’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
+>Les pré-titres ne sont pas pris en charge par tous les clients de messagerie. S’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
 
-Pour définir le pré-titre de l&#39;email, procédez comme suit :
+Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
 1. Depuis le Concepteur d&#39;e-mail, ajoutez des **[!UICONTROL composants de structure]** pour commencer à concevoir votre e-mail.
 
@@ -184,7 +184,7 @@ Votre pré-titre est maintenant configuré pour votre e-mail.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Paramètres d&#39;arrière-plan"
->abstract="Vous pouvez personnaliser la couleur d’arrière-plan ou l’image d’arrière-plan de votre contenu. Notez que l’image d’arrière-plan n’est pas prise en charge par tous les clients de messagerie."
+>abstract="Vous pouvez personnaliser la couleur ou l’image d’arrière-plan de votre contenu. Notez que l’image d’arrière-plan n’est pas prise en charge par tous les clients de messagerie."
 
 Lorsqu’il s’agit de définir des arrière-plans avec le Concepteur d’email, Adobe recommande ce qui suit :
 

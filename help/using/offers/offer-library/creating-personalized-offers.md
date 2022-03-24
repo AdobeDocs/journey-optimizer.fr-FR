@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 >id="od_offer_constraints"
 >title="À propos des contraintes d&#39;offre"
 >abstract="Les contraintes vous permettent de spécifier le type de priorisation de l&#39;offre et la manière dont elle est présentée à l&#39;utilisateur en comparaison avec d&#39;autres offres."
->additional-url="https://video.tv.adobe.com/v/329375?captions=fre-fr" text="Regarder une vidéo de démonstration"
+>additional-url="https://video.tv.adobe.com/v/329375" text="Regarder une vidéo de démonstration"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -164,13 +164,13 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 >id="od_offer_priority"
 >title="À propos de la priorité de l&#39;offre"
 >abstract="Dans ce champ, vous pouvez spécifier les paramètres de priorité de l&#39;offre. La priorité est un nombre utilisé pour classer les offres répondant à toutes les contraintes comme l&#39;éligibilité, les dates et la limitation."
->additional-url="https://video.tv.adobe.com/v/329375?captions=fre-fr" text="Regarder une vidéo de démonstration"
+>additional-url="https://video.tv.adobe.com/v/329375" text="Regarder une vidéo de démonstration"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
 >title="À propos de la limitation de l&#39;offre"
 >abstract="Dans ce champ, vous pouvez spécifier le nombre de fois où l&#39;offre peut être présentée à tous les utilisateurs."
->additional-url="https://video.tv.adobe.com/v/329375?captions=fre-fr" text="Regarder une vidéo de démonstration"
+>additional-url="https://video.tv.adobe.com/v/329375" text="Regarder une vidéo de démonstration"
 
 Les règles d&#39;éligibilité et les contraintes permettent de définir les conditions d&#39;affichage d&#39;une offre.
 

@@ -9,7 +9,7 @@ exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Procédez de la façon suivante :
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction de chaîne `upperCase` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
-   1. Utilisez le champ de recherche pour trouver &quot;majuscules&quot;.
+   1. Utilisez le champ de recherche pour trouver « upper case ».
    1. À partir des résultats de la recherche, ajoutez la fonction `upperCase`. Pour ce faire, cliquez sur le signe plus (+) en regard de `{%= upperCase(string) %}: string`.
 
       L’éditeur d’expression affiche cette expression :
@@ -75,7 +75,7 @@ Procédez de la façon suivante :
 1. Supprimez l’espace réservé « string » de l’expression.
 1. Ajoutez le jeton de prénom :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Attributs de profil]**.
-   1. Sélectionner **[!UICONTROL Personne]** > **[!UICONTROL Nom complet]**.
+   1. Sélectionnez **[!UICONTROL Personne]** > **[!UICONTROL Nom complet]**.
    1. Ajoutez le jeton **[!UICONTROL Prénom]** à l’expression.
 
       L’éditeur d’expression affiche cette expression :
@@ -86,7 +86,7 @@ Procédez de la façon suivante :
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le type de données du nom de la personne dans [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
+      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
@@ -145,7 +145,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
    1. Supprimez l’espace réservé « someArray » de l’expression.
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Attributs contextuels]**.
 
-      **[!UICONTROL Attributs contextuels]** ne sont disponibles qu’une fois que le contexte du parcours a été transmis au message.
+      Les **[!UICONTROL attributs contextuels]** ne sont disponibles qu’une fois que le contexte du parcours a été transmis au message.
 
    1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez le nœud **[!UICONTROL productListItems]**.
 

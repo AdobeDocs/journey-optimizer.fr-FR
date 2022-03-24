@@ -4,7 +4,7 @@ description: En tant que praticien Parcours, découvrez comment utiliser Journey
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
 

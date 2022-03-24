@@ -3,7 +3,7 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 100%
 

@@ -10,11 +10,11 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
-# Création de modèles AI {#ai-rankings}
+# Créer des modèles d’IA {#ai-rankings}
 
 [!DNL Journey Optimizer] permet de créer des **Modèles AI** pour classer les offres en fonction des objectifs de votre entreprise.
 
@@ -22,9 +22,9 @@ ht-degree: 88%
 >
 >Pour créer, modifier ou supprimer des modèles AI, vous devez disposer de la variable **Gestion des stratégies de classement** autorisation. [En savoir plus](../../administration/high-low-permissions.md#manage-ranking-strategies)
 >
->L’utilisation des modèles AI est actuellement disponible en accès anticipé pour certains utilisateurs uniquement.
+>L’utilisation des modèles d’IA est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
 
-Une fois qu’un modèle AI a été créé, affectez-le à un emplacement dans une décision. En savoir plus dans la section [Configuration de la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
+Une fois un modèle d’IA créé, affectez-le à un emplacement dans une décision. En savoir plus dans la section [Configurer la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
 
 ## Création d’une stratégie de classement {#create-ranking-strategy}
 
@@ -44,7 +44,7 @@ Pour créer un modèle d’IA en tant que stratégie de classement, procédez co
 
    * **[!UICONTROL Nom]** : nom unique que vous devez fournir.
 
-   * **[!UICONTROL Type de modèle]**: Actuellement dans [!DNL Journey Optimizer] le seul type de modèle pris en charge est **[!UICONTROL Optimisation automatique]**. [En savoir plus](ai-ranking.md#auto-optimization)
+   * **[!UICONTROL Type de modèle]** : actuellement, dans [!DNL Journey Optimizer], le seul type de modèle pris en charge est l’**[!UICONTROL optimisation automatique]**. [En savoir plus](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Mesure d&#39;optimisation]** :
 

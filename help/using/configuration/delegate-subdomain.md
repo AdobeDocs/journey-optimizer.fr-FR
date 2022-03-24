@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1501'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant 
 
    ![](assets/subdomain-processing.png)
 
-   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre que l’Adobe effectue les vérifications requises, qui peuvent prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
    >[!NOTE]
    >
@@ -142,7 +142,7 @@ Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en l�
 
 1. Une fois la délégation de sous-domaine CNAME envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](access-subdomains.md).
 
-   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre que l’Adobe effectue les vérifications requises, qui prennent généralement 2 à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre quʼAdobe effectue les vérifications nécessaires, ce qui prend généralement 2 à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 
 1. Une fois les vérifications effectuées<!--i.e Adobe validates the record you created and installs it-->, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour diffuser des messages.
 

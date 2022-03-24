@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs é
 
 La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l&#39;événement et permettant au système d&#39;identifier la personne associée à l&#39;événement. Il peut s&#39;agir de l&#39;Experience Cloud ID, d&#39;un ID CRM ou encore d&#39;une adresse e-mail.
 
-Si vous prévoyez d&#39;exploiter les données stockées dans la base de données de profils clients en temps réel, vous devez sélectionner, comme clé d&#39;événement, les informations que vous avez définies en tant qu&#39;identité d&#39;un profil dans le [service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
+Si vous prévoyez d&#39;exploiter les données stockées dans la base de données de profils clients en temps réel, vous devez sélectionner, comme clé d&#39;événement, les informations que vous avez définies en tant qu&#39;identité d&#39;un profil dans le [service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Le système pourra ainsi effectuer la réconciliation entre l&#39;événement et le profil de l&#39;individu. Si vous sélectionnez un schéma doté d&#39;une identité principale, les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Espace de noms]** sont déjà renseignés. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un espace de noms et la clé sera préremplie (sous le champ **[!UICONTROL Espace de noms]**) à l&#39;aide de _identityMap > id_.
 
