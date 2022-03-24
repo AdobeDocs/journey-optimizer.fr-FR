@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Création d’un message {#create-message}
+# Créer un message {#create-message}
 
 ## Accéder aux messages {#access-messages}
 
@@ -37,7 +37,7 @@ Les messages sont disponibles à partir du raccourci **[!UICONTROL Messages]** s
 
    ![](assets/archive-message.png)
 
-   Utilisez l’icône de filtre pour afficher tous les messages archivés et cliquez sur le bouton **[!UICONTROL Désarchiver]** pour supprimer un élément de la liste des messages archivés.
+   Utilisez l’icône de filtre pour afficher tous les messages archivés et cliquez sur l’icône **[!UICONTROL Désarchiver]** pour supprimer un élément de la liste des messages archivés.
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ Pour créer un nouveau message, procédez comme suit :
 
    >[!NOTE]
    >   
-   >Vous pouvez personnaliser vos messages à l’aide des données des profils à l’aide de l’éditeur d’expression. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md).
+   >Vous pouvez personnaliser vos messages à l’aide des données de profil, au moyen de l’éditeur d’expression. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md).
 
 1. Contrôlez le rendu de vos messages et vérifiez les paramètres de personnalisation avec les profils de test, à l&#39;aide de la section prévisualisation sur le côté gauche. Voir à ce propos [cette section](preview.md).
 
@@ -90,15 +90,15 @@ Pour créer un nouveau message, procédez comme suit :
 
 ## Dupliquer un message {#duplicate-message}
 
-Pour créer un message à partir d&#39;un message existant, procédez comme suit.
+Pour créer un message à partir d’un message existant, procédez comme suit.
 
 1. Ouvrez le message que vous souhaitez copier.
 
-1. Utilisez la variable **[!UICONTROL Dupliquer]** à partir de l’interface du message.
+1. Utilisez le bouton **[!UICONTROL Dupliquer]** à partir de l’interface du message.
 
    ![](assets/message-duplicate.png)
 
-   Tous les paramètres et toutes les configurations seront copiés dans le nouveau message.
+   Tous les paramètres et la configuration seront copiés dans le nouveau message.
 
 1. Vous pouvez renommer le message avant de confirmer la duplication.
 
@@ -106,9 +106,9 @@ Pour créer un message à partir d&#39;un message existant, procédez comme suit
 
 1. Un message de confirmation s&#39;affiche au bas de la fenêtre une fois le nouveau message créé.
 
-Vous pouvez également dupliquer un message de la liste des messages à l’aide de l’icône dédiée du menu Actions rapides.
+Vous pouvez également dupliquer un message de la liste des messages à l’aide de l’icône dédiée du menu des actions rapides.
 
 ![](assets/message-duplicate-from-list.png)
 
-Le même processus de confirmation s&#39;applique.
+Le même processus de confirmation s’applique.
 
