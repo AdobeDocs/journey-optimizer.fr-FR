@@ -3,9 +3,9 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2700'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Pages d’entrée d’abonnements</strong><br/></th>
+<th><strong>Pages de destination d’abonnement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et concevoir des landing pages dans Journey Optimizer et diriger vos utilisateurs vers des formulaires en ligne où ils peuvent s’inscrire ou se désinscrire de la réception de vos communications, ou s’abonner à un service spécifique tel qu’une newsletter.</p>
+<p>Vous pouvez désormais créer et concevoir des pages de destination dans Journey Optimizer afin de diriger vos utilisateurs vers des formulaires en ligne où ils pourront s’inscrire ou se désinscrire de la réception de vos communications, ou s’abonner à un service spécifique, tel qu’une newsletter.</p>
 <p>Pour plus d’informations, consultez la <a href="../landing-pages/create-lp.md">documentation détaillée</a> et le <a href="../landing-pages/lp-use-cases.md">cas d’utilisation type</a> correspondant.</p>
 </td>
 </tr>
@@ -44,7 +44,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer fournit désormais une bibliothèque dans laquelle vous pouvez accéder aux expressions de personnalisation prédéfinies. Ces expressions sont configurées par les utilisateurs administrateurs.</p>
+<p>Journey Optimizer propose désormais une bibliothèque qui vous donne accès à des expressions de personnalisation prédéfinies. Ces expressions sont configurées par les utilisateurs administrateurs.</p>
 <p>Pour plus d’informations, consultez la <a href="../personalization/personalization-library.md">documentation détaillée</a>.</p>
 </td>
 </tr>
