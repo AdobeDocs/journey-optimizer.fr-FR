@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
    >
    >Le composant **[!UICONTROL Formulaire]** ne peut être utilisé qu’une seule fois sur la même page.
 
-1. Sélectionnez-le. Le **[!UICONTROL Contenu du formulaire]** s’affiche dans la palette de droite pour vous permettre de modifier les différents champs du formulaire.
+1. Sélectionnez-le. Lʼonglet **[!UICONTROL Contenu du formulaire]** s’affiche dans le panneau de droite et vous permet de modifier les différents champs du formulaire.
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -53,7 +53,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
 1. Dans la **[!UICONTROL Case à cocher 1]**, vous pouvez modifier le libellé correspondant à cette case à cocher.
 
-1. Définissez si cette case à cocher permet d’exclure ou de désactiver les utilisateurs : acceptent-ils de recevoir des communications ou demandent-ils de ne plus être contactés ?
+1. Définissez si cette case à cocher permet d’inscrire ou de désinscrire les utilisateurs : acceptent-ils de recevoir des communications ou demandent-ils à ne plus être contactés ?
 
    ![](assets/lp_designer-form-update.png)
 
@@ -94,7 +94,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](assets/lp_designer-form-error.png)
 
-1. Si vous souhaitez apporter des mises à jour supplémentaires lors de l’envoi du formulaire, sélectionnez **[!UICONTROL Inclusion]** ou **[!UICONTROL Exclusion]** et définissez si vous souhaitez mettre à jour une liste d’abonnements, le canal ou uniquement l’adresse électronique utilisée.
+1. Si vous souhaitez effectuer des mises à jour supplémentaires lors de la soumission du formulaire, sélectionnez **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]** et définissez si vous souhaitez mettre à jour une liste d’abonnements, le canal ou uniquement l’adresse e-mail utilisée.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
@@ -114,7 +114,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Développez la section **[!UICONTROL Boutons]** pour modifier l’aspect du bouton dans le composant de formulaire. Vous pouvez par exemple ajouter une bordure, modifier la couleur du libellé au survol ou ajuster l’alignement du bouton.
+1. Développez la section **[!UICONTROL Boutons]** pour modifier l’aspect du bouton dans le composant de formulaire. Par exemple, vous pouvez ajouter une bordure, modifier la couleur du libellé en le survolant avec votre souris ou ajuster lʼalignement du bouton.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
@@ -126,7 +126,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. Développez la section **[!UICONTROL Erreur du formulaire]** pour ajuster l’affichage du message d’erreur qui est visible en cas de problème. Cochez l&#39;option correspondante pour prévisualiser le texte de l&#39;erreur sur le formulaire.
+1. Développez la section **[!UICONTROL Erreur du formulaire]** pour ajuster l’affichage du message d’erreur qui est visible en cas de problème. Cochez lʼoption correspondante pour prévisualiser le texte dʼerreur sur le formulaire.
 
    ![](assets/lp_designer-form-error-preview.png)
 
