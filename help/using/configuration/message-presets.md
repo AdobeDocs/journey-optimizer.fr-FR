@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -78,29 +78,29 @@ Pour créer un préréglage de message, procédez comme suit :
 
 ## Configurer les paramètres d’e-mail {#configure-email-settings}
 
-Les paramètres d&#39;email sont définis dans une section dédiée de la configuration des paramètres prédéfinis du message.
+Les paramètres dʼe-mail sont définis dans une section dédiée de la configuration des préréglages de messages.
 
 ![](assets/preset-email.png)
 
-Configurez vos paramètres comme décrit ci-dessous.
+Configurez vos paramètres comme décrit ci-après.
 
 
-### Type d’email{#email-type}
+### Type d’e-mail{#email-type}
 
-Dans le **TYPE D&#39;EMAIL** , sélectionnez le type de message qui sera envoyé avec le paramètre prédéfini : **Marketing** ou **Transactionnel**.
+Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce au préréglage : **Marketing** ou **Transactionnel**.
 
-Choisir **Marketing** pour les messages promotionnels : ces messages requièrent le consentement de l’utilisateur.
+Choisissez **Marketing** pour les messages promotionnels : ces messages nécessitent le consentement de l’utilisateur.
 
-Choisir **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
+Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
 
 >[!CAUTION]
 >
 >Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
 
-### Sous-domaine et pool d’adresses IP {#subdomains-and-ip-pools}
+### Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
-Dans le **SOUS-DOMAINE ET DÉTAILS DU POOL IP** , vous devez :
+Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous devez effectuer les actions suivantes :
 
 1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
 
@@ -108,31 +108,31 @@ Dans le **SOUS-DOMAINE ET DÉTAILS DU POOL IP** , vous devez :
 
 ### Tracking des URL{#url-tracking}
 
-Pour identifier où et pourquoi une personne a cliqué sur votre lien, vous pouvez ajouter des paramètres UTM pour le suivi des URL dans la variable  **[!UICONTROL CONFIGURATION DU SUIVI DES URL (Web Analytics)]** .
+Pour identifier lʼendroit où une personne a cliqué sur votre lien et la raison de ce clic, vous pouvez ajouter des paramètres UTM pour le tracking des URL dans la section **[!UICONTROL CONFIGURATION DU TRACKING DES URL (Web Analytics)]**.
 
-En fonction des paramètres que vous définissez, un code UTM est appliqué à la fin de l’URL incluse dans le contenu de votre message. Vous pourrez ensuite comparer les résultats dans un outil d’analyse web, tel que les Google Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+En fonction des paramètres que vous définissez, un code UTM est appliqué à la fin de l’URL incluse dans le contenu de votre message. Vous pourrez ensuite comparer les résultats dans un outil Web Analytics, tel que Google Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
 ![](assets/preset-url-tracking.png)
 
-Trois paramètres UTM sont disponibles par défaut. Vous pouvez ajouter jusqu’à 10 paramètres de suivi. Pour ajouter un paramètre UTM, sélectionnez la variable **[!UICONTROL Ajout d’un nouveau paramètre UTM]** bouton .
+Trois paramètres UTM sont disponibles par défaut. Vous pouvez ajouter jusqu’à 10 paramètres de tracking. Pour ajouter un paramètre UTM, sélectionnez le bouton **[!UICONTROL Ajouter un nouveau paramètre UTM]**.
 
-Pour configurer un paramètre UTM, vous pouvez saisir directement les valeurs souhaitées dans la variable **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** ou effectuez une sélection dans une liste de valeurs prédéfinies en accédant aux objets suivants :
+Pour configurer un paramètre UTM, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** ou choisir parmi une liste de valeurs prédéfinies en accédant aux objets suivants :
 
-* Attributs de parcours : ID source, Nom source, ID de version source
-* Attributs de message : ID d’action, nom de l’action
-* Attributs d’Offer decisioning : Identifiant de l’offre, Nom de l’offre
+* Attributs de parcours : Identifiant de la source, Nom de la source, Identifiant de la version de la source
+* Attributs de message : Identifiant de lʼaction, Nom de l’action
+* Attributs d’Offer Decisioning : Identifiant de l’offre, Nom de l’offre
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->Ne sélectionnez pas de dossier : assurez-vous d’accéder au dossier nécessaire et de sélectionner un attribut de profil à utiliser comme valeur UTM.
+>Ne sélectionnez pas de dossier : assurez-vous d’accéder au dossier nécessaire et de sélectionner un attribut de profil à utiliser comme valeur UTM.
 
 ### Paramètres d’en-tête{#email-header}
 
-Dans le **[!UICONTROL PARAMÈTRES D’EN-TÊTE]** , saisissez les adresses électroniques associées aux messages envoyés à l’aide de ce paramètre prédéfini. Ces adresses électroniques doivent utiliser la sélection actuelle [sous-domaine délégué](about-subdomain-delegation.md).
+Dans la section **[!UICONTROL PARAMÈTRES D’EN-TÊTE]**, saisissez les adresses e-mail associées aux messages envoyés à lʼaide de ce préréglage. Ces adresses e-mail doivent utiliser le [sous-domaine délégué](about-subdomain-delegation.md) actuellement sélectionné.
 
-Vous devez configurer les adresses électroniques suivantes :
+Vous devez configurer les adresses e-mail suivantes :
 
 * **[!UICONTROL Nom de l’expéditeur]** : le nom de l’expéditeur, tel que le nom de votre marque. 
 
@@ -142,18 +142,18 @@ Vous devez configurer les adresses électroniques suivantes :
 
 * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. Vous devez utiliser une adresse définie sur le sous-domaine délégué (par exemple, *reply@marketing.luma.com*), sinon les e-mails seront ignorés.
 
-* **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. 
+* **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse.
 
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
->Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
+>Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait dʼunion `-`.
 
-### Paramètres de reprise par email{#email-retry}
+### Paramètres de reprise de lʼe-mail{#email-retry}
 
-Vous pouvez configurer la variable **Paramètres de reprise par email**.
+Vous pouvez configurer les **Paramètres de reprise de lʼe-mail**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -161,15 +161,15 @@ Par défaut, la [période de reprise](retries.md#retry-duration) est définie su
 
 Vous devez saisir une valeur entière (en heures ou minutes) dans la plage suivante :
 
-* Pour les emails marketing, la période de reprise minimale est de 6 heures.
-* Pour les emails transactionnels, la période de reprise minimale est de 10 minutes.
+* Pour les e-mails marketing, la période de reprise minimale est de 6 heures.
+* Pour les e-mails transactionnels, la période de reprise minimale est de 10 minutes.
 * Pour les deux types d’e-mail, la période de reprise maximale est de 84 heures (soit 5 040 minutes).
 
 ## Configurer les paramètres des notifications push {#configure-push-settings}
 
-Les paramètres push sont définis dans une section dédiée de la configuration des paramètres prédéfinis du message.
+Les paramètres des notifications push sont définis dans une section dédiée de la configuration des préréglages de messages.
 
-Pour définir les paramètres push associés au paramètre prédéfini de message, procédez comme suit :
+Pour définir les paramètres des notifications push associés au préréglage de message, procédez comme suit :
 
 1. Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
 
@@ -195,11 +195,11 @@ Pour plus d&#39;informations sur la configuration de votre environnement pour en
 
 ## Surveiller les préréglages de message {#monitor-message-presets}
 
-Tous vos préréglages de message s’affichent dans le menu **[!UICONTROL Canaux]**/**[!UICONTROL Préréglages de message]**. Des filtres sont disponibles pour vous aider à parcourir la liste (type de canal, utilisateur, statut).
+Tous vos préréglages de message s’affichent dans le menu **[!UICONTROL Canaux]**/**[!UICONTROL Préréglages de message]**. Des filtres sont disponibles pour vous aider à parcourir la liste (type de canal, utilisateur et statut).
 
 ![](assets/preset-filters.png)
 
-Une fois créés, les paramètres prédéfinis de message peuvent avoir les états suivants :
+Une fois créés, les préréglages de message peuvent avoir les statuts suivants :
 
 * **[!UICONTROL Brouillon]** : le préréglage de message a été enregistré en tant que brouillon et n&#39;a pas encore été envoyé.
 Ouvrez-le pour reprendre la configuration.
@@ -210,7 +210,7 @@ Ouvrez-le pour reprendre la configuration.
 
 En cas d’échec de la création d’un préréglage de message, les détails de chaque raison d’échec possible sont décrits ci-dessous.
 
-Si l’une de ces erreurs se produit, contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
+Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
 
 * **Échec de la validation SPF** : SPF (Sender Policy Framework) est un protocole d’authentification d’e-mail qui permet de spécifier des adresses IP autorisées pouvant envoyer des e-mails à partir d’un sous-domaine donné. L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les e-mails aux fournisseurs de messagerie.
 
