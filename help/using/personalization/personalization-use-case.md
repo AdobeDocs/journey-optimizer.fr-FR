@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc9.png)
 
-1. Sélectionnez la **Attributs contextuels** . Les attributs contextuels ne sont disponibles que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
+1. Sélectionnez le menu **Attributs contextuels**. Les attributs contextuels ne sont disponibles que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
    * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité **Message** dans le parcours.
    * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md). 
@@ -94,11 +94,11 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc12.png)
 
-1. Saisissez le message et insérez, à partir du ****[!UICONTROL Attributs contextuels]** , le nom de l’élément de commande et la progression de la commande.
+1. Tapez le message et, à partir du menu ****[!UICONTROL Attributs contextuels]**, insérez le nom de l’élément de commande et la progression de la commande.
 
    ![](assets/perso-uc13.png)
 
-1. Dans le menu de gauche, sélectionnez **Offrir des décisions** pour insérer une variable d’offer decisioning. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision (auparavant « activité d&#39;offre ») pour l&#39;ajouter au corps.
+1. Dans le menu de gauche, sélectionnez **Décisions d’offre** pour insérer une variable Offer Decisioning. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision (auparavant « activité d&#39;offre ») pour l&#39;ajouter au corps.
 
    ![](assets/perso-uc14.png)
 
