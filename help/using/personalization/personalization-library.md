@@ -9,7 +9,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 85%
+ht-degree: 91%
 
 ---
 
@@ -73,7 +73,7 @@ Pour supprimer une expression, cliquez sur le bouton Ellipse, puis cliquez sur *
 
 ## Vidéo pratique{#video}
 
-Découvrez comment utiliser des éléments de bibliothèque de personnalisation enregistrés dans un message et comment créer et gérer des éléments de bibliothèque de personnalisation.
+Découvrez comment utiliser les éléments enregistrés de la bibliothèque de personnalisation dans un message ainsi que comment créer et gérer les éléments de la bibliothèque de personnalisation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 
