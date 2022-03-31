@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 93%
 
 ---
 
-# Configuration d&#39;un événement métier {#configure-a-business-event}
+# Configuration d’un événement métier {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="Événements d’entreprise"
+>abstract="La configuration d’événement vous permet de définir les informations que Journey Optimizer recevra en tant qu’événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement. Contrairement aux événements unitaires, les événements métier ne sont pas liés à un profil spécifique. Le type d&#39;ID d&#39;événement est toujours basé sur des règles."
 
 Contrairement aux événements unitaires, les événements métier ne sont pas liés à un profil spécifique. Le type d&#39;ID d&#39;événement est toujours basé sur des règles. Pour en savoir plus sur les événements métier, reportez-vous à [cette section](../event/about-events.md).
 
@@ -23,11 +28,12 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 
 >[!NOTE]
 >
->Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=fr) sur le cas d’utilisation d’un événement métier.
+>Vous pouvez également visionner le [tutoriel](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=fr) sur le cas d’utilisation d’un événement métier. Notez que le schéma n’a pas besoin d’être activé pour profile.
 
 ## Remarques importantes {#important-notes}
 
-* Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d’événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
+* Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles.
+* Le schéma d’événement doit contenir une identité Principale non basée sur des personnes. Les champs suivants doivent être sélectionnés lors de la définition de l&#39;événement : `_id` et `timestamp`
 * Les événements métier ne peuvent être placés que comme première étape d&#39;un parcours.
 * Lorsqu&#39;un événement métier est placé comme première étape d&#39;un parcours, le type de planificateur du parcours est « événement métier ».
 * Seule une activité de lecture de segment peut être placée après un événement métier. Elle est automatiquement ajoutée comme étape suivante.
@@ -78,7 +84,7 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
    ![](assets/jo-event5-business.png)
 
-   Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d’événement doit contenir une identité principale. Les champs suivants doivent être définis selon les besoins : `_id` et `timestamp`
+   Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d’événement doit contenir une identité Principale non basée sur des personnes. Les champs suivants doivent être sélectionnés lors de la définition de l&#39;événement : `_id` et `timestamp`
 
    ![](assets/test-profiles-4.png)
 

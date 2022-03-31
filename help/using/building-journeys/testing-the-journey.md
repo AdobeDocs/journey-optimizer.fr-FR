@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 100%
+source-wordcount: '1748'
+ht-degree: 99%
 
 ---
 
 # Tester votre parcours{#testing_the_journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test"
+>title="Tester votre parcours"
+>abstract="Vous pouvez tester votre parcours avant sa publication à l’aide de profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication."
+
 Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication.
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Reportez-vous à cette [section](../segment/creating-test-profiles.md).
 
 Pour utiliser le mode test, procédez comme suit :
 
@@ -54,7 +59,7 @@ Pour utiliser le mode test, procédez comme suit :
 ## Remarques importantes {#important_notes}
 
 * Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
-* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../building-journeys/creating-test-profiles.md).
+* Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../segment/creating-test-profiles.md).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant rejoindre un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y ont participé précédemment ou qui y sont actuellement actives. Il efface aussi les rapports.
@@ -64,6 +69,11 @@ Pour utiliser le mode test, procédez comme suit :
 * Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut Version préliminaire.
 
 ## Déclenchement d’événements {#firing_events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_configuration"
+>title="Configuration du mode test"
+>abstract="Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement."
 
 Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera qu’un individu rejoint le parcours.
 
@@ -110,6 +120,11 @@ Lors de l&#39;utilisation d&#39;un événement métier (voir [cette section](../
 Notez que lorsque vous déclenchez pour la première fois un événement métier, vous ne pouvez pas modifier la définition de l&#39;événement métier dans la même session de test. Vous pouvez uniquement faire en sorte qu’un même individu ou qu’un autre individu rejoigne le parcours en transmettant le même identifiant ou un autre identifiant. Si vous souhaitez modifier les paramètres de l&#39;événement métier, vous devez arrêter et démarrer à nouveau le mode test.
 
 ## Affichage des journaux {#viewing_logs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_logs"
+>title="Journaux du mode test"
+>abstract="Vous pouvez afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours."
 
 Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 

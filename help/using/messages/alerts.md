@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: f5b629d5e413a3ffc037af959c5e16b9a47e8a0e
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
@@ -47,11 +47,11 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 * **[!UICONTROL Le lien d’exclusion n’est pas présent dans le corps de lʼe-mail.]** : une bonne pratique consiste à ajouter un lien de désinscription dans le corps de votre e-mail. Découvrez comment configurer ce lien dans [cette section](consent.md).
 
-* **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](create-email-content.md#generate-text-version).
+* **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
 
-* **[!UICONTROL Lien vide figurant dans le corps de l’e-mail]** : vérifiez que tous les liens de votre e-mail sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](create-email-content.md).
+* **[!UICONTROL Lien vide figurant dans le corps de l’e-mail]** : vérifiez que tous les liens de votre e-mail sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](../design/create-email-content.md).
 
-* **[!UICONTROL La taille de l’e-mail dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre e-mail ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](create-email-content.md).
+* **[!UICONTROL La taille de l’e-mail dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre e-mail ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](../design/create-email-content.md).
 
 **Erreurs** :
 
@@ -61,7 +61,7 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 * **[!UICONTROL La version push du message est vide.]** : cette erreur s’affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
 
-* **[!UICONTROL La version e-mail du message est vide.]** : cette erreur sʼaffiche lorsque le contenu de lʼe-mail nʼa pas été configuré. Découvrez comment concevoir le contenu des e-mails dans [cette section](design-emails.md).
+* **[!UICONTROL La version e-mail du message est vide.]** : cette erreur sʼaffiche lorsque le contenu de lʼe-mail nʼa pas été configuré. Découvrez comment concevoir le contenu des e-mails dans [cette section](../design/design-emails.md).
 
 * **[!UICONTROL Préréglage absent]** : vous ne pouvez pas publier votre message si le préréglage que vous avez sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre préréglage dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur le branding, consultez [cette section](../configuration/about-subdomain-delegation.md).
 

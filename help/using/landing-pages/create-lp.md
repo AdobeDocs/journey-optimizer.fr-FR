@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments c
 
 ![](assets/lp_access-list-filter.png)
 
-Depuis cette liste, vous pouvez accéder aux [rapports de page de destination](lp-report.md) pour les éléments publiés.
+Depuis cette liste, vous pouvez accéder au [Rapport en direct de la page d’entrée](../reports/lp-report-live.md) ou [Rapport global de page d’entrée](../reports/lp-report-global.md) pour les éléments publiés.
 
 Vous pouvez également supprimer, dupliquer et dépublier une page de destination.
 
@@ -133,7 +133,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../building-journeys/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
 
 1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Prévisualisation et test]** pour accéder à la sélection du profil de test.
 
@@ -147,7 +147,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
    ![](assets/lp_test-profiles.png)
 
-   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../messages/preview.md#select-test-profiles).
+   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../design/preview.md#select-test-profiles).
 
 1. Sélectionnez lʼonglet **[!UICONTROL Prévisualisation]** et cliquez sur **[!UICONTROL Ouvrir la prévisualisation]** pour tester votre page de destination.
 
@@ -210,9 +210,9 @@ Une fois votre page de destination configurée, vous pouvez la publier pour quʼ
 
 Une fois votre page de destination publiée, elle est ajoutée à la liste de pages de destination avec le statut **[!UICONTROL Publié]**.
 
-Votre page est désormais en ligne et peut être utilisée dans un [!DNL Journey Optimizer] [message](../messages/create-message.md) qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
+Votre page est désormais en ligne et peut être utilisée dans un [!DNL Journey Optimizer] [message](../messages/get-started-content.md) qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Vous pouvez surveiller lʼimpact de votre page de destination au moyen de rapports spécifiques. [En savoir plus](lp-report.md)
+>Vous pouvez surveiller lʼimpact de votre page de destination au moyen de rapports spécifiques. [En savoir plus](../reports/lp-report-live.md)
 

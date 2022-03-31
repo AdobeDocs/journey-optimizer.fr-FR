@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 100%
@@ -21,15 +21,15 @@ Pour commencer à créer du contenu pour votre [page principale](create-lp.md#co
 
 Plusieurs possibilités sʼoffrent alors à vous :
 
-* **Concevez votre page de destination à partir de rien** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Découvrez comment concevoir votre contenu ou utiliser des modèles intégrés [dans cette section](../messages/create-email-content.md).
+* **Concevez votre page de destination à partir de rien** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). Découvrez comment concevoir votre contenu ou utiliser des modèles intégrés [dans cette section](../design/create-email-content.md).
 
-* **Codez ou collez du code HTML brut** directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../messages/existing-content.md#import-raw-html-code).
+* **Codez ou collez du code HTML brut** directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../design/code-content.md).
 
-* **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer du contenu [dans cette section](../messages/existing-content.md#import-html-content-from-file).
+* **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer du contenu [dans cette section](../design/existing-content.md).
 
 >[!NOTE]
 >
->Le concepteur de contenu pour la page de destination est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../messages/design-emails.md).
+>Le concepteur de contenu pour la page de destination est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../design/design-emails.md).
 
 ## Définition de contenu spécifique aux pages de destination {#define-lp-specific-content}
 

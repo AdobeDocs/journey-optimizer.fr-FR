@@ -5,7 +5,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 En tant que développeur, vous devez **configurer votre application mobile** pour pouvoir envoyer des notifications push avec [!DNL Adobe Journey Optimizer].
 
-[!DNL Journey Optimizer] vous permet de créer vos parcours et d&#39;envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur l&#39;application mobile, ainsi que dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. Pour comprendre le flux de données des notifications push dans [!DNL Adobe Journey Optimizer], reportez-vous à [cette page](../../messages/push-gs.md).
+[!DNL Journey Optimizer] vous permet de créer vos parcours et d&#39;envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur l&#39;application mobile, ainsi que dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. Pour comprendre le flux de données des notifications push dans [!DNL Adobe Journey Optimizer], reportez-vous à [cette page](../../configuration/push-gs.md).
 
-Les étapes de configuration du canal de notification push et de test de l’intégration de votre application mobile sont détaillées dans [cette page](../../messages/push-configuration.md).
+Les étapes de configuration du canal de notification push et de test de l’intégration de votre application mobile sont détaillées dans [cette page](../../configuration/push-configuration.md).
 
 ## Utilisation des API {#work-apis}
 

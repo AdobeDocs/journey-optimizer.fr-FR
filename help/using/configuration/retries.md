@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Lorsqu’un e-mail échoue en raison d’une erreur temporaire **Soft bounce**, 
 
 >[!NOTE]
 >
->Pour en savoir plus sur les types d’erreurs, consultez la section [Types d’échec de diffusion](../messages/suppression-list.md#delivery-failures).
+>Pour en savoir plus sur les types d’erreurs, consultez la section [Types d’échec de diffusion](../reports/suppression-list.md#delivery-failures).
 
 Dans la configuration par défaut, le seuil est défini à cinq erreurs.
 
@@ -45,7 +45,7 @@ Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez mod
 
    >[!CAUTION]
    >
-   >Toute valeur supérieure à 10 peut entraîner des problèmes de réputation en matière de délivrabilité, ainsi que la limitation ou la mise sur liste bloquée des adresses IP par les FAI. [En savoir plus sur la délivrabilité](../messages/deliverability.md)
+   >Toute valeur supérieure à 10 peut entraîner des problèmes de réputation en matière de délivrabilité, ainsi que la limitation ou la mise sur liste bloquée des adresses IP par les FAI. [En savoir plus sur la délivrabilité](../reports/deliverability.md)
 
 ## Période de reprise {#retry-duration}
 

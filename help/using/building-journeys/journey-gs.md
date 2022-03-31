@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1796'
 ht-degree: 100%
 
 ---
@@ -68,6 +68,11 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Modification des propriétés {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Propriétés du parcours"
+>abstract="Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et définir une durée Temporisation et erreur si vous êtes administrateur."
 
 Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
 

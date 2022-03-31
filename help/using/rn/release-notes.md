@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 100%
+source-wordcount: '2824'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +13,28 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter la page relative aux [dernières mises à jour de la documentation](documentation-updates.md) pour prendre connaissance des autres modifications.
 
+## Version de mars 2022 {#march-2022-release}
 
+### Améliorations
+
+**Parcours**
+
+* Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Evénement d’étape de Parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../reports/sharing-overview.md)
+* Les nouveaux événements d’étape liés aux tâches d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../reports/query-examples.md)
+
+**Gestion des décisions**
+
+<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité d’offer decisioning pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+<!--**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+
+**Personnalisation**
+
+* Vous pouvez désormais enregistrer plus de 40 expressions de personnalisation dans la bibliothèque. [En savoir plus](../personalization/personalization-library.md)
 
 ## Version de février 2022 {#feb-2022-release}
 
@@ -236,7 +257,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Reporting**
 
-* **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les chiffres et les pourcentages dans la **Vue globale** de l’onglet **Exécution**. [En savoir plus](../messages/message-monitoring.md)
+* **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les chiffres et les pourcentages dans la **Vue globale** de l’onglet **Exécution**. [En savoir plus](../reports/message-monitoring.md)
 
 
 **Administration**
@@ -276,7 +297,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 <td>
 <p>De nouvelles mesures sont disponibles dans les rapports : Ciblé et Exclu pour les e-mails et les messages push sont visibles dans les rapports dynamiques et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="../reports/live-report.md">documentation détaillée.</a></p>
 <p>Une nouvelle colonne de la liste d'exécution des messages affiche le nombre de profils ciblés pour chaque exécution du message. </p>
-<p>Pour plus d'informations, consultez la <a href="../messages/message-monitoring.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../reports/message-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -419,7 +440,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Conception de contenu**
 
-* **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../messages/preview.md)
+* **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../design/preview.md)
 * **Lien d’exclusion en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**exclusion** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur désinscription. [En savoir plus](../messages/consent.md#one-click-opt-out-link)
 
 **Personnalisation**
@@ -428,7 +449,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Configuration des e-mails**
 
-* **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](../messages/allow-list.md#enable-allow-list)
+* **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](../reports/allow-list.md#enable-allow-list)
 * **Navigation** : la liste de suppression, accessible sous le menu **Administration > Canaux > Configuration des emails > Général** a été déplacée vers le nouveau sous-menu  **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestion des décisions**
@@ -475,7 +496,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 <tr>
 <td>
 <p>Vous pouvez maintenant définir une liste d'envoi sécurisé spécifique au niveau de l'environnement Sandbox, afin d'avoir un environnement sécurisé à des fins de test. Sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n'avez aucun risque d'envoyer des messages indésirables à vos clients. Cette fonctionnalité est activée en utilisant les API de suppression.</p>
-<p>Pour plus d'informations, consultez la <a href="../messages/allow-list.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../reports/allow-list.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -494,9 +515,9 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Prévisualiser et tester les messages**
 
-* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../messages/preview.md#preview-your-messages)
+* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../design/preview.md#preview-your-messages)
 * Le nombre d&#39;e-mails de test pour les BAT est maintenant limité à 10.
-* Les caractères autorisés pour le **préfixe de ligne d&#39;objet** dans les BAT sont maintenant limités. [En savoir plus](../messages/preview.md#send-proofs)
+* Les caractères autorisés pour le **préfixe de ligne d&#39;objet** dans les BAT sont maintenant limités. [En savoir plus](../design/preview.md#send-proofs)
 
 **Personnalisation de l&#39;éditeur d&#39;expression**
 

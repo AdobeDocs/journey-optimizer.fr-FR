@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -28,8 +28,8 @@ Vous utiliserez ces types de fonctions helper :
 ➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo](#video)
 
 Avant de commencer, vérifiez que vous savez comment configurer ces éléments :
-* Un message e-mail. [En savoir plus](../messages/create-message.md)
-* Le corps d’un email. [En savoir plus](../messages/create-email-content.md).
+* Un message e-mail. [En savoir plus](../messages/get-started-content.md)
+* Le corps d’un email. [En savoir plus](../design/create-email-content.md).
 * Un événement unitaire. [En savoir plus](../event/about-events.md).
 * Un parcours commençant par un événement. [En savoir plus](../building-journeys/using-the-journey-designer.md).
 
@@ -147,7 +147,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
       Les **[!UICONTROL attributs contextuels]** ne sont disponibles qu’une fois que le contexte du parcours a été transmis au message.
 
-   1. Sélectionnez **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez le nœud **[!UICONTROL productListItems]**.
+   1. Sélectionner **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez la variable **[!UICONTROL productListItems]** noeud .
 
       Dans cet exemple, *event_name* représente le nom de votre événement.
 

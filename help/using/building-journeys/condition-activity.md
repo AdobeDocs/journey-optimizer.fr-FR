@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 92%
 
 ---
 
 # Activité de condition{#condition-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_condition"
+>title="Activité de condition"
+>abstract="Cette activité vous permet de définir le flux de l’individu dans le parcours. Plusieurs chemins seront créés selon différents critères. Vous pouvez également créer un autre chemin en cas de dépassement de délai ou d’erreur."
 
 Les types de conditions disponibles sont les suivantes :
 
@@ -26,6 +31,11 @@ Les types de conditions disponibles sont les suivantes :
 ![](assets/journey49.png)
 
 ## À propos de l’activité de condition {#about_condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_simple"
+>title="À propos de l’éditeur d’expression simple"
+>abstract="Le mode d’éditeur d’expression simple permet d’effectuer des requêtes simples basées sur une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Faites glisser des champs dans la zone principale. Pour combiner les différents éléments, imbriquez-les afin de créer différents groupes et/ou niveaux de groupes. Vous pouvez ensuite sélectionner un opérateur logique pour combiner les éléments de même niveau."
 
 Lorsque vous utilisez plusieurs conditions dans un parcours, vous pouvez définir des libellés pour chacune d’elles afin de les identifier plus facilement.
 
@@ -53,15 +63,17 @@ Si vous utilisez le [service de segmentation Adobe Experience Platform](https:
 
 >[!NOTE]
 >
->Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Consultez la [documentation d’Adobe Journey Orchestration](expression/expressionadvanced.md).
+>Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [cette page](expression/expressionadvanced.md).
 
 Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
-Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours dynamiques, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. Pour plus d’informations, consultez la [documentation d’Adobe Journey Orchestration](expression/journey-properties.md).
+Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours dynamiques, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées. [En savoir plus](expression/journey-properties.md)
 
 ## Condition de source de données {#data_source_condition}
 
-Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Pour savoir comment utiliser l’éditeur d’expression, consultez la [documentation d’Adobe Journey Orchestration](expression/expressionadvanced.md). L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. Voir [cette page](../datasource/external-data-sources.md).
+Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Découvrez comment utiliser l’éditeur d’expression dans [cette section](expression/expressionadvanced.md).
+
+L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 
@@ -112,7 +124,7 @@ Le chemin nominal a toujours la priorité sur le chemin alternatif, même si vou
 Pour les parcours actifs, voici les seuils à prendre en compte pour que la limite soit atteinte :
 
 * Pour une limite supérieure à 10 000, le nombre de profils distincts à injecter doit être au moins égal à 1,3 fois la limite.
-* Pour une limite inférieure à 10 000, le nombre de profils distincts à injecter doit être de 1 000 plus la limite.
+* Pour une limite inférieure à 10 000, le nombre de profils distincts à injecter doit être de 1 000 plus la limite.
 
 La limite de profils n’est pas prise en compte en mode test.
 

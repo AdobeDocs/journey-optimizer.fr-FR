@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 99%
 
 ---
 
 # Mettre à jour le profil {#update-profile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="Activité Mise à jour de profil"
+>abstract="L&#39;activité d&#39;action Mettre à jour le profil vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique."
 
 L&#39;activité d&#39;action **[!UICONTROL Mettre à jour le profil]** vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique.
 
@@ -32,7 +37,7 @@ En mode test, la mise à jour du profil ne sera pas simulée. La mise à jour se
 
 Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Dans Adobe Experience Platform, vous pouvez mettre à jour les attributs de profil par le biais d&#39;un import de fichier csv ou d&#39;appels d&#39;API. Une méthode plus simple consiste à utiliser une activité d&#39;action **Mettre à jour le profil** et à redéfinir le champ booléen du profil de test de false à true.
 
-Pour plus d&#39;informations sur la façon de transformer un profil existant en profil de test, consultez [cette section](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+Pour plus d&#39;informations sur la façon de transformer un profil existant en profil de test, consultez [cette section](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Utilisation de la mise à jour du profil
 

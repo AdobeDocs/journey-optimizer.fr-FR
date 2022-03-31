@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ Dans l’expression, les champs d’événement sont référencés par « @ »
 
 Une couleur de syntaxe permet de distinguer visuellement les champs d’événements (vert) des groupes de champs (bleu).
 
-## Valeurs par défaut des références de champ
+## Valeurs par défaut des références de champ {#default-value}
 
 Il est possible d’associer une valeur par défaut à un nom de champ. La syntaxe se présente comme suit :
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+Vous pouvez ajouter n’importe quel type d’expression comme valeur par défaut. La seule contrainte est que l’expression doit renvoyer le type de données attendu. Lors de l’utilisation d’une fonction, l’encapsulation de la fonction avec () est requise.
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Référence à un champ dans les collections

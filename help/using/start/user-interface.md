@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 100%
@@ -46,7 +46,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Parcours]** - Créez, configurez et orchestrez vos parcours clients. [En savoir plus](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Créez, concevez, tester et publiez des e-mails et messages push. [En savoir plus](../messages/create-message.md)
+* **[!UICONTROL Messages]** - Créez, concevez, tester et publiez des e-mails et messages push. [En savoir plus](../messages/get-started-content.md)
 
 **[!UICONTROL GESTION DES DÉCISIONS]**
 
@@ -56,7 +56,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL GESTION DE CONTENU]**
 
-* **[!UICONTROL Ressources]** - [!DNL Adobe Experience Manager Assets Essentials] est un référentiel centralisé de ressources que vous pouvez utiliser pour renseigner vos messages. [En savoir plus](../messages/assets-essentials.md)
+* **[!UICONTROL Ressources]** - [!DNL Adobe Experience Manager Assets Essentials] est un référentiel centralisé de ressources que vous pouvez utiliser pour renseigner vos messages. [En savoir plus](../design/assets-essentials.md)
 
 **[!UICONTROL GESTION DES DONNÉES]**
 
@@ -76,9 +76,9 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Segments]** - Créez et gérez des définitions de segment Experience Platform et exploitez-les dans vos parcours. [En savoir plus](../segment/about-segments.md)
 
-* **[!UICONTROL Profils]** - Le profil client en temps réel offre une vue d&#39;ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. [En savoir plus](get-started-profiles.md)
+* **[!UICONTROL Profils]** - Le profil client en temps réel offre une vue d&#39;ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. [En savoir plus](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identités]** - Le service d&#39;identités d&#39;Adobe Experience Platform gère l&#39;identification inter-appareils, inter-canaux et en temps quasi réel de vos clients, dans ce qu&#39;on appelle un graphique d&#39;identités dans Adobe Experience Platform. [En savoir plus](get-started-identity.md)
+* **[!UICONTROL Identités]** - Le service d&#39;identités d&#39;Adobe Experience Platform gère l&#39;identification inter-appareils, inter-canaux et en temps quasi réel de vos clients, dans ce qu&#39;on appelle un graphique d&#39;identités dans Adobe Experience Platform. [En savoir plus](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ Tirez parti des cas d&#39;utilisation [!DNL Adobe Journey Optimizer] de la page 
 
 Les cas d&#39;utilisation disponibles sont les suivants :
 
-* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas d’utilisation [sur cette page](../building-journeys/creating-test-profiles.md#use-case-1).
+* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas d’utilisation [sur cette page](../segment/creating-test-profiles.md#use-case-1).
 * **Envoyer un message d&#39;anniversaire aux clients** : pour envoyer automatiquement un e-mail afin de souhaiter un bon anniversaire à vos clients. (bientôt disponible)
 * **Envoyer des e-mails pour souhaiter la bienvenue aux nouveaux clients** : pour envoyer facilement jusqu&#39;à deux e-mails afin d&#39;accueillir vos nouveaux clients enregistrés. (bientôt disponible)
 * **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)

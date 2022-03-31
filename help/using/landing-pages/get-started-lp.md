@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8a2e1bca59dfb291b459c729e4fbc62de4c5353f
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Création de pages de destination</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Création de listes d’abonnements</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Conception de pages de destination</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Création de rapports</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="../reports/lp-report-live.md">Création de rapports</a></p></td>
 </tr>
 </table>
 

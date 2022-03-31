@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: Configurer une action personnalisée
 description: Découvrez comment configurer une action personnalisée
 feature: Actions
@@ -7,14 +7,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 98%
+source-wordcount: '955'
+ht-degree: 96%
 
 ---
 
 # Configurer une action personnalisée {#configure-an-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_configuration"
+>title="Actions personnalisées "
+>abstract="Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, Adobe.io, Firebase, etc."
 
 Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, Adobe.io, Firebase, etc.
 

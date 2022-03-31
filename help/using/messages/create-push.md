@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 98%
@@ -25,7 +25,7 @@ Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre
 
 [!DNL Journey Optimizer] prend en charge les notifications push et vous permet d&#39;envoyer des notifications extrêmement pertinentes à des taux de débit de pointe. Les notifications push peuvent inclure une personnalisation et un contexte basé sur les parcours afin d&#39;exploiter les données de votre marque avec Adobe Experience Cloud.
 
-Une fois que vous avez [créé un message](create-message.md), cliquez sur l&#39;onglet **[!UICONTROL Notification push]** pour définir les paramètres et le contenu de la notification push.
+Une fois que vous avez [créé un message](get-started-content.md), cliquez sur l&#39;onglet **[!UICONTROL Notification push]** pour définir les paramètres et le contenu de la notification push.
 
 ![](assets/create-content-push.png)
 
@@ -68,7 +68,7 @@ Deux options sont disponibles. Vous pouvez :
 
 * Cliquez sur le bouton **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets Essentials]** dans [cette page](assets-essentials.md).
+   Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets Essentials]** dans [cette page](../design/assets-essentials.md).
 
 * Vous pouvez également saisir lʼURL du média en cliquant sur le champ **[!UICONTROL Ajouter un média]**. Dans ce cas, vous pouvez ajouter une personnalisation à l’URL.
 
@@ -102,7 +102,7 @@ Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des p
 
 ## Données personnalisées
 
-Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications push dans Adobe Experience Platform et Adobe Launch, voir [cette section](push-gs.md).
+Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications push dans Adobe Experience Platform et Adobe Launch, voir [cette section](../configuration/push-gs.md).
 
 ## Options avancées {#advanced-options-push}
 
@@ -127,6 +127,6 @@ Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notific
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Configuration du canal push](push-gs.md)
-* [Création d&#39;un nouveau message](create-message.md)
+* [Configuration du canal push](../configuration/push-gs.md)
+* [Création d&#39;un nouveau message](get-started-content.md)
 * [Ajout d&#39;un message dans un parcours](../building-journeys/journeys-message.md)

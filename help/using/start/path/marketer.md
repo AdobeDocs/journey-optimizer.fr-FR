@@ -3,7 +3,7 @@ title: Prise en main de Journey Optimizer pour les professionnels du marketing
 description: En tant que praticien Parcours, découvrez comment utiliser Journey Optimizer.
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
 1. **Créer des segments**. Journey Optimizer vous permet de créer des segments d’audience directement à partir du menu **Segments**, et de les exploiter dans vos parcours. Pour en savoir plus sur les segments, consultez [cette page](../../segment/about-segments.md). Découvrez comment créer des segments [dans cet exemple](../../segment/creating-a-segment.md).
 
-1. **Création de messages**. Découvrez comment créer des e-mails et des notifications push dans Journey Optimizer [sur cette page](../../messages/create-message.md). 
+1. **Création de messages**. Découvrez comment créer des e-mails et des notifications push dans Journey Optimizer [sur cette page](../../messages/get-started-content.md). 
 
    ![](../assets/email_designer_7.png)
 
@@ -28,13 +28,13 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    ![](../assets/perso_ee2.png)
 
-1. **Créer et gérer des ressources**. [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages. En savoir plus dans [cette section](../../messages/assets-essentials.md).
+1. **Créer et gérer des ressources**. [!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages. En savoir plus dans [cette section](../../design/assets-essentials.md).
 
 1. **Ajouter des offres**. Utilisez [!DNL Journey Optimizer] pour offrir à vos clients les meilleures offres et expériences possibles au bon moment et à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées. Pour en savoir plus sur la gestion de prise de décision, consultez [cette section](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Tester et valider vos messages**. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../../personalization/personalize.md), vous pourrez vérifier comment ce contenu s&#39;affiche dans le message en exploitant les données du profil de test. De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment tester et valider vos messages [dans cette section](../../messages/preview.md). 
+1. **Tester et valider vos messages**. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../../personalization/personalize.md), vous pourrez vérifier comment ce contenu s&#39;affiche dans le message en exploitant les données du profil de test. De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment tester et valider vos messages [dans cette section](../../design/preview.md). 
 
 1. **Concevez des parcours client** pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] permet de créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
@@ -50,4 +50,4 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    Découvrez comment concevoir et exécuter des parcours [dans cette section](../../building-journeys/journey-gs.md).
 
-1. **Surveiller les messages et les parcours**. Pour vous assurer que vos messages sont exécutés, envoyés et diffusés avec succès, [!DNL Journey Optimizer] offre des fonctionnalités permettant de surveiller les messages actuellement publiés et déclenchés. Découvrez comment surveiller les performances [dans cette section](../../messages/message-monitoring.md).
+1. **Surveiller les messages et les parcours**. Pour vous assurer que vos messages sont exécutés, envoyés et diffusés avec succès, [!DNL Journey Optimizer] offre des fonctionnalités permettant de surveiller les messages actuellement publiés et déclenchés. Découvrez comment surveiller les performances [dans cette section](../../reports/message-monitoring.md).

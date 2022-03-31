@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
 1. **Configuration des messages et des canaux** : définir des paramètres prédéfinis, adapter et personnaliser les e-mails et les messages push
 
-   * Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../messages/push-gs.md)
+   * Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../configuration/push-gs.md)
 
    * Créez des paramètres prédéfinis de message pour configurer tous les paramètres techniques requis pour les messages de notification push et par e-mail. [En savoir plus](message-presets.md)
 
@@ -31,7 +31,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
    * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../messages/push-gs.md)
+    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
     -->
 
 1. **Déléguer des sous-domaines** : pour un nouveau sous-domaine à utiliser dans Journey Optimizer, la première étape consiste à le déléguer. [En savoir plus](about-subdomain-delegation.md)

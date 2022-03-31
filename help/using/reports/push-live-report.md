@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 90%
 
 ---
 
@@ -57,10 +57,13 @@ Le tableau **[!UICONTROL Mesures d’envoi - par push]** détaille le succès de
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
+![](assets/live_report_9.png)
+
+Le **[!UICONTROL Raisons de l’erreur]** et **[!UICONTROL Exclure les raisons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+
+Le **[!UICONTROL Envoi de statistiques - Échec]** widget vous permet de voir le nombre d’erreurs et de rebonds qui se sont produits.
+
 ![](assets/live_report_4.png)
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
 
-Le widget **[!UICONTROL Statistiques d&#39;envoi - Échec]** vous permet de voir combien d&#39;erreurs et de rebonds ont eu lieu.
-
-Le graphique et le tableau **[!UICONTROL Raisons de l&#39;erreur]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.

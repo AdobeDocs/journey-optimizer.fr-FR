@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 100%
+source-wordcount: '1243'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 1. Hébergez-le sur le système tiers de votre choix.
 
-1. [Créez un message](create-message.md) dans [!DNL Journey Optimizer].
+1. [Créez un message](get-started-content.md) dans [!DNL Journey Optimizer].
 
-1. Sélectionnez du texte dans votre contenu et [insérez un lien](message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle.
+1. Sélectionnez du texte dans votre contenu et [insérez un lien](../design/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle.
 
    ![](assets/opt-out-insert-link.png)
 
@@ -141,7 +141,7 @@ Comme de nombreux clients recherchent un processus plus facile pour se désabonn
 
 Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
-1. [Insérez un lien](message-tracking.md#insert-links) et sélectionnez **[!UICONTROL Désinscription en un clic]** comme type de lien.
+1. [Insérez un lien](../design/message-tracking.md#insert-links) et sélectionnez **[!UICONTROL Désinscription en un clic]** comme type de lien.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -155,6 +155,10 @@ Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
 1. Saisissez l’URL de la page de destination vers laquelle l’utilisateur sera redirigé une fois désabonné. Cette page n’est disponible que pour confirmer que la désinscription a réussi.
 
+   >[!NOTE]
+   >
+   >Si vous avez activé la variable **List-Unsubscribe** au niveau du paramètre prédéfini de message, cette URL sera également utilisée lorsque les utilisateurs cliqueront sur le lien de désabonnement dans l’en-tête de l’email. [En savoir plus](#unsubscribe-header)
+
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    Vous pouvez personnaliser vos liens. Pour en savoir plus sur les URL personnalisées, consultez [cette section](../personalization/personalization-syntax.md).
@@ -163,19 +167,41 @@ Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
 Une fois votre message envoyé via un [parcours](../building-journeys/journey.md), si un destinataire clique sur le lien de désinscription, il est immédiatement désinscrit.
 
-### Lien de désinscription dans l’en-tête du message {#unsubscribe-email}
+### Lien de désinscription dans l’en-tête du message {#unsubscribe-header}
 
-Si le client de messagerie des destinataires prend en charge l&#39;affichage d&#39;un lien de désabonnement dans l&#39;en-tête des e-mails, les e-mails envoyés avec [!DNL Journey Optimizer] incluent automatiquement ce lien.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="Ajout d’un lien de désabonnement à l’en-tête de courrier électronique"
+>abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’email. Pour définir une URL de désabonnement, insérez un lien d’exclusion d’un clic dans le contenu de l’email."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Désinscription en un clic"
+
+Si la variable [Option List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) est activé au niveau du paramètre prédéfini de message, les emails correspondants envoyés avec [!DNL Journey Optimizer] inclut un lien de désabonnement dans l’en-tête de l’email.
 
 Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 
-![](assets/unsubscribe-email.png)
+![](assets/unsubscribe-header.png)
 
-En fonction du client de messagerie, cliquer sur le lien de désabonnement de l&#39;en-tête aura l&#39;un des impacts suivants :
+>[!NOTE]
+>
+>Pour afficher le lien de désabonnement dans l’en-tête de l’email, le client de messagerie du destinataire doit prendre en charge cette fonctionnalité.
+
+L’adresse de désabonnement est la valeur par défaut. **[!UICONTROL Mailto (unsubscribe)]** adresse affichée dans le paramètre prédéfini de message correspondant. [En savoir plus](../configuration/message-presets.md#list-unsubscribe).
+
+Pour définir une URL de désabonnement personnalisée, insérez un lien d&#39;opt-out en un clic dans le contenu de l&#39;email et saisissez l&#39;URL de votre choix. [En savoir plus](#one-click-opt-out)
+
+Selon le client de messagerie, cliquer sur le lien de désabonnement de l’en-tête peut avoir les effets suivants :
+
+* La demande de désabonnement est envoyée à l’adresse de désabonnement.
+
+* Le destinataire est dirigé vers l&#39;URL de la landing page que vous avez spécifiée lors de l&#39;ajout du lien de désinscription à votre message.
+
+   >[!NOTE]
+   >
+   >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune landing page ne s&#39;affichera.
 
 * Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-* Cela a le même effet que de cliquer sur le lien de désabonnement dans le contenu de l&#39;e-mail : le destinataire est redirigé vers une page de destination comprenant un bouton pour confirmer sa désinscription. En savoir plus sur la gestion des opt-outs dans [cette section](#opt-out-management).
+<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Gestion des désinscriptions push {#push-opt-out-management}
 

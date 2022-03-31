@@ -1,19 +1,24 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
 title: À propos de l’éditeur d’expression avancé
 description: Découvrez comment créer des expressions avancées
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
 
 # À propos de l’éditeur d’expression avancé {#about-the-advanced-expression-editor}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_advanced"
+>title="À propos de l’éditeur d’expression avancé"
+>abstract="Utilisez l’éditeur d’expression avancé pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données."
 
 Utilisez l’éditeur d’expression avancé pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données.
 Il est également à votre disposition si vous avez besoin de définir des paramètres d’action qui nécessitent de manipuler des données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires récupérées de la source de données.

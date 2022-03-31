@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 100%
@@ -25,7 +25,7 @@ L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Jo
 
 Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies 
 
-* Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../messages/create-message.md).
+* Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../messages/get-started-content.md).
 * Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
 * Créer une décision (auparavant « activité d&#39;offre ») ; consultez cette [section](../offers/offer-activities/create-offer-activities.md).
 

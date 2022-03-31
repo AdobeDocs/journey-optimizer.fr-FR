@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
@@ -65,4 +65,4 @@ Vous pouvez également utiliser les listes d’abonnements comme des segments lo
 
 >[!NOTE]
 >
->Vous pouvez surveiller lʼimpact de votre liste d’abonnements grâce à des rapports spécifiques. [En savoir plus](subscription-report.md)
+>Vous pouvez surveiller lʼimpact de votre liste d’abonnements grâce à des rapports spécifiques. [En savoir plus](../reports/subscription-report-live.md)

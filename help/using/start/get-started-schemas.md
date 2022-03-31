@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 96%
@@ -39,7 +39,7 @@ Découvrez comment créer un schéma, ajouter des groupes de champs, et créer e
 
 **Voir également**
 
-* [Création d’un schéma, d’un jeu de données et ingestion des données pour ajouter des profils de test dans Journey Optimizer](../building-journeys/creating-test-profiles.md)
+* [Création d’un schéma, d’un jeu de données et ingestion des données pour ajouter des profils de test dans Journey Optimizer](../segment/creating-test-profiles.md)
 * [Présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}
 * [Bonnes pratiques pour la modélisation des données](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=fr){target=&quot;_blank&quot;}
 * [Création d’un schéma à l’aide de l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=fr){target=&quot;_blank&quot;}

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail
 * Les adresses qui font l’objet de soft bounces systématiques et qui sont susceptibles de nuire à votre réputation en matière d’e-mails si vous continuez à les inclure dans vos diffusions.
 * Les destinataires qui déposent une plainte pour spam contre l&#39;un de vos e-mails.
 
-Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../messages/suppression-list.md).
+Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../reports/suppression-list.md).
 
 ## Accès à la liste de suppression {#access-suppression-list}
 
@@ -49,7 +49,7 @@ Si vous ajoutez manuellement une adresse e-mail ou un domaine par erreur, le bou
 
 ![](assets/suppression-list-delete.png)
 
-La suppression d’une adresse e-mail ou d’un domaine de la liste de suppression signifie que vous recommencerez à délivrer à cette adresse ou à ce domaine. Par conséquent, cela peut avoir de graves répercussions sur votre délivrabilité et votre réputation IP, ce qui peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi. En savoir plus sur l’importance de la maintenance d’une liste de suppression dans [cette section](../messages/suppression-list.md).
+La suppression d’une adresse e-mail ou d’un domaine de la liste de suppression signifie que vous recommencerez à délivrer à cette adresse ou à ce domaine. Par conséquent, cela peut avoir de graves répercussions sur votre délivrabilité et votre réputation IP, ce qui peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi. En savoir plus sur l’importance de la maintenance d’une liste de suppression dans [cette section](../reports/suppression-list.md).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Les catégories de suppression sont les suivantes :
 
 >[!NOTE]
 >
->Pour en savoir plus sur les soft bounces et les hard bounces, consultez la section [Types de diffusion en échec](../messages/suppression-list.md#delivery-failures).
+>Pour en savoir plus sur les soft bounces et les hard bounces, consultez la section [Types de diffusion en échec](../reports/suppression-list.md#delivery-failures).
 
 Pour chaque adresse e-mail répertoriée, vous pouvez également vérifier le **[!UICONTROL type]** (e-mail ou domaine), le **[!UICONTROL motif]** de son exclusion et la date/l’heure de son ajout à la liste de suppression.
 

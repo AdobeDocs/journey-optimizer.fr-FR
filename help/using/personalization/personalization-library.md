@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '359'
 ht-degree: 91%
 
 ---
@@ -59,8 +59,6 @@ Pour enregistrer une expression dans la bibliothèque, procédez comme suit :
 
 >[!NOTE]
 >
->* Vous pouvez enregistrer jusqu’à 40 expressions dans la bibliothèque.
->
 >* Les expressions ne doivent pas dépasser 200 Ko.
 >
 >* Les expressions enregistrées sont triées par date de création : l’expression ajoutée le plus récemment s’affiche en premier dans la liste.
@@ -73,7 +71,7 @@ Pour supprimer une expression, cliquez sur le bouton Ellipse, puis cliquez sur *
 
 ## Vidéo pratique{#video}
 
-Découvrez comment utiliser les éléments enregistrés de la bibliothèque de personnalisation dans un message ainsi que comment créer et gérer les éléments de la bibliothèque de personnalisation.
+Découvrez comment utiliser des éléments enregistrés de la bibliothèque de personnalisation dans un message et comment créer et gérer des éléments de la bibliothèque de personnalisation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 7d628ecd7c54455847c2cfb48bf59ff3f602c51f
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
@@ -112,7 +112,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | Identifiant de décision unique. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Nombre d&#39;offres à renvoyer. Le nombre maximal est 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Cet objet contient des informations sur le profil pour lequel la décision est demandée. Pour une requête d&#39;API, il contient un profil. |
-| `xdm:profiles.xdm:identityMap` | Cet objet contient un ensemble d&#39;identités d&#39;utilisateur final basées sur le code d&#39;intégration d&#39;espace de noms de l&#39;identité. Le mappage d&#39;identité peut comporter plusieurs identités de chaque espace de noms. Pour plus d’informations sur les espaces de noms, consultez [cette page](../../../start/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Cet objet contient un ensemble d&#39;identités d&#39;utilisateur final basées sur le code d&#39;intégration d&#39;espace de noms de l&#39;identité. Le mappage d&#39;identité peut comporter plusieurs identités de chaque espace de noms. Pour plus d’informations sur les espaces de noms, consultez [cette page](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | Identifiant généré par le client pouvant être utilisé pour identifier de manière unique une demande de décision de profil. Cette identifiant est repris dans la réponse et n&#39;influence pas le résultat de la décision. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Cet objet représente la structure de contrôle des règles de déduplication. Il s&#39;agit d&#39;une série d&#39;indicateurs qui définissent si la même option peut être proposée dans une certaine dimension. Un indicateur défini sur true signifie que les duplicatas sont autorisés et ne doivent pas être supprimés pour la catégorie indiquée par l&#39;indicateur. Un indicateur défini sur false signifie que le moteur de décision ne doit pas faire la même proposition pour la dimension et doit plutôt choisir la meilleure option suivante pour l&#39;une des sous-décisions. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si la valeur est définie sur true, plusieurs décisions peuvent se voir attribuer la même option. | `"xdm:acrossActivities": true` |

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
@@ -225,11 +225,11 @@ Les étapes détaillées pour créer et configurer une décision sont présenté
 
 Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Procédez comme suit :
 
-1. Créez votre e-mail, puis ouvrez le [Concepteur d&#39;e-mail](../../using/messages/design-emails.md) pour configurer son contenu.
+1. Créez votre e-mail, puis ouvrez le [Concepteur d&#39;e-mail](../../using/design/design-emails.md) pour configurer son contenu.
 
 1. Ajoutez un composant de structure à partir de la palette gauche.
 
-1. Ajoutez un composant de contenu **[!UICONTROL Décision d&#39;offre]**. Découvrez comment utiliser les composants de contenu dans [cette section](../../using/messages/content-components.md).
+1. Ajoutez un composant de contenu **[!UICONTROL Décision d&#39;offre]**. Découvrez comment utiliser les composants de contenu dans [cette section](../../using/design/content-components.md).
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -255,7 +255,7 @@ Vous pouvez maintenant visualiser toutes les offres personnalisées et l&#39;off
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-Utilisez la section **[!UICONTROL Offres]** ou les flèches des composants de contenu (flèches droite et gauche) pour parcourir les données. Vous pouvez également afficher les différentes offres qui font partie de la décision avec un profil client. En savoir plus dans [cette section](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
+Utilisez la section **[!UICONTROL Offres]** ou les flèches des composants de contenu (flèches droite et gauche) pour parcourir les données. Vous pouvez également afficher les différentes offres qui font partie de la décision avec un profil client. En savoir plus dans [cette section](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 Une fois vos modifications enregistrées et le message publié, vos offres sont prêtes à être affichées pour les profils pertinents lors de l&#39;envoi du message dans le cadre d&#39;un parcours.
 
@@ -265,7 +265,7 @@ Une fois vos modifications enregistrées et le message publié, vos offres sont 
 
 **Rubriques connexes :**
 
-* Découvrez comment vérifier la prévisualisation du message dans [cette section](../../using/messages/preview.md#preview-your-messages).
+* Découvrez comment vérifier la prévisualisation du message dans [cette section](../../using/design/preview.md#preview-your-messages).
 
 * Découvrez comment publier des messages dans [cette section](../../using/messages/publish-manage-message.md).
 

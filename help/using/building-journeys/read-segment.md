@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 100%
 # Utilisation d’un segment dans un parcours {#segment-trigger-activity}
 
 ## À propos de l’activité Lecture de segment {#about-segment-trigger-actvitiy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment"
+>title="Activité Lecture de segment"
+>abstract="L’activité Lecture de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement."
 
 L’activité Lecture de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 

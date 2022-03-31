@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
 
-
 ## Mars 2022 {#march-2022}
 
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 mars a été détaillée dans la documentation. [En savoir plus](release-notes.md)
 * Ajout dʼune nouvelle page sur la prise en main des modèles dʼIA dans la section **Offer Decisioning**, comprenant une description approfondie du [modèle d’optimisation automatique](../offers/offer-library/ai-ranking.md#auto-optimization), l’algorithme qu’il utilise et dʼautres détails techniques. [En savoir plus](../offers/offer-library/ai-ranking.md)
+* La page de création du profil de test a été déplacée vers le  **Segment, profils et identité** . [En savoir plus](../segment/creating-test-profiles.md)
+* Ajout d’un exemple sur l’ajout d’une expression en tant que valeur par défaut dans l’éditeur d’expression. [En savoir plus](../building-journeys/expression/field-references.md#default-value)
+* Le **Modifier les adresses email Principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Février 2022 {#feb-2022}
 
@@ -32,7 +35,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La section relative aux capacités de personnalisation de [!DNL Journey Optimizer] a été réorganisée pour une meilleure lisibilité. [En savoir plus](../personalization/personalize.md)
 * La section **Création de préréglages de message** a été divisée en plusieurs sections afin d’en améliorer la clarté. [En savoir plus](../configuration/message-presets.md#create-message-preset)
 * La section **Gestion des désinscriptions** a été clarifiée et légèrement réorganisée. [En savoir plus](../messages/consent.md#opt-out-management)
-* La section **Insérer des liens** a été mise à jour pour prendre en compte les modifications récentes de l’interface utilisateur. [En savoir plus](../messages/message-tracking.md#insert-links)
+* La section **Insérer des liens** a été mise à jour pour prendre en compte les modifications récentes de l’interface utilisateur. [En savoir plus](../design/message-tracking.md#insert-links)
 
 ## Novembre 2021 {#november-2021}
 
@@ -93,8 +96,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’une section sur les fonctions d’accessibilité et les raccourcis. [En savoir plus](../start/user-interface.md#accessibility)
 * Ajout d’une section sur les méthodes d’évaluation de segment. [En savoir plus](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Ajout de notes aux sections de rapport Liste de suppression, Liste autorisée et E-mail global/direct pour indiquer que les profils avec les statuts Supprimé et Non autorisé sont exclus des mesures Envoyer le rapport par e-mail. [En savoir plus](../reports/email-global-report.md)
-* Ajout d’une nouvelle section pour décrire comment récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. [En savoir plus](../messages/allow-list.md#reporting)
-* Mise à jour de la section Activation de la liste autorisée. [En savoir plus](../messages/allow-list.md#enable-allow-list)
+* Ajout d’une nouvelle section pour décrire comment récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne se trouvaient pas sur la liste autorisée. [En savoir plus](../reports/allow-list.md#reporting)
+* Mise à jour de la section Activation de la liste autorisée. [En savoir plus](../reports/allow-list.md#enable-allow-list)
 * Mise à jour de la section Surveillance des préréglages du message avec les raisons possibles d’échec de la création des préréglages et des détails sur ces erreurs. [En savoir plus](../configuration/message-presets.md#monitor-message-presets)
 * Mise à jour et changement du nom de la section Période de reprise afin de tenir compte du fait que vous pouvez désormais ajuster le paramètre de nouvelle tentative d’e-mail dans les préréglages du message. [En savoir plus](../configuration/retries.md#retry-duration)
 * Ajout d’une nouvelle section décrivant comment insérer un lien d’exclusion en un clic dans le contenu d’un e-mail. [En savoir plus](../messages/consent.md#one-click-opt-out-link)
@@ -112,8 +115,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout de liens vers la description du produit [!DNL Journey Optimizer] dans la page d’accueil.
 * Ajout de tutoriels vidéo à plusieurs pages
 * Image optimisée de la page d’accueil
-* Déplacement, amélioration et changement du nom de la section « Suivi des messages » en « Ajout de liens et suivi des messages ». [En savoir plus](../messages/message-tracking.md)
-* Ajout d’une sous-section aux pages miroir. [En savoir plus](../messages/message-tracking.md#mirror-page)
+* Déplacement, amélioration et changement du nom de la section « Suivi des messages » en « Ajout de liens et suivi des messages ». [En savoir plus](../design/message-tracking.md)
+* Ajout d’une sous-section aux pages miroir. [En savoir plus](../design/message-tracking.md#mirror-page)
 * Renommez « activités d’offre » en « décisions » et « décisions » en « portées de décision » dans la documentation et les écrans. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
 * Nouveau cas d’utilisation : [personnaliser un message avec des fonctions helper](../personalization/personalization-use-case-helper-functions.md)
 * Mise à jour de la documentation sur Lecture de segment pour prendre en compte les impacts sur les segments matérialisés. [En savoir plus](../building-journeys/read-segment.md)
