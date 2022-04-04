@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 90%
@@ -97,7 +97,6 @@ Choisissez **Transactionnel** pour les messages non commerciaux tels que la conf
 >
 >Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
-
 ### Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
 Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous devez effectuer les actions suivantes :
@@ -140,7 +139,7 @@ Le lien de désabonnement se compose de deux éléments :
 
 En savoir plus sur l’ajout d’un lien de désabonnement d’en-tête à vos messages dans [cette section](../messages/consent.md#unsubscribe-header).
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ### Tracking des URL{#url-tracking}
 

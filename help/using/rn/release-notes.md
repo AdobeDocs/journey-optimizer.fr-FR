@@ -2,16 +2,19 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '2824'
-ht-degree: 96%
+source-wordcount: '2915'
+ht-degree: 93%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter la page relative aux [dernières mises à jour de la documentation](documentation-updates.md) pour prendre connaissance des autres modifications.
+
+![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous au [newsletter trimestrielle Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} aujourd’hui, et recevez les dernières mises à jour de produits, des articles passionnants, des cas d’utilisation, des conseils, etc. directement dans votre boîte de réception tous les trimestres.
+
 
 ## Version de mars 2022 {#march-2022-release}
 
@@ -27,10 +30,10 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
 * L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité d’offer decisioning pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
-<!--**Administration**
+**Administration**
 
-* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+* Vous pouvez maintenant activer/désactiver le lien de désabonnement dans/à partir de l’en-tête de l’email au niveau du paramètre prédéfini de message, et définir une URL de désabonnement personnalisée au niveau du message. [En savoir plus](../configuration/message-presets.md#list-unsubscribe)
+* La liste autorisée peut désormais être activée et désactivée via l’option [!DNL Journey Optimizer] sur les environnements de test de production et hors production. [En savoir plus](../reports/allow-list.md#enable-allow-list)
 
 **Personnalisation**
 

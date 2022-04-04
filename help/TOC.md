@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ecd793299284ed744a8b65c6518dd4c906496f90
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 95%
@@ -90,7 +90,7 @@ ht-degree: 95%
    + Segments {#segments}
       + [Prise en main des segments](using/segment/about-segments.md)
       + [Création de segments](using/segment/creating-a-segment.md)
-   + [Profils] {#profiles}
+   + Profils{#profiles}
       + [Prise en main des profils](using/segment/get-started-profiles.md)
       + [Créer des profils de test](using/segment/creating-test-profiles.md)
    + [Identités](using/segment/get-started-identity.md)

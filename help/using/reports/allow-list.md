@@ -6,30 +6,36 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 91%
+source-wordcount: '572'
+ht-degree: 84%
 
 ---
 
 # Liste autorisée {#allow-list}
 
-Il est possible de définir une liste de sécurité d’envoi spécifique à l’adresse [sandbox](../administration/sandboxes.md) pour disposer d’un environnement sûr à des fins de test. Sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n&#39;avez aucun risque d&#39;envoyer des messages indésirables à vos clients.
+Il est possible de définir une liste de sécurité d’envoi spécifique à l’adresse [sandbox](../administration/sandboxes.md) pour disposer d’un environnement sûr à des fins de test.
+
+Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée vous garantit que vous n’avez aucun risque d’envoyer des messages indésirables à vos clients.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est désormais disponible sur les environnements de test de production et hors production.
 
 La liste autorisée vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d&#39;un environnement Sandbox spécifique. Cela peut vous empêcher d&#39;envoyer accidentellement des e-mails à des adresses client réelles lorsque vous vous trouvez dans un environnement de test.
 
 >[!CAUTION]
 >
->Cette fonctionnalité **n&#39;est pas** disponible sur les environnements Sandbox de production. Elle s’applique uniquement au canal e-mail.
+>Cette fonctionnalité s’applique uniquement au canal email.
 
 ## Activation de la liste autorisée {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.-->
 
-Pour activer la liste autorisée sur un environnement de test hors production, procédez comme suit.
+Pour activer la liste autorisée, procédez comme suit.
 
 1. Accédez au  **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Liste autorisée]** .
 

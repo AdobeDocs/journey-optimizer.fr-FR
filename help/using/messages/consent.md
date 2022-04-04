@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1244'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ Pour définir une URL de désabonnement personnalisée, insérez un lien d&#39;o
 
 Selon le client de messagerie, cliquer sur le lien de désabonnement de l’en-tête peut avoir les effets suivants :
 
-* La demande de désabonnement est envoyée à l’adresse de désabonnement.
+* La demande de désabonnement est envoyée à l’adresse de désabonnement par défaut.
 
 * Le destinataire est dirigé vers l&#39;URL de la landing page que vous avez spécifiée lors de l&#39;ajout du lien de désinscription à votre message.
 
@@ -200,8 +200,6 @@ Selon le client de messagerie, cliquer sur le lien de désabonnement de l’en-t
    >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune landing page ne s&#39;affichera.
 
 * Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Gestion des désinscriptions push {#push-opt-out-management}
 
