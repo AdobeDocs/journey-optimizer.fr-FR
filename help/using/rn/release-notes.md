@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '2915'
-ht-degree: 93%
+source-wordcount: '2941'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Gestion des décisions**
 
-<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* Vous pouvez maintenant spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou à chaque emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 * L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité d’offer decisioning pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administration**
