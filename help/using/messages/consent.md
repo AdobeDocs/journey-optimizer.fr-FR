@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 76%
+source-wordcount: '1246'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 #### Implémenter un appel API pour la désinscription {#opt-out-api}
 
-Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Développeur d’Adobes](developer.adobe.com) pour mettre à jour les préférences des profils correspondants.
+Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Développeur d’Adobes](https://developer.adobe.com){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel de POST est le suivant :
 
@@ -109,7 +109,7 @@ Contenu de la requête :
 }
 ```
 
-[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant via l’ [Développeur d’Adobes](developer.adobe.com) appel API.
+[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant via l’ [Développeur d’Adobes](https://developer.adobe.com)Appel de l’API {target=&quot;_blank&quot;}.
 
 #### Envoyer le message avec le lien de désinscription {#send-message-unsubscribe-link}
 

@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 96%
+source-wordcount: '963'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Actions personnalisées "
->abstract="Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack [Développeur d’Adobes](developer.adobe.com), Firebase, etc."
+>abstract="Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack [Développeur d’Adobes](https://developer.adobe.com), Firebase, etc."
 
-Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack [Développeur d’Adobes](developer.adobe.com), Firebase, etc.
+Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack [Développeur d’Adobes](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
 
 Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des professionnels du marketing. Une fois configurés, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
