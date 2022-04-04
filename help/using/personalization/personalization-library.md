@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 91%
+source-wordcount: '354'
+ht-degree: 97%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 91%
 
 Pour accéder aux expressions enregistrées, cliquez sur le bouton **[!UICONTROL Bibliothèque]** dans le volet de gauche. La liste affiche toutes les expressions qui ont été enregistrées par les utilisateurs administrateurs (voir [Enregistrer des expressions dans la bibliothèque](#save-expressions)).
 
-    >[!REMARQUE]
-    >
-    >Vous pouvez utiliser le bouton d’informations pour obtenir plus d’informations sur le contenu d’une expression enregistrée. Si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque, le bouton d’informations s’affiche dans le menu Ellipse.
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>Vous pouvez utiliser le bouton d’informations pour obtenir plus d’informations sur le contenu d’une expression enregistrée. Si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque, le bouton d’informations s’affiche dans le menu Ellipse.
+
+![](assets/library-list.png)
 
 Cliquez sur le signe + pour insérer l’expression dans l’éditeur. Vous pouvez ensuite personnaliser et valider votre contenu de personnalisation comme vous le faites habituellement. [En savoir plus](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## Enregistrer une expression dans la bibliothèque {#save-expressions}
 
