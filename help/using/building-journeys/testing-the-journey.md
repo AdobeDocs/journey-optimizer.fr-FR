@@ -1,15 +1,15 @@
 ---
-title: Test du parcours
-description: En savoir plus sur le test d’un parcours
+title: Tester votre parcours
+description: Découvrez comment tester votre parcours
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 99%
+source-wordcount: '1621'
+ht-degree: 83%
 
 ---
 
@@ -18,23 +18,24 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Tester votre parcours"
->abstract="Vous pouvez tester votre parcours avant sa publication à l’aide de profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication."
+>abstract="Utilisez des profils de test pour tester votre parcours avant de le publier. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication."
 
-Avant de pouvoir tester votre parcours, vous devez résoudre toutes les erreurs qu’il comporte, le cas échéant. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+Utilisez des profils de test pour tester votre parcours avant de le publier. Ce mode permet d’exécuter un test de votre parcours et d’identifier les problèmes à l’aide de profils de test.
 
-Vous avez la possibilité de tester votre parcours avant sa publication, en utilisant des profils de test. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication.
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez créer de nouveaux profils de test ou transformer des profils existants en profils de test. En savoir plus sur les profils de test dans [cette section](../segment/creating-test-profiles.md).
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez soit créer un profil de test, soit transformer un profil existant en profil de test. Reportez-vous à cette [section](../segment/creating-test-profiles.md).
+>[!NOTE]
+>
+>Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment vérifier les erreurs avant de les tester dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+
 
 Pour utiliser le mode test, procédez comme suit :
 
-1. Avant de tester votre parcours, vérifiez qu&#39;il est valide et qu&#39;il ne comporte aucune erreur, sans quoi il vous sera impossible de lancer un test. Consultez [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Un symbole d’avertissement est affiché en cas d’erreur.
-
-1. Pour activer le mode test, cliquez sur le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
+1. Pour activer le mode test, activez la fonction **[!UICONTROL Test]** bascule, situé dans le coin supérieur droit.
 
    ![](assets/journeytest1.png)
 
-1. Utilisez le paramètre **[!UICONTROL Durée d’attente]**, dans le coin inférieur gauche, pour définir la durée de chaque activité d’attente et temporisation d’événement en mode test. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test. Ce paramètre n’apparaît que si vous avez placé une ou plusieurs activités d’attente dans votre parcours.
+1. Si le parcours comporte au moins un **Attente** , définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
    ![](assets/journeytest_wait.png)
 
@@ -42,19 +43,19 @@ Pour utiliser le mode test, procédez comme suit :
    >
    >Lorsqu’un événement de réaction est utilisé dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
 
-1. Cliquez sur **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
+1. Utilisez la variable **[!UICONTROL Déclenchement d’un événement]** pour configurer et envoyer des événements au parcours.
 
    ![](assets/journeyuctest1.png)
 
-1. Configurez les différents champs prévus. Dans le champ **Identifiant de profil**, saisissez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse e-mail. Veillez à envoyer des événements liés aux profils de test. Voir [Déclenchement d’événements](#firing_events).
+1. Configurez les différents champs prévus. Dans le champ **Identifiant de profil**, saisissez la valeur du champ utilisé pour identifier le profil de test. Il peut s’agir, par exemple, de l’adresse e-mail. Veillez à envoyer des événements liés aux profils de test. Consultez [cette section](#firing_events).
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Voir [Affichage des journaux](#viewing_logs).
+1. Une fois les événements reçus, cliquez sur le bouton **[!UICONTROL Afficher le journal]** pour afficher les résultats du test et les valider. Consultez [cette section](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
-1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Si le test est concluant, vous pouvez publier votre parcours. Voir [cette page](../building-journeys/publishing-the-journey.md).
+1. En cas d’erreur, désactivez le mode test, modifiez votre parcours et lancez un nouveau test. Une fois les tests terminés, vous pouvez publier votre parcours. Voir [cette page](../building-journeys/publishing-the-journey.md).
 
 ## Remarques importantes {#important_notes}
 
@@ -66,16 +67,16 @@ Pour utiliser le mode test, procédez comme suit :
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 * Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
-* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut Version préliminaire.
+* Pour optimiser les performances et éviter l’utilisation obsolète des ressources, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine passeront en mode **Version préliminaire** statut.
 
-## Déclenchement d’événements {#firing_events}
+## Déclencher vos événements {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configuration du mode test"
 >abstract="Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l’exécution de l’envoi de l’événement."
 
-Le bouton **[!UICONTROL Déclencher un événement]** vous permet de configurer un événement qui fera qu’un individu rejoint le parcours.
+Utilisez la variable **[!UICONTROL Déclenchement d’un événement]** pour configurer un événement qui fera entrer une personne dans le parcours.
 
 >[!NOTE]
 >
@@ -111,20 +112,18 @@ Lors du déclenchement d’un événement, l’écran de **configuration de l’
 
 ![](assets/jo-event8.png)
 
-Pour plus d’informations sur l’utilisation du mode test, consultez [cette page](../building-journeys/testing-the-journey.md).
-
 ## Mode test pour événements métier {#test-business}
 
-Lors de l&#39;utilisation d&#39;un événement métier (voir [cette section](../event/about-events.md)), le mode test vous permet de déclencher une seule entrée de profil de test dans le parcours, de simuler le événement et de transmettre l&#39;identifiant de profil approprié. Vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. Vous ne pouvez pas utiliser l&#39;option **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** qui existe pour d&#39;autres parcours basés sur les segments. En mode test, aucun mode « Affichage du code » n’est disponible pour les parcours en fonction des événements métier.
+Lors de l’utilisation d’un [événement commercial](../event/about-events.md), utilisez le mode test pour déclencher une entrée de profil de test unique dans le parcours, simuler l’événement et transmettre l’identifiant de profil approprié. Vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. Vous ne pouvez pas utiliser l&#39;option **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** qui existe pour d&#39;autres parcours basés sur les segments. En mode test, aucun mode « Affichage du code » n’est disponible pour les parcours en fonction des événements métier.
 
 Notez que lorsque vous déclenchez pour la première fois un événement métier, vous ne pouvez pas modifier la définition de l&#39;événement métier dans la même session de test. Vous pouvez uniquement faire en sorte qu’un même individu ou qu’un autre individu rejoigne le parcours en transmettant le même identifiant ou un autre identifiant. Si vous souhaitez modifier les paramètres de l&#39;événement métier, vous devez arrêter et démarrer à nouveau le mode test.
 
-## Affichage des journaux {#viewing_logs}
+## Afficher les journaux {#viewing_logs}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Journaux du mode test"
->abstract="Vous pouvez afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours."
+>abstract="Le bouton Afficher le journal affiche les résultats du test au format JSON. Ces résultats affichent le nombre d’individus à l’intérieur du parcours et leur état."
 
 Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
@@ -157,9 +156,11 @@ Lorsqu’un événement est déclenché en mode test, un jeu de données est aut
 
 Le mode test crée automatiquement un événement d’expérience et l’envoie à Adobe Experience Platform. Le nom de la source de cet événement d’expérience est « Événements de test Journey Orchestration ».
 
-Dans le cas de plusieurs événements déclenchés par plusieurs parcours
+<!--
+In the case of multiple events triggered from multiple journeys
 
-Il existe un scénario où plusieurs événements sont envoyés à partir de plusieurs parcours qui auront des schémas différents. Est-il possible de mapper n schéma sur 1 jeu de données ? Si ce n’est pas possible, plusieurs jeux de données seront nécessaires.
+There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
+-->
 
 La création automatique et l’attribution d’un nom à ces jeux de données sont effectués si un jeu de données de destination n’est pas inclus dans l’événement d’expérience. C’est pourquoi nous voyons aujourd’hui le « jeu de données créé automatiquement pour Voyager ».
 
