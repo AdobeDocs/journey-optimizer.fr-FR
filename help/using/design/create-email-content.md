@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 91%
+source-wordcount: '497'
+ht-degree: 92%
 
 ---
 
@@ -94,9 +94,3 @@ Pour commencer à créer le contenu de votre email avec le Concepteur d’email,
 1. Lorsque votre email est prêt, cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
 Le contenu de votre email peut maintenant être utilisé dans un message. [Découvrez comment envoyer un message](../messages/publish-manage-message.md).
-
-## Vidéo pratique {#video}
-
-Découvrez comment créer du contenu d&#39;email avec l&#39;éditeur de messages.
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

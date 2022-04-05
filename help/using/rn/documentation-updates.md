@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 92%
+source-wordcount: '1114'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’un exemple sur l’ajout d’une expression en tant que valeur par défaut dans l’éditeur d’expression. [En savoir plus](../building-journeys/expression/field-references.md#default-value)
 * Le **Créer des offres personnalisées** a été réorganisée pour en améliorer la lisibilité. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
 * Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur la limitation de fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
-<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
+* Le **Modifier les adresses email Principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Février 2022 {#feb-2022}
 

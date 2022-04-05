@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 >title="Créer un préréglage de page de destination"
 >abstract="Pour pouvoir créer un paramètre prédéfini de page d’entrée, vérifiez que vous avez déjà configuré au moins un sous-domaine de page d’entrée à sélectionner dans la liste Nom de sous-domaine."
 
-Avant de pouvoir [créer des préréglages de page de destination](#lp-create-preset), vous devez avoir configuré les sous-domaines que vous utiliserez pour vos pages de destination.
+Pour être en mesure de [créer des paramètres prédéfinis de landing page](#lp-create-preset), vous devez configurer les sous-domaines que vous utiliserez pour vos landing pages.
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](delegate-subdomain.md).
 

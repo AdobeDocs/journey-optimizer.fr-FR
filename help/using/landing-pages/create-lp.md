@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 98%
+source-wordcount: '995'
+ht-degree: 93%
 
 ---
 
@@ -88,6 +88,10 @@ Pour définir les paramètres de la page principale, procédez comme suit.
    >LʼURL de la page de destination doit être unique.
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas accéder à votre landing page en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt le tester à l’aide de la fonction d’aperçu, comme décrit dans la section [cette section](#test-landing-page).
 
 1. Vous pouvez définir une date d’expiration pour votre page. Dans ce cas, vous devez sélectionner une action à déclencher lors de l’expiration de la page :
 
@@ -175,7 +179,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. <!--For example, a message will display if -->
 
-* Les **erreurs** vous empêchent de publier le message tant qu’elles ne sont pas corrigées. Par exemple, un avertissement s’affiche si l’URL de la page principale est manquante.
+* **Erreurs** vous empêche de publier la landing page tant qu&#39;elle n&#39;est pas résolue. Par exemple, un avertissement s’affiche si l’URL de la page principale est manquante.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 75%
+source-wordcount: '1279'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 * Lorsqu&#39;ils cliquent sur ce lien, les destinataires sont dirigés vers une page de destination contenant un bouton pour confirmer leur désinscription.
 * Une fois leur choix confirmé, les données des profils seront mises à jour avec ces informations.
+
+>[!NOTE]
+>
+>Les messages électroniques de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [niveau de message prédéfini](../configuration/message-presets.md#email-type) et quand [création du message](get-started-content.md#create-new-message).
 
 ### Désinscription externe {#opt-out-external-lp}
 
@@ -71,7 +75,7 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 #### Implémenter un appel API pour la désinscription {#opt-out-api}
 
-Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Développeur d’Adobes](https://developer.adobe.com){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
+Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Développeur d’Adobes](https://developer.adobe.com/){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel de POST est le suivant :
 

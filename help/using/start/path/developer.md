@@ -5,16 +5,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
 
 # Prise en main pour les développeurs {#get-started-developers}
-
-![développeur](assets/do-not-localize/user-3.png)
 
 ## Intégration de votre application mobile {#integrate-mobile-app}
 

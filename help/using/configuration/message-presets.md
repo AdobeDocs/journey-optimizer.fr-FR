@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 90%
+source-wordcount: '2182'
+ht-degree: 87%
 
 ---
 
@@ -19,12 +19,12 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 
 >[!CAUTION]
 >
-> * La configuration des préréglages de message est limitée aux administrateurs de parcours. [En savoir plus](../administration/ootb-product-profiles.md#journey-administrator)
+> * La configuration des paramètres de message prédéfinis est limitée à [Administrateurs de parcours](../administration/ootb-product-profiles.md#journey-administrator). Pour créer, modifier et supprimer des paramètres prédéfinis de message, vous devez disposer de la variable [Gestion des paramètres prédéfinis de message](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * Vous devez effectuer les étapes de configuration du canal E-mail et [Push](../configuration/push-configuration.md) avant de créer des préréglages de message. 
+> * Vous devez effectuer les opérations suivantes : [Configuration des emails](#configure-email-settings) et [Configuration push](../configuration/push-configuration.md) étapes avant de créer des paramètres prédéfinis de message.
 
 
-Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages. 
+Une fois les paramètres prédéfinis de message configurés, vous pourrez les sélectionner lors de la création de messages à partir de la **[!UICONTROL Paramètres prédéfinis]** liste.
 
 ➡️ [Découvrez comment créer et utiliser des préréglages d’e-mail dans cette vidéo](#video-presets)
 
@@ -84,14 +84,15 @@ Les paramètres dʼe-mail sont définis dans une section dédiée de la configur
 
 Configurez vos paramètres comme décrit ci-après.
 
-
 ### Type d’e-mail{#email-type}
 
 Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce au préréglage : **Marketing** ou **Transactionnel**.
 
-Choisissez **Marketing** pour les messages promotionnels : ces messages nécessitent le consentement de l’utilisateur.
+* Choisissez **Marketing** pour les messages promotionnels : ces messages nécessitent le consentement de l’utilisateur.
 
-Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
+* Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
+
+When [créer un message](../messages/get-started-content.md#create-new-message), vous devez choisir un paramètre prédéfini de message valide pour la catégorie et le ou les canaux sélectionnés.
 
 >[!CAUTION]
 >

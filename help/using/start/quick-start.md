@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -23,50 +23,14 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 
 Pour découvrir la puissance d’Adobe Journey Optimizer en obtenant des conseils détaillés, sélectionnez votre profil. 
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="Administrateur" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">Je suis un administrateur</a>
-     <p>Préparer votre environnement, octroyer l’accès, configurer les paramètres
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="Ingénieur de données" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">Je suis ingénieur de données</a>
-     <p>Importer des profils, créer des audiences, créer des schémas et des jeux de données
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="Professionnel du marketing" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">Je suis un professionnel du marketing</a>
-     <p>Concevoir des messages, ajouter des offres et des ressources et créer des parcours clients
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* Je suis un **Administrateur**
+
+   Préparer votre environnement, octroyer l’accès, configurer les paramètres. [En savoir plus](path/administrator.md)
+
+* Je suis un **Ingénieur de données**
+
+   Importer des profils, créer des audiences, créer des schémas et des jeux de données. [En savoir plus](path/data-engineer.md)
+
+* Je suis un **Marketer**
+
+   Concevoir des messages, ajouter des offres et des ressources et créer des parcours clients. [En savoir plus](path/marketer.md)

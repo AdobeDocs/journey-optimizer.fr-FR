@@ -3,16 +3,14 @@ title: Prise en main de Journey Optimizer pour l’ingénieur de données
 description: En tant qu’ingénieur de données, découvrez comment utiliser Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
 
 # Prise en main pour l’ingénieur de données {#data-engineer}
-
-![ingénieur de données](assets/do-not-localize/user-1.png)
 
 En tant qu’**ingénieur de données d’Adobe Journey Optimizer**, préparez et conservez les données de profil client pour alimenter les expériences orchestrées par [!DNL Journey Optimizer], modélisez les données clients et commerciales dans les schémas et configurez les connecteurs source pour l’ingestion de données. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) vous a accordé l’accès et a préparé votre environnement. 
 

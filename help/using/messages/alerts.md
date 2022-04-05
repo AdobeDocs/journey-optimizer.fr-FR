@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 72%
 
 ---
 
@@ -45,23 +45,27 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 **Avertissements** :
 
-* **[!UICONTROL Le lien d’exclusion n’est pas présent dans le corps de lʼe-mail.]** : une bonne pratique consiste à ajouter un lien de désinscription dans le corps de votre e-mail. Découvrez comment configurer ce lien dans [cette section](consent.md).
+* **[!UICONTROL Le lien d’exclusion n’est pas présent dans le corps de l’email]**: il est recommandé d’ajouter un lien de désinscription dans votre corps d’email. Découvrez comment configurer ce lien dans [cette section](consent.md#opt-out-management).
 
-* **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
+   >[!NOTE]
+   >
+   >Les messages électroniques de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [niveau de message prédéfini](../configuration/message-presets.md#email-type) et quand [création du message](get-started-content.md#create-new-message).
 
-* **[!UICONTROL Lien vide figurant dans le corps de l’e-mail]** : vérifiez que tous les liens de votre e-mail sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](../design/create-email-content.md).
+* **[!UICONTROL La version texte du HTML est vide]**: n&#39;oubliez pas de définir une version texte du corps de votre email, car elle sera utilisée lorsque le contenu du HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
 
-* **[!UICONTROL La taille de l’e-mail dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre e-mail ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](../design/create-email-content.md).
+* **[!UICONTROL Lien vide figurant dans le corps de l’email]** : vérifiez que tous les liens de votre email sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](../design/create-email-content.md).
+
+* **[!UICONTROL La taille de l’email dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre email ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](../design/create-email-content.md).
 
 **Erreurs** :
 
-* **[!UICONTROL L’objet est manquant.]** : l’objet de l’e-mail est obligatoire. Découvrez comment définir et personnaliser ce champ dans [cette section](create-email.md).
+* **[!UICONTROL L’objet est manquant.]**: l’objet de l’email est obligatoire. Découvrez comment définir et personnaliser ce champ dans [cette section](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL La version push du message est vide.]** : cette erreur s’affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
+* **[!UICONTROL La version push du message est vide.]**: cette erreur s&#39;affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
 
-* **[!UICONTROL La version e-mail du message est vide.]** : cette erreur sʼaffiche lorsque le contenu de lʼe-mail nʼa pas été configuré. Découvrez comment concevoir le contenu des e-mails dans [cette section](../design/design-emails.md).
+* **[!UICONTROL La version email du message est vide.]**: cette erreur s&#39;affiche lorsque le contenu de l&#39;email n&#39;a pas été configuré. Découvrez comment concevoir le contenu des emails dans [cette section](../design/design-emails.md).
 
 * **[!UICONTROL Préréglage absent]** : vous ne pouvez pas publier votre message si le préréglage que vous avez sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre préréglage dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur le branding, consultez [cette section](../configuration/about-subdomain-delegation.md).
 
