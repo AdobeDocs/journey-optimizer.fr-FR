@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
 # Création de balises {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="Balises"
+>abstract="Associez une ou plusieurs balises à l’offre pour que votre bibliothèque d’offres reste organisée et localisez plus facilement les offres. Les balises sont créées à partir du menu &quot;Composant&quot;."
 
 L&#39;association de balises à vos offres facilite leur organisation. Par exemple, vous pouvez libeller vos offres Black Friday à l&#39;aide de la balise « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à cette balise.
 

@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 34%
+source-wordcount: '1589'
+ht-degree: 33%
 
 ---
 
@@ -23,6 +24,11 @@ ht-degree: 34%
 >id="od_offer_priority"
 >title="À propos de la priorité de l&#39;offre"
 >abstract="Dans ce champ, vous pouvez spécifier les paramètres de priorité de l&#39;offre. La priorité est un nombre utilisé pour classer les offres répondant à toutes les contraintes comme l&#39;éligibilité, les dates et la limitation."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Priorité"
+>abstract="La priorité permet de définir la priorité de l’offre par rapport aux autres si l’utilisateur est admissible pour plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres."
 
 Les contraintes vous permettent de définir les conditions d&#39;affichage d&#39;une offre.
 
@@ -49,6 +55,11 @@ Par exemple, si vous définissez les contraintes suivantes :
 * L’offre ne sera présentée qu’une seule fois par utilisateur à tous les emplacements.
 
 ## Eligibilité {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Eligibilité"
+>abstract="L’éligibilité d’offre vous permet de limiter l’offre à des profils spécifiques que vous définissez à l’aide de segments ou de règles de décision."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="À propos de la limitation de l&#39;offre"
->abstract="Dans ce champ, vous pouvez indiquer le nombre de fois où l&#39;offre peut être présentée."
+>title="Limitation"
+>abstract="La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 
