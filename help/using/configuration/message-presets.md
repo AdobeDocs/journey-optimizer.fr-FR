@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
+source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
 workflow-type: tm+mt
-source-wordcount: '2194'
-ht-degree: 86%
+source-wordcount: '2271'
+ht-degree: 83%
 
 ---
 
@@ -84,12 +84,12 @@ Les paramètres dʼe-mail sont définis dans une section dédiée de la configur
 
 Configurez vos paramètres comme décrit ci-après.
 
-### Type d’e-mail{#email-type}
+### Type d’e-mail {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Type d&#39;email"
->abstract="À terminer"
+>title="Définition de la catégorie d’email"
+>abstract="Sélectionnez le type de messages qui sera envoyé lors de l&#39;utilisation de ce paramètre prédéfini : Marketing pour les messages promotionnels, qui nécessitent un consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
 Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce au préréglage : **Marketing** ou **Transactionnel**.
 
@@ -193,12 +193,13 @@ Dans le **[!UICONTROL PARAMÈTRES D’EN-TÊTE]** , saisissez les noms et adress
 >
 >Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait dʼunion `-`.
 
-### Paramètres de reprise de lʼe-mail{#email-retry}
+### Paramètres de reprise de lʼe-mail {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Période de reprise d’email"
->abstract="À terminer"
+>title="Réglage de la période de reprise"
+>abstract="Les reprises sont effectuées pendant 3,5 jours (84 heures) lorsqu’un message électronique échoue en raison d’une erreur de soft bounce temporaire. Vous pouvez ajuster cette période de reprise par défaut en fonction de vos besoins."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="A propos des reprises"
 
 Vous pouvez configurer les **Paramètres de reprise de lʼe-mail**.
 
