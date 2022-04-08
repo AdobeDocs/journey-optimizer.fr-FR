@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2182'
-ht-degree: 87%
+source-wordcount: '2194'
+ht-degree: 86%
 
 ---
 
@@ -85,6 +85,11 @@ Les paramètres dʼe-mail sont définis dans une section dédiée de la configur
 Configurez vos paramètres comme décrit ci-après.
 
 ### Type d’e-mail{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="Type d&#39;email"
+>abstract="À terminer"
 
 Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce au préréglage : **Marketing** ou **Transactionnel**.
 
@@ -189,6 +194,11 @@ Dans le **[!UICONTROL PARAMÈTRES D’EN-TÊTE]** , saisissez les noms et adress
 >Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait dʼunion `-`.
 
 ### Paramètres de reprise de lʼe-mail{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="Période de reprise d’email"
+>abstract="À terminer"
 
 Vous pouvez configurer les **Paramètres de reprise de lʼe-mail**.
 
