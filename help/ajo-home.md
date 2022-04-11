@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -178,13 +178,13 @@ ht-degree: 68%
 
 
 
-![Newsletter](using/assets/do-not-localize/nl-icon.png) Inscrivez-vous au [newsletter trimestrielle Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} aujourd’hui !
+![Newsletter](using/assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} dès aujourd’hui !
 
-Recevez les dernières mises à jour de produits, les articles les plus intéressants, les cas pratiques, les conseils et bien plus encore, directement dans votre boîte de réception tous les trimestres.
+Recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-Dans chaque newsletter, vous trouverez :
-* Actualités et mises à jour des produits, notamment fonctionnalités récemment publiées
-* Invitations aux événements et webinaires et enregistrements pour les webinars récents
-* Principales discussions de la communauté Adobe Journey Optimizer Experience League
-* Études de cas et cas d’utilisation d’autres clients Adobe Journey Optimizer
-* Conseils et astuces pour aider à offrir des expériences client exceptionnelles qui favorisent le succès commercial
+Dans chaque newsletter, vous trouverez :
+* Des actualités et mises à jour produits, notamment les fonctionnalités récemment sorties
+* Des invitations aux événements et webinaires, et enregistrements des webinaires récents
+* Les meilleures discussions de la communauté Adobe Journey Optimizer Experience League
+* Des études de cas et cas d’utilisation d’autres clients Adobe Journey Optimizer
+* Des conseils et astuces visant à offrir des expériences client exceptionnelles qui favorisent le succès commercial

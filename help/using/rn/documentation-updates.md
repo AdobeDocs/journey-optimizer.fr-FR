@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,13 +15,13 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Mars 2022 {#march-2022}
 
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 mars a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] de mars 2022 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * Ajout dʼune nouvelle page sur la prise en main des modèles dʼIA dans la section **Offer Decisioning**, comprenant une description approfondie du [modèle d’optimisation automatique](../offers/offer-library/ai-ranking.md#auto-optimization), l’algorithme qu’il utilise et dʼautres détails techniques. [En savoir plus](../offers/offer-library/ai-ranking.md)
-* La page de création du profil de test a été déplacée vers le  **Segment, profils et identité** . [En savoir plus](../segment/creating-test-profiles.md)
+* La page de création du profil de test a été déplacée vers la section **Segment, profils et identité**. [En savoir plus](../segment/creating-test-profiles.md)
 * Ajout d’un exemple sur l’ajout d’une expression en tant que valeur par défaut dans l’éditeur d’expression. [En savoir plus](../building-journeys/expression/field-references.md#default-value)
-* Le **Créer des offres personnalisées** a été réorganisée pour en améliorer la lisibilité. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
-* Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur la limitation de fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
-* Le **Modifier les adresses email Principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
+* **** [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
+* A new section has been added to describe the impacts that changing an offer&#39;s start and/or end dates may have on this offer&#39;s frequency capping. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
+* **** [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Février 2022 {#feb-2022}
 

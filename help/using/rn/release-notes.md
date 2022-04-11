@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2941'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter la page relative aux [dernières mises à jour de la documentation](documentation-updates.md) pour prendre connaissance des autres modifications.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous au [newsletter trimestrielle Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} aujourd’hui, et recevez les dernières mises à jour de produits, des articles passionnants, des cas d’utilisation, des conseils, etc. directement dans votre boîte de réception tous les trimestres.
+![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
 ## Version de mars 2022 {#march-2022-release}
@@ -22,22 +22,22 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Parcours**
 
-* Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Evénement d’étape de Parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../reports/sharing-overview.md)
+* Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Événement d’étape du parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../reports/sharing-overview.md)
 * Les nouveaux événements d’étape liés aux tâches d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../reports/query-examples.md)
 
 **Gestion des décisions**
 
-* Vous pouvez maintenant spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou à chaque emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
-* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité d’offer decisioning pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
+* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité Offer Decisioning pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administration**
 
-* Vous pouvez maintenant activer/désactiver le lien de désabonnement dans/à partir de l’en-tête de l’email au niveau du paramètre prédéfini de message, et définir une URL de désabonnement personnalisée au niveau du message. [En savoir plus](../configuration/message-presets.md#list-unsubscribe)
-* La liste autorisée peut désormais être activée et désactivée via l’option [!DNL Journey Optimizer] sur les environnements de test de production et hors production. [En savoir plus](../reports/allow-list.md#enable-allow-list)
+* Vous pouvez maintenant activer/désactiver le lien de désabonnement dans/à partir de l’en-tête de l’e-mail au niveau du paramètre de message prédéfini, et définir une URL de désabonnement personnalisée au niveau du message. [En savoir plus](../configuration/message-presets.md#list-unsubscribe)
+* La liste autorisée peut désormais être activée et désactivée via l’interface [!DNL Journey Optimizer] sur les environnements de test de production et hors production. [En savoir plus](../reports/allow-list.md#enable-allow-list)
 
 **Personnalisation**
 
-* Vous pouvez désormais enregistrer plus de 40 expressions de personnalisation dans la bibliothèque. [En savoir plus](../personalization/personalization-library.md)
+* Vous pouvez désormais enregistrer plus de 40 expressions de personnalisation dans la bibliothèque. [En savoir plus](../personalization/personalization-library.md)
 
 ## Version de février 2022 {#feb-2022-release}
 
@@ -441,7 +441,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 * **Rechercher** : sur chaque page, vous pouvez désormais rechercher des objets métier et des articles d’aide directement dans le champ de recherche Unified Experience Cloud. [En savoir plus](../start/user-interface.md#unified-search)
 * **Récents** : l’affichage des éléments récents de la page d’accueil d’Adobe Journey Optimizer est désormais étendu aux objets métier supplémentaires. Grâce à cette mise à jour, les raccourcis vers vos accès récents comprennent les messages, les parcours, les segments, les schémas, les jeux de données, les sources de données, les événements, les actions, les sources et les destinations. [En savoir plus](../action/about-custom-action-configuration.md#passing-collection)
 
-**Conception de contenu**
+**Concevoir du contenu**
 
 * **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../design/preview.md)
 * **Lien d’exclusion en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**exclusion** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur désinscription. [En savoir plus](../messages/consent.md#one-click-opt-out-link)

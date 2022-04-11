@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -40,17 +40,17 @@ ht-degree: 94%
 + Conception du contenu {#design}
    + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
    + [Commencer à partir de zéro ](using/design/create-email-content.md)
-   + [Importer le contenu de votre email](using/design/existing-content.md)
-   + [Code votre propre contenu](using/design/code-content.md)
-   + Conception de contenu {#design-content}
-      + [Utilisation des composants de contenu](using/design/content-components.md)
+   + [Importation du contenu de vos e-mails](using/design/existing-content.md)
+   + [Codage de votre propre contenu](using/design/code-content.md)
+   + Concevoir du contenu {#design-content}
+      + [Utilisation de composants de contenu](using/design/content-components.md)
       + [Paramètres d&#39;arrière-plan](using/design/backgrounds.md)
       + [Ajustement de l&#39;alignement vertical et la marge intérieure](using/design/adjusting-vertical-alignment-and-padding.md)
       + [Définition d’un style pour les liens](using/design/styling-links.md)
       + [Ajout des attributs de style intégrés](using/design/adding-inline-styling-attributes.md)
    + Paramètres d&#39;e-mail {#design-email}
-      + [Générer la version texte](using/design/text-version-email.md)
-      + [Ajouter un pré-titre](using/design/preheader.md)
+      + [Génération de la version texte](using/design/text-version-email.md)
+      + [Ajouter un pré-en-tête](using/design/preheader.md)
    + Ajout et gestion des ressources {#manage-asset}
       + [Utilisation d’Assets Essentials](using/design/assets-essentials.md)
    + [Ajout d’offres personnalisées](using/design/deliver-personalized-offers.md)
@@ -63,7 +63,7 @@ ht-degree: 94%
    + [Création d’une liste dʼabonnements](using/landing-pages/subscription-list.md)
    + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
 + Personnalisation{#personalization}
-   + [Prise en main  de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main   de la personnalisation](using/personalization/personalize.md)
    + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
    + Création d’expressions {#build-expressions}
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
@@ -219,15 +219,15 @@ ht-degree: 94%
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
       + [Rapport dynamique sur les e-mails](using/reports/email-live-report.md)
       + [Rapport dynamique sur les notifications push](using/reports/push-live-report.md)
-      + [Rapport En direct de la landing page](using/reports/lp-report-live.md)
-      + [Rapport En direct de la liste d’abonnements](using/reports/subscription-report-live.md)
+      + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
+      + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
    + Rapport global {#global-report}
       + [Accès au tableau de bord des rapports globaux](using/reports/global-report.md)
       + [Rapport global sur les parcours](using/reports/journey-global-report.md)
       + [Rapport global sur les e-mails](using/reports/email-global-report.md)
       + [Rapport global sur les notifications push](using/reports/push-global-report.md)
-      + [Rapport global de page d’entrée](using/reports/lp-report-global.md)
-      + [Rapport global de la liste d’abonnements](using/reports/subscription-report-global.md)
+      + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
+      + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
@@ -260,8 +260,8 @@ ht-degree: 94%
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
       + Configuration des offres {#configure-offers}
          + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
-         + [Ajouter des représentations](using/offers/offer-library/add-representations.md)
-         + [Ajouter des contraintes](using/offers/offer-library/add-constraints.md)
+         + [Add representations](using/offers/offer-library/add-representations.md)
+         + [Add constraints](using/offers/offer-library/add-constraints.md)
       + [Créer des offres de secours](using/offers/offer-library/creating-fallback-offers.md)
       + [Création de collections](using/offers/offer-library/creating-collections.md)
    + Création et gestion des décisions {#create-manage-activities}

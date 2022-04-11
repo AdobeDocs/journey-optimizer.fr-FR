@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1279'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 >[!NOTE]
 >
->Les messages électroniques de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [niveau de message prédéfini](../configuration/message-presets.md#email-type) et quand [création du message](get-started-content.md#create-new-message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. ********[](../configuration/message-presets.md#email-type)[](get-started-content.md#create-new-message)
 
 ### Désinscription externe {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 #### Implémenter un appel API pour la désinscription {#opt-out-api}
 
-Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Développeur d’Adobes](https://developer.adobe.com/){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
+****[](https://developer.adobe.com/)
 
-Cet appel de POST est le suivant :
+This POST call is as follows:
 
 Point dʼentrée : platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ Contenu de la requête :
 }
 ```
 
-[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant via l’ [Développeur d’Adobes](https://developer.adobe.com)Appel de l’API {target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer][](https://developer.adobe.com)
 
 #### Envoyer le message avec le lien de désinscription {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ Une fois que vous avez configuré le lien de désinscription sur votre page de d
 
    ![](assets/opt-out-lp-example.png)
 
-1. Si le destinataire envoie le formulaire (ici, en appuyant sur la fonction **Désabonner** dans votre landing page), les données de profil sont mises à jour via la fonction [appel API](#opt-out-api).
+1. ****[](#opt-out-api)
 
 1. Le destinataire désabonné est ensuite redirigé vers un écran de message de confirmation indiquant que la désinscription a réussi.
 
@@ -161,7 +161,7 @@ Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
    >[!NOTE]
    >
-   >Si vous avez activé la variable **List-Unsubscribe** au niveau du paramètre prédéfini de message, cette URL sera également utilisée lorsque les utilisateurs cliqueront sur le lien de désabonnement dans l’en-tête de l’email. [En savoir plus](#unsubscribe-header)
+   >Si vous avez activé la variable **List-Unsubscribe** au niveau des paramètres de messages prédéfinis, cette URL sera également utilisée lorsque les utilisateurs cliqueront sur le lien de désabonnement dans l’en-tête de l’e-mail. [En savoir plus](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -175,11 +175,11 @@ Une fois votre message envoyé via un [parcours](../building-journeys/journey.md
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Ajout d’un lien de désabonnement à l’en-tête de courrier électronique"
->abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’email. Pour définir une URL de désabonnement, insérez un lien d’exclusion d’un clic dans le contenu de l’email."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Désinscription en un clic"
+>title="Ajout d’un lien de désabonnement à l’en-tête d’un e-mail"
+>abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’exclusion en un clic dans le contenu de l’e-mail."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=fr#one-click-opt-out" text="Désinscription en un clic"
 
-Si la variable [Option List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) est activé au niveau du paramètre prédéfini de message, les emails correspondants envoyés avec [!DNL Journey Optimizer] inclut un lien de désabonnement dans l’en-tête de l’email.
+Si l’[option List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) est activée au niveau des paramètres de messages prédéfinis, les e-mails correspondants envoyés avec [!DNL Journey Optimizer] incluent un lien de désabonnement dans l’en-tête de l’e-mail.
 
 Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 
@@ -187,21 +187,21 @@ Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 
 >[!NOTE]
 >
->Pour afficher le lien de désabonnement dans l’en-tête de l’email, le client de messagerie du destinataire doit prendre en charge cette fonctionnalité.
+>Pour afficher le lien de désabonnement dans l’en-tête de l’e-mail, le client de messagerie du destinataire doit prendre en charge cette fonctionnalité.
 
-L’adresse de désabonnement est la valeur par défaut. **[!UICONTROL Mailto (unsubscribe)]** adresse affichée dans le paramètre prédéfini de message correspondant. [En savoir plus](../configuration/message-presets.md#list-unsubscribe).
+L’adresse de désabonnement est l’adrese par défaut. **[!UICONTROL Mailto (unsubscribe)]** affichée dans le paramètre de message prédéfini correspondant. [En savoir plus](../configuration/message-presets.md#list-unsubscribe).
 
-Pour définir une URL de désabonnement personnalisée, insérez un lien d&#39;opt-out en un clic dans le contenu de l&#39;email et saisissez l&#39;URL de votre choix. [En savoir plus](#one-click-opt-out)
+Pour définir une URL de désabonnement personnalisée, insérez un lien de désinscription en un clic dans le contenu de l&#39;e-mail et saisissez l&#39;URL de votre choix. [En savoir plus](#one-click-opt-out)
 
-Selon le client de messagerie, cliquer sur le lien de désabonnement de l’en-tête peut avoir les effets suivants :
+En fonction du client de messagerie, cliquer sur le lien de désabonnement de l&#39;en-tête peut avoie l&#39;un des impacts suivants :
 
 * La demande de désabonnement est envoyée à l’adresse de désabonnement par défaut.
 
-* Le destinataire est dirigé vers l&#39;URL de la landing page que vous avez spécifiée lors de l&#39;ajout du lien de désinscription à votre message.
+* Le destinataire est dirigé vers l&#39;URL de la page de destination que vous avez spécifiée lors de l&#39;ajout du lien de désinscription à votre message.
 
    >[!NOTE]
    >
-   >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune landing page ne s&#39;affichera.
+   >Si vous n&#39;ajoutez pas de lien de désinscription en un clic dans le contenu de votre message, aucune page de destination ne s&#39;affichera.
 
 * Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
