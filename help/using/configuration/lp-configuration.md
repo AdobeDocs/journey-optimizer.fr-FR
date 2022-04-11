@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 94%
+source-wordcount: '940'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 94%
 >id="ajo_admin_config_lp_subdomain"
 >title="Créer un préréglage de page de destination"
 >abstract="Pour pouvoir créer un paramètre prédéfini de page d’entrée, vérifiez que vous avez déjà configuré au moins un sous-domaine de page d’entrée à sélectionner dans la liste Nom de sous-domaine."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="Déléguer un sous-domaine de landing page"
+>abstract="Vous devez configurer un sous-domaine à utiliser pour vos landing pages, car vous aurez besoin de ce sous-domaine pour créer un paramètre prédéfini de landing page. Vous pouvez utiliser un sous-domaine déjà délégué à l’Adobe ou configurer un nouveau sous-domaine."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
 
 Pour être en mesure de [créer des paramètres prédéfinis de landing page](#lp-create-preset), vous devez configurer les sous-domaines que vous utiliserez pour vos landing pages.
 
