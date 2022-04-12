@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1594'
 ht-degree: 33%
 
 ---
@@ -133,7 +133,7 @@ Pour définir la limitation, procédez comme suit.
 
    >[!NOTE]
    >
-   >Le nombre doit être supérieur à 0.
+   >Le nombre doit être un entier supérieur à 0.
 
 1. Indiquez si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un profil spécifique :
 
@@ -147,15 +147,15 @@ Pour définir la limitation, procédez comme suit.
 
       Par exemple, si vous êtes une banque avec une offre &quot;Carte de crédit Platine&quot;, vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
 
-1. Si vous avez défini plusieurs [représentations](#representations) pour votre offre, indiquez si vous souhaitez appliquer la limitation à la variable **[!UICONTROL Tous les emplacements]** ou **[!UICONTROL Par emplacement]**.
+1. Si vous avez défini plusieurs [représentations](#representations) pour votre offre, indiquez si vous souhaitez appliquer une limitation. **[!UICONTROL À tous les emplacements]** ou **[!UICONTROL Pour chaque emplacement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL Tous les emplacements]**: le nombre de limitations va total toutes les décisions parmi les emplacements associés à l’offre.
+   * **[!UICONTROL À tous les emplacements]**: le nombre de limitations va total toutes les décisions parmi les emplacements associés à l’offre.
 
       Par exemple, si une offre comporte une **Email** placement et un **Web** placement et vous définissez la limitation sur **2 par profil à tous les emplacements**, chaque profil peut alors recevoir l’offre jusqu’à 2 fois au total, quelle que soit la combinaison d’emplacements.
 
-   * **[!UICONTROL Par emplacement]**: les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
+   * **[!UICONTROL Pour chaque emplacement]**: les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
 
       Par exemple, si une offre comporte une **Email** placement et un **Web** placement et vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’email, et 2 fois supplémentaires pour l’emplacement web.
 

@@ -6,20 +6,25 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 89%
 
 ---
 
 # Enregistrements PTR {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="Enregistrements PTR des sous-domaines"
+>abstract="Un enregistrement pointeur (PTR) est un type d’enregistrement DNS qui fournit le nom de domaine associé à une adresse IP, ce qui permet aux serveurs de messagerie de réception de vérifier les adresses IP des expéditeurs."
+
 ## À propos des enregistrements PTR {#about-ptr-records}
 
 Un enregistrement pointeur (PTR) est un type d&#39;enregistrement DNS (Domain Name System) qui fournit le nom de domaine associé à une adresse IP.
 
-Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent vérifier l&#39;authenticité des serveurs de messagerie d&#39;envoi en identifiant si leurs adresses IP correspondent aux noms avec lesquels les serveurs se connectent.
+Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent vérifier l’authenticité des serveurs de messagerie d’envoi en identifiant si leurs adresses IP correspondent aux noms auxquels les serveurs se connectent.
 
 ## Accès aux enregistrements PTR de vos sous-domaines {#access-ptr-records}
 
@@ -38,6 +43,10 @@ Vous pouvez ouvrir un enregistrement PTR de la liste pour afficher le nom de sou
 ## Modifier un enregistrement PTR {#edit-ptr-record}
 
 Vous pouvez modifier un enregistrement PTR pour modifier le sous-domaine associé à une adresse IP. 
+
+>[!CAUTION]
+>
+>Procédez avec une attention particulière lors de la modification des enregistrements PTR. En cas de doute, contactez un expert en délivrabilité.<!--why?-->
 
 >[!NOTE]
 >

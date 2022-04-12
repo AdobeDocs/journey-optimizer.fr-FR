@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 85%
+source-wordcount: '198'
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 [!DNL Journey Optimizer] vous permet de définir et de gérer les autorisations attribuées à différents utilisateurs. Les autorisations sont un ensemble de droits et de restrictions qui autorisent ou refusent l&#39;accès aux fonctionnalités du produit.
 
-➡️ [En savoir plus sur le système de contrôle d’accès de Adobe Journey Optimizer dans cette vidéo](#video)
+➡️ [En savoir plus sur le contrôle d’accès dans Adobe Journey Optimizer dans cette vidéo](#video)
 
 La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur trois concepts :
 
@@ -33,6 +33,6 @@ Chaque concept peut être géré par des **[!UICONTROL administrateurs produits]
 
 ## Vidéo pratique{#video}
 
-En savoir plus sur le système de contrôle d’accès de Adobe Journey Optimizer et les huit profils de produits personnalisés. Découvrez comment gérer les profils de produit et les autorisations, et comment ajouter et gérer des utilisateurs.
+En savoir plus sur le système de contrôle d’accès et les profils de produits personnalisés dans Adobe Journey Optimizer. Découvrez comment gérer les profils de produit et les autorisations, et comment ajouter et gérer des utilisateurs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

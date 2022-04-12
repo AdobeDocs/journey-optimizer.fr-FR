@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 100%
+source-wordcount: '1049'
+ht-degree: 92%
 
 ---
 
@@ -103,6 +103,11 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 ## Ajout manuel d’adresses et de domaines {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="Ajouter des emails/domaines à la liste de suppression"
+>abstract="Vous pouvez renseigner manuellement la liste de suppression de Journey Optimizer pour exclure des adresses électroniques et/ou domaines spécifiques de votre envoi."
+
 Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
 
 Cependant, vous pouvez également remplir manuellement la liste de suppression [!DNL Journey Optimizer] pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi.
@@ -114,6 +119,11 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 ![](assets/suppression-list-add-email.png)
 
 ### Ajout d’une adresse ou d’un domaine {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="Ajouter un élément à la liste de suppression"
+>abstract="Vous pouvez remplir la liste de suppression en ajoutant une par une des adresses email et/ou des domaines."
 
 1. Sélectionnez l’option **[!UICONTROL Un par un]**.
 
@@ -132,6 +142,11 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 1. Cliquez sur **[!UICONTROL Envoyer]**.
 
 ### Téléchargement d’un fichier CSV {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="Chargement d’un fichier CSV pour ajouter des éléments à la liste de suppression"
+>abstract="Vous pouvez remplir la liste de suppression en chargeant un fichier CSV contenant les adresses/domaines de courriel à exclure."
 
 1. Sélectionnez l’option **[!UICONTROL Télécharger CSV]**.
 

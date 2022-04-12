@@ -2,16 +2,18 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2941'
-ht-degree: 99%
+source-wordcount: '2976'
+ht-degree: 98%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter la page relative aux [dernières mises à jour de la documentation](documentation-updates.md) pour prendre connaissance des autres modifications.
+
+!DNL Adobe Journey Optimizer] est conçu de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans [Notes de mise à jour de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target=&quot;_blank&quot;}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
@@ -27,7 +29,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Gestion des décisions**
 
-* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
+* Vous pouvez maintenant spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou à chaque emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 * L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité Offer Decisioning pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administration**

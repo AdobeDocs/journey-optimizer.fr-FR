@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 87%
+source-wordcount: '996'
+ht-degree: 82%
 
 ---
 
@@ -78,6 +78,11 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour créer des préréglages de page de destination.
 
 ### Configurer un nouveau sous-domaine           {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="Générer l’enregistrement DNS correspondant"
+>abstract="Pour configurer un nouveau sous-domaine de landing page, vous devez copier les informations du serveur de noms d’Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour créer des paramètres prédéfinis de page d’entrée."
 
 Pour configurer un nouveau sous-domaine, procédez comme suit :
 

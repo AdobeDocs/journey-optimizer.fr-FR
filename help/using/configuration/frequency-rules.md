@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 2%
+source-wordcount: '790'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,11 @@ Pour cela, vous pouvez utiliser une règle de fréquence qui limite le nombre de
 
 Les règles sont disponibles à partir de la **[!UICONTROL Administration]** > **[!UICONTROL Règles]** . Toutes les règles sont répertoriées, triées par date de modification.
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>Pour accéder, créer, modifier ou supprimer des règles de fréquence des messages, vous devez disposer de la variable [Gestion des règles de fréquence](../administration/high-low-permissions.md#manage-frequency-rules) autorisation.
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 Utilisez l’icône de filtre pour filtrer par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
 
@@ -134,6 +136,10 @@ Toutes les règles de fréquence correspondant à la catégorie et au(x) canal(s
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 Vous pouvez visualiser le nombre de profils exclus de la diffusion dans la variable [Vues en direct et globales](../reports/message-monitoring.md), et dans le [rapport d’activation par e-mail](../reports/email-live-report.md), où les règles de fréquence seront répertoriées comme une raison possible pour les utilisateurs exclus de la diffusion.
+
+>[!NOTE]
+>
+>Plusieurs règles peuvent s&#39;appliquer au même canal, mais une fois le plafond inférieur atteint, le profil sera exclu des prochaines diffusions.
 
 ## Exemple : combiner plusieurs règles {#frequency-rule-example}
 

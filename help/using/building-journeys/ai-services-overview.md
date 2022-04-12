@@ -5,10 +5,10 @@ description: Présentation du service IA
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 86%
 
 ---
 
@@ -23,7 +23,7 @@ L&#39;intégration entre [!DNL Journey Optimizer] et les [!DNL Intelligent Servi
 
 L’IA dédiée aux clients fait partie des [!DNL Adobe Intelligent Services]. Elle permet de prévoir ce qu&#39;un client est susceptible de faire. Voir la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
-L&#39;IA dédiée aux clients permet aux marques de créer des scores basés sur le machine learning d&#39;attrition ou de conversion qui seront disponibles en tant qu&#39;attributs de profil dans les profils Adobe Experience Platform (profil client en temps réel).
+Customer AI permet aux marques de créer des scores basés sur l’apprentissage automatique d’attrition ou de conversion qui seront disponibles en tant qu’attributs de profil dans les profils Adobe Experience Platform (profil client en temps réel).
 
 Par conséquent, ils peuvent être utilisés comme tout autre attribut de profil dans les conditions de Journey Optimizer (pour prendre les meilleures décisions), les actions ou la création de segments.
 

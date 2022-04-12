@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2271'
-ht-degree: 83%
+source-wordcount: '2350'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 
 >[!CAUTION]
 >
-> * La configuration des paramètres de message prédéfinis est limitée à [Administrateurs de parcours](../administration/ootb-product-profiles.md#journey-administrator). Pour créer, modifier et supprimer des paramètres prédéfinis de message, vous devez disposer de la variable [Gestion des paramètres prédéfinis de message](../administration/high-low-permissions.md#manage-message-presets).
+> * Pour créer, modifier et supprimer des paramètres prédéfinis de message, vous devez disposer de la variable [Gestion des paramètres prédéfinis de message](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * Vous devez effectuer les opérations suivantes : [Configuration des emails](#configure-email-settings) et [Configuration push](../configuration/push-configuration.md) étapes avant de créer des paramètres prédéfinis de message.
 
@@ -29,6 +29,11 @@ Une fois les paramètres prédéfinis de message configurés, vous pourrez les s
 ➡️ [Découvrez comment créer et utiliser des préréglages d’e-mail dans cette vidéo](#video-presets)
 
 ## Création d&#39;un préréglage de message {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="Détails et paramètres du paramètre prédéfini de message"
+>abstract="En configurant un paramètre prédéfini de message, vous pouvez sélectionner le canal auquel il s’applique et définir tous les paramètres techniques requis pour vos messages, tels que le type d’email, le sous-domaine à utiliser, le nom de l’expéditeur, les applications mobiles, etc."
 
 Pour créer un préréglage de message, procédez comme suit :
 
@@ -97,11 +102,11 @@ Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer 
 
 * Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
 
-When [créer un message](../messages/get-started-content.md#create-new-message), vous devez choisir un paramètre prédéfini de message valide pour la catégorie et le ou les canaux sélectionnés.
-
 >[!CAUTION]
 >
 >Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
+
+When [créer un message](../messages/get-started-content.md#create-new-message), vous devez choisir un paramètre prédéfini de message valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
 
 ### Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous d
 1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
 
 1. Sélectionnez le pool d&#39;adresses IP à associer au préréglage. [En savoir plus](ip-pools.md)
+
+>[!NOTE]
+>
+>Pour les environnements hors production, Adobe ne crée pas de sous-domaines de test d’usine et n’accorde pas l’accès à un pool d’adresses IP d’envoi partagé. Vous devez [déléguer vos propres sous-domaines](delegate-subdomain.md) et utiliser les adresses IP du pool affecté à votre organisation.
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ Vous devez saisir une valeur entière (en heures ou minutes) dans la plage suiva
 * Pour les e-mails marketing, la période de reprise minimale est de 6 heures.
 * Pour les e-mails transactionnels, la période de reprise minimale est de 10 minutes.
 * Pour les deux types d’e-mail, la période de reprise maximale est de 84 heures (soit 5 040 minutes).
+
+En savoir plus sur les reprises dans [cette section](retries.md).
 
 ## Configurer les paramètres des notifications push {#configure-push-settings}
 

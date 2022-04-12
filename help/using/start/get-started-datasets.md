@@ -4,10 +4,10 @@ description: Découvrez comment utiliser des jeux de données Adobe Experience�
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 95%
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ L’ajout de données à Adobe Experience Platform est la base de la création
 
 ➡️ [Découvrez comment créer et configurer un jeu de données dans cette vidéo](#video-dataset)
 
-L’espace de travail **Jeux de données** de l’interface utilisateur [!DNL Adobe Journey Optimizer] vous permet d’explorer les données et de créer des jeux de données.
+Le **Jeux de données** espace de travail dans [!DNL Adobe Journey Optimizer] l’interface utilisateur vous permet d’explorer les données et de créer des jeux de données.
 
 ![](assets/datasets-home.png)
 

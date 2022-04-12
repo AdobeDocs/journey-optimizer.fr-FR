@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5071de634c9dbb13908d3190fe1157831c372c7d
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 42%
+source-wordcount: '172'
+ht-degree: 36%
 
 ---
 
-# Modification des adresses e-mail principales {#change-primary-email}
+# Modification des adresses e-mails principales {#change-primary-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address"
+>title="Définir l’adresse à utiliser"
+>abstract="Vous pouvez choisir l&#39;adresse email à prioriser pour l&#39;envoi lorsque plusieurs adresses sont disponibles dans la base de données (personnelle, professionnelle, etc.)."
 
 Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail personnelle, professionnelle, etc.).
 
