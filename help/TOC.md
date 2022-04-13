@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: b5d9c0b261f14eda271c08fe0afc5028fff5ab2f
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '973'
 ht-degree: 99%
 
 ---
@@ -260,8 +260,8 @@ ht-degree: 99%
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
       + Configuration des offres {#configure-offers}
          + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
-         + [Add representations](using/offers/offer-library/add-representations.md)
-         + [Add constraints](using/offers/offer-library/add-constraints.md)
+         + [Ajouter des représentations](using/offers/offer-library/add-representations.md)
+         + [Ajouter des contraintes](using/offers/offer-library/add-constraints.md)
       + [Créer des offres de secours](using/offers/offer-library/creating-fallback-offers.md)
       + [Création de collections](using/offers/offer-library/creating-collections.md)
    + Création et gestion des décisions {#create-manage-activities}
@@ -374,6 +374,7 @@ ht-degree: 99%
          + [À propos des actions](using/action/action.md)
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
          + [Intégration avec Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Consentement](using/action/consent.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
    + [Présentation du contrôle d’accès](using/administration/permissions-overview.md)
