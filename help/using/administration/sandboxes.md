@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Le sélecteur d’environnement Sandbox se trouve dans le coin supérieur droit 
 
 ![](assets/sandbox_5.png)
 
-➡️ [En savoir plus sur les environnements de test dans cette vidéo](#video)
+➡️ [En savoir plus sur les sandbox dans cette vidéo](#video)
 
 ## Affectation d&#39;environnements Sandbox {#assign-sandboxes}
 
