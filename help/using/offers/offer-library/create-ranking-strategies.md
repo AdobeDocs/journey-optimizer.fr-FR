@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Créer des modèles d’IA {#ai-rankings}
 
-[!DNL Journey Optimizer] permet de créer des **Modèles AI** pour classer les offres en fonction des objectifs de votre entreprise.
+[!DNL Journey Optimizer] permet de créer des **modèles &#39;’IA** pour classer les offres en fonction des objectifs de votre entreprise.
 
 >[!CAUTION]
 >
->Pour créer, modifier ou supprimer des modèles AI, vous devez disposer de la variable **Gestion des stratégies de classement** autorisation. [En savoir plus](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>Pour créer, modifier ou supprimer des modèles d&#39;IA, vous devez disposer de la permission **Gestion des stratégies de classement**. [En savoir plus](../../administration/high-low-permissions.md#manage-ranking-strategies)
 >
 >L’utilisation des modèles d’IA est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
 
@@ -28,7 +28,7 @@ Une fois un modèle d’IA créé, affectez-le à un emplacement dans une décis
 
 ## Création d’une stratégie de classement {#create-ranking-strategy}
 
-Pour créer un modèle d’IA en tant que stratégie de classement, procédez comme suit :
+Pour créer un modèle d’IA en tant que stratégie de classement, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Composants]**, puis sélectionnez l&#39;onglet **[!UICONTROL Classements par l&#39;IA]**.
 
