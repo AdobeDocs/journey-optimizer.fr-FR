@@ -1,26 +1,27 @@
 ---
-title: Rapport dʼabonnement dynamique
-description: Découvrez comment utiliser les données de vos services d’abonnement avec le rapport en direct d’abonnement.
+title: Rapport d'abonnement dynamique
+description: Découvrez comment utiliser les données de vos services d'abonnement avec le rapport d'abonnement dynamique.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# Rapport dʼabonnement dynamique {#subscription-report-live}
+# Rapport d&#39;abonnement dynamique {#subscription-report-live}
 
-L&#39;abonnement **[!UICONTROL Rapport en direct]** affiche uniquement des détails sur l’activité de vos abonnés au cours des dernières 24 heures. Pour mesurer vos abonnements sur une période sélectionnée, reportez-vous à la section [Rapport global d&#39;inscription](subscription-report-global.md).
+Le **[!UICONTROL Rapport d&#39;abonnement dynamique]** affiche uniquement des détails sur l&#39;activité de vos abonnés au cours des dernières 24 heures. Pour mesurer vos abonnements sur une période sélectionnée, reportez-vous à la section [Rapport d&#39;abonnement global](subscription-report-global.md).
 
-Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport en direct]** dans le menu avancé de la liste d’abonnements sélectionnée.
+Pour accéder aux rapports, sélectionnez **[!UICONTROL Rapport dynamique]** dans le menu avancé de la liste d&#39;abonnements sélectionnée.
 
 ![](assets/subscription_report_6.png)
 
-L&#39;abonnement **[!UICONTROL Rapport en direct]** est divisé en différents widgets détaillant vos abonnements et désabonnements. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
+Le **[!UICONTROL Rapport d&#39;abonnement dynamique]** est divisé en différents widgets détaillant vos abonnements et désabonnements. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
 ![](assets/subscription_report_3.png)
 
@@ -35,4 +36,3 @@ Le graphique **[!UICONTROL Performances de lʼabonnement]** montre l’évolutio
 ![](assets/subscription_report_4.png)
 
 Les graphiques **Abonnements - Ventilation** et **Désabonnements - Ventilation** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours des dernières 24 heures en fonction des messages, des pages de destination et des canaux.
-
