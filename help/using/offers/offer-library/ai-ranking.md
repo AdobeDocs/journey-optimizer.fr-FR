@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1508'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 ## Prise en main des modèles d’IA {#get-started-with-ai-rankings}
 
-[!DNL Journey Optimizer] vous permet d’utiliser un système de modèles formé qui classe les offres à afficher pour un profil donné.
+[!DNL Journey Optimizer] vous permet d&#39;utiliser un système de modèles formés pour classer les offres à afficher pour un profil donné.
 
 >[!CAUTION]
 >
@@ -82,7 +82,7 @@ L’optimisation automatique est conçue pour prendre en compte les récompenses
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target=&quot;_blank&quot;} avec une [loi Beta](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
+Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target=&quot;_blank&quot;} avec une [loi Beta](https://fr.wikipedia.org/wiki/Loi_bêta){target=&quot;_blank&quot;}.
 
 La loi a priori est modélisée par la loi Beta et la loi a posteriori se présente comme suit :
 
