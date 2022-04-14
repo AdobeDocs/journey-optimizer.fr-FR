@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,6 +98,6 @@ Cliquer sur chaque lien hypertexte entraîne l&#39;ouverture de la vue de synth�
 
 ## Vidéo pratique {#video}
 
-En savoir plus sur les rapports en ligne et globaux, comment accéder au Parcours et analyser les rapports spécifiques aux messages et comment modifier les tableaux de bord des rapports.
+Apprenez-en plus sur les rapports dynamiques et globaux. Découvrez également comment accéder aux rapports spécifiques aux messages et aux parcours et les analyser et comment modifier les tableaux de bord des rapports.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)
