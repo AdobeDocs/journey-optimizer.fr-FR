@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1302'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Activité de condition"
->abstract="Cette activité vous permet de définir le flux de l’individu dans le parcours. Plusieurs chemins seront créés selon différents critères. Vous pouvez également créer un autre chemin en cas de dépassement de délai ou d’erreur."
+>abstract="Cette activité vous permet de définir le déplacement de l&#39;individu dans le parcours. Plusieurs chemins seront créés selon différents critères. Vous pouvez également créer un chemin alternatif en cas de délai dépassé ou d&#39;erreur."
 
 Les types de conditions disponibles sont les suivantes :
 
@@ -30,12 +30,12 @@ Les types de conditions disponibles sont les suivantes :
 
 ![](assets/journey49.png)
 
-## À propos de l’activité de condition {#about_condition}
+## À propos de l&#39;activité de condition {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="À propos de l’éditeur d’expression simple"
->abstract="Le mode d’éditeur d’expression simple permet d’effectuer des requêtes simples basées sur une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Faites glisser des champs dans la zone principale. Pour combiner les différents éléments, imbriquez-les afin de créer différents groupes et/ou niveaux de groupes. Vous pouvez ensuite sélectionner un opérateur logique pour combiner les éléments de même niveau."
+>title="À propos de l&#39;éditeur d&#39;expression simple"
+>abstract="Le mode Éditeur d&#39;expression simple vous permet d&#39;exécuter des requêtes simples en fonction d&#39;une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Faites glisser des champs dans la zone principale. Pour combiner les différents éléments, imbriquez-les afin de créer différents groupes et/ou niveaux de groupes. Vous pouvez alors sélectionner un opérateur logique afin de combiner les éléments de même niveau."
 
 Lorsque vous utilisez plusieurs conditions dans un parcours, vous pouvez définir des libellés pour chacune d’elles afin de les identifier plus facilement.
 
@@ -71,9 +71,9 @@ Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours,
 
 ## Condition de source de données {#data_source_condition}
 
-Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Découvrez comment utiliser l’éditeur d’expression dans [cette section](expression/expressionadvanced.md).
+Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Découvrez comment utiliser l&#39;éditeur d&#39;expression dans [cette section](expression/expressionadvanced.md).
 
-L’éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md).
+L&#39;éditeur d’expression avancé vous permet de configurer des conditions plus sophistiquées pour manipuler des collections ou utiliser des sources de données nécessitant la transmission de paramètres. [En savoir plus](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 
@@ -124,7 +124,7 @@ Le chemin nominal a toujours la priorité sur le chemin alternatif, même si vou
 Pour les parcours actifs, voici les seuils à prendre en compte pour que la limite soit atteinte :
 
 * Pour une limite supérieure à 10 000, le nombre de profils distincts à injecter doit être au moins égal à 1,3 fois la limite.
-* Pour une limite inférieure à 10 000, le nombre de profils distincts à injecter doit être de 1 000 plus la limite.
+* Pour une limite inférieure à 10 000, le nombre de profils distincts à injecter doit être de 1 000 plus la limite.
 
 La limite de profils n’est pas prise en compte en mode test.
 
