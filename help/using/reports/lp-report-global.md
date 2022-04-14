@@ -1,26 +1,27 @@
 ---
 title: Rapport global sur les pages de destination
-description: Découvrez comment utiliser les données de votre rapport global de landing pages
+description: Découvrez comment utiliser les données de votre rapport global sur les pages de destination
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Rapport global sur les pages de destination {#lp-report-global}
 
-La landing page **[!UICONTROL Rapport global]** Ce rapport affiche des détails sur l’impact de vos landing pages sur une période sélectionnée. Pour mesurer les données de votre landing page sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport en direct de la page d’entrée](lp-report-live.md).
+Le rapport **[!UICONTROL Rapport global]** sur les pages de destination affiche des détails sur l&#39;impact de vos pages de destination sur une période sélectionnée. Pour mesurer les données de votre page de destination sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport dynamique sur les pages de destination](lp-report-live.md).
 
-Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport global]** dans le menu avancé de la landing page sélectionnée.
+Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport global]** dans le menu avancé de la page de destination sélectionnée.
 
 ![](assets/landing_page_report_7.png)
 
-La landing page **[!UICONTROL Rapport global]** est divisé en différents widgets détaillant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md).
+Le **[!UICONTROL Rapport global]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md).
 
 ![](assets/landing_page_report_4.png)
 
