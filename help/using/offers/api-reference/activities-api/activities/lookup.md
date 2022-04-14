@@ -1,5 +1,5 @@
 ---
-title: 'Recherche d’une règle '
+title: 'Recherche d''une règle '
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
 feature: Offers
 topic: Integrations
@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
 
-# Recherche d’une décision {#look-up-decision}
+# Recherche d&#39;une règle {#look-up-decision}
 
 Vous pouvez rechercher des décisions spécifiques (auparavant appelées activités d&#39;offres) en exécutant une requête GET sur l&#39;API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de l&#39;activité dans le chemin de la requête.
 
