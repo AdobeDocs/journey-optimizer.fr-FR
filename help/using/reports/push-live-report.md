@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Le tableau **[!UICONTROL Mesures d’envoi - par push]** détaille le succès de
 
 ![](assets/live_report_9.png)
 
-Le **[!UICONTROL Raisons de l’erreur]** et **[!UICONTROL Exclure les raisons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Le **[!UICONTROL Envoi de statistiques - Échec]** widget vous permet de voir le nombre d’erreurs et de rebonds qui se sont produits.
+Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
 
 ![](assets/live_report_4.png)
 
