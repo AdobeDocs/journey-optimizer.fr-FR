@@ -1,14 +1,15 @@
 ---
-title: Ajustement de l’alignement vertical et de la marge intérieure dans Journey Optimizer
-description: Découvrez comment ajuster l’alignement vertical et le remplissage
+title: Ajustement de l'alignement vertical et la marge intérieure dans Journey Optimizer
+description: Découvrez comment ajuster l'alignement vertical et la marge intérieure
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
