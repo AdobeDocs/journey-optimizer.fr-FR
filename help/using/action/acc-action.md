@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
->title="Actions d’Adobe Campaign v7/v8"
->abstract="Cette intégration est disponible pour Adobe Campaign Classic v7 et v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign. La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement."
+>title="Actions d&#39;Adobe Campaign v7/v8"
+>abstract="Cette intégration est disponible pour Adobe Campaign Classic v7 et v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign. La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement."
 
-Cette intégration est disponible pour Adobe Campaign Classic v7 à partir de la version 7.1 et Adobe Campaign v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign.
+Cette intégration est disponible pour Adobe Campaign Classic v7 à partir de la version 7.1 et Adobe Campaign v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign.
 
 La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement.
 
@@ -45,7 +45,7 @@ Pour chaque action configurée, une activité d’action est disponible dans la 
 
 Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Consultez la [documentation d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target=&quot;_blank&quot;}.
 
-Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Vous collez ensuite cette payload lors de la configuration de l’action dans Journey Optimizer (voir ci-dessous).
+Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Il vous faudra ensuite coller cette payload lors de la configuration de l’&#39;action dans Journey Optimizer (voir ci-dessous)
 
 Voici un exemple :
 
