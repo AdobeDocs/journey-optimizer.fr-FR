@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 91%
 Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. [Pour en savoir plus, consultez la documentation sur Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer [!DNL Adobe Experience Manager Assets Essentials] pour votre organisation. Pour en savoir plus, consultez la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+>Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer [!DNL Adobe Experience Manager Assets Essentials] pour votre organisation. Pour en savoir plus, consultez la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Téléchargement et ajout de ressources{#add-asset}
 
-Pour importer des fichiers dans [!DNL Assets Essentials], vous devez d’abord parcourir ou créer le dossier dans lequel il sera stocké. Vous pourrez alors les insérer dans le contenu de votre e-mail.
+Pour importer des fichiers dans [!DNL Assets Essentials], vous devez d&#39;abord parcourir ou créer le dossier dans lequel il sera stocké. Vous pourrez alors les insérer dans le contenu de votre e-mail.
 
 Pour plus d’informations sur le téléchargement de ressources, consultez la documentation [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=fr){target=&quot;_blank&quot;}.
 
@@ -72,4 +72,4 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 
    ![](assets/media_library_13.png)
 
-Une fois votre message créé et personnalisé, vous pouvez le publier afin de le rendre disponible pour exécution. [En savoir plus](../messages/publish-manage-message.md)
+Une fois votre message créé et personnalisé, vous pouvez le publier pour le rendre disponible pour exécution. [En savoir plus](../messages/publish-manage-message.md)
