@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-Vous pouvez ajouter n’importe quel type d’expression comme valeur par défaut. La seule contrainte est que l’expression doit renvoyer le type de données attendu. Lors de l’utilisation d’une fonction, l’encapsulation de la fonction avec () est requise.
+Vous pouvez ajouter n&#39;importe quel type d&#39;expression comme valeur par défaut. La seule contrainte est que l&#39;expression doit renvoyer le type de données attendu. Lors de l&#39;utilisation d&#39;une fonction, l’encapsulation de la fonction avec () est requise.
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
