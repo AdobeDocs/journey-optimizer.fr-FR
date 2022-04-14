@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation dans [cette page](../personalization-syntax.md).
 
-➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo](#video)
+➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
 
 Le langage de modèle est utilisé dans les fonctions d&#39;assistance disponibles dans la liste déroulante de personnalisation de l&#39;éditeur d&#39;expression, comme ci-dessous :
 
@@ -315,7 +315,7 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
         <td><a href="operators.md#greaterthanorequal">Greater or equals to</a></td><td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde valeur</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">N’est pas égal à</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
+        <td><a href="operators.md#notequal">Not equals to</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
     </tr>
     <tr>
         <td><a href="operators.md#lessthanorequal">Less than or equals to</a> </td><td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la deuxième valeur.</td>
