@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Le **[!UICONTROL rapport global]** vous permet de mesurer l&#39;impact de vos pa
 
    ![](assets/report_4.png)
 
-* Si vous souhaitez basculer entre le **[!UICONTROL Rapport global]** au **[!UICONTROL Rapport en direct]** pour votre diffusion, cliquez sur **[!UICONTROL Vue en direct]** dans le sélecteur d’onglets.
+* Si vous souhaitez basculer entre le **[!UICONTROL Rapport global]** au **[!UICONTROL Rapport dynamique]** pour votre diffusion, cliquez sur **[!UICONTROL Vue dynamique]** dans le sélecteur d&#39;onglets.
 
    ![](assets/report_5.png)
 
@@ -43,7 +43,7 @@ Chaque tableau de bord de reporting peut être modifié en modifiant la période
 
 1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, consultez [cette page](../building-journeys/testing-the-journey.md).
 
-   Notez que la variable **[!UICONTROL Exclusion des événements de test]** n’est disponible que pour les rapports de Parcours.
+   Notez que l’option **[!UICONTROL Exclure les événements de test]** n’est disponible que pour les rapports de parcours.
 
    ![](assets/report_modify_2.png)
 
