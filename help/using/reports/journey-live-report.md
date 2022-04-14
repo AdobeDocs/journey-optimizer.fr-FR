@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Les widgets **[!UICONTROL Causes des bounces]**, **[!UICONTROL Catégories des b
 
 ![](assets/report_email_3.png)
 
-Le **[!UICONTROL Raisons de l’erreur]** et **[!UICONTROL Exclure les raisons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
 
@@ -147,10 +147,10 @@ Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!
 
 ![](assets/report_push_3.png)
 
-Le **[!UICONTROL Raisons de l’erreur]** et **[!UICONTROL Exclure les raisons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Le **[!UICONTROL Envoi de statistiques - Échec]** widget vous permet de voir le nombre d’erreurs et de rebonds qui se sont produits.
+Le widget **[!UICONTROL Statistiques d&#39;envoi - Échec]** vous permet de voir combien d&#39;erreurs et de bounces se sont produits.
 
 ![](assets/report_push_2.png)
 
-Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
+Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système d&#39;exploitation.
