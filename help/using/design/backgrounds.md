@@ -1,18 +1,19 @@
 ---
-title: Personnaliser l'arrière-plan de votre email
-description: Découvrez comment personnaliser l'arrière-plan de votre email
+title: Personnaliser l'arrière-plan de votre e-mail
+description: Découvrez comment personnaliser l'arrière-plan de votre e-mail
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Personnaliser l&#39;arrière-plan de votre email {#backgrounds}
+# Personnaliser l&#39;arrière-plan de votre e-mail {#backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
