@@ -1,26 +1,27 @@
 ---
 title: Rapport dynamique sur les pages de destination
-description: Découvrez comment utiliser les données de votre rapport en direct de landing pages
+description: Découvrez comment utiliser les données de vos rapports dynamiques sur les pages de destination
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Rapport dynamique sur les pages de destination {#lp-report-live}
 
-La landing page **[!UICONTROL Rapport en direct]** Ce rapport affiche uniquement des détails sur l’impact de vos landing pages sur les dernières 24 heures. Pour mesurer les données de votre landing page sur une période sélectionnée, reportez-vous à la section [Rapport global de page d’entrée](lp-report-global.md).
+Le rapport **[!UICONTROL Rapport dynamique]** sur les pages de destination affiche uniquement des détails sur l&#39;impact de vos pages de destination durant les dernières 24 heures. Pour mesurer les données de votre page de destination sur une période sélectionnée, reportez-vous à la section [Rapport global sur les pages de destination](lp-report-global.md).
 
-Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport en direct]** dans le menu avancé de la landing page sélectionnée.
+Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport dynamique]** dans le menu avancé de la page de destination sélectionnée.
 
 ![](assets/landing_page_report_1.png)
 
-La landing page **[!UICONTROL Rapport en direct]** est divisé en différents widgets détaillant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
+Le **[!UICONTROL Rapport dynamique]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
 ![](assets/landing_page_report_2.png)
 
