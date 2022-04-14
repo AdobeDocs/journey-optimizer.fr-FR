@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 Ce guide du développeur décrit les étapes à suivre pour commencer à utiliser l&#39;API [!DNL Offer Library]. Le guide fournit ensuite des exemples d&#39;appels API pour effectuer des opérations clés à l&#39;aide du moteur de gestion des décisions.
 
 
-➡️ [En savoir plus sur les composants de la gestion de la décision dans cette vidéo](#video)
+➡️ [En savoir plus sur les composants de la gestion des décisions dans cette vidéo](#video)
 
 ## Conditions préalables {#prerequisites}
 
