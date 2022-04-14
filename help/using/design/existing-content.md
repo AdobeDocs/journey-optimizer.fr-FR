@@ -1,21 +1,21 @@
 ---
-title: Importer le contenu de votre email
-description: Découvrez comment importer du contenu d'email
+title: Importation du contenu de vos e-mails
+description: Découvrez comment importer du contenu d'e-mail
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Importer le contenu de votre email {#existing-content}
+# Importation du contenu de vos e-mails {#existing-content}
 
-Journey Optimizer vous permet d’importer du contenu HTML existant pour concevoir vos e-mails. son contenu peut être :
+Journey Optimizer vous permet d&#39;importer du contenu HTML existant pour concevoir vos e-mails. Ce contenu peut être le suivant :
 
 * Un **fichier HTML** avec une feuille de style incorporée,
 * Un **dossier .zip** avec le fichier HTML, la feuille de style (.css) et les images.
