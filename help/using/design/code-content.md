@@ -1,18 +1,19 @@
 ---
-title: Code votre propre contenu d’email
-description: Découvrez comment coder votre propre contenu d'email
+title: Codage de votre propre contenu d'e-mail
+description: Découvrez comment coder votre propre contenu d'e-mail
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Code votre propre contenu {#code-content}
+# Codage de votre propre contenu {#code-content}
 
 Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du code HTML brut et/ou coder votre contenu d&#39;e-mail. Cette méthode nécessite des compétences HTML.
 
