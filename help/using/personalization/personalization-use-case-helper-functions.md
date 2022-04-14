@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1111'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Vous utiliserez ces types de fonctions helper :
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo](#video)
+➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
 
 Avant de commencer, vérifiez que vous savez comment configurer ces éléments :
 * Un message e-mail. [En savoir plus](../messages/get-started-content.md)
@@ -147,7 +147,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
       Les **[!UICONTROL attributs contextuels]** ne sont disponibles qu’une fois que le contexte du parcours a été transmis au message.
 
-   1. Sélectionner **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez la variable **[!UICONTROL productListItems]** noeud .
+   1. Sélectionnez **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Événements]** > ***[!UICONTROL event_name]***, puis développez le nœud **[!UICONTROL productListItems]**.
 
       Dans cet exemple, *event_name* représente le nom de votre événement.
 
