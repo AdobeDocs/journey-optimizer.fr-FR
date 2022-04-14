@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 ## Vidéo pratique {#video}
 
-Comprenez ce quʼest une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
+Comprenez ce qu&#39;est une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 
