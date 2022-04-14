@@ -1,19 +1,19 @@
 ---
-title: Définition d’un style pour les liens
+title: Définition d'un style pour les liens
 description: Découvrez comment définir un style pour les liens
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-
-# Définition d’un style pour les liens {#styling-links}
+# Définition d&#39;un style pour les liens {#styling-links}
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
 
