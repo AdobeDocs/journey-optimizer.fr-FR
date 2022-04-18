@@ -1,15 +1,15 @@
 ---
 title: Démarrage rapide
-description: Journey Optimizer - Démarrage rapide
+description: En tant que marketeur, administrateur ou ingénieur de données, découvrez la puissance de Adobe Journey Optimizer avec des conseils détaillés.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 92%
+source-wordcount: '182'
+ht-degree: 82%
 
 ---
 
