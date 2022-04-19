@@ -1,6 +1,6 @@
 ---
 title: Créer des emails dans Journey Optimizer
-description: Découvrez comment concevoir le contenu de vos emails à partir de zéro
+description: Découvrez comment concevoir le contenu de vos emails  à partir de zéro
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 92%
 
 Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
-Pour commencer à créer le contenu de votre email avec le Concepteur d’email, procédez comme suit :
+Pour commencer à créer le contenu de votre e-mail avec le Concepteur d&#39;e-mail, procédez comme suit :
 
-1. Sur la page d&#39;accueil du Concepteur d&#39;email, sélectionnez l&#39;option **[!UICONTROL Conception à partir de zéro]** .
+1. Dans la page d&#39;accueil du Concepteur d&#39;e-mail, cliquez sur le bouton **[!UICONTROL Créer en partant de zéro]**.
 
    ![](assets/email_designer.png)
 
-1. Commencez à concevoir le contenu de votre email par glisser-déposer. **[!UICONTROL Composants de structure]** pour définir la mise en page de votre email.
+1. Commencez à concevoir le contenu de votre e-mail à l&#39;aide du glisser-déposer de **[!UICONTROL composants de structure]** pour définir la mise en page de votre e-mail.
 
    >[!NOTE]
    >

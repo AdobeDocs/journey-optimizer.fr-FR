@@ -67,8 +67,8 @@ curl -X PATCH \
 
 | Paramètre | Description |
 | --------- | ----------- |
-| `op` | Appel d&#39;opération utilisé pour définir l&#39;action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
-| `path` | Chemin d&#39;accès du paramètre à mettre à jour. |
+| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
+| `path` | Chemin d’accès du paramètre à mettre à jour. |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 
 **Réponse**

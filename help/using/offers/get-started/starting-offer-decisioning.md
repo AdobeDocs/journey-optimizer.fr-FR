@@ -1,15 +1,15 @@
 ---
 title: Prise en main de la gestion des décisions
-description: Découvrez comment Adobe Journey Optimizer peut vous aider à envoyer à vos clients la bonne offre au bon moment
+description: Prise en main de la gestion des décisions Apprenez-en davantage sur son architecture, ses offres et décisions, ainsi que sur les cas dʼutilisation courants qu’il vous permet de d’exécuter.
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 93%
+source-wordcount: '909'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 93%
 
 Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les meilleures offre et expérience possibles à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées.
 
-Offer Decisioning facilite la personnalisation avec une bibliothèque centrale d’offres marketing et un moteur de décision qui applique des règles et des contraintes aux profils en temps réel riches créés par Adobe Experience Platform pour vous aider à envoyer à vos clients la bonne offre au bon moment.
+>[!NOTE]
+>
+>Si vous êtes un utilisateur d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=&quot;_blank&quot;} qui tire parti du service applicatif **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
 
 La fonctionnalité de gestion des décisions comprend deux composants principaux :
 
@@ -33,11 +35,6 @@ Voici quelques-uns des avantages :
 * Contrôle du nombre d&#39;affichages d&#39;une offre sur plusieurs campagnes et clients.
 
 ➡️ [En savoir plus sur la gestion des décisions dans ces vidéos](#video)
-
-
->[!NOTE]
->
->Si vous êtes un utilisateur d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=&quot;_blank&quot;} qui tire parti du service applicatif **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
 
 ## À propos des offres et des décisions {#about-offers-and-decisions}
 

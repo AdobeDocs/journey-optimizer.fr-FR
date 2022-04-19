@@ -9,7 +9,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,10 +37,10 @@ Ces fonctionnalités sont toutes disponibles lors de l’accès au concepteur d�
 >
 >Notez que les modèles de la zone inférieure sont statiques et ne peuvent pas être modifiés. Ils ne sont disponibles qu&#39;à titre d&#39;illustration.
 >
->Une fois que vous avez [créé votre message](../messages/get-started-content.md), vous pouvez commencer à créer le contenu de votre email.
+>Une fois que vous avez [créé votre message](../messages/get-started-content.md), vous pouvez commencer à créer le contenu de votre e-mail.
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer du contenu d&#39;email avec l&#39;éditeur de messages.
+Découvrez comment créer du contenu d&#39;e-mail avec l&#39;éditeur de messages.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

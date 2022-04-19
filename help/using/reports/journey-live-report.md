@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 100%
 
@@ -149,8 +149,8 @@ Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!
 
 Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Le widget **[!UICONTROL Statistiques d&#39;envoi - Échec]** vous permet de voir combien d&#39;erreurs et de bounces se sont produits.
+Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
 
 ![](assets/report_push_2.png)
 
-Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système d&#39;exploitation.
+Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.

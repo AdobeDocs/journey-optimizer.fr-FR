@@ -7,7 +7,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Créer un préréglage de page de destination"
->abstract="Pour pouvoir créer un paramètre prédéfini de page d’entrée, vérifiez que vous avez déjà configuré au moins un sous-domaine de page d’entrée à sélectionner dans la liste Nom de sous-domaine."
+>title="Créer un préréglage de la page de destination"
+>abstract="Pour pouvoir créer un préréglage de la page de destination, vérifiez que vous avez déjà configuré au moins un sous-domaine de la page de destination à sélectionner dans la liste Nom du sous-domaine."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
 
 >[!CONTEXTUALHELP]
@@ -142,7 +142,7 @@ Pour accéder aux préréglages de la page de destination, procédez comme suit.
 
    ![](assets/lp_preset-details.png)
 
-### Créer un préréglage de page de destination {#lp-create-preset}
+### Créer un préréglage de la page de destination {#lp-create-preset}
 
 Pour créer un préréglage de page de destination, procédez comme suit.
 

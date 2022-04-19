@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppre
 
 ![](assets/global_report_22.png)
 
-Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
+Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
 
 Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
 

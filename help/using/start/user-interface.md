@@ -219,7 +219,7 @@ Déclenchez un événement dans un parcours basé sur des segments pour lequel l
   <tr>
     <td rowspan="2">Fenêtre contextuelle</td>
     <td>Enregistrement des modifications ou confirmation de l’action</td>
-    <td>Enter</td>
+    <td>Entrée</td>
   </tr>
   <tr>
     <td>Fermeture de la fenêtre</td>

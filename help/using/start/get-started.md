@@ -1,15 +1,15 @@
 ---
 title: Journey Optimizer
-description: Découvrez les fonctionnalités clés et les cas d’utilisation de Adobe Journey Optimizer
+description: Prise en main de Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 94%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 

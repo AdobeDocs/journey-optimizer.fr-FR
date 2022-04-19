@@ -9,25 +9,25 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
 # Liste autorisée {#allow-list}
 
-Il est possible de définir une liste de sécurité d’envoi spécifique à l’adresse [sandbox](../administration/sandboxes.md) pour disposer d’un environnement sûr à des fins de test.
+Il est possible de définir une liste d&#39;envoi sécurisé spécifique au niveau du [sandbox](../administration/sandboxes.md), afin d’avoir un environnement sécurisé à des fins de test.
 
-Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée vous garantit que vous n’avez aucun risque d’envoyer des messages indésirables à vos clients.
+Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n&#39;avez aucun risque d&#39;envoyer des messages indésirables à vos clients.
 
 >[!NOTE]
 >
->Cette fonctionnalité est désormais disponible sur les environnements de test de production et hors production.
+>Cette fonctionnalité est désormais disponible sur les sandbox de production et hors production.
 
 La liste autorisée vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d&#39;un environnement Sandbox spécifique. Cela peut vous empêcher d&#39;envoyer accidentellement des e-mails à des adresses client réelles lorsque vous vous trouvez dans un environnement de test.
 
 >[!CAUTION]
 >
->Cette fonctionnalité s’applique uniquement au canal email.
+>Cette fonctionnalité s&#39;applique uniquement au canal e-mail.
 
 ## Activation de la liste autorisée {#enable-allow-list}
 
@@ -37,7 +37,7 @@ You can update the allowed list before or after enabling the feature.-->
 
 Pour activer la liste autorisée, procédez comme suit.
 
-1. Accédez au  **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Liste autorisée]** .
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste autorisée]**.
 
    ![](assets/allow-list-access.png)
 

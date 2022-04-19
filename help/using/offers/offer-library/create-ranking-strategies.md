@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -110,7 +110,7 @@ Vous devez créer un jeu de données dans lequel les événements de conversion 
 
 >[!NOTE]
 >
->    Pour en savoir plus sur la création de schémas, consultez la section [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr?lang=fr#Understanding-schemas).
+>    Pour en savoir plus sur la création de schémas, consultez la section [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
 
 Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce schéma. Pour ce faire, procédez comme suit :
 

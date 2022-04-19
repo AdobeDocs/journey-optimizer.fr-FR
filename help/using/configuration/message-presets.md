@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '2350'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -122,37 +122,37 @@ Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous d
 
 ### List-Unsubscribe {#list-unsubscribe}
 
-Upon [sélection d’un sous-domaine](#subdomains-and-ip-pools) dans la liste, la variable **[!UICONTROL Activer List-Unsubscribe]** s’affiche.
+Si vous choisissez [sélection d&#39;un sous-domaine](#subdomains-and-ip-pools) dans la liste, l&#39;option **[!UICONTROL Activer List-Unsubscribe]** s&#39;affiche.
 
 ![](assets/preset-list-unsubscribe.png)
 
-Cette option est activée par défaut.
+Cette option est affichée par défaut.
 
-Si vous la laissez activée, un lien de désabonnement sera automatiquement inclus dans l’en-tête de l’email, par exemple :
+Si vous la laissez activée, un lien de désabonnement sera automatiquement inclus dans l&#39;en-tête de l&#39;e-mail, par exemple :
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Si vous désactivez cette option, aucun lien de désabonnement ne s’affichera dans l’en-tête de l’email.
+Si vous désactivez cette option, aucun lien de désabonnement ne s&#39;affichera dans l&#39;en-tête de l&#39;e-mail.
 
-Le lien de désabonnement se compose de deux éléments :
+Le lien de désabonnement se compose de deux éléments :
 
-* Un **unsubscribe email address**, à laquelle toutes les requêtes de désabonnement sont envoyées.
+* Une **adresse e-mail de désabonnement**, à laquelle toutes les requêtes de désabonnement sont envoyées.
 
-   Dans [!DNL Journey Optimizer], l’adresse électronique de désabonnement est la valeur par défaut. **[!UICONTROL Mailto (unsubscribe)]** adresse affichée dans le paramètre prédéfini du message, en fonction de la variable [sous-domaine sélectionné](#subdomains-and-ip-pools).
+   Dans [!DNL Journey Optimizer], l&#39;adresse e-mail de désabonnement est l&#39;adresse par défaut **[!UICONTROL Mailto (unsubscribe)]** affichée dans le paramètre prédéfini du message, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
-* Le **unsubscribe URL**, qui est l’URL de la landing page vers laquelle l’utilisateur sera redirigé une fois désabonné.
+* L&#39;**URL de désabonnement**, qui est l&#39;URL de la page de destination vers laquelle l&#39;utilisateur sera redirigé une fois désabonné.
 
-   Si vous ajoutez une [lien d’exclusion en un clic](../messages/consent.md#one-click-opt-out) pour un message créé à l’aide de ce paramètre prédéfini, l’URL de désabonnement sera l’URL définie pour le lien d’exclusion en un clic.
+   Si vous ajoutez un [lien de désinscription en un clic](../messages/consent.md#one-click-opt-out) pour un message créé à l&#39;aide de ce paramètre prédéfini, l&#39;URL de désabonnement sera l&#39;URL définie pour le lien de désinscrptioni en un clic.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
    >[!NOTE]
    >
-   >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune landing page ne sera affichée pour l&#39;utilisateur.
+   >Si vous n&#39;ajoutez pas de lien de désinscription en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
 
-En savoir plus sur l’ajout d’un lien de désabonnement d’en-tête à vos messages dans [cette section](../messages/consent.md#unsubscribe-header).
+Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
@@ -180,13 +180,13 @@ Pour configurer un paramètre UTM, vous pouvez saisir directement les valeurs so
 
 ### Paramètres d’en-tête{#email-header}
 
-Dans le **[!UICONTROL PARAMÈTRES D’EN-TÊTE]** , saisissez les noms et adresses email de l’expéditeur associés au type de messages envoyés à l’aide de ce paramètre prédéfini.
+Dans la section **[!UICONTROL PARAMÈTRES D&#39;EN-TÊTE]**, saisissez les noms et adresses e-mail de l&#39;expéditeur associés au type de messages envoyés à l&#39;aide de ce paramètre prédéfini.
 
 >[!CAUTION]
 >
->Les adresses électroniques doivent utiliser la sélection actuelle [sous-domaine délégué](about-subdomain-delegation.md).
+>Les adresses e-mail doivent utiliser le [sous-domaine délégué](about-subdomain-delegation.md) actuellement sélectionné.
 
-* **[!UICONTROL Nom de l’expéditeur]** : le nom de l’expéditeur, tel que le nom de votre marque. 
+* **[!UICONTROL Nom de l’expéditeur]** : le nom de l&#39;expéditeur, tel que le nom de votre marque.
 
 * **[!UICONTROL E-mail de l&#39;expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com*.
 

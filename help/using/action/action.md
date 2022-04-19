@@ -10,7 +10,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ Les actions sont des connexions par le biais desquelles vous proposez des expér
 
 Si vous disposez d’Adobe Campaign v7 ou v8, une intégration est disponible sur demande. Voir [cette page](../action/acc-action.md).
 
-Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, [Développeur d’Adobes](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
+Si vous utilisez un système tiers pour envoyer des messages tels que Epsilon, Facebook, [Développeur d’Adobes](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc., vous devez ajouter et configurer une action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
 Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n&#39;importe quel service de n&#39;importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON.
 

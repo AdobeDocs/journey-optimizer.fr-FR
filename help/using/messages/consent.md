@@ -41,7 +41,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. ********[](../configuration/message-presets.md#email-type)[](get-started-content.md#create-new-message)
+>Les messages électroniques de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [niveau de message prédéfini](../configuration/message-presets.md#email-type) et quand [création du message](get-started-content.md#create-new-message).
 
 ### Désinscription externe {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 #### Implémenter un appel API pour la désinscription {#opt-out-api}
 
-****[](https://developer.adobe.com/)
+Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Développeur d’Adobes](https://developer.adobe.com/){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
 
-This POST call is as follows:
+Cet appel de POST est le suivant :
 
 Point dʼentrée : platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ Contenu de la requête :
 }
 ```
 
-[!DNL Journey Optimizer][](https://developer.adobe.com)
+[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant via l’ [Développeur d’Adobes](https://developer.adobe.com)Appel de l’API {target=&quot;_blank&quot;}.
 
 #### Envoyer le message avec le lien de désinscription {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ Une fois que vous avez configuré le lien de désinscription sur votre page de d
 
    ![](assets/opt-out-lp-example.png)
 
-1. ****[](#opt-out-api)
+1. Si le destinataire envoie le formulaire (ici, en appuyant sur la fonction **Désabonner** dans votre landing page), les données de profil sont mises à jour via la fonction [appel API](#opt-out-api).
 
 1. Le destinataire désabonné est ensuite redirigé vers un écran de message de confirmation indiquant que la désinscription a réussi.
 

@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -277,7 +277,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation [!DNL Manage ranking strategies] {#manage-ranking-strategies}
 
-Le **[!DNL Manage ranking strategies]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des stratégies de classement.
+L&#39;autorisation **[!DNL Manage ranking strategies]** de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des stratégies de classement.
 
 Elle comprend les autorisations de bas niveau suivantes :
 

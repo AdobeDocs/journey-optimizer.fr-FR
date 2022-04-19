@@ -9,16 +9,16 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
-# Création d’un e-mail {#configure-email}
+# Création d&#39;un e-mail {#configure-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="Création d&#39;email"
->abstract="Définissez vos paramètres d&#39;email en trois étapes simples."
+>title="Création d&#39;un e-mail"
+>abstract="Définissez vos paramètres d&#39;e-mail en trois étapes simples."
 
 Une fois que vous avez [créé un message](get-started-content.md), utilisez l&#39;onglet **[!UICONTROL E-mail]** pour définir les paramètres et le contenu du canal e-mail.
 

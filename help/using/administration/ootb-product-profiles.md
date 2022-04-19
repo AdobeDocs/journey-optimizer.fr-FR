@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -38,11 +38,9 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**[!DNL Manage journeys]** : la lecture, la création, la modification et la suppression des parcours.</li><li>**[!DNL Publish journey]** : la publication des parcours.</li><li>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : la lecture et la modification des rapports de parcours.</li></ul>|
-|Messages| <ul><li>**[!DNL Manage messages]** : la lecture, la création, la modification et la suppression des messages.</li><li>**[!DNL Publish messages]** : la publication des messages.</li><li>**[!DNL Manage messages preview and test]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li>**[!DNL View messages report]** : la lecture, la création, la modification et la suppression du rapport de messages.</li></ul>|
+|Parcours| <ul><li>**[!DNL Manage journeys]** : la lecture, la création, la modification et la suppression des parcours.</li><li>**[!DNL Publish journey]** : la publication des parcours.</li><li>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : la lecture et la modification des rapports de parcours.</li></ul>| |Messages| <ul><li>**[!DNL Manage messages]** : la lecture, la création, la modification et la suppression des messages.</li><li>**[!DNL Publish messages]** : la publication des messages.</li><li>**[!DNL Manage messages preview and test]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li>**[!DNL View messages report]** : la lecture, la création, la modification et la suppression du rapport de messages.</li></ul>|
 |Gestion des décisions| <ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et lʼutilisation des fonctions dʼaction.</li></ul>|
-|Adobe Experience Platform| <ul><li>**[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
-|Administration| <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul>|
+|Adobe Experience Platform| <ul><li>**[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul>|
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -52,11 +50,9 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**[!DNL Manage journeys]** : la lecture, la création, la modification et la suppression des parcours.</li><li>**[!DNL View journeys events]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : la lecture et la modification du rapport de parcours.</li></ul>|
-|Messages| <ul><li>**[!DNL Manage messages]** : la lecture, la création, la modification et la suppression des messages.</li><li> **[!DNL Manage messages preview and test]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li>**[!DNL View messages report]** : la lecture, la création, la modification et la suppression du rapport de messages.</li></ul>|
+|Parcours| <ul><li>**[!DNL Manage journeys]** : la lecture, la création, la modification et la suppression des parcours.</li><li>**[!DNL View journeys events]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : la lecture et la modification du rapport de parcours.</li></ul>| |Messages| <ul><li>**[!DNL Manage messages]** : la lecture, la création, la modification et la suppression des messages.</li><li> **[!DNL Manage messages preview and test]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li>**[!DNL View messages report]** : la lecture, la création, la modification et la suppression du rapport de messages.</li></ul>|
 |Gestion des décisions| <ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et lʼutilisation des fonctions dʼaction.</li></ul>|
-|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
-|Administration| <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul>|
 
 ## [!DNL Journey viewer] {#journey-viewer}
 
@@ -68,8 +64,7 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**[!DNL View journeys]** : accès en lecture seule aux parcours.</li><li>**[!DNL View journeys event, data sources, actions]** : accès en lecture seule aux événements de parcours et aux sources de données.</li><li>**[!DNL View journeys report]** : accès en lecture seule aux rapports de parcours.</li></ul>|
-|Messages| <ul><li>**[!DNL View messages]** : accès en lecture seule aux messages.</li><li>**[!DNL View messages report]** : accès en lecture seule aux rapports de messages.</li></ul>|
+|Parcours| <ul><li>**[!DNL View journeys]** : accès en lecture seule aux parcours.</li><li>**[!DNL View journeys event, data sources, actions]** : accès en lecture seule aux événements de parcours et aux sources de données.</li><li>**[!DNL View journeys report]** : accès en lecture seule aux rapports de parcours.</li></ul>| |Messages| <ul><li>**[!DNL View messages]** : accès en lecture seule aux messages.</li><li>**[!DNL View messages report]** : accès en lecture seule aux rapports de messages.</li></ul>|
 |Gestion des décisions| <ul><li>**[!DNL View decisions]** : accès en lecture seule aux entités de prise de décision.</li></ul>|
 
 ## [!DNL Message Manager] {#message-manager}
@@ -80,11 +75,9 @@ Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
-|Parcours| <ul><li>**[!DNL View journeys]** : accès en lecture seule aux parcours.</li><li>**[!DNL View Journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li></ul>|
-|Messages| <ul><li>**[!DNL Manage messages]** : la lecture, la création, la modification et la suppression des messages.</li><li>**[!DNL Manage messages preview and test]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li> **[!DNL View messages report]** : la lecture, la création, la modification et la suppression des rapports de messages.</li></ul>|
+|Parcours| <ul><li>**[!DNL View journeys]** : accès en lecture seule aux parcours.</li><li>**[!DNL View Journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li></ul>| |Messages| <ul><li>**[!DNL Manage messages]** : la lecture, la création, la modification et la suppression des messages.</li><li>**[!DNL Manage messages preview and test]** : la lecture, la création et la modification de lʼaperçu du message et lʼenvoi du test/BAT.</li><li> **[!DNL View messages report]** : la lecture, la création, la modification et la suppression des rapports de messages.</li></ul>|
 |Gestion des décisions| <ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des entités de prise de décision.</li></ul>|
-|Adobe Experience Platform| <ul><li>**[!DNL Read profiles]** : accès en lecture seule au profil pour la prévisualisation et le test.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
-|Administration| <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul>|
+|Adobe Experience Platform| <ul><li>**[!DNL Read profiles]** : accès en lecture seule au profil pour la prévisualisation et le test.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul>|
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
