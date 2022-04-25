@@ -1,0 +1,202 @@
+---
+title: API Batch Decisioning
+description: Découvrez comment utiliser l'API Batch Decisioning pour sélectionner les meilleures offres pour les profils segmentés dans une portée de décision prédéfinie.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
+exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 100%
+
+---
+
+
+# Diffusion d&#39;offres à l&#39;aide de l&#39;API [!DNL Batch Decisioning] {#deliver-offers-batch}
+
+L’API [!DNL Batch Decisioning] permet aux entreprises d’utiliser la fonctionnalité de prise de décisions sur les offres pour tous les profils d&#39;un segment donné dans un appel unique. Le contenu de l&#39;offre pour chaque profil du segment est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
+
+Avec l&#39;API [!DNL Batch Decisioning], vous pouvez renseigner un jeu de données avec les meilleures offres pour tous les profils d&#39;un segment Adobe Experience Platform pour les portées de décision. Par exemple, une organisation peut vouloir exécuter [!DNL Batch Decisioning] afin de pouvoir envoyer des offres à un fournisseur de diffusion de messages. Ces offres sont ensuite utilisées comme contenu envoyé pour la diffusion de messages par lots à un même segment d&#39;utilisateurs.
+
+Pour ce faire, l&#39;organisation :
+
+* Exécute l&#39;API [!DNL Batch Decisioning], qui contient deux requêtes :
+
+   1. Une **Requête POST par lots** pour démarrer une charge de travail afin de traiter par lots les sélections d&#39;offres.
+
+   2. Une **Requête GET par lots** pour obtenir l&#39;état de la charge de travail par lots.
+
+* Exporte le jeu de données vers l&#39;API du fournisseur de diffusion de messages.
+
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
+
+## Prise en main {#getting-started}
+
+Avant d&#39;utiliser cette API, veillez à suivre les étapes préalables suivantes.
+
+### Préparer la décision {#prepare-decision}
+
+Suivez les étapes ci-dessous pour préparer une ou plusieurs décisions :
+
+* Pour exporter le résultat de la décision, créez un jeu de données à l&#39;aide du schéma « ODE DecisionEvents ».
+
+* Créez un segment Platform qui doit être évalué puis mis à jour. Reportez-vous à la section [documentation sur la segmentation](http://www.adobe.com/go/segmentation-overview-en_fr) pour en savoir plus sur la mise à jour de l&#39;évaluation de l&#39;appartenance à un segment.
+
+* Créez une décision (dont la portée de décision est composée d&#39;un ID de décision et d&#39;un ID de référencement) dans Adobe Journey Optimizer. Reportez-vous à la [section sur la définition des portées de décision](../../offer-activities/create-offer-activities.md) du guide sur la création de décisions pour en savoir plus.
+
+### Exigences en termes d&#39;API {#api-requirements}
+
+Toutes les requêtes [!DNL Batch Decisioning] nécessitent les en-têtes suivants en plus de ceux qui sont référencés dans le [Guide du développeur de l&#39;API Decision Management](../getting-started.md) :
+
+* `Content-Type` : `application/json`
+* `x-request-id` : Chaîne unique qui identifie la requête.
+* `x-sandbox-name` : Nom du sandbox.
+* `x-sandbox-id` : ID du sandbox.
+
+## Démarrage d&#39;un traitement par lot {#start-a-batch-process}
+
+Pour démarrer une charge de travail afin de prendre des décisions concernant le traitement par lots, envoyez une requête POST au point d&#39;entrée `/workloads/decisions`.
+
+**Format d’API**
+
+```https
+POST {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions
+```
+
+| Paramètre | Description | Exemple |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode` |
+| `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+
+**Requête**
+
+```shell
+curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions' \
+-H 'x-request-id: f671a589-eb7b-432f-b6b9-23d5b796b4dc' \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-H 'x-sandbox-id: {SANDBOX_ID}' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-d '{
+  "xdm:segmentIds": [
+    "609028e4-e66c-4776-b0d9-c782887e2273"
+  ],
+  "xdm:dataSetId": "6196b4a1a63bd118dafe093c",
+  "xdm:propositionRequests": [
+        {
+            "xdm:activityId": "xcore:offer-activity:1410cdcda196707b",
+            "xdm:placementId": "xcore:offer-placement:1410c4117306488a",
+            "xdm:itemCount": 1
+        }
+  ],
+  "xdm:includeContent": false
+}'
+```
+
+| Propriété | Description | Exemple |
+| -------- | ----------- | ------- |
+| `xdm:segmentIds` | La valeur est un tableau qui contient l&#39;identifiant unique du segment. Il ne peut contenir qu&#39;une seule valeur. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:dataSetId` | Le jeu de données de sortie dans lequel les événements de décision peuvent être écrits. | `6196b4a1a63bd118dafe093c` |
+| `xdm:propositionRequests` | Un wrapper qui contient `placementId` et `activityId` |  |
+| `xdm:activityId` | L&#39;identifiant unique de la décision. | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | Identifiant d&#39;emplacement unique. | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:itemCount` | Il s’agit d&#39;un champ facultatif indiquant le nombre d&#39;éléments, tels que les options demandées pour la portée de la décision. Par défaut, l&#39;API renvoie une option par portée, mais vous pouvez demander explicitement plus d&#39;options en spécifiant ce champ. Un minimum de 1 option et un maximum de 30 options peuvent être demandés par portée. | `1` |
+| `xdm:includeContent` | Il s&#39;agit d&#39;un champ facultatif qui est `false` par défaut. Si `true`, le contenu de l&#39;offre est inclus dans les événements de décision du jeu de données. | `false` |
+
+Reportez-vous à la section [Documentation de la gestion des décisions](../../get-started/starting-offer-decisioning.md) pour un aperçu des concepts et propriétés principaux.
+
+**Réponse**
+
+```json
+{
+    "@id": "47efef25-4bcf-404f-96e2-67c4f784a1f5",
+    "xdm:imsOrgId": "9GTO98D5F@AdobeOrg",
+    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
+    "ode:createDate": 1648078924834,
+    "ode:status": "QUEUED"
+}
+```
+
+| Propriété | Description | Exemple |
+| -------- | ----------- | ------- |
+| `@id` | L&#39;UUID généré par Offer Decisioning qui identifie une seule charge de travail. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `xdm:imsOrgId` | L&#39;ID de votre organisation IMS. | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | Votre ID de conteneur. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `ode:createDate` | L&#39;heure à laquelle la requête de charge de travail de la décision a été créée. | `1648078924834` |
+| `ode:status` | L&#39;état de la charge de travail. | `ode:status: "QUEUED"` |
+
+## Récupération des informations sur une décision par lot {#retrieve-information-on-a-batch-decision}
+
+Pour récupérer des informations sur une décision spécifique, envoyez une requête GET au point d&#39;entrée `/workloads/decisions` tout en fournissant la valeur d&#39;ID de charge de travail correspondante pour votre décision.
+
+**Format d’API**
+
+```https
+GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
+```
+
+| Paramètre | Description | Exemple |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode` |
+| `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{WORKLOAD_ID}` | L&#39;UUID généré par Offer Decisioning qui identifie une seule charge de travail. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
+
+**Requête**
+
+```shell
+curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions/f395ab1f-dfaf-48d4-84c9-199ad6354591' \
+-H 'x-request-id: 7832a42a-d4e5-413b-98e8-e49bef056436' \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-H'x-sandbox-id: {SANDBOX_ID}' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}'
+```
+
+**Réponse**
+
+```json
+{
+    "@id": "f395ab1f-dfaf-48d4-84c9-199ad6354591",
+    "xdm:imsOrgId": "{IMS_ORG}",
+    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
+    "ode:createDate": 1648076994405,
+    "ode:status": "COMPLETED"
+}
+```
+
+| Propriété | Description | Exemple |
+| -------- | ----------- | ------- |
+| `@id` | L&#39;UUID généré par Offer Decisioning qui identifie une seule charge de travail. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `xdm:imsOrgId` | L&#39;ID de l’organisation IMS | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | L&#39;ID de conteneur | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `ode:createDate` | L&#39;heure à laquelle la requête de charge de travail de décision a été créée. | `1648076994405` |
+| `ode:status` | L&#39;état de la charge de travail commence par « QUEUED » et passe à « PROCESSING », « INGESTING », « COMPLETED » ou « ERROR ». | `ode:status: "COMPLETED"` |
+| `ode:statusDetail` | Elle affiche plus de détails, tels que sparkJobId et batchID si l&#39;état est « PROCESSING » ou « INGESTING ». Elle affiche les détails de l’erreur si l&#39;état est « ERROR ». |  |
+
+## Niveaux de service {#service-levels}
+
+La durée de bout en bout de chaque décision de lot correspond à la durée entre le moment où la charge de travail est créée et le moment où le résultat de la décision est disponible dans le jeu de données de sortie. La taille du segment dans le payload de la requête POST est le facteur principal qui affecte le temps de décision de lot bout en bout.  Vous trouverez ci-dessous quelques observations relatives à différentes tailles de segment :
+
+| Taille du segment | Temps de traitement de bout en bout |
+|--------------|----------------------------|
+| 10 000 profils ou moins | 6 minutes |
+| 1 million de profils ou moins | 10 minutes |
+| 15 million de profils ou moins | 75 minutes |
+
+## Limites {#limitations}
+
+Lors de l&#39;utilisation de l’API [!DNL Batch Decisioning], gardez à l&#39;esprit les restrictions suivantes :
+
+* **Traitement par lots unique par jeu de données** : actuellement, une seule tâche par lot peut être exécutée par jeu de données à la fois. Toutes les autres requêtes avec le même jeu de données de sortie répondraient avec HTTP 429 (Too many requests) avant la fin de la requête précédente.
+* **Capping de la fréquence** : un lot s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. L&#39;API [!DNL Batch Decisioning] limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent.
+
+## Étapes suivantes {#next-steps}
+
+En suivant ce guide de l&#39;API, vous avez vérifié l&#39;état de la charge de travail et envoyé des offres à l&#39;aide de l&#39;API [!DNL [!DNL Batch Decisioning]]. Pour plus d&#39;informations, consultez la [présentation de la gestion des décisions](../../get-started/starting-offer-decisioning.md).
+

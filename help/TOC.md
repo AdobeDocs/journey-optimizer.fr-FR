@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et diffuser des expériences connectées, contextuelles et personnalisées à vos clients.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 98%
+source-wordcount: '980'
+ht-degree: 96%
 
 ---
 
@@ -325,9 +325,10 @@ ht-degree: 98%
          + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
          + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
       + Diffusion d’offres à l’aide d’API {#offer-delivery}
-         + [API Decisions](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [API Batch Decisioning](using/offers/api-reference/batch-api/deliver-offers-batch.md)
-         + [SDK web Adobe Experience Platform](using/offers/api-reference/web-sdk.md)
+         + [À propos des API de prise de décision et Edge Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [API de prise de décision](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [API de prise de décision Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gestion des données {#data-management}
    + [Schémas](using/start/get-started-schemas.md)
    + [Jeux de données](using/start/get-started-datasets.md)

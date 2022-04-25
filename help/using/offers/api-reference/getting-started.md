@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '668'
+ht-degree: 92%
 
 ---
 
@@ -128,6 +128,10 @@ Une réponse positive renvoie des informations concernant les conteneurs de gest
 ## Étapes suivantes {#next-steps}
 
 Ce document couvrait les connaissances préalables requises pour effectuer des appels à l&#39;API [!DNL Offer Library], y compris l&#39;acquisition de votre ID de conteneur. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
+
+>[!NOTE]
+>
+> Le canal Messagerie in-app de Adobe Journey Optimizer utilise des objets offer decisioning. Si votre entreprise utilise le canal de messagerie in-app, les demandes de liste d’API pour les objets incluront les objets créés par le service de messagerie in-app et pourront être ignorées pour les cas d’utilisation d’offer decisioning. Les objets créés pour les messages in-app auront `createdBy = “Mobile_Sheliak”`.
 
 ## Vidéo pratique {#video}
 
