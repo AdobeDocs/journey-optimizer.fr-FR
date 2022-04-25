@@ -1,14 +1,14 @@
 ---
-title: SDK web Adobe Experience Platform
+title: Diffuser des offres à l’aide de l’API Edge Decisioning
 description: Le SDK web Adobe Experience Platform vous permet de récupérer et de générer des offres personnalisées que vous avez créées à l’aide des API ou de la bibliothèque des offres.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 58ebc89bf2dfc3d1e23f22c1aa37144c572b74b9
+source-git-commit: fbceab397e836c0166df595e87a7ae3a74087477
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 15%
+source-wordcount: '1050'
+ht-degree: 14%
 
 ---
 
@@ -82,7 +82,7 @@ Cette option est plus conviviale pour les personnes qui peuvent avoir moins d’
 
 1. Créez votre [Règles](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
-   i. Ajoutez une action Envoyer l’événement du SDK Web Platform et ajoutez les étendues de décision appropriées à la configuration de cette action.
+   Ajoutez une action Envoyer l’événement du SDK Web Platform et ajoutez les étendues de décision appropriées à la configuration de cette action.
 
    ![Offre de rendu](../../assets/rule-render-offer.png)
 
