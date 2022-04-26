@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout dʼune nouvelle page sur la prise en main des modèles dʼIA dans la section **Offer Decisioning**, comprenant une description approfondie du [modèle d’optimisation automatique](../offers/offer-library/ai-ranking.md#auto-optimization), l’algorithme qu’il utilise et dʼautres détails techniques. [En savoir plus](../offers/offer-library/ai-ranking.md)
 * La page de création du profil de test a été déplacée vers la section **Segment, profils et identité**. [En savoir plus](../segment/creating-test-profiles.md)
 * Ajout d’un exemple sur l’ajout d’une expression en tant que valeur par défaut dans l’éditeur d’expression. [En savoir plus](../building-journeys/expression/field-references.md#default-value)
-* Le **Créer des offres personnalisées** a été réorganisée pour en améliorer la lisibilité. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
-* Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur la limitation de fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
-* Le **Modifier les adresses email Principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
+* La section **Création d’offres personnalisées** a été réorganisée pour en améliorer la lisibilité. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
+* Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur la limitation de la fréquence de cette offre.Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur le capping de la fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
+* La section **Modification des adresses e-mail principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Février 2022 {#feb-2022}
 

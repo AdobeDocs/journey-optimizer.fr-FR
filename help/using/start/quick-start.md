@@ -1,6 +1,6 @@
 ---
 title: Démarrage rapide
-description: En tant que marketeur, administrateur ou ingénieur de données, découvrez la puissance de Adobe Journey Optimizer avec des conseils détaillés.
+description: En tant spécialiste marketing, administrateur ou ingénieur de données, découvrez la puissance d’Adobe Journey Optimizer avec des conseils détaillés.
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 
 Pour découvrir la puissance d’Adobe Journey Optimizer en obtenant des conseils détaillés, sélectionnez votre profil. 
 
-* Je suis un **Administrateur**
+* Je suis **administrateur**
 
    Préparer votre environnement, octroyer l’accès, configurer les paramètres. [En savoir plus](path/administrator.md)
 
-* Je suis un **Ingénieur de données**
+* Je suis **ingénieur de données**
 
-   Importer des profils, créer des audiences, créer des schémas et des jeux de données. [En savoir plus](path/data-engineer.md)
+   Importer des profils, concevoir des audiences, créer des schémas et des jeux de données. [En savoir plus](path/data-engineer.md)
 
-* Je suis un **Marketer**
+* Je suis **spécialiste marketing**
 
    Concevoir des messages, ajouter des offres et des ressources et créer des parcours clients. [En savoir plus](path/marketer.md)
