@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les messages électroniques de type marketing doivent inclure une [lien d’exclusion](../messages/consent.md#opt-out-management), qui n’est pas nécessaire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [niveau de message prédéfini](../configuration/message-presets.md#email-type) et quand [création du message](../messages/get-started-content.md#create-new-message).
+>Les messages électroniques de type marketing doivent inclure une [lien d’exclusion](../messages/consent.md#opt-out-management), qui n’est pas nécessaire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au [niveau du préréglage de message](../configuration/message-presets.md#email-type) et lors de la [création du message](../messages/get-started-content.md#create-new-message).
 
 ## Lien vers une page miroir {#mirror-page}
 

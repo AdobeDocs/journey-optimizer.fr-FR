@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 72%
+ht-degree: 79%
 
 ---
 
@@ -49,7 +49,7 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
    >[!NOTE]
    >
-   >Les messages électroniques de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [niveau de message prédéfini](../configuration/message-presets.md#email-type) et quand [création du message](get-started-content.md#create-new-message).
+   >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au [niveau du préréglage de message](../configuration/message-presets.md#email-type) et lors de la [création du message](get-started-content.md#create-new-message).
 
 * **[!UICONTROL La version texte du HTML est vide]**: n&#39;oubliez pas de définir une version texte du corps de votre email, car elle sera utilisée lorsque le contenu du HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
 

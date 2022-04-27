@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -38,4 +38,4 @@ Les étapes pour configurer un email sont les suivantes :
 
 >[!NOTE]
 >
->Les messages électroniques de type marketing doivent inclure une [lien d’exclusion](consent.md#opt-out-management), qui n’est pas nécessaire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [niveau de message prédéfini](../configuration/message-presets.md#email-type) et quand [création du message](get-started-content.md#create-new-message).
+>Les messages électroniques de type marketing doivent inclure une [lien d’exclusion](consent.md#opt-out-management), qui n’est pas nécessaire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au [niveau du préréglage de message](../configuration/message-presets.md#email-type) et lors de la [création du message](get-started-content.md#create-new-message).
