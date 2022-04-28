@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1675'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,11 @@ La délégation de noms de domaine est une méthode qui permet au propriétaire 
 >
 >Par défaut, le contrat de licence [!DNL Journey Optimizer] vous permet de déléguer jusqu&#39;à 10 sous-domaines. Contactez votre contact Adobe si vous souhaitez augmenter cette limite.
 
-Vous pouvez déléguer entièrement un sous-domaine ou créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à un Adobe. En savoir plus sur les différences entre les deux [Méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
+Vous pouvez déléguer entièrement un sous-domaine ou créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à un Adobe.
+
+>[!CAUTION]
+>
+>La délégation complète de sous-domaine est la méthode recommandée. En savoir plus sur les différences entre les deux [Méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 

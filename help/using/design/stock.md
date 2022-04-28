@@ -7,16 +7,20 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 12%
+source-wordcount: '431'
+ht-degree: 14%
 
 ---
 
 # Gérer [!DNL Adobe Stock] images {#stock}
 
 ## Commencer avec [!DNL Adobe Stock]  {#get-started-stock}
+
+>[!IMPORTANT]
+>
+> L’utilisation de la variable [!DNL Adobe Stock] l’intégration est actuellement disponible dans un accès anticipé uniquement pour certains utilisateurs. Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
 
 [!DNL Adobe Stock] permet d’accéder à des millions de photos, vidéos, illustrations et graphiques vectoriels de haute qualité, organisés et libres de droits. Vous pouvez choisir d’acheter un pack de crédit pour acquérir des ressources sous licence ou d’acheter uniquement une licence Standard ou Étendue pour la ressource nécessaire. Adobe Stock fournit également une collection gratuite de ressources.
 
