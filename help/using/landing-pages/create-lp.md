@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 95%
+source-wordcount: '1088'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_open-designer.png)
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée dans le cadre du [paramètre prédéfini](../configuration/lp-configuration.md#lp-create-preset) vous avez sélectionné. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ Pour définir les paramètres de la page principale, procédez comme suit.
    >[!NOTE]
    >
    >Vous ne pouvez pas accéder à votre landing page en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt le tester à l’aide de la fonction d’aperçu, comme décrit dans la section [cette section](#test-landing-page).
+
+1. Si vous souhaitez que la landing page pré-charge les données de formulaire déjà disponibles, sélectionnez la **[!UICONTROL Préremplir les champs de formulaire avec les informations de profil]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   Lorsque cette option est activée, si un profil s’est déjà inscrit/désinscrit ou a déjà été ajouté à une liste d’abonnements, ses choix seront pris en compte lors de l’affichage de la landing page.
+
+   Par exemple, si un profil a choisi de recevoir des communications sur des événements futurs, la case à cocher correspondante sera déjà sélectionnée la prochaine fois que la landing page sera affichée sur ce profil.
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. Vous pouvez définir une date d’expiration pour votre page. Dans ce cas, vous devez sélectionner une action à déclencher lors de l’expiration de la page :
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 86%
+source-wordcount: '165'
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,3 @@ Pour créer une balise, procédez comme suit :
 ## Vidéo pratique {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
-
->[!NOTE]
->
->Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.

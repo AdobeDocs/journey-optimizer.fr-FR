@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 88%
+source-wordcount: '645'
+ht-degree: 87%
 
 ---
 
@@ -134,9 +134,5 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 ![](../assets/offer_information.png)
 
 ## Tutoriel vidéo {#video}
-
->[!NOTE]
->
->Cette vidéo s’applique au service applicatif Offer Decisioning intégré à Adobe Experience Platform. Toutefois, elle fournit des orientations générales pour l&#39;utilisation de l&#39;Offre dans le contexte de Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

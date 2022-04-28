@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81718cdba5c8537179d37e82c3d6ed897ebbd7ff
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 98%
 
 ---
 
 # Exemples de requêtes{#query-examples}
 
 Cette section répertorie plusieurs exemples couramment utilisés pour interroger les événements d’étape du parcours dans le lac de données.
+
+Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
 ## Erreurs de message/d’action {#message-action-errors}
 

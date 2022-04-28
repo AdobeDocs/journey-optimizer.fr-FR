@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 98%
+source-wordcount: '993'
+ht-degree: 97%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 98%
       + [Ajouter un pré-en-tête](using/design/preheader.md)
    + Ajout et gestion des ressources {#manage-asset}
       + [Utilisation d’Assets Essentials](using/design/assets-essentials.md)
+      + [Utilisation d’Adobe Stock](using/design/stock.md)
    + [Ajout d’offres personnalisées](using/design/deliver-personalized-offers.md)
    + [Ajout de liens et suivi des messages](using/design/message-tracking.md)
    + [Prévisualisation et BAT](using/design/preview.md)
@@ -117,6 +118,7 @@ ht-degree: 98%
       + [Lecture de segment](using/building-journeys/read-segment.md)
       + [Message](using/building-journeys/journeys-message.md)
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
+      + [Actions Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Saut](using/building-journeys/jump.md)
       + [Mise à jour du profil](using/building-journeys/update-profiles.md)
@@ -324,7 +326,7 @@ ht-degree: 98%
          + [Création d’une décision](using/offers/api-reference/activities-api/activities/create.md)
          + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
          + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
-      + Diffusion d’offres à l’aide d’API {#offer-delivery}
+      + Diffusion d’offres à l’aide d’API {#offer-delivery-api}
          + [À propos des API de prise de décision et Edge Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
          + [API de prise de décision](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API de prise de décision Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -374,7 +376,9 @@ ht-degree: 98%
       + Configuration des actions {#action-journeys}
          + [À propos des actions](using/action/action.md)
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
-         + [Intégration avec Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
+         + [Intégration avec Adobe Campaign v7/v8
+](using/action/acc-action.md)
          + [Consentement](using/action/consent.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}

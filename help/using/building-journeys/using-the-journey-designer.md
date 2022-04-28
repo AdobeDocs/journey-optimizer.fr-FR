@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: '1487'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +88,7 @@ Vous trouverez également les actions personnalisées que vous avez configurées
 
 ## Utilisation des chemins dans la zone de travail {#paths}
 
-Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d&#39;erreur ou de temporisation. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Un autre chemin est alors ajouté après l&#39;activité. La temporisation est définie dans les propriétés du parcours (voir [cette page](../building-journeys/journey-gs.md#change-properties) par un utilisateur administrateur. Par exemple, si l&#39;envoi d&#39;un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d&#39;envoyer un SMS.
+Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d&#39;erreur ou de temporisation. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Un autre chemin est alors ajouté après l&#39;activité. La temporisation est définie dans les propriétés du parcours (voir [cette page](../building-journeys/journey-gs.md#change-properties) par un utilisateur administrateur. Par exemple, si l&#39;envoi d&#39;un email prend trop de temps ou est en erreur, vous pouvez décider d&#39;envoyer une notification push.
 
 ![](assets/journey42.png)
 

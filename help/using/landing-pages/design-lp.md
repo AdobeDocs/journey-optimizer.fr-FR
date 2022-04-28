@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '840'
+ht-degree: 91%
 
 ---
 
@@ -56,6 +56,12 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 1. Définissez si cette case à cocher permet d’inscrire ou de désinscrire les utilisateurs : acceptent-ils de recevoir des communications ou demandent-ils à ne plus être contactés ?
 
    ![](assets/lp_designer-form-update.png)
+
+   Sélectionnez l’une des trois options suivantes :
+
+   * **[!UICONTROL Inclusion si coché]**: les utilisateurs doivent cocher la case pour accepter (opt-in).
+   * **[!UICONTROL Exclusion si coché]**: les utilisateurs doivent cocher la case pour retirer leur consentement (opt-out).
+   * **[!UICONTROL Inclusion si coché, exclusion si non coché]**: cette option vous permet d’insérer une seule case à cocher pour l’inclusion/exclusion. Les utilisateurs doivent cocher la case pour accepter (opt-in) et la décocher pour supprimer leur consentement (opt-out).
 
 1. Parmi les trois options suivantes, choisissez celles qui seront mises à jour :
 

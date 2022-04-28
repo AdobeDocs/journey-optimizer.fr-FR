@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 86%
+source-wordcount: '1667'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Délégation de sous-domaine"
->abstract="Journey Optimizer vous permet de déléguer vos sous-domaines à l’Adobe. Vous pouvez entièrement déléguer un sous-domaine à l’Adobe ou créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à un Adobe."
+>abstract="Journey Optimizer vous permet de déléguer vos sous-domaines à l’Adobe. Vous pouvez déléguer entièrement un sous-domaine à Adobe, ce qui est la méthode recommandée. Vous pouvez également créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Toutefois, cette approche nécessite que vous conteniez et gériez les enregistrements DNS vous-même."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Méthodes de configuration de sous-domaine"
 
 La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe. En savoir plus sur [délégation de sous-domaine](about-subdomain-delegation.md)

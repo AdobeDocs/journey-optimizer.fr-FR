@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2350'
-ht-degree: 89%
+source-wordcount: '2492'
+ht-degree: 82%
 
 ---
 
@@ -58,6 +58,12 @@ Pour créer un préréglage de message, procédez comme suit :
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa configuration ultérieurement.
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas poursuivre la création de paramètres prédéfinis lorsque le pool IP sélectionné se trouve sous [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Traitement]** (status) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](#subdomains-and-ip-pools)
+   >
+   >Enregistrez le paramètre prédéfini en tant que brouillon et attendez que le pool IP ait la propriété **[!UICONTROL Succès]** pour reprendre la création de paramètres prédéfinis.
 
 1. Une fois le préréglage de message créé, il s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
 
@@ -116,6 +122,10 @@ Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous d
 
 1. Sélectionnez le pool d&#39;adresses IP à associer au préréglage. [En savoir plus](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+Vous ne pouvez pas poursuivre la création de paramètres prédéfinis lorsque le pool IP sélectionné se trouve sous [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Traitement]** (status) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association pool/sous-domaine d’IP sera toujours utilisée. Si c’est le cas, enregistrez le paramètre prédéfini en tant que brouillon, puis réessayez une fois que le pool IP a la valeur **[!UICONTROL Succès]** statut.
+
 >[!NOTE]
 >
 >Pour les environnements hors production, Adobe ne crée pas de sous-domaines de test d’usine et n’accorde pas l’accès à un pool d’adresses IP d’envoi partagé. Vous devez [déléguer vos propres sous-domaines](delegate-subdomain.md) et utiliser les adresses IP du pool affecté à votre organisation.
@@ -155,28 +165,6 @@ Le lien de désabonnement se compose de deux éléments :
 Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### Tracking des URL{#url-tracking}
-
-Pour identifier lʼendroit où une personne a cliqué sur votre lien et la raison de ce clic, vous pouvez ajouter des paramètres UTM pour le tracking des URL dans la section **[!UICONTROL CONFIGURATION DU TRACKING DES URL (Web Analytics)]**.
-
-En fonction des paramètres que vous définissez, un code UTM est appliqué à la fin de l’URL incluse dans le contenu de votre message. Vous pourrez ensuite comparer les résultats dans un outil Web Analytics, tel que Google Analytics.
-
-![](assets/preset-url-tracking.png)
-
-Trois paramètres UTM sont disponibles par défaut. Vous pouvez ajouter jusqu’à 10 paramètres de tracking. Pour ajouter un paramètre UTM, sélectionnez le bouton **[!UICONTROL Ajouter un nouveau paramètre UTM]**.
-
-Pour configurer un paramètre UTM, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** ou choisir parmi une liste de valeurs prédéfinies en accédant aux objets suivants :
-
-* Attributs de parcours : Identifiant de la source, Nom de la source, Identifiant de la version de la source
-* Attributs de message : Identifiant de lʼaction, Nom de l’action
-* Attributs d’Offer Decisioning : Identifiant de l’offre, Nom de l’offre
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Ne sélectionnez pas de dossier : assurez-vous d’accéder au dossier nécessaire et de sélectionner un attribut de profil à utiliser comme valeur UTM.
 
 ### Paramètres d’en-tête{#email-header}
 
@@ -223,6 +211,35 @@ Vous devez saisir une valeur entière (en heures ou minutes) dans la plage suiva
 * Pour les deux types d’e-mail, la période de reprise maximale est de 84 heures (soit 5 040 minutes).
 
 En savoir plus sur les reprises dans [cette section](retries.md).
+
+### Tracking des URL{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="Paramètres UTM"
+>abstract="Utilisez cette section pour ajouter automatiquement des paramètres de tracking aux URL de campagne présentes dans le contenu de l&#39;email."
+
+Pour identifier où et pourquoi une personne a cliqué sur votre lien, vous pouvez éventuellement ajouter des paramètres UTM pour le suivi des URL dans la variable  **[!UICONTROL Paramètres de suivi d’URL]** .
+
+En fonction des paramètres que vous définissez, un code UTM est appliqué à la fin de l’URL incluse dans le contenu de votre message. Vous pourrez ensuite comparer les résultats dans un outil Web Analytics, tel que Google Analytics.
+
+![](assets/preset-url-tracking.png)
+
+Trois paramètres UTM sont disponibles par défaut. Vous pouvez ajouter jusqu’à 10 paramètres de tracking. Pour ajouter un paramètre UTM, sélectionnez la variable **[!UICONTROL Ajouter un nouveau paramètre]** bouton .
+
+Pour configurer un paramètre UTM, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** ou choisir parmi une liste de valeurs prédéfinies en accédant aux objets suivants :
+
+* Attributs de parcours : **ID source**, **Nom de la source**, **Identifiant de version source**
+* Attributs de message : **Action id**, **Nom de l’action**
+* Attributs d’Offer decisioning : **Identifiant de l’offre**, **Nom de l’offre**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>Ne sélectionnez pas de dossier : assurez-vous d’accéder au dossier nécessaire et de sélectionner un attribut de profil à utiliser comme valeur UTM.
+
+Vous pouvez combiner des valeurs de saisie de texte et la sélection de valeurs prédéfinies. Chaque **[!UICONTROL Valeur]** peut contenir jusqu’à 255 caractères au total.
 
 ## Configurer les paramètres des notifications push {#configure-push-settings}
 

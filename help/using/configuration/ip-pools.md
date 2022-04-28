@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 92%
+source-wordcount: '543'
+ht-degree: 83%
 
 ---
 
@@ -50,7 +50,7 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher le préréglage de message associé. Pour plus d&#39;informations sur l&#39;association d&#39;un préréglage de message à un pool d&#39;adresses IP, consultez [cette section](message-presets.md).
+Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher le préréglage de message associé. Pour plus d&#39;informations sur l&#39;association d&#39;un paramètre prédéfini de message à un pool d&#39;adresses IP, reportez-vous à la section [cette section](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ La mise à jour est effective immédiatement ou de manière asynchrone, selon qu
 
 * Si le pool d’adresses IP n’est **pas** sélectionné dans un préréglage de message, la mise à jour est instantanée (statut **[!UICONTROL Succès]**).
 * Si le pool d’adresses IP **est** sélectionné dans un préréglage de messages, la mise à jour peut prendre jusqu’à 7 à 10 jours ouvrables (statut **[!UICONTROL En cours de traitement]**).
+
+>[!NOTE]
+>
+>When [création d’un paramètre prédéfini de message](message-presets.md#create-message-preset), si vous sélectionnez un pool d’adresses IP en cours d’édition (**[!UICONTROL Traitement]** (état) et n’a jamais été associé au sous-domaine sélectionné pour ce paramètre prédéfini, vous ne pouvez pas poursuivre la création du paramètre prédéfini. [En savoir plus](message-presets.md#subdomains-and-ip-pools)
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 

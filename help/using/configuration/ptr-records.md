@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 89%
+source-wordcount: '715'
+ht-degree: 80%
 
 ---
 
@@ -93,11 +93,15 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
 
 ## Vérification des détails de la mise à jour de l’enregistrement PTR {#check-ptr-record-update}
 
-Une icône de **[!UICONTROL Traitement]** s’affiche en regard du nom de l’enregistrement PTR dans la liste.
+Une fois que vous avez confirmé la modification de l’enregistrement PTR, la variable **[!UICONTROL Traitement]** s’affiche en regard du nom de l’enregistrement PTR dans la liste.
 
 ![](assets/ptr-record-updating.png)
 
-Pour vérifier les détails de la mise à jour de l’enregistrement PTR, cliquez sur l’icône **[!UICONTROL Mise à jour]** ou **[!UICONTROL Mises à jour récentes]**. 
+>[!NOTE]
+>
+>Le [traitement des mises à jour](#processing) peut prendre jusqu’à quelques heures.
+
+Pour vérifier les détails de la mise à jour de l’enregistrement PTR, cliquez sur l’icône en regard de celui-ci. En savoir plus sur les statuts associés aux différentes icônes dans [cette section](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -115,7 +119,7 @@ Une mise à jour d’enregistrement PTR peut afficher les états suivants :
 
 ### En cours de traitement {#processing}
 
-Plusieurs contrôles de délivrabilité seront effectués pour vérifier la validité du nouveau sous-domaine à associer à l’adresse IP. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+Plusieurs contrôles de délivrabilité seront effectués pour vérifier la validité du nouveau sous-domaine à associer à l’adresse IP. Cela peut prendre jusqu’à quelques heures.
 
 >[!NOTE]
 >
