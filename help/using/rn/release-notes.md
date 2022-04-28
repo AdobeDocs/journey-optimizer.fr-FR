@@ -2,9 +2,9 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
 workflow-type: tm+mt
-source-wordcount: '3203'
+source-wordcount: '3195'
 ht-degree: 93%
 
 ---
@@ -19,25 +19,6 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 
 ## Version d&#39;avril 2022 {#april-2022-release}
-
-### Nouvelles fonctionnalités
-
-<table>
-<thead>
-<tr>
-<th><strong>Intégration à Adobe Campaign Standard</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>En tant que client Adobe Campaign Standard, vous pouvez désormais envoyer des emails, des notifications push et des SMS à l’aide de Journey Optimizer. Utilisez les nouvelles actions intégrées pour tirer parti des fonctionnalités de messagerie transactionnelle de Campaign Standard dans Journey Optimizer.</p>
-<p>Pour plus d'informations, consultez la <a href="../action/acs-action.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### Améliorations
 
@@ -62,6 +43,11 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 **Interface utilisateur**
 
 * **Aide contextuelle dans l’interface utilisateur de Journey Optimizer** - Des liens d’aide contextuelle ont été ajoutés à plusieurs pages dans Journey Optimizer. Lorsque cette option est disponible, cliquez sur l’icône &quot;i&quot; pour afficher une description rapide de la fonctionnalité actuelle et accéder aux articles connexes.
+
+**Intégration à Adobe Campaign Standard**
+
+En tant que client Adobe Campaign Standard, vous pouvez désormais envoyer des emails, des notifications push et des SMS à l’aide de Journey Optimizer. Utilisez les nouvelles actions intégrées pour tirer parti des fonctionnalités de messagerie transactionnelle de Campaign Standard dans Journey Optimizer.
+[En savoir plus](../action/acs-action.md)
 
 <!--
 ### Fixes
