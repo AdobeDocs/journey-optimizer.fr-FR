@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: c5ddc1a5a3dc133819ba2f887dae73fc48690fe9
+source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
 workflow-type: tm+mt
 source-wordcount: '1885'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
 # Prise en main des parcours{#jo-quick-start}
 
-## Prérequis{#start-prerequisites}
+## Conditions préalables{#start-prerequisites}
 
 Pour envoyer des messages avec des parcours, les paramétrages suivants sont requis :
 
@@ -119,7 +119,7 @@ Compte tenu de la temporisation de 30 jours, lorsque la rentrée n&#39;est pas 
 
 ### Fuseau horaire et fuseau horaire du profil {#timezone}
 
-Les fuseaux horaires sont définis au niveau du parcours.
+Le fuseau horaire est défini au niveau du parcours.
 
 Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours.
 

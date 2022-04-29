@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 98%
+source-wordcount: '1488'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu&#39;une activité est terminée, le flux se poursuit et traite l&#39;activité suivante, et ainsi de suite.
 
-## Prise en main de la conception de parcours
+## Prise en main de la conception de parcours {#gs-journey-design}
 
 La **palette** se situe sur la partie gauche de l&#39;écran. Toutes les activités disponibles sont classées dans plusieurs catégories : **[!UICONTROL Événements]**, **[!UICONTROL Orchestration]** et **[!UICONTROL Actions]**. Vous pouvez développer/réduire les différentes catégories en cliquant sur leur nom. Pour utiliser une activité dans votre parcours, faites-la glisser de la palette vers la zone de travail.
 
@@ -52,7 +52,7 @@ Selon le statut du parcours, vous pouvez effectuer différentes actions à l&#39
 
 ![](assets/journey41.png)
 
-## Démarrage de votre parcours
+## Démarrage de votre parcours {#start-your-journey}
 
 Lorsque vous concevez votre parcours, la première question que vous devez vous poser est la suivante : comment les profils vont-ils rejoindre le parcours ? Il existe deux possibilités :
 
@@ -60,7 +60,7 @@ Lorsque vous concevez votre parcours, la première question que vous devez vous 
 
 **Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, tous les individus appartenant au segment spécifié rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
 
-## Définir les étapes suivantes
+## Définir les étapes suivantes{#define-next-steps}
 
 Après votre premier événement ou votre première lecture de segment, vous pouvez combiner les différentes activités afin de créer vos scénarios cross-canal en plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
 
@@ -86,9 +86,11 @@ Vous trouverez ici l&#39;activité **Message** qui vous permet d&#39;inclure un 
 
 Vous trouverez également les actions personnalisées que vous avez configurées pour envoyer des messages avec des systèmes tiers. En savoir plus dans cette [section](about-journey-activities.md#action-activities).
 
-## Utilisation des chemins dans la zone de travail {#paths}
+## Ajouter des chemins alternatifs{#paths}
 
-Plusieurs activités (**[!UICONTROL Condition]**, **[!UICONTROL Action]**, etc.) vous permettent de définir une action de remplacement en cas d&#39;erreur ou de temporisation. Dans le volet de configuration des activités, cochez la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Un autre chemin est alors ajouté après l&#39;activité. La temporisation est définie dans les propriétés du parcours (voir [cette page](../building-journeys/journey-gs.md#change-properties) par un utilisateur administrateur. Par exemple, si l&#39;envoi d&#39;un email prend trop de temps ou est en erreur, vous pouvez décider d&#39;envoyer une notification push.
+Vous pouvez définir une action de secours en cas d’erreur ou de dépassement de délai pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
+
+Pour ajouter une action de secours pour une activité, sélectionnez l’option **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d’erreur]** dans les propriétés de l’activité : un autre chemin est ajouté après l’activité. Le délai d’expiration est défini par les utilisateurs administrateurs dans la variable [Propriétés du parcours](../building-journeys/journey-gs.md#change-properties). Par exemple, si l&#39;envoi d&#39;un email prend trop de temps ou est en erreur, vous pouvez décider d&#39;envoyer une notification push.
 
 ![](assets/journey42.png)
 
@@ -104,7 +106,7 @@ Dans la zone de travail, un avertissement s&#39;affiche lorsque deux activités 
 
 ![](assets/canvas-disconnected.png)
 
-## Opérations de copier/coller d&#39;activités {#copy-paste}
+## Copier et coller des activités {#copy-paste}
 
 Vous pouvez copier une ou plusieurs activités d&#39;un parcours et les coller soit dans le même parcours, soit dans un autre. C&#39;est un gain de temps si vous souhaitez réutiliser de nombreuses activités déjà configurées lors d&#39;un parcours précédent.
 
