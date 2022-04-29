@@ -377,8 +377,7 @@ ht-degree: 97%
          + [À propos des actions](using/action/action.md)
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
          + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
-         + [Intégration avec Adobe Campaign v7/v8
-](using/action/acc-action.md)
+         + [Intégration avec Adobe Campaign v7/v8](using/action/acc-action.md)
          + [Consentement](using/action/consent.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
