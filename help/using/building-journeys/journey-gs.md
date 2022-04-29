@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a68cfae875b18266417e115d17c73cda7061475d
+source-git-commit: c5ddc1a5a3dc133819ba2f887dae73fc48690fe9
 workflow-type: tm+mt
-source-wordcount: '1837'
-ht-degree: 97%
+source-wordcount: '1885'
+ht-degree: 78%
 
 ---
 
 # Prise en main des parcours{#jo-quick-start}
 
-## Prérequis
+## Prérequis{#start-prerequisites}
 
-Pour envoyer des messages avec des parcours, la configuration suivante est requise :
+Pour envoyer des messages avec des parcours, les paramétrages suivants sont requis :
 
 1. **Configurer un événement** : si vous souhaitez déclencher vos parcours une fois qu&#39;un événement est reçu, vous devez configurer un événement. Vous devez définir les informations attendues et comment les traiter. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../event/about-events.md).
 
@@ -40,7 +40,7 @@ Pour envoyer des messages avec des parcours, la configuration suivante est requi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Création de votre parcours"
->abstract="Cet écran affiche la liste des parcours précédemment créés. Ouvrez un parcours ou cliquez sur &quot;Créer un parcours&quot;, puis combinez les différentes activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes."
+>abstract="Cet écran affiche la liste des parcours existants. Ouvrez un parcours ou cliquez sur &quot;Créer un parcours&quot;, puis combinez les différentes activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes."
 
 Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de parcours**. C&#39;est là que vous créez vos parcours. Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 
@@ -72,16 +72,16 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
-## Modification des propriétés {#change-properties}
+## Définition des propriétés de parcours {#change-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriétés du parcours"
->abstract="Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et définir une durée Temporisation et erreur si vous êtes administrateur."
+>abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent de l’état du parcours, de vos autorisations et de la configuration de votre produit."
 
 Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
 
-Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et définir une durée **[!UICONTROL Temporisation et erreur]** si vous êtes administrateur.
+Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin et, en tant qu’utilisateur administrateur, définir une **[!UICONTROL Délai d’expiration et erreur]** durée. Si cette option est activée pour votre organisation, vous pouvez également activer [messagerie instantanée](#burst).
 
 Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
 
@@ -123,40 +123,46 @@ Les fuseaux horaires sont définis au niveau du parcours.
 
 Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours.
 
+Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
+
 Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
 
 ### Mode rafale {#burst}
 
-Le mode rafale est un module complémentaire payant qui permet d&#39;envoyer des messages push très rapidement en grandes quantités. Il est utilisé pour les parcours simples qui incluent une lecture de segment et un message push simple. Le mode rafale est utilisé lorsque le retard dans la diffusion des messages est critique pour l&#39;entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux utilisateurs qui ont installé votre application de canal d&#39;actualités.
+Le mode d’envoi rapide est un module complémentaire Journey Optimizer qui permet d’envoyer des messages push très rapidement en grandes quantités. Il est utilisé pour les parcours simples qui incluent une **Lecture de segment** activité et un simple message push. Le mode rafale est utilisé lorsque le retard dans la diffusion des messages est critique pour l&#39;entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux utilisateurs qui ont installé votre application de canal d&#39;actualités.
 
-Limites :
+La messagerie instantanée est fournie avec les exigences suivantes :
 
-* Le parcours doit commencer par une lecture de segment. Les événements ne sont pas autorisés.
-* L&#39;étape suivante doit être un message push. Aucune autre activité ou étape n&#39;est autorisée (à l&#39;exception de l&#39;activité de fin facultative) :
-   * Canal push uniquement
-   * Aucune personnalisation n&#39;est autorisée dans le message
-   * Le message doit être de petite taille (&lt;2 Ko).
+* Le parcours doit commencer par un **Lecture de segment** activité. Les événements ne sont pas autorisés.
+* L&#39;étape suivante doit être un message push. Aucun autre canal, activité ou étape n’est autorisé (à l’exception des options facultatives **Fin** activité).
+* Aucune personnalisation n’est autorisée dans le message push.
+* Le message doit être petit (&lt;2 Ko).
 
-Remarque importante :
+>[!CAUTION]
+>
+>Si l&#39;une des exigences n&#39;est pas remplie, le mode rafale ne sera pas disponible dans le parcours.
 
-Si l&#39;une des exigences n&#39;est pas remplie, le mode rafale ne sera pas disponible dans le parcours.
-
-Pour activer le mode rafale, ouvrez votre parcours et cliquez sur l&#39;icône en forme de crayon, en haut à droite, pour accéder aux propriétés du parcours. Activez ensuite le bouton d&#39;activation/de désactivation **Activer le mode rafale**.
+Pour activer **Mode de rafale**, ouvrez votre parcours et cliquez sur l’icône en forme de crayon, en haut à droite pour accéder aux propriétés du parcours. Activez ensuite le bouton d&#39;activation/de désactivation **Activer le mode rafale**.
 
 ![](assets/burst.png)
 
-Le mode rafale sera désactivé si vous modifiez un parcours rafale et ajoutez une activité non conforme au mode rafale (message, toute autre action, un événement, etc.). Un message s&#39;affiche.
+Le mode d’éclatement est automatiquement désactivé si vous modifiez un parcours d’éclatement et ajoutez une activité qui n’est pas conforme à la messagerie instantanée, telle qu’un email, toute autre action, un événement, etc.
 
 ![](assets/burst2.png)
 
-Ensuite, testez et publiez votre parcours normalement. Les messages du mode test ne sont pas envoyés via le mode rafale.
+Testez puis publiez votre parcours comme vous le faites habituellement. Notez que, en mode test, les messages ne sont pas envoyés via le mode d’éclatement.
 
-## Terminaison d&#39;un parcours
+Découvrez les cas d’utilisation applicables pour la messagerie instantanée et comment configurer un parcours pour les messages instantanés dans cette vidéo :
 
-Deux raisons peuvent entraîner la terminaison d&#39;un parcours pour un individu :
+>[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
 
-* Le client arrive à la dernière activité d&#39;un chemin. Il ne doit pas nécessairement s&#39;agir d&#39;une activité de fin. De plus, le chemin ne doit pas obligatoirement se terminer par une activité de fin. Voir [cette page](../building-journeys/end-activity.md).
-* Le client arrive à une activité de condition (ou à une activité d&#39;attente avec une condition) et ne répond à aucune des conditions.
+
+## Fin, arrêt ou fermeture d’un parcours{#end-journey}
+
+Un parcours peut se terminer pour un individu dans deux contextes spécifiques :
+
+* Le client arrive à la dernière activité d&#39;un chemin. La dernière activité peut être une **Fin** ou une autre activité. Utilisation d’une **Fin** l’activité n’est pas obligatoire. Consultez [cette page](../building-journeys/end-activity.md).
+* La personne arrive à un **Condition** (ou une **Attente** activité avec une condition) et ne correspond à aucune des conditions.
 
 Il peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-gs.md#change-properties)
 
@@ -166,7 +172,7 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 * Un parcours basé sur un segment « unique » qui a terminé son exécution.
 * Après la dernière occurrence d&#39;un parcours récurrent basé sur un segment.
 
-Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Le parcours cesse de laisser de nouveaux individus entrer dans le parcours. Les personnes déjà dans le parcours peuvent terminer le parcours normalement. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
 Si nécessaire, il est possible d&#39;arrêter la progression de tous les individus dans le parcours. L&#39;arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
 
@@ -178,7 +184,7 @@ Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entr
 >
 >Notez que vous ne pouvez pas reprendre un parcours fermé ou arrêté.
 
-### Fermeture d&#39;un parcours
+### Fermer un parcours
 
 Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qui l&#39;ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre.
 
@@ -197,16 +203,15 @@ Vous pouvez également réaliser les opérations suivantes :
 
    ![](assets/finish_drop_down_list.png)
 
-1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]**. Une boîte de dialogue s&#39;affiche.
-1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** pour confirmer.
+1. Cliquez sur **[!UICONTROL Près des nouvelles entrées]** et confirmez dans la boîte de dialogue.
 
-### Arrêt d&#39;un parcours
+### Arrêter un parcours
 
 Vous pouvez arrêter un parcours lorsqu&#39;une urgence s&#39;est produite et qu&#39;il doit être mis fin immédiatement à tout processus.
 
 La version d&#39;un parcours arrêté ne peut pas être redémarrée.
 
-Lorsqu&#39;un parcours est arrêté, le statut **[!UICONTROL Arrêté]** lui est attribué.
+Lorsqu’il est arrêté, l’état du parcours est défini sur **[!UICONTROL Stoppé]**.
 
 Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
 
@@ -219,5 +224,4 @@ Vous pouvez également réaliser les opérations suivantes :
 
 ![](assets/finish_drop_down_list.png)
 
-1. Cliquez sur **[!UICONTROL Arrêter]**. Une boîte de dialogue s&#39;affiche.
-1. Cliquez sur **[!UICONTROL Arrêter]** pour confirmer.
+1. Cliquez sur **[!UICONTROL Arrêter]** et confirmez dans la boîte de dialogue.
