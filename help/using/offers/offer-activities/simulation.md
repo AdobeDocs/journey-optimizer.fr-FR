@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL S
 
 >[!NOTE]
 >
->Comme la simulation ne génère aucun événement de décision, la variable [capping](../offer-library/creating-personalized-offers.md#capping) n’est pas affecté.
+>Comme la simulation ne génère aucun événement de décision, le comptage [limitation](../offer-library/creating-personalized-offers.md#capping) n’est pas affecté.
 
 <!--
 ➡️ [Discover this feature in video](#video)

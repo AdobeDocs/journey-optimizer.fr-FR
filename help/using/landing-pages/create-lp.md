@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -91,7 +91,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas accéder à votre landing page en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt le tester à l’aide de la fonction d’aperçu, comme décrit dans la section [cette section](#test-landing-page).
+   >Vous ne pouvez pas accéder à votre page de destination en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
 
 1. Si vous souhaitez que la landing page pré-charge les données de formulaire déjà disponibles, sélectionnez la **[!UICONTROL Préremplir les champs de formulaire avec les informations de profil]**.
 
@@ -189,7 +189,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. <!--For example, a message will display if -->
 
-* **Erreurs** vous empêche de publier la landing page tant qu&#39;elle n&#39;est pas résolue. Par exemple, un avertissement s’affiche si l’URL de la page principale est manquante.
+* Les **erreurs** vous empêchent de publier la page de destination tant qu’elles ne sont pas corrigées. Par exemple, un avertissement s’affiche si l’URL de la page principale est manquante.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

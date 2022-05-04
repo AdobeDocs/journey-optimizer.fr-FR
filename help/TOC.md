@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,21 +36,21 @@ ht-degree: 97%
    + Validation et publication {#validate}
       + [Vérification des alertes](using/messages/alerts.md)
       + [Publication de messages](using/messages/publish-manage-message.md)
-   + [Gérer le consentement](using/messages/consent.md)
+   + [Gestion du consentement](using/messages/consent.md)
 + Conception du contenu {#design}
    + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
    + [Commencer à partir de zéro ](using/design/create-email-content.md)
    + [Importation du contenu de vos e-mails](using/design/existing-content.md)
    + [Codage de votre propre contenu](using/design/code-content.md)
-   + Concevoir du contenu {#design-content}
+   + Conception de contenu {#design-content}
       + [Utilisation de composants de contenu](using/design/content-components.md)
       + [Paramètres d&#39;arrière-plan](using/design/backgrounds.md)
       + [Ajustement de l&#39;alignement vertical et la marge intérieure](using/design/adjusting-vertical-alignment-and-padding.md)
       + [Définition d’un style pour les liens](using/design/styling-links.md)
-      + [Ajout des attributs de style intégrés](using/design/adding-inline-styling-attributes.md)
+      + [Ajout d’attributs de style intégrés](using/design/adding-inline-styling-attributes.md)
    + Paramètres d&#39;e-mail {#design-email}
       + [Génération de la version texte](using/design/text-version-email.md)
-      + [Ajouter un pré-en-tête](using/design/preheader.md)
+      + [Ajout d’un pré-titre](using/design/preheader.md)
    + Ajout et gestion des ressources {#manage-asset}
       + [Utilisation d’Assets Essentials](using/design/assets-essentials.md)
       + [Utilisation d’Adobe Stock](using/design/stock.md)
@@ -71,7 +71,7 @@ ht-degree: 97%
       + Utilisation de l’éditeur d’expression {#expression-editor}
          + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
          + [Ajout d’attributs aux favoris](using/personalization/personalization-favorites.md)
-         + [Utiliser des expressions enregistrées](using/personalization/personalization-library.md)
+         + [Utilisation d’expressions enregistrées](using/personalization/personalization-library.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + Fonctions helper{#functions}
          + [Prise en main des fonctions helper](using/personalization/functions/functions.md)
@@ -118,7 +118,7 @@ ht-degree: 97%
       + [Lecture de segment](using/building-journeys/read-segment.md)
       + [Message](using/building-journeys/journeys-message.md)
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
-      + [Actions Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
+      + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Saut](using/building-journeys/jump.md)
       + [Mise à jour du profil](using/building-journeys/update-profiles.md)
@@ -327,9 +327,9 @@ ht-degree: 97%
          + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
          + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
       + Diffusion d’offres à l’aide d’API {#offer-delivery-api}
-         + [À propos des API de prise de décision et Edge Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
-         + [API de prise de décision](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [API de prise de décision Edge](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [À propos des API Decisioning et Edge Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gestion des données {#data-management}
    + [Schémas](using/start/get-started-schemas.md)
@@ -356,7 +356,7 @@ ht-degree: 97%
       + [Configuration du canal SMS](using/configuration/sms-configuration.md)
       + [Créer des préréglages de message](using/configuration/message-presets.md)
       + [Configuration des règles de fréquence](using/configuration/frequency-rules.md)
-   + [Configurer des pages de destination](using/configuration/lp-configuration.md)
+   + [Configuration des pages de destination](using/configuration/lp-configuration.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + [Intégration aux systèmes externes](using/configuration/external-systems.md)
@@ -377,7 +377,7 @@ ht-degree: 97%
          + [À propos des actions](using/action/action.md)
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
          + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
-         + [Intégration avec Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
          + [Consentement](using/action/consent.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}

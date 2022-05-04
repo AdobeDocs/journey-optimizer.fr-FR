@@ -1,18 +1,19 @@
 ---
-title: Actions Adobe Campaign Standard
+title: Actions d'Adobe Campaign Standard
 description: En savoir plus sur les actions Adobe Campaign Standard
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
-# Actions Adobe Campaign Standard {#using_campaign_action}
+# Actions d&#39;Adobe Campaign Standard {#using_campaign_action}
 
 Si vous disposez d’Adobe Campaign Standard, les activités d’action intégrées suivantes sont disponibles : **[!UICONTROL Email]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**.
 

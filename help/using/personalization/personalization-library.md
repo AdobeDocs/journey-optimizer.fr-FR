@@ -1,5 +1,5 @@
 ---
-title: Utiliser des expressions enregistrées
+title: Utilisation d’expressions enregistrées
 description: Découvrez comment utiliser des expressions enregistrées depuis la bibliothèque  [!DNL Journey Optimizer] .
 feature: Personalization
 topic: Personalization
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Utiliser des expressions enregistrées {#expression-library}
+# Utilisation d’expressions enregistrées {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"

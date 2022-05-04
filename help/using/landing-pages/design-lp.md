@@ -9,7 +9,7 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -61,7 +61,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    * **[!UICONTROL Inclusion si coché]**: les utilisateurs doivent cocher la case pour accepter (opt-in).
    * **[!UICONTROL Exclusion si coché]**: les utilisateurs doivent cocher la case pour retirer leur consentement (opt-out).
-   * **[!UICONTROL Inclusion si coché, exclusion si non coché]**: cette option vous permet d’insérer une seule case à cocher pour l’inclusion/exclusion. Les utilisateurs doivent cocher la case pour accepter (opt-in) et la décocher pour supprimer leur consentement (opt-out).
+   * **[!UICONTROL Inclusion si coché, exclusion si non coché]**: cette option vous permet d’insérer une seule case à cocher pour l’inclusion/exclusion. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out).
 
 1. Parmi les trois options suivantes, choisissez celles qui seront mises à jour :
 

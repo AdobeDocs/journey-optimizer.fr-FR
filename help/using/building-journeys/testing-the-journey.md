@@ -9,7 +9,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 83%
 
 Utilisez des profils de test pour tester votre parcours avant de le publier. Ce mode permet d’exécuter un test de votre parcours et d’identifier les problèmes à l’aide de profils de test.
 
-Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez créer de nouveaux profils de test ou transformer des profils existants en profils de test. En savoir plus sur les profils de test dans [cette section](../segment/creating-test-profiles.md).
+Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez créer des profils de test ou transformer des profils existants en profils de test. En savoir plus sur les profils de test dans [cette section](../segment/creating-test-profiles.md).
 
 >[!NOTE]
 >
->Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment vérifier les erreurs avant de les tester dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+>Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment rechercher des erreurs avant d’effectuer des tests dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 
 Pour utiliser le mode test, procédez comme suit :
 
-1. Pour activer le mode test, activez la fonction **[!UICONTROL Test]** bascule, situé dans le coin supérieur droit.
+1. Pour activer le mode test, activez le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
 
    ![](assets/journeytest1.png)
 
-1. Si le parcours comporte au moins un **Attente** , définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
+1. Si le parcours comporte au moins une activité **Attente**, définissez la variable **[!UICONTROL Temps d’attente]** pour définir la durée en mode test de chaque activité d’attente et de chaque expiration d’événement. La durée par défaut est de 10 secondes pour les attentes et les temporisations d’événement. Vous obtiendrez ainsi rapidement les résultats du test.
 
    ![](assets/journeytest_wait.png)
 
@@ -43,7 +43,7 @@ Pour utiliser le mode test, procédez comme suit :
    >
    >Lorsqu’un événement de réaction est utilisé dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
 
-1. Utilisez la variable **[!UICONTROL Déclenchement d’un événement]** pour configurer et envoyer des événements au parcours.
+1. Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 
    ![](assets/journeyuctest1.png)
 
@@ -67,7 +67,7 @@ Pour utiliser le mode test, procédez comme suit :
 * Vous pouvez activer/désactiver le mode test autant de fois que nécessaire.
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 * Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
-* Pour optimiser les performances et éviter l’utilisation obsolète des ressources, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine passeront en mode **Version préliminaire** statut.
+* Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut **Brouillon**.
 
 ## Déclencher vos événements {#firing_events}
 
@@ -76,7 +76,7 @@ Pour utiliser le mode test, procédez comme suit :
 >title="Configuration du mode test"
 >abstract="Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l&#39;exécution de l&#39;envoi de l’événement."
 
-Utilisez la variable **[!UICONTROL Déclenchement d’un événement]** pour configurer un événement qui fera entrer une personne dans le parcours.
+Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer un événement qui fera qu’un individu rejoint le parcours.
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ Lors du déclenchement d’un événement, l’écran de **configuration de l’
 
 ## Mode test pour événements métier {#test-business}
 
-Lors de l’utilisation d’un [événement commercial](../event/about-events.md), utilisez le mode test pour déclencher une entrée de profil de test unique dans le parcours, simuler l’événement et transmettre l’identifiant de profil approprié. Vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. Vous ne pouvez pas utiliser l&#39;option **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** qui existe pour d&#39;autres parcours basés sur les segments. En mode test, aucun mode « Affichage du code » n’est disponible pour les parcours en fonction des événements métier.
+Lors de l’utilisation d’un [événement métier](../event/about-events.md), utilisez le mode test pour déclencher une entrée de profil de test unique dans le parcours, simuler l’événement et transmettre l’identifiant de profil approprié. Vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. Vous ne pouvez pas utiliser l&#39;option **[!UICONTROL Jusqu&#39;à 100 profils à la fois]** qui existe pour d&#39;autres parcours basés sur les segments. En mode test, aucun mode « Affichage du code » n’est disponible pour les parcours en fonction des événements métier.
 
 Notez que lorsque vous déclenchez pour la première fois un événement métier, vous ne pouvez pas modifier la définition de l&#39;événement métier dans la même session de test. Vous pouvez uniquement faire en sorte qu’un même individu ou qu’un autre individu rejoigne le parcours en transmettant le même identifiant ou un autre identifiant. Si vous souhaitez modifier les paramètres de l&#39;événement métier, vous devez arrêter et démarrer à nouveau le mode test.
 

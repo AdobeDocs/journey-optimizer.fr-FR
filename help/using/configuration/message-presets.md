@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '2492'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -19,12 +19,12 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de messa
 
 >[!CAUTION]
 >
-> * Pour créer, modifier et supprimer des paramètres prédéfinis de message, vous devez disposer de la variable [Gestion des paramètres prédéfinis de message](../administration/high-low-permissions.md#manage-message-presets).
+> * Pour créer, modifier et supprimer des préréglages de message, vous devez disposer de l’autorisation [Gestion des préréglages de message](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * Vous devez effectuer les opérations suivantes : [Configuration des emails](#configure-email-settings) et [Configuration push](../configuration/push-configuration.md) étapes avant de créer des paramètres prédéfinis de message.
+> * Vous devez effectuer les étapes de [configuration du canal e-mail](#configure-email-settings) et de [configuration Push](../configuration/push-configuration.md) avant de créer des préréglages de message.
 
 
-Une fois les paramètres prédéfinis de message configurés, vous pourrez les sélectionner lors de la création de messages à partir de la **[!UICONTROL Paramètres prédéfinis]** liste.
+Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages.
 
 ➡️ [Découvrez comment créer et utiliser des préréglages d’e-mail dans cette vidéo](#video-presets)
 
@@ -32,8 +32,8 @@ Une fois les paramètres prédéfinis de message configurés, vous pourrez les s
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Détails et paramètres du paramètre prédéfini de message"
->abstract="En configurant un paramètre prédéfini de message, vous pouvez sélectionner le canal auquel il s’applique et définir tous les paramètres techniques requis pour vos messages, tels que le type d’email, le sous-domaine à utiliser, le nom de l’expéditeur, les applications mobiles, etc."
+>title="Détails et paramètres du préréglage de message"
+>abstract="En configurant un préréglage de message, vous pouvez sélectionner le canal auquel il s’applique et définir tous les paramètres techniques requis pour vos messages, tels que le type d’e-mail, le sous-domaine à utiliser, le nom de l’expéditeur, les applications mobiles, etc."
 
 Pour créer un préréglage de message, procédez comme suit :
 
@@ -99,8 +99,8 @@ Configurez vos paramètres comme décrit ci-après.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Définition de la catégorie d’email"
->abstract="Sélectionnez le type de messages qui sera envoyé lors de l&#39;utilisation de ce paramètre prédéfini : Marketing pour les messages promotionnels, qui nécessitent un consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
+>title="Définition de la catégorie d’e-mail"
+>abstract="Sélectionnez le type de messages qui sera envoyé lors de l&#39;utilisation de ce préréglage : Marketing pour les messages promotionnels, qui nécessitent un consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
 Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce au préréglage : **Marketing** ou **Transactionnel**.
 
@@ -112,7 +112,7 @@ Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer 
 >
 >Les messages **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
-When [créer un message](../messages/get-started-content.md#create-new-message), vous devez choisir un paramètre prédéfini de message valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
+Lors de la [création d’un message](../messages/get-started-content.md#create-new-message), vous devez choisir un préréglage de message valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
 
 ### Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
@@ -128,7 +128,7 @@ Vous ne pouvez pas poursuivre la création de paramètres prédéfinis lorsque l
 
 >[!NOTE]
 >
->Pour les environnements hors production, Adobe ne crée pas de sous-domaines de test d’usine et n’accorde pas l’accès à un pool d’adresses IP d’envoi partagé. Vous devez [déléguer vos propres sous-domaines](delegate-subdomain.md) et utiliser les adresses IP du pool affecté à votre organisation.
+>Pour les environnements hors production, Adobe ne crée pas de sous-domaines de test d’usine et n’accorde pas l’accès à un groupe d’adresses IP d’envoi partagé. Vous devez [déléguer vos propres sous-domaines](delegate-subdomain.md) et utiliser les adresses IP du groupe affecté à votre organisation.
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -195,8 +195,8 @@ Dans la section **[!UICONTROL PARAMÈTRES D&#39;EN-TÊTE]**, saisissez les noms 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Réglage de la période de reprise"
->abstract="Les reprises sont effectuées pendant 3,5 jours (84 heures) lorsqu’un message électronique échoue en raison d’une erreur de soft bounce temporaire. Vous pouvez ajuster cette période de reprise par défaut en fonction de vos besoins."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="A propos des reprises"
+>abstract="Les reprises sont effectuées pendant 3,5 jours (84 heures) lorsqu’un e-mail échoue en raison d’une erreur de soft bounce temporaire. Vous pouvez ajuster cette période de reprise par défaut en fonction de vos besoins."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html?lang=fr" text="À propos des reprises"
 
 Vous pouvez configurer les **Paramètres de reprise de lʼe-mail**.
 

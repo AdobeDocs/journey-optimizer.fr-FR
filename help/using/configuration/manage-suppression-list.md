@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -105,8 +105,8 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="Ajouter des emails/domaines à la liste de suppression"
->abstract="Vous pouvez renseigner manuellement la liste de suppression de Journey Optimizer pour exclure des adresses électroniques et/ou domaines spécifiques de votre envoi."
+>title="Ajouter des e-mails/domaines à la liste de suppression"
+>abstract="Vous pouvez également remplir manuellement la liste de suppression de Journey Optimizer pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi."
 
 Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
 
@@ -123,7 +123,7 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
 >title="Ajouter un élément à la liste de suppression"
->abstract="Vous pouvez remplir la liste de suppression en ajoutant une par une des adresses email et/ou des domaines."
+>abstract="Vous pouvez remplir la liste de suppression en ajoutant une par une des adresses e-mail et/ou des domaines."
 
 1. Sélectionnez l’option **[!UICONTROL Un par un]**.
 
@@ -146,7 +146,7 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
 >title="Chargement d’un fichier CSV pour ajouter des éléments à la liste de suppression"
->abstract="Vous pouvez remplir la liste de suppression en chargeant un fichier CSV contenant les adresses/domaines de courriel à exclure."
+>abstract="Vous pouvez remplir la liste de suppression en chargeant un fichier CSV contenant les adresses e-mail/domaines à exclure."
 
 1. Sélectionnez l’option **[!UICONTROL Télécharger CSV]**.
 

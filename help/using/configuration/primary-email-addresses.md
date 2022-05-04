@@ -9,7 +9,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
->title="Définir l’adresse à utiliser"
->abstract="Vous pouvez choisir l&#39;adresse email à prioriser pour l&#39;envoi lorsque plusieurs adresses sont disponibles dans la base de données (personnelle, professionnelle, etc.)."
+>title="Définition de l’adresse à utiliser"
+>abstract="Vous pouvez choisir l’adresse e-mail à prioriser pour l’envoi lorsque plusieurs adresses sont disponibles dans la base de données (personnelle, professionnelle, etc.)."
 
 Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail personnelle, professionnelle, etc.).
 

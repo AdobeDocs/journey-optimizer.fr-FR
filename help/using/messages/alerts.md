@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -45,13 +45,13 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 **Avertissements** :
 
-* **[!UICONTROL Le lien d’exclusion n’est pas présent dans le corps de l’email]**: il est recommandé d’ajouter un lien de désinscription dans votre corps d’email. Découvrez comment configurer ce lien dans [cette section](consent.md#opt-out-management).
+* **[!UICONTROL Le lien d’exclusion ne figure pas dans le corps de l’e-mail]** : il est recommandé d’ajouter un lien d’exclusion dans le corps de votre email. Découvrez comment configurer ce lien dans [cette section](consent.md#opt-out-management).
 
    >[!NOTE]
    >
    >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au [niveau du préréglage de message](../configuration/message-presets.md#email-type) et lors de la [création du message](get-started-content.md#create-new-message).
 
-* **[!UICONTROL La version texte du HTML est vide]**: n&#39;oubliez pas de définir une version texte du corps de votre email, car elle sera utilisée lorsque le contenu du HTML ne peut pas être affiché. Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
+* **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
 
 * **[!UICONTROL Lien vide figurant dans le corps de l’email]** : vérifiez que tous les liens de votre email sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](../design/create-email-content.md).
 
@@ -59,13 +59,13 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 **Erreurs** :
 
-* **[!UICONTROL L’objet est manquant.]**: l’objet de l’email est obligatoire. Découvrez comment définir et personnaliser ce champ dans [cette section](create-email.md).
+* **[!UICONTROL L’objet est manquant.]** : l’objet de l’e-mail est obligatoire. Découvrez comment définir et personnaliser ce champ dans [cette section](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL La version push du message est vide.]**: cette erreur s&#39;affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
+* **[!UICONTROL La version push du message est vide]** : cette erreur s’affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
 
-* **[!UICONTROL La version email du message est vide.]**: cette erreur s&#39;affiche lorsque le contenu de l&#39;email n&#39;a pas été configuré. Découvrez comment concevoir le contenu des emails dans [cette section](../design/design-emails.md).
+* **[!UICONTROL La version e-mail du message est vide.]** : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré. Découvrez comment concevoir le contenu des emails dans [cette section](../design/design-emails.md).
 
 * **[!UICONTROL Préréglage absent]** : vous ne pouvez pas publier votre message si le préréglage que vous avez sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre préréglage dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur le branding, consultez [cette section](../configuration/about-subdomain-delegation.md).
 

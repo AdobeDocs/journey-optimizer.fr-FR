@@ -9,7 +9,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1375'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
 
 1. Créez des **règles de décision**.
 
-   Les règles de décision offrent la meilleure offre à un profil dans Adobe Experience Platform.
+   Les règles de décision offrent la meilleure offre à un profil dans Adobe Experience Platform.
 
    Configurez deux règles simples en utilisant l&#39;attribut **[!UICONTROL XDM Individual Profile > Person > Gender]** :
 

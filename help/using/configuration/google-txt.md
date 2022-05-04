@@ -9,7 +9,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"
 >title="Enregistrements TXT Google"
->abstract="Pour garantir la réussite de l’envoi d’emails aux adresses Gmail, vous pouvez ajouter des enregistrements TXT de vérification de site Google spéciaux à votre sous-domaine pour vous assurer qu’il est vérifié."
+>abstract="Pour garantir la réussite de l’envoi d’e-mails aux adresses Gmail, vous pouvez ajouter des enregistrements TXT de vérification de site Google spéciaux à votre sous-domaine pour vous assurer qu’il est vérifié."
 
-Les enregistrements TXT font partie des enregistrements DNS. Ils servent à donner des informations textuelles à propos d&#39;un domaine, que des sources externes pourront lire par la suite.
+Les enregistrements TXT font partie des enregistrements DNS. Ils servent à donner des informations textuelles à propos d’un domaine, que des sources externes pourront lire par la suite.
 
-Afin d&#39;assurer une délivrabilité optimale et une diffusion réussie des emails vers les adresses Gmail, [!DNL Journey Optimizer] vous permet d’ajouter des enregistrements TXT de vérification de site Google spéciaux à votre sous-domaine pour vous assurer qu’il est vérifié.
+Pour garantir une délivrabilité optimale et une diffusion réussie des e-mails vers les adresses Gmail, [!DNL Journey Optimizer] permet dʼajouter des enregistrements TXT de vérification de site Google spéciaux à vos sous-domaines afin dʼassurer qu’ils soient vérifiés.
 
 >[!CAUTION]
 >

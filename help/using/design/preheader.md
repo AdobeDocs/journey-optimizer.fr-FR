@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Ajouter un pré-titre {#preheader}
+# Ajout d’un pré-titre {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Ajouter un pré-titre"
+>title="Ajout d’un pré-titre"
 >abstract="Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase."
 
 Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase.

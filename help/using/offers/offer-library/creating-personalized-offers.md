@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
 >title="Attributs d’offre"
->abstract="Les attributs de l&#39;offre vous permettent d&#39;associer des paires clé-valeur à l&#39;offre à des fins de reporting et d&#39;analyse."
+>abstract="Les attributs de l’offre vous permettent d’associer des paires clé-valeur à l’offre à des fins de reporting et d’analyse."
 
 Pour créer une **offre**, procédez comme suit :
 
@@ -45,7 +45,7 @@ Pour créer une **offre**, procédez comme suit :
 
    ![](../assets/create_offer.png)
 
-1. Indiquez le nom de l&#39;offre, ainsi que sa date et son heure de début et de fin. En dehors de ces dates, l’offre ne sera pas sélectionnée par le moteur de prise de décision.
+1. Indiquez le nom de l&#39;offre, ainsi que sa date et son heure de début et de fin. En dehors de ces dates, l’offre ne sera pas sélectionnée par le moteur de décision.
 
    ![](../assets/offer_details.png)
 
@@ -53,7 +53,7 @@ Pour créer une **offre**, procédez comme suit :
    >
    >La mise à jour des dates de début et de fin peut avoir un impact sur la limitation. [En savoir plus](add-constraints.md#capping-change-date)
 
-1. Vous pouvez également associer un ou plusieurs **[!UICONTROL tags]** à l’offre, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres. [En savoir plus](creating-tags.md).
+1. Vous pouvez également associer une ou plusieurs **[!UICONTROL balises]** à l’offre, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres. [En savoir plus](creating-tags.md).
 
 1. La section **[!UICONTROL Attributs de l’offre]** vous permet d’associer des paires clé-valeur à l’offre à des fins de rapports et d’analyse.
 
@@ -61,13 +61,13 @@ Pour créer une **offre**, procédez comme suit :
 
    ![](../assets/channel-placement.png)
 
-1. Ajoutez des contraintes pour définir les conditions d&#39;affichage de l&#39;offre. [En savoir plus](add-constraints.md)
+1. Ajoutez des contraintes pour définir les conditions d’affichage de l’offre. [En savoir plus](add-constraints.md)
 
    ![](../assets/offer-constraints-example.png)
 
-1. Vérifiez et enregistrez l’offre. [En savoir plus](#review)
+1. Examen et enregistrement de l’offre. [En savoir plus](#review)
 
-## Examen de l&#39;offre {#review}
+## Examen de l’offre {#review}
 
 Une fois les règles d&#39;éligibilité et les contraintes définies, un résumé des propriétés de l&#39;offre s&#39;affiche.
 

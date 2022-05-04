@@ -9,7 +9,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
    ![](assets/allow-list-edit.png)
 
-1. Sélectionner **[!UICONTROL Activer la liste autorisée]**.
+1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**.
 
    ![](assets/allow-list-enable.png)
 

@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
->title="Placement"
->abstract="Un emplacement est un conteneur utilisé pour présenter des offres. Cela permet de s’assurer que le contenu d’offre approprié s’affiche au bon endroit dans votre message. Les emplacements sont créés à partir du menu &quot;Composants&quot;."
+>title="Emplacement"
+>abstract="Un emplacement est un conteneur utilisé pour présenter des offres. Il permet de s’assurer que le contenu d’offre approprié s’affiche au bon endroit dans votre message. Les emplacements sont créés à partir du menu « Composants »."
 
 Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 

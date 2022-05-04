@@ -74,7 +74,7 @@ Pour créer un nouveau message, procédez comme suit :
       Les préréglages comprennent tous les paramètres requis pour qu&#39;un email et/ou une notification push soit envoyés selon votre marque. [En savoir plus sur les préréglages](../configuration/message-presets.md)
    >[!CAUTION]
    >
-   >Vous devez choisir un préréglage de message valide pour la catégorie et le ou les canaux sélectionnés.
+   >Vous devez choisir un paramètre de message prédéfini valide pour la catégorie et le ou les canaux sélectionnés.
 
    Notez que vous pouvez à tout moment accéder au titre, à la description et au préréglage et les modifier à l&#39;aide du bouton **[!UICONTROL Propriétés]** de l&#39;interface de message.
 

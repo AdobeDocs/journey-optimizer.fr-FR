@@ -1,6 +1,6 @@
 ---
 title: Prise en main des parcours
-description: Étapes clés de création de votre premier parcours avec Adobe Journey Optimizer
+description: Étapes clés de création de votre premier parcours avec Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
 workflow-type: tm+mt
 source-wordcount: '1885'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -40,7 +40,7 @@ Pour envoyer des messages avec des parcours, les paramétrages suivants sont req
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Création de votre parcours"
->abstract="Cet écran affiche la liste des parcours existants. Ouvrez un parcours ou cliquez sur &quot;Créer un parcours&quot;, puis combinez les différentes activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes."
+>abstract="Cet écran affiche la liste des parcours existants. Ouvrez un parcours ou cliquez sur « Créer un parcours », puis combinez les différentes activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes."
 
 Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de parcours**. C&#39;est là que vous créez vos parcours. Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 

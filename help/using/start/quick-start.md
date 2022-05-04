@@ -29,7 +29,7 @@ Pour découvrir la puissance d’Adobe Journey Optimizer en obtenant des conse
 
 * Je suis **ingénieur de données**
 
-   Importer des profils, concevoir des audiences, créer des schémas et des jeux de données. [En savoir plus](path/data-engineer.md)
+   Importer des profils, créer des audiences, créer des schémas et des jeux de données. [En savoir plus](path/data-engineer.md)
 
 * Je suis **spécialiste marketing**
 

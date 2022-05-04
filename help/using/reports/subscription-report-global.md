@@ -1,6 +1,6 @@
 ---
 title: Rapport dʼabonnement
-description: Découvrez comment utiliser les données de vos services d’abonnement  avec le rapport d'abonnement global
+description: Découvrez comment utiliser les données de vos services d’abonnement   avec le rapport d'abonnement global
 feature: Journeys
 topic: Content Management
 role: User

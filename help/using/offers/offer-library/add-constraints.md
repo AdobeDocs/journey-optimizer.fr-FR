@@ -1,6 +1,6 @@
 ---
 title: Ajouter des contraintes à une offre
-description: Découvrez comment définir les conditions d'affichage d'une offre
+description: Découvrez comment définir les conditions d’affichage d’une offre
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1594'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="Priorité"
->abstract="La priorité permet de définir la priorité de l’offre par rapport aux autres si l’utilisateur est admissible pour plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres."
+>abstract="La priorité permet de définir la priorité de l’offre par rapport à d’autres si l’utilisateur est éligible à plusieurs offres. Plus la priorité d’une offre est élevée, plus elle sera comparée à celle d’autres offres."
 
-Les contraintes vous permettent de définir les conditions d&#39;affichage d&#39;une offre.
+Les contraintes vous permettent de définir les conditions d’affichage d’une offre.
 
-1. Configurez l&#39;**[!UICONTROL éligibilité des offres]**. [En savoir plus](#eligibility)
+1. Configurez l’**[!UICONTROL admissibilité des offres]**. [En savoir plus](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
@@ -40,26 +40,26 @@ Les contraintes vous permettent de définir les conditions d&#39;affichage d&#39
 
    ![](../assets/offer-priority.png)
 
-1. Spécifiez la variable **[!UICONTROL Limitation]**, c’est-à-dire le nombre de fois où l’offre sera présentée. [En savoir plus](#capping)
+1. Spécifiez la **[!UICONTROL Limitation]** de l’offre, soit le nombre total de fois où l’offre sera présentée. [En savoir plus](#capping)
 
    ![](../assets/offer-capping.png)
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour confirmer toutes les contraintes que vous avez définies.
 
-Par exemple, si vous définissez les contraintes suivantes :
+Par exemple, si vous définissez les contraintes suivantes :
 
 ![](../assets/offer-constraints-example.png)
 
-* L&#39;offre sera prise en compte uniquement pour les utilisateurs qui correspondent à la règle de décision « Clients fidèles Gold ».
-* La priorité de l&#39;offre est définie sur « 50 », ce qui signifie que l&#39;offre sera présentée avant les offres dont la priorité est comprise entre 1 et 49, et après celles dont la priorité est d&#39;au moins 51.
+* L’offre sera prise en compte uniquement pour les utilisateurs qui correspondent à la règle de décision « Clients fidèles Gold ».
+* La priorité de l’offre est définie sur « 50 », ce qui signifie que l’offre sera présentée avant les offres dont la priorité est comprise entre 1 et 49, et après celles dont la priorité est d’au moins 51.
 * L’offre ne sera présentée qu’une seule fois par utilisateur à tous les emplacements.
 
-## Eligibilité {#eligibility}
+## Admissibilité {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Eligibilité"
->abstract="L’éligibilité d’offre vous permet de limiter l’offre à des profils spécifiques que vous définissez à l’aide de segments ou de règles de décision."
+>title="Admissibilité"
+>abstract="L’admissibilité de l’offre vous permet de limiter l’offre à des profils spécifiques que vous définissez à l’aide de segments ou de règles de décision."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -67,23 +67,23 @@ Par exemple, si vous définissez les contraintes suivantes :
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 >additional-url="https://video.tv.adobe.com/v/329373?captions=fre-fr" text="Regarder une vidéo de démonstration"
 
-Le **[!UICONTROL Eligibilité d&#39;une offre]** vous permet de restreindre l’offre à des profils spécifiques que vous définissez à l’aide de segments ou de règles de décision.
+La section **[!UICONTROL Admissibilité de l’offre]** vous permet de restreindre l’offre à des profils spécifiques que vous définissez à l’aide de segments ou de règles de décision.
 
 >[!NOTE]
 >
->En savoir plus sur l’utilisation de **segments** versus **règles de décision** in [cette section](#segments-vs-decision-rules).
+>Pour en savoir plus sur l’utilisation des **segments** par rapport aux **règles de décision**, consultez [cette section](#segments-vs-decision-rules).
 
-* Par défaut, la variable **[!UICONTROL Tous les visiteurs]** est sélectionnée, ce qui signifie que tout profil peut se voir présenter l’offre.
+* Par défaut, l’option **[!UICONTROL Tous les visiteurs]** est sélectionnée, ce qui signifie que tout profil peut se voir présenter l’offre.
 
    ![](../assets/offer-eligibility-default.png)
 
-* Vous pouvez également limiter la présentation de l&#39;offre aux membres d&#39;une ou de plusieurs [Segments Adobe Experience Platform](../../segment/about-segments.md).
+* Vous pouvez également limiter la présentation de l’offre aux membres d’un ou de plusieurs [segments d’Adobe Experience Platform](../../segment/about-segments.md).
 
-   Pour cela, activez l&#39;option **[!UICONTROL Visiteurs appartenant à un ou plusieurs segments]**, puis ajoutez un ou plusieurs segments dans le volet de gauche et combinez-les à l&#39;aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**.
+   Pour cela, activez l’option **[!UICONTROL Visiteurs appartenant à un ou plusieurs segments]**, puis ajoutez un ou plusieurs segments dans le volet de gauche et combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**.
 
    ![](../assets/offer-eligibility-segment.png)
 
-* Si vous souhaitez associer une [règle de décision](../offer-library/creating-decision-rules.md) spécifique à l&#39;offre, sélectionnez **[!UICONTROL Par une règle de décision définie]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone **[!UICONTROL Règle de décision]**.
+* Si vous souhaitez associer une [règle de décision](../offer-library/creating-decision-rules.md) spécifique à l’offre, sélectionnez **[!UICONTROL Par une règle de décision définie]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone **[!UICONTROL Règle de décision]**.
 
    ![](../assets/offer_rule.png)
 
@@ -109,12 +109,12 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 
    Pour en savoir plus sur les règles de décision, consultez [cette section](creating-decision-rules.md).
 
-## Limitation de la fréquence {#capping}
+## Capping de la fréquence {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
 >title="À propos de la limitation de l&#39;offre"
->abstract="Dans ce champ, vous pouvez indiquer le nombre de fois où l&#39;offre peut être présentée."
+>abstract="Dans ce champ, vous pouvez spécifier le nombre de fois où l’offre peut être présentée."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
@@ -135,29 +135,29 @@ Pour définir la limitation, procédez comme suit.
    >
    >Le nombre doit être un entier supérieur à 0.
 
-1. Indiquez si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un profil spécifique :
+1. Indiquez si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un profil spécifique :
 
    ![](../assets/offer-capping-total.png)
 
-   * Sélectionner **[!UICONTROL Au total]** pour définir le nombre de fois où une offre peut être proposée dans l’audience cible combinée, ce qui signifie pour tous les utilisateurs.
+   * Sélectionnez **[!UICONTROL Au total]** pour définir le nombre de fois où une offre peut être proposée dans l’audience cible combinée, ce qui signifie pour tous les utilisateurs.
 
-      Par exemple, si vous êtes un détaillant électronique qui a conclu un &quot;contrat TV Doorbuster&quot;, vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
+      Par exemple, si vous êtes un détaillant d’électronique qui a conclu un « contrat télévisuel d’offre d’ouverture » vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
 
-   * Sélectionner **[!UICONTROL Par profil]** pour définir le nombre de fois où une offre peut être proposée au même utilisateur.
+   * Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où une offre peut être proposée au même utilisateur.
 
-      Par exemple, si vous êtes une banque avec une offre &quot;Carte de crédit Platine&quot;, vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
+      Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
 
 1. Si vous avez défini plusieurs [représentations](#representations) pour votre offre, indiquez si vous souhaitez appliquer une limitation. **[!UICONTROL À tous les emplacements]** ou **[!UICONTROL Pour chaque emplacement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL À tous les emplacements]**: le nombre de limitations va total toutes les décisions parmi les emplacements associés à l’offre.
+   * **[!UICONTROL À tous les emplacements]** : le nombre de limitations va totaliser toutes les décisions parmi les emplacements associés à l’offre.
 
-      Par exemple, si une offre comporte une **Email** placement et un **Web** placement et vous définissez la limitation sur **2 par profil à tous les emplacements**, chaque profil peut alors recevoir l’offre jusqu’à 2 fois au total, quelle que soit la combinaison d’emplacements.
+      Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil à tous les emplacements**, chaque profil peut alors recevoir l’offre jusqu’à 2 fois au total, quelle que soit la combinaison d’emplacements.
 
-   * **[!UICONTROL Pour chaque emplacement]**: les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
+   * **[!UICONTROL Pour chaque emplacement]** : les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
 
-      Par exemple, si une offre comporte une **Email** placement et un **Web** placement et vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’email, et 2 fois supplémentaires pour l’emplacement web.
+      Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’e-mail, et 2 fois supplémentaires pour l’emplacement web.
 
 1. Une fois enregistrée et validée, si l&#39;offre a été présentée le nombre de fois que vous avez spécifié dans ce champ en fonction des critères que vous avez définis, sa diffusion s&#39;arrêtera.
 
@@ -167,7 +167,7 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 
 >[!NOTE]
 >
->Les compteurs de limitation seront réinitialisés à l’expiration de l’offre ou 2 ans après la date de début de l’offre, le premier événement prévalant. Découvrez comment définir la date d’une offre dans [cette section](creating-personalized-offers.md#create-offer).
+>Les compteurs de limitation seront réinitialisés à l’expiration de l’offre ou 2 ans après la date de début de l’offre, le premier événement prévalant. Découvrez comment définir la date d’une offre dans [cette section](creating-personalized-offers.md#create-offer).
 
 ### Impact de la modification des dates sur la limitation {#capping-change-date}
 
@@ -176,44 +176,44 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 >title="La modification de la date peut avoir un impact sur la limitation."
 >abstract="Si la limitation est appliquée à cette offre, elle peut être affectée lorsque vous modifiez la date de début ou de fin."
 
-Vous devez procéder avec précaution lors de la modification de la date d’une offre, car cela peut avoir un impact sur la limitation si les conditions suivantes sont remplies :
+Vous devez procéder avec précaution lors de la modification de la date d’une offre, car cela peut avoir un impact sur la limitation si les conditions suivantes sont remplies :
 
-* L’offre est la suivante : [approuvé](#review).
-* [Limitation](#capping) est déjà appliquée à l’offre.
+* L’offre est [approuvée](#review).
+* La [Limitation](#capping) est déjà appliquée à l’offre.
 * La limitation est définie par profil.
 
 >[!NOTE]
 >
 >Découvrez comment définir la date d’une offre dans [cette section](creating-personalized-offers.md#create-offer).
 
-La limitation de fréquence par profil stocke les valeurs de limitation sur chaque profil. Lorsque vous modifiez la date de début et de fin d’une offre validée, le nombre de limitations de certains profils peut être affecté selon les différents scénarios décrits ci-dessous.
+Le capping de la fréquence par profil stocke les valeurs de limitation sur chaque profil. Lorsque vous modifiez la date de début et de fin d’une offre approuvée, le nombre de limitations de certains profils peut être affecté selon les différents scénarios décrits ci-dessous.
 
 ![](../assets/offer-capping-change-date.png)
 
-Voici les scénarios possibles lorsque **modification de la date de début d’une offre**:
+Voici les scénarios possibles lors de la **modification de la date de début d’une offre**:
 
-| Scénario :<br>Si... | Ce qui se passe :<br>puis... | Impact possible sur le nombre de limitations |
+| Scénario :<br>Si... | Ce qui se passe :<br>alors... | Impact possible sur le nombre de limitations |
 |--- |--- |--- |
-| ...la date de début de l&#39;offre est mise à jour avant le début de la date de début de l&#39;offre initiale, | ... le nombre de limitations commencera à la nouvelle date de début. | Non |
+| ...la date de début de l’offre est mise à jour avant le début de la date de début de l’offre initiale, | ... le nombre de limitations commencera à la nouvelle date de début. | Non |
 | ...la nouvelle date de début est antérieure à la date de fin courante, | ... la limitation se poursuit avec une nouvelle date de début et le nombre de limitations précédent pour chaque profil est reporté. | Non |
 | ...la nouvelle date de début est postérieure à la date de fin courante, | ... la limitation actuelle expirera et le nouveau nombre de limitations reprendra à 0 pour tous les profils à la nouvelle date de début. | Oui |
 
-Voici les scénarios possibles lorsque **extension de la date de fin d’une offre**:
+Voici les scénarios possibles lors de l’**extension de la date de fin d’une offre** :
 
-| Scénario :<br>Si... | Ce qui se passe :<br>puis... | Impact possible sur le nombre de limitations |
+| Scénario :<br>Si... | Ce qui se passe :<br>alors... | Impact possible sur le nombre de limitations |
 |--- |--- |--- |
 | ... une demande de prise de décision survient avant la date de fin de l’offre d’origine, | ...le nombre de limitations sera mis à jour et le nombre de limitations précédent pour chaque profil sera reporté. | Non |
 | ... aucune demande de prise de décision ne se produit avant la date de fin d’origine, | ... le nombre de limitations est réinitialisé à la date de fin d’origine de chaque profil. Le nouveau nombre de limitations redémarre alors à partir de 0 pour toutes les nouvelles requêtes de prise de décision qui se produiront après la date de fin d’origine. | Oui |
 
 **Exemple**
 
-Supposons que vous ayez une offre dont la date de début d’origine est définie sur **1 janvier**, expirant le **31 janvier**.
+Supposons que vous ayez une offre dont la date de début d’origine est définie sur **1 janvier**, expirant le **31 janvier**.
 
 1. Les profils X, Y et Z se voient présenter l’offre.
-1. Activé **10 janvier**, la date de fin de l’offre est remplacée par **15 février**.
-1. **Du 11 janvier au 31 janvier**, seul le profil Z est présenté à l’offre.
+1. Le **10 janvier**, la date de fin de l’offre est remplacée par le **15 février**.
+1. **Du 11 janvier au 31 janvier**, seul le profil Z se voit présenter l’offre.
 
-   * Parce qu’une demande de prise de décision s’est produite avant la date de fin d’origine **pour le profil Z**, la date de fin de l’offre peut être étendue à **15 février**.
-   * Cependant, comme aucune activité ne s’est produite avant la date de fin d’origine pour **profils X et Y**, leurs compteurs expirent et leurs nombres de limitation sont réinitialisés à 0 le **31 janvier**.
+   * Parce qu’une demande de prise de décision s’est produite avant la date de fin d’origine **pour le profil Z**, la date de fin de l’offre peut être étendue au **15 février**.
+   * Cependant, comme aucune activité ne s’est produite avant la date de fin d’origine pour les **profils X et Y**, leurs compteurs expirent et leurs nombres de limitation sont réinitialisés à 0 le **31 janvier**.
 
 ![](../assets/offer-capping-change-date-ex.png)

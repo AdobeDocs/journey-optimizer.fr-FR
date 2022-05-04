@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3195'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,29 +24,29 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Pages de destination**
 
-* **Nouvelle option pour les cases à cocher d’inclusion/exclusion** - Vous pouvez désormais insérer une seule case à cocher pour les opt-in/opt-out dans les landing pages d&#39;abonnement. Les utilisateurs doivent cocher la case pour accepter (opt-in) et la décocher pour supprimer leur consentement (opt-out). [En savoir plus](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nouvelle option pour les cases à cocher de type opt-in/opt-out** : vous pouvez désormais insérer une seule case à cocher de type opt-in/opt-out dans les pages de destination des abonnements. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out). [En savoir plus](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **Préremplir les champs des landing pages** - Il est désormais possible de donner aux utilisateurs la possibilité de préremplir les champs de la landing page avec les informations de profil. [En savoir plus](../landing-pages/create-lp.md#configure-primary-page)
+* **Préremplir les champs des pages de destination** : il est désormais possible de donner aux utilisateurs la possibilité de préremplir les champs des pages de destination avec des informations de profil. [En savoir plus](../landing-pages/create-lp.md#configure-primary-page)
 
 **Gestion des décisions**
 
-* **API de prise de décision sur Edge** - L’API Edge Decisioning peut diffuser et générer des offres personnalisées gérées dans Offer Decisioning. Vous pouvez créer vos offres et d’autres objets associés à l’aide de l’interface utilisateur (IU) ou des API d’Offer decisioning. [En savoir plus](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API Decisioning sur Edge** : l’API Edge Decisioning peut diffuser et renvoyer des offres personnalisées qui sont gérées dans Offer Decisioning. Vous pouvez créer vos offres et d’autres objets connexes en utilisant l’interface utilisateur (UI) ou les API d’Offer Decisioning. [En savoir plus](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administration**
 
-* **Durée d’envoi des PTR** - La durée d’efficacité de la modification PTR est désormais de quelques heures. [En savoir plus](../configuration/ptr-records.md#processing)
+* **Durée d’envoi des PTR** : la durée pour que la modification des PTR soit effective est maintenant de quelques heures. [En savoir plus](../configuration/ptr-records.md#processing)
 
-**Conception d’email**
+**Conception d’e-mail**
 
-* **20 nouveaux modèles d&#39;email** sont désormais disponibles pour concevoir le contenu de votre email dans Journey Optimizer.
+* **20 nouveaux modèles d’e-mail** sont maintenant disponibles pour concevoir le contenu de vos e-mails dans Journey Optimizer.
 
 **Interface utilisateur**
 
-* **Aide contextuelle dans l’interface utilisateur de Journey Optimizer** - Des liens d’aide contextuelle ont été ajoutés à plusieurs pages dans Journey Optimizer. Lorsque cette option est disponible, cliquez sur l’icône &quot;i&quot; pour afficher une description rapide de la fonctionnalité actuelle et accéder aux articles connexes.
+* **Aide contextuelle dans l’interface utilisateur de Journey Optimizer** : des liens d’aide contextuelle ont été ajoutés à plusieurs pages de Journey Optimizer. Lorsqu’ils sont disponibles, cliquez sur l’icône « i » pour afficher une description rapide de la fonctionnalité en cours et accéder aux articles connexes.
 
 **Intégration à Adobe Campaign Standard**
 
-En tant que client Adobe Campaign Standard, vous pouvez désormais envoyer des emails, des notifications push et des SMS à l’aide de Journey Optimizer. Utilisez les nouvelles actions intégrées pour tirer parti des fonctionnalités de messagerie transactionnelle de Campaign Standard dans Journey Optimizer.  [En savoir plus](../action/acs-action.md)
+En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer des e-mails, des notifications push et des SMS à l’aide de Journey Optimizer. Utilisez les nouvelles actions intégrées pour tirer profit des fonctionnalités de messagerie transactionnelle de Campaign Standard dans Journey Optimizer.  [En savoir plus](../action/acs-action.md)
 
 <!--
 ### Fixes
@@ -67,7 +67,7 @@ En tant que client Adobe Campaign Standard, vous pouvez désormais envoyer des e
 
 **Gestion des décisions**
 
-* Vous pouvez maintenant spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou par emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
+* Vous pouvez désormais spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou par emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 * L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité Offer Decisioning pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**

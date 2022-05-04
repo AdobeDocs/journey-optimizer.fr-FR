@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1256'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Avril 2022 {#april-2022}
 
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 avril a été détaillée dans la documentation. [En savoir plus](release-notes.md)
-* Le **réactions** mise à jour de la page de documentation sur les événements - [En savoir plus](../building-journeys/reaction-events.md)
-* Mise à jour des vidéos relatives aux fonctionnalités de gestion de la décision pour prendre en compte l’interface utilisateur de Journey Optimizer - [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
-* Le **Prise en main des jeux de données** La section a été améliorée afin d’expliquer en détail comment accéder aux jeux de données et les créer. [En savoir plus](../start/get-started-datasets.md)
-* Des liens vers des guides d’aide et des notes de mise à jour de produit ont été ajoutés au **Documentation Adobe Journey Optimizer** page d’accueil. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
-* Le **Création de paramètres de message prédéfinis** indique désormais que vous ne pouvez pas procéder à la création de paramètres prédéfinis pendant que le pool d’adresses IP sélectionné est en cours d’édition (**[!UICONTROL Traitement]** (status) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](../configuration/message-presets.md#subdomains-and-ip-pools)
-* Paramètres prédéfinis du message **Suivi des URL** a été mise à jour pour prendre en compte des modifications mineures de l’interface utilisateur. [En savoir plus](../configuration/message-presets.md#url-tracking)
+* Toutes les nouvelles fonctionnalités et améliorations de la version d’avril 2022 de [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* La page de documentation sur les événements de **réaction** a été mise à jour. [En savoir plus](../building-journeys/reaction-events.md)
+* Les vidéos relatives aux fonctionnalités de gestion des décisions ont été mises à jour pour refléter l’interface utilisateur de Journey Optimizer. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
+* La section **Prise en main des jeux de données** a été améliorée afin d’expliquer en détail comment accéder aux jeux de données et les créer. [En savoir plus](../start/get-started-datasets.md)
+* Des liens vers les guides d’aide et les notes de mise à jour du produit ont été ajoutés à la page d’accueil de la **Documentation d’Adobe Journey Optimizer**. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
+* La section **Créer des paramètres prédéfinis de messages** indique désormais que vous ne pouvez pas procéder à la création de paramètres prédéfinis tant que le groupe d’adresses IP sélectionné est en cours d’édition (statut de **[!UICONTROL traitement]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](../configuration/message-presets.md#subdomains-and-ip-pools)
+* La section **Suivi des URL** des paramètres prédéfinis de messages a été mise à jour pour refléter des changements mineurs dans l’interface utilisateur. [En savoir plus](../configuration/message-presets.md#url-tracking)
 
 ## Mars 2022 {#march-2022}
 
@@ -29,9 +29,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout dʼune nouvelle page sur la prise en main des modèles dʼIA dans la section **Offer Decisioning**, comprenant une description approfondie du [modèle d’optimisation automatique](../offers/offer-library/ai-ranking.md#auto-optimization), l’algorithme qu’il utilise et dʼautres détails techniques. [En savoir plus](../offers/offer-library/ai-ranking.md)
 * La page de création du profil de test a été déplacée vers la section **Segment, profils et identité**. [En savoir plus](../segment/creating-test-profiles.md)
 * Ajout d’un exemple sur l’ajout d’une expression en tant que valeur par défaut dans l’éditeur d’expression. [En savoir plus](../building-journeys/expression/field-references.md#default-value)
-* La section **Création d’offres personnalisées** a été réorganisée pour en améliorer la lisibilité. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
-* Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur la limitation de la fréquence de cette offre.Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur le capping de la fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
-* La section **Modification des adresses e-mail principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
+* La section **Créer des offres personnalisées** a été réorganisée pour en améliorer la lisibilité. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
+* Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur la limitation de la fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
+* La section **Modifier les adresses e-mail principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Février 2022 {#feb-2022}
 

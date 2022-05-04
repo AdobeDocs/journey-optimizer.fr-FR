@@ -8,7 +8,7 @@ exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Un schéma est un jeu de règles qui représente et valide la structure et le fo
 
 Découvrez comment créer des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target=&quot;_blank&quot;}
 
-Le **Schémas** espace de travail dans [!DNL Adobe Journey Optimizer] L’interface utilisateur vous permet de gérer les ressources du modèle de données d’expérience (XDM), notamment les schémas, les classes, les groupes de champs de schéma et les types de données. Vous pouvez afficher et explorer les ressources de base fournies par Adobe, ainsi que créer des ressources et des schémas personnalisés pour votre organisation.
+L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Journey Optimizer] vous permet de gérer les ressources du modèle de données d’expérience (XDM), y compris les schémas, les classes, les groupes de champs de schéma et les types de données. Vous pouvez afficher et explorer les ressources de base fournies par Adobe, ainsi que créer des ressources et des schémas personnalisés pour votre organisation.
 
 ![](assets/schemas-home.png)
 

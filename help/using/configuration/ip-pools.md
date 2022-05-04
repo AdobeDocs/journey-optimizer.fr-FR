@@ -9,20 +9,20 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
-# Création de pools d’adresses IP {#create-ip-pools}
+# Création de groupes d’adresses IP {#create-ip-pools}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
->title="Configuration d’un pool d’adresses IP"
->abstract="Vous pouvez créer des pools d’adresses IP pour regrouper les adresses IP de vos sous-domaines afin d’améliorer la délivrabilité des emails."
+>title="Configuration d’un groupe d’adresses IP"
+>abstract="Vous pouvez créer des groupes d’adresses IP pour regrouper les adresses IP de vos sous-domaines afin d’améliorer la délivrabilité des e-mails."
 
-## À propos des pools d&#39;adresses IP {#about-ip-pools}
+## À propos des groupes d’adresses IP {#about-ip-pools}
 
-Avec [!DNL Journey Optimizer], vous pouvez créer des pools d’adresses IP pour regrouper les adresses IP de vos sous-domaines.
+Avec [!DNL Journey Optimizer], vous pouvez créer des groupes d’adresses IP pour regrouper les adresses IP de vos sous-domaines.
 
 La création de pools d&#39;adresses IP est vivement recommandée pour la délivrabilité des e-mails. Ce faisant, vous pouvez empêcher la réputation d&#39;un sous-domaine d&#39;avoir un impact sur vos autres sous-domaines.
 

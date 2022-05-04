@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
 source-wordcount: '1676'
-ht-degree: 84%
+ht-degree: 96%
 
 ---
 
@@ -17,32 +17,32 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="Délégation de sous-domaine"
->abstract="Journey Optimizer vous permet de déléguer vos sous-domaines à l’Adobe. Vous pouvez déléguer entièrement un sous-domaine à Adobe, ce qui est la méthode recommandée. Vous pouvez également créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Toutefois, cette approche nécessite que vous conteniez et gériez les enregistrements DNS vous-même."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Méthodes de configuration de sous-domaine"
+>title="Délégation de sous-domaines"
+>abstract="Journey Optimizer vous permet de déléguer vos sous-domaines à Adobe. Vous pouvez déléguer entièrement un sous-domaine à Adobe, ce qui est la méthode recommandée. Vous pouvez également créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Toutefois, cette approche nécessite que vous conteniez et gériez les enregistrements DNS vous-même."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html?lang=fr#subdomain-delegation-methods" text="Méthodes de configuration de sous-domaine"
 
-La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe. En savoir plus sur [délégation de sous-domaine](about-subdomain-delegation.md)
+La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe. En savoir plus sur la [délégation de sous-domaine ](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
 >Par défaut, le contrat de licence [!DNL Journey Optimizer] vous permet de déléguer jusqu&#39;à 10 sous-domaines. Contactez votre contact Adobe si vous souhaitez augmenter cette limite.
 
-Vous pouvez déléguer entièrement un sous-domaine ou créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à un Adobe.
+Vous pouvez entièrement déléguer un sous-domaine ou créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
 >[!CAUTION]
 >
->La délégation complète de sous-domaine est la méthode recommandée. En savoir plus sur les différences entre les deux [Méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
+>La délégation complète de sous-domaine est la méthode recommandée. En savoir plus sur les différences entre les deux [méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="Générer les enregistrements DNS correspondants"
->abstract="Pour déléguer entièrement un nouveau sous-domaine à Adobe, vous devez copier les informations du serveur de noms d’Adobe affichées dans l’interface Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour diffuser les messages."
+>abstract="Pour déléguer entièrement un nouveau sous-domaine à Adobe, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour diffuser les messages."
 
 [!DNL Journey Optimizer] vous permet de déléguer entièrement vos sous-domaines à Adobe directement à partir de l&#39;interface du produit. Ainsi, Adobe sera en mesure de diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes par e-mail.
 
-Vous pouvez vous fier à Adobe pour gérer l’infrastructure DNS nécessaire pour répondre aux exigences de délivrabilité standard de votre secteur pour vos domaines d’envoi de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de vos domaines d’email internes.
+Vous pouvez compter sur Adobe pour gérer lʼinfrastructure DNS requise afin de répondre aux exigences de délivrabilité standard de vos domaines de marketing par e-mail, tout en continuant à gérer et à contrôler le DNS de leurs domaines de messagerie internes.
 
 Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme suit :
 

@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -433,7 +433,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation [!DNL Manage frequency rules] {#manage-frequency-rules}
 
-Le **[!DNL Manage frequency rules]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier, supprimer et activer/désactiver les règles de fréquence.
+L’autorisation de haut niveau **[!DNL Manage frequency rules]** permet aux utilisateurs de lire, de créer, de modifier, de supprimer et d’activer/désactiver les règles de fréquence.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -444,7 +444,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation [!DNL View frequency rules] {#view-frequency-rules}
 
-Le **[!DNL View frequency rules]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les règles de fréquence.
+L’autorisation de haut niveau **[!DNL View frequency rules]** permet aux utilisateurs d’afficher les règles de fréquence.
 
 Elle comprend les autorisations de bas niveau suivantes :
 

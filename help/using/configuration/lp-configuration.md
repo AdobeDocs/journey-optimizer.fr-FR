@@ -7,11 +7,11 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Configurer des pages de destination {#lp-configuration}
+# Configuration des pages de destination {#lp-configuration}
 
 ## Configurer les sous-domaines des pages de destination {#lp-subdomains}
 
@@ -19,15 +19,15 @@ ht-degree: 85%
 >id="ajo_admin_config_lp_subdomain"
 >title="Créer un préréglage de la page de destination"
 >abstract="Pour pouvoir créer un préréglage de la page de destination, vérifiez que vous avez déjà configuré au moins un sous-domaine de la page de destination à sélectionner dans la liste Nom du sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
->title="Déléguer un sous-domaine de landing page"
->abstract="Vous devez configurer un sous-domaine à utiliser pour vos landing pages, car vous aurez besoin de ce sous-domaine pour créer un paramètre prédéfini de landing page. Vous pouvez utiliser un sous-domaine déjà délégué à l’Adobe ou configurer un nouveau sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
+>title="Déléguer un sous-domaine de page de destination"
+>abstract="Vous devez configurer un sous-domaine à utiliser pour vos pages de destination, car vous aurez besoin de ce sous-domaine pour créer un préréglage de page de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou configurer un nouveau sous-domaine."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
-Pour être en mesure de [créer des paramètres prédéfinis de landing page](#lp-create-preset), vous devez configurer les sous-domaines que vous utiliserez pour vos landing pages.
+Avant de pouvoir [créer des préréglages de page de destination](#lp-create-preset), vous devez avoir configuré les sous-domaines que vous utiliserez pour vos pages de destination.
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](delegate-subdomain.md).
 
@@ -82,7 +82,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="Générer l’enregistrement DNS correspondant"
->abstract="Pour configurer un nouveau sous-domaine de landing page, vous devez copier les informations du serveur de noms d’Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour créer des paramètres prédéfinis de page d’entrée."
+>abstract="Pour configurer un nouveau sous-domaine de page de destination, vous devez copier les informations du serveur de noms d’Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour créer des paramètres prédéfinis de page de destination."
 
 Pour configurer un nouveau sous-domaine, procédez comme suit :
 

@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Gérer le consentement {#consent}
+# Gestion du consentement {#consent}
 
 Utilisez [!DNL Journey Optimizer] pour suivre le consentement de vos destinataires en matière de communication et comprendre comment ils veulent interagir avec votre marque en gérant leurs préférences et leurs abonnements.
 

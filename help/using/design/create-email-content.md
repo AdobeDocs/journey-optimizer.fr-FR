@@ -1,6 +1,6 @@
 ---
 title: Créer des emails dans Journey Optimizer
-description: Découvrez comment concevoir le contenu de vos emails  à partir de zéro
+description: Découvrez comment concevoir le contenu de vos emails   à partir de zéro
 feature: Overview
 topic: Content Management
 role: User

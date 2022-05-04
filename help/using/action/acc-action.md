@@ -1,5 +1,5 @@
 ---
-title: 'Intégration avec Adobe Campaign v7/v8 '
+title: Intégration avec Adobe Campaign v7/v8
 description: Découvrez comment effectuer une intégration à Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
@@ -13,8 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Intégration avec Adobe Campaign v7/v8
- {#integrating-with-adobe-campaign-classic}
+# Intégration avec Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
