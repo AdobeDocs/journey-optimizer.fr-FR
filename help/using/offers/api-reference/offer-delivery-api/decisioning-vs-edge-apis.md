@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '409'
 ht-degree: 8%
 
 ---
@@ -43,7 +44,7 @@ Lors de la transmission de données contextuelles avec une requête d’API Edge
 
 >[!NOTE]
 >
->Pour que les données contextuelles soient stockées, un schéma XDM dédié doit être configuré. ( lien+ vers le document XDM)
+>Pour que les données contextuelles soient stockées, un schéma XDM dédié doit être configuré.
 
 ## Fonctionnalités de l’API de prise de décision {#decisioning}
 

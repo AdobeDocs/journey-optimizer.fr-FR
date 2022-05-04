@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 1. Dans la page d&#39;accueil du Concepteur d&#39;email, choisissez la manière de concevoir votre email à l&#39;aide des options suivantes :
 
    * **Concevoir vos e-mails à partir de rien** dans l&#39;interface du concepteur d&#39;e-mail et tirer parti des images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir votre contenu d&#39;e-mail ou utiliser des modèles intégrés [dans cette section](create-email-content.md).
+
+   * **Copier à partir d’un email existant** d&#39;une liste d&#39;exemples de modèles.
 
    * **Codez ou collez du code HTML brut** directement dans le concepteur d&#39;email. Découvrez comment coder votre propre contenu [dans cette section](code-content.md).
 
