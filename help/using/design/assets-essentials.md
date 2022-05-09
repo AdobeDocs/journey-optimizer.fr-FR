@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Manager Assets Essentials
+title: Utilisation d’Assets Essentials dans Journey Optimizer
 description: Prise en main d’Assets Essentials
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ccc78d8d4276c33164adc4cc0ba46486c2093955
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 72%
 
 ---
 
@@ -17,9 +17,17 @@ ht-degree: 100%
 
 ## Commencer avec [!DNL Assets Essentials]  {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets Essentials] fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages. Il est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]**. Vous pouvez également accéder aux ressources et aux dossiers lors de la conception d’un contenu d’e-mail. [En savoir plus sur la conception des e-mails](design-emails.md).
+Rassembler les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets Essentials]. Intégrée nativement à [!DNL Adobe Journey Optimizer], accès [!DNL Assets Essentials] pour stocker, gérer, découvrir et distribuer des ressources numériques. Il fournit un référentiel unique et centralisé de ressources que vous pouvez utiliser pour remplir vos messages.
 
-Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. [Pour en savoir plus, consultez la documentation sur Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
+[!DNL Adobe Experience Manager Assets Essentials] est un espace de travail collaboratif et centralisé sur les ressources qui étend votre système de création et les ressources numériques de votre entreprise pour la diffusion d’expérience. Vous pouvez facilement organiser, baliser et rechercher des ressources de production approuvées pour garantir la cohérence de la marque entre les équipes. Grâce à son expérience utilisateur intuitive, accédez instantanément aux ressources partagées dans vos applications Adobe Creative et Experience Cloud.
+
+En savoir plus dans [Documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target=&quot;_blank&quot;}.
+
+[!DNL Adobe Experience Manager Assets Essentials] est accessible directement depuis [!DNL Adobe Journey Optimizer] via la **[!UICONTROL Ressources]** . Vous pouvez également accéder aux ressources et aux dossiers lorsque [conception d&#39;un contenu d&#39;email](design-emails.md).
+
+## Conditions préalables{#assets-prerequisites}
+
+Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. En savoir plus dans [Documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer [!DNL Adobe Experience Manager Assets Essentials] pour votre organisation. Pour en savoir plus, consultez la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
