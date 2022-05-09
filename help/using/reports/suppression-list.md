@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '700'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Une liste de suppression est constituée d&#39;adresses e-mail que vous souhaite
 
 La liste de suppression de [!DNL Journey Optimizer] est gérée au niveau de votre propre environnement.
 
-Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c&#39;est-à-dire spécifiques à un ID d&#39;organisation IMS associé à un ID Sandbox.
+Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c&#39;est-à-dire spécifiques à un ID d&#39;organisation associé à un ID Sandbox.
 
 ## Pourquoi une liste de suppression ?  {#why-suppression-list}
 
