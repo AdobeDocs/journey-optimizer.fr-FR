@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '846'
 ht-degree: 100%
 
 ---
@@ -28,10 +28,6 @@ L’activité d’action **[!UICONTROL Saut]** permet d’inviter des individus 
 Dans le parcours d’origine, il suffit d’ajouter une activité **[!UICONTROL Saut]** et de sélectionner un parcours cible. Lorsque l’individu parvient à l’étape de **[!UICONTROL saut]**, un événement interne est envoyé au premier événement du parcours cible. Si l’action **[!UICONTROL Saut]** réussit, l’individu continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
 
 Dans le parcours cible, le premier événement déclenché en interne par l’activité **[!UICONTROL Saut]** permettra à chaque individu de s’insérer dans le parcours.
-
->[!NOTE]
->
->Reportez-vous également au tutoriel vidéo [ici](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=fr){target=&quot;_blank&quot;}
 
 ## Cycle de vie
 

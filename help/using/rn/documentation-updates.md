@@ -2,16 +2,26 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 95%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
+
+
+## Mai 2022 {#may-2022}
+
+* La section Conception d’emails mentionne désormais les nouveaux modèles natifs disponibles pour commencer le contenu. Les captures d’écran connexes ont été mises à jour. [En savoir plus](../design/design-emails.md)
+* Des liens vers des ressources clés ont été mis à jour dans la page d’accueil de la documentation Journey Optimizer.
+* Mise à jour des captures d’écran pour les rapports de landing page et d’abonnement - [En savoir plus](../reports/live-report.md)
+* Une note a été ajoutée indiquant que la méthode Delete n’est pas prise en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md)
+* Des liens vers des vidéos pratiques ont été mis à jour.
+
 
 ## Avril 2022 {#april-2022}
 

@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 100%
+source-wordcount: '1563'
+ht-degree: 96%
 
 ---
 
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## Étape 3 : test de votre application mobile avec un événement. {#mobile-app-test}
 
-Après avoir configuré votre application mobile dans Adobe Experience Platform et dans la [!DNL Adobe Experience Platform Data Collection], vous pouvez maintenant la tester avant dʼenvoyer des notifications push à vos profils. Dans ce cas d&#39;utilisation, nous allons créer un parcours pour cibler notre application mobile et définir un événement qui déclenchera la notification push.
+Après avoir configuré votre application mobile dans Adobe Experience Platform et dans la [!DNL Adobe Experience Platform Data Collection], vous pouvez maintenant la tester avant dʼenvoyer des notifications push à vos profils. Dans ce cas pratique, nous créons un parcours pour cibler notre application mobile et définir un événement qui déclenche la notification push.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -307,7 +307,7 @@ Vous devez ensuite configurer un événement.
 
    ![](assets/test_push_7b.png)
 
-1. Cliquez sur **[!UICONTROL Modifier]** dans le champ **[!UICONTROL Condition d&#39;identifiant d&#39;événement]**. Effectuez un glisser-déposer du champ précédemment ajouté pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
+1. Cliquez sur **[!UICONTROL Modifier]** dans le champ **[!UICONTROL Condition d&#39;identifiant d&#39;événement]**. Faites glisser et déposez le champ précédemment ajouté pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclenchent votre parcours.
 
    ![](assets/test_push_8.png)
 

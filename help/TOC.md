@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 100%
@@ -265,7 +265,7 @@ ht-degree: 100%
          + [Ajouter des représentations](using/offers/offer-library/add-representations.md)
          + [Ajouter des contraintes](using/offers/offer-library/add-constraints.md)
       + [Créer des offres de secours](using/offers/offer-library/creating-fallback-offers.md)
-      + [Création de collections](using/offers/offer-library/creating-collections.md)
+      + [Créer des collections](using/offers/offer-library/creating-collections.md)
    + Création et gestion des décisions {#create-manage-activities}
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configurer la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
@@ -367,7 +367,7 @@ ht-degree: 100%
             + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
             + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
          + [Configuration d’un événement métier](using/event/about-creating-business.md)
-         + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+         + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey.md)
       + Configuration des sources de données{#data-source-journeys}
          + [À propos des sources de données](using/datasource/about-data-sources.md)
          + [Configuration d’une source de données](using/datasource/configure-data-sources.md)

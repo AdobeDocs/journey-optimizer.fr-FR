@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '984'
+ht-degree: 97%
 
 ---
 
@@ -83,6 +83,11 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
    >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
 1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
+
+   >[!NOTE]
+   >
+   > Le **DELETE** n’est pas prise en charge. Si vous devez mettre à jour une ressource existante, sélectionnez la **PUT** .
+
 1. Dans la section **[!UICONTROL En-têtes]** , définissez les en-têtes HTTP du message de demande à envoyer au service externe :
    1. Pour ajouter un champ d’en-tête, cliquez sur **[!UICONTROL Ajouter un champ d’en-tête]**.
    1. Saisissez la clé du champ d’en-tête.
@@ -103,7 +108,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
 
    >[!NOTE]
    >
-   >Les en-têtes sont validés conformément à des règles d&#39;analyse. [En savoir plus](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Les en-têtes sont validés conformément à des règles d&#39;analyse. En savoir plus dans [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Définition des paramètres d’action {#define-the-message-parameters}
 

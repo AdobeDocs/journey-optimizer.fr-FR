@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Pour les événements unitaires, il existe deux types d’identifiant d&#39;év�
 
    >[!CAUTION]
    >
-   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée (ORG). Il correspond à des contrats de niveau de service Journey Optimizer. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/journey-orchestration.html).
+   >Une règle de limitation est définie pour les événements basés sur des règles. Il limite à 5 000 le nombre d’événements qualifiés qu’un parcours peut traiter par seconde pour une organisation donnée. Il correspond à des contrats de niveau de service Journey Optimizer. Reportez-vous à votre licence Journey Optimizer et [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
 
 * **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload.
 

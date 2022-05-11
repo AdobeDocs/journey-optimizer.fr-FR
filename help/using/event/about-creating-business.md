@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1125'
+ht-degree: 92%
 
 ---
 
@@ -80,15 +80,16 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
 1. Le nombre de parcours qui font appel à cet événement apparaît dans le champ **[!UICONTROL Utilisé(e) dans]**. Vous pouvez cliquer sur l&#39;icône **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours utilisant cet événement.
 
-1. Définissez les champs de payload et de schéma : c&#39;est dans ces champs que vous sélectionnez les informations d&#39;événement (désignées généralement sous le nom de payload) que le parcours s&#39;attend à recevoir. Vous pourrez alors utiliser ces informations dans votre parcours. Consultez [cette section](../event/about-creating-business.md#define-the-payload-fields).
+1. Définissez les champs de payload et de schéma : c’est là que vous sélectionnez les informations d’événement (ou charge utile) que parcours s’attend à recevoir. Vous utiliserez ces informations plus tard dans votre parcours. Consultez [cette section](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
-   Seuls les schémas de série temporelle sont disponibles. Les schémas d&#39;événements d&#39;expérience, d&#39;événements de décision et d&#39;événements d&#39;étape de parcours ne sont pas disponibles. Le schéma d&#39;événement doit contenir une identité principale non basée sur une personne. Les champs suivants doivent être sélectionnés lors de la définition de l&#39;événement : `_id` et `timestamp`
+   Seuls les schémas de série temporelle sont disponibles. `Experience Events`, `Decision Events` et `Journey Step Events` les schémas ne sont pas disponibles. Le schéma d&#39;événement doit contenir une identité principale non basée sur une personne. Les champs suivants doivent être sélectionnés lors de la définition de l&#39;événement : `_id` et `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. Cliquez à l&#39;intérieur du champ **[!UICONTROL Condition de l&#39;identifiant d&#39;événement]**. À l&#39;aide de l&#39;éditeur d&#39;expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
+1. Cliquez à l&#39;intérieur du champ **[!UICONTROL Condition de l&#39;identifiant d&#39;événement]**. Utilisez l’éditeur d’expression simple pour définir la condition utilisée par le système pour identifier les événements qui déclenchent votre parcours.
+
    ![](assets/jo-event6-business.png)
 
    Dans notre exemple, nous avons écrit une condition basée sur l&#39;ID du produit. Cela signifie que chaque fois que le système reçoit un événement correspondant à cette condition, il le transmet aux parcours.
@@ -101,7 +102,7 @@ Les premières étapes pour configurer un événement métier sont les suivantes
 
    ![](assets/journey7-business.png)
 
-   L&#39;événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d&#39;événements. Voir [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   L&#39;événement est maintenant configuré et prêt à être déposé dans un parcours. Des étapes de configuration supplémentaires sont requises pour la réception d&#39;événements. En savoir plus sur [cette page](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Définition des champs de payload {#define-the-payload-fields}
 
@@ -119,17 +120,17 @@ La définition de la payload vous permet de choisir les informations que le syst
    >
    > Assurez-vous que les champs suivants sont sélectionnés : `_id` et `timestamp`
 
-1. Sélectionnez les champs que vous prévoyez de recevoir de l&#39;événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours.
+1. Sélectionnez les champs que vous prévoyez de recevoir de l’événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours.
 
 1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL Enregistrer]** ou appuyez sur la touche **[!UICONTROL Entrée]**.
 
-   Le nombre de champs sélectionnés s&#39;affiche dans le champ **[!UICONTROL Champs]**.
+   Le nombre de champs sélectionnés apparaît dans la section **[!UICONTROL Champs]**.
 
    ![](assets/journey12-business.png)
 
 ## Prévisualisation de la payload {#preview-the-payload}
 
-Cet aperçu vous permet de valider la définition de la payload.
+Utilisez l’aperçu de la payload pour valider la définition de la payload.
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Afficher la payload]** pour prévisualiser la payload attendue par le système.
 
@@ -141,4 +142,4 @@ Cet aperçu vous permet de valider la définition de la payload.
 
 1. Vérifiez l&#39;aperçu pour valider la définition de la payload.
 
-1. Vous pouvez ensuite partager l&#39;aperçu de la payload avec la personne responsable de l&#39;envoi de l&#39;événement. Cette payload peut l’aider à concevoir la configuration d’un envoi d’événement vers [!DNL Journey Optimizer]. Consultez [cette page](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vous pouvez ensuite partager l&#39;aperçu de la payload avec la personne responsable de l&#39;envoi de l&#39;événement. Cette payload peut l’aider à concevoir la configuration d’un envoi d’événement vers [!DNL Journey Optimizer]. Consultez [cette page](../event/additional-steps-to-send-events-to-journey.md).
