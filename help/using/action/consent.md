@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 107145aab223ad2c6789f46e6b467f2366c59dc2
+source-git-commit: 6958b03907bdc2e57e336efe27d7528cc60f86f2
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 2%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="Définition d’une action marketing requise"
->abstract="L’&quot;action marketing requise&quot; vous permet de définir l’action marketing associée à votre action personnalisée. Par exemple, si vous utilisez cette action personnalisée pour envoyer des emails, vous pouvez sélectionner &quot;Ciblage des emails&quot;. Lorsqu’elles sont utilisées dans un parcours, toutes les stratégies de consentement associées à cette action marketing sont récupérées et exploitées. Elle ne peut pas être modifiée dans la zone de travail."
+>abstract="L’action marketing requise vous permet de définir l’action marketing associée à votre action personnalisée. Par exemple, si vous utilisez cette action personnalisée pour envoyer des emails, vous pouvez sélectionner &quot;Ciblage des emails&quot;. Lorsqu’elles sont utilisées dans un parcours, toutes les stratégies de consentement associées à cette action marketing sont récupérées et exploitées. Elle ne peut pas être modifiée dans la zone de travail."
 
 Lors de la configuration d’une action personnalisée, deux champs peuvent être utilisés pour la gestion du consentement.
 
