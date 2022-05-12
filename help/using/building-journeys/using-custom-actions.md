@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
+source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -61,3 +61,7 @@ Si nécessaire, spécifiez la valeur des champs d’en-tête dynamique :
 ## Paramètres d’action
 
 Dans la section **[!UICONTROL Paramètres d’action]**, les paramètres de message sont définis en tant que _« Variable »_. Pour ces paramètres, vous pouvez indiquer où obtenir ces informations (événements ou sources de données, par exemple), transmettre les valeurs manuellement ou utiliser l’éditeur d’expression avancé pour des cas d’utilisation plus complexes (tels qu’une manipulation de données et une autre utilisation des fonctions). Voir cette [page](expression/expressionadvanced.md).
+
+**Rubriques connexes**
+
+[Configurer une action](../action/about-custom-action-configuration.md)
