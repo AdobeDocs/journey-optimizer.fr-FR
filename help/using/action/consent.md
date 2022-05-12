@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 title: Consentement
-description: Contenu
+description: Consentement
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: d826ad21e821235d61db499d25abf1a96ab0bec9
+source-git-commit: 7a5f7ea85075821f0788bd9a58d9994afd058c61
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 2%
