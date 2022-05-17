@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 95%
+source-wordcount: '1357'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour des captures d’écran pour les rapports de landing page et d’abonnement - [En savoir plus](../reports/live-report.md)
 * Une note a été ajoutée indiquant que la méthode Delete n’est pas prise en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md)
 * Des liens vers des vidéos pratiques ont été mis à jour.
-
+* Le [Configuration des emails](../configuration/about-subdomain-delegation.md), [Paramètres prédéfinis de message](../configuration/message-presets.md) et [Configuration des landing pages](../configuration/lp-subdomains.md) ont été réorganisées afin d’en améliorer la lisibilité.
+* Le **Suivi des URL** a été mise à jour et améliorée avec des exemples. [En savoir plus](../configuration/email-settings.md#url-tracking)
 
 ## Avril 2022 {#april-2022}
 

@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 99%
 
 ---
 
@@ -338,25 +338,30 @@ ht-degree: 100%
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configuration des messages {#configuration-message}
-      + Configuration de notifications push{#push-config}
+      + Configuration des notifications push{#push-config}
          + [Commencer la configuration de notifications push](using/configuration/push-gs.md)
          + [Configuration du canal de notifications push](using/configuration/push-configuration.md)
-      + Configuration des e-mails {#email-configuration}
+      + Configuration des emails {#email-configuration}
          + Délégation de sous-domaines {#delegate-subdomains}
             + [Prise en main de la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
             + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
             + [Accès aux sous-domaines délégués](using/configuration/access-subdomains.md)
+         + Gestion des actions liées au sous-domaine {#subdomain-related-actions}
             + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
             + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
-         + [Création de pools d’adresses IP](using/configuration/ip-pools.md)
+            + [Création de pools d’adresses IP](using/configuration/ip-pools.md)
          + Surveillance des adresses e-mail {#monitor-reputation}
             + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
-         + [Modification de l’adresse e-mail principale](using/configuration/primary-email-addresses.md)
       + [Configuration du canal SMS](using/configuration/sms-configuration.md)
-      + [Créer des préréglages de message](using/configuration/message-presets.md)
+      + Configuration des paramètres prédéfinis de message {#set-up-message-presets}
+         + [Créer des préréglages de message](using/configuration/message-presets.md)
+         + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
+      + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)
       + [Configuration des règles de fréquence](using/configuration/frequency-rules.md)
-   + [Configuration des pages de destination](using/configuration/lp-configuration.md)
+   + Configuration des pages de destination {#lp-configuration}
+      + [Configurer les sous-domaines des pages de destination](using/configuration/lp-subdomains.md)
+      + [Définir les préréglages de page de destination](using/configuration/lp-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + [Intégration aux systèmes externes](using/configuration/external-systems.md)

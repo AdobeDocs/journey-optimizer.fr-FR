@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 90%
@@ -53,7 +53,7 @@ Suivez les étapes de création dʼune page de destination décrites ci-après.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Sélectionnez un préréglage. Découvrez comment créer des préréglages de page de destination dans [cette section](../configuration/lp-configuration.md#lp-create-preset).
+1. Sélectionnez un préréglage. Découvrez comment créer des préréglages de page de destination dans [cette section](../configuration/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_open-designer.png)
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée dans le cadre du [paramètre prédéfini](../configuration/lp-configuration.md#lp-create-preset) vous avez sélectionné. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée dans le cadre du [paramètre prédéfini](../configuration/lp-presets.md#lp-create-preset) vous avez sélectionné. [En savoir plus](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
 1. Modifiez le contenu de votre page à l’aide du concepteur de contenu. Découvrez comment définir le contenu de la page de destination [ici](design-lp.md).
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-configuration.md#lp-subdomains)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
