@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Diffuser des offres à l’aide de l’API de prise de décision {#decisioning-api}
+# Diffuser des offres à l’aide de l’API Decisioning {#decisioning-api}
 
 Avec la gestion des décisions, vous pouvez créer et proposer des expériences d&#39;offre personnalisées aux utilisateurs finaux par le biais de canaux et des applications en s&#39;appuyant sur une logique métier et des règles de décision.
 Une offre est un message marketing auquel des règles peuvent être associées et qui spécifie qui est éligible pour voir l&#39;offre.
