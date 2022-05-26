@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez ainsi tester et affiner différentes versions de vos offres sans auc
 
 >[!NOTE]
 >
->Cette fonctionnalité simule une demande unique à l’API [!DNL Decisioning]. En savoir plus sur [Diffuser des offres à l’aide de l’API de prise de décision](../api-reference/offer-delivery-api/decisioning-api.md).
+>Cette fonctionnalité simule une demande unique à l’API [!DNL Decisioning]. Pour en savoir plus, consultez la section [Diffuser des offres à l’aide de l’API Decisioning](../api-reference/offer-delivery-api/decisioning-api.md).
 
 Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL Simulation]** dans le menu **[!UICONTROL Gestion des décisions]**/**[!UICONTROL Offres]**. 
 
@@ -114,7 +114,7 @@ Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur
 
    >[!NOTE]
    >
-   >Même si vous définissez plusieurs portées de décision, une seule demande d’API est simulée.  
+   >Même si vous définissez plusieurs portées de décision, une seule demande d’API est simulée.
 
 ## Définition des paramètres de simulation {#define-simulation-settings}
 
