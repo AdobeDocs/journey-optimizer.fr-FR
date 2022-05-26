@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 Vous pouvez définir un fuseau horaire dans les [propriétés](../building-journeys/journey-gs.md#change-properties) de votre parcours.
 
-Pour accéder aux propriétés du Parcours, cliquez sur l’icône en forme de crayon dans le coin supérieur droit de l’écran.
+Pour accéder aux propriétés du parcours, cliquez sur l&#39;icône en forme de crayon dans le coin supérieur droit de l&#39;écran.
 
 Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un élément temporel tel que :
 
@@ -32,7 +32,7 @@ Vous pouvez sélectionner un fuseau horaire ou choisir d&#39;utiliser celui déf
 >
 >Le fuseau horaire de profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences**.
 
-## Définition d’un fuseau horaire fixe {#fixed-timezone}
+## Définition d&#39;un fuseau horaire fixe {#fixed-timezone}
 
 Le fuseau horaire peut également être fixe. Effacez le fuseau horaire prédéfini et sélectionnez-en un dans la liste déroulante. Si vous utilisez un fuseau horaire fixe, il sera identique pour tous les individus qui participent au parcours.
 
@@ -52,6 +52,6 @@ Pour cela, dans **[!UICONTROL Propriétés]**, cochez la case **[!UICONTROL Util
 
 ![](assets/journey73.png)
 
-## Utilisation des fuseaux horaires dans les expressions {#timezone-in-expressions}
+## Utilisation de fuseaux horaires dans les expressions {#timezone-in-expressions}
 
 Les dates de début et de fin d&#39;un parcours ne peuvent pas être liées à un fuseau horaire spécifique. Elles sont automatiquement associées à celui de l&#39;instance.
