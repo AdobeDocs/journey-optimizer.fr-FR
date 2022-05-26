@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 99%
+source-wordcount: '1040'
+ht-degree: 94%
 
 ---
 
@@ -16,14 +16,17 @@ ht-degree: 99%
 
 + [Documentation Journey Optimizer](ajo-home.md)
 + Nouveautés {#whats-new}
-   + [Notes de mise à jour](using/rn/release-notes.md)
-   + [Dernières mises à jour](using/rn/documentation-updates.md)
+   + [Dernières notes de mise à jour](using/rn/release-notes.md)
+   + Notes de mise à jour précédentes {#previous-rn-new}
+      + [Notes de mise à jour 2022](using/rn/release-notes-2022.md)
+      + [Notes de mise à jour 2021](using/rn/release-notes-2021.md)
+   + [Mises à jour de la documentation](using/rn/documentation-updates.md)
 + Prise en main{#get-started}
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Démarrage rapide{#quick-start}
       + [Présentation](using/start/quick-start.md)
       + [Prise en main en tant que marketeur](using/start/path/marketer.md)
-      + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
+      + [Prise en main en tant qu’ingénieur des données](using/start/path/data-engineer.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
    + [Interface utilisateur](using/start/user-interface.md)
@@ -60,7 +63,11 @@ ht-degree: 99%
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Création d’une page de destination](using/landing-pages/create-lp.md)
-   + [Conception dʼune page de destination](using/landing-pages/design-lp.md)
+   + Conception du contenu {#landing-pages-design}
+      + [A propos de la conception d&#39;une landing page](using/landing-pages/design-lp.md)
+      + [Créer le contenu de la landing page](using/landing-pages/lp-content.md)
+      + [Création de modèles](using/landing-pages/lp-templates.md)
+      + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
    + [Création d’une liste dʼabonnements](using/landing-pages/subscription-list.md)
    + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
 + Personnalisation{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 99%
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
@@ -245,6 +253,7 @@ ht-degree: 99%
       + [Prise en main de la délivrabilité](using/reports/deliverability.md)
       + [Liste de suppression](using/reports/suppression-list.md)
       + [Liste autorisée](using/reports/allow-list.md)
+   + [Actions d’audit sur les ressources Journey Optimizer](using/reports/audit-logs.md)
 + Gestion des décisions {#offer-decisioniong}
    + Prise en main de la gestion des décisions {#get-started-decision}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 99%
    + [Gestion des utilisateurs et des profils de produits](using/administration/permissions.md)
    + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
    + [Gestion des environnements Sandbox](using/administration/sandboxes.md)
+   + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
+

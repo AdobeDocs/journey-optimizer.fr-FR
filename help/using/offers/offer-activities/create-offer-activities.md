@@ -1,5 +1,5 @@
 ---
-title: Création de décisions
+title: Créer des décisions
 description: Découvrez comment créer des décisions
 feature: Offers
 topic: Integrations

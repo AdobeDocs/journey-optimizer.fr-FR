@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 95%
+source-wordcount: '1706'
+ht-degree: 91%
 
 ---
 
@@ -38,7 +38,8 @@ Vous pouvez entièrement déléguer un sous-domaine ou créer un sous-domaine à
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="Générer les enregistrements DNS correspondants"
->abstract="Pour déléguer entièrement un nouveau sous-domaine à Adobe, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour diffuser les messages."
+>abstract="Pour déléguer entièrement un nouveau sous-domaine à Adobe, vous devez copier-coller les informations du serveur de noms d’Adobe affichées dans l’interface Journey Optimizer dans votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants. Pour déléguer un sous-domaine à l’aide de CNAME, vous devez également copier-coller l’enregistrement de validation de l’URL CDN SSL. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour diffuser les messages."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="Délégation de sous-domaines CNAME"
 
 [!DNL Journey Optimizer] vous permet de déléguer entièrement vos sous-domaines à Adobe directement à partir de l&#39;interface du produit. Ainsi, Adobe sera en mesure de diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes par e-mail.
 

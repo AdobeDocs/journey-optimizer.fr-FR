@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 97%
 
 ---
 
@@ -359,6 +359,26 @@ La requête suivante détermine si le nom de la personne commence par « John 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
 ```
+
+## Masque (#mask)
+
+Le `Mask` est utilisée pour remplacer une partie d’une chaîne par des caractères &quot;X&quot;.
+
+**Format**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**Exemple**
+
+La requête suivante remplace la chaîne &quot;123456789&quot; par des caractères &quot;X&quot;, à l’exception des deux premiers et derniers caractères.
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+La requête renvoie `1XXXXXX89`.
 
 ## Not equal to{#notEqualTo}
 

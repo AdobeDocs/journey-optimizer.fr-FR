@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -42,7 +42,7 @@ Pour créer une emplacement, procédez comme suit :
 
    * **[!UICONTROL Nom]** : nom de l&#39;emplacement. Veillez à définir un nom significatif pour le récupérer plus facilement.
    * **[!UICONTROL Type de canal]** : canal pour lequel l&#39;emplacement sera utilisé.
-   * **[!UICONTROL Type de contenu]** : type de contenu que l&#39;emplacement peut afficher : texte, HTML ou lien d&#39;image.
+   * **[!UICONTROL Type de contenu]**: Type de contenu que l’emplacement peut afficher : Texte, HTML, Lien d’image ou JSON.
    * **[!UICONTROL Description]** : description de l&#39;emplacement (facultatif).
 
    ![](../assets/offers_placement_creation_properties.png)

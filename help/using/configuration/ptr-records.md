@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 90%
+source-wordcount: '729'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="Enregistrements PTR des sous-domaines"
->abstract="Un enregistrement pointeur (PTR) est un type d’enregistrement DNS qui fournit le nom de domaine associé à une adresse IP, ce qui permet aux serveurs de messagerie de réception de vérifier les adresses IP des expéditeurs."
+>abstract="Un enregistrement pointeur (PTR) est un type d’enregistrement DNS qui fournit le nom de domaine associé à une adresse IP, ce qui permet aux serveurs de messagerie de réception de vérifier les adresses IP des expéditeurs. Ne modifiez un enregistrement PTR qu’après avoir pris en compte les questions et discuté avec votre expert en délivrabilité."
 
 ## À propos des enregistrements PTR {#about-ptr-records}
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: fa0e0af075f32976afb6b4f7e10b7aea12033b42
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 89%
 
 ---
 
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### Booster les offres avec un attribut d’offre spécifique basé sur les données contextuelles
 
-Boostez certaines offres en fonction des données contextuelles transmises dans l’appel de prise de décision. Par exemple, si la valeur `contextData.weather=hot` est transmise dans l’appel de prise de décision, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
+Vous pouvez dynamiser certaines offres en fonction des données contextuelles transmises dans l’appel de prise de décision. Par exemple, si la valeur `contextData.weather=hot` est transmise dans l’appel de prise de décision, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
 
 **Formule de classement:**
 
@@ -139,21 +139,9 @@ Notez que lorsque vous utilisez l’API de prise de décision, les données cont
 
 ### Booster les offres en fonction de la propension des clients à acheter le produit proposé
 
-Si nous avons 2 instances de *CustomerAI* calculant la propension à acheter *travelInsurance* et *extraBBagage* pour une compagnie aérienne, la formule de classement suivante augmentera la priorité (de 50 points) de l’offre spécifique à l’assurance ou aux bagages si le score de propension du client à acheter ce produit est supérieur à 90.
+Vous pouvez augmenter le score d’une offre en fonction du score de propension d’un client.
 
-Cependant, comme chaque instance *CustomerAI* crée son propre objet dans le schéma de profil unifié, il n’est pas possible de sélectionner dynamiquement le score en fonction du type de propension à l’offre. Vous devez donc chaîner les instructions `if` pour d’abord vérifier le type de propension de l’offre, puis extraire le score à partir du champ de profil approprié.
-
-**Formule de classement:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-Une meilleure solution consiste à stocker les scores dans un tableau du profil. L’exemple suivant illustre plusieurs scores de propension différents en utilisant une formule de classement simple. Il est attendu que vous disposiez d’un schéma de profil avec un tableau de scores. Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient les éléments suivants :
+Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient une plage de scores stockés dans un tableau :
 
 ![](../assets/ranking-example-schema.png)
 

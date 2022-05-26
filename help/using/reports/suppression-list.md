@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '771'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,10 @@ Une liste de suppression est constituée d&#39;adresses e-mail que vous souhaite
 La liste de suppression de [!DNL Journey Optimizer] est gérée au niveau de votre propre environnement.
 
 Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c&#39;est-à-dire spécifiques à un ID d&#39;organisation associé à un ID Sandbox.
+
+>[!NOTE]
+>
+>Adobe tient à jour une liste des adresses email erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les emails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
 ## Pourquoi une liste de suppression ?  {#why-suppression-list}
 

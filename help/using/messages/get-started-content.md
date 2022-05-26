@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ Pour créer un nouveau message, procédez comme suit :
 
    * Sélectionnez le ou les canaux à utiliser pour ce message : email et/ou notification push. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * Sélectionnez le **[!UICONTROL Préréglage]** à utiliser pour le message.
 
-      Les préréglages comprennent tous les paramètres requis pour qu&#39;un email et/ou une notification push soit envoyés selon votre marque. [En savoir plus sur les préréglages](../configuration/message-presets.md)
+      Les préréglages comprennent tous les paramètres requis pour qu&#39;un email et/ou une notification push soit envoyés selon votre marque. En savoir plus sur [paramètres prédéfinis](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Vous devez choisir un paramètre de message prédéfini valide pour la catégorie et le ou les canaux sélectionnés.
@@ -84,6 +90,10 @@ Pour créer un nouveau message, procédez comme suit :
    Un onglet est disponible pour chaque canal sélectionné. Utilisez ces onglets pour configurer le contenu pour chaque canal. Vous pouvez supprimer un onglet en le sélectionnant et en cliquant sur le bouton **[!UICONTROL Supprimer le canal]** à droite.
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >Si vous avez activé la variable **[!UICONTROL Email Cci]** dans le paramètre prédéfini, l’adresse email en Cci s’affiche sous l’adresse email de l’expéditeur. [En savoir plus](../configuration/email-settings.md#bcc-email)
 
    Vous pouvez désormais créer le contenu du message et adapter les paramètres. Des informations détaillées sur la configuration des emails et des notifications push sont disponibles dans les sections suivantes :
 

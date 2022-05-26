@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '131'
+ht-degree: 48%
 
 ---
 
 # sort {#sort}
 
-Trie une liste de valeurs dans l’ordre naturel. Le premier argument est la liste des valeurs, le second est une valeur booléenne indiquant si le tri est croissant (true) ou décroissant (false).
+Trie une liste de valeurs ou d’objets dans l’ordre naturel.
 
 ## Catégorie
 
@@ -27,17 +27,11 @@ Liste
 
 ## Paramètres
 
-| Paramètre | Type |
-|-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
-| Booléen | Booléen |
+| Paramètre | Type | Description |
+|-----------|------------------|------------------|
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
+| keyAttributeName | chaîne | Ce paramètre est uniquement destiné à listObject. Le nom de l’attribut dans les objets de la liste donnée est utilisé comme clé pour le tri. |
+| sortingOrder | booléen | ascendant (true) ou descendant (false) |
 
 ## Signature et type renvoyé
 
@@ -69,6 +63,10 @@ Renvoie une liste de dates.
 
 Renvoie une liste de valeurs booléennes.
 
+`sort(<listObject>,<string>,<boolean>)`
+
+Renvoie une liste d’objets.
+
 ## Exemple
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ Renvoie `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Renvoie `[3, 2, 1]`.
+

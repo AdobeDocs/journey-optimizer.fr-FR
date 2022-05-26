@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 84%
 
 ---
 
@@ -31,15 +31,19 @@ Pour cela, vous pouvez utiliser une règle de fréquence qui limite le nombre de
 
 Les règles sont disponibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles]**. Toutes les règles sont répertoriées, triées par date de modification.
 
->[!NOTE]
->
->Pour accéder aux règles de fréquence des messages, en créer, les modifier ou les supprimer, vous devez disposer de l’autorisation [Gestion des règles de fréquence](../administration/high-low-permissions.md#manage-frequency-rules).
-
-![](assets/message-rules-access.png)
-
 Utilisez l&#39;icône de filtre pour filtrer par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
 
 ![](assets/message-rules-filter.png)
+
+### Autorisations{#permissions-frequency-rules}
+
+Pour accéder aux règles de fréquence des messages, en créer, les modifier ou les supprimer, vous devez disposer de l’autorisation **[!UICONTROL Gestion des règles de fréquence]**.
+
+Utilisateurs avec la variable **[!UICONTROL Afficher les règles de fréquence]** Les autorisations peuvent afficher des règles, mais pas les modifier ni les supprimer.
+
+![](assets/message-rules-access.png)
+
+Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
 
 ## Création d&#39;une règle {#create-new-rule}
 
@@ -77,15 +81,15 @@ Pour créer une nouvelle règle, procédez comme suit.
 
 1. Sélectionnez plusieurs canaux si vous souhaitez appliquer une limitation sur tous les canaux sélectionnés en tant que nombre total.
 
-   Par exemple, définissez la limitation sur 15 et sélectionnez les canaux e-mail et push. Si un profil a déjà reçu 10 e-mails marketing et 5 notifications push marketing, ce profil sera exclu de la prochaine diffusion de tout e-mail ou notification push marketing.
+   Par exemple, définissez la limitation sur 15 et sélectionnez les canaux email et push. Si un profil a déjà reçu 10 e-mails marketing et 5 notifications push marketing, ce profil sera exclu de la prochaine diffusion de tout e-mail ou notification push marketing.
 
-1. Cliquez sur **[!UICONTROL Enregistrer comme brouillon]** pour confirmer la création de la règle. Votre message est ajouté dans la liste de règles, dans l&#39;état **[!UICONTROL Brouillon]**.
+1. Cliquez sur **[!UICONTROL Enregistrer comme brouillon]** pour confirmer la création de la règle. Votre message est ajouté à la liste des règles, avec la variable **[!UICONTROL Version préliminaire]** statut.
 
    ![](assets/message-rules-created.png)
 
 ## Activer une règle {#activate-rule}
 
-Une fois créée, une règle de fréquence des messages affiche le statut **[!UICONTROL Brouillon]** et n’a aucune incidence sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
+Une fois créée, une règle de fréquence des messages affiche la variable **[!UICONTROL Version préliminaire]** et n’a encore aucun impact sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -93,7 +97,7 @@ L&#39;activation d&#39;une règle aura un impact sur tous les messages auxquels 
 
 >[!NOTE]
 >
->Vous n&#39;avez pas besoin de modifier ou de republier des messages ou des parcours pour qu&#39;une règle prenne effet.
+>L’activation complète d’une règle peut prendre jusqu’à 10 minutes. Vous n&#39;avez pas besoin de modifier ou de republier des messages ou des parcours pour qu&#39;une règle prenne effet.
 
 Pour désactiver une règle de fréquence des messages, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Désactiver]**.
 
@@ -132,6 +136,10 @@ Pour appliquer une règle de fréquence à un message, procédez comme suit.
 1. [Concevez](../design/design-emails.md) et [publiez](../messages/publish-manage-message.md) votre message.
 
 Toutes les règles de fréquence correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
+
+>[!NOTE]
+>
+>Messages <!--that do not have any selected category or messages -->où la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne sera pas évalué par rapport aux règles de fréquence.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ Vous pouvez combiner plusieurs règles de fréquence des messages, comme décrit
 Dans ce scénario, un profil individuel :
 * peut recevoir jusqu’à 12 messages marketing par mois ;
 * mais sera exclu des notifications push marketing après avoir reçu 4 notifications push.
+
+>[!NOTE]
+>
+>Lors du test des règles de fréquence, il peut s’avérer utile de commencer par une nouvelle [profil de test](../segment/creating-test-profiles.md), car une fois le plafond de fréquence d’un profil atteint, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils plafonnés de recevoir des messages, mais elle ne supprime ni supprime les incréments de compteur.

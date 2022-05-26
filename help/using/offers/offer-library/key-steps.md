@@ -53,7 +53,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Création d’offres</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Créer des offres de secours</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Création de collections</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Créer des collections</a></p></td></tr>
 </table>
 
 ## Création et configuration des décisions {#create-and-configure-decisions}

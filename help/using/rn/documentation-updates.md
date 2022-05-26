@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 93%
+source-wordcount: '1414'
+ht-degree: 89%
 
 ---
 
@@ -13,9 +13,13 @@ ht-degree: 93%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
 
+## Juin 2022 {#june-2022}
+
+* Nouveaux exemples de requête liés à [qualification de segment](../reports/query-examples.md#segment-qualification-queries) et [events](../reports/query-examples.md#event-based-queries) ont été ajoutés à
 
 ## Mai 2022 {#may-2022}
 
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 mai a été détaillée dans la documentation. [En savoir plus](release-notes.md)
 * La section Conception d’emails mentionne désormais les nouveaux modèles natifs disponibles pour commencer le contenu. Les captures d’écran connexes ont été mises à jour. [En savoir plus](../design/design-emails.md)
 * Des liens vers des ressources clés ont été mis à jour dans la page d’accueil de la documentation Journey Optimizer.
 * Mise à jour des captures d’écran pour les rapports de landing page et d’abonnement - [En savoir plus](../reports/live-report.md)
@@ -23,6 +27,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Des liens vers des vidéos pratiques ont été mis à jour.
 * Le [Configuration des emails](../configuration/about-subdomain-delegation.md), [Paramètres prédéfinis de message](../configuration/message-presets.md) et [Configuration des landing pages](../configuration/lp-subdomains.md) ont été réorganisées afin d’en améliorer la lisibilité.
 * Le **Suivi des URL** a été mise à jour et améliorée avec des exemples. [En savoir plus](../configuration/email-settings.md#url-tracking)
+* Ajout d’une nouvelle sous-section sur la configuration d’une adresse électronique de transfert - Notez que vous ne pouvez pas le faire via l’interface utilisateur. [En savoir plus](../configuration/email-settings.md#forward-email)
 
 ## Avril 2022 {#april-2022}
 

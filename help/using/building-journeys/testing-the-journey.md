@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 100%
+source-wordcount: '1548'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,6 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 >
 >Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment rechercher des erreurs avant d’effectuer des tests dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-
 Pour utiliser le mode test, procédez comme suit :
 
 1. Pour activer le mode test, activez le bouton bascule **[!UICONTROL Test]** dans le coin supérieur droit de l’écran.
@@ -41,7 +40,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’un événement de réaction est utilisé dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
+   >Lorsqu’un événement de réaction avec un délai d’expiration est utilisé dans un parcours, la valeur par défaut du temps d’attente et la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
 
 1. Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 

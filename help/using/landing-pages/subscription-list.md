@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,13 @@ Pour créer une liste dʼabonnements, procédez comme suit :
 
    ![](assets/lp_create-subscription-list.png)
 
-1. Donnez-lui un nom et une description. Ces champs sont obligatoires.
+1. Ajoutez un titre et une description. Ces champs sont obligatoires.
+
+   ![](assets/lp_subscription-list-name.png)
+
+   >[!CAUTION]
+   >
+   >Actuellement, vous ne pouvez pas utiliser d’espacement ou saisir un nom qui existe déjà pour une autre liste d’abonnements dans la variable **[!UICONTROL Titre]** champ .
 
 1. Vous pouvez définir une date de début et de fin.
 
