@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 79%
 >title="Mettre à jour l&#39;activité du profil"
 >abstract="L&#39;activité d&#39;action Mettre à jour le profil vous permet de mettre à jour un profil Adobe Experience Platform existant avec des informations provenant de l&#39;événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique."
 
-Utilisez la variable **[!UICONTROL Mettre à jour le profil]** activité d’action pour mettre à jour un profil Adobe Experience Platform existant avec des informations provenant d’un événement, d’une source de données ou d’une valeur spécifique.
+Utilisez l’activité d&#39;action **[!UICONTROL Mettre à jour le profil]** pour mettre à jour un profil Adobe Experience Platform existant avec des informations provenant d’un événement, d&#39;une source de données ou à l&#39;aide d&#39;une valeur spécifique.
 
 ## Recommandations
 
 * L&#39;action **Mettre à jour le profil** ne peut être utilisée que dans les parcours commençant par un événement qui possède un espace de noms.
 * L&#39;action ne met à jour que les champs existants, elle ne crée pas de nouveaux champs de profil.
 * Vous ne pouvez pas utiliser l&#39;action **Mettre à jour le profil** pour générer des événements d&#39;expérience, par exemple un achat.
-* Comme toute autre action, vous pouvez définir un autre chemin en cas d’erreur ou de dépassement de délai, et vous ne pouvez pas placer deux actions en parallèle.
-* La requête de mise à jour envoyée à Adobe Experience Platform est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. Par conséquent, par exemple, si une action utilise &quot;champ 1&quot; mis à jour par une **Mettre à jour le profil** action positionnée juste avant, vous ne devez pas vous attendre à ce que &quot;champ 1&quot; soit mis à jour dans l’action.
+* Comme toute autre action, vous pouvez définir un chemin alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
+* La demande de mise à jour envoyée à Adobe Experience Platform est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action **Mettre à jour le profil** positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour du « champ 1 » dans l&#39;action.
 * L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme une énumération.
 
 ## Utilisation de la mise à jour du profil
