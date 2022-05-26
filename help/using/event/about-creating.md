@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    ![](assets/journey9.png)
 
-1. Sélectionnez les champs que vous prévoyez de recevoir de l’événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours. Ils doivent également inclure la clé qui sera utilisée pour identifier la personne associée à l&#39;événement (voir [cette section](../event/about-creating.md#define-the-event-key)).
+1. Sélectionnez les champs que vous prévoyez de recevoir de l&#39;événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours. Ils doivent également inclure la clé qui sera utilisée pour identifier la personne associée à l&#39;événement (voir [cette section](../event/about-creating.md#define-the-event-key)).
 
    >[!NOTE]
    >
@@ -125,27 +125,27 @@ Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs é
 
 ## Définition de l&#39;identifiant du profil {#define-the-event-key}
 
-La clé est le champ, ou combinaison de champs, qui fait partie des données de payload de l’événement et qui permet au système d’identifier la personne associée à l’événement. La clé peut être, par exemple, l’identifiant Experience Cloud, un identifiant CRM ou une adresse électronique.
+La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l&#39;événement et permettant au système d&#39;identifier la personne associée à l&#39;événement. Il peut s&#39;agir de l&#39;ID Experience Cloud, d&#39;un ID CRM ou encore d&#39;une adresse e-mail.
 
-Pour utiliser les données stockées dans la base de données de profil client en temps réel d’Adobe, la clé d’événement doit correspondre aux informations que vous avez définies en tant qu’identité d’un profil dans la variable [Service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Pour utiliser les données stockées dans la base de données de profil client en temps réel d’Adobe, la clé d’événement doit correspondre aux informations que vous avez définies en tant qu’identité d’un profil dans [Service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
 
-L’identifiant du profil permet au système d’effectuer la réconciliation entre l’événement et le profil de l’individu. Si vous sélectionnez un schéma doté d&#39;une identité principale, les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Espace de noms]** sont déjà renseignés. Si aucune identité n’est définie, la variable _identityMap > id_ est la Principale clé. Vous devez ensuite sélectionner un espace de noms et la clé est automatiquement préremplie à l’aide de la fonction _identityMap > id_.
+Le système peut ainsi effectuer la réconciliation entre l’événement et le profil de l’iindividu. Si vous sélectionnez un schéma doté d&#39;une identité principale, les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Espace de noms]** sont déjà renseignés. Si aucune identité n&#39;est définie, _identityMap > id_ est la clé principale. Vous devez ensuite sélectionner un espace de noms et la clé est automatiquement préremplie à l’aide de la fonction _identityMap > id_.
 
 Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
 
 ![](assets/primary-identity.png)
 
-Si vous devez utiliser une autre clé, telle qu’un identifiant CRM ou une adresse email, vous devez l’ajouter manuellement, comme expliqué ci-dessous :
+Si vous devez utiliser une autre clé, telle qu&#39;un ID CRM ou une adresse e-mail, vous devez l&#39;ajouter manuellement, comme expliqué ci-dessous :
 
-1. Cliquez dans le **[!UICONTROL Identifiant de profil]** ou sur l’icône en forme de crayon.
+1. Cliquez dans le champ **[!UICONTROL Identifiant du profil]** ou sur l&#39;icône représentant un crayon.
 
    ![](assets/journey16.png)
 
-1. Sélectionnez le champ choisi comme clé dans la liste des champs de payload. Vous pouvez également passer à l’éditeur d’expression avancé pour créer des clés plus complexes (par exemple, une concaténation de deux champs des événements).
+1. Sélectionnez le champ choisi comme clé dans la liste des champs de payload. Vous pouvez également basculer vers l&#39;éditeur d&#39;expression avancé pour créer des clés plus complexes (une concaténation de deux champs des événements, par exemple).
 
    ![](assets/journey20.png)
 
-Lorsque l’événement est reçu, la valeur de la clé permet au système d’identifier la personne associée à l’événement. Associée à un espace de noms (voir [cette section](../event/about-creating.md#select-the-namespace)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
+Lorsque l&#39;événement est reçu, la valeur de la clé permet au système d&#39;identifier la personne qui y est associée. Associée à un espace de noms (voir [cette section](../event/about-creating.md#select-the-namespace)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
 Vous avez également accès aux fonctions d&#39;expression avancées (**[!UICONTROL Mode avancé]**) si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d&#39;un champ (les 10 premiers caractères, par exemple), etc. Consultez cette [page](../building-journeys/expression/expressionadvanced.md).
