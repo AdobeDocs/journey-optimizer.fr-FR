@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Notez également que si deux attentes différentes s&#39;exécutent en parallèl
 >
 >La durée d&#39;attente maximale est de 30 jours.
 >
->En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
+>En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
 
 ## Durée de l&#39;attente{#duration}
 

@@ -9,7 +9,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -86,11 +86,11 @@ Vous trouverez ici l&#39;activité **Message** qui vous permet d&#39;inclure un 
 
 Vous trouverez également les actions personnalisées que vous avez configurées pour envoyer des messages avec des systèmes tiers. En savoir plus dans cette [section](about-journey-activities.md#action-activities).
 
-## Ajouter des chemins alternatifs{#paths}
+## Ajout de chemins alternatifs{#paths}
 
-Vous pouvez définir une action de secours en cas d’erreur ou de dépassement de délai pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
+Vous pouvez définir une action de remplacement en cas d’erreur ou de dépassement de délai pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
 
-Pour ajouter une action de secours pour une activité, sélectionnez l’option **[!UICONTROL Ajouter un autre chemin en cas de dépassement de délai ou d’erreur]** dans les propriétés de l’activité : un autre chemin est ajouté après l’activité. Le délai d’expiration est défini par les utilisateurs administrateurs dans la variable [Propriétés du parcours](../building-journeys/journey-gs.md#change-properties). Par exemple, si l&#39;envoi d&#39;un email prend trop de temps ou est en erreur, vous pouvez décider d&#39;envoyer une notification push.
+Pour ajouter une action de remplacement pour une activité, sélectionnez l’option **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les propriétés de l’activité : un autre chemin est ajouté après l’activité. Le délai d’expiration est défini par les utilisateurs administrateurs dans la variable [Propriétés du parcours](../building-journeys/journey-gs.md#change-properties). Par exemple, si l&#39;envoi d&#39;un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d&#39;envoyer une notification push.
 
 ![](assets/journey42.png)
 
@@ -106,7 +106,7 @@ Dans la zone de travail, un avertissement s&#39;affiche lorsque deux activités 
 
 ![](assets/canvas-disconnected.png)
 
-## Copier et coller des activités {#copy-paste}
+## Copie et collage d’activités {#copy-paste}
 
 Vous pouvez copier une ou plusieurs activités d&#39;un parcours et les coller soit dans le même parcours, soit dans un autre. C&#39;est un gain de temps si vous souhaitez réutiliser de nombreuses activités déjà configurées lors d&#39;un parcours précédent.
 

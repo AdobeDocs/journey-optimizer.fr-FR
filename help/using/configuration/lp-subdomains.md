@@ -3,7 +3,8 @@ title: Configurer les sous-domaines des pages de destination
 description: Découvrez comment configurer des sous-domaines de landing page avec Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
+source-git-commit: e57ea0f4beda9c0e3e58074339633187cc0bc02b
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 98%
@@ -74,7 +75,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour créer des préréglages de page de destination.
 
-## Configurer un nouveau sous-domaine           {#lp-configure-new-subdomain}
+## Configurer un nouveau sous-domaine {#lp-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"

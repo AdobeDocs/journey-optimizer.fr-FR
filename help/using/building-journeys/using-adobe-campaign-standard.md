@@ -1,6 +1,6 @@
 ---
 title: Actions d'Adobe Campaign Standard
-description: En savoir plus sur les actions Adobe Campaign Standard
+description: En savoir plus sur les actions Adobe Campaign Standard
 feature: Actions
 topic: Administration
 role: Admin
@@ -9,13 +9,13 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Actions d&#39;Adobe Campaign Standard {#using_campaign_action}
 
-Si vous disposez d’Adobe Campaign Standard, les activités d’action intégrées suivantes sont disponibles : **[!UICONTROL Email]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**.
+Si vous utilisez Adobe Campaign Standard, les activités d’action intégrées suivantes sont disponibles : **[!UICONTROL E-mail]**, **[!UICONTROL Push]** et **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Pour chacun de ces canaux, vous sélectionnez un **modèle** de message transact
 
 >[!NOTE]
 >
->Le message transactionnel du Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Optimizer. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Optimizer. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Optimizer, mais il ne sera pas utilisable.
+>Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Optimizer. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Optimizer. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Optimizer, mais il ne sera pas utilisable.
 
 ![](assets/journey59.png)
 
@@ -45,7 +45,7 @@ Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SM
 
 >[!NOTE]
 >
->Pour les emails, si vous utilisez un modèle transactionnel basé sur les profils, le mécanisme de désabonnement est géré par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’e-mail de la personne dans le paramètre d’URL et qui pointe vers une page de destination de désabonnement. Vous devez créer cette page de destination et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
+>Dans le cas des e-mails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré de manière intégrée par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’e-mail de la personne dans le paramètre d’URL et qui pointe vers une page de destination de désabonnement. Vous devez créer cette page de destination et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
 
 Vous devez, tout d’abord, choisir un modèle de message transactionnel.
 

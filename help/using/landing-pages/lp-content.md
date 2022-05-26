@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 79%
+ht-degree: 86%
 
 ---
 
@@ -44,11 +44,11 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](assets/lp_designer-form-update.png)
 
-   Sélectionnez l’une des trois options suivantes :
+   Sélectionnez l’une des trois options suivantes :
 
-   * **[!UICONTROL Inclusion si coché]**: les utilisateurs doivent cocher la case pour accepter (opt-in).
-   * **[!UICONTROL Exclusion si coché]**: les utilisateurs doivent cocher la case pour retirer leur consentement (opt-out).
-   * **[!UICONTROL Inclusion si coché, exclusion si non coché]**: cette option vous permet d’insérer une seule case à cocher pour l’inclusion/exclusion. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out).
+   * **[!UICONTROL Inclusion si coché]** : les utilisateurs doivent cocher la case pour accepter (opt-in).
+   * **[!UICONTROL Exclusion si coché]** : les utilisateurs doivent cocher la case pour retirer leur consentement (opt-out).
+   * **[!UICONTROL Inclusion si coché, exclusion si non coché]** : cette option vous permet d’insérer une seule case à cocher pour l’inclusion/exclusion. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out).
 
 1. Parmi les trois options suivantes, choisissez celles qui seront mises à jour :
 

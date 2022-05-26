@@ -9,7 +9,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1302'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ L&#39;éditeur d’expression avancé vous permet de configurer des conditions p
 
 ## Condition de temps{#time_condition}
 
-Cette condition vous permet d’effectuer des actions différentes en fonction de l’heure et/ou du jour. Par exemple, vous pouvez décider d’envoyer des notifications push pendant la journée et des emails la nuit pendant la semaine.
+Cette condition vous permet d’effectuer des actions différentes en fonction de l’heure et/ou du jour. Par exemple, les jours de semaine, vous pouvez choisir d’envoyer des SMS pendant la journée et des e-mails la nuit.
 
 >[!NOTE]
 >

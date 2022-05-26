@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Ce document couvrait les connaissances préalables requises pour effectuer des a
 
 >[!NOTE]
 >
-> Le canal Messagerie in-app de Adobe Journey Optimizer utilise des objets offer decisioning. Si votre entreprise utilise le canal de messagerie in-app, les demandes de liste d’API pour les objets incluront les objets créés par le service de messagerie in-app et pourront être ignorées pour les cas d’utilisation d’offer decisioning. Les objets créés pour les messages in-app auront `createdBy = “Mobile_Sheliak”`.
+> Le canal Messagerie in-app d’Adobe Journey Optimizer utilise des objets Offer Decisioning. Si votre entreprise utilise le canal de messagerie in-app, les demandes de liste d’API pour les objets incluront les objets créés par le service de messagerie in-app et pourront être ignorées pour les cas d’utilisation Offer Decisioning. Les objets créés pour les messages in-app auront `createdBy = “Mobile_Sheliak”`.
 
 ## Vidéo pratique {#video}
 

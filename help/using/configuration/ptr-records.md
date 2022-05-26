@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -93,13 +93,13 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
 
 ## Vérification des détails de la mise à jour de l’enregistrement PTR {#check-ptr-record-update}
 
-Une fois que vous avez confirmé la modification de l’enregistrement PTR, la variable **[!UICONTROL Traitement]** s’affiche en regard du nom de l’enregistrement PTR dans la liste.
+Une fois que vous avez confirmé la modification de l’enregistrement PTR, l’icône **[!UICONTROL Traitement en cours]** s’affiche en regard du nom de l’enregistrement PTR dans la liste.
 
 ![](assets/ptr-record-updating.png)
 
 >[!NOTE]
 >
->Le [traitement des mises à jour](#processing) peut prendre jusqu’à quelques heures.
+>Le [traitement de la mise à jour](#processing) peut prendre jusqu’à quelques heures.
 
 Pour vérifier les détails de la mise à jour de l’enregistrement PTR, cliquez sur l’icône en regard de celui-ci. En savoir plus sur les statuts associés aux différentes icônes dans [cette section](#ptr-record-update-statuses).
 

@@ -9,7 +9,7 @@ exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -124,8 +124,8 @@ Reportez-vous à la section [Documentation de la gestion des décisions](../../g
 | Propriété | Description | Exemple |
 | -------- | ----------- | ------- |
 | `@id` | L&#39;UUID généré par Offer Decisioning qui identifie une seule charge de travail. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | ID d’organisation. | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | ID de conteneur. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `xdm:imsOrgId` | L’ID de l’organisation. | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | L’ID du conteneur. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | L&#39;heure à laquelle la requête de charge de travail de la décision a été créée. | `1648078924834` |
 | `ode:status` | L&#39;état de la charge de travail. | `ode:status: "QUEUED"` |
 
@@ -173,8 +173,8 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | Propriété | Description | Exemple |
 | -------- | ----------- | ------- |
 | `@id` | L&#39;UUID généré par Offer Decisioning qui identifie une seule charge de travail. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | ID d’organisation | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | L&#39;ID de conteneur | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `xdm:imsOrgId` | L’ID de l’organisation | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | L’ID du conteneur | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | L&#39;heure à laquelle la requête de charge de travail de décision a été créée. | `1648076994405` |
 | `ode:status` | L&#39;état de la charge de travail commence par « QUEUED » et passe à « PROCESSING », « INGESTING », « COMPLETED » ou « ERROR ». | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Elle affiche plus de détails, tels que sparkJobId et batchID si l&#39;état est « PROCESSING » ou « INGESTING ». Elle affiche les détails de l’erreur si l&#39;état est « ERROR ». |  |

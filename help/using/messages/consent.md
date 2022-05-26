@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Contenu de la requête :
 }
 ```
 
-[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant par le biais de l’appel API [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant par le biais de l’appel API [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
 
 #### Envoyer le message avec le lien de désinscription {#send-message-unsubscribe-link}
 
@@ -203,7 +203,7 @@ En fonction du client de messagerie, cliquer sur le lien de désabonnement de l&
    >
    >Si vous n&#39;ajoutez pas de lien de désinscription en un clic dans le contenu de votre message, aucune page de destination ne s&#39;affichera.
 
-* Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target=&quot;_blank&quot;}.
+* Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Gestion des désinscriptions push {#push-opt-out-management}
 

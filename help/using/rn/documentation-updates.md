@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -17,9 +17,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 mai a été détaillée dans la documentation. [En savoir plus](release-notes.md)
 * Nouveaux exemples de requête liés à [qualification de segment](../reports/query-examples.md#segment-qualification-queries) et [events](../reports/query-examples.md#event-based-queries) ont été ajoutés.
-* La section Conception d’emails mentionne désormais les nouveaux modèles natifs disponibles pour commencer le contenu. Les captures d’écran connexes ont été mises à jour. [En savoir plus](../design/design-emails.md)
+* La section Conception d’e-mail mentionne désormais les nouveaux modèles intégrés disponibles pour commencer le contenu. Les captures d’écran connexes ont été mises à jour. [En savoir plus](../design/design-emails.md)
 * Des liens vers des ressources clés ont été mis à jour dans la page d’accueil de la documentation Journey Optimizer.
-* Mise à jour des captures d’écran pour les rapports de landing page et d’abonnement - [En savoir plus](../reports/live-report.md)
+* Les captures d’écran pour les rapports d’abonnement et de page de destination ont été mises à jour. [En savoir plus](../reports/live-report.md)
 * Une note a été ajoutée indiquant que la méthode Delete n’est pas prise en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md)
 * Des liens vers des vidéos pratiques ont été mis à jour.
 * Le [Configuration des emails](../configuration/about-subdomain-delegation.md), [Paramètres prédéfinis de message](../configuration/message-presets.md) et [Configuration des landing pages](../configuration/lp-subdomains.md) ont été réorganisées afin d’en améliorer la lisibilité.

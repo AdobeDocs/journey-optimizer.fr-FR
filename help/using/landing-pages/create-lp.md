@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_open-designer.png)
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée dans le cadre du [paramètre prédéfini](../configuration/lp-presets.md#lp-create-preset) vous avez sélectionné. [En savoir plus](../configuration/lp-subdomains.md)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du [préréglage](../configuration/lp-presets.md#lp-create-preset) que vous avez sélectionné. [En savoir plus](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -93,13 +93,13 @@ Pour définir les paramètres de la page principale, procédez comme suit.
    >
    >Vous ne pouvez pas accéder à votre page de destination en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
 
-1. Si vous souhaitez que la landing page pré-charge les données de formulaire déjà disponibles, sélectionnez la **[!UICONTROL Préremplir les champs de formulaire avec les informations de profil]**.
+1. Si vous souhaitez que la page de destination précharge les données de formulaire déjà disponibles, sélectionnez **[!UICONTROL Préremplir les champs de formulaire avec les informations de profil]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
-   Lorsque cette option est activée, si un profil s’est déjà inscrit/désinscrit ou a déjà été ajouté à une liste d’abonnements, ses choix seront pris en compte lors de l’affichage de la landing page.
+   Lorsque cette option est activée, si un profil s’est déjà inscrit/désinscrit ou a déjà été ajouté à une liste d’abonnements, ses choix seront pris en compte lors de l’affichage de la page de destination.
 
-   Par exemple, si un profil a choisi de recevoir des communications sur des événements futurs, la case à cocher correspondante sera déjà sélectionnée la prochaine fois que la landing page sera affichée sur ce profil.
+   Par exemple, si un profil a choisi de recevoir des communications sur des événements futurs, la case à cocher correspondante sera déjà sélectionnée la prochaine fois que la page de destination sera affichée sur ce profil.
 
    ![](assets/lp_prefill-form-ex.png)
 

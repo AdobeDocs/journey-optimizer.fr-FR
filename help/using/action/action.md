@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="À propos des actions"
 >abstract="C&#39;est à ce niveau qu&#39;est définie la connexion au système qui enverra les messages. Les actions définies ici seront ensuite disponibles dans la palette de gauche de votre parcours, dans la catégorie Action."
 
-Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
+Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des e-mails, ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 

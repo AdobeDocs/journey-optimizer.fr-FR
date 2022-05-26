@@ -278,7 +278,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 **Configuration des e-mails**
 
 * **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](../reports/allow-list.md#enable-allow-list)
-* **Navigation** : la liste de suppression, accessible sous le menu **Administration > Canaux > Configuration des emails > Général** a été déplacée vers le nouveau sous-menu  **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](../configuration/manage-suppression-list.md#access-suppression-list)
+* **Navigation** : la liste de suppression, accessible sous le menu **Administration > Canaux > Configuration des emails > Général** a été déplacée vers le nouveau sous-menu **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestion des décisions**
 

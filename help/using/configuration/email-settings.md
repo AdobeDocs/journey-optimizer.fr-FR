@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
 workflow-type: tm+mt
 source-wordcount: '2232'
-ht-degree: 34%
+ht-degree: 39%
 
 ---
 
@@ -48,7 +48,7 @@ Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous d
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-Vous ne pouvez pas poursuivre la création de paramètres prédéfinis lorsque le pool IP sélectionné se trouve sous [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Traitement]** (status) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association pool/sous-domaine d’IP sera toujours utilisée. Si c’est le cas, enregistrez le paramètre prédéfini en tant que brouillon, puis réessayez une fois que le pool IP a la valeur **[!UICONTROL Succès]** statut.
+Vous ne pouvez pas poursuivre la création du préréglage lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](ip-pools.md#edit-ip-pool) (statut **[!UICONTROL Traitement en cours]**) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez le préréglage en tant que brouillon, puis réessayez une fois que le groupe d’adresses IP a le statut **[!UICONTROL Succès]**.
 
 >[!NOTE]
 >
@@ -362,9 +362,9 @@ Trois paramètres de suivi d’URL sont automatiquement renseignés par exemple 
 
 Pour configurer un paramètre de suivi d’URL, vous pouvez entrer directement les valeurs souhaitées dans la variable **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** ou effectuez une sélection dans une liste de valeurs prédéfinies en accédant aux objets suivants :
 
-* Attributs de parcours : **ID source**, **Nom de la source**, **Identifiant de version source**
+* Attributs de parcours : **Identifiant de la source**, **Nom de la source**, **Identifiant de la version de la source**
 * Attributs d’action : **Action id**, **Nom de l’action**
-* Attributs d’Offer decisioning : **Identifiant de l’offre**, **Nom de l’offre**
+* Attributs d’Offer Decisioning : **Identifiant de l’offre**, **Nom de l’offre**
 
 ![](assets/preset-url-tracking-source.png)
 
@@ -380,4 +380,4 @@ Vous trouverez ci-dessous des exemples d’URL compatibles avec Adobe Analytics 
 
 >[!NOTE]
 >
->Vous pouvez combiner des valeurs de saisie de texte et la sélection de valeurs prédéfinies. Chaque **[!UICONTROL Valeur]** peut contenir jusqu’à 255 caractères au total.
+>Vous pouvez combiner des valeurs de saisie de texte et la sélection de valeurs prédéfinies. Chaque champ **[!UICONTROL Valeur]** peut contenir jusqu’à 255 caractères au total.
