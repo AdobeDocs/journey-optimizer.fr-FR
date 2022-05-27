@@ -2,9 +2,9 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 35%
 
 ---
@@ -48,6 +48,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
+<p>Date de disponibilité : <strong>31 mai</strong></p>
 <p>Vous pouvez désormais utiliser la fonctionnalité Email Cci (copie carbone invisible) pour stocker les emails envoyés par Adobe Journey Optimizer. Activez cette option dans vos paramètres prédéfinis d’e-mail de sorte que chaque e-mail envoyé soit copié aveuglément vers votre adresse Cci.</p>
 <img src="assets/bcc-rn.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../configuration/email-settings.md#bcc-email">documentation détaillée</a>.</p>

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 39%
+source-wordcount: '2246'
+ht-degree: 38%
 
 ---
 
@@ -138,6 +138,10 @@ L’adresse email de transfert sera configurée par Adobe. Cela peut prendre de 
 
 Vous pouvez envoyer une copie identique (ou une copie en carbone invisible) d’un email envoyé par [!DNL Journey Optimizer] dans une boîte de réception Cci. Cette fonctionnalité facultative vous permet de conserver des copies des communications par e-mail que vous envoyez à vos utilisateurs à des fins de conformité et/ou d’archivage. Cela sera invisible pour les destinataires de la diffusion.
 
+>[!CAUTION]
+>
+>Cette fonctionnalité sera disponible dès le début. **31 mai**.
+
 ### Activer les emails en Cci {#enable-bcc}
 
 Pour activer la variable **[!UICONTROL Email Cci]** , saisissez l&#39;adresse email de votre choix dans le champ dédié. Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse électronique définie sur le sous-domaine délégué. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, toute adresse telle que *abc@marketing.luma.com* est interdite.
@@ -145,6 +149,8 @@ Pour activer la variable **[!UICONTROL Email Cci]** , saisissez l&#39;adresse em
 >[!NOTE]
 >
 >Vous ne pouvez définir qu&#39;une seule adresse email en Cci. Assurez-vous que l&#39;adresse en Cci dispose d&#39;une capacité de réception suffisante pour stocker tous les emails envoyés à l&#39;aide du paramètre prédéfini actuel.
+>
+>D’autres recommandations sont répertoriées dans la section [cette section](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communication
 >
 >Vous n’avez pas besoin de republier un message ou un parcours pour que le paramètre Cci soit sélectionné.
 
-### Recommandations et limitations {#recommendations-limitations}
+### Recommandations et limitations {#bcc-recommendations-limitations}
 
-* Assurez-vous que l&#39;adresse email en Cci est correctement définie. Si ce n’est pas le cas, les informations d’identification personnelle de vos clients peuvent être envoyées à une adresse indésirable.
+* Pour garantir la conformité de vos informations personnelles, les emails en Cci doivent être traités par un système d’archivage capable de stocker en toute sécurité des informations d’identification personnelles (PII).
 
-* Pour des raisons de confidentialité, les emails en Cci doivent être traités dans un système d’archivage capable de stocker en toute sécurité les informations d’identification personnelles (PII).
-
-* Cette fonctionnalité peut diffuser l’adresse email en Cci avant la diffusion aux destinataires, ce qui peut entraîner l’envoi de messages en Cci même si les diffusions d’origine peuvent avoir [bounce](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* Si les emails envoyés à l&#39;adresse en Cci sont ouverts et font l&#39;objet de clics, cela sera pris en compte dans le total des ouvertures et des clics de l&#39;analyse d&#39;envoi, ce qui pourrait entraîner des erreurs de calcul dans [rapports](../reports/message-monitoring.md). De même, le marquage des emails en Cci entrant dans votre boîte de réception comme spam peut entraîner l’entrée des emails dans le dossier spam de votre boîte de réception.
+* Comme les messages peuvent contenir des données sensibles ou privées, telles que des informations d’identification personnelle (PII), vérifiez que l’adresse en Cci est correcte et sécurisez l’accès aux messages.
 
 * Votre boîte de réception utilisée pour la fonctionnalité Cci doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des rebonds, certains emails peuvent ne pas être reçus et ne seront donc pas archivés.
 
+* Les messages peuvent être envoyés à l&#39;adresse email en Cci avant les destinataires cibles. Les messages en Cci peuvent également être envoyés même si les messages originaux peuvent avoir [bounce](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Ne pas ouvrir ni cliquer sur les emails envoyés à l&#39;adresse en Cci, car cela est pris en compte dans le nombre total d&#39;ouvertures et de clics de l&#39;analyse d&#39;envoi, ce qui peut entraîner des erreurs de calcul dans [rapports](../reports/message-monitoring.md).
+
+* Ne marquez pas les messages comme spam dans la boîte de réception en Cci, car cela aura un impact sur tous les autres emails envoyés à cette adresse.
+
+
 >[!CAUTION]
 >
->Évitez de cliquer sur le lien de désabonnement dans les emails envoyés à l&#39;adresse en Cci, car vous désabonnez immédiatement les destinataires correspondants.
+>Ne cliquez pas sur le lien de désabonnement dans les emails envoyés à l&#39;adresse en Cci, car vous désabonnerez immédiatement les destinataires correspondants.
 
 ### Conformité au RGPD {#gdpr-compliance}
 
