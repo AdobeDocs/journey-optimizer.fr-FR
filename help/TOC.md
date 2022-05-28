@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 94%
+source-wordcount: '1058'
+ht-degree: 93%
 
 ---
 
@@ -264,10 +264,16 @@ ht-degree: 94%
       + [Création d’emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
       + [Création de balises](using/offers/offer-library/creating-tags.md)
-      + [Création de formules de classement](using/offers/offer-library/create-ranking-formulas.md)
-      + Créer des modèles d’IA de classement {#create-ai-ranking-models}
-         + [À propos des modèles d’IA](using/offers/offer-library/ai-ranking.md)
-         + [Créer des modèles d’IA](using/offers/offer-library/create-ranking-strategies.md)
+   + Création de classements {#rankings}
+      + [Prise en main des classements](using/offers/ranking/get-started-rankings.md)
+      + [Formules de classement](using/offers/ranking/create-ranking-formulas.md)
+      + Modèles d’IA {#ai-models}
+         + [À propos des modèles d’IA](using/offers/ranking/ai-models.md)
+         + [Modèle dʼoptimisation automatique](using/offers/ranking/auto-optimization-model.md)
+         + Créer des modèles d’IA {#configure-ai-model}
+            + [Création d’un jeu de données pour collecter des événements](using/offers/ranking/create-dataset.md)
+            + [Création d’un modèle AI](using/offers/ranking/create-ranking-strategies.md)
+            + [Configuration de la capture d’événements](using/offers/ranking/schema-requirement.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
       + Configuration des offres {#configure-offers}
          + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)

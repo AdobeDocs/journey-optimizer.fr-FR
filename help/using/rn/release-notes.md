@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 35%
+source-wordcount: '422'
+ht-degree: 34%
 
 ---
 
@@ -58,22 +58,22 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Decision Management - AI Ranking auto-optimization model</strong><br/></th>
+<th><strong>Gestion des décisions - Modèle d’optimisation automatique du classement AI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use trained model systems in Decision Management. This new capability ranks offers to display for a given profile.</p>
+<p>Vous pouvez désormais utiliser des systèmes de modèle formés dans la gestion de la décision. Cette nouvelle fonctionnalité classe les offres à afficher pour un profil donné.</p>
 <img src="assets/optimization.gif"/>
-<p>For more information, refer to the <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detailed documentation</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>

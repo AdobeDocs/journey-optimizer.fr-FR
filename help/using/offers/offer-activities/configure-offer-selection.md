@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 Si plusieurs offres sont éligibles pour un emplacement donné, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la configuration d’une décision. Vous pouvez classer les offres par :
 * Priorité des offres
 * Formule de classement
-* [Classement par l’IA](#use-ranking-strategy) (en accès anticipé pour certains utilisateurs uniquement)
+* [Classement par l&#39;IA](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -36,7 +36,7 @@ En plus de la priorité d’offre, Journey Optimizer vous permet de créer des 
 
 Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ».
 
-Découvrez comment créer une formule de classement dans [cette section](../offer-library/create-ranking-formulas.md).
+Découvrez comment créer une formule de classement dans [cette section](../ranking/create-ranking-formulas.md).
 
 Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
@@ -62,11 +62,7 @@ Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Vous pouvez également utiliser un système de modèles entraînés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant une stratégie de classement. Découvrez comment créer une stratégie de classement dans [cette section](../offer-library/create-ranking-strategies.md).
-
->[!CAUTION]
->
->L’utilisation du classement par l’IA est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
+Vous pouvez également utiliser un système de modèles entraînés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant une stratégie de classement. Découvrez comment créer une stratégie de classement dans [cette section](../ranking/create-ranking-strategies.md).
 
 Après avoir créé une stratégie de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
