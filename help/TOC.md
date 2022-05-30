@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 9f7339069a9ccfbe3fa2bf8bf8e06fe90bd0d407
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 93%
@@ -185,8 +185,8 @@ ht-degree: 93%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
+            + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
