@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 96%
+source-wordcount: '669'
+ht-degree: 99%
 
 ---
 
@@ -91,9 +91,11 @@ Pour créer un nouveau message, procédez comme suit :
 
    ![](assets/create-messages-content.png)
 
+   <!--
    >[!NOTE]
    >
-   >Si vous avez activé la variable **[!UICONTROL Email Cci]** dans le paramètre prédéfini, l’adresse email en Cci s’affiche sous l’adresse email de l’expéditeur. [En savoir plus](../configuration/email-settings.md#bcc-email)
+   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
+   -->
 
    Vous pouvez désormais créer le contenu du message et adapter les paramètres. Des informations détaillées sur la configuration des emails et des notifications push sont disponibles dans les sections suivantes :
 

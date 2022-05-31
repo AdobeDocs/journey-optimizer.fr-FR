@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 34%
+source-wordcount: '372'
+ht-degree: 36%
 
 ---
 
@@ -39,23 +39,23 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </table-->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>E-mail Cci</strong><br/></th>
+<th><strong>Email BCC</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Date de disponibilité : <strong>31 mai</strong></p>
-<p>Vous pouvez désormais utiliser la fonctionnalité Email Cci (copie carbone invisible) pour stocker les emails envoyés par Adobe Journey Optimizer. Activez cette option dans vos paramètres prédéfinis d’e-mail de sorte que chaque e-mail envoyé soit copié aveuglément vers votre adresse Cci.</p>
+<p>Availability date: <strong>May, 31</strong></p>
+<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <img src="assets/bcc-rn.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../configuration/email-settings.md#bcc-email">documentation détaillée</a>.</p>
+<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
