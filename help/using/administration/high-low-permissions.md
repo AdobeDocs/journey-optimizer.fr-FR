@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1141'
 ht-degree: 100%
 
 ---
@@ -431,24 +431,22 @@ Elle comprend les autorisations de bas niveau suivantes :
    * landing_page_preset.write
    * landing_page_preset.delete
 
-<!--
-### [!DNL Manage frequency rules] permission {#manage-frequency-rules}
+### Autorisation [!DNL Manage frequency rules] {#manage-frequency-rules}
 
-The **[!DNL Manage frequency rules]** high-level permission allows users to read, create, edit, delete and activate/deactivate frequency rules.
+L’autorisation de haut niveau **[!DNL Manage frequency rules]** permet aux utilisateurs de lire, de créer, de modifier, de supprimer et d’activer/désactiver les règles de fréquence.
 
-It includes the following low-level permissions:
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Journey Optimizer specific: 
-  * frequency_rules.read
-  * frequency_rules.write
-  * frequency_rules.delete
+* Spécifiques à Journey Optimizer :
+   * frequency_rules.read
+   * frequency_rules.write
+   * frequency_rules.delete
 
-### [!DNL View frequency rules] permission {#view-frequency-rules}
+### Autorisation [!DNL View frequency rules] {#view-frequency-rules}
 
-The **[!DNL View frequency rules]** high-level permission allows users to view frequency rules. 
+L’autorisation de haut niveau **[!DNL View frequency rules]** permet aux utilisateurs d’afficher les règles de fréquence.
 
-It includes the following low-level permissions:
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Journey Optimizer specific: 
-  * frequency_rules.read
--->
+* Spécifiques à Journey Optimizer :
+   * frequency_rules.read
