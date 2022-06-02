@@ -1,16 +1,17 @@
 ---
 title: Notes de mise à jour précédentes (2021)
-description: Notes de mise à jour de Journey Optimizer 2021
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
+description: Notes de mise à jour 2021 pour Journey Optimizer
+exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '2073'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2021 {#release-notes-2021}
 
-Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publié en 2021.
+Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2021.
 
 
 ## Publication de novembre 2021 {#november-2021-release}

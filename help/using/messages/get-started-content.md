@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ Pour créer un nouveau message, procédez comme suit :
    * Sélectionnez le ou les canaux à utiliser pour ce message : email et/ou notification push. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
    >[!NOTE]
    >
-   >Vous pouvez cliquer sur le lien **[!UICONTROL Règle de fréquence]** pour afficher les règles de fréquence qui s’appliqueront à la catégorie et aux canaux sélectionnés. En savoir plus sur [règles de fréquence](../configuration/frequency-rules.md).
+   >Vous pouvez cliquer sur le lien **[!UICONTROL Règle de fréquence]** pour afficher les règles de fréquence qui s’appliqueront à la catégorie et aux canaux sélectionnés. En savoir plus sur les [règles de fréquence](../configuration/frequency-rules.md).
 
    * Sélectionnez le **[!UICONTROL Préréglage]** à utiliser pour le message.
 
-      Les préréglages comprennent tous les paramètres requis pour qu&#39;un email et/ou une notification push soit envoyés selon votre marque. En savoir plus sur [paramètres prédéfinis](../configuration/message-presets.md).
+      Les préréglages comprennent tous les paramètres requis pour qu&#39;un email et/ou une notification push soit envoyés selon votre marque. En savoir plus sur les [préréglages](../configuration/message-presets.md)
    >[!CAUTION]
    >
    >Vous devez choisir un paramètre de message prédéfini valide pour la catégorie et le ou les canaux sélectionnés.

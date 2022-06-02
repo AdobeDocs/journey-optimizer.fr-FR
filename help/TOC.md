@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9f7339069a9ccfbe3fa2bf8bf8e06fe90bd0d407
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 93%
 
 + [Documentation Journey Optimizer](ajo-home.md)
 + Nouveautés {#whats-new}
-   + [Dernières notes de mise à jour](using/rn/release-notes.md)
+   + [Dernières notes de mise à jour de](using/rn/release-notes.md)
    + Notes de mise à jour précédentes {#previous-rn-new}
-      + [Notes de mise à jour 2022](using/rn/release-notes-2022.md)
-      + [Notes de mise à jour 2021](using/rn/release-notes-2021.md)
+      + [Notes de mise à jour 2022](using/rn/release-notes-2022.md)
+      + [Notes de mise à jour 2021](using/rn/release-notes-2021.md)
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
 + Prise en main{#get-started}
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Démarrage rapide{#quick-start}
       + [Présentation](using/start/quick-start.md)
       + [Prise en main en tant que marketeur](using/start/path/marketer.md)
-      + [Prise en main en tant qu’ingénieur des données](using/start/path/data-engineer.md)
+      + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
    + [Interface utilisateur](using/start/user-interface.md)
@@ -64,14 +64,14 @@ ht-degree: 93%
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Création d’une page de destination](using/landing-pages/create-lp.md)
    + Conception du contenu {#landing-pages-design}
-      + [A propos de la conception d&#39;une landing page](using/landing-pages/design-lp.md)
-      + [Créer le contenu de la landing page](using/landing-pages/lp-content.md)
+      + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
+      + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
       + [Création de modèles](using/landing-pages/lp-templates.md)
       + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
    + [Création d’une liste dʼabonnements](using/landing-pages/subscription-list.md)
    + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
 + Personnalisation{#personalization}
-   + [Prise en main  de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main   de la personnalisation](using/personalization/personalize.md)
    + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
    + Création d’expressions {#build-expressions}
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
@@ -369,14 +369,14 @@ ht-degree: 93%
             + [Gestion de la liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
       + [Configuration du canal SMS](using/configuration/sms-configuration.md)
-      + Configuration des paramètres prédéfinis de message {#set-up-message-presets}
-         + [Créer des préréglages de message](using/configuration/message-presets.md)
-         + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
+      + Configuration des préréglages de message {#set-up-message-presets}
+         + [Création de préréglages de message](using/configuration/message-presets.md)
+         + [Configuration des paramètres d’e-mail](using/configuration/email-settings.md)
       + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)
       + [Configuration des règles de fréquence](using/configuration/frequency-rules.md)
-   + Configuration des pages de destination {#lp-configuration}
-      + [Configurer les sous-domaines des pages de destination](using/configuration/lp-subdomains.md)
-      + [Définir les préréglages de page de destination](using/configuration/lp-presets.md)
+   + Configuration des pages de destination  {#lp-configuration}
+      + [Configuration des sous-domaines des pages de destination](using/configuration/lp-subdomains.md)
+      + [Définition des préréglages de page de destination](using/configuration/lp-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + [Intégration aux systèmes externes](using/configuration/external-systems.md)

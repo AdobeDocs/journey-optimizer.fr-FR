@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 35%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais définir des règles métier cross-canal qui excluront automatiquement les profils sur-sollicités des messages et actions.</p>
+<p>Vous pouvez désormais définir des règles métier cross-canal qui excluront automatiquement les profils sursollicités des messages et actions.</p>
 <img src="assets/frequency-rn.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../configuration/frequency-rules.md">documentation détaillée</a>.</p>
 </td>
@@ -113,14 +113,14 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Personnalisation**
 
-* **Nouvelle fonction d’assistance pour le masquage des caractères** - Le `mask` La fonction d’assistance vous permet de remplacer une partie d’une chaîne par des caractères &quot;X&quot;. [En savoir plus](../personalization/functions/string.md#mask)
+* **Nouvelle fonction d’assistance pour le masquage des caractères** : la fonction d’assistance `mask` vous permet de remplacer une partie d’une chaîne par des caractères « X ». [En savoir plus](../personalization/functions/string.md#mask)
 
 **Pages de destination**
 
-* **Landing pages sans formulaire** - Vous pouvez désormais créer et publier une landing page qui ne contient pas de formulaire et ne nécessite aucune action de la part des visiteurs.
-* **Modèles de landing page** - Vous pouvez désormais enregistrer une landing page en tant que modèle et la réutiliser lors de la création d&#39;autres landing pages. [En savoir plus](../landing-pages/lp-templates.md)
-* **Retour à la Principale page** - Vous pouvez désormais ajouter un lien vers la Principale page à partir de n’importe quelle sous-page de la même page d’entrée.
-* **Prise en charge JavaScript personnalisée** - Vous pouvez désormais ajouter du code JavaScript personnalisé au contenu de votre page d’entrée pour appliquer un style avancé ou ajouter des comportements personnalisés à vos pages d’entrée.	[En savoir plus](../landing-pages/lp-custom-js.md)
+* **Pages de destination sans formulaire** : vous pouvez maintenant créer et publier une page de destination qui ne contient pas de formulaire et ne nécessite aucune action de la part des visiteurs.
+* **Modèles de page de destination** : vous pouvez maintenant enregistrer une page de destination en tant que modèle et la réutiliser lors de la création d’autres pages de destination. [En savoir plus](../landing-pages/lp-templates.md)
+* **Retour à la page principale** : vous pouvez maintenant ajouter un lien vers la page principale à partir de n’importe quelle sous-page de la même page de destination.
+* **Prise en charge de code JavaScript personnalisé** : vous pouvez désormais ajouter du code JavaScript personnalisé au contenu de votre page de destination pour appliquer un style avancé ou ajouter des comportements personnalisés à vos pages de destination.	[En savoir plus](../landing-pages/lp-custom-js.md)
 
 <!--**Decision management**
 
@@ -128,5 +128,5 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Parcours**
 
-* **Lecture de segment** - Les parcours de lecture en une seule fois de segment sont désormais mis à l’état Terminé 30 jours après l’exécution du parcours. Pour les segments de lecture planifiés, il s’agit de 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-segment.md)
-* **Editeur d&#39;expression** - Le [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. Le [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée à la fonction [disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) fonctions.
+* **Lecture de segment** : les parcours de lecture de segment en une seule fois sont désormais mis à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-segment.md)
+* **Éditeur d&#39;expression** : la fonction [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
