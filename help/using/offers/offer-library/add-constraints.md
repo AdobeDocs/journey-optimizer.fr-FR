@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1616'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
+>title="À propos des contraintes d&#39;offre"
+>abstract="Les contraintes vous permettent de spécifier le type de priorisation de l&#39;offre et la manière dont elle est présentée à l&#39;utilisateur en comparaison avec d&#39;autres offres."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_constraints"
 >title="À propos des contraintes d&#39;offre"
 >abstract="Les contraintes vous permettent de spécifier le type de priorisation de l&#39;offre et la manière dont elle est présentée à l&#39;utilisateur en comparaison avec d&#39;autres offres."
 
