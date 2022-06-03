@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,12 @@ Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail
 * Les destinataires qui déposent une plainte pour spam contre l&#39;un de vos e-mails.
 
 Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../reports/suppression-list.md).
+
+Vous pouvez également ajouter [**manuellement** une adresse ou un domaine](#add-addresses-and-domains) à la liste de suppression.
+
+>[!NOTE]
+>
+>Cela prendra entre 0 et 60 minutes pour [!DNL Journey Optimizer] pour prendre en compte les adresses supprimées dans les emails sortants.
 
 ## Accès à la liste de suppression {#access-suppression-list}
 
@@ -105,7 +111,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="Ajouter des e-mails/domaines à la liste de suppression"
+>title="Ajout d’emails ou de domaines à la liste de suppression"
 >abstract="Vous pouvez également remplir manuellement la liste de suppression de Journey Optimizer pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi."
 
 Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
@@ -139,6 +145,10 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 
 1. Indiquez un motif si nécessaire.
 
+   >[!NOTE]
+   >
+   >Seuls les caractères ASCII compris entre 32 et 126 sont autorisés. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
+
 1. Cliquez sur **[!UICONTROL Envoyer]**.
 
 ### Téléchargement d’un fichier CSV {#upload-csv-file}
@@ -159,6 +169,9 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+   >[!NOTE]
+   >
+   >Pour la colonne Commentaire , seuls les caractères ASCII compris entre 32 et 126 sont autorisés. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
 
    Vous pouvez également télécharger ce modèle à partir de la vue principale **[!UICONTROL Liste de suppression]**.
 
@@ -175,6 +188,10 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
    ![](assets/suppression-list-upload-file-button.png)
 
 1. Cliquez sur **[!UICONTROL Envoyer]**.
+
+>[!NOTE]
+>
+>Une fois le chargement terminé, vérifiez qu’il a réussi en vérifiant son état dans l’interface. [Voici comment procéder](#recent-uploads)
 
 ### Vérification du statut des téléchargements récents {#recent-uploads}
 

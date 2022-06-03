@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 100%
+source-wordcount: '1361'
+ht-degree: 98%
 
 ---
 
@@ -198,6 +198,9 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
     </tr>
     <tr>
         <td><a href="string.md#matches">Matches</a></td><td>Cette fonction permet de déterminer si une chaîne correspond à une expression régulière donnée.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#mask">Masque</a></td><td>Cette fonction est utilisée pour remplacer une partie d’une chaîne par des caractères "X".</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">Not equals to</a></td><td>Cette fonction permet de déterminer si une chaîne est différente d'une chaîne donnée.</td>

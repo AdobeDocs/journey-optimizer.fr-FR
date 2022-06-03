@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Les actions personnalisées sont des actions supplémentaires définies par les 
 
 ## Limites{#custom-actions-limitations}
 
-Les actions personnalisées sont assorties de quelques limites répertoriées dans [cette page](../start/limitations.md).
+Les actions personnalisées sont assorties de quelques limites répertoriées dans [cette page](../start/guardrails.md).
 
 Dans les paramètres d’action personnalisés, vous pouvez transmettre une collection simple, ainsi qu’une collection d’objets. En savoir plus au sujet de ces limites de collection sur [cette page](../building-journeys/collections.md#limitations).
 

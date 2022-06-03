@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 93%
+source-wordcount: '465'
+ht-degree: 81%
 
 ---
 
@@ -122,11 +122,11 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 * **Retour à la page principale** : vous pouvez maintenant ajouter un lien vers la page principale à partir de n’importe quelle sous-page de la même page de destination.
 * **Prise en charge de code JavaScript personnalisé** : vous pouvez désormais ajouter du code JavaScript personnalisé au contenu de votre page de destination pour appliquer un style avancé ou ajouter des comportements personnalisés à vos pages de destination.	[En savoir plus](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **Parcours**
 
 * **Lecture de segment** : les parcours de lecture de segment en une seule fois sont désormais mis à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-segment.md)
 * **Éditeur d&#39;expression** : la fonction [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
+
+**Administration**
+
+**Mise à jour du tableau de bord d’utilisation des licences** - Le tableau de bord de l’utilisation des licences disponible dans l’interface utilisateur de Adobe Experience Platform reflète désormais la valeur exacte de la variable **Sous licence** Richesse moyenne des profils. En tant que client Journey Optimizer, vous verrez une baisse de cette représentation de mesure, ce qui signifie que l’utilisation pour laquelle vous disposez d’une licence est désormais correctement signalée. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}

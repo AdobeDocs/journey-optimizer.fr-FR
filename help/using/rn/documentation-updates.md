@@ -2,7 +2,7 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 99%
@@ -98,7 +98,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Ajout d’exemples fréquemment utilisés pour interroger les événements d’étape de parcours dans le lac de données. [En savoir plus](../reports/query-examples.md)
 
-* Ajout d’une nouvelle page **Limites**. [En savoir plus](../start/limitations.md)
+* Ajout d’une nouvelle page **Limites**. [En savoir plus](../start/guardrails.md)
 
 * Amélioration de la page **Démarrage rapide** avec des étapes pour différents rôles. [En savoir plus](../start/quick-start.md)
 
@@ -145,7 +145,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Renommez « activités d’offre » en « décisions » et « décisions » en « portées de décision » dans la documentation et les écrans. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
 * Nouveau cas d’utilisation : [personnaliser un message avec des fonctions helper](../personalization/personalization-use-case-helper-functions.md)
 * Mise à jour de la documentation sur Lecture de segment pour prendre en compte les impacts sur les segments matérialisés. [En savoir plus](../building-journeys/read-segment.md)
-* Mise à jour des limites de parcours. [En savoir plus](../start/limitations.md)
+* Mise à jour des limites de parcours. [En savoir plus](../start/guardrails.md)
 * Mise à jour de la section Configurer la sélection des offres dans les décisions. [En savoir plus](../offers/offer-activities/configure-offer-selection.md)
 * Ajout d&#39;un avertissement indiquant que les offres basées sur un événement ne sont actuellement pas prises en charge. [En savoir plus](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documentation du nouvel onglet **[!UICONTROL Aperçu]** de la gestion des décisions. [En savoir plus](../offers/get-started/user-interface.md#overview)

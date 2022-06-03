@@ -4,10 +4,11 @@ description: Découvrez comment effectuer le suivi des actions effectuées sur l
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 336a2a4d28ce1738cc664861291fdc1f39b3ab29
+exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -33,23 +34,23 @@ Le tableau suivant décrit les actions sur lesquelles les ressources Journey Opt
 
 | Ressource | Action |
 |-----------|------------------|
-| Groupe de champs | Créer / Supprimer / Mettre à jour |
-| Sous-domaine AJO | Créer / Supprimer / Mettre à jour |
-| Liste de suppression CJM | Créer/supprimer/télécharger un fichier CSV |
+| Paramètre général du canal AJO | Créer / Supprimer / Mettre à jour |
+| pool d’adresses IP AJO | Créer / Supprimer / Mettre à jour |
+| Page d’entrée AJO | Créer / Supprimer / Mettre à jour / Publier / Annuler la publication |
+| Modèle de HTML de landing page AJO | Créer / Supprimer / Mettre à jour |
+| Paramètre prédéfini de page d’entrée AJO | Créer / Supprimer / Mettre à jour |
+| Sous-domaine de page d’entrée AJO | Créer / Supprimer / Mettre à jour |
+| Message AJO | Créer/supprimer/mettre à jour/publier |
 | Paramètre prédéfini de message AJO | Créer / Supprimer / Mettre à jour |
 | Enregistrement PTR AJO | Créer / Supprimer / Mettre à jour |
-| Stratégie de classement | Créer / Supprimer / Mettre à jour |
-| Action personnalisée parcours | Créer / Supprimer / Mettre à jour |
-| Modèle de HTML de landing page AJO | Créer / Supprimer / Mettre à jour |
-| pool d’adresses IP AJO | Créer / Supprimer / Mettre à jour |
-| Sous-domaine de page d’entrée AJO | Créer / Supprimer / Mettre à jour |
+| Modèle d’expression enregistrée AJO | Créer / Supprimer / Mettre à jour |
 | Informations d’identification de l’API SMS AJO | Créer / Supprimer / Mettre à jour |
-| Paramètre prédéfini de page d’entrée AJO | Créer / Supprimer / Mettre à jour |
+| Sous-domaine AJO | Créer / Supprimer / Mettre à jour |
+| Liste de suppression AJO | Créer/supprimer/télécharger un fichier CSV |
+| Groupe de champs | Créer / Supprimer / Mettre à jour |
+| Parcours | Créer / Supprimer / Mettre à jour / Arrêter / Publier |
+| Action personnalisée parcours | Créer / Supprimer / Mettre à jour |
 | Source de données de parcours | Créer / Supprimer / Mettre à jour |
 | événement parcours | Créer / Supprimer / Mettre à jour |
-| Modèle d’expression enregistrée AJO | Créer / Supprimer / Mettre à jour |
 | Règle de fréquence des messages | Créer / Supprimer / Mettre à jour |
-| Page d’entrée AJO | Créer / Supprimer / Mettre à jour / Publier / Annuler la publication |
-| Parcours | Créer / Supprimer / Mettre à jour / Arrêter / Publier |
-| Message AJO | Créer/supprimer/mettre à jour/publier |
-| Paramètre général du canal AJO | Créer / Supprimer / Mettre à jour |
+| Stratégie de classement | Créer / Supprimer / Mettre à jour |
