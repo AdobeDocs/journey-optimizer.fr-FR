@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Les parcours de lecture en une seule chance de lecture de segment passent à l’état Terminé 30 jours après l’exécution du parcours. Pour les segments de lecture planifiés, il s’agit de 30 jours après l’exécution de la dernière occurrence.
+>Les parcours de lecture en une seule chance de lecture de segment passent à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence.
 
 ### Tester et publier le parcours {#testing-publishing}
 

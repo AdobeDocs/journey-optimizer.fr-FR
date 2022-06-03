@@ -1,5 +1,5 @@
 ---
-title: Configuration des paramètres prédéfinis de message
+title: Configuration des préréglages de message
 description: Découvrez comment configurer et surveiller les préréglages de message
 feature: Application Settings
 topic: Administration
@@ -9,11 +9,11 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
-# Configuration des paramètres prédéfinis de message {#message-presets-creation}
+# Configuration des préréglages de message {#message-presets-creation}
 
 Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de message qui définissent tous les paramètres techniques requis pour les messages de notification par e-mail et push : type d&#39;e-mail, nom et adresse e-mail de l&#39;expéditeur, applications mobiles, etc.
 
