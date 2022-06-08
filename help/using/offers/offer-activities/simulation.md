@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 93%
 
 ---
 
@@ -41,11 +41,17 @@ Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL S
 
 ## Sélectionner des profils de test {#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="Ajout de profils de test"
+>abstract="Vous pouvez ajouter un profil de test en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Vous devez disposer de profils de test déjà disponibles pour pouvoir les utiliser en simulation."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Créer des profils de test"
+
 Vous devez d’abord sélectionner les profils de test que vous allez utiliser pour la simulation. 
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../../segment/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../../segment/creating-test-profiles.md).
 
 1. Cliquez sur **[!UICONTROL Gérer le profil]**.
 

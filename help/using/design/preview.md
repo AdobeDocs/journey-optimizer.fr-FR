@@ -6,19 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 98%
+source-wordcount: '1051'
+ht-degree: 100%
 
 ---
 
 # Prévisualiser et tester vos messages{#preview-and-proof}
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_simulation_test_profile"
->title="Ajout d’un profil de test"
->abstract="Vous pouvez ajouter un profil de test en sélectionnant un espace de noms d’identification et une valeur d’identité correspondante."
 
 Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré [du contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s&#39;affiche dans le message en exploitant les données du profil de test.
 
