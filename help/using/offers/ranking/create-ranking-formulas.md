@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Notez que lorsque vous utilisez l’API de prise de décision, les données cont
 
 Vous pouvez augmenter le score d’une offre en fonction du score de propension d’un client.
 
-Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient une plage de scores stockés dans un tableau :
+Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient une plage de scores stockés dans un tableau :
 
 ![](../assets/ranking-example-schema.png)
 

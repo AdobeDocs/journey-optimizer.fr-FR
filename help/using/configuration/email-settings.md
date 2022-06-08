@@ -1,6 +1,6 @@
 ---
 title: Configurer les paramètres d’e-mail
-description: Découvrez comment configurer les paramètres d'email au niveau des paramètres prédéfinis de message
+description: Découvrez comment configurer les paramètres d'e-mail au niveau des préréglages de message
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,13 +9,13 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
 # Configurer les paramètres d’e-mail {#email-settings}
 
-Définissez les paramètres d&#39;email dans la section dédiée de la configuration des paramètres prédéfinis du message. Découvrez comment créer des paramètres prédéfinis de message dans [cette section](message-presets.md).
+Définissez les paramètres d&#39;e-mail dans la section dédiée de la configuration des préréglages de message. Découvrez comment créer des préréglages de message dans [cette section](message-presets.md).
 
 ![](assets/preset-email.png)
 
@@ -114,20 +114,20 @@ Dans la section **[!UICONTROL PARAMÈTRES D&#39;EN-TÊTE]**, saisissez les noms 
 >
 >Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait dʼunion `-`.
 
-### Transférer l’email {#forward-email}
+### Transférer un e-mail {#forward-email}
 
-Si vous souhaitez transférer vers une adresse de courriel spécifique tous les courriers électroniques reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué, contactez l’assistance clientèle d’Adobe. Vous devrez fournir les éléments suivants :
+Si vous souhaitez transférer vers une adresse e-mail spécifique tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué, contactez l’Assistance clientèle d’Adobe. Vous devrez fournir les éléments suivants :
 
-* Adresse électronique de transfert de votre choix. Notez que le domaine de l’adresse électronique de transfert ne peut correspondre à aucun sous-domaine délégué à l’Adobe.
-* Nom de votre environnement de test.
+* Adresse e-mail de transfert de votre choix. Notez que le domaine de l’adresse e-mail de transfert ne peut correspondre à aucun sous-domaine délégué à Adobe.
+* Nom de votre sandbox.
 * Nom du paramètre prédéfini pour lequel l’adresse électronique de transfert sera utilisée.
-* La variable **[!UICONTROL Répondre à (email)]** adresse définie au niveau du paramètre prédéfini.
+* L’adresse **[!UICONTROL Répondre à (e-mail)]** actuelle définie au niveau du préréglage.
 
 >[!NOTE]
 >
->Il ne peut y avoir qu’une seule adresse électronique de transfert par sous-domaine. Par conséquent, si plusieurs paramètres prédéfinis utilisent le même sous-domaine, la même adresse électronique doit être utilisée pour tous les sous-domaines.
+>Il ne peut y avoir qu’une seule adresse e-mail de transfert par sous-domaine. Par conséquent, si plusieurs préréglages utilisent le même sous-domaine, la même adresse e-mail de transfert doit être utilisée pour tous les sous-domaines.
 
-L’adresse email de transfert sera configurée par Adobe. Cela peut prendre de 3 à 4 jours.
+L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 à 4 jours.
 
 <!--
 ## BCC email {#bcc-email}
@@ -360,34 +360,34 @@ En savoir plus sur les reprises dans [cette section](retries.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Paramètres de suivi des URL"
->abstract="Utilisez cette section pour ajouter automatiquement des paramètres de suivi aux URL de campagne présentes dans le contenu de votre email."
+>title="Paramètres de tracking des URL"
+>abstract="Utilisez cette section pour ajouter automatiquement des paramètres de tracking aux URL de campagne présentes dans votre contenu d’e-mail."
 
-Vous pouvez utiliser **[!UICONTROL Paramètres de suivi d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative pour 
+Vous pouvez utiliser les **[!UICONTROL paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative.
 
-Les paramètres définis dans cette section seront ajoutés à la fin des URL incluses dans le contenu de votre email. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou les Google Analytics, et créer divers rapports de performances.
+Les paramètres définis dans cette section seront ajoutés à la fin des URL incluses dans le contenu de votre e-mail. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou Google Analytics, et créer divers rapports de performances.
 
 ![](assets/preset-url-tracking.png)
 
-Trois paramètres de suivi d’URL sont automatiquement renseignés par exemple lorsque vous créez un paramètre de message prédéfini. Vous pouvez les modifier et ajouter jusqu’à 10 paramètres de suivi à l’aide du **[!UICONTROL Ajouter un nouveau paramètre]** bouton .
+Trois paramètres de tracking d’URL sont automatiquement renseignés par exemple lorsque vous créez un préréglage de message. Vous pouvez les modifier et ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
 
-Pour configurer un paramètre de suivi d’URL, vous pouvez entrer directement les valeurs souhaitées dans la variable **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** ou effectuez une sélection dans une liste de valeurs prédéfinies en accédant aux objets suivants :
+Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** ou choisir parmi une liste de valeurs prédéfinies en accédant aux objets suivants :
 
 * Attributs de parcours : **Identifiant de la source**, **Nom de la source**, **Identifiant de la version de la source**
-* Attributs d’action : **Action id**, **Nom de l’action**
+* Attributs d’action : **Identifiant de l’action**, **Nom de l’action**
 * Attributs d’Offer Decisioning : **Identifiant de l’offre**, **Nom de l’offre**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->Ne sélectionnez pas de dossier : veillez à accéder au dossier nécessaire et sélectionnez un attribut de profil à utiliser comme valeur de paramètre de suivi.
+>Ne sélectionnez pas de dossier : assurez-vous d’accéder au dossier nécessaire et de sélectionner un attribut de profil à utiliser comme valeur de paramètre de tracking.
 
 Vous trouverez ci-dessous des exemples d’URL compatibles avec Adobe Analytics et Google Analytics.
 
-* URL compatible avec Adobe Analytics : `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
+* URL compatible avec Adobe Analytics : `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* URL compatible avec les Google Analytics : `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
+* URL compatible avec Google Analytics : `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Les paramètres dʼe-mail sont définis dans une section dédiée de la configur
 
 ![](assets/preset-email.png)
 
-Configurez vos paramètres comme décrit dans la section [cette section](email-settings.md).
+Configurez vos paramètres comme décrit dans [cette section](email-settings.md).
 
 ## Configurer les paramètres des notifications push {#configure-push-settings}
 

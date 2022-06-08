@@ -9,7 +9,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Pour utiliser le mode test, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsqu’un événement de réaction avec un délai d’expiration est utilisé dans un parcours, la valeur par défaut du temps d’attente et la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
+   >Lorsqu’un événement de réaction est utilisé avec une temporisation dans un parcours, la durée d’attente par défaut ainsi que la valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/reaction-events.md).
 
 1. Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer des événements et les envoyer au parcours.
 

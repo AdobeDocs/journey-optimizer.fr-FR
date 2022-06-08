@@ -9,7 +9,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ La requête renvoie, pour la période définie, le nombre de profils ayant rejoi
 
 ## Requêtes relatives à la lecture de segment {#read-segment-queries}
 
-**Temps nécessaire pour terminer une tâche d&#39;exportation de segments**
+**Temps nécessaire pour terminer un traitement d&#39;exportation de segments**
 
 _Requête du lac de données_
 
@@ -273,7 +273,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car ils contenaient un espace de noms non valide ou aucune identité pour cet espace de noms.
 
-**Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de carte d&#39;identité**
+**Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de mappage d&#39;identité**
 
 _Requête du lac de données_
 
@@ -432,7 +432,7 @@ Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 * une erreur s&#39;est produite lors de la création d&#39;une tâche d&#39;exportation ou rubrique
 * la tâche d&#39;exportation est toujours en cours d&#39;exécution
 
-**Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de tâches d&#39;exportation pour chaque tâche d&#39;exportation**
+**Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de traitements d&#39;exportation pour chaque traitement d&#39;exportation**
 
 _Requête du lac de données_
 
@@ -492,7 +492,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Obtention de mesures agrégées (tâches d&#39;exportation de segments et abandons) sur toutes les tâches d&#39;exportation**
+**Obtention de mesures agrégées (traitement d&#39;exportation de segments et abandons) sur tous les traitements d&#39;exportation**
 
 _Requête du lac de données_
 
@@ -659,7 +659,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Vérifier si un événement externe d’un profil a été ignoré pour une autre raison**
+**Vérifier si un événement externe d’un profil a été ignoré pour toute autre raison**
 
 _Requête du lac de données_
 
@@ -703,7 +703,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Vérifier tous les événements ignorés car la rentrée n’était pas autorisée**
+**Vérifier tous les événements ignorés car une nouvelle entrée n’était pas autorisée**
 
 _Requête du lac de données_
 

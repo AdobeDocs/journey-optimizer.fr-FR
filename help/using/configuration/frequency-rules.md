@@ -9,7 +9,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -79,15 +79,15 @@ Pour créer une nouvelle règle, procédez comme suit.
 
 1. Sélectionnez plusieurs canaux si vous souhaitez appliquer une limitation sur tous les canaux sélectionnés en tant que nombre total.
 
-   Par exemple, définissez la limitation sur 15 et sélectionnez les canaux email et push. Si un profil a déjà reçu 10 e-mails marketing et 5 notifications push marketing, ce profil sera exclu de la prochaine diffusion de tout e-mail ou notification push marketing.
+   Par exemple, définissez la limitation sur 15 et sélectionnez les canaux e-mail et push. Si un profil a déjà reçu 10 e-mails marketing et 5 notifications push marketing, ce profil sera exclu de la prochaine diffusion de tout e-mail ou notification push marketing.
 
-1. Cliquez sur **[!UICONTROL Enregistrer comme brouillon]** pour confirmer la création de la règle. Votre message est ajouté à la liste des règles, avec la variable **[!UICONTROL Version préliminaire]** statut.
+1. Cliquez sur **[!UICONTROL Enregistrer comme brouillon]** pour confirmer la création de la règle. Votre message est ajouté à la liste de règles, dans l&#39;état **[!UICONTROL Brouillon]**.
 
    ![](assets/message-rules-created.png)
 
 ## Activer une règle {#activate-rule}
 
-Une fois créée, une règle de fréquence des messages affiche la variable **[!UICONTROL Version préliminaire]** et n’a encore aucun impact sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
+Une fois créée, une règle de fréquence des messages affiche le statut **[!UICONTROL Brouillon]** et n’a encore aucune incidence sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -95,7 +95,7 @@ L&#39;activation d&#39;une règle aura un impact sur tous les messages auxquels 
 
 >[!NOTE]
 >
->L’activation complète d’une règle peut prendre jusqu’à 10 minutes. Vous n&#39;avez pas besoin de modifier ou de republier des messages ou des parcours pour qu&#39;une règle prenne effet.
+>L’activation complète d’une règle peut prendre jusqu’à 10 minutes. Vous n&#39;avez pas besoin de modifier ou de republier des messages ou des parcours pour qu&#39;une règle prenne effet.
 
 Pour désactiver une règle de fréquence des messages, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Désactiver]**.
 
@@ -137,7 +137,7 @@ Toutes les règles de fréquence correspondant à la catégorie et aux canaux s�
 
 >[!NOTE]
 >
->Messages <!--that do not have any selected category or messages -->où la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne sera pas évalué par rapport aux règles de fréquence.
+>Les messages <!--that do not have any selected category or messages -->où la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -187,4 +187,4 @@ Dans ce scénario, un profil individuel :
 
 >[!NOTE]
 >
->Lors du test des règles de fréquence, il peut s’avérer utile de commencer par une nouvelle [profil de test](../segment/creating-test-profiles.md), car une fois le plafond de fréquence d’un profil atteint, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils plafonnés de recevoir des messages, mais elle ne supprime ni supprime les incréments de compteur.
+>Lors du test des règles de fréquence, il peut s’avérer utile de commencer par un nouveau [profil de test](../segment/creating-test-profiles.md), car une fois la limitation de fréquence d’un profil atteinte, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.

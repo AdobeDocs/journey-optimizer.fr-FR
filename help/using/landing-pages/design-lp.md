@@ -9,13 +9,13 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 61fcf519ca2ce241e292a86707e5ce987835a07c
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Conception du contenu de la page de destination {#design-lp}
 
-Pour commencer à créer du contenu pour votre landing page [Principale page](create-lp.md#configure-primary-page) ou [subpage](create-lp.md#configure-subpages), placez le pointeur de la souris sur le contenu de la page, puis cliquez sur **[!UICONTROL Ouvrir Designer]**. Vous pouvez également cliquer sur le bouton correspondant dans la palette de droite.
+Pour commencer à créer du contenu pour la [page principale](create-lp.md#configure-primary-page) ou [sous-page](create-lp.md#configure-subpages) de votre page de destination, placez le pointeur de la souris sur le contenu de votre page, puis cliquez sur **[!UICONTROL Ouvrir le concepteur]**. Vous pouvez également cliquer sur le bouton correspondant dans la palette de droite.
 
 ![](assets/lp_open-designer.png)
 
@@ -27,7 +27,7 @@ Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer du contenu [dans cette section](../design/existing-content.md).
 
-* **Utiliser un modèle de landing page enregistré** créé dans [!DNL Journey Optimizer]. [En savoir plus](lp-templates.md)
+* **Utiliser un modèle de page de destination enregistré** créé dans [!DNL Journey Optimizer]. [En savoir plus](lp-templates.md)
 
 >[!NOTE]
 >

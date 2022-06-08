@@ -9,7 +9,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
-| keyAttributeName | chaîne | Ce paramètre est uniquement destiné à listObject. Le nom de l’attribut dans les objets de la liste donnée est utilisé comme clé pour le tri. |
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
+| keyAttributeName | chaîne | Ce paramètre est uniquement destiné à listObject. Le nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le tri. |
 | sortingOrder | booléen | ascendant (true) ou descendant (false) |
 
 ## Signature et type renvoyé

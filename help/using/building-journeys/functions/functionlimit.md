@@ -1,14 +1,15 @@
 ---
 product: adobe campaign
 title: limit
-description: En savoir plus sur la limite de fonction
+description: En savoir plus sur la fonction limit
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +29,7 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
 | numberOfItems | nombre entier | Nombre d’éléments à renvoyer à partir de la liste donnée. |
 | firstOrLastItems | booléen | Ce paramètre est facultatif (true par défaut). true renvoie les premiers éléments. false renvoie les derniers éléments. |
 
@@ -88,4 +89,3 @@ Renvoie `["A","B","C"]`.
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
 Renvoie `["C","D","E"]`.
-

@@ -9,7 +9,7 @@ exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -193,7 +193,7 @@ La durée de bout en bout de chaque décision de lot correspond à la durée ent
 
 Lors de l&#39;utilisation de l’API [!DNL Batch Decisioning], gardez à l&#39;esprit les restrictions suivantes :
 
-* **Nombre de tâches par lot en cours d’exécution par jeu de données**: Jusqu’à cinq tâches par lot peuvent être exécutées à la fois, par jeu de données. Toutes les autres requêtes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Une tâche en file d’attente est sélectionnée pour traitement une fois la tâche précédente en cours d’exécution.
+* **Nombre de tâches par lot en cours d’exécution par jeu de données** : jusqu’à cinq traitements par lot peuvent être exécutées à la fois, par jeu de données. Toutes les autres requêtes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Une tâche en file d’attente est sélectionnée pour traitement une fois que la tâche précédente a fini son exécution.
 * **Capping de la fréquence** : un lot s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. L&#39;API [!DNL Batch Decisioning] limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent.
 
 ## Étapes suivantes {#next-steps}

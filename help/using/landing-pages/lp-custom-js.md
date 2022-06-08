@@ -1,44 +1,45 @@
 ---
-title: Utiliser du code JavaScript personnalisé dans une landing page
+title: Utilisation de code JavaScript personnalisé dans une page de destination
 description: Découvrez comment concevoir le contenu dʼune page de destination dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Utiliser du code JavaScript personnalisé dans une landing page {#lp-custom-js}
+# Utilisation de code JavaScript personnalisé dans une page de destination {#lp-custom-js}
 
-Vous pouvez définir le contenu de votre landing page à l&#39;aide d&#39;un code JavaScript personnalisé. Par exemple, si vous devez effectuer un style avancé ou si vous souhaitez ajouter des comportements personnalisés à vos landing pages, vous pouvez créer vos propres contrôles et les exécuter dans [!DNL Journey Optimizer].
+Vous pouvez définir le contenu de votre page de destination à l&#39;aide d&#39;un code JavaScript personnalisé. Par exemple, si vous devez appliquer un style avancé ou si vous souhaitez ajouter des comportements personnalisés à vos pages de destination, vous pouvez créer vos propres contrôles et les exécuter dans [!DNL Journey Optimizer].
 
-## Insérer du code JavaScript dans une landing page
+## Insertion du code JavaScript dans une page de destination
 
-Pour insérer du code JavaScript personnalisé dans le contenu d’une landing page, vous pouvez effectuer l’une des opérations suivantes :
+Pour insérer du code JavaScript personnalisé dans le contenu d’une page de destination, vous pouvez effectuer l’une des opérations suivantes :
 
 * Importez le contenu du HTML existant lorsque vous commencez à créer votre contenu, puis sélectionnez le fichier contenant votre code JavaScript personnalisé. Découvrez comment importer du contenu [dans cette section](../design/existing-content.md).
 
-* Concevez votre landing page à partir de zéro ou d&#39;un modèle enregistré. Faites glisser et déposez le **[!UICONTROL HTML]** composant de contenu dans la zone de travail et affichez le code source pour ajouter votre JavaScript dans le composant. Découvrez comment utiliser le composant HTML dans [cette section](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Concevez votre page de destination à partir de zéro ou d&#39;un modèle enregistré. Effectuez un glisser-déposer du composant de contenu **[!UICONTROL HTML]** dans la zone de travail et affichez le code source pour ajouter votre JavaScript dans le composant. Découvrez comment utiliser le composant HTML dans [cette section](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* Entrez ou collez du code JavaScript directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../design/code-content.md).
+* Saisissez ou collez du code JavaScript directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../design/code-content.md).
 
 >[!NOTE]
 >
->Actuellement, vous ne pouvez pas afficher JavaScript en action lorsque [aperçu de la landing page](create-lp.md#test-landing-page).
+>Actuellement, vous ne pouvez pas afficher JavaScript en action lors de l’[aperçu de la page de destination](create-lp.md#test-landing-page).
 
-Pour que la landing page s&#39;affiche correctement, utilisez la syntaxe suivante, comme décrit dans les sections ci-dessous.
+Pour que la page de destination s&#39;affiche correctement, utilisez la syntaxe suivante, comme décrit dans les sections ci-dessous.
 
 ## Initialisation du code
 
-Pour initialiser votre code JavaScript, vous devez utiliser la variable `lpRuntimeReady` . Cet événement sera déclenché après l’initialisation réussie de la bibliothèque. Le rappel est exécuté avec la fonction `lpRuntime` pour exposer la méthode et les crochets de la bibliothèque.
+Pour initialiser votre code JavaScript, vous devez utiliser l’événement `lpRuntimeReady`. Cet événement sera déclenché après l’initialisation réussie de la bibliothèque. Le rappel est exécuté avec l’objet `lpRuntime` pour exposer la méthode et les points d’extension de la bibliothèque.
 
-`LpRuntime` signifie &quot;Landing page Runtime&quot;. Cet objet est l’identifiant de bibliothèque principal. Il expose les hooks, les méthodes d’envoi de formulaire et d’autres méthodes d’utilitaire pouvant être utilisées dans du code JavaScript personnalisé.
+`LpRuntime` signifie « Landing page Runtime ». Cet objet est l’identifiant de bibliothèque principal. Il expose les points d’extension, les méthodes d’envoi de formulaire et d’autres méthodes d’utilitaire pouvant être utilisées dans du code JavaScript personnalisé.
 
 **Exemple :**
 
@@ -60,13 +61,13 @@ function init(lpRuntime){
 
 Les points d’extension permettent de joindre une méthode pendant le cycle de vie de l’envoi du formulaire. Par exemple, vous pouvez utiliser des points d’extension pour effectuer une validation de formulaire avant que le formulaire ne soit réellement envoyé.
 
-Voici les hooks que vous pouvez utiliser :
+Voici les points d’extension que vous pouvez utiliser :
 
 | Nom | Description |
 |--- |--- |
-| addBeforeSubmitHook | crochet personnalisé à appeler avant envoi du formulaire. Renvoie true pour poursuivre l’envoi, sinon renvoie false pour bloquer l’envoi. |
-| addBeforeSubmitHook | crochet personnalisé à appeler lors de l’échec de l’envoi du formulaire. |
-| addOnSuccessHook | crochet personnalisé à appeler lors de l’envoi réussi du formulaire. |
+| addBeforeSubmitHook | Extension personnalisée à appeler avant envoi du formulaire. Renvoie &quot;true&quot; pour poursuivre l’envoi, sinon renvoie &quot;false&quot; pour bloquer l’envoi. |
+| addBeforeSubmitHook | Extension personnalisée à appeler lors de l’échec de l’envoi du formulaire. |
+| addOnSuccessHook | Extension personnalisée à appeler lors de l’envoi réussi du formulaire. |
 
 **Exemple :**
 
@@ -83,7 +84,7 @@ Les méthodes répertoriées ci-dessous sont utilisées pour effectuer des envoi
 
 >[!NOTE]
 >
->Comme l’envoi du formulaire est géré par JavaScript personnalisé, l’envoi par défaut doit être désactivé explicitement en définissant une variable globale. `disableDefaultFormSubmission` to `true`.
+>Comme l’envoi du formulaire est géré par JavaScript personnalisé, l’envoi par défaut doit être désactivé explicitement en définissant une variable globale `disableDefaultFormSubmission` à `true`.
 
 | Nom | Description |
 |--- |--- |
@@ -105,7 +106,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 })
 ```
 
-## Fonction Utilitaire
+## Fonction utilitaire
 
 | Nom | Description |
 |--- |--- |
@@ -121,7 +122,7 @@ lpRuntime.submitForm(formData);
 
 ## Cas dʼutilisation
 
-### Cas d’utilisation 1 : Ajout de la validation avant l’envoi du formulaire
+### Cas d’utilisation 1 : ajout de la validation avant l’envoi du formulaire
 
 ```
 <html>
@@ -156,9 +157,9 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### Cas d’utilisation 2 : Envoi partiel du formulaire
+### Cas d’utilisation 2 : envoi partiel du formulaire
 
-Par exemple, vous disposez d’un formulaire avec plusieurs cases à cocher sur la page. Lorsque vous cochez une case, vous souhaitez que ces données soient enregistrées dans le serveur principal sans attendre que l’utilisateur clique sur le bouton d’envoi.
+Par exemple, vous disposez d’un formulaire avec plusieurs cases à cocher sur la page. Lorsque vous cochez une case, vous souhaitez que ces données soient enregistrées sur le serveur principal sans attendre que l’utilisateur clique sur le bouton d’envoi.
 
 ```
 <html>
@@ -189,7 +190,7 @@ Par exemple, vous disposez d’un formulaire avec plusieurs cases à cocher sur 
 </html>
 ```
 
-### Cas d’utilisation 3 : Balises d’analyse personnalisées
+### Cas d’utilisation 3 : balises d’analyse personnalisées
 
 Avec JavaScript, vous pouvez ajouter des écouteurs de champs de saisie et joindre un déclencheur d’appel Analytics personnalisé.
 
@@ -222,7 +223,7 @@ Avec JavaScript, vous pouvez ajouter des écouteurs de champs de saisie et joind
 </html>
 ```
 
-### Cas d’utilisation 4 : Formulaire dynamique
+### Cas d’utilisation 4 : formulaire dynamique
 
 ```
 <html>

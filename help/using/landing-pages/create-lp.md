@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous pouvez insérer un lien vers la Principale page depuis n&#39;importe quelle sous-page de la même landing page. Par exemple, pour rediriger les utilisateurs qui ont commis une erreur et qui souhaitent s’abonner à nouveau, vous pouvez ajouter un lien depuis la sous-page de confirmation vers la page Principale de l’abonnement. Découvrez comment insérer des liens dans [cette section](../design/message-tracking.md#insert-links).
+   >Vous pouvez insérer un lien vers la page principale depuis n&#39;importe quelle sous-page de la même page de destination. Par exemple, pour rediriger les utilisateurs qui ont commis une erreur et qui souhaitent s’abonner à nouveau, vous pouvez ajouter un lien depuis la sous-page de confirmation vers la page principale d’abonnement. Découvrez comment insérer des liens dans [cette section](../design/message-tracking.md#insert-links).
 
 1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-subdomains.md)
 

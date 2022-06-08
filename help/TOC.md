@@ -371,12 +371,12 @@ ht-degree: 98%
       + [Configuration du canal SMS](using/configuration/sms-configuration.md)
       + Configuration des préréglages de message {#set-up-message-presets}
          + [Création de préréglages de message](using/configuration/message-presets.md)
-         + [Configuration des paramètres d’e-mail](using/configuration/email-settings.md)
+         + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
       + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)
       + [Configuration des règles de fréquence](using/configuration/frequency-rules.md)
    + Configuration des pages de destination  {#lp-configuration}
-      + [Configuration des sous-domaines des pages de destination](using/configuration/lp-subdomains.md)
-      + [Définition des préréglages de page de destination](using/configuration/lp-presets.md)
+      + [Configurer les sous-domaines des pages de destination](using/configuration/lp-subdomains.md)
+      + [Définir les préréglages de page de destination](using/configuration/lp-presets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + [Intégration aux systèmes externes](using/configuration/external-systems.md)
@@ -406,5 +406,5 @@ ht-degree: 98%
    + [Gestion des utilisateurs et des profils de produits](using/administration/permissions.md)
    + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
    + [Gestion des environnements Sandbox](using/administration/sandboxes.md)
-   + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
+   + [Contrôle d’accès basé sur attribut](using/administration/attribute-based-access.md)
 

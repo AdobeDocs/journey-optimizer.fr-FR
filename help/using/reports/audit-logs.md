@@ -8,7 +8,7 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 5%
+ht-degree: 98%
 
 ---
 
@@ -16,41 +16,41 @@ ht-degree: 5%
 
 ## À propos des journaux d’audit {#audit-logs}
 
-Avec Journey Optimizer, vous pouvez identifier les actions effectuées par les utilisateurs du système sur divers services et fonctionnalités tels que les parcours, les messages, les landing pages, etc.
+Avec Journey Optimizer, vous pouvez identifier les actions effectuées par les utilisateurs du système sur divers services et fonctionnalités tels que les parcours, les messages, les pages de destination, etc.
 
 Cela vous permet d’accroître la visibilité des activités exécutées dans le système, de résoudre les problèmes et d’aider votre entreprise à se conformer aux réglementations et aux politiques de gestion des données d’entreprise.
 
-Chaque action est enregistrée avec des métadonnées dans les &quot;journaux d’audit&quot; qui sont accessibles dans Adobe Experience Platform. Pour plus d’informations sur les journaux d’audit, y compris sur leur affichage et leur gestion dans l’interface utilisateur ou l’API, reportez-vous à la section [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
+Chaque action est enregistrée avec des métadonnées dans des « journaux d’audit » qui sont accessibles dans Adobe Experience Platform. Pour plus d’informations sur les journaux d’audit, y compris sur leur affichage et leur gestion dans l’interface utilisateur ou l’API, reportez-vous à la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=fr).
 
 ![](assets/audit-logs.png)
 
-## Types d’événement capturés par les journaux d’audit {#events}
+## Types d’événements capturés par les journaux d’audit {#events}
 
-Le tableau suivant décrit les actions sur lesquelles les ressources Journey Optimizer sont enregistrées par les journaux d’audit.
+Le tableau ci-dessous présente les actions sur lesquelles les ressources Journey Optimizer sont enregistrées par les journaux d’audit.
 
 >[!NOTE]
 >
->La liste complète des actions capturées dans les journaux d’audit est disponible dans [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
+>La liste complète des actions capturées dans les journaux d’audit est disponible dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=fr#category).
 
 | Ressource | Action |
 |-----------|------------------|
 | Paramètre général du canal AJO | Créer / Supprimer / Mettre à jour |
-| pool d’adresses IP AJO | Créer / Supprimer / Mettre à jour |
-| Page d’entrée AJO | Créer / Supprimer / Mettre à jour / Publier / Annuler la publication |
-| Modèle de HTML de landing page AJO | Créer / Supprimer / Mettre à jour |
-| Paramètre prédéfini de page d’entrée AJO | Créer / Supprimer / Mettre à jour |
-| Sous-domaine de page d’entrée AJO | Créer / Supprimer / Mettre à jour |
-| Message AJO | Créer/supprimer/mettre à jour/publier |
-| Paramètre prédéfini de message AJO | Créer / Supprimer / Mettre à jour |
+| Groupe d’adresses IP AJO | Créer / Supprimer / Mettre à jour |
+| Page de destination AJO | Créer / Supprimer / Mettre à jour / Publier / Dépublier |
+| Modèle HTML de page de destination AJO | Créer / Supprimer / Mettre à jour |
+| Préréglage de la page de destination AJO | Créer / Supprimer / Mettre à jour |
+| Sous-domaine de page de destination AJO | Créer / Supprimer / Mettre à jour |
+| Message AJO | Créer / Supprimer / Mettre à jour / Publier |
+| Paramètre de message prédéfini AJO | Créer / Supprimer / Mettre à jour |
 | Enregistrement PTR AJO | Créer / Supprimer / Mettre à jour |
-| Modèle d’expression enregistrée AJO | Créer / Supprimer / Mettre à jour |
+| Modèle d’expression enregistré AJO | Créer / Supprimer / Mettre à jour |
 | Informations d’identification de l’API SMS AJO | Créer / Supprimer / Mettre à jour |
 | Sous-domaine AJO | Créer / Supprimer / Mettre à jour |
-| Liste de suppression AJO | Créer/supprimer/télécharger un fichier CSV |
+| Liste de suppression AJO | Créer / supprimer / télécharger un fichier CSV |
 | Groupe de champs | Créer / Supprimer / Mettre à jour |
 | Parcours | Créer / Supprimer / Mettre à jour / Arrêter / Publier |
-| Action personnalisée parcours | Créer / Supprimer / Mettre à jour |
+| Action personnalisée de parcours | Créer / Supprimer / Mettre à jour |
 | Source de données de parcours | Créer / Supprimer / Mettre à jour |
-| événement parcours | Créer / Supprimer / Mettre à jour |
+| Événement de parcours | Créer / Supprimer / Mettre à jour |
 | Règle de fréquence des messages | Créer / Supprimer / Mettre à jour |
 | Stratégie de classement | Créer / Supprimer / Mettre à jour |

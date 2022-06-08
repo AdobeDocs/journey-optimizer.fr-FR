@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -36,13 +36,13 @@ Pour créer une emplacement, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer un emplacement]**.
 
-   ![](../assets/offers_placement_creation.png)
+   !![](../assets/offer_placement_création.png)
 
 1. Définissez les propriétés de l&#39;emplacement :
 
    * **[!UICONTROL Nom]** : nom de l&#39;emplacement. Veillez à définir un nom significatif pour le récupérer plus facilement.
    * **[!UICONTROL Type de canal]** : canal pour lequel l&#39;emplacement sera utilisé.
-   * **[!UICONTROL Type de contenu]**: Type de contenu que l’emplacement peut afficher : Texte, HTML, Lien d’image ou JSON.
+   * **[!UICONTROL Type de contenu]** : type de contenu que l&#39;emplacement peut afficher : texte, HTML, lien d&#39;image ou JSON.
    * **[!UICONTROL Description]** : description de l&#39;emplacement (facultatif).
 
    ![](../assets/offers_placement_creation_properties.png)

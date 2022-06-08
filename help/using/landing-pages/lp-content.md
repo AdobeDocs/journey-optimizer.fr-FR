@@ -1,24 +1,25 @@
 ---
 title: Définition de contenu spécifique aux pages de destination
-description: Découvrez comment concevoir du contenu spécifique à une landing page dans Journey Optimizer
+description: Découvrez comment concevoir du contenu spécifique à une page de destination dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Définition de contenu spécifique aux pages de destination {#lp-content}
 
-Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et d’envoyer leurs choix depuis votre landing page, utilisez le **[!UICONTROL Formulaire]** composant. Procédez comme suit.
+Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et dʼenvoyer leurs choix depuis votre page de destination, utilisez le composant **[!UICONTROL Formulaire]**. Procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez également créer une page d’entrée de clics publicitaires sans **[!UICONTROL Formulaire]** composant. Dans ce cas, la landing page s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une landing page sans nécessiter d’action de la part de vos destinataires, comme l’inclusion ou l’exclusion, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
+>Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une page de destination sans nécessiter d’action de la part de vos destinataires, comme l’opt-in ou l’opt-out, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
 
 ## Utilisation du composant de formulaire {#use-form-component}
 
@@ -122,4 +123,3 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 1. Développez la section **[!UICONTROL Erreur du formulaire]** pour ajuster l’affichage du message d’erreur qui est visible en cas de problème. Cochez lʼoption correspondante pour prévisualiser le texte dʼerreur sur le formulaire.
 
    ![](assets/lp_designer-form-error-preview.png)
-
