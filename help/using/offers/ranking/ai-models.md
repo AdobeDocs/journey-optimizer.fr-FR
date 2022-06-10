@@ -10,7 +10,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ Cette fonctionnalité permet de créer différents **modèles d’IA** en foncti
 
 Vous pouvez par exemple sélectionner un modèle d’IA pour le canal e-mail et un autre pour le canal push. Pour chaque canal, le système de modèles entraînés exploite différents points de données pour déterminer l’offre qui doit être présentée en premier pour un emplacement donné, plutôt que de prendre en compte les scores de priorité des offres ou une [formule de classement](create-ranking-formulas.md).
 
-## Types de modèle AI {#ai-model-types}
+## Types de modèles d’IA {#ai-model-types}
 
-Pour l’instant, [!DNL Journey Optimizer]** fournit un modèle d’IA, **Optimisation automatique**, qui optimise les offres en fonction des performances des offres antérieures. Des informations détaillées sur ce type de modèle d’IA sont disponibles dans la section [cette section](auto-optimization-model.md).
+Pour l’instant, [!DNL Journey Optimizer]** fournit un modèle d’IA, **Optimisation automatique**, qui optimise les offres en fonction des performances des offres antérieures. Des informations détaillées sur ce type de modèle d’IA sont disponibles dans [cette section](auto-optimization-model.md).
 
-## Création d’un modèle AI {#create-ai-model}
+## Créer un modèle d’IA {#create-ai-model}
 
-Les principales étapes pour créer et utiliser des modèles AI sont les suivantes :
+Les principales étapes pour créer et utiliser des modèles d’IA sont les suivantes :
 
 1. Créez un jeu de données dans lequel les événements de conversion et d’impression seront collectés. [En savoir plus](create-dataset.md)
 1. Créez un modèle d’IA qui exploite les événements du jeu de données pour classer les offres. [En savoir plus](create-ranking-strategies.md)
 1. Configurez votre schéma d’offre pour capturer automatiquement les événements. [En savoir plus](schema-requirement.md)
-1. Affectez le modèle AI à un emplacement dans une décision de classement des offres éligibles. [En savoir plus](../offer-activities/configure-offer-selection.md)
+1. Affectez le modèle d’IA à un emplacement dans une décision de classement des offres éligibles. [En savoir plus](../offer-activities/configure-offer-selection.md)

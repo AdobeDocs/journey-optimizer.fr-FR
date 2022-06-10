@@ -1,8 +1,8 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Configuration de la capture d’événements
-description: Découvrez comment configurer votre schéma d’offre pour capturer des événements
+title: Configurer la capture d’événements
+description: Découvrez comment configurer votre schéma d’offre pour capturer les événements.
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,15 +10,15 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Configuration de la capture d’événements {#schema-requirements}
+# Configurer la capture d’événements {#schema-requirements}
 
 À ce stade, vous devez avoir :
 
-* a créé le modèle d’IA,
+* créé le modèle d’IA,
 * défini le type dʼévénement à capturer : offre affichée (impression) et/ou offre ayant fait l’objet d’un clic (conversion)
 * ainsi que le jeu de données dans lequel vous souhaitez collecter les données d’événement.
 

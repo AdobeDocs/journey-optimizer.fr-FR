@@ -1,6 +1,6 @@
 ---
-title: Barrières de sécurité et limites de Journey Optimizer
-description: En savoir plus sur les barrières de sécurité Journey Optimizer
+title: Sécurité et limitations de Journey Optimizer
+description: En savoir plus sur les limitations de Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,15 +9,15 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Garde-fous et limitations {#limitations}
+# Sécurité et limitations {#limitations}
 
-Les droits, les limitations de produit et la sécurisation des performance sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
-Vous trouverez ci-dessous des barrières de sécurité et des limites supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
+Vous trouverez ci-dessous des éléments de sécurité et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
 
 ## Limitations des messages {#limitations-messages}
 

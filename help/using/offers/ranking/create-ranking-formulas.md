@@ -139,7 +139,7 @@ Notez que lorsque vous utilisez l’API de prise de décision, les données cont
 
 ### Booster les offres en fonction de la propension des clients à acheter le produit proposé
 
-Vous pouvez augmenter le score d’une offre en fonction du score de propension d’un client.
+Vous pouvez augmenter le score d’une offre en fonction d’un score de propension du client.
 
 Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient une plage de scores stockés dans un tableau :
 

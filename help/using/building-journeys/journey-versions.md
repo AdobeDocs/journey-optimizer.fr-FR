@@ -9,7 +9,7 @@ exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
 
 >[!NOTE]
 >
->Pour en savoir plus sur les limites et les barrières de sécurité des versions de parcours, voir [cette page](../start/guardrails.md#journey-versions-limitations)
+>Pour en savoir plus sur les éléments de sécurité et les limitations des versions de parcours, voir [cette page](../start/guardrails.md#journey-versions-limitations).
 
 1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
    + [Interface utilisateur](using/start/user-interface.md)
-   + [Barrières de sécurité](using/start/guardrails.md)
+   + [Éléments de sécurité](using/start/guardrails.md)
 + Messages {#messages}
    + [Prise en main des messages](using/messages/get-started-content.md)
    + [Création d’un e-mail](using/messages/create-email.md)
@@ -187,7 +187,7 @@ ht-degree: 98%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [limit](using/building-journeys/functions/functionlimit.md)
+            + [limite](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -266,16 +266,16 @@ ht-degree: 98%
       + [Création d’emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
       + [Création de balises](using/offers/offer-library/creating-tags.md)
-   + Création de classements {#rankings}
+   + Créer des classements {#rankings}
       + [Prise en main des classements](using/offers/ranking/get-started-rankings.md)
       + [Formules de classement](using/offers/ranking/create-ranking-formulas.md)
       + Modèles d’IA {#ai-models}
          + [À propos des modèles d’IA](using/offers/ranking/ai-models.md)
          + [Modèle dʼoptimisation automatique](using/offers/ranking/auto-optimization-model.md)
          + Créer des modèles d’IA {#configure-ai-model}
-            + [Création d’un jeu de données pour collecter des événements](using/offers/ranking/create-dataset.md)
-            + [Création d’un modèle AI](using/offers/ranking/create-ranking-strategies.md)
-            + [Configuration de la capture d’événements](using/offers/ranking/schema-requirement.md)
+            + [Créer un jeu de données pour collecter des événements](using/offers/ranking/create-dataset.md)
+            + [Créer un modèle d’IA](using/offers/ranking/create-ranking-strategies.md)
+            + [Configurer la capture d’événements](using/offers/ranking/schema-requirement.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
       + Configuration des offres {#configure-offers}
          + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)

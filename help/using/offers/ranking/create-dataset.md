@@ -1,8 +1,8 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Création d’un jeu de données pour collecter des événements
-description: Découvrez comment créer un jeu de données pour collecter des événements
+title: Créer un jeu de données pour collecter des événements
+description: Découvrez comment créer un jeu de données pour collecter des événements.
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,11 +10,11 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Création d’un jeu de données pour collecter des événements {#create-dataset}
+# Créer un jeu de données pour collecter des événements {#create-dataset}
 
 Avant de créer un modèle d’IA, vous devez créer un jeu de données dans lequel les événements de conversion seront collectés. Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 

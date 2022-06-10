@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez également ajouter [**manuellement** une adresse ou un domaine](#add
 
 >[!NOTE]
 >
->Cela prendra entre 0 et 60 minutes pour [!DNL Journey Optimizer] pour prendre en compte les adresses supprimées dans les emails sortants.
+>Il faudra entre 0 et 60 minutes pour que [!DNL Journey Optimizer] prennent en compte les adresses supprimées dans les e-mails sortants.
 
 ## Accès à la liste de suppression {#access-suppression-list}
 
@@ -111,7 +111,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="Ajout d’emails ou de domaines à la liste de suppression"
+>title="Ajouter des e-mails ou des domaines à la liste de suppression"
 >abstract="Vous pouvez également remplir manuellement la liste de suppression de Journey Optimizer pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi."
 
 Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
@@ -171,7 +171,7 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
    ```
    >[!NOTE]
    >
-   >Pour la colonne Commentaire , seuls les caractères ASCII compris entre 32 et 126 sont autorisés. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
+   >Pour la colonne Commentaire, seuls les caractères ASCII compris entre 32 et 126 sont autorisés. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
 
    Vous pouvez également télécharger ce modèle à partir de la vue principale **[!UICONTROL Liste de suppression]**.
 
@@ -191,7 +191,7 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 
 >[!NOTE]
 >
->Une fois le chargement terminé, vérifiez qu’il a réussi en vérifiant son état dans l’interface. [Voici comment procéder](#recent-uploads)
+>Une fois le chargement terminé, assurez-vous qu’il a réussi en vérifiant son statut depuis l’interface. [Voici comment procéder](#recent-uploads)
 
 ### Vérification du statut des téléchargements récents {#recent-uploads}
 

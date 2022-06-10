@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Mai 2022 {#may-2022}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 22 mai ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* Nouveaux exemples de requête liés à [qualification de segment](../reports/query-examples.md#segment-qualification-queries) et [events](../reports/query-examples.md#event-based-queries) ont été ajoutés.
+* De nouveaux exemples de requête liés à la [qualification de segment](../reports/query-examples.md#segment-qualification-queries) et aux [événements](../reports/query-examples.md#event-based-queries) ont été ajoutés.
 * La section Conception d’e-mail mentionne désormais les nouveaux modèles intégrés disponibles pour commencer le contenu. Les captures d’écran connexes ont été mises à jour. [En savoir plus](../design/design-emails.md)
 * Des liens vers des ressources clés ont été mis à jour dans la page d’accueil de la documentation Journey Optimizer.
 * Les captures d’écran pour les rapports d’abonnement et de page de destination ont été mises à jour. [En savoir plus](../reports/live-report.md)

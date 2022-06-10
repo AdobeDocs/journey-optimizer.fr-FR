@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 84%
+ht-degree: 90%
 
 ---
 
@@ -61,13 +61,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Gestion des décisions - Modèle d’optimisation automatique du classement AI</strong><br/></th>
+<th><strong>Gestion des décisions - Modèle d’optimisation automatique du classement IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser des systèmes de modèle formés dans la gestion de la décision. Cette nouvelle fonctionnalité classe les offres à afficher pour un profil donné.</p>
+<p>Vous pouvez désormais utiliser des systèmes de modèle formés dans la gestion des décisions. Cette nouvelle fonctionnalité permet de classer les offres à afficher pour un profil donné.</p>
 <img src="assets/optimization.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentation détaillée</a>.</p>
 </td>
