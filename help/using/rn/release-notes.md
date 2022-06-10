@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 81%
+source-wordcount: '445'
+ht-degree: 84%
 
 ---
 
@@ -129,4 +129,4 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Administration**
 
-**Mise à jour du tableau de bord d’utilisation des licences** - Le tableau de bord de l’utilisation des licences disponible dans l’interface utilisateur de Adobe Experience Platform reflète désormais la valeur exacte de la variable **Sous licence** Richesse moyenne des profils. En tant que client Journey Optimizer, vous verrez une baisse de cette représentation de mesure, ce qui signifie que l’utilisation pour laquelle vous disposez d’une licence est désormais correctement signalée. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **Mise à jour du tableau de bord d’utilisation des licences** - Le tableau de bord de l’utilisation de la licence disponible dans la [!DNL Adobe Journey Optimizer] L’interface utilisateur reflète désormais la valeur exacte de la variable **Sous licence** Richesse moyenne des profils. Vous verrez une baisse de cette représentation de mesure, ce qui signifie que la limite de licence est désormais correctement signalée. [En savoir plus](../start/licence-usage.md)

@@ -6,16 +6,51 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 87%
 
 ---
 
 # Fonctions de liste et de tableau {#arrays}
 
 Utilisez ces fonctions pour faciliter l&#39;interaction avec des tableaux, des listes et des chaînes.
+
+## Count only null {#count-only-null}
+
+Le `countOnlyNull` sert à compter le nombre de valeurs &quot;null&quot; dans une liste.
+
+**Format**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**Exemple**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+Renvoie 3.
+
+## Compter avec valeur nulle {#count-with-null}
+
+Le `countWithNull` est utilisée pour compter tous les éléments d’une liste, y compris les valeurs nulles.
+
+**Format**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**Exemple**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+Renvoie 6.
 
 ## Distinct{#distinct}
 
@@ -34,15 +69,32 @@ L&#39;opération suivante définit les personnes qui ont passé des commandes da
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Comptage distinct avec valeur nulle {#distinct-count-with-null}
 
-## First item{#head}
-
-La fonction `head` est utilisée pour renvoyer le premier élément du tableau ou de la liste.
+Le `distinctCountWithNull` sert à compter le nombre de valeurs différentes dans une liste, y compris les valeurs &quot;null&quot;.
 
 **Format**
 
 ```sql
-{%= head({array}) %}
+{%= distinctCountWithNull(array) %}
+```
+
+**Exemple**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+Renvoie 3.
+
+## First item{#head}
+
+Le `head` est utilisée pour renvoyer le premier élément d’un tableau ou d’une liste.
+
+**Format**
+
+```sql
+{%= head(array) %}
 ```
 
 **Exemple**
@@ -174,7 +226,6 @@ L&#39;opération suivante renvoie les cinq premières commandes au prix le plus 
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## Not in{#notin}
 

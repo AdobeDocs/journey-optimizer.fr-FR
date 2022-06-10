@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
@@ -16,42 +16,6 @@ ht-degree: 100%
 # Fonctions d&#39;agrégation {#aggregation}
 
 Les fonctions d&#39;agrégation sont utilisées pour regrouper plusieurs valeurs afin de former une seule valeur de synthèse.
-
-## Count{#count}
-
-La fonction `count` renvoie le nombre d&#39;éléments dans le tableau donné.
-
-**Format**
-
-```sql
-{%= count(array) %}
-```
-
-**Exemple**
-
-L&#39;opération suivante renvoie le nombre de commandes dans le tableau.
-
-```sql
-{%= count(orders) %}
-```
-
-## Sum{#sum}
-
-La fonction `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
-
-**Format**
-
-```sql
-{%= sum(array) %}
-```
-
-**Exemple**
-
-L&#39;opération suivante renvoie la somme des prix de toutes les commandes.
-
-```sql
-{%=sum(orders.order.price)%}
-```
 
 ## Average{#average}
 
@@ -71,22 +35,22 @@ L&#39;opération suivante renvoie le prix moyen de toutes les commandes.
 {%=average(orders.order.price)%}
 ```
 
-## Minimum{#min}
+## Count{#count}
 
-La fonction `min` renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau.
+La fonction `count` renvoie le nombre d&#39;éléments dans le tableau donné.
 
 **Format**
 
 ```sql
-{%= min(array) %}
+{%= count(array) %}
 ```
 
 **Exemple**
 
-L&#39;opération suivante renvoie le prix le plus bas de toutes les commandes.
+L&#39;opération suivante renvoie le nombre de commandes dans le tableau.
 
 ```sql
-{%=min(orders.order.price)%}
+{%= count(orders) %}
 ```
 
 ## Maximum{#max}
@@ -105,4 +69,40 @@ L&#39;opération suivante renvoie le prix le plus élevé de toutes les commande
 
 ```sql
 {%=max(orders.order.price)%}
+```
+
+## Minimum{#min}
+
+La fonction `min` renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau.
+
+**Format**
+
+```sql
+{%= min(array) %}
+```
+
+**Exemple**
+
+L&#39;opération suivante renvoie le prix le plus bas de toutes les commandes.
+
+```sql
+{%=min(orders.order.price) %}
+```
+
+## Sum{#sum}
+
+La fonction `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
+
+**Format**
+
+```sql
+{%= sum(array) %}
+```
+
+**Exemple**
+
+L&#39;opération suivante renvoie la somme des prix de toutes les commandes.
+
+```sql
+{%=sum(orders.order.price)%}
 ```

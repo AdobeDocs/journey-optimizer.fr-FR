@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1064'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
          + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
-         + [Fonctions de date](using/personalization/functions/dates.md)
+         + [Fonctions de date et heure](using/personalization/functions/dates.md)
          + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
          + [Helpers](using/personalization/functions/helpers.md)
          + [Fonctions de mappage](using/personalization/functions/maps.md)
@@ -103,6 +103,7 @@ ht-degree: 98%
       + [Prise en main des profils](using/segment/get-started-profiles.md)
       + [Créer des profils de test](using/segment/creating-test-profiles.md)
    + [Identités](using/segment/get-started-identity.md)
+   + [Tableau de bord de l’utilisation des licences](using/start/licence-usage.md)
 + Parcours {#orchestrate-journeys}
    + À propos des parcours{#about-journeys}
       + [Principe général](using/building-journeys/journey.md)

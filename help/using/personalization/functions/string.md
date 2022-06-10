@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 100%
+source-wordcount: '1686'
+ht-degree: 77%
 
 ---
 
@@ -255,9 +255,86 @@ La requête suivante extrait le domaine de l&#39;adresse e-mail personnelle.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Obtention de l’hôte d’URL {#get-url-host}
+
+Le `getUrlHost` sert à récupérer le nom d’hôte d’une URL.
+
+**Format**
+
+```sql
+{%= getUrlHost(string) %}: string
+```
+
+**Exemple**
+
+```sql
+{%= getUrlHost("http://www.myurl.com/contact") %}
+```
+
+Renvoie &quot;www.myurl.com&quot;
+
+## Obtention du chemin d’URL {#get-url-path}
+
+Le `getUrlPath` sert à récupérer le chemin d’accès après le nom de domaine d’une URL.
+
+**Format**
+
+```sql
+{%= getUrlPath(string) %}: string
+```
+
+**Exemple**
+
+```sql
+{%= getUrlPath("http://www.myurl.com/contact.html") %}
+```
+
+Renvoie &quot;/contact.html&quot;
+
+## Obtenir le protocole url {#get-url-protocol}
+
+Le `getUrlProtocol` est utilisée pour récupérer le protocole d’une URL.
+
+**Format**
+
+```sql
+{%= getUrlProtocol(string) %}: string
+```
+
+**Exemple**
+
+```sql
+{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+```
+
+Renvoie &quot;http&quot;
+
+## Index de {#index-of}
+
+Le `indexOf` est utilisée pour renvoyer la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
+
+**Format**
+
+```sql
+{%= indexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | Chaîne à rechercher dans le premier paramètre |
+
+**Exemple**
+
+```sql
+{%= indexOf("hello world","world" ) %}
+```
+
+Renvoie 6.
+
 ## Is empty {#isEmpty}
 
-La fonction `isEmpty` est utilisée pour déterminer si une chaîne est vide.
+Le `isEmpty` sert à déterminer si une chaîne est vide.
 
 **Format**
 
@@ -272,6 +349,47 @@ La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone mobil
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
+
+## N’est pas vide {#is-not-empty}
+
+Le `isNotEmpty` sert à déterminer si une chaîne n’est pas vide.
+
+**Format**
+
+```sql
+{= isNotEmpty(string) %}: boolean
+```
+
+**Exemple**
+
+La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone portable du profil n’est pas vide. Sinon, elle renverra &quot;false&quot;.
+
+```sql
+{%= isNotEmpty(profile.mobilePhone.number) %}
+```
+
+## Dernier index de {#last-index-of}
+
+Le `lastIndexOf` est utilisée pour renvoyer la position (dans le premier argument) de la dernière occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
+
+**Format**
+
+```sql
+{= lastIndexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | Chaîne à rechercher dans le premier paramètre |
+
+**Exemple**
+
+```sql
+{%= lastIndexOf("hello world","o" ) %}
+```
+
+Renvoie 7.
 
 ## Left trim {#leftTrim}
 
@@ -380,6 +498,24 @@ La requête suivante remplace la chaîne « 123456789 » par des caractères �
 
 La requête renvoie `1XXXXXX89`.
 
+## MD5 {#md5}
+
+Le `md5` est utilisée pour calculer et renvoyer le hachage md5 d’une chaîne.
+
+**Format**
+
+```sql
+{%= md5(string) %}: string
+```
+
+**Exemple**
+
+```sql
+{%= md5("hello world") %}
+```
+
+Renvoie &quot;5eb63bbe01eeed093cb22bb8f5acdc3&quot;
+
 ## Not equal to{#notEqualTo}
 
 La fonction `notEqualTo` permet de déterminer si une chaîne est différente d&#39;une chaîne donnée.
@@ -401,6 +537,29 @@ La requête suivante détermine si le nom de la personne n&#39;est pas « John�
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
+```
+
+## Différent De La Case Ignorer {#not-equal-with-ignore-case}
+
+Le `notEqualWithIgnoreCase` sert à comparer deux chaînes qui ne respectent pas la casse.
+
+**Format**
+
+```sql
+{= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
+```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à comparer à la première chaîne. |
+
+**Exemple**
+
+La requête suivante détermine si le nom de la personne n’est pas &quot;jean&quot;, sans respect de la casse.
+
+```sql
+{%= notEqualTo(profile.person.name,"john") %}
 ```
 
 ## Regular expression group{#regexGroup}
@@ -434,17 +593,22 @@ La fonction `replace` permet de remplacer une sous-chaîne donnée dans une cha�
 **Format**
 
 ```sql
-{%= replace(string,string,string) %}
+{%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
+
+| Argument | Description |
+| --------- | ----------- |
+| `{STRING_1}` | Chaîne dans laquelle la sous-chaîne doit être remplacée. |
+| `{STRING_2}` | Sous-chaîne à remplacer. |
+| `{STRING_3}` | Sous-chaîne de remplacement. |
 
 **Exemple**
 
-La fonction suivante.
-
 ```sql
-
+{%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
+Renvoie &quot;Hello Mark, voici votre newsletter mensuelle !&quot;
 
 ## Replace All{#replaceAll}
 
@@ -456,11 +620,9 @@ La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d&#39;un t
 {%= replaceAll(string,string,string) %}
 ```
 
-
 ## Right trim {#rightTrim}
 
 La fonction `rightTrim` est utilisée pour supprimer les espaces blancs de la fin d&#39;une chaîne.
-
 
 **Format**
 
@@ -477,17 +639,6 @@ La fonction `split` est utilisée pour fractionner une chaîne selon un caractè
 ```sql
 {%= split(string,string) %}
 ```
-
-<!--
-**Example**
-
-The following function .
-
-```sql
-
-```
-
--->
 
 ## Starts with{#startsWith}
 
@@ -513,6 +664,35 @@ La requête suivante détermine si le nom de la personne commence par « Joe �
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Chaîne à entier {#string-to-integer}
+
+Le `string_to_integer` est utilisée pour convertir une valeur de chaîne en valeur entière.
+
+**Format**
+
+```sql
+{= string_to_integer(string) %}: int
+```
+
+## Chaîne à nombre {#string-to-number}
+
+Le `stringToNumber` est utilisée pour convertir une chaîne en nombre. Elle renvoie la même chaîne que la sortie pour une entrée non valide.
+
+**Format**
+
+```sql
+{%= stringToNumber(string) %}: double
+```
+
+## Sous-chaîne {#sub-string}
+
+Le `Count string` est utilisée pour renvoyer la sous-chaîne de l’expression de chaîne entre l’index de début et l’index de fin.
+**Format**
+
+```sql
+{= substr(string, integer, integer) %}: string
+```
+
 ## Title Case{#titleCase}
 
 La fonction **titleCase** permet de mettre en majuscules les premières lettres de chaque mot d&#39;une chaîne.
@@ -529,6 +709,36 @@ Si la personne vit dans Washington high street, cette fonction renverra Washingt
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
+```
+
+## À Bool {#to-bool}
+
+Le `toBool` est utilisée pour convertir une valeur d’argument en valeur booléenne, selon son type.
+
+**Format**
+
+```sql
+{= toBool(string) %}: boolean
+```
+
+## Heure de la date {#to-date-time}
+
+Le `toDateTime` est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
+
+**Format**
+
+```sql
+{%= toDateTime(string, string) %}: date-time
+```
+
+## À date seule {#to-date-time-only}
+
+Le `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
+
+**Format**
+
+```sql
+{%= toDateTimeOnly(string) %}: date-time
 ```
 
 ## Trim{#trim}
@@ -557,4 +767,24 @@ Cette fonction convertit le nom du profil en majuscules.
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
+```
+
+## décodage de l’url {#url-decode}
+
+Le `urlDecode` est utilisée pour décoder une chaîne codée en url.
+
+**Format**
+
+```sql
+{%= urlDecode(string) %}: string
+```
+
+## Encode d&#39;URL {#url-encode}
+
+Le `Count only null` est utilisée pour encoder une chaîne en URL.
+
+**Format**
+
+```sql
+{%= urlEncode(string) %}: string
 ```
