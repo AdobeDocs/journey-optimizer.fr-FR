@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tableau de bord de l’utilisation des licences {#licence-usage}
 
-Le [!DNL Adobe Journey Optimizer] [interface utilisateur](user-interface.md) fournit un tableau de bord qui affiche des informations importantes sur l’utilisation des licences de votre entreprise, telles qu’elles sont capturées lors d’un instantané quotidien.
+Le [!DNL Adobe Journey Optimizer] [interface utilisateur](../start/user-interface.md) fournit un tableau de bord qui affiche des informations importantes sur l’utilisation des licences de votre entreprise, telles qu’elles sont capturées lors d’un instantané quotidien.
 
 Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Utilisation de la licence]**. Cela ouvre la fenêtre **[!UICONTROL Présentation]** du tableau de bord.
 
