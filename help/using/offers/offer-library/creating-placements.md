@@ -36,7 +36,7 @@ Pour créer une emplacement, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer un emplacement]**.
 
-   !![](../assets/offer_placement_création.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. Définissez les propriétés de l&#39;emplacement :
 
