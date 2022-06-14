@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -223,56 +223,6 @@ Les étapes détaillées pour créer et configurer une décision sont présenté
 
 ## Insertion d&#39;une décision dans un e-mail {#insert-decision-in-email}
 
-Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Procédez comme suit :
-
-1. Créez votre e-mail, puis ouvrez le [Concepteur d&#39;e-mail](../../using/design/design-emails.md) pour configurer son contenu.
-
-1. Ajoutez un composant de structure à partir de la palette gauche.
-
-1. Ajoutez un composant de contenu **[!UICONTROL Décision d&#39;offre]**. Découvrez comment utiliser les composants de contenu dans [cette section](../../using/design/content-components.md).
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. Sélectionnez-le. Dans la palette de droite, cliquez sur **[!UICONTROL Sélectionner la décision d&#39;offre]** pour ajouter une décision.
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. Sélectionnez l&#39;emplacement correspondant aux offres que vous souhaitez afficher dans la liste déroulante **[!UICONTROL Emplacements]**.
-
-   Dans ce cas, parmi les emplacements que vous avez créés précédemment dans le cadre de cet exemple, seul l&#39;emplacement **E-mail - Image** est disponible car vous souhaitez utiliser la décision dans un e-mail. En savoir plus sur la [création d&#39;emplacements](../../using/offers/offer-library/creating-placements.md).
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. Les décisions correspondant à l&#39;emplacement **E-mail - Image** s&#39;affichent. Sélectionnez la décision à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >Seules les décisions compatibles avec l&#39;emplacement sélectionné s&#39;affichent dans la liste.
-
-Vous pouvez maintenant visualiser toutes les offres personnalisées et l&#39;offre de secours dans le Concepteur d&#39;e-mail.
+Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Pour ce faire, procédez comme décrit dans la section [cette page](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-Utilisez la section **[!UICONTROL Offres]** ou les flèches des composants de contenu (flèches droite et gauche) pour parcourir les données. Vous pouvez également afficher les différentes offres qui font partie de la décision avec un profil client. En savoir plus dans [cette section](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
-
-Une fois vos modifications enregistrées et le message publié, vos offres sont prêtes à être affichées pour les profils pertinents lors de l&#39;envoi du message dans le cadre d&#39;un parcours.
-
->[!NOTE]
->
->Lorsque vous mettez à jour une offre, une offre de secours, une collection d’offres ou une décision d’offre qui est directement ou indirectement référencée dans un message [publié](../../using/messages/publish-manage-message.md), les mises à jour sont désormais automatiquement reflétées dans le message correspondant, sans quʼil soit nécessaire de le republier.
-
-**Rubriques connexes :**
-
-* Découvrez comment vérifier la prévisualisation du message dans [cette section](../../using/design/preview.md#preview-your-messages).
-
-* Découvrez comment publier des messages dans [cette section](../../using/messages/publish-manage-message.md).
-
-* Découvrez comment les messages sont déclenchés par un ou plusieurs parcours dans [cette section](../building-journeys/journey.md).
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

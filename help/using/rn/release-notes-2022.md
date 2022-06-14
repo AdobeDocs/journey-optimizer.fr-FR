@@ -2,7 +2,7 @@
 title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 100%
@@ -70,7 +70,7 @@ En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer d
 **Administration**
 
 * Vous pouvez maintenant activer/désactiver le lien de désabonnement dans/à partir de l’en-tête de l’e-mail au niveau du paramètre de message prédéfini, et définir une URL de désabonnement personnalisée au niveau du message. [En savoir plus](../configuration/message-presets.md#list-unsubscribe)
-* La liste autorisée peut désormais être activée et désactivée via l’interface [!DNL Journey Optimizer] sur les environnements de test de production et hors production. [En savoir plus](../reports/allow-list.md#enable-allow-list)
+* La liste autorisée peut désormais être activée et désactivée via l’interface [!DNL Journey Optimizer] sur les environnements de test de production et hors production. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 
 **Personnalisation**
 

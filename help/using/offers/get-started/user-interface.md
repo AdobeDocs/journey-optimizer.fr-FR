@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 93%
 
 ---
 
 # Interface utilisateur {#user-interface}
 
-La bibliothèque des offres vous permet de créer et de gérer vos emplacements et vos offres à un emplacement unique, mais aussi d’accéder à toutes les décisions (auparavant « activités d’offre ») créées.
+La bibliothèque des offres vous permet de créer et de gérer vos emplacements et offres au même endroit, ainsi que d’accéder à toutes les décisions créées.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Lorsque vous découvrez [!DNL Offer Decisioning], l&#39;onglet **[!UICONTROL Ape
 
 Suivez les étapes à l’écran pour commencer à créer des emplacements, des offres et des collections.
 
-Une fois que vous avez terminé ces premières étapes, vous êtes invité à créer des décisions d&#39;offre (précédemment appelées « activités d&#39;offre »).
+Une fois que vous avez terminé ces premières étapes, vous êtes invité à créer des décisions d’offre.
 
 ![](../assets/overview_collection-created.png)
 

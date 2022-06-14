@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 100%
+source-wordcount: '1267'
+ht-degree: 97%
 
 ---
 
-# Création de décisions {#create-offer-activities}
+# Créer des décisions {#create-offer-activities}
 
-Les décisions (précédemment appelées activités d’offre) sont des conteneurs qui s’appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
+Les décisions sont des conteneurs pour vos offres qui exploiteront le moteur de décision d’offre afin de sélectionner la meilleure offre à diffuser, en fonction de la cible de la diffusion.
 
 ➡️ [Découvrez comment créer des activités d&#39;offre dans cette vidéo](#video)
 

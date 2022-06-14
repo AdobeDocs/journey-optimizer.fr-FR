@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '941'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Elle est créée à l&#39;aide de la **bibliothèque des offres**, qui fournit u
 
 ![](../assets/offer_structure.png)
 
-Une fois la bibliothèque des offres enrichie d’offres, vous pouvez intégrer vos offres dans des **décisions** (auparavant « activités d&#39;offre »).
+Une fois la bibliothèque des offres enrichie d&#39;offres, vous pouvez intégrer vos offres dans les **décisions**.
 
 Les décisions sont des conteneurs qui s’appuient sur le moteur de décision pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 

@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 88%
 
 ---
 
 # Ajout d&#39;offres personnalisées {#deliver-personalized-offers}
 
-Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions (précédemment connues sous le nom d&#39;activités d&#39;offre) qui utiliseront le moteur de décision d&#39;offre afin de sélectionner la meilleure offre à proposer à vos clients.
+Dans [!DNL Journey Optimizer] par e-mail, vous pouvez insérer des décisions qui exploiteront le moteur de décision d’offre afin de choisir la meilleure offre à diffuser à vos clients.
 
 Par exemple, vous pouvez ajouter une décision qui affichera dans votre email une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 
@@ -49,7 +49,7 @@ Pour insérer une décision dans un email, procédez comme suit :
 
    Les [emplacements](../offers/offer-library/creating-placements.md) sont des conteneurs utilisés pour présenter vos offres. Dans cet exemple, nous utiliserons l’emplacement « image en haut de l&#39;email ». Cet emplacement a été créé dans la bibliothèque des offres pour afficher les offres de type image situées en haut des messages.
 
-1. Sélectionnez l’activité d’offre à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Les décisions correspondant à l’emplacement sélectionné s’affichent. Sélectionnez la décision à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    >[!NOTE]
    >
@@ -59,6 +59,11 @@ Pour insérer une décision dans un email, procédez comme suit :
 
 L&#39;activité d&#39;offre est alors ajoutée au composant.
 
+Une fois vos modifications enregistrées et le message publié, vos offres sont prêtes à être affichées pour les profils pertinents lors de l&#39;envoi du message dans le cadre d&#39;un parcours.
+
+>[!NOTE]
+>
+>Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre directement ou indirectement référencée dans un message publié, les mises à jour sont automatiquement répercutées dans le message correspondant, sans avoir à la republier.
 
 ## Prévisualisation des offres dans un e-mail {#preview-offers-in-email}
 

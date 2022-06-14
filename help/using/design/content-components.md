@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 100%
+source-wordcount: '1109'
+ht-degree: 99%
 
 ---
 
@@ -179,7 +179,7 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 
 ## Décision d&#39;offre {#offer-decision}
 
-Utilisez le composant **[!UICONTROL Décision d&#39;offre]** pour insérer des décisions (précédemment appelées activités d&#39;offre) dans vos messages. Les décisions s’appuient sur la gestion de décision pour choisir la meilleure offre à fournir à vos clients.
+Utilisez la variable **[!UICONTROL Décision sur l’offre]** pour insérer des décisions dans vos messages. Les décisions s’appuient sur la gestion de décision pour choisir la meilleure offre à fournir à vos clients.
 
 Rubriques connexes :
 

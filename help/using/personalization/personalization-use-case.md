@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '606'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
 * Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../messages/get-started-content.md).
 * Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
-* Créer une décision (auparavant « activité d&#39;offre ») ; consultez cette [section](../offers/offer-activities/create-offer-activities.md).
+* créer une décision, voir à ce sujet [section](../offers/offer-activities/create-offer-activities.md).
 
 ## Étape 1 - Ajouter une personnalisation au profil {#add-perso}
 
@@ -98,7 +98,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc13.png)
 
-1. Dans le menu de gauche, sélectionnez **Décisions d’offre** pour insérer une variable Offer Decisioning. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision (auparavant « activité d&#39;offre ») pour l&#39;ajouter au corps.
+1. Dans le menu de gauche, sélectionnez **Décisions d’offre** pour insérer une variable Offer Decisioning. Sélectionnez l’emplacement et cliquez sur le bouton **+** en regard de la décision de l’ajouter au corps.
 
    ![](assets/perso-uc14.png)
 

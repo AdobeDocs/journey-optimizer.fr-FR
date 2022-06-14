@@ -2,7 +2,7 @@
 title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '2073'
 ht-degree: 100%
@@ -278,7 +278,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Configuration des e-mails**
 
-* **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](../reports/allow-list.md#enable-allow-list)
+* **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un environnement de test hors production via un appel API. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 * **Navigation** : la liste de suppression, accessible sous le menu **Administration > Canaux > Configuration des emails > Général** a été déplacée vers le nouveau sous-menu **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestion des décisions**
@@ -325,7 +325,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 <tr>
 <td>
 <p>Vous pouvez maintenant définir une liste d'envoi sécurisé spécifique au niveau de l'environnement Sandbox, afin d'avoir un environnement sécurisé à des fins de test. Sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n'avez aucun risque d'envoyer des messages indésirables à vos clients. Cette fonctionnalité est activée en utilisant les API de suppression.</p>
-<p>Pour plus d'informations, consultez la <a href="../reports/allow-list.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../configuration/allow-list.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
