@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
+source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 91%
 
 ---
 
@@ -181,13 +181,23 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Niveaux de service {#service-levels}
 
-La durée de bout en bout de chaque décision de lot correspond à la durée entre le moment où la charge de travail est créée et le moment où le résultat de la décision est disponible dans le jeu de données de sortie. La taille du segment dans le payload de la requête POST est le facteur principal qui affecte le temps de décision de lot bout en bout.  Vous trouverez ci-dessous quelques observations relatives à différentes tailles de segment :
+L’heure de bout en bout de chaque décision de lot correspond à la durée entre le moment où la charge de travail est créée et le moment où le résultat de la décision est disponible dans le jeu de données de sortie. La taille du segment dans le payload de la requête POST est le facteur principal qui affecte le temps de décision de lot bout en bout. Si le plafond global de fréquence est activé pour l’offre éligible, la prise de décision par lots prend plus de temps. Vous trouverez ci-dessous quelques approximations du temps de traitement de bout en bout pour leurs tailles de segment respectives, avec ou sans limitation de fréquence pour les offres éligibles :
+
+Avec le plafonnement de fréquence activé pour les offres éligibles :
+
+| Taille du segment | Temps de traitement de bout en bout |
+|--------------|----------------------------|
+| 10 000 profils ou moins | 7 minutes |
+| 1 million de profils ou moins | 30 minutes |
+| 15 million de profils ou moins | 50 minutes |
+
+Sans limite de fréquence pour les offres éligibles :
 
 | Taille du segment | Temps de traitement de bout en bout |
 |--------------|----------------------------|
 | 10 000 profils ou moins | 6 minutes |
-| 1 million de profils ou moins | 10 minutes |
-| 15 million de profils ou moins | 75 minutes |
+| 1 million de profils ou moins | 8 minutes |
+| 15 million de profils ou moins | 16 minutes |
 
 ## Limites {#limitations}
 
