@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
@@ -21,23 +21,23 @@ Dans l’onglet **[!UICONTROL Exécutions]** du menu **[!UICONTROL Messages]**, 
 
 ![](assets/live_report.png)
 
-Le **[!UICONTROL Rapport dynamique]** sur les e-mails est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d’informations à ce sujet, consultez cette [section](live-report.md#modify-dashboard).
+Le **[!UICONTROL Rapport dynamique]** sur les e-mails est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md#modify-dashboard).
 
 ![](assets/live_report_5.png)
 
-Les widgets **[!UICONTROL Performances des emails]** et **[!UICONTROL Résumé des emails]** présentent les principales informations relatives à votre message avec un graphique et des KPI :
+**[!UICONTROL Performances des emails]** et **[!UICONTROL Email summary]** Les widgets détaillent les informations principales relatives à votre message avec un graphique et des indicateurs de performance clés :
 
 * **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
-* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]**: Nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans une diffusion.
 
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours.
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
@@ -49,11 +49,11 @@ Les widgets **[!UICONTROL Performances des emails]** et **[!UICONTROL Résumé d
 
 Le widget **[!UICONTROL Statistiques d’envoi]** détaille le succès de votre diffusion :
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]**: Nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, empêchant l’erreur d’être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
 ![](assets/live_report_6.png)
 

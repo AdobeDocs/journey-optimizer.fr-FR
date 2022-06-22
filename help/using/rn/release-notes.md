@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 90%
+source-wordcount: '325'
+ht-degree: 53%
 
 ---
 
@@ -17,116 +17,145 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Version de mai 2022 {#may-2022-release}
+## Version de juin 2022 {#june-2022-release}
 
 ### Nouvelles fonctionnalités
 
 <table>
 <thead>
 <tr>
-<th><strong>Règles de fréquence des messages</strong><br/></th>
+<th><strong>Envoyer des SMS à vos utilisateurs</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais définir des règles métier cross-canal qui excluront automatiquement les profils sursollicités des messages et actions.</p>
-<img src="assets/frequency-rn.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../configuration/frequency-rules.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : <b>27 juin</b></p>
+<p></p>
+<p>Vous pouvez désormais créer, personnaliser et envoyer des SMS dans Journey Optimizer, grâce à une intégration avec <b>Sinch</b> ou <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../messages/create-sms.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email BCC</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Availability date: <strong>May, 31</strong></p>
-<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
-<img src="assets/bcc-rn.gif"/>
-<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Gestion des décisions - Modèle d’optimisation automatique du classement IA</strong><br/></th>
+<th><strong>Obtenir plus d’images d’impact plus rapidement grâce à l’intégration d’Adobe Stock</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser des systèmes de modèle formés dans la gestion des décisions. Cette nouvelle fonctionnalité permet de classer les offres à afficher pour un profil donné.</p>
-<img src="assets/optimization.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentation détaillée</a>.</p>
+<p>Date de disponibilité : <b>23 juin</b></p>
+<p></p>
+<p>Le module d’intégration du Concepteur d’email d’Adobe Stock et de Adobe Journey Optimizer fournit aux clients un moyen simple de naviguer, d’acquérir sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br> La nouvelle <b>Rechercher des photos Stock similaires</b> Cette option vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
+<img src="assets/do-not-localize/stock-rn.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../design/stock.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
+<th><strong>Utiliser la fonctionnalité Email Cci sur tous vos emails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Permission management in Journey Optimizer has been extended to data access. You can now manage data access for specific teams or groups of users (i.e. internal, external, 3rd parties) ​and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
-<p>This capability is available for a limited set of customers.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+<p>Vous pouvez désormais utiliser la fonctionnalité Email Cci (copie carbone invisible) pour stocker les e-mails envoyés par Adobe Journey Optimizer. Activez cette option dans vos préréglages d’e-mail de sorte que chaque e-mail envoyé soit copié de façon invisible vers votre adresse Cci.</p>
+<img src="assets/do-not-localize/bcc-rn.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../configuration/bcc-email.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Copy objects between sandboxes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now re-create the experiences from a Journey Optimizer sandbox to another, for example from a non-production sandbox to a production sandbox. This new capability copies an entire Journey, including any objects the Journey depends on to run correctly, from one environment to another. In addition to Journeys, you can also copy other components, such as Offers, Messages, Schemas, Datasets, Data Sources, Events, and Actions.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Journaux d’audit Journey Optimizer</strong><br/></th>
+<th><strong>Dynamic Expression Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais surveiller les actions effectuées par les utilisateurs sur les ressources Adobe Journey Optimizer.</p>
-<img src="assets/audit-rn.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../reports/audit-logs.md">documentation détaillée</a>.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
+
 
 ### Améliorations
 
-**Personnalisation**
+**Gestion des décisions**
 
-* **Nouvelle fonction d’assistance pour le masquage des caractères** : la fonction d’assistance `mask` vous permet de remplacer une partie d’une chaîne par des caractères « X ». [En savoir plus](../personalization/functions/string.md#mask)
+* **Prise en charge des fichiers HTML et JSON** - Vous pouvez désormais faire glisser et déposer des fichiers de HTML externe et JSON de la bibliothèque de ressources Adobe Experience Cloud dans le contenu de représentation de l’offre. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
 
-**Pages de destination**
+<!--
+**Email**
 
-* **Pages de destination sans formulaire** : vous pouvez maintenant créer et publier une page de destination qui ne contient pas de formulaire et ne nécessite aucune action de la part des visiteurs.
-* **Modèles de page de destination** : vous pouvez maintenant enregistrer une page de destination en tant que modèle et la réutiliser lors de la création d’autres pages de destination. [En savoir plus](../landing-pages/lp-templates.md)
-* **Retour à la page principale** : vous pouvez maintenant ajouter un lien vers la page principale à partir de n’importe quelle sous-page de la même page de destination.
-* **Prise en charge de code JavaScript personnalisé** : vous pouvez désormais ajouter du code JavaScript personnalisé au contenu de votre page de destination pour appliquer un style avancé ou ajouter des comportements personnalisés à vos pages de destination.	[En savoir plus](../landing-pages/lp-custom-js.md)
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
 
-**Parcours**
+**Journeys**
 
-* **Lecture de segment** : les parcours de lecture de segment en une seule fois sont désormais mis à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-segment.md)
-* **Éditeur d&#39;expression** : la fonction [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
+
+-->
 
 **Administration**
 
-* **Mise à jour du tableau de bord d’utilisation des licences** - Le tableau de bord de l’utilisation de la licence disponible dans la [!DNL Adobe Journey Optimizer] L’interface utilisateur reflète désormais la valeur exacte de la variable **Sous licence** Richesse moyenne des profils. Une baisse de cette représentation de mesure s’affiche, ce qui signifie que la limite de licence est désormais correctement signalée. [En savoir plus](../segment/license-usage.md)
+<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+
+* **Aperçu des paramètres d’URL de suivi** - Lors de la configuration d&#39;un paramètre prédéfini de message, si vous définissez des paramètres de tracking URL, un aperçu dynamique de l&#39;URL de tracking résultante s&#39;affiche désormais. [En savoir plus](../configuration/email-settings.md#url-tracking)
+
+<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+
+<!--
+**Reporting**
+
+* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
+-->

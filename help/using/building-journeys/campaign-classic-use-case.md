@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](assets/accintegration-uc-10.png)
 
-1. Ajoutez une activité **Fin** et testez votre parcours.
+1. Tester votre parcours.
 
    ![](assets/accintegration-uc-11.png)
 

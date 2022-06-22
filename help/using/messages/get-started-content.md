@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ Pour créer un nouveau message, procédez comme suit :
 
    * Sélectionnez la **[!UICONTROL Catégorie de message]** : marketing ou transactionnel.
 
-   * Sélectionnez le ou les canaux à utiliser pour ce message : email et/ou notification push. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
+   * Sélectionnez le ou les canaux à utiliser pour ce message : Courriel, Notification push et/ou SMS. Vous devez sélectionner au moins un canal pour pouvoir créer le message.
    >[!NOTE]
    >
    >Vous pouvez cliquer sur le lien **[!UICONTROL Règle de fréquence]** pour afficher les règles de fréquence qui s’appliqueront à la catégorie et aux canaux sélectionnés. En savoir plus sur les [règles de fréquence](../configuration/frequency-rules.md).
@@ -98,6 +98,7 @@ Pour créer un nouveau message, procédez comme suit :
 
    * [Création d&#39;un e-mail](create-email.md)
    * [Créer des notification push](create-push.md)
+   * [Création dʼun SMS](create-sms.md)
 
    >[!NOTE]
    >   

@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,10 +20,9 @@ ht-degree: 100%
 >title="Création d&#39;un SMS"
 >abstract="Ajoutez votre message texte et commencez à le personnaliser à l&#39;aide de l&#39;éditeur d&#39;expression."
 
-
->[!CAUTION]
+>[!NOTE]
 >
-> Lʼutilisation du canal SMS est actuellement disponible en accès anticipé uniquement pour certains utilisateurs uniquement. Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
+>Les réglementations exigent que les destinataires des SMS puissent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Adobe Journey Optimizer traite automatiquement les mots-clés suivants : Démarrer, Arrêter et Annuler l’arrêt.
 
 Une fois que vous avez [créé un message](get-started-content.md), utilisez lʼonglet **[!UICONTROL SMS]** pour définir les paramètres et le contenu du canal SMS.
 
@@ -56,5 +53,6 @@ Votre message SMS peut maintenant être utilisé dans un parcours. [Découvrez c
 **Rubriques connexes**
 
 * [Configuration du canal SMS](../configuration/sms-configuration.md)
+* [Rapport SMS](../reports/journey-global-report.md#sms-global)
 * [Création d&#39;un nouveau message](get-started-content.md)
 * [Ajout d&#39;un message dans un parcours](../building-journeys/journeys-message.md)

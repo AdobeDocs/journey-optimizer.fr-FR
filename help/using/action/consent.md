@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 6d20cf5bc235178c7698a9595c551d7b12f4cd13
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +39,8 @@ Avec la gestion du consentement, deux activités de parcours sont analysées :
 
 * Lecture de segment : le segment récupéré est pris en compte.
 * Action personnalisée : la gestion du consentement prend en compte les attributs utilisés ([paramètres d’action](../action/about-custom-action-configuration.md#define-the-message-parameters)) ainsi que la ou les actions marketing définies (action marketing requise et action marketing supplémentaire).
+
+Le consentement s’applique uniquement lorsqu’une action marketing (requise ou supplémentaire) est définie au niveau de l’action personnalisée.
 
 Toutes les autres activités utilisées dans un parcours ne sont pas prises en compte. Si vous commencez votre parcours avec une qualification de segment, le segment n’est pas pris en compte.
 

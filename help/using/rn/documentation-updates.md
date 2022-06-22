@@ -2,16 +2,30 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
+
+
+## Juin 2022 {#june-2022}
+
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 juin a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* Une nouvelle section sur les stratégies d’utilisation des données a été ajoutée à la documentation. [En savoir plus](../privacy/policies.md)
+* Une nouvelle section sur les demandes d’accès à des informations personnelles a été ajoutée à la documentation. [En savoir plus](../privacy/requests.md)
+* Une nouvelle section sur les journaux d’audit des ressources a été ajoutée à la documentation. [En savoir plus](../privacy/audit-logs.md)
+* Une nouvelle section sur l’ajout à une représentation d’offre d’un contenu HTML ou JSON provenant de la bibliothèque de ressources Adobe Experience Cloud a été ajoutée à la documentation. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
+* Ajout d’une nouvelle page sur le cycle de vie des parcours. [En savoir plus](../building-journeys/journey-end.md)
+* Mise à jour de la page Activité Attente . [En savoir plus](../building-journeys/wait-activity.md)
+* Ajout de la liste des jeux de données Adobe Journey Optimizer avec des exemples de requête. [En savoir plus](../start/datasets-query-examples.md)
+* La page Liste autorisée a été déplacée vers la section Configuration . [En savoir plus](../configuration/allow-list.md)
+* La page Liste de suppression a été mise à jour. [En savoir plus](../configuration/manage-suppression-list.md)
 
 ## Mai 2022 {#may-2022}
 

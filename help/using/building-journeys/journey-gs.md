@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,7 +134,7 @@ Le mode rafale est un module complémentaire de Journey Optimizer qui permet d&#
 La messagerie en rafale est fournie avec les exigences suivantes :
 
 * Le parcours doit commencer par une activité **Lecture de segment**. Les événements ne sont pas autorisés.
-* L&#39;étape suivante doit être un message push. Aucun autre canal ni aucune autre activité ou étape n&#39;est autorisé (à l&#39;exception de l&#39;activité **de fin** facultative).
+* L&#39;étape suivante doit être un message push. Aucun autre canal, activité ou étape n’est autorisé.
 * Aucune personnalisation n&#39;est autorisée dans le message push.
 * Le message doit être de petite taille (&lt;2 Ko).
 
@@ -155,73 +155,3 @@ Ensuite, testez et publiez votre parcours comme d’habitude. Notez que, en mode
 Découvrez les cas pratiques applicables pour la messagerie en rafale et comment configurer un parcours pour les messages en rafale dans cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
-
-
-## Fin, arrêt ou fermeture d’un parcours{#end-journey}
-
-Un parcours peut se terminer pour un individu dans deux contextes spécifiques :
-
-* Le client arrive à la dernière activité d&#39;un chemin. Il ne doit pas nécessairement s&#39;agir d&#39;une activité **Fin**. L’utilisation d’une activité **Fin** n’est pas obligatoire. Consultez [cette page](../building-journeys/end-activity.md).
-* Le client arrive à une activité **Condition** (ou à une activité **Attente** avec une condition) et ne répond à aucune des conditions.
-
-Il peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-gs.md#change-properties)
-
-Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
-
-* Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
-* Un parcours basé sur un segment « unique » qui a terminé son exécution.
-* Après la dernière occurrence d&#39;un parcours récurrent basé sur un segment.
-
-Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
-
-Si nécessaire, il est possible d&#39;arrêter la progression de tous les individus dans le parcours. L&#39;arrêt du parcours entraîne la temporisation de tous les individus qui en font partie.
-
-Voici comment fermer ou arrêter manuellement un parcours :
-
-Les options **[!UICONTROL Arrêter]** et **[!UICONTROL Fermer aux nouvelles entrées]** permettent de terminer les parcours **actifs**. Fermer un parcours suppose le **blocage de tout nouvel accès** et la possibilité, pour les clients ayant déjà rejoints le parcours, de poursuivre l&#39;expérience jusqu&#39;à son terme. Il s&#39;agit de la méthode recommandée pour mettre fin à un parcours, car elle offre la meilleure expérience pour les clients. L&#39;arrêt d&#39;un parcours suppose qu&#39;il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt.
-
->[!NOTE]
->
->Notez que vous ne pouvez pas reprendre un parcours fermé ou arrêté.
-
-### Fermeture d’un parcours
-
-Vous pouvez fermer un parcours manuellement pour vous assurer que les clients qui l&#39;ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre.
-
-Lorsqu&#39;un parcours est fermé, le statut **[!UICONTROL Fermé]** lui est attribué. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
-
-La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
-
-Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
-
-![](assets/journey-finish-quick-action.png)
-
-Vous pouvez également réaliser les opérations suivantes :
-
-1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez fermer.
-1. En haut à droite, cliquez sur la flèche vers le bas.
-
-   ![](assets/finish_drop_down_list.png)
-
-1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** et confirmez dans la boîte de dialogue.
-
-### Arrêt d’un parcours
-
-Vous pouvez arrêter un parcours lorsqu&#39;une urgence s&#39;est produite et qu&#39;il doit être mis fin immédiatement à tout processus.
-
-La version d&#39;un parcours arrêté ne peut pas être redémarrée.
-
-À l’arrêt, le statut du parcours est défini sur **[!UICONTROL Arrêté]**.
-
-Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
-
-![](assets/journey-finish-quick-action.png)
-
-Vous pouvez également réaliser les opérations suivantes :
-
-1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez arrêter.
-1. En haut à droite, cliquez sur la flèche vers le bas.
-
-![](assets/finish_drop_down_list.png)
-
-1. Cliquez sur **[!UICONTROL Arrêter]** et confirmez dans la boîte de dialogue.

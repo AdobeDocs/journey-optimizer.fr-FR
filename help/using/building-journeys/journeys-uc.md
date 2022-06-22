@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,8 +120,6 @@ Consultez cette [section](../segment/about-segments.md) pour savoir comment conc
 1. Connectez les trois chemins à l&#39;événement d&#39;achat créé précédemment. L&#39;événement est déclenché lorsqu&#39;un individu effectue un achat.
 
 1. Après l&#39;événement, déposez une activité **Message** et sélectionnez le message de remerciement.
-
-1. Ajoutez une activité **Fin**.
 
 ## Tester et publier le parcours
 

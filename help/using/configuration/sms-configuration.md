@@ -3,21 +3,15 @@ title: Configuration des SMS
 description: Découvrez comment configurer votre environnement pour envoyer des messages SMS avec Journey Optimizer
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 90%
 
 ---
 
 # Configuration du canal SMS {#sms-configuration}
-
->[!CAUTION]
->
-> Lʼutilisation du canal SMS est actuellement disponible en accès anticipé uniquement pour certains utilisateurs uniquement. Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
 
 [!DNL Journey Optimizer] vous permet de créer vos parcours et dʼenvoyer des messages à une audience ciblée.
 
@@ -29,15 +23,14 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
 
    ![](assets/sms_4.png)
 
-1. Sélectionnez Sinch an tant que **[!UICONTROL Fournisseur de SMS]**.
+1. Sélectionnez votre **[!UICONTROL Fournisseur de SMS]**:
+
+   * [!DNL Sinch]. Pour rechercher votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**, accédez au menu SMS > API depuis votre compte Sinch.
+   * [!DNL Twilio]. Pour rechercher votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**, accédez au volet Informations du compte de la page Tableau de bord de la console .
 
 1. Entrez un **[!UICONTROL Nom]** pour vos informations d’identification API.
 
 1. Saisissez votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**.
-
-   >[!NOTE]
-   >
-   > Sinch nécessite des informations d’identification API spéciales. Pour rechercher votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**, accédez au menu SMS > API depuis votre compte Sinch,
 
    ![](assets/sms_5.png)
 
@@ -74,6 +67,8 @@ Pour créer un préréglage de message, procédez comme suit :
       Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](sms-configuration.md).
 
    * Saisissez le **[!UICONTROL Numéro dʼexpéditeur]** à utiliser lors de vos communications.
+
+   * Sélectionnez votre **[!UICONTROL Champ d&#39;exécution du SMS]** pour sélectionner la variable **[!UICONTROL Attribut de profil]** associé aux numéros de téléphone des profils.
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa configuration ultérieurement.
 

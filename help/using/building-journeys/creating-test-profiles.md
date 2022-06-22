@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -139,7 +139,7 @@ Votre parcours sera composé d&#39;une activité **[!UICONTROL Lecture de segmen
 1. Ajoutez une activité d&#39;action **[!UICONTROL Mettre à jour le profil]**.
 1. Sélectionnez le schéma, le champ **testProfiles** et le jeu de données et définissez la valeur sur **true**. Pour ce faire, dans le champ **[!UICONTROL VALUE]**, cliquez sur l&#39;icône **Stylo** à droite, sélectionnez **[!UICONTROL Mode avancé]** et saisissez **true**.
    ![](assets/test-profiles-26.png)
-1. Ajoutez une activité **Fin** et cliquez sur **[!UICONTROL Publier]**.
+1. Cliquez sur **[!UICONTROL Publier]**.
 1. Dans la section **[!UICONTROL Segments]** , vérifiez que les profils ont été correctement mis à jour.
    ![](assets/test-profiles-28.png)
 

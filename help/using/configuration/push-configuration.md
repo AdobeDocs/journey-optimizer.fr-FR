@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -334,8 +334,6 @@ Votre événement est maintenant créé et peut être utilisé dans un parcours.
 1. Dans la liste déroulante **[!UICONTROL Actions]**, faites glisser et déposez une activité **[!UICONTROL Message]** dans votre parcours.
 
 1. Sélectionnez un message créé précédemment. Pour plus d&#39;informations sur la création de notifications push, consultez cette [page](../messages/get-started-content.md).
-
-1. Faites glisser et déposez une activité **[!UICONTROL Fin]** dans votre parcours.
 
 1. Cliquez sur l&#39;option **[!UICONTROL Test]** pour commencer à tester vos notifications push et cliquez sur **[!UICONTROL Déclencher un événement]**.
 
