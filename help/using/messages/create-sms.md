@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '269'
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Les réglementations exigent que les destinataires des SMS puissent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Adobe Journey Optimizer traite automatiquement les mots-clés suivants : Démarrer, Arrêter et Annuler l’arrêt.
+>Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
 
 Une fois que vous avez [créé un message](get-started-content.md), utilisez lʼonglet **[!UICONTROL SMS]** pour définir les paramètres et le contenu du canal SMS.
 
@@ -49,6 +49,10 @@ Pour personnaliser votre message SMS, procédez comme suit :
 1. Une fois que votre message est prêt, vous pouvez le publier afin de permettre son exécution à lʼaide du bouton **[!UICONTROL Publier]**. Cette action publiera la nouvelle version du message qui sera utilisée pour les prochaines exécutions dans vos parcours.
 
 Votre message SMS peut maintenant être utilisé dans un parcours. [Découvrez comment créer des parcours](../building-journeys/journey-gs.md).
+
+## Inclusion et exclusion{#sms-opt-in-out}
+
+Les destinataires des SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Conformément aux normes et réglementations du secteur, Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRER, ARRÊTER et DÉMARRER. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
 
 **Rubriques connexes**
 

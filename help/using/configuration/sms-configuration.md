@@ -4,16 +4,20 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 90%
+source-wordcount: '417'
+ht-degree: 85%
 
 ---
 
 # Configuration du canal SMS {#sms-configuration}
 
 [!DNL Journey Optimizer] vous permet de créer vos parcours et dʼenvoyer des messages à une audience ciblée.
+
+>[!NOTE]
+>
+>Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
 
 ## Création d’informations d’identification API {#create-api}
 

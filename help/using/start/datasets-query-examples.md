@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 5a6e18e6ff236d25bd5f81b42430be2998208321
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Opti
 [Jeu de données d’événement de retour de message](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Jeu de données d’événement d’expérience de suivi push](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Événement d’étape de parcours](../start/datasets-query-examples.md#journey-step-event)
-[Jeu de données d’événement de prise de décision relative aux offres](../start/datasets-query-examples.md#ode-decisionevents)
+[offer decisioning du jeu de données d’événement](../start/datasets-query-examples.md#ode-decisionevents)
 [Jeu de données du service de consentement](../start/datasets-query-examples.md#consent-service-dataset)
 [Jeu de données d’événement de retour en Cci](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -198,7 +198,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Jeu de données d’événement de prise de décision relative aux offres{#ode-decisionevents}
+## offer decisioning du jeu de données d’événement{#ode-decisionevents}
 
 _Nom dans l’interface : ODE DecisionEvents (jeu de données système)_
 
