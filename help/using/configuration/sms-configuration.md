@@ -4,16 +4,18 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 85%
+source-wordcount: '450'
+ht-degree: 79%
 
 ---
 
 # Configuration du canal SMS {#sms-configuration}
 
 [!DNL Journey Optimizer] vous permet de créer vos parcours et dʼenvoyer des messages à une audience ciblée.
+
+Avant d&#39;envoyer un SMS, configurez votre instance. Vous devez [intégrer les paramètres du fournisseur](#create-api) avec Journey Optimizer et [créer un paramètre prédéfini SMS ;](#message-preset-sms). Ces étapes doivent être exécutées par une [Administrateur système Adobe Journey Optimizer](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >

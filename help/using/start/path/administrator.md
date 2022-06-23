@@ -3,10 +3,10 @@ title: Prise en main de Journey Optimizer pour l’administrateur système
 description: En tant qu’administrateur système, découvrez comment utiliser Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
-source-wordcount: '711'
-ht-degree: 100%
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Découvrez la gestion des accès dans les pages suivantes :
 En outre, vous devez ajouter les utilisateurs qui doivent accéder à Assets Essentials aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. [Pour en savoir plus, consultez la documentation sur Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer [!DNL Adobe Experience Manager Assets Essentials] pour votre organisation. Pour en savoir plus, reportez-vous à la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
+>Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer [!DNL Adobe Experience Manager Assets Essentials] pour votre organisation. Pour en savoir plus, reportez-vous à la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
 Lorsque vous accédez à [!DNL Journey Optimizer] pour la première fois, une sandbox de production vous est allouée ainsi qu’un certain nombre d’adresses IP en fonction de votre contrat. 
 
@@ -49,6 +49,8 @@ Suivez les étapes énumérées ci-dessous :
    * Définissez **les paramètres des notifications push** dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../../configuration/push-gs.md)
 
    * Créez des **préréglages de messages** pour configurer tous les paramètres techniques requis pour les e-mails et les notifications push. [En savoir plus](../../configuration/message-presets.md)
+
+   * Configurez la variable **Canal SMS** pour configurer tous les paramètres techniques requis pour les SMS. [En savoir plus](../../configuration/sms-configuration.md)
 
    * Gérez le nombre de jours pendant lesquels des **reprises** sont effectuées avant de transmettre des adresses e-mail à la liste de suppression. [En savoir plus](../../configuration/manage-suppression-list.md)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 75%
+source-wordcount: '391'
+ht-degree: 36%
 
 ---
 
@@ -20,13 +20,18 @@ ht-degree: 75%
 >title="Création d&#39;un SMS"
 >abstract="Ajoutez votre message texte et commencez à le personnaliser à l&#39;aide de l&#39;éditeur d&#39;expression."
 
+Une fois que [création d’un message](get-started-content.md), utilisez le **[!UICONTROL SMS]** pour définir les paramètres et le contenu du SMS.
+
+
 >[!AVAILABILITY]
 >
 >Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
 
-Une fois que vous avez [créé un message](get-started-content.md), utilisez lʼonglet **[!UICONTROL SMS]** pour définir les paramètres et le contenu du canal SMS.
-
 ![](assets/sms_1.png)
+
+Si c&#39;est la première fois que vous créez un SMS, vérifiez que le canal SMS a été configuré. [En savoir plus](../configuration/sms-configuration.md).
+
+## Définir le contenu du SMS{#sms-content}
 
 Pour personnaliser votre message SMS, procédez comme suit :
 
@@ -34,25 +39,37 @@ Pour personnaliser votre message SMS, procédez comme suit :
 
    ![](assets/sms_3.png)
 
-1. Utilisez l&#39;éditeur d&#39;expression pour définir le contenu et les données de personnalisation. Consultez [cette section](../personalization/personalize.md) pour en savoir plus sur la personnalisation dans l&#39;éditeur d&#39;expression.
+1. Utilisez l’éditeur d’expression pour définir le contenu. Vous pouvez utiliser n’importe quel attribut pour personnaliser le contenu, tel que le nom du profil ou la ville. Consultez [cette section](../personalization/personalize.md) pour en savoir plus sur la personnalisation dans l&#39;éditeur d&#39;expression.
 
    >[!NOTE]
    >
-   > Le nombre de caractères des SMS est limité à 160.
+   > Un SMS peut contenir jusqu’à 160 caractères, espaces et sauts de ligne inclus.
 
    ![](assets/sms_2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque votre message personnalisé est prêt.
+1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque votre message est prêt.
 
-1. Cliquez sur **[!UICONTROL Prévisualiser]** pour voir comment votre message SMS sera affiché sur les appareils mobiles. Voir à ce propos [cette section](../design/preview.md).
+## Valider votre SMS{#sms-preview}
 
-1. Une fois que votre message est prêt, vous pouvez le publier afin de permettre son exécution à lʼaide du bouton **[!UICONTROL Publier]**. Cette action publiera la nouvelle version du message qui sera utilisée pour les prochaines exécutions dans vos parcours.
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré [contenu personnalisé](../personalization/personalize.md), vous pouvez vérifier l’affichage de ce contenu dans le message en exploitant les données de profil de test.
+
+Pour visualiser l’affichage de votre SMS sur les appareils mobiles, accédez à la page **[!UICONTROL Aperçu]** .
+
+Voir à ce propos [cette section](../design/preview.md).
+
+
+## Publier votre SMS {#sms-publish}
+
+Une fois que votre message est prêt, vous pouvez le publier afin de permettre son exécution à lʼaide du bouton **[!UICONTROL Publier]**. Cette action publie la nouvelle version du message qui sera utilisée pour les prochaines exécutions dans vos parcours.
 
 Votre message SMS peut maintenant être utilisé dans un parcours. [Découvrez comment créer des parcours](../building-journeys/journey-gs.md).
 
 ## Inclusion et exclusion{#sms-opt-in-out}
 
+Pour tous les messages marketing, le SMS doit contenir un moyen pour que les destinataires puissent facilement se désabonner. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing. L&#39;ajout d&#39;un lien de désinscription n&#39;est pas obligatoire pour les messages transactionnels.
+
 Les destinataires des SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Conformément aux normes et réglementations du secteur, Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRER, ARRÊTER et DÉMARRER. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
+
 
 **Rubriques connexes**
 

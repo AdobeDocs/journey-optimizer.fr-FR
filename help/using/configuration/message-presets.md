@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 100%
+source-wordcount: '1552'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
 1. Configurez les paramètres de **notification push**. [En savoir plus](#configure-push-settings)
 
-   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. Configurer **SMS** paramètres. [En savoir plus](sms-configuration.md)
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa configuration ultérieurement.
 
