@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 100%
+source-wordcount: '1334'
+ht-degree: 95%
 
 ---
 
@@ -210,3 +210,10 @@ En fonction du client de messagerie, cliquer sur le lien de désabonnement de l&
 Les destinataires push peuvent se désabonner eux-mêmes via leurs appareils.
 
 Par exemple, lors du téléchargement ou de l’utilisation de votre application, ils peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
+
+## Gestion des opt-out des SMS {#sms-opt-out-management}
+
+Conformément aux normes et réglementations du secteur, les destinataires de SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out.
+Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRER, ARRÊTER et DÉMARRER. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
+
+Pour plus d&#39;informations sur l&#39;opt-out des SMS, consultez cette [page](../messages/create-sms.md#opt-in-and-opt-out).

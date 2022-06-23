@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1842'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,7 @@ La page **[!UICONTROL Rapport global]** du parcours s&#39;affiche avec les ongle
 * [Parcours](#journey-global)
 * [Email](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
 Le rapport **[!UICONTROL global]** de parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](global-report.md#modify-dashboard).
 
@@ -45,7 +46,7 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 ![](assets/global_report_12.png)
 
-Les widgets **[!UICONTROL Événements reçus par événement]****** et **[!UICONTROL Événements par origine]** vous permettent de savoir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
+Les widgets **[!UICONTROL Événements reçus par événement]**, **[!UICONTROL Événements par origine]** et **[!UICONTROL Principaux événements]** vous permettent de savoir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
 
 ![](assets/global_report_13.png)
 

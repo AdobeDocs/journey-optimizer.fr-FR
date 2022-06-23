@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 36%
@@ -57,7 +57,6 @@ Pour visualiser l’affichage de votre SMS sur les appareils mobiles, accédez �
 
 Voir à ce propos [cette section](../design/preview.md).
 
-
 ## Publier votre SMS {#sms-publish}
 
 Une fois que votre message est prêt, vous pouvez le publier afin de permettre son exécution à lʼaide du bouton **[!UICONTROL Publier]**. Cette action publie la nouvelle version du message qui sera utilisée pour les prochaines exécutions dans vos parcours.
@@ -69,7 +68,6 @@ Votre message SMS peut maintenant être utilisé dans un parcours. [Découvrez c
 Pour tous les messages marketing, le SMS doit contenir un moyen pour que les destinataires puissent facilement se désabonner. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing. L&#39;ajout d&#39;un lien de désinscription n&#39;est pas obligatoire pour les messages transactionnels.
 
 Les destinataires des SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Conformément aux normes et réglementations du secteur, Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRER, ARRÊTER et DÉMARRER. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
-
 
 **Rubriques connexes**
 

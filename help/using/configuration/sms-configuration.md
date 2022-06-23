@@ -4,7 +4,7 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 79%
@@ -70,7 +70,7 @@ Pour créer un préréglage de message, procédez comme suit :
 
    * Sélectionnez la **[!UICONTROL Configuration SMS]** à associer au préréglage.
 
-      Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](sms-configuration.md).
+      Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](#create-api).
 
    * Saisissez le **[!UICONTROL Numéro dʼexpéditeur]** à utiliser lors de vos communications.
 
