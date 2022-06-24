@@ -9,13 +9,13 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Interface utilisateur {#user-interface}
 
-La bibliothèque des offres vous permet de créer et de gérer vos emplacements et offres au même endroit, ainsi que d’accéder à toutes les décisions créées.
+La bibliothèque des offres vous permet de créer et de gérer vos emplacements et vos offres à un emplacement unique, mais aussi d&#39;accéder à toutes les décisions créées.
 
 >[!NOTE]
 >

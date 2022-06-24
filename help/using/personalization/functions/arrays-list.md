@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 87%
 
 Utilisez ces fonctions pour faciliter l&#39;interaction avec des tableaux, des listes et des chaînes.
 
-## Count only null {#count-only-null}
+## Nombre uniquement nul {#count-only-null}
 
-Le `countOnlyNull` sert à compter le nombre de valeurs &quot;null&quot; dans une liste.
+La fonction `countOnlyNull` sert à compter le nombre de valeurs nulles dans une liste.
 
 **Format**
 
@@ -34,9 +34,9 @@ Le `countOnlyNull` sert à compter le nombre de valeurs &quot;null&quot; dans un
 ```
 Renvoie 3.
 
-## Compter avec valeur nulle {#count-with-null}
+## Nombre avec nul {#count-with-null}
 
-Le `countWithNull` est utilisée pour compter tous les éléments d’une liste, y compris les valeurs nulles.
+La fonction `countWithNull` est utilisée pour compter tous les éléments d’une liste, y compris les valeurs nulles.
 
 **Format**
 
@@ -69,9 +69,9 @@ L&#39;opération suivante définit les personnes qui ont passé des commandes da
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
-## Comptage distinct avec valeur nulle {#distinct-count-with-null}
+## Nombre distinct avec nul {#distinct-count-with-null}
 
-Le `distinctCountWithNull` sert à compter le nombre de valeurs différentes dans une liste, y compris les valeurs &quot;null&quot;.
+La fonction `distinctCountWithNull` sert à compter le nombre de valeurs différentes dans une liste, y compris les valeurs nulles.
 
 **Format**
 
@@ -87,9 +87,9 @@ Le `distinctCountWithNull` sert à compter le nombre de valeurs différentes dan
 
 Renvoie 3.
 
-## First item{#head}
+## Premier élément{#head}
 
-Le `head` est utilisée pour renvoyer le premier élément d’un tableau ou d’une liste.
+La fonction `head` est utilisée pour renvoyer le premier élément dans un tableau ou une liste.
 
 **Format**
 
@@ -99,13 +99,13 @@ Le `head` est utilisée pour renvoyer le premier élément d’un tableau ou d�
 
 **Exemple**
 
-L&#39;opération suivante renvoie la première des cinq premières commandes au prix le plus élevé. Vous trouverez plus d&#39;informations sur la fonction `topN` dans la section [First `n` in array](#first-n).
+L&#39;opération suivante renvoie la première des cinq principales commandes au prix le plus élevé. Vous trouverez plus d&#39;informations sur la fonction `topN` dans la section [First `n` in array](#first-n).
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## First `n` in array {#first-n}
+## `n` premiers éléments d’un tableau {#first-n}
 
 La fonction `topN` est utilisée pour renvoyer les premiers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
 
@@ -123,13 +123,13 @@ La fonction `topN` est utilisée pour renvoyer les premiers éléments `N` d’u
 
 **Exemple**
 
-L&#39;opération suivante renvoie les cinq premières commandes au prix le plus élevé.
+L&#39;opération suivante renvoie les cinq principales commandes au prix le plus élevé.
 
 ```sql
 {%= topN(orders,price, 5) %}
 ```
 
-## In{#in}
+## Dans{#in}
 
 La fonction `in` permet de déterminer si un élément est un membre d&#39;un tableau ou d&#39;une liste.
 
@@ -147,7 +147,7 @@ L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en 
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## Includes{#includes}
+## Inclut{#includes}
 
 La fonction `includes` permet de déterminer si un tableau ou une liste contient un élément donné.
 
@@ -165,7 +165,7 @@ L&#39;opération suivante définit les personnes dont le rouge est l&#39;une des
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersects{#intersects}
+## Intersections{#intersects}
 
 La fonction `intersects` permet de déterminer si deux tableaux ou deux listes ont au moins un membre commun.
 
@@ -203,7 +203,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Last `n` in array{#last-n}
+## `n` derniers éléments d’un tableau{#last-n}
 
 La fonction `bottomN` est utilisée pour renvoyer les derniers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
 
@@ -221,13 +221,13 @@ La fonction `bottomN` est utilisée pour renvoyer les derniers éléments `N` d�
 
 **Exemple**
 
-L&#39;opération suivante renvoie les cinq premières commandes au prix le plus bas.
+L&#39;opération suivante renvoie les cinq principales commandes au prix le plus bas.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Not in{#notin}
+## Pas dans{#notin}
 
 La fonction `notIn` permet de déterminer si un élément n&#39;est pas un membre d&#39;un tableau ou d&#39;une liste.
 
@@ -250,7 +250,7 @@ L&#39;opération suivante définit les personnes dont l&#39;anniversaire n&#39;e
 ```
 
 
-## Subset of{#subset}
+## Sous-ensemble de{#subset}
 
 La fonction `subsetOf` sert à déterminer si un tableau spécifique (tableau A) est un sous-ensemble d&#39;un autre tableau (tableau B). En d&#39;autres termes, elle permet de déterminer si tous les éléments du tableau A sont des éléments du tableau B.
 
@@ -268,7 +268,7 @@ L&#39;opération suivante définit les personnes qui ont visité toutes leurs vi
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Superset of{#superset}
+## Sur-ensemble de{#superset}
 
 La fonction `supersetOf` sert à déterminer si un tableau spécifique (tableau A) est un sur-ensemble d&#39;un autre tableau (tableau B). En d&#39;autres termes, elle permet de déterminer si le tableau A contient tous les éléments du tableau B.
 

@@ -6,8 +6,8 @@ role: User
 level: Intermediate
 source-git-commit: 771828da23ab0656fc5726845305fe6949620545
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 29%
 
 ---
 

@@ -9,13 +9,13 @@ exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Recherche d&#39;une règle {#look-up-decision}
 
-Vous pouvez rechercher des décisions spécifiques en adressant une requête GET à la fonction [!DNL Offer Library] API qui inclut les décisions `@id` ou le nom de la décision dans le chemin de la requête.
+Vous pouvez rechercher des décisions spécifiques en effectuant une requête GET à l’API [!DNL Offer Library] qui inclut les décisions `@id` ou le nom de la décision dans le chemin de la requête.
 
 **Format d’API**
 

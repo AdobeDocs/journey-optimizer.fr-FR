@@ -264,7 +264,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** classement
 **Titre :** Détails du classement
-**Description :** Rang (priorité). Définit ce qui est considéré comme la \&quot;meilleure action\&quot; selon le contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent à la contrainte d&#39;éligibilité, l&#39;ordre de classement décidera des options supérieures (ou supérieures N) à proposer.
+**Description :** Rang (priorité). Définit ce qui est considéré comme la \&quot;meilleure action\&quot; selon le contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent à la contrainte d’éligibilité, l’ordre de classement déterminera les principales options (ou Top N des options) à proposer.
 **Type :** objet
 
 **_experience > prise de décision > ranking > Évaluation de l&#39;ordre**

@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Les dernières notes de mise à jour sont disponibles [dans cette page](release-
 
 **Administration**
 
-* **Mise à jour du tableau de bord d’utilisation des licences** - Le tableau de bord de l’utilisation de la licence disponible dans la [!DNL Adobe Journey Optimizer] L’interface utilisateur reflète désormais la valeur exacte de la variable **Sous licence** Richesse moyenne des profils. Une baisse de cette représentation de mesure s’affiche, ce qui signifie que la limite de licence est désormais correctement signalée. [En savoir plus](../segment/license-usage.md)
+* **Mise à jour du tableau de bord d’utilisation des licences** : le tableau de bord d’utilisation des licences disponible dans l’interface utilisateur [!DNL Adobe Journey Optimizer] reflète désormais la valeur exacte de la richesse moyenne du profil **sous licence**. Une baisse de cette représentation de mesure s’affiche, ce qui signifie que la limite de licence est désormais correctement signalée. [En savoir plus](../segment/license-usage.md)
 
 
 ## Version d&#39;avril 2022 {#april-2022-release}

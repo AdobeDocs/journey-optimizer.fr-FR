@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1226'
+ht-degree: 90%
 
 ---
 
@@ -120,7 +120,7 @@ Si vous souhaitez transférer vers une adresse e-mail spécifique tous les e-mai
 
 * Adresse e-mail de transfert de votre choix. Notez que le domaine de l’adresse e-mail de transfert ne peut correspondre à aucun sous-domaine délégué à Adobe.
 * Nom de votre sandbox.
-* Nom du paramètre prédéfini pour lequel l’adresse électronique de transfert sera utilisée.
+* Nom prédéfini pour lequel l’adresse e-mail de transfert sera utilisée.
 * L’adresse **[!UICONTROL Répondre à (e-mail)]** actuelle définie au niveau du préréglage.
 
 >[!NOTE]
@@ -131,9 +131,9 @@ L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 
 
 ## E-mail Cci {#bcc-email}
 
-Vous pouvez envoyer une copie identique (ou une copie en carbone invisible) des emails envoyés par [!DNL Journey Optimizer] dans une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
+Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-mails envoyés par [!DNL Journey Optimizer] vers une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
 
-Pour ce faire, activez l’option **[!UICONTROL Email Cci]** fonction facultative au niveau du paramètre prédéfini. [En savoir plus](bcc-email.md)
+Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** en option au niveau du préréglage. [En savoir plus](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 

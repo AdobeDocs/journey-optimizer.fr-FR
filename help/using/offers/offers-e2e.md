@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1086'
+ht-degree: 100%
 
 ---
 
@@ -223,6 +223,6 @@ Les étapes détaillées pour créer et configurer une décision sont présenté
 
 ## Insertion d&#39;une décision dans un e-mail {#insert-decision-in-email}
 
-Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Pour ce faire, procédez comme décrit dans la section [cette page](../../using/design/deliver-personalized-offers.md).
+Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Pour ce faire, suivez les étapes présentées dans [cette page](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

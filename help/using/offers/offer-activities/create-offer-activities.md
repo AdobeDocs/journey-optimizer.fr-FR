@@ -9,13 +9,13 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Créer des décisions {#create-offer-activities}
 
-Les décisions sont des conteneurs pour vos offres qui exploiteront le moteur de décision d’offre afin de sélectionner la meilleure offre à diffuser, en fonction de la cible de la diffusion.
+Les décisions sont des conteneurs pour vos offres qui s’appuient sur le moteur de décision d’offre pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
 ➡️ [Découvrez comment créer des activités d&#39;offre dans cette vidéo](#video)
 

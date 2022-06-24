@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
       + [Notes de mise à jour 2022](using/rn/release-notes-2022.md)
       + [Notes de mise à jour 2021](using/rn/release-notes-2021.md)
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
-   + [Migration des messages](using/rn/inline-messages.md)
+   + [Migration de messages](using/rn/inline-messages.md)
 + Prise en main{#get-started}
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Démarrage rapide{#quick-start}
@@ -79,7 +79,7 @@ ht-degree: 96%
    + [Création d’une liste dʼabonnements](using/landing-pages/subscription-list.md)
    + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
 + Personnalisation{#personalization}
-   + [Prise en main   de la personnalisation](using/personalization/personalize.md)
+   + [Prise en main    de la personnalisation](using/personalization/personalize.md)
    + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
    + Création d’expressions {#build-expressions}
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
          + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
-         + [Fonctions de date et heure](using/personalization/functions/dates.md)
+         + [Fonctions date/heure](using/personalization/functions/dates.md)
          + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
          + [Helpers](using/personalization/functions/helpers.md)
          + [Fonctions de mappage](using/personalization/functions/maps.md)
@@ -262,7 +262,7 @@ ht-degree: 96%
       + [Exemples de requêtes](using/reports/query-examples.md)
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/reports/deliverability.md)
-      + [À propos de la liste de suppression](using/reports/suppression-list.md)
+      + [À propos à la liste de suppression](using/reports/suppression-list.md)
 + Gestion des décisions {#offer-decisioniong}
    + Prise en main de la gestion des décisions {#get-started-decision}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -384,10 +384,10 @@ ht-degree: 96%
       + Configuration des préréglages de message {#set-up-message-presets}
          + [Création de préréglages de message](using/configuration/message-presets.md)
          + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
-         + [Utiliser l&#39;email Cci](using/configuration/bcc-email.md)
+         + [Utiliser E-mail Cci](using/configuration/bcc-email.md)
       + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)
       + [Configuration des règles de fréquence](using/configuration/frequency-rules.md)
-   + Configuration des pages de destination  {#lp-configuration}
+   + Configuration des pages de destination   {#lp-configuration}
       + [Configurer les sous-domaines des pages de destination](using/configuration/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/configuration/lp-presets.md)
    + Configuration des parcours {#configure-journeys}

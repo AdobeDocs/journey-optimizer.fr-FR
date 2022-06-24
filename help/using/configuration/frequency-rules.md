@@ -9,7 +9,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Utilisez l&#39;icône de filtre pour filtrer par catégorie, statut et/ou canal.
 
 Pour accéder aux règles de fréquence des messages, en créer, les modifier ou les supprimer, vous devez disposer de l’autorisation **[!UICONTROL Gestion des règles de fréquence]**.
 
-Utilisateurs avec la variable **[!UICONTROL Afficher les règles de fréquence]** Les autorisations peuvent afficher des règles, mais pas les modifier ni les supprimer.
+Les utilisateurs avec l’autorisation **[!UICONTROL Afficher les règles de fréquence]** peuvent afficher les règles, mais pas les modifier ni les supprimer.
 
 ![](assets/message-rules-access.png)
 

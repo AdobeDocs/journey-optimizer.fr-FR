@@ -9,13 +9,13 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Ajout d&#39;offres personnalisées {#deliver-personalized-offers}
 
-Dans [!DNL Journey Optimizer] par e-mail, vous pouvez insérer des décisions qui exploiteront le moteur de décision d’offre afin de choisir la meilleure offre à diffuser à vos clients.
+Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de décision d’offre afin de sélectionner la meilleure offre à proposer à vos clients.
 
 Par exemple, vous pouvez ajouter une décision qui affichera dans votre email une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 
@@ -47,13 +47,13 @@ Pour insérer une décision dans un email, procédez comme suit :
 
 1. Dans la fenêtre qui s&#39;affiche, sélectionnez l&#39;emplacement correspondant aux offres que vous souhaitez afficher.
 
-   Les [emplacements](../offers/offer-library/creating-placements.md) sont des conteneurs utilisés pour présenter vos offres. Dans cet exemple, nous utiliserons l’emplacement « image en haut de l&#39;email ». Cet emplacement a été créé dans la bibliothèque des offres pour afficher les offres de type image situées en haut des messages.
+   Les [emplacements](../offers/offer-library/creating-placements.md) sont des conteneurs utilisés pour présenter vos offres. Dans cet exemple, nous utiliserons l’emplacement « image en haut de l&#39;e-mail ». Cet emplacement a été créé dans la bibliothèque des offres pour afficher les offres de type image situées en haut des messages.
 
 1. Les décisions correspondant à l’emplacement sélectionné s’affichent. Sélectionnez la décision à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    >[!NOTE]
    >
-   >Seules les décisions compatibles avec l&#39;emplacement sélectionné s&#39;affichent dans la liste. Dans cet exemple, une seule activité d&#39;offre correspond à l&#39;emplacement « image en haut de l&#39;email ».
+   >Seules les décisions compatibles avec l&#39;emplacement sélectionné s&#39;affichent dans la liste. Dans cet exemple, une seule activité d&#39;offre correspond à l&#39;emplacement « image en haut de l&#39;e-mail ».
 
    ![](assets/deliver-offer-placement.png)
 
@@ -63,7 +63,7 @@ Une fois vos modifications enregistrées et le message publié, vos offres sont 
 
 >[!NOTE]
 >
->Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre directement ou indirectement référencée dans un message publié, les mises à jour sont automatiquement répercutées dans le message correspondant, sans avoir à la republier.
+>La mise à jour dʼune offre, dʼune offre de secours, dʼune collection d’offres ou dʼune décision d’offre, directement ou indirectement référencée dans un message publié, est automatiquement répercutée dans le message correspondant, sans quʼil soit nécessaire de le republier.
 
 ## Prévisualisation des offres dans un e-mail {#preview-offers-in-email}
 
