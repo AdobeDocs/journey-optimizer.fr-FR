@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
+source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Le [!DNL Adobe Stock] et [!DNL Adobe Journey Optimizer] Le module d’intégrati
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} permet d’accéder à des millions de photos, vidéos, illustrations et graphiques vectoriels organisés, de haute qualité et libres de droits. Vous pouvez choisir d’acheter un pack de crédits pour acquérir des ressources sous licence ou d’acheter uniquement une licence Standard ou Étendue pour la ressource nécessaire. Adobe Stock fournit également une collection gratuite de ressources.
 
-Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos e-mails directement depuis [!DNL Adobe Stock] et les ajouter à votre dossier Ressources. Le **[!UICONTROL Rechercher une image similaire]** permet de rechercher des images correspondant au contenu, à la couleur et à la composition de la ressource utilisée dans votre diffusion.
+Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos emails directement depuis [!DNL Adobe Stock] et ajoutez-le à votre dossier Assets à l’aide de la méthode **[!UICONTROL Recherche de photos Adobe Stock]** . En outre, la variable **[!UICONTROL Rechercher une image similaire]** permet de rechercher des images correspondant au contenu, à la couleur et à la composition de la ressource utilisée dans votre diffusion.
 
 ## Autorisations{#stock-permissions}
 
-Le **[!UICONTROL Recherche de photos Adobe Stock]** est disponible pour les utilisateurs ayant accès à un profil de produit AEM Assets Essentials.
+Le **[!UICONTROL Recherche de photos Adobe Stock]** et **[!UICONTROL Rechercher une image similaire]** Les options sont disponibles pour les utilisateurs ayant accès à un profil de produit AEM Assets Essentials.
 
 Voir à ce sujet la section [Documentation essentielle des ressources](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
 
