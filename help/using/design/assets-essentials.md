@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
+source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
 
-# Création et gestion des ressources. {#experience-manager-assets}
+# Création et gestion des ressources. par [!DNL Assets Essentials]{#experience-manager-assets}
 
-## Commencer avec [!DNL Assets Essentials]  {#get-started-assets-essentials}
+## Prise en main de [!DNL Assets Essentials] {#get-started-assets-essentials}
 
 Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets Essentials]. Intégrés nativement à [!DNL Adobe Journey Optimizer], accédez à [!DNL Assets Essentials] pour stocker, gérer, découvrir et distribuer des ressources numériques. Ceci fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages.
 

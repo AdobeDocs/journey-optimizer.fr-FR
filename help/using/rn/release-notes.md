@@ -2,7 +2,7 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 47%
@@ -51,7 +51,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Date de disponibilité : <b>23 juin</b></p>
+<p>Date de disponibilité : <b>27 juin</b></p>
 <p></p>
 <p>Le module d’intégration du Concepteur d’email d’Adobe Stock et de Adobe Journey Optimizer fournit aux clients un moyen simple de naviguer, d’acquérir sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br> La nouvelle <b>Rechercher des photos Stock similaires</b> Cette option vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>

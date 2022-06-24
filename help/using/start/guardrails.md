@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
+source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '743'
+ht-degree: 82%
 
 ---
 
@@ -19,21 +19,27 @@ Les droits, les limitations de produit et la sécurisation des performances sont
 
 Vous trouverez ci-dessous des éléments de sécurité et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
 
-## Limitations des messages {#limitations-messages}
+## Protections des messages {#message-guardrails}
 
 * Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
 * Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
 
-## Limitations des pages de destinations {#limitations-lp}
+
+## Barrières de sécurité de la gestion des décisions {#offer-guardrails}
+
+Les barrières de performance et les limites statiques pour la gestion des décisions sont répertoriées dans la section [Page de description du produit Adobe Offer decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+
+
+## Barrières de sécurité des landing pages {#lp-guardrails}
 
 * Un seul composant de **Formulaire** peut être utilisé dans une page principale unique.
 * Le composant de **Formulaire** ne peut pas être utilisé dans les sous-pages.
 * Vous ne pouvez pas ajouter de pré-titre à une page de destination.
 * Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
 
-## Limitations dans les parcours {#limitations-journeys}
+## Barrières de sécurité du parcours {#journeys-guardrails}
 
-### Actions générales {#general-actions}
+### Actions générales {#general-actions-g}
 
 * Il n’y a pas de limite d’envoi.
 * En cas d&#39;erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé.
@@ -42,11 +48,11 @@ Vous trouverez ci-dessous des éléments de sécurité et des limitations suppl�
 * Il existe aujourd’hui une limitation technique dans les parcours qui empêche qu’un profil soit présent plusieurs fois dans le même parcours, en même temps. Un profil peut toujours revenir à un parcours (en fonction d’un paramètre), mais il ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 * Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la rentrée est activée, un profil peut entrer à nouveau dans un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/journey-end.md)
 
-### Action Message {#message-action}
+### Action Message {#message-action-g}
 
 * Lorsque vous ajoutez un message multicanal, deux messages sont envoyés.
 
-### Versions de parcours {#journey-versions-limitations}
+### Versions de parcours {#journey-versions-g}
 
 * Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement de **qualification de segment**.
 * Un parcours commençant par une activité **Qualification de segment** dans la version_v1 doit toujours débuter avec une **qualification de segment** dans d&#39;autres versions.
@@ -54,7 +60,7 @@ Vous trouverez ci-dessous des éléments de sécurité et des limitations suppl�
 * La règle de rentrée doit être la même dans toutes les versions du parcours.
 * Un parcours commençant par un événement **Lire le segment** ne peut pas commencer par un autre événement dans les versions suivantes.
 
-### Actions personnalisées {#custom-actions}
+### Actions personnalisées {#custom-actions-g}
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
 * Seules les méthodes d’appel POST et PUT sont prises en charge.
@@ -62,15 +68,15 @@ Vous trouverez ci-dessous des éléments de sécurité et des limitations suppl�
 * Les adresses IP ne sont pas autorisées.
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
 
-### Événements {#events}
+### Événements {#events-g}
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 
-### Sources de données  {#data-sources}
+### Sources de données  {#data-sources-g}
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
-### Parcours commençant en même temps qu&#39;une création de profil {#journeys-limitation-profile-creation}
+### Parcours et création de profil {#journeys-limitation-profile-creation}
 
 Un délai est associé à la création/la mise à jour de profils basés sur l’API dans Adobe Experience Platform. La cible de niveau de service (TSL) en termes de latence est d’atteindre moins de 1 minute entre l&#39;ingestion et le profil unifié pour 95 % des demandes, avec un volume de 20K demandes par seconde (DPS).
 
@@ -82,6 +88,6 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse e-mail, etc.).
 
-### Lecture de segment {#read-segment}
+### Lecture de segment {#read-segment-g}
 
 * Les segments diffusés en continu sont toujours à jour, mais les segments par lots ne sont pas calculés au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
