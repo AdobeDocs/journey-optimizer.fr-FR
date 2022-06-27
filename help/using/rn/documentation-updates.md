@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 91%
+source-wordcount: '1592'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour de la page Activité Attente . [En savoir plus](../building-journeys/wait-activity.md)
 * Ajout de la liste des jeux de données Adobe Journey Optimizer avec des exemples de requête. [En savoir plus](../start/datasets-query-examples.md)
 * La page Liste autorisée a été déplacée vers la section Configuration . [En savoir plus](../configuration/allow-list.md)
-* La page Liste de suppression a été mise à jour. [En savoir plus](../configuration/manage-suppression-list.md)
+* La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
 * Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions - [En savoir plus](../start/guardrails.md)
 
 
