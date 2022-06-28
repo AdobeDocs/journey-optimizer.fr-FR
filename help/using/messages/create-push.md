@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1475'
+ht-degree: 98%
 
 ---
 
@@ -93,6 +93,11 @@ Dans la version iOS, vous pouvez ajouter jusquʼà quatre boutons. Dans la vers
 ![](assets/push_buttons.png)
 
 ## Envoyer une notification silencieuse {#silent-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push_silent_notification"
+>title="A propos de la notification silencieuse"
+>abstract="Envoyez des notifications sans déranger l’utilisateur. Les notifications ne sont pas affichées dans le centre de notifications ou dans la barre de notifications."
 
 Une notification push silencieuse (ou notification en arrière-plan) est une instruction masquée qui est transmise à l&#39;application. Elle est par exemple utilisée pour informer votre application de la disponibilité d&#39;un nouveau contenu ou pour lancer un téléchargement en arrière-plan.
 

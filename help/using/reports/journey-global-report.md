@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 96%
@@ -253,6 +253,8 @@ Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL 
 Le SMS **[!UICONTROL Rapport global]** est divisé en différents widgets détaillant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
 
 ## Onglet SMS {#sms-global}
+
+![](assets/report_sms_global.png)
 
 Le **[!UICONTROL SMS - Statistiques d&#39;envoi]** le tableau détaille le succès de votre diffusion :
 
