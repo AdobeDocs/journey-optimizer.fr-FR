@@ -4,10 +4,10 @@ description: Découvrez comment configurer des sous-domaines de page de destinat
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: e57ea0f4beda9c0e3e58074339633187cc0bc02b
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,10 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   Notez que vous ne pouvez pas utiliser plusieurs sous-domaines délégués du même domaine parent. Par exemple, si marketing1.votreentreprise.com est déjà délégué à Adobe pour vos landing pages, vous ne pourrez pas utiliser marketing2.votreentreprise.com. Toutefois, les sous-domaines à plusieurs niveaux sont pris en charge pour les landing pages. Vous pouvez donc utiliser &#39;email.marketing1.votreentreprise.com&#39;.
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >Si vous sélectionnez un domaine qui a été délégué à Adobe à l’aide de la [méthode CNAME](delegate-subdomain.md#cname-subdomain-delegation), vous devez créer l’enregistrement DNS sur votre plateforme d’hébergement. Pour générer l’enregistrement DNS, le processus est le même que lorsque vous configurez un nouveau sous-domaine de page de destination. Découvrez comment dans [cette section](#lp-configure-new-subdomain).
@@ -100,7 +104,11 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
    La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
 
-   Veuillez noter que les sous-domaines à plusieurs niveaux tels qu’email.marketing.votre_entreprise.com ne sont actuellement pas pris en charge.
+   >[!NOTE]
+   >
+   >Pour les landing pages, les sous-domaines à plusieurs niveaux sont pris en charge. Par exemple, vous pouvez utiliser &quot;email.marketing.votreentreprise.com&quot;.
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. L’enregistrement à placer dans les serveurs DNS s’affiche. Copiez cet enregistrement ou téléchargez un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant.
 
