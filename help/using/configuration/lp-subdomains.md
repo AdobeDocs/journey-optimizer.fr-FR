@@ -4,10 +4,10 @@ description: Découvrez comment configurer des sous-domaines de page de destinat
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Notez que vous ne pouvez pas utiliser plusieurs sous-domaines délégués du même domaine parent. Par exemple, si marketing1.votreentreprise.com est déjà délégué à Adobe pour vos landing pages, vous ne pourrez pas utiliser marketing2.votreentreprise.com. Toutefois, les sous-domaines à plusieurs niveaux sont pris en charge pour les landing pages. Vous pouvez donc utiliser &#39;email.marketing1.votreentreprise.com&#39;.
+   Notez que vous ne pouvez pas utiliser plusieurs sous-domaines délégués du même domaine parent. Par exemple, si &quot;marketing1.votreentreprise.com&quot; est déjà délégué à Adobe pour vos landing pages, vous ne pourrez pas utiliser &quot;marketing2.votreentreprise.com&quot;. Toutefois, les sous-domaines à plusieurs niveaux sont pris en charge pour les landing pages. Vous pouvez donc utiliser &#39;email.marketing1.votreentreprise.com&#39;.
 
    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
