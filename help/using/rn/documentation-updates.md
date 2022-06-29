@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 90%
+source-wordcount: '1608'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La page Liste autorisée a été déplacée vers la section Configuration . [En savoir plus](../configuration/allow-list.md)
 * La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
 * Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions - [En savoir plus](../start/guardrails.md)
+* L’optimisation du temps d’envoi est désormais disponible pour tous les clients. La mention bêta a été supprimée. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## Mai 2022 {#may-2022}
