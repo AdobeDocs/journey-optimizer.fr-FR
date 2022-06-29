@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -80,7 +78,7 @@ Les objets suivants sont copiés :
 
 * Segment
 
-   Un segment ne peut être copié qu’une seule fois d’un environnement de test à un autre. Les requêtes suivantes pour copier le segment échoueront. Une fois qu’un segment est copié, il n’est pas modifiable sur l’environnement de test de destination.
+   Un segment ne peut être copié qu’une seule fois d’un environnement de test à un autre. Une fois qu’un segment est copié, il n’est pas modifiable sur l’environnement de test de destination.
 
 * Schéma
 
@@ -103,4 +101,8 @@ Les objets suivants sont copiés :
    Les actions et les détails de l’action utilisés dans le parcours sont copiés.
 
 Les paramètres prédéfinis ne sont pas copiés. Le système sélectionne automatiquement la correspondance la plus proche possible sur l’environnement de test de destination, en fonction du type de message et du nom du paramètre prédéfini. Si aucun paramètre prédéfini n’est trouvé sur l’environnement de test cible, la copie du paramètre prédéfini échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’un paramètre prédéfini soit disponible pour la configuration. Dans ce cas, au moins un paramètre prédéfini doit être créé, pour le canal approprié du message, afin que la copie fonctionne.
+
+Pour les schémas, les stratégies de fusion et les segments, la deuxième fois que ces objets tentent d’être copiés, ils ne sont référencés que. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
+
+Il y a un délai de cinq minutes avant que Adobe Journey Optimizer puisse référencer des schémas, des stratégies de fusion et des segments sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.
 
