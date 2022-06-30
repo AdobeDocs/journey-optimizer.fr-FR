@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
+source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 >title="Objets dépendants"
 >abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’Journey Optimizer ID interne."
 
-Journey Optimizer vous permet de copier un parcours entier d’un environnement de test à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de test dans votre environnement de test de production. Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : messages, segments, paramètres prédéfinis, schémas, événements et actions. Reportez-vous à la section [limitations](../event/about-events.md)
+Journey Optimizer vous permet de copier un parcours entier d’un environnement de test à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de test dans votre environnement de test de production. Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : messages, segments, paramètres prédéfinis, schémas, événements et actions. Reportez-vous à la section [limitations](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
