@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ Les campagnes vous permettent de diffuser du contenu unique sur un segment spéc
 
 Contrairement aux parcours, où les actions sont conçues pour être exécutées de manière séquentielle, les campagnes exécutent les actions simultanément, immédiatement ou selon un calendrier spécifié. Vous pouvez les utiliser, par exemple, pour diffuser des offres promotionnelles, des campagnes d’engagement, des annonces, des mentions légales ou des mises à jour de politique.
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-Découvrez comment gérer les campagnes &lt;!>—and content expériences&lt;>:
+Découvrez comment utiliser les campagnes :
 * [Créer une campagne](create-campaign.md)
 * [Modifier ou arrêter une campagne](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [Rapport en direct de Campaign](campaign-live-report.md)
+* [Rapport global de campagnes](campaign-global-report.md)
 
 ## Accès aux campagnes {#access}
 
