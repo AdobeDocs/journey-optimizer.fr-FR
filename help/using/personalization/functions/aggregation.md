@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Les fonctions d&#39;agrégation sont utilisées pour regrouper plusieurs valeurs afin de former une seule valeur de synthèse.
 
-## Average{#average}
+## Moyenne{#average}
 
 La fonction `average` renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.
 
@@ -35,7 +35,7 @@ L&#39;opération suivante renvoie le prix moyen de toutes les commandes.
 {%=average(orders.order.price)%}
 ```
 
-## Count{#count}
+## Nombre{#count}
 
 La fonction `count` renvoie le nombre d&#39;éléments dans le tableau donné.
 
@@ -89,7 +89,7 @@ L&#39;opération suivante renvoie le prix le plus bas de toutes les commandes.
 {%=min(orders.order.price) %}
 ```
 
-## Sum{#sum}
+## Somme{#sum}
 
 La fonction `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
 
