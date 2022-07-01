@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -15,13 +15,13 @@ ht-degree: 100%
 
 # Opérateurs {#operators}
 
-## Fonctions booléennes  {#boolean-functions}
+## Fonctions booléennes {#boolean-functions}
 
 Les fonctions booléennes sont utilisées pour exécuter une logique booléenne sur différents éléments.
 
 ### Et{#and}
 
-La fonction `and` sert à créer une conjonction logique.
+La fonction `and` est utilisée pour convertir un nombre en pourcentage.
 
 **Format**
 
@@ -37,7 +37,7 @@ L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;or
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
 ```
 
-### Or{#or}
+### Ou{#or}
 
 La fonction `or` est utilisée pour créer une disjonction logique.
 
@@ -80,9 +80,9 @@ not (homeAddress.countryISO = "CA")
 
 Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
 
-### Est égal à{#equals}
+### Égal à{#equals}
 
-La fonction `=` (est égal) vérifie si une valeur ou expression est égale à une autre valeur ou expression.
+La fonction `=` (égal à) vérifie si une valeur ou expression est égale à une autre valeur ou expression.
 
 **Format**
 
