@@ -1,19 +1,19 @@
 ---
-title: Helpers
-description: Helpers
+title: Assistants
+description: Assistants
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
 ht-degree: 100%
 
 ---
 
-# Helpers {#gs-helpers}
+# Assistants {#gs-helpers}
 
 ## Valeur de secours par défaut{#default-value}
 
@@ -175,7 +175,7 @@ Générer une liste de produits que cet utilisateur a dans son panier :
 {{/each}}
 ```
 
-## With{#with}
+## Avec{#with}
 
 L&#39;helper `with` permet de modifier le jeton d&#39;évaluation d&#39;une partie de modèle.
 
