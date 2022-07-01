@@ -1,30 +1,30 @@
 ---
-title: Utilisation de modèles d’email
-description: Découvrez comment enregistrer votre contenu d'email en tant que modèle et le réutiliser dans Journey Optimizer
+title: Utiliser des modèles d’e-mail
+description: Découvrez comment enregistrer le contenu de votre e-mail en tant que modèle et le réutiliser dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
-# Utilisation de modèles d’email {#email-templates}
+# Utiliser des modèles d’e-mail {#email-templates}
 
-Utilisez la variable **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à créer votre contenu à partir d’un modèle.
+Utilisez la section **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à créer votre contenu à partir d’un modèle.
 
 ![](assets/email_designer-templates.png)
 
 Vous pouvez choisir parmi les options suivantes :
-* 20 modèles d&#39;email d&#39;usine.
+* 20 modèles d’e-mail prêts à l’emploi.
 * Modèles enregistrés. [En savoir plus](#save-as-template)
 
 ## Enregistrer en tant que modèle {#save-as-template}
 
-Une fois que vous avez conçu votre [contenu de l&#39;email](design-emails.md), vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
+Une fois que vous avez créé le [contenu de votre e-mail](design-emails.md), vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
 
 1. Cliquez sur les points de suspension en haut à droite de l’écran.
 
@@ -38,19 +38,19 @@ Une fois que vous avez conçu votre [contenu de l&#39;email](design-emails.md), 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-La prochaine fois que vous créez un email, vous pouvez utiliser ce modèle pour créer votre contenu. [Voici comment procéder](#use-saved-template)
+La prochaine fois que vous créerez un e-mail, vous pourrez utiliser ce modèle pour créer votre contenu. [Voici comment procéder](#use-saved-template)
 
 ![](assets/email_designer-saved-template.png)
 
-## Utilisation d’un modèle enregistré {#use-saved-template}
+## Utiliser un modèle enregistré {#use-saved-template}
 
-1. Ouvrez le [Concepteur d&#39;email](create-email-content.md).
+1. Ouvrez le [Concepteur d’e-mail](create-email-content.md).
 
-1. Sur le **[!UICONTROL Créer votre écran de messagerie]**, la variable **[!UICONTROL Exemples de modèles]** est sélectionné par défaut. Sélectionnez la **[!UICONTROL Modèles enregistrés]** .
+1. Dans **[!UICONTROL Créer votre écran de messagerie]**, l’onglet **[!UICONTROL Exemples de modèles]** est sélectionné par défaut. Sélectionnez l’onglet **[!UICONTROL Modèles enregistrés]** .
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. La liste de tous les [modèles enregistrés](#save-as-template) s’affiche. Vous pouvez les trier : **[!UICONTROL Par nom]**, **[!UICONTROL Dernière modification]** et **[!UICONTROL Dernière création]**.
+1. La liste de tous les [modèles précédemment enregistrés](#save-as-template) s’affiche. Vous pouvez les trier : **[!UICONTROL Par nom]**, **[!UICONTROL Dernière modification]** et **[!UICONTROL Dernière création]**.
 
    ![](assets/email_designer-saved-templates.png)
 
@@ -60,7 +60,7 @@ La prochaine fois que vous créez un email, vous pouvez utiliser ce modèle pour
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Cliquez sur **[!UICONTROL Utiliser cet email]** en haut à droite de l’écran.
+1. Cliquez sur **[!UICONTROL Utiliser cet e-mail]** en haut à droite de l’écran.
 
-1. Modifiez votre contenu selon vos besoins à l&#39;aide du Concepteur d&#39;email.
+1. Modifiez votre contenu selon vos besoins à l’aide du concepteur d’e-mail.
 
