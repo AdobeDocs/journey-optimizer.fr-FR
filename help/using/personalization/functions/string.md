@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1686'
 ht-degree: 100%
 
@@ -334,7 +334,7 @@ Renvoie 6.
 
 ## Est vide {#isEmpty}
 
-La fonction `isEmpty` est utilisée pour déterminer si une chaîne est vide.
+La fonction `isEmpty` permet de déterminer si une chaîne contient une chaîne est vide.
 
 **Format**
 
@@ -516,7 +516,7 @@ La fonction `md5` est utilisée pour calculer et renvoyer le hachage md5 d’une
 
 Renvoie « 5eb63bbe01eeed093cb22bb8f5acdc3 »
 
-## Pas égal à{#notEqualTo}
+## Différent de{#notEqualTo}
 
 La fonction `notEqualTo` permet de déterminer si une chaîne est différente d&#39;une chaîne donnée.
 
@@ -539,7 +539,7 @@ La requête suivante détermine si le nom de la personne n&#39;est pas « John�
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Pas égal à Ignorer la casse {#not-equal-with-ignore-case}
+## Différent de Ignorer la casse {#not-equal-with-ignore-case}
 
 La fonction `notEqualWithIgnoreCase` sert à comparer deux chaînes qui ne respectent pas la casse.
 
@@ -741,7 +741,7 @@ La fonction `toDateTimeOnly` est utilisée pour convertir une valeur d’argumen
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## Supprimer{#trim}
+## Taille{#trim}
 
 La fonction **trim** supprime tous les espaces blancs du début et de la fin d&#39;une chaîne.
 
