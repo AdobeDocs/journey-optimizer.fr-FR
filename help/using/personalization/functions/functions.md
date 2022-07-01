@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1738'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="aggregation.md#average">Moyenne</a></td><td>Cette fonction renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Nombre</a></td><td>Cette fonction renvoie le nombre d'éléments dans le tableau donné.</td>
+        <td><a href="aggregation.md#count">Nombre</a></td><td>La fonction  renvoie le nombre d'éléments dans le tableau donné</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">Nombre uniquement nul</a></td><td>Cette fonction compte le nombre de valeurs nulles dans la liste.</td>
@@ -85,7 +85,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="arrays-list.md#subset">Sous-ensemble de</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sous-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">Somme</a></td><td>Cette fonction renvoie la somme de toutes les valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#sum">Somme</a></td><td>La fonction  renvoie la somme de toutes les valeurs sélectionnées dans le tableau</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">Sur-ensemble de</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sur-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
@@ -256,10 +256,10 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#md5">MD5</a></td><td>Cette fonction renvoie le hachage md5 de la chaîne d’entrée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Pas égal à</a></td><td>Cette fonction permet de déterminer si une chaîne est différente d'une chaîne donnée.</td>
+        <td><a href="string.md#notEqualTo">Différent de</a></td><td>Cette fonction permet de déterminer si une chaîne est différente d'une chaîne donnée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">Pas égal à Ignorer la casse</a></td><td>Cette fonction compare deux chaînes en ignorant la casse.</td>
+        <td><a href="string.md#not-equal-with-ignore-case">Différent de Ignorer la casse</a></td><td>Cette fonction compare deux chaînes en ignorant la casse.</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Groupe d’expressions régulières</a></td><td>Cette fonction est utilisée pour extraire des informations spécifiques en fonction de l'expression régulière fournie.</td>
@@ -369,7 +369,7 @@ Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base 
 </table>
 
 
-### Fonctions booléennes  {#boolean-functions}
+### Fonctions booléennes {#boolean-functions}
 
 Les fonctions booléennes sont utilisées pour exécuter une logique booléenne sur différents éléments.
 
@@ -383,16 +383,16 @@ Les fonctions booléennes sont utilisées pour exécuter une logique booléenne 
 </table>
 
 
-### Fonctions de comparaison  {#comparison-functions}
+### Fonctions de comparaison {#comparison-functions}
 
 Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">Est égal à</a></td><td>Cette opération vérifie si les valeurs sont égales.</td>
+        <td><a href="operators.md#equals">Égal à</a></td><td>Cette opération vérifie si les valeurs sont égales.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Est supérieur à</a></td><td>Cet opérateur vérifie si la première valeur est supérieure à la seconde valeur.</td>
+        <td><a href="operators.md#greaterthan">Supérieur à</a></td><td>Cet opérateur vérifie si la première valeur est supérieure à la seconde valeur.</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">Est supérieur ou égal à</a></td><td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde valeur</td>
@@ -401,7 +401,7 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
         <td><a href="operators.md#lessthanorequal">Est inférieur ou égal à</a> </td><td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la deuxième valeur.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Est différent de</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
+        <td><a href="operators.md#notequal">Différent de</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
     </tr>
 </table>
 
