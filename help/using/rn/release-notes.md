@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
+source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 39%
+source-wordcount: '486'
+ht-degree: 78%
 
 ---
 
@@ -30,9 +30,9 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer, personnaliser et envoyer des SMS dans Journey Optimizer, grâce à une intégration avec <b>Sinch</b> ou <b>Twilio</b>.</p>
+<p>Vous pouvez désormais créer, personnaliser et envoyer des SMS dans Journey Optimizer, grâce à une intégration à <b>Sinch</b> ou <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.</p>
+<p>Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.</p>
 <p>Découvrez comment créer et envoyer un SMS dans cette <a href="../messages/create-sms.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -43,13 +43,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Obtenir plus d’images d’impact plus rapidement grâce à l’intégration d’Adobe Stock</strong><br/></th>
+<th><strong>Trouvez des images plus percutantes plus rapidement grâce à l’intégration d’Adobe Stock.</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le module d’intégration du Concepteur d’email d’Adobe Stock et de Adobe Journey Optimizer fournit aux clients un moyen simple de naviguer, d’acquérir sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br> La nouvelle <b>Rechercher des photos Stock similaires</b> Cette option vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
+<p>Le module d’intégration du Concepteur d’e-mail Adobe Stock et Adobe Journey Optimizer fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br>La nouvelle option <b>Rechercher des photos Stock similaires</b> vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../design/stock.md">documentation détaillée</a>.</p>
 </td>
@@ -60,7 +60,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Utiliser la fonctionnalité Email Cci sur tous vos emails</strong><br/></th>
+<th><strong>Utiliser la fonctionnalité E-mail Cci sur tous vos e-mails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -129,12 +129,12 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Gestion des décisions**
 
-* **Prise en charge des fichiers HTML et JSON** - Vous pouvez désormais faire glisser et déposer des fichiers de HTML externe et JSON de la bibliothèque de ressources Adobe Experience Cloud dans le contenu de représentation de l’offre. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
+* **Prise en charge des fichiers HTML et JSON** - Vous pouvez désormais glisser-déposer des fichiers HTML et JSON externes de la bibliothèque de ressources d’Adobe Experience Cloud au contenu de rendu de l’offre. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
 
 
 **E-mail**
 
-* **Enregistrer en tant que modèle** - Vous pouvez désormais enregistrer un contenu d&#39;email en tant que modèle et le réutiliser lors de la création d&#39;autres messages. [En savoir plus](../design/email-templates.md)
+* **Enregistrer en tant que modèle** - Vous pouvez désormais enregistrer un contenu d’e-mail en tant que modèle et le réutiliser lors de la création d’autres messages. [En savoir plus](../design/email-templates.md)
 
 <!--
 **Journeys**
@@ -147,7 +147,11 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
-* **Aperçu des paramètres d’URL de suivi** - Lors de la configuration d&#39;un paramètre prédéfini de message, si vous définissez des paramètres de tracking URL, un aperçu dynamique de l&#39;URL de tracking résultante s&#39;affiche désormais. [En savoir plus](../configuration/email-settings.md#url-tracking)
+* **Aperçu des paramètres d’URL de suivi** - Lors de la configuration d’un préréglage de message, si vous définissez des paramètres de suivi des URL, un aperçu dynamique de l’URL de suivi résultante s’affiche désormais. [En savoir plus](../configuration/email-settings.md#url-tracking)
+
+* **Création de paramètres prédéfinis de message** - Désormais, le temps de traitement lors de la création d’un paramètre prédéfini de message ne peut excéder 3 heures. [En savoir plus](../configuration/message-presets.md#create-message-preset)
+
+* **Modification du pool d’adresses IP** - Désormais, le temps de traitement de la mise à jour du pool d’adresses IP ne peut excéder 3 heures. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
