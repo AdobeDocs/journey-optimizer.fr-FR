@@ -2,9 +2,9 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 78%
 
 ---
@@ -149,9 +149,9 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 * **Aperçu des paramètres d’URL de suivi** - Lors de la configuration d’un préréglage de message, si vous définissez des paramètres de suivi des URL, un aperçu dynamique de l’URL de suivi résultante s’affiche désormais. [En savoir plus](../configuration/email-settings.md#url-tracking)
 
-* **Création de paramètres prédéfinis de message** - Désormais, le temps de traitement lors de la création d’un paramètre prédéfini de message ne peut excéder 3 heures. [En savoir plus](../configuration/message-presets.md#create-message-preset)
+* **Modification des paramètres prédéfinis de message** - Désormais, lors de la mise à jour d’un paramètre prédéfini de message, le temps de traitement ne peut excéder 3 heures. [En savoir plus](../configuration/message-presets.md#edit-message-preset)
 
-* **Modification du pool d’adresses IP** - Désormais, le temps de traitement de la mise à jour du pool d’adresses IP ne peut excéder 3 heures. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
+* **Modification du pool d’adresses IP** - Désormais, lors de la mise à jour d’un pool d’adresses IP, le temps de traitement ne peut excéder 3 heures. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 

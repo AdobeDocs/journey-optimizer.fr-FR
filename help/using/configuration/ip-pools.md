@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b29ab43f56b64d5bf972a45036c639454b650099
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -78,8 +78,8 @@ Pour modifier un pool d’adresses IP :
 
 La mise à jour est effective immédiatement ou de manière asynchrone, selon que le pool d’adresses IP est associé ou non à un [préréglage de message](message-presets.md) :
 
-* Si le pool d’adresses IP n’est **pas** sélectionné dans un préréglage de message, la mise à jour est instantanée (statut **[!UICONTROL Succès]**).
-* Si le pool d’adresses IP **is** sélectionnée dans un paramètre prédéfini de message, la mise à jour peut prendre jusqu’à 3 heures (**[!UICONTROL Traitement]** status).
+* Si le pool d’adresses IP est **not** associée à tout paramètre prédéfini de message, la mise à jour est instantanée (**[!UICONTROL Succès]** status).
+* Si le pool d’adresses IP **is** associé à un paramètre prédéfini de message, la mise à jour peut prendre jusqu’à 3 heures (**[!UICONTROL Traitement]** status).
 
 >[!NOTE]
 >
