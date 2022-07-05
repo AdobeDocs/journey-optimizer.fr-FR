@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1054'
+ht-degree: 98%
 
 ---
 
@@ -27,8 +27,7 @@ Pour plus d’informations sur la diffusion d’offres personnalisées à l’ai
 
 >[!NOTE]
 >
->L’utilisation de la gestion des décisions dans le SDK web Adobe Experience Platform est actuellement possible en accès anticipé pour certains utilisateurs.
-Cette fonctionnalité n’est pas disponible pour toutes les organisations 
+>L’utilisation de la gestion de la décision dans le SDK Web de Adobe Experience Platform est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
 
 ## SDK web Adobe Experience Platform {#aep-web-sdk}
 

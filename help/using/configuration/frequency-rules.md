@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ Pour cela, vous pouvez utiliser une règle de fréquence qui limite le nombre de
 >[!NOTE]
 >
 >Les règles de fréquence des messages sont différentes de la gestion des désabonnements, qui permet aux utilisateurs de se désabonner de la réception des communications de la part d&#39;une marque. [En savoir plus](../messages/consent.md#opt-out-management)
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Règles d&#39;accès {#access-rules}
 
@@ -188,3 +190,9 @@ Dans ce scénario, un profil individuel :
 >[!NOTE]
 >
 >Lors du test des règles de fréquence, il peut s’avérer utile de commencer par un nouveau [profil de test](../segment/creating-test-profiles.md), car une fois la limitation de fréquence d’un profil atteinte, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer, activer, tester et générer des rapports sur les règles de fréquence.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

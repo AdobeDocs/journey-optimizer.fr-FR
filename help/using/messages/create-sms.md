@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 36%
+source-wordcount: '427'
+ht-degree: 38%
 
 ---
 
@@ -25,7 +25,7 @@ Une fois que [création d’un message](get-started-content.md), utilisez le **[
 
 >[!AVAILABILITY]
 >
->Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
+>Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 ![](assets/sms_1.png)
 
@@ -68,6 +68,16 @@ Votre message SMS peut maintenant être utilisé dans un parcours. [Découvrez c
 Pour tous les messages marketing, le SMS doit contenir un moyen pour que les destinataires puissent facilement se désabonner. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing. L&#39;ajout d&#39;un lien de désinscription n&#39;est pas obligatoire pour les messages transactionnels.
 
 Les destinataires des SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. Conformément aux normes et réglementations du secteur, Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRER, ARRÊTER et DÉMARRER. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
+
+Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (démarrage, arrêt et arrêt) pour les SMS, reportez-vous à la vidéo suivante.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## Vidéo pratique
+
+Découvrez comment configurer, créer et inclure des messages SMS dans vos parcours clients.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **Rubriques connexes**
 

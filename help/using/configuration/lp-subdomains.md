@@ -4,10 +4,10 @@ description: Découvrez comment configurer des sous-domaines de page de destinat
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '737'
+ht-degree: 89%
 
 ---
 
@@ -59,9 +59,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Notez que vous ne pouvez pas utiliser plusieurs sous-domaines délégués du même domaine parent. Par exemple, si &quot;marketing1.votreentreprise.com&quot; est déjà délégué à Adobe pour vos landing pages, vous ne pourrez pas utiliser &quot;marketing2.votreentreprise.com&quot;. Toutefois, les sous-domaines à plusieurs niveaux sont pris en charge pour les landing pages. Vous pouvez donc utiliser &#39;email.marketing1.votreentreprise.com&#39;.
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   Notez que vous ne pouvez pas utiliser plusieurs sous-domaines délégués du même domaine parent. Par exemple, si &quot;marketing1.votreentreprise.com&quot; est déjà délégué à Adobe pour vos landing pages, vous ne pourrez pas utiliser &quot;marketing2.votreentreprise.com&quot;. Toutefois, les sous-domaines à plusieurs niveaux pris en charge pour les landing pages, vous pouvez continuer à utiliser un sous-domaine de &quot;marketing1.votreentreprise.com&quot; (tel que &quot;email.marketing1.votreentreprise.com&quot;) ou un autre domaine parent.
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
    >[!NOTE]
    >
    >Pour les landing pages, les sous-domaines à plusieurs niveaux sont pris en charge. Par exemple, vous pouvez utiliser &quot;email.marketing.votreentreprise.com&quot;.
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. L’enregistrement à placer dans les serveurs DNS s’affiche. Copiez cet enregistrement ou téléchargez un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant.
 

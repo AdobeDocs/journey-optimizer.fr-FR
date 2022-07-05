@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 98%
+source-wordcount: '1537'
+ht-degree: 95%
 
 ---
 
@@ -49,11 +49,25 @@ Pour créer un préréglage de message, procédez comme suit :
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Configurez les paramètres d’**e-mail**. [En savoir plus](#configure-email-settings)
+1. Si vous avez sélectionné la variable **[!UICONTROL Email]** canal, configurez vos paramètres comme décrit dans la section [cette section](email-settings.md).
 
-1. Configurez les paramètres de **notification push**. [En savoir plus](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. Configurer **SMS** paramètres. [En savoir plus](sms-configuration.md)
+1. Si vous avez sélectionné la variable **[!UICONTROL Notification push]** canal, sélectionnez au moins une plateforme (**iOS** et/ou **Android**), puis sélectionnez les applications mobiles à utiliser pour chaque plateforme.
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](push-gs.md).
+
+1. Si vous avez sélectionné la variable **[!UICONTROL SMS]** canal, configurez vos paramètres comme décrit dans la section [cette section](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](sms-configuration.md).
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa configuration ultérieurement.
 
@@ -86,42 +100,6 @@ Pour créer un préréglage de message, procédez comme suit :
 1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
 
    ![](assets/preset-active.png)
-
-## Configurer les paramètres d’e-mail {#configure-email-settings}
-
-Les paramètres dʼe-mail sont définis dans une section dédiée de la configuration des préréglages de messages.
-
-![](assets/preset-email.png)
-
-Configurez vos paramètres comme décrit dans [cette section](email-settings.md).
-
-## Configurer les paramètres des notifications push {#configure-push-settings}
-
-Les paramètres des notifications push sont définis dans une section dédiée de la configuration des préréglages de messages.
-
-Pour définir les paramètres des notifications push associés au préréglage de message, procédez comme suit :
-
-1. Sélectionnez au moins une plateforme : **iOS** et/ou **Android**.
-
-1. Sélectionnez les applications mobiles à utiliser pour chaque plateforme.
-
-![](assets/preset-push.png)
-
-Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## Surveiller les préréglages de message {#monitor-message-presets}
 
@@ -186,6 +164,8 @@ Une fois les modifications soumises, le préréglage de message passera par un c
 >
 >Si vous modifiez uniquement les champs **[!UICONTROL Description]**, **[!UICONTROL Type d’e-mail]** et/ou **[!UICONTROL Paramètres de relance de l’e-mail]**, la mise à jour est instantanée. 
 
+### Mise à jour des détails {#update-details}
+
 Pour les préréglages de message affichant le statut **[!UICONTROL Actif]**, vous pouvez vérifier les détails de la mise à jour. Pour ce faire :
 
 * Cliquez sur l’icône **[!UICONTROL Mise à jour récente]** qui s’affiche en regard du nom du préréglage actif. 
@@ -210,7 +190,7 @@ Une mise à jour de préréglage de message peut afficher les statuts suivants 
 
 Chaque statut est présenté ci-dessous.
 
-### En cours de traitement
+#### En cours de traitement
 
 Plusieurs contrôles de délivrabilité seront effectués pour vérifier que le préréglage a été correctement mis à jour. 
 
@@ -232,13 +212,13 @@ Si vous modifiez un préréglage qui était déjà actif :
 >
 >Vous ne pouvez pas modifier un préréglage de message pendant que la mise à jour est en cours. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi. 
 
-### Réussite {#success}
+#### Réussite {#success}
 
 Une fois le processus de validation réussi, la nouvelle version du préréglage est automatiquement utilisée dans tous les messages utilisant ce préréglage. Cependant, vous devrez peut-être attendre :
 * quelques minutes avant qu’il soit consommé par les messages unitaires, 
 * jusqu’au lot suivant pour que le préréglage soit effectif dans les messages par lots. 
 
-### Échec {#failed}
+#### Échec {#failed}
 
 Si le processus de validation échoue, l’ancienne version du préréglage sera toujours utilisée. 
 

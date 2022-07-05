@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 89%
+source-wordcount: '1634'
+ht-degree: 97%
 
 ---
 
@@ -13,22 +13,24 @@ ht-degree: 89%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
 
+## Juillet 2022 {#july-2022}
+
+* Le **Création d’un paramètre prédéfini de message** Clarification et mise à jour de la section avec des liens vers la page décrivant comment configurer le canal SMS - [En savoir plus](../configuration/message-presets.md#create-message-preset)
 
 ## Juin 2022 {#june-2022}
 
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 juin a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 22 juin ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * Une nouvelle section sur les stratégies d’utilisation des données a été ajoutée à la documentation. [En savoir plus](../privacy/policies.md)
 * Une nouvelle section sur les demandes d’accès à des informations personnelles a été ajoutée à la documentation. [En savoir plus](../privacy/requests.md)
 * Une nouvelle section sur les journaux d’audit des ressources a été ajoutée à la documentation. [En savoir plus](../privacy/audit-logs.md)
-* Une nouvelle section sur l’ajout à une représentation d’offre d’un contenu HTML ou JSON provenant de la bibliothèque de ressources Adobe Experience Cloud a été ajoutée à la documentation. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
+* Une nouvelle section sur la façon d’ajouter du contenu HTML ou JSON, provenant de la bibliothèque de ressources Adobe Experience Cloud, à un rendu d’offre a été ajoutée à la documentation. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
 * Ajout d’une nouvelle page sur le cycle de vie des parcours. [En savoir plus](../building-journeys/journey-end.md)
-* Mise à jour de la page Activité Attente . [En savoir plus](../building-journeys/wait-activity.md)
+* Mise à jour de la page Activité d’attente. [En savoir plus](../building-journeys/wait-activity.md)
 * Ajout de la liste des jeux de données Adobe Journey Optimizer avec des exemples de requête. [En savoir plus](../start/datasets-query-examples.md)
-* La page Liste autorisée a été déplacée vers la section Configuration . [En savoir plus](../configuration/allow-list.md)
+* La page Liste autorisée a été déplacée vers la section Configuration. [En savoir plus](../configuration/allow-list.md)
 * La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
-* Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions - [En savoir plus](../start/guardrails.md)
+* Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions. [En savoir plus](../start/guardrails.md)
 * L’optimisation du temps d’envoi est désormais disponible pour tous les clients. La mention bêta a été supprimée. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
-
 
 
 ## Mai 2022 {#may-2022}
@@ -41,7 +43,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Une note a été ajoutée indiquant que la méthode Delete n’est pas prise en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md)
 * Des liens vers des vidéos pratiques ont été mis à jour.
 * Les sections [Configuration du canal e-mail](../configuration/about-subdomain-delegation.md), [Préréglages de message](../configuration/message-presets.md) et [Configuration des pages de destination](../configuration/lp-subdomains.md) ont été réorganisées afin d’en améliorer la lisibilité.
-* La section **Tracking des URL** a été mise à jour et enrichie avec des exemples. [En savoir plus](../configuration/email-settings.md#url-tracking)
+* La section Tracking des URL a été mise à jour et enrichie avec des exemples. [En savoir plus](../configuration/email-settings.md#url-tracking)
 * Ajout d’une nouvelle sous-section sur la configuration d’une adresse e-mail de transfert. Notez que vous ne pouvez pas le faire via l’interface utilisateur. [En savoir plus](../configuration/email-settings.md#forward-email)
 
 ## Avril 2022 {#april-2022}
