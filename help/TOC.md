@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 97%
    + [Créer une campagne](using/campaigns/create-campaign.md)
    + [Modifier ou arrêter une campagne](using/campaigns/modify-stop-campaign.md)
    + Rapports {#reports}
-      + [Rapport en direct de Campaign](using/campaigns/campaign-live-report.md)
-      + [Rapport global de campagnes](using/campaigns/campaign-global-report.md)
+      + [Rapport dynamique de la campagne](using/campaigns/campaign-live-report.md)
+      + [Rapport global de campagne](using/campaigns/campaign-global-report.md)
 + Messages {#messages}
    + [Prise en main des messages](using/messages/get-started-content.md)
    + [Création d’un e-mail](using/messages/create-email.md)
@@ -53,7 +53,7 @@ ht-degree: 97%
    + [Commencer à partir de zéro ](using/design/create-email-content.md)
    + [Importation du contenu de vos e-mails](using/design/existing-content.md)
    + [Codage de votre propre contenu](using/design/code-content.md)
-   + [Utilisation de modèles](using/design/email-templates.md)
+   + [Utiliser des modèles](using/design/email-templates.md)
    + Conception de contenu {#design-content}
       + [Utilisation de composants de contenu](using/design/content-components.md)
       + [Paramètres d&#39;arrière-plan](using/design/backgrounds.md)
@@ -124,7 +124,7 @@ ht-degree: 97%
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
-      + [Copier un parcours dans un autre environnement de test](using/building-journeys/copy-to-sandbox.md)
+      + [Copier un parcours vers un autre environnement de test](using/building-journeys/copy-to-sandbox.md)
       + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
    + Activités {#about-journey-building}
       + [À propos des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -423,5 +423,5 @@ ht-degree: 97%
    + [Contrôle d’accès basé sur attribut](using/administration/attribute-based-access.md)
 + Confidentialité {#privacy}
    + [Stratégies d’utilisation des données](using/privacy/policies.md)
-   + [Demandes d&#39;accès à des informations personnelles](using/privacy/requests.md)
+   + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
    + [Actions d’audit sur les ressources Journey Optimizer](using/privacy/audit-logs.md)
