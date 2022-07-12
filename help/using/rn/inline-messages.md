@@ -4,10 +4,10 @@ description: Découvrez comment migrer vos messages
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
+source-git-commit: 944caac5de05169e39f65e222854788737854b8c
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 87%
+source-wordcount: '211'
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,6 @@ ht-degree: 87%
 >id="ajo_messages_migration_after"
 >title="Découvrez comment migrer vos messages"
 >abstract="À compter de la version du 22 juillet de Journey Optimizer, les messages sont créés directement dans un parcours. Les messages existants ont été migrés vers le nouveau modèle. En tant que praticien de parcours, des actions supplémentaires sont désormais nécessaires."
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="Découvrez comment migrer vos messages"
->abstract="À compter du 25 juillet 2022, le menu Messages disparaît et les messages sont créés directement à partir d’un Parcours. Si vous souhaitez réutiliser vos messages hérités dans parcours, vous devez les enregistrer en tant que modèles."
 
 Adobe Journey Optimizer propose une nouvelle fonctionnalité qui améliore la manière dont les praticiens créent des expériences pour les canaux de diffusion Journey Optimizer tels que les e-mails, les notifications push et les SMS. Cette fonctionnalité nécessite une migration des parcours existants qui utilisent des messages.
 
