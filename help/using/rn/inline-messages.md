@@ -4,10 +4,10 @@ description: Découvrez comment migrer vos messages
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8aecf71f61efb4c2a8f80991d30089a90e2b4705
+source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 64%
+source-wordcount: '276'
+ht-degree: 45%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 64%
 >abstract="Depuis le 25 juillet 2022, le menu Messages disparaît et les messages sont créés directement à partir d’un Parcours. Si vous souhaitez réutiliser vos messages hérités dans parcours, vous devez les enregistrer en tant que modèles."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Enregistrer les messages en tant que modèles"
 
-Adobe Journey Optimizer propose une nouvelle fonctionnalité qui améliore la manière dont les praticiens créent des expériences pour les canaux de diffusion Journey Optimizer tels que les e-mails, les notifications push et les SMS. Cette fonctionnalité nécessite une migration des parcours existants qui utilisent des messages.
+Adobe Journey Optimizer propose une nouvelle fonctionnalité qui améliore la création de contenu pour les canaux Journey Optimizer (email, push, SMS). En tant que praticien Journey Optimizer, vous allez maintenant créer et créer vos messages directement à partir d’un parcours.
 
-En tant que praticien de parcours, vous pouvez désormais créer vos messages directement dans un parcours.
+Cette fonctionnalité nécessite une migration des parcours existants qui utilisent des messages.
 
 ![](assets/inline-message.png)
 
