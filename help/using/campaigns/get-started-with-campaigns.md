@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '313'
+ht-degree: 7%
 
 ---
 
@@ -24,15 +24,19 @@ ht-degree: 2%
 
 ## A propos des campagnes {#about}
 
-Les campagnes vous permettent de diffuser du contenu unique sur un segment spécifique à l’aide de plusieurs canaux.
+Les campagnes vous permettent de diffuser du contenu unique sur un segment spécifique à l’aide de plusieurs canaux. Contrairement aux parcours, où les actions sont conçues pour être exécutées de manière séquentielle, les campagnes exécutent les actions simultanément, immédiatement ou selon un calendrier spécifié.
 
-Contrairement aux parcours, où les actions sont conçues pour être exécutées de manière séquentielle, les campagnes exécutent les actions simultanément, immédiatement ou selon un calendrier spécifié. Vous pouvez les utiliser, par exemple, pour diffuser des offres promotionnelles, des campagnes d’engagement, des annonces, des mentions légales ou des mises à jour de politique.
+Vous pouvez créer deux types de campagnes :
+
+* **Campagnes planifiées** autorisez des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
+* **Campagnes déclenchées par l’API** autorisez des messages transactionnels/opérationnels simples avec des API REST (réinitialisation de mot de passe, abandon de carte, etc.), où le besoin peut impliquer une personnalisation à l’aide d’attributs de profil et de données contextuelles issues de la payload.
 
 Découvrez comment utiliser les campagnes :
 * [Créer une campagne](create-campaign.md)
+* [Création de campagnes déclenchées par l’API](api-triggered-campaigns.md)
 * [Modifier ou arrêter une campagne](modify-stop-campaign.md)
-* [Rapport en direct de Campaign](campaign-live-report.md)
-* [Rapport global de campagnes](campaign-global-report.md)
+* [Rapport dynamique de la campagne](campaign-live-report.md)
+* [Rapport global de campagne](campaign-global-report.md)
 
 ## Accès aux campagnes {#access}
 

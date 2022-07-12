@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Le tableau ci-dessous présente les actions sur lesquelles les ressources Journe
 | Sous-domaine AJO | Créer / Supprimer / Mettre à jour |
 | Liste de suppression AJO | Créer / supprimer / télécharger un fichier CSV |
 | Groupe de champs | Créer / Supprimer / Mettre à jour |
-| Parcours | Créer / Supprimer / Mettre à jour / Arrêter / Publier |
+| Parcours | Créer/supprimer/arrêter/publier |
 | Action personnalisée de parcours | Créer / Supprimer / Mettre à jour |
 | Source de données de parcours | Créer / Supprimer / Mettre à jour |
 | Événement de parcours | Créer / Supprimer / Mettre à jour |

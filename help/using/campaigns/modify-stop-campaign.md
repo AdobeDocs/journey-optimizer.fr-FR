@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b1210a562f809d368e251a6652aed9a920436804
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 3%
+source-wordcount: '212'
+ht-degree: 15%
 
 ---
 
@@ -24,8 +24,6 @@ Une fois qu’une campagne a été activée, vous pouvez la modifier ou l’arr�
 Pour modifier et créer une version d&#39;une campagne, procédez comme suit :
 
 1. Ouvrez l&#39;opération, puis cliquez sur le bouton **[!UICONTROL Modifier une campagne]** bouton .
-
-   ![](assets/create-campaign-edit.png)
 
 1. Une nouvelle version de la campagne est créée. Vous pouvez vérifier la version active en cliquant sur **[!UICONTROL Ouvrir la version en direct]**.
 
@@ -41,8 +39,6 @@ Pour modifier et créer une version d&#39;une campagne, procédez comme suit :
    >
    >L&#39;activation du brouillon remplacera la version en ligne de la campagne.
 
-   ![](assets/create-campaign-activate-draft.png)
-
 ## Arrêter une campagne {#stop}
 
 Pour arrêter une campagne, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL Arrêter la campagne]** bouton .
@@ -52,3 +48,11 @@ Pour arrêter une campagne, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL 
 >[!IMPORTANT]
 >
 >Après l’arrêt d’une campagne, elle sera disponible en lecture seule uniquement. Vous ne pourrez plus l’activer ou l’utiliser pour créer une nouvelle campagne.
+
+## Ressources supplémentaires
+
+* [Prise en main des campagnes](get-started-with-campaigns.md)
+* [Créer une campagne](create-campaign.md)
+* [Création de campagnes déclenchées par l’API](api-triggered-campaigns.md)
+* [Rapport dynamique de la campagne](campaign-live-report.md)
+* [Rapport global de campagne](campaign-global-report.md)

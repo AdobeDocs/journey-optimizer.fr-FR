@@ -1,5 +1,5 @@
 ---
-title: Rapport en direct de Campaign
+title: Rapport dynamique de la campagne
 description: Découvrez comment utiliser les données du rapport en direct de Campaign
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 82%
+source-wordcount: '711'
+ht-degree: 83%
 
 ---
 
-# Rapport en direct de Campaign {#campaign-live-report}
+# Rapport dynamique de la campagne {#campaign-live-report}
 
 Le rapport en direct de Campaign est accessible directement depuis votre campagne à l’aide de la fonction **[!UICONTROL Vue en direct]** bouton .
 
@@ -110,3 +110,11 @@ Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICON
 Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
+
+## Ressources supplémentaires
+
+* [Prise en main des campagnes](get-started-with-campaigns.md)
+* [Créer une campagne](create-campaign.md)
+* [Création de campagnes déclenchées par l’API](api-triggered-campaigns.md)
+* [Modifier ou arrêter une campagne](modify-stop-campaign.md)
+* [Rapport global de campagne](campaign-global-report.md)
