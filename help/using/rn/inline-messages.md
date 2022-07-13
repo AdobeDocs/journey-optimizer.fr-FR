@@ -2,10 +2,10 @@
 title: Migration vers la création en ligne de parcours
 description: Découvrez comment migrer vos messages
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
+source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 4%
+source-wordcount: '1696'
+ht-degree: 3%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Découvrez ce qui se passe"
->abstract="Depuis le 25 juillet 2022, les messages sont créés directement depuis un Parcours. Votre environnement est en cours de migration. Des actions supplémentaires seront nécessaires après la migration."
+>abstract="Depuis le 25 juillet 2022, les messages sont créés directement depuis un Parcours. Votre environnement est en cours de migration. Des actions supplémentaires seront nécessaires après la migration, si vous utilisez actuellement des messages dans vos parcours."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Etapes de migration"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Découvrez comment migrer vos messages"
->abstract="Depuis le 25 juillet 2022, les messages sont créés directement depuis un Parcours. Les messages existants ont été migrés vers le nouveau modèle. En tant que praticien de parcours, des actions supplémentaires sont désormais nécessaires."
+>abstract="Depuis le 25 juillet 2022, les messages sont créés directement depuis un Parcours. Les messages existants ont été migrés vers le nouveau modèle. En tant que praticien de parcours, des actions supplémentaires sont désormais nécessaires pour les parcours qui utilisent des messages."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Etapes de migration"
 
 >[!CONTEXTUALHELP]
