@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 97%
+source-wordcount: '1653'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
 * Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions. [En savoir plus](../start/guardrails.md)
 * L’optimisation du temps d’envoi est désormais disponible pour tous les clients. La mention bêta a été supprimée. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
-
+* L’API Batch Decisioning a été ajoutée à la liste des API disponibles pour diffuser des offres personnalisées. [En savoir plus](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mai 2022 {#may-2022}
 
@@ -170,3 +170,4 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d&#39;un avertissement indiquant que les offres basées sur un événement ne sont actuellement pas prises en charge. [En savoir plus](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documentation du nouvel onglet **[!UICONTROL Aperçu]** de la gestion des décisions. [En savoir plus](../offers/get-started/user-interface.md#overview)
 * Ajout de nouvelles sections pour décrire les actions disponibles dans les listes des offres et des décisions : [Liste des offres](../offers/offer-library/creating-personalized-offers.md#offer-list) et [Liste des décisions](../offers/offer-activities/create-offer-activities.md#decision-list).
+
