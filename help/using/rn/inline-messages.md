@@ -2,9 +2,9 @@
 title: Migration vers la création en ligne de parcours
 description: Découvrez comment migrer vos messages
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1673'
 ht-degree: 5%
 
 ---
@@ -36,11 +36,9 @@ ht-degree: 5%
 >abstract="Depuis le 25 juillet 2022, le menu Messages disparaît et les messages sont créés directement à partir d’un Parcours. Si vous souhaitez réutiliser vos messages hérités dans parcours, vous devez les enregistrer en tant que modèles."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Enregistrer les messages en tant que modèles"
 
-Adobe Journey Optimizer propose une nouvelle fonctionnalité qui améliore la création de contenu pour les canaux Journey Optimizer (email, push, SMS). En tant que praticien Journey Optimizer, vous allez maintenant créer et créer vos messages directement à partir d’un parcours.
+Adobe Journey Optimizer propose une nouvelle fonctionnalité qui améliore la création de contenu pour les canaux Journey Optimizer (email, push, SMS). En tant que praticien de Journey Optimizer, vous créez maintenant vos messages directement à partir d’un parcours.
 
-Cette fonctionnalité nécessite une migration des parcours existants qui utilisent des messages.
-
-Dans cette page, vous trouverez les informations nécessaires sur cette modification ainsi que les étapes que vous devez suivre.
+Cette fonctionnalité nécessite une migration des parcours existants qui utilisent des messages. Dans cette page, vous trouverez les informations nécessaires sur cette modification ainsi que les étapes que vous devez suivre.
 
 Pour plus d’informations sur vos rôles et responsabilités en tant que praticien Journey Optimizer, reportez-vous à cette section [page](../start/path/marketer.md).
 
@@ -61,23 +59,23 @@ Here are the main changes in the interface:
 
 * **Suis-je affecté ?**: vous êtes affecté si vous créez des messages à partir du **Messages** dans le volet de navigation de gauche et utilisez-les dans vos parcours. Si vous utilisez un système tiers (tel qu’Adobe Campaign), vous n’êtes pas affecté par cette migration.
 
-* **Modifications des produits**: à la phase de disponibilité générale (25 juillet), le contenu de votre canal sera créé et géré dans chaque parcours. Le **Messages** , dans la navigation de gauche ne sera plus disponible ([En savoir plus](../rn/inline-messages.md#change)). Nous allons procéder à une migration pour vos parcours existants.
+* **Modifications des produits**: à la phase de disponibilité générale (25 juillet), le contenu de votre canal est créé et géré dans chaque parcours. Le **Messages** , dans le volet de navigation de gauche n’est plus disponible ([en savoir plus](../rn/inline-messages.md#change)). Nous allons procéder à une migration pour vos parcours existants.
 
-* **Chronologie**: la migration se produira pour chaque région la nuit, via plusieurs [itérations](../rn/inline-messages.md#iterations).
+* **Chronologie**: la migration se produit pour chaque région la nuit, via plusieurs [itérations](../rn/inline-messages.md#iterations).
 
    ![](assets/inline-migration-timeline.png)
 
-* **Actions requises**: une conversion automatique des parcours sera effectuée pour vous. Cela dit, nous aurons besoin de votre aide avec quelques étapes. En savoir plus sur les étapes requises dans cette section [page](../rn/inline-messages-steps.md).
+* **Actions requises**: une conversion automatique de parcours est effectuée pour vous. Cela dit, nous avons besoin de votre aide avec quelques étapes. En savoir plus sur les étapes requises dans cette section [page](../rn/inline-messages-steps.md).
 
-* **Obsolescence**: après le 6 septembre, tous les parcours qui utilisent encore des messages hérités seront arrêtés et supprimés ultérieurement.
+* **Obsolescence**: après le 6 septembre, tous les parcours qui utilisent encore des messages hérités sont arrêtés et seront supprimés ultérieurement.
 
 ## Avantages et modifications des produits{#change}
 
-La vision d’Adobe est de simplifier le produit en continu afin de fournir des flux d’utilisateurs efficaces et optimisés. Cette nouvelle façon de créer des messages simplifiera le processus utilisateur.
+La vision d’Adobe est de simplifier le produit en continu afin de fournir des flux d’utilisateurs efficaces et optimisés. Cette nouvelle méthode de création de messages simplifie le processus utilisateur.
 
-Nous avons conçu ce nouveau workflow pour placer le contenu à un seul endroit, directement à l’endroit où il est utilisé.
+Nous avons conçu ce nouveau workflow pour centraliser le contenu à un seul endroit, directement là où il est utilisé.
 
-La création de contenu est désormais effectuée directement dans le parcours. L&#39;immédiat **avantages** vous obtiendrez :
+La création de contenu est désormais effectuée directement dans le parcours. L&#39;immédiat **avantages** vous obtenez :
 
 * Création plus rapide de parcours à l’aide des canaux Journey Optimizer dans un seul flux.
 * Visualisation rapide du contenu en basculant facilement entre tous les contenus d’email, de notification push et de SMS dans un parcours.
@@ -110,9 +108,9 @@ Lors de la phase de disponibilité générale (25 juillet), ce nouveau flux d’
 
 ## Chronologie de la migration{#iterations}
 
-Une migration est requise pour activer vos parcours existants à l’aide de **Messages** dans des parcours avec des actions intégrées créées. Une conversion automatique des parcours sera effectuée pour vous. Cela dit, nous aurons besoin de votre aide avec quelques étapes.
+Une migration est requise pour activer vos parcours existants à l’aide de **Messages** dans des parcours avec des actions intégrées créées. Une conversion automatique de parcours est effectuée pour vous. Cela dit, nous avons besoin de votre aide avec quelques étapes.
 
-La migration se produira pour chaque région la nuit, via plusieurs itérations. Voici la chronologie de migration :
+La migration se produit pour chaque région la nuit, via plusieurs itérations. Voici la chronologie de migration :
 
 * 25 juillet 2022 : GA - 1ère itération
 * 1er août 2022 : 2e itération
@@ -129,7 +127,7 @@ Au cours d&#39;une itération, nous allons passer en revue chaque parcours et no
 
 Adobe communique avec vous avant la première itération.
 
-Le changement va être déployé du jour au lendemain, à travers plusieurs itérations. En savoir plus sur [itérations](../rn/inline-messages.md#inline-authoring).
+Le changement est déployé du jour au lendemain, par le biais de plusieurs itérations. En savoir plus sur [itérations](../rn/inline-messages.md#inline-authoring).
 
 Vous êtes également informé par des notifications internes au produit, affichées sur les écrans de Parcours :
 
@@ -151,17 +149,17 @@ Vous êtes également informé par des notifications internes au produit, affich
 
 ### Qu’est-ce que le processus de migration ?{#process}
 
-La migration est entièrement automatique pour les parcours qui ne sont pas actifs ou fermés. Nous ne voulons pas avoir d’impact sur les parcours en direct ou fermés pour éviter tout impact sur la production. Nous vous demanderons de publier la nouvelle version que nous avons créée pour vous.
+La migration est entièrement automatique pour les parcours qui ne sont pas actifs ou fermés. Nous ne voulons pas avoir d’impact sur les parcours en direct ou fermés pour éviter tout impact sur la production. Nous vous demandons de publier la nouvelle version que nous avons créée pour vous.
 
-Tous les environnements de test d’une organisation client seront traités simultanément. Lors du déploiement de la modification, les actions suivantes sont exécutées :
+Tous les environnements de test d’une organisation client sont traités simultanément. Lors du déploiement de la modification, les actions suivantes sont exécutées :
 
-**TOUT Parcours n’utilisant pas de messages**
+**TOUT parcours n’utilisant pas de messages**
 
 Elles ne sont pas affectées par la modification. Seuls les parcours utilisant les messages sont ciblés par la migration. Cependant, vous pourrez toujours accéder aux messages qui ne sont pas utilisés dans un parcours via l&#39;URL suivante : https://experience.adobe.com/#/@[ORG]/sname:[ENVIRONNEMENT DE TEST]/parcours-optimizer/messages/
 
-**BROUILLER les Parcours à l’aide d’au moins un message**
+**BROUILLER les parcours à l’aide d’au moins un message**
 
-Les versions préliminaires des messages seront modifiées pendant la migration. Il ne fera plus référence à un message. Le **Message** Les activités seront remplacées par les activités d’action de canal appropriées. Chacun d’eux inclut les paramètres de canal et le contenu.
+Les versions préliminaires des messages sont modifiées pendant la migration. Ils ne font plus référence à un message. Le **Message** Les activités sont remplacées par les activités d’action de canal appropriées. Chacun d’eux inclut les paramètres de canal et le contenu.
 
 Comme d’habitude, testez votre parcours de brouillon avant de le publier.
 
@@ -169,15 +167,15 @@ Comme d’habitude, testez votre parcours de brouillon avant de le publier.
 
 La version en direct d’un parcours continue à fonctionner pour éviter tout impact sur la production.
 
-Une nouvelle version préliminaire de ce parcours sera créée lors de la migration. Cette nouvelle version préliminaire sera une copie de votre version active, mais les messages seront remplacés par des actions de canal créées en ligne. Chaque activité d’action de canal inclura les paramètres et le contenu du canal. Le contenu n’est pas perdu. La création de rapports n’est pas perdue
+Une nouvelle version préliminaire de ce parcours est créée lors de la migration. Cette nouvelle version préliminaire est une copie de votre version active, mais les messages sont remplacés par des actions de canal créées en ligne. Chaque activité d’action de canal inclut les paramètres et le contenu du canal. Le contenu n’est pas perdu. Les rapports ne sont pas perdus.
 
 Nous prévoyons que vous examiniez cette version préliminaire, que vous la testiez et que vous la publiiez afin qu’elle devienne la version en ligne.
 
-**PARCOURS FINIS ou ARRÊTÉS utilisant au moins un message**
+**PARCOURS TERMINÉS ou ARRÊTÉS utilisant au moins un message**
 
-Ces parcours seront également migrés.
+Ces parcours sont également migrés.
 
-Lorsque vous examinez le rapport parcours, les rapports seront plus riches pour inclure le niveau d’information précédemment disponible dans le rapport Message.
+Lors de l’affichage du rapport parcours, les rapports sont désormais plus riches et incluent le niveau d’information précédemment disponible dans le rapport Message.
 
 **PARCOURS FERMÉS utilisant au moins un message**
 
@@ -293,7 +291,7 @@ La façon dont vous créez un message change. Les fonctionnalités ne seront pas
 
 ### L’environnement sera-t-il accessible pendant le processus de migration ?
 
-La migration se fera de nuit. Vous pourrez utiliser le produit. Mais ne créez, ne modifiez pas ou ne supprimez pas de parcours.
+La migration se produit la nuit. Vous pourrez utiliser le produit. Mais ne créez, ne modifiez pas ou ne supprimez pas de parcours.
 
 ### Les messages continueront-ils à être envoyés ?
 

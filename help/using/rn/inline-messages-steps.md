@@ -1,9 +1,9 @@
 ---
 title: Procédure de migration vers la création intégrée de parcours
 description: Procédure de migration vers le parcours de la création intégrée
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # Etapes de migration de création en ligne{#migration-steps}
 
-Le nouveau processus de création de messages dans Adobe Journey Optimizer est décrit dans cette section [page](../rn/inline-messages.md). Une conversion automatique des parcours sera effectuée pour vous. Cela dit, nous aurons besoin de votre aide avec quelques étapes.
+Le nouveau processus de création de contenu dans Adobe Journey Optimizer est décrit dans cette section [page](../rn/inline-messages.md). Une conversion automatique de parcours est effectuée pour vous. Cela dit, nous avons besoin de votre aide avec quelques étapes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -28,7 +28,7 @@ Les principales phases et étapes sont les suivantes :
 1. Liste de toutes les nouvelles versions créées par la migration. [En savoir plus](../rn/inline-messages-steps.md#migration-step-2-2)
 1. Testez-les et publiez-les un par un. [En savoir plus](../rn/inline-messages-steps.md#migration-step-2-3)
 1. Liste de toutes les versions actives. [En savoir plus](../rn/inline-messages-steps.md#migration-step-2-4)
-1. Examinez les erreurs de migration des versions préliminaires. [En savoir plus](../rn/inline-messages-steps.md#migration-step-2-5)
+1. Recherchez les erreurs sur les versions préliminaires migrées. [En savoir plus](../rn/inline-messages-steps.md#migration-step-2-5)
 
 **[Après la seconde itération](../rn/inline-messages-steps.md#migration-step-3)**
 
@@ -53,7 +53,7 @@ Sur le **environnement de test de production**, arrêtez tous les parcours ad ho
 
 +++Comment trouver ces parcours ?
 
-Pour trouver ces parcours, accédez à la **Parcours** et filtrez la liste sur &quot;État = En direct&quot; et &quot;Type = Lecture de segment&quot;. Vous pouvez également classer par ordre chronologique la date &quot;Publié&quot; du plus tôt au plus tard.
+Pour trouver ces parcours, accédez à la **Parcours** et filtrez la liste sur &quot;État = En direct&quot; et &quot;Type = Lecture de segment&quot;. Vous pouvez également classer les parcours par ordre chronologique, de la date la plus ancienne à la date la plus récente &quot;Publié&quot;.
 
 ![](assets/inline-migration-steps1.png)
 
@@ -64,7 +64,7 @@ Ouvrez-les de haut en bas.
 
    ![](assets/inline-migration-steps2.png)
 
-* Si vous avez utilisé des écouteurs d’attente ou d’événement dans ces parcours, les profils peuvent toujours se trouver à l’intérieur. Examinez la date d’exécution du parcours et ajoutez les heures/jours que vous avez définis dans vos programmes d’attente ou écouteurs d’événements afin de déduire la date réelle à laquelle aucun profil n’est laissé à l’intérieur. Si cette date se situe dans le passé, vous pouvez arrêter le parcours. Sinon, ce parcours sera automatiquement déplacé vers le statut &quot;Terminé&quot; 30 jours après la date d&#39;exécution du parcours.
+* Si vous avez utilisé des écouteurs d’attente ou d’événement dans ces parcours, les profils peuvent toujours se trouver à l’intérieur. Examinez la date d’exécution du parcours et ajoutez les heures/jours que vous avez définis dans vos programmes d’attente ou écouteurs d’événements afin de déduire la date réelle à laquelle aucun profil n’est laissé à l’intérieur. Si cette date se situe dans le passé, vous pouvez arrêter le parcours. Dans le cas contraire, ce parcours passe automatiquement à l’état &quot;Terminé&quot; 30 jours après la date d’exécution du parcours.
 
 +++
 
@@ -74,15 +74,13 @@ Ouvrez-les de haut en bas.
 
 * Si vous disposez de parcours actifs qui ne sont pas la dernière version, c’est-à-dire que vous avez créé une autre version de parcours dans le brouillon, publiez-la ou supprimez-la.
 
-* Si des messages ne sont pas utilisés dans parcours et que vous souhaitez les conserver, enregistrez-les en tant que modèles. Notez que vous pourrez toujours y accéder jusqu’à l’obsolescence.
+* Si des messages ne sont pas utilisés dans parcours et que vous souhaitez les conserver, enregistrez-les en tant que modèles. Voir cette [page](../design/email-templates.md#save-as-template). Notez que vous pourrez toujours y accéder jusqu’à l’obsolescence.
 
 ## Après la première itération de la migration (25 juillet){#migration-step-2}
 
 La migration est séquencée en deux phases : la phase automatisée (à l’heure de la nuit, entre le 25 et le 26 juillet) et la phase manuelle (à partir du 26 juillet) qui nécessite des éléments d’action.
 
-Pour la phase automatisée, reportez-vous à cette section [page](../rn/inline-messages.md#process).
-
-Pour la phase manuelle, voici les actions à effectuer sur l’événement **environnement de test de production**:
+Pour la phase automatisée, reportez-vous à cette section [page](../rn/inline-messages.md#process). Pour la phase manuelle, voici les actions à effectuer sur l’événement **environnement de test de production**:
 
 <!--
 _On non-production sandboxes:_
@@ -108,7 +106,9 @@ _On the production sandbox:_
 
 ### 1. Recherchez des erreurs sur vos Parcours actifs migrés.{#migration-step-2-1}
 
-Recherchez les erreurs sur les parcours en direct migrés automatiquement dans le rapport d’état.
+Recherchez les erreurs sur les parcours en direct migrés automatiquement dans le rapport d’état ([en savoir plus](../rn/inline-messages.md#status). Cliquez sur le bouton **Vérifier l’état** dans la bannière supérieure.
+
+![](assets/inline-migration-steps3.png)
 
 Recherchez &quot;ERROR_NEW_VERSION_CREATION&quot; :
 
@@ -117,6 +117,8 @@ Recherchez &quot;ERROR_NEW_VERSION_CREATION&quot; :
 * En l’absence d’erreur, cela signifie que toutes les versions de parcours actives nécessitant une migration ont été traitées et qu’une nouvelle version de brouillon migrée a été créée automatiquement.
 
 * Si une erreur s’affiche, vous pouvez rechercher &quot;errorMessage&quot; et vérifier le message d’erreur dans les journaux. Les messages multicanaux ne sont pas migrés. Vous devrez créer un autre parcours.
+
+   ![](assets/inline-migration-steps5.png)
 
 * Pour toute autre erreur, veuillez contacter votre CSM ou tout représentant d’Adobe pour obtenir des conseils.
 
@@ -132,7 +134,7 @@ Assurez-vous que le parcours doit toujours être exécuté en production. Si la 
 
 Testez votre version préliminaire du parcours qui contient désormais des actions de canal intégrées.
 
-Publiez votre nouvelle version de parcours. Votre version active précédente passe à l’état &quot;Fermée&quot;.
+Publiez votre nouvelle version de parcours. La version active précédente passe alors à l’état &quot;Fermé&quot;.
 
 ### 4. Répertorier toutes les versions actives{#migration-step-2-4}
 
@@ -140,9 +142,9 @@ Ils doivent tous être identifiés comme les plus récents. dans le cas contrair
 
 ![](assets/inline-migration-steps8.png)
 
-### 5. Examinez les erreurs relatives à la migration des versions préliminaires.{#migration-step-2-5}
+### 5. Rechercher les erreurs sur les versions préliminaires migrées {#migration-step-2-5}
 
-Cliquez sur le bouton **Vérifier l’état** dans la bannière supérieure et vérifiez qu’il n’y a pas eu d’erreur lors de la migration automatique et qu’il ne reste plus rien à migrer. N’oubliez pas que tout parcours en erreur (avec les messages) sera obsolète après le 5 septembre (sur tous les environnements de test).
+Cliquez sur le bouton **Vérifier l’état** bouton dans la bannière supérieure ([en savoir plus](../rn/inline-messages.md#status) et vérifiez qu’il n’y a pas eu d’erreur lors de la migration automatique et qu’il ne reste plus rien à migrer. N’oubliez pas que tout parcours en erreur (avec les messages) sera obsolète après le 5 septembre (sur tous les environnements de test).
 
 ![](assets/inline-migration-steps11.png)
 
@@ -154,11 +156,11 @@ Recherchez l’état &quot;ERREUR&quot;.
 
 * En cas d’erreur, recherchez l’erreur en recherchant &quot;errorMessage&quot;. L’erreur suivante est attendue, car la migration des messages multicanaux n’est pas prise en charge : &quot;La migration des messages multicanaux n’est pas prise en charge&quot;. Vous devrez reconstruire ce parcours.
 
-![](assets/inline-migration-steps6.png)
+![](assets/inline-migration-steps5.png)
 
 ## Après la deuxième itération (1er août){#migration-step-3}
 
-La deuxième itération aura lieu de nuit entre le 1er août et le 2 août.
+La deuxième itération a lieu de nuit entre le 1er août et le 2 août.
 
 <!--
 _On non-production sandboxes:_
@@ -179,7 +181,11 @@ En l’absence d’erreur, vous ne devriez avoir aucun parcours dans &quot;élig
 
 ### 2. Arrêter les versions précédentes{#migration-step-3-2}
 
-Si vous n’avez pas publié de nouvelles versions de parcours (voir ceci [section](../rn/inline-messages-steps.md#migration-step-2-3)) dans le temps, c’est-à-dire avant l’itération 2 (1er août), puis publiez la version la plus récente et **arrêter la version précédente ou la perdre ;** et les rapports qui lui sont associés.
+Si vous n’avez pas publié de nouvelles versions de parcours (voir ceci [section](../rn/inline-messages-steps.md#migration-step-2-3)) dans le temps, c’est-à-dire avant l’itération 2 (1er août), puis publiez la version la plus récente.
+
+>[!NOTE]
+>
+>Arrêtez la version précédente ou vous la perdrez, ainsi que les rapports associés.
 
 ## Avant la troisième et dernière itération (5 septembre){#migration-step-4}
 
