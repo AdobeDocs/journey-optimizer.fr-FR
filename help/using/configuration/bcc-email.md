@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Définition d’une adresse e-mail en Cci"
->abstract="Vous pouvez conserver une copie des e-mails envoyés en les envoyant à une boîte de réception en Cci. Saisissez l&#39;adresse e-mail de votre choix afin que chaque e-mail envoyé soit copié de façon invisible vers cette adresse Cci. Notez que le domaine de l’adresse en Cci ne doit pas être le même que tout sous-domaine délégué à l’Adobe. Cette fonctionnalité est facultative."
+>abstract="Vous pouvez conserver une copie des e-mails envoyés en les envoyant à une boîte de réception en Cci. Saisissez l&#39;adresse e-mail de votre choix afin que chaque e-mail envoyé soit copié de façon invisible vers cette adresse Cci. Notez que le domaine de l’adresse en copie (Cci) ne doit pas être le même que celui d’un sous-domaine délégué à Adobe. Cette fonctionnalité est facultative."
 
 Vous pouvez envoyer une copie identique (ou copie carbone invisible) d’un e-mail envoyé par [!DNL Journey Optimizer] vers une boîte de réception Cci. Cette fonctionnalité facultative vous permet de conserver des copies des communications par e-mail que vous envoyez à vos utilisateurs à des fins de conformité et/ou d’archivage. Cela sera invisible pour les destinataires de la diffusion.
 
 ## Activer les e-mails en Cci {#enable-bcc}
 
-Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l&#39;adresse e-mail de votre choix dans le champ dédié. Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse électronique définie sur un sous-domaine délégué à l’Adobe. Par exemple, si vous avez délégué la variable *marketing.luma.com* sous-domaine à Adobe, toute adresse telle que *abc@marketing.luma.com* est interdit.
+Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l&#39;adresse e-mail de votre choix dans le champ dédié. Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
 
 >[!NOTE]
 >
