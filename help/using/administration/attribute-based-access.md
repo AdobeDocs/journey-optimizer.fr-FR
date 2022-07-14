@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Actuellement, l’utilisation du contrôle d’accès basé sur les attributs n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
+>L’utilisation du contrôle d’accès basé sur les attributs n’est actuellement disponible que pour un nombre restreint d’organisations (disponibilité limitée). Si vous souhaitez utiliser cette fonctionnalité, contactez votre gestionnaire de compte Adobe.
 
 Le contrôle d’accès basé sur attribut (ABAC) permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, ce qui permet une protection supplémentaire des données personnelles.
 
