@@ -1,84 +1,84 @@
 ---
-title: Copier un parcours dans un autre sanddox
-description: Découvrez comment copier un parcours dans un autre sanddox
+title: Copier un parcours dans une autre sandbox
+description: Découvrez comment copier un parcours dans une autre sandbox
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Copier un parcours dans un autre environnement de test {#copy-to-sandbox}
+# Copier un parcours dans une autre sandbox {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Copier un parcours dans un autre environnement de test"
->abstract="Journey Optimizer vous permet de copier un parcours entier d’un environnement de test à un autre. Par exemple, vous pouvez copier un parcours de l’environnement de test intermédiaire vers votre environnement de test de production. Outre le Parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours."
+>title="Copier un parcours dans une autre sandbox"
+>abstract="Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de l’environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="Détails des environnements de test"
->abstract="Sélectionnez l’environnement de test de destination vers lequel vous souhaitez copier le parcours. Seuls les environnements de test de votre organisation IMS sont disponibles."
+>title="Détails des sandbox"
+>abstract="Sélectionnez la sandbox de destination dans laquelle vous souhaitez copier le parcours. Seules les sandbox de votre organisation IMS sont disponibles."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
 >title="Détails de l’objet"
->abstract="C&#39;est le parcours que vous allez copier."
+>abstract="Il s’agit du parcours que vous allez copier."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
 >title="Objets dépendants"
->abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’Journey Optimizer ID interne."
+>abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne."
 
-Journey Optimizer vous permet de copier un parcours entier d’un environnement de test à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de test dans votre environnement de test de production. Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : messages, segments, paramètres prédéfinis, schémas, événements et actions. Reportez-vous à la section [limitations](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : messages, segments, préréglages, schémas, événements et actions. Pour plus d’informations, consultez la section [Limitations](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
->Nous ne garantissons pas que tous les éléments liés seront copiés dans l’environnement de test de destination. Nous vous recommandons vivement d’effectuer une vérification approfondie avant de publier le parcours. Vous pourrez ainsi identifier tout objet manquant potentiel.
+>Certains éléments associés peuvent échapper à la copie dans la sandbox de destination. Il est vivement recommandé de vérifier la viabilité du parcours avant sa publication. Vous pourrez ainsi identifier tout objet potentiellement manquant.
 
-Les objets copiés dans l’environnement de test cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages à l’intérieur du parcours sont transmis en mode préliminaire. Cela vous permet d’effectuer une validation approfondie avant la publication sur l’environnement de test cible. Le processus de copie ne copie que les métadonnées du parcours et des objets de ce Parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
+Les objets copiés dans la sandbox cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages qu’il contient sont transférés en mode brouillon. Vous pouvez ainsi effectuer une validation approfondie du parcours avant sa publication sur la sandbox cible. Le processus de copie ne copie que les métadonnées et les objets de ce parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
 
-Pour copier un parcours dans un autre environnement de test, procédez comme suit :
+Pour copier un parcours dans une autre sandbox, procédez comme suit :
 
 1. Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s&#39;affiche.
 
-2. Recherchez le parcours à copier, puis cliquez sur le bouton **Autres actions** (les trois points en regard du nom du parcours) et cliquez sur **Copier vers l’environnement de test**.
+2. Recherchez le parcours à copier, puis cliquez sur l’icône **Plus d’actions** (les trois points en regard du nom du parcours) et sélectionnez **Copier dans la sandbox**.
 
    ![](assets/copy-sandbox1.png)
 
-   Le **Copier vers l’environnement de test** s’affiche.
+   L’écran **Copier dans la sandbox** s’affiche.
 
    ![](assets/copy-sandbox2.png)
 
-3. Sélectionnez la **Environnement de test Target** dans le champ déroulant. Seuls les environnements de test de votre organisation IMS sont disponibles.
+3. Sélectionnez la **sandbox cible** dans le champ déroulant. Seules les sandbox de votre organisation IMS sont disponibles.
 
-4. Consultez la section **Objets dépendants** . Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’Journey Optimizer ID interne.
+4. Consultez la section **Objets dépendants**. Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne.
 
-5. Cliquez sur le bouton **Copier** , dans le coin supérieur droit, pour commencer à copier le parcours dans l’environnement de test cible.
+5. Cliquez sur le bouton **Copier** situé dans le coin supérieur droit pour commencer à copier le parcours dans la sandbox cible.
 
    ![](assets/copy-sandbox3.png)
 
-   Le processus de copie commence et la progression de chaque objet est affichée. Le processus de copie varie en fonction de la complexité du parcours et du nombre d’objets à copier. Si une erreur se produit, un message s’affiche pour l’objet associé.
+   Le processus de copie démarre et la progression de chacun des objets est affichée. La durée du processus de copie dépend de la complexité du parcours et du nombre d’objets à copier. Si une erreur se produit, un message s’affiche pour l’objet concerné.
 
    ![](assets/copy-sandbox4.png)
 
-6. Une fois la copie terminée, cliquez sur **Fermer**.
+6. Lorsque la copie est terminée, cliquez sur **Fermer**.
 
-7. Accédez à votre environnement de test cible et vérifiez minutieusement tous les objets copiés.
+7. Accédez à votre sandbox cible et vérifiez minutieusement que tous les objets sont copiés.
 
-## Copie du processus et des limitations {#limitations}
+## Processus de copie et limitations {#limitations}
 
-Nous ne garantissons pas que tous les éléments liés seront copiés dans l’environnement de test de destination. Nous vous recommandons vivement d’effectuer une vérification approfondie. Identifiez tout objet potentiel manquant et créez-le manuellement avant de publier le parcours.
+Certains éléments associés peuvent échapper à la copie dans la sandbox de destination. Il est vivement recommandé d’effectuer une vérification approfondie. Identifiez tout objet potentiel manquant et créez-le manuellement avant de publier le parcours.
 
-Les objets suivants sont copiés :
+Les objets suivants sont copiés :
 
 * Segment
 
-   Un segment ne peut être copié qu’une seule fois d’un environnement de test à un autre. Une fois qu’un segment est copié, il n’est pas modifiable sur l’environnement de test de destination.
+   Un segment ne peut être copié qu’une seule fois d’une sandbox à une autre. Un segment ayant été copié n’est pas modifiable sur la sandbox de destination.
 
 * Schéma
 
@@ -86,23 +86,23 @@ Les objets suivants sont copiés :
 
 * Message
 
-   Le ou les messages physiques utilisés dans le parcours (email ou push). Les champs utilisés pour la personnalisation dans le message ne sont pas vérifiés pour être complets. Les blocs de contenu ne sont pas copiés.
+   Le ou les messages physiques utilisés dans le parcours (messages e-mail ou push). L’exhaustivité des champs utilisés pour la personnalisation dans le message n’est pas vérifiée. Les blocs de contenu ne sont pas copiés.
 
-* Parcours - détails du canevas
+* Parcours : détails de la zone de travail
 
-   Représentation du parcours sur la zone de travail, y compris les objets du parcours tels que les conditions, les actions, les événements, les segments de lecture, etc. L’activité Saut est exclue de la copie.
+   Représentation du parcours sur la zone de travail, y compris les objets du parcours tels que les conditions, les actions, les événements, les segments de lecture, etc. L’activité Saut n’est pas copiée.
 
 * Événement
 
-   Les événements et les détails de l’événement utilisés dans le parcours sont copiés.
+   Les événements et les détails des événements utilisés dans le parcours sont copiés.
 
 * Action
 
-   Les actions et les détails de l’action utilisés dans le parcours sont copiés.
+   Les actions et les détails des actions utilisées dans le parcours sont copiés.
 
-Les paramètres prédéfinis ne sont pas copiés. Le système sélectionne automatiquement la correspondance la plus proche possible sur l’environnement de test de destination, en fonction du type de message et du nom du paramètre prédéfini. Si aucun paramètre prédéfini n’est trouvé sur l’environnement de test cible, la copie du paramètre prédéfini échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’un paramètre prédéfini soit disponible pour la configuration. Dans ce cas, au moins un paramètre prédéfini doit être créé, pour le canal approprié du message, afin que la copie fonctionne.
+Les préréglages ne sont pas copiés. Le système sélectionne automatiquement la correspondance la plus proche possible sur la sandbox de destination, en fonction du type de message et du nom du préréglage. Si aucun préréglage n’est trouvé sur la sandbox cible, le processus de copie du préréglage échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’un préréglage soit disponible pour la configuration. Dans ce cas, au moins un préréglage doit être créé, pour le bon canal du message, afin que la copie fonctionne.
 
-Pour les schémas, les stratégies de fusion et les segments, la deuxième fois que ces objets tentent d’être copiés, ils ne sont référencés que. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
+Pour les schémas, les stratégies de fusion et les segments, la deuxième fois que ces objets tenteront d’être copiés, ils seront seulement référencés. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
 
-Il y a un délai de cinq minutes avant que Adobe Journey Optimizer puisse référencer des schémas, des stratégies de fusion et des segments sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.
+Un délai de cinq minutes est nécessaire pour qu’Adobe Journey Optimizer puisse référencer les schémas, les stratégies de fusion et les segments sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.
 
