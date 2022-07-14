@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -163,15 +163,15 @@ En savoir plus sur les reprises dans [cette section](retries.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Définition des paramètres de suivi d’URL"
->abstract="Utilisez cette section pour ajouter automatiquement des paramètres de suivi aux URL présentes dans le contenu de votre email. Cette fonctionnalité est facultative."
+>title="Définir les paramètres de tracking d’URL"
+>abstract="Cette section décrit comment ajouter automatiquement des paramètres de tracking aux URL présentes dans votre contenu d’e-mail. Cette fonctionnalité est facultative."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Aperçu des paramètres de suivi d’URL"
->abstract="Vérifiez comment les paramètres de suivi seront ajoutés aux URL présentes dans le contenu de votre email."
+>title="Prévisualiser les paramètres de tracking d’URL"
+>abstract="Prévisualisez comment les paramètres de tracking seront ajoutés aux adresses URL présentes dans votre contenu d’e-mail."
 
-Vous pouvez utiliser **[!UICONTROL Paramètres de suivi des URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative.
+Vous pouvez utiliser les **[!UICONTROL paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative.
 
 Les paramètres définis dans cette section seront ajoutés à la fin des URL incluses dans le contenu de votre e-mail. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou Google Analytics, et créer divers rapports de performances.
 
@@ -179,9 +179,9 @@ Les paramètres définis dans cette section seront ajoutés à la fin des URL in
 
 Trois paramètres de tracking d’URL sont automatiquement renseignés par exemple lorsque vous créez un préréglage de message. Vous pouvez les modifier et ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
 
-Pour configurer un paramètre de suivi d’URL, vous pouvez entrer directement les valeurs souhaitées dans la variable **[!UICONTROL Nom]** et **[!UICONTROL Valeur]** champs.
+Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]**.
 
-Vous pouvez également choisir parmi une liste de valeurs prédéfinies en accédant aux objets suivants :
+Vous pouvez également choisir parmi une liste de valeurs prédéfinies en accédant aux objets suivants :
 * Attributs de parcours : **Identifiant de la source**, **Nom de la source**, **Identifiant de la version de la source**
 * Attributs d’action : **Identifiant de l’action**, **Nom de l’action**
 * Attributs d’Offer Decisioning : **Identifiant de l’offre**, **Nom de l’offre**
@@ -206,6 +206,6 @@ Vous trouverez ci-dessous des exemples d’URL compatibles avec Adobe Analytics 
 >
 >Vous pouvez combiner des valeurs de saisie de texte et la sélection de valeurs prédéfinies. Chaque champ **[!UICONTROL Valeur]** peut contenir jusqu’à 255 caractères au total.
 
-Vous pouvez prévisualiser dynamiquement l’URL de suivi qui en résulte. Chaque fois que vous ajoutez, modifiez ou supprimez un paramètre, l’aperçu est automatiquement mis à jour.
+Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Chaque fois que vous ajoutez, modifiez ou supprimez un paramètre, la prévisualisation est automatiquement mise à jour.
 
 ![](assets/preset-url-tracking-preview.png)
