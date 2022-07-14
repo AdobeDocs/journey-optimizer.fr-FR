@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1842'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -250,13 +250,13 @@ Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les di
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système d&#39;exploitation de votre destinataire.
 
-Le SMS **[!UICONTROL Rapport global]** est divisé en différents widgets détaillant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
+Le **[!UICONTROL Rapport global]** SMS est divisé en différents widgets présentant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
 
 ## Onglet SMS {#sms-global}
 
 ![](assets/report_sms_global.png)
 
-Le **[!UICONTROL SMS - Statistiques d&#39;envoi]** le tableau détaille le succès de votre diffusion :
+Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 
 * **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
@@ -270,7 +270,7 @@ Le **[!UICONTROL SMS - Statistiques d&#39;envoi]** le tableau détaille le succ�
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
-Le **[!UICONTROL Synthèse des SMS]** avec un graphique, vous trouverez les informations principales relatives à votre message :
+Le widget **[!UICONTROL Synthèse des SMS]** détaille les informations principales relatives à votre message sous forme de graphique :
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
@@ -280,4 +280,4 @@ Le **[!UICONTROL Synthèse des SMS]** avec un graphique, vous trouverez les info
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
-Le **[!UICONTROL Exclure les raisons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
