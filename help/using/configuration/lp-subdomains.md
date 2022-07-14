@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >id="ajo_admin_subdomain_lp"
 >title="Déléguer un sous-domaine de page de destination"
 >abstract="Vous devez configurer un sous-domaine à utiliser pour vos pages de destination, car vous aurez besoin de ce sous-domaine pour créer un préréglage de page de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou configurer un nouveau sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
 
 Avant de pouvoir [créer des préréglages de page de destination](lp-presets.md), vous devez avoir configuré les sous-domaines que vous utiliserez pour vos pages de destination.
 
@@ -59,7 +59,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Notez que vous ne pouvez pas utiliser plusieurs sous-domaines délégués du même domaine parent. Par exemple, si &quot;marketing1.votreentreprise.com&quot; est déjà délégué à Adobe pour vos landing pages, vous ne pourrez pas utiliser &quot;marketing2.votreentreprise.com&quot;. Toutefois, les sous-domaines à plusieurs niveaux pris en charge pour les landing pages, vous pouvez continuer à utiliser un sous-domaine de &quot;marketing1.votreentreprise.com&quot; (tel que &quot;email.marketing1.votreentreprise.com&quot;) ou un autre domaine parent.
+   Notez que vous ne pouvez pas utiliser plusieurs sous-domaines délégués du même domaine parent. Par exemple, si « marketing1.yourcompany.com » est déjà délégué à Adobe pour vos pages de destination, vous ne pourrez pas utiliser « marketing2.yourcompany.com ». Cependant, les sous-domaines à plusieurs niveaux sont pris en charge pour les pages de destination. Vous pouvez dès lors utiliser un sous-domaine de « marketing1.yourcompany.com » (comme « email.marketing1.yourcompany.com ») ou un autre domaine parent.
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour les landing pages, les sous-domaines à plusieurs niveaux sont pris en charge. Par exemple, vous pouvez utiliser &quot;email.marketing.votreentreprise.com&quot;.
+   >Pour les pages de destination, les sous-domaines à plusieurs niveaux sont pris en charge. Par exemple, vous pouvez utiliser « email.marketing.yourcompany.com ».
 
 1. L’enregistrement à placer dans les serveurs DNS s’affiche. Copiez cet enregistrement ou téléchargez un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant.
 
