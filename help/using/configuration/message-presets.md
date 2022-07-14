@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1537'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,19 +49,19 @@ Pour créer un préréglage de message, procédez comme suit :
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Si vous avez sélectionné la variable **[!UICONTROL Email]** canal, configurez vos paramètres comme décrit dans la section [cette section](email-settings.md).
+1. Si vous avez sélectionné le canal **[!UICONTROL E-mail]**, configurez vos paramètres comme indiqué dans [cette section](email-settings.md).
 
    ![](assets/preset-email.png)
 
-1. Si vous avez sélectionné la variable **[!UICONTROL Notification push]** canal, sélectionnez au moins une plateforme (**iOS** et/ou **Android**), puis sélectionnez les applications mobiles à utiliser pour chaque plateforme.
+1. Si vous avez sélectionné le canal **[!UICONTROL Notification push]**, choisissez au moins une plateforme (**iOS** et/ou **Android**), puis les applications mobiles à utiliser pour chaque plateforme.
 
    ![](assets/preset-push.png)
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](push-gs.md).
+   >Pour plus d’informations sur la configuration de votre environnement pour envoyer des notifications push, consultez [cette section](push-gs.md).
 
-1. Si vous avez sélectionné la variable **[!UICONTROL SMS]** canal, configurez vos paramètres comme décrit dans la section [cette section](sms-configuration.md#message-preset-sms).
+1. Si vous avez sélectionné le canal **[!UICONTROL SMS]**, configurez vos paramètres comme indiqué dans [cette section](sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
@@ -158,13 +158,13 @@ Pour modifier un préréglage de message, procédez comme suit.
    >
    >Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa mise à jour ultérieurement. 
 
-Une fois les modifications soumises, le préréglage de message passera par un cycle de validation similaire à celui mis en place lors de la [création d’un préréglage](#create-message-preset). Le temps de traitement de l’édition peut prendre jusqu’à **3 heures**.
+Une fois les modifications soumises, le préréglage de message passera par un cycle de validation similaire à celui mis en place lors de la [création d’un préréglage](#create-message-preset). Le temps de traitement des modifications peut prendre jusqu’à **3 heures**.
 
 >[!NOTE]
 >
 >Si vous modifiez uniquement les champs **[!UICONTROL Description]**, **[!UICONTROL Type d’e-mail]** et/ou **[!UICONTROL Paramètres de relance de l’e-mail]**, la mise à jour est instantanée. 
 
-### Mise à jour des détails {#update-details}
+### Détails de la mise à jour {#update-details}
 
 Pour les préréglages de message affichant le statut **[!UICONTROL Actif]**, vous pouvez vérifier les détails de la mise à jour. Pour ce faire :
 
@@ -198,7 +198,7 @@ Plusieurs contrôles de délivrabilité seront effectués pour vérifier que le 
 >
 >Si vous modifiez uniquement les champs **[!UICONTROL Description]**, **[!UICONTROL Type d’e-mail]** et/ou **[!UICONTROL Paramètres de relance de l’e-mail]**, la mise à jour est instantanée. 
 
-Le temps de traitement peut prendre jusqu’à **3 heures**. En savoir plus sur les contrôles effectués lors du cycle de validation dans [cette section](#create-message-preset).
+Le temps de traitement peut prendre jusqu’à **3 heures**. En savoir plus sur les contrôles effectués lors du cycle de validation dans [cette section](#create-message-preset).
 
 Si vous modifiez un préréglage qui était déjà actif :
 
