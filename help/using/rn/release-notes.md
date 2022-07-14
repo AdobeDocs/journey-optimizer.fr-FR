@@ -3,9 +3,9 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -95,13 +95,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Copie d’objets entre des environnements de test</strong><br/></th>
+<th><strong>Copier des objets entre sandbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais recréer les expériences d’un environnement de test Journey Optimizer vers un autre, par exemple d’un environnement de test hors production vers un environnement de test de production. Cette nouvelle fonctionnalité copie un Parcours entier, y compris tous les objets dont le Parcours dépend pour s’exécuter correctement, d’un environnement à un autre. Outre les Parcours, vous pouvez également copier d’autres composants, tels que les offres, les messages, les schémas, les jeux de données, les sources de données, les événements et les actions.</p>
+<p>Vous pouvez désormais recréer les expériences d’une sandbox Journey Optimizer à une autre, par exemple d’une sandbox hors production vers une sandbox de production. Cette nouvelle fonctionnalité permet de copier d’une sandbox à une autre un parcours complet, y compris tous les objets nécessaires à son bon fonctionnement. Outre les parcours, vous pouvez également copier d’autres composants, tels que les offres, les messages, les schémas, les jeux de données, les sources de données, les événements et les actions.</p>
 <p>Pour plus d'informations, consultez la <a href="../building-journeys/copy-to-sandbox.md">documentation détaillée</a>.
 </td>
 </tr>
@@ -149,9 +149,9 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 * **Aperçu des paramètres d’URL de suivi** - Lors de la configuration d’un préréglage de message, si vous définissez des paramètres de suivi des URL, un aperçu dynamique de l’URL de suivi résultante s’affiche désormais. [En savoir plus](../configuration/email-settings.md#url-tracking)
 
-* **Modification des paramètres prédéfinis de message** - Désormais, lors de la mise à jour d’un paramètre prédéfini de message, le temps de traitement ne peut excéder 3 heures. [En savoir plus](../configuration/message-presets.md#edit-message-preset)
+* **Modification des préréglages de message** : lors de la mise à jour d’un préréglage de message, le temps de traitement ne peut désormais excéder 3 heures. [En savoir plus](../configuration/message-presets.md#edit-message-preset)
 
-* **Modification du pool d’adresses IP** - Désormais, lors de la mise à jour d’un pool d’adresses IP, le temps de traitement ne peut excéder 3 heures. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
+* **Modification du groupe d’adresses IP** : lors de la mise à jour d’un groupe d’adresses IP, le temps de traitement ne peut désormais excéder 3 heures. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
