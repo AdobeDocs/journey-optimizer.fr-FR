@@ -47,9 +47,9 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    Sélectionnez l’une des trois options suivantes :
 
-   * **[!UICONTROL Inclusion si coché]** : les utilisateurs doivent cocher la case pour accepter (opt-in).
-   * **[!UICONTROL Exclusion si coché]** : les utilisateurs doivent cocher la case pour retirer leur consentement (opt-out).
-   * **[!UICONTROL Inclusion si coché, exclusion si non coché]** : cette option vous permet d’insérer une seule case à cocher pour l’inclusion/exclusion. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out).
+   * **[!UICONTROL Opt-in si coché]** : les utilisateurs doivent cocher la case pour accepter (opt-in).
+   * **[!UICONTROL Opt-out si coché]** : les utilisateurs doivent cocher la case pour retirer leur consentement (opt-out).
+   * **[!UICONTROL Opt-in si coché, opt-out si non coché]** : cette option vous permet d’insérer une seule case à cocher pour l’inclusion/exclusion. Les utilisateurs doivent cocher la case pour donner leur consentement (opt-in), et la décocher pour supprimer leur consentement (opt-out).
 
 1. Parmi les trois options suivantes, choisissez celles qui seront mises à jour :
 
