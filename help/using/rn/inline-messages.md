@@ -2,10 +2,10 @@
 title: Migration vers la création en ligne de parcours
 description: Découvrez comment migrer vos messages
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -287,7 +287,10 @@ Il n’y aura aucune perte de données et aucun impact sur les parcours en direc
 
 ### Les fonctionnalités seront-elles perdues ?{#functionality}
 
-La façon dont vous créez un message change. Les fonctionnalités ne seront pas perdues.
+La façon dont vous créez un message change. Les fonctionnalités ne seront pas perdues. N’oubliez pas qu’après le 25 juillet (version de la fonctionnalité de création en ligne), les restrictions s’appliqueront aux actions qui peuvent être effectuées sur des parcours utilisant **Message** activités :
+
+* Vous ne pourrez pas copier/coller les **Message** activité. Vous pourrez toutefois copier/coller les nouvelles activités d’action de canal.
+* Pour ces parcours, vous ne pourrez pas effectuer les actions suivantes : tester, publier, dupliquer, créer une nouvelle version, fermer ou copier dans un autre environnement de test. Ces limites s’appliqueront aussi longtemps que ces **Messages** des activités sont présentes dans ces parcours. Vous pouvez attendre que le processus de migration s’exécute et soit mis à jour. **Messages** pour canaliser des activités d’action, ou vous pouvez les supprimer. **Messages** manuellement.
 
 ### L’environnement sera-t-il accessible pendant le processus de migration ?
 
