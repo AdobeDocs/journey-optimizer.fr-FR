@@ -7,31 +7,31 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 7%
+ht-degree: 79%
 
 ---
-
 
 # Prise en main des campagnes {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Grâce aux campagnes, vous pouvez diffuser du contenu unique sur un segment spécifique sur plusieurs canaux. Avant de créer une campagne, assurez-vous d’avoir un paramètre de message prédéfini et un segment Adobe Experience Platform prêt à l’emploi."
+>abstract="Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique, et ce sur plusieurs canaux. Avant de créer une campagne, assurez-vous de disposer d’un préréglage de message et d’un segment Adobe Experience Platform prêt à l’emploi."
 
-## A propos des campagnes {#about}
+## À propos des campagnes {#about}
 
-Les campagnes vous permettent de diffuser du contenu unique sur un segment spécifique à l’aide de plusieurs canaux. Contrairement aux parcours, où les actions sont conçues pour être exécutées de manière séquentielle, les campagnes exécutent les actions simultanément, immédiatement ou selon un calendrier spécifié.
+Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique sur plusieurs canaux. À la différence des parcours, où les actions sont conçues pour être exécutées l’une après l’autre, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning précis.
 
 Vous pouvez créer deux types de campagnes :
 
 * **Campagnes planifiées** autorisez des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
 * **Campagnes déclenchées par l’API** autorisez des messages transactionnels/opérationnels simples avec des API REST (réinitialisation de mot de passe, abandon de carte, etc.), où le besoin peut impliquer une personnalisation à l’aide d’attributs de profil et de données contextuelles issues de la payload.
 
-Découvrez comment utiliser les campagnes :
+Découvrez comment utiliser les campagnes :
 * [Créer une campagne](create-campaign.md)
 * [Création de campagnes déclenchées par l’API](api-triggered-campaigns.md)
 * [Modifier ou arrêter une campagne](modify-stop-campaign.md)
@@ -40,24 +40,24 @@ Découvrez comment utiliser les campagnes :
 
 ## Accès aux campagnes {#access}
 
-Les campagnes sont accessibles à partir du **[!UICONTROL Campagnes]** .
+Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
-Par défaut, la liste affiche toutes les campagnes avec la variable **[!UICONTROL Version préliminaire]**, **[!UICONTROL Planifié]**, et **[!UICONTROL En direct]** les états. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez effacer le filtre.
+Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
 
 ![](assets/create-campaign-list.png)
 
 ## Statuts des campagnes {#statuses}
 
-Les campagnes peuvent avoir plusieurs états :
+Les campagnes peuvent avoir plusieurs statuts :
 
-* **[!UICONTROL Version préliminaire]**: La campagne est en édition, elle n&#39;a pas été activée.
-* **[!UICONTROL Activation]**: La campagne est en cours d’activation.
-* **[!UICONTROL En direct]**: La campagne a été activée.
-* **[!UICONTROL Planifié]**: La campagne a été configurée pour être activée à une date de début spécifique.
-* **[!UICONTROL Stoppé]**: La campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ou la réutiliser (voir [Arrêter une campagne](modify-stop-campaign.md#stop))
-* **[!UICONTROL Terminé]**: La campagne est terminée.
-* **[!UICONTROL Archivé]**: La campagne a été archivée.
+* **[!UICONTROL Brouillon]** : la campagne est en cours de modification et n’est pas active.
+* **[!UICONTROL Activation]** : la campagne est en cours d’activation.
+* **[!UICONTROL Actif]** : la campagne est active.
+* **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date spécifique.
+* **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ou la réutiliser (consultez la section [Arrêter une campagne](modify-stop-campaign.md#stop)).
+* **[!UICONTROL Terminé]** : la campagne est terminée.
+* **[!UICONTROL Archivé]** : la campagne a été archivée.
 
 >[!NOTE]
 >
->L’icône &quot;Ouvrir la version préliminaire&quot; en regard d’un **[!UICONTROL En direct]** ou **[!UICONTROL Planifié]** le statut indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée (voir [Modifier une campagne](modify-stop-campaign.md#modify)).
+>L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée (consultez la section [Modifier une campagne](modify-stop-campaign.md#modify)).

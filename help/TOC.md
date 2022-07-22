@@ -127,7 +127,7 @@ ht-degree: 98%
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
-      + [Copier un parcours vers un autre environnement de test](using/building-journeys/copy-to-sandbox.md)
+      + [Copier un parcours dans une autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
    + Activités {#about-journey-building}
       + [À propos des activités de parcours](using/building-journeys/about-journey-activities.md)

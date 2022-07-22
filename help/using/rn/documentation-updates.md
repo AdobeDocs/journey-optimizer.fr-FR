@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Juillet 2022 {#july-2022}
 
-* Le **Création d’un paramètre prédéfini de message** Clarification et mise à jour de la section avec des liens vers la page décrivant comment configurer le canal SMS - [En savoir plus](../configuration/message-presets.md#create-message-preset)
+* La section **Créer un préréglage de message** a été simplifiée et contient de nouveaux liens vers la page décrivant comment configurer le canal SMS. [En savoir plus](../configuration/message-presets.md#create-message-preset)
 
 ## Juin 2022 {#june-2022}
 
@@ -30,7 +30,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La page Liste autorisée a été déplacée vers la section Configuration. [En savoir plus](../configuration/allow-list.md)
 * La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
 * Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions. [En savoir plus](../start/guardrails.md)
-* L’optimisation du temps d’envoi est désormais disponible pour tous les clients. La mention bêta a été supprimée. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
+* L’optimisation de l’heure d’envoi est désormais disponible pour tous les clients. La mention Beta a été supprimée. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
 * L’API Batch Decisioning a été ajoutée à la liste des API disponibles pour diffuser des offres personnalisées. [En savoir plus](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mai 2022 {#may-2022}
