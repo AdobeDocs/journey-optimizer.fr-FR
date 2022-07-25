@@ -3,10 +3,10 @@ title: Prise en main de Journey Optimizer pour l’administrateur système
 description: En tant qu’administrateur système, découvrez comment utiliser Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 98%
+source-wordcount: '732'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Présentation des profils de produit**. Les profils de produit sont un ensemble de droits unitaires qui permet aux utilisateurs d’accéder à certaines fonctionnalités ou à certains objets dans l’interface. Pour en savoir plus, consultez la section [Profils de produit d’usine](../../administration/ootb-product-profiles.md). 
 
-1. **Définissez les autorisations** pour les profils de produits, y compris les **Sandbox**, et donnez l’accès aux membres de votre équipe en les affectant à différents profils de produits. Cette étape est effectuée dans l’[Admin Console](https://adminconsole.adobe.com/){_blank}. Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées au **[!UICONTROL Profil de produit]**. Chaque autorisation est regroupée sous des fonctionnalités, par exemple Parcours, Messages ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](../../administration/high-low-permissions.md). 
+1. **Définissez les autorisations** pour les profils de produits, y compris les **Sandbox**, et donnez l’accès aux membres de votre équipe en les affectant à différents profils de produits. Cette étape est effectuée dans l’[Admin Console](https://adminconsole.adobe.com/){_blank}. Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées au **[!UICONTROL Profil de produit]**. Chaque autorisation est regroupée sous des fonctionnalités, par exemple Parcours ou Offres, qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](../../administration/high-low-permissions.md). 
 
 En outre, vous devez ajouter les utilisateurs qui doivent accéder à Assets Essentials aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. [Pour en savoir plus, consultez la documentation sur Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
@@ -37,18 +37,18 @@ En outre, vous devez ajouter les utilisateurs qui doivent accéder à Assets Es
 
 Lorsque vous accédez à [!DNL Journey Optimizer] pour la première fois, une sandbox de production vous est allouée ainsi qu’un certain nombre d’adresses IP en fonction de votre contrat. 
 
-Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADMINISTRATION**. Parcourez le menu **[!UICONTROL Canaux]** pour configurer vos e-mails et vos préréglages.
+Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADMINISTRATION**. Parcourez les **[!UICONTROL Canaux]** pour configurer les messages et les surfaces des canaux (c’est-à-dire les paramètres prédéfinis des messages).
 
 >[!NOTE]
 >En tant qu’**administrateur système**, si le menu **[!UICONTROL Canaux]** ne s’affiche pas dans [!DNL Journey Optimizer], mettez à jour vos autorisations dans l’[Admin Console](https://adminconsole.adobe.com/){_blank}. Découvrez comment mettre à jour votre profil de produit sur [cette page](../../administration/permissions.md#edit-product-profile). 
 
 Suivez les étapes énumérées ci-dessous :
 
-1. **Configurer les messages et les canaux** : définir des préréglages, adapter et personnaliser les paramètres des e-mails et des messages push.
+1. **Configuration des messages et des canaux**: définir des surfaces, adapter et personnaliser les paramètres des emails, SMS et messages push ;
 
    * Définissez **les paramètres des notifications push** dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../../configuration/push-gs.md)
 
-   * Créez des **préréglages de messages** pour configurer tous les paramètres techniques requis pour les e-mails et les notifications push. [En savoir plus](../../configuration/message-presets.md)
+   * Créer **surfaces des canaux** (c’est-à-dire les paramètres prédéfinis de message) pour configurer tous les paramètres techniques requis pour l’email, le SMS et la notification push. [En savoir plus](../../configuration/message-presets.md)
 
    * Configurez la variable **Canal SMS** pour configurer tous les paramètres techniques requis pour les SMS. [En savoir plus](../../configuration/sms-configuration.md)
 
@@ -62,7 +62,7 @@ Suivez les étapes énumérées ci-dessous :
 
    ![](../assets/ip-pool.png)
 
-1. **Gérer les listes de suppression et d’autorisation** : améliorez votre délivrabilité grâce aux listes de suppression et d’autorisation. 
+1. **Gestion de la suppression et des listes autorisées**: améliorer votre délivrabilité avec suppression et listes autorisées ;
 
    * Une [liste de suppression](../../reports/suppression-list.md) est constituée d’adresses e-mail que vous souhaitez exclure de vos diffusions, car l’envoi d’e-mails à ces contacts pourrait nuire à votre réputation d’envoi et à vos taux de diffusion. Vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi d’un parcours, telles que les adresses non valides, les adresses qui entraînent constamment des soft bounces et qui pourraient nuire à la réputation de vos e-mails, ainsi que les destinataires qui demandent le classement de l’un de vos e-mails comme spam. Découvrez comment gérer la [liste de suppression](../../configuration/manage-suppression-list.md) et les [reprises](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
