@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 80%
 
 ---
 
 # Documentation Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>Le 25 juillet, Adobe Journey Optimizer publie une [nouvelle fonctionnalité](using/rn/inline-messages.md) qui améliore la création de contenu pour les canaux Journey Optimizer (email, push, SMS). En tant que praticien Journey Optimizer, vous [création et création](using/messages/get-started-content.md) vos messages directement depuis un parcours. Une conversion automatique de parcours est effectuée pour vous. Cela dit, nous avons besoin de votre aide avec quelques étapes. En savoir plus sur la [étapes requises](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,9 +54,9 @@ ht-degree: 100%
     Concevez un nouvel e-mail ou importez un contenu HTML existant.
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Envoi de messages</a>
+      <a href="using/messages/get-started-content.md">Envoi de messages</a>
     </div>
-    <p>Découvrez comment ajouter des e-mails et des messages push dans vos parcours clients.
+    <p>Découvrez comment ajouter des notifications push, des SMS et des emails dans vos parcours client
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Création de votre premier parcours</a>
@@ -114,9 +118,6 @@ ht-degree: 100%
     <p>GESTION DES PARCOURS</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Parcours</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">Messages</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md"> Pages de destination </a>
