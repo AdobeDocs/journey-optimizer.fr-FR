@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 98%
+source-wordcount: '498'
+ht-degree: 89%
 
 ---
 
@@ -25,15 +25,24 @@ L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Jo
 
 Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies 
 
-* Créer et concevoir un message de notification push sans le publier. Reportez-vous à cette [section](../messages/get-started-content.md).
 * Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
 * Créer une décision, voir à ce sujet cette [section](../offers/offer-activities/create-offer-activities.md).
 
-## Étape 1 - Ajouter une personnalisation au profil {#add-perso}
+## Étape 1 - Créer le parcours {#create-journey}
 
-1. Cliquez sur le menu **[!UICONTROL Message]**, puis sélectionnez votre message.
+1. Cliquez sur le menu **[!UICONTROL Parcours]** et créez un parcours.
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. Ajoutez votre événement d’entrée et une **Push** activité d’action.
+
+   ![](assets/perso-uc5.png)
+
+1. Configurez et concevez votre message de notification push. Reportez-vous à cette [section](../messages/get-started-content.md).
+
+## Étape 2 - Ajouter une personnalisation au profil {#add-perso}
+
+1. Dans le **Push** activité, cliquez sur **Modifier le contenu**.
 
 1. Cliquez sur le champ **Titre**.
 
@@ -43,45 +52,15 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >Laissez le message à l&#39;état de brouillon. Ne le publiez pas encore.
-
-## Étape 2 - Créer le parcours {#create-journey}
-
-1. Cliquez sur le menu **[!UICONTROL Parcours]** et créez un parcours.
-
-   ![](assets/perso-uc4.png)
-
-1. Ajoutez votre événement d’entrée et une **Message** activité.
-
-   ![](assets/perso-uc5.png)
-
-1. Dans l&#39;activité **Message**, sélectionnez le message précédemment créé. Cliquez sur **OK**.
-
-   ![](assets/perso-uc6.png)
-
-   Un message s&#39;affiche pour vous informer que les données de l&#39;événement d&#39;entrée et les propriétés du parcours ont été transmises au message.
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >Le message s&#39;affiche avec une icône d&#39;avertissement. En effet, le message n&#39;est pas encore publié.
-
 ## Étape 3 - Ajouter une personnalisation aux données contextuelles {#add-perso-contextual-data}
 
-1. Dans l&#39;activité **Message**, cliquez sur l&#39;icône **Ouvrir le message**. Le message s&#39;ouvre dans un nouvel onglet.
-
-   ![](assets/perso-uc8.png)
-
-1. Cliquez sur le champ **Titre**.
+1. Dans le **Push** activité, cliquez sur **Modifier le contenu** et cliquez sur le bouton **Titre** champ .
 
    ![](assets/perso-uc9.png)
 
 1. Sélectionnez le menu **Attributs contextuels**. Les attributs contextuels ne sont disponibles que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
-   * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité **Message** dans le parcours.
+   * **Événements**: cette catégorie regroupe tous les champs du ou des événements placés avant l’activité d’action de canal dans le parcours.
    * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md). 
 
    ![](assets/perso-uc10.png)
@@ -106,13 +85,9 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc15.png)
 
-1. Publiez à présent le message.
-
-   ![](assets/perso-uc16.png)
-
 ## Étape 4 - Tester et publier le parcours {#test-publish}
 
-1. Ouvrez de nouveau le parcours. Si le parcours est déjà ouvert, veillez à actualiser la page. Maintenant que le message est publié, vous pouvez constater qu&#39;il n&#39;y a aucune erreur dans le parcours. Cliquez sur le bouton **Test**, puis sur **Déclencher un événement**.
+1. Cliquez sur le bouton **Test**, puis sur **Déclencher un événement**.
 
    ![](assets/perso-uc17.png)
 

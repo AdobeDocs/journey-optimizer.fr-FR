@@ -1,15 +1,15 @@
 ---
 title: Utiliser E-mail Cci
-description: Découvrez comment configurer les e-mails en Cci au niveau des préréglages de message
+description: Découvrez comment configurer les emails en Cci au niveau de la surface du canal
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
-workflow-type: ht
-source-wordcount: '1136'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 88%
 
 ---
 
@@ -24,23 +24,23 @@ Vous pouvez envoyer une copie identique (ou copie carbone invisible) d’un e-ma
 
 ## Activer les e-mails en Cci {#enable-bcc}
 
-Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l&#39;adresse e-mail de votre choix dans le champ dédié. Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
+Pour activer la variable **[!UICONTROL Email Cci]** , saisissez l&#39;adresse email de votre choix dans le champ dédié du champ [surface du canal](message-presets.md) (c’est-à-dire le paramètre prédéfini du message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
 
 >[!NOTE]
 >
->Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous que l&#39;adresse en Cci dispose d&#39;une capacité de réception suffisante pour stocker tous les e-mails envoyés à l&#39;aide du préréglage actuel.
+>Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous que l&#39;adresse en Cci dispose d&#39;une capacité de réception suffisante pour stocker tous les emails envoyés à l&#39;aide de la surface actuelle du canal.
 >
 >D’autres recommandations sont répertoriées dans [cette section](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Tous les e-mails utilisant ce préréglage seront copiés de façon invisible vers l’adresse e-mail en Cci que vous avez saisie. De là, ils peuvent être traités et archivés à l’aide d’un système externe.
+Tous les emails utilisant cette surface seront copiés en aveugle vers l&#39;adresse email en Cci que vous avez saisie. De là, ils peuvent être traités et archivés à l’aide d’un système externe.
 
 >[!CAUTION]
 >
->Votre utilisation de la fonctionnalité Cci sera décomptée en fonction du nombre de messages pour lesquels vous disposez d’une licence. Par conséquent, activez-la uniquement dans les préréglages utilisés pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
+>Votre utilisation de la fonctionnalité Cci sera décomptée en fonction du nombre de messages pour lesquels vous disposez d’une licence. Par conséquent, activez-la uniquement sur les surfaces utilisées pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
 
-Le paramètre d’adresse e-mail en Cci est immédiatement enregistré et traité au niveau du préréglage. Lorsque vous [créez un message](../messages/get-started-content.md#create-new-message) avec ce préréglage, l&#39;adresse email en Cci s&#39;affiche automatiquement.
+Le paramètre d’adresse email en Cci est immédiatement enregistré et traité au niveau de la surface. Lorsque vous [créer un message](../messages/get-started-content.md#create-new-message) avec cette surface, l&#39;adresse email en Cci s&#39;affiche automatiquement.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communication
 
 >[!NOTE]
 >
->Vous n’avez pas besoin de republier un message ou un parcours pour que le paramètre Cci soit sélectionné.
+>Vous n’avez pas besoin de republier votre parcours pour que le paramètre Cci soit sélectionné.
 
 ## Recommandations et limitations {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communication
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* N’ouvrez pas et ne cliquez pas sur les e-mails envoyés à l’adresse en Cci, car cela est pris en compte dans le nombre total d’ouvertures et de clics de l’analyse d’envoi, ce qui peut entraîner des erreurs de calcul dans les [rapports](../reports/message-monitoring.md).
+* N’ouvrez pas et ne cliquez pas sur les e-mails envoyés à l’adresse en Cci, car cela est pris en compte dans le nombre total d’ouvertures et de clics de l’analyse d’envoi, ce qui peut entraîner des erreurs de calcul dans les [rapports](../reports/global-report.md).
 
 * Ne marquez pas les messages comme spam dans la boîte de réception en Cci, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
 

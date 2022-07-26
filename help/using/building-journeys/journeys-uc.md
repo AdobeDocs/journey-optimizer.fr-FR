@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,6 @@ Pour que ce cas d&#39;utilisation fonctionne, vous devez configurer les élémen
 
 * un segment pour tous les clients qui habitent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
 * un événement d&#39;achat
-* trois messages
 
 ### Création du segment
 
@@ -81,29 +80,17 @@ Pour cela, nous utilisons un événement basé sur des règles. Pour plus d&#39;
 
 L&#39;événement maintenant configuré et prêt à être utilisé dans votre parcours. À l&#39;aide de l&#39;activité d&#39;événement correspondante, vous pouvez déclencher une action chaque fois qu&#39;un client effectue un achat.
 
-### Créer les messages
-
-Pour ce cas d&#39;utilisation, nous devons créer trois messages :
-
-* un premier message push et email
-* un message de remerciement push
-* un email de relance
-
-![](assets/jo-uc3.png)
-
-Consultez cette [section](../segment/about-segments.md) pour savoir comment concevoir et publier ces messages.
-
 ## Concevoir le parcours
 
 1. Débutez le parcours avec une activité **Lecture de segment**. Sélectionnez le segment créé précédemment. Tous les individus appartenant au segment rejoignent le parcours.
 
    ![](assets/jo-uc4.png)
 
-1. Déposez une activité **Message** et sélectionnez le premier message push et email. Ce message est envoyé à tous individus dans le parcours.
+1. Déposer une **Email** activité d&#39;action et définir le contenu du &quot;premier message&quot;. Ce message est envoyé à tous individus dans le parcours. Consultez cette section [section](../messages/create-email.md) pour savoir comment configurer et concevoir un email.
 
    ![](assets/jo-uc5.png)
 
-1. Placez votre curseur sur l&#39;activité du message et cliquez sur le symbole « + » pour créer un nouveau chemin.
+1. Positionnez-vous sur l&#39;activité email et cliquez sur le symbole &quot;+&quot; pour créer un nouveau chemin.
 
 1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L&#39;événement est déclenché lorsqu&#39;un individu appartenant au segment ouvre la version push du premier message.
 
@@ -115,11 +102,11 @@ Consultez cette [section](../segment/about-segments.md) pour savoir comment conc
    >
    >Lors de la configuration d&#39;une temporisation sur plusieurs événements (les deux réactions dans ce cas), il vous suffit de configurer la temporisation sur l&#39;un de ces événements.
 
-1. Dans l&#39;itinéraire de temporisation, déposez une activité **Message** et sélectionnez l&#39;email de relance. Ce message est envoyé aux individus qui n&#39;ouvrent pas le premier email ou la première notification push le lendemain.
+1. Dans le chemin d’accès au délai d’expiration, déposez une **Email** activité d&#39;action et définir le contenu du message &quot;relance&quot;. Ce message est envoyé aux individus qui n&#39;ouvrent pas le premier email ou la première notification push le lendemain. Consultez cette section [section](../messages/create-email.md) pour savoir comment configurer et concevoir un email.
 
 1. Connectez les trois chemins à l&#39;événement d&#39;achat créé précédemment. L&#39;événement est déclenché lorsqu&#39;un individu effectue un achat.
 
-1. Après l&#39;événement, déposez une activité **Message** et sélectionnez le message de remerciement.
+1. Après l’événement, déposez une **Push** activité d’action et définir le contenu du message &quot;merci&quot;. Consultez cette section [section](../messages/create-push.md) pour savoir comment configurer et concevoir une notification push.
 
 ## Tester et publier le parcours
 

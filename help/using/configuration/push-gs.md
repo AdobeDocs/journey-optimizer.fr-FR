@@ -6,18 +6,18 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 94%
 
 ---
 
 # Commencer la configuration de notifications push {#get-started-push}
 
-Cette page vous aidera à configurer et à comprendre les services et les processus clés impliqués dans les notifications push dans [!DNL Journey Optimizer]. Apprenez dans [cette page](../messages/create-push.md) à créer des notifications push.
+Cette page vous aidera à configurer et à comprendre les services et les processus clés impliqués dans les notifications push dans [!DNL Journey Optimizer]. Découvrez comment créer des notifications push sur [cette page](../messages/create-push.md).
 
-Les étapes de configuration du canal push dans [!DNL Adobe Journey Optimizer] sont présentées sur [cette page](push-configuration.md).
+Étapes de configuration du canal push dans [!DNL Adobe Journey Optimizer] sont détaillées sur [cette page](push-configuration.md).
 
 ## Notifications push et [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
@@ -28,7 +28,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 1. Enregistrement de votre application mobile de marque (Android ou iOS) auprès d&#39;APNs d&#39;Apple et des services de messagerie push Google FCM
 1. Les services de messagerie génèrent un jeton push, qui est un identifiant qu’utilisera [!DNL Adobe Journey Optimizer] pour cibler l’appareil spécifique avec une notification push.
 1. Le jeton push généré précédemment est transmis à Adobe Experience Platform et synchronisé avec le profil client en temps réel. Cette opération est effectuée en standard avec un SDK client facile à intégrer.
-1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer] ; ils sont créés selon un préréglage de message.
+1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer], les messages push sont créés sur une surface de canal (c’est-à-dire un paramètre prédéfini de message).
 1. Les messages push peuvent être inclus dans la zone de travail d&#39;orchestration des parcours.
 1. Lors de la publication des parcours, les profils client basés sur les conditions des parcours sont qualifiés pour recevoir des notifications push. Les payloads de messagerie push sont personnalisées à cette étape.
 1. Les payloads push personnalisées sont transférées vers un service de diffusion de messagerie push interne.

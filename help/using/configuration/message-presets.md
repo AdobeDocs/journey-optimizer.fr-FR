@@ -1,47 +1,47 @@
 ---
-title: Configuration des préréglages de message
-description: Découvrez comment configurer et surveiller les préréglages de message
+title: Configuration des surfaces de canal
+description: Découvrez comment configurer et surveiller les surfaces des canaux
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
-source-wordcount: '1537'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 44%
 
 ---
 
-# Configuration des préréglages de message {#message-presets-creation}
+# Configuration des surfaces de canal {#message-presets-creation}
 
-Avec [!DNL Journey Optimizer], vous pouvez configurer des préréglages de message qui définissent tous les paramètres techniques requis pour les messages de notification par e-mail et push : type d&#39;e-mail, nom et adresse e-mail de l&#39;expéditeur, applications mobiles, etc.
+Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type de courrier électronique, nom et adresse électronique de l’expéditeur, applications mobiles, etc.
 
 >[!CAUTION]
 >
-> * Pour créer, modifier et supprimer des préréglages de message, vous devez disposer de l’autorisation [Gestion des préréglages de message](../administration/high-low-permissions.md#manage-message-presets).
+> * Pour créer, modifier et supprimer des surfaces de canal, vous devez disposer de la variable [Gérer la surface du canal](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * Vous devez effectuer les étapes de [configuration du canal e-mail](#configure-email-settings) et de [configuration Push](../configuration/push-configuration.md) avant de créer des préréglages de message.
+> * Vous devez effectuer les opérations suivantes : [Configuration des emails](#configure-email-settings), [Configuration push](../configuration/push-configuration.md) et [Configuration des SMS](../configuration/sms-configuration.md) étapes avant de créer des surfaces de canal.
 
 
-Une fois les préréglages de message configurés, vous pourrez les sélectionner dans la liste **[!UICONTROL Préréglages]** lors de la création de messages.
+Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours.
 
-➡️ [Découvrez comment créer et utiliser des préréglages d’e-mail dans cette vidéo](#video-presets)
+➡️ [Découvrez comment créer et utiliser des surfaces d&#39;email dans cette vidéo](#video-presets)
 
-## Création d&#39;un préréglage de message {#create-message-preset}
+## Création d’une surface de canal {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Détails et paramètres du préréglage de message"
->abstract="En configurant un préréglage de message, vous pouvez sélectionner le canal auquel il s’applique et définir tous les paramètres techniques requis pour vos messages, tels que le type d’e-mail, le sous-domaine à utiliser, le nom de l’expéditeur, les applications mobiles, etc."
+>title="Détails et paramètres de la surface du canal"
+>abstract="En configurant la surface d&#39;un canal, vous pouvez sélectionner le canal auquel il s&#39;applique et définir tous les paramètres techniques requis pour vos diffusions, tels que le type d&#39;email, le sous-domaine à utiliser, le nom de l&#39;expéditeur, les applications mobiles, etc."
 
-Pour créer un préréglage de message, procédez comme suit :
+Pour créer une surface de canal, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Marques]**/**[!UICONTROL Préréglages de message]**, puis cliquez sur **[!UICONTROL Créer un préréglage de message]**. 
+1. Accédez au **[!UICONTROL Canaux]** > **[!UICONTROL Marques]** > **[!UICONTROL Surfaces des canaux]** , puis cliquez sur **[!UICONTROL Créer la surface du canal]**.
 
    ![](assets/preset-create.png)
 
-1. Saisissez un nom et une description (facultatif) pour le préréglage, puis sélectionnez le ou les canaux à configurer.
+1. Saisissez un nom et une description (facultatif) pour la surface, puis sélectionnez le ou les canaux à configurer.
 
    ![](assets/preset-general.png)
 
@@ -69,17 +69,17 @@ Pour créer un préréglage de message, procédez comme suit :
    >
    >Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](sms-configuration.md).
 
-1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa configuration ultérieurement.
+1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer la surface du canal en tant que version préliminaire et reprendre sa configuration ultérieurement.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas poursuivre la création du préréglage lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](ip-pools.md#edit-ip-pool) (statut **[!UICONTROL Traitement en cours]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](#subdomains-and-ip-pools)
+   >Vous ne pouvez pas poursuivre la création de surface lorsque le pool IP sélectionné se trouve sous [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Traitement]** (status) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](#subdomains-and-ip-pools)
    >
-   >Enregistrez le préréglage en tant que brouillon et attendez que le groupe d’adresses IP ait le statut **[!UICONTROL Succès]** pour reprendre la création du préréglage.
+   >Enregistrez la surface en tant que brouillon et attendez que le pool IP ait la propriété **[!UICONTROL Succès]** pour reprendre la création de surface.
 
-1. Une fois le préréglage de message créé, il s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
+1. Une fois la surface du canal créée, elle s’affiche dans la liste avec le **[!UICONTROL Traitement]** statut.
 
    Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu&#39;il a été correctement configuré. Le temps de traitement est d’environ **48 h à 72 h** et peut prendre jusqu’à **7 à 10 jours ouvrables**. 
 
@@ -97,26 +97,25 @@ Pour créer un préréglage de message, procédez comme suit :
    >
    >Si les vérifications ne réussissent pas, découvrez les raisons possibles de l’échec dans [cette section](#monitor-message-presets).
 
-1. Une fois les vérifications effectuées, le préréglage de message obtient le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé pour diffuser des messages.
+1. Une fois les vérifications effectuées, la surface du canal reçoit la valeur **[!UICONTROL Principal]** statut. Il est prêt à être utilisé pour diffuser des messages.
 
    ![](assets/preset-active.png)
 
-## Surveiller les préréglages de message {#monitor-message-presets}
+## Surveiller les surfaces des canaux {#monitor-message-presets}
 
-Tous vos préréglages de message s’affichent dans le menu **[!UICONTROL Canaux]**/**[!UICONTROL Préréglages de message]**. Des filtres sont disponibles pour vous aider à parcourir la liste (type de canal, utilisateur et statut).
+Toutes les surfaces de vos canaux s’affichent dans la **[!UICONTROL Canaux]** > **[!UICONTROL Surfaces des canaux]** . Des filtres sont disponibles pour vous aider à parcourir la liste (canal, utilisateur, statut).
 
 ![](assets/preset-filters.png)
 
-Une fois créés, les préréglages de message peuvent avoir les statuts suivants :
+Une fois créées, les surfaces des canaux peuvent avoir les états suivants :
 
-* **[!UICONTROL Brouillon]** : le préréglage de message a été enregistré en tant que brouillon et n&#39;a pas encore été envoyé.
-Ouvrez-le pour reprendre la configuration.
-* **[!UICONTROL Traitement]** : le préréglage de message a été envoyé et passe par plusieurs étapes de vérification.
-* **[!UICONTROL Actif]** : le préréglage de message a été vérifié et peut être sélectionné pour créer des messages.
-* **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification du préréglage de message.
-* **[!UICONTROL Désactivé]** : le préréglage de message est désactivé. Il ne peut pas être utilisé pour créer de nouveaux messages. 
+* **[!UICONTROL Version préliminaire]**: La surface du canal a été enregistrée en tant que brouillon et n’a pas encore été envoyée. Ouvrez-le pour reprendre la configuration.
+* **[!UICONTROL Traitement]**: La surface du canal a été envoyée et passe par plusieurs étapes de vérification.
+* **[!UICONTROL Principal]**: La surface du canal a été vérifiée et peut être sélectionnée pour créer les messages.
+* **[!UICONTROL En échec]**: Une ou plusieurs vérifications ont échoué lors de la vérification de la surface du canal.
+* **[!UICONTROL Désactivé]**: La surface du canal est désactivée. Il ne peut pas être utilisé pour créer de nouveaux messages. 
 
-En cas d’échec de la création d’un préréglage de message, les détails de chaque raison d’échec possible sont décrits ci-dessous.
+En cas d’échec de la création de surface d’un canal, les détails sur chaque raison d’échec possible sont décrits ci-dessous.
 
 Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
 
@@ -129,18 +128,18 @@ Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’A
 * **Échec des configurations de délivrabilité** : l’échec des configurations de délivrabilité peut être dû à l’une des raisons suivantes :
    * Placement sur liste bloquée des adresses IP allouées
    * Nom `helo` non valide
-   * E-mails envoyés à partir d’adresses IP autres que celles spécifiées dans le groupe d’adresses IP du préréglage correspondant
+   * Emails envoyés à partir d’adresses IP autres que celles spécifiées dans le pool IP de la surface correspondante
    * Impossibilité de diffuser des e-mails vers les boîtes de réception des principaux FAI tels que Gmail et Yahoo
 
-## Modification d’un préréglage de message {#edit-message-preset}
+## Modification de la surface d’un canal {#edit-message-preset}
 
-Pour modifier un préréglage de message, procédez comme suit. 
+Pour modifier la surface d’un canal, procédez comme suit.
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier les **[!UICONTROL Paramètres des notifications push]**. Si un préréglage de message est uniquement configuré pour le canal Notification push, il n’est pas modifiable. 
+>Vous ne pouvez pas modifier les **[!UICONTROL Paramètres des notifications push]**. Si la surface d&#39;un canal n&#39;est configurée que pour le canal Notification push, elle n&#39;est pas modifiable.
 
-1. Dans la liste, cliquez sur le nom d’un préréglage de message pour l’ouvrir. 
+1. Dans la liste, cliquez sur le nom d’une surface de canal pour l’ouvrir.
 
    ![](assets/preset-name.png)
 
@@ -148,7 +147,7 @@ Pour modifier un préréglage de message, procédez comme suit.
 
    >[!NOTE]
    >
-   >Si un préréglage de message affiche le statut **[!UICONTROL Principal]**, les champs **[!UICONTROL Nom]**, **[!UICONTROL Sélectionner le canal]** et **[!UICONTROL Sous-domaine]** sont grisés et ne peuvent pas être modifiés. 
+   >Si la surface d’un canal contient la propriété **[!UICONTROL Principal]** le statut, **[!UICONTROL Nom]**, **[!UICONTROL Sélectionner le canal]** et **[!UICONTROL Subdomain]** Les champs sont grisés et ne peuvent pas être modifiés.
 
 1. Cliquez sur **[!UICONTROL Soumettre]** pour confirmer vos modifications.
 
@@ -156,9 +155,9 @@ Pour modifier un préréglage de message, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous pouvez également enregistrer le préréglage de message en tant que brouillon et reprendre sa mise à jour ultérieurement. 
+   >Vous pouvez également enregistrer la surface du canal en tant que brouillon et reprendre la mise à jour ultérieurement.
 
-Une fois les modifications soumises, le préréglage de message passera par un cycle de validation similaire à celui mis en place lors de la [création d’un préréglage](#create-message-preset). Le temps de traitement des modifications peut prendre jusqu’à **3 heures**.
+Une fois les modifications envoyées, la surface du canal passe par un cycle de validation similaire à celui en place lorsque [création d’une surface de canal](#create-message-preset). Le temps de traitement des modifications peut prendre jusqu’à **3 heures**.
 
 >[!NOTE]
 >
@@ -166,15 +165,13 @@ Une fois les modifications soumises, le préréglage de message passera par un c
 
 ### Détails de la mise à jour {#update-details}
 
-Pour les préréglages de message affichant le statut **[!UICONTROL Actif]**, vous pouvez vérifier les détails de la mise à jour. Pour ce faire :
+Pour les surfaces de canal qui ont la propriété **[!UICONTROL Principal]** , vous pouvez vérifier les détails de la mise à jour. Pour ce faire :
 
-* Cliquez sur l’icône **[!UICONTROL Mise à jour récente]** qui s’affiche en regard du nom du préréglage actif. 
+Cliquez sur le bouton **[!UICONTROL Mise à jour récente]** qui s’affiche en regard du nom principal de la surface.
 
-   ![](assets/preset-recent-update-icon.png)
+![](assets/preset-recent-update-icon.png)
 
-* Vous pouvez également accéder aux détails de la mise à jour à partir d’un préréglage de message actif pendant que la mise à jour est en cours. 
-
-   ![](assets/preset-view-update-details.png)
+<!--You can also access the update details from an active channel surface while update is in progress.-->
 
 Sur l’écran **[!UICONTROL Mise à jour récente]**, vous pouvez voir des informations telles que le statut de la mise à jour et la liste des modifications demandées. 
 
@@ -182,17 +179,17 @@ Sur l’écran **[!UICONTROL Mise à jour récente]**, vous pouvez voir des info
 
 ### Statuts de mise à jour {#update-statuses}
 
-Une mise à jour de préréglage de message peut afficher les statuts suivants :
+Une mise à jour de surface de canal peut avoir les états suivants :
 
-* **[!UICONTROL Traitement]** : la mise à jour de préréglage du message a été soumise et passe par plusieurs étapes de vérification. 
-* **[!UICONTROL Réussite]** : le préréglage de message mis à jour a été vérifié et peut être sélectionné pour créer des messages. 
-* **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification de la mise à jour de préréglage du message. 
+* **[!UICONTROL Traitement]**: La mise à jour de la surface du canal a été envoyée et passe par plusieurs étapes de vérification.
+* **[!UICONTROL Succès]**: La surface du canal mise à jour a été vérifiée et peut être sélectionnée pour créer les messages.
+* **[!UICONTROL En échec]**: Une ou plusieurs vérifications ont échoué lors de la vérification de la mise à jour de la surface du canal.
 
 Chaque statut est présenté ci-dessous.
 
 #### En cours de traitement
 
-Plusieurs contrôles de délivrabilité seront effectués pour vérifier que le préréglage a été correctement mis à jour. 
+Plusieurs contrôles de délivrabilité seront effectués pour vérifier que la surface a été correctement mise à jour.
 
 >[!NOTE]
 >
@@ -200,43 +197,43 @@ Plusieurs contrôles de délivrabilité seront effectués pour vérifier que le 
 
 Le temps de traitement peut prendre jusqu’à **3 heures**. En savoir plus sur les contrôles effectués lors du cycle de validation dans [cette section](#create-message-preset).
 
-Si vous modifiez un préréglage qui était déjà actif :
+Si vous éditez une surface déjà principale :
 
 * Son statut reste **[!UICONTROL Actif]** pendant que le processus de validation est en cours. 
 
-* L’icône **[!UICONTROL Mise à jour récente]** s’affiche en regard du nom du préréglage dans la liste des préréglages de message. 
+* Le **[!UICONTROL Mise à jour récente]** s’affiche en regard du nom de la surface dans la liste des surfaces du canal.
 
-* Pendant le processus de validation, les messages configurés à l’aide de ce préréglage utilisent toujours l’ancienne version du préréglage. 
+* Pendant le processus de validation, les messages configurés à l&#39;aide de cette surface utilisent toujours l&#39;ancienne version de la surface.
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier un préréglage de message pendant que la mise à jour est en cours. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi. 
+>Vous ne pouvez pas modifier la surface d’un canal pendant la mise à jour. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi. 
 
 #### Réussite {#success}
 
-Une fois le processus de validation réussi, la nouvelle version du préréglage est automatiquement utilisée dans tous les messages utilisant ce préréglage. Cependant, vous devrez peut-être attendre :
+Une fois le processus de validation réussi, la nouvelle version de la surface est automatiquement utilisée dans tous les messages utilisant cette surface. Cependant, vous devrez peut-être attendre :
 * quelques minutes avant qu’il soit consommé par les messages unitaires, 
-* jusqu’au lot suivant pour que le préréglage soit effectif dans les messages par lots. 
+* jusqu’au lot suivant pour que la surface soit effective dans les messages par lots.
 
 #### Échec {#failed}
 
-Si le processus de validation échoue, l’ancienne version du préréglage sera toujours utilisée. 
+Si le processus de validation échoue, l’ancienne version de la surface est toujours utilisée.
 
 Pour en savoir plus sur les causes possibles d’échec, consultez [cette section](#monitor-message-presets). 
 
-En cas d’échec de la mise à jour, le préréglage est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à jour les paramètres à corriger. 
+En cas d’échec de la mise à jour, la surface est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à jour les paramètres à corriger. 
 
-## Désactivation d’un préréglage de message {#deactivate-preset}
+## Désactivation de la surface d’un canal {#deactivate-preset}
 
-Pour empêcher la création de nouveaux messages à partir d’un préréglage de message **[!UICONTROL actif]**, vous pouvez le désactiver. Toutefois, les messages publiés utilisant ce préréglage ne seront pas affectés et continueront à fonctionner. 
+Pour créer un **[!UICONTROL Principal]** la surface du canal n’est pas disponible pour créer de nouveaux messages, vous pouvez la désactiver. Toutefois, les messages des parcours qui utilisent actuellement cette surface ne seront pas affectés et continueront à fonctionner.
 
 >[!NOTE]
 >
->Vous ne pouvez pas désactiver un préréglage de message pendant qu’une mise à jour est en cours. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des préréglages de message](#edit-message-preset) et sur les [status de mise à jour](#update-statuses). 
+>Vous ne pouvez pas désactiver la surface d’un canal pendant le traitement d’une mise à jour. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur [modification des surfaces des canaux](#edit-message-preset) et sur le [mettre à jour les états](#update-statuses).
 
-1. Accédez à la liste des préréglages de message. 
+1. Accédez à la liste des surfaces de canal.
 
-1. Pour le préréglage actif de votre choix, cliquez sur le bouton **[!UICONTROL Plus d’actions]**.
+1. Pour la principale surface de votre choix, cliquez sur le bouton **[!UICONTROL Autres actions]** bouton .
 
 1. Sélectionnez **[!UICONTROL Désactiver]**.
 
@@ -244,14 +241,14 @@ Pour empêcher la création de nouveaux messages à partir d’un préréglage d
 
 >[!NOTE]
 >
->Les préréglages de message désactivés ne peuvent pas être supprimés afin d’éviter tout problème dans les parcours les utilisant pour envoyer des messages. 
+>Les surfaces de canal désactivées ne peuvent pas être supprimées pour éviter tout problème dans les parcours utilisant ces surfaces pour envoyer des messages.
 
-Vous ne pouvez pas modifier directement un préréglage de message désactivé. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier. 
+Vous ne pouvez pas modifier directement la surface d’un canal désactivé. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier. 
 
 ![](assets/preset-activate.png)
 
 ## Vidéo pratique{#video-presets}
 
-Découvrez comment créer des préréglages de message et les utiliser. Apprenez également comment déléguer un sous-domaine et créer un pool d’adresses IP.
+Découvrez comment créer des surfaces de canal, comment les utiliser et comment déléguer un sous-domaine et créer un pool d’adresses IP.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

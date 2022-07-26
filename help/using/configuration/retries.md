@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ La **période de reprise** est la période pendant laquelle tout message électr
 
 Par défaut, les reprises seront effectuées pendant **3,5 jours** (ou **84 heures**) à partir du moment où le message a été ajouté à la file d’attente des e-mails.
 
-Cependant, pour vous assurer que les tentatives de reprise ne sont plus effectuées lorsque cela n’est plus nécessaire, vous pouvez modifier ce paramètre en fonction de vos besoins lors de la création ou de la modification d’un [préréglage de message](message-presets.md) s’appliquant au canal e-mail.
+Cependant, pour vous assurer que les tentatives de reprise ne sont plus exécutées lorsqu’elles ne sont plus nécessaires, vous pouvez modifier ce paramètre en fonction de vos besoins lors de la création ou de la modification d’un [surface du canal](message-presets.md) (c’est-à-dire le paramètre prédéfini du message) s’appliquant au canal email.
 
 Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un e-mail transactionnel relatif à la réinitialisation du mot de passe et contenant un lien valide seulement pendant une journée. De même, pour une vente à minuit, vous pouvez définir une période de reprise de 6 heures.
 
@@ -61,5 +61,5 @@ Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un 
 >
 >La période de reprise ne peut pas dépasser 84 heures. La période de reprise minimale est de 6 heures pour les e-mails marketing et de 10 minutes pour les e-mails transactionnels.
 
-Découvrez comment ajuster les paramètres de reprise d’e-mail lors de la création d’un préréglage de message dans [cette section](message-presets.md#create-message-preset).
+Découvrez comment ajuster les paramètres de reprise d’email lors de la création d’une surface de canal dans [cette section](message-presets.md#create-message-preset).
 

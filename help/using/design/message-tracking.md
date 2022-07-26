@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et sui
 
 ## Activation du suivi {#enable-tracking}
 
-Vous pouvez activer le suivi au niveau des messages électroniques en cochant les options **[!UICONTROL Suivi des ouvertures pour les e-mails]** et/ou **[!UICONTROL Suivi des clics pour les e-mails]** lorsque vous [créez votre message](../messages/get-started-content.md).
+Vous pouvez activer le tracking au niveau des emails en cochant la case **[!UICONTROL Ouverture d’email]** et/ou **[!UICONTROL Clic sur l’email]** options lorsque [création de votre message](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Vous pouvez activer le suivi au niveau des messages électroniques en cochant le
 
 Vous pourrez ainsi suivre le comportement de vos destinataires via :
 
-* **[!UICONTROL Suivi des ouvertures pour les e-mails]** : messages ouverts.
-* **[!UICONTROL Suivi des clics pour les e-mails]** : clics sur les liens d&#39;un e-mail.
+* **[!UICONTROL Ouverture d’email]**: Messages ouverts.
+* **[!UICONTROL Clic sur l’email]**: Clics sur les liens d’un email.
 
 ## Insertion de liens {#insert-links}
 
@@ -75,7 +75,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un [lien d’exclusion](../messages/consent.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au [niveau du préréglage de message](../configuration/message-presets.md#email-type) et lors de la [création du message](../messages/get-started-content.md#create-new-message).
+>Les e-mails de type marketing doivent inclure un [lien d’exclusion](../messages/consent.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [surface du canal](../configuration/message-presets.md#email-type) niveau et à quel moment [création du message](../messages/get-started-content.md#create-new-message).
 
 ## Lien vers une page miroir {#mirror-page}
 
@@ -122,6 +122,4 @@ Le [Concepteur d&#39;e-mail](create-email-content.md) permet de gérer les URL s
    * **[!UICONTROL Page miroir]** : considère cette URL comme une URL de page miroir.
    * **[!UICONTROL Jamais]** : n&#39;active jamais le suivi de cette URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Le nombre de messages ayant été ouverts et le nombre de liens ayant fait l&#39;objet d&#39;un clic sont répertoriés dans l&#39;onglet [Exécutions](../reports/message-monitoring.md).
-
-La création de rapports sur les ouvertures et les clics est disponible dans le [rapport dynamique sur les e-mails](../reports/email-live-report.md) et dans le [Rapport global sur les e-mails](../reports/email-global-report.md).
+Les rapports sur les ouvertures et les clics sont disponibles dans la [Rapport en direct](../reports/live-report.md) et dans le [Rapport global](../reports/global-report.md).

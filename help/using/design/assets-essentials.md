@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
@@ -87,4 +87,3 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 
    ![](assets/media_library_13.png)
 
-Une fois votre message créé et personnalisé, vous pouvez le publier pour le rendre disponible pour exécution. [En savoir plus](../messages/publish-manage-message.md)

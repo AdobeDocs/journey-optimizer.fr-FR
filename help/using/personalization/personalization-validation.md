@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '311'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Mécanismes de validation {#validation-mechanisms}
 
-Dans l&#39;écran **Éditeur d&#39;expression**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
+Dans le **Editeur d&#39;expression** , utilisez la méthode **Valider** pour vérifier votre syntaxe de personnalisation.
 
 >[!NOTE]
 > La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
@@ -75,7 +75,7 @@ Les erreurs liées à l’intégration des offres dans un email ou une notificat
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-La validation est effectuée pendant la publication du message ou pendant la validation du contenu de personnalisation dans l’éditeur d’expression.
+La validation est effectuée lors de la validation du contenu de personnalisation dans l’éditeur d’expression.
 
 <table> 
  <thead> 

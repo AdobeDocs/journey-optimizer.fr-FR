@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 98%
+source-wordcount: '1079'
+ht-degree: 90%
 
 ---
 
 # Prévisualiser et tester vos messages{#preview-and-proof}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré [contenu personnalisé](../personalization/personalize.md), vous pouvez vérifier l’affichage de ce contenu dans le message en exploitant les données de profil de test.
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
 
 Pour détecter d&#39;éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT pour tester les profils. Un BAT doit être envoyé chaque fois qu&#39;une modification est apportée afin de valider le contenu le plus récent.
 
@@ -38,7 +38,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 >
 >Lors de la prévisualisation d&#39;un message ou de l&#39;envoi de BAT, seules les données de personnalisation de profil s&#39;affichent. La personnalisation basée sur les données contextuelles, telles que les informations d&#39;événement, ne peut être testée que dans le contexte d&#39;un parcours. Découvrez comment tester la personnalisation dans [ce cas d&#39;utilisation](../personalization/personalization-use-case.md).
 
-➡️ [Découvrez comment prévisualiser, tester et publier votre e-mail dans cette vidéo](#video-preview)
+➡️ [Découvrez comment prévisualiser et tester votre email dans cette vidéo](#video-preview)
 
 ## Sélectionner des profils de test{#select-test-profiles}
 
@@ -53,7 +53,7 @@ Utilisez des [profils de test](../segment/creating-test-profiles.md) pour cibler
 
 Pour sélectionner des profils de test, procédez comme suit :
 
-1. Dans l&#39;interface de messagerie ou dans le concepteur d&#39;e-mail, cliquez sur le bouton **[!UICONTROL Afficher l&#39;aperçu]** pour accéder à la sélection du profil de test.
+1. Dans l’interface de messagerie ou dans le Concepteur d’email, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour accéder à la sélection du profil de test.
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ Pour sélectionner des profils de test, procédez comme suit :
 
    ![](assets/preview-email-namespace.png)
 
-1. Saisissez la valeur permettant d&#39;identifier le profil de test et cliquez sur **[!UICONTROL Rechercher le profil de test]**.
+1. Saisissez la valeur pour identifier le profil de test et cliquez sur **[!UICONTROL Ajouter un profil]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ Pour sélectionner des profils de test, procédez comme suit :
 
 Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouvez prévisualiser vos messages et vérifier le contenu.
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** pour tester votre message.
+### Email preview{#preview-email}
+
+Pour prévisualiser le contenu d&#39;un email, procédez comme suit :
+
+1. Cliquez sur le bouton **[!UICONTROL Simulation du contenu]** au-dessus du contenu de l&#39;email.
 
 1. Sélectionnez un profil de test. Vous pouvez vérifier les valeurs disponibles dans les colonnes. Utilisez les flèches droite/gauche pour parcourir les données.
 
@@ -103,11 +107,15 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
 1. Sélectionnez d&#39;autres profils de test pour prévisualiser le rendu des e-mails pour chaque variante de votre message.
 
-Pour une prévisualisation de notification push :
+### Aperçu push{#preview-push}
 
-1. Passez au canal **[!UICONTROL push]** à partir de la liste déroulante **[!UICONTROL Canaux]** située en haut à droite de l&#39;écran **[!UICONTROL Prévisualisation]**.
+Pour prévisualiser le contenu d&#39;une notification push, procédez comme suit :
 
-   ![](assets/preview-select-channel.png)
+1. Cliquez sur le bouton **[!UICONTROL Simulation du contenu]** au-dessus du contenu push.
+
+1. Sélectionnez un profil de test. Vous pouvez vérifier les valeurs disponibles dans les colonnes. Utilisez les flèches droite/gauche pour parcourir les données.
+
+1. Basculez vers le **[!UICONTROL Push]** message.
 
 1. Appliquez les mêmes étapes que celles décrites ci-dessus pour sélectionner un profil de test et sélectionnez le type de périphérique pour prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**. 
 
@@ -188,6 +196,6 @@ Suivez ensuite les étapes ci-dessous :
 
 ## Vidéo pratique{#video-preview}
 
-Découvrez comment tester le rendu des e-mails dans les boîtes de réception, prévisualiser vos e-mails personnalisés par rapport aux profils de test, envoyer des bons à tirer et publier votre e-mail.
+Découvrez comment tester le rendu des emails dans les boîtes de réception, comment prévisualiser vos emails personnalisés par rapport aux profils de test et envoyer des bons à tirer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

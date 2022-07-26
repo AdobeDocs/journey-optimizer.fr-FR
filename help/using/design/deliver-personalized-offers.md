@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 86%
 
 ---
 
 # Ajout d&#39;offres personnalisées {#deliver-personalized-offers}
 
-Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de décision d’offre afin de sélectionner la meilleure offre à proposer à vos clients.
+Dans [!DNL Journey Optimizer] Par e-mail, vous pouvez insérer des décisions qui exploiteront le moteur de décision d’offre afin de choisir la meilleure offre à diffuser à vos clients.
 
 Par exemple, vous pouvez ajouter une décision qui affichera dans votre email une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 
@@ -59,11 +59,11 @@ Pour insérer une décision dans un email, procédez comme suit :
 
 L&#39;activité d&#39;offre est alors ajoutée au composant.
 
-Une fois vos modifications enregistrées et le message publié, vos offres sont prêtes à être affichées pour les profils pertinents lors de l&#39;envoi du message dans le cadre d&#39;un parcours.
+Une fois vos modifications enregistrées, vos offres sont prêtes à être affichées pour les profils pertinents lors de l’envoi du message dans le cadre d’un parcours.
 
 >[!NOTE]
 >
->La mise à jour dʼune offre, dʼune offre de secours, dʼune collection d’offres ou dʼune décision d’offre, directement ou indirectement référencée dans un message publié, est automatiquement répercutée dans le message correspondant, sans quʼil soit nécessaire de le republier.
+>Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre directement ou indirectement référencée dans un message, les mises à jour sont automatiquement répercutées dans le message correspondant.
 
 ## Prévisualisation des offres dans un e-mail {#preview-offers-in-email}
 

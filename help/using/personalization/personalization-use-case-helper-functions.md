@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 97%
 
 ---
 
@@ -28,22 +28,38 @@ Vous utiliserez ces types de fonctions helper :
 ➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
 
 Avant de commencer, vérifiez que vous savez comment configurer ces éléments :
-* Un message e-mail. [En savoir plus](../messages/get-started-content.md)
-* Le corps d’un email. [En savoir plus](../design/create-email-content.md).
+
 * Un événement unitaire. [En savoir plus](../event/about-events.md).
 * Un parcours commençant par un événement. [En savoir plus](../building-journeys/using-the-journey-designer.md).
+* Un email dans votre parcours. [En savoir plus](../messages/get-started-content.md)
+* Le corps d’un email. [En savoir plus](../design/create-email-content.md).
 
 Procédez de la façon suivante :
+
+1. [Créer l’événement initial et le parcours](#create-context).
 1. [Créer un message e-mail](#configure-email).
 1. [Insérer le prénom du client en majuscules](#uppercase-function).
-1. [Créer l’événement initial et le parcours](#create-context).
 1. [Ajouter le contenu du panier à l’e-mail](#each-helper).
 1. [Insérer une note spécifique au produit.](#if-helper)
 1. [Tester et publier le parcours](#test-and-publish).
 
-## Étape 1 : créer l’e-mail{#configure-email}
+## Étape 1 : créer l’événement initial et le parcours associé {#create-context}
 
-1. Créez ou modifiez un e-mail, puis cliquez sur **[!UICONTROL Concepteur d’email]**.
+Le contenu du panier est une information contextuelle provenant du parcours. Par conséquent, vous devez ajouter un événement initial et l’e-mail à un parcours avant de pouvoir ajouter des informations spécifiques au panier à l’e-mail.
+
+1. Créez un événement dont le schéma inclut le tableau `productListItems`.
+1. Définissez tous les champs de ce tableau comme champs de payload pour cet événement.
+
+   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target=&quot;_blank&quot;}.
+
+1. Créez un parcours commençant par cet événement.
+1. Ajoutez un **Email** à l’parcours.
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## Étape 2 : créer l’e-mail{#configure-email}
+
+1. Dans le **Email** activité, cliquez sur **[!UICONTROL Modifier le contenu]**, puis cliquez sur **[!UICONTROL Concepteur d&#39;email]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Dans la palette gauche de la page d&#39;accueil du Concepteur d&#39;email, effectuez un glisser-déposer de trois composants de structure dans le corps du message.
@@ -52,7 +68,7 @@ Procédez de la façon suivante :
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Étape 2 : insérer le prénom du client en majuscules {#uppercase-function}
+## Étape 3 : insérer le prénom du client en majuscules {#uppercase-function}
 
 1. Sur la page d’accueil du Concepteur d’email, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
@@ -93,33 +109,9 @@ Procédez de la façon suivante :
    ![](assets/personalization-uc-helpers-6.png)
 1. Enregistrez le message.
 
-## Étape 3 : créer l’événement initial et le parcours associé {#create-context}
-
-Le contenu du panier est une information contextuelle provenant du parcours. Par conséquent, vous devez ajouter un événement initial et l’e-mail à un parcours avant de pouvoir ajouter des informations spécifiques au panier à l’e-mail.
-
-1. Créez un événement dont le schéma inclut le tableau `productListItems`.
-1. Définissez tous les champs de ce tableau comme champs de payload pour cet événement.
-
-   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target=&quot;_blank&quot;}.
-
-1. Créez un parcours commençant par cet événement.
-1. Ajoutez le message au parcours.
-
-   Comme vous n’avez pas encore publié le message, vous ne pouvez ni tester ni publier le parcours.
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. Cliquez sur **[!UICONTROL OK]**.
-
-   Un message vous informe que le contexte du parcours a été transmis au message.
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## Étape 4 : insérer la liste des articles du panier {#each-helper}
 
-1. Rouvrez le message.
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. rouvrez le contenu du message.
 
 1. Sur la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
@@ -299,14 +291,11 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. Enregistrez le message et publiez-le.
+1. Enregistrez le message.
 
 ## Étape 6 : tester et publier le parcours {#test-and-publish}
 
-1. Ouvrez le parcours. Si le parcours est déjà ouvert, actualisez la page.
 1. Activez le bouton d’activation/désactivation **[!UICONTROL Test]**, puis cliquez sur **[!UICONTROL Déclencher un événement]**.
-
-   Vous ne pouvez activer le mode test qu’après avoir publié le message.
 
    ![](assets/personalization-uc-helpers-15.png)
 

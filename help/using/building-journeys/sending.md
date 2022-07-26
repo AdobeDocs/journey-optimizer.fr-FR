@@ -1,10 +1,10 @@
 ---
 title: Débuter l'exécution du parcours
 description: Découvrez comment débuter de votre parcours et envoyer des messages
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 93%
 
 ---
 
@@ -34,13 +34,9 @@ Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils d
 
 ## Envoi des messages {#send-messages}
 
-Lorsque le contenu de votre message est défini et publié, il est prêt à être envoyé par l’intermédiaire d’un [parcours](journey.md).
+Lorsque le contenu de votre message est défini, il est prêt à être envoyé via un [parcours](journey.md).
 
->[!NOTE]
->
->Vous pouvez ajouter un message qui est toujours en mode Brouillon à un parcours, mais assurez-vous que le message est publié avant de publier le parcours.
-
-Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au moyen de plusieurs indicateurs. [En savoir plus sur la surveillance de l’exécution des messages](../message-monitoring.md).
+Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au moyen de plusieurs indicateurs. [En savoir plus sur les rapports](../global-report.md).
 
 ## Planification des messages {#schedule-messages}
 

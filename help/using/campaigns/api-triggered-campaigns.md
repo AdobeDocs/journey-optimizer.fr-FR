@@ -3,13 +3,13 @@ title: Déclencher des campagnes à l’aide d’API
 description: Découvrez comment déclencher des campagnes à l’aide de [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 3%
 
 ---
-
 
 # Déclencher des campagnes à l’aide d’API {#trigger-campaigns}
 
@@ -33,7 +33,7 @@ Pour créer une campagne déclenchée par une API, procédez comme suit :
 
 1. Créez une nouvelle campagne avec le **[!UICONTROL déclenché par l’API]** type.
 
-1. Sélectionnez le canal et la surface du message à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionnez le canal et la surface du canal à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -67,7 +67,7 @@ Prenons cet exemple, où les clients souhaitent réinitialiser leur mot de passe
 >
 >Contrairement aux événements activés pour le profil, les données contextuelles transmises dans l’API REST sont utilisées pour une communication ponctuelle et ne sont pas stockées par rapport au profil. Au maximum, le profil est créé avec les détails de l’espace de noms, s’il a été détecté comme manquant.
 
-Pour utiliser ces données dans vos campagnes, vous devez les transmettre dans la payload de l’API et les ajouter dans votre message à l’aide de l’éditeur d’expression. Pour ce faire, utilisez la méthode `{{context.<contextualAttribute>}}` syntaxe, où `<contextualAttribute>` doit correspondre au nom de la variable dans votre payload API contenant les données que vous souhaitez transmettre.
+Pour utiliser ces données dans vos campagnes, vous devez les transmettre dans la payload de l&#39;API et les ajouter dans votre message à l&#39;aide de l&#39;éditeur d&#39;expression. Pour ce faire, utilisez la méthode `{{context.<contextualAttribute>}}` syntaxe, où `<contextualAttribute>` doit correspondre au nom de la variable dans votre payload API contenant les données que vous souhaitez transmettre.
 
 Le `{{context.<contextualAttribute>}}` La syntaxe est mappée à un type de données String uniquement.
 

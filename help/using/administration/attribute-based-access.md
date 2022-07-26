@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
-source-wordcount: '993'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '991'
+ht-degree: 96%
 
 ---
 
@@ -74,7 +74,7 @@ En appliquant un **[!UICONTROL Libellé]** à votre **[!UICONTROL Nom du champ]*
 Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services d&#39;Adobe contenus dans le produit.
 Vous pouvez également créer vos propres **[!UICONTROL rôles]** si vous souhaitez affiner l&#39;accès de vos utilisateurs à certaines fonctionnalités ou objets de l&#39;interface.
 
-Nous voulons maintenant accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité**, libellé C2. Pour ce faire, nous devons créer un nouveau **[!UICONTROL rôle]** avec un ensemble spécifique d’utilisateurs et leur attribuer le libellé C2 leur permettant d’utiliser les détails de **Nationalité** dans un **[!UICONTROL message]** ou **[!UICONTROL parcours]**.
+Nous voulons maintenant accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité**, libellé C2. Pour ce faire, nous devons créer une nouvelle **[!UICONTROL Rôle]** avec un ensemble spécifique d’utilisateurs et attribuez-leur l’étiquette C2 leur permettant d’utiliser la variable **Nationalité** détails dans un **[!UICONTROL Parcours]**.
 
 1. Dans le produit [!DNL Permissions], sélectionnez le **[!UICONTROL rôle]** dans le menu du volet de gauche, puis cliquez sur **[!UICONTROL Créer un rôle]**. Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** aux rôles intégrés.
 

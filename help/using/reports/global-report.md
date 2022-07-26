@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 85%
 
 ---
 
@@ -21,15 +21,11 @@ ht-degree: 100%
 
 Le **[!UICONTROL rapport global]** vous permet de mesurer l&#39;impact de vos parcours et diffusions sur une période sélectionnée.
 
-* Si vous souhaitez cibler un parcours ou des diffusions dans le contexte d&#39;un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur l&#39;icône **[!UICONTROL Rapport global]**. Vous trouverez ensuite le **[!UICONTROL rapport global]** Parcours, Email et push.
+* Si vous souhaitez cibler un ou plusieurs parcours dans le contexte d&#39;un parcours, à partir de la **[!UICONTROL Parcours]** , accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]** bouton . Vous pouvez ensuite trouver les rapports globaux Parcours, Email, SMS et Push.
 
-   ![](assets/report_6.png)
+   ![](assets/report_journey.png)
 
-* Si vous souhaitez cibler une diffusion spécifique, dans la **[!UICONTROL vue globale]** de l&#39;onglet **[!UICONTROL Exécutions]** de vos messages, sélectionnez **[!UICONTROL Rapport global]** dans le menu avancé de votre diffusion sélectionnée.
-
-   ![](assets/report_4.png)
-
-* Si vous souhaitez basculer entre le **[!UICONTROL Rapport global]** au **[!UICONTROL Rapport dynamique]** pour votre diffusion, cliquez sur **[!UICONTROL Vue dynamique]** dans le sélecteur d&#39;onglets.
+* Si vous souhaitez basculer du **[!UICONTROL Rapport dynamique]** au **[!UICONTROL Rapport global]** pour votre diffusion, cliquez sur **[!UICONTROL Vue globale]** dans le sélecteur d&#39;onglets.
 
    ![](assets/report_5.png)
 

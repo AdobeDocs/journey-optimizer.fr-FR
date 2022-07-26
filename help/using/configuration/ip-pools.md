@@ -1,15 +1,15 @@
 ---
-title: Création de pools d'adresses IP
-description: '"Découvrir comment gérer les pools d''adresses IP"'
+title: Création de groupes d’adresses IP
+description: Découvrez comment gérer les pools d’adresses IP
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: ht
-source-wordcount: '541'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 70%
 
 ---
 
@@ -32,7 +32,7 @@ Par exemple, il est recommandé d&#39;avoir un pool d&#39;adresses IP pour vos m
 
 Pour créer un pool d&#39;adresses IP, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]**/**[!UICONTROL Pools d&#39;adresses IP]**, puis cliquez sur **[!UICONTROL Créer un pool d&#39;adresses IP]**.
+1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Groupes IP]** , puis cliquez sur **[!UICONTROL Créer un pool d’adresses IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -50,7 +50,7 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher le préréglage de message associé. Pour plus d&#39;informations sur l&#39;association d&#39;un préréglage de message à un groupe d&#39;adresses IP, consultez [cette section](message-presets.md).
+Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez la sélectionner pour accéder à ses propriétés et afficher la surface du canal associé (c’est-à-dire le paramètre prédéfini du message). Pour plus d’informations sur l’association d’une surface de canal à un pool d’adresses IP, reportez-vous à la section [cette section](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -64,6 +64,10 @@ Pour modifier un pool d’adresses IP :
 
 1. Modifiez ses propriétés selon vos besoins. Vous pouvez modifier la description et ajouter ou supprimer des adresses IP.
 
+   >[!NOTE]
+   >
+   >Le nom du pool d’adresses IP n’est pas modifiable. Si vous souhaitez le modifier, vous devez supprimer le pool d’adresses IP et en créer un autre avec le nom de votre choix.
+
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
@@ -72,18 +76,14 @@ Pour modifier un pool d’adresses IP :
 
 1. Enregistrez vos modifications.
 
->[!NOTE]
->
->Le nom du pool d’adresses IP n’est pas modifiable. Si vous souhaitez le modifier, vous devez supprimer le pool d’adresses IP et en créer un autre avec le nom de votre choix.
+La mise à jour est effective immédiatement ou de manière asynchrone, selon le pool d’adresses IP associé à un [surface du canal](message-presets.md) ou non :
 
-La mise à jour est effective immédiatement ou de manière asynchrone, selon que le pool d’adresses IP est associé ou non à un [préréglage de message](message-presets.md) :
-
-* Si le groupe d’adresses IP n’est **pas** associé à un quelconque préréglage de message, la mise à jour est instantanée (statut **[!UICONTROL Succès]**).
-* Si le groupe d’adresses IP **est** associé à un préréglage de message, la mise à jour peut prendre jusqu’à 3 heures (statut **[!UICONTROL En cours de traitement]**).
+* Si le pool d’adresses IP est **not** associée à n’importe quelle surface de canal, la mise à jour est instantanée (**[!UICONTROL Succès]** status).
+* Si le pool d’adresses IP **is** associée à la surface d’un canal, la mise à jour peut prendre jusqu’à 3 heures (**[!UICONTROL Traitement]** status).
 
 >[!NOTE]
 >
->Lors de la [création d’un préréglage de message](message-presets.md#create-message-preset), si vous sélectionnez un groupe d’adresses IP en cours d’édition (statut **[!UICONTROL Traitement en cours]**) et qui n’a jamais été associé au sous-domaine sélectionné pour ce préréglage, vous ne pouvez pas poursuivre la création du préréglage. [En savoir plus](message-presets.md#subdomains-and-ip-pools)
+>When [création d’une surface de canal](message-presets.md#create-message-preset), si vous sélectionnez un pool d’adresses IP en cours d’édition (**[!UICONTROL Traitement]** ) et n’a jamais été associé au sous-domaine sélectionné pour cette surface, vous ne pouvez pas poursuivre la création de surface. [En savoir plus](message-presets.md#subdomains-and-ip-pools)
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 
@@ -96,5 +96,5 @@ Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le
 >* jusqu’au lot suivant pour que le pool d’adresses IP soit effectif dans les messages par lots ;
 
 
-Vous pouvez également utiliser le bouton **[!UICONTROL Supprimer]** pour supprimer un pool d’adresses IP. Notez que vous ne pouvez pas supprimer un pool d’adresses IP associé à un préréglage de message.
+Vous pouvez également utiliser le bouton **[!UICONTROL Supprimer]** pour supprimer un pool d’adresses IP. Notez que vous ne pouvez pas supprimer un pool d’adresses IP qui a été associé à une surface de canal.
 

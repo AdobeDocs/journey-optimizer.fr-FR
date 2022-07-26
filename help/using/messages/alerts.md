@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 72%
 
 ---
 
-# Vérification des alertes sur vos messages {#publish-manage-messages}
+# Vérification des alertes sur vos messages {#messages-alerts}
 
-## Vérifications avant publication {#message-alerting}
+## Vérifications avant envoi {#message-alerting}
 
-Lorsque vous créez votre message, des alertes vous avertissent si vous devez effectuer des opérations importantes avant de le publier.
+Lorsque vous concevez vos messages, des alertes s’affichent dans l’interface lorsque des paramètres clés sont manquants.
 
-Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-dessous :
+Les alertes s’affichent en haut à droite de l’écran lors de l’édition du contenu du message.
 
-![](assets/message-alerts.png)
+![](assets/alerts-details.png)
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ Deux types d’alertes peuvent avoir lieu :
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. Par exemple, un message s’affiche si le lien de d’opt-out est manquant.
 
-* Les **erreurs** vous empêchent de publier le message tant qu’elles ne sont pas corrigées. Par exemple, un message vous avertit que l’objet est manquant.
+* **Erreurs** vous empêche de tester ou d’activer le parcours tant qu’il n’est pas résolu. Par exemple, un message vous avertit que l’objet est manquant.
 
 Tous les avertissements et erreurs possibles sont détaillés [ci-dessous](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> Vous devez résoudre toutes les alertes d’**erreur** avant de procéder à la publication.
+> Vous devez résoudre tous les **error** alertes avant de tester ou d’activer le parcours à l’aide du message.
 
 ## Liste des avertissements et des erreurs {#alerts-and-warnings}
 
@@ -49,7 +49,7 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
    >[!NOTE]
    >
-   >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au [niveau du préréglage de message](../configuration/message-presets.md#email-type) et lors de la [création du message](get-started-content.md#create-new-message).
+   >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [surface du canal](../configuration/message-presets.md#email-type) niveau et à quel moment [création du message](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
 
@@ -65,15 +65,15 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 * **[!UICONTROL La version push du message est vide]** : cette erreur s’affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
 
-* **[!UICONTROL La version e-mail du message est vide.]** : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré. Découvrez comment concevoir le contenu des emails dans [cette section](../design/design-emails.md).
+* **[!UICONTROL La version e-mail du message est vide.]** : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré. Découvrez comment concevoir le contenu des e-mails dans [cette section](../design/design-emails.md).
 
-* **[!UICONTROL Préréglage absent]** : vous ne pouvez pas publier votre message si le préréglage que vous avez sélectionné est supprimé après la création du message. Si cette erreur se produit, sélectionnez un autre préréglage dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur le branding, consultez [cette section](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL La surface n’existe pas]**: vous ne pouvez pas utiliser votre message si la surface que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre surface dans le message. **[!UICONTROL Propriétés]**. En savoir plus sur les surfaces des canaux dans [cette section](../configuration/message-presets.md).
 
 * **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](create-push.md).
 
 >[!CAUTION]
 >
-> Pour pouvoir publier votre message, vous devez résoudre toutes les alertes d’**erreur**.
+> Pour pouvoir utiliser votre message, vous devez résoudre tous les problèmes **error** alertes.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 97%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 98%
    + [Création d’un e-mail](using/messages/create-email.md)
    + [Création d’une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)
-   + Validation et publication {#validate}
-      + [Vérification des alertes](using/messages/alerts.md)
-      + [Publication de messages](using/messages/publish-manage-message.md)
+   + [Vérification des alertes](using/messages/alerts.md)
    + [Gestion du consentement](using/messages/consent.md)
+   + [Optimisation de l&#39;heure d&#39;envoi](using/messages/send-time-optimization.md)
 + Conception du contenu {#design}
    + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
    + [Commencer à partir de zéro ](using/design/create-email-content.md)
@@ -88,7 +87,7 @@ ht-degree: 98%
    + Création d’expressions {#build-expressions}
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + Utilisation de l’éditeur d’expression {#expression-editor}
-         + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
+         + [A propos de l&#39;éditeur d&#39;expression](using/personalization/personalization-build-expressions.md)
          + [Ajout d’attributs aux favoris](using/personalization/personalization-favorites.md)
          + [Utilisation d’expressions enregistrées](using/personalization/personalization-library.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
@@ -138,8 +137,8 @@ ht-degree: 98%
       + [Fin](using/building-journeys/end-activity.md)
       + [Attente](using/building-journeys/wait-activity.md)
       + [Lecture de segment](using/building-journeys/read-segment.md)
-      + [Message](using/building-journeys/journeys-message.md)
-      + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
+      + [Email, SMS, Push](using/building-journeys/journeys-message.md)
+      + [Actions personnalisées ](using/building-journeys/using-custom-actions.md)
       + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Saut](using/building-journeys/jump.md)
@@ -238,19 +237,14 @@ ht-degree: 98%
       + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
       + [Accélération des diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
 + Suivi et surveillance {#reporting}
-   + [Surveillance des messages](using/reports/message-monitoring.md)
    + Rapport dynamique {#live-report}
       + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
-      + [Rapport dynamique sur les e-mails](using/reports/email-live-report.md)
-      + [Rapport dynamique sur les notifications push](using/reports/push-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
    + Rapport global {#global-report}
       + [Accès au tableau de bord des rapports globaux](using/reports/global-report.md)
       + [Rapport global sur les parcours](using/reports/journey-global-report.md)
-      + [Rapport global sur les e-mails](using/reports/email-global-report.md)
-      + [Rapport global sur les notifications push](using/reports/push-global-report.md)
       + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
       + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
    + Rapports de parcours {#reports}
@@ -385,8 +379,8 @@ ht-degree: 98%
             + [Reprises](using/configuration/retries.md)
             + [Liste autorisée](using/configuration/allow-list.md)
       + [Configuration du canal SMS](using/configuration/sms-configuration.md)
-      + Configuration des préréglages de message {#set-up-message-presets}
-         + [Création de préréglages de message](using/configuration/message-presets.md)
+      + Configuration des surfaces de canal {#set-up-message-presets}
+         + [Création de surfaces de canal](using/configuration/message-presets.md)
          + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
          + [Utiliser E-mail Cci](using/configuration/bcc-email.md)
       + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)

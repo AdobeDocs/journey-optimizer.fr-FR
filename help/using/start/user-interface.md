@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,9 @@ Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur 
 >Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
 
 
-## Navigation gauche {#left-nav}
+## Volet de navigation de gauche {#left-nav}
 
-Utilisez les liens sur la gauche pour parcourir les fonctionnalités.
+Parcourir les liens à gauche pour accéder à [!DNL Journey Optimizer] fonctionnalités.
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ Utilisez les liens sur la gauche pour parcourir les fonctionnalités.
 >
 >Les fonctionnalités disponibles peuvent varier en fonction de vos autorisations et de votre contrat de licence.
 
-Vous trouverez ci-dessous la liste complète des services et fonctionnalités disponibles dans la navigation de gauche et des liens vers la documentation associée.
+Vous trouverez ci-dessous la liste complète des services et fonctionnalités disponibles dans le volet de navigation de gauche, ainsi que des liens vers les pages d’aide associées.
 
 **Accueil**
 
-La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer. La liste **[!UICONTROL Récents]** fournit des raccourcis vers les messages, événements et parcours récemment créés ou mis à jour. Cette liste montre les dates et l&#39;état de leur création et de leur modification.
+La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer. Le **[!UICONTROL Récents]** La liste propose des raccourcis vers les événements et parcours récemment créés. Cette liste montre les dates et l&#39;état de leur création et de leur modification.
 
 **[!UICONTROL GESTION DES PARCOURS]**
 
 * **[!UICONTROL Parcours]** - Créez, configurez et orchestrez vos parcours clients. [En savoir plus](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Créez, concevez, tester et publiez des e-mails et messages push. [En savoir plus](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** - Créer, concevoir, tester et publier des landing pages. [En savoir plus](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL GESTION DES DÉCISIONS]**
 
@@ -274,7 +274,7 @@ Pour modifier la langue :
 
 ## Recherche{#unified-search}
 
-Depuis n’importe où dans l’interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données, des messages et plus encore dans vos environnements Sandbox.
+Depuis n’importe où dans l’interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données, des et plus encore dans vos environnements Sandbox.
 
 Commencez à saisir du contenu pour afficher les meilleurs résultats. Les articles d’aide sur les mots-clés saisis apparaissent également dans les résultats.
 
@@ -304,6 +304,6 @@ Dans les volets de configuration des événements, des sources de données et de
 
 ![](assets/journey3bis.png)
 
-Il est possible d&#39;effectuer des actions de base sur chaque élément des différentes listes. Vous pouvez par exemple dupliquer ou supprimer un élément.
+Dans les listes, vous pouvez effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
 ![](assets/journey4.png)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,11 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
 1. [Publier](create-lp.md#publish) la page de destination.
 
-1. [Créez un e-mail](../messages/get-started-content.md) pour annoncer que l’inscription à lʼévénement a débuté.
+1. Dans un [parcours](../building-journeys/journey.md), ajoutez une **Email** activité pour diriger le trafic vers la landing page d’inscription.
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [Concevoir l&#39;email](../messages/get-started-content.md) pour annoncer que l’inscription est maintenant ouverte à votre événement.
 
 1. [Insérez un lien](../design/message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** en tant que **[!UICONTROL Type de lien]** et sélectionnez la [Page de destination](create-lp.md#configure-primary-page) que vous avez créée pour lʼinscription.
 
@@ -55,13 +59,7 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
    >[!NOTE]
    >
-   >Pour pouvoir publier votre message, vérifiez que la page de destination sélectionnée n’a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
-
-1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
-
-1. Envoyez votre message par le biais dʼun [parcours](../building-journeys/journey.md) pour diriger le trafic vers la page de destination dʼinscription.
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >Pour pouvoir envoyer votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
    Une fois que vos destinataires ont reçu lʼe-mail, sʼils cliquent sur le lien vers la page de destination, ils seront redirigés vers la page de remerciement et seront ajoutés à la liste dʼabonnements.
 
@@ -79,7 +77,7 @@ Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui s
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Choisissez lʼe-mail de confirmation de votre choix et envoyez-le par le biais du parcours.
+1. Ajoutez un email de confirmation de votre choix et envoyez-le par parcours.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Créez un message e-mail](../messages/get-started-content.md) dans [!DNL Journey Optimizer].
+1. [Création d’un message électronique](../messages/get-started-content.md) dans un parcours.
 
 1. Sélectionnez du texte dans votre contenu et [insérez un lien](../design/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
 
@@ -140,11 +138,9 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
    >[!NOTE]
    >
-   >Pour pouvoir publier votre message, vérifiez que la page de destination sélectionnée n’a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
+   >Pour pouvoir envoyer votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
-1. Enregistrez votre contenu et [publiez votre message](../messages/publish-manage-message.md).
-
-1. Envoyez votre message par le biais d’un parcours. [En savoir plus](../building-journeys/journey.md).
+1. Publiez et exécutez le parcours. [En savoir plus](../building-journeys/journey.md).
 
 1. Une fois le message reçu, si le destinataire clique sur le lien de désabonnement présent dans lʼe-mail, votre page de destination s’affiche.
 

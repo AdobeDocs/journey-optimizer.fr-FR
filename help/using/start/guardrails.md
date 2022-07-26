@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 82%
+source-wordcount: '730'
+ht-degree: 81%
 
 ---
 
@@ -47,10 +47,6 @@ Les barrières de performance et les limites statiques pour la gestion des déci
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
 * Il existe aujourd’hui une limitation technique dans les parcours qui empêche qu’un profil soit présent plusieurs fois dans le même parcours, en même temps. Un profil peut toujours revenir à un parcours (en fonction d’un paramètre), mais il ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 * Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la rentrée est activée, un profil peut entrer à nouveau dans un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/journey-end.md)
-
-### Action Message {#message-action-g}
-
-* Lorsque vous ajoutez un message multicanal, deux messages sont envoyés.
 
 ### Versions de parcours {#journey-versions-g}
 

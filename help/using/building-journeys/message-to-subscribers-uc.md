@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,12 @@ Dans cet exemple, le groupe de champs **[!UICONTROL Détails du consentement et 
 Pour configurer ce parcours, procédez comme suit:
 
 1. Créez un parcours commençant par une activité **[!UICONTROL Lecture]**. [En savoir plus](journey-gs.md).
-1. Ajoutez une activité **[!UICONTROL Message]**, avec une adresse e-mail, au parcours. [En savoir plus](journeys-message.md).
-1. Dans la section **[!UICONTROL Paramètres de messagerie]** des paramètres d’activité **[!UICONTROL Message]**, remplacez l’adresse e-mail par défaut (`PersonalEmail.adress`) par l’adresse e-mail des abonnés à la liste :
+1. Ajoutez un **[!UICONTROL Email]** activité d’action au parcours. [En savoir plus](journeys-message.md).
+1. Dans le **[!UICONTROL Paramètres de messagerie]** de la section **[!UICONTROL Email]** paramètres d’activité, remplacez l’adresse électronique par défaut (`PersonalEmail.adress`) avec l&#39;adresse email des abonnés à la liste :
 
    1. Cliquez sur le bouton **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ **[!UICONTROL Adresse]**, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      Si vous voulez modifier l’adresse e-mail, vous devez avoir publié le message précédemment.
 
    1. Dans l’éditeur d’expression, saisissez l’expression permettant de récupérer les adresses e-mail des abonnés. [En savoir plus](expression/expressionadvanced.md).
 
@@ -55,4 +53,3 @@ Pour configurer ce parcours, procédez comme suit:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. Dans la boîte de dialogue **[!UICONTROL Ajouter une expression]**, cliquez sur **[!UICONTROL OK]**. 
-   ![](assets/message-to-subscribers-uc-3.png)

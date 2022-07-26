@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 
 La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration.]** Les activités d&#39;action suivantes sont disponibles :
 
-* [Message](../building-journeys/journeys-message.md)
+* [Email, SMS, Push](../building-journeys/journeys-message.md)
 * [Actions personnalisées](../building-journeys/using-custom-actions.md)
 * [Sauter](../building-journeys/jump.md)
 

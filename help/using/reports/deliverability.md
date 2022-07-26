@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -54,8 +54,6 @@ Utilisez les outils proposés par [!DNL Journey Optimizer] pour surveiller votre
 L&#39;onglet **[!UICONTROL Exécutions]** de la liste de messages vous permet de vérifier les performances de vos diffusions au moyen d&#39;un ensemble d&#39;indicateurs en temps réel. Cet onglet affiche, entre autres :
 * Le nombre de messages exécutés, envoyés et délivrés avec succès.
 * Le nombre de messages ayant été ouverts et le nombre de messages/liens ayant fait l&#39;objet d&#39;un clic.
-
-[En savoir plus sur la surveillance de l&#39;exécution des messages ](message-monitoring.md).
 
 ## Adapter le contenu des messages {#adapt-message-content}
 

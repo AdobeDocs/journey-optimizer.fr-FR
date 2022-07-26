@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Pour plus d’informations sur la segmentation en flux continu, consultez la [do
 
 ### Éviter les surcharges{#overloads-speed-segment-qualification}
 
-Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités de **message**).
+Voici quelques bonnes pratiques qui aideront à éviter la surcharge des systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal).
 
 Dans une activité **[!UICONTROL Qualification du segment]**, n’utilisez pas un segment par lot immédiatement après sa création. Il évitera le premier pic de calcul. Notez qu’un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser un segment qui n’a jamais été calculé.
 

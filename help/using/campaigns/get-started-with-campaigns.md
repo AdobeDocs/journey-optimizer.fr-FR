@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 79%
+source-wordcount: '316'
+ht-degree: 72%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique, et ce sur plusieurs canaux. Avant de créer une campagne, assurez-vous de disposer d’un préréglage de message et d’un segment Adobe Experience Platform prêt à l’emploi."
+>abstract="Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique, et ce sur plusieurs canaux. Avant de créer une campagne, assurez-vous d’avoir une surface de canal (c’est-à-dire un paramètre prédéfini de message) et un segment Adobe Experience Platform prêt à l’emploi."
 
 ## À propos des campagnes {#about}
 

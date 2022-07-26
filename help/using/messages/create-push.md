@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: ht
-source-wordcount: '1475'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +25,16 @@ Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre
 
 [!DNL Journey Optimizer] prend en charge les notifications push et vous permet d&#39;envoyer des notifications extrêmement pertinentes à des taux de débit de pointe. Les notifications push peuvent inclure une personnalisation et un contexte basé sur les parcours afin d&#39;exploiter les données de votre marque avec Adobe Experience Cloud.
 
-Une fois que vous avez [créé un message](get-started-content.md), cliquez sur l&#39;onglet **[!UICONTROL Notification push]** pour définir les paramètres et le contenu de la notification push.
+Une fois que [ajout d’une notification push](get-started-content.md) à votre parcours, et définition des paramètres de base, utilisez la variable **[!UICONTROL Actions : Push]** pour créer le contenu de la notification push.
+
+![](assets/add-a-push.png)
+
+
+Utilisez les onglets dédiés pour définir les paramètres de notification push pour les systèmes d&#39;exploitation **iOS** et **Android**.
 
 ![](assets/create-content-push.png)
 
-Utilisez les onglets dédiés pour définir les paramètres de notification push pour les systèmes d&#39;exploitation **iOS** et **Android**.
+Si c’est la première fois que vous créez une notification push, vérifiez que le canal push a été configuré. [En savoir plus](../configuration/push-gs.md).
 
 >[!NOTE]
 >
@@ -37,7 +42,7 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 
 ## Titre et contenu {#push-title-body}
 
-Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l&#39;éditeur d&#39;expression pour définir le contenu et les données de personnalisation. Consultez [cette section](../personalization/personalize.md) pour en savoir plus sur la personnalisation dans l&#39;éditeur d&#39;expression.
+Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l&#39;éditeur d&#39;expression pour définir le contenu et les données de personnalisation. En savoir plus sur la personnalisation dans l’éditeur d’expression de la section [cette section](../personalization/personalize.md)
 
 Utilisez la section de prévisualisation des appareils pour visualiser la façon dont s&#39;affiche la notification push sur les appareils iOS et Android.
 
@@ -52,7 +57,7 @@ Sélectionnez le comportement lorsquʼun utilisateur clique sur le contenu de la
 
 ![](assets/title-body-push.png)
 
-* Pour ouvrir l’application, sélectionnez l’option **[!UICONTROL Ouvrir l’application]**. Lʼapplication associée à la notification est définie dans le message **[!UICONTROL Préréglage]**. [En savoir plus](../configuration/message-presets.md) sur les préréglages de messages.
+* Pour ouvrir l’application, sélectionnez l’option **[!UICONTROL Ouvrir l’application]**. L’application associée à la notification est définie dans la variable [surface du canal](../configuration/message-presets.md) (c’est-à-dire le paramètre prédéfini du message).
 * Pour rediriger l’utilisateur vers un élément de contenu spécifique dans une application, sélectionnez l’option **[!UICONTROL Lien profond]** .  Le contenu spécifique peut être un affichage spécifique, une section spécifique d’une page ou un certain onglet. Une fois lʼoption sélectionnée, saisissez le lien profond dans le champ correspondant.
 * Pour rediriger l’utilisateur vers une URL externe, utilisez l’option **[!UICONTROL URL Web]**. Une fois lʼoption sélectionnée, saisissez lʼURL dans le champ correspondant.
 
@@ -125,6 +130,17 @@ Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notific
 | **[!UICONTROL Visibilité de la notification]**       (Android uniquement) | Définit la visibilité de la notification push. <br/><b>Private</b> affichera la notification sur tous les écrans verrouillés, mais dissimulera les informations sensibles ou privées sur les écrans verrouillés sécurisés. <br/><b>public</b> affichera la notification dans son intégralité sur tous les écrans verrouillés. <br/><b>secret</b> ne divulguera aucune partie de la notification sur un écran verrouillé sécurisé. <br/>Consultez à ce sujet la [documentation pour développeur Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Priorité des notifications]** (Android uniquement) | Définit l&#39;importance de la notification push de Faible à Max. Cette opération détermine l&#39;intrusion de la notification push lors de sa diffusion. Consultez à ce sujet la [documentation pour développeur Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Priorité de diffusion]**       (Android uniquement) | Définit une priorité élevée ou normale pour vos notifications push. Pour plus d&#39;informations sur la priorité des messages, consultez la [documentation destinée aux développeurs Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+
+
+## Validation de la notification push{#push-preview}
+
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
+
+Pour visualiser l’affichage de votre notification push sur les appareils mobiles, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** . En savoir plus sur la simulation de contenu dans [cette section](../design/preview.md).
+
+Vous devez également vérifier les alertes dans la section supérieure de l’éditeur.  Certains d’entre eux sont de simples avertissements, mais d’autres peuvent vous empêcher d’utiliser le message. En savoir plus dans [cette section](alerts.md).
+
+![](assets/push-alert-button.png)
 
 **Rubriques connexes**
 

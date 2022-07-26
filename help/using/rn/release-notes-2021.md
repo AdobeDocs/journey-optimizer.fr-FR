@@ -2,10 +2,10 @@
 title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 100%
+source-wordcount: '2070'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Reporting**
 
-* **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les chiffres et les pourcentages dans la **Vue globale** de l’onglet **Exécution**. [En savoir plus](../reports/message-monitoring.md)
+* **Format des données dans la vue globale** - Vous pouvez désormais basculer entre les chiffres et les pourcentages dans la **Vue globale** de l’onglet **Exécution.**
 
 
 **Administration**
@@ -126,7 +126,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 <td>
 <p>De nouvelles mesures sont disponibles dans les rapports : Ciblé et Exclu pour les e-mails et les messages push sont visibles dans les rapports dynamiques et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="../reports/live-report.md">documentation détaillée.</a></p>
 <p>Une nouvelle colonne de la liste d'exécution des messages affiche le nombre de profils ciblés pour chaque exécution du message. </p>
-<p>Pour plus d'informations, consultez la <a href="../reports/message-monitoring.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../reports/global-report.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -180,7 +180,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 <td>
 <p>Envoyez automatiquement vos notifications push ou vos e-mails au meilleur moment pour chaque client avec Adobe Journey Optimizer. L’optimisation de l’heure d’envoi, optimisée par les services d’IA d’Adobe, prédit le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clics historiques prêts à l’emploi.</p>
 <p>Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.</p>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../messages/send-time-optimization.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -274,7 +274,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Personnalisation**
 
-* **Éditeur d’expression** : vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation : lorsque le champ de personnalisation est vide pour un profil, la valeur de secours s’affiche. [En savoir plus](../personalization/functions/helpers.md)
+* **Editeur d&#39;expression** - Vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation : lorsque le champ de personnalisation est vide pour un profil, la valeur de retour arrière s’affiche. [En savoir plus](../personalization/functions/helpers.md)
 
 **Configuration des e-mails**
 
@@ -289,7 +289,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 * Correction d’un problème d’accessibilité dans la navigation par onglets des messages.
 * Correction d’un problème de localisation dans les libellés du concepteur d’e-mails.
-* Correction d’un problème lors de la sélection de plusieurs nœuds dans un parcours et du clic sur « Supprimer » dans le panneau des propriétés.
+* Correction d’un problème lors de la sélection de plusieurs noeuds dans un parcours et du clic sur &quot;Supprimer&quot; dans le volet des propriétés.
 * Correction d’un problème qui empêchait l’ajout d’un nouvel en-tête à une action utilisée dans un parcours.
 * Vous pouvez maintenant découvrir la raison pour laquelle la création d’un préréglage de message a échoué via un avertissement plus explicite dans l’interface utilisateur.
 
@@ -342,7 +342,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 * Dans l&#39;écran Liste des parcours, le filtre de type de parcours a été ajouté. [En savoir plus](../start/user-interface.md#filter-lists)
 * Le paramètre **[!UICONTROL Taux de limitation]** a été ajouté à l&#39;activité Lecture de segment. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Prévisualiser et tester les messages**
+**Aperçu et test**
 
 * L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../design/preview.md#preview-your-messages)
 * Le nombre d&#39;e-mails de test pour les BAT est maintenant limité à 10.
@@ -357,6 +357,6 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 * Correction d&#39;un problème qui entraînait la diffusion de messages en double pour la diffusion d&#39;e-mails par lots.
 * Les événements sont maintenant générés en conséquence lorsque l&#39;envoi d&#39;e-mails n&#39;est pas effectué une fois la période de reprise terminée.
 * Correction d&#39;un problème en raison duquel les informations IP manquaient dans l&#39;écran Enregistrements PTR.
-* La localisation est maintenant implémentée dans le rail des offres au sein de l&#39;éditeur d&#39;expression.
+* La localisation dans le rail des offres au sein de l&#39;éditeur d&#39;expression est désormais implémentée.
 * Correction d&#39;un espacement incorrect dans les fenêtres contextuelles d&#39;informations.
 * Correction d’un problème dans le concepteur d’e-mails lors du téléchargement d’un fichier HTML en raison duquel la feuille de style interne avec la propriété `background-image` n’était pas prise en charge.

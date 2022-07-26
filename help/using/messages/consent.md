@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 95%
+source-wordcount: '1331'
+ht-degree: 88%
 
 ---
 
@@ -41,7 +41,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au [niveau du préréglage de message](../configuration/message-presets.md#email-type) et lors de la [création du message](get-started-content.md#create-new-message).
+>Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [surface du canal](../configuration/message-presets.md#email-type) niveau et à quel moment [création du message](get-started-content.md#create-new-message).
 
 ### Désinscription externe {#opt-out-external-lp}
 
@@ -55,7 +55,7 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 1. Hébergez-le sur le système tiers de votre choix.
 
-1. [Créez un message](get-started-content.md) dans [!DNL Journey Optimizer].
+1. [Créer un message](get-started-content.md) dans un parcours.
 
 1. Sélectionnez du texte dans votre contenu et [insérez un lien](../design/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle.
 
@@ -70,8 +70,6 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
    ![](assets/opt-out-link-url.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
-1. Enregistrez votre contenu et [publiez votre message](publish-manage-message.md).
 
 #### Implémenter un appel API pour la désinscription {#opt-out-api}
 
@@ -161,7 +159,7 @@ Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
    >[!NOTE]
    >
-   >Si vous avez activé la variable **List-Unsubscribe** au niveau des paramètres de messages prédéfinis, cette URL sera également utilisée lorsque les utilisateurs cliqueront sur le lien de désabonnement dans l’en-tête de l’e-mail. [En savoir plus](#unsubscribe-header)
+   >Si vous avez activé la variable **List-Unsubscribe** au niveau de la surface du canal, cette URL sera également utilisée lorsque les utilisateurs cliqueront sur le lien de désabonnement dans l’en-tête de l’email. [En savoir plus](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -171,15 +169,15 @@ Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
 Une fois votre message envoyé via un [parcours](../building-journeys/journey.md), si un destinataire clique sur le lien de désinscription, il est immédiatement désinscrit.
 
-### Lien de désinscription dans l’en-tête du message {#unsubscribe-header}
+### Lien de désabonnement dans l’en-tête de l’email {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Ajout d’un lien de désabonnement à l’en-tête d’un e-mail"
->abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’exclusion en un clic dans le contenu de l’e-mail."
+>abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’exclusion en un clic dans le contenu de l’email."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=fr#one-click-opt-out" text="Désinscription en un clic"
 
-Si l’[option List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) est activée au niveau des paramètres de messages prédéfinis, les e-mails correspondants envoyés avec [!DNL Journey Optimizer] incluent un lien de désabonnement dans l’en-tête de l’e-mail.
+Si la variable [Option List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) est activé au niveau de la surface du canal, les emails correspondants envoyés avec [!DNL Journey Optimizer] inclut un lien de désabonnement dans l’en-tête de l’email.
 
 Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 
@@ -189,7 +187,7 @@ Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 >
 >Pour afficher le lien de désabonnement dans l’en-tête de l’e-mail, le client de messagerie du destinataire doit prendre en charge cette fonctionnalité.
 
-L’adresse de désabonnement est l’adrese par défaut. **[!UICONTROL Mailto (unsubscribe)]** affichée dans le paramètre de message prédéfini correspondant. [En savoir plus](../configuration/message-presets.md#list-unsubscribe).
+L’adresse de désabonnement est la valeur par défaut. **[!UICONTROL Mailto (unsubscribe)]** adresse affichée à la surface du canal correspondant. [En savoir plus](../configuration/message-presets.md#list-unsubscribe).
 
 Pour définir une URL de désabonnement personnalisée, insérez un lien de désinscription en un clic dans le contenu de l&#39;e-mail et saisissez l&#39;URL de votre choix. [En savoir plus](#one-click-opt-out)
 

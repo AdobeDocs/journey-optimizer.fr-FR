@@ -4,9 +4,9 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -74,10 +74,10 @@ Pour créer un préréglage de page de destination, procédez comme suit.
    ![](assets/lp-preset-active-temp.png)
 
 Vous êtes maintenant prêt à [créer des pages de destination](../landing-pages/create-lp.md) dans [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->Découvrez comment créer des préréglages de message pour les notifications push et les e-mails dans [cette section](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **Rubriques connexes** :
 
