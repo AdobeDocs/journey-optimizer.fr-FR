@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 93%
+source-wordcount: '825'
+ht-degree: 48%
 
 ---
 
 # Liste autorisée {#allow-list}
 
-Il est possible de définir une liste d&#39;envoi sécurisé spécifique au niveau du [sandbox](../administration/sandboxes.md), afin d’avoir un environnement sécurisé à des fins de test.
+Il est possible de définir une liste de sécurité d’envoi spécifique à l’adresse [sandbox](../administration/sandboxes.md) pour disposer d’un environnement sécurisé à des fins de test.
 
 Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n&#39;avez aucun risque d&#39;envoyer des messages indésirables à vos clients.
 
 >[!NOTE]
 >
->Cette fonctionnalité est désormais disponible sur les sandbox de production et hors production.
+>Cette fonctionnalité est disponible sur les environnements de test de production et hors production.
 
 La liste autorisée vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d&#39;un environnement Sandbox spécifique. Cela peut vous empêcher d&#39;envoyer accidentellement des e-mails à des adresses client réelles lorsque vous vous trouvez dans un environnement de test.
 
@@ -29,19 +29,31 @@ La liste autorisée vous permet de spécifier des adresses e-mail ou des domaine
 >
 >Cette fonctionnalité s&#39;applique uniquement au canal e-mail.
 
+## Accès à la liste autorisée {#access-allowed-list}
+
+Pour accéder à la liste détaillée des adresses email et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
+
+![](assets/allow-list-access.png)
+
+>[!CAUTION]
+>
+>Les autorisations d’affichage, d’exportation et de gestion de la liste autorisée sont limitées à [Administrateurs de parcours](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+
+Pour exporter la liste autorisée au format CSV, sélectionnez la variable **[!UICONTROL Téléchargement de fichier CSV]** bouton .
+
+Utilisez la variable **[!UICONTROL Supprimer]** pour supprimer définitivement une entrée.
+
+Vous pouvez effectuer des recherches sur les adresses ou domaines de courriel, puis filtrer selon le **[!UICONTROL Type d’adresse]**. Une fois sélectionné, vous pouvez effacer le filtre affiché en haut de la liste.
+
+![](assets/allowed-list-filtering-example.png)
+
 ## Activation de la liste autorisée {#enable-allow-list}
-
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
-
-You can update the allowed list before or after enabling the feature.-->
 
 Pour activer la liste autorisée, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste autorisée]**.
 
-   ![](assets/allow-list-access.png)
-
-1. Cliquez sur **[!UICONTROL Modifier]**.
+1. Cliquez sur **[!UICONTROL Activer/Désactiver la liste autorisée]**.
 
    ![](assets/allow-list-edit.png)
 
@@ -51,9 +63,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. La liste autorisée est activée.
 
-   ![](assets/allow-list-enabled.png)
-
-La logique de liste autorisée s’applique lorsque la fonction est activée **et** si la liste autorisée est **non** vide. En savoir plus dans [cette section](#logic).
+La logique de liste autorisée s’applique lorsque la fonction est activée. En savoir plus dans [cette section](#logic).
 
 >[!NOTE]
 >
@@ -61,27 +71,68 @@ La logique de liste autorisée s’applique lorsque la fonction est activée **e
 
 ## Ajout d&#39;entités à la liste autorisée {#add-entities}
 
-Pour ajouter de nouvelles adresses e-mail ou de nouveaux domaines à la liste autorisée pour un environnement Sandbox spécifique, vous devez appeler l&#39;API de suppression avec la valeur `ALLOWED` pour l&#39;attribut `listType`. Par exemple :
-
-![](assets/allow-list-api.png)
-
-Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
+Pour ajouter de nouvelles adresses électroniques ou de nouveaux domaines à la liste autorisée pour un environnement de test spécifique, vous pouvez : [renseigner manuellement la liste](#manually-populate-list), ou utilisez un [appel API](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >La liste autorisée peut contenir jusqu&#39;à 1 000 entrées.
 
+### Remplissage manuel de la liste autorisée {#manually-populate-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add"
+>title="Ajout d’adresses ou de domaines à la liste autorisée"
+>abstract="Vous pouvez ajouter manuellement de nouvelles adresses ou domaines de messagerie à la liste autorisée en les sélectionnant une par une."
+
+Vous pouvez renseigner manuellement la variable [!DNL Journey Optimizer] liste autorisée en ajoutant une adresse électronique ou un domaine par le biais de l’interface utilisateur.
+
+>[!NOTE]
+>
+>Vous ne pouvez ajouter qu’une seule adresse électronique ou domaine à la fois.
+
+Pour ce faire, suivez les étapes ci-après.
+
+1. Sélectionnez la **[!UICONTROL Ajout d’un courrier électronique ou d’un domaine]** bouton .
+
+   ![](assets/allowed-list-add-email.png)
+
+1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
+
+1. Saisissez l&#39;adresse email ou le domaine vers lequel vous souhaitez envoyer des emails.
+
+   >[!NOTE]
+   >
+   >Veillez à saisir une adresse électronique valide (par exemple abc@company.com) ou un domaine (par exemple abc.company.com).
+
+1. Indiquez un motif si nécessaire.
+
+   ![](assets/allowed-list-add-email-address.png)
+
+   >[!NOTE]
+   >
+   >Tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ **[!UICONTROL Motif]**. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
+
+1. Cliquez sur **[!UICONTROL Envoyer]**.
+
+### Ajout d’entités à l’aide d’un appel API {#api-call-allowed-list}
+
+Pour renseigner la liste autorisée, vous pouvez également appeler l’API de suppression avec la variable `ALLOWED` de la variable `listType` attribut. Par exemple :
+
+![](assets/allow-list-api.png)
+
+Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
+
 Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Logique de liste autorisée {#logic}
 
-Lorsque la liste autorisée est **vide**, la logique de liste autorisée n&#39;est pas appliquée. Cela signifie que vous pouvez envoyer des e-mails à n&#39;importe quel profil, à condition qu&#39;il ne figure pas dans la [liste de suppression](../reports/suppression-list.md).
+Lorsque la liste autorisée est [enabled](#enable-allow-list), la logique suivante s’applique :
 
-Lorsque la liste autorisée n&#39;est **pas vide**, la logique de liste autorisée est appliquée :
+* Si la liste autorisée est **empty**, aucun email ne sera envoyé.
 
-* Si une entité n&#39;est **pas sur la liste autorisée** et la liste de suppression, le destinataire correspondant ne recevra pas l&#39;e-mail, la raison étant **[!UICONTROL Non autorisé]**.
+* Si une entité est **sur la liste autorisée**, et non sur la liste de suppression, l&#39;email peut être envoyé au ou aux destinataires correspondants. Cependant, si l’entité figure également sur la variable [liste de suppression](../reports/suppression-list.md), le ou les destinataires correspondants ne recevront pas l&#39;email, la raison étant **[!UICONTROL Supprimé]**.
 
-* Si une entité est **sur la liste autorisée** et pas sur la liste de suppression, l&#39;e-mail peut être envoyé au destinataire correspondant. Cependant, si l&#39;entité figure également dans la [liste de suppression](../reports/suppression-list.md), le destinataire correspondant ne recevra pas l&#39;e-mail, la raison étant **[!UICONTROL Supprimé]**.
+* Si une entité est **non sur la liste autorisée** (et non sur la liste de suppression), le ou les destinataires correspondants ne recevront pas l&#39;email, la raison étant **[!UICONTROL Non autorisé]**.
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 89%
+source-wordcount: '327'
+ht-degree: 87%
 
 ---
 
@@ -18,15 +18,17 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Activité d&#39;attente"
->abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :    durée, date fixe et personnalisé."
+>abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisé."
 
 Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :
 
 * [Durée](#duration)
-* [Date fixe](#fixed_date)
 * [Valeur](#custom) personnalisée
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## À propos de l&#39;activité d&#39;attente{#about_wait}
 
@@ -40,11 +42,14 @@ Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité 
 
 ![](assets/journey55.png)
 
-## Attente à date fixe{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-Sélectionnez la date d&#39;exécution de l&#39;activité suivante.
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## Attente personnalisée{#custom}
 

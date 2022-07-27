@@ -4,7 +4,7 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 50%
@@ -84,7 +84,7 @@ Pour créer une surface de canal, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si les vérifications ne réussissent pas, découvrez les raisons possibles de l’échec dans [cette section](#monitor-message-presets).
+   >Si les vérifications ne réussissent pas, découvrez les raisons possibles de l’échec dans [cette section](#monitor-channel-surfaces).
 
 1. Une fois les vérifications effectuées, la surface du canal reçoit la valeur **[!UICONTROL Principal]** statut. Il est prêt à être utilisé pour diffuser des messages.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Priorité"
+>title="Définir la priorité"
 >abstract="La priorité permet de définir la priorité de l’offre par rapport à d’autres si l’utilisateur est éligible à plusieurs offres. Plus la priorité d’une offre est élevée, plus elle sera comparée à celle d’autres offres."
 
 Les contraintes vous permettent de définir les conditions d’affichage d’une offre.
@@ -40,6 +40,10 @@ Les contraintes vous permettent de définir les conditions d’affichage d’une
 1. Configurez l’**[!UICONTROL admissibilité des offres]**. [En savoir plus](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >Lorsque vous sélectionnez des segments ou des règles de décision, des informations sur les profils qualifiés estimés s’affichent. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
 1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres.
 
@@ -63,8 +67,8 @@ Par exemple, si vous définissez les contraintes suivantes :
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Admissibilité"
->abstract="L’admissibilité de l’offre vous permet de limiter l’offre à des profils spécifiques que vous définissez à l’aide de segments ou de règles de décision."
+>title="Définir l&#39;éligibilité"
+>abstract="Par défaut, tout profil peut se voir présenter l’offre, mais vous pouvez utiliser des segments ou des règles de décision pour restreindre l’offre à des profils spécifiques."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 
    Pour en savoir plus sur les règles de décision, consultez [cette section](creating-decision-rules.md).
 
-## Capping de la fréquence {#capping}
+## Limitation {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Limitation"
->abstract="La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée."
+>title="Utilisation de la limitation"
+>abstract="Pour éviter de sur-solliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 
@@ -178,7 +182,7 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="La modification de la date peut avoir un impact sur la limitation."
+>title="La modification des dates peut avoir un impact sur la limitation."
 >abstract="Si la limitation est appliquée à cette offre, elle peut être affectée lorsque vous modifiez la date de début ou de fin."
 
 Vous devez procéder avec précaution lors de la modification de la date d’une offre, car cela peut avoir un impact sur la limitation si les conditions suivantes sont remplies :
@@ -191,7 +195,7 @@ Vous devez procéder avec précaution lors de la modification de la date d’une
 >
 >Découvrez comment définir la date d’une offre dans [cette section](creating-personalized-offers.md#create-offer).
 
-Le capping de la fréquence par profil stocke les valeurs de limitation sur chaque profil. Lorsque vous modifiez la date de début et de fin d’une offre approuvée, le nombre de limitations de certains profils peut être affecté selon les différents scénarios décrits ci-dessous.
+La limitation par profil stocke les valeurs de limitation sur chaque profil. Lorsque vous modifiez la date de début et de fin d’une offre approuvée, le nombre de limitations de certains profils peut être affecté selon les différents scénarios décrits ci-dessous.
 
 ![](../assets/offer-capping-change-date.png)
 

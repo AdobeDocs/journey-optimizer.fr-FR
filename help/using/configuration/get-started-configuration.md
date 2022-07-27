@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 76%
@@ -22,7 +22,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
 1. **Configuration des messages et des canaux**: définir les surfaces des canaux, adapter et personnaliser les messages ;
 
-   * Créez des surfaces de canal pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](message-presets.md)
+   * Créez des surfaces de canal pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
 
    * Déterminez l&#39;adresse e-mail à utiliser en priorité pour vos destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
 

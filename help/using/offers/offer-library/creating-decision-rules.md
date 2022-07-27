@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '300'
+ht-degree: 83%
 
 ---
 
@@ -35,16 +35,19 @@ Pour créer cette règle de décision, procédez comme suit :
 
    Pour ce faire, le **Créateur de segments** est disponible pour vous aider à créer les conditions de la règle. [En savoir plus](../../segment/about-segments.md)
 
-   Dans cet exemple, la règle cible les clients qui ont le niveau de fidélité « Or ».
+   <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
    ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
-   >Le Créateur de segments fourni pour créer des règles de décision présente certaines spécificités par rapport à celui utilisé avec le service **[!UICONTROL Destinations d&#39;audience]**. Par exemple, l&#39;onglet **[!UICONTROL Segments]** n&#39;est pas disponible. Cependant, le processus global décrit dans la documentation du Créateur de segments est toujours valide pour créer des règles de décision d&#39;offre.
+   >Le Créateur de segments fourni pour créer des règles de décision présente certaines spécificités par rapport à celui utilisé avec le service **[!UICONTROL Destinations d&#39;audience]**. Par exemple, l&#39;onglet **[!UICONTROL Segments]** n&#39;est pas disponible. Toutefois, le processus global décrit dans la section [Créateur de segments](../../segment/about-segments.md) La documentation est toujours valide pour créer des règles de décision d’offres. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
 
+1. À mesure que vous ajoutez et configurez de nouveaux champs dans l’espace de travail, la variable **[!UICONTROL Propriétés du segment]** affiche des informations sur les profils estimés appartenant au segment. Cliquez sur **[!UICONTROL Actualiser l’estimation]** pour mettre à jour les données.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour valider.
+   ![](../assets/offers_decision_rule_creation_estimate.png)
+
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
 1. Une fois la règle créée, elle s&#39;affiche dans la liste des règles. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 

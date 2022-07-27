@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 1%
@@ -33,7 +33,7 @@ L&#39;objectif ici est de voir si les destinataires interagissent avec l&#39;ema
 
    ![](assets/content_experiment_1.png)
 
-1. Sélectionner **[!UICONTROL Email]** puis la fonction **[!UICONTROL Surface]** vous souhaitez utiliser pour cette diffusion. Voir à ce sujet la section [Surfaces des canaux](../configuration/message-presets.md) page.
+1. Sélectionner **[!UICONTROL Email]** puis la fonction **[!UICONTROL Surface]** vous souhaitez utiliser pour cette diffusion. Voir à ce sujet la section [Surfaces des canaux](../configuration/channel-surfaces.md) page.
 
    ![](assets/content_experiment_2.png)
 

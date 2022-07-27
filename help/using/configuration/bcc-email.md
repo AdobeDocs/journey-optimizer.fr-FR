@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 88%
@@ -24,7 +24,7 @@ Vous pouvez envoyer une copie identique (ou copie carbone invisible) d’un e-ma
 
 ## Activer les e-mails en Cci {#enable-bcc}
 
-Pour activer la variable **[!UICONTROL Email Cci]** , saisissez l&#39;adresse email de votre choix dans le champ dédié du champ [surface du canal](message-presets.md) (c’est-à-dire le paramètre prédéfini du message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
+Pour activer la variable **[!UICONTROL Email Cci]** , saisissez l&#39;adresse email de votre choix dans le champ dédié du champ [surface du canal](channel-surfaces.md) (c’est-à-dire le paramètre prédéfini du message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
 
 >[!NOTE]
 >

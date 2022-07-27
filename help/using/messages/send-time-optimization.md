@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 97%
@@ -36,8 +37,7 @@ Ces informations sont stockées avec le profil de l&#39;utilisateur et sont réf
 
 >[!CAUTION]
 >
->* Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
-
+>Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
 ### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 

@@ -4,7 +4,7 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 92%
@@ -351,7 +351,7 @@ Votre événement sera déclenché et vous recevrez votre notification push sur 
 
 Une fois votre application mobile configurée dans [!DNL Adobe Experience Platform Data Collection], vous devez créer une surface pour pouvoir envoyer des notifications push depuis **[!DNL Journey Optimizer]**.
 
-Découvrez comment créer et configurer une surface de canal dans [cette section](../configuration/message-presets.md).
+Découvrez comment créer et configurer une surface de canal dans [cette section](../configuration/channel-surfaces.md).
 
 Vous êtes maintenant prêt à envoyer des notifications push avec Journey Optimizer.
 

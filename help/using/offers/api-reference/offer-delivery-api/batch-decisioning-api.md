@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 91%
+source-wordcount: '751'
+ht-degree: 90%
 
 ---
 
@@ -32,19 +32,20 @@ Pour ce faire, l&#39;organisation :
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>La prise de décision par lots peut également être effectuée à l’aide de l’interface de Journey Optimizer. Pour plus d’informations, reportez-vous à la section [cette section](../../batch-delivery.md), qui fournit des informations sur les conditions préalables et les limites globales à prendre en compte lors de l’utilisation de la prise de décision par lots.
+
+* **Nombre de tâches par lot en cours d’exécution par jeu de données** : jusqu’à cinq traitements par lot peuvent être exécutées à la fois, par jeu de données. Toutes les autres requêtes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Une tâche en file d’attente est sélectionnée pour traitement une fois que la tâche précédente a fini son exécution.
+* **Capping de la fréquence** : un lot s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. L&#39;API [!DNL Batch Decisioning] limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent.
+
 ## Prise en main {#getting-started}
 
 Avant d&#39;utiliser cette API, veillez à suivre les étapes préalables suivantes.
 
 ### Préparer la décision {#prepare-decision}
 
-Suivez les étapes ci-dessous pour préparer une ou plusieurs décisions :
-
-* Pour exporter le résultat de la décision, créez un jeu de données à l&#39;aide du schéma « ODE DecisionEvents ».
-
-* Créez un segment Platform qui doit être évalué puis mis à jour. Reportez-vous à la section [documentation sur la segmentation](http://www.adobe.com/go/segmentation-overview-en_fr) pour en savoir plus sur la mise à jour de l&#39;évaluation de l&#39;appartenance à un segment.
-
-* Créez une décision (dont la portée de décision est composée d&#39;un ID de décision et d&#39;un ID de référencement) dans Adobe Journey Optimizer. Reportez-vous à la [section sur la définition des portées de décision](../../offer-activities/create-offer-activities.md) du guide sur la création de décisions pour en savoir plus.
+Pour préparer une ou plusieurs décisions, veillez à créer un jeu de données, un segment et une décision. Ces prérequis sont présentés dans la section [cette section](../../batch-delivery.md).
 
 ### Exigences en termes d&#39;API {#api-requirements}
 
@@ -58,6 +59,10 @@ Toutes les requêtes [!DNL Batch Decisioning] nécessitent les en-têtes suivant
 ## Démarrage d&#39;un traitement par lot {#start-a-batch-process}
 
 Pour démarrer une charge de travail afin de prendre des décisions concernant le traitement par lots, envoyez une requête POST au point d&#39;entrée `/workloads/decisions`.
+
+>[!NOTE]
+>
+>Vous trouverez des informations détaillées sur le temps de traitement des tâches par lots dans la section [cette section](../../batch-delivery.md).
 
 **Format d’API**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | L&#39;heure à laquelle la requête de charge de travail de décision a été créée. | `1648076994405` |
 | `ode:status` | L&#39;état de la charge de travail commence par « QUEUED » et passe à « PROCESSING », « INGESTING », « COMPLETED » ou « ERROR ». | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Elle affiche plus de détails, tels que sparkJobId et batchID si l&#39;état est « PROCESSING » ou « INGESTING ». Elle affiche les détails de l’erreur si l&#39;état est « ERROR ». |  |
-
-## Niveaux de service {#service-levels}
-
-L’heure de bout en bout de chaque décision de lot correspond à la durée entre le moment où la charge de travail est créée et le moment où le résultat de la décision est disponible dans le jeu de données de sortie. La taille du segment dans le payload de la requête POST est le facteur principal qui affecte le temps de décision de lot bout en bout. Si le plafond global de fréquence est activé pour l’offre éligible, la prise de décision par lots prend plus de temps. Vous trouverez ci-dessous quelques approximations du temps de traitement de bout en bout pour leurs tailles de segment respectives, avec ou sans limitation de fréquence pour les offres éligibles :
-
-Avec le plafonnement de fréquence activé pour les offres éligibles :
-
-| Taille du segment | Temps de traitement de bout en bout |
-|--------------|----------------------------|
-| 10 000 profils ou moins | 7 minutes |
-| 1 million de profils ou moins | 30 minutes |
-| 15 million de profils ou moins | 50 minutes |
-
-Sans limite de fréquence pour les offres éligibles :
-
-| Taille du segment | Temps de traitement de bout en bout |
-|--------------|----------------------------|
-| 10 000 profils ou moins | 6 minutes |
-| 1 million de profils ou moins | 8 minutes |
-| 15 million de profils ou moins | 16 minutes |
-
-## Limites {#limitations}
-
-Lors de l&#39;utilisation de l’API [!DNL Batch Decisioning], gardez à l&#39;esprit les restrictions suivantes :
-
-* **Nombre de tâches par lot en cours d’exécution par jeu de données** : jusqu’à cinq traitements par lot peuvent être exécutées à la fois, par jeu de données. Toutes les autres requêtes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Une tâche en file d’attente est sélectionnée pour traitement une fois que la tâche précédente a fini son exécution.
-* **Capping de la fréquence** : un lot s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. L&#39;API [!DNL Batch Decisioning] limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent.
 
 ## Étapes suivantes {#next-steps}
 

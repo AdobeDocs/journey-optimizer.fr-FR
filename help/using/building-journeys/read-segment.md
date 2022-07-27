@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 98%
+source-wordcount: '1179'
+ht-degree: 91%
 
 ---
 
@@ -82,7 +82,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](assets/read-segment-schedule-list.png)
 
-   Lʼoption **Lecture incrémentielle** vous permet de cibler uniquement les individus qui sont entrés dans le segment depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres du segment. Cette option n’est disponible que pour les activités **Lecture de segment** récurrentes.
+   **Lecture incrémentale** option : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment entrent dans le parcours. À l’occurrence suivante, tous les profils reprennent le parcours, même s’ils étaient déjà à l’intérieur. L’ancienne instance du profil dans le parcours est arrêtée et une nouvelle instance est créée. Le **Lecture incrémentale** permet de cibler, après la première occurrence, les individus entrés dans le segment depuis la dernière exécution du parcours.
 
 <!--
 

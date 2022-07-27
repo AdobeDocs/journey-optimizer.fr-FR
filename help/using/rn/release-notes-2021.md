@@ -2,7 +2,7 @@
 title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Administration**
 
-* **Modifier les paramètres prédéfinis de message** - Vous pouvez désormais modifier les préréglages de message et surveiller leur statut de mise à jour. [En savoir plus](../configuration/message-presets.md#edit-message-preset)
+* **Modifier les paramètres prédéfinis de message** - Vous pouvez désormais modifier les préréglages de message et surveiller leur statut de mise à jour. [En savoir plus](../configuration/channel-surfaces.md#edit-channel-surface)
 * **Modification des enregistrements PTR** - Vous pouvez désormais modifier les enregistrements PTR et surveiller leur statut de mise à jour. [En savoir plus](../configuration/ptr-records.md#edit-ptr-record)
 
 **Personnalisation**

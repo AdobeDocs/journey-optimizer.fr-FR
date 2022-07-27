@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 85%
+source-wordcount: '908'
+ht-degree: 86%
 
 ---
 
@@ -128,9 +128,19 @@ Pour appliquer une règle de fréquence à un message, procédez comme suit.
 
 1. Toutes les règles de fréquence correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
 
-   >[!NOTE]
-   >
-   >Les messages où la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
+1. Vous pouvez cliquer sur le lien **[!UICONTROL Règle de fréquence]** pour afficher les règles de fréquence qui s’appliqueront à la catégorie et aux canaux sélectionnés.
+
+   ![](assets/message-rules-msg-link.png)
+
+   Un nouvel onglet s’ouvre pour afficher les règles de fréquence des messages correspondantes.
+
+Toutes les règles de fréquence correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
+
+>[!NOTE]
+>
+>Les messages <!--that do not have any selected category or messages -->où la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
+
+<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. Vous pouvez visualiser le nombre de profils exclus de la diffusion dans la variable [Rapport global](../reports/global-report.md), et dans le [Rapport en direct](../reports/live-report.md), où les règles de fréquence seront répertoriées comme une raison possible pour les utilisateurs exclus de la diffusion.
 

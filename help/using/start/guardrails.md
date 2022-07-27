@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 81%
+source-wordcount: '744'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ Les barrières de performance et les limites statiques pour la gestion des déci
 ### Événements {#events-g}
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
+* Les événements professionnels ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification de segment.
 
 ### Sources de données  {#data-sources-g}
 

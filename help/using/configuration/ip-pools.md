@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 70%
@@ -50,7 +50,7 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez la sélectionner pour accéder à ses propriétés et afficher la surface du canal associé (c’est-à-dire le paramètre prédéfini du message). Pour plus d’informations sur l’association d’une surface de canal à un pool d’adresses IP, reportez-vous à la section [cette section](message-presets.md).
+Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez la sélectionner pour accéder à ses propriétés et afficher la surface du canal associé (c’est-à-dire le paramètre prédéfini du message). Pour plus d’informations sur l’association d’une surface de canal à un pool d’adresses IP, reportez-vous à la section [cette section](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -76,14 +76,14 @@ Pour modifier un pool d’adresses IP :
 
 1. Enregistrez vos modifications.
 
-La mise à jour est effective immédiatement ou de manière asynchrone, selon le pool d’adresses IP associé à un [surface du canal](message-presets.md) ou non :
+La mise à jour est effective immédiatement ou de manière asynchrone, selon le pool d’adresses IP associé à un [surface du canal](channel-surfaces.md) ou non :
 
 * Si le pool d’adresses IP est **not** associée à n’importe quelle surface de canal, la mise à jour est instantanée (**[!UICONTROL Succès]** status).
 * Si le pool d’adresses IP **is** associée à la surface d’un canal, la mise à jour peut prendre jusqu’à 3 heures (**[!UICONTROL Traitement]** status).
 
 >[!NOTE]
 >
->When [création d’une surface de canal](message-presets.md#create-message-preset), si vous sélectionnez un pool d’adresses IP en cours d’édition (**[!UICONTROL Traitement]** ) et n’a jamais été associé au sous-domaine sélectionné pour cette surface, vous ne pouvez pas poursuivre la création de surface. [En savoir plus](message-presets.md#subdomains-and-ip-pools)
+>When [création d’une surface de canal](channel-surfaces.md#create-channel-surface), si vous sélectionnez un pool d’adresses IP en cours d’édition (**[!UICONTROL Traitement]** ) et n’a jamais été associé au sous-domaine sélectionné pour cette surface, vous ne pouvez pas poursuivre la création de surface. [En savoir plus](channel-surfaces.md#subdomains-and-ip-pools)
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 

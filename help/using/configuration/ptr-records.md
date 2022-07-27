@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -99,7 +99,7 @@ Une fois que vous avez confirmé la modification de l’enregistrement PTR, l’
 
 >[!NOTE]
 >
->Le [traitement de la mise à jour](#processing) peut prendre jusqu’à quelques heures.
+>Le [traitement des mises à jour](#processing) peut prendre jusqu’à 3 heures.
 
 Pour vérifier les détails de la mise à jour de l’enregistrement PTR, cliquez sur l’icône en regard de celui-ci. En savoir plus sur les statuts associés aux différentes icônes dans [cette section](#ptr-record-update-statuses).
 
@@ -119,7 +119,7 @@ Une mise à jour d’enregistrement PTR peut afficher les états suivants :
 
 ### En cours de traitement {#processing}
 
-Plusieurs contrôles de délivrabilité seront effectués pour vérifier la validité du nouveau sous-domaine à associer à l’adresse IP. Cela peut prendre jusqu’à quelques heures.
+Plusieurs contrôles de délivrabilité seront effectués pour vérifier la validité du nouveau sous-domaine à associer à l’adresse IP. Cela peut prendre jusqu’à 3 heures.
 
 >[!NOTE]
 >

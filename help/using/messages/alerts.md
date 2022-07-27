@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 72%
@@ -49,7 +49,7 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
    >[!NOTE]
    >
-   >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [surface du canal](../configuration/message-presets.md#email-type) niveau et à quel moment [création du message](get-started-content.md#create-new-message).
+   >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [surface du canal](../configuration/channel-surfaces.md#email-type) niveau et à quel moment [création du message](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
 
@@ -67,7 +67,7 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 * **[!UICONTROL La version e-mail du message est vide.]** : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré. Découvrez comment concevoir le contenu des e-mails dans [cette section](../design/design-emails.md).
 
-* **[!UICONTROL La surface n’existe pas]**: vous ne pouvez pas utiliser votre message si la surface que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre surface dans le message. **[!UICONTROL Propriétés]**. En savoir plus sur les surfaces des canaux dans [cette section](../configuration/message-presets.md).
+* **[!UICONTROL La surface n’existe pas]**: vous ne pouvez pas utiliser votre message si la surface que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre surface dans le message. **[!UICONTROL Propriétés]**. En savoir plus sur les surfaces des canaux dans [cette section](../configuration/channel-surfaces.md).
 
 * **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](create-push.md).
 

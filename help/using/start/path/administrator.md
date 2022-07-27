@@ -3,10 +3,10 @@ title: Prise en main de Journey Optimizer pour l’administrateur système
 description: En tant qu’administrateur système, découvrez comment utiliser Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 89%
+source-wordcount: '732'
+ht-degree: 87%
 
 ---
 
@@ -37,18 +37,18 @@ En outre, vous devez ajouter les utilisateurs qui doivent accéder à Assets Es
 
 Lorsque vous accédez à [!DNL Journey Optimizer] pour la première fois, une sandbox de production vous est allouée ainsi qu’un certain nombre d’adresses IP en fonction de votre contrat. 
 
-Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADMINISTRATION**. Parcourez les **[!UICONTROL Canaux]** pour configurer vos messages et surfaces (c’est-à-dire les paramètres prédéfinis).
+Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADMINISTRATION**. Parcourez les **[!UICONTROL Canaux]** pour configurer les messages et les surfaces des canaux (c’est-à-dire les paramètres prédéfinis des messages).
 
 >[!NOTE]
 >En tant qu’**administrateur système**, si le menu **[!UICONTROL Canaux]** ne s’affiche pas dans [!DNL Journey Optimizer], mettez à jour vos autorisations dans l’[Admin Console](https://adminconsole.adobe.com/){_blank}. Découvrez comment mettre à jour votre profil de produit sur [cette page](../../administration/permissions.md#edit-product-profile). 
 
 Suivez les étapes énumérées ci-dessous :
 
-1. **Configuration des messages et des canaux**: définir des surfaces, adapter et personnaliser les paramètres des emails et des messages push ;
+1. **Configuration des messages et des canaux**: définir des surfaces, adapter et personnaliser les paramètres des emails, SMS et messages push ;
 
    * Définissez **les paramètres des notifications push** dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../../configuration/push-gs.md)
 
-   * Créer **surfaces des canaux** (c’est-à-dire les paramètres prédéfinis de message) pour configurer tous les paramètres techniques requis pour les messages de notification push et par email. [En savoir plus](../../configuration/message-presets.md)
+   * Créer **surfaces des canaux** (c’est-à-dire les paramètres prédéfinis de message) pour configurer tous les paramètres techniques requis pour l’email, le SMS et la notification push. [En savoir plus](../../configuration/channel-surfaces.md)
 
    * Configurez la variable **Canal SMS** pour configurer tous les paramètres techniques requis pour les SMS. [En savoir plus](../../configuration/sms-configuration.md)
 
@@ -62,7 +62,7 @@ Suivez les étapes énumérées ci-dessous :
 
    ![](../assets/ip-pool.png)
 
-1. **Gérer les listes de suppression et d’autorisation** : améliorez votre délivrabilité grâce aux listes de suppression et d’autorisation. 
+1. **Gestion de la suppression et des listes autorisées**: améliorer votre délivrabilité avec suppression et listes autorisées ;
 
    * Une [liste de suppression](../../reports/suppression-list.md) est constituée d’adresses e-mail que vous souhaitez exclure de vos diffusions, car l’envoi d’e-mails à ces contacts pourrait nuire à votre réputation d’envoi et à vos taux de diffusion. Vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi d’un parcours, telles que les adresses non valides, les adresses qui entraînent constamment des soft bounces et qui pourraient nuire à la réputation de vos e-mails, ainsi que les destinataires qui demandent le classement de l’un de vos e-mails comme spam. Découvrez comment gérer la [liste de suppression](../../configuration/manage-suppression-list.md) et les [reprises](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)

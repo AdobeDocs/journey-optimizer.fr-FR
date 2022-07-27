@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '824'
 ht-degree: 8%
 
 ---
 
-# Prise en main des actions de canal {#get-started-messages}
+# Prise en main des messages {#get-started-messages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
@@ -61,7 +61,7 @@ Pour ajouter des messages dans vos parcours, ajoutez simplement une activité pu
 
 1. Sélectionner le message **[!UICONTROL Catégorie]**: select **Marketing** pour les messages commerciaux, ou **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Si vous avez défini [règles de fréquence](../configuration/frequency-rules.md) pour un canal et une catégorie spécifiques, ils sont automatiquement appliqués au message lors de la sélection de ce canal et de cette catégorie. Actuellement, seule la variable **[!UICONTROL Marketing]** est disponible pour les règles de fréquence.
 
@@ -73,7 +73,7 @@ Pour ajouter des messages dans vos parcours, ajoutez simplement une activité pu
 
 1. Sélectionner le canal **[!UICONTROL Surface]** (c’est-à-dire le paramètre prédéfini du message) à utiliser pour envoyer votre message.
 
-   Une surface est une configuration définie par une [Administrateur système](../start/path/administrator.md). Il contient tous les paramètres techniques pour l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/message-presets.md).
+   Une surface est une configuration définie par une [Administrateur système](../start/path/administrator.md). Il contient tous les paramètres techniques pour l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ Pour accéder aux paramètres avancés, cliquez sur le bouton **[!UICONTROL Affi
 
 ![](assets/show-read-only.png)
 
-Les paramètres avancés sont affichés au bas du volet des messages. Ces paramètres sont définis par la variable [administrateur système](../start/path/administrator.md) dans le [surface du canal](../configuration/message-presets.md) (c’est-à-dire le paramètre prédéfini du message) associé au message.
+Les paramètres avancés sont affichés au bas du volet des messages. Ces paramètres sont définis par la variable [administrateur système](../start/path/administrator.md) dans le [surface du canal](../configuration/channel-surfaces.md) (c’est-à-dire le paramètre prédéfini du message) associé au message.
 
 Pour les notifications push, vous pouvez afficher les paramètres suivants : Jeton, AppID, AppPlatform.
 
@@ -155,7 +155,7 @@ Pour ce faire, suivez les étapes ci-après :
 >
 >Pour les emails, vous pouvez également transformer un message existant en modèle. [En savoir plus](../design/email-templates.md).
 
-## Supprimer un message
+## Supprimer un message{#delete-message}
 
 Pour supprimer un message, utilisez l’icône de corbeille située en haut du volet de l’activité d’action du canal.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 1. Utilisez le champ **[!UICONTROL Éligibilité]** pour restreindre la sélection des offres pour cet emplacement. 
 
-   Cette contrainte peut être appliquée en utilisant une **règle de décision** ou un ou plusieurs **segments Adobe Experience Platform**. Ceux-ci sont présentés dans [cette section](#segments-vs-decision-rules).
+   Cette contrainte peut être appliquée en utilisant une **règle de décision** ou un ou plusieurs **segments Adobe Experience Platform**. Ceux-ci sont présentés dans [cette section](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
    * Pour limiter la sélection des offres aux membres d’un segment Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter des segments]**. 
 
@@ -87,6 +87,10 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
       ![](../assets/activity_constraint_rule.png)
 
       Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md). 
+
+      >[!NOTE]
+      >
+      >Lorsque vous sélectionnez des segments ou des règles de décision, des informations sur les profils qualifiés estimés s’affichent. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
 1. Définissez la méthode de classement à utiliser pour sélectionner la meilleure offre pour chaque profil. 
 
@@ -117,26 +121,6 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 1. Pour ajouter un emplacement supplémentaire pour vos offres dans le cadre de cette décision, cliquez sur le bouton **[!UICONTROL Nouvelle portée]**. Répétez les étapes ci-dessus pour chaque portée de décision. 
 
    ![](../assets/activity_new-scope.png)
-
-### Utilisation des segments par rapport aux règles de décision {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-Pour appliquer une contrainte, vous pouvez restreindre la sélection des offres aux membres d’un ou de plusieurs **segments Adobe Experience Platform**, ou vous pouvez utiliser une **règle de décision**, les deux solutions correspondant à des utilisations différentes.
-
-Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision. La différence entre ces deux usages est présentée ci-dessous.
-
-* **Segments**
-
-   D’une part, les segments sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la gestion des offres ne recalcule pas le segment, qui peut ne pas être à jour lors de la présentation de l’offre.
-
-   En savoir plus sur les segments dans [cette section](../../segment/about-segments.md).
-
-* **Règles de décision**
-
-   D’un autre côté, une règle de décision est basée sur les données disponibles dans Adobe Experience Platform et détermine à qui une offre peut être montrée. Une fois sélectionnée dans une offre ou une décision pour un emplacement donné, la règle est exécutée chaque fois qu’une décision est prise, ce qui garantit que chaque profil obtient la dernière et la meilleure offre.
-
-   Pour en savoir plus sur les règles de décision, consultez [cette section](../offer-library/creating-decision-rules.md).
 
 ## Ajouter une offre de secours {#add-fallback}
 

@@ -2,9 +2,9 @@
 title: Migration vers la création en ligne de parcours
 description: Découvrez comment migrer vos messages
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1732'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ La migration se produit pour chaque région la nuit, via plusieurs itérations. 
 
 Pourquoi avons-nous besoin de plusieurs itérations ?
 
-Au cours d&#39;une itération, nous allons passer en revue chaque parcours et nous les migrons lorsque cela est possible. Dans certains cas, la migration automatique n’est pas souhaitée : lorsque le parcours est actif ou fermé (ce qui signifie qu’il peut toujours y avoir des profils). Dans ce cas, nous vous demandons d’effectuer une action, puis l’itération suivante migre ces parcours qui n’ont pas pu être migrés dans l’itération précédente.
+Au cours d&#39;une itération, nous allons passer en revue chaque parcours et nous les migrons lorsque cela est possible. Dans certains cas, la migration automatique n’est pas souhaitée : lorsque le parcours est actif (ce qui signifie qu’il peut toujours y avoir des profils). Dans ce cas, nous vous demandons d’effectuer une action, puis l’itération suivante migre ces parcours qui n’ont pas pu être migrés dans l’itération précédente.
 
 ## FAQ {#faq}
 
