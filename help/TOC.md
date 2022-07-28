@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1114'
 ht-degree: 96%
 
 ---
@@ -276,7 +276,9 @@ ht-degree: 96%
       + [Formules de classement](using/offers/ranking/create-ranking-formulas.md)
       + Modèles d’IA {#ai-models}
          + [À propos des modèles d’IA](using/offers/ranking/ai-models.md)
-         + [Modèle dʼoptimisation automatique](using/offers/ranking/auto-optimization-model.md)
+         + Types de modèles d’IA {#ai-model-types}
+            + [Modèle dʼoptimisation automatique](using/offers/ranking/auto-optimization-model.md)
+            + [Modèle d’optimisation personnalisé](using/offers/ranking/personalized-optimization-model.md)
          + Créer des modèles d’IA {#configure-ai-model}
             + [Créer un jeu de données pour collecter des événements](using/offers/ranking/create-dataset.md)
             + [Créer un modèle d’IA](using/offers/ranking/create-ranking-strategies.md)

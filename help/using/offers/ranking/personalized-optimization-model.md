@@ -1,0 +1,72 @@
+---
+product: experience platform
+solution: Experience Platform
+title: Modèle d’optimisation personnalisé
+description: En savoir plus sur les modèles d’optimisation personnalisés
+feature: Ranking Formulas
+role: User
+level: Intermediate
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 0%
+
+---
+
+# Modèle d’optimisation personnalisé {#personalized-optimization-model}
+
+>[!CAUTION]
+>
+>L’utilisation des modèles d’optimisation personnalisée est actuellement disponible en accès anticipé pour certains utilisateurs uniquement.
+
+## Présentation {#overview}
+
+En mettant à profit les technologies de pointe dans le cadre de l’apprentissage automatique et de l’apprentissage profond supervisés, la personnalisation automatique permet à un utilisateur professionnel (marketeur) de définir des objectifs commerciaux et d’utiliser ses données client pour former des modèles orientés métier afin de servir des offres personnalisées et d’optimiser les indicateurs de performance clés.
+
+## Principales hypothèses et limites du modèle {#key}
+
+Afin de maximiser l’avantage de l’utilisation de la personnalisation automatique, il existe certaines hypothèses et limites clés à connaître.
+
+* **Les offres sont suffisamment différentes pour que les utilisateurs aient des préférences différentes parmi les offres prises en compte.**. Si les offres sont trop similaires, un modèle résultant aura moins d’impact, car les réponses semblent aléatoires.
+Par exemple, si une banque a deux offres de cartes de crédit dont la seule différence est la couleur, peu importe la carte qui est recommandée, mais si chaque carte comporte des termes différents, cela explique pourquoi certains clients en choisissent une et fournit suffisamment de différence entre les offres pour créer un modèle plus performant.
+* **La composition du trafic utilisateur est stable**. Si la composition du trafic utilisateur change considérablement au cours de la formation et de la prédiction des modèles, les performances du modèle peuvent se dégrader. Supposons, par exemple, que, lors de la phase de formation du modèle, seules les données pour les utilisateurs du segment A soient disponibles, mais que le modèle formé soit utilisé pour générer des prédictions pour les utilisateurs du segment B, les performances du modèle pourraient alors être affectées.
+* **Les performances des offres ne changent pas considérablement sur une courte période** lorsque ce modèle est mis à jour chaque semaine et que les modifications apportées aux performances sont répercutées lors des mises à jour du modèle. Par exemple, un produit était très populaire auparavant, mais un rapport public identifie le produit comme nocif pour notre santé, et ce produit devient impopulaire extrêmement rapidement. Dans ce scénario, le modèle peut continuer à prédire ce produit jusqu’à ce que le modèle se mette à jour avec les changements de comportement de l’utilisateur.
+
+## Fonctionnement {#how}
+
+La personnalisation automatique identifie les interactions de fonctionnalités complexes entre les offres, les informations des utilisateurs et les informations contextuelles afin de recommander des offres personnalisées aux utilisateurs finaux. Les fonctionnalités sont des entrées dans le modèle.
+
+Il existe trois types de fonctionnalités :
+
+| Types de fonctionnalités | Comment ajouter des fonctionnalités aux modèles |
+|--------------|----------------------------|
+| Objets d’Offer decisioning (placementID, activityID, décisionScopeID) | Partie des événements d’expérience de retour d’Offer decisioning envoyés à AEP |
+| Segments | Il est possible d’ajouter de 0 à 50 segments en tant que fonctionnalités lors de la création du modèle d’IA dédiée au classement |
+| Données contextuelles | Partie des événements d’expérience de retour d’Offer decisioning envoyés à AEP. Données contextuelles disponibles à ajouter au schéma : Détails du commerce, Détails du canal, Détails de l’application, Détails web, Détails de l’environnement, Détails du périphérique, placeContext |
+
+Le modèle comporte deux phases :
+
+* Dans le **formation de modèle hors ligne** , un modèle est formé en apprenant et en mémorisant les interactions de fonctionnalités dans les données historiques.
+* Dans le **inférence en ligne** Les offres des candidats sont classées en fonction des scores en temps réel générés par le modèle. Contrairement aux techniques de filtrage collaboratif traditionnelles, difficiles à inclure pour les utilisateurs et les offres, la personnalisation automatique est une méthode de recommandation basée sur un apprentissage profond, qui permet d’inclure et d’apprendre des modèles d’interaction de fonctionnalités complexes et non linéaires.
+
+Voici un exemple simplifié illustrant l’idée de base de la personnalisation automatique. Supposons que nous ayons un jeu de données qui stocke les interactions historiques entre les utilisateurs et les offres, comme illustré dans la figure 1. Il existe :
+* Deux offres, offer_1 et offer_2,
+* Deux fonctionnalités, feature_1 et feature_2,
+* Une colonne de réponse.
+
+La valeur de feature_1, feature_2 et la réponse est 0 ou 1. Lorsque nous examinons les cases bleues et orange dans la figure 1, nous constatons que pour offer_1, les réponses sont plus susceptibles d’être 1 lorsque feature_1 et feature_2 ont les mêmes valeurs, tandis que pour offer_2, les étiquettes sont plus susceptibles d’être 1 lorsque feature_1 est 0 et feature_2 est 1. Nous pouvons également constater que dans la zone rouge, offer_1 est diffusé lorsque feature_1 est 0 et feature_2 est 1 et que la réponse est 0. En fonction du modèle que nous observons dans les zones orange, lorsque feature_1 est 0 et feature_2 est 1, offer_2 est probablement une meilleure recommandation.
+
+En gros, il s’agit de l’idée d’apprendre et de mémoriser les interactions des caractéristiques historiques et de les appliquer pour générer des prédictions personnalisées.
+
+![](../assets/perso-ranking-schema.png)
+
+## Problème de démarrage à froid {#cold-start}
+
+Un problème de démarrage à froid se produit lorsqu’il n’y a pas assez de données pour faire une recommandation. Pour la personnalisation automatique, il existe deux types de problèmes de démarrage à froid.
+
+* **Après avoir créé une nouvelle stratégie de classement sans données historiques**, les offres seront diffusées de manière aléatoire pendant une période afin de collecter des données, et les données seront utilisées pour former le premier modèle.
+* A **une fois le premier modèle libéré ;**, 10 % du trafic total sera affecté à une diffusion aléatoire tandis que 90 % du trafic sera utilisé pour les recommandations de modèle. Par conséquent, si de nouvelles offres étaient ajoutées à la stratégie de classement, elles seraient diffusées dans le cadre des 10 % de trafic. Les données collectées sur ces offres déterminent le nombre de fois où elles sont sélectionnées parmi les 90 % de trafic au fur et à mesure de la mise à jour du modèle.
+
+## Reformation {#re-training}
+
+Les modèles seront reformés afin d’apprendre les dernières interactions de fonctionnalités et d’atténuer chaque semaine la dégradation des performances des modèles.

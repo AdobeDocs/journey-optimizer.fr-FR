@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 28%
+source-wordcount: '569'
+ht-degree: 26%
 
 ---
 
@@ -73,25 +73,23 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
+<th><strong>Utiliser automatiquement l’offre la plus performante dans vos décisions (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion de la décision. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
+<p>L’utilisation des modèles d’optimisation personnalisée d’AI est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the detailed documentation.</p>
+<p>Pour plus d'informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### Améliorations
 
