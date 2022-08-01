@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
+source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 52%
@@ -53,7 +53,7 @@ Vous ne pouvez arrêter un parcours que si une urgence s’est produite et que t
 
 ### Balise de fin de parcours{#end-tag}
 
-Lors de la création d’un parcours, un &quot;test de fin&quot; s’affiche à la fin de chaque chemin. Ce noeud ne peut pas être ajouté par un utilisateur, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours. Si le parcours comporte plusieurs chemins, il est recommandé d&#39;ajouter un libellé à chaque extrémité afin de faciliter la lisibilité des rapports. Consultez [cette page](../reports/live-report.md).
+Lors de la création d’un parcours, une &quot;balise de fin&quot; s’affiche à la fin de chaque chemin. Ce noeud ne peut pas être ajouté par un utilisateur, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours. Si le parcours comporte plusieurs chemins, il est recommandé d&#39;ajouter un libellé à chaque extrémité afin de faciliter la lisibilité des rapports. Consultez [cette page](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
