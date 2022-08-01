@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 58%
+source-wordcount: '785'
+ht-degree: 52%
 
 ---
 
@@ -51,21 +51,21 @@ Vous ne pouvez arrêter un parcours que si une urgence s’est produite et que t
 >
 >Notez que vous ne pouvez pas reprendre un parcours fermé ou arrêté.
 
-<!--
+### Balise de fin de parcours{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+Lors de la création d’un parcours, un &quot;test de fin&quot; s’affiche à la fin de chaque chemin. Ce noeud ne peut pas être ajouté par un utilisateur, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours. Si le parcours comporte plusieurs chemins, il est recommandé d&#39;ajouter un libellé à chaque extrémité afin de faciliter la lisibilité des rapports. Consultez [cette page](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### Activité de fin{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-L’activité **[!UICONTROL Fin]** vous permet de marquer la fin de chaque chemin du parcours. Elle n&#39;est pas obligatoire, mais recommandée pour assurer une meilleure clarté visuelle. Voir [cette page](../building-journeys/end-activity.md)
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### Fermeture d’un parcours{#close-journey}
 
