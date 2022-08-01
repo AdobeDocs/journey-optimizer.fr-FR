@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '280'
 ht-degree: 98%
 
 ---
@@ -35,8 +35,7 @@ Commencez votre parcours en faisant glisser et déposer une activité d’évén
 
 Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
-* [Condition](../building-journeys/condition-activity.md)
-* [Fin](../building-journeys/end-activity.md)
+* [Activité de ](../building-journeys/condition-activity.md)
 * [Attente](../building-journeys/wait-activity.md)
 * [Lecture de segment](../building-journeys/read-segment.md)
 

@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 26%
+source-wordcount: '625'
+ht-degree: 24%
 
 ---
 
@@ -93,11 +93,9 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 ### Améliorations
 
-<!--
-**Journeys**
+**Parcours**
 
-* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
--->
+* **Fin d’un parcours** - Dans la zone de travail du parcours, la variable **Fin** l’activité a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de mieux signaler le moment où un client a quitté le parcours, sans aucune action de l’utilisateur. [En savoir plus](../building-journeys/journey-end.md)
 
 **Messages**
 

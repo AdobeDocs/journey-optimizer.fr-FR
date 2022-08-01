@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1113'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 96%
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
    + Nouvelle fonctionnalité de création intégrée {#inline-authoring}
       + [Présentation de la migration](using/rn/inline-messages.md)
-      + [Etapes de migration](using/rn/inline-messages-steps.md)
+      + [Étapes de migration](using/rn/inline-messages-steps.md)
 + Prise en main{#get-started}
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Démarrage rapide{#quick-start}
@@ -134,7 +134,6 @@ ht-degree: 96%
       + [Réaction](using/building-journeys/reaction-events.md)
       + [Qualification du segment](using/building-journeys/segment-qualification-events.md)
       + [Condition](using/building-journeys/condition-activity.md)
-      + [Fin](using/building-journeys/end-activity.md)
       + [Attente](using/building-journeys/wait-activity.md)
       + [Lecture de segment](using/building-journeys/read-segment.md)
       + [Email, SMS, Push](using/building-journeys/journeys-message.md)
