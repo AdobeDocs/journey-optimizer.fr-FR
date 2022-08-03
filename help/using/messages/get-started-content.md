@@ -1,6 +1,6 @@
 ---
 title: Prise en main des messages
-description: Découvrez comment créer et diffuser des messages personnalisés dans Journey Optimizer
+description: Découvrez comment créer et diffuser des messages personnalisés dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
