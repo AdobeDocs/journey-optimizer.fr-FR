@@ -1,6 +1,6 @@
 ---
-title: Rapport global de campagne
-description: Découvrez comment utiliser les données du rapport global de campagne
+title: Rapport global de campagnes
+description: Découvrez comment utiliser les données du rapport global de Campaign
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 81%
+source-wordcount: '1736'
+ht-degree: 65%
 
 ---
 
-# Rapport global de campagne {#campaign-global-report}
+# Rapport global de campagnes {#campaign-global-report}
 
-Le rapport global de Campaign est accessible directement à partir de votre campagne à l’aide de la fonction **[!UICONTROL Vue globale]** bouton .
+Le rapport global de campagnes est accessible directement depuis votre campagne à l’aide de la variable **[!UICONTROL Vue globale]** bouton .
 
 La campagne **[!UICONTROL Rapport global]** s’affiche avec les onglets suivants :
 
@@ -41,11 +41,53 @@ Le **[!UICONTROL Statistiques de la campagne]** widget détaille les information
 
 * **[!UICONTROL Les actions ont échoué en %]**: Nombre total de fois uniques où une action a échoué dans le parcours par rapport au nombre total de fois uniques où une action a été diffusée.
 
-<!--
-### Experimentation tab (#experimentation-global)
+### Objectifs (#objectives-global)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+
+![](assets/performance_report.gif)
+
+Le **[!UICONTROL Objectifs]** de votre rapport Campagne , qui vous permet d’affiner davantage les rapports de vos diffusions en ciblant une mesure spécifique.
+
+Le **[!UICONTROL Objectifs]** répertoriés sont liés à **[!UICONTROL Jeux de données]** qui définissent une connexion à un système afin de récupérer des informations supplémentaires. Liste des éléments intégrés **[!UICONTROL Objectifs]** est disponible, mais vous pouvez ajouter le vôtre en ajoutant un nouveau **[!UICONTROL Jeu de données]**. Pour la procédure détaillée, consultez cette documentation.
+
+Après avoir sélectionné les objectifs que vous souhaitez cibler, les deux **[!UICONTROL Présentation des performances]** et **[!UICONTROL Objectif de la campagne]** Les widgets fournissent un résumé détaillé des performances de votre diffusion.
+
+Avec le **[!UICONTROL Objectif de la campagne]** vous pouvez également choisir de comparer votre objectif principal à une autre mesure.
+
+Notez que chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
+
+### Expérimentation (#experimentation-global)
+
+>[!AVAILABILITY]
+>
+>Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+
+![](assets/experimentation_report_3.png)
+
+Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Expérience]** l’onglet détaille les informations principales relatives aux performances de chaque variante et s’il y a un meilleur résultat.
+
+Notez que la définition du meilleur performant peut prendre un certain temps, elle sera représentée par cette icône . ![](assets/experimentation_report_1.png).
+
+Le **[!UICONTROL Résultat de l’expérience]** décrit les performances de chaque variante. Vous pouvez modifier votre ligne de base en sélectionnant l’un des traitements de la **[!UICONTROL Ligne de base]** la liste déroulante. Le meilleur traitement sera représenté par une icône en forme d’étoile.
+
+Le tableau présente les mesures suivantes :
+
+* **[!UICONTROL Profils]**: Nombre de profils ciblés pour ce traitement.
+
+* **[!UICONTROL Clics sortants uniques]**: Nombre total de clics sur les canaux sortants.
+
+* **[!UICONTROL Comptage par profil]**: Valeur totale de la mesure de l’objectif de l’expérience divisée par le nombre de profils.
+
+* **[!UICONTROL Intervalle de confiance]**: Différence en pourcentage de performance entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Effet élévateur moyen]**: Pourcentage d’amélioration du taux de conversion d’un traitement donné par rapport à la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confiance]**: Preuves qu&#39;un traitement donné est le même que le traitement de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-confidence)
+
+Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à la section [cette page](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Onglet E-mail {#email-global}
 
@@ -73,7 +115,7 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi d&#39;e-mail]** détaille la
 
 * **[!UICONTROL Exclu]**: Nombre de profils qui ont été exclus par Adobe Journey Optimizer.
 
-**[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l&#39;activité destinataire de votre diffusion :
+Le **[!UICONTROL Email - Statistiques de tracking]** Le widget contient les données disponibles pour l’activité des destinataires pour votre diffusion :
 
 * **[!UICONTROL Ouvertures]** :nombre de fois où la diffusion a été ouverte dans une diffusion.
 

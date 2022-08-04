@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 96%
+source-wordcount: '1127'
+ht-degree: 95%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 96%
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Créer une campagne](using/campaigns/create-campaign.md)
    + [Modifier ou arrêter une campagne](using/campaigns/modify-stop-campaign.md)
+   + Expérience de contenu {#content-experiment}
+      + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
+      + [Création d’une expérience de contenu](using/campaigns/content-experiment.md)
+      + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
    + Rapports {#reports}
       + [Rapport dynamique de la campagne](using/campaigns/campaign-live-report.md)

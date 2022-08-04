@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '641'
+ht-degree: 2%
 
 ---
 
 # Création d’une expérience de contenu {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 La fonctionnalité d’expérience de contenu vous permet de définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de l’email.
 
@@ -121,4 +127,12 @@ Une fois vos traitements personnalisés, vous pouvez commencer à configurer vot
 1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]** pour le lancer.
 
    ![](assets/content_experiment_14.png)
+
+## Rapport d’expérience {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Expérience]** tab présente les informations principales relatives à la performance de chaque variante et si les performances ont été meilleures lors du test.
+
+Pour plus d&#39;informations sur ce rapport, reportez-vous à la section [Rapport global de campagnes](../campaigns/content-experiment.md#experimentation-report) page.
 
