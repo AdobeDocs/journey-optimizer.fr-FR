@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 24%
 
 ---
 
@@ -109,7 +109,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 * **Mise à jour de la logique de liste autorisée** - Désormais, la logique de liste autorisée s’applique dès que la fonction est activée, même si la liste est vide. [En savoir plus](../configuration/allow-list.md#logic)
 
-* **Paramètres de suivi des URL** - Vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de suivi d’URL sur vos surfaces d’email (c’est-à-dire les paramètres prédéfinis de message). [En savoir plus](../configuration/email-settings.md#url-tracking)
+* **Paramètres de suivi des URL** - Vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de suivi d’URL sur vos surfaces d’email (c’est-à-dire les paramètres prédéfinis). [En savoir plus](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 

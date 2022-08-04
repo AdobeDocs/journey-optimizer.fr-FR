@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,10 @@ Pour créer une **offre**, procédez comme suit :
 
 1. Ajoutez des contraintes pour définir les conditions d’affichage de l’offre. [En savoir plus](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+
    ![](../assets/offer-constraints-example.png)
 
 1. Examen et enregistrement de l’offre. [En savoir plus](#review)
@@ -72,6 +76,10 @@ Pour créer une **offre**, procédez comme suit :
 Une fois les règles d&#39;éligibilité et les contraintes définies, un résumé des propriétés de l&#39;offre s&#39;affiche.
 
 1. Vérifiez que tout est correctement configuré.
+
+1. Vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. Lorsque votre offre est prête à être présentée aux utilisateurs, cliquez sur **[!UICONTROL Terminer]**.
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1207'
 ht-degree: 63%
 
 ---
@@ -192,9 +192,13 @@ Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directemen
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Vous pouvez également modifier chaque **[!UICONTROL Valeur]** à l’aide du champ [Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur d’expression. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
+Vous pouvez également modifier chaque **[!UICONTROL Valeur]** à l’aide du champ [Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur d’expression. Chaque champ **[!UICONTROL Valeur]** peut contenir jusqu’à 255 caractères au total.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ Vous trouverez ci-dessous des exemples d’URL compatibles avec Adobe Analytics 
 * URL compatible avec Adobe Analytics : `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * URL compatible avec Google Analytics : `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur d’expression. Chaque champ **[!UICONTROL Valeur]** peut contenir jusqu’à 255 caractères au total.
 
 Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Chaque fois que vous ajoutez, modifiez ou supprimez un paramètre, la prévisualisation est automatiquement mise à jour.
 

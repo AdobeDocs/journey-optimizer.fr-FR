@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 76%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 Une page de destination est une page web autonome sur laquelle l’utilisateur arrive après avoir cliqué sur un lien présent dans un e-mail, un site Web, une publicité ou tout autre emplacement numérique.
 
 [!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination afin de diriger vos utilisateurs vers des formulaires en ligne, à partir desquels ils pourront s’inscrire ou se désinscrire de lʼenvoi de vos communications, ainsi que s’abonner à un service spécifique, par exemple une newsletter.
+
+➡️ [En savoir plus sur la configuration des abonnements et la création de landing pages dans cette vidéo](#video)
 
 * Tirez parti des fonctionnalités de conception de contenu de [!DNL Journey Optimizer] et créez en toute facilité des **pages de destination dynamiques**.
 * Configurez les **flux dʼinscription et de désinscription** rapidement et sans effort.
@@ -34,8 +36,8 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 </tr>
 </table>
 
-<!--
+## Vidéo pratique{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+La vidéo ci-dessous montre comment créer une liste d&#39;abonnements, configurer des landing pages pour proposer des abonnements ou des désabonnements à un service, intégrer l&#39;option (de désabonnement) à un message et configurer les parcours pertinents.
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

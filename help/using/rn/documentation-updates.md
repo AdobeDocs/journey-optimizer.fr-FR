@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 94%
+source-wordcount: '1774'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 94%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
 
+## Août 2022 {#august-2022}
+
+* La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messages en ligne. [En savoir plus](../configuration/frequency-rules.md#apply-frequency-rule)
+* Une vidéo montrant comment configurer les abonnements et créer des landing pages est maintenant référencée dans la section Prise en main des landing pages . [En savoir plus](../landing-pages/get-started-lp.md#video)
+
 ## Juillet 2022 {#july-2022}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version du 22 juillet avec [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * Le **Configuration des surfaces de canal** Clarification et mise à jour de la section avec des liens vers la page décrivant comment configurer le canal SMS - [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
 * Dans les propriétés du parcours, la variable **Fuseau horaire du profil** est désormais désactivée par défaut. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * Dans le **Attente** l’activité **Date fixe** n’est plus disponible. [En savoir plus](../building-journeys/wait-activity.md)
 * Ajout d’informations supplémentaires sur la variable **Lecture incrémentale** dans le **Lecture de segment** activité. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Ajout de recommandations sur la **Limite de profil** type de condition. [En savoir plus](../building-journeys/condition-activity.md#profile_cap)

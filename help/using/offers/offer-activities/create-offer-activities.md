@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 98%
+source-wordcount: '1105'
+ht-degree: 95%
 
 ---
 
@@ -88,9 +88,9 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
       Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md). 
 
-      >[!NOTE]
-      >
-      >Lorsque vous sélectionnez des segments ou des règles de décision, des informations sur les profils qualifiés estimés s’affichent. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+1. Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. Définissez la méthode de classement à utiliser pour sélectionner la meilleure offre pour chaque profil. 
 
@@ -142,7 +142,7 @@ Si tout est configuré correctement, un résumé des propriétés de la décisio
 
    ![](../assets/review-decision.png)
 
-   Vous pouvez développer ou réduire chaque emplacement. Vous pouvez également prévisualiser les offres disponibles, les détails d’éligibilité et de classement pour chaque emplacement. 
+1. Vous pouvez développer ou réduire chaque emplacement. Vous pouvez prévisualiser les offres disponibles, ainsi que les détails d’éligibilité et de classement pour chaque emplacement. Vous pouvez également afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
    ![](../assets/review-decision-details.png)
 

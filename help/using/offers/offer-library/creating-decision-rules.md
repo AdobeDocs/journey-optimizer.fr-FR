@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 83%
+ht-degree: 75%
 
 ---
 
@@ -49,7 +49,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
-1. Une fois la règle créée, elle s&#39;affiche dans la liste des règles. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
+1. Une fois créée, la règle s’affiche dans la variable **[!UICONTROL Règles]** liste. Vous pouvez la sélectionner pour afficher ses propriétés, puis la modifier ou la supprimer.
 
    ![](../assets/rule_created.png)
 

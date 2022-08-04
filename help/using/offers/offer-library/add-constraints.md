@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1643'
 ht-degree: 93%
 
 ---
@@ -40,10 +40,6 @@ Les contraintes vous permettent de définir les conditions d’affichage d’une
 1. Configurez l’**[!UICONTROL admissibilité des offres]**. [En savoir plus](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >Lorsque vous sélectionnez des segments ou des règles de décision, des informations sur les profils qualifiés estimés s’affichent. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
 1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres.
 
@@ -99,6 +95,10 @@ La section **[!UICONTROL Admissibilité de l’offre]** vous permet de restreind
    >[!CAUTION]
    >
    >Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target=&quot;_blank&quot;}, vous ne pourrez pas l&#39;exploiter dans une offre.
+
+Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### Utilisation des segments par rapport aux règles de décision {#segments-vs-decision-rules}
 
