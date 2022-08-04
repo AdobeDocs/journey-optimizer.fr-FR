@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1734'
 ht-degree: 65%
 
 ---
@@ -41,7 +41,7 @@ Le **[!UICONTROL Statistiques de la campagne]** widget détaille les information
 
 * **[!UICONTROL Les actions ont échoué en %]**: Nombre total de fois uniques où une action a échoué dans le parcours par rapport au nombre total de fois uniques où une action a été diffusée.
 
-### Objectifs (#objectives-global)
+### Objectifs {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ Avec le **[!UICONTROL Objectif de la campagne]** vous pouvez également choisir 
 
 Notez que chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 
-### Expérimentation (#experimentation-global)
+### Expérimentation {#experimentation-global}
 
 >[!AVAILABILITY]
 >
