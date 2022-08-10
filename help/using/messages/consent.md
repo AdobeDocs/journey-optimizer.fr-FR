@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1331'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [surface du canal](../configuration/channel-surfaces.md#email-type) niveau et à quel moment [création du message](get-started-content.md#create-new-message).
+>Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface du canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire des préréglages du message) et lors de la [création du message](get-started-content.md#create-new-message).
 
 ### Désinscription externe {#opt-out-external-lp}
 
@@ -53,9 +53,9 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 1. Construisez votre page de destination de désinscription.
 
-1. Hébergez-le sur le système tiers de votre choix.
+1. Hébergez-la sur le système tiers de votre choix.
 
-1. [Créer un message](get-started-content.md) dans un parcours.
+1. [Créez un message](get-started-content.md) dans un parcours.
 
 1. Sélectionnez du texte dans votre contenu et [insérez un lien](../design/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle.
 
@@ -159,7 +159,7 @@ Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
    >[!NOTE]
    >
-   >Si vous avez activé la variable **List-Unsubscribe** au niveau de la surface du canal, cette URL sera également utilisée lorsque les utilisateurs cliqueront sur le lien de désabonnement dans l’en-tête de l’email. [En savoir plus](#unsubscribe-header)
+   >Si vous avez activé l’option **List-Unsubscribe** au niveau des paramètres des surfaces du canal, cette URL sera également utilisée lorsque les utilisateurs cliqueront sur le lien de désabonnement dans l’en-tête de l’e-mail. [En savoir plus](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -169,15 +169,15 @@ Pour ajouter un lien de désinscription dans votre e-mail, procédez comme suit.
 
 Une fois votre message envoyé via un [parcours](../building-journeys/journey.md), si un destinataire clique sur le lien de désinscription, il est immédiatement désinscrit.
 
-### Lien de désabonnement dans l’en-tête de l’email {#unsubscribe-header}
+### Lien de désabonnement dans l’en-tête de l’e-mail {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Ajout d’un lien de désabonnement à l’en-tête d’un e-mail"
->abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’exclusion en un clic dans le contenu de l’email."
+>abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’exclusion en un clic dans le contenu de l’e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=fr#one-click-opt-out" text="Désinscription en un clic"
 
-Si la variable [Option List-Unsubscribe](../configuration/channel-surfaces.md#list-unsubscribe) est activé au niveau de la surface du canal, les emails correspondants envoyés avec [!DNL Journey Optimizer] inclut un lien de désabonnement dans l’en-tête de l’email.
+Si l’[option List-Unsubscribe](../configuration/channel-surfaces.md#list-unsubscribe) est activée au niveau des surfaces du canal, les e-mails correspondants envoyés avec [!DNL Journey Optimizer] incluent un lien de désabonnement dans l’en-tête de l’e-mail.
 
 Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 
@@ -187,7 +187,7 @@ Par exemple, le lien de désabonnement s&#39;affiche comme suit dans Gmail :
 >
 >Pour afficher le lien de désabonnement dans l’en-tête de l’e-mail, le client de messagerie du destinataire doit prendre en charge cette fonctionnalité.
 
-L’adresse de désabonnement est la valeur par défaut. **[!UICONTROL Mailto (unsubscribe)]** adresse affichée à la surface du canal correspondant. [En savoir plus](../configuration/channel-surfaces.md#list-unsubscribe).
+L’adresse de désabonnement est l’adresse **[!UICONTROL Mailto (unsubscribe)]** par défaut affichée dans la surface de canal correspondante. [En savoir plus](../configuration/channel-surfaces.md#list-unsubscribe).
 
 Pour définir une URL de désabonnement personnalisée, insérez un lien de désinscription en un clic dans le contenu de l&#39;e-mail et saisissez l&#39;URL de votre choix. [En savoir plus](#one-click-opt-out)
 
@@ -209,9 +209,9 @@ Les destinataires push peuvent se désabonner eux-mêmes via leurs appareils.
 
 Par exemple, lors du téléchargement ou de l’utilisation de votre application, ils peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
 
-## Gestion des opt-out des SMS {#sms-opt-out-management}
+## Gestion des désinscriptions des SMS {#sms-opt-out-management}
 
-Conformément aux normes et réglementations du secteur, les destinataires de SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out.
-Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRER, ARRÊTER et DÉMARRER. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
+Conformément aux normes et réglementations du secteur, les destinataires de SMS peuvent répondre avec des mots-clés d’inscription et de désinscription.
+Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRER, ARRÊTER et REDÉMARRER. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
 
-Pour plus d&#39;informations sur l&#39;opt-out des SMS, consultez cette [page](../messages/create-sms.md#opt-in-and-opt-out).
+Pour plus d’informations sur les désinscriptions des SMS, consultez cette [page](../messages/create-sms.md#opt-in-and-opt-out).

@@ -3,9 +3,9 @@ title: Prise en main de Journey Optimizer pour les professionnels du marketing
 description: En tant que praticien Parcours, découvrez comment utiliser Journey Optimizer.
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 85%
 
 ---
@@ -36,7 +36,7 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    * Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 
-   * Utilisez la variable **action de canal intégrée** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créer **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
+   * Utilisez la variable **actions de canal intégrées** (Email, SMS, Push) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créer **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
    * Avec le **concepteur de parcours**, créez vos cas d&#39;utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d&#39;entrée ou une activité de lecture de segment, ajoutez des conditions et envoyez des messages personnalisés.
 

@@ -9,7 +9,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 
 La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration.]** Les activités d&#39;action suivantes sont disponibles :
 
-* [Email, SMS, Push](../building-journeys/journeys-message.md)
+* [E-mail, SMS, notification push](../building-journeys/journeys-message.md)
 * [Actions personnalisées](../building-journeys/using-custom-actions.md)
 * [Sauter](../building-journeys/jump.md)
 

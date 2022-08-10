@@ -1,5 +1,5 @@
 ---
-title: A propos de l'éditeur d'expression
+title: À propos de l’éditeur d’expression
 description: Découvrez comment utiliser l’éditeur d’expression.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 74%
+ht-degree: 77%
 
 ---
 
-# A propos de l&#39;éditeur d&#39;expression {#build-personalization-expressions}
+# À propos de l’éditeur d’expression {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="A propos de l&#39;éditeur d&#39;expression"
+>title="À propos de l’éditeur d’expression"
 >abstract="L’éditeur d’expression vous permet de sélectionner, organiser, personnaliser et valider toutes les données afin de créer une personnalisation personnalisée de votre contenu."
 
 L’éditeur d’expression est l’élément central de la personnalisation dans [!DNL Journey Optimizer]. Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).

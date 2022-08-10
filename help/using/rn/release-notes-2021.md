@@ -5,7 +5,7 @@ exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2070'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -274,7 +274,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Personnalisation**
 
-* **Editeur d&#39;expression** - Vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation : lorsque le champ de personnalisation est vide pour un profil, la valeur de retour arrière s’affiche. [En savoir plus](../personalization/functions/helpers.md)
+* **Éditeur d’expression** : vous pouvez désormais facilement ajouter une valeur de secours lors de la définition de la personnalisation. Lorsque le champ de personnalisation est vide pour un profil, la valeur de secours s’affiche. [En savoir plus](../personalization/functions/helpers.md)
 
 **Configuration des e-mails**
 
@@ -289,7 +289,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 * Correction d’un problème d’accessibilité dans la navigation par onglets des messages.
 * Correction d’un problème de localisation dans les libellés du concepteur d’e-mails.
-* Correction d’un problème lors de la sélection de plusieurs noeuds dans un parcours et du clic sur &quot;Supprimer&quot; dans le volet des propriétés.
+* Correction d’un problème lors de la sélection de plusieurs nœuds dans un parcours et du clic sur « Supprimer » dans le volet des propriétés.
 * Correction d’un problème qui empêchait l’ajout d’un nouvel en-tête à une action utilisée dans un parcours.
 * Vous pouvez maintenant découvrir la raison pour laquelle la création d’un préréglage de message a échoué via un avertissement plus explicite dans l’interface utilisateur.
 
@@ -342,7 +342,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 * Dans l&#39;écran Liste des parcours, le filtre de type de parcours a été ajouté. [En savoir plus](../start/user-interface.md#filter-lists)
 * Le paramètre **[!UICONTROL Taux de limitation]** a été ajouté à l&#39;activité Lecture de segment. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Aperçu et test**
+**Prévisualiser et tester**
 
 * L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../design/preview.md#preview-your-messages)
 * Le nombre d&#39;e-mails de test pour les BAT est maintenant limité à 10.
@@ -357,6 +357,6 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 * Correction d&#39;un problème qui entraînait la diffusion de messages en double pour la diffusion d&#39;e-mails par lots.
 * Les événements sont maintenant générés en conséquence lorsque l&#39;envoi d&#39;e-mails n&#39;est pas effectué une fois la période de reprise terminée.
 * Correction d&#39;un problème en raison duquel les informations IP manquaient dans l&#39;écran Enregistrements PTR.
-* La localisation dans le rail des offres au sein de l&#39;éditeur d&#39;expression est désormais implémentée.
-* Correction d&#39;un espacement incorrect dans les fenêtres contextuelles d&#39;informations.
+* La localisation est maintenant implémentée dans le rail des offres au sein de l’éditeur d’expression.
+* Correction d’un espacement incorrect dans les fenêtres contextuelles d’informations.
 * Correction d’un problème dans le concepteur d’e-mails lors du téléchargement d’un fichier HTML en raison duquel la feuille de style interne avec la propriété `background-image` n’était pas prise en charge.

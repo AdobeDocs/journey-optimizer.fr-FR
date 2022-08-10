@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -144,5 +145,3 @@ Après avoir exécuté votre expérience, plusieurs actions de suivi sont possib
    >[!CAUTION]
    >
    >Plus d’analyses signifie une plus grande probabilité de détecter un effet fallacieux, ou un faux positif.
-
-

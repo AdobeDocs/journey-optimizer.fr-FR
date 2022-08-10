@@ -3,7 +3,7 @@ title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 100%
 

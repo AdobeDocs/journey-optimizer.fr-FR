@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 24%
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer fournit un nouveau flux pour la création de messages dans Parcours. La messagerie en ligne permet aux utilisateurs de gagner du temps et de rationaliser le processus de création et de diffusion d’un email, d’une notification push ou d’un SMS dans Journey Optimizer. En supprimant les messages comme une étape distincte et en les rendant modifiables en ligne dans le cadre d’une action sur le canevas de Parcours, les utilisateurs devront cliquer sur moins de boutons et parcourir moins d’écrans pour concevoir et modifier leur contenu.</p>
+<p>Journey Optimizer fournit un nouveau flux pour la création de messages dans les parcours. La messagerie en ligne permet aux utilisateurs de gagner du temps et de rationaliser le workflow de création et de diffusion d’un e-mail, d’une notification push ou d’un SMS dans Journey Optimizer. Parce que les messages ne sont plus une étape distincte et qu’ils sont désormais modifiables en ligne dans le cadre d’une action sur la zone de travail du parcours, les utilisateurs devront cliquer sur moins de boutons et parcourir moins d’écrans pour concevoir et modifier leur contenu.</p>
 <img src="assets/do-not-localize/inline.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../messages/get-started-content.md">documentation détaillée</a>.</p>
 </td>
@@ -48,7 +48,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais identifier les champs de schéma avec des libellés qui définissent les portées d’utilisation des données ou de l’organisation. Les administrateurs peuvent utiliser l’interface Autorisations pour définir des stratégies d’accès couvrant les champs de schéma XDM et mieux gérer l’accès attribué aux utilisateurs ou groupes d’utilisateurs (utilisateurs internes, externes ou tiers) et gérer l’accès à des types de données spécifiques (c’est-à-dire des données personnelles sensibles/SPD).</p>
+<p>Vous pouvez désormais identifier les champs de schéma avec des étiquettes qui définissent les portées d’utilisation des données ou de l’organisation. Les administrateurs peuvent utiliser l’interface Autorisations pour définir des stratégies d’accès couvrant les champs de schéma XDM et mieux gérer l’accès attribué aux utilisateurs ou groupes d’utilisateurs (utilisateurs internes, externes ou tiers) et gérer l’accès à des types de données spécifiques (c’est-à-dire des données personnelles sensibles/SPD).</p>
 <p>L’utilisation du contrôle d’accès basé sur les attributs est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../administration/attribute-based-access.md">documentation détaillée</a>.</p>
 </td>
@@ -59,13 +59,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <table>
 <thead>
 <tr>
-<th><strong>Tâches de prise de décision par lots</strong><br/></th>
+<th><strong>Traitements de prise de décision par lots</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais exécuter des tâches de prise de décision par lots à partir de l’interface utilisateur, de sorte que je n’ai pas besoin d’un développeur pour exécuter des tâches d’api par lots et que je puisse réduire le temps nécessaire au marketing. Cette nouvelle interface vous permet de créer des tâches et de gérer les tâches actuelles/antérieures.</p>
+<p>Vous pouvez désormais exécuter des traitements de prise de décision par lots à partir de l’interface utilisateur. Vous n’avez ainsi plus besoin d’un développeur pour exécuter des traitements d’API par lots et le temps consacré au marketing est réduit. Cette nouvelle interface vous permet de créer des traitements et de gérer les traitements actuels/antérieurs.</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../offers/batch-delivery.md">documentation détaillée.</p>
 </td>
@@ -82,8 +82,8 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion de la décision. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
-<p>L’utilisation des modèles d’optimisation personnalisée d’AI est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
+<p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
+<p>L’utilisation des modèles d’IA d’optimisation personnalisés est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Pour plus d'informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
 </td>
@@ -99,18 +99,18 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Messages**
 
-* Les paramètres de message prédéfinis sont désormais **surfaces des canaux**. [En savoir plus](../configuration/channel-surfaces.md)
+* Les préréglages des messages sont désormais les **surfaces de canal**. [En savoir plus](../configuration/channel-surfaces.md)
 
 **Administration**
 
-* **Modification des enregistrements PTR** - Désormais, lors de la mise à jour d’un enregistrement PTR, le temps de traitement ne prendra que 3 heures. [En savoir plus](../configuration/ptr-records.md#processing)
+* **Modification des enregistrements PTR** : désormais, lors de la mise à jour d’un enregistrement PTR, le temps de traitement ne prend que 3 heures. [En savoir plus](../configuration/ptr-records.md#processing)
 
-* **Interface utilisateur de Liste autorisée** - Vous pouvez désormais utiliser l’interface utilisateur de Journey Optimizer pour ajouter de nouvelles adresses électroniques ou de nouveaux domaines à la liste autorisée. [En savoir plus](../configuration/allow-list.md)
+* **Interface utilisateur de la liste autorisée** : vous pouvez désormais utiliser l’interface utilisateur de Journey Optimizer pour ajouter de nouvelles adresses e-mail ou de nouveaux domaines à la liste autorisée. [En savoir plus](../configuration/allow-list.md)
 
-* **Mise à jour de la logique de liste autorisée** - Désormais, la logique de liste autorisée s’applique dès que la fonction est activée, même si la liste est vide. [En savoir plus](../configuration/allow-list.md#logic)
+* **Mise à jour de la logique de la liste autorisée** : désormais, la logique de la liste autorisée s’applique dès que la fonctionnalité est activée, même si la liste est vide. [En savoir plus](../configuration/allow-list.md#logic)
 
-* **Paramètres de suivi des URL** - Vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de suivi d’URL sur vos surfaces d’email (c’est-à-dire les paramètres prédéfinis). [En savoir plus](../configuration/email-settings.md#url-tracking)
+* **Paramètres de tracking des URL** : vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de tracking d’URL sur vos surfaces d’e-mail (c’est-à-dire les préréglages de [En savoir plus](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
-* **Taille de l’audience** - Un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’un segment ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’un segment ou d’une règle à une portée de décision.
+* **Taille de l’audience** : un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’un segment ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’un segment ou d’une règle à une portée de décision.

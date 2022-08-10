@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 93%
 
 ---
 
@@ -144,8 +144,8 @@ Some edu specific content Content
 ## Each{#each}
 
 L&#39;helper `each` est utilisé pour effectuer une itération sur un tableau.
-La syntaxe de l&#39;helper est ```{{#each ArrayName}}``` YourContent {{/each}}.
-Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l&#39;intérieur du bloc. L&#39;index de l&#39;élément du tableau peut être rendu à l&#39;aide de {{@index}}.
+La syntaxe de l’assistant est la suivante : ```{{#each ArrayName}}``` YourContent {{/each}}
+Nous pouvons nous référer aux éléments individuels du tableau à l’aide du mot-clé . **this** à l&#39;intérieur du bloc. L&#39;index de l&#39;élément du tableau peut être rendu à l&#39;aide de {{@index}}.
 
 **Syntaxe**
 

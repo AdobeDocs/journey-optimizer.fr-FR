@@ -1,5 +1,5 @@
 ---
-title: Optimisation de l'heure d'envoi
+title: Optimisation de l’heure d’envoi
 description: Découvrez comment paramétrer l'optimisation de l'heure d'envoi dans vos messages
 feature: Journeys
 topic: Content Management

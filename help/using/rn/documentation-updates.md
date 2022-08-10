@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -20,14 +20,14 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Juillet 2022 {#july-2022}
 
-* Toutes les nouvelles fonctionnalités et améliorations de la version du 22 juillet avec [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* Le **Configuration des surfaces de canal** Clarification et mise à jour de la section avec des liens vers la page décrivant comment configurer le canal SMS - [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
-* Dans les propriétés du parcours, la variable **Fuseau horaire du profil** est désormais désactivée par défaut. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
+* Toutes les nouvelles fonctionnalités et améliorations de la version du 22 juillet de [!DNL Journey Optimizer] sont présentées dans la documentation. [En savoir plus](release-notes.md)
+* La section **Configurer des surfaces de canal** a été simplifiée et contient des liens vers la page décrivant comment configurer le canal SMS. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
+* Dans les propriétés du parcours, l’option **Fuseau horaire du profil** est désormais désactivée par défaut. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-* Dans le **Attente** l’activité **Date fixe** n’est plus disponible. [En savoir plus](../building-journeys/wait-activity.md)
-* Ajout d’informations supplémentaires sur la variable **Lecture incrémentale** dans le **Lecture de segment** activité. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Ajout de recommandations sur la **Limite de profil** type de condition. [En savoir plus](../building-journeys/condition-activity.md#profile_cap)
-* Ajout d’une limitation sur les événements professionnels. [En savoir plus](../start/guardrails.md#events-g)
+* Dans l’activité **Attente**, l’option **Date fixe** n’est plus disponible. [En savoir plus](../building-journeys/wait-activity.md)
+* Des informations supplémentaires ont été ajoutées sur l’option **Lecture incrémentale** dans l’activité **Lecture de segment**. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Des recommandations ont été ajoutées concernant le type de condition **Limite de profil**. [En savoir plus](../building-journeys/condition-activity.md#profile_cap)
+* Une limitation sur les événements métier a été ajoutée. [En savoir plus](../start/guardrails.md#events-g)
 
 ## Juin 2022 {#june-2022}
 

@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur 
 
 ## Volet de navigation de gauche {#left-nav}
 
-Parcourir les liens à gauche pour accéder à [!DNL Journey Optimizer] fonctionnalités.
+Utilisez les liens sur la gauche pour parcourir les fonctionnalités de [!DNL Journey Optimizer].
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ Parcourir les liens à gauche pour accéder à [!DNL Journey Optimizer] fonction
 >
 >Les fonctionnalités disponibles peuvent varier en fonction de vos autorisations et de votre contrat de licence.
 
-Vous trouverez ci-dessous la liste complète des services et fonctionnalités disponibles dans le volet de navigation de gauche, ainsi que des liens vers les pages d’aide associées.
+Vous trouverez ci-dessous la liste complète des services et fonctionnalités disponibles dans la navigation de gauche et des liens vers la documentation associée.
 
 **Accueil**
 
-La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer. Le **[!UICONTROL Récents]** La liste propose des raccourcis vers les événements et parcours récemment créés. Cette liste montre les dates et l&#39;état de leur création et de leur modification.
+La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer. La liste **[!UICONTROL Récents]** fournit des raccourcis vers les événements et parcours récemment créés. Cette liste montre les dates et l&#39;état de leur création et de leur modification.
 
 **[!UICONTROL GESTION DES PARCOURS]**
 
 * **[!UICONTROL Parcours]** - Créez, configurez et orchestrez vos parcours clients. [En savoir plus](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - Créer, concevoir, tester et publier des landing pages. [En savoir plus](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Pages de destination]** : créez, concevez, testez et publiez des pages de destination. [En savoir plus](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL GESTION DES DÉCISIONS]**
 
@@ -127,7 +127,7 @@ Vous pouvez utiliser les raccourcis clavier suivants dans [!DNL Journey Optimize
 | Retour en arrière entre les éléments, sections et groupes de menus de l’interface utilisateur | Maj+Tabulation |
 | Déplacement dans des sections pour définir la cible d’action sur des éléments individuels | Flèche |
 | Sélection ou suppression d’un élément ciblé | Entrée ou Barre d’espace |
-| Annulation d’une sélection, réduction d’un panneau ou fermeture d’une boîte de dialogue | Échap |
+| Annuler une sélection, réduire un panneau ou fermer une boîte de dialogue | Échap |
 
 [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
 
@@ -274,7 +274,7 @@ Pour modifier la langue :
 
 ## Recherche{#unified-search}
 
-Depuis n’importe où dans l’interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données, des et plus encore dans vos environnements Sandbox.
+Depuis n’importe où dans l’interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données et plus encore dans vos environnements Sandbox.
 
 Commencez à saisir du contenu pour afficher les meilleurs résultats. Les articles d’aide sur les mots-clés saisis apparaissent également dans les résultats.
 
@@ -304,6 +304,6 @@ Dans les volets de configuration des événements, des sources de données et de
 
 ![](assets/journey3bis.png)
 
-Dans les listes, vous pouvez effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
+Il est possible d’effectuer des actions de base sur chaque élément des différentes listes. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
 ![](assets/journey4.png)

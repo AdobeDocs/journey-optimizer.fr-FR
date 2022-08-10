@@ -1,5 +1,5 @@
 ---
-title: Configuration des surfaces de canal
+title: Configurer des surfaces de canal
 description: Découvrez comment configurer et surveiller les surfaces des canaux
 feature: Application Settings
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 43%
 
 ---
 
-# Configuration des surfaces de canal {#set-up-channel-surfaces}
+# Configurer des surfaces de canal {#set-up-channel-surfaces}
 
 Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type de courrier électronique, nom et adresse électronique de l’expéditeur, applications mobiles, etc.
 

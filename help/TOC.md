@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 95%
    + [Création d’un e-mail](using/messages/create-email.md)
    + [Création d’une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)
-   + [Vérification des alertes](using/messages/alerts.md)
-   + [Gestion du consentement](using/messages/consent.md)
-   + [Optimisation de l&#39;heure d&#39;envoi](using/messages/send-time-optimization.md)
+   + [Vérifier les alertes](using/messages/alerts.md)
+   + [Gérer le consentement](using/messages/consent.md)
+   + [Optimisation de l’heure d’envoi](using/messages/send-time-optimization.md)
 + Conception du contenu {#design}
    + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
    + [Commencer à partir de zéro ](using/design/create-email-content.md)
@@ -90,9 +90,9 @@ ht-degree: 95%
    + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
    + Création d’expressions {#build-expressions}
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + Utilisation de l’éditeur d’expression {#expression-editor}
-         + [A propos de l&#39;éditeur d&#39;expression](using/personalization/personalization-build-expressions.md)
-         + [Ajout d’attributs aux favoris](using/personalization/personalization-favorites.md)
+      + Utiliser l’éditeur d’expression {#expression-editor}
+         + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
+         + [Ajouter des attributs aux favoris](using/personalization/personalization-favorites.md)
          + [Utilisation d’expressions enregistrées](using/personalization/personalization-library.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + Fonctions helper{#functions}
@@ -140,8 +140,8 @@ ht-degree: 95%
       + [Condition](using/building-journeys/condition-activity.md)
       + [Attente](using/building-journeys/wait-activity.md)
       + [Lecture de segment](using/building-journeys/read-segment.md)
-      + [Email, SMS, Push](using/building-journeys/journeys-message.md)
-      + [Actions personnalisées ](using/building-journeys/using-custom-actions.md)
+      + [E-mail, SMS, notification push](using/building-journeys/journeys-message.md)
+      + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
       + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Saut](using/building-journeys/jump.md)
@@ -239,7 +239,7 @@ ht-degree: 95%
       + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
       + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
       + [Accélération des diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
-+ Suivi et surveillance {#reporting}
++ Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
@@ -384,9 +384,9 @@ ht-degree: 95%
             + [Liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
             + [Liste autorisée](using/configuration/allow-list.md)
-      + [Configuration du canal SMS](using/configuration/sms-configuration.md)
-      + Configuration des surfaces de canal {#set-up-channels}
-         + [Création de surfaces de canal](using/configuration/channel-surfaces.md)
+      + [Configurer le canal SMS](using/configuration/sms-configuration.md)
+      + Configurer des surfaces de canal {#set-up-channels}
+         + [Créer des surfaces de canal](using/configuration/channel-surfaces.md)
          + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
          + [Utiliser E-mail Cci](using/configuration/bcc-email.md)
       + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)

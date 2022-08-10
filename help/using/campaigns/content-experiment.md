@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -135,4 +136,3 @@ Une fois vos traitements personnalisés, vous pouvez commencer à configurer vot
 Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Expérience]** tab présente les informations principales relatives à la performance de chaque variante et si les performances ont été meilleures lors du test.
 
 Pour plus d&#39;informations sur ce rapport, reportez-vous à la section [Rapport global de campagnes](../campaigns/content-experiment.md#experimentation-report) page.
-
