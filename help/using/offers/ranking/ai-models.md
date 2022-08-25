@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ Vous pouvez par exemple sélectionner un modèle d’IA pour le canal e-mail et 
 
 ## Types de modèles d’IA {#ai-model-types}
 
-Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer]:
+Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
 
-* **Modèles d’optimisation automatique** visent à diffuser des offres qui optimisent le retour (IPC) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres. [En savoir plus](auto-optimization-model.md)
+* Les **modèles d’optimisation automatique** visent à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres. [En savoir plus](auto-optimization-model.md)
 
-* **Modèles de personnalisation** vous permettent de définir des objectifs commerciaux et d’utiliser les données client pour former des modèles orientés vers l’entreprise afin de diffuser des offres personnalisées et d’optimiser les indicateurs de performance clés. [En savoir plus](personalized-optimization-model.md)
+* **Les modèles de personnalisation** vous permettent de définir des objectifs commerciaux et d’utiliser les données client pour entraîner des modèles orientés vers métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md)
 
->[!CAUTION]
->
->L’utilisation des modèles d’optimisation personnalisée est actuellement disponible en accès anticipé pour certains utilisateurs uniquement.
+   >[!CAUTION]
+   >
+   >L’utilisation des modèles d’optimisation personnalisée est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
 
 ## Créer un modèle d’IA {#create-ai-model}
 

@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
+source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 86%
+source-wordcount: '652'
+ht-degree: 66%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 Avant d’envoyer des SMS, configurez votre instance. Vous devez [intégrer les paramètres du fournisseur](#create-api) avec Journey Optimizer et [créer une surface SMS](#message-preset-sms) (c.-à-d. un préréglage de SMS). Ces étapes doivent être exécutées par un [Administrateur système Adobe Journey Optimizer](../start/path/administrator.md).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>Adobe Journey Optimizer s’intègre actuellement à des fournisseurs tiers tels que Sinch et Twilio, qui offrent des services SMS indépendants de Adobe Journey Optimizer.  Avant la configuration des SMS, vous devez créer un compte auprès de l&#39;un de ces fournisseurs SMS afin de recevoir le jeton API et l&#39;ID de service qui vous permettront d&#39;établir la connexion entre Adobe Journey Optimizer et le fournisseur SMS approprié. Votre utilisation des services SMS sera sujette à des conditions supplémentaires de la part du fournisseur de SMS concerné. Étant donné que Sinch et Twilio sont des produits tiers disponibles pour les utilisateurs de Adobe Journey Optimizer via une intégration, pour tout problème ou toute demande liée aux services SMS, les utilisateurs de Sinch ou Twilio devront contacter le fournisseur de SMS approprié pour obtenir de l’aide. Adobe ne contrôle pas et n’est pas responsable des produits tiers.
 
 ## Création d’informations d’identification API {#create-api}
 
@@ -27,6 +27,11 @@ Avant d’envoyer des SMS, configurez votre instance. Vous devez [intégrer les 
 >id="ajo_admin_sms_api"
 >title="Configuration de votre fournisseur de SMS"
 >abstract="Sélectionnez votre fournisseur et renseignez vos informations d’identification d’API SMS."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="Configuration de votre fournisseur de SMS"
+>abstract="Sélectionnez les informations d’identification d’API configurées pour votre fournisseur SMS."
 
 Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme suit :
 

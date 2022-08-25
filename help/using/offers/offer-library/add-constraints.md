@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 93%
+source-wordcount: '1673'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Définir l&#39;éligibilité"
+>title="Définir l’éligibilité"
 >abstract="Par défaut, tout profil peut se voir présenter l’offre, mais vous pouvez utiliser des segments ou des règles de décision pour restreindre l’offre à des profils spécifiques."
 
 >[!CONTEXTUALHELP]
@@ -100,6 +100,10 @@ Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
+>[!NOTE]
+>
+>Les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
+
 ### Utilisation des segments par rapport aux règles de décision {#segments-vs-decision-rules}
 
 Pour appliquer une contrainte, vous pouvez restreindre la sélection des offres aux membres d’un ou de plusieurs **segments Adobe Experience Platform**, ou vous pouvez utiliser une **règle de décision**, les deux solutions correspondant à des utilisations différentes.
@@ -128,7 +132,7 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
->abstract="Pour éviter de sur-solliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée."
+>abstract="Pour éviter de sursolliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 

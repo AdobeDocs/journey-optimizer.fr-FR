@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 95%
+source-wordcount: '1359'
+ht-degree: 99%
 
 ---
 
@@ -113,9 +113,9 @@ Cette condition vous permet de définir un flux différent en fonction de la dat
 
 Utilisez ce type de condition pour définir un nombre maximal de profils pour le chemin dʼun parcours. Lorsque cette limite est atteinte, les profils entrants prennent un autre chemin. De cette manière, vos parcours ne dépasseront jamais la limite définie.
 
-    >[!REMARQUE]
-    >
-    >Nous vous recommandons de définir une limite de profil à valeur élevée. La précision et la probabilité qu’une population atteigne le nombre exact de limites ne font qu’augmenter à mesure que la limite augmente. Pour les petits nombres (par exemple une limite de 50), les nombres ne correspondent pas toujours, car la limite peut ne pas être atteinte avant que les profils ne prennent un autre chemin.
+>[!NOTE]
+>
+>Nous vous recommandons de définir une limite de profil à valeur élevée. La précision et la probabilité qu’une population atteigne le nombre exact de limites ne font qu’augmenter à mesure que la limite augmente. Pour les petits nombres (par exemple une limite de 50), les nombres ne correspondent pas toujours, car la limite peut ne pas être atteinte avant que les profils ne prennent un autre chemin.
 
 Utilisez ce type de condition pour augmenter le volume de vos diffusions. Voir [cas d’utilisation](ramp-up-deliveries-uc.md).
 

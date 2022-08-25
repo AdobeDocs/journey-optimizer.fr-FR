@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 97%
+source-wordcount: '1814'
+ht-degree: 96%
 
 ---
 
@@ -15,15 +15,17 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Août 2022 {#august-2022}
 
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 22 août ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messages en ligne. [En savoir plus](../configuration/frequency-rules.md#apply-frequency-rule)
 * Une vidéo montrant comment configurer les abonnements et créer des landing pages est maintenant référencée dans la section Prise en main des landing pages . [En savoir plus](../landing-pages/get-started-lp.md#video)
+* Une limitation a été ajoutée pour les parcours utilisant les activités Lecture de segment . [En savoir plus](../building-journeys/read-segment.md)
+* La page des opérateurs de l&#39;éditeur d&#39;expression a été améliorée. [En savoir plus](../building-journeys/expression/operators.md)
 
 ## Juillet 2022 {#july-2022}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version du 22 juillet de [!DNL Journey Optimizer] sont présentées dans la documentation. [En savoir plus](release-notes.md)
 * La section **Configurer des surfaces de canal** a été simplifiée et contient des liens vers la page décrivant comment configurer le canal SMS. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
 * Dans les propriétés du parcours, l’option **Fuseau horaire du profil** est désormais désactivée par défaut. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
-
 * Dans l’activité **Attente**, l’option **Date fixe** n’est plus disponible. [En savoir plus](../building-journeys/wait-activity.md)
 * Des informations supplémentaires ont été ajoutées sur l’option **Lecture incrémentale** dans l’activité **Lecture de segment**. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Des recommandations ont été ajoutées concernant le type de condition **Limite de profil**. [En savoir plus](../building-journeys/condition-activity.md#profile_cap)
@@ -91,7 +93,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’une nouvelle section sur les exigences relatives aux schémas requises pour pouvoir envoyer des types d’événement lors de l’utilisation d’une stratégie de classement. [En savoir plus](../offers/ranking/schema-requirement.md)
 * La section relative aux capacités de personnalisation de [!DNL Journey Optimizer] a été réorganisée pour une meilleure lisibilité. [En savoir plus](../personalization/personalize.md)
 * La section **Création de préréglages de message** a été divisée en plusieurs sections afin d’en améliorer la clarté. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
-* La section **Gestion des désinscriptions** a été clarifiée et légèrement réorganisée. [En savoir plus](../messages/consent.md#opt-out-management)
+* La section **Gestion des processus d’opt-out** a été clarifiée et légèrement réorganisée. [En savoir plus](../messages/consent.md#opt-out-management)
 * La section **Insérer des liens** a été mise à jour pour prendre en compte les modifications récentes de l’interface utilisateur. [En savoir plus](../design/message-tracking.md#insert-links)
 
 ## Novembre 2021 {#november-2021}
@@ -156,7 +158,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour de la section Activation de la liste autorisée. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 * Mise à jour de la section Surveillance des préréglages du message avec les raisons possibles d’échec de la création des préréglages et des détails sur ces erreurs. [En savoir plus](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * Mise à jour et changement du nom de la section Période de reprise afin de tenir compte du fait que vous pouvez désormais ajuster le paramètre de nouvelle tentative d’e-mail dans les préréglages du message. [En savoir plus](../configuration/retries.md#retry-duration)
-* Ajout d’une nouvelle section décrivant comment insérer un lien d’exclusion en un clic dans le contenu d’un e-mail. [En savoir plus](../messages/consent.md#one-click-opt-out-link)
+* Ajout d’une nouvelle section décrivant comment insérer un lien d’opt-out en un clic dans le contenu d’un e-mail. [En savoir plus](../messages/consent.md#one-click-opt-out-link)
 * Mise à jour de la section Délégation d’un sous-domaine avec des informations plus détaillées sur le processus de validation effectué par Adobe. [En savoir plus](../configuration/delegate-subdomain.md#subdomain-validation)
 * Ajout d’une section décrivant comment ajouter manuellement des adresses e-mail et des domaines à la liste de suppression. [En savoir plus](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Mise à jour des sections [Accéder à la liste de suppression](../configuration/manage-suppression-list.md#access-suppression-list) et [Reprises](../configuration/retries.md) pour refléter la nouvelle interface utilisateur.

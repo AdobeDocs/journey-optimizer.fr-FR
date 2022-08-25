@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 62%
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -18,15 +18,11 @@ ht-degree: 62%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Création d&#39;un SMS"
->abstract="Ajoutez votre message texte et commencez à le personnaliser à l&#39;aide de l&#39;éditeur d&#39;expression."
+>abstract="Ajoutez votre message texte et commencez à le personnaliser à l’aide de l’éditeur d’expression."
 
-Utilisation [!DNL Journey Optimizer] pour envoyer des SMS à vos clients sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l&#39;éditeur de SMS.
+Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte à vos clients sur leur appareil mobile. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 
-Une fois que [ajout d’un SMS](get-started-content.md) dans votre parcours, et définissez les paramètres de base, utilisez la variable **[!UICONTROL Actions : SMS]** volet de droite pour créer le contenu du SMS.
-
->[!AVAILABILITY]
->
->Le canal SMS est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+Une fois que [vous avez ajouté une activité de SMS](get-started-content.md) dans votre parcours, et défini les paramètres de base, utilisez le panneau de droite **[!UICONTROL Actions : SMS]** pour créer le contenu du message SMS.
 
 ![](assets/sms-edit-content.png)
 
@@ -36,24 +32,27 @@ Si c’est la première fois que vous créez un message SMS, vérifiez que le ca
 
 Pour personnaliser votre message SMS, procédez comme suit :
 
-1. Cliquez sur le bouton **[!UICONTROL Message]** pour ouvrir l’éditeur d’expression.
+1. Cliquez sur le champ **[!UICONTROL Message]** pour ouvrir l’éditeur d&#39;expression.
 
    ![](assets/sms-content.png)
 
-1. Utilisez l&#39;éditeur d&#39;expression pour définir le contenu. Vous pouvez utiliser n’importe quel attribut pour personnaliser le contenu, comme le nom du profil ou la ville. En savoir plus sur la personnalisation dans l’éditeur d’expression de la section [cette section](../personalization/personalize.md).
+1. Utilisez l’éditeur d’expression pour définir le contenu. Vous pouvez utiliser n’importe quel attribut pour personnaliser le contenu, comme le nom du profil ou la ville. Consultez [cette section](../personalization/personalize.md) pour en savoir plus sur la personnalisation dans l’éditeur d’expression.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l&#39;aperçu.
 
    ![](assets/sms-content-preview.png)
 
-
 ## Valider votre SMS{#sms-preview}
+
+>[!NOTE]
+>
+> Pour une meilleure délivrabilité, vous devez toujours utiliser les numéros de téléphone dans les formats pris en charge par le fournisseur. Par exemple, Twilio et Sinch ne prennent en charge que les numéros de téléphone au format E.164.
 
 Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
 
-Pour visualiser l’affichage de votre SMS sur les appareils mobiles, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** . En savoir plus sur la simulation de contenu dans [cette section](../design/preview.md).
+Pour visualiser l’affichage de votre message SMS sur les appareils mobiles, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**. En savoir plus sur la simulation de contenu dans [cette section](../design/preview.md).
 
-Vous devez également vérifier les alertes dans la section supérieure de l’éditeur.  Certains d’entre eux sont de simples avertissements, mais d’autres peuvent vous empêcher d’utiliser le message. En savoir plus dans [cette section](alerts.md).
+Vous devez également vérifier les alertes dans la section supérieure de l’éditeur.  Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’utiliser le message. En savoir plus dans [cette section](alerts.md).
 
 ![](assets/sms-alert-button.png)
 

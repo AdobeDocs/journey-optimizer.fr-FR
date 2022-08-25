@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 91%
+source-wordcount: '1242'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +22,13 @@ ht-degree: 91%
 >title="Activité Lecture de segment"
 >abstract="L’activité Lecture de segment vous permet de faire entrer dans un parcours tous les individus appartenant à un segment Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement."
 
-Utilisez la variable **Lecture de segment** pour que toutes les personnes d’un segment entrent dans le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
+Utilisez l’activité **Lecture de segment** pour que tous les individus d’un segment rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
 Prenons l’exemple du segment « Ouverture et passage en caisse de l’application Luma » créé dans le cas d’utilisation de [Création de segments](../segment/about-segments.md). Avec l’activité Lecture de segment, vous pouvez faire en sorte que tous les individus appartenant à ce segment rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
 
 >[!NOTE]
+>
+>Pour les parcours qui utilisent une activité Lecture de segment , un nombre maximal de parcours peut commencer exactement en même temps. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture de segment, planifié ou commençant &quot;le plus tôt possible&quot;) à partir exactement en même temps en les répartissant dans le temps, par exemple entre 5 et 10 minutes d’intervalle.
 >
 >Le module complémentaire payant Rafale permet d&#39;envoyer très rapidement des messages push en gros volumes pour des parcours simples comprenant une lecture de segment et un message push simple. Voir à ce sujet [cette section](../building-journeys/journey-gs.md#burst)
 
@@ -82,7 +84,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Lecture incrémentale** option : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment entrent dans le parcours. À l’occurrence suivante, tous les profils reprennent le parcours, même s’ils étaient déjà à l’intérieur. L’ancienne instance du profil dans le parcours est arrêtée et une nouvelle instance est créée. Le **Lecture incrémentale** permet de cibler, après la première occurrence, les individus entrés dans le segment depuis la dernière exécution du parcours.
+   Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment rejoignent le parcours. À l’occurrence suivante, tous les profils rejoignent à nouveau le parcours, même s’ils étaient déjà à l’intérieur. L’ancienne instance du profil dans le parcours est arrêtée et une nouvelle instance est créée. Lʼoption **Lecture incrémentielle** vous permet de cibler, après la première occurrence, les individus qui sont entrés dans le segment depuis la dernière exécution du parcours.
 
 <!--
 

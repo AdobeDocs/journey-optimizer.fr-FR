@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 86%
 
 ---
 
@@ -28,8 +28,11 @@ Avant de créer un modèle d’IA, vous devez créer un jeu de données dans leq
 
    >[!NOTE]
    >
-   >    Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+   >En savoir plus sur les schémas XDM et les groupes de champs dans la section [Présentation de la documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
+1. Dans la **[!UICONTROL Groupes de champs]** , sélectionnez **[!UICONTROL Ajouter]**.
+
+   ![](../assets/ai-ranking-fields-groups.png)
 
 1. Dans le champ **[!UICONTROL Rechercher]**, saisissez « interaction de proposition » et sélectionnez le groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**.
 
@@ -37,7 +40,7 @@ Avant de créer un modèle d’IA, vous devez créer un jeu de données dans leq
 
    >[!CAUTION]
    >
-   >    Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l&#39;utiliser dans votre stratégie de classement.
+   >Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l&#39;utiliser dans votre stratégie de classement.
 
 1. Cliquez sur **[!UICONTROL Ajouter des groupes de champs]**.
 
@@ -46,11 +49,11 @@ Avant de créer un modèle d’IA, vous devez créer un jeu de données dans leq
    >[!NOTE]
    >Le groupe de champs était auparavant appelé « mixin ».
 
-1. Saisissez un nom et enregistrez le schéma.<!--How do you edit the fields in this new schema? Examples?-->
+1. Saisissez un nom et enregistrez le schéma.
 
 >[!NOTE]
 >
->    Pour en savoir plus sur la création de schémas, consultez la section [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#understanding-schemas).
+>En savoir plus sur la création de schémas dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#understanding-schemas){target=&quot;_blank&quot;}.
 
 Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce schéma. Pour ce faire, procédez comme suit :
 

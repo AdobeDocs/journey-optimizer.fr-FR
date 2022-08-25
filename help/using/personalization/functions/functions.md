@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opér
 
 ➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
 
-Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur d’expression, comme ci-dessous :
+Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur d’expression, comme ci-dessous :
 
 ![](../assets/access-helper-functions.png)
 
-Dans le [!DNL Journey Optimizer] Editeur d&#39;expression, les fonctions d&#39;assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Helpers](#helper-helper) et [Opérateurs](#operators-helper).
+Dans l’éditeur d’expression [!DNL Journey Optimizer], les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 
@@ -346,7 +346,7 @@ Les assistants sont détaillés dans [cette page](helpers.md).
 
 ## Opérateurs{#operators-helper}
 
-### Fonctions arithmétiques  {#arithmetic-helper}
+### Fonctions arithmétiques {#arithmetic-helper}
 
 Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur des valeurs.
 

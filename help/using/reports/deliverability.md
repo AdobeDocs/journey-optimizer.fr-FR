@@ -1,19 +1,19 @@
 ---
-title: Surveillance de l'exécution des messages
-description: Découvrez les instructions de surveillance et de délivrabilité
+title: Prise en main de la délivrabilité
+description: Découvrez les directives relatives à la délivrabilité
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 99%
 
 ---
 
-# Gérer la délivrabilité {#manage-deliverability}
+# Prise en main de la délivrabilité {#manage-deliverability}
 
 La délivrabilité est une mesure du succès de vos diffusions atteignant les boîtes de réception de vos destinataires.
 
@@ -35,7 +35,7 @@ Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les ter
 
 Les FAI disposent généralement d&#39;un moyen important pour signaler un message reçu comme étant du spam. Cela permet d&#39;identifier les sources non fiables. En répondant rapidement aux demandes d&#39;opt-out et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des opt-out](../messages/consent.md#opt-out-management).
 
-Il est recommandé de ne pas empêcher les destinataires qui le souhaitent de s&#39;exclure en les obligeant à remplir des champs tels que leur adresse e-mail ou leur nom. La page de destination du formulaire de désinscription ne doit comporter qu&#39;un seul bouton de validation.
+Il est recommandé de ne pas empêcher les destinataires qui souhaitent se désabonner de le faire en les obligeant à remplir des champs tels que leur adresse e-mail ou leur nom. La page de destination du formulaire d&#39;opt-out ne doit comporter qu&#39;un seul bouton de validation.
 
 Redoublez d&#39;attention lorsque vous demandez une confirmation supplémentaire : un utilisateur peut posséder deux adresses email redirigées vers la même boîte de réception (par exemple, prénom.nom@club.com et prénom.nom@internet-club.com). Si le profil est capable de se souvenir uniquement de la première adresse et souhaite se désinscrire via un message envoyé à l&#39;autre, le formulaire refusera cette adresse car l&#39;identifiant chiffré et l&#39;adresse email saisie ne correspondront pas.
 

@@ -1,21 +1,21 @@
 ---
 title: Configurer les paramètres d’e-mail
-description: Découvrez comment configurer les paramètres de courrier électronique au niveau de la surface du canal
+description: Découvrez comment configurer les paramètres d’e-mail au niveau de la surface de canal
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 63%
+ht-degree: 96%
 
 ---
 
 # Configurer les paramètres d’e-mail {#email-settings}
 
-Définissez les paramètres de l&#39;email dans la section dédiée de la surface du canal (c&#39;est-à-dire la configuration du paramètre prédéfini du message). Découvrez comment créer des surfaces dans [cette section](channel-surfaces.md).
+Définissez les paramètres d’e-mail dans la section dédiée à la configuration de la surface de canal (c’est-à-dire le préréglage de message). Découvrez comment créer des surfaces dans [cette section](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,19 +24,19 @@ Définissez les paramètres de l&#39;email dans la section dédiée de la surfac
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Définition de la catégorie d’e-mail"
->abstract="Sélectionnez le type de message qui sera envoyé lors de l&#39;utilisation de cette surface : Marketing pour les messages promotionnels, qui nécessitent un consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
+>abstract="Sélectionnez le type d&#39;email qui sera envoyé lors de l&#39;utilisation de cette surface : Marketing pour les emails promotionnels, qui nécessitent un consentement de l’utilisateur, ou Transactionnel pour les emails non commerciaux, qui peuvent également être envoyés à des profils désabonnés dans des contextes spécifiques."
 
-Dans le **TYPE D&#39;EMAIL** , sélectionnez le type de message qui sera envoyé avec la surface : **Marketing** ou **Transactionnel**.
+Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce à la surface : **Marketing** ou **Transactionnel**.
 
-* Choisir **Marketing** pour un email promotionnel : ces messages requièrent le consentement de l’utilisateur.
+* Choisissez **Marketing** pour les e-mails promotionnels : ces messages nécessitent le consentement de l’utilisateur.
 
-* Choisir **Transactionnel** pour les emails non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
+* Choisissez **Transactionnel** pour les e-mails non commerciaux tels que les confirmations de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
 
 >[!CAUTION]
 >
->**Transactionnel** les emails peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
+>Les e-mails **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
-When [créer un message](../messages/get-started-content.md#create-new-message), vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre email.
+Lors de la [création d’un message](../messages/get-started-content.md#create-new-message), vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
 ## Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
@@ -44,11 +44,11 @@ Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous d
 
 1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
 
-1. Sélectionnez le pool d’adresses IP à associer à la surface. [En savoir plus](ip-pools.md)
+1. Sélectionnez le groupe d’adresses IP à associer à la surface. [En savoir plus](ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-Vous ne pouvez pas poursuivre la création de surface lorsque le pool IP sélectionné se trouve sous [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Traitement]** (status) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la surface en tant que brouillon et réessayez une fois que le pool IP a la valeur **[!UICONTROL Succès]** statut.
+Vous ne pouvez pas poursuivre la création de la surface lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](ip-pools.md#edit-ip-pool) (statut **[!UICONTROL Traitement en cours]**) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la surface en tant que brouillon, puis réessayez une fois que le groupe d’adresses IP a le statut **[!UICONTROL Succès]**.
 
 >[!NOTE]
 >
@@ -72,19 +72,19 @@ Le lien de désabonnement se compose de deux éléments :
 
 * Une **adresse e-mail de désabonnement**, à laquelle toutes les requêtes de désabonnement sont envoyées.
 
-   Dans [!DNL Journey Optimizer], l’adresse électronique de désabonnement est la valeur par défaut. **[!UICONTROL Mailto (unsubscribe)]** adresse affichée à la surface du canal, en fonction de la variable [sous-domaine sélectionné](#subdomains-and-ip-pools).
+   Dans [!DNL Journey Optimizer], l’adresse e-mail de désabonnement est l’adresse par défaut **[!UICONTROL Mailto (unsubscribe)]** affichée dans la surface de canal, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
-* L&#39;**URL de désabonnement**, qui est l&#39;URL de la page de destination vers laquelle l&#39;utilisateur sera redirigé une fois désabonné.
+* L’**URL de désabonnement**, qui est l’URL de la page de destination vers laquelle l’utilisateur sera redirigé une fois désabonné.
 
-   Si vous ajoutez une [lien d’exclusion en un clic](../messages/consent.md#one-click-opt-out) pour un message créé à partir de cette surface, l&#39;URL de désabonnement sera l&#39;URL définie pour le lien de désinscription en un clic.
+   Si vous ajoutez un [lien d&#39;opt-out en un clic](../messages/consent.md#one-click-opt-out) pour un message créé à l’aide de cette surface, l’URL de désabonnement sera l&#39;URL définie pour le lien d&#39;opt-out en un clic.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
    >[!NOTE]
    >
-   >Si vous n&#39;ajoutez pas de lien de désinscription en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
+   >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
 
 Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../messages/consent.md#unsubscribe-header).
 
@@ -92,7 +92,7 @@ Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;
 
 ## Paramètres d’en-tête{#email-header}
 
-Dans le **[!UICONTROL PARAMÈTRES D’EN-TÊTE]** , renseignez les noms et adresses email de l&#39;expéditeur associés au type d&#39;emails envoyés à partir de cette surface.
+Dans la section **[!UICONTROL PARAMÈTRES D’EN-TÊTE]**, saisissez les noms et adresses e-mail de l’expéditeur associés au type des e-mails envoyés à l’aide de cette surface.
 
 >[!CAUTION]
 >
@@ -120,12 +120,12 @@ Si vous souhaitez transférer vers une adresse e-mail spécifique tous les e-mai
 
 * Adresse e-mail de transfert de votre choix. Notez que le domaine de l’adresse e-mail de transfert ne peut correspondre à aucun sous-domaine délégué à Adobe.
 * Nom de votre sandbox.
-* Nom de la surface pour laquelle l’adresse email de transfert sera utilisée.
-* La variable **[!UICONTROL Répondre à (email)]** adresse définie au niveau de la surface du canal.
+* Nom de la surface pour laquelle l’adresse e-mail de transfert sera utilisée.
+* L’adresse **[!UICONTROL Répondre à (e-mail)]** actuelle définie au niveau de la surface de canal.
 
 >[!NOTE]
 >
->Il ne peut y avoir qu’une seule adresse e-mail de transfert par sous-domaine. Par conséquent, si plusieurs surfaces utilisent le même sous-domaine, la même adresse électronique doit être utilisée pour toutes.
+>Il ne peut y avoir qu’une seule adresse e-mail de transfert par sous-domaine. Par conséquent, si plusieurs surfaces utilisent le même sous-domaine, la même adresse e-mail de transfert doit être utilisée pour tous les sous-domaines.
 
 L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 à 4 jours.
 
@@ -133,7 +133,7 @@ L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 
 
 Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-mails envoyés par [!DNL Journey Optimizer] vers une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
 
-Pour ce faire, activez l’option **[!UICONTROL EMAIL Cci]** fonctionnalité facultative au niveau de la surface du canal. [En savoir plus](bcc-email.md)
+Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** en option au niveau de la surface de canal. [En savoir plus](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,10 +142,10 @@ Pour ce faire, activez l’option **[!UICONTROL EMAIL Cci]** fonctionnalité fac
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Réglage de la période de reprise"
->abstract="Les reprises sont effectuées pendant 3,5 jours (84 heures) lorsqu’une diffusion email échoue en raison d’une erreur de soft bounce temporaire. Vous pouvez ajuster cette période de reprise par défaut en fonction de vos besoins."
+>abstract="Les reprises sont effectuées pendant 3,5 jours (84 heures) lorsqu’une diffusion d’e-mail échoue en raison d’une erreur de soft bounce temporaire. Vous pouvez ajuster cette période de reprise par défaut en fonction de vos besoins."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html?lang=fr" text="À propos des reprises"
 
-Vous pouvez configurer la variable **PARAMÈTRES DE REPRISE D’EMAIL**.
+Vous pouvez configurer les **Paramètres de reprise de lʼe-mail**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,13 @@ En savoir plus sur les reprises dans [cette section](retries.md).
 >title="Prévisualiser les paramètres de tracking d’URL"
 >abstract="Prévisualisez comment les paramètres de tracking seront ajoutés aux adresses URL présentes dans votre contenu d’e-mail."
 
-Vous pouvez utiliser **[!UICONTROL PARAMÈTRES DE SUIVI DES URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative.
+Vous pouvez utiliser les **[!UICONTROL Paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative.
 
 Les paramètres définis dans cette section seront ajoutés à la fin des URL incluses dans le contenu de votre e-mail. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou Google Analytics, et créer divers rapports de performances.
 
 ![](assets/preset-url-tracking.png)
 
-Trois paramètres de suivi d’URL sont automatiquement renseignés par exemple lorsque vous créez une surface de canal. Vous pouvez les modifier et ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
+Trois paramètres de tracking d’URL sont automatiquement renseignés par exemple lorsque vous créez une surface de canal. Vous pouvez les modifier et ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
 
 Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]**.
 
@@ -192,7 +192,7 @@ Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directemen
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Vous pouvez également modifier chaque **[!UICONTROL Valeur]** à l’aide du champ [Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
+Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
 
 ![](assets/preset-url-tracking-editor.png)
 

@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 30d197f3eab05e2e38025189a6948a6c0fbd6d54
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 89%
+source-wordcount: '223'
+ht-degree: 63%
 
 ---
 
@@ -17,100 +17,70 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Version de juillet 2022 {#july-2022-release}
+## Version d’août 2022 {#aug-2022-release}
 
 ### Nouvelles fonctionnalités
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Nouveau flux de messagerie en ligne</strong><br/></th>
+<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer fournit un nouveau flux pour la création de messages dans les parcours. La messagerie en ligne permet aux utilisateurs de gagner du temps et de rationaliser le workflow de création et de diffusion d’un e-mail, d’une notification push ou d’un SMS dans Journey Optimizer. Parce que les messages ne sont plus une étape distincte et qu’ils sont désormais modifiables en ligne dans le cadre d’une action sur la zone de travail du parcours, les utilisateurs devront cliquer sur moins de boutons et parcourir moins d’écrans pour concevoir et modifier leur contenu.</p>
-<img src="assets/do-not-localize/inline.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../messages/get-started-content.md">documentation détaillée</a>.</p>
+<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
+<p>For more information, refer to the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
-
+</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>Contrôle d’accès basé sur les attributs (disponibilité limitée)</strong><br/></th>
+<th><strong>Envoyer des SMS à vos utilisateurs (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais identifier les champs de schéma avec des étiquettes qui définissent les portées d’utilisation des données ou de l’organisation. Les administrateurs peuvent utiliser l’interface Autorisations pour définir des stratégies d’accès couvrant les champs de schéma XDM et mieux gérer l’accès attribué aux utilisateurs ou groupes d’utilisateurs (utilisateurs internes, externes ou tiers) et gérer l’accès à des types de données spécifiques (c’est-à-dire des données personnelles sensibles/SPD).</p>
-<p>L’utilisation du contrôle d’accès basé sur les attributs est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
-<p>Pour plus d’informations, consultez la <a href="../administration/attribute-based-access.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais créer, personnaliser et envoyer des SMS dans Journey Optimizer, grâce à une intégration à <b>Sinch</b> ou <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Découvrez comment créer et envoyer un SMS dans cette <a href="../messages/create-sms.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Traitements de prise de décision par lots</strong><br/></th>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais exécuter des traitements de prise de décision par lots à partir de l’interface utilisateur. Vous n’avez ainsi plus besoin d’un développeur pour exécuter des traitements d’API par lots et le temps consacré au marketing est réduit. Cette nouvelle interface vous permet de créer des traitements et de gérer les traitements actuels/antérieurs.</p>
-<img src="assets/do-not-localize/batch.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../offers/batch-delivery.md">documentation détaillée.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Utiliser automatiquement l’offre la plus performante dans vos décisions (disponibilité limitée)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
-<p>L’utilisation des modèles d’IA d’optimisation personnalisés est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 ### Améliorations
 
-**Parcours**
+**Reporting**
 
-* **Fin d’un parcours** - Dans la zone de travail du parcours, la variable **Fin** l’activité a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de mieux signaler le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Reportez-vous à la section [documentation](../building-journeys/journey-end.md) et [vidéo sur les fonctionnalités](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* Le tableau et le graphique des stratégies de consentement sont désormais disponibles dans les rapports globaux par Parcours. Ces widgets vous permettent de suivre les profils exclus des stratégies de vos actions personnalisées. [En savoir plus](../reports/journey-global-report.md#journey-global)
 
-**Messages**
-
-* Les préréglages des messages sont désormais les **surfaces de canal**. [En savoir plus](../configuration/channel-surfaces.md)
+   Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, reportez-vous à la section [la documentation détaillée ;](../reports/global-report.md).
 
 **Administration**
 
-* **Modification des enregistrements PTR** : désormais, lors de la mise à jour d’un enregistrement PTR, le temps de traitement ne prend que 3 heures. [En savoir plus](../configuration/ptr-records.md#processing)
-
-* **Interface utilisateur de la liste autorisée** : vous pouvez désormais utiliser l’interface utilisateur de Journey Optimizer pour ajouter de nouvelles adresses e-mail ou de nouveaux domaines à la liste autorisée. [En savoir plus](../configuration/allow-list.md)
-
-* **Mise à jour de la logique de la liste autorisée** : désormais, la logique de la liste autorisée s’applique dès que la fonctionnalité est activée, même si la liste est vide. [En savoir plus](../configuration/allow-list.md#logic)
-
-* **Paramètres de tracking des URL** : vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de tracking d’URL sur vos surfaces d’e-mail (c’est-à-dire les préréglages de [En savoir plus](../configuration/email-settings.md#url-tracking)
-
-**Offer Decisioning**
-
-* **Taille de l’audience** : un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’un segment ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’un segment ou d’une règle à une portée de décision.
+* Il est désormais possible de mettre à jour le Principal numéro de téléphone à utiliser pour le canal SMS. [En savoir plus](../configuration/primary-email-addresses.md)

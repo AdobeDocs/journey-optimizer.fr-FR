@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 51%
 
 ---
 
@@ -20,30 +20,28 @@ ht-degree: 100%
 >title="Définition de l’adresse à utiliser"
 >abstract="Lorsque plusieurs adresses sont disponibles dans la base de données (personnelle, professionnelle, etc.), vous pouvez choisir l&#39;adresse à prioriser pour l&#39;envoi."
 
-Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail personnelle, professionnelle, etc.).
+Lorsque vous ciblez un profil, plusieurs adresses email ou numéros de téléphone peuvent être disponibles dans la base de données (adresse email professionnelle, numéro de téléphone personnel, etc.).
 
-Avec [!DNL Journey Optimizer], vous pouvez déterminer l&#39;adresse e-mail à utiliser à partir du service de profil et établir la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, suivez les étapes ci-après.
+Avec [!DNL Journey Optimizer], vous pouvez déterminer l’adresse électronique ou le numéro de téléphone à utiliser à partir du service de profil et définir la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, suivez les étapes ci-après.
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Général]** > **[!UICONTROL Champs d’exécution]**.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. Le champ actuellement utilisé par défaut pour déterminer les adresses e-mail des profils s&#39;affiche dans cet écran. Cliquez sur **[!UICONTROL Modifier]** pour le modifier.
+1. Les champs actuellement utilisés par défaut pour déterminer l’adresse email et le numéro de téléphone des profils s’affichent sur cet écran. Cliquez sur **[!UICONTROL Modifier]** pour les modifier.
 
    ![](assets/primary-address.png)
 
-1. Cliquez sur le champ actif ou sur l&#39;icône de modification pour sélectionner un nouveau champ.
+1. Cliquez sur le champ actif de votre choix ou sur l’icône d’édition pour sélectionner un nouveau champ.
 
    ![](assets/primary-address-edit.png)
 
 1. La liste des champs XDM de type e-mail disponibles s&#39;affiche. Sélectionnez le champ à utiliser.
 
-   ![](assets/primary-address-field.png)
+   ![](assets/primary-address-select-field.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer votre choix.
 
-   ![](assets/primary-address-save.png)
-
-   Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adresse principale.
+Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adresse principale.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
