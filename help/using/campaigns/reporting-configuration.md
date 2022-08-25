@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 5%
@@ -94,7 +95,7 @@ Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail
    >
    >Si vous avez sélectionné un jeu de données qui n’est pas de type événement, vous ne pourrez pas continuer.
 
-Lors de la création des rapports de vos diffusions, vous pouvez désormais utiliser les données de ce jeu de données pour récupérer des informations personnalisées supplémentaires et optimiser vos rapports. [En savoir plus](campaign-global-report.md#objectives-global)
+Lors de la création des rapports de vos diffusions, vous pouvez désormais utiliser les données de ce jeu de données pour récupérer des informations personnalisées supplémentaires et optimiser vos rapports. [En savoir plus](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

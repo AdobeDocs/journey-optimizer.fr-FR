@@ -5,12 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 72%
 
 ---
@@ -20,23 +18,22 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique, et ce sur plusieurs canaux. Avant de créer une campagne, assurez-vous d’avoir une surface de canal (c’est-à-dire un paramètre prédéfini de message) et un segment Adobe Experience Platform prêt à l’emploi."
+>abstract="Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique, et ce sur plusieurs canaux. Avant de créer une campagne, assurez-vous de disposer d’une surface de canal (c’est-à-dire un préréglage de message) et d’un segment Adobe Experience Platform prêt à l’emploi."
 
 ## À propos des campagnes {#about}
 
+>[!IMPORTANT]
+>
+>Cette fonctionnalité n’est disponible que pour les utilisateurs ayant accès à un profil produit associé à Campaign, tel que l’administrateur Campaign, l’approbateur Campaign, le responsable Campaign et/ou la visionneuse Campaign. Pour plus d’informations sur l’affectation de profils de produit, reportez-vous à la section [cette page](../administration/permissions.md).
+
 Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique sur plusieurs canaux. À la différence des parcours, où les actions sont conçues pour être exécutées l’une après l’autre, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning précis.
 
-Vous pouvez créer deux types de campagnes :
+Cela vous permet d’envoyer des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
 
-* **Campagnes planifiées** autorisez des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
-* **Campagnes déclenchées par l’API** autorisez des messages transactionnels/opérationnels simples avec des API REST (réinitialisation de mot de passe, abandon de carte, etc.), où le besoin peut impliquer une personnalisation à l’aide d’attributs de profil et de données contextuelles issues de la payload.
+<!--You can create two types of campaigns:
 
-Découvrez comment utiliser les campagnes :
-* [Créer une campagne](create-campaign.md)
-* [Création de campagnes déclenchées par l’API](api-triggered-campaigns.md)
-* [Modifier ou arrêter une campagne](modify-stop-campaign.md)
-* [Rapport dynamique de la campagne](campaign-live-report.md)
-* [Rapport global de campagne](campaign-global-report.md)
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Accès aux campagnes {#access}
 
@@ -55,7 +52,7 @@ Les campagnes peuvent avoir plusieurs statuts :
 * **[!UICONTROL Actif]** : la campagne est active.
 * **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date spécifique.
 * **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ou la réutiliser (consultez la section [Arrêter une campagne](modify-stop-campaign.md#stop)).
-* **[!UICONTROL Terminé]** : la campagne est terminée.
+* **[!UICONTROL Terminé]** : la campagne est terminée. Ce statut est automatiquement attribué 3 jours après l&#39;activation d&#39;une campagne, ou à la date de fin de la campagne si son exécution est récurrente.
 * **[!UICONTROL Archivé]** : la campagne a été archivée.
 
 >[!NOTE]

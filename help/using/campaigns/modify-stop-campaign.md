@@ -1,58 +1,58 @@
 ---
 title: Modifier ou arrêter une campagne
-description: Découvrez comment créer ou arrêter une campagne activée dans [!DNL Journey Optimizer]
+description: Découvrez comment modifier, arrêter ou dupliquer des campagnes actives dans [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 15%
+source-wordcount: '236'
+ht-degree: 40%
 
 ---
 
-# Modifier ou arrêter une campagne {#modify-stop-campaign}
+# Gestion des campagnes en direct {#modify-stop-campaign}
 
-Une fois qu’une campagne a été activée, vous pouvez la modifier ou l’arrêter à tout moment. Pour ce faire, suivez les étapes ci-après.
+Une fois qu&#39;une campagne a été activée, vous pouvez la modifier ou l&#39;arrêter à tout moment. Ces opérations sont disponibles pour les opérations dont l’exécution est récurrente uniquement.
 
-## Modifier une campagne activée {#modify}
+De plus, vous pouvez dupliquer des campagnes actives (exécutées une fois ou avec une exécution récurrente) pour en créer de nouvelles.
 
-Pour modifier et créer une version d&#39;une campagne, procédez comme suit :
+## Modifier une opération récurrente {#modify}
 
-1. Ouvrez l&#39;opération, puis cliquez sur le bouton **[!UICONTROL Modifier une campagne]** bouton .
+Pour modifier et créer une nouvelle version d&#39;une opération récurrente, procédez comme suit :
 
-1. Une nouvelle version de la campagne est créée. Vous pouvez vérifier la version active en cliquant sur **[!UICONTROL Ouvrir la version en direct]**.
+1. Ouvrez la campagne, puis cliquez sur le bouton **[!UICONTROL Modifier la campagne]**.
+
+1. Une nouvelle version de la campagne est créée. Vous pouvez vérifier la version active en cliquant sur **[!UICONTROL Ouvrir la version active]**.
 
    ![](assets/create-campaign-draft.png)
 
-   Dans la liste des campagnes, les campagnes activées avec une version préliminaire en cours s’affichent avec une icône spécifique dans la variable **[!UICONTROL État]** colonne . Cliquez sur cette icône pour ouvrir le brouillon de la campagne.
+   Dans la liste des campagnes, les campagnes activées avec un brouillon en cours s’affichent avec une icône spécifique dans la colonne **[!UICONTROL Statut]**. Cliquez sur cette icône pour ouvrir le brouillon de la campagne.
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Une fois vos modifications prêtes, vous pouvez activer la nouvelle version de la campagne (voir [Révision et activation d’une campagne](create-campaign.md#review-activate)).
+1. Une fois vos modifications prêtes, vous pouvez activer la nouvelle version de la campagne (voir [Examiner et activer une campagne](create-campaign.md#review-activate)).
 
    >[!IMPORTANT]
    >
-   >L&#39;activation du brouillon remplacera la version en ligne de la campagne.
+   >L’activation du brouillon remplacera la version active de la campagne.
 
-## Arrêter une campagne {#stop}
+## Arrêter une opération récurrente {#stop}
 
-Pour arrêter une campagne, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL Arrêter la campagne]** bouton .
+Pour arrêter une opération récurrente, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL Arrêter la campagne]** bouton .
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->Après l’arrêt d’une campagne, elle sera disponible en lecture seule uniquement. Vous ne pourrez plus l’activer ou l’utiliser pour créer une nouvelle campagne.
+>L’arrêt d’une campagne n’arrête pas un envoi en cours, mais elle arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
 
-## Ressources supplémentaires
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [Prise en main des campagnes](get-started-with-campaigns.md)
-* [Créer une campagne](create-campaign.md)
-* [Création de campagnes déclenchées par l’API](api-triggered-campaigns.md)
-* [Rapport dynamique de la campagne](campaign-live-report.md)
-* [Rapport global de campagne](campaign-global-report.md)
+## Dupliquer une opération {#duplicate}
+
+Vous pouvez dupliquer une campagne active pour en créer une nouvelle. Pour ce faire, ouvrez la campagne, puis cliquez sur **[!UICONTROL Dupliquer]**.
+
+![](assets/create-campaign-duplicate.png)

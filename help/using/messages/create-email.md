@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 21%
+source-wordcount: '294'
+ht-degree: 70%
 
 ---
 
@@ -20,39 +20,45 @@ ht-degree: 21%
 >title="Création d&#39;un e-mail"
 >abstract="Définissez vos paramètres d&#39;e-mail en trois étapes simples."
 
+Les emails peuvent être créés :
 
-Une fois que [ajout d’un email](get-started-content.md) dans votre parcours <!--or a campaign--> et défini des paramètres de base, vous pouvez configurer l&#39;email et définir son contenu.
+* Dans un **Parcours**: Une fois que vous avez ajouté une activité Email dans votre parcours et défini des paramètres de base, utilisez la méthode **[!UICONTROL Actions : Email]** pour créer le contenu des notifications push.
 
-## Définition du contenu de votre email{#email-content}
+   Pour plus d&#39;informations sur le paramétrage de votre parcours, reportez-vous à cette section [page](../building-journeys/journey-gs.md).
 
-Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour concevoir votre email.
+   ![](assets/email-edit-content.png)
 
-![](assets/email-edit-content.png)
+* Dans un **Campagne**: Une fois une campagne créée, sélectionnez Email comme action et définissez les paramètres de base.
 
-Utilisation [!DNL Journey Optimizer] Concepteur d’email à [créer entièrement votre email ;](../design/create-email-content.md). Si vous disposez d’un contenu existant, vous pouvez [l&#39;importer dans le Concepteur d&#39;email](../design/existing-content.md)ou [codez votre propre contenu](../design/code-content.md) in [!DNL Journey Optimizer].
+   Pour plus d&#39;informations sur le paramétrage de votre opération, reportez-vous à cette section [page](../campaigns/create-campaign.md#configure).
 
-[!DNL Journey Optimizer] est fourni avec un ensemble de [modèles intégrés](../design/email-templates.md) pour vous arrêter. Tout email peut également être enregistré comme modèle.
+   ![](assets/email_campaign.png)
 
-En savoir plus sur la conception d’un email dans [cette section](../design/design-emails.md).
+## Définition du contenu de l’e-mail{#email-content}
 
-Utilisation [!DNL Journey Optimizer] Editeur d&#39;expression pour personnaliser vos messages avec les données des profils. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md).
+Utilisez le Concepteur d’e-mail [!DNL Journey Optimizer] pour [concevoir votre e-mail à partir de zéro](../design/create-email-content.md). Si vous disposez d’un contenu existant, vous pouvez [l’importer dans le Concepteur d’e-mail](../design/existing-content.md), ou [coder votre propre contenu](../design/code-content.md) dans [!DNL Journey Optimizer].
 
-## Tracking email{#email-tracking}
+[!DNL Journey Optimizer] est fourni avec un ensemble de [modèles intégrés](../design/email-templates.md) pour vous aider à commencer. Tout e-mail peut également être enregistré comme modèle.
 
-Si vous souhaitez suivre le comportement de vos destinataires par le biais des ouvertures et/ou des clics sur les liens, activez les options suivantes : **[!UICONTROL Ouverture d’email]** et **[!UICONTROL Clic sur l’email]**. En savoir plus sur les suivi dans [cette section](../design/message-tracking.md).
+Utilisez l’Éditeur d’expression [!DNL Journey Optimizer] pour personnaliser vos messages avec les données des profils. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md).
 
+## Tracking d’e-mail{#email-tracking}
 
-## Valider le contenu de votre email{#email-content-validate}
+Si vous souhaitez suivre le comportement de vos destinataires par le biais des ouvertures et/ou des clics sur les liens, activez les options suivantes : **[!UICONTROL Ouvertures d’e-mails]** et **[!UICONTROL Clic sur l’e-mail]**.
 
-Contrôlez le rendu de votre email et vérifiez les paramètres de personnalisation avec les profils de test, en utilisant la section d&#39;aperçu située à gauche. Voir à ce propos [cette section](../design/preview.md).
+En savoir plus sur le tracking dans [cette section](../design/message-tracking.md).
+
+## Validation du contenu de l’e-mail{#email-content-validate}
+
+Contrôlez le rendu de vos e-mails et vérifiez les paramètres de personnalisation avec les profils de test, à l’aide de la section de prévisualisation sur le côté gauche. Voir à ce propos [cette section](../design/preview.md).
 
 ![](assets/messages-simple-preview.png)
 
 
-Vous devez également vérifier les alertes dans la section supérieure de l’éditeur.  Certains d’entre eux sont de simples avertissements, mais d’autres peuvent vous empêcher d’utiliser le message. En savoir plus dans [cette section](alerts.md).
+Vous devez également vérifier les alertes dans la section supérieure de l’éditeur.  Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’utiliser le message. En savoir plus dans [cette section](alerts.md).
 
 
 >[!NOTE]
 >
->Le **[!UICONTROL Adresse électronique]** et **[!UICONTROL À partir du nom]** sont déterminés par la variable **[!UICONTROL Surface]** qui a été sélectionné lors de la [création du message](get-started-content.md).
+>L’**[!UICONTROL e-mail de l’expéditeur]** et le **[!UICONTROL nom de l’expéditeur]** sont déterminés par la **[!UICONTROL surface]** qui a été sélectionnée lors de la [création du message](get-started-content.md).
 
