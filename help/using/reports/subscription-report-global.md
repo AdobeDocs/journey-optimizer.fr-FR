@@ -21,7 +21,7 @@ Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport global]** dan
 
 ![](assets/subscription_report_7.png)
 
-Le **[!UICONTROL Rapport d&#39;abonnement global]** est divisé en différents widgets détaillant vos abonnements et désabonnements. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md).
+Le **[!UICONTROL Rapport d&#39;abonnement global]** est divisé en différents widgets détaillant vos abonnements et désabonnements. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md).
 
 ![](assets/subscription_report_1.png)
 

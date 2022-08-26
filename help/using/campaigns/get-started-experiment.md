@@ -11,7 +11,7 @@ exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '1512'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité « Expérience de contenu » est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 ## Qu’est-ce qu’une expérience de contenu ?
 

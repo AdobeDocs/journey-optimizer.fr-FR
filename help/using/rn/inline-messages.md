@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ La migration se produit de nuit pour chaque région, à travers plusieurs itéra
 
 Pourquoi plusieurs itérations sont-elles nécessaires ?
 
-Au cours d’une itération, chaque parcours est analysé, puis migré lorsque cela est possible. Dans certains cas, la migration automatique n’est pas souhaitée : lorsque le parcours est actif (ce qui signifie qu’il peut toujours y avoir des profils). Dans ces situations, il vous sera demandé d’effectuer une action. Lors de la prochaine itération, les parcours qui n’ont pas pu être migrés lors de l’itération précédente seront migrés.
+Au cours d’une itération, chaque parcours est analysé, puis migré lorsque cela est possible. Dans certains cas, la migration automatique n’est pas souhaitée : lorsque le parcours est actif (ce qui signifie qu’il peut encore contenir des profils). Dans ces situations, il vous sera demandé d’effectuer une action. Lors de la prochaine itération, les parcours qui n’ont pas pu être migrés lors de l’itération précédente seront migrés.
 
 ## FAQ {#faq}
 
@@ -301,9 +301,9 @@ Oui, les parcours actifs continuent de fonctionner.
 
 La migration est terminée lorsque la bannière disparaît. Consultez cette [section](../rn/inline-messages.md#inform).
 
-### Comment les autorisations liées aux messages seront-elles affectées ?
+### Comment les autorisations liées aux messages seront-elles affectées ?
 
-La fonctionnalité de création en ligne aura un impact sur les autorisations. Chaque autorisation liée aux messages, telle que [!DNL View Messages] ou [!DNL Manage Messages], sera automatiquement inclus dans les autorisations liées à la fonctionnalité Parcours .
+La fonctionnalité de création insérée aura un impact sur les autorisations. Chaque autorisation liée aux messages, telle que [!DNL View Messages] ou [!DNL Manage Messages], sera automatiquement incluse dans les autorisations liées à la fonctionnalité Parcours.
 
 En savoir plus sur cette [page](../administration/ootb-product-profiles.md).
 

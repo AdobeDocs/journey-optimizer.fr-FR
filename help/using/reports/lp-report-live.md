@@ -21,7 +21,7 @@ Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport dynamique]** 
 
 ![](assets/landing_page_report_1.png)
 
-Le **[!UICONTROL Rapport dynamique]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
+Le **[!UICONTROL Rapport dynamique]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
 ![](assets/landing_page_report_2.png)
 

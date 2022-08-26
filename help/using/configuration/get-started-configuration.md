@@ -9,7 +9,7 @@ topic: Administration
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous re
 
 Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les étapes de configuration suivantes :
 
-1. **Configuration des messages et des canaux**: définir les surfaces des canaux, adapter et personnaliser les messages ;
+1. **Configurer des messages et des canaux** : permet de définir les surfaces des canaux, d’adapter et de personnaliser les messages.
 
-   * Créez des surfaces de canal pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
+   * Créez des surfaces de canaux pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
 
    * Déterminez l&#39;adresse e-mail à utiliser en priorité pour vos destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
 
@@ -47,7 +47,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
    ![](assets/admin-menu.png)
 
-   * Le **source de données** configuration vous permet de définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées dans vos parcours. [En savoir plus](../datasource/about-data-sources.md)
+   * La configuration des **sources de données** vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours. [En savoir plus](../datasource/about-data-sources.md)
 
    * **Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.** Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données Adobe Experience (XDM). Les événements authentifiés et non authentifiés proviennent des API d&#39;ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). [En savoir plus](../event/about-events.md)
 

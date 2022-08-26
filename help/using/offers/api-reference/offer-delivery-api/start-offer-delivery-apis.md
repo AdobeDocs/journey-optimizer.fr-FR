@@ -1,6 +1,6 @@
 ---
 title: Prise en main des API de diffusion d’offres
-description: En savoir plus sur les API disponibles pour diffuser des offres personnalisées.
+description: Découvrez les API disponibles pour diffuser des offres personnalisées.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,20 +9,20 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Prise en main des API de diffusion d’offres {#about-decisioning-apis}
 
-Vous pouvez diffuser des offres à l’aide de l’une des API suivantes : API **Decisioning** ou **Edge Decisioning.** En outre, la variable **Prise de décision par lots** L’API vous permet de diffuser des offres à tous les profils d’un segment donné en un seul appel. Le contenu de l&#39;offre pour chaque profil du segment est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
+Vous pouvez diffuser des offres à l’aide de l’une des API suivantes : API **Decisioning** ou **Edge Decisioning.** En outre, l’API **Batch Decisioning** vous permet de diffuser des offres à tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
 
-Cette page contient des informations sur les fonctionnalités spécifiques disponibles avec la fonction **Prise de décision** et **Prise de décision Edge** API. Même si toutes deux vous permettent de diffuser des offres à vos clients, il est recommandé d’utiliser l’API **Edge Decisioning** chaque fois que possible pour les cas d’utilisation entrants. Cette dernière assure une latence plus faible et un débit plus élevé sur votre plateforme.
+Cette page contient des informations sur les fonctionnalités spécifiques disponibles avec les API **Decisioning** et **Edge Decisioning**. Même si toutes deux vous permettent de diffuser des offres à vos clients, il est recommandé d’utiliser l’API **Edge Decisioning** chaque fois que possible pour les cas d’utilisation entrants. Cette dernière assure une latence plus faible et un débit plus élevé sur votre plateforme.
 
 |  | Demandes/seconde | Latence |
 |---|---|---|
 | API Decisioning | 2 000 | &lt; 500 ms |
-| API Edge Decisioning | 5 000 | &lt; 250 ms |
+| API Edge Decisioning | 5000 | &lt; 250 ms |
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 * [API Decisioning](decisioning-api.md)

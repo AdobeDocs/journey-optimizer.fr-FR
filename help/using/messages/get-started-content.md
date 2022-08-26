@@ -69,7 +69,7 @@ Pour ajouter des messages dans vos parcours, ajoutez simplement une activité de
 
    >[!CAUTION]
    >
-   >Les messages de type marketing doivent inclure un [lien d’exclusion](../messages/consent.md#opt-out-management). Cela n’est pas nécessaire pour les messages transactionnels, car ces messages peuvent être envoyés aux profils qui se sont désabonnés des communications marketing.
+   >Les messages de type marketing doivent inclure un [lien d’opt-out](../messages/consent.md#opt-out-management). Cela n’est pas nécessaire pour les messages transactionnels, car ces messages peuvent être envoyés aux profils qui se sont désabonnés des communications marketing.
 
 1. Sélectionnez la **[!UICONTROL Surface]** de canal (c’est-à-dire le préréglage du message) à utiliser pour envoyer votre message.
 

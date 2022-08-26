@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent v
 
 ## Accès aux enregistrements PTR de vos sous-domaines {#access-ptr-records}
 
-Une fois [quʼun sous-domaine est délégué ](delegate-subdomain.md)dans Adobe Journey Optimizer, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir de la **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Enregistrements PTR]** .
+Une fois [quʼun sous-domaine est délégué ](delegate-subdomain.md)dans Adobe Journey Optimizer, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. Vous pouvez y accéder à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]** > **[!UICONTROL Enregistrements PTR]**.
 
 ![](assets/ptr-records.png)
 
@@ -42,7 +42,7 @@ Vous pouvez ouvrir un enregistrement PTR de la liste pour afficher le nom de sou
 
 ## Modifier un enregistrement PTR {#edit-ptr-record}
 
-Vous pouvez modifier un enregistrement PTR pour modifier le sous-domaine associé à une adresse IP. 
+Vous pouvez modifier un enregistrement PTR pour modifier le sous-domaine associé à une adresse IP.
 
 >[!CAUTION]
 >
@@ -99,13 +99,13 @@ Une fois que vous avez confirmé la modification de l’enregistrement PTR, l’
 
 >[!NOTE]
 >
->Le [traitement des mises à jour](#processing) peut prendre jusqu’à 3 heures.
+>Le [traitement de la mise à jour](#processing) peut prendre jusqu’à 3 heures.
 
 Pour vérifier les détails de la mise à jour de l’enregistrement PTR, cliquez sur l’icône en regard de celui-ci. En savoir plus sur les statuts associés aux différentes icônes dans [cette section](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
-Vous pouvez voir des informations telles que l’état de mise à jour et les modifications demandées. 
+Vous pouvez voir des informations telles que l’état de mise à jour et les modifications demandées.
 
 ![](assets/ptr-record-updates.png)
 
@@ -119,25 +119,25 @@ Une mise à jour d’enregistrement PTR peut afficher les états suivants :
 
 ### En cours de traitement {#processing}
 
-Plusieurs contrôles de délivrabilité seront effectués pour vérifier la validité du nouveau sous-domaine à associer à l’adresse IP. Cela peut prendre jusqu’à 3 heures.
+Plusieurs contrôles de délivrabilité seront effectués pour vérifier la validité du nouveau sous-domaine à associer à l’adresse IP. Cela peut prendre jusqu’à 3 heures.
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier un enregistrement PTR pendant que la mise à jour est en cours. Vous pouvez toujours cliquer sur son nom, mais le champ **[!UICONTROL Sous-domaine]** est grisé. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi. 
+>Vous ne pouvez pas modifier un enregistrement PTR pendant que la mise à jour est en cours. Vous pouvez toujours cliquer sur son nom, mais le champ **[!UICONTROL Sous-domaine]** est grisé. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi.
 
-Pendant le processus de validation, l’ancien sous-domaine est toujours associé à l’adresse IP. 
+Pendant le processus de validation, l’ancien sous-domaine est toujours associé à l’adresse IP.
 
 ### Réussite {#success}
 
-Une fois le processus de validation réussi, le nouveau sous-domaine est automatiquement associé à l’adresse IP. 
+Une fois le processus de validation réussi, le nouveau sous-domaine est automatiquement associé à l’adresse IP.
 
 ### Échec {#failes}
 
-Si le processus de validation échoue, l’ancien enregistrement PTR s’affiche. Le sous-domaine valide précédemment associé à l’adresse IP reste inchangé. 
+Si le processus de validation échoue, l’ancien enregistrement PTR s’affiche. Le sous-domaine valide précédemment associé à l’adresse IP reste inchangé.
 
 Les types d’erreur de mise à jour possibles sont les suivants :
 * Échec de la création d’un nouveau DNS direct pour l’enregistrement PTR
 * Échec de la mise à jour de l’enregistrement
 * Échec de la réintégration des affinités
 
-En cas d’échec de la mise à jour, l’enregistrement PTR est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à nouveau à jour le sous-domaine. 
+En cas d’échec de la mise à jour, l’enregistrement PTR est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à nouveau à jour le sous-domaine.

@@ -9,13 +9,13 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Ajout d&#39;offres personnalisées {#deliver-personalized-offers}
 
-Dans [!DNL Journey Optimizer] Par e-mail, vous pouvez insérer des décisions qui exploiteront le moteur de décision d’offre afin de choisir la meilleure offre à diffuser à vos clients.
+Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de décision d’offre afin de sélectionner la meilleure offre à proposer à vos clients.
 
 Par exemple, vous pouvez ajouter une décision qui affichera dans votre email une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 
@@ -63,7 +63,7 @@ Une fois vos modifications enregistrées, vos offres sont prêtes à être affic
 
 >[!NOTE]
 >
->Lorsque vous mettez à jour une offre, une offre de secours, une collecte d’offres ou une décision d’offre directement ou indirectement référencée dans un message, les mises à jour sont automatiquement répercutées dans le message correspondant.
+>Lors de la mise à jour dʼune offre, dʼune offre de secours, dʼune collection d’offres ou dʼune décision d’offre, directement ou indirectement référencée dans un message, les mises à jour sont automatiquement répercutées dans le message correspondant.
 
 ## Prévisualisation des offres dans un e-mail {#preview-offers-in-email}
 

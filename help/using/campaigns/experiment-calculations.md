@@ -11,7 +11,7 @@ exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité « Expérience de contenu » est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 Cet article décrit les calculs statistiques utilisés lors de l’exécution d’expériences dans Adobe Journey Optimizer. L’expérience utilise des méthodes statistiques avancées pour calculer **Séquences de confiance** et **Confiance**, qui vous permettent d’exécuter vos expériences aussi longtemps que nécessaire, et de surveiller vos résultats en continu.
 

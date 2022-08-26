@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
    + [Gestion des campagnes en direct](using/campaigns/modify-stop-campaign.md)
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
-      + [Création d’une expérience de contenu](using/campaigns/content-experiment.md)
+      + [Créer une expérience de contenu](using/campaigns/content-experiment.md)
       + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
       + [Configuration des rapports](using/campaigns/reporting-configuration.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)

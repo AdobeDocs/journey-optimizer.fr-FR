@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez également supprimer, dupliquer et dépublier une page de destinatio
 
 >[!CAUTION]
 >
->Si vous dépubliez une landing page référencée dans un message non publié, le lien vers la landing page est rompu et une page d&#39;erreur s&#39;affiche.
+>Si vous dépubliez une page de destination référencée dans un message dépublié, le lien vers la page de destination est rompu et une page d’erreur s’affiche.
 
 Cliquez sur les trois points en regard d’une page de destination pour sélectionner l’action souhaitée.
 

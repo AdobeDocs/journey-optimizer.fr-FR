@@ -1,5 +1,5 @@
 ---
-title: 'Utiliser les composants de contenu du Concepteur d’email '
+title: Utiliser les composants de contenu du Concepteur d’email
 description: Découvrez comment utiliser les composants de contenu dans vos e-mails
 feature: Overview
 topic: Content Management
@@ -9,7 +9,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -184,4 +184,4 @@ Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des dé
 Rubriques connexes :
 
 * [Prise en main de la gestion des décisions](../offers/get-started/starting-offer-decisioning.md)
-* [Ajouter des offres personnalisées dans les emails](deliver-personalized-offers.md)
+* [Ajouter des offres personnalisées dans des e-mails](deliver-personalized-offers.md)

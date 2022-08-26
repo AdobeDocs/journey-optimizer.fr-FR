@@ -7,7 +7,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Pour attribuer des droits **Propriété** et **Société**, procédez comme suit
    * **[!UICONTROL Gérer les configurations d&#39;application]**
    * **[!UICONTROL Gérer les propriétés]**
 
-   Ces autorisations sont requises pour que le développeur d’applications mobiles configure les informations d’identification push dans **Adobe Experience Launch** et définir les surfaces du canal Notification push (c’est-à-dire les paramètres prédéfinis du message) dans **Adobe Journey Optimizer**.
+   Ces autorisations sont requises pour que le développeur d’application mobile configure les informations d’identification push dans **Adobe Experience Launch** et définisse les surfaces de canal des notifications push (c&#39;est à dire les préréglages de message) dans **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -331,9 +331,9 @@ Votre événement est maintenant créé et peut être utilisé dans un parcours.
 
    ![](assets/test_push_11.png)
 
-1. Dans la **[!UICONTROL Actions]** , effectuez un glisser-déposer d’une **[!UICONTROL Push]** à votre parcours.
+1. Dans la liste déroulante **[!UICONTROL Actions]**, faites glisser et déposez une activité **[!UICONTROL Push]** dans votre parcours.
 
-1. Configurez la notification push. Pour plus d&#39;informations sur la création de notifications push, consultez cette [page](../messages/get-started-content.md).
+1. Configurez la notification push. Pour plus d’informations sur la création de notifications push, consultez cette [page](../messages/get-started-content.md).
 
 1. Cliquez sur l&#39;option **[!UICONTROL Test]** pour commencer à tester vos notifications push et cliquez sur **[!UICONTROL Déclencher un événement]**.
 
@@ -347,13 +347,13 @@ Votre événement est maintenant créé et peut être utilisé dans un parcours.
 
 Votre événement sera déclenché et vous recevrez votre notification push sur votre application mobile.
 
-## Étape 4 : Création d’une surface de canal pour les notifications push{#message-preset}
+## Étape 4 : création d’une surface de canal pour les notifications push{#message-preset}
 
-Une fois votre application mobile configurée dans [!DNL Adobe Experience Platform Data Collection], vous devez créer une surface pour pouvoir envoyer des notifications push depuis **[!DNL Journey Optimizer]**.
+Une fois votre application mobile configurée dans [!DNL Adobe Experience Platform Data Collection], vous devez créer une surface afin de pouvoir envoyer des notifications push depuis **[!DNL Journey Optimizer]**.
 
 Découvrez comment créer et configurer une surface de canal dans [cette section](../configuration/channel-surfaces.md).
 
 Vous êtes maintenant prêt à envoyer des notifications push avec Journey Optimizer.
 
 * Découvrez comment créer un message push dans [cette page](../messages/create-push.md).
-* Découvrez comment ajouter un message à un parcours dans [cette section](../building-journeys/journeys-message.md).
+* Découvrez comment ajouter un message dans un parcours dans [cette section](../building-journeys/journeys-message.md).

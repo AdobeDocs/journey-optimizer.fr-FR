@@ -1,6 +1,6 @@
 ---
 title: Utiliser E-mail Cci
-description: Découvrez comment configurer les emails en Cci au niveau de la surface du canal
+description: Découvrez comment configurer la fonctionnalité E-mail Cci au niveau de la surface de canal
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,7 +9,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1142'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,23 +24,23 @@ Vous pouvez envoyer une copie identique (ou copie carbone invisible) d’un e-ma
 
 ## Activer les e-mails en Cci {#enable-bcc}
 
-Pour activer la variable **[!UICONTROL Email Cci]** , saisissez l&#39;adresse email de votre choix dans le champ dédié du champ [surface du canal](channel-surfaces.md) (c’est-à-dire le paramètre prédéfini du message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
+Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l&#39;adresse e-mail de votre choix dans le champ dédié de la [surface de canal](channel-surfaces.md) (c’est-à-dire le préréglage de message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
 
 >[!NOTE]
 >
->Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous que l&#39;adresse en Cci dispose d&#39;une capacité de réception suffisante pour stocker tous les emails envoyés à l&#39;aide de la surface actuelle du canal.
+>Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous que l’adresse en Cci dispose d’une capacité de réception suffisante pour stocker tous les e-mails envoyés à l’aide de la surface de canal actuelle.
 >
 >D’autres recommandations sont répertoriées dans [cette section](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Tous les emails utilisant cette surface seront copiés en aveugle vers l&#39;adresse email en Cci que vous avez saisie. De là, ils peuvent être traités et archivés à l’aide d’un système externe.
+Tous les e-mails utilisant cette surface seront copiés de façon invisible vers l’adresse e-mail en Cci que vous avez saisie. De là, ils peuvent être traités et archivés à l’aide d’un système externe.
 
 >[!CAUTION]
 >
->Votre utilisation de la fonctionnalité Cci sera décomptée en fonction du nombre de messages pour lesquels vous disposez d’une licence. Par conséquent, activez-la uniquement sur les surfaces utilisées pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
+>Votre utilisation de la fonctionnalité Cci sera décomptée en fonction du nombre de messages pour lesquels vous disposez d’une licence. Par conséquent, activez-la uniquement dans les surfaces utilisées pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
 
-Le paramètre d’adresse email en Cci est immédiatement enregistré et traité au niveau de la surface. Lorsque vous [créer un message](../messages/get-started-content.md#create-new-message) avec cette surface, l&#39;adresse email en Cci s&#39;affiche automatiquement.
+Le paramètre d’adresse e-mail en Cci est immédiatement enregistré et traité au niveau de la surface. Lorsque vous [créez un message](../messages/get-started-content.md#create-new-message) avec cette surface, l’adresse e-mail en Cci s’affiche automatiquement.
 
 ![](assets/preset-bcc-in-msg.png)
 

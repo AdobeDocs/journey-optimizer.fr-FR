@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Création et gestion des ressources. par [!DNL Assets Essentials]{#experience-manager-assets}
+# Création et gestion des ressources.  par [!DNL Assets Essentials]{#experience-manager-assets}
 
 ## Prise en main de [!DNL Assets Essentials] {#get-started-assets-essentials}
 

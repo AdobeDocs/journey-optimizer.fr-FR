@@ -4,7 +4,7 @@ description: Découvrez comment débuter de votre parcours et envoyer des messag
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils d
 
 ## Envoi des messages {#send-messages}
 
-Lorsque le contenu de votre message est défini, il est prêt à être envoyé via un [parcours](journey.md).
+Lorsque le contenu de votre message est défini, il est prêt à être envoyé par l’intermédiaire d’un [parcours](journey.md).
 
 Une fois qu’un message est envoyé, vous pouvez surveiller son exécution au moyen de plusieurs indicateurs. [En savoir plus sur les rapports](../global-report.md).
 

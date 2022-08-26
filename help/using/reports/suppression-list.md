@@ -9,7 +9,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailin
 >
 >Adobe tient à jour une liste des adresses e-mail erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-## Pourquoi une liste de suppression ?  {#why-suppression-list}
+## Pourquoi une liste de suppression ? {#why-suppression-list}
 
 Pour contrôler les emails reçus par les propriétaires de boîte de réception et s&#39;assurer que ces derniers ne reçoivent que les emails souhaités, les fournisseurs d&#39;accès Internet (FAI) et les filtres de spam commercial disposent de leurs algorithmes propriétaires afin de suivre la réputation globale des expéditeurs d&#39;email en fonction des adresses IP et du ou des domaine(s) d&#39;envoi qu&#39;ils utilisent.
 
@@ -33,7 +33,7 @@ Si vous ne tenez pas compte de leurs retours (comme les plaintes contre le spam,
 
 Les destinataires dont les adresses email sont supprimées sont automatiquement exclus de la diffusion des messages. Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
-## Que contient la liste de suppression ?  {#what-s-on-suppression-list}
+## Que contient la liste de suppression ? {#what-s-on-suppression-list}
 
 Les adresses email sont ajoutées à la liste de suppression comme suit :
 
@@ -53,7 +53,7 @@ Pour chaque adresse, la raison de base de la suppression et la catégorie de sup
 
 >[!NOTE]
 >
->Les profils ayant le statut **[!UICONTROL Supprimé]** sont exclus pendant le processus d’envoi du message. Par conséquent, si la variable **Rapports sur les parcours** affiche ces profils comme ayant traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [activités de message](../building-journeys/journeys-message.md)), la variable **Rapports par courriel** ne les inclut pas dans la variable **[!UICONTROL Envoyé]** les mesures telles qu’elles sont filtrées avant l’envoi des emails.
+>Les profils ayant le statut **[!UICONTROL Supprimé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports sur les parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports sur les e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
 >
 >En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport global](../reports/global-report.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.
 

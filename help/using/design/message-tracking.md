@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et sui
 
 ## Activation du suivi {#enable-tracking}
 
-Vous pouvez activer le tracking au niveau des emails en cochant la case **[!UICONTROL Ouverture d’email]** et/ou **[!UICONTROL Clic sur l’email]** options lorsque [création de votre message](../messages/get-started-content.md).
+Vous pouvez activer le suivi au niveau des e-mails en cochant les options **[!UICONTROL Ouvertures d’e-mails]** et/ou **[!UICONTROL Clics sur les e-mails]** lorsque vous [créez votre message](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Vous pouvez activer le tracking au niveau des emails en cochant la case **[!UICO
 
 Vous pourrez ainsi suivre le comportement de vos destinataires via :
 
-* **[!UICONTROL Ouverture d’email]**: Messages ouverts.
-* **[!UICONTROL Clic sur l’email]**: Clics sur les liens d’un email.
+* **[!UICONTROL Ouvertures d’e-mails]** : messages ayant été ouverts.
+* **[!UICONTROL Clics sur les e-mails]** : clics sur les liens dans un e-mail.
 
 ## Insertion de liens {#insert-links}
 
@@ -52,11 +52,11 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. En savoir plus dans [cette section](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Désinscription en un clic]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur désinscription. En savoir plus dans [cette section](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL Opt-out en un clic]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur opt-out. En savoir plus dans [cette section](../messages/consent.md#one-click-opt-out).
 
-   * **[!UICONTROL Abonnement/inscription externe]** : insérez un lien pour accepter la réception de communications de votre marque.
+   * **[!UICONTROL Abonnement/opt-in externe]** : insérez un lien pour accepter la réception de communications de votre marque.
 
-   * **[!UICONTROL Désabonnement/désinscription externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des désinscriptions dans [cette section](../messages/consent.md#opt-out-management).
+   * **[!UICONTROL Désabonnement/opt-out externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](../messages/consent.md#opt-out-management).
 
    * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
 
@@ -75,7 +75,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un [lien d’exclusion](../messages/consent.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface du canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire des préréglages du message) et lors de la [création du message](../messages/get-started-content.md#create-new-message).
+>Les e-mails de type marketing doivent inclure un [lien d’opt-out](../messages/consent.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage de message) et lors de la [création du message](../messages/get-started-content.md#create-new-message).
 
 ## Lien vers une page miroir {#mirror-page}
 
@@ -95,7 +95,7 @@ Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de
 
 >[!NOTE]
 >
->Dans le [BAT](preview.md#send-proofs) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n’est activé que dans les messages finaux.
+>Dans le [BAT](preview.md#send-proofs) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n&#39;est activé que dans les messages finaux.
 
 La période de conservation d’une page miroir est de 60 jours. Passé ce délai, la page miroir n’est plus disponible.
 
@@ -122,4 +122,4 @@ Le [Concepteur d&#39;e-mail](create-email-content.md) permet de gérer les URL s
    * **[!UICONTROL Page miroir]** : considère cette URL comme une URL de page miroir.
    * **[!UICONTROL Jamais]** : n&#39;active jamais le suivi de cette URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Les rapports sur les ouvertures et les clics sont disponibles dans la [Rapport en direct](../reports/live-report.md) et dans le [Rapport global](../reports/global-report.md).
+La création de rapports sur les ouvertures et les clics est disponible dans le [rapport dynamique](../reports/live-report.md) et dans le [rapport global](../reports/global-report.md).

@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
 
    ![](assets/jo-datasource.png)
 
-1. **Configuration d’une action**: Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**. Si vous utilisez les fonctionnalités de message intégré à Journey Optimizer, vous devez simplement ajouter une action de canal à votre parcours et concevoir votre contenu. Consultez [cette section](../messages/get-started-content.md).
+1. **Configurer une action** : si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**. Si vous utilisez les fonctionnalités de message intégrées à Journey Optimizer, vous devez simplement ajouter une action de canal à votre parcours et concevoir votre contenu. Consultez [cette section](../messages/get-started-content.md).
 
    ![](assets/custom2.png)
 
@@ -113,7 +113,7 @@ Outre la [temporisation](#timeout_and_error) utilisée dans les activités de pa
 
 >[!NOTE]
 >
->Les parcours ne réagissent pas directement aux demandes de désinscription, de suppression ou d&#39;accès. Cependant, la temporisation globale limite à 30 jours la durée d&#39;activité d&#39;un individu au sein d&#39;un parcours.
+>Les parcours ne réagissent pas directement aux demandes d&#39;opt-out, de suppression ou d&#39;accès. Cependant, la temporisation globale limite à 30 jours la durée d&#39;activité d&#39;un individu au sein d&#39;un parcours.
 
 Compte tenu de la temporisation de 30 jours, lorsque la rentrée n&#39;est pas autorisée, nous sommes dans l&#39;impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 30 jours.
 

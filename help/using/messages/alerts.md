@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 76%
 
 Lorsque vous concevez vos messages, des alertes s’affichent dans l’interface lorsque des paramètres clés sont manquants.
 
-Les alertes s’affichent en haut à droite de l’écran lors de l’édition du contenu du message.
+Elles s’affichent en haut à droite de l’écran lors de l’édition du contenu du message.
 
 ![](assets/alerts-details.png)
 
@@ -31,13 +31,13 @@ Deux types d’alertes peuvent avoir lieu :
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. Par exemple, un message s’affiche si le lien de d’opt-out est manquant.
 
-* **Erreurs** vous empêche de tester ou d’activer le parcours tant qu’il n’est pas résolu. Par exemple, un message vous avertit que l’objet est manquant.
+* Les **erreurs** vous empêchent de tester ou d’activer le parcours tant qu’elles ne sont pas corrigées. Par exemple, un message vous avertit que l’objet est manquant.
 
 Tous les avertissements et erreurs possibles sont détaillés [ci-dessous](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> Vous devez résoudre tous les **error** alertes avant de tester ou d’activer le parcours à l’aide du message.
+> Vous devez résoudre tous les alertes d’**erreur** avant de tester ou d’activer le parcours à l’aide du message.
 
 ## Liste des avertissements et des erreurs {#alerts-and-warnings}
 
@@ -45,11 +45,11 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 **Avertissements** :
 
-* **[!UICONTROL Le lien d’exclusion ne figure pas dans le corps de l’e-mail]** : il est recommandé d’ajouter un lien d’exclusion dans le corps de votre email. Découvrez comment configurer ce lien dans [cette section](consent.md#opt-out-management).
+* **[!UICONTROL Le lien d’opt-out ne figure pas dans le corps de l’e-mail]** : il est recommandé d’ajouter un lien d’exclusion dans le corps de votre e-mail. Découvrez comment configurer ce lien dans [cette section](consent.md#opt-out-management).
 
    >[!NOTE]
    >
-   >Les e-mails de type marketing doivent inclure un lien d’exclusion, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface du canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire des préréglages du message) et lors de la [création du message](get-started-content.md#create-new-message).
+   >Les e-mails de type marketing doivent inclure un lien d’opt-out, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage de message) et lors de la [création du message](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché Découvrez comment créer cette version texte dans [cette section](../design/text-version-email.md).
 
@@ -67,13 +67,13 @@ Les paramètres et les éléments vérifiés par le système sont répertoriés 
 
 * **[!UICONTROL La version e-mail du message est vide.]** : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré. Découvrez comment concevoir le contenu des e-mails dans [cette section](../design/design-emails.md).
 
-* **[!UICONTROL La surface n’existe pas]**: vous ne pouvez pas utiliser votre message si la surface que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre surface dans le message. **[!UICONTROL Propriétés]**. En savoir plus sur les surfaces des canaux dans [cette section](../configuration/channel-surfaces.md).
+* **[!UICONTROL La surface n’existe pas]** : vous ne pouvez pas publier votre message si la surface que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre surface dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur les surfaces de canal, consultez [cette section](../configuration/channel-surfaces.md).
 
 * **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](create-push.md).
 
 >[!CAUTION]
 >
-> Pour pouvoir utiliser votre message, vous devez résoudre tous les problèmes **error** alertes.
+> Pour pouvoir utiliser votre message, vous devez résoudre toutes les alertes d’**erreur**.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

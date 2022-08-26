@@ -9,7 +9,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
 1. [Publier](create-lp.md#publish) la page de destination.
 
-1. Dans un [parcours](../building-journeys/journey.md), ajoutez une **Email** activité pour diriger le trafic vers la landing page d’inscription.
+1. Dans un [parcours](../building-journeys/journey.md), ajoutez une activité **E-mail** pour diriger le trafic vers la page de destination d’inscription.
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Concevoir l&#39;email](../messages/get-started-content.md) pour annoncer que l’inscription est maintenant ouverte à votre événement.
+1. [Concevez un e-mail](../messages/get-started-content.md) pour annoncer que l’inscription à lʼévénement a débuté.
 
 1. [Insérez un lien](../design/message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** en tant que **[!UICONTROL Type de lien]** et sélectionnez la [Page de destination](create-lp.md#configure-primary-page) que vous avez créée pour lʼinscription.
 
@@ -59,7 +59,7 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
    >[!NOTE]
    >
-   >Pour pouvoir envoyer votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
+   >Pour pouvoir envoyer votre message, vérifiez que la page de destination sélectionnée n’a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
    Une fois que vos destinataires ont reçu lʼe-mail, sʼils cliquent sur le lien vers la page de destination, ils seront redirigés vers la page de remerciement et seront ajoutés à la liste dʼabonnements.
 
@@ -77,7 +77,7 @@ Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui s
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Ajoutez un email de confirmation de votre choix et envoyez-le par parcours.
+1. Ajoutez lʼe-mail de confirmation de votre choix et envoyez-le par le biais du parcours.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -87,7 +87,7 @@ Tous les utilisateurs inscrits à votre événement recevront l’e-mail de conf
 
 ## Désinscription {#opt-out}
 
-Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination de désinscription dans vos e-mails.
+Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination d&#39;opt-out dans vos e-mails.
 
 En savoir plus sur la gestion du consentement de vos destinataires et son caractère important dans [cette section](../messages/consent.md).
 
@@ -98,9 +98,9 @@ La possibilité pour les destinataires de se désabonner de la réception des co
 Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans chaque e-mail envoyé aux destinataires :
 
 * Lorsqu&#39;ils cliquent sur ce lien, les destinataires sont dirigés vers une page de destination contenant un bouton pour confirmer leur désinscription.
-* Lorsque le destinataire clique sur le bouton de désinscription, les données de son profil sont mises à jour avec ces informations.
+* Lorsque le destinataire clique sur le bouton d&#39;opt-out, les données de son profil sont mises à jour avec ces informations.
 
-### Configuration du droit de désinscription {#configure-opt-out}
+### Configuration du droit d&#39;opt-out {#configure-opt-out}
 
 Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos communications par le biais dʼune page de destination, procédez comme suit.
 
@@ -108,7 +108,7 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
 1. Définissez la page principale. [En savoir plus](create-lp.md#configure-primary-page)
 
-1. [Configurez](design-lp.md) le contenu de la page principale. Pour ce faire, utilisez le composant **[!UICONTROL Formulaire]**, spécialement conçu pour la page de destination, définissez une case à cocher de **[!UICONTROL Désinscription]** et choisissez de mettre à jour le **[!UICONTROL Canal (e-mail)]** : le profil qui active la case de désinscription sur votre page de destination sera désinscrit de toutes vos communications.
+1. [Configurez](design-lp.md) le contenu de la page principale. Pour ce faire, utilisez le composant **[!UICONTROL Formulaire]**, spécialement conçu pour la page de destination, définissez une case à cocher **[!UICONTROL Opt-out]** et choisissez de mettre à jour le **[!UICONTROL Canal (e-mail)]** : le profil qui active la case d&#39;opt-out sur votre page de destination sera désinscrit de toutes vos communications.
 
    ![](assets/lp_opt-out-primary-lp.png)
 
@@ -126,7 +126,7 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Création d’un message électronique](../messages/get-started-content.md) dans un parcours.
+1. [Créez un e-mail](../messages/get-started-content.md) dans un parcours.
 
 1. Sélectionnez du texte dans votre contenu et [insérez un lien](../design/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
 
@@ -138,7 +138,7 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
    >[!NOTE]
    >
-   >Pour pouvoir envoyer votre message, vérifiez que la landing page sélectionnée n&#39;a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
+   >Pour pouvoir envoyer votre message, vérifiez que la page de destination sélectionnée n’a pas encore expiré. Découvrez comment mettre à jour la date d’expiration [dans cette section](create-lp.md#configure-primary-page).
 
 1. Publiez et exécutez le parcours. [En savoir plus](../building-journeys/journey.md).
 

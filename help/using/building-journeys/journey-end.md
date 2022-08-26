@@ -9,7 +9,7 @@ exl-id: 57bdeadc-5801-4036-a272-c622634d5281
 source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 52%
 
 ## Profils dans les parcours{#profile-journey}
 
-Dans un parcours unitaire :
+Dans un parcours unitaire :
 
-* Si la rentrée est activée, un profil peut entrer un parcours plusieurs fois, mais il ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
+* Si la reprise est activée, un profil peut rejoindre à nouveau plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 
-* Si la rentrée est désactivée, un profil ne peut pas entrer plusieurs fois le même parcours
+* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
 
-Pour plus d&#39;informations sur la rentrée du profil, reportez-vous à cette section [section](../building-journeys/journey-gs.md#change-properties).
+Pour plus d&#39;informations à ce sujet, consulter cette [section](../building-journeys/journey-gs.md#change-properties).
 
-Dans un parcours de segment lu :
+Dans un parcours de segment lu :
 
-* Pour les parcours non récurrents : le profil entre une seule fois et une seule fois le parcours.
-* pour les parcours récurrents : le profil entre dans le parcours de chaque périodicité, s’il est dans l’état segment/attendu. S&#39;il était toujours dans le parcours d&#39;une précédente répétition, il la redémarrera dès le début.
+* Pour les parcours non récurrents : le profil rejoint une seule fois le parcours.
+* Pour les parcours récurrents : le profil rejoint le parcours à chaque périodicité, s’il est dans le segment / le statut attendu. S’il était toujours dans le parcours d&#39;une précédente périodicité, il la redémarrera dès le début.
 
-Dans les parcours d’événements professionnels commençant par un segment lu :
+Dans les parcours d’événement métier commençant par une lecture de segment :
 
-Sachant que ce parcours est basé sur la réception d’un événement commercial, si le profil est qualifié dans le segment attendu, il saisit le parcours de chaque événement commercial reçu, ce qui signifie que ce profil peut être plusieurs fois dans le même parcours, au même moment, mais dans le contexte de différents événements commerciaux.
+Sachant que ce parcours est basé sur la réception d’un événement métier, si le profil est qualifié dans le segment attendu, il rejoindra le parcours de chaque événement métier reçu, ce qui signifie que ce profil pourra être plusieurs fois dans le même parcours, au même moment, mais dans le contexte de différents événements métier.
 
 ## Fin de parcours{#journey-ending}
 
@@ -43,9 +43,9 @@ Un parcours peut se terminer pour un individu dans deux contextes spécifiques 
 
 Il peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-gs.md#change-properties)
 
-Pour terminer un parcours en direct, nous vous recommandons de le fermer. L&#39;arrivée de nouveaux clients dans le parcours sera alors bloquée. Les clients qui sont déjà entrés dans le parcours peuvent l’expérimenter jusqu’à la fin. Consultez [cette section](../building-journeys/journey-end.md#close-journey)
+Pour terminer un parcours actif, nous vous recommandons de le fermer. L’arrivée de nouveaux clients dans le parcours sera alors bloquée. Les clients qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin. Consultez [cette section](../building-journeys/journey-end.md#close-journey)
 
-Vous ne pouvez arrêter un parcours que si une urgence s’est produite et que tous les traitements doivent être terminés immédiatement un parcours. Les personnes qui sont déjà entrées dans un parcours sont toutes stoppées dans leur progression. Consultez [cette section](../building-journeys/journey-end.md#stop-journey)
+Vous pouvez arrêter un parcours uniquement lorsqu’une urgence s’est produite et qu’il doit être mis fin immédiatement à tout traitement sur un parcours. Les personnes qui l’ont déjà rejoint sont toutes stoppées dans leur progression. Consultez [cette section](../building-journeys/journey-end.md#stop-journey)
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Vous ne pouvez arrêter un parcours que si une urgence s’est produite et que t
 
 ### Balise de fin de parcours{#end-tag}
 
-Lors de la création d’un parcours, une &quot;balise de fin&quot; s’affiche à la fin de chaque chemin. Ce noeud ne peut pas être ajouté par un utilisateur, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours. Si le parcours comporte plusieurs chemins, il est recommandé d&#39;ajouter un libellé à chaque extrémité afin de faciliter la lisibilité des rapports. Consultez [cette page](../reports/live-report.md).
+Lors de la création d’un parcours, une « balise de fin » s’affiche à la fin de chaque chemin. Ce nœud ne peut pas être ajouté par un utilisateur, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours. Si le parcours comporte plusieurs chemins, il est conseillé d’ajouter un libellé à chaque fin pour faciliter la lecture des rapports. Consultez [cette page](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
@@ -75,7 +75,7 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 * Un parcours basé sur un segment « unique » qui a terminé son exécution.
 * Après la dernière occurrence d&#39;un parcours récurrent basé sur un segment.
 
-La fermeture manuelle d’un parcours permet de s’assurer que les clients qui ont déjà accédé au parcours peuvent terminer leur chemin, mais que les nouveaux utilisateurs ne peuvent pas entrer dans le parcours. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
 La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
 
@@ -94,9 +94,9 @@ Vous pouvez également réaliser les opérations suivantes :
 
 ### Arrêt d’un parcours{#stop-journey}
 
-Si nécessaire, il est possible d&#39;arrêter la progression de tous les individus dans le parcours. L&#39;arrêt du parcours entraîne la temporisation de tous les individus qui en font partie. Toutefois, arrêter un parcours implique que les personnes qui sont déjà entrées dans un parcours soient toutes stoppées dans leur progression. Le parcours est simplement mis à l&#39;arrêt. Si vous souhaitez mettre fin à un parcours, nous vous recommandons de le fermer.
+Si nécessaire, il est possible d’arrêter la progression de tous les individus dans le parcours. L’arrêt du parcours entraîne la temporisation de tous les individus qui en font partie. Cependant, le fait d’arrêter un parcours suppose qu&#39;il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt. Si vous souhaitez mettre fin à un parcours, nous vous recommandons de le fermer.
 
-La version d&#39;un parcours arrêté ne peut pas être redémarrée.
+La version d’un parcours arrêté ne peut pas être redémarrée.
 
 À l’arrêt, le statut du parcours est défini sur **[!UICONTROL Arrêté]**.
 

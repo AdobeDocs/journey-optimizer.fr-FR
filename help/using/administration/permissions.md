@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -57,15 +57,15 @@ L&#39;utilisateur doit alors recevoir un email le redirigeant vers votre instanc
 
 Pour plus d&#39;informations sur la gestion des utilisateurs, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-Lors de l&#39;accès à l&#39;instance, l&#39;utilisateur voit une vue spécifique en fonction des autorisations attribuées dans le **[!UICONTROL profil de produit]**. Si l&#39;utilisateur ne dispose pas du droit d&#39;accès à une fonctionnalité, le message suivant s&#39;affiche :
+Lors de l&#39;accès à l&#39;instance, l&#39;utilisateur voit une vue spécifique en fonction des autorisations attribuées dans le **[!UICONTROL profil de produit]**. Si l’utilisateur ne dispose pas du droit d’accès à une fonctionnalité, le message suivant s’affiche :
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
 ## Modification d&#39;un profil de produit existant {#edit-product-profile}
 
-Pour les **[!UICONTROL profils de produit]** personnalisés ou par défaut, vous pouvez décider à tout moment d&#39;ajouter ou de supprimer des autorisations.
+Pour les **[!UICONTROL profils de produit]** personnalisés ou par défaut, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations.
 
-Dans cet exemple, nous allons ajouter **[!UICONTROL Autorisations]** associé au **[!UICONTROL Parcours]** fonctionnalité pour les utilisateurs affectés à la visionneuse de Parcours **[!UICONTROL Profil de produit]**. Les utilisateurs pourront alors publier des parcours.
+Dans cet exemple, nous souhaitons ajouter des **[!UICONTROL autorisations]** liées à la fonctionnalité **[!UICONTROL Parcours]** pour les utilisateurs affectés au **[!UICONTROL profil de produit]** Observateur de parcours. Les utilisateurs pourront alors publier des parcours.
 
 Veuillez noter que si vous modifiez un **[!UICONTROL profil de produit]** personnalisé ou par défaut, cela aura un impact sur chaque utilisateur affecté à ce **[!UICONTROL profil de produit]**.
 
@@ -79,13 +79,13 @@ Veuillez noter que si vous modifiez un **[!UICONTROL profil de produit]** person
 
    ![](assets/do-not-localize/access_control_5.png)
 
-1. Sélectionnez la **[!UICONTROL Parcours]** fonctionnalité.
+1. Sélectionnez la fonctionnalité **[!UICONTROL Parcours]**.
 
    ![](assets/do-not-localize/access_control_6.png)
 
 1. Dans la liste **[!UICONTROL Éléments d&#39;autorisation disponibles]**, sélectionnez les autorisations à attribuer à votre **[!UICONTROL profil de produit]** en cliquant sur l&#39;icône plus (+).
 
-   Ici, nous ajoutons le **[!UICONTROL Publication de Parcours]** autorisation.
+   Ici, nous ajoutons l’autorisation **[!UICONTROL Publier les parcours]**.
 
 1. Si nécessaire, dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône X la plus proche pour supprimer les autorisations de votre profil de produit.
 
@@ -99,7 +99,7 @@ Si nécessaire, vous pouvez également créer un profil de produit avec des auto
 
 Pour plus d&#39;informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d&#39;Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
-Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs ne pourront accéder qu’aux parcours et les afficher, mais pas accéder à d’autres fonctionnalités telles que **[!DNL  Decision management]** in [!DNL Journey Optimizer].
+Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs pourront uniquement accéder aux parcours et les afficher. Ils ne pourront pas accéder à dʼautres fonctionnalités telles que **[!DNL  Decision management]** dans [!DNL Journey Optimizer].
 
 Pour créer nos **[!UICONTROL profils de produit]** **Parcours en lecture seule** :
 

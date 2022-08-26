@@ -9,7 +9,7 @@ exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le contrôle d’accès basé sur attribut (ABAC) permet de définir des autoris
 
 Dans Adobe Journey Optimizer, l’ABAC vous permet de protéger les données et d’accorder un accès spécifique à des éléments de champ spécifiques, y compris des schémas de modèle de données d’expérience (XDM), des attributs de profil et des segments.
 
-Pour une liste plus détaillée de la terminologie utilisée avec ABAC, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
+Pour obtenir une liste plus détaillée de la terminologie utilisée avec ABAC, reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr).
 
 Dans cet exemple, nous allons ajouter un libellé au champ de schéma **Nationalité** pour empêcher des utilisateurs non autorisés de l’utiliser. Pour que cela fonctionne, vous devez effectuer les étapes suivantes :
 
@@ -33,18 +33,18 @@ Dans cet exemple, nous allons ajouter un libellé au champ de schéma **National
 
 1. Utilisez le **[!UICONTROL Champ de schéma]** dans Adobe Journey Optimizer.
 
-Notez que **[!UICONTROL Rôles]**, **[!UICONTROL Stratégies]** et **[!UICONTROL Produits]** est également accessible avec l’API de contrôle d’accès basé sur les attributs. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Stratégies]** et **[!UICONTROL Produits]** sont également accessibles avec l’API de contrôle d’accès basé sur les attributs. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=fr).
 
 ## Création d’un rôle et attribution de libellés {#assign-role}
 
 >[!IMPORTANT]
 >
->Avant de gérer les autorisations d’un rôle, vous devez d’abord créer une stratégie. Voir à ce sujet la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+>Avant de gérer les autorisations d’un rôle, vous devez créer une stratégie. Pour plus d’informations à ce sujet, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr).
 
 Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services d&#39;Adobe contenus dans le produit.
 Vous pouvez également créer vos propres **[!UICONTROL rôles]** si vous souhaitez affiner l&#39;accès de vos utilisateurs à certaines fonctionnalités ou objets de l&#39;interface.
 
-Nous voulons maintenant accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité**, libellé C2. Pour ce faire, nous devons créer une nouvelle **[!UICONTROL Rôle]** avec un ensemble spécifique d’utilisateurs et attribuez-leur l’étiquette C2 leur permettant d’utiliser la variable **Nationalité** détails dans un **[!UICONTROL Parcours]**.
+Nous voulons maintenant accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité**, libellé C2. Pour ce faire, nous devons créer un nouveau **[!UICONTROL rôle]** avec un ensemble spécifique d’utilisateurs et leur attribuer le libellé C2 leur permettant d’utiliser les détails de **Nationalité** dans un **[!UICONTROL parcours]**.
 
 1. Dans le produit [!DNL Permissions], sélectionnez le **[!UICONTROL rôle]** dans le menu du volet de gauche, puis cliquez sur **[!UICONTROL Créer un rôle]**. Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** aux rôles intégrés.
 
@@ -60,7 +60,7 @@ Nous voulons maintenant accorder aux utilisateurs sélectionnés l’accès au c
 
    ![](assets/role_3.png)
 
-1. Dans la liste déroulante, sélectionnez la variable **[!UICONTROL Autorisations]** liée à la fonction sélectionnée, telle que **[!UICONTROL Affichage des parcours]** ou **[!UICONTROL Publication de parcours]**.
+1. Dans la liste déroulante, sélectionnez les **[!UICONTROL autorisations]** liées à la fonctionnalité sélectionnée, telles que **[!UICONTROL Afficher les parcours]** ou **[!UICONTROL Publier les parcours]**.
 
    ![](assets/role_6.png)
 
@@ -137,7 +137,7 @@ Dans notre exemple, un premier utilisateur X ayant accès aux objets libellés C
 
    ![](assets/journey_4.png)
 
-1. Créez ensuite un Parcours qui enverra un email aux utilisateurs ayant une nationalité spécifique. Ajoutez un **[!UICONTROL événement]** puis un **[!UICONTROL condition]**.
+1. Créez ensuite un parcours qui enverra un e-mail aux utilisateurs ayant une nationalité spécifique. Ajoutez un **[!UICONTROL événement]** puis un **[!UICONTROL condition]**.
 
    ![](assets/journey_5.png)
 
@@ -149,11 +149,11 @@ Dans notre exemple, un premier utilisateur X ayant accès aux objets libellés C
 
    ![](assets/journey_7.png)
 
-1. Personnalisez votre parcours selon vos besoins, nous ajoutons ici une **[!UICONTROL Email]** action.
+1. Personnalisez votre parcours selon vos besoins. Nous ajoutons ici une action **[!UICONTROL E-mail]**.
 
    ![](assets/journey_8.png)
 
-Si l’utilisateur Y sans accès aux objets de libellé C2 doit accéder à ce parcours avec ce champ restreint :
+Si l’utilisateur Y sans accès aux objets libellés C2 doit accéder à ce parcours avec ce champ restreint :
 
 * L’utilisateur Y ne pourra pas utiliser le nom de champ restreint, car il ne sera pas visible.
 
@@ -161,6 +161,6 @@ Si l’utilisateur Y sans accès aux objets de libellé C2 doit accéder à ce p
 
 * L’utilisateur Y peut supprimer l’expression.
 
-* L’utilisateur Y ne pourra pas tester le Parcours.
+* L’utilisateur Y ne pourra pas tester le parcours.
 
-* L’utilisateur Y ne pourra pas publier le Parcours.
+* L’utilisateur Y ne pourra pas publier le parcours.

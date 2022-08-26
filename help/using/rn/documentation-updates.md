@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
 source-wordcount: '1814'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 22 août ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messages en ligne. [En savoir plus](../configuration/frequency-rules.md#apply-frequency-rule)
-* Une vidéo montrant comment configurer les abonnements et créer des landing pages est maintenant référencée dans la section Prise en main des landing pages . [En savoir plus](../landing-pages/get-started-lp.md#video)
+* Une vidéo montrant comment configurer les abonnements et créer des pages de destination est désormais référencée dans la section « Prise en main des pages de destination ». [En savoir plus](../landing-pages/get-started-lp.md#video)
 * Une limitation a été ajoutée pour les parcours utilisant les activités Lecture de segment . [En savoir plus](../building-journeys/read-segment.md)
 * La page des opérateurs de l&#39;éditeur d&#39;expression a été améliorée. [En savoir plus](../building-journeys/expression/operators.md)
 

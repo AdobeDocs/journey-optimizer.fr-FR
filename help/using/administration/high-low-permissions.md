@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -275,7 +275,7 @@ It includes the following low-level permissions:
 -->
 ### Autorisation [!DNL Manage channel surface] {#manage-channel-surface}
 
-Le **[!DNL Manage channel surface]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des surfaces de canal sur les canaux au niveau de l’environnement de test.
+Lʼautorisation de haut niveau **[!DNL Manage channel surface]** permet aux utilisateurs de créer, de modifier et de supprimer des surfaces de canaux sur les canaux au niveau de la sandbox.
 
 Elle comprend les autorisations de bas niveau suivantes :
 
@@ -289,7 +289,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 ### Autorisation [!DNL View channel surface] {#view-channel-surface}
 
-Le **[!DNL View channel surface]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les surfaces des canaux afin de connaître les surfaces des canaux à utiliser.
+L’autorisation de haut niveau **[!DNL View channel surface]** permet aux utilisateurs d’afficher les surfaces des canaux afin de connaître celles à utiliser.
 
 Elle comprend les autorisations de bas niveau suivantes :
 

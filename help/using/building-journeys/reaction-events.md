@@ -9,7 +9,7 @@ exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez réagir aux messages ouverts ou sur lesquels vous avez cliqué.
 
 Vous pouvez également utiliser ce mécanisme pour effectuer une action en l’absence de réaction à vos messages. Pour ce faire, créez un deuxième chemin parallèlement à l’activité de réaction et ajoutez une activité d’attente. En l’absence de réaction au cours de la période définie dans l’activité d’attente, ce deuxième chemin sera choisi. Vous pouvez opter, par exemple, pour l’envoi d’un message de relance.
 
-Notez que vous ne pouvez utiliser une activité de réaction que dans la zone de travail si une activité d’action de canal est antérieure à (Email, Push, SMS).
+Notez que vous ne pouvez utiliser une activité de réaction dans la zone de travail que s’il existe devant une activité d’action de canal (E-mail, Push, SMS).
 
 Voir [À propos des activités d’action](../building-journeys/about-journey-activities.md#action-activities).
 

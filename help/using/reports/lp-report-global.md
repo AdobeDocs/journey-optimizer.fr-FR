@@ -21,7 +21,7 @@ Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport global]** dan
 
 ![](assets/landing_page_report_7.png)
 
-Le **[!UICONTROL Rapport global]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md).
+Le **[!UICONTROL Rapport global]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md).
 
 ![](assets/landing_page_report_4.png)
 

@@ -9,7 +9,7 @@ exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un �
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-Vous pouvez sélectionner un fuseau horaire ou choisir d&#39;utiliser celui défini dans le profil utilisateur.
+Vous pouvez sélectionner un fuseau horaire ou choisir d’utiliser celui défini dans le profil utilisateur.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionne
 
 ## Utilisation de profils pour définir le fuseau horaire du parcours {#timezone-from-profiles}
 
-Si l’événement d’entrée du parcours comporte un espace de noms, ce qui signifie que le parcours peut accéder au service de profil client en temps réel de Adobe Experience Platform, vous pouvez utiliser le fuseau horaire défini au niveau du profil. Pour ce faire, reportez-vous à la section **Propriétés**, vérifier **Utilisation du fuseau horaire du profil dans les conditions d’attente**. Cette option n’est pas cochée par défaut.
+Si l’événement d’entrée du parcours comporte un espace de noms, ce qui signifie que le parcours peut accéder au service de profil client en temps réel d’Adobe Experience Platform, vous pouvez utiliser le fuseau horaire défini au niveau du profil. Pour cela, dans **Propriétés**, cochez la case **Utiliser le fuseau horaire du profil dans les attentes et conditions**. Cette option n’est pas cochée par défaut.
 
 Si un fuseau horaire a été défini pour un profil, il sera récupéré et utilisé par le parcours. Dans le cas contraire, le fuseau horaire utilisé sera celui défini dans le champ du fuseau horaire.
 

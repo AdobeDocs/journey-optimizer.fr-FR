@@ -21,7 +21,7 @@ Pour accéder aux rapports, sélectionnez **[!UICONTROL Rapport dynamique]** dan
 
 ![](assets/subscription_report_6.png)
 
-Le **[!UICONTROL Rapport d&#39;abonnement dynamique]** est divisé en différents widgets détaillant vos abonnements et désabonnements. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
+Le **[!UICONTROL Rapport d&#39;abonnement dynamique]** est divisé en différents widgets détaillant vos abonnements et désabonnements. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
 ![](assets/subscription_report_3.png)
 

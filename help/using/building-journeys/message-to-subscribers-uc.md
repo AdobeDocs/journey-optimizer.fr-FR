@@ -9,7 +9,7 @@ exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Dans cet exemple, le groupe de champs **[!UICONTROL Détails du consentement et 
 Pour configurer ce parcours, procédez comme suit:
 
 1. Créez un parcours commençant par une activité **[!UICONTROL Lecture]**. [En savoir plus](journey-gs.md).
-1. Ajoutez un **[!UICONTROL Email]** activité d’action au parcours. [En savoir plus](journeys-message.md).
-1. Dans le **[!UICONTROL Paramètres de messagerie]** de la section **[!UICONTROL Email]** paramètres d’activité, remplacez l’adresse électronique par défaut (`PersonalEmail.adress`) avec l&#39;adresse email des abonnés à la liste :
+1. Ajoutez une activité d’action **[!UICONTROL E-mail]** au parcours. [En savoir plus](journeys-message.md).
+1. Dans la section **[!UICONTROL Paramètres de l’e-mail]** des paramètres d’activité **[!UICONTROL E-mail]**, remplacez l’adresse e-mail par défaut (`PersonalEmail.adress`) par l’adresse e-mail des abonnés à la liste :
 
    1. Cliquez sur le bouton **[!UICONTROL Activer le remplacement de paramètre]** à droite du champ **[!UICONTROL Adresse]**, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
@@ -46,10 +46,10 @@ Pour configurer ce parcours, procédez comme suit:
       | `entry` | Renvoyer à un élément de mappage selon l’espace de noms sélectionné | Renvoyer à une liste d’abonnements spécifique |
       | `firstEntryKey` | Récupérer la première clé d’entrée d’un mapping | Récupérer la première adresse e-mail des abonnés |
 
-      Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements. 
+      Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements.
 
-      En savoir plus sur les [références aux champs](expression/field-references.md) dans les expressions. 
+      En savoir plus sur les [références aux champs](expression/field-references.md) dans les expressions.
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. Dans la boîte de dialogue **[!UICONTROL Ajouter une expression]**, cliquez sur **[!UICONTROL OK]**. 
+   1. Dans la boîte de dialogue **[!UICONTROL Ajouter une expression]**, cliquez sur **[!UICONTROL OK]**.

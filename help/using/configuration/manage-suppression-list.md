@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 
    >[!NOTE]
    >
-   >Veillez à saisir une adresse électronique valide (par exemple abc@company.com) ou un domaine (par exemple abc.company.com).
+   >Veillez à saisir une adresse e-mail (par exemple abc@company) ou un domaine valide (par exemple abc.company.com).
 
 1. Indiquez un motif si nécessaire.
 

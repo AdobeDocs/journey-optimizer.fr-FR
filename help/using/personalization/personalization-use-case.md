@@ -9,7 +9,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de p
 
 L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Journey Optimizer] chaque fois qu&#39;une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
 
-Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies 
+Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies
 
 * Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
 * Créer une décision, voir à ce sujet cette [section](../offers/offer-activities/create-offer-activities.md).
@@ -34,7 +34,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc4.png)
 
-1. Ajoutez votre événement d’entrée et une **Push** activité d’action.
+1. Ajoutez votre événement d’entrée et une activité d’action **Push**.
 
    ![](assets/perso-uc5.png)
 
@@ -42,7 +42,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
 ## Étape 2 - Ajouter une personnalisation au profil {#add-perso}
 
-1. Dans le **Push** activité, cliquez sur **Modifier le contenu**.
+1. Dans l’activité **Push**, cliquez sur **Modifier le contenu**.
 
 1. Cliquez sur le champ **Titre**.
 
@@ -54,14 +54,14 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
 ## Étape 3 - Ajouter une personnalisation aux données contextuelles {#add-perso-contextual-data}
 
-1. Dans le **Push** activité, cliquez sur **Modifier le contenu** et cliquez sur le bouton **Titre** champ .
+1. Dans l’activité **Push**, cliquez sur **Modifier le contenu** et cliquez sur le champ **Titre**.
 
    ![](assets/perso-uc9.png)
 
 1. Sélectionnez le menu **Attributs contextuels**. Les attributs contextuels ne sont disponibles que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
 
-   * **Événements**: cette catégorie regroupe tous les champs du ou des événements placés avant l’activité d’action de canal dans le parcours.
-   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md). 
+   * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité d’action de canal dans le parcours.
+   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -81,7 +81,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc14.png)
 
-1. Cliquez sur Valider pour vous assurer qu&#39;il n&#39;y a aucune erreur, puis sur **Enregistrer**.
+1. Cliquez sur Valider pour vous assurer qu’il n&#39;y a aucune erreur, puis sur **Enregistrer**.
 
    ![](assets/perso-uc15.png)
 

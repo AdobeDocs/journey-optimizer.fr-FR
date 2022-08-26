@@ -9,7 +9,7 @@ exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -86,11 +86,11 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
    ![](assets/jo-uc4.png)
 
-1. Déposer une **Email** activité d&#39;action et définir le contenu du &quot;premier message&quot;. Ce message est envoyé à tous individus dans le parcours. Consultez cette section [section](../messages/create-email.md) pour savoir comment configurer et concevoir un email.
+1. Déposez une activité d’action **E-mail** et définissez le contenu du « premier message ». Ce message est envoyé à tous individus dans le parcours. Consultez cette [section](../messages/create-email.md) pour savoir comment configurer et concevoir un e-mail.
 
    ![](assets/jo-uc5.png)
 
-1. Positionnez-vous sur l&#39;activité email et cliquez sur le symbole &quot;+&quot; pour créer un nouveau chemin.
+1. Placez votre curseur sur l&#39;activité d’e-mail et cliquez sur le symbole « + » pour créer un nouveau chemin.
 
 1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L&#39;événement est déclenché lorsqu&#39;un individu appartenant au segment ouvre la version push du premier message.
 
@@ -102,11 +102,11 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
    >
    >Lors de la configuration d&#39;une temporisation sur plusieurs événements (les deux réactions dans ce cas), il vous suffit de configurer la temporisation sur l&#39;un de ces événements.
 
-1. Dans le chemin d’accès au délai d’expiration, déposez une **Email** activité d&#39;action et définir le contenu du message &quot;relance&quot;. Ce message est envoyé aux individus qui n&#39;ouvrent pas le premier email ou la première notification push le lendemain. Consultez cette section [section](../messages/create-email.md) pour savoir comment configurer et concevoir un email.
+1. Dans l’itinéraire de temporisation, déposez une activité d’action **E-mail** et définissez le contenu du message de « relance ». Ce message est envoyé aux individus qui n’ouvrent pas le premier email ou la première notification push le lendemain. Consultez cette [section](../messages/create-email.md) pour savoir comment configurer et concevoir un e-mail.
 
 1. Connectez les trois chemins à l&#39;événement d&#39;achat créé précédemment. L&#39;événement est déclenché lorsqu&#39;un individu effectue un achat.
 
-1. Après l’événement, déposez une **Push** activité d’action et définir le contenu du message &quot;merci&quot;. Consultez cette section [section](../messages/create-push.md) pour savoir comment configurer et concevoir une notification push.
+1. Après l’événement, déposez une activité d’action **Push** et définissez le contenu du message « merci ». Consultez cette section [section](../messages/create-push.md) pour savoir comment configurer et concevoir une notification push.
 
 ## Tester et publier le parcours
 

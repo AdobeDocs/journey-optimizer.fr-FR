@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Fonctions arithmétiques  {#maths}
+# Fonctions arithmétiques {#maths}
 
 Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur des valeurs.
 

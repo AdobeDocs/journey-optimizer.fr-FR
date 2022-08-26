@@ -9,7 +9,7 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Dans la configuration des événements, vous configurez les événements attendu
 
 ## Actions {#actions}
 
-Les fonctionnalités de message Journey Optimizer sont intégrées : il vous suffit d’ajouter une activité d’action de canal à votre parcours. Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../../using/action/action.md)
+Les fonctionnalités de message Journey Optimizer sont intégrées : il vous suffit d’ajouter une activité d’action de canal à votre parcours. Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../../using/action/action.md)
 
 ## Parcourir à travers les champs Adobe Experience Platform {#friendly-names-display}
 

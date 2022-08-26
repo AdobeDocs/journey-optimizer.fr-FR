@@ -47,7 +47,7 @@ Pour créer une emplacement, procédez comme suit :
 
    ![](../assets/offers_placement_creation_properties.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour valider.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
 1. Une fois l&#39;emplacement créé, il s&#39;affiche dans la liste des emplacements. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier.
 

@@ -9,7 +9,7 @@ exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,6 +83,6 @@ Les éléments à vérifier sont les suivants :
 Si des personnes suivent le bon chemin dans le parcours sans recevoir les messages qu’elles devraient recevoir, vous pouvez vérifier si :
 
 * [!DNL Journey Optimizer] a correctement pris en compte la demande d&#39;envoi. Les utilisateurs professionnels peuvent accéder au message censé être envoyé et vérifier si l’heure de la dernière exécution correspond à l’heure d’exécution de votre parcours. Ils peuvent également vérifier les derniers appels/événements d’API reçus.
-* [!DNL Journey Optimizer] a envoyé le message avec succès. Vérifiez les rapports de parcours pour vous assurer qu&#39;il n&#39;y a aucune erreur.
+* [!DNL Journey Optimizer] a envoyé le message avec succès. Vérifiez les rapports sur les parcours pour vous assurer qu’il n’y a aucune erreur.
 
 Dans le cas d&#39;un message envoyé par le biais d&#39;une action personnalisée, le seul élément vérifiable pendant le test du parcours est l&#39;apparition ou non d&#39;une erreur suite à l&#39;appel du système à l&#39;aide d&#39;une action personnalisée. Si l&#39;appel au système externe associé à l&#39;action personnalisée n&#39;entraîne pas d&#39;erreur, mais ne déclenche pas l&#39;envoi d&#39;un message, certaines vérifications doivent être effectuées du côté du système externe.

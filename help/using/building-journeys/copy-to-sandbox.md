@@ -9,7 +9,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 85%
 >title="Objets dépendants"
 >abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne."
 
-Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : segments, surfaces (c’est-à-dire paramètres prédéfinis), schémas, événements et actions. Pour plus d’informations, consultez la section [Limitations](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : segments, surfaces (c’est-à-dire préréglages), schémas, événements et actions. Pour plus d’informations, consultez la section [Limitations](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
@@ -87,7 +87,7 @@ Les objets suivants sont copiés :
 
 * Message
 
-   Activités d’action de canal utilisées dans le parcours. L’exhaustivité des champs utilisés pour la personnalisation dans le message n’est pas vérifiée. Les blocs de contenu ne sont pas copiés.
+   Les activités d’action de canal utilisées dans le parcours. L’exhaustivité des champs utilisés pour la personnalisation dans le message n’est pas vérifiée. Les blocs de contenu ne sont pas copiés.
 
 * Parcours : détails de la zone de travail
 
@@ -101,7 +101,7 @@ Les objets suivants sont copiés :
 
    Les actions et les détails des actions utilisées dans le parcours sont copiés.
 
-Les surfaces (c’est-à-dire les paramètres prédéfinis) ne sont pas copiées. Le système sélectionne automatiquement la correspondance la plus proche possible sur l’environnement de test de destination, en fonction du type de message et du nom de la surface. Si aucune surface n’est trouvée sur l’environnement de test cible, la copie de surface échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’une surface soit disponible pour la configuration. Dans ce cas, au moins une surface doit être créée, pour le bon canal du message, afin que la copie puisse fonctionner.
+Les surfaces (c’est-à-dire les préréglages) ne sont pas copiées. Le système sélectionne automatiquement la correspondance la plus proche possible sur la sandbox de destination, en fonction du type de message et du nom de la surface. Si aucune surface n’est trouvée sur la sandbox cible, le processus de copie de la surface échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’une surface soit disponible pour la configuration. Dans ce cas, au moins une surface doit être créée, pour le bon canal du message, afin que la copie fonctionne.
 
 Pour les schémas, les stratégies de fusion et les segments, la deuxième fois que ces objets tenteront d’être copiés, ils seront seulement référencés. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
 

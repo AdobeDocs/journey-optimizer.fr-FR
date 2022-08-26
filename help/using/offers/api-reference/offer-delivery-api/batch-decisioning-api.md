@@ -9,7 +9,7 @@ exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour ce faire, l&#39;organisation :
 
 >[!NOTE]
 >
->La prise de décision par lots peut également être effectuée à l’aide de l’interface de Journey Optimizer. Pour plus d’informations, reportez-vous à la section [cette section](../../batch-delivery.md), qui fournit des informations sur les conditions préalables et les limites globales à prendre en compte lors de l’utilisation de la prise de décision par lots.
+>La diffusion des décisions par lots peut également être effectuée à l’aide de l’interface de Journey Optimizer. Pour plus d’informations, reportez-vous à [cette section](../../batch-delivery.md), qui fournit des informations sur les conditions préalables et les limites globales à prendre en compte lors de l’utilisation de la diffusion des décisions par lots.
 
 * **Nombre de tâches par lot en cours d’exécution par jeu de données** : jusqu’à cinq traitements par lot peuvent être exécutées à la fois, par jeu de données. Toutes les autres requêtes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Une tâche en file d’attente est sélectionnée pour traitement une fois que la tâche précédente a fini son exécution.
 * **Capping de la fréquence** : un lot s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. L&#39;API [!DNL Batch Decisioning] limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent.
@@ -45,7 +45,7 @@ Avant d&#39;utiliser cette API, veillez à suivre les étapes préalables suivan
 
 ### Préparer la décision {#prepare-decision}
 
-Pour préparer une ou plusieurs décisions, veillez à créer un jeu de données, un segment et une décision. Ces prérequis sont présentés dans la section [cette section](../../batch-delivery.md).
+Pour préparer une ou plusieurs décisions, veillez à créer un jeu de données, un segment et une décision. Ces prérequis sont présentés dans [cette section](../../batch-delivery.md).
 
 ### Exigences en termes d&#39;API {#api-requirements}
 
@@ -62,7 +62,7 @@ Pour démarrer une charge de travail afin de prendre des décisions concernant l
 
 >[!NOTE]
 >
->Vous trouverez des informations détaillées sur le temps de traitement des tâches par lots dans la section [cette section](../../batch-delivery.md).
+>Vous trouverez des informations détaillées sur le temps de traitement des traitements par lots dans [cette section](../../batch-delivery.md).
 
 **Format d’API**
 
@@ -187,4 +187,3 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 ## Étapes suivantes {#next-steps}
 
 En suivant ce guide de l&#39;API, vous avez vérifié l&#39;état de la charge de travail et envoyé des offres à l&#39;aide de l&#39;API [!DNL [!DNL Batch Decisioning]]. Pour plus d&#39;informations, consultez la [présentation de la gestion des décisions](../../get-started/starting-offer-decisioning.md).
-

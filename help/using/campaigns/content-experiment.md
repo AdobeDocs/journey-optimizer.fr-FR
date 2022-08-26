@@ -11,15 +11,15 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
-# Création d’une expérience de contenu {#content-experiment}
+# Créer une expérience de contenu {#content-experiment}
 
 >[!AVAILABILITY]
 >
->Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité « Expérience de contenu » est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 La fonctionnalité d’expérience de contenu vous permet de définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de l’e-mail.
 
@@ -135,7 +135,7 @@ Après avoir paramétré votre expérimentation et votre campagne, vous pouvez s
 
 >[!AVAILABILITY]
 >
->Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité « Expérience de contenu » est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 ![](assets/performance_report.gif)
 
@@ -153,7 +153,7 @@ Notez que chaque widget peut être redimensionné et supprimé si nécessaire. P
 
 >[!AVAILABILITY]
 >
->Actuellement, la fonctionnalité d’expérience de contenu n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité « Expérience de contenu » est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 ![](assets/experimentation_report_3.png)
 

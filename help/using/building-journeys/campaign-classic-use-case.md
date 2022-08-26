@@ -92,7 +92,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](assets/accintegration-uc-10.png)
 
-1. Tester votre parcours.
+1. Testez votre parcours.
 
    ![](assets/accintegration-uc-11.png)
 

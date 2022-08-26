@@ -9,7 +9,7 @@ exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Ce cas d’utilisation vise à créer un parcours afin dʼaccélérer vos diffus
 
    Vous pouvez augmenter progressivement cette limite jusqu’au nombre total dʼabonnés.
 
-1. Ajoutez un **[!UICONTROL Email]** l’activité d’action sur le chemin d’accès nominal après la **[!UICONTROL Condition]** activité.
+1. Ajoutez une activité d’action **[!UICONTROL E-mail]** au chemin nominal après lʼactivité **[!UICONTROL Condition]**.
 
    ![](assets/ramp-up-deliveries-message.png)
 

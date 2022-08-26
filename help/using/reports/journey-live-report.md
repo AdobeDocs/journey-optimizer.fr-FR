@@ -9,24 +9,24 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Rapport dynamique sur les parcours {#journey-live-report}
 
-Le rapport parcours est accessible directement à partir de votre parcours avec le **[!UICONTROL Afficher le rapport]** bouton .
+Vous pouvez accéder directement au rapport dynamique sur les parcours depuis votre parcours en cliquant sur le bouton **[!UICONTROL Afficher le rapport]**.
 
 ![](assets/report_journey.png)
 
 La page **[!UICONTROL Rapport dynamique]** sur les parcours s’affiche avec les onglets suivants :
 
 * [Parcours](#journey-live)
-* [Email](#email-live)
+* [E-mail](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 
-Le **[!UICONTROL Rapport dynamique]** sur les parcours est divisé en différents widgets présentant le succès et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos, consultez cette [section](live-report.md#modify-dashboard).
+Le **[!UICONTROL Rapport dynamique]** sur les parcours est divisé en différents widgets présentant le succès et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](live-report.md#modify-dashboard).
 
 ## Onglet Parcours {#journey-live}
 
@@ -42,41 +42,41 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 * **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours.
 
-* **[!UICONTROL Parcours individuels en échec]** : nombre total de parcours individuels qui n’ont pas été exécutés avec succès. 
+* **[!UICONTROL Parcours individuels en échec]** : nombre total de parcours individuels qui n’ont pas été exécutés avec succès.
 
-Les widgets **[!UICONTROL Événement exécuté au cours des 24 dernières heures]** et **[!UICONTROL Événements]** vous permettent de voir quel événement a été exécuté avec succès au moyen d’un chiffre récapitulatif, d’un graphique et d’un tableau. 
+Les widgets **[!UICONTROL Événement exécuté au cours des 24 dernières heures]** et **[!UICONTROL Événements]** vous permettent de voir quel événement a été exécuté avec succès au moyen d’un chiffre récapitulatif, d’un graphique et d’un tableau.
 
 ![](assets/report_journey_4.png)
 
 Les widgets **[!UICONTROL Action exécutée au cours des 24 dernières heures]** et **[!UICONTROL Actions exécutées et erreurs]** représentent l’action avec le plus de succès et les erreurs qui sont produites au moment où les actions ont été déclenchées. Le graphique Action, le tableau et les chiffres récapitulatifs contiennent les données disponibles pour les actions, notamment :
 
-* **[!UICONTROL Actions exécutées]** : nombre total d’actions exécutées avec succès pour un parcours. 
+* **[!UICONTROL Actions exécutées]** : nombre total d’actions exécutées avec succès pour un parcours.
 
-* **[!UICONTROL Erreurs lors des actions]** : nombre total d’erreurs qui se sont produites pour les actions. 
+* **[!UICONTROL Erreurs lors des actions]** : nombre total d’erreurs qui se sont produites pour les actions.
 
 ## Onglet E-mail {#email-live}
 
-Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UICONTROL Email]** présente les principales informations relatives aux diffusions email envoyées dans votre parcours.
+Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UICONTROL E-mail]** présente les principales informations relatives aux diffusions email envoyées dans votre parcours.
 
 ![](assets/report_email_1.png)
 
-Le widget **[!UICONTROL Statistiques d&#39;envoi des e-mails]** présente les principales informations relatives à votre message :
+Le widget **[!UICONTROL Statistiques d’envoi des e-mails]** présente les principales informations relatives à votre message :
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 Le tableau **[!UICONTROL Envoi de mesures par e-mail]** et le graphique **[!UICONTROL Résumé des e-mails]** détaillent le succès de votre diffusion :
 
-* **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
@@ -84,7 +84,7 @@ Le tableau **[!UICONTROL Envoi de mesures par e-mail]** et le graphique **[!UICO
 
 * **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
-* **[!UICONTROL Plaintes contre le spam]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
+* **[!UICONTROL Plaintes contre le spal]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
 ![](assets/report_email_2.png)
 
@@ -124,13 +124,13 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UIC
 
 Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!UICONTROL Résumé des notifications push]** et **[!UICONTROL Mesures d’envoi par notification push]** présentent les informations principales relatives à votre message :
 
-* **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
@@ -158,7 +158,7 @@ Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite 
 
 * **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
 
-* **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
@@ -176,6 +176,6 @@ Le graphique **[!UICONTROL Synthèse des SMS]** détaille la réussite de votre 
 
 * **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.

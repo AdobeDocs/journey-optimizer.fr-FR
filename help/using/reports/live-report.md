@@ -9,7 +9,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 76%
 Utilisez le **[!UICONTROL rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord natif.
 Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** dès que votre diffusion est envoyée ou que votre parcours est exécuté.
 
-* Si vous souhaitez cibler un ou plusieurs parcours dans le contexte d&#39;un parcours, à partir de la **[!UICONTROL Parcours]** , accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]** bouton . Vous pouvez ensuite trouver les rapports en direct Parcours, Email, SMS et Push.
+* Si vous souhaitez cibler un parcours ou des diffusions dans le contexte d’un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]**. Vous trouverez ensuite les rapports dynamiques Parcours, E-mail, SMS et Push.
 
    ![](assets/report_journey.png)
 
-* Si vous souhaitez basculer entre le **[!UICONTROL Rapport en direct]** au **[!UICONTROL Rapport en direct]** pour votre diffusion, cliquez sur **[!UICONTROL Vue en direct]** dans le sélecteur d’onglets.
+* Si vous souhaitez basculer du **[!UICONTROL Rapport global]** vers le **[!UICONTROL Rapport dynamique]** pour votre diffusion, cliquez sur **[!UICONTROL Vue dynamique]** dans le sélecteur d’onglets.
 
    ![](assets/report_3.png)
 

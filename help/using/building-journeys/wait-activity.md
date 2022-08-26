@@ -9,7 +9,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Activité d&#39;attente"
->abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisé."
+>abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisation."
 
 Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :
 
@@ -34,7 +34,7 @@ Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;ac
 
 La durée d&#39;attente maximale est de 30 jours. En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
 
-Soyez prudent lorsque vous utilisez plusieurs activités d’attente dans un parcours, car le délai d’expiration du parcours global est de 30 jours, ce qui signifie qu’un profil abandonnera toujours le parcours au maximum 30 jours après son entrée.
+Soyez prudent lorsque vous utilisez plusieurs activités d’attente dans un parcours, car la temporisation du parcours global est de 30 jours, ce qui signifie qu’un profil abandonnera toujours le parcours au maximum 30 jours après son entrée.
 
 ## Durée de l&#39;attente{#duration}
 

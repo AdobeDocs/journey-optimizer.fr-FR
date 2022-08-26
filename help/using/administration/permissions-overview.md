@@ -9,7 +9,7 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur trois conce
 
 * **[!UICONTROL Profil de produit]** : ensemble de droits unitaires qui permet aux utilisateurs d&#39;accéder à certaines fonctionnalités ou à certains objets de l&#39;interface. Consultez la section [Profils de produit par défaut](ootb-product-profiles.md).
 
-* **[!UICONTROL Autorisations]** : droits unitaires qui permettent de définir les autorisations attribuées au **[!UICONTROL profil de produit]**. Chaque autorisation est regroupée sous des fonctionnalités, par exemple Parcours ou Offres, qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Reportez-vous à la section [Niveaux d&#39;autorisation](high-low-permissions.md).
+* **[!UICONTROL Autorisations]** : droits unitaires qui permettent de définir les autorisations attribuées au **[!UICONTROL profil de produit]**. Chaque autorisation est regroupée sous des fonctionnalités, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Reportez-vous à la section [Niveaux d&#39;autorisation](high-low-permissions.md).
 
 * **[!UICONTROL Environnement Sandbox]** : environnements Sandbox virtuels qui divisent les instances en environnements virtuels distincts et isolés. Reportez-vous à la section [Utilisation des environnements Sandbox](sandboxes.md).
 

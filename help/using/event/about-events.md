@@ -9,7 +9,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La configuration d’événement vous permet de définir les informations que [!
 
 >[!CAUTION]
 >
->La configuration de l’événement est **mandatory** et doit être effectué par une **ingénieur en données**.
+>La configuration de l’événement est **obligatoire** et doit être effectuée par un **ingénieur de données**.
 
 Vous pouvez configurer deux types d’événements :
 

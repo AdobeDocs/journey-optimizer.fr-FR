@@ -35,7 +35,7 @@ Commencez votre parcours en faisant glisser et déposer une activité d’évén
 
 Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
-* [Activité de ](../building-journeys/condition-activity.md)
+* [Condition](../building-journeys/condition-activity.md)
 * [Attente](../building-journeys/wait-activity.md)
 * [Lecture de segment](../building-journeys/read-segment.md)
 
@@ -45,7 +45,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 
 La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration.]** Les activités d&#39;action suivantes sont disponibles :
 
-* [E-mail, SMS, notification push](../building-journeys/journeys-message.md)
+* [E-mail, SMS, Push](../building-journeys/journeys-message.md)
 * [Actions personnalisées](../building-journeys/using-custom-actions.md)
 * [Sauter](../building-journeys/jump.md)
 

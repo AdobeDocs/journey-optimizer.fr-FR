@@ -1,6 +1,6 @@
 ---
-title: Optimisation de l’heure d’envoi
-description: Découvrez comment paramétrer l'optimisation de l'heure d'envoi dans vos messages
+title: Optimisation de l'heure d'envoi
+description: Découvrez comment paramétrer l’optimisation de l’heure d’envoi dans vos messages
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Ces informations sont stockées avec le profil de l&#39;utilisateur et sont réf
 >title="Activer l’optimisation de l’heure d’envoi"
 >abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
 
-Activez l&#39;optimisation de l&#39;heure d&#39;envoi sur un e-mail ou un push en sélectionnant le commutateur **Optimisation de l&#39;heure d&#39;envoi** dans les paramètres de l&#39;activité Message.
+Activez l’optimisation de l’heure d’envoi sur un e-mail ou une notification push en sélectionnant le commutateur **Optimisation de l’heure d’envoi** dans les paramètres d’activité.
 
 ![](../building-journeys/assets/jo-message5.png)
 

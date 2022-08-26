@@ -9,20 +9,19 @@ exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Accéder aux sous-domaines délégués {#access-delegated-subdomains}
 
-Tous vos sous-domaines délégués s’affichent dans la **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]** . Des filtres sont disponibles pour vous aider à affiner la liste (date de délégation, utilisateur ou statut).
+Tous les sous-domaines délégués s’affichent dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**. Des filtres sont disponibles pour vous aider à affiner la liste (date de délégation, utilisateur ou statut).
 
 ![](assets/subdomain-list.png)
 
 La colonne **[!UICONTROL Statut]** fournit des informations sur le processus de délégation de sous-domaine :
 
-* **[!UICONTROL Brouillon]** : la délégation de sous-domaine a été enregistrée en tant que brouillon.
-Cliquez sur le nom du sous-domaine pour reprendre le processus de délégation,
+* **[!UICONTROL Brouillon]** : la délégation de sous-domaine a été enregistrée en tant que brouillon. Cliquez sur le nom du sous-domaine pour reprendre le processus de délégation,
 * **[!UICONTROL Traitement]** : le sous-domaine fait l&#39;objet de plusieurs contrôles de configuration avant de pouvoir être utilisé,
 * **[!UICONTROL Succès]** : le sous-domaine a passé les contrôles avec succès et peut être utilisé pour diffuser des messages,
 * **[!UICONTROL Échec]** : un ou plusieurs contrôles ont échoué après l&#39;envoi de la délégation de sous-domaine.

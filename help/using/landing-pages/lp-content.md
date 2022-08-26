@@ -59,9 +59,9 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
       ![](assets/lp_designer-form-subs-list.png)
 
-   * **[!UICONTROL Canal (e-mail)]** : lʼinscription ou la désinscription sʼapplique à l’ensemble du canal. Par exemple, si un profil qui se désinscrit possède deux adresses e-mail, celles-ci seront exclues de toutes vos communications.
+   * **[!UICONTROL Canal (e-mail)]** : le processus d’opt-in ou d’opt-out sʼapplique à l’ensemble du canal. Par exemple, si un profil qui se désinscrit possède deux adresses e-mail, celles-ci seront exclues de toutes vos communications.
 
-   * **[!UICONTROL Identité de lʼadresse e-mail]** : lʼinscription ou la désinscription ne sʼapplique quʼà lʼadresse e-mail utilisée pour accéder à la page de destination. Par exemple, si un profil comporte deux adresses e-mail, seule celle utilisée lors de lʼinscription recevra les communications de votre marque.
+   * **[!UICONTROL Identité de lʼadresse e-mail]** : le processus d’opt-in ou d’opt-out ne sʼapplique quʼà lʼadresse e-mail utilisée pour accéder à la page de destination. Par exemple, si un profil comporte deux adresses e-mail, seule celle utilisée lors de lʼinscription recevra les communications de votre marque.
 
 1. Cliquez sur **[!UICONTROL Ajouter un champ]** > **[!UICONTROL Case à cocher]** pour ajouter une autre case à cocher. Répétez les étapes ci-dessus pour définir ses propriétés.
 

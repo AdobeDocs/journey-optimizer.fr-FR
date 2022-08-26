@@ -9,7 +9,7 @@ exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
 source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 >[!NOTE]
 >
->Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la rentrée est activée, un profil peut entrer à nouveau dans un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/journey-end.md)
+>Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/journey-end.md)
 
 Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
 

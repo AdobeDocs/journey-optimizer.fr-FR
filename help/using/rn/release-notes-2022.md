@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* **Fin d’un parcours** - Dans la zone de travail du parcours, la variable **Fin** l’activité a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de mieux signaler le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Reportez-vous à la section [documentation](../building-journeys/journey-end.md) et [vidéo sur les fonctionnalités](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Terminaison d’un parcours** : dans la zone de travail du parcours, l’activité **Fin** a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de créer un rapport plus optimal sur le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Reportez-vous à la [documentation](../building-journeys/journey-end.md) et à la [vidéo sur les fonctionnalités](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
 * Le **Fuseau horaire du profil** est désormais décochée par défaut dans les propriétés de parcours. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -109,7 +109,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 * **Mise à jour de la logique de la liste autorisée** : désormais, la logique de la liste autorisée s’applique dès que la fonctionnalité est activée, même si la liste est vide. [En savoir plus](../configuration/allow-list.md#logic)
 
-* **Paramètres de tracking des URL** : vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de tracking d’URL sur vos surfaces d’e-mail (c’est-à-dire les préréglages de [En savoir plus](../configuration/email-settings.md#url-tracking)
+* **Paramètres de tracking des URL** : vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de tracking d’URL sur vos surfaces d’e-mail (c’est-à-dire les préréglages). [En savoir plus](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 

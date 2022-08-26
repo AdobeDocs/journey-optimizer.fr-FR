@@ -140,7 +140,7 @@ Votre parcours sera composé d&#39;une activité **[!UICONTROL Lecture de segmen
 1. Sélectionnez le schéma, le champ **testProfiles** et le jeu de données et définissez la valeur sur **true**. Pour ce faire, dans le champ **[!UICONTROL VALUE]**, cliquez sur l&#39;icône **Stylo** à droite, sélectionnez **[!UICONTROL Mode avancé]** et saisissez **true**.
    ![](assets/test-profiles-26.png)
 1. Cliquez sur **[!UICONTROL Publier]**.
-1. Dans la section **[!UICONTROL Segments]** , vérifiez que les profils ont été correctement mis à jour.
+1. Dans la section **[!UICONTROL Segments]**, vérifiez que les profils ont été correctement mis à jour.
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]

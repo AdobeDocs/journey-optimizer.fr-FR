@@ -9,7 +9,7 @@ exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 ## Mécanismes de validation {#validation-mechanisms}
 
-Dans le **Editeur d&#39;expression** , utilisez la méthode **Valider** pour vérifier votre syntaxe de personnalisation.
+Dans l’écran **Éditeur d’expression**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
 
 >[!NOTE]
 > La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
@@ -88,8 +88,7 @@ La validation est effectuée lors de la validation du contenu de personnalisatio
   <tr> 
    <td>Ressource avec ID placementID et type OfferPlacement introuvable <br/>
 Ressource avec ID activityID et type OfferActivity introuvable<br/></td> 
-   <td>Vérifiez que ActivityID et/ou PlacementID sont disponibles
-</td> 
+   <td>Vérifiez que ActivityID et/ou PlacementID sont disponibles</td> 
   </tr> 
    <tr> 
    <td>Impossible de valider la ressource.</td> 

@@ -9,7 +9,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 92%
 
 Le contenu et l&#39;affichage des messages diffusés par [!DNL Journey Optimizer] peuvent être personnalisés de plusieurs façons différentes.
 
-Dans chaque champ contenant l&#39;icône de l&#39;éditeur, vous pouvez ouvrir l&#39;éditeur de personnalisation (également appelé éditeur d&#39;expression) et définir la personnalisation.
+Dans chaque champ contenant l’icône de l’éditeur, vous pouvez ouvrir l’éditeur de personnalisation (également appelé Éditeur d’expression) et définir la personnalisation.
 
 ![](assets/perso_icon.png)
 
-## Personnaliser vos emails {#personalize-emails}
+## Personnaliser vos e-mails {#personalize-emails}
 
-Lorsque vous créez un e-mail, vous pouvez ajouter une personnalisation dans le champ **[!UICONTROL Ligne d’objet]** du message. 
+Lorsque vous créez un e-mail, vous pouvez ajouter une personnalisation dans le champ **[!UICONTROL Ligne d’objet]** du message.
 
 ![](assets/perso_subject.png)
 

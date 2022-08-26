@@ -9,7 +9,7 @@ exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Avant de commencer, vérifiez que vous savez comment configurer ces éléments 
 
 * Un événement unitaire. [En savoir plus](../event/about-events.md).
 * Un parcours commençant par un événement. [En savoir plus](../building-journeys/using-the-journey-designer.md).
-* Un email dans votre parcours. [En savoir plus](../messages/get-started-content.md)
+* Un e-mail dans votre parcours. [En savoir plus](../messages/get-started-content.md)
 * Le corps d’un email. [En savoir plus](../design/create-email-content.md).
 
 Procédez de la façon suivante :
@@ -53,13 +53,13 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
    Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Créez un parcours commençant par cet événement.
-1. Ajoutez un **Email** à l’parcours.
+1. Ajoutez une activité **E-mail** au parcours.
 
    ![](assets/personalization-uc-helpers-8.png)
 
 ## Étape 2 : créer l’e-mail{#configure-email}
 
-1. Dans le **Email** activité, cliquez sur **[!UICONTROL Modifier le contenu]**, puis cliquez sur **[!UICONTROL Concepteur d&#39;email]**.
+1. Dans l’activité **E-mail**, cliquez sur **[!UICONTROL Modifier le contenu]**, puis cliquez sur **[!UICONTROL Concepteur d’e-mail]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Dans la palette gauche de la page d&#39;accueil du Concepteur d&#39;email, effectuez un glisser-déposer de trois composants de structure dans le corps du message.
@@ -111,7 +111,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 ## Étape 4 : insérer la liste des articles du panier {#each-helper}
 
-1. rouvrez le contenu du message.
+1. Rouvrez le contenu du message.
 
 1. Sur la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.

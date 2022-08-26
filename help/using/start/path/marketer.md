@@ -6,17 +6,17 @@ exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Prise en main pour les professionnels du marketing {#get-started-marketers}
 
-Comme **Marketer** ou **Praticien parcours**, vous êtes chargé de créer des offres et des parcours et de concevoir du contenu. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) et l’[ingénieur de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement. 
+En tant que **Professionnel du marketing** ou **Praticien Parcours**, vous êtes responsable de la création des offres et des parcours, ainsi que de la conception du contenu. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) et l’[ingénieur de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
 
 Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres et des ressources et envoyer des messages :
 
-1. **Créer des segments**. Journey Optimizer vous permet de créer des segments d’audience directement à partir du menu **Segments**, et de les exploiter dans vos parcours. Pour en savoir plus sur les segments, consultez [cette page](../../segment/about-segments.md). Découvrez comment créer des segments [dans cet exemple](../../segment/creating-a-segment.md).
+1. **Créer des segments**. Journey Optimizer vous permet de créer des segments d’audience directement à partir du menu **Segments**, et de les exploiter dans vos parcours.  Pour en savoir plus sur les segments, consultez [cette page](../../segment/about-segments.md). Découvrez comment créer des segments [dans cet exemple](../../segment/creating-a-segment.md).
 
 1. **Ajouter une personnalisation**. Tirez parti des fonctionnalités de personnalisation de Journey Optimizer pour adapter votre message à votre audience. En savoir plus sur la personnalisation dans [cette section](../../personalization/personalize.md).
 
@@ -28,17 +28,17 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Tester et valider**. Une fois le contenu de votre défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../../personalization/personalize.md), vous pourrez vérifier comment ce contenu s&#39;affiche dans le message en exploitant les données du profil de test. De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment tester et valider vos messages [dans cette section](../../design/preview.md). 
+1. **Testez et validez**. Une fois le contenu de votre défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../../personalization/personalize.md), vous pourrez vérifier comment ce contenu s&#39;affiche dans le message en exploitant les données du profil de test. De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment tester et valider vos messages [dans cette section](../../design/preview.md).
 
 1. **Concevez des parcours client** pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] permet de créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
-   * Envoyer en temps réel **diffusion unitaire** déclenché lorsqu’un événement est reçu, ou **dans le lot** utilisation de segments Adobe Experience Platform.
+   * Envoyez des **diffusions unitaires** en temps réel déclenchées lorsqu’un événement est reçu ou **par lots** à l’aide de segments Adobe Experience Platform.
 
    * Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 
-   * Utilisez la variable **actions de canal intégrées** (Email, SMS, Push) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créer **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
+   * Utilisez les **actions de canal intégrées** (E-mail, SMS, Push) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
-   * Avec le **concepteur de parcours**, créez vos cas d&#39;utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d&#39;entrée ou une activité de lecture de segment, ajoutez des conditions et envoyez des messages personnalisés.
+   * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d’entrée ou une activité de lecture de segment, ajoutez des conditions et envoyez des messages personnalisés.
 
    ![](../assets/journey-design.png)
 
