@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 72%
+source-wordcount: '334'
+ht-degree: 71%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 72%
 Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique sur plusieurs canaux. À la différence des parcours, où les actions sont conçues pour être exécutées l’une après l’autre, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning précis.
 
 Cela vous permet d’envoyer des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ Les campagnes peuvent avoir plusieurs statuts :
 >[!NOTE]
 >
 >L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée (consultez la section [Modifier une campagne](modify-stop-campaign.md#modify)).
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer votre première campagne.
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
