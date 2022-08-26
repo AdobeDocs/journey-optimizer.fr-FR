@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 71%
+source-wordcount: '403'
+ht-degree: 59%
 
 ---
 
@@ -22,10 +22,6 @@ ht-degree: 71%
 
 ## À propos des campagnes {#about}
 
->[!IMPORTANT]
->
->Cette fonctionnalité n’est disponible que pour les utilisateurs ayant accès à un profil produit associé à Campaign, tel que l’administrateur Campaign, l’approbateur Campaign, le responsable Campaign et/ou la visionneuse Campaign. Pour plus d’informations sur l’affectation de profils de produit, reportez-vous à la section [cette page](../administration/permissions.md).
-
 Les campagnes vous permettent de diffuser un contenu unique à un segment spécifique sur plusieurs canaux. À la différence des parcours, où les actions sont conçues pour être exécutées l’une après l’autre, les campagnes exécutent des actions simultanément, immédiatement ou selon un planning précis.
 
 Cela vous permet d’envoyer des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
@@ -36,6 +32,28 @@ Cela vous permet d’envoyer des communications par lots ad hoc simples pour des
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
+
+## Conditions préalables {#campaign-prerequisites}
+
+Campaign n&#39;est disponible que pour les utilisateurs ayant accès à une campagne associée **[!UICONTROL Profil de produit]** par exemple, administrateur de Campaign, approbateur de Campaign, responsable de Campaign et/ou visionneuse de Campaign.
+
+Pour affecter la variable **[!UICONTROL Profil de produit]** à vos utilisateurs :
+
+1. Dans la [!DNL Admin console], sélectionnez la variable [!DNL Adobe Experience Platform] produit.
+
+1. Dans la **[!UICONTROL Profil de produit]** , sélectionnez l’un des onglets intégrés de Campaign **[!UICONTROL Profil de produit]**: Administrateur de Campaign, approbateur de Campaign, responsable de Campaign ou visionneuse de Campaign.
+
+   Pour plus d’informations sur Campaign **[!UICONTROL Profils de produit]** et **[!UICONTROL Autorisations]**, voir à ce sujet [page](../administration/ootb-product-profiles.md).
+
+   ![](assets/do-not-localize/admin_1.png)
+
+1. Cliquez sur **[!UICONTROL Ajouter un utilisateur]** pour affecter à votre utilisateur le **[!UICONTROL Profil de produit]**.
+
+   ![](assets/do-not-localize/admin_2.png)
+
+1. Saisissez le nom, le groupe ou l’adresse électronique de votre utilisateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
+
+Votre utilisateur pourra désormais accéder à **[!UICONTROL Campagnes]**.
 
 ## Accès aux campagnes {#access}
 
