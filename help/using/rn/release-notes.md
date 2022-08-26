@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 <td>
 <p>Utilisez les campagnes Journey Optimizer pour diffuser du contenu ponctuel sur un segment spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Découvrez comment créer une campagne dans le <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et <a href="https://video.tv.adobe.com/v/345376">vidéo sur les fonctionnalités</a>.
+<p>Découvrez comment créer une campagne dans le <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et <a href="https://video.tv.adobe.com/v/346680">vidéo sur les fonctionnalités</a>.
 </td>
 </tr>
 </tbody>
