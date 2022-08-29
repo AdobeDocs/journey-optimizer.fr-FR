@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
+source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 32%
+source-wordcount: '516'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 32%
 >title="Campagnes"
 >abstract="Créez des campagnes pour diffuser du contenu ponctuel sur un segment spécifique sur différents canaux. Avant de créer votre campagne, assurez-vous d’avoir une surface de canal (c’est-à-dire un paramètre prédéfini de message) et un segment Adobe Experience Platform prêt à l’emploi."
 
-Utilisez les campagnes Journey Optimizer pour diffuser du contenu ponctuel sur un segment spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
+Utilisez les campagnes Journey Optimizer pour diffuser du contenu ponctuel sur un segment spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
 Créez des campagnes pour envoyer des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
 
@@ -43,9 +43,9 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
    Pour affecter la variable **[!UICONTROL Profil de produit]** à vos utilisateurs :
 
-   1. Dans la [!DNL Admin console], sélectionnez la variable [!DNL Adobe Experience Platform] produit.
+   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, sélectionnez la variable [!DNL Adobe Experience Platform] produit.
 
-   1. Dans la **[!UICONTROL Profil de produit]** , sélectionnez l’un des onglets intégrés de Campaign **[!UICONTROL Profil de produit]**: Administrateur de Campaign, approbateur de Campaign, responsable de Campaign ou visionneuse de Campaign.
+   1. Accédez au **[!UICONTROL Profil de produit]** , sélectionnez l’une des campagnes intégrées liées **[!UICONTROL Profil de produit]**: Administrateur de Campaign, approbateur de Campaign, responsable de Campaign ou visionneuse de Campaign.
 
       Pour plus d’informations sur la campagne Journey Optimizer **[!UICONTROL Profils de produit]** et **[!UICONTROL Autorisations]**, [voir cette page](../administration/ootb-product-profiles.md).
 
@@ -56,18 +56,18 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
       ![](assets/do-not-localize/admin_2.png)
 
    1. Saisissez le nom, le groupe ou l’adresse électronique de votre utilisateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
-   Votre utilisateur pourra désormais accéder à **[!UICONTROL Campagnes]**.
+   Votre utilisateur peut désormais accéder à **[!UICONTROL Campagnes]**.
 
 +++
 
 1. **Vous avez besoin d’une audience**. Les segments d’audience doivent être disponibles avant de créer la campagne. En savoir plus sur la création d’audiences [dans cette page](../segment/about-segments.md).
-1. **Vous avez besoin d’une surface de canal**. Pour pouvoir sélectionner un canal, la surface du canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. En savoir plus sur les surfaces des canaux [dans cette page](../configuration/channel-surfaces.md)
+1. **Vous avez besoin d’une surface de canal**. Pour pouvoir sélectionner un canal, la surface du canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. En savoir plus sur les surfaces des canaux [dans cette page](../configuration/channel-surfaces.md).
 
 ## Accès aux campagnes {#access}
 
 Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
-Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
+Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez effacer le filtre.
 
 ![](assets/create-campaign-list.png)
 
@@ -78,14 +78,14 @@ Les campagnes peuvent avoir plusieurs statuts :
 * **[!UICONTROL Brouillon]** : la campagne est en cours de modification et n’est pas active.
 * **[!UICONTROL Activation]** : la campagne est en cours d’activation.
 * **[!UICONTROL Actif]** : la campagne est active.
-* **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date spécifique.
-* **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ou la réutiliser (consultez la section [Arrêter une campagne](modify-stop-campaign.md#stop)).
+* **[!UICONTROL Planifié]**: La campagne est configurée pour être activée à une date de début spécifique.
+* **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ni le réutiliser. [En savoir plus](modify-stop-campaign.md#stop)
 * **[!UICONTROL Terminé]** : la campagne est terminée. Ce statut est automatiquement attribué 3 jours après l&#39;activation d&#39;une campagne, ou à la date de fin de la campagne si son exécution est récurrente.
 * **[!UICONTROL Archivé]** : la campagne a été archivée.
 
 >[!NOTE]
 >
->L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée (consultez la section [Modifier une campagne](modify-stop-campaign.md#modify)).
+>L’icône &quot;Ouvrir la version préliminaire&quot; en regard d’un **[!UICONTROL En direct]** ou **[!UICONTROL Planifié]** Le statut indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée. [En savoir plus](modify-stop-campaign.md#modify).
 
 ## Vidéo pratique {#video}
 

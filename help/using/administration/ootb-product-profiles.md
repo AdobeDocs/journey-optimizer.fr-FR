@@ -6,20 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 85%
+source-wordcount: '1125'
+ht-degree: 75%
 
 ---
 
 # Profils de produit intégrés {#ootb-product-profiles}
 
-Adobe Journey Optimizer propose une nouvelle fonctionnalité, la création insérée, qui vous permet de créer vos messages directement à partir d’un parcours. Pour en savoir plus à ce sujet, consultez cette page.
 
->[!WARNING]
->
->Si des utilisateurs sont affectés au profil de produit **[!DNL Message Manager]** uniquement, sans le profil de produit **[!DNL Journey manager]**, vous devez leur attribuer un nouveau profil de produit pour pouvoir continuer à modifier le contenu.
+## A propos des permissions liées aux messages{#message-permissions}
+
+Adobe Journey Optimizer a publié de nouvelles fonctionnalités de création intégrées qui vous permettent de créer et de créer vos messages directement à partir d’un parcours ou d’une campagne. Pour plus d’informations sur cette nouvelle fonctionnalité, [voir cette page](../rn/inline-messages.md).
 
 Cette fonctionnalité aura un impact sur les autorisations comme suit :
 
@@ -31,9 +30,14 @@ Cette fonctionnalité aura un impact sur les autorisations comme suit :
 | **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
 | **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
 
-**Après le 25 juillet**, les autorisations liées aux messages seront toujours disponibles, car les messages sont toujours accessibles pour permettre la transition et vous pouvez toujours les enregistrer comme modèle.
+**Après le 25 juillet**, autorisations liées à **Messages** sont toujours disponibles, car les messages sont toujours accessibles pour activer la transition et vous pouvez les enregistrer en tant que modèle.
 
-**À partir du 6 septembre**, les autorisations liées aux messages seront supprimées et les messages ne seront plus accessibles.
+**À partir du 6 septembre**, autorisations liées à **Messages** sera supprimé et les messages ne seront plus accessibles.
+
+>[!WARNING]
+>
+>Si des utilisateurs sont affectés à la variable **[!DNL Message Manager]** profil de produit uniquement, sans **[!DNL Journey manager]** profil de produit, vous devez lui attribuer un nouveau profil de produit pour pouvoir continuer à modifier le contenu.
+
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -64,9 +68,9 @@ Ce profil de produit comprend les autorisations suivantes :
 |Gestion des décisions| <ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et lʼutilisation des fonctions dʼaction.</li></ul>|
 |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul>|
 
-## [!DNL Campaign viewer] {#campaign-viewer}
+## [!DNL Campaign Viewer] {#campaign-viewer}
 
-Le **[!DNL Campaign viewer]** le profil de produit permet d’accéder en lecture seule à la variable **[!UICONTROL Campagnes]** et **[!UICONTROL Gestion des décisions]** fonctionnalités.
+Le **[!DNL Campaign Viewer]** le profil de produit permet d’accéder en lecture seule à la variable **[!UICONTROL Campagnes]** et **[!UICONTROL Gestion des décisions]** fonctionnalités.
 
 Les utilisateurs affectés à ce profil de produit ne pourront effectuer ni modification, ni publication.
 
