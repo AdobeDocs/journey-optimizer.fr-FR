@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 14b0928821e0c1815869711a0bb68a09beb1b7e4
+source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1132'
 ht-degree: 98%
 
 ---
@@ -385,6 +385,7 @@ ht-degree: 98%
          + Surveillance des adresses e-mail {#monitor-reputation}
             + [Liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)
+            + [Liste autorisée](using/configuration/allow-list-temp.md)
             + [Liste autorisée](using/configuration/allow-list.md)
       + [Configurer le canal SMS](using/configuration/sms-configuration.md)
       + Configurer des surfaces de canal {#set-up-channels}

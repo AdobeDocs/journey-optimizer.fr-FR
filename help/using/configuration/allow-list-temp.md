@@ -5,13 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 96%
 
 ---
 
@@ -35,19 +33,9 @@ La liste autorisée vous permet de spécifier des adresses e-mail ou des domaine
 
 Pour accéder à la liste détaillée des adresses e-mail et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >Les autorisations d’affichage, d’export et de gestion de la liste autorisée sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
-
-Pour exporter la liste autorisée au format CSV, cliquez sur le bouton **[!UICONTROL Télécharger CSV]**.
-
-Utilisez le bouton **[!UICONTROL Supprimer]** pour supprimer définitivement une entrée.
-
-Vous pouvez effectuer des recherches sur les adresses e-mail ou domaines, puis filtrer selon le **[!UICONTROL Type d’adresse]**. Une fois sélectionné, vous pouvez effacer le filtre affiché en haut de la liste.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## Activation de la liste autorisée {#enable-allow-list}
 
@@ -55,13 +43,9 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste autorisée]**.
 
-1. Cliquez sur **[!UICONTROL Activer/désactiver la liste autorisée]**.
-
-   ![](assets/allow-list-edit.png)
+1. Cliquez sur **[!UICONTROL Modifier]**.
 
 1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**.
-
-   ![](assets/allow-list-enable.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. La liste autorisée est activée.
 
@@ -73,48 +57,11 @@ La logique de liste autorisée s’applique lorsque la fonctionnalité est activ
 
 ## Ajout d&#39;entités à la liste autorisée {#add-entities}
 
-Pour ajouter des adresses e-mail ou des domaines à la liste autorisée pour un sandbox spécifique, vous pouvez [renseigner manuellement la liste](#manually-populate-list) ou utiliser un [appel API](#api-call-allowed-list).
+Pour ajouter de nouvelles adresses électroniques ou de nouveaux domaines à la liste autorisée pour un environnement de test spécifique, vous pouvez utiliser une [appel API](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >La liste autorisée peut contenir jusqu&#39;à 1 000 entrées.
-
-### Remplissage manuel de la liste autorisée {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="Ajouter des adresses ou des domaines à la liste autorisée"
->abstract="Vous pouvez ajouter manuellement des adresses e-mail ou des domaines à la liste autorisée en les sélectionnant un par un."
-
-Vous avez la possibilité de renseigner manuellement la liste autorisée [!DNL Journey Optimizer] en ajoutant une adresse e-mail ou un domaine par le biais de l’interface utilisateur.
-
->[!NOTE]
->
->Vous ne pouvez ajouter qu’une seule adresse e-mail ou seul domaine à la fois.
-
-Pour ce faire, suivez les étapes ci-après.
-
-1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
-
-   ![](assets/allowed-list-add-email.png)
-
-1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
-
-1. Saisissez l’adresse e-mail ou le domaine vers lesquels vous souhaitez envoyer des e-mails.
-
-   >[!NOTE]
-   >
-   >Veillez à saisir une adresse e-mail (par exemple abc@company) ou un domaine valide (par exemple abc.company.com).
-
-1. Indiquez un motif si nécessaire.
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >Tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ **[!UICONTROL Motif]**. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
-
-1. Cliquez sur **[!UICONTROL Envoyer]**.
 
 ### Ajout d’entités à l’aide d’un appel API {#api-call-allowed-list}
 
