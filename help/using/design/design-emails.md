@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 86%
 
 ---
 
 # Prise en main de la conception d’e-mails {#get-started-content-design}
 
+Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer parti des fonctionnalités de conception de contenu :
+
+* Utilisation [!DNL Journey Optimizer] **fonctionnalités de conception d&#39;email** pour concevoir ou importer des emails réactifs. [En savoir plus](../design/create-email-content.md)
+
+* Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../design/assets-essentials.md)
+
+* Rechercher des **photos Adobe Stock** pour créer votre contenu et améliorer votre conception d’e-mail. [En savoir plus](../design/stock.md)
+
+* Améliorez l’expérience des clients en créant des messages personnalisés en fonction de leurs attributs de profil. [En savoir plus](../personalization/personalize.md)
+
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+
+Une fois que vous avez [créé votre message](../messages/get-started-content.md), vous pouvez commencer à créer le contenu de votre email.
 
 1. Dans le message que vous venez de créer, sélectionnez **[!UICONTROL Concepteur d&#39;email]** dans la section **[!UICONTROL Corps]**.
 
@@ -35,11 +47,6 @@ ht-degree: 100%
 
 Ces fonctionnalités sont toutes disponibles lors de l’accès au concepteur d’email à partir de l’écran de création de messages. [En savoir plus sur la création de messages](../messages/get-started-content.md).
 
->[!NOTE]
->
->Notez que les modèles de la zone inférieure sont statiques et ne peuvent pas être modifiés. Ils ne sont disponibles qu&#39;à titre d&#39;illustration.
->
->Une fois que vous avez [créé votre message](../messages/get-started-content.md), vous pouvez commencer à créer le contenu de votre e-mail.
 
 ## Vidéo pratique {#video}
 

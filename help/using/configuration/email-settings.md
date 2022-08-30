@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 96%
@@ -36,7 +36,7 @@ Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer 
 >
 >Les e-mails **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
-Lors de la [création d’un message](../messages/get-started-content.md#create-new-message), vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
+Lors de la [création d’un message](../messages/get-started-content.md), vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
 ## Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Tous les e-mails utilisant cette surface seront copiés de façon invisible vers
 >
 >Votre utilisation de la fonctionnalité Cci sera décomptée en fonction du nombre de messages pour lesquels vous disposez d’une licence. Par conséquent, activez-la uniquement dans les surfaces utilisées pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
 
-Le paramètre d’adresse e-mail en Cci est immédiatement enregistré et traité au niveau de la surface. Lorsque vous [créez un message](../messages/get-started-content.md#create-new-message) avec cette surface, l’adresse e-mail en Cci s’affiche automatiquement.
+Le paramètre d’adresse e-mail en Cci est immédiatement enregistré et traité au niveau de la surface. Lorsque vous [créez un message](../messages/get-started-content.md) avec cette surface, l’adresse e-mail en Cci s’affiche automatiquement.
 
 ![](assets/preset-bcc-in-msg.png)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 95%
@@ -19,7 +19,6 @@ ht-degree: 95%
 >id="ajo_message_push"
 >title="Créer un message push"
 >abstract="Ajoutez votre message push et commencez à le personnaliser à l’aide de l’éditeur d’expression."
-
 
 Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre application mobile à tout moment, en particulier lorsqu&#39;ils ne l&#39;utilisent pas activement. Elles peuvent vous aider à réaliser divers cas d&#39;utilisation, tels que fournir des mises à jour sur votre service, demander à un utilisateur de prendre des mesures, avertir l&#39;utilisateur d&#39;une nouvelle transaction, etc. Les plateformes d&#39;appareil nécessitent un accord préalable avant que les utilisateurs finaux puissent recevoir ou afficher vos notifications. Lʼaccord préalable de lʼutilisateur peut être reçu dès le lancement de lʼapplication pour la première fois après lʼinstallation, ou au cours dʼune session ou dʼun processus ultérieur, selon le cas.
 
