@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 98%
@@ -44,80 +44,6 @@ ht-degree: 98%
       + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
       + [Configuration des rapports](using/campaigns/reporting-configuration.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
-+ Messages {#messages}
-   + [Prise en main des messages](using/messages/get-started-content.md)
-   + [Ajout de parcours de messages](using/messages/messages-in-journeys.md)
-   + [Ajout de campagnes de messages](using/messages/messages-in-campaigns.md)
-   + [Création d’un e-mail](using/messages/create-email.md)
-   + [Création d’une notification push](using/messages/create-push.md)
-   + [Création dʼun SMS](using/messages/create-sms.md)
-   + [Vérifier les alertes](using/messages/alerts.md)
-   + [Gérer le consentement](using/messages/consent.md)
-   + [Optimisation de l’heure d’envoi](using/messages/send-time-optimization.md)
-+ Conception du contenu {#design}
-   + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
-   + [Commencer à partir de zéro ](using/design/create-email-content.md)
-   + [Importation du contenu de vos e-mails](using/design/existing-content.md)
-   + [Codage de votre propre contenu](using/design/code-content.md)
-   + [Utiliser des modèles](using/design/email-templates.md)
-   + Conception de contenu {#design-content}
-      + [Utilisation de composants de contenu](using/design/content-components.md)
-      + [Paramètres d&#39;arrière-plan](using/design/backgrounds.md)
-      + [Ajustement de l&#39;alignement vertical et la marge intérieure](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [Définition d’un style pour les liens](using/design/styling-links.md)
-      + [Ajout d’attributs de style intégrés](using/design/adding-inline-styling-attributes.md)
-   + Paramètres d&#39;e-mail {#design-email}
-      + [Génération de la version texte](using/design/text-version-email.md)
-      + [Ajout d’un pré-titre](using/design/preheader.md)
-   + Ajout et gestion des ressources {#manage-asset}
-      + [Utilisation d’Assets Essentials](using/design/assets-essentials.md)
-      + [Utilisation d’Adobe Stock](using/design/stock.md)
-   + [Ajout d’offres personnalisées](using/design/deliver-personalized-offers.md)
-   + [Ajout de liens et suivi des messages](using/design/message-tracking.md)
-   + [Prévisualisation et BAT](using/design/preview.md)
-+  Pages de destination {#landing-pages}
-   + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
-   + [Création d’une page de destination](using/landing-pages/create-lp.md)
-   + Conception du contenu {#landing-pages-design}
-      + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
-      + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
-      + [Création de modèles](using/landing-pages/lp-templates.md)
-      + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
-   + [Création d’une liste dʼabonnements](using/landing-pages/subscription-list.md)
-   + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
-+ Personnalisation{#personalization}
-   + [Prise en main    de la personnalisation](using/personalization/personalize.md)
-   + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
-   + Création d’expressions {#build-expressions}
-      + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + Utiliser l’éditeur d’expression {#expression-editor}
-         + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
-         + [Ajouter des attributs aux favoris](using/personalization/personalization-favorites.md)
-         + [Utilisation d’expressions enregistrées](using/personalization/personalization-library.md)
-         + [Validation de la personnalisation](using/personalization/personalization-validation.md)
-      + Fonctions helper{#functions}
-         + [Prise en main des fonctions helper](using/personalization/functions/functions.md)
-         + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
-         + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
-         + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
-         + [Fonctions date/heure](using/personalization/functions/dates.md)
-         + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
-         + [Helpers](using/personalization/functions/helpers.md)
-         + [Fonctions de mappage](using/personalization/functions/maps.md)
-         + [Fonctions d’objet](using/personalization/functions/objects.md)
-         + [Fonctions de chaîne](using/personalization/functions/string.md)
-   + Cas pratiques{#personalization-use-cases}
-      + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
-      + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
-+ Segments, profils et identité{#segment}
-   + Segments {#segments}
-      + [Prise en main des segments](using/segment/about-segments.md)
-      + [Création de segments](using/segment/creating-a-segment.md)
-   + Profils{#profiles}
-      + [Prise en main des profils](using/segment/get-started-profiles.md)
-      + [Créer des profils de test](using/segment/creating-test-profiles.md)
-   + [Identités](using/segment/get-started-identity.md)
-   + [Utilisation des licences](using/segment/license-usage.md)
 + Parcours {#orchestrate-journeys}
    + À propos des parcours{#about-journeys}
       + [Principe général](using/building-journeys/journey.md)
@@ -239,6 +165,80 @@ ht-degree: 98%
       + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
       + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
       + [Accélération des diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
++ Messages {#messages}
+   + [Prise en main des messages](using/messages/get-started-content.md)
+   + [Ajout de parcours de messages](using/messages/messages-in-journeys.md)
+   + [Ajout de campagnes de messages](using/messages/messages-in-campaigns.md)
+   + [Création d’un e-mail](using/messages/create-email.md)
+   + [Création d’une notification push](using/messages/create-push.md)
+   + [Création dʼun SMS](using/messages/create-sms.md)
+   + [Vérifier les alertes](using/messages/alerts.md)
+   + [Gérer le consentement](using/messages/consent.md)
+   + [Optimisation de l’heure d’envoi](using/messages/send-time-optimization.md)
++ Conception du contenu {#design}
+   + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
+   + [Commencer à partir de zéro ](using/design/create-email-content.md)
+   + [Importation du contenu de vos e-mails](using/design/existing-content.md)
+   + [Codage de votre propre contenu](using/design/code-content.md)
+   + [Utiliser des modèles](using/design/email-templates.md)
+   + Conception de contenu {#design-content}
+      + [Utilisation de composants de contenu](using/design/content-components.md)
+      + [Paramètres d&#39;arrière-plan](using/design/backgrounds.md)
+      + [Ajustement de l&#39;alignement vertical et la marge intérieure](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [Définition d’un style pour les liens](using/design/styling-links.md)
+      + [Ajout d’attributs de style intégrés](using/design/adding-inline-styling-attributes.md)
+   + Paramètres d&#39;e-mail {#design-email}
+      + [Génération de la version texte](using/design/text-version-email.md)
+      + [Ajout d’un pré-titre](using/design/preheader.md)
+   + Ajout et gestion des ressources {#manage-asset}
+      + [Utilisation d’Assets Essentials](using/design/assets-essentials.md)
+      + [Utilisation d’Adobe Stock](using/design/stock.md)
+   + [Ajout d’offres personnalisées](using/design/deliver-personalized-offers.md)
+   + [Ajout de liens et suivi des messages](using/design/message-tracking.md)
+   + [Prévisualisation et BAT](using/design/preview.md)
++  Pages de destination {#landing-pages}
+   + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
+   + [Création d’une page de destination](using/landing-pages/create-lp.md)
+   + Conception du contenu {#landing-pages-design}
+      + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
+      + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
+      + [Création de modèles](using/landing-pages/lp-templates.md)
+      + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
+   + [Création d’une liste dʼabonnements](using/landing-pages/subscription-list.md)
+   + [Cas dʼutilisation](using/landing-pages/lp-use-cases.md)
++ Personnalisation{#personalization}
+   + [Prise en main    de la personnalisation](using/personalization/personalize.md)
+   + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
+   + Création d’expressions {#build-expressions}
+      + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
+      + Utiliser l’éditeur d’expression {#expression-editor}
+         + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
+         + [Ajouter des attributs aux favoris](using/personalization/personalization-favorites.md)
+         + [Utilisation d’expressions enregistrées](using/personalization/personalization-library.md)
+         + [Validation de la personnalisation](using/personalization/personalization-validation.md)
+      + Fonctions helper{#functions}
+         + [Prise en main des fonctions helper](using/personalization/functions/functions.md)
+         + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
+         + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
+         + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
+         + [Fonctions date/heure](using/personalization/functions/dates.md)
+         + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
+         + [Helpers](using/personalization/functions/helpers.md)
+         + [Fonctions de mappage](using/personalization/functions/maps.md)
+         + [Fonctions d’objet](using/personalization/functions/objects.md)
+         + [Fonctions de chaîne](using/personalization/functions/string.md)
+   + Cas pratiques{#personalization-use-cases}
+      + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
+      + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
++ Segments, profils et identité{#segment}
+   + Segments {#segments}
+      + [Prise en main des segments](using/segment/about-segments.md)
+      + [Création de segments](using/segment/creating-a-segment.md)
+   + Profils{#profiles}
+      + [Prise en main des profils](using/segment/get-started-profiles.md)
+      + [Créer des profils de test](using/segment/creating-test-profiles.md)
+   + [Identités](using/segment/get-started-identity.md)
+   + [Utilisation des licences](using/segment/license-usage.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
