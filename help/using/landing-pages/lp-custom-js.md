@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Voici les points d’extension que vous pouvez utiliser :
 | Nom | Description |
 |--- |--- |
 | addBeforeSubmitHook | Extension personnalisée à appeler avant envoi du formulaire. Renvoie &quot;true&quot; pour poursuivre l’envoi, sinon renvoie &quot;false&quot; pour bloquer l’envoi. |
-| addBeforeSubmitHook | Extension personnalisée à appeler lors de l’échec de l’envoi du formulaire. |
+| addOnFailureHook | Extension personnalisée à appeler lors de l’échec de l’envoi du formulaire. |
 | addOnSuccessHook | Extension personnalisée à appeler lors de l’envoi réussi du formulaire. |
 
 **Exemple :**

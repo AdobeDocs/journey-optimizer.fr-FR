@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 67%
+source-wordcount: '992'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 67%
 >
 >La fonctionnalité « Expérience de contenu » est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
-La fonctionnalité d’expérience de contenu vous permet de définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de l’e-mail.
+>[!NOTE]
+>
+>Avant d’utiliser l’expérience de contenu, assurez-vous que votre configuration de création de rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](reporting-configuration.md).
+
+La fonctionnalité Expérience de contenu vous permet de définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de l’e-mail.
 
 Dans l&#39;exemple ci-dessous, la cible de la diffusion a été divisée en deux groupes, représentant chacun 45 % de la population ciblée, et un groupe d’exclusion de 10 %, qui ne recevra pas la diffusion.
 

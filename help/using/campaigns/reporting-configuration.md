@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 5%
+source-wordcount: '721'
+ht-degree: 4%
 
 ---
 
@@ -20,36 +20,63 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Configuration de jeux de données pour la création de rapports"
->abstract="La configuration des rapports vous permet de définir une connexion à un système afin de récupérer des informations personnalisées supplémentaires à utiliser dans vos rapports. Elle doit être effectuée par un utilisateur technique."
+>abstract="La configuration des rapports vous permet de récupérer des mesures supplémentaires qui seront utilisées dans l’onglet Objectifs de vos rapports de campagne. Elle doit être effectuée par un utilisateur technique."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Sélectionner un jeu de données"
->abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement qui doit contenir au moins l’un des groupes de champs pris en charge : experienceevent-web, experienceevent-application, experienceevent-commerce."
+>abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement qui doit contenir au moins l’un des groupes de champs pris en charge : Détails de l’application, Détails du commerce, Détails Web."
 
-La configuration de la source de données de rapports vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos rapports.
+<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+
+La configuration de la source de données de rapports vous permet de récupérer des mesures supplémentaires qui seront utilisées dans la variable **[!UICONTROL Objectifs]** de vos rapports d’opération. [En savoir plus](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
->La configuration de la source de données doit être effectuée par un utilisateur technique. <!--Rights?-->
+>La configuration du reporting doit être effectuée par un utilisateur technique. <!--Rights?-->
 
-Pour cette configuration, vous devez ajouter un ou plusieurs jeux de données contenant les attributs que vous souhaitez utiliser pour vos rapports. Pour ce faire, suivez les étapes ci-après.
-
->[!CAUTION]
->
->Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment dans la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}.
->
->Vous pouvez uniquement ajouter des jeux de données de type événement, qui doivent contenir au moins l’un des jeux de données pris en charge. [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;} : **experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**.
+Pour cette configuration, vous devez ajouter un ou plusieurs jeux de données contenant les éléments supplémentaires que vous souhaitez utiliser pour vos rapports. Pour ce faire, procédez comme suit : [below](#add-datasets).
 
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
-Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec la variable **experienceevent-commerce** groupe de champs. De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec la variable **experienceevent-application** groupe de champs. <!--If you want to report on web interactions then you need to include the web field group.--> Vous pouvez ajouter ces groupes de champs à un ou plusieurs schémas qui seront utilisés dans un jeu de données ou dans différents jeux de données.
+## Conditions préalables
+
+
+Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment dans la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}.
+
+* Vous pouvez uniquement ajouter des jeux de données de type événement.
+
+* Ces jeux de données doivent contenir au moins l’une des variables suivantes : [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;} : **Détails de l’application**, **Détails du commerce**, **Détails web**.
+
+   >[!NOTE]
+   >
+   >Seuls ces groupes de champs sont actuellement pris en charge.
+
+   Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec la variable **Détails du commerce** groupe de champs.
+
+   De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec la variable **Détails de l’application** groupe de champs.
+
+   Les mesures correspondant à chaque groupe de champs sont répertoriées. [here](#objective-list).
+
+* Vous pouvez ajouter ces groupes de champs à un ou plusieurs schémas qui seront utilisés dans un ou plusieurs jeux de données.
 
 >[!NOTE]
 >
 >En savoir plus sur les schémas XDM et les groupes de champs dans la section [Présentation de la documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
+
+## Objectifs correspondant à chaque groupe de champs {#objective-list}
+
+Le tableau ci-dessous indique les mesures qui seront ajoutées au **[!UICONTROL Objectifs]** de vos rapports de campagne pour chaque groupe de champs.
+
+| Groupe de champs | Objectifs |
+|--- |--- |
+| Informations commerciales | Prix total<br>Montant du paiement<br>Passages en caisse (uniques)<br>Ajout de listes de produits (uniques)<br>(Unique) La liste des produits s’ouvre<br>Suppression de la liste de produits (unique)<br>Vues de liste de produits (uniques)<br>Consultations de produit (uniques)<br>Achats (uniques)<br>(Unique) Enregistrer pour plus tard<br>Prix du produit total<br>Quantité de produit |
+| Détails de l’application | Lancements d’application (uniques)<br>Premiers lancements d’applications<br>(Unique) Installations de l’application<br>Mises à niveau d’application (uniques) |
+| Informations web | Pages vues (uniques) |
+
+## Ajout de jeux de données {#add-datasets}
 
 1. Dans la **[!UICONTROL ADMINISTRATION]** menu, sélectionnez **[!UICONTROL Configurations]**. Dans le  **[!UICONTROL Reporting]** , cliquez sur **[!UICONTROL Gérer]**.
 
@@ -69,7 +96,7 @@ Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail
 
    >[!CAUTION]
    >
-   >Vous pouvez uniquement sélectionner un jeu de données de type événement, qui doit contenir au moins l’un des jeux de données pris en charge. [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;} : **experienceevent-web**, **experienceevent-application**, **experienceevent-commerce**. Si vous sélectionnez un jeu de données ne correspondant pas à ces critères, vous ne pourrez pas enregistrer vos modifications.
+   >Vous pouvez uniquement sélectionner un jeu de données de type événement, qui doit contenir au moins l’un des jeux de données pris en charge. [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;} : **Détails de l’application**, **Détails du commerce**, **Détails web**. Si vous sélectionnez un jeu de données ne correspondant pas à ces critères, vous ne pourrez pas enregistrer vos modifications.
 
    ![](assets/reporting-config-datasets.png)
 
@@ -95,12 +122,13 @@ Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail
    >
    >Si vous avez sélectionné un jeu de données qui n’est pas de type événement, vous ne pourrez pas continuer.
 
-Lors de la création des rapports de vos diffusions, vous pouvez désormais utiliser les données de ce jeu de données pour récupérer des informations personnalisées supplémentaires et optimiser vos rapports. [En savoir plus](content-experiment.md#objectives-global)
+Lors de la création des rapports de campagne, vous pouvez désormais voir les mesures correspondant aux groupes de champs utilisés dans les jeux de données que vous avez ajoutés. Accédez au **[!UICONTROL Objectifs]** et sélectionnez les mesures de votre choix pour affiner davantage vos rapports. [En savoir plus](content-experiment.md#objectives-global)
+
+![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
 >Si vous ajoutez plusieurs jeux de données, toutes les données de tous les jeux de données seront disponibles pour la création de rapports.
-
 
 <!--
 ## How-to video {#video}

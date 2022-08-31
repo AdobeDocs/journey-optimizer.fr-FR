@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 69%
+source-wordcount: '732'
+ht-degree: 56%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 69%
 >* [Prise en main des segments](../segment/about-segments.md)
 
 
-Suivez les étapes de création dʼune campagne décrites ci-après :
+## Créer votre première campagne {#create}
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
-   ![](assets/create-campaign.png)
-
    >[!NOTE]
    >
-   >Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
+
+   ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -40,13 +40,15 @@ Suivez les étapes de création dʼune campagne décrites ci-après :
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
 
-   ![](assets/create-campaign-action.png)
-
    Une surface est une configuration définie par un [administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
+
+   ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Seules les surfaces de canal compatibles avec le type de campagne (marketing ou transactionnel) sont répertoriées dans la liste déroulante.
+   >Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. Indiquez un titre et une description pour la campagne.
 
@@ -61,7 +63,8 @@ Suivez les étapes de création dʼune campagne décrites ci-après :
       * [Création d&#39;un e-mail](../messages/create-email.md)
       * [Créer des notification push](../messages/create-push.md)
       * [Créer un SMS](../messages/create-sms.md)
-   1. Une fois votre contenu défini, utilisez **[!UICONTROL Simulation du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../design/preview.md).
+   1. Une fois votre contenu défini, utilisez la variable **[!UICONTROL Simulation du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../design/preview.md).
+
    1. Cliquez sur la flèche pour revenir à l&#39;écran de création de la campagne.
 
       ![](assets/create-campaign-design.png)
@@ -83,17 +86,11 @@ Suivez les étapes de création dʼune campagne décrites ci-après :
    >
    >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblés par la campagne.
 
-1. Configurez le planning de votre campagne dans les champs Dates de début et de fin . Par défaut, les campagnes démarrent une fois qu’elles sont activées manuellement et se terminent dès que le message a été envoyé une seule fois.
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. De plus, vous pouvez indiquer une fréquence d’exécution de l’action paramétrée dans la campagne.
+1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la variable **[!UICONTROL Planification]** . [Découvrez comment planifier des campagnes](#schedule)
 
-   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-   ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate);
+Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
 
 ## Examiner et activer une campagne {#review-activate}
 
@@ -128,3 +125,13 @@ Une fois votre campagne configurée, vous devez passer en revue son paramètre e
    Vous pouvez également obtenir des statistiques supplémentaires dans les rapports dédiés en cliquant sur le bouton **[!UICONTROL Rapports]**. [En savoir plus](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
+
+## Planification d’une campagne {#schedule}
+
+Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une seule fois.
+
+Vous pouvez définir la fréquence d&#39;envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
+
+Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé à l’aide de la variable **[!UICONTROL Démarrage de campagne]** . Le  **[!UICONTROL Fin de campagne]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
+
+![](assets/create-campaign-schedule.png)

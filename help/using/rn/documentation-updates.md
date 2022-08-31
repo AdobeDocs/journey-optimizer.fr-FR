@@ -2,9 +2,9 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1827'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Une vidéo montrant comment configurer les abonnements et créer des pages de destination est désormais référencée dans la section « Prise en main des pages de destination ». [En savoir plus](../landing-pages/get-started-lp.md#video)
 * Une limitation a été ajoutée pour les parcours utilisant les activités Lecture de segment . [En savoir plus](../building-journeys/read-segment.md)
 * La page des opérateurs de l&#39;éditeur d&#39;expression a été améliorée. [En savoir plus](../building-journeys/expression/operators.md)
+* Ajout d’une section sur la planification d’une campagne - [En savoir plus](../campaigns/create-campaign.md)
 
 ## Juillet 2022 {#july-2022}
 
