@@ -249,7 +249,7 @@ ht-degree: 98%
    + Rapport global {#global-report}
       + [Accès au tableau de bord des rapports globaux](using/reports/global-report.md)
       + [Rapport global sur les parcours](using/reports/journey-global-report.md)
-      + [Rapport global de campagnes](using/reports/campaign-global-report.md)
+      + [Rapport global de campagne](using/reports/campaign-global-report.md)
       + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
       + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
    + Rapports de parcours {#reports}

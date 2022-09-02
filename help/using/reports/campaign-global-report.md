@@ -1,6 +1,6 @@
 ---
-title: Rapport global de campagnes
-description: Découvrez comment utiliser les données du rapport global de Campaign
+title: Rapport global de campagne
+description: Découvrez comment utiliser les données du rapport global de campagne
 feature: Reporting
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
-# Rapport global de campagnes {#campaign-global-report}
+# Rapport global de campagne {#campaign-global-report}
 
 Le rapport global de campagnes est accessible directement depuis votre campagne à l’aide de la variable **[!UICONTROL Rapports]** bouton .
 
@@ -67,7 +67,7 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la r
 
 * **[!UICONTROL Exclus]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
 
-Le **[!UICONTROL Email - Statistiques de tracking]** Le widget contient les données disponibles pour l’activité des destinataires pour votre diffusion :
+Le widget **[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l’activité destinataire de votre diffusion :
 
 * **[!UICONTROL Ouvertures]** :nombre de fois où la diffusion a été ouverte dans une diffusion.
 
