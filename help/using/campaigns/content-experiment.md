@@ -1,14 +1,14 @@
 ---
 title: Création d’une expérience de contenu
 description: Découvrez comment créer une expérience de contenu dans vos campagnes
-feature: Overview
+feature: Content Management, A/B Testing
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 89%

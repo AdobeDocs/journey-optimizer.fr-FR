@@ -1,14 +1,14 @@
 ---
 title: Calculs statistiques utilisés par l’expérience Adobe Journey Optimizer
 description: En savoir plus sur les calculs statistiques utilisés lors de l’exécution d’expériences
-feature: Overview
-topic: Content Management, A/B Testing
+feature: Content Management, A/B Testing
+topic: Content Management
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 93%
