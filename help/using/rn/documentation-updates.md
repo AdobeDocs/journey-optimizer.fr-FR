@@ -2,10 +2,10 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 98%
+source-wordcount: '1873'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Une limitation a été ajoutée pour les parcours utilisant les activités Lecture de segment . [En savoir plus](../building-journeys/read-segment.md)
 * La page des opérateurs de l&#39;éditeur d&#39;expression a été améliorée. [En savoir plus](../building-journeys/expression/operators.md)
 * Ajout d’une section sur la planification d’une campagne - [En savoir plus](../campaigns/create-campaign.md)
+* Mise à jour de la section sur les règles de syntaxe générales de l’éditeur d’expression afin de prendre en compte la nouvelle règle concernant l’échappement des symboles de barre oblique inverse dans les fonctions littérales - Les messages publiés existants ne sont pas affectés par cette modification. Seuls les nouveaux messages ou les brouillons doivent être mis à jour. [En savoir plus](../personalization/personalization-syntax.md#general-rules)
 
 ## Juillet 2022 {#july-2022}
 
