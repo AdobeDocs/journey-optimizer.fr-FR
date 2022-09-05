@@ -1,14 +1,14 @@
 ---
 title: Prise en main de l’expérience de contenu
 description: En savoir plus sur l’expérience de contenu dans [!DNL Journey Optimizer]
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
+source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 95%
