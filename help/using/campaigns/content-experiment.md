@@ -1,5 +1,5 @@
 ---
-title: Créer une expérience de contenu
+title: Création d’une expérience de contenu
 description: Découvrez comment créer une expérience de contenu dans vos campagnes
 feature: Overview
 topic: Content Management
@@ -8,24 +8,24 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 94%
+source-wordcount: '991'
+ht-degree: 89%
 
 ---
 
-# Créer une expérience de contenu {#content-experiment}
+# Création d’une expérience de contenu {#content-experiment}
 
 >[!AVAILABILITY]
 >
->La fonctionnalité Expérience de contenu est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>Le **Expérience de contenu** Cette fonctionnalité est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+
+Utilisez l’expérience de contenu Journey Optimizer pour définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de l’e-mail.
 
 >[!NOTE]
 >
->Avant d’utiliser l’expérience de contenu, assurez-vous que votre configuration de création de rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](reporting-configuration.md).
-
-La fonctionnalité Expérience de contenu vous permet de définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de l’e-mail.
+>Avant de commencer l’expérience de contenu, assurez-vous que votre configuration de création de rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](reporting-configuration.md).
 
 Dans l&#39;exemple ci-dessous, la cible de la diffusion a été divisée en deux groupes, représentant chacun 45 % de la population ciblée, et un groupe d’exclusion de 10 %, qui ne recevra pas la diffusion.
 
@@ -40,7 +40,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ## Créer votre campagne {#campaign-experiment}
 
-1. Dans la page **[!UICONTROL Campagnes]**, cliquez sur **[!UICONTROL Créer une campagne]**.
+1. Dans la **[!UICONTROL Campagnes]** page, cliquez sur **[!UICONTROL Créer une campagne]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -55,7 +55,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
    * **[!UICONTROL Description]**
    * **[!UICONTROL Catégorie]** : **[!UICONTROL Marketing]** / **[!UICONTROL Transactionnel]**
 
-1. Pour lancer votre expérience de contenu, activez l’option **[!UICONTROL Expérience de contenu]**. Le menu **[!UICONTROL Expérience de contenu]** s’affiche.
+1. Pour lancer votre expérience de contenu, activez l’option **[!UICONTROL Expérience de contenu]**. Le **[!UICONTROL Expérience de contenu]** s’affiche.
 
    ![](assets/content_experiment_3.png)
 
@@ -101,7 +101,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 Une fois vos traitements personnalisés, vous pouvez commencer à configurer votre expérience de contenu.
 
-## Configurer votre expérience de contenu {#configure-experiment}
+## Configuration de votre expérience de contenu {#configure-experiment}
 
 1. Lorsque les deux diffusions sont personnalisées, dans la fenêtre **[!UICONTROL Modifier le contenu]**, sélectionnez **[!UICONTROL Configurer l’expérience de contenu]**.
 

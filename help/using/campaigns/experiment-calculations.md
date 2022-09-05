@@ -1,17 +1,17 @@
 ---
-title: Calculs statistiques utilisés par les expériences
+title: Calculs statistiques utilisés par l’expérience Adobe Journey Optimizer
 description: En savoir plus sur les calculs statistiques utilisés lors de l’exécution d’expériences
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->La fonctionnalité Expérience de contenu est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>Le **Expérience de contenu** Cette fonctionnalité est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
-Cet article décrit les calculs statistiques utilisés lors de l’exécution d’expériences dans Adobe Journey Optimizer. L’expérimentation utilise des méthodes statistiques avancées pour calculer les **Séquences de confiance** et les **degrés de confiance**, qui vous permettent d’exécuter vos expériences aussi longtemps que nécessaire, et de surveiller vos résultats en continu.
+Cet article décrit les calculs statistiques utilisés lors de l’exécution d’expériences dans Adobe Journey Optimizer.
+
+L’expérimentation utilise des méthodes statistiques avancées pour calculer les **Séquences de confiance** et les **degrés de confiance**, qui vous permettent d’exécuter vos expériences aussi longtemps que nécessaire, et de surveiller vos résultats en continu.
 
 Cet article décrit le fonctionnement de l’expérience et fournit une introduction intuitive aux **Séquences de confiance valides à tout moment** d’Adobe.
 
@@ -68,4 +70,4 @@ Chaque fois que vous consultez le rapport d’expérimentation, Adobe analyse le
 
 À ce stade, le traitement qui présente les meilleures performances (en fonction du taux de conversion ou de la valeur de mesure normalisée par le profil) est mis en surbrillance dans la partie supérieure de l’écran du rapport et signalé par une étoile dans le rapport tabulaire. Seuls les traitements dont le degré de confiance est supérieur à 95 %, ainsi que la ligne de base, sont pris en compte dans cette classification.
 
-Lorsqu’il existe plus de deux traitements, le lien de correction Bonferroni est utilisé pour corriger les problèmes de comparaison multiples et contrôler le taux d’erreur par famille. Dans ce scénario, il est également possible qu’il existe plusieurs traitements dont le degré de confiance est supérieur à 95 % et dont les intervalles de confiance se chevauchent. Dans ce cas, Adobe déclarera celui qui a le taux de conversion le plus élevé (ou la valeur de mesure normalisée par le profil) comme le plus performant.
+Lorsqu’il existe plus de deux traitements, le lien de correction Bonferroni est utilisé pour corriger les problèmes de comparaison multiples et contrôler le taux d’erreur par famille. Dans ce scénario, il est également possible qu’il existe plusieurs traitements dont le degré de confiance est supérieur à 95 % et dont les intervalles de confiance se chevauchent. Dans ce cas, Adobe Journey Optimizer déclare que celui qui a le taux de conversion le plus élevé (ou la valeur de mesure normalisée par le profil) est le plus performant.

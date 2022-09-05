@@ -2,16 +2,16 @@
 title: Prise en main de l’expérience de contenu
 description: En savoir plus sur l’expérience de contenu dans [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 100%
+source-wordcount: '1513'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->La fonctionnalité Expérience de contenu est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonction Expérience de contenu n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 ## Qu’est-ce qu’une expérience de contenu ?
 
@@ -35,7 +35,7 @@ Les expériences vous permettent d’isoler les modifications qui entraînent de
 
 Cela vous permet de prendre des décisions axées sur les données pour optimiser vos objectifs commerciaux.
 
-Pour des expériences de contenu dans Adobe Journey Optimizer, vous pouvez tester des idées telles que :
+Pour les expériences de contenu dans Adobe Journey Optimizer, vous pouvez tester des idées telles que :
 
 * **Ligne d’objet** : quel pourrait être l’impact d’une modification du ton ou du degré de personnalisation d’une ligne d’objet ?
 * **Contenu du message** : la modification de la disposition visuelle d’un e-mail entraînera-t-elle un plus grand nombre de clics sur l’e-mail ?
@@ -61,7 +61,7 @@ Par exemple, il est peu probable que la modification du contenu du corps du mess
 +++Effectuez votre test selon la bonne taille d’audience ou pour une durée suffisante.
 
 Si vous exécutez vos tests plus longtemps, vous pourrez détecter de plus petites différences dans la mesure d’objectif entre les traitements. Cependant, si la valeur de base de votre mesure d’objectif est faible, vous aurez besoin de tailles d’échantillon plus grandes.
-Le nombre d’utilisateurs qui doivent être inclus dans votre expérience dépend de la taille de l’effet que vous souhaitez détecter, de l&#39;écart ou de la propagation de votre mesure d’objectif, ainsi que de votre tolérance pour les erreurs Faux positifs et Faux négatifs. Dans les expériences classiques, vous pouvez utiliser une [calculatrice de taille d’échantillons](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr) pour déterminer la durée pendant laquelle vous devez exécuter votre test.
+Le nombre d’utilisateurs qui doivent être inclus dans votre expérience dépend de la taille de l’effet que vous souhaitez détecter, de l&#39;écart ou de la propagation de votre mesure d’objectif, ainsi que de votre tolérance pour les erreurs Faux positifs et Faux négatifs. Dans les expériences classiques, vous pouvez utiliser une [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){_blank} pour déterminer la durée d’exécution de votre test.
 +++
 
 +++Comprendre l’incertitude statistique
@@ -75,7 +75,7 @@ Les méthodes statistiques nous permettent de formaliser cette incertitude. L’
 Pour obtenir de véritables insights d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, poursuivez les expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec différentes modifications, sur différents segments, et en examinant l’impact sur les différentes mesures.
 +++
 
-## Interpréter les résultats de vos expériences {#interpret-results}
+## Interprétation des résultats de vos expériences {#interpret-results}
 
 ![](assets/experimentation_report_3.png)
 
@@ -105,11 +105,11 @@ Si les intervalles de confiance pour deux traitements se chevauchent à peine, c
 
 Adobe utilise des intervalles de confiance à 95 % valides à tout moment, ce qui signifie que les résultats peuvent être affichés en toute sécurité à tout moment pendant l’expérience.
 
-### 3. Comprendre l’effet élévateur {#understand-lift}
+### 3. Présentation de l’effet élévateur {#understand-lift}
 
 Le résumé du rapport d’expérience affiche le rapport d’**[!UICONTROL Effet élévateur sur la ligne de base]**, qui est une mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base. Plus précisément, il s’agit de la différence de performance entre un traitement donné et la ligne de base, divisée par la performance de la ligne de base, exprimée en pourcentage.
 
-### 3. Comprendre le degré de confiance {#understand-confidence}
+### 3. Comprendre la confiance {#understand-confidence}
 
 Bien que vous devriez principalement vous concentrer sur la variable **[!UICONTROL Intervalle de confiance]** pour ce qui est de la performance de chaque traitement, Adobe montre aussi le Degré de confiance, qui est une mesure probabiliste de la quantité de preuves démontrant qu’un traitement donné est le même que le traitement de la ligne de base. Un degré de confiance plus élevé indique que l’hypothèse selon laquelle les traitements de la ligne de base et ceux qui ne sont pas de la ligne de base aient des performances égales est moins probable. Plus précisément, le degré de confiance affiché est une probabilité (exprimée en pourcentage) que nous aurions observé une différence plus faible dans les taux de conversion entre un traitement donné et la ligne de base, si, en réalité, il n’y a aucune différence dans les taux de conversion sous-jacents réels. En termes de p-values, le degré de confiance affiché est 1 - p-value.
 
