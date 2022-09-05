@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Les mots **true**, **false**, **null** et **undefined** ne sont autorisés que d
 
 Dans Handlebars, les valeurs renvoyées par {{expression}} se caractérisent par un **échappement HTML.** Si l&#39;expression contient `&`, la sortie avec échappement HTML renvoyée est générée sous la forme `&amp;`. Si vous ne souhaitez pas que Handlebars réalisent l&#39;échappement d&#39;une valeur, utilisez le « triple stash ».
 
-En ce qui concerne les arguments des fonctions littérales, l’analyseur de langue de modèle ne prend pas en charge une seule barre oblique inverse sans échappement (&#39;\&#39;). Ce caractère doit être échappé avec une barre oblique inverse supplémentaire (&#39;\&#39;). Exemple :
+En ce qui concerne les arguments de fonctions littérales, l’analyseur de langue de modèle ne prend pas en charge la barre oblique inverse sans échappement unique (`\`). Ce caractère doit être échappé avec une barre oblique inverse supplémentaire (`\`). Exemple :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
