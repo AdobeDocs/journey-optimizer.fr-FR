@@ -1,22 +1,21 @@
 ---
 title: Prise en main
-description: 'Découvrez comment commencer à utiliser l''API de la bibliothèque des offres pour effectuer des opérations essentielles à l''aide du moteur de gestion des décisions. '
+description: Découvrez comment commencer à utiliser l’API de la bibliothèque des offres pour effectuer des opérations clés à l’aide du moteur de prise de décision.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 85%
 
 ---
 
 # Guide du développeur de l&#39;API de gestion des décisions {#decision-management-api-developer-guide}
 
-Ce guide du développeur décrit les étapes à suivre pour commencer à utiliser l&#39;API [!DNL Offer Library]. Le guide fournit ensuite des exemples d&#39;appels API pour effectuer des opérations clés à l&#39;aide du moteur de gestion des décisions.
-
+Ce guide du développeur décrit les étapes à suivre pour commencer à utiliser l&#39;API [!DNL Offer Library]. Le guide fournit ensuite des exemples d’appels API pour effectuer des opérations clés à l’aide du moteur de prise de décision.
 
 ➡️ [En savoir plus sur les composants de la gestion des décisions dans cette vidéo](#video)
 
@@ -26,7 +25,7 @@ Ce guide nécessite une compréhension professionnelle des composants suivants d
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;} : cadre normalisé selon lequel [!DNL Experience Platform] organise les données de l’expérience client.
    * [Notions de base sur la composition du schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target=&quot;_blank&quot;} : en savoir plus sur les blocs de création de base des schémas XDM.
-* [Gestion des décisions](../../../using/offers/get-started/starting-offer-decisioning.md) : explique les concepts et les composants utilisés pour Experience Decisioning en général et pour Offer Decisioning en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l&#39;expérience client.
+* [Gestion des décisions](../../../using/offers/get-started/starting-offer-decisioning.md): Explique les concepts et les composants utilisés pour la prise de décision basée sur l’expérience en général et la gestion de la décision en particulier. Illustre les stratégies utilisées pour choisir la meilleure option à présenter lors de l&#39;expérience client.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr){target=&quot;_blank&quot;} : PQL est un langage puissant pour écrire des expressions sur des instances XDM. PQL est utilisé pour définir des règles de décision.
 
 ## Lecture d&#39;exemples d&#39;appels API {#reading-sample-api-calls}
@@ -131,7 +130,7 @@ Ce document couvrait les connaissances préalables requises pour effectuer des a
 
 >[!NOTE]
 >
-> Le canal Messagerie in-app d’Adobe Journey Optimizer utilise des objets Offer Decisioning. Si votre entreprise utilise le canal de messagerie in-app, les demandes de liste d’API pour les objets incluront les objets créés par le service de messagerie in-app et pourront être ignorées pour les cas d’utilisation Offer Decisioning. Les objets créés pour les messages in-app auront `createdBy = “Mobile_Sheliak”`.
+> Le canal de messagerie in-app de Adobe Journey Optimizer utilise des objets de gestion de décision. Si votre entreprise utilise le canal de messagerie in-app, les demandes de liste d’API pour les objets incluent les objets créés par le service de messagerie in-app et peuvent être ignorés pour les cas d’utilisation de la gestion des décisions. Les objets créés pour les messages in-app auront `createdBy = “Mobile_Sheliak”`.
 
 ## Vidéo pratique {#video}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '702'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Les fonctionnalités principales sont les suivantes :
 
 * **Exécution et orchestration omnicanal modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l&#39;engagement client 1:1 et les activités marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
 
-* **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l&#39;intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l&#39;expérience client, ce qui facilite l&#39;automatisation des décisions et l&#39;optimisation de l&#39;expérience à grande échelle. Offer Decisioning alimente les offres centralisées sur tous les canaux à l&#39;échelle via [!DNL Adobe Journey Optimizer].
+* **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l&#39;intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l&#39;expérience client, ce qui facilite l&#39;automatisation des décisions et l&#39;optimisation de l&#39;expérience à grande échelle.  Decisioning alimente les offres centralisées sur tous les canaux à l&#39;échelle via [!DNL Adobe Journey Optimizer].
 
 ## Architecture {#architecture}
 

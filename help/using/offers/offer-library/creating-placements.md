@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 1b181ae4330f0efe209944980344c6726e8d595c
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Pour créer une emplacement, procédez comme suit :
 
 ## Vidéo pratique{#video}
 
-Découvrez comment créer des emplacements dans Offer Decisioning.
+Découvrez comment créer des emplacements dans la gestion de décision.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 100%
+source-wordcount: '1163'
+ht-degree: 99%
 
 ---
 
@@ -183,11 +183,9 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 
 1. Remplissez le modèle CSV avec les adresses e-mail et/ou les domaines à ajouter à la liste de suppression.
 
-1. Une fois l’opération terminée, effectuez un glisser-déposer de votre fichier CSV, puis cliquez sur **[!UICONTROL Télécharger le fichier]**.
+1. Une fois l’opération terminée, faites glisser et déposez votre fichier CSV, puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
-
-1. Cliquez sur **[!UICONTROL Envoyer]**.
+   ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >

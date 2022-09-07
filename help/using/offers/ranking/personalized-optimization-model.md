@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: bfed2a150c1c1568e666d16753b032b203749033
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '797'
+ht-degree: 96%
 
 ---
 
@@ -41,9 +41,9 @@ Il existe trois types de fonctionnalités :
 
 | Types de fonctionnalités | Comment ajouter des fonctionnalités aux modèles |
 |--------------|----------------------------|
-| Objets Offer Decisioning (placementID, activityID, decisionScopeID) | Partie des événements d’expérience de retour d’Offer Decisioning envoyés à AEP |
+| Objets de prise de décision (placementID, activityID, décisionScopeID) | Partie des événements d’expérience de retour de la gestion de la décision envoyés à AEP |
 | Segments | Il est possible d’ajouter de 0 à 50 segments en tant que fonctionnalités lors de la création du modèle d’IA dédiée au classement |
-| Données contextuelles | Partie des événements d’expérience de retour d’Offer Decisioning envoyés à AEP. Données contextuelles disponibles à ajouter au schéma : Détails du commerce, Détails du canal, Détails de l’application, Détails web, Détails de l’environnement, Détails de l’appareil, placeContext |
+| Données contextuelles | Partie des événements d’expérience de retour de prise de décision envoyés à AEP. Données contextuelles disponibles à ajouter au schéma : Détails du commerce, Détails du canal, Détails de l’application, Détails web, Détails de l’environnement, Détails de l’appareil, placeContext |
 
 Le modèle comporte deux phases :
 

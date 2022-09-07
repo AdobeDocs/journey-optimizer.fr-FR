@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 86%
+source-wordcount: '454'
+ht-degree: 87%
 
 ---
 
@@ -29,11 +29,11 @@ Dans la configuration par défaut, le seuil est défini à cinq erreurs.
 
 Si une diffusion réussit après une reprise, le compteur d&#39;erreurs de l&#39;adresse est réinitialisé.
 
-## Modifier le seuil de reprise {#edit-retry-threshold}
+## Réessayer l’édition du seuil {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="Mettre à jour le seuil du nombre d&#39;erreurs"
+>title="Mettre à jour le seuil de reprise"
 >abstract="Si la valeur par défaut ne correspond pas à vos besoins, vous pouvez modifier le nombre autorisé de soft bounces consécutifs. Lorsque le compteur de reprises atteint le seuil d’erreur pour une adresse email spécifique, cette adresse est ajoutée à la liste de suppression."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Présentation de la liste de suppression"
 

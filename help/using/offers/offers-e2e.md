@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1085'
+ht-degree: 96%
 
 ---
 
@@ -191,7 +191,7 @@ Les étapes détaillées pour créer une collection sont présentées dans [cett
 
 Vous devez maintenant créer une décision qui combinera des emplacements avec les offres personnalisées et l&#39;offre de secours que vous venez de créer.
 
-Cette combinaison sera utilisée par le moteur Offer Decisioning pour trouver la meilleure offre pour un profil spécifique : dans cet exemple, elle sera basée sur la priorité et la règle de décision que vous avez affectées à chaque offre.
+Cette combinaison sera utilisée par le moteur de prise de décision pour trouver la meilleure offre pour un profil spécifique : dans cet exemple, il sera basé sur la priorité et la règle de décision que vous avez assignées à chaque offre.
 
 Pour créer et configurer une décision d&#39;offre, procédez comme suit :
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
@@ -153,8 +153,6 @@ Pour modifier une surface de canal, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Soumettre]** pour confirmer vos modifications.
 
-   ![](assets/preset-confirm-update.png)
-
    >[!NOTE]
    >
    >Vous pouvez également enregistrer la surface de canal en tant que brouillon et reprendre sa mise à jour ultérieurement.
@@ -177,7 +175,7 @@ Cliquez sur l’icône **[!UICONTROL Mise à jour récente]** qui s’affiche en
 
 Sur l’écran **[!UICONTROL Mise à jour récente]**, vous pouvez voir des informations telles que le statut de la mise à jour et la liste des modifications demandées.
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### Statuts de mise à jour {#update-statuses}
 

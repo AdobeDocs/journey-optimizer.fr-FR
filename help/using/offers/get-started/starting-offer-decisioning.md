@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '939'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les meilleures offre et expérience possibles à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées.
 
-Offer Decisioning facilite la personnalisation avec une bibliothèque centrale d’offres marketing et un moteur de décision qui applique des règles et des contraintes aux profils en temps réel riches créés par Adobe Experience Platform pour vous aider à envoyer à vos clients la bonne offre au bon moment.
+La gestion des décisions facilite la personnalisation grâce à une bibliothèque centrale d’offres marketing et à un moteur de décision qui applique des règles et des contraintes aux profils riches en temps réel créés par Adobe Experience Platform pour vous aider à envoyer à vos clients la bonne offre au bon moment.
 
 La fonctionnalité de gestion des décisions comprend deux composants principaux :
 
@@ -72,7 +72,7 @@ Les API de gestion des décisions permettent d’afficher, sur le portail des ag
 
 ## Octroi de l’accès à la gestion des décisions {#granting-acess-to-decision-management}
 
-Les autorisations d’accès et d’utilisation des fonctionnalités d’Offer Decisioning sont gérées à l’aide d’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Les autorisations d’accès et d’utilisation des fonctionnalités de prise de décision sont gérées à l’aide de la variable [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
 Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs. Pour en savoir plus sur la gestion des utilisateurs et des autorisations [!DNL Journey Optimizer], consultez [cette section](../../administration/permissions.md).
 

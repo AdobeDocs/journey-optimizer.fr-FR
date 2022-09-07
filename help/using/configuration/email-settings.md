@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 96%
+source-wordcount: '1188'
+ht-degree: 91%
 
 ---
 
@@ -38,9 +38,9 @@ Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer 
 
 Lors de la [création d’un message](../messages/get-started-content.md), vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
-## Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
+## Sous-domaine et pools d’adresses IP {#subdomains-and-ip-pools}
 
-Dans la section **DÉTAILS DU SOUS-DOMAINE ET DU GROUPE DʼADRESSES IP**, vous devez effectuer les actions suivantes :
+Dans le **Sous-domaine et pools d’adresses IP** , vous devez :
 
 1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;
 
 ## Paramètres d’en-tête{#email-header}
 
-Dans la section **[!UICONTROL PARAMÈTRES D’EN-TÊTE]**, saisissez les noms et adresses e-mail de l’expéditeur associés au type des e-mails envoyés à l’aide de cette surface.
+Dans le **[!UICONTROL Paramètres d’en-tête]** , renseignez les noms et adresses email de l&#39;expéditeur associés au type d&#39;emails envoyés à partir de cette surface.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 
 
 Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-mails envoyés par [!DNL Journey Optimizer] vers une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
 
-Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** en option au niveau de la surface de canal. [En savoir plus](bcc-email.md)
+Pour ce faire, activez l’option **[!UICONTROL Email Cci]** fonctionnalité facultative au niveau de la surface du canal. [En savoir plus](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -171,13 +171,15 @@ En savoir plus sur les reprises dans [cette section](retries.md).
 >title="Prévisualiser les paramètres de tracking d’URL"
 >abstract="Prévisualisez comment les paramètres de tracking seront ajoutés aux adresses URL présentes dans votre contenu d’e-mail."
 
-Vous pouvez utiliser les **[!UICONTROL Paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative.
+Vous pouvez utiliser les **[!UICONTROL paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. Cette fonctionnalité est facultative.
 
 Les paramètres définis dans cette section seront ajoutés à la fin des URL incluses dans le contenu de votre e-mail. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou Google Analytics, et créer divers rapports de performances.
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Trois paramètres de tracking d’URL sont automatiquement renseignés par exemple lorsque vous créez une surface de canal. Vous pouvez les modifier et ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
+Vous pouvez ajouter jusqu’à 10 paramètres de suivi à l’aide de la variable **[!UICONTROL Ajouter un nouveau paramètre]** bouton .
+
+![](assets/preset-url-tracking.png)
 
 Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]**.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ Le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/
 
 Le SDK web Experience Platform prend en charge la demande des solutions de personnalisation auprès d’Adobe, dont la gestion des décisions, ce qui vous permet de récupérer et de générer des offres personnalisées que vous avez créées à l’aide des API ou de la bibliothèque des offres. Pour obtenir des instructions plus détaillées, consultez la documentation sur la [création d’une offre](../../get-started/starting-offer-decisioning.md).
 
-Vous pouvez implémenter Offer Decisioning de deux façons différentes à l’aide du [SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). La première est destinée aux développeurs et nécessite des connaissances en matière de sites web et de programmation. L’autre méthode consiste à utiliser l’interface utilisateur d’Adobe Experience Platform pour configurer les offres. Seul un petit script à référencer dans l’en-tête de la page HTML sera nécessaire.
+Il existe deux façons de mettre en oeuvre la gestion des décisions avec la variable [SDK Web Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). La première est destinée aux développeurs et nécessite des connaissances en matière de sites web et de programmation. L’autre méthode consiste à utiliser l’interface utilisateur d’Adobe Experience Platform pour configurer les offres. Seul un petit script à référencer dans l’en-tête de la page HTML sera nécessaire.
 
-Pour plus d’informations sur la diffusion d’offres personnalisées à l’aide du SDK web de Platform, consultez la documentation d’[Offer Decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=fr#enabling-offer-decisioning).
+Reportez-vous à la documentation relative à la [gestion des décisions](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=fr#enabling-offer-decisioning) pour plus d’informations sur la diffusion d’offres personnalisées à l’aide du SDK Web de Platform.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Pour personnaliser les offres, vous devez configurer séparément vos options de
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-Pour configurer le SDK pour Offer Decisioning, procédez de l’une des façons suivantes :
+Pour configurer le SDK pour la gestion des décisions, procédez comme suit :
 
 ## Option 1 : installer l’extension de balise et l’implémentation à l’aide de Launch
 
@@ -90,7 +90,7 @@ Cette approche est plus conviviale pour les personnes qui ont moins d’expérie
 
 ## Option 2 : implémenter manuellement à l’aide de la version autonome préconfigurée
 
-Pour utiliser Offer Decisioning à l’aide de l’installation autonome préconfigurée du SDK web, procédez comme suit. Ce guide part du principe qu’il s’agit de votre première implémentation du SDK. Il se peut donc que certaines étapes ne vous concernent pas. Ce guide suppose également que vous possédez déjà des connaissances en matière de développement.
+Voici les étapes nécessaires à l’utilisation de la gestion des décisions à l’aide de l’installation autonome prédéfinie du SDK web. Ce guide part du principe qu’il s’agit de votre première implémentation du SDK. Il se peut donc que certaines étapes ne vous concernent pas. Ce guide suppose également que vous possédez déjà des connaissances en matière de développement.
 
 Incluez le fragment de code JavaScript suivant provenant de la section « Option 2 : version autonome préconfigurée » sur [cette page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) dans la section `<head>` de votre page HTML.
 

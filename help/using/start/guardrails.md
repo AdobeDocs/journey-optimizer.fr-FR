@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 92%
+source-wordcount: '806'
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ Vous trouverez ci-dessous des éléments de sécurité et des limitations suppl�
 
 ## Sécurisation de la gestion des décisions {#offer-guardrails}
 
-Les sécurisations de performances et les limites statiques pour la gestion des décisions sont répertoriées dans la [page de description du produit de service d’application Offer Decisioning d’Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+Les barrières de performance et les limites statiques pour la prise de décision sont répertoriées dans la section [Page de description du produit Adobe Offer decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## Sécurisation des pages de destination {#lp-guardrails}
