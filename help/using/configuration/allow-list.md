@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 62%
+source-wordcount: '997'
+ht-degree: 61%
 
 ---
 
@@ -149,6 +149,11 @@ Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Logique de liste autorisée {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="Gestion de la liste autorisée"
+>abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans la liste autorisée recevront des messages électroniques de cet environnement de test."
 
 Lorsque la liste autorisée est [principal](#enable-allow-list), la logique suivante s’applique :
 
