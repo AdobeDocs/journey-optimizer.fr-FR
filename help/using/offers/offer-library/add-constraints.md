@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '1673'
-ht-degree: 98%
+source-wordcount: '1817'
+ht-degree: 89%
 
 ---
 
@@ -71,6 +71,11 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 >additional-url="https://video.tv.adobe.com/v/329373?captions=fre-fr" text="Regarder une vidéo de démonstration"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="Estimation du profil total"
+>abstract="Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés."
 
 La section **[!UICONTROL Admissibilité de l’offre]** vous permet de restreindre l’offre à des profils spécifiques que vous définissez à l’aide de segments ou de règles de décision.
 
@@ -134,6 +139,11 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 >title="Utilisation de la limitation"
 >abstract="Pour éviter de sursolliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Définition de la fréquence de limitation"
+>abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois."
+
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 
 Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clients et donc d’optimiser chaque point de contact avec la meilleure offre.
@@ -160,6 +170,16 @@ Pour définir la limitation, procédez comme suit.
 
       Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
 
+1. Définissez la variable **[!UICONTROL Fréquence]** pour définir la fréquence à laquelle le nombre de limitations est réinitialisé. Pour cela, définissez la période du comptage (quotidien, hebdomadaire ou mensuel) et saisissez le nombre de jours/semaines/mois de votre choix.
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >La réinitialisation se produit à 12h00 UTC, le jour que vous avez défini ou le premier jour de la semaine/du mois, le cas échéant. Le jour de début de semaine est le dimanche.
+
+   Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** de la **[!UICONTROL Répéter]** liste déroulante et type **2** dans le deuxième champ. La réinitialisation aura lieu tous les deux dimanches à 12h00 UTC.
+
 1. Si vous avez défini plusieurs [représentations](#representations) pour votre offre, indiquez si vous souhaitez appliquer une limitation. **[!UICONTROL À tous les emplacements]** ou **[!UICONTROL Pour chaque emplacement]**.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ Pour définir la limitation, procédez comme suit.
 
       Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’e-mail, et 2 fois supplémentaires pour l’emplacement web.
 
-1. Une fois enregistrée et validée, si l&#39;offre a été présentée le nombre de fois que vous avez spécifié dans ce champ en fonction des critères que vous avez définis, sa diffusion s&#39;arrêtera.
+1. Une fois enregistrée et validée, si l&#39;offre a été présentée le nombre de fois que vous avez spécifié dans ce champ en fonction des critères et de la période que vous avez définis, sa diffusion s&#39;arrêtera.
 
 Le nombre de fois où une offre est proposée est calculé au moment de la préparation de l&#39;email. Par exemple, si vous préparez un email contenant un certain nombre d&#39;offres, ces chiffres sont pris en compte dans votre limitation maximale, et ce que l&#39;email soit envoyé ou non.
 
