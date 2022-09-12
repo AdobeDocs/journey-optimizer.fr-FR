@@ -1,6 +1,6 @@
 ---
 title: Contextes de personnalisation
-description: 'Découvrez comment vous pouvez personnaliser le contenu et lʼaffichage de vos messages. '
+description: Découvrez comment vous pouvez personnaliser le contenu et lʼaffichage de vos messages.
 feature: Personalization
 topic: Personalization
 role: Data Engineer

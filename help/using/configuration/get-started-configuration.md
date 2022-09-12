@@ -1,6 +1,6 @@
 ---
-title: 'Commencer la configuration de  [!DNL Journey Optimizer] '
-description: 'En savoir plus sur la configuration de  [!DNL Journey Optimizer] '
+title: Commencer la configuration de  [!DNL Journey Optimizer]
+description: En savoir plus sur la configuration de  [!DNL Journey Optimizer]
 role: Admin
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
