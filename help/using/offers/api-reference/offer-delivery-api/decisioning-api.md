@@ -1,6 +1,6 @@
 ---
 title: Diffusion d'offres
-description: 'La gestion des décisions est un ensemble de services et d''interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d''offres personnalisées aux utilisateurs finaux par le biais de canaux et d''applications en s''appuyant sur une logique métier et des règles de décision. '
+description: La gestion des décisions est un ensemble de services et d'interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d'offres personnalisées aux utilisateurs finaux par le biais de canaux et d'applications en s'appuyant sur une logique métier et des règles de décision.
 feature: Offers
 topic: Integrations
 role: Data Engineer

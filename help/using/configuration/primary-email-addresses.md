@@ -1,5 +1,5 @@
 ---
-title: 'Modification des adresses e-mails principales '
+title: Modification des adresses e-mails principales
 description: Découvrez comment déterminer l’adresse e-mail à utiliser à partir du service de profil.
 feature: Application Settings
 topic: Administration

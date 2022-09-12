@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->Le 22 juillet, Adobe Journey Optimizer a publié une [nouvelle fonctionnalité](using/rn/inline-messages.md) qui améliore la création de contenu pour les canaux Journey Optimizer (email, push, SMS). En tant qu’utilisateur de Journey Optimizer, vous pouvez désormais [créer](using/messages/messages-in-journeys.md) vos messages directement à partir d’un parcours. Une conversion automatique de parcours est effectuée pour vous. Cela dit, nous avons besoin de votre aide pour certaines étapes. En savoir plus sur les [étapes requises](using/rn/inline-messages-steps.md).
+>En juillet 2022, Adobe Journey Optimizer a dévoilé une [nouvelle fonctionnalité](using/rn/inline-messages.md) qui améliore la création de contenu pour les canaux de Journey Optimizer (e-mail, notification push, SMS). En tant qu’utilisateur de Journey Optimizer, vous pouvez désormais [créer](using/messages/messages-in-journeys.md) vos messages directement à partir d’un parcours. Une conversion automatique de parcours est effectuée pour vous. Cela dit, nous avons besoin de votre aide pour certaines étapes. En savoir plus sur les [étapes requises](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 + Campagnes{#campaigns}
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Créer une campagne](using/campaigns/create-campaign.md)
-   + [Gestion des campagnes en direct](using/campaigns/modify-stop-campaign.md)
+   + [Gérer des campagnes actives](using/campaigns/modify-stop-campaign.md)
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
       + [Créer une expérience de contenu](using/campaigns/content-experiment.md)
@@ -46,8 +46,8 @@ ht-degree: 97%
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
    + [Prise en main des messages](using/messages/get-started-content.md)
-   + [Ajout de parcours de messages](using/messages/messages-in-journeys.md)
-   + [Ajout de campagnes de messages](using/messages/messages-in-campaigns.md)
+   + [Ajouter des parcours de messages](using/messages/messages-in-journeys.md)
+   + [Ajouter des campagnes de messages](using/messages/messages-in-campaigns.md)
    + [Création d’un e-mail](using/messages/create-email.md)
    + [Création d’une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)
@@ -244,7 +244,7 @@ ht-degree: 97%
    + Rapport dynamique {#live-report}
       + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
-      + [Rapport Campaign Live](using/reports/campaign-live-report.md)
+      + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
    + Rapport global {#global-report}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [Exemples de requêtes](using/reports/query-examples.md)
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/reports/deliverability.md)
-      + [Comprendre la liste de suppression](using/reports/suppression-list.md)
+      + [Présentation de la liste de suppression](using/reports/suppression-list.md)
 + Gestion des décisions {#offer-decisioning}
    + Prise en main de la gestion des décisions {#get-started-decision}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -382,7 +382,7 @@ ht-degree: 97%
          + Gestion des actions liées aux sous-domaines {#subdomain-related-actions}
             + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
             + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
-            + [Création de pools d’adresses IP](using/configuration/ip-pools.md)
+            + [Création de groupes d’adresses IP](using/configuration/ip-pools.md)
          + Surveillance des adresses e-mail {#monitor-reputation}
             + [Liste de suppression](using/configuration/manage-suppression-list.md)
             + [Reprises](using/configuration/retries.md)

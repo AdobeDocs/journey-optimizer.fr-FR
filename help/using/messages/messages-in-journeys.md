@@ -1,6 +1,6 @@
 ---
-title: Ajout de messages dans les parcours
-description: Découvrez comment ajouter des messages dans un parcours
+title: Ajouter des messages dans les parcours
+description: Découvrez comment ajouter des messages dans un parcours.
 feature: Overview
 topic: Content Management
 role: User
@@ -8,12 +8,12 @@ level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Ajout de messages dans les parcours{#messages-in-journeys}
+# Ajouter des messages dans les parcours{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
@@ -25,14 +25,14 @@ ht-degree: 85%
 >title="Surface de canal"
 >abstract="Une surface de canal est une instance de ce canal qui possède tous les paramètres pour diffuser une action avec succès via une campagne ou un parcours. Elle est définie par un administrateur système."
 
-Dans vos parcours, utilisez les actions de canal pour concevoir et personnaliser le message que vous souhaitez envoyer à votre audience. Lorsque vous ajoutez un email, un SMS ou une action Push aux canevas de parcours, vous créez un envoi déclenché. Lorsque les contacts atteignent cette action de canal, Adobe Journey Optimizer envoie automatiquement le message.
+Dans vos parcours, utilisez les actions de canal pour concevoir et personnaliser le message que vous souhaitez envoyer à votre audience. Lorsque vous ajoutez un e-mail, un SMS ou une action Push aux zones de travail de parcours, vous créez un envoi déclenché. Lorsque les contacts atteignent cette action de canal, Adobe Journey Optimizer envoie automatiquement le message.
 
 
 >[!NOTE]
 >Vous pouvez également créer des campagnes pour envoyer des messages planifiés. En savoir plus dans [cette section](../campaigns/get-started-with-campaigns.md).
 
 
-Pour ajouter des messages dans un parcours, ajoutez une activité push, SMS ou email dans les canevas du parcours.
+Pour ajouter des messages dans un parcours, ajoutez une activité de notification push, SMS ou e-mail dans la zone de travail du parcours.
 
 1. Débutez votre parcours avec une activité [Événement](../building-journeys/general-events.md) ou [Lecture de segment](../building-journeys/read-segment.md).
 

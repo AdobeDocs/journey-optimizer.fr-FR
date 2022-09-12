@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 * **Terminaison d’un parcours** : dans la zone de travail du parcours, l’activité **Fin** a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de créer un rapport plus optimal sur le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Reportez-vous à la [documentation](../building-journeys/journey-end.md) et à la [vidéo sur les fonctionnalités](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
-* Le **Fuseau horaire du profil** est désormais décochée par défaut dans les propriétés de parcours. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
+* L’option **Fuseau horaire du profil** est désormais décochée par défaut dans les propriétés de parcours. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **Messages**
 
@@ -373,7 +373,7 @@ En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer d
 **Parcours**
 
 * Pour éviter d’avoir des champs inutiles dans le schéma de profil unifié, le schéma Événement d’étape du parcours n’est plus activé par défaut pour les profils. Si nécessaire, vous pouvez l’activer. [En savoir plus](../reports/sharing-overview.md)
-* Les nouveaux événements d’étape liés aux tâches d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../reports/query-examples.md)
+* Les nouveaux événements d’étape liés aux traitements d’exportation sont désormais envoyés par Journey Optimizer à Adobe Experience Platform. Des exemples de requêtes ont été ajoutés à la documentation. [En savoir plus](../reports/query-examples.md)
 
 **Gestion des décisions**
 
@@ -383,7 +383,7 @@ En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer d
 **Administration**
 
 * Vous pouvez maintenant activer/désactiver le lien de désabonnement dans/à partir de l’en-tête de l’e-mail au niveau du paramètre de message prédéfini, et définir une URL de désabonnement personnalisée au niveau du message. [En savoir plus](../configuration/channel-surfaces.md#list-unsubscribe)
-* La liste autorisée peut désormais être activée et désactivée via l’interface [!DNL Journey Optimizer] sur les environnements de test de production et hors production. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
+* La liste autorisée peut désormais être activée et désactivée via l’interface [!DNL Journey Optimizer] sur les sandbox de production et hors production. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 
 **Personnalisation**
 
@@ -465,7 +465,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Parcours**
 
-* Pour optimiser les performances, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine repassent désormais au statut Version préliminaire. [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
+* Pour optimiser les performances, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine repassent désormais au statut de brouillon. [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
 * L’intégration entre Journey Optimizer et Adobe Campaign Classic a été optimisée pour améliorer les performances. La configuration par défaut de limitation a été remplacée par 4 000 appels/5 minutes.	[En savoir plus](../action/acc-action.md#important-notes)
 
 **Reporting**

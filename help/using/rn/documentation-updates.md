@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
 source-wordcount: '1873'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -15,12 +15,12 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Août 2022 {#august-2022}
 
-* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 22 août ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] d’août 2022 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messages en ligne. [En savoir plus](../configuration/frequency-rules.md#apply-frequency-rule)
 * Une vidéo montrant comment configurer les abonnements et créer des pages de destination est désormais référencée dans la section « Prise en main des pages de destination ». [En savoir plus](../landing-pages/get-started-lp.md#video)
-* Une limitation a été ajoutée pour les parcours utilisant les activités Lecture de segment . [En savoir plus](../building-journeys/read-segment.md)
+* Ajout d’une limitation pour les parcours utilisant les activités Lecture de segment. [En savoir plus](../building-journeys/read-segment.md)
 * La page des opérateurs de l&#39;éditeur d&#39;expression a été améliorée. [En savoir plus](../building-journeys/expression/operators.md)
-* Ajout d’une section sur la planification d’une campagne - [En savoir plus](../campaigns/create-campaign.md)
+* Ajout d’une section sur la planification d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 * Mise à jour de la section sur les règles de syntaxe générales de l’éditeur d’expression afin de prendre en compte la nouvelle règle concernant l’échappement des symboles de barre oblique inverse dans les fonctions littérales - Les messages publiés existants ne sont pas affectés par cette modification. Seuls les nouveaux messages ou les brouillons doivent être mis à jour. [En savoir plus](../personalization/personalization-syntax.md#general-rules)
 
 ## Juillet 2022 {#july-2022}
@@ -79,7 +79,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La page de création du profil de test a été déplacée vers la section **Segment, profils et identité**. [En savoir plus](../segment/creating-test-profiles.md)
 * Ajout d’un exemple sur l’ajout d’une expression en tant que valeur par défaut dans l’éditeur d’expression. [En savoir plus](../building-journeys/expression/field-references.md#default-value)
 * La section **Créer des offres personnalisées** a été réorganisée pour en améliorer la lisibilité. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
-* Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur la limitation de la fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
+* Une nouvelle section a été ajoutée pour décrire les impacts que la modification des dates de début et/ou de fin d’une offre peut avoir sur le capping de la fréquence de cette offre. [En savoir plus](../offers/offer-library/add-constraints.md#capping-change-date)
 * La section **Modifier les adresses e-mail principales** a été mise à jour pour prendre en compte les modifications apportées à l’interface utilisateur. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Février 2022 {#feb-2022}
@@ -144,7 +144,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Ajout d’exemples de formule de classement spécifiques pour illustrer certains cas d’utilisation réels. [En savoir plus](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
-* Ajout d’une sous-section sur la modification des pools d’adresses IP. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
+* Ajout d’une sous-section sur la modification des groupes d’adresses IP. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
 
 
 ## Août 2021 {#august-2021}

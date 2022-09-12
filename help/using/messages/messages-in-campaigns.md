@@ -1,5 +1,5 @@
 ---
-title: Ajout de messages dans les campagnes
+title: Accéder aux messages dans des campagnes
 description: Découvrez comment ajouter des messages dans une campagne
 feature: Overview
 topic: Content Management
@@ -8,14 +8,14 @@ level: Beginner
 source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
-# Ajout de messages dans les campagnes{#messages-in- campaigns}
+# Ajouter des messages dans des campagnes{#messages-in- campaigns}
 
-Dans vos campagnes, sélectionnez le canal pour concevoir et personnaliser le message que vous souhaitez envoyer à votre audience. Lorsque vous ajoutez un email, un SMS ou une notification push à votre campagne, vous pouvez l&#39;envoyer immédiatement ou planifier le message.
+Dans vos campagnes, sélectionnez le canal pour concevoir et personnaliser le message que vous souhaitez envoyer à votre audience. Lorsque vous ajoutez un e-mail, un SMS ou une notification push à votre campagne, vous pouvez l’envoyer immédiatement ou planifier le message.
 
 >[!NOTE]
 >Vous pouvez également créer des parcours pour envoyer des messages déclenchés. En savoir plus dans [cette section](messages-in-journeys.md).
