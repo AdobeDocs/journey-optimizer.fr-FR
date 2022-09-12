@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 100%
+source-wordcount: '1572'
+ht-degree: 97%
 
 ---
 
@@ -86,9 +86,8 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Environnements Sandbox]** - Adobe Experience Platform fournit des environnements Sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l&#39;évolution d&#39;applications d&#39;expérience numérique. [En savoir plus](../administration/sandboxes.md)
 
-<!--
-* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
--->
+* **[!UICONTROL Alertes]** - L’interface utilisateur vous permet de consulter l’historique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. L’interface utilisateur vous permet également d’afficher, d’activer et de désactiver les règles d’alerte disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+
 
 ## Cas d&#39;utilisation internes au produit {#in-product-uc}
 
