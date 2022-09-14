@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 66%
+source-wordcount: '711'
+ht-degree: 62%
 
 ---
 
@@ -24,13 +24,19 @@ Avant d’envoyer des SMS, configurez votre instance. Vous devez [intégrer les 
 ## Création d’informations d’identification API {#create-api}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_sms_api"
->title="Sélectionnez la configuration du fournisseur SMS ."
+>id="ajo_admin_sms_api_header"
+>title="Configuration de votre fournisseur de SMS avec Journey Optimizer"
 >abstract="Sélectionnez votre fournisseur et renseignez vos informations d’identification d’API SMS."
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Configuration de votre fournisseur de SMS avec Journey Optimizer"
+>abstract="Avant d&#39;envoyer des SMS, vous devez intégrer les paramètres du fournisseur à Journey Optimizer. Une fois cette opération terminée, vous devrez créer une surface SMS. Ces étapes doivent être exécutées par un Administrateur système Adobe Journey Optimizer."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Créer une surface de canal SMS"
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Sélectionnez la configuration du fournisseur SMS ."
+>title="Sélectionner la configuration du fournisseur de SMS"
 >abstract="Sélectionnez les informations d’identification d’API configurées pour votre fournisseur SMS."
 
 Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme suit :

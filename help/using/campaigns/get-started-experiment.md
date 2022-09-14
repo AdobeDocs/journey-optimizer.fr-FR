@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 95%
+source-wordcount: '1943'
+ht-degree: 71%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 95%
 >
 >La fonction Expérience de contenu n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
-## Qu’est-ce qu’une expérience de contenu ?
+## Qu’est-ce qu’une expérience de contenu ?
 
 Les expériences de contenu vous permettent d’optimiser le contenu pour les actions de vos campagnes.
 
-Les expériences sont un ensemble d’essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que certains utilisateurs sélectionnés de manière aléatoire sont exposés à une variante donnée d’un message et un autre ensemble d’utilisateurs sélectionnés de manière aléatoire à un autre traitement. Après l’envoi du message, vous pouvez ensuite évaluer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’e-mails ou les clics.
+Les expériences sont un ensemble d’essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que certains utilisateurs sélectionnés de manière aléatoire sont exposés à une variante donnée d’un message et un autre ensemble d’utilisateurs sélectionnés de manière aléatoire à un autre traitement. Après l’envoi du message, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’emails ou les clics.
 
 ## Pourquoi exécuter des expériences ?
 
@@ -39,6 +39,38 @@ Pour les expériences de contenu dans Adobe Journey Optimizer, vous pouvez teste
 
 * **Ligne d’objet** : quel pourrait être l’impact d’une modification du ton ou du degré de personnalisation d’une ligne d’objet ?
 * **Contenu du message** : la modification de la disposition visuelle d’un e-mail entraînera-t-elle un plus grand nombre de clics sur l’e-mail ?
+
+## Comment fonctionne l’expérience de contenu ? {#content-experiment-work}
+
+### Attribution aléatoire
+
+L’expérimentation de contenu dans Adobe Journey Optimizer utilise un hachage pseudo-aléatoire de l’identité du visiteur pour affecter de manière aléatoire les utilisateurs de votre audience cible à l’un des traitements que vous avez définis. Le mécanisme de hachage garantit que, dans les scénarios où le visiteur entre plusieurs fois dans une campagne, il bénéficie du même traitement de manière déterministe.
+
+En détail, l’algorithme MumurHash3 32 bits est utilisé pour hacher la chaîne d’identité de l’utilisateur dans l’un des 10 000 compartiments. Dans une expérience de contenu avec 50 % du trafic affecté à chaque traitement, les utilisateurs qui tombent dans les compartiments 1 à 5 000 recevront le premier traitement, tandis que les utilisateurs qui se trouvent dans les compartiments 5 001 à 10 000 recevront le second traitement. Comme le hachage pseudo-aléatoire est utilisé, les divisions du visiteur que vous observez peuvent ne pas être exactement comprises entre 50 et 50 ; néanmoins, le partage sera statistiquement équivalent à votre pourcentage de partage cible.
+
+Notez que dans le cadre de la configuration de chaque campagne avec une expérience de contenu, vous devez choisir un espace de noms d’identité à partir duquel l’userId sera sélectionné pour l’algorithme de randomisation. Cela est indépendant de la fonction [adresses d&#39;exécution](../configuration/primary-email-addresses.md).
+
+### Collecte de données et analyse
+
+Au moment de l’affectation, c’est-à-dire lorsque le message est envoyé dans les canaux sortants, ou lorsque l’utilisateur accède à la campagne dans les canaux entrants, un &quot;enregistrement d’affectation&quot; est consigné dans le jeu de données système approprié. Cela enregistre le traitement auquel l’utilisateur a été affecté, ainsi que les identifiants d’expérience et de campagne.
+
+Les mesures d’objectif peuvent être regroupées en deux classes principales :
+
+* Mesures directes : l’utilisateur réagit directement au traitement, par exemple en ouvrant un email ou en cliquant sur un lien.
+* Mesures indirectes ou &quot;au bas de l’entonnoir&quot;, qui se produisent une fois que l’utilisateur a été exposé au traitement.
+
+Pour les mesures objectives directes dans lesquelles Adobe Journey Optimizer effectue le suivi de vos messages, les événements de réponse des utilisateurs finaux sont automatiquement balisés avec les identifiants de campagne et de traitement, ce qui permet une association directe de la mesure de réponse à un traitement. [En savoir plus sur le tracking](../design/message-tracking.md).
+
+![](assets/technote_2.png)
+
+Pour les objectifs indirects ou &quot;bas de l’entonnoir&quot; tels que les achats, les événements de réponse des utilisateurs finaux ne sont pas balisés avec des identifiants de campagne et de traitement, c’est-à-dire qu’un événement d’achat se produit après l’exposition à un traitement, il n’y a aucune association directe de cet achat avec une affectation de traitement préalable. Pour ces mesures, Adobe associe le traitement au bas de l’événement de conversion d’entonnoir si :
+
+* L’identité de l’utilisateur est la même au moment de l’affectation et de l’événement de conversion.
+* La conversion se produit dans les sept jours suivant l’affectation du traitement.
+
+![](assets/technote_3.png)
+
+Adobe Journey Optimizer utilise ensuite des méthodes statistiques avancées &quot;lorsqu’elles sont valides&quot; pour interpréter ces données de rapport brutes, ce qui vous permet d’interpréter vos rapports d’expérimentation. Pour plus d’informations, consultez [cette page](../campaigns/experiment-calculations.md).
 
 ## Conseils pour exécuter des expériences
 

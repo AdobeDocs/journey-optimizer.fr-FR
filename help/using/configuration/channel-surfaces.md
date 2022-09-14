@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+workflow-type: tm+mt
+source-wordcount: '1541'
+ht-degree: 92%
 
 ---
 
 # Configuration des surfaces de canal {#set-up-channel-surfaces}
 
-Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des préréglages de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur, applications mobiles, etc.
+Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’email, nom et adresse email de l’expéditeur, applications mobiles, configuration des SMS, etc.
 
 >[!CAUTION]
 >
@@ -33,9 +33,14 @@ Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors
 ## Création d’une surface de canal {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets_header"
+>title="Paramètres de surface de canal"
+>abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel il s’applique et définissez tous les paramètres techniques requis pour vos messages, tels que le type d’email, le sous-domaine, le nom de l’expéditeur, les applications mobiles, la configuration des SMS, etc."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Paramètres de surface de canal"
->abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel elle s’applique et définissez tous les paramètres techniques requis pour vos messages, tels que le type de message, le sous-domaine, le nom de l’expéditeur, les applications mobiles, etc."
+>abstract="Une surface de canal définit tous les paramètres techniques requis pour vos messages (type d’email, nom de l’expéditeur, applications mobiles, configuration des SMS, etc.): une fois configurée, vous pourrez la sélectionner lors de la création d&#39;actions à partir d&#39;un parcours ou d&#39;une campagne. Notez que vous devez disposer de l’autorisation Manage channel surface (Gérer la surface du canal) pour créer, modifier et supprimer des surfaces de canal."
 
 Pour créer une surface de canal, procédez comme suit :
 
