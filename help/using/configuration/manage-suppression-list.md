@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 95%
+source-wordcount: '1193'
+ht-degree: 97%
 
 ---
 
@@ -112,12 +112,15 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="Ajouter des e-mails ou des domaines à la liste de suppression"
->abstract="Vous pouvez également remplir manuellement la liste de suppression de Journey Optimizer pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi."
+>abstract="Vous pouvez remplir manuellement la liste de suppression de Journey Optimizer afin d’exclure des adresses électroniques et/ou domaines spécifiques de votre envoi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Ajouter des e-mails ou des domaines à la liste de suppression"
->abstract="Pour remplir la liste de suppression de Journey Optimizer, vous pouvez ajouter manuellement des adresses ou des domaines de courriel, un par un ou en mode masse, par le biais d’un téléchargement de fichier CSV. Ces adresses électroniques et/ou domaines spécifiques seront exclus de votre envoi."
+>abstract="Vous pouvez également remplir manuellement la liste de suppression de Journey Optimizer pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi."
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
 
