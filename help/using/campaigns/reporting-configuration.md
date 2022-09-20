@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Sélectionner un jeu de données"
->abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement qui doit contenir au moins l’un des groupes de champs pris en charge : Détails de l’application, Détails du commerce, Détails Web."
+>abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement, qui doit contenir au moins l’un des groupes de champs pris en charge : Détails de l’application, Détails du commerce, Détails Web."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
