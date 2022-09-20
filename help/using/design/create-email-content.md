@@ -6,24 +6,56 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Commencer à partir de zéro {#create-email-content}
 
 >[!CONTEXTUALHELP]
->id="ac_structure_components"
+>id="ac_structure_components_email"
 >title="À propos des composants de structure"
 >abstract="Les composants de structure définissent la disposition de votre email."
 
 >[!CONTEXTUALHELP]
->id="ac_edition_columns"
+>id="ac_structure_components_landing_page"
+>title="À propos des composants de structure"
+>abstract="Les composants de structure définissent la disposition de la landing page."
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_fragment"
+>title="À propos des composants de structure"
+>abstract="Les composants de structure définissent la disposition du fragment."
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_template"
+>title="À propos des composants de structure"
+>abstract="Les composants de structure définissent la disposition du modèle."
+
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_email"
 >title="Définition des colonnes de l’email"
 >abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_landing_page"
+>title="Définir les colonnes de landing page"
+>abstract="Le Concepteur d&#39;email permet de définir facilement la mise en page de votre landing page en définissant la structure des colonnes."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_fragment"
+>title="Définition des colonnes de fragments"
+>abstract="Le Concepteur d&#39;email permet de définir facilement la mise en page de votre fragment en définissant la structure des colonnes."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_template"
+>title="Définir les colonnes du modèle"
+>abstract="Le Concepteur d&#39;email permet de définir facilement la mise en page de votre modèle en définissant la structure des colonnes."
+
 
 Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 

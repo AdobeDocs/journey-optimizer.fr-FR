@@ -6,19 +6,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Utiliser les composants de contenu du Concepteur d’email {#content-components}
 
 >[!CONTEXTUALHELP]
->id="ac_content_components"
+>id="ac_content_components_email"
 >title="À propos des composants de contenu"
 >abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d&#39;un email."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_landing_page"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la mise en page d’une landing page."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_fragment"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la mise en page d’un fragment."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_template"
+>title="À propos des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la mise en page d’un modèle."
 
 
 Lorsque vous créez à partir de zéro votre contenu d&#39;e-mail, les **[!UICONTROL composants de contenu]** vous permettent de personnaliser davantage votre e-mail à l’aide de composants bruts et vides que vous pouvez utiliser une fois placés dans un e-mail.
@@ -132,9 +147,27 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 ## Vidéo {#Video}
 
 >[!CONTEXTUALHELP]
->id="ac_edition_video"
+>id="ac_edition_video_email"
 >title="Paramètres vidéo"
 >abstract="Utilisez ce composant pour insérer une vidéo dans votre email. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informations supplémentaires"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_landing_page"
+>title="Paramètres vidéo"
+>abstract="Utilisez ce composant pour insérer une vidéo dans votre landing page. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informations supplémentaires"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_fragment"
+>title="Paramètres vidéo"
+>abstract="Utilisez ce composant pour insérer une vidéo dans votre fragment. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informations supplémentaires"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_template"
+>title="Paramètres vidéo"
+>abstract="Utilisez ce composant pour insérer une vidéo dans votre modèle. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informations supplémentaires"
 
 Utilisez le composant **[!UICONTROL Vidéo]** pour insérer une vidéo dans votre e-mail via un lien URL.

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 93%
+source-wordcount: '1515'
+ht-degree: 92%
 
 ---
 
@@ -138,7 +138,7 @@ Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’A
    * Placement sur liste bloquée des adresses IP allouées
    * Nom `helo` non valide
    * E-mails envoyés à partir d’adresses IP autres que celles spécifiées dans le groupe d’adresses IP de la surface correspondante
-   * Impossibilité de diffuser des e-mails vers les boîtes de réception des principaux FAI tels que Gmail et Yahoo
+   * Impossible de diffuser des emails dans les boîtes de réception des principaux FAI
 
 ## Modification d’une surface de canal {#edit-channel-surface}
 
