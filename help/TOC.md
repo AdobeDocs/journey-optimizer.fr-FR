@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
       + [Créer une expérience de contenu](using/campaigns/content-experiment.md)
       + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
-      + [Configuration des rapports d’expérience](using/campaigns/reporting-configuration.md)
+      + [Configurer des rapports d’expérimentation](using/campaigns/reporting-configuration.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
    + [Prise en main des messages](using/messages/get-started-content.md)
@@ -51,7 +51,7 @@ ht-degree: 97%
    + [Création d’un e-mail](using/messages/create-email.md)
    + [Création d’une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)
-   + [Créer un courrier](using/messages/create-direct-mail.md)
+   + [Création d’un publipostage direct](using/messages/create-direct-mail.md)
    + [Vérifier les alertes](using/messages/alerts.md)
    + [Gérer le consentement](using/messages/consent.md)
    + [Optimisation de l’heure d’envoi](using/messages/send-time-optimization.md)

@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 * **Paramètres de tracking des URL** : vous pouvez désormais utiliser l’éditeur d’expression pour configurer les paramètres de tracking d’URL sur vos surfaces d’e-mail (c’est-à-dire les préréglages). [En savoir plus](../configuration/email-settings.md#url-tracking)
 
-**gestion des décisions**
+**Gestion des décisions**
 
 * **Taille de l’audience** : un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’un segment ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’un segment ou d’une règle à une portée de décision.
 
@@ -340,7 +340,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Gestion des décisions**
 
-* **API de prise de décision sur Edge** - L’API Edge Decisioning peut diffuser et générer des offres personnalisées gérées dans la gestion des décisions. Vous pouvez créer vos offres et d’autres objets associés à l’aide de l’interface utilisateur (interface utilisateur) ou des API de la gestion de décision. [En savoir plus](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API Decisioning sur Edge** : l’API Edge Decisioning peut diffuser et générer des offres personnalisées qui sont gérées dans la gestion des décisions. Vous pouvez créer vos offres et d’autres objets connexes en utilisant l’interface utilisateur de gestion de décisions ou les API. [En savoir plus](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administration**
 
@@ -378,7 +378,7 @@ En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer d
 **Gestion des décisions**
 
 * Vous pouvez désormais spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou par emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
-* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité de gestion de la décision pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité Gestion des décisions pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Les événements d’étape Journey Optimizer peuvent désormais être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Le champ **profileID**, dans le schéma intégré d’événement d’étape du parcours, est désormais défini comme un champ d’identité. [En savoir plus](../reports/sharing-overview.md#integration-cja)
 
-**gestion des décisions**
+**Gestion des décisions**
 
 * La mise à jour dʼune offre, dʼune offre de secours, dʼune collection d’offres ou dʼune décision d’offre, directement ou indirectement référencée dans un message publié, est désormais automatiquement répercutée dans le message correspondant, sans quʼil soit nécessaire de le republier. [En savoir plus](../offers/offers-e2e.md#insert-decision-in-email)
 
