@@ -6,26 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 95%
+source-wordcount: '870'
+ht-degree: 83%
 
 ---
 
 # Rapport dynamique de campagne {#campaign-live-report}
 
-Le rapport en direct de Campaign est accessible directement depuis votre campagne à l’aide de la fonction **[!UICONTROL Rapports]** bouton .
+Vous pouvez accéder directement au rapport dynamique de campagne à partir de votre campagne à l’aide du bouton **[!UICONTROL Vue dynamique]**.
 
-![](assets/campaign_report_1.png)
-
-Après avoir sélectionné la variable **[!UICONTROL 24 dernières heures]** , l’onglet Campagne **[!UICONTROL Rapport en direct]** s’affiche avec les onglets suivants :
+La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les onglets suivants :
 
 * [Campagne](#campaign-live)
 * [E-mail](#email-live)
 * [Push](#push-live)
+* [SMS](#sms-live)
+
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
+
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](live-report.md#list-of-components-live).
 
 ## Onglet Campagne {#campaign-global}
 
@@ -44,23 +46,27 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 Dans le **[!UICONTROL rapport dynamique]** de campagne, l&#39;onglet **[!UICONTROL E-mail]** détaille les principales informations relatives aux diffusions par e-mail envoyées dans votre campagne.
 
-Le widget **[!UICONTROL Statistiques d&#39;envoi des e-mails]** présente les principales informations relatives à votre message :
+![](assets/campaign_report_live_1.png)
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
 
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+Le widget **[!UICONTROL Statistiques d’envoi des e-mails]** présente les principales informations relatives à votre message :
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+
+* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 Le tableau **[!UICONTROL Envoi de mesures par e-mail]** et le graphique **[!UICONTROL Résumé des e-mails]** détaillent le succès de votre diffusion :
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
@@ -81,20 +87,25 @@ Les widgets **[!UICONTROL Causes des bounces]**, **[!UICONTROL Catégories des b
 Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
++++
 
-## Onglet Push {#push-live}
+## Onglet Notification push {#push-live}
 
-Dans le **[!UICONTROL rapport dynamique]** de campagne, l’onglet **[!UICONTROL Push]** détaille les principales informations relatives aux diffusions push envoyées dans votre campagne.
+Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre campagne.
+
+![](assets/campaign_report_live_2.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
 Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!UICONTROL Résumé des notifications push]** et **[!UICONTROL Mesures d’envoi par notification push]** présentent les informations principales relatives à votre message :
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
@@ -107,3 +118,47 @@ Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICON
 Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
++++
+
+## Onglet SMS {#sms-live}
+
+Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL SMS]** Cet onglet présente les informations principales relatives aux diffusions SMS envoyées dans votre campagne.
+
+![](assets/campaign_report_live_3.png)
+
++++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
+
+Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
+
+* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
+
+* **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
+
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+
+* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+
+* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
+
+Le **[!UICONTROL Performances des SMS par date]** avec un graphique, vous trouverez les informations principales relatives à votre message :
+
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+
+* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+
+* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
+
+Le **[!UICONTROL Exclure les raisons]**, **[!UICONTROL Raisons des rebonds]** et **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
++++
+
+## Ressources supplémentaires
+
+* [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
+* [Créer une campagne](../campaigns/create-campaign.md)
+* [Créer des campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
+* [Modifier ou arrêter une campagne](../campaigns/modify-stop-campaign.md)
+* [Rapport global de campagne](campaign-global-report.md)

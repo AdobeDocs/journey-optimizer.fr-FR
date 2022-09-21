@@ -6,26 +6,29 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 97%
+source-wordcount: '1660'
+ht-degree: 90%
 
 ---
 
 # Rapport global de campagne {#campaign-global-report}
 
-Le rapport global de campagnes est accessible directement depuis votre campagne à l’aide de la variable **[!UICONTROL Rapports]** bouton .
+Le rapport global de campagnes est accessible directement depuis votre campagne à l’aide de la variable **[!UICONTROL Tout le temps]** bouton .
 
-![](assets/campaign_report_1.png)
+![](assets/campaign_report_global_5.png)
 
-Après avoir sélectionné la variable **[!UICONTROL Tout le temps]** , l’onglet Campagne **[!UICONTROL Rapport global]** s’affiche avec les onglets suivants :
+La page **[!UICONTROL Rapport global]** de la campagne s&#39;affiche avec les onglets suivants :
 
 * [Campagne](#campaign-global)
 * [E-mail](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
 Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
+
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](global-report.md#list-of-components-global.md)
 
 ## Onglet Campagne {#campaign-global}
 
@@ -43,7 +46,11 @@ Le widget **[!UICONTROL Statistiques de la campagne]** présente les principales
 
 ## Onglet E-mail {#email-global}
 
+![](assets/campaign_report_global_2.png)
+
 Dans le **[!UICONTROL Rapport global]** de campagne, l&#39;onglet **[!UICONTROL E-mail]** détaille les principales informations relatives aux diffusions par e-mail envoyées dans votre campagne.
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
 
@@ -127,10 +134,15 @@ L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
++++
 
-## Onglet Push {#push-global}
+## Onglet Notification push {#push-global}
 
-Dans le **[!UICONTROL rapport global]** de campagne, l&#39;onglet **[!UICONTROL Push]** détaille les principales informations relatives aux diffusions push envoyées dans votre campagne.
+Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre campagne.
+
+![](assets/campaign_report_global_3.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
 Le tableau **[!UICONTROL Notification push - Statistiques d&#39;envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
@@ -196,3 +208,47 @@ Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent d
 Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système d&#39;exploitation de votre destinataire.
++++
+
+## Onglet SMS {#sms-global}
+
+Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL SMS]** Cet onglet présente les informations principales relatives aux diffusions SMS envoyées dans votre campagne.
+
+![](assets/campaign_report_global_4.png)
+
++++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
+
+Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
+
+* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
+
+* **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
+
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
+
+Le **[!UICONTROL Performances des SMS par date]** avec un graphique, vous trouverez les informations principales relatives à votre message :
+
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
+
+Le **[!UICONTROL Exclure les raisons]**, **[!UICONTROL Raisons des rebonds]** et **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
++++
+
+## Ressources supplémentaires
+
+* [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
+* [Créer une campagne](../campaigns/create-campaign.md)
+* [Créer des campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
+* [Modifier ou arrêter une campagne](../campaigns/modify-stop-campaign.md)
+* [Rapport dynamique de campagne](campaign-live-report.md)

@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [Accélération des diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
-      + [Accès au tableau de bord des rapports dynamiques](using/reports/live-report.md)
+      + [Prise en main du rapport dynamique](using/reports/live-report.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
    + Rapport global {#global-report}
-      + [Accès au tableau de bord des rapports globaux](using/reports/global-report.md)
+      + [Prise en main du rapport global](using/reports/global-report.md)
       + [Rapport global sur les parcours](using/reports/journey-global-report.md)
       + [Rapport global de campagne](using/reports/campaign-global-report.md)
       + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)

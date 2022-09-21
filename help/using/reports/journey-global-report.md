@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 96%
+source-wordcount: '1977'
+ht-degree: 91%
 
 ---
 
-# Rapport global sur les parcours {#journey-global-report}
+# Rapport global de parcours {#journey-global-report}
 
-Vous pouvez accéder directement au rapport global de parcours à partir de votre parcours à l&#39;aide du bouton **[!UICONTROL Rapport global]**.
+Vous pouvez accéder directement au rapport global par parcours à partir de votre parcours à l’aide de l’option **[!UICONTROL Afficher le rapport]** bouton .
 
-![](assets/global_report_1.png)
+![](assets/report_journey.png)
 
 La page **[!UICONTROL Rapport global]** du parcours s&#39;affiche avec les onglets suivants :
 
@@ -28,11 +28,15 @@ La page **[!UICONTROL Rapport global]** du parcours s&#39;affiche avec les ongle
 
 Le rapport **[!UICONTROL global]** de parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](global-report.md#modify-dashboard).
 
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](global-report.md#list-of-components-global).
+
 ## Onglet Parcours {#journey-global}
 
 À partir de votre **[!UICONTROL rapport global]** de parcours, l&#39;onglet **[!UICONTROL Parcours]** vous donne une vue claire des données de suivi les plus importantes concernant votre parcours.
 
-![](assets/global_report_2.png)
+![](assets/journey_global_1.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de Parcours.
 
 Le widget **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement de vos profils ciblés pas à pas tout au long du parcours.
 
@@ -44,11 +48,7 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 * **[!UICONTROL Parcours individuel en échec]** : nombre total de parcours individuels qui n&#39;ont pas été exécutés avec succès.
 
-![](assets/global_report_12.png)
-
 Les widgets **[!UICONTROL Événements reçus par événement]**, **[!UICONTROL Événements par origine]** et **[!UICONTROL Principaux événements]** vous permettent de savoir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
-
-![](assets/global_report_13.png)
 
 Les widgets **[!UICONTROL Performance de l&#39;action]**, **[!UICONTROL Raisons de l&#39;erreur de l&#39;action]** et **[!UICONTROL Principales actions]** représentent l&#39;action la plus réussie et les erreurs survenues lorsque vos **[!UICONTROL Actions]** ont été déclenchées.
 
@@ -58,18 +58,19 @@ Le tableau **[!UICONTROL Principales actions]** contient les données disponible
 
 * **[!UICONTROL Erreur lors de l&#39;action]** : nombre total d&#39;erreurs survenues pour les **[!UICONTROL actions]**.
 
-![](assets/global_report_25.png)
-
 Le **[!UICONTROL Stratégies de consentement]** le tableau et le graphique affichent le nombre de profils exclus de chaque stratégie dans vos actions personnalisées.
 Pour plus d’informations sur les actions personnalisées, reportez-vous à la section [la documentation détaillée ;](../action/about-custom-action-configuration.md).
 
 Notez que pour que ces widgets s’affichent dans vos rapports Parcours, vous devez réinitialiser vos tableaux de bord. Pour ce faire, cliquez sur **[!UICONTROL Modifier]** then **[!UICONTROL Réinitialiser]** en haut de votre rapport.
++++
 
 ## Onglet E-mail {#email-global}
 
 Dans le **[!UICONTROL Rapport global]** de parcours, l&#39;onglet **[!UICONTROL E-mail]** détaille les principales informations relatives aux diffusions par e-mail envoyées dans votre parcours.
 
-![](assets/global_report_14.png)
+![](assets/journey_global_2.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
 
@@ -115,8 +116,6 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données dis
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
-![](assets/global_report_15.png)
-
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
 * **[!UICONTROL Hard bounce]** : nombre total d&#39;erreurs permanentes, telles qu&#39;une adresse email incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
@@ -127,19 +126,13 @@ Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de r
 
 Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppression](../reports/suppression-list.md).
 
-![](assets/global_report_22.png)
-
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
 
 Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
 
-![](assets/global_report_16.png)
-
 Le graphique et le tableau **[!UICONTROL E-mail - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
 
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
-
-![](assets/global_report_23.png)
 
 >[!NOTE]
 >
@@ -155,8 +148,6 @@ L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
-
-![](assets/global_report_21.png)
 
 >[!NOTE]
 >
@@ -181,12 +172,15 @@ Le tableau **[!UICONTROL Statistiques détaillées des offres]** contient les do
 * **[!UICONTROL Taux d’impression de l’offre]** : pourcentage d’offres ouvertes par rapport au nombre d’offres envoyées.
 
 * **[!UICONTROL Taux de clics de l’offre]** : pourcentage d’utilisateurs ayant interagi avec l’offre.
++++
 
-## Onglet Push {#push-global}
+## Onglet Notification push {#push-global}
 
-Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONTROL Push]** détaille les informations principales relatives aux diffusions push envoyées dans votre parcours.
+De votre parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre parcours.
 
-![](assets/global_report_17.png)
+![](assets/journey_global_3.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
 Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
@@ -218,8 +212,6 @@ Les **[!UICONTROL Statistiques de suivi - push]** contiennent les données dispo
 
 * **[!UICONTROL Taux d&#39;engagement]** : pourcentage d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.
 
-![](assets/global_report_24.png)
-
 Le graphique **[!UICONTROL Résumé des notifications push]** contient les données disponibles pour les notifications push envoyées, telles que :
 
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
@@ -247,21 +239,20 @@ L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-![](assets/global_report_18.png)
-
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
 
 Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
 
-![](assets/global_report_19.png)
-
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système d&#39;exploitation de votre destinataire.
 
 Le **[!UICONTROL Rapport global]** SMS est divisé en différents widgets présentant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
++++
 
 ## Onglet SMS {#sms-global}
 
-![](assets/report_sms_global.png)
+![](assets/journey_global_4.png)
+
++++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
 
 Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 
@@ -288,3 +279,4 @@ Le widget **[!UICONTROL Synthèse des SMS]** détaille les informations principa
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
++++

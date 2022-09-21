@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 91%
 
 ---
 
@@ -28,11 +28,15 @@ La page **[!UICONTROL Rapport dynamique]** sur les parcours s’affiche avec les
 
 Le **[!UICONTROL Rapport dynamique]** sur les parcours est divisé en différents widgets présentant le succès et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](live-report.md#modify-dashboard).
 
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](live-report.md#list-of-components-live).
+
 ## Onglet Parcours {#journey-live}
 
 Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l&#39;onglet **[!UICONTROL Parcours]** vous donne une vue claire des données de suivi les plus importantes concernant votre parcours.
 
-![](assets/report_journey_2.png)
+![](assets/journey_live_1.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de Parcours.
 
 **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement détaillé de vos profils ciblés tout au long du parcours.
 
@@ -46,19 +50,20 @@ Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
 Les widgets **[!UICONTROL Événement exécuté au cours des 24 dernières heures]** et **[!UICONTROL Événements]** vous permettent de voir quel événement a été exécuté avec succès au moyen d’un chiffre récapitulatif, d’un graphique et d’un tableau.
 
-![](assets/report_journey_4.png)
-
 Les widgets **[!UICONTROL Action exécutée au cours des 24 dernières heures]** et **[!UICONTROL Actions exécutées et erreurs]** représentent l’action avec le plus de succès et les erreurs qui sont produites au moment où les actions ont été déclenchées. Le graphique Action, le tableau et les chiffres récapitulatifs contiennent les données disponibles pour les actions, notamment :
 
 * **[!UICONTROL Actions exécutées]** : nombre total d’actions exécutées avec succès pour un parcours.
 
 * **[!UICONTROL Erreurs lors des actions]** : nombre total d’erreurs qui se sont produites pour les actions.
++++
 
 ## Onglet E-mail {#email-live}
 
 Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UICONTROL E-mail]** présente les principales informations relatives aux diffusions email envoyées dans votre parcours.
 
-![](assets/report_email_1.png)
+![](assets/journey_live_2.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
 
 Le widget **[!UICONTROL Statistiques d’envoi des e-mails]** présente les principales informations relatives à votre message :
 
@@ -86,8 +91,6 @@ Le tableau **[!UICONTROL Envoi de mesures par e-mail]** et le graphique **[!UICO
 
 * **[!UICONTROL Plaintes contre le spal]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
-![](assets/report_email_2.png)
-
 Les widgets **[!UICONTROL Causes des bounces]**, **[!UICONTROL Catégories des bounces]** et **[!UICONTROL Hard bounce et bounce - par e-mail]** contiennent les données disponibles relatives aux messages ayant fait l&#39;objet d&#39;un rebond, notamment :
 
 * **[!UICONTROL Hard bounce]** : nombre total d&#39;erreurs permanentes, telles qu&#39;une adresse email incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
@@ -96,13 +99,9 @@ Les widgets **[!UICONTROL Causes des bounces]**, **[!UICONTROL Catégories des b
 
 * **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
 
-![](assets/report_email_3.png)
-
 Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
-
-![](assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -115,12 +114,15 @@ Les widgets sur le long terme **[!UICONTROL Statistique des offres]** et **[!UIC
 * **[!UICONTROL Impression de l’offre]** : nombre d’ouvertures de l’offre dans une diffusion.
 
 * **[!UICONTROL Clics sur les offres]** : nombre de clics sur une offre dans une diffusion.
++++
 
-## Onglet Push {#push-live}
+## Onglet Notification push {#push-live}
 
-Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UICONTROL Push]** présente les principales informations relatives aux diffusions push envoyées dans votre parcours.
+De votre parcours **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre parcours.
 
-![](assets/report_push_1.png)
+![](assets/journey_live_3.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
 Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!UICONTROL Résumé des notifications push]** et **[!UICONTROL Mesures d’envoi par notification push]** présentent les informations principales relatives à votre message :
 
@@ -138,19 +140,18 @@ Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!
 
 * **[!UICONTROL Engagements]** : nombre total d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification ou si un utilisateur a cliqué sur un bouton.
 
-![](assets/report_push_3.png)
-
 Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
 Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
 
-![](assets/report_push_2.png)
-
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Ventilation par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
++++
 
 ## Onglet SMS {#sms-live}
 
-![](assets/report_sms_live.png)
+![](assets/journey_live_4.png)
+
++++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
 
 Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 
@@ -179,3 +180,4 @@ Le graphique **[!UICONTROL Synthèse des SMS]** détaille la réussite de votre 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
++++

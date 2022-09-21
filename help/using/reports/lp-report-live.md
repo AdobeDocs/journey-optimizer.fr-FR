@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 87%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 Le rapport **[!UICONTROL Rapport dynamique]** sur les pages de destination affiche uniquement des détails sur l&#39;impact de vos pages de destination durant les dernières 24 heures. Pour mesurer les données de votre page de destination sur une période sélectionnée, reportez-vous à la section [Rapport global sur les pages de destination](lp-report-global.md).
 
-Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport dynamique]** dans le menu avancé de la page de destination sélectionnée.
+Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la landing page sélectionnée.
 
-![](assets/landing_page_report_1.png)
+![](assets/landing_page_report.png)
 
 Le **[!UICONTROL Rapport dynamique]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
-![](assets/landing_page_report_2.png)
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport en direct de la page d’entrée.
 
 Le widget **[!UICONTROL Performances de la page de destination]** présente les informations principales relatives à votre message au cours des dernières 24 heures à l’aide de KPI :
 
@@ -47,8 +47,9 @@ Le widget **[!UICONTROL Parcours]** représente le nombre de visites sur votre p
 
 Le widget **[!UICONTROL Autres sources]** représente le nombre de visites sur votre page de destination à partir d’une source externe au lieu d’un parcours.
 
-![](assets/landing_page_report_3.png)
-
 Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination au cours des dernières 24 heures, en fonction des messages envoyés.
 
 Les graphiques **[!UICONTROL Visites par canaux]** / **[!UICONTROL Conversions par canaux]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination au cours des dernières 24 heures, en fonction des canaux.
++++
+
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](live-report.md#list-of-components-live).

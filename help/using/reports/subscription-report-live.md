@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 Le **[!UICONTROL Rapport d&#39;abonnement dynamique]** affiche uniquement des détails sur l&#39;activité de vos abonnés au cours des dernières 24 heures. Pour mesurer vos abonnements sur une période sélectionnée, reportez-vous à la section [Rapport d&#39;abonnement global](subscription-report-global.md).
 
-Pour accéder aux rapports, sélectionnez **[!UICONTROL Rapport dynamique]** dans le menu avancé de la liste d&#39;abonnements sélectionnée.
+Pour accéder à vos rapports, cliquez sur le bouton **[!UICONTROL Rapport]** de votre liste d’abonnements sélectionnée.
 
-![](assets/subscription_report_6.png)
+![](assets/subscription_report_7.png)
 
 Le **[!UICONTROL Rapport d&#39;abonnement dynamique]** est divisé en différents widgets détaillant vos abonnements et désabonnements. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
