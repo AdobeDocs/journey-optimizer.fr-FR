@@ -5,20 +5,14 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
+source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 97%
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
 # Stratégies d’utilisation des données {#Policies}
-
->[!CONTEXTUALHELP]
->id="ajo_olac_manage_access"
->title="Olac Gérer l’accès"
->abstract="TBC"
-
 
 Grâce au **Service de gouvernance des données** d’Adobe Experience Platform, vous pouvez appliquer des restrictions d’utilisation des données à l’aide de libellés, d’actions marketing et de stratégies.
 
