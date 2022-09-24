@@ -5,7 +5,7 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 8b9f2a51b758583cc23f3d21c79235825b26ca0c
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
@@ -13,6 +13,7 @@ ht-degree: 100%
 ---
 
 # Stratégies d’utilisation des données {#Policies}
+
 
 Grâce au **Service de gouvernance des données** d’Adobe Experience Platform, vous pouvez appliquer des restrictions d’utilisation des données à l’aide de libellés, d’actions marketing et de stratégies.
 
