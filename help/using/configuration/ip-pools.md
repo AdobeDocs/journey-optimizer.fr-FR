@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="Configuration d’un groupe d’adresses IP"
->abstract="Vous pouvez créer des groupes d’adresses IP pour regrouper les adresses IP de vos sous-domaines afin d’améliorer la délivrabilité des e-mails."
+>abstract="Avec Journey Optimizer, vous pouvez créer des pools d&#39;adresses IP pour regrouper les adresses IP de vos sous-domaines. Cela peut améliorer considérablement la délivrabilité de vos emails, car ce faisant, vous pouvez empêcher la réputation d’un sous-domaine d’avoir un impact sur vos autres sous-domaines."
 
 ## À propos des groupes d’adresses IP {#about-ip-pools}
 

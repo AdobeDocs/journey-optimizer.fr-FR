@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 97%
+source-wordcount: '1213'
+ht-degree: 94%
 
 ---
 
@@ -30,6 +30,11 @@ Vous pouvez également ajouter [**manuellement** une adresse ou un domaine](#add
 >Il faudra entre 0 et 60 minutes pour que [!DNL Journey Optimizer] prennent en compte les adresses supprimées dans les e-mails sortants.
 
 ## Accès à la liste de suppression {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="Exportation de la liste au format CSV"
+>abstract="Pour télécharger la liste de suppression, vous pouvez exporter la liste actuelle en générant un nouveau fichier ou télécharger le fichier qui a été généré précédemment."
 
 Pour accéder à la liste détaillée des adresses e-mail exclues, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
 
