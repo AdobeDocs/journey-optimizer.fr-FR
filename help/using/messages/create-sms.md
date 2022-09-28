@@ -9,7 +9,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 77%
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte à vos clients sur leur appareil mobile. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 
-Les diffusions SMS peuvent être créées :
+Les diffusions SMS peuvent être créées :
 
-* Dans un **Parcours**: Une fois que vous avez ajouté une activité SMS dans votre parcours et défini des paramètres de base, utilisez la variable **[!UICONTROL Actions : SMS]** volet de droite pour créer le contenu du SMS.
+* Dans un **parcours** : une fois que vous avez ajouté une activité de SMS dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : SMS]** pour créer le contenu du message SMS.
 
-   Pour plus d&#39;informations sur le paramétrage de votre parcours, reportez-vous à cette section [page](../building-journeys/journey-gs.md).
+   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
-* Dans un **Campagne**: Une fois une campagne créée, sélectionnez SMS comme action et définissez les paramètres de base.
+* Dans une **campagne** : une fois une campagne créée, sélectionnez SMS comme action et définissez les paramètres de base.
 
-   Pour plus d&#39;informations sur le paramétrage de votre opération, reportez-vous à cette section [page](../campaigns/create-campaign.md#configure).
+   Pour plus d’informations sur la configuration de votre campagne, consultez cette [page](../campaigns/create-campaign.md#configure).
 
 Si c’est la première fois que vous créez un message SMS, vérifiez que le canal SMS a été configuré. [En savoir plus](../configuration/sms-configuration.md).
 
@@ -82,7 +82,7 @@ Learn how to configure, author, and include SMS messaging into your customer jou
 -->
 **Rubriques connexes**
 
-* [Configuration du canal SMS](../configuration/sms-configuration.md)
+* [Configurer le canal SMS](../configuration/sms-configuration.md)
 * [Rapport SMS](../reports/journey-global-report.md#sms-global)
 * [Création d&#39;un nouveau message](get-started-content.md)
 * [Ajout d&#39;un message dans un parcours](../building-journeys/journeys-message.md)

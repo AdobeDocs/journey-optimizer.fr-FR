@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Avant de créer un modèle d’IA, vous devez créer un jeu de données dans leq
 
    >[!NOTE]
    >
-   >En savoir plus sur les schémas XDM et les groupes de champs dans la section [Présentation de la documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
+   >Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [Documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target=&quot;_blank&quot;}.
 
-1. Dans la **[!UICONTROL Groupes de champs]** , sélectionnez **[!UICONTROL Ajouter]**.
+1. Dans la section **[!UICONTROL Groupes de champs]** à gauche, sélectionnez **[!UICONTROL Ajouter]**.
 
    ![](../assets/ai-ranking-fields-groups.png)
 
@@ -53,7 +53,7 @@ Avant de créer un modèle d’IA, vous devez créer un jeu de données dans leq
 
 >[!NOTE]
 >
->En savoir plus sur la création de schémas dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#understanding-schemas){target=&quot;_blank&quot;}.
+>Pour en savoir plus sur la création de schémas, consultez la section [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#understanding-schemas){target=&quot;_blank&quot;}.
 
 Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce schéma. Pour ce faire, procédez comme suit :
 

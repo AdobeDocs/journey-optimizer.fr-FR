@@ -9,7 +9,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1977'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -58,10 +58,10 @@ Le tableau **[!UICONTROL Principales actions]** contient les données disponible
 
 * **[!UICONTROL Erreur lors de l&#39;action]** : nombre total d&#39;erreurs survenues pour les **[!UICONTROL actions]**.
 
-Le **[!UICONTROL Stratégies de consentement]** le tableau et le graphique affichent le nombre de profils exclus de chaque stratégie dans vos actions personnalisées.
-Pour plus d’informations sur les actions personnalisées, reportez-vous à la section [la documentation détaillée ;](../action/about-custom-action-configuration.md).
+Les tableau et le graphique **[!UICONTROL Politiques de consentement]** affichent le nombre de profils exclus de chaque politique dans vos actions personnalisées.
+Pour plus d’informations sur les actions personnalisées, consultez la [documentation détaillée](../action/about-custom-action-configuration.md).
 
-Notez que pour que ces widgets s’affichent dans vos rapports Parcours, vous devez réinitialiser vos tableaux de bord. Pour ce faire, cliquez sur **[!UICONTROL Modifier]** then **[!UICONTROL Réinitialiser]** en haut de votre rapport.
+Notez que pour que ces widgets s’affichent dans vos rapports Parcours, vous devez réinitialiser vos tableaux de bord. Pour ce faire, cliquez sur **[!UICONTROL Modifier]** puis sur **[!UICONTROL Réinitialiser]** en haut de votre rapport.
 +++
 
 ## Onglet E-mail {#email-global}

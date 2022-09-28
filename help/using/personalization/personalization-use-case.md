@@ -9,7 +9,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
 
 * **Profil** : personnalisation des messages en fonction d&#39;un champ de profil
-* **Décision sur l’offre**: personnalisation basée sur les variables de gestion de décision
+* **Décision d’offre** : personnalisation basée sur des variables de gestion des décisions
 * **Contexte** : personnalisation basée sur les données contextuelles du parcours
 
 L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Journey Optimizer] chaque fois qu&#39;une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
@@ -77,7 +77,7 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
    ![](assets/perso-uc13.png)
 
-1. Dans le menu de gauche, sélectionnez **Offrir des décisions** pour insérer une variable de prise de décision. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision pour l’ajouter au corps.
+1. Dans le menu de gauche, sélectionnez **Décisions d’offre** pour insérer une variable de prise de décision. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision pour l’ajouter au corps.
 
    ![](assets/perso-uc14.png)
 

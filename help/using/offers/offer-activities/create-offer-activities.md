@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 ## Vidéo pratique{#video}
 
-Découvrez comment créer des activités d’offre dans la gestion de la décision.
+Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 

@@ -9,15 +9,15 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Prise en main de la conception d’e-mails {#get-started-content-design}
 
-Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer parti des fonctionnalités de conception de contenu :
+Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer parti des fonctionnalités de conception de contenu :
 
-* Utilisation [!DNL Journey Optimizer] **fonctionnalités de conception d&#39;email** pour concevoir ou importer des emails réactifs. [En savoir plus](../design/create-email-content.md)
+* Tirez parti des **fonctionnalités de conception d’e-mail** [!DNL Journey Optimizer] pour créer ou importer des e-mails réactifs. [En savoir plus](../design/create-email-content.md)
 
 * Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../design/assets-essentials.md)
 

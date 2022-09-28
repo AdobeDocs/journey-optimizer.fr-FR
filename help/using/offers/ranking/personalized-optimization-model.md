@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Modèle d’optimisation personnalisée
+title: Modèle d’optimisation personnalisé
 description: En savoir plus sur les modèles d’optimisation personnalisée
 feature: Ranking Formulas
 role: User
@@ -10,11 +10,11 @@ exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Modèle d’optimisation personnalisée {#personalized-optimization-model}
+# Modèle d’optimisation personnalisé {#personalized-optimization-model}
 
 >[!CAUTION]
 >
@@ -41,9 +41,9 @@ Il existe trois types de fonctionnalités :
 
 | Types de fonctionnalités | Comment ajouter des fonctionnalités aux modèles |
 |--------------|----------------------------|
-| Objets de prise de décision (placementID, activityID, décisionScopeID) | Partie des événements d’expérience de retour de la gestion de la décision envoyés à AEP |
+| Objets de prise de décision (placementID, activityID, decisionScopeID) | Partie des événements d’expérience des commentaires sur la gestion des décisions envoyés à AEP |
 | Segments | Il est possible d’ajouter de 0 à 50 segments en tant que fonctionnalités lors de la création du modèle d’IA dédiée au classement |
-| Données contextuelles | Partie des événements d’expérience de retour de prise de décision envoyés à AEP. Données contextuelles disponibles à ajouter au schéma : Détails du commerce, Détails du canal, Détails de l’application, Détails web, Détails de l’environnement, Détails de l’appareil, placeContext |
+| Données contextuelles | Partie des événements d’expérience des commentaires sur la prise de décisions envoyés à AEP. Données contextuelles disponibles à ajouter au schéma : Détails du commerce, Détails du canal, Détails de l’application, Détails web, Détails de l’environnement, Détails de l’appareil, placeContext |
 
 Le modèle comporte deux phases :
 

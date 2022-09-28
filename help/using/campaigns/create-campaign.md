@@ -9,7 +9,7 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -63,13 +63,13 @@ ht-degree: 56%
       * [Création d&#39;un e-mail](../messages/create-email.md)
       * [Créer des notification push](../messages/create-push.md)
       * [Créer un SMS](../messages/create-sms.md)
-   1. Une fois votre contenu défini, utilisez la variable **[!UICONTROL Simulation du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../design/preview.md).
+   1. Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../design/preview.md).
 
-   1. Cliquez sur la flèche pour revenir à l&#39;écran de création de la campagne.
+   1. Cliquez sur la flèche pour revenir à l’écran de création de la campagne.
 
       ![](assets/create-campaign-design.png)
 
-   1. Dans le **[!UICONTROL Suivi des actions]** , indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
+   1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
 
       Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report.md)
 
@@ -84,11 +84,11 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblés par la campagne.
+   >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de nommage) parmi leurs différentes identités ne seront pas ciblés par la campagne.
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la variable **[!UICONTROL Planification]** . [Découvrez comment planifier des campagnes](#schedule)
+1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [Découvrez comment planifier des campagnes](#schedule)
 
 Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
 
@@ -102,7 +102,7 @@ Une fois votre campagne configurée, vous devez passer en revue son paramètre e
 
    >[!IMPORTANT]
    >
-   >En cas d&#39;erreur, vous ne pouvez pas activer la campagne. Résolvez les erreurs avant de continuer.
+   >En cas d’erreur, vous ne pouvez pas activer la campagne. Résolvez les erreurs avant de continuer.
 
    ![](assets/create-campaign-alerts.png)
 
@@ -110,15 +110,15 @@ Une fois votre campagne configurée, vous devez passer en revue son paramètre e
 
    ![](assets/create-campaign-review.png)
 
-1. La campagne est maintenant activée. Son état est : **[!UICONTROL En direct]** ou **[!UICONTROL Planifié]** si vous avez saisi une date de début. [En savoir plus sur les statuts des campagnes](get-started-with-campaigns.md#statuses).
+1. La campagne est maintenant activée. Son état est soit **[!UICONTROL Actif]**, soit **[!UICONTROL Planifié]** si vous avez saisi une date de début. [En savoir plus sur les statuts des campagnes](get-started-with-campaigns.md#statuses).
 
-   Le message paramétré dans l&#39;opération est envoyé immédiatement ou à la date indiquée.
+   Le message configuré dans la campagne est exécuté immédiatement ou à la date indiquée.
 
    >[!NOTE]
    >
-   >Le **[!UICONTROL Terminé]** est automatiquement affecté à une campagne 3 jours après son activation ou à la date de fin de la campagne si son exécution est récurrente.
+   >Le statut **[!UICONTROL Terminé]** est automatiquement affecté à une campagne 3 jours après son activation ou à la date de fin de la campagne si son exécution est récurrente.
    >
-   >Si aucune date de fin n’a été spécifiée, la campagne conserve la variable **[!UICONTROL En direct]** statut. Pour le modifier, vous devez arrêter manuellement la campagne. [Découvrez comment arrêter une campagne](modify-stop-campaign.md)
+   >Si aucune date de fin n’a été spécifiée, la campagne conserve le statut **[!UICONTROL Actif]**. Pour le modifier, vous devez arrêter manuellement la campagne. [Découvrez comment arrêter une campagne](modify-stop-campaign.md)
 
 1. Une fois qu’une campagne a été activée, vous pouvez vérifier à tout moment ses informations en l’ouvrant. Le résumé vous permet d’obtenir des statistiques sur le nombre de profils ciblés et les actions diffusées et en échec.
 
@@ -126,12 +126,12 @@ Une fois votre campagne configurée, vous devez passer en revue son paramètre e
 
    ![](assets/create-campaign-summary.png)
 
-## Planification d’une campagne {#schedule}
+## Planifier une campagne {#schedule}
 
-Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une seule fois.
+Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une fois.
 
-Vous pouvez définir la fréquence d&#39;envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
+Vous pouvez définir la fréquence d’envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
 
-Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé à l’aide de la variable **[!UICONTROL Démarrage de campagne]** . Le  **[!UICONTROL Fin de campagne]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
+Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé à l’aide de l’option **[!UICONTROL Début de campagne]**. L’option **[!UICONTROL Fin de campagne]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
 
 ![](assets/create-campaign-schedule.png)

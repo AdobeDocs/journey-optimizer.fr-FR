@@ -1,5 +1,5 @@
 ---
-title: Création d’une expérience de contenu
+title: Créer une expérience de contenu
 description: Découvrez comment créer une expérience de contenu dans vos campagnes
 feature: A/B Testing
 topic: Content Management
@@ -11,25 +11,25 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# Création d’une expérience de contenu {#content-experiment}
+# Créer une expérience de contenu {#content-experiment}
 
 >[!AVAILABILITY]
 >
->Le **Expérience de contenu** Cette fonctionnalité est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité **Expérience de contenu** est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
-Utilisez l’expérience de contenu Journey Optimizer pour définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l&#39;objet ou l&#39;expéditeur de la diffusion.
+Utilisez l’expérience de contenu Journey Optimizer pour définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de la diffusion.
 
 >[!NOTE]
 >
->Avant de commencer l’expérience de contenu, assurez-vous que votre configuration de création de rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](reporting-configuration.md).
+>Avant de commencer l’expérience de contenu, assurez-vous que votre configuration des rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](reporting-configuration.md).
 
 Dans l&#39;exemple ci-dessous, la cible de la diffusion a été divisée en deux groupes, représentant chacun 45 % de la population ciblée, et un groupe d’exclusion de 10 %, qui ne recevra pas la diffusion.
 
-Chaque personne de l’audience ciblée recevra une version d’un email, avec un objet qui est l’un des deux suivants :
+Chaque personne de l’audience ciblée recevra une version de l’e-mail, avec un objet qui sera l’un des deux suivants :
 
 * une promotion directe d&#39;une offre de 10 % sur la nouvelle collection et une image,
 * l’autre ne fait de la publicité que pour une offre spéciale sans spécifier les 10 % de réduction, sans image.
@@ -40,11 +40,11 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ## Créer votre campagne {#campaign-experiment}
 
-1. Dans la **[!UICONTROL Campagnes]** page, cliquez sur **[!UICONTROL Créer une campagne]**.
+1. Dans la page **[!UICONTROL Campagnes]**, cliquez sur **[!UICONTROL Créer une campagne]**.
 
    ![](assets/content_experiment_1.png)
 
-1. Sélectionnez votre canal, puis le **[!UICONTROL Surface]** vous souhaitez utiliser pour cette diffusion. Pour plus d’informations à ce sujet, consultez la page [Surfaces de canaux](../configuration/channel-surfaces.md).
+1. Sélectionnez votre canal puis la **[!UICONTROL surface]** que vous souhaitez utiliser pour cette diffusion. Pour plus d’informations à ce sujet, consultez la page [Surfaces de canaux](../configuration/channel-surfaces.md).
 
    ![](assets/content_experiment_2.png)
 
@@ -55,7 +55,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
    * **[!UICONTROL Description]**
    * **[!UICONTROL Catégorie]** : **[!UICONTROL Marketing]** / **[!UICONTROL Transactionnel]**
 
-1. Pour lancer votre expérience de contenu, activez l’option **[!UICONTROL Expérience de contenu]**. Le **[!UICONTROL Expérience de contenu]** s’affiche.
+1. Pour lancer votre expérience de contenu, activez l’option **[!UICONTROL Expérience de contenu]**. Le menu **[!UICONTROL Expérience de contenu]** s’affiche.
 
    ![](assets/content_experiment_3.png)
 
@@ -63,7 +63,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus](get-started-experiment.md#content-experiment-work)
 
-1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section Planning . [En savoir plus](create-campaign.md)
+1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section Planning. [En savoir plus](create-campaign.md)
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à personnaliser vos **[!UICONTROL Traitements]**.
 
@@ -71,13 +71,13 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ## Créer vos traitements {#treatment-experiment}
 
-1. Dans la **[!UICONTROL Modifier le contenu]** , commencez à personnaliser votre traitement A.
+1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
 
-   Pour ce traitement, nous allons définir l&#39;offre spéciale directement dans la ligne d&#39;objet.
+   Pour ce traitement, nous spécifions l’offre spéciale directement dans la ligne d’objet.
 
    ![](assets/content_experiment_5.png)
 
-1. Après avoir conçu votre premier traitement, à partir de la **[!UICONTROL Autres actions]** bouton, cliquez **[!UICONTROL Dupliquer]**.
+1. Après avoir conçu votre premier traitement avec le bouton **[!UICONTROL Autres actions]**, cliquez sur **[!UICONTROL Dupliquer]**.
 
    Vous pouvez également choisir de commencer un nouveau traitement à partir de zéro en cliquant sur le bouton **[!UICONTROL Expérience de contenu]**![](assets/content_experiment_16.png) pour accéder aux options avancées, puis sur **[!UICONTROL Ajouter un traitement]**.
 
@@ -89,7 +89,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 1. Personnalisez votre second traitement selon vos besoins.
 
-   Ici, nous choisissons de ne pas spécifier l’offre dans la variable **[!UICONTROL Objet]**.
+   Pour ce traitement, nous choisissons de ne pas spécifier l’offre dans la **[!UICONTROL ligne d’objet]**.
 
    ![](assets/content_experiment_9.png)
 
@@ -127,9 +127,9 @@ Une fois vos traitements personnalisés, vous pouvez commencer à configurer vot
 
    ![](assets/content_experiment_14.png)
 
-Après avoir paramétré votre expérimentation et votre campagne, vous pouvez suivre le succès de votre diffusion avec le rapport Campagne .
+Après avoir paramétré votre expérimentation et votre campagne, vous pouvez suivre le succès de votre diffusion avec le rapport de campagne.
 
-## Rapport Objectifs {#objectives-global}
+## Rapport d’objectifs {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -139,7 +139,7 @@ Après avoir paramétré votre expérimentation et votre campagne, vous pouvez s
 
 L’onglet **[!UICONTROL Objectifs]** de votre rapport Campaign vous permet d’affiner davantage les rapports de vos diffusions en ciblant une mesure spécifique.
 
-Les **[!UICONTROL objectifs]** répertoriés sont liés aux **[!UICONTROL Jeux de données]** définissant une connexion à un système afin de récupérer des informations supplémentaires. Une liste d’**[!UICONTROL objectifs]** intégrés est disponible, mais vous pouvez l’accroître en ajoutant un nouveau **[!UICONTROL Jeu de données]**. Voir à ce sujet la procédure détaillée [section](reporting-configuration.md).
+Les **[!UICONTROL objectifs]** répertoriés sont liés aux **[!UICONTROL Jeux de données]** définissant une connexion à un système afin de récupérer des informations supplémentaires. Une liste d’**[!UICONTROL objectifs]** intégrés est disponible, mais vous pouvez l’accroître en ajoutant un nouveau **[!UICONTROL Jeu de données]**. Pour la procédure détaillée, consultez cette [section](reporting-configuration.md).
 
 Après avoir sélectionné les objectifs que vous souhaitez cibler, les deux widgets **[!UICONTROL Présentation des performances]** et **[!UICONTROL Objectif de la campagne]** fournissent un résumé détaillé des performances de votre diffusion.
 

@@ -9,7 +9,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1648'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ Les notifications push vous permettent d&#39;atteindre les utilisateurs de votre
 
 [!DNL Journey Optimizer] prend en charge les notifications push et vous permet d&#39;envoyer des notifications extrêmement pertinentes à des taux de débit de pointe. Les notifications push peuvent inclure une personnalisation et un contexte basé sur les parcours afin d&#39;exploiter les données de votre marque avec Adobe Experience Cloud.
 
-Les notifications push peuvent être créées :
+Les notifications push peuvent être créées :
 
-* Dans un **Parcours**: Une fois que vous avez ajouté une activité Push à votre parcours et défini des paramètres de base, utilisez la méthode **[!UICONTROL Actions : Push]** pour créer le contenu des notifications push.
+* Dans un **parcours** : une fois que vous avez ajouté une activité push à votre parcours et défini des paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : Push]** pour créer le contenu des notifications push.
 
-   Pour plus d&#39;informations sur le paramétrage de votre parcours, reportez-vous à cette section [page](../building-journeys/journey-gs.md).
+   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
-* Dans un **Campagne**: Une fois une opération créée, sélectionnez Notification push comme action et définissez les paramètres de base.
+* Dans une **campagne** : une fois une campagne créée, sélectionnez Notification push comme action et définissez les paramètres de base.
 
-   Pour plus d&#39;informations sur le paramétrage de votre opération, reportez-vous à cette section [page](../campaigns/create-campaign.md#configure).
+   Pour plus d’informations sur la configuration de votre campagne, consultez cette [page](../campaigns/create-campaign.md#configure).
 
 Utilisez les onglets dédiés pour définir les paramètres de notification push pour les systèmes d&#39;exploitation **iOS** et **Android**.
 

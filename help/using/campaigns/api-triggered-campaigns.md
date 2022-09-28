@@ -7,7 +7,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 ## Créer une campagne déclenchée par une API {#create}
 
-Le processus de création de campagnes déclenchées par l’API reste identique aux campagnes planifiées, à l’exception de la sélection d’audiences qui est effectuée dans la payload de l’API. Vous trouverez des informations détaillées sur la création d’une campagne dans [cette section](create-campaign.md).
+Le processus de création de campagnes déclenchées par API reste identique aux campagnes planifiées, à l’exception de la sélection d’audiences qui est effectuée dans la payload de l’API. Vous trouverez des informations détaillées sur la création d’une campagne dans [cette section](create-campaign.md).
 
 Pour créer une campagne déclenchée par API, procédez comme suit :
 

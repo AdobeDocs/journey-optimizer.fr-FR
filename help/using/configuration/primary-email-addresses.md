@@ -9,7 +9,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 51%
 >title="Définition de l’adresse à utiliser"
 >abstract="Lorsque plusieurs adresses sont disponibles dans la base de données (personnelle, professionnelle, etc.), vous pouvez choisir l&#39;adresse à prioriser pour l&#39;envoi."
 
-Lorsque vous ciblez un profil, plusieurs adresses email ou numéros de téléphone peuvent être disponibles dans la base de données (adresse email professionnelle, numéro de téléphone personnel, etc.).
+Lorsque vous ciblez un profil, plusieurs adresses e-mail ou numéros de téléphone peuvent être disponibles dans la base de données (adresse e-mail professionnelle, numéro de téléphone personnel, etc.).
 
-Avec [!DNL Journey Optimizer], vous pouvez déterminer l’adresse électronique ou le numéro de téléphone à utiliser à partir du service de profil et définir la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, suivez les étapes ci-après.
+Avec [!DNL Journey Optimizer], vous pouvez déterminer l’adresse e-mail ou le numéro de téléphone à utiliser à partir du service de profil et donner la priorité lorsque plusieurs adresses sont disponibles. Pour ce faire, suivez les étapes ci-après.
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Général]** > **[!UICONTROL Champs d’exécution]**.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. Les champs actuellement utilisés par défaut pour déterminer l’adresse email et le numéro de téléphone des profils s’affichent sur cet écran. Cliquez sur **[!UICONTROL Modifier]** pour les modifier.
+1. Les champs actuellement utilisés par défaut pour déterminer l’adresse e-mail et le numéro de téléphone des profils s’affichent sur cet écran. Cliquez sur **[!UICONTROL Modifier]** pour les modifier.
 
    ![](assets/primary-address.png)
 
-1. Cliquez sur le champ actif de votre choix ou sur l’icône d’édition pour sélectionner un nouveau champ.
+1. Cliquez sur le champ actif ou sur l’icône de modification pour sélectionner un nouveau champ.
 
    ![](assets/primary-address-edit.png)
 

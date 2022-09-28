@@ -9,7 +9,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
 
 1. Avant de créer des offres, [définissez vos composants](#define-components)
 
-   * Création d’emplacements
+   * Créer des emplacements
    * Création de règles de décision
    * Création de balises
    * Création de classements (facultatif)
@@ -191,7 +191,7 @@ Les étapes détaillées pour créer une collection sont présentées dans [cett
 
 Vous devez maintenant créer une décision qui combinera des emplacements avec les offres personnalisées et l&#39;offre de secours que vous venez de créer.
 
-Cette combinaison sera utilisée par le moteur de prise de décision pour trouver la meilleure offre pour un profil spécifique : dans cet exemple, il sera basé sur la priorité et la règle de décision que vous avez assignées à chaque offre.
+Cette combinaison sera utilisée par le moteur de décision afin de trouver la meilleure offre pour un profil spécifique : dans cet exemple, elle sera basée sur la priorité et la règle de décision que vous avez attribuées à chaque offre.
 
 Pour créer et configurer une décision d&#39;offre, procédez comme suit :
 

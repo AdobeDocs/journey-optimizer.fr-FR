@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1213'
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="Ajouter des e-mails ou des domaines à la liste de suppression"
->abstract="Vous pouvez remplir manuellement la liste de suppression de Journey Optimizer afin d’exclure des adresses électroniques et/ou domaines spécifiques de votre envoi."
+>abstract="Vous pouvez également remplir manuellement la liste de suppression de Journey Optimizer pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
@@ -195,7 +195,7 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
    >
    >Tous les caractères ASCII compris entre 32 et 126 sont autorisés dans la colonne **Commentaire**. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
 
-1. Une fois l’opération terminée, faites glisser et déposez votre fichier CSV, puis cliquez sur **[!UICONTROL Envoyer]**.
+1. Une fois l’opération terminée, glissez-déposez votre fichier CSV, puis cliquez sur **[!UICONTROL Soumettre]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 

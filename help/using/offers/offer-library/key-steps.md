@@ -9,7 +9,7 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Création d’emplacements</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Créer des emplacements</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Création de règles de décision</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Création de balises</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">Création de formules de classement</a></p></td>
@@ -58,7 +58,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 
 ## Création et configuration des décisions {#create-and-configure-decisions}
 
-1. **Créez une décision** qui combine des emplacements avec des offres personnalisées et des offres de secours. Cette combinaison sera utilisée par le moteur de prise de décision pour trouver la meilleure offre pour un profil spécifique.
+1. **Créez une décision** qui combine des emplacements avec des offres personnalisées et des offres de secours. Cette combinaison sera utilisée par le moteur de décision pour trouver la meilleure offre pour un profil spécifique.
 
 1. **Configurez la décision**. Pour ce faire, sélectionnez les emplacements, puis, pour chaque emplacement, sélectionnez une collection et une offre de secours.
 

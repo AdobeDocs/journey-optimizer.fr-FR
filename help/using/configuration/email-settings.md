@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1188'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Définissez les paramètres d’e-mail dans la section dédiée à la configurat
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Définition de la catégorie d’e-mail"
->abstract="Sélectionnez le type d&#39;email qui sera envoyé lors de l&#39;utilisation de cette surface : Marketing pour les emails promotionnels, qui nécessitent un consentement de l’utilisateur, ou Transactionnel pour les emails non commerciaux, qui peuvent également être envoyés à des profils désabonnés dans des contextes spécifiques."
+>abstract="Sélectionnez le type d’e-mails qui sera envoyé lors de l’utilisation de cette surface : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
 Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce à la surface : **Marketing** ou **Transactionnel**.
 
@@ -38,9 +38,9 @@ Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer 
 
 Lors de la [création d’un message](../messages/get-started-content.md), vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
-## Sous-domaine et pools d’adresses IP {#subdomains-and-ip-pools}
+## Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
-Dans le **Sous-domaine et pools d’adresses IP** , vous devez :
+Dans la section **Sous-domaine et groupes d’adresses IP**, vous devez effectuer les actions suivantes :
 
 1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;
 
 ## Paramètres d’en-tête{#email-header}
 
-Dans le **[!UICONTROL Paramètres d’en-tête]** , renseignez les noms et adresses email de l&#39;expéditeur associés au type d&#39;emails envoyés à partir de cette surface.
+Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d’expéditeur et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette surface.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 
 
 Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-mails envoyés par [!DNL Journey Optimizer] vers une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
 
-Pour ce faire, activez l’option **[!UICONTROL Email Cci]** fonctionnalité facultative au niveau de la surface du canal. [En savoir plus](bcc-email.md)
+Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** au niveau de la surface de canal. [En savoir plus](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -177,7 +177,7 @@ Les paramètres définis dans cette section seront ajoutés à la fin des URL in
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Vous pouvez ajouter jusqu’à 10 paramètres de suivi à l’aide de la variable **[!UICONTROL Ajouter un nouveau paramètre]** bouton .
+Vous pouvez ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
 
 ![](assets/preset-url-tracking.png)
 

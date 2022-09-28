@@ -9,7 +9,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Jeu de données d’événement de prise de décision{#ode-decisionevents}
+## Jeu de données d’événement Decisioning{#ode-decisionevents}
 
 _Nom dans l’interface : ODE DecisionEvents (jeu de données système)_
 

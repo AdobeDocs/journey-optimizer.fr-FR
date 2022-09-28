@@ -1,5 +1,5 @@
 ---
-title: Calculs statistiques utilisés par l’expérience Adobe Journey Optimizer
+title: Calculs statistiques utilisés par l’expérience Adobe Journey Optimizer
 description: En savoir plus sur les calculs statistiques utilisés lors de l’exécution d’expériences
 feature: A/B Testing
 topic: Content Management
@@ -11,15 +11,15 @@ exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Présentation des calculs statistiques {#experiment-calculations}
+# Comprendre les calculs statistiques {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
->Le **Expérience de contenu** Cette fonctionnalité est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité **Expérience de contenu** est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 Cet article décrit les calculs statistiques utilisés lors de l’exécution d’expériences dans Adobe Journey Optimizer.
 
@@ -58,7 +58,7 @@ Les fondements théoriques des **Séquences de confiance** proviennent de l’é
 
 >[!NOTE]
 >
->Les séquences de confiance peuvent être interprétées comme des analogies séquentielles sécurisées d’intervalles de confiance. Vous pouvez consulter et interpréter les données de vos expériences quand vous voulez, puis arrêter ou continuer les expériences en toute sécurité. Tout moment de confiance valide correspondant, ou `p-value`, est également correct à interpréter.
+>Les séquences de confiance peuvent être interprétées comme des analogies séquentielles sécurisées d’intervalles de confiance. Vous pouvez consulter et interpréter les données de vos expériences quand vous voulez, puis arrêter ou continuer les expériences en toute sécurité. L’attribut Confiance valide à tout moment correspond, ou `p-value`, peut également être interprété en toute sécurité.
 
 Il est important de noter que, puisque les séquences de confiance sont « valides à tout moment », elles seront plus conservatrices qu’une méthodologie d’horizon fixe utilisée à la même taille d’échantillon. Les limites de la séquence de confiance sont généralement plus larges qu’un calcul d’intervalle de confiance, tandis que le degré de confiance valide à tout moment sera plus petit qu’un calcul de confiance à horizon fixe. L’avantage de ce conventionnalisme est que vous pouvez en toute sécurité interpréter vos résultats à tout moment.
 
@@ -70,4 +70,4 @@ Chaque fois que vous consultez le rapport d’expérimentation, Adobe analyse le
 
 À ce stade, le traitement qui présente les meilleures performances (en fonction du taux de conversion ou de la valeur de mesure normalisée par le profil) est mis en surbrillance dans la partie supérieure de l’écran du rapport et signalé par une étoile dans le rapport tabulaire. Seuls les traitements dont le degré de confiance est supérieur à 95 %, ainsi que la ligne de base, sont pris en compte dans cette classification.
 
-Lorsqu’il existe plus de deux traitements, le lien de correction Bonferroni est utilisé pour corriger les problèmes de comparaison multiples et contrôler le taux d’erreur par famille. Dans ce scénario, il est également possible qu’il existe plusieurs traitements dont le degré de confiance est supérieur à 95 % et dont les intervalles de confiance se chevauchent. Dans ce cas, Adobe Journey Optimizer déclare que celui qui a le taux de conversion le plus élevé (ou la valeur de mesure normalisée par le profil) est le plus performant.
+Lorsqu’il existe plus de deux traitements, le lien de correction Bonferroni est utilisé pour corriger les problèmes de comparaison multiples et contrôler le taux d’erreur par famille. Dans ce scénario, il est également possible qu’il existe plusieurs traitements dont le degré de confiance est supérieur à 95 % et dont les intervalles de confiance se chevauchent. Dans ce cas, Adobe Journey Optimizer déclarera celui qui a le taux de conversion le plus élevé (ou la valeur de mesure normalisée par le profil) comme le plus performant.

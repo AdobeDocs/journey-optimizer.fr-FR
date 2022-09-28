@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="Définition de la fréquence de limitation"
+>title="Définir la fréquence de limitation"
 >abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
@@ -191,7 +191,7 @@ Pour définir la limitation, procédez comme suit.
 
       Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’e-mail, et 2 fois supplémentaires pour l’emplacement web.
 
-1. Une fois enregistrée et validée, si l&#39;offre a été présentée le nombre de fois que vous avez spécifié dans ce champ en fonction des critères et de la période que vous avez définis, sa diffusion s&#39;arrêtera.
+1. Une fois enregistrée et validée, si l’offre a été présentée le nombre de fois que vous avez spécifiées dans ce champ en fonction des critères et du délai que vous avez définis, sa diffusion s’arrêtera.
 
 Le nombre de fois où une offre est proposée est calculé au moment de la préparation de l&#39;email. Par exemple, si vous préparez un email contenant un certain nombre d&#39;offres, ces chiffres sont pris en compte dans votre limitation maximale, et ce que l&#39;email soit envoyé ou non.
 

@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Prenons l’exemple du segment « Ouverture et passage en caisse de l’applica
 
 >[!NOTE]
 >
->Pour les parcours qui utilisent une activité Lecture de segment , un nombre maximal de parcours peut commencer exactement en même temps. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture de segment, planifié ou commençant &quot;le plus tôt possible&quot;) à partir exactement en même temps en les répartissant dans le temps, par exemple entre 5 et 10 minutes d’intervalle.
+>Pour les parcours qui utilisent une activité Lecture de segment, un nombre maximal de parcours peut commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture de segment, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
 >
 >Le module complémentaire payant Rafale permet d&#39;envoyer très rapidement des messages push en gros volumes pour des parcours simples comprenant une lecture de segment et un message push simple. Voir à ce sujet [cette section](../building-journeys/journey-gs.md#burst)
 

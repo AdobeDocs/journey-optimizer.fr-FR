@@ -92,7 +92,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
     </tr>
 </table>
 
-### Fonctions de date/heure{#date-functions}
+### Fonctions date/heure{#date-functions}
 
 <table>
     <tr>

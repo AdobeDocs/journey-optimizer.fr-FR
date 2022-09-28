@@ -41,7 +41,7 @@ ht-degree: 98%
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
       + [Créer une expérience de contenu](using/campaigns/content-experiment.md)
-      + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
+      + [Comprendre les calculs statistiques](using/campaigns/experiment-calculations.md)
       + [Configurer des rapports d’expérimentation](using/campaigns/reporting-configuration.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
@@ -97,13 +97,13 @@ ht-degree: 98%
          + [Utilisation d’expressions enregistrées](using/personalization/personalization-library.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + Fonctions helper{#functions}
-         + [Prise en main des fonctions helper](using/personalization/functions/functions.md)
+         + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
          + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
          + [Fonctions date/heure](using/personalization/functions/dates.md)
          + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
-         + [Helpers](using/personalization/functions/helpers.md)
+         + [Assistants](using/personalization/functions/helpers.md)
          + [Fonctions de mappage](using/personalization/functions/maps.md)
          + [Fonctions d’objet](using/personalization/functions/objects.md)
          + [Fonctions de chaîne](using/personalization/functions/string.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
       + [Étapes clés de création et de gestion des offres](using/offers/offer-library/key-steps.md)
       + [Cas pratique : insertion d’offres dans un e-mail](using/offers/offers-e2e.md)
    + Création de composants {#create-components}
-      + [Création d’emplacements](using/offers/offer-library/creating-placements.md)
+      + [Créer des emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
       + [Création de balises](using/offers/offer-library/creating-tags.md)
    + Créer des classements {#rankings}

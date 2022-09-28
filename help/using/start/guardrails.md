@@ -9,7 +9,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Vous trouverez ci-dessous des éléments de sécurité et des limitations suppl�
 
 ## Sécurisation de la gestion des décisions {#offer-guardrails}
 
-Les barrières de performance et les limites statiques pour la prise de décision sont répertoriées dans la section [Page de description du produit Adobe Offer decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+Les protections des performances et les limites statiques pour la prise des décisions sont répertoriées dans la [page de description du produit de service d’application d’Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## Sécurisation des pages de destination {#lp-guardrails}
@@ -88,4 +88,4 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 ### Lecture de segment {#read-segment-g}
 
 * Les segments diffusés en continu sont toujours à jour, mais les segments par lots ne sont pas calculés au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
-* Pour les parcours qui utilisent une activité Lecture de segment , un nombre maximal de parcours peut commencer exactement en même temps. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture de segment, planifié ou commençant &quot;le plus tôt possible&quot;) à partir exactement en même temps en les répartissant dans le temps, par exemple entre 5 et 10 minutes d’intervalle.
+* Pour les parcours qui utilisent une activité Lecture de segment, un nombre maximal de parcours peut commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture de segment, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.

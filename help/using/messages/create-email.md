@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 70%
 >title="Création d&#39;un e-mail"
 >abstract="Définissez vos paramètres d&#39;e-mail en trois étapes simples."
 
-Les emails peuvent être créés :
+Les e-mails peuvent être créés :
 
-* Dans un **Parcours**: Une fois que vous avez ajouté une activité Email dans votre parcours et défini des paramètres de base, utilisez la méthode **[!UICONTROL Actions : Email]** pour créer le contenu des notifications push.
+* Dans un **parcours** : une fois que vous avez ajouté une activité d’e-mail dans votre parcours, et défini les paramètres de base, utilisez le panneau de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu des notifications push.
 
-   Pour plus d&#39;informations sur le paramétrage de votre parcours, reportez-vous à cette section [page](../building-journeys/journey-gs.md).
+   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
    ![](assets/email-edit-content.png)
 
-* Dans un **Campagne**: Une fois une campagne créée, sélectionnez Email comme action et définissez les paramètres de base.
+* Dans une **campagne** : une fois une campagne créée, sélectionnez E-mail comme action et définissez les paramètres de base.
 
-   Pour plus d&#39;informations sur le paramétrage de votre opération, reportez-vous à cette section [page](../campaigns/create-campaign.md#configure).
+   Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
 
    ![](assets/email_campaign.png)
 

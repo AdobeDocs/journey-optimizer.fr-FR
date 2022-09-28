@@ -1,6 +1,6 @@
 ---
 title: Modifier ou arrêter une campagne
-description: Découvrez comment modifier, arrêter ou dupliquer des campagnes actives dans [!DNL Journey Optimizer]
+description: Découvrez comment modifier, arrêter ou dupliquer des campagnes actives dans  [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
@@ -9,19 +9,19 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 # Gérer des campagnes actives {#modify-stop-campaign}
 
-Une fois qu&#39;une campagne a été activée, vous pouvez la modifier ou l&#39;arrêter à tout moment. Ces opérations sont disponibles pour les opérations dont l’exécution est récurrente uniquement.
+Une fois qu’une campagne a été activée, vous pouvez la modifier ou l’arrêter à tout moment. Ces opérations sont disponibles pour les campagnes dont l’exécution est récurrente uniquement.
 
 De plus, vous pouvez dupliquer des campagnes actives (exécutées une fois ou avec une exécution récurrente) pour en créer de nouvelles.
 
-## Modifier une opération récurrente {#modify}
+## Modifier une campagne récurrente {#modify}
 
-Pour modifier et créer une nouvelle version d&#39;une opération récurrente, procédez comme suit :
+Pour modifier et créer une nouvelle version d’une campagne récurrente, procédez comme suit :
 
 1. Ouvrez la campagne, puis cliquez sur le bouton **[!UICONTROL Modifier la campagne]**.
 
@@ -39,19 +39,19 @@ Pour modifier et créer une nouvelle version d&#39;une opération récurrente, p
    >
    >L’activation du brouillon remplacera la version active de la campagne.
 
-## Arrêter une opération récurrente {#stop}
+## Arrêter une campagne récurrente {#stop}
 
-Pour arrêter une opération récurrente, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL Arrêter la campagne]** bouton .
+Pour arrêter une campagne récurrente, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL Arrêter la campagne]**.
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->L’arrêt d’une campagne n’arrête pas un envoi en cours, mais elle arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
+>L’arrêt d’une campagne n’arrête pas un envoi continu, mais elle arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
 
 <!-- inbound campaign (inapp): can stop and resume -->
 
-## Dupliquer une opération {#duplicate}
+## Dupliquer une campagne {#duplicate}
 
 Vous pouvez dupliquer une campagne active pour en créer une nouvelle. Pour ce faire, ouvrez la campagne, puis cliquez sur **[!UICONTROL Dupliquer]**.
 
