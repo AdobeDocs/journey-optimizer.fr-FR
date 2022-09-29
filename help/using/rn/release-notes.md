@@ -2,7 +2,7 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
+source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 28%
@@ -198,7 +198,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 ### Autres modifications{#sept-2022-other}
 
-* Le mode de parcours en rafale a été remplacé par le mode de livraison rapide de Campaign. [En savoir plus](../campaigns/create-campaign.md#rapid-delivery})
+* Le mode de parcours en rafale a été remplacé par le mode de livraison rapide de Campaign. [En savoir plus](../campaigns/create-campaign.md#rapid-delivery)
 * Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par un segment Lecture, une qualification de segment ou une activité d’événement professionnel. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. [En savoir plus](../start/guardrails.md#expression-editor)
 * La limitation d’une heure pour les parcours de segment de lecture planifiés a été supprimée. Ces parcours peuvent désormais être exécutés sans délai.
 
