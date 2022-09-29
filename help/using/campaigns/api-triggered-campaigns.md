@@ -1,23 +1,17 @@
 ---
 title: Déclencher des campagnes à l’aide d’API
 description: Découvrez comment déclencher des campagnes à l’aide d’ [!DNL Journey Optimizer] API
-hide: true
-hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 82%
 
 ---
 
 # Déclencher des campagnes à l’aide d’API {#trigger-campaigns}
 
 ## À propos des campagnes déclenchées par API {#about}
-
->[!NOTE]
->
->L’API d’exécution de message interactif est actuellement en version bêta et peut être fréquemment mise à jour sans préavis.
 
 Avec [!DNL Journey Optimizer], vous pouvez créer des campagnes, puis les appeler à partir d’un système externe en fonction du déclencheur utilisateur à l’aide de la fonction [API REST d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Vous pouvez ainsi couvrir divers besoins de messagerie opérationnelle et transactionnelle tels que les réinitialisations de mot de passe, le jeton OTP, etc.
 
@@ -44,8 +38,12 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
    >[!NOTE]
    >
    >Vous pouvez transmettre des données supplémentaires dans la payload de l’API que vous pouvez utiliser pour personnaliser votre message. [En savoir plus](#contextual)
+   >
+   >L’utilisation d’un grand nombre de données contextuelles importantes dans votre contenu peut avoir un impact sur les performances.
 
-1. Indiquez l’espace de noms à utiliser pour identifier les individus du segment.
+1. Dans le **[!UICONTROL Audience]** , spécifiez l’espace de noms à utiliser pour identifier les individus du segment.
+
+   Le **[!UICONTROL Créer de nouveaux profils]** permet de créer automatiquement des profils qui n&#39;existent pas dans la base de données. [En savoir plus sur la création de profils lors de l&#39;exécution de campagne](#profile-creation)
 
 1. Configurez les dates de début et de fin de la campagne.
 
@@ -88,6 +86,16 @@ Vous pouvez ensuite utiliser cet identifiant dans la payload de votre API pour d
 
 Notez que si vous avez configuré une date de début et/ou de fin spécifique lors de la création de la campagne, elle ne sera pas exécutée en dehors de ces dates et les appels API échoueront.
 
+## Création de profils lors de l’exécution de la campagne {#profile-creation}
+
+Dans certains cas, vous devrez peut-être envoyer des messages transactionnels à des profils qui n’existent pas dans le système, par exemple si un utilisateur inconnu tente de se connecter à votre site web.
+
+Lorsqu&#39;un profil n&#39;existe pas dans la base de données, Journey Optimizer vous permet de le créer automatiquement lors de l&#39;exécution de la campagne afin de permettre l&#39;envoi du message à ce profil.
+
+Pour ce faire, activez la fonction **[!UCONTROL Créer de nouveaux profils]** activée dans la variable **[!UICONTROL Audience]** .
+
+![](assets/api-triggered-create-profile.png)
+
 >[!NOTE]
 >
->Dans certains cas, vous devrez peut-être envoyer des messages transactionnels à des profils qui n’existent pas dans le système, par exemple si un utilisateur inconnu tente de se connecter à votre site web. Dans ce cas, le profil correspondant est automatiquement créé dans Adobe Experience Platform, dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**.
+>Les profils inconnus sont créés dans la variable **Jeu de données de profil de messagerie interactive AJO** jeu de données, dans trois espaces de noms par défaut (email, téléphone et ECID), respectivement pour chaque canal sortant (email, SMS et push).

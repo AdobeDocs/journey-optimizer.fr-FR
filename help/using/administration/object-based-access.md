@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 14%
 >id="ajo_olac_manage_access"
 >title="Contrôle d’accès au niveau de l’objet"
 >abstract="Si vous appliquez des libellés auxquels vous n’avez pas accès, votre accès à cet objet sera révoqué."
+
+>[!IMPORTANT]
+>
+>L’utilisation du contrôle d’accès au niveau de l’objet est actuellement limitée à certains clients et sera déployée dans tous les environnements dans une prochaine version.
 
 Le contrôle d&#39;accès au niveau de l&#39;objet (OLAC) permet de définir des autorisations pour gérer l&#39;accès aux données à une sélection d&#39;objets :
 
@@ -86,6 +88,7 @@ Pour attribuer des libellés d’utilisation des données personnalisés ou de b
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer cette restriction de libellé.
 
 Pour pouvoir accéder à cet objet, les utilisateurs doivent disposer de la variable **[!UICONTROL Libellé]** inclus à **[!UICONTROL Rôles]**.
+Par exemple, un utilisateur avec l’étiquette C1 n’aura accès qu’aux objets étiquetés C1 ou non étiquetés.
 
 Pour plus d’informations sur l’affectation **[!UICONTROL Libellé]** à **[!UICONTROL Rôle]**, voir [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

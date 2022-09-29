@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 5a33508759d527a76dd7119102358ae345107652
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,16 @@ ht-degree: 100%
 
 Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur un segment spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
-Créez des campagnes pour envoyer des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des informations juridiques ou des mises à jour de politiques.
+Vous pouvez créer deux types de campagnes :
+
+* **Les campagnes planifiées** permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
+* **Les campagnes déclenchées par API** permettent des messages transactionnels/opérationnels simples avec des API REST (réinitialisation de mot de passe, abandon de panier, etc.), où le besoin peut impliquer une personnalisation à l’aide d’attributs de profil et de données contextuelles issues de la payload.
 
 Suivez les étapes de création dʼune campagne décrites ci-après :
 
 ![](assets/create-campaign-process.png)
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
-
-<!--You can create two types of campaigns:
-
-* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Avant de commencer {#campaign-prerequisites}
 

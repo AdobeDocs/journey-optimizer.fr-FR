@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 100%
@@ -133,7 +133,7 @@ L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 
 
 Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-mails envoyés par [!DNL Journey Optimizer] vers une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
 
-Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** au niveau de la surface de canal. [En savoir plus](bcc-email.md)
+Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** au niveau de la surface de canal. [En savoir plus](archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 

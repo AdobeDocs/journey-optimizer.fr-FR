@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 100%
+source-wordcount: '1323'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ Prenons l’exemple du segment « Ouverture et passage en caisse de l’applica
 >
 >Pour les parcours qui utilisent une activité Lecture de segment, un nombre maximal de parcours peut commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture de segment, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
 >
->Le module complémentaire payant Rafale permet d&#39;envoyer très rapidement des messages push en gros volumes pour des parcours simples comprenant une lecture de segment et un message push simple. Voir à ce sujet [cette section](../building-journeys/journey-gs.md#burst)
+>Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par un segment lu, une qualification de segment ou une activité d’événement commercial.
 
 ### Configuration de l’activité {#configuring-segment-trigger-activity}
 
@@ -108,6 +108,8 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >Les parcours de lecture de segment en une fois passent à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence.
+>
+>Soyez prudent lorsque vous utilisez des activités d’attente dans des parcours de segment de lecture récurrente, car la durée de vie de ces parcours se termine à la prochaine exécution. En d’autres termes, si un parcours s’exécute tous les jours, l’instance de parcours qui a démarré aujourd’hui durera jusqu’à l’exécution de demain. Par exemple, si vous avez ajouté un délai d’attente de 2 jours dans ce parcours, les profils seront toujours déplacés lors de l’exécution du parcours suivant (c’est-à-dire le lendemain), qu’ils se trouvent ou non dans l’audience d’exécution suivante. Les profils ne pourront jamais rester dans ce parcours pendant 2 jours.
 
 ### Tester et publier le parcours {#testing-publishing}
 

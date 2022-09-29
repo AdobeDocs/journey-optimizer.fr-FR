@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: d6ff34a36abcf2b2233079aeddb5a5f0919f2590
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 98%
+source-wordcount: '1153'
+ht-degree: 97%
 
 ---
 
@@ -21,9 +21,6 @@ ht-degree: 98%
       + [Notes de mise à jour 2022](using/rn/release-notes-2022.md)
       + [Notes de mise à jour 2021](using/rn/release-notes-2021.md)
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
-   + Nouvelle fonctionnalité de création intégrée {#inline-authoring}
-      + [Présentation de la migration](using/rn/inline-messages.md)
-      + [Étapes de migration](using/rn/inline-messages-steps.md)
 + Prise en main{#get-started}
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Démarrage rapide{#quick-start}
@@ -37,6 +34,7 @@ ht-degree: 98%
 + Campagnes{#campaigns}
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Créer une campagne](using/campaigns/create-campaign.md)
+   + [Examiner et activer une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer des campagnes actives](using/campaigns/modify-stop-campaign.md)
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
@@ -271,6 +269,7 @@ ht-degree: 98%
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/reports/deliverability.md)
       + [Présentation de la liste de suppression](using/reports/suppression-list.md)
+   + [Alertes](using/reports/alerts.md)
 + Gestion des décisions {#offer-decisioning}
    + Prise en main de la gestion des décisions {#get-started-decision}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -395,7 +394,7 @@ ht-degree: 98%
       + Configurer des surfaces de canal {#set-up-channels}
          + [Créer des surfaces de canal](using/configuration/channel-surfaces.md)
          + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
-         + [Utiliser E-mail Cci](using/configuration/bcc-email.md)
+      + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
       + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)
       + [Configuration des règles de fréquence](using/configuration/frequency-rules.md)
    + Configuration des pages de destination   {#lp-configuration}
@@ -422,7 +421,6 @@ ht-degree: 98%
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
          + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
          + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Consentement](using/action/consent.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
    + [Présentation du contrôle d’accès](using/administration/permissions-overview.md)
@@ -435,4 +433,6 @@ ht-degree: 98%
 + Confidentialité {#privacy}
    + [Stratégies d’utilisation des données](using/privacy/policies.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources Journey Optimizer](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources](using/privacy/audit-logs.md)
+   + [Consentement](using/action/consent.md)
+   + [Gouvernance des données](using/action/action-privacy.md)

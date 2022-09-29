@@ -4,9 +4,9 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -70,9 +70,9 @@ Pour créer un préréglage de page de destination, procédez comme suit.
 
    Par exemple, si l’URL de la page de destination est « pages.mail.luma.com » et que lʼURL de tracking est « data.mail.luma.com », vous pouvez choisir « pages.mail.luma.com » comme sous-domaine de tracking.
 
-1. Cliquez sur **[!UICONTROL Envoyer]** pour confirmer la création du préréglage de page de destination. Vous pouvez également enregistrer le préréglage en tant que brouillon et reprendre sa configuration ultérieurement.
+1. Cliquez sur **[!UICONTROL Envoyer]** pour confirmer la création du préréglage de page de destination. <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. Une fois le préréglage de page de destination créé, il sʼaffiche dans la liste avec le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé avec vos pages de destination.
 

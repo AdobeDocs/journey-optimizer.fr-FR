@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 92%
 
 ---
 
@@ -55,6 +55,8 @@ Pour créer une collection, procédez comme suit :
    >[!NOTE]
    >
    >Les collections statiques ne sont pas mises à jour automatiquement. Pour ajouter des offres à une collection statique, vous devez les modifier et les ajouter manuellement.
+
+1. Pour attribuer des libellés d’utilisation de données personnalisés ou de base à une collection statique, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../../administration/object-based-access.md)
 
 1. Une fois la collection créée, elle s&#39;affiche dans la liste. Vous pouvez la sélectionner pour la modifier ou la supprimer.
 

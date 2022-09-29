@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 100%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
@@ -83,9 +83,15 @@ Cette condition vous permet d’effectuer des actions différentes en fonction d
 
 >[!NOTE]
 >
->Le fuseau horaire n’est plus spécifique à une condition et est maintenant défini au niveau du parcours dans les propriétés de celui-ci. Voir [cette page](../building-journeys/timezone-management.md).
+>Le fuseau horaire n’est pas spécifique à une condition et est défini au niveau du parcours dans les propriétés du parcours. Voir [cette page](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
+
+Trois options de filtrage sont disponibles :
+
+* Heure : vous permet de configurer une condition en fonction de l’heure de la journée. Vous définissez ensuite les heures de début et de fin. Les individus ne saisissent le chemin que pendant la période définie.
+* Jour de la semaine : vous permet de configurer une condition en fonction du jour de la semaine. Vous sélectionnez ensuite les jours où vous souhaitez que les individus entrent dans le chemin.
+* Jour de la semaine et heure : cette option regroupe les deux premières options.
 
 ## Partage en pourcentage {#percentage_split}
 

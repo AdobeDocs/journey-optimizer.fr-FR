@@ -4,10 +4,10 @@ description: Découvrez comment utiliser des jeux de données Adobe Experience�
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 76%
 
 ---
 
@@ -33,12 +33,30 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 
+Voici les différents jeux de données disponibles :
+
+**Reporting**
+
+* _Reporting - Jeu de données d’événement de retour de message_: Logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et de segments. Les commentaires des FAI par e-mail sur les bounces sont également enregistrés dans ce jeu de données.
+* _Reporting - Jeu de données d’événement de suivi de messagerie_: Logs d’interaction pour le canal Email qui est utilisé à des fins de création de rapports et de segments. Informations stockées : informations sur les actions effectuées par l’utilisateur final dans un email (ouvertures, clics, etc.).
+* _Reporting - Jeu de données d’événement de suivi push_: Logs d’interaction pour le canal Push utilisés à des fins de création de rapports et de segments. Informations stockées : informations sur les actions effectuées par l’utilisateur final dans les notifications push.
+* _Reporting - Événement d’étape de Parcours_: Capture tous les événements d’expérience d’étape de Parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. Également essentiel pour la création de rapports en Customer Journey Analytics pour l’analyse YoY. Associé à des métadonnées de Parcours.
+* _Reporting - Parcours_: Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours.
+* _Reporting - Cci_: Jeu de données d’événement de retour qui stocke les logs de diffusion pour les emails en Cci. À utiliser à des fins de création de rapports.
+
+**Consentement**
+
+* _Jeu de données du service de consentement_: stocke les informations de consentement d’un profil.
+
+**Intelligent Services**
+
+* _Scores d’optimisation du temps d’envoi / Scores d’engagement_: Scores de sortie de l’IA Parcours.
+
 ## Aperçu des jeux de données{#preview-datasets}
 
 Dans l’écran Activité du jeu de données, sélectionnez **Prévisualiser le jeu de données** près du coin supérieur droit de l’écran pour prévisualiser le lot le plus récent ayant réussi dans ce jeu de données. Lorsqu’un jeu de données est vide, le lien de prévisualisation est désactivé.
 
 ![](assets/dataset-preview.png)
-
 
 ## Création de jeux de données{#create-datasets}
 

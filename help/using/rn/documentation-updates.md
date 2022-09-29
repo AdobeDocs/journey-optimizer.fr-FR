@@ -2,16 +2,29 @@
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 100%
+source-wordcount: '2002'
+ht-degree: 94%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
+
+## Septembre 2022 {#september-2022}
+
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 septembre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* Ajout d’une bonne pratique liée à l’utilisation des activités d’attente dans les parcours de segments de lecture récurrente. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Ajout d’exemples de requête d’événement d’étape, ainsi que d’informations sur la différence entre id, instanceid et profileid. [En savoir plus](../reports/query-examples.md).
+* Mise à jour des pages relatives au [toDateOnly](../building-journeys/functions/functiontodateonly.md) et [toString](../building-journeys/functions/functiontostring.md) fonctions.
+* Ajout de détails sur les paramètres de condition de temps. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
+* Ajout d’informations sur les jeux de données intégrés. [En savoir plus](../start/get-started-datasets.md#access-datasets)
+* Les sections Rapport global et Rapport en direct ont été réorganisées pour une meilleure lisibilité. [En savoir plus](../reports/global-report.md)
+* Une liste de toutes les mesures de création de rapports disponibles dans Adobe Journey Optimizer a été ajoutée.
+   [En savoir plus](../reports/global-report.md#email-and-sms-metrics)
+* La section Email en Cci a été déplacée vers la nouvelle page Assistance pour l&#39;archivage. [En savoir plus](../configuration/archiving-support.md)
 
 ## Août 2022 {#august-2022}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ Vous pouvez choisir parmi les options suivantes :
 * Modèles enregistrés. [En savoir plus](#save-as-template)
 
 ## Enregistrer en tant que modèle {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Découvrez comment migrer vos messages"
+>abstract="Le 25 juillet 2022, le menu Messages a disparu et les messages sont maintenant créés directement depuis un Parcours. Si vous souhaitez réutiliser vos messages hérités dans les parcours, vous devez les enregistrer en tant que modèles."
 
 Une fois que vous avez créé le [contenu de votre e-mail](design-emails.md), vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
 

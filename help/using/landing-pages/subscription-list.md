@@ -6,16 +6,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 61dac9f39ed0fc8f4403071049f14d34a43acbb4
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 92%
 
 ---
 
 # Listes dʼabonnements {#create-subscription-list}
 
 ## Qu’est-ce qu’une liste dʼabonnements ? {#subscription-list-definition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_list"
+>title="Configurer une liste d’abonnements"
+>abstract="Créez une liste d’abonnements afin de rassembler les profils ayant accepté de recevoir des communications sur un sujet ou un événement spécifique. "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Créer une liste dʼabonnements"
 
 Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt spécifique etc. de manière régulière. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
 
@@ -29,7 +35,7 @@ Voici quelques exemples de services dʼabonnement :
 
 Les profils peuvent être ajoutés à une liste dʼabonnements au moyen dʼune [page de destination](create-lp.md). Retrouvez un exemple dans [cette section](lp-use-cases.md#subscription-to-a-service).
 
-## Définition d’une liste dʼabonnements {#define-subscription-list}
+## Créer une liste dʼabonnements {#define-subscription-list}
 
 Pour créer une liste dʼabonnements, procédez comme suit :
 

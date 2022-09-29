@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 99%
+source-wordcount: '1571'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c�
 > * Vous devez effectuer les opérations suivantes : [Configuration du canal e-mail](#configure-email-settings), [Configuration du canal push](../configuration/push-configuration.md) et [Configuration du canal SMS](../configuration/sms-configuration.md) avant de créer des surfaces de canal.
 
 
-Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours.
+Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d&#39;un parcours ou d&#39;une campagne.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Paramètres de surface de canal"
->abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel elle s’applique et définissez tous les paramètres techniques requis pour vos messages, tels que le type de message, le sous-domaine, le nom de l’expéditeur, les applications mobiles, la configuration des SMS, etc."
+>abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel il s’applique et définissez tous les paramètres techniques requis pour votre envoi, tels que le type d’email, le nom de l’expéditeur, les applications mobiles, la configuration des SMS, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Paramètres de surface de canal"
->abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel elle s’applique et définissez tous les paramètres techniques requis pour vos messages, tels que le type de message, le sous-domaine, le nom de l’expéditeur, les applications mobiles, la configuration des SMS etc."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="Pour pouvoir créer des actions telles que des emails provenant d&#39;un parcours ou d&#39;une campagne, vous devez d&#39;abord créer une surface de canal qui définit tous les paramètres techniques requis pour vos messages. Vous devez disposer de l’autorisation Gérer la surface du canal pour créer, modifier et supprimer les surfaces du canal."
 
 Pour créer une surface de canal, procédez comme suit :
 
@@ -90,7 +88,10 @@ Pour créer une surface de canal, procédez comme suit :
 
 1. Une fois la surface de canal créée, elle s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
 
-   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’elle a été correctement configurée. Le temps de traitement est d’environ **48 h à 72 h** et peut prendre jusqu’à **7 à 10 jours ouvrables**.
+   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’elle a été correctement configurée. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >Lors de la création de la première surface de canal pour un sous-domaine donné, le temps de traitement peut prendre **10 minutes à 10 jours**. Si le sous-domaine sélectionné est déjà utilisé sur une autre surface, cela ne prendra que 3 heures.
 
    Ces vérifications comprennent des tests de configuration et des tests techniques effectués par l’équipe dʼAdobe :
 
@@ -101,6 +102,7 @@ Pour créer une surface de canal, procédez comme suit :
    * Vérification de l&#39;hôte Helo
    * Vérification du pool d&#39;adresses IP
    * Enregistrement A/PTR, vérification du sous-domaine t/m/res
+   * Enregistrement FBL (cette vérification ne sera effectuée que la première fois qu’une surface d’email est créée pour un sous-domaine donné)
 
    >[!NOTE]
    >

@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 70%
 
 ---
 
@@ -33,10 +32,10 @@ ht-degree: 100%
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne :
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)-->
+   * **[!UICONTROL Planifié]** : permet d’exécuter immédiatement la campagne ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de type **marketing**.
+   * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
 
@@ -47,8 +46,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
-
-<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. Indiquez un titre et une description pour la campagne.
 
@@ -76,7 +73,9 @@ ht-degree: 100%
 
 1. Définissez l’audience à cibler. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]** pour afficher la liste des segments Adobe Experience Platform disponibles. [En savoir plus sur les segments](../segment/about-segments.md)
 
-   <!-- NOTE For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)-->
+   >[!NOTE]
+   >
+   >Pour les campagnes déclenchées par API, l’audience doit être définie via un appel API. [En savoir plus](api-triggered-campaigns.md)
 
    Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
 
@@ -90,41 +89,9 @@ ht-degree: 100%
 
 1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [Découvrez comment planifier des campagnes](#schedule)
 
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** bouton . [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
+
 Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
-
-## Examiner et activer une campagne {#review-activate}
-
-Une fois votre campagne configurée, vous devez passer en revue son paramètre et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
-
-1. Dans l’écran de configuration de la campagne, cliquez sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne.
-
-   Le résumé vous permet de modifier votre campagne si nécessaire et de vérifier si un paramètre est incorrect ou manquant.
-
-   >[!IMPORTANT]
-   >
-   >En cas d’erreur, vous ne pouvez pas activer la campagne. Résolvez les erreurs avant de continuer.
-
-   ![](assets/create-campaign-alerts.png)
-
-1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
-
-   ![](assets/create-campaign-review.png)
-
-1. La campagne est maintenant activée. Son état est soit **[!UICONTROL Actif]**, soit **[!UICONTROL Planifié]** si vous avez saisi une date de début. [En savoir plus sur les statuts des campagnes](get-started-with-campaigns.md#statuses).
-
-   Le message configuré dans la campagne est exécuté immédiatement ou à la date indiquée.
-
-   >[!NOTE]
-   >
-   >Le statut **[!UICONTROL Terminé]** est automatiquement affecté à une campagne 3 jours après son activation ou à la date de fin de la campagne si son exécution est récurrente.
-   >
-   >Si aucune date de fin n’a été spécifiée, la campagne conserve le statut **[!UICONTROL Actif]**. Pour le modifier, vous devez arrêter manuellement la campagne. [Découvrez comment arrêter une campagne](modify-stop-campaign.md)
-
-1. Une fois qu’une campagne a été activée, vous pouvez vérifier à tout moment ses informations en l’ouvrant. Le résumé vous permet d’obtenir des statistiques sur le nombre de profils ciblés et les actions diffusées et en échec.
-
-   Vous pouvez également obtenir des statistiques supplémentaires dans les rapports dédiés en cliquant sur le bouton **[!UICONTROL Rapports]**. [En savoir plus](../reports/campaign-global-report.md)
-
-   ![](assets/create-campaign-summary.png)
 
 ## Planifier une campagne {#schedule}
 
@@ -135,3 +102,40 @@ Vous pouvez définir la fréquence d’envoi du message de la campagne. Pour ce 
 Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé à l’aide de l’option **[!UICONTROL Début de campagne]**. L’option **[!UICONTROL Fin de campagne]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
 
 ![](assets/create-campaign-schedule.png)
+
+## Mode de diffusion rapide {#rapid-delivery}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rapid_delivery"
+>title="Mode de diffusion rapide"
+>abstract="Le mode de diffusion rapide est un module complémentaire Journey Optimizer qui vous permet d’effectuer des dépenses rapides pour des messages non personnalisés vers des audiences de moins de 30 millions de profils."
+
+Le mode de livraison rapide, précédemment connu sous le nom de mode d’éclatement en parcours, est un [!DNL Journey Optimizer] module complémentaire permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
+
+La diffusion rapide est utilisée lorsque le retard dans la diffusion des messages est essentiel pour l’entreprise, lorsque vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une info-bulle destinée aux utilisateurs qui ont installé votre application de canal d’actualités.
+
+Pour plus d&#39;informations sur les performances lors de l&#39;utilisation du mode de diffusion Rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
+
+
+### Conditions préalables {#prerequisites}
+
+La messagerie de diffusion rapide est fournie avec les exigences suivantes :
+
+* La livraison rapide est disponible pour **[!UICONTROL Planifié]** campagnes uniquement et n’est pas disponible pour les campagnes déclenchées par l’API,
+* Aucune personnalisation n&#39;est autorisée dans le message push,
+* L&#39;audience cible doit contenir moins de 30 millions de profils,
+* Vous pouvez exécuter simultanément jusqu’à 5 campagnes à l’aide du mode de diffusion Rapid .
+
+### Activation du mode de diffusion Rapid
+
+1. Créer une campagne de notification push et activer/désactiver la variable **[!UICONTROL Diffusion rapide]** .
+
+![](assets/create-campaign-burst.png)
+
+1. Configurez le contenu du message et sélectionnez l’audience à cibler. [Découvrez comment créer une campagne ](#create)
+
+   >[!IMPORTANT]
+   >
+   >Assurez-vous que le contenu du message ne contient aucune personnalisation et que l’audience contient moins de 30 millions de profils.
+
+1. Vérifiez et activez votre campagne comme vous le faites habituellement. Notez que, en mode test, les messages ne sont pas envoyés via le mode de diffusion Rapid . [Découvrez comment passer en revue et activer une campagne](review-activate-campaign.md)

@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 2f89b3a2e067d269a6316ae26d280924a530fe51
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,7 @@ Le tableau ci-dessous présente les actions sur lesquelles les ressources Journe
 
 | Ressource | Action |
 |-----------|------------------|
+| Campagne AJO | Créer / Supprimer / Mettre à jour / Activer / Arrêter |
 | Paramètre général du canal AJO | Créer / Supprimer / Mettre à jour |
 | Groupe d’adresses IP AJO | Créer / Supprimer / Mettre à jour |
 | Page de destination AJO | Créer / Supprimer / Mettre à jour / Publier / Dépublier |
@@ -41,7 +42,7 @@ Le tableau ci-dessous présente les actions sur lesquelles les ressources Journe
 | Préréglage de la page de destination AJO | Créer / Supprimer / Mettre à jour |
 | Sous-domaine de page de destination AJO | Créer / Supprimer / Mettre à jour |
 | Message AJO | Créer / Supprimer / Mettre à jour / Publier |
-| Surface du canal AJO | Créer / Supprimer / Mettre à jour |
+| Paramètre de message prédéfini AJO | Créer / Supprimer / Mettre à jour |
 | Enregistrement PTR AJO | Créer / Supprimer / Mettre à jour |
 | Modèle d’expression enregistré AJO | Créer / Supprimer / Mettre à jour |
 | Informations d’identification de l’API SMS AJO | Créer / Supprimer / Mettre à jour |

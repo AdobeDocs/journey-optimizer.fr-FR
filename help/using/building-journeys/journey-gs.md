@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 100%
+source-wordcount: '1147'
+ht-degree: 91%
 
 ---
 
@@ -81,7 +81,7 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
 Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
 
-Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et, si vous être administrateur, définir une durée de **[!UICONTROL Temporisation et erreur]**. Si cette option est activée pour votre organisation, vous pouvez également activer la [messagerie en rafale](#burst).
+Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et, si vous être administrateur, définir une durée de **[!UICONTROL Temporisation et erreur]**.
 
 Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
 
@@ -96,6 +96,10 @@ Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez déséle
 Lorsqu&#39;un parcours prend fin, le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà intégré le parcours.
 
 Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+
+>[!NOTE]
+>
+>Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12h01 pour un profil spécifique et qu’un autre arrive à 12h03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne redémarre pas pour ce profil.
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
@@ -127,31 +131,8 @@ Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il 
 
 Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
 
-### Mode rafale {#burst}
+### Gérer l’accès {#access}
 
-Le mode rafale est un module complémentaire de Journey Optimizer qui permet d&#39;envoyer des messages push très rapidement en grandes quantités. Il est utilisé pour les parcours simples qui incluent une activité **Lecture de segment** et un message push simple. Le mode rafale est utilisé lorsque le retard dans la diffusion des messages est critique pour l&#39;entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux utilisateurs qui ont installé votre application de canal d&#39;actualités.
+Pour attribuer des libellés d’utilisation des données personnalisés ou de base au parcours, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** bouton . [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
-La messagerie en rafale est fournie avec les exigences suivantes :
-
-* Le parcours doit commencer par une activité **Lecture de segment**. Les événements ne sont pas autorisés.
-* L&#39;étape suivante doit être un message push. Aucun autre canal, activité ou étape n’est autorisé.
-* Aucune personnalisation n&#39;est autorisée dans le message push.
-* Le message doit être de petite taille (&lt;2 Ko).
-
->[!CAUTION]
->
->Si l&#39;une des exigences n&#39;est pas remplie, le mode rafale ne sera pas disponible dans le parcours.
-
-Pour activer le **mode rafale**, ouvrez votre parcours et cliquez sur l&#39;icône en forme de crayon, en haut à droite, pour accéder aux propriétés du parcours. Activez ensuite le bouton d&#39;activation/de désactivation **Activer le mode rafale**.
-
-![](assets/burst.png)
-
-Le mode rafale est automatiquement désactivé si vous modifiez un parcours rafale et ajoutez une activité non conforme au mode rafale, tel qu’un e-mail, toute autre action, un événement, etc.
-
-![](assets/burst2.png)
-
-Ensuite, testez et publiez votre parcours comme d’habitude. Notez que, en mode test, les messages ne sont pas envoyés via le mode rafale.
-
-Découvrez les cas pratiques applicables pour la messagerie en rafale et comment configurer un parcours pour les messages en rafale dans cette vidéo :
-
->[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
+![](assets/journeys-manage-access.png)

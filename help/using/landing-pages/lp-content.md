@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '1215'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
 >[!NOTE]
 >
->Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une page de destination sans nécessiter d’action de la part de vos destinataires, comme l’opt-in ou l’opt-out, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
+>Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une landing page sans nécessiter d’action de la part de vos destinataires, comme l’inclusion ou l’exclusion, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
 
 ## Utilisation du composant de formulaire {#use-form-component}
 
@@ -96,8 +96,6 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](assets/lp_designer-form-save.png)
 
-<!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
-
 ## Définition des styles de formulaire de page de destination {#lp-form-styles}
 
 1. Pour modifier les styles du contenu de votre composant de formulaire, passez à tout moment à lʼonglet **[!UICONTROL Style de formulaire]**.
@@ -123,3 +121,86 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 1. Développez la section **[!UICONTROL Erreur du formulaire]** pour ajuster l’affichage du message d’erreur qui est visible en cas de problème. Cochez lʼoption correspondante pour prévisualiser le texte dʼerreur sur le formulaire.
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## Utiliser le contexte de page Principal {#use-primary-page-context}
+
+Vous pouvez utiliser des données contextuelles provenant d&#39;une autre page dans la même landing page.
+
+Par exemple, si vous liez une case à cocher<!-- or the submission of the page--> à [liste d&#39;abonnements](subscription-list.md) sur la Principale page d’entrée, vous pouvez utiliser cette liste d’abonnements sur la sous-page &quot;merci&quot;.
+
+Supposons que vous liiez deux cases à cocher sur votre Principale page à deux listes d’abonnement différentes. Si un utilisateur s’abonne à l’un de ces éléments, vous souhaitez afficher un message spécifique lors de l’envoi du formulaire, en fonction de la case à cocher qu’il a sélectionnée.
+
+Procédez comme suit :
+
+1. Sur la Principale page, associez chaque case à cocher à la liste d’abonnements correspondante. [En savoir plus](#use-form-component).
+
+   ![](assets/lp_designer-form-luma-newsletter.png)
+
+1. Dans la sous-page, placez le pointeur de la souris à l’endroit où vous souhaitez insérer votre texte et sélectionnez **[!UICONTROL Ajouter une personnalisation]** dans la barre d’outils contextuelle.
+
+   ![](assets/lp_designer-form-subpage-perso.png)
+
+1. Dans le **[!UICONTROL Modifier la personnalisation]** fenêtre, sélectionnez **[!UICONTROL Attributs contextuels]** > **[!UICONTROL Pages d’entrée]** > **[!UICONTROL Contexte de page Principal]** > **[!UICONTROL Abonnement]**.
+
+1. Toutes les listes d’abonnements que vous avez sélectionnées sur la Principale page sont répertoriées. Sélectionnez les éléments appropriés à l’aide de l’icône + .
+
+   ![](assets/lp_designer-form-add-subscription.png)
+
+1. Ajoutez les conditions appropriées à l&#39;aide des fonctions d&#39;assistance de l&#39;éditeur d&#39;expression. [En savoir plus](../personalization/functions/functions.md)
+
+   ![](assets/lp_designer-form-add-subscription-condition.png)
+
+   >[!CAUTION]
+   >
+   >Si l’expression comporte un caractère spécial, tel qu’un trait d’union, vous devez placer le texte dans une séquence d’échappement, y compris le trait d’union.
+
+1. Enregistrez vos modifications.
+
+![](assets/lp_designer-form-preview-checked-box.png)
+
+Désormais, lorsque les utilisateurs cochent l’une des cases, le message correspondant à la case sélectionnée s’affiche lors de l’envoi du formulaire.
+
+![](assets/lp_designer-form-thankyou-preview.png)
+
+>[!NOTE]
+>
+>Si un utilisateur sélectionne les deux cases à cocher, les deux textes s’affichent.
+
+
+## Utiliser les données additionnelles de la landing page {#use-additional-data}
+
+When [configuration de la Principale page](create-lp.md#configure-primary-page), vous pouvez créer des données additionnelles afin de permettre le stockage des informations lors de l&#39;envoi de la landing page.
+
+>[!NOTE]
+>
+>Ces données peuvent ne pas être visibles par les utilisateurs qui visitent la page.
+
+Si vous avez défini une ou plusieurs clés avec leurs valeurs correspondantes lorsque [configuration de la Principale page](create-lp.md#configure-primary-page), vous pouvez utiliser ces clés dans le contenu de votre Principale page et de vos sous-pages à l’aide de la variable [Editeur d&#39;expression](../personalization/personalization-build-expressions.md).
+
+<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+
+Pour exploiter ces clés dans une landing page, procédez comme suit :
+
+1. Lors de la configuration de la Principale page, définissez une clé et sa valeur correspondante dans la variable **[!UICONTROL Données additionnelles]** . [En savoir plus](create-lp.md#configure-primary-page)
+
+   ![](assets/lp_create-lp-additional-data.png)
+
+1. Lorsque vous éditez votre Principale page avec le concepteur, placez le pointeur de votre souris à l’endroit où vous souhaitez insérer votre touche et sélectionnez **[!UICONTROL Ajouter une personnalisation]** dans la barre d’outils contextuelle.
+
+   ![](assets/lp_designer-context-add-perso.png)
+
+1. Dans le **[!UICONTROL Modifier la personnalisation]** fenêtre, sélectionnez **[!UICONTROL Attributs contextuels]** > **[!UICONTROL Pages d’entrée]** > **[!UICONTROL Contexte supplémentaire]**.
+
+   ![](assets/lp_designer-contextual-attributes.png)
+
+1. Toutes les clés que vous avez créées lors de la configuration de la Principale page sont répertoriées. Sélectionnez la clé de votre choix à l’aide de l’icône + .
+
+   ![](assets/lp_designer-context-select-key.png)
+
+1. Enregistrez vos modifications et répétez les étapes ci-dessus autant de fois que nécessaire.
+
+   ![](assets/lp_designer-context-keys-inserted.png)
+
+   Vous pouvez constater que l’élément de personnalisation correspondant à votre clé s’affiche désormais partout où vous l’avez inséré.
