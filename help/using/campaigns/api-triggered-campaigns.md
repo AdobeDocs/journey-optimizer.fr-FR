@@ -2,10 +2,10 @@
 title: Déclencher des campagnes à l’aide d’API
 description: Découvrez comment déclencher des campagnes à l’aide d’ [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 82%
+source-wordcount: '800'
+ht-degree: 78%
 
 ---
 
@@ -88,11 +88,15 @@ Notez que si vous avez configuré une date de début et/ou de fin spécifique lo
 
 ## Création de profils lors de l’exécution de la campagne {#profile-creation}
 
-Dans certains cas, vous devrez peut-être envoyer des messages transactionnels à des profils qui n’existent pas dans le système, par exemple si un utilisateur inconnu tente de se connecter à votre site web.
+Dans certains cas, vous devrez peut-être envoyer des messages transactionnels à des profils qui n’existent pas dans le système, Par exemple, si un utilisateur inconnu tente de réinitialiser le mot de passe sur votre site web.
 
 Lorsqu&#39;un profil n&#39;existe pas dans la base de données, Journey Optimizer vous permet de le créer automatiquement lors de l&#39;exécution de la campagne afin de permettre l&#39;envoi du message à ce profil.
 
-Pour ce faire, activez la fonction **[!UCONTROL Créer de nouveaux profils]** activée dans la variable **[!UICONTROL Audience]** .
+>[!IMPORTANT]
+>
+>Cette fonctionnalité est fournie pour **création de profil à très petit volume** dans un cas pratique d’envoi transactionnel à volume élevé, avec la majorité des profils déjà existants dans platform.
+
+Pour activer la création de profil à l’exécution de la campagne, faites basculer le **[!UCONTROL Créer de nouveaux profils]** activée dans la variable **[!UICONTROL Audience]** .
 
 ![](assets/api-triggered-create-profile.png)
 

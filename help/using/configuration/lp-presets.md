@@ -4,10 +4,10 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -64,7 +64,7 @@ Pour créer un préréglage de page de destination, procédez comme suit.
 
    Les paramètres correspondant au sous-domaine sélectionné s’affichent.
 
-1. Si vous souhaitez sélectionner le sous-domaine de page de destination comme URL de tracking, cochez lʼoption **[!UICONTROL Identique au sous-domaine de la page de destination]**. [En savoir plus sur le tracking.](../design/message-tracking.md)
+1. Si vous souhaitez sélectionner le sous-domaine de la landing page pour l&#39;URL de tracking, cochez la case **[!UICONTROL Identique au sous-domaine de la page d’entrée]** . [En savoir plus sur le tracking.](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

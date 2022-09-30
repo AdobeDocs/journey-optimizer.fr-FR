@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 70%
@@ -115,7 +115,6 @@ Le mode de livraison rapide, précédemment connu sous le nom de mode d’éclat
 La diffusion rapide est utilisée lorsque le retard dans la diffusion des messages est essentiel pour l’entreprise, lorsque vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une info-bulle destinée aux utilisateurs qui ont installé votre application de canal d’actualités.
 
 Pour plus d&#39;informations sur les performances lors de l&#39;utilisation du mode de diffusion Rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
-
 
 ### Conditions préalables {#prerequisites}
 
