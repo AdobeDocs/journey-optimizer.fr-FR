@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 90%
+source-wordcount: '1246'
+ht-degree: 89%
 
 ---
 
@@ -89,8 +89,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **[!UICONTROL Dupliquer]** : ajoutez une copie de votre composant de texte.
    * **[!UICONTROL Supprimer]** : supprimez le composant de texte sélectionné de votre e-mail.
    * **[!UICONTROL Ajouter une personnalisation]** : ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md).
-
-1. Pour optimiser l’expérience utilisateur, vous pouvez ajouter des champs de personnalisation pour cibler votre audience. Pour plus d’informations à ce sujet, consultez cette [section](../personalization/personalize.md).
+   * **[!UICONTROL Activation du contenu conditionnel]**: ajoutez du contenu conditionnel pour adapter le contenu du composant aux profils ciblés. [En savoir plus sur le contenu dynamique](../personalization/get-started-dynamic-content.md).
 
 1. Ajustez la **[!UICONTROL couleur du texte]**, **[!UICONTROL famille de polices]** et **[!UICONTROL taille]** dans les **[!UICONTROL paramètres des composants]**.
 
@@ -208,7 +207,7 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 
 ## Décision d&#39;offre {#offer-decision}
 
-Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des décisions dans vos messages. Les décisions s’appuient sur la gestion de décision pour choisir la meilleure offre à fournir à vos clients.
+Utilisez le composant **[!UICONTROL Décision d&#39;offre]** pour insérer des décisions (précédemment appelées activités d&#39;offre) dans vos messages. Les décisions s’appuient sur la gestion de décision pour choisir la meilleure offre à fournir à vos clients.
 
 Rubriques connexes :
 

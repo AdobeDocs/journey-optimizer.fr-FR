@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 84%
+source-wordcount: '597'
+ht-degree: 82%
 
 ---
 
@@ -100,6 +100,10 @@ Pour commencer à créer le contenu de votre e-mail avec le Concepteur d&#39;e-m
 1. Ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. Ajoutez un contenu dynamique pour adapter le contenu aux profils ciblés selon des règles conditionnelles. [Prise en main du contenu dynamique](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. Dans l’onglet **[!UICONTROL Liens]** du volet de gauche, vérifiez la liste de toutes les URL de votre contenu qui feront l’objet d’un suivi. Si nécessaire, vous pouvez modifier leur **[!UICONTROL Type de tracking]**, leur **[!UICONTROL Libellé]** et leurs **[!UICONTROL Balises]**.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Pour personnaliser votre message SMS, procédez comme suit :
 
    ![](assets/sms-content.png)
 
-1. Utilisez l’éditeur d’expression pour définir le contenu. Vous pouvez utiliser n’importe quel attribut pour personnaliser le contenu, comme le nom du profil ou la ville. Consultez [cette section](../personalization/personalize.md) pour en savoir plus sur la personnalisation dans l’éditeur d’expression.
+1. Utilisez l&#39;éditeur d&#39;expression pour définir le contenu et ajouter du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, tel que le nom du profil ou la ville. En savoir plus sur [personnalisation](../personalization/personalize.md) et [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l&#39;éditeur d&#39;expression.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l&#39;aperçu.
 

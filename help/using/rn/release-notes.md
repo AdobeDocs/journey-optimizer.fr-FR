@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 27%
+source-wordcount: '1043'
+ht-degree: 26%
 
 ---
 
@@ -21,26 +21,23 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 ### Nouvelles fonctionnalités{#sept-2022-features}
 
-
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
+<th><strong>Contenu dynamique et nouveau créateur de règles conditionnelles</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
-<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<p>Vous pouvez maintenant créer du contenu dynamique pour adapter le contenu de vos messages selon des règles conditionnelles.</p> 
+<p>Les règles conditionnelles sont créées à l’aide d’un créateur de règles visuel dans l’éditeur d’expression, où vous pouvez les stocker pour les réutiliser ultérieurement dans vos parcours et campagnes.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>Pour plus d’informations, consultez la <a href="../personalization/get-started-dynamic-content.md">documentation détaillée</a>.
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
