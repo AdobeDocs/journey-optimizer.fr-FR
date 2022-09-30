@@ -2,10 +2,10 @@
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 28%
+source-wordcount: '986'
+ht-degree: 27%
 
 ---
 
@@ -176,9 +176,10 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 * Lors de l’activation ou de la désactivation de la liste autorisée, un nouvel avertissement s’affiche maintenant pour détailler les impacts de chaque action. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 * Mise à jour de l’interface utilisateur pour la création de surfaces de canal, la création de pools d’adresses IP, la gestion de la liste de suppression et de la liste autorisée, ainsi que la configuration du canal SMS -
-<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
-* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
+* Désormais, lors de la création de la première surface de canal pour un sous-domaine donné, le temps de traitement prendra entre 10 minutes et 10 jours, et jusqu’à 3 heures uniquement pour les surfaces suivantes utilisant ce sous-domaine. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
+
+<!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
+* Mise à jour de l’interface utilisateur pour la création de paramètres prédéfinis de landing page et de sous-domaines de landing page - [En savoir plus](../configuration/lp-subdomains.md)
 
 **Contrôles de contrôle**
 
@@ -192,7 +193,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 * Vous pouvez désormais utiliser des données contextuelles provenant d&#39;une autre page dans la même landing page. Par exemple, si vous associez une case à cocher à une liste d’abonnements sur la Principale page d’entrée, vous pouvez utiliser cette liste d’abonnements sur la sous-page &quot;merci&quot;. [En savoir plus](../landing-pages/lp-content.md#use-primary-page-context)
 
-* Lors du paramétrage de la Principale page, vous pouvez désormais créer des données additionnelles afin de permettre le stockage des informations lors de l&#39;envoi de la landing page. [En savoir plus](../landing-pages/lp-content.md#use-additional-data)
+<!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
