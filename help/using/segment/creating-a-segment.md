@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
 # Création de segments {#build-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_create_rule"
+>title="Création d&#39;une règle"
+>abstract="La méthode de création de règles Build vous permet de créer une définition de segment à l’aide de Adobe Experience Platform Segmentation Service."
 
 Dans cet exemple, nous allons créer un segment pour cibler tous les clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients doivent avoir ouvert l&#39;application Luma dans les 7 derniers jours, puis fait un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
 
