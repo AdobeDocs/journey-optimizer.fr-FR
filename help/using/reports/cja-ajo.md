@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '337'
+ht-degree: 7%
 
 ---
 
 # Utilisation d’[!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] intégration avec [!DNL Customer Journey Analytics] offre une vue d’ensemble de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
 Après avoir créé votre parcours dans [!DNL Journey Optimizer], vous pouvez importer vos données client dans [!DNL Customer Journey Analytics] pour lancer des rapports et comprendre l’impact de chaque interaction d’un client avec vos parcours.
 
@@ -23,6 +24,11 @@ Après avoir créé votre parcours dans [!DNL Journey Optimizer], vous pouvez im
 Avant d’utiliser [!DNL Customer Journey Analytics] pour vos parcours, vous devez d’abord configurer cette intégration :
 
 1. [Création d’une connexion](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=fr) in [!DNL Customer Journey Analytics] avec le **[!UICONTROL Jeu de données]** vous souhaitez envoyer à Platform.
+
+   Les éléments suivants [!DNL Journey Optimizer] peut être configuré :
+   * [Événement d’étape de parcours](../start/datasets-query-examples.md#journey-step-event): vous permet de voir qui entre dans vos parcours et jusqu’où ils arrivent.
+   * [Message Feedback/Tracking des jeux de données](../start/datasets-query-examples.md#message-feedback-event-dataset): vous permet d’afficher les informations de diffusion sur vos messages envoyés par le biais de [!DNL Journey Optimizer].
+   * [Jeux de données d’entité et de Parcours](../start/datasets-query-examples.md#entity-dataset): vous permet de rechercher des noms conviviaux et de les utiliser dans vos rapports.
 
 1. [Création d’une vue de données](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=fr) pour configurer les dimensions et mesures à utiliser pour votre rapport.
 
