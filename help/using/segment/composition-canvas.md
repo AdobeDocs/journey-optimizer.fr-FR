@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ Le **[!UICONTROL Exclure]** L’activité vous permet d’exclure des profils de
 >title="Activité de classement"
 >abstract="L&#39;activité Classement permet de classer les profils en fonction d&#39;un attribut spécifique et de les inclure dans votre composition. Par exemple, incluez les 50 profils présentant le plus grand nombre de points de fidélité."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Ajouter une limite de profil"
+>abstract="Activez cette option pour spécifier un nombre maximum de profils à inclure dans la composition."
+
 Le **[!UICONTROL Classement]** L’activité vous permet de classer les profils en fonction d’un attribut spécifique et de les inclure dans votre composition. Vous pouvez, par exemple, inclure les 50 profils présentant le plus grand nombre de points de fidélité.
 
 1. Sélectionnez l’attribut que vous souhaitez rechercher et indiquez un ordre de classement (ascendant ou descendant).
@@ -126,7 +131,7 @@ Le **[!UICONTROL Classement]** L’activité vous permet de classer les profils 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="Le groupe de contrôle doit être"
+>title="Groupe de contrôle"
 >abstract="Utilisez les populations témoins pour isoler une partie des profils. Vous pouvez ainsi mesurer l’impact d’une activité marketing et faire une comparaison avec le comportement du reste de la population."
 
 >[!CONTEXTUALHELP]
@@ -138,6 +143,11 @@ Le **[!UICONTROL Classement]** L’activité vous permet de classer les profils 
 >id="ajo_ao_split_type"
 >title="Type de partage"
 >abstract="Utilisez le type Division en pourcentage pour fractionner les profils de manière aléatoire en plusieurs chemins. Le type de partage Attribut permet de fractionner les profils en fonction d’un attribut spécifique."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Autres profils"
+>abstract="Activez cette option pour créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins."
 
 Le **[!UICONTROL Partage]** L’activité vous permet de diviser votre composition en plusieurs chemins.
 
