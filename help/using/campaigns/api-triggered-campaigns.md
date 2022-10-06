@@ -2,7 +2,7 @@
 title: Déclencher des campagnes à l’aide d’API
 description: Découvrez comment déclencher des campagnes à l’aide d’ [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 78%
@@ -96,7 +96,7 @@ Lorsqu&#39;un profil n&#39;existe pas dans la base de données, Journey Optimize
 >
 >Cette fonctionnalité est fournie pour **création de profil à très petit volume** dans un cas pratique d’envoi transactionnel à volume élevé, avec la majorité des profils déjà existants dans platform.
 
-Pour activer la création de profil à l’exécution de la campagne, faites basculer le **[!UCONTROL Créer de nouveaux profils]** activée dans la variable **[!UICONTROL Audience]** .
+Pour activer la création de profil à l’exécution de la campagne, faites basculer le **[!UICONTROL Créer de nouveaux profils]** activée dans la variable **[!UICONTROL Audience]** .
 
 ![](assets/api-triggered-create-profile.png)
 
