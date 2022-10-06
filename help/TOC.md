@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d9183a8114aff2d17fc65eddaf2a7a8424e3f95
+source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 95%
 
 ---
@@ -121,11 +121,12 @@ ht-degree: 95%
       + [Prise en main des profils](using/segment/get-started-profiles.md)
       + [Créer des profils de test](using/segment/creating-test-profiles.md)
    + [Identités](using/segment/get-started-identity.md)
+   + Composer les audiences {#audience-orchestration}
+      + [Prise en main de la composition de l’audience](using/segment/get-started-audience-orchestration.md)
+      + [Création de workflows de composition](using/segment/create-compositions.md)
+      + [Utilisation du canevas de composition](using/segment/composition-canvas.md)
+      + [Accès et gestion des audiences](using/segment/access-audiences.md)
    + [Utilisation des licences](using/segment/license-usage.md)
-   + [Prise en main de la composition de l’audience](using/segment/get-started-audience-orchestration.md)
-   + [Création de workflows de composition](using/segment/create-compositions.md)
-   + [Utilisation du canevas de composition](using/segment/composition-canvas.md)
-   + [Accès et gestion des audiences](using/segment/access-audiences.md)
 + Parcours {#orchestrate-journeys}
    + À propos des parcours{#about-journeys}
       + [Principe général](using/building-journeys/journey.md)
