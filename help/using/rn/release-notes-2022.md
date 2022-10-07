@@ -3,9 +3,9 @@ title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -604,4 +604,4 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Personnalisation**
 
-* **Ajouter aux favoris** - Pour améliorer l’efficacité lors de l’utilisation de la personnalisation, nous avons introduit le concept d’enregistrement des favoris. L’ajout de différents attributs à votre menu de favoris vous permet dʼaccéder rapidement aux éléments que vous utilisez le plus fréquemment. [En savoir plus](../personalization/personalize.md#fav)
+* **Ajouter aux favoris** : pour aider à améliorer lʼefficacité lors de lʼutilisation de la personnalisation, nous avons introduit le concept d’enregistrement en tant que favoris. L’ajout de différents attributs à votre menu de favoris vous permet dʼaccéder rapidement aux éléments que vous utilisez le plus fréquemment. [En savoir plus](../personalization/personalize.md#fav)
