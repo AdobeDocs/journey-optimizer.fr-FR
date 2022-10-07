@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Le tableau ci-dessous présente les actions sur lesquelles les ressources Journe
 
 | Ressource | Action |
 |-----------|------------------|
-| Campagne AJO | Créer / Supprimer / Mettre à jour / Activer / Arrêter |
+| Campagne AJO | Créer/Supprimer/Mettre à jour/Activer/Arrêter |
 | Paramètre général du canal AJO | Créer / Supprimer / Mettre à jour |
 | Groupe d’adresses IP AJO | Créer / Supprimer / Mettre à jour |
 | Page de destination AJO | Créer / Supprimer / Mettre à jour / Publier / Dépublier |
