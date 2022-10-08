@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -403,7 +403,7 @@ ht-degree: 95%
          + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)
       + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
       + [Gestion des adresses d’exécution](using/configuration/primary-email-addresses.md)
-      + [Configuration des règles de fréquence](using/configuration/frequency-rules.md)
+      + [Configurer les règles de fréquence](using/configuration/frequency-rules.md)
    + Configuration des pages de destination   {#lp-configuration}
       + [Configurer les sous-domaines des pages de destination](using/configuration/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/configuration/lp-presets.md)
@@ -440,6 +440,6 @@ ht-degree: 95%
 + Confidentialité {#privacy}
    + [Stratégies d’utilisation des données](using/privacy/policies.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
-   + [Actions d’audit sur les ressources](using/privacy/audit-logs.md)
+   + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Consentement](using/action/consent.md)
    + [Gouvernance des données](using/action/action-privacy.md)
