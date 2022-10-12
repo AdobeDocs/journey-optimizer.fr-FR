@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 97%
 
 ---
@@ -43,9 +43,10 @@ ht-degree: 97%
       + [Configurer des rapports d’expérimentation](using/campaigns/reporting-configuration.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Messages {#messages}
-   + [Prise en main des messages](using/messages/get-started-content.md)
-   + [Ajouter des parcours de messages](using/messages/messages-in-journeys.md)
-   + [Ajouter des campagnes de messages](using/messages/messages-in-campaigns.md)
+   + Prise en main des messages{#get-started-msg}
+      + [Créer des messages](using/messages/get-started-content.md)
+      + [Ajouter des messages dans les parcours](using/messages/messages-in-journeys.md)
+      + [Accéder aux messages dans des campagnes](using/messages/messages-in-campaigns.md)
    + [Création d’un e-mail](using/messages/create-email.md)
    + [Création d’une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)

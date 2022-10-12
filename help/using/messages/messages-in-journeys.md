@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -44,15 +44,14 @@ Pour ajouter des messages dans un parcours, ajoutez une activité push, SMS ou e
 
 1. Sélectionner la **[!UICONTROL catégorie]** du message : sélectionnez **Marketing** pour les messages commerciaux, ou **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion.
 
-   >[!CAUTION]
-   >
-   >Si vous avez défini des [règles de fréquence](../configuration/frequency-rules.md) pour un canal et une catégorie spécifiques, elles sont automatiquement appliquées au message lors de la sélection de ce canal et de cette catégorie. Actuellement, seule la catégorie **[!UICONTROL Marketing]** est disponible pour les règles de fréquence.
-
    ![](assets/inline-message-category.png)
 
    >[!CAUTION]
    >
-   >Les messages de type marketing doivent inclure un [lien d’opt-out](../messages/consent.md#opt-out-management). Cela n’est pas nécessaire pour les messages transactionnels, car ces messages peuvent être envoyés aux profils qui se sont désabonnés des communications marketing.
+   >* Si vous avez défini des [règles de fréquence](../configuration/frequency-rules.md) pour un canal et une catégorie spécifiques, elles sont automatiquement appliquées au message lors de la sélection de ce canal et de cette catégorie. Actuellement, seule la catégorie **[!UICONTROL Marketing]** est disponible pour les règles de fréquence.
+   >
+   >* Les messages marketing doivent inclure une [lien d’exclusion](../messages/consent.md#opt-out-management). Cela n’est pas nécessaire pour les messages transactionnels, car ces messages peuvent être envoyés aux profils qui se sont désabonnés des communications marketing.
+
 
 1. Sélectionnez la **[!UICONTROL Surface]** de canal (c’est-à-dire le préréglage du message) à utiliser pour envoyer votre message.
 
