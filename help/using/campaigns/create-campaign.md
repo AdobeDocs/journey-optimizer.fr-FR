@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 70%
+source-wordcount: '853'
+ht-degree: 71%
 
 ---
 
@@ -108,7 +108,7 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Mode de diffusion rapide"
->abstract="Le mode de diffusion rapide est un module complémentaire Journey Optimizer qui vous permet d’effectuer des dépenses rapides pour des messages non personnalisés vers des audiences de moins de 30 millions de profils."
+>abstract="Le mode de diffusion rapide permet d&#39;envoyer rapidement des messages sur le canal push à une taille d&#39;audience inférieure à 30 M."
 
 Le mode de livraison rapide, précédemment connu sous le nom de mode d’éclatement en parcours, est un [!DNL Journey Optimizer] module complémentaire permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
 
