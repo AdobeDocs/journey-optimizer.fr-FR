@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Pour cela, vous pouvez utiliser une règle de fréquence qui limite le nombre de
 
 >[!NOTE]
 >
->Les règles de fréquence des messages sont différentes de la gestion des désabonnements, qui permet aux utilisateurs de se désabonner de la réception des communications de la part d&#39;une marque. [En savoir plus](../messages/consent.md#opt-out-management)
+>Les règles de fréquence des messages sont différentes de la gestion des désabonnements, qui permet aux utilisateurs de se désabonner de la réception des communications de la part d&#39;une marque. [En savoir plus](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 

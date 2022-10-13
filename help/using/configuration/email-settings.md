@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
-workflow-type: ht
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Le lien de désabonnement se compose de deux éléments :
 
 * L’**URL de désabonnement**, qui est l’URL de la page de destination vers laquelle l’utilisateur sera redirigé une fois désabonné.
 
-   Si vous ajoutez un [lien d&#39;opt-out en un clic](../messages/consent.md#one-click-opt-out) pour un message créé à l’aide de cette surface, l’URL de désabonnement sera l&#39;URL définie pour le lien d&#39;opt-out en un clic.
+   Si vous ajoutez un [lien d&#39;opt-out en un clic](../privacy/opt-out.md#one-click-opt-out) pour un message créé à l’aide de cette surface, l’URL de désabonnement sera l&#39;URL définie pour le lien d&#39;opt-out en un clic.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -86,7 +86,7 @@ Le lien de désabonnement se compose de deux éléments :
    >
    >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
 
-Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../messages/consent.md#unsubscribe-header).
+Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../privacy/opt-out.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

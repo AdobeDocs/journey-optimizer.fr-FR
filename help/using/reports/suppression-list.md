@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Pour en savoir plus sur les hard bounces et les soft bounces, consultez [cette s
 
 >[!NOTE]
 >
->Les adresses des utilisateurs désabonnés ne peuvent pas être envoyées à la liste de suppression, car ils ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Leur choix est géré au niveau d&#39;Experience Platform. En savoir plus sur la [désinscription](../messages/consent.md).
+>Les adresses des utilisateurs désabonnés ne peuvent pas être envoyées à la liste de suppression, car ils ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Leur choix est géré au niveau d&#39;Experience Platform. En savoir plus sur la [désinscription](../privacy/opt-out.md).
 
 Pour chaque adresse, la raison de base de la suppression et la catégorie de suppression (soft, hard, etc.) s&#39;affichent dans la liste de suppression. Pour en savoir plus sur l&#39;accès et la gestion de la liste de suppression, voir [cette section](../configuration/manage-suppression-list.md).
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -52,11 +52,11 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. En savoir plus dans [cette section](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Opt-out en un clic]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur opt-out. En savoir plus dans [cette section](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL Opt-out en un clic]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur opt-out. En savoir plus dans [cette section](../privacy/opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Abonnement/opt-in externe]** : insérez un lien pour accepter la réception de communications de votre marque.
 
-   * **[!UICONTROL Désabonnement/opt-out externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](../messages/consent.md#opt-out-management).
+   * **[!UICONTROL Désabonnement/opt-out externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](../privacy/opt-out.md#opt-out-management).
 
    * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
 
@@ -75,7 +75,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un [lien d’opt-out](../messages/consent.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage de message) et lors de la [création du message](../messages/get-started-content.md#create-new-message).
+>Les e-mails de type marketing doivent inclure un [lien d’opt-out](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage de message) et lors de la [création du message](../messages/get-started-content.md#create-new-message).
 
 ## Lien vers une page miroir {#mirror-page}
 

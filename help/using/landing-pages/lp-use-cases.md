@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 13a2bbcb0fb9bfb60e79bc3444d2a1b9f0b37627
-workflow-type: ht
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Tous les utilisateurs inscrits à votre événement recevront l’e-mail de conf
 
 Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination d&#39;opt-out dans vos e-mails.
 
-En savoir plus sur la gestion du consentement de vos destinataires et son caractère important dans [cette section](../messages/consent.md).
+En savoir plus sur la gestion du consentement de vos destinataires et son caractère important dans [cette section](../privacy/opt-out.md).
 
 ### Gestion du droit d&#39;opposition {#opt-out-management}
 
@@ -166,11 +166,11 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/consent.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
 
 ////////
 

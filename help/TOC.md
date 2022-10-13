@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b81ed696d4b2b47ab9b736be695983f5e18d8ae
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 97%
+source-wordcount: '1188'
+ht-degree: 96%
 
 ---
 
@@ -51,8 +51,7 @@ ht-degree: 97%
    + [Création d’une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)
    + [Création d’un publipostage direct](using/messages/create-direct-mail.md)
-   + [Vérifier les alertes](using/messages/alerts.md)
-   + [Gérer le consentement](using/messages/consent.md)
+   + [Vérification des alertes](using/messages/alerts.md)
    + [Optimisation de l’heure d’envoi](using/messages/send-time-optimization.md)
 + Conception du contenu {#design}
    + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
@@ -442,5 +441,7 @@ ht-degree: 97%
    + [Stratégies d’utilisation des données](using/privacy/policies.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
    + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
-   + [Consentement](using/action/consent.md)
+   + Gérer le consentement {#consent}
+      + [Gestion du processus d’opt-out](using/privacy/opt-out.md)
+      + [Utilisation des stratégies de consentement](using/action/consent.md)
    + [Gouvernance des données](using/action/action-privacy.md)

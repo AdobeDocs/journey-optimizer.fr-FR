@@ -2,7 +2,7 @@
 title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
@@ -270,7 +270,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 **Concevoir du contenu**
 
 * **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../design/preview.md)
-* **Lien d’opt-out en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**opt-out** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur opt-out. [En savoir plus](../messages/consent.md#one-click-opt-out-link)
+* **Lien d’opt-out en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**opt-out** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur opt-out. [En savoir plus](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personnalisation**
 

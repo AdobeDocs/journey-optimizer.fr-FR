@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 92%
+source-wordcount: '401'
+ht-degree: 81%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 92%
 >abstract="Ajoutez votre message texte et commencez à le personnaliser à l’aide de l’éditeur d’expression."
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte à vos clients sur leur appareil mobile. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
+
+>[!NOTE]
+>
+>Conformément aux normes et réglementations du secteur, tous les messages de marketing SMS doivent contenir un moyen pour que les destinataires puissent facilement se désabonner. Pour ce faire, les destinataires SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. [Découvrez comment gérer l’exclusion](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 Les diffusions SMS peuvent être créées :
 
@@ -61,17 +65,6 @@ Pour visualiser l’affichage de votre message SMS sur les appareils mobiles, cl
 Vous devez également vérifier les alertes dans la section supérieure de l’éditeur.  Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’utiliser le message. En savoir plus dans [cette section](alerts.md).
 
 ![](assets/sms-alert-button.png)
-
-
-## Opt-in et opt-out{#sms-opt-in-out}
-
-Pour tous les messages marketing, les SMS doivent contenir une méthode de désinscription simple pour les utilisateurs. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing. L’ajout d’un lien de désinscription n’est pas obligatoire pour les messages transactionnels.
-
-Les destinataires des SMS peuvent répondre avec des mots-clés pour indiquer l’opt-in et l’opt-out. Conformément aux normes et réglementations du secteur, Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : DÉMARRAGE, ARRÊT et REDÉMARRAGE. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
-
-Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (démarrage, arrêt et redémarrage) pour les SMS, regardez la vidéo suivante.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video
