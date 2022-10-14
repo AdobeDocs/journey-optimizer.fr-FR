@@ -9,7 +9,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 Le **[!UICONTROL Rapport d&#39;abonnement global]** affiche des détails sur l&#39;activité de vos abonnés sur une période sélectionnée. Pour mesurer vos abonnements sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport d&#39;abonnement dynamique](subscription-report-live.md).
 
-Pour accéder à vos rapports, cliquez sur le bouton **[!UICONTROL Rapport]** de votre liste d’abonnements sélectionnée.
+Pour accéder à vos rapports, cliquez sur l’icône **[!UICONTROL Rapport]** de votre liste d’abonnements sélectionnée.
 
 ![](assets/subscription_report_7.png)
 

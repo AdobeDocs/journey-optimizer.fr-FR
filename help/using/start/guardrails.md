@@ -9,7 +9,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Les protections des performances et les limites statiques pour la prise des déc
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification de segment.
-* Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12h01 pour un profil spécifique et qu’un autre arrive à 12h03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne redémarre pas pour ce profil.
+* Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 
 ### Sources de données {#data-sources-g}
 
@@ -90,7 +90,7 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 * Les segments diffusés en continu sont toujours à jour, mais les segments par lots ne sont pas calculés au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
 * Pour les parcours qui utilisent une activité Lecture de segment, un nombre maximal de parcours peut commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture de segment, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
 
-### Editeur d&#39;expression {#expression-editor}
+### Éditeur d’expression {#expression-editor}
 
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par un segment lu, une qualification de segment ou une activité d’événement commercial.
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une lecture de segment, une qualification de segment ou une activité d’événement métier.
 

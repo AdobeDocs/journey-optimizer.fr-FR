@@ -9,13 +9,13 @@ exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-Convertit un argument en une valeur de type dateOnly. Pour en savoir plus sur les types de données, reportez-vous à cette section [section](../expression/data-types.md).
+Convertit un argument en une valeur de type dateOnly. Pour plus d’informations sur les types de données, consultez cette [section](../expression/data-types.md).
 
 ## Catégorie
 
@@ -29,7 +29,7 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| Représentation sous forme de chaîne d’une date au format &quot;AAAA-MM-JJ&quot; (format XDM). Prend également en charge le format ISO-8601 : only **full-date** partie est prise en compte (voir [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | chaîne |
+| Représentation sous forme de chaîne d’une date au format « AAAA-MM-JJ » (format XDM). Prend également en charge le format ISO-8601 : seule la partie **full-date** est prise en compte (voir [RFC 3339, section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | chaîne |
 | date et heure | dateTime |
 | date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
 | valeur entière d’une époque en millisecondes | nombre entier |

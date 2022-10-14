@@ -7,7 +7,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -33,24 +33,24 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 
-Voici les différents jeux de données disponibles :
+Voici les différents jeux de données disponibles :
 
-**Reporting**
+**Création de rapports**
 
-* _Reporting - Jeu de données d’événement de retour de message_: Logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et de segments. Les commentaires des FAI par e-mail sur les bounces sont également enregistrés dans ce jeu de données.
-* _Reporting - Jeu de données d’événement de suivi de messagerie_: Logs d’interaction pour le canal Email qui est utilisé à des fins de création de rapports et de segments. Informations stockées : informations sur les actions effectuées par l’utilisateur final dans un email (ouvertures, clics, etc.).
-* _Reporting - Jeu de données d’événement de suivi push_: Logs d’interaction pour le canal Push utilisés à des fins de création de rapports et de segments. Informations stockées : informations sur les actions effectuées par l’utilisateur final dans les notifications push.
-* _Reporting - Événement d’étape de Parcours_: Capture tous les événements d’expérience d’étape de Parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. Également essentiel pour la création de rapports en Customer Journey Analytics pour l’analyse YoY. Associé à des métadonnées de Parcours.
-* _Reporting - Parcours_: Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours.
-* _Reporting - Cci_: Jeu de données d’événement de retour qui stocke les logs de diffusion pour les emails en Cci. À utiliser à des fins de création de rapports.
+* _Création de rapports - Jeu de données d’événement de retour de message_ : logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et de segments. Les commentaires des FAI de messagerie sur les bounces sont également enregistrés dans ce jeu de données.
+* _Création de rapports - Jeu de données d’événement d’expérience de tracking e-mail_ : logs d’interaction pour le canal e-mail qui est utilisé à des fins de création de rapports et de segments. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans un e-mail (ouvertures, clics, etc.).
+* _Création de rapports - Jeu de données d’événement d’expérience de tracking push_ : logs d’interaction pour le canal push qui est utilisé à des fins de création de rapports et de segments. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans les notifications push.
+* _Création de rapports - Événement d’étape de parcours_ : capture tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. Également essentiel pour la création de rapports dans Customer Journey Analytics pour l’analyse YoY. Associé à des métadonnées de parcours.
+* _Création de rapports - Parcours_ : jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours.
+* _Création de rapports - Cci_ : jeu de données d’événement de retour qui stocke les logs de diffusion pour les emails envoyés en copie (Cci). À utiliser à des fins de création de rapports.
 
 **Consentement**
 
-* _Jeu de données du service de consentement_: stocke les informations de consentement d’un profil.
+* _Jeu de données du service de consentement_ : stocke les informations de consentement d’un profil.
 
-**Intelligent Services**
+**Services intelligents**
 
-* _Scores d’optimisation du temps d’envoi / Scores d’engagement_: Scores de sortie de l’IA Parcours.
+* _Scores d’optimisation de l’heure d’envoi / Scores d’engagement_ : scores de sortie de l’IA dédiée au parcours.
 
 ## Aperçu des jeux de données{#preview-datasets}
 

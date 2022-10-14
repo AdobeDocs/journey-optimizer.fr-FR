@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1018'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
 >[!NOTE]
 >
->Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une landing page sans nécessiter d’action de la part de vos destinataires, comme l’inclusion ou l’exclusion, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
+>Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une page de destination sans nécessiter d’action de la part de vos destinataires, comme l’opt-in ou l’opt-out, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
 
 ## Utilisation du composant de formulaire {#use-form-component}
 
@@ -122,31 +122,31 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectio
 
    ![](assets/lp_designer-form-error-preview.png)
 
-## Utiliser le contexte de page Principal {#use-primary-page-context}
+## Utiliser le contexte de la page principale {#use-primary-page-context}
 
-Vous pouvez utiliser des données contextuelles provenant d&#39;une autre page dans la même landing page.
+Vous pouvez utiliser des données contextuelles provenant d’une autre page dans la même page de destination.
 
-Par exemple, si vous liez une case à cocher<!-- or the submission of the page--> à [liste d&#39;abonnements](subscription-list.md) sur la Principale page d’entrée, vous pouvez utiliser cette liste d’abonnements sur la sous-page &quot;merci&quot;.
+Par exemple, si vous liez une case à cocher<!-- or the submission of the page--> à une [liste d’abonnements](subscription-list.md) sur la page de destination principale, vous pouvez utiliser cette liste d’abonnements sur la sous-page « merci ».
 
-Supposons que vous liiez deux cases à cocher sur votre Principale page à deux listes d’abonnement différentes. Si un utilisateur s’abonne à l’un de ces éléments, vous souhaitez afficher un message spécifique lors de l’envoi du formulaire, en fonction de la case à cocher qu’il a sélectionnée.
+Supposons que vous liez deux cases à cocher sur votre page principale à deux listes d’abonnement différentes. Si un utilisateur s’abonne à l’une de ces listes, affichez un message spécifique lors de l’envoi du formulaire suivant la case à cocher qu’il a sélectionnée.
 
 Procédez comme suit :
 
-1. Sur la Principale page, associez chaque case à cocher à la liste d’abonnements correspondante. [En savoir plus](#use-form-component).
+1. Sur la page principale, liez chaque case à cocher à la liste d’abonnements correspondante. [En savoir plus](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
-1. Dans la sous-page, placez le pointeur de la souris à l’endroit où vous souhaitez insérer votre texte et sélectionnez **[!UICONTROL Ajouter une personnalisation]** dans la barre d’outils contextuelle.
+1. Sur la sous-page, placez le pointeur de la souris à l’endroit où vous souhaitez insérer votre texte et sélectionnez **[!UICONTROL Ajouter une personnalisation]** dans la barre d’outils contextuelle.
 
    ![](assets/lp_designer-form-subpage-perso.png)
 
-1. Dans le **[!UICONTROL Modifier la personnalisation]** fenêtre, sélectionnez **[!UICONTROL Attributs contextuels]** > **[!UICONTROL Pages d’entrée]** > **[!UICONTROL Contexte de page Principal]** > **[!UICONTROL Abonnement]**.
+1. Dans la fenêtre **[!UICONTROL Modifier la personnalisation]**, sélectionnez **[!UICONTROL Attributs contextuels]** > **[!UICONTROL Pages de destination]** > **[!UICONTROL Contexte de la page principale]** > **[!UICONTROL Abonnement]**.
 
-1. Toutes les listes d’abonnements que vous avez sélectionnées sur la Principale page sont répertoriées. Sélectionnez les éléments appropriés à l’aide de l’icône + .
+1. Toutes les listes d’abonnements que vous avez sélectionnées sur la page principale sont répertoriées. Sélectionnez les éléments pertinents à l’aide de l’icône + .
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Ajoutez les conditions appropriées à l&#39;aide des fonctions d&#39;assistance de l&#39;éditeur d&#39;expression. [En savoir plus](../personalization/functions/functions.md)
+1. Ajoutez les conditions appropriées à l’aide des fonctions d’assistance de l’éditeur d’expression. [En savoir plus](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 

@@ -9,13 +9,13 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1977'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Rapport global de parcours {#journey-global-report}
 
-Vous pouvez accéder directement au rapport global par parcours à partir de votre parcours à l’aide de l’option **[!UICONTROL Afficher le rapport]** bouton .
+Vous pouvez accéder directement au rapport global de parcours à partir de votre parcours à l’aide du bouton **[!UICONTROL Afficher le rapport]**.
 
 ![](assets/report_journey.png)
 
@@ -28,7 +28,7 @@ La page **[!UICONTROL Rapport global]** du parcours s&#39;affiche avec les ongle
 
 Le rapport **[!UICONTROL global]** de parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](global-report.md#modify-dashboard).
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](global-report.md#list-of-components-global).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](global-report.md#list-of-components-global).
 
 ## Onglet Parcours {#journey-global}
 
@@ -36,7 +36,7 @@ Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey
 
 ![](assets/journey_global_1.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de Parcours.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de parcours.
 
 Le widget **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement de vos profils ciblés pas à pas tout au long du parcours.
 
@@ -70,7 +70,7 @@ Dans le **[!UICONTROL Rapport global]** de parcours, l&#39;onglet **[!UICONTROL 
 
 ![](assets/journey_global_2.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’e-mail.
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
 
@@ -176,7 +176,7 @@ Le tableau **[!UICONTROL Statistiques détaillées des offres]** contient les do
 
 ## Onglet Notification push {#push-global}
 
-De votre parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre parcours.
+Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONTROL Notification push]** détaille les principales informations relatives aux diffusions push envoyées dans votre parcours.
 
 ![](assets/journey_global_3.png)
 
@@ -252,7 +252,7 @@ Le **[!UICONTROL Rapport global]** SMS est divisé en différents widgets prése
 
 ![](assets/journey_global_4.png)
 
-+++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport SMS.
 
 Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 

@@ -9,7 +9,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
 source-wordcount: '1339'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ Cette section répertorie plusieurs exemples couramment utilisés pour interroge
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
-**Quelle est la différence entre id, instanceid et profileid ?**
+**Quelle est la différence entre ID, instanceID et profileID ?**
 
-* id: unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
-* instanceId : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceId différent est utilisé. Ce nouvel instanceId sera le même pour tous les événements d’étape de l’instance réentrée (du début à la fin).
-* profileID : l’identité du profil correspondant à l’espace de noms du parcours.
+* ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
+* instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
+* profileID : l’identité du profil correspondant à l’espace de nommage du parcours.
 
 ## Cas d’utilisation de base/requêtes courantes {#common-queries}
 
 **Nombre de profils entrés dans un parcours au cours d’une période donnée**
 
-Cette requête donne le nombre de profils distincts ayant saisi le parcours donné dans la période donnée.
+Cette requête donne le nombre de profils distincts étant entrés dans le parcours donné dans la période donnée.
 
 _Requête du lac de données_
 
@@ -41,7 +41,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Le nombre d’erreurs qui se sont produites sur chaque noeud d’un parcours spécifique pendant une certaine période**
+**Le nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période**
 
 _Requête du lac de données_
 
@@ -63,7 +63,7 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**Nombre d’événements ignorés d’un parcours spécifique dans une certaine période**
+**Nombre d’événements ignorés d’un parcours spécifique pendant une certaine période**
 
 _Requête du lac de données_
 
@@ -75,7 +75,7 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Qu’advient-il d’un profil spécifique dans un parcours spécifique pendant une période spécifique ?**
+**Qu’advient-il d’un profil spécifique dans un parcours spécifique pendant une période spécifique ?**
 
 _Requête du lac de données_
 

@@ -23,7 +23,7 @@ Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]**
 
 >[!NOTE]
 >
->Pour pouvoir consulter le tableau de bord, l’autorisation [Afficher le tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=fr#available-permissions) {target=&quot;_blank&quot;} doit vous avoir été accordée.
+>Pour pouvoir consulter le tableau de bord, l’autorisation [Afficher le tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=fr#available-permissions){target=&quot;_blank&quot;} doit vous avoir été accordée.
 
 Pour en savoir plus, consultez la documentation Adobe Experience Platform :
 

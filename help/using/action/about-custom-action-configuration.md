@@ -10,7 +10,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 951799a9986e4fd293f282ecf82496e5e7f2da9e
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Notez également qu’un format spécifique est attendu pour les paramètres d�
 
 ## Consentement et gouvernance des données {#privacy}
 
-Dans Journey Optimizer, vous pouvez appliquer des stratégies de gouvernance des données et de consentement à vos actions personnalisées afin d’empêcher l’exportation de champs spécifiques vers des systèmes tiers ou exclure les clients qui n’ont pas consenti à recevoir des communications par courrier électronique, push ou SMS. Pour plus d&#39;informations, consultez les pages suivantes :
+Dans Journey Optimizer, vous pouvez appliquer des politiques de gouvernance des données et de consentement à vos actions personnalisées, afin d’empêcher l’exportation de champs spécifiques vers des systèmes tiers ou d’exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS. Pour plus d’informations, consultez les pages suivantes :
 
 * [Gouvernance des données](../action/action.md).
 * [Consentement](../action/action.md).
@@ -68,7 +68,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
    >
    >Lorsqu&#39;une action personnalisée est utilisée dans un parcours, la plupart des paramètres sont en lecture seule. Vous ne pouvez modifier que les champs **[!UICONTROL Nom]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la section **[!UICONTROL Authentification.]**
 
-## Configuration d&#39;URL {#url-configuration}
+## Configurer des URL {#url-configuration}
 
 Lors de la configuration d&#39;une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration d&#39;URL]** suivants :
 

@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
 Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
 
-Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et, si vous être administrateur, définir une durée de **[!UICONTROL Temporisation et erreur]**.
+Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une reprise, choisir les dates de début et de fin, et, si vous êtes administrateur, définir une durée de **[!UICONTROL Temporisation et erreur]**.
 
 Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
 
@@ -99,7 +99,7 @@ Au-delà de la temporisation globale par défaut de 30 jours, le statut du parc
 
 >[!NOTE]
 >
->Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12h01 pour un profil spécifique et qu’un autre arrive à 12h03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne redémarre pas pour ce profil.
+>Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
@@ -133,6 +133,6 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 ### Gérer l’accès {#access}
 
-Pour attribuer des libellés d’utilisation des données personnalisés ou de base au parcours, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** bouton . [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
+Pour attribuer des libellés d’utilisation des données personnalisés ou de base au parcours, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)

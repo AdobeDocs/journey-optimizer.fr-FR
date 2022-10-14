@@ -9,7 +9,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La page **[!UICONTROL Rapport dynamique]** sur les parcours s’affiche avec les
 
 Le **[!UICONTROL Rapport dynamique]** sur les parcours est divisé en différents widgets présentant le succès et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](live-report.md#modify-dashboard).
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](live-report.md#list-of-components-live).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](live-report.md#list-of-components-live).
 
 ## Onglet Parcours {#journey-live}
 
@@ -36,7 +36,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l&#39;onglet **[!U
 
 ![](assets/journey_live_1.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de Parcours.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de parcours.
 
 **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement détaillé de vos profils ciblés tout au long du parcours.
 
@@ -63,7 +63,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UIC
 
 ![](assets/journey_live_2.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’e-mail.
 
 Le widget **[!UICONTROL Statistiques d’envoi des e-mails]** présente les principales informations relatives à votre message :
 
@@ -118,7 +118,7 @@ Les widgets sur le long terme **[!UICONTROL Statistique des offres]** et **[!UIC
 
 ## Onglet Notification push {#push-live}
 
-De votre parcours **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre parcours.
+Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UICONTROL Notification push]** présente les principales informations relatives aux diffusions push envoyées dans votre parcours.
 
 ![](assets/journey_live_3.png)
 
@@ -151,7 +151,7 @@ Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL 
 
 ![](assets/journey_live_4.png)
 
-+++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport SMS.
 
 Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 

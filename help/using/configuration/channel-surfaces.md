@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -21,10 +21,10 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c�
 >
 > * Pour créer, modifier et supprimer des surfaces de canal, vous devez disposer de l’autorisation [Gérer la surface du canal](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * Vous devez effectuer les opérations suivantes : [Configuration du canal e-mail](#configure-email-settings), [Configuration du canal push](../configuration/push-configuration.md) et [Configuration du canal SMS](../configuration/sms-configuration.md) avant de créer des surfaces de canal.
+> * Vous devez effectuer les opérations suivantes : [Configuration du canal e-mail](#configure-email-settings), [Configuration du canal push](../configuration/push-configuration.md) et [Configuration des SMS](../configuration/sms-configuration.md) avant de créer des surfaces de canal.
 
 
-Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d&#39;un parcours ou d&#39;une campagne.
+Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours ou d’une campagne.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,12 +35,12 @@ Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Paramètres de surface de canal"
->abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel il s’applique et définissez tous les paramètres techniques requis pour votre envoi, tels que le type d’email, le nom de l’expéditeur, les applications mobiles, la configuration des SMS, etc."
+>abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel elle s’applique et définissez tous les paramètres techniques obligatoires pour vos messages, tels que le type d’e-mail, le nom de l’expéditeur, les applications mobiles, la configuration des SMS, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Paramètres de surface de canal"
->abstract="Pour pouvoir créer des actions telles que des emails provenant d&#39;un parcours ou d&#39;une campagne, vous devez d&#39;abord créer une surface de canal qui définit tous les paramètres techniques requis pour vos messages. Vous devez disposer de l’autorisation Gérer la surface du canal pour créer, modifier et supprimer les surfaces du canal."
+>abstract="Pour pouvoir créer des actions telles que des e-mails provenant d’un parcours ou d’une campagne, vous devez d’abord créer une surface de canal qui définit tous les paramètres techniques requis pour vos messages. Vous devez disposer de l’autorisation Gérer la surface de canal pour créer, modifier et supprimer les surfaces de canal."
 
 Pour créer une surface de canal, procédez comme suit :
 
@@ -102,7 +102,7 @@ Pour créer une surface de canal, procédez comme suit :
    * Vérification de l&#39;hôte Helo
    * Vérification du pool d&#39;adresses IP
    * Enregistrement A/PTR, vérification du sous-domaine t/m/res
-   * Enregistrement FBL (cette vérification ne sera effectuée que la première fois qu’une surface d’email est créée pour un sous-domaine donné)
+   * Enregistrement FBL (cette vérification ne sera effectuée que la première fois qu’une surface d’e-mail est créée pour un sous-domaine donné)
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’A
    * Placement sur liste bloquée des adresses IP allouées
    * Nom `helo` non valide
    * E-mails envoyés à partir d’adresses IP autres que celles spécifiées dans le groupe d’adresses IP de la surface correspondante
-   * Impossible de diffuser des emails dans les boîtes de réception des principaux FAI
+   * Impossible de diffuser des e-mails vers les boîtes de réception des principaux FAI
 
 ## Modification d’une surface de canal {#edit-channel-surface}
 

@@ -9,7 +9,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la mise en page d’une landing page."
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la mise en page d’un fragment."
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
 >title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la mise en page d’un modèle."
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’un modèle."
 
 
 Lorsque vous créez à partir de zéro votre contenu d&#39;e-mail, les **[!UICONTROL composants de contenu]** vous permettent de personnaliser davantage votre e-mail à l’aide de composants bruts et vides que vous pouvez utiliser une fois placés dans un e-mail.
@@ -153,7 +153,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre landing page. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
+>abstract="Utilisez ce composant pour insérer une vidéo dans votre page de destination. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"

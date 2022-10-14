@@ -9,7 +9,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 38b8b0634ac0b1e59d848a5a661e3905abaec358
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 87%
 
 ## Comment archiver des messages {#about-archiving}
 
-Des réglementations telles que la loi HIPAA exigent que : [!DNL Journey Optimizer] doit fournir un moyen d’archiver les messages envoyés aux individus. En effet, si vos clients soumettent une réclamation, ils devraient avoir la possibilité d&#39;obtenir une copie du message envoyé à des fins de vérification.
+Des réglementations telles que la loi HIPAA exigent que [!DNL Journey Optimizer] fournisse un moyen d’archiver les messages envoyés aux individus. En effet, si vos clients soumettent une réclamation, ils devraient avoir la possibilité d&#39;obtenir une copie du message envoyé à des fins de vérification.
 
-* Pour le canal email, [!DNL Journey Optimizer] fournit une fonctionnalité de messagerie en Cci intégrée. [En savoir plus](#bcc-email)
+* Pour le canal e-mail, [!DNL Journey Optimizer] fournit une fonctionnalité de messagerie en Cci intégrée. [En savoir plus](#bcc-email)
 
-* De plus, pour tous les canaux, vous pouvez utiliser le champ &quot;Modèle&quot; dans la variable **Jeu de données d’entité**, qui contient les détails des modèles de messages non personnalisés. Exportez le jeu de données avec ce champ pour enregistrer des métadonnées telles que : qui a envoyé le message, à qui et quand. Notez que les données personnalisées ne sont pas exportées : seul le modèle (format et structure du message) est pris en compte. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
+* De plus, pour tous les canaux, vous pouvez utiliser le champ &quot;Modèle&quot; dans le **Jeu de données d’entité**, qui contient les détails des modèles de messages non personnalisés. Exportez le jeu de données avec ce champ pour enregistrer des métadonnées telles que : qui a envoyé le message, à qui et quand. Notez que les données personnalisées ne sont pas exportées : seul le modèle (format et structure du message) est pris en compte. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] ne possède pas la prise en charge des exigences d’archivage des SMS. Pour une prise en charge dédiée de l’archivage, travaillez avec votre fournisseur SMS (Synch ou Twilio).
+>[!DNL Journey Optimizer] ne possède pas la prise en charge des exigences d’archivage des SMS. Pour une prise en charge dédiée de l’archivage, collaborez avec votre fournisseur SMS (Synch ou Twilio).
 
-## Utilisation de la fonctionnalité Cci pour les emails {#bcc-email}
+## Utilisation de la fonctionnalité Cci pour les e-mails {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"

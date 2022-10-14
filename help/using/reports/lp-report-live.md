@@ -9,7 +9,7 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 87%
 
 Le rapport **[!UICONTROL Rapport dynamique]** sur les pages de destination affiche uniquement des détails sur l&#39;impact de vos pages de destination durant les dernières 24 heures. Pour mesurer les données de votre page de destination sur une période sélectionnée, reportez-vous à la section [Rapport global sur les pages de destination](lp-report-global.md).
 
-Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la landing page sélectionnée.
+Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la page de destination sélectionnée.
 
 ![](assets/landing_page_report.png)
 
 Le **[!UICONTROL Rapport dynamique]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport en direct de la page d’entrée.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport dynamique de la page de destination.
 
 Le widget **[!UICONTROL Performances de la page de destination]** présente les informations principales relatives à votre message au cours des dernières 24 heures à l’aide de KPI :
 
@@ -52,4 +52,4 @@ Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions
 Les graphiques **[!UICONTROL Visites par canaux]** / **[!UICONTROL Conversions par canaux]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination au cours des dernières 24 heures, en fonction des canaux.
 +++
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](live-report.md#list-of-components-live).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](live-report.md#list-of-components-live).

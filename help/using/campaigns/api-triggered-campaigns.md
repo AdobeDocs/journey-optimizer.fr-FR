@@ -5,7 +5,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -41,9 +41,9 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
    >
    >L’utilisation d’un grand nombre de données contextuelles importantes dans votre contenu peut avoir un impact sur les performances.
 
-1. Dans le **[!UICONTROL Audience]** , spécifiez l’espace de noms à utiliser pour identifier les individus du segment.
+1. Dans la section **[!UICONTROL Audience]**, spécifiez l’espace de nommage à utiliser pour identifier les individus du segment.
 
-   Le **[!UICONTROL Créer de nouveaux profils]** permet de créer automatiquement des profils qui n&#39;existent pas dans la base de données. [En savoir plus sur la création de profils lors de l&#39;exécution de campagne](#profile-creation)
+   L’option **[!UICONTROL Créer de nouveaux profils]** permet de créer automatiquement des profils qui n’existent pas dans la base de données. [En savoir plus sur la création de profils lors de l’exécution de la campagne](#profile-creation)
 
 1. Configurez les dates de début et de fin de la campagne.
 
@@ -90,7 +90,7 @@ Notez que si vous avez configuré une date de début et/ou de fin spécifique lo
 
 Dans certains cas, vous devrez peut-être envoyer des messages transactionnels à des profils qui n’existent pas dans le système, Par exemple, si un utilisateur inconnu tente de réinitialiser le mot de passe sur votre site web.
 
-Lorsqu&#39;un profil n&#39;existe pas dans la base de données, Journey Optimizer vous permet de le créer automatiquement lors de l&#39;exécution de la campagne afin de permettre l&#39;envoi du message à ce profil.
+Lorsqu’un profil n’existe pas dans la base de données, Journey Optimizer vous permet de le créer automatiquement lors de l’exécution de la campagne afin de permettre l’envoi du message à ce profil.
 
 >[!IMPORTANT]
 >
@@ -102,4 +102,4 @@ Pour activer la création de profil à l’exécution de la campagne, faites bas
 
 >[!NOTE]
 >
->Les profils inconnus sont créés dans la variable **Jeu de données de profil de messagerie interactive AJO** jeu de données, dans trois espaces de noms par défaut (email, téléphone et ECID), respectivement pour chaque canal sortant (email, SMS et push).
+>Les profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de nommage par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push).

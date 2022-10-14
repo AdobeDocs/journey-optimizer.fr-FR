@@ -9,7 +9,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 951799a9986e4fd293f282ecf82496e5e7f2da9e
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les actions personnalisées vous permettent de configurer la connexion d&#39;un 
 
 ## Consentement et gouvernance des données {#privacy}
 
-Dans Journey Optimizer, vous pouvez appliquer des stratégies de gouvernance des données et de consentement à vos actions personnalisées afin d’empêcher l’exportation de champs spécifiques vers des systèmes tiers ou exclure les clients qui n’ont pas consenti à recevoir des communications par courrier électronique, push ou SMS. Pour plus d&#39;informations, consultez les pages suivantes :
+Dans Journey Optimizer, vous pouvez appliquer des politiques de gouvernance des données et de consentement à vos actions personnalisées, afin d’empêcher l’exportation de champs spécifiques vers des systèmes tiers ou d’exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS. Pour plus d’informations, consultez les pages suivantes :
 
 * [Gouvernance des données](../action/action-privacy.md).
 * [Consentement](../action/consent.md).

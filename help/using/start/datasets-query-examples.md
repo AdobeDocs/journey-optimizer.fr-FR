@@ -9,7 +9,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -305,15 +305,15 @@ WHERE
 
 ## Jeu de données d’entité{#entity-dataset}
 
-_Nom dans l’interface : ajo_entity_dataset (jeu de données système)_
+_Nom dans l’interface : ajo_entity_dataset (jeu de données système)_
 
-Jeu de données permettant de stocker les métadonnées d’entité pour les messages envoyés à l’utilisateur final.
+Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés à l’utilisateur final.
 
 Le schéma associé est le schéma d’entité AJO.
 
-Ce jeu de données vous permet d’enrichir divers jeux de données à l’aide de métadonnées compatibles avec les marketeurs clés. L’attribut messageID permet de regrouper divers jeux de données, tels que le jeu de données de retour des messages et les jeux de données de suivi des événements d’expérience, afin d’obtenir les détails d’une diffusion de message, de l’envoi au suivi au niveau du profil.
+Ce jeu de données vous permet d’enrichir divers jeux de données à l’aide de métadonnées clés adaptées aux besoins des professionnels du marketing. L’attribut messageID permet de regrouper divers jeux de données, tels que les jeux de données de commentaires sur les messages et les jeux de données de suivi des événements d’expérience, pour obtenir des détails sur la diffusion d&#39;un message, de l’envoi au tracking, au niveau d’un profil.
 
-La requête suivante permet d&#39;obtenir le modèle de message associé pour une opération donnée :
+La requête suivante permet d’obtenir le modèle de message associé à une campagne donnée :
 
 ```sql
 SELECT
@@ -323,7 +323,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-La requête suivante permet d’obtenir les détails du Parcours et l’objet de l’email associés à tous les événements de retour :
+La requête suivante permet d’obtenir les détails du Parcours et l’objet de l’e-mail associés à tous les événements de commentaires :
 
 ```sql
 SELECT 
@@ -340,7 +340,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-Vous pouvez assembler des événements d’étape de parcours, des commentaires de message et des jeux de données de suivi pour obtenir les statistiques d’un profil particulier :
+Vous pouvez assembler des événements d’étape de parcours, des retours de message et des jeux de données de suivi pour obtenir les statistiques sur un profil particulier :
 
 ```sql
 SELECT 

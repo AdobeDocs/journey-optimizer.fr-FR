@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 71%
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 71%
 
 1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [Découvrez comment planifier des campagnes](#schedule)
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** bouton . [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
+1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
 Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
 
@@ -108,33 +108,33 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Mode de diffusion rapide"
->abstract="Le mode de diffusion rapide permet d&#39;envoyer rapidement des messages sur le canal push à une taille d&#39;audience inférieure à 30 M."
+>abstract="Mode de diffusion rapide vous permet d’envoyer des messages à grande vitesse sur le canal push à une taille d’audience inférieure à 30 M."
 
-Le mode de livraison rapide, précédemment connu sous le nom de mode d’éclatement en parcours, est un [!DNL Journey Optimizer] module complémentaire permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
+Le mode de diffusion rapide, précédemment connu sous le nom de mode rafale dans les parcours, est un module complémentaire [!DNL Journey Optimizer] permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
 
-La diffusion rapide est utilisée lorsque le retard dans la diffusion des messages est essentiel pour l’entreprise, lorsque vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple une info-bulle destinée aux utilisateurs qui ont installé votre application de canal d’actualités.
+Le mode de diffusion rapide est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux utilisateurs qui ont installé votre application de canal d’actualités.
 
-Pour plus d&#39;informations sur les performances lors de l&#39;utilisation du mode de diffusion Rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
+Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ### Conditions préalables {#prerequisites}
 
-La messagerie de diffusion rapide est fournie avec les exigences suivantes :
+La messagerie en diffusion rapide est fournie avec les conditions suivantes :
 
-* La livraison rapide est disponible pour **[!UICONTROL Planifié]** campagnes uniquement et n’est pas disponible pour les campagnes déclenchées par l’API,
-* Aucune personnalisation n&#39;est autorisée dans le message push,
-* L&#39;audience cible doit contenir moins de 30 millions de profils,
-* Vous pouvez exécuter simultanément jusqu’à 5 campagnes à l’aide du mode de diffusion Rapid .
+* La diffusion rapide est disponible pour les campagnes **[!UICONTROL planifiées]** uniquement et n’est pas disponible pour les campagnes déclenchées par l’API.
+* Aucune personnalisation n’est autorisée dans le message push.
+* L’audience cible doit contenir moins de 30 millions de profils.
+* Vous pouvez exécuter jusqu’à 5 campagnes simultanément à l’aide du mode de diffusion rapide.
 
-### Activation du mode de diffusion Rapid
+### Activer le mode de diffusion rapide
 
-1. Créer une campagne de notification push et activer/désactiver la variable **[!UICONTROL Diffusion rapide]** .
+1. Créez une campagne de notification push et activez/désactivez l’option **[!UICONTROL Diffusion rapide]**.
 
 ![](assets/create-campaign-burst.png)
 
-1. Configurez le contenu du message et sélectionnez l’audience à cibler. [Découvrez comment créer une campagne ](#create)
+1. Configurez le contenu du message et sélectionnez l’audience à cibler. [Découvrez comment créer une campagne](#create).
 
    >[!IMPORTANT]
    >
-   >Assurez-vous que le contenu du message ne contient aucune personnalisation et que l’audience contient moins de 30 millions de profils.
+   >Assurez-vous que le contenu du message ne contient aucune personnalisation et que l’audience contient moins de 30 millions de profils.
 
-1. Vérifiez et activez votre campagne comme vous le faites habituellement. Notez que, en mode test, les messages ne sont pas envoyés via le mode de diffusion Rapid . [Découvrez comment passer en revue et activer une campagne](review-activate-campaign.md)
+1. Vérifiez et activez votre campagne comme vous le faites habituellement. Notez que, en mode test, les messages ne sont pas envoyés via le mode de diffusion rapide. [Découvrez comment vérifier et activer une campagne.](review-activate-campaign.md)

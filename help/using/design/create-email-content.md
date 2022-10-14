@@ -9,7 +9,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 82%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="À propos des composants de structure"
->abstract="Les composants de structure définissent la disposition de la landing page."
+>abstract="Les composants de structure définissent la disposition de la page de destination."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
@@ -43,18 +43,18 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Définir les colonnes de landing page"
->abstract="Le Concepteur d&#39;email permet de définir facilement la mise en page de votre landing page en définissant la structure des colonnes."
+>title="Définir les colonnes de la page de destination"
+>abstract="Le Concepteur d’e-mails vous permet de définir facilement la disposition de votre page de destination en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Définition des colonnes de fragments"
->abstract="Le Concepteur d&#39;email permet de définir facilement la mise en page de votre fragment en définissant la structure des colonnes."
+>title="Définir les colonnes du fragment"
+>abstract="Le Concepteur d’e-mail vous permet de définir facilement la disposition de votre fragment en définissant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="Définir les colonnes du modèle"
->abstract="Le Concepteur d&#39;email permet de définir facilement la mise en page de votre modèle en définissant la structure des colonnes."
+>abstract="Le Concepteur d’e-mail vous permet de définir facilement la disposition de votre modèle en définissant la structure des colonnes."
 
 
 Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.

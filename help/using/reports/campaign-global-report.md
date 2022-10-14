@@ -9,13 +9,13 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1660'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Rapport global de campagne {#campaign-global-report}
 
-Le rapport global de campagnes est accessible directement depuis votre campagne à l’aide de la variable **[!UICONTROL Tout le temps]** bouton .
+Vous pouvez accéder directement au rapport global de campagne à partir de votre campagne à l’aide du bouton **[!UICONTROL À toute heure]**.
 
 ![](assets/campaign_report_global_5.png)
 
@@ -28,7 +28,7 @@ La page **[!UICONTROL Rapport global]** de la campagne s&#39;affiche avec les on
 
 Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](global-report.md#list-of-components-global.md)
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](global-report.md#list-of-components-global.md).
 
 ## Onglet Campagne {#campaign-global}
 
@@ -50,7 +50,7 @@ Le widget **[!UICONTROL Statistiques de la campagne]** présente les principales
 
 Dans le **[!UICONTROL Rapport global]** de campagne, l&#39;onglet **[!UICONTROL E-mail]** détaille les principales informations relatives aux diffusions par e-mail envoyées dans votre campagne.
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’e-mail.
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
 
@@ -138,7 +138,7 @@ L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de
 
 ## Onglet Notification push {#push-global}
 
-Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre campagne.
+Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL Notification push]** détaille les principales informations relatives aux diffusions push envoyées dans votre campagne.
 
 ![](assets/campaign_report_global_3.png)
 
@@ -212,11 +212,11 @@ Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL 
 
 ## Onglet SMS {#sms-global}
 
-Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL SMS]** Cet onglet présente les informations principales relatives aux diffusions SMS envoyées dans votre campagne.
+Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL SMS]** détaille les principales informations relatives aux diffusions SMS envoyées dans votre campagne.
 
 ![](assets/campaign_report_global_4.png)
 
-+++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport SMS.
 
 Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 
@@ -232,7 +232,7 @@ Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite 
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
-Le **[!UICONTROL Performances des SMS par date]** avec un graphique, vous trouverez les informations principales relatives à votre message :
+Le widget **[!UICONTROL Performances de SMS par date]** détaille les informations principales relatives à votre message sous forme de graphique :
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
@@ -242,7 +242,7 @@ Le **[!UICONTROL Performances des SMS par date]** avec un graphique, vous trouve
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
-Le **[!UICONTROL Exclure les raisons]**, **[!UICONTROL Raisons des rebonds]** et **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL Causes des bounces]** et **[!UICONTROL Raisons des erreurs]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 +++
 
 ## Ressources supplémentaires

@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Les étapes pour ajouter du contenu dynamique dans les expressions sont les suiv
 
 1. Sélectionnez la **[!UICONTROL Conditions]** pour afficher la liste des règles conditionnelles disponibles. Cliquez sur le bouton + en regard d’une règle pour l’ajouter à l’expression active.
 
-   Vous pouvez également créer une règle en sélectionnant **[!UICONTROL Créer]**. [Découvrez comment créer des conditions](create-conditions.md)
+   Vous pouvez également créer une règle en sélectionnant **[!UICONTROL Créer]**. [Découvrez comment créer des conditions.](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
@@ -48,7 +48,7 @@ Les étapes pour ajouter du contenu dynamique dans les expressions sont les suiv
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="Contenu conditionnel"
->abstract="Utilisez des règles conditionnelles pour créer plusieurs variantes d’un composant de contenu. Si aucune des conditions n&#39;est remplie lors de l&#39;envoi du message, le contenu de la variante Par défaut s&#39;affiche."
+>abstract="Utilisez des règles conditionnelles pour créer plusieurs variantes d’un composant de contenu. Si aucune des conditions n’est remplie lors de l’envoi du message, le contenu de la variante Par défaut s’affiche."
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
@@ -71,7 +71,7 @@ Les étapes de création de variantes d&#39;un composant de contenu dans le Conc
 
    ![](assets/conditions-select.png)
 
-   Vous pouvez également créer une règle en cliquant sur **[!UICONTROL Créer]**. [Découvrez comment créer des conditions](create-conditions.md)
+   Vous pouvez également créer une règle en cliquant sur **[!UICONTROL Créer]**. [Découvrez comment créer des conditions.](create-conditions.md)
 
 1. La règle conditionnelle est associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu ellipse .
 

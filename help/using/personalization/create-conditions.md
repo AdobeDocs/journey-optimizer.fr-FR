@@ -1,6 +1,6 @@
 ---
-title: Création de conditions
-description: Découvrez comment créer des conditions
+title: Créer des conditions
+description: Découvrez comment créer des conditions.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -39,12 +39,12 @@ Les règles conditionnelles sont créées à partir de la variable **[!UICONTROL
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
->title="Création d’une condition"
+>title="Créer une condition"
 >abstract="Combinez des attributs de profil, des événements contextuels ou des audiences pour créer des règles qui définissent le contenu à afficher dans vos messages."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
->title="Création d’une condition"
+>title="Créer une condition"
 >abstract="Combinez des attributs de profil, des événements contextuels ou des audiences pour créer des règles qui définissent le contenu à afficher dans vos messages."
 
 Les étapes de création d’une règle conditionnelle sont les suivantes :

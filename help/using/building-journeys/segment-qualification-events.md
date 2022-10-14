@@ -9,7 +9,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 >
 >Si le segment sélectionné est en flux continu, les individus appartenant à ce segment peuvent éventuellement rejoindre le parcours en temps réel. Si le segment est par lot, les personnes nouvellement qualifiées pour ce segment peuvent éventuellement rejoindre le parcours lorsque le calcul du segment est exécuté sur Adobe Experience Platform.
 >
->Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par un segment lu, une qualification de segment ou une activité d’événement commercial.
+>Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une lecture de segment, une qualification de segment ou une activité d’événement métier.
 
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification du segment]** dans la zone de travail.

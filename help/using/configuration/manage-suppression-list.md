@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Ajouter des e-mails ou des domaines à la liste de suppression"
->abstract="Pour remplir la liste de suppression, vous pouvez ajouter manuellement des adresses ou des domaines de courriel, un par un ou en mode massif, par le biais d’un téléchargement de fichier CSV. Ces adresses électroniques et/ou domaines spécifiques seront exclus de votre envoi."
+>abstract="Pour alimenter la liste de suppression, vous pouvez ajouter manuellement des adresses e-mail ou des domaines (un par un ou en bloc) par le biais d’un téléchargement de fichier CSV. Ces adresses e-mail et/ou domaines spécifiques seront exclus de votre envoi."
 
 Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
 

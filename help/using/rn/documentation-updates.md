@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '2020'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -19,16 +19,16 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Septembre 2022 {#september-2022}
 
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 22 septembre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
-* Ajout d’une bonne pratique liée à l’utilisation des activités d’attente dans les parcours de segments de lecture récurrente. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Toutes les nouvelles fonctionnalités et améliorations de la version de septembre 2022 de [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Ajout d’une bonne pratique liée à l’utilisation des activités d’attente dans les parcours de lecture de segment récurrents. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Ajout d’exemples de requête d’événement d’étape, ainsi que d’informations sur la différence entre id, instanceid et profileid. [En savoir plus](../reports/query-examples.md).
-* Mise à jour des pages relatives au [toDateOnly](../building-journeys/functions/functiontodateonly.md) et [toString](../building-journeys/functions/functiontostring.md) fonctions.
+* Mise à jour des pages relatives aux fonctions [toDateOnly](../building-journeys/functions/functiontodateonly.md) et [toString](../building-journeys/functions/functiontostring.md).
 * Ajout de détails sur les paramètres de condition de temps. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
 * Ajout d’informations sur les jeux de données intégrés. [En savoir plus](../start/get-started-datasets.md#access-datasets)
-* Les sections Rapport global et Rapport en direct ont été réorganisées pour une meilleure lisibilité. [En savoir plus](../reports/global-report.md)
-* Une liste de toutes les mesures de création de rapports disponibles dans Adobe Journey Optimizer a été ajoutée.
+* Les sections Rapport global et Rapport dynamique ont été réorganisées pour une meilleure lisibilité. [En savoir plus](../reports/global-report.md)
+* Une liste de toutes les mesures de création de rapports disponibles dans Adobe Journey Optimizer a été ajoutée.
    [En savoir plus](../reports/global-report.md#email-and-sms-metrics)
-* La section Email en Cci a été déplacée vers la nouvelle page Assistance pour l&#39;archivage. [En savoir plus](../configuration/archiving-support.md)
+* La section Envoyer l’e-mail en copie (Cci) a été déplacée vers la nouvelle page Prise en charge de l’archivage. [En savoir plus](../configuration/archiving-support.md)
 
 ## Août 2022 {#august-2022}
 

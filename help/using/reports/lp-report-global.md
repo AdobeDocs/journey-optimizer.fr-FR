@@ -9,7 +9,7 @@ exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 Le rapport **[!UICONTROL Rapport global]** sur les pages de destination affiche des détails sur l&#39;impact de vos pages de destination sur une période sélectionnée. Pour mesurer les données de votre page de destination sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport dynamique sur les pages de destination](lp-report-live.md).
 
-Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la landing page sélectionnée.
+Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la page de destination sélectionnée.
 
 ![](assets/landing_page_report.png)
 
@@ -25,7 +25,7 @@ Le **[!UICONTROL Rapport global]** sur les pages de destination est divisé en d
 
 ![](assets/landing_page_global.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport global de la page d’entrée.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport global de la page de destination.
 
 Les widgets **[!UICONTROL Nombre de visites]** et **[!UICONTROL Nombre de visites dans le temps]** vous permettent de mesurer l’impact de votre page de destination sur la période sélectionnée à lʼaide d’un graphique et de KPI comprenant les mesures suivantes :
 
@@ -62,4 +62,4 @@ Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions
 Les graphiques **[!UICONTROL Visites par canaux]**/ **[!UICONTROL Conversions par canaux]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination pendant la période concernée en fonction des canaux.
 +++
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](global-report.md#list-of-components-global).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](global-report.md#list-of-components-global).

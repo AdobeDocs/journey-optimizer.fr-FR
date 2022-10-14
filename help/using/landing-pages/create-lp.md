@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez également supprimer, dupliquer et dépublier une page de destinatio
 
 >[!CAUTION]
 >
->Si vous dépubliez une landing page référencée dans un message, le lien vers la landing page est rompu et une page d&#39;erreur s&#39;affiche.
+>Si vous annulez la publication d’une page de destination référencée dans un message, le lien vers la page de destination est rompu et une page d’erreur s’affiche.
 
 Cliquez sur les trois points en regard d’une page de destination pour sélectionner l’action souhaitée.
 
@@ -39,16 +39,16 @@ Cliquez sur les trois points en regard d’une page de destination pour sélecti
 
 >[!NOTE]
 >
->Vous ne pouvez pas supprimer un [publié](#publish-landing-page) landing page. Pour la supprimer, vous devez d’abord la dépublier.
+>Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Pour la supprimer, vous devez d’abord la dépublier.
 
 ## Création d’une page de destination {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
->title="Définir et configurer votre landing page"
->abstract="Pour créer une landing page, vous devez sélectionner un paramètre prédéfini, puis configurer la Principale page et les sous-pages, et enfin tester la page avant de la publier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publication de la page de destination"
+>title="Définissez et configurez votre page de destination."
+>abstract="Pour créer une page de destination, vous devez sélectionner un paramètre prédéfini, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=fr#publish-landing-page" text="Publier la page de destination"
 
 Suivez les étapes de création dʼune page de destination décrites ci-après.
 
@@ -60,7 +60,7 @@ Suivez les étapes de création dʼune page de destination décrites ci-après.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la page d’entrée, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la page de destination, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
    <!--You can add a tag. See AEP documentation?-->
 
@@ -84,15 +84,15 @@ Une fois que vous avez configuré et conçu la [page principale](#configure-prim
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
->title="Définition des paramètres de page Principal"
->abstract="La Principale page est immédiatement affichée par les utilisateurs qui cliquent sur le lien vers votre landing page, provenant par exemple d’un email ou d’un site web."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Conception du contenu de la page de destination"
+>title="Définissez les paramètres de votre page principale."
+>abstract="La page principale est la page que les utilisateurs voient en premier lorsqu’ils cliquent sur le lien de votre page de destination (à partir d’un e-mail ou d’un site Web, par exemple)."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=fr" text="Concevoir le contenu de la page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="Définition de l’URL de votre landing page"
->abstract="Dans cette section, définissez une URL de page d’entrée unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du préréglage que vous avez sélectionné."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configurer les sous-domaines des pages de destination"
+>title="Définir lʼURL de votre page de destination"
+>abstract="Dans cette section, définissez une URL de page de destination unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du paramètre prédéfini que vous avez sélectionné."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html?lang=fr" text="Configurer les sous-domaines des pages de destination"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
 
 La page principale est la page que les utilisateurs voient en premier lorsqu’ils cliquent sur le lien de votre page de destination (à partir d’un e-mail ou d’un site Web, par exemple).
@@ -105,7 +105,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_open-designer.png)
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du [préréglage](../configuration/lp-presets.md#lp-create-preset) que vous avez sélectionné. [En savoir plus](../configuration/lp-subdomains.md)
+1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du [préréglage](../configuration/lp-presets.md#lp-create-preset) que vous avez sélectionné. [En savoir plus](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_expiry-date.png)
 
-1. Dans le **[!UICONTROL Données additionnelles]** , définissez une ou plusieurs clés et leurs valeurs de paramètre correspondantes. Vous pourrez utiliser ces clés dans le contenu de votre Principale page et de vos sous-pages à l’aide de la fonction [Editeur d&#39;expression](../personalization/personalization-build-expressions.md). En savoir plus dans [cette section](lp-content.md#use-form-component#use-additional-data).
+1. Dans la section **[!UICONTROL Données additionnelles]**, définissez une ou plusieurs clés et leurs valeurs de paramètre correspondantes. Vous pourrez utiliser ces clés dans le contenu de votre page principale et de vos sous-pages à l’aide de l’[éditeur d’expression](../personalization/personalization-build-expressions.md). En savoir plus dans [cette section](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 
@@ -153,14 +153,14 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
->title="Définition des paramètres de sous-page"
+>title="Définir les paramètres de sous-page"
 >abstract="Vous pouvez ajouter jusquʼà 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d’erreur, qui sera affichée si la page de destination rencontre un problème."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Conception du contenu de la page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Concevoir le contenu de la page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="Définition de l’URL de votre landing page"
->abstract="Dans cette section, définissez une URL de page d’entrée unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du préréglage que vous avez sélectionné."
+>title="Définir lʼURL de votre page de destination"
+>abstract="Dans cette section, définissez une URL de page de destination unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du paramètre prédéfini que vous avez sélectionné."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configurer les sous-domaines des pages de destination"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
 
@@ -176,7 +176,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
    >
    >Vous pouvez insérer un lien vers la page principale depuis n&#39;importe quelle sous-page de la même page de destination. Par exemple, pour rediriger les utilisateurs qui ont commis une erreur et qui souhaitent s’abonner à nouveau, vous pouvez ajouter un lien depuis la sous-page de confirmation vers la page principale d’abonnement. Découvrez comment insérer des liens dans [cette section](../design/message-tracking.md#insert-links).
 
-1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-subdomains.md)
+1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -255,7 +255,7 @@ Deux types d’alertes peuvent avoir lieu :
 > To be able to publish your message, you must resolve all **error** alerts.
 -->
 
-## Publication de la page de destination {#publish-landing-page}
+## Publier la page de destination {#publish-landing-page}
 
 Une fois votre page de destination configurée, vous pouvez la publier pour quʼelle puisse être utilisée dans un message.
 

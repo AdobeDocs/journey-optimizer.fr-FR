@@ -9,7 +9,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -158,7 +158,7 @@ Pour en savoir plus sur l’émission d’appels d’API, consultez la documenta
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Gérer la liste autorisée"
->abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans cette liste recevront des e-mails de cette sandbox. Lorsque cette option est désactivée, tous les destinataires reçoivent des emails."
+>abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans cette liste reçoivent des e-mails de cette sandbox. Lorsqu’elle est désactivée, tous les destinataires reçoivent des e-mails."
 
 Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suivante s’applique :
 

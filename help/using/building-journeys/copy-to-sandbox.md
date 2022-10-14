@@ -9,7 +9,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 >title="Objets dépendants"
 >abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne."
 
-Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : segments, surfaces (c’est-à-dire préréglages), schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette section [section](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : segments, surfaces (c’est-à-dire préréglages), schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >

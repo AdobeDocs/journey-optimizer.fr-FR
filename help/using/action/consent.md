@@ -10,7 +10,7 @@ exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 90%
 
 Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des stratégies marketing afin de respecter les préférences de consentement de vos clients. Les stratégies de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
 
-Dans Journey Optimizer, vous pouvez appliquer ces stratégies de consentement à vos actions personnalisées. Par exemple, vous pouvez définir des stratégies de consentement pour exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS.
+Dans Journey Optimizer, vous pouvez appliquer ces politiques de consentement à vos actions personnalisées. Par exemple, vous pouvez définir des stratégies de consentement pour exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS.
 
 >[!NOTE]
 >
->Actuellement, les politiques de consentement ne sont disponibles que pour les organisations qui ont acheté l’offre complémentaire du Bouclier de santé.
+>Les stratégies de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield.
 
 Dans Journey Optimizer, le consentement est défini à plusieurs niveaux :
 
@@ -37,7 +37,7 @@ Avec la gestion du consentement, deux activités de parcours sont analysées :
 
 * Lecture de segment : le segment récupéré est pris en compte.
 * Action personnalisée : la gestion du consentement prend en compte les attributs utilisés ([paramètres d’action](../action/about-custom-action-configuration.md#define-the-message-parameters)) ainsi que la ou les actions marketing définies (action marketing requise et action marketing supplémentaire).
-* Les attributs qui font partie d’un groupe de champs à l’aide du schéma d’union d’usine ne sont pas pris en charge. Ces attributs seront masqués dans l’interface. Vous devez créer un autre groupe de champs à l’aide d’un autre schéma.
+* Les attributs qui font partie d’un groupe de champs utilisant le schéma d’union prêt à l’emploi ne sont pas pris en charge. Ces attributs seront masqués dans l’interface. Vous devez créer un autre groupe de champs utilisant un autre schéma.
 * Les stratégies de consentement s’appliquent uniquement lorsqu’une action marketing (requise ou supplémentaire) est définie au niveau de l’action personnalisée.
 
 Toutes les autres activités utilisées dans un parcours ne sont pas prises en compte. Si vous commencez votre parcours avec une qualification de segment, le segment n’est pas pris en compte.

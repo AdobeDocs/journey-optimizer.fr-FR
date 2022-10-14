@@ -1,6 +1,6 @@
 ---
-title: Examiner et activer une campagne
-description: Découvrez comment passer en revue et activer des campagnes dans [!DNL Journey Optimizer]
+title: Vérifier et activer une campagne
+description: Découvrez comment vérifier et activer des campagnes dans [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 5a7932cf0cb013e627e79aadde526e8f976effaf
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
