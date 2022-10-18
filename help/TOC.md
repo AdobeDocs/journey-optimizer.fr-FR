@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
