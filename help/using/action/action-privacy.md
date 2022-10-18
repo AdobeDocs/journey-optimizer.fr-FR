@@ -6,9 +6,9 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f2f55f42739509c50223d01e25fb1f16bf19a0de
-workflow-type: ht
-source-wordcount: '867'
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+workflow-type: tm+mt
+source-wordcount: '922'
 ht-degree: 100%
 
 ---
@@ -25,6 +25,12 @@ Grâce à son cadre de gouvernance DULE (Data Usage Labelling and Enforcement), 
 Adobe Experience Platform vous permet d’étiqueter vos champs et de créer des actions marketing pour chaque canal. Vous pouvez ensuite définir une stratégie de gouvernance associée à une étiquette et à une action marketing.
 
 Dans Journey Optimizer, vous pouvez appliquer ces stratégies à vos actions personnalisées afin d’empêcher l’exportation de champs spécifiques vers des systèmes tiers.
+
+Pour plus d’informations sur le cadre de gouvernance des données et sur l’utilisation des libellés et des stratégies, consultez la documentation d’Adobe Experience Platform :
+
+* [Présentation du service de gouvernance des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr)
+* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr)
+* [Stratégies d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr)
 
 ## Remarques importantes {#important-notes}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
-workflow-type: ht
-source-wordcount: '1323'
-ht-degree: 100%
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 90%
 
 ---
 
@@ -84,7 +84,9 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](assets/read-segment-schedule-list.png)
 
-   Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment rejoignent le parcours. À l’occurrence suivante, tous les profils rejoignent à nouveau le parcours, même s’ils étaient déjà à l’intérieur. L’ancienne instance du profil dans le parcours est arrêtée et une nouvelle instance est créée. Lʼoption **Lecture incrémentielle** vous permet de cibler, après la première occurrence, les individus qui sont entrés dans le segment depuis la dernière exécution du parcours.
+   Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment rejoignent le parcours. Cette option vous permet de cibler, après la première occurrence, uniquement les individus entrés dans le segment depuis la dernière exécution du parcours.
+
+   **Force une réentrée sur une période récurrente**: cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Par exemple, si vous avez 2 jours d’attente dans un parcours récurrent quotidien, en activant cette option, les profils seront toujours déplacés lors de l’exécution du parcours suivant (donc le jour suivant), qu’ils se trouvent dans l’audience suivante ou non. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité, n’activez pas cette option pour vous assurer que les profils peuvent terminer leur parcours.
 
 <!--
 
@@ -108,8 +110,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >Les parcours de lecture de segment en une fois passent à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence.
->
->Soyez prudent lorsque vous utilisez des activités d’attente dans des parcours de lecture de segment récurrents. La durée de vie de ces parcours se termine à la prochaine exécution. En d’autres termes, si un parcours s’exécute tous les jours, l’instance de parcours qui a démarré aujourd’hui durera jusqu’à l’exécution de demain. Par exemple, si vous avez ajouté un délai d’attente de 2 jours dans ce parcours, les profils seront toujours déplacés lors de l’exécution du parcours suivant (c’est-à-dire le lendemain), qu’ils se trouvent ou non dans l’audience d’exécution suivante. Les profils ne pourront jamais rester dans ce parcours pendant 2 jours.
 
 ### Tester et publier le parcours {#testing-publishing}
 
