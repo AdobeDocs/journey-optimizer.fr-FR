@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Gestion de la liste de suppression
 description: Découvrez comment accéder à la liste de suppression de Journey Optimizer et la gérer
 feature: Application Settings
@@ -6,8 +8,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
-workflow-type: ht
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 100%
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Utilisation d’expressions enregistrées
 description: Découvrez comment utiliser des expressions enregistrées depuis la bibliothèque  [!DNL Journey Optimizer] .
 feature: Personalization
@@ -6,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%

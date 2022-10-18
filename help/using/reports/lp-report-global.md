@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Rapport global sur les pages de destination
 description: Découvrez comment utiliser les données de votre rapport global sur les pages de destination
 feature: Journeys
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 

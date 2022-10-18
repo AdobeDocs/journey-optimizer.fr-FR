@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Prise en charge de l’archivage dans Journey Optimizer
-description: Découvrez comment configurer la fonctionnalité E-mail Cci au niveau de la surface de canal
+description: Découvrez comment archiver des messages
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 38b8b0634ac0b1e59d848a5a661e3905abaec358
-workflow-type: ht
-source-wordcount: '1311'
-ht-degree: 100%
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+workflow-type: tm+mt
+source-wordcount: '1305'
+ht-degree: 99%
 
 ---
 

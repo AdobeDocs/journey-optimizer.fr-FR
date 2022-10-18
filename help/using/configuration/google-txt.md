@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Ajout d’un enregistrement TXT Google à un sous-domaine
 description: Découvrez comment ajouter un enregistrement TXT Google à un sous-domaine.
 feature: Application Settings
@@ -6,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%

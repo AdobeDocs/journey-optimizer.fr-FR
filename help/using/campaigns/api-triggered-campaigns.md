@@ -1,8 +1,10 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Déclencher des campagnes à l’aide d’API
 description: Découvrez comment déclencher des campagnes à l’aide d’ [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 92%

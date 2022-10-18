@@ -1,9 +1,11 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
 

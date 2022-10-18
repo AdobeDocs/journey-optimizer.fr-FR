@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Utilisation du canevas de composition
 description: Découvrez comment utiliser le canevas de composition
 feature: Journeys
@@ -7,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
