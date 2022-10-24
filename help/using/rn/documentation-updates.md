@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 99%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Octobre 2022 {#october-2022}
 
+* Ajout d’un cas d’utilisation parcours sur la manière de limiter le débit à l’aide de sources de données externes et d’actions personnalisées. [En savoir plus](../building-journeys/limit-throughput.md)
+* La section Cas pratique parcours a été réorganisée en deux catégories : [Cas d’utilisation métier](../building-journeys/journeys-uc.md) et [Cas d’utilisation technique](../building-journeys/collections.md).
+* Le **Jeu de données d’entité** a été mise à jour avec plus de détails. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
 * Les informations relatives à la gestion des désinscriptions et aux stratégies de consentement ont été réorganisées en une nouvelle section. [En savoir plus](../privacy/opt-out.md)
 
 ## Septembre 2022 {#september-2022}

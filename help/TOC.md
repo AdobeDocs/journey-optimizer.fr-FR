@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Cas pratiques {#journey-use-cases}
-      + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
-      + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
-      + [Envoi d’un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
-      + [Accélération des diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
+      + Cas d’utilisation métier {#business-use-cases}
+         + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
+         + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
+      + Cas d’utilisation technique {#technical-use-cases}
+         + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
+         + [Accélération des diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Limitation du débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
