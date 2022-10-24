@@ -22,7 +22,7 @@ Pour ce faire, procédez comme suit :
 
 * **Actions personnalisées**: pour envoyer des informations à des systèmes externes, par exemple pour envoyer des emails via une solution externe à l’aide des fonctionnalités d’orchestration de Journey Optimizer avec des informations de profil, des données d’audience et un contexte de parcours.
 
-Si vous utilisez des sources de données externes ou des actions personnalisées, vous pouvez vouloir protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 2 000 instances/seconde pour les instances déclenchées par un segment. Vous pouvez définir des limites de limitation au niveau du point d’entrée afin d’éviter de surcharger ces systèmes externes par le biais des API de limitation de Journey Optimizer. Toutefois, toutes les requêtes restantes après l’atteinte de la limite seront ignorées.
+Si vous utilisez des sources de données externes ou des actions personnalisées, vous pouvez vouloir protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 2 000 instances/seconde pour les instances déclenchées par un segment. Vous pouvez définir des limites de limitation au niveau du point d’entrée afin d’éviter de surcharger ces systèmes externes par le biais des API de limitation de Journey Optimizer. Cependant, toutes les requêtes restantes après l’atteinte de la limite seront ignorées.
 
 Dans cette section, vous trouverez des solutions de contournement que vous pouvez utiliser pour optimiser votre débit. Pour plus d&#39;informations sur l&#39;intégration aux systèmes externes, reportez-vous à cette section [page](../configuration/external-systems.md).
 
