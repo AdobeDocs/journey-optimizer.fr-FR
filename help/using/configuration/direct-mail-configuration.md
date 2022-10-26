@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
+source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, vous pouvez choisir la région AWS dans laquelle vous souhaitez exporter et charger vos fichiers de courrier.
+1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, sélectionnez la région AWS dans laquelle vous souhaitez exporter et charger vos fichiers de courrier.
 
    ![](assets/file-routing-config-aws-region.png)
 
