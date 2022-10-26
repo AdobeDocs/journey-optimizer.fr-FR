@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation des stratégies de consentement
+title: Utiliser les politiques de consentement
 description: Découvrez comment utiliser les stratégies de consentement Adobe Experience Platform
 feature: Actions
 topic: Administration
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ---
 
-# Utilisation des stratégies de consentement {#consent-management}
+# Utiliser les politiques de consentement {#consent-management}
 
 Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des stratégies marketing afin de respecter les préférences de consentement de vos clients. Les stratégies de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
 

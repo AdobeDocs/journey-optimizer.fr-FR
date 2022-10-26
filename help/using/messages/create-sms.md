@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte à vos clients
 
 >[!NOTE]
 >
->Conformément aux normes et réglementations du secteur, tous les messages de marketing SMS doivent contenir un moyen pour que les destinataires puissent facilement se désabonner. Pour ce faire, les destinataires SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. [Découvrez comment gérer l’exclusion](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires SMS peuvent répondre avec des mots-clés d&#39;opt-in et d&#39;opt-out. [Découvrez comment gérer l’exclusion](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 Les diffusions SMS peuvent être créées :
 

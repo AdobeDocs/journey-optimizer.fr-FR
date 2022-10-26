@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Accès et gestion des audiences
+title: Accéder aux audiences et les gérer
 description: Découvrez comment accéder aux audiences et les gérer
 feature: Journeys
 topic: Content Management
@@ -12,12 +12,12 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 10%
+ht-degree: 23%
 
 ---
 
 
-# Accès et gestion des audiences {#access-manage-audiences}
+# Accéder aux audiences et les gérer {#access-manage-audiences}
 
 Les audiences sont accessibles à partir de la fonction **[!UICONTROL Audiences]** dans le **[!UICONTROL Segments]** .
 
@@ -43,6 +43,6 @@ Pour attribuer des libellés d’utilisation des données personnalisés ou de b
 
 En savoir plus:
 
-* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
-* [Création de workflows de composition](create-compositions.md)
-* [Utilisation du canevas de composition](composition-canvas.md)
+* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Créer des workflows de composition](create-compositions.md)
+* [Utiliser la zone de travail de composition](composition-canvas.md)

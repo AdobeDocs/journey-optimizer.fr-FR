@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création de workflows de composition
+title: Créer des workflows de composition
 description: Découvrez comment créer des workflows de composition pour combiner et organiser des audiences existantes.
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# Création de workflows de composition {#create-compositions}
+# Créer des workflows de composition {#create-compositions}
 
 Les workflows de composition vous permettent de combiner et d’organiser des audiences existantes pour créer de nouvelles audiences.
 
@@ -80,6 +80,6 @@ Toutes les compositions créées sont accessibles à partir du **[!UICONTROL Com
 
 En savoir plus:
 
-* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
-* [Utilisation du canevas de composition](composition-canvas.md)
-* [Accès et gestion des audiences](access-audiences.md)
+* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Utiliser la zone de travail de composition](composition-canvas.md)
+* [Accéder aux audiences et les gérer](access-audiences.md)

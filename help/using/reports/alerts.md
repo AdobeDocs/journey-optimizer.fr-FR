@@ -29,7 +29,7 @@ Si un tel comportement inattendu se produit, une notification d’alerte est env
 
 ![](assets/alerts2.png)
 
-Lors de l’[affichage des règles d’alerte dans l’interface utilisateur de Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), vous pouvez vous abonner à chaque règle. Toutefois, lorsque vous vous abonnez à des alertes par le biais des [Notifications d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr), les règles d’alerte sont organisées en différents packages d’abonnement. Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte Lecture de segment est le suivant : « Retards, échecs et erreurs dans les segments de lecture par parcours ».
+Lors de l’[affichage des règles d’alerte dans l’interface utilisateur de Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr), vous pouvez vous abonner à chaque règle. Toutefois, lorsque vous vous abonnez à des alertes par le biais des [Notifications d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr), les règles d’alerte sont organisées en différents packages d’abonnement. Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte Lecture de segment est le suivant : « Retards, échecs et erreurs dans les segments de lecture par parcours ».
 
 >[!WARNING]
 >

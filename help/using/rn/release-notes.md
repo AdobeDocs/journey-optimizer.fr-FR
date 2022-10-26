@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -182,7 +182,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d
 
 **Administration**
 
-* Lors de l’activation ou de la désactivation de la liste autorisée, un nouvel avertissement s’affiche maintenant pour détailler les impacts de chaque action. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
+* Lors de l’activation ou de la désactivation de la liste autorisée, un nouveau message d’avertissement s’affiche désormais pour détailler les impacts de chaque action. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 * Mise à jour de l’interface utilisateur pour la création de surfaces de canal, la création de groupes d’adresses IP, la gestion de la liste de suppression et de la liste autorisée, ainsi que la configuration du canal SMS.
 * Désormais, lors de la création de la première surface de canal pour un sous-domaine donné, le temps de traitement prendra entre 10 minutes et 10 jours, et jusqu’à 3 heures uniquement pour les surfaces suivantes utilisant ce sous-domaine. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
 

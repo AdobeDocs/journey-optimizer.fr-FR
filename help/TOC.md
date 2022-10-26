@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
    + [Création d’une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)
    + [Création d’un publipostage direct](using/messages/create-direct-mail.md)
-   + [Vérification des alertes](using/messages/alerts.md)
+   + [Vérifier les alertes](using/messages/alerts.md)
    + [Optimisation de l&#39;heure d&#39;envoi](using/messages/send-time-optimization.md)
 + Canal web{#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
@@ -117,7 +117,7 @@ ht-degree: 94%
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
    + Contenu dynamique {#dynamic}
       + [Prise en main du contenu dynamique](using/personalization/get-started-dynamic-content.md)
-      + [Création de règles conditionnelles](using/personalization/create-conditions.md)
+      + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
       + [Créer du contenu dynamique](using/personalization/dynamic-content.md)
 + Segments, profils et identité{#segment}
    + Segments {#segments}
@@ -127,11 +127,11 @@ ht-degree: 94%
       + [Prise en main des profils](using/segment/get-started-profiles.md)
       + [Créer des profils de test](using/segment/creating-test-profiles.md)
    + [Identités](using/segment/get-started-identity.md)
-   + Composer les audiences {#audience-orchestration}
-      + [Prise en main de la composition de l’audience](using/segment/get-started-audience-orchestration.md)
-      + [Création de workflows de composition](using/segment/create-compositions.md)
-      + [Utilisation du canevas de composition](using/segment/composition-canvas.md)
-      + [Accès et gestion des audiences](using/segment/access-audiences.md)
+   + Composer des audiences {#audience-orchestration}
+      + [Prise en main de la composition des audiences](using/segment/get-started-audience-orchestration.md)
+      + [Créer des workflows de composition](using/segment/create-compositions.md)
+      + [Utiliser la zone de travail de composition](using/segment/composition-canvas.md)
+      + [Accéder aux audiences et les gérer](using/segment/access-audiences.md)
    + [Utilisation des licences](using/segment/license-usage.md)
 + Parcours {#orchestrate-journeys}
    + À propos des parcours{#about-journeys}
@@ -285,7 +285,7 @@ ht-degree: 94%
       + [Prise en main de la délivrabilité](using/reports/deliverability.md)
       + [Présentation de la liste de suppression](using/reports/suppression-list.md)
    + [Alertes](using/reports/alerts.md)
-   + [Utilisation de Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
 + Gestion des décisions {#offer-decisioning}
    + Prise en main de la gestion des décisions {#get-started-decision}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -451,6 +451,6 @@ ht-degree: 94%
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
    + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + Gérer le consentement {#consent}
-      + [Gestion du processus d’opt-out](using/privacy/opt-out.md)
-      + [Utilisation des stratégies de consentement](using/action/consent.md)
+      + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
+      + [Utiliser les politiques de consentement](using/action/consent.md)
    + [Gouvernance des données](using/action/action-privacy.md)

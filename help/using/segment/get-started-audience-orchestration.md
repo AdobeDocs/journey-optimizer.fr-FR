@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la composition de l’audience
+title: Prise en main de la composition des audiences
 description: En savoir plus sur la composition des audiences
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
-# Prise en main de la composition de l’audience {#get-start-audience-composition}
+# Prise en main de la composition des audiences {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -55,6 +55,6 @@ La composition de l’audience est accessible à partir de la **[!UICONTROL Segm
 
 En savoir plus:
 
-* [Création de workflows de composition](create-compositions.md)
-* [Utilisation du canevas de composition](composition-canvas.md)
-* [Accès et gestion des audiences](access-audiences.md)
+* [Créer des workflows de composition](create-compositions.md)
+* [Utiliser la zone de travail de composition](composition-canvas.md)
+* [Accéder aux audiences et les gérer](access-audiences.md)

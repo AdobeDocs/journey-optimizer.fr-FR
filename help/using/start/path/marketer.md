@@ -8,7 +8,7 @@ exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
 1. **Créer des segments**. Journey Optimizer vous permet de créer des segments d’audience directement à partir du menu **Segments**, et de les exploiter dans vos parcours.  Pour en savoir plus sur les segments, consultez [cette page](../../segment/about-segments.md). Découvrez comment créer des segments [dans cet exemple](../../segment/creating-a-segment.md).
 
-1. **Ajout de la personnalisation et du contenu dynamique**. Tirez parti des fonctionnalités de personnalisation et de contenu dynamique de Journey Optimizer pour adapter votre message à votre audience. En savoir plus sur [personnalisation](../../personalization/personalize.md) et [contenu dynamique](../../personalization/get-started-dynamic-content.md).
+1. **Ajoutez la personnalisation et un contenu dynamique**. Profitez des fonctionnalités de personnalisation et du contenu dynamique de Journey Optimizer pour adapter votre message à votre audience. En savoir plus sur la [personnalisation](../../personalization/personalize.md) et le [contenu dynamique](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 

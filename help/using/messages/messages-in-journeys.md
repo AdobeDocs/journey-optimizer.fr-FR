@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 92%
 >title="Surface de canal"
 >abstract="Une surface de canal est une instance de ce canal qui possède tous les paramètres pour diffuser une action avec succès via une campagne ou un parcours. Elle est définie par un administrateur système."
 
-Dans vos parcours, utilisez les actions de canal pour concevoir et personnaliser le message que vous souhaitez envoyer à votre audience. Lorsque vous ajoutez un email, un SMS ou une action push au canevas du parcours, vous créez un envoi déclenché. Lorsque les contacts atteignent cette action de canal, Adobe Journey Optimizer envoie automatiquement le message.
+Dans vos parcours, utilisez les actions de canal pour concevoir et personnaliser le message que vous souhaitez envoyer à votre audience. Lorsque vous ajoutez une action E-mail, SMS ou de notification push aux zones de travail de parcours, vous créez un envoi déclenché. Lorsque les contacts atteignent cette action de canal, Adobe Journey Optimizer envoie automatiquement le message.
 
 
 >[!NOTE]
 >Vous pouvez également créer des campagnes pour envoyer des messages planifiés. En savoir plus dans [cette section](../campaigns/get-started-with-campaigns.md).
 
 
-Pour ajouter des messages dans un parcours, ajoutez une activité push, SMS ou email dans le canevas du parcours.
+Pour ajouter des messages dans un parcours, ajoutez une activité de notification push, SMS ou e-mail dans la zone de travail du parcours.
 
 1. Débutez votre parcours avec une activité [Événement](../building-journeys/general-events.md) ou [Lecture de segment](../building-journeys/read-segment.md).
 
@@ -52,7 +52,7 @@ Pour ajouter des messages dans un parcours, ajoutez une activité push, SMS ou e
    >
    >* Si vous avez défini des [règles de fréquence](../configuration/frequency-rules.md) pour un canal et une catégorie spécifiques, elles sont automatiquement appliquées au message lors de la sélection de ce canal et de cette catégorie. Actuellement, seule la catégorie **[!UICONTROL Marketing]** est disponible pour les règles de fréquence.
    >
-   >* Les messages marketing doivent inclure une [lien d’exclusion](../privacy/opt-out.md#opt-out-management). Cela n’est pas nécessaire pour les messages transactionnels, car ces messages peuvent être envoyés aux profils qui se sont désabonnés des communications marketing.
+   >* Les messages marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-management). Cela n’est pas nécessaire pour les messages transactionnels, car ces messages peuvent être envoyés aux profils qui se sont désabonnés des communications marketing.
 
 
 1. Sélectionnez la **[!UICONTROL Surface]** de canal (c’est-à-dire le préréglage du message) à utiliser pour envoyer votre message.

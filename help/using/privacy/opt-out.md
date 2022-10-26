@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion du processus d’opt-out
+title: Gérer le processus d’opt-out
 description: Découvrez comment gérer le processus d’opt-out et la confidentialité
 feature: Journeys
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
-# Gestion du processus d’opt-out {#consent}
+# Gérer le processus d’opt-out {#consent}
 
 Utilisez [!DNL Journey Optimizer] pour suivre le consentement de vos destinataires en matière de communication et comprendre comment ils veulent interagir avec votre marque en gérant leurs préférences et leurs abonnements.
 
@@ -177,7 +177,7 @@ Une fois votre message envoyé via un [parcours](../building-journeys/journey.md
 >id="ajo_admin_preset_unsubscribe"
 >title="Ajout d’un lien de désabonnement à l’en-tête d’un e-mail"
 >abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’opt-out en un clic dans le contenu de l’e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Désinscription en un clic"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Opt-out en un clic"
 
 Si l’[option List-Unsubscribe](../configuration/channel-surfaces.md#list-unsubscribe) est activée au niveau des surfaces du canal, les e-mails correspondants envoyés avec [!DNL Journey Optimizer] incluent un lien de désabonnement dans l’en-tête de l’e-mail.
 
@@ -213,14 +213,14 @@ Par exemple, lors du téléchargement ou de l’utilisation de votre application
 
 ## Gestion des processus d’opt-out des SMS {#sms-opt-out-management}
 
-Conformément aux normes et réglementations du secteur, tous les messages de marketing SMS doivent contenir un moyen pour que les destinataires puissent facilement se désabonner. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
+Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
 >[!NOTE]
 >
 >L’ajout d’un lien de désinscription n’est pas obligatoire pour les messages transactionnels.
 
-Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : **DÉMARRER**, **STOP**, et **UNSTOP**. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
+Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : **DÉMARRAGE**, **ARRÊT** et **REDÉMARRAGE**. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
 
-Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (démarrage, arrêt et redémarrage) pour les SMS, regardez la vidéo suivante:
+Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (démarrage, arrêt et redémarrage) pour les SMS, regardez la vidéo suivante :
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)

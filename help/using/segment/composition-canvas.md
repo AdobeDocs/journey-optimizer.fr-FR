@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation du canevas de composition
+title: Utiliser la zone de travail de composition
 description: Découvrez comment utiliser le canevas de composition
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Utilisation du canevas de composition {#composition-canvas}
+# Utiliser la zone de travail de composition {#composition-canvas}
 
 Le canevas de composition est un canevas visuel qui vous permet de créer des compositions en exploitant les audiences et les activités (fractionner, exclure..).
 
@@ -181,6 +181,6 @@ Une fois votre composition prête, vous pouvez la publier. [Découvrez comment c
 
 En savoir plus:
 
-* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
-* [Création de workflows de composition](create-compositions.md)
-* [Accès et gestion des audiences](access-audiences.md)
+* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Créer des workflows de composition](create-compositions.md)
+* [Accéder aux audiences et les gérer](access-audiences.md)
