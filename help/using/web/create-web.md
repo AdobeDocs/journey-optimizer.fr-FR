@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1045'
 ht-degree: 12%
 
 ---
@@ -40,7 +40,9 @@ Pour accéder à des pages web et les créer dans le [!DNL Journey Optimizer] da
 
 Pour que l’expérience web soit correctement diffusée, les paramètres suivants doivent être définis :
 
-* Dans le [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}, assurez-vous qu’un flux de données est défini, comme sous **[!UICONTROL Adobe Experience Platform]** vous disposez des deux options suivantes : **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]** options activées. Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+* Dans le [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}, assurez-vous qu’un flux de données est défini, comme sous **[!UICONTROL Adobe Experience Platform]** vous disposez des deux options suivantes : **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]** options activées.
+
+   Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -49,6 +51,8 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
    >Le **[!UICONTROL Adobe Journey Optimizer]** ne peut être activée que lorsque la variable **[!UICONTROL Segmentation Edge]** est déjà activée.
 
 * Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}, assurez-vous d’avoir une stratégie de fusion avec la variable **[!UICONTROL Stratégie de fusion principale sur le périphérique]** activée. Pour ce faire, sélectionnez une stratégie sous le **[!UICONTROL Client]** > **[!UICONTROL Profils]** > **[!UICONTROL Stratégies de fusion]** menu Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+
+   Cette stratégie de fusion est utilisée par [!DNL Journey Optimizer] canaux entrants pour activer et publier correctement les campagnes entrantes sur le serveur Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-merge-policy.png)
 
