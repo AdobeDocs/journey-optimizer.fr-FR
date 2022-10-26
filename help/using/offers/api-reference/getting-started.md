@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -127,10 +127,11 @@ Une réponse positive renvoie des informations concernant les conteneurs de gest
 ## Étapes suivantes {#next-steps}
 
 Ce document couvrait les connaissances préalables requises pour effectuer des appels à l&#39;API [!DNL Offer Library], y compris l&#39;acquisition de votre ID de conteneur. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
-
+<!--
 >[!NOTE]
 >
-> Le canal Messagerie in-app d’Adobe Journey Optimizer utilise des objets de gestion des décisions. Si votre entreprise utilise le canal de messagerie in-app, les demandes de liste d’API pour les objets incluront les objets créés par le service de messagerie in-app et pourront être ignorées pour les cas d’utilisation de gestion des décisions. Les objets créés pour les messages in-app auront `createdBy = “Mobile_Sheliak”`.
+> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
+-->
 
 ## Vidéo pratique {#video}
 

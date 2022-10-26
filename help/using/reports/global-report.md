@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1441'
 ht-degree: 100%
 
 ---
@@ -433,3 +433,105 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
+### Mesures des notifications push   {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Mesure<br/> </th> 
+   <th> Définition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Actions<br/> </td> 
+   <td> Nombre total d’actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Rebonds<br/> </td> 
+   <td> Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Taux de rebond<br/> </td> 
+   <td> Pourcentage de notifications push ayant rebondi par rapport aux notifications push envoyées.<br/> </td>
+</tr>
+  <tr> 
+   <td> Diffusés<br/> </td> 
+   <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Taux de diffusion<br/> </td> 
+   <td> Pourcentage de notifications push envoyées avec succès.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Engagements<br/> </td> 
+   <td> Nombre total d’ouvertures et d’actions pour cette notification push, c’est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Taux d’engagement<br/> </td> 
+   <td> Pourcentage d’ouvertures et d’actions pour cette notification push, c’est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Erreurs<br/> </td> 
+   <td> Nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Taux d’erreur<br/> </td> 
+   <td> Pourcentage d’erreurs survenues pendant une diffusion qui l’empêchent d’être envoyée par rapport aux notifications push envoyées.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Exclus<br/> </td> 
+   <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Ouvertures<br/> </td> 
+   <td> Nombre total de notifications push diffusées sur l'appareil et ayant fait l'objet d'un clic par les utilisateurs ouvrant l'application. Cette mesure est similaire au Clic push, sauf qu'une Ouverture push ne sera pas déclenchée si la notification a été ignorée.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Taux d'ouverture<br/> </td> 
+   <td> Pourcentage de notifications push ouvertes.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Envoyés<br/> </td> 
+   <td> Nombre total d’envois pour la diffusion.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Ciblés<br/> </td> 
+   <td> Nombre total de messages push traités lors de l’analyse de la diffusion.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Click rate<br/> </td> 
+   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Dismiss rate<br/> </td> 
+   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->
