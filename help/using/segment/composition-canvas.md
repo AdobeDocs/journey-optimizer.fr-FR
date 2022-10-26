@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ Le **[!UICONTROL Classement]** L’activité vous permet de classer les profils 
 
 1. Sélectionnez l’attribut que vous souhaitez rechercher et indiquez un ordre de classement (ascendant ou descendant).
 
-   >[REMARQUE]
+   >[!NOTE]
    >
    >Vous pouvez sélectionner des attributs avec les types de données suivants : entier, nombres, court <!--(other?)-->
 

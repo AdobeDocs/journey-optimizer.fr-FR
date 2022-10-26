@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Stratégies]** et **[!UICON
 >Avant de gérer les autorisations d’un rôle, vous devez créer une stratégie. Pour plus d’informations à ce sujet, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr).
 
 Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services d&#39;Adobe contenus dans le produit.
-Vous pouvez également créer vos propres **[!UICONTROL rôles]** si vous souhaitez affiner l&#39;accès de vos utilisateurs à certaines fonctionnalités ou objets de l&#39;interface.
+Vous pouvez également créer les vôtres **[!UICONTROL Rôles]** si vous souhaitez affiner l’accès de vos utilisateurs à certaines fonctionnalités ou à certains objets de l’interface.
 
 Nous voulons maintenant accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité**, libellé C2. Pour ce faire, nous devons créer un nouveau **[!UICONTROL rôle]** avec un ensemble spécifique d’utilisateurs et leur attribuer le libellé C2 leur permettant d’utiliser les détails de **Nationalité** dans un **[!UICONTROL parcours]**.
 
@@ -127,7 +127,7 @@ Dans notre exemple, un premier utilisateur X ayant accès aux objets libellés C
 
    ![](assets/journey_1.png)
 
-1. Ajoutez un nouveau **[!UICONTROL Groupe de champs]** de votre **[!UICONTROL Schéma]** nouvelle créé à la **[!UICONTROL Source de données intégrée]**. Vous pouvez également créer une nouvelle **[!UICONTROLDsource de données]** externe et des **[!UICONTROL Groupes de champs]** associés.
+1. Ajoutez un nouveau **[!UICONTROL Groupe de champs]** de votre **[!UICONTROL Schéma]** nouvelle créé à la **[!UICONTROL Source de données intégrée]**. Vous pouvez également créer une nouvelle **[!UICONTROL source de données]** externe et des **[!UICONTROL Groupes de champs]** associés.
 
    ![](assets/journey_2.png)
 

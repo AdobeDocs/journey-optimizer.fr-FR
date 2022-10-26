@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
@@ -275,6 +275,7 @@ It includes the following low-level permissions:
 * Adobe Experience Platform specific: 
   * schemas.read
 -->
+
 ### Autorisation [!DNL Manage channel surface] {#manage-channel-surface}
 
 Lʼautorisation de haut niveau **[!DNL Manage channel surface]** permet aux utilisateurs de créer, de modifier et de supprimer des surfaces de canaux sur les canaux au niveau de la sandbox.

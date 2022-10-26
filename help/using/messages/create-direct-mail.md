@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 4%
 
 ---
 
@@ -30,6 +30,7 @@ Les messages directs ne peuvent être créés que dans le cadre de campagnes pla
 >[!IMPORTANT]
 >
 >Avant d&#39;envoyer un courrier, vérifiez que vous avez configuré :
+>
 >* A [configuration du routage des fichiers](../configuration/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d&#39;extraction doit être téléchargé et stocké,
 >* A [surface du message courrier](../configuration/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration de routage des fichiers.
 

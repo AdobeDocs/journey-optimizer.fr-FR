@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Désormais, chaque fois quʼune offre est affichée et/ou qu’un utilisateur cl
 
 Pour envoyer des types d’événement (offre affichée ou offre ayant fait l’objet d’un clic), vous devez définir la valeur correcte pour chaque type d’événement dans un événement d’expérience qui est envoyé dans Adobe Experience Platform. Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter dans votre code JavaScript :
 
-### Scénario d’offre affichée
+## Scénario d’offre affichée
 
 **Type d’événement :** `decisioning.propositionDisplay`
 **Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
@@ -49,8 +49,8 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
                     "xdm:id": "personalized-offer:f67bab756ed6ee5",
                 }
             ],
-            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
-            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for "nextBestOffer"
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for "nextBestOffer"
         }
     ]
 }

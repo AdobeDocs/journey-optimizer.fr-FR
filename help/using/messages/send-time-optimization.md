@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
-## Optimisation de l’heure d’envoi{#send-time-optimization}
+# Optimisation de l’heure d’envoi{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="À propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
->abstract="La fonctionnalité d&#39;optimisation de l&#39;heure d&#39;envoi d&#39;Adobe Journey Optimizer, optimisée par les services d&#39;IA d&#39;Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin de maximiser l&#39;engagement en fonction des taux d&#39;ouverture et de clic historiques."
+>abstract="La fonctionnalité d’optimisation de l’heure d’envoi de Adobe Journey Optimizer, optimisée par les services d’IA de l’Adobe, peut prévoir le meilleur moment pour envoyer un email ou un message push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques."
 
-La fonctionnalité d&#39;optimisation de l&#39;heure d&#39;envoi d&#39;Adobe Journey Optimizer, optimisée par les services d&#39;IA d&#39;Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin de maximiser l&#39;engagement en fonction des taux d&#39;ouverture et de clic historiques. Utilisez notre modèle d&#39;apprentissage automatique pour planifier des heures d&#39;envoi personnalisées afin que chaque utilisateur augmente les taux d&#39;ouverture et de clic de vos messages.
+La fonctionnalité d’optimisation de l’heure d’envoi de Adobe Journey Optimizer, optimisée par les services d’IA de l’Adobe, peut prévoir le meilleur moment pour envoyer un email ou un message push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques. Utilisez notre modèle d&#39;apprentissage automatique pour planifier des heures d&#39;envoi personnalisées afin que chaque utilisateur augmente les taux d&#39;ouverture et de clic de vos messages.
 
 Le modèle d&#39;optimisation de l&#39;heure d&#39;envoi ingère vos données Adobe Journey Optimizer et examine les taux d&#39;ouverture au niveau de l&#39;utilisateur (pour les e-mails et les notifications push) et de clics (pour les e-mails) afin de déterminer à quel moment vos clients sont les plus susceptibles d&#39;interagir avec vos messages. L&#39;optimisation de l&#39;heure d&#39;envoi nécessite au moins un mois de données de suivi des messages pour formuler des recommandations éclairées. Pour chaque utilisateur, le système sélectionne automatiquement la meilleure heure à l’aide des scores suivants :
 
@@ -41,7 +41,7 @@ Ces informations sont stockées avec le profil de l&#39;utilisateur et sont réf
 >
 >Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
-### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
+## Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

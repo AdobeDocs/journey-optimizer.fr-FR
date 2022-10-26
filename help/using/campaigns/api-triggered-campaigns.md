@@ -4,7 +4,7 @@ product: journey optimizer
 title: Déclencher des campagnes à l’aide d’API
 description: Découvrez comment déclencher des campagnes à l’aide d’ [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 92%
@@ -76,6 +76,7 @@ La syntaxe `{{context.<contextualAttribute>}}` est mappée à un type de donnée
 >[!IMPORTANT]
 >
 >La syntaxe `context.system` est limitée à l’utilisation interne d’Adobe uniquement et ne doit pas être utilisée pour transmettre des attributs contextuels.
+
 Notez que, pour l’instant, aucun attribut contextuel n’est disponible dans le menu du rail de gauche. Les attributs doivent être saisis directement dans votre expression de personnalisation, sans vérification effectuée par [!DNL Journey Optimizer].
 
 ## Exécuter la campagne {#execute}
