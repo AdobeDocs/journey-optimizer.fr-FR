@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 70%
 
 ---
 
-# Gérer des campagnes actives {#modify-stop-campaign}
+# Gérer les campagnes {#modify-stop-campaign}
 
 Une fois qu’une campagne a été activée, vous pouvez la modifier ou l’arrêter à tout moment. Ces opérations sont disponibles pour les campagnes dont l’exécution est récurrente uniquement.
 
-De plus, vous pouvez dupliquer des campagnes actives (exécutées une fois ou avec une exécution récurrente) pour en créer de nouvelles.
+De plus, vous pouvez dupliquer des campagnes actives (exécutées une fois ou avec une exécution récurrente) pour en créer de nouvelles et archiver les campagnes terminées ou arrêtées.
 
 ## Modifier une campagne récurrente {#modify}
 
@@ -58,3 +58,13 @@ Pour arrêter une campagne récurrente, ouvrez-la, puis cliquez sur le bouton **
 Vous pouvez dupliquer une campagne active pour en créer une nouvelle. Pour ce faire, ouvrez la campagne, puis cliquez sur **[!UICONTROL Dupliquer]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## Archivage d’une campagne {#archive}
+
+Avec le temps, la liste des campagnes ne cesse d’augmenter et il devient plus difficile de parcourir les campagnes terminées et arrêtées.
+
+Pour éviter cela, vous pouvez archiver les campagnes terminées et arrêtées dont vous n’avez plus besoin. Pour cela, cliquez sur le bouton représentant des ellipses, puis sélectionnez **[!UICONTROL Archiver]**.
+
+![](assets/create-campaign-archive.png)
+
+Les campagnes archivées peuvent ensuite être récupérées à l’aide du filtre dédié dans la liste. [Découvrez comment accéder aux campagnes](get-started-with-campaigns.md#access)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,9 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
-Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
+Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées.
+
+Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
 
 ![](assets/create-campaign-list.png)
 
@@ -83,9 +85,9 @@ Les campagnes peuvent avoir plusieurs statuts :
 * **[!UICONTROL Activation]** : la campagne est en cours d’activation.
 * **[!UICONTROL Actif]** : la campagne est active.
 * **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date de début spécifique.
-* **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ni la réutiliser. [En savoir plus](modify-stop-campaign.md#stop)
+* **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ni la réutiliser. [Découvrez comment arrêter une campagne](modify-stop-campaign.md#stop)
 * **[!UICONTROL Terminé]** : la campagne est terminée. Ce statut est automatiquement attribué 3 jours après l’activation d’une campagne, ou à la date de fin de la campagne si son exécution est récurrente.
-* **[!UICONTROL Archivé]** : la campagne a été archivée.
+* **[!UICONTROL Archivé]** : la campagne a été archivée. [Découvrez comment archiver des campagnes](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

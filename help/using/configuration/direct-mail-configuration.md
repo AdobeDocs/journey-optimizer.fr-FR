@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -27,12 +27,12 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Définition des paramètres de la configuration de routage des fichiers"
->abstract="Vous devez définir l&#39;endroit où le fichier sera exporté et téléchargé pour que votre opérateur de services postaux puisse l&#39;utiliser."
+>abstract="Lors de la création du courrier, vous allez générer le fichier contenant toutes les informations de profil requises. Ce fichier doit être exporté et téléchargé sur un serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l&#39;utiliser pour diffuser du courrier."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="Définition des paramètres de la configuration de routage des fichiers"
->abstract="Lors de la création du courrier, vous allez générer le fichier contenant toutes les informations de profil requises. Ce fichier doit être exporté et téléchargé sur un serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l&#39;utiliser pour diffuser du courrier."
+>abstract="Vous devez définir l&#39;endroit où le fichier sera exporté et téléchargé pour que votre opérateur de services postaux puisse l&#39;utiliser."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Sélectionnez le type de serveur pour votre routage de fichiers."
->abstract="Sélectionnez le serveur à utiliser pour le téléchargement et le stockage des fichiers de courrier."
+>abstract="Sélectionnez le serveur à utiliser pour le téléchargement et le stockage des fichiers de courrier. Actuellement, seuls Amazon S3 et SFTP sont pris en charge."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Choisissez la région AWS"
->abstract="Sélectionnez le serveur à utiliser pour le téléchargement et le stockage des fichiers de courrier. Actuellement, seuls Amazon S3 et SFTP sont pris en charge."
+>abstract="Sélectionnez la région géographique dans laquelle vous souhaitez exporter et charger vos fichiers de courrier. Pour une utilisation optimale, il est recommandé de choisir la région la plus proche pour héberger votre infrastructure cloud."
 
 1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du routage des fichiers]** > **[!UICONTROL Routage de fichier]** , puis cliquez sur **[!UICONTROL Création d’une configuration de routage]**.
 
@@ -55,7 +55,7 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionner la configuration **[!UICONTROL Type]**, c’est-à-dire le serveur que vous souhaitez utiliser pour charger et stocker les fichiers de courrier.<!--why is it Type and not Server or Server type? asked to PM-->
+1. Sélectionner la configuration **[!UICONTROL Type de serveur]**, c’est-à-dire le serveur que vous souhaitez utiliser pour charger et stocker les fichiers de courrier.
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 
    Lors de la création du courrier, vous allez générer le fichier contenant toutes les informations de profil requises. Ce fichier doit être exporté et téléchargé sur un serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l&#39;utiliser pour diffuser du courrier.
 
-1. Renseignez les détails et les informations d’identification spécifiques au type de configuration sélectionné, telles que l’adresse du serveur, la clé d’accès, etc. <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. Renseignez les détails et les informations d’identification spécifiques au type de configuration sélectionné, telles que l’adresse du serveur, la clé d’accès, etc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Définition des paramètres du courrier"
->abstract="Une surface de courrier contient les paramètres liés au formatage du fichier contenant les données de profil pour le courrier. Vous pouvez (définir la configuration du tri), supprimer les doublons, fractionner les enregistrements en plusieurs fichiers et sélectionner la configuration du routage des fichiers."
+>abstract="Une surface de courrier contient les paramètres liés au formatage du fichier contenant les données de profil pour le courrier. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration de routage du fichier."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="Définition de l’ordre de tri"
->abstract="Si vous sélectionnez cette option, le tri sera par identifiant de profil, croissant ou décroissant. Si vous la désélectionnez, la configuration de tri définie lors de la création du courrier dans un parcours ou une campagne."
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ Une fois le routage des fichiers configuré, vous devez créer une surface de ca
    >
    >Vous pouvez définir un nombre compris entre 1 et 200 000 enregistrements, ce qui signifie que chaque fichier doit contenir au moins 1 ligne et pas plus de 200 000 lignes.
 
-1. Enfin, sélectionnez l’option [configuration du routage des fichiers](#file-routing-configuration) parmi celles que vous avez créées. Cela définit l’endroit où le fichier sera exporté et téléchargé pour que votre opérateur de services postaux l’utilise.
+1. Enfin, sélectionnez l’option **[!UICONTROL Configuration du routage des fichiers]** parmi celles que vous avez créées. Cela définit l’endroit où le fichier sera exporté et téléchargé pour que votre opérateur de services postaux l’utilise.
 
    >[!CAUTION]
    >
