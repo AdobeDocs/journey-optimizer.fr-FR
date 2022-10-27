@@ -13,8 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Intégration avec les services intelligents
- {#ai-overview}
+# Intégration avec les services intelligents {#ai-overview}
 
 L&#39;intégration aux **[!DNL Adobe Intelligent Services]** vous permet d&#39;exploiter la puissance de l&#39;intelligence artificielle et du machine learning dans les cas d&#39;utilisation de l&#39;expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d&#39;une entreprise en utilisant des configurations au niveau de l&#39;entreprise sans avoir besoin d&#39;expertise en sciences des données.
 
