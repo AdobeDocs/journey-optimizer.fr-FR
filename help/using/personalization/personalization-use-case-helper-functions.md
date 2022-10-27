@@ -52,7 +52,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Créez un événement dont le schéma inclut le tableau `productListItems`.
 1. Définissez tous les champs de ce tableau comme champs de payload pour cet événement.
 
-   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target=&quot;_blank&quot;}.
+   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target="_blank"}.
 
 1. Créez un parcours commençant par cet événement.
 1. Ajoutez une activité **E-mail** au parcours.
@@ -104,7 +104,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
+      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
@@ -151,6 +151,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
+
       Dans cet exemple, *event_ID* représente l’identifiant de votre événement.
 
       ![](assets/personalization-uc-helpers-10.png)
@@ -164,6 +165,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
 1. Collez ce code entre la balise `{{#each}}` d’ouverture et la balise `{/each}}` de fermeture :
 
    ```html
@@ -202,6 +204,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       </table>
    {{/each}}
    ```
+
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
    ![](assets/personalization-uc-helpers-11.png)
 
@@ -225,6 +228,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. Supprimez cette condition de l’expression :
@@ -258,6 +262,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. Modifiez l’expression :
@@ -288,6 +293,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
          {%else%} default_render
       {%/if%}
       ```
+
    1. Supprimez l’espace réservé « default_render » de l’expression.
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
