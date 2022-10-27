@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 22%
+source-wordcount: '604'
+ht-degree: 16%
 
 ---
 
@@ -43,9 +43,18 @@ Pour créer un message In-App, procédez comme suit :
 
 1. Sélectionnez la fréquence de votre trigger lorsque votre message in-app est principal :
 
-   * **[!UICONTROL Afficher à chaque fois]**
-   * **[!UICONTROL Afficher une fois]**
-   * **[!UICONTROL Afficher jusqu’à ce que clic]**
+   * **[!UICONTROL Afficher à chaque fois]**: Toujours afficher le message lorsque les événements sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
+   * **[!UICONTROL Afficher une fois]**: N’afficher ce message que la première fois que les événements sont sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
+   * **[!UICONTROL Afficher jusqu’à ce que clic]**: Afficher ce message lorsque les événements sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** se produit jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action &quot;clicked&quot;.
+
+1. Dans la **[!UICONTROL Déclencheur d’application mobile]** , choisissez le ou les événements et les critères qui déclencheront votre message :
+
+   1. Dans la liste déroulante de gauche, sélectionnez l’événement nécessaire pour déclencher le message.
+   1. Dans la liste déroulante de droite, sélectionnez la validation requise pour l’événement sélectionné.
+   1. Cliquez sur le bouton **[!UICONTROL Ajouter]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères. Répétez ensuite les étapes ci-dessus.
+   1. Sélectionnez le mode de liaison de vos événements, par exemple **[!UICONTROL Et]** si vous voulez **both** se déclenche pour que le message s’affiche et **[!UICONTROL Ou]** si vous souhaitez que le message s’affiche **both** des déclencheurs sont vrais.
+
+   ![](assets/in_app_create_3.png)
 
 1. Sélectionnez l’événement qui déclenche votre message dans la **[!UICONTROL Déclencheur d’application mobile]**
 menu déroulant.
