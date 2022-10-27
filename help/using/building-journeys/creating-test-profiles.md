@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 100%
@@ -231,6 +231,7 @@ curl -X POST \
 }
 }'
 ```
+
 ## Vidéo pratique {#video}
 
 Découvrez comment créer des profils de test.

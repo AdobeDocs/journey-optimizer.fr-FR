@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ Pour créer un message In-App, procédez comme suit :
    1. Dans la liste déroulante de gauche, sélectionnez l’événement nécessaire pour déclencher le message.
    1. Dans la liste déroulante de droite, sélectionnez la validation requise pour l’événement sélectionné.
    1. Cliquez sur le bouton **[!UICONTROL Ajouter]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères. Répétez ensuite les étapes ci-dessus.
-   1. Sélectionnez le mode de liaison de vos événements, par exemple **[!UICONTROL Et]** si vous voulez **both** se déclenche pour que le message s’affiche et **[!UICONTROL Ou]** si vous souhaitez que le message s’affiche **both** des déclencheurs sont vrais.
+   1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL Et]** si vous voulez **both** se déclenche pour que le message s’affiche ou soit **[!UICONTROL Ou]** si vous souhaitez que le message s’affiche **both** des déclencheurs sont vrais.
 
    ![](assets/in_app_create_3.png)
 
