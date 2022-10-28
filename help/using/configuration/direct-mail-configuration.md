@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
@@ -18,36 +18,51 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de générer les fichiers requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.
 
-Lorsque vous préparez une diffusion courrier, [!DNL Journey Optimizer] génère un fichier contenant tous les profils ciblés et les coordonnées de contact sélectionnées (adresse postale, par exemple). Vous pourrez alors envoyer ce fichier à votre opérateur de services postaux qui prendra en charge l&#39;envoi réel.
+When [création d&#39;un message](../messages/create-direct-mail.md), vous définissez les données de l’audience ciblée, y compris les informations de contact sélectionnées (adresse postale par exemple). Un fichier contenant ces données sera alors automatiquement généré et exporté vers un serveur, où votre opérateur de services postaux pourra les récupérer et prendre en charge l&#39;envoi.
 
-Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serveur. Avant de pouvoir le faire, vous devez créer une [configuration du routage des fichiers](#file-routing-configuration) et un [surface courrier](#direct-mail-surface) qui fera référence à la configuration de routage des fichiers.
+Avant de pouvoir générer ce fichier, vous devez créer :
+
+1. A [configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté.
+
+1. A [surface courrier](#direct-mail-surface) qui fera référence à la configuration de routage des fichiers.
+
+>[!CAUTION]
+>
+>Si vous n&#39;avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de courrier.
 
 ## Configuration du routage des fichiers {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="Définition des paramètres de la configuration de routage des fichiers"
->abstract="Lors de la création du courrier, vous allez générer le fichier contenant toutes les informations de profil requises. Ce fichier doit être exporté et téléchargé sur un serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l&#39;utiliser pour diffuser du courrier."
+>title="Définition de la configuration du routage des fichiers"
+>abstract="Une fois que vous avez créé un courrier, le fichier contenant les données de l&#39;audience ciblée sera généré et exporté vers un serveur. Vous devez spécifier les détails du serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l’utiliser pour diffuser du courrier."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-direct-mail.html" text="Créer un message de courrier"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="Définition des paramètres de la configuration de routage des fichiers"
->abstract="Vous devez définir l&#39;endroit où le fichier sera exporté et téléchargé pour que votre opérateur de services postaux puisse l&#39;utiliser."
+>title="Définition de la configuration du routage des fichiers"
+>abstract="Vous devez définir l&#39;endroit où le fichier sera exporté pour que votre opérateur de services postaux puisse l&#39;utiliser."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="Configuration du routage des fichiers"
->abstract="Sélectionnez la configuration de routage des fichiers de votre choix, qui définit l&#39;endroit où le fichier sera exporté et téléchargé pour que votre opérateur de services postaux l&#39;utilise."
+>abstract="Sélectionnez la configuration de routage des fichiers de votre choix, qui définit l&#39;endroit où le fichier sera exporté pour que votre opérateur de services postaux l&#39;utilise."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="Sélectionnez le type de serveur pour votre routage de fichiers."
->abstract="Sélectionnez le serveur à utiliser pour le téléchargement et le stockage des fichiers de courrier. Actuellement, seuls Amazon S3 et SFTP sont pris en charge."
+>title="Sélectionnez le type de serveur pour votre fichier ."
+>abstract="Choisissez le type de serveur à utiliser pour l&#39;export de vos fichiers de courrier. Actuellement, seuls Amazon S3 et SFTP sont pris en charge par Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Choisissez la région AWS"
->abstract="Sélectionnez la région géographique dans laquelle vous souhaitez exporter et charger vos fichiers de courrier. Pour une utilisation optimale, il est recommandé de choisir la région la plus proche pour héberger votre infrastructure cloud."
+>abstract="Sélectionnez la région géographique du serveur AWS où vous souhaitez exporter vos fichiers de courrier. En règle générale, il est préférable de choisir la région la plus proche du lieu où se trouve votre opérateur de services postaux."
+
+Pour diffuser un courrier, [!DNL Journey Optimizer] génère et exporte vers un serveur le fichier contenant les données de votre audience ciblée.
+
+Vous devez spécifier les détails du serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l’utiliser pour diffuser du courrier.
+
+Pour configurer le routage des fichiers, procédez comme suit.
 
 1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du routage des fichiers]** > **[!UICONTROL Routage de fichier]** , puis cliquez sur **[!UICONTROL Création d’une configuration de routage]**.
 
@@ -55,29 +70,27 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionner la configuration **[!UICONTROL Type de serveur]**, c’est-à-dire le serveur que vous souhaitez utiliser pour charger et stocker les fichiers de courrier.
+1. Sélectionnez la **[!UICONTROL Type de serveur]** que vous souhaitez utiliser pour exporter les fichiers de courrier.
 
    ![](assets/file-routing-config-type.png)
 
    >[!NOTE]
    >
-   >Actuellement, seuls Amazon S3 et SFTP sont disponibles.
+   >Actuellement, seuls Amazon S3 et SFTP sont pris en charge dans [!DNL Journey Optimizer].
 
-   Lors de la création du courrier, vous allez générer le fichier contenant toutes les informations de profil requises. Ce fichier doit être exporté et téléchargé sur un serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l&#39;utiliser pour diffuser du courrier.
-
-1. Renseignez les détails et les informations d’identification spécifiques au type de configuration sélectionné, telles que l’adresse du serveur, la clé d’accès, etc.
+1. Renseignez les détails et les informations d’identification de votre serveur, telles que l’adresse du serveur, la clé d’accès, etc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, sélectionnez la région AWS dans laquelle vous souhaitez exporter et charger vos fichiers de courrier.
+1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, choisissez la variable **[!UICONTROL Région AWS]** où se trouve l’infrastructure du serveur.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >Les régions d’AWS sont des zones géographiques distinctes réparties dans le monde et utilisées par AWS pour héberger son infrastructure. Pour une utilisation optimale, il est recommandé de choisir la région la plus proche pour héberger votre infrastructure cloud.
+   >Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre opérateur de services postaux.
 
-1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration de routage des fichiers est créée avec l’événement **[!UICONTROL Principal]** statut. Il est maintenant prêt à être utilisé dans une surface de courrier pour diffuser du courrier à partir de [!DNL Journey Optimizer].
+1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration de routage des fichiers est créée avec l’événement **[!UICONTROL Principal]** statut. Il est maintenant prêt à être utilisé dans une [surface courrier](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -88,7 +101,8 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Définition des paramètres du courrier"
->abstract="Une surface de courrier contient les paramètres liés au formatage du fichier contenant les données de profil pour le courrier. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration de routage du fichier."
+>abstract="Une surface de courrier contient les paramètres de formatage du fichier qui contient les données d&#39;audience ciblées et qui seront utilisés par le prestataire de services postaux. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration de routage du fichier."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="Configuration du routage des fichiers"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -99,9 +113,11 @@ Pour envoyer un courrier, vous devez créer un fichier et le charger sur un serv
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Définition du seuil de partage de fichiers"
->abstract="Vous devez définir le nombre maximal d’enregistrements pour chaque fichier contenant les données de profil. Une fois le seuil spécifié atteint, un autre fichier sera créé pour les enregistrements restants."
+>abstract="Vous devez définir le nombre maximum d&#39;enregistrements pour chaque fichier contenant les données d&#39;audience. Vous pouvez sélectionner un nombre compris entre 1 et 200 000 enregistrements. Une fois le seuil spécifié atteint, un autre fichier sera créé pour les enregistrements restants."
 
-Une fois le routage des fichiers configuré, vous devez créer une surface de canal pour pouvoir diffuser du courrier à partir de [!DNL Journey Optimizer]. Dans chaque surface, vous devez sélectionner une configuration de routage de fichiers.
+Pour pouvoir diffuser du courrier avec [!DNL Journey Optimizer], vous devez créer une surface de canal pour définir les paramètres de formatage du fichier qui sera utilisé par le fournisseur de services de messagerie.
+
+Une surface de courrier doit également inclure la configuration de routage des fichiers qui définit le serveur sur lequel votre fichier de courrier sera exporté.
 
 1. Création d’une surface de canal. [En savoir plus](channel-surfaces.md)
 
@@ -127,10 +143,14 @@ Une fois le routage des fichiers configuré, vous devez créer une surface de ca
    >
    >Vous pouvez définir un nombre compris entre 1 et 200 000 enregistrements, ce qui signifie que chaque fichier doit contenir au moins 1 ligne et pas plus de 200 000 lignes.
 
-1. Enfin, sélectionnez l’option **[!UICONTROL Configuration du routage des fichiers]** parmi celles que vous avez créées. Cela définit l’endroit où le fichier sera exporté et téléchargé pour que votre opérateur de services postaux l’utilise.
+1. Enfin, sélectionnez l’option **[!UICONTROL Configuration du routage des fichiers]** parmi celles que vous avez créées. Cette option définit l’endroit où le fichier sera exporté pour que votre opérateur de services postaux l’utilise.
 
    >[!CAUTION]
    >
    >Si vous n&#39;avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de courrier. [En savoir plus](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
+
+1. Envoyez la surface du courrier.
+
+Vous pouvez désormais [créer un message de courrier](../messages/create-direct-mail.md) dans une campagne. Une fois l&#39;opération lancée, le fichier contenant les données de l&#39;audience ciblée sera automatiquement exporté vers le serveur que vous avez défini. Le prestataire de services postaux pourra alors récupérer ce fichier et poursuivre la diffusion courrier.

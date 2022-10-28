@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '478'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.
 
-Lorsque vous créez un courrier, Journey Optimizer génère un fichier contenant tous les profils ciblés et les données sélectionnées (adresse postale, attributs de profil, par exemple). Vous pourrez alors envoyer ce fichier à votre opérateur de services postaux qui prendra en charge l&#39;envoi réel.
+Lorsque vous créez un courrier, Journey Optimizer génère un fichier contenant tous les profils ciblés et les données sélectionnées (adresse postale, attributs de profil, par exemple). Votre opérateur de services postaux pourra alors récupérer ce fichier et s&#39;occupera de l&#39;envoi réel.
 
 Les messages directs ne peuvent être créés que dans le cadre de campagnes planifiées. Elles ne sont pas disponibles pour une utilisation dans des campagnes déclenchées par l’API ou dans des parcours.
 
@@ -31,15 +31,15 @@ Les messages directs ne peuvent être créés que dans le cadre de campagnes pla
 >
 >Avant d&#39;envoyer un courrier, vérifiez que vous avez configuré :
 >
->* A [configuration du routage des fichiers](../configuration/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d&#39;extraction doit être téléchargé et stocké,
->* A [surface du message courrier](../configuration/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration de routage des fichiers.
+>1. A [configuration du routage des fichiers](../configuration/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d&#39;extraction doit être téléchargé et stocké,
+>1. A [surface du message courrier](../configuration/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration de routage des fichiers.
 
 
 ## Créer un message de courrier {#create}
 
-Les étapes de création et d&#39;envoi d&#39;un Courrier sont les suivantes :
+Les étapes de création et d&#39;envoi d&#39;un courrier sont les suivantes :
 
-1. Créez une opération planifiée, puis sélectionnez **[!UICONTROL Canal Courrier]** comme action et choisissez la surface du message à utiliser.
+1. Créez une opération planifiée, puis sélectionnez **[!UICONTROL Canal Courrier]** comme action et choisissez la surface du canal à utiliser. [Découvrez comment créer une surface de courrier](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -75,4 +75,4 @@ Les étapes de création et d&#39;envoi d&#39;un Courrier sont les suivantes :
 
 1. Une fois le contenu du courrier défini, effectuez le paramétrage de votre opération.
 
-   Lorsque la campagne démarrera, le fichier d&#39;extraction sera automatiquement généré et téléchargé sur le serveur spécifié dans votre [configuration du routage des fichiers](../configuration/direct-mail-configuration.md).
+   Lorsque la campagne démarrera, le fichier d&#39;extraction sera automatiquement généré et exporté vers le serveur spécifié dans votre [configuration du routage des fichiers](../configuration/direct-mail-configuration.md).
