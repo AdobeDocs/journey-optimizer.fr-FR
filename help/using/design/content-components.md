@@ -11,7 +11,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **[!UICONTROL Dupliquer]** : ajoutez une copie de votre composant de texte.
    * **[!UICONTROL Supprimer]** : supprimez le composant de texte sélectionné de votre e-mail.
    * **[!UICONTROL Ajouter une personnalisation]** : ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md).
-   * **[!UICONTROL Activation du contenu conditionnel]**: ajoutez du contenu conditionnel pour adapter le contenu du composant aux profils ciblés. [En savoir plus sur le contenu dynamique](../personalization/get-started-dynamic-content.md).
+   * **[!UICONTROL Activer le contenu conditionnel]** : ajoutez du contenu conditionnel pour adapter le contenu du composant aux profils ciblés. [En savoir plus sur le contenu dynamique](../personalization/get-started-dynamic-content.md).
 
 1. Ajustez la **[!UICONTROL couleur du texte]**, **[!UICONTROL famille de polices]** et **[!UICONTROL taille]** dans les **[!UICONTROL paramètres des composants]**.
 

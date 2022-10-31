@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 30%
 >title="Conditions"
 >abstract="Les règles conditionnelles vous permettent d’afficher plusieurs variantes de contenu dans vos messages en fonction des attributs de profil, des événements contextuels ou des segments d’audience."
 
-Le contenu dynamique permet d&#39;adapter le contenu de vos messages en fonction des **règles conditionnelles** qui peut être constitué d’attributs de profil, d’événements contextuels ou de segments d’audience. Les règles conditionnelles sont créées à l’aide d’un créateur de règles visuel dans l’éditeur d’expression, où vous pouvez les stocker pour les réutiliser ultérieurement dans vos parcours et campagnes.
+Le contenu dynamique permet d’adapter le contenu de vos messages en fonction des **règles conditionnelles** qui peuvent être constituées d’attributs de profil, d’événements contextuels ou de segments d’audience. Les règles conditionnelles sont créées à l’aide d’un créateur de règles visuel dans l’éditeur d’expression, où vous pouvez les stocker pour les réutiliser ultérieurement dans vos parcours et campagnes.
 
-Les règles conditionnelles peuvent être utilisées dans le Concepteur d’email et l’éditeur d’expression pour **créer du contenu dynamique** qui s&#39;adaptera aux profils ciblés dans vos messages.
+Les règles conditionnelles peuvent être utilisées dans le Concepteur d’e-mails et l’éditeur d’expression pour **créer du contenu dynamique** qui s’adaptera aux profils ciblés dans vos messages.
 
 ![](assets/conditions-overview.png)
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser les politiques de consentement
-description: Découvrez comment utiliser les stratégies de consentement Adobe Experience Platform
+description: Découvrez comment utiliser les politiques de consentement d’Adobe Experience Platform
 feature: Actions
 topic: Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

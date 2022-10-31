@@ -11,7 +11,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Pour commencer à créer le contenu de votre e-mail avec le Concepteur d&#39;e-m
 
    ![](assets/email_designer_6.png)
 
-1. Ajoutez un contenu dynamique pour adapter le contenu aux profils ciblés selon des règles conditionnelles. [Prise en main du contenu dynamique](../personalization/get-started-dynamic-content.md).
+1. Ajoutez du contenu dynamique pour adapter le contenu aux profils ciblés selon des règles conditionnelles. [Prise en main du contenu dynamique](../personalization/get-started-dynamic-content.md).
 
    ![](assets/email_designer_dynamic-content.png)
 

@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
@@ -19,33 +19,33 @@ ht-degree: 8%
 
 Adobe Journey Optimizer vous permet d’utiliser des règles conditionnelles créées dans la bibliothèque pour ajouter du contenu dynamique à vos messages.
 
-Le contenu dynamique peut être créé dans n&#39;importe quel champ où vous pouvez ajouter une personnalisation à l&#39;aide de l&#39;éditeur d&#39;expression. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur les contextes de personnalisation](personalization-contexts.md)
+Le contenu dynamique peut être créé dans n’importe quel champ où vous pouvez ajouter une personnalisation à l’aide de l’éditeur d’expression. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur les contextes de personnalisation](personalization-contexts.md)
 
-De plus, vous pouvez utiliser des règles conditionnelles dans le Concepteur d’email pour créer plusieurs variantes d’un composant de contenu.
+De plus, vous pouvez utiliser des règles conditionnelles dans le Concepteur d’e-mails pour créer plusieurs variantes d’un composant de contenu.
 
-## Ajout de contenu dynamique aux expressions {#perso-expressions}
+## Ajouter du contenu dynamique aux expressions {#perso-expressions}
 
-Les étapes pour ajouter du contenu dynamique dans les expressions sont les suivantes :
+Les étapes suivantes permettent d’ajouter du contenu dynamique aux expressions :
 
 1. Accédez au champ où vous souhaitez ajouter du contenu dynamique, puis ouvrez l’éditeur d’expression.
 
-1. Sélectionnez la **[!UICONTROL Conditions]** pour afficher la liste des règles conditionnelles disponibles. Cliquez sur le bouton + en regard d’une règle pour l’ajouter à l’expression active.
+1. Sélectionnez le menu **[!UICONTROL Conditions]** pour afficher la liste des règles conditionnelles disponibles. Cliquez sur le bouton + à côté d’une règle pour l’ajouter à l’expression actuelle.
 
    Vous pouvez également créer une règle en sélectionnant **[!UICONTROL Créer]**. [Découvrez comment créer des conditions.](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
-1. Ajoutez entre les `{%if}` et `{%/if}` balise le contenu que vous souhaitez afficher si la règle conditionnelle est respectée. Vous pouvez ajouter autant de règles que nécessaire pour créer plusieurs variantes d&#39;une expression.
+1. Entre les balises `{%if}` et `{%/if}`, ajoutez le contenu que vous souhaitez afficher si la règle conditionnelle est respectée. Vous pouvez ajouter autant de règles que nécessaire pour créer plusieurs variantes d’une expression.
 
-   Dans l&#39;exemple ci-dessous, deux variantes ont été créées pour un contenu SMS, selon la préférence linguistique du destinataire.
+   Dans l’exemple ci-dessous, deux variantes ont été créées pour un contenu SMS, selon la préférence linguistique du destinataire.
 
    ![](assets/conditions-language-sample.png)
 
-1. Une fois que votre contenu est prêt, vous pouvez prévisualiser les différentes variantes à l’aide du **[!UICONTROL Simulation du contenu]** bouton . [Découvrez comment tester et prévisualiser des messages](../design/preview.md)
+1. Une fois que votre contenu est prêt, vous pouvez prévisualiser les différentes variantes à l’aide du bouton **[!UICONTROL Simuler un contenu]**. [Découvrez comment tester et prévisualiser des messages](../design/preview.md).
 
    ![](assets/conditions-preview.png)
 
-## Ajout de contenu dynamique dans les emails {#emails}
+## Ajouter du contenu dynamique dans les e-mails {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
@@ -57,15 +57,15 @@ Les étapes pour ajouter du contenu dynamique dans les expressions sont les suiv
 >title="Contenu conditionnel"
 >abstract="Utilisez une règle conditionnelle enregistrée dans la bibliothèque ou créez-en une."
 
-Les étapes de création de variantes d&#39;un composant de contenu dans le Concepteur d&#39;email sont les suivantes :
+Les étapes de création de variantes d’un composant de contenu dans le Concepteur d’e-mails sont les suivantes :
 
-1. Dans le Concepteur d’email, sélectionnez un composant de contenu, puis cliquez sur **[!UICONTROL Activation du contenu conditionnel]**.
+1. Dans le Concepteur d’e-mails, sélectionnez un composant de contenu, puis cliquez sur **[!UICONTROL Activer le contenu conditionnel]**.
 
    ![](assets/conditions-enable-conditional.png)
 
-1. Le **[!UICONTROL Contenu conditionnel]** s’affiche à gauche. Dans ce volet, vous pouvez créer plusieurs variantes du composant de contenu sélectionné à l’aide de conditions.
+1. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche à gauche. Dans ce volet, vous pouvez créer plusieurs variantes du composant de contenu sélectionné à l’aide de conditions.
 
-   Configurez votre première variante en sélectionnant **[!UICONTROL Condition d’application]** bouton .
+   Configurez votre première variante en sélectionnant le bouton **[!UICONTROL Appliquer la condition]**.
 
    ![](assets/conditions-apply.png)
 
@@ -75,9 +75,9 @@ Les étapes de création de variantes d&#39;un composant de contenu dans le Conc
 
    Vous pouvez également créer une règle en cliquant sur **[!UICONTROL Créer]**. [Découvrez comment créer des conditions.](create-conditions.md)
 
-1. La règle conditionnelle est associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu ellipse .
+1. La règle conditionnelle est associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu des points de suspension.
 
-   Maintenant, configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s&#39;il s&#39;agit de la langue préférée du destinataire.
+   Maintenant, configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s’il s’agit de la langue préférée du destinataire.
 
    ![](assets/conditions-design.png)
 
@@ -86,4 +86,4 @@ Les étapes de création de variantes d&#39;un composant de contenu dans le Conc
    >[!NOTE]
    >Si aucune des règles définies dans les variantes n’est respectée lors de l’envoi du message, le composant de contenu affiche le contenu défini dans la variable **[!UICONTROL Variante par défaut]**.
    >
-   >Le contenu conditionnel sera évalué par rapport aux règles associées dans l&#39;ordre d&#39;affichage des variantes. La variante par défaut est toujours affichée si aucune autre condition n&#39;est remplie.
+   >Le contenu conditionnel sera évalué par rapport aux règles associées dans l’ordre d’affichage des variantes. La variante par défaut est toujours affichée si aucune autre condition n’est remplie.

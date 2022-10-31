@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser Customer Journey Analytics
-description: Prise en main du Customer Journey Analytics
+description: Prendre en main Customer Journey Analytics
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,44 +10,44 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# Utilisation d’[!DNL Customer Journey Analytics] {#cja-ajo}
+# Utiliser [!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
-[!DNL Journey Optimizer] intégration avec [!DNL Customer Journey Analytics] offre une vue d’ensemble de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
+L’intégration de [!DNL Journey Optimizer] à [!DNL Customer Journey Analytics] offre une vue d’ensemble de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
-Après avoir créé votre parcours dans [!DNL Journey Optimizer], vous pouvez importer vos données client dans [!DNL Customer Journey Analytics] pour lancer des rapports et comprendre l’impact de chaque interaction d’un client avec vos parcours.
+Une fois que vous avez créé votre parcours dans [!DNL Journey Optimizer], vous pouvez commencer à importer vos données clients dans [!DNL Customer Journey Analytics] afin de lancer des rapports et de comprendre l’impact de chaque interaction d’un client avec vos parcours.
 
-➡️ [Discover Customer Journey Analytics](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html){target=&quot;_blank&quot;}
+➡️ [Découvrir Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr){target=&quot;_blank&quot;}
 
-Avant d’utiliser [!DNL Customer Journey Analytics] pour vos parcours, vous devez d’abord configurer cette intégration :
+Avant d’utiliser [!DNL Customer Journey Analytics] pour vos parcours, vous devez d’abord configurer cette intégration :
 
-1. [Création d’une connexion](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=fr) in [!DNL Customer Journey Analytics] avec le **[!UICONTROL Jeu de données]** vous souhaitez envoyer à Platform.
+1. [Créez une connexion](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=fr) dans [!DNL Customer Journey Analytics] avec le **[!UICONTROL Jeu de données]** que vous souhaitez envoyer à Platform.
 
-   Les éléments suivants [!DNL Journey Optimizer] peut être configuré :
-   * [Événement d’étape de parcours](../start/datasets-query-examples.md#journey-step-event): vous permet de voir qui entre dans vos parcours et jusqu’où ils arrivent.
-   * [Message Feedback/Tracking des jeux de données](../start/datasets-query-examples.md#message-feedback-event-dataset): vous permet d’afficher les informations de diffusion sur vos messages envoyés par le biais de [!DNL Journey Optimizer].
-   * [Jeux de données d’entité et de Parcours](../start/datasets-query-examples.md#entity-dataset): vous permet de rechercher des noms conviviaux et de les utiliser dans vos rapports.
+   [!DNL Journey Optimizer] peuvent être configurés :
+   * [Événement d’étape de parcours](../start/datasets-query-examples.md#journey-step-event) : permet d’afficher qui entre dans vos parcours et jusqu’où ils vont.
+   * [Jeux de données de retour/tracking de message](../start/datasets-query-examples.md#message-feedback-event-dataset) : permet d’afficher les informations de diffusion sur vos messages envoyés par le biais de [!DNL Journey Optimizer].
+   * [Jeux de données d’entité et de parcours](../start/datasets-query-examples.md#entity-dataset) : permet de rechercher des noms conviviaux et de les utiliser dans vos rapports.
 
-1. [Création d’une vue de données](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=fr) pour configurer les dimensions et mesures à utiliser pour votre rapport.
+1. [Créez une vue de données](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=fr) pour configurer les dimensions et mesures à utiliser dans votre rapport.
 
-   Vous pouvez créer des mesures spécifiques à Journey Optimizer pour mieux refléter les données de vos parcours. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Vous pouvez créer des mesures spécifiques dans Journey Optimizer pour mieux refléter les données de vos parcours. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=fr#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 
-Utilisation [!DNL Journey Optimizer] avec [!DNL Customer Journey Analytics] peut entraîner des incohérences dans les données des rapports dues à :
+L’utilisation de [!DNL Journey Optimizer] avec [!DNL Customer Journey Analytics] peut entraîner des incohérences dans les données de rapport, qui sont dues aux problèmes suivants :
 
-* **Les [!DNL Journey Optimizer] et [!DNL Customer Journey Analytics] synchroniser les données à partir d’Azure Data Lake Storage (ADLS) pour la création de rapports ;**
+* **[!DNL Journey Optimizer] et [!DNL Customer Journey Analytics] synchronisent les données à partir du connecteur Azure Data Lake Storage (ADLS) pour la création de rapports.**
 
-   Le temps de traitement des données entrantes peut différer légèrement d’un produit à l’autre. En conséquence, les données peuvent ne pas correspondre lors de l’affichage des rapports d’une date donnée à la date actuelle. Pour réduire les incohérences, utilisez des périodes à l’exception du jour en cours.
+   Le temps de traitement des données entrantes peut différer légèrement d’un produit à l’autre. En conséquence, les données peuvent ne pas correspondre lors de l’affichage des rapports allant d’une date donnée jusqu’à la date actuelle. Pour réduire les incohérences, utilisez des périodes qui excluent le jour en cours.
 
-* **Dans [!DNL Journey Optimizer] la mesure Envoyés comprend également la mesure Reprise .**
+* **Dans les rapports [!DNL Journey Optimizer], la mesure Envoyé comprend également la mesure Reprise.**
 
-   **[!UICONTROL Reprises]** ne sera pas inclus dans **[!UICONTROL Envoyé]** dans [!DNL Customer Journey Analytics]. Cela entraînera [!DNL Customer Journey Analytics] **[!UICONTROL Envoyé]** pour afficher les valeurs inférieures à [!DNL Journey Optimizer]. Toutefois, les données de reprise sont converties dans la variable **[!UICONTROL Messages envoyés avec succès]** ou **[!UICONTROL Rebonds]** mesure.
-Pour réduire les incohérences, utilisez des périodes d’une semaine ou même plus tard.
+   **[!UICONTROL Les Reprises]** ne seront pas incluses dans la mesure **[!UICONTROL Envoyé]** dans [!DNL Customer Journey Analytics]. Par conséquent, les mesures **[!UICONTROL Envoyé]** de [!DNL Customer Journey Analytics] afficheront des valeurs inférieures à [!DNL Journey Optimizer]. Toutefois, les données de reprise convergent vers la mesure **[!UICONTROL Messages envoyés avec succès]** ou **[!UICONTROL Rebonds.]**
+Pour réduire les incohérences, utilisez des périodes qui datent d’une semaine ou même d’avant.
 
-* **Les rapports sont diffusés à partir d’une autre source de données.**
+* **Les rapports sont alimentés à partir d’une autre source de données.**
 
-   Cela peut entraîner des incohérences de données entre 1 et 2 % entre les produits.
+   Cela peut entraîner de incohérences de 1 à 2 % des données entre les produits. 

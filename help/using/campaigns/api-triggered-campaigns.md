@@ -7,7 +7,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -91,18 +91,18 @@ Notez que si vous avez configuré une date de début et/ou de fin spécifique lo
 
 ## Création de profils lors de l’exécution de la campagne {#profile-creation}
 
-Dans certains cas, vous devrez peut-être envoyer des messages transactionnels à des profils qui n’existent pas dans le système, Par exemple, si un utilisateur inconnu tente de réinitialiser le mot de passe sur votre site web.
+Dans certains cas, vous devrez peut-être envoyer des messages transactionnels à des profils qui n’existent pas dans le système, Par exemple si un utilisateur inconnu tente de réinitialiser un mot de passe sur votre site web.
 
 Lorsqu’un profil n’existe pas dans la base de données, Journey Optimizer vous permet de le créer automatiquement lors de l’exécution de la campagne afin de permettre l’envoi du message à ce profil.
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est fournie pour **création de profil à très petit volume** dans un cas pratique d’envoi transactionnel à volume élevé, avec la majorité des profils déjà existants dans platform.
+>Cette fonctionnalité est fournie pour **la création de profil à très petit volume** dans un cas d’utilisation d’envoi transactionnel à large volume, avec la majorité des profils déjà existants dans la plateforme.
 
-Pour activer la création de profil à l’exécution de la campagne, faites basculer le **[!UICONTROL Créer de nouveaux profils]** activée dans la variable **[!UICONTROL Audience]** .
+Pour activer la création de profil lors de l’exécution de la campagne, activez l’option **[!UICONTROL Créer de nouveaux profils]** dans la section **[!UICONTROL Audience]**.
 
 ![](assets/api-triggered-create-profile.png)
 
 >[!NOTE]
 >
->Les profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de nommage par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push).
+>Des profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de nommage par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push).

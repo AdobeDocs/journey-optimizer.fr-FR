@@ -11,7 +11,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste autorisée]**.
 
-1. Sélectionnez le bouton de basculement.
+1. Sélectionnez le bouton bascule.
 
    ![](assets/allow-list-edit.png)
 
@@ -81,7 +81,7 @@ Pour désactiver la liste autorisée, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste autorisée]**.
 
-1. Sélectionnez le bouton de basculement.
+1. Sélectionnez le bouton bascule.
 
    ![](assets/allow-list-edit-active.png)
 

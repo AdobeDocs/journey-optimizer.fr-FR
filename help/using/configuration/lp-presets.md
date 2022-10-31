@@ -9,7 +9,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour créer un préréglage de page de destination, procédez comme suit.
 
    Les paramètres correspondant au sous-domaine sélectionné s’affichent.
 
-1. Si vous souhaitez sélectionner le sous-domaine de la landing page pour l&#39;URL de tracking, cochez la case **[!UICONTROL Identique au sous-domaine de la page d’entrée]** . [En savoir plus sur le tracking.](../design/message-tracking.md)
+1. Si vous souhaitez sélectionner le sous-domaine de la page de destination comme URL de suivi, cochez lʼoption **[!UICONTROL Identique au sous-domaine de la page de destination]**. [En savoir plus sur le tracking.](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

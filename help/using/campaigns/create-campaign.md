@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Mode de diffusion rapide"
->abstract="Mode de diffusion rapide vous permet d’envoyer des messages à grande vitesse sur le canal push à une taille d’audience inférieure à 30 M."
+>abstract="Mode de diffusion rapide vous permet d’envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions."
 
 Le mode de diffusion rapide, précédemment connu sous le nom de mode rafale dans les parcours, est un module complémentaire [!DNL Journey Optimizer] permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
 

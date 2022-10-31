@@ -11,7 +11,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Utilisez le Concepteur d’e-mail [!DNL Journey Optimizer] pour [concevoir votre
 
 Utilisez l’Éditeur d’expression [!DNL Journey Optimizer] pour personnaliser vos messages avec les données des profils. Pour plus d&#39;informations sur la personnalisation, consultez [cette section](../personalization/personalize.md).
 
-Adaptez le contenu de vos messages aux profils ciblés en utilisant [!DNL Journey Optimizer] fonctionnalités de contenu dynamique. [Prise en main du contenu dynamique](../personalization/get-started-dynamic-content.md)
+Adaptez le contenu de vos messages aux profils ciblés en utilisant les fonctionnalités de contenu dynamique de [!DNL Journey Optimizer]. [Prise en main du contenu dynamique](../personalization/get-started-dynamic-content.md)
 
 ## Tracking d’e-mail{#email-tracking}
 
