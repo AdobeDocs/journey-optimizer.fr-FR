@@ -6,10 +6,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 >id="ajo_admin_surface_sms_type"
 >title="Définissez la catégorie de SMS."
 >abstract="Sélectionnez le type de messages SMS qui seront envoyés lors de l’utilisation de cette surface : Marketing pour les messages promotionnels qui nécessitent le consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html?lang=fr#sms-opt-in-out" text="Se désinscrire dans les messages SMS de marketing"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Se désinscrire dans les messages SMS de marketing"
 
 Une fois votre canal SMS configuré, vous devez créer une surface de canal afin de pouvoir envoyer des SMS depuis **[!DNL Journey Optimizer]**.
 

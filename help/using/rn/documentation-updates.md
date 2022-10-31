@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 97%
+source-wordcount: '2128'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La section Cas pratique parcours a été réorganisée en deux catégories : [Cas d’utilisation métier](../building-journeys/journeys-uc.md) et [Cas d’utilisation technique](../building-journeys/collections.md).
 * Le **Jeu de données d’entité** a été mise à jour avec plus de détails. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
 * Les informations relatives à la gestion des désinscriptions et aux politiques de consentement ont été réorganisées en une nouvelle section. [En savoir plus](../privacy/opt-out.md)
+* La section sur les paramètres avancés des messages de parcours a été clarifiée et précise désormais que le remplacement des adresses email ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, la valeur définie comme adresse Principale dans la variable **Champs d&#39;exécution** est celui qui doit être utilisé. [En savoir plus](../messages/messages-in-journeys.md#adv-settings)
+* Ajout d’une note au **Configuration des sous-domaines de landing page** pour indiquer que les majuscules ne sont pas autorisées dans les sous-domaines de la page d’entrée. [En savoir plus](../configuration/lp-subdomains.md)
 
 ## Septembre 2022 {#september-2022}
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Configurer un groupe d’adresses IP"
->abstract="Vous pouvez créer des groupes d’adresses IP pour regrouper les adresses IP de vos sous-domaines afin d’améliorer la délivrabilité des e-mails."
+>abstract="Les pools d’adresses IP rassemblent les adresses IP de vos sous-domaines pour une meilleure délivrabilité des emails."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ Avec [!DNL Journey Optimizer], vous pouvez créer des groupes d’adresses IP po
 La création de pools d&#39;adresses IP est vivement recommandée pour la délivrabilité des e-mails. Ce faisant, vous pouvez empêcher la réputation d&#39;un sous-domaine d&#39;avoir un impact sur vos autres sous-domaines.
 
 Par exemple, il est recommandé d&#39;avoir un pool d&#39;adresses IP pour vos messages marketing, et un autre pour vos messages transactionnels. De cette manière, si les performances de l&#39;un de vos messages marketing sont mauvaises et s&#39;il est déclaré comme indésirable par un client, cela n&#39;affecte pas les messages transactionnels envoyés à ce même client, qui recevra toujours des messages transactionnels (confirmations d’achat, messages de récupération de mot de passe, etc.).
+
+>[!CAUTION]
+>
+>La configuration du pool d’adresses IP est commune à tous les environnements. Par conséquent, toute création ou modification de pool d’adresses IP aura également un impact sur les environnements de test de production.
 
 ## Création d&#39;un pool d&#39;adresses IP {#create-ip-pool}
 
@@ -63,7 +67,7 @@ Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. 
 
 ## Modification d&#39;un pool d&#39;adresses IP {#edit-ip-pool}
 
-Pour modifier un pool d’adresses IP :
+Pour modifier un pool d’adresses IP, procédez comme suit.
 
 1. Dans la liste, cliquez sur le nom du pool d’adresses IP pour l’ouvrir.
 

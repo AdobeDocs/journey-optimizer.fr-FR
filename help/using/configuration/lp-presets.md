@@ -6,10 +6,10 @@ description: Découvrez comment configurer votre environnement pour créer et ut
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="Créer un préréglage de la page de destination"
->abstract="Pour pouvoir construire une page de destination et l’exploiter via Journey Optimizer, vous devez créer un paramètre prédéfini de page de destination qui inclura le sous-domaine à utiliser."
+>abstract="Pour créer une landing page et l’exploiter via Journey Optimizer, vous devez créer un paramètre prédéfini de landing page qui inclut le sous-domaine à utiliser."
 
 Lors de la [conception dʼune page de destination](../landing-pages/create-lp.md#create-a-lp), vous devez sélectionner un préréglage de page de destination pour pouvoir créer la page de destination et lʼutiliser avec **[!DNL Journey Optimizer]**.
 

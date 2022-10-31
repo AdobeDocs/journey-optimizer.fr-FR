@@ -6,10 +6,10 @@ description: Découvrez comment configurer des sous-domaines de page de destinat
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 100%
 Avant de pouvoir [créer des préréglages de page de destination](lp-presets.md), vous devez avoir configuré les sous-domaines que vous utiliserez pour vos pages de destination.
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>La configuration des sous-domaines de la landing page est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine de page d’entrée aura également un impact sur les environnements de test de production.
+
+Notez que les majuscules ne doivent pas être autorisées dans un sous-domaine.
 
 ## Utiliser un sous-domaine existant {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
    >[!NOTE]
    >
    >Vous ne pouvez pas sélectionner un sous-domaine déjà utilisé comme sous-domaine de page de destination.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
    >[!CAUTION]
    >
    >Vous ne pouvez pas utiliser un sous-domaine de page de destination existant.
+   >
+   >Les majuscules ne sont pas autorisées dans les sous-domaines.
 
    La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
 

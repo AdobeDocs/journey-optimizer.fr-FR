@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Utilisez l’**[!UICONTROL optimisation de l’heure d’envoi]** pour planifier
 
 Les paramètres avancés sont en lecture seule et masqués par défaut.
 
-Pour accéder aux paramètres avancés, cliquez sur l’icône **[!UICONTROL Afficher les champs en lecture seule]** en haut du volet des messages.
+Pour accéder aux paramètres avancés, cliquez sur l’icône **[!UICONTROL Afficher les champs en lecture seule]** en haut du volet des messages. Cliquez sur la même icône pour masquer les paramètres avancés.
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ Pour les notifications push, vous pouvez afficher les paramètres suivants : Je
 
 ![](assets/push-adv-parameters.png)
 
-Pour les e-mails, vous pouvez afficher l’adresse e-mail principale.
+Pour les emails, vous pouvez afficher la variable [Principale adresse électronique](../configuration/primary-email-addresses.md).
 
-Pour une utilisation particulière, vous pouvez remplacer ces valeurs dans des contextes spécifiques. Pour forcer une valeur, cliquez sur l’icône **Activer la substitution de paramètre** à droite du champ. Par exemple, cette option peut être utile pour :
+Dans des contextes spécifiques, vous pouvez remplacer ces valeurs pour une utilisation spécifique. Pour forcer une valeur, cliquez sur l’icône **[!UICONTROL Activer la substitution de paramètre]** à droite du champ.
 
-* Tester un e-mail. Vous pouvez ajouter votre adresse e-mail. Une fois le parcours publié, l’e-mail vous est envoyé.
+![](assets/email-adv-parameters.png)
+
+Par exemple, cette option peut être utile pour :
+
+* Testez un email. Vous pouvez ajouter votre adresse électronique ; une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
 * Se référer à l’adresse e-mail des abonnés d’une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 
-Cliquez sur la même icône pour masquer les paramètres avancés.
+>[!NOTE]
+>
+>Le remplacement de l’adresse électronique ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse électronique, car la valeur définie comme Principale adresse dans la variable **[!UICONTROL Champs d&#39;exécution]** est celui qui doit être utilisé. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Parcourir les messages{#browse-message}
 

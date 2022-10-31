@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 100%
+source-wordcount: '1725'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >abstract="Journey Optimizer vous permet de déléguer vos sous-domaines à Adobe. Vous pouvez déléguer entièrement un sous-domaine à Adobe, ce qui est la méthode recommandée. Vous pouvez également créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à Adobe. Toutefois, cette approche nécessite que vous entreteniez et gériez les enregistrements DNS vous-même."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html?lang=fr#subdomain-delegation-methods" text="Méthodes de configuration de sous-domaine"
 
-La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « example.com », vous pouvez déléguer la sous-zone « marketing.example.com » à Adobe. En savoir plus sur la [délégation de sous-domaine ](about-subdomain-delegation.md)
+La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone &quot;example.com&quot;, vous pouvez déléguer la sous-zone &quot;marketing.example.com&quot; à l’Adobe. En savoir plus sur la [délégation de sous-domaine ](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
@@ -34,6 +34,8 @@ Vous pouvez entièrement déléguer un sous-domaine ou créer un sous-domaine à
 >[!CAUTION]
 >
 >La délégation complète de sous-domaine est la méthode recommandée. En savoir plus sur les différences entre les deux [méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>La configuration de sous-domaine est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les environnements de test de production.
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
    >
    >Veuillez noter que les sous-domaines à plusieurs niveaux tels que email.marketing.votre_entreprise.com ne sont actuellement pas pris en charge.
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
 
 1. Assurez-vous que tous les enregistrements DNS ont été générés dans votre solution d&#39;hébergement de domaine. Si tout est correctement configuré, cochez la case &quot;Je confirme...&quot;, puis cliquez sur **[!UICONTROL Envoyer]**.
@@ -93,8 +97,6 @@ Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant 
    >[!NOTE]
    >
    >Le statut du sous-domaine sera marqué comme **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
-
-   <!-- later on, users will be notified in Pulse -->
 
 Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimizer], un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. [En savoir plus](ptr-records.md)
 
@@ -134,6 +136,8 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
    >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
    >
    >Veuillez noter que les sous-domaines à plusieurs niveaux tels que email.marketing.votre_entreprise.com ne sont actuellement pas pris en charge.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d&#39;hébergement de domaine pour générer les enregistrements DNS correspondants.
 

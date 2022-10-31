@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 81%
 
 ---
 
@@ -28,10 +28,17 @@ La colonne **[!UICONTROL Statut]** fournit des informations sur le processus de 
 * **[!UICONTROL Succès]** : le sous-domaine a passé les contrôles avec succès et peut être utilisé pour diffuser des messages,
 * **[!UICONTROL Échec]** : un ou plusieurs contrôles ont échoué après l&#39;envoi de la délégation de sous-domaine.
 
-Pour accéder à des informations détaillées sur un sous-domaine, ouvrez-le dans la liste. Vous pouvez :
+Pour accéder à des informations détaillées sur un sous-domaine avec la variable **[!UICONTROL Succès]** , ouvrez-le dans la liste.
+
+![](assets/subdomain-delegated.png)
+
+Vous pouvez :
 
 * Récupérer le nom du sous-domaine (lecture seule) configuré pendant le processus de délégation, ainsi que les URL générées (ressources, pages miroir, URL de tracking),
 
 * Ajouter un enregistrement TXT de vérification de site Google à votre sous-domaine pour vous assurer qu&#39;il est vérifié (voir [Ajout d&#39;un enregistrement TXT Google à un sous-domaine](google-txt.md)).
 
-![](assets/subdomain-delegated.png)
+
+>[!CAUTION]
+>
+>La configuration de sous-domaine est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les environnements de test de production.
