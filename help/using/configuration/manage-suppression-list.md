@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses élect
 
 >[!NOTE]
 >
->La liste de suppression est exécutée au niveau de l’environnement de test.
+>La liste de suppression est gérée au niveau de l’environnement de test.
 
 Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ Pour exporter la liste de suppression au format CSV, procédez comme suit.
 
    >[!NOTE]
    >
-   >Le temps de téléchargement dépend de la taille du fichier, c’est-à-dire du nombre d’adresses électroniques figurant sur la liste de suppression.
+   >Le temps de téléchargement dépend de la taille du fichier, c’est-à-dire du nombre d’adresses qui se trouvent sur la liste de suppression.
    >
    >Une demande de téléchargement peut être traitée à la fois pour un environnement de test donné.
 
