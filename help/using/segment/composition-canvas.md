@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -28,24 +28,28 @@ Les étapes de configuration d’une composition dans la zone de travail de comp
 
 ## Sélectionner l’audience de départ {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="Types de fusion"
->abstract="Indiquez le mode de fusion des profils des audiences sélectionnées."
-
 La première étape pour créer une composition consiste à sélectionner une ou plusieurs audiences existantes comme base de votre composition.
 
-Sélectionnez l’activité **[!UICONTROL Audience]**, cliquez sur le bouton **[!UICONTROL Ajouter une audience]** puis sélectionnez une ou plusieurs audiences.
+1. Sélectionnez la **[!UICONTROL Audience]** puis fournissez un libellé pour l’activité.
+
+1. Choisissez l&#39;audience à cibler :
+
+   * Cliquez sur le bouton **[!UICONTROL Ajouter une audience]** pour sélectionner une ou plusieurs audiences existantes,
+   * Cliquez sur le bouton **[!UICONTROL Créer une règle]** pour créer une définition de segment à l’aide du bouton [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. Si plusieurs audiences sont sélectionnées, indiquez comment les profils de ces audiences doivent être fusionnés :
+
+* **[!UICONTROL Union]** : inclure tous les profils des audiences sélectionnées,
+* **[!UICONTROL Intersection]** : inclure des profils communs à toutes les audiences sélectionnées,
+* **[!UICONTROL Exclure le chevauchement]** : inclure des profils qui appartiennent à l’une des audiences uniquement. Les profils appartenant à plusieurs audiences ne seront pas inclus.
 
 Dans cet exemple, nous allons cibler tous les profils appartenant aux audiences Gold et Silver.
 
 ![](assets/audiences-starting-audience.png)
 
-Si vous sélectionnez plusieurs audiences, indiquez comment les profils de ces audiences doivent être fusionnés :
-
-* **[!UICONTROL Union]** : inclure tous les profils des audiences sélectionnées,
-* **[!UICONTROL Intersection]** : inclure des profils communs à toutes les audiences sélectionnées,
-* **[!UICONTROL Exclure le chevauchement]** : inclure des profils qui appartiennent à l’une des audiences uniquement. Les profils appartenant à plusieurs audiences ne seront pas inclus.
+Une fois les audiences sélectionnées, le nombre estimé de profils s’affiche au bas de l’activité.
 
 ## Ajouter des activités {#action-activities}
 
@@ -74,6 +78,11 @@ Les activités disponibles sont les suivantes :
 >id="ajo_ao_audience"
 >title="Activité Audience"
 >abstract="L’activité Audience permet d’inclure dans votre composition des profils supplémentaires appartenant à une audience existante."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Types de fusion"
+>abstract="Indiquez le mode de fusion des profils des audiences sélectionnées."
 
 L’activité **[!UICONTROL Audience]** vous permet d’inclure dans votre composition des profils supplémentaires appartenant à une audience existante.
 

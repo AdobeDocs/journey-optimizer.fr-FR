@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 100%
 # Accéder aux audiences et les gérer {#access-manage-audiences}
 
 Les audiences sont accessibles depuis l’onglet **[!UICONTROL Audiences]** du menu **[!UICONTROL Segments]**.
-
->[!IMPORTANT]
->
->Pour l’instant, les audiences issues des workflows de composition ne peuvent pas être ciblées dans Journey Optimizer.
 
 Cet onglet répertorie toutes les audiences stockées dans Adobe Experience Platform. Les audiences créées à l’aide de compositions d’audience sont identifiables à leur origine **[!UICONTROL Composition de l’audience]**.
 

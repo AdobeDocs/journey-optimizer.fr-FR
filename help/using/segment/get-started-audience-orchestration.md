@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 81%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 100%
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences résultantes** sont enregistrées dans Adobe Experience Platform avec les audiences existantes.<!--, and can be **leveraged in campaigns** to target customers.-->
+Une fois cette opération terminée, la variable **audiences résultantes** sont enregistrés dans Adobe Experience Platform avec les audiences existantes et peuvent **utilisé dans les campagnes** pour cibler les clients.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Pour l’instant, les audiences issues des workflows de composition ne peuvent pas être ciblées dans Journey Optimizer. Elles ne peuvent pas être ciblées dans les destinations Adobe Experience Platform.
+>Les audiences issues des workflows de composition peuvent uniquement être ciblées dans des campagnes Journey Optimizer. Ils ne sont pas disponibles dans parcours.
 
 ## Accéder à la composition de l’audience {#access}
 

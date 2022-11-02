@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 93%
+source-wordcount: '365'
+ht-degree: 75%
 
 ---
 
@@ -39,13 +39,11 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
    * **[!UICONTROL Enregistrer]** : la dernière étape de votre composition. Cette activité permet d&#39;enregistrer le résultat de votre workflow dans une nouvelle audience.
    Pour plus d’informations sur la configuration des activités dans la zone de travail du workflow de composition, reportez-vous à la section [Utiliser la zone de travail de composition](composition-canvas.md).
 
-1. Sélectionnez l’activité **[!UICONTROL Audience]** puis spécifiez un libellé pour votre composition.
+1. Ouvrez les propriétés de composition pour spécifier un titre et une description.
 
-   >[!IMPORTANT]
-   >
-   >Le libellé de l’activité **[!UICONTROL Audience]** est le libellé de votre composition. Veillez à fournir un nom significatif pour récupérer plus facilement la composition dans la liste.
+   Si aucun titre n’est défini dans les propriétés, le libellé de composition est celui du début **[!UICONTROL Audience]** activité.
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. Configurez votre composition en ajoutant autant d’activités que nécessaire entre les activités **[!UICONTROL Audience]** et **[!UICONTROL Enregistrer]**. [Découvrez comment utiliser la zone de travail de composition](composition-canvas.md)
 
@@ -57,7 +55,7 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
 
    ![](assets/audiences-alerts.png)
 
-1. La composition est publiée. Les audiences obtenues sont enregistrées dans Adobe Experience Platform. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. La composition est publiée. Les audiences qui en résultent sont enregistrées dans Adobe Experience Platform et sont prêtes à être ciblées dans les campagnes Journey Optimizer. [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
 
 ## Accéder aux compositions {#access}
 
@@ -69,7 +67,7 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
 Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]** . Elles peuvent avoir plusieurs statuts :
 
 * **[!UICONTROL Brouillon]** : la composition est en cours et n’a pas été publiée.
-* **[!UICONTROL Publiée]** : la composition a été publiée, les audiences obtenues ont été enregistrées. <!-- and are available for use.-->
+* **[!UICONTROL Publié]**: la composition a été publiée, les audiences qui en résultent ont été enregistrées et peuvent être utilisées.
 * **[!UICONTROL Archivée]** : la composition a été archivée.
 
 ![](assets/audiences-compositions.png)
