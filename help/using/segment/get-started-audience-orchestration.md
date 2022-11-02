@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 81%
+source-wordcount: '256'
+ht-degree: 79%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 81%
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, la variable **audiences résultantes** sont enregistrés dans Adobe Experience Platform avec les audiences existantes et peuvent **utilisé dans les campagnes** pour cibler les clients.
+Une fois cette opération terminée, la variable **audiences résultantes** sont enregistrés dans Adobe Experience Platform avec les audiences existantes et peuvent **utilisé dans les campagnes** pour cibler les clients. [Découvrez comment utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 

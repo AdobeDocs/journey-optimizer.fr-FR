@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 75%
+source-wordcount: '367'
+ht-degree: 74%
 
 ---
 
@@ -55,7 +55,7 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
 
    ![](assets/audiences-alerts.png)
 
-1. La composition est publiée. Les audiences qui en résultent sont enregistrées dans Adobe Experience Platform et sont prêtes à être ciblées dans les campagnes Journey Optimizer. [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
+1. La composition est publiée. Les audiences qui en résultent sont enregistrées dans Adobe Experience Platform et sont prêtes à être ciblées dans les campagnes Journey Optimizer. [Découvrez comment utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
 
 ## Accéder aux compositions {#access}
 
