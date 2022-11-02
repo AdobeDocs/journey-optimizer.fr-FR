@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 64%
+source-wordcount: '573'
+ht-degree: 63%
 
 ---
 
@@ -32,27 +32,38 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 
 ## Procédure de création d’un parcours{#steps-journey}
 
-Adobe Journey Optimizer comprend un canevas d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail, à l’étape suivante disponible.
+Utilisez Adobe Journey Optimizer pour concevoir et orchestrer des parcours personnalisés à partir d’une seule zone de travail.
+
+Adobe Journey Optimizer comprend un canevas d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours.
+
+![](assets/interface-journeys.png)
 
 Découvrez comment démarrer et créer votre premier parcours dans [cette page](journey-gs.md).
 
-Découvrez comment utiliser le concepteur de parcours et combiner des activités pour orchestrer de puissants parcours omnicanaux dans [cette section](using-the-journey-designer.md).
+Le concepteur de parcours omnicanal vous aide à créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur les interactions client ou commerciale en temps réel et des messages omnicanaux à l’aide d’une interface intuitive de glisser-déposer.
 
-En tant qu’ingénieur en données, découvrez comment configurer vos parcours, y compris les sources de données, les événements et les actions dans [cette section](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+En savoir plus dans [cette section](using-the-journey-designer.md).
+
+En tant qu’ingénieur en données, les étapes de configuration de vos parcours, y compris les sources de données, les événements et les actions, sont détaillées dans la section [cette section](../configuration/about-data-sources-events-actions.md).
 
 
 ## Cas d’utilisation{#uc-journey}
 
-Découvrez les cas d’utilisation de bout en bout suivants pour levera
-* Cas d’utilisation métier
-   * [Envoi de messages multi-canal](journeys-uc.md)
-   * [Envoi de messages à l’aide de Campaign v7/v8](campaign-classic-use-case.md)
-   * [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
+Découvrez comment créer des parcours dans les cas d’utilisation de bout en bout suivants.
 
-* Cas d’utilisation technique
-   * [Transmission dynamique des collections à l’aide d’actions personnalisées](collections.md)
-   * [Accélération des diffusions](ramp-up-deliveries-uc.md)
-   * [Limitation du débit avec les sources de données externes et les actions personnalisées](limit-throughput.md)
+Cas pratiques professionnels :
+
+* [Envoi de messages multi-canal](journeys-uc.md)
+* [Envoi de messages à l’aide de Campaign v7/v8](campaign-classic-use-case.md)
+* [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
+
+Cas pratiques techniques :
+
+* [Transmission dynamique des collections à l’aide d’actions personnalisées](collections.md)
+* [Accélération des diffusions](ramp-up-deliveries-uc.md)
+* [Limitation du débit avec les sources de données externes et les actions personnalisées](limit-throughput.md)
 
 ## Versions de parcours{#journey-versions}
 
