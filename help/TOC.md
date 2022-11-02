@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1244'
 ht-degree: 95%
 
 ---
@@ -32,10 +32,7 @@ ht-degree: 95%
    + [Interface utilisateur](using/start/user-interface.md)
    + [Éléments de sécurité](using/start/guardrails.md)
 + Parcours {#orchestrate-journeys}
-   + Prise en main des parcours{#about-journeys}
-      + [Principe général](using/building-journeys/journey.md)
-      + [Cycle de vie du parcours](using/building-journeys/journey-end.md)
-      + [Versions de parcours](using/building-journeys/journey-versions.md)
+   + [Prise en main des parcours](using/building-journeys/journey.md)
    + Création d’un parcours{#create-journey}
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Conception de votre parcours](using/building-journeys/using-the-journey-designer.md)
@@ -46,7 +43,7 @@ ht-degree: 95%
       + [Dépanner votre parcours](using/building-journeys/troubleshooting.md)
       + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Activités {#about-journey-building}
-      + [À propos des activités de parcours](using/building-journeys/about-journey-activities.md)
+      + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
       + [Réaction](using/building-journeys/reaction-events.md)
       + [Qualification du segment](using/building-journeys/segment-qualification-events.md)

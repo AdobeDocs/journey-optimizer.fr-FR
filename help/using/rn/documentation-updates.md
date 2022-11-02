@@ -4,7 +4,7 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 94%
@@ -63,7 +63,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Une nouvelle section sur les demandes d’accès à des informations personnelles a été ajoutée à la documentation. [En savoir plus](../privacy/requests.md)
 * Une nouvelle section sur les journaux d’audit des ressources a été ajoutée à la documentation. [En savoir plus](../privacy/audit-logs.md)
 * Une nouvelle section sur la façon d’ajouter du contenu HTML ou JSON, provenant de la bibliothèque de ressources Adobe Experience Cloud, à un rendu d’offre a été ajoutée à la documentation. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
-* Ajout d’une nouvelle page sur le cycle de vie des parcours. [En savoir plus](../building-journeys/journey-end.md)
+* Ajout d’une nouvelle page sur le cycle de vie des parcours. [En savoir plus](../building-journeys/journey.md#journey-versions)
 * Mise à jour de la page Activité d’attente. [En savoir plus](../building-journeys/wait-activity.md)
 * Ajout de la liste des jeux de données Adobe Journey Optimizer avec des exemples de requête. [En savoir plus](../start/datasets-query-examples.md)
 * La page Liste autorisée a été déplacée vers la section Configuration. [En savoir plus](../configuration/allow-list.md)
