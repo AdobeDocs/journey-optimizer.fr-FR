@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 63%
+source-wordcount: '577'
+ht-degree: 60%
 
 ---
 
@@ -74,7 +74,7 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 >[!NOTE]
 >
->Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
+>En règle générale, un profil ne peut pas être présent plusieurs fois dans le même parcours, au même moment. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
 
 Si vous devez modifier un parcours actif, créez une nouvelle version de votre parcours.
 
