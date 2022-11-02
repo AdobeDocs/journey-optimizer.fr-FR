@@ -8,16 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 992f1ee215cc7f14d7f29a0bd592838fead2568c
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 64%
 
 ---
 
+
 # Principe général{#jo-general-principle}
 
-[!DNL Journey Optimizer] permet de créer des cas d&#39;utilisation d&#39;orchestration en temps réel à l&#39;aide de données contextuelles stockées dans des événements ou des sources de données.
+Utilisation [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
 Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
@@ -29,108 +30,29 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 
 * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d’entrée ou une activité de lecture de segment, ajoutez des conditions et envoyez des messages personnalisés.
 
-## Cycle de vie du parcours{#journey-lifecyle}
+## Procédure de création d’un parcours{#steps-journey}
 
-### Profils dans les parcours{#profile-journey}
+Adobe Journey Optimizer comprend un canevas d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail, à l’étape suivante disponible.
 
-Dans un parcours unitaire :
+Découvrez comment démarrer et créer votre premier parcours dans [cette page](journey-gs.md).
 
-* Si la reprise est activée, un profil peut rejoindre à nouveau plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
+Découvrez comment utiliser le concepteur de parcours et combiner des activités pour orchestrer de puissants parcours omnicanaux dans [cette section](using-the-journey-designer.md).
 
-* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
-
-Pour plus d&#39;informations à ce sujet, consulter cette [section](../building-journeys/journey-gs.md#change-properties).
-
-Dans un parcours de segment lu :
-
-* Pour les parcours non récurrents : le profil rejoint une seule fois le parcours.
-* Pour les parcours récurrents : le profil rejoint le parcours à chaque périodicité, s’il est dans le segment / le statut attendu. S’il était toujours dans le parcours d&#39;une précédente périodicité, il la redémarrera dès le début.
-
-Dans les parcours d’événement métier commençant par une lecture de segment :
-
-Sachant que ce parcours est basé sur la réception d’un événement métier, si le profil est qualifié dans le segment attendu, il rejoindra le parcours de chaque événement métier reçu, ce qui signifie que ce profil pourra être plusieurs fois dans le même parcours, au même moment, mais dans le contexte de différents événements métier.
-
-Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+En tant qu’ingénieur en données, découvrez comment configurer vos parcours, y compris les sources de données, les événements et les actions dans [cette section](../configuration/about-data-sources-events-actions.md).
 
 
-### Fin de parcours{#journey-ending}
+## Cas d’utilisation{#uc-journey}
 
-Un parcours peut se terminer pour un individu dans deux contextes spécifiques :
+Découvrez les cas d’utilisation de bout en bout suivants pour levera
+* Cas d’utilisation métier
+   * [Envoi de messages multi-canal](journeys-uc.md)
+   * [Envoi de messages à l’aide de Campaign v7/v8](campaign-classic-use-case.md)
+   * [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
 
-* Le client arrive à la dernière activité d&#39;un chemin.
-* Le client arrive à une activité **Condition** (ou à une activité **Attente** avec une condition) et ne répond à aucune des conditions.
-
-Il peut alors rejoindre de nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-gs.md#change-properties)
-
-Pour terminer un parcours actif, nous vous recommandons de le fermer. L’arrivée de nouveaux clients dans le parcours sera alors bloquée. Les clients qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin. Consultez [cette section](../building-journeys/journey.md#close-journey)
-
-Vous pouvez arrêter un parcours uniquement lorsqu’une urgence s’est produite et qu’il doit être mis fin immédiatement à tout traitement sur un parcours. Les personnes qui l’ont déjà rejoint sont toutes stoppées dans leur progression. Consultez [cette section](../building-journeys/journey.md#stop-journey)
-
->[!NOTE]
->
->Notez que vous ne pouvez pas reprendre un parcours fermé ou arrêté.
-
-#### Balise de fin de parcours{#end-tag}
-
-Lors de la création d’un parcours, une « balise de fin » s’affiche à la fin de chaque chemin. Ce nœud ne peut pas être ajouté par un utilisateur, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours. Si le parcours comporte plusieurs chemins, il est conseillé d’ajouter un libellé à chaque fin pour faciliter la lecture des rapports. Consultez [cette page](../reports/live-report.md).
-
-![](assets/journey-end.png)
-
-<!--
-
-### End activity{#journey-end-activity}
-
-The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
-
-![](assets/journey54.png)
-
--->
-
-#### Fermeture d’un parcours{#close-journey}
-
-Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
-
-* Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
-* Un parcours basé sur un segment « unique » qui a terminé son exécution.
-* Après la dernière occurrence d&#39;un parcours récurrent basé sur un segment.
-
-Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
-
-La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
-
-Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
-
-![](assets/journey-finish-quick-action.png)
-
-Vous pouvez également réaliser les opérations suivantes :
-
-1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez fermer.
-1. En haut à droite, cliquez sur la flèche vers le bas.
-
-   ![](assets/finish_drop_down_list.png)
-
-1. Cliquez sur **[!UICONTROL Fermer aux nouvelles entrées]** et confirmez dans la boîte de dialogue.
-
-#### Arrêt d’un parcours{#stop-journey}
-
-Si nécessaire, il est possible d’arrêter la progression de tous les individus dans le parcours. L’arrêt du parcours entraîne la temporisation de tous les individus qui en font partie. Cependant, le fait d’arrêter un parcours suppose qu&#39;il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt. Si vous souhaitez mettre fin à un parcours, nous vous recommandons de le fermer.
-
-La version d’un parcours arrêté ne peut pas être redémarrée.
-
-À l’arrêt, le statut du parcours est défini sur **[!UICONTROL Arrêté]**.
-
-Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
-
-![](assets/journey-finish-quick-action.png)
-
-Vous pouvez également réaliser les opérations suivantes :
-
-1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez arrêter.
-1. En haut à droite, cliquez sur la flèche vers le bas.
-   ![](assets/finish_drop_down_list.png)
-1. Cliquez sur **[!UICONTROL Arrêter]** et confirmez dans la boîte de dialogue.
-
-
+* Cas d’utilisation technique
+   * [Transmission dynamique des collections à l’aide d’actions personnalisées](collections.md)
+   * [Accélération des diffusions](ramp-up-deliveries-uc.md)
+   * [Limitation du débit avec les sources de données externes et les actions personnalisées](limit-throughput.md)
 
 ## Versions de parcours{#journey-versions}
 
@@ -142,7 +64,7 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 >[!NOTE]
 >
->Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](#journey-ending)
+>Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
 
 Si vous devez modifier un parcours actif, créez une nouvelle version de votre parcours.
 

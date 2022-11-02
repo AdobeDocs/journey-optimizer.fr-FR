@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
@@ -347,7 +347,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* **Terminaison d’un parcours** : dans la zone de travail du parcours, l’activité **Fin** a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de créer un rapport plus optimal sur le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Reportez-vous à la [documentation](../building-journeys/journey.md#journey-ending) et à la [vidéo sur les fonctionnalités](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Terminaison d’un parcours** : dans la zone de travail du parcours, l’activité **Fin** a été supprimée de la palette. Les balises de fin sont désormais ajoutées par défaut à la fin de chaque chemin et ne peuvent pas être supprimées. Cette amélioration permet de créer un rapport plus optimal sur le moment où un client a quitté le parcours, sans aucune action requise de la part du praticien de parcours. Reportez-vous à la [documentation](../building-journeys/end-journey.md) et à la [vidéo sur les fonctionnalités](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
 * L’option **Fuseau horaire du profil** est désormais décochée par défaut dans les propriétés de parcours. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
