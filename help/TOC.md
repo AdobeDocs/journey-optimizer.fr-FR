@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 95%
 
 ---
@@ -32,19 +32,19 @@ ht-degree: 95%
    + [Interface utilisateur](using/start/user-interface.md)
    + [Éléments de sécurité](using/start/guardrails.md)
 + Parcours {#orchestrate-journeys}
-   + À propos des parcours{#about-journeys}
+   + Prise en main des parcours{#about-journeys}
       + [Principe général](using/building-journeys/journey.md)
       + [Cycle de vie du parcours](using/building-journeys/journey-end.md)
       + [Versions de parcours](using/building-journeys/journey-versions.md)
-      + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Création d’un parcours{#create-journey}
-      + [Prise en main des parcours](using/building-journeys/journey-gs.md)
+      + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Conception de votre parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Copier un parcours dans une autre sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
+      + [Dépanner votre parcours](using/building-journeys/troubleshooting.md)
+      + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Activités {#about-journey-building}
       + [À propos des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
