@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 97%
+source-wordcount: '302'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 Lorsqu’il s’agit de définir des arrière-plans avec le Concepteur d’email, Adobe recommande ce qui suit :
 
 1. Appliquez une couleur de fond au corps de votre email, si votre conception l’exige.
-1. Dans la plupart des cas, définissez les couleurs de fond au niveau de la colonne.
+1. En règle générale, définissez les couleurs d’arrière-plan au niveau de la colonne.
 1. Essayez de ne pas utiliser de couleurs de fond sur les composants d’image ou de texte, car ceux-ci sont difficiles à gérer.
 
 Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez utiliser.
