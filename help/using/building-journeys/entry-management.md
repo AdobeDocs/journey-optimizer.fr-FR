@@ -6,30 +6,41 @@ description: Découvrez comment gérer l’entrée de profil
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 95%
+source-wordcount: '346'
+ht-degree: 59%
 
 ---
 
+
 # Gestion des entrées de profil {#entry-management}
 
-Dans un parcours unitaire :
+Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c&#39;est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse rejoindre de nouveau le parcours et rebénéficier de l&#39;offre.
+
+![](assets/journey-re-entrance.png)
+
+Lorsqu’un parcours se termine, son état est **[!UICONTROL Fermé]**. TNew ne peut plus entrer dans le parcours. Les personnes déjà dans le parcours terminent le parcours normalement.
+
+Après le délai d’expiration global par défaut de 30 jours, le parcours passe à la variable **Terminé** statut.  [En savoir plus](journey-gs.md#global_timeout).
+
+
+## Parcours unitaires{#entry-unitary}
+
+Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+
+En outre :
 
 * Si la reprise est activée, un profil peut rejoindre à nouveau plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 
 * Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
 
-Pour plus d&#39;informations à ce sujet, consulter cette [section](../building-journeys/journey-gs.md#change-properties).
+## Lecture de parcours de segment{#entry-read-segment}
 
 Dans un parcours de segment lu :
 
 * Pour les parcours non récurrents : le profil rejoint une seule fois le parcours.
-* Pour les parcours récurrents : le profil rejoint le parcours à chaque périodicité, s’il est dans le segment / le statut attendu. S’il était toujours dans le parcours d&#39;une précédente périodicité, il la redémarrera dès le début.
 
-Dans les parcours d’événement métier commençant par une lecture de segment :
+* Pour les parcours récurrents : le profil entre dans le parcours de chaque périodicité, s’il est dans l’état segment/attendu. S’il était toujours dans le parcours d&#39;une précédente périodicité, il la redémarrera dès le début.
 
-Sachant que ce parcours est basé sur la réception d’un événement métier, si le profil est qualifié dans le segment attendu, il rejoindra le parcours de chaque événement métier reçu, ce qui signifie que ce profil pourra être plusieurs fois dans le même parcours, au même moment, mais dans le contexte de différents événements métier.
-
-Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+Dans les parcours d’événements professionnels commençant par un **Lecture de segment** activité : sachant que ce parcours est basé sur la réception d’un événement professionnel, si le profil est qualifié dans le segment attendu, il saisira le parcours de chaque événement commercial reçu, ce qui signifie que ce profil peut être plusieurs fois dans le même parcours, en même temps, mais dans le contexte de différents événements professionnels.
