@@ -1,22 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Principe général
-description: Principe général
+title: Prise en main des parcours
+description: Prise en main des parcours
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '579'
 ht-degree: 63%
 
 ---
 
 
-# Principe général{#jo-general-principle}
+# Prise en main des parcours{#jo-general-principle}
 
 Utilisation [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
