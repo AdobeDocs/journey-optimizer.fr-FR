@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 85%
+source-wordcount: '1605'
+ht-degree: 80%
 
 ---
 
@@ -60,15 +60,17 @@ Selon le statut du parcours, vous pouvez effectuer différentes actions à l&#39
 
 Lorsque vous concevez votre parcours, la première question que vous devez vous poser est la suivante : comment les profils vont-ils rejoindre le parcours ? Il existe deux possibilités :
 
-**Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
+1. **Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-**Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, tous les individus appartenant au segment spécifié rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
+1. **Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, tous les individus appartenant au segment spécifié rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
 
 ## Définir les étapes suivantes{#define-next-steps}
 
 Après votre premier événement ou votre première lecture de segment, vous pouvez combiner les différentes activités afin de créer vos scénarios cross-canal en plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
 
 ### Événements{#jo-event}
+
+Les événements sont ce qui déclenche un parcours personnalisé, comme un achat en ligne. Une fois que quelqu&#39;un entre dans un parcours, il se déplace à travers en tant qu&#39;individu, et pas deux individus ne se déplacent à la même vitesse ou le même chemin.
 
 Lorsque vous lancez votre parcours avec un événement, celui-ci est déclenché à la réception de l’événement. Chaque personne du parcours suit ensuite, individuellement, les étapes suivantes définies dans votre parcours.
 
@@ -80,11 +82,15 @@ Utilisation **Qualification de segment** activité d’événement pour faire en
 
 ### Orchestration{#jo-orch}
 
-Dans les activités d’orchestration, utilisez la méthode **Lecture de segment** activité permettant de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
+Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours.
+
+Dans les activités d’orchestration, utilisez la méthode **Lecture de segment** pour définir votre parcours d’écoute d’un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
 
 Les autres activités vous permettent d&#39;ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d&#39;attente avant l&#39;exécution de l&#39;activité suivante, ou de terminer votre parcours. [En savoir plus sur les activités d’orchestration](about-journey-activities.md#orchestration-activities).
 
 ### Actions{#jo-actions}
+
+Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client rencontre. Il peut s’agir d’un email, d’un SMS ou d’un message push, ou d’une action tierce, telle qu’un message du Slack.
 
 Les activités d’action de canal vous permettent d’inclure un message conçu dans [!DNL Journey Optimizer]. [En savoir plus sur les activités d’action de canal](journeys-message.md)
 
