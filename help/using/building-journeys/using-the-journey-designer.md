@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 100%
+source-wordcount: '1507'
+ht-degree: 85%
 
 ---
 
@@ -22,11 +22,13 @@ ht-degree: 100%
 >title="Concevoir le parcours"
 >abstract="L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible."
 
-L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible. Chaque activité possède un rôle et un emplacement précis dans le processus. Les activités sont séquencées. Cela signifie que lorsqu&#39;une activité est terminée, le flux se poursuit et traite l&#39;activité suivante, et ainsi de suite.
+Adobe Journey Optimizer comprend un canevas d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail, à l’étape suivante disponible.
+
+Les activités d’événement, d’orchestration et d’action ont un rôle et un rôle spécifiques dans le processus. L’ordre des activités est le suivant : lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, etc.
 
 ## Prise en main de la conception de parcours {#gs-journey-design}
 
-La **palette** se situe sur la partie gauche de l&#39;écran. Toutes les activités disponibles sont classées dans plusieurs catégories : **[!UICONTROL Événements]**, **[!UICONTROL Orchestration]** et **[!UICONTROL Actions]**. Vous pouvez développer/réduire les différentes catégories en cliquant sur leur nom. Pour utiliser une activité dans votre parcours, faites-la glisser de la palette vers la zone de travail.
+La **palette** se situe sur la partie gauche de l&#39;écran. Toutes les activités disponibles sont classées dans plusieurs catégories : [Événements](#jo-event), [Orchestration](#jo-orch) et [Actions](#jo-actions). Vous pouvez développer/réduire les différentes catégories en cliquant sur leur nom. Pour utiliser une activité dans votre parcours, faites-la glisser de la palette vers la zone de travail.
 
 Lors du démarrage d&#39;un nouveau parcours, les éléments qui ne peuvent pas être déposés dans la zone de travail comme première étape sont masqués. Cela concerne toutes les actions, l&#39;activité de la condition, l&#39;attente et la réaction.
 
@@ -66,27 +68,27 @@ Lorsque vous concevez votre parcours, la première question que vous devez vous 
 
 Après votre premier événement ou votre première lecture de segment, vous pouvez combiner les différentes activités afin de créer vos scénarios cross-canal en plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
 
-**Événements**
+### Événements{#jo-event}
 
-Lorsque vous débutez votre parcours avec un événement, le parcours est déclenché à la réception de l&#39;événement. La personne suivra ensuite, individuellement, les étapes suivantes définies dans votre parcours.
+Lorsque vous lancez votre parcours avec un événement, celui-ci est déclenché à la réception de l’événement. Chaque personne du parcours suit ensuite, individuellement, les étapes suivantes définies dans votre parcours.
 
-Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu&#39;ils utilisent le même espace de noms. Les événements sont configurés au préalable. [En savoir plus sur les événements](about-journey-activities.md#event-activities)
+Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu&#39;ils utilisent le même espace de noms. Les événements sont configurés au préalable. [En savoir plus sur les événements de parcours](about-journey-activities.md#event-activities)
 
-Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d&#39;envoyer un autre message si l&#39;individu a ouvert le message précédent ou cliqué dessus. En savoir plus dans cette [section](reaction-events.md).
+Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d&#39;envoyer un autre message si l&#39;individu a ouvert le message précédent ou cliqué dessus. [En savoir plus sur les événements de réaction](reaction-events.md).
 
-L&#39;activité d&#39;événement **Qualification du segment** vous permet de faire en sorte que des individus rejoignent un parcours ou y progressent en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
+Utilisation **Qualification de segment** activité d’événement pour faire entrer ou avancer des individus dans un parcours en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
 
-**Orchestration**
+### Orchestration{#jo-orch}
 
-Dans les activités d&#39;orchestration, vous trouverez l&#39;activité **Lecture de segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
+Dans les activités d’orchestration, utilisez la méthode **Lecture de segment** activité permettant de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
 
-Les autres activités vous permettent d&#39;ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d&#39;attente avant l&#39;exécution de l&#39;activité suivante, ou de terminer votre parcours. En savoir plus dans cette [section](about-journey-activities.md#orchestration-activities).
+Les autres activités vous permettent d&#39;ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d&#39;attente avant l&#39;exécution de l&#39;activité suivante, ou de terminer votre parcours. [En savoir plus sur les activités d’orchestration](about-journey-activities.md#orchestration-activities).
 
-**Actions**
+### Actions{#jo-actions}
 
-Vous trouverez ici l’activité d’action de canal qui vous permet d’inclure un message conçu dans [!DNL Journey Optimizer]. [En savoir plus sur les activités d’action de canal](journeys-message.md)
+Les activités d’action de canal vous permettent d’inclure un message conçu dans [!DNL Journey Optimizer]. [En savoir plus sur les activités d’action de canal](journeys-message.md)
 
-Vous trouverez également les actions personnalisées que vous avez configurées pour envoyer des messages avec des systèmes tiers. En savoir plus dans cette [section](about-journey-activities.md#action-activities).
+À partir des activités d’action, utilisez des actions personnalisées pour envoyer des messages avec des systèmes tiers. [En savoir plus sur les actions personnalisées](about-journey-activities.md#action-activities).
 
 ## Ajout de chemins alternatifs{#paths}
 
