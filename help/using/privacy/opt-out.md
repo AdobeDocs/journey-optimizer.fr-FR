@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 77%
 
 ---
 
@@ -215,12 +215,28 @@ Par exemple, lors du téléchargement ou de l’utilisation de votre application
 
 Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
->[!NOTE]
+Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard tels que STOP, UNSTOP et START pour les messages sans fil et à code long terme, conformément aux normes de l’industrie pour l’intégration native telle que Sinch et Twilio. Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers (par exemple, Twilio, Sinch, etc.). Vous pouvez le confirmer directement auprès de votre fournisseur ou via leur site de documentation.
+
+Aucune procédure n’est requise pour s’assurer que les fonctionnalités d’exclusion des SMS fonctionnent dans Adobe Journey Optimizer, car les réponses des mots-clés STOP, UNSTOP et START seront automatiquement reconnues.
+
+Outre l’arrêt par Adobe Journey Optimizer de l’envoi en fonction de l’état d’exclusion (pour les intégrations directes avec Twilio ou Sinch), la plupart des fournisseurs de passerelle SMS tiennent également à jour une liste bloquée vous garantissant qu’un SMS ne sera pas délivré à une personne qui a choisi de ne pas l’envoyer. Si vous utilisez un fournisseur autre que Sinch ou Twilio et que vous envoyez un SMS via [canal personnalisé](../building-journeys/using-custom-actions.md), vous devez le confirmer auprès de votre fournisseur.
+
+>[!IMPORTANT]
 >
->L’ajout d’un lien de désinscription n’est pas obligatoire pour les messages transactionnels.
+>Les campagnes par SMS peuvent être soumises à diverses exigences de conformité légales en fonction de la nature de votre campagne de messagerie texte, de l’emplacement d’où vous envoyez vos messages texte et de l’emplacement de vos destinataires. <br>Bien que Adobe Journey Optimizer gère les messages sur les numéros longs et sans frais comme décrit ci-dessus, vous devez consulter votre service juridique pour vous assurer que votre campagne de messagerie texte est conforme à toutes les exigences de conformité légales applicables.
 
-Adobe Journey Optimizer traite automatiquement les mots-clés suivants dans les messages entrants : **DÉMARRAGE**, **ARRÊT** et **REDÉMARRAGE**. Ces mots-clés déclenchent des réponses standard automatiques de la part du fournisseur SMS.
+### Codes courts {#short-codes}
 
-Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (démarrage, arrêt et redémarrage) pour les SMS, regardez la vidéo suivante :
+Par défaut, Adobe Journey Optimizer ne prend pas en charge les mots-clés d’opt-out, d’opt-in ou d’aide pour les numéros courts de code.
+
+Vous devez vous assurer que votre numéro court est conforme à toutes les règles et réglementations du secteur pour la gestion des exclusions.
+
+### Identifiant de l’expéditeur alphanumérique {#alphanumeric}
+
+Les identifiants d’expéditeur alphanumériques sont réservés à la messagerie unidirectionnelle et ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés SMS STOP, START, HELP de Adobe Journey Optimizer ne s’appliquent pas aux identifiants d’expéditeur Alpha. Vous devez fournir d’autres instructions, telles que l’écriture dans l’équipe d’assistance, l’appel d’une ligne téléphonique d’assistance ou l’envoi d’un texto à un autre numéro de téléphone ou code pour permettre aux utilisateurs de se désabonner des messages envoyés par l’intermédiaire de l’ID d’expéditeur alphanumérique.
+
+#### Vidéo {#video-sms}
+
+Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (START, STOP et UNSTOP) pour les SMS, reportez-vous à la vidéo suivante :
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
