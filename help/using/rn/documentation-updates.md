@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2128'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Octobre 2022 {#october-2022}
 
-* Ajout d’un cas d’utilisation parcours sur la manière de limiter le débit à l’aide de sources de données externes et d’actions personnalisées. [En savoir plus](../building-journeys/limit-throughput.md)
-* La section Cas pratique parcours a été réorganisée en deux catégories : [Cas d’utilisation métier](../building-journeys/journeys-uc.md) et [Cas d’utilisation technique](../building-journeys/collections.md).
-* Le **Jeu de données d’entité** a été mise à jour avec plus de détails. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
+* Ajout d’un cas d’utilisation de parcours sur la manière de limiter le débit à l’aide de sources de données externes et d’actions personnalisées. [En savoir plus](../building-journeys/limit-throughput.md)
+* La section Cas d’utilisation de parcours a été réorganisée en deux catégories : [Cas d’utilisation commerciale](../building-journeys/journeys-uc.md) et [Cas d’utilisation technique](../building-journeys/collections.md).
+* La section **Jeu de données d’entité** a été mise à jour avec plus de détails. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
 * Les informations relatives à la gestion des désinscriptions et aux politiques de consentement ont été réorganisées en une nouvelle section. [En savoir plus](../privacy/opt-out.md)
-* La section sur les paramètres avancés des messages de parcours a été clarifiée et précise désormais que le remplacement des adresses email ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, la valeur définie comme adresse Principale dans la variable **Champs d&#39;exécution** est celui qui doit être utilisé. [En savoir plus](../messages/messages-in-journeys.md#adv-settings)
-* Ajout d’une note au **Configuration des sous-domaines de landing page** pour indiquer que les majuscules ne sont pas autorisées dans les sous-domaines de la page d’entrée. [En savoir plus](../configuration/lp-subdomains.md)
+* La section sur les paramètres avancés des messages de parcours a été clarifiée et précise désormais que le remplacement des adresses e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, la valeur définie comme adresse principale dans les **Champs d’exécution** est celle qui doit être utilisée. [En savoir plus](../messages/messages-in-journeys.md#adv-settings)
+* Ajout d’une note à la section **Configuration des sous-domaines de page de destination** pour indiquer que les majuscules ne sont pas autorisées dans les sous-domaines de la page de destination. [En savoir plus](../configuration/lp-subdomains.md)
 
 ## Septembre 2022 {#september-2022}
 

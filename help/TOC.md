@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -147,14 +147,14 @@ ht-degree: 94%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Cas pratiques {#journey-use-cases}
-      + Cas d’utilisation métier {#business-use-cases}
+      + Cas d’utilisation commerciale {#business-use-cases}
          + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
          + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
          + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
       + Cas d’utilisation technique {#technical-use-cases}
-         + [Transmission dynamique des collections à l’aide d’actions personnalisées](using/building-journeys/collections.md)
-         + [Accélération des diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limitation du débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
+         + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
+         + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
 + Campagnes{#campaigns}
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Créer une campagne](using/campaigns/create-campaign.md)
@@ -176,18 +176,18 @@ ht-degree: 94%
    + [Création dʼun SMS](using/messages/create-sms.md)
    + [Création d’un publipostage direct](using/messages/create-direct-mail.md)
    + [Vérifier les alertes](using/messages/alerts.md)
-   + [Optimisation de l&#39;heure d&#39;envoi](using/messages/send-time-optimization.md)
+   + [Optimisation de l’heure d’envoi](using/messages/send-time-optimization.md)
 + Canal web{#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
    + [Créer des expériences web](using/web/create-web.md)
-   + [Création de pages web](using/web/author-web.md)
+   + [Créer des pages web](using/web/author-web.md)
    + [Extension Visual Editing Helper](using/web/visual-editing-helper.md)
    + [Rapports web](using/web/web-report.md)
 + Canal in-app{#in-app}
-   + [Prise en main du canal In-App](using/in-app/get-started-in-app.md)
-   + [Configuration du canal In-App](using/in-app/inapp-configuration.md)
-   + [Création d’un message in-app](using/in-app/create-in-app.md)
-   + [Concevoir le contenu in-app](using/in-app/design-in-app.md)
+   + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
+   + [Configurer le canal in-app](using/in-app/inapp-configuration.md)
+   + [Créer un message in-app](using/in-app/create-in-app.md)
+   + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
    + [Rapport in-app](using/in-app/inapp-report.md)
 + Conception du contenu {#design}
    + [Prise en main de la conception d’e-mails](using/design/design-emails.md)
@@ -413,7 +413,7 @@ ht-degree: 94%
             + [Reprises](using/configuration/retries.md)
             + [Liste autorisée](using/configuration/allow-list.md)
       + [Configurer le canal SMS](using/configuration/sms-configuration.md)
-      + [Configuration du courrier](using/configuration/direct-mail-configuration.md)
+      + [Configurer le publipostage direct](using/configuration/direct-mail-configuration.md)
       + Configurer des surfaces de canal {#set-up-channels}
          + [Créer des surfaces de canal](using/configuration/channel-surfaces.md)
          + [Configurer les paramètres d’e-mail](using/configuration/email-settings.md)

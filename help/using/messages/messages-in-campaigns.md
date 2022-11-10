@@ -7,15 +7,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
+exl-id: 12892db9-e778-48fe-90a3-5de51dc02e4d
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 
 ---
 
-
-# Accéder aux messages dans des campagnes
+# Ajouter des messages dans des campagnes
 
 Dans vos campagnes, sélectionnez le canal pour concevoir et personnaliser le message que vous souhaitez envoyer à votre audience. Lorsque vous ajoutez un e-mail, un SMS ou une notification push à votre campagne, vous pouvez l’envoyer immédiatement ou planifier le message.
 

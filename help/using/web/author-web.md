@@ -1,5 +1,5 @@
 ---
-title: Création de pages web
+title: Créer des pages web
 description: Découvrez comment créer une page web et modifier son contenu dans Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Création de pages web {#author-web}
+# Créer des pages web {#author-web}
 
 >[!AVAILABILITY]
 >

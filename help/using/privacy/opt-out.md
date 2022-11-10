@@ -177,7 +177,7 @@ Une fois votre message envoyé via un [parcours](../building-journeys/journey.md
 >id="ajo_admin_preset_unsubscribe"
 >title="Ajout d’un lien de désabonnement à l’en-tête d’un e-mail"
 >abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’opt-out en un clic dans le contenu de l’e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Opt-out en un clic"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#one-click-opt-out" text="Opt-out en un clic"
 
 Si l’[option List-Unsubscribe](../configuration/channel-surfaces.md#list-unsubscribe) est activée au niveau des surfaces du canal, les e-mails correspondants envoyés avec [!DNL Journey Optimizer] incluent un lien de désabonnement dans l’en-tête de l’e-mail.
 

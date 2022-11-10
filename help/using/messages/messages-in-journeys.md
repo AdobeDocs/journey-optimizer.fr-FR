@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # Ajouter des messages dans les parcours{#messages-in-journeys}
 
@@ -93,7 +93,7 @@ Pour les notifications push, vous pouvez afficher les paramètres suivants : Je
 
 ![](assets/push-adv-parameters.png)
 
-Pour les emails, vous pouvez afficher la variable [Principale adresse électronique](../configuration/primary-email-addresses.md).
+Pour l’adresse e-mail, vous pouvez afficher [l’adresse e-mail principale](../configuration/primary-email-addresses.md).
 
 Dans des contextes spécifiques, vous pouvez remplacer ces valeurs pour une utilisation spécifique. Pour forcer une valeur, cliquez sur l’icône **[!UICONTROL Activer la substitution de paramètre]** à droite du champ.
 
@@ -101,12 +101,12 @@ Dans des contextes spécifiques, vous pouvez remplacer ces valeurs pour une util
 
 Par exemple, cette option peut être utile pour :
 
-* Testez un email. Vous pouvez ajouter votre adresse électronique ; une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
+* Test d’un e-mail. Vous pouvez ajouter votre adresse électronique ; une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
 * Se référer à l’adresse e-mail des abonnés d’une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 
 >[!NOTE]
 >
->Le remplacement de l’adresse électronique ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse électronique, car la valeur définie comme Principale adresse dans la variable **[!UICONTROL Champs d&#39;exécution]** est celui qui doit être utilisé. [En savoir plus](../configuration/primary-email-addresses.md)
+>Le remplacement de l’adresse électronique ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse électronique, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d&#39;exécution]** est celle qui doit être utilisée. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Parcourir les messages{#browse-message}
 

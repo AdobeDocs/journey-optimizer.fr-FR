@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -37,7 +38,7 @@ Grâce à une interface visuelle intuitive, cette fonctionnalité vous permet de
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Créer des expériences web</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Création de pages web</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Créer des pages web</a></p></td>
 <td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Rapports web</a></p></td>
 </tr>
 </table>
