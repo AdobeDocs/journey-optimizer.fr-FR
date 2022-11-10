@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 98%
+source-wordcount: '1505'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,12 @@ Cliquez sur les trois points en regard d’une page de destination pour sélecti
 >abstract="Pour créer une page de destination, vous devez sélectionner un paramètre prédéfini, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=fr#publish-landing-page" text="Publier la page de destination"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="Attribuer des libellés à votre landing page"
+>abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations afin de gérer l&#39;accès aux données de votre landing page à l&#39;aide de libellés."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Créer des paramètres prédéfinis de page de destination"
 
 Suivez les étapes de création dʼune page de destination décrites ci-après.
 
