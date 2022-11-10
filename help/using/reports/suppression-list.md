@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 97%
+source-wordcount: '767'
+ht-degree: 92%
 
 ---
 
 # Liste de suppression {#suppression-list}
 
-Une liste de suppression est constituée d&#39;adresses e-mail que vous souhaitez exclure de vos diffusions, car l&#39;envoi d&#39;e-mails à ces contacts pourrait nuire à votre réputation d&#39;envoi et à vos taux de diffusion.
+Une liste de suppression se compose d’adresses et de domaines que vous souhaitez exclure de vos diffusions, car l’envoi à ces contacts peut nuire à votre réputation d’envoi et à vos taux de diffusion.
 
 Le [!DNL Journey Optimizer] la liste de suppression est gérée au niveau de votre propre environnement, c’est-à-dire pour un environnement de test donné.
 
@@ -25,7 +25,7 @@ Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailin
 
 >[!NOTE]
 >
->Adobe tient à jour une liste des adresses e-mail erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
+>Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
 ## Pourquoi une liste de suppression ? {#why-suppression-list}
 
@@ -37,11 +37,11 @@ Les destinataires dont les adresses email sont supprimées sont automatiquement 
 
 ## Que contient la liste de suppression ? {#what-s-on-suppression-list}
 
-Les adresses email sont ajoutées à la liste de suppression comme suit :
+Les adresses sont ajoutées à la liste de suppression comme suit :
 
-* Tous les **hard bounces** et les **plaintes contre le spam** envoient automatiquement les adresses email correspondantes à la liste de suppression après une seule occurrence.
+* Tous les **hard bounces** et les **plaintes contre le spam** envoient automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence.
 
-* Les **soft bounces** n’envoient pas immédiatement l’adresse email à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs [reprises](../configuration/retries.md) sont alors effectuées, et lorsque le compteur d’erreurs atteint le seuil, l’adresse est ajoutée à la liste de suppression.
+* Les **soft bounces** n’envoient pas immédiatement l’adresse à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs [reprises](../configuration/retries.md) sont alors effectuées, et lorsque le compteur d’erreurs atteint le seuil, l’adresse est ajoutée à la liste de suppression.
 
 * Vous pouvez également ajouter [**manuellement** une adresse ou un domaine](../configuration/manage-suppression-list.md#add-addresses-and-domains) à la liste de suppression.
 

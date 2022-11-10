@@ -8,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -58,6 +58,6 @@ Découvrez comment utiliser les informations d’événement contextuelles d’u
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
+Découvrez comment ajouter une personnalisation basée sur un profil à un message et comment utiliser l’appartenance à un segment comme condition préalable à un bloc de personnalisation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
