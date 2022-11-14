@@ -5,7 +5,7 @@ title: Prise en main de Journey Optimizer pour l’ingénieur de données
 description: En tant qu’ingénieur de données, découvrez comment utiliser Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Les étapes de création d’un espace de noms d’identité et d’un jeu de do
 
 1. **Création d’un espace de noms d’identité**. Dans Adobe [!DNL Journey Optimizer], les **Identités** relient les consommateurs sur les différents appareils et canaux, on obtient ainsi un graphique d’identités. Le graphique d’identités lié est utilisé pour personnaliser les expériences en fonction des interactions entre tous les points de contact de votre entreprise.  En savoir plus sur les identités et les espaces de noms d’identité [dans cette page](../../segment/get-started-identity.md).
 
-1. **Créer un schéma** et l’activer pour les profils. Un schéma est un jeu de règles qui représente et valide la structure et le format des données. À un niveau élevé, les schémas fournissent une définition abstraite d’un objet du monde réel (une personne, par exemple) et indiquent les données à inclure dans chaque instance de cet objet (comme le prénom, le nom, l’anniversaire, etc.).  Pour en savoir plus sur les schémas, consultez [cette page](../get-started-schemas.md).
+1. **Créer un schéma** et l’activer pour les profils. Un schéma est un jeu de règles qui représente et valide la structure et le format des données. À un niveau élevé, les schémas fournissent une définition abstraite d’un objet du monde réel (une personne, par exemple) et indiquent les données à inclure dans chaque instance de cet objet (comme le prénom, le nom, l’anniversaire, etc.).  Pour en savoir plus sur les schémas, consultez [cette page](../../data/get-started-schemas.md).
 
 1. **Créer des jeux de données** et les activer pour les profils. Un jeu de données est une structure de stockage et de gestion pour une collection de données, généralement sous la forme d’un tableau, qui contient un schéma (des colonnes) et des champs (des lignes). Les jeux de données contiennent également des métadonnées qui décrivent divers aspects des données stockées. Une fois qu’un jeu de données est créé, vous pouvez le mapper à un schéma existant et y ajouter des données. Pour en savoir plus sur les jeux de données, consultez [cette page](../get-started-datasets.md).
 

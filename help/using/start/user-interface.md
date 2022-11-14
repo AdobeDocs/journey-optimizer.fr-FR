@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
@@ -62,11 +62,11 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL GESTION DES DONNÉES]**
 
-* **[!UICONTROL Schémas]** - Utilisez Adobe Experience Platform pour créer et gérer des schémas de modèle de données d’expérience (XDM) dans une zone de travail visuelle interactive appelé Éditeur de schéma. [En savoir plus](get-started-schemas.md)
+* **[!UICONTROL Schémas]** - Utilisez Adobe Experience Platform pour créer et gérer des schémas de modèle de données d’expérience (XDM) dans une zone de travail visuelle interactive appelé Éditeur de schéma. [En savoir plus](../data/get-started-schemas.md)
 
-* **[!UICONTROL Jeux de données]** - Toutes les données correctement ingérées par Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour la collecte de données, généralement sous la forme d&#39;un tableau, qui contient un schéma (des colonnes) et des champs (des lignes). [En savoir plus](get-started-datasets.md)
+* **[!UICONTROL Jeux de données]** - Toutes les données correctement ingérées par Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour la collecte de données, généralement sous la forme d&#39;un tableau, qui contient un schéma (des colonnes) et des champs (des lignes). [En savoir plus](../data/get-started-datasets.md)
 
-* **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus](get-started-queries.md)
+* **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus](../data/get-started-queries.md)
 
 * **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target=&quot;_blank&quot;}
 
