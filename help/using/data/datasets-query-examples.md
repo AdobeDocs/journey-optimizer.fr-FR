@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 82%
@@ -19,14 +19,14 @@ ht-degree: 82%
 
 Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Optimizer et des cas d’utilisation associés :
 
-[Jeu de données d’événement d’expérience de tracking e-mail](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Jeu de données d’événement de retour de message](../data/datasets-query-examples.md#message-feedback-event-dataset)
-[Jeu de données d’événement d’expérience de tracking de notifications Push](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Événement d’étape de parcours](../data/datasets-query-examples.md#journey-step-event)
-[Jeu de données d’événement Decisioning](../data/datasets-query-examples.md#ode-decisionevents)
-[Jeu de données du service de consentement](../data/datasets-query-examples.md#consent-service-dataset)
-[Jeu de données d’événement de retour en Cci](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Jeu de données d’entité](../data/datasets-query-examples.md#entity-dataset)
+[Jeu de données d’événement d’expérience de tracking e-mail](#email-tracking-experience-event-dataset)
+[Jeu de données d’événement de retour de message](#message-feedback-event-dataset)
+[Jeu de données d’événement d’expérience de tracking de notifications Push](#push-tracking-experience-event-dataset)
+[Événement d’étape de parcours](#journey-step-event)
+[Jeu de données d’événement Decisioning](#ode-decisionevents)
+[Jeu de données du service de consentement](#consent-service-dataset)
+[Jeu de données d’événement de retour en Cci](#bcc-feedback-event-dataset)
+[Jeu de données d’entité](#entity-dataset)
 
 ## Jeu de données d’événement d’expérience de tracking e-mail{#email-tracking-experience-event-dataset}
 
