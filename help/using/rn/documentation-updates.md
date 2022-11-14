@@ -4,7 +4,7 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Ajout d’un cas d’utilisation de parcours sur la manière de limiter le débit à l’aide de sources de données externes et d’actions personnalisées. [En savoir plus](../building-journeys/limit-throughput.md)
 * La section Cas d’utilisation de parcours a été réorganisée en deux catégories : [Cas d’utilisation commerciale](../building-journeys/journeys-uc.md) et [Cas d’utilisation technique](../building-journeys/collections.md).
-* La section **Jeu de données d’entité** a été mise à jour avec plus de détails. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
+* La section **Jeu de données d’entité** a été mise à jour avec plus de détails. [En savoir plus](../data/datasets-query-examples.md#entity-dataset)
 * Les informations relatives à la gestion des désinscriptions et aux politiques de consentement ont été réorganisées en une nouvelle section. [En savoir plus](../privacy/opt-out.md)
 * La section sur les paramètres avancés des messages de parcours a été clarifiée et précise désormais que le remplacement des adresses e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, la valeur définie comme adresse principale dans les **Champs d’exécution** est celle qui doit être utilisée. [En savoir plus](../messages/messages-in-journeys.md#adv-settings)
 * Ajout d’une note à la section **Configuration des sous-domaines de page de destination** pour indiquer que les majuscules ne sont pas autorisées dans les sous-domaines de la page de destination. [En savoir plus](../configuration/lp-subdomains.md)
@@ -31,7 +31,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’exemples de requête d’événement d’étape, ainsi que d’informations sur la différence entre id, instanceid et profileid. [En savoir plus](../reports/query-examples.md).
 * Mise à jour des pages relatives aux fonctions [toDateOnly](../building-journeys/functions/functiontodateonly.md) et [toString](../building-journeys/functions/functiontostring.md).
 * Ajout de détails sur les paramètres de condition de temps. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
-* Ajout d’informations sur les jeux de données intégrés. [En savoir plus](../start/get-started-datasets.md#access-datasets)
+* Ajout d’informations sur les jeux de données intégrés. [En savoir plus](../data/get-started-datasets.md#access-datasets)
 * Les sections Rapport global et Rapport dynamique ont été réorganisées pour une meilleure lisibilité. [En savoir plus](../reports/global-report.md)
 * Une liste de toutes les mesures de création de rapports disponibles dans Adobe Journey Optimizer a été ajoutée.
    [En savoir plus](../reports/global-report.md#email-and-sms-metrics)
@@ -65,7 +65,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Une nouvelle section sur la façon d’ajouter du contenu HTML ou JSON, provenant de la bibliothèque de ressources Adobe Experience Cloud, à un rendu d’offre a été ajoutée à la documentation. [En savoir plus](../offers/offer-library/add-representations.md#html-json)
 * Ajout d’une nouvelle page sur le cycle de vie des parcours. [En savoir plus](../building-journeys/journey.md#journey-versions)
 * Mise à jour de la page Activité d’attente. [En savoir plus](../building-journeys/wait-activity.md)
-* Ajout de la liste des jeux de données Adobe Journey Optimizer avec des exemples de requête. [En savoir plus](../start/datasets-query-examples.md)
+* Ajout de la liste des jeux de données Adobe Journey Optimizer avec des exemples de requête. [En savoir plus](../data/datasets-query-examples.md)
 * La page Liste autorisée a été déplacée vers la section Configuration. [En savoir plus](../configuration/allow-list.md)
 * La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
 * Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions. [En savoir plus](../start/guardrails.md)
@@ -90,7 +90,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Toutes les nouvelles fonctionnalités et améliorations de la version d’avril 2022 de [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * La page de documentation sur les événements de **réaction** a été mise à jour. [En savoir plus](../building-journeys/reaction-events.md)
 * Les vidéos relatives aux fonctionnalités de gestion des décisions ont été mises à jour pour refléter l’interface utilisateur de Journey Optimizer. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
-* La section **Prise en main des jeux de données** a été améliorée afin d’expliquer en détail comment accéder aux jeux de données et les créer. [En savoir plus](../start/get-started-datasets.md)
+* La section **Prise en main des jeux de données** a été améliorée afin d’expliquer en détail comment accéder aux jeux de données et les créer. [En savoir plus](../data/get-started-datasets.md)
 * Des liens vers les guides d’aide et les notes de mise à jour du produit ont été ajoutés à la page d’accueil de la **Documentation d’Adobe Journey Optimizer**. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
 * La section **Créer des paramètres prédéfinis de messages** indique désormais que vous ne pouvez pas procéder à la création de paramètres prédéfinis tant que le groupe d’adresses IP sélectionné est en cours d’édition (statut de **[!UICONTROL traitement]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * La section **Suivi des URL** des paramètres prédéfinis de messages a été mise à jour pour refléter des changements mineurs dans l’interface utilisateur. [En savoir plus](../configuration/channel-surfaces.md#url-tracking)

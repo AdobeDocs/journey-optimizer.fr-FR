@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
@@ -165,7 +165,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* Le **jeu de données d’entité** est désormais disponible en tant que jeu de données prêt à l’emploi dans Adobe Journey Optimizer. Ce jeu de données de recherche comprend des métadonnées pour enrichir les informations des jeux de données de tracking et de commentaires. Vous pourrez ainsi améliorer vos rapports et requêtes avec des données plus compréhensibles. [En savoir plus](../start/datasets-query-examples.md#entity-dataset)
+* Le **jeu de données d’entité** est désormais disponible en tant que jeu de données prêt à l’emploi dans Adobe Journey Optimizer. Ce jeu de données de recherche comprend des métadonnées pour enrichir les informations des jeux de données de tracking et de commentaires. Vous pourrez ainsi améliorer vos rapports et requêtes avec des données plus compréhensibles. [En savoir plus](../data/datasets-query-examples.md#entity-dataset)
 * Une nouvelle barrière de sécurité a été ajoutée aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
 
 **Administration**
