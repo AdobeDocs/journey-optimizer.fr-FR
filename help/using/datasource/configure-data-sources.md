@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 95%
 
 ---
 
-# Configuration d&#39;une source de données {#configure-data-source}
+# Configuration d’une source de données {#configure-data-source}
 
-Les principales étapes de configuration d’une source de données sont les suivantes :
 
 >[!NOTE]
 >
 >La configuration d’une source de données est toujours effectuée par un **utilisateur technique**.
+
+Pour configurer une source de données, procédez comme suit :
 
 1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**. La liste des sources de données s’affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 
@@ -51,7 +52,7 @@ Le nombre de parcours qui font appel à un groupe de champs est affiché dans le
 
 >[!NOTE]
 >
->Notez que si un groupe ne contient aucun champ, il ne s’affiche pas dans l’éditeur d’expression.
+>Notez que si un groupe de champs ne comporte pas de champ, il ne s’affiche pas dans l’éditeur d’expression.
 
 ![](assets/journey3bis.png)
 

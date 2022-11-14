@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 60%
+ht-degree: 63%
 
 ---
 
@@ -52,17 +52,17 @@ En tant qu’ingénieur en données, les étapes de configuration de vos parcour
 
 Découvrez comment créer des parcours dans les cas d’utilisation de bout en bout suivants.
 
-Cas pratiques professionnels :
+Cas d’utilisation commerciale:
 
 * [Envoi de messages multi-canal](journeys-uc.md)
-* [Envoi de messages à l’aide de Campaign v7/v8](campaign-classic-use-case.md)
+* [Envoi de messages à l’aide de Campaign v7/v8](ajo-ac.md)
 * [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
 
-Cas pratiques techniques :
+Cas d’utilisation technique:
 
-* [Transmission dynamique des collections à l’aide d’actions personnalisées](collections.md)
-* [Accélération des diffusions](ramp-up-deliveries-uc.md)
-* [Limitation du débit avec les sources de données externes et les actions personnalisées](limit-throughput.md)
+* [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](collections.md)
+* [Accélérer les diffusions](ramp-up-deliveries-uc.md)
+* [Limiter le débit avec les sources de données externes et les actions personnalisées](limit-throughput.md)
 
 ## Versions de parcours{#journey-versions}
 
