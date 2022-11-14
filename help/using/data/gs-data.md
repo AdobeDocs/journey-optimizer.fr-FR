@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -34,7 +34,10 @@ Dans l’ensemble, la flexibilité que vous souhaitez obtenir de vos données se
     <br>
   </td>
   <td>
-    <div>Disponible dans d’autres destinations : bien que Journey Optimizer optimise et intègre les données pour offrir une expérience client hyper-personnalisée, vous souhaitez que ces données soient contenues dans d’autres systèmes de votre paysage technologique global, tout en recherchant d’autres moyens d’exploiter ces données. <a href="../start/ajo-integrations.md">En savoir plus</a>&lt;</div>
+    <div>Disponible dans d’autres destinations : bien que Journey Optimizer optimise et intègre les données pour offrir une expérience client hyper-personnalisée, vous souhaitez que ces données soient contenues dans d’autres systèmes de votre paysage technologique global, tout en recherchant d’autres moyens d’exploiter ces données.
+    <div>
+     <a href="../start/ajo-integrations.md">En savoir plus</a></div>
+    </div>
     <br>
   </td>
 </tr>
