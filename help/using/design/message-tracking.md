@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 91%
 
 ---
 
@@ -89,9 +89,9 @@ Pour ajouter un lien vers une page miroir dans votre e-mail, [insérez un lien](
 
 La page miroir est automatiquement créée.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Vous ne pouvez pas modifier le lien généré automatiquement.
+>Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées chiffrées requises pour générer l’email d’origine. Par conséquent, l’utilisation d’attributs personnalisés avec des valeurs élevées peut générer de longues URL de pages miroir, ce qui peut empêcher le fonctionnement du lien dans les navigateurs web dont la longueur est maximale.
 
 Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l’email s&#39;affiche dans leur navigateur web par défaut.
 
