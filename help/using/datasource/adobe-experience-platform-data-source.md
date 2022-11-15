@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '422'
+ht-degree: 78%
 
 ---
 
@@ -20,17 +20,19 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Source de données Adobe Experience Platform"
->abstract="La source de données Adobe Experience Platform définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience."
+>abstract="La source de données Adobe Experience Platform définit la connexion à Adobe Real-time Customer Profile. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Il est conçu pour récupérer et utiliser les données du service de profil client en temps réel (par exemple, vérifier si la personne qui a participé à un parcours est une femme). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience."
 
-La source de données Adobe Experience Platform définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée et préconfigurée. Elle ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience. Pour plus d’informations sur le service de profil client en temps réel, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
+La source de données Adobe Experience Platform définit la connexion à Adobe Real-time Customer Profile. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience. Pour plus d’informations sur Adobe Real-time Customer Profile, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}.
+
+
+Pour autoriser la connexion au service de profil client en temps réel, nous devons utiliser une clé afin d’identifier une personne, ainsi qu’un espace de noms qui contextualise la clé. Par conséquent, vous ne pouvez utiliser cette source de données que si vos parcours commencent par un événement contenant une clé et un espace de noms. [En savoir plus](../building-journeys/journey.md).
+
+Vous pouvez modifier le groupe de champs préconfiguré nommé « ProfileFieldGroup », en ajouter de nouveaux et supprimer ceux qui ne sont pas utilisés dans les parcours actifs ou dans un état de brouillon. [En savoir plus](../datasource/configure-data-sources.md#define-field-groups).
+
 
 >[!NOTE]
 >
 >Vous pouvez récupérer les 1 000 derniers événements d’expérience créés il y a moins d’un an.
-
-Pour autoriser la connexion au service de profil client en temps réel, nous devons utiliser une clé afin d’identifier une personne, ainsi qu’un espace de noms qui contextualise la clé. Par conséquent, vous ne pouvez utiliser cette source de données que si vos parcours commencent par un événement contenant une clé et un espace de noms. Voir [cette page](../building-journeys/journey.md).
-
-Vous pouvez modifier le groupe de champs préconfiguré nommé « ProfileFieldGroup », en ajouter de nouveaux et supprimer ceux qui ne sont pas utilisés dans les parcours actifs ou dans un état de brouillon. Voir [cette page](../datasource/configure-data-sources.md#define-field-groups).
 
 Les principales étapes nécessaires pour ajouter des groupes de champs à la source de données intégrée sont les suivantes :
 
@@ -40,7 +42,7 @@ Les principales étapes nécessaires pour ajouter des groupes de champs à la so
 
    ![](assets/journey23.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter un nouveau groupe de champs]** pour définir une nouvelle série de champs à récupérer. Voir [cette page](../datasource/configure-data-sources.md#define-field-groups).
+1. Cliquez sur **[!UICONTROL Ajouter un nouveau groupe de champs]** pour définir une nouvelle série de champs à récupérer. [En savoir plus](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](assets/journey24.png)
 
