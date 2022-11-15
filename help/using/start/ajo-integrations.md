@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 12ae84646e69870564406066e102c540ac920df7
+source-git-commit: 6c322a979ec4918228162799453b144765d69b28
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '516'
 ht-degree: 33%
 
 ---
@@ -24,9 +24,8 @@ Avec Adobe Journey Optimizer, vous pouvez facilement gérer, conserver et export
 >
 > Basé sur Adobe Experience Platform, Adobe Journey Optimizer est nativement connecté à [Profil client en temps réel Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}. Cette source de données intégrée est préconfigurée et est conçue pour récupérer et utiliser les données de Real-time Customer Profile (par exemple, vérifier si la personne qui a entré un parcours est un client ou non). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience. [En savoir plus](../datasource/adobe-experience-platform-data-source.md).
 
-## Création de rapports{#integration-reporting}
 
-### Adobe Customer Journey Analytics{#integration-cja}
+## Adobe Customer Journey Analytics{#integration-cja}
 
 Vous pouvez exporter les données générées par Journey Optimizer afin d’effectuer une analyse avancée dans Customer Journey Analytics.
 
@@ -36,7 +35,7 @@ Après avoir créé votre parcours dans Journey Optimizer, vous pouvez importer 
 
 En savoir plus sur [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md).
 
-### Adobe Analytics{#integration-aa}
+## Adobe Analytics{#integration-aa}
 
 Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Adobe Experience Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
 
@@ -46,11 +45,8 @@ En savoir plus sur [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 L’intégration à Adobe Intelligent Services vous permet d’exploiter la puissance de l’intelligence artificielle et de l’apprentissage automatique dans les cas d’utilisation de l’expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’expertise en sciences des données. [En savoir plus](../building-journeys/ai-services-overview.md).
 
-## Envoi des messages {#integration-messages}
 
-Vous pouvez utiliser un système tiers pour envoyer des messages.
-
-### Adobe Campaign{#integration-ac}
+## Adobe Campaign{#integration-ac}
 
 Une intégration est disponible si vous disposez d&#39;Adobe Campaign v7 ou v8. Utilisez cette intégration pour envoyer des emails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle Adobe Campaign.
 
@@ -60,7 +56,7 @@ Vous pouvez également configurer une intégration avec Adobe Campaign Standard 
 
 En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journeys/ajo-ac.md).
 
-### Canaux personnalisés{#integration-custom}
+## Canaux personnalisés{#integration-custom}
 
 Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc.
 
