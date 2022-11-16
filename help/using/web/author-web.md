@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '916'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,11 @@ Pour accéder à des pages web et les créer dans le [!DNL Journey Optimizer] , 
 
 Une fois que vous avez créé une action web à partir de la campagne, vous pouvez éditer votre contenu à l&#39;aide du concepteur web. Procédez comme suit.
 
-1. Dans la **[!UICONTROL Action]** de l&#39;opération, sélectionnez **[!UICONTROL Modifier le contenu]** pour commencer à créer votre campagne web. [En savoir plus](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>Pour y accéder : [!DNL Journey Optimizer], votre page web doit être implémentée à l’aide de la fonction [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
+
+1. Dans la **[!UICONTROL Action]** de l&#39;opération, sélectionnez **[!UICONTROL Modifier le contenu]** pour commencer à créer votre campagne web.
 
 1. Si vous avez créé une règle de correspondance de pages, vous devez saisir toute URL correspondant à cette règle. Les modifications seront appliquées à toutes les pages correspondant à la règle.
 
@@ -43,7 +47,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    >[!CAUTION]
    >
-   >Pour être accessible, la page web doit être mise en oeuvre à l’aide de la fonction [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
+   >La page web doit inclure la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Concepteur web d’ouverture]** pour la modifier. [En savoir plus](author-web.md)
 
