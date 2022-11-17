@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 34%
+source-wordcount: '558'
+ht-degree: 32%
 
 ---
 
@@ -24,12 +24,11 @@ Avec Adobe Journey Optimizer, vous pouvez facilement gérer, conserver et export
 >
 > Basé sur Adobe Experience Platform, Adobe Journey Optimizer est nativement connecté à [Profil client en temps réel Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}. Cette source de données intégrée est préconfigurée et est conçue pour récupérer et utiliser les données de Real-time Customer Profile (par exemple, vérifier si la personne qui a entré un parcours est un client ou non). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience. [En savoir plus](../datasource/adobe-experience-platform-data-source.md).
 
-
 ## Adobe Customer Journey Analytics{#integration-cja}
 
 Vous pouvez exporter les données générées par Journey Optimizer afin d’effectuer une analyse avancée dans Customer Journey Analytics.
 
-L’intégration de Journey Optimizer avec Customer Journey Analytics offre une vue d’ensemble de tous vos parcours avec la distribution de rapports automatisée et des visualisations personnalisées des données.
+L’intégration de Journey Optimizer avec Customer Journey Analytics offre une vue d’ensemble de tous vos parcours, campagnes et offres, avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
 Après avoir créé votre parcours dans Journey Optimizer, vous pouvez importer vos données client dans Customer Journey Analytics afin de lancer des rapports et de comprendre l’impact de chaque interaction d’un client avec vos parcours.
 
@@ -37,13 +36,13 @@ En savoir plus sur [Journey Optimizer + Customer Journey Analytics](../reports/c
 
 ## Adobe Analytics{#integration-aa}
 
-Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Adobe Experience Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
+Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Adobe Experience Platform afin de déclencher des parcours en temps réel et d’automatiser les expériences de vos clients.
 
 En savoir plus sur [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-L’intégration à Adobe Intelligent Services vous permet d’exploiter la puissance de l’intelligence artificielle et de l’apprentissage automatique dans les cas d’utilisation de l’expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’expertise en sciences des données. [En savoir plus](../building-journeys/ai-services-overview.md).
+L’intégration à Adobe Intelligent Services vous permet d’exploiter la puissance de l’intelligence artificielle et de l’apprentissage automatique dans les cas d’utilisation de l’expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’expertise en sciences des données. Par exemple, Adobe Intelligent Services permet aux marques de créer des scores basés sur l’apprentissage automatique d’attrition ou de conversion qui seront disponibles en tant qu’attributs de profil dans Adobe Experience Platform et qui peuvent être utilisés pour personnaliser un parcours. [En savoir plus](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign{#integration-ac}
@@ -64,7 +63,7 @@ Les actions personnalisées sont des actions supplémentaires définies par les 
 
 En savoir plus sur [actions personnalisées](../action/about-custom-action-configuration.md).
 
-## Systèmes externes{#integration-external-systems}
+## Sources de données externes{#integration-external-systems}
 
 Journey Optimizer vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d&#39;actions personnalisées. Cela vous permet, par exemple, d’enrichir vos parcours de données provenant d’un système de réservation externe.
 
