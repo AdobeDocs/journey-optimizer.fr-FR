@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Créez un événement dont le schéma inclut le tableau `productListItems`.
 1. Définissez tous les champs de ce tableau comme champs de payload pour cet événement.
 
-   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target="_blank"}.
+   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Créez un parcours commençant par cet événement.
 1. Ajoutez une activité **E-mail** au parcours.
@@ -62,6 +62,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 ## Étape 2 : créer l’e-mail{#configure-email}
 
 1. Dans l’activité **E-mail**, cliquez sur **[!UICONTROL Modifier le contenu]**, puis cliquez sur **[!UICONTROL Concepteur d’e-mail]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Dans la palette gauche de la page d&#39;accueil du Concepteur d&#39;email, effectuez un glisser-déposer de trois composants de structure dans le corps du message.
@@ -104,11 +105,12 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
+      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. Enregistrez le message.
 
 ## Étape 4 : insérer la liste des articles du panier {#each-helper}
@@ -151,7 +153,6 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-
       Dans cet exemple, *event_ID* représente l’identifiant de votre événement.
 
       ![](assets/personalization-uc-helpers-10.png)
@@ -165,6 +166,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
 
 1. Collez ce code entre la balise `{{#each}}` d’ouverture et la balise `{/each}}` de fermeture :
 
@@ -186,6 +188,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
    1. À partir des résultats de recherche précédents, ajoutez le jeton **[!UICONTROL Nom]** à l’expression.
 
    Répétez deux fois ces étapes :
+
    * Remplacez l’espace réservé « #quantity » par le jeton **[!UICONTROL Quantité]**.
    * Remplacez l’espace réservé « #priceTotal » par le jeton **[!UICONTROL Prix total]**.
 
@@ -206,6 +209,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
    ```
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Étape 5 : insérer une note spécifique au produit {#if-helper}
