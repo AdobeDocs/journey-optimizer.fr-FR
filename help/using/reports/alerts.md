@@ -11,7 +11,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**. Une al
 
 ![](assets/alerts1.png)
 
-Si un tel comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés de l’alerte par courrier électronique, dans le coin supérieur droit de l’interface.
+Si un tel comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés de l’alerte par e-mail, dans le coin supérieur droit de l’interface.
 
 ![](assets/alerts2.png)
 

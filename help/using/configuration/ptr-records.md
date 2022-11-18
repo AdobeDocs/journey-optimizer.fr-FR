@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '755'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez modifier un enregistrement PTR pour modifier le sous-domaine associ�
 
 >[!CAUTION]
 >
->Les enregistrements PTR sont communs à tous les environnements. Par conséquent, toute modification apportée à un enregistrement PTR aura également un impact sur les environnements de test de production.
+>Les enregistrements PTR sont communs à tous les environnements. Par conséquent, toute modification apportée à un enregistrement PTR aura également un impact sur les sandbox de production.
 >
 >Procédez avec une attention particulière lors de la modification des enregistrements PTR. En cas de doute, contactez un expert en délivrabilité.
 

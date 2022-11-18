@@ -11,7 +11,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](assets/read-segment-schedule-list.png)
 
-   Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment rejoignent le parcours. Cette option vous permet de cibler, après la première occurrence, uniquement les individus entrés dans le segment depuis la dernière exécution du parcours.
+   Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment rejoignent le parcours. Cette option vous permet de cibler, après la première occurrence, seulement les individus qui sont entrés dans le segment depuis la dernière exécution du parcours.
 
-   **Force une réentrée sur une période récurrente**: cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Par exemple, si vous avez 2 jours d’attente dans un parcours récurrent quotidien, en activant cette option, les profils seront toujours déplacés lors de l’exécution du parcours suivant (donc le jour suivant), qu’ils se trouvent dans l’audience suivante ou non. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité, n’activez pas cette option pour vous assurer que les profils peuvent terminer leur parcours.
+   **Forcer une reprise sur une périodicité** : cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Par exemple, si vous avez un délai d’attente de 2 jours dans un parcours récurrent quotidien, l’activation de cette option déplacera toujours les profils lors de la prochaine exécution du parcours (c’est-à-dire le lendemain), qu’ils se trouvent ou non dans l’audience d’exécution suivante. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité, n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
 
 <!--
 

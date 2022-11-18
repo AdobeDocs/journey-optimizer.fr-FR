@@ -24,7 +24,7 @@ Chaque fonction renvoie une valeur de type spécifique.
 
 Voici la liste des fonctions prises en charge :
 
-## Principales fonctions
+## Fonctions principales
 
 | Catégorie | Fonction |
 |-------------|-----------------------|

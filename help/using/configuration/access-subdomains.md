@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La colonne **[!UICONTROL Statut]** fournit des informations sur le processus de 
 * **[!UICONTROL Succès]** : le sous-domaine a passé les contrôles avec succès et peut être utilisé pour diffuser des messages,
 * **[!UICONTROL Échec]** : un ou plusieurs contrôles ont échoué après l&#39;envoi de la délégation de sous-domaine.
 
-Pour accéder à des informations détaillées sur un sous-domaine avec la variable **[!UICONTROL Succès]** , ouvrez-le dans la liste.
+Pour accéder à des informations détaillées sur un sous-domaine avec le statut **[!UICONTROL Succès]**, ouvrez-le depuis la liste.
 
 ![](assets/subdomain-delegated.png)
 
@@ -41,4 +41,4 @@ Vous pouvez :
 
 >[!CAUTION]
 >
->La configuration de sous-domaine est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les environnements de test de production.
+>La configuration de sous-domaines est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les environnements de sandbox.

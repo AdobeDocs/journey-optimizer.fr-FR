@@ -1,6 +1,6 @@
 ---
 title: Rapport web
-description: Découvrez comment utiliser les données du rapport web
+description: Découvrez comment utiliser les données du rapport web.
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,19 +11,19 @@ exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # Rapport web {#web-report}
 
-Le rapport Web est disponible dans le rapport Campagne .
+Le rapport web est disponible dans le rapport de campagne.
 
 >[!NOTE]
 >
->La fonctionnalité de canal web est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs.
+>La fonctionnalité de canal web est actuellement disponible en version bêta pour certains utilisateurs uniquement.
 
-La page Rapport   de la campagne s&#39;affiche avec les onglets suivants :
+La page Rapport de campagne s’affiche avec les onglets suivants :
 
 * [Campagne](../reports/campaign-global-report.md#campaign-live)
 * [E-mail](../reports/campaign-global-report.md#email-live)
@@ -39,10 +39,10 @@ Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journe
 
 ![](assets/web-report.png)
 
-Le **[!UICONTROL Performances web]** Les indicateurs de performance clés détaillent les informations principales relatives à l’engagement de vos visiteurs avec vos expériences web, telles que :
+Les KPI de **[!UICONTROL Performances web]** détaillent les informations principales relatives à l’engagement de vos visiteurs avec vos expériences web, telles que :
 
-* **[!UICONTROL Impressions uniques]**: nombre d’utilisateurs uniques auxquels l’expérience web a été diffusée.
+* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels l’expérience web a été diffusée.
 
-* **[!UICONTROL Impressions]**: nombre total d’expériences web diffusées à tous les utilisateurs.
+* **[!UICONTROL Impressions]** : nombre total d’expériences web diffusées à tous les utilisateurs.
 
-Le **[!UICONTROL Résumé web]** Le graphique montre l’évolution de vos expériences web (impressions et impressions uniques) pour la période concernée.
+Le graphique **[!UICONTROL Résumé web]** présente l’évolution de vos expériences web (impressions et impressions uniques) pour la période concernée.

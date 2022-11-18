@@ -101,12 +101,12 @@ Dans des contextes spécifiques, vous pouvez remplacer ces valeurs pour une util
 
 Par exemple, cette option peut être utile pour :
 
-* Test d’un e-mail. Vous pouvez ajouter votre adresse électronique ; une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
+* Test d’un e-mail. Vous pouvez ajouter votre adresse e-mail ; une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
 * Se référer à l’adresse e-mail des abonnés d’une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 
 >[!NOTE]
 >
->Le remplacement de l’adresse électronique ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse électronique, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d&#39;exécution]** est celle qui doit être utilisée. [En savoir plus](../configuration/primary-email-addresses.md)
+>Le remplacement de l’adresse e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse e-mail, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d&#39;exécution]** est celle qui doit être utilisée. [En savoir plus](../configuration/primary-email-addresses.md)
 
 ## Parcourir les messages{#browse-message}
 

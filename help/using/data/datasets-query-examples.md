@@ -11,7 +11,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -314,17 +314,17 @@ Jeu de données permettant de stocker les métadonnées des entités pour les me
 
 Le schéma associé est le schéma d’entité AJO.
 
-Ce jeu de données vous donne accès aux métadonnées définies par le marketeur, ce qui vous permet d’obtenir de meilleures informations sur les rapports lorsque des jeux de données Journey Optimizer sont exportés pour la visualisation de rapports dans des outils externes. Pour ce faire, utilisez l’attribut messageID qui permet de regrouper divers jeux de données tels que le jeu de données de retour des messages et les jeux de données de suivi des événements d’expérience afin d’obtenir les détails d’une diffusion de message d’envoi au suivi au niveau du profil.
+Ce jeu de données vous donne accès aux métadonnées définies par le spécialiste du marketing, ce qui vous permet d’obtenir de meilleures informations sur les rapports lorsque des jeux de données Journey Optimizer sont exportés pour la visualisation de rapports dans des outils externes. L’attribut messageID permet de regrouper divers jeux de données, tels que les jeux de données de commentaires sur les messages et les jeux de données de suivi des événements d’expérience, pour obtenir des détails sur la diffusion d’un message, de l’envoi au suivi, au niveau d’un profil.
 
 **Remarques importantes**
 
 * Une entrée pour un message n’est créée qu’après la publication d’un parcours ou d’une campagne.
 
-* L&#39;entrée peut s&#39;afficher 30 minutes après la publication de l&#39;opération/du parcours.
+* L&#39;entrée s’affichera 30 minutes après la publication de la campagne ou du parcours.
 
 >[!NOTE]
 >
->Pour l’instant, il y a deux entrées pour chaque publication de messages dans le jeu de données d’entité pour des raisons de compatibilité futures. Cela n’a aucune incidence sur votre capacité à utiliser des requêtes de jointure selon les besoins dans les jeux de données pour récupérer les informations souhaitées.
+>Pour l’instant, il y a deux entrées pour chaque publication de message dans le jeu de données d’entités pour des raisons de compatibilité future. Cela n’a aucune incidence sur votre capacité à utiliser des requêtes de jointure selon les besoins dans les jeux de données pour récupérer les informations souhaitées.
 
 La requête suivante permet d’obtenir le modèle de message associé à une campagne donnée :
 

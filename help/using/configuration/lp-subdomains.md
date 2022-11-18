@@ -9,7 +9,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer
 
 >[!CAUTION]
 >
->La configuration des sous-domaines de la landing page est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine de page d’entrée aura également un impact sur les environnements de test de production.
+>La configuration des sous-domaines de la page de destination est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine de page de destination aura également un impact sur les sandbox de production.
 
-Notez que les majuscules ne doivent pas être autorisées dans un sous-domaine.
+Veuillez noter que les majuscules ne doivent pas être autorisées dans un sous-domaine.
 
 ## Utiliser un sous-domaine existant {#lp-use-existing-subdomain}
 

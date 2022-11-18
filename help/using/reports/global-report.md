@@ -306,7 +306,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </table>
 -->
 
-### Mesures des notifications push  
+### Mesures des notifications push
 
 <table> 
  <thead> 
@@ -433,7 +433,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push  
+### Mesures des notifications push
 
 <table> 
  <thead> 

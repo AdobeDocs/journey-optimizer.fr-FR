@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Liste autorisée
-description: Découvrez comment utiliser la liste autorisée
+description: Découvrez comment utiliser la liste autorisée.
 feature: Deliverability
 topic: Content Management
 role: User

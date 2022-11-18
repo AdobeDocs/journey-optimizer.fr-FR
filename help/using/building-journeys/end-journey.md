@@ -6,13 +6,13 @@ description: Découvrez comment un parcours se termine dans Journey Optimizer
 feature: Journeys
 role: User
 level: Beginner
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 98%
 
 ---
-
 
 # Fin d’un parcours{#journey-ending}
 
@@ -90,4 +90,3 @@ Vous pouvez également réaliser les opérations suivantes :
 1. En haut à droite, cliquez sur la flèche vers le bas.
    ![](assets/finish_drop_down_list.png)
 1. Cliquez sur **[!UICONTROL Arrêter]** et confirmez dans la boîte de dialogue.
-

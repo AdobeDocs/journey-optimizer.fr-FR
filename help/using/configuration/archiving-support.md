@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en charge de l’archivage dans Journey Optimizer
-description: Découvrez comment archiver des messages
+description: Découvrez comment archiver des messages.
 feature: Application Settings
 topic: Administration
 role: Admin

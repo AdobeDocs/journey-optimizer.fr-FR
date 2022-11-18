@@ -11,7 +11,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 70%
 
 Une fois qu’une campagne a été activée, vous pouvez la modifier ou l’arrêter à tout moment. Ces opérations sont disponibles pour les campagnes dont l’exécution est récurrente uniquement.
 
-De plus, vous pouvez dupliquer des campagnes actives (exécutées une fois ou avec une exécution récurrente) pour en créer de nouvelles et archiver les campagnes terminées ou arrêtées.
+De plus, vous pouvez dupliquer des campagnes dynamiques (exécutées une fois ou de manière récurrente) pour en créer de nouvelles et archiver les campagnes terminées ou arrêtées.
 
 ## Modifier une campagne récurrente {#modify}
 
@@ -59,12 +59,12 @@ Vous pouvez dupliquer une campagne active pour en créer une nouvelle. Pour ce f
 
 ![](assets/create-campaign-duplicate.png)
 
-## Archivage d’une campagne {#archive}
+## Archiver une campagne {#archive}
 
 Avec le temps, la liste des campagnes ne cesse d’augmenter et il devient plus difficile de parcourir les campagnes terminées et arrêtées.
 
-Pour éviter cela, vous pouvez archiver les campagnes terminées et arrêtées dont vous n’avez plus besoin. Pour cela, cliquez sur le bouton représentant des ellipses, puis sélectionnez **[!UICONTROL Archiver]**.
+Pour éviter cela, vous pouvez archiver les campagnes terminées et arrêtées dont vous n’avez plus besoin. Pour ce faire, cliquez sur le bouton représentant des points de suspension, puis sélectionnez **[!UICONTROL Archiver]**.
 
 ![](assets/create-campaign-archive.png)
 
-Les campagnes archivées peuvent ensuite être récupérées à l’aide du filtre dédié dans la liste. [Découvrez comment accéder aux campagnes](get-started-with-campaigns.md#access)
+Les campagnes archivées peuvent ensuite être récupérées à l’aide du filtre dédié dans la liste. [Découvrez comment accéder à des campagnes](get-started-with-campaigns.md#access)

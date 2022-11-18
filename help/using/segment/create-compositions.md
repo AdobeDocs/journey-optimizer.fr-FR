@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
+exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 74%
+ht-degree: 80%
 
 ---
 
@@ -49,7 +50,7 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
 
    ![](assets/audiences-publish.png)
 
-1. Une fois votre composition prête, cliquez sur le bouton **[!UICONTROL Publier]** pour publier la composition et enregistrer les audiences obtenues dans Adobe Experience Platform.
+1. Une fois votre composition prête, cliquez sur le bouton **[!UICONTROL Publier]** pour publier la composition et enregistrez les audiences obtenues dans Adobe Experience Platform.
 
    Si une erreur se produit lors de la publication, des alertes s’affichent avec des informations sur la façon de résoudre le problème.
 

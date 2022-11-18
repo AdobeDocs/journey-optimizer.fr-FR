@@ -197,7 +197,7 @@ ht-degree: 97%
    + [Codage de votre propre contenu](using/design/code-content.md)
    + [Utiliser des modèles](using/design/email-templates.md)
    + Conception de contenu {#design-content}
-      + [Utilisation de composants de contenu](using/design/content-components.md)
+      + [Utiliser des composants de contenu](using/design/content-components.md)
       + [Paramètres d&#39;arrière-plan](using/design/backgrounds.md)
       + [Ajustement de l&#39;alignement vertical et la marge intérieure](using/design/adjusting-vertical-alignment-and-padding.md)
       + [Définition d’un style pour les liens](using/design/styling-links.md)
@@ -405,7 +405,7 @@ ht-degree: 97%
          + Délégation de sous-domaines {#delegate-subdomains}
             + [Prise en main de la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
             + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
-            + [Accès aux sous-domaines délégués](using/configuration/access-subdomains.md)
+            + [Accéder aux sous-domaines délégués](using/configuration/access-subdomains.md)
          + Gestion des actions liées aux sous-domaines {#subdomain-related-actions}
             + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
             + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)

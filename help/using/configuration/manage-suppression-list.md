@@ -11,13 +11,13 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Gestion de la liste de suppression {#manage-suppression-list}
 
-Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses électroniques qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, par exemple :
+Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que :
 
 * Adresses non valides (hard bounces).
 * Les adresses qui font l’objet de soft bounces systématiques et qui sont susceptibles de nuire à votre réputation en matière d’e-mails si vous continuez à les inclure dans vos diffusions.
@@ -25,7 +25,7 @@ Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses élect
 
 >[!NOTE]
 >
->La liste de suppression est gérée au niveau de l’environnement de test.
+>La liste de suppression est gérée au niveau de la sandbox.
 
 Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../reports/suppression-list.md).
 
@@ -69,7 +69,7 @@ La suppression d’une adresse e-mail ou d’un domaine de la liste de suppressi
 
 Dans la vue **[!UICONTROL Liste de suppression]**, vous pouvez également modifier les règles de suppression. [En savoir plus](retries.md)
 
-## Téléchargement de la liste de suppression {#download-suppression-list}
+## Télécharger la liste de suppression {#download-suppression-list}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -78,9 +78,9 @@ Dans la vue **[!UICONTROL Liste de suppression]**, vous pouvez également modifi
 >abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
-Pour exporter la liste de suppression au format CSV, procédez comme suit.
+Pour exporter la liste de suppression au format CSV, suivez les étapes ci-dessous.
 
-1. Sélectionnez la **[!UICONTROL Téléchargement de fichier CSV]** bouton .
+1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 
    ![](assets/suppression-list-download-csv.png)
 
@@ -92,7 +92,7 @@ Pour exporter la liste de suppression au format CSV, procédez comme suit.
    >
    >Le temps de téléchargement dépend de la taille du fichier, c’est-à-dire du nombre d’adresses qui se trouvent sur la liste de suppression.
    >
-   >Une demande de téléchargement peut être traitée à la fois pour un environnement de test donné.
+   >Une seule demande de téléchargement peut être traitée à la fois pour une sandbox donnée.
 
 1. Une fois le fichier généré, vous recevez une notification. Cliquez sur l’icône représentant une cloche en haut à droite de l’écran pour l’afficher.
 
@@ -102,7 +102,7 @@ Pour exporter la liste de suppression au format CSV, procédez comme suit.
 
    >[!NOTE]
    >
-   >Le lien est valide pendant 24 heures.
+   >Le lien est valide pendant 24 heures.
 
 <!--When downloading the CSV file, you can choose to either:
 
@@ -160,7 +160,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Ajouter des e-mails ou des domaines à la liste de suppression"
->abstract="Pour remplir la liste de suppression, vous pouvez ajouter manuellement des adresses ou des domaines de courriel : une à la fois, ou en mode bloc par le biais d’un téléchargement de fichier CSV. Ces adresses e-mail et/ou domaines spécifiques seront exclus de votre envoi."
+>abstract="Pour renseigner la liste de suppression, vous pouvez ajouter manuellement des adresses e-mail ou des domaines, individuellement ou en bloc par le biais d’un téléchargement de fichier CSV. Ces adresses e-mail et/ou domaines spécifiques seront exclus de votre envoi."
 
 Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
 
