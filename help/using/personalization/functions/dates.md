@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
@@ -24,7 +24,7 @@ La fonction `age` sert à récupérer l’âge à partir d’une date donnée.
 **Format**
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 
 <!--
@@ -33,7 +33,7 @@ La fonction `age` sert à récupérer l’âge à partir d’une date donnée.
 The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 -->
 
@@ -125,7 +125,7 @@ La fonction `formatDate` sert à formater une valeur de date et d’heure. Le fo
 **Format**
 
 ```sql
-{%= formatDate(date, format) %}
+{%= formatDate(datetime, format) %}
 ```
 
 Où la première chaîne correspond à l’attribut date et la seconde à la manière dont vous souhaitez que la date soit convertie et affichée.
@@ -151,7 +151,7 @@ La fonction `setDays` sert à définir le jour du mois pour la valeur date-heure
 **Format**
 
 ```sql
-{%= setDays(date, day) %}
+{%= setDays(datetime, day) %}
 ```
 
 <!--
@@ -171,7 +171,7 @@ La fonction `setHours` sert à définir l’heure de la valeur date-heure.
 **Format**
 
 ```sql
-{%= setHours(date, hour) %}
+{%= setHours(datetime, hour) %}
 ```
 
 <!--
