@@ -6,13 +6,11 @@ description: Découvrez comment intégrer Journey Optimizer à d’autres soluti
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 32%
+source-wordcount: '580'
+ht-degree: 19%
 
 ---
 
@@ -26,23 +24,27 @@ Avec Adobe Journey Optimizer, vous pouvez facilement gérer, conserver et export
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
-Vous pouvez exporter les données générées par Journey Optimizer afin d’effectuer une analyse avancée dans Customer Journey Analytics.
+Vous pouvez utiliser Customer Journey Analytics pour effectuer une analyse avancée sur les données générées par Journey Optimizer.
 
-L’intégration de Journey Optimizer avec Customer Journey Analytics offre une vue d’ensemble de tous vos parcours, campagnes et offres, avec une distribution de rapports automatisée et des visualisations personnalisées des données.
+Journey Optimizer stocke les données dans Adobe Experience Platform. Avec Customer Journey Analytics, vous pouvez obtenir une vue d’ensemble de tous vos parcours, campagnes et offres, avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
-Après avoir créé votre parcours dans Journey Optimizer, vous pouvez importer vos données client dans Customer Journey Analytics afin de lancer des rapports et de comprendre l’impact de chaque interaction d’un client avec vos parcours.
+Après avoir créé votre parcours dans Journey Optimizer, Customer Journey Analytics peut ingérer des données à partir de la plateforme pour commencer des rapports et comprendre l’impact de chaque interaction d’un client avec vos parcours.
 
 En savoir plus sur [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md).
 
 ## Adobe Analytics{#integration-aa}
 
-Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Adobe Experience Platform afin de déclencher des parcours en temps réel et d’automatiser les expériences de vos clients.
+Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Adobe Experience Platform pour déclencher des parcours en temps réel et automatiser les expériences de vos clients. Ces données peuvent également être utilisées pour créer des segments pouvant être engagés à l’aide de Journey Optimizer.
 
 En savoir plus sur [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-L’intégration à Adobe Intelligent Services vous permet d’exploiter la puissance de l’intelligence artificielle et de l’apprentissage automatique dans les cas d’utilisation de l’expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’expertise en sciences des données. Par exemple, Adobe Intelligent Services permet aux marques de créer des scores basés sur l’apprentissage automatique d’attrition ou de conversion qui seront disponibles en tant qu’attributs de profil dans Adobe Experience Platform et qui peuvent être utilisés pour personnaliser un parcours. [En savoir plus](../building-journeys/ai-services-overview.md).
+Les services intelligents Adobe, qui sont natifs de la plateforme de données clients en temps réel, vous permettent d’exploiter la puissance de l’intelligence artificielle et de l’apprentissage automatique dans les cas d’utilisation de l’expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’expertise en sciences des données.
+
+Customer AI permet aux marques de créer des scores basés sur l’apprentissage automatique d’attrition ou de conversion qui seront disponibles en tant qu’attributs de profil dans Adobe Experience Platform et qui pourront être utilisés pour personnaliser un parcours.
+
+[En savoir plus](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign{#integration-ac}
@@ -57,9 +59,9 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journeys/
 
 ## Canaux personnalisés{#integration-custom}
 
-Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels d’API à un système tiers, c’est à cet emplacement que vous configurez la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc.
+Si vous utilisez un système tiers pour envoyer des messages ou si vous souhaitez que parcours envoie des appels d’API à un système tiers, utilisez des actions personnalisées pour vous connecter à votre parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase, etc.
 
-Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des professionnels du marketing. Une fois configurés, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
+Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des professionnels du marketing. Une fois configurés, ils s’affichent dans la palette gauche de votre parcours dans le **[!UICONTROL Action]** catégorie. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
 En savoir plus sur [actions personnalisées](../action/about-custom-action-configuration.md).
 

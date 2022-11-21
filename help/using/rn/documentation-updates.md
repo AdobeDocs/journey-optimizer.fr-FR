@@ -4,9 +4,9 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
+source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2153'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Novembre 2022 {#november-2022}
 
-<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
+* Ajout d’une nouvelle page sur l’intégration de Journey Optimizer. [En savoir plus](../start/ajo-integrations.md)
 * Ajout d’une recommandation concernant la longueur des URL de pages miroir - [En savoir plus](../design/message-tracking.md)
 
 ## Octobre 2022 {#october-2022}
