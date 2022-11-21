@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 4%
 
 ---
@@ -68,7 +68,7 @@ Vous pouvez utiliser la flexibilité des données de Journey Optimizer pour rép
 
 * **Purge et mécanismes d&#39;archivage**: La purge des données et l’archivage peuvent être librement définis et automatisés dans Journey Optimizer afin d’automatiser les stratégies de conservation des données. Il est possible de définir différentes stratégies de vieillissement pour les différentes entités de données. Des mécanismes d’exportation peuvent également être définis pour exporter automatiquement les données obsolètes avant qu’elles ne soient purgées ou archivées.
 
-   L’espace de travail Nettoyage des données dans l’interface utilisateur d’Adobe Experience Platform vous permet de créer et de surveiller diverses tâches de nettoyage de données, notamment la suppression des identités des clients et la planification des expirations de jeux de données. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   L’espace de travail Nettoyage des données dans l’interface utilisateur d’Adobe Experience Platform vous permet de créer et de surveiller diverses tâches de nettoyage de données, notamment la suppression des identités des clients et la planification des expirations de jeux de données. Cet espace de travail est disponible avec le Bouclier de sécurité et de confidentialité et le Bouclier de santé. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **Lac de données et suppressions**: Les données client stockées dans le lac de données peuvent être conservées par Journey Optimizer :
 
