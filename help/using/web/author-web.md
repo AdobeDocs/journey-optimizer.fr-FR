@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,14 @@ Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension
 Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL Journey Optimizer], suivez les conditions préalables répertoriées dans [cette section](create-web.md#prerequesites).
 
 ## Modifier le contenu d’une page web {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="Saisissez l’URL à modifier."
+>abstract="Saisissez l&#39;URL d&#39;une page web spécifique à utiliser pour l&#39;édition du contenu qui sera appliqué sur la surface web définie ci-dessus. La page doit être mise en oeuvre à l’aide du SDK Web de Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="En savoir plus"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 Une fois que vous avez créé une action web à partir de la campagne, vous pouvez modifier votre contenu à l’aide du concepteur web. Procédez comme suit.
 
@@ -73,6 +81,11 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 ## Utiliser des composants de contenu {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Ajout de composants de contenu à une page web"
+>abstract="Vous pouvez ajouter plusieurs composants à votre page web et les modifier selon vos besoins."
+
 1. Dans le volet **[!UICONTROL Composants]** à gauche, vous pouvez ajouter les composants suivants à votre page web et les modifier selon vos besoins :
 
    * [Diviseur](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 ### Basculer vers le mode de navigation {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="Utilisation du mode de navigation"
+>abstract="Dans ce mode, vous pouvez accéder à la page exacte à partir de la surface sélectionnée à personnaliser."
+
 Vous pouvez passer du mode **[!UICONTROL Conception]** par défaut au mode de **[!UICONTROL Navigation]** à l’aide du bouton dédié.
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ Vous pouvez également modifier la mise au point du zoom, de 25 % à 400 %.
 ![](assets/web-designer-device.png)
 
 ## Gérer les modifications {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Gérer facilement toutes vos modifications"
+>abstract="Ce volet vous permet de parcourir et de gérer tous les réglages et styles ajoutés à votre page web."
 
 Vous pouvez facilement gérer tous les composants, réglages et styles que vous avez ajoutés à votre page web.
 
@@ -164,6 +187,11 @@ Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [of
 ![](assets/web-designer-offer.png)
 
 ## Tester la campagne web {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Prévisualiser votre expérience web"
+>abstract="Effectuez une simulation de votre expérience web."
 
 Pour afficher un aperçu de votre expérience web modifiée, suivez les étapes ci-dessous.
 

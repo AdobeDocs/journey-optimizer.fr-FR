@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '779'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_admin_ptr_record"
 >title="Enregistrements PTR des sous-domaines"
 >abstract="Un enregistrement pointeur (PTR) est un type d’enregistrement DNS qui fournit le nom de domaine associé à une adresse IP, ce qui permet aux serveurs de messagerie de réception de vérifier les adresses IP des expéditeurs. Ne modifiez un enregistrement PTR qu’après avoir pris en compte les questions et discuté avec votre expert en délivrabilité."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record_header"
+>title="Enregistrements PTR des sous-domaines"
+>abstract="Une fois qu’un sous-domaine est délégué à Adobe dans Journey Optimizer, un enregistrement PTR est automatiquement créé et associé à ce sous-domaine."
 
 ## À propos des enregistrements PTR {#about-ptr-records}
 
