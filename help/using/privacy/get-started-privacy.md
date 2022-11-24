@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '205'
+ht-degree: 10%
 
 ---
 
@@ -30,12 +30,48 @@ Adobe Experience Platform et Journey Optimizer fournissent divers outils pour vo
 
 * **Application des stratégies de gouvernance**: Utilisez les stratégies de gouvernance de Adobe Experience Platform pour empêcher l’exportation de champs sensibles vers des systèmes tiers par le biais d’actions personnalisées. [En savoir plus](../action/action-privacy.md)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">Gestion des requêtes de données</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Suivi des actions des utilisateurs</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Suivi et gestion du consentement</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Application des stratégies de consentement</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">Application des stratégies de gouvernance</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="requests.md">
+<img alt="prospect" src="../assets/do-not-localize/privacy-request.jpeg">
+</a>
+<div><a href="requests.md"><strong>Gestion des requêtes de données</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="audit-logs.md">
+<img alt="Inrégulier" src="../assets/do-not-localize/privacy-audit.jpeg">
+</a>
+<div>
+<a href="audit-logs.md"><strong>Suivi des actions des utilisateurs</strong></a>
+</div>
+<p></td>
+<td>
+<a href="opt-out.md">
+<img alt="Validation" src="../assets/do-not-localize/privacy-track-consent.jpeg">
+</a>
+<div>
+<a href="opt-out.md"><strong>Suivi et gestion du consentement</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/consent.md">
+<img alt="Validation" src="../assets/do-not-localize/privacy-consent-policies.jpeg">
+</a>
+<div>
+<a href="../action/consent.md"><strong>Application des stratégies de consentement</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/action-privacy.md">
+<img alt="Validation" src="../assets/do-not-localize/privacy-governance.jpeg">
+</a>
+<div>
+<a href="../action/action-privacy.md"><strong>Application des stratégies de gouvernance</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
