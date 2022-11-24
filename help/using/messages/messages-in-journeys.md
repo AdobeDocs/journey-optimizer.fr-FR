@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,7 +134,7 @@ Pour ce faire, suivez les étapes ci-après :
 
    ![](assets/message-duplicated.png)
 
-1. Renommez le message pour pouvoir différencier le message initial de la copie, par exemple lors de l’édition des messages, comme ci-dessous :
+1. Renommez le message pour pouvoir différencier le message initial de la copie, par exemple lors de l&#39;édition des messages, comme ci-dessous :
 
    ![](assets/multi-message.png)
 
