@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 93%
@@ -22,7 +22,7 @@ L’helper `Default Fallback Value` est utilisé pour renvoyer une valeur de sec
 **Syntaxe**
 
 ```sql
-Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
 Dans cet exemple, la valeur `there` s&#39;affiche si l&#39;attribut `firstName` de ce profil est vide ou nul.

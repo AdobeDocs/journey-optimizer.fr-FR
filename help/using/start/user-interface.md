@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1578'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Parcours]** - Créez, configurez et orchestrez vos parcours clients. [En savoir plus](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Pages de destination]** : créez, concevez, testez et publiez des pages de destination. [En savoir plus](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** - Créer, concevoir, tester et publier des landing pages. [En savoir plus](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL GESTION DES DÉCISIONS]**
 
@@ -275,7 +275,7 @@ Pour modifier la langue :
 * Cliquez sur **Préférences** depuis votre avatar, en haut à droite.
    ![](assets/preferences.png)
 * Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
-* Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
+* Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez n’est pas localisé dans votre première langue.
    ![](assets/select-language.png)
 
 ## Recherche{#unified-search}
