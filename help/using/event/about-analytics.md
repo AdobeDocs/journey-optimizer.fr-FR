@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 83%
+source-wordcount: '203'
+ht-degree: 55%
 
 ---
 
@@ -23,11 +23,12 @@ Vous pouvez exploiter toutes les données d’événement comportemental Adobe A
 >
 >Cette section s&#39;applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics.
 
-Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, la suite de rapports que vous souhaitez utiliser :
+Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, la suite de rapports que vous souhaitez utiliser. Pour ce faire, procédez comme suit :
 
-1. Dans Adobe Experience Platform, sélectionnez **[!UICONTROL Sources]**, puis **[!UICONTROL Ajouter des données]** dans la section Adobe Analytics. La liste des suites de rapports Adobe Analytics disponibles s’affiche.
+1. Connectez-vous à Adobe Experience Platform et accédez à **[!UICONTROL Sources]**.
+1. Dans la section Adobe Analytics , sélectionnez **[!UICONTROL Ajouter des données]**: la liste des suites de rapports Adobe Analytics disponibles s’affiche.
 
-1. Sélectionnez la suite de rapports à activer, cliquez sur **[!UICONTROL Suivant]** et sur **[!UICONTROL Terminer]**.
+1. Sélectionnez la suite de rapports à activer, puis cliquez sur **[!UICONTROL Suivant]** et **[!UICONTROL Terminer]**.
 
 1. Partagez l’ID de données source avec votre point de contact de programme en version bêta.
 
