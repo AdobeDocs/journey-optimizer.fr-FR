@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 61%
 
 ---
 
@@ -63,3 +63,72 @@ Le graphique et le tableau **[!UICONTROL Clics par bouton]** contiennent les don
 * [Créer un message in-app](../in-app/create-in-app.md)
 * [Concevoir un message in-app](../in-app/design-in-app.md)
 * [Configuration in-app](../in-app/inapp-configuration.md)
+
+
+>[!BEGINTABS]
+
+>[!TAB Ajout d’une notification push à un Parcours]
+
+1. Ouvrez votre parcours, puis faites glisser et déposez une activité Push depuis la section Actions de la palette.
+
+1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface du message à utiliser.
+
+>[!TAB Ajout d’une notification push à une campagne]
+
+1. Créez une campagne planifiée ou déclenchée par une API, sélectionnez **[!UICONTROL Notification push]** comme action et choisissez la variable **[!UICONTROL Surface de l’application]** à utiliser.
+
+1. Cliquez sur **[!UICONTROL Créer]**.
+
+1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
+
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour définir l’audience à cibler à partir de la liste des segments Adobe Experience Platform disponibles.
+
+1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné.
+
+1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planification]** de votre campagne.
+
+1. Dans la **[!UICONTROL Déclencheurs d’action]** , choisissez la variable **[!UICONTROL Fréquence]** de votre notification push :
+
+   * Une fois
+   * Quotidien
+   * Hebdomadaire
+   * Mensuel
+
+>[!ENDTABS]
+
+Test 2 :
+
+1. Il sʼagit dʼune test.
+
+>[!BEGINTABS]
+
+>[!TAB Ajout d’une notification push à un Parcours]
+
+    1. Ouvrez votre parcours, puis faites glisser et déposez une activité Push depuis la section Actions de la palette.
+    
+    1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface du message à utiliser.
+
+>[!TAB Ajout d’une notification push à une campagne]
+
+    1. Créez une campagne planifiée ou déclenchée par une API, sélectionnez **[!UICONTROL Notification push]** comme action et choisissez la **[!UICONTROL Surface de l’application]** à utiliser.
+    
+    1. Cliquez sur **[!UICONTROL Créer]**.
+    
+    1. De la **[!UICONTROL Propriétés]** section, modifiez la ** de votre campagne[!UICONTROL Titre]** et **[!UICONTROL Description]**.
+    
+    1. Cliquez sur le **[!UICONTROL Sélection de l’audience]Bouton ** pour définir l’audience à cibler dans la liste des segments Adobe Experience Platform disponibles.
+    
+    1. Dans le **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les individus du segment sélectionné.
+    
+    1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planification]** de votre campagne.
+    
+    1. De la **[!UICONTROL Déclencheurs d’action]** menu, choisissez la **[!UICONTROL Fréquence]** de votre notification push :
+    
+    * Une fois
+    * Quotidien
+    * Hebdomadaire
+    * Mensuel
+
+>[!ENDTABS]
+
+1. Cela fait partie du test.
