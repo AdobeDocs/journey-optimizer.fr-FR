@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Les principales étapes de création d’une règle conditionnelle sont les suiv
       * **[!UICONTROL Appartenance au segment]** répertorie tous les attributs de segment (par exemple statut, version, etc.) pour le [Service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr),
       * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [Schéma du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) défini dans Adobe Experience Platform.
    * **[!UICONTROL Contextuel]** : lorsque le message est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans cet onglet.
-   * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des segments créés dans [Service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des segments créés dans [Service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 1. Une fois votre règle conditionnelle prête, vous pouvez l’ajouter à votre message pour créer du contenu dynamique. [Découvrez comment ajouter du contenu dynamique](dynamic-content.md)
 
