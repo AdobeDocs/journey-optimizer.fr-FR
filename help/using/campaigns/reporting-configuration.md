@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Le tableau ci-dessous indique les mesures qui seront ajoutées à l’onglet **[
 
    >[!CAUTION]
    >
-   >Vous pouvez uniquement sélectionner un jeu de données de type événement, qui doit contenir au moins l’un des [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;} pris en charge : **Détails de l’application**, **Détails du commerce**, **Détails web**. Si vous sélectionnez un jeu de données ne correspondant pas à ces critères, vous ne pourrez pas enregistrer vos modifications.
+   >Vous pouvez uniquement sélectionner un jeu de données de type événement, qui doit contenir au moins l’un des [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target=&quot;_blank&quot;} pris en charge : **Détails de l’application**, **Détails du commerce**, **Détails web**. Si vous sélectionnez un jeu de données ne correspondant pas à ces critères, vous ne pourrez pas enregistrer vos modifications.
 
    ![](assets/reporting-config-datasets.png)
 
