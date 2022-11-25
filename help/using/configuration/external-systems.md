@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Prenons un exemple pour une temporisation de 5 secondes.
 
 **Comment configurer une règle de limitation ? Existe-t-il une règle de limitation par défaut ?**
 
-Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée), à l&#39;aide de l&#39;API de limitation. Reportez-vous à [cette section](../configuration/external-systems.md#capping) et à la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
+Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée), à l&#39;aide de l&#39;API de limitation. Reportez-vous à [cette section](../configuration/external-systems.md#capping) et à la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target=&quot;_blank&quot;}.
 
 **Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
 
