@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
 ht-degree: 100%
 
@@ -101,9 +101,9 @@ L’autorisation de haut niveau **[!DNL View journeys events, data sources and a
 Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à Journey Optimizer :
-   * parcours_events.read
-   * parcours_data_sources.read
-   * parcours_actions.read
+   * journeys_events.read
+   * journeys_data_sources.read
+   * journeys_actions.read
 
 * Spécifiques à Adobe Experience Platform :
    * schemas.read
@@ -162,7 +162,7 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à la gestion des décisions :
    * activities.read
-   * offers.read
+   * offer.read
    * placements.read
    * ranking_strategy.read
 
@@ -181,9 +181,9 @@ Elle comprend les autorisations de bas niveau suivantes :
 
 * Spécifiques à la gestion des décisions :
    * offer_activity.read
-   * offers.read
-   * offers.write
-   * offers.delete
+   * offer.read
+   * offer.write
+   * offer.delete
    * placements.read
    * placements.write
    * placements.delete
@@ -206,7 +206,7 @@ Elle comprend les autorisations de bas niveau suivantes :
    * ranking_strategy.write
    * ranking_strategy.delete
    * activities.read
-   * offers.read
+   * offer.read
    * placements.read
 
 ## Fonction d&#39;administration {#administration-permissions}
