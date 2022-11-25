@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1441'
 ht-degree: 100%
 
@@ -386,7 +386,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody>
  <tr> 
-  <td>Rebonds<br/> </td> 
+  <td>Bounces<br/> </td> 
    <td>Nombre de personnes qui n’ont pas interagi avec la page de destination et n’ont pas effectué l’action d’inscription.<br/> </td> 
 </tr>
  <tr> 
