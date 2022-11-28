@@ -8,14 +8,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
-workflow-type: ht
-source-wordcount: '1572'
-ht-degree: 100%
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+workflow-type: tm+mt
+source-wordcount: '1605'
+ht-degree: 99%
 
 ---
 
 # Configuration des surfaces de canal {#set-up-channel-surfaces}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_channel_surfaces"
+>title="Surface de l’application"
+>abstract="Une surface est une configuration définie par un administrateur système. Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc."
+
 
 Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur, applications mobiles, configuration des SMS, etc.
 

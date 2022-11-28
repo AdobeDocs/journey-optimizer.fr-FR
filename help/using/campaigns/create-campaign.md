@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
-workflow-type: ht
-source-wordcount: '853'
-ht-degree: 100%
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 93%
 
 ---
 
@@ -35,10 +35,12 @@ ht-degree: 100%
 
    ![](assets/create-campaign.png)
 
-1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne :
+1. Dans le **[!UICONTROL Propriétés]** , indiquez comment exécuter l’opération :
 
-   * **[!UICONTROL Planifié]** : permet d’exécuter immédiatement la campagne ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de type **marketing**.
-   * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+   * **[!UICONTROL Planifié]**
+   * **[!UICONTROL déclenché par l’API]**
+
+   Pour plus d&#39;informations sur le type d&#39;opération et les interventions associées, reportez-vous à cette section [section](#campaigntype).
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
 
@@ -96,7 +98,40 @@ ht-degree: 100%
 
 Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
 
+## Type de campagne {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Type de campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Catégorie de campagne"
+>abstract="TBC"
+
+Deux types de campagne sont disponibles :
+
+* **[!UICONTROL Planifié]** : permet d’exécuter immédiatement la campagne ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de type **marketing**.
+
+* **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+
 ## Planifier une campagne {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Démarrage de campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Fin de campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Déclencheurs d’action de campagne"
+>abstract="TBC"
 
 Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une fois.
 
@@ -106,7 +141,7 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 
 ![](assets/create-campaign-schedule.png)
 
-## Mode de diffusion rapide {#rapid-delivery}
+## Mode de diffusion rapide pour la campagne push {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
