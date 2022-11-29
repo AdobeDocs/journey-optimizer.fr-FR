@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
-workflow-type: ht
-source-wordcount: '151'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 89%
 
 ---
 
 # distinct {#distinct}
 
 Renvoie les valeurs ou objets distincts d’une liste donnée. Les entrées « null » sont ignorées.
+
+>[!NOTE]
+>
+>Si la liste cible est un listObject, cette fonction ne peut être utilisée que dans les expressions d’action personnalisées.
 
 ## Catégorie
 

@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 86%
 
 ---
 
 # filter{#filter}
 
 Renvoie une valeur listObject avec les objets dont lʼattribut clé correspond à lʼune des valeurs clés données.
+
+>[!NOTE]
+>
+>Si la liste cible est un listObject, cette fonction ne peut être utilisée que dans les expressions d’action personnalisées.
 
 ## Catégorie
 

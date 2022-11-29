@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 97%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -92,6 +92,10 @@ Les paramètres avancés sont affichés au bas du volet des messages. Ces param�
 Pour les notifications push, vous pouvez afficher les paramètres suivants : Jeton, AppID, AppPlatform.
 
 ![](assets/push-adv-parameters.png)
+
+>[!NOTE]
+>
+>Si vous remplacez l’un de ces attributs, les trois doivent également être remplacés.
 
 Pour l’adresse e-mail, vous pouvez afficher [l’adresse e-mail principale](../configuration/primary-email-addresses.md).
 

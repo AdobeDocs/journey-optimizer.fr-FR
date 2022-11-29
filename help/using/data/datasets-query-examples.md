@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
-source-wordcount: '779'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 95%
 
 ---
 
@@ -325,6 +325,8 @@ Ce jeu de données vous donne accès aux métadonnées définies par le spécial
 >[!NOTE]
 >
 >Pour l’instant, il y a deux entrées pour chaque publication de message dans le jeu de données d’entités pour des raisons de compatibilité future. Cela n’a aucune incidence sur votre capacité à utiliser des requêtes de jointure selon les besoins dans les jeux de données pour récupérer les informations souhaitées.
+
+Si vous souhaitez trier, dans vos rapports, les emails envoyés par un parcours spécifique en fonction de l’action qui les a envoyés. vous pouvez joindre le jeu de données Commentaires du message au jeu de données d’entité. Les champs à utiliser sont les suivants : `_experience.decisioning.propositions.scopeDetails.correlationID` et `_id field in entity dataset`.
 
 La requête suivante permet d’obtenir le modèle de message associé à une campagne donnée :
 

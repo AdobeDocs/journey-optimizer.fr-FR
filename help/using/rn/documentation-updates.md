@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les mises de la documentation la plus récente
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 97%
+source-wordcount: '2189'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’une nouvelle page sur les intégrations Journey Optimizer. [En savoir plus](../start/ajo-integrations.md)
 * Ajout d’une recommandation sur la longueur des URL de pages miroir. [En savoir plus](../design/message-tracking.md)
 * Une nouvelle sous-section dans la configuration des paramètres de courrier électronique a été ajoutée à la réponse à l’adresse électronique, y compris des recommandations pour assurer une gestion adéquate des réponses. [En savoir plus](../configuration/email-settings.md#reply-to-email)
+* Ajout d’une section sur la modification du contenu d’un message dans un parcours en direct - [En savoir plus](../building-journeys/journeys-message.md#update-live-content)
 
 ## Octobre 2022 {#october-2022}
 
