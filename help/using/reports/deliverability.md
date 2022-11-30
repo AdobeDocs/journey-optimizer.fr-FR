@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 93%
 
 ---
 
 # Prise en main de la délivrabilité {#manage-deliverability}
 
 La délivrabilité est une mesure du succès de vos diffusions atteignant les boîtes de réception de vos destinataires.
+
+>[!NOTE]
+>
+>Pour les clients qui accordent des licences pour Healthcare Shield, Adobe utilise le protocole TLS (Transport Layer Security) 1.2 afin de sécuriser l’échange de données entre les systèmes des utilisateurs (destinataires) et Journey Optimizer (expéditeur). Si le serveur de messagerie de réception ne prend pas en charge TLS 1.2, les clients rencontreront des problèmes de délivrabilité, notamment le rebond des courriers électroniques vers l’expéditeur.
 
 **La délivrabilité des emails désigne l&#39;ensemble des caractéristiques qui déterminent la capacité d&#39;un message à atteindre sa destination, par l&#39;intermédiaire d&#39;une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.** Ces caractéristiques se répartissent dans quatre catégories principales : qualité des données, message et contenu, infrastructure d&#39;envoi et réputation. Ensemble, elles forment la base d&#39;un programme de délivrabilité des emails réussi.
 
