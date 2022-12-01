@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 97%
+source-wordcount: '1278'
+ht-degree: 96%
 
 ---
 
@@ -172,9 +172,12 @@ ht-degree: 97%
       + [Présentation](using/messages/get-started-content.md)
       + [Ajouter des messages dans les parcours](using/messages/messages-in-journeys.md)
       + [Accéder aux messages dans des campagnes](using/messages/messages-in-campaigns.md)
-   + [Création d’un e-mail](using/messages/create-email.md)
-   + [Création d’une notification push](using/messages/create-push.md)
+   + [Création d&#39;un e-mail](using/messages/create-email.md)
+   + [Créer un email bis](using/messages/create-email-bis.md)
+   + [Créer une notification push](using/messages/create-push.md)
    + [Création dʼun SMS](using/messages/create-sms.md)
+   + [Créer un message SMS bis](using/messages/create-sms-bis.md)
+   + [Création d’une notification push bis](using/messages/create-push-bis.md)
    + [Création d’un publipostage direct](using/messages/create-direct-mail.md)
    + [Vérifier les alertes](using/messages/alerts.md)
    + [Optimisation de l’heure d’envoi](using/messages/send-time-optimization.md)
