@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 50%
@@ -18,7 +18,7 @@ ht-degree: 50%
 
 # Créer une notification push {#create-push-notification-bis}
 
-## Créer la notification push dans un parcours ou une campagne {#create}
+## Créer la notification push dans un parcours ou une campagne
 
 Pour créer une notification push, procédez comme suit :
 
@@ -71,7 +71,7 @@ Pour créer une notification push, procédez comme suit :
 
 >[!ENDTABS]
 
-## Mode de diffusion rapide {#rapid-delivery}
+## Mode de diffusion rapide
 
 Mode de diffusion rapide, précédemment connu sous le nom de mode d’éclatement dans parcours, est un [!DNL Journey Optimizer] module complémentaire permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
 
@@ -79,7 +79,7 @@ Le mode de diffusion rapide est utilisé lorsque le retard dans la diffusion des
 
 Pour plus d&#39;informations sur les performances lors de l&#39;utilisation du mode de diffusion Rapid, reportez-vous à la section .
 
-### Conditions préalables {#prerequisites}
+### Conditions préalables
 
 La messagerie en diffusion rapide est fournie avec les conditions suivantes :
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 55%
@@ -22,7 +22,7 @@ ht-degree: 55%
 >
 >Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition.
 
-## Créer un SMS dans un parcours ou une campagne {#sms-content}
+## Créer un SMS dans un parcours ou une campagne
 
 Pour personnaliser votre message SMS, procédez comme suit :
 
@@ -65,7 +65,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 >[!ENDTABS]
 
-## Définir le contenu de votre SMS{#sms-content}
+## Définir le contenu de votre SMS
 
 1. Dans l&#39;écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du SMS.
 
@@ -77,7 +77,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 1. Une fois votre SMS prêt, effectuez la configuration de votre pour l’envoyer.
 
-## Valider votre SMS{#sms-preview}
+## Valider votre SMS
 
 >[!NOTE]
 >
