@@ -11,7 +11,7 @@ exl-id: acb5b65b-8787-4428-9924-36aa0a115926
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ Pour ce faire, suivez les étapes ci-après :
 
    ![](assets/message-duplicated.png)
 
-1. Renommez le message pour pouvoir différencier le message initial de la copie, par exemple lors de l&#39;édition des messages, comme ci-dessous :
+1. Renommez le message pour pouvoir différencier le message initial de la copie, par exemple lors de l’édition des messages, comme ci-dessous :
 
    ![](assets/multi-message.png)
 

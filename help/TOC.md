@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 97%
 + Parcours {#orchestrate-journeys}
    + [Prise en main des parcours](using/building-journeys/journey.md)
    + Création d’un parcours{#create-journey}
-      + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
+      + [Création de votre premier parcours](using/building-journeys/journey-gs.md)
       + [Conception de votre parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
    + Gestion des parcours{#mannage-journey}
-      + [Terminer votre parcours](using/building-journeys/end-journey.md)
+      + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Gestion des entrées de profil](using/building-journeys/entry-management.md)
       + [Copier un parcours dans une autre sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Dépanner votre parcours](using/building-journeys/troubleshooting.md)
+      + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
       + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Activités {#about-journey-building}
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -391,7 +391,7 @@ ht-degree: 97%
 + Gestion des données {#data-management}
    + [Prise en main de la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
-   + Jeux de données Journey Optimizer {#datasets}
+   + Jeux de données Journey Optimizer {#datasets}
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
    + [Requêtes](using/data/get-started-queries.md)

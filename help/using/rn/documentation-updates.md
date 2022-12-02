@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '2189'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Novembre 2022 {#november-2022}
 
-* Ajout d’une nouvelle page sur les intégrations Journey Optimizer. [En savoir plus](../start/ajo-integrations.md)
-* Ajout d’une recommandation sur la longueur des URL de pages miroir. [En savoir plus](../design/message-tracking.md)
-* Une nouvelle sous-section dans la configuration des paramètres de courrier électronique a été ajoutée à la réponse à l’adresse électronique, y compris des recommandations pour assurer une gestion adéquate des réponses. [En savoir plus](../configuration/email-settings.md#reply-to-email)
+* Ajout d’une nouvelle page sur les intégrations de Journey Optimizer. [En savoir plus](../start/ajo-integrations.md)
+* Ajout d’une recommandation sur la longueur des URL des pages miroir. [En savoir plus](../design/message-tracking.md)
+* Ajout d’une nouvelle sous-section dans la configuration des paramètres d’e-mail concernant la réponse à l’adresse e-mail, y compris des recommandations pour assurer une gestion adéquate des réponses. [En savoir plus](../configuration/email-settings.md#reply-to-email)
 * Ajout d’une section sur la modification du contenu d’un message dans un parcours en direct - [En savoir plus](../building-journeys/journeys-message.md#update-live-content)
 
 ## Octobre 2022 {#october-2022}
@@ -27,7 +27,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’un cas d’utilisation de parcours sur la manière de limiter le débit à l’aide de sources de données externes et d’actions personnalisées. [En savoir plus](../building-journeys/limit-throughput.md)
 * La section Cas d’utilisation de parcours a été réorganisée en deux catégories : [Cas d’utilisation commerciale](../building-journeys/journeys-uc.md) et [Cas d’utilisation technique](../building-journeys/collections.md).
 * La section **Jeu de données d’entité** a été mise à jour avec plus de détails. [En savoir plus](../data/datasets-query-examples.md#entity-dataset)
-* Les sections Gestion des opt-out et Stratégies de consentement ont été réorganisées. [En savoir plus](../privacy/opt-out.md)
+* Les sections Gestion de la désinscription et Politiques de consentement ont subi une refonte. [En savoir plus](../privacy/opt-out.md)
 * La section sur les paramètres avancés des messages de parcours a été clarifiée et précise désormais que le remplacement des adresses e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, la valeur définie comme adresse principale dans les **Champs d’exécution** est celle qui doit être utilisée. [En savoir plus](../messages/messages-in-journeys.md#adv-settings)
 * Ajout d’une note à la section **Configuration des sous-domaines de page de destination** pour indiquer que les majuscules ne sont pas autorisées dans les sous-domaines de la page de destination. [En savoir plus](../configuration/lp-subdomains.md)
 
@@ -39,7 +39,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour des pages relatives aux fonctions [toDateOnly](../building-journeys/functions/functiontodateonly.md) et [toString](../building-journeys/functions/functiontostring.md).
 * Ajout de détails sur les paramètres de condition de temps. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
 * Ajout d’informations sur les jeux de données intégrés. [En savoir plus](../data/get-started-datasets.md#access-datasets)
-* Les sections Rapport global et Rapport en direct ont été améliorées et réorganisées. [En savoir plus](../reports/global-report.md)
+* Amélioration et réorganisation des sections Rapport global et Rapport dynamique. [En savoir plus](../reports/global-report.md)
 * Une liste de toutes les mesures de création de rapports disponibles dans Adobe Journey Optimizer a été ajoutée.
    [En savoir plus](../reports/global-report.md#email-and-sms-metrics)
 * La section Envoyer l’e-mail en copie (Cci) a été déplacée vers la nouvelle page Prise en charge de l’archivage. [En savoir plus](../configuration/archiving-support.md)

@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 #### Implémenter un appel API pour le processus d’opt-out {#opt-out-api}
 
-Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
+Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel POST est le suivant :
 
@@ -215,28 +215,28 @@ Par exemple, lors du téléchargement ou de l’utilisation de votre application
 
 Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
-Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard tels que STOP, UNSTOP et START pour les messages sans fil et à code long terme, conformément aux normes de l’industrie pour l’intégration native telle que Sinch et Twilio. Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers (par exemple, Twilio, Sinch, etc.). Vous pouvez le confirmer directement auprès de votre fournisseur ou via leur site de documentation.
+Par défaut, Adobe Journey Optimizer traite les messages de réponse standard en anglais, tels que STOP, UNSTOP et START, pour les numéros gratuits et de code long, conformément aux normes du secteur régissant les intégrations natives telles que Sinch et Twilio. Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers (par exemple, Twilio, Sinch, etc.). Contactez votre fournisseur ou consultez leur site de documentation pour en savoir plus.
 
-Aucune procédure n’est requise pour s’assurer que les fonctionnalités d’exclusion des SMS fonctionnent dans Adobe Journey Optimizer, car les réponses des mots-clés STOP, UNSTOP et START seront automatiquement reconnues.
+Aucune opération n’est nécessaire pour s’assurer que les fonctionnalités de désinscription par SMS fonctionnent dans Adobe Journey Optimizer, car les réponses par mot-clé STOP, UNSTOP et START sont automatiquement reconnues.
 
-Outre l’arrêt par Adobe Journey Optimizer de l’envoi en fonction de l’état d’exclusion (pour les intégrations directes avec Twilio ou Sinch), la plupart des fournisseurs de passerelle SMS tiennent également à jour une liste bloquée vous garantissant qu’un SMS ne sera pas délivré à une personne qui a choisi de ne pas l’envoyer. Si vous utilisez un fournisseur autre que Sinch ou Twilio et que vous envoyez un SMS via [canal personnalisé](../building-journeys/using-custom-actions.md), vous devez le confirmer auprès de votre fournisseur.
+En fonction du statut de désinscription, Adobe Journey Optimizer arrêtera l’envoi des messages (pour les intégrations directes avec Twilio ou Sinch). De plus, la plupart des fournisseurs de passerelles SMS tiennent également à jour une liste bloquée, vous garantissant ainsi qu’un SMS ne sera pas envoyé à une personne qui a choisi de se désinscrire. Si vous utilisez un fournisseur autre que Sinch ou Twilio et que vous envoyez un SMS par le biais d’un [canal personnalisé](../building-journeys/using-custom-actions.md), vous devez le confirmer auprès de votre fournisseur.
 
 >[!IMPORTANT]
 >
->Les campagnes par SMS peuvent être soumises à diverses exigences de conformité légales en fonction de la nature de votre campagne de messagerie texte, de l’emplacement d’où vous envoyez vos messages texte et de l’emplacement de vos destinataires. <br>Bien que Adobe Journey Optimizer gère les messages sur les numéros longs et sans frais comme décrit ci-dessus, vous devez consulter votre service juridique pour vous assurer que votre campagne de messagerie texte est conforme à toutes les exigences de conformité légales applicables.
+>Les campagnes par SMS peuvent être soumises à diverses exigences légales, qui dépendent de la nature de vos campagnes par SMS, de l’endroit d’où vous envoyez vos messages texte et de celui de vos destinataires. <br>Bien qu’Adobe Journey Optimizer traite les messages sur les numéros de code long et gratuits comme décrit ci-dessus, vous devez consulter votre service juridique pour vous assurer que votre campagne par SMS est conforme à toutes les exigences légales applicables.
 
 ### Codes courts {#short-codes}
 
-Par défaut, Adobe Journey Optimizer ne prend pas en charge les mots-clés d’opt-out, d’opt-in ou d’aide pour les numéros courts de code.
+Par défaut, Adobe Journey Optimizer ne prend pas en charge les mots-clés relatifs à la désinscription, l’inscription ou l’aide pour les numéros de code court.
 
-Vous devez vous assurer que votre numéro court est conforme à toutes les règles et réglementations du secteur pour la gestion des exclusions.
+Vous devez vous assurer que votre numéro de code court est conforme à toutes les règles et réglementations du secteur en matière de traitement des désinscriptions.
 
-### Identifiant de l’expéditeur alphanumérique {#alphanumeric}
+### ID d’expéditeur alphanumérique {#alphanumeric}
 
-Les identifiants d’expéditeur alphanumériques sont réservés à la messagerie unidirectionnelle et ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés SMS STOP, START, HELP de Adobe Journey Optimizer ne s’appliquent pas aux identifiants d’expéditeur Alpha. Vous devez fournir d’autres instructions, telles que l’écriture dans l’équipe d’assistance, l’appel d’une ligne téléphonique d’assistance ou l’envoi d’un texto à un autre numéro de téléphone ou code pour permettre aux utilisateurs de se désabonner des messages envoyés par l’intermédiaire de l’ID d’expéditeur alphanumérique.
+Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés SMS STOP, START, HELP d’Adobe Journey Optimizer ne s’appliquent pas aux ID d’expéditeur alphanumériques. Dès lors, vous devez fournir d’autres instructions aux utilisateurs pour la désinscription des SMS. Par exemple, en leur offrant la possibilité d’écrire à l’équipe d’assistance, d’appeler un numéro d’aide ou d’envoyer un SMS à un autre numéro ou code.
 
 #### Vidéo {#video-sms}
 
-Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (START, STOP et UNSTOP) pour les SMS, reportez-vous à la vidéo suivante :
+Pour en savoir plus sur le fonctionnement de la prise en charge native des mots-clés entrants (START, STOP et UNSTOP) pour les SMS, regardez la vidéo suivante :
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
