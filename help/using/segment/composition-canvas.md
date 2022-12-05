@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,16 +31,16 @@ Les étapes de configuration d’une composition dans la zone de travail de comp
 
 La première étape pour créer une composition consiste à sélectionner une ou plusieurs audiences existantes comme base de votre composition.
 
-1. Sélectionnez la **[!UICONTROL Audience]** puis fournissez un libellé pour l’activité.
+1. Sélectionnez l’activité **[!UICONTROL Audience]**, puis fournissez un libellé pour l’activité.
 
-1. Choisissez l&#39;audience à cibler :
+1. Choisissez l’audience à cibler :
 
    * Cliquez sur le bouton **[!UICONTROL Ajouter une audience]** pour sélectionner une ou plusieurs audiences existantes,
-   * Cliquez sur le bouton **[!UICONTROL Créer une règle]** pour créer une définition de segment à l’aide du bouton [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+   * Cliquez sur le bouton **[!UICONTROL Créer une règle]** pour créer une définition de segment à l’aide du [service de segmentation ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
    ![](assets/audiences-choose-audience.png)
 
-1. Si plusieurs audiences sont sélectionnées, indiquez comment les profils de ces audiences doivent être fusionnés :
+1. Si vous sélectionnez plusieurs audiences, indiquez comment les profils de ces audiences doivent être fusionnés :
 
 * **[!UICONTROL Union]** : inclure tous les profils des audiences sélectionnées,
 * **[!UICONTROL Intersection]** : inclure des profils communs à toutes les audiences sélectionnées,
