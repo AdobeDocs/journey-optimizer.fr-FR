@@ -9,24 +9,24 @@ role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '203'
+ht-degree: 100%
 
 ---
 
-# Exploitation des données Adobe Analytics{#analytics-data}
+# Exploiter les données Adobe Analytics{#analytics-data}
 
-Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Adobe Experience Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
+Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez et diffusez déjà en continu dans Adobe Experience Platform afin de déclencher des parcours et d’automatiser les expériences de vos clients.
 
 >[!NOTE]
 >
->Cette section s&#39;applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics.
+>Cette section s’applique uniquement aux événements basés sur des règles et aux clients et clientes qui doivent utiliser des données Adobe Analytics.
 
 Pour que cela fonctionne, vous devez activer, dans Adobe Experience Platform, la suite de rapports que vous souhaitez utiliser. Pour ce faire, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Platform et accédez à **[!UICONTROL Sources]**.
-1. Dans la section Adobe Analytics , sélectionnez **[!UICONTROL Ajouter des données]**: la liste des suites de rapports Adobe Analytics disponibles s’affiche.
+1. Dans la section Adobe Analytics, sélectionnez **[!UICONTROL Ajouter des données]** : la liste des suites de rapports Adobe Analytics disponibles s’affiche.
 
 1. Sélectionnez la suite de rapports à activer, puis cliquez sur **[!UICONTROL Suivant]** et **[!UICONTROL Terminer]**.
 
