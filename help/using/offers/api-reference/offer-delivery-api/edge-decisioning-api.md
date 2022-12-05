@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/
 
 Le SDK web Experience Platform prend en charge la demande des solutions de personnalisation auprès d’Adobe, dont la gestion des décisions, ce qui vous permet de récupérer et de générer des offres personnalisées que vous avez créées à l’aide des API ou de la bibliothèque des offres. Pour obtenir des instructions plus détaillées, consultez la documentation sur la [création d’une offre](../../get-started/starting-offer-decisioning.md).
 
-Vous pouvez mettre en œuvre la gestion des décisions de deux façons différentes à l’aide du [SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). La première est destinée aux développeurs et nécessite des connaissances en matière de sites web et de programmation. L’autre méthode consiste à utiliser l’interface utilisateur d’Adobe Experience Platform pour configurer les offres. Seul un petit script à référencer dans l’en-tête de la page HTML sera nécessaire.
+Vous pouvez mettre en œuvre la gestion des décisions de deux façons différentes à l’aide du [SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr#vue-d%E2%80%99ensemble-des-vid%C3%A9os). La première est destinée aux développeurs et nécessite des connaissances en matière de sites web et de programmation. L’autre méthode consiste à utiliser l’interface utilisateur d’Adobe Experience Platform pour configurer les offres. Seul un petit script à référencer dans l’en-tête de la page HTML sera nécessaire.
 
-Reportez-vous à la documentation relative à la [gestion des décisions](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=fr#enabling-offer-decisioning) pour plus d’informations sur la diffusion d’offres personnalisées à l’aide du SDK Web de Adobe Experience Platform.
+Pour plus d’informations sur la diffusion d’offres personnalisées à l’aide du SDK web Adobe Experience Platform, consultez la documentation sur la [gestion des décisions](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=fr#enabling-offer-decisioning).
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Cette approche est plus conviviale pour les personnes qui ont moins d’expérie
 
 1. [Ajouter du code incorporé](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=fr)
 
-1. Installez et configurez l’extension du SDK Web Adobe Experience Platform avec le Datastream que vous avez créé en sélectionnant la configuration dans la liste déroulante &quot;Datastream&quot;. Consultez la documentation relative aux [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=fr).
+1. Installez et configurez l’extension SDK web Adobe Experience Platform avec le train de données créé lors de la sélection de la configuration dans la liste déroulante « Train de données ». Consultez la documentation relative aux [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=fr).
 
    ![SDK web Adobe Experience Platform](../../assets/installed-catalog-web-sdk.png)
 
@@ -92,7 +92,7 @@ Cette approche est plus conviviale pour les personnes qui ont moins d’expérie
 
 Pour utiliser la gestion des décisions avec l’installation autonome préconfigurée du SDK Web, procédez comme suit. Ce guide part du principe qu’il s’agit de votre première implémentation du SDK. Il se peut donc que certaines étapes ne vous concernent pas. Ce guide suppose également que vous possédez déjà des connaissances en matière de développement.
 
-Incluez le fragment de code JavaScript suivant provenant de la section « Option 2 : version autonome préconfigurée » sur [cette page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) dans la section `<head>` de votre page HTML.
+Incluez le fragment de code JavaScript suivant provenant de la section « Option 2 : version autonome préconfigurée » sur [cette page](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) dans la section `<head>` de votre page HTML.
 
 ```
 javascript
