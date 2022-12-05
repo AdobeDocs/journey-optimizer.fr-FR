@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,18 +32,18 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="prospect" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="Prospect" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Création de pages de destination</strong>
+<div><a href="create-lp.md"><strong>Créer des pages de destination</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="Inrégulier" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Peu fréquent" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="subscription-list.md"><strong>Création de listes d’abonnements</strong></a>
+<a href="subscription-list.md"><strong>Créer des listes d’abonnements</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 <img alt="Validation" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>Conception de pages de destination</strong></a>
+<a href="design-lp.md"><strong>Concevoir des pages de destination</strong></a>
 </div>
 <p>
 </td>
@@ -60,7 +60,7 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 <img alt="Validation" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>Création de rapports</strong></a>
+<a href="../reports/lp-report-live.md"><strong>Créer des rapports</strong></a>
 </div>
 <p>
 </td>
