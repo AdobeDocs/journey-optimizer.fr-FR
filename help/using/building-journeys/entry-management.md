@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gestion des entrées de profil
-description: Découvrez comment gérer l’entrée de profil
+description: Découvrez comment gérer l’entrée de profil.
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 # Gestion des entrées de profil {#entry-management}
 
-Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c&#39;est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse rejoindre de nouveau le parcours et rebénéficier de l&#39;offre.
+Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c’est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client puisse rejoindre de nouveau le parcours et rebénéficier de l&#39;offre.
 
 ![](assets/journey-re-entrance.png)
 
-Lorsqu’un parcours se termine, son état est **[!UICONTROL Fermé]**. TNew ne peut plus entrer dans le parcours. Les personnes déjà dans le parcours terminent le parcours normalement.
+Lorsqu’un parcours se termine, son statut passe au mode **[!UICONTROL Fermé]**. Les individus TNew ne peuvent plus intégrer le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement.
 
-Après le délai d’expiration global par défaut de 30 jours, le parcours passe à la variable **Terminé** statut.  [En savoir plus](journey-gs.md#global_timeout).
+Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**.  [En savoir plus](journey-gs.md#global_timeout).
 
 
 ## Parcours unitaires{#entry-unitary}
@@ -35,12 +35,12 @@ En outre :
 
 * Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
 
-## Lecture de parcours de segment{#entry-read-segment}
+## Lire les parcours de segment{#entry-read-segment}
 
 Dans un parcours de segment lu :
 
 * Pour les parcours non récurrents : le profil rejoint une seule fois le parcours.
 
-* Pour les parcours récurrents : le profil entre dans le parcours de chaque périodicité, s’il est dans l’état segment/attendu. S’il était toujours dans le parcours d&#39;une précédente périodicité, il la redémarrera dès le début.
+* Pour les parcours récurrents : le profil intègre le parcours à chaque récurrence, s’il est dans le segment ou a le statut prévu. S’il était toujours dans le parcours depuis une récurrence précédente, il redémarrera au début du parcours.
 
-Dans les parcours d’événements professionnels commençant par un **Lecture de segment** activité : sachant que ce parcours est basé sur la réception d’un événement professionnel, si le profil est qualifié dans le segment attendu, il saisira le parcours de chaque événement commercial reçu, ce qui signifie que ce profil peut être plusieurs fois dans le même parcours, en même temps, mais dans le contexte de différents événements professionnels.
+Dans les parcours d’événement métier commençant par une activité **Lecture de segment** : sachant que ce parcours est basé sur la réception d’un événement métier, si le profil est qualifié dans le segment prévu, il intègrera le parcours de chaque événement métier reçu, ce qui signifie que ce profil peut intégrer le même parcours plusieurs fois, au même moment, mais dans le contexte de divers événements métier.
