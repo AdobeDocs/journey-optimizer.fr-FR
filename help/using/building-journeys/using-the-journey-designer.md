@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1605'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 80%
 >title="Concevoir le parcours"
 >abstract="L&#39;interface de parcours vous permet de faire glisser facilement des activités de la palette vers la zone de travail. Vous pouvez également double-cliquer sur une activité pour l&#39;ajouter dans la zone de travail à la prochaine étape disponible."
 
-Adobe Journey Optimizer comprend un canevas d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter dans la zone de travail, à l’étape suivante disponible.
+Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter à la zone de travail à la prochaine étape disponible.
 
-Les activités d’événement, d’orchestration et d’action ont un rôle et un rôle spécifiques dans le processus. L’ordre des activités est le suivant : lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, etc.
+Les activités d’événement, d’orchestration et d’action ont un rôle et une place spécifiques dans le processus. Les activités sont séquencées : lorsqu’une activité est terminée, le flux se poursuit et traite l’activité suivante, et ainsi de suite.
 
 ## Prise en main de la conception de parcours {#gs-journey-design}
 
@@ -70,27 +70,27 @@ Après votre premier événement ou votre première lecture de segment, vous pou
 
 ### Événements{#jo-event}
 
-Les événements sont ce qui déclenche un parcours personnalisé, comme un achat en ligne. Une fois que quelqu&#39;un entre dans un parcours, il se déplace à travers en tant qu&#39;individu, et pas deux individus ne se déplacent à la même vitesse ou le même chemin.
+Les événements constituent le déclenchement d’un parcours personnalisé, comme un achat en ligne. Une fois qu’une personne entame un parcours, elle évolue de manière individuelle, et deux personnes peuvent ne pas évoluer à la même vitesse ou sur le même chemin.
 
-Lorsque vous lancez votre parcours avec un événement, celui-ci est déclenché à la réception de l’événement. Chaque personne du parcours suit ensuite, individuellement, les étapes suivantes définies dans votre parcours.
+Lorsque vous débutez votre parcours avec un événement, ce parcours est déclenché à la réception de l’événement. Ensuite, chaque personne du parcours suit individuellement les étapes suivantes définies dans votre parcours.
 
-Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu&#39;ils utilisent le même espace de noms. Les événements sont configurés au préalable. [En savoir plus sur les événements de parcours](about-journey-activities.md#event-activities)
+Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition qu&#39;ils utilisent le même espace de noms. Les événements sont configurés au préalable. [En savoir plus sur les événements du parcours](about-journey-activities.md#event-activities)
 
 Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d&#39;envoyer un autre message si l&#39;individu a ouvert le message précédent ou cliqué dessus. [En savoir plus sur les événements de réaction](reaction-events.md).
 
-Utilisation **Qualification de segment** activité d’événement pour faire entrer ou avancer des individus dans un parcours en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
+Utilisez l’activité d’événement **Qualification de segment** pour faire en sorte que des individus rejoignent un parcours ou y progressent en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
 
 ### Orchestration{#jo-orch}
 
 Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours.
 
-Dans les activités d’orchestration, utilisez la méthode **Lecture de segment** pour définir votre parcours d’écoute d’un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
+Dans les activités d’orchestration, vous trouverez l’activité **Lecture de segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
 
 Les autres activités vous permettent d&#39;ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d&#39;attente avant l&#39;exécution de l&#39;activité suivante, ou de terminer votre parcours. [En savoir plus sur les activités d’orchestration](about-journey-activities.md#orchestration-activities).
 
 ### Actions{#jo-actions}
 
-Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client rencontre. Il peut s’agir d’un email, d’un SMS ou d’un message push, ou d’une action tierce, telle qu’un message du Slack.
+Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client ou la cliente effectue. Il peut s’agir d’un e-mail, d’un SMS ou d’un message push ou d’une action tierce, telle qu’un message Slack.
 
 Les activités d’action de canal vous permettent d’inclure un message conçu dans [!DNL Journey Optimizer]. [En savoir plus sur les activités d’action de canal](journeys-message.md)
 
