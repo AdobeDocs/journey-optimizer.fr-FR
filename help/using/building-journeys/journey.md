@@ -8,16 +8,16 @@ role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # Prise en main des parcours{#jo-general-principle}
 
-Utilisation [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
+Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
 
 Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
@@ -31,34 +31,34 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 
 ## Procédure de création d’un parcours{#steps-journey}
 
-Utilisez Adobe Journey Optimizer pour concevoir et orchestrer des parcours personnalisés à partir d’une seule zone de travail.
+Adobe Journey Optimizer vous permet de concevoir et d’orchestrer des parcours personnalisés dans une zone de travail unique.
 
-Adobe Journey Optimizer comprend un canevas d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours.
+Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours.
 
 ![](assets/interface-journeys.png)
 
-Découvrez comment démarrer et créer votre premier parcours dans [cette page](journey-gs.md).
+Découvrez comment commencer et créer votre premier parcours sur [cette page](journey-gs.md).
 
-Le concepteur de parcours omnicanal vous aide à créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur les interactions client ou commerciale en temps réel et des messages omnicanaux à l’aide d’une interface intuitive de glisser-déposer.
+Le concepteur de parcours omnicanaux dispose d’une interface intuitive par glisser-déposer, qui vous permet de créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur des interactions client ou commerciale en temps réel et des messages omnicanaux.
 
 ![](assets/journey38.png)
 
 En savoir plus dans [cette section](using-the-journey-designer.md).
 
-En tant qu’ingénieur en données, les étapes de configuration de vos parcours, y compris les sources de données, les événements et les actions, sont détaillées dans la section [cette section](../configuration/about-data-sources-events-actions.md).
+Les ingénieurs de données peuvent consulter [cette section](../configuration/about-data-sources-events-actions.md) pour en savoir plus sur la procédure de configuration des parcours, y compris les sources de données, les événements et les actions.
 
 
 ## Cas d’utilisation{#uc-journey}
 
-Découvrez comment créer des parcours dans les cas d’utilisation de bout en bout suivants.
+Découvrez comment créer des parcours dans les cas d’utilisation complets suivants.
 
-Cas d’utilisation commerciale:
+Cas d’utilisation commerciale :
 
 * [Envoi de messages multi-canal](journeys-uc.md)
 * [Envoi de messages à l’aide de Campaign v7/v8](ajo-ac.md)
 * [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
 
-Cas d’utilisation technique:
+Cas d’utilisation technique :
 
 * [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](collections.md)
 * [Accélérer les diffusions](ramp-up-deliveries-uc.md)
@@ -74,9 +74,9 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 >[!NOTE]
 >
->En règle générale, un profil ne peut pas être présent plusieurs fois dans le même parcours, au même moment. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
+>Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
 
-Si vous devez modifier un parcours actif, créez une nouvelle version de votre parcours.
+Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
 
 1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
@@ -98,4 +98,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 >[!NOTE]
 >
->Pour en savoir plus sur les versions de parcours, consultez [cette page](../start/guardrails.md#journey-versions-limitations)
+>Pour en savoir plus sur les barrières de sécurité et les limitations, consultez [cette page](../start/guardrails.md#journey-versions-limitations).
