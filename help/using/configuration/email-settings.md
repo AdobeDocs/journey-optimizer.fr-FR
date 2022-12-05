@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Définissez les paramètres d’e-mail dans la section dédiée à la configurat
 
 ![](assets/preset-email-settings.png)
 
-La configuration de la surface des emails est récupérée pour envoyer des communications en suivant la logique ci-dessous :
+La configuration de surface d’e-mail est récupérée pour envoyer des communications en suivant la logique ci-dessous :
 
-* Pour les parcours de traitement par lot et d’éclatement, cela ne s’applique pas à l’exécution par lot ou par éclatement qui avait déjà démarré avant que la configuration de la surface de l’email ne soit effectuée. Les modifications seront récupérées lors de la prochaine périodicité ou de la nouvelle exécution.
+* Pour les parcours par lots et en rafale, cela ne s’applique pas à l’exécution par lots ou en rafale qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. La modification sera récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
 
-* Pour les messages transactionnels, la modification est immédiatement sélectionnée pour la prochaine communication (délai de cinq minutes maximum).
+* Pour les messages transactionnels, la modification est immédiatement récupérée pour la communication suivante (délai de cinq minutes maximum).
 
 >[!NOTE]
 >
->Les paramètres de surface d&#39;email mis à jour seront automatiquement récupérés dans le ou les parcours ou campagnes où la surface est utilisée.
+>Les paramètres de surface d’e-mail mis à jour seront automatiquement récupérés dans le(s) parcours ou campagne(s) où la surface est utilisée.
 
 ## Type d’e-mail {#email-type}
 
@@ -106,9 +106,9 @@ Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;
 
 Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d’expéditeur et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette surface.
 
-* **[!UICONTROL Nom de l’expéditeur]** : le nom de l&#39;expéditeur, tel que le nom de votre marque.
+* **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** : le nom de l’expéditeur ou de l’expéditrice, tel que le nom de votre marque.
 
-* **[!UICONTROL E-mail de l&#39;expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications.
+* **[!UICONTROL E-mail de l’expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications.
 
 * **[!UICONTROL Répondre à (nom)]** : le nom qui sera utilisé lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
 
@@ -118,7 +118,7 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d�
 
 >[!CAUTION]
 >
->Le **[!UICONTROL Email expéditeur]** et **[!UICONTROL Email d’erreur]** Les adresses doivent utiliser la [sous-domaine délégué](about-subdomain-delegation.md). Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com* et *error@marketing.luma.com*.
+>Les adresses **[!UICONTROL e-mail expéditeur]** et **[!UICONTROL e-mail d’erreur]** doivent utiliser le [sous-domaine délégué](about-subdomain-delegation.md) actuel. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com* et *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
@@ -126,19 +126,19 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d�
 >
 >Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait dʼunion `-`.
 
-### Répondre à un email {#reply-to-email}
+### Adresse e-mail de réponse {#reply-to-email}
 
-Lors de la définition de la variable **[!UICONTROL Répondre à (email)]** , vous pouvez indiquer toute adresse électronique à condition qu’il s’agisse d’une adresse valide, au format correct et sans faute de frappe.
+Lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, vous pouvez indiquer toute adresse e-mail à condition qu’il s’agisse d’une adresse valide, au format approprié et sans erreur de frappe.
 
-Pour assurer une bonne gestion des réponses, procédez comme suit :
+Pour assurer une bonne gestion des réponses, procédez comme suit :
 
-* La boîte de réception utilisée pour les réponses recevra tous les emails de réponse, y compris les notifications d’absence du bureau et les réponses de défi, afin de vous assurer que vous avez mis en place un processus manuel ou automatisé pour traiter les emails entrant dans cette boîte de réception.
+* La boîte de réception utilisée pour les réponses reçoit tous les e-mails de réponse, y compris les notifications d’absence du bureau et les challenge-réponses, afin de vous assurer que vous avez mis en place un processus manuel ou automatisé pour traiter les e-mails entrant dans cette boîte de réception.
 
-* Assurez-vous que la boîte de réception dédiée dispose de suffisamment de capacité pour recevoir tous les emails de réponse envoyés à l’aide de la surface de l’email. Si la boîte de réception renvoie des rebonds, il se peut que certaines réponses de vos clients ne soient pas reçues.
+* Assurez-vous que la boîte de réception dédiée dispose de suffisamment de capacité pour recevoir tous les e-mails de réponse envoyés à l’aide de la surface d’e-mail. Si la boîte de réception renvoie des rebonds, il se peut que certaines réponses de vos clients ne soient pas reçues.
 
-* Les réponses doivent être traitées en tenant compte des obligations de confidentialité et de conformité, car elles peuvent contenir des informations d’identification personnelle (PII).
+* Les réponses doivent être traitées en tenant compte des obligations de confidentialité et de conformité, car elles peuvent contenir des données à caractère personnel (PII).
 
-* Ne marquez pas les messages comme spam dans la boîte de réception de la réponse, car cela aura un impact sur toutes les autres réponses envoyées à cette adresse.
+* Ne marquez pas les messages comme spam dans la boîte de réception de réponse, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
 
 ### Transférer un e-mail {#forward-email}
 
