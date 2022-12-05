@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ Vous pouvez désormais [créer un publipostage direct](../messages/create-direct
 
 >[!NOTE]
 >
->Les lignes en double sont automatiquement supprimées.
+>Les lignes en double seront automatiquement supprimées.
 >
 >Si le nombre maximum d&#39;enregistrements (c&#39;est-à-dire des lignes) pour chaque fichier contenant des données de profil est trop élevé, un autre fichier sera automatiquement créé pour les enregistrements restants.
 
