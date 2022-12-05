@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Dans l’ensemble, la flexibilité que vous souhaitez obtenir de vos données se
 <tr style="border: 0;">
   <td>
     <div><img alt="politique" src="assets/do-not-localize/policy.png" /> 
-    <br>Suppression d’une base de données dans un délai convenu pour votre politique - la suppression des données est un aspect important de la protection des données et une étape clé dans tous les processus de gouvernance des données. Journey Optimizer peut produire plus de données que nécessaire. En outre, vous souhaitez prêter plus d’attention à ce qui se passe après la durée requise pour un jeu de données, que ce soit en raison de son utilité ou de sa réglementation. Le contrôle dont vous avez besoin consiste à supprimer des données à un moment donné. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=fr">Pour en savoir plus sur l’hygiène de données, consultez la documentation relative à Adobe Experience Platform.</a></div>
+    <br>Suppression d’une base de données dans un délai convenu pour votre politique - la suppression des données est un aspect important de la protection des données et une étape clé dans tous les processus de gouvernance des données. Journey Optimizer peut produire plus de données que nécessaire. En outre, vous souhaitez prêter plus d’attention à ce qui se passe après la durée requise pour un jeu de données, que ce soit en raison de son utilité ou de sa réglementation. Le contrôle dont vous avez besoin consiste à supprimer des données à un moment donné. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Pour en savoir plus sur l’hygiène de données, consultez la documentation relative à Adobe Experience Platform.</a></div>
   </td>
 </tr>
 </table>

@@ -33,7 +33,7 @@ Adobe Experience Platform et Journey Optimizer proposent différents outils p
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="requests.md">
-<img alt="Lead" src="../assets/do-not-localize/privacy-request.jpeg">
+<img alt="Prospect" src="../assets/do-not-localize/privacy-request.jpeg">
 </a>
 <div><a href="requests.md"><strong>Gérer les demandes de données</strong>
 </div>

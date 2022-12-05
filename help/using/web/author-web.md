@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 >id="ajo_web_url_to_edit_surface"
 >title="Saisissez l’URL à modifier."
 >abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué sur la surface web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="En savoir plus"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Saisissez l’URL à modifier."
 >abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en œuvre à l’aide du SDK web Adobe Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="En savoir plus"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
@@ -61,7 +61,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    >[!CAUTION]
    >
-   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
+   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Ouvrir le concepteur web]** pour la modifier. [En savoir plus](author-web.md)
 
