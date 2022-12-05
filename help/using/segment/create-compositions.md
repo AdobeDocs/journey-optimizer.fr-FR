@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
 
 1. Ouvrez les propriétés de composition pour spécifier un titre et une description.
 
-   Si aucun titre n’est défini dans les propriétés, le libellé de composition est celui du début **[!UICONTROL Audience]** activité.
+   Si aucun titre n’est défini dans les propriétés, le libellé de composition est celui de l’activité **[!UICONTROL Audience]** qui débute.
 
    ![](assets/audiences-properties.png)
 
@@ -68,7 +68,7 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
 Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]** . Elles peuvent avoir plusieurs statuts :
 
 * **[!UICONTROL Brouillon]** : la composition est en cours et n’a pas été publiée.
-* **[!UICONTROL Publié]**: la composition a été publiée, les audiences qui en résultent ont été enregistrées et peuvent être utilisées.
+* **[!UICONTROL Publié]** : la composition a été publiée, les audiences qui en résultent ont été enregistrées et peuvent être utilisées.
 * **[!UICONTROL Archivée]** : la composition a été archivée.
 
 ![](assets/audiences-compositions.png)
