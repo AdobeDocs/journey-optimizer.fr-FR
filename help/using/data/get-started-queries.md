@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des requêtes dans Journey Optimizer
+title: Commencer avec les requêtes dans Journey Optimizer
 description: Découvrez comment créer des requêtes dans Adobe Journey Optimizer
 feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Prise en main des requêtes {#queries-gs}
+# Commencer avec les requêtes {#queries-gs}
 
 Le requêteur est un outil interactif fourni par Adobe Experience Platform Query Service. Il permet d’écrire, de valider et d’exécuter des requêtes pour les données d’expérience client dans l’interface utilisateur dans [!DNL Adobe Journey Optimizer].
 
