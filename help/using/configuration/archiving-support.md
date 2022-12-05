@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Le paramètre d’adresse e-mail en Cci est immédiatement enregistré et trait�
 
 ![](assets/preset-bcc-in-msg.png)
 
-Cependant, l’adresse en Cci est sélectionnée pour envoyer des communications selon la logique décrite. [here](email-settings.md).
+Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communications en suivant la logique décrite [ici](email-settings.md).
 
 ### Recommandations et limitations {#bcc-recommendations-limitations}
 
