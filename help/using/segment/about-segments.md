@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Vous pouvez exploiter les segments dans les parcours de différentes manières 
 
 Dans Adobe Journey Optimizer, les audiences sont générées à partir des définitions de segment à l’aide de l’une des méthodes d’évaluation suivantes :
 
-* Segmentation par flux : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données affluent dans le système. La segmentation par flux est un processus continu de sélection des données qui met à jour vos segments en réponse à l’activité des utilisateurs. Une fois qu’un segment a été créé et enregistré, la définition de segment est appliquée aux données entrantes dans Journey Optimizer. Les ajouts et les suppressions de segments sont traités régulièrement, ce qui vous permet de vous assurer que votre ciblage d’audience reste pertinent.
+* Segmentation par flux en continu : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données affluent dans le système. La segmentation par flux en continu est un processus continu de sélection des données qui met à jour vos segments en réponse à l’activité des utilisateurs et des utilisatrices. Une fois qu’un segment a été créé et enregistré, la définition du segment s’applique aux données entrantes dans Journey Optimizer. Les ajouts et les suppressions de segments sont traités régulièrement, ce qui vous permet de vous assurer que votre ciblage d’audience reste pertinent.
 
-* Segmentation par lots : la liste des audiences du segment est évaluée toutes les 24 heures. Au lieu d’un processus en continu de sélection de données, la segmentation par lots déplace toutes les données de profil à la fois dans les définitions de segment afin de produire des audiences correspondantes. Une fois créé, ce segment est enregistré et stocké afin que vous puissiez l’exporter pour l’utiliser.
+* Segmentation par lots – l’évaluation de la liste des audiences du segment se fait toutes les 24 heures. Au lieu d’un processus en continu de sélection de données, la segmentation par lots déplace toutes les données de profil à la fois dans les définitions de segment afin de produire des audiences correspondantes. Une fois créé, ce segment est enregistré et stocké afin que vous puissiez l’exporter pour l’utiliser.
 
 Le système détermine la segmentation par lots et la segmentation par flux pour chaque définition de segment, en fonction de la complexité et du coût de l’évaluation de la règle de segment.
 
