@@ -1,29 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des activités de parcours
-description: Prise en main des activités de parcours
+title: Prise en main des activités du parcours
+description: Prise en main des activités du parcours
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Prise en main des activités de parcours {#about-journey-activities}
+# Prise en main des activités du parcours {#about-journey-activities}
 
 Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 
 ## Activités d’événement {#event-activities}
 
-Les événements sont ce qui déclenche un parcours personnalisé, comme un achat en ligne. Une fois que quelqu&#39;un entre dans un parcours, il se déplace à travers en tant qu&#39;individu, et pas deux individus ne se déplacent à la même vitesse ou le même chemin. Lorsque vous lancez votre parcours avec un événement, celui-ci est déclenché à la réception de l’événement. Chaque personne du parcours suit ensuite, individuellement, les étapes suivantes définies dans votre parcours.
+Les événements constituent le déclenchement d’un parcours personnalisé, comme un achat en ligne. Une fois qu’une personne entame un parcours, elle évolue de manière individuelle, et deux personnes peuvent ne pas évoluer à la même vitesse ou sur le même chemin. Lorsque vous débutez votre parcours avec un événement, ce parcours est déclenché à la réception de l’événement. Ensuite, chaque personne du parcours suit individuellement les étapes suivantes définies dans votre parcours.
 
-Événements configurés par l’utilisateur technique (voir [cette page](../event/about-events.md)) sont toutes affichées dans la première catégorie de la palette, sur le côté gauche de l’écran. Les activités d&#39;événement suivantes sont disponibles :
+Les événements configurés par l’utilisateur ou l’utilisatrice technique (voir [cette page](../event/about-events.md)) sont tous affichés dans la première catégorie de la palette, dans la partie gauche de l’écran. Les activités d&#39;événement suivantes sont disponibles :
 
 * [Événements généraux](../building-journeys/general-events.md)
 * [Réaction](../building-journeys/reaction-events.md)
@@ -37,7 +37,7 @@ Commencez votre parcours en faisant glisser et déposer une activité d’évén
 
 ## Activités d’orchestration {#orchestration-activities}
 
-Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours. Cela peut être le cas si la personne a un cas de soutien ouvert ou non, les prévisions météorologiques à son emplacement actuel, si elle a effectué un achat ou non, ou si elle a atteint 10 000 points de fidélité.
+Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours. Cela peut être le cas si la personne a un ticket de support ouvert, des prévisions météorologiques à son emplacement actuel, si elle a effectué un achat ou non, ou si elle a atteint 10 000 points de fidélité.
 
 Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
@@ -49,9 +49,9 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 
 ## Activités d&#39;action {#action-activities}
 
-Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client rencontre.
+Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client ou la cliente effectue.
 
-Dans la palette, située à gauche de l’écran, au-dessous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration]**, vous pouvez trouver la variable **[!UICONTROL Actions]** catégorie. Les activités d&#39;action suivantes sont disponibles :
+La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration]**. Les activités d&#39;action suivantes sont disponibles :
 
 * [E-mail, SMS, Push](../building-journeys/journeys-message.md)
 * [Actions personnalisées](../building-journeys/using-custom-actions.md)
@@ -61,7 +61,7 @@ Dans la palette, située à gauche de l’écran, au-dessous **[!UICONTROL Évé
 
 Ces activités représentent les différents canaux de communication disponibles. Vous pouvez les combiner pour créer un scénario cross-canal.
 
-Si vous avez configuré des actions personnalisées, elles s’affichent également à cet emplacement. [En savoir plus](../building-journeys/using-custom-actions.md)).
+Si vous avez configuré des actions personnalisées, elles s’affichent également à cet emplacement. [En‧savoir‧plus](../building-journeys/using-custom-actions.md)).
 
 ## Bonnes pratiques {#best-practices}
 
