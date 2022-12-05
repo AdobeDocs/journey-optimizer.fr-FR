@@ -9,17 +9,16 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Utiliser [!DNL Customer Journey Analytics] {#cja-ajo}
 
 
-[!DNL Journey Optimizer]
-L’intégration de  à [!DNL Customer Journey Analytics] offre une vue d’ensemble de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
+L’intégration de [!DNL Journey Optimizer] à [!DNL Customer Journey Analytics] offre une vue d’ensemble de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
 ![](assets/cja.png)
 
@@ -29,7 +28,7 @@ Une fois que vous avez créé votre parcours dans [!DNL Journey Optimizer], vous
 
 Avant d’utiliser [!DNL Customer Journey Analytics] pour vos parcours, vous devez d’abord configurer cette intégration :
 
-1. [Création d’une connexion](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=fr) in [!DNL Customer Journey Analytics] avec le **[!UICONTROL Jeu de données]** vous souhaitez envoyer à Adobe Experience Platform.
+1. [Créez une connexion](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=fr) dans [!DNL Customer Journey Analytics] avec le **[!UICONTROL jeu de données]** que vous souhaitez envoyer à Adobe Experience Platform.
 
    [!DNL Journey Optimizer] peuvent être configurés :
    * [Événement d’étape de parcours](../data/datasets-query-examples.md#journey-step-event) : permet d’afficher qui entre dans vos parcours et jusqu’où ils vont.
