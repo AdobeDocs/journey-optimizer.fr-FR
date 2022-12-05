@@ -45,7 +45,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 >[!CAUTION]
 >
->Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
+>Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}.
 
 1. Dans l’onglet **[!UICONTROL Action]** de la campagne, sélectionnez **[!UICONTROL Modifier le contenu]** pour commencer à créer votre campagne web.
 
@@ -61,7 +61,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    >[!CAUTION]
    >
-   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Ouvrir le concepteur web]** pour la modifier. [En savoir plus](author-web.md)
 
@@ -116,7 +116,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    ![](assets/web-designer-html-style.png)
 
-##  Naviguer dans le concepteur web
+## Naviguer dans le concepteur web
 
 ### Utiliser des chemins de navigation
 
