@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Saisissez l’URL à modifier."
->abstract="Saisissez l&#39;URL d&#39;une page web spécifique à utiliser pour l&#39;édition du contenu qui sera appliqué sur la surface web définie ci-dessus. La page web doit être mise en oeuvre à l’aide du SDK Web de Adobe Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="En savoir plus"
+>abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué sur la surface web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Saisissez l’URL à modifier."
->abstract="Saisissez l’URL d’une page web spécifique à utiliser pour l’édition du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en oeuvre à l’aide du SDK web Adobe Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="En savoir plus"
+>abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en œuvre à l’aide du SDK web Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
@@ -45,7 +45,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 >[!CAUTION]
 >
->Pour y accéder : [!DNL Journey Optimizer], votre page web doit être implémentée à l’aide de la fonction [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
+>Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Dans l’onglet **[!UICONTROL Action]** de la campagne, sélectionnez **[!UICONTROL Modifier le contenu]** pour commencer à créer votre campagne web.
 
@@ -61,7 +61,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    >[!CAUTION]
    >
-   >La page web doit inclure la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Ouvrir le concepteur web]** pour la modifier. [En savoir plus](author-web.md)
 
@@ -89,7 +89,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Ajout de composants de contenu à une page web"
+>title="Ajouter les composants de contenu à votre page web"
 >abstract="Vous pouvez ajouter plusieurs composants à votre page web et les modifier selon vos besoins."
 
 1. Dans le volet **[!UICONTROL Composants]** à gauche, vous pouvez ajouter les composants suivants à votre page web et les modifier selon vos besoins :
@@ -134,8 +134,8 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="Utilisation du mode de navigation"
->abstract="Dans ce mode, vous pouvez accéder à la page exacte à partir de la surface sélectionnée à personnaliser."
+>title="Utiliser le mode de navigation"
+>abstract="Dans ce mode, vous pouvez accéder à la page exacte à partir de la surface sélectionnée que vous voulez personnaliser."
 
 Vous pouvez passer du mode **[!UICONTROL Conception]** par défaut au mode de **[!UICONTROL Navigation]** à l’aide du bouton dédié.
 
@@ -196,8 +196,8 @@ Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [of
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="Prévisualiser votre expérience web"
->abstract="Effectuez une simulation de votre expérience web."
+>title="Prévisualiser votre expérience web."
+>abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience web."
 
 Pour afficher un aperçu de votre expérience web modifiée, suivez les étapes ci-dessous.
 
