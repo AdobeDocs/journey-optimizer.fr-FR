@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Fin de parcours
-description: Découvrez comment un parcours se termine dans Journey Optimizer
+description: Découvrez comment un parcours se termine dans Journey Optimizer.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Fin d’un parcours{#journey-ending}
+# Terminer un parcours{#journey-ending}
 
 Un parcours peut se terminer pour un individu dans deux contextes spécifiques :
 
