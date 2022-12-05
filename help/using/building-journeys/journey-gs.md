@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,9 +93,9 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 ### Entrée{#entrance}
 
-Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c&#39;est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur qui effectue sa première visite dans la boutique.
+Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c&#39;est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
-En savoir plus sur la gestion des entrées de profil, dans [cette section](entry-management.md).
+Pour en savoir plus sur la gestion des entrées de profil, consultez [cette section](entry-management.md).
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
