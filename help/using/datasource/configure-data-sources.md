@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration d'une source de données
+title: Configurer une source de données
 description: Découvrez comment configurer une source de données.
 feature: Data Sources
 topic: Administration
@@ -9,20 +9,20 @@ role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Configuration d’une source de données {#configure-data-source}
+# Configurer une source de données {#configure-data-source}
 
 
 >[!NOTE]
 >
->La configuration d’une source de données est toujours effectuée par un **utilisateur technique**.
+>La configuration d’une source de données est toujours effectuée par un **utilisateur ou une utilisatrice technique**.
 
-Pour configurer une source de données, procédez comme suit :
+Pour configurer une source de données, procédez comme suit :
 
 1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Sources de données]**, cliquez sur **[!UICONTROL Gérer]**. La liste des sources de données s’affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 
@@ -52,7 +52,7 @@ Le nombre de parcours qui font appel à un groupe de champs est affiché dans le
 
 >[!NOTE]
 >
->Notez que si un groupe de champs ne comporte pas de champ, il ne s’affiche pas dans l’éditeur d’expression.
+>Notez que si un groupe de champs ne contient aucun champ, il ne s’affiche pas dans l’éditeur d’expression.
 
 ![](assets/journey3bis.png)
 
