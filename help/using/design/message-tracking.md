@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ La page miroir est automatiquement créée.
 
 >[!IMPORTANT]
 >
->Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées chiffrées requises pour générer l’email d’origine. Par conséquent, l’utilisation d’attributs personnalisés avec des valeurs élevées peut générer de longues URL de pages miroir, ce qui peut empêcher le fonctionnement du lien dans les navigateurs web dont la longueur est maximale.
+>Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées et chiffrées nécessaires pour générer l’e-mail original. Par conséquent, l’utilisation d’attributs personnalisés dotés de valeurs élevées peut générer des URL de pages miroir longues et empêcher le fonctionnement du lien dans les navigateurs web appliquant une longueur maximale d’URL.
 
 Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l’email s&#39;affiche dans leur navigateur web par défaut.
 
