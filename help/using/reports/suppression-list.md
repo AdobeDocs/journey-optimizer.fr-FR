@@ -9,19 +9,19 @@ role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Liste de suppression {#suppression-list}
 
-Une liste de suppression se compose d’adresses et de domaines que vous souhaitez exclure de vos diffusions, car l’envoi à ces contacts peut nuire à votre réputation d’envoi et à vos taux de diffusion.
+Une liste de suppression est constituée d’adresses et de domaines que vous souhaitez exclure de vos diffusions, car l’envoi d’e-mails à ces contacts pourrait nuire à votre réputation d’envoi et à vos taux de diffusion.
 
 La liste de suppression [!DNL Journey Optimizer] est gérée au niveau de votre propre environnement, c’est-à-dire pour une sandbox donnée.
 
-Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c&#39;est-à-dire spécifiques à un ID d&#39;organisation associé à un ID Sandbox.
+Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c’est-à-dire spécifique à un ID d’organisation associé à un ID Sandbox.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Les destinataires dont les adresses email sont supprimées sont automatiquement 
 
 ## Que contient la liste de suppression ? {#what-s-on-suppression-list}
 
-Les adresses sont ajoutées à la liste de suppression comme suit :
+Les adresses sont ajoutées à la liste de suppression comme suit :
 
 * Tous les **hard bounces** et les **plaintes contre le spam** envoient automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence.
 
