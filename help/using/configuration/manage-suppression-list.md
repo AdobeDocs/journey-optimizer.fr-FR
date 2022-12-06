@@ -199,11 +199,11 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 
 1. Cliquez sur **[!UICONTROL Envoyer]**.
 
-### Téléchargement d’un fichier CSV {#upload-csv-file}
+### Chargement d’un fichier CSV {#upload-csv-file}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="Chargement d’un fichier CSV pour ajouter des éléments à la liste de suppression"
+>title="Charger un fichier CSV pour ajouter des éléments à la liste de suppression"
 >abstract="Vous pouvez remplir la liste de suppression en chargeant un fichier CSV contenant les adresses e-mail/domaines à exclure."
 
 1. Sélectionnez l’option **[!UICONTROL Télécharger CSV]**.
