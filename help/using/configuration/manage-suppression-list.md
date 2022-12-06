@@ -177,7 +177,7 @@ Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]*
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
 >title="Ajouter un élément à la liste de suppression"
->abstract="Vous pouvez remplir la liste de suppression en ajoutant une par une des adresses e-mail et/ou des domaines."
+>abstract="Vous pouvez remplir la liste de suppression en ajoutant une adresse e-mail ou un domaine à la fois."
 
 1. Sélectionnez l’option **[!UICONTROL Un par un]**.
 
