@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
+source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 98%
+source-wordcount: '865'
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,9 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 >id="ajo_dm_file_routing_details"
 >title="Définir la configuration du routage des fichiers"
 >abstract="Une fois que vous avez créé un message de publipostage direct, le fichier contenant les données de l’audience ciblée sera généré et exporté vers un serveur. Vous devez spécifier les détails du serveur afin que votre fournisseur de publipostage direct puisse accéder à ce fichier et l’utiliser pour diffuser du publipostage direct."
-<!-->
->additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;Créer un message de courrier&quot;—>
+
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
