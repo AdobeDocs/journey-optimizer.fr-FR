@@ -6,10 +6,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Avant d’envoyer des SMS, configurez votre instance. Vous devez [intégrer les 
 >id="ajo_admin_sms_api"
 >title="Configurer votre fournisseur de SMS avec Journey Optimizer"
 >abstract="Avant d’envoyer des SMS, vous devez intégrer les paramètres du fournisseur à Journey Optimizer. Une fois cette opération terminée, vous devrez créer une surface SMS. Ces étapes doivent être exécutées par un Administrateur système Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html?lang=fr#message-preset-sms" text="Création d’une surface de canal SMS"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="Création d’une surface de canal SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
