@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -53,9 +53,9 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Concevez un e-mail](../messages/get-started-content.md) pour annoncer que l’inscription à lʼévénement a débuté.
+1. [Concevez un e-mail](../email/get-started-email-design.md) pour annoncer que l’inscription à lʼévénement a débuté.
 
-1. [Insérez un lien](../design/message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** en tant que **[!UICONTROL Type de lien]** et sélectionnez la [Page de destination](create-lp.md#configure-primary-page) que vous avez créée pour lʼinscription.
+1. [Insérez un lien](../email/message-tracking.md#insert-links) dans le contenu de votre message. Sélectionnez **[!UICONTROL Page de destination]** en tant que **[!UICONTROL Type de lien]** et sélectionnez la [Page de destination](create-lp.md#configure-primary-page) que vous avez créée pour lʼinscription.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Créez un e-mail](../messages/get-started-content.md) dans un parcours.
+1. [Créez un e-mail](../email/get-started-email-design.md) dans un parcours.
 
-1. Sélectionnez du texte dans votre contenu et [insérez un lien](../design/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
+1. Sélectionnez du texte dans votre contenu et [insérez un lien](../email/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
 
    ![](assets/lp_opt-out-insert-link.png)
 

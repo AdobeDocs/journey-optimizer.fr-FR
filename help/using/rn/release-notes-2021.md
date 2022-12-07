@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
@@ -182,7 +182,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 <td>
 <p>Envoyez automatiquement vos notifications push ou vos e-mails au meilleur moment pour chaque client avec Adobe Journey Optimizer. L’optimisation de l’heure d’envoi, optimisée par les services d’IA d’Adobe, prédit le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clics historiques prêts à l’emploi.</p>
 <p>Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.</p>
-<p>Pour plus d'informations, consultez la <a href="../messages/send-time-optimization.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Concevoir du contenu**
 
-* **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../design/preview.md)
+* **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../email/preview.md)
 * **Lien d’opt-out en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**opt-out** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur opt-out. [En savoir plus](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personnalisation**
@@ -346,9 +346,9 @@ Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Pl
 
 **Prévisualiser et tester**
 
-* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../design/preview.md#preview-your-messages)
+* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../email/preview.md#preview-your-messages)
 * Le nombre d&#39;e-mails de test pour les BAT est maintenant limité à 10.
-* Les caractères autorisés pour le **préfixe de ligne d&#39;objet** dans les BAT sont maintenant limités. [En savoir plus](../design/preview.md#send-proofs)
+* Les caractères autorisés pour le **préfixe de ligne d&#39;objet** dans les BAT sont maintenant limités. [En savoir plus](../email/preview.md#send-proofs)
 
 **Personnalisation de l&#39;éditeur d&#39;expression**
 

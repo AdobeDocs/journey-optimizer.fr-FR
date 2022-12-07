@@ -5,9 +5,9 @@ description: Centre d’aide du produit Adobe Journey Optimizer
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
@@ -42,15 +42,10 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/design/design-emails.md">Conception d’un contenu d’e-mail</a>
+      <a href="using/email/get-started-email-design.md">Conception d’un contenu d’e-mail</a>
     </div>
     <p>
     Concevez un nouvel e-mail ou importez un contenu HTML existant.
-    <p>
-    <div>
-      <a href="using/messages/get-started-content.md">Envoi de messages</a>
-    </div>
-    <p>Découvrez comment ajouter des e-mails, des SMS et des notifications push dans vos parcours clients.
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Création de votre premier parcours</a>
@@ -127,7 +122,7 @@ ht-degree: 100%
     <p>
     <p>GESTION DE CONTENU</p>
     <li>
-      <a href="using/design/assets-essentials.md">Ressources</a>
+      <a href="using/email/assets-essentials.md">Ressources</a>
     </li>
     <p>
     <p>GESTION DES DONNÉES</p>

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
@@ -73,7 +73,7 @@ La logique de liste autorisée s’applique lorsque la fonctionnalité est activ
 
 >[!NOTE]
 >
->Lorsqu’elle est activée, la fonctionnalité de liste autorisée est respectée lors de l’exécution des parcours, mais également lors du test des messages avec des [BAT](../design/preview.md#send-proofs) et du test des parcours à l’aide du [mode test](../building-journeys/testing-the-journey.md).
+>Lorsqu’elle est activée, la fonctionnalité de liste autorisée est respectée lors de l’exécution des parcours, mais également lors du test des messages avec des [BAT](../email/preview.md#send-proofs) et du test des parcours à l’aide du [mode test](../building-journeys/testing-the-journey.md).
 
 ## Désactiver la liste autorisée {#deactivate-allow-list}
 

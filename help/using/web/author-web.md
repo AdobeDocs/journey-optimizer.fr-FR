@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 >[!CAUTION]
 >
->Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}.
+>Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
 1. Dans l’onglet **[!UICONTROL Action]** de la campagne, sélectionnez **[!UICONTROL Modifier le contenu]** pour commencer à créer votre campagne web.
 
@@ -61,7 +61,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    >[!CAUTION]
    >
-   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
+   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Cliquez sur **[!UICONTROL Ouvrir le concepteur web]** pour la modifier. [En savoir plus](author-web.md)
 
@@ -94,13 +94,13 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 1. Dans le volet **[!UICONTROL Composants]** à gauche, vous pouvez ajouter les composants suivants à votre page web et les modifier selon vos besoins :
 
-   * [Diviseur](../design/content-components.md#divider)
-   * [HTML](../design/content-components.md#HTML)
-   * [Image](../design/content-components.md#image)
-   * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../design/content-components.md#text)
-   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’email. [En savoir plus](../design/content-components.md#text)
-   * Lien - Découvrez comment définir le style du lien dans [cette section](../design/styling-links.md)
-   * [Décision d’offre](../design/deliver-personalized-offers.md)
+   * [Diviseur](../email/content-components.md#divider)
+   * [HTML](../email/content-components.md#HTML)
+   * [Image](../email/content-components.md#image)
+   * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
+   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’email. [En savoir plus](../email/content-components.md#text)
+   * Lien - Découvrez comment définir le style du lien dans [cette section](../email/styling-links.md)
+   * [Décision d’offre](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -116,7 +116,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    ![](assets/web-designer-html-style.png)
 
-## Naviguer dans le concepteur web
+##  Naviguer dans le concepteur web
 
 ### Utiliser des chemins de navigation
 
@@ -188,7 +188,7 @@ Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de
 
 ![](assets/web-designer-personalization.png)
 
-Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [offres](../offers/get-started/starting-offer-decisioning.md) dans vos pages web. Le processus est le même que pour l’[ajout d’une offre à un e-mail](../design/deliver-personalized-offers.md). Il tire profit de la gestion des décisions pour choisir la meilleure offre à fournir à vos clients.
+Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [offres](../offers/get-started/starting-offer-decisioning.md) dans vos pages web. Le processus est le même que pour l’[ajout d’une offre à un e-mail](../email/add-offers-email.md). Il tire profit de la gestion des décisions pour choisir la meilleure offre à fournir à vos clients.
 
 ![](assets/web-designer-offer.png)
 

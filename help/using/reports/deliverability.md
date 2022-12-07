@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 93%
@@ -71,7 +71,7 @@ Pour améliorer votre taux de délivrabilité et vous assurer que vos emails att
 
 * **Lien de désinscription et page de destination** : le lien de désinscription est essentiel. Il doit être visible et valide, et le formulaire doit fonctionner.
 
-[En savoir plus sur la conception du contenu des emails](../design/design-emails.md).
+[En savoir plus sur la conception du contenu des emails](../email/get-started-email-design.md).
 
 ## Asseyez votre réputation dʼexpéditeur.
 

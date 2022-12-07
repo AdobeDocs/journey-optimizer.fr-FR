@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Lorsque vous créez un e-mail, vous pouvez ajouter une personnalisation dans le 
 
 Dans le Concepteur d&#39;email, vous pouvez personnaliser le contenu :
 
-* Dans le **message** : cliquez dans un bloc de texte, puis cliquez sur l&#39;icône **Personnaliser** dans la barre d&#39;outils contextuelle et sélectionnez le champ **Insérer une personnalisation**. Pour plus d&#39;informations sur l&#39;interface du Concepteur d&#39;email, reportez-vous à [cette section](../design/design-emails.md).
+* Dans le **message** : cliquez dans un bloc de texte, puis cliquez sur l&#39;icône **Personnaliser** dans la barre d&#39;outils contextuelle et sélectionnez le champ **Insérer une personnalisation**. Pour plus d&#39;informations sur l&#39;interface du Concepteur d&#39;email, reportez-vous à [cette section](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
@@ -55,7 +55,7 @@ Vous pouvez également personnaliser vos **notifications push** dans les champs 
 
 ![](assets/perso_push.png)
 
-Pour en savoir plus sur la configuration des notifications push, consultez [cette section](../configuration/push-gs.md).
+Pour en savoir plus sur la configuration des notifications push, consultez [cette section](../push/push-gs.md).
 
 ## Personnalisation de vos offres {#personalize-offers}
 

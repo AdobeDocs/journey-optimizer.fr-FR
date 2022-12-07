@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '478'
 ht-degree: 100%
 
 ---
@@ -20,6 +20,32 @@ ht-degree: 100%
 Une fois qu’une campagne a été activée, vous pouvez la modifier ou l’arrêter à tout moment. Ces opérations sont disponibles pour les campagnes dont l’exécution est récurrente uniquement.
 
 De plus, vous pouvez dupliquer des campagnes dynamiques (exécutées une fois ou de manière récurrente) pour en créer de nouvelles et archiver les campagnes terminées ou arrêtées.
+
+## Accès aux campagnes {#access}
+
+Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
+
+Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées.
+
+Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
+
+![](assets/create-campaign-list.png)
+
+## Statuts des campagnes {#statuses}
+
+Les campagnes peuvent avoir plusieurs statuts :
+
+* **[!UICONTROL Brouillon]** : la campagne est en cours de modification et n’est pas active.
+* **[!UICONTROL Activation]** : la campagne est en cours d’activation.
+* **[!UICONTROL Actif]** : la campagne est active.
+* **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date de début spécifique.
+* **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ni la réutiliser. [Découvrez comment arrêter une campagne.](modify-stop-campaign.md#stop)
+* **[!UICONTROL Terminé]** : la campagne est terminée. Ce statut est automatiquement attribué 3 jours après l’activation d’une campagne, ou à la date de fin de la campagne si son exécution est récurrente.
+* **[!UICONTROL Archivé]** : la campagne a été archivée. [Découvrez comment archiver des campagnes.](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée. [En savoir plus](modify-stop-campaign.md#modify).
 
 ## Modifier une campagne récurrente {#modify}
 

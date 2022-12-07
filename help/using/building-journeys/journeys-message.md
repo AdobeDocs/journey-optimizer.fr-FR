@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 73%
+source-wordcount: '707'
+ht-degree: 86%
 
 ---
 
 # E-mail, SMS, Push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une activité de message push, SMS ou e-mail et [définir les paramètres et le contenu](../messages/messages-in-journeys.md). Elle est ensuite exécutée et envoyée dans le contexte du parcours..
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une activité de message push, SMS ou e-mail et définir les paramètres et le contenu. Il est ensuite exécuté et envoyé dans le contexte du parcours.
 
 Vous pouvez également configurer des actions spécifiques pour vous envoyer des messages :
 
@@ -34,10 +34,38 @@ Pour ajouter un message dans un parcours, procédez comme suit :
 
 1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité **E-mail**, **SMS** ou **Push** dans la zone de travail.
 
-   ![](../messages/assets/add-a-message.png)
+1. Configurez votre activité. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
-
-   Toutes les étapes de paramétrage du message et de définition de son contenu sont présentées dans [cette section](../messages/get-started-content.md).
+   <table style="table-layout:fixed">
+   <tr style="border: 0;">
+   <td>
+   <a href="../email/create-email.md">
+   <img alt="Prospect" src="../assets/do-not-localize/email.jpg">
+   </a>
+   <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../push/create-push.md">
+   <img alt="Peu fréquent" src="../assets/do-not-localize/push.jpg">
+   </a>
+   <div>
+   <a href="../push/create-push.md"><strong>Créer des notifications push<strong></a>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../sms/create-sms.md">
+   <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
+   </a>
+   <div>
+   <a href="../sms/create-sms.md"><strong>Création de SMS</strong></a>
+   </div>
+   <p>
+   </td>
+   </tr>
+   </table>
 
 ## Mettre à jour le contenu en direct{#update-live-content}
 
@@ -48,3 +76,51 @@ Pour ce faire, ouvrez votre parcours en direct, sélectionnez l’activité de m
 ![](assets/add-a-message2.png)
 
 Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnalisation, qu’il s’agisse d’attributs de profil ou de données contextuelles (à partir des propriétés d’événement ou de parcours).
+
+## Optimisation de l’heure d’envoi{#send-time-optimization}
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_disabled"
+>title="À propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
+>abstract="La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic."
+
+### À propos de l’optimisation du temps d’envoi {#about-send-time}
+
+La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. Utilisez notre modèle d&#39;apprentissage automatique pour planifier des heures d&#39;envoi personnalisées afin que chaque utilisateur augmente les taux d&#39;ouverture et de clic de vos messages.
+
+Le modèle d&#39;optimisation de l&#39;heure d&#39;envoi ingère vos données Adobe Journey Optimizer et examine les taux d&#39;ouverture au niveau de l&#39;utilisateur (pour les e-mails et les notifications push) et de clics (pour les e-mails) afin de déterminer à quel moment vos clients sont les plus susceptibles d&#39;interagir avec vos messages. L&#39;optimisation de l&#39;heure d&#39;envoi nécessite au moins un mois de données de suivi des messages pour formuler des recommandations éclairées. Pour chaque utilisateur, le système sélectionne automatiquement la meilleure heure à l’aide des scores suivants :
+
+* La meilleure heure de chaque jour de la semaine pour optimiser l&#39;engagement
+* Le meilleur jour de la semaine pour optimiser l&#39;engagement
+* La meilleure heure du meilleur jour de la semaine pour optimiser l&#39;engagement
+
+Le modèle varie selon que vous parlez de notation ou de formation. La formation est dispensée une fois par semaine, puis une fois par trimestre. La notation est d&#39;abord hebdomadaire, puis mensuelle.
+
+* Formation : développement de l&#39;algorithme utilisé pour calculer le score.
+* Notation : application d&#39;un score à des profils individuels en fonction du modèle formé.
+
+Ces informations sont stockées avec le profil de l&#39;utilisateur et sont référencées lors de l&#39;exécution du parcours pour indiquer à Adobe Journey Optimizer quand envoyer votre message.
+
+>[!CAUTION]
+>
+>Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
+
+### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_email"
+>title="Activer l’optimisation de l’heure d’envoi"
+>abstract="Choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_push"
+>title="Activer l’optimisation de l’heure d’envoi"
+>abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
+
+Activez l’optimisation de l’heure d’envoi sur un e-mail ou une notification push en sélectionnant le commutateur **Optimisation de l’heure d’envoi** dans les paramètres d’activité.
+
+![](../building-journeys/assets/jo-message5.png)
+
+Pour les e-mails, choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push.
+
+Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option **Envoyer pendant**. Si vous choisissez « six heures » comme valeur, [!DNL Journey Optimizer] vérifie chaque profil utilisateur et sélectionne l’heure d’envoi optimale dans les six heures suivant l’heure d’exécution du parcours.

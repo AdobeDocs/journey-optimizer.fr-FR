@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
@@ -33,9 +33,39 @@ Avant d’envoyer des messages in-app, vous devez :
 
 Une fois cette opération terminée, vous pouvez créer, configurer et envoyer votre premier message in-app. Découvrez comment accomplir cela dans [cette section](create-in-app.md).
 
-**Rubriques connexes :**
-
-* [Créer un message in-app](create-in-app.md)
-* [Concevoir un message in-app](design-in-app.md)
-* [Rapport in-app](inapp-report.md)
-* [Configuration in-app](inapp-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-in-app.md">
+<img alt="Prospect" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div><a href="create-in-app.md"><strong>Créer un message in-app</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-in-app.md">
+<img alt="Peu fréquent" src="../assets/do-not-localize/inapp-design.jpg">
+</a>
+<div>
+<a href="design-in-app.md"><strong>Concevoir votre contenu in-app</strong></a>
+</div>
+<p></td>
+<td>
+<a href="inapp-report.md">
+<img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="inapp-report.md"><strong>Rapport in-app</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validation" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>Configurer le canal in-app</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

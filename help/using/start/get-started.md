@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '699'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les poin
 **Voir également**
 
 * [Étapes clés pour débuter](quick-start.md)
-* [Créer votre premier message](../messages/get-started-content.md)
 * [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md)
 * [Rapports dynamiques](../reports/live-report.md)
 * [FAQ sur Journey Optimizer](assets/do-not-localize/AJO-FAQ.pdf) (PDF)

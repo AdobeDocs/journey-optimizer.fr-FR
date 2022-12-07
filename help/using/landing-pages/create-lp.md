@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 100%
@@ -182,7 +182,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous pouvez insérer un lien vers la page principale depuis n&#39;importe quelle sous-page de la même page de destination. Par exemple, pour rediriger les utilisateurs qui ont commis une erreur et qui souhaitent s’abonner à nouveau, vous pouvez ajouter un lien depuis la sous-page de confirmation vers la page principale d’abonnement. Découvrez comment insérer des liens dans [cette section](../design/message-tracking.md#insert-links).
+   >Vous pouvez insérer un lien vers la page principale depuis n&#39;importe quelle sous-page de la même page de destination. Par exemple, pour rediriger les utilisateurs qui ont commis une erreur et qui souhaitent s’abonner à nouveau, vous pouvez ajouter un lien depuis la sous-page de confirmation vers la page principale d’abonnement. Découvrez comment insérer des liens dans [cette section](../email/message-tracking.md#insert-links).
 
 1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
    ![](assets/lp_test-profiles.png)
 
-   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../design/preview.md#select-test-profiles).
+   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../email/preview.md#select-test-profiles).
 
 1. Sélectionnez lʼonglet **[!UICONTROL Prévisualisation]** et cliquez sur **[!UICONTROL Ouvrir la prévisualisation]** pour tester votre page de destination.
 
@@ -275,7 +275,7 @@ Une fois votre page de destination configurée, vous pouvez la publier pour quʼ
 
 Une fois votre page de destination publiée, elle est ajoutée à la liste de pages de destination avec le statut **[!UICONTROL Publié]**.
 
-Votre page est désormais en ligne et peut être utilisée dans un [!DNL Journey Optimizer] [message](../messages/get-started-content.md) qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
+Votre page est désormais en ligne et peut être utilisée dans un [!DNL Journey Optimizer] message qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
 
 >[!NOTE]
 >

@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
@@ -155,7 +155,7 @@ Les URL personnalisées orientent les destinataires vers des pages spécifiques 
 
 Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre message en leur ajoutant des champs de personnalisation. Pour personnaliser une URL, procédez comme suit :
 
-1. Créez un lien dans le contenu de votre message. [En savoir plus](../design/message-tracking.md#insert-links)
+1. Créez un lien dans le contenu de votre message. [En savoir plus](../email/message-tracking.md#insert-links)
 1. Sélectionnez les attributs à partir de l’icône de personnalisation. L’icône de personnalisation nʼest disponible que pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
 
 ![](assets/perso-url.png)
