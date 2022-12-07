@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des parcours
+title: Création de votre premier parcours
 description: Étapes clés de création de votre premier parcours avec Adobe Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Prise en main des parcours{#jo-quick-start}
+# Création de votre premier parcours{#jo-quick-start}
 
 ## Conditions préalables{#start-prerequisites}
 
@@ -93,7 +93,7 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 ### Entrée{#entrance}
 
-Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c&#39;est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
+Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez décocher l’option pour les parcours &quot;Une seule prise&quot;, par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu’une personne entre dans une boutique.
 
 Pour en savoir plus sur la gestion des entrées de profil, consultez [cette section](entry-management.md).
 
