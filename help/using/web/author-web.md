@@ -116,7 +116,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    ![](assets/web-designer-html-style.png)
 
-##  Naviguer dans le concepteur web
+## Naviguer dans le concepteur web
 
 ### Utiliser des chemins de navigation
 
