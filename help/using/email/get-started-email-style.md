@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Conception d'emails
-description: Découvrez comment ajuster le style de contenu de votre email
+title: Prise en main du style email
+description: Découvrez les différentes manières d'ajuster le style de contenu de votre email
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '115'
+ht-degree: 0%
 
 ---
 
-# Prise en main du style de contenu des emails {#get-started-email-style}
+# Prise en main du style email {#get-started-email-style}
 
 Une fois que vous avez commencé à créer le contenu de votre email dans [!DNL Journey Optimizer], vous pouvez ajuster un certain nombre de paramètres et d’attributs de style dans le volet Paramètres du Concepteur d’email .
 

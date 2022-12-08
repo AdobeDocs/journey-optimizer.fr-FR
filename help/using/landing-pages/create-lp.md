@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 100%
@@ -72,7 +72,7 @@ Suivez les étapes de création dʼune page de destination décrites ci-après.
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. Sélectionnez un préréglage. Découvrez comment créer des préréglages de page de destination dans [cette section](../configuration/lp-presets.md#lp-create-preset).
+1. Sélectionnez un préréglage. Découvrez comment créer des préréglages de page de destination dans [cette section](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_open-designer.png)
 
-1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du [préréglage](../configuration/lp-presets.md#lp-create-preset) que vous avez sélectionné. [En savoir plus](../configuration/lp-subdomains.md)
+1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du [préréglage](../landing-pages/lp-presets.md#lp-create-preset) que vous avez sélectionné. [En savoir plus](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
    >
    >Vous pouvez insérer un lien vers la page principale depuis n&#39;importe quelle sous-page de la même page de destination. Par exemple, pour rediriger les utilisateurs qui ont commis une erreur et qui souhaitent s’abonner à nouveau, vous pouvez ajouter un lien depuis la sous-page de confirmation vers la page principale d’abonnement. Découvrez comment insérer des liens dans [cette section](../email/message-tracking.md#insert-links).
 
-1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../configuration/lp-subdomains.md)
+1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

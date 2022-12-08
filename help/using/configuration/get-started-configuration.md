@@ -8,10 +8,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 70%
+source-wordcount: '381'
+ht-degree: 54%
 
 ---
 
@@ -24,21 +24,31 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
 ## Configuration des messages et des canaux
 
-Définissez les surfaces des canaux, adaptez et personnalisez les messages.
+1. Pour pouvoir créer et envoyer des messages, vous devez effectuer des paramétrages spécifiques en fonction du canal.
 
-* [Déléguer pour Adobe les sous-domaines](about-subdomain-delegation.md) vous souhaitez utiliser pour envoyer des emails et [créer des pools d’adresses IP ;](ip-pools.md) pour regrouper les adresses IP configurées avec votre instance.
+   * Pour le **Email** canal, vous devez déléguer des sous-domaines à l’Adobe et créer des pools d’adresses IP pour regrouper les adresses IP. [En savoir plus](../email/get-started-email-config.md)
 
-* Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
+   * Pour le **Push** canal, vous devez définir les paramètres des notifications push dans les deux [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push/push-configuration.md)
 
-* Définissez les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push/push-gs.md)
+   * Pour le **SMS** , vous devez configurer votre instance pour envoyer des SMS, y compris en intégrant les paramètres du fournisseur à [!DNL Journey Optimizer]. [En savoir plus](../sms/sms-configuration.md)
 
-   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. Une fois cette opération terminée, vous devez créer **surfaces des canaux** pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
 
-* Configurez votre instance pour envoyer des SMS (actuellement disponible uniquement pour un ensemble d’organisations - Disponibilité limitée). [En savoir plus](../sms/sms-configuration.md)
+1. Vous pouvez également réaliser les opérations suivantes :
 
-* Créez des surfaces de canaux pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
+   * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 
-* Déterminez l’adresse électronique et/ou le numéro de téléphone à utiliser en priorité pour vos destinataires lorsque plusieurs adresses/numéros sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
+   * Activez la variable **Option d’email BBC** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
+
+   * Configurer **règles de fréquence** pour éviter de sur-solliciter vos destinataires. [En savoir plus](frequency-rules.md)
+
+   * Déterminez l’adresse électronique et/ou le numéro de téléphone à utiliser en priorité pour vos destinataires lorsque plusieurs adresses/numéros sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>Ces étapes doivent être exécutées par un [Administrateur système Adobe Journey Optimizer](../start/path/administrator.md).
 
 ## Configurer des parcours
 
