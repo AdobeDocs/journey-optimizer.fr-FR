@@ -1,6 +1,6 @@
 ---
-title: Liste des offres de secours
-description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
+title: Lister des offres de secours
+description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Liste des offres de secours {#list-fallback-offers}
+# Lister des offres de secours {#list-fallback-offers}
 
-Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
+Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d’une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d’une offre.
 
-Vous pouvez afficher une liste de toutes les offres de secours au sein d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
+Vous pouvez afficher une liste de toutes les offres de secours au sein d’un conteneur en adressant une seule requête GET à la variable [!DNL Offer Library] API.
 
 **Format d’API**
 
@@ -27,10 +27,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les offres de secours. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Définit le schéma associé aux offres de secours. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=1` |
+| `{QUERY_PARAMS}` | Paramètres de requête facultatifs pour filtrer les résultats. | `limit=1` |
 
 **Requête**
 
@@ -46,18 +46,18 @@ curl -X GET \
 
 ## Utilisation des paramètres de requête {#using-query-parameters}
 
-Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
+Vous pouvez utiliser des paramètres de requête pour page et filtrer les résultats lors de la mise en liste des ressources.
 
 ### Pagination {#paging}
 
-Les paramètres de requête les plus courants pour la pagination sont les suivants :
+Les paramètres de requête les plus courants pour la pagination sont les suivants :
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | `default` |
-| `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
-| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
-| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
+| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l’empêcher d’être segmentée en unités lexicales et pour échapper les caractères spéciaux. Les caractères `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d’une barre oblique inverse lorsqu’ils apparaissent dans la chaîne de requête. | `default` |
+| `qop` | Applique l’opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
+| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,champ=champ2,...] et (les expressions de chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Triez les résultats selon une propriété spécifique. Ajouter un `-` avant le titre (`orderby=-title`) triera les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limitez le nombre d’offres de secours renvoyées. | `limit=5` |
 
 **Réponse**

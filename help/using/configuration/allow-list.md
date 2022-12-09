@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Liste autorisée
-description: Découvrez comment utiliser la liste autorisée.
+description: Découvrez comment utiliser la liste autorisée
 feature: Deliverability
 topic: Content Management
 role: User
@@ -10,130 +10,130 @@ level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 0%
 
 ---
 
 # Liste autorisée {#allow-list}
 
-Il est possible de définir une liste de sécurité d’envoi spécifique au niveau de la [sandbox](../administration/sandboxes.md).
+Il est possible de définir une liste de sécurité d’envoi spécifique à l’adresse [sandbox](../administration/sandboxes.md) niveau.
 
-La liste autorisée vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d’une sandbox spécifique.
+Cette liste autorisée vous permet de spécifier des adresses électroniques ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les courriers électroniques que vous envoyez à partir d’un environnement de test spécifique.
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible sur les sandbox de production et hors production.
+>Cette fonctionnalité est disponible sur les environnements de test de production et hors production.
 
-Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous ne risquez pas d’envoyer des messages indésirables à de vraies adresses client et fournit donc un environnement sécurisé à des fins de test.
+Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée vous garantit que vous n’avez aucun risque d’envoyer des messages indésirables à des adresses client réelles et fournit donc un environnement sécurisé à des fins de test.
 
-De plus, lorsque la liste autorisée est active mais vide, aucun e-mail ne sera envoyé. Par conséquent, si vous rencontrez un problème majeur, vous pouvez utiliser cette fonctionnalité pour arrêter toutes les communications sortantes depuis [!DNL Journey Optimizer] jusqu’à ce que vous résolviez le problème. En savoir plus sur la [logique de liste autorisée](#logic).
+En outre, lorsque la liste autorisée est active mais vide, aucun courrier ne sera envoyé. Par conséquent, si vous rencontrez un problème majeur, vous pouvez utiliser cette fonctionnalité pour arrêter toutes les communications sortantes depuis [!DNL Journey Optimizer] jusqu&#39;à ce que vous résolviez le problème. En savoir plus sur la [logique de liste autorisée](#logic).
 
 >[!CAUTION]
 >
->Cette fonctionnalité s&#39;applique uniquement au canal e-mail.
+>Cette fonctionnalité s’applique uniquement au canal email.
 
-## Accès à la liste autorisée {#access-allowed-list}
+## Accéder à la liste autorisée {#access-allowed-list}
 
-Pour accéder à la liste détaillée des adresses e-mail et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
+Pour accéder à la liste détaillée des adresses email et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, puis sélectionnez **[!UICONTROL Allowed list]**.
 
 ![](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
->Les autorisations d’affichage, d’export et de gestion de la liste autorisée sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>Les autorisations d’affichage, d’exportation et de gestion de la liste autorisée sont limitées à [Administrateurs de parcours](../administration/ootb-product-profiles.md#journey-administrator). En savoir plus sur la gestion [!DNL Journey Optimizer] droits d’accès des utilisateurs dans [cette section](../administration/permissions-overview.md).
 
-Pour exporter la liste autorisée au format CSV, cliquez sur le bouton **[!UICONTROL Télécharger CSV]**.
+Pour exporter la liste autorisée au format CSV, sélectionnez la variable **[!UICONTROL Download CSV]** bouton .
 
-Utilisez le bouton **[!UICONTROL Supprimer]** pour supprimer définitivement une entrée.
+Utilisez la variable **[!UICONTROL Delete]** pour supprimer définitivement une entrée.
 
-Vous pouvez effectuer des recherches sur les adresses e-mail ou domaines, puis filtrer selon le **[!UICONTROL Type d’adresse]**. Une fois sélectionné, vous pouvez effacer le filtre affiché en haut de la liste.
+Vous pouvez effectuer des recherches sur les adresses ou domaines de courriel, puis filtrer selon le **[!UICONTROL Address type]**. Une fois sélectionné, vous pouvez effacer le filtre affiché en haut de la liste.
 
 ![](assets/allowed-list-filtering-example.png)
 
-## Activer la liste autorisée {#enable-allow-list}
+## Activation de la liste autorisée {#enable-allow-list}
 
 Pour activer la liste autorisée, procédez comme suit.
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste autorisée]**.
+1. Accédez au  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** .
 
-1. Sélectionnez le bouton bascule.
+1. Sélectionnez le bouton de basculement.
 
    ![](assets/allow-list-edit.png)
 
-1. Sélectionnez **[!UICONTROL Activer la liste autorisée]**. La liste autorisée est maintenant active.
+1. Sélectionner **[!UICONTROL Activate allowed list]**. La liste autorisée est désormais active.
 
    ![](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
-   >Une fois la liste autorisée activée, une latence de 5 minutes est nécessaire pour qu’elle prenne effet dans vos parcours et vos campagnes.
+   >Une fois la liste autorisée activée, une latence de 5 minutes s’applique pour qu’elle prenne effet dans vos parcours et campagnes.
 
-La logique de liste autorisée s’applique lorsque la fonctionnalité est activée. En savoir plus dans [cette section](#logic).
+La logique de liste autorisée s’applique lorsque la fonction est active. En savoir plus dans [cette section](#logic).
 
 >[!NOTE]
 >
->Lorsqu’elle est activée, la fonctionnalité de liste autorisée est respectée lors de l’exécution des parcours, mais également lors du test des messages avec des [BAT](../email/preview.md#send-proofs) et du test des parcours à l’aide du [mode test](../building-journeys/testing-the-journey.md).
+>Lorsqu’elle est activée, la fonction de liste autorisée est respectée lors de l’exécution des parcours, mais également lors du test des messages avec [proofs](../email/preview.md#send-proofs) et tester les parcours à l’aide de la fonction [mode test](../building-journeys/testing-the-journey.md).
 
-## Désactiver la liste autorisée {#deactivate-allow-list}
+## Désactivation de la liste autorisée {#deactivate-allow-list}
 
 Pour désactiver la liste autorisée, procédez comme suit.
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste autorisée]**.
+1. Accédez au  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** .
 
-1. Sélectionnez le bouton bascule.
+1. Sélectionnez le bouton de basculement.
 
    ![](assets/allow-list-edit-active.png)
 
-1. Sélectionnez **[!UICONTROL Désactiver la liste autorisée]**. La liste autorisée n’est plus active.
+1. Sélectionner **[!UICONTROL Deactivate allowed list]**. La liste autorisée n’est plus active.
 
    ![](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
-   >Une fois la liste autorisée désactivée, une latence de 5 minutes est nécessaire pour qu’elle prenne effet dans vos parcours et vos campagnes.
+   >Une fois la liste autorisée désactivée, une latence de 5 minutes s’applique pour qu’elle prenne effet dans vos parcours et campagnes.
 
 La logique de liste autorisée ne s’applique pas lorsque la fonction est désactivée. En savoir plus dans [cette section](#logic).
 
-## Ajout d&#39;entités à la liste autorisée {#add-entities}
+## Ajouter des entités à la liste autorisée {#add-entities}
 
-Pour ajouter des adresses e-mail ou des domaines à la liste autorisée pour un sandbox spécifique, vous pouvez [renseigner manuellement la liste](#manually-populate-list) ou utiliser un [appel API](#api-call-allowed-list).
+Pour ajouter de nouvelles adresses électroniques ou de nouveaux domaines à la liste autorisée pour un environnement de test spécifique, vous pouvez : [renseigner manuellement la liste](#manually-populate-list), ou utilisez un [appel API](#api-call-allowed-list).
 
 >[!NOTE]
 >
->La liste autorisée peut contenir jusqu&#39;à 1 000 entrées.
+>La liste autorisée peut contenir jusqu’à 1 000 entrées.
 
 ### Remplissage manuel de la liste autorisée {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
 >title="Ajouter des adresses ou des domaines à la liste autorisée"
->abstract="Vous pouvez ajouter manuellement des adresses e-mail ou des domaines à la liste autorisée en les sélectionnant un par un."
+>abstract="Vous pouvez ajouter manuellement de nouvelles adresses ou domaines de messagerie à la liste autorisée en les sélectionnant une par une."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="Ajouter des adresses ou des domaines à la liste autorisée"
->abstract="Vous pouvez ajouter manuellement des adresses e-mail ou des domaines à la liste autorisée en les sélectionnant un par un."
+>abstract="Vous pouvez ajouter manuellement de nouvelles adresses ou domaines de messagerie à la liste autorisée en les sélectionnant une par une."
 
-Vous avez la possibilité de renseigner manuellement la liste autorisée [!DNL Journey Optimizer] en ajoutant une adresse e-mail ou un domaine par le biais de l’interface utilisateur.
+Vous pouvez renseigner manuellement la variable [!DNL Journey Optimizer] liste autorisée en ajoutant une adresse électronique ou un domaine via l’interface utilisateur.
 
 >[!NOTE]
 >
->Vous ne pouvez ajouter qu’une seule adresse e-mail ou seul domaine à la fois.
+>Vous ne pouvez ajouter qu’une seule adresse électronique ou domaine à la fois.
 
-Pour ce faire, suivez les étapes ci-après.
+Pour ce faire, procédez comme suit.
 
-1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
+1. Sélectionnez la **[!UICONTROL Add email or domain]** bouton .
 
    ![](assets/allowed-list-add-email.png)
 
-1. Choisissez le type d&#39;adresse : **[!UICONTROL Adresse e-mail]** ou **[!UICONTROL Adresse de domaine]**.
+1. Choisissez le type d&#39;adresse : **[!UICONTROL Email address]** ou **[!UICONTROL Domain address]**.
 
-1. Saisissez l’adresse e-mail ou le domaine vers lesquels vous souhaitez envoyer des e-mails.
+1. Saisissez l&#39;adresse email ou le domaine vers lequel vous souhaitez envoyer des emails.
 
    >[!NOTE]
    >
-   >Veillez à saisir une adresse e-mail (par exemple abc@company) ou un domaine valide (par exemple abc.company.com).
+   >Veillez à saisir une adresse électronique (abc@company.com, par exemple) ou un domaine (abc.company.com, par exemple) valide.
 
 1. Indiquez un motif si nécessaire.
 
@@ -141,48 +141,48 @@ Pour ce faire, suivez les étapes ci-après.
 
    >[!NOTE]
    >
-   >Tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ **[!UICONTROL Motif]**. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
+   >Tous les caractères ASCII compris entre 32 et 126 sont autorisés dans la variable **[!UICONTROL Reason]** champ . La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
 
-1. Cliquez sur **[!UICONTROL Envoyer]**.
+1. Cliquez sur **[!UICONTROL Submit]**.
 
 ### Ajout d’entités à l’aide d’un appel API {#api-call-allowed-list}
 
-Pour renseigner la liste autorisée, vous pouvez également appeler l’API de suppression avec la valeur `ALLOWED` pour l’attribut `listType`. Par exemple :
+Pour remplir la liste autorisée, vous pouvez également appeler l’API de suppression avec l’événement `ALLOWED` de la variable `listType` attribut. Par exemple :
 
 ![](assets/allow-list-api.png)
 
-Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
+Vous pouvez effectuer les opérations suivantes : **Ajouter**, **Supprimer** et **Get** opérations.
 
-Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target=&quot;_blank&quot;}.
+En savoir plus sur l’émission d’appels API dans [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html)Documentation de référence {target=&quot;_blank&quot;}.
 
 ## Logique de liste autorisée {#logic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
->title="Gérer la liste autorisée"
->abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans cette liste reçoivent des e-mails de cette sandbox. Lorsqu’elle est désactivée, tous les destinataires reçoivent des e-mails."
+>title="Gestion de la liste autorisée"
+>abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans la liste autorisée recevront des messages électroniques de cet environnement de test. Lorsque cette option est désactivée, tous les destinataires reçoivent des emails."
 
-Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suivante s’applique :
+Lorsque la liste autorisée est [active](#enable-allow-list), la logique suivante s’applique :
 
-* Si la liste autorisée est **vide**, aucun e-mail ne sera envoyé.
+* Si la liste autorisée est **empty**, aucun email ne sera envoyé.
 
-* Si une entité est **sur la liste autorisée** et non sur la liste de suppression, l’e-mail peut être envoyé au(x) destinataire(s) correspondant(s). Cependant, si l&#39;entité figure également sur la [liste de suppression](../reports/suppression-list.md), le destinataire correspondant ne recevra pas l’e-mail, la raison étant **[!UICONTROL Supprimé]**.
+* Si une entité est **sur la liste autorisée**, et non sur la liste de suppression, l’email est envoyé au ou aux destinataires correspondants. Cependant, si l’entité figure également sur la variable [liste de suppression](../reports/suppression-list.md), le ou les destinataires correspondants ne recevront pas l&#39;email, la raison étant **[!UICONTROL Suppressed]**.
 
-* Si une entité **n’est pas sur la liste autorisée** (et pas sur la liste de suppression), le destinataire correspondant ne recevra pas l’e-mail, la raison étant **[!UICONTROL Non autorisé]**.
+* Si une entité est **ne figure pas dans la liste autorisée** (et non sur la liste de suppression), le ou les destinataires correspondants ne recevront pas l&#39;email, la raison étant **[!UICONTROL Not allowed]**.
 
 >[!NOTE]
 >
->Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports sur les parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports sur les e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
+>Les profils avec **[!UICONTROL Not allowed]** sont exclus pendant le processus d’envoi des messages. Par conséquent, si la variable **Rapports de parcours** affiche ces profils comme ayant traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [activités de message](../building-journeys/journeys-message.md)), la variable **Rapports par courriel** ne les inclut pas dans la variable **[!UICONTROL Sent]** les mesures telles qu’elles sont filtrées avant l’envoi des emails.
 >
->En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport global](../reports/global-report.md).
+>En savoir plus sur la [Rapport en direct](../reports/live-report.md) et [Rapport global](../reports/global-report.md).
 
-Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les e-mails que vous envoyez à partir de la sandbox actuelle sont envoyés à tous les destinataires (à condition qu’ils ne figurent pas dans la liste de suppression), y compris les adresses réelles des clients.
+Lorsque la liste autorisée est [désactivé](#deactivate-allow-list), tous les emails que vous envoyez à partir de l’environnement de test actuel sont envoyés à tous les destinataires (à condition qu’ils ne figurent pas dans la liste de suppression), y compris les adresses réelles des clients.
 
 ## Rapport d’exclusion {#reporting}
 
-Lorsque la liste autorisée est active, vous pouvez récupérer les adresses e-mail ou les domaines qui ont été exclus d’un envoi, car ils ne figuraient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;} pour effectuer les appels API ci-dessous.
+Lorsque la liste autorisée est active, vous pouvez récupérer les adresses électroniques ou les domaines qui ont été exclus d’un envoi car ils ne figuraient pas dans la liste autorisée. Pour ce faire, vous pouvez utiliser la variable [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} pour effectuer les appels API ci-dessous.
 
-Pour obtenir le **nombre d’e-mails** qui n’ont pas été envoyés car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
+Pour obtenir le **nombre d&#39;emails** qui n’ont pas été envoyés car les destinataires ne se trouvaient pas dans la liste autorisée, utilisez la requête suivante :
 
 ```sql
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -191,7 +191,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-Pour obtenir la **liste des adresses e-mail** qui n’ont pas été envoyées car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
+Pour obtenir le **liste des adresses email** qui n’ont pas été envoyés car les destinataires ne se trouvaient pas dans la liste autorisée, utilisez la requête suivante :
 
 ```sql
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE

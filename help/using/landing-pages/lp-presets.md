@@ -1,92 +1,92 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Définir les préréglages de page de destination
-description: Découvrez comment configurer votre environnement pour créer et utiliser des pages de destination avec Journey Optimizer.
+title: Définition des paramètres prédéfinis de page d’entrée
+description: Découvrez comment configurer votre environnement pour créer et utiliser des landing pages avec Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
-# Définir les préréglages de page de destination {#lp-presets}
+# Définition des paramètres prédéfinis de page d’entrée {#lp-presets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
->title="Créer un préréglage de la page de destination"
->abstract="Pour pouvoir construire une page de destination et l’exploiter via Journey Optimizer, vous devez créer un préréglage de page de destination qui inclura le sous-domaine à utiliser."
+>title="Créer un paramètre prédéfini de landing page"
+>abstract="Pour créer une landing page et l’exploiter via Journey Optimizer, vous devez créer un paramètre prédéfini de page d’entrée qui inclut le sous-domaine à utiliser."
 
-Lors de la [conception dʼune page de destination](../landing-pages/create-lp.md#create-a-lp), vous devez sélectionner un préréglage de page de destination pour pouvoir créer la page de destination et lʼutiliser avec **[!DNL Journey Optimizer]**.
+When [création d&#39;une landing page](../landing-pages/create-lp.md#create-a-lp), vous devez sélectionner un paramètre prédéfini de page d’entrée pour pouvoir créer la page d’entrée et l’exploiter au moyen de la fonction **[!DNL Journey Optimizer]**.
 
-## Accéder aux préréglages de la page de destination {#access-lp-presets}
+## Accès aux paramètres prédéfinis de page d’entrée {#access-lp-presets}
 
-Pour accéder aux préréglages de la page de destination, procédez comme suit.
+Pour accéder aux paramètres prédéfinis de landing page, procédez comme suit.
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
+1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Channels]** .
 
-1. Sélectionnez **[!UICONTROL Marques]** > **[!UICONTROL Préréglages de page de destination]**.
+1. Sélectionner **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
    ![](assets/lp_presets-access.png)
 
-1. Cliquez sur un libellé de préréglage de page de destination pour consulter ses détails.
+1. Cliquez sur un libellé de paramètre prédéfini pour accéder aux détails du paramètre prédéfini de page d’entrée.
 
    ![](assets/lp_preset-details.png)
 
-## Créer un préréglage de la page de destination {#lp-create-preset}
+## Créer un paramètre prédéfini de landing page {#lp-create-preset}
 
-Pour créer un préréglage de page de destination, procédez comme suit.
+Pour créer un paramètre prédéfini de page d’entrée, procédez comme suit.
 
 >[!NOTE]
 >
->Avant de pouvoir créer un préréglage, vous devez avoir configuré au moins un sous-domaine de la page de destination. [Voici comment procéder](lp-subdomains.md)
+>Pour pouvoir créer un paramètre prédéfini, vérifiez que vous avez déjà configuré au moins un sous-domaine de landing page. [Découvrez comment](lp-subdomains.md)
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Branding]** > **[!UICONTROL Préréglages de page de destination]**.
+1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Channels]** , puis sélectionnez **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
-1. Sélectionnez **[!UICONTROL Créer un préréglage de page de destination]**.
+1. Sélectionner **[!UICONTROL Create landing page preset]**.
 
    ![](assets/lp_create-preset-temp.png)
 
-1. Saisissez un nom et une description pour le préréglage.
+1. Saisissez un nom et une description pour le paramètre prédéfini.
 
    >[!NOTE]
    >
-   > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
+   > Les noms doivent commencer par une lettre (A-Z). Elle ne peut contenir que des caractères alphanumériques. Vous pouvez également utiliser des traits de soulignement. `_`, point`.` et trait d’union `-` caractères.
 
-1. Sélectionnez un sous-domaine de page de destination dans la liste déroulante.
+1. Sélectionnez un sous-domaine de landing page dans la liste déroulante.
 
    ![](assets/lp_preset-subdomain.png)
 
    >[!NOTE]
    >
-   >Avant de pouvoir sélectionner un sous-domaine, vous devez avoir configuré au moins un sous-domaine de page de destination. [Voici comment procéder](#lp-subdomains)
+   >Pour pouvoir sélectionner un sous-domaine, vérifiez que vous avez déjà configuré au moins un sous-domaine de landing page. [Découvrez comment](#lp-subdomains)
 
    Les paramètres correspondant au sous-domaine sélectionné s’affichent.
 
-1. Si vous souhaitez sélectionner le sous-domaine de la page de destination comme URL de suivi, cochez lʼoption **[!UICONTROL Identique au sous-domaine de la page de destination]**. [En savoir plus sur le tracking.](../email/message-tracking.md)
+1. Si vous souhaitez sélectionner le sous-domaine de la landing page pour l&#39;URL de tracking, cochez la case **[!UICONTROL Same as landing page subdomain]** . [En savoir plus sur le tracking](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
-   Par exemple, si l’URL de la page de destination est « pages.mail.luma.com » et que lʼURL de tracking est « data.mail.luma.com », vous pouvez choisir « pages.mail.luma.com » comme sous-domaine de tracking.
+   Par exemple, si l’URL de la landing page est &quot;pages.mail.luma.com&quot; et que l’URL de tracking est &quot;data.mail.luma.com&quot;, vous pouvez choisir &quot;pages.mail.luma.com&quot; comme sous-domaine de tracking.
 
-1. Cliquez sur **[!UICONTROL Envoyer]** pour confirmer la création du préréglage de page de destination. <!--You can also save the preset as draft and resume its configuration later on.-->
+1. Cliquez sur **[!UICONTROL Submit]** pour confirmer la création du paramètre prédéfini de page d’entrée. <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. Une fois le préréglage de page de destination créé, il sʼaffiche dans la liste avec le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé avec vos pages de destination.
+1. Une fois le paramètre prédéfini de page d’entrée créé, il s’affiche dans la liste avec la variable **[!UICONTROL Active]** statut. Il est prêt à être utilisé pour vos landing pages.
 
    ![](assets/lp-preset-active-temp.png)
 
-Vous êtes maintenant prêt à [créer des pages de destination](../landing-pages/create-lp.md) dans [!DNL Journey Optimizer].
+Vous êtes maintenant prêt à [créer des landing pages ;](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >
 >Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
 
-**Rubriques connexes** :
+**Rubriques connexes**:
 
-* [Prise en main des pages de destination](../landing-pages/get-started-lp.md)
-* [Création d’une page de destination](../landing-pages/create-lp.md#create-a-lp)
+* [Prise en main des landing pages](../landing-pages/get-started-lp.md)
+* [Créer une landing page](../landing-pages/create-lp.md#create-a-lp)

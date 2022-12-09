@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 0%
 
 ---
 
@@ -19,190 +19,190 @@ ht-degree: 100%
 
 Ce groupe de champs sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 
-Il s’agit des champs XDM communs que [!DNL Journey Optimizer] envoie à Adobe Experience Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
+Il s’agit des champs XDM communs qui [!DNL Journey Optimizer] envoie vers Adobe Experience Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
 
-Certains de ces champs ne sont disponibles que dans des modèles de traitement spécifiques (exécution d’une action, récupération de données, etc.) pour limiter la taille des événements.
+Certains de ces champs ne sont disponibles que dans des modèles de traitement spécifiques (exécution d’action, récupération de données, etc.) afin de limiter la taille des événements.
 
-## entrance {#entrance-field}
+## entrée {#entrance-field}
 
-Indique si l’utilisateur est entré dans le parcours. S’il n’est pas présent, nous supposons que la valeur est false.
+Indique si l’utilisateur est entré dans le parcours. Si elle n’est pas présente, nous supposons que la valeur est false.
 
-Type : booléen
+Type : boolean
 
-Valeurs : true/false
+Valeurs : true/false
 
-## reentrance {#reentrance-field}
+## reentry {#reentrance-field}
 
-Indique si l’utilisateur est entré de nouveau dans le parcours avec la même instance. S’il n’est pas présent, nous supposons que la valeur est false.
+Indique si l’utilisateur est rentré dans le parcours avec la même instance. Si elle n’est pas présente, nous supposons que la valeur est false.
 
-Type : booléen
+Type : boolean
 
-Valeurs : true/false
+Valeurs : true/false
 
 ## instanceEnded {#instance-ended-field}
 
 Indique si l’instance s’est terminée (avec succès ou non).
 
-Type : booléen
+Type : boolean
 
 ## eventID {#eventid-field}
 
-ID de l’événement traité, pour le traitement de l’étape. Si l’événement est externe, la valeur est son eventId. Si l’événement est interne, la valeur est l’eventId interne (tel que scheduledNotificationReceived, executedAction, etc.).
+Identifiant d’événement dans le traitement, pour le traitement de l’étape. Si l’événement est externe, la valeur est son eventId. Si l’événement est interne, la valeur est l’eventId interne (tel que scheduledNotificationReceived, executeAction, etc.).
 
-Type : Chaîne
+Type : string
 
 ## nodeID {#nodeid-field}
 
-ID de nœud client (à partir de la zone de travail).
+ID de noeud client (à partir de la zone de travail).
 
-Type : Chaîne
+Type : string
 
 ## stepID {#stepdid-field}
 
 Identifiant unique de l’étape en cours de traitement.
 
-Type : Chaîne
+Type : string
 
 ## stepName {#stepname-field}
 
 Nom de l’étape en cours de traitement.
 
-Type : Chaîne
+Type : string
 
 ## stepType {#steptype-field}
 
 Type de l’étape.
 
-Type : Chaîne
+Type : string
 
-Valeurs possibles :
+Valeurs possibles :
 
 * Condition
 * Action
 * Planificateur
-* Retardateur
+* Minuteur
 
 ## stepStatus {#stepstatus-field}
 
-Statut de l’étape, représentant l’état de l’étape, une fois son traitement terminé (et l’événement de l’étape déclenché).
+État de l’étape, représentant l’état de l’étape, une fois son traitement terminé (et l’événement d’étape déclenché).
 
-Type : Chaîne
+Type : string
 
-Le statut peut être :
+L’état peut être :
 
-* terminée : l’étape n’a aucune transition et son traitement s’est terminé avec succès.
-* erreur : le traitement de l’étape a généré une erreur.
-* transitions : l’étape attend qu’un événement effectue une transition vers une autre étape.
-* limitée : l’étape a échoué avec une erreur de limitation survenue pendant une action ou un enrichissement.
-* dépassement de délai : l’étape a échoué avec une erreur de dépassement de délai survenue pendant une action ou un enrichissement.
-* instanceTimedout : l’étape a arrêté son traitement, car l’instance a atteint son délai d’expiration.
+* Terminé : l’étape n’a aucune transition et son traitement s’est terminé avec succès.
+* error: le traitement de l’étape a généré une erreur.
+* transitions : l’étape attend qu’un événement effectue une transition vers une autre étape.
+* limitée : l’étape a échoué en cas d’erreur de limitation survenue lors d’une action ou d’un enrichissement.
+* timedout : l’étape a échoué en cas d’erreur de délai d’expiration, survenue lors d’une action ou d’un enrichissement.
+* instanceTimedout : l’étape a arrêté son traitement, car l’instance a atteint son délai d’expiration.
 
 ## journeyID {#journeyid-field}
 
-ID du parcours.
+Identifiant du parcours.
 
-Type : Chaîne
+Type : string
 
 ## journeyVersionID {#journeyversionid-field}
 
-Identifiant de la version du parcours. Cet identifiant représente la référence d’identité du parcours, dans le cas du journeyStepEvent.
+ID de la version du parcours. Cet identifiant représente la référence d’identité du parcours, dans le cas de journeyStepEvent.
 
-Type : Chaîne
+Type : string
 
 ## journeyVersionName {#journeyversionname-field}
 
 Nom de la version du parcours.
 
-Type : Chaîne
+Type : string
 
 ## journeyVersion {#journeyversion-field}
 
-Nom de la version du parcours.
+Version du parcours.
 
-Type : Chaîne
+Type : string
 
 ## instanceID {#instanceid-field}
 
-ID interne de l’instance de parcours.
+Identifiant interne de l’instance de parcours.
 
-Type : Chaîne
+Type : string
 
 ## externalKey {#externalkey-field}
 
 Clé externe extraite de l’événement pour le traiter.
 
-Type : Chaîne
+Type : string
 
 ## parentStepID {#parenstepid-field}
 
-ID d’étape du parent de l’étape en cours de traitement dans l’instance.
+Identifiant de l’étape du parent de l’étape en cours de traitement dans l’instance.
 
-Type : Chaîne
+Type : string
 
 ## parentStepName {#parentstepname-field}
 
 Nom de l’étape du parent de l’étape en cours.
 
-Type : Chaîne
+Type : string
 
 ## parentTransitionID {#parenttransitionid-field}
 
-Identifiant de la transition qui a conduit l’instance à l’étape de traitement.
+Identifiant de la transition qui a conduit l&#39;instance à l&#39;étape de traitement.
 
-Type : Chaîne
+Type : string
 
 ## parentTransitionName {#parenttransitionname-field}
 
-Nom de la transition qui a conduit l’instance à l’étape de traitement.
+Nom de la transition qui a conduit l&#39;instance à l&#39;étape de traitement.
 
-Type : Chaîne
+Type : string
 
 ## inTest {#intest-field}
 
 Indique si ce parcours est en mode test ou non.
 
-Type : booléen
+Type : boolean
 
 ## processingTime {#processingtime-field}
 
-Durée totale, en millisecondes, entre l’entrée de l’étape d’instance et la fin du traitement.
+Durée totale, en millisecondes, entre l’entrée de l’étape de l’instance et la fin du traitement.
 
-Type : long
+Type : long
 
 ## instanceType {#instancetype-field}
 
 Indique le type d’instance, s’il s’agit d’un lot ou d’une unité.
 
-Type : Chaîne
+Type : string
 
-Valeurs : batch/unitary
+Valeurs : batch/unitaire
 
 ## recurrenceIndex {#recurrenceindex-field}
 
-Indice de la récurrence si le parcours est &quot;batch&quot; et récurrent (pour la première exécution, recurrenceIndex = 1).
+Index de la périodicité si le parcours est batch et récurrent (la première exécution a recurrenceIndex = 1).
 
-Type : long
+Type : long
 
 ## isBatchToUnitary {#isbatchtounitary-field}
 
 Indique si cette instance unitaire a été déclenchée à partir d’une instance de lot.
 
-Type : booléen
+Type : boolean
 
 ## batchExternalKey {#batchexternalkey-field}
 
-Clé externe pour un événement batch.
+Clé externe pour l’événement batch.
 
-Type : Chaîne
+Type : string
 
 ## batchInstanceID {#batchinstanceid-field}
 
-Il s’agit de l’ID d’instance de lot.
+il s’agit de l’identifiant de l’instance de lot.
 
-Type : Chaîne
+Type : string
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
-si l’instance a été déclenchée à partir d’une instance de lot, ID de branche unitaire.
+si l’instance a été déclenchée à partir d’une instance de lot, identifiant de branche unitaire.
 
-Type : Chaîne
+Type : string

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 8deec661-d504-4764-85d7-afe80b62c477
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 100%
+source-wordcount: '33'
+ht-degree: 0%
 
 ---
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-Renvoie l’heure actuelle en millisecondes depuis le début de l’époque.
+Renvoie l’heure actuelle en millisecondes époque.
 
 ## Catégorie
 
@@ -39,4 +39,4 @@ Renvoie un entier.
 
 `currentTimeInMillis()`
 
-Renvoie « 1544712617131 ».
+Renvoie &quot;1544712617131&quot;.

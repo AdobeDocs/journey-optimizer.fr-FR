@@ -1,5 +1,5 @@
 ---
-title: Mise à jour des balises
+title: Mettre à jour les balises
 description: Les balises vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
@@ -8,27 +8,27 @@ level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
 # Mettre à jour une balise {#update-tag}
 
-Vous pouvez modifier ou mettre à jour une balise dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
+Vous pouvez modifier ou mettre à jour une balise dans votre conteneur en adressant une requête PATCH à la fonction [!DNL Offer Library] API.
 
-Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
+Pour plus d’informations sur le correctif JSON, y compris les opérations disponibles, voir [Documentation du correctif JSON](http://jsonpatch.com/).
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
+Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* et *Accepter* dans l’en-tête de la requête :
 
-| Nom de l&#39;en-tête | Valeur |
+| Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
@@ -36,7 +36,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les balises. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | ID d’instance de la balise que vous souhaitez mettre à jour. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Paramètre | Description |
 | --------- | ----------- |
-| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
+| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations incluent : `add`, `replace`, et `remove`. |
 | `path` | Chemin d’accès du paramètre à mettre à jour. |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la balise, y compris son identifiant d’instance unique et l’`@id` d’emplacement .
+Une réponse réussie renvoie les détails mis à jour de la balise, y compris son identifiant d’instance unique et la balise. `@id`.
 
 ```json
 {

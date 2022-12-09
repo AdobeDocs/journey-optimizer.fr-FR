@@ -1,6 +1,6 @@
 ---
 title: Prise en main des fonctions d’assistance
-description: Bibliothèque de fonctions d’assistance Journey Optimizer
+description: Bibliothèque des fonctions d’assistance de Journey Optimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,28 +8,28 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 100%
+source-wordcount: '1744'
+ht-degree: 0%
 
 ---
 
 # Prise en main des fonctions d’assistance{#functions}
 
-Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation dans [cette page](../personalization-syntax.md).
+Utilisation [!DNL Journey Optimizer] langage de modèle pour effectuer des opérations sur des données, telles que des calculs, le formatage ou les conversions de données, les conditions et les manipuler dans le contexte de la personnalisation. Découvrez les instructions relatives à la syntaxe de la personnalisation dans la section [cette page](../personalization-syntax.md).
 
-➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
+➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo](#video)
 
-Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur d’expression, comme ci-dessous :
+Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur d’expression, comme ci-dessous :
 
 ![](../assets/access-helper-functions.png)
 
-Dans l’éditeur d’expression [!DNL Journey Optimizer], les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
+Dans le [!DNL Journey Optimizer] Editeur d&#39;expression, les fonctions d&#39;assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Helpers](#helper-helper) et [Opérateurs](#operators-helper).
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 
-Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur l’icône `+` : la fonction est automatiquement ajoutée à l’écran de personnalisation.
+Accédez aux sous-catégories en cliquant sur le `>` icône . Sélectionnez une fonction en cliquant sur la fonction `+` icon : la fonction est automatiquement ajoutée à l’écran de personnalisation.
 
-Cliquez sur l’icône `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
+Cliquez sur le bouton `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
 
 ## Fonctions{#functions-helper}
 
@@ -37,93 +37,93 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Moyenne</a></td><td>Cette fonction renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#average">Moyenne</a></td><td>Cette fonction renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Nombre</a></td><td>La fonction  renvoie le nombre d'éléments dans le tableau donné</td>
+        <td><a href="aggregation.md#count">Count</a></td><td>Cette fonction renvoie le nombre d’éléments dans le tableau donné.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">Nombre uniquement nul</a></td><td>Cette fonction compte le nombre de valeurs nulles dans la liste.</td>
+        <td><a href="aggregation.md#count-only-null">Nombre uniquement nul</a></td><td>Cette fonction comptabilise le nombre de valeurs "null" dans la liste.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-with-null">Nombre avec nul</a></td><td>Cette fonction compte tous les éléments de la liste, y compris les valeurs nulles.</td>
+        <td><a href="aggregation.md#count-with-null">Compter avec valeur nulle</a></td><td>Cette fonction comptabilise tous les éléments de la liste, y compris les valeurs "null".</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>Cette fonction récupère les valeurs d'un tableau ou d'une liste dont les valeurs en double sont supprimées.</td>
+        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>Cette fonction récupère les valeurs d’un tableau ou d’une liste dont les valeurs en double sont supprimées.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">Nombre distinct avec nul</a></td><td>Cette fonction compte le nombre de valeurs différentes, y compris les valeurs nulles.</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Comptage distinct avec valeur nulle</a></td><td>Cette fonction comptabilise le nombre de valeurs différentes, y compris les valeurs "null".</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">Premier élément</a></td><td>Cette fonction renvoie le premier élément d'un tableau ou d'une liste.</td>
+        <td><a href="arrays-list.md#head">Premier élément</a></td><td>Cette fonction renvoie le premier élément d’un tableau ou d’une liste</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">n premiers dans la matrice</a></td><td>Cette fonction renvoie les premiers éléments "N" d'un tableau, lorsqu'ils sont triés dans l'ordre croissant en fonction de l'expression numérique donnée.</td>
+        <td><a href="arrays-list.md#first-n">First n in array</a></td><td>Cette fonction renvoie les premiers éléments "N" d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction de l’expression numérique donnée.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">Dans</a></td><td>Cette fonction permet de déterminer si un élément est un membre d'un tableau ou d'une liste.</td>
+        <td><a href="arrays-list.md#in">Dans</a></td><td>Cette fonction permet de déterminer si un élément est membre d’un tableau ou d’une liste.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#includes">Inclut</a></td><td>Cette fonction détermine si un tableau ou une liste contient un élément donné.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersections</a></td><td>Cette fonction détermine si deux tableaux ou deux listes ont au moins un membre commun.</td>
+        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>Cette fonction détermine si deux tableaux ou deux listes ont au moins un membre commun</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">n derniers dans le tableau</a></td><td>Cette fonction renvoie les derniers éléments "N" d'un tableau, lorsqu'ils sont triés dans l'ordre croissant en fonction de l'expression numérique donnée.</td>
+        <td><a href="arrays-list.md#last-n">N dernier dans le tableau</a></td><td>Cette fonction renvoie les derniers éléments "N" d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction de l’expression numérique donnée.</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#max">Maximum</a></td><td>Cette fonction renvoie la plus grande de toutes les valeurs sélectionnées dans un tableau.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimum</a></td><td>Cette fonction renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau.</td>
+        <td><a href="aggregation.md#min">Minimum</a></td><td>Cette fonction renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau .</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Pas dans</a></td><td>Cette fonction détermine si un élément n'est pas membre d'un tableau ou d'une liste.</td>
+        <td><a href="arrays-list.md#notin">Not in</a></td><td>Cette fonction détermine si un élément n’est pas membre d’un tableau ou d’une liste.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">Sous-ensemble de</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sous-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
+        <td><a href="arrays-list.md#subset">Sous-ensemble de</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sous-ensemble d’un autre tableau (tableau B), c’est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">Somme</a></td><td>La fonction  renvoie la somme de toutes les valeurs sélectionnées dans le tableau</td>
+        <td><a href="aggregation.md#sum">Somme</a></td><td>Cette fonction renvoie la somme de toutes les valeurs sélectionnées dans le tableau .</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Sur-ensemble de</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sur-ensemble d'un autre tableau (tableau B), c'est-à-dire si tous les éléments du tableau A sont des éléments du tableau B.</td>
+    <td><a href="arrays-list.md#superset">Superset of</a></td><td>Cette fonction détermine si un tableau spécifique (tableau A) est un sur-ensemble d’un autre tableau (tableau B), c’est-à-dire si ce tableau A contient tous les éléments du tableau B.</td>
     </tr>
 </table>
 
-### Fonctions date/heure{#date-functions}
+### Fonctions de date et d’heure{#date-functions}
 
 <table>
     <tr>
-        <td><a href="dates.md#age">Âge</a></td><td>Cette fonction récupère l’âge à partir d’une date donnée.</td>
+        <td><a href="dates.md#age">Age</a></td><td>Cette fonction récupère l’âge à partir d’une date donnée.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Heure actuelle en millisecondes</a></td><td>Cette fonction récupère l’heure actuelle en millisecondes epoch.</td>
+        <td><a href="dates.md#current">Durée actuelle en millisecondes</a></td><td>Cette fonction récupère l’heure actuelle en millisecondes époque</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">Différence de date</a></td><td>Cette fonction récupère la différence entre deux dates en nombre de jours</td>
+        <td><a href="dates.md#date-diff">Différence entre dates</a></td><td>Cette fonction récupère la différence entre deux dates en nombre de jours</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-week">Jour de la semaine</a></td><td>Cette fonction récupère le jour de la semaine.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">Jour de l’année</a></td><td>Cette fonction récupère le jour de l’année.</td>
+        <td><a href="dates.md#day-year">Jour de l’année</a></td><td>Cette fonction récupère le jour de l’année</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">Date de format</a></td><td>Cette fonction permet de formater une valeur de date et d’heure.</td>
+        <td><a href="dates.md#format-date">Date de format</a></td><td>Cette fonction formate une valeur de date et d’heure</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Définir les jours</a></td><td>Cette fonction définit le jour du mois pour la date et l’heure données.</td>
+        <td><a href="dates.md#set-days">Définir les jours</a></td><td>Cette fonction définit le jour du mois pour la date et l’heure données</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Définir les heures</a></td><td>Cette fonction définit l’heure de la date et de l’heure.</td>
+        <td><a href="dates.md#set-hours">Définition des heures</a></td><td>Cette fonction définit l’heure de la date et de l’heure</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">En UTC</a></td><td>Cette fonction convertit une date-heure en UTC.</td>
+        <td><a href="dates.md#to-utc">À UTC</a></td><td>Cette fonction convertit un datetime en UTC.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">Semaine de l’année</a></td><td>Cette fonction renvoie la semaine de l’année.</td>
+        <td><a href="dates.md#week-of-year">Semaine de l’année</a></td><td>Cette fonction renvoie la semaine de l’année</td>
     </tr>
 </table>
 </table>
@@ -132,13 +132,13 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Obtenir</a></td><td>Cette fonction est utilisée pour récupérer la valeur d'un mappage pour une clé donnée.</td>
+        <td><a href="maps.md#get">Get</a></td><td>Cette fonction est utilisée pour récupérer la valeur d’une carte pour une clé donnée.</td>
     </tr>
     <tr>
-        <td><a href="maps.md#keys">Clés</a></td><td>Cette fonction est utilisée pour récupérer toutes les clés d'un mappage donné.</td>
+        <td><a href="maps.md#keys">Clés</a></td><td>Cette fonction est utilisée pour récupérer toutes les clés d’une carte donnée.</td>
     </tr>
     <tr>
-        <td><a href="maps.md#values">Valeurs</a></td><td>Cette fonction récupère toutes les valeurs d'un mappage donné.</td>
+        <td><a href="maps.md#values">Valeurs</a></td><td>Cette fonction récupère toutes les valeurs d’une carte donnée.</td>
     </tr>
 </table>
 
@@ -146,33 +146,33 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absolu</a></td><td>Cette fonction convertit un nombre en valeur absolue.</td>
+        <td><a href="objects.md#absolute">Absolu</a></td><td>Cette fonction convertit un nombre dont la valeur est absolue</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Aléatoire</a></td><td>Cette fonction renvoie une valeur aléatoire comprise entre 0 et 1.</td>
+        <td><a href="objects.md#random">Random</a></td><td>Cette fonction renvoie une valeur aléatoire comprise entre 0 et 1</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Arrondir à l’unité inférieure</a></td><td>Cette fonction arrondit un nombre à l’unité inférieure.</td>
+        <td><a href="objects.md#round-down">Arrondir</a></td><td>Cette fonction arrondit un nombre</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Arrondir à l’unité supérieure</a></td><td>Cette fonction arrondit un nombre à l’unité supérieure.</td>
+        <td><a href="objects.md#round-up">Tour à tour</a></td><td>Cette fonction arrondit un nombre</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">En pourcentage</a></td><td>Cette fonction convertit un nombre en pourcentage.</td>
+        <td><a href="objects.md#to-percentage">En pourcentage</a></td><td>Cette fonction convertit un nombre en pourcentage</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">En précision</a></td><td>Cette fonction convertit un nombre dans la précision requise.</td>
+        <td><a href="objects.md#to-precision">Précision</a></td><td>Cette fonction convertit un nombre à la précision requise</td>
     </tr>
 </table>
 
-### Fonctions d&#39;objet {#object-functions}
+### Fonctions d’objet {#object-functions}
 
 <table>
     <tr>
-        <td><a href="objects.md#isNotNull">N’est pas nul</a></td><td>Cette fonction permet de déterminer s'il existe une référence d'objet.</td>
+        <td><a href="objects.md#isNotNull">N’est pas nul</a></td><td>Cette fonction permet de déterminer s’il existe une référence d’objet.</td>
     </tr>
     <tr>
-        <td><a href="objects.md#isNull">Est nul</a></td><td>Cette fonction permet de déterminer si une référence d'objet n'existe pas.</td>
+        <td><a href="objects.md#isNull">Is null</a></td><td>Cette fonction permet de déterminer si une référence d’objet n’existe pas.</td>
     </tr>
 </table>
 
@@ -180,7 +180,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
 
 <table>
     <tr>
-        <td><a href="string.md#camelCase">Casse mixte</a></td><td>Cette fonction permet de mettre en majuscule la première lettre de chaque mot d'une chaîne.</td>
+        <td><a href="string.md#camelCase">Camel Case</a></td><td>Cette fonction permet de mettre en majuscules la première lettre de chaque mot d’une chaîne.</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>Cette fonction permet de combiner deux chaînes en une seule.</td>
@@ -189,7 +189,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#contains">Contient</a></td><td>Cette fonction permet de déterminer si une chaîne contient une sous-chaîne donnée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotContain">Ne contient pas</a></td><td>Cette fonction permet de déterminer si une chaîne ne contient pas une sous-chaîne donnée.</td>
+        <td><a href="string.md#doesNotContain">Ne contient pas</a></td><td>Cette fonction permet de déterminer si une chaîne ne contient pas de sous-chaîne donnée.</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotEndWith">Ne se termine pas par</a></td><td>Cette fonction permet de déterminer si une chaîne ne se termine pas par une sous-chaîne donnée.</td>
@@ -205,76 +205,76 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Égal à</a></td><td>Cette fonction permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée, avec respect de la casse.</td>
+        <td><a href="string.md#equals">Est égal à</a></td><td>Cette fonction permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée, en respectant la casse.</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">Égal à ignorer la casse</a></td><td>Cette fonction permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée, sans respect de la casse.</td>
+        <td><a href="string.md#equalsIgnoreCase">Est égal à Ignorer la casse</a></td><td>Cette fonction permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée, sans respect de la casse.</td>
     </tr>
     <tr>
-        <td><a href="string.md#extractEmailDomain">Extraire le domaine e-mail</a></td><td>Cette fonction est utilisée pour extraire le domaine d'une adresse e-mail.</td>
+        <td><a href="string.md#extractEmailDomain">Extract Email Domain</a></td><td>Cette fonction est utilisée pour extraire le domaine d’une adresse électronique.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-host">Obtenir l’hôte d’URL</a></td><td>Cette fonction est utilisée pour obtenir l’hôte d’URL.</td>
+        <td><a href="string.md#get-url-host">Obtention de l’hôte d’URL</a></td><td>Cette fonction est utilisée pour obtenir l’hôte d’URL.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">Obtenir le chemin d’accès à l’URL</a></td><td>Cette fonction est utilisée pour obtenir le chemin de l’URL.</td>
+        <td><a href="string.md#get-url-path">Obtention du chemin d’URL</a></td><td>Cette fonction est utilisée pour obtenir le chemin d’URL.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-protocol">Obtenir le protocole d’URL</a></td><td>Cette fonction est utilisée pour obtenir le protocole d’URL</td>
+        <td><a href="string.md#get-url-protocol">Obtenir le protocole url</a></td><td>Cette fonction est utilisée pour obtenir le protocole url</td>
     </tr>
     <tr>
-        <td><a href="string.md#index-of">Index de</a></td><td>Cette fonction renvoie la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance</td>
+        <td><a href="string.md#index-of">Index de</a></td><td>Cette fonction renvoie la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’y a aucune correspondance</td>
     </tr>
     <tr>
-        <td><a href="string.md#isEmpty">isEmpty</a></td><td>Cette fonction permet de vérifier si une chaîne ou une expression est vide.</td>
+        <td><a href="string.md#isEmpty">IsEmpty</a></td><td>Cette fonction permet de vérifier si une chaîne ou une expression est vide.</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">N’est pas vide</a></td><td>Cette fonction renvoie la valeur true si la chaîne du paramètre n’est pas vide.</td>
+        <td><a href="string.md#is-not-empty">N’est pas vide</a></td><td>Cette fonction renvoie true si la chaîne du paramètre n’est pas vide.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Dernier index de</a></td><td>Cette fonction renvoie la position (dans le premier argument) de la dernière occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.</td>
     </tr>
     <tr>
-        <td><a href="string.md#leftTrim">Supprimer à gauche</a></td><td>Cette fonction supprime les espaces blancs au début d'une chaîne.</td>
+        <td><a href="string.md#leftTrim">Rognage gauche</a></td><td>Cette fonction supprime les espaces blancs au début d’une chaîne.</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Longueur</a></td><td>Cette fonction est utilisée pour obtenir le nombre de caractères d'une chaîne ou d'une expression.</td>
+        <td><a href="string.md#length">Longueur</a></td><td>Cette fonction est utilisée pour obtenir le nombre de caractères d’une chaîne ou d’une expression.</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">Comme</a></td><td>Cette fonction permet de déterminer si une chaîne correspond à un modèle donné.</td>
+        <td><a href="string.md#like">Comme</a></td><td>Cette fonction permet de déterminer si une chaîne correspond à un modèle spécifié.</td>
     </tr>
     <tr>
-        <td><a href="string.md#lower">Minuscules</a></td><td>Cette fonction convertit une chaîne en minuscules.</td>
+        <td><a href="string.md#lower">Minuscule</a></td><td>Cette fonction convertit une chaîne en minuscules</td>
     </tr>
     <tr>
-        <td><a href="string.md#mask">Masque</a></td><td>Cette fonction est utilisée pour remplacer une partie d’une chaîne par des caractères « X ».</td>
+        <td><a href="string.md#mask">Masque</a></td><td>Cette fonction est utilisée pour remplacer une partie d’une chaîne par des caractères "X".</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">Correspond à</a></td><td>Cette fonction permet de déterminer si une chaîne correspond à une expression régulière donnée.</td>
+        <td><a href="string.md#matches">Correspond à</a></td><td>Cette fonction permet de déterminer si une chaîne correspond à une expression régulière spécifique.</td>
     </tr>
     <tr>
         <td><a href="string.md#md5">MD5</a></td><td>Cette fonction renvoie le hachage md5 de la chaîne d’entrée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Différent de</a></td><td>Cette fonction permet de déterminer si une chaîne est différente d'une chaîne donnée.</td>
+        <td><a href="string.md#notEqualTo">Différent de</a></td><td>Cette fonction permet de déterminer si une chaîne n’est pas égale à la chaîne spécifiée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">Différent de Ignorer la casse</a></td><td>Cette fonction compare deux chaînes en ignorant la casse.</td>
+        <td><a href="string.md#not-equal-with-ignore-case">Différent De La Case Ignorer</a></td><td>Cette fonction compare deux chaînes en ignorant la casse.</td>
     </tr>
     <tr>
-        <td><a href="string.md#regexGroup">Groupe d’expressions régulières</a></td><td>Cette fonction est utilisée pour extraire des informations spécifiques en fonction de l'expression régulière fournie.</td>
+        <td><a href="string.md#regexGroup">Groupe d’expressions régulières</a></td><td>Cette fonction est utilisée pour extraire des informations spécifiques, en fonction de l’expression régulière fournie.</td>
     </tr>
     <tr>
         <td><a href="string.md#replace">Remplacer</a></td><td>Cette fonction remplace une sous-chaîne donnée dans une chaîne par une autre sous-chaîne.</td>
     </tr>
     <tr>
-        <td><a href="string.md#replaceAll">Tout remplacer</a></td><td>Cette fonction remplace toutes les sous-chaînes d'un texte correspondant à la "cible" par la chaîne de "remplacement" littérale spécifiée.</td>
+        <td><a href="string.md#replaceAll">Remplacer tout</a></td><td>Cette fonction remplace toutes les sous-chaînes d’un texte correspondant à "target" par la chaîne littérale "remplacement" spécifiée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#rightTrim">Supprimer à droite</a></td><td>Cette fonction supprime les espaces blancs à la fin d'une chaîne. </td>
+        <td><a href="string.md#rightTrim">Rognage droit</a></td><td>Cette fonction supprime les espaces blancs de la fin d’une chaîne. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Fractionner</a></td><td>Cette fonction est utilisée pour fractionner une chaîne selon un caractère donné.</td>
+        <td><a href="string.md#split">Partage</a></td><td>Cette fonction est utilisée pour fractionner une chaîne selon un caractère donné.</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Commence par</a></td><td>Cette fonction permet de déterminer si une chaîne commence par une sous-chaîne donnée.</td>
@@ -283,44 +283,44 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#string-to-date">Chaîne à date</a></td><td>Cette fonction est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-integer">Chaîne en entier</a></td><td>Cette fonction convertit une valeur de chaîne en valeur entière.</td>
+        <td><a href="string.md#string-to-integer">Chaîne à entier</a></td><td>Cette fonction Convertit une valeur string en valeur entière.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">Chaîne en nombre</a></td><td>Cette fonction est utilisée pour convertir une chaîne en nombre. Elle renvoie la même chaîne que la sortie pour une entrée non valide.</td>
+        <td><a href="string.md#string-to-number">Chaîne à nombre</a></td><td>Cette fonction est utilisée pour convertir une chaîne en nombre. Elle renvoie la même chaîne que la sortie pour une entrée non valide.</td>
     </tr>
     <tr>
         <td><a href="string.md#sub-string">Sous-chaîne</a></td><td>Cette fonction renvoie la sous-chaîne de l’expression de chaîne entre l’index de début et l’index de fin.</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">Casse du titre</a></td><td>Cette fonction permet de mettre en majuscules les premières lettres de chaque mot d'une chaîne.</td>
+        <td><a href="string.md#titleCase">Cas de titre</a></td><td>Cette fonction permet de mettre en majuscules les premières lettres de chaque mot d’une chaîne.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">En valeur booléenne</a></td><td>Cette fonction convertit une valeur d’argument en valeur booléenne, selon son type.</td>
+        <td><a href="string.md#to-bool">À Bool</a></td><td>Cette fonction convertit une valeur d’argument en valeur booléenne, selon son type.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">En date/heure</a></td><td>Cette fonction est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
+        <td><a href="string.md#to-date-time">Heure de la date</a></td><td>Cette fonction est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">En date/heure uniquement</a></td><td>Cette fonction convertit une valeur d’argument en une valeur date / heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
+        <td><a href="string.md#to-date-time-only">À Date Heure uniquement</a></td><td>Cette fonction convertit une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Supprimer</a></td><td>Cette fonction supprime les espaces blancs du début et de la fin d'une chaîne.</td>
+        <td><a href="string.md#trim">Rogner</a></td><td>Cette fonction supprime les espaces blancs du début et de la fin d’une chaîne.</td>
     </tr>
     <tr>
-        <td><a href="string.md#upper">Majuscules</a></td><td>Cette fonction convertit une chaîne en majuscules.</td>
+        <td><a href="string.md#upper">majuscule</a></td><td>Cette fonction convertit une chaîne en majuscules</td>
     </tr>
     <tr>
         <td><a href="string.md#url-decode">Décodage de l’URL</a></td><td>Cette fonction est utilisée pour décoder une chaîne codée en URL.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Encodage de l’URL</a></td><td>Cette fonction est utilisée pour encoder une chaîne en URL.</td>
+        <td><a href="string.md#url-encode">Encode d'URL</a></td><td>Cette fonction est utilisée pour encoder une chaîne en URL.</td>
     </tr>
 </table>
 
 
-## Assistants{#helper-helper}
+## Helpers{#helper-helper}
 
-Les assistants sont détaillés dans [cette page](helpers.md).
+Les assistants sont présentés dans la section [cette page](helpers.md).
 
 
 <table>
@@ -328,19 +328,19 @@ Les assistants sont détaillés dans [cette page](helpers.md).
         <td><a href="helpers.md#default">Valeur de secours par défaut</a></td><td>Cette fonction permet d’effectuer le rendu d’une variable avec la valeur par défaut.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">Each</a></td><td>Cette fonction est utilisée pour effectuer une itération sur un tableau</td>
+        <td><a href="helpers.md#each">Chaque</a></td><td>Cette fonction est utilisée pour effectuer une itération sur un tableau</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">Si</a></td><td>Cette fonction est utilisée pour définir un bloc conditionnel. Si l'évaluation de l'expression renvoie 'true', le bloc est rendu.</td>
+        <td><a href="helpers.md#if-function">If</a></td><td>Cette fonction est utilisée pour définir un bloc conditionnel. Si l’évaluation de l’expression renvoie true (vrai), le bloc est rendu.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#let">Let</a></td><td>Cette fonction permet à une expression d'être stockée en tant que variable et d'être utilisée ultérieurement dans une requête.</td>
+        <td><a href="helpers.md#let">Let</a></td><td>Cette fonction permet à une expression d’être stockée en tant que variable et d’être utilisée ultérieurement dans une requête.</td>
     </tr>
    <tr>
-        <td><a href="helpers.md#unless">Unless</a></td><td>Cette fonction est utilisée pour définir un bloc conditionnel. Si l'évaluation de l'expression renvoie 'false', le bloc est rendu.</td>
+        <td><a href="helpers.md#unless">Sauf</a></td><td>Cette fonction est utilisée pour définir un bloc conditionnel. Si l’évaluation de l’expression renvoie false, le bloc est rendu.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">Avec</a></td><td>Cette fonction est utilisée pour modifier le jeton d'évaluation d'une partie de modèle.</td>
+        <td><a href="helpers.md#with">Avec</a></td><td>Cette fonction est utilisée pour modifier le jeton d’évaluation de template-part.</td>
     </tr>
 </table>
 
@@ -348,23 +348,23 @@ Les assistants sont détaillés dans [cette page](helpers.md).
 
 ### Fonctions arithmétiques {#arithmetic-helper}
 
-Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur des valeurs.
+Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur les valeurs.
 
 <table>
     <tr>
-        <td><a href="arithmetic-functions.md#add">Addition</a></td><td>Cet opérateur est utilisé pour trouver la somme de deux expressions d'argument.</td>
+        <td><a href="arithmetic-functions.md#add">Ajout</a></td><td>Cet opérateur est utilisé pour trouver la somme de deux expressions d’argument.</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#divide">Division</a></td><td>Cet opérateur est utilisé pour trouver le quotient de deux expressions d'argument.</td>
+        <td><a href="arithmetic-functions.md#divide">Diviser</a></td><td>Cet opérateur est utilisé pour trouver le quotient de deux expressions d’argument.</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#multiply">Multiplication</a></td><td>Cet opérateur est utilisé pour trouver le produit de deux expressions d'argument.</td>
+        <td><a href="arithmetic-functions.md#multiply">Multiplication</a></td><td>Cet opérateur est utilisé pour trouver le produit de deux expressions d’argument.</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#remainder">Reste</a> </td><td>Cet opérateur est utilisé pour trouver le reste après la division des deux expressions d'argument.</td>
+        <td><a href="arithmetic-functions.md#remainder">Reste</a> </td><td>Cet opérateur est utilisé pour trouver le reste après la division des deux expressions d’argument.</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#substract">Soustraction</a> </td><td>Cet opérateur détecte la différence entre deux expressions.</td>
+        <td><a href="arithmetic-functions.md#substract">Substitution</a> </td><td>Cet opérateur détecte la différence entre deux expressions</td>
     </tr>
 </table>
 
@@ -385,28 +385,28 @@ Les fonctions booléennes sont utilisées pour exécuter une logique booléenne 
 
 ### Fonctions de comparaison {#comparison-functions}
 
-Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
+Les fonctions de comparaison sont utilisées pour comparer différentes expressions et valeurs, renvoyant true ou false en conséquence.
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">Égal à</a></td><td>Cette opération vérifie si les valeurs sont égales.</td>
+        <td><a href="operators.md#equals">Est égal à</a></td><td>Cette opération vérifie si les valeurs sont égales.</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Supérieur à</a></td><td>Cet opérateur vérifie si la première valeur est supérieure à la seconde valeur.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthanorequal">Est supérieur ou égal à</a></td><td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde valeur</td>
+        <td><a href="operators.md#greaterthanorequal">Supérieur ou égal à</a></td><td>Cet opérateur vérifie si la première valeur est supérieure ou égale à la seconde valeur</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">Est inférieur ou égal à</a> </td><td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la deuxième valeur.</td>
+        <td><a href="operators.md#lessthanorequal">Inférieur ou égal à</a> </td><td>Cet opérateur vérifie si la première valeur est inférieure ou égale à la seconde valeur.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Différent de</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
+        <td><a href="operators.md#notequal">N’est pas égal à</a></td><td>Cet opérateur vérifie si l'expression donnée n'est pas égale à la valeur donnée.</td>
     </tr>
 </table>
 
 ## Vidéo pratique{#video}
 
-Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
+Découvrez comment transformer des valeurs de personnalisation à l’aide de fonctions d’assistance à la personnalisation et comprendre différents cas d’utilisation des fonctions d’assistance.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

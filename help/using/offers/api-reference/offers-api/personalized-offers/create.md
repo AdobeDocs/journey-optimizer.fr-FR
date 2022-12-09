@@ -1,6 +1,6 @@
 ---
 title: Créer une offre personnalisée
-description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
+description: Une offre personnalisée est un message marketing personnalisable basé sur des règles d’éligibilité et des contraintes.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,26 +9,26 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Créer une offre personnalisée {#create-personalized-offer}
 
-Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
+Une offre personnalisée est un message marketing personnalisable basé sur des règles d’éligibilité et des contraintes.
 
-Vous pouvez créer une offre personnalisée en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
+Vous pouvez créer une offre personnalisée en adressant une requête POST à la variable [!DNL Offer Library] API, lors de la saisie de votre ID de conteneur.
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
+Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* et *Accepter* dans l’en-tête de la requête :
 
-| Nom de l&#39;en-tête | Valeur |
+| Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -36,7 +36,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les offres personnalisées. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Requête**
@@ -86,7 +86,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur l’offre personnalisée nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre offre personnalisée.
+Une réponse réussie renvoie des informations sur l’offre personnalisée nouvellement créée, y compris son identifiant d’instance unique et l’emplacement. `@id`. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre offre personnalisée.
 
 ```json
 {
@@ -104,4 +104,4 @@ Une réponse réussie renvoie des informations sur l’offre personnalisée nouv
 
 ## Limites {#limitations}
 
-Certaines contraintes et représentations d’offre ne sont actuellement pas prises en charge avec les workflows [!DNL Experience Edge] mobiles, par exemple `Capping`. La valeur du champ `Capping` indique le nombre de fois où une offre peut être présentée à tous les utilisateurs. Pour plus d’informations, voir [Documentation sur les règles d’éligibilité et les contraintes d’offres](../../../offer-library/creating-personalized-offers.md).
+Les représentations des offres et certaines contraintes d’offre ne sont actuellement pas prises en charge avec le mobile. [!DNL Experience Edge] workflows, par exemple `Capping`. Le `Capping` valeur de champ indique le nombre de fois où une offre peut être présentée à tous les utilisateurs. Pour plus d’informations, voir [Documentation sur les règles d’éligibilité et les contraintes d’offre](../../../offer-library/creating-personalized-offers.md).

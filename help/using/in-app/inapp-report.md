@@ -1,6 +1,6 @@
 ---
 title: Rapport in-app
-description: Découvrez comment utiliser les données du rapport in-app
+description: Découvrez comment utiliser les données du rapport In-App
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,56 +10,56 @@ hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
 source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 0%
 
 ---
 
 # Rapport in-app {#inapp-report}
 
-Le rapport in-app est disponible dans le rapport de campagne.
+Le rapport In-App est disponible dans le rapport Campagne .
 
-La page Rapport de la campagne s’affiche avec les onglets suivants :
+La page du rapport Campagne s&#39;affiche avec les onglets suivants :
 
 * [Campagne](../reports/campaign-global-report.md#campaign-live)
-* [E-mail](../reports/campaign-global-report.md#email-live)
+* [Email](../reports/campaign-global-report.md#email-live)
 * [Push](../reports/campaign-global-report.md#push-live)
 * [SMS](../reports/campaign-global-report.md#sms-live)
 * [In-app](#in-app-global)
 
-Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
+La campagne **[!UICONTROL Global report]** est divisé en différents widgets détaillant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Voir à ce sujet la section [section](../reports/global-report.md#modify-dashboard).
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](../reports/global-report.md#list-of-components-global.md).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](../reports/global-report.md#list-of-components-global.md)
 
-## Onglet in-app {#inapp-global}
+## Onglet In-App {#inapp-global}
 
-Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux diffusions in-app envoyées dans votre campagne.
+Depuis votre campagne **[!UICONTROL Global report]**, la variable **[!UICONTROL In-app]** Cet onglet présente les informations principales relatives aux diffusions In-App envoyées dans votre campagne.
 
 ![](assets/campaign_report_global_6.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport In-App.
 
-Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+Le **[!UICONTROL In-app performance]** Les indicateurs de performance clés détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages In-App, telles que :
 
-* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
+* **[!UICONTROL Unique impressions]**: nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
 
-* **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs.
+* **[!UICONTROL Impressions]**: nombre total de messages in-app diffusés à tous les utilisateurs.
 
-* **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d’utilisateurs ayant vu le message.
+* **[!UICONTROL Click rate]**: Pourcentage d&#39;utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d&#39;utilisateurs ayant vu le message.
 
-* **[!UICONTROL Taux d’ignorance]** : pourcentage de messages in-app ignorés par les destinataires.
+* **[!UICONTROL Dismiss rate]**: pourcentage de messages In-App ignorés par les destinataires.
 
-Le graphique du **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions in-app pour la période concernée.
+Le **[!UICONTROL In-app summary]** Le graphique présente l’évolution de vos impressions in-app pour la période concernée.
 
-Le graphique et le tableau **[!UICONTROL Clics par bouton]** contiennent les données disponibles pour le comportement des destinataires par bouton :
+Le **[!UICONTROL Clicks by button]** Le graphique et le tableau contiennent les données disponibles pour le comportement des destinataires par bouton :
 
-* **[!UICONTROL Clics]** : nombre total de destinataires ayant interagi avec les boutons inclus dans le message in-app.
+* **[!UICONTROL Clicks]**: nombre total de destinataires ayant interagi avec les boutons inclus dans le message in-app.
 
-* **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d’utilisateurs ayant vu le message.
+* **[!UICONTROL Click rate]**: Pourcentage d&#39;utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d&#39;utilisateurs ayant vu le message.
 +++
 
-**Rubriques connexes :**
+**Rubriques connexes :**
 
 * [Créer un message in-app](../in-app/create-in-app.md)
 * [Concevoir un message in-app](../in-app/design-in-app.md)
-* [Configuration in-app](../in-app/inapp-configuration.md)
+* [Configuration In-App](../in-app/inapp-configuration.md)

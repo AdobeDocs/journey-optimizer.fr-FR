@@ -1,5 +1,5 @@
 ---
-title: Créer des classements
+title: Création de classements
 description: Découvrez comment créer des classements
 feature: Offers
 topic: Integrations
@@ -8,14 +8,14 @@ level: Intermediate
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '19'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Créer des classements {#create-rankings}
+# Création de classements {#create-rankings}
 
-présentation
+aperçu
 
-formules de classement des différences / modèles d’IA 
+formules de classement des différences/modèles AI
 
 lien vers la section de classement

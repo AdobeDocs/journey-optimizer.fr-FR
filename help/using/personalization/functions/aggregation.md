@@ -1,6 +1,6 @@
 ---
-title: Bibliothèque des fonctions d'agrégation
-description: Bibliothèque des fonctions d'agrégation
+title: Bibliothèque des fonctions d’agrégation
+description: Bibliothèque des fonctions d’agrégation
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,17 +9,17 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Fonctions d&#39;agrégation {#aggregation}
+# Fonctions d’agrégation {#aggregation}
 
-Les fonctions d&#39;agrégation sont utilisées pour regrouper plusieurs valeurs afin de former une seule valeur de synthèse.
+Les fonctions d’agrégation sont utilisées pour regrouper plusieurs valeurs afin de former une seule valeur de résumé.
 
 ## Moyenne{#average}
 
-La fonction `average` renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.
+Le `average` renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 
@@ -29,15 +29,15 @@ La fonction `average` renvoie la moyenne arithmétique de toutes les valeurs sé
 
 **Exemple**
 
-L&#39;opération suivante renvoie le prix moyen de toutes les commandes.
+L’opération suivante renvoie le prix moyen de toutes les commandes.
 
 ```sql
 {%=average(orders.order.price)%}
 ```
 
-## Nombre{#count}
+## Count{#count}
 
-La fonction `count` renvoie le nombre d&#39;éléments dans le tableau donné.
+Le `count` renvoie le nombre d’éléments dans le tableau donné.
 
 **Format**
 
@@ -47,7 +47,7 @@ La fonction `count` renvoie le nombre d&#39;éléments dans le tableau donné.
 
 **Exemple**
 
-L&#39;opération suivante renvoie le nombre de commandes dans le tableau.
+L’opération suivante renvoie le nombre de commandes dans le tableau .
 
 ```sql
 {%= count(orders) %}
@@ -55,7 +55,7 @@ L&#39;opération suivante renvoie le nombre de commandes dans le tableau.
 
 ## Maximum{#max}
 
-La fonction `max` renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.
+Le `max` renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 
@@ -65,7 +65,7 @@ La fonction `max` renvoie la plus grande de toutes les valeurs sélectionnées d
 
 **Exemple**
 
-L&#39;opération suivante renvoie le prix le plus élevé de toutes les commandes.
+L’opération suivante renvoie le prix le plus élevé de toutes les commandes.
 
 ```sql
 {%=max(orders.order.price)%}
@@ -73,7 +73,7 @@ L&#39;opération suivante renvoie le prix le plus élevé de toutes les commande
 
 ## Minimum{#min}
 
-La fonction `min` renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau.
+Le `min` renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 
@@ -83,7 +83,7 @@ La fonction `min` renvoie la plus petite de toutes les valeurs sélectionnées d
 
 **Exemple**
 
-L&#39;opération suivante renvoie le prix le plus bas de toutes les commandes.
+L’opération suivante renvoie le prix le plus bas de toutes les commandes.
 
 ```sql
 {%=min(orders.order.price) %}
@@ -91,7 +91,7 @@ L&#39;opération suivante renvoie le prix le plus bas de toutes les commandes.
 
 ## Somme{#sum}
 
-La fonction `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
+Le `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
 
 **Format**
 

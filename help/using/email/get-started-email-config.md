@@ -7,19 +7,19 @@ role: Admin
 level: Intermediate
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 32%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
-
 
 # Prise en main de la configuration des emails {#get-starte-email-config}
 
 Pour envoyer des emails par le biais de parcours et de campagnes dans [!DNL Journey Optimizer], vous devez passer par plusieurs étapes de configuration.
 
-1. Pour garantir une délivrabilité optimale et protéger votre réputation, commencez par déléguer pour Adobe les sous-domaines que vous allez utiliser pour envoyer vos emails [!DNL Journey Optimizer]. Ces sous-domaines déterminent des éléments tels que les pages web à suivre et les URL de page miroir. [En savoir plus](../configuration/about-subdomain-delegation.md)
+1. Pour garantir une délivrabilité optimale et protéger votre réputation, commencez par déléguer à Adobe les sous-domaines que vous allez utiliser pour envoyer vos emails. [!DNL Journey Optimizer]. Ces sous-domaines déterminent des éléments tels que les pages web à suivre et les URL de page miroir. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
@@ -38,14 +38,14 @@ Pour envoyer des emails par le biais de parcours et de campagnes dans [!DNL Jour
 
    ![](assets/preset-subdomain-ip-pool.png)
 
-   * Les adresses **[!UICONTROL e-mail expéditeur]** et **[!UICONTROL e-mail d’erreur]** doivent utiliser le sous-domaine délégué actuel. [En savoir plus](email-settings.md#email-header)
+   * Le **[!UICONTROL Sender email]** et **[!UICONTROL Error email]** Les adresses doivent utiliser le sous-domaine délégué sélectionné actuel. [En savoir plus](email-settings.md#email-header)
 
    ![](assets/preset-header.png)
 
-1. Déterminez l&#39;adresse e-mail à utiliser en priorité pour vos destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](../configuration/primary-email-addresses.md)
+1. Déterminez l’adresse électronique à utiliser en priorité pour vos destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 
-1. Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
+1. Gérez le nombre de jours pendant lesquels des reprises sont effectuées avant d’envoyer des adresses électroniques à la liste de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
 
    ![](../configuration/assets/suppression-list-edit-retries.png)

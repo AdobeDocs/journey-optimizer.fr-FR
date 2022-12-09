@@ -8,8 +8,8 @@ level: Experienced
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 100%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +44,6 @@ Renvoie un entier.
 
 Renvoie 3.
 
-Explication :
+Explication :
 
-Dans « Hello », la dernière occurrence de « l » est en position 3.
+Dans &quot;Hello&quot;, la dernière occurrence de &quot;l&quot; est en position 3.

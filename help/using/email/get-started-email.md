@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main de l’email
-description: Découvrez comment créer un e-mail dans Journey Optimizer
+description: Découvrez comment créer un email dans Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 33%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +25,18 @@ Utilisation [!DNL Journey Optimizer] pour envoyer des emails à vos clients. Vou
 
 Les diffusions email peuvent être créées :
 
-* Dans un **Parcours**: une fois que vous avez ajouté une **[!UICONTROL Email]** à votre parcours, et définition des paramètres de base, utilisez la variable **[!UICONTROL Actions : Email]** volet de droite pour créer le contenu du SMS.
+* Dans un **Parcours**: une fois que vous avez ajouté une **[!UICONTROL Email]** à votre parcours et définition des paramètres de base, utilisez la variable **[!UICONTROL Actions: Email]** volet de droite pour créer le contenu du SMS.
 
-   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+   Pour plus d’informations sur la configuration de votre parcours, reportez-vous à cette section [page](../building-journeys/journey-gs.md).
 
 * Dans un **Campagne**: une fois une campagne créée, sélectionnez **[!UICONTROL Email]** comme action et définissez les paramètres de base.
 
-   Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
+   Pour plus d&#39;informations sur le paramétrage de votre opération, reportez-vous à cette section [page](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="Prospect" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="prospect" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>Créer un email</strong>
 </div>
@@ -43,7 +44,7 @@ Les diffusions email peuvent être créées :
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="Peu fréquent" src="../assets/do-not-localize/email-design.jpg">
+<img alt="Inrégulier" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
 <a href="get-started-email-design.md"><strong>Concevoir un email</strong></a>
@@ -54,7 +55,7 @@ Les diffusions email peuvent être créées :
 <img alt="Validation" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>Gérer le processus d’opt-out aux e-mails</strong></a>
+<a href="email-opt-out.md"><strong>Gestion des opt-out des emails</strong></a>
 </div>
 <p>
 </td>
@@ -68,4 +69,3 @@ Les diffusions email peuvent être créées :
 <p>
 </td>
 </tr></table>
-

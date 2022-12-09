@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 100%
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
 # now {#now}
 
-Renvoie la date actuelle au format date et heure. Pour plus d’informations sur les types de données, consultez [cette page](../expression/data-types.md).
+Renvoie la date actuelle au format date et heure. Pour plus d’informations sur les types de données, reportez-vous à la section [cette page](../expression/data-types.md).
 
 ## Catégorie
 
@@ -29,7 +29,7 @@ Date
 
 | Paramètre | Description |
 |--- |--- |
-| chaîne |  |
+| string |  |
 
 ## Signatures et type renvoyé
 
@@ -47,7 +47,7 @@ Renvoie 2019-06-03T06:30Z.
 
 `toString(now())`
 
-Renvoie « 2019-06-03T06:30Z »
+Renvoie &quot;2019-06-03T06:30Z&quot;
 
 `now("Europe/Paris")`
 

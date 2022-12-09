@@ -1,6 +1,6 @@
 ---
-title: Création d’une décision
-description: Une décision contient la logique sous-tendant la sélection d’une offre.
+title: Créer une décision
+description: Une décision contient la logique qui oriente la sélection d’une offre.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,24 +9,24 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Créer une décision {#create-decision}
 
-Vous pouvez créer une décision en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
+Vous pouvez créer une décision en envoyant une requête POST à la fonction [!DNL Offer Library] API, lors de la saisie de votre ID de conteneur.
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
+Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* et *Accepter* dans l’en-tête de la requête :
 
-| Nom de l&#39;en-tête | Valeur |
+| Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Requête**
@@ -72,7 +72,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre décision.
+Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son identifiant d’instance unique et l’emplacement. `@id`. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre décision.
 
 ```json
 {

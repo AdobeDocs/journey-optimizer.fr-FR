@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
 # min {#min}
 
-Renvoie la valeur minimale d’un ensemble d’expressions, exprimée sous la forme d’une liste ou de deux expressions. Les valeurs « null » sont ignorées.
+Renvoie la valeur minimale d’un ensemble d’expressions, exprimée sous la forme d’une liste ou de deux expressions. Les valeurs nulles sont ignorées.
 
 ## Catégorie
 
@@ -34,7 +34,7 @@ Agrégation
 * listDateTimeOnly
 * listDateOnly
 * durée
-* nombre entier
+* entier
 * décimal
 * dateTime
 * dateTimeOnly

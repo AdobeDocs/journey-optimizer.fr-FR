@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: liste des champs d’événement d’étape
-description: champs hérités
+title: liste de champs d’événement d’étape
+description: Champs hérités
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ exl-id: 8cad0a6e-fd5c-44ae-9ce4-44d99504b855
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# À propos des champs hérités {#sharing-legacy-fields}
+# A propos des champs hérités {#sharing-legacy-fields}
 
-Cette catégorie contient les champs d’événement d’étape d’origine. Ces champs font partie des groupes de champs suivants :
+Cette catégorie contient les champs d’événement d’étape d’origine. Ces champs font partie des groupes de champs suivants :
 
 * [Champs communs des événements journeySteps](../reports/sharing-common-fields.md)
 * [Champs d’exécution d’action des événements journeyStep](../reports/sharing-execution-fields.md)

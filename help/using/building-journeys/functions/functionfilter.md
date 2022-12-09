@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: filter
-description: En savoir plus sur la fonction filter
+description: En savoir plus sur le filtre de fonction
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 86%
+ht-degree: 0%
 
 ---
 
 # filter{#filter}
 
-Renvoie une valeur listObject avec les objets dont lʼattribut clé correspond à lʼune des valeurs clés données.
+Renvoie un listObject avec des objets dont l’attribut key correspond à l’une des valeurs de clé données.
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToFilter | listObject | liste dʼobjects à filtrer. Il doit être une référence de champ. |
-| keyAttributeName | chaîne | nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
+| listToFilter | listObject | liste des objets à filtrer. Il doit s’agir d’une référence de champ. |
+| keyAttributeName | string | nom d’attribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
 | keyValueList | list | tableau de valeurs clés pour le filtrage |
 
 ## Signatures et types renvoyés
@@ -55,11 +55,11 @@ Liste
 
 `filter(listObject, string, listBoolean)`
 
-Renvoie une valeur listObject.
+Renvoie un listObject.
 
 ## Exemples
 
-Voici un exemple dʼune payload transmise dans un événement entrant « myevent » :
+Voici un exemple de payload transmise dans un événement entrant &quot;myevent&quot; :
 
 ```json
 "productListItems": [{
@@ -77,7 +77,7 @@ Voici un exemple dʼune payload transmise dans un événement entrant « myeven
 }]
 ```
 
-Vous pouvez utiliser lʼexpression suivante :
+Vous pouvez utiliser l’expression suivante :
 
 ```json
 filter(
@@ -87,4 +87,4 @@ filter(
 )
 ```
 
-Renvoie une valeur listObject contenant les deux objets avec « product2 » et « product3 » comme id.
+Renvoie un listObject contenant les deux objets dont l’identifiant est &quot;product2&quot; et &quot;product3&quot;.

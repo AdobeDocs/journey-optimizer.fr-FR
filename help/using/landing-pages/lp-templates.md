@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation des modèles de page de destination
-description: Découvrez comment enregistrer une page de destination en tant que modèle et la réutiliser dans Journey Optimizer
+title: Utiliser des modèles de landing page
+description: Découvrez comment enregistrer une landing page en tant que modèle et la réutiliser dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,20 +10,20 @@ level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
 
-# Utilisation des modèles de page de destination {#work-with-templates}
+# Utiliser des modèles de landing page {#work-with-templates}
 
 ## Enregistrement d’une page en tant que modèle {#save-as-template}
 
-Une fois que vous avez conçu votre [contenu de page de destination](lp-content.md), vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
+Une fois que vous avez conçu votre [contenu de la page d’entrée](lp-content.md), vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, procédez comme suit.
 
 1. Cliquez sur les points de suspension en haut à droite de l’écran.
 
-1. Sélectionnez **[!UICONTROL Enregistrer le modèle de conception]** dans le menu déroulant.
+1. Sélectionner **[!UICONTROL Save design template]** dans le menu déroulant.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -31,17 +31,17 @@ Une fois que vous avez conçu votre [contenu de page de destination](lp-content.
 
    ![](assets/lp_designer-template-name.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Save]**.
 
-La prochaine fois que vous créerez une page de destination, vous pourrez utiliser ce modèle pour créer votre contenu. Découvrez comment dans la [section](#use-saved-template) ci-dessous.
+La prochaine fois que vous créerez une landing page, vous pourrez utiliser ce modèle pour créer votre contenu. Découvrez comment dans la section [section](#use-saved-template) ci-dessous.
 
 ![](assets/lp_designer-saved-template.png)
 
-## Utilisation d’un modèle enregistré {#use-saved-template}
+## Utiliser un modèle enregistré {#use-saved-template}
 
-1. Ouvrez le [concepteur de contenu de page de destination](design-lp.md). La liste de tous les modèles précédemment enregistrés s’affiche.
+1. Ouvrez le [concepteur de contenu de page d&#39;entrée](design-lp.md). La liste de tous les modèles précédemment enregistrés s’affiche.
 
-1. Vous pouvez les trier : **[!UICONTROL Par nom]**, **[!UICONTROL Dernière modification]** et **[!UICONTROL Dernière création]**.
+1. Vous pouvez les trier. **[!UICONTROL By name]**, **[!UICONTROL Last modified]** et **[!UICONTROL Last created]**.
 
    ![](assets/lp_designer-saved-templates.png)
 
@@ -51,10 +51,10 @@ La prochaine fois que vous créerez une page de destination, vous pourrez utilis
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Cliquez sur **[!UICONTROL Utiliser cette page de destination]**.
+1. Cliquez sur **[!UICONTROL Use this landing page]**.
 
-1. Modifiez votre contenu selon vos besoins à l&#39;aide du concepteur de page de destination.
+1. Modifiez votre contenu selon vos besoins à l&#39;aide du concepteur de landing page.
 
 >[!NOTE]
 >
->Les modèles de page principale et les modèles de sous-page sont gérés séparément, ce qui signifie que vous ne pouvez pas utiliser un modèle de page principale pour créer une sous-page, et vice versa.
+>Les modèles de page principale et les modèles de sous-page sont gérés séparément, ce qui signifie que vous ne pouvez pas utiliser de modèle de page principale pour créer une sous-page, et vice versa.

@@ -1,6 +1,6 @@
 ---
-title: Configuration du publipostage direct
-description: Découvrez comment configurer le canal Publipostage direct dans Journey Optimizer
+title: Configuration du courrier
+description: Découvrez comment configurer le canal courrier dans Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,70 +10,70 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 98%
+source-wordcount: '829'
+ht-degree: 0%
 
 ---
 
-# Configuration du publipostage direct {#direct-mail-configuration}
+# Configuration du courrier {#direct-mail-configuration}
 
-[!DNL Journey Optimizer] vous permet de personnaliser et de générer les fichiers requis par les fournisseurs de publipostage direct pour envoyer du courrier à vos clients.
+[!DNL Journey Optimizer] vous permet de personnaliser et de générer les fichiers requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.
 
-Lors de la [création d’un message de publipostage direct](../direct-mail/create-direct-mail.md), vous définissez les données de l’audience ciblée, y compris les informations de contact sélectionnées (adresse postale par exemple). Un fichier contenant ces données sera alors automatiquement généré et exporté vers un serveur, où votre fournisseur de publipostage direct pourra les récupérer et prendre en charge l’envoi.
+When [création d&#39;un message](../direct-mail/create-direct-mail.md), vous définissez les données de l’audience ciblée, y compris les informations de contact sélectionnées (adresse postale par exemple). Un fichier contenant ces données sera alors automatiquement généré et exporté vers un serveur, où votre opérateur de services postaux pourra les récupérer et prendre en charge l&#39;envoi.
 
-Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants :
+Avant de pouvoir générer ce fichier, vous devez créer :
 
-1. Une [configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté.
+1. A [configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté.
 
-1. Une [surface de publipostage direct](#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
+1. A [surface courrier](#direct-mail-surface) qui fera référence à la configuration de routage des fichiers.
 
 >[!CAUTION]
 >
->Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de publipostage direct.
+>Si vous n&#39;avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de courrier.
 
-## Configurer le routage des fichiers {#file-routing-configuration}
+## Configuration du routage des fichiers {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="Définir la configuration du routage des fichiers"
->abstract="Une fois que vous avez créé un message de publipostage direct, le fichier contenant les données de l’audience ciblée sera généré et exporté vers un serveur. Vous devez spécifier les détails du serveur afin que votre fournisseur de publipostage direct puisse accéder à ce fichier et l’utiliser pour diffuser du publipostage direct."
+>title="Définition de la configuration du routage des fichiers"
+>abstract="Une fois que vous avez créé un courrier, le fichier contenant les données de l&#39;audience ciblée sera généré et exporté vers un serveur. Vous devez spécifier les détails du serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l’utiliser pour diffuser du courrier."
 
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="Définir la configuration du routage des fichiers"
->abstract="Vous devez définir l’endroit où le fichier sera exporté pour que votre fournisseur de publipostage direct puisse l’utiliser."
+>title="Définition de la configuration du routage des fichiers"
+>abstract="Vous devez définir l&#39;endroit où le fichier sera exporté pour que votre opérateur de services postaux puisse l&#39;utiliser."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="Configuration du routage des fichiers"
->abstract="Sélectionnez la configuration du routage des fichiers de votre choix, qui définit l’endroit où le fichier sera exporté pour que votre fournisseur de publipostage direct puisse l’utiliser."
+>abstract="Sélectionnez la configuration de routage des fichiers de votre choix, qui définit l&#39;endroit où le fichier sera exporté pour que votre opérateur de services postaux l&#39;utilise."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="Sélectionnez le type de serveur pour votre fichier"
->abstract="Choisissez le type de serveur à utiliser pour l’exportation de vos fichiers de publipostage direct. Actuellement, seuls Amazon S3 et SFTP sont pris en charge par Journey Optimizer."
+>title="Sélectionnez le type de serveur pour votre fichier ."
+>abstract="Choisissez le type de serveur à utiliser pour l&#39;export de vos fichiers de courrier. Actuellement, seuls Amazon S3 et SFTP sont pris en charge par Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Choisissez la région AWS"
->abstract="Sélectionnez la région géographique du serveur AWS où vous souhaitez exporter vos fichiers de publipostage direct. En règle générale, il est préférable de choisir la région la plus proche du lieu où se trouve votre fournisseur de publipostage direct."
+>abstract="Sélectionnez la région géographique du serveur AWS où vous souhaitez exporter vos fichiers de courrier. En règle générale, il est préférable de choisir la région la plus proche du lieu où se trouve votre opérateur de services postaux."
 
-Pour diffuser un message de publipostage direct, [!DNL Journey Optimizer] génère et exporte vers un serveur le fichier contenant les données de votre audience ciblée.
+Pour diffuser un courrier, [!DNL Journey Optimizer] génère et exporte vers un serveur le fichier contenant les données de votre audience ciblée.
 
-Vous devez spécifier les détails du serveur afin que votre fournisseur de publipostage direct puisse accéder à ce fichier et l’utiliser pour diffuser du courrier.
+Vous devez spécifier les détails du serveur afin que votre opérateur de services postaux puisse accéder à ce fichier et l’utiliser pour diffuser du courrier.
 
-Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
+Pour configurer le routage des fichiers, procédez comme suit.
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du routage des fichiers]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** , puis cliquez sur **[!UICONTROL Create routing configuration]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionnez le **[!UICONTROL Type de serveur]** que vous souhaitez utiliser pour exporter les fichiers de publipostage direct.
+1. Sélectionnez la **[!UICONTROL Server type]** que vous souhaitez utiliser pour exporter les fichiers de courrier.
 
    ![](assets/file-routing-config-type.png)
 
@@ -85,27 +85,27 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, choisissez la **[!UICONTROL Région AWS]** où se trouve l’infrastructure du serveur.
+1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, choisissez la variable **[!UICONTROL AWS region]** où se trouve l’infrastructure du serveur.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
+   >Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre opérateur de services postaux.
 
-1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [surface de publipostage direct](#direct-mail-surface).
+1. Sélectionner **[!UICONTROL Submit]**. La configuration de routage des fichiers est créée avec l’événement **[!UICONTROL Active]** statut. Il est maintenant prêt à être utilisé dans une [surface courrier](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une surface tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+   >Vous pouvez également sélectionner **[!UICONTROL Save as draft]** pour créer la configuration de routage des fichiers, mais vous ne pourrez pas la sélectionner en surface tant qu&#39;elle n&#39;est pas **[!UICONTROL Active]**.
 
-## Créer une surface de publipostage direct {#direct-mail-surface}
+## Créer une surface de courrier {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
->title="Définir les paramètres du publipostage direct"
->abstract="Une surface de publipostage direct contient les paramètres de formatage du fichier qui contient les données de l’audience ciblée et qui seront utilisées par le fournisseur du publipostage direct. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration du routage du fichier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurer le routage des fichiers"
+>title="Définition des paramètres du courrier"
+>abstract="Une surface de courrier contient les paramètres de formatage du fichier qui contient les données d&#39;audience ciblées et qui seront utilisés par le prestataire de services postaux. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration de routage du fichier."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configuration du routage des fichiers"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -115,44 +115,44 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
->title="Définir le seuil de partage des fichiers"
->abstract="Vous devez définir le nombre maximum d’enregistrements pour chaque fichier contenant les données d’audience. Vous pouvez sélectionner un nombre compris entre 1 et 200 000 enregistrements. Une fois le seuil spécifié atteint, un autre fichier sera créé pour les enregistrements restants."
+>title="Définition du seuil de partage de fichiers"
+>abstract="Vous devez définir le nombre maximum d&#39;enregistrements pour chaque fichier contenant les données d&#39;audience. Vous pouvez sélectionner un nombre compris entre 1 et 200 000 enregistrements. Une fois le seuil spécifié atteint, un autre fichier sera créé pour les enregistrements restants."
 
-Pour pouvoir diffuser du publipostage direct avec [!DNL Journey Optimizer], vous devez créer une surface de canal pour définir les paramètres de formatage du fichier qui sera utilisé par le fournisseur du publipostage direct.
+Pour pouvoir diffuser du courrier avec [!DNL Journey Optimizer], vous devez créer une surface de canal pour définir les paramètres de formatage du fichier qui sera utilisé par le fournisseur de services de messagerie.
 
-Une surface de publipostage direct doit également inclure la configuration du routage des fichiers qui définit le serveur sur lequel votre fichier de publipostage direct sera exporté.
+Une surface de courrier doit également inclure la configuration de routage des fichiers qui définit le serveur sur lequel votre fichier de courrier sera exporté.
 
-1. Créer une surface de canal. [En savoir plus](../configuration/channel-surfaces.md)
+1. Créez une surface de canal. [En savoir plus](../configuration/channel-surfaces.md)
 
-1. Sélectionnez le canal **[!UICONTROL Publipostage direct]**.
+1. Sélectionnez la **[!UICONTROL Direct mail]** canal.
 
    ![](assets/surface-direct-mail-channel.png)
 
-1. Définissez les paramètres du publipostage direct dans la section dédiée de la configuration de la surface du canal.
+1. Définissez les paramètres du courrier dans la section dédiée de la configuration de la surface du canal.
 
    ![](assets/surface-direct-mail-settings.png)
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. Sélectionnez le format du fichier : **[!UICONTROL CSV]** ou **[!UICONTROL Texte délimité]**.
+1. Sélectionnez le format du fichier : **[!UICONTROL CSV]** ou **[!UICONTROL Text delimited]**.
 
-1. Sélectionnez la **[!UICONTROL Configuration du routage des fichiers]** parmi celles que vous avez créées. Ceci définit l’endroit où le fichier sera exporté pour que votre fournisseur de publipostage direct l’utilise.
+1. Sélectionnez la **[!UICONTROL File routing configuration]** parmi celles que vous avez créées. Cette option définit l’endroit où le fichier sera exporté pour que votre opérateur de services postaux l’utilise.
 
    >[!CAUTION]
    >
-   >Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de publipostage direct. [En savoir plus](#file-routing-configuration)
+   >Si vous n&#39;avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de courrier. [En savoir plus](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Soumettre la surface de publipostage direct.
+1. Envoyez la surface du courrier.
 
-Vous pouvez désormais [créer un publipostage direct](../direct-mail/create-direct-mail.md) dans une campagne. Une fois la campagne lancée, le fichier contenant les données de l’audience ciblée sera automatiquement exporté vers le serveur que vous avez défini. Le fournisseur de publipostage direct pourra alors récupérer ce fichier et poursuivre la diffusion du publipostage direct.
+Vous pouvez désormais [créer un message de courrier](../direct-mail/create-direct-mail.md) dans une campagne. Une fois l&#39;opération lancée, le fichier contenant les données de l&#39;audience ciblée sera automatiquement exporté vers le serveur que vous avez défini. Le prestataire de services postaux pourra alors récupérer ce fichier et poursuivre la diffusion courrier.
 
 >[!NOTE]
 >
->Les lignes en double seront automatiquement supprimées.
+>Les lignes en double sont automatiquement supprimées.
 >
 >Si le nombre maximum d&#39;enregistrements (c&#39;est-à-dire des lignes) pour chaque fichier contenant des données de profil est trop élevé, un autre fichier sera automatiquement créé pour les enregistrements restants.
 

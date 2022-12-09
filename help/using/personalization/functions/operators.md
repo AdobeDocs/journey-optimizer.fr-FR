@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Les fonctions booléennes sont utilisées pour exécuter une logique booléenne 
 
 ### Et{#and}
 
-La fonction `and` est utilisée pour convertir un nombre en pourcentage.
+Le `and` sert à créer une conjonction logique.
 
 **Format**
 
@@ -31,7 +31,7 @@ La fonction `and` est utilisée pour convertir un nombre en pourcentage.
 
 **Exemple**
 
-L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France et pour année de naissance 1985.
+L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France et année de naissance 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -39,7 +39,7 @@ L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;or
 
 ### Ou{#or}
 
-La fonction `or` est utilisée pour créer une disjonction logique.
+Le `or` est utilisée pour créer une disjonction logique.
 
 **Format**
 
@@ -49,7 +49,7 @@ La fonction `or` est utilisée pour créer une disjonction logique.
 
 **Exemple**
 
-L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France ou pour année de naissance 1985.
+L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;origine la France ou année de naissance 1985.
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -76,13 +76,13 @@ not (homeAddress.countryISO = "CA")
 ```
 -->
 
-## Fonctions de comparaison  {#comparison-functions}
+## Fonctions de comparaison {#comparison-functions}
 
-Les fonctions de comparaison sont utilisées pour comparer les différentes expressions et valeurs, renvoyant &#39;true&#39; ou &#39;false&#39; en conséquence.
+Les fonctions de comparaison sont utilisées pour comparer différentes expressions et valeurs, renvoyant true ou false en conséquence.
 
-### Égal à{#equals}
+### Est égal à{#equals}
 
-La fonction `=` (égal à) vérifie si une valeur ou expression est égale à une autre valeur ou expression.
+Le `=` (est égal) vérifie si une valeur ou expression est égale à une autre valeur ou expression.
 
 **Format**
 
@@ -100,7 +100,7 @@ L&#39;opération suivante vérifie si le pays de l&#39;adresse du domicile est l
 
 ### Différent de{#notequal}
 
-La fonction `!=` (différent de) vérifie si une valeur ou expression est **différente** d&#39;une autre valeur ou expression.
+Le `!=` (différent de) la fonction vérifie si une valeur ou expression est **not** égal à une autre valeur ou expression.
 
 **Format**
 
@@ -118,7 +118,7 @@ L&#39;opération suivante vérifie si le pays de l&#39;adresse du domicile n&#39
 
 ### Supérieur à{#greaterthan}
 
-La fonction `>` (supérieur à) permet de vérifier si la première valeur est supérieure à la seconde.
+Le `>` (supérieur à) permet de vérifier si la première valeur est supérieure à la seconde.
 
 **Format**
 
@@ -136,7 +136,7 @@ L&#39;opération suivante définit les personnes nées strictement après 1970.
 
 ### Supérieur ou égal à{#greaterthanorequal}
 
-La fonction `>=` (supérieur ou égal à) permet de vérifier si la première valeur est supérieure ou égale à la seconde.
+Le `>=` (supérieur ou égal à) permet de vérifier si la première valeur est supérieure ou égale à la seconde.
 
 **Format**
 
@@ -154,7 +154,7 @@ L&#39;opération suivante définit les personnes nées en 1970 ou après.
 
 ### Inférieur à{#lessthan}
 
-La fonction `<` (inférieur à) permet de vérifier si la première valeur est inférieure à la seconde.
+Le `<` (inférieur à) permet de vérifier si la première valeur est inférieure à la seconde.
 
 **Format**
 
@@ -172,7 +172,7 @@ L&#39;opération suivante définit les personnes nées avant 2000.
 
 ### Inférieur ou égal à{#lessthanorequal}
 
-La fonction `<=` (inférieur ou égal à) permet de vérifier si la première valeur est inférieure ou égale à la seconde.
+Le `<=` (inférieur ou égal à) permet de vérifier si la première valeur est inférieure ou égale à la seconde.
 
 **Format**
 

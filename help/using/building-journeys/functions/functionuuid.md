@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ac3bc4e7-7097-4efb-a6f7-22aa00d01380
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 100%
+source-wordcount: '39'
+ht-degree: 0%
 
 ---
 
 # uuid {#uuid}
 
-Génère un UUID (Universal Unique Identifier) aléatoire.
+Génère un UUID aléatoire (Universal Unique IDentifier).
 
 ## Catégorie
 
@@ -27,7 +27,7 @@ Chaîne
 
 ## Paramètres
 
-Cette fonction ne requiert pas de paramètres.
+Cette fonction ne nécessite pas de paramètres.
 
 ## Signature et type renvoyé
 
@@ -39,4 +39,4 @@ Renvoie une chaîne.
 
 `uuid()`
 
-Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 »
+Renvoie &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;.s

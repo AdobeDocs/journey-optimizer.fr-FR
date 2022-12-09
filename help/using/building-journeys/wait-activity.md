@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Activité d'attente
-description: En savoir plus sur l'activité d'attente
+title: Activité d’attente
+description: En savoir plus sur l’activité d’attente
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,37 +10,37 @@ level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
-# Activité d&#39;attente{#wait-activity}
+# Activité d’attente{#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Activité d&#39;attente"
->abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisation."
+>title="Activité d’attente"
+>abstract="Si vous souhaitez attendre avant d’exécuter l’activité suivante dans le chemin, vous pouvez utiliser une activité Attente . Il vous permet de définir le moment d’exécution de l’activité suivante. Deux options sont disponibles : durée et personnalisé."
 
-Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :
+Si vous souhaitez attendre avant d’exécuter l’activité suivante dans le chemin, vous pouvez utiliser une **[!UICONTROL Wait]** activité. Il vous permet de définir le moment d’exécution de l’activité suivante. Trois options sont disponibles :
 
 * [Durée](#duration)
-* [Valeur](#custom) personnalisée
+* [Personnalisé](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
 * [Fixed date](#fixed_date) 
 -->
 
-## À propos de l&#39;activité d&#39;attente{#about_wait}
+## À propos de l’activité Attente{#about_wait}
 
-La durée d&#39;attente maximale est de 30 jours. En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
+La durée d’attente maximale est de 30 jours. En mode test, la variable **[!UICONTROL Wait time in test]** vous permet de définir la durée de chaque activité d’attente. La durée par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md)
 
-Soyez prudent lorsque vous utilisez plusieurs activités d’attente dans un parcours, car la temporisation du parcours global est de 30 jours, ce qui signifie qu’un profil abandonnera toujours le parcours au maximum 30 jours après son entrée.
+Soyez prudent lorsque vous utilisez plusieurs activités Attente dans un parcours, car le délai d’expiration global du parcours est de 30 jours, ce qui signifie qu’un profil abandonnera toujours le parcours au maximum 30 jours après son entrée.
 
-## Durée de l&#39;attente{#duration}
+## Durée de l’attente{#duration}
 
-Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante.
+Sélectionnez la durée d’attente avant l’exécution de l’activité suivante.
 
 ![](assets/journey55.png)
 
@@ -55,13 +55,13 @@ Select the date for the execution of the next activity.
 
 ## Attente personnalisée{#custom}
 
-Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l&#39;aide d&#39;une expression avancée basée sur un champ provenant d&#39;un événement ou d&#39;une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir cette [page](expression/expressionadvanced.md). Pour plus d&#39;informations sur le format dateTimeOnly, voir cette [page](expression/data-types.md).
+Cette option vous permet de définir une date personnalisée, par exemple le 12 juillet 2020 à 17h, à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une source de données. Il ne vous permet pas de définir une durée personnalisée, par exemple, de 7 jours. L’expression de l’éditeur d’expression doit fournir un format dateTimeOnly. Consultez cette section [page](expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, voir cette [page](expression/data-types.md).
 
 >[!NOTE]
 >
->Vous pouvez tirer parti d&#39;une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@{Event.offerOpened.activity.endTime}), le champ de l&#39;événement se présentant sous la forme 2016-08-12T09:46:06Z.
+>Vous pouvez utiliser une expression dateTimeOnly ou une fonction pour effectuer une conversion en dateTimeOnly. Par exemple : toDateTimeOnly(@{Event.offerOpening.activity.endTime}), le champ de l’événement étant de la forme 2016-08-12T09:46:06Z.
 >
->La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n&#39;est pas possible actuellement de pointer directement, à partir de l&#39;interface, vers un horodatage ISO-8601 complet associant l&#39;heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
+>Le **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible aujourd’hui, à partir de l’interface, de pointer directement vers un horodatage ISO-8601 complet associant l’heure et le décalage de fuseau horaire comme 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

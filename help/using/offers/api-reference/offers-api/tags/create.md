@@ -1,5 +1,5 @@
 ---
-title: Création d'une balise
+title: Création d’une balise
 description: Les balises vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
@@ -9,24 +9,24 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Création d&#39;une balise {#create-tag}
+# Création d’une balise {#create-tag}
 
-Vous pouvez créer une balise en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
+Vous pouvez créer une balise en envoyant une requête POST à la fonction [!DNL Offer Library] API, lors de la saisie de votre ID de conteneur.
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
+Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* et *Accepter* dans l’en-tête de la requête :
 
-| Nom de l&#39;en-tête | Valeur |
+| Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les balises. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Requête**
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la balise nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre balise. Vous pouvez utiliser votre `@id` de balise unique dans des tutoriels ultérieurs pour créer des collections et des offres personnalisées.
+Une réponse réussie renvoie des informations sur la balise nouvellement créée, y compris son identifiant d’instance unique et l’emplacement. `@id`. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre balise. Vous pouvez utiliser votre balise unique. `@id` dans des tutoriels ultérieurs pour créer des collections et des offres personnalisées.
 
 ```json
 {

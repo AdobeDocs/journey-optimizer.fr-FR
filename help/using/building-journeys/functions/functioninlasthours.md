@@ -9,13 +9,13 @@ exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # inLastHours {#inLastHours}
 
-Renvoie « true » si une date et une heure données sont comprises entre maintenant et maintenant - delta heures.
+Renvoie &quot;true&quot; si la date et l’heure données sont comprises entre maintenant et maintenant - delta heures.
 
 ## Catégorie
 
@@ -30,7 +30,7 @@ Date
 | Paramètre | Type |
 |-----------|------------------|
 | date et heure | dateTime |
-| delta | integer |
+| delta | entier |
 
 ## Signatures et type renvoyé
 

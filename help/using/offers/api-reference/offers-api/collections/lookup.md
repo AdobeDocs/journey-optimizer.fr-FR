@@ -1,6 +1,6 @@
 ---
 title: Recherche d’une collection
-description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies définies par un marketeur, telles que la catégorie de l’offre.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Recherche d’une collection {#look-up-collection}
 
-Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
+Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies définies par un marketeur, telles que la catégorie de l’offre.
 
-Vous pouvez rechercher des collections spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut la collection `@id` ou le nom de la collection dans le chemin de la requête.
+Vous pouvez rechercher des collections spécifiques en adressant une requête GET à la fonction [!DNL Offer Library] API qui inclut la collection `@id` ou le nom de la collection dans le chemin de la requête.
 
 **Format d’API**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les collections. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Définit le schéma associé aux collections. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Mobile demo` |
+| `id` | Chaîne utilisée pour faire correspondre la variable `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisées ensemble. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec majuscules, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Mobile demo` |
 
 **Requête**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` de collection unique.
+Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’ de collection unique. `@id`.
 
 ```json
 {

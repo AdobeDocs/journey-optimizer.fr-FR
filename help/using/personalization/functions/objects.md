@@ -1,6 +1,6 @@
 ---
-title: Bibliothèque de fonctions d'objets
-description: Bibliothèque de fonctions d'objets
+title: Bibliothèque de fonctions d’objets
+description: Bibliothèque de fonctions d’objets
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Fonctions d&#39;objet {#objects}
+# Fonctions d’objet {#objects}
 
-## Est nul{#isNull}
+## Is null{#isNull}
 
-La fonction `isNull` détermine si une référence d&#39;objet n&#39;existe pas.
+Le `isNull` détermine si une référence d’objet n’existe pas.
 
 **Format**
 
@@ -27,7 +27,7 @@ La fonction `isNull` détermine si une référence d&#39;objet n&#39;existe pas.
 
 **Exemple**
 
-L&#39;opération suivante vérifie si l&#39;adresse de la personne n&#39;existe pas.
+L’opération suivante vérifie si l’adresse de la personne n’existe pas.
 
 ```sql
 {%= isNull(person.homeAddress) %}
@@ -35,7 +35,7 @@ L&#39;opération suivante vérifie si l&#39;adresse de la personne n&#39;existe 
 
 ## N’est pas nul{#isNotNull}
 
-La fonction `isNotNull` détermine si une référence d&#39;objet existe.
+Le `isNotNull` détermine si une référence d’objet existe.
 
 **Format**
 
@@ -45,7 +45,7 @@ La fonction `isNotNull` détermine si une référence d&#39;objet existe.
 
 **Exemple**
 
-L&#39;opération suivante vérifie si l&#39;adresse de la personne existe.
+L’opération suivante vérifie si l’adresse de domicile de la personne existe.
 
 ```sql
 {%= isNotNull(person.homeAddress) %}

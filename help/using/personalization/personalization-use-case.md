@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'Cas d’utilisation de la personnalisation : notification du statut de la commande'
+title: Cas d’utilisation de la personnalisation&deux-points ; notification d'état de commande
 description: Découvrez comment personnaliser un message à l’aide des informations de profil, de décision d’offre et de contexte.
 feature: Personalization
 topic: Personalization
@@ -11,94 +11,94 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Cas d’utilisation de la personnalisation : notification du statut de la commande {#personalization-use-case}
+# Cas pratique de personnalisation : notification d&#39;état de commande {#personalization-use-case}
 
-Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
+Dans ce cas pratique, vous verrez comment utiliser plusieurs types de personnalisation dans un seul message de notification push. Trois types de personnalisation seront utilisés :
 
-* **Profil** : personnalisation des messages en fonction d&#39;un champ de profil
-* **Décision d’offre** : personnalisation basée sur des variables de gestion des décisions
-* **Contexte** : personnalisation basée sur les données contextuelles du parcours
+* **Profil**: personnalisation des messages à partir d&#39;un champ de profil
+* **Décision sur l’offre**: personnalisation basée sur les variables de gestion de décision
+* **Contexte**: personnalisation basée sur les données contextuelles du parcours
 
-L&#39;objectif de cet exemple est de pousser (push) un événement vers [!DNL Journey Optimizer] chaque fois qu&#39;une commande client est mise à jour. Une notification push est ensuite envoyée au client avec des informations sur la commande et une offre personnalisée.
+L’objectif de cet exemple est de pousser un événement vers [!DNL Journey Optimizer] chaque fois qu’une commande client est mise à jour. Une notification push est alors envoyée au client avec des informations sur la commande et une offre personnalisée.
 
-Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent être remplies
+Pour ce cas pratique, les prérequis suivants sont nécessaires :
 
-* Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
-* Créer une décision, voir à ce sujet cette [section](../offers/offer-activities/create-offer-activities.md).
+* configurez un événement de commande, y compris le numéro de commande, l’état et le nom de l’élément. Consultez cette section [section](../event/about-events.md).
+* créer une décision, voir à ce sujet [section](../offers/offer-activities/create-offer-activities.md).
 
-## Étape 1 - Créer le parcours {#create-journey}
+## Étape 1 - Création du parcours {#create-journey}
 
-1. Cliquez sur le menu **[!UICONTROL Parcours]** et créez un parcours.
+1. Cliquez sur le bouton **[!UICONTROL Journeys]** et créez un parcours.
 
    ![](assets/perso-uc4.png)
 
-1. Ajoutez votre événement d’entrée et une activité d’action **Push**.
+1. Ajoutez votre événement d’entrée et une **Push** activité d’action.
 
    ![](assets/perso-uc5.png)
 
-1. Configurez et concevez votre message de notification push. Reportez-vous à cette [section](../push/create-push.md).
+1. Configurez et concevez votre message de notification push. Consultez cette section [section](../push/create-push.md).
 
-## Étape 2 - Ajouter une personnalisation au profil {#add-perso}
+## Etape 2 - Ajouter la personnalisation sur le profil {#add-perso}
 
-1. Dans l’activité **Push**, cliquez sur **Modifier le contenu**.
+1. Dans le **Push** activité, cliquez sur **Modifier le contenu**.
 
-1. Cliquez sur le champ **Titre**.
+1. Cliquez sur le bouton **Titre** champ .
 
    ![](assets/perso-uc2.png)
 
-1. Saisissez l&#39;objet et ajoutez la personnalisation de profil. Utilisez la barre de recherche pour rechercher le champ de prénom du profil. Dans le texte de l&#39;objet, placez le curseur à l&#39;endroit où vous souhaitez insérer le champ de personnalisation, puis cliquez sur l&#39;icône **+**. Cliquez sur **Enregistrer**.
+1. Saisissez l’objet et ajoutez une personnalisation de profil. Utilisez la barre de recherche pour trouver le champ du prénom du profil. Dans le texte de l’objet, placez le curseur à l’endroit où vous souhaitez insérer le champ de personnalisation, puis cliquez sur le bouton **+** icône . Cliquez sur **Enregistrer**.
 
    ![](assets/perso-uc3.png)
 
-## Étape 3 - Ajouter une personnalisation aux données contextuelles {#add-perso-contextual-data}
+## Etape 3 - Ajouter une personnalisation sur les données contextuelles {#add-perso-contextual-data}
 
-1. Dans l’activité **Push**, cliquez sur **Modifier le contenu** et cliquez sur le champ **Titre**.
+1. Dans le **Push** activité, cliquez sur **Modifier le contenu** et cliquez sur le bouton **Titre** champ .
 
    ![](assets/perso-uc9.png)
 
-1. Sélectionnez le menu **Attributs contextuels**. Les attributs contextuels ne sont disponibles que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s&#39;affichent :
+1. Sélectionnez la **Attributs contextuels** . Les attributs contextuels ne sont disponibles que si un parcours a transmis des données contextuelles au message. Cliquez sur **Journey Orchestration**. Les informations contextuelles suivantes s’affichent :
 
-   * **Événements** : cette catégorie regroupe tous les champs du ou des événements placés avant l&#39;activité d’action de canal dans le parcours.
-   * **Propriétés du parcours** : champs techniques liés au parcours pour un profil donné ; par exemple, identifiant du parcours ou erreurs spécifiques rencontrées. Pour en savoir plus, consultez la [documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md).
+   * **Événements**: cette catégorie regroupe tous les champs du ou des événements placés avant l’activité d’action de canal dans le parcours.
+   * **Propriétés du parcours**: les champs techniques liés au parcours pour un profil donné, par exemple l’identifiant du parcours ou les erreurs spécifiques rencontrées. En savoir plus dans [Documentation de Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
-1. Développez l&#39;élément **Événements** et recherchez le champ du numéro de commande associé à votre événement. Vous pouvez également utiliser la zone de recherche. Cliquez sur l&#39;icône **+** pour insérer le champ de personnalisation dans le texte de l&#39;objet. Cliquez sur **Enregistrer**.
+1. Développez l’objet **Événements** et recherchez le champ du numéro de commande associé à votre événement. Vous pouvez également utiliser la zone de recherche. Cliquez sur le bouton **+** pour insérer le champ de personnalisation dans le texte de l’objet. Cliquez sur **Enregistrer**.
 
    ![](assets/perso-uc11.png)
 
-1. Cliquez maintenant sur le champ **Corps**.
+1. Cliquez maintenant sur le bouton **Corps** champ .
 
    ![](assets/perso-uc12.png)
 
-1. Tapez le message et, à partir du menu **[!UICONTROL Attributs contextuels]**, insérez le nom de l’élément de commande et la progression de la commande.
+1. Saisissez le message et insérez, à partir du **[!UICONTROL Contextual attributes]** , le nom de l’élément de commande et la progression de la commande.
 
    ![](assets/perso-uc13.png)
 
-1. Dans le menu de gauche, sélectionnez **Décisions d’offre** pour insérer une variable de prise de décision. Sélectionnez l&#39;emplacement et cliquez sur l&#39;icône **+** en regard de la décision pour l’ajouter au corps.
+1. Dans le menu de gauche, sélectionnez **Offrir des décisions** pour insérer une variable de prise de décision. Sélectionnez l’emplacement et cliquez sur le bouton **+** en regard de la décision de l’ajouter au corps.
 
    ![](assets/perso-uc14.png)
 
-1. Cliquez sur Valider pour vous assurer qu’il n&#39;y a aucune erreur, puis sur **Enregistrer**.
+1. Cliquez sur valider pour vous assurer qu’il n’y a aucune erreur, puis cliquez sur **Enregistrer**.
 
    ![](assets/perso-uc15.png)
 
-## Étape 4 - Tester et publier le parcours {#test-publish}
+## Étape 4 - Test et publication du parcours {#test-publish}
 
-1. Cliquez sur le bouton **Test**, puis sur **Déclencher un événement**.
+1. Cliquez sur le bouton **Test** , puis cliquez sur **Déclenchement d’un événement**.
 
    ![](assets/perso-uc17.png)
 
-1. Entrez les différentes valeurs à transmettre dans le test. Le mode test ne fonctionne qu&#39;avec les profils de test. L&#39;identifiant du profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
+1. Saisissez les différentes valeurs à transmettre au test. Le mode test fonctionne uniquement avec les profils de test. L’identifiant de profil doit correspondre à un profil de test. Cliquez sur **Envoyer**.
 
    ![](assets/perso-uc18.png)
 
-   La notification push est envoyée et affichée sur le téléphone portable du profil de test.
+   La notification push est envoyée et affichée sur le téléphone mobile du profil de test.
 
    ![](assets/perso-uc19.png)
 
-1. Vérifiez qu&#39;il n&#39;y a pas d&#39;erreur et publiez le parcours.
+1. Vérifiez qu’il n’y a aucune erreur et publiez le parcours.

@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: in
-description: En savoir plus sur la fonction in
+description: En savoir plus sur la fonction dans
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,15 +9,15 @@ exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # in {#in}
 
-Vérifie si la valeur du premier argument figure dans la liste. La vérification est effectuée par l’intermédiaire d’un opérateur Equal sur chaque valeur d’argument. Elle renvoie true si la valeur de l’argument est trouvée, false dans le cas contraire.
+Vérifie si la valeur du premier argument se trouve dans la liste. La vérification est effectuée par l’intermédiaire d’un opérateur Equal sur chaque valeur d’argument. Elle renvoie true si la valeur de l’argument est trouvée, false dans le cas contraire.
 
-Le type de l’`<expression>` doit correspondre aux éléments de la liste. Pour mémoire, les types d’éléments de la liste doivent correspondre les uns aux autres.
+Le type de la variable `<expression>` doit correspondre aux éléments de la liste. Pour rappel, les types d’éléments de la liste doivent correspondre les uns aux autres.
 
 ## Catégorie
 
@@ -33,7 +33,7 @@ Liste
 |-----------|------------------|
 | Chaîne | Chaîne |
 | Booléen | Booléen |
-| Nombre entier | Nombre entier |
+| Entier | Entier |
 | Décimal | Décimal |
 | Durée | Durée |
 | DateTime | DateTime |

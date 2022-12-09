@@ -1,5 +1,5 @@
 ---
-title: Recherche d’une règle de décision
+title: Rechercher une règle de décision
 description: Les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Rechercher une règle de décision {#lookup-decision-rule}
 
-Vous pouvez rechercher une règle de décision spécifique en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit la règle de décision `@id` soit le nom de la règle de décision dans le chemin de la requête.
+Vous pouvez rechercher une règle de décision spécifique en envoyant une requête GET à la variable [!DNL Offer Library] API qui inclut l’une des règles de décision `@id` ou le nom de la règle de décision dans le chemin de la requête.
 
 **Format d’API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les règles de décision. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Définit le schéma associé aux règles de décision. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Sales rule` |
+| `id` | Chaîne utilisée pour faire correspondre la variable `@id` des entités. La chaîne correspond exactement. Le paramètre s `id` et `name` ne peuvent pas être utilisées ensemble. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec majuscules, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Sales rule` |
 
 **Requête**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la règle de décision spécifique que vous avez recherchée, y compris des informations sur son ID de conteneur, son ID d’instance et l’`@id` de règle de décision unique.
+Une réponse réussie renvoie les détails de la règle de décision spécifique que vous avez recherchée, y compris les informations sur son ID de conteneur, son ID d’instance et l’ de règle de décision unique. `@id`.
 
 ```json
 {

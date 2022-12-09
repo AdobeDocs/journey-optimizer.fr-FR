@@ -1,8 +1,8 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Prise en main des modèles d’IA
-description: En savoir plus sur les modèles d’IA qui permettent de classer les offres
+title: Prise en main des modèles AI
+description: En savoir plus sur les modèles AI qui permettent de classer les offres
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,35 +10,35 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Prise en main des modèles d’IA {#ai-models}
+# Prise en main des modèles AI {#ai-models}
 
-[!DNL Journey Optimizer] vous permet d&#39;utiliser un système de modèles formés pour classer les offres à afficher pour un profil donné.
+[!DNL Journey Optimizer] vous permet d’utiliser un système de modèles formé qui classe les offres à afficher pour un profil donné.
 
-Cette fonctionnalité permet de créer différents **modèles d’IA** en fonction des objectifs de votre entreprise. En appliquant ces différentes stratégies basées sur les objectifs à une décision, le système de modèles entraînés vous permet de comprendre l’impact des différents modèles d’IA sur vos objectifs.
+Cette fonctionnalité vous permet de créer différents **Modèles AI** en fonction des objectifs de votre entreprise. En utilisant ces différentes stratégies basées sur des objectifs dans une décision, le système de modèles formé vous aidera à comprendre comment les différents modèles d’IA affectent vos objectifs.
 
-Vous pouvez par exemple sélectionner un modèle d’IA pour le canal e-mail et un autre pour le canal push. Pour chaque canal, le système de modèles entraînés exploite différents points de données pour déterminer l’offre qui doit être présentée en premier pour un emplacement donné, plutôt que de prendre en compte les scores de priorité des offres ou une [formule de classement](create-ranking-formulas.md).
+Par exemple, vous pouvez sélectionner un modèle d’IA pour le canal email et un autre pour le canal push. Pour chaque canal, le système de modèle formé exploite plusieurs points de données pour déterminer l’offre qui doit être présentée en premier pour un emplacement donné, plutôt que de prendre en compte les scores de priorité des offres ou une [formule de classement](create-ranking-formulas.md).
 
-## Types de modèles d’IA {#ai-model-types}
+## Types de modèle AI {#ai-model-types}
 
-Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
+Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer]:
 
-* Les **modèles d’optimisation automatique** visent à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres. [En savoir plus](auto-optimization-model.md)
+* **Modèles d’optimisation automatique** visent à diffuser des offres qui optimisent le retour (IPC) défini par les clients commerciaux. Ces indicateurs clés de performance peuvent prendre la forme de taux de conversion, de recettes, etc. À ce stade, l’optimisation automatique se concentre sur l’optimisation des clics sur les offres, avec pour cible la conversion des offres. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances &quot;globales&quot; des offres. [En savoir plus](auto-optimization-model.md)
 
-* **Les modèles de personnalisation** vous permettent de définir des objectifs commerciaux et d’utiliser les données client pour entraîner des modèles orientés vers métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md)
+* **Modèles de personnalisation** vous permettent de définir des objectifs commerciaux et d’utiliser les données client pour former des modèles orientés vers l’entreprise afin de diffuser des offres personnalisées et d’optimiser les indicateurs de performance clés. [En savoir plus](personalized-optimization-model.md)
 
    >[!CAUTION]
    >
-   >L’utilisation des modèles d’optimisation personnalisée est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
+   >L’utilisation des modèles d’optimisation personnalisée est actuellement disponible en accès anticipé pour certains utilisateurs uniquement.
 
-## Créer un modèle d’IA {#create-ai-model}
+## Création d’un modèle AI {#create-ai-model}
 
-Les principales étapes pour créer et utiliser des modèles d’IA sont les suivantes :
+Les principales étapes pour créer et utiliser des modèles AI sont les suivantes :
 
 1. Créez un jeu de données dans lequel les événements de conversion et d’impression seront collectés. [En savoir plus](create-dataset.md)
 1. Créez un modèle d’IA qui exploite les événements du jeu de données pour classer les offres. [En savoir plus](create-ranking-strategies.md)
 1. Configurez votre schéma d’offre pour capturer automatiquement les événements. [En savoir plus](schema-requirement.md)
-1. Affectez le modèle d’IA à un emplacement dans une décision de classement des offres éligibles. [En savoir plus](../offer-activities/configure-offer-selection.md)
+1. Affectez le modèle AI à un emplacement dans une décision de classement des offres éligibles. [En savoir plus](../offer-activities/configure-offer-selection.md)

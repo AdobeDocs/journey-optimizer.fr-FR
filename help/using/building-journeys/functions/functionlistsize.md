@@ -8,14 +8,14 @@ level: Experienced
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 100%
+source-wordcount: '48'
+ht-degree: 0%
 
 ---
 
 # listSize {#listSize}
 
-Compte le nombre d’éléments dans la liste.
+Compte le nombre d&#39;éléments dans la liste.
 
 ## Catégorie
 
@@ -58,7 +58,7 @@ Liste
 
 `listSize(<listPoint>)`
 
-Renvoie un nombre entier.
+Renvoie un entier.
 
 ## Exemple
 

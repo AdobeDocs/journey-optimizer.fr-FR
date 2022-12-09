@@ -1,6 +1,6 @@
 ---
-title: Création d'une collection
-description: Les collections sont des sous-ensembles d'offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l'offre.
+title: Création d’une collection
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies définies par un marketeur, telles que la catégorie de l’offre.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,26 +9,26 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Création d&#39;une collection {#create-collection}
+# Création d’une collection {#create-collection}
 
-Les collections sont des sous-ensembles d&#39;offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l&#39;offre.
+Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies définies par un marketeur, telles que la catégorie de l’offre.
 
-Vous pouvez créer une collection en adressant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
+Vous pouvez créer une collection en envoyant une requête POST à la fonction [!DNL Offer Library] API, lors de la saisie de votre ID de conteneur.
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
+Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* et *Accepter* dans l’en-tête de la requête :
 
-| Nom de l&#39;en-tête | Valeur |
+| Nom de l’en-tête | Valeur |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -36,7 +36,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les collections. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Requête**
@@ -61,7 +61,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la collection nouvellement créée, y compris son identifiant d&#39;instance unique et l&#39;`@id` d&#39;emplacement. Vous pouvez utiliser l&#39;ID d&#39;instance aux étapes suivantes pour mettre à jour ou supprimer votre collection. Vous pouvez utiliser votre `@id` de collection unique dans un tutoriel ultérieur pour créer une décision.
+Une réponse réussie renvoie des informations sur la collection nouvellement créée, y compris son identifiant d’instance unique et l’emplacement. `@id`. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre collection. Vous pouvez utiliser votre collection unique. `@id` dans un tutoriel ultérieur pour créer une décision.
 
 ```json
 {

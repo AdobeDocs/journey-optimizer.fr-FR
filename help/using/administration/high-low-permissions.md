@@ -1,84 +1,84 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Niveaux d'autorisation
-description: En savoir plus sur les autorisations de haut et de bas niveau
+title: Niveaux d’autorisation
+description: En savoir plus sur les autorisations générales et de bas niveau
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
-# Niveaux d&#39;autorisation {#high-low-permissions}
+# Niveaux d’autorisation {#high-low-permissions}
 
 ![](assets/do-not-localize/permissions.png)
 
-Chaque profil de produit est constitué d&#39;autorisations permettant aux utilisateurs d&#39;accéder aux différentes fonctionnalités.
-Elles peuvent être divisées en deux types :
+Chaque profil de produit est constitué d’autorisations permettant aux utilisateurs d’accéder aux différentes fonctionnalités.
+Elles peuvent être divisées en deux types :
 
-* **Autorisation de haut niveau** : représente les différentes autorisations qui peuvent être attribuées au **[!UICONTROL profil de produit]** dans [!DNL Admin console], telles que **[!DNL Publish journeys]** et **[!DNL Manage subdomains delegation]**. Les autorisations de haut niveau englobent les autorisations de bas niveau.
+* **Autorisation de haut niveau**: représente les différentes autorisations qui peuvent être affectées à **[!UICONTROL Product profile]** dans le [!DNL Admin console], par exemple **[!DNL Publish journeys]** et **[!DNL Manage subdomains delegation]**. Les autorisations de haut niveau englobent les autorisations de bas niveau.
 
-* **Autorisation de bas niveau** : représente les différentes autorisations qui proviennent de l&#39;autorisation de haut niveau.
+* **Autorisation de bas niveau**: représente les différentes autorisations qui proviennent de l’autorisation de niveau supérieur.
 
-Par exemple, le profil de produit **[!DNL Journey administrator]** se voit attribuer lʼautorisation **[!DNL Manage journeys]**. À partir de cette autorisation, les autorisations de bas niveau permettent à lʼadministrateur de parcours dʼécrire, de lire et de supprimer des parcours.
+Par exemple, la variable **[!DNL Journey administrator]** le profil de produit se voit attribuer la valeur **[!DNL Manage journeys]** autorisation. Grâce à cette autorisation, les autorisations de bas niveau permettent à l’administrateur du parcours d’écrire, de lire et de supprimer des parcours.
 
-## Fonction de parcours {#journey-capability}
+## Fonctionnalité de parcours {#journey-capability}
 
-### Autorisation [!DNL Manage journeys] {#manage-journeys}
+### [!DNL Manage journeys] autorisation {#manage-journeys}
 
-Lʼautorisation de haut niveau **[!DNL Manage journeys]** permet aux utilisateurs de créer des parcours et de modifier/supprimer des parcours existants, ainsi que dʼaccéder aux objets utilisés dans la zone de travail de parcours pour concevoir le flux du parcours.
+Le **[!DNL Manage journeys]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des parcours existants, ainsi que d’accéder aux objets utilisés dans la zone de travail du parcours pour créer le flux du parcours.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
 
    * segments.read
    * profiles.read
    * datasets.read
    * schemas.read
 
-### Autorisation [!DNL Publish journeys] {#publish-journeys}
+### [!DNL Publish journeys] autorisation {#publish-journeys}
 
-Lʼautorisation de haut niveau **[!DNL Publish journeys]** permet aux utilisateurs de publier des parcours.
+Le **[!DNL Publish journeys]** l’autorisation de haut niveau permet aux utilisateurs de publier des parcours.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * journeys.publish
    * journeys.read
 
-### Autorisation [!DNL View journeys] {#view-journeys}
+### [!DNL View journeys] autorisation {#view-journeys}
 
-Lʼautorisation de haut niveau **[!DNL View journeys]** permet aux utilisateurs de parcourir et dʼafficher les parcours.
+Le **[!DNL View journeys]** l’autorisation de haut niveau permet aux utilisateurs de parcourir et d’afficher les parcours.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * journeys.read
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * segments.read
    * profiles.read
 
-### Autorisation [!DNL Manage journeys events, data sources and actions] {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] autorisation {#manage-journeys-events}
 
-Lʼautorisation de haut niveau **[!DNL Manage journeys events, data sources and actions]** permet aux utilisateurs de configurer des configurations d’événement et de données.
+Le **[!DNL Manage journeys events, data sources and actions]** l’autorisation de haut niveau permet aux utilisateurs de configurer des configurations d’événement et de données.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * journeys_events.read
    * journeys_events.write
    * journeys_events.delete
@@ -89,64 +89,64 @@ Elle comprend les autorisations de bas niveau suivantes :
    * journeys_actions.write
    * journeys_actions.delete
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Autorisation [!DNL View journeys events, data sources and actions] {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] autorisation {#view-journeys-event}
 
-L’autorisation de haut niveau **[!DNL View journeys events, data sources and actions]** permet aux utilisateurs d’utiliser lʼévénement et les données dans le flux du parcours.
+Le **[!DNL View journeys events, data sources and actions]** l’autorisation de haut niveau permet aux utilisateurs d’utiliser l’événement et les données dans le flux de parcours.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
-   * parcours_events.read
-   * parcours_data_sources.read
-   * parcours_actions.read
+* Spécifique à Journey Optimizer :
+   * journeys_events.read
+   * journeys_data_sources.read
+   * journeys_actions.read
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Autorisation [!DNL View journeys report] {#view-journeys-report}
+### [!DNL View journeys report] autorisation {#view-journeys-report}
 
-L’autorisation de haut niveau **[!DNL View journeys report]** permet aux utilisateurs dʼafficher en lecture seule un rapport sur le parcours.
+Le **[!DNL View journeys report]** l’autorisation de haut niveau permet aux utilisateurs de créer un rapport de parcours en lecture seule.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * journeys_report.read
    * messages_report.read
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * datasets.read
    * queries.read
    * queries.write
    * queries.delete
 
-## Fonction de gestion des décisions {#decisions-permissions}
+## Fonctionnalité de gestion des décisions {#decisions-permissions}
 
-### Autorisation [!DNL Manage decisions] {#manage-decisioning}
+### [!DNL Manage decisions] autorisation {#manage-decisioning}
 
-Lʼautorisation de haut niveau **[!DNL Manage decisions]** permet aux utilisateurs de créer et de modifier/supprimer des **[!DNL Activity entities]** existantes, ainsi que de gérer les objets utilisés dans ces activités pour prendre des décisions.
+Le **[!DNL Manage decisions]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des **[!DNL Activity entities]**, ainsi que de gérer les objets utilisés dans ces activités pour prendre des décisions.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à la gestion des décisions :
+* Spécifique à la gestion des décisions :
    * activities.read
    * activities.write
    * activities.delete
-   * offer.read
-   * offer.write
-   * offer.delete
+   * offers.read
+   * offers.write
+   * offers.delete
    * placements.read
    * placements.write
    * placements.delete
    * ranking_strategy.read
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -154,32 +154,32 @@ Elle comprend les autorisations de bas niveau suivantes :
    * profile.read
    * segments.read
 
-### Autorisation [!DNL View decisions] {#view-decisions}
+### [!DNL View decisions] autorisation {#view-decisions}
 
-Lʼautorisation de haut niveau **[!DNL View decisions]** permet aux utilisateurs dʼutiliser une activité existante et les objets métier associés pour prendre des décisions.
+Le **[!DNL View decisions]** l’autorisation de haut niveau permet aux utilisateurs d’utiliser une activité existante et les objets commerciaux associés pour prendre des décisions.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à la gestion des décisions :
+* Spécifique à la gestion des décisions :
    * activities.read
    * offers.read
    * placements.read
    * ranking_strategy.read
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * schemas.read
    * segment.read
    * datasets.read
    * datasets.write
    * datasets.delete
 
-### Autorisation [!DNL Publish offers decisioning] {#publish-decisions}
+### [!DNL Publish offers decisioning] autorisation {#publish-decisions}
 
-Lʼautorisation de haut niveau **[!DNL Publish offers decisioning]** permet aux utilisateurs dʼobtenir un accès pour approuver/annuler lʼapprobation des activités dʼoffre.
+Le **[!DNL Publish offers decisioning]** l’autorisation de haut niveau permet aux utilisateurs d’accéder à l’approbation/l’annulation de l’approbation des activités d’offre.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à la gestion des décisions :
+* Spécifique à la gestion des décisions :
    * offer_activity.read
    * offers.read
    * offers.write
@@ -189,19 +189,19 @@ Elle comprend les autorisations de bas niveau suivantes :
    * placements.delete
    * ranking_strategy.read
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * schemas.read
    * segment.read
    * datasets.read
    * profiles.read
 
-### Autorisation [!DNL Manage ranking strategies] {#manage-ranking-strategies}
+### [!DNL Manage ranking strategies] autorisation {#manage-ranking-strategies}
 
-L&#39;autorisation **[!DNL Manage ranking strategies]** de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des stratégies de classement.
+Le **[!DNL Manage ranking strategies]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des stratégies de classement.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à la gestion des décisions :
+* Spécifique à la gestion des décisions :
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -209,42 +209,42 @@ Elle comprend les autorisations de bas niveau suivantes :
    * offers.read
    * placements.read
 
-## Fonction d&#39;administration {#administration-permissions}
+## Fonctionnalité d&#39;administration {#administration-permissions}
 
-### Autorisation [!DNL Manage subdomains delegation] {#manage-subdomain}
+### [!DNL Manage subdomains delegation] autorisation {#manage-subdomain}
 
-Lʼautorisation de haut niveau **[!DNL Manage subdomains delegation]** permet aux utilisateurs de créer, de modifier et de supprimer les délégations de sous-domaines (y compris le groupe dʼadresses IP).
+Le **[!DNL Manage subdomains delegation]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des délégations de sous-domaines (y compris le pool d’adresses IP).
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
 * subdomains_delegation.read
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### Autorisation [!DNL Manage PTR records] {#manage-ptr}
+### [!DNL Manage PTR records] autorisation {#manage-ptr}
 
-L’autorisation de haut niveau **[!DNL Manage PTR records]** permet aux utilisateurs de lire et de modifier les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+Le **[!DNL Manage PTR records]** l’autorisation de haut niveau permet aux utilisateurs de lire et de modifier les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
 * PTR_records.read
 * PTR_records.write
 * subdomains_delegation.read
 
-### Autorisation [!DNL View PTR records] {#view-ptr}
+### [!DNL View PTR records] autorisation {#view-ptr}
 
-Lʼautorisation de haut niveau **[!DNL View PTR records]** permet aux utilisateurs dʼafficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+Le **[!DNL View PTR records]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### Autorisation [!DNL Manage IP pools] {#manage-ip-pools}
+### [!DNL Manage IP pools] autorisation {#manage-ip-pools}
 
-Lʼautorisation de haut niveau **[!DNL Manage IP pools]** permet aux utilisateurs de créer, de modifier et de supprimer la définition des affinités.
+Le **[!DNL Manage IP pools]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer la définition d’affinité.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
 * IP_pools.read
 * IP_pools.write
@@ -276,76 +276,76 @@ It includes the following low-level permissions:
   * schemas.read
 -->
 
-### Autorisation [!DNL Manage channel surface] {#manage-channel-surface}
+### [!DNL Manage channel surface] autorisation {#manage-channel-surface}
 
-Lʼautorisation de haut niveau **[!DNL Manage channel surface]** permet aux utilisateurs de créer, de modifier et de supprimer des surfaces de canaux sur les canaux au niveau de la sandbox.
+Le **[!DNL Manage channel surface]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des surfaces de canal sur les canaux au niveau de l’environnement de test.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * messages_presets.read
    * messages_presets.write
    * messages_presets.delete
    * subdomains_delegation.read
    * IP_pools.read
-   * mobile_setting.read (à partir d&#39;Adobe Experience Platform Launch)
+   * mobile_setting.read (à partir d’Adobe Experience Platform Launch)
 
-### Autorisation [!DNL View channel surface] {#view-channel-surface}
+### [!DNL View channel surface] autorisation {#view-channel-surface}
 
-L’autorisation de haut niveau **[!DNL View channel surface]** permet aux utilisateurs d’afficher les surfaces des canaux afin de connaître celles à utiliser.
+Le **[!DNL View channel surface]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les surfaces des canaux afin de connaître les surfaces des canaux à utiliser.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (à partir de la collecte de données dʼAdobe Experience Platform)
+* mobile_setting.read (à partir de la collecte de données Adobe Experience Platform)
 
-### Autorisation [!DNL Manage suppression] {#manage-suppression}
+### [!DNL Manage suppression] autorisation {#manage-suppression}
 
-L’autorisation de haut niveau **[!DNL Manage suppression]** permet aux utilisateurs de définir le nombre de bounces avant l’ajout d’une adresse e-mail à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans la liste de suppression.
+Le **[!DNL Manage suppression]** l’autorisation de haut niveau permet aux utilisateurs de définir le nombre de rebonds avant l’ajout d’une adresse électronique à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans/depuis la liste de suppression.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* suppression_rules.read
-* suppression_rules.write
-* suppression_rules.delete
-* suppression_list.write
-* suppression_list.delete
+* delete_rules.read
+* delete_rules.write
+* delete_rules.delete
+* delete_list.write
+* delete_list.delete
 
-### Autorisation [!DNL View suppression list] {#view-suppression-list}
+### [!DNL View suppression list] autorisation {#view-suppression-list}
 
-L’autorisation de haut niveau **[!DNL View suppression list]** permet aux utilisateurs d’afficher le contenu et les paramètres de la liste de suppression.
+Le **[!DNL View suppression list]** l’autorisation de haut niveau permet aux utilisateurs d’afficher le contenu et les paramètres de la liste de suppression.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
-   * suppression_list.view
+* Spécifique à Journey Optimizer :
+   * delete_list.view
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * profiles.read
    * datasets.read
 
-### Autorisation [!DNL Export suppression list] {#export-suppression-list}
+### [!DNL Export suppression list] autorisation {#export-suppression-list}
 
-L’autorisation de haut niveau **[!DNL Export suppression list]** permet aux utilisateurs de télécharger la liste de suppression sous forme de fichier CSV.
+Le **[!DNL Export suppression list]** l’autorisation de haut niveau permet aux utilisateurs de télécharger la liste de suppression sous la forme d’un fichier CSV.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
-   * suppression_list.export
+* Spécifique à Journey Optimizer :
+   * delete_list.export
 
-* Spécifiques à Adobe Experience Platform :
+* Spécifique à Adobe Experience Platform :
    * profiles.read
    * datasets.read
 
-### Autorisation [!DNL Manage landing page settings] {#manage-landing-page-settings}
+### [!DNL Manage landing page settings] autorisation {#manage-landing-page-settings}
 
-Lʼautorisation de haut niveau **[!DNL Manage landing page settings]** permet aux utilisateurs de lire, créer et modifier les sous-domaines et les préréglages des pages de destination.
+Le **[!DNL Manage landing page settings]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer et modifier des sous-domaines de landing page et des paramètres prédéfinis.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * landing_page_subdomain.read
    * landing_page_subdomain.write
    * landing_page_subdomain.delete
@@ -353,22 +353,22 @@ Elle comprend les autorisations de bas niveau suivantes :
    * landing_page_preset.write
    * landing_page_preset.delete
 
-### Autorisation [!DNL Manage frequency rules] {#manage-frequency-rules}
+### [!DNL Manage frequency rules] autorisation {#manage-frequency-rules}
 
-L’autorisation de haut niveau **[!DNL Manage frequency rules]** permet aux utilisateurs de lire, de créer, de modifier, de supprimer et d’activer/désactiver les règles de fréquence.
+Le **[!DNL Manage frequency rules]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier, supprimer et activer/désactiver les règles de fréquence.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * frequency_rules.read
    * frequency_rules.write
    * frequency_rules.delete
 
-### Autorisation [!DNL View frequency rules] {#view-frequency-rules}
+### [!DNL View frequency rules] autorisation {#view-frequency-rules}
 
-L’autorisation de haut niveau **[!DNL View frequency rules]** permet aux utilisateurs d’afficher les règles de fréquence.
+Le **[!DNL View frequency rules]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les règles de fréquence.
 
-Elle comprend les autorisations de bas niveau suivantes :
+Elle comprend les autorisations de bas niveau suivantes :
 
-* Spécifiques à Journey Optimizer :
+* Spécifique à Journey Optimizer :
    * frequency_rules.read

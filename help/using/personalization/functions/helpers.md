@@ -1,6 +1,6 @@
 ---
-title: Assistants
-description: Assistants
+title: Helpers
+description: Helpers
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,16 +8,16 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 0%
 
 ---
 
-# Assistants {#gs-helpers}
+# Helpers {#gs-helpers}
 
 ## Valeur de secours par défaut{#default-value}
 
-L’helper `Default Fallback Value` est utilisé pour renvoyer une valeur de secours par défaut si un attribut est vide ou nul. Ce mécanisme fonctionne pour les attributs de profil et les événements de parcours.
+Le `Default Fallback Value` helper est utilisé pour renvoyer une valeur de secours par défaut si un attribut est vide ou nul. Ce mécanisme fonctionne pour les attributs de profil et les événements de parcours.
 
 **Syntaxe**
 
@@ -25,12 +25,12 @@ L’helper `Default Fallback Value` est utilisé pour renvoyer une valeur de sec
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-Dans cet exemple, la valeur `there` s&#39;affiche si l&#39;attribut `firstName` de ce profil est vide ou nul.
+Dans cet exemple, la valeur `there` s’affiche si la variable `firstName` de ce profil est vide ou nul.
 
 ## Conditions{#if-function}
 
-L&#39;helper `if` est utilisé pour définir un bloc conditionnel.
-Si l&#39;évaluation de l&#39;expression renvoie true, le bloc est rendu, sinon il est ignoré.
+Le `if` helper est utilisé pour définir un bloc conditionnel.
+Si l’évaluation de l’expression renvoie true (vrai), le bloc est rendu, sinon il est ignoré.
 
 **Syntaxe**
 
@@ -39,8 +39,8 @@ Si l&#39;évaluation de l&#39;expression renvoie true, le bloc est rendu, sinon 
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-À la suite de l&#39;helper `if`, vous pouvez saisir une instruction `else` pour spécifier un bloc de code à exécuter, si la même condition est false.
-L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la première instruction renvoie false.
+En procédant comme suit : `if` aide, vous pouvez saisir une `else` pour spécifier un bloc de code à exécuter, si la même condition est fausse.
+Le `elseif` spécifie une nouvelle condition à tester si la première instruction renvoie false (faux).
 
 
 **Format**
@@ -58,7 +58,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 **Exemples**
 
-1. **Générer différents liens de boutique en fonction d&#39;expressions conditionnelles**
+1. **Rendu de différents liens de magasin en fonction d’expressions conditionnelles**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
    {%/if%}
    ```
 
-1. **Déterminer l&#39;extension d&#39;adresse e-mail**
+1. **Déterminer l’extension de l’adresse électronique**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -80,9 +80,9 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
    {%/if%}
    ```
 
-1. **Ajout d&#39;un lien conditionnel**
+1. **Ajout d’un lien conditionnel**
 
-   L&#39;opération suivante ajoutera un lien vers le site Web &#39;www.adobe.com/academia&#39; pour les profils avec des adresses e-mail &#39;.edu&#39; uniquement, vers le site Web &#39;www.adobe.com/org&#39; pour les profils avec des adresses e-mail &#39;.org&#39;, et l&#39;URL par défaut &#39;www.adobe.com/users&#39; pour tous les autres profils :
+   L&#39;opération suivante ajoutera un lien vers le &#39;site web www.adobe.com/academia&#39; pour les profils ayant uniquement des adresses email &#39;.edu&#39;, vers le &#39;site web www.adobe.com/org&#39; pour les profils ayant des adresses email &#39;.org&#39;, et l&#39;URL par défaut &#39;www.adobe.com/users&#39; pour tous les autres profils :
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
    {%/if%}
    ```
 
-1. **Contenu conditionnel basé sur l&#39;appartenance à un segment**
+1. **Contenu conditionnel basé sur l’appartenance à un segment**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -116,12 +116,12 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 >[!NOTE]
 >
->Pour en savoir plus sur la segmentation et le service de segmentation, consultez cette [section](../../segment/about-segments.md).
+>Pour en savoir plus sur le service de segmentation et de segmentation, reportez-vous à cette section [section](../../segment/about-segments.md).
 
 
-## Unless{#unless}
+## Sauf{#unless}
 
-L&#39;helper `unless` est utilisé pour définir un bloc conditionnel. Par opposition à l&#39;helper `if`, si l&#39;évaluation de l&#39;expression renvoie false, le bloc est rendu.
+Le `unless` helper est utilisé pour définir un bloc conditionnel. Par opposition au `if`  assistance, si l’évaluation de l’expression renvoie false, le bloc est rendu.
 
 **Syntaxe**
 
@@ -131,7 +131,7 @@ L&#39;helper `unless` est utilisé pour définir un bloc conditionnel. Par oppos
 
 **Exemple**
 
-Générer du contenu en fonction de l&#39;extension d&#39;adresse e-mail :
+Rendre du contenu en fonction de l’extension de l’adresse électronique :
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -141,11 +141,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## Each{#each}
+## Chaque{#each}
 
-L&#39;helper `each` est utilisé pour effectuer une itération sur un tableau.
-La syntaxe de l’assistant est ```{{#each ArrayName}}``` YourContent {{/each}}
-Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc. L’index de l’élément du tableau peut être rendu à l’aide de {{@index}}.
+Le `each` helper est utilisé pour effectuer une itération sur un tableau.
+La syntaxe de l’assistant est la suivante : ```{{#each ArrayName}}``` YourContent {{/each}}
+Nous pouvons nous référer aux éléments individuels du tableau à l’aide du mot-clé . **this** à l&#39;intérieur du bloc. L’index de l’élément du tableau peut être rendu à l’aide de {{@index}}.
 
 **Syntaxe**
 
@@ -166,7 +166,7 @@ Il est possible de se référer aux éléments individuels du tableau en utilisa
 
 **Exemple**
 
-Générer une liste de produits que cet utilisateur a dans son panier :
+Rendre la liste des produits que cet utilisateur a dans son panier :
 
 ```sql
 {{#each profile.products as |product|}}
@@ -177,7 +177,7 @@ Générer une liste de produits que cet utilisateur a dans son panier :
 
 ## Avec{#with}
 
-L&#39;helper `with` permet de modifier le jeton d&#39;évaluation d&#39;une partie de modèle.
+Le `with` helper est utilisé pour modifier le jeton d’évaluation de template-part.
 
 **Syntaxe**
 
@@ -187,11 +187,11 @@ L&#39;helper `with` permet de modifier le jeton d&#39;évaluation d&#39;une part
 {{/with}}
 ```
 
-L&#39;helper `with` est utile pour définir également une variable de raccourci.
+Le `with` Cette fonction est utile pour définir une variable de raccourci.
 
 **Exemple**
 
-Utiliser l&#39;option avec pour attribuer un alias aux noms de variables longs par rapport aux noms plus courts :
+Utilisez avec pour donner un alias aux noms de variables longs par rapport aux noms plus courts :
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -202,7 +202,7 @@ Utiliser l&#39;option avec pour attribuer un alias aux noms de variables longs p
 
 ## Let{#let}
 
-La fonction `let` permet à une expression d&#39;être stockée en tant que variable et d&#39;être utilisé ultérieurement dans une requête.
+Le `let` permet à une expression d’être stockée en tant que variable et d’être utilisée ultérieurement dans une requête.
 
 **Syntaxe**
 
@@ -212,7 +212,7 @@ La fonction `let` permet à une expression d&#39;être stockée en tant que vari
 
 **Exemple**
 
-L&#39;exemple suivant laisse toutes les sommes des totaux des produits avec la transaction en USD lorsque la somme est supérieure à 100 USD et inférieure à 1000 USD.
+L’exemple suivant permet d’utiliser toutes les sommes des totaux des produits pour la transaction en USD, pour laquelle la somme est supérieure à 100 USD et inférieure à 1 000 USD.
 
 ```sql
 {% let variable = expression %} {{variable}}

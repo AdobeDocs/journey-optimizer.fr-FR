@@ -8,8 +8,8 @@ level: Experienced
 exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -29,10 +29,10 @@ Conversion
 
 | Paramètre | Description |
 |--- |--- |
-| chaîne | convertit la valeur de la chaîne en valeur décimale |
-| dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
-| booléen | convertit la valeur booléenne en 1 si true, 0 si false |
-| nombre entier | convertit en valeur décimale (exemple :1 devient 1,0) |
+| string | convertit la valeur de chaîne en valeur décimale |
+| dateTime | convertit la date en millisecondes (nombre de millisecondes de l’époque) |
+| boolean | convertit la valeur booléenne en 1 si true, 0 si false |
+| entier | convertit en décimal (exemple :: 1 devient 1,0) |
 
 ## Signatures et types renvoyés
 
@@ -50,4 +50,4 @@ Renvoie une valeur décimale.
 
 `toDecimal("4.0")`
 
-Renvoie 4.0.
+Renvoie 4,0.

@@ -8,18 +8,18 @@ level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 0%
 
 ---
 
-# Fonctions de liste et de tableau {#arrays}
+# Tableaux et fonctions de liste {#arrays}
 
-Utilisez ces fonctions pour faciliter l&#39;interaction avec des tableaux, des listes et des chaînes.
+Utilisez ces fonctions pour faciliter l’interaction avec des tableaux, des listes et des chaînes.
 
-## Nombre uniquement nul {#count-only-null}
+## Count only null {#count-only-null}
 
-La fonction `countOnlyNull` sert à compter le nombre de valeurs nulles dans une liste.
+Le `countOnlyNull` sert à compter le nombre de valeurs &quot;null&quot; dans une liste.
 
 **Format**
 
@@ -35,9 +35,9 @@ La fonction `countOnlyNull` sert à compter le nombre de valeurs nulles dans une
 
 Renvoie 3.
 
-## Nombre avec nul {#count-with-null}
+## Compter avec valeur nulle {#count-with-null}
 
-La fonction `countWithNull` est utilisée pour compter tous les éléments d’une liste, y compris les valeurs nulles.
+Le `countWithNull` est utilisée pour compter tous les éléments d’une liste, y compris les valeurs nulles.
 
 **Format**
 
@@ -55,7 +55,7 @@ Renvoie 6.
 
 ## Distinct{#distinct}
 
-La fonction `distinct` est utilisée pour obtenir les valeurs d&#39;un tableau ou d&#39;une liste dont les valeurs en double sont supprimées.
+Le `distinct` est utilisée pour obtenir des valeurs d’un tableau ou d’une liste dont les valeurs en double sont supprimées.
 
 **Format**
 
@@ -65,15 +65,15 @@ La fonction `distinct` est utilisée pour obtenir les valeurs d&#39;un tableau o
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes qui ont passé des commandes dans plusieurs magasins.
+L’opération suivante spécifie les personnes qui ont passé des commandes dans plusieurs magasins.
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Nombre distinct avec nul {#distinct-count-with-null}
+## Comptage distinct avec valeur nulle {#distinct-count-with-null}
 
-La fonction `distinctCountWithNull` sert à compter le nombre de valeurs différentes dans une liste, y compris les valeurs nulles.
+Le `distinctCountWithNull` sert à compter le nombre de valeurs différentes dans une liste, y compris les valeurs &quot;null&quot;.
 
 **Format**
 
@@ -91,7 +91,7 @@ Renvoie 3.
 
 ## Premier élément{#head}
 
-La fonction `head` est utilisée pour renvoyer le premier élément dans un tableau ou une liste.
+Le `head` est utilisée pour renvoyer le premier élément d’un tableau ou d’une liste.
 
 **Format**
 
@@ -101,15 +101,15 @@ La fonction `head` est utilisée pour renvoyer le premier élément dans un tabl
 
 **Exemple**
 
-L&#39;opération suivante renvoie la première des cinq principales commandes au prix le plus élevé. Vous trouverez plus d&#39;informations sur la fonction `topN` dans la section [First `n` in array](#first-n).
+L’opération suivante renvoie la première des cinq premières commandes au prix le plus élevé. En savoir plus sur la variable `topN` se trouve dans la fonction [first `n` in array](#first-n) .
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## `n` premiers éléments d’un tableau {#first-n}
+## First `n` in array {#first-n}
 
-La fonction `topN` est utilisée pour renvoyer les premiers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
+Le `topN` est utilisée pour renvoyer la première fonction `N` éléments d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
 
 **Format**
 
@@ -121,11 +121,11 @@ La fonction `topN` est utilisée pour renvoyer les premiers éléments `N` d’u
 | --------- | ----------- |
 | `{ARRAY}` | Tableau ou liste à trier. |
 | `{VALUE}` | Propriété dans laquelle trier le tableau ou la liste. |
-| `{AMOUNT}` | Nombre d&#39;éléments à renvoyer. |
+| `{AMOUNT}` | Nombre d’éléments à renvoyer. |
 
 **Exemple**
 
-L&#39;opération suivante renvoie les cinq principales commandes au prix le plus élevé.
+L’opération suivante renvoie les cinq premières commandes au prix le plus élevé.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -133,7 +133,7 @@ L&#39;opération suivante renvoie les cinq principales commandes au prix le plus
 
 ## Dans{#in}
 
-La fonction `in` permet de déterminer si un élément est un membre d&#39;un tableau ou d&#39;une liste.
+Le `in` sert à déterminer si un élément est membre d’un tableau ou d’une liste.
 
 **Format**
 
@@ -143,7 +143,7 @@ La fonction `in` permet de déterminer si un élément est un membre d&#39;un ta
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en mars, juin ou septembre.
+L’opération suivante définit les personnes dont l’anniversaire a lieu en mars, juin ou septembre.
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
@@ -151,7 +151,7 @@ L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en 
 
 ## Inclut{#includes}
 
-La fonction `includes` permet de déterminer si un tableau ou une liste contient un élément donné.
+Le `includes` sert à déterminer si un tableau ou une liste contient un élément donné.
 
 **Format**
 
@@ -161,15 +161,15 @@ La fonction `includes` permet de déterminer si un tableau ou une liste contient
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont le rouge est l&#39;une des couleurs préférées.
+L’opération suivante définit les personnes dont la couleur préférée inclut le rouge.
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersections{#intersects}
+## Intersects{#intersects}
 
-La fonction `intersects` permet de déterminer si deux tableaux ou deux listes ont au moins un membre commun.
+Le `intersects` sert à déterminer si deux tableaux ou deux listes ont au moins un membre commun.
 
 **Format**
 
@@ -179,7 +179,7 @@ La fonction `intersects` permet de déterminer si deux tableaux ou deux listes o
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont les couleurs préférées comprennent au moins le rouge, le bleu ou le vert.
+L’opération suivante définit les personnes dont les couleurs préférées comprennent au moins le rouge, le bleu ou le vert.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## `n` derniers éléments d’un tableau{#last-n}
+## Dernière `n` in array{#last-n}
 
-La fonction `bottomN` est utilisée pour renvoyer les derniers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
+Le `bottomN` sert à renvoyer la dernière fonction `N` éléments d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
 
 **Format**
 
@@ -219,23 +219,23 @@ La fonction `bottomN` est utilisée pour renvoyer les derniers éléments `N` d�
 | --------- | ----------- | 
 | `{ARRAY}` | Tableau ou liste à trier. |
 | `{VALUE}` | Propriété dans laquelle trier le tableau ou la liste. |
-| `{AMOUNT}` | Nombre d&#39;éléments à renvoyer. |
+| `{AMOUNT}` | Nombre d’éléments à renvoyer. |
 
 **Exemple**
 
-L&#39;opération suivante renvoie les cinq principales commandes au prix le plus bas.
+L’opération suivante renvoie les cinq premières commandes au prix le plus bas.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Pas dans{#notin}
+## Not in{#notin}
 
-La fonction `notIn` permet de déterminer si un élément n&#39;est pas un membre d&#39;un tableau ou d&#39;une liste.
+Le `notIn` sert à déterminer si un élément n’est pas membre d’un tableau ou d’une liste.
 
 >[!NOTE]
 >
->La fonction `notIn` assure *également* qu&#39;aucune valeur n&#39;est nulle. Par conséquent, les résultats ne sont pas une négation exacte de la fonction `in`.
+>Le `notIn` function *également* s’assure qu’aucune valeur n’est nulle. Par conséquent, les résultats ne sont pas une négation exacte de la variable `in` fonction .
 
 **Format**
 
@@ -245,7 +245,7 @@ La fonction `notIn` permet de déterminer si un élément n&#39;est pas un membr
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes dont l&#39;anniversaire n&#39;est ni en mars, ni en juin, ni en septembre.
+L’opération suivante définit les personnes dont l’anniversaire n’est pas en mars, juin ou septembre.
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
@@ -254,7 +254,7 @@ L&#39;opération suivante définit les personnes dont l&#39;anniversaire n&#39;e
 
 ## Sous-ensemble de{#subset}
 
-La fonction `subsetOf` sert à déterminer si un tableau spécifique (tableau A) est un sous-ensemble d&#39;un autre tableau (tableau B). En d&#39;autres termes, elle permet de déterminer si tous les éléments du tableau A sont des éléments du tableau B.
+Le `subsetOf` sert à déterminer si un tableau spécifique (tableau A) est un sous-ensemble d’un autre tableau (tableau B). En d’autres termes, que tous les éléments du tableau A sont des éléments du tableau B.
 
 **Format**
 
@@ -264,15 +264,15 @@ La fonction `subsetOf` sert à déterminer si un tableau spécifique (tableau A
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes qui ont visité toutes leurs villes préférées.
+L’opération suivante définit les personnes qui ont visité toutes leurs villes préférées.
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Sur-ensemble de{#superset}
+## Superset of{#superset}
 
-La fonction `supersetOf` sert à déterminer si un tableau spécifique (tableau A) est un sur-ensemble d&#39;un autre tableau (tableau B). En d&#39;autres termes, elle permet de déterminer si le tableau A contient tous les éléments du tableau B.
+Le `supersetOf` sert à déterminer si un tableau spécifique (tableau A) est un sur-ensemble d’un autre tableau (tableau B). En d’autres termes, ce tableau A contient tous les éléments du tableau B.
 
 **Format**
 
@@ -282,7 +282,7 @@ La fonction `supersetOf` sert à déterminer si un tableau spécifique (tableau�
 
 **Exemple**
 
-L&#39;opération suivante définit les personnes qui ont mangé des sushis et de la pizza au moins une fois.
+L’opération suivante définit les personnes qui ont mangé des sushis et des pizzas au moins une fois.
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}

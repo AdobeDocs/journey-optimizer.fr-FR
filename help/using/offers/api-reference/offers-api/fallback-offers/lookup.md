@@ -1,6 +1,6 @@
 ---
-title: recherche d’offres de secours
-description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
+title: Rechercher des offres de secours
+description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,13 +9,13 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Rechercher des offres de secours {#look-up-fallback-offers}
 
-Vous pouvez rechercher des offres de secours spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit l’offre de secours `@id` soit le nom de l’offre de secours dans le chemin de la requête.
+Vous pouvez rechercher des offres de secours spécifiques en adressant une requête GET à la fonction [!DNL Offer Library] API qui inclut l’une des offres de secours `@id` ou le nom de l’offre de secours dans le chemin de la requête.
 
 **Format d’API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les offres de secours. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Définit le schéma associé aux offres de secours. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `F1: Web fallback` |
+| `id` | Chaîne utilisée pour faire correspondre la variable `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisées ensemble. | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec majuscules, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `F1: Web fallback` |
 
 **Requête**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` d’offre de secours unique .
+Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’offre de secours unique. `@id`.
 
 ```json
 {

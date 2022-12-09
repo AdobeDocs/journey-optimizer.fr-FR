@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapport global sur les pages de destination
-description: Découvrez comment utiliser les données de votre rapport global sur les pages de destination
+title: Rapport global de page d’entrée
+description: Découvrez comment utiliser les données de votre rapport global de landing pages
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,58 +10,58 @@ level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 0%
 
 ---
 
-# Rapport global sur les pages de destination {#lp-report-global}
+# Rapport global de page d’entrée {#lp-report-global}
 
-Le rapport **[!UICONTROL Rapport global]** sur les pages de destination affiche des détails sur l&#39;impact de vos pages de destination sur une période sélectionnée. Pour mesurer les données de votre page de destination sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport dynamique sur les pages de destination](lp-report-live.md).
+La landing page **[!UICONTROL Global report]** Ce rapport affiche des détails sur l’impact de vos landing pages sur une période sélectionnée. Pour mesurer les données de votre landing page sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport en direct de la page d’entrée](lp-report-live.md).
 
-Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la page de destination sélectionnée.
+Pour accéder à vos rapports, sélectionnez **[!UICONTROL Report]** dans le menu avancé de la landing page sélectionnée.
 
 ![](assets/landing_page_report.png)
 
-Le **[!UICONTROL Rapport global]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md).
+La landing page **[!UICONTROL Global report]** est divisé en différents widgets détaillant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Voir à ce sujet la section [section](global-report.md).
 
 ![](assets/landing_page_global.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport global de la page de destination.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport global de la page d’entrée.
 
-Les widgets **[!UICONTROL Nombre de visites]** et **[!UICONTROL Nombre de visites dans le temps]** vous permettent de mesurer l’impact de votre page de destination sur la période sélectionnée à lʼaide d’un graphique et de KPI comprenant les mesures suivantes :
+Le **[!UICONTROL Number of visits]** et **[!UICONTROL Number of visits over time]** Les widgets vous permettent de voir l’impact de votre landing page sur la période sélectionnée au moyen d’un graphique et d’indicateurs de performance clés avec les mesures suivantes :
 
-* **[!UICONTROL Nombre total de visites]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul destinataire.
+* **[!UICONTROL Total visits]**: Nombre total de visites de votre landing page provenant de parcours et de sources externes, y compris plusieurs visites d’un seul destinataire.
 
-* **[!UICONTROL Visiteurs uniques]** : nombre de personnes ayant visité votre page de destination, les visites multiples dʼun même destinataire ne sont pas prises en compte.
+* **[!UICONTROL Unique visitors]**: Nombre de personnes ayant consulté votre landing page, plusieurs visites d&#39;un même destinataire ne sont pas prises en compte.
 
-Le widget **[!UICONTROL Performances de la page de destination]** présente les informations principales relatives à votre message au moyen des indicateurs clé de performance :
+Le **[!UICONTROL Landing page performance]** widget détaille les informations principales relatives à votre message par le biais des IPC :
 
-* **[!UICONTROL Taux de conversion]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre dʼinscrits à un formulaire par rapport au nombre total de visites.
+* **[!UICONTROL Conversion rate]**: Nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire, par rapport au nombre total de visites.
 
-* **[!UICONTROL Taux de rebond]** : nombre de personnes nʼayant pas interagi avec la page de destination ni effectué lʼaction dʼinscription, par rapport au nombre total de visites.
+* **[!UICONTROL Bounce rate]**: Nombre de personnes qui n&#39;ont pas interagi avec la landing page et n&#39;ont pas effectué l&#39;action d&#39;inscription, par rapport au nombre total de visites.
 
-Le widget **[!UICONTROL Sources des visites]** représente la façon dont les visiteurs accèdent à votre page de destination :
+Le **[!UICONTROL Visit sources]** représente la manière dont les visiteurs accèdent à votre page d’entrée :
 
-* **[!UICONTROL Parcours]** : nombre de visites sur votre page de destination provenant dʼun parcours.
+* **[!UICONTROL Journey(s)]**: Nombre de visites de votre page d’entrée provenant d’un parcours.
 
-* **[!UICONTROL Autres sources]** : nombre de visites de votre page de destination provenant d’une source externe au lieu d’un parcours.
+* **[!UICONTROL Other sources]**: Nombre de visites de votre page d’entrée provenant d’une source externe plutôt que d’un parcours.
 
-Le widget **[!UICONTROL Principaux liens ayant fait l’objet d’un clic]** identifie lʼinteraction des visiteurs avec la diffusion :
+Le **[!UICONTROL Top clicked links]** identifie l&#39;interaction des visiteurs avec la diffusion :
 
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu de la page de destination.
+* **[!UICONTROL Clicks]**: Nombre de clics sur un contenu dans la landing page.
 
-* **[!UICONTROL Taux de clics]** : pourcentage de clics sur la page de destination.
+* **[!UICONTROL Click rate]**: Pourcentage de clics dans la landing page.
 
-Le widget **[!UICONTROL Parcours]** représente le nombre de visites sur votre page de destination à partir dʼun parcours :
+Le **[!UICONTROL Journey(s)]** représente le nombre de visites sur votre page d’entrée à partir d’un parcours :
 
-* **[!UICONTROL Visites]** : nombre de visites sur votre page de destination, y compris les visites multiples d’un seul destinataire.
+* **[!UICONTROL Visits]**: Nombre de visites sur votre landing page, y compris plusieurs visites d’un seul destinataire.
 
-Le widget **[!UICONTROL Autres sources]** représente le nombre de visites sur votre page de destination à partir d’une source externe au lieu d’un parcours.
+Le **[!UICONTROL Other sources]** représente le nombre de visites de votre page d’entrée à partir d’une source externe plutôt que d’un parcours.
 
-Les graphiques **[!UICONTROL Visites par messages]** / **[!UICONTROL Conversions par messages]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination pendant la période concernée en fonction des messages envoyés.
+Le **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** les graphiques représentent le nombre total de visites et de personnes qui ont interagi avec votre landing page avec succès pendant la période concernée en fonction des messages envoyés.
 
-Les graphiques **[!UICONTROL Visites par canaux]**/ **[!UICONTROL Conversions par canaux]** représentent le nombre total de visites et de personnes ayant interagi avec votre page de destination pendant la période concernée en fonction des canaux.
+Le **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** les graphiques représentent le nombre total de visites et de personnes qui ont interagi avec votre landing page avec succès pendant la période concernée en fonction des canaux.
 +++
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](global-report.md#list-of-components-global).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](global-report.md#list-of-components-global).

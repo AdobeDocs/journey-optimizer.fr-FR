@@ -9,17 +9,17 @@ exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Fonctions de mappage{#maps}
 
-Utilisez les fonctions de mappage dans la personnalisation pour faciliter l’interaction avec les mappages.
+Utilisez les fonctions de carte dans la personnalisation pour faciliter l’interaction avec les cartes.
 
-## Obtenir{#get}
+## Get{#get}
 
-La fonction `get` est utilisée pour récupérer la valeur d&#39;une carte pour une clé donnée.
+Le `get` est utilisée pour récupérer la valeur d’une carte pour une clé donnée.
 
 **Format**
 
@@ -29,7 +29,7 @@ La fonction `get` est utilisée pour récupérer la valeur d&#39;une carte pour 
 
 **Exemple**
 
-L&#39;opération suivante renvoie la valeur de la carte d&#39;identité pour la clé `example@example.com`.
+L’opération suivante récupère la valeur de la carte d’identité pour la clé `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -37,7 +37,7 @@ L&#39;opération suivante renvoie la valeur de la carte d&#39;identité pour la 
 
 ## Clés{#keys}
 
-La fonction `keys` est utilisée pour récupérer toutes les clés d&#39;une carte donnée.
+Le `keys` est utilisée pour récupérer toutes les clés d’une carte donnée.
 
 **Format**
 
@@ -47,7 +47,7 @@ La fonction `keys` est utilisée pour récupérer toutes les clés d&#39;une car
 
 **Exemple**
 
-L&#39;opération suivante renvoie toutes les clés pour la carte `identityMap`.
+L’opération suivante récupère toutes les clés de la carte. `identityMap`.
 
 ```sql
 {%= keys(identityMap) %}
@@ -55,7 +55,7 @@ L&#39;opération suivante renvoie toutes les clés pour la carte `identityMap`.
 
 ## Valeurs{#values}
 
-La fonction `values` est utilisée pour récupérer toutes les valeurs d&#39;une carte donnée.
+Le `values` est utilisée pour récupérer toutes les valeurs d’une carte donnée.
 
 **Format**
 
@@ -65,7 +65,7 @@ La fonction `values` est utilisée pour récupérer toutes les valeurs d&#39;une
 
 **Exemple**
 
-L&#39;opération suivante renvoie toutes les valeurs pour la carte `identityMap`.
+L’opération suivante récupère toutes les valeurs de la carte. `identityMap`.
 
 ```sql
 {%= values(identityMap) %}

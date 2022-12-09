@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: limit
-description: En savoir plus sur la fonction limit
+description: En savoir plus sur la limite de fonction
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 88%
+ht-degree: 0%
 
 ---
 
@@ -33,9 +33,9 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
-| numberOfItems | nombre entier | Nombre d’éléments à renvoyer à partir de la liste donnée. |
-| firstOrLastItems | booléen | Ce paramètre est facultatif (true par défaut). true renvoie les premiers éléments. false renvoie les derniers éléments. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
+| numberOfItems | entier | Nombre d’éléments à renvoyer à partir de la liste donnée. |
+| firstOrLastItems | boolean | Ce paramètre est facultatif (true par défaut). true renvoie les premiers éléments. false renvoie les derniers éléments. |
 
 ## Signature et type renvoyé
 
@@ -52,7 +52,7 @@ Renvoie une liste de nombres entiers.
 `limit(<listDecimal>,<integer>)`
 `limit(<listDecimal>,<integer>,<boolean>)`
 
-Renvoie une liste de nombres décimaux.
+Renvoie une liste de décimales.
 
 `limit(<listBoolean>,<integer>)`
 `limit(<listBoolean>,<integer>,<boolean>)`
@@ -67,7 +67,7 @@ Renvoie une liste de dates.
 `limit(<listDateTimeOnly>,<integer>)`
 `limit(<listDateTimeOnly>,<integer>,<boolean>)`
 
-Renvoie une liste de dates et heures sans tenir compte du fuseau horaire.
+Renvoie une liste de dates et heures sans prendre en compte le fuseau horaire.
 
 `limit(<listDateTime>,integer>)`
 `limit(<listDateTime>,<integer>,<boolean>)`

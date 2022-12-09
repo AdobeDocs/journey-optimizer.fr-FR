@@ -9,13 +9,13 @@ exl-id: b6bd9f77-272f-4c2b-b085-20ab5f043793
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-Renvoie « true » si le deuxième paramètre est un préfixe du premier sans tenir compte de la casse.
+Renvoie &quot;true&quot; si le deuxième paramètre est un préfixe du premier sans tenir compte de la casse.
 
 ## Catégorie
 
@@ -29,8 +29,8 @@ Chaîne
 
 | Paramètre | Type |
 |-------------|--------|
-| chaîne | chaîne |
-| préfixe | chaîne |
+| string | string |
+| préfixe | string |
 
 ## Signature et type renvoyé
 

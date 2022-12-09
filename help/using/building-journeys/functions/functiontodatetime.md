@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
@@ -29,14 +29,14 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| date et heure au format ISO-8601 | chaîne |
-| identifiant de fuseau horaire | chaîne |
-| date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
+| date et heure au format ISO-8601 | string |
+| identifiant de fuseau horaire | string |
+| date et heure sans fuseau horaire | dateTimeOnly |
 | valeur entière d’une époque en millisecondes | entier |
 
 >[!NOTE]
 >
->L’identifiant de fuseau horaire doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression. Pour plus d’informations sur les types de données, consultez [cette page](../expression/data-types.md).
+>L’identifiant de fuseau horaire doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ou d’une expression. Pour plus d’informations sur les types de données, reportez-vous à la section [cette page](../expression/data-types.md).
 
 ## Signatures et types renvoyés
 
@@ -46,7 +46,7 @@ Conversion
 
 `toDateTime(<integer>)`
 
-Renvoie une valeur **dateTime**.
+Renvoie une **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -81,7 +81,7 @@ Renvoie 2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-Renvoie 2019-06-17T09:03:10.189Z
+Renvoie 2019-06-17T09:03:10,189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
