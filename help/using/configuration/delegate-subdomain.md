@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >id="ajo_admin_subdomainname"
 >title="Délégation de sous-domaine"
 >abstract="Journey Optimizer vous permet de déléguer vos sous-domaines à Adobe. Vous pouvez entièrement déléguer un sous-domaine à Adobe, ce qui est la méthode recommandée. Vous pouvez également créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à Adobe, mais cette approche nécessite que vous gardiez et gériez les enregistrements DNS vous-même."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Méthodes de configuration de sous-domaine"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Méthodes de configuration de sous-domaine"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -48,7 +48,7 @@ Vous pouvez déléguer entièrement un sous-domaine ou créer un sous-domaine à
 >id="ajo_admin_subdomain_dns"
 >title="Générer les enregistrements DNS correspondants"
 >abstract="Pour déléguer entièrement un nouveau sous-domaine à Adobe, vous devez copier-coller les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer dans votre solution d’hébergement de domaine afin de générer les enregistrements DNS correspondants. Pour déléguer un sous-domaine à l’aide de CNAME, vous devez également copier-coller l’enregistrement de validation de l’URL CDN SSL. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour diffuser les messages."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="Délégation de sous-domaine CNAME"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="Délégation de sous-domaine CNAME"
 
 [!DNL Journey Optimizer] vous permet de déléguer entièrement vos sous-domaines à Adobe directement à partir de l’interface du produit. Ce faisant, Adobe sera en mesure de diffuser des messages en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes email.
 
