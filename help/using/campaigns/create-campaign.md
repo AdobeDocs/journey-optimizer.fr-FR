@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: 5f8a765eefe4033a642c46e18be518d29b196bc3
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 76%
+source-wordcount: '628'
+ht-degree: 75%
 
 ---
 
@@ -127,6 +127,21 @@ Dans le **[!UICONTROL Actions]** , créez le message à envoyer avec la campagne
 
 ## Planification de la campagne {#schedule}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Démarrage de campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Fin de campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Déclencheurs d’action de campagne"
+>abstract="TBC"
+
 1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [Découvrez comment planifier des campagnes](#schedule)
 
 1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
@@ -143,7 +158,7 @@ Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoi
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Catégorie de campagne"
->abstract="La valeur de catégorie est directement liée à la valeur de type de campagne. Planification du type de campagne pour le **Marketing** catégorie et type déclenché par l’API pour la catégorie **Transactionnel**"
+>abstract="La valeur de catégorie est directement associée à la valeur de type de campagne. Planification du type de campagne pour le **Marketing** catégorie et type déclenché par l’API pour la catégorie **Transactionnel**"
 
 Deux types de campagne sont disponibles :
 
