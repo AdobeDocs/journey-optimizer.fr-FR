@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="Espace de noms d’identité"
->abstract="TBC"
+>abstract="Sélectionnez la clé pour identifier le profil client associé à l’événement."
 
 L’espace de noms vous permet de définir le type de clé utilisé pour identifier la personne associée à l’événement. Sa configuration est facultative. Elle est requise si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant de la variable [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}. La définition d’espace de noms n’est pas nécessaire si vous utilisez uniquement des données provenant d’un système tiers via une source de données personnalisée.
 

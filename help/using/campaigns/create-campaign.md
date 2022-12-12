@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -138,12 +138,12 @@ Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoi
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="TBC"
+>abstract="Pour un message marketing en spécifiant une date d&#39;envoi, la variable **Planifié** type est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon de carte, la variable **déclenché par l’API** type est le meilleur choix."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Catégorie de campagne"
->abstract="TBC"
+>abstract="La valeur de catégorie est directement liée à la valeur de type de campagne. Planification du type de campagne pour le **Marketing** catégorie et type déclenché par l’API pour la catégorie **Transactionnel**"
 
 Deux types de campagne sont disponibles :
 

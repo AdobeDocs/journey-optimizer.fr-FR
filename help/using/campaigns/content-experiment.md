@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Expérience de contenu"
->abstract="TBC"
+>abstract="Vous pouvez choisir de varier le contenu, l&#39;objet ou l&#39;expéditeur de la diffusion afin de définir plusieurs traitements de diffusion et déterminer la meilleure combinaison pour vos audiences."
 
 >[!AVAILABILITY]
 >
