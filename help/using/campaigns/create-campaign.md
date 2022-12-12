@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 5f8a765eefe4033a642c46e18be518d29b196bc3
+source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -25,24 +25,29 @@ ht-degree: 0%
 >* [Prise en main des segments](../segment/about-segments.md)
 
 
-## Créer votre première campagne {#create}
+Pour créer une opération, accédez à la **[!UICONTROL Campaigns]** , puis cliquez sur **[!UICONTROL Create campaign]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
 
-1. Accédez au **[!UICONTROL Campaigns]** , puis cliquez sur **[!UICONTROL Create campaign]**.
+![](assets/create-campaign.png)
 
-   >[!NOTE]
-   >
-   >Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
+## Choisissez le type et le canal de l&#39;opération {#campaigntype}
 
-   ![](assets/create-campaign.png)
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Type de campagne"
+>abstract="Pour un message marketing en spécifiant une date d&#39;envoi, la variable **Planifié** type est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon de carte, la variable **déclenché par l’API** type est le meilleur choix."
 
-1. Dans le **[!UICONTROL Properties]** , indiquez comment exécuter l’opération :
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Catégorie de campagne"
+>abstract="La valeur de catégorie est directement associée à la valeur de type de campagne. Planification du type de campagne pour le **Marketing** catégorie et type déclenché par l’API pour la catégorie **Transactionnel**"
 
-   * **[!UICONTROL Scheduled]**
-   * **[!UICONTROL API-triggered]**
+1. Dans le **[!UICONTROL Properties]** , indiquez comment exécuter la campagne. Deux types de campagne sont disponibles :
 
-   Pour plus d&#39;informations sur le type d&#39;opération et les interventions associées, reportez-vous à cette section [section](#campaigntype).
+   * **[!UICONTROL Scheduled]**: exécuter immédiatement l’opération ou à une date spécifiée ; Les campagnes planifiées visent à envoyer des **marketing** saisissez des messages.
 
-1. Dans le **[!UICONTROL Actions]** , choisissez le canal et la surface du canal à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Create]**.
+   * **[!UICONTROL API-triggered]**: exécutez la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des **transactionnel** messages, c’est-à-dire messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, abandon de carte, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+
+1. Dans le **[!UICONTROL Actions]** , choisissez le canal et la surface du canal à utiliser pour envoyer votre message.
 
    Une surface est une configuration définie par une [Administrateur système](../start/path/administrator.md). Il contient tous les paramètres techniques pour l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
@@ -52,11 +57,17 @@ ht-degree: 0%
    >
    >Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
 
+1. Cliquez sur **[!UICONTROL Create]** pour créer la campagne.
+
+## Définir les propriétés de l&#39;opération {#create}
+
 1. Indiquez un titre et une description pour la campagne.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Manage access]** bouton . [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
+
+   ![](assets/create-campaign-properties.png)
 
 ## Créer le message {#content}
 
@@ -130,38 +141,24 @@ Dans le **[!UICONTROL Actions]** , créez le message à envoyer avec la campagne
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
 >title="Démarrage de campagne"
->abstract="TBC"
+>abstract="Indiquez la date et l’heure auxquelles le message doit être envoyé."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
 >title="Fin de campagne"
->abstract="TBC"
+>abstract="Indiquez à quel moment une campagne récurrente doit cesser d’être exécutée."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
 >title="Déclencheurs d’action de campagne"
->abstract="TBC"
+>abstract="Définissez la fréquence d&#39;envoi du message de la campagne."
 
-1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la variable **[!UICONTROL Schedule]** . [Découvrez comment planifier des campagnes](#schedule)
+Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une seule fois.
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Manage access]** bouton . [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
+Vous pouvez définir la fréquence d&#39;envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Action triggers]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
+
+Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier une date et une heure auxquelles le message doit être envoyé à l’aide de la variable **[!UICONTROL Campaign start]** . Le **[!UICONTROL Campaign end]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
+
+![](assets/create-campaign-schedule.png)
 
 Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
-
-## Type de campagne {#campaigntype}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_type"
->title="Type de campagne"
->abstract="Pour un message marketing en spécifiant une date d&#39;envoi, la variable **Planifié** type est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon de carte, la variable **déclenché par l’API** type est le meilleur choix."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="Catégorie de campagne"
->abstract="La valeur de catégorie est directement associée à la valeur de type de campagne. Planification du type de campagne pour le **Marketing** catégorie et type déclenché par l’API pour la catégorie **Transactionnel**"
-
-Deux types de campagne sont disponibles :
-
-* **[!UICONTROL Scheduled]**: exécuter immédiatement l’opération ou à une date spécifiée ; Les campagnes planifiées visent à envoyer des **marketing** saisissez des messages.
-
-* **[!UICONTROL API-triggered]**: exécutez la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des **transactionnel** messages, c’est-à-dire messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, abandon de carte, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
