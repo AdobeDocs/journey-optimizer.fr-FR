@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Cliquez sur les trois points en regard d’une landing page pour sélectionner l
 >id="ajo_lp_create"
 >title="Définir et configurer votre landing page"
 >abstract="Pour créer une landing page, vous devez sélectionner un paramètre prédéfini, puis configurer la page principale et les sous-pages, et enfin tester votre page avant de la publier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publier la landing page"
 
 >[!CONTEXTUALHELP]
@@ -100,8 +100,8 @@ Une fois que vous avez configuré et conçu la variable [page principale](#confi
 >id="ajo_lp_access_settings"
 >title="Définition de l’URL de votre landing page"
 >abstract="Dans cette section, définissez une URL de page d’entrée unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page d’entrée dans le cadre du paramètre prédéfini que vous avez sélectionné."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configuration des sous-domaines de landing page"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configuration des sous-domaines de landing page"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de landing page"
 
 La page principale est la page qui s’affiche immédiatement pour les utilisateurs lorsqu’ils cliquent sur le lien vers votre page d’entrée (provenant d’un courrier électronique ou d’un site web, par exemple).
 
