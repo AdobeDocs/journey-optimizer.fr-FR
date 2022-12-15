@@ -21,7 +21,7 @@ Connectez-vous à [Adobe Experience Cloud](http://experience.adobe.com) et nav
 
 Les concepts clés lors de la navigation dans l’interface utilisateur sont les mêmes que ceux d’Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
 
-Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Pour toute question, contactez votre responsable clients Adobe.
+Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Pour toute question, contactez votre responsable Succès client Adobe.
 
 >[!NOTE]
 >
