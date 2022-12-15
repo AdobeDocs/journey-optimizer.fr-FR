@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gérer le droit d’opposition
-description: Découvrez comment gérer l’exclusion et la confidentialité
+title: Gérer le processus d’opt-out
+description: Découvrez comment gérer le processus d’opt-out et la confidentialité
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,49 +10,49 @@ level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
-# Gérer le droit d’opposition {#consent}
+# Gérer le processus d’opt-out {#consent}
 
-## A propos de la gestion des désinscriptions {#about}
+## À propos de la gestion des désinscriptions {#about}
 
-Fournir aux destinataires la capacité de se désabonner de recevoir des communications d’une marque est une obligation légale. En savoir plus sur la législation applicable dans la section [Documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
+La possibilité pour les destinataires de se désabonner de la réception des communications d&#39;une marque est une exigence légale. Pour en savoir plus sur la législation applicable, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr#regulations){target=&quot;_blank&quot;}.
 
-**Pourquoi est-ce important ?**
+**Pourquoi est-ce important ?**
 
-* Le non-respect de ces réglementations entraîne des risques juridiques pour votre marque.
-* Il permet d&#39;éviter d&#39;envoyer des communications non sollicitées à vos destinataires, ce qui pourrait les faire marquer vos messages comme du spam et nuire à votre réputation.
+* Le fait de ne pas se conformer à ces règlements introduit des risques juridiques réglementaires pour votre marque.
+* Cela vous aide à éviter d&#39;envoyer des communications non sollicitées à vos destinataires, ce qui pourrait les faire marquer vos messages comme des courriers indésirables et nuire à votre réputation.
 
-## Gestion des exclusions dans Journey Optimizer {#opt-out-ajo}
+## Gestion des désinscriptions dans Journey Optimizer {#opt-out-ajo}
 
-Lors de l’envoi de messages à partir de parcours ou de campagnes, vous devez toujours vous assurer que les clients peuvent se désabonner de futures communications. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
+Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les client(e)s peuvent annuler l’abonnement à de futures communications. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
-while **[!DNL Journey Optimizer]** offre des moyens de gérer l’exclusion dans les emails et les SMS, les notifications push ne nécessitent aucune action de votre côté, car les destinataires peuvent se désabonner via leurs appareils eux-mêmes. Par exemple, lors du téléchargement ou de l’utilisation de votre application, ils peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
+Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, ils peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
 
-Découvrez comment gérer l’exclusion dans les emails et SMS Journey Optimizer dans les sections suivantes :
+Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey Optimizer dans les sections suivantes :
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../email/email-opt-out.md">
-<img alt="prospect" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%&gt;
+<img alt="Prospect" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%&gt;
 &lt;/a&gt;
-&lt;div&gt;&lt;a href=" ../email/email-opt-out.md"><strong>Gestion des opt-out des emails</strong>
+&lt;div&gt;&lt;a href=" ../email/email-opt-out.md"><strong>Gérer le processus de désinscription aux e-mails</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="../sms/sms-opt-out.md">
-<img alt="Inrégulier" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%&gt;
+<img alt="Peu fréquent" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%&gt;
 &lt;/a&gt;
 &lt;div&gt;
-&lt;a href=" ../sms/sms-opt-out.md"><strong>Gestion des opt-out des SMS</strong></a>
+&lt;a href=" ../sms/sms-opt-out.md"><strong>Gestion des processus de désinscription aux SMS</strong></a>
 </div>
 <p></td>
 </tr></table>
 
 >[!NOTE]
 >
->Dans [!DNL Journey Optimizer], le consentement est géré par Experience Platform. [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target=&quot;_blank&quot;}. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées. [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target=&quot;_blank&quot;}.
+>Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target=&quot;_blank&quot;} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées [ici](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target=&quot;_blank&quot;}.

@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Décembre 2022 {#december-2022}
 
-* Le guide Messages a été réorganisé et divisé en guides dédiés pour chaque canal :
+* Le guide Messages a été réorganisé et divisé en guides dédiés pour chaque canal :
 
-   * [Canal email](../email/get-started-email.md)
+   * [Canal e-mail](../email/get-started-email.md)
    * [Canal des notifications push](../push/get-started-push.md)
    * [Canal SMS](../sms/get-started-sms.md)
 
@@ -30,7 +30,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’une nouvelle page sur les intégrations de Journey Optimizer. [En savoir plus](../start/ajo-integrations.md)
 * Ajout d’une recommandation sur la longueur des URL des pages miroir. [En savoir plus](../email/message-tracking.md)
 * Ajout d’une nouvelle sous-section dans la configuration des paramètres d’e-mail concernant la réponse à l’adresse e-mail, y compris des recommandations pour assurer une gestion adéquate des réponses. [En savoir plus](../email/email-settings.md#reply-to-email)
-* Ajout d’une section sur la modification du contenu d’un message dans un parcours en direct - [En savoir plus](../building-journeys/journeys-message.md#update-live-content)
+* Ajout d’une section relative à la modification du contenu d’un message dans un parcours actif. [En savoir plus](../building-journeys/journeys-message.md#update-live-content)
 
 ## Octobre 2022 {#october-2022}
 
