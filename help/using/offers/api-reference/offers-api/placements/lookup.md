@@ -1,5 +1,5 @@
 ---
-title: Rechercher un emplacement
+title: Recherche d’un emplacement
 description: Les emplacements sont des conteneurs utilisés pour présenter vos offres.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Rechercher un emplacement {#look-up-placement}
+# Recherche d’un emplacement {#look-up-placement}
 
-Vous pouvez rechercher des emplacements spécifiques en adressant une requête GET à la fonction [!DNL Offer Library] API qui inclut l’emplacement `@id` ou le nom de l’emplacement dans le chemin de la requête.
+Vous pouvez rechercher des emplacements spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit l’emplacement `@id` soit le nom de l’emplacement dans le chemin de la requête.
 
 **Format d’API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les emplacements. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Définit le schéma associé aux emplacements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | Chaîne utilisée pour faire correspondre la variable `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisées ensemble. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec majuscules, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Sales and Promotions Placement` |
+| `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:offer-placement:124541309805b7e8` |
+| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’ d’emplacement unique. `@id`.
+Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` d’emplacement unique.
 
 ```json
 {

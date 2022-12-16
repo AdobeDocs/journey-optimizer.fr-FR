@@ -9,13 +9,13 @@ exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
 # distinct {#distinct}
 
-Renvoie les valeurs ou objets distincts d’une liste donnée. Les entrées nulles sont ignorées.
+Renvoie les valeurs ou objets distincts d’une liste donnée. Les entrées « null » sont ignorées.
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Liste à traiter. Pour listObject, il doit s’agir d’une référence de champ. |
-| keyAttributeName | string | Ce paramètre est facultatif et uniquement pour listObject. Si le paramètre n’est pas fourni, un objet est considéré comme dupliqué si tous les attributs ont les mêmes valeurs. Dans le cas contraire, un objet est considéré comme dupliqué si l’attribut donné a la même valeur. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à traiter. Pour listObject, il doit s’agir d’une référence de champ. |
+| keyAttributeName | chaîne | Ce paramètre est facultatif et uniquement pour listObject. Si le paramètre n’est pas fourni, un objet est considéré comme dupliqué si tous les attributs ont les mêmes valeurs. Dans le cas contraire, un objet est considéré comme dupliqué si l’attribut donné a la même valeur. |
 
 ## Signatures et types renvoyés
 
@@ -44,7 +44,7 @@ Renvoie une liste de nombres entiers.
 
 `distinct(<listDecimal>)`
 
-Renvoie une liste de décimales.
+Renvoie une liste de nombres décimaux.
 
 `distinct(<listString>)`
 
@@ -52,7 +52,7 @@ Renvoie une liste de chaînes.
 
 `distinct(<listDateTimeOnly>)`
 
-Renvoie une liste de dates et heures sans prendre en compte le fuseau horaire.
+Renvoie une liste de dates et heures sans tenir compte du fuseau horaire.
 
 `distinct(<listDateTime>)`
 

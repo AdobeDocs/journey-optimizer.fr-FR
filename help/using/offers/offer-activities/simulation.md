@@ -1,6 +1,6 @@
 ---
-title: Créer des simulations
-description: Découvrez comment simuler les offres qui seront diffusées pour un emplacement donné afin de valider votre logique de prise de décision
+title: Création de simulations
+description: Découvrez comment simuler les offres qui seront diffusées pour un emplacement donné afin de valider votre logique de prise de décision.
 feature: Offers
 topic: Integrations
 role: User
@@ -8,137 +8,137 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '865'
+ht-degree: 100%
 
 ---
 
-# Créer des simulations {#create-simulations}
+# Création de simulations {#create-simulations}
 
-## A propos de la simulation {#about-simulation}
+## À propos de la simulation {#about-simulation}
 
-Pour valider votre logique de prise de décision, vous pouvez simuler les offres qui seront diffusées à un profil de test pour un emplacement donné.
+Pour valider votre logique de prise de décision, vous pouvez simuler les offres qui seront diffusées à un profil de test pour un emplacement donné. 
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-Vous pouvez ainsi tester et affiner différentes versions de vos offres sans aucun impact sur les destinataires ciblés.
+Vous pouvez ainsi tester et affiner différentes versions de vos offres sans aucun impact sur les destinataires ciblés. 
 
 >[!NOTE]
 >
->Cette fonctionnalité simule une requête unique à la fonction [!DNL Decisioning] API. En savoir plus sur [Diffuser des offres à l’aide de l’API de prise de décision](../api-reference/offer-delivery-api/decisioning-api.md).
+>Cette fonctionnalité simule une demande unique à l’API [!DNL Decisioning]. Pour en savoir plus, consultez la section [Diffuser des offres à l’aide de l’API Decisioning](../api-reference/offer-delivery-api/decisioning-api.md).
 
-Pour accéder à cette fonctionnalité, sélectionnez la **[!UICONTROL Simulation]** à partir de l’onglet **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** .
+Pour accéder à cette fonctionnalité, sélectionnez l’onglet **[!UICONTROL Simulation]** dans le menu **[!UICONTROL Gestion des décisions]**/**[!UICONTROL Offres]**. 
 
 ![](../assets/offers_simulation-tab.png)
 
 >[!NOTE]
 >
->Comme la simulation ne génère aucun événement de décision, la variable [capping](../offer-library/creating-personalized-offers.md#capping) n’est pas affecté.
+>Comme la simulation ne génère aucun événement de décision, le comptage [limitation](../offer-library/creating-personalized-offers.md#capping) n’est pas affecté.
 
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Sélection de profils de test {#select-test-profiles}
+## Sélectionner des profils de test {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="Ajout de profils de test"
 >abstract="Vous pouvez ajouter un profil de test en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Vous devez disposer de profils de test déjà disponibles pour pouvoir les utiliser en simulation."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Créer des profils de test"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=fr" text="Créer des profils de test"
 
-Vous devez d&#39;abord sélectionner les profils de test que vous allez utiliser pour la simulation.
+Vous devez d’abord sélectionner les profils de test que vous allez utiliser pour la simulation. 
 
 >[!CAUTION]
 >
 >Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../../segment/creating-test-profiles.md).
 
-1. Cliquez sur **[!UICONTROL Manage profile]**.
+1. Cliquez sur **[!UICONTROL Gérer le profil]**.
 
    ![](../assets/offers_simulation-manage-profile.png)
 
-1. Sélectionnez l’espace de noms d’identité à utiliser pour identifier les profils de test. Dans cet exemple, nous utiliserons la variable **Email** espace de noms.
+1. Sélectionnez l’espace de noms d’identité à utiliser pour identifier les profils de test. Dans cet exemple, nous utiliserons l’espace de noms **E-mail**. 
 
    >[!NOTE]
    >
-   >Un espace de noms d’identité définit le contexte d’un identifiant, tel qu’une adresse électronique ou un identifiant CRM. En savoir plus sur les espaces de noms d’identité Adobe Experience Platform [dans cette section](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Un espace de noms d’identité définit le contexte d’un identifiant, tel qu’une adresse e-mail ou un identifiant CRM. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
 
-1. Saisissez la valeur d’identité et cliquez sur **[!UICONTROL View]** pour répertorier les profils disponibles.
+1. Saisissez la valeur d’identité et cliquez sur **[!UICONTROL Affichage]** pour répertorier les profils disponibles. 
 
    ![](../assets/offers_simulation-add-profile.png)
 
-1. Ajoutez d’autres profils si vous souhaitez tester différentes données de profil et enregistrez votre sélection.
+1. Ajoutez d’autres profils si vous souhaitez tester différentes données de profil et enregistrez votre sélection. 
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. Une fois ajoutés, tous les profils sont répertoriés dans la liste déroulante sous **[!UICONTROL Test profile]**. Vous pouvez basculer entre les profils de test enregistrés pour afficher les résultats pour chaque profil sélectionné.
+1. Une fois ajoutés, tous les profils sont répertoriés dans la liste déroulante sous **[!UICONTROL Profil de test]**. Vous pouvez basculer entre les profils de test enregistrés pour afficher les résultats de chaque profil sélectionné. 
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >Les profils sélectionnés restent répertoriés en tant que profils de test dans la variable **[!UICONTROL Simulation]** d’une session à l’autre jusqu’à ce qu’elles soient supprimées à l’aide de **[!UICONTROL Manage profile]**.
+   >Les profils sélectionnés restent répertoriés en tant que profils de test dans l’onglet **[!UICONTROL Simulation]** d’une session à l’autre jusqu’à ce qu’ils soient supprimés à l’aide de **[!UICONTROL Gérer le profil]**.
 
-1. Vous pouvez cliquer sur le bouton **[!UICONTROL Profile details]** lien pour afficher les données de profil sélectionnées.
+1. Vous pouvez cliquer sur le lien **[!UICONTROL Détails du profil]** pour afficher les données de profil sélectionnées. 
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
-## Ajout de portées de décision {#add-decision-scopes}
+## Ajout de portée de décision {#add-decision-scopes}
 
-Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur vos profils de test.
+Sélectionnez maintenant les décisions d’offre que vous souhaitez simuler sur vos profils de test. 
 
-1. Sélectionner **[!UICONTROL Add decision scope]**.
+1. Sélectionnez **[!UICONTROL Ajouter une portée de décision]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
-1. Sélectionnez un emplacement dans la liste.
+1. Sélectionnez un emplacement dans la liste. 
 
    ![](../assets/offers_simulation-add-decision-scope.png)
 
-1. Les décisions disponibles s’affichent.
+1. Les décisions disponibles s’affichent. 
 
-   * Vous pouvez utiliser le champ de recherche pour affiner la sélection.
-   * Vous pouvez cliquer sur le bouton **[!UICONTROL Open offer decisions]** pour ouvrir la liste de toutes les décisions que vous avez créées. En savoir plus sur [décisions](create-offer-activities.md).
+   * Vous pouvez utiliser le champ de recherche pour affiner la sélection. 
+   * Vous pouvez cliquer sur le lien **[!UICONTROL Ouvrir les décisions d’offre]** pour ouvrir la liste de toutes les décisions que vous avez créées. En savoir plus sur les [décisions](create-offer-activities.md).
 
-   Sélectionnez la décision de votre choix et cliquez sur **[!UICONTROL Add]**.
+   Sélectionnez la décision de votre choix et cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
-1. La portée de décision que vous venez de définir s’affiche dans l’espace de travail principal.
+1. La portée de décision que vous venez de définir s’affiche dans l’espace de travail principal. 
 
-   Vous pouvez ajuster le nombre d’offres que vous souhaitez demander. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour cette portée de décision.
+   Vous pouvez ajuster le nombre d’offres que vous souhaitez demander. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour cette portée de décision. 
 
    ![](../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
-   >Vous pouvez demander jusqu’à 30 offres.
+   >Vous pouvez demander jusqu’à 30 offres. 
 
-1. Répétez les étapes ci-dessus pour ajouter autant de décisions que nécessaire.
+1. Répétez les étapes ci-dessus pour ajouter autant de décisions que nécessaire. 
 
    ![](../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
-   >Même si vous définissez plusieurs portées de décision, une seule requête API est simulée.
+   >Même si vous définissez plusieurs portées de décision, une seule demande d’API est simulée.
 
 ## Définition des paramètres de simulation {#define-simulation-settings}
 
 Pour modifier les paramètres par défaut de vos simulations, procédez comme suit.
 
-1. Cliquez sur **[!UICONTROL Settings]**.
+1. Cliquez sur **[!UICONTROL Paramètres]**.
 
    ![](../assets/offers_simulation-settings.png)
 
-1. Dans le **[!UICONTROL Deduplication]** , vous pouvez choisir d’autoriser les offres en double pour les décisions et/ou les emplacements. Cela signifie que plusieurs décisions/emplacements peuvent se voir attribuer la même offre.
+1. Dans la section **[!UICONTROL Déduplication]**, vous pouvez choisir d’autoriser les offres en double à travers les décisions et/ou les emplacements. Cela signifie que plusieurs décisions/emplacements peuvent se voir attribuer la même offre.
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >Par défaut, tous les indicateurs de déduplication sont activés pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition dans plusieurs décisions/emplacements. En savoir plus sur la [!DNL Decisioning] Propriétés de requête d’API dans [cette section](../api-reference/offer-delivery-api/decisioning-api.md).
+   >Tous les indicateurs de déduplication sont activés par défaut pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition à travers plusieurs décisions/emplacements. En savoir plus sur les [!DNL Decisioning]propriétés de la demande API dans [cette section](../api-reference/offer-delivery-api/decisioning-api.md). 
 
-1. Dans le **[!UICONTROL Response format]** vous pouvez choisir d’inclure des métadonnées dans la vue de code. Cochez l’option correspondante, puis sélectionnez les métadonnées de votre choix. Elles s’affichent dans les payloads de requête et de réponse lors de la sélection de **[!UICONTROL View code]**. En savoir plus dans la section [Affichage des résultats de la simulation](#simulation-results) .
+1. Dans la section **[!UICONTROL Format de la réponse]**, vous pouvez choisir d’inclure les métadonnées dans l’affichage du code. Cochez l’option correspondante, puis sélectionnez les métadonnées de votre choix. Elles s’affichent dans les payloads de la requête et de la réponse lors de la sélection de **[!UICONTROL Afficher le code]**. En savoir plus dans la section [Affichage des résultats de la simulation](#simulation-results).
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -146,11 +146,11 @@ Pour modifier les paramètres par défaut de vos simulations, procédez comme su
    >
    >Lorsque l’option est activée, tous les éléments sont sélectionnés par défaut.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
->Actuellement, pour les données de simulation, vous pouvez uniquement utiliser la variable **[!UICONTROL Hub]** API.
+>Actuellement, pour les données de simulation, vous pouvez uniquement utiliser l’API **[!UICONTROL Hub]**.
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -166,45 +166,45 @@ Context data allows the user to add contextual data that could affect the simula
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
 -->
 
-## Affichage des résultats de la simulation {#simulation-results}
+## Afficher les résultats de la simulation {#simulation-results}
 
-Une fois que vous avez ajouté une portée de décision et sélectionné un profil de test, vous pouvez afficher les résultats.
+Une fois que vous avez ajouté une portée de décision et sélectionné un profil de test, vous pouvez afficher les résultats. 
 
-1. Cliquez sur **[!UICONTROL View results]**.
+1. Cliquez sur **[!UICONTROL Afficher les résultats]**.
 
    ![](../assets/offers_simulation-view-results.png)
 
-1. Les meilleures offres disponibles s’affichent en fonction du profil sélectionné pour chaque décision.
+1. La ou les meilleures offres disponibles sont affichées en fonction du profil sélectionné pour chaque décision. 
 
-   Sélectionnez une offre pour afficher ses détails.
+   Sélectionnez une offre pour afficher ses détails. 
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. Cliquez sur **[!UICONTROL View code]** pour afficher les payloads de requête et de réponse. [En savoir plus](#view-code)
+1. Cliquez sur **[!UICONTROL Afficher le code]** pour afficher les payloads de la requête et de la réponse. [En savoir plus](#view-code)
 
-1. Sélectionnez un autre profil dans la liste pour afficher les résultats des décisions d’offre pour un autre profil de test.
+1. Sélectionnez un autre profil dans la liste pour afficher les résultats des décisions d’offre pour un autre profil de test. 
 
-1. Vous pouvez ajouter, supprimer ou mettre à jour les portées de décision autant de fois que nécessaire.
+1. Vous pouvez ajouter, supprimer ou mettre à jour les portées de décision autant de fois que nécessaire. 
 
 >[!NOTE]
 >
->Chaque fois que vous modifiez des profils ou mettez à jour des portées de décision, vous devez actualiser les résultats à l’aide de la variable **[!UICONTROL View results]** bouton .
+>Chaque fois que vous modifiez des profils ou mettez à jour des portées de décision, vous devez actualiser les résultats à l’aide du bouton **[!UICONTROL Afficher les résultats]**. 
 
 ## Afficher le code {#view-code}
 
-1. Utilisez la variable **[!UICONTROL View code]** pour afficher les payloads de requête et de réponse.
+1. Utilisez le bouton **[!UICONTROL Afficher le code]** pour afficher les payloads de la requête et de la réponse.
 
    ![](../assets/offers_simulation-view-code.png)
 
-   L’affichage du code affiche les informations sur le développeur pour l’utilisateur actuel. Par défaut, la variable **[!UICONTROL Response payload]** s’affiche.
+   L’affichage du code montre les informations sur le développeur à l’utilisateur actuel. Par défaut, la **[!UICONTROL Payload de réponse]** s’affiche.
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. Cliquez sur **[!UICONTROL Response payload]** ou **[!UICONTROL Request payload]** pour naviguer entre les deux onglets.
+1. Cliquez sur **[!UICONTROL Payload de réponse]** ou **[!UICONTROL Payload de requête]** pour naviguer entre les deux onglets.
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. Pour utiliser le payload de requête en dehors de [!DNL Journey Optimizer] - à des fins de dépannage, par exemple, copiez-le à l’aide de la fonction **[!UICONTROL Copy to clipboard]** en haut de l’affichage du code.
+1. Pour utiliser la payload de la requête en dehors de [!DNL Journey Optimizer], à des fins de dépannage par exemple, copiez-la à l’aide du bouton **[!UICONTROL Copier dans le presse-papiers]** au-dessus de l’affichage du code.
 
    ![](../assets/offers_simulation-copy-payload.png)
 
@@ -212,5 +212,5 @@ Une fois que vous avez ajouté une portée de décision et sélectionné un prof
 
    >[!NOTE]
    >
-   >Lors de la copie des payloads de requête ou de réponse dans votre propre code, veillez à remplacer {USER_TOKEN} et {API_KEY} par des valeurs valides. Découvrez comment récupérer ces valeurs dans la variable [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html)Documentation {target=&quot;_blank&quot;}.
+   >Lors de la copie des payloads de la requête ou de la réponse dans votre propre code, veillez à remplacer {USER_TOKEN} et {API_KEY} par des données valides. Découvrez comment récupérer ces valeurs dans la documentation [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr){target=&quot;_blank&quot;}.
 

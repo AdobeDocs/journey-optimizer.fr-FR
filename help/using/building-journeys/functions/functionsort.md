@@ -9,7 +9,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -33,9 +33,9 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
-| keyAttributeName | string | Ce paramètre est uniquement destiné à listObject. Le nom de l’attribut dans les objets de la liste donnée est utilisé comme clé pour le tri. |
-| sortingOrder | boolean | ascendant (true) ou descendant (false) |
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
+| keyAttributeName | chaîne | Ce paramètre est uniquement destiné à listObject. Le nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le tri. |
+| sortingOrder | booléen | ascendant (true) ou descendant (false) |
 
 ## Signature et type renvoyé
 
@@ -45,7 +45,7 @@ Renvoie une liste de nombres entiers.
 
 `sort(<listDecimal>,<boolean>)`
 
-Renvoie une liste de décimales.
+Renvoie une liste de nombres décimaux.
 
 `sort(<listString>,<boolean>)`
 
@@ -53,7 +53,7 @@ Renvoie une liste de chaînes.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Renvoie une liste de dates et heures sans prendre en compte le fuseau horaire.
+Renvoie une liste de dates et heures sans tenir compte du fuseau horaire.
 
 `sort(<listDateTime>,<boolean>)`
 

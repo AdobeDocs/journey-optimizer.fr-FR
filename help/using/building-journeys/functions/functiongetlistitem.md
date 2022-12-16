@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 0%
+source-wordcount: '90'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Liste
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | entier |
+| index | integer |
 
 ## Signatures et type renvoyé
 
@@ -77,12 +77,12 @@ Renvoie une durée.
 
 `getListItem([10, 2, 3], 1)`
 
-Renvoie &quot;2&quot;
+Renvoie « 2 »
 
 `getListItem(["A", "B", "C"], 2)`
-Renvoie &quot;C&quot;
+Renvoie « C »
 
-Exemples avec un champ d’événement &quot;event.appVersion&quot; avec la valeur : &quot;20.45.2.3434&quot;
+Exemples avec un champ d’événement &#39;event.appVersion&#39; avec la valeur : « 20.45.2.3434 »
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -90,4 +90,4 @@ Renvoie `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-Renvoie &quot;20&quot;
+Renvoie « 20 »

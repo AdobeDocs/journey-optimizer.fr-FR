@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 0%
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
 
@@ -18,45 +18,45 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Représentations"
->abstract="Ajoutez des représentations pour définir l’emplacement d’affichage de votre offre dans le message. Plus une offre a de représentations, plus il y a d’opportunités d’utiliser l’offre dans différents contextes d’emplacement."
+>abstract="Ajoutez des représentations pour définir l’emplacement d’affichage de votre offre dans le message. Plus une offre a de représentations, plus il y a d&#39;occasions d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement."
 
-Une offre peut être affichée à différents endroits dans un message : dans une bannière supérieure avec une image, comme texte dans un paragraphe, comme bloc HTML, etc. Plus une offre a de représentations, plus il y a d’opportunités d’utiliser l’offre dans différents contextes d’emplacement.
+Une offre peut être affichée à différents endroits dans un message : dans une bannière supérieure avec une image, sous forme de texte dans un paragraphe, sous forme de bloc HTML, etc. Plus une offre a de représentations, plus il y a d&#39;occasions d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement.
 
-## Configurer les représentations de l’offre {#representations}
+## Configuration des représentations de l’offre {#representations}
 
 Pour ajouter une ou plusieurs représentations à votre offre et les configurer, procédez comme suit.
 
-1. Pour la première représentation, commencez par sélectionner la variable **[!UICONTROL Channel]** qui sera utilisé.
+1. Pour la première représentation, commencez par sélectionner le **[!UICONTROL canal]** qui sera utilisé.
 
    ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
-   >Seuls les emplacements disponibles pour le canal sélectionné s’affichent dans la variable **[!UICONTROL Placement]** liste déroulante.
+   >Seuls les emplacements disponibles pour le canal sélectionné s&#39;affichent dans la liste déroulante **[!UICONTROL Emplacement]**.
 
 1. Sélectionnez un emplacement dans la liste.
 
-   Vous pouvez également utiliser le bouton en regard de la fonction **[!UICONTROL Placement]** liste déroulante pour parcourir tous les emplacements.
+   Vous pouvez également utiliser le bouton en regard de la liste déroulante **[!UICONTROL Emplacement]** pour parcourir tous les emplacements.
 
    ![](../assets/browse-button-placements.png)
 
-   Vous pouvez toujours filtrer les emplacements selon leur canal et/ou type de contenu. Sélectionnez un emplacement et cliquez sur **[!UICONTROL Select]**.
+   Vous pouvez toujours filtrer les emplacements selon leur canal et/ou type de contenu. Choisissez un emplacement et cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](../assets/browse-placements.png)
 
-1. Ajoutez du contenu à votre représentation. Découvrez comment [cette section](#content).
+1. Ajoutez du contenu à chaque représentation. Découvrez comment dans [cette section](#content).
 
-1. Lorsque vous ajoutez du contenu, tel qu’une image ou une URL, vous pouvez définir une **[!UICONTROL Destination link]**: les utilisateurs qui cliquent sur l’offre sont redirigés vers la page correspondante.
+1. Lorsque vous ajoutez du contenu tel qu&#39;une image ou une URL, vous pouvez spécifier un **[!UICONTROL Lien destination]** : les utilisateurs qui cliquent sur l&#39;offre sont redirigés vers la page correspondante.
 
    ![](../assets/offer-destination-link.png)
 
 1. Enfin, sélectionnez la langue de votre choix pour vous aider à identifier et gérer les éléments à afficher pour les utilisateurs.
 
-1. Pour ajouter une autre représentation, utilisez le **[!UICONTROL Add representation]** et ajoutez autant de représentations que nécessaire.
+1. Pour ajouter une autre représentation, utilisez le bouton **[!UICONTROL Ajouter une représentation]**, puis ajoutez autant de représentations que nécessaire.
 
    ![](../assets/offer-add-representation.png)
 
-1. Une fois que vous avez ajouté toutes vos représentations, sélectionnez **[!UICONTROL Next]**.
+1. Une fois que vous avez ajouté toutes vos représentations, sélectionnez **[!UICONTROL Suivant]**.
 
 ## Définition du contenu de vos représentations {#content}
 
@@ -64,65 +64,65 @@ Vous pouvez ajouter différents types de contenu à une représentation.
 
 >[!NOTE]
 >
->Seul le contenu correspondant au type de contenu de l’emplacement peut être utilisé.
+>Notez que seul le contenu correspondant au type de contenu de l&#39;emplacement peut être utilisé.
 
 ### Ajout d’images {#images}
 
-Si l’emplacement sélectionné est de type image, vous pouvez ajouter du contenu provenant de la variable **Adobe Experience Cloud Asset** Bibliothèque, un référentiel centralisé des ressources fournies par [!DNL Adobe Experience Manager Assets Essentials].
+Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du contenu provenant de la bibliothèque **Adobe Experience Cloud Asset**, un référentiel centralisé de ressources fourni par [!DNL Adobe Experience Manager Assets Essentials].
 
 >[!NOTE]
 >
-> Pour utiliser [Principes fondamentaux d’Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}, vous devez déployer [!DNL Assets Essentials] pour votre entreprise et assurez-vous que les utilisateurs font partie de la variable **Utilisateurs clients Assets Essentials** ou/et **Utilisateurs d’Assets Essentials** Profils de produit. En savoir plus sur [cette page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
+> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target=&quot;_blank&quot;}, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs font partie des **utilisateurs consommateurs d&#39;Assets Essentials** ou/et des profils de produits **utilisateurs d&#39;Assets Essentials**. En savoir plus sur [cette page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target=&quot;_blank&quot;}.
 
-1. Choisissez la **[!UICONTROL Asset library]** .
+1. Choisissez l’option **[!UICONTROL Bibliothèque de ressources]**.
 
-1. Sélectionner **[!UICONTROL Browse]**.
+1. Sélectionnez **[!UICONTROL Parcourir]**.
 
    ![](../assets/offer-browse-asset-library.png)
 
-1. Parcourir les ressources pour sélectionner l’image de votre choix
+1. Parcourez les ressources pour sélectionner l&#39;image de votre choix.
 
-1. Cliquez sur **[!UICONTROL Select]**.
+1. Cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](../assets/offer-select-asset.png)
 
 ### Ajout de fichiers HTML ou JSON {#html-json}
 
-Si l’emplacement sélectionné est de type HTML, vous pouvez également ajouter du contenu HTML ou JSON provenant de la variable [Bibliothèque de ressources Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+Si l’emplacement sélectionné est de type HTML, vous pouvez également ajouter du contenu JSON ou HTML provenant de la [bibliothèque de ressources Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target=&quot;_blank&quot;}).
 
-Par exemple, vous avez créé un modèle de courrier électronique HTML dans [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} et vous souhaitez utiliser ce fichier pour le contenu de votre offre. Au lieu de créer un nouveau fichier, vous pouvez simplement charger le modèle dans le **Bibliothèque de ressources** pour pouvoir la réutiliser dans les représentations de votre offre.
+Par exemple, vous avez créé un modèle d’e-mail HTML dans [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=fr){target=&quot;_blank&quot;} et vous souhaitez utiliser ce fichier pour le contenu de votre offre. Au lieu de créer un nouveau fichier, vous pouvez simplement charger le modèle dans la **Bibliothèque de ressources** pour pouvoir le réutiliser dans les représentations de votre offre.
 
-Pour réutiliser votre contenu dans une représentation, accédez au **Bibliothèque de ressources** comme décrit dans [cette section](#images) et sélectionnez le fichier HTML ou JSON de votre choix.
+Pour réutiliser votre contenu dans une représentation, accédez à la **Bibliothèque de ressources** comme décrit dans [cette section](#images) et sélectionnez le fichier HTML ou JSON de votre choix.
 
 ![](../assets/offer-browse-asset-library-json.png)
 
 ### Ajout d’URL {#urls}
 
-Pour ajouter du contenu depuis un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l’adresse URL du contenu à ajouter.
+Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
 ![](../assets/offer-content-url.png)
 
-### Ajouter du texte personnalisé {#custom-text}
+### Ajout de texte personnalisé {#custom-text}
 
-Vous pouvez également insérer du contenu de type texte lors de la sélection d’un emplacement compatible.
+Vous pouvez également insérer du contenu de type texte lors de la sélection d&#39;un emplacement compatible.
 
-1. Sélectionnez la **[!UICONTROL Custom]** et cliquez sur **[!UICONTROL Add content]**.
+1. Sélectionnez l’option **[!UICONTROL Personnalisé]** et cliquez sur **[!UICONTROL Ajouter du contenu]**.
 
    ![](../assets/offer-add-content.png)
 
    >[!NOTE]
    >
-   >Cette option n’est pas disponible pour les emplacements de type image.
+   >Cette option n&#39;est pas disponible pour les emplacements de type image.
 
 1. Saisissez le texte qui s’affichera dans l’offre.
 
    ![](../assets/offer-text-content.png)
 
-   Vous pouvez personnaliser votre contenu à l&#39;aide de l&#39;éditeur d&#39;expression. En savoir plus sur [personnalisation](../../personalization/personalize.md#use-expression-editor).
+   Vous pouvez personnaliser votre contenu à l’aide de l’éditeur d’expression. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 
    >[!NOTE]
    >
-   >Seule la variable **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** et **[!UICONTROL Helper functions]** Les sources sont disponibles pour la gestion de la décision.
+   >Seules les sources **[!UICONTROL Attributs de profil]**, **[!UICONTROL Abonnements aux segments]** et **[!UICONTROL Fonctions d’assistance]** sont disponibles pour la gestion des décisions.
 

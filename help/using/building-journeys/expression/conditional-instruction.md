@@ -9,22 +9,22 @@ level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
 # Instruction conditionnelle (if, then, else) {#conditional-instruction}
 
-L’instruction conditionnelle (if, then, else) est prise en charge dans l’éditeur avancé. Il permet de définir des expressions plus complexes. Il se compose des éléments suivants :
+L’instruction conditionnelle (if, then, else) est prise en charge dans l’éditeur avancé. Elle permet de définir des expressions plus complexes. Elle se compose des éléments suivants :
 
-* **[!UICONTROL if]**: la condition à évaluer en premier.
-* **[!UICONTROL then]**: l’expression à évaluer au cas où le résultat de l’évaluation de la condition serait vrai.
-* **[!UICONTROL else]**: l’expression à évaluer au cas où le résultat de l’évaluation de la condition serait faux.
+* **[!UICONTROL If]** : condition à évaluer en premier.
+* **[!UICONTROL then]** : expression à évaluer au cas où le résultat de l’évaluation de la condition serait vrai.
+* **[!UICONTROL else]** : expression à évaluer au cas où le résultat de l’évaluation de la condition serait faux.
 
 >[!NOTE]
 >
->Des parenthèses sont requises autour de toutes les expressions.
+>Toutes les expressions doivent être mises entre parenthèses.
 
 ```json
 if  (<expression1>)
@@ -34,9 +34,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` doit renvoyer une valeur **boolean**.
+`<expression1>` doit renvoyer une valeur **booléenne**.
 
-`<expression2>` et `<expression3>` doivent avoir le même type ou des types compatibles. Les signatures prises en charge et les types renvoyés sont les suivants :
+`<expression2>` et `<expression3>` doit avoir le même type ou des types compatibles. Les signatures prises en charge et les types renvoyés sont les suivants :
 
 ```json
 boolean,boolean : boolean
@@ -58,9 +58,9 @@ listString,listString : listString
 
 **Utilisation**
 
-L’instruction conditionnelle vous permet d’optimiser le processus du parcours en réduisant le nombre d’activités de condition. Par exemple, dans la même activité d’action, vous pouvez spécifier deux alternatives pour une définition de champ en utilisant une seule expression de condition.
+L’instruction conditionnelle vous permet d’optimiser le workflow de parcours en réduisant le nombre d’activités de condition. Vous pouvez, par exemple, spécifier dans la même activité d’action, deux options pour une définition de champ en utilisant une seule expression de condition.
 
-Exemple pour une activité d’action (pour un champ qui attend une chaîne comme résultat de l’instruction conditionnelle) :
+Exemple pour une activité d’action (pour un champ qui attend une chaîne comme résultat de l’instruction conditionnelle) :
 
 ```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))

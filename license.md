@@ -1,16 +1,28 @@
 ---
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 # Licence MIT
 
-© Copyright 2021 Adobe. Tous droits réservés.
+© Copyright 2021 Adobe. All rights reserved.
 
-La permission est accordée, gratuitement, à toute personne qui obtient une copie de ce logiciel et des fichiers de documentation associés (le &quot;Logiciel&quot;), de traiter dans le Logiciel sans restriction, y compris, sans s&#39;y limiter, les droits d&#39;utilisation, copie, modification, fusion, publication, distribution, sous-licence et/ou vente des copies du Logiciel, et d&#39;autoriser les personnes à qui le Logiciel est fourni à le faire, sous réserve des conditions suivantes :
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-L’avis de copyright ci-dessus et cet avis d’autorisation seront inclus dans toutes les copies ou parties substantielles du Logiciel.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-LE LOGICIEL EST FOURNI &quot;EN L’ÉTAT&quot;, SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE, D’ADÉQUATION À UN USAGE PARTICULIER ET DE NON-CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU LES TITULAIRES DE DROITS D’AUTEUR NE SONT RESPONSABLES D’AUCUNE DEMANDE, DE DOMMAGES OU D’UNE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS UNE ACTION DE CONTRAT, DE TORT OU AUTREMENT, PROVENANT DE, EN DEHORS OU EN RELATION AVEC LE LOGICIEL OU L’UTILISATION OU D’AUTRES ACTIONS DANS LE SOFTWARE.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

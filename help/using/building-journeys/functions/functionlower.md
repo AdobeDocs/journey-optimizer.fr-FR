@@ -9,7 +9,7 @@ exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Chaîne
 
 ## Paramètre
 
-* string
+* chaîne
 
 ## Signature et type renvoyé
 
@@ -39,4 +39,4 @@ Renvoie une chaîne.
 
 `lower("A")`
 
-Renvoie &quot;a&quot;.
+Renvoie « a ».

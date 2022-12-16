@@ -10,275 +10,275 @@ level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 0%
+source-wordcount: '1977'
+ht-degree: 100%
 
 ---
 
 # Rapport global de parcours {#journey-global-report}
 
-Le rapport global de parcours est accessible directement depuis votre parcours à l’aide de la variable **[!UICONTROL View report]** bouton .
+Vous pouvez accéder directement au rapport global de parcours à partir de votre parcours à l’aide du bouton **[!UICONTROL Afficher le rapport]**.
 
 ![](assets/report_journey.png)
 
-Le parcours **[!UICONTROL Global report]** s’affiche avec les onglets suivants :
+La page **[!UICONTROL Rapport global]** du parcours s&#39;affiche avec les onglets suivants :
 
 * [Parcours](#journey-global)
-* [Email](#email-global)
+* [E-mail](#email-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
 
-Le parcours **[!UICONTROL Global report]** est divisé en différents widgets détaillant le succès et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Voir à ce sujet la section [section](global-report.md#modify-dashboard).
+Le rapport **[!UICONTROL global]** de parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](global-report.md#modify-dashboard).
 
-Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à la section [cette page](global-report.md#list-of-components-global).
+Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](global-report.md#list-of-components-global).
 
 ## Onglet Parcours {#journey-global}
 
-À partir du parcours **[!UICONTROL Global report]**, la variable **[!UICONTROL Journey]** vous donne une vue claire des données de suivi les plus importantes pour votre parcours.
+À partir de votre **[!UICONTROL rapport global]** de parcours, l&#39;onglet **[!UICONTROL Parcours]** vous donne une vue claire des données de suivi les plus importantes concernant votre parcours.
 
 ![](assets/journey_global_1.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Parcours.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de parcours.
 
-Le **[!UICONTROL Journey Performance]** vous permet de voir le chemin d’accès de vos profils ciblés pas à pas tout au long de votre parcours.
+Le widget **[!UICONTROL Performances du parcours]** vous permet de voir le cheminement de vos profils ciblés pas à pas tout au long du parcours.
 
-Le **[!UICONTROL Journey Statistics]** Le widget affiche les IPC suivants :
+Le widget **[!UICONTROL Statistiques du parcours]** affiche les KPI suivants :
 
-* **[!UICONTROL Entered profiles]**: Nombre total d’individus ayant atteint l’événement d’entrée du parcours.
+* **[!UICONTROL Profils entrés]** : nombre total de personnes ayant atteint l&#39;événement d&#39;entrée du parcours.
 
-* **[!UICONTROL Exited profiles]**: Nombre total d’individus ayant quitté le parcours.
+* **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours.
 
-* **[!UICONTROL Failed individual journey]**: Nombre total de parcours individuels qui n’ont pas été exécutés avec succès.
+* **[!UICONTROL Parcours individuel en échec]** : nombre total de parcours individuels qui n&#39;ont pas été exécutés avec succès.
 
-Le **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** et **[!UICONTROL Top events]** Les widgets vous permettent de voir laquelle de vos **[!UICONTROL Events]** a été exécuté avec succès dans les graphiques et les tableaux.
+Les widgets **[!UICONTROL Événements reçus par événement]**, **[!UICONTROL Événements par origine]** et **[!UICONTROL Principaux événements]** vous permettent de savoir lequel de vos **[!UICONTROL Événements]** a été exécuté avec succès par le biais de graphiques et de tableaux.
 
-**[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** et **[!UICONTROL Top Actions]** Les widgets représentent l’action et les erreurs les plus réussies survenues lors de la **[!UICONTROL Actions]** ont été déclenchées.
+Les widgets **[!UICONTROL Performance de l&#39;action]**, **[!UICONTROL Raisons de l&#39;erreur de l&#39;action]** et **[!UICONTROL Principales actions]** représentent l&#39;action la plus réussie et les erreurs survenues lorsque vos **[!UICONTROL Actions]** ont été déclenchées.
 
-Le **[!UICONTROL Top Actions]** Le tableau contient les données disponibles pour **[!UICONTROL Actions]**, par exemple :
+Le tableau **[!UICONTROL Principales actions]** contient les données disponibles pour **[!UICONTROL Actions]**, telles que :
 
-* **[!UICONTROL Actions successfully executed]**: Nombre total de **[!UICONTROL Actions]** exécuté avec succès pour un parcours.
+* **[!UICONTROL Actions exécutées avec succès]** : nombre total d&#39;**[!UICONTROL actions]** exécutées avec succès pour un parcours.
 
-* **[!UICONTROL Error in action]**: Nombre total d’erreurs qui se sont produites pour **[!UICONTROL Actions]**.
+* **[!UICONTROL Erreur lors de l&#39;action]** : nombre total d&#39;erreurs survenues pour les **[!UICONTROL actions]**.
 
-Le **[!UICONTROL Consent policies]** le tableau et le graphique affichent le nombre de profils exclus de chaque stratégie dans vos actions personnalisées.
-Pour plus d’informations sur les actions personnalisées, reportez-vous à la section [la documentation détaillée ;](../action/about-custom-action-configuration.md).
+Les tableau et le graphique **[!UICONTROL Politiques de consentement]** affichent le nombre de profils exclus de chaque politique dans vos actions personnalisées.
+Pour plus d’informations sur les actions personnalisées, consultez la [documentation détaillée](../action/about-custom-action-configuration.md).
 
-Notez que pour que ces widgets s’affichent dans vos rapports Parcours, vous devez réinitialiser vos tableaux de bord. Pour ce faire, cliquez sur **[!UICONTROL Modify]** then **[!UICONTROL Reset]** en haut de votre rapport.
+Notez que pour que ces widgets s’affichent dans vos rapports Parcours, vous devez réinitialiser vos tableaux de bord. Pour ce faire, cliquez sur **[!UICONTROL Modifier]** puis sur **[!UICONTROL Réinitialiser]** en haut de votre rapport.
 +++
 
-## Onglet Email {#email-global}
+## Onglet E-mail {#email-global}
 
-À partir du parcours **[!UICONTROL Global report]**, la variable **[!UICONTROL Email]** Cet onglet présente les informations principales relatives aux diffusions email envoyées dans votre parcours.
+Dans le **[!UICONTROL Rapport global]** de parcours, l&#39;onglet **[!UICONTROL E-mail]** détaille les principales informations relatives aux diffusions par e-mail envoyées dans votre parcours.
 
 ![](assets/journey_global_2.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Email.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’e-mail.
 
-Le **[!UICONTROL Email Sending Statistics]** graph détaille le succès de votre diffusion :
+Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
 
-* **[!UICONTROL Targeted]**: Nombre de profils ciblés par Adobe Journey Orchestration pour toute action telle que l’envoi d’emails ou de SMS.
+* **[!UICONTROL Ciblés]** : nombre de profils ciblés par Adobe Journey Orchestration pour toute action telle que l’envoi d’e-mails ou de SMS.
 
-* **[!UICONTROL Sent]**: Nombre total d&#39;envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Delivery Rate]**: Pourcentage de messages envoyés avec succès.
+* **[!UICONTROL Taux de diffusion]** : pourcentage de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounce Rate]**: Pourcentage d&#39;emails qui ont fait l&#39;objet d&#39;un bounce par rapport au nombre d&#39;emails envoyés.
+* **[!UICONTROL Taux de rebond]** : pourcentage d&#39;e-mails ayant rebondi par rapport aux e-mails envoyés.
 
-* **[!UICONTROL Errors]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
-* **[!UICONTROL Error Rate]**: Pourcentage d&#39;erreurs qui se sont produites pendant une diffusion empêchant son envoi par rapport au nombre d&#39;emails envoyés.
+* **[!UICONTROL Taux d&#39;erreurs]** : pourcentage d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée, par rapport aux e-mails envoyés.
 
-Le **[!UICONTROL Email - Tracking statistics]** contient les données disponibles pour l&#39;activité des destinataires pour votre diffusion :
+**[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l&#39;activité destinataire de votre diffusion :
 
-* **[!UICONTROL Opens]**: Nombre de fois où la diffusion a été ouverte dans une diffusion.
+* **[!UICONTROL Ouvertures]** :nombre de fois où la diffusion a été ouverte dans une diffusion.
 
-* **[!UICONTROL Unique Opens]**: Pourcentage de diffusions ouvertes.
+* **[!UICONTROL Ouvertures uniques]** : pourcentage de diffusions ouvertes.
 
-* **[!UICONTROL Unique Open Rate]**: Nombre total d&#39;emails ouverts par rapport au nombre d&#39;emails délivrés.
+* **[!UICONTROL Taux d’ouvertures uniques]** : nombre total de messages ouverts par rapport au nombre de messages diffusés.
 
-* **[!UICONTROL Clicks]**: Nombre de clics sur un contenu dans un email.
+* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l&#39;objet d&#39;un clic dans un email.
 
-* **[!UICONTROL Unique Clicks]**: nombre de destinataires ayant cliqué sur un contenu dans un email.
+* **[!UICONTROL Clics uniques]** : nombre de destinataires qui ont cliqué sur un contenu dans un e-mail.
 
-* **[!UICONTROL Click through rate]**: Pourcentage d’utilisateurs ayant interagi avec le parcours.
+* **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec le parcours.
 
-* **[!UICONTROL Unsubscribe]**: Nombre de clics sur le lien de désinscription.
+* **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
-* **[!UICONTROL Spam complaints]**: Nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
+* **[!UICONTROL Plaintes contre le spal]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
-Le **[!UICONTROL Sending Statistics]** Le graphique contient les données disponibles pour les emails envoyés, telles que :
+Le graphique **[!UICONTROL Statistiques d&#39;envoi]** contient les données disponibles pour les e-mails envoyés, telles que :
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Errors]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
-Le **[!UICONTROL Bounce Reasons]** et **[!UICONTROL Bounce categories]** Les widgets contiennent les données disponibles relatives aux messages rebonds, telles que :
+Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
-* **[!UICONTROL Hard bounce]**: Nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte. Il s’agit d’un message d’erreur indiquant explicitement que l’adresse n’est pas valide, tel qu’Utilisateur inconnu.
+* **[!UICONTROL Hard bounce]** : nombre total d&#39;erreurs permanentes, telles qu&#39;une adresse email incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
-* **[!UICONTROL Soft bounce]**: Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.
+* **[!UICONTROL Soft bounces]** : nombre total d&#39;erreurs temporaires, telles qu&#39;une boîte de réception pleine.
 
-* **[!UICONTROL Ignored]**: Nombre total de messages temporaires, tels que Absence du bureau, ou une erreur technique, par exemple si le type d’expéditeur est Postmaster.
+* **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
 
-Pour plus d’informations sur les rebonds, reportez-vous à la section [Liste de suppression](../reports/suppression-list.md) page.
+Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppression](../reports/suppression-list.md).
 
-Le **[!UICONTROL Error Reasons]** le graphique et le tableau vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
+Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
 
-Le **[!UICONTROL Excluded reasons]** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, exclus des profils ciblés, de recevoir le message.
+Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
 
-Le **[!UICONTROL Email - Top Url]** détails graphiques et tableaux des URL de votre diffusion les plus visitées.
+Le graphique et le tableau **[!UICONTROL E-mail - Principales URL]** indiquent les URL de votre diffusion les plus visitées.
 
-Le **[!UICONTROL Email - Top recipient domain]** le graphique et le tableau détaillent les domaines les plus utilisés par les destinataires pour ouvrir l’email.
-
->[!NOTE]
->
->Le **[!UICONTROL Optimized vs non optimized]** et **[!UICONTROL Send time optimization]**  Les widgets ne sont disponibles que si l’option Optimisation du temps d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation du temps d’envoi, reportez-vous à la section [cette page](../building-journeys/journeys-message.md#send-time-optimization).
-
-Le **[!UICONTROL Optimized vs non optimized]** graph détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
-
-* **[!UICONTROL Sent]**: Nombre total d&#39;envois pour la diffusion.
-* **[!UICONTROL Opens]**: Nombre de fois où la diffusion a été ouverte dans une diffusion.
-* **[!UICONTROL Clicks]**: Nombre de clics sur un contenu dans un email.
-
-Le **[!UICONTROL Send time optimization]** détaille le succès de votre diffusion selon la méthode d&#39;envoi : optimisé ou normal.
-
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
 
 >[!NOTE]
 >
->Les widgets et mesures Offres ne sont disponibles que si une décision a été insérée dans un courrier électronique. Pour plus d’informations sur la gestion des décisions, reportez-vous à cette section [page](../offers/get-started/starting-offer-decisioning.md).
+>Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
 
-Le **[!UICONTROL Offers statistic]** et **[!UICONTROL Offers statistics]** au fil du temps, les widgets mesurent le succès et l’impact de votre offre sur votre audience ciblée. Il détaille les informations principales relatives à votre message avec les KPI :
+Le graphique **[!UICONTROL Optimisé ou non optimisé]** détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
 
-* **[!UICONTROL Offer sent]**: Nombre total d&#39;envois pour l&#39;offre.
+* **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
+* **[!UICONTROL Ouvertures]** : nombre de fois où la diffusion a été ouverte dans une diffusion.
+* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans un e-mail.
 
-* **[!UICONTROL Offer impression]**: Nombre d’ouvertures de l’offre dans une diffusion.
+L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de votre diffusion selon la méthode d’envoi : optimisé ou normal.
 
-* **[!UICONTROL Offer clicks]**: Nombre de clics sur une offre dans une diffusion.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-Le **[!UICONTROL Offers detailed statistic]** contient les données disponibles pour l&#39;activité des destinataires avec votre offre :
+>[!NOTE]
+>
+>Les widgets et mesures Offres ne sont disponibles que si une décision a été insérée dans un e-mail. Pour plus d’informations sur la gestion des décisions, consultez cette [page](../offers/get-started/starting-offer-decisioning.md).
 
-* **[!UICONTROL Placement name]**: Nom de l’emplacement utilisé pour afficher votre offre. Pour plus d’informations sur l’emplacement, reportez-vous à cette section [page](../offers/offer-library/creating-placements.md).
+Les widgets sur le long terme **[!UICONTROL Statistique des offres]** et **[!UICONTROL Statistiques des offres]** mesurent le succès et l’impact de votre offre sur votre audience ciblée. Il détaille les informations principales relatives à votre message avec les KPI :
 
-* **[!UICONTROL Offer name]**: Nom de l&#39;offre ajoutée dans la diffusion. Pour plus d’informations sur l’emplacement, reportez-vous à cette section [page](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offre envoyée]** : nombre total d’envois pour l’offre.
 
-* **[!UICONTROL Offer sent]**: Nombre total d&#39;envois pour l&#39;offre.
+* **[!UICONTROL Impression de l’offre]** : nombre d’ouvertures de l’offre dans une diffusion.
 
-* **[!UICONTROL Offer impression rate]**: Pourcentage d&#39;offres ouvertes par rapport au nombre d&#39;offres envoyées.
+* **[!UICONTROL Clics sur les offres]** : nombre de clics sur une offre dans une diffusion.
 
-* **[!UICONTROL Offer click rate]**: Pourcentage d&#39;utilisateurs ayant interagi avec l&#39;offre.
+Le tableau **[!UICONTROL Statistiques détaillées des offres]** contient les données disponibles pour l’activité des destinataires avec votre offre :
+
+* **[!UICONTROL Nom de l’emplacement]** : nom de l’emplacement utilisé pour afficher votre offre. Pour plus d’informations sur les emplacements, consultez cette [page](../offers/offer-library/creating-placements.md).
+
+* **[!UICONTROL Nom de l’offre]** : nom de l’offre ajoutée dans la diffusion. Pour plus d’informations sur les emplacements, consultez cette [page](../offers/offer-library/creating-personalized-offers.md).
+
+* **[!UICONTROL Offre envoyée]** : nombre total d’envois pour l’offre.
+
+* **[!UICONTROL Taux d’impression de l’offre]** : pourcentage d’offres ouvertes par rapport au nombre d’offres envoyées.
+
+* **[!UICONTROL Taux de clics de l’offre]** : pourcentage d’utilisateurs ayant interagi avec l’offre.
 +++
 
 ## Onglet Notification push {#push-global}
 
-À partir du parcours **[!UICONTROL Global report]**, la variable **[!UICONTROL Push notification]** Cet onglet présente les informations principales relatives aux diffusions push envoyées dans votre parcours.
+Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONTROL Notification push]** détaille les principales informations relatives aux diffusions push envoyées dans votre parcours.
 
 ![](assets/journey_global_3.png)
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
-Le **[!UICONTROL Push notification - Sending statistics]** Le tableau présente les informations principales relatives à vos notifications push avec des graphiques et des indicateurs de performance clés :
+Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
-* **[!UICONTROL Targeted]**: Nombre de profils ciblés par Adobe Journey Orchestration pour toute action telle que l’envoi d’emails ou de SMS.
+* **[!UICONTROL Ciblés]** : nombre de profils ciblés par Adobe Journey Orchestration pour toute action telle que l’envoi d’e-mails ou de SMS.
 
-* **[!UICONTROL Sent]**: Nombre total d&#39;envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Delivery Rate]**: Pourcentage de messages envoyés avec succès.
+* **[!UICONTROL Taux de diffusion]** : pourcentage de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounce Rate]**: Pourcentage de notifications push qui ont fait l&#39;objet d&#39;un bounce par rapport au nombre de notifications push envoyées.
+* **[!UICONTROL Taux de rebond]** : pourcentage de notifications push ayant rebondi par rapport aux notifications push envoyées.
 
-* **[!UICONTROL Errors]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
-* **[!UICONTROL Error Rate]**: Pourcentage d&#39;erreurs qui se sont produites pendant une diffusion empêchant son envoi par rapport au nombre de notifications push envoyées.
+* **[!UICONTROL Taux d&#39;erreurs]** : pourcentage d&#39;erreurs survenues pendant une diffusion qui l&#39;empêchent d&#39;être envoyée par rapport aux notifications push envoyées.
 
-Le **[!UICONTROL Push - Tracking statistics]** contient les données disponibles pour l&#39;activité des destinataires pour votre diffusion :
+Les **[!UICONTROL Statistiques de suivi - push]** contiennent les données disponibles pour l&#39;activité destinataire de votre diffusion :
 
-* **[!UICONTROL Opens]**: Nombre d’ouvertures d’un message dans une diffusion.
+* **[!UICONTROL Ouvertures]** : nombre de fois qu&#39;un message a été ouvert dans une diffusion.
 
-* **[!UICONTROL Open Rate]**: Pourcentage de notifications push ouvertes.
+* **[!UICONTROL Taux d&#39;ouverture]** : pourcentage de notifications push ouvertes.
 
-* **[!UICONTROL Actions]**: Nombre total d&#39;actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
+* **[!UICONTROL Actions]** : nombre total d&#39;actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
 
-* **[!UICONTROL Engagements]**: Nombre total d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.
+* **[!UICONTROL Engagements]** : nombre total d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification ou si un utilisateur a cliqué sur un bouton.
 
-* **[!UICONTROL Engagement Rate]**: Pourcentage d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.
+* **[!UICONTROL Taux d&#39;engagement]** : pourcentage d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.
 
-Le **[!UICONTROL Push notification summary]** Le graphique contient les données disponibles pour les notifications push envoyées, telles que :
+Le graphique **[!UICONTROL Résumé des notifications push]** contient les données disponibles pour les notifications push envoyées, telles que :
 
-* **[!UICONTROL Opens]**: Nombre d’ouvertures d’un message dans une diffusion.
+* **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
-* **[!UICONTROL Actions]**: Nombre total d&#39;actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
+* **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée (par exemple, clic sur un bouton ou rejet).
 
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Errors]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 >[!NOTE]
 >
->Le **[!UICONTROL Optimized vs non optimized]** et **[!UICONTROL Send time optimization]**  Les widgets ne sont disponibles que si l’option Optimisation du temps d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation du temps d’envoi, reportez-vous à la section [cette page](../building-journeys/journeys-message.md#send-time-optimization).
+>Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
 
-Le **[!UICONTROL Optimized vs non optimized]** graph détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
+Le graphique **[!UICONTROL Optimisé ou non optimisé]** détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
-* **[!UICONTROL Opens]**: Nombre de fois où la diffusion a été ouverte dans une diffusion.
-* **[!UICONTROL Actions]**: Nombre total d&#39;actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Ouvertures]** :nombre de fois où la diffusion a été ouverte dans une diffusion.
+* **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
 
-Le **[!UICONTROL Send time optimization]** détaille le succès de votre diffusion selon la méthode d&#39;envoi : optimisé ou normal.
+L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de votre diffusion selon la méthode d’envoi : optimisé ou normal.
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-Le **[!UICONTROL Error Reasons]** le graphique et le tableau vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
+Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
 
-Le **[!UICONTROL Excluded reasons]** le graphique et le tableau affichent les différentes raisons qui ont empêché les profils utilisateur, exclus des profils ciblés, de recevoir le message.
+Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
 
-Le **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** et **[!UICONTROL Breakdown by platform]** les graphiques et les tableaux détaillent le succès de votre notification push en fonction du système opérationnel du destinataire.
+Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système d&#39;exploitation de votre destinataire.
 
-Le SMS **[!UICONTROL Global report]** est divisé en différents widgets détaillant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Voir à ce sujet la section [section](global-report.md#modify-dashboard).
+Le **[!UICONTROL Rapport global]** SMS est divisé en différents widgets présentant la réussite et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](global-report.md#modify-dashboard).
 +++
 
 ## Onglet SMS {#sms-global}
 
 ![](assets/journey_global_4.png)
 
-+++En savoir plus sur les différentes mesures et widgets disponibles pour le rapport SMS.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport SMS.
 
-Le **[!UICONTROL SMS - Sending statistics]** le tableau détaille le succès de votre diffusion :
+Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 
-* **[!UICONTROL Targeted]**: Nombre de profils utilisateur qui remplissent les critères de ciblage pour cette diffusion.
+* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
-* **[!UICONTROL Excluded]**: Nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
+* **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
 
-* **[!UICONTROL Sent]**: Nombre total d&#39;envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Errors]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
-Le **[!UICONTROL SMS summary]** avec un graphique, vous trouverez les informations principales relatives à votre message :
+Le widget **[!UICONTROL Synthèse des SMS]** détaille les informations principales relatives à votre message sous forme de graphique :
 
-* **[!UICONTROL Sent]**: Nombre total d&#39;envois pour la diffusion.
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
-* **[!UICONTROL Delivered]**: Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounces]**: Nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Errors]**: Nombre total d&#39;erreurs qui se sont produites au cours d&#39;une diffusion et qui l&#39;ont empêché d&#39;être envoyée aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
-Le **[!UICONTROL Exclude Reasons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 +++

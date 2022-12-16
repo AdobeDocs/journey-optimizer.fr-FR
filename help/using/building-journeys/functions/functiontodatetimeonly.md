@@ -8,14 +8,14 @@ level: Experienced
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 0%
+source-wordcount: '55'
+ht-degree: 100%
 
 ---
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-Convertit une valeur d’argument en une valeur de date et d’heure uniquement.
+Convertit une valeur d’argument en une date et une heure sans prise en compte du fuseau horaire.
 
 ## Catégorie
 
@@ -29,7 +29,7 @@ Conversion
 
 | Paramètre | Type |
 |-----------|------------------|
-| date et heure au format ISO-8601 ou AAAA-MM-JJ (format de date XDM) | string |
+| date et heure au format ISO-8601 ou AAAA-MM-JJ (format de date XDM) | chaîne |
 | date et heure | dateTime |
 
 ## Signatures et types renvoyés
@@ -46,7 +46,7 @@ Renvoie une date et une heure sans prendre en compte le fuseau horaire.
 
 `toDateTimeOnly ("2016-08-18")`
 
-renvoie une valeur dateTime représentant 2016-08-18T00:00:00,000
+renvoie une valeur dateTime représentant 2016-08-18T00:00:00.000
 
 `toDateTimeOnly(now())`
 

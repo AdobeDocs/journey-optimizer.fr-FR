@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 0%
+source-wordcount: '1685'
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Découvrez comment utiliser les fonctions de chaîne dans l’éditeur d’expression.
 
-## Camel Case {#camelCase}
+## Casse mixte {#camelCase}
 
-Le `camelCase` met en majuscules la première lettre de chaque mot d’une chaîne.
+La fonction `camelCase` met en majuscule la première lettre de chaque mot d&#39;une chaîne.
 
 **Format**
 
@@ -29,7 +29,7 @@ Le `camelCase` met en majuscules la première lettre de chaque mot d’une chaî
 
 **Exemple**
 
-La fonction suivante met en majuscules la première lettre de mot de l’adresse postale du profil.
+La fonction suivante met en majuscule la première lettre du mot de l&#39;adresse postale du profil.
 
 ```sql
 {%= camelCase(profile.homeAddress.street) %}
@@ -37,7 +37,7 @@ La fonction suivante met en majuscules la première lettre de mot de l’adresse
 
 ## Concat {#concate}
 
-Le `concat` combine deux chaînes en une seule.
+La fonction `concat` combine deux chaînes en une seule.
 
 **Format**
 
@@ -47,7 +47,7 @@ Le `concat` combine deux chaînes en une seule.
 
 **Exemple**
 
-La fonction suivante combine ville et pays du profil dans une seule chaîne.
+La fonction suivante combine la ville et le pays du profil dans une seule chaîne.
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -55,7 +55,7 @@ La fonction suivante combine ville et pays du profil dans une seule chaîne.
 
 ## Contient {#contains}
 
-Le `contains` permet de déterminer si une chaîne contient une sous-chaîne donnée.
+La fonction `contains` permet de déterminer si une chaîne contient une sous-chaîne donnée.
 
 **Format**
 
@@ -65,19 +65,19 @@ Le `contains` permet de déterminer si une chaîne contient une sous-chaîne don
 
 | Argument | Description |
 | --------- | ----------- |
-| `STRING_1` | Chaîne à vérifier. |
-| `STRING_2` | Chaîne à rechercher dans la première chaîne. |
-| `CASE_SENSITIVE` | Paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut) / false. |
+| `STRING_1` | La chaîne à vérifier. |
+| `STRING_2` | La chaîne à rechercher dans la première chaîne. |
+| `CASE_SENSITIVE` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
 
 **Exemples**
 
-* La fonction suivante vérifie si le prénom du profil contient la lettre A (en majuscules ou en minuscules). Si c’est le cas, il renverra &quot;true&quot;, sinon il renverra &quot;false&quot;.
+* La fonction suivante vérifie si le prénom du profil contient la lettre A (en majuscule ou en minuscule). Si c&#39;est le cas, elle renverra &quot;true&quot;, sinon elle renverra &quot;false&quot;.
 
    ```sql
    {%= contains(profile.person.name.firstName, "A", false) %}
    ```
 
-* La requête suivante détermine si l’adresse électronique de la personne contient la chaîne &quot;2010@gm&quot; en respectant la casse.
+* La requête suivante détermine si l&#39;adresse e-mail de la personne contient la chaîne « 2010@gm » en respectant la casse.
 
    ```sql
    {%= contains(profile.person.emailAddress,"2010@gm") %}
@@ -85,7 +85,7 @@ Le `contains` permet de déterminer si une chaîne contient une sous-chaîne don
 
 ## Ne contient pas{#doesNotContain}
 
-Le `doesNotContain` permet de déterminer si une chaîne ne contient pas de sous-chaîne donnée.
+La fonction `doesNotContain` permet de déterminer si une chaîne ne contient pas une sous-chaîne donnée.
 
 **Format**
 
@@ -95,13 +95,13 @@ Le `doesNotContain` permet de déterminer si une chaîne ne contient pas de sous
 
 | Argument | Description |
 | --------- | ----------- |
-| `STRING_1` | Chaîne à vérifier. |
-| `STRING_2` | Chaîne à rechercher dans la première chaîne. |
-| `CASE_SENSITIVE` | Paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut) / false. |
+| `STRING_1` | La chaîne à vérifier. |
+| `STRING_2` | La chaîne à rechercher dans la première chaîne. |
+| `CASE_SENSITIVE` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
 
 **Exemple**
 
-La requête suivante détermine si l’adresse électronique de la personne ne contient pas la chaîne &quot;2010@gm&quot; en respectant la casse.
+La requête suivante détermine si l&#39;adresse e-mail de la personne ne contient pas la chaîne « 2010@gm » en respectant la casse.
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
@@ -110,7 +110,7 @@ La requête suivante détermine si l’adresse électronique de la personne ne c
 
 ## Ne se termine pas par{#doesNotEndWith}
 
-Le `doesNotEndWith` permet de déterminer si une chaîne ne se termine pas par une sous-chaîne donnée.
+La fonction `doesNotEndWith` permet de déterminer si une chaîne ne se termine pas par une sous-chaîne donnée.
 
 **Format**
 
@@ -120,13 +120,13 @@ Le `doesNotEndWith` permet de déterminer si une chaîne ne se termine pas par u
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut) / false. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
 
 **Exemple**
 
-La requête suivante détermine si l’adresse électronique de la personne ne se termine pas par &quot;.com&quot; en respectant la casse.
+La requête suivante détermine si l&#39;adresse e-mail de la personne ne se termine pas par « .com » en respectant la casse.
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
@@ -134,7 +134,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Ne commence pas par{#doesNotStartWith}
 
-Le `doesNotStartWith` permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée.
+La fonction `doesNotStartWith` permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée.
 
 **Format**
 
@@ -144,13 +144,13 @@ Le `doesNotStartWith` permet de déterminer si une chaîne ne commence pas par u
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut) / false. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
 
 **Exemple**
 
-La requête suivante détermine si le nom de la personne ne commence pas par &quot;Joe&quot; en respectant la casse.
+La requête suivante détermine si le nom de la personne ne commence pas par « Joe » en respectant la casse.
 
 ```sql
 {%= doesNotStartWith(person.name,"Joe")%}
@@ -158,7 +158,7 @@ La requête suivante détermine si le nom de la personne ne commence pas par &qu
 
 ## Encode 64{#encode64}
 
-Le `encode64` sert à coder une chaîne afin de préserver les informations personnelles (PI) si elles doivent être incluses, par exemple dans une URL.
+La fonction `encode64` est utilisée pour coder une chaîne afin de conserver les informations personnelles (PI) si elles doivent être incluses, par exemple, dans une URL.
 
 **Format**
 
@@ -168,7 +168,7 @@ Le `encode64` sert à coder une chaîne afin de préserver les informations pers
 
 ## Se termine par{#endsWith}
 
-Le `endsWith` permet de déterminer si une chaîne se termine par une sous-chaîne donnée.
+La fonction `endsWith` permet de déterminer si une chaîne se termine par une sous-chaîne donnée.
 
 **Format**
 
@@ -178,22 +178,22 @@ Le `endsWith` permet de déterminer si une chaîne se termine par une sous-chaî
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut) / false. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Valeurs possibles : true (par défaut)/false. |
 
 **Exemple**
 
-La requête suivante détermine si l’adresse électronique de la personne se termine par &quot;.com&quot; en respectant la casse.
+La requête suivante détermine si l&#39;adresse e-mail de la personne se termine par « .com » en respectant la casse.
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
 ```
 
 
-## Est égal à{#equals}
+## Égal à{#equals}
 
-Le `equals` sert à déterminer si une chaîne est égale à la chaîne spécifiée, en respectant la casse.
+La fonction `equals` permet de déterminer si une chaîne est égale à une chaîne donnée, en respectant la casse.
 
 **Format**
 
@@ -203,20 +203,20 @@ Le `equals` sert à déterminer si une chaîne est égale à la chaîne spécifi
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à comparer à la première chaîne. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à comparer à la première chaîne. |
 
 **Exemple**
 
-La requête suivante détermine si le nom de la personne est &quot;John&quot; en respectant la casse.
+La requête suivante détermine si le nom de la personne est « John » en respectant la casse.
 
 ```sql
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Est égal à Ignorer la casse{#equalsIgnoreCase}
+## Égal à ignorer la casse{#equalsIgnoreCase}
 
-Le `equalsIgnoreCase` sert à déterminer si une chaîne est égale à la chaîne spécifiée, sans respect de la casse.
+La fonction `equalsIgnoreCase` permet de déterminer si une chaîne est égale à la chaîne donnée, en respectant la casse.
 
 **Format**
 
@@ -226,20 +226,20 @@ Le `equalsIgnoreCase` sert à déterminer si une chaîne est égale à la chaîn
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à comparer à la première chaîne. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à comparer à la première chaîne. |
 
 **Exemple**
 
-La requête suivante détermine si le nom de la personne est &quot;John&quot;, sans respect de la casse.
+La requête suivante détermine si le nom de la personne est « John » sans respect de la casse.
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
 
-## Extract Email Domain {#extractEmailDomain}
+## Extraire le domaine e-mail {#extractEmailDomain}
 
-Le `extractEmailDomain` sert à extraire le domaine d’une adresse électronique.
+La fonction `extractEmailDomain` permet d&#39;extraire le domaine d&#39;une adresse e-mail.
 
 **Format**
 
@@ -249,15 +249,15 @@ Le `extractEmailDomain` sert à extraire le domaine d’une adresse électroniqu
 
 **Exemple**
 
-La requête suivante extrait le domaine de l’adresse électronique personnelle.
+La requête suivante extrait le domaine de l&#39;adresse e-mail personnelle.
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
-## Obtention de l’hôte d’URL {#get-url-host}
+## Obtenir l’hôte d’URL {#get-url-host}
 
-Le `getUrlHost` sert à récupérer le nom d’hôte d’une URL.
+La fonction `getUrlHost` sert à récupérer le nom d’hôte d’une URL.
 
 **Format**
 
@@ -271,11 +271,11 @@ Le `getUrlHost` sert à récupérer le nom d’hôte d’une URL.
 {%= getUrlHost("http://www.myurl.com/contact") %}
 ```
 
-Renvoie &quot;www.myurl.com&quot;
+Renvoie « www.myurl.com »
 
-## Obtention du chemin d’URL {#get-url-path}
+## Obtenir le chemin d’accès à l’URL {#get-url-path}
 
-Le `getUrlPath` sert à récupérer le chemin d’accès après le nom de domaine d’une URL.
+La fonction `getUrlPath` sert à récupérer le chemin d’accès d’après le nom de domaine d’une URL.
 
 **Format**
 
@@ -289,11 +289,11 @@ Le `getUrlPath` sert à récupérer le chemin d’accès après le nom de domain
 {%= getUrlPath("http://www.myurl.com/contact.html") %}
 ```
 
-Renvoie &quot;/contact.html&quot;
+Renvoie « /contact.html »
 
-## Obtenir le protocole url {#get-url-protocol}
+## Obtenir le protocole d’URL {#get-url-protocol}
 
-Le `getUrlProtocol` est utilisée pour récupérer le protocole d’une URL.
+La fonction `getUrlProtocol` est utilisée pour récupérer le protocole d’une URL.
 
 **Format**
 
@@ -307,11 +307,11 @@ Le `getUrlProtocol` est utilisée pour récupérer le protocole d’une URL.
 {%= getUrlProtocol("http://www.myurl.com/contact.html") %}
 ```
 
-Renvoie &quot;http&quot;
+Renvoie « http »
 
 ## Index de {#index-of}
 
-Le `indexOf` est utilisée pour renvoyer la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
+La fonction `indexOf` est utilisée pour renvoyer la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
 
 **Format**
 
@@ -321,7 +321,7 @@ Le `indexOf` est utilisée pour renvoyer la position (dans le premier argument) 
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
+| `{STRING_1}` | La chaîne à vérifier. |
 | `{STRING_2}` | Chaîne à rechercher dans le premier paramètre |
 
 **Exemple**
@@ -334,7 +334,7 @@ Renvoie 6.
 
 ## Est vide {#isEmpty}
 
-Le `isEmpty` sert à déterminer si une chaîne est vide.
+La fonction `isEmpty` permet de déterminer si une chaîne contient une chaîne est vide.
 
 **Format**
 
@@ -344,7 +344,7 @@ Le `isEmpty` sert à déterminer si une chaîne est vide.
 
 **Exemple**
 
-La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone portable du profil est vide. Sinon, il renverra &quot;false&quot;.
+La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone mobile du profil est vide. Sinon, elle renverra &quot;false&quot;.
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -352,7 +352,7 @@ La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone porta
 
 ## N’est pas vide {#is-not-empty}
 
-Le `isNotEmpty` sert à déterminer si une chaîne n’est pas vide.
+La fonction `isNotEmpty` sert à déterminer si une chaîne n’est pas vide.
 
 **Format**
 
@@ -362,7 +362,7 @@ Le `isNotEmpty` sert à déterminer si une chaîne n’est pas vide.
 
 **Exemple**
 
-La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone portable du profil n’est pas vide. Sinon, il renverra &quot;false&quot;.
+La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone mobile du profil n’est pas vide. Sinon, elle renverra &quot;false&quot;.
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -370,7 +370,7 @@ La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone porta
 
 ## Dernier index de {#last-index-of}
 
-Le `lastIndexOf` est utilisée pour renvoyer la position (dans le premier argument) de la dernière occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
+La fonction `lastIndexOf` est utilisée pour renvoyer la position (dans le premier argument) de la dernière occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
 
 **Format**
 
@@ -380,7 +380,7 @@ Le `lastIndexOf` est utilisée pour renvoyer la position (dans le premier argume
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
+| `{STRING_1}` | La chaîne à vérifier. |
 | `{STRING_2}` | Chaîne à rechercher dans le premier paramètre |
 
 **Exemple**
@@ -391,9 +391,9 @@ Le `lastIndexOf` est utilisée pour renvoyer la position (dans le premier argume
 
 Renvoie 7.
 
-## Rognage gauche {#leftTrim}
+## Supprimer à gauche {#leftTrim}
 
-Le `leftTrim` sert à supprimer les espaces blancs au début d’une chaîne.
+La fonction `leftTrim` est utilisée pour supprimer les espaces blancs au début d&#39;une chaîne.
 
 **Format**
 
@@ -403,7 +403,7 @@ Le `leftTrim` sert à supprimer les espaces blancs au début d’une chaîne.
 
 ## Longueur {#length}
 
-Le `length` est utilisée pour obtenir le nombre de caractères d’une chaîne ou d’une expression.
+La fonction `length` est utilisée pour obtenir le nombre de caractères d&#39;une chaîne ou d&#39;une expression.
 
 **Format**
 
@@ -421,7 +421,7 @@ La fonction suivante renvoie la longueur du nom de ville du profil.
 
 ## Comme{#like}
 
-Le `like` sert à déterminer si une chaîne correspond à un modèle spécifié.
+La fonction `like` permet de déterminer si une chaîne correspond à un modèle donné.
 
 **Format**
 
@@ -431,20 +431,20 @@ Le `like` sert à déterminer si une chaîne correspond à un modèle spécifié
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | L’expression à faire correspondre à la première chaîne. Deux caractères spéciaux sont pris en charge pour créer une expression : `%` et `_`. <ul><li>`%` est utilisé pour représenter zéro ou plusieurs caractères.</li><li>`_` est utilisé pour représenter exactement un caractère.</li></ul> |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | L&#39;expression à laquelle comparer la première chaîne. Les deux caractères spéciaux pris en charge pour créer une expression sont `%` et `_`. <ul><li>`%` est utilisé pour représenter aucun ou plusieurs caractères.</li><li>`_` est utilisé pour représenter exactement un caractère.</li></ul> |
 
 **Exemple**
 
-La requête suivante récupère toutes les villes où résident les profils contenant le modèle &quot;es&quot;.
+La requête suivante récupère toutes les villes où vivent les profils contenant le modèle &#39;&#39;es&#39;&#39;.
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
 ```
 
-## Minuscule{#lower}
+## Minuscules{#lower}
 
-Le `lowerCase` convertit une chaîne en minuscules.
+La fonction `lowerCase` convertit une chaîne en minuscules.
 
 **Syntaxe**
 
@@ -462,7 +462,7 @@ Cette fonction convertit le prénom du profil en minuscules.
 
 ## Correspond à{#matches}
 
-Le `matches` sert à déterminer si une chaîne correspond à une expression régulière spécifique. Reportez-vous à la section [ce document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) pour plus d’informations sur les modèles correspondants dans les expressions régulières.
+La fonction `matches` permet de déterminer si une chaîne correspond à une expression régulière donnée. Reportez-vous à [ce document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) pour plus d&#39;informations concernant les modèles correspondants dans les expressions régulières.
 
 **Format**
 
@@ -472,7 +472,7 @@ Le `matches` sert à déterminer si une chaîne correspond à une expression ré
 
 **Exemple**
 
-La requête suivante détermine si le nom de la personne commence par &quot;John&quot; sans tenir compte de la casse.
+La requête suivante détermine si le nom de la personne commence par « John » sans respect de la casse.
 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
@@ -480,7 +480,7 @@ La requête suivante détermine si le nom de la personne commence par &quot;John
 
 ## Masque {#mask}
 
-Le `Mask` est utilisée pour remplacer une partie d’une chaîne par des caractères &quot;X&quot;.
+La fonction `Mask` est utilisée pour remplacer une partie d’une chaîne par des caractères « X ».
 
 **Format**
 
@@ -490,7 +490,7 @@ Le `Mask` est utilisée pour remplacer une partie d’une chaîne par des caract
 
 **Exemple**
 
-La requête suivante remplace la chaîne &quot;123456789&quot; par des caractères &quot;X&quot;, à l’exception des deux premiers et derniers caractères.
+La requête suivante remplace la chaîne « 123456789 » par des caractères « X », à l’exception des deux premiers et derniers caractères.
 
 ```sql
 {%= mask("123456789",1,2) %}
@@ -500,7 +500,7 @@ La requête renvoie `1XXXXXX89`.
 
 ## MD5 {#md5}
 
-Le `md5` est utilisée pour calculer et renvoyer le hachage md5 d’une chaîne.
+La fonction `md5` est utilisée pour calculer et renvoyer le hachage md5 d’une chaîne.
 
 **Format**
 
@@ -514,11 +514,11 @@ Le `md5` est utilisée pour calculer et renvoyer le hachage md5 d’une chaîne.
 {%= md5("hello world") %}
 ```
 
-Renvoie &quot;5eb63bbe01eeed093cb22bb8f5acdc3&quot;
+Renvoie « 5eb63bbe01eeed093cb22bb8f5acdc3 »
 
 ## Différent de{#notEqualTo}
 
-Le `notEqualTo` sert à déterminer si une chaîne n’est pas égale à la chaîne spécifiée.
+La fonction `notEqualTo` permet de déterminer si une chaîne est différente d&#39;une chaîne donnée.
 
 **Format**
 
@@ -528,20 +528,20 @@ Le `notEqualTo` sert à déterminer si une chaîne n’est pas égale à la cha�
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à comparer à la première chaîne. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à comparer à la première chaîne. |
 
 **Exemple**
 
-La requête suivante détermine si le nom de la personne n’est pas &quot;John&quot; en respectant la casse.
+La requête suivante détermine si le nom de la personne n&#39;est pas « John » en respectant la casse.
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Différent De La Case Ignorer {#not-equal-with-ignore-case}
+## Différent de Ignorer la casse {#not-equal-with-ignore-case}
 
-Le `notEqualWithIgnoreCase` sert à comparer deux chaînes qui ne respectent pas la casse.
+La fonction `notEqualWithIgnoreCase` sert à comparer deux chaînes qui ne respectent pas la casse.
 
 **Format**
 
@@ -551,12 +551,12 @@ Le `notEqualWithIgnoreCase` sert à comparer deux chaînes qui ne respectent pas
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à comparer à la première chaîne. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à comparer à la première chaîne. |
 
 **Exemple**
 
-La requête suivante détermine si le nom de la personne n’est pas &quot;jean&quot;, sans respect de la casse.
+La requête suivante détermine si le nom de la personne n’est pas « john » sans respect de la casse.
 
 ```sql
 {%= notEqualTo(profile.person.name,"john") %}
@@ -564,7 +564,7 @@ La requête suivante détermine si le nom de la personne n’est pas &quot;jean&
 
 ## Groupe d’expressions régulières{#regexGroup}
 
-Le `Group` sert à extraire des informations spécifiques, en fonction de l’expression régulière fournie.
+La fonction `Group` est utilisée pour extraire des informations spécifiques en fonction de l&#39;expression régulière fournie.
 
 **Format**
 
@@ -574,13 +574,13 @@ Le `Group` sert à extraire des informations spécifiques, en fonction de l’ex
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING}` | Chaîne à vérifier. |
-| `{EXPRESSION}` | L’expression régulière à faire correspondre à la première chaîne. |
-| `{GROUP}` | Groupe d’expressions à comparer. |
+| `{STRING}` | La chaîne à vérifier. |
+| `{EXPRESSION}` | L&#39;expression régulière avec laquelle comparer la première chaîne. |
+| `{GROUP}` | Groupe d&#39;expressions à comparer. |
 
 **Exemple**
 
-La requête suivante est utilisée pour extraire le nom de domaine d’une adresse électronique.
+La requête suivante est utilisée pour extraire le nom de domaine d&#39;une adresse e-mail.
 
 ```sql
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
@@ -588,7 +588,7 @@ La requête suivante est utilisée pour extraire le nom de domaine d’une adres
 
 ## Remplacer {#replace}
 
-Le `replace` sert à remplacer une sous-chaîne donnée d’une chaîne par une autre sous-chaîne.
+La fonction `replace` permet de remplacer une sous-chaîne donnée dans une chaîne par une autre sous-chaîne.
 
 **Format**
 
@@ -608,11 +608,11 @@ Le `replace` sert à remplacer une sous-chaîne donnée d’une chaîne par une 
 {%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
-Renvoie &quot;Hello Mark, voici votre newsletter mensuelle !&quot;
+Renvoie « Bonjour Marc, voici votre newsletter mensuelle ! »
 
 ## Tout remplacer{#replaceAll}
 
-Le `replaceAll` sert à remplacer toutes les sous-chaînes d’un texte correspondant à &quot;target&quot; par la chaîne littérale &quot;remplacement&quot; spécifiée. Le remplacement s’effectue du début à la fin de la chaîne, par exemple, le remplacement de &quot;aa&quot; par &quot;b&quot; dans la chaîne &quot;aaa&quot; générera &quot;ba&quot; plutôt que &quot;ab&quot;.
+La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d&#39;un texte correspondant à la &quot;cible&quot; par la chaîne littérale de &quot;remplacement&quot; spécifiée. Le remplacement s&#39;effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 **Format**
 
@@ -620,9 +620,9 @@ Le `replaceAll` sert à remplacer toutes les sous-chaînes d’un texte correspo
 {%= replaceAll(string,string,string) %}
 ```
 
-## Rognage droit {#rightTrim}
+## Supprimer à droite {#rightTrim}
 
-Le `rightTrim` est utilisée pour supprimer les espaces blancs de la fin d’une chaîne.
+La fonction `rightTrim` est utilisée pour supprimer les espaces blancs de la fin d&#39;une chaîne.
 
 **Format**
 
@@ -630,9 +630,9 @@ Le `rightTrim` est utilisée pour supprimer les espaces blancs de la fin d’une
 {%= rightTrim(string) %}
 ```
 
-## Partage {#split}
+## Fractionner {#split}
 
-Le `split` sert à fractionner une chaîne selon un caractère donné.
+La fonction `split` est utilisée pour fractionner une chaîne selon un caractère donné.
 
 **Format**
 
@@ -642,7 +642,7 @@ Le `split` sert à fractionner une chaîne selon un caractère donné.
 
 ## Commence par{#startsWith}
 
-Le `startsWith` permet de déterminer si une chaîne commence par une sous-chaîne donnée.
+La fonction `startsWith` permet de déterminer si une chaîne commence par une sous-chaîne donnée.
 
 **Format**
 
@@ -652,21 +652,21 @@ Le `startsWith` permet de déterminer si une chaîne commence par une sous-chaî
 
 | Argument | Description |
 | --------- | ----------- |
-| `{STRING_1}` | Chaîne à vérifier. |
-| `{STRING_2}` | Chaîne à rechercher dans la première chaîne. |
-| `{CASE_SENSITIVE}` | Paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Par défaut, cette valeur est définie sur true. |
+| `{STRING_1}` | La chaîne à vérifier. |
+| `{STRING_2}` | La chaîne à rechercher dans la première chaîne. |
+| `{CASE_SENSITIVE}` | Un paramètre facultatif permettant de déterminer si la vérification est sensible à la casse. Par défaut, cette valeur est définie sur vraie. |
 
 **Exemple**
 
-La requête suivante détermine si le nom de la personne commence par &quot;Joe&quot; en respectant la casse.
+La requête suivante détermine si le nom de la personne commence par « Joe » en respectant la casse.
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## Chaîne à entier {#string-to-integer}
+## Chaîne en entier {#string-to-integer}
 
-Le `string_to_integer` est utilisée pour convertir une valeur de chaîne en valeur entière.
+La fonction `string_to_integer` est utilisée pour convertir une valeur de chaîne en valeur entière.
 
 **Format**
 
@@ -674,9 +674,9 @@ Le `string_to_integer` est utilisée pour convertir une valeur de chaîne en val
 {= string_to_integer(string) %}: int
 ```
 
-## Chaîne à nombre {#string-to-number}
+## Chaîne en nombre {#string-to-number}
 
-Le `stringToNumber` est utilisée pour convertir une chaîne en nombre. Elle renvoie la même chaîne que la sortie pour une entrée non valide.
+La fonction `stringToNumber` est utilisée pour convertir une chaîne en nombre. Elle renvoie la même chaîne que la sortie pour une entrée non valide.
 
 **Format**
 
@@ -686,16 +686,16 @@ Le `stringToNumber` est utilisée pour convertir une chaîne en nombre. Elle ren
 
 ## Sous-chaîne {#sub-string}
 
-Le `Count string` est utilisée pour renvoyer la sous-chaîne de l’expression de chaîne entre l’index de début et l’index de fin.
+La fonction `Count string` est utilisée pour renvoyer la sous-chaîne de l’expression de chaîne entre l’index de début et l’index de fin.
 **Format**
 
 ```sql
 {= substr(string, integer, integer) %}: string
 ```
 
-## Cas de titre{#titleCase}
+## Casse du titre{#titleCase}
 
-Le **titleCase** sert à mettre en majuscules les premières lettres de chaque mot d’une chaîne.
+La fonction **titleCase** permet de mettre en majuscules les premières lettres de chaque mot d&#39;une chaîne.
 
 **Syntaxe**
 
@@ -711,9 +711,9 @@ Si la personne vit dans Washington high street, cette fonction renverra Washingt
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## À Bool {#to-bool}
+## En valeur booléenne {#to-bool}
 
-Le `toBool` est utilisée pour convertir une valeur d’argument en valeur booléenne, selon son type.
+La fonction `toBool` est utilisée pour convertir une valeur d’argument en valeur booléenne, selon son type.
 
 **Format**
 
@@ -721,9 +721,9 @@ Le `toBool` est utilisée pour convertir une valeur d’argument en valeur bool�
 {= toBool(string) %}: boolean
 ```
 
-## Heure de la date {#to-date-time}
+## En date/heure {#to-date-time}
 
-Le `toDateTime` est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
+La fonction `toDateTime` est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
 
 **Format**
 
@@ -731,9 +731,9 @@ Le `toDateTime` est utilisée pour convertir une chaîne en date. Elle renvoie l
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## À date seule {#to-date-time-only}
+## En date/heure uniquement {#to-date-time-only}
 
-Le `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
+La fonction `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
 
 **Format**
 
@@ -741,9 +741,9 @@ Le `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une 
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## Rogner{#trim}
+## Taille{#trim}
 
-Le **trim** supprime tous les espaces blancs du début et de la fin d’une chaîne.
+La fonction **trim** supprime tous les espaces blancs du début et de la fin d&#39;une chaîne.
 
 **Syntaxe**
 
@@ -751,9 +751,9 @@ Le **trim** supprime tous les espaces blancs du début et de la fin d’une cha�
 {%= trim(string) %}
 ```
 
-## majuscule{#upper}
+## Majuscules{#upper}
 
-Le **upperCase** convertit une chaîne en majuscules.
+La fonction **upperCase** convertit une chaîne en majuscules.
 
 **Syntaxe**
 
@@ -769,9 +769,9 @@ Cette fonction convertit le nom du profil en majuscules.
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## décodage de l’url {#url-decode}
+## Décodage de l’URL {#url-decode}
 
-Le `urlDecode` est utilisée pour décoder une chaîne codée en url.
+La fonction `urlDecode` est utilisée pour décoder une chaîne codée en URL.
 
 **Format**
 
@@ -779,9 +779,9 @@ Le `urlDecode` est utilisée pour décoder une chaîne codée en url.
 {%= urlDecode(string) %}: string
 ```
 
-## Encode d&#39;URL {#url-encode}
+## Encodage de l’URL {#url-encode}
 
-Le `Count only null` est utilisée pour encoder une chaîne en URL.
+La fonction `Count only null` est utilisée pour encoder une chaîne en URL.
 
 **Format**
 

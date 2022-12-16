@@ -9,7 +9,7 @@ exl-id: 58a3107a-b4f3-43da-b454-5ce597515847
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Chaîne
 
 | Paramètre | type |
 |-------------|----------|
-| string | string |
-| beginIndex | entier |
-| endIndex | entier |
+| chaîne | chaîne |
+| beginIndex | nombre entier |
+| endIndex | nombre entier |
 
 ## Signature et type renvoyé
 
@@ -45,8 +45,8 @@ Renvoie une chaîne.
 
 `substr("Hello World",6)`
 
-Renvoie &quot;World&quot;.
+Renvoie « World ».
 
 `substr("Hello World", 0, 5)`
 
-Renvoie &quot;Hello&quot;.
+Renvoie « Hello ».

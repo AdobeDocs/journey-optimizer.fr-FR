@@ -7,18 +7,18 @@ role: Data Engineer
 level: Experienced
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 0%
+source-wordcount: '94'
+ht-degree: 100%
 
 ---
 
 # Fonctions mathématiques {#math}
 
-Découvrez comment utiliser les fonctions Math dans l’éditeur d’expression.
+Découvrez comment utiliser les fonctions mathématiques dans l’éditeur d’expression.
 
 ## Absolu {#absolute}
 
-Le `absolute` est utilisée pour convertir un nombre dont la valeur est absolue.
+La fonction `absolute` est utilisée pour convertir un nombre dont la valeur est absolue.
 
 **Format**
 
@@ -26,9 +26,9 @@ Le `absolute` est utilisée pour convertir un nombre dont la valeur est absolue.
 {%= absolute(int) %}: int
 ```
 
-## Random {#random}
+## Aléatoire {#random}
 
-Le `random` est utilisée pour renvoyer une valeur aléatoire comprise entre 0 et 1.
+La fonction `random` est utilisée pour renvoyer une valeur aléatoire comprise entre 0 et 1.
 
 **Format**
 
@@ -36,9 +36,9 @@ Le `random` est utilisée pour renvoyer une valeur aléatoire comprise entre 0 e
 {%= random() %}: double
 ```
 
-## Arrondir {#round-down}
+## Arrondir à l’unité inférieure {#round-down}
 
-Le `roundDown` sert à arrondir un nombre.
+La fonction `roundDown` sert à arrondir un nombre à l’unité inférieure.
 
 **Format**
 
@@ -46,9 +46,9 @@ Le `roundDown` sert à arrondir un nombre.
 {%= roundDown(double) %}: double
 ```
 
-## Tour à tour {#round-up}
+## Arrondir à l’unité supérieure {#round-up}
 
-Le `Count only null` sert à arrondir un nombre.
+La fonction `Count only null` sert à arrondir un nombre à l’unité supérieure.
 
 **Format**
 
@@ -58,7 +58,7 @@ Le `Count only null` sert à arrondir un nombre.
 
 ## En pourcentage {#to-percentage}
 
-Le `toPercentage` est utilisée pour convertir un nombre en pourcentage.
+La fonction `toPercentage` est utilisée pour convertir un nombre en pourcentage.
 
 **Format**
 
@@ -66,9 +66,9 @@ Le `toPercentage` est utilisée pour convertir un nombre en pourcentage.
 {%= toPercentage(double) %}: string
 ```
 
-## Précision {#to-precision}
+## En précision {#to-precision}
 
-Le `toPrecision` est utilisée pour convertir un nombre à la précision requise.
+La fonction `toPrecision` est utilisée pour convertir un nombre à la précision requise.
 
 **Format**
 

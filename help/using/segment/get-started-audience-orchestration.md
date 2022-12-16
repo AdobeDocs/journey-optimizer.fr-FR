@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la composition de l’audience
-description: En savoir plus sur la composition des audiences
+title: Prise en main de la composition des audiences
+description: En savoir plus sur la composition de l’audience
 feature: Journeys
 topic: Content Management
 role: User
@@ -12,17 +12,17 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
-# Prise en main de la composition de l’audience {#get-start-audience-composition}
+# Prise en main de la composition des audiences {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
->title="Création d’une composition"
->abstract="Créez un workflow de composition afin de combiner les audiences Adobe Experience Platform existantes en un canevas visuel et d’exploiter diverses activités (fractionner, exclure..) pour créer de nouvelles audiences."
+>title="Créer une composition"
+>abstract="Créez un workflow de composition afin de combiner les audiences d’Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (telles que le partage, l’exclusion…) pour créer de nouvelles audiences."
 
 >[!AVAILABILITY]
 >
@@ -30,32 +30,32 @@ ht-degree: 0%
 
 ## À propos de la composition de l’audience {#about}
 
-La composition d’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences Adobe Experience Platform existantes en un canevas visuel et exploiter diverses activités (fractionner, exclure..) pour créer de nouvelles audiences.
+La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, la variable **audiences résultantes** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent **utilisé dans les campagnes** pour cibler les clients. [Découvrez comment utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
+Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être **utilisées dans des campagnes** pour cibler les clients. [Découvrez comment utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Les audiences provenant des workflows de composition peuvent uniquement être ciblées dans les campagnes Journey Optimizer. Elles ne sont pas disponibles pour utilisation dans les parcours.
+>Les audiences obtenues à partir des workflows de composition peuvent uniquement être ciblées dans des campagnes Journey Optimizer. Elles ne peuvent pas être utilisées dans des parcours.
 
-## Accès à la composition de l’audience {#access}
+## Accéder à la composition de l’audience {#access}
 
-La composition de l’audience est accessible à partir de la **[!UICONTROL Segments]** menu :
+La composition de l’audience est accessible à partir du menu **[!UICONTROL Segments]** :
 
-* Le **[!UICONTROL Audiences]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform. [Découvrez comment accéder aux audiences et les gérer](access-audiences.md)
+* L’onglet **[!UICONTROL Audiences]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform. [Découvrez comment accéder aux audiences et les gérer](access-audiences.md).
 
-* Le **[!UICONTROL Compositions]** Cet onglet vous permet de créer des workflows de composition dans lesquels vous pouvez combiner et organiser des audiences pour en créer de nouvelles. [Découvrez comment créer des workflows de composition](create-compositions.md)
+* L’onglet **[!UICONTROL Compositions]** vous permet de créer des workflows de composition dans lesquels vous pouvez combiner et organiser des audiences pour en créer de nouvelles. [Découvrez comment créer des workflows de composition](create-compositions.md)
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->Cette documentation s’applique uniquement à la composition de l’audience. Le **[!UICONTROL Overview]** et **[!UICONTROL Segments]** sont utilisés dans le contexte de la création de définitions de segment. Voir à ce sujet la section [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>Cette documentation s’applique uniquement à la composition de l’audience. Les onglets **[!UICONTROL Présentation]** et **[!UICONTROL Segments]** sont utilisés dans le contexte de la création des définitions des segments. Pour plus d’informations, consultez la [documentation du Service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
-En savoir plus :
+En savoir plus :
 
-* [Création de workflows de composition](create-compositions.md)
-* [Utilisation du canevas de composition](composition-canvas.md)
-* [Accès et gestion des audiences](access-audiences.md)
+* [Créer des workflows de composition](create-compositions.md)
+* [Utiliser la zone de travail de composition](composition-canvas.md)
+* [Accéder aux audiences et les gérer](access-audiences.md)

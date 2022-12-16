@@ -9,7 +9,7 @@ exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| string | string |
-| suffixe | string |
+| chaîne | chaîne |
+| suffixe | chaîne |
 
 ## Signature et type renvoyé
 

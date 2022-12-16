@@ -9,26 +9,26 @@ level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
 
 # Types de données {#data-types}
 
-D’un point de vue technique, une constante contient toujours un type de données. Dans l’expression littérale, nous spécifions uniquement la valeur. Le type de données peut être déduit de la valeur (par exemple chaîne, entier, décimal, etc.). Pour des cas spécifiques tels que la date et l’heure, nous utilisons des fonctions dédiées pour la représentation.
+D’un point de vue technique, une constante contient toujours un type de données. Dans une expression littérale, nous ne spécifions que la valeur. Le type de données peut être déduit de la valeur (par exemple : chaîne, entier, décimal, etc.). Pour des cas spécifiques, tels que la date et l’heure, des fonctions dédiées sont utilisées pour la représentation.
 
-Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur la manière dont elles sont représentées.
+Les sections ci-dessous fournissent des informations sur les différentes expressions de type de données et sur leur représentation.
 
 ## string {#string}
 
 **Description**
 
-Séquence de caractères courante. Il n’a pas de taille spécifique, à l’exception de celle implicite provenant de l’environnement, comme la quantité de mémoire disponible.
+Séquence de caractères courante. Pas de taille spécifique, à l’exception de la taille implicite provenant de l’environnement, comme la quantité de mémoire disponible.
 
-Format JSON : Chaîne
+Format JSON : chaîne
 
-Format de sérialisation : UTF-8
+Format de sérialisation : UTF-8
 
 **Représentation littérale**
 
@@ -50,13 +50,13 @@ Format de sérialisation : UTF-8
 'hello world'
 ```
 
-## entier {#integer}
+## integer {#integer}
 
 **Description**
 
 Valeur entière comprise entre -2^63 et 2^63-1.
 
-Format JSON : Nombre
+Format JSON : nombre
 
 **Représentation littérale**
 
@@ -70,19 +70,19 @@ Format JSON : Nombre
 42
 ```
 
-## décimal {#decimal}
+## decimal {#decimal}
 
 **Description**
 
-Nombre décimal. Il représente une valeur flottante :
+Nombre décimal. Représente une valeur flottante :
 
 * valeur finie positive la plus grande de type double, (2-2^-52)x2^1023
 * valeur normale positive la plus petite de type double, 2-1022
-* valeur non nulle positive la plus petite de type double, 2 p-1074
+* valeur non nulle positive la plus petite de type double, 2 p-1074
 
-Format JSON : Nombre
+Format JSON : nombre
 
-Format de sérialisation : en utilisant &#39;.&#39; comme séparateur décimal.
+Format de sérialisation : utilisation de « . » comme séparateur décimal.
 
 **Représentation littérale**
 
@@ -100,9 +100,9 @@ Format de sérialisation : en utilisant &#39;.&#39; comme séparateur décimal.
 
 **Description**
 
-Valeur booléenne en minuscules : true ou false
+Valeur booléenne en minuscules : true ou false
 
-Format JSON : Booléen
+Format JSON : booléen
 
 **Représentation littérale**
 
@@ -124,17 +124,17 @@ true
 
 **Description**
 
-Représente une date uniquement sans fuseau horaire, affichée sous la forme d’un jour d’un mois d’année.
+Représente une valeur de date uniquement sans fuseau horaire, sous la forme année-mois-jour.
 
-Il s’agit d’une description de la date, telle qu’elle est utilisée pour les anniversaires.
+Il sʼagit dʼune description de la date, telle quʼelle est utilisée pour les anniversaires.
 
-Format JSON : Chaîne.
+Format JSON : chaîne.
 
-Le format est le suivant : AAAA-MM-JJ (ISO-8601), par exemple : &quot;2021-03-11&quot;.
+Format : AAAA-MM-JJ (ISO-8601), par exemple : « 2021-03-11 ».
 
-Il peut être encapsulé dans une fonction toDateOnly.
+Elle doit être encapsulée dans une fonction toDateOnly.
 
-Il utilise DateTimeFormatter ISO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **Représentation littérale**
 
@@ -152,19 +152,19 @@ date("2021-02-19")
 
 **Description**
 
-Représente une date et une heure sans fuseau horaire, sous la forme année-mois-jour-heure-minute-seconde-milliseconde.
+Représente une valeur de date et d’heure sans fuseau horaire, sous la forme année-mois-jour-heure-minute-seconde-milliseconde.
 
-Format JSON : Chaîne.
+Format JSON : chaîne.
 
-Il ne stocke ni ne représente de fuseau horaire. Il s’agit plutôt d’une description de la date, telle qu’elle est utilisée pour les anniversaires, associée à l’heure locale telle qu’elle est affichée sur une horloge murale.
+Ce type ne stocke ni ne représente un fuseau horaire. Il s’agit plutôt d’une description de la date, telle qu’elle est utilisée pour les anniversaires, associée à l’heure locale telle qu’elle est affichée sur une horloge murale.
 
 Il ne peut pas représenter un instant sur la ligne de temps sans informations supplémentaires telles qu’un décalage ou un fuseau horaire.
 
-Il peut être encapsulé dans une fonction toDateTimeOnly.
+Elle doit être encapsulée dans une fonction toDateTimeOnly.
 
-Format de sérialisation : Format date-heure de décalage étendu ISO-8601.
+Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
-Il utilise DateTimeFormatter ISO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **Représentation littérale**
 
@@ -183,21 +183,21 @@ date("2021-02-19T00.00")
 
 **Description**
 
-Constante de date et d’heure qui prend également en compte le fuseau horaire. Il représente une date et une heure avec un décalage par rapport à UTC.
+Constante de date et d’heure qui tient également compte du fuseau horaire. Elle représente une valeur de date et d’heure avec un décalage par rapport à UTC.
 
-Elle peut être vue comme un instant dans le temps avec les informations supplémentaires du décalage. C&#39;est une façon de représenter un &quot;moment&quot; spécifique à un certain endroit du monde.
+Elle peut être vue comme un point de la ligne du temps avec les informations supplémentaires du décalage. C’est une façon de représenter un « moment » précis en un point du globe.
 
-Format JSON : Chaîne.
+Format JSON : chaîne.
 
-Il peut être encapsulé dans une fonction toDateTime .
+Elle doit être encapsulée dans une fonction toDateTime.
 
-Format de sérialisation : Format date-heure de décalage étendu ISO-8601.
+Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
 Il utilise DateTimeFormatter ISO_OFFSET_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 Vous pouvez également transmettre un entier qui transmet une valeur d’époque. [En savoir plus](https://www.epochconverter.com)
 
-Le fuseau horaire peut être spécifié par un décalage ou un code de fuseau horaire (exemple : Europe/Paris, Z - ce qui signifie UTC).
+Le fuseau horaire peut être spécifié par un décalage ou un code de fuseau horaire (par exemple : Europe/Paris, Z ; ce qui signifie UTC).
 
 **Représentation littérale**
 
@@ -247,17 +247,17 @@ toDateTime(1560762190189)
 
 **Description**
 
-Il représente une durée basée sur le temps, telle que &quot;34,5 secondes&quot;. Elle modélise une quantité ou une durée en millisecondes.
+Ce type représente une durée basée sur le temps, telle que « 34,5 secondes ». Elle modélise une durée ou un laps de temps exprimé en millisecondes.
 
-Les unités temporelles prises en charge sont les suivantes : millisecondes, secondes, minutes, heures, jours où un jour équivaut à 24 heures. Les années et les mois ne sont pas pris en charge, car il ne s’agit pas d’une période fixe.
+Les unités temporelles prises en charge sont les suivantes : millisecondes, secondes, minutes, heures, jours où un jour équivaut à 24 heures. Les années et les mois ne sont pas pris en charge, car ils ne représentent pas un laps de temps fixe.
 
-Format JSON : Chaîne.
+Format JSON : chaîne.
 
 Elle doit être encapsulée dans une fonction toDuration.
 
-Format de sérialisation : Pour désérialiser un identifiant de fuseau horaire, il utilise la fonction java.time.
+Format de sérialisation : pour désérialiser un identifiant de fuseau horaire, la fonction Java java.time est utilisée.
 
-Duration.parse : les formats acceptés sont basés sur le format de durée ISO-8601 PnDTnHnMn.nS avec des jours considérés exactement comme étant de 24 heures. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse : les formats acceptés sont basés sur le format de durée ISO-8601 PnDTnHnMn.nS, avec des jours durant exactement 24 heures. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **Représentation littérale**
 
@@ -317,7 +317,7 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 Liste d’expressions séparées par des virgules utilisant des crochets comme délimiteurs.
 
-Le polymorphisme n’est pas pris en charge. Par conséquent, toutes les expressions contenues dans la liste doivent avoir le même type.
+Le polymorphisme n’est pas pris en charge. Par conséquent, toutes les expressions contenues dans la liste doivent être du même type.
 
 **Représentation littérale**
 

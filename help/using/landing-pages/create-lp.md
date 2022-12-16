@@ -163,7 +163,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 >id="ajo_lp_subpage"
 >title="Définir les paramètres de sous-page"
 >abstract="Vous pouvez ajouter jusquʼà 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d’erreur, qui sera affichée si la page de destination rencontre un problème."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Concevoir le contenu de la page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=fr" text="Concevoir le contenu de la page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"

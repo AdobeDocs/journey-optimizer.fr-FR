@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 0%
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-Renvoie les valeurs ou objets distincts d’une liste donnée. Si la liste comporte au moins une entrée null, une entrée null sera présente dans la liste renvoyée.
+Renvoie les valeurs ou objets distincts d’une liste donnée. Si la liste comporte au moins une entrée « null », une entrée « null » est présente dans la liste renvoyée.
 
 ## Catégorie
 
@@ -29,8 +29,8 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Liste à traiter. Pour listObject, il doit s’agir d’une référence de champ. |
-| keyAttributeName | string | Ce paramètre est facultatif et uniquement pour listObject. Si le paramètre n’est pas fourni, un objet est considéré comme dupliqué si tous les attributs ont les mêmes valeurs. Dans le cas contraire, un objet est considéré comme dupliqué si l’attribut donné a la même valeur. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à traiter. Pour listObject, il doit s’agir d’une référence de champ. |
+| keyAttributeName | chaîne | Ce paramètre est facultatif et uniquement pour listObject. Si le paramètre n’est pas fourni, un objet est considéré comme dupliqué si tous les attributs ont les mêmes valeurs. Dans le cas contraire, un objet est considéré comme dupliqué si l’attribut donné a la même valeur. |
 
 ## Signatures et types renvoyés
 
@@ -40,7 +40,7 @@ Renvoie une liste de nombres entiers.
 
 `distinctWithNull(<listDecimal>)`
 
-Renvoie une liste de décimales.
+Renvoie une liste de nombres décimaux.
 
 `distinctWithNull(<listString>)`
 
@@ -48,7 +48,7 @@ Renvoie une liste de chaînes.
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-Renvoie une liste de dates et heures sans prendre en compte le fuseau horaire.
+Renvoie une liste de dates et heures sans tenir compte du fuseau horaire.
 
 `distinctWithNull(<listDateTime>)`
 

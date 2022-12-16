@@ -10,25 +10,25 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Fonctions {#functions}
 
-Une fonction peut avoir différentes signatures (un ensemble différent de paramètres ordonnés). Une signature de fonction peut avoir des expressions 0 à N comme paramètres ordonnés.
+Une fonction peut avoir différentes signatures (ensemble différent de paramètres ordonnés). Une signature de fonction peut avoir de 0 à N expressions sous la forme de paramètres ordonnés.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Chaque fonction possède un type renvoyé spécifique.
+Chaque fonction renvoie une valeur de type spécifique.
 
-Voici la liste des fonctions prises en charge.
+Voici la liste des fonctions prises en charge :
 
-## Principales fonctions
+## Fonctions principales
 
 | Catégorie | Fonction |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | Agrégation | [avg](../functions/functionavg.md) |
 | Agrégation | [count](../functions/functioncount.md) |
 | Agrégation | [countOnlyNull](../functions/functioncountonlynull.md) |
@@ -65,13 +65,13 @@ Voici la liste des fonctions prises en charge.
 | Liste | [filter](../functions/functionfilter.md) |
 | Liste | [getListItem](../functions/functiongetlistitem.md) |
 | Liste | [in](../functions/functionin.md) |
-| Liste | [intersection](../functions/functionintersect.md) |
+| Liste | [intersect](../functions/functionintersect.md) |
 | Liste | [listSize](../functions/functionlimit.md) |
 | Liste | [listSize](../functions/functionlistsize.md) |
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
-| Mathématiques | [random](../functions/functionrandom.md) |
-| Mathématiques | [round](../functions/functionround.md) |
+| Math | [random](../functions/functionrandom.md) |
+| Math | [round](../functions/functionround.md) |
 | Chaîne | [concat](../functions/functionconcat.md) |
 | Chaîne | [contain](../functions/functioncontain.md) |
 | Chaîne | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

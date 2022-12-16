@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 100%
 
 ---
 
 # toString {#toString}
 
-Convertit une valeur d’argument en valeur string, selon son type. Pour plus d’informations sur les types de données, reportez-vous à la section [cette page](../expression/data-types.md).
+Convertit une valeur d’argument en valeur de chaîne, selon son type. Pour plus d’informations sur les types de données, consultez [cette page](../expression/data-types.md).
 
 ## Catégorie
 
@@ -29,12 +29,12 @@ Conversion
 
 | Paramètre | Description |
 |--- |--- |
-| dateTime | convertit la date au format UTC date |
-| dateTimeOnly | convertit la date au format UTC date |
-| durée | Convertir en nombre de millisecondes correspondant sous forme de chaîne |
-| entier | convertit la valeur en représentation sous forme de chaîne (1 devient &quot;1&quot;) |
-| décimal | convertit la valeur en représentation sous forme de chaîne (1,5 devient &quot;1,5&quot;) |
-| boolean | Convertit la valeur booléenne en &quot;true&quot; si true, &quot;false&quot; si false |
+| dateTime | Convertit la date au format UTC |
+| dateTimeOnly | Convertit la date au format UTC |
+| durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
+| nombre entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
+| décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
+| booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
 ## Signatures et type renvoyé
 
@@ -56,8 +56,8 @@ Renvoie une chaîne.
 
 `toString(4)`
 
-Renvoie &quot;4&quot;.
+Renvoie « 4 ».
 
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
-Renvoie la représentation sous forme de chaîne du champ dateOnly donné (champ XDM Date), par exemple &quot;2016-08-18&quot;.
+Renvoie la représentation sous forme de chaîne du champ dateOnly (champ de date XDM) donné, par exemple « 2016-08-18 ».

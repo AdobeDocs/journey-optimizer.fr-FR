@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Optimisation de l’heure d’envoi
-description: Découvrez comment paramétrer l'optimisation de l'heure d'envoi dans vos messages
+title: Optimisation de l'heure d'envoi
+description: Découvrez comment paramétrer l’optimisation de l’heure d’envoi dans vos messages
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,44 +19,44 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
->title="A propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
->abstract="La fonction d’optimisation du temps d’envoi d’Adobe Journey Optimizer, optimisée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un email ou un message push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques."
+>title="À propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
+>abstract="La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic."
 
-La fonction d’optimisation du temps d’envoi d’Adobe Journey Optimizer, optimisée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un email ou un message push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques. Utilisez notre modèle d’apprentissage automatique pour planifier des heures d’envoi personnalisées pour que chaque utilisateur augmente les taux d’ouverture et de clic de vos messages.
+La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. Utilisez notre modèle d&#39;apprentissage automatique pour planifier des heures d&#39;envoi personnalisées afin que chaque utilisateur augmente les taux d&#39;ouverture et de clic de vos messages.
 
-Le modèle d’optimisation du temps d’envoi ingère vos données Adobe Journey Optimizer et examine les taux d’ouverture au niveau de l’utilisateur (pour les e-mails et les notifications push) et de clics (pour les e-mails) afin de déterminer quand vos clients sont les plus susceptibles d’interagir avec vos messages. L’optimisation du temps d’envoi nécessite au moins un mois de données de suivi des messages pour formuler des recommandations éclairées. Pour chaque utilisateur, le système sélectionne automatiquement la meilleure heure à l’aide des scores suivants :
+Le modèle d&#39;optimisation de l&#39;heure d&#39;envoi ingère vos données Adobe Journey Optimizer et examine les taux d&#39;ouverture au niveau de l&#39;utilisateur (pour les e-mails et les notifications push) et de clics (pour les e-mails) afin de déterminer à quel moment vos clients sont les plus susceptibles d&#39;interagir avec vos messages. L&#39;optimisation de l&#39;heure d&#39;envoi nécessite au moins un mois de données de suivi des messages pour formuler des recommandations éclairées. Pour chaque utilisateur, le système sélectionne automatiquement la meilleure heure à l’aide des scores suivants :
 
-* La meilleure heure de chaque jour de la semaine pour optimiser l’engagement
-* Le meilleur jour de la semaine pour optimiser l’engagement
-* La meilleure heure du meilleur jour de la semaine pour optimiser l’engagement
+* La meilleure heure de chaque jour de la semaine pour optimiser l&#39;engagement
+* Le meilleur jour de la semaine pour optimiser l&#39;engagement
+* La meilleure heure du meilleur jour de la semaine pour optimiser l&#39;engagement
 
-Le modèle varie selon que vous parlez de notation ou de formation. La formation est dispensée une fois par semaine, puis une fois par trimestre. La notation est d’abord hebdomadaire, puis mensuelle.
+Le modèle varie selon que vous parlez de notation ou de formation. La formation est dispensée une fois par semaine, puis une fois par trimestre. La notation est d&#39;abord hebdomadaire, puis mensuelle.
 
-* Formation : développement de l’algorithme utilisé pour effectuer le score.
-* Notation : application d’un score à des profils individuels en fonction du modèle formé.
+* Formation : développement de l&#39;algorithme utilisé pour calculer le score.
+* Notation : application d&#39;un score à des profils individuels en fonction du modèle formé.
 
-Ces informations sont stockées avec le profil de l’utilisateur et sont référencées lors de l’exécution du parcours pour indiquer à Adobe Journey Optimizer quand envoyer votre message.
+Ces informations sont stockées avec le profil de l&#39;utilisateur et sont référencées lors de l&#39;exécution du parcours pour indiquer à Adobe Journey Optimizer quand envoyer votre message.
 
 >[!CAUTION]
 >
->Cette fonctionnalité n’est pas compatible avec le mode d’éclatement.
+>Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
-## Activer l’optimisation du temps d’envoi{#activate-send-time-optimization}
+## Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Activer l’optimisation du temps d’envoi"
->abstract="Choisissez si vous souhaitez optimiser les ouvertures d’email ou les clics publicitaires par email en sélectionnant le bouton radio approprié. Vous pouvez également choisir de mettre entre crochets les heures d’envoi utilisées par le système en saisissant une valeur pour l’option Envoyer dans la suivante."
+>title="Activer l’optimisation de l’heure d’envoi"
+>abstract="Choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Activer l’optimisation du temps d’envoi"
->abstract="Les messages push sont définis par défaut sur l’option d’ouverture, car les clics ne s’appliquent pas à la messagerie push. Vous pouvez également choisir de mettre entre crochets les heures d’envoi utilisées par le système en saisissant une valeur pour l’option Envoyer dans la suivante."
+>title="Activer l’optimisation de l’heure d’envoi"
+>abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
 
-Activez l’optimisation de l’heure d’envoi sur un email ou un message push en sélectionnant l’option **Optimisation de l’heure d’envoi** basculez depuis les paramètres de l’activité.
+Activez l’optimisation de l’heure d’envoi sur un e-mail ou une notification push en sélectionnant le commutateur **Optimisation de l’heure d’envoi** dans les paramètres d’activité.
 
 ![](../building-journeys/assets/jo-message5.png)
 
-Pour les emails, choisissez d’optimiser les ouvertures d’email ou les clics publicitaires par email en sélectionnant le bouton radio approprié. Les messages push sont définis par défaut sur l’option d’ouverture, car les clics ne s’appliquent pas à la messagerie push.
+Pour les e-mails, choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push.
 
-Vous pouvez également choisir de mettre entre crochets les heures d’envoi utilisées par le système en saisissant une valeur pour la variable **Envoyer dans le suivant** . Si vous choisissez &quot;six heures&quot; comme valeur, [!DNL Journey Optimizer] vérifie chaque profil utilisateur et sélectionne l’heure d’envoi optimale dans les six heures suivant l’heure d’exécution du parcours.
+Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option **Envoyer pendant**. Si vous choisissez « six heures » comme valeur, [!DNL Journey Optimizer] vérifie chaque profil utilisateur et sélectionne l’heure d’envoi optimale dans les six heures suivant l’heure d’exécution du parcours.

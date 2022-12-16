@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -28,30 +28,30 @@ Les champs d’événement d’étape sont organisés par catégorie.
 
 | Nom du champ | Type | Description |
 |---|---|------------|
-| requestId | Chaîne | ID de requête utilisé par Journey Optimizer pour suivre le flux d’une requête. |
+| requestId | Chaîne | ID de requête utilisé par Journey Optimizer pour suivre le flux d’une requête. |
 
 ## parcours {#journey-field}
 
-Ce groupe de champs est utilisé dans le schéma du parcours (en relation avec journeyStepEvent). Il contient les champs suivants :
+Ce groupe de champs est utilisé dans le schéma du parcours (en relation avec journeyStepEvent). Il contient les champs suivant :
 
 | Nom du champ | Type | Description |
 |---|---|------------|
-| ID | Chaîne | Identifiant du parcours donné |
-| VersionID | Chaîne | Identifiant de la version du parcours. Cet identifiant représente l’identité d’un parcours |
-| name | Chaîne | Nom du parcours |
+| Identifiant | Chaîne | Identifiant du parcours donné |
+| VersionID | Chaîne | Identifiant de la version du parcours. Cet identifiant représente l’identité d’un parcours. |
+| nom | Chaîne | Nom du parcours |
 | description | Chaîne | Description du parcours |
-| version | Chaîne | version, représentée sous la forme `major`.`minor` |
+| version | Chaîne | Version, représentée sous la forme `major`.`minor` |
 
-## profile {#profile-field}
+## profil {#profile-field}
 
-Ce groupe de champs est spécifique à journeyStepEvent : cet événement est en relation avec le parcours et ne dispose pas de identityMap décrivant l’identité du profil, le cas échéant.
+Ce groupe de champs est spécifique à journeyStepEvent : cet événement est en relation avec le parcours, et ne dispose pas de l&#39;identityMap décrivant l&#39;identité du profil, le cas échéant.
 
-Pour journeyStepEvent, nous devons également ajouter des champs liés à l’identité :
+Pour journeyStepEvent, nous devons également ajouter des champs liés à l’identité :
 
 | Nom du champ | Type | Description |
 |---|---|------------|
-| ID | Chaîne | L’identifiant de profil identifie le profil envoyé/utilisé dans un parcours. Par exemple : foo@adobe.com. |
-| namespace | Chaîne | Ce champ décrit l’espace de noms référencé par le profil utilisé dans le parcours. Par exemple : Email, ECID |
+| Identifiant | Chaîne | L’identifiant de profil identifie le profil envoyé/utilisé dans un parcours. Par exemple : foo@adobe.com. |
+| espace de noms | Chaîne | Ce champ décrit l’espace de noms référencé par le profil utilisé dans le parcours. Par exemple : E-mail, ECID |
 
 ## serviceEvents {#servicevents-field}
 
@@ -59,15 +59,15 @@ Ce mixin contient tous les champs correspondant à une tâche d’exportation de
 
 | Nom du champ | Type | Description |
 |---|---|------------|
-| ID | Chaîne | L’identifiant de la tâche d’exportation de segments déclenchée |
-| status | Chaîne | État de la tâche d’exportation de segments : en file d’attente, commencé, terminé |
-| exportCountTotal | Entier | Valeur maximale possible de la tâche d’exportation de segments |
-| exportCountRealized | Entier | Le nombre réel de segments exportés par la tâche |
-| exportCountFailed | Entier | Le nombre de segments ayant échoué lors de l’exportation via la tâche |
+| Identifiant | Chaîne | L’identifiant de la tâche d’exportation de segments déclenchée. |
+| statut | Chaîne | Statut de la tâche d’exportation de segments : en file d’attente, commencé, terminé |
+| exportCountTotal | Nombre entier | Valeur maximale possible de la tâche d’exportation de segments |
+| exportCountRealized | Nombre entier | Le nombre réel de segments exportés par la tâche. |
+| exportCountFailed | Nombre entier | Le nombre de segments ayant échoué lors de l’exportation via la tâche. |
 | exportSegmentID | Chaîne | Identifiant du segment à exporter |
-| eventType | Chaîne | Type d’événement indiquant s’il s’agit d’un événement info d’erreur : Informations, erreur |
-| eventCode | Chaîne | Le code d’erreur indiquant la raison de eventType correspondant |
+| eventType | Chaîne | Type d’événement indiquant s’il s’agit d’un événement d’erreur ou d’un événement d’information : Info, Erreur |
+| eventCode | Chaîne | Le code d’erreur indiquant la raison eventType correspondant |
 
 ## stepEvents {#stepevents-field}
 
-Cette catégorie contient les champs d’événement d’étape d’origine. Consultez cette section [section](../reports/sharing-legacy-fields.md).
+Cette catégorie contient les champs d’événement d’étape d’origine. Reportez-vous à cette [section](../reports/sharing-legacy-fields.md).

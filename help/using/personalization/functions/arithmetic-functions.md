@@ -9,17 +9,17 @@ exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Fonctions arithmétiques {#maths}
 
-Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur les valeurs.
+Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base sur des valeurs.
 
-## Ajouter{#add}
+## Addition{#add}
 
-Le `+` (addition) est utilisée pour trouver la somme de deux expressions d’argument.
+La fonction `+` (addition) est utilisée pour trouver la somme de deux expressions d&#39;argument.
 
 **Format**
 
@@ -35,9 +35,9 @@ L&#39;opération suivante additionne le prix de deux produits différents.
 {%= product1.price + product2.price %}
 ```
 
-## Multiplier{#multiply}
+## Multiplication{#multiply}
 
-Le `*` (multiplication) est utilisée pour trouver le produit de deux expressions d’argument.
+La fonction `*` (multiplication) est utilisée pour trouver le produit de deux expressions d&#39;argument.
 
 **Format**
 
@@ -47,7 +47,7 @@ Le `*` (multiplication) est utilisée pour trouver le produit de deux expression
 
 **Exemple**
 
-L’opération suivante recherche le produit de l’inventaire et le prix d’un produit pour trouver la valeur brute du produit.
+L&#39;opération suivante trouve le produit de l&#39;inventaire et du prix d&#39;un produit pour obtenir la valeur brute du produit.
 
 ```sql
 {%= product.inventory * product.price %}
@@ -55,7 +55,7 @@ L’opération suivante recherche le produit de l’inventaire et le prix d’un
 
 ## Soustraction{#substract}
 
-Le `-` (soustraction) est utilisée pour trouver la différence entre deux expressions d’argument.
+La fonction `-` (soustraction) permet de trouver la différence entre deux expressions d&#39;argument.
 
 **Format**
 
@@ -65,15 +65,15 @@ Le `-` (soustraction) est utilisée pour trouver la différence entre deux expre
 
 **Exemple**
 
-L&#39;opération suivante permet de constater la différence de prix entre deux produits différents.
+L&#39;opération suivante trouve la différence de prix entre deux produits différents.
 
 ```sql
 {%= product1.price - product2.price %}
 ```
 
-## Diviser{#divide}
+## Division{#divide}
 
-Le `/` (division) est utilisée pour trouver le quotient de deux expressions d’argument.
+La fonction `/` (division) est utilisée pour trouver le quotient de deux expressions d&#39;argument.
 
 **Format**
 
@@ -83,7 +83,7 @@ Le `/` (division) est utilisée pour trouver le quotient de deux expressions d�
 
 **Exemple**
 
-L’opération suivante recherche le quotient entre le total des produits vendus et le total des revenus générés pour visualiser le coût moyen par article.
+L&#39;opération suivante trouve le quotient entre le total des produits vendus et le total des revenus obtenus pour déterminer le coût moyen par article.
 
 ```sql
 {%= totalProduct.price / totalProduct.sold %}
@@ -91,7 +91,7 @@ L’opération suivante recherche le quotient entre le total des produits vendus
 
 ## Reste{#remainder}
 
-Le `%` (modulo/reste) est utilisée pour trouver le reste après la division des deux expressions d’argument.
+La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la division des deux expressions d&#39;argument.
 
 **Format**
 
@@ -101,7 +101,7 @@ Le `%` (modulo/reste) est utilisée pour trouver le reste après la division des
 
 **Exemple**
 
-L’opération suivante vérifie si l’âge de la personne est divisé par cinq.
+L&#39;opération suivante vérifie si l&#39;âge de la personne est divisible par cinq.
 
 ```sql
 {%= person.age % 5 = 0 %}

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Tableau de bord de l’utilisation des licences
-description: En savoir plus sur le tableau de bord d’utilisation de la licence Journey Optimizer
+title: Tableau de bord d’utilisation des licences
+description: En savoir plus sur le tableau de bord d’utilisation des licences Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,25 +10,25 @@ level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 0%
+source-wordcount: '128'
+ht-degree: 100%
 
 ---
 
-# Tableau de bord de l’utilisation des licences {#license-usage}
+# Tableau de bord d’utilisation des licences {#license-usage}
 
-Le [!DNL Adobe Journey Optimizer] [interface utilisateur](../start/user-interface.md) fournit un tableau de bord qui affiche des informations importantes sur l’utilisation des licences de votre entreprise, telles qu’elles sont capturées lors d’un instantané quotidien.
+L’[interface utilisateur](../start/user-interface.md) [!DNL Adobe Journey Optimizer] fournit un tableau de bord qui affiche des informations importantes sur l’utilisation des licences de votre entreprise, telles qu’elles sont capturées lors d’un instantané quotidien.
 
-Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]** > **[!UICONTROL License Usage]**. Cela ouvre la fenêtre **[!UICONTROL Overview]** du tableau de bord.
+Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Utilisation de la licence]**. L’onglet **[!UICONTROL Vue d’ensemble]** du tableau de bord s’ouvre alors.
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->Pour pouvoir visualiser le tableau de bord, le [Afficher le tableau de bord d’utilisation de licence](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions)Permission {target=&quot;_blank&quot;}.
+>Pour pouvoir consulter le tableau de bord, l’autorisation [Afficher le tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=fr#available-permissions){target=&quot;_blank&quot;} doit vous avoir été accordée.
 
-Pour en savoir plus, consultez la documentation d’Adobe Experience Platform :
+Pour en savoir plus, consultez la documentation Adobe Experience Platform :
 
-* [Tableau de bord de l’utilisation des licences - Aperçu](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target=&quot;_blank&quot;}
-* [Exploration du tableau de bord de l’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target=&quot;_blank&quot;}
-* [Mesures disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* [Présentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr){target=&quot;_blank&quot;}
+* [Exploration du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#exploring-the-license-usage-dashboard){target=&quot;_blank&quot;}
+* [Mesures disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#available-metrics){target=&quot;_blank&quot;}

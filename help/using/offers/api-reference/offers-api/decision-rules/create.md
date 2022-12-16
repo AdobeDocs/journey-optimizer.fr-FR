@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: a7d4ab7f7430a93fb87af390ba0a8defb36ea9e9
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ Les règles de décision sont des contraintes ajoutées à une offre personnalis
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* et *Accepter* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
-| Nom de l’en-tête | Valeur |
+| Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
-| Accepter | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
-**Format d’API**
+**Format d&#39;API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les règles de décision. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Requête**
@@ -72,7 +72,8 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la règle de décision nouvellement créée, y compris son identifiant d’instance unique et l’emplacement. `@id`. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre règle de décision. Vous pouvez utiliser votre règle de décision unique. `@id` dans un tutoriel ultérieur pour créer des offres personnalisées.
+Une réponse réussie renvoie des informations sur la règle de décision nouvellement créée, y compris son identifiant d’instance unique et l’`@id` d’emplacement.
+Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre règle de décision. Vous pouvez utiliser votre `@id` de règle de décision unique dans un tutoriel ultérieur pour créer des offres personnalisées.
 
 ```json
 {

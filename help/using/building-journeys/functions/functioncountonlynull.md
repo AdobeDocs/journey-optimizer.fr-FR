@@ -8,14 +8,14 @@ level: Experienced
 exl-id: d06fc594-33dd-48ce-8c62-2f2892a867da
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 0%
+source-wordcount: '48'
+ht-degree: 100%
 
 ---
 
 # countOnlyNull {#countOnlyNull}
 
-Compte le nombre de valeurs &quot;null&quot; dans la liste.
+Compte le nombre de valeurs « null » dans la liste.
 
 ## Catégorie
 

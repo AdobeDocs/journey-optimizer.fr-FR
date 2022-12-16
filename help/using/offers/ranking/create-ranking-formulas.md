@@ -1,6 +1,6 @@
 ---
 title: Formules de classement
-description: Découvrez comment créer des formules pour classer les offres
+description: Apprenez à créer des formules pour classer les offres
 feature: Offers
 topic: Integrations
 role: User
@@ -8,42 +8,42 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
 # Formules de classement {#create-ranking-formulas}
 
-## A propos des formules de classement {#about-ranking-formulas}
+## À propos des formules de classement {#about-ranking-formulas}
 
-**Formules de classement** vous permettent de définir des règles qui déterminent quelle offre doit être présentée en premier pour un emplacement donné, plutôt que de prendre en compte les scores de priorité des offres.
+Les **formules de classement** vous permettent de définir des règles déterminant quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
 
-Les formules de classement sont exprimées dans **Syntaxe PQL** et peuvent exploiter les attributs de profil, les données contextuelles et les attributs d’offre. Pour plus d’informations sur l’utilisation de la syntaxe PQL, reportez-vous à la section [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+Les formules de classement sont exprimées en **syntaxe PQL** et peuvent exploiter les attributs de profil, les données contextuelles et les attributs d&#39;offre. Pour plus d&#39;informations sur l&#39;utilisation de la syntaxe PQL, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr).
 
-Une fois qu’une formule de classement a été créée, vous pouvez l’affecter à un emplacement dans une décision. Voir à ce propos la section [Configuration de la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
+Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Voir à ce propos la section [Configurer la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md).
 
-## Créer une formule de classement {#create-ranking-formula}
+## Création d&#39;une formule de classement {#create-ranking-formula}
 
-Pour créer une formule de classement, procédez comme suit :
+Pour créer une formule de classement, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Components]** , puis sélectionnez **[!UICONTROL Rankings]** . La liste des classements précédemment créés s’affiche.
+1. Accédez au menu **[!UICONTROL Composants]**, puis sélectionnez l&#39;onglet **[!UICONTROL Classements.]** La liste des classements précédemment créés s&#39;affiche.
 
    ![](../assets/rankings-list.png)
 
-1. Cliquez sur **[!UICONTROL Create ranking]** pour créer une formule de classement.
+1. Cliquez sur **[!UICONTROL Créer un classement]** pour créer une formule de classement.
 
    ![](../assets/ranking-create-formula.png)
 
-1. Indiquez le nom, la description et la formule de la formule de classement.
+1. Spécifiez le nom, la description et la formule de la formule de classement.
 
-   Dans cet exemple, nous voulons augmenter la priorité de toutes les offres avec l&#39;attribut &quot;hot&quot; si le temps réel est chaud. Pour ce faire, la variable **contextData.weather=hot** a été transmis dans l’appel de prise de décision.
+   Dans cet exemple, nous voulons augmenter la priorité de toutes les offres contenant l&#39;attribut « chaud » en cas de météo avec températures chaudes. Pour ce faire, **contextData.weather=hot** a été transmis dans l&#39;appel de décision.
 
    ![](../assets/ranking-syntax.png)
 
-1. Cliquez sur **[!UICONTROL Save]**. Votre formule de classement est créée. Vous pouvez la sélectionner dans la liste pour obtenir des détails et la modifier ou la supprimer.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Votre formule de classement est créée. Vous pouvez la sélectionner dans la liste pour obtenir des détails et la modifier ou la supprimer.
 
-   Il est maintenant prêt à être utilisé dans une décision pour classer les offres éligibles pour un emplacement (voir [Configuration de la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md)).
+   Elle est maintenant prête à être utilisée dans une décision pour classer les offres éligibles à un emplacement (voir [Configurer la sélection des offres dans les décisions](../offer-activities/configure-offer-selection.md)).
 
    ![](../assets/ranking-formula-created.png)
 
@@ -83,29 +83,29 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### Offres optimisées avec un attribut d’offre spécifique basé sur l’attribut de profil
+### Booster les offres avec un attribut d’offre spécifique basé sur l’attribut de profil
 
-Si le profil réside dans la ville correspondant à l’offre, double la priorité de toutes les offres de cette ville.
+Si le profil réside dans la ville correspondant à l’offre, doublez la priorité de toutes les offres de cette ville.
 
-**Formule de classement :**
+**Formule de classement:**
 
 ```
 if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
-### Offres optimisées pour lesquelles la date de fin est inférieure à 24 heures
+### Booster les offres pour lesquelles la date de fin est inférieure à 24 heures
 
-**Formule de classement :**
+**Formule de classement:**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### Offres optimisées avec un attribut d’offre spécifique basé sur les données contextuelles
+### Booster les offres avec un attribut d’offre spécifique basé sur les données contextuelles
 
-Augmentez certaines offres en fonction des données contextuelles transmises dans l’appel de prise de décision. Par exemple, si la variable `contextData.weather=hot` est transmis dans l’appel de prise de décision, la priorité de toutes les offres avec `attribute=hot` doit être relancé.
+Boostez certaines offres en fonction des données contextuelles transmises dans l’appel de prise de décision. Par exemple, si la valeur `contextData.weather=hot` est transmise dans l’appel de prise de décision, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
 
-**Formule de classement :**
+**Formule de classement:**
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
@@ -114,7 +114,7 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 Notez que lorsque vous utilisez l’API de prise de décision, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous.
 
-**Extrait de code du corps de la requête :**
+**Extrait de code du corps de la requête :**
 
 ```
 "xdm:profiles": [
@@ -137,15 +137,15 @@ Notez que lorsque vous utilisez l’API de prise de décision, les données cont
  }],
 ```
 
-### Offrir plus d’offres en fonction de la propension des clients à acheter le produit proposé
+### Booster les offres en fonction de la propension des clients à acheter le produit proposé
 
-Vous pouvez augmenter le score d’une offre en fonction du score de propension d’un client.
+Vous pouvez augmenter le score d’une offre en fonction d’un score de propension du client.
 
-Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient une plage de scores stockés dans un tableau :
+Dans cet exemple, le client d’instance est *_salesvelocity* et le schéma de profil contient une plage de scores stockés dans un tableau :
 
 ![](../assets/ranking-example-schema.png)
 
-Ainsi, pour un profil tel que :
+Ainsi, pour un profil tel que :
 
 ```
 {"_salesvelocity": {"individualScoring": [
@@ -165,11 +165,11 @@ Ainsi, pour un profil tel que :
 }
 ```
 
-Les offres contiennent un attribut pour *propensionType* qui correspond à la catégorie des scores :
+Les offres contiennent un attribut pour *propensionType* correspondant à la catégorie des scores :
 
 ![](../assets/ranking-example-propensityType.png)
 
-Votre formule de classement peut alors définir la priorité de chaque offre pour qu’elle soit égale aux clients. *propensionScore* pour cela *propensionType*. Si aucun score n’est trouvé, utilisez la priorité statique définie sur l’offre :
+Votre formule de classement peut alors définir la priorité de chaque offre pour qu’elle soit égale aux clients *propensionScore* pour ce *propensionType*. Si aucun score n’est trouvé, utilisez la priorité statique définie sur l’offre :
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

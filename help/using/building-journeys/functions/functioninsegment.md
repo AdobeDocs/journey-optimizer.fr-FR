@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 0%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 
@@ -19,27 +19,27 @@ Vérifie si un individu appartient à un segment donné.
 
 >[!NOTE]
 >
->Vous pouvez récupérer jusqu’à 100 segments.
+>Vous pouvez récupérer jusqu’à 100 segments.
 
-Le nom du segment doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ou d’une expression.
+Le nom du segment doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression.
 
-Les segments sont définis dans la variable [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’éditeur d’expression fournit une liste de segments complétée automatiquement.
+Les segments sont définis dans [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’éditeur d’expression fournit une liste des segments avec saisie semi-automatique .
 
-Les segments peuvent avoir trois états :
+Les segments peuvent posséder trois statuts :
 
-* existing : continue d’être dans le segment.
-* réalisé : est en train de saisir le segment.
-* exited : l’entité quitte le segment.
+* existing : lʼentité reste dans le segment.
+* realized : lʼentité entre dans le segment.
+* exited : lʼentité quitte le segment.
 
-Seuls les individus dotés de la fonction **Réalisé** et **Existant** les états de participation au segment sont considérés comme des membres du segment. Pour plus d’informations sur l’évaluation d’un segment, reportez-vous à la section [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Seuls les individus présentant les statuts de participation **Réalisé** et **Existant** sont considérés comme membres du segment. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` signifie que vous disposez d’un segmentMembership avec le statut renseigné/existant.
+`IF inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 
-`ELSE inSegment('segmentName') == false` signifie que vous disposez d’un segmentMembership avec le statut de sortie.
+`ELSE inSegment('segmentName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
 
 ## Catégorie
 
-Adobe Experience Platform
+Adobe Experience Platform
 
 ## Syntaxe de la fonction
 
@@ -61,6 +61,6 @@ Renvoie une valeur booléenne.
 
 `inSegment("men over 50")`
 
-Explication :
+Explication :
 
-La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours fait partie du segment Adobe Experience Platform &quot;men over 50&quot; (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
+La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours figure dans le segment Adobe Experience Platform « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.

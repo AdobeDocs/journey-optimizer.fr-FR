@@ -1,21 +1,21 @@
 ---
 product: journey optimizer
-title: intersection
-description: En savoir plus sur la fonction intersecte
+title: intersect
+description: En savoir plus sur la fonction intersect
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 100%
 
 ---
 
-# intersection{#intersect}
+# intersect{#intersect}
 
-Renvoie les valeurs communes des deux listes de saisie. Si l’une des deux listes est nulle, renvoie une liste vide.
+Renvoie les valeurs communes dans les deux listes dʼentrée. Si lʼune des deux listes est nulle, elle renvoie une liste vide.
 
 ## Catégorie
 
@@ -34,14 +34,14 @@ Liste
 
 ## Signatures et types renvoyés
 
-`intersect(listString,listString)`: listString
-`intersect(listDecimal,listDecimal)`: listDecimal
-`intersect(listInteger,listInteger)`: listInteger
-`intersect(listDateTime,listDateTime)`: listDateTime
-`intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
-`intersect(listDateOnly,listDateOnly)`: listDateOnly
-`intersect(listDuration,listDuration)`: listDuration
-`intersect(listBoolean,listBoolean)`: listBoolean
+`intersect(listString,listString)` : listString
+`intersect(listDecimal,listDecimal)` : listDecimal
+`intersect(listInteger,listInteger)` : listInteger
+`intersect(listDateTime,listDateTime)` : listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)` : listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)` : listDateOnly
+`intersect(listDuration,listDuration)` : listDuration
+`intersect(listBoolean,listBoolean)` : listBoolean
 
 Renvoie une liste.
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-Renvoie [&quot;sports&quot;, &quot;news&quot;]
+Renvoie [« sports », « news »]
 
 ```json
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-Renvoie les éléments communs entre les attributs de profil et une liste donnée de catégories.
+Renvoie les éléments communs entre les attributs du profil et la liste de catégories donnée.
 
 ```json
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-Renvoie les éléments communs entre les attributs de profil et le champ d’événement donné.
+Renvoie les éléments communs entre les attributs du profil et le champ dʼévénement donné.

@@ -8,44 +8,44 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 0%
+source-wordcount: '734'
+ht-degree: 100%
 
 ---
 
-# Créer des offres personnalisées {#create-personalized-offers}
+# Création d&#39;offres personnalisées {#create-personalized-offers}
 
-Avant de créer une offre, vérifiez que vous avez créé :
+Avant de créer une offre, assurez-vous que vous avez créé les éléments suivants :
 
-* A **placement** dans laquelle l’offre sera affichée. Voir [Créer des emplacements](../offer-library/creating-placements.md)
-* Si vous souhaitez ajouter une condition d&#39;éligibilité : a **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Créer des règles de décision](../offer-library/creating-decision-rules.md).
-* Un ou plusieurs **tags** que vous souhaitez peut-être associer à l’offre. Voir [Créer des balises](../offer-library/creating-tags.md).
+* Un **emplacement** dans lequel l&#39;offre sera affichée. Voir [Créer des emplacements](../offer-library/creating-placements.md)
+* Si vous souhaitez ajouter une condition d’éligibilité : une **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
+* Une ou plusieurs **balises** que vous souhaitez associer à l’offre. Voir [Création de balises](../offer-library/creating-tags.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-La liste des offres personnalisées est accessible dans le **[!UICONTROL Offers]** .
+La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Offres]**.
 
 ![](../assets/offers_list.png)
 
-## Créer une offre {#create-offer}
+## Création d’une offre {#create-offer}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="À propos des attributs d’offre"
->abstract="Avec les attributs d’offre, vous pouvez associer des paires clé-valeur à l’offre à des fins de création de rapports et d’analyse."
+>title="À propos des attributs de l&#39;offre"
+>abstract="Les attributs de l&#39;offre vous permettent d&#39;associer des paires clé-valeur à l&#39;offre à des fins de reporting et d&#39;analyse."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
 >title="Attributs d’offre"
->abstract="Avec les attributs d’offre, vous pouvez associer des paires clé-valeur à l’offre à des fins de création de rapports et d’analyse."
+>abstract="Les attributs de l’offre vous permettent d’associer des paires clé-valeur à l’offre à des fins de reporting et d’analyse."
 
-Pour créer une **offre**, procédez comme suit :
+Pour créer une **offre**, procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Create offer]**, puis sélectionnez **[!UICONTROL Personalized offer]**.
+1. Cliquez sur **[!UICONTROL Créer une offre]**, puis sélectionnez **[!UICONTROL Offre personnalisée]**.
 
    ![](../assets/create_offer.png)
 
-1. Indiquez le nom de l’offre ainsi que sa date et son heure de début et de fin. En dehors de ces dates, l’offre ne sera pas sélectionnée par le moteur de prise de décision.
+1. Indiquez le nom de l&#39;offre, ainsi que sa date et son heure de début et de fin. En dehors de ces dates, l’offre ne sera pas sélectionnée par le moteur de décision.
 
    ![](../assets/offer_details.png)
 
@@ -53,11 +53,11 @@ Pour créer une **offre**, procédez comme suit :
    >
    >La mise à jour des dates de début et de fin peut avoir un impact sur la limitation. [En savoir plus](add-constraints.md#capping-change-date)
 
-1. Vous pouvez également associer un ou plusieurs **[!UICONTROL tags]** à l’offre, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres. [En savoir plus](creating-tags.md).
+1. Vous pouvez également associer une ou plusieurs **[!UICONTROL balises]** à l’offre, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres. [En savoir plus](creating-tags.md).
 
-1. Le **[!UICONTROL Offer attributes]** vous permet d’associer des paires clé-valeur à l’offre à des fins de création de rapports et d’analyse.
+1. La section **[!UICONTROL Attributs de l’offre]** vous permet d’associer des paires clé-valeur à l’offre à des fins de rapports et d’analyse.
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à l’offre, sélectionnez **[!UICONTROL Manage access]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../../administration/object-based-access.md)
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à l’offre, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
@@ -65,37 +65,37 @@ Pour créer une **offre**, procédez comme suit :
 
    ![](../assets/channel-placement.png)
 
-1. Ajoutez des contraintes pour définir les conditions d&#39;affichage de l&#39;offre. [En savoir plus](add-constraints.md)
+1. Ajoutez des contraintes pour définir les conditions d’affichage de l’offre. [En savoir plus](add-constraints.md)
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Refresh]** pour mettre à jour les données.
+   >Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
    >
    >Notez que les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
 
    ![](../assets/offer-constraints-example.png)
 
-1. Vérifiez et enregistrez l’offre. [En savoir plus](#review)
+1. Examen et enregistrement de l’offre. [En savoir plus](#review)
 
-## Vérifier l’offre {#review}
+## Examen de l’offre {#review}
 
-Une fois les règles d’éligibilité et les contraintes définies, un résumé des propriétés de l’offre s’affiche.
+Une fois les règles d&#39;éligibilité et les contraintes définies, un résumé des propriétés de l&#39;offre s&#39;affiche.
 
-1. Assurez-vous que tout est correctement configuré.
+1. Vérifiez que tout est correctement configuré.
 
-1. Vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Refresh]** pour mettre à jour les données.
+1. Vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
    ![](../assets/offer-summary-estimate.png)
 
-1. Lorsque votre offre est prête à être présentée aux utilisateurs, cliquez sur **[!UICONTROL Finish]**.
+1. Lorsque votre offre est prête à être présentée aux utilisateurs, cliquez sur **[!UICONTROL Terminer]**.
 
-1. Sélectionner **[!UICONTROL Save and approve]**.
+1. Sélectionnez **[!UICONTROL Enregistrer et approuver]**.
 
    ![](../assets/offer_review.png)
 
-   Vous pouvez également enregistrer l’offre en tant que version préliminaire afin de la modifier et de l’approuver ultérieurement.
+   Vous pouvez également enregistrer l&#39;offre en tant que brouillon pour la modifier et l&#39;approuver ultérieurement.
 
-L’offre s’affiche dans la liste avec la variable **[!UICONTROL Approved]** ou **[!UICONTROL Draft]** selon que vous l’avez approuvée ou non à l’étape précédente.
+L&#39;offre s&#39;affiche dans la liste avec le statut **[!UICONTROL Approuvé]** ou **[!UICONTROL Brouillon]**, selon que vous l&#39;avez approuvée ou non à l&#39;étape précédente.
 
 Elle est maintenant prête à être diffusée aux utilisateurs.
 
@@ -103,38 +103,39 @@ Elle est maintenant prête à être diffusée aux utilisateurs.
 
 ## Gestion des offres {#offer-list}
 
-Dans la liste des offres, vous pouvez sélectionner l&#39;offre pour afficher ses propriétés. Vous pouvez également la modifier, modifier son état (**Version préliminaire**, **Approuvé**, **Archivé**), dupliquez l’offre ou supprimez-la.
+Dans la liste des offres, vous pouvez sélectionner l&#39;offre pour afficher ses propriétés. Vous pouvez également la modifier, modifier son statut (**Brouillon**, **Approuvé**, **Archivé**), la dupliquer ou la supprimer.
 
 ![](../assets/offer_created.png)
 
-Sélectionnez la **[!UICONTROL Edit]** pour revenir au mode d&#39;édition de l&#39;offre, où vous pouvez modifier le [détails](#create-offer), [représentations](#representations), ainsi que de modifier la variable [règles d’éligibilité et contraintes](#eligibility).
+Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;édition de l&#39;offre, où vous pouvez modifier ses [détails](#create-offer), ses [représentations](#representations), ainsi que les [règles d&#39;éligibilité et les contraintes](#eligibility).
 
-Sélectionnez une offre validée et cliquez sur **[!UICONTROL Undo approve]** pour redéfinir l’état de l’offre sur **[!UICONTROL Draft]**.
+Sélectionnez une offre validée et cliquez sur **[!UICONTROL Annuler l&#39;approbation]** pour redéfinir le statut de l&#39;offre sur **[!UICONTROL Brouillon]**.
 
-Pour définir à nouveau l’état sur **[!UICONTROL Approved]**, sélectionnez le bouton correspondant qui s’affiche désormais.
+Pour redéfinir le statut sur **[!UICONTROL Approuvé]**, sélectionnez le bouton correspondant qui s&#39;affiche maintenant.
 
 ![](../assets/offer_approve.png)
 
-Le **[!UICONTROL More actions]** active les actions décrites ci-dessous.
+Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessous.
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicate]**: crée une offre avec les mêmes propriétés, représentations, règles d’éligibilité et contraintes. Par défaut, la nouvelle offre a la valeur **[!UICONTROL Draft]** statut.
-* **[!UICONTROL Delete]**: supprime l’offre de la liste.
+* **[!UICONTROL Dupliquer]** : crée une offre avec les mêmes propriétés, représentations, règles d&#39;éligibilité et contraintes. Par défaut, la nouvelle offre a le statut **[!UICONTROL Brouillon]**.
+
+* **[!UICONTROL Supprimer]** : supprime l&#39;offre de la liste.
 
    >[!CAUTION]
    >
    >L&#39;offre et son contenu ne seront plus accessibles. Cette action ne peut pas être annulée.
    >
-   >Si l’offre est utilisée dans une collection ou une décision, elle ne peut pas être supprimée. Vous devez d’abord supprimer l’offre de tous les objets.
+   >Si l&#39;offre est utilisée dans une collection ou une décision, elle ne peut pas être supprimée. Vous devez d&#39;abord supprimer l&#39;offre de tous les objets.
 
-* **[!UICONTROL Archive]**: définit l’état de l’offre sur **[!UICONTROL Archived]**. L’offre est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son état sur **[!UICONTROL Draft]** ou **[!UICONTROL Approved]**. Vous pouvez uniquement le dupliquer ou le supprimer.
+* **[!UICONTROL Archiver]** : définit le statut de l&#39;offre sur **[!UICONTROL Archivé]**. L&#39;offre est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Brouillon]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement la dupliquer ou la supprimer.
 
-Vous pouvez également supprimer ou modifier l’état de plusieurs offres en même temps en cochant les cases correspondantes.
+Vous pouvez également supprimer ou modifier le statut de plusieurs offres en même temps en cochant les cases correspondantes.
 
 ![](../assets/offer_multiple-selection.png)
 
-Si vous souhaitez modifier l&#39;état de plusieurs offres dont les statuts sont différents, seuls les statuts correspondants seront modifiés.
+Si vous souhaitez modifier le statut de plusieurs offres dont les statuts sont différents, seuls les statuts correspondants seront modifiés.
 
 ![](../assets/offer_change-status.png)
 
@@ -142,7 +143,7 @@ Une fois une offre créée, vous pouvez cliquer sur son nom dans la liste.
 
 ![](../assets/offer_click-name.png)
 
-Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sélectionnez la **[!UICONTROL Change log]** à [surveiller toutes les modifications ;](../get-started/user-interface.md#monitoring-changes) qui ont été apportées à l’offre.
+Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]** pour [surveiller toutes les modifications](../get-started/user-interface.md#monitoring-changes) qui ont été apportées à l&#39;offre.
 
 ![](../assets/offer_information.png)
 

@@ -1,36 +1,36 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Configuration de la capture d’événements
-description: Découvrez comment configurer votre schéma d’offre pour capturer des événements
+title: Configurer la capture d’événements
+description: Découvrez comment configurer votre schéma d’offre pour capturer les événements.
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 100%
 
 ---
 
-# Configuration de la capture d’événements {#schema-requirements}
+# Configurer la capture d’événements {#schema-requirements}
 
-À ce stade, vous devez disposer des éléments suivants :
+À ce stade, vous devez avoir :
 
-* a créé le modèle d’IA,
-* a défini le type d&#39;événement que vous souhaitez capturer : offre affichée (impression) et/ou offre sur laquelle l&#39;utilisateur a cliqué (conversion),
-* et dans quel jeu de données vous souhaitez collecter les données d’événement.
+* créé le modèle d’IA,
+* défini le type dʼévénement à capturer : offre affichée (impression) et/ou offre ayant fait l’objet d’un clic (conversion)
+* ainsi que le jeu de données dans lequel vous souhaitez collecter les données d’événement.
 
-Désormais, chaque fois qu’une offre est affichée et/ou que vous cliquez dessus, vous souhaitez que l’événement correspondant soit automatiquement capturé par la variable **[!UICONTROL Experience Event - Proposition Interactions]** groupe de champs à l’aide de [SDK Web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} ou SDK Mobile.
+Désormais, chaque fois quʼune offre est affichée et/ou qu’un utilisateur clique dessus, vous souhaitez que lʼévénement correspondant soit automatiquement capturé par le groupe de champs **[!UICONTROL Événement dʼexpérience - Interactions de proposition]** à lʼaide du [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} ou du SDK mobile.
 
-Pour pouvoir envoyer des types d’événement (offre affichée ou offre sur laquelle l’utilisateur a cliqué), vous devez définir la valeur correcte de chaque type d’événement dans un événement d’expérience envoyé dans Adobe Experience Platform. Vous trouverez ci-dessous les exigences de schéma à implémenter dans votre code JavaScript :
+Pour envoyer des types d’événement (offre affichée ou offre ayant fait l’objet d’un clic), vous devez définir la valeur correcte pour chaque type d’événement dans un événement d’expérience qui est envoyé dans Adobe Experience Platform. Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter dans votre code JavaScript :
 
-## Scénario d&#39;offre affichée
+## Scénario d’offre affichée
 
 **Type d’événement :** `decisioning.propositionDisplay`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
-+++**Exemple de payload :**
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
++++**Exemple de payload :**
 
 ```
 {
@@ -58,11 +58,11 @@ Pour pouvoir envoyer des types d’événement (offre affichée ou offre sur laq
 
 +++
 
-### Scénario sur l’offre cliquée
+### Scénario d’offre cliquée
 
 **Type d’événement :** `decisioning.propositionInteract`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
-+++**Exemple de payload :**
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
++++**Exemple de payload :**
 
 ```
 {

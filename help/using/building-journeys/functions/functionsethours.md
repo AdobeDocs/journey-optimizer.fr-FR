@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '101'
+ht-degree: 100%
 
 ---
 
 # setHours {#setHours}
 
-Définit les heures d’une date ou d’une date uniquement. Par exemple, si vous souhaitez attendre jusqu’à une certaine heure demain, vous pouvez forcer l’heure.
+Définit les heures d’une date ou d’une date sans prise en compte du fuseau horaire. Par exemple, si vous voulez attendre jusqu’à une certaine heure demain, vous pouvez forcer l’heure.
 
 ## Catégorie
 
@@ -51,4 +51,4 @@ Renvoie 2010-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Renvoie demain à 20 h, X étant les minutes au moment de l’évaluation de l’heure actuelle. Si l’évaluation a lieu à 02h45, l’heure renvoyée est 08h45.
+Renvoie demain à 20 h XY, XY représentant le nombre de minutes au moment de lʼévaluation de lʼheure en cours. Si lʼévaluation se produit à 2 h 45, lʼheure renvoyée sera 20 h 45.

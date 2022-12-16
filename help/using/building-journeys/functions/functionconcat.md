@@ -9,7 +9,7 @@ exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|------------------|
 | Liste | listString |
-| string | string |
+| chaîne | chaîne |
 
 ## Signature et type renvoyé
 
@@ -44,8 +44,8 @@ Renvoie une chaîne.
 
 `concat("Hello","World")`
 
-Renvoie &quot;HelloWorld&quot;.
+Renvoie « HelloWorld ».
 
 `concat(["Hello"," ","World"])`
 
-Renvoie &quot;Hello World&quot;.
+Renvoie « Hello World ».

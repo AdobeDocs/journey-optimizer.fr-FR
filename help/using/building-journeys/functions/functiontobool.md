@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 0%
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 Convertit une valeur d’argument en valeur booléenne, selon son type.
 
-* À partir de la chaîne : Essayez de convertir la valeur de chaîne en valeur booléenne, à partir de &quot;true&quot; si la valeur de chaîne est &quot;true&quot;, à partir de false dans le cas contraire.
-* Numérique : true si la valeur numérique n’est pas égale à 0, false dans le cas contraire
+* À partir d’une chaîne : la fonction tente de convertir la valeur de chaîne en valeur booléenne. Renvoie true si la valeur de chaîne est « true », sinon renvoie false.
+* À partir d’une valeur numérique : renvoie true si la valeur numérique n’est pas égale à 0, sinon renvoie false.
 
 ## Catégorie
 
@@ -31,9 +31,9 @@ Conversion
 ## Paramètres
 
 * décimal
-* boolean
-* string
-* entier
+* booléen
+* chaîne
+* nombre entier
 
 ## Signatures et types renvoyés
 

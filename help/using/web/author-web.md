@@ -1,5 +1,5 @@
 ---
-title: Création de pages web
+title: Créer des pages web
 description: Découvrez comment créer une page web et modifier son contenu dans Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -10,46 +10,46 @@ hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 0%
+source-wordcount: '1101'
+ht-degree: 100%
 
 ---
 
-# Création de pages web {#author-web}
+# Créer des pages web {#author-web}
 
 >[!AVAILABILITY]
 >
->La fonctionnalité de canal web est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs.
+>La fonctionnalité de canal web est actuellement disponible en version bêta pour certains utilisateurs uniquement.
 
-Dans [!DNL Journey Optimizer] la création web est optimisée par l’extension de navigateur Adobe Experience Cloud Visual Helper chrome. [En savoir plus](visual-editing-helper.md)
+Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome Visual Helper d’Adobe Experience Cloud. [En savoir plus](visual-editing-helper.md)
 
-Pour accéder à des pages web et les créer dans le [!DNL Journey Optimizer] , suivez les conditions préalables répertoriées dans [cette section](create-web.md#prerequesites).
+Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL Journey Optimizer], suivez les conditions préalables répertoriées dans [cette section](create-web.md#prerequesites).
 
 ## Modifier le contenu d’une page web {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Saisissez l’URL à modifier."
->abstract="Saisissez l&#39;URL d&#39;une page web spécifique à utiliser pour l&#39;édition du contenu qui sera appliqué sur la surface web définie ci-dessus. La page web doit être mise en oeuvre à l’aide du SDK Web d’Adobe Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="En savoir plus"
+>abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué sur la surface web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Saisissez l’URL à modifier."
->abstract="Saisissez l’URL d’une page web spécifique à utiliser pour l’édition du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en oeuvre à l’aide du SDK Web d’Adobe Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="En savoir plus"
+>abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en œuvre à l’aide du SDK web Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
-Une fois que vous avez créé une action web à partir de la campagne, vous pouvez éditer votre contenu à l&#39;aide du concepteur web. Pour ce faire, procédez comme suit.
+Une fois que vous avez créé une action web à partir de la campagne, vous pouvez modifier votre contenu à l’aide du concepteur web. Procédez comme suit.
 
 >[!CAUTION]
 >
->Pour y accéder : [!DNL Journey Optimizer], votre page web doit être implémentée à l’aide de la fonction [SDK Web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+>Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
-1. Dans la **[!UICONTROL Action]** de l&#39;opération, sélectionnez **[!UICONTROL Edit content]** pour commencer à créer votre campagne web.
+1. Dans l’onglet **[!UICONTROL Action]** de la campagne, sélectionnez **[!UICONTROL Modifier le contenu]** pour commencer à créer votre campagne web.
 
-1. Si vous avez créé une règle de correspondance de pages, vous devez saisir toute URL correspondant à cette règle. Les modifications seront appliquées à toutes les pages correspondant à la règle.
+1. Si vous avez créé une règle de correspondance de pages, vous devez saisir toutes les URL correspondant à cette règle. Les modifications seront appliquées à toutes les pages correspondant à la règle.
 
    >[!NOTE]
    >
@@ -61,9 +61,9 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    >[!CAUTION]
    >
-   >La page web doit inclure la variable [SDK Web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
 
-1. Cliquez sur **[!UICONTROL Open web designer]** pour la modifier. [En savoir plus](author-web.md)
+1. Cliquez sur **[!UICONTROL Ouvrir le concepteur web]** pour la modifier. [En savoir plus](author-web.md)
 
    ![](assets/web-open-designer.png)
 
@@ -71,9 +71,9 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    ![](assets/web-designer.png)
 
-1. Sélectionnez un élément dans la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. et utilisez :
+1. Sélectionnez un élément dans la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. et utilisez :
 
-   * Le menu contextuel permettant d&#39;éditer son contenu, sa mise en page, insérer des liens ou la personnalisation, etc.
+   * Le menu contextuel permettant de modifier son contenu, sa mise en page, d’insérer des liens ou la personnalisation, etc.
 
       ![](assets/web-designer-contextual-bar.png)
 
@@ -85,75 +85,75 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
       ![](assets/web-designer-right-panel.png)
 
-## Utilisation des composants de contenu {#content-components}
+## Utiliser des composants de contenu {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Ajout de composants de contenu à une page web"
+>title="Ajouter les composants de contenu à votre page web"
 >abstract="Vous pouvez ajouter plusieurs composants à votre page web et les modifier selon vos besoins."
 
-1. Dans la **[!UICONTROL Components]** dans le volet de gauche, vous pouvez ajouter les composants suivants à votre page web et les modifier selon vos besoins :
+1. Dans le volet **[!UICONTROL Composants]** à gauche, vous pouvez ajouter les composants suivants à votre page web et les modifier selon vos besoins :
 
    * [Diviseur](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Image](../email/content-components.md#image)
-   * En-tête : l’utilisation de ce composant est similaire à l’utilisation de la fonction **[!UICONTROL Text]** dans le concepteur d’email. [En savoir plus](../email/content-components.md#text)
-   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation de la propriété **[!UICONTROL Text]** dans le concepteur d’email. [En savoir plus](../email/content-components.md#text)
+   * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
+   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’email. [En savoir plus](../email/content-components.md#text)
    * Lien - Découvrez comment définir le style du lien dans [cette section](../email/styling-links.md)
-   * [Décision sur l’offre](../email/add-offers-email.md)
+   * [Décision d’offre](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
-1. Passez la souris sur la page, puis cliquez sur l’icône **[!UICONTROL Insert before]** ou **[!UICONTROL Insert after]** pour ajouter le composant à un élément existant sur la page.
+1. Passez la souris sur la page, puis cliquez sur le bouton **[!UICONTROL Insérer avant]** ou **[!UICONTROL Insérer après]** pour ajouter le composant à un élément existant sur la page.
 
    ![](assets/web-designer-insert-components.png)
 
-1. Dans le conteneur qui s’affiche pour ce composant, modifiez le contenu du composant selon les besoins.
+1. Dans le conteneur qui s’affiche pour ce composant, modifiez le contenu du composant selon vos besoins.
 
    ![](assets/web-designer-edit-html.png)
 
-1. Ajustez les styles qui s’affichent à partir du **[!UICONTROL Container]** le volet de droite, comme l’arrière-plan, la couleur du texte, la bordure, la taille, la position, etc. ; selon le composant sélectionné.
+1. Ajustez les styles qui s’affichent à partir du volet **[!UICONTROL Conteneur]** à droite, comme l’arrière-plan, la couleur du texte, la bordure, la taille, la position, etc. en fonction du composant sélectionné.
 
    ![](assets/web-designer-html-style.png)
 
-## Navigation dans le concepteur web
+## Naviguer dans le concepteur web
 
-### Utilisation des chemins de navigation
+### Utiliser des chemins de navigation
 
 1. Sélectionnez un élément dans la zone de travail.
 
-1. Cliquez sur le bouton **[!UICONTROL Expand/Collapse Breadcrumbs]** dans le coin inférieur gauche de l’écran pour afficher rapidement les informations sur l’élément sélectionné.
+1. Cliquez sur le bouton **[!UICONTROL Développer/réduire le chemin de navigation]** dans le coin inférieur gauche de l’écran pour afficher rapidement les informations sur l’élément sélectionné.
 
    ![](assets/web-designer-breadcrumbs.png)
 
-1. Lorsque vous passez la souris sur le chemin de navigation, l’élément correspondant est mis en surbrillance dans l’éditeur.
+1. Lorsque vous pointez sur le chemin de navigation, l’élément correspondant est mis en surbrillance dans l’éditeur.
 
-1. Vous pouvez facilement y accéder à n’importe quel élément parent, frère ou enfant dans l’éditeur visuel.
+1. Grâce à cela, vous pouvez facilement accéder à n’importe quel élément parent, frère ou enfant dans l’éditeur visuel.
 
 ### Basculer vers le mode de navigation {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="Utilisation du mode de navigation"
->abstract="Dans ce mode, vous pouvez accéder à la page exacte à partir de la surface sélectionnée à personnaliser."
+>title="Utiliser le mode de navigation"
+>abstract="Dans ce mode, vous pouvez accéder à la page exacte à partir de la surface sélectionnée que vous voulez personnaliser."
 
-Vous pouvez passer de la valeur par défaut **[!UICONTROL Design]** en mode **[!UICONTROL Browse]** à l’aide du bouton dédié.
+Vous pouvez passer du mode **[!UICONTROL Conception]** par défaut au mode de **[!UICONTROL Navigation]** à l’aide du bouton dédié.
 
 ![](assets/web-designer-browse-mode.png)
 
-Dans la **[!UICONTROL Browse]** , vous pouvez accéder à la page exacte à partir de la surface sélectionnée à personnaliser.
+Dans le mode de **[!UICONTROL Navigation]**, vous pouvez accéder à la page exacte à partir de la surface sélectionnée à personnaliser.
 
-Elle est particulièrement utile lorsque vous traitez des pages qui se trouvent derrière l’authentification ou qui ne sont pas disponibles depuis le début à une certaine URL. Par exemple, vous pourrez vous authentifier, accéder à la page de votre compte ou à la page de votre panier, puis revenir à **[!UICONTROL Design]** pour effectuer les modifications sur la page souhaitée.
+Il est particulièrement utile lorsque vous traitez des pages qui se trouvent derrière une authentification ou qui ne sont pas disponibles depuis le début à une certaine URL. Par exemple, vous serez en mesure de vous authentifier, d’accéder à la page de votre compte ou à la page de votre panier, puis de revenir au mode **[!UICONTROL Conception]** pour effectuer les modifications sur la page souhaitée.
 
-### Modification de la taille de l’appareil
+### Modifier la taille de l’appareil
 
-Vous pouvez définir la taille de l’appareil sur une taille prédéfinie, telle que **[!UICONTROL Tablet]** ou **[!UICONTROL Mobile landscape]** ou définir une taille personnalisée. Saisissez le nombre de pixels souhaité pour définir une taille personnalisée.
+Vous pouvez définir la taille de l’appareil sur une taille prédéfinie, telle que **[!UICONTROL Tablette]** ou **[!UICONTROL Paysage mobile]**, ou définir une taille personnalisée. Saisissez le nombre de pixels souhaité pour définir une taille personnalisée.
 
 Vous pouvez également modifier la mise au point du zoom, de 25 % à 400 %.
 
 ![](assets/web-designer-device.png)
 
-## Gestion des modifications {#manage-modifications}
+## Gérer les modifications {#manage-modifications}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
@@ -162,7 +162,7 @@ Vous pouvez également modifier la mise au point du zoom, de 25 % à 400 %.
 
 Vous pouvez facilement gérer tous les composants, réglages et styles que vous avez ajoutés à votre page web.
 
-1. Sélectionnez la **[!UICONTROL Modifications]** pour afficher le volet correspondant à gauche.
+1. Sélectionnez le bouton **[!UICONTROL Modifications]** pour afficher le volet correspondant à gauche.
 
    ![](assets/web-designer-modifications-pane.png)
 
@@ -176,19 +176,19 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
    >
    >Procédez avec précaution lors de la suppression d’une action, car elle peut avoir un impact sur les actions suivantes.
 
-1. Vous pouvez également annuler et rétablir des actions à l’aide de la variable **[!UICONTROL Undo/Redo]** en haut à droite de l’écran.
+1. Vous pouvez également annuler et rétablir des actions à l’aide du bouton **[!UICONTROL Annuler/rétablir]** en haut à droite de l’écran.
 
    ![](assets/web-designer-undo-redo.png)
 
-   Cliquez sur le bouton et maintenez-le enfoncé pour passer de la **[!UICONTROL Undo]** et **[!UICONTROL Redo]** options. Cliquez ensuite sur le bouton lui-même pour appliquer l’action souhaitée.
+   Cliquez sur le bouton et maintenez-le enfoncé pour passer de l’option **[!UICONTROL Annuler]** à l’option **[!UICONTROL Rétablir]**, et inversement. Cliquez ensuite sur le bouton lui-même pour appliquer l’action souhaitée.
 
-## Ajout d’offres et de personnalisation
+## Ajouter des personnalisations et des offres
 
-Pour ajouter de la personnalisation, sélectionnez un conteneur et l&#39;icône de personnalisation dans la barre de menus contextuelle qui s&#39;affiche. Ajoutez vos modifications à l&#39;aide de l&#39;éditeur d&#39;expression. [En savoir plus](../personalization/personalization-build-expressions.md)
+Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Ajoutez vos modifications à l’aide de l’éditeur d’expression. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
-Utilisez la variable **[!UICONTROL Offer decision]** composant à insérer [offres](../offers/get-started/starting-offer-decisioning.md) dans vos pages web. Le processus est le même que lorsque [ajout d’une offre à un email](../email/add-offers-email.md). Elle tire parti de la gestion de la décision pour sélectionner la meilleure offre à fournir à vos clients.
+Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [offres](../offers/get-started/starting-offer-decisioning.md) dans vos pages web. Le processus est le même que pour l’[ajout d’une offre à un e-mail](../email/add-offers-email.md). Il tire profit de la gestion des décisions pour choisir la meilleure offre à fournir à vos clients.
 
 ![](assets/web-designer-offer.png)
 
@@ -196,20 +196,20 @@ Utilisez la variable **[!UICONTROL Offer decision]** composant à insérer [offr
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="Prévisualiser votre expérience web"
->abstract="Effectuez une simulation de votre expérience web."
+>title="Prévisualiser votre expérience web."
+>abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience web."
 
-Pour afficher un aperçu de votre expérience web modifiée, procédez comme suit.
+Pour afficher un aperçu de votre expérience web modifiée, suivez les étapes ci-dessous.
 
 >[!CAUTION]
 >
 >Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
 
-1. À partir de **[!UICONTROL Edit content]** ou le concepteur web, sélectionnez **[!UICONTROL Simulate content]**.
+1. À partir de l’écran **[!UICONTROL Modifier le contenu]** ou du concepteur web, sélectionnez **[!UICONTROL Simuler du contenu]**.
 
    ![](assets/web-designer-simulate.png)
 
-1. Cliquez sur **[!UICONTROL Manage test profiles]** pour sélectionner un ou plusieurs profils de test.
+1. Cliquez sur **[!UICONTROL Gérer les profils de test]** pour sélectionner un ou plusieurs profils de test.
 1. Un aperçu de la page web modifiée s’affiche.
 
    ![](assets/web-designer-preview.png)

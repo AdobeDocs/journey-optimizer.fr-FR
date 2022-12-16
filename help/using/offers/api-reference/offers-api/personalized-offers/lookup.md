@@ -1,6 +1,6 @@
 ---
 title: Rechercher une offre personnalisée
-description: Une offre personnalisée est un message marketing personnalisable basé sur des règles d’éligibilité et des contraintes.
+description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Rechercher une offre personnalisée {#look-up-personalized-offer}
 
-Une offre personnalisée est un message marketing personnalisable basé sur des règles d’éligibilité et des contraintes.
+Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 
-Vous pouvez rechercher des offres personnalisées spécifiques en adressant une requête GET à la fonction [!DNL Offer Library] API qui inclut l’une des offres personnalisées `@id` ou le nom de l’offre personnalisée dans le chemin de la requête.
+Vous pouvez rechercher des offres personnalisées spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit l’offre personnalisée `@id` soit le nom de l’offre personnalisée dans le chemin de la requête.
 
 **Format d’API**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les offres personnalisées. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Définit le schéma associé aux offres personnalisées. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Chaîne utilisée pour faire correspondre la variable `@id` des entités. La chaîne correspond exactement. Les paramètres &quot;id&quot; et &quot;name&quot; ne peuvent pas être utilisés ensemble. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Chaîne utilisée pour faire correspondre la propriété xdm:name des entités. La chaîne correspond exactement, avec majuscules, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Discount offer` |
+| `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres « id » et « name » ne peuvent pas être utilisés ensemble. | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Discount offer` |
 
 **Requête**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’offre personnalisée unique. `@id`.
+Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` d’offre personnalisée unique.
 
 ```json
 {

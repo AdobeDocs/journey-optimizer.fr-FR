@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 0%
+source-wordcount: '53'
+ht-degree: 100%
 
 ---
 
 # updateTimeZone {#updateTimeZone}
 
-Renvoie une nouvelle heure de date, avec un nouveau fuseau horaire au même instant.
+Renvoie une nouvelle valeur de date et heure, avec un nouveau fuseau horaire au même instant.
 
 ## Catégorie
 
@@ -27,7 +27,7 @@ Date
 
 ## Paramètres
 
-* identifiant de fuseau horaire : string
+* identifiant de fuseau horaire : chaîne
 * dateTime
 
 ## Signature et type renvoyé
@@ -47,4 +47,4 @@ Returns "2019-08-28T17:15:30.123+02:00".-->
 
 `updateTimeZone(@{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-Si la valeur du champ d’horodatage est `2021-11-16T16:55:12.939318+01:00`, la fonction renvoie `2021-11-17T02:55:12.942115+11:00`.
+Si la valeur du champ d’horodatage est `2021-11-16T16:55:12.939318+01:00`, la fonction renvoie `2021-11-17T02:55:12.942115+11:00`. 

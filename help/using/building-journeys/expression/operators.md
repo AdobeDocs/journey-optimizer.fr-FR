@@ -9,14 +9,14 @@ level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 0%
+source-wordcount: '453'
+ht-degree: 100%
 
 ---
 
 # Opérateurs {#operators}
 
-Il existe deux types d&#39;opérateurs : opérateurs unaires et opérateurs binaires. Il existe des opérateurs unaires de gauche et unaires de droite.
+Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs unaires sont répartis en deux catégories : gauche et droite.
 
 ```json
     // left-hand unary operators
@@ -35,27 +35,27 @@ Il existe deux types d&#39;opérateurs : opérateurs unaires et opérateurs bina
 
 ## Remarques importantes{#important-notes}
 
-* Lors de l’utilisation d’une multiplication (`*`), les deux champs d’opération doivent avoir le même type, entier ou décimal. Exemple :
-   * l’exemple suivant est correct : `3.0 * 4.0`
+* Lors de l’utilisation d’une multiplication (`*`), les deux champs d’opération doivent avoir le même type, entier ou décimal. Exemple :
+   * L’exemple suivant est correct :`3.0 * 4.0`
    * `3 * 4.0` entraîne une erreur
 
 ## Logique  {#logical}
 
-### et
+### and
 
 ```json
 <expression1> and <expression2>
 ```
 
-Les &lt;expression1> et &lt;expression2> doit être booléen. Le résultat est booléen.
+&lt;expression1> et &lt;expression2> doivent être booléens. Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 3.14 > 2 and 3.15 < 1
 ```
 
-### ou
+### or
 
 
 
@@ -63,9 +63,9 @@ Exemple :
 <expression1> or <expression2>
 ```
 
-Les &lt;expression1> et &lt;expression2> doit être booléen. Le résultat est booléen.
+&lt;expression1> et &lt;expression2> doivent être booléens. Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 3.14 > 2 or 3.15 < 1
@@ -81,7 +81,7 @@ not <expression>
 
 &lt;expression> doit être booléen. Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 not 3.15 < 1
@@ -101,7 +101,7 @@ Le résultat est booléen.
 
 Notez que null signifie que l’expression n’a pas de valeur évaluée.
 
-Exemple :
+Exemple :
 
 ```json
 @{BarBeacon.location} is null
@@ -119,13 +119,13 @@ Le résultat est booléen.
 
 Notez que null signifie que l’expression n’a pas de valeur évaluée.
 
-Exemple :
+Exemple :
 
 ```json
 @{BarBeacon.location} is not null
 ```
 
-### has null
+### est nul
 
 
 
@@ -135,9 +135,9 @@ Exemple :
 
 &lt;expression> doit être une liste. Le résultat est booléen.
 
-Utile pour identifier qu’une liste contient au moins une valeur nulle.
+Utile pour identifier qu’une liste contient au moins une valeur « null ».
 
-Exemple :
+Exemple :
 
 ```json
 ["foo", "bar", null] has null --  returns true.
@@ -159,7 +159,7 @@ Exemple :
 >
 >Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
 
-Exemple :
+Exemple :
 
 ```json
 3.14 == 42
@@ -182,7 +182,7 @@ Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type 
 
 Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 3.14 != 42
@@ -200,17 +200,17 @@ Exemple :
 <expression1> > <expression2>
 ```
 
-Il est possible de comparer Datetime à Datetime.
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
-Datetimeonly peut être comparé à Datetimeonly.
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
 
-Il est possible de comparer des nombres entiers ou décimaux à des nombres entiers ou décimaux.
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
 
 Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 3.14 > 42
@@ -224,17 +224,17 @@ Exemple :
 <expression1> >= <expression2>
 ```
 
-Il est possible de comparer Datetime à Datetime.
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
-Datetimeonly peut être comparé à Datetimeonly.
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
 
-Il est possible de comparer des nombres entiers ou décimaux à des nombres entiers ou décimaux.
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
 
 Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 42 >= 3.14
@@ -248,17 +248,17 @@ Exemple :
 <expression1> < <expression2>
 ```
 
-Il est possible de comparer Datetime à Datetime.
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
-Datetimeonly peut être comparé à Datetimeonly.
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
 
-Il est possible de comparer des nombres entiers ou décimaux à des nombres entiers ou décimaux.
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
 
 Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 42 < 3.14
@@ -272,17 +272,17 @@ Exemple :
 <expression1> <= <expression2>
 ```
 
-Il est possible de comparer Datetime à Datetime.
+Il est possible de comparer une valeur Datetime à une autre valeur Datetime.
 
-Datetimeonly peut être comparé à Datetimeonly.
+Il est possible de comparer une valeur Datetimeonly à une autre valeur Datetimeonly.
 
-Il est possible de comparer des nombres entiers ou décimaux à des nombres entiers ou décimaux.
+Il est possible de comparer des nombres entiers ou décimaux à d’autres nombres entiers ou décimaux.
 
 Toute autre combinaison est interdite.
 
 Le résultat est booléen.
 
-Exemple :
+Exemple :
 
 ```json
 42 <= 3.14
@@ -298,11 +298,11 @@ Exemple :
 <expression1> + <expression2>
 ```
 
-Les deux expressions doivent être numériques (entières ou décimales).
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-Exemple :
+Exemple :
 
 ```json
 1 + 2 -- returns 3
@@ -316,11 +316,11 @@ Exemple :
 <expression1> - <expression2>
 ```
 
-Les deux expressions doivent être numériques (entières ou décimales).
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-Exemple :
+Exemple :
 
 ```json
 2 - 1 -- returns 1
@@ -334,13 +334,13 @@ Exemple :
 <expression1> / <expression2>
 ```
 
-Les deux expressions doivent être numériques (entières ou décimales).
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-&lt;expression2> ne doit pas être égal à 0 (renvoie 0).
+&lt;expression2> ne doit pas être égale à 0 (renvoie 0).
 
-Exemple :
+Exemple :
 
 ```json
 4 / 2 -- returns 2
@@ -354,11 +354,11 @@ Exemple :
 <expression1> * <expression2>
 ```
 
-Les deux expressions doivent être numériques (entières ou décimales).
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-Exemple :
+Exemple :
 
 ```json
 3 * 4 -- returns 12
@@ -372,17 +372,17 @@ Exemple :
 <expression1> % <expression2>
 ```
 
-Les deux expressions doivent être numériques (entières ou décimales).
+Les deux expressions doivent être numériques (nombres entiers ou décimaux).
 
 Le résultat est également numérique.
 
-Exemple :
+Exemple :
 
 ```json
 3 % 2 -- returns 1.
 ```
 
-## Mathématiques {#math}
+## Math {#math}
 
 ### est numérique
 
@@ -394,13 +394,13 @@ Exemple :
 
 Le type d’expression est entier ou décimal.
 
-Exemple :
+Exemple :
 
 ```json
 @ is numeric
 ```
 
-### est entier
+### est un entier
 
 
 
@@ -410,7 +410,7 @@ Exemple :
 
 Le type d’expression est entier.
 
-Exemple :
+Exemple :
 
 ```json
 @ is integer
@@ -426,7 +426,7 @@ Exemple :
 
 Le type d’expression est décimal.
 
-Exemple :
+Exemple :
 
 ```json
 @ is decimal
@@ -446,11 +446,11 @@ Exemple :
 <expression> + <string>
 ```
 
-Il concatène deux expressions.
+Cet opérateur concatène deux expressions.
 
-Une expression doit être une chaîne chaînée.
+L’une des expressions doit être une chaîne de caractères.
 
-Exemple :
+Exemple :
 
 ```json
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
@@ -476,7 +476,7 @@ Exemple :
 
 Permet d’ajouter une durée à une valeur dateTimeOnly ou à une durée.
 
-Exemple :
+Exemple :
 
 ```json
 toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z

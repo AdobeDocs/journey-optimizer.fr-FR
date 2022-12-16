@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 0%
+source-wordcount: '70'
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ Conversion
 
 | Paramètre | Description |
 |--- |--- |
-| string | convertit la valeur de chaîne en entier |
-| dateTime | convertit la date en millisecondes (nombre de millisecondes de l’époque) |
-| décimal | convertit en entier en supprimant la partie décimale (exemple : 1,5 devient 1) |
-| boolean | convertit la valeur booléenne en 1 si true, 0 si false |
+| chaîne | convertit la valeur de la chaîne en nombre entier |
+| dateTime | convertit la date en millisecondes (nombre de millisecondes depuis le début de l’époque) |
+| décimal | convertit la valeur d’argument en nombre entier en supprimant la partie décimale (exemple : 1,5 devient 1) |
+| booléen | convertit la valeur booléenne en 1 si true, 0 si false |
 
 ## Signatures et type renvoyé
 
@@ -46,7 +46,7 @@ Conversion
 
 `toInteger(<boolean>)`
 
-Renvoie un entier.
+Renvoie un nombre entier.
 
 ## Exemples
 
