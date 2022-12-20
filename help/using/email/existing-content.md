@@ -11,7 +11,7 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 75%
 
 [!DNL Journey Optimizer] vous permet d&#39;importer du contenu HTML existant pour concevoir vos e-mails. Ce contenu peut être :
 
-* Un **fichier HTML** avec une feuille de style incorporée;
-* A **dossier .zip** y compris un fichier de HTML, la feuille de style (.css) et les images.
+* Un **fichier HTML** avec une feuille de style incorporée ;
+* Un **dossier .zip** avec le fichier HTML, la feuille de style (.css) et les images.
 
    >[!NOTE]
    >
-   >Il n’existe aucune contrainte sur la structure des fichiers .zip. Toutefois, les références doivent être relatives et s’adapter à l’arborescence du dossier .zip.
+   >Il n’existe aucune contrainte sur la structure des fichiers .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip.
 
-Pour importer un fichier contenant du contenu HTML, procédez comme suit :
+Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
-1. Dans la page d&#39;accueil du Concepteur d&#39;email, sélectionnez **[!UICONTROL HTML d’importation]**.
+1. Dans la page d’accueil du Concepteur d’e-mail, sélectionnez **[!UICONTROL Importer du contenu HTML]**.
 
    ![](assets/import-html_2.png)
 

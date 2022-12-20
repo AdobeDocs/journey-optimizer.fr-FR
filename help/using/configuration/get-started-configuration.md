@@ -11,7 +11,7 @@ topic: Administration
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -20,29 +20,29 @@ ht-degree: 54%
 
 Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous recevez un environnement Sandbox de production et un certain nombre d&#39;adresses IP vous sont attribuées en fonction de votre contrat.
 
-Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les étapes de configuration ci-dessous.
+Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les étapes de configuration ci-dessous :
 
-## Configuration des messages et des canaux
+## Configurer les messages et les canaux
 
 1. Pour pouvoir créer et envoyer des messages, vous devez effectuer des paramétrages spécifiques en fonction du canal.
 
-   * Pour le **Email** canal, vous devez déléguer des sous-domaines à l’Adobe et créer des pools d’adresses IP pour regrouper les adresses IP. [En savoir plus](../email/get-started-email-config.md)
+   * Pour le canal **E-mail**, vous devez déléguer des sous-domaines à Adobe et créer des groupes d’adresses IP pour regrouper les adresses IP. [En savoir plus](../email/get-started-email-config.md)
 
-   * Pour le **Push** canal, vous devez définir les paramètres des notifications push dans les deux [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push/push-configuration.md)
+   * Pour le canal **Push**, vous devez définir les paramètres des notifications push dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../push/push-configuration.md)
 
-   * Pour le **SMS** , vous devez configurer votre instance pour envoyer des SMS, y compris en intégrant les paramètres du fournisseur à [!DNL Journey Optimizer]. [En savoir plus](../sms/sms-configuration.md)
+   * Pour le canal **SMS** , vous devez configurer votre instance pour envoyer des SMS, notamment en intégrant les paramètres du fournisseur à [!DNL Journey Optimizer]. [En savoir plus](../sms/sms-configuration.md)
 
-1. Une fois cette opération terminée, vous devez créer **surfaces des canaux** pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
+1. Une fois cette opération terminée, vous devez créer des **surfaces de canal** pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
 
 1. Vous pouvez également réaliser les opérations suivantes :
 
    * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 
-   * Activez la variable **Option d’email BBC** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
+   * Activez l’**option d’e-mail Cci** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
 
-   * Configurer **règles de fréquence** pour éviter de sur-solliciter vos destinataires. [En savoir plus](frequency-rules.md)
+   * Configurez les **règles de fréquence** pour éviter de sur-solliciter vos destinataires. [En savoir plus](frequency-rules.md)
 
-   * Déterminez l’adresse électronique et/ou le numéro de téléphone à utiliser en priorité pour vos destinataires lorsque plusieurs adresses/numéros sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
+   * Déterminez l’adresse e-mail et/ou le numéro de téléphone à utiliser en priorité pour vos destinataires lorsque plusieurs adresses/numéros sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
 
 <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
 
@@ -52,7 +52,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
 ## Configurer des parcours
 
-Pour créer des parcours, vous devez configurer **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**. [En savoir plus](about-data-sources-events-actions.md)
+Afin de créer des parcours, vous devez configurer les **[!UICONTROL sources de données]**, les **[!UICONTROL événements]** et les **[!UICONTROL actions]**. [En savoir plus](about-data-sources-events-actions.md)
 
 ![](assets/admin-menu.png)
 

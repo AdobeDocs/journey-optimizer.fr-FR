@@ -11,7 +11,7 @@ exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
    ![](assets/jo-uc5.png)
 
-1. Positionnez-vous sur l&#39;activité email et cliquez sur le symbole &quot;+&quot; pour créer un nouveau chemin.
+1. Placez votre curseur sur l’activité d’e-mail et cliquez sur le symbole «␣+␣» pour créer un nouveau chemin.
 
 1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L&#39;événement est déclenché lorsqu&#39;un individu appartenant au segment ouvre la version push du premier message.
 

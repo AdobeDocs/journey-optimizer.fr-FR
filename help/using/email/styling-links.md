@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Définition d'un style pour les liens
+title: Définir un style pour les liens
 description: Découvrez comment définir un style pour les liens
 feature: Overview
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Définition d&#39;un style pour les liens {#styling-links}
+# Définir un style pour les liens {#styling-links}
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
 

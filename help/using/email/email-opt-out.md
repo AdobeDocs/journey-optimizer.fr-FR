@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gérer le processus d’opt-out aux e-mails
-description: Découvrez comment gérer l’exclusion avec les emails
+title: Gestion du processus de désinscription aux e-mails
+description: Découvrez comment gérer la désinscription aux e-mails.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,27 +11,27 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Gérer le processus d’opt-out aux e-mails {#email-opt-out}
+# Gestion du processus de désinscription aux e-mails {#email-opt-out}
 
-Afin de permettre aux destinataires de se désabonner de la réception des communications par e-mail, vous devez toujours inclure une **lien de désabonnement** dans chaque email envoyé aux destinataires. [En savoir plus sur la gestion de la confidentialité et de l’exclusion](../privacy/opt-out.md)
+Afin de permettre aux destinataires de se désinscrire des communications par e-mail, vous devez toujours inclure un **lien de désinscription** dans chaque e-mail envoyé aux destinataires. [En savoir plus sur la gestion de la confidentialité et du processus de désinscription](../privacy/opt-out.md)
 
-Pour cela, vous pouvez :
+Pour cela vous pouvez :
 
-* Insérer une **lien vers une landing page externe** dans un email afin de permettre aux utilisateurs de se désabonner de la réception des communications de votre marque. [Découvrez comment ajouter un lien d’exclusion externe](#opt-out-external-lp)
+* Insérer dans un e-mail un **lien vers une page de destination externe** afin de permettre aux utilisateur(utilisatrice)s d’annuler leur inscription aux communications de votre marque. [Découvrez comment ajouter un lien de désinscription externe.](#opt-out-external-lp)
 
-* Ajouter un **lien d’exclusion en un clic** dans le contenu de votre email. Ce lien permettra à vos destinataires de se désinscrire rapidement de vos communications, sans être redirigés vers une page de destination dans laquelle ils doivent confirmer leur désinscription. Cela permet d’accélérer le processus de désinscription. [Découvrez comment ajouter un lien d’exclusion en un clic](#one-click-opt-out)
+* Ajoutez un **lien de désinscription en un clic** dans le contenu de votre e-mail. Ce lien permettra à vos destinataires de se désinscrire rapidement de vos communications, sans être redirigés vers une page de destination dans laquelle ils doivent confirmer leur désinscription. Cela permet d’accélérer le processus de désinscription. [Découvrez comment ajouter un lien de désinscription en un clic.](#one-click-opt-out)
 
-En outre, si la variable **[!UICONTROL List-Unsubscribe]** est activée au niveau de la surface du canal, les emails correspondants envoyés avec Journey Optimizer incluront un lien de désabonnement dans l’en-tête de l’email. [En savoir plus sur l’exclusion dans l’en-tête de l’email](#unsubscribe-header)
+De plus, si l’option **[!UICONTROL List-Unsubscribe]** est activée au niveau de la surface du canal, les e-mails correspondants envoyés avec Journey Optimizer incluent un lien de désinscription dans l’en-tête de l’e-mail. [En savoir plus sur le processus de désinscription dans l’en-tête de l’e-mail](#unsubscribe-header)
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un lien d’opt-out, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage de message) et lors de la création du message).
+>Les e-mails de type marketing doivent inclure un lien de désinscription, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage du message) et lors de la création du message.
 
-## Opt-out externe {#opt-out-external-lp}
+## Désinscription externe {#opt-out-external-lp}
 
 ### Ajouter un lien de désabonnement {#add-unsubscribe-link}
 
@@ -123,7 +123,7 @@ Une fois que vous avez configuré le lien de désinscription sur votre page de d
 
    Dans l&#39;onglet **[!UICONTROL Attributs]**, vous pouvez voir la valeur de **[!UICONTROL choice]** remplacée par **[!UICONTROL no]**.
 
-## Opt-out en un clic {#one-click-opt-out}
+## Désinscription en un clic {#one-click-opt-out}
 
 Pour ajouter un lien d&#39;opt-out dans votre e-mail, procédez comme suit.
 
@@ -159,7 +159,7 @@ Une fois votre message envoyé via un [parcours](../building-journeys/journey.md
 >id="ajo_admin_preset_unsubscribe"
 >title="Ajout d’un lien de désabonnement à l’en-tête d’un e-mail"
 >abstract="Activez List-Unsubscribe pour ajouter un lien de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’opt-out en un clic dans le contenu de l’e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#one-click-opt-out" text="Opt-out en un clic"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#one-click-opt-out" text="Désinscription en un clic"
 
 Si l’[option List-Unsubscribe](../configuration/channel-surfaces.md#list-unsubscribe) est activée au niveau des surfaces du canal, les e-mails correspondants envoyés avec [!DNL Journey Optimizer] incluent un lien de désabonnement dans l’en-tête de l’e-mail.
 

@@ -61,7 +61,7 @@ Pour modifier et créer une nouvelle version d’une campagne récurrente, proc�
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Une fois vos modifications prêtes, vous pouvez activer la nouvelle version de la campagne (voir [Examiner et activer une campagne](create-campaign.md#review-activate)).
+1. Une fois vos modifications prêtes, vous pouvez activer la nouvelle version de la campagne (voir [Vérifier et activer une campagne](create-campaign.md#review-activate)).
 
    >[!IMPORTANT]
    >

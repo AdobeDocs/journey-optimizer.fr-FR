@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notifications push et Adobe Journey Optimizer
-description: Présentation du flux de données et des composants des notifications push
+description: Présentation du flux de données et des composants des notifications push.
 topic: Mobile
 feature: Push
 role: Admin

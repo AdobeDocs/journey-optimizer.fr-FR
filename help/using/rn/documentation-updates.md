@@ -215,7 +215,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout de liens vers la description du produit [!DNL Journey Optimizer] dans la page d’accueil.
 * Ajout de tutoriels vidéo à plusieurs pages
 * Image optimisée de la page d’accueil
-* Déplacement, amélioration et changement du nom de la section « Suivi des messages » en « Ajout de liens et suivi des messages ». [En savoir plus](../email/message-tracking.md)
+* Déplacement, amélioration et changement du nom de la section « Suivi des messages » en « Ajouter des liens et suivre les messages ». [En savoir plus](../email/message-tracking.md)
 * Ajout d’une sous-section aux pages miroir. [En savoir plus](../email/message-tracking.md#mirror-page)
 * Renommez « activités d’offre » en « décisions » et « décisions » en « portées de décision » dans la documentation et les écrans. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
 * Nouveau cas d’utilisation : [personnaliser un message avec des fonctions helper](../personalization/personalization-use-case-helper-functions.md)

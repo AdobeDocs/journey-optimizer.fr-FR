@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des SMS
-description: Découvrez comment créer un SMS dans Journey Optimizer
+description: Découvrez comment créer un SMS dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->Si c&#39;est la première fois que vous créez un SMS, vérifiez que le canal SMS a été configuré. [En savoir plus](sms-configuration.md).
+>Si c’est la première fois que vous créez un SMS, vérifiez que le canal SMS a été configuré. [En savoir plus](sms-configuration.md).
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte à vos clients sur leur appareil mobile. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 
@@ -57,7 +57,7 @@ Si c’est la première fois que vous créez un message SMS, vérifiez que le ca
 <img alt="Validation" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>Gestion des processus de désinscription aux SMS</strong></a>
+<a href="sms-opt-out.md"><strong>Gestion du processus de désinscription aux SMS</strong></a>
 </div>
 <p>
 </td>
@@ -66,7 +66,7 @@ Si c’est la première fois que vous créez un message SMS, vérifiez que le ca
 <img alt="Validation" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>Configuration du canal SMS</strong></a>
+<a href="sms-configuration.md"><strong>Configurer le canal SMS</strong></a>
 </div>
 <p>
 </td>

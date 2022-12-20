@@ -224,7 +224,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 1. Sélectionnez dʼautres profils de test pour prévisualiser le rendu de chaque variante de votre page de destination.
 
-## Vérification des alertes {#check-alerts}
+## Vérifier les alertes {#check-alerts}
 
 Lorsque vous créez votre page de destination, des alertes vous avertissent si vous devez effectuer des actions importantes avant de la publier.
 
@@ -275,7 +275,7 @@ Une fois votre page de destination configurée, vous pouvez la publier pour quʼ
 
 Une fois votre page de destination publiée, elle est ajoutée à la liste de pages de destination avec le statut **[!UICONTROL Publié]**.
 
-Votre page est désormais en ligne et peut être utilisée dans un [!DNL Journey Optimizer] message qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
+Votre page est désormais en ligne et peut être utilisée dans un message [!DNL Journey Optimizer] qui sera envoyé par l’intermédiaire d’un [parcours](../building-journeys/journey.md).
 
 >[!NOTE]
 >

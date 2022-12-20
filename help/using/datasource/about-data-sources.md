@@ -11,7 +11,7 @@ exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour chaque source de données, vous définissez les informations à récupérer
 
 >[!NOTE]
 >
->Les relations de schéma ne sont pas prises en charge pour les sources de données.
+>Les relations de schémas ne sont pas prises en charge pour les sources de données.
 
 Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=fr){target=&quot;_blank&quot;}.
 

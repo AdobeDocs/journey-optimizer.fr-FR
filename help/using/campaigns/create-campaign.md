@@ -11,7 +11,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 65%
+ht-degree: 73%
 
 ---
 
@@ -41,7 +41,7 @@ Pour créer une opération, accédez à la **[!UICONTROL Campagnes]** , puis cli
 >title="Catégorie de campagne"
 >abstract="La valeur de catégorie est directement associée à la valeur de type de campagne. Planification du type de campagne pour le **Marketing** catégorie et type déclenché par l’API pour la catégorie **Transactionnel**"
 
-1. Dans le **[!UICONTROL Propriétés]** , indiquez comment exécuter la campagne. Deux types de campagne sont disponibles :
+1. Dans le **[!UICONTROL Propriétés]** , indiquez comment exécuter la campagne. Deux types de campagne sont disponibles :
 
    * **[!UICONTROL Planifié]** : permet d’exécuter immédiatement la campagne ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de type **marketing**.
 
@@ -71,11 +71,11 @@ Pour créer une opération, accédez à la **[!UICONTROL Campagnes]** , puis cli
 
 ## Créer le message {#content}
 
-Dans le **[!UICONTROL Actions]** , créez le message à envoyer avec la campagne.
+Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la campagne :
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** , puis créez et concevez le contenu de votre message.
+1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]**, puis créez et concevez le contenu de votre message.
 
-   Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
+   Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -101,7 +101,7 @@ Dans le **[!UICONTROL Actions]** , créez le message à envoyer avec la campagne
       <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../sms/create-sms.md"><strong>Création de SMS</strong></a>
+    <a href="../sms/create-sms.md"><strong>Créer des SMS</strong></a>
     </div>
     <p>
     </td>
@@ -118,7 +118,7 @@ Dans le **[!UICONTROL Actions]** , créez le message à envoyer avec la campagne
 
    Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report.md)
 
-## Définition de l’audience {#audience}
+## Définissez l’audience {#audience}
 
 1. Définissez l’audience à cibler. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]** pour afficher la liste des segments Adobe Experience Platform disponibles. [En savoir plus sur les segments](../segment/about-segments.md)
 
@@ -136,7 +136,7 @@ Dans le **[!UICONTROL Actions]** , créez le message à envoyer avec la campagne
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-## Planification de la campagne {#schedule}
+## Planifier la campagne {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

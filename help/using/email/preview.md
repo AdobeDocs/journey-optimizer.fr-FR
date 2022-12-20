@@ -11,15 +11,15 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # Prévisualiser et tester vos messages {#preview-and-proof}
 
-Une fois le contenu de votre email défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
+Une fois le contenu votre d’e-mail défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
 
-Pour détecter d&#39;éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT pour tester les profils. Un bon à tirer doit être envoyé chaque fois qu’une modification est apportée pour valider le contenu le plus récent.
+Pour détecter d’éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT pour tester les profils. Un BAT doit être envoyé chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent.
 
 >[!CAUTION]
 >
@@ -27,14 +27,14 @@ Pour détecter d&#39;éventuelles erreurs dans le contenu des e-mails ou les par
 >
 >Découvrez comment créer des profils de test dans [cette page](../segment/creating-test-profiles.md).
 
-Pour tester le contenu de votre email, vous devez :
+Pour tester le contenu de votre e-mail, vous devez :
 
-* [Sélectionner des profils de test](#select-test-profiles)
-* [Vérifier l&#39;aperçu du message](#preview-your-messages)
+* [Sélectionner des profils de test,](#select-test-profiles)
+* [vérifier l’aperçu du message](#preview-your-messages)
 
 Vous pourrez ensuite [envoyer des BAT](#send-proofs) à vos profils de test.
 
-De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment déverrouiller les Prévisualisations d&#39;e-mail Litmus dans [cette section](#email-rendering).
+De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment déverrouiller les Prévisualisations d’e-mail Litmus dans [cette section](#email-rendering).
 
 >[!CAUTION]
 >
@@ -48,18 +48,18 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 >id="ac_preview_testprofiles"
 >title="Prévisualiser et tester vos messages"
 >abstract="Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="Rendu des e-mails"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="Aperçu"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=fr#email-rendering" text="Rendu des e-mails"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=fr#preview-email" text="Aperçu"
 
 Utilisez des [profils de test](../segment/creating-test-profiles.md) pour cibler des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis.
 
 Pour sélectionner des profils de test, procédez comme suit :
 
-1. Dans le [Modifier le contenu](create-email.md#define-email-content) ou, dans le Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour accéder à la sélection du profil de test.
+1. Dans l’écran [Modifier le contenu](create-email.md#define-email-content) ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler un contenu]** pour accéder à la sélection du profil de test.
 
    ![](assets/email-preview-button.png)
 
-1. Sélectionner **[!UICONTROL Gestion des profils de test]**.
+1. Sélectionnez **[!UICONTROL Gérer les profils de test]**.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
@@ -75,11 +75,11 @@ Pour sélectionner des profils de test, procédez comme suit :
 
    ![](assets/preview-email-namespace.png)
 
-1. Dans le **[!UICONTROL Valeur d’identité]** , saisissez la valeur (ici l’adresse email) permettant d’identifier le profil de test et cliquez sur **[!UICONTROL Ajouter un profil]**.
+1. Dans le champ **[!UICONTROL Valeur d’identité]**, saisissez la valeur (l’adresse e-mail ici) permettant d’identifier le profil de test et cliquez sur **[!UICONTROL Ajouter un profil]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
-1. Si vous avez ajouté la personnalisation à votre message, ajoutez d&#39;autres profils afin que vous puissiez tester différentes variantes du message en fonction des données de profil. Une fois ajoutés, les profils sont répertoriés sous les champs sélectionnés.
+1. Si vous avez ajouté une personnalisation à votre message, ajoutez d’autres profils afin de pouvoir tester différentes variantes du message en fonction des données du profil. Une fois ajoutés, les profils sont répertoriés sous les champs sélectionnés.
 
    ![](assets/preview-profile-list.png)
 
@@ -87,9 +87,9 @@ Pour sélectionner des profils de test, procédez comme suit :
 
 ### Prévisualisation des e-mails {#preview-email}
 
-Une fois [profils de test](#select-test-profiles) sont sélectionnées, vous pouvez prévisualiser le contenu de votre email. Suivez les étapes ci-dessous:
+Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouvez prévisualiser le contenu de votre e-mail. Suivez les étapes ci-dessous :
 
-1. Dans le [Modifier le contenu](create-email.md#define-email-content) ou, dans le Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+1. Dans l’écran [Modifier le contenu](create-email.md#define-email-content) ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler un contenu]**.
 
 1. Sélectionnez un profil de test. Vous pouvez vérifier les valeurs disponibles dans les colonnes. Utilisez les flèches droite/gauche pour parcourir les données.
 
@@ -97,7 +97,7 @@ Une fois [profils de test](#select-test-profiles) sont sélectionnées, vous pou
 
    >[!NOTE]
    >
-   >Pour ajouter d’autres profils de test, sélectionnez **[!UICONTROL Gestion des profils de test]**. [En savoir plus](#select-test-profiles)
+   >Pour ajouter d’autres profils de test, sélectionnez **[!UICONTROL Gérer les profils de test]**. [En savoir plus](#select-test-profiles)
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Sélectionner les données]** au-dessus de la liste pour ajouter ou supprimer des colonnes.
 
@@ -119,7 +119,7 @@ Un BAT est un message spécifique qui permet de tester un message avant son envo
 
 Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouvez envoyer des BAT.
 
-1. Dans le **[!UICONTROL Simuler]** , cliquez sur l’écran **[!UICONTROL Envoyer un bon à tirer]** bouton .
+1. Dans l’écran **[!UICONTROL Stimuler]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
 
    ![](assets/send-proof-button.png)
 
@@ -133,13 +133,13 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    Chaque destinataire du BAT recevra autant de messages que le nombre de profils de test sélectionnés. Par exemple, si vous avez ajouté cinq e-mails de destinataires et sélectionné dix profils de test, vous enverrez alors cinquante messages de BAT et chaque destinataire en recevra dix.
 
-1. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux tels que . - _ ( ) [ ] sont autorisés comme préfixe à l&#39;objet.
+1. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, comme . - _ ( ) [ Les ] sont autorisées comme préfixe à l’objet.
 
 1. Cliquez sur **[!UICONTROL Envoyer un BAT]**.
 
    ![](assets/send-proof-select.png)
 
-1. De retour dans le  **[!UICONTROL Simuler]** , cliquez sur l’écran  **[!UICONTROL Affichage des bons à tirer]** pour vérifier l’état.
+1. De retour dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Afficher les BAT]** pour vérifier le statut.
 
    ![](assets/send-proof-view.png)
 
@@ -147,9 +147,9 @@ Il est recommandé d’envoyer des BAT après chaque modification du contenu du 
 
 >[!NOTE]
 >
->Dans le BAT envoyé, le lien vers la page miroir n&#39;est pas principal. Il n&#39;est activé que dans les messages finaux.
+>Dans le BAT envoyé, le lien vers la page miroir n’est pas actif. Il n’est activé que dans les messages finaux.
 
-## Utiliser le rendu des emails {#email-rendering}
+## Utiliser le rendu des e-mails {#email-rendering}
 
 Vous pouvez exploiter votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires.
 
@@ -160,9 +160,9 @@ Pour accéder aux fonctionnalités de rendu des e-mails, vous devez :
 
 Suivez ensuite les étapes ci-dessous :
 
-1. Dans le [Modifier le contenu](create-email.md#define-email-content) ou, dans le Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+1. Dans l’écran [Modifier le contenu](create-email.md#define-email-content) ou, dans le Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
-1. Sélectionnez la **[!UICONTROL Render Email]** bouton .
+1. Sélectionnez le bouton **[!UICONTROL Rendu d’e-mail]**.
 
    ![](assets/email-rendering-button.png)
 
@@ -186,6 +186,6 @@ Suivez ensuite les étapes ci-dessous :
 
 ## Vidéo pratique {#video-preview}
 
-Découvrez comment tester le rendu des emails dans les boîtes de réception, comment prévisualiser vos emails personnalisés par rapport aux profils de test et envoyer des bons à tirer.
+Découvrez comment tester le rendu des e-mails dans les boîtes de réception, prévisualiser vos e-mails personnalisés par rapport aux profils de test et envoyer des bons à tirer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

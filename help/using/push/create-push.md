@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 56%
+ht-degree: 97%
 
 ---
 
@@ -24,37 +24,37 @@ ht-degree: 56%
 
 ## Créer la notification push dans un parcours ou une campagne {#create}
 
-Pour créer une notification push, procédez comme suit :
+Pour créer une notification push, procédez comme suit :
 
 >[!BEGINTABS]
 
->[!TAB Ajout d’une notification push à un Parcours]
+>[!TAB Ajouter une notification push à un parcours]
 
 1. Ouvrez votre parcours, puis faites glisser et déposez une activité Push depuis la section Actions de la palette.
 
    ![](assets/push_create_1.png)
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface du message à utiliser.
+1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface de message à utiliser.
 
    ![](assets/push_create_2.png)
 
    >[!NOTE]
    >
-   >Si vous envoyez une notification push à partir d’un parcours, vous pouvez tirer parti de la fonction d’optimisation de l’heure d’envoi de Adobe Journey Optimizer pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques. [Découvrez comment utiliser l’optimisation du temps d’envoi](../building-journeys/journeys-message.md#send-time-optimization)
+   >Si vous envoyez une notification push à partir d’un parcours, vous pouvez tirer parti de la fonctionnalité d’optimisation de l’heure d’envoi d’Adobe Journey Optimizer pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/journeys-message.md#send-time-optimization)
 
-   Pour plus d’informations sur la configuration d’un parcours, reportez-vous à la section [cette page](../building-journeys/journey-gs.md)
+   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
-1. Dans l’écran de configuration du parcours, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu push. [Concevoir une notification push](design-push.md)
+1. Dans l’écran de configuration de parcours, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu push. [Créer une notification push](design-push.md)
 
 1. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester.
 
 1. Lorsque votre notification push est prête, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) pour l’envoyer.
 
-   Pour suivre le comportement de vos destinataires par le biais des ouvertures et/ou interactions push, assurez-vous que les options dédiées dans la section de tracking sont activées dans la variable [activité email](../building-journeys/journeys-message.md).
+   Pour suivre le comportement de vos destinataires par le biais des ouvertures de notifications push et/ou les interactions avec celles-ci, assurez-vous que les options dédiées dans la section de tracking sont activées dans l’[activité E-mail](../building-journeys/journeys-message.md).
 
->[!TAB Ajout d’une notification push à une campagne]
+>[!TAB Ajouter une notification push à une campagne]
 
-1. Créez une campagne planifiée ou déclenchée par une API, sélectionnez **[!UICONTROL Notification push]** comme action et choisissez la variable **[!UICONTROL Surface de l’application]** à utiliser. [En savoir plus sur la configuration push](push-configuration.md).
+1. Créez une campagne planifiée ou déclenchée par une API, sélectionnez **[!UICONTROL Notification push]** comme action et choisissez la **[!UICONTROL surface de l’application]** à utiliser. [En savoir plus sur la configuration des notifications push](push-configuration.md).
 
    ![](assets/push_create_3.png)
 
@@ -72,20 +72,20 @@ Pour créer une notification push, procédez comme suit :
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
-1. Dans la **[!UICONTROL Déclencheurs d’action]** , choisissez la variable **[!UICONTROL Fréquence]** de votre notification push :
+1. Dans le menu **[!UICONTROL Déclencheurs d’action]**, choisissez la **[!UICONTROL fréquence]** de votre notification push :
 
    * Une fois
    * Quotidien
    * Hebdomadaire
    * Mensuel
 
-1. Dans l&#39;écran de configuration de l&#39;opération, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu push. [Concevoir une notification push](design-push.md)
+1. Dans l’écran de configuration de la campagne, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu push. [Créer une notification push](design-push.md)
 
 1. Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester.
 
-1. Lorsque votre notification push est prête, effectuez la configuration de votre [campaign](../campaigns/create-campaign.md) pour l’envoyer.
+1. Lorsque votre notification push est prête, effectuez la configuration de votre [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
-   Pour suivre le comportement de vos destinataires par le biais des ouvertures et/ou interactions push, assurez-vous que les options dédiées dans la section de tracking sont activées dans la variable [campaign](../campaigns/create-campaign.md).
+   Pour suivre le comportement de vos destinataires par le biais des ouvertures de notifications push et/ou les interactions avec celles-ci, assurez-vous que les options dédiées dans la section de tracking sont activées dans la [campagne](../campaigns/create-campaign.md).
 
 >[!ENDTABS]
 
@@ -99,7 +99,7 @@ Pour créer une notification push, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Mode de diffusion rapide"
->abstract="Mode de diffusion rapide vous permet d’envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions."
+>abstract="Le mode de diffusion rapide permet d&#39;envoyer rapidement des messages sur le canal push à une taille d&#39;audience inférieure à 30 M."
 
 Le mode de diffusion rapide, précédemment connu sous le nom de mode rafale dans les parcours, est un module complémentaire [!DNL Journey Optimizer] permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
 
@@ -114,7 +114,7 @@ La messagerie en diffusion rapide est fournie avec les conditions suivantes :
 * La diffusion rapide est disponible pour les campagnes **[!UICONTROL planifiées]** uniquement et n’est pas disponible pour les campagnes déclenchées par l’API.
 * Aucune personnalisation n’est autorisée dans le message push.
 * L’audience cible doit contenir moins de 30 millions de profils.
-* Vous pouvez exécuter simultanément jusqu’à 5 campagnes à l’aide du mode de diffusion Rapid .
+* Vous pouvez exécuter jusqu’à 5 campagnes simultanément à l’aide du mode de diffusion rapide.
 
 ### Activer le mode de diffusion rapide
 

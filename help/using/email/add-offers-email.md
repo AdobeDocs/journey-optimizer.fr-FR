@@ -11,13 +11,13 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Ajout d&#39;offres personnalisées {#deliver-personalized-offers}
 
-Dans [!DNL Journey Optimizer] Par e-mail, vous pouvez insérer des décisions qui exploiteront le moteur de gestion des décisions afin de choisir la meilleure offre à diffuser à vos clients.
+Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de gestion des décisions afin de sélectionner la meilleure offre à proposer à vos client(e)s.
 
 Par exemple, vous pouvez ajouter une décision qui affichera dans votre email une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 

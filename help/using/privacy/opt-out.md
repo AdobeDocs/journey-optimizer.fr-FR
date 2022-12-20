@@ -48,7 +48,7 @@ Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey
 <img alt="Peu fréquent" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%&gt;
 &lt;/a&gt;
 &lt;div&gt;
-&lt;a href=" ../sms/sms-opt-out.md"><strong>Gestion des processus de désinscription aux SMS</strong></a>
+&lt;a href=" ../sms/sms-opt-out.md"><strong>Gestion du processus de désinscription aux SMS</strong></a>
 </div>
 <p></td>
 </tr></table>

@@ -11,15 +11,15 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Configurer les paramètres d’e-mail {#email-settings}
 
-Pour commencer à créer un email, vous devez configurer les surfaces du canal email qui définissent tous les paramètres techniques requis pour vos messages. [Découvrez comment créer des surfaces](../configuration/channel-surfaces.md)
+Pour commencer à créer un e-mail, vous devez configurer les surfaces du canal e-mail qui définissent tous les paramètres techniques requis pour vos messages. [Découvrez comment créer des surfaces](../configuration/channel-surfaces.md).
 
-Définissez les paramètres de l&#39;email dans la section dédiée de la configuration de la surface du canal.
+Définissez les paramètres d’e-mail dans la section dédiée de la configuration de la surface du canal.
 
 ![](assets/preset-email-settings.png)
 

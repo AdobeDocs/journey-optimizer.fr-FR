@@ -11,7 +11,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -61,21 +61,21 @@ ht-degree: 52%
 
 Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
-Pour commencer à créer le contenu de votre email, procédez comme suit :
+Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
-1. Dans la page d&#39;accueil du Concepteur d&#39;e-mail, cliquez sur le bouton **[!UICONTROL Créer en partant de zéro]**.
+1. Dans la page d’accueil du Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Créer en partant de zéro]**.
 
    ![](assets/email_designer.png)
 
-1. Commencez à concevoir le contenu de votre email par glisser-déposer. **[!UICONTROL Composants de structure]** dans la zone de travail pour définir la mise en page de votre email.
+1. Commencez à concevoir le contenu de votre e-mail en plaçant les **[!UICONTROL composants de structure]** dans la zone de travail pour définir la mise en page de votre e-mail.
 
    >[!NOTE]
    >
-   >L&#39;empilement des colonnes n&#39;est pas compatible avec tous les programmes de messagerie. Si elle n’est pas prise en charge, les colonnes ne sont pas empilées.
+   >L’empilement des colonnes n’est pas compatible avec tous les programmes d’e-mail. Si le programme n’est pas prise en charge, les colonnes ne seront pas empilées.
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Ajoutez autant de **[!UICONTROL Composants de structure]** selon les besoins et modifiez leurs paramètres dans le volet dédié à droite.
+1. Ajoutez autant de **[!UICONTROL composants de structure]** que nécessaire et modifiez leurs paramètres dans le volet dédié sur la droite.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -87,19 +87,19 @@ Pour commencer à créer le contenu de votre email, procédez comme suit :
    >
    >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n’est pas vide.
 
-1. Développez l’objet **[!UICONTROL Composants de contenu]** et ajoutez autant d’éléments que nécessaire dans un ou plusieurs composants de structure. [En savoir plus sur les composants de contenu](content-components.md)
+1. Développez la section **[!UICONTROL Composants de contenu]** et ajoutez autant d’éléments que nécessaire dans un ou plusieurs composants de structure. [En savoir plus sur les composants de contenu](content-components.md)
 
-1. Chaque composant peut être personnalisé à l’aide de la variable **[!UICONTROL Paramètres des composants]** sur la droite. Par exemple, vous pouvez modifier le style de texte, la marge ou la marge intérieure de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md)
+1. Chaque composant peut être personnalisé à l’aide du volet **[!UICONTROL Paramètres des composants]** sur la droite. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
-1. Dans la **[!UICONTROL Sélecteur de ressources]**, vous pouvez sélectionner directement les ressources stockées dans la variable **[!UICONTROL Bibliothèque de ressources]**. [En savoir plus sur la gestion des ressources](assets-essentials.md)
+1. Dans le **[!UICONTROL Sélecteur de ressources]**, vous pouvez sélectionner directement les ressources stockées dans la **[!UICONTROL Bibliothèque de ressources]**. [En savoir plus sur la gestion des ressources](assets-essentials.md)
 
-   Double-cliquez sur le dossier contenant vos ressources. Faites-les glisser et déposez-les dans un composant de structure.
+   Double-cliquez sur le dossier contenant vos ressources. Glissez et déposez-les dans un composant de structure.
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre email à partir des données de profil. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail à partir des données de profil. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -107,21 +107,21 @@ Pour commencer à créer le contenu de votre email, procédez comme suit :
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Liens]** dans le volet de gauche pour afficher toutes les URL de votre contenu qui seront suivies. Vous pouvez modifier les **[!UICONTROL Type de suivi]** ou **[!UICONTROL Libellé]** et ajouter **[!UICONTROL Balises]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md)
+1. Cliquez sur l’onglet **[!UICONTROL Liens]** du volet de gauche pour afficher toutes les URL de votre contenu qui feront l’objet d’un tracking. Vous pouvez modifier leur **[!UICONTROL Type de tracking]** ou **[!UICONTROL Libellé]** et ajouter des **[!UICONTROL Balises]** si nécessaire. [En savoir plus sur les liens et le tracking des messages](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. Si nécessaire, vous pouvez personnaliser davantage votre email en cliquant sur **[!UICONTROL Passer à l’éditeur de code]** dans le menu avancé. [En savoir plus sur l’éditeur de code](code-content.md)
+1. Au besoin, vous pouvez personnaliser davantage votre e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. [En savoir plus sur l’éditeur de code](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 
    >[!CAUTION]
    >
-   >Vous ne pourrez pas revenir au concepteur visuel de cet email après avoir basculé vers l’éditeur de code.
+   >Vous ne pourrez pas revenir au concepteur visuel pour cet e-mail après avoir basculé vers l’éditeur de code.
 
-1. Une fois que votre contenu est prêt, cliquez sur **[!UICONTROL Simulation du contenu]** pour vérifier le rendu de votre email. Vous pouvez choisir la vue bureau ou la vue mobile. [En savoir plus sur la prévisualisation de votre email](preview.md)
+1. Une fois que votre contenu est prêt, cliquez sur **[!UICONTROL Simuler du contenu]** pour vérifier le rendu de votre e-mail. Vous pouvez choisir la vue bureau ou la vue mobile. [En savoir plus sur la prévisualisation de votre e-mail](preview.md)
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Lorsque votre email est prêt, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Lorsque votre e-mail est prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 

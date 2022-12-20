@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Concevoir une notification push
-description: Découvrez comment concevoir une notification push dans Journey Optimizer
+title: Configurer une notification push
+description: Découvrez comment créer une notification push dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Concevoir une notification push {#design-push-notification}
+# Configurer une notification push {#design-push-notification}
 
 ## Titre et contenu {#push-title-body}
 

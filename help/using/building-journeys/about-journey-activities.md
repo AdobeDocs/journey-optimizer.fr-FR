@@ -61,7 +61,7 @@ La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la
 
 Ces activités représentent les différents canaux de communication disponibles. Vous pouvez les combiner pour créer un scénario cross-canal.
 
-Si vous avez configuré des actions personnalisées, elles s’affichent également à cet emplacement. [En‧savoir‧plus](../building-journeys/using-custom-actions.md)).
+Si vous avez configuré des actions personnalisées, elles s’affichent également à cet emplacement. [En savoir plus](../building-journeys/using-custom-actions.md)).
 
 ## Bonnes pratiques {#best-practices}
 

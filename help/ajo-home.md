@@ -48,7 +48,7 @@ ht-degree: 100%
     Concevez un nouvel e-mail ou importez un contenu HTML existant.
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Création de votre premier parcours</a>
+    <a href="using/building-journeys/journeys-uc.md">Créer votre premier parcours</a>
     </div>
     <p>Découvrez comment créer et exécuter un parcours.
     <p>

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création dʼun SMS
+title: Créer un SMS
 description: Découvrez comment créer un message SMS dans Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
-# Création dʼun SMS {#create-sms}
+# Créer un SMS {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
@@ -32,23 +32,23 @@ Pour personnaliser votre message SMS, procédez comme suit :
 
 >[!BEGINTABS]
 
->[!TAB Ajouter un SMS à un Parcours]
+>[!TAB Ajouter un SMS à un parcours]
 
 1. Ouvrez votre parcours, puis faites glisser et déposez une activité SMS depuis la section Actions de la palette.
 
    ![](assets/sms_create_1.png)
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface du message à utiliser.
+1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface de message à utiliser.
 
    ![](assets/sms_create_2.png)
 
-   Pour plus d’informations sur la configuration d’un parcours, reportez-vous à la section [cette page](../building-journeys/journey-gs.md)
+   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
-Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir du **[!UICONTROL Modifier le contenu]** bouton . [Concevoir le contenu d&#39;un SMS](#sms-content)
+Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir du bouton **[!UICONTROL Modifier le contenu]**. [Concevoir le contenu de votre SMS](#sms-content)
 
->[!TAB Ajout d’un SMS à une campagne]
+>[!TAB Ajouter un SMS à une campagne]
 
-1. Créez une campagne planifiée ou déclenchée par une API, sélectionnez **[!UICONTROL SMS]** comme action et choisissez la variable **[!UICONTROL Surface de l’application]** à utiliser. [En savoir plus sur la configuration des SMS](sms-configuration.md).
+1. Créez une campagne planifiée ou déclenchée par une API, sélectionnez **[!UICONTROL SMS]** comme action et choisissez la **[!UICONTROL surface d’application]** à utiliser. [En savoir plus sur la configuration des SMS](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -58,7 +58,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
    ![](assets/sms_create_4.png)
 
-1. Dans le **[!UICONTROL Suivi des actions]** , indiquez si vous souhaitez effectuer le suivi des clics sur les liens de votre SMS.
+1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez effectuer le tracking des clics sur les liens de votre SMS.
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour définir l’audience à cibler à partir de la liste des segments Adobe Experience Platform disponibles. [En savoir plus](../segment/about-segments.md).
 
@@ -68,28 +68,28 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
-1. Dans la **[!UICONTROL Déclencheurs d’action]** , choisissez la variable **[!UICONTROL Fréquence]** de votre SMS :
+1. Dans le menu **[!UICONTROL Déclencheurs d’action]**, choisissez la variable **[!UICONTROL Fréquence]** de votre SMS :
 
    * Une fois
    * Quotidien
    * Hebdomadaire
    * Mois
 
-Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir du **[!UICONTROL Modifier le contenu]** bouton . [Concevoir le contenu d&#39;un SMS](#sms-content)
+Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir du bouton **[!UICONTROL Modifier le contenu]**. [Concevoir le contenu de votre SMS](#sms-content)
 
 >[!ENDTABS]
 
 ## Définir le contenu de votre SMS{#sms-content}
 
-1. Dans l&#39;écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du SMS.
+1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du SMS.
 
-1. Cliquez sur le champ **[!UICONTROL Message]** pour ouvrir l’éditeur d&#39;expression.
+1. Cliquez sur le champ **[!UICONTROL Message]** pour ouvrir l’éditeur d’expression.
 
    ![](assets/sms-content.png)
 
 1. Utilisez l’éditeur d’expression pour définir le contenu et ajouter du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. En savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur d’expression.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l&#39;aperçu. [En savoir plus](send-sms.md)
+1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. [En savoir plus](send-sms.md)
 
    ![](assets/sms-content-preview.png)
 

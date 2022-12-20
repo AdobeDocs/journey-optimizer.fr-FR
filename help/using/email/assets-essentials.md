@@ -11,7 +11,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 
    Pour en savoir plus sur la gestion de vos ressources, consultez à ce sujet cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=fr).
 
-1. Une fois votre ressource téléchargée, vous pouvez désormais insérer vos ressources dans l’un de vos messages à l’aide du Concepteur d’email.
+1. Une fois votre ressource téléchargée, vous pouvez désormais insérer vos ressources dans l’un de vos messages via le Concepteur d’e-mail.
 
    Votre ressource peut également être modifiée plus en détail à l’aide du mode d’**édition** de [!DNL Assets Essentials]. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=fr){target=&quot;_blank&quot;}.
 
@@ -72,13 +72,13 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 
    ![](assets/media_library_5.png)
 
-1. Sélectionnez votre **[!UICONTROL Ressources]** dossier. Vous pouvez également rechercher votre ressource ou votre dossier dans la barre de recherche.
+1. Sélectionnez votre dossier **[!UICONTROL Ressources]**. Vous pouvez également rechercher votre ressource ou votre dossier dans la barre de recherche.
 
 1. Glissez-déposez votre ressource dans le contenu de votre e-mail.
 
    ![](assets/media_library_6.png)
 
-1. Vous pouvez personnaliser davantage vos ressources, par exemple en ajoutant un lien externe ou du texte à l’aide du **[!UICONTROL Paramètres des composants]**. [En savoir plus sur les paramètres des composants](content-components.md)
+1. Vous pouvez personnaliser davantage vos ressources, par exemple en ajoutant un lien externe ou du texte à l’aide des **[!UICONTROL Paramètres des composants]**. [En savoir plus sur les paramètres des composants](content-components.md)
 
    ![](assets/media_library_13.png)
 

@@ -35,7 +35,7 @@ ht-degree: 100%
 + Parcours {#orchestrate-journeys}
    + [Prise en main des parcours](using/building-journeys/journey.md)
    + Création d’un parcours{#create-journey}
-      + [Création de votre premier parcours](using/building-journeys/journey-gs.md)
+      + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
@@ -159,7 +159,7 @@ ht-degree: 100%
 + Campagnes{#campaigns}
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Créer une campagne](using/campaigns/create-campaign.md)
-   + [Examiner et activer une campagne](using/campaigns/review-activate-campaign.md)
+   + [Vérifier et activer une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
@@ -190,7 +190,7 @@ ht-degree: 100%
          + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
          + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
          + [Ajustement de l&#39;alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
-         + [Définition d’un style pour les liens](using/email/styling-links.md)
+         + [Définir un style pour les liens](using/email/styling-links.md)
          + [Ajout d’attributs de style intégrés](using/email/inline-styling.md)
    + [Prévisualiser et tester votre e-mail](using/email/preview.md)
    + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)

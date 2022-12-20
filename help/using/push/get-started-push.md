@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des notifications push
-description: Découvrez comment créer une notification push dans Journey Optimizer
+description: Découvrez comment créer une notification push dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
@@ -35,7 +35,7 @@ Les notifications push peuvent être créées :
 
    Pour plus d’informations sur la configuration de votre campagne, consultez cette [page](../campaigns/create-campaign.md#configure).
 
-Utilisez les onglets dédiés pour définir les paramètres de notification push pour les systèmes d&#39;exploitation **iOS** et **Android**.
+Utilisez les onglets dédiés pour définir les paramètres de notification push pour les systèmes d’exploitation **iOS** et **Android**.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 <img alt="Peu fréquent" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
-<a href="design-push.md"><strong>Concevoir votre notification push</strong></a>
+<a href="design-push.md"><strong>Créer votre notification push</strong></a>
 </div>
 <p></td>
 <td>
@@ -72,7 +72,7 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 <img alt="Validation" src="../assets/do-not-localize/push-config.jpg">
 </a>
 <div>
-<a href="push-gs.md"><strong>Configurer des notifications push</strong></a>
+<a href="push-gs.md"><strong>Configurer les notifications push</strong></a>
 </div>
 <p>
 </td>

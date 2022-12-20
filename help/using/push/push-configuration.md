@@ -9,11 +9,11 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Configuration du canal de notifications push {#push-notification-configuration}
+# Configurer le canal de notifications push {#push-notification-configuration}
 
 [!DNL Journey Optimizer] vous permet de créer vos parcours et d&#39;envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur lʼapplication mobile et pour les balises dʼAdobe Experience Platform. Pour comprendre le flux de données des notifications push dans [!DNL Adobe Journey Optimizer], reportez-vous à [cette page](push-gs.md).
 
@@ -49,7 +49,7 @@ Pour attribuer des droits **Propriété** et **Société**, procédez comme suit
 
 1. Accédez à **[!DNL Admin Console]**.
 
-1. Dans la **[!UICONTROL Produits]** , sélectionnez la variable **[!UICONTROL Collecte de données Adobe Experience Platform]** carte.
+1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Collecte de données Adobe Experience Platform]**.
 
    ![](assets/push_product_1.png)
 
@@ -77,7 +77,7 @@ Pour attribuer des droits **Propriété** et **Société**, procédez comme suit
    * **[!UICONTROL Gérer les configurations d&#39;application]**
    * **[!UICONTROL Gérer les propriétés]**
 
-   Ces autorisations sont requises pour que le développeur d’applications mobiles configure les informations d’identification push dans **Collecte de données Adobe Experience Platform** et définir les surfaces du canal Notification push (c’est-à-dire les paramètres prédéfinis du message) dans **Adobe Journey Optimizer**.
+   Ces autorisations sont requises pour que le développeur d’application mobile configure les informations d’identification des notifications push dans **Collecte des données Adobe Experience Platform** et définisse les surfaces de canal des notifications push (c’est-à-dire les préréglages de message) dans **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -87,7 +87,7 @@ Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez
 
 1. Accédez à **[!DNL Admin Console]**.
 
-1. Dans la **[!UICONTROL Produits]** , sélectionnez la variable **[!UICONTROL Collecte de données Adobe Experience Platform]** carte.
+1. Dans l’onglet **[!UICONTROL Produits]**, sélectionnez la vignette **[!UICONTROL Collecte des données Adobe Experience Platform]**.
 
 1. Sélectionnez votre **[!UICONTROL Profil de produit]** précédemment configuré.
 

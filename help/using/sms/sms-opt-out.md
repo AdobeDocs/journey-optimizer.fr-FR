@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion des processus d’opt-out des SMS
-description: Découvrez comment gérer l’exclusion avec les SMS
+title: Gestion du processus de désinscription aux SMS
+description: Découvrez comment gérer la désinscription aux SMS
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Gestion des processus d’opt-out des SMS {#sms-opt-out}
+# Gestion du processus de désinscription aux SMS {#sms-opt-out}
 
-Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et de l’exclusion](../privacy/opt-out.md)
+Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et de la désinscription](../privacy/opt-out.md)
 
 Par défaut, Adobe Journey Optimizer traite les messages de réponse standard en anglais, tels que STOP, UNSTOP et START, pour les numéros gratuits et de code long, conformément aux normes du secteur régissant les intégrations natives telles que Sinch et Twilio. Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers (par exemple, Twilio, Sinch, etc.). Contactez votre fournisseur ou consultez leur site de documentation pour en savoir plus.
 

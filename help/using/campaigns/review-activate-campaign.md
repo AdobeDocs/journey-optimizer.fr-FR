@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Examiner et activer une campagne {#review-activate}
+# Vérifier et activer une campagne {#review-activate}
 
 Une fois votre campagne configurée, vous devez passer en revue son paramètre et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
 

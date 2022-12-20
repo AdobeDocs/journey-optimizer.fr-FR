@@ -11,7 +11,7 @@ exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 53d89f216961daba72e96a728301572b83824655
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -66,7 +66,7 @@ Dans cet exemple, nous allons cibler les utilisateurs qui ont ajouté un produit
 
    ![](assets/ajo-aa_5.png)
 
-1. Cliquez sur **[!UICONTROL Créer un événement]**. Le volet de configuration des événements s’ouvre sur le côté droit de l’écran.
+1. Cliquez sur **[!UICONTROL Créer un événement]**. Le volet de configuration d&#39;événement s&#39;ouvre dans la partie droite de l&#39;écran.
 
 1. Renseignez les **[!UICONTROL Événement]** parameters:
 

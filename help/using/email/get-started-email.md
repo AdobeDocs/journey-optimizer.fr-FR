@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de l’email
-description: Découvrez comment créer un e-mail dans Journey Optimizer
+title: Prise en main des e-mails
+description: Découvrez comment créer un e-mail dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
@@ -11,25 +11,25 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# Prise en main de l’email {#get-started-email}
+# Prise en main des e-mails {#get-started-email}
 
 >[!IMPORTANT]
 >
->Si c’est la première fois que vous créez un email, vérifiez que le canal email a été configuré. [En savoir plus](email-settings.md)
+>Si c’est la première fois que vous créez un e-mail, vérifiez que le canal e-mail a été configuré. [En savoir plus](email-settings.md)
 
-Utilisation [!DNL Journey Optimizer] pour envoyer des emails à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le Concepteur d&#39;email.
+Utilisez [!DNL Journey Optimizer] pour envoyer des e-mails à vos client(e)s. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail.
 
-Les diffusions email peuvent être créées :
+Les diffusions d’e-mails peuvent être créées :
 
-* Dans un **Parcours**: une fois que vous avez ajouté une **[!UICONTROL Email]** à votre parcours, et définition des paramètres de base, utilisez la variable **[!UICONTROL Actions : Email]** volet de droite pour créer le contenu du SMS.
+* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du SMS.
 
    Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
-* Dans un **Campagne**: une fois une campagne créée, sélectionnez **[!UICONTROL Email]** comme action et définissez les paramètres de base.
+* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base.
 
    Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
 
@@ -64,7 +64,7 @@ Les diffusions email peuvent être créées :
 <img alt="Validation" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="email-settings.md"><strong>Configurer le canal e-mail</strong></a>
+<a href="email-settings.md"><strong>Configurer le canal E-mail</strong></a>
 </div>
 <p>
 </td>

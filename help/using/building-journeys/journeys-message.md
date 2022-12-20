@@ -11,13 +11,13 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # E-mail, SMS, Push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une activité de message push, SMS ou e-mail et définir les paramètres et le contenu. Il est ensuite exécuté et envoyé dans le contexte du parcours.
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une activité de message push, SMS ou e-mail et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 
 Vous pouvez également configurer des actions spécifiques pour vous envoyer des messages :
 
@@ -34,7 +34,7 @@ Pour ajouter un message dans un parcours, procédez comme suit :
 
 1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité **E-mail**, **SMS** ou **Push** dans la zone de travail.
 
-1. Configurez votre activité. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
+1. Configurez votre activité. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -60,18 +60,18 @@ Pour ajouter un message dans un parcours, procédez comme suit :
    <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Création de SMS</strong></a>
+   <a href="../sms/create-sms.md"><strong>Créer des SMS</strong></a>
    </div>
    <p>
    </td>
    </tr>
    </table>
 
-## Mettre à jour le contenu en direct{#update-live-content}
+## Mettre à jour le contenu dynamique{#update-live-content}
 
-Vous pouvez mettre à jour le contenu d’un message (email, sms, push) dans un parcours en direct.
+Vous pouvez mettre à jour le contenu d’un message (e-mail, sms, notification push) dans un parcours dynamique.
 
-Pour ce faire, ouvrez votre parcours en direct, sélectionnez l’activité de message et cliquez sur **Modifier le contenu**.
+Pour ce faire, ouvrez votre parcours dynamique, sélectionnez l’activité de message et cliquez sur **Modifier le contenu**.
 
 ![](assets/add-a-message2.png)
 
@@ -84,7 +84,7 @@ Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnal
 >title="À propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
 >abstract="La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic."
 
-### À propos de l’optimisation du temps d’envoi {#about-send-time}
+### À propos de l’optimisation de l’heure d’envoi {#about-send-time}
 
 La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. Utilisez notre modèle d&#39;apprentissage automatique pour planifier des heures d&#39;envoi personnalisées afin que chaque utilisateur augmente les taux d&#39;ouverture et de clic de vos messages.
 

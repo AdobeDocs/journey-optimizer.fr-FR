@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Avant d’envoyer des SMS, configurez votre instance. Vous devez [intégrer les 
 >id="ajo_admin_sms_api"
 >title="Configurer votre fournisseur de SMS avec Journey Optimizer"
 >abstract="Avant d’envoyer des SMS, vous devez intégrer les paramètres du fournisseur à Journey Optimizer. Une fois cette opération terminée, vous devrez créer une surface SMS. Ces étapes doivent être exécutées par un Administrateur système Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="Création d’une surface de canal SMS"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=fr#message-preset-sms" text="Création d’une surface de canal SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -118,5 +118,5 @@ Vous êtes maintenant prêt à envoyer des messages SMS avec Journey Optimizer.
 
 **Rubriques connexes**
 
-* [Création dʼun SMS](create-sms.md)
+* [Créer un SMS](create-sms.md)
 * [Ajout dʼun message dans un parcours](../building-journeys/journeys-message.md)

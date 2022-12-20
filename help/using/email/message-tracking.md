@@ -11,25 +11,25 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Ajout de liens et suivi des messages {#tracking}
+# Ajouter des liens et suivre les messages {#tracking}
 
 Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et suivre les messages envoyés afin de surveiller le comportement de vos destinataires.
 
 ## Activation du suivi {#enable-tracking}
 
-Vous pouvez activer le tracking au niveau des emails en cochant la case **[!UICONTROL Ouverture d’email]** et/ou **[!UICONTROL Clic sur l’email]** lors de la création de votre message dans un parcours ou une campagne.
+Vous pouvez activer le tracking au niveau des e-mails en cochant les options **[!UICONTROL Ouvertures d’e-mails]** et/ou **[!UICONTROL Cliquer sur l’e-mail]** lorsque vous créez votre message dans un parcours ou une campagne.
 
 >[!BEGINTABS]
 
->[!TAB Activation du suivi dans un parcours]
+>[!TAB Activer le tracking dans un parcours]
 
 ![](assets/message-tracking-journey.png)
 
->[!TAB Activation du suivi dans une campagne]
+>[!TAB Activer le tracking dans une campagne]
 
 ![](assets/message-tracking-campaign.png)
 
@@ -87,7 +87,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un [lien d’opt-out](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage de message) et lors de la création du message.
+>Les e-mails de type marketing doivent inclure un [lien de désinscription](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage de message) et lors de la création du message.
 
 ## Lien vers une page miroir {#mirror-page}
 

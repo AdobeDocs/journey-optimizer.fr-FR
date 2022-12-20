@@ -11,7 +11,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement 
 
 Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
-1. Dans le Concepteur d&#39;email, ajoutez au moins un **[!UICONTROL Composants de structure]** pour commencer à concevoir votre email.
+1. Depuis le Concepteur d’e-mail, ajoutez au moins un **[!UICONTROL composant de structure]** pour commencer à concevoir votre e-mail.
 
-1. Cliquez sur le bouton **[!UICONTROL Arborescence de navigation]** dans le volet de gauche, puis sélectionnez **[!UICONTROL Corps]**.
+1. Cliquez sur l’icône **[!UICONTROL Arborescence de navigation]** dans le volet de gauche, puis sélectionnez **[!UICONTROL Corps]**.
 
    ![](assets/preheader_body.png)
 
-1. Dans la **[!UICONTROL Paramètres du corps]** dans le volet de droite, cliquez sur l’icône de modification en regard de l’option **[!UICONTROL Preheader]** pour ajouter du contenu.
+1. Dans le volet de droite **[!UICONTROL Paramètres du corps]**, cliquez sur l’icône Modifier en regard du champ **[!UICONTROL Pré-titre]** pour ajouter du contenu.
 
    ![](assets/preheader_body_settings.png)
 
