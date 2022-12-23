@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '939'
+ht-degree: 91%
 
 ---
 
@@ -70,6 +70,7 @@ Les protections des performances et les limites statiques pour la prise des déc
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification de segment.
 * Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+* Journey Optimizer exige que les événements soient diffusés en continu vers le service principal de collecte de données (DCCS) pour pouvoir déclencher un parcours. Événements ingérés par lot ou événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des emails, etc.) ne peut pas être utilisé pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, créez un segment basé sur ces événements et utilisez la variable **Lecture de segment** à la place. La qualification de segment peut techniquement être utilisée, mais peut entraîner des défis en aval en fonction des actions utilisées.
 
 ### Sources de données {#data-sources-g}
 

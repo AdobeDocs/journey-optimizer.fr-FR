@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 92%
 
 ---
 
@@ -79,6 +79,16 @@ Dans Journey Optimizer, vous pouvez ensuite exploiter tous les champs des table
 * lors de l&#39;utilisation de conditions dans un parcours, [En savoir plus](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * dans la personnalisation des messages, [En savoir plus](../event/experience-event-schema.md#message_personalization)
 * dans la personnalisation d&#39;actions personnalisées, [En savoir plus](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Tableaux{#relationships_limitations}
+
+Vous pouvez définir une relation de schéma sur un tableau de chaînes, par exemple une liste d’identifiants de produit.
+
+![](assets/schema15.png)
+
+Cependant, vous ne pouvez pas définir de relation de schéma avec un attribut dans un tableau d’objets, par exemple une liste d’informations d’achat (ID de produit, nom du produit, prix, remise). Les valeurs de recherche ne seront pas disponibles en parcours (conditions, actions personnalisées, etc.) et personnalisation des messages.
+
+![](assets/schema16.png)
 
 ### Configuration des événements{#unitary_event_configuration}
 

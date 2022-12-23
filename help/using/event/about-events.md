@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '975'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,9 @@ Pour les événements unitaires, il existe deux types d’identifiant d&#39;év�
 
 * **Événements** générés par le système : ces événements nécessitent un eventID. Ce champ eventID est généré automatiquement lors de la création de l’événement. Le système à l’origine de l’envoi de l’événement ne doit pas générer d’identifiant, mais plutôt transmettre celui indiqué dans la prévisualisation de la payload.
 
-Journey Optimizer nécessite que les événements soient diffusés en continu ou par lots dans Adobe Experience Platform. Ces données n&#39;ont pas nécessairement besoin d&#39;accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation ou la recherche dans un parcours distinct, nous vous recommandons d&#39;activer le jeu de données pour profile.
+>[!NOTE]
+>
+>Journey Optimizer exige que les événements soient diffusés en continu vers le service principal de collecte de données (DCCS) pour pouvoir déclencher un parcours. Événements ingérés par lot ou événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des emails, etc.) ne peut pas être utilisé pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, créez un segment basé sur ces événements et utilisez la variable **Lecture de segment** à la place. La qualification de segment peut techniquement être utilisée, mais peut entraîner des défis en aval en fonction des actions utilisées. Ces données n&#39;ont pas nécessairement besoin d&#39;accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation ou la recherche dans un parcours distinct, nous vous recommandons d&#39;activer le jeu de données pour profile.
 
 ## Cycle des données {#data-cycle}
 

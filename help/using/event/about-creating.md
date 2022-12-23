@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 99%
+source-wordcount: '1577'
+ht-degree: 96%
 
 ---
 
@@ -70,6 +70,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
    >L&#39;éditeur d&#39;expression avancé n&#39;est pas disponible lors de la définition de la **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles ; ils dépendent du type de données. Par exemple, pour un type de chaîne de champ, vous pouvez utiliser « contient » ou « égal à ».
 
 1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l&#39;ajout d&#39;un espace de noms permet d&#39;exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l&#39;événement. Consultez [cette section](../event/about-creating.md#select-the-namespace).
+
 1. Définissez l&#39;identifiant du profil : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l&#39;événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un espace de noms. En effet, le parcours sélectionne la clé qui doit correspondre à l&#39;espace de noms ; par exemple, si vous sélectionnez un espace de noms d&#39;email, la clé d&#39;email est sélectionnée. Consultez [cette section](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
@@ -123,12 +124,15 @@ Lors de la sélection de champs, les champs d&#39;identité principale sont bali
 
 ![](assets/primary-identity.png)
 
-
 Sélectionnez un espace de noms dans la liste déroulante.
 
 ![](assets/journey17.png)
 
 Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs événements dans le même parcours, tous doivent utiliser le même espace de noms. Voir [cette page](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de recherche (par exemple : Espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la variable **Espace de noms** liste déroulante
 
 ## Définition de l&#39;identifiant du profil {#define-the-event-key}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '924'
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,10 @@ Il est possible de positionner ce type d’événement dès la première étape,
    >Notez qu’**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts **Réalisé** et **Sorti** au niveau de la participation des segments d’Adobe Experience Platform. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours.
+
+   >[!NOTE]
+   >
+   >Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de recherche (par exemple : Espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la variable **Espace de noms** liste déroulante
 
    ![](assets/segment7.png)
 
