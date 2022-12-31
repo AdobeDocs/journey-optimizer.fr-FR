@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de gestion des décisions afin de sélectionner la meilleure offre à proposer à vos client(e)s.
 
-Par exemple, vous pouvez ajouter une décision qui affichera dans votre email une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
+Par exemple, vous pouvez ajouter une décision qui affichera dans votre e-mail une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 
 Pour plus d’informations sur la façon de créer et gérer des offres, reportez-vous à [cette section](../offers/get-started/starting-offer-decisioning.md).
 
@@ -43,7 +43,7 @@ Pour insérer une décision dans un email, procédez comme suit :
 
    Découvrez comment utiliser les composants de contenu dans [cette section](content-components.md).
 
-1. L&#39;onglet **[!UICONTROL Décision d&#39;offre]** s&#39;affiche dans la palette de droite. Cliquez sur **[!UICONTROL Sélectionner une décision d&#39;offre]**.
+1. L&#39;onglet **[!UICONTROL Décision d&#39;offre]** s&#39;affiche dans la palette de droite. Cliquez sur **[!UICONTROL Sélectionner la décision d&#39;offre]**.
 
    ![](assets/deliver-offer-tab.png)
 
@@ -99,7 +99,7 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
    ![](assets/deliver-offer-test-profiles.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** pour tester votre message.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour tester votre message.
 
 1. Sélectionnez un profil de test. L&#39;offre correspondant au profil sélectionné (une femme) s&#39;affiche.
 

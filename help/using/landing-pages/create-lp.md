@@ -33,7 +33,7 @@ Vous pouvez également supprimer, dupliquer et dépublier une page de destinatio
 
 >[!CAUTION]
 >
->Si vous annulez la publication d’une page de destination référencée dans un message, le lien vers la page de destination est rompu et une page d’erreur s’affiche.
+>Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et une page d’erreur s’affiche.
 
 Cliquez sur les trois points en regard d’une page de destination pour sélectionner l’action souhaitée.
 
@@ -48,15 +48,15 @@ Cliquez sur les trois points en regard d’une page de destination pour sélecti
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
 >title="Définissez et configurez votre page de destination."
->abstract="Pour créer une page de destination, vous devez sélectionner un paramètre prédéfini, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
+>abstract="Pour créer une page de destination, vous devez sélectionner un préréglage, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=fr#publish-landing-page" text="Publier la page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
 >title="Attribuer des libellés à votre page de destination"
->abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations et ainsi gérer l’accès aux données de votre page de destination à l’aide de libellés."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Créer des paramètres prédéfinis de page de destination"
+>abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations afin de gérer l&#39;accès aux données de votre page de destination à l&#39;aide de libellés."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Créer des préréglages de page de destination"
 
 Suivez les étapes de création dʼune page de destination décrites ci-après.
 
@@ -98,10 +98,10 @@ Une fois que vous avez configuré et conçu la [page principale](#configure-prim
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="Définir lʼURL de votre page de destination"
+>title="Définissez lʼURL de votre page de destination."
 >abstract="Dans cette section, définissez une URL de page de destination unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du paramètre prédéfini que vous avez sélectionné."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurer les sous-domaines des pages de destination"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 La page principale est la page que les utilisateurs voient en premier lorsqu’ils cliquent sur le lien de votre page de destination (à partir d’un e-mail ou d’un site Web, par exemple).
 
@@ -113,7 +113,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_open-designer.png)
 
-1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du [préréglage](../landing-pages/lp-presets.md#lp-create-preset) que vous avez sélectionné. [En savoir plus](../landing-pages/lp-subdomains.md)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du [préréglage](../landing-pages/lp-presets.md#lp-create-preset) que vous avez sélectionné. [En savoir plus](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -131,7 +131,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    Lorsque cette option est activée, si un profil s’est déjà inscrit/désinscrit ou a déjà été ajouté à une liste d’abonnements, ses choix seront pris en compte lors de l’affichage de la page de destination.
 
-   Par exemple, si un profil a choisi de recevoir des communications sur des événements futurs, la case à cocher correspondante sera déjà sélectionnée la prochaine fois que la page de destination sera affichée sur ce profil.
+   Par exemple, si un profil a choisi de recevoir des communications sur des événements futurs, la case à cocher correspondante sera déjà sélectionnée la prochaine fois que la page de destination sera affichée pour ce profil.
 
    ![](assets/lp_prefill-form-ex.png)
 
@@ -139,7 +139,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    * **[!UICONTROL URL de redirection]** : saisissez l’URL de la page vers laquelle les utilisateurs seront redirigés à l’expiration de votre page.
    * **[!UICONTROL Page personnalisée]** : [configurez une sous-page](#configure-subpages) et sélectionnez-la dans la liste déroulante qui s’affiche.
-   * **[!UICONTROL Erreur du navigateur]** : saisissez le texte de l’erreur qui s’affichera à la place de la page.
+   * **[!UICONTROL Erreur de navigateur]** : saisissez le texte de l’erreur qui s’affichera à la place de la page.
 
    ![](assets/lp_expiry-date.png)
 
@@ -167,10 +167,10 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="Définir lʼURL de votre page de destination"
+>title="Définissez lʼURL de votre page de destination."
 >abstract="Dans cette section, définissez une URL de page de destination unique. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination dans le cadre du paramètre prédéfini que vous avez sélectionné."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurer les sous-domaines des pages de destination"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des paramètres prédéfinis de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 Vous pouvez ajouter jusquʼà 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d’erreur, qui sera affichée si la page de destination rencontre un problème.
 
@@ -184,7 +184,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
    >
    >Vous pouvez insérer un lien vers la page principale depuis n&#39;importe quelle sous-page de la même page de destination. Par exemple, pour rediriger les utilisateurs qui ont commis une erreur et qui souhaitent s’abonner à nouveau, vous pouvez ajouter un lien depuis la sous-page de confirmation vers la page principale d’abonnement. Découvrez comment insérer des liens dans [cette section](../email/message-tracking.md#insert-links).
 
-1. Définir lʼURL de votre page de destination La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../landing-pages/lp-subdomains.md)
+1. Définissez lʼURL de votre page de destination. La première partie de l’URL nécessite la configuration préalable d’un sous-domaine de page de destination. [En savoir plus](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -194,27 +194,28 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 
 ## Test de la page de destination {#test-landing-page}
 
-Une fois les paramètres et le contenu de votre page de destination définis, vous pouvez utiliser des profils de test pour la prévisualiser. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche sur la page de destination en exploitant les données du profil de test.
+Une fois les paramètres et le contenu de votre page de destination définis, vous pouvez utiliser des profils de test pour la prévisualiser. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier l’affichage de ce dernier dans la page de destination à l’aide des données de profil de test.
+
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
 
-1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Prévisualisation et test]** pour accéder à la sélection du profil de test.
+1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Aperçu et test]** pour accéder à la sélection du profil de test.
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >Le bouton **[!UICONTROL Prévisualisation]** est également accessible à partir du concepteur de contenu.
+   >Le bouton **[!UICONTROL Aperçu]** est également accessible à partir du concepteur de contenu.
 
-1. À partir de lʼécran **[!UICONTROL Prévisualisation et test]**, sélectionnez un ou plusieurs profils de test.
+1. À partir de lʼécran **[!UICONTROL Aperçu et test]**, sélectionnez un ou plusieurs profils de test.
 
    ![](assets/lp_test-profiles.png)
 
    Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../email/preview.md#select-test-profiles).
 
-1. Sélectionnez lʼonglet **[!UICONTROL Prévisualisation]** et cliquez sur **[!UICONTROL Ouvrir la prévisualisation]** pour tester votre page de destination.
+1. Sélectionnez lʼonglet **[!UICONTROL Aperçu]** et cliquez sur **[!UICONTROL Ouvrir lʼaperçu]** pour tester votre page de destination.
 
    ![](assets/lp_open-preview.png)
 

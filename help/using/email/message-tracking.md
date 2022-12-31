@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '693'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Vous pouvez activer le tracking au niveau des e-mails en cochant les options **[
 Vous pourrez ainsi suivre le comportement de vos destinataires via :
 
 * **[!UICONTROL Ouvertures d’e-mails]** : messages ayant été ouverts.
-* **[!UICONTROL Clics sur les e-mails]** : clics sur les liens dans un e-mail.
+* **[!UICONTROL Clics sur l&#39;e-mail]** : clics sur les liens dans un e-mail.
 
 ## Insertion de liens {#insert-links}
 
@@ -54,7 +54,7 @@ Lors de la conception d&#39;un message, vous pouvez ajouter des liens à votre c
 
 Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
-1. Sélectionnez un élément et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d&#39;outils contextuelle.
+1. Sélectionnez un élément et cliquez sur **[!UICONTROL Ajouter un lien]** dans la barre d&#39;outils contextuelle.
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -123,13 +123,13 @@ Le [Concepteur d&#39;e-mail](content-from-scratch.md) permet de gérer les URL s
 
    ![](assets/message-tracking-edit-links.png)
 
-1. Si nécessaire, vous pouvez modifier le **[!UICONTROL Type de suivi]** :
+1. Si nécessaire, vous pouvez modifier le **[!UICONTROL Type de tracking]** :
 
    ![](assets/message-tracking-edit-a-link.png)
 
    Pour chaque URL suivie, vous pouvez définir le mode de tracking sur l&#39;une des valeurs suivantes :
 
-   * **[!UICONTROL Suivi]** : active le tracking sur cette URL.
+   * **[!UICONTROL Tracké]** : active le tracking sur cette URL.
    * **[!UICONTROL Opt-out]** : considère cette URL comme une option d&#39;opt-out ou une URL de désabonnement.
    * **[!UICONTROL Page miroir]** : considère cette URL comme une URL de page miroir.
    * **[!UICONTROL Jamais]** : n&#39;active jamais le suivi de cette URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->

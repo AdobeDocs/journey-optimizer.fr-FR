@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer des emails dans Journey Optimizer
+title: Créer des e-mails dans Journey Optimizer
 description: Découvrez comment concevoir le contenu de vos emails  à partir de zéro
 feature: Overview
 topic: Content Management
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Pour commencer à créer le contenu de votre e-mail, procédez comme suit :
 
    ![](assets/email_designer_structure_components.png)
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur de chaque colonne en déplaçant les flèches situées en bas de chaque colonne.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur des colonnes en déplaçant les flèches situées en bas de chacune d’elles.
 
    ![](assets/email_designer_structure_n-n-colum.png)
 

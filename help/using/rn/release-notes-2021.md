@@ -5,7 +5,7 @@ title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
 

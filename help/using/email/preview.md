@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 # Prévisualiser et tester vos messages {#preview-and-proof}
 
-Une fois le contenu votre d’e-mail défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
+Une fois le contenu votre d’e-mail défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
 Pour détecter d’éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT pour tester les profils. Un BAT doit être envoyé chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent.
 
 >[!CAUTION]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualisation vos messages et envoyer des BAT.
+>Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT.
 >
 >Découvrez comment créer des profils de test dans [cette page](../segment/creating-test-profiles.md).
 
@@ -63,7 +63,7 @@ Pour sélectionner des profils de test, procédez comme suit :
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. Sélectionnez l&#39;espace de noms à utiliser pour identifier les profils de test en cliquant sur l&#39;icône de sélection **[!UICONTROL espace de noms d&#39;identité]**.
+1. Sélectionnez l&#39;espace de noms à utiliser pour identifier les profils de test en cliquant sur l&#39;icône de sélection **[!UICONTROL Espace de noms d&#39;identité]**.
 
    ![](assets/previewselect-namespace.png)
 
@@ -103,7 +103,7 @@ Une fois les [profils de test](#select-test-profiles) sélectionnés, vous pouve
 
    ![](assets/preview-select-data.png)
 
-   Vous pouvez voir les champs de personnalisation spécifiques au message actuel à la fin de la liste. Dans cet exemple, la ville de profil, le prénom et le nom de famille. Sélectionnez ces champs et assurez-vous que ces valeurs sont renseignées dans vos profils de test.
+   Vous pouvez voir les champs de personnalisation spécifiques au message actuel à la fin de la liste. Dans cet exemple, la ville, le prénom et le nom de famille du profil. Sélectionnez ces champs et assurez-vous que ces valeurs sont renseignées dans vos profils de test.
 
 1. Dans la prévisualisation du message, les éléments personnalisés sont remplacés par les données de profil de test sélectionnées.
 
