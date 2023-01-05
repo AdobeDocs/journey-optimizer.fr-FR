@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 95%
 
 ---
 
 # Rapport dynamique de campagne {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="Rapport dynamique de campagne"
+>abstract="Le rapport en direct de Campaign vous permet de mesurer et de visualiser en temps réel l’impact et les performances de vos campagnes uniquement au cours des dernières 24 heures. Votre rapport est divisé en différents widgets détaillant le succès et les erreurs de votre campagne. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
 Vous pouvez accéder directement au rapport dynamique de campagne à partir de votre campagne à l’aide du bouton **[!UICONTROL Vue dynamique]**.
 
@@ -25,7 +30,6 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 * [E-mail](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
-
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
 

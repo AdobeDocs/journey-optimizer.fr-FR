@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '519'
+ht-degree: 93%
 
 ---
 
 # Rapport global sur les pages de destination {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="Rapport global sur les pages de destination"
+>abstract="Le rapport global Landing page vous permet de mesurer l’impact de vos landing pages sur une période sélectionnée. Votre rapport est divisé en différents widgets détaillant le succès et les erreurs de votre page d’entrée. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
 Le rapport **[!UICONTROL Rapport global]** sur les pages de destination affiche des détails sur l&#39;impact de vos pages de destination sur une période sélectionnée. Pour mesurer les données de votre page de destination sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport dynamique sur les pages de destination](lp-report-live.md).
 
