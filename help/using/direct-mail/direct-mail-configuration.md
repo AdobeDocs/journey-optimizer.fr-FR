@@ -99,7 +99,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
    >
    >Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une surface tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
 
-## Créer une surface de publipostage direct {#direct-mail-surface}
+## Création d’une surface de publipostage {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
