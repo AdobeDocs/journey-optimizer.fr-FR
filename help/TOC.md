@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 99%
 
 ---
 
@@ -259,6 +259,7 @@ ht-degree: 100%
             + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
             + [Assistants](using/personalization/functions/helpers.md)
             + [Fonctions de mappage](using/personalization/functions/maps.md)
+            + [Fonctions mathématiques](using/personalization/functions/math.md)
             + [Fonctions d’objet](using/personalization/functions/objects.md)
             + [Fonctions de chaîne](using/personalization/functions/string.md)
       + Cas pratiques{#personalization-use-cases}
