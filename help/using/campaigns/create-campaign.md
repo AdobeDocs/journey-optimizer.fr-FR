@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
+source-git-commit: ef7c1ac61a59407507e9570e1114e6ef0cb8a7ca
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -25,29 +25,29 @@ ht-degree: 73%
 >* [Prise en main des segments](../segment/about-segments.md)
 
 
-Pour créer une opération, accédez à la **[!UICONTROL Campagnes]** , puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
+Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
 
 ![](assets/create-campaign.png)
 
-## Choisissez le type et le canal de l&#39;opération {#campaigntype}
+## Choisissez le type et le canal de la campagne. {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Pour un message marketing en spécifiant une date d&#39;envoi, la variable **Planifié** type est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon de carte, la variable **déclenché par l’API** type est le meilleur choix."
+>abstract="Pour l’envoi d’un message marketing en spécifiant une date d’envoi, le type **Planifiée** est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon du panier, le type **Déclenchée par l’API** est le meilleur choix."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Catégorie de campagne"
->abstract="La valeur de catégorie est directement associée à la valeur de type de campagne. Planification du type de campagne pour le **Marketing** catégorie et type déclenché par l’API pour la catégorie **Transactionnel**"
+>abstract="La valeur de catégorie est directement associée à la valeur de type de campagne. Le type Planifiée correspond à la catégorie **Marketing** et le type Déclenchée par l’API correspond à la catégorie **Transactionnelle**."
 
-1. Dans le **[!UICONTROL Propriétés]** , indiquez comment exécuter la campagne. Deux types de campagne sont disponibles :
+1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne. Deux types de campagne sont disponibles :
 
    * **[!UICONTROL Planifié]** : permet d’exécuter immédiatement la campagne ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de type **marketing**.
 
    * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
-1. Dans le **[!UICONTROL Actions]** , choisissez le canal et la surface du canal à utiliser pour envoyer votre message.
+1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur Créer.
 
    Une surface est une configuration définie par un [administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
@@ -59,7 +59,7 @@ Pour créer une opération, accédez à la **[!UICONTROL Campagnes]** , puis cli
 
 1. Cliquez sur **[!UICONTROL Créer]** pour créer la campagne.
 
-## Définir les propriétés de l&#39;opération {#create}
+## Définir les propriétés de la campagne {#create}
 
 1. Indiquez un titre et une description pour la campagne.
 
@@ -140,7 +140,7 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
->title="Démarrage de campagne"
+>title="Début de campagne"
 >abstract="Indiquez la date et l’heure auxquelles le message doit être envoyé."
 
 >[!CONTEXTUALHELP]
@@ -151,14 +151,14 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
 >title="Déclencheurs d’action de campagne"
->abstract="Définissez la fréquence d&#39;envoi du message de la campagne."
+>abstract="Vous pouvez définir la fréquence d’envoi du message de la campagne."
 
 Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une fois.
 
 Vous pouvez définir la fréquence d’envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
 
-Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier une date et une heure auxquelles le message doit être envoyé à l’aide de la variable **[!UICONTROL Démarrage de campagne]** . L’option **[!UICONTROL Fin de campagne]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
+Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé à l’aide de l’option **[!UICONTROL Début de campagne]**. L’option **[!UICONTROL Fin de campagne]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
 
 ![](assets/create-campaign-schedule.png)
 
-Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
+Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](review-activate-campaign.md)
