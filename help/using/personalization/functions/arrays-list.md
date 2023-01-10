@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -125,7 +125,7 @@ La fonction `topN` est utilisée pour renvoyer les premiers éléments `N` d’u
 
 **Exemple**
 
-L&#39;opération suivante renvoie les cinq principales commandes au prix le plus élevé.
+L’opération suivante renvoie les cinq premières commandes au prix le plus bas.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -223,7 +223,7 @@ La fonction `bottomN` est utilisée pour renvoyer les derniers éléments `N` d�
 
 **Exemple**
 
-L&#39;opération suivante renvoie les cinq principales commandes au prix le plus bas.
+L’opération suivante renvoie les cinq dernières commandes au prix le plus élevé.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
