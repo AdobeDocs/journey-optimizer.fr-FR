@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 >title="Objets dépendants"
 >abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne."
 
-Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : segments, surfaces (c’est-à-dire préréglages), schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer vous permet de copier un parcours complet d’une sandbox à une autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : segments, surfaces (c’est-à-dire préréglages), schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Pour copier un parcours dans une autre sandbox, procédez comme suit :
 
 ## Processus de copie et limitations {#limitations}
 
-Certains éléments associés peuvent échapper à la copie dans la sandbox de destination. Il est vivement recommandé d’effectuer une vérification approfondie. Identifiez tout objet potentiel manquant et créez-le manuellement avant de publier le parcours.
+Tous les éléments liés peuvent ne pas être copiés dans l’environnement de test de destination. Adobe recommande vivement d’effectuer une vérification approfondie. Identifiez tout objet potentiel manquant et créez-le manuellement avant de publier le parcours.
 
 Les objets suivants sont copiés :
 
