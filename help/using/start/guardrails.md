@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Vous trouverez ci-dessous des éléments de sécurité et des limitations suppl�
 
 ## Sécurisation de la gestion des décisions {#offer-guardrails}
 
-Les protections des performances et les limites statiques pour la prise des décisions sont répertoriées dans la [page de description du produit de service d’application d’Adobe Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+Les protections des performances et les limites statiques pour la prise des décisions sont répertoriées dans la [page de description du produit de service d’application d’Adobe Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## Sécurisation des pages de destination {#lp-guardrails}
@@ -70,7 +70,7 @@ Les protections des performances et les limites statiques pour la prise des déc
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification de segment.
 * Les parcours unitaires (commençant par un événement ou une qualification de segment) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
-* Journey Optimizer exige que les événements soient diffusés en continu vers le service principal de collecte de données (DCCS) pour pouvoir déclencher un parcours. Événements ingérés par lot ou événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des emails, etc.) ne peut pas être utilisé pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, créez un segment basé sur ces événements et utilisez la variable **Lecture de segment** à la place. La qualification de segment peut techniquement être utilisée, mais peut entraîner des défis en aval en fonction des actions utilisées.
+* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, créez un segment basé sur ces événements et utilisez l’activité **Lecture de segment** à la place. La qualification de segment peut techniquement être utilisée, mais peut entraîner des difficultés en aval en fonction des actions utilisées.
 
 ### Sources de données {#data-sources-g}
 

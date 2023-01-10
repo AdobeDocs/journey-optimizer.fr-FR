@@ -11,7 +11,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
    >[!NOTE]
    >
-   >Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de recherche (par exemple : Espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la variable **Espace de noms** liste déroulante
+   >Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
    ![](assets/segment7.png)
 

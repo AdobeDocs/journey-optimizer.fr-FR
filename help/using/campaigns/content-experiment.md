@@ -13,7 +13,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Expérience de contenu"
->abstract="Vous pouvez choisir de varier le contenu, l&#39;objet ou l&#39;expéditeur de la diffusion afin de définir plusieurs traitements de diffusion et déterminer la meilleure combinaison pour vos audiences."
+>abstract="Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de la diffusion afin de définir plusieurs traitements de diffusion et déterminer la meilleure combinaison pour vos audiences."
 
 >[!AVAILABILITY]
 >

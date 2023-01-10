@@ -11,7 +11,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -132,9 +132,9 @@ Un seul espace de noms est autorisé par parcours. Si vous utilisez plusieurs é
 
 >[!NOTE]
 >
->Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de recherche (par exemple : Espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la variable **Espace de noms** liste déroulante
+>Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
-## Définition de l&#39;identifiant du profil {#define-the-event-key}
+## Définir l’identifiant du profil {#define-the-event-key}
 
 La clé correspond au champ ou à la combinaison de champs faisant partie des données de payload de l&#39;événement et permettant au système d&#39;identifier la personne associée à l&#39;événement. Il peut s&#39;agir de l&#39;ID Experience Cloud, d&#39;un ID CRM ou encore d&#39;une adresse e-mail.
 

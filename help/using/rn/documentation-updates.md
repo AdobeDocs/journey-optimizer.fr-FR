@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
    * [Canal des notifications push](../push/get-started-push.md)
    * [Canal SMS](../sms/get-started-sms.md)
 
-* Réorganisation du guide de configuration pour une meilleure lisibilité - [En savoir plus](../configuration/get-started-configuration.md)
+* Le guide de configuration a été réorganisé pour une meilleure lisibilité. [En savoir plus](../configuration/get-started-configuration.md).
 
 ## Novembre 2022 {#november-2022}
 

@@ -140,7 +140,7 @@ Pour appliquer une règle de fréquence à un message, procédez comme suit.
    >
    >Actuellement, seule la variable **[!UICONTROL Marketing]** est disponible pour les règles de fréquence des messages.
 
-1. Vous pouvez cliquer sur le bouton **[!UICONTROL Règle de fréquence]** lien pour afficher l’écran des règles de fréquence dans un nouvel onglet. [En savoir plus](#access-rules)
+1. Vous pouvez cliquer sur le bouton **[!UICONTROL Règle de fréquence]** lien pour afficher l’écran des règles de fréquence dans un nouvel onglet. [En savoir plus](#access-rules).
 
    Toutes les règles de fréquence correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
 

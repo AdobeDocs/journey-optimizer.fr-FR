@@ -11,7 +11,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Pour les événements unitaires, il existe deux types d’identifiant d&#39;év�
 
 >[!NOTE]
 >
->Journey Optimizer exige que les événements soient diffusés en continu vers le service principal de collecte de données (DCCS) pour pouvoir déclencher un parcours. Événements ingérés par lot ou événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, suivi des emails, etc.) ne peut pas être utilisé pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, créez un segment basé sur ces événements et utilisez la variable **Lecture de segment** à la place. La qualification de segment peut techniquement être utilisée, mais peut entraîner des défis en aval en fonction des actions utilisées. Ces données n&#39;ont pas nécessairement besoin d&#39;accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation ou la recherche dans un parcours distinct, nous vous recommandons d&#39;activer le jeu de données pour profile.
+>Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, créez un segment basé sur ces événements et utilisez l’activité **Lecture de segment** à la place. La qualification de segment peut techniquement être utilisée, mais peut entraîner des difficultés en aval en fonction des actions utilisées. Ces données n&#39;ont pas nécessairement besoin d&#39;accéder au profil en temps réel. Si vous souhaitez utiliser les événements pour la segmentation ou la recherche dans un parcours distinct, nous vous recommandons d&#39;activer le jeu de données pour profile.
 
 ## Cycle des données {#data-cycle}
 
