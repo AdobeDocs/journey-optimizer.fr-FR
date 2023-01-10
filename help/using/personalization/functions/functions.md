@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Dans l’éditeur d’expression [!DNL Journey Optimizer], les fonctions d’ass
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 
-Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur l’icône `+` : la fonction est automatiquement ajoutée à l’écran de personnalisation.
+Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur la fonction `+` icon : la fonction est automatiquement ajoutée à l&#39;écran de personnalisation.
 
 Cliquez sur l’icône `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
 
@@ -146,22 +146,22 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absolu</a></td><td>Cette fonction convertit un nombre en valeur absolue.</td>
+        <td><a href="math.md#absolute">Absolu</a></td><td>Cette fonction convertit un nombre en valeur absolue</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Aléatoire</a></td><td>Cette fonction renvoie une valeur aléatoire comprise entre 0 et 1.</td>
+        <td><a href="math.md#random">Aléatoire</a></td><td>Cette fonction renvoie une valeur aléatoire comprise entre 0 et 1.</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Arrondir à l’unité inférieure</a></td><td>Cette fonction arrondit un nombre à l’unité inférieure.</td>
+        <td><a href="math.md#round-down">Arrondir à l’unité inférieure</a></td><td>Cette fonction arrondit un nombre à l’unité inférieure.</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Arrondir à l’unité supérieure</a></td><td>Cette fonction arrondit un nombre à l’unité supérieure.</td>
+        <td><a href="math.md#round-up">Arrondir à l’unité supérieure</a></td><td>Cette fonction arrondit un nombre à l’unité supérieure.</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">En pourcentage</a></td><td>Cette fonction convertit un nombre en pourcentage.</td>
+        <td><a href="math.md#to-percentage">En pourcentage</a></td><td>Cette fonction convertit un nombre en pourcentage.</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">En précision</a></td><td>Cette fonction convertit un nombre dans la précision requise.</td>
+        <td><a href="math.md#to-precision">En précision</a></td><td>Cette fonction convertit un nombre dans la précision requise.</td>
     </tr>
 </table>
 
@@ -292,7 +292,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#sub-string">Sous-chaîne</a></td><td>Cette fonction renvoie la sous-chaîne de l’expression de chaîne entre l’index de début et l’index de fin.</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">Casse du titre</a></td><td>Cette fonction permet de mettre en majuscules les premières lettres de chaque mot d'une chaîne.</td>
+        <td><a href="string.md#titleCase">Casse du titre</a></td><td>Cette fonction permet de mettre en majuscules les premières lettres de chaque mot d’une chaîne.</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">En valeur booléenne</a></td><td>Cette fonction convertit une valeur d’argument en valeur booléenne, selon son type.</td>
@@ -301,7 +301,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#to-date-time">En date/heure</a></td><td>Cette fonction est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">En date/heure uniquement</a></td><td>Cette fonction convertit une valeur d’argument en une valeur date / heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
+        <td><a href="string.md#to-date-time-only">En date/heure uniquement</a></td><td>Cette fonction convertit une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Supprimer</a></td><td>Cette fonction supprime les espaces blancs du début et de la fin d'une chaîne.</td>
@@ -325,7 +325,7 @@ Les assistants sont détaillés dans [cette page](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Valeur de secours par défaut</a></td><td>Cette fonction permet d’effectuer le rendu d’une variable avec la valeur par défaut.</td>
+        <td><a href="helpers.md#default">Valeur de secours par défaut</a></td><td>Cette fonction est utilisée pour effectuer le rendu d’une variable avec la valeur par défaut.</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>Cette fonction est utilisée pour effectuer une itération sur un tableau</td>
