@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,13 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >[!ENDTABS]
 
 ## Définir le contenu de votre e-mail {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="Configuration du contenu des emails"
+>abstract="Créez le contenu de votre email. Définissez son objet, puis utilisez le Concepteur d’email pour créer et personnaliser le corps de l’email."
 
 1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu de l’e-mail. [En savoir plus](get-started-email-design.md)
 
