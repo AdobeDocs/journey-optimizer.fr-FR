@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Intégration à d’autres solutions {#integration}
 
-Adobe Journey Optimizer vous permet de gérer, conserver et exporter en toute facilité ces données vers des plateformes ou systèmes faisant partie de votre pile technologique. Ces intégrations vous aident à résoudre vos cas d’utilisation spécifiques et à accroitre la portée des fonctionnalités d’Adobe Journey Optimizer.
+Avec Adobe Journey Optimizer, vous pouvez facilement gérer, conserver et exporter vos données vers les autres plateformes ou systèmes que vous utilisez. Ces intégrations vous aident à résoudre vos cas d’utilisation spécifiques et à accroitre la portée des fonctionnalités d’Adobe Journey Optimizer.
 
 >[!NOTE]
 >
