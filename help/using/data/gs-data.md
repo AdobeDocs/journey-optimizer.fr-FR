@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: df1b520f693d33d7080b203df0d3808144feb6e3
+source-git-commit: 504e93a5c21baadf6ac938a9298c1adeb2a2d878
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 71%
@@ -37,11 +37,15 @@ Dans l’ensemble, la flexibilité que vous souhaitez obtenir de vos données es
     <br>
   </td>
 </tr>
-  <!--td>
+</table>
+
+<!--td>
     <div><img alt="retention" src="assets/do-not-localize/retention.png" />  
     <br>Retained for a stipulated duration – Industry or regional regulations (such as GDPR or CCPA) or internal data governance policies stipulate how long or how short a duration, data needs to be maintained or archived in Adobe Experience Platform Data Lake. <a href="../privacy/get-started-privacy.md">Learn more</a></div>
-  </td-->
+  </td>
 </tr>
+<tr style="border: 0;"-->
+<table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <div><img alt="politique" src="assets/do-not-localize/policy.png" /> 
