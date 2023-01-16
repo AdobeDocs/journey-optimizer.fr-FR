@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
+source-git-commit: fc88faceceea0312417e1176a5a61c1c03a6f01b
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 100%
+source-wordcount: '1775'
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,6 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
    >[!NOTE]
    >
    >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**.
-
 Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
 
 1. Une fois la délégation de sous-domaine complète envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](about-subdomain-delegation.md#access-delegated-subdomains).
@@ -116,6 +115,11 @@ Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimiz
 >id="ajo_admin_subdomain_dns_cname"
 >title="Générer les enregistrements DNS et de validation correspondants"
 >abstract="Pour déléguer un sous-domaine à l’aide de CNAME, vous devez copier-coller les informations du serveur de noms d’Adobe et l’enregistrement de validation d’URL CDN SSL affiché dans l’interface de Journey Optimizer dans votre plateforme d’hébergement. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour diffuser les messages."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_cdn_cname"
+>title="Copie de l’enregistrement de validation"
+>abstract="Adobe génère un enregistrement de validation. Vous devez créer l’enregistrement correspondant sur votre plateforme d’hébergement pour la validation de l’URL CDN."
 
 Si des stratégies de restriction par domaine sont en vigueur et que vous souhaitez quʼAdobe nʼait quʼun contrôle partiel sur le DNS, vous pouvez choisir dʼeffectuer toutes les activités liées au DNS de votre côté.
 
@@ -154,7 +158,6 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
    >[!NOTE]
    >
    >Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**.
-
 Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
 
 1. Patientez jusquʼà ce quʼAdobe sʼassure que ces enregistrements ont été générés sans erreurs sur votre solution dʼhébergement. Cette opération peut prendre jusquʼà 2 minutes.
