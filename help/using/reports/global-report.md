@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 100%
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des e-mails et SMS   {#email-and-sms-metrics}
+### Dimensions et mesures Email et SMS {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td>Visites<br/> </td> 
    <td>Nombre de visites sur votre page de destination, y compris les visites multiples d’un seul destinataire.<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### Mesures des notifications push
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Mesure<br/> </th> 
-   <th> Définition<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Actions<br/> </td> 
-   <td> Nombre total d’actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Rebonds<br/> </td> 
-   <td> Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taux de rebond<br/> </td> 
-   <td> Pourcentage de notifications push ayant rebondi par rapport aux notifications push envoyées.<br/> </td>
-</tr>
-  <tr> 
-   <td> Diffusés<br/> </td> 
-   <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taux de diffusion<br/> </td> 
-   <td> Pourcentage de notifications push envoyées avec succès.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Engagements<br/> </td> 
-   <td> Nombre total d’ouvertures et d’actions pour cette notification push, c’est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taux d’engagement<br/> </td> 
-   <td> Pourcentage d’ouvertures et d’actions pour cette notification push, c’est-à-dire si le profil a ouvert la notification push ou si un utilisateur a cliqué sur un bouton.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Erreurs<br/> </td> 
-   <td> Nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Taux d’erreur<br/> </td> 
-   <td> Pourcentage d’erreurs survenues pendant une diffusion qui l’empêchent d’être envoyée par rapport aux notifications push envoyées.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Exclus<br/> </td> 
-   <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Ouvertures<br/> </td> 
-   <td> Nombre total de notifications push diffusées sur l'appareil et ayant fait l'objet d'un clic par les utilisateurs ouvrant l'application. Cette mesure est similaire au Clic push, sauf qu'une Ouverture push ne sera pas déclenchée si la notification a été ignorée.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Taux d'ouverture<br/> </td> 
-   <td> Pourcentage de notifications push ouvertes.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Envoyés<br/> </td> 
-   <td> Nombre total d’envois pour la diffusion.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Ciblés<br/> </td> 
-   <td> Nombre total de messages push traités lors de l’analyse de la diffusion.<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
