@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser les politiques de consentement
 description: Découvrez comment utiliser les stratégies de consentement Adobe Experience Platform
-feature: Data Governance
+feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
 keywords: politiques, gouvernance, plateforme, protection de la santé, consentement
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 98%
