@@ -5,13 +5,14 @@ title: À propos des sources de données
 description: Découvrez comment configurer une source de données.
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: données, source, parcours, plate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +45,7 @@ Pour chaque source de données, vous définissez les informations à récupérer
 >
 >Les relations de schémas ne sont pas prises en charge pour les sources de données.
 
-Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=fr){target=&quot;_blank&quot;}.
+Pour plus d’informations sur la configuration d’une source de données Adobe Experience Platform et d’une source de données externe, ainsi que sur la recherche et l’utilisation des données dans un parcours, regardez ce [tutoriel vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=fr){target="_blank"}.
 
 ## Vidéo pratique {#video}
 

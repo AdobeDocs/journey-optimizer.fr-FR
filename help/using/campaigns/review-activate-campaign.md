@@ -1,21 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Vérifier et activer une campagne
-description: Découvrez comment vérifier et activer des campagnes dans [!DNL Journey Optimizer]
+title: Vérification et activation d’une campagne
+description: Découvrez comment passer en revue et activer des campagnes dans Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campagne, révision, validation, activation, activation, optimisation
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 93%
 
 ---
 
-# Vérifier et activer une campagne {#review-activate}
+# Vérification et activation d’une campagne {#review-activate}
 
 Une fois votre campagne configurée, vous devez passer en revue son paramètre et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
 
@@ -33,9 +34,9 @@ Une fois votre campagne configurée, vous devez passer en revue son paramètre e
 
    ![](assets/create-campaign-review.png)
 
-1. La campagne est maintenant activée. Son état est soit **[!UICONTROL Actif]**, soit **[!UICONTROL Planifié]** si vous avez saisi une date de début. [En savoir plus sur les statuts des campagnes](get-started-with-campaigns.md#statuses).
+1. La campagne est maintenant activée. Son statut est soit **[!UICONTROL Actif]**, soit **[!UICONTROL Planifié]** si vous avez saisi une date de début. [En savoir plus sur les statuts des campagnes](get-started-with-campaigns.md#statuses).
 
-   Le message configuré dans la campagne est exécuté immédiatement ou à la date indiquée.
+   Le message configuré dans la campagne est envoyé immédiatement ou à la date indiquée.
 
    >[!NOTE]
    >

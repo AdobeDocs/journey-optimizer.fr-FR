@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des campagnes
-description: En savoir plus sur les campagnes dans [!DNL Journey Optimizer]
+description: En savoir plus sur les campagnes dans Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campagne, comment, démarrer, optimiseur
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 91%
 
 ---
 
@@ -20,13 +21,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Créez des campagnes pour diffuser du contenu ponctuel sur un segment spécifique sur différents canaux. Avant de créer une campagne, assurez-vous de disposer d’une surface de canal (c’est-à-dire un paramètre prédéfini de message) et d’un segment Adobe Experience Platform prêt à l’emploi."
+>abstract="Créez des campagnes pour diffuser du contenu ponctuel sur un segment spécifique sur différents canaux. Avant de créer une campagne, assurez-vous de disposer d’une surface de canal (c’est-à-dire un préréglage de message) et d’un segment Adobe Experience Platform prêt à l’emploi."
 
 Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur un segment spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
 Vous pouvez créer deux types de campagnes :
 
-* **Les campagnes planifiées** permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des avis juridiques ou des mises à jour de stratégie.
+* **Les campagnes planifiées** permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des avis juridiques ou des mises à jour de politique.
 * **Les campagnes déclenchées par API** permettent des messages transactionnels/opérationnels simples avec des API REST (réinitialisation de mot de passe, abandon de panier, etc.), où le besoin peut impliquer une personnalisation à l’aide d’attributs de profil et de données contextuelles issues de la payload.
 
 Suivez les étapes de création dʼune campagne décrites ci-après :
@@ -41,13 +42,13 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 1. **Il vous faut les autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs ayant accès à un **[!UICONTROL profil de produit]** associé à une campagne, tels que l’administrateur de la campagne, l’approbateur de la campagne, le responsable de la campagne et/ou l’observateur de la campagne.
 
-   Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues. Si vous avez accès à [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} pour votre organisation, procédez comme suit. Si ce n’est pas le cas, contactez votre administrateur Journey Optimizer.
+   Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues. Si vous avez accès à [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} pour votre organisation, suivez les étapes ci-dessous. Si ce n’est pas le cas, contactez votre administrateur Journey Optimizer.
 
    +++Découvrez comment attribuer des autorisations de campagne
 
    Pour attribuer le **[!UICONTROL profil de produit]** correspondant à vos utilisateurs :
 
-   1. Depuis [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, sélectionnez le produit [!DNL Adobe Experience Platform].
+   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, sélectionnez la variable [!DNL Adobe Experience Platform] produit.
 
    1. Accédez à l’onglet **[!UICONTROL Profil de produit]** , sélectionnez l’un des **[!UICONTROL profils de produit]** intégrés liés à la campagne : l’administrateur de la campagne, l’approbateur de la campagne, le responsable de la campagne ou l’observateur de la campagne.
 
@@ -65,7 +66,7 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 +++
 
 1. **Vous avez besoin d’une audience**. Les segments d’audience doivent être disponibles avant de créer la campagne. Pour en savoir plus sur la création d’une audience, consultez cette [page](../segment/about-segments.md).
-1. **Vous avez besoin d’une surface de canal**. Pour pouvoir sélectionner un canal, la surface du canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. Pour en savoir plus sur les surface de canal, consultez cette [page](../configuration/channel-surfaces.md).
+1. **Vous avez besoin d’une surface de canal**. Pour pouvoir sélectionner un canal, la surface de canal correspondante (c’est-à-dire le préréglage) doit être créée et disponible. Pour en savoir plus sur les surface de canal, consultez cette [page](../configuration/channel-surfaces.md).
 
 ## Vidéo pratique {#video}
 

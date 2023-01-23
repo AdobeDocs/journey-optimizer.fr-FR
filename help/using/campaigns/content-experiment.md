@@ -1,23 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer une expérience de contenu
+title: Création d’une expérience de contenu
 description: Découvrez comment créer une expérience de contenu dans vos campagnes
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
+keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
-# Créer une expérience de contenu {#content-experiment}
+# Création d’une expérience de contenu {#content-experiment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
@@ -45,7 +46,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ![](assets/content_experiment.png)
 
-## Créer votre campagne {#campaign-experiment}
+## Création de votre campagne {#campaign-experiment}
 
 1. Dans la page **[!UICONTROL Campagnes]**, cliquez sur **[!UICONTROL Créer une campagne]**.
 
@@ -76,7 +77,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_4.png)
 
-## Créer vos traitements {#treatment-experiment}
+## Création de vos traitements {#treatment-experiment}
 
 1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
 
@@ -102,7 +103,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 Une fois vos traitements personnalisés, vous pouvez commencer à configurer votre expérience de contenu.
 
-## Configurer votre expérience de contenu {#configure-experiment}
+## Configuration de votre expérience de contenu {#configure-experiment}
 
 1. Lorsque les deux diffusions sont personnalisées, dans la fenêtre **[!UICONTROL Modifier le contenu]**, sélectionnez **[!UICONTROL Configurer l’expérience de contenu]**.
 
@@ -144,13 +145,13 @@ Après avoir paramétré votre expérimentation et votre campagne, vous pouvez s
 
 ![](assets/performance_report.gif)
 
-L’onglet **[!UICONTROL Objectifs]** de votre rapport Campaign vous permet d’affiner davantage les rapports de vos diffusions en ciblant une mesure spécifique.
+L’onglet **[!UICONTROL Objectifs]** de votre rapport de campagne vous permet d’affiner davantage les rapports de vos diffusions en ciblant une mesure spécifique.
 
 Les **[!UICONTROL objectifs]** répertoriés sont liés aux **[!UICONTROL Jeux de données]** définissant une connexion à un système afin de récupérer des informations supplémentaires. Une liste d’**[!UICONTROL objectifs]** intégrés est disponible, mais vous pouvez l’accroître en ajoutant un nouveau **[!UICONTROL Jeu de données]**. Pour la procédure détaillée, consultez cette [section](reporting-configuration.md).
 
 Après avoir sélectionné les objectifs que vous souhaitez cibler, les deux widgets **[!UICONTROL Présentation des performances]** et **[!UICONTROL Objectif de la campagne]** fournissent un résumé détaillé des performances de votre diffusion.
 
-Avec le widget **[!UICONTROL Objectif de la campagne]** vous pouvez également choisir de comparer votre objectif principal à une autre mesure.
+Avec le widget **[!UICONTROL Objectif de la campagne]**, vous pouvez également choisir de comparer votre objectif principal à une autre mesure.
 
 Notez que chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 

@@ -1,21 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer une campagne
-description: Découvrez comment créer des campagnes dans  [!DNL Journey Optimizer]
+title: Création d’une campagne
+description: Découvrez comment créer des campagnes dans Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: créer, optimiser, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
-# Créer une campagne {#create-campaign}
+# Création d’une campagne {#create-campaign}
 
 >[!NOTE]
 >
@@ -34,7 +35,7 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Pour l’envoi d’un message marketing en spécifiant une date d’envoi, le type **Planifiée** est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon du panier, le type **Déclenchée par l’API** est le meilleur choix."
+>abstract="Pour l’envoi d’un message marketing en spécifiant une date d’envoi, le type **Planifiée** est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon du panier, le type **Déclenché par API** est le meilleur choix."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
@@ -49,7 +50,7 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur Créer.
 
-   Une surface est une configuration définie par un [administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
+   Une surface est une configuration définie par l’[administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
    ![](assets/create-campaign-action.png)
 
@@ -132,7 +133,7 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 
    >[!NOTE]
    >
-   >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de nommage) parmi leurs différentes identités ne seront pas ciblés par la campagne.
+   >Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblés par la campagne.
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
@@ -161,4 +162,4 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 
 ![](assets/create-campaign-schedule.png)
 
-Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](#review-activate)
+Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](review-activate-campaign.md)

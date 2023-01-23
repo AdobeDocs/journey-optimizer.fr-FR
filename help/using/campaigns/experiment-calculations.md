@@ -7,17 +7,18 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
+keywords: contenu, expérience, statistique, calcul
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '901'
+ht-degree: 99%
 
 ---
 
-# Comprendre les calculs statistiques {#experiment-calculations}
+# Présentation des calculs statistiques {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
@@ -29,7 +30,7 @@ L’expérimentation utilise des méthodes statistiques avancées pour calculer 
 
 Cet article décrit le fonctionnement de l’expérience et fournit une introduction intuitive aux **Séquences de confiance valides à tout moment** d’Adobe.
 
-Pour les utilisateurs experts, les détails techniques et les références sont présentés sur [cette page](../campaigns/assets/confidence_sequence_technical_details.pdf).
+Pour les personnes expertes, les détails techniques et les références sont présentés sur [cette page](../campaigns/assets/confidence_sequence_technical_details.pdf).
 
 ## Tests statistiques et erreurs de contrôle {#statistical-testing}
 
@@ -40,7 +41,7 @@ Comme illustré dans le tableau ci-dessus, de nombreuses méthodologies d’inf�
 * **Faux positifs (erreurs de type I)** : est un rejet incorrect de l’hypothèse nulle, alors qu’en fait elle est vraie. Dans le contexte des expériences en ligne, cela signifie que nous concluons faussement que la mesure des résultats est différente entre chaque traitement, bien qu’elle ait été la même.
    </br>Nous sélectionnons généralement un seuil avant de lancer l’expérience`\alpha`. Une fois l’expérience terminée, la variable `p-value` est calculée, et nous rejetons la valeur `null if p < \alpha`. Un seuil couramment utilisé est : `\alpha = 0.05`, ce qui signifie qu’à long terme, nous nous attendons à ce que 5 expériences sur 100 soient des faux positifs.
 
-* **Faux négatifs (erreurs de type II)** : signifie que nous ne parvenons pas à rejeter l’hypothèse nulle bien qu’elle soit fausse. Pour les expériences, cela signifie que nous ne rejetons pas l’hypothèse nulle, alors qu’en fait elle est différente. Pour contrôler ce type d’erreur, nous avons généralement besoin d’un nombre suffisant d’utilisateurs dans notre expérience pour garantir une certaine force, définie comme `1 - \beta`(soit 1 moins de probabilité d’erreur de type II).
+* **Faux négatifs (erreurs de type II)** : signifie que nous ne parvenons pas à rejeter l’hypothèse nulle bien qu’elle soit fausse. Pour les expériences, cela signifie que nous ne rejetons pas l’hypothèse nulle, alors qu’en fait elle est différente. Pour contrôler ce type d’erreur, nous avons généralement besoin d’un nombre suffisant d’utilisateurs dans notre expérience pour garantir une certaine force, définie comme `1 - \beta`(soit 1 moins la probabilité d’erreur de type II).
 
 La plupart des techniques d’inférence statistique nécessitent que vous fixiez préalablement la taille de l’échantillon, en fonction de la taille de l’effet que vous souhaitez déterminer, ainsi que votre tolérance d’erreur (`\alpha` et `\beta`) tout cela à l’avance. Toutefois, la méthodologie d’Adobe Journey Optimizer est conçue pour vous permettre d’examiner en permanence vos résultats, quelle que soit la taille de l’échantillon.
 
@@ -56,15 +57,15 @@ Les **Séquences de confiance** réorientent l’objectif des expériences vers 
 
 Toutefois, de la même manière qu’il existe une relation entre `p-values`, ou la **Confiance** et les **Intervalles de confiance**, il existe également une relation entre les **séquences de confiance** et les `p-values` valides à tout moment, ou la Confiance valide à tout moment. Étant donné la familiarité des quantités comme le degré de confiance, Adobe fournit dans ses rapports à la fois les **Séquences de confiance** et la Confiance valide à tout moment.
 
-Les fondements théoriques des **Séquences de confiance** proviennent de l’étude de séquences de variables aléatoires connues sous le nom de martingales. Voici quelques-uns des principaux résultats pour les lecteurs experts, mais les points essentiels à l’intention des praticiens sont clairs :
+Les fondements théoriques des **Séquences de confiance** proviennent de l’étude de séquences de variables aléatoires connues sous le nom de martingales. Voici quelques-uns des principaux résultats pour les personnes expertes, mais les points essentiels à l’intention des praticiens et des praticiennes sont clairs :
 
 >[!NOTE]
 >
->Les séquences de confiance peuvent être interprétées comme des analogies séquentielles sécurisées d’intervalles de confiance. Vous pouvez consulter et interpréter les données de vos expériences quand vous voulez, puis arrêter ou continuer les expériences en toute sécurité. L’attribut Confiance valide à tout moment correspond, ou `p-value`, peut également être interprété en toute sécurité.
+>Les séquences de confiance peuvent être interprétées comme des analogies séquentielles sécurisées d’intervalles de confiance. Vous pouvez consulter et interpréter les données de vos expériences quand vous voulez, puis arrêter ou continuer les expériences en toute sécurité. L’attribut Confiance valide à tout moment correspondant, ou `p-value`, peut également être interprété en toute sécurité.
 
 Il est important de noter que, puisque les séquences de confiance sont « valides à tout moment », elles seront plus conservatrices qu’une méthodologie d’horizon fixe utilisée à la même taille d’échantillon. Les limites de la séquence de confiance sont généralement plus larges qu’un calcul d’intervalle de confiance, tandis que le degré de confiance valide à tout moment sera plus petit qu’un calcul de confiance à horizon fixe. L’avantage de ce conventionnalisme est que vous pouvez en toute sécurité interpréter vos résultats à tout moment.
 
-## Déclarer une expérience concluante
+## Déclaration d’une expérience comme étant concluante
 
 ![](assets/experimentation_report_2.png)
 

@@ -6,11 +6,12 @@ description: Découvrez comment créer des requêtes dans Adobe Journey Optimi
 feature: Schemas
 role: User
 level: Beginner
+keywords: requêtes, plateforme, données, exploration
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 90%
 
 ---
 
@@ -22,9 +23,9 @@ Le requêteur prend en charge le développement de requête pour l’analyse et 
 
 ![](assets/queries-home.png)
 
-Découvrez comment utiliser le requêteur dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target=&quot;_blank&quot;}.
+Découvrez comment utiliser le requêteur dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target="_blank"}.
 
 **Voir également**
 
-* [Documentation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target=&quot;_blank&quot;}
-* [Vidéo de présentation de Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=fr){target=&quot;_blank&quot;}
+* [Documentation de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
+* [Vidéo de présentation de Query Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=fr){target="_blank"}

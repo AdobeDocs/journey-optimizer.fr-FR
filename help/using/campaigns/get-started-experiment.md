@@ -2,18 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main de l’expérience de contenu
-description: En savoir plus sur l’expérience de contenu dans [!DNL Journey Optimizer]
+description: En savoir plus sur l’expérience de contenu dans Journey Optimizer
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
+keywords: prise en main, démarrage, contenu, expérience
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1943'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +49,7 @@ Pour des expériences de contenu dans Adobe Journey Optimizer, vous pouvez teste
 
 L’expérimentation de contenu dans Adobe Journey Optimizer utilise un hachage pseudo-aléatoire de l’identité du visiteur pour affecter de manière aléatoire les utilisateurs de votre audience cible à l’un des traitements que vous avez définis. Le mécanisme de hachage garantit que, dans les scénarios où le visiteur entre plusieurs fois dans une campagne, il bénéficie du même traitement de manière déterministe.
 
-En détail, l’algorithme MumurHash3 32 bits est utilisé pour hacher la chaîne d’identité de l’utilisateur dans l’un des 10 000 compartiments. Dans une expérience de contenu avec 50 % du trafic affecté à chaque traitement, les utilisateurs qui tombent dans les compartiments 1 à 5 000 recevront le premier traitement, tandis que les utilisateurs qui se trouvent dans les compartiments 5 001 à 10 000 recevront le second traitement. Comme le hachage pseudo-aléatoire est utilisé, les divisions du visiteur que vous observez peuvent ne pas être exactement de 50 % d’une part et de l’autre ; néanmoins, le partage sera statistiquement équivalent à votre pourcentage de partage cible.
+En détail, l’algorithme MumurHash3 32 bits est utilisé pour hacher la chaîne d’identité de l’utilisateur dans l’un des 10 000 compartiments. Dans une expérience de contenu avec 50 % du trafic affecté à chaque traitement, les personnes qui entrent dans les compartiments 1 à 5 000 recevront le premier traitement, tandis que les utilisateurs qui se trouvent dans les compartiments 5 001 à 10 000 recevront le second traitement. Comme le hachage pseudo-aléatoire est utilisé, les divisions du visiteur que vous observez peuvent ne pas être exactement de 50 % d’une part et de l’autre ; néanmoins, le partage sera statistiquement équivalent à votre pourcentage de partage cible.
 
 Notez que dans le cadre de la configuration de chaque campagne avec une expérience de contenu, vous devez choisir un espace de noms d’identité à partir duquel l’identifiant d’utilisateur sera sélectionné pour l’algorithme de randomisation. Cela est indépendant des [adresses d’exécution](../configuration/primary-email-addresses.md).
 
@@ -65,7 +66,7 @@ Pour les mesures objectives directes dans lesquelles Adobe Journey Optimizer eff
 
 ![](assets/technote_2.png)
 
-Pour les objectifs indirects ou en « bas d’entonnoir » tels que les achats et les événements de réponse des utilisateurs finaux ne sont pas balisés avec des identifiants de campagne et de traitement, c’est-à-dire qu’un événement d’achat se produit après l’exposition à un traitement, il n’y a aucune association directe de cet achat avec une affectation de traitement préalable. Pour ces mesures, Adobe associe le traitement à l’événement de conversion en bas d’entonnoir si :
+Pour les objectifs indirects ou en « bas d’entonnoir » tels que les achats, les événements de réponse des utilisateurs finaux ne sont pas balisés avec des identifiants de campagne et de traitement, c’est-à-dire qu’un événement d’achat se produit après l’exposition à un traitement, il n’y a aucune association directe de cet achat avec une affectation de traitement préalable. Pour ces mesures, Adobe associe le traitement à l’événement de conversion en bas d’entonnoir si :
 
 * L’identité de l’utilisateur est la même au moment de l’affectation et de l’événement de conversion.
 * La conversion se produit dans les sept jours qui suivent l’affectation du traitement.
@@ -98,18 +99,18 @@ Si vous exécutez vos tests plus longtemps, vous pourrez détecter de plus petit
 Le nombre d’utilisateurs qui doivent être inclus dans votre expérience dépend de la taille de l’effet que vous souhaitez détecter, de l&#39;écart ou de la propagation de votre mesure d’objectif, ainsi que de votre tolérance pour les erreurs Faux positifs et Faux négatifs. Dans les expériences classiques, vous pouvez utiliser une [calculatrice de taille d’échantillons](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){_blank} pour déterminer la durée pendant laquelle vous devez exécuter votre test.
 +++
 
-+++Comprendre l’incertitude statistique
++++Comprenez l’incertitude statistique.
 
 Si vous exécutez une expérience dans laquelle 1 000 utilisateurs ont vu un traitement et que le taux de conversion est défini à 5 %. S’agirait-il du taux de conversion réel si tous vos utilisateurs étaient inclus ? Quel serait le véritable taux de conversion ?
 Les méthodes statistiques nous permettent de formaliser cette incertitude. L’un des concepts les plus importants à comprendre lors de l’exécution d’expériences en ligne est que les taux de conversion observés soient cohérents avec une plage de taux de conversion réels sous-jacents, ce qui signifie que vous devez attendre que ces estimations soient suffisamment précises, avant d’essayer de tirer une conclusion. Les intervalles de confiance et le degré de confiance nous aident à quantifier cette incertitude.
 +++
 
-+++Formuler de nouvelles hypothèses et tester continuellement
++++Formulez de nouvelles hypothèses et effectuez des tests continuellement
 
 Pour obtenir de véritables insights d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, poursuivez les expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec différentes modifications, sur différents segments, et en examinant l’impact sur les différentes mesures.
 +++
 
-## Interpréter les résultats de vos expériences {#interpret-results}
+## Interprétation des résultats de vos expériences {#interpret-results}
 
 ![](assets/experimentation_report_3.png)
 
@@ -164,7 +165,7 @@ Après avoir exécuté votre expérience, plusieurs actions de suivi sont possib
    Avec un résultat sans ambiguïté, vous pouvez déployer cette idée gagnante, soit en remettant le traitement le plus performant à tous vos clients, ou en créant de nouvelles campagnes où la structure du traitement le plus performant est répliquée.
    </br>Notez que dans un environnement dynamique, ce qui fonctionne bien à un moment donné, peut ne pas bien fonctionner plus tard.
 
-* **Exécution de tests de suivi**
+* **Exécuter des tests de suivi**
 
    Parfois, les résultats de vos expériences peuvent ne pas être concluants, soit parce qu’il n’y avait pas suffisamment de profils inclus pour détecter une différence de traitement, ou alors parce que les traitements que vous avez définis n’étaient pas suffisamment différents.
 

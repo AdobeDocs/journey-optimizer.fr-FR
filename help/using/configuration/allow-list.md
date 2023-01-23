@@ -7,11 +7,12 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '1034'
+ht-degree: 95%
 
 ---
 
@@ -141,7 +142,7 @@ Pour ce faire, suivez les étapes ci-après.
 
    >[!NOTE]
    >
-   >Tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ **[!UICONTROL Motif]**. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} par exemple.
+   >Tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ **[!UICONTROL Motif]**. La liste complète se trouve sur [cette page](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} par exemple.
 
 1. Cliquez sur **[!UICONTROL Envoyer]**.
 
@@ -153,7 +154,7 @@ Pour renseigner la liste autorisée, vous pouvez également appeler l’API de s
 
 Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
-Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target=&quot;_blank&quot;}.
+En savoir plus sur l’émission d’appels API dans [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"} documentation de référence.
 
 ## Logique de liste autorisée {#logic}
 
@@ -180,7 +181,7 @@ Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les
 
 ## Rapport d’exclusion {#reporting}
 
-Lorsque la liste autorisée est active, vous pouvez récupérer les adresses e-mail ou les domaines qui ont été exclus d’un envoi, car ils ne figuraient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;} pour effectuer les appels API ci-dessous.
+Lorsque la liste autorisée est active, vous pouvez récupérer les adresses e-mail ou les domaines qui ont été exclus d’un envoi, car ils ne figuraient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser la variable [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour effectuer les appels API ci-dessous.
 
 Pour obtenir le **nombre d’e-mails** qui n’ont pas été envoyés car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
 

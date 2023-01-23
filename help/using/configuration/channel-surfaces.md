@@ -7,20 +7,21 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: canal, surface, technique, paramètres, optimisation
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 99%
+source-wordcount: '1607'
+ht-degree: 98%
 
 ---
 
-# Configuration des surfaces de canal {#set-up-channel-surfaces}
+# Configurer des surfaces de canal {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="Surface"
->abstract="Une surface est une configuration définie par un administrateur système. Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc."
+>abstract="Une surface est une configuration définie par l’administrateur système. Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc."
 
 Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur, applications mobiles, configuration des SMS, etc.
 
@@ -135,7 +136,7 @@ Une fois créées, les surfaces de canaux peuvent avoir les statuts suivants :
 
 En cas d’échec de la création d’une surface de canal, les détails de chaque raison d’échec possible sont décrits ci-dessous.
 
-Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} pour obtenir de l’aide.
+Si l’une de ces erreurs se produit, contactez [Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} pour obtenir de l’aide.
 
 * **Échec de la validation SPF** : SPF (Sender Policy Framework) est un protocole d’authentification d’e-mail qui permet de spécifier des adresses IP autorisées pouvant envoyer des e-mails à partir d’un sous-domaine donné. L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les e-mails aux fournisseurs de messagerie.
 
