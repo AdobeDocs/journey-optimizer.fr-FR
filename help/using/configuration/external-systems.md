@@ -14,8 +14,7 @@ ht-degree: 99%
 
 ---
 
-# Intégration avec des systèmes externes
- {#external-systems}
+# Intégration avec des systèmes externes {#external-systems}
 
 Cette page présente les différentes barrières de sécurité fournies par Journey Optimizer lors de l&#39;intégration d&#39;un système externe, ainsi que les bonnes pratiques : comment optimiser la protection de votre système externe à l&#39;aide de l&#39;API de limitation, comment configurer le délai d&#39;expiration du parcours et comment les reprises fonctionnent.
 
