@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: opt-out, email, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 95%
 
 ---
 
@@ -59,7 +60,7 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 ### Implémenter un appel API pour le processus d’opt-out {#opt-out-api}
 
-Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} pour mettre à jour les préférences des profils correspondants.
+Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Adobe Developer](https://developer.adobe.com/){target="_blank"} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel POST est le suivant :
 
@@ -97,7 +98,7 @@ Contenu de la requête :
 }
 ```
 
-[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant par le biais de l’appel API [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant via l’ [Adobe Developer](https://developer.adobe.com){target="_blank"} appel API.
 
 ### Envoyer le message avec le lien de désinscription {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ Une fois que vous avez configuré le lien de désinscription sur votre page de d
 
    Par conséquent, cet utilisateur ne recevra aucune communication de votre marque à moins d&#39;être de nouveau abonné.
 
-1. Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform puis au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target=&quot;_blank&quot;}.
+1. Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform et accédez au profil en sélectionnant un espace de noms d&#39;identité et une valeur d&#39;identité correspondante. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ En fonction du client de messagerie, cliquer sur le lien de désabonnement de l&
    >
    >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune page de destination ne s&#39;affichera.
 
-* Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target=&quot;_blank&quot;}.
+* Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.

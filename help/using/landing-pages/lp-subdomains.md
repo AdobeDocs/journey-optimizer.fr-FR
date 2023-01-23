@@ -5,11 +5,12 @@ title: Configurer les sous-domaines des pages de destination
 description: Découvrez comment configurer des sous-domaines de page de destination avec Journey Optimizer
 role: Admin
 level: Intermediate
+keywords: landing, landing page, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 99%
 
 ---
 

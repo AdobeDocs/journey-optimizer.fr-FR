@@ -7,15 +7,16 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: landing, landing page, conception, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 96%
 
 ---
 
-# Conception du contenu de la page de destination {#design-lp}
+# Concevoir le contenu de la page de destination {#design-lp}
 
 Pour commencer à créer du contenu pour la [page principale](create-lp.md#configure-primary-page) ou [sous-page](create-lp.md#configure-subpages) de votre page de destination, placez le pointeur de la souris sur le contenu de votre page, puis cliquez sur **[!UICONTROL Ouvrir le concepteur]**. Vous pouvez également cliquer sur le bouton correspondant dans la palette de droite.
 

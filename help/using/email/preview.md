@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: aperçu, contenu, email, BAT, test, profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 100%
+source-wordcount: '1014'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 Une fois le contenu votre d’e-mail défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
-Pour détecter d’éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT pour tester les profils. Un BAT doit être envoyé chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent.
+Pour détecter d&#39;éventuelles erreurs dans le contenu des e-mails ou les paramètres de personnalisation, envoyez des BAT aux profils de test. Un BAT doit être envoyé chaque fois qu’une modification est apportée, afin de valider le contenu le plus récent.
 
 >[!CAUTION]
 >

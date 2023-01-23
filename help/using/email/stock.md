@@ -7,11 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: stock, images, intégration, photos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 Le plug-in d’intégration d’[!DNL Adobe Stock] et du Concepteur d’e-mail [!DNL Adobe Journey Optimizer] fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} permet d’accéder à des millions de photos, vidéos, illustrations et graphiques vectoriels de qualité supérieure, organisés et libres de droits. Vous pouvez choisir d’acheter un pack de crédits pour acquérir des ressources sous licence ou d’acheter uniquement une licence Standard ou Étendue pour la ressource nécessaire. Adobe Stock fournit également une collection gratuite de ressources.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} permet d’accéder à des millions de photos, vidéos, illustrations et graphiques vectoriels de haute qualité, organisés et libres de droits. Vous pouvez choisir d’acheter un pack de crédits pour acquérir des ressources sous licence ou d’acheter uniquement une licence Standard ou Étendue pour la ressource nécessaire. Adobe Stock fournit également une collection gratuite de ressources.
 
 Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos e-mails directement depuis [!DNL Adobe Stock] et les ajouter à votre dossier **[!UICONTROL Ressources]** à l’aide de l’option **[!UICONTROL Trouver des photos Adobe Stock]**. En outre, l’option **[!UICONTROL Trouver des photos Stock similaires]** vous permet de trouver les images correspondant au contenu, à la couleur et à la composition de la ressource utilisée dans votre diffusion.
 
@@ -29,7 +30,7 @@ Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos e-m
 
 Les options **[!UICONTROL Trouver des photos Adobe Stock]** et **[!UICONTROL Rechercher une image similaire]** sont disponibles pour les utilisateurs ayant accès à un profil de produit AEM Assets Essentials.
 
-Pour en savoir plus à ce sujet, consultez la [documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-users-to-essentials){target=&quot;_blank&quot;}.
+Pour en savoir plus à ce sujet, consultez la [documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-users-to-essentials){target="_blank"}.
 
 ## Insérer une image depuis [!DNL Adobe Stock] {#add-stock-image}
 
@@ -87,7 +88,7 @@ Pour acquérir votre image sous licence et la télécharger, procédez comme sui
 
    Cet achat dépend de votre abonnement ou de votre formule Adobe Stock. Si vous disposez de plusieurs comptes Adobe Stock, vous serez redirigé vers le dernier identifiant Stock utilisé. Dans ce cas, assurez-vous d’être connecté au compte approprié avant d’obtenir une licence pour votre ressource.
 
-   Pour en savoir plus sur les tarifs et les forfaits Adobe Stock, consultez la [Documentation Adobe Stock](https://stock.adobe.com/plans){target=&quot;_blank&quot;}.
+   Pour en savoir plus sur les tarifs et les forfaits Adobe Stock, consultez la [Documentation Adobe Stock](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > Si un e-mail contenant une image sans licence est envoyé, l’image conserve son aspect sans licence avec le filigrane.
@@ -102,5 +103,5 @@ Pour acquérir votre image sous licence et la télécharger, procédez comme sui
 
 * [Conception d’e-mails dans Journey Optimizer](get-started-email-design.md)
 * [Paramètres des composants pour la conception d’un e-mail](content-components.md)
-* [Prise en main d’Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}.
+* [Prise en main d’Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

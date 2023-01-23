@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expression, éditeur, aide, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1051'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +53,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Créez un événement dont le schéma inclut le tableau `productListItems`.
 1. Définissez tous les champs de ce tableau comme champs de payload pour cet événement.
 
-   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target=&quot;_blank&quot;}.
+   Apprenez-en davantage sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target="_blank"}.
 
 1. Créez un parcours commençant par cet événement.
 1. Ajoutez une activité **E-mail** au parcours.
@@ -105,7 +106,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target=&quot;_blank&quot;}.
+      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 

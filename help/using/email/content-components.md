@@ -7,11 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: composants, Concepteur d’email, éditeur, email
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 100%
+source-wordcount: '1383'
+ht-degree: 99%
 
 ---
 
@@ -157,7 +158,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image dans vos ressources.
 
-   Pour en savoir plus sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target=&quot;_blank&quot;}.
+   Pour en savoir plus sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur le nouveau composant ajouté et configurez les propriétés de votre image à l’aide du volet **[!UICONTROL Paramètres des composants]** :
 

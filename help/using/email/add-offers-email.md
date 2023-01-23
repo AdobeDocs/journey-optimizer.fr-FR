@@ -7,15 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: offres, décision, emails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 99%
 
 ---
 
-# Ajout d&#39;offres personnalisées {#deliver-personalized-offers}
+# Ajout d’offres personnalisées {#deliver-personalized-offers}
 
 Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de gestion des décisions afin de sélectionner la meilleure offre à proposer à vos client(e)s.
 
