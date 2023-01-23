@@ -3,13 +3,14 @@ product: journey optimizer
 title: endWith
 description: En savoir plus sur la fonction endWith
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: endWith, fonction, expression, parcours
 exl-id: ae54c127-9de2-42fd-942c-664d2cfe66d2
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 100%
+source-wordcount: '47'
+ht-degree: 91%
 
 ---
 

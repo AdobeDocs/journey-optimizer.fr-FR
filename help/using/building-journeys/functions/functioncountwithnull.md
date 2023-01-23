@@ -3,13 +3,14 @@ product: journey optimizer
 title: countWithNull
 description: En savoir plus sur la fonction countWithNull
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: countWithNull, fonction, expression, parcours
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 100%
+source-wordcount: '53'
+ht-degree: 92%
 
 ---
 

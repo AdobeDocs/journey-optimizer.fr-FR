@@ -3,13 +3,14 @@ product: journey optimizer
 title: toDecimal
 description: En savoir plus sur la fonction toDecimal
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: decimal, fonction, expression, parcours
 exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 94%
 
 ---
 

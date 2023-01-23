@@ -3,13 +3,14 @@ product: journey optimizer
 title: distinctCount
 description: En savoir plus sur la fonction distinctCount
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: distinctCount, fonction, expression, parcours
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 100%
+source-wordcount: '53'
+ht-degree: 92%
 
 ---
 

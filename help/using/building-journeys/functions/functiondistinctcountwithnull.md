@@ -3,13 +3,14 @@ product: journey optimizer
 title: distinctCountWithNull
 description: En savoir plus sur la fonction distinctCountWithNull
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: distinctCountWithNull, fonction, expression, parcours
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 100%
+source-wordcount: '70'
+ht-degree: 94%
 
 ---
 

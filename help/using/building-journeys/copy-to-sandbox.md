@@ -5,12 +5,13 @@ title: Copier un parcours dans une autre sandbox
 description: Découvrez comment copier un parcours dans une autre sandbox
 feature: Journeys
 topic: Content Management
-role: User
+role: User, Developer
 level: Intermediate
+keywords: environnement de test, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b320a69b12abe14f745097403d7447e47c101596
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '837'
 ht-degree: 97%
 
 ---
