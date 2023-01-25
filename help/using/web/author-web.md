@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1097'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
 >[!CAUTION]
 >
->Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
+>Pour être accessible dans [!DNL Journey Optimizer], la page web doit être implémentée à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}.
 
 1. Dans l’onglet **[!UICONTROL Action]** de la campagne, sélectionnez **[!UICONTROL Modifier le contenu]** pour commencer à créer votre campagne web.
 
@@ -61,7 +61,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
 
    >[!CAUTION]
    >
-   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;}.
+   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Ouvrir le concepteur web]** pour la modifier. [En savoir plus](author-web.md)
 

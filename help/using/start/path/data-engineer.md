@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Découvrez comment **identifier des données et créer un schéma et un jeu de d
 
 >[!NOTE]
 >
->En savoir plus sur l’**ingestion de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target=&quot;_blank&quot;}.
+>En savoir plus sur l’**ingestion de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
 Les étapes de création d’un espace de noms d’identité et d’un jeu de données activé pour les profils, ainsi que les profils de test sont détaillés dans les sections ci-dessous :
 

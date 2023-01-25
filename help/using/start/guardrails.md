@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '935'
 ht-degree: 100%
 
 ---
 
 # Sécurité et limitations {#limitations}
 
-Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 Vous trouverez ci-dessous des éléments de sécurité et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
 
@@ -29,7 +29,7 @@ Vous trouverez ci-dessous des éléments de sécurité et des limitations suppl�
 
 ## Sécurisation de la gestion des décisions {#offer-guardrails}
 
-Les protections des performances et les limites statiques pour la prise des décisions sont répertoriées dans la [page de description du produit de service d’application d’Adobe Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+Les protections des performances et les limites statiques pour la prise des décisions sont répertoriées dans la [page de description du produit de service d’application d’Adobe Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Sécurisation des pages de destination {#lp-guardrails}

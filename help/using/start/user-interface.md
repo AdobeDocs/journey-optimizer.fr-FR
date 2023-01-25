@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1566'
+ht-degree: 99%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Connectez-vous à [Adobe Experience Cloud](http://experience.adobe.com) et naviguez jusqu’à [!DNL Journey Optimizer].
 
-Les concepts clés lors de la navigation dans l’interface utilisateur sont les mêmes que ceux d’Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+Les concepts clés lors de la navigation dans l’interface utilisateur sont les mêmes que ceux d’Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide).{target="_blank"}
 
-Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Pour toute question, contactez votre responsable Succès client Adobe.
+Les composants et fonctionnalités disponibles dans l&#39;interface utilisateur dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus](../data/get-started-queries.md)
 
-* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target=&quot;_blank&quot;}
+* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target="_blank"}
 
 **[!UICONTROL CONNEXIONS]**
 
@@ -88,7 +88,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Environnements Sandbox]** - Adobe Experience Platform fournit des environnements Sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l&#39;évolution d&#39;applications d&#39;expérience numérique. [En savoir plus](../administration/sandboxes.md)
 
-* **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target=&quot;_blank&quot;}
+* **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}
 
 
 ## Cas d&#39;utilisation internes au produit {#in-product-uc}
@@ -118,7 +118,7 @@ Les fonctionnalités d’accessibilité de [!DNL Adobe Journey Optimizer] sont h
 * Contraste des couleurs
 * Validation des champs obligatoires
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target="_blank"} dans la documentation de Adobe Experience Platform.
 
 Vous pouvez utiliser les raccourcis clavier suivants dans [!DNL Journey Optimizer]:
 
@@ -130,7 +130,7 @@ Vous pouvez utiliser les raccourcis clavier suivants dans [!DNL Journey Optimize
 | Sélection ou suppression d’un élément ciblé | Entrée ou Barre d’espace |
 | Annuler une sélection, réduire un panneau ou fermer une boîte de dialogue | Échap |
 
-[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target=&quot;_blank&quot;} dans la documentation d’Adobe Experience Platform.
+[En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=fr){target="_blank"} dans la documentation de Adobe Experience Platform.
 
 Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Optimizer :
 

@@ -159,7 +159,7 @@ ht-degree: 99%
 + Campagnes{#campaigns}
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Créer une campagne](using/campaigns/create-campaign.md)
-   + [Vérifier et activer une campagne](using/campaigns/review-activate-campaign.md)
+   + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)

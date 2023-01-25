@@ -99,11 +99,11 @@ Pour créer une notification push, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Mode de diffusion rapide"
->abstract="Le mode Diffusion rapide vous permet d’envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions."
+>abstract="Le mode de diffusion rapide vous permet d’envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions."
 
 Le mode de diffusion rapide, précédemment connu sous le nom de mode rafale dans les parcours, est un module complémentaire [!DNL Journey Optimizer] permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
 
-Le mode de diffusion rapide est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux utilisateurs qui ont installé votre application de canal d’actualités.
+Il est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux personnes qui ont installé votre application de canal d’actualités.
 
 Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
 
@@ -116,7 +116,7 @@ La messagerie en diffusion rapide est fournie avec les conditions suivantes :
 * L’audience cible doit contenir moins de 30 millions de profils.
 * Vous pouvez exécuter jusqu’à 5 campagnes simultanément à l’aide du mode de diffusion rapide.
 
-### Activer le mode de diffusion rapide
+### Activation du mode de diffusion rapide
 
 1. Créez une campagne de notification push et activez/désactivez l’option **[!UICONTROL Diffusion rapide]**.
 

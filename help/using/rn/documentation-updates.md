@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Mises à jour de la documentation
-description: En savoir plus sur les mises de la documentation la plus récente
+description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt

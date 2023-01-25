@@ -6,8 +6,8 @@ description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2070'
-ht-degree: 100%
+source-wordcount: '2068'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 </table>
 
 
-Voir également les [Notes de mise à jour d’octobre d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=fr){target=&quot;_blank&quot;} pour effectuer d’autres modifications. 
+Voir aussi [Notes de mise à jour de Adobe Experience Platform Octobre](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=fr){target="_blank"} pour d’autres modifications.
 
 ### Améliorations
 
