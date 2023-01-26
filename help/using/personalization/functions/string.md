@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 100%
+source-wordcount: '1808'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Découvrez comment utiliser les fonctions de chaîne dans l’éditeur d’expre
 
 La fonction `camelCase` met en majuscule la première lettre de chaque mot d&#39;une chaîne.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ La fonction suivante met en majuscule la première lettre du mot de l&#39;adress
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## Code Char à l’adresse {#char-code-at}
+
+Le `charCodeAt` renvoie la valeur ASCII d’un caractère, comme la fonction charCodeAt dans JavaScript. Il prend une chaîne et un entier (qui définissent la position du caractère) comme arguments d’entrée et renvoie sa valeur ASCII correspondante.
+
+**Syntaxe**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**Exemple**
+
+La fonction suivante renvoie la valeur ASCII de o, c’est-à-dire 111.
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Concat {#concate}
 
 La fonction `concat` combine deux chaînes en une seule.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ La fonction suivante combine la ville et le pays du profil dans une seule chaîn
 
 La fonction `contains` permet de déterminer si une chaîne contient une sous-chaîne donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ La fonction `contains` permet de déterminer si une chaîne contient une sous-ch
 
 La fonction `doesNotContain` permet de déterminer si une chaîne ne contient pas une sous-chaîne donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ La requête suivante détermine si l&#39;adresse e-mail de la personne ne contie
 
 La fonction `doesNotEndWith` permet de déterminer si une chaîne ne se termine pas par une sous-chaîne donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 La fonction `doesNotStartWith` permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ La requête suivante détermine si le nom de la personne ne commence pas par «�
 
 La fonction `encode64` est utilisée pour coder une chaîne afin de conserver les informations personnelles (PI) si elles doivent être incluses, par exemple, dans une URL.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ La fonction `encode64` est utilisée pour coder une chaîne afin de conserver le
 
 La fonction `endsWith` permet de déterminer si une chaîne se termine par une sous-chaîne donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ La requête suivante détermine si l&#39;adresse e-mail de la personne se termin
 
 La fonction `equals` permet de déterminer si une chaîne est égale à une chaîne donnée, en respectant la casse.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ La requête suivante détermine si le nom de la personne est « John » en res
 
 La fonction `equalsIgnoreCase` permet de déterminer si une chaîne est égale à la chaîne donnée, en respectant la casse.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ La requête suivante détermine si le nom de la personne est « John » sans r
 
 La fonction `extractEmailDomain` permet d&#39;extraire le domaine d&#39;une adresse e-mail.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ La requête suivante extrait le domaine de l&#39;adresse e-mail personnelle.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Format de devise {#format-currency}
+
+Le `formatCurrency` est utilisée pour convertir n’importe quel nombre en sa représentation monétaire sensible à la langue correspondante en fonction des paramètres régionaux transmis sous forme de chaîne dans le deuxième argument.
+
+**Syntaxe**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**Exemple**
+
+Cette requête renvoie £56.00
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## Obtenir l’hôte d’URL {#get-url-host}
 
 La fonction `getUrlHost` sert à récupérer le nom d’hôte d’une URL.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ Renvoie « www.myurl.com »
 
 La fonction `getUrlPath` sert à récupérer le chemin d’accès d’après le nom de domaine d’une URL.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ Renvoie « /contact.html »
 
 La fonction `getUrlProtocol` est utilisée pour récupérer le protocole d’une URL.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ Renvoie « http »
 
 La fonction `indexOf` est utilisée pour renvoyer la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ Renvoie 6.
 
 La fonction `isEmpty` permet de déterminer si une chaîne contient une chaîne est vide.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone mobil
 
 La fonction `isNotEmpty` sert à déterminer si une chaîne n’est pas vide.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ La fonction suivante renvoie &quot;true&quot; si le numéro de téléphone mobil
 
 La fonction `lastIndexOf` est utilisée pour renvoyer la position (dans le premier argument) de la dernière occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ Renvoie 7.
 
 La fonction `leftTrim` est utilisée pour supprimer les espaces blancs au début d&#39;une chaîne.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ La fonction `leftTrim` est utilisée pour supprimer les espaces blancs au début
 
 La fonction `length` est utilisée pour obtenir le nombre de caractères d&#39;une chaîne ou d&#39;une expression.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ La fonction suivante renvoie la longueur du nom de ville du profil.
 
 La fonction `like` permet de déterminer si une chaîne correspond à un modèle donné.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ Cette fonction convertit le prénom du profil en minuscules.
 
 La fonction `matches` permet de déterminer si une chaîne correspond à une expression régulière donnée. Reportez-vous à [ce document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) pour plus d&#39;informations concernant les modèles correspondants dans les expressions régulières.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ La requête suivante détermine si le nom de la personne commence par « John 
 
 La fonction `Mask` est utilisée pour remplacer une partie d’une chaîne par des caractères « X ».
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ La requête renvoie `1XXXXXX89`.
 
 La fonction `md5` est utilisée pour calculer et renvoyer le hachage md5 d’une chaîne.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ Renvoie « 5eb63bbe01eeed093cb22bb8f5acdc3 »
 
 La fonction `notEqualTo` permet de déterminer si une chaîne est différente d&#39;une chaîne donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ La requête suivante détermine si le nom de la personne n&#39;est pas « John�
 
 La fonction `notEqualWithIgnoreCase` sert à comparer deux chaînes qui ne respectent pas la casse.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ La requête suivante détermine si le nom de la personne n’est pas « john �
 
 La fonction `Group` est utilisée pour extraire des informations spécifiques en fonction de l&#39;expression régulière fournie.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ La requête suivante est utilisée pour extraire le nom de domaine d&#39;une adr
 
 La fonction `replace` permet de remplacer une sous-chaîne donnée dans une chaîne par une autre sous-chaîne.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ Renvoie « Bonjour Marc, voici votre newsletter mensuelle ! »
 
 La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d&#39;un texte correspondant à la &quot;cible&quot; par la chaîne littérale de &quot;remplacement&quot; spécifiée. Le remplacement s&#39;effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d&#39;un t
 
 La fonction `rightTrim` est utilisée pour supprimer les espaces blancs de la fin d&#39;une chaîne.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ La fonction `rightTrim` est utilisée pour supprimer les espaces blancs de la fi
 
 La fonction `split` est utilisée pour fractionner une chaîne selon un caractère donné.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ La fonction `split` est utilisée pour fractionner une chaîne selon un caractè
 
 La fonction `startsWith` permet de déterminer si une chaîne commence par une sous-chaîne donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ La requête suivante détermine si le nom de la personne commence par « Joe �
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Chaîne à date {#string-to-date}
+
+Le `stringToDate` convertit une valeur string en valeur date-time. Il comporte deux arguments : Représentation sous forme de chaîne d’une date et d’une heure et sous forme de chaîne du formateur.
+
+**Syntaxe**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**Exemple**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## Chaîne en entier {#string-to-integer}
 
 La fonction `string_to_integer` est utilisée pour convertir une valeur de chaîne en valeur entière.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ La fonction `string_to_integer` est utilisée pour convertir une valeur de chaî
 
 La fonction `stringToNumber` est utilisée pour convertir une chaîne en nombre. Elle renvoie la même chaîne que la sortie pour une entrée non valide.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ La fonction `stringToNumber` est utilisée pour convertir une chaîne en nombre.
 ## Sous-chaîne {#sub-string}
 
 La fonction `Count string` est utilisée pour renvoyer la sous-chaîne de l’expression de chaîne entre l’index de début et l’index de fin.
-**Format**
+**Syntaxe**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ Si la personne vit dans Washington high street, cette fonction renverra Washingt
 
 La fonction `toBool` est utilisée pour convertir une valeur d’argument en valeur booléenne, selon son type.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ La fonction `toBool` est utilisée pour convertir une valeur d’argument en val
 
 La fonction `toDateTime` est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ La fonction `toDateTime` est utilisée pour convertir une chaîne en date. Elle 
 
 ## En date/heure uniquement {#to-date-time-only}
 
-La fonction `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.
+Le `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide. Cette fonction accepte les types de champs string, date, long et int.
 
-**Format**
+**Syntaxe**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Taille{#trim}
+## Taille {#trim}
 
 La fonction **trim** supprime tous les espaces blancs du début et de la fin d&#39;une chaîne.
 
@@ -773,7 +825,7 @@ Cette fonction convertit le nom du profil en majuscules.
 
 La fonction `urlDecode` est utilisée pour décoder une chaîne codée en URL.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ La fonction `urlDecode` est utilisée pour décoder une chaîne codée en URL.
 
 La fonction `Count only null` est utilisée pour encoder une chaîne en URL.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= urlEncode(string) %}: string

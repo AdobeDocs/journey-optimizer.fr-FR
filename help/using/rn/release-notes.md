@@ -4,57 +4,107 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 20%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Cette page répertorie toutes les nouvelles fonctionnalités et améliorations d&#39;[!DNL Journey Optimizer]. Vous pouvez également consulter la page relative aux [dernières mises à jour de la documentation](documentation-updates.md) pour prendre connaissance des autres modifications.
+[!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour.
 
-[!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target=&quot;_blank&quot;}.
+Les notes de mise à jour précédentes sont disponibles dans [cette page](release-notes-2022.md). Vous pouvez également consulter la page relative aux [dernières mises à jour de la documentation](documentation-updates.md) pour prendre connaissance des autres modifications.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
+[!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+
+![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous au [newsletter trimestrielle Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour de produits, des articles passionnants, des cas d’utilisation, des conseils, etc. directement dans votre boîte de réception tous les trimestres.
 
 
-## Version d’octobre 2022 {#oct-2022-release}
+## Version de janvier 2023 {#jan-2023-release}
 
-<!--
+### Nouvelles fonctionnalités{#jan-2023-features}
 
-### New capability{#oct-2022-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+<th><strong>Hygiène des données</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
-<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+<p>Adobe Experience Platform fournit une suite de fonctionnalités d’hygiène des données qui vous permet de gérer vos données stockées par le biais de suppressions programmatiques des enregistrements de consommateurs et des jeux de données. Cette fonctionnalité est désormais disponible pour Adobe Journey Optimizer. </p>
+<p>Vous pouvez gérer vos entrepôts de données pour vous assurer que les informations sont utilisées comme prévu, qu’elles sont mises à jour lorsque des données incorrectes doivent être corrigées et qu’elles sont supprimées lorsque les stratégies d’entreprise le jugent nécessaire.</p>
+<p><strong>Attention</strong> - Actuellement, les fonctionnalités d’hygiène des données ne sont disponibles que pour les organisations qui ont acheté l’offre complémentaire Bouclier de santé.</p>
+<p>Pour plus d'informations, consultez la <a href="../privacy/data-hygiene.md">documentation détaillée</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--table>
+<thead>
+<tr>
+<th><strong>Email content templates</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
+<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table>
 -->
 
-### Améliorations {#oct-2022-improvements}
+### Améliorations {#jan-2023-improvements}
 
 **Parcours**
 
-* L’option **Forcer une reprise sur une périodicité** a été ajoutée dans les paramètres de planning de lecture de segment récurrent. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+<!--
+* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. [Learn more](../building-journeys/journey-gs.md#entrance)
+
+* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
+-->
+
+* Lors de l’ajout d’une **Qualification du segment** ou **Lecture de segment** dans un parcours, l’espace de noms est maintenant prérempli par défaut avec le dernier espace de noms utilisé. Reportez-vous à la section [Qualification du segment](../building-journeys/segment-qualification-events.md#about-segment-qualification) et [Lecture de segment](../building-journeys/read-segment.md#configuring-segment-trigger-activity) sections.
+
+* Dans la zone de travail du parcours, un nouveau bouton est disponible dans la barre d’outils. Il permet de télécharger une capture d’écran de votre parcours.
+
+**Concepteur d’email**
+
+* Vous pouvez désormais exporter le contenu de l’email à partir du **HTML d’exportation** . Les fichiers exportés sont disponibles dans un fichier d’archive (.ZIP).
 
 **Administration**
 
-* Un message a été ajouté à l’interface utilisateur pour signaler que les configurations du sous-domaine, du sous-domaine de la page de destination, de l’enregistrement PTR et du groupe d’adresses IP sont communes à toutes les sandbox. Toute modification de l’une de ces configurations aura donc un impact sur les sandbox de production.
-* Les étapes de chargement de la liste de suppression au format CSV à partir de l’interface utilisateur ont été modifiées. [En savoir plus](../configuration/manage-suppression-list.md#download-suppression-list)
+* Une nouvelle sous-section fournit des recommandations sur la création de la variable **Répondre à (email)** et assurer une gestion adéquate des réponses. [En savoir plus](../email/email-settings.md#reply-to-email).
+
+* Lors de la création ou de la modification **Groupes IP**, les enregistrements PTR associés sont désormais affichés dans la liste des adresses IP et lorsque vous passez la souris sur les adresses IP sélectionnées. [En savoir plus](../configuration/ip-pools.md#create-ip-pool).
+
+* Une fois qu’un pool d’adresses IP a été sélectionné à la surface d’un canal, les informations d’enregistrement du PTR sont désormais visibles lorsque vous pointez sur les adresses IP. [En savoir plus](../email/email-settings.md#subdomains-and-ip-pools).
+
+* Interface utilisateur pour la modification [Enregistrements PTR](../configuration/ptr-records.md#edit-ptr-record) et [Champs d&#39;exécution](../configuration/primary-email-addresses.md) a été mis à jour.
+
+* L’interface utilisateur de création et de modification des sous-domaines a été améliorée. [En savoir plus](../configuration/delegate-subdomain.md).
+
+* Liste de suppression **Chargements récents** a été mis à jour. [En savoir plus](../configuration/manage-suppression-list.md#recent-uploads)
 
 **Campagnes**
 
-* Désormais, vous pouvez archiver les campagnes terminées et arrêtées. [En savoir plus](../campaigns/modify-stop-campaign.md#archive)
+* Un exemple de requête cURL permettant l’exécution de campagnes déclenchées par l’API est désormais généré automatiquement et rendu disponible dans l’écran de la campagne. [En savoir plus](../campaigns/api-triggered-campaigns.md)
+
+<!--
+**Decision management**
+
+* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
+
+<!--* It is now possible to reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)-->
+
+**Personnalisation**
+
+* De nouvelles fonctions d’assistance sont disponibles : formatCurrency, charCodeAt, stringToDate, toString, formatNumber et toHexString. De plus, la fonction toDateTimeOnly accepte désormais les types de champs string, date, long et int. [En savoir plus](../personalization/functions/functions.md).
