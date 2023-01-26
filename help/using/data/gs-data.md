@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: données, gestion, plateforme
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 68%
+source-wordcount: '675'
+ht-degree: 65%
 
 ---
 
@@ -73,7 +73,7 @@ Vous pouvez utiliser la variable [!DNL Journey Optimizer]La flexibilité des don
 
 * **Purge et mécanismes d’archivage**[!DNL Adobe Journey Optimizer] : la purge et l’archivage des données peuvent être librement définis et automatisés dans afin d’automatiser les politiques de conservation des données. Il est possible de définir différentes politiques de vieillissement pour les différentes entités de données. Des mécanismes d’exportation peuvent également être définis pour exporter automatiquement les données âgées avant qu’elles ne soient purgées ou archivées.
 
-   L’espace de travail Hygiène des données dans l’interface utilisateur d’Adobe Experience Platform vous permet de créer et de surveiller diverses tâches d’hygiène des données, notamment la suppression des identités des clients et la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield (Bouclier de sécurité et de confidentialité) et Healthcare Shield (Bouclier santé). En savoir plus dans [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=fr){target="_blank"}.
+   L’espace de travail de l’hygiène des données vous permet de créer et de surveiller diverses tâches d’hygiène des données, notamment la suppression des identités des consommateurs et la planification de l’expiration des jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield (Bouclier de sécurité et de confidentialité) et Healthcare Shield (Bouclier santé). En savoir plus sur [cette page](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
