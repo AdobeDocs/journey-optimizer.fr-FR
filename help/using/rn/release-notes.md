@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,8 +38,8 @@ Les notes de mise à jour précédentes sont disponibles dans [cette page](relea
 <td>
 <p>Adobe Experience Platform fournit une suite de fonctionnalités d’hygiène des données qui vous permet de gérer vos données stockées par le biais de suppressions programmatiques des enregistrements de consommateurs et des jeux de données. Cette fonctionnalité est désormais disponible pour Adobe Journey Optimizer. </p>
 <p>Vous pouvez gérer vos entrepôts de données pour vous assurer que les informations sont utilisées comme prévu, qu’elles sont mises à jour lorsque des données incorrectes doivent être corrigées et qu’elles sont supprimées lorsque les stratégies d’entreprise le jugent nécessaire.</p>
-<p><strong>Attention</strong> - Actuellement, les fonctionnalités d’hygiène des données ne sont disponibles que pour les organisations qui ont acheté l’offre complémentaire Bouclier de santé.</p>
-<p>Pour plus d'informations, consultez la <a href="../privacy/data-hygiene.md">documentation détaillée</a>.
+<p><strong>Attention</strong> - Les fonctionnalités d’hygiène des données ne sont actuellement disponibles que pour les organisations qui ont acheté la variable <strong>Bouclier de santé</strong> et <strong>Protection de la vie privée et protection</strong> offres complémentaires.</p><p>Pour plus d'informations, consultez la <a href="../privacy/data-hygiene.md">documentation détaillée</a>.
+
 </td>
 </tr>
 </tbody>
@@ -78,7 +78,7 @@ Les notes de mise à jour précédentes sont disponibles dans [cette page](relea
 
 **Concepteur d’email**
 
-* Vous pouvez désormais exporter le contenu de l’email à partir du **HTML d’exportation** . Les fichiers exportés sont disponibles dans un fichier d’archive (.ZIP).
+* Vous pouvez désormais exporter le contenu de l’email à partir du **HTML d&#39;export** . Les fichiers exportés sont disponibles dans un fichier d’archive (.ZIP).
 
 **Administration**
 
