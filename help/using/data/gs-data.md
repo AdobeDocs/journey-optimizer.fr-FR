@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: données, gestion, plateforme
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 65%
+source-wordcount: '660'
+ht-degree: 64%
 
 ---
 
@@ -50,7 +50,11 @@ Dans l’ensemble, la flexibilité que vous souhaitez obtenir de vos données es
 <tr style="border: 0;">
   <td>
     <div><img alt="politique" src="assets/do-not-localize/policy.png" /> 
-    <br>Suppression d’une base de données dans un délai convenu pour votre politique - la suppression des données est un aspect important de la protection des données et une étape clé dans tous les processus de gouvernance des données. [!DNL Adobe Journey Optimizer] peut produire plus de données que nécessaire. En outre, vous souhaitez prêter plus d’attention à ce qui se passe après la durée requise pour un jeu de données, que ce soit en raison de son utilité ou de sa réglementation. Le contrôle dont vous avez besoin consiste à supprimer des données à un moment donné. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=fr">Pour en savoir plus sur l’hygiène de données, consultez la documentation relative à Adobe Experience Platform.</a></div>
+    <br>Suppression d’une base de données dans un délai convenu pour votre politique - la suppression des données est un aspect important de la protection des données et une étape clé dans tous les processus de gouvernance des données. [!DNL Adobe Journey Optimizer] peut produire plus de données que nécessaire. En outre, vous souhaitez prêter plus d’attention à ce qui se passe après la durée requise pour un jeu de données, que ce soit en raison de son utilité ou de sa réglementation. Le contrôle dont vous avez besoin consiste à supprimer des données à un moment donné. 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">En savoir plus</a>.</div>
+    </div>
   </td>
 </tr>
 </table>
