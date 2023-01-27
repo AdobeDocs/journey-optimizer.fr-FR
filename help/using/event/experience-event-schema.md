@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: schémas, XDM, plateforme, diffusion en continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Un schéma XDM destiné aux événements [!DNL Journey Optimizer] doit répondre
 
    ![](assets/schema3.png)
 
-* Vous devez déclarer un champ d’identité pour identifier le sujet de l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cela n’est pas recommandé.
+* Déclarez un champ d’identité pour l’identification des profils individuels dans l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cela n’est pas recommandé.
 
    ![](assets/schema4.png)
 

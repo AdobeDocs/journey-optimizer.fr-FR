@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Les fonctions booléennes sont utilisées pour exécuter une logique booléenne 
 
 La fonction `and` est utilisée pour convertir un nombre en pourcentage.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;or
 
 La fonction `or` est utilisée pour créer une disjonction logique.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ L&#39;opération suivante renverra toutes les personnes ayant pour pays d&#39;or
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 La fonction `=` (égal à) vérifie si une valeur ou expression est égale à une autre valeur ou expression.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ L&#39;opération suivante vérifie si le pays de l&#39;adresse du domicile est l
 
 La fonction `!=` (différent de) vérifie si une valeur ou expression est **différente** d&#39;une autre valeur ou expression.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ L&#39;opération suivante vérifie si le pays de l&#39;adresse du domicile n&#39
 
 La fonction `>` (supérieur à) permet de vérifier si la première valeur est supérieure à la seconde.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ L&#39;opération suivante définit les personnes nées strictement après 1970.
 
 La fonction `>=` (supérieur ou égal à) permet de vérifier si la première valeur est supérieure ou égale à la seconde.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ L&#39;opération suivante définit les personnes nées en 1970 ou après.
 
 La fonction `<` (inférieur à) permet de vérifier si la première valeur est inférieure à la seconde.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ L&#39;opération suivante définit les personnes nées avant 2000.
 
 La fonction `<=` (inférieur ou égal à) permet de vérifier si la première valeur est inférieure ou égale à la seconde.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= expression1 <= expression2 %}

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: suppression, liste, rebond, email, optimisation
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 97%
+source-wordcount: '1350'
+ht-degree: 92%
 
 ---
 
@@ -247,11 +247,17 @@ Pour ce faire, dans la vue **[!UICONTROL Liste de suppression]**, cliquez sur le
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-Les derniers téléchargements que vous avez envoyés et leurs statuts correspondants s’affichent.
+Les derniers téléchargements que vous avez envoyés et leurs statuts correspondants s’affichent:
 
-Si un rapport d&#39;erreur est associé à un fichier, vous pouvez le télécharger pour vérifier les erreurs rencontrées.
+* **[!UICONTROL En attente]**: Le chargement du fichier est en cours de traitement.
+* **[!UICONTROL Erreur]**: Le processus de chargement de fichier a échoué en raison d’un problème technique ou d’une erreur de format de fichier.
+* **[!UICONTROL Terminer]**: Le processus de chargement de fichier a été terminé.
 
-![](assets/suppression-list-recent-uploads-error.png)
+Lors du chargement, si certaines adresses ne sont pas au format correct, elles ne sont pas ajoutées à la variable [!DNL Journey Optimizer] liste de suppression.
+
+Dans ce cas, une fois le transfert terminé, il est associé à un rapport. Vous pouvez le télécharger pour vérifier les erreurs rencontrées<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 Vous trouverez ci-dessous un exemple du type d’entrées que vous pouvez trouver dans le rapport d’erreur :
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimisation, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 99%
+source-wordcount: '1070'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,10 @@ Lorsque Journey Optimizer exécute un appel à une API externe, les barrières 
 L&#39;API de limitation native offre une barrière de sécurité technique en amont qui permet de protéger votre système externe.
 
 Pour les sources de données externes, le nombre maximal d’appels par seconde est défini sur 15. Si le nombre d’appels dépasse 15 par seconde, les appels restants sont ignorés. Vous pouvez augmenter cette limite pour les sources de données externes privées. Contactez Adobe pour inclure le point d’entrée dans la liste autorisée. Cela n’est pas possible pour les sources de données externes publiques.
+
+>[!NOTE]
+>
+> Si une source de données utilise une authentification personnalisée avec un point de terminaison différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point de terminaison dans la liste autorisée de données.
 
 Pour les actions personnalisées, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une règle de limitation afin que votre système ne sature pas.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 99%
@@ -57,7 +57,7 @@ Cliquez sur les trois points en regard d’une page de destination pour sélecti
 >id="ajo_lp_access_management_labels"
 >title="Attribuer des libellés à votre page de destination"
 >abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations afin de gérer l&#39;accès aux données de votre page de destination à l&#39;aide de libellés."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Contrôle d’accès au niveau de l’objet"
 
 Suivez les étapes de création dʼune page de destination décrites ci-après.
 

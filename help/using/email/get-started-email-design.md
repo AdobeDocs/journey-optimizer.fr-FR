@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: email, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 98%
+source-wordcount: '317'
+ht-degree: 86%
 
 ---
 
@@ -52,6 +52,10 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
    * **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’e-mail dans [cette section](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. Une fois que le contenu de votre email a été défini et personnalisé, vous pouvez exporter votre contenu pour validation ou pour une utilisation ultérieure. Cliquez sur **[!UICONTROL HTML d&#39;export]** pour enregistrer sur votre ordinateur un fichier zip qui contiendra votre HTML et vos ressources.
+
+   ![](assets/email_designer_export.png)
 
 ## Vidéo pratique {#video}
 

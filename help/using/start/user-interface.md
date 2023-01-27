@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 99%
+source-wordcount: '1642'
+ht-degree: 94%
 
 ---
 
@@ -154,12 +154,32 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de Journey Op
   </tr>
   <tr>
     <td>Sélection de toutes les activités</td>
-    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Suppression des activités sélectionnées</td>
     <td>Suppr ou Retour arrière, puis Entrée pour confirmer la suppression</td>
   </tr>
+  <tr>
+    <td>Zoom avant et arrière (mise au point sur la zone de travail ou l’un de ses éléments enfants)</td>
+    <td>CTRL +/- (Windows) ou CMD +/- (Mac)</td>
+  </tr>  
+  <tr>
+    <td>Navigation entre chaque activité et chemin (mise au point sur la zone de travail) ou entre les boutons de la barre d’outils (mise au point sur la barre d’outils)</td>
+    <td>touches fléchées</td>
+  </tr>   
+  <tr>
+    <td>Déplacer la sélection vers l’élément exploitable suivant sur la zone de travail, la barre d’outils étant la première</td>
+    <td>Tabulation</td>
+  </tr>  
+  <tr>
+    <td>Ouvrez le volet de configuration approprié (focus sur une activité).</td>
+    <td>ENTRER</td>
+  </tr>   
+  <tr>
+    <td>Déplacer une activité dans la zone de travail (mise au point sur une activité)</td>
+    <td>Maj + touches fléchées</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

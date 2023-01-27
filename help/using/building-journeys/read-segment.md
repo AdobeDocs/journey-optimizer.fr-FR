@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, segment, plateforme
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 99%
+source-wordcount: '1342'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](assets/read-segment-copy.png)
 
-1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace)
+1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace)
 
    >[!NOTE]
    >

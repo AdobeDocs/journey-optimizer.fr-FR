@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 98%
@@ -169,13 +169,15 @@ Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en l�
 
 1. Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez terminé la création de cet enregistrement sur votre solution dʼhébergement, cochez la case « Je confirme... », puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   <!--![](assets/subdomain-cdn-url-validation.png)-->
 
    >[!NOTE]
    >
    >Vous pouvez également créer lʼenregistrement de validation et envoyer ultérieurement la configuration du sous-domaine à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en lʼouvrant à partir de la liste de sous-domaines.
 
 1. Une fois la délégation de sous-domaine CNAME envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](about-subdomain-delegation.md#access-delegated-subdomains).
+
+   ![](assets/subdomain-cname-processing.png)
 
    Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre quʼAdobe effectue les vérifications nécessaires, ce qui prend généralement 2 à 3 heures. En savoir plus dans [cette section](#subdomain-validation).
 

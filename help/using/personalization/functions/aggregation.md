@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Les fonctions d&#39;agrégation sont utilisées pour regrouper plusieurs valeurs
 
 La fonction `average` renvoie la moyenne arithmétique de toutes les valeurs sélectionnées dans le tableau.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ L&#39;opération suivante renvoie le prix moyen de toutes les commandes.
 
 La fonction `count` renvoie le nombre d&#39;éléments dans le tableau donné.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ L&#39;opération suivante renvoie le nombre de commandes dans le tableau.
 
 La fonction `max` renvoie la plus grande de toutes les valeurs sélectionnées dans le tableau.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ L&#39;opération suivante renvoie le prix le plus élevé de toutes les commande
 
 La fonction `min` renvoie la plus petite de toutes les valeurs sélectionnées dans le tableau.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ L&#39;opération suivante renvoie le prix le plus bas de toutes les commandes.
 
 La fonction `sum` renvoie la somme de toutes les valeurs sélectionnées dans le tableau.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= sum(array) %}

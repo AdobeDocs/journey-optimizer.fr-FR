@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1307'
 ht-degree: 99%
 
 ---
@@ -158,15 +158,16 @@ ht-degree: 99%
          + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
 + Campagnes{#campaigns}
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
-   + [Créer une campagne](using/campaigns/create-campaign.md)
+   + [Création d’une campagne](using/campaigns/create-campaign.md)
    + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
-      + [Créer une expérience de contenu](using/campaigns/content-experiment.md)
-      + [Comprendre les calculs statistiques](using/campaigns/experiment-calculations.md)
+      + [Création d’une expérience de contenu](using/campaigns/content-experiment.md)
+      + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
       + [Configurer des rapports d’expérimentation](using/campaigns/reporting-configuration.md)
-   + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
+      + [Calculs statistiques dans le rapport d’expérience](using/campaigns/experiment-report-calculations.md)
+   + [Déclenchement de campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Canal e-mail {#email}
    + [Prise en main des e-mails](using/email/get-started-email.md)
    + [Créer un e-mail](using/email/create-email.md)
@@ -213,7 +214,7 @@ ht-degree: 99%
       + [Configurer le canal de notifications push](using/push/push-configuration.md)
 + Canal SMS{#sms}
    + [Prise en main des SMS](using/sms/get-started-sms.md)
-   + [Créer un SMS](using/sms/create-sms.md)
+   + [Création d’un SMS](using/sms/create-sms.md)
    + [Envoyer un SMS](using/sms/send-sms.md)
    + [Gérer les désinscriptions aux SMS](using/sms/sms-opt-out.md)
    + [Configurer le canal SMS](using/sms/sms-configuration.md)
@@ -464,6 +465,7 @@ ht-degree: 99%
    + [Prise en main de la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
    + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
+   + [Exécution des opérations d’hygiène des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
       + [Utiliser les politiques de consentement](using/action/consent.md)

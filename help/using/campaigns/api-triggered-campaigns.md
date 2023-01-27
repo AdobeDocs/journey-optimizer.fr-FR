@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, déclenchée par l’API, REST, optimiseur, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 98%
+source-wordcount: '817'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,8 @@ Pour cela, vous devez d’abord créer une campagne déclenchée par une API dan
 Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS et les messages push.
 
 ## Création d’une campagne déclenchée par une API {#create}
+
+### Configurer et activer l&#39;opération {#create-activate}
 
 Le processus de création de campagnes déclenchées par API reste identique aux campagnes planifiées, à l’exception de la sélection d’audiences qui est effectuée dans la payload de l’API. Vous trouverez des informations détaillées sur la création d’une campagne dans [cette section](create-campaign.md).
 
@@ -55,11 +57,23 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
 
    Si vous configurez une date de début et/ou de fin spécifique pour une campagne, elle ne sera pas exécutée en dehors de ces dates et les appels API échoueront si la campagne est déclenchée par des API.
 
-1. Dans la section **[!UICONTROL requête cURL]**, récupérez la variable **[!UICONTROL Identifiant de campagne]** à utiliser dans la payload de l’API.
+1. Cliquez sur **[!UICONTROL Examiner pour activer]** pour vérifier que votre campagne est correctement paramétrée, puis activez-la.
+
+Vous êtes maintenant prêt à exécuter la campagne à partir des API. [En savoir plus](#execute).
+
+### Exécution de la campagne {#execute}
+
+Une fois votre campagne activée, vous devez récupérer l’exemple de requête cURL généré et l’utiliser dans l’API pour créer votre payload et déclencher la campagne.
+
+1. Ouvrez la campagne, puis copiez-collez l’exemple de requête du **[!UICONTROL requête cURL]** .
 
    ![](assets/api-triggered-curl.png)
 
-1. Cliquez sur **[!UICONTROL Examiner pour activer]** pour vérifier que votre campagne est correctement paramétrée, puis activez-la.
+1. Utilisez cette requête cURL dans les API pour créer votre payload et déclencher la campagne. Pour plus d’informations, reportez-vous à la section [Documentation de l’API d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >Si vous avez configuré une date de début et/ou de fin spécifique lors de la création de la campagne, elle ne sera pas exécutée en dehors de ces dates et les appels API échoueront.
 
 ## Utilisation d’attributs contextuels dans des campagnes déclenchées par API {#contextual}
 
@@ -82,16 +96,6 @@ La syntaxe `{{context.<contextualAttribute>}}` est mappée à un type de donnée
 >La syntaxe `context.system` est limitée à l’utilisation interne d’Adobe uniquement et ne doit pas être utilisée pour transmettre des attributs contextuels.
 
 Notez que, pour l’instant, aucun attribut contextuel n’est disponible dans le menu du rail de gauche. Les attributs doivent être saisis directement dans votre expression de personnalisation, sans vérification effectuée par [!DNL Journey Optimizer].
-
-## Exécution de la campagne {#execute}
-
-Pour exécuter une campagne déclenchée par une API, vous devez d’abord récupérer son identifiant et le transmettre à la payload de l’API. Pour ce faire, ouvrez la campagne, puis copiez-collez l’identifiant à partir de la section **[!UICONTROL requête cURL]**.
-
-![](assets/api-triggered-id.png)
-
-Vous pouvez ensuite utiliser cet identifiant dans la payload de votre API pour déclencher la campagne. Reportez-vous à la[Documentation de l’API d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) pour plus d’informations.
-
-Notez que si vous avez configuré une date de début et/ou de fin spécifique lors de la création de la campagne, elle ne sera pas exécutée en dehors de ces dates et les appels API échoueront.
 
 ## Création de profils lors de l’exécution de la campagne {#profile-creation}
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 95%
@@ -21,7 +21,7 @@ Utilisez ces fonctions pour faciliter l&#39;interaction avec des tableaux, des l
 
 La fonction `countOnlyNull` sert à compter le nombre de valeurs nulles dans une liste.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ Renvoie 3.
 
 La fonction `countWithNull` est utilisée pour compter tous les éléments d’une liste, y compris les valeurs nulles.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ Renvoie 6.
 
 La fonction `distinct` est utilisée pour obtenir les valeurs d&#39;un tableau ou d&#39;une liste dont les valeurs en double sont supprimées.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ L&#39;opération suivante définit les personnes qui ont passé des commandes da
 
 La fonction `distinctCountWithNull` sert à compter le nombre de valeurs différentes dans une liste, y compris les valeurs nulles.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ Renvoie 3.
 
 La fonction `head` est utilisée pour renvoyer le premier élément dans un tableau ou une liste.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ L&#39;opération suivante renvoie la première des cinq principales commandes au
 
 La fonction `topN` est utilisée pour renvoyer les premiers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ L’opération suivante renvoie les cinq premières commandes au prix le plus ba
 
 La fonction `in` permet de déterminer si un élément est un membre d&#39;un tableau ou d&#39;une liste.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ L&#39;opération suivante définit les personnes dont l&#39;anniversaire est en 
 
 La fonction `includes` permet de déterminer si un tableau ou une liste contient un élément donné.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ L&#39;opération suivante définit les personnes dont le rouge est l&#39;une des
 
 La fonction `intersects` permet de déterminer si deux tableaux ou deux listes ont au moins un membre commun.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ L&#39;opération suivante définit les personnes dont les couleurs préférées 
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 La fonction `bottomN` est utilisée pour renvoyer les derniers éléments `N` d’un tableau, lorsqu’ils sont triés dans l’ordre croissant en fonction d’une expression numérique donnée.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ La fonction `notIn` permet de déterminer si un élément n&#39;est pas un membr
 >
 >La fonction `notIn` assure *également* qu&#39;aucune valeur n&#39;est nulle. Par conséquent, les résultats ne sont pas une négation exacte de la fonction `in`.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ L&#39;opération suivante définit les personnes dont l&#39;anniversaire n&#39;e
 
 La fonction `subsetOf` sert à déterminer si un tableau spécifique (tableau A) est un sous-ensemble d&#39;un autre tableau (tableau B). En d&#39;autres termes, elle permet de déterminer si tous les éléments du tableau A sont des éléments du tableau B.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ L&#39;opération suivante définit les personnes qui ont visité toutes leurs vi
 
 La fonction `supersetOf` sert à déterminer si un tableau spécifique (tableau A) est un sur-ensemble d&#39;un autre tableau (tableau B). En d&#39;autres termes, elle permet de déterminer si le tableau A contient tous les éléments du tableau B.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= supersetOf(array1, array2) %}

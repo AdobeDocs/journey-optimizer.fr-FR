@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Les fonctions arithmétiques sont utilisées pour effectuer des calculs de base 
 
 La fonction `+` (addition) est utilisée pour trouver la somme de deux expressions d&#39;argument.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= double + double %}
@@ -39,7 +39,7 @@ L&#39;opération suivante additionne le prix de deux produits différents.
 
 La fonction `*` (multiplication) est utilisée pour trouver le produit de deux expressions d&#39;argument.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= double * double %}
@@ -57,7 +57,7 @@ L&#39;opération suivante trouve le produit de l&#39;inventaire et du prix d&#39
 
 La fonction `-` (soustraction) permet de trouver la différence entre deux expressions d&#39;argument.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= double - double %}
@@ -75,7 +75,7 @@ L&#39;opération suivante trouve la différence de prix entre deux produits diff
 
 La fonction `/` (division) est utilisée pour trouver le quotient de deux expressions d&#39;argument.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= double / double %}
@@ -93,7 +93,7 @@ L&#39;opération suivante trouve le quotient entre le total des produits vendus 
 
 La fonction `%` (modulo/reste) est utilisée pour trouver le reste après la division des deux expressions d&#39;argument.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= double % double %}

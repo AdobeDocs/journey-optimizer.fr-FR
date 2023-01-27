@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3583'
 ht-degree: 99%
 
 ---
@@ -14,6 +14,47 @@ ht-degree: 99%
 # Notes de mise à jour 2022 {#release-notes-2022}
 
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2022.
+
+
+
+## Version d’octobre 2022 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### Améliorations {#oct-2022-improvements}
+
+**Parcours**
+
+* L’option **Forcer une reprise sur une périodicité** a été ajoutée dans les paramètres de planning de lecture de segment récurrent. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Administration**
+
+* Un message a été ajouté à l’interface utilisateur pour signaler que les configurations du sous-domaine, du sous-domaine de la page de destination, de l’enregistrement PTR et du groupe d’adresses IP sont communes à toutes les sandbox. Toute modification de l’une de ces configurations aura donc un impact sur les sandbox de production.
+* Les étapes de chargement de la liste de suppression au format CSV à partir de l’interface utilisateur ont été modifiées. [En savoir plus](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**Campagnes**
+
+* Désormais, vous pouvez archiver les campagnes terminées et arrêtées. [En savoir plus](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## Version de septembre 2022{#sept-2022-release}

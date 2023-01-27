@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 La fonction `isNull` détermine si une référence d&#39;objet n&#39;existe pas.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= isNull(object) %}
@@ -37,7 +37,7 @@ L&#39;opération suivante vérifie si l&#39;adresse de la personne n&#39;existe 
 
 La fonction `isNotNull` détermine si une référence d&#39;objet existe.
 
-**Format**
+**Syntaxe**
 
 ```sql
 {%= isNotNull(object) %}
