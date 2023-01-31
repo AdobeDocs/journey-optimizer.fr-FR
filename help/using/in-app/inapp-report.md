@@ -10,9 +10,9 @@ hidefromtoc: true
 keywords: in-app, message, rapport
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
