@@ -8,9 +8,9 @@ level: Experienced
 keywords: nowWithDelta, fonction, expression, parcours
 exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
