@@ -8,9 +8,9 @@ level: Experienced
 keywords: inLastYears, fonction, expression, parcours
 exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
