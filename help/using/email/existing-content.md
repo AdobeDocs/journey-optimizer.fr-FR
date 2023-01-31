@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: email, import, contenu, html, zip, css
+keywords: e-mail, importation, contenu, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Importation du contenu de vos e-mails {#existing-content}
+# Importer le contenu de vos e-mails {#existing-content}
 
 [!DNL Journey Optimizer] vous permet d&#39;importer du contenu HTML existant pour concevoir vos e-mails. Ce contenu peut être :
 
