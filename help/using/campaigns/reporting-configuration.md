@@ -7,14 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: configuration, expérimentation, création de rapports, optimiseur
+keywords: configuration, expérimentation, création de rapports, optimizer
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ Pour cette configuration, vous devez ajouter un ou plusieurs jeu(x) de données 
 ## Conditions préalables
 
 
-Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment le faire dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#create){target="_blank"}.
+Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment faire cela dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#create){target="_blank"}.
 
 * Vous pouvez uniquement ajouter des jeux de données de type événement.
 
-* Ces jeux de données doivent contenir au moins l’une des variables suivantes : [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}: **Détails de l’application**, **Détails du commerce**, **Détails web**.
+* Ces jeux de données doivent contenir au moins l’un des [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} suivants : **Détails de l’application**, **Détails du commerce**, **Détails web**.
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ Le tableau ci-dessous indique les mesures qui seront ajoutées à l’onglet **[
 
    >[!CAUTION]
    >
-   >Vous pouvez uniquement sélectionner un jeu de données de type événement, qui doit contenir au moins l’un des jeux de données pris en charge. [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}: **Détails de l’application**, **Détails du commerce**, **Détails web**. Si vous sélectionnez un jeu de données ne correspondant pas à ces critères, vous ne pourrez pas enregistrer vos modifications.
+   >Vous pouvez uniquement sélectionner un jeu de données de type événement, qui doit contenir au moins l’un des [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} pris en charge : **Détails de l’application**, **Détails du commerce**, **Détails web**. Si vous sélectionnez un jeu de données ne correspondant pas à ces critères, vous ne pourrez pas enregistrer vos modifications.
 
    ![](assets/reporting-config-datasets.png)
 
@@ -117,7 +117,7 @@ Le tableau ci-dessous indique les mesures qui seront ajoutées à l’onglet **[
 
    ![](assets/reporting-config-namespace.png)
 
-   Pour en savoir plus sur les espaces de noms d’identité, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
+   Pour en savoir plus sur les espaces de noms, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
 
 1. Enregistrez vos modifications pour ajouter le jeu de données sélectionné à la liste de configuration des rapports.
 
