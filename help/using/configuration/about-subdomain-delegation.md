@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Délégation de sous-domaines dans [!DNL Journey Optimizer]
-description: Découvrez comment déléguer vos sous-domaines
+description: Découvrez comment déléguer vos sous-domaines.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: sous-domaine, optimisation, délégation
+keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La création d&#39;un sous-domaine pour les campagnes e-mail permet aux marques 
 >
 >Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et à partir d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
-## Pourquoi configurer des sous-domaines ? {#why-set-up-subdomains}
+## Pourquoi configurer des sous-domaines ? {#why-set-up-subdomains}
 
 Un sous-domaine est une division de votre domaine qui peut être utilisée pour isoler vos marques ou divers types de trafics (par ex. messages transactionnels et communications marketing).
 
