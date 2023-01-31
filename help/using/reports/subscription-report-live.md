@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
->title="Rapport d&#39;abonnement dynamique"
->abstract="Le rapport en direct sur les abonnements permet de mesurer et de visualiser en temps réel l’activité de vos abonnés uniquement au cours des dernières 24 heures. Votre rapport est divisé en différents widgets détaillant vos abonnements et désabonnements. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+>title="Rapport d’abonnement dynamique"
+>abstract="Le rapport d’abonnement dynamique vous permet de mesurer et de visualiser en temps réel l’activité de vos abonné(e)s (limité aux dernières 24 heures). Celui-ci est composé de plusieurs widgets présentant vos abonnements et désabonnements. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
-Abonnement **[!UICONTROL Rapport en direct]** affiche uniquement des détails sur l’activité de vos abonnés au cours des dernières 24 heures. Pour mesurer vos abonnements sur une période sélectionnée, reportez-vous à la section [Rapport d&#39;abonnement global](subscription-report-global.md).
+Le **[!UICONTROL Rapport d’abonnement dynamique]** affiche uniquement des détails sur l’activité de vos abonné(e)s (limité aux dernières 24 heures). Pour mesurer vos abonnements sur une période sélectionnée, reportez-vous à la section [Rapport d’abonnement global](subscription-report-global.md).
 
 Pour accéder à vos rapports, cliquez sur l’icône **[!UICONTROL Rapport]** de votre liste d’abonnements sélectionnée.
 
