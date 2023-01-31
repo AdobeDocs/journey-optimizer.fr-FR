@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 99%
@@ -61,7 +61,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > prise de décision > critères > description**
++++ _experience > prise de décision > critères > description
 
 **Champ :** description
 **Titre :** description
@@ -110,7 +110,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décision > critères > emplacements**
++++_experience > prise de décision > critères > emplacements
 
 **Champ :** emplacements
 **Titre :** restrictions d&#39;emplacement 
@@ -125,7 +125,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décision > critères > profileConstraints**
++++_experience > prise de décision > critères > profileConstraints
 
 **Champ :** profileConstraints 
 **Titre :** contrainte de profil
@@ -205,7 +205,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > prise de décision > critères > classement**
++++_experience > prise de décision > critères > classement
 
 **Champ :** classement
 **Titre :** Détails du classement
@@ -292,7 +292,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **Champ :** _repo 
 **Type :** objet
