@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: email, modèles, conception
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 98%
+source-wordcount: '279'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,8 @@ Utilisez la section **[!UICONTROL Sélectionner un modèle de conception]** pour
 
 Vous pouvez choisir parmi les options suivantes :
 * 20 modèles d’e-mail prêts à l’emploi.
-* Modèles enregistrés. [En savoir plus](#use-saved-template)
+* Modèles d’email enregistrés. [En savoir plus](#use-saved-template).
+* Modèles de contenu. [En savoir plus](content-templates.md)
 
 ## Enregistrer en tant que modèle {#save-as-template}
 
@@ -34,6 +35,10 @@ Vous pouvez choisir parmi les options suivantes :
 >abstract="Le 25 juillet 2022, le menu Messages a disparu et les messages sont désormais créés directement à partir d’un parcours. Si vous souhaitez réutiliser vos messages hérités dans les parcours, vous devez les enregistrer en tant que modèles."
 
 Une fois que vous avez créé le [contenu de votre e-mail](get-started-email-design.md), vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
+
+>[!CAUTION]
+>
+>Pour enregistrer un contenu en tant que modèle, vous devez disposer de la variable **[!DNL Manage Library Items]** autorisation incluse dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
 1. Cliquez sur les points de suspension en haut à droite de l’écran.
 
@@ -46,6 +51,8 @@ Une fois que vous avez créé le [contenu de votre e-mail](get-started-email-des
    ![](assets/email_designer-template-name.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+Ce modèle est enregistré dans la liste des modèles de contenu. [En savoir plus](content-templates.md).
 
 La prochaine fois que vous créerez un e-mail, vous pourrez utiliser ce modèle pour créer votre contenu. [Voici comment procéder](#use-saved-template)
 

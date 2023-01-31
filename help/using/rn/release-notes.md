@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 645db980155993155a10d27f4ff59967b000442f
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '509'
+ht-degree: 19%
 
 ---
 
@@ -38,29 +38,32 @@ Les notes de mise à jour précédentes sont disponibles dans [cette page](relea
 <td>
 <p>Adobe Experience Platform fournit une suite de fonctionnalités d’hygiène des données qui vous permet de gérer vos données stockées par le biais de suppressions programmatiques des enregistrements de consommateurs et des jeux de données. Cette fonctionnalité est désormais disponible pour Adobe Journey Optimizer. </p>
 <p>Vous pouvez gérer vos entrepôts de données pour vous assurer que les informations sont utilisées comme prévu, qu’elles sont mises à jour lorsque des données incorrectes doivent être corrigées et qu’elles sont supprimées lorsque les stratégies d’entreprise le jugent nécessaire.</p>
-<p><strong>Attention</strong> - Les fonctionnalités d’hygiène des données ne sont actuellement disponibles que pour les organisations qui ont acheté la variable <strong>Bouclier de santé</strong> et <strong>Protection de la vie privée et protection</strong> offres complémentaires.</p><p>Pour plus d'informations, consultez la <a href="../privacy/data-hygiene.md">documentation détaillée</a>.
+<p><strong>Attention</strong> - Les fonctionnalités d’hygiène des données ne sont actuellement disponibles que pour les organisations qui ont acheté la variable <strong>Bouclier de santé</strong> et <strong>Protection de la vie privée et protection</strong> offres complémentaires.</p><p>Pour plus d’informations, consultez la <a href="../privacy/data-hygiene.md">documentation détaillée</a>.
 
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Email content templates</strong><br/></th>
+<th><strong>Modèles de contenu email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>Vous pouvez désormais créer des modèles de contenu autonomes qui peuvent être utilisés dans plusieurs parcours et campagnes pour une réutilisation rapide.</p> 
+</p>
+<!--img src="assets/do-not-localize/"/-->
+<p>Découvrez comment créer, modifier et utiliser des modèles de contenu dans <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">cette vidéo</a>.
+<p>Pour plus d'informations, consultez la <a href="../email/content-templates.md">documentation détaillée</a>.
+</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### Améliorations {#jan-2023-improvements}
 
@@ -78,7 +81,7 @@ Les notes de mise à jour précédentes sont disponibles dans [cette page](relea
 
 **Concepteur d’email**
 
-* Vous pouvez désormais exporter le contenu de l’email à partir du **HTML d&#39;export** . Les fichiers exportés sont disponibles dans un fichier d’archive (.ZIP).
+* Vous pouvez désormais exporter le contenu de l’email à partir du **HTML d’exportation** . Les fichiers exportés sont disponibles dans un fichier d’archive (.ZIP).
 
 **Administration**
 

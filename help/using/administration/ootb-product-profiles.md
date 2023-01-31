@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 97%
+source-wordcount: '1144'
+ht-degree: 91%
 
 ---
 
@@ -124,10 +124,20 @@ Ce profil de produit comprend les autorisations suivantes :
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-Le profil de produit **[!DNL Decisioning manager]** permet uniquement dʼaccéder au menu **[!UICONTROL Gestion des décisions]**. Les utilisateurs affectés à ce profil de produit ne pourront gérer, afficher et publier que les décisions.
+Le **[!DNL Decisioning manager]** le profil de produit permet uniquement d’accéder à la variable **[!UICONTROL Gestion des décisions]** . Les utilisateurs affectés à ce profil de produit ne pourront gérer, afficher et publier que les décisions.
 
 Ce profil de produit comprend les autorisations suivantes :
 
 | Fonctionnalité | Autorisations|
 |-|-|
 |Gestion des décisions| <ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des entités de prise de décision.</li><li>**[!DNL View decisions]** : accès en lecture seule aux entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li><li>**[!DNL Publish decisions]** : lʼactivation ou la désactivation des activités de prise de décision.</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+Le **[!DNL Content Library Manager]** le profil de produit permet uniquement d’accéder à la variable **[!UICONTROL Modèles de contenu]** . Les utilisateurs affectés à ce profil de produit ne pourront accéder à la bibliothèque de modèles que pour créer du contenu sans accéder aux parcours ou aux campagnes.
+
+Ce profil de produit comprend les autorisations suivantes :
+
+| Fonctionnalité | Autorisations| |-|-| |Bibliothèque Journey Optimizer| <ul><li>**[!DNL Manage library items]**: lire, créer, modifier et supprimer des éléments de la bibliothèque Journey Optimizer.</li><li>**[!DNL Manage simulate content]**: accès au **[!UICONTROL Simulation du contenu]** pour l’aperçu et le BAT.</li></ul>|
+|Gestion des décisions|<ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|

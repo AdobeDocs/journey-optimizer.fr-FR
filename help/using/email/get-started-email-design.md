@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: email, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 86%
@@ -45,7 +45,6 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
       >[!NOTE]
       >
       >Dans une campagne, vous pouvez également sélectionner le bouton **[!UICONTROL Éditeur de code]** à partir de l’écran **[!UICONTROL Modifier le contenu]** écran. [En savoir plus](create-email.md#define-email-content)
-
 
    * **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu d’e-mail dans [cette section](existing-content.md).
 
