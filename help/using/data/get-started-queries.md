@@ -6,12 +6,12 @@ description: Découvrez comment créer des requêtes dans Adobe Journey Optimi
 feature: Schemas
 role: User
 level: Beginner
-keywords: requêtes, plateforme, données, exploration
+keywords: requêtes, platform, données, exploration
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le requêteur prend en charge le développement de requête pour l’analyse et 
 
 ![](assets/queries-home.png)
 
-Découvrez comment utiliser le requêteur dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target="_blank"}.
+Découvrez comment utiliser Query Editor dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target="_blank"}.
 
 **Voir également**
 
