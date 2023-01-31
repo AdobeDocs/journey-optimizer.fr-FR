@@ -8,9 +8,9 @@ level: Intermediate
 keywords: artificiel, IA, intelligent, parcours, service
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les [!DNL Intelligent Services] sont basés sur Adobe Experience Platform et p
 
 L&#39;intégration entre [!DNL Journey Optimizer] et les [!DNL Intelligent Services] vous permet de tirer parti des prédictions des clients.
 
-L’IA dédiée aux clients fait partie des [!DNL Adobe Intelligent Services]. Elle permet de prévoir ce qu&#39;un client est susceptible de faire. Voir [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=fr){target="_blank"}.
+L’IA dédiée aux clients fait partie des [!DNL Adobe Intelligent Services]. Elle permet de prévoir ce qu&#39;un client est susceptible de faire. Consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=fr){target="_blank"}.
 
 L’IA dédiée aux clients permet aux marques de créer des scores basés sur machine learning d’attrition ou de conversion qui seront disponibles en tant qu’attributs de profil dans les profils Adobe Experience Platform (profil client en temps réel).
 
