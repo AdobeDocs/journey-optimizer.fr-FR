@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: délivrabilité, parcours, cas d’utilisation, email, réputation
+keywords: délivrabilité, parcours, cas d’utilisation, e-mail, réputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
