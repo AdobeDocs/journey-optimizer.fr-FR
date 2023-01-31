@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Dimensions et mesures Email et SMS {#email-and-sms-metrics}
+### Dimensions et mesures des e-mails et SMS {#email-and-sms-metrics}
 
 <table> 
  <thead> 
