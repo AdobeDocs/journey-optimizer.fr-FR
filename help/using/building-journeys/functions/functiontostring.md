@@ -8,9 +8,9 @@ level: Experienced
 keywords: toString, fonction, expression, parcours
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
