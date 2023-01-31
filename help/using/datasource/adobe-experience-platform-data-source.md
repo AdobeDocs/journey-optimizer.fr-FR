@@ -7,12 +7,12 @@ feature: Data Sources
 topic: Administration
 role: Admin, Developer
 level: Intermediate
-keywords: intégré, source, données, plateforme, intégration
+keywords: intégré, source, données, platform, intégration
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 >title="Source de données Adobe Experience Platform"
 >abstract="La source de données Adobe Experience Platform définit la connexion au profil client Adobe en temps réel. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Elle est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience."
 
-La source de données Adobe Experience Platform définit la connexion au profil client Adobe en temps réel. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience. Pour plus d’informations sur le de profil client Adobe en temps réel, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
+La source de données Adobe Experience Platform définit la connexion au profil client Adobe en temps réel. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Elle vous permet d&#39;utiliser les données de profil et les données des événements d&#39;expérience. Pour plus d’informations sur le profil client en temps réel d’Adobe, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
 
 Pour autoriser la connexion au service de profil client en temps réel, nous devons utiliser une clé afin d’identifier une personne, ainsi qu’un espace de noms qui contextualise la clé. Par conséquent, vous ne pouvez utiliser cette source de données que si vos parcours commencent par un événement contenant une clé et un espace de noms. [En savoir plus](../building-journeys/journey.md).
