@@ -8,9 +8,9 @@ level: Experienced
 keywords: replaceAll, fonction, expression, parcours
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
