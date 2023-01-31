@@ -6,12 +6,12 @@ description: Découvrez comment gérer l’entrée de profil.
 feature: Journeys
 role: User
 level: Intermediate
-keywords: rentrée, parcours, profil, récurrente
+keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez déséle
 
 ![](assets/journey-re-entrance.png)
 
-Lorsqu’un parcours se termine, son statut passe au mode **[!UICONTROL Fermé]**. Les nouveaux individus ne peuvent plus entrer dans le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement.
+Lorsqu’un parcours se termine, son statut passe au mode **[!UICONTROL Fermé]**. Aucune nouvelle personne ne peut entrer dans le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement.
 
 Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**.  [En savoir plus](journey-gs.md#global_timeout).
 
