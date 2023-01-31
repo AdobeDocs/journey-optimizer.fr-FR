@@ -9,38 +9,14 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 99%
+source-wordcount: '1026'
+ht-degree: 97%
 
 ---
 
 # Profils de produit intégrés {#ootb-product-profiles}
-
-
-## À propos des autorisations liées aux messages{#message-permissions}
-
-Adobe Journey Optimizer a publié de nouvelles fonctionnalités de création intégrées qui vous permettent de créer vos messages directement à partir d’un parcours ou d’une campagne.
-
-Cette fonctionnalité aura un impact sur les autorisations comme suit :
-
-| Nom de l’autorisation | Sera inclus dans |
-|:-:|:-:|
-| **[!DNL View Messages]** | **[!DNL View Journeys]** |
-| **[!DNL View Message reports]** | **[!DNL View Journeys Report]** |
-| **[!DNL Manage Messages]** | **[!DNL Manage Journey]** |
-| **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
-| **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
-
-**Après le 25 juillet**, les autorisations liées aux **messages** seront toujours disponibles, car les messages restent accessibles pour permettre la transition et vous pouvez toujours les enregistrer comme modèle.
-
-**À partir du 6 septembre**, les autorisations liées aux **messages** seront supprimées et les messages ne seront plus accessibles.
-
->[!WARNING]
->
->Si des utilisateurs sont affectés au profil de produit **[!DNL Message Manager]** uniquement, sans le profil de produit **[!DNL Journey manager]**, vous devez leur attribuer un nouveau profil de produit pour pouvoir continuer à modifier le contenu.
-
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -105,6 +81,7 @@ Ce profil de produit comprend les autorisations suivantes :
 |Gestion des décisions|<ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des décisions.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des stratégies de classement.</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]** : octroi de lʼaccès aux environnements sandbox.</li><li>**[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Read Identity namespace]** : accès en lecture seule à lʼespace de noms d’identité.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
 |Bibliothèque Journey Optimizer|<ul><li>**[!DNL Manage Library Items]** : ajoutez et supprimez des expressions enregistrées dans la bibliothèque [!DNL Journey Optimizer].</li></ul>|
+|Gouvernance des données|<ul><li>**[!DNL Manage usage label]**: lire, créer et supprimer des libellés d’utilisation.</li><li>**[!DNL Manage data usage policies]**: lire, créer, modifier et supprimer des stratégies d’utilisation des données.</li><li>**[!DNL View data usage policies]**: accès en lecture seule aux stratégies d’utilisation des données.</li><li>**[!DNL View user activity log]**: lire et exporter les journaux d’audit.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 

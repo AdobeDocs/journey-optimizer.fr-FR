@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,9 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**Format d&#39;API**
+## Requête API {#request}
+
+### Format d’API
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -46,7 +48,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Requête**
+### Requête
 
 ```shell
 curl -X POST \
@@ -125,7 +127,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | Cet indicateur identifie les informations de métadonnées spécifiques renvoyées pour `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | Cet indicateur identifie les informations de métadonnées spécifiques renvoyées pour `xdm:placement`. | `name`, `channel`, `componentType` |
 
-**Réponse**
+### Réponse
 
 Une réponse réussie renvoie des informations sur votre proposition, y compris son unique `xdm:propositionId`.
 
@@ -195,6 +197,20 @@ Une réponse réussie renvoie des informations sur votre proposition, y compris 
 | `xdm:propositions.xdm:fallback.dc:format` | Manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé, par exemple, la liste des [types de médias Internet](http://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques. | `"dc:format": "image/png"` ou `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | URL facultative permettant de lire le fichier à partir d&#39;un réseau de diffusion de contenu ou d&#39;un point d&#39;entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource à partir d&#39;un agent utilisateur. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Heure à laquelle le message de réponse à la décision a été créé. Il s&#39;agit de l&#39;époque. | `"ode:createDate": 1566497582038` |
+
+**Codes de réponse**
+
+Le tableau ci-dessous répertorie tous les codes qui peuvent être renvoyés dans la réponse :
+
+| Code | Description |
+|  ---  |  ---  |
+| 200 | Réussite. Prise de décision pour les activités données |
+| 400 | Paramètre de requête non valide. La requête ne peut pas être comprise par le serveur en raison d’une syntaxe incorrecte. |
+| 403 | Autorisations interdites et insuffisantes. |
+| 422 | Entité non traitable. La syntaxe de la requête est correcte, mais en raison d’erreurs sémantiques, elle ne peut pas être traitée. |
+| 429 | Trop de requêtes. L’utilisateur a envoyé trop de requêtes au cours d’une période donnée. |
+| 500 | Erreur interne du serveur. Le serveur a rencontré une condition inattendue qui l’a empêché de répondre à la demande. |
+| 503 | Service indisponible en raison d’une surcharge du serveur. Le serveur ne peut actuellement pas traiter la demande en raison d’un surchargement temporaire. |
 
 ## Tutoriel vidéo {#video}
 

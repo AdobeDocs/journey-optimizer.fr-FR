@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
@@ -27,40 +27,50 @@ Le lot le plus récent dans le jeu de données s&#39;affiche à droite. La vue h
 
 Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d&#39;objets de décision - Offres de secours]**.
 
-## Identifiant {#identifier}
++++ Identifiant
 
 **Champ :** _id 
 **Titre :** identifiant 
 **Description :** identifiant unique de l&#39;enregistrement.
 **Type :** chaîne
 
-## _experience {#experience}
++++
+
++++ _experience
 
 **Champ :** _experience
 **Type :** objet
 
-### _experience > prise de décision
++++
+
++++ _experience > prise de décision
 
 **Champ :** prise de décision
 **Type :** objet
 
-#### _experience > prise de décision > caractéristiques
++++
+
++++ _experience > prise de décision > caractéristiques
 
 **Champ :** caractéristiques 
 **Titre :** Caractéristiques d&#39;option de décision
 **Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent avoir différentes caractéristiques (clés dans le mappage). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
 **Type :** objet
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > prise de décision > contenu
++++ _experience > prise de décision > contenu
 
 **Champ :** contenu 
 **Titre :** détails du contenu 
 **Description :** éléments de contenu pour afficher l&#39;élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement spécifique.
 **Type :** tableau
 
-**_experience > prise de décision > contenu > composants**
++++
+
++++_experience > prise de décision > contenu > composants
 
 **Champ :** composants
 **Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
@@ -148,14 +158,18 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
    **Type :** chaîne
    **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > prise de décision > contenu > Emplacement**
++++
+
++++ _experience > prise de décision > contenu > Emplacement
 
 **Champ :** emplacement
 **Titre :** emplacement 
 **Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
 **Type :** Chaîne
 
-#### _experience > prise de décision > Statut du cycle de vie
++++
+
++++ _experience > prise de décision > Statut du cycle de vie
 
 **Champ :** lifecycleStatus
 **Titre :** statut du cycle de vie
@@ -163,30 +177,40 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Type :** chaîne
 **Valeurs possibles :** &quot;Brouillon&quot; (par défaut), &quot;Approuvé&quot;, &quot;Actif&quot;, &quot;Terminé&quot;, &quot;Archivé&quot;
 
-#### _experience > prise de décision > Nom de l&#39;option de décision
++++
+
++++ _experience > prise de décision > Nom de l&#39;option de décision
 
 **Champ :** nom
 **Titre :** nom de l&#39;option de décision
 **Description :** nom d&#39;option affiché dans diverses interfaces utilisateur.
 **Type :** chaîne
 
-#### _experience > prise de décision > balises
++++
+
++++ _experience > prise de décision > balises
 
 **Champ :** balises
 **Titre :** balises 
 **Description :** jeu de balises associées à cette entité. Les balises sont utilisées dans les expressions de filtre pour limiter l&#39;inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **Champ :** _repo 
 **Type :** objet
 
-### _repo > Etag Option de décision
++++
+
++++ _repo > Etag Option de décision
 
 **Champ :** etag
 **Titre :** ETag Option de décision 
 **Description :** La révision à laquelle l&#39;objet de l&#39;option de décision se trouvait au moment de la prise de l&#39;instantané.
 **Type :** chaîne
+
++++

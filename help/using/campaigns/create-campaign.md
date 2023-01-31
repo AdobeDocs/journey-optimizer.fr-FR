@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: créer, optimiser, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 94%
 
 ---
 
@@ -52,11 +52,13 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
    Une surface est une configuration définie par l’[administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
+   Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
+   >Si vous créez une campagne de notification push, vous pouvez activer la variable **[!UICONTROL Mode de diffusion rapide]**, qui est un module complémentaire Journey Optimizer permettant d’envoyer des messages push très rapidement en grandes quantités. [En savoir plus](../push/create-push.md#rapid-delivery).
 
 1. Cliquez sur **[!UICONTROL Créer]** pour créer la campagne.
 

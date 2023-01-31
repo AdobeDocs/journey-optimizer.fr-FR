@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
@@ -29,24 +29,30 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Identifiant {#identifier}
++++ Identifiant
 
 **Champ :** _id 
 **Titre :** identifiant 
 **Description :** identifiant unique de l&#39;enregistrement.
 **Type :** chaîne
 
-## _experience {#experience}
++++
+
++++ _experience {#experience}
 
 **Champ :** _experience
 **Type :** objet
 
-### _experience > prise de décision
++++
+
++++ _experience > prise de décision
 
 **Champ :** prise de décision
 **Type :** objet
 
-#### _experience > prise de décision > calendarConstraints
++++
+
++++ _experience > prise de décision > calendarConstraints
 
 **Champ :** calendarConstraints 
 **Titre :** détails sur les contraintes de calendrier
@@ -67,21 +73,27 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    **Description :** date de début de validité des options de décision. Les options qui n&#39;ont pas atteint leur date de début ne peuvent pas encore être proposées dans le processus de prise de décision.
    **Type :** chaîne
 
-#### _experience > prise de décision > caractéristiques
++++
+
++++ _experience > prise de décision > caractéristiques
 
 **Champ :** caractéristiques 
 **Titre :** Caractéristiques d&#39;option de décision
 **Description :** Propriétés ou attributs supplémentaires appartenant à cette option de décision particulière. Différentes instances peuvent avoir différentes caractéristiques (clés dans le mappage). Les caractéristiques sont des paires nom-valeur utilisées pour distinguer une option de décision des autres. Les caractéristiques sont utilisées comme valeurs dans le contenu qui représente cette option de décision et comme fonctionnalités pour analyser et optimiser les performances d&#39;une option. Lorsque chaque instance possède le même attribut ou la même propriété, cet aspect doit être modélisé en tant que schéma d&#39;extension dérivé des détails de l&#39;option de décision.
 **Type :** objet
 
-#### _experience > prise de décision > contenu
++++
+
++++ _experience > prise de décision > contenu
 
 **Champ :** contenu 
 **Titre :** détails du contenu 
 **Description :** éléments de contenu pour afficher l&#39;élément de décision dans différents contextes. Une seule option de décision peut avoir plusieurs variantes de contenu. Le contenu est une information destinée à une audience pour être utilisée dans une expérience (numérique). Le contenu est diffusé par le biais de canaux à un emplacement spécifique.
 **Type :** tableau
 
-**_experience > prise de décision > contenu > composants**
++++
+
++++_experience > prise de décision > contenu > composants
 
 **Champ :** composants
 **Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
@@ -168,14 +180,16 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    **Type :** chaîne
    **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > prise de décision > contenu > Emplacement**
++++_experience > prise de décision > contenu > Emplacement
 
 **Champ :** emplacement
 **Titre :** emplacement 
 **Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
 **Type :** Chaîne
 
-#### _experience > prise de décision > Statut du cycle de vie
++++
+
++++ _experience > prise de décision > Statut du cycle de vie
 
 **Champ :** lifecycleStatus
 **Titre :** statut du cycle de vie
@@ -183,35 +197,45 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Type :** chaîne
 **Valeurs possibles :** &quot;Brouillon&quot; (par défaut), &quot;Approuvé&quot;, &quot;Actif&quot;, &quot;Terminé&quot;, &quot;Archivé&quot;
 
-#### _experience > prise de décision > Nom de l&#39;option de décision
++++
+
++++ _experience > prise de décision > Nom de l&#39;option de décision
 
 **Champ :** nom
 **Titre :** nom de l&#39;option de décision
 **Description :** nom d&#39;option affiché dans diverses interfaces utilisateur.
 **Type :** chaîne
 
-#### _experience > prise de décision > profileConstraints
++++
+
++++ _experience > prise de décision > profileConstraints
 
 **Champ :** profileConstraints 
 **Titre :** Détails de la contrainte de profil
 **Description :** Les contraintes de profil déterminent si une option est éligible pour cette identité de profil, à l&#39;heure actuelle, dans ce contexte. Si la contrainte de profil n&#39;a pas besoin de prendre en compte les valeurs de chacune des options, c&#39;est-à-dire qu&#39;elle est invariante des options de la sélection d&#39;options, la contrainte de profil qui prend la valeur &quot;false&quot; annule l&#39;ensemble de la sélection d&#39;options. D&#39;un autre côté, une règle de contrainte de profil qui prend une option en tant que paramètre est évaluée pour chaque option de qualification de la sélection d&#39;options.
 **Type :** objet
 
-**_experience > prise de décision > profileConstraints > Description**
++++
+
++++_experience > prise de décision > profileConstraints > Description
 
 **Champ :** description
 **Titre :** description 
 **Description :** description des contraintes de profil. Elle est utilisée pour transmettre des intentions lisibles sur la façon et les raisons pour lesquelles cette contrainte de profil a été construite et/ou sur l&#39;option qui sera incluse ou exclue par elle.
 **Type :** Chaîne
 
-**_experience > prise de décision > profileConstraints > Règle d&#39;éligibilité**
++++
+
++++_experience > prise de décision > profileConstraints > Règle d&#39;éligibilité
 
 **Champ :** eligibilityRule
 **Titre :**règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 
-**_experience > prise de décision > profileConstraints > Type de contrainte de profil**
++++
+
++++_experience > prise de décision > profileConstraints > Type de contrainte de profil
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
@@ -222,9 +246,11 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée comme égale à true avant que l&#39;action contrainte ne soit autorisée. »
 * « anySegments » : « La contrainte de profil est exprimée sous la forme d’un ou de plusieurs segments et le profil doit être membre d’au moins l’un d’entre eux avant que l’action contrainte ne soit autorisée. »
 * « allSegments » : « La contrainte de profil est exprimée sous la forme d’un ou de plusieurs segments et le profil doit être membre de tous ces segments avant que l’action contrainte ne soit autorisée. »
-* &quot;règles&quot; : « La contrainte de profil est exprimée sous la forme d&#39;un certain nombre de règles différentes, par exemple l&#39;éligibilité, l&#39;applicabilité, l&#39;adaptabilité, qui doivent toutes être vérifiées avant que l&#39;action contrainte ne soit autorisée. »
+* « rules » : « La contrainte de profil est exprimée sous la forme de plusieurs règles différentes (par exemple, l’éligibilité, l’applicabilité, l’adaptabilité), qui doivent toutes renvoyer true avant que l’action contrainte ne soit autorisée. »
 
-**_experience > prise de décision > profileConstraints > Identifiants de segments**
++++
+
++++_experience > prise de décision > profileConstraints > Identifiants de segments
 
 **Champ :** segmentIdentities
 **Titre :** Identifiants de segments
@@ -260,14 +286,18 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    **Description** : Lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
    **Type :** chaîne
 
-#### _experience > prise de décision > ranking
++++
+
++++ _experience > prise de décision > ranking
 
 **Champ :** classement
 **Titre :** Détails du classement
 **Description :** Rang (priorité). Définit ce qui est considéré comme la \&quot;meilleure action\&quot; selon le contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent à la contrainte d’éligibilité, l’ordre de classement déterminera les principales options (ou Top N des options) à proposer.
 **Type :** objet
 
-**_experience > prise de décision > ranking > Évaluation de l&#39;ordre**
++++
+
++++_experience > prise de décision > ranking > Évaluation de l&#39;ordre
 
 **Champ :** ordre
 **Titre :** évaluation de l&#39;ordre
@@ -296,7 +326,9 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Type :** chaîne
 
-**_experience > prise de décision > ranking > Priorité**
++++
+
++++_experience > prise de décision > ranking > Priorité
 
 **Champ :** priorité
 **Titre :** priorité
@@ -305,23 +337,31 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Valeur minimum :** 0
 **Valeur par défaut :** 0
 
-#### _experience > prise de décision > balises
++++
+
++++ _experience > prise de décision > balises
 
 **Champ :** balises 
 **Titre :** Balises 
 **Description :** L&#39;ensemble de balises associées à cette entité. Les balises sont utilisées dans les expressions de filtrage pour limiter l&#39;inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **Champ :** _repo 
 **Type :** objet
 
-### _repo > Etag Option de décision
++++
+
++++ _repo > Etag Option de décision
 
 **Champ :** etag
 **Titre :** ETag Option de décision 
 **Description :** La révision à laquelle l&#39;objet de l&#39;option de décision se trouvait au moment de la prise de l&#39;instantané.
 **Type :** chaîne
+
++++
