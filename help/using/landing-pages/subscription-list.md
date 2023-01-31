@@ -7,12 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: landing, landing page, liste, abonnement, service
+keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
