@@ -10,9 +10,9 @@ level: Intermediate
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -154,7 +154,7 @@ Pour renseigner la liste autorisée, vous pouvez également appeler l’API de s
 
 Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
-En savoir plus sur l’émission d’appels API dans [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"} documentation de référence.
+Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"}.
 
 ## Logique de liste autorisée {#logic}
 
@@ -181,7 +181,7 @@ Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les
 
 ## Rapport d’exclusion {#reporting}
 
-Lorsque la liste autorisée est active, vous pouvez récupérer les adresses e-mail ou les domaines qui ont été exclus d’un envoi, car ils ne figuraient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser la variable [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour effectuer les appels API ci-dessous.
+Lorsque la liste autorisée est active, vous pouvez récupérer les adresses e-mail ou les domaines qui ont été exclus d’un envoi, car ils ne figuraient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [Query Service d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour effectuer les appels API ci-dessous.
 
 Pour obtenir le **nombre d’e-mails** qui n’ont pas été envoyés car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
 
