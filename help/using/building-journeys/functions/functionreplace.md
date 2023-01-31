@@ -8,9 +8,9 @@ level: Experienced
 keywords: replace, fonction, expression, parcours
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
