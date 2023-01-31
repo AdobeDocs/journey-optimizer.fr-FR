@@ -6,12 +6,12 @@ description: Découvrez comment un parcours se termine dans Journey Optimizer.
 feature: Journeys
 role: User
 level: Beginner
-keywords: rentrée, parcours, fin, live, stop
+keywords: reprise, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
