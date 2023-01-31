@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gestion des utilisateurs et des profils de produits
-description: Découvrez comment gérer les utilisateurs et les profils de produits
+description: Découvrez comment gérer les utilisateurs et utilisatrices et les profils de produits.
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 keywords: produit, profils, sandbox
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Si nécessaire, vous pouvez également créer un profil de produit avec des auto
 
 [!DNL Journey Optimizer] vous permet de créer vos propres **[!UICONTROL profils de produit]** et d&#39;attribuer un ensemble de droits et d&#39;environnements Sandbox à vos utilisateurs. Avec les **[!UICONTROL profils de produit]**, vous pouvez autoriser ou refuser l&#39;accès à certaines fonctionnalités ou à certains objets de l&#39;interface.
 
-Pour plus d&#39;informations sur la création et la gestion des environnements Sandbox, consultez la [documentation d&#39;Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur la création et la gestion des sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
 
 Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs pourront uniquement accéder aux parcours et les afficher. Ils ne pourront pas accéder à dʼautres fonctionnalités telles que **[!DNL  Decision management]** dans [!DNL Journey Optimizer].
 
