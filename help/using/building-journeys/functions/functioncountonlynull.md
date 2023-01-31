@@ -8,9 +8,9 @@ level: Experienced
 keywords: countOnlyNull, fonction, expression, parcours
 exl-id: d06fc594-33dd-48ce-8c62-2f2892a867da
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
