@@ -10,9 +10,9 @@ level: Intermediate
 keywords: étapes, configuration, parcours, événements, flux, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans [!DNL Journey Optimizer], procédez comme suit :
 
-1. Récupérez l’URL d&#39;inlet à partir des API Adobe Experience Platform. En savoir plus sur [Présentation des API d&#39;ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target="_blank"}.
+1. Récupérez l’URL d&#39;inlet à partir des API Adobe Experience Platform. En savoir plus en consultant la [présentation des API d’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target="_blank"}.
 1. Copiez la payload depuis son aperçu dans le menu **[!UICONTROL Événement]**. En savoir plus sur [cette page](../event/about-creating.md#define-the-payload-fields).
 
 Vous devez ensuite configurer le système de données qui envoie les événements vers les API d’ingestion en flux continu à l’aide de la payload que vous avez copiée :
