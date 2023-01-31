@@ -5,12 +5,12 @@ description: En savoir plus sur la fonction equalIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: equalIgnoreCase, fonction, expression, parcours
+keywords: equalIgnoreCasefonction, expression, parcours
 exl-id: b74ef5c9-0202-4a69-8870-77004a4397e0
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '40'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
