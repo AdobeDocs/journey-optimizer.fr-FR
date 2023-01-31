@@ -10,9 +10,9 @@ level: Beginner
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -52,18 +52,18 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="Sélectionnez la catégorie de règle du message"
->abstract="Lorsqu&#39;elle est activée et appliquée à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
+>title="Sélectionner la catégorie de règle du message"
+>abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Définir la limitation de votre règle"
->abstract="Indiquez le nombre maximal de messages envoyés à un profil client chaque mois. Le plafond de fréquence sera basé sur une période calendaire mensuelle et sera réinitialisé au début de chaque mois."
+>abstract="Indiquez le nombre maximal de messages envoyés à un profil client chaque mois. Le plafond de fréquence se base sur une période calendaire mensuelle et est réinitialisé au début de chaque mois."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Définir le ou les canaux auxquels la règle s’applique"
->abstract="Sélectionnez au moins un canal. La limitation s’applique à tous les canaux en tant que nombre total."
+>title="Définissez le ou les canaux auxquels la règle s’applique."
+>abstract="Sélectionnez au moins un canal. Le plafond est calculé sur l’ensemble des canaux."
 
 Pour créer une nouvelle règle, procédez comme suit.
 
@@ -141,13 +141,13 @@ Pour appliquer une règle de fréquence à un message, procédez comme suit.
    >
    >Actuellement, seule la variable **[!UICONTROL Marketing]** est disponible pour les règles de fréquence des messages.
 
-1. Vous pouvez cliquer sur le bouton **[!UICONTROL Règle de fréquence]** lien pour afficher l’écran des règles de fréquence dans un nouvel onglet. [En savoir plus](#access-rules).
+1. Cliquez sur le lien **[!UICONTROL Règle de fréquence]** pour ouvrir l’écran des règles de fréquence dans un nouvel onglet. [En savoir plus](#access-rules).
 
    Toutes les règles de fréquence correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
 
    >[!NOTE]
    >
-   >Les messages où la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
+   >Les messages pour lesquels la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
 
 1. Vous pouvez visualiser le nombre de profils exclus de la diffusion dans le [rapport global](../reports/global-report.md) et dans le [rapport dynamique](../reports/live-report.md), où les règles de fréquence seront répertoriées comme une raison possible pour les utilisateurs exclus de la diffusion.
 
