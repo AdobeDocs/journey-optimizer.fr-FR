@@ -8,9 +8,9 @@ level: Experienced
 keywords: setHours, fonction, expression, parcours
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
