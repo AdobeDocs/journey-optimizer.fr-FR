@@ -7,12 +7,12 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: analytics, intégration, sdk web, plateforme
+keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Cela active le connecteur source Analytics pour cette suite de rapports. Chaque 
 
 ![](assets/ajo-aa_4.png)
 
-En savoir plus sur le connecteur source Adobe Analytics dans  [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
 
 ## Créer un parcours avec un événement à l’aide des données d’Adobe Analytics ou du SDK Web {#event-analytics}
 
