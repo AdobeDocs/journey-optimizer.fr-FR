@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Modification ou arrêt d’une campagne
-description: Découvrez comment modifier, arrêter ou dupliquer des campagnes actives dans Journey Optimizer
+title: Modifier ou arrêter une campagne
+description: Découvrez comment modifier, arrêter ou dupliquer des campagnes dynamiques dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: gérer les campagnes, l’état, la planification, l’accès, l’optimisation
+keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
