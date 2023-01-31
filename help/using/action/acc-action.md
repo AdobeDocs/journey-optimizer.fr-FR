@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Intégration avec Adobe Campaign v7/v8
-description: Découvrez comment intégrer Journey Optimizer à Adobe Campaign v7/v8
+description: Découvrez comment intégrer Journey Optimizer à Adobe Campaign v7/v8.
 feature: Actions
 topic: Administration
 role: Admin,Developer
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Pour chaque action configurée, une activité d’action est disponible dans la 
 
 ## Conditions préalables {#prerequisites}
 
-Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Reportez-vous à la section [Documentation Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target="_blank"}.
+Dans Campaign, vous devez créer et publier un message transactionnel et son événement associé. Reportez-vous à la [documentation d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=fr#transactional-messaging){target="_blank"}.
 
 Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Il vous faudra ensuite coller cette payload lors de la configuration de l’&#39;action dans Journey Optimizer (voir ci-dessous)
 
