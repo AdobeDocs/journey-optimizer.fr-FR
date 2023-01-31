@@ -10,13 +10,13 @@ level: Intermediate
 keywords: code, HTML, éditeur
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Codage de votre propre contenu {#code-content}
+# Coder votre propre contenu {#code-content}
 
 Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du code HTML brut et/ou coder votre contenu d’e-mail. Cette méthode nécessite des compétences HTML.
 
