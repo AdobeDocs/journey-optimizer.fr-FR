@@ -6,12 +6,12 @@ description: En savoir plus sur les types de données dans les fonctions de gest
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: requête, collections, fonctions, charge utile, parcours
+keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
