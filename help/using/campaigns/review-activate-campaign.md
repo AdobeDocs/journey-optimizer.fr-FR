@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Vérification et activation d’une campagne
-description: Découvrez comment passer en revue et activer des campagnes dans Journey Optimizer
+title: Vérifier et activer une campagne
+description: Découvrez comment vérifier et activer des campagnes dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: campagne, révision, validation, activation, activation, optimisation
+keywords: campagne, révision, validation, activation, activer, optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
