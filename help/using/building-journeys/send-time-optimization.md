@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: send-time, send, message, optimisation, parcours, AI, Intelligent
+keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
