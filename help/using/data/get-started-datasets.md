@@ -5,12 +5,12 @@ title: Prise en main des jeux de données
 description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans Adobe Journey Optimizer
 role: User
 level: Beginner
-keywords: plateforme, lac de données, créer, lac, jeux de données, profil
+keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,8 +67,8 @@ Pour créer un jeu de données, commencez par sélectionner **Créer un jeu de d
 
 Vous pouvez :
 
-* Créer un jeu de données à partir d’un schéma. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#schema){target="_blank"}
-* Créer un jeu de données à partir d’un fichier CSV. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr){target="_blank"}
+* Créer un jeu de données à partir d’un schéma. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#schema){target="_blank"}
+* Créez un jeu de données à partir d’un fichier CSV. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr){target="_blank"}
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
@@ -82,7 +82,7 @@ L’une des principales fonctionnalités de [!DNL Adobe Experience Platform] est
 
  [!DNL Adobe Experience Platform Data Governance] vous permet de gérer les données clients et de garantir la conformité aux réglementations, aux restrictions et aux stratégies applicables à l’utilisation des données. Elle joue un rôle clé dans Experience Platform à différents niveaux, notamment dans le catalogage, la traçabilité des données, l’étiquetage de l’utilisation des données, les politiques d’utilisation des données et le contrôle de l’utilisation des données lors d’activités marketing.
 
-En savoir plus sur la gouvernance des données et les libellés d’utilisation des données dans la [documentation sur la gouvernance des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=fr){target="_blank"}
+En savoir plus sur la gouvernance des données et les libellés d’utilisation des données dans la [documentation sur la gouvernance des données.](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=fr){target="_blank"}
 
 ## Exemples et cas pratiques{#uc-datasets}
 
@@ -96,5 +96,5 @@ Une liste de cas d’utilisation avec des exemples de requête est disponible [i
 
 **Voir également**
 
-* [Présentation de l’ingestion par flux](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target="_blank"}
+* [Présentation de l’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target="_blank"}
 * [Ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target="_blank"}
