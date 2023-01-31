@@ -7,12 +7,12 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: événements, événement, parcours, définition, démarrer
+keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
