@@ -6,12 +6,12 @@ description: Découvrez comment utiliser les schémas Adobe Experience Platfor
 feature: Schemas
 role: User
 level: Beginner
-keywords: schémas, plateforme, données, structure
+keywords: schémas, platform, données, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Les schémas sont la manière standard de décrire les données dans Experience�
 
 Un schéma est un jeu de règles qui représente et valide la structure et le format des données. À un niveau élevé, les schémas fournissent une définition abstraite d’un objet du monde réel (une personne, par exemple) et indiquent les données à inclure dans chaque instance de cet objet (comme le prénom, le nom, l’anniversaire, etc.).
 
-Découvrez comment créer des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target="_blank"}
+Découvrez comment créer des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target="_blank"}.
 
 L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Journey Optimizer] vous permet de gérer les ressources du modèle de données d’expérience (XDM), y compris les schémas, les classes, les groupes de champs de schéma et les types de données. Vous pouvez afficher et explorer les ressources de base fournies par Adobe, ainsi que créer des ressources et des schémas personnalisés pour votre organisation.
 
 ![](assets/schemas-home.png)
 
-Découvrez comment utiliser l’interface utilisateur des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr){target="_blank"}
+Découvrez comment utiliser l’interface utilisateur des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr){target="_blank"}.
 
-La documentation détaillée sur la création d’un schéma à l’aide de l’éditeur de schémas est disponible dans [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}
+La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible sur [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
 
 
 ## Vidéo pratique{#video-schema}
@@ -45,5 +45,5 @@ Découvrez comment créer un schéma, ajouter des groupes de champs, et créer e
 * [Création d’un schéma, d’un jeu de données et ingestion des données pour ajouter des profils de test dans Journey Optimizer](../segment/creating-test-profiles.md)
 * [Présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}
 * [Bonnes pratiques de modélisation des données](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=fr){target="_blank"}
-* [Création d’un schéma à l’aide de l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=fr){target="_blank"}
-* [Définition d’une relation entre deux schémas à l’aide de l’éditeur de schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=fr){target="_blank"}
+* [Créer un schéma à l’aide de l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=fr){target="_blank"}
+* [Définir une relation entre deux schémas à l’aide de l’éditeur de schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=fr){target="_blank"}
