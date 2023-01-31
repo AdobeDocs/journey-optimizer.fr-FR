@@ -7,16 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: saut, activité, parcours, division, division
+keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Passer d’un parcours à un autre {#jump}
+# Sauter d’un parcours à un autre {#jump}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
