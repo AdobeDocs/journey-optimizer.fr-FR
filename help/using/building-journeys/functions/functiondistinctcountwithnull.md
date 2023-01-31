@@ -8,9 +8,9 @@ level: Experienced
 keywords: distinctCountWithNull, fonction, expression, parcours
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
