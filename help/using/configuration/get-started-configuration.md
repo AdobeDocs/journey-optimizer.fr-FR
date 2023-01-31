@@ -8,11 +8,11 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-keywords: configuration, configuration, messages, canal, sandbox, optimisation
+keywords: configuration, configurer, messages, canal, sandbox, optimizer
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
