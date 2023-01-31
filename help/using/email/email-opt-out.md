@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: opt-out, email, lien, désabonnement
+keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Vous devez d’abord ajouter un lien de désabonnement dans un message. Pour ce 
 
 ### Implémenter un appel API pour le processus d’opt-out {#opt-out-api}
 
-Pour que vos destinataires soient désinscrits lorsqu’ils envoient leur choix à partir de la page d’entrée, vous devez mettre en oeuvre une **Appel de l’API d’abonnement** through [Adobe Developer](https://developer.adobe.com/){target="_blank"} pour mettre à jour les préférences des profils correspondants.
+Pour que vos destinataires soient désinscrit(e)s lorsqu’ils ou elles envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com/){target="_blank"} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel POST est le suivant :
 
@@ -98,7 +98,7 @@ Contenu de la requête :
 }
 ```
 
-[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant via l’ [Adobe Developer](https://developer.adobe.com){target="_blank"} appel API.
+[!DNL Journey Optimizer] utilisera ces paramètres pour mettre à jour le choix du profil correspondant par le biais de l’appel API [Adobe Developer](https://developer.adobe.com){target="_blank"}.
 
 ### Envoyer le message avec le lien de désinscription {#send-message-unsubscribe-link}
 
@@ -122,7 +122,7 @@ Une fois que vous avez configuré le lien de désinscription sur votre page de d
 
    ![](assets/opt-out-profile-choice.png)
 
-   Dans l&#39;onglet **[!UICONTROL Attributs]**, vous pouvez voir la valeur de **[!UICONTROL choice]** remplacée par **[!UICONTROL no]**.
+   Dans l’onglet **[!UICONTROL Attributs]**, la valeur du **[!UICONTROL choix]** a été remplacée par **[!UICONTROL non]**.
 
 ## Désinscription en un clic {#one-click-opt-out}
 
