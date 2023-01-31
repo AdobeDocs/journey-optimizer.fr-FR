@@ -7,12 +7,12 @@ feature: Sandboxes
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
-keywords: environnements de test, virtuels, environnements, organisation, plateforme
+keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. [Découvrez comment affecter des environnements Sandbox](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] reflète les environnements Sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
-Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d&#39;utilisation des environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
+Vous pouvez créer ou réinitialiser des environnements Sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d’utilisation des environnements Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
 
 Le sélecteur d’environnement Sandbox se trouve dans le coin supérieur droit de votre écran, à côté du nom de votre organisation. Pour passer d’un environnement Sandbox à un autre, cliquez sur l’environnement Sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
 
@@ -36,7 +36,7 @@ Le sélecteur d’environnement Sandbox se trouve dans le coin supérieur droit 
 
 >[!IMPORTANT]
 >
-> La gestion des environnements Sandbox peut uniquement être effectuée par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> La gestion des environnements Sandbox peut uniquement être effectuée par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**. Pour plus d’informations à ce sujet, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
 Vous pouvez choisir d&#39;affecter différents environnements Sandbox aux **[!UICONTROL profils de produit]** prêts à l&#39;emploi ou personnalisés.
 
