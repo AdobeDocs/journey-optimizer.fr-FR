@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: environnement de test, parcours, copie, environnement
+keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Pour copier un parcours dans une autre sandbox, procédez comme suit :
 
 ## Processus de copie et limitations {#limitations}
 
-Tous les éléments liés peuvent ne pas être copiés dans l’environnement de test de destination. Adobe recommande vivement d’effectuer une vérification approfondie. Identifiez tout objet potentiel manquant et créez-le manuellement avant de publier le parcours.
+Tous les éléments liés peuvent ne pas être copiés dans la sandbox de destination. Adobe recommande vivement d’effectuer une vérification approfondie. Identifiez tout objet potentiel manquant et créez-le manuellement avant de publier le parcours.
 
 Les objets suivants sont copiés :
 
