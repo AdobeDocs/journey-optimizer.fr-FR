@@ -10,9 +10,9 @@ hidefromtoc: true
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
