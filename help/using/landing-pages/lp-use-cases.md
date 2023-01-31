@@ -7,12 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-keywords: landing, landing page, cas d’utilisation
+keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
