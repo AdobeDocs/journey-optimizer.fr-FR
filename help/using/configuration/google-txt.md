@@ -10,9 +10,9 @@ level: Intermediate
 keywords: sous-domaine, google, txt, enregistrement, gmail, délivrabilité
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 72%
 >title="Enregistrements TXT Google"
 >abstract="Pour garantir la réussite de l’envoi d’e-mails aux adresses Gmail, vous pouvez ajouter des enregistrements TXT de vérification de site Google spéciaux à votre sous-domaine pour vous assurer qu’il est vérifié."
 
-Les enregistrements TXT sont un type d’enregistrement DNS utilisé pour fournir des informations textuelles sur un domaine, qui peuvent être lues par des sources externes.
+Les enregistrements TXT font partie des enregistrements DNS. Ils servent à donner des informations textuelles à propos d’un domaine, que des sources externes pourront lire par la suite.
 
 Pour garantir une délivrabilité optimale et une diffusion réussie des e-mails vers les adresses Gmail, [!DNL Journey Optimizer] permet dʼajouter des enregistrements TXT de vérification de site Google spéciaux à vos sous-domaines afin dʼassurer qu’ils soient vérifiés.
 
@@ -35,8 +35,8 @@ Pour ajouter un enregistrement TXT Google à votre sous-domaine, procédez comme
 
 1. Ouvrez le sous-domaine à partir du menu **[!UICONTROL Canaux]**/**[!UICONTROL Sous-domaines]**.
 
-1. Dans le **[!UICONTROL Enregistrement de texte Google]** , saisissez le code de vérification généré à partir de [Espace de travail Google](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans la section **[!UICONTROL Enregistrement TXT Google]**, saisissez le code de vérification généré depuis [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Une fois l’enregistrement TXT ajouté, vous devez le faire vérifier par Google. Pour ce faire, accédez à [Espace de travail Google](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, puis lancez l’étape de vérification.
+1. Une fois l’enregistrement TXT ajouté, vous devez le faire vérifier par Google. Pour ce faire, accédez à [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, puis lancez lʼétape de vérification.
