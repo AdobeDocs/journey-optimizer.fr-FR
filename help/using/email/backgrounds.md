@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: arrière-plan, email, couleur, éditeur
+keywords: arrière-plan, e-mail, couleur, éditeur
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
