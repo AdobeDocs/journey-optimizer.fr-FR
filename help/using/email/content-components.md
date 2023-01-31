@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: composants, Concepteur d’email, éditeur, email
+keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1383'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
