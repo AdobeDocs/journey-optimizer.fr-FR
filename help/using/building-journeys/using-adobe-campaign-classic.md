@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, intégration, campaign, v7, v8, classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
