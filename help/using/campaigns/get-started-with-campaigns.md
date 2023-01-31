@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des campagnes
-description: En savoir plus sur les campagnes dans Journey Optimizer
+description: Apprenez en plus sur les campagnes dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: campagne, comment, démarrer, optimiseur
+keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,13 +42,13 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 1. **Il vous faut les autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs ayant accès à un **[!UICONTROL profil de produit]** associé à une campagne, tels que l’administrateur de la campagne, l’approbateur de la campagne, le responsable de la campagne et/ou l’observateur de la campagne.
 
-   Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues. Si vous avez accès à [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} pour votre organisation, suivez les étapes ci-dessous. Si ce n’est pas le cas, contactez votre administrateur Journey Optimizer.
+   Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues. Si vous avez accès à [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} pour votre organisation, procédez comme suit. Si ce n’est pas le cas, contactez votre administrateur Journey Optimizer.
 
    +++Découvrez comment attribuer des autorisations de campagne
 
    Pour attribuer le **[!UICONTROL profil de produit]** correspondant à vos utilisateurs :
 
-   1. De [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, sélectionnez la variable [!DNL Adobe Experience Platform] produit.
+   1. Depuis [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, sélectionnez le produit [!DNL Adobe Experience Platform].
 
    1. Accédez à l’onglet **[!UICONTROL Profil de produit]** , sélectionnez l’un des **[!UICONTROL profils de produit]** intégrés liés à la campagne : l’administrateur de la campagne, l’approbateur de la campagne, le responsable de la campagne ou l’observateur de la campagne.
 
