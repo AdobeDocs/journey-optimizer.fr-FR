@@ -8,9 +8,9 @@ level: Experienced
 keywords: sort, fonction, expression, parcours
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
