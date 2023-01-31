@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Création d’une expérience de contenu
-description: Découvrez comment créer une expérience de contenu dans vos campagnes
+description: Découvrez comment créer une expérience de contenu dans vos campagnes.
 feature: A/B Testing
 topic: Content Management
 role: User
@@ -12,13 +12,13 @@ hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Création d’une expérience de contenu {#content-experiment}
+# Créer une expérience de contenu {#content-experiment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
