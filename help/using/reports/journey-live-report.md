@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="Rapport dynamique sur les parcours"
->abstract="Le rapport Parcours en direct vous permet de mesurer et de visualiser en temps réel l’impact et les performances de vos parcours uniquement au cours des dernières 24 heures. Votre rapport est divisé en différents widgets qui détaillent le succès et les erreurs de votre parcours. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+>abstract="Le rapport dynamique sur les parcours vous permet de mesurer et de visualiser en temps réel l’efficacité et les performances de vos parcours (limité aux dernières 24 heures). Celui-ci est composé de plusieurs widgets présentant le succès et les erreurs de votre parcours. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
 Vous pouvez accéder directement au rapport dynamique sur les parcours depuis votre parcours en cliquant sur le bouton **[!UICONTROL Afficher le rapport]**.
 
