@@ -7,12 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: landing, landing page, javascript, code
+keywords: destination, page de destination, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
