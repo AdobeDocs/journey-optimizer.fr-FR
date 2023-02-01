@@ -5,12 +5,12 @@ title: Intégration de Journey Optimizer à des systèmes externes
 description: Découvrez les bonnes pratiques à appliquer lors de l’intégration de Journey Optimizer à des systèmes externes
 role: User
 level: Beginner
-keywords: externe, API, optimisation, limitation
+keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Une règle de limitation est spécifique à un point d&#39;entrée, mais commune
 
 Supposons, par exemple, que vous ayez défini une règle de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et rejette les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
 
-Pour en savoir plus sur l&#39;API de limitation et sur la configuration des règles de limitation, consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur l’API de limitation et sur la configuration des règles de limitation, consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}.
 
 ## Temporisation et reprises{#timeout}
 

@@ -12,11 +12,11 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Délégation d’un sous-domaine {#delegate-subdomain}
+# Déléguer un sous-domaine {#delegate-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
@@ -119,8 +119,8 @@ Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimiz
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
->title="Copie de l’enregistrement de validation"
->abstract="Adobe génère un enregistrement de validation. Vous devez créer l’enregistrement correspondant sur votre plateforme d’hébergement pour la validation de l’URL CDN."
+>title="Copiez l’enregistrement de validation."
+>abstract="Adobe génère un enregistrement de validation. Vous devez créer l’enregistrement correspondant sur votre plateforme d’hébergement pour la validation des URL du réseau CDN."
 
 Si des stratégies de restriction par domaine sont en vigueur et que vous souhaitez quʼAdobe nʼait quʼun contrôle partiel sur le DNS, vous pouvez choisir dʼeffectuer toutes les activités liées au DNS de votre côté.
 

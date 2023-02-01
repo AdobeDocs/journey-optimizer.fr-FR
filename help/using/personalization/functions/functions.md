@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ Dans l’éditeur d’expression [!DNL Journey Optimizer], les fonctions d’ass
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 
-Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur la fonction `+` icon : la fonction est automatiquement ajoutée à l&#39;écran de personnalisation.
+Accédez aux sous-catégories en cliquant sur l’icône `>`. Sélectionnez une fonction en cliquant sur l’icône `+` : la fonction est automatiquement ajoutée à l’écran de personnalisation.
 
 Cliquez sur l’icône `...` pour afficher la description de la fonction et l’ajouter à vos favoris. [En savoir plus](../personalize.md#fav)
 
@@ -316,7 +316,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#to-date-time">En date/heure</a></td><td>Cette fonction est utilisée pour convertir une chaîne en date. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">En date/heure uniquement</a></td><td>Cette fonction convertit une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
+        <td><a href="string.md#to-date-time-only">En date/heure uniquement</a></td><td>Cette fonction convertit une valeur d’argument en une valeur date / heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Supprimer</a></td><td>Cette fonction supprime les espaces blancs du début et de la fin d'une chaîne.</td>
@@ -340,7 +340,7 @@ Les assistants sont détaillés dans [cette page](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Valeur de secours par défaut</a></td><td>Cette fonction est utilisée pour effectuer le rendu d’une variable avec la valeur par défaut.</td>
+        <td><a href="helpers.md#default">Valeur de secours par défaut</a></td><td>Cette fonction permet d’effectuer le rendu d’une variable avec la valeur par défaut.</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>Cette fonction est utilisée pour effectuer une itération sur un tableau</td>

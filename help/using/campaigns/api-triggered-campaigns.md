@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Déclenchement de campagnes à l’aide d’API
-description: Découvrez comment déclencher des campagnes à l’aide des API Journey Optimizer
+description: Découvrez comment déclencher des campagnes à l’aide d’API Journey Optimizer.
 topic: Content Management
 role: Developer, Admin
 level: Intermediate, Experienced
-keywords: campagnes, déclenchée par l’API, REST, optimiseur, messages
+keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 

@@ -7,16 +7,16 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: suppression, liste, rebond, email, optimisation
+keywords: suppression, liste, bounce, e-mail, optimizer
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
-# Gestion de la liste de suppression {#manage-suppression-list}
+# Gérer la liste de suppression {#manage-suppression-list}
 
 Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que :
 
