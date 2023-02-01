@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
-workflow-type: tm+mt
-source-wordcount: '767'
+workflow-type: ht
+source-wordcount: '765'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ Pour chaque adresse, la raison de base de la suppression et la catégorie de sup
 >
 >Les profils ayant le statut **[!UICONTROL Supprimé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports sur les parcours** indiquent que ces profils ont traversé le parcours ([Lecture de segment](../building-journeys/read-segment.md) et [Message](../building-journeys/journeys-message.md)), les **Rapports sur les e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyés]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
 >
->En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport global](../reports/global-report.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target=&quot;_blank&quot;}.
+>En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport global](../reports/global-report.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}.
 
 ### Échecs de diffusion {#delivery-failures}
 
