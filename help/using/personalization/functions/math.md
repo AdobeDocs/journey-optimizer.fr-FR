@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La fonction `absolute` est utilisée pour convertir un nombre dont la valeur est
 
 ## formatNumber {#format-number}
 
-Le `formatNumber` sert à mettre en forme n’importe quel nombre dans sa représentation sensible à la langue.
+La fonction `formatNumber` sert à mettre en forme n’importe quel nombre dans sa représentation sensible à la langue.
 
 Elle accepte un nombre et une chaîne représentant le paramètre régional et renvoie une chaîne formatée du nombre dans le paramètre régional souhaité.
 
@@ -38,11 +38,11 @@ Elle accepte un nombre et une chaîne représentant le paramètre régional et r
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la rubrique [Documentation sur les Oracles](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la [Documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et les [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemple**
 
-Cette requête renvoie une chaîne formatée en arabe correspondant à 123456.789 comme numéro d’entrée.
+Cette requête renvoie une chaîne formatée en arabe correspondant à 123456,789 comme numéro d’entrée.
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -78,9 +78,9 @@ La fonction `Count only null` sert à arrondir un nombre à l’unité supérieu
 {%= roundUp(double) %}: double
 ```
 
-## Pour la chaîne hexadécimale {#to-hex-string}
+## To hex string {#to-hex-string}
 
-Le `toHexString` convertit n’importe quel nombre en sa chaîne hexadécimale.
+La fonction `toHexString` convertit n’importe quel nombre en sa chaîne hexadécimale.
 
 **Syntaxe**
 
@@ -116,9 +116,9 @@ La fonction `toPrecision` est utilisée pour convertir un nombre à la précisio
 {%= toPrecision(double,int) %}: string
 ```
 
-## À chaîne {#to-string}
+## To string {#to-string}
 
-Le **toString** convertit n’importe quel nombre en sa représentation sous forme de chaîne.
+La fonction **toString** convertit n’importe quel nombre en sa représentation sous forme de chaîne.
 
 **Syntaxe**
 
@@ -128,7 +128,7 @@ Le **toString** convertit n’importe quel nombre en sa représentation sous for
 
 **Exemple**
 
-Cette requête renvoie &quot;12&quot;.
+Cette requête renvoie « 12 ».
 
 ```sql
 {%= toString(12) %} 
