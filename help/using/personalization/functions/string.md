@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1808'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ La fonction suivante met en majuscule la première lettre du mot de l&#39;adress
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
-## Code Char à l’adresse {#char-code-at}
+## Char code at {#char-code-at}
 
-Le `charCodeAt` renvoie la valeur ASCII d’un caractère, comme la fonction charCodeAt dans JavaScript. Il prend une chaîne et un entier (qui définissent la position du caractère) comme arguments d’entrée et renvoie sa valeur ASCII correspondante.
+La fonction `charCodeAt` renvoie la valeur ASCII d’un caractère, comme la fonction charCodeAt dans JavaScript. Elle prend une chaîne et un entier (qui définissent la position du caractère) comme arguments d’entrée et renvoie sa valeur ASCII correspondante.
 
 **Syntaxe**
 
@@ -273,9 +273,9 @@ La requête suivante extrait le domaine de l&#39;adresse e-mail personnelle.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
-## Format de devise {#format-currency}
+## Format currency {#format-currency}
 
-Le `formatCurrency` est utilisée pour convertir n’importe quel nombre en sa représentation monétaire sensible à la langue correspondante en fonction des paramètres régionaux transmis sous forme de chaîne dans le deuxième argument.
+La fonction `formatCurrency` est utilisée pour convertir n’importe quel nombre en sa représentation monétaire sensible à la langue correspondante en fonction des paramètres régionaux transmis sous forme de chaîne dans le deuxième argument.
 
 **Syntaxe**
 
@@ -285,7 +285,7 @@ Le `formatCurrency` est utilisée pour convertir n’importe quel nombre en sa r
 
 **Exemple**
 
-Cette requête renvoie £56.00
+Cette requête renvoie 56.00 £.
 
 ```sql
 {%= formatCurrency(56L,"en_GB") %}
@@ -700,9 +700,9 @@ La requête suivante détermine si le nom de la personne commence par « Joe �
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## Chaîne à date {#string-to-date}
+## Chaîne en date {#string-to-date}
 
-Le `stringToDate` convertit une valeur string en valeur date-time. Il comporte deux arguments : Représentation sous forme de chaîne d’une date et d’une heure et sous forme de chaîne du formateur.
+La fonction `stringToDate` convertit une valeur de chaîne en valeur date / heure. Elle comporte deux arguments : représentation sous forme de chaîne d’une date et d’une heure et sous forme de chaîne du formateur.
 
 **Syntaxe**
 
@@ -783,9 +783,9 @@ La fonction `toDateTime` est utilisée pour convertir une chaîne en date. Elle 
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## En date/heure uniquement {#to-date-time-only}
+## To Date Time Only {#to-date-time-only}
 
-Le `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide. Cette fonction accepte les types de champs string, date, long et int.
+La fonction `toDateTimeOnly` est utilisée pour convertir une valeur d’argument en une valeur de date et d’heure uniquement. Elle renvoie la date de l’époque comme sortie pour une entrée non valide. Cette fonction accepte les types de champs chaîne, date, long et int.
 
 **Syntaxe**
 
