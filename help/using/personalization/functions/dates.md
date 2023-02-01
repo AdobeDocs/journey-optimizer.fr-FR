@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Où la première chaîne correspond à l’attribut date et la seconde à la man
 >
 > Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
-> Vous pouvez utiliser des fonctions de formatage des dates Java comme indiqué dans la section [Documentation sur les Oracles](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Exemple**
 
