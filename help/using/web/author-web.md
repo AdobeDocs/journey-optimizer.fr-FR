@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Une fois que vous avez créé une action web à partir de la campagne, vous pouv
    * [HTML](../email/content-components.md#HTML)
    * [Image](../email/content-components.md#image)
    * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
-   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’email. [En savoir plus](../email/content-components.md#text)
+   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le Concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
    * Lien - Découvrez comment définir le style du lien dans [cette section](../email/styling-links.md)
    * [Décision d’offre](../email/add-offers-email.md)
 
