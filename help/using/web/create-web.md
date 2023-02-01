@@ -9,8 +9,8 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
-workflow-type: tm+mt
-source-wordcount: '1073'
+workflow-type: ht
+source-wordcount: '1028'
 ht-degree: 100%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 100%
 
 Pour créer et accéder à des pages web dans l’interface utilisateur [!DNL Journey Optimizer], remplissez les conditions préalables suivantes :
 
-* Pour ajouter des modifications à votre site web, vous devez mettre en œuvre le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target=&quot;_blank&quot;} sur votre site web.
+* Pour ajouter des modifications à votre site web, vous devez mettre en œuvre le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web.
 
-* Pour accéder au concepteur web [!DNL Journey Optimizer], vous devez télécharger l’extension de navigateur [Adobe Experience Cloud Visual Editing Helper ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} sur Chrome. [En savoir plus](visual-editing-helper.md)
+* Pour accéder au concepteur web [!DNL Journey Optimizer], vous devez télécharger l’extension de navigateur [Visual Editing Helper d’Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} sur Chrome. [En savoir plus](visual-editing-helper.md)
 
 >[!CAUTION]
 >
@@ -41,9 +41,9 @@ Pour créer et accéder à des pages web dans l’interface utilisateur [!DNL Jo
 
 Pour que l’expérience web soit correctement diffusée, les paramètres suivants doivent être définis :
 
-* Dans la [Collection de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target=&quot;_blank&quot;}, assurez-vous qu’un train de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, les deux options suivantes soient activées : **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]**.
+* Dans la [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous qu’un flux de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, les deux options suivantes soient activées : **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]**.
 
-   Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target=&quot;_blank&quot;}
+   Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target="_blank"}.
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -51,9 +51,9 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
    >
    >L’option **[!UICONTROL Adobe Journey Optimizer]** ne peut être activée que lorsque l’option **[!UICONTROL Segmentation Edge]** est déjà activée.
 
-* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target=&quot;_blank&quot;}, assurez-vous d’avoir une stratégie de fusion avec l’option **[!UICONTROL Stratégie de fusion Active-On-Edge]** activée. Pour ce faire, sélectionnez une stratégie sous le menu Experience Platform **[!UICONTROL Client]** > **[!UICONTROL Profils]** > **[!UICONTROL Stratégies de fusion]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target=&quot;_blank&quot;}
+* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
 
-   Cette stratégie de fusion est utilisée par les canaux entrants [!DNL Journey Optimizer] pour activer et publier correctement les campagnes entrantes sur l’Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target=&quot;_blank&quot;}
+   Cette stratégie de fusion est utilisée par les canaux entrants [!DNL Journey Optimizer] pour activer et publier correctement les campagnes entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
    ![](assets/web-aep-merge-policy.png)
 
@@ -66,7 +66,7 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
 
 Pour commencer à créer votre expérience web par le biais d’une campagne, suivez les étapes ci-dessous.
 
-1. Créer une campagne. [En savoir plus](../campaigns/create-campaign.md)
+1. Création d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 
 1. Sélectionnez l’action **[!UICONTROL Web]**.
 
