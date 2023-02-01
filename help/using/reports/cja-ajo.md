@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
-workflow-type: tm+mt
-source-wordcount: '338'
+workflow-type: ht
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -22,9 +22,9 @@ L’intégration de [!DNL Journey Optimizer] à [!DNL Customer Journey Analytics
 
 ![](assets/cja.png)
 
-Une fois que vous avez créé votre parcours dans [!DNL Journey Optimizer], vous pouvez commencer à importer vos données clients dans [!DNL Customer Journey Analytics] afin de lancer des rapports et de comprendre l’impact de chaque interaction d’un client avec vos parcours.
+Une fois que vous avez créé votre parcours dans [!DNL Journey Optimizer], vous pouvez commencer à importer vos données clients dans [!DNL Customer Journey Analytics] afin de lancer des rapports et de comprendre l’impact de chaque interaction d’un(e) client(e) avec vos parcours.
 
-➡️ [Découvrir Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr){target=&quot;_blank&quot;}
+➡️ [Découvrir Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr){target="_blank"}
 
 Avant d’utiliser [!DNL Customer Journey Analytics] pour vos parcours, vous devez d’abord configurer cette intégration :
 
