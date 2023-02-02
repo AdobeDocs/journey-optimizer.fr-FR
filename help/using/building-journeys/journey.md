@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,9 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 
 ## Procédure de création d’un parcours{#steps-journey}
 
-Adobe Journey Optimizer vous permet de concevoir et d’orchestrer des parcours personnalisés dans une zone de travail unique.
+Adobe Journey Optimizer vous permet de concevoir et d’orchestrer des parcours personnalisés dans une zone de travail unique. Les étapes principales pour créer un parcours sont les suivantes :
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours.
 

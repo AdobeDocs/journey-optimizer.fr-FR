@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,9 @@ Cliquez sur les trois points en regard d’une page de destination pour sélecti
 >abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations afin de gérer l&#39;accès aux données de votre page de destination à l&#39;aide de libellés."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Contrôle d’accès au niveau de l’objet"
 
-Suivez les étapes de création dʼune page de destination décrites ci-après.
+Les principales étapes de création des landing pages sont les suivantes :
+
+![](assets/lp-creation-process.png)
 
 1. Dans la liste des pages de destination, cliquez sur **[!UICONTROL Créer une page de destination]**.
 
