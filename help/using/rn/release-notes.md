@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 92%
@@ -56,9 +56,8 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <td>
 <p>Vous pouvez désormais créer des modèles de contenu autonomes qui peuvent être utilisés dans plusieurs parcours et campagnes pour une réutilisation rapide.</p> 
 </p>
-<!--img src="assets/do-not-localize/"/-->
-<p>Découvrez comment créer, modifier et utiliser des modèles de contenu dans <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">cette vidéo</a>.
-<p>Pour plus d'informations, consultez la <a href="../email/content-templates.md">documentation détaillée</a>.
+<img src="assets/do-not-localize/content-template.gif"/>
+<p>Découvrez comment créer, modifier et utiliser des modèles de contenu dans <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">cette vidéo</a>. Pour plus d'informations, consultez la <a href="../email/content-templates.md">documentation détaillée</a>.
 </p>
 </td>
 </tr>
