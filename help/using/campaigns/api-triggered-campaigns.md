@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 86%
+source-wordcount: '827'
+ht-degree: 85%
 
 ---
 
@@ -91,7 +91,10 @@ La syntaxe `{{context.<contextualAttribute>}}` est mappée à un type de donnée
 
 ![](assets/api-triggered-context.png)
 
+
 >[!IMPORTANT]
+>
+>Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko.
 >
 >La syntaxe `context.system` est limitée à l’utilisation interne d’Adobe uniquement et ne doit pas être utilisée pour transmettre des attributs contextuels.
 
