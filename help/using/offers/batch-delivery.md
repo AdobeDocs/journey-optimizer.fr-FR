@@ -2,10 +2,10 @@
 title: Diffuser des décisions par lots
 description: Découvrez comment diffuser les décisions d’offre à tous les profils d’un segment Adobe Experience Platform donné.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Avant de configurer une demande de traitement, assurez-vous d’avoir créé :
 
    >[!NOTE]
    >
-   >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent.
+   >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent. Patientez jusqu’à 24 heures après la création d’un segment avant d’essayer l’API de prise de décision par lots.
 
 * **Une décision** dans Adobe Journey Optimizer. [Découvrez comment créer une décision](offer-activities/create-offer-activities.md)
 
