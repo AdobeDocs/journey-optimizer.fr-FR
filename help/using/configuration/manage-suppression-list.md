@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: suppression, liste, bounce, e-mail, optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 54%
+source-wordcount: '1516'
+ht-degree: 53%
 
 ---
 
@@ -30,17 +30,19 @@ Pour en savoir plus sur le concept et l’utilisation de la liste de suppression
 
 Pour accéder à la liste détaillée des adresses électroniques et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >Les autorisations d’affichage, d’export et de gestion de la liste de suppression sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 Des filtres sont disponibles pour vous aider à parcourir la liste.
 
 ![](assets/suppression-list-filters.png)
 
-Vous pouvez filtrer par **[!UICONTROL Catégorie de suppression]**, **[!UICONTROL Type d’adresse]** ou **[!UICONTROL Raison]**. Sélectionnez la ou les options de votre choix pour chaque critère. Une fois sélectionné, vous pouvez effacer chaque filtre ou tous les filtres affichés en haut de la liste.
+Vous pouvez filtrer par **[!UICONTROL Catégorie de suppression]**, **[!UICONTROL Type d’adresse]** ou **[!UICONTROL Raison]**. Sélectionnez une ou plusieurs options pour chaque critère. Une fois sélectionné, vous pouvez effacer chaque filtre ou tous les filtres affichés en haut de la liste.
 
 ![](assets/suppression-list-filtering-example.png)
 
