@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: ht
-source-wordcount: '3583'
+source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+workflow-type: tm+mt
+source-wordcount: '3575'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>En tant qu’utilisateur de Journey Optimizer, vous pouvez désormais accéder aux alertes système par le biais de l’interface utilisateur afin d’être averti lorsque les parcours ne fonctionnent pas comme prévu. Vous pouvez afficher les alertes disponibles et vous y abonner. La première alerte disponible dans cette version vous avertit si une activité Lecture de segment n’a traité aucun profil pendant la période définie. D’autres informations seront disponibles maintenant que ce workflow est déverrouillé.</p>
-<p>Pour plus d'informations, consultez la <a href="../reports/alerts.md">documentation détaillée</a>.
+<!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
