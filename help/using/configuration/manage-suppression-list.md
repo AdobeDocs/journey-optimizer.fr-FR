@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: suppression, liste, bounce, e-mail, optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 53%
@@ -84,7 +84,7 @@ Les raisons possibles d&#39;un échec de diffusion sont les suivantes :
 
 ### Règles de suppression  {#suppression-rules}
 
-Dans la **[!UICONTROL Liste de suppression]** vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à partir de la fonction **[!UICONTROL Bouton Modifier les règles de suppression]**. Utilisez cette option pour mettre à jour le seuil de reprise de l’environnement de test actuel. [En savoir plus](retries.md).
+Dans la **[!UICONTROL Liste de suppression]** vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à partir de la fonction **[!UICONTROL Modifier les règles de suppression]** bouton . Utilisez cette option pour mettre à jour le seuil de reprise de l’environnement de test actuel. [En savoir plus sur les reprises](retries.md).
 
 
 ## Ajout d’adresses et de domaines à la liste de suppression{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ Pour ajouter une adresse électronique ou un domaine à la liste de suppression,
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Sélectionnez le type d&#39;adresse : **[!UICONTROL Adresse électronique]** ou **[!UICONTROL Adresse du domaine]**.
+1. Sélectionnez le type d&#39;adresse : **[!UICONTROL Email]** ou **[!UICONTROL Domaine]**.
 
 1. Saisissez l&#39;adresse e-mail ou le domaine que vous souhaitez exclure de votre envoi.
 
