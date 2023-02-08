@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Pour créer un message in-app, suivez les étapes ci-dessous :
 
-1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
+1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Création d’une campagne]**.
 
 1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne.
 
@@ -115,3 +115,9 @@ Une fois envoyés, vous pouvez mesurer l’impact de vos messages in-app dans le
 * [Concevoir un message in-app](design-in-app.md)
 * [Rapport in-app](inapp-report.md)
 * [Configuration in-app](inapp-configuration.md)
+
+## Vidéo pratique{#video}
+
+La vidéo ci-dessous montre comment créer, configurer et publier des messages In-App dans vos campagnes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

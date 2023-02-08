@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '870'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '884'
+ht-degree: 98%
 
 ---
 
@@ -194,3 +194,9 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 * [Créer un message in-app](create-in-app.md)
 * [Rapport in-app](inapp-report.md)
 * [Configuration in-app](inapp-configuration.md)
+
+## Vidéo pratique{#video}
+
+La vidéo ci-dessous montre comment créer et tester vos messages In-App.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

@@ -9,23 +9,33 @@ role: User
 level: Beginner
 keywords: e-mail, modèles, conception
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 22%
+source-wordcount: '272'
+ht-degree: 19%
 
 ---
 
 # Utiliser des modèles de courrier électronique {#email-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_use_template"
+>title="Créer du contenu à partir d’un modèle personnalisé"
+>abstract="Pour commencer à créer le contenu de votre email, sélectionnez un modèle existant qui a été entièrement créé ou enregistré comme modèle à partir d&#39;un email précédent."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="Créer des modèles de contenu"
 
 Dans la **[!UICONTROL Créer votre email]** , utilisez la méthode **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à créer votre contenu à partir d’un modèle.
 
 ![](assets/email_designer-templates.png)
 
 Vous pouvez choisir parmi les options suivantes :
+
 * **Exemples de modèles**. Le [!DNL Journey Optimizer] propose 20 modèles d’email d’usine, parmi lesquels vous pouvez choisir.
+
 * **Modèles enregistrés**. Vous pouvez également utiliser un modèle personnalisé qui vous permet d’effectuer l’une des opérations suivantes :
+
    * Créé à partir de zéro à l’aide du **[!UICONTROL Modèles de contenu]** . [En savoir plus](content-templates.md#create-template-from-scratch).
+
    * Enregistré dans un email dans un parcours ou une campagne à l’aide de la variable **[!UICONTROL Enregistrer en tant que modèle de contenu]** . [En savoir plus](content-templates.md#save-as-template).
 
 Pour commencer à créer votre contenu avec l’un des exemples ou des modèles enregistrés, procédez comme suit.

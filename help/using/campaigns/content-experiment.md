@@ -11,10 +11,10 @@ keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
-source-wordcount: '1030'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '1116'
+ht-degree: 77%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >
 >La fonctionnalité **Expérience de contenu** est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
-Utilisez l’expérience de contenu Journey Optimizer pour définir plusieurs traitements de diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel est le plus performant par rapport à la mesure d’intérêt. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de la diffusion.
+L’ expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de diffusion afin de mesurer celle qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de la diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel fonctionne le mieux en termes de mesure spécifiée.
 
 >[!NOTE]
 >
@@ -52,68 +52,53 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_1.png)
 
-1. Sélectionnez votre canal puis la **[!UICONTROL surface]** que vous souhaitez utiliser pour cette diffusion. Pour plus d’informations à ce sujet, consultez la page [Surfaces de canaux](../configuration/channel-surfaces.md).
+1. Sélectionnez votre canal, puis le **[!UICONTROL Surface]** vous souhaitez utiliser pour cette diffusion et cliquez sur **[!UICONTROL Créer]**. Pour plus d’informations à ce sujet, consultez la page [Surfaces de canaux](../configuration/channel-surfaces.md).
 
    ![](assets/content_experiment_2.png)
 
-1. Cliquez sur **[!UICONTROL Créer]**.
-
 1. Configurez les **[!UICONTROL Propriétés]** de votre diffusion :
-   * **[!UICONTROL Titre]**
+   * **[!UICONTROL Nom]**
    * **[!UICONTROL Description]**
-   * **[!UICONTROL Catégorie]** : **[!UICONTROL Marketing]** / **[!UICONTROL Transactionnel]**
-
-1. Pour lancer votre expérience de contenu, activez l’option **[!UICONTROL Expérience de contenu]**. Le menu **[!UICONTROL Expérience de contenu]** s’affiche.
-
-   ![](assets/content_experiment_3.png)
 
 1. Définissez l’audience à cibler. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélectionner l’audience]** pour afficher la liste des segments Adobe Experience Platform disponibles. [En savoir plus sur les segments](../segment/about-segments.md)
 
    Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus](get-started-experiment.md#content-experiment-work)
 
-1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section Planning. [En savoir plus](create-campaign.md)
+   ![](assets/content_experiment_16.png)
 
-1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à personnaliser vos **[!UICONTROL Traitements]**.
+1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
 
-   ![](assets/content_experiment_4.png)
+   Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée.
 
-## Création de vos traitements {#treatment-experiment}
+1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [En savoir plus](create-campaign.md).
 
-1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
+1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à personnaliser votre diffusion. [En savoir plus](../email/content-from-scratch.md).
 
-   Pour ce traitement, nous spécifions l’offre spéciale directement dans la ligne d’objet.
+   ![](assets/content_experiment_17.png)
+
+1. Dans la **[!UICONTROL Modifier le contenu]** , commencez à personnaliser le traitement A.
+
+   Pour ce traitement, nous allons définir l&#39;offre spéciale directement dans l&#39;objet et ajouter une personnalisation.
 
    ![](assets/content_experiment_5.png)
 
-1. Après avoir conçu votre premier traitement avec le bouton **[!UICONTROL Autres actions]**, cliquez sur **[!UICONTROL Dupliquer]**.
-
-   Vous pouvez également choisir de commencer un nouveau traitement à partir de zéro en cliquant sur le bouton **[!UICONTROL Expérience de contenu]**![](assets/content_experiment_16.png) pour accéder aux options avancées, puis sur **[!UICONTROL Ajouter un traitement]**.
-
-   ![](assets/content_experiment_7.png)
-
-1. Modifiez le **[!UICONTROL Titre]** de votre traitement pour mieux les différencier.
-
-   ![](assets/content_experiment_8.png)
-
-1. Personnalisez votre second traitement selon vos besoins.
-
-   Pour ce traitement, nous choisissons de ne pas spécifier l’offre dans la **[!UICONTROL ligne d’objet]**.
-
-   ![](assets/content_experiment_9.png)
-
-Une fois vos traitements personnalisés, vous pouvez commencer à configurer votre expérience de contenu.
-
 ## Configuration de votre expérience de contenu {#configure-experiment}
 
-1. Lorsque les deux diffusions sont personnalisées, dans la fenêtre **[!UICONTROL Modifier le contenu]**, sélectionnez **[!UICONTROL Configurer l’expérience de contenu]**.
+1. Lorsque votre diffusion est personnalisée, dans la page de résumé de Campaign, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
 
-   ![](assets/content_experiment_10.png)
+   ![](assets/content_experiment_3.png)
 
-1. Sélectionnez les objectifs que vous souhaitez définir pour votre expérience.
+1. Sélectionnez la **[!UICONTROL Mesure de succès]** vous voulez vous préparer pour votre expérience.
 
    Pour notre expérience, nous sélectionnons **[!UICONTROL Ouvertures d’e-mails]** pour tester si les destinataires ouvriront leurs e-mails lorsque le code de promotion se trouve dans l’objet.
 
    ![](assets/content_experiment_11.png)
+
+1. Cliquez sur **[!UICONTROL Ajouter un traitement]** créer autant de nouveaux traitements que nécessaire.
+
+   ![](assets/content_experiment_8.png)
+
+1. Modifiez le **[!UICONTROL Titre]** de votre traitement pour mieux les différencier.
 
 1. Choisissez d’ajouter un groupe d’**[!UICONTROL exclusion]** à votre diffusion. Ce groupe ne recevra aucun contenu de cette campagne.
 
@@ -125,9 +110,31 @@ Une fois vos traitements personnalisés, vous pouvez commencer à configurer vot
 
    ![](assets/content_experiment_13.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque la configuration est terminée.
+1. Cliquez sur **[!UICONTROL Créer]** lorsque votre configuration est définie.
 
-1. Lorsque votre expérience de contenu est prête, vous pouvez cliquer sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne. Des alertes s’affichent si un paramètre est incorrect ou manquant.
+## Concevoir vos traitements {#treatment-experiment}
+
+1. Dans la **[!UICONTROL Modifier le contenu]** sélectionnez votre traitement B pour modifier le contenu.
+
+   Pour ce traitement, nous choisissons de ne pas spécifier l’offre dans la **[!UICONTROL ligne d’objet]**.
+
+   ![](assets/content_experiment_18.png)
+
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’email]** pour personnaliser davantage votre traitement B.
+
+   ![](assets/content_experiment_9.png)
+
+1. Après avoir conçu vos traitements, cliquez sur **[!UICONTROL Autres actions]** pour accéder aux options relatives à vos traitements : **[!UICONTROL Renommer]**, **[!UICONTROL Dupliquer]** et **[!UICONTROL Supprimer]**.
+
+   ![](assets/content_experiment_7.png)
+
+1. Si nécessaire, accédez au **[!UICONTROL Paramètres d’expérience]** pour modifier la configuration des traitements.
+
+   ![](assets/content_experiment_19.png)
+
+1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour contrôler le rendu de votre diffusion et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../email/preview.md).
+
+1. Lorsque votre expérience de contenu est prête, dans la page de résumé de Campaign, vous pouvez cliquer sur **[!UICONTROL Réviser pour activer]** pour afficher un résumé de l&#39;opération. Des alertes s’affichent si un paramètre est incorrect ou manquant.
 
    ![](assets/content_experiment_15.png)
 

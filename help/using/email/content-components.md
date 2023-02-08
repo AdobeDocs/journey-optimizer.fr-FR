@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '1383'
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -168,44 +168,6 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
    ![](assets/email_designer_10.png)
 
 1. Ajustez les autres attributs de style tels que la marge, la bordure, etc. ou ajoutez un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
-
-## Vidéo {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre email. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre page de destination. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre fragment. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre modèle. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
-
-Utilisez le composant **[!UICONTROL Vidéo]** pour insérer une vidéo dans le corps de votre e-mail via un lien URL.
-
-1. À partir de **[!UICONTROL Composants de contenu]**, faites glisser le composant **[!UICONTROL Vidéo]** et déposez-le dans un **[!UICONTROL composant de structure]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Cliquez sur le composant que vous venez d’ajouter.
-
-1. Dans le champ **[!UICONTROL Lien vidéo]** du volet **[!UICONTROL Paramètres des composants]**, ajoutez l’URL de votre vidéo.
-
-   ![](assets/email_designer_18.png)
-
-1. Vous pouvez ajouter une **[!UICONTROL image d’affichage]** à votre vidéo pour spécifier une image à afficher jusqu’à ce que votre audience clique sur le bouton de lecture.
-
-1. Ajustez les autres attributs de style tels que le style, la marge, la bordure, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
 
 ## Social {#social}
 

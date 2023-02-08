@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 96%
+source-wordcount: '2330'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Février 2023 {#feb-2023}
 
 * Une note a été ajoutée dans la documentation des campagnes déclenchées par l’API pour indiquer que les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual).
+
+* Ajout d’informations sur la manière dont les informations d’exclusion sont stockées dans la variable **Jeu de données du service de consentement** une fois les destinataires désabonnés via une landing page. [En savoir plus](../landing-pages/lp-use-cases.md#configure-opt-out).
 
 ## Janvier 2023 {#jan-2023}
 
@@ -96,7 +98,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout de la liste des jeux de données Adobe Journey Optimizer avec des exemples de requête. [En savoir plus](../data/datasets-query-examples.md)
 * La page Liste autorisée a été déplacée vers la section Configuration. [En savoir plus](../configuration/allow-list.md)
 * La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
-* Ajout du lien vers les barrières de sécurité et les limites statiques pour la gestion des décisions. [En savoir plus](../start/guardrails.md)
+* Ajout du lien vers les mécanismes de sécurisation et les limites statiques pour la gestion des décisions. [En savoir plus](../start/guardrails.md)
 * L’optimisation de l’heure d’envoi est désormais disponible pour tous les clients. La mention Beta a été supprimée. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
 * L’API Batch Decisioning a été ajoutée à la liste des API disponibles pour diffuser des offres personnalisées. [En savoir plus](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
