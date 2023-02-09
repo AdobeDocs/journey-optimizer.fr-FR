@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Fonctionnalités d’accessibilité dans Journey Optimizer
 description: En savoir plus sur l’accessibilité dans l’interface utilisateur de Journey Optimizer
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 66%
+ht-degree: 81%
 
 ---
 
@@ -60,30 +60,30 @@ Vous pouvez utiliser ces raccourcis dans des zones spécifiques de [!DNL Journey
   </tr>
   <tr>
     <td>Sélection de toutes les activités</td>
-    <td>Ctrl + A (Windows)<br/>CMD + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Commande + A (Mac)</td>
   </tr>
   <tr>
     <td>Suppression des activités sélectionnées</td>
     <td>Suppr ou Retour arrière, puis Entrée pour confirmer la suppression</td>
   </tr>
   <tr>
-    <td>Zoom avant et arrière (mise au point sur la zone de travail ou l’un de ses éléments enfants)</td>
-    <td>CTRL +/- (Windows) ou CMD +/- (Mac)</td>
+    <td>Zoom avant et arrière (sélection sur la zone de travail ou l’un de ses éléments enfants)</td>
+    <td>Ctrl +/- (Windows) ou Commande +/- (Mac)</td>
   </tr>  
   <tr>
-    <td>Navigation entre chaque activité et chemin (mise au point sur la zone de travail) ou entre les boutons de la barre d’outils (mise au point sur la barre d’outils)</td>
-    <td>touches fléchées</td>
+    <td>Navigation entre chaque activité et chemin (sélection sur la zone de travail) ou entre les boutons de la barre d’outils (sélection sur la barre d’outils)</td>
+    <td>Touches fléchées</td>
   </tr>   
   <tr>
-    <td>Déplacer la sélection vers l’élément exploitable suivant sur la zone de travail, la barre d’outils étant la première</td>
+    <td>Déplacement de la sélection vers l’élément exploitable suivant sur la zone de travail, la barre d’outils étant la première</td>
     <td>Tabulation</td>
   </tr>  
   <tr>
-    <td>Ouvrez le volet de configuration approprié (focus sur une activité).</td>
-    <td>ENTRER</td>
+    <td>Ouverture du volet de configuration de droite (sélection sur une activité)</td>
+    <td>Entrée</td>
   </tr>   
   <tr>
-    <td>Déplacer une activité dans la zone de travail (mise au point sur une activité)</td>
+    <td>Déplacement d’une activité dans la zone de travail (sélection sur une activité)</td>
     <td>Maj + touches fléchées</td>
   </tr>  
   <tr>
