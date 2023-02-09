@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: suppression, liste, bounce, e-mail, optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 53%
+source-wordcount: '1488'
+ht-degree: 54%
 
 ---
 
@@ -219,16 +219,15 @@ Pour supprimer une adresse de la liste de suppression, utilisez le **[!UICONTROL
 >
 >Procédez avec attention lorsque vous envisagez de supprimer une adresse e-mail ou un domaine. En cas de doute, contactez un expert en délivrabilité.
 
+Par exemple, dans le cas d’une panne du fournisseur d’accès Internet (FAI), les emails sont marqués à tort comme hard bounces, car ils ne peuvent pas être envoyés avec succès à leur destinataire. Ces adresses électroniques doivent être supprimées de la liste de suppression.
 
-Par exemple, dans le cas d’une panne du fournisseur d’accès Internet (FAI), les emails peuvent être marqués à tort comme des hard bounces, car ils ne peuvent pas être envoyés avec succès à leur destinataire. Ces adresses électroniques doivent être supprimées de la liste de suppression.
+Pour récupérer ces adresses, exécutez une requête spécifique avec des paramètres personnalisés, en fonction du contexte de la panne. [En savoir plus dans cet exemple](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-Pour ce faire, filtrez la liste de suppression afin d’afficher les adresses électroniques ou domaines concernés. Par exemple, si une panne de FAI s’est produite du 11 novembre 2022 au 13 novembre 2022 sur le **test.com** domain, filtrez les adresses ajoutées à la liste de suppression dans cette période, comme ci-dessous :
+Une fois les adresses email concernées identifiées, filtrez la liste de suppression pour les afficher. Par exemple, si une panne de FAI s’est produite du 11 novembre 2022 au 13 novembre 2022 sur le **test.com** domain, filtrez les adresses ajoutées à la liste de suppression dans cette période, comme ci-dessous :
 
 ![](assets/remove-from-supp-list.png)
 
-Vous devez également ajouter un filtre sur le type de rebond, en fonction des détails de la panne. Ces détails sont fournis par le FAI, comme le code d’erreur exact renvoyé à l’expéditeur. Par exemple : `550 <email address> recipient rejected` ou `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-Une fois identifiées, ces adresses peuvent être supprimées manuellement de la liste de suppression à l’aide du **[!UICONTROL Supprimer]** bouton . Ces adresses peuvent ensuite être incluses dans les futures campagnes par e-mail.
+Vous pouvez ensuite supprimer les adresses électroniques mises en quarantaine de la liste de suppression à l’aide du **[!UICONTROL Supprimer]** bouton .
 
 ## Télécharger la liste de suppression {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Une fois identifiées, ces adresses peuvent être supprimées manuellement de la
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 Pour exporter la liste de suppression au format CSV, suivez les étapes ci-dessous:

@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 99%
@@ -32,7 +32,7 @@ ht-degree: 99%
    + [Interface utilisateur](using/start/user-interface.md)
    + [Accessibilité](using/start/accessibility.md)
    + [Intégrations](using/start/ajo-integrations.md)
-   + [Barrières de sécurité](using/start/guardrails.md)
+   + [Mécanismes de sécurisation](using/start/guardrails.md)
 + Parcours {#orchestrate-journeys}
    + [Prise en main des parcours](using/building-journeys/journey.md)
    + Création d’un parcours{#create-journey}
@@ -413,10 +413,10 @@ ht-degree: 99%
 + Gestion des données {#data-management}
    + [Prise en main de la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
+   + [Requêtes](using/data/get-started-queries.md)
    + Jeux de données Journey Optimizer {#datasets}
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
-   + [Requêtes](using/data/get-started-queries.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
@@ -467,7 +467,7 @@ ht-degree: 99%
    + [Prise en main de la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
    + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
-   + [Exécution des opérations d’hygiène des données](using/privacy/data-hygiene.md)
+   + [Effectuer des opérations d’hygiène des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
       + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
       + [Utiliser les politiques de consentement](using/action/consent.md)
