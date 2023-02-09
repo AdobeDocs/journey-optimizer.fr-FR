@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: suppression, liste, bounce, e-mail, optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 54%
@@ -221,7 +221,7 @@ Pour supprimer une adresse de la liste de suppression, utilisez le **[!UICONTROL
 
 Par exemple, dans le cas d’une panne du fournisseur d’accès Internet (FAI), les emails sont marqués à tort comme hard bounces, car ils ne peuvent pas être envoyés avec succès à leur destinataire. Ces adresses électroniques doivent être supprimées de la liste de suppression.
 
-Pour récupérer ces adresses, exécutez une requête spécifique avec des paramètres personnalisés, en fonction du contexte de la panne. [En savoir plus dans cet exemple](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+Pour récupérer ces adresses, exécutez une requête spécifique avec des paramètres personnalisés, en fonction du contexte de la panne. [En savoir plus dans cet exemple](../data/datasets-query-examples.md#isp-outage-query).
 
 Une fois les adresses email concernées identifiées, filtrez la liste de suppression pour les afficher. Par exemple, si une panne de FAI s’est produite du 11 novembre 2022 au 13 novembre 2022 sur le **test.com** domain, filtrez les adresses ajoutées à la liste de suppression dans cette période, comme ci-dessous :
 
