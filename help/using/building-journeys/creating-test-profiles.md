@@ -10,7 +10,7 @@ level: Intermediate
 keywords: profils de test, tests, test, parcours
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de jeux de données, consultez la [documentation du Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started){target="_blank"}.
+> Pour plus d’informations sur la création de jeux de données, consultez la [documentation de Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
 ## Cas d’utilisation interne au produit{#use-case-1}
 

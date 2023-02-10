@@ -8,7 +8,7 @@ level: Intermediate
 keywords: destination, page de destination, configurer, environnement, sous-domaine, paramètres prédéfinis
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 100%
 

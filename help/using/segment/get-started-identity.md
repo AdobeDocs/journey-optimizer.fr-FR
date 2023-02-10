@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -24,13 +24,13 @@ Dans [!DNL Adobe Journey Optimizer], les **identités** relient les consommateur
 
 ![](assets/identities-home.png)
 
-Découvrez le **Service d’identités** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target=&quot;_blank&quot;}.
+Découvrez le **Service d’identités** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
 
 ## Espaces de noms d’identité {#identity-namespaces}
 
 Les **espaces de noms d’identité** sont des composants du Service d’identités qui servent d’indicateurs du contexte auquel une identité se rapporte. Par exemple, ils distinguent une valeur `name@email.com` comme adresse e-mail ou `443522` comme identifiant CRM numérique. L’utilisation des espaces de noms d’identité nécessite une compréhension des différents services d’Adobe Experience Platform impliqués. Avant de commencer à travailler avec les espaces de noms d’identité, veuillez consulter la documentation relative aux services suivants :
 
-Découvrez les **espaces de noms d’identité** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target=&quot;_blank&quot;}.
+Découvrez les **espaces de noms d’identité** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
 
 ## Graphique d’identités{#id-graph}
 
@@ -38,4 +38,4 @@ Un **graphique d’identités** est une carte des relations entre différentes i
 
 La visionneuse de graphiques d’identités de l’interface utilisateur [!DNL Adobe Journey Optimizer] permet de visualiser et de mieux comprendre quelles identités de client sont regroupées, et de quelles façons. La visionneuse vous permet de faire glisser différentes parties du graphique et d’interagir avec celles-ci. Vous pouvez ainsi examiner les relations d’identité complexes, effectuer plus efficacement le débogage et bénéficier d’une plus grande transparence en ce qui concerne l’utilisation des informations.
 
-Découvrez le **graphique d’identités** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=fr){target=&quot;_blank&quot;}.
+Découvrez le **graphique d’identités** dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=fr){target="_blank"}.

@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 54%
+ht-degree: 59%
 
 ---
 
@@ -182,13 +182,13 @@ Utilisez la variable **[!UICONTROL Chargements récents]** pour vérifier l’é
 
 Les statuts possibles sont les suivants :
 
-* **[!UICONTROL En attente]**: Le chargement du fichier est en cours de traitement.
-* **[!UICONTROL Erreur]**: Le processus de chargement de fichier a échoué en raison d’un problème technique ou d’une erreur de format de fichier.
-* **[!UICONTROL Terminer]**: Le processus de chargement de fichier a été terminé.
+* **[!UICONTROL En attente]** : le téléchargement du fichier est en cours de traitement.
+* **[!UICONTROL Erreur]** : le processus de téléchargement du fichier a échoué en raison d’un problème technique ou d’un format de fichier incorrect.
+* **[!UICONTROL Terminé]** : le processus de téléchargement du fichier est terminé.
 
-Lors du chargement, si certaines adresses ne sont pas au format correct, elles ne sont pas ajoutées à la variable [!DNL Journey Optimizer] liste de suppression.
+Lors du téléchargement, si certaines adresses ne sont pas au format correct, elles ne sont pas ajoutées à la liste de suppression [!DNL Journey Optimizer].
 
-Dans ce cas, une fois le transfert terminé, il est associé à un rapport. Vous pouvez le télécharger pour vérifier les erreurs rencontrées<!-- and understand why they were not added to the suppression list-->.
+Dans ce cas, une fois le téléchargement terminé, un rapport associé est émis. Vous pouvez le télécharger pour vérifier les erreurs rencontrées<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 

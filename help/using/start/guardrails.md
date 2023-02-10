@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Sécurité et limitations de Journey Optimizer
-description: En savoir plus sur les limitations de Journey Optimizer.
+title: Mécanismes de sécurisation et limitations de Journey Optimizer
+description: En savoir plus sur les mécanismes de sécurisation de Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -15,33 +15,33 @@ ht-degree: 100%
 
 ---
 
-# Sécurité et limitations {#limitations}
+# Mécanismes de sécurisation et limitations {#limitations}
 
 Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Vous devez également connaître les [barrières de sécurité pour les données du profil client en temps réel avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"}.
+Vous devez également connaître les [mécanismes de sécurisation pour les données du profil client en temps réel avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"}.
 
-Vous trouverez ci-dessous des éléments de sécurité et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
+Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
 
-## Sécurisation des messages {#message-guardrails}
+## Mécanismes de sécurisation des messages {#message-guardrails}
 
 * Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
 * Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
 
 
-## Sécurisation de la gestion des décisions {#offer-guardrails}
+## Mécanismes de sécurisation de la gestion des décisions {#offer-guardrails}
 
-Les protections des performances et les limites statiques pour la prise des décisions sont répertoriées dans la [page de description du produit de service d’application d’Adobe Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
+Les mécanismes de sécurisation des performances et les limites statiques pour la prise des décisions sont répertoriés dans la [page de description du produit de service d’application d’Adobe Offer Decisioning](https://helpx.adobe.com/fr/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
-## Sécurisation des pages de destination {#lp-guardrails}
+## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
 * Un seul composant de **Formulaire** peut être utilisé dans une page principale unique.
 * Le composant de **Formulaire** ne peut pas être utilisé dans les sous-pages.
 * Vous ne pouvez pas ajouter de pré-titre à une page de destination.
 * Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
 
-## Sécurisation des parcours {#journeys-guardrails}
+## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 
 ### Actions générales {#general-actions-g}
 

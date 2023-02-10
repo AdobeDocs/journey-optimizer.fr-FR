@@ -118,5 +118,5 @@ Vous êtes maintenant prêt à envoyer des messages SMS avec Journey Optimizer.
 
 **Rubriques connexes**
 
-* [Créer un SMS](create-sms.md)
+* [Création d’un SMS](create-sms.md)
 * [Ajout dʼun message dans un parcours](../building-journeys/journeys-message.md)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer un SMS
+title: Création d’un SMS
 description: Découvrez comment créer un message SMS dans Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Créer un SMS {#create-sms}
+# Création d’un SMS {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"

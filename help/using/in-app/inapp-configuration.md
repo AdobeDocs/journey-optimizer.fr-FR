@@ -8,7 +8,7 @@ hidefromtoc: true
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -69,6 +69,6 @@ Le canal in-app est maintenant configuré. Vous pouvez commencer à envoyer des 
 **Rubriques connexes :**
 
 * [Créer un message in-app](create-in-app.md)
-* [Créer une campagne](../campaigns/create-campaign.md)
+* [Création d’une campagne](../campaigns/create-campaign.md)
 * [Concevoir un message in-app](design-in-app.md)
 * [Rapport in-app](inapp-report.md)

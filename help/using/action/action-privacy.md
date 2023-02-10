@@ -10,7 +10,7 @@ level: Intermediate
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, stratégie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%
 

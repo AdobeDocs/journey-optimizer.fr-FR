@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1478'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,13 +69,13 @@ Vous ne pouvez pas poursuivre la création de la surface lorsque le groupe d’a
 >
 >Pour les environnements hors production, Adobe ne crée pas de sous-domaines de test d’usine et n’accorde pas l’accès à un groupe d’adresses IP d’envoi partagé. Vous devez [déléguer vos propres sous-domaines](../configuration/delegate-subdomain.md) et utiliser les adresses IP du groupe affecté à votre organisation.
 
-Une fois qu’un pool d’adresses IP a été sélectionné, les informations relatives aux adresses IP sont visibles lorsque vous pointez sur les adresses IP affichées sous la liste déroulante du pool d’adresses IP. [En savoir plus sur les enregistrements PTR](../configuration/ptr-records.md)
+Une fois qu’un groupe d’adresses IP a été sélectionné, les informations PTR sont visibles lorsque vous pointez sur les adresses IP affichées sous la liste déroulante du groupe d’adresses IP. [En savoir plus sur les enregistrements PTR](../configuration/ptr-records.md)
 
 ![](assets/email-surface-ptr-record.png)
 
 >[!NOTE]
 >
->Si un enregistrement PTR n’est pas configuré, contactez votre représentant d’Adobe.
+>Si un enregistrement PTR n’est pas configuré, contactez votre représentant(e) Adobe.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

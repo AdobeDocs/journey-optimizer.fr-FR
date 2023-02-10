@@ -10,7 +10,7 @@ level: Intermediate
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Voici quelques remarques importantes qui s’appliquent lorsque plusieurs évén
 
 Les événements métier suivent les règles de rentrée de la même manière que les événements unitaires. Si un parcours permet une rentrée, l’événement métier suivant est traité.
 
-**Quelles sont les barrières de sécurité permettant d’éviter la surcharge des segments matérialisés ?**
+**Quelles sont les mécanismes de sécurisation permettant d’éviter la surcharge des segments matérialisés ?**
 
 Dans le cas d’événements métier unique, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de barrières de sécurité. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 

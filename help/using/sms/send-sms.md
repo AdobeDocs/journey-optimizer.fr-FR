@@ -59,5 +59,5 @@ Une fois votre SMS prêt, effectuez la configuration de votre [parcours](../buil
 
 * [Configurer le canal SMS](sms-configuration.md)
 * [Rapport SMS](../reports/journey-global-report.md#sms-global)
-* [Créer un SMS](create-sms.md)
+* [Création d’un SMS](create-sms.md)
 * [Ajout dʼun message dans un parcours](../building-journeys/journeys-message.md)

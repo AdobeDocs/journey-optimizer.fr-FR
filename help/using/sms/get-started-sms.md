@@ -40,7 +40,7 @@ Si c’est la première fois que vous créez un message SMS, vérifiez que le ca
 <a href="create-sms.md">
 <img alt="Prospect" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Créer un SMS</strong>
+<div><a href="create-sms.md"><strong>Création d’un SMS</strong>
 </div>
 <p>
 </td>

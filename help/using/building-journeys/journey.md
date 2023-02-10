@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 
 ## Procédure de création d’un parcours{#steps-journey}
 
-Adobe Journey Optimizer vous permet de concevoir et d’orchestrer des parcours personnalisés dans une zone de travail unique. Les étapes principales pour créer un parcours sont les suivantes :
+Adobe Journey Optimizer vous permet de concevoir et d’orchestrer des parcours personnalisés dans une zone de travail unique. Suivez les étapes principales de création dʼun parcours décrites ci-après :
 
 ![](assets/journey-creation-process.png)
 
@@ -101,4 +101,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 >[!NOTE]
 >
->Pour en savoir plus sur les barrières de sécurité et les limitations, consultez [cette page](../start/guardrails.md#journey-versions-limitations).
+>Pour en savoir plus sur les mécanismes de sécurisation et les limitations, consultez [cette page](../start/guardrails.md#journey-versions-limitations).

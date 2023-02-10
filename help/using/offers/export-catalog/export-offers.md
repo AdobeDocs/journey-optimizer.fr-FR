@@ -45,14 +45,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > prise de décision
++++ _experience > decisioning
 
 **Champ :** prise de décision
 **Type :** objet
 
 +++
 
-+++ _experience > prise de décision > calendarConstraints
++++ _experience > decisioning > calendarConstraints
 
 **Champ :** calendarConstraints 
 **Titre :** détails sur les contraintes de calendrier
@@ -75,7 +75,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > prise de décision > caractéristiques
++++ _experience > decisioning > characteristics
 
 **Champ :** caractéristiques 
 **Titre :** Caractéristiques d&#39;option de décision
@@ -84,7 +84,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > prise de décision > contenu
++++ _experience > decisioning > contents
 
 **Champ :** contenu 
 **Titre :** détails du contenu 
@@ -93,21 +93,21 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décision > contenu > composants
++++_experience > decisioning > contents > components
 
 **Champ :** composants
 **Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
 **Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
-* **_experience > prise de décision > contenu > composants > Type de composant de contenu**
+* **_experience > decisioning > contents > components > Content Component Type**
 
    **Champ :** _type
    **Titre :** type du composant du contenu
    **Description :** Un ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
    **Type :** chaîne
 
-* **_experience > prise de décision > contenu > composants > _dc**
+* **_experience > decisioning > contents > components > _dc**
 
    **Champ :** _dc
    **Type :** objet
@@ -128,7 +128,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
       **Type :** tableau
       **Exemples :** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
-* **_experience > prise de décision > contenu > composants > _repo**
+* **_experience > decisioning > contents > components > _repo**
 
    **Champ :** _repo
    **Type :** objet
@@ -160,27 +160,27 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
       **Type :** chaîne
       **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
-* **_experience > prise de décision > contenu > composants > contenu**
+* **_experience > decisioning > contents > components > content**
 
    **Champ :** contenu
    **Description :** champ facultatif pour contenir directement le contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n&#39;est pas utilisé pour les ressources de contenu composites, complexes et binaires.
    **Type :** chaîne
 
-* **_experience > prise de décision > contenu > composants > deliveryURL**
+* **_experience > decisioning > contents > components > deliveryURL**
 
    **Champ :** deliveryURL
    **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d&#39;un réseau de diffusion de contenu ou d&#39;un point d&#39;entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
    **Type :** chaîne
    **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-* **_experience > prise de décision > contenu > composants > linkURL**
+* **_experience > decisioning > contents > components > linkURL**
 
    **Champ :** linkURL
    **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
    **Type :** chaîne
    **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-+++_experience > prise de décision > contenu > Emplacement
++++_experience > decisioning > contents > Placement
 
 **Champ :** emplacement
 **Titre :** emplacement 
@@ -189,7 +189,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > prise de décision > Statut du cycle de vie
++++ _experience > decisioning > Lifecycle Status
 
 **Champ :** lifecycleStatus
 **Titre :** statut du cycle de vie
@@ -199,7 +199,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > prise de décision > Nom de l&#39;option de décision
++++ _experience > decisioning > Decision Option Name
 
 **Champ :** nom
 **Titre :** nom de l&#39;option de décision
@@ -208,7 +208,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > prise de décision > profileConstraints
++++ _experience > decisioning > profileConstraints
 
 **Champ :** profileConstraints 
 **Titre :** Détails de la contrainte de profil
@@ -217,7 +217,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décision > profileConstraints > Description
++++_experience > decisioning > profileConstraints > Description
 
 **Champ :** description
 **Titre :** description 
@@ -226,7 +226,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décision > profileConstraints > Règle d&#39;éligibilité
++++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
 **Titre :**règle d&#39;éligibilité
@@ -235,7 +235,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décision > profileConstraints > Type de contrainte de profil
++++_experience > decisioning > profileConstraints > Profile Constraint Type
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
@@ -250,7 +250,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décision > profileConstraints > Identifiants de segments
++++_experience > decisioning > profileConstraints > Segment Identifiers
 
 **Champ :** segmentIdentities
 **Titre :** Identifiants de segments
@@ -288,7 +288,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > prise de décision > ranking
++++ _experience > decisioning > ranking
 
 **Champ :** classement
 **Titre :** Détails du classement
@@ -297,7 +297,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décision > ranking > Évaluation de l&#39;ordre
++++_experience > decisioning > ranking > Order Evaluation
 
 **Champ :** ordre
 **Titre :** évaluation de l&#39;ordre
@@ -328,18 +328,18 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > prise de décision > ranking > Priorité
++++_experience > decisioning > ranking > Priority
 
 **Champ :** priorité
 **Titre :** priorité
-**Description :** priorité d&#39;une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
+**Description :** priorité d’une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
 **Type :** entier
 **Valeur minimum :** 0
 **Valeur par défaut :** 0
 
 +++
 
-+++ _experience > prise de décision > balises
++++ _experience > decisioning > tags
 
 **Champ :** balises 
 **Titre :** Balises 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 100%
 
@@ -255,7 +255,7 @@ Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL 
 ## Ressources supplémentaires
 
 * [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
-* [Créer une campagne](../campaigns/create-campaign.md)
+* [Création d’une campagne](../campaigns/create-campaign.md)
 * [Créer des campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
-* [Modifier ou arrêter une campagne](../campaigns/modify-stop-campaign.md)
+* [Modification ou arrêt d’une campagne](../campaigns/modify-stop-campaign.md)
 * [Rapport dynamique de campagne](campaign-live-report.md)

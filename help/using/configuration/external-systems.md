@@ -10,21 +10,21 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Intégration avec des systèmes externes {#external-systems}
 
-Cette page présente les différentes barrières de sécurité fournies par Journey Optimizer lors de l&#39;intégration d&#39;un système externe, ainsi que les bonnes pratiques : comment optimiser la protection de votre système externe à l&#39;aide de l&#39;API de limitation, comment configurer le délai d&#39;expiration du parcours et comment les reprises fonctionnent.
+Cette page présente les différents mécanismes de sécurisation fournis par Journey Optimizer lors de l&#39;intégration d&#39;un système externe, ainsi que les bonnes pratiques : comment optimiser la protection de votre système externe à l&#39;aide de l&#39;API de limitation, comment configurer le délai d&#39;expiration du parcours et comment les reprises fonctionnent.
 
 Journey Optimizer vous permet de configurer des connexions à des systèmes externes par le biais de sources de données et d&#39;actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d&#39;un système de réservation externe ou envoyer des messages à l&#39;aide d&#39;un système tiers tel qu&#39;Epsilon ou Facebook.
 
-Lors de l&#39;intégration d&#39;un système externe, vous pouvez rencontrer plusieurs problèmes : le système peut être lent, il peut arrêter de répondre ou ne pas être en mesure de gérer un volume important. Journey Optimizer propose plusieurs barrières de sécurité pour protéger votre système contre la surcharge.
+Lors de l&#39;intégration d&#39;un système externe, vous pouvez rencontrer plusieurs problèmes : le système peut être lent, il peut arrêter de répondre ou ne pas être en mesure de gérer un volume important. Journey Optimizer propose plusieurs mécanismes de sécurisation pour protéger votre système contre la surcharge.
 
 Tous les systèmes externes sont différents en termes de performances. Vous devez adapter la configuration à vos cas d&#39;utilisation.
 
-Lorsque Journey Optimizer exécute un appel à une API externe, les barrières de sécurité techniques sont exécutées comme suit :
+Lorsque Journey Optimizer exécute un appel à une API externe, les mécanismes de sécurisation techniques sont exécutés comme suit :
 
 1. Les règles de limitation sont appliquées : si le taux maximum est atteint, les appels restants sont ignorés.
 
@@ -38,7 +38,7 @@ Pour les sources de données externes, le nombre maximal d’appels par seconde 
 
 >[!NOTE]
 >
-> Si une source de données utilise une authentification personnalisée avec un point de terminaison différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point de terminaison dans la liste autorisée de données.
+> Si une source de données utilise une authentification personnalisée avec un point d’entrée différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point d’entrée dans la liste autorisée.
 
 Pour les actions personnalisées, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une règle de limitation afin que votre système ne sature pas.
 

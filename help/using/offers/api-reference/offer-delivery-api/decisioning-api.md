@@ -9,7 +9,7 @@ exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 80ec1fb3f179a78526fcbee103466b3aeb5a9484
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -200,17 +200,17 @@ Une réponse réussie renvoie des informations sur votre proposition, y compris 
 
 **Codes de réponse**
 
-Le tableau ci-dessous répertorie tous les codes qui peuvent être renvoyés dans la réponse :
+Le tableau ci-dessous répertorie tous les codes qui peuvent être renvoyés dans la réponse :
 
 | Code | Description |
 |  ---  |  ---  |
-| 200 | Réussite. Prise de décision pour les activités données |
+| 200 | Réussite. Une décision a été prise pour des activités données. |
 | 400 | Paramètre de requête non valide. La requête ne peut pas être comprise par le serveur en raison d’une syntaxe incorrecte. |
-| 403 | Autorisations interdites et insuffisantes. |
-| 422 | Entité non traitable. La syntaxe de la requête est correcte, mais en raison d’erreurs sémantiques, elle ne peut pas être traitée. |
-| 429 | Trop de requêtes. L’utilisateur a envoyé trop de requêtes au cours d’une période donnée. |
-| 500 | Erreur interne du serveur. Le serveur a rencontré une condition inattendue qui l’a empêché de répondre à la demande. |
-| 503 | Service indisponible en raison d’une surcharge du serveur. Le serveur ne peut actuellement pas traiter la demande en raison d’un surchargement temporaire. |
+| 403 | Accès interdit, autorisations insuffisantes. |
+| 422 | Entité impossible à traiter. La syntaxe de la requête est correcte mais elle ne peut pas être traitée en raison d’erreurs sémantiques. |
+| 429 | Trop de requêtes. L’utilisateur ou l‘utilisatrice a envoyé trop de demandes au cours d’une période donnée. |
+| 500 | Erreur interne du serveur. Le serveur a rencontré une condition inattendue qui l’a empêché de satisfaire la requête. |
+| 503 | Service indisponible en raison d’une surcharge du serveur. Le serveur ne peut actuellement pas traiter la demande en raison d’une surcharge temporaire. |
 
 ## Tutoriel vidéo {#video}
 

@@ -128,7 +128,7 @@ ht-degree: 100%
       <a href="using/email/assets-essentials.md">Ressources</a>
     </li>
     <li>
-      <a href="using/email/content-templates.md">Modèles de contenu </a>
+      <a href="using/email/content-templates.md">Modèles de contenu</a>
     </li>
     <p>
     <p>GESTION DES DONNÉES</p>
