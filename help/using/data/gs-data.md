@@ -10,9 +10,9 @@ level: Intermediate
 keywords: données, gestion, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,8 +49,8 @@ En général, la flexibilité que vous souhaitez obtenir de vos données est la 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <div><img alt="politique" src="assets/do-not-localize/policy.png" /> 
-    <br>Suppression d’une base de données dans un délai convenu pour votre politique - la suppression des données est un aspect important de la protection des données et une étape clé dans tous les processus de gouvernance des données. [!DNL Adobe Journey Optimizer] peut produire plus de données que nécessaire. En outre, vous souhaitez prêter plus d’attention à ce qui se passe après la durée requise pour un jeu de données, que ce soit en raison de son utilité ou de sa réglementation. Le contrôle dont vous avez besoin consiste à supprimer des données à un moment donné. 
+    <div><img alt="politique" src="assets/do-not-localize/policy.png" />
+<br>Suppression d’une base de données dans un délai convenu pour votre politique - la suppression des données est un aspect important de la protection des données et une étape clé dans tous les processus de gouvernance des données. [!DNL Adobe Journey Optimizer] peut produire plus de données que nécessaire. En outre, vous devriez prêter la plus grande attention à ce qui se passe après la durée requise pour un jeu de données, que ce soit en raison de son utilité ou de sa réglementation. Le contrôle dont vous avez besoin consiste à supprimer des données à un moment donné. 
     </div>
       <div>
      <a href="../privacy/data-hygiene.md">En savoir plus</a>.</div>
@@ -77,7 +77,7 @@ Vous pouvez utiliser la flexibilité des données de [!DNL Journey Optimizer] po
 
 * **Purge et mécanismes d’archivage** : la purge et l’archivage des données peuvent être librement définis et automatisés dans [!DNL Adobe Journey Optimizer] afin d’automatiser les politiques de conservation des données. Il est possible de définir différentes politiques de vieillissement pour les différentes entités de données. Des mécanismes d’exportation peuvent également être définis pour exporter automatiquement les données âgées avant qu’elles ne soient purgées ou archivées.
 
-   L’espace de travail de l’hygiène des données vous permet de créer et de surveiller diverses tâches d’hygiène des données, notamment la suppression des identités des consommateurs et la planification de l’expiration des jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield (Bouclier de sécurité et de confidentialité) et Healthcare Shield (Bouclier santé). En savoir plus sur [cette page](../privacy/data-hygiene.md).
+   L’espace de travail Hygiène des données vous permet de créer et de surveiller diverses tâches d’hygiène des données, notamment la suppression des identités des client(e)s et la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield et Healthcare Shield. En savoir plus sur [cette page](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
