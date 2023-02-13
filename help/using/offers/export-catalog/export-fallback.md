@@ -43,14 +43,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning
++++ _experience > prise de décision
 
 **Champ :** prise de décision
 **Type :** objet
 
 +++
 
-+++ _experience > decisioning > characteristics
++++ _experience > prise de décision > caractéristiques
 
 **Champ :** caractéristiques 
 **Titre :** Caractéristiques d&#39;option de décision
@@ -61,7 +61,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-+++ _experience > decisioning > contents
++++ _experience > prise de décision > contenu
 
 **Champ :** contenu 
 **Titre :** détails du contenu 
@@ -70,21 +70,21 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > contents > components
++++_experience > prise de décision > contenu > composants
 
 **Champ :** composants
 **Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
 **Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
-* **_experience > decisioning > contents > components > Content Component Type**
+* **_experience > prise de décision > contenu > composants > Type de composant de contenu**
 
    **Champ :** _type
    **Titre :** type du composant du contenu
    **Description :** ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné du composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
    **Type :** chaîne
 
-* **_experience > decisioning > contents > components > _dc**
+* **_experience > prise de décision > contenu > composants > _dc**
 
    **Champ :** _dc
    **Type :** objet
@@ -106,7 +106,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
       **Type :** tableau
       **Exemples :** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
-* **_experience > decisioning > contents > components > _repo**
+* **_experience > prise de décision > contenu > composants > _repo**
 
    **Champ :** _repo
    **Type :** objet
@@ -138,20 +138,20 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
       **Type :** chaîne
       **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
-* **_experience > decisioning > contents > components > content**
+* **_experience > prise de décision > contenu > composants > contenu**
 
    **Champ :** contenu
    **Description :** champ facultatif pour contenir directement le contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n&#39;est pas utilisé pour les ressources de contenu composites, complexes et binaires.
    **Type :** chaîne
 
-* **_experience > decisioning > contents > components > deliveryURL**
+* **_experience > prise de décision > contenu > composants > deliveryURL**
 
    **Champ :** deliveryURL
    **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d&#39;un réseau de diffusion de contenu ou d&#39;un point d&#39;entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
    **Type :** chaîne
    **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-* **_experience > decisioning > contents > components > linkURL**
+* **_experience > prise de décision > contenu > composants > linkURL**
 
    **Champ :** linkURL
    **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
@@ -160,7 +160,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > contents > Placement
++++ _experience > prise de décision > contenu > Emplacement
 
 **Champ :** emplacement
 **Titre :** emplacement 
@@ -169,7 +169,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Lifecycle Status
++++ _experience > prise de décision > Statut du cycle de vie
 
 **Champ :** lifecycleStatus
 **Titre :** statut du cycle de vie
@@ -179,7 +179,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Decision Option Name
++++ _experience > prise de décision > Nom de l&#39;option de décision
 
 **Champ :** nom
 **Titre :** nom de l&#39;option de décision
@@ -188,7 +188,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > tags
++++ _experience > prise de décision > balises
 
 **Champ :** balises
 **Titre :** balises 

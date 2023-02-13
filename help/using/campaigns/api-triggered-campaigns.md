@@ -11,7 +11,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 ## Création d’une campagne déclenchée par une API {#create}
 
-### Configurer et activer la campagne {#create-activate}
+### Configurer et activer l&#39;opération {#create-activate}
 
 Le processus de création de campagnes déclenchées par API reste identique aux campagnes planifiées, à l’exception de la sélection d’audiences qui est effectuée dans la payload de l’API. Vous trouverez des informations détaillées sur la création d’une campagne dans [cette section](create-campaign.md).
 
@@ -59,17 +59,17 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Examiner pour activer]** pour vérifier que votre campagne est correctement paramétrée, puis activez-la.
 
-Vous pouvez maintenant exécuter la campagne à partir des API. [En savoir plus](#execute).
+Vous êtes maintenant prêt à exécuter la campagne à partir des API. [En savoir plus](#execute).
 
-### Exécuter la campagne {#execute}
+### Exécution de la campagne {#execute}
 
 Une fois votre campagne activée, vous devez récupérer l’exemple de requête cURL généré et l’utiliser dans l’API pour créer votre payload et déclencher la campagne.
 
-1. Ouvrez la campagne, puis copiez-collez l’exemple de requête depuis la section **[!UICONTROL requête cURL]**.
+1. Ouvrez la campagne, puis copiez-collez l’exemple de requête du **[!UICONTROL requête cURL]** .
 
    ![](assets/api-triggered-curl.png)
 
-1. Utilisez cette requête cURL dans les API pour créer votre payload et déclencher la campagne. Pour plus d’informations, consultez la [documentation de l’API d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+1. Utilisez cette requête cURL dans les API pour créer votre payload et déclencher la campagne. Pour plus d’informations, reportez-vous à la section [Documentation de l’API d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ La syntaxe `{{context.<contextualAttribute>}}` est mappée à un type de donnée
 
 >[!IMPORTANT]
 >
->Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko.
+>Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko.
 >
 >La syntaxe `context.system` est limitée à l’utilisation interne d’Adobe uniquement et ne doit pas être utilisée pour transmettre des attributs contextuels.
 

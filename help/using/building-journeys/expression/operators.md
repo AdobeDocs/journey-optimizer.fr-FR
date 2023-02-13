@@ -11,7 +11,7 @@ exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -136,13 +136,13 @@ Exemple :
 ["foo", "bar", null] has null
 ```
 
-Renvoie true.
+Renvoie true
 
 ```json
 ["foo", "bar", ""] has null
 ```
 
-Renvoie false car «  » n’est pas considéré comme « null ».
+Renvoie false car &quot;&quot; n’est pas considéré comme nul.
 
 ### ==
 
@@ -291,7 +291,7 @@ Exemple :
 1 + 2
 ```
 
-Renvoie 3.
+Renvoie 3
 
 ### -
 
@@ -309,7 +309,7 @@ Exemple :
 2 - 1 
 ```
 
-Renvoie 1.
+Renvoie 1
 
 ### /
 
@@ -329,7 +329,7 @@ Exemple :
 4 / 2
 ```
 
-Renvoie 2.
+Renvoie 2
 
 ### *
 
@@ -347,7 +347,7 @@ Exemple :
 3 * 4
 ```
 
-Renvoie 12.
+Renvoie 12
 
 ### %
 
@@ -433,13 +433,13 @@ Exemple :
 "the current time is " + (now())
 ```
 
-Renvoie « Il est actuellement 2019-09-23T09:30:06.693Z ».
+Renvoie &quot;l’heure actuelle est 2019-09-23T09:30:06.693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Renvoie « 2019-09-23T09:30:06.693Z est l’heure actuelle ».
+Renvoie &quot;2019-09-23T09:30:06.693Z est l&#39;heure actuelle&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -463,22 +463,22 @@ Exemple :
 (toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Renvoie une valeur _dateTime_ 2011-12-03T15:30:30Z.
+Renvoie un _dateTime_ 2011-12-03T15:30:30Z
 
 ```json
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Renvoie une valeur _dateTimeOnly_ 2011-12-03T15:30:30.
+Renvoie un _dateTimeOnly_ 2011-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-Renvoie une valeur _dateTime_ (avec fuseau horaire UTC) une heure plus tard que l’heure actuelle.
+Renvoie un _dateTime_ (avec fuseau horaire UTC) une heure plus tard que l’heure actuelle
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Renvoie une valeur _duration_ PT2H.
+Renvoie un _durée_ PT2H

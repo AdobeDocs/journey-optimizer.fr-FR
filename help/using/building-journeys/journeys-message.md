@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 85%
+source-wordcount: '712'
+ht-degree: 100%
 
 ---
 
@@ -125,15 +125,3 @@ Activez l’optimisation de l’heure d’envoi sur un e-mail ou une notificatio
 Pour les e-mails, choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push.
 
 Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option **Envoyer pendant**. Si vous choisissez « six heures » comme valeur, [!DNL Journey Optimizer] vérifie chaque profil utilisateur et sélectionne l’heure d’envoi optimale dans les six heures suivant l’heure d’exécution du parcours.
-
-**Que se passe-t-il si le temps optimal se situe à l’extérieur de la fenêtre ?**
-
-Prenons un exemple avec la configuration suivante :
-
-* Optimiser sur les clics
-* L’action est censée commencer à 10 heures
-* La fenêtre est de 3 heures
-
-Un profil peut avoir un temps d’ouverture optimal en dehors de la fenêtre. Par exemple, l’ouverture optimale en cas de clic de John est à 17 heures.
-
-Au niveau du profil, il y a des scores pour chaque heure de la semaine. Dans cet exemple, l&#39;email sera toujours envoyé dans la fenêtre. Au moment de l’exécution, le système vérifie la liste des scores dans cette fenêtre (fenêtre de 3 heures commençant à 10 heures). Le système compare ensuite les scores pour 10, 11 et midi et sélectionne le meilleur. L&#39;email est envoyé à ce moment-là.

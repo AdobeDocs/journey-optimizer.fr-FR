@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -52,7 +52,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
    ![](assets/email_designer_create_options.png)
 
-1. Une fois que le contenu de votre e-mail a été défini et personnalisé, vous pouvez exporter votre contenu pour le valider ou pour l’utiliser ultérieurement. Cliquez sur **[!UICONTROL Exporter le HTML]** pour enregistrer sur votre ordinateur un fichier zip qui contiendra votre HTML et vos ressources.
+1. Une fois que le contenu de votre email a été défini et personnalisé, vous pouvez exporter votre contenu pour validation ou pour une utilisation ultérieure. Cliquez sur **[!UICONTROL HTML d&#39;export]** pour enregistrer sur votre ordinateur un fichier zip qui contiendra votre HTML et vos ressources.
 
    ![](assets/email_designer_export.png)
 

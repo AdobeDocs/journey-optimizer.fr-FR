@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -45,14 +45,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning
++++ _experience > prise de décision
 
 **Champ :** prise de décision
 **Type :** objet
 
 +++
 
-+++ _experience > decisioning > criteria
++++ _experience > prise de décision > critères
 
 **Champ :** critères
 **Titre :** critères
@@ -61,7 +61,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > criteria > description
++++ _experience > prise de décision > critères > description
 
 **Champ :** description
 **Titre :** description
@@ -70,7 +70,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > optionSelection
++++_experience > prise de décision > critères > optionSelection
 
 **Champ :** optionSelection
 **Titre :** sélection d&#39;options
@@ -84,7 +84,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
    **Description :** description de la sélection d&#39;options. Permet de véhiculer les intentions lisibles par l&#39;homme sur la manière dont ou la raison pour laquelle cette sélection d&#39;options a été effectuée et/ou qui indiquent l&#39;option qui correspondra.
    **Type :** chaîne
 
-* Filtre d’option
+* Filtre d&#39;option
 
    **Champ :** filtre
    **Titre :** filtre d&#39;option
@@ -99,7 +99,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
    **Type :** chaîne
    **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
 
-* Liste d’options
+* Liste d&#39;options
 
    **Champ :** options
    **Titre :** liste d&#39;options
@@ -110,14 +110,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > placements
++++_experience > prise de décision > critères > emplacements
 
 **Champ :** emplacements
 **Titre :** restrictions d&#39;emplacement 
 **Description :** la contrainte d&#39;emplacement indique que ce critère s&#39;applique uniquement aux emplacements répertoriés. Ce n&#39;est que lorsque les emplacements ciblés figurent dans la liste `xdm:placements` que la sélection d&#39;options est prise en compte. Sinon, l&#39;ensemble des critères de décision est ignoré. Lorsque la liste &#39;xdm:placements&#39; est omise ou vide, le critère est pris en compte pour tout emplacement ciblé. Les emplacements répertoriés ici imposent des critères implicites pour la sélection d&#39;options. Une option à prendre en compte doit comporter une représentation pour l&#39;emplacement ciblé.
 **Type :** tableau
 
-* Identifiant d’emplacement
+* Identifiant d&#39;emplacement
 
    **Titre :** identifiant d&#39;emplacement
    **Description :** référence à une entité d&#39;emplacement. La valeur est l&#39;URI (@id) de l&#39;emplacement qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
@@ -125,7 +125,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints
++++_experience > prise de décision > critères > profileConstraints
 
 **Champ :** profileConstraints 
 **Titre :** contrainte de profil
@@ -134,7 +134,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints > Description
++++_experience > prise de décision > critères > profileConstraints > Description
 
 **Champ :** description
 **Titre :** description 
@@ -143,7 +143,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > criteria > profileConstraints > Eligibility Rule
++++ _experience > prise de décision > critères > profileConstraints > Règle d&#39;éligibilité
 
 **Champ :** eligibilityRule
 **Titre :**règle d&#39;éligibilité
@@ -152,7 +152,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > criteria > profileConstraints > Profile Constraint Type
++++ _experience > prise de décision > critères > profileConstraints > Type de contrainte de profil
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
@@ -167,12 +167,12 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
++++ _experience > prise de décision > critères > profileConstraints > segmentIdentities
 
-**Champ :** segmentIdentities
-**Titre :** identifiants de segments
-**Description :** identifiants des segments.
-**Type :** tableau
+**Champ :** segmentIdentities
+**Titre :** Identifiants de segment
+**Description :** Identifiants des segments.
+**Type :** tableau
 
 * Identifiant
 
@@ -205,7 +205,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > ranking
++++_experience > prise de décision > critères > classement
 
 **Champ :** classement
 **Titre :** Détails du classement
@@ -214,7 +214,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > ranking > order
++++_experience > prise de décision > critères > classement > ordre
 
 **Champ :** ordre
 **Titre :** évaluation de l&#39;ordre
@@ -228,7 +228,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
    **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
    **Type :** chaîne
 
-* Type d’évaluation d’ordre**
+* Type d&#39;évaluation de commande**
 
    **Champ :** orderEvaluationType
    **Titre :** type d&#39;évaluation d&#39;ordre
@@ -245,18 +245,18 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > criteria > ranking > Priority
++++ _experience > prise de décision > critères > classement > Priorité
 
 **Champ :** priorité
 **Titre :** priorité
-**Description :** priorité d’une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
+**Description :** priorité d&#39;une seule option de décision par rapport à toutes les autres options. Les options pour lesquelles aucune fonction de commande n&#39;est fournie sont prioritaires à l&#39;aide de cette propriété. Les options avec des valeurs de priorité plus élevée sont sélectionnées avant toute option de priorité plus faible. Si plusieurs options admissibles partagent la valeur de priorité la plus élevée, une option est choisie de façon aléatoire uniforme et utilisée pour la proposition de décision.
 **Type :** entier
 **Valeur minimum :** 0
 **Valeur par défaut :** 0
 
 +++
 
-+++ _experience > decisioning > Activity End Date and Time
++++ _experience > prise de décision > Date et heure de fin de l&#39;activité
 
 **Champ :** endTime
 **Titre :** date et heure de fin de l&#39;activité
@@ -265,7 +265,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Fallback Option
++++ _experience > prise de décision > Option de secours
 
 **Champ :** secours
 **Titre :** option de secours
@@ -274,7 +274,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Activity Name
++++ _experience > prise de décision > Nom de l&#39;activité
 
 **Champ :** nom
 **Titre :** nom de l&#39;activité
@@ -283,7 +283,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > Activity Start Date and Time
++++_experience > prise de décision > Date et heure de début de l&#39;activité
 
 **Champ :** startTime
 **Titre :** date et heure de début de l&#39;activité

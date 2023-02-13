@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -17,16 +17,16 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Février 2023 {#feb-2023}
 
-* Une note a été ajoutée dans la documentation des campagnes déclenchées par l’API pour indiquer que les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual).
+* Une note a été ajoutée dans la documentation des campagnes déclenchées par l’API pour indiquer que les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual).
 
 * Ajout d’informations sur la manière dont les informations d’exclusion sont stockées dans la variable **Jeu de données du service de consentement** une fois les destinataires désabonnés via une landing page. [En savoir plus](../landing-pages/lp-use-cases.md#configure-opt-out).
 
 ## Janvier 2023 {#jan-2023}
 
-* Toutes les nouvelles fonctionnalités et améliorations de la version de janvier 2023 de [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md).
-* Les fonctionnalités d’accessibilité dans [!DNL Journey Optimizer] sont désormais regroupées dans une page dédiée. [En savoir plus](../start/accessibility.md).
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 janvier a été détaillée dans la documentation. [En savoir plus](release-notes.md).
+* Fonctionnalités d’accessibilité dans [!DNL Journey Optimizer] sont désormais regroupées dans une page dédiée. [En savoir plus](../start/accessibility.md).
 * Ajout d’une nouvelle page sur la gestion des données dans [!DNL Journey Optimizer]. [En savoir plus](../data/gs-data.md).
-* Ajout d’un tableau répertoriant tous les codes qui peuvent être renvoyés dans la réponse lors de la diffusion d’offres à l’aide de l’API Decisioning. [En savoir plus](../offers/api-reference/offer-delivery-api/decisioning-api.md).
+* Ajout d’un tableau répertoriant tous les codes qui peuvent être renvoyés dans la réponse lors de la diffusion d’offres à l’aide de l’API de prise de décision. [En savoir plus](../offers/api-reference/offer-delivery-api/decisioning-api.md).
 
 ## Décembre 2022 {#december-2022}
 

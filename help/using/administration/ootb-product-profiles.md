@@ -12,7 +12,7 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -81,7 +81,7 @@ Ce profil de produit comprend les autorisations suivantes :
 |Gestion des décisions|<ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des décisions.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des stratégies de classement.</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]** : octroi de lʼaccès aux environnements sandbox.</li><li>**[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Read Identity namespace]** : accès en lecture seule à lʼespace de noms d’identité.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|
 |Bibliothèque Journey Optimizer|<ul><li>**[!DNL Manage Library Items]** : ajoutez et supprimez des expressions enregistrées dans la bibliothèque [!DNL Journey Optimizer].</li></ul>|
-|Gouvernance des données|<ul><li>**[!DNL Manage usage label]** : lire, créer et supprimer des libellés d’utilisation.</li><li>**[!DNL Manage data usage policies]** : lire, créer, modifier et supprimer des politiques dʼutilisation des données.</li><li>**[!DNL View data usage policies]** : accéder en lecture seule aux politiques d’utilisation des données.</li><li>**[!DNL View user activity log]** : lire et exporter les journaux d’audit.</li></ul>|
+|Gouvernance des données|<ul><li>**[!DNL Manage usage label]**: lire, créer et supprimer des libellés d’utilisation.</li><li>**[!DNL Manage data usage policies]**: lire, créer, modifier et supprimer des stratégies d’utilisation des données.</li><li>**[!DNL View data usage policies]**: accès en lecture seule aux stratégies d’utilisation des données.</li><li>**[!DNL View user activity log]**: lire et exporter les journaux d’audit.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 
@@ -124,7 +124,7 @@ Ce profil de produit comprend les autorisations suivantes :
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-Le profil de produit **[!DNL Decisioning manager]** permet uniquement d’accéder au menu **[!UICONTROL Gestion des décisions]**. Les utilisateurs affectés à ce profil de produit ne pourront gérer, afficher et publier que les décisions.
+Le **[!DNL Decisioning manager]** le profil de produit permet uniquement d’accéder à la variable **[!UICONTROL Gestion des décisions]** . Les utilisateurs affectés à ce profil de produit ne pourront gérer, afficher et publier que les décisions.
 
 Ce profil de produit comprend les autorisations suivantes :
 
@@ -134,12 +134,10 @@ Ce profil de produit comprend les autorisations suivantes :
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 
-Le profil de produit **[!DNL Content Library Manager]** permet uniquement d’accéder au menu **[!UICONTROL Modèles de contenu]**. Les utilisateurs affectés à ce profil de produit ne pourront accéder à la bibliothèque de modèles que pour créer du contenu sans accéder aux parcours ou aux campagnes.
+Le **[!DNL Content Library Manager]** le profil de produit permet uniquement d’accéder à la variable **[!UICONTROL Modèles de contenu]** . Les utilisateurs affectés à ce profil de produit ne pourront accéder à la bibliothèque de modèles que pour créer du contenu sans accéder aux parcours ou aux campagnes.
 
 Ce profil de produit comprend les autorisations suivantes :
 
-| Fonctionnalité | Autorisations|
-|-|-|
-|Bibliothèque Journey Optimizer| <ul><li>**[!DNL Manage library items]** : lire, créer, modifier et supprimer des éléments de la bibliothèque Journey Optimizer.</li><li>**[!DNL Manage simulate content]** : accéder à l’option **[!UICONTROL Simuler du contenu]** pour l’aperçu et le BAT.</li></ul>|
+| Fonctionnalité | Autorisations| |-|-| |Bibliothèque Journey Optimizer| <ul><li>**[!DNL Manage library items]**: lire, créer, modifier et supprimer des éléments de la bibliothèque Journey Optimizer.</li><li>**[!DNL Manage simulate content]**: accès au **[!UICONTROL Simulation du contenu]** pour l’aperçu et le BAT.</li></ul>|
 |Gestion des décisions|<ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li></ul>|
 |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des stratégies de fusion.</li></ul>|

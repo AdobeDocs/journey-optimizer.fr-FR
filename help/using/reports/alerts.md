@@ -7,10 +7,12 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
+hide: true
+hidefromtoc: true
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
+source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -22,20 +24,16 @@ Journey Optimizer exploite les fonctionnalités d’alerte d’Adobe Experience 
 En savoir plus sur les alertes dans la [documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr) d’Adobe Experience Platform.
 Pour découvrir comment vous abonner à des alertes et les configurer, reportez-vous à cette [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr).
 
-Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**.
+Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**. Une alerte préconfigurée pour Journey Optimizer est disponible. Cette alerte vous avertit si un nœud de segment lu n’a traité aucun profil pendant la période définie.
 
-<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
-
-![](assets/alerts1.png)-->
+![](assets/alerts1.png)
 
 Si un tel comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés de l’alerte par e-mail, dans le coin supérieur droit de l’interface.
 
-<!--![](assets/alerts2.png)-->
+![](assets/alerts2.png)
 
-Lors de l’[affichage des règles d’alerte dans l’interface utilisateur d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr), vous pouvez vous abonner à chaque règle. Toutefois, lorsque vous vous abonnez à des alertes par le biais des [Notifications d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr), les règles d’alerte sont organisées en différents packages d’abonnement.
-
-<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
+Lors de l’[affichage des règles d’alerte dans l’interface utilisateur d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr), vous pouvez vous abonner à chaque règle. Toutefois, lorsque vous vous abonnez à des alertes par le biais des [Notifications d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr), les règles d’alerte sont organisées en différents packages d’abonnement. Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte Lecture de segment est le suivant : « Retards, échecs et erreurs dans les segments de lecture par parcours ».
 
 >[!WARNING]
 >
->These alerts apply only to live journeys. Alerts will not be triggered for journeys in test mode.-->
+>Ces alertes s’appliquent uniquement aux parcours dynamiques. Les alertes ne seront pas déclenchées pour les parcours en mode test.

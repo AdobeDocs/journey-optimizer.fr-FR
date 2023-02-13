@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -171,7 +171,7 @@ Le format de cette authentification est le suivant :
 
 Vous pouvez modifier la durée de mise en cache du jeton pour une source de données d’authentification personnalisée. Vous trouverez ci-dessous un exemple de payload d’authentification personnalisée. La durée de mise en cache est définie dans le paramètre « cacheDuration ». Elle spécifie la durée de conservation du jeton généré dans le cache. L’unité peut être en millisecondes, secondes, minutes, heures, jours, mois, années.
 
-Voici un exemple pour le type d’authentification du porteur :
+Voici un exemple pour le type d’authentification du porteur :
 
 ```
 {
@@ -205,7 +205,7 @@ Voici un exemple pour le type d’authentification du porteur :
 >
 >La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload de l’authentification personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
 
-Voici un exemple pour le type d’authentification de l’en-tête :
+Voici un exemple pour le type d’authentification de l’en-tête :
 
 ```
 {
@@ -228,7 +228,7 @@ Voici un exemple pour le type d’authentification de l’en-tête :
 } 
 ```
 
-Voici un exemple de réponse de l’appel API de connexion :
+Voici un exemple de réponse de l’appel de l’API de connexion :
 
 ```
 {

@@ -1,14 +1,14 @@
 ---
 title: Prise en main du canal web
 description: En savoir plus sur le canal web dans Journey Optimizer
-feature: Web Channel
+feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%

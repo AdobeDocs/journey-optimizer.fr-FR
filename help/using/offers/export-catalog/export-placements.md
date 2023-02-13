@@ -45,14 +45,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning
++++ _experience > prise de décision
 
 **Champ :** prise de décision
 **Type :** objet
 
 +++
 
-+++ _experience > decisioning > Placement&#39;s Channel Identifier
++++ _experience > prise de décision > Identifiant du canal de l&#39;emplacement
 
 **Champ :** channelID
 **Titre :** identifiant du canal de l&#39;emplacement
@@ -61,7 +61,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Content Component Type
++++ _experience > prise de décision > Type de composant de contenu
 
 **Champ :** componentType
 **Titre :** type de composant de contenu
@@ -70,14 +70,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > contentTypes
++++ _experience > prise de décision > contentTypes
 
 **Champ :** contentTypes
 **Type :** tableau
 
 +++
 
-+++_experience > decisioning > contentTypes > MIME Media Type
++++_experience > prise de décision > contentTypes > Type de média MIME
 
 **Titre :** type de média MIME
 **Description :** contrainte pour le type de média des composants attendue à cet emplacement. Un composant peut avoir plusieurs types de média, par exemple différents formats d&#39;image.
@@ -85,7 +85,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Placement Description
++++ _experience > prise de décision > Description de l&#39;emplacement
 
 **Champ :** description
 **Titre :** description de l&#39;emplacement
@@ -94,7 +94,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Placement Name
++++ _experience > prise de décision > Nom de l&#39;emplacement
 
 **Champ :** nom
 **Titre :** nom de l&#39;emplacement
