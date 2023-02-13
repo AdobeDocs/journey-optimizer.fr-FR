@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prévisualisation de messages et envoi de BAT
-description: Découvrez comment prévisualiser et tester vos messages
+description: Découvrez comment prévisualiser et tester votre e-mail.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: prévisualisation, contenu, e-mail, BAT, test, profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 100%
 
 ---
 
-# Prévisualiser et tester vos messages {#preview-and-proof}
+# Prévisualiser et tester votre e-mail {#preview-and-proof}
 
 Une fois le contenu votre d’e-mail défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 

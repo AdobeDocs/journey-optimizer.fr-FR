@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envoyer votre notification push
+title: Prévisualiser et tester votre notification push
 description: Découvrez comment prévisualiser et tester votre notification push dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 77%
 
 ---
 
-# Envoyer votre notification push {#send-push}
+# Prévisualiser et tester votre notification push {#send-push}
 
 ## Prévisualiser votre notification push {#preview-push}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du contenu personnalisé, vous pourrez vérifier comment ce contenu s’affiche dans le message en exploitant les données du profil de test.
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
 1. Cliquez sur **[!UICONTROL Simuler du contenu]**.
 
@@ -29,23 +29,18 @@ Une fois le contenu de votre message défini, vous pouvez utiliser des profils d
 
    ![](assets/push_preview_1.png)
 
-1. Appliquez les mêmes étapes que celles décrites ci-dessus pour sélectionner un profil de test, et
+1. Une fois que vous avez sélectionné votre profil de test, vous pouvez fermer la fenêtre **[!UICONTROL Ajouter un profil de test]**.
 
-   ![](assets/push_preview_2.png)
-
-1. Dans la prévisualisation push, les données du profil de test sont exploitées dans le contenu du message.
+1. Dans la **Aperçu et test** , les données de profil de test sont ajoutées au contenu du message.
 
    Sélectionnez le type de périphérique sur lequel prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
    ![](assets/push_preview_3.png)
 
-## Valider votre notification push {#push-validate}
+## Validation de la notification push {#push-validate}
 
->[!NOTE]
->
-> Pour une meilleure délivrabilité, vous devez toujours utiliser les numéros de téléphone dans les formats pris en charge par le fournisseur. Par exemple, Twilio et Sinch ne prennent en charge que les numéros de téléphone au format E.164.
 
-Vous devez également vérifier les alertes dans la section supérieure de l’éditeur.  Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’utiliser le message. Deux types d’alertes peuvent avoir lieu :
+Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Certains d&#39;entre eux sont de simples avertissements, mais d&#39;autres peuvent vous empêcher d&#39;envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques.
 
@@ -57,6 +52,22 @@ Vous devez également vérifier les alertes dans la section supérieure de l’�
 
    * **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](../push/create-push.md).
 
-![](assets/push_alert.png)
+   ![](assets/push_alert.png)
 
-Une fois votre notification push prête, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou de votre [campagne](../campaigns/create-campaign.md) pour l’envoyer.
+
+>[!NOTE]
+>
+> Pour une meilleure délivrabilité, vous devez toujours utiliser les numéros de téléphone dans les formats pris en charge par le fournisseur. Par exemple, Twilio et Sinch ne prennent en charge que les numéros de téléphone au format E.164.
+
+## Envoyer votre notification push{#push-send}
+
+Une fois votre message push prêt, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou [campaign](../campaigns/create-campaign.md) pour l’envoyer.
+
+**Rubriques connexes**
+
+* [Configuration du canal push](push-configuration.md)
+* [Rapport des notifications push](../reports/journey-global-report.md#push-global)
+* [Créer une notification push](create-push.md)
+* [Ajouter un message dans un parcours](../building-journeys/journeys-message.md)
+* [Ajouter un message dans une campagne](../campaigns/create-campaign.md)
+

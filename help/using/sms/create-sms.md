@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 86%
 
 ---
 
@@ -19,22 +19,18 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Création d&#39;un SMS"
->abstract="Ajoutez votre message texte et commencez à le personnaliser à l’aide de l’éditeur d’expression."
+>title="Création d’un SMS"
+>abstract="Ajoutez votre SMS et commencez à le personnaliser à l&#39;aide de l&#39;éditeur d&#39;expression."
 
->[!NOTE]
->
->Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## Ajouter un SMS {#create-sms-journey-campaign}
 
-## Créer un SMS dans un parcours ou une campagne {#create-sms-journey-campaign}
-
-Pour personnaliser votre message SMS, procédez comme suit :
+Accédez aux onglets ci-dessous pour savoir comment ajouter un SMS dans une campagne ou dans un parcours.
 
 >[!BEGINTABS]
 
 >[!TAB Ajouter un SMS à un parcours]
 
-1. Ouvrez votre parcours, puis faites glisser et déposez une activité SMS depuis la section Actions de la palette.
+1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité SMS à partir du **Actions** de la palette.
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ Pour personnaliser votre message SMS, procédez comme suit :
 
    Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
-Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir du bouton **[!UICONTROL Modifier le contenu]**. [Concevoir le contenu de votre SMS](#sms-content)
+Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir du bouton **[!UICONTROL Modifier le contenu]**. [Définir le contenu de votre SMS](#sms-content)
 
 >[!TAB Ajouter un SMS à une campagne]
 
@@ -79,6 +75,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 >[!ENDTABS]
 
+
 ## Définir le contenu de votre SMS{#sms-content}
 
 1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du SMS.
@@ -93,8 +90,13 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. Pour ce faire, les destinataires de SMS peuvent répondre avec des mots-clés d’accord préalable et de droit d’opposition. [Découvrir comment gérer un droit d’opposition](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **Rubriques connexes**
 
 * [Configurer le canal SMS](sms-configuration.md)
 * [Rapport SMS](../reports/journey-global-report.md#sms-global)
 * [Ajouter un message dans un parcours](../building-journeys/journeys-message.md)
+* [Ajouter un message dans une campagne](../campaigns/create-campaign.md)

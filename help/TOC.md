@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1312'
 ht-degree: 99%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 99%
 + Canal SMS{#sms}
    + [Prise en main des SMS](using/sms/get-started-sms.md)
    + [Création d’un SMS](using/sms/create-sms.md)
-   + [Envoyer un SMS](using/sms/send-sms.md)
+   + [Prévisualiser et tester votre SMS](using/sms/send-sms.md)
    + [Gérer les désinscriptions aux SMS](using/sms/sms-opt-out.md)
    + [Configurer le canal SMS](using/sms/sms-configuration.md)
 + Publipostage direct {#direct-mail}
@@ -413,10 +413,10 @@ ht-degree: 99%
 + Gestion des données {#data-management}
    + [Prise en main de la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
+   + [Requêtes](using/data/get-started-queries.md)
    + Jeux de données Journey Optimizer {#datasets}
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
-   + [Requêtes](using/data/get-started-queries.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
