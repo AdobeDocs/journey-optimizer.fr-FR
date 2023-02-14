@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 99%
+source-wordcount: '1544'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Cliquez sur les trois points en regard d’une page de destination pour sélecti
 >abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations afin de gérer l&#39;accès aux données de votre page de destination à l&#39;aide de libellés."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Contrôle d’accès au niveau de l’objet"
 
-Les principales étapes de création des landing pages sont les suivantes :
+Suivez les étapes principales de création de pages de destination décrites ci-après :
 
 ![](assets/lp-creation-process.png)
 
@@ -196,6 +196,12 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 ![](assets/lp_subpage-settings.png)
 
 ## Test de la page de destination {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="Prévisualiser et tester votre landing page"
+>abstract="Une fois que vous avez défini les paramètres et le contenu de votre landing page, vous pouvez utiliser des profils de test pour la prévisualiser."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=fr" text="Sélectionner des profils de test,"
 
 Une fois les paramètres et le contenu de votre page de destination définis, vous pouvez utiliser des profils de test pour la prévisualiser. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier l’affichage de ce dernier dans la page de destination à l’aide des données de profil de test.
 

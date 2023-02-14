@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '1194'
+ht-degree: 85%
 
 ---
 
 # Définition de contenu spécifique aux pages de destination {#lp-content}
 
-Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et dʼenvoyer leurs choix depuis votre page de destination, utilisez le composant **[!UICONTROL Formulaire]**. Procédez comme suit.
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="Utiliser des composants de contenu"
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d’une page de destination. Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et d’envoyer leurs choix, utilisez le composant de formulaire."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Ajouter des composants de contenu"
+
+Pour concevoir le contenu de votre landing page, vous pouvez utiliser les mêmes composants que pour un email. [En savoir plus](../email/content-components.md#add-content-components).
+
+Pour concevoir un contenu spécifique qui permettra aux utilisateurs de sélectionner et d’envoyer leurs choix, [utilisation du composant de formulaire](#use-form-component) et définir ses [styles spécifiques aux landing pages](#lp-form-styles).
 
 >[!NOTE]
 >
 >Vous pouvez également créer une page de destination de clics publicitaires sans composant **[!UICONTROL Formulaire]**. Dans ce cas, la page de destination s&#39;affichera aux utilisateurs, mais ils n&#39;auront pas à envoyer de formulaire. Cela peut s’avérer utile si vous souhaitez uniquement afficher une page de destination sans nécessiter d’action de la part de vos destinataires, comme l’opt-in ou l’opt-out, ou si vous souhaitez fournir des informations qui ne nécessitent pas d’entrée de la part de l’utilisateur.
 
+Grâce au concepteur de contenu de landing page, vous pouvez également exploiter les données contextuelles provenant de la Principale page dans une sous-page. [En savoir plus](#use-primary-page-context).
+
 ## Utilisation du composant de formulaire {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="Définition des champs de composant de formulaire"
+>abstract="Définissez la manière dont vos destinataires verront et soumettront leurs choix depuis votre landing page."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Définition des styles de formulaire de page de destination"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="Que se passe-t-il lorsque vous cliquez sur le bouton ?"
+>abstract="Définissez ce qui se passera lorsque les utilisateurs envoient le formulaire de landing page."
+
+Pour définir un contenu spécifique qui permettra aux utilisateurs de sélectionner et d’envoyer leurs choix depuis votre landing page, utilisez la méthode **[!UICONTROL Formulaire]** composant. Pour ce faire, procédez comme suit.
 
 1. Faites glisser, puis déposez le composant **[!UICONTROL Formulaire]** conçu pour les pages de destination de la palette de gauche vers l’espace de travail principal.
 
@@ -135,7 +158,7 @@ Supposons que vous liez deux cases à cocher sur votre page principale à deux l
 
 Procédez comme suit :
 
-1. Sur la page principale, liez chaque case à cocher à la liste d’abonnements correspondante. [En savoir plus](#use-form-component).
+1. Sur la Principale page, liez chaque case à cocher de la variable **[!UICONTROL Formulaire]** à la liste d’abonnements appropriée. [En savoir plus](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
