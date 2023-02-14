@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
+source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 74%
+source-wordcount: '258'
+ht-degree: 71%
 
 ---
 
@@ -26,7 +26,7 @@ Pour découvrir comment vous abonner à des alertes et les configurer, reportez-
 
 >[!AVAILABILITY]
 >
->Certaines modifications de conception sont en cours pour l’alerte &quot;Échec de la lecture du déclenchement du segment&quot;. Par conséquent, cette alerte est suspendue pour l’instant. Une fois les modifications publiées, cette alerte est de nouveau affichée et vous pourrez vous y abonner.
+>Certaines modifications de conception sont en cours pour l’alerte &quot;Échec de la lecture du déclenchement du segment&quot;. Par conséquent, cette alerte est suspendue pour l’instant et a été temporairement supprimée de l’interface utilisateur. Une fois ces modifications publiées, l’alerte est de nouveau affichée et vous pouvez vous y abonner.
 
 Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**.
 
