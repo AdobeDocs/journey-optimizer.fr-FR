@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 74%
@@ -24,6 +24,10 @@ Lorsqu’un certain ensemble de conditions de vos opérations est atteint (par e
 En savoir plus sur les alertes dans la [documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr) d’Adobe Experience Platform.
 Pour découvrir comment vous abonner à des alertes et les configurer, reportez-vous à cette [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr).
 
+>[!AVAILABILITY]
+>
+>Certaines modifications de conception sont en cours pour l’alerte &quot;Échec de la lecture du déclenchement du segment&quot;. Par conséquent, cette alerte est suspendue pour l’instant. Une fois les modifications publiées, cette alerte est de nouveau affichée et vous pourrez vous y abonner.
+
 Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**.
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -34,9 +38,6 @@ Si un comportement inattendu se produit, une notification d’alerte est envoyé
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->Certaines modifications de conception sont en cours pour l’alerte &quot;Échec de la lecture du déclenchement du segment&quot;. Par conséquent, cette alerte est suspendue pour l’instant. Une fois les modifications publiées, cette alerte est de nouveau affichée et vous pourrez vous y abonner.
 
 Lors de l’[affichage des règles d’alerte dans l’interface utilisateur d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr), vous pouvez vous abonner à chaque règle. Toutefois, lorsque vous vous abonnez à des alertes par le biais des [Notifications d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr), les règles d’alerte sont organisées en différents packages d’abonnement.
 
