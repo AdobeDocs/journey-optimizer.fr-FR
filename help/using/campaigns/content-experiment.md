@@ -11,10 +11,10 @@ keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 77%
+source-wordcount: '1168'
+ht-degree: 74%
 
 ---
 
@@ -70,9 +70,9 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée.
 
-1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [En savoir plus](create-campaign.md).
+1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [En savoir plus](create-campaign.md)
 
-1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à personnaliser votre diffusion. [En savoir plus](../email/content-from-scratch.md).
+1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à personnaliser votre diffusion. [En savoir plus](../email/content-from-scratch.md)
 
    ![](assets/content_experiment_17.png)
 
@@ -132,7 +132,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_19.png)
 
-1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour contrôler le rendu de votre diffusion et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../email/preview.md).
+1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour contrôler le rendu de votre diffusion et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../email/preview.md)
 
 1. Lorsque votre expérience de contenu est prête, dans la page de résumé de Campaign, vous pouvez cliquer sur **[!UICONTROL Réviser pour activer]** pour afficher un résumé de l&#39;opération. Des alertes s’affichent si un paramètre est incorrect ou manquant.
 
@@ -163,6 +163,11 @@ Avec le widget **[!UICONTROL Objectif de la campagne]**, vous pouvez également 
 Notez que chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 
 ## Expérimentation rapport {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Clics uniques par profil"
+>abstract="La mesure Clics uniques par profil vous permet de comprendre l’efficacité de votre expérience à interagir avec votre audience et à orienter les clics vers votre destination cible. Il calcule le nombre de clics distincts sur un lien particulier, divisé par le nombre total de profils exposés au lien."
 
 >[!AVAILABILITY]
 >
