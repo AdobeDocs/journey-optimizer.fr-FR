@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '969'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Les mécanismes de sécurisation des performances et les limites statiques pour 
 * Seules les méthodes d’appel POST et PUT sont prises en charge.
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »
 * Les adresses IP ne sont pas autorisées.
-* Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
+* Adresses d’Adobe internes (`.adobe.*`) ne sont pas autorisées dans les URL et les API.
 
 ### Événements {#events-g}
 
@@ -77,6 +77,7 @@ Les mécanismes de sécurisation des performances et les limites statiques pour 
 ### Sources de données {#data-sources-g}
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
+* Adresses d’Adobe internes (`.adobe.*`) ne sont pas autorisées dans les URL et les API.
 
 ### Création de parcours et de profil {#journeys-limitation-profile-creation}
 
