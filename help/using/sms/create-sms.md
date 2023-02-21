@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Création d’un SMS"
->abstract="Ajoutez votre SMS et commencez à le personnaliser à l&#39;aide de l&#39;éditeur d&#39;expression."
+>title="Créer un SMS"
+>abstract="Ajoutez votre SMS et commencez à le personnaliser à l’aide de l’éditeur d’expression."
 
 ## Ajouter un SMS {#create-sms-journey-campaign}
 
@@ -30,7 +30,7 @@ Accédez aux onglets ci-dessous pour savoir comment ajouter un SMS dans une camp
 
 >[!TAB Ajouter un SMS à un parcours]
 
-1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité SMS à partir du **Actions** de la palette.
+1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité SMS depuis la section **Actions** de la palette.
 
    ![](assets/sms_create_1.png)
 
@@ -86,7 +86,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 1. Utilisez l’éditeur d’expression pour définir le contenu et ajouter du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. En savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur d’expression.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l&#39;aperçu.
+1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu.
 
    ![](assets/sms-content-preview.png)
 

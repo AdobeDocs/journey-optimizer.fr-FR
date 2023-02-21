@@ -7,18 +7,18 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: suppression, liste, bounce, e-mail, optimizer, quarantine
+keywords: suppression, liste, bounce, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 53%
+source-wordcount: '1488'
+ht-degree: 100%
 
 ---
 
 # Gérer la liste de suppression {#manage-suppression-list}
 
-Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses électroniques qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que les rebonds hard, les rebonds soft et les plaintes relatives au spam.
+Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que les hard bounces, les soft bounces et les réclamations relatives au spam.
 
 Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Une liste de suppression se compose d’adresses et de domaines à exclure de vos audiences. Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c’est-à-dire spécifique à un ID d’organisation associé à un ID Sandbox.
 
@@ -28,7 +28,7 @@ Pour en savoir plus sur le concept et l’utilisation de la liste de suppression
 
 ## Accès à la liste de suppression {#access-suppression-list}
 
-Pour accéder à la liste détaillée des adresses électroniques et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
+Pour accéder à la liste détaillée des adresses e-mail et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
 
 
 ![](assets/suppression-list-access.png)
@@ -42,30 +42,30 @@ Des filtres sont disponibles pour vous aider à parcourir la liste.
 
 ![](assets/suppression-list-filters.png)
 
-Vous pouvez filtrer par **[!UICONTROL Catégorie de suppression]**, **[!UICONTROL Type d’adresse]** ou **[!UICONTROL Raison]**. Sélectionnez une ou plusieurs options pour chaque critère. Une fois sélectionné, vous pouvez effacer chaque filtre ou tous les filtres affichés en haut de la liste.
+Vous pouvez filtrer par **[!UICONTROL Catégorie de suppression]**, **[!UICONTROL Type d’adresse]** ou **[!UICONTROL Raison]**. Sélectionnez une ou plusieurs options pour chaque critère. Une fois la sélection effectuée, vous pouvez effacer chaque filtre ou tous les filtres affichés en haut de la liste.
 
 ![](assets/suppression-list-filtering-example.png)
 
 
-## Comprendre les raisons d’échec {#suppression-categories-and-reasons}
+## Comprendre les raisons de l’échec {#suppression-categories-and-reasons}
 
 Lorsqu&#39;un message ne parvient pas à être envoyé à une adresse e-mail, [!DNL Journey Optimizer] détermine les motifs de l&#39;échec de la diffusion et l&#39;associe à une **[!UICONTROL catégorie de suppression]**.
 
 Les catégories de suppression sont les suivantes :
 
-* **Hard**: Un hard bounce indique une adresse électronique non valide (c’est-à-dire une adresse électronique qui n’existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide. L’adresse électronique est immédiatement envoyée à la liste de suppression.
+* **Hard** : un hard bounce indique une adresse e-mail non valide (c’est-à-dire une adresse e-mail qui n’existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide. L’adresse e-mail est immédiatement envoyée à la liste de suppression.
 
    Lorsque l&#39;erreur est le résultat d&#39;une plainte de spam, elle est également classée dans la catégorie **Hard**. L’adresse e-mail du destinataire ayant émis la plainte est immédiatement envoyée à la liste de suppression.
 
-* **Soft**: Un soft bounce est un rebond temporaire qui s’est produit pour une adresse électronique valide. L’adresse électronique est ajoutée à la liste de suppression après plusieurs tentatives. Les erreurs de type Soft envoient une adresse à la liste de suppression une fois que le compteur d’erreurs a atteint le seuil limite. [En savoir plus sur les reprises](retries.md)
+* **Soft** : un soft bounce est un e-mail de rebond temporaire qui s’est produit pour une adresse e-mail valide. L’adresse e-mail est ajoutée à la liste de suppression après plusieurs reprises. Les erreurs de type Soft envoient une adresse à la liste de suppression une fois que le compteur d’erreurs a atteint le seuil limite. [En savoir plus sur les reprises](retries.md)
 
-* **Manuel**: Des erreurs manuelles ont été ajoutées manuellement à la liste de suppression. [En savoir plus](#add-addresses-and-domains).
+* **Manuel** : des erreurs manuelles ont été ajoutées manuellement à la liste de suppression. [En savoir plus](#add-addresses-and-domains).
 
 Pour chaque adresse e-mail répertoriée, vous pouvez également vérifier le **[!UICONTROL type]** (e-mail ou domaine), le **[!UICONTROL motif]** de son exclusion et la date/l’heure de son ajout à la liste de suppression.
 
 ![](assets/suppression-list.png)
 
-Les raisons possibles d&#39;un échec de diffusion sont les suivantes :
+Les motifs possibles d’un échec de diffusion sont les suivants :
 
 | Motif | Description | Catégorie |
 | --- | --- | --- |
@@ -84,10 +84,10 @@ Les raisons possibles d&#39;un échec de diffusion sont les suivantes :
 
 ### Règles de suppression  {#suppression-rules}
 
-Dans la **[!UICONTROL Liste de suppression]** vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à partir de la fonction **[!UICONTROL Modifier les règles de suppression]** bouton . Utilisez cette option pour mettre à jour le seuil de reprise de l’environnement de test actuel. [En savoir plus sur les reprises](retries.md).
+Dans la **[!UICONTROL Liste de suppression]**, vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à l’aide du bouton **[!UICONTROL Modifier les règles de suppression]**. Utilisez cette option pour mettre à jour le seuil de reprise de la sandbox actuelle. [En savoir plus sur les reprises](retries.md).
 
 
-## Ajout d’adresses et de domaines à la liste de suppression{#add-addresses-and-domains}
+## Ajouter des adresses ou des domaines à la liste de suppression{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -105,7 +105,7 @@ Cependant, vous pouvez également remplir manuellement la liste de suppression [
 
 >[!NOTE]
 >
->Cela peut prendre jusqu’à 60 minutes pour [!DNL Journey Optimizer] pour prendre en compte les adresses supprimées dans les emails sortants.
+>Il faudra jusqu’à 60 minutes pour que [!DNL Journey Optimizer] prenne en compte les adresses supprimées dans les e-mails sortants.
 
 Vous pouvez ajouter des adresses e-mail ou des domaines [un par un](#add-one-address-or-domain) ou [en masse](#upload-csv-file) par le biais du téléchargement d’un fichier CSV.
 
@@ -116,17 +116,17 @@ Vous pouvez ajouter des adresses e-mail ou des domaines [un par un](#add-one-add
 >title="Ajouter un élément à la liste de suppression"
 >abstract="Vous pouvez remplir la liste de suppression en ajoutant une adresse e-mail ou un domaine à la fois."
 
-Pour ajouter une adresse électronique ou un domaine à la liste de suppression, procédez comme suit :
+Pour ajouter une adresse e-mail ou un domaine à la liste de suppression, procédez comme suit :
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
 
    ![](assets/suppression-list-add-email.png)
 
-1. Choisissez la **[!UICONTROL Un par un]** .
+1. Sélectionnez l’option **[!UICONTROL Un par un]**.
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Sélectionnez le type d&#39;adresse : **[!UICONTROL Email]** ou **[!UICONTROL Domaine]**.
+1. Sélectionnez le type d’adresse : **[!UICONTROL e-mail]** ou **[!UICONTROL domaine]**.
 
 1. Saisissez l&#39;adresse e-mail ou le domaine que vous souhaitez exclure de votre envoi.
 
@@ -136,7 +136,7 @@ Pour ajouter une adresse électronique ou un domaine à la liste de suppression,
 
 1. (facultatif) Saisissez un motif. Tous les caractères ASCII imprimables compris entre 32 et 126 sont autorisés dans ce champ.
 
-1. Utilisez la variable **[!UICONTROL Envoyer]** pour confirmer.
+1. Utilisez le bouton **[!UICONTROL Envoyer]** pour confirmer.
 
 ### Chargement d’un fichier CSV {#upload-csv-file}
 
@@ -145,10 +145,10 @@ Pour ajouter une adresse électronique ou un domaine à la liste de suppression,
 >title="Charger un fichier CSV pour ajouter des éléments à la liste de suppression"
 >abstract="Vous pouvez remplir la liste de suppression en chargeant un fichier CSV contenant les adresses e-mail/domaines à exclure."
 
-Pour ajouter un groupe d’adresses électroniques ou un domaine à la liste de suppression, procédez comme suit :
+Pour ajouter un groupe d’e-mails ou de domaines à la liste de suppression, procédez comme suit :
 
 1. Sélectionnez le bouton **[!UICONTROL Ajouter un e-mail ou un domaine]**.
-1. Choisissez la **[!UICONTROL Téléchargement d’un fichier CSV]** .
+1. Sélectionnez l’option **[!UICONTROL Télécharger CSV]**.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -160,35 +160,35 @@ Pour ajouter un groupe d’adresses électroniques ou un domaine à la liste de 
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Remplissez le modèle CSV avec les adresses électroniques et/ou les domaines à ajouter à la liste de suppression. Tous les caractères ASCII imprimables compris entre 32 et 126 sont autorisés dans la variable **COMMENTAIRE** colonne .
+1. Remplissez le modèle CSV avec les adresses e-mail et/ou les domaines à ajouter à la liste de suppression. Tous les caractères ASCII imprimables compris entre 32 et 126 sont autorisés dans la colonne **Commentaire**.
 
    >[!CAUTION]
    >
-   >Ne modifiez pas le nom des colonnes dans le modèle CSV.
+   >Ne modifiez pas les noms des colonnes dans le modèle CSV.
    >
    >La taille du fichier ne doit pas dépasser 1 Mo.
 
-1. Une fois l’opération terminée, faites glisser et déposez votre fichier CSV, puis utilisez la méthode **[!UICONTROL Envoyer]** pour confirmer.
+1. Une fois l’opération terminée, effectuez un glisser-déposer de votre fichier CSV, puis utilisez le bouton **[!UICONTROL Envoyer]** pour confirmer.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
-Une fois le chargement terminé, vous pouvez vérifier son état à partir de la [Chargements récents](#recent-uploads) , comme décrit ci-dessous.
+Une fois le chargement terminé, vous pouvez vérifier son statut à l’aide du bouton [Chargements récents](#recent-uploads), comme décrit ci-dessous.
 
-### Vérification du statut des chargements {#recent-uploads}
+### Vérifier le statut des téléchargements {#recent-uploads}
 
-Utilisez la variable **[!UICONTROL Chargements récents]** pour vérifier l’état des derniers fichiers CSV chargés.
+Utilisez le bouton **[!UICONTROL Chargements récents]** pour vérifier le statut des derniers fichiers CSV chargés.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-Les statuts possibles sont les suivants :
+Les statuts possibles sont les suivants :
 
-* **[!UICONTROL En attente]**: Le chargement du fichier est en cours de traitement.
-* **[!UICONTROL Erreur]**: Le processus de chargement de fichier a échoué en raison d’un problème technique ou d’une erreur de format de fichier.
-* **[!UICONTROL Terminer]**: Le processus de chargement de fichier a été terminé.
+* **[!UICONTROL En attente]** : le téléchargement du fichier est en cours de traitement.
+* **[!UICONTROL Erreur]** : le processus de téléchargement du fichier a échoué en raison d’un problème technique ou d’un format de fichier incorrect.
+* **[!UICONTROL Terminé]** : le processus de téléchargement du fichier est terminé.
 
-Lors du chargement, si certaines adresses ne sont pas au format correct, elles ne sont pas ajoutées à la variable [!DNL Journey Optimizer] liste de suppression.
+Lors du téléchargement, si certaines adresses ne sont pas au format correct, elles ne sont pas ajoutées à la liste de suppression [!DNL Journey Optimizer].
 
-Dans ce cas, une fois le transfert terminé, il est associé à un rapport. Vous pouvez le télécharger pour vérifier les erreurs rencontrées<!-- and understand why they were not added to the suppression list-->.
+Dans ce cas, une fois le téléchargement terminé, un rapport associé est émis. Vous pouvez le télécharger pour vérifier les erreurs rencontrées<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 
@@ -206,11 +206,11 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 ## Supprimer une adresse de la liste de suppression{#remove-from-suppression-list}
 
-Vous pouvez mettre à jour manuellement la liste de suppression. La suppression d&#39;une adresse email de la quarantaine est une opération sensible qui peut affecter votre réputation IP et vos taux de délivrabilité. Veillez à procéder avec précaution.
+Vous pouvez mettre à jour manuellement la liste de suppression. La suppression d’une adresse e-mail de la quarantaine est une opération sensible qui peut affecter la réputation de votre adresse IP et vos taux de délivrabilité. Veillez à procéder avec précaution.
 
-Lors de la suppression d’une adresse électronique ou d’un domaine de la liste de suppression, Adobe Journey Optimizer peut recommencer à diffuser vers cette adresse ou ce domaine.  En savoir plus sur la délivrabilité dans [cette section](../reports/deliverability.md).
+La suppression d’une adresse e-mail ou d’un domaine de la liste de suppression signifie qu’Adobe Journey Optimizer va recommencer à délivrer à cette adresse ou à ce domaine.  En savoir plus sur la délivrabilité dans [cette section](../reports/deliverability.md).
 
-Pour supprimer une adresse de la liste de suppression, utilisez le **[!UICONTROL Supprimer]** bouton .
+Pour supprimer une adresse de la liste de suppression, utilisez le bouton **[!UICONTROL Supprimer]**.
 
 ![](assets/suppression-list-delete.png)
 
@@ -219,16 +219,15 @@ Pour supprimer une adresse de la liste de suppression, utilisez le **[!UICONTROL
 >
 >Procédez avec attention lorsque vous envisagez de supprimer une adresse e-mail ou un domaine. En cas de doute, contactez un expert en délivrabilité.
 
+Par exemple, dans le cas d’une panne du fournisseur d’accès Internet (FAI), les e-mails sont marqués à tort comme hard bounces, car ils ne peuvent pas être envoyés avec succès à leur destinataire. Ces adresses e-mail doivent être supprimées de la liste de suppression.
 
-Par exemple, dans le cas d’une panne du fournisseur d’accès Internet (FAI), les emails peuvent être marqués à tort comme des hard bounces, car ils ne peuvent pas être envoyés avec succès à leur destinataire. Ces adresses électroniques doivent être supprimées de la liste de suppression.
+Pour récupérer ces adresses, exécutez une requête spécifique avec des paramètres personnalisés en fonction du contexte de la panne. [En savoir plus dans cet exemple](../data/datasets-query-examples.md#isp-outage-query).
 
-Pour ce faire, filtrez la liste de suppression afin d’afficher les adresses électroniques ou domaines concernés. Par exemple, si une panne de FAI s’est produite du 11 novembre 2022 au 13 novembre 2022 sur le **test.com** domain, filtrez les adresses ajoutées à la liste de suppression dans cette période, comme ci-dessous :
+Une fois les adresses e-mail concernées identifiées, filtrez la liste de suppression pour les afficher. Par exemple, si une panne du FAI s’est produite du 11 novembre 2022 au 13 novembre 2022 sur le domaine **test.com**, filtrez les adresses ajoutées à la liste de suppression dans cette période, tel qu’indiqué ci-dessous :
 
 ![](assets/remove-from-supp-list.png)
 
-Vous devez également ajouter un filtre sur le type de rebond, en fonction des détails de la panne. Ces détails sont fournis par le FAI, comme le code d’erreur exact renvoyé à l’expéditeur. Par exemple : `550 <email address> recipient rejected` ou `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-Une fois identifiées, ces adresses peuvent être supprimées manuellement de la liste de suppression à l’aide du **[!UICONTROL Supprimer]** bouton . Ces adresses peuvent ensuite être incluses dans les futures campagnes par e-mail.
+Vous pouvez ensuite supprimer les adresses e-mail de la liste de suppression à l’aide du bouton **[!UICONTROL Supprimer]**.
 
 ## Télécharger la liste de suppression {#download-suppression-list}
 
@@ -236,10 +235,10 @@ Une fois identifiées, ces adresses peuvent être supprimées manuellement de la
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
-Pour exporter la liste de suppression au format CSV, suivez les étapes ci-dessous:
+Pour exporter la liste de suppression au format CSV, suivez les étapes ci-dessous :
 
 1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 

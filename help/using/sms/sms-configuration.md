@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration du canal SMS
+title: Configurer le canal SMS
 description: Découvrez comment configurer votre environnement pour envoyer des SMS avec Journey Optimizer.
 role: Admin
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Votre utilisation des services SMS sera soumise aux conditions générales suppl
 
 Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme suit :
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez la variable **[!UICONTROL Informations d’identification de l’API]** . Cliquez sur le bouton **[!UICONTROL Création d’informations d’identification d’API]** bouton .
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
    ![](assets/sms_6.png)
 
@@ -78,14 +78,14 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Définissez la catégorie de SMS."
->abstract="Sélectionnez le type de SMS utilisant cette surface : Marketing pour les SMS promotionnels, qui nécessitent le consentement de l’utilisateur, ou Transactionnel pour les SMS non commerciaux, tels que la réinitialisation du mot de passe."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les messages SMS de marketing"
+>abstract="Sélectionnez le type de SMS utilisant cette surface : marketing pour les SMS promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou transactionnel pour les SMS non commerciaux, tels que la réinitialisation du mot de passe."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les SMS de marketing"
 
-Une fois votre canal SMS configuré, vous devez créer une surface de canal pour pouvoir envoyer des SMS depuis **[!DNL Journey Optimizer]**.
+Une fois votre canal SMS configuré, vous devez créer une surface de canal afin de pouvoir envoyer des SMS depuis **[!DNL Journey Optimizer]**.
 
 Pour créer une surface de canal, procédez comme suit :
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Marques]** > **[!UICONTROL Surfaces des canaux]**. Cliquez sur le bouton **[!UICONTROL Créer la surface du canal]** bouton .
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Branding]** > **[!UICONTROL Surfaces de canal]**. Cliquez sur le bouton **[!UICONTROL Créer une surface de canal]**.
 
    ![](assets/preset-create.png)
 
@@ -97,20 +97,20 @@ Pour créer une surface de canal, procédez comme suit :
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Définissez la variable **Paramètres SMS**.
+1. Définissez les **paramètres SMS**.
 
    ![](assets/preset-sms.png)
 
    * Sélectionnez le **[!UICONTROL Type de SMS]** qui sera envoyé avec la surface : **[!UICONTROL Transactionnel]** ou **[!UICONTROL Marketing]**.
 
-      * Choisir **Marketing** pour les SMS promotionnels : ces messages requièrent le consentement de l’utilisateur.
+      * Choisissez **Marketing** pour les SMS promotionnels : ces messages nécessitent le consentement de l’utilisateur ou de l’utilisatrice.
       * Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
 
       >[!CAUTION]
       >
-      >**Transactionnel** Les SMS peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
+      >Les SMS **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
-      Lors de la création d&#39;un SMS, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
+      Lors de la création d’un SMS, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
 
    * Sélectionnez la **[!UICONTROL Configuration SMS]** à associer à la surface.
 
@@ -140,6 +140,6 @@ Vous êtes maintenant prêt à envoyer des messages SMS avec Journey Optimizer.
 **Rubriques connexes**
 
 * [Création d’un SMS](create-sms.md)
-* [Ajout dʼun message dans un parcours](../building-journeys/journeys-message.md)
+* [Ajouter un message dans un parcours](../building-journeys/journeys-message.md)
 * [Ajouter un message dans une campagne](../campaigns/create-campaign.md)
 

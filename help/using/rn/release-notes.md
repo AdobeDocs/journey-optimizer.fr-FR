@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d160baac2eb454cfd10097e29147562f83c1cd50
+source-git-commit: 1565a61f2bd3b8168eaefc2e69b40c9949a0af23
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 59%
+source-wordcount: '816'
+ht-degree: 65%
 
 ---
 
@@ -35,13 +35,6 @@ Disponibilité : **22 février 2023**
 * Le **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant qu’un profil puisse à nouveau entrer dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes.
 
 * Des améliorations ont été apportées aux **Dates de début et de fin parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Pour **Lecture de segment** parcours, vous pouvez maintenant ajouter une date de fin. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte.
-
-* Le canevas de Parcours a été amélioré pour une expérience utilisateur plus simple et améliorée. À la fin de chaque chemin d’accès dans la zone de travail, les espaces réservés vides ont été supprimés. Vous pouvez désormais simplement ajouter vos activités en les faisant glisser n’importe où entre les noeuds.
-
-* La gestion des délais et des erreurs a été améliorée dans parcours. Les chemins d’expiration et d’erreur sont désormais toujours ajoutés sur la zone de travail. Un nouveau bouton de barre d’outils est disponible pour afficher/masquer ces chemins.
-
-* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une action personnalisée.
-
 
 **Administration**
 

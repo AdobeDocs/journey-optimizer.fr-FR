@@ -145,7 +145,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <tr>
 <td>
 <p>Vous pouvez désormais transmettre des collections ou une liste de données dans vos paramètres d’action personnalisés qui seront renseignés dynamiquement au moment de l’exécution. Deux types de collections sont pris en charge : collections simples et collections d’objets. Les actions personnalisées créées précédemment continueront à fonctionner. </p>
-<p>Pour plus d'informations sur les collections, consultez la <a href="../building-journeys/collections.md">documentation détaillée</a>. </p>
+<p>Pour plus d’informations sur les collections, consultez la <a href="../building-journeys/collections.md">documentation détaillée</a>. </p>
 <p>Les fonctions filter et intersect ont été ajoutées à la liste des fonctions disponibles dans l’éditeur d’expression avancé. Cela offre davantage de possibilités de filtrage et de comparaison des collections.</p>
 <p>Consultez la documentation sur les fonctions <a href="../building-journeys/functions/functionfilter.md">filter</a> et <a href="../building-journeys/functions/functionintersect.md">intersect</a>.</p>
 </td>
@@ -158,7 +158,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 **Parcours**
 
 * Les schémas et les jeux de données générés par le système qui ont été créés pendant l&#39;approvisionnement des événements d’étape sont désormais en lecture seule, ce qui permet d’éviter toute modification involontaire des schémas critiques. [En savoir plus](../reports/sharing-overview.md)
-* Libellez de manière claire l’activité **Attente** avec un libellé qui s’affichera dans la zone de travail. Le libellé est également utilisé dans les journaux des modes de reporting et de test pour identifier clairement ce que vous faites. [En savoir plus](../building-journeys/about-journey-activities.md#best-practices)
+* Étiquetez de manière claire l’activité **Attente** avec un libellé qui s’affichera dans la zone de travail. Le libellé est également utilisé dans les journaux des modes de reporting et de test pour identifier clairement ce que vous faites. [En savoir plus](../building-journeys/about-journey-activities.md#best-practices)
 * Trouvez plus rapidement vos événements et actions en filtrant les éléments dans les catégories **Événements** et **Action** à l’aide de la recherche. Les activités d’orchestration ne sont plus filtrées. [En savoir plus](../building-journeys/using-the-journey-designer.md)
 * Lors de la définition d’une condition d’identifiant d’événement dans un événement métier ou basé sur des règles, l’opérateur &quot;contains&quot; est désormais disponible pour les types de chaînes de champs. [En savoir plus](../event/about-creating.md)
 
@@ -249,7 +249,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <tr>
 <td>
 <p>L’ajout d’adresses et de domaines de messagerie dans la liste de suppression est désormais disponible dans l’interface utilisateur, une par une, ou en masse via un téléchargement de fichier CSV.</p>
-<p>Pour plus d'informations, consultez la <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -327,7 +327,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <tr>
 <td>
 <p>Vous pouvez maintenant définir une liste d'envoi sécurisé spécifique au niveau de l'environnement Sandbox, afin d'avoir un environnement sécurisé à des fins de test. Sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n'avez aucun risque d'envoyer des messages indésirables à vos clients. Cette fonctionnalité est activée en utilisant les API de suppression.</p>
-<p>Pour plus d'informations, consultez la <a href="../configuration/allow-list.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../configuration/allow-list.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -12,7 +12,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -197,6 +197,6 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 
 ## Vidéo pratique{#video}
 
-La vidéo ci-dessous montre comment créer et tester vos messages In-App.
+La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

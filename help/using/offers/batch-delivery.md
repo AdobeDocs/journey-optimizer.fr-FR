@@ -5,7 +5,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Avant de configurer une demande de traitement, assurez-vous d’avoir créé :
 
    >[!NOTE]
    >
-   >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l&#39;instantané le plus récent. Patientez jusqu’à 24 heures après la création d’un segment avant d’essayer l’API de prise de décision par lots.
+   >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l’instantané le plus récent. Patientez jusqu’à 24 heures après la création d’un segment avant d’essayer l’API de prise de décision par lots.
 
 * **Une décision** dans Adobe Journey Optimizer. [Découvrez comment créer une décision](offer-activities/create-offer-activities.md)
 

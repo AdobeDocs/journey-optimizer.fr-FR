@@ -11,7 +11,7 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -31,18 +31,18 @@ Une fois le contenu de votre message défini, vous pouvez utiliser des profils d
 
 1. Une fois que vous avez sélectionné votre profil de test, vous pouvez fermer la fenêtre **[!UICONTROL Ajouter un profil de test]**.
 
-1. Dans la **Aperçu et test** , les données de profil de test sont ajoutées au contenu du message.
+1. Dans la fenêtre **Prévisualiser et tester**, les données du profil de test sont ajoutées au contenu du message.
 
    ![](assets/sms_preview_2.png)
 
 
 ## Valider votre SMS{#sms-validate}
 
-Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Certains d&#39;entre eux sont de simples avertissements, mais d&#39;autres peuvent vous empêcher d&#39;envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
+Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. Par exemple, un message d’avertissement s’affiche si votre SMS est vide.
 
-* **Erreurs** vous empêche de tester ou d’activer le parcours, ou de publier la campagne, tant qu’elle n’est pas résolue. Par exemple, un message d’erreur vous avertit lorsque l’objet est manquant.
+* Les **erreurs** vous empêchent de tester ou d’activer le parcours ou de publier la campagne tant que celles-ci ne sont pas corrigées. Par exemple, un message d’erreur vous avertit lorsque l’objet est manquant.
 
 ![](assets/sms-alert-button.png)
 

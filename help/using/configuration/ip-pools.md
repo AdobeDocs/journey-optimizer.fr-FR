@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,15 +62,15 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-Lors de la sélection des adresses IP, vous pouvez voir dans la liste les enregistrements PTR associés aux adresses IP. Vous pouvez ainsi vérifier les informations de marque de chaque adresse IP lors de la création d’un pool d’adresses IP et sélectionner les adresses IP avec les mêmes informations de marque, par exemple. [En savoir plus sur les enregistrements PTR](ptr-records.md)
+Lors de la sélection des adresses IP, vous pouvez voir dans la liste les enregistrements PTR associés aux adresses IP. Vous pouvez ainsi vérifier les informations de branding de chaque adresse IP lors de la création d’un groupe d’adresses IP et sélectionner les adresses IP avec les mêmes informations de branding, par exemple. [En savoir plus sur les enregistrements PTR.](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
 >[!NOTE]
 >
->Si aucun enregistrement PTR n’est configuré pour une adresse IP, vous ne pouvez pas la sélectionner. Contactez votre représentant d’Adobe pour configurer l’enregistrement PTR de cette adresse IP.
+>Si aucun enregistrement PTR n’est configuré pour une adresse IP, vous ne pouvez pas la sélectionner. Contactez votre représentant(e) Adobe pour configurer l’enregistrement PTR de cette adresse IP.
 
-Une fois un pool d’adresses IP créé, les informations relatives aux adresses IP sont visibles lorsque vous pointez sur les adresses IP affichées sous la liste déroulante du pool d’adresses IP.
+Une fois un groupe d’adresses IP créé, les informations PTR sont visibles lorsque vous pointez sur les adresses IP affichées sous la liste déroulante du groupe d’adresses IP.
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 

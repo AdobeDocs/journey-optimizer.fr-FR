@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fonctionnalités d’accessibilité dans Journey Optimizer
-description: En savoir plus sur l’accessibilité dans l’interface utilisateur de Journey Optimizer
-feature: Overview
+title: Fonctionnalités d’accessibilité dans Journey Optimizer
+description: En savoir plus sur l’accessibilité dans l’interface utilisateur de Journey Optimizer
+feature: Accessibility
 role: User
 level: Beginner
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Accessibilité dans Journey Optimizer{#accessibility}
+# Accessibilité dans Journey Optimizer{#accessibility}
 
-L’accessibilité fait référence à une série de fonctionnalités qui rendent un produit logiciel utilisable, avec le moins d’effort possible, par des utilisateurs présentant un handicap visuel, auditif, cognitif, moteur ou autre. Leader du secteur en matière d’accessibilité, Adobe soutient la création d’expériences web exceptionnelles en encourageant les développeurs à produire du contenu riche et attrayant accessible à tous les utilisateurs. En savoir plus sur l’engagement de l’Adobe envers l’accessibilité dans le [Page Accessibilité des Adobes](https://www.adobe.com/accessibility.html){target="_blank"}.
+L’accessibilité fait référence à une série de fonctionnalités qui rendent un produit logiciel utilisable, avec le moins d’effort possible, par des utilisateurs présentant un handicap visuel, auditif, cognitif, moteur ou autre. Leader du secteur en matière d’accessibilité, Adobe soutient la création d’expériences web exceptionnelles en encourageant les développeurs à produire du contenu riche et attrayant accessible à tous les utilisateurs. Pour plus d’informations sur l’engagement d’Adobe en matière d’accessibilité, consultez la [page Accessibilité d’Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Pour aider à atteindre l’objectif de conformité à l’accessibilité, [!DNL Journey Optimizer] suit les bonnes pratiques reconnues internationalement dans les directives WCAG 2.1 sur l’accessibilité des contenus web (niveau A et niveau AA). En savoir plus dans la dernière version [Rapport de conformité à l’accessibilité de Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+Afin d’atteindre l’objectif de conformité en matière d’accessibilité, [!DNL Journey Optimizer] applique les bonnes pratiques des règles pour l’accessibilité des contenus web (WCAG) 2.1 aux niveaux A et AA, reconnues internationalement. En savoir plus dans le dernier [Rapport de conformité à l’accessibilité d’Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
 
 
 Les fonctionnalités d’accessibilité de [!DNL Adobe Journey Optimizer] sont héritées d’Adobe Experience Platform :
@@ -26,9 +26,9 @@ Les fonctionnalités d’accessibilité de [!DNL Adobe Journey Optimizer] sont h
 * Contraste des couleurs
 * Validation des champs obligatoires
 
-Les fonctions d’accessibilité de Adobe Experience Platform sont détaillées. [dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target="_blank"}.
+Les fonctionnalités d’accessibilité d’Adobe Experience Platform sont détaillées [dans cette documentation](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=fr){target="_blank"}.
 
-Les raccourcis clavier courants suivants sont disponibles dans la section [!DNL Journey Optimizer]:
+Les raccourcis clavier suivants sont disponibles dans [!DNL Journey Optimizer] :
 
 | Action | Raccourci |
 | --- | --- |
@@ -38,7 +38,7 @@ Les raccourcis clavier courants suivants sont disponibles dans la section [!DNL 
 | Sélection ou suppression d’un élément ciblé | Entrée ou Barre d’espace |
 | Annuler une sélection, réduire un panneau ou fermer une boîte de dialogue | Échap |
 
-Vous pouvez utiliser ces raccourcis dans des zones spécifiques de [!DNL Journey Optimizer] interface utilisateur :
+Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interface utilisateur de [!DNL Journey Optimizer] :
 
 <table>
   <thead>

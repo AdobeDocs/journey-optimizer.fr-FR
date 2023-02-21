@@ -1,14 +1,14 @@
 ---
 title: Créer des pages web
 description: Découvrez comment créer une page web et modifier son contenu dans Journey Optimizer
-feature: Overview
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 100%

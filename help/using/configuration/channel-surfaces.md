@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuration des surfaces de canal
 description: Découvrez comment configurer et surveiller des surfaces de canal
-feature: Application Settings
+feature: Application Settings, Surface
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 100%

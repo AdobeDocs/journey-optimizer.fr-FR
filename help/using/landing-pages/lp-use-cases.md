@@ -12,7 +12,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -161,11 +161,11 @@ Pour vérifier que le choix du profil correspondant a été mis à jour, accéde
 
 Dans l’onglet **[!UICONTROL Attributs]**, la valeur du **[!UICONTROL choix]** a été remplacée par **[!UICONTROL non]**.
 
-Les informations d’exclusion sont stockées dans la variable **Jeu de données du service de consentement**. [En savoir plus sur les jeux de données](../data/get-started-datasets.md)
+Les informations concernant les désinscriptions sont stockées dans le **Jeu de données du service de consentement**. [En savoir plus sur les jeux de données](../data/get-started-datasets.md)
 
 >[!NOTE]
 >
->Si la méthode de fusion pour votre [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Si la méthode de fusion pour votre [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"} par défaut
 
 
 <!--

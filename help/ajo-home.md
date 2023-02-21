@@ -5,7 +5,7 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 2ef5c87561df71b1c55a71c237477d34750f8ac7
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
@@ -48,7 +48,7 @@ ht-degree: 100%
     Concevez un nouvel e-mail ou importez un contenu HTML existant.
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Créer votre premier parcours</a>
+    <a href="using/building-journeys/journey-gs.md">Créer votre premier parcours</a>
     </div>
     <p>Découvrez comment créer et exécuter un parcours.
     <p>
@@ -128,7 +128,7 @@ ht-degree: 100%
       <a href="using/email/assets-essentials.md">Ressources</a>
     </li>
     <li>
-      <a href="using/email/content-templates.md">Modèles de contenu </a>
+      <a href="using/email/content-templates.md">Modèles de contenu</a>
     </li>
     <p>
     <p>GESTION DES DONNÉES</p>

@@ -39,7 +39,7 @@ Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey
 <a href="../email/email-opt-out.md">
 <img alt="Prospect" src="../assets/do-not-localize/privacy-email-optout.jpeg" width="50%">
 </a>
-<div><a href="../email/email-opt-out.md"><strong>Gérer le processus de désinscription aux e-mails</strong>
+<div><a href="../email/email-opt-out.md"><strong>Gestion du processus de désinscription aux e-mails</strong>
 </div>
 <p>
 </td>

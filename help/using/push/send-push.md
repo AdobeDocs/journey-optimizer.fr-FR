@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prévisualiser et tester votre notification push
+title: Prévisualisez et testez votre notification push.
 description: Découvrez comment prévisualiser et tester votre notification push dans Journey Optimizer.
 feature: Overview
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# Prévisualiser et tester votre notification push {#send-push}
+# Prévisualisez et testez votre notification push. {#send-push}
 
 ## Prévisualiser votre notification push {#preview-push}
 
@@ -31,16 +31,16 @@ Une fois le contenu de votre message défini, vous pouvez utiliser des profils d
 
 1. Une fois que vous avez sélectionné votre profil de test, vous pouvez fermer la fenêtre **[!UICONTROL Ajouter un profil de test]**.
 
-1. Dans la **Aperçu et test** , les données de profil de test sont ajoutées au contenu du message.
+1. Dans la fenêtre **Prévisualiser et tester**, les données du profil de test sont ajoutées au contenu du message.
 
    Sélectionnez le type de périphérique sur lequel prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
    ![](assets/push_preview_3.png)
 
-## Validation de la notification push {#push-validate}
+## Valider la notification push {#push-validate}
 
 
-Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Certains d&#39;entre eux sont de simples avertissements, mais d&#39;autres peuvent vous empêcher d&#39;envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
+Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
 
 * Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques.
 
@@ -61,7 +61,7 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 
 ## Envoyer votre notification push{#push-send}
 
-Une fois votre message push prêt, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou [campaign](../campaigns/create-campaign.md) pour l’envoyer.
+Une fois votre message push prêt, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
 **Rubriques connexes**
 

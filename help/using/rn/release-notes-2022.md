@@ -207,7 +207,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 **Parcours**
 
 * Le **jeu de données d’entité** est désormais disponible en tant que jeu de données prêt à l’emploi dans Adobe Journey Optimizer. Ce jeu de données de recherche comprend des métadonnées pour enrichir les informations des jeux de données de tracking et de commentaires. Vous pourrez ainsi améliorer vos rapports et requêtes avec des données plus compréhensibles. [En savoir plus](../data/datasets-query-examples.md#entity-dataset)
-* Une nouvelle barrière de sécurité a été ajoutée aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
+* Une nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -377,7 +377,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
 <p>L’utilisation des modèles d’IA d’optimisation personnalisés est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -496,7 +496,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Vous pouvez désormais recréer les expériences d’une sandbox Journey Optimizer à une autre, par exemple d’une sandbox hors production vers une sandbox de production. Cette nouvelle fonctionnalité permet de copier d’une sandbox à une autre un parcours complet, y compris tous les objets nécessaires à son bon fonctionnement. Outre les parcours, vous pouvez également copier d’autres composants, tels que les offres, les messages, les schémas, les jeux de données, les sources de données, les événements et les actions.</p>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/copy-to-sandbox.md">documentation détaillée</a>.
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/copy-to-sandbox.md">documentation détaillée</a>.
 </td>
 </tr>
 </tbody>
@@ -594,7 +594,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Vous pouvez désormais surveiller les actions effectuées par les utilisateurs sur les ressources Adobe Journey Optimizer.</p>
 <!--img src="assets/do-not-localize/audit-rn.gif"/-->
-<p>Pour plus d'informations, consultez la <a href="../privacy/audit-logs.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../privacy/audit-logs.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -616,7 +616,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 **Parcours**
 
 * **Lecture de segment** : les parcours de lecture de segment en une seule fois sont désormais mis à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-segment.md)
-* **Éditeur d&#39;expression** : la fonction [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
+* **Éditeur d’expression** : la fonction [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Administration**
 
@@ -750,7 +750,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>Dans le contenu des messages Journey Optimizer, vous pouvez maintenant ajouter des paramètres UTM à vos liens : ils peuvent fournir des données supplémentaires sur ce lien et vous aider à identifier où et pourquoi une personne a cliqué sur ce lien.</p>
-<p>Pour plus d'informations, consultez la <a href="../configuration/channel-surfaces.md#configure-email-settings">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../configuration/channel-surfaces.md#configure-email-settings">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -807,7 +807,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>Lʼoption <strong>Lecture incrémentielle</strong> a été ajoutée aux activités <strong>Lecture de segment</strong> récurrentes. Cette option permet de cibler uniquement les individus qui sont entrés dans le segment depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres du segment.</p>
-<p>Pour plus d'informations, consultez la <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentation détaillée</a>.
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentation détaillée</a>.
 </td>
 </tr>
 </tbody>

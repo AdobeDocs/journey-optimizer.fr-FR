@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prévisualisation de messages et envoi de BAT
+title: Prévisualiser les messages et envoyer des BAT
 description: Découvrez comment prévisualiser et tester votre e-mail.
 feature: Journeys
 topic: Content Management

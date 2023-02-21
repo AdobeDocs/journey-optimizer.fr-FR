@@ -1,17 +1,17 @@
 ---
 title: Extension Visual Editing Helper
 description: Découvrez l’extension Chrome Visual Editing Helper, qui vous permet de créer et de prévisualiser des pages web dans Journey Optimizer.
-feature: Overview
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Afin de rapidement créer et prévisualiser vos expériences web, l’extension 
 
 Pour obtenir et installer l’extension de navigateur Visual Editing Helper, suivez les étapes ci-dessous.
 
-1. Dans la boutique Web Chrome Google, accédez au [Assistant d’édition visuelle de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension de navigateur.
+1. Dans la boutique en ligne Google Chrome, accédez à l’extension de navigateur de l’[assistant Visual Editing Helper d’Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Ajouter à Chrome]** > **[!UICONTROL Ajouter l’extension]**.
 

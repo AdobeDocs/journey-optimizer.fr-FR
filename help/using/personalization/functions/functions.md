@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="math.md#absolute">Absolu</a></td><td>Cette fonction formate n’importe quel nombre dans sa représentation sensible à la langue.</td>
     </tr>
     <tr>
-        <td><a href="math.md#format-number">Format number</a></td><td>Cette fonction formate n’importe quel nombre dans sa représentation sensible à la langue.</td>
+        <td><a href="math.md#format-number">Formater le nombre</a></td><td>Cette fonction formate n’importe quel nombre dans sa représentation sensible à la langue.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Aléatoire</a></td><td>Cette fonction renvoie une valeur aléatoire comprise entre 0 et 1.</td>
@@ -161,7 +161,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="math.md#round-up">Arrondir à l’unité supérieure</a></td><td>Cette fonction arrondit un nombre à l’unité supérieure.</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">To hex string</a></td><td>convertit n’importe quel nombre en sa chaîne hexadécimale.</td>
+    <td><a href="math.md#to-hex-string">To hex string</a></td><td>Cette fonction convertit n’importe quel nombre en sa chaîne hexadécimale.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">En pourcentage</a></td><td>Cette fonction convertit un nombre en pourcentage.</td>
@@ -226,7 +226,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#extractEmailDomain">Extraire le domaine e-mail</a></td><td>Cette fonction est utilisée pour extraire le domaine d'une adresse e-mail.</td>
     </tr>
     <tr>
-        <td><a href="string.md#format-currency">Format currency</a></td><td>Cette fonction convertit n’importe quel nombre dans sa représentation monétaire correspondante sensible à la langue en fonction des paramètres régionaux transmis sous forme de chaîne dans le deuxième argument.</td>
+        <td><a href="string.md#format-currency">Formater la devise</a></td><td>Cette fonction convertit n’importe quel nombre en sa représentation monétaire sensible à la langue correspondante en fonction des paramètres régionaux transmis sous forme de chaîne dans le deuxième argument.</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">Obtenir l’hôte d’URL</a></td><td>Cette fonction est utilisée pour obtenir l’hôte d’URL.</td>
@@ -295,7 +295,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#startsWith">Commence par</a></td><td>Cette fonction permet de déterminer si une chaîne commence par une sous-chaîne donnée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">Chaîne à date</a></td><td>Cette fonction convertit une valeur de chaîne en valeur de date-time</td>
+        <td><a href="string.md#string-to-date">Chaîne à date</a></td><td>Cette fonction convertit une valeur de chaîne en valeur date / heure.</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">Chaîne en entier</a></td><td>Cette fonction convertit une valeur de chaîne en valeur entière.</td>
