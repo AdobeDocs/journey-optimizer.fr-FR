@@ -5,10 +5,11 @@ title: Exportation des jeux de données vers des emplacements de stockage dans l
 description: Découvrez comment exporter vos jeux de données à l’aide des destinations de stockage dans le cloud de Adobe Experience Platform.
 role: User
 level: Beginner
+badge: label="Beta" type="Informatif"
 keywords: platform, lac de données, créer, lac, jeux de données, profil
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 10%
 
 ---

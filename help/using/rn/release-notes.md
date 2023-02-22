@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 63%
+source-wordcount: '919'
+ht-degree: 61%
 
 ---
 
@@ -28,15 +28,14 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Canal in-app</strong><br/></th>
+<th><strong>Canal In-App (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Vous pouvez désormais envoyer des messages In-App personnalisés aux utilisateurs de votre application au sein d’une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience fluide.</p>
-<p>
-Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.</p>
+<p><strong>Attention</strong> - Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Pour plus d'informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>
 </td>
@@ -55,9 +54,7 @@ Cette fonctionnalité est actuellement en version bêta et disponible uniquement
 <td>
 <p>Vous pouvez maintenant établir une connexion en direct avec les emplacements de stockage dans le cloud afin d’exporter le contenu de vos jeux de données. Les destinations disponibles sont les suivantes : Stockage dans le cloud Amazon S3, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Attention</strong> - Cette fonctionnalité est actuellement en version bêta et disponible pour tous les utilisateurs de Adobe Journey Optimizer. Contactez votre représentant d’Adobe pour obtenir l’accès aux destinations si vous n’y avez pas déjà accès.</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>Pour plus d’informations, consultez la <a href="../data/export-datasets.md">documentation détaillée</a>.</p>
 </td>
 </tr>
