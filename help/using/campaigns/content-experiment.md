@@ -11,10 +11,10 @@ keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 95%
+source-wordcount: '1137'
+ht-degree: 98%
 
 ---
 
@@ -166,8 +166,8 @@ Notez que chaque widget peut être redimensionné et supprimé en cas de besoin.
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Clics uniques par profil"
->abstract="La mesure Clics uniques par profil vous permet de comprendre l’efficacité de votre expérience à interagir avec votre audience et à orienter les clics vers votre destination cible. Il calcule le nombre de clics distincts sur un lien particulier, divisé par le nombre total de profils exposés au lien."
+>title="Mesure de succès"
+>abstract="Valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils."
 
 >[!AVAILABILITY]
 >
