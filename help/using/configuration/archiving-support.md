@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 100%
@@ -82,7 +82,6 @@ Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communication
 * N’ouvrez pas et ne cliquez pas sur les e-mails envoyés à l’adresse en Cci, car cela est pris en compte dans le nombre total d’ouvertures et de clics de l’analyse d’envoi, ce qui peut entraîner des erreurs de calcul dans les [rapports](../reports/global-report.md).
 
 * Ne marquez pas les messages comme spam dans la boîte de réception en Cci, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
-
 
 >[!CAUTION]
 >

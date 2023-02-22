@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: in-app, message, conception, mise en forme
+badge: label="Beta" type="Informatif"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '910'
+ht-degree: 98%
 
 ---
 
 # Concevoir votre contenu in-app {#design-content}
+
+>[!IMPORTANT]
+>
+>La fonctionnalité In-App est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
 
 Vous pouvez modifier le contenu in-app pour configurer les options d’expérience, notamment la disposition et l’affichage du message, le texte et les options de bouton.
 
@@ -192,7 +195,7 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 **Rubriques connexes :**
 
 * [Créer un message in-app](create-in-app.md)
-* [Rapport in-app](inapp-report.md)
+* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
 * [Configuration in-app](inapp-configuration.md)
 
 ## Vidéo pratique{#video}

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 94%
+source-wordcount: '660'
+ht-degree: 81%
 
 ---
 
@@ -100,7 +100,17 @@ Pour réutiliser votre contenu dans une représentation, accédez à la **Biblio
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
+Vous pouvez personnaliser des URL à l’aide de l’éditeur d’expression. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
+
 ![](../assets/offer-content-url.png)
+
+Par exemple, vous souhaitez personnaliser l’image qui s’affiche sous forme d’offre. Vous voulez que les utilisateurs qui préfèrent les vacances en ville voient la silhouette de la NYC et les utilisateurs qui préfèrent les vacances à la plage voient la rive nord d&#39;Hawaii.
+
+Utilisez l’éditeur d’expression pour récupérer les attributs de profil stockés dans Adobe Experience Platform à l’aide de schémas d’union. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}.
+
+![](../assets/offer-content-url-personalization.png)
+
+Si vous spécifiez une **[!UICONTROL Lien de destination]**, vous pouvez également personnaliser l’URL vers laquelle seront dirigés les utilisateurs qui cliquent sur l’offre.
 
 ### Ajout de texte personnalisé {#custom-text}
 

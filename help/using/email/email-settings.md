@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 100%
+source-wordcount: '1652'
+ht-degree: 88%
 
 ---
 
@@ -151,6 +151,14 @@ Pour assurer une bonne gestion des réponses, procédez comme suit :
 
 * Ne marquez pas les messages comme spam dans la boîte de réception de réponse, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
 
+En outre, lors de la définition de la variable **[!UICONTROL Répondre à (email)]** , veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de surface des emails échouera.
+
+Si vous obtenez une erreur lors de l’envoi de la surface de l’email, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
+
+>[!NOTE]
+>
+>Si le sous-domaine de l’adresse que vous avez saisie est un domaine qui a été [entièrement délégué](../configuration/delegate-subdomain.md#full-subdomain-delegation) pour Adobe, contactez votre chargé de compte d’Adobe.
+
 ### Transférer un e-mail {#forward-email}
 
 Si vous souhaitez transférer vers une adresse e-mail spécifique tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué, contactez l’Assistance clientèle d’Adobe. Vous devrez fournir les éléments suivants :
@@ -170,9 +178,13 @@ L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 
 
 Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-mails envoyés par [!DNL Journey Optimizer] vers une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
 
-Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** au niveau de la surface de canal. [En savoir plus](../configuration/archiving-support.md#bcc-email)
+Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** au niveau de la surface de canal. [En savoir plus](../configuration/archiving-support.md#bcc-email).
 
 ![](assets/preset-bcc.png)
+
+En outre, lors de la définition de la variable **[!UICONTROL Email Cci]** , veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de surface des emails échouera.
+
+Si vous obtenez une erreur lors de l’envoi de la surface de l’email, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
 ## Paramètres de reprise de lʼe-mail {#email-retry}
 
@@ -237,7 +249,7 @@ Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide
 
 >[!NOTE]
 >
->Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur d’expression. Chaque champ **[!UICONTROL Valeur]** peut contenir jusqu’à 255 caractères au total.
+>Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur d’expression. Chaque **[!UICONTROL Valeur]** peut contenir un certain nombre de caractères jusqu’à une limite de 5 Ko.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

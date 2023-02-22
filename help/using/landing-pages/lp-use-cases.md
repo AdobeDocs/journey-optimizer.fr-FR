@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '970'
+ht-degree: 98%
 
 ---
 
@@ -166,6 +166,8 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 >[!NOTE]
 >
 >Si la méthode de fusion pour votre [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"} par défaut
+>
+>Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations d’inclusion/exclusion.
 
 
 <!--

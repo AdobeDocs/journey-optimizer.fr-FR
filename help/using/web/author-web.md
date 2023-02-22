@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,8 +29,8 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Saisissez l’URL à modifier."
->abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué sur la surface web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
+>title="Confirmer l’URL à modifier"
+>abstract="Confirmez l&#39;URL de la page web spécifique à utiliser pour éditer le contenu qui sera appliqué sur la surface web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
 >[!CONTEXTUALHELP]

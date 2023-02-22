@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1314'
+ht-degree: 99%
 
 ---
 
@@ -202,10 +202,9 @@ ht-degree: 100%
       + [Configurer les paramètres de la surface d’e-mails](using/email/email-settings.md)
 + Canal in-app{#in-app}
    + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
-   + [Configurer le canal in-app](using/in-app/inapp-configuration.md)
    + [Créer un message in-app](using/in-app/create-in-app.md)
    + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
-   + [Rapport in-app](using/in-app/inapp-report.md)
+   + [Configurer le canal in-app](using/in-app/inapp-configuration.md)
 + Canal de notification push{#push}
    + [Prise en main des notifications push](using/push/get-started-push.md)
    + [Créer une notification push](using/push/create-push.md)
@@ -416,6 +415,7 @@ ht-degree: 100%
    + [Requêtes](using/data/get-started-queries.md)
    + Jeux de données Journey Optimizer {#datasets}
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
+      + [Exportation de jeux de données Journey Optimizer](using/data/export-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)

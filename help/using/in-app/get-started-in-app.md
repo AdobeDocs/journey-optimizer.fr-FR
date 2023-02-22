@@ -5,24 +5,25 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: in-app, message, création, commencer
+badge: label="Beta" type="Informatif"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 60%
 
 ---
 
 # Prise en main du canal in-app {#gs-in-app}
 
-Les messages in-app sont des notifications que vous pouvez envoyer aux utilisateurs dans votre application pour les diriger vers des points ciblés spécifiques. Les notifications in-app peuvent être utilisées pour proposer un service, promouvoir une nouvelle fonctionnalité, une offre spéciale ou souhaiter la bienvenue à un nouvel utilisateur.
+>[!IMPORTANT]
+>
+>La fonctionnalité In-App est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
+
+Les messages in-app sont des notifications qui peuvent être envoyées aux utilisateurs dans votre application, les guidant vers des points ciblés spécifiques. Ces notifications peuvent être utilisées à différentes fins, par exemple pour promouvoir de nouvelles fonctionnalités, présenter des offres spéciales ou faciliter l’intégration des utilisateurs. En exploitant les messages In-App, vous pouvez interagir efficacement avec votre audience et l’orienter vers des aspects importants de votre application.
 
 Utilisez Journey Optimizer pour créer des notifications in-app et configurer des options d’expérience, notamment la disposition et l’affichage du message, le texte et les options de bouton.
-
-![](assets/new-in-app.png)
 
 ## Conditions préalables{#prerequisites-in-app}
 
@@ -52,11 +53,11 @@ Une fois cette opération terminée, vous pouvez créer, configurer et envoyer v
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>Rapport in-app</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Rapport in-app</strong></a>
 </div>
 <p>
 </td>

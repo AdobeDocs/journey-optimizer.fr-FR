@@ -2,10 +2,10 @@
 title: Diffuser des décisions par lots
 description: Découvrez comment diffuser les décisions d’offre à tous les profils d’un segment Adobe Experience Platform donné.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Une fois qu’une demande de traitement a été créée, le traitement par lots 
 
 >[!NOTE]
 >
->Pour vous assurer que vous obtenez les dernières informations sur le statut d’une demande de traitement, utilisez le bouton représentant trois points de suspension en regard du traitement pour l’actualiser.
+>Pour vous assurer d’obtenir les dernières informations sur l’état d’une requête de tâche, utilisez le bouton représentant des points de suspension en regard de la tâche pour l’actualiser.
 
 1. **[!UICONTROL En file d&#39;attente]** : la demande de traitement a été créée et est entrée dans la file d’attente de traitement. Jusqu’à 5 traitements par lots peuvent être exécutés à la fois par jeu de données. Toutes les autres demandes par lots avec le même jeu de données de sortie sont ajoutées à la file d’attente. Un traitement en file d’attente est sélectionné pour traitement une fois que le traitement précédent a fini son exécution.
 1. **[!UICONTROL Traitement]** : la demande de traitement est en cours de traitement.

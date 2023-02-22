@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: reprises, bounce, soft, optimizer, erreur
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
@@ -72,5 +72,5 @@ Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un 
 >
 >La période de reprise ne peut pas dépasser 84 heures. La période de reprise minimale est de 6 heures pour les e-mails marketing et de 10 minutes pour les e-mails transactionnels.
 
-Découvrez comment ajuster les paramètres de reprise d’e-mail lors de la création d’une surface de canal dans [cette section](channel-surfaces.md#create-channel-surface).
+Découvrez comment ajuster les paramètres de reprise d’e-mail lors de la création d’une surface de canal dans [cette section](../email/email-settings.md#email-retry).
 

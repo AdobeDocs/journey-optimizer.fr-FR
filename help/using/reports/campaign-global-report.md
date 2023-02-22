@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 100%
+source-wordcount: '1904'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +30,7 @@ La page **[!UICONTROL Rapport global]** de la campagne s&#39;affiche avec les on
 
 * [Campagne](#campaign-global)
 * [E-mail](#email-global)
+* [In-app](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
 
@@ -141,6 +142,37 @@ L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
++++
+
+## Onglet in-app {#inapp-global}
+
+>[!IMPORTANT]
+>
+>La fonctionnalité In-App est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
+
+Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux diffusions in-app envoyées dans votre campagne.
+
+![](assets/campaign_report_global_6.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
+
+Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+
+* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
+
+* **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs.
+
+* **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d’utilisateurs ayant vu le message.
+
+* **[!UICONTROL Taux d’ignorance]** : pourcentage de messages in-app ignorés par les destinataires.
+
+Le graphique du **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions in-app pour la période concernée.
+
+Le graphique et le tableau **[!UICONTROL Clics par bouton]** contiennent les données disponibles pour le comportement des destinataires par bouton :
+
+* **[!UICONTROL Clics]** : nombre total de destinataires ayant interagi avec les boutons inclus dans le message in-app.
+
+* **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d’utilisateurs ayant vu le message.
 +++
 
 ## Onglet Notification push {#push-global}

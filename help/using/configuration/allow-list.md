@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 100%
+source-wordcount: '1129'
+ht-degree: 96%
 
 ---
 
@@ -155,6 +155,34 @@ Pour renseigner la liste autorisée, vous pouvez également appeler l’API de s
 Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
 Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"}.
+
+## Téléchargement de la liste autorisée {#download-allowed-list}
+
+Pour exporter la liste autorisée au format CSV, procédez comme suit :
+
+1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. Patientez jusqu’à ce que le fichier soit généré.
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >Le temps de téléchargement dépend de la taille du fichier, c’est-à-dire du nombre d’adresses qui se trouvent sur la liste autorisée.
+   >
+   >Une seule demande de téléchargement peut être traitée à la fois pour une sandbox donnée.
+
+1. Une fois le fichier généré, vous recevez une notification. Cliquez sur l’icône représentant une cloche en haut à droite de l’écran pour l’afficher.
+
+1. Cliquez sur la notification elle-même pour télécharger le fichier.
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >Le lien est valide pendant 24 heures.
 
 ## Logique de liste autorisée {#logic}
 

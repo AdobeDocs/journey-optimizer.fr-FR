@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ Pour enregistrer une expression dans la bibliothèque, procédez comme suit :
 
 Pour modifier une expression existante, ajoutez-la à l’éditeur, puis modifiez-la selon vos besoins. Cliquez sur **[!UICONTROL Ajouter à la bibliothèque]** pour valider la syntaxe et enregistrer l’expression.
 
-Pour supprimer une expression, cliquez sur le bouton Ellipse, puis cliquez sur **[!UICONTROL Supprimer]**.
+Pour supprimer une expression, cliquez sur le bouton représentant des points de suspension, puis cliquez sur **[!UICONTROL Supprimer]**.
 
 ## Vidéo pratique{#video}
 
