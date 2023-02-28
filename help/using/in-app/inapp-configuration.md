@@ -6,7 +6,7 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 badge: label="Beta" type="Informatif"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 94%
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 # Configurer le canal in-app {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >La fonctionnalité In-App est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
 
@@ -25,7 +25,7 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
 
 1. Sélectionnez le service [!DNL Adobe Experience Platform].
 
-   [!DNL Edge Segmentation], [!DNL Offer Decisioning] et [!DNL Adobe Journey Optimizer] doivent être sélectionnés.
+   [!DNL Edge Segmentation] et [!DNL Adobe Journey Optimizer] doivent être sélectionnés.
 
    ![](assets/inapp_config_6.png)
 

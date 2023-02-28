@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, message, création, commencer
 badge: label="Beta" type="Informatif"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 97%
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 # Créer un message in-app {#create-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >La fonctionnalité In-App est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
 
