@@ -10,10 +10,11 @@ level: Intermediate
 keywords: parcours, balises
 hidefromtoc: true
 hide: true
-source-git-commit: 1a756b7277a6c01768f320745b81ef942c6f6b0f
+badge: label="Beta" type="Informatif"
+source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 6%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
@@ -21,25 +22,25 @@ ht-degree: 6%
 
 En tant que praticien de Journey Optimizer, vous pouvez organiser vos parcours à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin d’améliorer la recherche.
 
->[!CAUTION]
+>[!AVAILABILITY]
 >
 > Les balises unifiées sont actuellement en version bêta. La documentation et les fonctionnalités peuvent changer.
 
-## Remarques importantes
-
-* Les balises sont sensibles à la casse
-* Pour supprimer complètement une balise, vous devez la supprimer de tous les objets.
-* Si vous dupliquez ou créez une version d’un parcours, les balises sont conservées.
-
-## Ajout de balises lors de la création d’un parcours
+## Ajout de balises à un parcours
 
 Le **Balises** , dans les propriétés du parcours, vous permet de définir des balises pour votre parcours. Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste. S’il n’est pas disponible, cliquez sur **Créer** pour en créer un et l’ajouter à votre parcours. Vous pouvez définir autant de balises que nécessaire.
 
 ![](assets/tags1.png)
 
-La liste des balises définies s’affiche sous le champ . Vous pouvez les supprimer.
+La liste des balises définies s’affiche sous le **Balises** champ .
 
-## Modifier les balises et filtrer
+>[!NOTE]
+>
+> Les balises sont sensibles à la casse
+> 
+> Si vous dupliquez ou créez une version d’un parcours, les balises sont conservées.
+
+## Filtrage sur les balises
 
 La liste Parcours affiche une colonne dédiée afin que vous puissiez facilement visualiser vos balises.
 
@@ -51,6 +52,10 @@ Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcour
 
 ![](assets/tags3.png)
 
-## Gestion avancée
+## Gestion des balises
 
-Les administrateurs peuvent ajouter des balises et les organiser par catégories à l’aide du **Balises** sous **ADMINISTRATION**. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+Les administrateurs peuvent supprimer des balises et les organiser par catégories à l’aide du **Balises** sous **ADMINISTRATION**. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+
+>[!NOTE]
+>
+> Les balises définies dans parcours sont ajoutées à la catégorie &quot;Non catégorisée&quot; intégrée.
