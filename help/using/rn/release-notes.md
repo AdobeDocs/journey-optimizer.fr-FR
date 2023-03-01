@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
+source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 58%
+source-wordcount: '919'
+ht-degree: 61%
 
 ---
 
@@ -117,7 +117,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Parcours**
 
-* Le **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant qu’un profil puisse à nouveau entrer dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-gs.md#entrance).
+* Le **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant qu’un profil puisse à nouveau entrer dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-gs.md#entrance)
 
 * Des améliorations ont été apportées aux **Dates de début et de fin parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Pour **Lecture de segment** parcours, vous pouvez maintenant ajouter une date de fin. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. [En savoir plus](../building-journeys/journey-gs.md#dates)
 
@@ -137,17 +137,19 @@ Note that each widget can be resized and deleted as needed.
 
 **Administration**
 
-* **Liste autorisée** - Vous pouvez désormais télécharger la liste autorisée sous la forme d’un fichier .csv . [En savoir plus](../configuration/allow-list.md#download-allowed-list).
+* **Liste autorisée** - Vous pouvez désormais télécharger la liste autorisée sous la forme d’un fichier .csv . [En savoir plus](../configuration/allow-list.md#download-allowed-list)
 
-* **Surface des emails** - Une vérification supplémentaire a été ajoutée aux paramètres de surface de l&#39;email : si l’enregistrement MX pour le sous-domaine utilisé dans la variable **Répondre à (email)** ou dans la variable **Adresse email en Cci** n’est pas correctement configuré, la surface de l’email ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#reply-to-email).
+* **Surface des emails** - Une vérification supplémentaire a été ajoutée aux paramètres de surface de l&#39;email : si l’enregistrement MX pour le sous-domaine utilisé dans la variable **Répondre à (email)** ou dans la variable **Adresse email en Cci** n’est pas correctement configuré, la surface de l’email ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#reply-to-email)
 
 * **Surface des emails** - Dans le **Paramètres de suivi des URL** des paramètres de surface de l’email, la limite pour chaque **Valeur** a été mis à jour de 255 caractères à 5 Ko pour des raisons de compatibilité avec le suivi Adobe Analytics. [En savoir plus](../email/email-settings.md#url-tracking)
 
 **Gestion des décisions**
 
-* **Emplacements** - Des paramètres supplémentaires ont été ajoutés à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et de spécifier si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse de l’API. [En savoir plus](../offers/offer-library/creating-placements.md).
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
-* **Personnalisation des URL** - Lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md).
+* **Personnalisation des URL** - Lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
