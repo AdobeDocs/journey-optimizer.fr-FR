@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 49%
 
 ---
 
@@ -46,6 +46,22 @@ Pour créer une emplacement, procédez comme suit :
    * **[!UICONTROL Description]** : description de l&#39;emplacement (facultatif).
 
    ![](../assets/offers_placement_creation_properties.png)
+
+
+1. Le **[!UICONTROL Paramètres de requête]** et **[!UICONTROL Format de réponse]** Les sections fournissent des paramètres supplémentaires :
+
+   * **[!UICONTROL Autoriser les doublons entre emplacements]**: Permet de déterminer si une même offre peut être proposée plusieurs fois à différents emplacements. Si cette option est activée, le système considère la même offre pour plusieurs emplacements.
+
+      Si cette option est définie sur false pour tout emplacement dans une requête de prise de décision, tous les emplacements de la requête hériteront du paramètre &quot;false&quot;.
+
+   * **[!UICONTROL Demande d’offre]**: Par défaut, une offre de la portée de la décision est renvoyée pour chaque profil. Vous pouvez ajuster le nombre d’offres renvoyées à l’aide de cette option. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour la portée de décision sélectionnée.
+
+   * **[!UICONTROL Inclure le contenu]** / **[!UICONTROL Inclure les métadonnées]**: spécifiez si le contenu et les métadonnées de l’offre doivent être renvoyés dans la réponse de l’API. Vous ne pouvez inclure que toutes les métadonnées ou des champs spécifiques.
+   Ces paramètres peuvent également être définis directement dans votre requête d’API si vous travaillez avec la variable [API de prise de décision](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Toutefois, leur configuration dans l’interface utilisateur peut vous aider à gagner du temps, car vous n’aurez pas à les transmettre dans chaque requête d’API. Notez que si vous configurez les paramètres à la fois dans l’interface utilisateur et dans la requête API, les valeurs de la requête API prévaudront sur celles de l’interface.
+
+   >[!NOTE]
+   >
+   >Si vous travaillez avec la variable [API de prise de décision Edge](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), vous ne pouvez pas définir ces paramètres dans votre requête. Vous devez les définir dans cet écran. Si vous travaillez avec la variable [API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), vous devez inclure ces paramètres directement dans votre requête d’API, car les paramètres définis dans cet écran ne sont pas pris en compte pour l’envoi de diffusions par lots.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 
