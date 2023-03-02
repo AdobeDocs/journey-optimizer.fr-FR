@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 98%
+source-wordcount: '1735'
+ht-degree: 97%
 
 ---
 
@@ -143,6 +143,11 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 >id="ajo_decisioning_frequency_capping"
 >title="Définir la fréquence de limitation"
 >abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois."
+
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=&quot;L’utilisation des impressions comme événements de limitation n’est disponible que pour les canaux entrants.&quot;
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 
