@@ -10,9 +10,9 @@ level: Intermediate
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -156,9 +156,9 @@ Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
 Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"}.
 
-## Téléchargement de la liste autorisée {#download-allowed-list}
+## Télécharger la liste autorisée {#download-allowed-list}
 
-Pour exporter la liste autorisée au format CSV, procédez comme suit :
+Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous :
 
 1. Sélectionnez le bouton **[!UICONTROL Téléchargement le CSV]**.
 
