@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Cet onglet répertorie toutes les audiences stockées dans Adobe Experience Pl
 
 La colonne **[!UICONTROL Nombre de profils]** fournit des informations sur le nombre de profils inclus dans une audience. Cliquez sur le bouton « i » pour plus d’informations sur la date de calcul de cette information.
 
-Pour attribuer des libellés d’utilisation des données personnalisés ou de base à une audience, cliquez sur le bouton représentant des points de suspension, puis sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
+Pour attribuer des libellés d’utilisation des données personnalisées ou de base à une audience, cliquez sur le bouton représentant des points de suspension, puis sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?
