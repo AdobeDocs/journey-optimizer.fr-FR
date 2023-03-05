@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -322,19 +322,19 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
   <tr> 
    <td>Taux de clics<br/> </td> 
-   <td>Pourcentage d'utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d'utilisateurs ayant vu le message.<br/> </td> 
+   <td>Pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d’utilisateurs et d’utilisatrices ayant vu le message.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Taux d'abandon<br/> </td> 
-   <td> Pourcentage de messages In-App ignorés par les destinataires.<br/> </td> 
+   <td>Taux d’ignorance<br/> </td> 
+   <td> Pourcentage de messages in-app ignorés par les destinataires.<br/> </td> 
 </tr> 
   <tr> 
    <td>Impressions<br/> </td> 
-   <td> Nombre total de messages In-App délivrés à tous les utilisateurs.<br/> </td>
+   <td> Nombre total de messages in-app diffusés à tous les utilisateurs et utilisatrices.<br/> </td>
 </tr>
   <tr> 
    <td>Impressions uniques<br/> </td> 
-   <td>Nombre d’utilisateurs uniques auxquels le message in-app a été délivré.<br/> </td>
+   <td>Nombre d’utilisateurs et d’utilisatrices uniques auxquels le message in-app a été diffusé.<br/> </td>
 </tr>
  </tbody> 
 </table>
