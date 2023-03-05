@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du con
 
 >[!NOTE]
 >
-> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
+> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
 
 1. Choisissez l’option **[!UICONTROL Bibliothèque de ressources]**.
 
@@ -88,9 +88,9 @@ Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du con
 
 ### Ajout de fichiers HTML ou JSON {#html-json}
 
-Si l’emplacement sélectionné est de type HTML, vous pouvez également ajouter du contenu JSON ou HTML provenant de la [bibliothèque de ressources Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}).
+Si l’emplacement sélectionné est de type HTML, vous pouvez également ajouter du contenu JSON ou HTML provenant de la [bibliothèque de ressources Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}).
 
-Par exemple, vous avez créé un modèle de courrier électronique par HTML dans [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=fr){target="_blank"} et vous souhaitez utiliser ce fichier pour le contenu de votre offre. Au lieu de créer un nouveau fichier, vous pouvez simplement charger le modèle dans la **Bibliothèque de ressources** pour pouvoir le réutiliser dans les représentations de votre offre.
+Par exemple, vous avez créé un modèle d’e-mail HTML dans [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=fr){target="_blank"} et vous souhaitez utiliser ce fichier pour le contenu de votre offre. Au lieu de créer un nouveau fichier, vous pouvez simplement charger le modèle dans la **Bibliothèque de ressources** pour pouvoir le réutiliser dans les représentations de votre offre.
 
 Pour réutiliser votre contenu dans une représentation, accédez à la **Bibliothèque de ressources** comme décrit dans [cette section](#images) et sélectionnez le fichier HTML ou JSON de votre choix.
 
@@ -100,17 +100,17 @@ Pour réutiliser votre contenu dans une représentation, accédez à la **Biblio
 
 Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectionnez **[!UICONTROL URL]**, puis saisissez l&#39;adresse URL du contenu à ajouter.
 
-Vous pouvez personnaliser des URL à l’aide de l’éditeur d’expression. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
+Vous pouvez personnaliser vos URL à l’aide de l’éditeur d’expression. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
-Par exemple, vous souhaitez personnaliser l’image qui s’affiche sous forme d’offre. Vous voulez que les utilisateurs qui préfèrent les vacances en ville voient la silhouette de la NYC et les utilisateurs qui préfèrent les vacances à la plage voient la rive nord d&#39;Hawaii.
+Par exemple, vous souhaitez personnaliser l’image qui s’affiche sous forme d’offre. Vous voulez que les utilisateurs et utilisatrices qui préfèrent les vacances en ville voient la skyline de New York et les utilisateurs et utilisatrices qui préfèrent les vacances à la plage voient la rive nord d’Hawaii.
 
-Utilisez l’éditeur d’expression pour récupérer les attributs de profil stockés dans Adobe Experience Platform à l’aide de schémas d’union. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}.
+Utilisez l’éditeur d’expression pour récupérer les attributs de profil stockés dans Adobe Experience Platform à l’aide de schémas d’union. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=fr){target="_blank"}.
 
 ![](../assets/offer-content-url-personalization.png)
 
-Si vous spécifiez une **[!UICONTROL Lien de destination]**, vous pouvez également personnaliser l’URL vers laquelle seront dirigés les utilisateurs qui cliquent sur l’offre.
+Si vous indiquez un **[!UICONTROL lien de destination]**, vous pouvez également personnaliser l’URL vers laquelle seront dirigés les utilisateurs et utilisatrices qui cliquent sur l’offre.
 
 ### Ajout de texte personnalisé {#custom-text}
 
