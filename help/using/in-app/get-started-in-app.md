@@ -6,12 +6,12 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, création, commencer
-badge: label="Beta" type="Informatif"
+badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 60%
 
 >[!AVAILABILITY]
 >
->La fonctionnalité In-App est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
+>La fonctionnalité in-app est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
 
-Les messages in-app sont des notifications qui peuvent être envoyées aux utilisateurs dans votre application, les guidant vers des points ciblés spécifiques. Ces notifications peuvent être utilisées à différentes fins, par exemple pour promouvoir de nouvelles fonctionnalités, présenter des offres spéciales ou faciliter l’intégration des utilisateurs. En exploitant les messages In-App, vous pouvez interagir efficacement avec votre audience et l’orienter vers des aspects importants de votre application.
+Les messages in-app sont des notifications qui peuvent être envoyées aux utilisateurs et utilisatrices dans votre application, les guidant vers des points ciblés spécifiques. Ces notifications peuvent être utilisées à différentes fins, par exemple pour promouvoir de nouvelles fonctionnalités, présenter des offres spéciales ou faciliter l’intégration des utilisateurs et utilisatrices. En utilisant les messages in-app, vous pouvez interagir efficacement avec votre audience et l’orienter vers des aspects importants de votre application.
 
 Utilisez Journey Optimizer pour créer des notifications in-app et configurer des options d’expérience, notamment la disposition et l’affichage du message, le texte et les options de bouton.
 
