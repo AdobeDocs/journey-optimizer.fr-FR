@@ -10,9 +10,9 @@ level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1652'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -151,13 +151,13 @@ Pour assurer une bonne gestion des réponses, procédez comme suit :
 
 * Ne marquez pas les messages comme spam dans la boîte de réception de réponse, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
 
-En outre, lors de la définition de la variable **[!UICONTROL Répondre à (email)]** , veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de surface des emails échouera.
+En outre, lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de surface d’e-mail échouera.
 
-Si vous obtenez une erreur lors de l’envoi de la surface de l’email, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
+Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
 >[!NOTE]
 >
->Si le sous-domaine de l’adresse que vous avez saisie est un domaine qui a été [entièrement délégué](../configuration/delegate-subdomain.md#full-subdomain-delegation) pour Adobe, contactez votre chargé de compte d’Adobe.
+>Si le sous-domaine de l’adresse que vous avez saisie est un domaine qui a été [entièrement délégué](../configuration/delegate-subdomain.md#full-subdomain-delegation) à Adobe, contactez votre gestionnaire de compte Adobe.
 
 ### Transférer un e-mail {#forward-email}
 
@@ -182,9 +182,9 @@ Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** au niveau 
 
 ![](assets/preset-bcc.png)
 
-En outre, lors de la définition de la variable **[!UICONTROL Email Cci]** , veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de surface des emails échouera.
+En outre, lors de la définition de l’adresse **[!UICONTROL E-mail en Cci]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de surface d’e-mail échouera.
 
-Si vous obtenez une erreur lors de l’envoi de la surface de l’email, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
+Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
 ## Paramètres de reprise de lʼe-mail {#email-retry}
 
@@ -249,7 +249,7 @@ Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide
 
 >[!NOTE]
 >
->Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur d’expression. Chaque **[!UICONTROL Valeur]** peut contenir un certain nombre de caractères jusqu’à une limite de 5 Ko.
+>Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur d’expression. Chaque champ **[!UICONTROL Valeur]** peut contenir un certain nombre de caractères jusqu’à une limite de 5 Ko.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
