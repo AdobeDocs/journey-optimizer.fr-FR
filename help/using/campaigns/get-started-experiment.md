@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Pour obtenir de véritables insights d’entreprise, vous devez vous en tenir à
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="Widget de résumé"
+>title="Widget Résumé"
 >abstract="Le widget Résumé fournit un aperçu des résultats de votre expérience, y compris s’ils sont concluants ou non. Il offre un moyen rapide et facile de comprendre le résultat de votre expérience."
 
 ![](assets/experimentation_report_3.png)
