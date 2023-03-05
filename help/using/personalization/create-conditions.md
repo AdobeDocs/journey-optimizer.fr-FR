@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Si vous réutilisez fréquemment des règles de condition, vous pouvez les enreg
 
 ## Modifier et supprimer des règles conditionnelles enregistrées {#edit-delete}
 
-Vous pouvez supprimer une règle conditionnelle à tout moment à l’aide du bouton représentant des points de suspension.
+Vous pouvez supprimer une règle conditionnelle à tout moment à l’aide du bouton représentant les points de suspension.
 
 ![](assets/conditions-open.png)
 
