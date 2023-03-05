@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Pour découvrir comment vous abonner à des alertes et les configurer, reportez-
 
 >[!AVAILABILITY]
 >
->Certaines modifications de conception sont en cours pour l’alerte &quot;Échec de la lecture du déclenchement du segment&quot;. Par conséquent, cette alerte est suspendue pour l’instant et a été temporairement supprimée de l’interface utilisateur. Une fois ces modifications publiées, l’alerte est de nouveau affichée et vous pouvez vous y abonner.
+>Certaines modifications de conception sont en cours pour l’alerte « Échec du déclenchement de la lecture de segment ». Par conséquent, cette alerte est suspendue pour l’instant et a été temporairement supprimée de l’IU. Une fois ces modifications publiées, l’alerte sera de nouveau disponible et vous pourrez vous y abonner.
 
 Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**.
 
@@ -34,7 +34,7 @@ Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**.
 
 ![](assets/alerts1.png)-->
 
-Si un comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés de l’alerte par courrier électronique, dans le coin supérieur droit de l’interface.
+Si un comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés de l’alerte par e-mail, dans le coin supérieur droit de l’interface.
 
 <!--![](assets/alerts2.png)-->
 
