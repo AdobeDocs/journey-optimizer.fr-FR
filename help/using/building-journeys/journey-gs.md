@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
-Lorsque la variable **Autoriser une rentrée** est activée, l’option **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant qu’un profil puisse à nouveau entrer dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes.
+Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires (en commençant par un événement ou une qualification de segment). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes.
 
 Pour en savoir plus sur la gestion des entrées de profil, consultez [cette section](entry-management.md).
 
@@ -118,9 +118,9 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 ### Dates de début et de fin {#dates}
 
-Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié un, il sera automatiquement défini au moment de la publication.
+Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si vous ne spécifiez pas de date de fin, les profils peuvent rester jusqu’au délai d’expiration par défaut du parcours (généralement 30 jours, 7 jours avec l’offre de module complémentaire Healthcare Shield). La seule exception concerne les parcours de segment de lecture récurrente avec **Forcer une nouvelle entrée lors de la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
+Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si vous ne spécifiez pas de date de fin, les profils peuvent rester jusqu’au délai d’expiration par défaut du parcours (généralement 30 jours, 7 jours avec l’offre de module complémentaire Healthcare Shield). La seule exception concerne les parcours de segment de lecture récurrente avec l’option **Forcer une reprise sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 

@@ -9,11 +9,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informatif"
+badge: label="Beta" type="Informative"
 source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ Avant de commencer à utiliser cette fonctionnalité, assurez-vous d’être en 
 
 * **Autorisations**
 
-   Pour créer, modifier et supprimer des modèles de contenu dans Adobe Journey Optimizer, vous devez disposer de la variable **[!DNL Manage Library Items]** autorisation incluse dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
+   Pour créer, modifier et supprimer des modèles de contenu dans Adobe Journey Optimizer, vous devez disposer de la variable **[!DNL Manage Library Items]** autorisation incluse dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
 
 ## Mécanismes de sécurisation et limitations{#aem-templates-limitations}
@@ -61,7 +61,7 @@ Pour exporter un modèle Adobe Experience Manager vers Adobe Journey Optimizer, 
 
 1. Accédez à votre bibliothèque de contenu et sélectionnez le modèle à exporter vers Journey Optimizer.
 
-   Vous pouvez également créer une page entièrement nouvelle. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+   Vous pouvez également créer une page entièrement nouvelle. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page).
 
    ![](assets/aem-send-template.png)
 
@@ -91,7 +91,7 @@ Une fois que le modèle de Experience Manager est disponible dans Journey Optimi
 
 1. Dans le **[!UICONTROL Propriétés du modèle]** , cliquez sur la fenêtre **[!UICONTROL Gérer l’accès]** pour attribuer des libellés d’utilisation des données principales ou personnalisées à votre modèle. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
-1. Pour personnaliser davantage votre modèle d’AEM et ajouter une personnalisation personnalisée à votre contenu, cliquez sur **[!UICONTROL Modifier le contenu]**. Vous pourrez ainsi apporter facilement des modifications et adapter le modèle à vos besoins. [En savoir plus](get-started-email-design.md)
+1. Pour personnaliser davantage votre modèle d’AEM et ajouter une personnalisation personnalisée à votre contenu, cliquez sur **[!UICONTROL Modifier le contenu]**. Vous pourrez ainsi apporter facilement des modifications et adapter le modèle à vos besoins. [En savoir plus](get-started-email-design.md).
 
    >[!NOTE]
    >

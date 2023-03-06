@@ -10,11 +10,11 @@ level: Intermediate
 keywords: parcours, balises
 hidefromtoc: true
 hide: true
-badge: label="Beta" type="Informatif"
+badge: label="Beta" type="Informative"
 source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 

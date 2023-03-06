@@ -417,7 +417,7 @@ ht-degree: 99%
    + [Requêtes](using/data/get-started-queries.md)
    + Jeux de données Journey Optimizer {#datasets}
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
-      + [Exportation de jeux de données Journey Optimizer](using/data/export-datasets.md)
+      + [Exporter des jeux de données Journey Optimizer](using/data/export-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)

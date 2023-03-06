@@ -5,7 +5,7 @@ title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2330'
 ht-degree: 100%
 
