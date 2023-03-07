@@ -44,7 +44,7 @@ ht-degree: 99%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Gestion des entrées de profil](using/building-journeys/entry-management.md)
-      + [Copier un parcours dans une autre sandbox](using/building-journeys/copy-to-sandbox.md)
+      + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
       + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
       + [Gestion des balises dans les parcours](using/building-journeys/tags.md)
@@ -462,7 +462,7 @@ ht-degree: 99%
    + [Profils de produit intégrés](using/administration/ootb-product-profiles.md)
    + [Gestion des utilisateurs et des profils de produits](using/administration/permissions.md)
    + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
-   + [Gestion des environnements Sandbox](using/administration/sandboxes.md)
+   + [Gestion des sandbox](using/administration/sandboxes.md)
    + [Contrôle d’accès basé sur attribut](using/administration/attribute-based-access.md)
    + [Contrôle d’accès au niveau de l’objet](using/administration/object-based-access.md)
 + Confidentialité {#privacy}
