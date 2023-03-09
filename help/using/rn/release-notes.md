@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
+
+
+## Améliorations de mars 2023 {#march-2023}
+
+**Gestion des balises dans vos Parcours**
+
+En tant que praticien de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises . Les balises constituent un moyen simple et rapide de classer des objets afin d’améliorer la recherche. Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les Parcours. [En savoir plus](../building-journeys/tags.md).
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 
