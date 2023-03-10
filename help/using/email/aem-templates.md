@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
-source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
+source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '772'
 ht-degree: 6%
 
 ---
@@ -40,12 +40,11 @@ Avant de commencer à utiliser cette fonctionnalité, assurez-vous d’être en 
 
    Pour créer, modifier et supprimer des modèles de contenu dans Adobe Journey Optimizer, vous devez disposer de la variable **[!DNL Manage Library Items]** autorisation incluse dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
-
 ## Mécanismes de sécurisation et limitations{#aem-templates-limitations}
 
 Pour optimiser davantage votre utilisation d’Adobe Experience Manager avec Adobe Journey Optimizer, il est important de connaître les barrières de sécurité et les limitations supplémentaires suivantes :
 
-* Le modèle de Experience Manager ne doit pas contenir de personnalisation. La personnalisation ne doit être effectuée que dans Journey Optimizer.
+* Pour que la personnalisation dans le modèle de Experience Manager soit effective, une syntaxe Journey Optimizer appropriée est requise. [En savoir plus](../personalization/personalization-syntax.md).
 
 * L’exportation de modèles en bloc n’est actuellement pas prise en charge, les modèles doivent être exportés unitairement.
 
@@ -59,13 +58,13 @@ Pour exporter un modèle Adobe Experience Manager vers Adobe Journey Optimizer, 
 
    ![](assets/aem-outbound-menu.png)
 
-1. Accédez à votre bibliothèque de contenu et sélectionnez le modèle à exporter vers Journey Optimizer.
+1. Dans votre bibliothèque de contenu, vous pouvez utiliser des modèles configurés précédemment ou en créer un de A à Z. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page).
 
-   Vous pouvez également créer une page entièrement nouvelle. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page).
+1. En incorporant la syntaxe de personnalisation Journey Optimizer dans votre modèle, vous pouvez améliorer ses capacités de personnalisation. [En savoir plus](../personalization/personalization-syntax.md).
 
-   ![](assets/aem-send-template.png)
+   ![](assets/aem_ajo_4.png)
 
-1. Après avoir sélectionné le modèle, sélectionnez **[!UICONTROL Envoyer à]** dans le menu avancé.
+1. Sélectionnez le modèle à exporter vers Journey Optimizer, puis cliquez sur **[!UICONTROL Envoyer à]** dans le menu avancé.
 
    ![](assets/aem-advanced-menu.png)
 
@@ -91,7 +90,7 @@ Une fois que le modèle de Experience Manager est disponible dans Journey Optimi
 
 1. Dans le **[!UICONTROL Propriétés du modèle]** , cliquez sur la fenêtre **[!UICONTROL Gérer l’accès]** pour attribuer des libellés d’utilisation des données principales ou personnalisées à votre modèle. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
-1. Pour personnaliser davantage votre modèle d’AEM et ajouter une personnalisation personnalisée à votre contenu, cliquez sur **[!UICONTROL Modifier le contenu]**. Vous pourrez ainsi apporter facilement des modifications et adapter le modèle à vos besoins. [En savoir plus](get-started-email-design.md).
+1. Pour personnaliser davantage votre modèle de Experience Manager et ajouter une personnalisation personnalisée à votre contenu, cliquez sur **[!UICONTROL Modifier le contenu]**. Vous pourrez ainsi apporter facilement des modifications et adapter le modèle à vos besoins. [En savoir plus](get-started-email-design.md).
 
    >[!NOTE]
    >
@@ -101,8 +100,22 @@ Une fois que le modèle de Experience Manager est disponible dans Journey Optimi
 
 1. Une fois votre contenu défini, vous pouvez l’utiliser lors de la création d’un email en naviguant sur la page **[!UICONTROL Modèles enregistrés]** collection. Sélectionnez ensuite **[!UICONTROL Utiliser ce modèle]**.
 
-   Découvrez comment modifier et personnaliser le contenu d’un email dans [cette section](content-from-scratch.md).
-
    ![](assets/aem_ajo_3.png)
+
+1. Vous pouvez maintenant modifier et personnaliser votre contenu. Pour plus d&#39;informations sur la création de votre contenu d&#39;email, reportez-vous à cette section [page](content-from-scratch.md).
+
+   ![](assets/aem_ajo_5.png)
+
+1. Si vous avez ajouté du contenu personnalisé à votre modèle de Experience Manager, cliquez sur **[!UICONTROL Simulation du contenu]** pour prévisualiser l’affichage du message à l’aide de profils de test.
+
+[En savoir plus sur l’aperçu et les profils de test](../email/preview.md)
+
+   ![](assets/aem_ajo_6.png)
+
+1. Lors de l&#39;affichage de l&#39;aperçu du message, tout élément personnalisé est automatiquement remplacé par les données correspondantes du profil de test sélectionné.
+
+   Au besoin, des profils de test supplémentaires peuvent être ajoutés au moyen de la **[!UICONTROL Gestion des profils de test]** bouton .
+
+   ![](assets/aem_ajo_7.png)
 
 Une fois votre e-mail prêt, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) et activez-le pour envoyer le message.
