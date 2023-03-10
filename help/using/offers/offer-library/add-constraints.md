@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 97%
+source-wordcount: '2197'
+ht-degree: 77%
 
 ---
 
@@ -57,7 +57,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 
 * L’offre sera prise en compte uniquement pour les utilisateurs qui correspondent à la règle de décision « Clients fidèles Gold ».
 * La priorité de l’offre est définie sur « 50 », ce qui signifie que l’offre sera présentée avant les offres dont la priorité est comprise entre 1 et 49, et après celles dont la priorité est d’au moins 51.
-* L’offre ne sera présentée qu’une seule fois par utilisateur à tous les emplacements.
+* L’offre ne sera présentée qu’une seule fois par mois par utilisateur à tous les emplacements.
 
 ## Admissibilité {#eligibility}
 
@@ -138,63 +138,37 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
 >abstract="Pour éviter de sursolliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="La modification des dates peut avoir un impact sur la limitation."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Définir la fréquence de limitation"
->abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois."
+>abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. Notez qu’après avoir enregistré votre offre, vous ne pourrez pas modifier la fréquence sélectionnée."
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="L’utilisation des impressions comme événements de limitation n’est disponible que pour les canaux entrants."
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=&quot;L’utilisation des impressions comme événements de limitation n’est disponible que pour les canaux entrants.&quot;
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 
 Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clients et donc d’optimiser chaque point de contact avec la meilleure offre.
 
-Pour définir la limitation, procédez comme suit.
+Pour définir la limitation, suivez les étapes principales ci-dessous.
 
-1. Définissez le nombre de fois où l’offre peut être présentée.
+1. Assurez-vous que la variable **[!UICONTROL Inclure la limitation]** bouton bascule est sélectionné. La limitation est incluse par défaut.
 
-   ![](../assets/offer-capping-times.png)
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Le nombre doit être un entier supérieur à 0.
+   >Il n’est pas possible d’activer ou de désactiver la limitation de fréquence pour les offres créées précédemment. Pour cela, vous devez dupliquer l&#39;offre ou en créer une nouvelle.
 
-1. Indiquez si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un profil spécifique :
+1. Définissez la variable **[!UICONTROL Événement de limitation]** sera pris en compte pour augmenter le compteur. [En savoir plus](#capping-event).
 
-   ![](../assets/offer-capping-total.png)
+1. Définissez le nombre de fois où l’offre peut être présentée. [En savoir plus](#capping-type).
 
-   * Sélectionnez **[!UICONTROL Au total]** pour définir le nombre de fois où une offre peut être proposée dans l’audience cible combinée, ce qui signifie pour tous les utilisateurs.
+1. Définissez la variable **[!UICONTROL Fréquence]** pour définir la fréquence à laquelle le nombre de limitations est réinitialisé. [En savoir plus](#frequency-capping).
 
-      Par exemple, si vous êtes un détaillant d’électronique qui a conclu un « contrat télévisuel d’offre d’ouverture » vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
-
-   * Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où une offre peut être proposée au même utilisateur.
-
-      Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
-   <!--
-    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
-    ![](../assets/offer-capping-frequency.png)
-    >[!NOTE]
-    >
-    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
-    
-    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
-    -->
-
-1. Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation. **[!UICONTROL À tous les emplacements]** ou **[!UICONTROL Pour chaque emplacement]**.
-
-   ![](../assets/offer-capping-placement.png)
-
-   * **[!UICONTROL À tous les emplacements]** : le nombre de limitations va totaliser toutes les décisions parmi les emplacements associés à l’offre.
-
-      Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil à tous les emplacements**, chaque profil peut alors recevoir l’offre jusqu’à 2 fois au total, quelle que soit la combinaison d’emplacements.
-
-   * **[!UICONTROL Pour chaque emplacement]** : les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
-
-      Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’e-mail, et 2 fois supplémentaires pour l’emplacement web.
+1. Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation. **[!UICONTROL À tous les emplacements]** ou **[!UICONTROL Pour chaque emplacement]**. [En savoir plus](#placements).
 
 1. Une fois enregistrée et validée, si l’offre a été présentée le nombre de fois que vous avez spécifiées dans ce champ en fonction des critères et du délai que vous avez définis, sa diffusion s’arrêtera.
 
@@ -205,6 +179,86 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 >[!NOTE]
 >
 >Les compteurs de limitation seront réinitialisés à l’expiration de l’offre ou 2 ans après la date de début de l’offre, le premier événement prévalant. Découvrez comment définir la date d’une offre dans [cette section](creating-personalized-offers.md#create-offer).
+
+### Événement de limitation {#capping-event}
+
+Le **[!UICONTROL Événement de limitation]** vous permet de définir laquelle **[!UICONTROL Événement de limitation]** sera pris en compte pour augmenter le compteur :
+
+* **[!UICONTROL Événement de décision]** (valeur par défaut) : Nombre maximal de fois où une offre peut être présentée.
+* **[!UICONTROL Impression]**: Nombre maximal de fois où l’offre peut être affichée pour un utilisateur.
+
+   >[!NOTE]
+   >
+   >L’utilisation des impressions comme événements de limitation est disponible pour **canaux entrants** uniquement.
+
+* **[!UICONTROL Clics]**: Nombre maximal de clics sur l’offre par un utilisateur.
+* **[!UICONTROL Événement personnalisé]**: vous pouvez définir un événement personnalisé qui sera utilisé pour limiter le nombre d’offres envoyées. Par exemple, vous pouvez plafonner le nombre de rachats jusqu’à ce qu’un profil donné ait consommé 1 fois. Pour ce faire, utilisez [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} schémas pour créer une règle d’événement personnalisée.
+
+   ![](../assets/offer-capping-event.png)
+
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+
+   <!--![](../assets/offer-capping-custom-event.png)-->
+
+   >[!CAUTION]
+   >
+   >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires de la gestion de la décision peuvent ne pas être collectés automatiquement. Assurez-vous donc que les données entrent. [En savoir plus sur la collecte de données](../data-collection/data-collection.md)
+
+### Type de limitation {#capping-type}
+
+Le **[!UICONTROL Type de limitation]** vous permet de spécifier le nombre de fois où l’offre peut être présentée.
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>Le nombre doit être un entier supérieur à 0.
+
+<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+
+<!--![](../assets/offer-capping-custom-example.png)-->
+
+Vous pouvez également spécifier si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un profil spécifique :
+
+![](../assets/offer-capping-total.png)
+
+* Sélectionnez **[!UICONTROL Au total]** pour définir le nombre de fois où une offre peut être proposée dans l’audience cible combinée, ce qui signifie pour tous les utilisateurs.
+
+   Par exemple, si vous êtes un détaillant d’électronique qui a conclu un « contrat télévisuel d’offre d’ouverture » vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
+
+* Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où une offre peut être proposée au même utilisateur.
+
+   Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
+
+### Capping de la fréquence {#frequency-capping}
+
+Le **[!UICONTROL Fréquence]** vous permet de définir la fréquence à laquelle le nombre de limitations est réinitialisé. Pour cela, définissez la période du comptage (quotidien, hebdomadaire ou mensuel) et saisissez le nombre de jours/semaines/mois de votre choix.
+
+![](../assets/offer-capping-frequency.png)
+
+>[!NOTE]
+>
+>La réinitialisation se produit à 12h00 UTC, le jour que vous avez défini ou le premier jour de la semaine/du mois, le cas échéant. Le jour de début de semaine est le dimanche. Toute durée choisie ne peut pas excéder 2 ans (soit le nombre correspondant de mois, de semaines ou de jours).
+
+Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** de la **[!UICONTROL Répéter]** liste déroulante et type **2** dans l’autre champ. La réinitialisation aura lieu tous les deux dimanches à 12h00 UTC.
+
+>[!CAUTION]
+>
+>Après avoir enregistré votre offre, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence.
+
+### Limitation et emplacements {#placements}
+
+Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation. **[!UICONTROL À tous les emplacements]** ou **[!UICONTROL Pour chaque emplacement]**.
+
+![](../assets/offer-capping-placement.png)
+
+* **[!UICONTROL À tous les emplacements]** : le nombre de limitations va totaliser toutes les décisions parmi les emplacements associés à l’offre.
+
+   Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil à tous les emplacements**, chaque profil peut alors recevoir l’offre jusqu’à 2 fois au total, quelle que soit la combinaison d’emplacements.
+
+* **[!UICONTROL Pour chaque emplacement]** : les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
+
+   Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’e-mail, et 2 fois supplémentaires pour l’emplacement web.
 
 ### Impact de la modification des dates sur la limitation {#capping-change-date}
 

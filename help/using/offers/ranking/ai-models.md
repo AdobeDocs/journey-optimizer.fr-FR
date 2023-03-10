@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
 
 Les principales étapes pour créer et utiliser des modèles d’IA sont les suivantes :
 
-1. Créez un jeu de données dans lequel les événements de conversion et d’impression seront collectés. [En savoir plus](create-dataset.md)
+1. Créez un jeu de données dans lequel les événements de conversion et d’impression seront collectés. [En savoir plus](../data-collection/create-dataset.md)
 1. Créez un modèle d’IA qui exploite les événements du jeu de données pour classer les offres. [En savoir plus](create-ranking-strategies.md)
-1. Configurez votre schéma d’offre pour capturer automatiquement les événements. [En savoir plus](schema-requirement.md)
+1. Configurez votre schéma d’offre pour capturer automatiquement les événements. [En savoir plus](../data-collection/schema-requirement.md)
 1. Affectez le modèle d’IA à un emplacement dans une décision de classement des offres éligibles. [En savoir plus](../offer-activities/configure-offer-selection.md)

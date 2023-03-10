@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 88%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 ## Créer un modèle d’IA {#create-ranking-strategy}
 
 Pour créer un modèle d’IA, procédez comme suit :
+
+1. Créez un jeu de données dans lequel les événements de conversion seront collectés. [Voici comment procéder.](../data-collection/create-dataset.md)
 
 1. Dans le menu **[!UICONTROL Composants]**, accédez à l’onglet **[!UICONTROL Classement]**, puis sélectionnez **[!UICONTROL Modèles d’IA]**.
 
@@ -48,10 +50,11 @@ Pour créer un modèle d’IA, procédez comme suit :
    >Offres de classement de [!DNL Journey Optimizer] en fonction du **taux de conversion** (Taux de conversion = Nombre total d’événements de conversion/Nombre total d’événements d’impression). Le taux de conversion est calculé à l’aide de deux types de mesures :
    >* Les **événements d’impression** (les offres qui sont affichées).
    >* Les **événements de conversion** (les offres qui génèrent des clics par e-mail ou sur le Web).
+
    >
    >Ces événements sont automatiquement capturés à l’aide du SDK Web ou du SDK Mobile fourni. Pour en savoir plus à ce sujet, consultez la [présentation du SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr).
 
-1. Sélectionnez le ou les jeux de données dans lesquels les événements de conversion et d’impression sont collectés. Découvrez comment créer un jeu de données dans [cette section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. Sélectionnez le ou les jeux de données dans lesquels les événements de conversion et d’impression sont collectés. Découvrez comment créer un jeu de données dans [cette section](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../assets/ai-ranking-dataset-id.png)
 
@@ -70,3 +73,13 @@ Pour créer un modèle d’IA, procédez comme suit :
 1. Enregistrez et activez le modèle d’IA.
 
    ![](../assets/ai-ranking-save-activate.png)
+
+<!--At this point, you must have:
+
+* created the AI model,
+* defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
+* and in which dataset you want to collect the event data.-->
+
+Désormais, chaque fois qu’une offre est affichée et/ou que vous cliquez dessus, vous souhaitez que l’événement correspondant soit automatiquement capturé par la variable **[!UICONTROL Événement d’expérience - Interactions de propositions]** groupe de champs à l’aide de [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou SDK Mobile.
+
+Pour envoyer des types d’événement (offre affichée ou offre ayant fait l’objet d’un clic), vous devez définir la valeur correcte pour chaque type d’événement dans un événement d’expérience qui est envoyé dans Adobe Experience Platform. [Voici comment procéder.](../data-collection/schema-requirement.md)

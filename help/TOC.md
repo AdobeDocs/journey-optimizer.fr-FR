@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 97%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -334,10 +334,7 @@ ht-degree: 97%
          + Types de modèles d’IA {#ai-model-types}
             + [Modèle dʼoptimisation automatique](using/offers/ranking/auto-optimization-model.md)
             + [Modèle d’optimisation personnalisé](using/offers/ranking/personalized-optimization-model.md)
-         + Créer des modèles d’IA {#configure-ai-model}
-            + [Créer un jeu de données pour collecter des événements](using/offers/ranking/create-dataset.md)
-            + [Créer un modèle d’IA](using/offers/ranking/create-ranking-strategies.md)
-            + [Configurer la capture d’événements](using/offers/ranking/schema-requirement.md)
+         + [Créer des modèles d’IA](using/offers/ranking/create-ranking-strategies.md)
    + Création et gestion des offres {#managing-offers-in-the-offer-library}
       + Configuration des offres {#configure-offers}
          + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
@@ -349,7 +346,11 @@ ht-degree: 97%
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configurer la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
       + [Création de simulations](using/offers/offer-activities/simulation.md)
-   + [Prise de décision par lots](using/offers/batch-delivery.md)
+   + [Utilisation de la prise de décision par lots](using/offers/batch-delivery.md)
+   + Collecte des données d’événement {#collect-event-data}
+      + [Prise en main de la collecte de données](using/offers/data-collection/data-collection.md)
+      + [Créer un jeu de données pour collecter des événements](using/offers/data-collection/create-dataset.md)
+      + [Configurer la capture d’événements](using/offers/data-collection/schema-requirement.md)
    + Création de rapports de gestion de décisions {#create-reports}
       + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)
