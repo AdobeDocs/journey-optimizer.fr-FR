@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 77%
+source-wordcount: '2290'
+ht-degree: 73%
 
 ---
 
@@ -164,7 +164,9 @@ Pour définir la limitation, suivez les étapes principales ci-dessous.
 
 1. Définissez la variable **[!UICONTROL Événement de limitation]** sera pris en compte pour augmenter le compteur. [En savoir plus](#capping-event).
 
-1. Définissez le nombre de fois où l’offre peut être présentée. [En savoir plus](#capping-type).
+1. Définissez le nombre de fois où l’offre peut être présentée. [En savoir plus](#capping-count).
+
+1. Choisissez si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un seul profil. [En savoir plus](#capping-type).
 
 1. Définissez la variable **[!UICONTROL Fréquence]** pour définir la fréquence à laquelle le nombre de limitations est réinitialisé. [En savoir plus](#frequency-capping).
 
@@ -184,6 +186,8 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 
 Le **[!UICONTROL Événement de limitation]** vous permet de définir laquelle **[!UICONTROL Événement de limitation]** sera pris en compte pour augmenter le compteur :
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL Événement de décision]** (valeur par défaut) : Nombre maximal de fois où une offre peut être présentée.
 * **[!UICONTROL Impression]**: Nombre maximal de fois où l’offre peut être affichée pour un utilisateur.
 
@@ -192,21 +196,25 @@ Le **[!UICONTROL Événement de limitation]** vous permet de définir laquelle *
    >L’utilisation des impressions comme événements de limitation est disponible pour **canaux entrants** uniquement.
 
 * **[!UICONTROL Clics]**: Nombre maximal de clics sur l’offre par un utilisateur.
-* **[!UICONTROL Événement personnalisé]**: vous pouvez définir un événement personnalisé qui sera utilisé pour limiter le nombre d’offres envoyées. Par exemple, vous pouvez plafonner le nombre de rachats jusqu’à ce qu’un profil donné ait consommé 1 fois. Pour ce faire, utilisez [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} schémas pour créer une règle d’événement personnalisée.
+* **[!UICONTROL Événement personnalisé]**: Vous pouvez définir un événement personnalisé qui sera utilisé pour limiter le nombre d’offres envoyées. Par exemple, vous pouvez plafonner le nombre de rachats jusqu’à ce qu’ils soient égaux à 10 000 ou jusqu’à ce qu’un profil donné ait consommé 1 fois. Pour ce faire, utilisez [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} schémas pour créer une règle d’événement personnalisée.
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   Dans l’exemple ci-dessous, vous souhaitez limiter le nombre d’abonnements. Sélectionner **[!UICONTROL Événement personnalisé]** de la liste et utilisez la méthode **[!UICONTROL Création de règles d’événement personnalisées]** pour sélectionner les événements appropriés.
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   Une fois créée, la règle s’affiche dans la variable **[!UICONTROL Requête d’événement personnalisée]** champ .
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires de la gestion de la décision peuvent ne pas être collectés automatiquement. Assurez-vous donc que les données entrent. [En savoir plus sur la collecte de données](../data-collection/data-collection.md)
 
-### Type de limitation {#capping-type}
+### Nombre de limitations {#capping-count}
 
-Le **[!UICONTROL Type de limitation]** vous permet de spécifier le nombre de fois où l’offre peut être présentée.
+Le **[!UICONTROL Nombre de limitations]** vous permet de spécifier le nombre de fois où l’offre peut être présentée.
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ Le **[!UICONTROL Type de limitation]** vous permet de spécifier le nombre de fo
 >
 >Le nombre doit être un entier supérieur à 0.
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+Par exemple, si vous avez défini un événement de limitation personnalisé, tel que les abonnements, est pris en compte, si vous entrez 10 dans la variable **[!UICONTROL Nombre de limitations]** , plus aucune offre ne sera envoyée après 10 abonnements.
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### Type de limitation {#capping-type}
 
 Vous pouvez également spécifier si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un profil spécifique :
 

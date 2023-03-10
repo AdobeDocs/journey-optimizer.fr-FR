@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 98%
+source-wordcount: '2367'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Mars 2023 {#march-2023}
 
-* Une nouvelle section a été créée dans le guide de la gestion des décisions sur la manière de collecter les commentaires d’offer decisioning dans Adobe Experience Platform, y compris les offres affichées et la manière dont les utilisateurs interagissent avec elles.  [En savoir plus](../offers/data-collection/data-collection.md).
+* Une nouvelle section a été créée dans le guide de la gestion des décisions sur la manière de collecter les commentaires d’offer decisioning dans Adobe Experience Platform, y compris les offres affichées et la manière dont les utilisateurs interagissent avec elles. [En savoir plus](../offers/data-collection/data-collection.md).
 
 ## Février 2023 {#feb-2023}
 
 * Une note a été ajoutée dans la documentation des campagnes déclenchées par l’API pour indiquer que les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual).
 
-* Ajout d’informations sur la manière dont les informations de désinscription sont stockées dans le **Jeu de données du service de consentement** une fois que les destinataires se sont désabonnés via une page de destination. [En savoir plus](../landing-pages/lp-use-cases.md#configure-opt-out).
+* Ajout d’informations sur la manière dont les informations d’exclusion sont stockées dans la variable **Jeu de données du service de consentement** une fois les destinataires désabonnés via une landing page. [En savoir plus](../landing-pages/lp-use-cases.md#configure-opt-out).
 
 ## Janvier 2023 {#jan-2023}
 
