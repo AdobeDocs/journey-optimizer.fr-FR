@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 100%
+source-wordcount: '1552'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +88,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
    **Champ :** filtre
    **Titre :** filtre d&#39;option
-   **Description :** référence à un filtre basé sur les balises qui associe les options d&#39;un inventaire à l&#39;aide de leurs balises jointes. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
+   **Description :** La référence à un filtre basé sur les qualificateurs de collection (précédemment appelé &quot;balise&quot;) qui correspond aux options d’un inventaire à l’aide de leurs qualificateurs de collection joints. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
    **Type :** chaîne
 
 * Type de contrainte de profil

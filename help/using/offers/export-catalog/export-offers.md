@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 100%
+source-wordcount: '2014'
+ht-degree: 98%
 
 ---
 
@@ -341,14 +341,14 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++ _experience > decisioning > tags
 
-**Champ :** balises 
-**Titre :** Balises 
-**Description :** L&#39;ensemble de balises associées à cette entité. Les balises sont utilisées dans les expressions de filtrage pour limiter l&#39;inventaire global à un sous-ensemble (catégorie).
+**Champ :** tags
+**Titre :** Balises
+**Description :** Ensemble de qualificateurs de collection (précédemment appelés &quot;balises&quot;) associés à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour contraindre l’inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++_repo
 

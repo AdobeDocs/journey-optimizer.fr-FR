@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 96%
 
 ---
 
@@ -190,14 +190,14 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ _experience > decisioning > tags
 
-**Champ :** balises
-**Titre :** balises 
-**Description :** jeu de balises associées à cette entité. Les balises sont utilisées dans les expressions de filtre pour limiter l&#39;inventaire global à un sous-ensemble (catégorie).
+**Champ :** tags
+**Titre :** Balises
+**Description :** Ensemble de qualificateurs de collection (précédemment appelés &quot;balises&quot;) associés à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour contraindre l’inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under collection qualifiers: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++ _repo
 

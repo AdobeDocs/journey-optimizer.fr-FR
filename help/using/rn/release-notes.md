@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 **Gestion des balises dans vos Parcours**
 
 En tant que praticien de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises . Les balises constituent un moyen simple et rapide de classer des objets afin d’améliorer la recherche. Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les Parcours. [En savoir plus](../building-journeys/tags.md).
+
+**Les balises de gestion de décision renommées en qualificateurs de collection**
+
+Pour éviter toute confusion potentielle avec la version récente de la fonctionnalité de balises dans Adobe Experience Platform, les balises de gestion de la décision ont été renommées &quot;qualificateurs de collection&quot;.
+
+Notez que bien que le terme &quot;balise&quot; ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services principaux tels que les API et les jeux de données.
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 

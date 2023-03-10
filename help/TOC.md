@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 99%
+source-wordcount: '1328'
+ht-degree: 97%
 
 ---
 
@@ -325,7 +325,7 @@ ht-degree: 99%
    + Création de composants {#create-components}
       + [Créer des emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
-      + [Création de balises](using/offers/offer-library/creating-tags.md)
+      + [Création de qualificateurs de collection](using/offers/offer-library/creating-tags.md)
    + Créer des classements {#rankings}
       + [Prise en main des classements](using/offers/ranking/get-started-rankings.md)
       + [Formules de classement](using/offers/ranking/create-ranking-formulas.md)
@@ -377,11 +377,11 @@ ht-degree: 99%
             + [Mise à jour d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Suppression d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Balises {#tags}
-            + [Liste des balises](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Recherche d’une balise](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Création d’une balise](using/offers/api-reference/offers-api/tags/create.md)
-            + [Mise à jour d’une balise](using/offers/api-reference/offers-api/tags/update.md)
-            + [Suppression d’une balise](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Lister des qualificateurs de collection](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Rechercher un qualificateur de collection](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Création d’un qualificateur de collection](using/offers/api-reference/offers-api/tags/create.md)
+            + [Mise à jour d’un qualificateur de collection](using/offers/api-reference/offers-api/tags/update.md)
+            + [Suppression d’un qualificateur de collection](using/offers/api-reference/offers-api/tags/delete.md)
          + Offres personnalisées {#personalized-offers}
             + [Liste des offres personnalisées](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Recherche d’une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

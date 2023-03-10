@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: '321'
+ht-degree: 64%
 
 ---
 
@@ -30,7 +30,7 @@ La liste des collections d&#39;offres est accessible dans le menu **[!UICONTROL 
 
 Vous pouvez créer deux types de collections :
 
-* **Les collections dynamiques** sont des collections d&#39;offres basées sur des balises. Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec la balise sélectionnée, elle est automatiquement ajoutée à la collection.
+* **Collections dynamiques** sont des collections d’offres basées sur des qualificateurs de collection (précédemment appelés &quot;balises&quot;). Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec le qualificateur de collection sélectionné, elle sera automatiquement ajoutée à la collection.
 
 * **Les collections statiques** sont des collections créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour qu&#39;en y ajoutant manuellement d&#39;autres offres.
 
@@ -42,13 +42,13 @@ Pour créer une collection, procédez comme suit :
 
    ![](../assets/collection_create.png)
 
-1. Pour créer une collection dynamique, utilisez le volet de gauche pour sélectionner la balise des offres à ajouter à la collection, puis cliquez sur **[!UICONTROL Enregistrer]**. Toutes les offres avec la balise sélectionnée seront enregistrées dans la collection.
+1. Pour créer une collection dynamique, utilisez le volet de gauche pour sélectionner le qualificateur de collection des offres à ajouter à la collection, puis cliquez sur **[!UICONTROL Enregistrer]**. Toutes les offres contenant le qualificateur de collection sélectionné seront enregistrées dans la collection.
 
-   Pour plus d&#39;informations sur la création de balises, voir [Création de balises](../offer-library/creating-tags.md).
+   Pour plus d’informations sur la création de qualificateurs de collection, voir [Création de qualificateurs de collection](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 
-1. Pour créer une collection statique, utilisez le volet de gauche pour filtrer la liste des offres (statut, balise, date, canal, type de contenu), puis sélectionnez les offres à ajouter à la collection.
+1. Pour créer une collection statique, utilisez le volet de gauche pour filtrer la liste des offres (statut, qualificateur de collection, date, canal, type de contenu), puis sélectionnez les offres à ajouter à la collection.
 
    ![](../assets/static_collection.png)
 

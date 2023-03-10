@@ -1,21 +1,21 @@
 ---
-title: Recherche d’une balise
-description: Les balises vous permettent de mieux organiser et trier vos offres.
+title: Recherche d’un qualificateur de collection
+description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 41%
 
 ---
 
-# Recherche d’une balise {#look-up-tag}
+# Recherche d’un qualificateur de collection {#look-up-tag}
 
-Vous pouvez rechercher des balises spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut la balise `@id` ou le nom de la balise dans le chemin de la requête.
+Vous pouvez rechercher des qualificateurs de collection spécifiques (précédemment appelés &quot;balises&quot;) en adressant une demande de GET à la fonction [!DNL Offer Library] API incluant soit le qualificateur de collection `@id` ou le nom du qualificateur de collection dans le chemin de requête.
 
 **Format d’API**
 
@@ -26,8 +26,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Conteneur où se trouvent les balises. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Définit le schéma associé aux balises. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | Conteneur où se trouvent les qualificateurs de collection. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Définit le schéma associé aux qualificateurs de collection. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:tag:124e147572cd7866` |
 | `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Holiday sales and promotions` |
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la balise, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` de balise unique.
+Une réponse réussie renvoie les détails du qualificateur de collection, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’ de qualificateur de collection unique. `@id`.
 
 ```json
 {

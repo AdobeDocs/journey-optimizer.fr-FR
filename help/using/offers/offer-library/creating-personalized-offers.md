@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '741'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ Avant de créer une offre, assurez-vous que vous avez créé les éléments suiv
 
 * Un **emplacement** dans lequel l&#39;offre sera affichée. Voir [Créer des emplacements](../offer-library/creating-placements.md)
 * Si vous souhaitez ajouter une condition d’éligibilité : une **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
-* Une ou plusieurs **balises** que vous souhaitez associer à l’offre. Voir [Création de balises](../offer-library/creating-tags.md).
+* Un ou plusieurs **qualificateurs de collection** (précédemment appelé &quot;balises&quot;) que vous souhaitez peut-être associer à l’offre. Voir [Création de qualificateurs de collection](../offer-library/creating-tags.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -53,7 +53,7 @@ Pour créer une **offre**, procédez comme suit :
    >
    >La mise à jour des dates de début et de fin peut avoir un impact sur la limitation. [En savoir plus](add-constraints.md#capping-change-date)
 
-1. Vous pouvez également associer une ou plusieurs **[!UICONTROL balises]** à l’offre, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres. [En savoir plus](creating-tags.md).
+1. Vous pouvez également associer un ou plusieurs **[!UICONTROL qualificateurs de collection]** à l’offre, ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres. [En savoir plus](creating-tags.md).
 
 1. La section **[!UICONTROL Attributs de l’offre]** vous permet d’associer des paires clé-valeur à l’offre à des fins de rapports et d’analyse.
 

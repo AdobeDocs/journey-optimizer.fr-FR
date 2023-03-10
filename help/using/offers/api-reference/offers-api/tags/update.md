@@ -1,23 +1,23 @@
 ---
-title: Mise à jour des balises
-description: Les balises vous permettent de mieux organiser et trier vos offres.
+title: Mise à jour des qualificateurs de collection
+description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 64%
 
 ---
 
-# Mettre à jour une balise {#update-tag}
+# Mise à jour d’un qualificateur de collection {#update-collection qualifier}
 
-Vous pouvez modifier ou mettre à jour une balise dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
+Vous pouvez modifier ou mettre à jour un qualificateur de collection (précédemment appelé &quot;balise&quot;) dans votre conteneur en adressant une requête de PATCH à la fonction [!DNL Offer Library] API.
 
-Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
+Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
@@ -68,7 +68,7 @@ curl -X PATCH \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la balise, y compris son identifiant d’instance unique et l’`@id` d’emplacement .
+Une réponse réussie renvoie les détails mis à jour du qualificateur de collection, y compris son identifiant d’instance unique et le qualificateur de collection. `@id`.
 
 ```json
 {

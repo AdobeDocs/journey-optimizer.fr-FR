@@ -1,44 +1,44 @@
 ---
-title: Création de balises
-description: Découvrez comment créer des balises pour vos offres.
+title: Création de qualificateurs de collection
+description: Découvrez comment créer des qualificateurs de collection pour vos offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 12%
 
 ---
 
-# Création de balises {#create-tags}
+# Création de qualificateurs de collection {#create-tags}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="Balises"
->abstract="Associez une ou plusieurs balises à l’offre pour que votre bibliothèque des offres reste organisée et localisez plus facilement les offres. Les balises sont créées à partir du menu « Composant »."
+>title="Qualificateurs de collection"
+>abstract="Associez un ou plusieurs qualificateurs de collection à l’offre afin de conserver l’organisation de votre bibliothèque d’offres et de localiser plus facilement les offres. Les qualificateurs de collection sont créés à partir du menu &quot;Composant&quot;."
 
-L&#39;association de balises à vos offres facilite leur organisation. Par exemple, vous pouvez libeller vos offres Black Friday à l&#39;aide de la balise « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à cette balise.
+L’association de qualificateurs de collection (précédemment appelés &quot;balises&quot;) à vos offres facilite leur organisation. Par exemple, vous pouvez étiqueter vos offres Black Friday avec le qualificateur de collection &quot;Black Friday&quot;. Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres contenant ce qualificateur de collection.
 
-Les balises peuvent également être utilisées pour regrouper les offres sous forme de collections d&#39;offres. Voir [Créer des collections](../offer-library/creating-collections.md).
+Les qualificateurs de collection peuvent également être utilisés pour regrouper les offres dans des collections d’offres. Voir [Créer des collections](../offer-library/creating-collections.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-La liste des balises créées est accessible dans le menu **[!UICONTROL Composants]**.
+La liste des qualificateurs de collection créés est accessible dans le **[!UICONTROL Composants]** .
 
 ![](../assets/tags_list.png)
 
-Pour créer une balise, procédez comme suit :
+Pour créer un qualificateur de collection, procédez comme suit :
 
-1. Accédez à l&#39;onglet **[!UICONTROL Balises]**, puis cliquez sur **[!UICONTROL Créer une balise]**.
+1. Accédez au **[!UICONTROL Qualificateurs de collection]** , puis cliquez sur **[!UICONTROL Création d’un qualificateur de collection]**.
 
-1. Indiquez le nom de la balise, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Indiquez le nom du qualificateur de collection, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](../assets/tags_create.png)
 
-1. Une fois la balise créée, elle s&#39;affiche dans la liste. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
+1. Une fois le qualificateur de collection créé, il s’affiche dans la liste. Vous pouvez la sélectionner pour afficher ses propriétés et la modifier ou la supprimer.
 
    ![](../assets/tags_created.png)
 

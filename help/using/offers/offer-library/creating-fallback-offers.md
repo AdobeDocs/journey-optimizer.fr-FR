@@ -5,10 +5,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Pour créer une offre de secours, procédez comme suit :
 
    ![](../assets/create_fallback.png)
 
-1. Indiquez le nom de l&#39;offre de secours. Vous pouvez également y associer une ou plusieurs balise(s) existante(s), ce qui vous permet de rechercher et d&#39;organiser plus facilement la bibliothèque des offres.
+1. Indiquez le nom de l&#39;offre de secours. Vous pouvez également y associer un ou plusieurs qualificateurs de collection existants (auparavant appelés &quot;balises&quot;), ce qui vous permet de rechercher et d’organiser plus facilement la bibliothèque des offres.
 
    ![](../assets/fallback_details.png)
 
