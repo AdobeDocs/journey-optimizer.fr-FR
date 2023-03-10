@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ En tant que praticien de Journey Optimizer, vous pouvez désormais organiser vos
 Pour éviter toute confusion potentielle avec la version récente de la fonctionnalité de balises dans Adobe Experience Platform, les balises de gestion de la décision ont été renommées &quot;qualificateurs de collection&quot;.
 
 Notez que bien que le terme &quot;balise&quot; ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services principaux tels que les API et les jeux de données.
+
+**Limitation de la gestion des décisions**
+
+* Vous pouvez désormais réinitialiser le compteur de limitation des offres sur une base quotidienne, hebdomadaire ou mensuelle. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
+
+* Vous pouvez également choisir l’événement Adobe Experience Platform à examiner pour la limitation des offers decisionings. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **Personnalisation des URL** : lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md).
-
-* **Limitation** - Vous pouvez désormais réinitialiser le compteur de limitation des offres sur une base quotidienne, hebdomadaire ou mensuelle. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
-
-* **Limitation** - Vous pouvez désormais choisir l’événement Adobe Experience Platform à examiner pour la limitation des offers decisionings. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
 ## Version de janvier 2023 {#jan-2023-release}
 
