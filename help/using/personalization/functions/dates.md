@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 81%
 
 ---
 
@@ -142,6 +142,35 @@ L’opération suivante renvoie la date au format suivant : MM/JJ/AA.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
+```
+
+## Mise en forme de la date avec la prise en charge des paramètres régionaux{#format-date-locale}
+
+Le `formatDate` sert à mettre en forme une valeur de date et d’heure dans sa représentation sensible à la langue correspondante, c’est-à-dire dans un paramètre régional souhaité. Le format doit être un modèle Java DateTimeFormat valide.
+
+**Syntaxe**
+
+```sql
+{%= formatDate(datetime, format, locale) %}
+```
+
+Lorsque la première chaîne correspond à l’attribut date, la seconde valeur correspond à la manière dont vous souhaitez que la date soit convertie et affichée, tandis que la troisième valeur correspond au paramètre régional au format chaîne.
+
+>[!NOTE]
+>
+> Si un modèle de date n’est pas valide, la date revient au format ISO standard.
+>
+> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+>
+> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la [Documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et les [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+
+
+**Exemple**
+
+L’opération suivante renvoie la date au format suivant : MM/JJ/AA et FRANCE locale.
+
+```sql
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
 ```
 
 ## Définir les jours{#set-days}

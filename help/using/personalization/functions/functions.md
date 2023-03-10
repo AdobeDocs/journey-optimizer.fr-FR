@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 100%
+source-wordcount: '1828'
+ht-degree: 98%
 
 ---
 
@@ -112,6 +112,9 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
     </tr>
     <tr>
         <td><a href="dates.md#format-date">Date de format</a></td><td>Cette fonction permet de formater une valeur de date et d’heure.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date-locale">Mise en forme de la date avec la prise en charge des paramètres régionaux</a></td><td>Cette fonction formate une valeur de date et d’heure dans sa représentation sensible à la langue correspondante, c’est-à-dire dans un paramètre régional souhaité.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-days">Définir les jours</a></td><td>Cette fonction définit le jour du mois pour la date et l’heure données.</td>
