@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 64%
 
 ---
 
-# Mise à jour d’un qualificateur de collection {#update-collection qualifier}
+# Mise à jour d’un qualificateur de collection {#update-collection-qualifier}
 
 Vous pouvez modifier ou mettre à jour un qualificateur de collection (précédemment appelé &quot;balise&quot;) dans votre conteneur en adressant une requête de PATCH à la fonction [!DNL Offer Library] API.
 
