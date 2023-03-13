@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 73%
+source-wordcount: '2323'
+ht-degree: 72%
 
 ---
 
@@ -200,14 +200,21 @@ Le **[!UICONTROL Événement de limitation]** vous permet de définir laquelle *
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   Dans l’exemple ci-dessous, vous souhaitez limiter le nombre d’abonnements. Sélectionner **[!UICONTROL Événement personnalisé]** de la liste et utilisez la méthode **[!UICONTROL Création de règles d’événement personnalisées]** pour sélectionner les événements appropriés.
+   Dans l’exemple ci-dessous, vous souhaitez limiter le nombre de passages en caisse.
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. Sélectionner **[!UICONTROL Événement personnalisé]** de la liste et utilisez la méthode **[!UICONTROL Ajout d’un événement personnalisé]** bouton .
 
-   Une fois créée, la règle s’affiche dans la variable **[!UICONTROL Requête d’événement personnalisée]** champ .
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. Utilisez la variable **[!UICONTROL Création de règles d’événement personnalisées]** pour sélectionner l’événement approprié. Vous pouvez choisir toute action utilisateur pour laquelle vous souhaitez appliquer une limitation des offres.
 
+      Choisir **[!UICONTROL Commerce]** > **[!UICONTROL Passages en caisse]** > **[!UICONTROL Valeur]** et sélectionnez **[!UICONTROL existe]** dans la liste déroulante.
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. Une fois créée, la règle s’affiche dans la variable **[!UICONTROL Requête d’événement personnalisée]** champ .
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires de la gestion de la décision peuvent ne pas être collectés automatiquement. Assurez-vous donc que les données entrent. [En savoir plus sur la collecte de données](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ Le **[!UICONTROL Nombre de limitations]** vous permet de spécifier le nombre de
 >
 >Le nombre doit être un entier supérieur à 0.
 
-Par exemple, si vous avez défini un événement de limitation personnalisé, tel que les abonnements, est pris en compte, si vous entrez 10 dans la variable **[!UICONTROL Nombre de limitations]** , plus aucune offre ne sera envoyée après 10 abonnements.
+Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous entrez 10 dans la variable **[!UICONTROL Nombre de limitations]** , aucune autre offre ne sera envoyée après 10 passages en caisse.
 
 ### Type de limitation {#capping-type}
 
