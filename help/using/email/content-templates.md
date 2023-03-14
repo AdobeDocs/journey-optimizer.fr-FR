@@ -34,7 +34,7 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 ![](assets/content-template-list.png)
 
-Tous les modèles qui ont été créés sur la sandbox actuelle à partir d’un parcours ou d’une campagne à l’aide de l’option [Enregistrer en tant que modèle](#save-as-template) du menu **[!UICONTROL Modèles de contenu]** s’affichent.
+Tous les modèles qui ont été créés sur le sandbox actuel à partir d’un parcours ou d’une campagne à l’aide de l’option [Enregistrer en tant que modèle](#save-as-template) du menu **[!UICONTROL Modèles de contenu]** s’affichent.
 
 Vous pouvez trier les modèles de contenu par date de création ou de modification. Vous pouvez également choisir d’afficher uniquement les éléments que vous avez créés ou modifiés.
 

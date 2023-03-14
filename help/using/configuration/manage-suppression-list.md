@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que les hard bounces, les soft bounces et les réclamations relatives au spam.
 
-Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Une liste de suppression se compose d’adresses et de domaines à exclure de vos audiences. Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c’est-à-dire spécifique à un ID d’organisation associé à un ID Sandbox.
+Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Une liste de suppression se compose d’adresses et de domaines à exclure de vos audiences. Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c’est-à-dire spécifiques à un ID d’organisation associé à un ID de sandbox.
 
 Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../reports/suppression-list.md).
 
@@ -84,7 +84,7 @@ Les motifs possibles d’un échec de diffusion sont les suivants :
 
 ### Règles de suppression  {#suppression-rules}
 
-Dans la **[!UICONTROL Liste de suppression]**, vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à l’aide du bouton **[!UICONTROL Modifier les règles de suppression]**. Utilisez cette option pour mettre à jour le seuil de reprise de la sandbox actuelle. [En savoir plus sur les reprises](retries.md).
+Dans la **[!UICONTROL Liste de suppression]**, vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à l’aide du bouton **[!UICONTROL Modifier les règles de suppression]**. Utilisez cette option pour mettre à jour le seuil de reprise du sandbox actuel. [En savoir plus sur les reprises](retries.md).
 
 
 ## Ajouter des adresses ou des domaines à la liste de suppression{#add-addresses-and-domains}
@@ -252,7 +252,7 @@ Pour exporter la liste de suppression au format CSV, suivez les étapes ci-desso
    >
    >Le temps de téléchargement dépend de la taille du fichier, c’est-à-dire du nombre d’adresses qui se trouvent sur la liste de suppression.
    >
-   >Une seule demande de téléchargement peut être traitée à la fois pour une sandbox donnée.
+   >Une seule demande de téléchargement peut être traitée à la fois pour un sandbox donnée.
 
 1. Une fois le fichier généré, vous recevez une notification. Cliquez sur l’icône représentant une cloche en haut à droite de l’écran pour l’afficher.
 

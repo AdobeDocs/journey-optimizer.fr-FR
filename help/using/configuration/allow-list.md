@@ -18,9 +18,9 @@ ht-degree: 100%
 
 # Liste autorisée {#allow-list}
 
-Il est possible de définir une liste de sécurité d’envoi spécifique au niveau de la [sandbox](../administration/sandboxes.md).
+Il est possible de définir une liste de sécurité d’envoi spécifique au niveau du [sandbox](../administration/sandboxes.md).
 
-La liste autorisée vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d’une sandbox spécifique.
+La liste autorisée vous permet de spécifier des adresses e-mail ou des domaines individuels qui seront les seuls destinataires ou domaines autorisés à recevoir les e-mails que vous envoyez à partir d’un sandbox spécifique.
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
    >
    >Le temps de téléchargement dépend de la taille du fichier, c’est-à-dire du nombre d’adresses qui se trouvent sur la liste autorisée.
    >
-   >Une seule demande de téléchargement peut être traitée à la fois pour une sandbox donnée.
+   >Une seule demande de téléchargement peut être traitée à la fois pour un sandbox donnée.
 
 1. Une fois le fichier généré, vous recevez une notification. Cliquez sur l’icône représentant une cloche en haut à droite de l’écran pour l’afficher.
 
@@ -189,7 +189,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Gérer la liste autorisée"
->abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans cette liste reçoivent des e-mails de cette sandbox. Lorsqu’elle est désactivée, tous les destinataires reçoivent des e-mails."
+>abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans cette liste reçoivent des e-mails de ce sandbox. Lorsqu’elle est désactivée, tous les destinataires reçoivent des e-mails."
 
 Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suivante s’applique :
 
@@ -205,7 +205,7 @@ Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suiva
 >
 >En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport global](../reports/global-report.md).
 
-Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les e-mails que vous envoyez à partir de la sandbox actuelle sont envoyés à tous les destinataires (à condition qu’ils ne figurent pas dans la liste de suppression), y compris les adresses réelles des clients.
+Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les e-mails que vous envoyez à partir du sandbox actuel sont envoyés à tous les destinataires (à condition qu’ils ne figurent pas dans la liste de suppression), y compris les adresses réelles des clients.
 
 ## Rapport d’exclusion {#reporting}
 

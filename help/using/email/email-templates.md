@@ -48,7 +48,7 @@ Pour commencer à créer votre contenu avec l’un des exemples ou des modèles 
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. La liste de tous les [modèles de contenu](content-templates.md#create-content-templates) créée sur la sandbox actuelle s’affiche. Vous pouvez les trier : **[!UICONTROL Par nom]**, **[!UICONTROL Dernière modification]** et **[!UICONTROL Dernière création]**.
+1. La liste de tous les [modèles de contenu](content-templates.md#create-content-templates) créée sur le sandbox actuel s’affiche. Vous pouvez les trier : **[!UICONTROL Par nom]**, **[!UICONTROL Dernière modification]** et **[!UICONTROL Dernière création]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

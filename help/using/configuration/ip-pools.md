@@ -38,7 +38,7 @@ Par exemple, il est recommandé d&#39;avoir un pool d&#39;adresses IP pour vos m
 
 >[!CAUTION]
 >
->La configuration du groupe d’adresses IP est commune à tous les environnements. Par conséquent, toute création ou modification de groupe d’adresses IP aura également un impact sur les sandbox de production.
+>La configuration du groupe d’adresses IP est commune à tous les environnements. Par conséquent, toute création ou modification de groupe d’adresses IP aura également un impact sur les sandbox de production.
 
 ## Création d&#39;un pool d&#39;adresses IP {#create-ip-pool}
 
