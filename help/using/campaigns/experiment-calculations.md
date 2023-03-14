@@ -11,18 +11,27 @@ keywords: contenu, expérience, statistique, calcul
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
 # Présentation des calculs statistiques {#experiment-calculations}
 
->[!AVAILABILITY]
->
->La fonctionnalité **Expérience de contenu** est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main de l’expérience de contenu](get-started-experiment.md)
+* [Création d’une expérience de contenu](content-experiment.md)
+* **[Présentation des calculs statistiques](experiment-calculations.md)**
+* [Configurer des rapports d’expérimentation](reporting-configuration.md)
+* [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 Cet article décrit les calculs statistiques utilisés lors de l’exécution d’expériences dans Adobe Journey Optimizer.
 

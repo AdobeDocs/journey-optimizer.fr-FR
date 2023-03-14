@@ -7,14 +7,27 @@ role: User
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 99%
 
 ---
 
 # Calculs statistiques dans le rapport d’expérience {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main de l’expérience de contenu](get-started-experiment.md)
+* [Création d’une expérience de contenu](content-experiment.md)
+* [Présentation des calculs statistiques](experiment-calculations.md)
+* [Configurer des rapports d’expérimentation](reporting-configuration.md)
+* **[Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)**
+
+>[!ENDSHADEBOX]
 
 Cette page présente les calculs statistiques détaillés utilisés dans le rapport d’expérience pour les campagnes dans Adobe Journey Optimizer.
 

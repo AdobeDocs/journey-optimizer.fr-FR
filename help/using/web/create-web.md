@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 99%
 
 ---
 
 # Créer des expériences web {#create-web}
 
->[!AVAILABILITY]
->
->La fonctionnalité de canal web est actuellement disponible en version bêta pour certains utilisateurs uniquement.
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main du canal web](get-started-web.md)
+* **[Créer des expériences web](create-web.md)**
+* [Créer des pages web](author-web.md)
+* [Extension Visual Editing Helper](visual-editing-helper.md)
+* [Rapports web](web-report.md)
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet de personnaliser l’expérience web que vous diffusez à vos clients par le biais de campagnes web entrantes.
 

@@ -9,10 +9,11 @@ keywords: courrier, message, campagne
 hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '517'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +23,19 @@ ht-degree: 100%
 >id="ajo_direct_mail"
 >title="Création de publipostage direct"
 >abstract="Créez des messages de publipostage direct dans des campagnes planifiées et concevez les fichiers d’extraction requis par les fournisseurs de publipostage direct pour envoyer du courrier à votre clientèle."
+
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* **[Créer un publipostage direct](create-direct-mail.md)**
+* [Configurer le publipostage direct](direct-mail-configuration.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Le courrier est actuellement disponible en version bêta privée et peut être fréquemment mis à jour sans préavis.
 
 Le publipostage direct est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de publipostage direct pour envoyer du courrier à votre clientèle.
 

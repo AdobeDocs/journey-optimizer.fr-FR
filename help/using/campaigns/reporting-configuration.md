@@ -11,10 +11,11 @@ keywords: configuration, expérimentation, création de rapports, optimizer
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +30,18 @@ ht-degree: 100%
 >id="ajo_admin_reporting_dataset"
 >title="Sélectionner un jeu de données"
 >abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement qui doit contenir au moins l’un des groupes de champs pris en charge : Détails de l’application, Détails du commerce, Détails web."
+
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main de l’expérience de contenu](get-started-experiment.md)
+* [Création d’une expérience de contenu](content-experiment.md)
+* [Présentation des calculs statistiques](experiment-calculations.md)
+* **[Configurer des rapports d’expérimentation](reporting-configuration.md)**
+* [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 

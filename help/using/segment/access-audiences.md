@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 71%
@@ -20,11 +20,16 @@ ht-degree: 71%
 
 # Accéder aux audiences et les gérer {#access-manage-audiences}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Ce que vous trouverez dans cette documentation :<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Prise en main de la composition des audiences</a></li>
-<li><a href="create-compositions.md">Créer votre premier workflow de composition</a></li>
-<li><a href="composition-canvas.md">Utiliser la zone de travail de composition</a></li>
-<li><b><a href="access-audiences.md">Accéder aux audiences et les gérer</a></b></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Créer votre premier workflow de composition](create-compositions.md)
+* [Utiliser la zone de travail de composition](composition-canvas.md)
+* **[Accéder aux audiences et les gérer](access-audiences.md)**
+
+>[!ENDSHADEBOX]
 
 Les audiences résultant de la composition de l’audience sont accessibles à partir de la **[!UICONTROL Parcourir]** dans le **[!UICONTROL Segments]** .
 

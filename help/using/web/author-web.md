@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 99%
 
 ---
 
 # Créer des pages web {#author-web}
 
->[!AVAILABILITY]
->
->La fonctionnalité de canal web est actuellement disponible en version bêta pour certains utilisateurs uniquement.
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main du canal web](get-started-web.md)
+* [Créer des expériences web](create-web.md)
+* **[Créer des pages web](author-web.md)**
+* [Extension Visual Editing Helper](visual-editing-helper.md)
+* [Rapports web](web-report.md)
+
+>[!ENDSHADEBOX]
 
 Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome Visual Helper d’Adobe Experience Cloud. [En savoir plus](visual-editing-helper.md)
 

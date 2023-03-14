@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 98%
 
 ---
 
 # Extension Visual Editing Helper {#visual-editing-helper}
 
-Afin de rapidement créer et prévisualiser vos expériences web, l’extension de navigateur Visual Editing Helper d’Adobe Experience Cloud pour Google Chrome vous permet de charger des sites web de manière fiable dans le concepteur web d’Adobe [!DNL Journey Optimizer].
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->La fonctionnalité de canal web est actuellement disponible en version bêta pour certains utilisateurs uniquement.
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main du canal web](get-started-web.md)
+* [Créer des expériences web](create-web.md)
+* [Créer des pages web](author-web.md)
+* **[Extension Visual Editing Helper](visual-editing-helper.md)**
+* [Rapports web](web-report.md)
+
+>[!ENDSHADEBOX]
+
+Afin de rapidement créer et prévisualiser vos expériences web, l’extension de navigateur Visual Editing Helper d’Adobe Experience Cloud pour Google Chrome vous permet de charger des sites web de manière fiable dans le concepteur web d’Adobe [!DNL Journey Optimizer].
 
 ## Installation de l’extension Visual Editing Helper {#install-visual-editing-helper}
 

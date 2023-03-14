@@ -11,10 +11,11 @@ keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +26,17 @@ ht-degree: 100%
 >title="Expérience de contenu"
 >abstract="Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de la diffusion afin de définir plusieurs traitements de diffusion et déterminer la meilleure combinaison pour vos audiences."
 
->[!AVAILABILITY]
->
->La fonctionnalité **Expérience de contenu** est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main de l’expérience de contenu](get-started-experiment.md)
+* **[Créer une expérience de contenu](content-experiment.md)**
+* [Présentation des calculs statistiques](experiment-calculations.md)
+* [Configurer des rapports d’expérimentation](reporting-configuration.md)
+* [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel fonctionne le mieux en termes de mesure spécifiée.
 

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 69%
@@ -20,11 +20,16 @@ ht-degree: 69%
 
 # Utiliser la zone de travail de composition {#composition-canvas}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Ce que vous trouverez dans cette documentation :<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Prise en main de la composition des audiences</a></li>
-<li><a href="create-compositions.md">Créer votre premier workflow de composition</a></li>
-<li><b><a href="composition-canvas.md">Utiliser la zone de travail de composition</a></b></li>
-<li><a href="access-audiences.md">Accéder aux audiences et les gérer</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Créer votre premier workflow de composition](create-compositions.md)
+* **[Utiliser la zone de travail de composition](composition-canvas.md)**
+* [Accéder aux audiences et les gérer](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 La composition de l’audience fournit un canevas visuel qui vous permet de créer des audiences et d’utiliser diverses activités (division, enrichissement, etc.).
 

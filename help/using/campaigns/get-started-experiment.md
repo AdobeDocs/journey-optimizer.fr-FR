@@ -11,14 +11,27 @@ keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 100%
+source-wordcount: '2013'
+ht-degree: 99%
 
 ---
 
 # Prise en main des expériences de contenu {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* **[Prise en main de l’expérience de contenu](get-started-experiment.md)**
+* [Créer une expérience de contenu](content-experiment.md)
+* [Présentation des calculs statistiques](experiment-calculations.md)
+* [Configurer des rapports d’expérimentation](reporting-configuration.md)
+* [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

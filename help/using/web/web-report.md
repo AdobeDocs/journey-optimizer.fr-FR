@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-source-git-commit: 3217cdd366cd61096a232306aa85c075a7542b0e
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 96%
 
 ---
 
 # Rapport web {#web-report}
 
-Le rapport web est disponible dans le rapport de campagne.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->La fonctionnalité de canal web est actuellement disponible en version bêta pour certains utilisateurs uniquement.
+Ce que vous trouverez dans cette documentation :
+
+* [Prise en main du canal web](get-started-web.md)
+* [Créer des expériences web](create-web.md)
+* [Créer des pages web](author-web.md)
+* [Extension Visual Editing Helper](visual-editing-helper.md)
+* **[Rapports web](web-report.md)**
+
+>[!ENDSHADEBOX]
+
+Le rapport web est disponible dans le rapport de campagne.
 
 La page Rapport de campagne s’affiche avec les onglets suivants :
 

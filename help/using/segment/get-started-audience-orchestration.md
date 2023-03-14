@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 66%
@@ -25,11 +25,16 @@ ht-degree: 66%
 >title="Créer une composition"
 >abstract="Créez un workflow de composition afin de combiner les audiences d’Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (telles que le partage, l’exclusion…) pour créer de nouvelles audiences."
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Ce que vous trouverez dans cette documentation :<br/><ul>
-<li><b><a href="get-started-audience-orchestration.md">Prise en main de la composition des audiences</a></b></li>
-<li><a href="create-compositions.md">Créer votre premier workflow de composition</a></li>
-<li><a href="composition-canvas.md">Utiliser la zone de travail de composition</a></li>
-<li><a href="access-audiences.md">Accéder aux audiences et les gérer</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Ce que vous trouverez dans cette documentation :
+
+* **[Prise en main de la composition des audiences](get-started-audience-orchestration.md)**
+* [Créer votre premier workflow de composition](create-compositions.md)
+* [Utiliser la zone de travail de composition](composition-canvas.md)
+* [Accéder aux audiences et les gérer](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
