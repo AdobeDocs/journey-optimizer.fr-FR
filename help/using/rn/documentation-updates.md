@@ -4,9 +4,9 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2386'
 ht-degree: 97%
 
 ---
@@ -21,8 +21,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Février 2023 {#feb-2023}
 
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 23 février ont été présentées dans la documentation. [En savoir plus](release-notes.md).
 * Une note a été ajoutée dans la documentation des campagnes déclenchées par l’API pour indiquer que les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual).
-
 * Ajout d’informations sur la manière dont les informations d’exclusion sont stockées dans la variable **Jeu de données du service de consentement** une fois les destinataires désabonnés via une landing page. [En savoir plus](../landing-pages/lp-use-cases.md#configure-opt-out).
 
 ## Janvier 2023 {#jan-2023}
@@ -31,6 +31,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Les fonctionnalités d’accessibilité dans [!DNL Journey Optimizer] sont désormais regroupées dans une page dédiée. [En savoir plus](../start/accessibility.md).
 * Ajout d’une nouvelle page sur la gestion des données dans [!DNL Journey Optimizer]. [En savoir plus](../data/gs-data.md).
 * Ajout d’un tableau répertoriant tous les codes qui peuvent être renvoyés dans la réponse lors de la diffusion d’offres à l’aide de l’API Decisioning. [En savoir plus](../offers/api-reference/offer-delivery-api/decisioning-api.md).
+
++++ 2022
 
 ## Décembre 2022 {#december-2022}
 
@@ -153,13 +155,16 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La section relative aux capacités de personnalisation de [!DNL Journey Optimizer] a été réorganisée pour une meilleure lisibilité. [En savoir plus](../personalization/personalize.md)
 * La section **Création de préréglages de message** a été divisée en plusieurs sections afin d’en améliorer la clarté. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
 * La section **Gestion des processus d’opt-out** a été clarifiée et légèrement réorganisée. [En savoir plus](../privacy/opt-out.md#opt-out-management)
-* La section **Insérer des liens** a été mise à jour pour prendre en compte les modifications récentes de l’interface utilisateur. [En savoir plus](../email/message-tracking.md#insert-links)
+* La section **Insérer des liens** a été mise à jour pour prendre en compte les modifications récentes de l’interface utilisateur. [En savoir plus](../email/message-tracking.md#insert-links).
+
++++
+
++++ 2021
 
 ## Novembre 2021 {#november-2021}
 
 * Une description complète de l’**éditeur d’expression avancé** utilisé dans les parcours est désormais disponible. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
 * Ajout d’une section sur la **méthode de délégation de sous-domaines CNAME**. [En savoir plus](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## Octobre 2021 {#october-2021}
 
@@ -203,7 +208,6 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Ajout d’une sous-section sur la modification des groupes d’adresses IP. [En savoir plus](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## Août 2021 {#august-2021}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 21 août ont été présentées dans la documentation. [En savoir plus](release-notes.md)
@@ -222,7 +226,6 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’une section décrivant comment ajouter manuellement des adresses e-mail et des domaines à la liste de suppression. [En savoir plus](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Mise à jour des sections [Accéder à la liste de suppression](../configuration/manage-suppression-list.md#access-suppression-list) et [Reprises](../configuration/retries.md) pour refléter la nouvelle interface utilisateur.
 * Le nouveau flux pour ajouter et configurer des représentations lors de la création d&#39;une offre a été documenté. [En savoir plus](../offers/offer-library/creating-personalized-offers.md#representations)
-
 
 ## Juillet 2021 {#july-2021}
 
@@ -243,3 +246,4 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Documentation du nouvel onglet **[!UICONTROL Aperçu]** de la gestion des décisions. [En savoir plus](../offers/get-started/user-interface.md#overview)
 * Ajout de nouvelles sections pour décrire les actions disponibles dans les listes des offres et des décisions : [Liste des offres](../offers/offer-library/creating-personalized-offers.md#offer-list) et [Liste des décisions](../offers/offer-activities/create-offer-activities.md#decision-list).
 
++++
