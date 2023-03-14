@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer des workflows de composition
+title: Créer votre premier workflow de composition
 description: Découvrez comment créer des workflows de composition pour combiner et organiser des audiences existantes.
 feature: Journeys
 topic: Content Management
@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 86%
 
 ---
 
-# Créer des workflows de composition {#create-compositions}
+# Créer votre premier workflow de composition {#create-compositions}
 
-Les workflows de composition vous permettent de combiner et d’organiser des audiences existantes pour créer de nouvelles audiences.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Ce que vous trouverez dans cette documentation :<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Prise en main de la composition des audiences</a></li>
+<li><b><a href="create-compositions.md">Créer votre premier workflow de composition</a></b></li>
+<li><a href="composition-canvas.md">Utiliser la zone de travail de composition</a></li>
+<li><a href="access-audiences.md">Accéder aux audiences et les gérer</a></li></ul></td></tr></table>
 
 ## Créer un workflow de composition {#create}
+
+Pour créer un workflow de composition, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Segments]** et sélectionnez **[!UICONTROL Créer une audience]**.
 
@@ -42,7 +49,7 @@ Les workflows de composition vous permettent de combiner et d’organiser des au
 
 1. Ouvrez les propriétés de composition pour spécifier un titre et une description.
 
-   Si aucun titre n’est défini dans les propriétés, le libellé de composition est celui de l’activité **[!UICONTROL Audience]** qui débute.
+   Si aucun titre n’est défini dans les propriétés, le libellé de la composition est défini sur &quot;Composition&quot; suivi de sa date et de son heure de création.
 
    ![](assets/audiences-properties.png)
 
@@ -76,9 +83,3 @@ Toutes les compositions créées sont accessibles à partir de l’onglet **[!UI
 >[!NOTE]
 >
 >Vous pouvez dupliquer ou supprimer une composition existante à tout moment à l’aide du bouton représentant des points de suspension dans la liste.
-
-En savoir plus :
-
-* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
-* [Utiliser la zone de travail de composition](composition-canvas.md)
-* [Accéder aux audiences et les gérer](access-audiences.md)

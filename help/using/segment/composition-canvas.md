@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 100%
+source-wordcount: '1353'
+ht-degree: 69%
 
 ---
 
 # Utiliser la zone de travail de composition {#composition-canvas}
 
-La zone de travail de composition est une zone de travail visuelle qui vous permet de créer des compositions en exploitant les audiences et les activités (partager, exclure..).
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Ce que vous trouverez dans cette documentation :<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Prise en main de la composition des audiences</a></li>
+<li><a href="create-compositions.md">Créer votre premier workflow de composition</a></li>
+<li><b><a href="composition-canvas.md">Utiliser la zone de travail de composition</a></b></li>
+<li><a href="access-audiences.md">Accéder aux audiences et les gérer</a></li></ul></td></tr></table>
 
-Les étapes de configuration d’une composition dans la zone de travail de composition sont les suivantes :
+La composition de l’audience fournit un canevas visuel qui vous permet de créer des audiences et d’utiliser diverses activités (division, enrichissement, etc.).
+
+Les étapes de composition d’une audience dans la zone de travail sont les suivantes :
 
 1. [Définir votre/vos audience(s) de départ](#starting-audience)
 1. [Ajouter une ou plusieurs activités](#action-activities)
@@ -56,22 +63,21 @@ Une fois les audiences sélectionnées, le nombre estimé de profils s’affiche
 
 Ajoutez des activités après avoir sélectionné l’audience de départ afin d’affiner votre sélection.
 
-Pour cela, cliquez sur le bouton + du chemin de composition, puis sélectionnez l’activité souhaitée. Le volet de droite s’ouvre, vous permettant de configurer l’activité.
+Pour cela, cliquez sur le bouton + du chemin de composition, puis sélectionnez l’activité souhaitée. Le volet de droite s’ouvre, vous permettant de configurer l’activité nouvellement ajoutée.
 
 ![](assets/audiences-select-activity.png)
-
->[!NOTE]
->
->Vous pouvez ajouter autant d’activités **[!UICONTROL Audience]** et **[!UICONTROL Exclure]** que vous le souhaitez à votre composition. Toutefois, aucune activité supplémentaire ne peut être ajoutée après les activités **[!UICONTROL Classement]** et **[!UICONTROL Partager]**.
-
-Vous pouvez à tout moment supprimer une activité de la zone de travail en cliquant sur le bouton Supprimer dans le volet de droite. Toutes les activités ajoutées après cette activité seront également supprimées de la zone de travail.
 
 Les activités disponibles sont les suivantes :
 
 * [Audience](#audience) : inclure des profils supplémentaires appartenant à une ou plusieurs audiences existantes,
 * [Exclure](#exclude) : exclure les profils appartenant à une audience existante ou exclure les profils en fonction d’attributs spécifiques,
+* [Enrichir]{#enrich}: enrichir votre audience avec des attributs supplémentaires issus des jeux de données Adobe Experience Platform,
 * [Classement](#rank) : classer les profils en fonction d’un attribut spécifique, spécifier le nombre de profils à conserver et les inclure dans votre composition,
 * [Partager](#split) : diviser votre composition en plusieurs chemins d’accès en fonction de pourcentages aléatoires ou d’attributs.
+
+Vous pouvez ajouter autant d’activités **[!UICONTROL Audience]** et **[!UICONTROL Exclure]** que vous le souhaitez à votre composition. Toutefois, aucune activité supplémentaire ne peut être ajoutée après les activités **[!UICONTROL Classement]** et **[!UICONTROL Partager]**.
+
+Vous pouvez à tout moment supprimer une activité de la zone de travail en cliquant sur le bouton Supprimer dans le volet de droite.  Si l’activité que vous souhaitez supprimer est un parent d’autres activités de la composition, un message s’affiche, vous permettant de spécifier si vous souhaitez supprimer uniquement l’activité sélectionnée ou toutes ses activités enfants.
 
 ### Activité Audience {#audience}
 
@@ -115,6 +121,46 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 
    ![](assets/audiences-exclude-attribute.png)
 
+### Enrichir {#enrich}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="Activité d’enrichissement"
+>abstract="Utilisez l&#39;activité Enrichir pour exclure les profils appartenant à une audience existante. Le type Exclure en utilisant l’attribut permet d’exclure des profils en fonction d’un attribut spécifique."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="Jeu de données d’enrichissement"
+>abstract="Sélectionnez le jeu de données d’enrichissement contenant les données que vous souhaitez associer à l’audience."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="Critères d&#39;enrichissement"
+>abstract="Sélectionnez les champs à utiliser comme clé de réconciliation entre le jeu de données source, c’est-à-dire l’audience, et le jeu de données d’enrichissement."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="Attributs d’enrichissement"
+>abstract="Sélectionnez un ou plusieurs attributs du jeu de données d’enrichissement à associer à l’audience. Une fois la composition publiée, ces attributs sont associés à l&#39;audience et peuvent être utilisés dans les campagnes pour personnaliser les diffusions."
+
+Le **[!UICONTROL Enrichir]** activité vous permet d’enrichir votre audience avec des attributs supplémentaires provenant de jeux de données Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations relatives au produit acheté, telles que son nom, son prix ou son identifiant de fabricant, et exploiter ces informations pour personnaliser les diffusions envoyées à l’audience.
+
+>[!IMPORTANT]
+>
+>Pour l’instant, les libellés du jeu de données, au niveau du jeu de données ou au niveau du champ, ne sont pas propagés à l’audience nouvellement créée. Cela peut avoir une incidence sur le contrôle d’accès et/ou la gouvernance des données pour l’audience obtenue. Pour cette raison, utilisez uniquement les données de test lors de la composition d’audiences.
+
+Pour configurer l’activité, procédez comme suit :
+
+1. Sélectionnez la **[!UICONTROL Jeu de données d’enrichissement]** contenant les données que vous souhaitez associer à l’audience.
+
+1. Dans le **[!UICONTROL Critères d&#39;enrichissement]** , sélectionnez les champs à utiliser comme clé de réconciliation entre le jeu de données source, c’est-à-dire l’audience, et le jeu de données d’enrichissement. Dans cet exemple, nous utilisons l’identifiant du produit acheté comme clé de réconciliation.
+
+1. Cliquez sur le bouton **[!UICONTROL Ajout d’attributs]** puis sélectionnez un ou plusieurs attributs du jeu de données d’enrichissement à associer à l’audience.
+
+   ![](assets/audiences-enrich-activity.png)
+
+Une fois la composition publiée, les attributs sélectionnés sont associés à l&#39;audience et peuvent être utilisés dans les campagnes pour personnaliser les diffusions.
+
 ### Activité Classement {#rank}
 
 >[!CONTEXTUALHELP]
@@ -141,10 +187,10 @@ L’activité **[!UICONTROL Classement]** vous permet de classer les profils en 
 
 ### Activité Partage {#split}
 
->[!CONTEXTUALHELP]
+<!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="Population témoin"
->abstract="Utilisez les populations témoins pour isoler une partie des profils. Vous pouvez ainsi mesurer l’impact d’une activité de marketing et faire une comparaison avec le comportement du reste de la population."
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
@@ -167,7 +213,7 @@ Cette opération ajoute automatiquement une activité **[!UICONTROL Enregistrer]
 
 Deux types d’opérations de partage sont disponibles :
 
-* **[!UICONTROL Partage en pourcentage]** : il s’agit de partager les profils de manière aléatoire en deux ou plusieurs chemins d’accès. Par exemple, vous pouvez partager les profils en 2 chemins d’accès distincts de 45 % chacun, et ajouter un chemin d’accès supplémentaire pour la population témoin.
+* **[!UICONTROL Partage en pourcentage]** : il s’agit de partager les profils de manière aléatoire en deux ou plusieurs chemins d’accès. Par exemple, vous pouvez fractionner les profils en 2 chemins distincts de 50 % chacun. <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 
@@ -188,9 +234,3 @@ Pour ce faire, sélectionnez l’activité **[!UICONTROL Enregistrer l’audienc
 ![](assets/audiences-publish.png)
 
 Une fois votre composition prête, vous pouvez la publier. [Découvrez comment créer des compositions.](create-compositions.md)
-
-En savoir plus :
-
-* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
-* [Créer des workflows de composition](create-compositions.md)
-* [Accéder aux audiences et les gérer](access-audiences.md)
