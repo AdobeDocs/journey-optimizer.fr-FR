@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 6%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -43,17 +43,15 @@ Les commentaires sur les impressions et les clics sont capturés en fonction de 
 
    * Emails créés par [!DNL Journey Optimizer]
    * Notifications push mobiles créées par [!DNL Journey Optimizer]
-   * Applications mobiles utilisant la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou SDK Mobile<!--TBC--> pour effectuer le rendu des offres <!--need more info + link-->
 
-   >[!NOTE]
-   >
-   >Si Adobe effectue le rendu visuel de l’offre à l’utilisateur final sur le canal, vous pouvez supposer que l’Adobe enverra automatiquement les commentaires.
+   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
 
 1. D’un autre côté, certains canaux nécessitent que les données d’impression et de clics soient envoyées dans Adobe Experience Platform en tant que **événement d’expérience**.
 
-   Sauf les applications mobiles qui utilisent le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou SDK Mobile<!--TBC-->, tous les canaux qui utilisent une requête d’API de prise de décision pour recevoir des offres ont besoin de commentaires envoyés en tant qu’événement d’expérience. Cela inclut :
+   Tous les canaux qui utilisent une requête d’API de prise de décision pour recevoir des offres ont besoin de commentaires envoyés en tant qu’événement d’expérience. Cela inclut :
 
-   * Pages web
+   * Pages Web utilisant la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} pour effectuer le rendu des offres
+   * Applications mobiles utilisant la variable [SDK Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} pour effectuer le rendu des offres
    * Kiosques
    * Messages envoyés par le biais d’applications tierces
 
