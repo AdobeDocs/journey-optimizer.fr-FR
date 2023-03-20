@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: schémas, platform, données, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,8 @@ L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Jour
 Découvrez comment utiliser l’interface utilisateur des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr){target="_blank"}.
 
 La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible sur [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
+
+Pour consulter la liste complète des champs et attributs de chaque schéma, consultez la [Dictionnaire de schéma Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## Vidéo pratique{#video-schema}
