@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,23 +22,23 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Améliorations de mars 2023 {#march-2023}
+## Améliorations de mars 2023 {#march-2023}
 
-**Gestion des balises dans vos Parcours**
+**Gérer les balises dans vos parcours**
 
-En tant que praticien de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises . Les balises constituent un moyen simple et rapide de classer des objets afin d’améliorer la recherche. Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les Parcours. [En savoir plus](../building-journeys/tags.md).
+En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin d’améliorer la recherche. Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les parcours. [En savoir plus](../building-journeys/tags.md).
 
-**Les balises de gestion de décision renommées en qualificateurs de collection**
+**Balises de gestion de décision renommées en qualificateurs de collection**
 
-Pour éviter toute confusion potentielle avec la version récente de la fonctionnalité de balises dans Adobe Experience Platform, les balises de gestion de la décision ont été renommées &quot;qualificateurs de collection&quot;.
+Pour éviter toute confusion potentielle avec la version récente de la fonctionnalité des balises dans Adobe Experience Platform, les balises de gestion des décisions ont été renommées « qualificateurs de collection ».
 
-Notez que bien que le terme &quot;balise&quot; ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services principaux tels que les API et les jeux de données.
+Notez que bien que le terme « balise » ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services back-end, tels que les API et les jeux de données.
 
-**Limitation de la gestion des décisions**
+**Limitation relative à la gestion des décisions**
 
-* Vous pouvez désormais réinitialiser le compteur de limitation des offres sur une base quotidienne, hebdomadaire ou mensuelle. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
+* Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
-* Vous pouvez également choisir l’événement Adobe Experience Platform à examiner pour la limitation des offers decisionings. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
+* Vous pouvez également choisir l’événement Adobe Experience Platform à examiner pour la limitation relative à la prise de décisions sur les offres. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 

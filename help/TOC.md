@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
       + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
-      + [Gestion des balises dans les parcours](using/building-journeys/tags.md)
+      + [Gérer les balises dans les parcours](using/building-journeys/tags.md)
    + Activités {#about-journey-building}
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
@@ -197,7 +197,7 @@ ht-degree: 96%
          + [Ajout d’attributs de style intégrés](using/email/inline-styling.md)
    + [Prévisualiser et tester votre e-mail](using/email/preview.md)
    + [Créer des modèles de contenu](using/email/content-templates.md)
-   + [Utilisation de modèles Experience Manager](using/email/aem-templates.md)
+   + [Utiliser les modèles Experience Manager](using/email/aem-templates.md)
    + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
    + Configurer le canal e-mail {#configure-email}
       + [Prise en main de la configuration du canal e-mail](using/email/get-started-email-config.md)
@@ -325,7 +325,7 @@ ht-degree: 96%
    + Création de composants {#create-components}
       + [Créer des emplacements](using/offers/offer-library/creating-placements.md)
       + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
-      + [Création de qualificateurs de collection](using/offers/offer-library/creating-tags.md)
+      + [Créer des qualificateurs de collection](using/offers/offer-library/creating-tags.md)
    + Créer des classements {#rankings}
       + [Prise en main des classements](using/offers/ranking/get-started-rankings.md)
       + [Formules de classement](using/offers/ranking/create-ranking-formulas.md)
@@ -346,14 +346,14 @@ ht-degree: 96%
       + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
       + [Configurer la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
       + [Création de simulations](using/offers/offer-activities/simulation.md)
-   + [Utilisation de la prise de décision par lots](using/offers/batch-delivery.md)
-   + Collecte des données d’événement {#collect-event-data}
+   + [Utiliser la prise de décision par lots](using/offers/batch-delivery.md)
+   + Collecter des données d’événement {#collect-event-data}
       + [Prise en main de la collecte de données](using/offers/data-collection/data-collection.md)
       + [Créer un jeu de données pour collecter des événements](using/offers/data-collection/create-dataset.md)
       + [Configurer la capture d’événements](using/offers/data-collection/schema-requirement.md)
    + Création de rapports de gestion de décisions {#create-reports}
       + [Prise en main des événements de gestion des décisions](using/offers/reports/get-started-events.md)
-      + [Informations clés sur les événements de gestion de décision](using/offers/reports/key-information.md)
+      + [Informations clés relatives aux événements de gestion des décisions](using/offers/reports/key-information.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
    + Export de votre catalogue d’offres {#export-catalog}
       + [Commencer à exporter des catalogues d’offres ](using/offers/export-catalog/get-started-export.md)
@@ -378,11 +378,11 @@ ht-degree: 96%
             + [Mise à jour d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Suppression d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Qualificateurs de collection {#tags}
-            + [Lister des qualificateurs de collection](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Répertorier des qualificateurs de collection](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Rechercher un qualificateur de collection](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Création d’un qualificateur de collection](using/offers/api-reference/offers-api/tags/create.md)
-            + [Mise à jour d’un qualificateur de collection](using/offers/api-reference/offers-api/tags/update.md)
-            + [Suppression d’un qualificateur de collection](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Créer un qualificateur de collection](using/offers/api-reference/offers-api/tags/create.md)
+            + [Mettre à jour un qualificateur de collection](using/offers/api-reference/offers-api/tags/update.md)
+            + [Supprimer un qualificateur de collection](using/offers/api-reference/offers-api/tags/delete.md)
          + Offres personnalisées {#personalized-offers}
             + [Liste des offres personnalisées](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Recherche d’une offre personnalisée](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
