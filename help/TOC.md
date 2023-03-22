@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: a402f9c8510c5905551e9ca97ca7ae762e7e56a1
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 100%
+source-wordcount: '1343'
+ht-degree: 99%
 
 ---
 
@@ -415,11 +415,12 @@ ht-degree: 100%
 + Gestion des données {#data-management}
    + [Prise en main de la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
-   + [Requêtes](using/data/get-started-queries.md)
    + Jeux de données Journey Optimizer {#datasets}
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
       + [Exporter des jeux de données Journey Optimizer](using/data/export-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
+   + [Schémas intégrés à Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+   + [Requêtes](using/data/get-started-queries.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
