@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
+source-git-commit: 371bd375d2c93b0694fa7eaf148f5c0793d59c8e
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 100%
+source-wordcount: '2399'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Mars 2023 {#march-2023}
 
+* Ajout d’une étape pour activer les événements Adobe Analytics dans vos parcours. [En savoir plus](../event/about-analytics.md).
 * Une nouvelle section a été créée dans le guide consacré à la gestion des décisions, sur la manière de collecter les commentaires relatifs à la prise de décisions sur les offres dans Adobe Experience Platform, y compris les offres affichées et la manière dont les utilisateurs et utilisatrices interagissent avec elles. [En savoir plus](../offers/data-collection/data-collection.md).
 
 ## Février 2023 {#feb-2023}
