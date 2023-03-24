@@ -1,5 +1,5 @@
 ---
-title: Recherche d’un qualificateur de collection
+title: Rechercher un qualificateur de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
-# Recherche d’un qualificateur de collection {#look-up-tag}
+# Rechercher un qualificateur de collection {#look-up-tag}
 
-Vous pouvez rechercher des qualificateurs de collection spécifiques (précédemment appelés &quot;balises&quot;) en adressant une demande de GET à la fonction [!DNL Offer Library] API incluant soit le qualificateur de collection `@id` ou le nom du qualificateur de collection dans le chemin de requête.
+Vous pouvez rechercher des qualificateurs de collection spécifiques (auparavant appelés « balises ») en exécutant une requête GET sur l’API [!DNL Offer Library] qui inclut le qualificateur de collection `@id` ou le nom du qualificateur de collection dans le chemin de la requête.
 
 **Format d’API**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails du qualificateur de collection, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’ de qualificateur de collection unique. `@id`.
+Une réponse réussie renvoie les détails du qualificateur de collection, y compris les informations sur votre ID de conteneur, ID d’instance et qualificateur de collection unique `@id`.
 
 ```json
 {

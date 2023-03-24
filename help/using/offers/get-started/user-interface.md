@@ -9,7 +9,7 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Utilisez le menu **[!UICONTROL Composants]** pour gérer les composants requis a
 
 * **[!UICONTROL Emplacements]** : créez et gérez les emplacements où vos offres s’afficheront. Voir [Création d&#39;emplacements](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Qualificateurs de collection]**: Créez et gérez des qualificateurs de collection (auparavant appelés &quot;balises&quot;) pour organiser et filtrer vos offres. Voir [Création de qualificateurs de collection](../offer-library/creating-tags.md).
+* **[!UICONTROL Qualificateurs de collection]** : créez et gérez des qualificateurs de collection (auparavant appelés « balises ») pour classer et filtrer vos offres. Consultez la section [Créer des qualificateurs de collection](../offer-library/creating-tags.md).
 
 * **[!UICONTROL Règles]** : gérez les conditions selon lesquelles vos offres sont présentées. Voir [Création d&#39;une règle de décision](../offer-library/creating-decision-rules.md).
 

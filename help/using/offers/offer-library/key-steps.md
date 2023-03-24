@@ -9,7 +9,7 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 
 1. **Créez des règles de décision** qui spécifient les conditions dans lesquelles les offres sont présentées.
 
-1. **Création de qualificateurs de collection** (précédemment appelées &quot;balises&quot;) que vous associerez aux offres, ce qui vous permet de les organiser et de les rechercher facilement dans la bibliothèque.
+1. **Créez des qualificateurs de collection** (auparavant appelés « balises ») et associez-les aux offres pour un classement et une recherche faciles dans la bibliothèque.
 
 1. Si vous souhaitez définir des règles qui déterminent quelle offre doit être présentée en premier pour un emplacement donné (plutôt que de prendre en compte les scores de priorité des offres), vous pouvez **créer une formule de classement**.
 

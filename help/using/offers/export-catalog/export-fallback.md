@@ -9,7 +9,7 @@ exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -190,9 +190,9 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ _experience > decisioning > tags
 
-**Champ :** tags
-**Titre :** Balises
-**Description :** Ensemble de qualificateurs de collection (précédemment appelés &quot;balises&quot;) associés à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour contraindre l’inventaire global à un sous-ensemble (catégorie).
+**Champ :** balises
+**Titre :** balises
+**Description :** jeu de qualificateurs de collection (précédemment appelés « balises ») associé à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour limiter l’inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
 +++

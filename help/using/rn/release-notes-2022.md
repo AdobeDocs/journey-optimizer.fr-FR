@@ -49,7 +49,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Administration**
 
-* Un message a été ajouté à l’interface utilisateur pour signaler que les configurations du sous-domaine, du sous-domaine de la page de destination, de l’enregistrement PTR et du groupe d’adresses IP sont communes à toutes les sandbox. Toute modification de l’une de ces configurations aura donc un impact sur les sandbox de production.
+* Un message a été ajouté à l’interface utilisateur pour signaler que les configurations du sous-domaine, du sous-domaine de la page de destination, de l’enregistrement PTR et du groupe d’adresses IP sont communes à tous les sandbox. Toute modification de l’une de ces configurations aura donc un impact sur les sandbox de production.
 * Les étapes de chargement de la liste de suppression au format CSV à partir de l’interface utilisateur ont été modifiées. [En savoir plus](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **Campagnes**
@@ -495,7 +495,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais recréer les expériences d’une sandbox Journey Optimizer à une autre, par exemple d’une sandbox hors production vers une sandbox de production. Cette nouvelle fonctionnalité permet de copier d’une sandbox à une autre un parcours complet, y compris tous les objets nécessaires à son bon fonctionnement. Outre les parcours, vous pouvez également copier d’autres composants, tels que les offres, les messages, les schémas, les jeux de données, les sources de données, les événements et les actions.</p>
+<p>Vous pouvez désormais recréer les expériences d’un sandbox Journey Optimizer à un autre, par exemple d’un sandbox hors production vers un sandbox de production. Cette nouvelle fonctionnalité permet de copier d’une sandbox à une autre un parcours complet, y compris tous les objets nécessaires à son bon fonctionnement. Outre les parcours, vous pouvez également copier d’autres composants, tels que les offres, les messages, les schémas, les jeux de données, les sources de données, les événements et les actions.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/copy-to-sandbox.md">documentation détaillée</a>.
 </td>
 </tr>

@@ -9,17 +9,17 @@ exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Prise en main des événements de gestion des décisions {#monitor-offer-events}
 
-Chaque fois que la gestion des décisions prend une décision pour un profil donné, les informations relatives à ces événements sont automatiquement envoyées à Adobe Experience Platform.
+Chaque fois que la gestion des décisions prend une décision pour un profil donné, les informations relatives à ces événements sont automatiquement envoyées à Adobe Experience Platform.
 
 Vous pouvez ainsi exporter ces données pour les analyser dans votre propre système de rapports. Vous pouvez également utiliser [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr) d’Adobe Experience Platform en combinaison avec d’autres outils pour améliorer l’analyse et les rapports.
 
-Les jeux de données contenant des événements de gestion des décisions sont accessibles à partir de Adobe Experience Platform **[!UICONTROL Jeux de données]** . Un jeu de données est automatiquement créé lors de l&#39;approvisionnement de chacune de vos instances.
+Les jeux de données contenant des événements de gestion des décisions sont accessibles à partir du menu **[!UICONTROL Jeux de données]** d’Adobe Experience Platform. Un jeu de données est automatiquement créé lors de l&#39;approvisionnement de chacune de vos instances.
 
 ![](../assets/events-datasets-list.png)
 

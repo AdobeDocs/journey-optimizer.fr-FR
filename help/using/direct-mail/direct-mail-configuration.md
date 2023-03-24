@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-Ce que vous trouverez dans cette documentation :
+Cette documentation couvre les sujets suivants :
 
 * [Créer un publipostage direct](create-direct-mail.md)
 * **[Configurer le publipostage direct](direct-mail-configuration.md)**

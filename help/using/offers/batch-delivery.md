@@ -54,7 +54,7 @@ Pour créer une nouvelle demande de traitement, procédez comme suit.
 
    ![](assets/batch-decision.png)
 
-1. Par défaut, une offre de la portée de la décision est renvoyée pour chaque profil. Vous pouvez ajuster le nombre d’offres renvoyées à l’aide de l’option **[!UICONTROL Demander une offre par profil]**. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour la portée de décision sélectionnée.
+1. Par défaut, une offre de la portée de décision est renvoyée pour chaque profil. Vous pouvez ajuster le nombre d’offres renvoyées à l’aide de l’option **[!UICONTROL Demander une offre par profil]**. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour la portée de décision sélectionnée.
 
    >[!NOTE]
    >

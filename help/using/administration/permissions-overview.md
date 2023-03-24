@@ -28,7 +28,7 @@ La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur trois conce
 
 * **[!UICONTROL Autorisations]** : droits unitaires qui permettent de définir les autorisations attribuées au **[!UICONTROL profil de produit]**. Chaque autorisation est regroupée sous des fonctionnalités, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Reportez-vous à la section [Niveaux d&#39;autorisation](high-low-permissions.md).
 
-* **[!UICONTROL Environnement Sandbox]** : environnements Sandbox virtuels qui divisent les instances en environnements virtuels distincts et isolés. Reportez-vous à la section [Utilisation des environnements Sandbox](sandboxes.md).
+* **[!UICONTROL Sandbox]** : sandbox virtuels qui divisent les instances en environnements virtuels distincts et isolés. Reportez-vous à la section [Utilisation des sandbox](sandboxes.md).
 
 Chaque concept peut être géré par des **[!UICONTROL administrateurs produits]** qui ont accès à Admin Console. [En savoir plus sur Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 

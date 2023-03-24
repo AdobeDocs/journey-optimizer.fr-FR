@@ -280,7 +280,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 **Configuration des e-mails**
 
-* **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur une sandbox hors production via un appel API. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
+* **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un sandbox hors production via un appel API. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 * **Navigation** : la liste de suppression, accessible sous le menu **Administration > Canaux > Configuration des e-mails> Général** a été déplacée vers le nouveau sous-menu **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestion des décisions**
@@ -326,7 +326,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez maintenant définir une liste d'envoi sécurisé spécifique au niveau de l'environnement Sandbox, afin d'avoir un environnement sécurisé à des fins de test. Sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n'avez aucun risque d'envoyer des messages indésirables à vos clients. Cette fonctionnalité est activée en utilisant les API de suppression.</p>
+<p>Vous pouvez maintenant définir une liste d’envoi sécurisé spécifique au niveau du sandbox, afin d’avoir un environnement sécurisé à des fins de test. Sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous n'avez aucun risque d'envoyer des messages indésirables à vos clients. Cette fonctionnalité est activée en utilisant les API de suppression.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/allow-list.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -337,7 +337,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 **Parcours**
 
-* Le taux de limitation global de toutes les lectures de segment qui s&#39;exécutent simultanément dans le même environnement Sandbox est limité à 17 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Le taux de limitation global de toutes les lectures de segment qui s’exécutent simultanément dans le même sandbox est limité à 17 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Le champ **Durée de mise en cache** a été supprimé du panneau de configuration de la source de données. [En savoir plus](../datasource/about-data-sources.md)
 * Pour les sources de données externes, une règle de limitation de 15 appels par seconde est maintenant définie automatiquement. [En savoir plus](../configuration/external-systems.md#capping)
 * Pour les parcours actifs, l’écran des propriétés du parcours affiche la date de publication et le nom de l’utilisateur qui a publié le parcours. [En savoir plus](../building-journeys/journey-gs.md#change-properties)

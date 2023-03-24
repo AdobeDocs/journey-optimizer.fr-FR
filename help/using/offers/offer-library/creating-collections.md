@@ -9,7 +9,7 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ La liste des collections d&#39;offres est accessible dans le menu **[!UICONTROL 
 
 Vous pouvez créer deux types de collections :
 
-* **Collections dynamiques** sont des collections d’offres basées sur des qualificateurs de collection (précédemment appelés &quot;balises&quot;). Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec le qualificateur de collection sélectionné, elle sera automatiquement ajoutée à la collection.
+* Les **collections dynamiques** sont des collections d’offres basées sur des qualificateurs de collection (précédemment appelés « balises »). Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec le qualificateur de collection sélectionné, elle est automatiquement ajoutée à la collection.
 
-* **Les collections statiques** sont des collections créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour qu&#39;en y ajoutant manuellement d&#39;autres offres.
+* Les **collections statiques** sont des collections créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour qu&#39;en y ajoutant manuellement d&#39;autres offres.
 
 Pour créer une collection, procédez comme suit :
 
@@ -42,9 +42,9 @@ Pour créer une collection, procédez comme suit :
 
    ![](../assets/collection_create.png)
 
-1. Pour créer une collection dynamique, utilisez le volet de gauche pour sélectionner le qualificateur de collection des offres à ajouter à la collection, puis cliquez sur **[!UICONTROL Enregistrer]**. Toutes les offres contenant le qualificateur de collection sélectionné seront enregistrées dans la collection.
+1. Pour créer une collection dynamique, utilisez le volet de gauche pour sélectionner le qualificateur de collection des offres à ajouter à la collection, puis cliquez sur **[!UICONTROL Enregistrer]**. Toutes les offres avec le qualificateur de collection sélectionné seront enregistrées dans la collection.
 
-   Pour plus d’informations sur la création de qualificateurs de collection, voir [Création de qualificateurs de collection](../offer-library/creating-tags.md).
+   Pour plus d’informations sur la création de qualificateurs de collection, consultez la section [Créer des qualificateurs de collection](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 

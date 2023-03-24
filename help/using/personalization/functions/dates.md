@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -144,9 +144,9 @@ L’opération suivante renvoie la date au format suivant : MM/JJ/AA.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## Mise en forme de la date avec la prise en charge des paramètres régionaux{#format-date-locale}
+## Formater la date avec la prise en charge des paramètres régionaux{#format-date-locale}
 
-Le `formatDate` sert à mettre en forme une valeur de date et d’heure dans sa représentation sensible à la langue correspondante, c’est-à-dire dans un paramètre régional souhaité. Le format doit être un modèle Java DateTimeFormat valide.
+La fonction `formatDate` permet de formater une valeur d’heure et de date au format de la langue correspondante, c’est-à-dire dans le paramètre régional souhaité. Le format doit être un modèle Java DateTimeFormat valide.
 
 **Syntaxe**
 
@@ -154,7 +154,7 @@ Le `formatDate` sert à mettre en forme une valeur de date et d’heure dans sa 
 {%= formatDate(datetime, format, locale) %}
 ```
 
-Lorsque la première chaîne correspond à l’attribut date, la seconde valeur correspond à la manière dont vous souhaitez que la date soit convertie et affichée, tandis que la troisième valeur correspond au paramètre régional au format chaîne.
+Lorsque la première chaîne correspond à l’attribut de date, la seconde valeur correspond à la manière dont vous souhaitez que la date soit convertie et affichée, tandis que la troisième valeur représente le paramètre régional au format chaîne.
 
 >[!NOTE]
 >
@@ -162,12 +162,12 @@ Lorsque la première chaîne correspond à l’attribut date, la seconde valeur 
 >
 > Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la [Documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et les [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Vous pouvez utiliser la mise en forme et les paramètres régionaux valides comme indiqué dans la [Documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et les [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **Exemple**
 
-L’opération suivante renvoie la date au format suivant : MM/JJ/AA et FRANCE locale.
+L’opération ci-dessous renvoie la date au format suivant : MM/JJ/AA, dans le paramètre régional FRANCE.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}

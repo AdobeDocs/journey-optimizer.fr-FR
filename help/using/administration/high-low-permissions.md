@@ -279,7 +279,7 @@ It includes the following low-level permissions:
 
 ### Autorisation [!DNL Manage channel surface] {#manage-channel-surface}
 
-Lʼautorisation de haut niveau **[!DNL Manage channel surface]** permet aux utilisateurs de créer, de modifier et de supprimer des surfaces de canaux sur les canaux au niveau de la sandbox.
+Lʼautorisation de haut niveau **[!DNL Manage channel surface]** permet aux utilisateurs de créer, de modifier et de supprimer des surfaces de canaux sur les canaux au niveau du sandbox.
 
 Elle comprend les autorisations de bas niveau suivantes :
 

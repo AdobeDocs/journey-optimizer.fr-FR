@@ -197,7 +197,7 @@ ht-degree: 99%
          + [Ajout d’attributs de style intégrés](using/email/inline-styling.md)
    + [Prévisualiser et tester votre e-mail](using/email/preview.md)
    + [Créer des modèles de contenu](using/email/content-templates.md)
-   + [Utiliser les modèles Experience Manager](using/email/aem-templates.md)
+   + [Utiliser les modèles Experience Manager](using/email/aem-templates.md)
    + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
    + Configurer le canal e-mail {#configure-email}
       + [Prise en main de la configuration du canal e-mail](using/email/get-started-email-config.md)
@@ -347,7 +347,7 @@ ht-degree: 99%
       + [Configurer la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
       + [Création de simulations](using/offers/offer-activities/simulation.md)
    + [Utiliser la prise de décision par lots](using/offers/batch-delivery.md)
-   + Collecter des données d’événement {#collect-event-data}
+   + Collecter les données d’événement {#collect-event-data}
       + [Prise en main de la collecte de données](using/offers/data-collection/data-collection.md)
       + [Créer un jeu de données pour collecter des événements](using/offers/data-collection/create-dataset.md)
       + [Configurer la capture d’événements](using/offers/data-collection/schema-requirement.md)
@@ -378,7 +378,7 @@ ht-degree: 99%
             + [Mise à jour d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Suppression d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Qualificateurs de collection {#tags}
-            + [Répertorier des qualificateurs de collection](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Répertorier les qualificateurs de collection](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Rechercher un qualificateur de collection](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Créer un qualificateur de collection](using/offers/api-reference/offers-api/tags/create.md)
             + [Mettre à jour un qualificateur de collection](using/offers/api-reference/offers-api/tags/update.md)

@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-Ce que vous trouverez dans cette documentation :
+Cette documentation couvre les sujets suivants :
 
-* **[Prise en main de la composition des audiences](get-started-audience-orchestration.md)**
+* **[Prise en main de la composition de l’audience](get-started-audience-orchestration.md)**
 * [Créer votre premier workflow de composition](create-compositions.md)
 * [Utiliser la zone de travail de composition](composition-canvas.md)
 * [Accéder aux audiences et les gérer](access-audiences.md)
@@ -38,9 +38,9 @@ Ce que vous trouverez dans cette documentation :
 
 >[!AVAILABILITY]
 >
->La composition de l’audience est actuellement disponible uniquement en version bêta privée et peut être fréquemment mise à jour sans préavis. La version bêta est configurée au niveau de l’organisation IMS, ce qui signifie qu’elle aura un impact sur tous les environnements de test de votre entreprise.
+>La composition de l’audience est actuellement disponible uniquement en version Beta privée et peut être fréquemment mise à jour sans préavis. La version Beta est configurée au niveau de l’organisation IMS, ce qui signifie qu’elle aura un impact sur toutes les sandbox de votre organisation.
 
-La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
+La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
 Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être **utilisées dans des campagnes** pour cibler les clients. [Découvrez comment utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
 
@@ -50,17 +50,17 @@ Une fois cette opération terminée, les **audiences obtenues** sont enregistré
 >
 >Les audiences obtenues à partir des workflows de composition peuvent uniquement être ciblées dans des campagnes Journey Optimizer. Elles ne peuvent pas être utilisées dans des parcours.
 
-La composition de l’audience est accessible à partir de Adobe Journey Optimizer **[!UICONTROL Segments]** menu :
+La composition de l’audience est accessible à partir du menu **[!UICONTROL Segments]** d’Adobe Journey Optimizer :
 
 ![](assets/audiences-browse.png)
 
-* Le **[!UICONTROL Présentation]** Cet onglet fournit un tableau de bord dédié avec des mesures clés liées aux données de segment de votre entreprise. Pour en savoir plus, reportez-vous à la section [Guide des tableaux de bord Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
+* L’onglet **[!UICONTROL Vue d’ensemble]** se compose d’un tableau de bord dédié avec des mesures clés liées aux données de segment de votre organisation. Pour en savoir plus, consultez le [guide des tableaux de bord d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=fr).
 
-* Le **[!UICONTROL Parcourir]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform.
+* L’onglet **[!UICONTROL Parcourir]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform.
 
 * L’onglet **[!UICONTROL Compositions]** vous permet de créer des workflows de composition dans lesquels vous pouvez combiner et organiser des audiences pour en créer de nouvelles.
 
-Cliquez sur chaque carte pour découvrir comment utiliser la composition de l’audience :
+Cliquez sur chaque vignette pour découvrir comment utiliser la composition de l’audience :
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="create-compositions.md"><img alt="Créer des workflows de composition" src="../assets/do-not-localize/ao-workflows.jpg"></a>

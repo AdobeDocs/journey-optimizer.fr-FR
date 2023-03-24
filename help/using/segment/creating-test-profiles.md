@@ -110,7 +110,7 @@ Après avoir sélectionné l’espace de noms d’identité et fourni le fichier
 
 >[!NOTE]
 >
->Les profils de test peuvent remplacer les profils existants. Avant d’exécuter le cas d’utilisation, assurez-vous que le fichier CSV contient uniquement des profils de test et qu’il est exécuté sur le bon environnement Sandbox.
+>Les profils de test peuvent remplacer les profils existants. Avant d’exécuter le cas d’utilisation, assurez-vous que le fichier CSV contient uniquement des profils de test et qu’il est exécuté sur le bon sandbox.
 
 ## Transformation d&#39;un profil en profil de test{#turning-profile-into-test}
 

@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 > Chacune des procédures présentées ci-dessous ne peut être réalisée que par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
 
-Les **[!UICONTROL profils de produit]** sont des ensembles d&#39;utilisateurs qui partagent les mêmes autorisations et environnements Sandbox au sein de votre organisation.
+Les **[!UICONTROL profils de produit]** sont des ensembles d’utilisateurs qui partagent les mêmes autorisations et sandbox au sein de votre organisation.
 
 Le produit [!DNL Journey Optimizer] vous permet de choisir parmi différents **[!UICONTROL profils de produit]** prêts à l&#39;emploi avec différents niveaux d&#39;autorisations à affecter à vos utilisateurs. Pour plus d&#39;informations sur les **[!UICONTROL profils de produits]** disponibles, consultez cette [page](ootb-product-profiles.md).
 
@@ -98,7 +98,7 @@ Si nécessaire, vous pouvez également créer un profil de produit avec des auto
 
 ## Création d&#39;un profil de produit {#create-product-profile}
 
-[!DNL Journey Optimizer] vous permet de créer vos propres **[!UICONTROL profils de produit]** et d&#39;attribuer un ensemble de droits et d&#39;environnements Sandbox à vos utilisateurs. Avec les **[!UICONTROL profils de produit]**, vous pouvez autoriser ou refuser l&#39;accès à certaines fonctionnalités ou à certains objets de l&#39;interface.
+[!DNL Journey Optimizer] vous permet de créer vos propres **[!UICONTROL profils de produit]** et d’attribuer un ensemble de droits et de sandbox à vos utilisateurs. Avec les **[!UICONTROL profils de produit]**, vous pouvez autoriser ou refuser l&#39;accès à certaines fonctionnalités ou à certains objets de l&#39;interface.
 
 Pour plus d’informations sur la création et la gestion des sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
 
@@ -136,11 +136,11 @@ Pour créer nos **[!UICONTROL profils de produit]** **Parcours en lecture seule*
 
    ![](assets/do-not-localize/access_control_12.png)
 
-1. Sélectionnez la fonction **[!UICONTROL Accès à l&#39;environnement Sandbox]**, pour choisir un ou plusieurs environnements Sandbox à affecter à votre **[!UICONTROL profil de produit]**.
+1. Sélectionnez la fonction **[!UICONTROL Accès au sandbox]**, pour choisir un ou plusieurs sandbox à affecter à votre **[!UICONTROL profil de produit]**.
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône plus (+) pour affecter des environnements Sandbox à votre profil. [En savoir plus sur les environnements Sandbox](sandboxes.md).
+1. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des sandbox à votre profil. [En savoir plus sur les sandbox](sandboxes.md).
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 

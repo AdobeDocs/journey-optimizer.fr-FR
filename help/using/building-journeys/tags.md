@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion des balises dans les parcours
-description: Gestion des balises dans les parcours
+title: Gérer les balises dans les parcours
+description: Gérer les balises dans les parcours
 feature: Journeys
 topic: Content Management
 role: User
@@ -12,48 +12,48 @@ badge: label="Beta" type="Informative"
 source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Gestion des balises dans les parcours {#journey_tags}
+# Gérer les balises dans les parcours {#journey_tags}
 
-En tant que praticien de Journey Optimizer, vous pouvez organiser vos parcours à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin d’améliorer la recherche.
+En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez identifier vos parcours à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche.
 
 >[!AVAILABILITY]
 >
-> Les balises unifiées sont actuellement en version bêta. La documentation et les fonctionnalités peuvent changer.
+> Les balises unifiées sont actuellement en version Beta. La documentation et les fonctionnalités peuvent changer.
 
-## Ajout de balises à un parcours
+## Ajouter des balises à un parcours
 
-Le **Balises** , dans les propriétés du parcours, vous permet de définir des balises pour votre parcours. Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste. S’il n’est pas disponible, cliquez sur **Créer** pour en créer un et l’ajouter à votre parcours. Vous pouvez définir autant de balises que nécessaire.
+Le champ **Balises**, dans les propriétés du parcours, vous permet d’ajouter des balises à votre parcours. Vous pouvez sélectionner une balise existante ou créer une nouvelle balise. Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste. Si elle n’est pas disponible, cliquez sur **Créer** pour créer une balise et l’ajouter à votre parcours. Vous pouvez définir autant de balises que vous le souhaitez.
 
 ![](assets/tags1.png)
 
-La liste des balises définies s’affiche sous le **Balises** champ .
+La liste des balises définies s’affiche sous le champ **Balises**.
 
 >[!NOTE]
 >
-> Les balises sont sensibles à la casse
+> Les balises sont sensibles à la casse.
 > 
-> Si vous dupliquez ou créez une version d’un parcours, les balises sont conservées.
+> Si vous dupliquez ou créez une autre version d’un parcours, les balises sont conservées.
 
-## Filtrage sur les balises
+## Filtrer les balises
 
-La liste Parcours affiche une colonne dédiée afin que vous puissiez facilement visualiser vos balises.
+La liste des parcours comporte une colonne dédiée permettant de visualiser facilement les balises.
 
-Un filtre est également disponible pour afficher uniquement les parcours avec certaines balises.
+Un filtre est également disponible pour afficher uniquement les parcours comportant les balises souhaitées.
 
 ![](assets/tags2.png)
 
-Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcours (actif, brouillon, etc.). Cliquez sur le bouton **Autres actions** en regard du parcours, puis sélectionnez **Modifier les balises**.
+Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcours (actif, brouillon, etc.). Cliquez sur l’icône **Plus d’actions** en regard du parcours, puis sélectionnez **Modifier les balises**.
 
 ![](assets/tags3.png)
 
-## Gestion des balises
+## Gérer les balises
 
-Les administrateurs peuvent supprimer des balises et les organiser par catégories à l’aide du **Balises** sous **ADMINISTRATION**. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+L’administration peut supprimer des balises et les classer par catégorie dans le menu **Balises**, sous **Administration**. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr).
 
 >[!NOTE]
 >
-> Les balises définies dans parcours sont ajoutées à la catégorie &quot;Non catégorisée&quot; intégrée.
+> Les balises définies dans les parcours sont ajoutées à la catégorie intégrée « Non classé ».

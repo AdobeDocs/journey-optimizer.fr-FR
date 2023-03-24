@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-Ce que vous trouverez dans cette documentation :
+Cette documentation couvre les sujets suivants :
 
-* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
 * **[Créer votre premier workflow de composition](create-compositions.md)**
 * [Utiliser la zone de travail de composition](composition-canvas.md)
 * [Accéder aux audiences et les gérer](access-audiences.md)
@@ -33,7 +33,7 @@ Ce que vous trouverez dans cette documentation :
 
 ## Créer un workflow de composition {#create}
 
-Pour créer un workflow de composition, procédez comme suit :
+Pour créer un workflow de composition, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Segments]** et sélectionnez **[!UICONTROL Créer une audience]**.
 
@@ -54,7 +54,7 @@ Pour créer un workflow de composition, procédez comme suit :
 
 1. Ouvrez les propriétés de composition pour spécifier un titre et une description.
 
-   Si aucun titre n’est défini dans les propriétés, le libellé de la composition est défini sur &quot;Composition&quot; suivi de sa date et de son heure de création.
+   Si aucun titre n’est défini dans les propriétés, le libellé de la composition comporte le terme « Composition », suivi de sa date et de son heure de création.
 
    ![](assets/audiences-properties.png)
 

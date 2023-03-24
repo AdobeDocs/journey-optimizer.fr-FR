@@ -9,7 +9,7 @@ exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -341,9 +341,9 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++ _experience > decisioning > tags
 
-**Champ :** tags
-**Titre :** Balises
-**Description :** Ensemble de qualificateurs de collection (précédemment appelés &quot;balises&quot;) associés à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour contraindre l’inventaire global à un sous-ensemble (catégorie).
+**Champ :** balises
+**Titre :** balises
+**Description :** jeu de qualificateurs de collection (précédemment appelés « balises ») associé à cette entité. Les qualificateurs de collection sont utilisés dans les expressions de filtre pour contraindre l’inventaire global à un sous-ensemble (catégorie).
 **Type :** tableau
 
 +++

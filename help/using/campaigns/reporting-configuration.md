@@ -15,7 +15,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-Ce que vous trouverez dans cette documentation :
+Cette documentation couvre les sujets suivants :
 
 * [Prise en main de l’expérience de contenu](get-started-experiment.md)
 * [Création d’une expérience de contenu](content-experiment.md)

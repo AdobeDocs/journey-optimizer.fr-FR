@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-Ce que vous trouverez dans cette documentation :
+Cette documentation couvre les sujets suivants :
 
-* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
 * [Créer votre premier workflow de composition](create-compositions.md)
 * **[Utiliser la zone de travail de composition](composition-canvas.md)**
 * [Accéder aux audiences et les gérer](access-audiences.md)
 
 >[!ENDSHADEBOX]
 
-La composition de l’audience fournit un canevas visuel qui vous permet de créer des audiences et d’utiliser diverses activités (division, enrichissement, etc.).
+La composition de l’audience met à votre disposition une zone de travail visuelle qui vous permet de créer des audiences et d’utiliser plusieurs activités (partage, enrichissement, etc.).
 
-Les étapes de composition d’une audience dans la zone de travail sont les suivantes :
+Pour composer une audience dans la zone de travail, procédez comme suit :
 
 1. [Définir votre/vos audience(s) de départ](#starting-audience)
 1. [Ajouter une ou plusieurs activités](#action-activities)
@@ -68,7 +68,7 @@ Une fois les audiences sélectionnées, le nombre estimé de profils s’affiche
 
 Ajoutez des activités après avoir sélectionné l’audience de départ afin d’affiner votre sélection.
 
-Pour cela, cliquez sur le bouton + du chemin de composition, puis sélectionnez l’activité souhaitée. Le volet de droite s’ouvre, vous permettant de configurer l’activité nouvellement ajoutée.
+Pour cela, cliquez sur le bouton + du chemin de composition, puis sélectionnez l’activité souhaitée. Le volet de droite s’ouvre et vous permet de configurer l’activité que vous venez d’ajouter.
 
 ![](assets/audiences-select-activity.png)
 
@@ -76,13 +76,13 @@ Les activités disponibles sont les suivantes :
 
 * [Audience](#audience) : inclure des profils supplémentaires appartenant à une ou plusieurs audiences existantes,
 * [Exclure](#exclude) : exclure les profils appartenant à une audience existante ou exclure les profils en fonction d’attributs spécifiques,
-* [Enrichir]{#enrich}: enrichir votre audience avec des attributs supplémentaires issus des jeux de données Adobe Experience Platform,
+* [Enrichir]{#enrich} : enrichissez votre audience avec des attributs supplémentaires issus des jeux de données d’Adobe Experience Platform,
 * [Classement](#rank) : classer les profils en fonction d’un attribut spécifique, spécifier le nombre de profils à conserver et les inclure dans votre composition,
 * [Partager](#split) : diviser votre composition en plusieurs chemins d’accès en fonction de pourcentages aléatoires ou d’attributs.
 
 Vous pouvez ajouter autant d’activités **[!UICONTROL Audience]** et **[!UICONTROL Exclure]** que vous le souhaitez à votre composition. Toutefois, aucune activité supplémentaire ne peut être ajoutée après les activités **[!UICONTROL Classement]** et **[!UICONTROL Partager]**.
 
-Vous pouvez à tout moment supprimer une activité de la zone de travail en cliquant sur le bouton Supprimer dans le volet de droite.  Si l’activité que vous souhaitez supprimer est un parent d’autres activités de la composition, un message s’affiche, vous permettant de spécifier si vous souhaitez supprimer uniquement l’activité sélectionnée ou toutes ses activités enfants.
+Vous pouvez à tout moment supprimer une activité de la zone de travail en cliquant sur le bouton Supprimer dans le volet de droite.  Si l’activité que vous souhaitez supprimer est parente d’autres activités de la composition, un message s’affiche et vous permet d’indiquer si vous souhaitez supprimer uniquement l’activité sélectionnée ou toutes les activités enfants.
 
 ### Activité Audience {#audience}
 
@@ -131,40 +131,40 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Activité d’enrichissement"
->abstract="Utilisez l&#39;activité Enrichir pour exclure les profils appartenant à une audience existante. Le type Exclure en utilisant l’attribut permet d’exclure des profils en fonction d’un attribut spécifique."
+>abstract="L’activité d’enrichissement permet d’exclure les profils appartenant à une audience existante. Le type Exclure en utilisant l’attribut permet d’exclure des profils en fonction d’un attribut spécifique."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="Jeu de données d’enrichissement"
->abstract="Sélectionnez le jeu de données d’enrichissement contenant les données que vous souhaitez associer à l’audience."
+>abstract="Sélectionnez le jeu de données d’enrichissement contenant les données à associer à l’audience."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
->title="Critères d&#39;enrichissement"
->abstract="Sélectionnez les champs à utiliser comme clé de réconciliation entre le jeu de données source, c’est-à-dire l’audience, et le jeu de données d’enrichissement."
+>title="Critères d’enrichissement"
+>abstract="Sélectionnez les champs à utiliser comme clé de réconciliation entre le jeu de données source (l’audience) et le jeu de données d’enrichissement."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Attributs d’enrichissement"
->abstract="Sélectionnez un ou plusieurs attributs du jeu de données d’enrichissement à associer à l’audience. Une fois la composition publiée, ces attributs sont associés à l&#39;audience et peuvent être utilisés dans les campagnes pour personnaliser les diffusions."
+>abstract="Sélectionnez un ou plusieurs attributs du jeu de données d’enrichissement à associer à l’audience. Une fois la composition publiée, ces attributs sont associés à l’audience. Ils peuvent ensuite être utilisés dans les campagnes pour personnaliser les diffusions."
 
-Le **[!UICONTROL Enrichir]** activité vous permet d’enrichir votre audience avec des attributs supplémentaires provenant de jeux de données Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations relatives au produit acheté, telles que son nom, son prix ou son identifiant de fabricant, et exploiter ces informations pour personnaliser les diffusions envoyées à l’audience.
+L’activité **[!UICONTROL Enrichir]** vous permet d’enrichir votre audience avec des attributs supplémentaires provenant de jeux de données d’Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations sur le produit acheté (comme le nom, le prix ou l’identifiant de fabricant) afin de personnaliser les diffusions envoyées à l’audience.
 
 >[!IMPORTANT]
 >
->Pour l’instant, les libellés du jeu de données, au niveau du jeu de données ou au niveau du champ, ne sont pas propagés à l’audience nouvellement créée. Cela peut avoir une incidence sur le contrôle d’accès et/ou la gouvernance des données pour l’audience obtenue. Pour cette raison, utilisez uniquement les données de test lors de la composition d’audiences.
+>Pour l’instant, les libellés du jeu de données, au niveau du jeu de données ou du champ, ne sont pas propagés à l’audience nouvellement créée. Cela peut avoir une incidence sur le contrôle d’accès et/ou la gouvernance des données pour cette audience. Nous vous recommandons donc d’utiliser uniquement des données de test lors de la composition des audiences.
 
-Pour configurer l’activité, procédez comme suit :
+Pour configurer l’activité, procédez comme suit :
 
-1. Sélectionnez la **[!UICONTROL Jeu de données d’enrichissement]** contenant les données que vous souhaitez associer à l’audience.
+1. Sélectionnez le **[!UICONTROL Jeu de données d’enrichissement]** contenant les données que vous souhaitez associer à l’audience.
 
-1. Dans le **[!UICONTROL Critères d&#39;enrichissement]** , sélectionnez les champs à utiliser comme clé de réconciliation entre le jeu de données source, c’est-à-dire l’audience, et le jeu de données d’enrichissement. Dans cet exemple, nous utilisons l’identifiant du produit acheté comme clé de réconciliation.
+1. Dans la section **[!UICONTROL Critères d’enrichissement]**, sélectionnez les champs à utiliser comme clé de réconciliation entre le jeu de données source (l’audience) et le jeu de données d’enrichissement. Dans cet exemple, la clé de réconciliation est l’identifiant du produit acheté.
 
-1. Cliquez sur le bouton **[!UICONTROL Ajout d’attributs]** puis sélectionnez un ou plusieurs attributs du jeu de données d’enrichissement à associer à l’audience.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter des attributs]**, puis sélectionnez un ou plusieurs attributs du jeu de données d’enrichissement à associer à l’audience.
 
    ![](assets/audiences-enrich-activity.png)
 
-Une fois la composition publiée, les attributs sélectionnés sont associés à l&#39;audience et peuvent être utilisés dans les campagnes pour personnaliser les diffusions.
+Une fois la composition publiée, les attributs sélectionnés sont associés à l’audience et peuvent être utilisés dans les campagnes pour personnaliser les diffusions.
 
 ### Activité Classement {#rank}
 
@@ -218,7 +218,7 @@ Cette opération ajoute automatiquement une activité **[!UICONTROL Enregistrer]
 
 Deux types d’opérations de partage sont disponibles :
 
-* **[!UICONTROL Partage en pourcentage]** : il s’agit de partager les profils de manière aléatoire en deux ou plusieurs chemins d’accès. Par exemple, vous pouvez fractionner les profils en 2 chemins distincts de 50 % chacun. <!--and add an additional path for control group.-->
+* **[!UICONTROL Partage en pourcentage]** : il s’agit de partager les profils de manière aléatoire en deux ou plusieurs chemins d’accès. Par exemple, vous pouvez partager les profils en 2 chemins distincts de 50 % chacun. <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 

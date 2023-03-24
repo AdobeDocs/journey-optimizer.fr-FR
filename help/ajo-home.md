@@ -184,7 +184,7 @@ ht-degree: 100%
       <a href="using/configuration/get-started-configuration.md">Canaux</a>
     </li>
      <li>
-      <a href="using/administration/sandboxes.md">Environnements Sandbox</a>
+      <a href="using/administration/sandboxes.md">Sandbox</a>
     </li>
   </td>
 </tr>

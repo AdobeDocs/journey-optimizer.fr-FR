@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Prise en main de la configuration de [!DNL Journey Optimizer] {#start-optimizer-configuration}
 
-Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous recevez un environnement Sandbox de production et un certain nombre d&#39;adresses IP vous sont attribuées en fonction de votre contrat.
+Lorsque vous accédez à [!DNL Journey Optimizer] pour la première fois, un sandbox de production vous est alloué ainsi qu’un certain nombre d’adresses IP en fonction de votre contrat.
 
 Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les étapes de configuration ci-dessous :
 

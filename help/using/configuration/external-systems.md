@@ -42,9 +42,9 @@ Pour les sources de données externes, le nombre maximal d’appels par seconde 
 
 Pour les actions personnalisées, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une règle de limitation afin que votre système ne sature pas.
 
-Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée). Au moment de l&#39;exécution, Journey Optimizer vérifie si une règle de limitation est définie et applique le taux défini lors des appels à ce point d&#39;entrée. Si le nombre d&#39;appels dépasse le taux défini, les appels restants sont ignorés et comptabilisés comme des erreurs dans les rapports.
+Les règles de limitation sont définies au niveau du sandbox pour un point d’entrée spécifique (l’URL appelée). Au moment de l&#39;exécution, Journey Optimizer vérifie si une règle de limitation est définie et applique le taux défini lors des appels à ce point d&#39;entrée. Si le nombre d&#39;appels dépasse le taux défini, les appels restants sont ignorés et comptabilisés comme des erreurs dans les rapports.
 
-Une règle de limitation est spécifique à un point d&#39;entrée, mais commune à tous les parcours d&#39;un environnement Sandbox. Cela signifie que les emplacements de limitation sont partagés entre tous les parcours d&#39;un environnement Sandbox.
+Une règle de limitation est spécifique à un point d’entrée, mais commune à tous les parcours d’un sandbox. Cela signifie que les emplacements de limitation sont partagés entre tous les parcours d’un sandbox.
 
 Supposons, par exemple, que vous ayez défini une règle de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et rejette les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
 
@@ -76,7 +76,7 @@ Prenons un exemple pour une temporisation de 5 secondes.
 
 **Comment configurer une règle de limitation ? Existe-t-il une règle de limitation par défaut ?**
 
-Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau de l&#39;environnement Sandbox pour un point d&#39;entrée spécifique (l&#39;URL appelée), à l&#39;aide de l&#39;API de limitation. Reportez-vous à [cette section](../configuration/external-systems.md#capping) et à la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}.
+Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau du sandbox pour un point d’entrée spécifique (l’URL appelée), à l’aide de l’API Capping. Reportez-vous à [cette section](../configuration/external-systems.md#capping) et à la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}.
 
 **Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
 

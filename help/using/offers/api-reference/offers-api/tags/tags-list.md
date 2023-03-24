@@ -1,5 +1,5 @@
 ---
-title: Lister des qualificateurs de collection
+title: Répertorier les qualificateurs de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
@@ -9,17 +9,17 @@ exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
-# Lister des qualificateurs de collection {#list-tags}
+# Répertorier les qualificateurs de collection {#list-tags}
 
-Les qualificateurs de collection (précédemment appelés &quot;balises&quot;) vous permettent de mieux organiser et trier vos offres. Par exemple, vous pouvez étiqueter vos offres Black Friday avec le qualificateur de collection &quot;Black Friday&quot;. Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres contenant ce qualificateur de collection.
+Les qualificateurs de collection (précédemment appelés « balises ») vous permettent de mieux organiser et trier vos offres. Par exemple, vous pouvez libeller vos offres Black Friday à l’aide du qualificateur de collection « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à ce qualificateur de collection.
 
-Les qualificateurs de collection peuvent également être utilisés pour regrouper les offres en collections. Pour plus d’informations, consultez le tutoriel sur la [création de collections](../../../offer-library/creating-collections.md).
+Les qualificateurs de collection peuvent également être utilisées pour regrouper les offres sous forme de collections. Pour plus d’informations, consultez le tutoriel sur la [création de collections](../../../offer-library/creating-collections.md).
 
-Vous pouvez afficher une liste de tous les qualificateurs de collection au sein d’un conteneur en adressant une seule requête de GET à la variable [!DNL Offer Library] API.
+Vous pouvez afficher une liste de tous les qualificateurs de collection au sein d’un conteneur en exécutant une requête GET unique sur l’API [!DNL Offer Library].
 
 **Format d’API**
 
@@ -60,7 +60,7 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 | `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
 | `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
 | `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L&#39;ajout d&#39;un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l&#39;ordre décroissant (Z-A). | `-repo:createdDate` |
-| `limit` | Limitez le nombre de qualificateurs de collection renvoyés. | `limit=5` |
+| `limit` | Limite le nombre de qualificateurs de collection renvoyés. | `limit=5` |
 
 **Réponse**
 

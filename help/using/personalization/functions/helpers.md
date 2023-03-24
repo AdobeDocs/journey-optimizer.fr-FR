@@ -94,7 +94,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
    {%/if%}
    ```
 
-1. **Contenu conditionnel basé sur l&#39;appartenance à un segment**
+1. **Contenu conditionnel basé sur l’appartenance à un segment**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}

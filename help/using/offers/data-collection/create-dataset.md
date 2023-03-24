@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -79,4 +79,4 @@ Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce sch
 
 >[!NOTE]
 >
->Ce jeu de données peut désormais être sélectionné pour collecter des données d’événement lors de la [création d’une stratégie de classement](#create-ranking-strategy).
+>Ce jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼune stratégie de classement](#create-ranking-strategy).

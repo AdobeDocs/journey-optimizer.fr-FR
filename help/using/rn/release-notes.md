@@ -26,9 +26,9 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 **Gérer les balises dans vos parcours**
 
-En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin d’améliorer la recherche. Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les parcours. [En savoir plus](../building-journeys/tags.md).
+En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche. Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les parcours. [En savoir plus](../building-journeys/tags.md).
 
-**Balises de gestion de décision renommées en qualificateurs de collection**
+**Les balises de gestion des décisions changent de nom et deviennent les qualificateurs de collection.**
 
 Pour éviter toute confusion potentielle avec la version récente de la fonctionnalité des balises dans Adobe Experience Platform, les balises de gestion des décisions ont été renommées « qualificateurs de collection ».
 
@@ -38,7 +38,7 @@ Notez que bien que le terme « balise » ne soit plus utilisé dans l’interf
 
 * Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
-* Vous pouvez également choisir l’événement Adobe Experience Platform à examiner pour la limitation relative à la prise de décisions sur les offres. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
+* Vous pouvez également choisir l’événement Adobe Experience Platform à prendre en compte pour la limitation de la gestion des décisions. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 

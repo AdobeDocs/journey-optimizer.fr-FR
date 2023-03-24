@@ -10,30 +10,30 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-# Configuration de la collecte de données {#schema-requirements}
+# Configurer la collecte de données {#schema-requirements}
 
 <!--To send in feedback data, you must define how the experience events will be captured.-->
 
-Pour pouvoir obtenir des commentaires sur les types d’événements autres que les événements de décision, vous devez définir la valeur correcte de chaque type d’événement dans une variable **événement d’expérience** qui est envoyé dans Adobe Experience Platform.
+Pour obtenir des commentaires sur des types d’événement autres que les événements de décision, vous devez définir la valeur correcte de chaque type d’événement présent dans un **événement d’expérience** envoyé à Adobe Experience Platform.
 
-Pour chaque type d’événement, assurez-vous que le schéma utilisé dans le jeu de données contient la variable **[!UICONTROL Événement d’expérience - Interactions de propositions]** groupe de champs qui lui est associé. [En savoir plus](create-dataset.md).
+Pour chaque type d’événement, assurez-vous que le schéma utilisé dans le jeu de données est associé au groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]**. [En savoir plus](create-dataset.md).
 
-Vous trouverez ci-dessous les exigences de schéma que vous devez implémenter dans votre code JavaScript.
+Vous trouverez ci-dessous les exigences du schéma que vous devez implémenter dans votre code JavaScript.
 
 >[!NOTE]
 >
->Les événements de décision n’ont pas besoin d’être envoyés dans , car la gestion des décisions génère automatiquement ces événements et les place dans la variable **[!UICONTROL ODE DecisionEvents]** dataset<!--to check--> qui est généré automatiquement.
+>Les événements de décision ne doivent pas être envoyés, car la gestion des décisions génère automatiquement ces événements et les place dans le jeu de données **[!UICONTROL ODE DecisionEvents]**<!--to check--> généré automatiquement.
 
 ## Suivi des impressions
 
-Assurez-vous que le type d’événement et la source sont les suivants :
+Assurez-vous que le type d’événement et la source sont les suivants :
 
-**Type d’événement d’expérience :** `decisioning.propositionDisplay`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
+**Type d’événement d’expérience :** `decisioning.propositionDisplay`
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
 +++**Exemple de payload :**
 
 ```
@@ -64,10 +64,10 @@ Assurez-vous que le type d’événement et la source sont les suivants :
 
 ## Suivi des clics
 
-Assurez-vous que le type d’événement et la source sont les suivants :
+Assurez-vous que le type d’événement et la source sont les suivants :
 
-**Type d’événement d’expérience :** `decisioning.propositionInteract`
-**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou par ingestion par lots
+**Type d’événement d’expérience :** `decisioning.propositionInteract`
+**Source :** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) ou ingestion par lots
 +++**Exemple de payload :**
 
 ```
@@ -98,7 +98,7 @@ Assurez-vous que le type d’événement et la source sont les suivants :
 
 ## Suivi des événements personnalisés
 
-Pour les événements personnalisés, le schéma utilisé dans le jeu de données doit également comporter la variable **[!UICONTROL Événement d’expérience - Interactions de propositions]** groupe de champs qui lui est associé, mais aucune exigence spécifique au type d’événement d’expérience ne doit être utilisée pour baliser ces événements.
+Pour les événements personnalisés, le schéma utilisé dans le jeu de données doit également être associé au groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]**. Il n’y a toutefois aucune exigence spécifique quant au type d’événement d’expérience qui doit être utilisé pour baliser ces événements.
 
 <!--
 ## Using a ranking strategy {#using-ranking}

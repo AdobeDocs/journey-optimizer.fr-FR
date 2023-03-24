@@ -1,5 +1,5 @@
 ---
-title: Mise à jour des qualificateurs de collection
+title: Mettre à jour les qualificateurs de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Mise à jour d’un qualificateur de collection {#update-collection-qualifier}
+# Mettre à jour un qualificateur de collection {#update-collection-qualifier}
 
-Vous pouvez modifier ou mettre à jour un qualificateur de collection (précédemment appelé &quot;balise&quot;) dans votre conteneur en adressant une requête de PATCH à la fonction [!DNL Offer Library] API.
+Vous pouvez modifier ou mettre à jour un qualificateur de collection (auparavant appelé « balise ») dans votre conteneur en exécutant une requête PATCH sur l’API [!DNL Offer Library].
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
@@ -68,7 +68,7 @@ curl -X PATCH \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour du qualificateur de collection, y compris son identifiant d’instance unique et le qualificateur de collection. `@id`.
+Une réponse réussie renvoie les détails mis à jour du qualificateur de collection, y compris son identifiant d’instance unique et son `@id` de qualificateur de collection.
 
 ```json
 {

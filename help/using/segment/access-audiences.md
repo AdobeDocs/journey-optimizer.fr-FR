@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-Ce que vous trouverez dans cette documentation :
+Cette documentation couvre les sujets suivants :
 
-* [Prise en main de la composition des audiences](get-started-audience-orchestration.md)
+* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
 * [Créer votre premier workflow de composition](create-compositions.md)
 * [Utiliser la zone de travail de composition](composition-canvas.md)
 * **[Accéder aux audiences et les gérer](access-audiences.md)**
 
 >[!ENDSHADEBOX]
 
-Les audiences résultant de la composition de l’audience sont accessibles à partir de la **[!UICONTROL Parcourir]** dans le **[!UICONTROL Segments]** .
+Les audiences obtenues à partir de la composition de l’audience sont accessibles sous l’onglet **[!UICONTROL Parcourir]** du menu **[!UICONTROL Segments]**.
 
 Cet onglet répertorie toutes les audiences stockées dans Adobe Experience Platform. Les audiences créées à l’aide de compositions d’audience sont identifiables à leur origine **[!UICONTROL Composition de l’audience]**.
 
@@ -39,7 +39,7 @@ Cet onglet répertorie toutes les audiences stockées dans Adobe Experience Pl
 
 >[!NOTE]
 >
->Pour cette version bêta, plusieurs composants et/ou métadonnées initialement affichés dans l’inventaire des segments n’apparaissent pas dans cet onglet (ventilation, méthode d’évaluation, etc.).
+>Dans cette version Beta, plusieurs composants et/ou métadonnées initialement affichés dans l’inventaire des segments n’apparaissent pas dans cet onglet (répartition, méthode d’évaluation, etc.).
 >
 >Pour plus d’informations sur les autres types d’audiences disponibles dans Adobe Experience Platform, reportez-vous à la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 

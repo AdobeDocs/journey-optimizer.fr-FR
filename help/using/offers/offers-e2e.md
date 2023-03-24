@@ -9,7 +9,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
 
    * Créer des emplacements
    * Création de règles de décision
-   * Créer des qualificateurs de collection (précédemment appelés &quot;balises&quot;)
+   * Créer des qualificateurs de collection (précédemment appelés « balises »)
    * Création de classements (facultatif)
 
 1. [Configuration des offres](#configure-offers)
@@ -92,15 +92,15 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
 
    Les étapes détaillées pour créer des règles sont présentées dans [cette section](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. Vous pouvez également créer une **qualificateur de collection**.
+1. Vous pouvez également créer un **qualificateur de collection**.
 
-   Vous pourrez ensuite l’associer à vos offres et utiliser ce qualificateur de collection pour regrouper vos offres dans une collection.
+   Vous pourrez ensuite l’associer à vos offres et l’utiliser pour regrouper vos offres dans une collection.
 
-   Dans cet exemple, créez le *Yoga* qualificateur de collection.
+   Dans cet exemple, créez le qualificateur de collection *Yoga*.
 
    ![](assets/offers-e2e-tag.png)
 
-   Les étapes détaillées pour créer des qualificateurs de collection sont décrites dans la section [cette section](../../using/offers/offer-library/creating-tags.md).
+   Pour créer des qualificateurs de collection, suivez les étapes détaillées présentées dans [cette section](../../using/offers/offer-library/creating-tags.md).
 
 1. Si vous souhaitez définir des règles qui déterminent quelle offre doit être présentée en premier pour un emplacement donné (plutôt que de prendre en compte les scores de priorité des offres), vous pouvez créer une **formule de classement**.
 
@@ -181,7 +181,7 @@ Lors de la configuration de la décision, vous devez ajouter vos offres personna
 
 1. Pour accélérer le processus de décision, créez une collection dynamique.
 
-1. Utilisez la variable *Yoga* qualificateur de collection pour sélectionner les quatre offres personnalisées que vous avez créées précédemment.
+1. Utilisez le qualificateur de collection *Yoga* pour sélectionner les quatre offres personnalisées que vous avez créées précédemment.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 

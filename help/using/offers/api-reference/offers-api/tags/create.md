@@ -1,5 +1,5 @@
 ---
-title: Création d’un qualificateur de collection
+title: Créer un qualificateur de collection
 description: Les qualificateurs de collection vous permettent de mieux organiser et trier vos offres.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
-# Création d’un qualificateur de collection {#create-tag}
+# Créer un qualificateur de collection {#create-tag}
 
-Vous pouvez créer un qualificateur de collection (précédemment appelé &quot;balise&quot;) en adressant une requête de POST à la fonction [!DNL Offer Library] API, lors de la saisie de votre ID de conteneur.
+Vous pouvez créer un qualificateur de collection (auparavant appelé « balise ») en exécutant une requête POST sur l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur le qualificateur de collection nouvellement créé, y compris son identifiant d’instance unique et l’emplacement. `@id`. Vous pouvez utiliser l’ID d’instance aux étapes suivantes pour mettre à jour ou supprimer votre qualificateur de collection. Vous pouvez utiliser votre qualificateur de collection unique. `@id` dans des tutoriels ultérieurs pour créer des collections et des offres personnalisées.
+Une réponse réussie renvoie des informations sur le qualificateur de collection nouvellement créé, y compris son identifiant d’instance unique et son `@id` d’emplacement. Vous pouvez utiliser l’identifiant d’instance aux étapes suivantes pour mettre à jour ou supprimer votre qualificateur de collection. Vous pouvez utiliser votre `@id` de qualificateur de collection unique dans les tutoriels ultérieurs pour créer des collections et des offres personnalisées.
 
 ```json
 {
