@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1397'
 ht-degree: 77%
 
 ---
@@ -26,7 +26,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication et des liens directs seront ajoutés à cette page.
 
-**Date de disponibilité**: 29 mars
+**Date de disponibilité**: 29 mars 2023
 
 ### Nouvelles fonctionnalités{#mar-2023-features}
 
@@ -42,7 +42,7 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <td>
 <p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <tr>
 <td>
 <p>En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche. Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les parcours.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/tags.md">documentation détaillée</a>.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
