@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,12 @@ Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]**. Seuls les 
 La **zone de travail** est la zone centrale du concepteur de parcours. C&#39;est là que vous pouvez déposer vos activités et les configurer. Cliquez sur une activité de la zone de travail pour la configurer. Le volet de configuration de l&#39;activité s&#39;ouvre alors sur le côté droit.
 
 ![](assets/journey39.png)
+
+Le **barre d’outils**, situé dans le coin supérieur droit du canevas, vous permet d’afficher/de masquer la grille, d’effectuer un zoom avant/arrière et de télécharger une capture d’écran du canevas. Consultez cette [section](../building-journeys/journey-gs.md#timeout_and_error).
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 Le **volet de configuration des activités** s&#39;affiche lorsque vous cliquez sur une activité dans la palette. Renseignez les champs obligatoires. Cliquez sur l&#39;icône **[!UICONTROL Supprimer]** pour supprimer l&#39;activité. Cliquez sur **[!UICONTROL Annuler]** pour annuler les modifications ou sur **[!UICONTROL OK]** pour les confirmer. Vous pouvez également supprimer des activités en les sélectionnant, puis en appuyant sur la touche Retour arrière. Appuyez sur la touche d&#39;échappement pour fermer le volet de configuration des activités.
 

@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Intégration de Journey Optimizer à des systèmes externes
+title: Intégration de Journey Optimizer à des systèmes externes
 description: Découvrez les bonnes pratiques à appliquer lors de l’intégration de Journey Optimizer à des systèmes externes
 role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 100%
+source-wordcount: '1178'
+ht-degree: 62%
 
 ---
 
@@ -26,37 +26,50 @@ Tous les systèmes externes sont différents en termes de performances. Vous dev
 
 Lorsque Journey Optimizer exécute un appel à une API externe, les mécanismes de sécurisation techniques sont exécutés comme suit :
 
-1. Les règles de limitation sont appliquées : si le taux maximum est atteint, les appels restants sont ignorés.
+1. Les règles de limitation ou de ralentissement sont appliquées : si le taux maximal est atteint, les appels restants sont ignorés ou placés en file d’attente.
 
 2. Temporisation et reprise : si la règle de limitation est remplie, Journey Optimizer tente d&#39;effectuer l&#39;appel jusqu&#39;à la fin de la temporisation.
 
-## Limitation{#capping}
+## Limitation API de limitation et de ralentissement {#capping}
 
-L&#39;API de limitation native offre un mécanisme de sécurisation technique en amont qui permet de protéger votre système externe.
+### À propos des API de limitation et de limitation
 
-Pour les sources de données externes, le nombre maximal d’appels par seconde est défini sur 15. Si le nombre d’appels dépasse 15 par seconde, les appels restants sont ignorés. Vous pouvez augmenter cette limite pour les sources de données externes privées. Contactez Adobe pour inclure le point d’entrée dans la liste autorisée. Cela n’est pas possible pour les sources de données externes publiques.
+Lors de la configuration d’une source de données ou d’une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires à utiliser dans vos parcours ou d’envoyer des messages ou des appels d’API.
+
+Les API Parcours prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes ou API externes peuvent ne pas avoir un débit équivalent. Pour éviter de surcharger ces systèmes, vous pouvez utiliser la variable **Limitation** et **Ralentissement** API pour limiter le nombre d’événements envoyés par seconde.
+
+Chaque fois qu’un appel API est effectué par parcours, il passe par le moteur d’API. Si la limite définie dans l’API est atteinte, l’appel est rejeté si vous utilisez l’API de limitation, ou mis en file d’attente et traité le plus tôt possible dans l’ordre dans lequel ils ont été reçus si vous utilisez l’API de limitation.
+
+Supposons, par exemple, que vous ayez défini une règle de limitation ou de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et ignore ou met en file d’attente les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
+
+>[!IMPORTANT]
+>
+>**Règles de limitation** sont configurés au niveau de l’environnement de test, pour un point de terminaison spécifique (l’URL appelée), mais globaux pour tous les parcours de cet environnement de test.
+>
+>**Règles de limitation** sont configurés uniquement sur les environnements de test de production, pour un point de terminaison spécifique, mais globaux pour tous les parcours de tous les environnements de test. Vous ne pouvez avoir qu’une seule configuration de limitation par organisation.
+
+Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
+
+* [API de limitation](capping.md)
+* [API de limitation](throttling.md)
+
+### Sources de données et capacité des actions personnalisées {#capacity}
+
+Pour **sources de données externes**, le nombre maximal d’appels par seconde est limité à 15. Si cette limite est dépassée, tout appel supplémentaire est ignoré ou mis en file d’attente selon l’API utilisée. Il est possible d’augmenter cette limite pour les sources de données externes privées en contactant Adobe pour inclure le point de terminaison dans la liste autorisée de données, mais il ne s’agit pas d’une option pour les sources de données externes publiques. * [Découvrez comment configurer des sources de données](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
-> Si une source de données utilise une authentification personnalisée avec un point d’entrée différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point d’entrée dans la liste autorisée.
+>Si une source de données utilise une authentification personnalisée avec un point d’entrée différent de celui utilisé pour la source de données, vous devez contacter Adobe pour inclure également ce point d’entrée dans la liste autorisée.
 
-Pour les actions personnalisées, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une règle de limitation afin que votre système ne sature pas.
-
-Les règles de limitation sont définies au niveau du sandbox pour un point d’entrée spécifique (l’URL appelée). Au moment de l&#39;exécution, Journey Optimizer vérifie si une règle de limitation est définie et applique le taux défini lors des appels à ce point d&#39;entrée. Si le nombre d&#39;appels dépasse le taux défini, les appels restants sont ignorés et comptabilisés comme des erreurs dans les rapports.
-
-Une règle de limitation est spécifique à un point d’entrée, mais commune à tous les parcours d’un sandbox. Cela signifie que les emplacements de limitation sont partagés entre tous les parcours d’un sandbox.
-
-Supposons, par exemple, que vous ayez défini une règle de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et rejette les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
-
-Pour en savoir plus sur l’API de limitation et sur la configuration des règles de limitation, consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}.
+Pour **actions personnalisées**, vous devez évaluer la capacité de votre API externe. Par exemple, si Journey Optimizer envoie 1 000 appels par seconde et que votre système ne peut prendre en charge que 100 appels par seconde, vous devez définir une configuration de limitation ou de ralentissement afin que votre système ne se satue pas. [Découvrez comment configurer des actions](../action/action.md)
 
 ## Temporisation et reprises{#timeout}
 
-Si la règle de limitation est remplie, la règle de temporisation est appliquée.
+Si la règle de limitation ou de ralentissement est remplie, la règle de dépassement de délai est appliquée.
 
 Dans chaque parcours, vous pouvez définir un délai de temporisation. Vous pouvez ainsi définir une durée maximale lors de l&#39;appel d&#39;un système externe. Le délai de temporisation est configuré dans les propriétés d&#39;un parcours. Voir [cette page](../building-journeys/journey-gs.md#timeout_and_error).
 
-Cette temporisation est commune à tous les appels externes (appels API externes dans les actions personnalisées et les sources de données personnalisées). Par défaut, elle est définie sur 5 secondes.
+Cette temporisation est commune à tous les appels externes (appels API externes dans les actions personnalisées et les sources de données personnalisées). Par défaut, elle est définie sur 30 secondes.
 
 Pendant le délai de temporisation défini, Journey Optimizer tente d&#39;appeler le système externe. Après le premier appel, trois reprises au maximum peuvent être effectuées jusqu&#39;à la fin du délai de temporisation. Le nombre de reprises ne peut pas être modifié.
 
@@ -72,11 +85,11 @@ Prenons un exemple pour une temporisation de 5 secondes.
    * Si l&#39;une des trois reprises réussit avant la fin des 5 secondes, l&#39;appel est effectué et aucune erreur ne se produit.
    * Si la fin du délai de temporisation est atteinte lors des nouvelles reprises, l&#39;appel est annulé et compté comme une erreur de temporisation dans les rapports.
 
-## Questions fréquemment posées{#faq}
+## Questions fréquentes{#faq}
 
-**Comment configurer une règle de limitation ? Existe-t-il une règle de limitation par défaut ?**
+**Comment configurer une règle de limitation ou de ralentissement ? Existe-t-il une règle par défaut ?**
 
-Par défaut, il n&#39;existe aucune règle de limitation. Les règles de limitation sont définies au niveau du sandbox pour un point d’entrée spécifique (l’URL appelée), à l’aide de l’API Capping. Reportez-vous à [cette section](../configuration/external-systems.md#capping) et à la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}.
+Par défaut, il n’existe aucune règle de limitation ou de ralentissement. Les règles sont définies au niveau de l’environnement de test pour un point de terminaison spécifique (l’URL appelée), à l’aide de l’API Limitation ou Limitation. Reportez-vous à [cette section](../configuration/external-systems.md#capping).
 
 **Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
 

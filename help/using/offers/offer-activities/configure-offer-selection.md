@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 87%
 
 ---
 
@@ -38,7 +38,7 @@ Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la dat
 
 Découvrez comment créer une formule de classement dans [cette section](../ranking/create-ranking-formulas.md).
 
-Après avoir créé une formule de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
+Une fois qu’une formule a été créée, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
 1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 
@@ -46,17 +46,17 @@ Après avoir créé une formule de classement, vous pouvez l’affecter à un em
 
 1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-1. Sélectionnez **[!UICONTROL Formule de classement]** comme méthode de classement, puis cliquez sur **[!UICONTROL Ajouter un classement]**. 
+1. Sélectionner **[!UICONTROL Formule]** comme méthode de classement, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Sélectionnez la formule de classement souhaitée, puis cliquez sur **[!UICONTROL Sélectionner]**.
+1. Sélectionnez la formule souhaitée, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](../assets/ranking-selection.png)
 
 La formule de classement est désormais associée à l&#39;emplacement.
 
-Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera la formule de classement pour calculer l&#39;offre à diffuser en premier.
+Si plusieurs offres peuvent être présentées à cet emplacement, la décision utilisera la formule sélectionnée pour calculer la première offre à diffuser.
 
 ## Classement par l&#39;IA {#use-ranking-strategy}
 

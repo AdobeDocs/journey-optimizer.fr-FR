@@ -5,11 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, message, conception, mise en forme
 badge: label="Beta" type="Informative"
+keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
-workflow-type: ht
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Vous pouvez modifier le contenu in-app pour configurer les options d’expérien
 
 Pour configurer le contenu du message, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** et utilisez les options de la section droite de l’écran pour concevoir le contenu de votre message in-app.
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 Le bouton **[!UICONTROL Formatage avancé]** active des options supplémentaires pour personnaliser l’expérience.
 

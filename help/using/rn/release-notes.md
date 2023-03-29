@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 77%
+source-wordcount: '1320'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour initiales de mars 2023 {#mar-2023}
+## Notes de mise à jour de mars 2023 {#mar-2023}
 
 Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication et des liens directs seront ajoutés à cette page.
 
@@ -30,22 +30,23 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 
 ### Nouvelles fonctionnalités{#mar-2023-features}
 
-
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Canal In-App (Disponibilité générale)</strong><br/></th>
+<th><strong>In-app channel (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
+<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -57,7 +58,8 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <tr>
 <td>
 <p>Grâce au suivi des clics SMS, vous pouvez surveiller les performances de vos URL raccourcies, identifier qui a cliqué dessus et utiliser ces données pour recibler ces clients avec les campagnes suivantes.</p>
-<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/sms-tracking.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#sms-content">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <tr>
 <td>
 <p>En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche. Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les parcours.</p>
-<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/tags.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -85,10 +87,11 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 
 **Parcours**
 
-* La nouvelle **API de limitation** vous permet de définir une limite au nombre d’événements envoyés par seconde, ce qui empêche des pics de trafic écrasants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour tous vos environnements de test.
-* Le canevas de Parcours a été amélioré pour une expérience utilisateur plus simple et améliorée. À la fin de chaque chemin d’accès dans la zone de travail, les espaces réservés vides ont été supprimés. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
-* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours ont été modifiés de 5 à 30 secondes. Le taux de ralentissement par défaut dans les activités de segments lus a été modifié de 20 000 à 5 000 messages par seconde.
-* Une barrière de sécurité a été ajoutée au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte.
+* La nouvelle **API de limitation** vous permet de définir une limite au nombre d’événements envoyés par seconde, ce qui empêche des pics de trafic écrasants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour tous vos environnements de test. [En savoir plus](../configuration/external-systems.md).
+* Le canevas de Parcours a été amélioré pour une expérience utilisateur plus simple et améliorée. À la fin de chaque chemin dans la zone de travail, les espaces réservés vides ont été supprimés. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
+* Dans la zone de travail du parcours, le libellé de la propriété **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs peuvent ajouter manuellement une étiquette personnalisée.
+* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours ont été modifiés de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
+* Le taux de ralentissement par défaut dans les activités de segments lus a été modifié de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -105,15 +108,23 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 
    Notez que bien que le terme « balise » ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services back-end, tels que les API et les jeux de données.
 
-* Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois.<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
-* Vous pouvez également choisir l’événement Adobe Experience Platform à prendre en compte pour la limitation de la gestion des décisions.<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* Vous pouvez également choisir l’événement Adobe Experience Platform à prendre en compte pour la limitation de la gestion des décisions. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
-* Des paramètres supplémentaires ont été ajoutés à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et de spécifier si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse de l’API. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-**Personnalisation**
+<!--**Personalization**
 
-* Vous pouvez désormais inclure du texte de remplacement par défaut pour les attributs de profil basés sur une chaîne dans l’éditeur d’expression. Ces valeurs s’affichent si les attributs sélectionnés ne renvoient aucun résultat. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
+* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+
+<!--
+**Reporting**
+
+* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
+-->
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 
@@ -130,6 +141,7 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <td>
 <p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <p><strong>Attention</strong> : cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.</p>
+<img src="assets/do-not-localize/in-app.gif"/>
 <p>Pour plus d'informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -185,6 +197,25 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
+
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 -->
 
 ### Améliorations {#feb-2023-improvements}
@@ -218,6 +249,10 @@ Note that each widget can be resized and deleted as needed.
 * **Surface d’email** : dans la section **Paramètres de suivi des URL** des paramètres de surface d’e-mail, la limite de chaque champ **Valeur** a été mise à jour de 255 caractères à 5 Ko pour des raisons de compatibilité avec le suivi Adobe Analytics. [En savoir plus](../email/email-settings.md#url-tracking)
 
 **Gestion des décisions**
+
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **Personnalisation des URL** : lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md).
 

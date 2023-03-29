@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 100%
+source-wordcount: '1402'
+ht-degree: 79%
 
 ---
 
@@ -98,19 +98,19 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. Définissez la méthode de classement à utiliser pour sélectionner la meilleure offre pour chaque profil.
+1. Définissez la méthode de classement à utiliser pour sélectionner la meilleure offre pour chaque profil. [En savoir plus](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 
-   * Par défaut, si plusieurs offres sont éligibles pour cet emplacement, l’offre ayant le score de priorité le plus élevé sera diffusée au client.
+   * Par défaut, si plusieurs offres sont éligibles pour cet emplacement, la variable **[!UICONTROL Priorité des offres]** utilise la valeur définie dans les offres : l’offre ayant le score de priorité le plus élevé sera diffusée à l’utilisateur.
 
-   * Si vous souhaitez utiliser une formule spécifique pour choisir l’offre éligible à diffuser, sélectionnez **[!UICONTROL Formule de classement]**. Découvrez comment classer les offres dans [cette section](../offer-activities/configure-offer-selection.md).
+   * Si vous souhaitez utiliser un score calculé spécifique pour choisir l&#39;offre éligible à diffuser, sélectionnez **[!UICONTROL Formule]** ou **[!UICONTROL Modèle AI]**. [En savoir plus](../offer-activities/configure-offer-selection.md).
 
 1. Cliquez sur **[!UICONTROL Ajouter]** pour définir d’autres critères pour le même emplacement.
 
    ![](../assets/activity_add-collection.png)
 
-1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence sera évaluée en premier, etc.
+1. Lorsque vous ajoutez plusieurs critères, ils sont évalués dans un ordre spécifique. La première collection ajoutée à la séquence sera évaluée en premier, etc. [En savoir plus](#evaluation-criteria-order).
 
    Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les collections afin de les réorganiser selon vos besoins.
 
@@ -120,13 +120,27 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../assets/activity_move-collection.png)
 
-   Elles possèdent désormais le même rang et seront donc évaluées en même temps.
+   Elles possèdent désormais le même rang et seront donc évaluées en même temps. [En savoir plus](#evaluation-criteria-order).
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. Pour ajouter un emplacement supplémentaire pour vos offres dans le cadre de cette décision, cliquez sur le bouton **[!UICONTROL Nouvelle portée]**. Répétez les étapes ci-dessus pour chaque portée de décision.
 
    ![](../assets/activity_new-scope.png)
+
+### Ordre des critères d’évaluation {#evaluation-criteria-order}
+
+Comme décrit ci-dessus, un critère d’évaluation se compose d’une collection, de contraintes d’éligibilité et d’une méthode de classement. Vous pouvez définir l’ordre séquentiel souhaité pour que les critères d’évaluation soient évalués, mais vous pouvez également combiner plusieurs critères d’évaluation afin qu’ils soient évalués ensemble et non séparément.
+
+Par exemple, vous disposez de deux collections, l’une dans le critère d’évaluation A et l’autre dans le critère d’évaluation B. La demande concerne le renvoi de deux offres. Supposons qu’il existe deux offres éligibles du critère d’évaluation A et trois offres éligibles du critère d’évaluation B.
+
+* Si les deux critères d&#39;évaluation sont **non combiné** et/ou dans l’ordre séquentiel (1 et 2), les deux premières offres éligibles des critères d’évaluation seront renvoyées dans la première ligne. S’il n’existe pas deux offres éligibles pour le premier critère d’évaluation, le moteur de décision passe aux critères d’évaluation suivants l’ordre de recherche afin de trouver autant d’offres qu’il est encore nécessaire, et renverra en fin de compte un secours si nécessaire.
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* Si les deux collections sont **évalué en même temps**, puisqu’il existe deux offres éligibles du critère d’évaluation A et trois offres éligibles du critère d’évaluation B, les cinq offres seront combinées selon la valeur déterminée par les méthodes de classement respectives. Deux offres sont demandées. Par conséquent, les deux premières offres éligibles de ces cinq offres seront renvoyées.
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## Ajouter une offre de secours {#add-fallback}
 

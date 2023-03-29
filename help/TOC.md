@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 99%
+source-wordcount: '1355'
+ht-degree: 98%
 
 ---
 
@@ -221,6 +221,7 @@ ht-degree: 99%
    + [Prévisualiser et tester votre SMS](using/sms/send-sms.md)
    + [Gérer les désinscriptions aux SMS](using/sms/sms-opt-out.md)
    + [Configurer le canal SMS](using/sms/sms-configuration.md)
+   + [Configuration des sous-domaines SMS](using/sms/sms-subdomains.md)
 + Publipostage direct {#direct-mail}
    + [Créer un publipostage direct](using/direct-mail/create-direct-mail.md)
    + [Configurer le publipostage direct](using/direct-mail/direct-mail-configuration.md)
@@ -439,7 +440,10 @@ ht-degree: 99%
    + [Gérer les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
-      + [Intégration aux systèmes externes](using/configuration/external-systems.md)
+      + Intégration aux systèmes externes {#external-systems}
+         + [Intégration de parcours à des systèmes externes](using/configuration/external-systems.md)
+         + [API de limitation](using/configuration/capping.md)
+         + [API de limitation](using/configuration/throttling.md)
       + Configuration des événements {#events-journeys}
          + [Principe général](using/event/about-events.md)
          + Configuration d’un événement unitaire {#unitary-events}

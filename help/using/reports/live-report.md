@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1052'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,8 @@ Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey
 
 Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets. La modification des widgets n’a un impact que sur le tableau de bord de l’utilisateur actuel. Les autres utilisateurs voient leurs propres tableaux de bord ou ceux définis par défaut.
 
+1. Dans la **[!UICONTROL Actions]** choisissez si vous souhaitez créer des rapports sur une action particulière de vos parcours.
+
 1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, consultez [cette page](../building-journeys/testing-the-journey.md).
 
    Notez que l&#39;option **[!UICONTROL Exclure les événements de test]** n&#39;est disponible que pour les rapports de parcours.
@@ -57,6 +59,10 @@ Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou e
    ![](assets/report_modify_9.png)
 
 1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. Pour personnaliser l’affichage de vos données, vous pouvez passer de différentes options de visualisation, telles que les graphiques, les tableaux et les graphiques en anneau.
+
+   ![](assets/report_modify_11.png)
 
 Votre tableau de bord est maintenant enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports dynamiques. Si nécessaire, utilisez l’option **[!UICONTROL Réinitialiser]** pour restaurer les widgets par défaut et leur ordre.
 

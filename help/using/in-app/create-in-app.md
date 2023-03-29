@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, message, création, commencer
 badge: label="Beta" type="Informative"
+keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
-workflow-type: ht
-source-wordcount: '653'
-ht-degree: 100%
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 74%
 
 ---
 
@@ -37,7 +37,7 @@ Pour créer un message in-app, suivez les étapes ci-dessous :
 
 1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la page de destination, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au message in-app, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour définir l’audience à cibler à partir de la liste des segments Adobe Experience Platform disponibles. [En savoir plus](../segment/about-segments.md).
 
@@ -45,27 +45,22 @@ Pour créer un message in-app, suivez les étapes ci-dessous :
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
+1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message :
+
+   1. Cliquez sur **[!UICONTROL Ajouter] condition** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
+   1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
+   1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
+
+   ![](assets/in_app_create_3.png)
+
 1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
 
-   * **[!UICONTROL Afficher à chaque fois]** : toujours afficher le message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
-   * **[!UICONTROL Afficher une fois]** : n’afficher ce message que la première fois que les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
-   * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
+   * **[!UICONTROL Everytime]**: Toujours afficher le message lorsque les événements sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
+   * **[!UICONTROL Une fois]**: N’afficher ce message que la première fois que les événements sont sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
+   * **[!UICONTROL Jusqu’à ce qu’un clic soit]**: Afficher ce message lorsque les événements sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** se produit jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action &quot;clicked&quot;.
+   * **[!UICONTROL X nombre de fois]**: Afficher ce message X fois.
 
-1. Dans le ou les menus déroulants **[!UICONTROL Déclencheur d’application mobile]**, choisissez le ou les événements et les critères qui déclencheront votre message :
-
-   1. Dans le menu déroulant de gauche, sélectionnez l’événement nécessaire pour déclencher le message.
-   1. Dans le menu déroulant de droite, sélectionnez la validation requise pour l’événement sélectionné.
-   1. Cliquez sur le bouton **[!UICONTROL Ajouter]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères. Répétez ensuite les étapes ci-dessus.
-   1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
-
-   ![](assets/in_app_create_3.png)
-
-1. Sélectionnez l’événement qui déclenche votre message dans le
-menu déroulant **[!UICONTROL Déclencheur d’application mobile]**.
-
-   En choisissant un déclencheur, vous choisissez l’action de l’utilisateur qui entraîne l’affichage du message in-app.
-
-   ![](assets/in_app_create_3.png)
+1. Si nécessaire, choisissez laquelle **[!UICONTROL Jour de la semaine]** ou **[!UICONTROL Heure de la journée]** le message in-app s’affiche.
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
@@ -111,7 +106,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 Votre campagne est maintenant activée. La notification in-app configurée dans la campagne est envoyée immédiatement ou le sera à la date indiquée.
 
-Une fois envoyés, vous pouvez mesurer l’impact de vos messages in-app dans le rapport Campaign. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
+Une fois envoyés, vous pouvez mesurer l’impact de vos messages In-App dans les rapports de campagne ou de Parcours. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
 
 **Rubriques connexes :**
 

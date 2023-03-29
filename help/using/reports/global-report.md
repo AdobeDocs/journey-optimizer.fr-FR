@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,10 @@ Chaque tableau de bord de reporting peut être modifié en modifiant la période
    ![](assets/report_modify_5.png)
 
 1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. Pour personnaliser l’affichage de vos données, vous pouvez passer de différentes options de visualisation, telles que les graphiques, les tableaux et les graphiques en anneau.
+
+   ![](assets/report_modify_10.png)
 
 Votre tableau de bord est maintenant enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports dynamiques. Si nécessaire, utilisez l’option **[!UICONTROL Réinitialiser]** pour restaurer les widgets par défaut et leur ordre.
 

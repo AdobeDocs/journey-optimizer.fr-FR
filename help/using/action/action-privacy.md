@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, stratégie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,6 @@ Pour plus d’informations sur le cadre de gouvernance des données et sur l’u
 
 * La gouvernance des données s’applique uniquement aux actions personnalisées dans les parcours. Les actions de Campaign Classic et de Campaign Standard ne sont pas prises en charge.
 * Les stratégies de gouvernance s’appliquent uniquement lorsqu’une action marketing (requise ou supplémentaire) est définie au niveau de l’action personnalisée.
-* Les attributs qui font partie d’un groupe de champs utilisant le schéma d’union prêt à l’emploi ne sont pas pris en charge. Ces attributs seront masqués dans l’interface. Vous devez créer un autre groupe de champs utilisant un autre schéma.
 
 ## Définir les stratégies de gouvernance {#governance-policies}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ Les mécanismes de sécurisation des performances et les limites statiques pour 
 * Le segment et l’espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de rentrée doit être la même dans toutes les versions du parcours.
 * Un parcours commençant par un événement **Lire le segment** ne peut pas commencer par un autre événement dans les versions suivantes.
+* Vous ne pouvez pas créer de version d’un parcours de segment lu avec lecture incrémentielle. Vous devez dupliquer le parcours.
 
 ### Actions personnalisées {#custom-actions-g}
 

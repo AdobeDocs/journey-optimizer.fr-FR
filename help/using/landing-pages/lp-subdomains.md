@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 96%
 
 ---
 
@@ -40,8 +40,6 @@ Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer
 >[!CAUTION]
 >
 >La configuration des sous-domaines de la page de destination est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine de page de destination aura également un impact sur les sandbox de production.
-
-Veuillez noter que les majuscules ne doivent pas être autorisées dans un sous-domaine.
 
 ## Utiliser un sous-domaine existant {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
    >[!NOTE]
    >
-   >Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).-->
+   >Avant de pouvoir utiliser ce sous-domaine pour vos landing pages, vous devez attendre qu’Adobe effectue les vérifications requises, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour créer des préréglages de page de destination.
 

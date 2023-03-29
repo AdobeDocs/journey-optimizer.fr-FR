@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 100%
+source-wordcount: '1522'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Remarques importantes {#important_notes}
 
-* Une interface permet de déclencher des événements sur le parcours testé. Cependant, des événements peuvent également être envoyés par des systèmes tiers tels que Postman.
+* En mode test, vous pouvez déclencher des événements à l’aide de l’interface .
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../segment/creating-test-profiles.md).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant rejoindre un parcours au cours d’une session de test est de 100.
@@ -103,8 +103,6 @@ Lorsque vous cliquez sur le bouton **[!UICONTROL Envoyer]**, le test commence. L
 Si vous sélectionnez un autre profil de test dans l’écran de configuration d’un événement et que vous exécutez de nouveau le test, le flux visuel est effacé et indique le chemin du nouvel individu.
 
 Lorsque vous ouvrez un parcours en cours de test, le chemin affiché correspond au dernier test exécuté.
-
-Le flux visuel fonctionne que l’événement soit déclenché par l’interface ou de manière externe (à l’aide de Postman, par exemple).
 
 ## Mode test pour les parcours basés sur des règles {#test-rule-based}
 

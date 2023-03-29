@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
-workflow-type: ht
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Pour l’envoi d’un message marketing en spécifiant une date d’envoi, le type **Planifiée** est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon du panier, le type **Déclenché par API** est le meilleur choix."
+>abstract="Pour un message marketing en spécifiant une date d’envoi, la variable **Planifié** type est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon du panier, le type **Déclenché par API** est le meilleur choix."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
