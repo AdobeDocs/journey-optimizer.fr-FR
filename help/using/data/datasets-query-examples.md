@@ -10,9 +10,9 @@ level: Intermediate
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Opti
 [Jeu de données d’événement de retour en Cci](#bcc-feedback-event-dataset)
 [Jeu de données d’entité](#entity-dataset)
 
-Pour consulter la liste complète des champs et attributs de chaque schéma, consultez la [Dictionnaire de schéma Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
 
 ## Jeu de données d’événement d’expérience de tracking e-mail{#email-tracking-experience-event-dataset}
 
