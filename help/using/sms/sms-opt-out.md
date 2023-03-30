@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Conformément aux normes et réglementations du secteur, tous les messages SMS d
 
 ## Mots-clés entrants natifs{#sms-native-keywords}
 
-Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les messages sans frais et à code long : ARRÊTER, ANNULER, DÉMARRER, QUITTER, ANNULER, FIN et DÉSABONNER. Notez que seul Sinch prend en charge les mots-clés natifs lorsqu’il est utilisé avec Journey Optimizer.
+Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les messages sans frais et à code long : STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE. Notez que seul Sinch prend en charge les mots-clés natifs lorsqu’il est utilisé avec Journey Optimizer.
 
-Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers. Contactez votre fournisseur ou consultez son site de documentation pour en savoir plus.
+Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers. Contactez votre fournisseur ou consultez son site de documentation pour en avoir la confirmation.
 
-Aucune procédure n’est requise pour s’assurer que les fonctionnalités d’exclusion des SMS fonctionnent dans Adobe Journey Optimizer lorsque les réponses des mots-clés STOP, UNSTOP, START, QUIT, CANCEL, END et UNSUBSCRIBE sont automatiquement reconnues. Les statuts de désinscription des profils sont mis à jour en temps réel dans Adobe Journey Optimizer.
+Aucune opération n’est nécessaire pour s’assurer que les fonctionnalités de désinscription par SMS fonctionnent dans Adobe Journey Optimizer, car les réponses par mot-clé STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE sont automatiquement reconnues. Les statuts de désinscription des profils sont mis à jour en temps réel dans Adobe Journey Optimizer.
 
 
 ## Listes bloquées{#sms-blocklists}
@@ -39,9 +39,9 @@ En fonction du statut de désinscription, Adobe Journey Optimizer arrêtera l�
 
 ## Codes courts {#short-codes}
 
-Par défaut, les mots-clés d’inclusion ou d’aide pour les numéros courts de code ne sont pas gérés par Adobe Journey Optimizer. Pour garantir la conformité aux réglementations du secteur et aux règles de gestion des exclusions, il est essentiel de vérifier que votre code court respecte toutes les directives.
+Par défaut, les mots-clés relatifs à l’incription ou à l’aide pour les numéros de code court ne sont pas gérés par Adobe Journey Optimizer. Pour garantir la conformité aux réglementations du secteur et aux règles de gestion des désinscriptions, il est essentiel de vérifier que votre code court respecte toutes les directives.
 
-Cependant, Journey Optimizer prend en charge les exclusions globales basées sur les mots-clés entrants avec différents ID d’expéditeur.
+Cependant, Journey Optimizer prend en charge les désinscriptions globales basées sur les mots-clés entrants avec différents ID d’expéditeur ou d’expéditrice.
 
 ## ID d’expéditeur alphanumérique {#alphanumeric}
 
