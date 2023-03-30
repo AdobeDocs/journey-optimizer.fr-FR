@@ -1,0 +1,61 @@
+---
+title: Tester et envoyer votre notification in-app
+description: Découvrez comment tester et envoyer un message in-app dans Journey Optimizer
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
+keywords: in-app, message, création, commencer
+source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 69%
+
+---
+
+# Tester et envoyer votre notification in-app {#create-in-app}
+
+## Aperçu sur l’appareil {#preview-device}
+
+Une fois que [création du message in-app](create-in-app.md) et [Définition de son contenu](design-in-app.md), vous pouvez prévisualiser la notification In-App sur un appareil spécifique.
+
+Pour ce faire, suivez les étapes ci-après :
+
+1. Cliquez sur **[!UICONTROL Aperçu sur l’appareil]**.
+
+   ![](assets/in_app_create_6.png)
+
+1. Dans la fenêtre **[!UICONTROL Connexion à l’appareil]**, cliquez sur **[!UICONTROL Commencer]**.
+
+1. Saisissez l’**[!UICONTROL URL de base]** de votre application, puis cliquez sur **[!UICONTROL Suivant]**.
+
+   ![](assets/in_app_create_7.png)
+
+1. Scannez le code QR avec votre appareil et saisissez le code PIN affiché.
+
+Votre message in-app peut maintenant être déclenché directement sur votre appareil, ce qui vous permet de prévisualiser et de vérifier votre message sur un appareil réel.
+
+## Vérifier et activer votre notification in-app{#in-app-review}
+
+Une fois votre message in-app prêt, vous pouvez le vérifier et l’activer.
+
+Pour ce faire, suivez les étapes ci-après :
+
+1. Utilisez le bouton **[!UICONTROL Examiner pour activer]** pour afficher un résumé de votre message.
+
+   Le résumé vous permet de modifier votre campagne si nécessaire et de vérifier si un paramètre est incorrect ou manquant.
+
+   ![](assets/in_app_create_5.png)
+
+1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
+
+Votre campagne est maintenant activée. La notification in-app configurée dans la campagne est envoyée immédiatement ou le sera à la date indiquée.
+
+Une fois envoyés, vous pouvez mesurer l’impact de vos messages In-App dans les rapports de campagne ou de Parcours. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
+
+**Rubriques connexes :**
+
+* [Créer un message in-app](create-in-app.md)
+* [Concevoir un message in-app](design-in-app.md)
+* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
+* [Configuration in-app](inapp-configuration.md)

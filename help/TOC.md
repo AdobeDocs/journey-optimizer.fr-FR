@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1361'
 ht-degree: 98%
 
 ---
@@ -165,9 +165,9 @@ ht-degree: 98%
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + Expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/campaigns/get-started-experiment.md)
-      + [Création d’une expérience de contenu](using/campaigns/content-experiment.md)
+      + [Créer une expérience de contenu](using/campaigns/content-experiment.md)
       + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
-      + [Configurer des rapports d’expérimentation](using/campaigns/reporting-configuration.md)
+      + [Configurer des rapports d’expérience](using/campaigns/reporting-configuration.md)
       + [Calculs statistiques dans le rapport d’expérience](using/campaigns/experiment-report-calculations.md)
    + [Déclenchement de campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Canal e-mail {#email}
@@ -206,6 +206,7 @@ ht-degree: 98%
    + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
    + [Créer un message in-app](using/in-app/create-in-app.md)
    + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
+   + [Tester et envoyer votre notification in-app](using/in-app/send-in-app.md)
    + [Configurer le canal in-app](using/in-app/inapp-configuration.md)
 + Canal de notification push{#push}
    + [Prise en main des notifications push](using/push/get-started-push.md)
@@ -420,7 +421,7 @@ ht-degree: 98%
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
       + [Exporter des jeux de données Journey Optimizer](using/data/export-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
-      + [Schémas intégrés > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [Schémas intégrés > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
    + [Requêtes](using/data/get-started-queries.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
@@ -449,7 +450,7 @@ ht-degree: 98%
          + Configuration d’un événement unitaire {#unitary-events}
             + [Prise en main des événements unitaires](using/event/about-creating.md)
             + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
-            + [Utilisation d’Adobe Analytics](using/event/about-analytics.md)
+            + [Utiliser Adobe Analytics](using/event/about-analytics.md)
          + [Configuration d’un événement métier](using/event/about-creating-business.md)
          + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey.md)
       + Configuration des sources de données{#data-source-journeys}

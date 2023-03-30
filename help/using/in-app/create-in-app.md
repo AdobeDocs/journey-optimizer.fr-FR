@@ -7,16 +7,14 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 73%
+source-wordcount: '404'
+ht-degree: 63%
 
 ---
 
 # Créer un message in-app {#create-in-app}
-
-## Créer une campagne et un message in-app{#create-in-app-in-a-campaign}
 
 Pour créer un message in-app, suivez les étapes ci-dessous :
 
@@ -61,56 +59,21 @@ Pour créer un message in-app, suivez les étapes ci-dessous :
 
    ![](assets/in-app-schedule.png)
 
-1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**.
+1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu.]** [En savoir plus](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 
-## Envoyer vos messages in-app{#in-app-send}
-
-### Aperçu sur l’appareil {#preview-device}
-
-Vous pouvez prévisualiser la notification in-app sur un appareil spécifique.
-
-1. Cliquez sur **[!UICONTROL Aperçu sur l’appareil]**.
-
-   ![](assets/in_app_create_6.png)
-
-1. Dans la fenêtre **[!UICONTROL Connexion à l’appareil]**, cliquez sur **[!UICONTROL Commencer]**.
-
-1. Saisissez l’**[!UICONTROL URL de base]** de votre application, puis cliquez sur **[!UICONTROL Suivant]**.
-
-   ![](assets/in_app_create_7.png)
-
-1. Scannez le code QR avec votre appareil et saisissez le code PIN affiché.
-
-Votre message in-app peut maintenant être déclenché directement sur votre appareil, ce qui vous permet de prévisualiser et de vérifier votre message sur un appareil réel.
-
-### Vérifier et activer votre notification in-app{#in-app-review}
-
-Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer.
-
-Pour ce faire, suivez les étapes ci-après :
-
-1. Utilisez le bouton **[!UICONTROL Examiner pour activer]** pour afficher un résumé de votre message.
-
-   Le résumé vous permet de modifier votre campagne si nécessaire et de vérifier si un paramètre est incorrect ou manquant.
-
-   ![](assets/in_app_create_5.png)
-
-1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
-
-Votre campagne est maintenant activée. La notification in-app configurée dans la campagne est envoyée immédiatement ou le sera à la date indiquée.
-
-Une fois envoyés, vous pouvez mesurer l’impact de vos messages In-App dans les rapports de campagne ou de Parcours. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
-
-**Rubriques connexes :**
-
-* [Concevoir un message in-app](design-in-app.md)
-* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
-* [Configuration in-app](inapp-configuration.md)
 
 ## Vidéo pratique{#video}
 
 La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+
+
+**Rubriques connexes :**
+
+* [Concevoir un message in-app](design-in-app.md)
+* [Tester et envoyer votre message in-app](send-in-app.md)
+* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
+* [Configuration in-app](inapp-configuration.md)
