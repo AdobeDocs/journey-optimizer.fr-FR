@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Intégration d’Adobe Analytics
-description: Découvrez comment exploiter les données d’Adobe Analytics. dans Journey Optimizer
+description: Découvrez comment exploiter les données d’Adobe Analytics. dans Journey Optimizer
 feature: Events
 topic: Administration
 role: Admin
@@ -10,35 +10,35 @@ level: Intermediate
 keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# Utilisation des données Adobe Analytics {#analytics-data}
+# Utiliser des données Adobe Analytics {#analytics-data}
 
-Vous pouvez exploiter toutes les données d’événement comportemental web que vous capturez déjà par le biais d’Adobe Analytics ou du SDK web, et les diffuser en continu dans Adobe Experience Platform, afin de déclencher des parcours et d’automatiser les expériences de vos clients.
+Vous pouvez exploiter toutes les données comportementales d’événement que vous capturez déjà via Adobe Analytics ou le SDK web et diffusez déjà en continu dans Adobe Experience Platform, afin de déclencher des parcours et d’automatiser les expériences de vos clientes et clients.
 
-Pour que cela fonctionne avec Adobe Analytics, vous devez :
+Pour que cela fonctionne avec Adobe Analytics, vous devez :
 
-1. Activez la suite de rapports à utiliser. [En savoir plus](#leverage-analytics-data).
-1. Activez Journey Optimizer pour utiliser votre source de données Adobe Analytics. [En savoir plus](#activate-analytics-data).
-1. Ajoutez un événement spécifique à votre parcours. [En savoir plus](#event-analytic).
+1. activer la suite de rapports à utiliser ; [En savoir plus](#leverage-analytics-data).
+1. activer Journey Optimizer pour utiliser votre source de données Adobe Analytics ; [En savoir plus](#activate-analytics-data).
+1. ajouter un événement spécifique à votre parcours. [En savoir plus](#event-analytic).
 
 >[!NOTE]
 >
->Cette section s’applique uniquement aux événements basés sur des règles et aux clients qui doivent utiliser des données Adobe Analytics ou SDK Web.
+>Cette section s’applique uniquement aux événements basés sur des règles et aux clientes et clients qui doivent utiliser des données d’Adobe Analytics ou du SDK web.
 > 
->Si vous utilisez Adobe Customer Journey Analytics, reportez-vous à la section [cette page](../reports/cja-ajo.md).
+>Si vous utilisez Adobe Customer Journey Analytics, reportez-vous à [cette page](../reports/cja-ajo.md).
 
-## Configuration des données Adobe Analytics ou du SDK Web {#leverage-analytics-data}
+## Configurer les données d’Adobe Analytics ou du SDK web {#leverage-analytics-data}
 
-Les données provenant d’Adobe Analytics ou du SDK Web Adobe Experience Platform doivent être activées pour être utilisées dans vos parcours.
+Les données provenant d’Adobe Analytics ou du SDK web d’Adobe Experience Platform doivent être activées pour être utilisées dans vos parcours.
 
 Pour ce faire, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Sources]** .
+1. Accédez au menu **[!UICONTROL Sources]**.
 
 1. Dans la section Adobe Analytics, sélectionnez **[!UICONTROL Ajouter des données]**.
 
@@ -64,29 +64,29 @@ Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [doc
 
 ## Activer cette configuration {#activate-analytics-data}
 
-Une fois cette configuration terminée, contactez Adobe pour permettre à votre environnement Journey Optimizer d’utiliser cette source de données. Cette étape n’est nécessaire que pour les sources de données Adobe Analytics. Procédez comme suit :
+Une fois cette configuration terminée, contactez Adobe pour permettre à votre environnement Journey Optimizer d’utiliser cette source de données. Cette étape n’est nécessaire que pour les sources de données d’Adobe Analytics. Procédez comme suit :
 
-1. Obtenez l’identifiant de la source de données. Ces informations sont disponibles dans l’interface utilisateur : accédez à la source de données que vous avez créée à partir du **Flux de données** de l’onglet **Sources** . Le moyen le plus simple de le trouver est de filtrer selon les sources Adobe Analytics.
-1. Contactez l’Assistance clientèle d’Adobe avec les détails suivants :
+1. Obtenez l’identifiant de la source de données. Cette information est disponible dans l’interface utilisateur : accédez à la source de données que vous avez créée à partir de l’onglet **Flux de données** du menu **Sources**. Le moyen le plus simple de l trouver est de filtrer selon les sources Adobe Analytics.
+1. Contactez l’assistance clientèle d’Adobe avec les détails suivants :
 
-   * Objet : Activation des événements Adobe Analytics pour les parcours
+   * Objet : Activer des événements Adobe Analytics pour les parcours
 
-   * Contenu : Activez mon environnement pour utiliser les événements AA.
+   * Contenu : Merci d’activer mon environnement pour utiliser les événements AA.
 
-      * ID d’organisation : &quot;XXX@AdobeOrg&quot;
+      * ID d’organisation : « XXX@AdobeOrg »
 
-      * Identifiant de la source de données : &quot;ID : xxxxx&quot;
+      * ID de la source de données : « ID : xxxxx »
 
-1. Une fois que vous avez reçu la confirmation que votre environnement est prêt, vous pouvez utiliser les données Adobe Analytics dans vos parcours.
+1. Une fois que vous avez reçu la confirmation que votre environnement est prêt, vous pouvez utiliser les données d’Adobe Analytics dans vos parcours.
 
-## Créer un parcours avec un événement à l’aide des données d’Adobe Analytics ou du SDK Web {#event-analytics}
+## Créer un parcours avec un événement utilisant des données d’Adobe Analytics ou du SDK Web {#event-analytics}
 
-Vous pouvez désormais créer un événement basé sur les données du SDK Web d’Adobe Analytics ou de Adobe Experience Platform à utiliser dans un parcours.
+Vous pouvez désormais créer un événement basé sur les données du SDK web d’Adobe Experience Platform ou d’Adobe Analytics à utiliser dans un parcours.
 
-Dans l’exemple ci-dessous, découvrez comment cibler les utilisateurs qui ont ajouté un produit à leur panier :
+Dans l’exemple ci-dessous, découvrez comment cibler les utilisateurs et utilisatrices qui ont ajouté un produit à leurs paniers :
 
-* Si la commande est terminée, les utilisateurs reçoivent un courrier électronique de relance deux jours plus tard pour demander des commentaires.
-* Si la commande n’est pas terminée, les utilisateurs reçoivent un courrier électronique leur rappelant de terminer la commande.
+* Si la commande est terminée, les utilisateurs et utilisatrices recevront un e-mail de suivi deux jours plus tard pour leur demander leur avis.
+* Si la commande n’est pas terminée, les utilisateurs et utilisatrices recevront un e-mail leur rappelant de terminer leur commande.
 
 1. À partir d’Adobe Journey Optimizer, accédez au menu **[!UICONTROL Configuration]**.
 
@@ -101,12 +101,12 @@ Dans l’exemple ci-dessous, découvrez comment cibler les utilisateurs qui ont 
    * **[!UICONTROL Nom]** : personnalisez le nom de votre **[!UICONTROL événement]**.
    * **[!UICONTROL Type]** : choisissez le type **[!UICONTROL Unitaire]**. [En savoir plus](../event/about-events.md).
    * **[!UICONTROL Type d’identifiant d’événement]** : choisissez le type d’identifiant d’événement **[!UICONTROL basé sur une règle]**. [En savoir plus](../event/about-events.md#event-id-type).
-   * **[!UICONTROL Schéma]**: Sélection du schéma Analytics ou WebSDK [créé avant](#leverage-analytics-data).
+   * **[!UICONTROL Schéma]** : sélectionnez le schéma Analytics ou WebSDK [créé auparavant](#leverage-analytics-data).
    * **[!UICONTROL Champs]** : sélectionnez les champs Payload. [En savoir plus](../event/about-creating.md#define-the-payload-fields).
-   * **[!UICONTROL Condition d’identifiant d’événement]**: Définissez la condition pour identifier les événements qui déclencheront votre parcours.
+   * **[!UICONTROL Condition d’identifiant d’événement]** : définissez la condition pour identifier les événements qui déclencheront votre parcours.
 
-      Ici, l’événement est déclenché lorsque les client(e)s ajoutent un élément à leur panier.
-   * **[!UICONTROL Identifiant de profil]**: Sélectionnez un champ dans vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement.
+      Ici, l’événement est déclenché lorsque les clientes et clients ajoutent un élément à leur panier.
+   * **[!UICONTROL Identifiant du profil]** : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement.
 
    ![](assets/ajo-aa_6.png)
 
@@ -114,9 +114,9 @@ Dans l’exemple ci-dessous, découvrez comment cibler les utilisateurs qui ont 
 
 Maintenant que l’événement est prêt, créez un parcours pour l’utiliser.
 
-1. Dans la **[!UICONTROL Parcours]** , ouvrez ou créez un parcours. Voir à ce propos [cette section](../building-journeys/journey-gs.md).
+1. Dans le menu **[!UICONTROL Parcours]**, ouvrez ou créez un parcours. Voir à ce propos [cette section](../building-journeys/journey-gs.md).
 
-1. Ajoutez l’événement Analytics précédemment configuré à votre parcours.
+1. Ajoutez à votre parcours les événements Analytics configurés précédemment.
 
    ![](assets/ajo-aa_8.png)
 
@@ -134,6 +134,6 @@ Maintenant que l’événement est prêt, créez un parcours pour l’utiliser.
 
 1. Ajoutez ensuite une **[!UICONTROL action E-mail]**. Dans cet e-mail, les client(e)s seront invité(e)s à envoyer leurs commentaires sur la commande passée.
 
-Vous pouvez maintenant tester et publier votre parcours. [En savoir plus](../building-journeys/publishing-the-journey.md).
+Vous pouvez maintenant publier votre parcours. [En savoir plus](../building-journeys/publishing-the-journey.md).
 
 ![](assets/ajo-aa_7.png)
