@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1857'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -648,7 +648,7 @@ Renvoie « Bonjour Marc, voici votre newsletter mensuelle ! »
 
 ## Tout remplacer{#replaceAll}
 
-Le `replaceAll` sert à remplacer toutes les sous-chaînes d’un texte correspondant à l’expression &quot;regex&quot; par la chaîne littérale &quot;remplacement&quot; spécifiée. Regex a une gestion spéciale de &quot;\&quot; et &quot;+&quot; et toutes les expressions regex suivent la stratégie d’échappement PQL. Le remplacement s&#39;effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
+La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d’un texte correspondant à l’expression « RegEx » par la chaîne littérale de « remplacement » spécifiée. Les expressiones régulières (RegEx) ont une gestion spéciale de « \ » et « + », et toutes les expressions RegEx suivent la stratégie d’échappement PQL. Le remplacement s’effectue du début à la fin de la chaîne. Par exemple, le remplacement de « aa » par « b » dans la chaîne « aaa » donnera « ba » et non « ab ».
 
 **Syntaxe**
 
@@ -658,9 +658,9 @@ Le `replaceAll` sert à remplacer toutes les sous-chaînes d’un texte correspo
 
 >[!NOTE]
 >
-> Lorsque l’expression utilisée comme second argument est un caractère regex spécial, utilisez une double barre oblique inverse (`//`).  Les caractères d’expression régulière spéciaux sont les suivants : [.., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Lorsque l’expression utilisée comme second argument est un caractère RegEx spécial, utilisez une double barre oblique inverse (`//`).  Les caractères RegEx spéciaux sont les suivants : [., +, *, ?, ^, $, (, ), [, ], {, }, |, \].
 > 
-> En savoir plus dans [Documentation sur les Oracles](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> En savoir plus dans la [documentation Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Supprimer à droite {#rightTrim}
 
