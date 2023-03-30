@@ -13,7 +13,7 @@ hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
 ht-degree: 100%
 
@@ -36,9 +36,9 @@ ht-degree: 100%
 Cette documentation couvre les sujets suivants :
 
 * [Prise en main de l’expérience de contenu](get-started-experiment.md)
-* [Création d’une expérience de contenu](content-experiment.md)
+* [Créer une expérience de contenu](content-experiment.md)
 * [Présentation des calculs statistiques](experiment-calculations.md)
-* **[Configurer des rapports d’expérimentation](reporting-configuration.md)**
+* **[Configurer des rapports d’expérience](reporting-configuration.md)**
 * [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
 
 >[!ENDSHADEBOX]
