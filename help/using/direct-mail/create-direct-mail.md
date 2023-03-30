@@ -11,9 +11,9 @@ hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Cette documentation couvre les sujets suivants :
 
 >[!AVAILABILITY]
 >
->Le courrier est actuellement disponible en version bêta privée et peut être fréquemment mis à jour sans préavis.
+>Le publipostage direct est actuellement disponible uniquement en version Beta privée et peut être fréquemment mis à jour sans préavis.
 
 Le publipostage direct est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de publipostage direct pour envoyer du courrier à votre clientèle.
 
