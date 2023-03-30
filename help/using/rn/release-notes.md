@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
+source-git-commit: d0ce2c6f4f9ad46a74d3be7864dbfd23c941ee55
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 75%
+source-wordcount: '1389'
+ht-degree: 77%
 
 ---
 
@@ -45,25 +45,25 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Suivi des clics SMS</strong><br/></th>
+<th><strong>SMS click tracking</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Grâce au suivi des clics SMS, vous pouvez surveiller les performances de vos URL raccourcies, identifier qui a cliqué dessus et utiliser ces données pour recibler ces clients avec les campagnes suivantes.</p>
+<p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#sms-content">documentation détaillée</a>.</p>
+<p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
