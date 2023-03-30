@@ -7,28 +7,30 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Créer un message in-app {#create-in-app}
 
+Les messages in-app sont créés dans le cadre d’une campagne.
+
 Pour créer un message in-app, suivez les étapes ci-dessous :
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Création d’une campagne]**.
 
-1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne.
+1. Dans le **[!UICONTROL Propriétés]** , sélectionnez le type d&#39;exécution de l&#39;opération : Planifié ou déclenché par l’API. En savoir plus sur les types de campagne dans [cette page](../campaigns/create-campaign.md#campaigntype).
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le **[!UICONTROL Message in-app]** et la **[!UICONTROL Surface d’application]** précédemment configurée pour votre message in-app. Cliquez ensuite sur **[!UICONTROL Créer]**.
 
-   [En savoir plus sur la configuration in-app](inapp-configuration.md).
+   En savoir plus sur la configuration In-App dans [cette page](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
+1. Dans la **[!UICONTROL Propriétés]** , saisissez la **[!UICONTROL Titre]** et le **[!UICONTROL Description]** description.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au message in-app, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
 
@@ -40,13 +42,13 @@ Pour créer un message in-app, suivez les étapes ci-dessous :
 
 1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message :
 
-   1. Cliquez sur **[!UICONTROL Ajouter] condition** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
+   1. Cliquez sur **Ajouter une condition** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
    1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
    ![](assets/in_app_create_3.png)
 
-1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
+1. Sélectionnez la fréquence de votre trigger lorsque votre message in-app est principal. Les options disponibles sont les suivantes :
 
    * **[!UICONTROL Everytime]**: Toujours afficher le message lorsque les événements sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
    * **[!UICONTROL Une fois]**: N’afficher ce message que la première fois que les événements sont sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
