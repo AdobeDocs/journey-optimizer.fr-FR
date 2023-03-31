@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0199b6b2ce7f3e03c7b5e49ff45f744ecc7c1885
+source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1540'
+ht-degree: 74%
 
 ---
 
@@ -114,13 +114,11 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 
 * Vous pouvez désormais inclure du texte de remplacement par défaut pour les attributs de profil basés sur une chaîne dans l’éditeur d’expression. Ces valeurs s’affichent si les attributs sélectionnés ne renvoient aucun résultat. [En savoir plus](../personalization/personalization-build-expressions.md#add).
 
-<!--
-**Reporting**
+**Créer des rapports**
 
-* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+* La fonctionnalité de widget de création de rapports a été améliorée avec la possibilité de personnaliser la manière dont les utilisateurs affichent leurs données. Grâce à cette amélioration, les utilisateurs peuvent désormais choisir entre plusieurs options de visualisation, notamment les graphiques, les tableaux et les graphiques en anneau.
 
-    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
--->
+   Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md#modify-dashboard).
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 
