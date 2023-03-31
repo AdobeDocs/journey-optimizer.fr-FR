@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d0ce2c6f4f9ad46a74d3be7864dbfd23c941ee55
+source-git-commit: 0199b6b2ce7f3e03c7b5e49ff45f744ecc7c1885
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 77%
+source-wordcount: '1475'
+ht-degree: 76%
 
 ---
 
@@ -29,41 +29,38 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 
 ### Nouvelles fonctionnalités{#mar-2023-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel (General Availability)</strong><br/></th>
+<th><strong>Canal In-App (Disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>SMS click tracking</strong><br/></th>
+<th><strong>Suivi des clics SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
+<p>Grâce au suivi des clics SMS, vous pouvez surveiller les performances de vos URL raccourcies, identifier qui a cliqué dessus et utiliser ces données pour recibler ces clients avec les campagnes suivantes.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#sms-content">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
