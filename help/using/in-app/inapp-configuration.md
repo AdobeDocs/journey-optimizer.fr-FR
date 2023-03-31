@@ -3,16 +3,21 @@ title: Configuration in-app
 description: Découvrez comment configurer votre environnement pour envoyer des messages in-app avec Journey Optimizer
 role: Admin
 level: Intermediate
+badge: label="Beta" type="Informative"
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
 
 # Configurer le canal in-app {#inapp-configuration}
+
+>[!AVAILABILITY]
+>
+>La fonctionnalité in-app est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
 
 Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app dans [!DNL Adobe Experience Platform Data Collection].
 

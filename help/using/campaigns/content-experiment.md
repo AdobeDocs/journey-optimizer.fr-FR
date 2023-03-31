@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’une expérience de contenu
+title: Créer une expérience de contenu
 description: Découvrez comment créer une expérience de contenu dans vos campagnes.
 feature: A/B Testing
 topic: Content Management
@@ -33,7 +33,7 @@ Cette documentation couvre les sujets suivants :
 * [Prise en main de l’expérience de contenu](get-started-experiment.md)
 * **[Créer une expérience de contenu](content-experiment.md)**
 * [Présentation des calculs statistiques](experiment-calculations.md)
-* [Configurer des rapports d’expérimentation](reporting-configuration.md)
+* [Configurer des rapports d’expérience](reporting-configuration.md)
 * [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
 
 >[!ENDSHADEBOX]

@@ -5,32 +5,37 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+badge: label="Beta" type="Informative"
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 74%
 
 ---
 
 # Créer un message in-app {#create-in-app}
 
-Les messages in-app sont créés dans le cadre d’une campagne.
+>[!AVAILABILITY]
+>
+>La fonctionnalité in-app est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
+
+## Créer une campagne et un message in-app{#create-in-app-in-a-campaign}
 
 Pour créer un message in-app, suivez les étapes ci-dessous :
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Création d’une campagne]**.
 
-1. Dans le **[!UICONTROL Propriétés]** , sélectionnez le type d&#39;exécution de l&#39;opération : Planifié ou déclenché par l’API. En savoir plus sur les types de campagne dans [cette page](../campaigns/create-campaign.md#campaigntype).
+1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne.
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le **[!UICONTROL Message in-app]** et la **[!UICONTROL Surface d’application]** précédemment configurée pour votre message in-app. Cliquez ensuite sur **[!UICONTROL Créer]**.
 
-   En savoir plus sur la configuration In-App dans [cette page](inapp-configuration.md).
+   [En savoir plus sur la configuration in-app](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. Dans la **[!UICONTROL Propriétés]** , saisissez la **[!UICONTROL Titre]** et le **[!UICONTROL Description]** description.
+1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au message in-app, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
 
@@ -42,13 +47,13 @@ Pour créer un message in-app, suivez les étapes ci-dessous :
 
 1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message :
 
-   1. Cliquez sur **Ajouter une condition** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
+   1. Cliquez sur **[!UICONTROL Ajouter] condition** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
    1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
    ![](assets/in_app_create_3.png)
 
-1. Sélectionnez la fréquence de votre trigger lorsque votre message in-app est principal. Les options disponibles sont les suivantes :
+1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
 
    * **[!UICONTROL Everytime]**: Toujours afficher le message lorsque les événements sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
    * **[!UICONTROL Une fois]**: N’afficher ce message que la première fois que les événements sont sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
@@ -61,21 +66,56 @@ Pour créer un message in-app, suivez les étapes ci-dessous :
 
    ![](assets/in-app-schedule.png)
 
-1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu.]** [En savoir plus](design-in-app.md)
+1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**.
 
    ![](assets/in_app_create_4.png)
 
+## Envoyer vos messages in-app{#in-app-send}
+
+### Aperçu sur l’appareil {#preview-device}
+
+Vous pouvez prévisualiser la notification in-app sur un appareil spécifique.
+
+1. Cliquez sur **[!UICONTROL Aperçu sur l’appareil]**.
+
+   ![](assets/in_app_create_6.png)
+
+1. Dans la fenêtre **[!UICONTROL Connexion à l’appareil]**, cliquez sur **[!UICONTROL Commencer]**.
+
+1. Saisissez l’**[!UICONTROL URL de base]** de votre application, puis cliquez sur **[!UICONTROL Suivant]**.
+
+   ![](assets/in_app_create_7.png)
+
+1. Scannez le code QR avec votre appareil et saisissez le code PIN affiché.
+
+Votre message in-app peut maintenant être déclenché directement sur votre appareil, ce qui vous permet de prévisualiser et de vérifier votre message sur un appareil réel.
+
+### Vérifier et activer votre notification in-app{#in-app-review}
+
+Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer.
+
+Pour ce faire, suivez les étapes ci-après :
+
+1. Utilisez le bouton **[!UICONTROL Examiner pour activer]** pour afficher un résumé de votre message.
+
+   Le résumé vous permet de modifier votre campagne si nécessaire et de vérifier si un paramètre est incorrect ou manquant.
+
+   ![](assets/in_app_create_5.png)
+
+1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
+
+Votre campagne est maintenant activée. La notification in-app configurée dans la campagne est envoyée immédiatement ou le sera à la date indiquée.
+
+Une fois envoyés, vous pouvez mesurer l’impact de vos messages In-App dans les rapports de campagne ou de Parcours. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
+
+**Rubriques connexes :**
+
+* [Concevoir un message in-app](design-in-app.md)
+* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
+* [Configuration in-app](inapp-configuration.md)
 
 ## Vidéo pratique{#video}
 
 La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
-
-
-**Rubriques connexes :**
-
-* [Concevoir un message in-app](design-in-app.md)
-* [Tester et envoyer votre message in-app](send-in-app.md)
-* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
-* [Configuration in-app](inapp-configuration.md)
