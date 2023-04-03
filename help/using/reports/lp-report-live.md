@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
 >title="Rapport dynamique sur les pages de destination"
->abstract="Le rapport dynamique sur les pages de destination vous permet de mesurer et de visualiser en temps réel l’efficacité et les performances de vos pages de destination (limité aux dernières 24 heures). Votre rapport est composé de plusieurs widgets présentant les succès et les erreurs sur vos pages de destination. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+>abstract="Le rapport dynamique sur les pages de destination vous permet de mesurer et de visualiser en temps réel l’efficacité et les performances de vos pages de destination (limité aux dernières 24 heures). Le rapport se compose de plusieurs widgets présentant le succès et les erreurs de vos pages de destination. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
 Le rapport **[!UICONTROL Rapport dynamique]** sur les pages de destination affiche uniquement des détails sur l&#39;impact de vos pages de destination durant les dernières 24 heures. Pour mesurer les données de votre page de destination sur une période sélectionnée, reportez-vous à la section [Rapport global sur les pages de destination](lp-report-global.md).
 

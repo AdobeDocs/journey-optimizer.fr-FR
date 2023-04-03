@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
 >title="Rapport global sur les pages de destination"
->abstract="Le rapport global sur les pages de destination vous permet de mesurer l’efficacité de vos pages de destination au cours d’une période donnée. Votre rapport est composé de plusieurs widgets présentant les succès et les erreurs sur vos pages de destination. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+>abstract="Le rapport global sur les pages de destination vous permet de mesurer l’efficacité de vos pages de destination au cours d’une période donnée. Le rapport se compose de plusieurs widgets présentant le succès et les erreurs de vos pages de destination. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
 Le rapport **[!UICONTROL Rapport global]** sur les pages de destination affiche des détails sur l&#39;impact de vos pages de destination sur une période sélectionnée. Pour mesurer les données de votre page de destination sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport dynamique sur les pages de destination](lp-report-live.md).
 
