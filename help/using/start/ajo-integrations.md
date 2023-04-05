@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '714'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,25 @@ En savoir plus sur [Journey Optimizer + Customer Journey Analytics](../repo
 Vous pouvez exploiter toutes les données d’événement comportemental Adobe Analytics que vous capturez déjà et diffusez en continu dans Adobe Experience Platform afin de déclencher en temps réel des parcours et d’automatiser les expériences de vos clients. Ces données peuvent également être utilisées pour créer des segments qui peuvent être engagés à l’aide de Journey Optimizer.
 
 En savoir plus sur [Journey Optimizer + Analytics](../event/about-analytics.md).
+
+
+## Adobe Experience Manager Assets Essentials{#integration-assets}
+
+Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets Essentials]. Intégrés nativement à [!DNL Adobe Journey Optimizer], accédez à [!DNL Assets Essentials] pour stocker, gérer, découvrir et distribuer des ressources numériques. Ceci fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages.
+
+[!DNL Adobe Experience Manager Assets Essentials] est accessible directement à partir de [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** du menu de gauche.
+
+En savoir plus sur [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+
+
+## Adobe Stock{#integration-stock}
+
+Le plug-in d’intégration d’[!DNL Adobe Stock] et du Concepteur d’e-mail [!DNL Adobe Journey Optimizer] fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages.
+
+Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos e-mails directement depuis [!DNL Adobe Stock] et les ajouter à votre dossier **[!UICONTROL Ressources]** à l’aide de l’option **[!UICONTROL Trouver des photos Adobe Stock]**. En outre, l’option **[!UICONTROL Trouver des photos Stock similaires]** vous permet de trouver les images correspondant au contenu, à la couleur et à la composition de la ressource utilisée dans votre diffusion.
+
+En savoir plus sur [Journey Optimizer + Stock](../email/stock.md).
+
 
 ## Services intelligents Adobe{#integration-intelligent-service}
 
