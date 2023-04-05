@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1201'
 ht-degree: 61%
 
 ---
@@ -38,7 +38,7 @@ Lors de la configuration d’une source de données ou d’une action, vous éta
 
 Les API Parcours prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes ou API externes peuvent ne pas avoir un débit équivalent. Pour éviter de surcharger ces systèmes, vous pouvez utiliser la variable **Limitation** et **Ralentissement** API pour limiter le nombre d’événements envoyés par seconde.
 
-Chaque fois qu’un appel API est effectué par parcours, il passe par le moteur d’API. Si la limite définie dans l’API est atteinte, l’appel est rejeté si vous utilisez l’API de limitation, ou mis en file d’attente et traité le plus tôt possible dans l’ordre dans lequel ils ont été reçus si vous utilisez l’API de limitation.
+Chaque fois qu’un appel API est effectué par parcours, il passe par le moteur d’API. Si la limite définie dans l’API est atteinte, l’appel est rejeté si vous utilisez l’API de limitation, ou mis en file d’attente jusqu’à 6 heures, et traité le plus tôt possible dans l’ordre dans lequel il a été reçu si vous utilisez l’API de limitation.
 
 Supposons, par exemple, que vous ayez défini une règle de limitation ou de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et ignore ou met en file d’attente les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
 

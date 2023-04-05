@@ -6,9 +6,9 @@ description: Découvrez comment utiliser l’API de limitation
 role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 21%
 
 ---
@@ -24,6 +24,8 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 >Actuellement, une seule configuration est autorisée par organisation. Une configuration doit être définie sur un environnement de test de production (fourni par x-sandbox-name dans les en-têtes).
 >
 >Une configuration est appliquée au niveau de l’organisation.
+>
+>Lorsque la limite définie dans l’API est atteinte, d’autres événements sont placés en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
 
 ## Description de l’API de limitation {#description}
 
