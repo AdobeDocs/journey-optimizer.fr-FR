@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
@@ -39,11 +39,11 @@ Pour créer un workflow de composition, procédez comme suit :
 
 1. Sélectionnez **[!UICONTROL Composer l’audience]**.
 
+   ![](assets/audiences-create.png)
+
    >[!NOTE]
    >
    >La méthode de création **[!UICONTROL Créer une règle]** vous permet de créer une définition de nouveau segment à l’aide de la méthode [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
-
-   ![](assets/audiences-create.png)
 
 1. La zone de travail de composition s’affiche avec deux activités par défaut :
 

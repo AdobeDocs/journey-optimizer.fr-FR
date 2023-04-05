@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Cette documentation couvre les sujets suivants :
 
 >[!ENDSHADEBOX]
 
-La composition de l’audience met à votre disposition une zone de travail visuelle qui vous permet de créer des audiences et d’utiliser plusieurs activités (partage, enrichissement, etc.).
+La composition de l’audience fournit un canevas visuel qui vous permet de créer des audiences et d’utiliser diverses activités (division, enrichissement, etc.).
 
 Pour composer une audience dans la zone de travail, procédez comme suit :
 
@@ -76,7 +76,7 @@ Les activités disponibles sont les suivantes :
 
 * [Audience](#audience) : inclure des profils supplémentaires appartenant à une ou plusieurs audiences existantes,
 * [Exclure](#exclude) : exclure les profils appartenant à une audience existante ou exclure les profils en fonction d’attributs spécifiques,
-* [Enrichir]{#enrich} : enrichissez votre audience avec des attributs supplémentaires issus des jeux de données d’Adobe Experience Platform,
+* [Enrichir](#enrich) : enrichissez votre audience avec des attributs supplémentaires issus des jeux de données d’Adobe Experience Platform,
 * [Classement](#rank) : classer les profils en fonction d’un attribut spécifique, spécifier le nombre de profils à conserver et les inclure dans votre composition,
 * [Partager](#split) : diviser votre composition en plusieurs chemins d’accès en fonction de pourcentages aléatoires ou d’attributs.
 
