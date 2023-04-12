@@ -1,6 +1,6 @@
 ---
-title: Tester et envoyer votre notification in-app
-description: Découvrez comment tester et envoyer un message in-app dans Journey Optimizer
+title: Tester et envoyer une notification in-app
+description: Découvrez comment tester et envoyer un message in-app dans Journey Optimizer.
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,15 @@ keywords: in-app, message, création, commencer
 source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Tester et envoyer votre notification in-app {#create-in-app}
+# Tester et envoyer une notification in-app {#create-in-app}
 
 ## Aperçu sur l’appareil {#preview-device}
 
-Une fois que [création du message in-app](create-in-app.md) et [Définition de son contenu](design-in-app.md), vous pouvez prévisualiser la notification In-App sur un appareil spécifique.
+Une fois la [création du message in-app](create-in-app.md) et la [définition de son contenu](design-in-app.md) effectuées, vous pouvez prévisualiser la notification in-app sur un appareil donné.
 
 Pour ce faire, suivez les étapes ci-après :
 
@@ -37,7 +37,7 @@ Votre message in-app peut maintenant être déclenché directement sur votre app
 
 ## Vérifier et activer votre notification in-app{#in-app-review}
 
-Une fois votre message in-app prêt, vous pouvez le vérifier et l’activer.
+Une fois votre message in-app rédigé, vous pouvez le réviser et l’activer.
 
 Pour ce faire, suivez les étapes ci-après :
 
@@ -51,7 +51,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 Votre campagne est maintenant activée. La notification in-app configurée dans la campagne est envoyée immédiatement ou le sera à la date indiquée.
 
-Une fois envoyés, vous pouvez mesurer l’impact de vos messages In-App dans les rapports de campagne ou de Parcours. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
+Une fois votre message envoyé, vous pouvez en mesurer l’impact dans les rapports Campaign ou Journey. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
 
 **Rubriques connexes :**
 

@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de campagne, l’onglet **[!UICONTROL
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport SMS.
 
-Le **[!UICONTROL SMS - Statistiques]** le tableau détaille le succès de votre diffusion :
+Le tableau **[!UICONTROL SMS - Statistiques]** détaille la réussite de votre diffusion :
 
 * **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
@@ -149,7 +149,7 @@ Le **[!UICONTROL SMS - Statistiques]** le tableau détaille le succès de votre 
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
-* **[!UICONTROL Clics]**: Nombre total de visites d’URL.
+* **[!UICONTROL Clics]** : nombre total de visites d’URL.
 
 Le widget **[!UICONTROL Performances de SMS par date]** détaille les informations principales relatives à votre message sous forme de graphique :
 

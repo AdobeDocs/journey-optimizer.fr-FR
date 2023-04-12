@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API de limitation
-description: Découvrez comment utiliser l’API de limitation
+title: API de plafonnement
+description: Découvrez comment utiliser l’API de plafonnement
 role: User
 level: Beginner
-keywords: externe, API, optimizer, limitation
+keywords: externe, API, optimizer, plafonnement
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Utilisation de l’API de limitation {#work}
+# Utiliser l’API de plafonnement {#work}
 
-L’API de limitation vous aide à créer, configurer et surveiller vos configurations de limitation.
+L’API de plafonnement vous permet de créer, configurer et surveiller vos configurations de plafonnement.
 
-Cette section fournit des informations générales sur l’utilisation de l’API. Une description détaillée de l’API est disponible dans [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
-## Description de l’API de limitation
+## Description de l’API de plafonnement
 
 | Méthode | Chemin | Description |
 |---|---|---|
@@ -113,7 +113,7 @@ Elle a été créée pour partager la collection de variables Postman générée
 
 Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
 * `{JO_HOST}` : URL de passerelle [!DNL Journey Optimizer]
-* `{BASE_PATH}` : point d’entrée pour l’API. 
+* `{BASE_PATH}` : point d’entrée pour l’API.
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
 
 Dans la section suivante, vous trouverez la liste classée des appels API REST pour effectuer le cas d’utilisation.

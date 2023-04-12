@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1779'
 ht-degree: 100%
 
 ---
@@ -72,6 +72,8 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
    >[!CAUTION]
    >
    >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
+   >
+   >Veuillez noter que les sous-domaines à plusieurs niveaux tels que email.marketing.votre_entreprise.com ne sont actuellement pas pris en charge.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -142,6 +144,8 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
    >[!CAUTION]
    >
    >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
+   >
+   >Veuillez noter que les sous-domaines à plusieurs niveaux tels que email.marketing.votre_entreprise.com ne sont actuellement pas pris en charge.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 

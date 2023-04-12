@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1298'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Chaque tableau de bord de reporting peut être modifié en modifiant la période
 
 1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Pour personnaliser l’affichage de vos données, vous pouvez passer de différentes options de visualisation, telles que les graphiques, les tableaux et les graphiques en anneau.
+1. Pour personnaliser l’affichage de vos données, basculez entre les différentes options de visualisation disponibles, telles que les graphiques, les tableaux et les graphiques en anneau.
 
    ![](assets/report_modify_10.png)
 

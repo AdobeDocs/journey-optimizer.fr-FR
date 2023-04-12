@@ -20,8 +20,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="Création d’un e-mail"
->abstract="Définissez vos paramètres d’e-mail en trois étapes simples."
+>title="Création d&#39;un e-mail"
+>abstract="Définissez vos paramètres d&#39;e-mail en trois étapes simples."
 
 Pour créer un e-mail dans [!DNL Journey Optimizer], procédez comme indiqué ci-dessous.
 

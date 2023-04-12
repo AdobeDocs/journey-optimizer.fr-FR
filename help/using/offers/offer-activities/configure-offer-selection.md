@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la dat
 
 Découvrez comment créer une formule de classement dans [cette section](../ranking/create-ranking-formulas.md).
 
-Une fois qu’une formule a été créée, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
+Après avoir créé une formule, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
 1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 
@@ -46,7 +46,7 @@ Une fois qu’une formule a été créée, vous pouvez l’affecter à un emplac
 
 1. Pour chaque emplacement, ajoutez une collection. Voir [Créer des collections](../offer-library/creating-collections.md).
 
-1. Sélectionner **[!UICONTROL Formule]** comme méthode de classement, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
+1. Sélectionnez **[!UICONTROL Formule]** comme méthode de classement, puis cliquez sur **[!UICONTROL Ajouter un classement]**.
 
    ![](../assets/offer-activity-ranking.png)
 
@@ -54,11 +54,11 @@ Une fois qu’une formule a été créée, vous pouvez l’affecter à un emplac
 
    ![](../assets/ranking-selection.png)
 
-La formule de classement est désormais associée à l&#39;emplacement.
+La formule de classement est désormais associée à l’emplacement.
 
-Si plusieurs offres peuvent être présentées à cet emplacement, la décision utilisera la formule sélectionnée pour calculer la première offre à diffuser.
+Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la décision utilisera la formule sélectionnée pour calculer l’offre à présenter en premier.
 
-## Classement par l&#39;IA {#use-ranking-strategy}
+## Classement par l’IA {#use-ranking-strategy}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 

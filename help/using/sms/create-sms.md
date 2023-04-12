@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -87,24 +87,24 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 1. Utilisez l’éditeur d’expression pour définir le contenu et ajouter du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. En savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur d’expression.
 
-1. Après avoir défini votre contenu, vous pouvez ajouter vos URL de suivi à votre message. Pour ce faire, accédez à la **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
+1. Une fois le contenu défini, ajoutez les URL de suivi à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 
-   Notez que pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine qui sera ensuite lié à votre surface. [En savoir plus](sms-subdomains.md).
+   Notez que pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre surface. [En savoir plus](sms-subdomains.md).
 
    ![](assets/sms_tracking_1.png)
 
-1. Dans le **[!UICONTROL Fonctions d’assistance]** , cliquez sur **[!UICONTROL Fonction URL]** puis sélectionnez **[!UICONTROL Ajouter une URL]**.
+1. Dans le menu **[!UICONTROL Fonctions d’assistance]**, cliquez sur **[!UICONTROL Fonction URL]**, puis sélectionnez **[!UICONTROL Ajouter une URL]**.
 
    ![](assets/sms_tracking_2.png)
 
-1. Dans le `originalUrl` collez l’URL à raccourcir.
+1. Dans le champ `originalUrl`, collez l’URL à raccourcir.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez utiliser **[!UICONTROL Simulation du contenu]** pour prévisualiser vos URL raccourcies ou votre contenu personnalisé.
+1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Choisissez l’option **[!UICONTROL Simuler le contenu]** pour prévisualiser vos URL raccourcies ou votre contenu personnalisé.
 
    ![](assets/sms-content-preview.png)
 
 Vous pouvez maintenant tester et envoyer votre SMS à votre audience. [En savoir plus](send-sms.md).
-Une fois envoyé, vous pouvez mesurer l&#39;impact de vos SMS dans les rapports de campagne ou de Parcours. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#sms-tab).
+Après leur envoi, vous pouvez mesurer l’impact de vos SMS dans les rapports Campaign ou Journey. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]
 >

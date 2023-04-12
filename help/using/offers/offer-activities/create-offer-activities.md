@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -102,9 +102,9 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../assets/activity_ranking-method.png)
 
-   * Par défaut, si plusieurs offres sont éligibles pour cet emplacement, la variable **[!UICONTROL Priorité des offres]** utilise la valeur définie dans les offres : l’offre ayant le score de priorité le plus élevé sera diffusée à l’utilisateur.
+   * Par défaut, si plusieurs offres sont éligibles pour cet emplacement, la méthode **[!UICONTROL Priorité des offres]** utilise la valeur définie dans les offres : l’offre ayant le score de priorité le plus élevé sera présentée à l’utilisateur ou l’utilisatrice.
 
-   * Si vous souhaitez utiliser un score calculé spécifique pour choisir l&#39;offre éligible à diffuser, sélectionnez **[!UICONTROL Formule]** ou **[!UICONTROL Modèle AI]**. [En savoir plus](../offer-activities/configure-offer-selection.md).
+   * Si vous souhaitez utiliser un score calculé spécifique pour choisir l’offre éligible à présenter, sélectionnez **[!UICONTROL Formule]** ou **[!UICONTROL Modèle d’IA]**. [En savoir plus](../offer-activities/configure-offer-selection.md).
 
 1. Cliquez sur **[!UICONTROL Ajouter]** pour définir d’autres critères pour le même emplacement.
 
@@ -120,7 +120,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../assets/activity_move-collection.png)
 
-   Elles possèdent désormais le même rang et seront donc évaluées en même temps. [En savoir plus](#evaluation-criteria-order).
+   Ils possèdent désormais le même rang et seront donc évalués en même temps. [En savoir plus](#evaluation-criteria-order).
 
    ![](../assets/activity_same-rank-collections.png)
 
@@ -130,15 +130,15 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 ### Ordre des critères d’évaluation {#evaluation-criteria-order}
 
-Comme décrit ci-dessus, un critère d’évaluation se compose d’une collection, de contraintes d’éligibilité et d’une méthode de classement. Vous pouvez définir l’ordre séquentiel souhaité pour que les critères d’évaluation soient évalués, mais vous pouvez également combiner plusieurs critères d’évaluation afin qu’ils soient évalués ensemble et non séparément.
+Comme décrit ci-dessus, un critère d’évaluation se compose d’une collection, de contraintes d’éligibilité et d’une méthode de classement. Vous pouvez définir l’ordre séquentiel dans lequel les critères d’évaluation s’appliquent, mais vous pouvez également combiner plusieurs critères d’évaluation afin de les appliquer ensemble et non séparément.
 
-Par exemple, vous disposez de deux collections, l’une dans le critère d’évaluation A et l’autre dans le critère d’évaluation B. La demande concerne le renvoi de deux offres. Supposons qu’il existe deux offres éligibles du critère d’évaluation A et trois offres éligibles du critère d’évaluation B.
+Prenons l’exemple suivant : vous disposez de deux collections, l’une dans le critère d’évaluation A et l’autre dans le critère d’évaluation B. La demande concerne le renvoi de deux offres. Deux offres répondent au critère d’évaluation A et trois offres au critère d’évaluation B.
 
-* Si les deux critères d&#39;évaluation sont **non combiné** et/ou dans l’ordre séquentiel (1 et 2), les deux premières offres éligibles des critères d’évaluation seront renvoyées dans la première ligne. S’il n’existe pas deux offres éligibles pour le premier critère d’évaluation, le moteur de décision passe aux critères d’évaluation suivants l’ordre de recherche afin de trouver autant d’offres qu’il est encore nécessaire, et renverra en fin de compte un secours si nécessaire.
+* Si les deux critères d’évaluation ne sont **pas combinés** et/ou dans l’ordre séquentiel (1 et 2), les deux meilleures offres éligibles selon les critères d’évaluation seront renvoyées dans la première ligne. S’il n’y a pas deux offres éligibles pour le premier critère d’évaluation, le moteur de décision passera au critère d’évaluation suivant dans l’ordre pour trouver autant d’offres que nécessaire, et renverra finalement une offre de secours si nécessaire.
 
    ![](../assets/activity_consecutive-rank-collections.png)
 
-* Si les deux collections sont **évalué en même temps**, puisqu’il existe deux offres éligibles du critère d’évaluation A et trois offres éligibles du critère d’évaluation B, les cinq offres seront combinées selon la valeur déterminée par les méthodes de classement respectives. Deux offres sont demandées. Par conséquent, les deux premières offres éligibles de ces cinq offres seront renvoyées.
+* Si les deux collections sont **évaluées en même temps**, car deux offres répondent au critère d’évaluation A et trois offres au critère d’évaluation B, les cinq offres sont regroupées et classées dans l’ordre de leurs méthodes de classement respectives. Comme deux offres sont demandées, les deux meilleures offres éligibles parmi ces cinq offres seront renvoyées.
 
    ![](../assets/activity_same-rank-collections.png)
 

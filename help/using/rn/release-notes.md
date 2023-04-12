@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour de mars 2023 {#mar-2023}
+## Notes de mise à jour de mars 2023 {#mar-2023}
 
-Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication et des liens directs seront ajoutés à cette page.
+Les informations ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication de la version et des liens directs seront ajoutés sur cette page.
 
 
 ### Nouvelles fonctionnalités{#mar-2023-features}
@@ -32,7 +32,7 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <table>
 <thead>
 <tr>
-<th><strong>Canal In-App (Disponibilité générale)</strong><br/></th>
+<th><strong>Canal in-app (Disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -48,13 +48,13 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <table>
 <thead>
 <tr>
-<th><strong>Suivi des clics SMS</strong><br/></th>
+<th><strong>Suivi des clics dans les SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Grâce au suivi des clics SMS, vous pouvez surveiller les performances de vos URL raccourcies, identifier qui a cliqué dessus et utiliser ces données pour recibler ces clients avec les campagnes suivantes.</p>
+<p>Grâce au suivi des clics dans les SMS, vous pouvez surveiller les performances de vos URL raccourcies, identifier les clients et les clientes qui ont cliqué dessus et utiliser ces données pour les recibler dans vos campagnes ultérieures.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#sms-content">documentation détaillée</a>.</p>
 </td>
@@ -65,7 +65,7 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 <table>
 <thead>
 <tr>
-<th><strong>Utilisation des balises dans vos Parcours (version bêta)</strong><br/></th>
+<th><strong>Utiliser les balises dans les parcours (version Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -83,11 +83,11 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 
 **Parcours**
 
-* La nouvelle **API de limitation** vous permet de définir une limite au nombre d’événements envoyés par seconde, ce qui empêche des pics de trafic écrasants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour tous vos environnements de test. [En savoir plus](../configuration/external-systems.md).
-* Le canevas de Parcours a été amélioré pour une expérience utilisateur plus simple et améliorée. À la fin de chaque chemin dans la zone de travail, les espaces réservés vides ont été supprimés. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
-* Dans la zone de travail du parcours, le libellé de la propriété **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs peuvent ajouter manuellement une étiquette personnalisée.
-* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours ont été modifiés de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
-* Le taux de ralentissement par défaut dans les activités de segments lus a été modifié de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* La nouvelle **API de limitation** vous permet de limiter le nombre d’événements envoyés par seconde. Vous pouvez ainsi éviter les pics de trafic importants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour toutes vos sandbox. [En savoir plus](../configuration/external-systems.md).
+* Amélioration de la zone de travail Parcours pour offrir une expérience utilisateur plus fluide et épurée. Suppression des espaces réservés vides à la fin de chaque chemin de la zone de travail. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
+* Dans la zone de travail Parcours, la balise **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
+* Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
+* Le taux de limitation par défaut dans les activités de lecture de segment passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -108,15 +108,15 @@ Les informations ci-dessous peuvent être modifiées sans préavis jusqu’à la
 
 * Vous pouvez également choisir l’événement Adobe Experience Platform à prendre en compte pour la limitation de la gestion des décisions. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
-* Des paramètres supplémentaires ont été ajoutés à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et de spécifier si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse de l’API. [En savoir plus](../offers/offer-library/creating-placements.md)
+* Des paramètres supplémentaires ont été ajoutés à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et d’indiquer si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse API. [En savoir plus](../offers/offer-library/creating-placements.md).
 
 **Personnalisation**
 
-* Vous pouvez désormais inclure du texte de remplacement par défaut pour les attributs de profil basés sur une chaîne dans l’éditeur d’expression. Ces valeurs s’affichent si les attributs sélectionnés ne renvoient aucun résultat. [En savoir plus](../personalization/personalization-build-expressions.md#add).
+* Vous pouvez désormais inclure un texte de remplacement par défaut dans les attributs de profil basés sur des chaînes de l’éditeur d’expression. Ces valeurs s’affichent si les attributs sélectionnés ne renvoient aucun résultat. [En savoir plus](../personalization/personalization-build-expressions.md#add).
 
 **Créer des rapports**
 
-* La fonctionnalité de widget de création de rapports a été améliorée avec la possibilité de personnaliser la manière dont les utilisateurs affichent leurs données. Grâce à cette amélioration, les utilisateurs peuvent désormais choisir entre plusieurs options de visualisation, notamment les graphiques, les tableaux et les graphiques en anneau.
+* Amélioration de la fonctionnalité de widget de création de rapports et personnalisation de l’affichage des données des utilisateurs et utilisatrices. Grâce à cette amélioration, les utilisateurs et utilisatrices peuvent désormais choisir entre plusieurs options de visualisation, notamment les graphiques, les tableaux et les graphiques en anneau.
 
    Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md#modify-dashboard).
 
@@ -244,7 +244,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Gestion des décisions**
 
-* **Emplacements** - Des paramètres supplémentaires ont été ajoutés à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et de spécifier si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse de l’API. [En savoir plus](../offers/offer-library/creating-placements.md).
+* **Emplacements** : ajout de paramètres supplémentaires à l’écran de création d’emplacements. Ils vous permettent de contrôler si une offre peut être dupliquée à plusieurs emplacements et d’indiquer si le contenu et les métadonnées de l’offre doivent être inclus dans la réponse API. [En savoir plus](../offers/offer-library/creating-placements.md).
 
 * **Personnalisation des URL** : lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md).
 

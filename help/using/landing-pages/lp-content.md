@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -93,19 +93,19 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Vous pouvez également ajouter une **[!UICONTROL Champ de texte]**.
+1. Vous pouvez également ajouter un **[!UICONTROL Champ de texte]**.
 
    ![](assets/lp_designer-form-add-text-field.png)
 
-   * Saisissez le **[!UICONTROL Libellé]** qui s’affiche au-dessus du champ du formulaire.
+   * Saisissez le **[!UICONTROL Libellé]** à afficher au-dessus du champ du formulaire.
 
-   * Saisissez un **[!UICONTROL Espace réservé]** texte. Il s’affiche dans le champ avant que l’utilisateur ne le remplisse.
+   * Rédigez le texte de l’**[!UICONTROL Espace réservé]**. Il s’affiche dans le champ avant que l’utilisateur ou l’utilisatrice ne le remplisse.
 
-   * Vérifiez les **[!UICONTROL Rendre le champ de formulaire obligatoire]** si nécessaire. Dans ce cas, la landing page ne peut être envoyée que si l&#39;utilisateur a renseigné ce champ. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur s&#39;affiche lorsque l&#39;utilisateur envoie la page.
+   * Cochez l’option **[!UICONTROL Rendre le champ de formulaire obligatoire]**, si nécessaire. Dans ce cas, la page de destination ne peut être envoyée que si l&#39;utilisateur ou l’utilisatrice a renseigné ce champ. Si un champ obligatoire n’est pas renseigné, un message d’erreur s’affiche lorsque l’utilisateur ou l’utilisatrice envoie la page.
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. Une fois que vous avez ajouté toutes les cases à cocher et/ou tous les champs de texte de votre choix, cliquez sur **[!UICONTROL Appel à l’action]** pour développer la section correspondante. Il permet de définir le comportement du bouton dans le composant **[!UICONTROL Formulaire]**.
+1. Une fois que vous avez ajouté toutes les cases à cocher et/ou les champs de texte souhaités, cliquez sur **[!UICONTROL Appel à lʼaction]** pour développer la section correspondante. Il permet de définir le comportement du bouton dans le composant **[!UICONTROL Formulaire]**.
 
    ![](assets/lp_designer-form-call-to-action.png)
 

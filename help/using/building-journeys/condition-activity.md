@@ -12,7 +12,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Utilisez ce type de condition pour augmenter le volume de vos diffusions. Voir [
 
 La limite par défaut est fixée à 1 000.
 
-Le compteur s’applique uniquement à la version du parcours sélectionnée. Le compteur se réinitialise à zéro lorsque le parcours est dupliqué ou lorsqu’une nouvelle version est créée. Après une réinitialisation, les profils entrants reprennent le chemin nominal jusqu’à ce que la limite de compteur soit atteinte.
+Le compteur s’applique uniquement à la version du parcours sélectionnée. Le compteur se réinitialise à zéro lorsque le parcours est dupliqué ou qu’une nouvelle version est créée. Après une réinitialisation, les profils entrants reprennent le chemin nominal jusqu’à ce que la limite de compteur soit atteinte.
 
 Lorsque la limite de profil est définie sur un parcours récurrent, le compteur ne se réinitialise pas après chaque périodicité.
 

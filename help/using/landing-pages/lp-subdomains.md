@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
    >[!NOTE]
    >
-   >Avant de pouvoir utiliser ce sous-domaine pour vos landing pages, vous devez attendre qu’Adobe effectue les vérifications requises, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).-->
+   >Avant de pouvoir utiliser ce sous-domaine pour vos pages de destination, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour créer des préréglages de page de destination.
 

@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Remarques importantes {#important_notes}
 
-* En mode test, vous pouvez déclencher des événements à l’aide de l’interface .
+* En mode test, vous pouvez déclencher des événements dans l’interface.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../segment/creating-test-profiles.md).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant rejoindre un parcours au cours d’une session de test est de 100.

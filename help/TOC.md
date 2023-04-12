@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 99%
+source-wordcount: '1361'
+ht-degree: 100%
 
 ---
 
@@ -206,6 +206,7 @@ ht-degree: 99%
    + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
    + [Créer un message in-app](using/in-app/create-in-app.md)
    + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
+   + [Tester et envoyer une notification in-app](using/in-app/send-in-app.md)
    + [Configurer le canal in-app](using/in-app/inapp-configuration.md)
 + Canal de notification push{#push}
    + [Prise en main des notifications push](using/push/get-started-push.md)
@@ -221,7 +222,7 @@ ht-degree: 99%
    + [Prévisualiser et tester votre SMS](using/sms/send-sms.md)
    + [Gérer les désinscriptions aux SMS](using/sms/sms-opt-out.md)
    + [Configurer le canal SMS](using/sms/sms-configuration.md)
-   + [Configuration des sous-domaines SMS](using/sms/sms-subdomains.md)
+   + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
 + Publipostage direct {#direct-mail}
    + [Créer un publipostage direct](using/direct-mail/create-direct-mail.md)
    + [Configurer le publipostage direct](using/direct-mail/direct-mail-configuration.md)
@@ -441,8 +442,8 @@ ht-degree: 99%
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}
-         + [Intégration de parcours à des systèmes externes](using/configuration/external-systems.md)
-         + [API de limitation](using/configuration/capping.md)
+         + [Intégration des parcours à des systèmes externes](using/configuration/external-systems.md)
+         + [API de plafonnement](using/configuration/capping.md)
          + [API de limitation](using/configuration/throttling.md)
       + Configuration des événements {#events-journeys}
          + [Principe général](using/event/about-events.md)

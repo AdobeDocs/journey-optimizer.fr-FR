@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Après avoir créé une formule de classement, vous pouvez l’affecter à un em
 
 Pour créer une formule de classement, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Composants]** , puis sélectionnez **[!UICONTROL Classement]** . Le **[!UICONTROL Formules]** est sélectionné par défaut. La liste des formules créées précédemment s&#39;affiche.
+1. Accédez au menu **[!UICONTROL Composants]**, puis sélectionnez l’onglet **[!UICONTROL Classement]**. L’onglet **[!UICONTROL Formules]** est sélectionné par défaut. La liste des formules créées précédemment s’affiche.
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ Pour créer une formule de classement, procédez comme suit :
 
    ![](../assets/ranking-create-formula.png)
 
-1. Indiquez le nom, la description et la formule de la formule.
+1. Indiquez le nom, la description et la formule de la formule de classement.
 
    Dans cet exemple, nous voulons augmenter la priorité de toutes les offres contenant l&#39;attribut « chaud » en cas de météo avec températures chaudes. Pour ce faire, **contextData.weather=hot** a été transmis dans l&#39;appel de décision.
 

@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -287,6 +287,6 @@ Le widget **[!UICONTROL Synthèse des SMS]** détaille les informations principa
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Le **[!UICONTROL SMS : clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** Les widgets détaillent les informations principales relatives à l’engagement des visiteurs avec vos URL.
+Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
 
 +++

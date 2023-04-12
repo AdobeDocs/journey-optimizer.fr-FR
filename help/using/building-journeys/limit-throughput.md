@@ -11,7 +11,7 @@ exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Cela est possible grâce aux éléments suivants :
 
 Si vous utilisez des sources de données externes ou des actions personnalisées, il peut être judicieux de protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 2 000 instances/seconde pour les instances déclenchées par un segment.
 
-Pour les actions personnalisées, les fonctionnalités de ralentissement sont disponibles au niveau du produit. Voir cette [page](../configuration/external-systems.md#capping).
+Pour les actions personnalisées, les fonctionnalités de ralentissement existent au niveau du produit. Voir cette [page](../configuration/external-systems.md#capping).
 
-Pour les sources de données externes, vous pouvez définir une limite de limitation au niveau du point d’entrée afin d’éviter de surcharger ces systèmes externes par le biais des API de limitation de Journey Optimizer. Toutefois, toutes les requêtes restantes une fois la limite atteinte seront ignorées. Dans cette section, vous trouverez des solutions de contournement que vous pouvez utiliser pour optimiser votre débit.
+Pour les sources de données externes, vous pouvez définir des limites maximum au niveau du point d’entrée afin d’éviter de surcharger ces systèmes externes par le biais des API de plafonnement de Journey Optimizer. Toutefois, toutes les requêtes restantes une fois la limite atteinte seront ignorées. Dans cette section, vous trouverez des solutions de contournement que vous pouvez utiliser pour optimiser votre débit.
 
 Pour plus d’informations sur l’intégration aux systèmes externes, référez-vous à cette [page](../configuration/external-systems.md).
 

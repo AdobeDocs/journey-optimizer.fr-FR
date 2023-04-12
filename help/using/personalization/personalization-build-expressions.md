@@ -12,11 +12,11 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# Prise en main de l’éditeur d’expression {#build-personalization-expressions}
+# Commencer avec l’éditeur d’expression {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
@@ -39,13 +39,13 @@ La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous perme
 * **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, push, SMS) est utilisée dans un parcours, les champs de parcours contextuels sont disponibles via ce menu. En savoir plus dans [cette section](personalization-use-case.md).
 * **[!UICONTROL Fonctions helper]** : répertorie toutes les fonctions helper disponibles pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et les manipuler dans le contexte de la personnalisation. En savoir plus dans [cette section](functions/functions.md).
 
-## Ajout d’attributs de personnalisation {#add}
+## Ajouter des attributs de personnalisation {#add}
 
-Cliquez sur le bouton + pour ajouter un attribut à votre expression de personnalisation.
+Cliquez sur le bouton « + » pour ajouter un attribut à votre expression de personnalisation.
 
-Le menu de points de suspension en regard de l’icône &quot;+&quot; vous permet d’obtenir plus de détails sur chaque variable et d’ajouter vos attributs les plus fréquemment utilisés aux favoris. [Découvrez comment ajouter des attributs aux favoris](personalization-favorites.md)
+Le menu Points de suspension en regard de l’icône « + » vous permet d’obtenir plus de détails sur chaque variable et d’ajouter les attributs les plus fréquemment utilisés à vos favoris. [Découvrez comment ajouter des attributs aux favoris](personalization-favorites.md)
 
-De plus, vous pouvez définir du texte de remplacement par défaut qui s’affichera si un attribut de profil de type chaîne est vide. Pour cela, cliquez sur le bouton représentant des points de suspension en regard de l’attribut et sélectionnez **[!UICONTROL Insérer avec le texte de remplacement]**. Ecrire le texte qui doit s’afficher par défaut si la valeur de l’attribut est vide pour un profil, puis cliquer sur **[!UICONTROL Ajouter]**.
+De plus, vous pouvez définir un texte de remplacement par défaut qui s’affichera si un attribut de profil de type chaîne est vide. Pour ce faire, cliquez sur le bouton des points de suspension en regard de l’attribut et sélectionnez **[!UICONTROL Insérer avec un texte de remplacement]**. Rédigez le texte à afficher par défaut si la valeur de l’attribut est vide pour un profil, puis cliquez sur **[!UICONTROL Ajouter]**.
 
 ![](assets/attribute-details.png)
 
