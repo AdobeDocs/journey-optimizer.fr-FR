@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '2518'
-ht-degree: 95%
+source-wordcount: '2537'
+ht-degree: 98%
 
 ---
 
@@ -18,16 +18,16 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Avril 2023 {#apr-2023}
 
 * Adobe Experience Manager Assets Essentials et Adobe Stock ont été ajoutés à la page d’intégration multi-solution. [En savoir plus](../start/ajo-integrations.md).
-
+* L’avertissement sur les sous-domaines de messagerie à plusieurs niveaux non autorisés a été supprimé, car ils sont désormais pris en charge. [En savoir plus](../configuration/delegate-subdomain.md).
 
 ## Mars 2023 {#march-2023}
 
-* Le dictionnaire des schémas Journey Optimizer est désormais disponible. Vous trouverez la liste complète des champs et attributs de chaque schéma.  [En savoir plus](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr).
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 mars a été détaillée dans la documentation. [En savoir plus](release-notes.md).
+* Le dictionnaire de schémas Journey Optimizer est maintenant disponible. Vous y trouverez la liste complète des champs et attributs de chaque schéma.  [En savoir plus](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr).
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] de mars 2023 ont été présentées dans la documentation. [En savoir plus](release-notes.md).
 * Ajout d’une étape pour activer les événements d’Adobe Analytics dans vos parcours. [En savoir plus](../event/about-analytics.md).
 * Une nouvelle section a été créée dans le guide consacré à la gestion des décisions, sur la manière de collecter les commentaires relatifs à la prise de décisions sur les offres dans Adobe Experience Platform, y compris les offres affichées et la manière dont les utilisateurs et utilisatrices interagissent avec elles. [En savoir plus](../offers/data-collection/data-collection.md).
-* Une nouvelle sous-section a été ajoutée au **Créer une décision** pour expliquer la différence entre l’évaluation des critères dans un ordre séquentiel ou en même temps. [En savoir plus](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order).
-* Une barrière de sécurité a été ajoutée pour les parcours de segment de lecture avec lecture incrémentielle. Vous ne pouvez pas créer de version, vous devez dupliquer le parcours. [En savoir plus](../start/guardrails.md#journey-versions-g).
+* Ajout d’une nouvelle sous-section à la section **Créer une décision**, qui informe sur la différence entre l’évaluation des critères dans un ordre séquentiel ou en même temps. [En savoir plus](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order).
+* Ajout d’un mécanisme de sécurisation pour les parcours de segment de lecture avec lecture incrémentielle. La création d’une nouvelle version n’est pas possible, vous devez dupliquer le parcours. [En savoir plus](../start/guardrails.md#journey-versions-g).
 
 ## Février 2023 {#feb-2023}
 
