@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 92%
 
 ---
 
@@ -22,9 +22,12 @@ Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions q
 
 Par exemple, vous pouvez ajouter une décision qui affichera dans votre e-mail une offre de remise spéciale qui variera en fonction du niveau de fidélité du destinataire.
 
-Pour plus d’informations sur la façon de créer et gérer des offres, reportez-vous à [cette section](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>Si des modifications sont apportées à la décision d’une offre qui est utilisée dans le message d’un parcours, vous devez annuler la publication du parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
 
-Pour obtenir un **exemple complet** montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un e-mail, consultez [cette section](../offers/offers-e2e.md#insert-decision-in-email).
+* Pour plus d’informations sur la façon de créer et gérer des offres, reportez-vous à [cette section](../offers/get-started/starting-offer-decisioning.md).
+* Pour obtenir un **exemple complet** montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un e-mail, consultez [cette section](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [Découvrez comment ajouter des offres en tant que personnalisation dans cette vidéo](#video-offers)
 

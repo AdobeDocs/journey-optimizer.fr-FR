@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '1223'
+ht-degree: 96%
 
 ---
 
@@ -197,3 +197,6 @@ Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des off
 
 Découvrez comment ajouter des offres personnalisées dans un e-mail dans [cette section](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>Si des modifications sont apportées à la décision d’une offre qui est utilisée dans le message d’un parcours, vous devez annuler la publication du parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
