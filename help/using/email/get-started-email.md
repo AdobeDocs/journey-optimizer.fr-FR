@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des e-mails à vos client(e)s. Vo
 
 Les diffusions d’e-mails peuvent être créées :
 
-* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du SMS.
+* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du 
 
    Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
