@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: arrière-plan, e-mail, couleur, éditeur
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
@@ -60,5 +60,3 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez util
    >Il s’agit du cas pratique le plus courant. Adobe recommande de définir les couleurs de fond au niveau de la colonne, car cela donne une plus grande flexibilité lors de la modification du contenu entier de l’email.
 
    Vous pouvez également définir une image de fond au niveau de la colonne, mais ce scénario est rare.
-
-   ![](assets/background_5.png)

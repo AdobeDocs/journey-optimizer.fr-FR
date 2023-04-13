@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 100%
+source-wordcount: '1324'
+ht-degree: 88%
 
 ---
 
@@ -63,7 +63,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    >[!NOTE]
    >
-   >Passez à tout moment à lʼonglet **[!UICONTROL Style de formulaire]** pour modifier les styles du contenu de votre composant Formulaire. [En savoir plus](#define-lp-styles)
+   >Basculez vers le **[!UICONTROL Styles]** à tout moment pour modifier les styles du contenu de votre composant de formulaire. [En savoir plus](#define-lp-styles)
 
 1. Dans la **[!UICONTROL Case à cocher 1]**, vous pouvez modifier le libellé correspondant à cette case à cocher.
 
@@ -83,7 +83,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    * **[!UICONTROL Liste dʼabonnements]** : vous devez sélectionner la liste dʼabonnements à mettre à jour si le profil coche cette case. En savoir plus sur les [listes dʼabonnements](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canal (e-mail)]** : le processus d’opt-in ou d’opt-out sʼapplique à l’ensemble du canal. Par exemple, si un profil qui se désinscrit possède deux adresses e-mail, celles-ci seront exclues de toutes vos communications.
 
@@ -136,21 +136,25 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
 ## Définition des styles de formulaire de page de destination {#lp-form-styles}
 
-1. Pour modifier les styles du contenu de votre composant de formulaire, passez à tout moment à lʼonglet **[!UICONTROL Style de formulaire]**.
+1. Pour modifier les styles du contenu de votre composant de formulaire, basculez à tout moment vers la fonction **[!UICONTROL Style]** .
 
    ![](assets/lp_designer-form-style.png)
 
-1. Développez la section **[!UICONTROL Cases à cocher]** pour définir lʼaspect des cases à cocher et du texte correspondant. Par exemple, vous pouvez ajuster la famille ou la taille de la police, ainsi que la couleur de la bordure de la case à cocher.
+1. Le **[!UICONTROL Champs]** La section est développée par défaut et permet de modifier l’aspect du champ de texte, comme le libellé et la police de l’espace réservé, la position du libellé, la couleur d’arrière-plan du champ ou la bordure du champ.
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. Développez la section **[!UICONTROL Cases à cocher]** pour définir lʼaspect des cases à cocher et du texte correspondant. Par exemple, vous pouvez régler la famille ou la taille de police ou la couleur de la bordure de la case à cocher.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Développez la section **[!UICONTROL Boutons]** pour modifier l’aspect du bouton dans le composant de formulaire. Par exemple, vous pouvez ajouter une bordure, modifier la couleur du libellé en le survolant avec votre souris ou ajuster lʼalignement du bouton.
+1. Développez la section **[!UICONTROL Boutons]** pour modifier l’aspect du bouton dans le composant de formulaire. Par exemple, vous pouvez modifier la police, ajouter une bordure, modifier la couleur du libellé au survol ou ajuster l’alignement du bouton.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Vous pouvez prévisualiser certains de vos paramètres, tels que la couleur du libellé du bouton au survol à lʼaide du bouton **[!UICONTROL Prévisualiser]**. En savoir plus sur le test des pages de destination [ici](create-lp.md#test-landing-page).
+   Vous pouvez prévisualiser certains de vos paramètres, comme la couleur de l’étiquette du bouton lorsque vous survolez en utilisant la fonction **[!UICONTROL Simulation du contenu]** bouton . En savoir plus sur le test des pages de destination [ici](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Développez la section **[!UICONTROL Disposition du formulaire]** pour modifier les paramètres de disposition, tels que la couleur d’arrière-plan, le remplissage ou la marge.
 
@@ -194,11 +198,15 @@ Procédez comme suit :
 
 1. Enregistrez vos modifications.
 
+Désormais, lorsque les utilisateurs cochent l’une des cases,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Désormais, lorsque les utilisateurs cochent l’une des cases, le message correspondant à la case sélectionnée s’affiche lors de l’envoi du formulaire.
+le message correspondant à la case à cocher sélectionnée s’affiche lors de l’envoi du formulaire.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: intégré, style, attributs, éditeur
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 100%
 Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élément et en affichez les paramètres dans le panneau latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
 1. Sélectionnez un élément de votre contenu.
-1. Sur le panneau latéral, recherchez les paramètres de **[!UICONTROL styles intégrés]**.
+
+1. Dans la **[!UICONTROL Styles]** , recherchez les **[!UICONTROL Styles intégrés]** sous le **[!UICONTROL Avancé]** menu déroulant.
 
    ![](assets/styles_1.png)
 

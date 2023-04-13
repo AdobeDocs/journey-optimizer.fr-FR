@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 100%
@@ -73,8 +73,6 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
 
-   ![](assets/message-tracking-links.png)
-
 1. Vous pouvez personnaliser vos liens. Pour en savoir plus sur les URL personnalisées, consultez [cette section](../personalization/personalization-syntax.md#perso-urls).
 
 1. Enregistrez vos modifications.
@@ -121,8 +119,6 @@ Le [Concepteur d&#39;e-mail](content-from-scratch.md) permet de gérer les URL s
    Cette liste permet d&#39;avoir une vue centrale et de localiser chaque URL dans le contenu de l&#39;e-mail.
 
 1. Pour modifier un lien, cliquez sur l&#39;icône de crayon correspondante.
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. Si nécessaire, vous pouvez modifier le **[!UICONTROL Type de tracking]** :
 

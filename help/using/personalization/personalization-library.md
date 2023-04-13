@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -31,9 +31,7 @@ Pour accéder aux expressions enregistrées, cliquez sur le bouton **[!UICONTROL
 
 >[!NOTE]
 >
->Vous pouvez utiliser le bouton d’informations pour obtenir plus d’informations sur le contenu d’une expression enregistrée. Si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque, le bouton d’informations s’affiche dans le menu Ellipse.
-
-![](assets/library-list.png)
+>Vous pouvez obtenir plus d’informations sur le contenu d’une expression enregistrée à partir du bouton représentant des points de suspension. Notez que le bouton d’informations s’affiche dans les points de suspension si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque.
 
 Cliquez sur le signe + pour insérer l’expression dans l’éditeur. Vous pouvez ensuite personnaliser et valider votre contenu de personnalisation comme vous le faites habituellement. [En savoir plus](../personalization/personalization-build-expressions.md)
 

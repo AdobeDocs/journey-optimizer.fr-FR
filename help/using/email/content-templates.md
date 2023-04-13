@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
@@ -108,9 +109,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Le [Concepteur d’e-mail](get-started-email-design.md) s’affiche. Modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail contenu dans un parcours ou une campagne, selon l’option que vous avez sélectionnée.
 
-   ![](assets/content-template-designer.png)
-
-1. Vous pouvez tester votre contenu si nécessaire. [Voici comment procéder.](#test-template)
+   Vous pouvez tester votre contenu si nécessaire. [Voici comment procéder.](#test-template)
 
 1. Une fois votre modèle prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 

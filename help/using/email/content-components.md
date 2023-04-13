@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 96%
+source-wordcount: '1353'
+ht-degree: 71%
 
 ---
 
@@ -60,13 +60,17 @@ Pour ajouter des composants de contenu à votre e-mail et les ajuster selon vos 
    >
    >Vous pouvez ajouter plusieurs composants dans un seul composant de structure et dans chaque colonne d’un composant de structure.
 
-1. Ajustez les attributs de style de chaque composant à l’aide du volet **[!UICONTROL Paramètres des composants]** sur la droite. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md)
+1. Ajustez les attributs de style de chaque composant à l’aide de la fonction **[!UICONTROL Paramètres]** et **[!UICONTROL Style]** onglets sur la droite. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
+1. Dans le menu avancé de votre **[!UICONTROL Composant de contenu]**, vous pouvez facilement supprimer ou dupliquer n’importe quel composant de contenu, si nécessaire.
+
+   ![](assets/email_designer_content_components_settings_2.png)
+
 ## Conteneur {#container}
 
-Vous pouvez ajouter un conteneur simple à l’intérieur duquel vous pourrez ajouter un autre composant de contenu. Vous pouvez ainsi appliquer un style spécifique au conteneur, qui sera différent du composant utilisé à l’intérieur.
+Pour appliquer un style spécifique à un groupe de composants de contenu, vous pouvez ajouter une **[!UICONTROL Conteneur]** , puis ajoutez le ou les composants de contenu souhaités à l’intérieur. Cela vous permet d’appliquer un style distinct au conteneur, qui sera différent du style appliqué aux composants de contenu à l’intérieur.
 
 Par exemple, ajoutez un composant **[!UICONTROL Conteneur]**, puis ajoutez un composant [Bouton](#button) à l’intérieur de ce conteneur. Vous pouvez utiliser un arrière-plan spécifique pour le conteneur et un autre pour le bouton.
 
@@ -78,11 +82,11 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 1. À partir de la section **[!UICONTROL Composants de contenu]**, faites glisser et déposez le composant **[!UICONTROL Bouton]** dans un **[!UICONTROL composant de structure]**.
 
-1. Cliquez sur votre bouton nouvellement ajouté pour personnaliser le texte et accéder aux **[!UICONTROL Paramètres des composants]** dans le volet droit du Concepteur d’e-mail.
+1. Cliquez sur le bouton que vous venez d’ajouter pour personnaliser le texte et avoir accès au **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** onglets dans le volet de droite du Concepteur d’email .
 
    ![](assets/email_designer_button_component.png)
 
-1. Dans le champ **[!UICONTROL Lien]**, ajoutez l’URL vers laquelle vous souhaitez rediriger lors d’un clic sur le bouton.
+1. Dans la **[!UICONTROL Lien]** ajoutez l’URL à laquelle vous souhaitez rediriger lorsque vous cliquez sur le bouton.
 
 1. Choisissez comment votre audience sera redirigée avec la liste déroulante **[!UICONTROL Cible]** :
 
@@ -98,13 +102,13 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 ## Texte {#text}
 
-Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.) en utilisant le volet **[!UICONTROL Paramètres des composants]**.
+Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.) en utilisant la variable **[!UICONTROL Styles]** .
 
 ![](assets/email_designer_text_component.png)
 
 1. À partir des **[!UICONTROL composants de contenu]**, faites glisser et déposez le composant de **[!UICONTROL texte]** dans un **[!UICONTROL composant de structure]**.
 
-1. Cliquez sur votre composant nouvellement ajouté pour personnaliser le texte et accéder aux **[!UICONTROL paramètres des composants]** dans le volet droit du concepteur d’e-mail.
+1. Cliquez sur le composant que vous venez d’ajouter pour personnaliser le texte et accéder à la fonction **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** onglets dans le volet de droite du Concepteur d’email.
 
 1. Modifiez votre texte à l’aide des options suivantes disponibles dans la barre d’outils :
 
@@ -115,20 +119,25 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **[!UICONTROL Créer une liste]** : ajoutez une puce ou une liste numérique à votre texte.
    * **[!UICONTROL Définir le titre]** : ajoutez jusqu&#39;à six niveaux d&#39;en-tête à votre texte.
    * **Taille de police** : sélectionnez la taille de police de votre texte en pixels.
+   * **[!UICONTROL Modifier la couleur de la police]**: choisissez la couleur de votre police.
+   * **[!UICONTROL Lien d’insertion]**: ajoutez n’importe quel type de lien à votre contenu.
    * **[!UICONTROL Modifier l&#39;image]** : ajoutez une image ou une ressource à votre composant de texte. [En savoir plus sur la gestion des ressources](assets-essentials.md)
+   * **[!UICONTROL Modifier la couleur de la police]**: choisissez la couleur de votre police.
+   * **[!UICONTROL Ajouter une personnalisation]** : ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
    * **[!UICONTROL Afficher le code source]** : affichez le code source de votre texte. Ceci ne peut pas être modifié.
+   * **[!UICONTROL Activer le contenu conditionnel]** : ajoutez du contenu conditionnel pour adapter le contenu du composant aux profils ciblés. [En savoir plus sur le contenu dynamique](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL Dupliquer]** : ajoutez une copie de votre composant de texte.
    * **[!UICONTROL Supprimer]** : supprimez le composant de texte sélectionné de votre e-mail.
-   * **[!UICONTROL Ajouter une personnalisation]** : ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
-   * **[!UICONTROL Activer le contenu conditionnel]** : ajoutez du contenu conditionnel pour adapter le contenu du composant aux profils ciblés. [En savoir plus sur le contenu dynamique](../personalization/get-started-dynamic-content.md)
 
-1. Ajustez les autres attributs de style, tels que la couleur du texte, la famille de polices, la bordure, la marge intérieure, la marge, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
+1. Ajustez les autres attributs de style, tels que la couleur du texte, la famille de polices, la bordure, la marge intérieure, la marge, etc. de la **[!UICONTROL Styles]** .
+
+   ![](assets/email_designer_text_component_2.png)
 
 ## Diviseur {#divider}
 
 Utilisez le composant **[!UICONTROL Diviseur]** pour insérer une ligne de séparation afin d’organiser la disposition et le contenu de votre e-mail.
 
-Vous pouvez ajuster les attributs de style, tels que la couleur, le style et la hauteur des lignes à partir du volet **[!UICONTROL Paramètres des composants]**.
+Vous pouvez ajuster les attributs de style, tels que la couleur de la ligne, le style et la hauteur, à partir du **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** onglets.
 
 ![](assets/email_designer_divider.png)
 
@@ -156,18 +165,22 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. À partir de **[!UICONTROL Composants de contenu]**, faites glisser le composant **[!UICONTROL Image]** et déposez-le dans un **[!UICONTROL composant de structure]**.
 
+   ![](assets/email_designer_image_content.png)
+
 1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image dans vos ressources.
 
    Pour en savoir plus sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
-1. Cliquez sur le nouveau composant ajouté et configurez les propriétés de votre image à l’aide du volet **[!UICONTROL Paramètres des composants]** :
+1. Cliquez sur le composant que vous venez d’ajouter et configurez vos propriétés d’image à partir du **[!UICONTROL Paramètres]** tab :
 
    * **[!UICONTROL Titre d’image]** vous permet de définir un titre pour votre image.
    * **[!UICONTROL Text alt]** vous permet de définir la légende liée à votre image. Cela correspond à l’attribut alt en HTML.
 
    ![](assets/email_designer_10.png)
 
-1. Ajustez les autres attributs de style tels que la marge, la bordure, etc. ou ajoutez un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
+1. Vous pouvez également choisir **[!UICONTROL Rechercher des photos Stock similaires]**. [En savoir plus](stock.md).
+
+1. Dans la **[!UICONTROL Styles]** , ajustez les autres attributs de style tels que la marge, la bordure, etc. ou ajoutez un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
 
 ## Social {#social}
 
@@ -175,9 +188,9 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 
 1. À partir de **[!UICONTROL Composants de contenu]**, faites glisser le composant **[!UICONTROL Social]** et déposez-le dans un **[!UICONTROL composant de structure]**.
 
-1. Cliquez sur le composant que vous venez d’ajouter.
+1. Sélectionnez le composant que vous venez d’ajouter.
 
-1. Dans le champ **[!UICONTROL Social]** du volet **[!UICONTROL Paramètres des composants]**, sélectionnez le réseau social que vous souhaitez ajouter ou supprimer.
+1. Dans le **[!UICONTROL Social]** du champ **[!UICONTROL Paramètres]** , sélectionnez les médias sociaux à ajouter ou à supprimer.
 
    ![](assets/email_designer_20.png)
 
@@ -187,13 +200,25 @@ Utilisez le composant **[!UICONTROL Social]** pour insérer des liens vers des p
 
    ![](assets/email_designer_21.png)
 
-1. Vous pouvez également modifier les icônes de chacun de vos réseaux sociaux si nécessaire dans le champ **[!UICONTROL Image]**.
+1. Vous pouvez également modifier les icônes de chacun de vos médias sociaux si nécessaire à partir de vos ressources.
 
-1. Ajustez les autres attributs de style tels que le style, la marge, la bordure, etc. à partir du volet **[!UICONTROL Paramètres des composants]**.
+1. Ajustez les autres attributs de style tels que le style, la marge, la bordure, etc. de la **[!UICONTROL Styles]** .
 
 ## Décision d’offre {#offer-decision}
 
 Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des offres dans vos messages. Le moteur [Gestion des décisions](../offers/get-started/starting-offer-decisioning.md) choisira la meilleure offre à proposer à votre clientèle.
+
+1. De **[!UICONTROL Composants de contenu]**, effectuez un glisser-déposer de la variable **[!UICONTROL Décision sur l’offre]** dans un composant **[!UICONTROL Composant de structure]**.
+
+1. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner votre **[!UICONTROL Décision sur l’offre]**.
+
+   ![](assets/component_offers.png)
+
+1. Dans la liste déroulante, sélectionnez votre **[!UICONTROL Emplacements]**.  Sélectionnez ensuite le **[!UICONTROL Décision sur l’offre]** vous souhaitez ajouter du contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
+
+   ![](assets/component_offers_2.png)
+
+1. Dans la **[!UICONTROL Décision sur l’offre]** Vous pouvez prévisualiser ou modifier l’offre insérée.
 
 Découvrez comment ajouter des offres personnalisées dans un e-mail dans [cette section](add-offers-email.md).
 

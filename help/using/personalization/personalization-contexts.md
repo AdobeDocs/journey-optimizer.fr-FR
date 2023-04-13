@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, contexte, personnalisation
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Lorsque vous créez un e-mail, vous pouvez ajouter une personnalisation dans le 
 
 Dans le Concepteur d&#39;email, vous pouvez personnaliser le contenu :
 
-* Dans le **message** : cliquez dans un bloc de texte, puis cliquez sur l&#39;icône **Personnaliser** dans la barre d&#39;outils contextuelle et sélectionnez le champ **Insérer une personnalisation**. Pour plus d&#39;informations sur l&#39;interface du Concepteur d&#39;email, reportez-vous à [cette section](../email/get-started-email-design.md).
+* Dans le **message**: cliquez à l’intérieur d’un bloc de texte, puis cliquez sur le bouton **Ajouter une personnalisation** dans la barre d’outils contextuelle. Pour plus d&#39;informations sur l&#39;interface du Concepteur d&#39;email, reportez-vous à [cette section](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

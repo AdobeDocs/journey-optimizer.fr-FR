@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '643'
+ht-degree: 87%
 
 ---
 
@@ -73,15 +73,13 @@ Une fois vos modifications enregistrées, vos offres sont prêtes à être affic
 
 ## Prévisualisation des offres dans un e-mail {#preview-offers-in-email}
 
-Vous pouvez prévisualiser les différentes offres qui font partie de la décision ajoutée à l&#39;e-mail en utilisant la section **[!UICONTROL Offres]** ou les flèches des composants de contenu.
+Vous pouvez prévisualiser les différentes offres qui font partie de la décision ajoutée à l’email à l’aide de la variable **[!UICONTROL Offre]** ou les flèches des composants de contenu.
 
 ![](assets/deliver-offer-preview.png)
 
 Pour afficher les différentes offres qui font partie de la décision avec un profil client, procédez comme suit.
 
-1. Cliquez sur **[!UICONTROL Aperçu]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. Cliquez sur le bouton **[!UICONTROL Bouton Simuler le contenu]** bouton .
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ Pour en savoir plus sur les étapes détaillées afin de vérifier la prévisual
 Découvrez comment ajouter un composant de gestion des décisions aux messages dans [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: style, liens, couleur, e-mail, éditeur
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 72%
 
 ---
 
@@ -22,11 +22,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Dans un **[!UICONTROL composant de contenu]** texte où un lien est inséré, sélectionnez votre lien.
 
-1. Dans les **[!UICONTROL paramètres du composant]**, cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
-
-   ![](assets/link_1.png)
-
-1. Choisissez comment votre audience sera redirigée avec la liste déroulante **[!UICONTROL Cible]** :
+1. Dans la **[!UICONTROL Paramètres]** , choisissez comment votre audience sera redirigée avec la variable **[!UICONTROL Cible]** menu déroulant :
 
    * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué (par défaut).
    * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
@@ -36,10 +32,12 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
    ![](assets/link_2.png)
 
-1. Pour changer la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]**.
+1. Vérifier **[!UICONTROL Lien de soulignement]** pour souligner le texte du libellé de votre lien.
+
+   ![](assets/link_1.png)
+
+1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** de la **[!UICONTROL Styles]** .
 
    ![](assets/link_3.png)
-
-1. Choisissez la couleur dont vous avez besoin.
 
 1. Enregistrez vos modifications.

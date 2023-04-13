@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Rapport d’abonnement global"
->abstract="Le rapport d’abonnement permet de mesurer et de visualiser l’activité de vos abonné(e)s au cours d’une période donnée. Celui-ci est composé de plusieurs widgets présentant vos abonnements et désabonnements. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+>abstract="Le rapport global Inscription permet de mesurer et de visualiser l’activité de vos abonnés sur une période sélectionnée. Celui-ci est composé de plusieurs widgets présentant vos abonnements et désabonnements. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
 Le **[!UICONTROL Rapport d&#39;abonnement global]** affiche des détails sur l&#39;activité de vos abonnés sur une période sélectionnée. Pour mesurer vos abonnements sur les dernières 24 heures uniquement, reportez-vous à la section [Rapport d&#39;abonnement dynamique](subscription-report-live.md).
 
