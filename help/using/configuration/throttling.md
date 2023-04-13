@@ -6,16 +6,17 @@ description: Découvrez comment utiliser l’API de limitation.
 role: User
 level: Beginner
 keywords: externe, API, optimizer, plafonnement
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Utiliser l’API de limitation
 
-L’API de limitation vous permet de créer, configurer et surveiller vos configurations de limitation.
+L’API de limitation vous permet de créer, configurer et surveiller vos configurations de limitation afin de limiter le nombre d’événements envoyés par seconde.
 
 Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 

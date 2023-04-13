@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,15 +28,15 @@ Lorsque Journey Optimizer exécute un appel à une API externe, les mécanismes
 
 1. Les règles de plafonnnement et de limitation sont appliquées : si le taux maximum est atteint, les appels restants sont ignorés ou mis en file d’attente.
 
-2. Temporisation et reprise : si la règle de limitation est remplie, Journey Optimizer tente d&#39;effectuer l&#39;appel jusqu&#39;à la fin de la temporisation.
+2. Timeout et reprise : si la règle de limitation ou de ralentissement est remplie, Journey Optimizer tente d’effectuer l’appel jusqu’à ce que la fin du délai d’expiration soit atteinte.
 
-## Limitation de limitation {#capping}
+## API de limitation et de limitation {#capping}
 
 ### À propos des API de plafonnement et de limitation
 
 En configurant une source de données ou une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires pour enrichir vos parcours, les messages que vous envoyez ou les appels API.
 
-Les API Journey Optimizer prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes ou API externes peuvent avoir un débit moindre. Pour éviter de surcharger ces systèmes, utilisez les API de **plafonnement** et de **limitation** pour limiter le nombre d’événements envoyés par seconde.
+Les API Journey Optimizer prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes ou API externes peuvent avoir un débit moindre. Pour éviter de surcharger ces systèmes, vous pouvez utiliser la variable **Limitation** et **Ralentissement** API pour limiter le nombre d’événements envoyés par seconde.
 
 Chaque fois qu’un appel API est réalisé par les parcours, le moteur d’API est sollicité. Si la limite définie dans l’API est atteinte, l’appel est rejeté si vous utilisez l’API de limitation, ou mis en file d’attente jusqu’à 6 heures, et traité le plus tôt possible dans l’ordre dans lequel il a été reçu si vous utilisez l’API de limitation.
 
