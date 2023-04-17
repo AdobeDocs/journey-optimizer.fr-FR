@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 92%
 
 ---
 
@@ -63,6 +63,10 @@ Pour créer un workflow de composition, procédez comme suit :
    ![](assets/audiences-publish.png)
 
 1. Une fois votre composition prête, cliquez sur le bouton **[!UICONTROL Publier]** pour publier la composition et enregistrez les audiences obtenues dans Adobe Experience Platform.
+
+   >[!IMPORTANT]
+   >
+   >Vous pouvez publier jusqu’à 75 compositions dans un environnement de test donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
    Si une erreur se produit lors de la publication, des alertes s’affichent avec des informations sur la façon de résoudre le problème.
 
