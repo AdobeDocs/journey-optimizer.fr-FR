@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: parcours, message, notification push, sms, e-mail
+keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 86%
 
 ---
 
-# E-mail, SMS, Push{#add-a-message-in-a-journey}
+# Email, In-App, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une activité de message push, SMS ou e-mail et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une activité push, SMS, In-App ou email et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 
 Vous pouvez également configurer des actions spécifiques pour vous envoyer des messages :
 
@@ -33,7 +33,7 @@ Pour ajouter un message dans un parcours, procédez comme suit :
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture de segment](read-segment.md).
 
-1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité **E-mail**, **SMS** ou **Push** dans la zone de travail.
+1. Dans la **Actions** de la palette, effectuez un glisser-déposer d’une **email**, un **In-app**, un **SMS** ou **Push** dans la zone de travail.
 
 1. Configurez votre activité. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
@@ -44,6 +44,14 @@ Pour ajouter un message dans un parcours, procédez comme suit :
    <img alt="Prospect" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="Prospect" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>Création de messages In-App</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ Pour ajouter un message dans un parcours, procédez comme suit :
 
 ## Mettre à jour le contenu dynamique{#update-live-content}
 
-Vous pouvez mettre à jour le contenu d’un message (e-mail, sms, notification push) dans un parcours dynamique.
+Vous pouvez mettre à jour le contenu d’un message (email, In-App, push, SMS) dans un parcours en direct.
 
 Pour ce faire, ouvrez votre parcours dynamique, sélectionnez l’activité de message et cliquez sur **Modifier le contenu**.
 
 ![](assets/add-a-message2.png)
 
 Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnalisation, qu’il s’agisse d’attributs de profil ou de données contextuelles (à partir des propriétés d’événement ou de parcours).
+
+Notez que pour l’activité In-App, toute modification peut être apportée au contenu pendant que le parcours est actif, mais les déclencheurs In-App ne peuvent pas être modifiés.
 
 ## Optimisation de l’heure d’envoi{#send-time-optimization}
 

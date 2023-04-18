@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, création, commencer
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 ## Aperçu sur l’appareil {#preview-device}
 
-Une fois la [création du message in-app](create-in-app.md) et la [définition de son contenu](design-in-app.md) effectuées, vous pouvez prévisualiser la notification in-app sur un appareil donné.
+Si vous souhaitez obtenir un aperçu de la notification In-App avant qu’elle ne soit activée pour tous les utilisateurs, vous avez la possibilité de la prévisualiser sur un appareil spécifique. Cette fonctionnalité vous permet de vous assurer que la notification s’affiche et fonctionne comme prévu sur l’appareil choisi, offrant ainsi une meilleure expérience utilisateur à votre audience.
 
 Pour ce faire, suivez les étapes ci-après :
 
@@ -37,7 +38,7 @@ Votre message in-app peut maintenant être déclenché directement sur votre app
 
 ## Vérifier et activer votre notification in-app{#in-app-review}
 
-Une fois votre message in-app rédigé, vous pouvez le réviser et l’activer.
+Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer.
 
 Pour ce faire, suivez les étapes ci-après :
 

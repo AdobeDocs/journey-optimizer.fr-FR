@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '886'
+ht-degree: 94%
 
 ---
 
 # Concevoir votre contenu in-app {#design-content}
 
-Vous pouvez modifier le contenu in-app pour configurer les options d’expérience, notamment la disposition et l’affichage du message, le texte et les options de bouton.
+Vous pouvez modifier le contenu in-app pour configurer les options d’expérience :
 
-Pour configurer le contenu du message, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** et utilisez les options de la section droite de l’écran pour concevoir le contenu de votre message in-app.
+* Dans un **[!UICONTROL Campagne]**, de la fonction **[!UICONTROL Action]** pour configurer le contenu du message, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** bouton .
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* Dans un **[!UICONTROL Parcours]**, dans le menu avancé de votre message in-app **[!UICONTROL Action]**, vous pouvez commencer à concevoir votre contenu à l’aide de l’ **[!UICONTROL Modifier le contenu]** bouton .
+
+   ![](assets/design_inapp_journey.png)
 
 Le bouton **[!UICONTROL Formatage avancé]** active des options supplémentaires pour personnaliser l’expérience.
 
-Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer. Les notifications seront alors envoyées conformément au planning de la campagne. En savoir plus sur [cette page](create-in-app.md#in-app-send).
+Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer. Les notifications seront alors envoyées conformément au planning de la campagne. En savoir plus sur [cette page](send-in-app.md).
 
 ## Disposition des messages {#message-layout}
 
