@@ -8,10 +8,11 @@ level: Beginner
 keywords: in-app, message, création, commencer
 hide: true
 hidefromtoc: true
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
+source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 44%
+source-wordcount: '553'
+ht-degree: 46%
 
 ---
 
@@ -67,10 +68,11 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
 * La personnalisation ne peut contenir que des attributs de profil.
 
-* L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil. Cela signifie que vous ne pouvez pas arrêter une activité In-App directement à partir d’une activité de parcours. Vous devez mettre fin à ce parcours.
-* L’affichage in-app est lié à la durée de vie d’un parcours, ce qui signifie qu’une fois un parcours terminé pour un profil utilisateur particulier, tous les messages in-app de ce parcours ne s’afficheront plus pour ce profil. Par conséquent, il n’est pas possible d’arrêter un message In-App directement à partir d’une activité de parcours. Vous devrez plutôt terminer le parcours entier pour que les messages In-App ne s’affichent pas sur le profil.
+* L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil.  Par conséquent, il n’est pas possible d’arrêter un message In-App directement à partir d’une activité de parcours. Vous devrez plutôt terminer le parcours entier pour que les messages In-App ne s’affichent pas sur le profil.
 
-* Avec cette fonctionnalité, vous ne pourrez pas encore utiliser **[!UICONTROL Réaction]** activités pour réagir à une ouverture ou à un clic In-App.
+* En mode test, l’affichage In-App dépend de la durée de vie du parcours. Pour éviter que le parcours ne se termine trop tôt au cours du test, ajustez la variable **[!UICONTROL Temps d’attente]** pour votre **[!UICONTROL Attente]** activités.
+
+* **[!UICONTROL Réaction]** Les activités ne peuvent pas être utilisées pour réagir à une ouverture ou à un clic In-App.
 
 * Un délai d’activation se produit entre le moment où un profil utilisateur atteint une activité In-App dans la zone de travail et le moment où il commence à voir ce message in-app. Ce délai peut aller de 15 minutes à 1 heure.
 
