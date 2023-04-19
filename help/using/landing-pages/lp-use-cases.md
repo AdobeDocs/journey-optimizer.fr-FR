@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '968'
 ht-degree: 100%
 
 ---
@@ -70,11 +70,11 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
 Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui se sont inscrits à votre événement. Procédez comme suit.
 
-1. Créez un autre [parcours](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la page de destination en cliquant sur le bouton **[!UICONTROL Créer un parcours]**. En savoir plus [ici](create-lp.md#configure-primary-page)
+1. Créez un autre [parcours](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la page de destination en cliquant sur le bouton **[!UICONTROL Créer un parcours]**. [En savoir plus](create-lp.md#configure-primary-page).
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification du segment]** dans la zone de travail. En savoir plus [ici](../building-journeys/segment-qualification-events.md)
+1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification du segment]** dans la zone de travail. [En savoir plus](../building-journeys/segment-qualification-events.md).
 
 1. Cliquez dans le champ du **[!UICONTROL Segment]** et sélectionnez la liste d’abonnements que vous avez créée.
 
@@ -127,13 +127,9 @@ Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos 
 
 1. Une fois que vous avez configuré et défini le contenu de vos pages, [publiez](create-lp.md#publish) la page de destination.
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. [Créez un e-mail](../email/get-started-email-design.md) dans un parcours.
 
 1. Sélectionnez du texte dans votre contenu et [insérez un lien](../email/message-tracking.md#insert-links) à l’aide de la barre d’outils contextuelle. Vous pouvez également employer un lien sur un bouton.
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. Sélectionnez **[!UICONTROL Page de destination]** dans la liste déroulante **[!UICONTROL Type de lien]**, puis sélectionnez la [page de destination](create-lp.md#configure-primary-page) que vous avez créée pour le désabonnement.
 
