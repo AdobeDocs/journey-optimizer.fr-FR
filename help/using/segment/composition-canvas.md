@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Cette documentation couvre les sujets suivants :
 
 >[!ENDSHADEBOX]
 
-La composition de l’audience fournit un canevas visuel qui vous permet de créer des audiences et d’utiliser diverses activités (division, enrichissement, etc.).
+La composition de l’audience met à votre disposition une zone de travail visuelle qui vous permet de créer des audiences et d’utiliser plusieurs activités (partage, enrichissement, etc.).
 
 Pour composer une audience dans la zone de travail, procédez comme suit :
 

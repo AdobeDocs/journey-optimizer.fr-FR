@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
 source-wordcount: '2572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Avril 2023 {#apr-2023}
 
-* Adobe Experience Manager Assets Essentials et Adobe Stock ont été ajoutés à la page d’intégration multi-solution. [En savoir plus](../start/ajo-integrations.md).
+* Adobe Experience Manager Assets Essentials et Adobe Stock ont été ajoutés à la page d’intégration multi-solution. [En savoir plus](../start/ajo-integrations.md).
 * L’avertissement sur les sous-domaines de messagerie à plusieurs niveaux non autorisés a été supprimé, car ils sont désormais pris en charge. [En savoir plus](../configuration/delegate-subdomain.md).
-* Une note a été ajoutée pour indiquer que, si des modifications sont apportées à une décision d’offre utilisée dans le message d’un parcours, vous devez annuler la publication du parcours et le republier. [En savoir plus](../building-journeys/publishing-the-journey.md).
+* Une note a été ajoutée pour indiquer que, si des modifications sont apportées à une décision d’offres utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. [En savoir plus](../building-journeys/publishing-the-journey.md).
 
 ## Mars 2023 {#march-2023}
 

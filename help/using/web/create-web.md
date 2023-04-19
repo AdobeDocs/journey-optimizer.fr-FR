@@ -12,7 +12,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Créer une règle de correspondance de pages"
->abstract="Une règle de correspondance de pages permet de cibler plusieurs URL correspondant à la même règle ; par exemple, si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web."
+>abstract="Une règle de correspondance de pages permet de cibler plusieurs URL correspondant à la même règle ; par exemple, si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web."
 
 Pour commencer à créer votre expérience web par le biais d’une campagne, suivez les étapes ci-dessous.
 

@@ -9,8 +9,8 @@ keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1202'
+ht-degree: 100%
 
 ---
 
@@ -28,25 +28,25 @@ Lorsque Journey Optimizer exécute un appel à une API externe, les mécanismes
 
 1. Les règles de plafonnnement et de limitation sont appliquées : si le taux maximum est atteint, les appels restants sont ignorés ou mis en file d’attente.
 
-2. Timeout et reprise : si la règle de limitation ou de ralentissement est remplie, Journey Optimizer tente d’effectuer l’appel jusqu’à ce que la fin du délai d’expiration soit atteinte.
+2. Temporisation et reprise : si la règle de limitation ou de plafonnement est remplie, Journey Optimizer tente d’effectuer l’appel jusqu’à la fin de la temporisation.
 
-## API de limitation et de limitation {#capping}
+## API de plafonnement et de limitation {#capping}
 
 ### À propos des API de plafonnement et de limitation
 
 En configurant une source de données ou une action, vous établissez une connexion à un système afin de récupérer des informations supplémentaires pour enrichir vos parcours, les messages que vous envoyez ou les appels API.
 
-Les API Journey Optimizer prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes ou API externes peuvent avoir un débit moindre. Pour éviter de surcharger ces systèmes, vous pouvez utiliser la variable **Limitation** et **Ralentissement** API pour limiter le nombre d’événements envoyés par seconde.
+Les API de Journeys prennent en charge jusqu’à 5 000 événements par seconde, mais certains systèmes externes ou API peuvent ne pas avoir un débit équivalent. Pour éviter de surcharger ces systèmes, utilisez les API de **plafonnement** et de **limitation** pour limiter le nombre d’événements envoyés par seconde.
 
-Chaque fois qu’un appel API est réalisé par les parcours, le moteur d’API est sollicité. Si la limite définie dans l’API est atteinte, l’appel est rejeté si vous utilisez l’API de limitation, ou mis en file d’attente jusqu’à 6 heures, et traité le plus tôt possible dans l’ordre dans lequel il a été reçu si vous utilisez l’API de limitation.
+Chaque fois qu’un appel API est réalisé par les parcours, le moteur d’API est sollicité. Si la limite définie dans l’API est atteinte, deux scénarios peuvent se présenter selon l’API utilisée : avec l’API de plafonnement, l’appel est rejeté. Si vous utilisez l’API de limitation, l’appel est mis en file d’attente pendant 6 heures au maximum et traité dès que possible, dans l’ordre où il a été reçu.
 
-Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de limitation de 100 appels par seconde dans votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et rejette ou met en file d’attente les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
+Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de limitation de 100 appels par seconde pour votre système externe. Votre système est appelé par une action personnalisée dans 10 parcours différents. Si un parcours reçoit 200 appels par seconde, il utilise les 100 emplacements disponibles et rejette ou met en file d’attente les 100 emplacements restants. Comme le taux maximum a été dépassé, il ne restera plus aucun emplacement pour les 9 autres parcours. Cette granularité permet de protéger le système externe contre la surcharge et la panne.
 
 >[!IMPORTANT]
 >
->Les **Règles de plafonnement** sont configurées au niveau de la sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de cette sandbox.
+>Les **Règles de limitation** sont configurées au niveau de la sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de cette sandbox.
 >
->Les **Règles de limitation** sont configurées uniquement dans les sandbox de production, pour un point d’entrée spécifique, mais s’appliquent à tous les parcours sur toutes les sandbox. Une seule configuration de limitation est autorisée par organisation.
+>Les **Règles de limitation** sont configurées dans les sandbox de production uniquement, pour un point d’entrée spécifique, mais elles s’appliquent à tous les parcours sur l’ensemble des sandbox. Une seule configuration de limitation est autorisée par organisation.
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 
@@ -57,7 +57,7 @@ Consultez la description détaillée des API dans la [Documentation des API Adob
 
 ### Sources de données et capacité des actions personnalisées {#capacity}
 
-Pour les **sources de données externes**, le nombre maximal d’appels par seconde est limité à 15. Si cette limite est dépassée, les appels sont ignorés ou mis en file d’attente, selon l’API utilisée. Si vous souhaitez augmenter cette limite pour les sources de données externes privées, contactez Adobe afin de placer le point d’entrée dans la liste autorisée. Cette action n’est pas disponible pour les sources de données externes publiques. * [Découvrez comment configurer des sources de données](../datasource/about-data-sources.md).
+Pour les **sources de données externes**, le nombre maximal d’appels par seconde est limité à 15. Si cette limite est dépassée, les appels suivants sont rejetés ou mis en file d’attente, selon l’API utilisée. Contactez Adobe si vous souhaitez augmenter cette limite pour les sources de données externes privées. Le point d’entrée sera alors placé dans la liste autorisée. Cette opération n’est pas possible pour les sources de données externes publiques. * [Découvrez comment configurer des sources de données](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >

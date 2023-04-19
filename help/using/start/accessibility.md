@@ -6,7 +6,8 @@ description: En savoir plus sur l’accessibilité dans l’interface utilisateu
 feature: Accessibility
 role: User
 level: Beginner
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%

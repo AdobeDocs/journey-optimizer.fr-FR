@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
+exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -65,4 +66,3 @@ Pour envoyer des données de commentaires, vous devez créer un jeu de données 
 * Découvrez comment créer un jeu de données où les événements d’expérience seront collectés dans [cette section](create-dataset.md).
 
 * Découvrez comment définir des événements d’expérience afin d’envoyer des données de commentaires dans [cette section](schema-requirement.md).
-
