@@ -11,16 +11,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '368'
 ht-degree: 8%
 
 ---
 
 # Workflow de démarrage rapide de l’intégration mobile {#mobile-wf}
 
-La nouvelle **processus de démarrage rapide de l’intégration mobile** est une nouvelle fonctionnalité de produit qui permet de configurer rapidement le SDK Mobile, de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push avec . [!DNL Journey Optimizer].
+La nouvelle **processus de démarrage rapide de l’intégration mobile** est une nouvelle fonctionnalité de produit qui permet de configurer rapidement le SDK Mobile Adobe Experience Platform, de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push avec [!DNL Journey Optimizer].
 
 Cette fonctionnalité est accessible à partir de la fonction **[!DNL Adobe Experience Platform Data Collection]** page d’accueil à tous les clients en tant que version bêta publique.
 
@@ -35,8 +35,8 @@ Pour accéder au nouveau workflow de démarrage rapide de l’intégration mobil
 Voici quelques autres fonctionnalités :
 
 * Processus simple en quatre étapes et interface utilisateur.
-* Fournit une configuration de base pour commencer à collecter des données d’événement mobile via le SDK Mobile en quelques minutes.
-* Possibilité de tester et de valider un événement push mobile de base à l’aide de l’assurance.
+* Fournit une configuration de base pour commencer à collecter des données d’événement mobile via le [SDK Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutes.
+* Possibilité de tester et de valider l’utilisation d’un événement push mobile de base [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crée et configure automatiquement toutes les ressources Journey Optimizer et la collecte de données nécessaires.
 * Dans des conseils sur les produits et des info-bulles.
 * Fournit une transition naturelle pour une mise en oeuvre plus avancée si nécessaire.
