@@ -16,12 +16,12 @@ ht-degree: 74%
 
 ---
 
-# Utilisez les composants de contenu du concepteur d’e-mail. {#content-components}
+# Utiliser les composants de contenu du concepteur d’e-mail {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d&#39;un email."
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez utiliser pour créer la disposition d&#39;un e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"

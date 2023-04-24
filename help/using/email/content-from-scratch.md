@@ -21,7 +21,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Ajout de composants Structure"
->abstract="Les composants de structure définissent la disposition de votre email. Faites glisser et déposez un **Structure** dans la zone de travail pour commencer à concevoir le contenu de votre email."
+>abstract="Les composants de structure définissent la disposition de votre e-mail.. Faites glisser et déposez un **Structure** dans la zone de travail pour commencer à concevoir le contenu de votre email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
