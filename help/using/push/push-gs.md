@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Flux de notification push dans Adobe Journey Optimizer
+title: Flux de notification push dans Adobe Journey Optimizer
 description: Présentation du flux de données et des composants des notifications push.
 topic: Mobile
 feature: Push
@@ -11,13 +11,13 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
 # Flux de données et composants des notifications push {#get-started-push}
 
-Cette page vous aide à configurer et à comprendre les services clés et les workflows impliqués dans les notifications push dans [!DNL Journey Optimizer].
+Cette page vous aidera à configurer et à comprendre les services et les workflows clés impliqués dans les notifications push dans [!DNL Journey Optimizer].
 
 
 >[!AVAILABILITY]
@@ -45,7 +45,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 1. Les notifications push sont diffusées sur les appareils de l&#39;utilisateur final.
 1. Les interactions de notification push de l&#39;utilisateur final sont envoyées en tant qu&#39;événements d&#39;expérience depuis le client de l&#39;utilisateur final via l&#39;intégration du SDK.
 
-## Rôles des services clés dans les notifications push {#roles-of-key-services}
+## Rôles des services clés des notifications push {#roles-of-key-services}
 
 * Les **fournisseurs de services de notification push** sont les services web des composants principaux qui diffusent des notifications de serveurs distants vers des applications mobiles.
 
@@ -63,9 +63,9 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 
 * Le **Profil client en temps réel Adobe Experience Platform** offre une vue holistique de chaque client en combinant des données issues de plusieurs canaux, notamment le web, les appareils mobiles, le CRM et des tiers. Le Profil vous permet de consolider vos données client en une vue unifiée offrant un compte horodaté et exploitable de chaque interaction client. Le jeton push d&#39;un utilisateur de l&#39;application donné est stocké par rapport au profil de l&#39;utilisateur en tant que données d&#39;enregistrement, tandis que les interactions de l&#39;utilisateur avec les notifications push sont suivies en tant que données d&#39;événements de série temporelle. [En savoir plus sur le Profil client en temps réel Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
-* **[!DNL Adobe Journey Optimizer]**[!DNL Adobe Journey Optimizer] : une fois que vos intégrations d&#39;applications mobiles avec les composants mentionnés ci-dessus sont en place, ainsi que vos profils client dans Adobe Experience Platform, vous pouvez créer et orchestrer des notifications push dans pour interagir avec vos utilisateurs.
+* **[!DNL Adobe Journey Optimizer]** : une fois que vos intégrations d’applications mobiles avec les composants mentionnés ci-dessus sont en place, ainsi que vos profils clients dans Adobe Experience Platform, vous pouvez créer et orchestrer des notifications push dans [!DNL Adobe Journey Optimizer] pour interagir avec vos utilisateurs et utilisatrices.
 
-## Configuration technique et workflows de pratique push {#push-technical-setup}
+## Configuration technique des notifications push et workflows pratiques {#push-technical-setup}
 
 Le graphique suivant présente l&#39;ensemble des différentes étapes de la configuration des composants qui forment l&#39;ossature du flux de données push. Les éléments d&#39;action ont été classés en fonction du rôle exécutant la configuration et du composant en cours de configuration.
 

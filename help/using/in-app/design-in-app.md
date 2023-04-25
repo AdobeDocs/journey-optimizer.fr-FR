@@ -10,19 +10,19 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Concevoir votre contenu in-app {#design-content}
 
-Vous pouvez modifier le contenu in-app pour configurer les options d’expérience :
+Vous pouvez modifier le contenu in-app pour configurer les options d’expérience :
 
-* Dans un **[!UICONTROL Campagne]**, de la fonction **[!UICONTROL Action]** pour configurer le contenu du message, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** bouton .
+* Dans une **[!UICONTROL campagne]**, à partir du menu **[!UICONTROL Action]**, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message.
 
    ![](assets/edit-in-app-content.png)
 
-* Dans un **[!UICONTROL Parcours]**, dans le menu avancé de votre message in-app **[!UICONTROL Action]**, vous pouvez commencer à concevoir votre contenu à l’aide de l’ **[!UICONTROL Modifier le contenu]** bouton .
+* Dans un **[!UICONTROL parcours]**, dans le menu avancé de votre **[!UICONTROL action]** in-app, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour commencer à concevoir votre contenu.
 
    ![](assets/design_inapp_journey.png)
 

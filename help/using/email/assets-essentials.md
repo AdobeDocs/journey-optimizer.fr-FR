@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -59,21 +59,21 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 
 1. Sélectionnez le fichier que vous souhaitez télécharger. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**. Pour en savoir plus sur la gestion de vos ressources, consultez à ce sujet cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=fr).
 
-1. Pour modifier davantage vos ressources avec Adobe Photoshop Express, double-cliquez dessus. Ensuite, dans le menu de droite, sélectionnez la variable **[!UICONTROL Mode d’édition]** icône . [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=fr){target="_blank"}.
+1. Pour modifier davantage vos ressources avec Adobe Photoshop Express, double-cliquez dessus. Ensuite, dans le menu de droite, sélectionnez l’icône **[!UICONTROL Mode d’édition]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=fr){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. De [!DNL Adobe Journey Optimizer], sélectionnez la variable **[!UICONTROL Sélecteur de ressources]** dans le volet gauche du concepteur d’email.
+1. Dans [!DNL Adobe Journey Optimizer], sélectionnez le menu **[!UICONTROL Sélecteur de ressource]** dans le volet gauche du Concepteur d’e-mail.
 
    ![](assets/media_library_5.png)
 
-1. Sélectionnez les **[!UICONTROL Ressources]** dossier. Vous pouvez également rechercher votre ressource ou votre dossier dans la barre de recherche.
+1. Sélectionnez le dossier **[!UICONTROL Ressources]** précédemment créé. Vous pouvez également rechercher votre ressource ou votre dossier dans la barre de recherche.
 
 1. Glissez-déposez votre ressource dans le contenu de votre e-mail.
 
    ![](assets/media_library_6.png)
 
-1. Vous pouvez personnaliser davantage vos ressources, par exemple en ajoutant un lien externe ou du texte à l’aide du **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** onglets. [En savoir plus sur les paramètres des composants](content-components.md)
+1. Vous pouvez personnaliser davantage vos ressources, par exemple en ajoutant un lien externe ou du texte, à l’aide des onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**. [En savoir plus sur les paramètres des composants](content-components.md)
 
    ![](assets/media_library_13.png)
 

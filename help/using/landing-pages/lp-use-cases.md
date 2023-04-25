@@ -74,7 +74,7 @@ Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui s
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification du segment]** dans la zone de travail. [En savoir plus](../building-journeys/segment-qualification-events.md).
+1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification de segment]** dans la zone de travail. [En savoir plus](../building-journeys/segment-qualification-events.md).
 
 1. Cliquez dans le champ du **[!UICONTROL Segment]** et sélectionnez la liste d’abonnements que vous avez créée.
 

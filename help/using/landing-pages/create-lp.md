@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,15 +210,15 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 >
 >Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
 
-1. Dans l’interface de la landing page, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour accéder à la sélection du profil de test.
+1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour accéder à la sélection du profil de test.
 
    ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >Le **[!UICONTROL Simulation du contenu]** est également accessible à partir du concepteur de contenu.
+   >Le bouton **[!UICONTROL Simuler du contenu]** est également accessible à partir du Concepteur de contenu.
 
-1. Dans la **[!UICONTROL Simuler]** sélectionnez un ou plusieurs profils de test.
+1. À partir de lʼécran **[!UICONTROL Simuler]**, sélectionnez un ou plusieurs profils de test.
 
    ![](assets/lp_test-profiles.png)
 

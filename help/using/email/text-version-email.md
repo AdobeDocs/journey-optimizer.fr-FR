@@ -12,7 +12,7 @@ exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Par défaut, le Concepteur d’email crée une version en **[!UICONTROL texte br
 
 Si vous préférez utiliser un contenu différent pour la version en texte brut, procédez comme suit :
 
-1. Dans votre email, sélectionnez la variable **[!UICONTROL Texte brut]** icône .
+1. Dans votre e-mail, sélectionnez l’icône **[!UICONTROL Texte brut]**.
 
    ![](assets/text_version_3.png)
 

@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour accéder aux expressions enregistrées, cliquez sur le bouton **[!UICONTROL
 
 >[!NOTE]
 >
->Vous pouvez obtenir plus d’informations sur le contenu d’une expression enregistrée à partir du bouton représentant des points de suspension. Notez que le bouton d’informations s’affiche dans les points de suspension si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque.
+>Vous pouvez obtenir plus d’informations sur le contenu d’une expression enregistrée à partir du bouton représentant des points de suspension. Notez que le bouton d’informations s’affiche dans cette zone si vous disposez des autorisations appropriées pour gérer les éléments de bibliothèque.
 
 Cliquez sur le signe + pour insérer l’expression dans l’éditeur. Vous pouvez ensuite personnaliser et valider votre contenu de personnalisation comme vous le faites habituellement. [En savoir plus](../personalization/personalization-build-expressions.md)
 

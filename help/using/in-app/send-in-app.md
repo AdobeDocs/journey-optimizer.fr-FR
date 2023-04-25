@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## Aperçu sur l’appareil {#preview-device}
 
-Si vous souhaitez obtenir un aperçu de la notification In-App avant qu’elle ne soit activée pour tous les utilisateurs, vous avez la possibilité de la prévisualiser sur un appareil spécifique. Cette fonctionnalité vous permet de vous assurer que la notification s’affiche et fonctionne comme prévu sur l’appareil choisi, offrant ainsi une meilleure expérience utilisateur à votre audience.
+Vous pouvez prévisualiser la notification in-app sur un appareil spécifique avant qu’elle ne soit activée pour l’ensemble des utilisateurs et utilisatrices. Cette fonctionnalité garantit que la notification s’affiche et fonctionne comme prévu sur l’appareil choisi, offrant ainsi une meilleure expérience client à votre audience.
 
 Pour ce faire, suivez les étapes ci-après :
 
@@ -52,7 +52,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 Votre campagne est maintenant activée. La notification in-app configurée dans la campagne est envoyée immédiatement ou le sera à la date indiquée.
 
-Une fois votre message envoyé, vous pouvez en mesurer l’impact dans les rapports Campaign ou Journey. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
+Une fois votre message envoyé, vous pouvez en mesurer l’impact dans les rapports Campaign ou Journey. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
 
 **Rubriques connexes :**
 

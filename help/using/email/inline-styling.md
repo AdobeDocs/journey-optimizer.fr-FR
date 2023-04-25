@@ -12,7 +12,7 @@ exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élém
 
 1. Sélectionnez un élément de votre contenu.
 
-1. Dans la **[!UICONTROL Styles]** , recherchez les **[!UICONTROL Styles intégrés]** sous le **[!UICONTROL Avancé]** menu déroulant.
+1. Dans l’onglet **[!UICONTROL Styles]**, recherchez les **[!UICONTROL styles intégrés]** dans le menu déroulant **[!UICONTROL Avancé]**.
 
    ![](assets/styles_1.png)
 

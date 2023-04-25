@@ -12,7 +12,7 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -73,13 +73,13 @@ Une fois vos modifications enregistrées, vos offres sont prêtes à être affic
 
 ## Prévisualisation des offres dans un e-mail {#preview-offers-in-email}
 
-Vous pouvez prévisualiser les différentes offres qui font partie de la décision ajoutée à l’email à l’aide de la variable **[!UICONTROL Offre]** ou les flèches des composants de contenu.
+Vous pouvez prévisualiser les différentes offres qui font partie de la décision ajoutée à l’e-mail en utilisant la section **[!UICONTROL Offre]** ou les flèches des composants de contenu.
 
 ![](assets/deliver-offer-preview.png)
 
 Pour afficher les différentes offres qui font partie de la décision avec un profil client, procédez comme suit.
 
-1. Cliquez sur le bouton **[!UICONTROL Bouton Simuler le contenu]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
 
    >[!NOTE]
    >

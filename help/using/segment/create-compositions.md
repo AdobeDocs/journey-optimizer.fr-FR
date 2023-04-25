@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour créer un workflow de composition, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >Vous pouvez publier jusqu’à 75 compositions dans un environnement de test donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+   >Vous pouvez publier jusqu’à 75 compositions dans une sandbox donnée. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
    Si une erreur se produit lors de la publication, des alertes s’affichent avec des informations sur la façon de résoudre le problème.
 

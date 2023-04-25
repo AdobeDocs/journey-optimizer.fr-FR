@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ Les messages in-app sont créés dans le cadre d’une campagne.
 
 >[!BEGINTABS]
 
->[!TAB Ajout d’un message in-app à un parcours]
+>[!TAB Ajouter un message in-app à un parcours]
 
 >[!AVAILABILITY]
 >
->L’activité In-App est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
+>L’activité in-app est actuellement disponible en version Beta pour certains utilisateurs et certaines utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
-1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’un **[!UICONTROL In-app]** de l’activité **[!UICONTROL Actions]** de la palette.
+1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL In-app]** depuis la section **[!UICONTROL Actions]** de la palette.
 
-   Lorsqu’un profil atteint la fin de son parcours, tous les messages in-app qui lui sont affichés expirent automatiquement. Pour cette raison, une activité Attente est automatiquement ajoutée après votre activité In-App afin d’assurer un timing correct.
+   Lorsqu’un profil atteint la fin de son parcours, tous les messages in-app qui lui sont affichés expirent automatiquement. Pour cette raison, une activité d’attente est automatiquement ajoutée après votre activité in-app afin d’assurer un timing correct.
 
    ![](assets/in_app_journey_1.png)
 
-1. Saisissez un **[!UICONTROL Libellé]** et **[!UICONTROL Description]** pour votre message.
+1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
-1. Choisissez la [Surface in-app](inapp-configuration.md) à utiliser.
+1. Choisissez la [surface in-app](inapp-configuration.md) à utiliser.
 
    ![](assets/in_app_journey_2.png)
 
 1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-in-app.md).
 
-1. Cliquez sur **[!UICONTROL Modifier le déclencheur]** pour configurer votre déclencheur.
+1. Cliquez sur **[!UICONTROL Modifier le trigger]** pour configurer votre trigger.
 
    ![](assets/in_app_journey_4.png)
 
@@ -56,7 +56,7 @@ Les messages in-app sont créés dans le cadre d’une campagne.
    1. Dans le menu déroulant de droite, sélectionnez la validation requise pour l’événement sélectionné.
    1. Cliquez sur le bouton **[!UICONTROL Ajouter]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères. Répétez ensuite les étapes ci-dessus.
    1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
-   1. Cliquez sur **[!UICONTROL Enregistrer]** une fois vos déclencheurs configurés.
+   1. Cliquez sur **[!UICONTROL Enregistrer]** une fois vos triggers configurés.
 
    ![](assets/in_app_journey_3.png)
 
@@ -66,9 +66,9 @@ Les messages in-app sont créés dans le cadre d’une campagne.
 
 Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
->[!TAB Ajout d’un message in-app à une campagne]
+>[!TAB Ajouter un message in-app à une campagne]
 
-1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Création d’une campagne]**.
+1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
 1. Dans la section **[!UICONTROL Propriétés]**, sélectionnez le type d’exécution de la campagne : planifié ou déclenché par l’API. Pour en savoir plus sur les types de campagne, consultez [cette page](../campaigns/create-campaign.md#campaigntype).
 
@@ -109,7 +109,7 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
    ![](assets/in-app-schedule.png)
 
-1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-in-app.md)
+1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-in-app.md).
 
    ![](assets/in_app_create_4.png)
 

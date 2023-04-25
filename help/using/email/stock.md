@@ -12,7 +12,7 @@ exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Pour parcourir des photos similaires, procédez comme suit :
 
    Si l’image que vous avez sélectionnée n’est pas sous licence, vous devez [obtenir la licence](#license-stock-image).
 
-1. Si nécessaire, personnalisez votre image avec le **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** onglets. [En savoir plus sur les paramètres des composants](content-components.md).
+1. Si nécessaire, personnalisez votre image avec les onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]**. [En savoir plus sur les paramètres des composants](content-components.md).
 
 ## Obtenir la licence depuis [!DNL Adobe Stock] {#license-stock-image}
 
@@ -79,7 +79,7 @@ Pour acquérir votre image sous licence et la télécharger, procédez comme sui
 
    ![](assets/stock-license-icon.png)
 
-   Vous êtes alors redirigé vers la [!DNL Adobe Stock] site web pour acheter la licence.
+   Le site web [!DNL Adobe Stock] de redirection vous invite à acheter la licence.
 
    ![](assets/stock-license-photo.png)
 
