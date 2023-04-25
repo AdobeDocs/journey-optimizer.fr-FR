@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -85,9 +85,9 @@ Les étapes de création et d’envoi d’un message de publipostage direct sont
 
 1. Répétez ces étapes pour ajouter autant de colonnes que nécessaire pour créer votre fichier d’extraction. Vous pouvez ajouter jusqu’à 50 colonnes.
 
-   ![](assets/direct-mail-complete.png)
-
    Vous pouvez supprimer une colonne à tout moment en la sélectionnant et en cliquant sur le bouton **[!UICONTROL Supprimer]** à partir de la section **[!UICONTROL Formatage]**.
+
+   ![](assets/direct-mail-complete.png)
 
 1. Une fois le contenu du publipostage direct défini, terminez la configuration de votre campagne.
 
