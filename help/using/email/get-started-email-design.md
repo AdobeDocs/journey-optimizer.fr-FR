@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 68%
 
 ---
 
@@ -29,6 +29,14 @@ Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer 
 * Améliorez l’expérience des clients en créant des messages dynamiques personnalisés en fonction de leurs attributs de profil. En savoir plus sur [Personnalisation](../personalization/personalize.md) et [Contenu dynamique](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+
+## Bonnes pratiques relatives à la conception d&#39;email {#best-practices}
+
+Lors de l’envoi d’emails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’email. Ceci est particulièrement vrai lors de l’utilisation de classes CSS qui peuvent ne pas être prises en charge par le fournisseur de messagerie utilisé pour le transfert, par exemple, si vous utilisez la classe CSS &quot;is-desktop-hidden&quot; (est-masqué) pour masquer une image sur les périphériques mobiles.
+
+Pour minimiser ces problèmes de rendu, nous vous recommandons de garder votre structure de conception d&#39;email aussi simple que possible. Essayez d’utiliser une conception unique qui fonctionne bien pour les ordinateurs de bureau et les appareils mobiles, et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception qui ne sont pas entièrement pris en charge par tous les clients de messagerie. En suivant ces bonnes pratiques, vous pouvez vous assurer que vos emails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
+
+## Étapes clés de création de contenu d’email {#key-steps}
 
 Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou une campagne, vous pouvez commencer à créer le contenu de votre e-mail.
 
