@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: suppression, liste, bounce, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1558'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,9 @@ Ces adresses e-mail sont automatiquement collectées dans la **liste de suppress
 
 Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
 ## Accès à la liste de suppression {#access-suppression-list}
 

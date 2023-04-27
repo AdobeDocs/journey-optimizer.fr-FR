@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 100%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -20,12 +20,11 @@ ht-degree: 100%
 
 Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Optimizer et des cas d’utilisation associés :
 
-[Jeu de données d’événement d’expérience de tracking e-mail](#email-tracking-experience-event-dataset)
+[Jeu de données d’événement de suivi d’email](#email-tracking-experience-event-dataset)
 [Jeu de données d’événement de retour de message](#message-feedback-event-dataset)
-[Jeu de données d’événement d’expérience de tracking de notifications Push](#push-tracking-experience-event-dataset)
+[Jeu de données d’événement d’expérience de suivi push](#push-tracking-experience-event-dataset)
 [Événement d’étape de parcours](#journey-step-event)
-[Jeu de données d’événement Decisioning](#ode-decisionevents)
-[Jeu de données du service de consentement](#consent-service-dataset)
+[Jeu de données d’événement de prise de décision](#ode-decisionevents)
 [Jeu de données d’événement de retour en Cci](#bcc-feedback-event-dataset)
 [Jeu de données d’entité](#entity-dataset)
 
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## Jeu de données du service de consentement{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_Nom dans l’interface : Jeu de données du service de consentement CJM (jeu de données système)_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Jeu de données pour le service de consentement Journey Optimizer.
+Dataset for Journey Optimizer Consent service.
 
-Le schéma associé est celui du service de consentement CJM.
+The related schema is CJM Consent Service Schema.
 
-Requête pour répertorier les ID d’e-mail ayant consenti à recevoir un e-mail :
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-Requête pour renvoyer la valeur de consentement pour un ID d&#39;e-mail où l’ID d&#39;e-mail serait l’entrée :
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## Jeu de données d’événement de retour en Cci{#bcc-feedback-event-dataset}
 

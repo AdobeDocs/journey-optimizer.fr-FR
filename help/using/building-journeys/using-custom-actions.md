@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 85%
 
 ---
 
@@ -55,18 +55,13 @@ L’URL concaténée se présente comme suit :
 
 ![](assets/journey-custom-action-url.png)
 
-### En-têtes
+### En-têtes et paramètres de requête {#headers}
 
-La section **[!UICONTROL Configuration de l’URL]** affiche les champs d’en-tête dynamiques, mais pas les champs d’en-tête constants. Les champs d’en-tête dynamique sont des champs d’en-tête HTTP dont la valeur est configurée comme variable. [En savoir plus](../action/about-custom-action-configuration.md).
+Le **[!UICONTROL Configuration d’URL]** La section affiche les champs d’en-tête dynamique et de paramètre de requête, mais pas les champs constants. Les champs d’en-tête dynamique et de paramètre de requête sont définis comme variables dans l’écran de configuration des actions. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
 
-Si nécessaire, spécifiez la valeur des champs d’en-tête dynamique :
+Pour spécifier la valeur des champs d’en-tête dynamique et de paramètre de requête, cliquez dans le champ ou sur l’icône représentant un crayon et sélectionnez le champ de votre choix.
 
-1. Sélectionnez l’action personnalisée dans le parcours.
-1. Dans le volet de configuration, cliquez sur l’icône en forme de crayon en regard du champ d’en-tête de la section **[!UICONTROL Configuration de l’URL]**.
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. Sélectionnez un champ et cliquez sur **[!UICONTROL OK]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## Paramètres d’action
 

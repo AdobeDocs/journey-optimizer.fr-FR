@@ -6,56 +6,45 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 77%
 
 ---
 
 # Interface utilisateur {#user-interface}
 
-La bibliothèque des offres vous permet de créer et de gérer vos emplacements et vos offres à un emplacement unique, mais aussi d&#39;accéder à toutes les décisions créées.
+Le **[!UICONTROL Gestion des décisions]** La section du rail de gauche propose deux menus permettant d’accéder aux fonctionnalités de gestion des décisions :
 
->[!NOTE]
->
->Si vous rencontrez des problèmes pour accéder à la bibliothèque des offres ou à certaines de ses fonctionnalités, vérifiez auprès d&#39;un administrateur que les droits nécessaires vous ont été accordés. Voir [Octroi de l’accès à la gestion des décisions](starting-offer-decisioning.md#granting-acess-to-decision-management).
+Utilisez la variable **[!UICONTROL Offres]** pour gérer et diffuser vos offres :
 
-Utilisez le menu **[!UICONTROL Offres]** pour gérer les offres personnalisées et de secours, les organiser en collections et les diffuser en créant des décisions :
-
-* **[!UICONTROL Aperçu]** : vous découvrez [!DNL decision management] ? Suivez les étapes à l’écran pour commencer à configurer des emplacements, des offres et des collections. Lorsque vous connaissez déjà [!DNL decision management], consultez l&#39;aperçu de vos offres, collections et décisions les plus récentes. Voir [Aperçu](#overview).
-
-* **[!UICONTROL Offres]** : accédez à vos offres personnalisées et de secours ou créez-en de nouvelles. Voir [Création d&#39;une offre](../offer-library/creating-personalized-offers.md) et [Création d&#39;une offre de secours](../offer-library/creating-fallback-offers.md).
-
-* **[!UICONTROL Collections]** : créez et gérez des collections d&#39;offres dynamiques et statiques. Voir [À propos des collections d&#39;offres](../offer-library/creating-collections.md).
-
-* **[!UICONTROL Décisions]** : créez et gérez des décisions pour diffuser vos offres. Voir [Création de décisions](../offer-activities/create-offer-activities.md).
 
 ![](../assets/offers_menu.png)
 
-Utilisez le menu **[!UICONTROL Composants]** pour gérer les composants requis afin de créer des offres :
+* **[!UICONTROL Aperçu]** : vous découvrez [!DNL decision management] ? Suivez les étapes à l’écran pour commencer à configurer des emplacements, des offres et des collections. Lorsque vous connaissez déjà [!DNL decision management], consultez l&#39;aperçu de vos offres, collections et décisions les plus récentes. [En savoir plus](#overview).
+* **[!UICONTROL Offres]**: Créez et accédez à vos offres personnalisées et de secours. Découvrez comment créer [offres](../offer-library/creating-personalized-offers.md) et [offres de secours](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL Collections]**: Organisez vos offres en collections statiques et dynamiques. [En savoir plus](../offer-library/creating-collections.md).
+* **[!UICONTROL Décisions]** : créez et gérez des décisions pour diffuser vos offres. [En savoir plus](../offer-activities/create-offer-activities.md).
+* **[!UICONTROL Prise de décision par lots]**: Diffusez les décisions d’offre à tous les profils d’un segment Adobe Experience Platform donné. [En savoir plus](../batch-delivery.md).
+* **[!UICONTROL Simulation]**: Validez votre logique de prise de décision en simulant les offres qui seront diffusées à un profil de test pour un emplacement donné. [En savoir plus](../offer-activities/simulation.md).
 
-* **[!UICONTROL Emplacements]** : créez et gérez les emplacements où vos offres s’afficheront. Voir [Création d&#39;emplacements](../offer-library/creating-placements.md).
-
-* **[!UICONTROL Qualificateurs de collection]** : créez et gérez des qualificateurs de collection (auparavant appelés « balises ») pour classer et filtrer vos offres. Consultez la section [Créer des qualificateurs de collection](../offer-library/creating-tags.md).
-
-* **[!UICONTROL Règles]** : gérez les conditions selon lesquelles vos offres sont présentées. Voir [Création d&#39;une règle de décision](../offer-library/creating-decision-rules.md).
-
-* **[!UICONTROL Classements]** créez et gérez des formules de classement afin de déterminer l&#39;offre qui doit être présentée en premier pour un emplacement donné. Voir [Création de formules de classement](../ranking/create-ranking-formulas.md).
+Utilisez la variable **[!UICONTROL Composants]** pour créer et gérer des composants nécessaires à la création d’offres et de décisions :
 
 ![](../assets/offer_activities.png)
 
+* **[!UICONTROL Emplacements]** : créez et gérez des emplacements où vos offres s&#39;afficheront. [En savoir plus](../offer-library/creating-placements.md).
+* **[!UICONTROL Qualificateurs de collection]** : créez et gérez des qualificateurs de collection (auparavant appelés « balises ») pour classer et filtrer vos offres. [En savoir plus](../offer-library/creating-tags.md).
+* **[!UICONTROL Règles]** : gérez les conditions selon lesquelles vos offres sont présentées. [En savoir plus](../offer-library/creating-decision-rules.md).
+* **[!UICONTROL Classement]**: Créez et gérez des formules de classement afin de déterminer l’offre qui doit être présentée en premier pour un emplacement donné. [En savoir plus](../ranking/create-ranking-formulas.md).
+
+>[!NOTE]
+>
+>Si vous rencontrez des problèmes lors de l’accès à la gestion des décisions ou à certaines de ses fonctionnalités, vérifiez auprès d’un utilisateur administrateur que vous avez reçu les droits requis. Voir [Octroi de l’accès à la gestion des décisions](starting-offer-decisioning.md#granting-acess-to-decision-management).
+
 ## Présentation {#overview}
 
-Lorsque vous découvrez [!DNL decision management], l&#39;onglet **[!UICONTROL Aperçu]** vous guide tout au long des principales étapes nécessaires pour commencer à créer votre première décision d&#39;offre.
-
-![](../assets/overview_onboarding.png)
-
-Suivez les étapes à l’écran pour commencer à créer des emplacements, des offres et des collections.
-
-Une fois que vous avez terminé ces premières étapes, vous êtes invité à créer des décisions d’offre.
-
-![](../assets/overview_collection-created.png)
+Lorsque vous découvrez [!DNL decision management], l&#39;onglet **[!UICONTROL Aperçu]** vous guide tout au long des principales étapes nécessaires pour commencer à créer votre première décision d&#39;offre. Suivez les étapes à l’écran pour commencer à créer des emplacements, des offres et des collections. Une fois que vous avez terminé ces premières étapes, vous êtes invité à créer des décisions d’offre.
 
 >[!NOTE]
 >
@@ -96,11 +85,7 @@ Dans les différentes listes, sélectionnez un élément pour afficher un volet 
 
 Les listes des offres et des décisions vous permettent également d&#39;effectuer des actions en masse sur plusieurs éléments. Pour cela, sélectionnez les offres ou décisions de votre choix, puis l’action à exécuter dans le volet d’informations.
 
-![](../assets/bulk-actions.png)
-
 Vous pouvez également dupliquer une offre ou une décision existante afin de créer une copie présentant l’état **[!UICONTROL Brouillon]**. Il est possible d’effectuer cette opération à partir du volet d’informations, d’une offre ou d’un affichage détaillé d’une décision.
-
-![](../assets/duplicate-offer.png)
 
 ## Logs des modifications des offres et des décisions {#changes-logs}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ Les mécanismes de sécurisation des performances et les limites statiques pour 
 
 ## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 
+### Barrières de sécurité générales des parcours {#journeys-guardrails-journeys}
+
+* Le nombre d’activités d’un parcours est limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche du canevas de parcours.
+* Le nombre de **parcours en direct** dans une organisation est limitée à 100 par environnement de test. Lorsque cette limite est atteinte, vous ne pouvez plus publier de nouveau parcours.
+
 ### Actions générales {#general-actions-g}
 
 * Il n’y a pas de limite d’envoi.
@@ -67,6 +72,7 @@ Les mécanismes de sécurisation des performances et les limites statiques pour 
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »
 * Les adresses IP ne sont pas autorisées.
 * Les adresses d’Adobe internes (`.adobe.*`) ne sont pas autorisées dans les URL et les API.
+* Les actions personnalisées intégrées ne peuvent pas être supprimées.
 
 ### Événements {#events-g}
 
@@ -99,5 +105,6 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 ### Éditeur d’expression {#expression-editor}
 
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une lecture de segment, une qualification de segment ou une activité d’événement métier.
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une lecture de segment, une qualification de segment ou une activité d’événement métier. Vous devez créer un segment et utiliser une condition d’insertion dans le parcours.
+
 

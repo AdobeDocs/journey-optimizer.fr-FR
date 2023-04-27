@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 100%
+source-wordcount: '2357'
+ht-degree: 97%
 
 ---
 
@@ -215,9 +215,12 @@ Le champ **[!UICONTROL Événement de limitation]** vous permet de définir l’
    1. Une fois créée, la règle s’affiche dans le champ **[!UICONTROL Requête d’événement personnalisé]**.
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement. Assurez-vous donc que les données sont bien transmises. [En savoir plus sur la collecte de données](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>Pour tous les événements de limitation, à l’exception des événements de décision, le retour de la gestion des décisions peut ne pas être collecté automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. [En savoir plus](../data-collection/data-collection.md).
+>
+>Pour vous assurer que chaque événement de limitation est suivi et comptabilisé dans le compteur de limitation, assurez-vous que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. [En savoir plus](../data-collection/schema-requirement.md).
 
 ### Nombre de limitations {#capping-count}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, segment, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 100%
@@ -38,6 +38,28 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
 
    ![](assets/custom2.png)
 
+<!--
+## Access journeys {#journey-access}
+
+In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+
+**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)  
+
+**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+
+* **Profiles processed**: total number of profiles processed in last 24 hours
+* **Live journeys**: total number of live journeys
+* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
+* **Batch journeys**: total number of batch live journeys (read segment journeys)
+* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
+* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+
+![](assets/journeys-dashboard.png)  
+
+-->
+
 ## Création de votre parcours{#jo-build}
 
 >[!CONTEXTUALHELP]
@@ -54,6 +76,10 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
    ![](assets/interface-journeys.png)
 
 1. Cliquez sur **[!UICONTROL Créer un parcours]** pour créer un parcours.
+
+<!--
+1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
+-->
 
 1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](journey-gs.md#change-properties).
 

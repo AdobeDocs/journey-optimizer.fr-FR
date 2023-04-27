@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
@@ -21,10 +21,8 @@ Le catalogue d’offres exporté est accessible dans le menu **[!UICONTROL Jeux 
 
 Cliquez sur un jeu de données pour accéder à ses détails.
 
+Le bouton **[!UICONTROL Prévisualiser le jeu de données]** vous permet d’afficher le lot réussi le plus récent du jeu de données.
+
 ![](../assets/dataset-activity.png)
-
-Le bouton **[!UICONTROL Prévisualiser le jeu de données]** vous permet d’afficher le lot réussi le plus récent du jeu de données. Le volet de gauche fournit des informations sur les types de données qui ont été exportées.
-
-![](../assets/dataset-preview.png)
 
 Pour plus d’informations sur la navigation et l’utilisation des jeux de données, consultez [cette page](../../data/get-started-datasets.md).

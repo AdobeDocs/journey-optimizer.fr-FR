@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,7 @@ Cette documentation couvre les sujets suivants :
 
 >[!AVAILABILITY]
 >
->La composition de l’audience est actuellement disponible uniquement en version Beta privée et peut être fréquemment mise à jour sans préavis. La version Beta est configurée au niveau de l’organisation IMS, ce qui signifie qu’elle aura un impact sur toutes les sandbox de votre organisation.
+>La composition de l’audience est actuellement disponible uniquement en version Beta privée et peut être fréquemment mise à jour sans préavis. La version bêta est configurée au niveau de l’organisation, ce qui signifie qu’elle aura un impact sur tous les environnements de test de votre entreprise.
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 

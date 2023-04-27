@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Pour créer une notification push, procédez comme suit :
 
    ![](assets/push_create_1.png)
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface de message à utiliser.
+1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface de message à utiliser. Le **[!UICONTROL Surface]** est prérenseigné par défaut, avec la dernière surface utilisée par l’utilisateur pour ce canal.
 
    ![](assets/push_create_2.png)
 

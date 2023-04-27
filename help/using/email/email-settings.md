@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 94%
 
 ---
 
@@ -243,9 +243,23 @@ Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directemen
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
+Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels disponibles et/ou modifier directement le texte.
 
 ![](assets/preset-url-tracking-editor.png)
+
+Les valeurs prédéfinies suivantes sont disponibles via l’éditeur d’expression :
+
+* **ID d’action source**: Identifiant de l’action Courrier électronique ajoutée au parcours ou à la campagne.
+
+* **Nom de l’action source**: nom de l’action Courrier électronique ajoutée au parcours ou à la campagne.
+
+* **ID source**: Identifiant du parcours ou de la campagne avec lequel l’email a été envoyé.
+
+* **Nom de la source**: nom du parcours ou de la campagne avec lequel l’email a été envoyé.
+
+* **Identifiant de version source**: Identifiant du parcours ou de la version de campagne avec lequel l’email a été envoyé.
+
+* **Identifiant de l’offre**: Identifiant de l&#39;offre utilisée dans l&#39;email.
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 94%
 
 ---
 
@@ -24,9 +24,9 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 ## Notes de mise à jour d’avril 2023 (nouveau) {#apr-e-rn-2023}
 
-Les informations ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication de la version et des liens directs seront ajoutés sur cette page.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Date de publication** : 27 avril 2023
+**Release date**: April 27, 2023-->
 
 ### Nouvelles fonctionnalités{#apr-2023-features}
 
@@ -42,7 +42,7 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 <td>
 <p>Adobe Journey Optimizer étend ses fonctionnalités cross-canal en ajoutant la prise en charge du canal web. Vous pouvez désormais créer, modifier et prévisualiser des expériences web comme n’importe quel autre canal, au moyen d’une interface visuelle intelligente et intuitive qui vous permettra de personnaliser l’expérience de vos utilisateurs et utilisatrices. Notez qu’actuellement, Journey Optimizer permet de créer des expériences web dans les campagnes uniquement.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../web/get-started-web.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Nouveau tableau de bord des parcours (Beta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Le tableau de bord des parcours est maintenant divisé en deux onglets :</p>
-<ul><li>Depuis l’onglet <strong>Aperçu</strong>, vous pouvez accéder à un nouveau tableau de bord qui affiche les mesures clés liées à vos parcours.</li>
-<li>Utilisez l’onglet <strong>Parcourir</strong> pour accéder à la liste de tous les parcours.</li></ul>
-<p>Cette fonctionnalité est accessible en version Beta publique dans tous les parcours.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
 **Parcours**
 
-* La zone de travail du parcours affiche désormais l’ID d’activité sur les nœuds d’action et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
+* Le canevas de parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
 * De nouveaux garde-fous ont été ajoutés aux parcours :
-   * Le nombre de nœuds d’un parcours est désormais limité à 50.
-   * Le nombre de parcours actifs dans une organisation est désormais limité à 100. Les parcours en mode test ne sont pas pris en compte.
+   * Le nombre d’activités d’un parcours est désormais limité à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
+   * Le nombre de **parcours en direct** dans une organisation est désormais limitée à 100 par environnement de test. Les parcours en mode test ne sont pas pris en compte. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
 
-* Lors de l’ajout d’une action E-mail, SMS ou Push dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal.
-* Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées.
+* Lors de l’ajout d’une [Email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est maintenant préremplie, par défaut, avec la dernière surface utilisée pour ce canal, dans le parcours actuel.
+* Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
 
 **Reporting**
 
@@ -189,7 +189,9 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 * Amélioration de la zone de travail Parcours pour offrir une expérience utilisateur plus fluide et épurée. Suppression des espaces réservés vides à la fin de chaque chemin de la zone de travail. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
 * Dans la zone de travail Parcours, la balise **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
 * Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
-* Le taux de limitation par défaut dans les activités de lecture de segment passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Le taux de limitation par défaut dans les activités de lecture de segment passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+* Une barrière de sécurité a été ajoutée au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. [En savoir plus](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 71%
 
 ---
 
@@ -20,11 +20,9 @@ Pour collecter des événements d’expérience, vous devez d’abord créer un 
 
 Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
-1. Dans le menu **[!UICONTROL Data Management]**, sélectionnez **[!UICONTROL Schéma]**, accédez à l&#39;onglet **[!UICONTROL Parcourir]** et cliquez sur **[!UICONTROL Créer un schéma]**.
+1. Dans la **[!UICONTROL Data Management]** menu, sélectionnez **[!UICONTROL Schéma]** et accédez au **[!UICONTROL Parcourir]** .
 
-   ![](../assets/ai-ranking-create-schema.png)
-
-1. Sélectionnez **[!UICONTROL XDM ExperienceEvent]**.
+1. Cliquez sur **[!UICONTROL Créer un schéma]** et choisissez **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -36,20 +34,15 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. Dans le champ **[!UICONTROL Rechercher]**, saisissez « interaction de proposition » et sélectionnez le groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**.
+1. Dans le **[!UICONTROL Rechercher]** champ, saisissez &quot;interaction de proposition&quot;.
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+1. Sélectionnez la **[!UICONTROL Événement d’expérience - Interactions de propositions]** groupe de champs et cliquez sur **[!UICONTROL Ajouter des groupes de champs]**.
+
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
    >Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l&#39;utiliser dans votre stratégie de classement.
-
-1. Cliquez sur **[!UICONTROL Ajouter des groupes de champs]**.
-
-   ![](../assets/ai-ranking-add-field-group.png)
-
-   >[!NOTE]
-   >Le groupe de champs était auparavant appelé « mixin ».
 
 1. Saisissez un nom et enregistrez le schéma.
 
@@ -59,19 +52,13 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
 Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce schéma. Pour ce faire, procédez comme suit :
 
-1. Dans le menu **[!UICONTROL Data Management]**, sélectionnez **[!UICONTROL Jeux de données]**, accédez à l&#39;onglet **[!UICONTROL Parcourir]** et cliquez sur **[!UICONTROL Créer un jeu de données]**.
+1. Dans la **[!UICONTROL Data Management]** menu, sélectionnez **[!UICONTROL Jeux de données]** et accédez au **[!UICONTROL Parcourir]** .
 
-   ![](../assets/ai-ranking-create-dataset.png)
-
-1. Sélectionnez **[!UICONTROL Créer un jeu de données à partir d&#39;un schéma]**.
+1. Cliquez sur **[!UICONTROL Création d’un jeu de données]** et sélectionnez **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Sélectionnez le schéma que vous venez de créer dans la liste.
-
-   ![](../assets/ai-ranking-dataset-select-schema.png)
-
-1. Cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez le schéma que vous venez de créer dans la liste et cliquez sur **[!UICONTROL Suivant]**.
 
 1. Attribuez un nom unique au jeu de données dans le champ **[!UICONTROL Nom]** et cliquez sur **[!UICONTROL Terminer]**.
 

@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '835'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Détails des sandbox"
->abstract="Sélectionnez le sandbox de destination dans lequel vous souhaitez copier le parcours. Seuls les sandbox de votre organisation IMS sont disponibles."
+>abstract="Sélectionnez le sandbox de destination dans lequel vous souhaitez copier le parcours. Seuls les sandbox de votre organisation sont disponibles."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Pour copier un parcours dans un autre sandbox, procédez comme suit :
 
    ![](assets/copy-sandbox2.png)
 
-3. Sélectionnez le **sandbox cible** dans le champ déroulant. Seuls les sandbox de votre organisation IMS sont disponibles.
+3. Sélectionnez le **sandbox cible** dans le champ déroulant. Seuls les sandbox de votre organisation sont disponibles.
 
 4. Consultez la section **Objets dépendants**. Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne.
 

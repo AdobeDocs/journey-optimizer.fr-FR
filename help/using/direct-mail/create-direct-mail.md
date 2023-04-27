@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -60,8 +60,6 @@ Les étapes de création et d’envoi d’un message de publipostage direct sont
    ![](assets/direct-mail-campaign.png)
 
 1. Cliquez sur **[!UICONTROL Créer]**, puis définissez des informations de base sur votre campagne (nom, description). [Découvrez comment configurer une campagne.](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le fichier d’extraction à envoyer à votre fournisseur de publipostage direct.
 

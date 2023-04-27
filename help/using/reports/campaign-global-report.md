@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 100%
+source-wordcount: '2036'
+ht-degree: 95%
 
 ---
 
@@ -33,6 +33,7 @@ La page **[!UICONTROL Rapport global]** de la campagne s&#39;affiche avec les on
 * [In-app](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [Web](#web-tab)
 
 Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 
@@ -281,6 +282,27 @@ Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL 
 
 Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
 
++++
+
+## Onglet Web {#web-tab}
+
+Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Web]** Cet onglet présente les informations principales relatives à vos pages Web.
+
+![](assets/web-report.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Web.
+
+Les KPI de **[!UICONTROL Performances web]** détaillent les informations principales relatives à l’engagement de vos visiteurs avec vos expériences web, telles que :
+
+* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels l’expérience web a été diffusée.
+
+* **[!UICONTROL Impressions]** : nombre total d’expériences web diffusées à tous les utilisateurs.
+
+* **[!UICONTROL Taux de clics]**: pourcentage des visiteurs qui ont interagi avec les différents éléments de vos pages web.
+
+Le **[!UICONTROL Résumé web]** Le graphique montre l&#39;évolution de vos expériences web (impressions, impressions uniques et clics) pendant la période concernée.
+
+Le **[!UICONTROL Clics par élément]** le tableau présente les informations principales relatives à l’engagement des visiteurs avec les différents éléments de vos pages web.
 +++
 
 ## Ressources supplémentaires

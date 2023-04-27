@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2572'
-ht-degree: 100%
+source-wordcount: '2711'
+ht-degree: 94%
 
 ---
 
@@ -17,9 +17,13 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Avril 2023 {#apr-2023}
 
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 avril a été détaillée dans la documentation. [En savoir plus](release-notes.md).
 * Adobe Experience Manager Assets Essentials et Adobe Stock ont été ajoutés à la page d’intégration multi-solution. [En savoir plus](../start/ajo-integrations.md).
 * L’avertissement sur les sous-domaines de messagerie à plusieurs niveaux non autorisés a été supprimé, car ils sont désormais pris en charge. [En savoir plus](../configuration/delegate-subdomain.md).
-* Une note a été ajoutée pour indiquer que, si des modifications sont apportées à une décision d’offres utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. [En savoir plus](../building-journeys/publishing-the-journey.md).
+* Une note a été ajoutée pour indiquer que, si des modifications sont apportées à une décision d’offre qui est utilisée dans le message d’un parcours, vous devez annuler la publication du parcours et le republier. [En savoir plus](../building-journeys/publishing-the-journey.md).
+* La gestion des décisions a clarifié la manière de s’assurer que les événements sont correctement pris en compte dans le compteur de limitation. **Événement de limitation** . [En savoir plus](../offers/offer-library/add-constraints.md#capping-event).
+* Une nouvelle section a été ajoutée au **Modifier les adresses d’exécution** page. Il indique qu’il est possible de remplacer le champ d’exécution défini globalement dans les paramètres avancés du parcours, mais le remplacement de l’adresse électronique ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, la valeur définie comme adresse principale dans les **Champs d’exécution** est celle qui doit être utilisée. [En savoir plus](../configuration/primary-email-addresses.md#journey-parameters)
+* Le **Suivi des URL** fournit désormais la liste et la description de tous les attributs contextuels pouvant être définis pour le suivi des URL dans une surface de canal de courrier électronique. [En savoir plus](../offers/offer-library/add-constraints.md).
 
 ## Mars 2023 {#march-2023}
 

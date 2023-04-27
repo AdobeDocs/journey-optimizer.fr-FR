@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 100%
+source-wordcount: '641'
+ht-degree: 87%
 
 ---
 
@@ -47,25 +47,21 @@ Pour insérer une décision dans un email, procédez comme suit :
 
    Découvrez comment utiliser les composants de contenu dans [cette section](content-components.md).
 
-1. L&#39;onglet **[!UICONTROL Décision d&#39;offre]** s&#39;affiche dans la palette de droite. Cliquez sur **[!UICONTROL Sélectionner la décision d&#39;offre]**.
+1. L&#39;onglet **[!UICONTROL Décision d&#39;offre]** s&#39;affiche dans la palette de droite. Cliquez sur **[!UICONTROL Sélectionner la décision d&#39;offre]**:
 
-   ![](assets/deliver-offer-tab.png)
+   1. Dans la fenêtre qui s&#39;affiche, sélectionnez l&#39;emplacement correspondant aux offres que vous souhaitez afficher.
 
-1. Dans la fenêtre qui s&#39;affiche, sélectionnez l&#39;emplacement correspondant aux offres que vous souhaitez afficher.
+      Les [emplacements](../offers/offer-library/creating-placements.md) sont des conteneurs utilisés pour présenter vos offres. Dans cet exemple, nous utiliserons l’emplacement « image en haut de l&#39;e-mail ». Cet emplacement a été créé dans la bibliothèque des offres pour afficher les offres de type image situées en haut des messages.
 
-   Les [emplacements](../offers/offer-library/creating-placements.md) sont des conteneurs utilisés pour présenter vos offres. Dans cet exemple, nous utiliserons l’emplacement « image en haut de l&#39;e-mail ». Cet emplacement a été créé dans la bibliothèque des offres pour afficher les offres de type image situées en haut des messages.
+   1. Les décisions correspondant à l’emplacement sélectionné s’affichent. Sélectionnez la décision à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
 
-1. Les décisions correspondant à l’emplacement sélectionné s’affichent. Sélectionnez la décision à utiliser dans le composant de contenu, puis cliquez sur **[!UICONTROL Ajouter]**.
+      >[!NOTE]
+      >
+      >Seules les décisions compatibles avec l&#39;emplacement sélectionné s&#39;affichent dans la liste. Dans cet exemple, une seule activité d&#39;offre correspond à l&#39;emplacement « image en haut de l&#39;e-mail ».
 
-   >[!NOTE]
-   >
-   >Seules les décisions compatibles avec l&#39;emplacement sélectionné s&#39;affichent dans la liste. Dans cet exemple, une seule activité d&#39;offre correspond à l&#39;emplacement « image en haut de l&#39;e-mail ».
+      ![](assets/deliver-offer-placement.png)
 
-   ![](assets/deliver-offer-placement.png)
-
-La décision est maintenant ajoutée au composant.
-
-Une fois vos modifications enregistrées, vos offres sont prêtes à être affichées pour les profils pertinents lors de l’envoi du message dans le cadre d’un parcours.
+La décision est maintenant ajoutée au composant. Une fois vos modifications enregistrées, vos offres sont prêtes à être affichées pour les profils pertinents lors de l’envoi du message dans le cadre d’un parcours.
 
 >[!NOTE]
 >
@@ -79,39 +75,34 @@ Vous pouvez prévisualiser les différentes offres qui font partie de la décisi
 
 Pour afficher les différentes offres qui font partie de la décision avec un profil client, procédez comme suit.
 
-1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**.
+>[!NOTE]
+>
+>Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages. Découvrez comment [créer un profil de test](../segment/creating-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages. Découvrez comment [créer un profil de test](../segment/creating-test-profiles.md).
+1. Sélectionnez les profils de test à utiliser pour prévisualiser l&#39;offre :
 
-1. Pour choisir l&#39;espace de noms à utiliser pour identifier les profils de test, sélectionnez **[!UICONTROL E-mail]** dans le champ **[!UICONTROL Espace de noms d&#39;identité]**.
+   1. Cliquez sur le bouton **[!UICONTROL Bouton Simuler le contenu]** puis choisissez l’espace de noms à utiliser pour identifier les profils de test à partir de la variable **[!UICONTROL Espace de noms d’identité]** champ .
 
-   >[!NOTE]
-   >
-   >Dans cet exemple, nous utiliserons l&#39;espace de noms **E-mail**. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](../segment/get-started-identity.md).
+      >[!NOTE]
+      >
+      >Dans cet exemple, nous utilisons le **Email** espace de noms. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](../segment/get-started-identity.md).
 
-1. Dans la liste des espaces de noms d&#39;identité, sélectionnez **[!UICONTROL E-mail]** et cliquez sur **[!UICONTROL Sélectionner]**.
-
-1. Dans le champ **[!UICONTROL Valeur d&#39;identité]**, saisissez la valeur pour identifier le profil de test. Dans cet exemple, saisissez l&#39;adresse e-mail d&#39;un profil de test.
+   1. Dans le champ **[!UICONTROL Valeur d&#39;identité]**, saisissez la valeur pour identifier le profil de test. Dans cet exemple, saisissez l&#39;adresse e-mail d&#39;un profil de test.
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-1. Ajoutez d&#39;autres profils afin de pouvoir tester différentes variantes du message en fonction des données de profil.
+   1. Ajoutez d&#39;autres profils afin de pouvoir tester différentes variantes du message en fonction des données de profil.
 
-   ![](assets/deliver-offer-test-profiles.png)
+      ![](assets/deliver-offer-test-profiles.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour tester votre message.
 
-1. Sélectionnez un profil de test. L&#39;offre correspondant au profil sélectionné (une femme) s&#39;affiche.
+1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour tester votre message, puis sélectionnez un profil de test. L&#39;offre correspondant au profil sélectionné (une femme) s&#39;affiche.
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. Sélectionnez d&#39;autres profils de test pour prévisualiser le contenu des e-mails pour chaque variante de votre message. Dans le contenu du message, l&#39;offre correspondant au profil de test sélectionné (désormais un homme) s&#39;affiche maintenant.
+   Vous pouvez sélectionner d&#39;autres profils de test pour prévisualiser le contenu de l&#39;email pour chaque variante de votre message. Dans le contenu du message, l&#39;offre correspondant au profil de test sélectionné (désormais un homme) s&#39;affiche maintenant.
 
-   ![](assets/deliver-offer-test-profile-male-preview.png)
-
-Pour en savoir plus sur les étapes détaillées afin de vérifier la prévisualisation du message, consultez [cette section](#preview-your-messages).
+En savoir plus sur les étapes détaillées pour vérifier l’aperçu du message dans [cette section](#preview-your-messages).
 
 ## Vidéo pratique{#video-offers}
 

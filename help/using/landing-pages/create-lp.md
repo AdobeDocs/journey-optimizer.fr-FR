@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 100%
+source-wordcount: '1539'
+ht-degree: 99%
 
 ---
 
@@ -224,13 +224,13 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
    Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../email/preview.md#select-test-profiles).
 
-1. Sélectionnez lʼonglet **[!UICONTROL Aperçu]** et cliquez sur **[!UICONTROL Ouvrir lʼaperçu]** pour tester votre page de destination.
+1. Sélectionner **[!UICONTROL Ouvrir l’aperçu]** pour tester votre landing page.
 
    ![](assets/lp_open-preview.png)
 
 1. La prévisualisation de votre page de destination sʼouvre dans un nouvel onglet. Les éléments personnalisés sont remplacés par les données du profil de test sélectionné.
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. Sélectionnez dʼautres profils de test pour prévisualiser le rendu de chaque variante de votre page de destination.
 

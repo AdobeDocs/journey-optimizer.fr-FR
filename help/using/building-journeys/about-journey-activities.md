@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 89%
 
 ---
 
@@ -66,9 +66,27 @@ Si vous avez configuré des actions personnalisées, elles s’affichent égalem
 
 ## Bonnes pratiques {#best-practices}
 
+### Ajouter un libellé
+
 La plupart des activités vous permettent de définir un **[!UICONTROL libellé]**. Vous pouvez ainsi ajouter un suffixe au nom qui apparaîtra sous votre activité dans la zone de travail. Cela s’avère utile si vous utilisez plusieurs fois la même activité dans votre parcours et souhaitez faciliter son identification. Cela facilite également le débogage lorsque des erreurs se produisent et permet une lecture plus facile des rapports. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### Gestion des paramètres avancés {#advanced-parameters}
+
+La plupart des activités affichent un certain nombre de paramètres avancés et/ou techniques que vous ne pouvez pas modifier.
+
+![](assets/journey-advanced-parameters.png)
+
+Pour une meilleure lisibilité, vous pouvez masquer ces paramètres à l’aide de la fonction **[!UICONTROL Masquer les champs en lecture seule]** bouton .
+
+![](assets/journey-hide-read-only-fields.png)
+
+Dans certains contextes spécifiques, vous pouvez remplacer les valeurs de ces paramètres pour une utilisation spécifique. Pour forcer une valeur, cliquez sur l’icône **[!UICONTROL Activer la substitution de paramètre]** à droite du champ. [En savoir plus](../configuration/primary-email-addresses.md#journey-parameters).
+
+![](assets/journey-enable-parameter-override.png)
+
+### Ajouter un autre chemin
 
 Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 

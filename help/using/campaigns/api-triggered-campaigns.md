@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 97%
 
 ---
 
@@ -39,9 +39,7 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
 
    ![](assets/api-triggered-type.png)
 
-1. Indiquez un titre et une description pour la campagne, puis configurez le message à envoyer.
-
-   ![](assets/api-triggered-properties.png)
+1. Indiquez un titre et une description pour la campagne, puis cliquez sur **[!UICONTROL Modifier le contenu]** pour configurer le message à envoyer.
 
    >[!NOTE]
    >

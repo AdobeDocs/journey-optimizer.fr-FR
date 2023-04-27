@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 99%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [Configurer le publipostage direct](using/direct-mail/direct-mail-configuration.md)
 + Canal web{#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
+   + [Conditions préalables pour les canaux web](using/web/web-prerequisites.md)
    + [Créer des expériences web](using/web/create-web.md)
    + [Créer des pages web](using/web/author-web.md)
-   + [Extension Visual Editing Helper](using/web/visual-editing-helper.md)
-   + [Rapports web](using/web/web-report.md)
+   + [Configuration des sous-domaines web](using/web/web-delegated-subdomains.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Création d’une page de destination](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 99%
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
+      + [Liste des composants](using/reports/live-report-components.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
    + Rapport global {#global-report}
       + [Prise en main du rapport global](using/reports/global-report.md)
+      + [Liste des composants](using/reports/global-report-components.md)
       + [Rapport global sur les parcours](using/reports/journey-global-report.md)
       + [Rapport global de campagne](using/reports/campaign-global-report.md)
       + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)

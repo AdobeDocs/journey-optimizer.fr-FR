@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 97%
 
 ---
 
@@ -110,13 +110,11 @@ Pour commencer à créer votre contenu , procédez comme suit :
 
    ![](assets/email_designer_links.png)
 
-1. Au besoin, vous pouvez personnaliser davantage votre contenu en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]**, accessible à partir du bouton **Plus** dans la partie supérieure. [En savoir plus sur l’éditeur de code](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. Au besoin, vous pouvez personnaliser davantage votre e-mail en cliquant sur **[!UICONTROL Basculer vers l’éditeur de code]** dans le menu avancé. Vous pouvez ainsi modifier le code source de l’email, par exemple pour ajouter des balises de HTML de suivi ou personnalisées. [En savoir plus sur l’éditeur de code](code-content.md)
 
    >[!CAUTION]
    >
-   >Vous ne pouvez pas revenir au concepteur visuel de ce contenu après avoir basculé vers l’éditeur de code.
+   >Vous ne pouvez pas revenir au concepteur visuel de cet e-mail après avoir basculé vers l’éditeur de code.
 
 1. Une fois que votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier le rendu. Vous pouvez choisir la vue bureau ou la vue mobile. [En savoir plus sur la prévisualisation de votre e-mail](preview.md)
 

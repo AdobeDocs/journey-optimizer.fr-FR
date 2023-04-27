@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: code, HTML, éditeur
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
@@ -36,9 +36,13 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
 
    ![](assets/code-editor.png)
 
-1. Si vous souhaitez ouvrir le Concepteur d’email pour commencer votre e-mail à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu d’options.
+1. Pour effacer le contenu de votre e-mail et en recréer un à partir d’une nouvelle conception, sélectionnez **[!UICONTROL Modifier votre conception]** dans le menu Options.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Cette action ouvre le modèle sélectionné dans le Concepteur d’e-mail. À partir de là, vous pouvez soit terminer la conception de votre e-mail, soit revenir à l’éditeur de code à l’aide de l’option **[!UICONTROL Basculer vers l’éditeur de code]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Prévisualisation]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test. [En savoir plus](preview.md)
 

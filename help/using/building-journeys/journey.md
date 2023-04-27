@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,11 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 * Utilisez les **actions intégrées** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
 * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d’entrée ou une activité de lecture de segment, ajoutez des conditions et envoyez des messages personnalisés.
+
+
+>[!NOTE]
+>
+>Les barrières de sécurité et limitations des parcours sont détaillées dans la section [cette page](../start/guardrails.md)
 
 ## Procédure de création d’un parcours{#steps-journey}
 
@@ -98,7 +103,3 @@ Aussitôt le parcours publié, les individus commencent à accéder à la derni�
 Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions des parcours portent le même nom.
 
 Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précédente se termine automatiquement et passe au statut **Fermé**. Aucune entrée dans le parcours ne peut se produire. Même si vous arrêtez la dernière version, la version précédente reste fermée.
-
->[!NOTE]
->
->Pour en savoir plus sur les mécanismes de sécurisation et les limitations, consultez [cette page](../start/guardrails.md#journey-versions-limitations).

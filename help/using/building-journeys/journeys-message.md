@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,10 @@ Pour ce faire, ouvrez votre parcours dynamique, sélectionnez l’activité de m
 ![](assets/add-a-message2.png)
 
 Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnalisation, qu’il s’agisse d’attributs de profil ou de données contextuelles (à partir des propriétés d’événement ou de parcours).
+
+Si vous avez modifié des données contextuelles, le message d&#39;erreur suivant s&#39;affiche : ERR_AUTHORING_JOURNEYVERSION_201
+
+Si vous avez modifié les attributs de profil, le message d’erreur suivant s’affiche : ERR_AUTHORING_JOURNEYVERSION_202
 
 Notez que pour l’activité in-app, des modifications peuvent être apportées au contenu pendant que le parcours est actif, mais les triggers in-app ne peuvent pas être modifiés.
 

@@ -1,0 +1,128 @@
+---
+title: Conditions préalables pour les canaux web
+description: Pour accéder aux pages web et les créer dans l’interface utilisateur de Journey Optimizer, suivez les conditions préalables sur cette page.
+feature: Web Channel
+topic: Content Management
+role: User
+level: Beginner
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+workflow-type: tm+mt
+source-wordcount: '765'
+ht-degree: 41%
+
+---
+
+# Conditions préalables pour les canaux web {#web-prerequisites}
+
+Pour créer et accéder à des pages web dans l’interface utilisateur [!DNL Journey Optimizer], remplissez les conditions préalables suivantes :
+
+* Pour ajouter des modifications à votre site web, vous devez disposer d’une mise en oeuvre spécifique. [En savoir plus](#implementation-prerequisites).
+
+* Pour accéder au [!DNL Journey Optimizer] concepteur web, vous devez avoir installé une extension de navigateur Google Chrome spécifique. [En savoir plus](#visual-authoring-prerequesites).
+
+* Pour que l’expérience web soit correctement diffusée, veillez à définir les paramètres de Adobe Experience Platform détaillés. [here](#delivery-prerequisites).
+
+## Conditions préalables à la mise en oeuvre {#implementation-prerequisites}
+
+Actuellement, deux types de mise en oeuvre sont pris en charge pour permettre la création et la diffusion de campagnes de canal web sur vos propriétés web :
+
+* Côté client uniquement : pour ajouter des modifications à votre site web, vous devez mettre en oeuvre la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web.
+
+* Mode hybride : vous pouvez utiliser la variable [API du serveur réseau AEP Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+
+>[!NOTE]
+>
+>La mise en oeuvre côté serveur uniquement n’est actuellement pas prise en charge.
+
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
+
+## Prérequis de la création visuelle {#visual-authoring-prerequisites}
+
+<!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
+
+Pour pouvoir ouvrir, créer et prévisualiser vos pages web de manière fiable dans le [!DNL Journey Optimizer] concepteur web, vous devez disposer de la variable [Assistant d’édition visuelle de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension de navigateur installée sur votre navigateur web.
+
+>[!CAUTION]
+>
+>Google Chrome et Microsoft Edge sont actuellement les seuls navigateurs qui prennent en charge la création de pages web dans [!DNL Journey Optimizer].
+
+### Installation de l’extension Visual Editing Helper {#install-visual-editing-helper}
+
+Pour télécharger et installer l’extension de navigateur Visual Editing Helper, procédez comme suit.
+
+1. Ouvrez un nouvel onglet dans votre navigateur (Google Chrome ou Microsoft Edge).
+
+1. Accédez au [Google Chrome Web Store](https://chrome.google.com/webstore/category/extensions){target="_blank"}.
+
+1. Si vous utilisez Microsoft Edge, sélectionnez **[!UICONTROL Autorisation des extensions d’autres magasins]** sur la bannière supérieure. Vous pourrez ainsi ajouter des extensions du Chrome Web Store à Microsoft Edge.
+
+1. Recherchez et accédez au [Assistant d’édition visuelle de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension de navigateur.
+
+1. Cliquez sur **[!UICONTROL Ajouter à Chrome]** > **[!UICONTROL Ajouter l’extension]**.
+
+   >[!NOTE]
+   >
+   >Si vous utilisez Microsoft Edge, l’extension sera ajoutée à Edge même si le bouton est marqué. **[!UICONTROL Ajouter à Chrome]**.
+
+1. Assurez-vous que l’extension de navigateur Visual Editing Helper est correctement activée dans la barre d’outils de votre navigateur.
+
+   ![](assets/web-visual-editing-extension-edge.png)
+
+<!--1. Launch [!DNL Journey Optimizer] in a new tab of your browser with the extension installed.
+
+1. Create a web channel campaign in [!DNL Journey Optimizer]. [Learn how](author-web.md#create-web-campaign)
+
+1. Open the [!DNL Journey Optimizer] web designer to start authoring your web experience. [Learn more](author-web.md)-->
+
+L’extension Visual Editing Helper d’Adobe Experience Cloud est désormais automatiquement activée lorsqu’un site web est ouvert dans le concepteur web [!DNL Journey Optimizer] pour optimiser la création.
+
+L’extension ne dispose d’aucun paramètre conditionnel et gère automatiquement tous les paramètres, y compris les paramètres des cookies SameSite.
+
+>[!NOTE]
+>
+>Certains sites web peuvent ne pas s’ouvrir de manière fiable dans le concepteur web [!DNL Journey Optimizer], et ce, pour l’une des raisons suivantes :
+>
+> * Le site Web possède des politiques strictes en matière de sécurité.
+> * Le site Web se trouve dans un iframe.
+> * Le site d’assurance qualité et/ou d’étape du client n’est pas disponible pour le grand public (site interne).
+
+
+### Résolution des problèmes de chargement du site web {#troubleshooting}
+
+Lors de l’utilisation du concepteur web d’Adobe [!DNL Journey Optimizer], si vous tentez de charger un site web et que ce chargement échoue, un message s’affiche vous suggérant d’installer l’[extension de navigateur Visual Editing Helper](#install-visual-editing-helper).
+
+Si l’extension de navigateur Visual Editing Helper est correctement installée, mais que le site web ne parvient toujours pas à se charger ou se comporte de manière inattendue, un correctif potentiel consiste à ouvrir votre site web dans le navigateur et à accepter les cookies avant de tenter de le charger dans la variable [!DNL Journey Optimizer] web designer.
+
+Pour les pages sous authentification, si le chargement de la page de connexion échoue ou si, après avoir tenté de se connecter, vous n’êtes toujours pas connecté :
+
+* Essayez d’abord de vous connecter dans un nouvel onglet du navigateur et accédez à la page souhaitée, puis copiez l’URL et essayez de l’ouvrir dans la [!DNL Journey Optimizer] web designer.
+
+* Si vous ne parvenez toujours pas à charger votre site web dans la variable [!DNL Journey Optimizer] concepteur web, contactez l’assistance clientèle d’Adobe pour signaler le problème, en veillant à spécifier l’URL défaillante.
+
+## Prérequis de diffusion {#delivery-prerequisites}
+
+Pour que l’expérience web soit correctement diffusée, les paramètres suivants doivent être définis :
+
+* Dans la [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous qu’un flux de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, les deux options suivantes soient activées : **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]**.
+
+   Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target="_blank"}.
+
+   ![](assets/web-aep-datastream-ajo.png)
+
+   >[!NOTE]
+   >
+   >L’option **[!UICONTROL Adobe Journey Optimizer]** ne peut être activée que lorsque l’option **[!UICONTROL Segmentation Edge]** est déjà activée.
+
+* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
+
+   Cette stratégie de fusion est utilisée par les canaux entrants [!DNL Journey Optimizer] pour activer et publier correctement les campagnes entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
+
+   ![](assets/web-aep-merge-policy.png)
+
+<!--
+Branded domains for assets
+
+When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
+
+
+

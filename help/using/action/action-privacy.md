@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, stratégie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -53,11 +53,9 @@ Pour en savoir plus sur la gestion des stratégies, consultez cette [documentati
 Prenons l’exemple du champ correspondant au groupe sanguin, que vous devez étiqueter comme sensible et dont vous devez limiter l’exportation vers un tiers. Voici la procédure à suivre :
 
 1. Dans le menu de gauche, sous **Confidentialité**, cliquez sur **Stratégies**.
-   ![](assets/action-privacy0.png)
 1. Sélectionnez l’onglet **Étiquettes** et cliquez sur **Créer une étiquette**.
    ![](assets/action-privacy1.png)
 1. Définissez un nom et un nom convivial pour cette étiquette. Par exemple : _ePHI1_.
-   ![](assets/action-privacy2.png)
 1. Dans le menu de gauche, sous **Gestion des données**, cliquez sur **Schémas**, puis cliquez sur le bouton **Appliquer l’accès et les étiquettes de gouvernance des données**. Sélectionnez votre schéma ainsi que votre champ (groupe sanguin), puis sélectionnez l’étiquette précédemment créée, _ePHI1_ dans notre exemple.
    ![](assets/action-privacy3.png)
 1. Revenez au menu **Stratégies**, sélectionnez l’onglet **Action marketing** et cliquez sur **Créer une action marketing**. Nous vous recommandons de créer une action marketing pour chaque action personnalisée tierce utilisée dans vos parcours. Par exemple, créons une _action marketing Slack_ qui sera utilisée pour votre action personnalisée Slack.
