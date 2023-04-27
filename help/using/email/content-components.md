@@ -10,7 +10,7 @@ level: Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1353'
 ht-degree: 100%
 
