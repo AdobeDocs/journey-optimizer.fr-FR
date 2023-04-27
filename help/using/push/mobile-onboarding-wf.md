@@ -12,15 +12,15 @@ hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Workflow de démarrage rapide de l’intégration mobile {#mobile-wf}
 
-La nouvelle **processus de démarrage rapide de l’intégration mobile** est une nouvelle fonctionnalité de produit qui permet de configurer rapidement le SDK Mobile Adobe Experience Platform, de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push avec [!DNL Journey Optimizer].
+Le nouveau **workflow de démarrage rapide de l’intégration mobile** est une nouvelle fonctionnalité de produit qui permet de configurer rapidement le SDK mobile d’Adobe Experience Platform, de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push avec [!DNL Journey Optimizer].
 
 Cette fonctionnalité est accessible à partir de la page d’accueil d’**[!DNL Adobe Experience Platform Data Collection]** à l’ensemble des clientes et clients en tant que version Beta publique.
 
@@ -35,8 +35,8 @@ Pour accéder au nouveau workflow de démarrage rapide de l’intégration mobil
 Voici quelques autres fonctionnalités :
 
 * Workflow simple en quatre étapes et interface utilisateur.
-* Fournit une configuration de base pour commencer à collecter des données d’événement mobile via le [SDK Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutes.
-* Possibilité de tester et de valider l’utilisation d’un événement push mobile de base [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* Fournit une configuration de base pour commencer à collecter en quelques minutes des données d’événement mobile via le [SDK mobile d’Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}.
+* Permet de tester et de valider un événement push mobile de base à l’aide d’[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=fr){target="_blank"}.
 * Crée et configure automatiquement toutes les ressources de Journey Optimizer et de collecte de données nécessaires.
 * Donne des conseils et affiche des info-bulles sur le produit.
 * Fournit une transition naturelle pour une implémentation plus avancée, le cas échéant.
