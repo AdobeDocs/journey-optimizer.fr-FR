@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Cette page vous aidera à configurer et à comprendre les services et les workfl
 
 >[!AVAILABILITY]
 >
->La nouvelle **processus de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK Mobile afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de la collecte de données en tant que version bêta publique. [En savoir plus](mobile-onboarding-wf.md).
+>Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md).
 
 Apprenez sur [cette page](create-push.md) à créer des notifications push.
 
