@@ -147,7 +147,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 * **_experience > decisioning > contents > components > deliveryURL**
 
    **Champ :** deliveryURL
-   **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d&#39;un réseau de diffusion de contenu ou d&#39;un point d&#39;entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
+   **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
    **Type :** chaîne
    **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 

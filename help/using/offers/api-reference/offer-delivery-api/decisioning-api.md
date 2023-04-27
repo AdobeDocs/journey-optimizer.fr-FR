@@ -45,7 +45,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### Requête
@@ -195,7 +195,7 @@ Une réponse réussie renvoie des informations sur votre proposition, y compris 
 | `xdm:score` | Score d&#39;une option calculée à la suite d&#39;une fonction de classement associée à l&#39;option ou à la décision. Ce champ est renvoyé par l&#39;API si une fonction de classement est impliquée dans la détermination du score d&#39;une offre au cours du classement. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Cet objet contient une seule offre de secours, y compris son identifiant unique. | `"xdm:id": "xcore:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | Manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé, par exemple, la liste des [types de médias Internet](http://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques. | `"dc:format": "image/png"` ou `"image/jpeg"` |
-| `xdm:propositions.xdm:fallback.xdm:deliveryURL` | URL facultative permettant de lire le fichier à partir d&#39;un réseau de diffusion de contenu ou d&#39;un point d&#39;entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource à partir d&#39;un agent utilisateur. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
+| `xdm:propositions.xdm:fallback.xdm:deliveryURL` | URL facultative permettant de lire le fichier à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource à partir d&#39;un agent utilisateur. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Heure à laquelle le message de réponse à la décision a été créé. Il s&#39;agit de l&#39;époque. | `"ode:createDate": 1566497582038` |
 
 **Codes de réponse**

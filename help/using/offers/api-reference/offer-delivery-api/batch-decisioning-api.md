@@ -58,7 +58,7 @@ Toutes les requêtes [!DNL Batch Decisioning] nécessitent les en-têtes suivant
 
 ## Démarrage d&#39;un traitement par lot {#start-a-batch-process}
 
-Pour démarrer une charge de travail afin de prendre des décisions concernant le traitement par lots, envoyez une requête POST au point d&#39;entrée `/workloads/decisions`.
+Pour démarrer une charge de travail afin de prendre des décisions concernant le traitement par lots, envoyez une requête POST au point d’entrée `/workloads/decisions`.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ POST {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Requête**
@@ -136,7 +136,7 @@ Reportez-vous à la section [Documentation de la gestion des décisions](../../g
 
 ## Récupération des informations sur une décision par lot {#retrieve-information-on-a-batch-decision}
 
-Pour récupérer des informations sur une décision spécifique, envoyez une requête GET au point d&#39;entrée `/workloads/decisions` tout en fournissant la valeur d&#39;ID de charge de travail correspondante pour votre décision.
+Pour récupérer des informations sur une décision spécifique, envoyez une requête GET au point d’entrée `/workloads/decisions` tout en fournissant la valeur d’ID de charge de travail correspondante pour votre décision.
 
 **Format d’API**
 
@@ -146,7 +146,7 @@ GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les décisions. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{WORKLOAD_ID}` | L’UUID généré par la gestion des décisions qui identifie une seule charge de travail. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 

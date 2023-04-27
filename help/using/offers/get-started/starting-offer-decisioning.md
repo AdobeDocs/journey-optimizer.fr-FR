@@ -22,7 +22,7 @@ La gestion des décisions facilite la personnalisation avec une bibliothèque ce
 La fonctionnalité de gestion des décisions comprend deux composants principaux :
 
 * La **bibliothèque des offres centralisée** qui est l’interface qui vous permet de créer et de gérer les différents éléments qui composent vos offres et qui permet de définir leurs règles et contraintes.
-* Le **moteur de décision d’offre** qui tire parti des données Adobe Experience Platform et des profils client en temps réel, ainsi que de la bibliothèque des offres, pour sélectionner le bon moment, les clients et les canaux pour la diffusion des offres.
+* Le **moteur de décision d’offre** qui tire parti des données Adobe Experience Platform et des profils clients en temps réel, ainsi que de la bibliothèque des offres, pour sélectionner le bon moment, les clients et les canaux pour la diffusion des offres.
 
 ![](../assets/architecture.png)
 

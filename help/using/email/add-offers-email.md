@@ -10,7 +10,7 @@ level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
 

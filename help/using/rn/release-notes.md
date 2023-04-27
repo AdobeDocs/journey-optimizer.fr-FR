@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
 workflow-type: tm+mt
 source-wordcount: '1897'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour initiales d’avril 2023 {#apr-e-rn-2023}
+## Notes de mise à jour d’avril 2023 (nouveau) {#apr-e-rn-2023}
 
 Les informations ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication de la version et des liens directs seront ajoutés sur cette page.
 
-**** Date de publication : 27 avril 2023
+**Date de publication** : 27 avril 2023
 
 ### Nouvelles fonctionnalités{#apr-2023-features}
 
@@ -34,13 +34,13 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 <table>
 <thead>
 <tr>
-<th><strong>Canal web (Disponibilité générale)</strong><br/></th>
+<th><strong>Canal web (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer étend ses fonctionnalités cross-canal en ajoutant la prise en charge du canal web. Vous pouvez désormais créer, modifier et prévisualiser des expériences web comme n’importe quel autre canal, au moyen d’une interface visuelle intelligente et intuitive afin de personnaliser votre expérience utilisateur. Notez qu’actuellement, dans Journey Optimizer, vous ne pouvez créer que des expériences web dans les campagnes.</p>
+<p>Adobe Journey Optimizer étend ses fonctionnalités cross-canal en ajoutant la prise en charge du canal web. Vous pouvez désormais créer, modifier et prévisualiser des expériences web comme n’importe quel autre canal, au moyen d’une interface visuelle intelligente et intuitive qui vous permettra de personnaliser l’expérience de vos utilisateurs et utilisatrices. Notez qu’actuellement, Journey Optimizer permet de créer des expériences web dans les campagnes uniquement.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -51,13 +51,13 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 <table>
 <thead>
 <tr>
-<th><strong>Processus de démarrage rapide de l’intégration mobile (version bêta)</strong><br/></th>
+<th><strong>Workflow de démarrage rapide de l’intégration mobile (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le nouveau workflow de démarrage rapide de l’intégration mobile est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK Mobile afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles avec Adobe Journey Optimizer. Cette fonctionnalité est accessible via la page d’accueil de la collecte de données en tant que version bêta publique.</p>
+<p>Le nouveau workflow de démarrage rapide de l’intégration mobile est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles avec Adobe Journey Optimizer. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>Pour plus d’informations, consultez la <a href="../push/mobile-onboarding-wf.md">documentation détaillée</a>.</p>
 </td>
@@ -68,16 +68,16 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 <table>
 <thead>
 <tr>
-<th><strong>Nouveau tableau de bord de Parcours (version bêta)</strong><br/></th>
+<th><strong>Nouveau tableau de bord des parcours (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Le tableau de bord Parcours est maintenant divisé en deux onglets :</p>
-<ul><li>Utilisez la variable <strong>Présentation</strong> pour accéder à un nouveau tableau de bord qui affiche les mesures clés liées à vos parcours.</li>
-<li>Utilisez la variable <strong>Parcourir</strong> pour accéder à la liste de tous les parcours.</li></ul>
-<p>Cette fonctionnalité est accessible en version bêta publique dans tous les parcours.</p>
+<p> Le tableau de bord des parcours est maintenant divisé en deux onglets :</p>
+<ul><li>Depuis l’onglet <strong>Aperçu</strong>, vous pouvez accéder à un nouveau tableau de bord qui affiche les mesures clés liées à vos parcours.</li>
+<li>Utilisez l’onglet <strong>Parcourir</strong> pour accéder à la liste de tous les parcours.</li></ul>
+<p>Cette fonctionnalité est accessible en version Beta publique dans tous les parcours.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
@@ -107,26 +107,26 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
 **Parcours**
 
-* Le canevas de parcours affiche désormais l’ID d’activité sur les noeuds d’action et les balises de fin. Cela améliore le reporting et le reciblage.
-* La mise en page du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
-* De nouveaux garde-fous ont été ajoutés aux parcours :
-   * Le nombre de noeuds d’un parcours est désormais limité à 50 noeuds au maximum.
-   * Le nombre de parcours actifs dans une organisation est désormais limité à 100 au maximum. Les parcours en mode test ne sont pas pris en compte.
+* La zone de travail du parcours affiche désormais l’ID d’activité sur les nœuds d’action et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
+* La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
+* De nouveaux garde-fous ont été ajoutés aux parcours :
+   * Le nombre de nœuds d’un parcours est désormais limité à 50.
+   * Le nombre de parcours actifs dans une organisation est désormais limité à 100. Les parcours en mode test ne sont pas pris en compte.
 
-* Lors de l’ajout d’une action Courrier électronique, SMS ou Push dans un parcours, la surface est désormais préremplie, par défaut, avec la dernière surface utilisée pour ce canal.
+* Lors de l’ajout d’une action E-mail, SMS ou Push dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées.
 
-**Créer des rapports**
+**Reporting**
 
-* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF.
+* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF.
 
 **Concepteur de contenu**
 
-* Le Concepteur de contenu de Adobe Journey Optimizer a été mis à jour et l’accès aux styles et composants de conception est désormais plus facile. Cette nouvelle version offre une expérience utilisateur améliorée et s’accompagne de performances accrues, d’une compatibilité partielle du mode sombre et de nouvelles normes d’accessibilité.
+* Le Concepteur de contenu d’Adobe Journey Optimizer a été mis à jour et l’accès aux styles et composants de conception est désormais plus facile. Cette nouvelle version offre une expérience client améliorée et s’accompagne de performances accrues, d’une compatibilité partielle du mode sombre et de nouvelles normes d’accessibilité.
 
 
 
-## Notes de mise à jour de mars 2023 {#mar-2023}
+## Notes de mise à jour de mars 2023 {#mar-2023}
 
 ### Nouvelles fonctionnalités{#mar-2023-features}
 
@@ -222,7 +222,7 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
    Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md#modify-dashboard).
 
-## Notes de mise à jour de février 2023 {#feb-2023}
+## Notes de mise à jour de février 2023 {#feb-2023}
 
 ### Nouvelles fonctionnalités{#feb-2023-features}
 

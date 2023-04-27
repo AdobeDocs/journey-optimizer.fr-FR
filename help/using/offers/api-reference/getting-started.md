@@ -62,7 +62,7 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d&#39;accès de point d&#39;entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{PRODUCT_CONTEXT}` | Filtre la liste des conteneurs par leur association aux contextes de produits. | `acp` |
 | `{PROPERTY}` | Filtre le type de conteneur renvoyé. | `_instance.containerType==decisioning` |
 
