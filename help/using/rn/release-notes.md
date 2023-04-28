@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c2ce36d65df939f2445f783eea7376b0765bdcd7
+source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1860'
 ht-degree: 94%
 
 ---
@@ -115,9 +115,9 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 * Lors de l’ajout d’une [Email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est maintenant préremplie, par défaut, avec la dernière surface utilisée pour ce canal, dans le parcours actuel.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
 
-**Reporting**
+**Créer des rapports**
 
-* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF.
+* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF. [En savoir plus](../reports/global-report.md#export-reports).
 
 **Concepteur de contenu**
 
