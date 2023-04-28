@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 94%
+source-wordcount: '1779'
+ht-degree: 92%
 
 ---
 
@@ -263,3 +263,7 @@ Vous trouverez ci-dessous des exemples d’URL compatibles avec Adobe Analytics 
 Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Chaque fois que vous ajoutez, modifiez ou supprimez un paramètre, la prévisualisation est automatiquement mise à jour.
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>Vous pouvez également ajouter des paramètres de suivi personnalisé dynamique aux liens présents dans le contenu de votre email, mais cela n&#39;est pas possible au niveau de la surface. Vous devez le faire lors de la création de votre message à l&#39;aide du Concepteur d&#39;email. [En savoir plus](message-tracking.md#url-tracking).
