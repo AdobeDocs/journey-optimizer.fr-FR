@@ -6,28 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 53%
+source-wordcount: '160'
+ht-degree: 68%
 
 ---
 
 # Prise en main du canal web {#get-sarted-web}
 
->[!AVAILABILITY]
->
->Cette fonctionnalité n’est disponible qu’avec la fonction [!DNL Adobe Journey Optimizer] **Prime** et **Ultimate** [packages](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
-
 [!DNL Journey Optimizer] vous permet de créer et de diffuser visuellement des expériences web personnalisées à vos clients.
-
-Si vous utilisez déjà des canaux sortants tels que les e-mails, les SMS ou les notifications push, vous pouvez désormais tirer parti du canal web entrant pour offrir une expérience réellement personnalisée qui s’étend sur tous les canaux.
 
 Grâce à une interface visuelle intuitive, cette fonctionnalité vous permet de modifier facilement vos propriétés web afin d’expérimenter, d’optimiser et de personnaliser vos campagnes utilisateur final.
 
->[!CAUTION]
->
->Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web qu’en utilisant des **campagnes**.
+Si vous utilisez déjà des canaux sortants tels que les e-mails, les SMS ou les notifications push, vous pouvez désormais tirer parti du canal web entrant pour offrir une expérience réellement personnalisée qui s’étend sur tous les canaux.
 
 Une fois une campagne créée, sélectionnez **Web** comme action et définissez les paramètres de base. Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
 
@@ -73,9 +65,5 @@ Découvrez les étapes détaillées pour créer une campagne web dans [cette vid
 <p>
 </td>
 </tr></table>
-
->[!CAUTION]
->
->[!DNL Journey Optimizer] les campagnes web ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmentera le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageants que vous avez achetés est dépassé. Les mesures de licence de chaque module sont répertoriées dans la [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html) page.
 
 

@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: web, sous-domaines, configuration
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 6%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Définition d’un sous-domaine par défaut"
->abstract="Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine par défaut sera utilisé. Vous pouvez modifier le sous-domaine web par défaut, mais un seul peut être utilisé à la fois."
+>title="Définition d’un sous-domaine web"
+>abstract="Sélectionnez un sous-domaine dans la liste des sous-domaines délégués à l’Adobe. Vous pouvez définir ce sous-domaine web comme sous-domaine par défaut, mais un seul sous-domaine par défaut peut être utilisé à la fois."
 
 Lors de la création d’expériences web, si vous ajoutez du contenu provenant du [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) , vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
 
@@ -67,11 +68,15 @@ Vous pouvez créer plusieurs sous-domaines web, mais uniquement le **default** L
 
    >[!NOTE]
    >
-   >Seule la variable **default** Le sous-domaine sera utilisé. Vous pouvez modifier le sous-domaine web par défaut, mais un seul peut être utilisé à la fois.
+   >Seule la variable **default** Le sous-domaine sera utilisé.
 
 1. Cliquez sur **[!UICONTROL Envoyer]**. Le sous-domaine récupère la variable **[!UICONTROL Succès]** statut. Il est prêt à être utilisé pour vos expériences web.
 
 1. Le **[!UICONTROL Par défaut]** badge s’affiche en regard du sous-domaine actuellement utilisé par défaut. Pour modifier le sous-domaine par défaut, sélectionnez **[!UICONTROL Définir comme valeur par défaut]** de la **[!UICONTROL Autres actions]** en regard du sous-domaine souhaité.
+
+   >[!NOTE]
+   >
+   >Vous pouvez modifier le sous-domaine web par défaut, mais un seul peut être utilisé à la fois.
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ Vous pouvez créer plusieurs sous-domaines web, mais uniquement le **default** L
 1. Vous pouvez uniquement supprimer une **[!UICONTROL En échec]** sous-domaine pour nettoyer la liste. Pour ce faire, sélectionnez **[!UICONTROL Supprimer]** de la **[!UICONTROL Autres actions]** en regard du sous-domaine souhaité.
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-

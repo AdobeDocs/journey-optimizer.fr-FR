@@ -5,14 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 41%
+source-wordcount: '835'
+ht-degree: 40%
 
 ---
 
-# Conditions préalables pour les canaux web {#web-prerequisites}
+# Conditions préalables et barrières de sécurité {#web-prerequisites}
 
 Pour créer et accéder à des pages web dans l’interface utilisateur [!DNL Journey Optimizer], remplissez les conditions préalables suivantes :
 
@@ -21,6 +22,13 @@ Pour créer et accéder à des pages web dans l’interface utilisateur [!DNL Jo
 * Pour accéder au [!DNL Journey Optimizer] concepteur web, vous devez avoir installé une extension de navigateur Google Chrome spécifique. [En savoir plus](#visual-authoring-prerequesites).
 
 * Pour que l’expérience web soit correctement diffusée, veillez à définir les paramètres de Adobe Experience Platform détaillés. [here](#delivery-prerequisites).
+
+## Attention
+
+Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web qu’en utilisant des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
+
+
+[!DNL Journey Optimizer] les campagnes web ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmentera le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageants que vous avez achetés est dépassé. Les mesures de licence de chaque module sont répertoriées dans la [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html) page.
 
 ## Conditions préalables à la mise en oeuvre {#implementation-prerequisites}
 
@@ -123,6 +131,3 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-
