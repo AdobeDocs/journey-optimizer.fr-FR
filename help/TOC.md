@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [Configurer le publipostage direct](using/direct-mail/direct-mail-configuration.md)
 + Canal web{#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
-   + [Conditions préalables pour les canaux web](using/web/web-prerequisites.md)
+   + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
    + [Créer des expériences web](using/web/create-web.md)
    + [Créer des pages web](using/web/author-web.md)
-   + [Configuration des sous-domaines web](using/web/web-delegated-subdomains.md)
+   + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Création d’une page de destination](using/landing-pages/create-lp.md)
@@ -357,8 +357,8 @@ ht-degree: 99%
       + [Prise en main de la collecte de données](using/offers/data-collection/data-collection.md)
       + [Créer un jeu de données pour collecter des événements](using/offers/data-collection/create-dataset.md)
       + [Configurer la capture d’événements](using/offers/data-collection/schema-requirement.md)
-   + Création de rapports de gestion de décisions {#create-reports}
-      + [Utilisation des événements de gestion des décisions](using/offers/reports/get-started-events.md)
+   + Créer des rapports de gestion des décisions {#create-reports}
+      + [Utiliser des événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
    + Export de votre catalogue d’offres {#export-catalog}
       + [Commencer à exporter des catalogues d’offres ](using/offers/export-catalog/get-started-export.md)

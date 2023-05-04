@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour d’avril 2023 {#apr-rn-2023}
+## Notes de mise à jour d’avril 2023 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -106,13 +106,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 **Parcours**
 
-* Le canevas de parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
+* La zone de travail du parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
 * De nouveaux garde-fous ont été ajoutés aux parcours :
-   * Le nombre d’activités d’un parcours est désormais limité à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
-   * Le nombre de **parcours en direct** dans une organisation est désormais limitée à 100 par environnement de test. Les parcours en mode test ne sont pas pris en compte. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
+   * Le nombre d’activités d’un parcours est désormais limité à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
+   * Le nombre de **parcours actifs** dans une organisation est désormais limité à 100 par sandbox. Les parcours en mode test ne sont pas pris en compte. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
 
-* Lors de l’ajout d’une [Email](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est maintenant préremplie, par défaut, avec la dernière surface utilisée pour ce canal, dans le parcours actuel.
+* Lors de l’ajout d’une action [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal dans le parcours actuel.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
 
 **Créer des rapports**
@@ -189,7 +189,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 * Dans la zone de travail Parcours, la balise **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
 * Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
 * Le taux de limitation par défaut dans les activités de lecture de segment passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
-* Une barrière de sécurité a été ajoutée au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. [En savoir plus](../building-journeys/testing-the-journey.md)
+* Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. [En savoir plus](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
