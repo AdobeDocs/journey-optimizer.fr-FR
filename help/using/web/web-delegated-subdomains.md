@@ -1,22 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration des sous-domaines web
+title: Configurer des sous-domaines web
 description: Découvrez comment configurer des sous-domaines web avec Journey Optimizer
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: web, sous-domaines, configuration
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
+source-git-commit: 29070f0029c092782cf8a304f85e52869598a2fa
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# Configuration des sous-domaines web {#web-subdomains}
+# Configurer des sous-domaines web {#web-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
