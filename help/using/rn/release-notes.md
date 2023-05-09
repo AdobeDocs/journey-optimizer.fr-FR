@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
+source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1920'
 ht-degree: 100%
 
 ---
@@ -64,26 +64,27 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>Nouveau tableau de bord des parcours (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> The Journey dashboard is now split in two tabs:</p>
-<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
-<p>This capability is accessible in all journeys as a public beta.</p>
+<p> Le tableau de bord des parcours est maintenant divisé en deux onglets :</p>
+<ul><li>Depuis l’onglet <strong>Aperçu</strong>, vous pouvez accéder à un nouveau tableau de bord qui affiche les mesures clés liées à vos parcours.</li>
+<li>Utilisez l’onglet <strong>Parcourir</strong> pour accéder à la liste de tous les parcours.</li></ul>
+<p>Cette fonctionnalité est accessible en version Beta publique dans tous les parcours.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-gs.md#journey-access">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 
 <table>
 <thead>
