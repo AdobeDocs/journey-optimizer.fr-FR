@@ -14,7 +14,7 @@ exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Pour optimiser davantage votre utilisation d’Adobe Experience Manager avec A
 
 Pour exporter un modèle Adobe Experience Manager vers Adobe Journey Optimizer, procédez comme suit :
 
-1. Sur votre page d’accueil Adobe Experience Manager, sélectionnez **[!UICONTROL Marketing sortant]**.
+1. Sur la page d’accueil d’Adobe Experience Manager, sélectionnez **[!UICONTROL Marketing sortant]**.
 
    ![](assets/aem-outbound-menu.png)
 

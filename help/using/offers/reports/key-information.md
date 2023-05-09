@@ -13,5 +13,5 @@ ht-degree: 100%
 
 ---
 
-# Informations clés des événements de gestion de décision {#events-key-information}
+# Informations clés des événements de gestion des décisions {#events-key-information}
 

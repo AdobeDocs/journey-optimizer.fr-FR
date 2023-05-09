@@ -9,7 +9,7 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 68%
 
 [!DNL Journey Optimizer] vous permet de créer et de diffuser visuellement des expériences web personnalisées à vos clients.
 
-Grâce à une interface visuelle intuitive, cette fonctionnalité vous permet de modifier facilement vos propriétés web afin d’expérimenter, d’optimiser et de personnaliser vos campagnes utilisateur final.
+Grâce à une interface visuelle intuitive, cette fonctionnalité vous permet de modifier facilement vos propriétés web afin d’expérimenter, d’optimiser et de personnaliser vos campagnes pour les utilisateurs et utilisatrices finaux.
 
 Si vous utilisez déjà des canaux sortants tels que les e-mails, les SMS ou les notifications push, vous pouvez désormais tirer parti du canal web entrant pour offrir une expérience réellement personnalisée qui s’étend sur tous les canaux.
 
-Une fois une campagne créée, sélectionnez **Web** comme action et définissez les paramètres de base. Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
+Une fois que vous avez créé une campagne, sélectionnez **Web** comme action et définissez les paramètres de base. Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >
->Si c’est la première fois que vous créez une expérience web, veillez à respecter les conditions préalables décrites dans la section [cette section](web-prerequisites.md).
+>Si c’est la première fois que vous créez une expérience web, veillez à respecter les conditions préalables décrites dans [cette section](web-prerequisites.md).
 
 Découvrez les étapes détaillées pour créer une campagne web dans [cette vidéo](create-web.md#video).
 

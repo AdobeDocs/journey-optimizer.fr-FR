@@ -12,7 +12,7 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Pour insérer une décision dans un email, procédez comme suit :
 
    Découvrez comment utiliser les composants de contenu dans [cette section](content-components.md).
 
-1. L&#39;onglet **[!UICONTROL Décision d&#39;offre]** s&#39;affiche dans la palette de droite. Cliquez sur **[!UICONTROL Sélectionner la décision d&#39;offre]**:
+1. L&#39;onglet **[!UICONTROL Décision d&#39;offre]** s&#39;affiche dans la palette de droite. Cliquez sur **[!UICONTROL Sélectionner la décision d’offres]** :
 
    1. Dans la fenêtre qui s&#39;affiche, sélectionnez l&#39;emplacement correspondant aux offres que vous souhaitez afficher.
 
@@ -79,13 +79,13 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 >
 >Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages. Découvrez comment [créer un profil de test](../segment/creating-test-profiles.md).
 
-1. Sélectionnez les profils de test à utiliser pour prévisualiser l&#39;offre :
+1. Sélectionnez les profils de test à utiliser pour prévisualiser l’offre :
 
-   1. Cliquez sur le bouton **[!UICONTROL Bouton Simuler le contenu]** puis choisissez l’espace de noms à utiliser pour identifier les profils de test à partir de la variable **[!UICONTROL Espace de noms d’identité]** champ .
+   1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]**, puis choisissez l’espace de noms à utiliser pour identifier les profils de test à partir du champ **[!UICONTROL Espace de noms d’identité]**.
 
       >[!NOTE]
       >
-      >Dans cet exemple, nous utilisons le **Email** espace de noms. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](../segment/get-started-identity.md).
+      >Dans cet exemple, nous utiliserons l’espace de noms **E-mail**. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../segment/get-started-identity.md).
 
    1. Dans le champ **[!UICONTROL Valeur d&#39;identité]**, saisissez la valeur pour identifier le profil de test. Dans cet exemple, saisissez l&#39;adresse e-mail d&#39;un profil de test.
 
@@ -96,13 +96,13 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
       ![](assets/deliver-offer-test-profiles.png)
 
 
-1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour tester votre message, puis sélectionnez un profil de test. L&#39;offre correspondant au profil sélectionné (une femme) s&#39;affiche.
+1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour tester votre message, puis sélectionnez un profil de test. L’offre correspondant au profil sélectionné (une femme) s’affiche.
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-   Vous pouvez sélectionner d&#39;autres profils de test pour prévisualiser le contenu de l&#39;email pour chaque variante de votre message. Dans le contenu du message, l&#39;offre correspondant au profil de test sélectionné (désormais un homme) s&#39;affiche maintenant.
+   Vous pouvez sélectionner d’autres profils de test pour prévisualiser le contenu des e-mails pour chaque variante de votre message. Dans le contenu du message, l’offre correspondant au profil de test sélectionné (désormais un homme) s’affiche maintenant.
 
-En savoir plus sur les étapes détaillées pour vérifier l’aperçu du message dans [cette section](#preview-your-messages).
+Pour en savoir plus sur les étapes détaillées permettant de vérifier l’aperçu du message, consultez [cette section](#preview-your-messages).
 
 ## Vidéo pratique{#video-offers}
 

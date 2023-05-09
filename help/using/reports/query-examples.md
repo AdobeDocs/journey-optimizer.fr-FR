@@ -11,7 +11,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -104,9 +104,9 @@ AND
 ORDER BY timestamp;
 ```
 
-**Durée écoulée entre deux noeuds**
+**Durée écoulée entre deux nœuds**
 
-Ces requêtes peuvent être utilisées, par exemple, pour estimer le temps passé dans une activité d’attente. Vous pouvez ainsi vous assurer que l’activité d’attente est correctement configurée.
+Ces requêtes peuvent être utilisées notamment pour estimer le temps passé dans une activité d’attente. Vous pouvez ainsi vous assurer que l’activité d’attente est correctement configurée.
 
 _Requête du lac de données_
 
@@ -231,11 +231,11 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**Vérification des détails d’un serviceEvent**
+**Comment vérifier les détails d’un événement serviceEvent**
 
-Le jeu de données des événements d’étape de Parcours contient tous les stepEvents et serviceEvents. stepEvents est utilisé dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) de profils dans un parcours. serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, par exemple la raison de l’abandon d’un événement d’expérience.
+Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. Les événements stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison de l’abandon d’un événement d’expérience.
 
-Voici un exemple de requête pour vérifier le détail d’un serviceEvent :
+Voici un exemple de requête permettant de vérifier le détail d’un événement serviceEvent :
 
 _Requête du lac de données_
 

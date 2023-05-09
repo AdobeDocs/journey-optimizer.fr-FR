@@ -44,7 +44,7 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
    >
    >Cette action ouvre le modèle sélectionné dans le Concepteur d’e-mail. À partir de là, vous pouvez soit terminer la conception de votre e-mail, soit revenir à l’éditeur de code à l’aide de l’option **[!UICONTROL Basculer vers l’éditeur de code]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Prévisualisation]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test. [En savoir plus](preview.md)
+1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test. [En savoir plus](preview.md)
 
    ![](assets/code-editor-preview.png)
 

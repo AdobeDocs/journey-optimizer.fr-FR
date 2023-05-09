@@ -20,15 +20,15 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 >[!NOTE]
 >
->Si votre organisation débute avec [!DNL Adobe Journey Optimizer] et ne dispose pas encore de jeux de données ou de stratégies de fusion principaux, le tableau de bord **Profils** n’est pas visible. À la place, l’onglet **Aperçu** affiche des liens vers la documentation d’Adobe Experience Platform pour vous aider à prendre en main le profil client en temps réel.
+>Si votre organisation débute avec [!DNL Adobe Journey Optimizer] et ne dispose pas encore de jeux de données ou de politiques de fusion principaux, le tableau de bord **Profils** n’est pas visible. À la place, l’onglet **Aperçu** affiche des liens vers la documentation d’Adobe Experience Platform pour vous aider à prendre en main le profil client en temps réel.
 
 ![](assets/profiles-home.png)
 
 Pour savoir comment accéder au **tableau de bord du profil** et l’utiliser, ainsi que pour obtenir des informations détaillées sur les mesures affichées dans le tableau de bord, consultez [cette section](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr){target="_blank"}.
 
-Vous pouvez rassembler des données issues de plusieurs sources et les combiner pour obtenir une vue complète de chacun de vos clients. Lors de la combinaison de ces données, les stratégies de fusion sont les règles utilisées pour déterminer quelle est la priorité des données et quelles données seront combinées pour créer cette vue unifiée.
+Vous pouvez rassembler des données issues de plusieurs sources et les combiner pour obtenir une vue complète de chacun de vos clients. Lors de la combinaison de ces données, les politiques de fusion sont les règles utilisées pour déterminer quelle est la priorité des données et quelles données seront combinées pour créer cette vue unifiée.
 
-Apprenez-en davantage sur les **stratégies de fusion** dans cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
+Apprenez-en davantage sur les **politiques de fusion** dans cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
 **Voir également**
 

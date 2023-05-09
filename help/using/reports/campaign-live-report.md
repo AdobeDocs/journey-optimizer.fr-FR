@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -167,9 +167,9 @@ Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL 
 
 ## Onglet Web {#web-tab}
 
-Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Web]** Cet onglet présente les informations principales relatives à vos pages Web.
+Depuis votre **[!UICONTROL rapport global]** de campagne, l’onglet **[!UICONTROL Web]** présente les informations principales relatives à vos pages web.
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Web.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport web.
 
 Les KPI de **[!UICONTROL Performances web]** détaillent les informations principales relatives à l’engagement de vos visiteurs avec vos expériences web, telles que :
 
@@ -177,11 +177,11 @@ Les KPI de **[!UICONTROL Performances web]** détaillent les informations princi
 
 * **[!UICONTROL Impressions]** : nombre total d’expériences web diffusées à tous les utilisateurs.
 
-* **[!UICONTROL Clics]**: nombre total de visites d’URL.
+* **[!UICONTROL Clics]** : nombre total de visites d’URL.
 
-Le **[!UICONTROL Résumé web]** Le graphique montre l&#39;évolution de vos expériences web (impressions, impressions uniques et clics) pendant la période concernée.
+Le graphique **[!UICONTROL Résumé web]** présente l’évolution de vos expériences web (impressions, impressions uniques et clics) pour la période concernée.
 
-Le **[!UICONTROL Clics par élément]** le tableau présente les informations principales relatives à l’engagement des visiteurs avec les différents éléments de vos pages web.
+Le tableau **[!UICONTROL Clics par élément]** présente les informations principales relatives à l’engagement des visiteurs et visiteuses avec les différents éléments de vos pages web.
 +++
 
 ## Ressources supplémentaires

@@ -36,13 +36,13 @@ Dans cet exemple, nous allons ajouter un libellé au champ de schéma **National
 
 1. Utilisez le **[!UICONTROL Champ de schéma]** dans Adobe Journey Optimizer.
 
-Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Stratégies]** et **[!UICONTROL Produits]** sont également accessibles avec l’API de contrôle d’accès basé sur les attributs. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=fr).
+Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Politiques]** et **[!UICONTROL Produits]** sont également accessibles avec l’API de contrôle d’accès basé sur les attributs. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=fr).
 
 ## Création d’un rôle et attribution de libellés {#assign-role}
 
 >[!IMPORTANT]
 >
->Avant de gérer les autorisations d’un rôle, vous devez créer une stratégie. Pour plus d’informations à ce sujet, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr).
+>Avant de gérer les autorisations d’un rôle, vous devez créer une politique. Pour plus d’informations à ce sujet, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr).
 
 Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services d&#39;Adobe contenus dans le produit.
 Vous pouvez également créer vos propres **[!UICONTROL Rôles]** si vous souhaitez affiner l’accès de vos utilisateurs et utilisatrices à certaines fonctionnalités ou objets de l’interface.

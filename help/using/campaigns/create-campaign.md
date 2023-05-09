@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 ## Définir les propriétés de la campagne {#create}
 
-1. Dans le **[!UICONTROL Propriétés]** , indiquez un nom et une description pour la campagne.
+1. Dans la section **[!UICONTROL Propriétés]**, indiquez un nom et une description pour la campagne.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
@@ -119,7 +119,7 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 
 ## Définissez l’audience {#audience}
 
-Cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour afficher la liste des segments Adobe Experience Platform disponibles. [En savoir plus sur les segments](../segment/about-segments.md)
+Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des segments d’Adobe Experience Platform disponibles. [En savoir plus sur les segments](../segment/about-segments.md)
 
 >[!NOTE]
 >

@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -230,23 +230,23 @@ Vous pouvez ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton
 
 Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]**.
 
-Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels disponibles et/ou modifier directement le texte.
+Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
 
 ![](assets/preset-url-tracking-editor.png)
 
-Les valeurs prédéfinies suivantes sont disponibles via l’éditeur d’expression :
+Les valeurs prédéfinies suivantes sont disponibles via l’éditeur d’expression :
 
-* **ID d’action source**: Identifiant de l’action Courrier électronique ajoutée au parcours ou à la campagne.
+* **ID d’action source** : ID de l’action e-mail ajoutée au parcours ou à la campagne.
 
-* **Nom de l’action source**: nom de l’action Courrier électronique ajoutée au parcours ou à la campagne.
+* **Nom de l’action source** : nom de l’action e-mail ajoutée au parcours ou à la campagne.
 
-* **ID source**: Identifiant du parcours ou de la campagne avec lequel l’email a été envoyé.
+* **ID source** : ID du parcours ou de la campagne avec lequel l’e-mail a été envoyé.
 
-* **Nom de la source**: nom du parcours ou de la campagne avec lequel l’email a été envoyé.
+* **Nom de la source** : nom du parcours ou de la campagne avec lequel l’e-mail a été envoyé.
 
-* **Identifiant de version source**: Identifiant du parcours ou de la version de campagne avec lequel l’email a été envoyé.
+* **ID de la version source** : ID du parcours ou de la version de campagne avec lequel l’e-mail a été envoyé.
 
-* **Identifiant de l’offre**: Identifiant de l&#39;offre utilisée dans l&#39;email.
+* **ID de l’offre** : ID de l’offre utilisée dans l’e-mail.
 
 >[!NOTE]
 >

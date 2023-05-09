@@ -46,7 +46,7 @@ Dans Adobe Journey Optimizer, OLAC vous permet de protéger les données et d�
 >
 >Pour pouvoir créer des étiquettes, vous devez faire partie d’un rôle avec l’autorisation **[!UICONTROL Gestion des étiquettes d’utilisation]**.
 
-Les **[!UICONTROL étiquettes]** vous permettent de classer les jeux de données et les champs en fonction des stratégies d’utilisation qui s’appliquent à ces données. Vous pouvez appliquer des **[!UICONTROL étiquettes]** à tout moment, ce qui vous offre une certaine flexibilité quant à la manière dont vous choisissez de gérer les données.
+Les **[!UICONTROL étiquettes]** vous permettent de classer les jeux de données et les champs en fonction des politiques d’utilisation qui s’appliquent à ces données. Vous pouvez appliquer des **[!UICONTROL étiquettes]** à tout moment, ce qui vous offre une certaine flexibilité quant à la manière dont vous choisissez de gérer les données.
 
 Vous pouvez créer des étiquettes dans le produit [!DNL Permissions]. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=fr).
 

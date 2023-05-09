@@ -54,6 +54,6 @@ Les fonctionnalités répertoriées ci-dessous ne sont disponibles qu’avec l�
 * **Événements d’expérience** : permet de tirer parti des événements d’expérience pour créer vos règles de prise de décision.
 * **Contenu et caractéristiques de l’offre** : vous pouvez choisir de ne pas renvoyer le contenu et les caractéristiques d’une offre à l’aide d’une option dédiée.
 * **Métadonnées de l’offre** : permet d’activer une option pour renvoyer les métadonnées d’une offre.
-* **Stratégie de fusion** : permet d’utiliser dans votre demande une stratégie de fusion différente de celle associée à votre sandbox.
+* **Politique de fusion** : permet d’utiliser dans votre demande une politique de fusion différente de celle associée à votre sandbox.
 * **Événements de prise de décision et capping de la fréquence** : permet de bloquer les événements de prise de décision pour qu’ils ne soient pas comptabilisés par toute limitation de fréquence qui se produit.
 * **Propositions en double** : permet d’activer une option pour ne pas dédupliquer les propositions.

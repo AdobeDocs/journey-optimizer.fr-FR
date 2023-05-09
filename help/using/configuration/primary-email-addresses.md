@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Modifier les adresses d'exécution
+title: Modifier les adresses d’exécution
 description: Découvrez comment déterminer l’adresse e-mail à utiliser à partir du service de profil.
 feature: Application Settings
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Modifier les adresses d&#39;exécution {#change-primary-email}
+# Modifier les adresses d’exécution {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -30,21 +30,21 @@ ht-degree: 46%
 
 Lorsque vous ciblez un profil, plusieurs adresses e-mail ou numéros de téléphone peuvent être disponibles dans la base de données (adresse e-mail professionnelle, numéro de téléphone personnel, etc.).
 
-Dans ce cas, [!DNL Journey Optimizer] uses **[!UICONTROL Champs d&#39;exécution]** pour déterminer l’adresse électronique ou le numéro de téléphone à utiliser en priorité à partir du service de profil.
+Dans ce cas, [!DNL Journey Optimizer] utilise des **[!UICONTROL champs d’exécution]** pour déterminer l’adresse e-mail ou le numéro de téléphone à utiliser en priorité à partir du service de profil.
 
-Pour vérifier les champs actuellement utilisés par défaut, accédez à la **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Général]** > **[!UICONTROL Champs d’exécution]** .
+Pour vérifier les champs actuellement utilisés par défaut, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Général]** > **[!UICONTROL Champs d’exécution]**.
 
 ![](assets/primary-address-execution-fields.png)
 
-Les valeurs actuelles sont utilisées pour toutes les diffusions au niveau de l’environnement de test. Vous pouvez mettre à jour ces champs si nécessaire.
+Les valeurs actuelles sont utilisées pour toutes les diffusions au niveau de la sandbox. Vous pouvez mettre à jour ces champs si nécessaire.
 
-Dans la plupart des cas, vous modifiez globalement un champ d’exécution et définissez une valeur qui doit être utilisée pour tous les emails ou SMS. <!--[Learn how](#admin-settings)-->
+Dans la plupart des cas, vous modifiez globalement un champ d’exécution et définissez une valeur qui doit être utilisée pour tous les e-mails ou SMS. <!--[Learn how](#admin-settings)-->
 
 <!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
 
-## Mise à jour des paramètres d’administration {#admin-settings}
+## Mettre à jour les paramètres d’administration {#admin-settings}
 
-Pour modifier globalement les champs d’exécution au niveau de l’environnement de test, procédez comme suit.
+Pour modifier globalement les champs d’exécution au niveau de la sandbox, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Général]** > **[!UICONTROL Champs d’exécution]**.
 
@@ -68,19 +68,19 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 
 ## Remplacer une valeur dans les paramètres de parcours {#journey-parameters}
 
-Pour des cas d’utilisation spécifiques uniquement, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau du parcours, en particulier pour le canal email.
+Pour des cas d’utilisation spécifiques uniquement, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau du parcours, en particulier pour le canal e-mail.
 
-Lors de l’ajout d’une **[!UICONTROL Email]** à une action [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse email Principale s’affiche sous les paramètres avancés du parcours.
+Lors de l’ajout d’une action **[!UICONTROL E-mail]** à un [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
 
-Dans certains contextes spécifiques, vous pouvez remplacer cette valeur à l’aide de la variable **[!UICONTROL Activer le remplacement de paramètre]** à droite de l’icône **[!UICONTROL address]** champ .
+Dans certains contextes spécifiques, vous pouvez remplacer cette valeur en cliquant sur l’icône **[!UICONTROL Activer le remplacement du paramètre]** à droite du champ **[!UICONTROL Adresse]**.
 
 ![](assets/journey-enable-parameter-override.png)
 
 >[!CAUTION]
 >
->Le remplacement de l’adresse e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse e-mail, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d&#39;exécution]** est celle qui doit être utilisée.
+>Le remplacement de l’adresse e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse e-mail, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d’exécution]** est celle qui doit être utilisée.
 
-Le remplacement de cette valeur peut s’avérer utile, par exemple pour :
+Par exemple, cette valeur peut être utile pour effectuer les actions suivantes :
 
-* Test d’un e-mail. Vous pouvez ajouter votre propre adresse électronique : une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
-* Envoyez un email aux abonnés d&#39;une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
+* Tesert un e-mail. Vous pouvez ajouter votre adresse e-mail : une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
+* Envoyer un message aux personnes abonnées à une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).

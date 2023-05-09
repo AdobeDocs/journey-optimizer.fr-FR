@@ -28,7 +28,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Adobe Journey Optimizer prend désormais en charge les enregistrements CNAME. Un CNAME, ou enregistrement de nom canonique, est un enregistrement qui pointe vers une autre adresse de domaine plutôt que vers une adresse IP. La délégation de sous-domaines CNAME permet de créer un sous-domaine et d’utiliser des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS afin de configurer un environnement pour l’envoi, le rendu et le suivi des e-mails.</p>
-<p>Cette méthode est recommandée si les stratégies de votre organisation interdisent la méthode de délégation de sous-domaine complète.</p>
+<p>Cette méthode est recommandée si les politiques de votre organisation interdisent la méthode de délégation de sous-domaine complète.</p>
 <p>En savoir plus sur la délégation de sous-domaines CNAME dans la <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">documentation détaillée</a>.</p>
 </td>
 </tr>

@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Ajoutez une action **[!UICONTROL E-mail]** à un parcours ou à une campagne, et
 
    ![](assets/email_journey.png)
 
-   Par défaut, le champ est prérempli avec la dernière surface utilisée par l’utilisateur pour ce canal.
+   Par défaut, le champ est prérempli avec la dernière surface utilisée par l’utilisateur ou l’utilisatrice pour ce canal.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Si vous êtes dans une campagne, vous pouvez également cliquer sur le bouton **[!UICONTROL Éditeur de code]** pour coder votre propre contenu en HTML brut à l’aide de la fenêtre contextuelle qui s’affiche.
+1. Si vous êtes dans une campagne, vous pouvez également cliquer sur le bouton **[!UICONTROL Éditeur de code]** pour coder votre propre contenu en HTML brut à l’aide de la fenêtre pop-up qui s’affiche.
 
    ![](assets/email_designer_edit_code_editor.png)
 

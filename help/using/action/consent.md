@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser les politiques de consentement
-description: Découvrez comment utiliser les stratégies de consentement d’Adobe Experience Platform.
+description: Découvrez comment utiliser les politiques de consentement d’Adobe Experience Platform.
 feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
-keywords: stratégies, gouvernance, platform, healthcare shield, consentement
+keywords: politiques, gouvernance, platform, healthcare shield, consentement
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
 workflow-type: tm+mt
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 # Utiliser les politiques de consentement {#consent-management}
 
-Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des stratégies marketing afin de respecter les préférences de consentement de vos clients. Les stratégies de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
+Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des politiques marketing afin de respecter les préférences de consentement de vos clients. Les politiques de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
 
-Dans Journey Optimizer, vous pouvez appliquer ces politiques de consentement à vos actions personnalisées. Par exemple, vous pouvez définir des stratégies de consentement pour exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS.
+Dans Journey Optimizer, vous pouvez appliquer ces politiques de consentement à vos actions personnalisées. Par exemple, vous pouvez définir des politiques de consentement pour exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS.
 
 >[!NOTE]
 >
->Les stratégies de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield.
+>Les politiques de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield.
 
 Dans Journey Optimizer, le consentement est défini à plusieurs niveaux :
 
@@ -40,13 +40,13 @@ Avec la gestion du consentement, deux activités de parcours sont analysées :
 * Lecture de segment : le segment récupéré est pris en compte.
 * Action personnalisée : la gestion du consentement prend en compte les attributs utilisés ([paramètres d’action](../action/about-custom-action-configuration.md#define-the-message-parameters)) ainsi que la ou les actions marketing définies (action marketing requise et action marketing supplémentaire).
 * Les attributs qui font partie d’un groupe de champs utilisant le schéma d’union prêt à l’emploi ne sont pas pris en charge. Ces attributs seront masqués dans l’interface. Vous devez créer un autre groupe de champs utilisant un autre schéma.
-* Les stratégies de consentement s’appliquent uniquement lorsqu’une action marketing (requise ou supplémentaire) est définie au niveau de l’action personnalisée.
+* Les politiques de consentement s’appliquent uniquement lorsqu’une action marketing (requise ou supplémentaire) est définie au niveau de l’action personnalisée.
 
 Toutes les autres activités utilisées dans un parcours ne sont pas prises en compte. Si vous commencez votre parcours avec une qualification de segment, le segment n’est pas pris en compte.
 
-Dans un parcours, si un profil est exclu par une stratégie de consentement dans une action personnalisée, le message ne lui est pas envoyé, mais il continue le parcours. Le profil n’atteint pas le chemin de délai d’expiration et erreur lors de l’utilisation d’une condition.
+Dans un parcours, si un profil est exclu par une politique de consentement dans une action personnalisée, le message ne lui est pas envoyé, mais il continue le parcours. Le profil n’atteint pas le chemin de délai d’expiration et erreur lors de l’utilisation d’une condition.
 
-Avant d’actualiser les stratégies dans une action personnalisée placée dans un parcours, assurez-vous que votre parcours ne comporte aucune erreur.
+Avant d’actualiser les politiques dans une action personnalisée placée dans un parcours, assurez-vous que votre parcours ne comporte aucune erreur.
 
 <!--
 There are two types of latency regarding the use of consent policies:
@@ -60,7 +60,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="Définition d’une action marketing requise"
->abstract="L’action marketing requise vous permet de définir l’action marketing associée à votre action personnalisée. Par exemple, si vous utilisez cette action personnalisée pour envoyer des e-mails, vous pouvez sélectionner Ciblage des e-mails. Lorsqu’elles sont utilisées dans un parcours, toutes les stratégies de consentement associées à cette action marketing sont récupérées et exploitées. Elle ne peut pas être modifiée dans la zone de travail."
+>abstract="L’action marketing requise vous permet de définir l’action marketing associée à votre action personnalisée. Par exemple, si vous utilisez cette action personnalisée pour envoyer des e-mails, vous pouvez sélectionner Ciblage des e-mails. Lorsqu’elles sont utilisées dans un parcours, toutes les politiques de consentement associées à cette action marketing sont récupérées et exploitées. Elle ne peut pas être modifiée dans la zone de travail."
 
 Lors de la configuration d’une action personnalisée, deux champs peuvent être utilisés pour la gestion du consentement.
 
@@ -68,11 +68,11 @@ Le **Canal** vous permet de sélectionner le canal associé à cette action pers
 
 ![](assets/consent1.png)
 
-L’**Action marketing requise** vous permet de définir l’action marketing associée à votre action personnalisée. Par exemple, si vous utilisez cette action personnalisée pour envoyer des e-mails, vous pouvez sélectionner **Ciblage des e-mails**. Lorsqu’elles sont utilisées dans un parcours, toutes les stratégies de consentement associées à cette action marketing sont récupérées et exploitées. Une action marketing par défaut est sélectionnée, mais vous pouvez cliquer sur la flèche vers le bas pour sélectionner n’importe quelle action marketing disponible dans la liste.
+L’**Action marketing requise** vous permet de définir l’action marketing associée à votre action personnalisée. Par exemple, si vous utilisez cette action personnalisée pour envoyer des e-mails, vous pouvez sélectionner **Ciblage des e-mails**. Lorsqu’elles sont utilisées dans un parcours, toutes les politiques de consentement associées à cette action marketing sont récupérées et exploitées. Une action marketing par défaut est sélectionnée, mais vous pouvez cliquer sur la flèche vers le bas pour sélectionner n’importe quelle action marketing disponible dans la liste.
 
 ![](assets/consent2.png)
 
-Pour certains types de communications importantes, par exemple un message transactionnel envoyé pour réinitialiser le mot de passe du client, vous pouvez ne pas appliquer de stratégie de consentement. Vous pouvez ensuite sélectionner **Aucune** dans le champ **Action marketing requise**.
+Pour certains types de communications importantes, par exemple un message transactionnel envoyé pour réinitialiser le mot de passe du client, vous pouvez ne pas appliquer de politique de consentement. Vous pouvez ensuite sélectionner **Aucune** dans le champ **Action marketing requise**.
 
 Les autres étapes de configuration d’une action personnalisée sont présentées dans [cette section](../action/about-custom-action-configuration.md#consent-management).
 
@@ -86,12 +86,12 @@ Les autres étapes de configuration d’une action personnalisée sont présent�
 >[!CONTEXTUALHELP]
 >id="ajo_consent_additional_marketing_action_canvas"
 >title="Action marketing supplémentaire"
->abstract="Ajoutez une autre action marketing en plus de celle requise. Les stratégies de consentement liées aux deux actions marketing seront appliquées."
+>abstract="Ajoutez une autre action marketing en plus de celle requise. Les politiques de consentement liées aux deux actions marketing seront appliquées."
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_refresh_policies_canvas"
->title="Visualiser les stratégies de consentement qui s’appliqueront au moment de l’exécution"
->abstract="Les actions marketing apportent des stratégies de consentement qui combinent des paramètres d’action et des valeurs de consentement de profil individuel pour filtrer les utilisateurs. Obtenez la dernière définition de ces stratégies en cliquant sur le bouton pour l’actualiser."
+>title="Visualiser les politiques de consentement qui s’appliqueront au moment de l’exécution"
+>abstract="Les actions marketing apportent des politiques de consentement qui combinent des paramètres d’action et des valeurs de consentement de profil individuel pour filtrer les utilisateurs. Obtenez la dernière définition de ces politiques en cliquant sur le bouton pour l’actualiser."
 
 Lors de l’ajout de l’action personnalisée dans un parcours, plusieurs options vous permettent de gérer le consentement. Cliquez sur le bouton **Afficher les champs en lecture seule** pour afficher tous les paramètres.
 
@@ -103,7 +103,7 @@ Vous pouvez définir une **Action marketing supplémentaire** pour définir le t
 
 ![](assets/consent3.png)
 
-Cliquez sur le bouton **Actualiser les stratégies**, en bas de l’écran, pour mettre à jour et vérifier la liste des stratégies prises en compte pour cette action personnalisée. Elle est fournie à titre d’information uniquement, lors de la création d’un parcours. Avec les parcours en direct, les stratégies de consentement sont récupérées et mises à jour automatiquement toutes les 6 heures.
+Cliquez sur le bouton **Actualiser les politiques**, en bas de l’écran, pour mettre à jour et vérifier la liste des politiques prises en compte pour cette action personnalisée. Elle est fournie à titre d’information uniquement, lors de la création d’un parcours. Avec les parcours en direct, les politiques de consentement sont récupérées et mises à jour automatiquement toutes les 6 heures.
 
 ![](assets/consent5.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Utilisation des événements de gestion des décisions
-description: Découvrez comment créer des rapports de gestion de décision dans Adobe Experience Platform.
+title: Utiliser les événements de gestion des décisions
+description: Découvrez comment créer des rapports de gestion des décisions dans Adobe Experience Platform.
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 79%
 
 Chaque fois que la gestion des décisions prend une décision pour un profil donné, les informations relatives à ces événements sont automatiquement envoyées à Adobe Experience Platform.
 
-Cela vous permet d’obtenir des informations sur vos décisions, par exemple, pour savoir quelle offre a été présentée à un profil donné. Vous pouvez exporter ces données pour les analyser dans votre propre système de création de rapports ou utiliser Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr) en combinaison avec d’autres outils à des fins d’analyse et de création de rapports améliorées.
+Cela vous permet d’obtenir des informations sur vos décisions, notamment pour savoir quelle offre a été présentée à un profil donné. Vous pouvez exporter ces données pour les analyser dans votre propre système de rapports ou utiliser le [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr) d’Adobe Experience Platform en association avec d’autres outils à des fins d’analyse et de création de rapports améliorées.
 
 ## Informations clés disponibles dans les jeux de données {#key-information}
 
-Chaque événement envoyé lorsqu&#39;une décision est prise contient quatre points de données clés que vous pouvez exploiter à des fins d&#39;analyse et de création de rapports:
+Chaque événement envoyé lorsqu’une décision est prise contient quatre points de données clés que vous pouvez exploiter à des fins d’analyse et de création de rapports :
 
 ![](../assets/events-dataset-preview.png)
 
@@ -34,7 +34,7 @@ En outre, vous pouvez également utiliser les champs **[!UICONTROL identityMap]*
 
 Pour plus d&#39;informations sur tous les champs XDM envoyés avec chaque décision, consultez [cette section](xdm-fields.md).
 
-## Accès aux jeux de données {#access-datasets}
+## Accéder aux jeux de données {#access-datasets}
 
 Les jeux de données contenant des événements de gestion des décisions sont accessibles à partir du menu **[!UICONTROL Jeux de données]** d’Adobe Experience Platform. Un jeu de données est automatiquement créé lors de l&#39;approvisionnement de chacune de vos instances.
 
@@ -44,4 +44,4 @@ Ces jeux de données sont basés sur le schéma **[!UICONTROL ODE DecisionEvents
 
 >[!NOTE]
 >
->Notez que les jeux de données ODE DecisionEvents sont **des jeux de données ne concernant pas les profils**, ce qui signifie qu’ils ne peuvent pas être ingérés dans Experience Platform pour être utilisés par le profil client en temps réel.
+>Notez que les jeux de données ODE DecisionEvents sont **des jeux de données ne concernant pas les profils**, ce qui signifie qu’ils ne peuvent pas être ingérés dans Experience Platform pour être utilisés par le profil client en temps réel.

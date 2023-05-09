@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 
 >[!NOTE]
 >
->Les barrières de sécurité et limitations des parcours sont détaillées dans la section [cette page](../start/guardrails.md)
+>Les mécanismes de sécurisation et limitations des parcours sont détaillés sur [cette page](../start/guardrails.md).
 
 ## Procédure de création d’un parcours{#steps-journey}
 

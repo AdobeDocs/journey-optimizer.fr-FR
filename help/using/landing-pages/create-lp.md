@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -224,7 +224,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
    Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont présentées dans [cette section](../email/preview.md#select-test-profiles).
 
-1. Sélectionner **[!UICONTROL Ouvrir l’aperçu]** pour tester votre landing page.
+1. Sélectionnez **[!UICONTROL Ouvrir l’aperçu]** pour tester votre page de destination.
 
    ![](assets/lp_open-preview.png)
 

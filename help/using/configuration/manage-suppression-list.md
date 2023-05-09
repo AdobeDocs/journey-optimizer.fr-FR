@@ -28,7 +28,7 @@ Pour en savoir plus sur le concept et l’utilisation de la liste de suppression
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-## Accès à la liste de suppression {#access-suppression-list}
+## Accéder à la liste de suppression {#access-suppression-list}
 
 Pour accéder à la liste détaillée des adresses e-mail et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
 

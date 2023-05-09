@@ -21,7 +21,7 @@ ht-degree: 100%
 >Les fonctionnalités d’hygiène des données ne sont actuellement disponibles que pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield**.
 
 
-Comme les données sont ingérées en permanence dans Adobe Experience Platform, il devient essentiel de s’assurer que vos données sont utilisées comme prévu, mises à jour si nécessaire et supprimées selon les stratégies de l’entreprise.
+Comme les données sont ingérées en permanence dans Adobe Experience Platform, il devient essentiel de s’assurer que vos données sont utilisées comme prévu, mises à jour si nécessaire et supprimées selon les politiques de l’entreprise.
 
 Ces tâches peuvent être effectuées à l’aide du menu **[!UICONTROL Hygiène des données]** qui vous permet de configurer et de planifier les opérations d’hygiène des données, en veillant à ce que vos enregistrements soient correctement conservés.
 

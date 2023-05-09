@@ -358,7 +358,7 @@ ht-degree: 100%
       + [Créer un jeu de données pour collecter des événements](using/offers/data-collection/create-dataset.md)
       + [Configurer la capture d’événements](using/offers/data-collection/schema-requirement.md)
    + Créer des rapports de gestion des décisions {#create-reports}
-      + [Utiliser des événements de gestion des décisions](using/offers/reports/get-started-events.md)
+      + [Utiliser les événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
    + Export de votre catalogue d’offres {#export-catalog}
       + [Commencer à exporter des catalogues d’offres ](using/offers/export-catalog/get-started-export.md)

@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Pour collecter des événements d’expérience, vous devez d’abord créer un 
 
 Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
-1. Dans la **[!UICONTROL Data Management]** menu, sélectionnez **[!UICONTROL Schéma]** et accédez au **[!UICONTROL Parcourir]** .
+1. Dans le menu **[!UICONTROL Gestion des données]**, sélectionnez **[!UICONTROL Schéma]** et accédez à l’onglet **[!UICONTROL Parcourir]**.
 
-1. Cliquez sur **[!UICONTROL Créer un schéma]** et choisissez **[!UICONTROL XDM ExperienceEvent]**.
+1. Cliquez sur **[!UICONTROL Créer un schéma]**, puis sélectionnez **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -34,9 +34,9 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. Dans le **[!UICONTROL Rechercher]** champ, saisissez &quot;interaction de proposition&quot;.
+1. Dans le champ **[!UICONTROL Rechercher]**, saisissez « interaction de proposition ».
 
-1. Sélectionnez la **[!UICONTROL Événement d’expérience - Interactions de propositions]** groupe de champs et cliquez sur **[!UICONTROL Ajouter des groupes de champs]**.
+1. Sélectionnez le groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]** et cliquez sur **[!UICONTROL Ajouter des groupes de champs]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
@@ -52,9 +52,9 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
 Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce schéma. Pour ce faire, procédez comme suit :
 
-1. Dans la **[!UICONTROL Data Management]** menu, sélectionnez **[!UICONTROL Jeux de données]** et accédez au **[!UICONTROL Parcourir]** .
+1. Dans le menu **[!UICONTROL Gestion des données]**, sélectionnez **[!UICONTROL Jeux de données]** et accédez à l’onglet **[!UICONTROL Parcourir]**.
 
-1. Cliquez sur **[!UICONTROL Création d’un jeu de données]** et sélectionnez **[!UICONTROL Création d’un jeu de données à partir d’un schéma]**.
+1. Cliquez sur **[!UICONTROL Créer un jeu de données]** et sélectionnez **[!UICONTROL Créer un jeu de données à partir d’un schéma]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 

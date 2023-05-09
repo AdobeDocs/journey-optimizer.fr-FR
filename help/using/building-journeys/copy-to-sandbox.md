@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Détails des sandbox"
->abstract="Sélectionnez le sandbox de destination dans lequel vous souhaitez copier le parcours. Seuls les sandbox de votre organisation sont disponibles."
+>abstract="Sélectionnez le sandbox de destination dans lequel vous souhaitez copier le parcours. Seules les sandbox de votre organisation sont disponibles."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Pour copier un parcours dans un autre sandbox, procédez comme suit :
 
    ![](assets/copy-sandbox2.png)
 
-3. Sélectionnez le **sandbox cible** dans le champ déroulant. Seuls les sandbox de votre organisation sont disponibles.
+3. Sélectionnez le **sandbox cible** dans le champ déroulant. Seules les sandbox de votre organisation sont disponibles.
 
 4. Consultez la section **Objets dépendants**. Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne.
 
@@ -106,6 +106,6 @@ Les objets suivants sont copiés :
 
 Les surfaces (c’est-à-dire les préréglages) ne sont pas copiées. Le système sélectionne automatiquement la correspondance la plus proche possible sur le sandbox de destination, en fonction du type de message et du nom de la surface. Si aucune surface n’est trouvée sur le sandbox cible, le processus de copie de la surface échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’une surface soit disponible pour la configuration. Dans ce cas, au moins une surface doit être créée, pour le bon canal du message, afin que la copie fonctionne.
 
-Pour les schémas, les stratégies de fusion et les segments, la deuxième fois que ces objets tenteront d’être copiés, ils seront seulement référencés. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
+Pour les schémas, les politiques de fusion et les segments, la deuxième fois que ces objets tenteront d’être copiés, ils seront seulement référencés. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
 
-Un délai de cinq minutes est nécessaire pour qu’Adobe Journey Optimizer puisse référencer les schémas, les stratégies de fusion et les segments sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.
+Un délai de cinq minutes est nécessaire pour qu’Adobe Journey Optimizer puisse référencer les schémas, les politiques de fusion et les segments sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.

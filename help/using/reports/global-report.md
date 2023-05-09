@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Chaque tableau de bord de reporting peut être modifié en modifiant la période
 
 Votre tableau de bord est maintenant enregistré. Vos différentes modifications seront réappliquées pour une utilisation ultérieure de vos rapports dynamiques. Si nécessaire, utilisez l’option **[!UICONTROL Réinitialiser]** pour restaurer les widgets par défaut et leur ordre.
 
-## Exportation des rapports {#export-reports}
+## Exporter vos rapports {#export-reports}
 
 Vous pouvez facilement exporter vos différents rapports au format PDF, ce qui vous permet de les partager ou de les imprimer.
 
@@ -81,9 +81,9 @@ Vous pouvez facilement exporter vos différents rapports au format PDF, ce qui v
 
 1. Dans la fenêtre Imprimer, configurez votre document selon vos besoins. Notez que les options peuvent varier en fonction de votre navigateur.
 
-1. Choisissez d&#39;imprimer ou d&#39;enregistrer votre rapport en tant que PDF.
+1. Choisissez d’imprimer ou d’enregistrer votre rapport en tant que PDF.
 
 1. Localisez le dossier dans lequel vous souhaitez enregistrer votre fichier, renommez-le si nécessaire, puis cliquez sur Enregistrer.
 
-Votre rapport peut maintenant être affiché ou partagé dans un fichier pdf.
+Votre rapport peut maintenant être affiché ou partagé dans un fichier PDF.
 

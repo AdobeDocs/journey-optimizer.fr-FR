@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,10 +38,10 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations su
 
 ## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 
-### Barrières de sécurité générales des parcours {#journeys-guardrails-journeys}
+### Mécanismes de sécurisation généraux des parcours {#journeys-guardrails-journeys}
 
-* Le nombre d’activités d’un parcours est limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche du canevas de parcours.
-* Le nombre de **parcours en direct** dans une organisation est limitée à 100 par environnement de test. Lorsque cette limite est atteinte, vous ne pouvez plus publier de nouveau parcours.
+* Le nombre d’activités d’un parcours est désormais limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours.
+* Le nombre de **parcours actifs** dans une organisation est désormais limité à 100 par sandbox. Lorsque cette limite est atteinte, vous ne pouvez plus publier de nouveau parcours.
 
 ### Actions générales {#general-actions-g}
 
@@ -100,6 +100,6 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 ### Éditeur d’expression {#expression-editor}
 
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une lecture de segment, une qualification de segment ou une activité d’événement métier. Vous devez créer un segment et utiliser une condition d’insertion dans le parcours.
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une lecture de segment, une qualification de segment ou une activité d’événement métier. Vous devez créer un segment et utiliser une condition inSegment dans le parcours.
 
 

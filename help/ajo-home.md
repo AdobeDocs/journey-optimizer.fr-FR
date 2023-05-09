@@ -170,7 +170,7 @@ ht-degree: 100%
     <p>
     <p>CONFIDENTIALITÉ</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr" target="_blank">Stratégies</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr" target="_blank">Politiques</a>
     </li>
     <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr"target="_blank">Demandes</a>

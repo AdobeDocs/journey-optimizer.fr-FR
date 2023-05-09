@@ -9,21 +9,21 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 # Créer des pages web {#author-web}
 
-Une fois que [ajout d’une action web](create-web.md#create-web-campaign) dans votre campagne, vous pouvez modifier le contenu de votre site à l’aide du web designer.
+Après l’[ajout d’une action web](create-web.md#create-web-campaign) dans votre campagne, vous pouvez modifier le contenu de votre site à l’aide du concepteur web.
 
-Dans [!DNL Journey Optimizer], la création web est optimisée par le **Adobe Experience Cloud Visual Helper** extension de navigateur Chrome. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
+Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Visual Helper d’Adobe Experience Cloud**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
 
 >[!CAUTION]
 >
->Pour accéder à des pages web et les créer dans le [!DNL Journey Optimizer] dans l’interface utilisateur, veillez à respecter les conditions préalables répertoriées dans [cette section](web-prerequisites.md).
+>Pour créer des pages web dans l’interface utilisateur de [!DNL Journey Optimizer] et y accéder, suivez les conditions préalables répertoriées dans [cette section](web-prerequisites.md).
 
-[Découvrez comment créer une campagne web dans cette vidéo](#video)
+[Découvrez comment créer une campagne web dans cette vidéo.](#video)
 
 ## Modifier le contenu d’une page web {#edit-web-content}
 
@@ -39,13 +39,13 @@ Dans [!DNL Journey Optimizer], la création web est optimisée par le **Adobe Ex
 >abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en œuvre à l’aide du SDK web Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
-Pour commencer à créer votre campagne web, procédez comme suit.
+Pour commencer à créer votre campagne web, procédez comme suit :
 
-1. Dans la **[!UICONTROL Action]** de l’onglet [campaign](create-web.md#create-web-campaign), sélectionnez **[!UICONTROL Modifier le contenu]**.<!--change screen with rule-->
+1. Dans l’onglet **[!UICONTROL Action]** de la [campagne](create-web.md#create-web-campaign), sélectionnez **[!UICONTROL Modifier le contenu]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 
-1. Si vous avez créé une règle de correspondance de pages, vous devez saisir toute URL correspondant à cette règle : les modifications seront appliquées à toutes les pages correspondant à la règle. Le contenu de la page s’affiche.
+1. Si vous avez créé une règle de correspondance de pages, vous devez saisir toute URL correspondant à cette règle : les modifications seront appliquées à toutes les pages correspondant à la règle. Le contenu de la page s’affiche.
 
    >[!NOTE]
    >
@@ -55,19 +55,19 @@ Pour commencer à créer votre campagne web, procédez comme suit.
 
    >[!CAUTION]
    >
-   >La page web doit inclure le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}. [En savoir plus](web-prerequisites.md#implementation-prerequisites).
+   >La page web doit inclure le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}. [En savoir plus](web-prerequisites.md#implementation-prerequisites).
 
-1. Cliquez sur **[!UICONTROL Modifier la page web]** pour commencer à le créer. Le concepteur web s’affiche.
+1. Cliquez sur **[!UICONTROL Modifier la page web]** pour commencer la création. Le concepteur web s’affiche.
 
    ![](assets/web-designer.png)
 
    >[!NOTE]
    >
-   >Si vous tentez de charger un site web dont le chargement échoue, un message s’affiche vous suggérant d’installer la variable [Extension Visual Editing Helper du navigateur](#install-visual-editing-helper). Consultez quelques conseils pour résoudre les problèmes dans [cette section](web-prerequisites.md#troubleshooting).
+   >Si vous tentez de charger un site web et que le chargement échoue, un message s’affiche pour vous suggérer d’installer l’extension de navigateur [Visual Editing Helper](#install-visual-editing-helper). Consultez quelques conseils dans [cette section](web-prerequisites.md#troubleshooting) pour résoudre les problèmes.
 
 1. Sélectionnez un élément dans la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. [En savoir plus](#content-components).
 
-1. Utilisation:
+1. Utilisation :
 
    * Le menu contextuel permettant de modifier son contenu, sa mise en page, d’insérer des liens ou la personnalisation, etc.
 
@@ -83,16 +83,16 @@ Pour commencer à créer votre campagne web, procédez comme suit.
 
 >[!NOTE]
 >
->Le concepteur de contenu web est essentiellement similaire au concepteur d’email. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Le concepteur de contenu web est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
-## Utilisation des composants {#content-components}
+## Utiliser les composants {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="Ajouter des composants à votre page web"
 >abstract="Vous pouvez ajouter plusieurs composants à votre page web et les modifier selon vos besoins."
 
-1. Dans la **[!UICONTROL Composants]** sélectionnez un élément dans le volet de gauche. Vous pouvez ajouter les composants suivants à votre page web et les modifier selon vos besoins :
+1. Dans le volet **[!UICONTROL Composants]** sur la gauche, sélectionnez un élément. Vous pouvez ajouter les composants suivants à votre page web et les modifier selon vos besoins :
 
    * [Diviseur](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
@@ -110,13 +110,13 @@ Pour commencer à créer votre campagne web, procédez comme suit.
 
    >[!NOTE]
    >
-   >Pour désélectionner un composant, cliquez sur le bouton **[!UICONTROL ESC]** dans la bannière bleue contextuelle affichée au-dessus de la zone de travail.
+   >Pour désélectionner un composant, cliquez sur le bouton **[!UICONTROL Échap]** dans la bannière contextuelle bleue affichée au-dessus de la zone de travail.
 
 1. Modifiez le composant suivant vos besoins directement dans le contenu de votre page.
 
    ![](assets/web-designer-edit-header.png)
 
-1. Ajustez les styles qui s’affichent à partir du volet contextuel de droite, tels que l’arrière-plan, la couleur du texte, la bordure, la taille, la position, etc. - en fonction du composant sélectionné.
+1. Ajustez les styles qui s’affichent à partir du volet contextuel à droite, comme l’arrière-plan, la couleur du texte, la bordure, la taille, la position, etc. en fonction du composant sélectionné.
 
    ![](assets/web-designer-header-style.png)
 
@@ -139,7 +139,7 @@ Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [of
 
 Vous pouvez facilement gérer tous les composants, réglages et styles que vous avez ajoutés à votre page web.
 
-1. Sélectionnez la **[!UICONTROL Modifications]** pour afficher le volet correspondant à gauche.
+1. Sélectionnez l’icône **[!UICONTROL Modifications]** pour afficher le volet correspondant à gauche.
 
    ![](assets/web-designer-modifications-pane.png)
 
@@ -153,11 +153,11 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
    >
    >Procédez avec précaution lors de la suppression d’une action, car elle peut avoir un impact sur les actions suivantes.
 
-1. Utilisez la variable **[!UICONTROL Autres actions]** en haut de la page **[!UICONTROL Modifications]** pour supprimer toutes les modifications à la fois.
+1. Cliquez sur le bouton **[!UICONTROL Plus dʼactions]** en haut du volet **[!UICONTROL Modifications]** pour supprimer toutes les modifications à la fois.
 
    ![](assets/web-designer-delete-modifications.png)
 
-1. Dans la **[!UICONTROL Autres actions]** vous pouvez également supprimer uniquement les modifications non valides, c’est-à-dire les modifications qui ont été remplacées par d’autres modifications. Par exemple, si vous modifiez la couleur d’un texte, puis que vous le supprimez, la modification de couleur devient non valide car le texte n’existe plus.
+1. Dans le menu **[!UICONTROL Plus dʼactions]**, vous pouvez également supprimer uniquement les modifications non valides, c’est-à-dire les modifications qui ont été remplacées par d’autres modifications. Par exemple, si vous modifiez la couleur d’un texte, puis que vous le supprimez, la modification de couleur devient non valide car le texte n’existe plus.
 
 1. Vous pouvez également annuler et rétablir des actions à l’aide du bouton **[!UICONTROL Annuler/rétablir]** en haut à droite de l’écran.
 
@@ -169,7 +169,7 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
 
 Cette fonctionnalité du concepteur web vous permet de sélectionner n’importe quel élément de votre site web et d’effectuer le suivi des clics sur cet élément.
 
-Une fois votre campagne activée, vous pouvez vérifier le nombre de clics sur chaque élément du rapport web de campagne. Ces informations peuvent s’avérer utiles pour améliorer l’expérience des utilisateurs de votre site web. Par exemple, si la variable [rapports web](../reports/campaign-global-report.md#web-tab) Si vous affichez que de nombreux utilisateurs cliquent sur un élément qui n’est pas réellement cliquable, vous pouvez ajouter un lien à cet élément.
+Une fois votre campagne activée, vous pouvez vérifier le nombre de clics sur chaque élément du rapport web de la campagne. Ces informations peuvent se révéler utiles pour améliorer l’expérience des utilisateurs et utilisatrices de votre site web. Par exemple, si les [rapports web](../reports/campaign-global-report.md#web-tab) affichent que de nombreux utilisateurs et utilisatrices cliquent sur un élément qui n’est pas réellement cliquable, vous pouvez ajouter un lien à cet élément.
 
 1. Sélectionnez un élément dans votre page et choisissez **[!UICONTROL Clic sur l’élément de suivi]** dans le menu contextuel.
 
@@ -179,7 +179,7 @@ Une fois votre campagne activée, vous pouvez vérifier le nombre de clics sur c
    >
    >Tout élément, cliquable ou non, peut être sélectionné.
 
-1. L’action suivie correspondante s’affiche automatiquement dans la variable **[!UICONTROL Suivi des clics]** sur la gauche.
+1. L’action suivie correspondante s’affiche automatiquement dans le volet **[!UICONTROL Suivi des clics]** sur la gauche.
 
    ![](assets/web-designer-click-track-pane.png)
 
@@ -191,7 +191,7 @@ Une fois votre campagne activée, vous pouvez vérifier le nombre de clics sur c
 
 1. Pour supprimer le suivi des clics sur un élément, sélectionnez l’icône de suppression correspondante.
 
-Une fois votre campagne principale, vous pouvez vérifier le rapport de campagne. **[!UICONTROL Web]** pour comparer le nombre d’impressions, le taux de clics et le nombre de clics par élément. [En savoir plus](../reports/campaign-global-report.md#web-tab).
+Une fois votre campagne active, vous pouvez cliquer dans l’onglet **[!UICONTROL Web]** du rapport de campagne pour comparer le nombre d’impressions, le taux de clics et le nombre de clics par élément. [En savoir plus](../reports/campaign-global-report.md#web-tab).
 
 ## Naviguer dans le concepteur web {#navigate-web-designer}
 
@@ -224,9 +224,9 @@ Il est particulièrement utile lorsque vous traitez des pages qui se trouvent de
 
 ### Modifier la taille de l’appareil {#change-device-size}
 
-Vous pouvez définir la taille de l’appareil de l’affichage du concepteur web sur une taille prédéfinie, telle que **[!UICONTROL Tablette]** ou **[!UICONTROL Paysage mobile]** ou définissez une taille personnalisée en entrant le nombre de pixels souhaité.
+Vous pouvez définir la taille de l’appareil d’affichage du concepteur web sur une taille prédéfinie, telle que **[!UICONTROL Tablette]** ou **[!UICONTROL Paysage mobile]**, ou encore définir une taille personnalisée en entrant le nombre de pixels souhaité.
 
-Vous pouvez également modifier la mise au point du zoom, de 25 % à 400 %.
+Vous pouvez également modifier la mise au point du zoom, de 25 % à 400 %.
 
 ![](assets/web-designer-device.png)
 
@@ -234,9 +234,9 @@ La possibilité de modifier la taille de l’appareil est conçue pour les sites
 
 >[!CAUTION]
 >
->Vous pouvez modifier une expérience web avec une taille d’appareil spécifique. Toutefois, tant que les sélecteurs sont identiques, ces modifications s’appliquent à toutes les tailles et tous les appareils, et pas seulement à la taille de l’appareil dans lequel vous travaillez. De même, la modification d’une expérience dans la vue de bureau normale applique les modifications à toutes les tailles d’écran, et pas seulement à la vue de bureau.
+>Vous pouvez modifier une expérience web avec une taille d’appareil spécifique. Toutefois, tant que les sélecteurs sont identiques, ces modifications s’appliquent à toutes les tailles et tous les appareils, et pas seulement à la taille de l’appareil dans lequel vous travaillez. De même, la modification d’une expérience dans l’affichage de bureau classique entraîne la modification de toutes les tailles d’écran et pas seulement pour l’affichage de bureau.
 >
->Actuellement, [!DNL Journey Optimizer] ne prend pas en charge les modifications de pages spécifiques à la taille de l’appareil. Cela signifie que si, par exemple, vous disposez d’un site web mobile distinct avec une structure de site distincte, vous devez apporter les modifications spécifiques à votre site mobile dans une autre campagne.
+>Actuellement, [!DNL Journey Optimizer] ne prend pas en charge les modifications de page spécifiques à la fenêtre d’affichage. Cela signifie que si, par exemple, vous disposez d’un site web mobile distinct avec une structure de site distincte, vous devez apporter les modifications spécifiques à votre site mobile dans une autre campagne.
 
 ## Tester la campagne web {#test-web-campaign}
 
@@ -251,7 +251,7 @@ Pour afficher un aperçu de votre expérience web modifiée, suivez les étapes 
 >
 >Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
 
-1. Dans l’écran de modification du contenu de la campagne web, sélectionnez **[!UICONTROL Simulation du contenu]**.
+1. Dans l’écran de modification du contenu de la campagne web, sélectionnez **[!UICONTROL Simuler le contenu]**.
 
    <!--![](assets/web-designer-simulate.png)-->
 
@@ -266,10 +266,10 @@ Pour afficher un aperçu de votre expérience web modifiée, suivez les étapes 
 
    >[!NOTE]
    >
-   >Lors de la copie de l&#39;URL de test, le contenu affiché est celui personnalisé pour le profil de test utilisé lors de la génération de la simulation de contenu dans [!DNL Journey Optimizer].
+   >Lors de la copie de l’URL de test, le contenu affiché est celui personnalisé pour le profil de test utilisé lors de la génération de la simulation de contenu dans [!DNL Journey Optimizer].
 
 ## Vidéo pratique{#video}
 
-La vidéo ci-dessous montre comment créer une expérience web à l’aide du concepteur web dans [!DNL Journey Optimizer] campagnes.
+La vidéo ci-dessous montre comment créer une expérience web à l’aide du concepteur web dans les campagnes de [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 74%
 >
 >Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web qu’en utilisant des **campagnes**.
 
-[Découvrez comment créer une campagne web dans cette vidéo](#video)
+[Découvrez comment créer une campagne web dans cette vidéo.](#video)
 
 ## Créer une campagne web {#create-web-campaign}
 
@@ -33,13 +33,13 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Créer une règle de correspondance de pages"
->abstract="Une règle de correspondance de pages permet de cibler plusieurs URL correspondant à la même règle ; par exemple, si vous souhaitez appliquer les modifications à une bannière principale sur un site web entier ou ajouter une image principale qui s’affiche sur toutes les pages de produit d’un site web."
+>abstract="Une règle de correspondance de pages permet de cibler plusieurs URL correspondant à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web."
 
 Pour commencer à créer votre expérience web par le biais d’une campagne, suivez les étapes ci-dessous.
 
 >[!NOTE]
 >
->Si c’est la première fois que vous créez une expérience web, veillez à respecter les conditions préalables décrites dans la section [cette section](web-prerequisites.md).
+>Si c’est la première fois que vous créez une expérience web, veillez à respecter les conditions préalables décrites dans [cette section](web-prerequisites.md).
 
 1. Création d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 
@@ -55,7 +55,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
    ![](assets/web-campaign-surface.png)
 
-1. Vous pouvez également créer une **[!UICONTROL Règle de correspondance des pages]** pour cibler plusieurs URL correspondant à la même règle ; par exemple, si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produit d’un site web.
+1. Vous pouvez également créer une **[!UICONTROL Règle de correspondance de pages]** pour cibler plusieurs URL correspondant à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web.
 
    Pour ce faire, sélectionnez **[!UICONTROL Règle de correspondance de pages]** et cliquez sur **[!UICONTROL Créer une règle]**.
 
@@ -73,7 +73,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
 1. Une fois la surface web définie, sélectionnez **[!UICONTROL Créer]**.
 
-1. Suivez les étapes de création d&#39;une campagne web, telles que les propriétés de la campagne, [audience](../segment/about-segments.md), et [planning](../campaigns/create-campaign.md#schedule).
+1. Suivez les étapes de création d’une campagne web, telles que les propriétés de la campagne, l’[audience](../segment/about-segments.md) et le [planning](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 
@@ -89,7 +89,7 @@ Une fois que vous avez défini vos [paramètres de campagne web](#configure-web-
 
 1. Dans votre campagne web, sélectionnez **[!UICONTROL Examiner pour activer]**.
 
-1. Vérifiez et modifiez si nécessaire le contenu, les propriétés, la surface, l’audience et la planification.
+1. Vérifiez et modifiez si nécessaire le contenu, les propriétés, la surface, l’audience et le planning.
 
 1. Sélectionnez **[!UICONTROL Activer]**.
 
@@ -127,6 +127,6 @@ Lorsqu’une campagne web est active, vous pouvez l’arrêter afin d’empêche
 
 ## Vidéo pratique{#video}
 
-La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la revoir et la publier.
+La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -12,7 +12,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -57,9 +57,9 @@ L’URL concaténée se présente comme suit :
 
 ### En-têtes et paramètres de requête {#headers}
 
-Le **[!UICONTROL Configuration d’URL]** La section affiche les champs d’en-tête dynamique et de paramètre de requête, mais pas les champs constants. Les champs d’en-tête dynamique et de paramètre de requête sont définis comme variables dans l’écran de configuration des actions. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
+La section **[!UICONTROL Configuration de l’URL]** affiche les champs d’en-tête dynamique et de paramètres de requête, mais pas les champs constants. Les champs d’en-tête dynamique et de paramètres de requête sont définis comme variables dans l’écran de configuration des actions. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
 
-Pour spécifier la valeur des champs d’en-tête dynamique et de paramètre de requête, cliquez dans le champ ou sur l’icône représentant un crayon et sélectionnez le champ de votre choix.
+Pour spécifier la valeur des champs d’en-tête dynamique et de paramètres de requête, cliquez dans le champ ou sur l’icône représentant un crayon et sélectionnez le champ de votre choix.
 
 ![](assets/journey-dynamicheaderfield.png)
 

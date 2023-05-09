@@ -61,7 +61,7 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
 
    >[!NOTE]
    >
-   >Un espace de noms d’identité définit le contexte d’un identifiant, tel qu’une adresse e-mail ou un identifiant CRM. Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](../../segment/get-started-identity.md){target="_blank"}.
+   >Un espace de noms d’identité définit le contexte d’un identifiant, tel qu’une adresse e-mail ou un identifiant CRM. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../../segment/get-started-identity.md){target="_blank"}.
 
 1. Saisissez la valeur d’identité et cliquez sur **[!UICONTROL Affichage]** pour répertorier les profils disponibles. 
 
