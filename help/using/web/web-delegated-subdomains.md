@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web, sous-domaines, configuration
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 79%
@@ -78,11 +78,11 @@ Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par 
 
 1. Le badge **[!UICONTROL Par défaut]** s’affiche en regard du sous-domaine actuellement utilisé par défaut. Pour modifier le sous-domaine par défaut, sélectionnez **[!UICONTROL Définir comme valeur par défaut]** en cliquant sur le bouton **[!UICONTROL Plus d’actions]** en regard du sous-domaine souhaité.
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >Vous pouvez modifier le sous-domaine web par défaut, mais un seul sous-domaine peut être utilisé à la fois.
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
