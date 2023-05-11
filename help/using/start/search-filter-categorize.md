@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 49%
@@ -53,7 +53,7 @@ Avec Adobe Experience Platform [Balises unifiées](https://experienceleague.adob
 >
 >Les balises unifiées sont actuellement en version Beta. La documentation et les fonctionnalités peuvent changer.
 
-## Ajout de balises à un objet
+### Ajout de balises à un objet
 
 Le **Balises** , dans le champ [parcours](../building-journeys/journey-gs.md#change-properties) ou [campaign](../campaigns/create-campaign.md#create) vous permet de définir des balises pour votre objet. Vous pouvez sélectionner une balise existante ou créer une nouvelle balise.
 
@@ -69,7 +69,7 @@ La liste des balises définies s’affiche sous le champ **Balises**.
 > 
 > Si vous dupliquez ou créez une version d’un parcours ou d’une campagne, les balises sont conservées.
 
-## Filtrer les balises
+### Filtrer les balises
 
 Les listes de parcours et de campagnes affichent une colonne dédiée afin que vous puissiez facilement visualiser vos balises.
 
@@ -81,7 +81,7 @@ Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcour
 
 ![](assets/tags3.png)
 
-## Gérer les balises
+### Gérer les balises
 
 L’administration peut supprimer des balises et les classer par catégorie dans le menu **Balises**, sous **Administration**. En savoir plus sur la gestion des balises dans la section [Documentation sur les balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
