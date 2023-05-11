@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 100%
+source-wordcount: '1910'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,24 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
+## Améliorations de mai 2023 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>Utilisation des balises dans vos campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais attribuer des balises Adobe Experience Platform unifiées à vos campagnes. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. Notez que la fonctionnalité de balises unifiées est actuellement en version bêta.
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notes de mise à jour d’avril 2023 {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -64,21 +81,22 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Nouveau tableau de bord des parcours (Beta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Le tableau de bord des parcours est maintenant divisé en deux onglets :</p>
-<ul><li>Depuis l’onglet <strong>Aperçu</strong>, vous pouvez accéder à un nouveau tableau de bord qui affiche les mesures clés liées à vos parcours.</li>
-<li>Utilisez l’onglet <strong>Parcourir</strong> pour accéder à la liste de tous les parcours.</li></ul>
-<p>Cette fonctionnalité est accessible en version Beta publique dans tous les parcours.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-gs.md#journey-access">documentation détaillée</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <tr>
 <td>
 <p>En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche. Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les parcours.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/tags.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### Améliorations {#mar-2023-improvements}
 

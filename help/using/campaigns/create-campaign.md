@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 92%
 
 ---
 
@@ -65,6 +65,8 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 1. Dans la section **[!UICONTROL Propriétés]**, indiquez un nom et une description pour la campagne.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
+
+1. Le **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser des balises](../start/search-filter-categorize.md#tags)
 
 1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
@@ -129,9 +131,9 @@ Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espa
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblés par la campagne.
+    >[!REMARQUE]
+    >
+    >Les personnes appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblées par la campagne.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

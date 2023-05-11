@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 93%
 
 ---
 
@@ -26,11 +26,11 @@ De plus, vous pouvez dupliquer des campagnes dynamiques (exécutées une fois ou
 
 Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
-Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées.
-
-Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
+Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
 
 ![](assets/create-campaign-list.png)
+
+De plus, vous pouvez filtrer la liste en fonction du type et du canal de la campagne, ou des balises qui ont été affectées aux campagnes lors de leur création. [Découvrez comment attribuer des balises à une campagne](create-campaign.md#create)
 
 ## Statuts des campagnes {#statuses}
 

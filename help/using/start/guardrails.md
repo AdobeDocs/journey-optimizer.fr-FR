@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1066'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,10 @@ Les droits, les limitations de produit et la sécurisation des performances sont
 Vous devez également connaître les [mécanismes de sécurisation pour les données du profil client en temps réel avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"}.
 
 Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
+
+## Navigateurs pris en charge {#browsers}
+
+L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionner de manière optimale avec la dernière version de Google Chrome. Vous pouvez rencontrer des problèmes lors de l&#39;utilisation de certaines fonctions sur des versions plus anciennes ou d&#39;autres navigateurs.
 
 ## Mécanismes de sécurisation des messages {#message-guardrails}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ Les composants et fonctionnalités disponibles dans l’interface utilisateur d�
 >[!NOTE]
 >
 >Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
-
 
 ## Volet de navigation de gauche {#left-nav}
 
@@ -90,7 +89,6 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-
 ## Cas d&#39;utilisation internes au produit {#in-product-uc}
 
 Tirez parti des cas d&#39;utilisation [!DNL Adobe Journey Optimizer] de la page d&#39;accueil et fournissez quelques entrées rapides pour créer un parcours client.
@@ -110,7 +108,6 @@ Cliquez sur le bouton **[!UICONTROL Commencer]** pour lancer le cas d&#39;utilis
 
 Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **[!UICONTROL Afficher la bibliothèque de cas d&#39;utilisation]**.
 
-
 ## Obtention d’aide et de support {#find-help}
 
 Accédez aux pages d&#39;aide principales d&#39;Adobe Journey Optimizer à partir de la section inférieure de la page d&#39;accueil.
@@ -118,10 +115,6 @@ Accédez aux pages d&#39;aide principales d&#39;Adobe Journey Optimizer à par
 Utilisez l&#39;icône **Aide** pour accéder aux pages d&#39;aide, contacter l&#39;assistance et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d&#39;aide dans le champ de recherche.
 
 ![](assets/ajo-help.png)
-
-## Navigateurs pris en charge {#browsers}
-
-L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionner de manière optimale avec la dernière version de Google Chrome. Vous pouvez rencontrer des problèmes lors de l&#39;utilisation de certaines fonctions sur des versions plus anciennes ou d&#39;autres navigateurs.
 
 ## Préférences linguistiques {#language-pref}
 
@@ -145,39 +138,3 @@ Pour modifier la langue :
 * Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
 * Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
    ![](assets/select-language.png)
-
-## Recherche{#unified-search}
-
-Depuis n’importe où dans l’interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données et plus encore dans vos sandbox.
-
-Commencez à saisir du contenu pour afficher les meilleurs résultats. Les articles d’aide sur les mots-clés saisis apparaissent également dans les résultats.
-
-![](assets/unified-search.png)
-
-Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par objet métier.
-
-![](assets/search-and-filter.png)
-
-## Filtrer les listes{#filter-lists}
-
-Dans la plupart des listes, utilisez la barre de recherche pour rechercher des éléments spécifiques et définir des critères de filtrage.
-
-Pour accéder aux filtres, cliquez sur l’icône en forme de filtre en haut à gauche d’une liste. Le menu Filtrer permet de filtrer les éléments affichés en fonction de différents critères. Il est possible d&#39;afficher uniquement les éléments d&#39;un certain type ou dans un statut donné, ceux que vous avez créés, ou ceux que vous avez modifiés au cours des 30 derniers jours. Les options varient en fonction du contexte.
-
-Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lecture de segment]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**. Vous pouvez choisir d&#39;afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l&#39;aide des **[!UICONTROL filtres d&#39;activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** permettent de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](../building-journeys/using-the-journey-designer.md).
-
->[!NOTE]
->
->Notez que les colonnes affichées peuvent être personnalisées à l&#39;aide du bouton de configuration en haut à droite des listes. La personnalisation est enregistrée pour chaque utilisateur.
-
-Utilisez les colonnes **[!UICONTROL Dernière mise à jour]** et **[!UICONTROL Dernière mise à jour par]** pour vérifier quand s&#39;est produit la dernière mise à jour de vos parcours et qui l&#39;a enregistrée.
-
-![](assets/filter-journeys.png)
-
-Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé(e) dans]** affiche le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
-
-![](assets/journey3bis.png)
-
-Il est possible d’effectuer des actions de base sur chaque élément des différentes listes. Vous pouvez par exemple dupliquer ou supprimer un élément.
-
-![](assets/journey4.png)
