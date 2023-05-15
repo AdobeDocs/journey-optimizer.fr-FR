@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '850'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL GESTION DES DÉCISIONS]**
 
-* **[!UICONTROL Offres]** - Accédez à vos sources et ensembles de données récents à partir de ce menu. Utilisez cette section pour créer de nouvelles offres. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Offres]** - Accédez à vos sources et jeux de données récents à partir de ce menu. Utilisez cette section pour créer de nouvelles offres. [En savoir plus](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL Composants]** - Créez des emplacements, des règles et des balises. [En savoir plus](../offers/offer-library/key-steps.md)
 
