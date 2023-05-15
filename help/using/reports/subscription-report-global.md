@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -42,4 +42,4 @@ Le graphique **[!UICONTROL Performances de lʼabonnement]** montre lʼévolution
 
 ![](assets/subscription_report_2.png)
 
-Les graphiques **Abonnements - Ventilation** et **Désabonnements - Ventilation** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours de la période sélectionnée en fonction des messages, des pages de destination et des canaux.
+Les graphiques **Abonnements - Répartition** et **Désabonnements - Répartition** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours de la période sélectionnée en fonction des messages, des pages de destination et des canaux.
