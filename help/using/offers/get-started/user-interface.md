@@ -1,19 +1,19 @@
 ---
-title: Interface utilisateur
+title: Interface utilisateur de la bibliothèque des offres
 description: En savoir plus sur lʼinterface utilisateur de la bibliothèque des offres
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '662'
-ht-degree: 100%
+source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 98%
 
 ---
 
-# Interface utilisateur {#user-interface}
+# Interface utilisateur de la bibliothèque des offres {#user-interface}
 
 La section **[!UICONTROL Gestion des décisions]** du rail de gauche propose deux menus permettant d’accéder aux fonctionnalités de gestion des décisions :
 
