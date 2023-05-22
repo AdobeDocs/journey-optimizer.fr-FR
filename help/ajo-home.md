@@ -5,9 +5,9 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
-source-wordcount: '325'
+source-git-commit: cb5e5781002650c4ddb1f62dcc66d8196675b3a4
+workflow-type: tm+mt
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -80,11 +80,6 @@ ht-degree: 100%
     <div>
     <li>
       <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Présentation de la sécurité d’Adobe Journey Optimizer</a> (PDF)
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">FAQ sur Adobe Journey Optimizer</a> (PDF)
     </li>
     </div>
     <div>
