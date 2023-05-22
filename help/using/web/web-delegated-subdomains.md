@@ -10,7 +10,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Définition d’un sous-domaine web"
->abstract="Sélectionnez un sous-domaine dans la liste des sous-domaines délégués à l’Adobe. Vous pouvez définir ce sous-domaine web comme sous-domaine par défaut, mais un seul sous-domaine par défaut peut être utilisé à la fois."
+>title="Définir un sous-domaine web"
+>abstract="Sélectionnez un sous-domaine dans la liste des sous-domaines délégués à Adobe. Vous pouvez définir ce sous-domaine web comme sous-domaine par défaut, mais un seul sous-domaine par défaut peut être utilisé à la fois."
 
 Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque d’[Adobe Experience Manager Assets Essentials](../email/assets-essentials.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
 
@@ -60,7 +60,7 @@ Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par 
    >
    >Vous ne pouvez pas sélectionner un sous-domaine déjà utilisé comme sous-domaine web.
 
-1. Le préfixe qui s’affichera dans votre URL web est automatiquement ajouté. Vous ne pouvez pas le changer.
+1. Le préfixe qui s’affichera dans votre URL web est automatiquement ajouté. Vous ne pouvez pas le modifier.
 
 1. Pour définir ce sous-domaine par défaut, sélectionnez l’option correspondante.
 
@@ -74,7 +74,7 @@ Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par 
 
    >[!NOTE]
    >
-   >Dans de très rares occasions, une configuration de sous-domaine peut échouer. Dans ce cas, vous pouvez supprimer la variable **[!UICONTROL En échec]** pour nettoyer la liste à l’aide du sous-domaine **[!UICONTROL Supprimer]** à partir du bouton **[!UICONTROL Autres actions]** icône .
+   >Dans de très rares occasions, une configuration de sous-domaine peut échouer. Dans ce cas, vous pouvez supprimer le sous-domaine en **[!UICONTROL échec]** pour nettoyer la liste à l’aide du bouton **[!UICONTROL Supprimer]** à partir de l’icône **[!UICONTROL Plus d’actions]**.
 
 1. Le badge **[!UICONTROL Par défaut]** s’affiche en regard du sous-domaine actuellement utilisé par défaut. Pour modifier le sous-domaine par défaut, sélectionnez **[!UICONTROL Définir comme valeur par défaut]** en cliquant sur le bouton **[!UICONTROL Plus d’actions]** en regard du sous-domaine souhaité.
 
