@@ -20,22 +20,22 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Ajouter des composants de structure"
+>title="Ajout de composants de structure"
 >abstract="Les composants de structure définissent la disposition de votre e-mail. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Ajouter des composants de structure"
+>title="Ajout de composants de structure"
 >abstract="Les composants de structure définissent la disposition de la page de destination. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre page de destination."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Ajouter des composants de structure"
+>title="Ajout de composants de structure"
 >abstract="Les composants de structure définissent la disposition du fragment. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Ajouter des composants de structure"
+>title="Ajout de composants de structure"
 >abstract="Les composants de structure définissent la disposition du modèle. Faites glisser et déposez un composant de **structure** dans la zone de travail pour commencer à concevoir le contenu de votre modèle."
 
 
