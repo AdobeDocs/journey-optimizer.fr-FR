@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
 source-wordcount: '1512'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -38,30 +38,30 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
 
    ![](assets/custom2.png)
 
-## Accès aux parcours {#journey-access}
+## Accéder aux parcours {#journey-access}
 
-Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles :
+Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles :
 
-**Présentation**: cet onglet affiche un tableau de bord avec les mesures clés liées à vos parcours :
+**Vue d’ensemble** : cet onglet affiche un tableau de bord avec les mesures clés liées à vos parcours :
 
-* **Profils traités**: nombre total de profils traités au cours des dernières 24 heures
-* **Parcours en direct**: nombre total de parcours actifs avec trafic au cours des dernières 24 heures. Les parcours en direct incluent : **Parcours unitaires** (basé sur un événement) et **Parcours par lots** (lire le segment).
-* **Taux d’erreur**: ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
-* **Taux d’abandon**: le ratio de tous les profils annoncés par rapport au nombre total de profils entrés au cours des dernières 24 heures.
+* **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
+* **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lire le segment).
+* **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
+* **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures.
 
 >[!NOTE]
 >
->Ce tableau de bord prend en compte les parcours de trafic sur les dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent.
+>Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent.
 
 ![](assets/journeys-dashboard.png)
 
-**Parcourir**: cet onglet affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément. Voir à ce sujet [cette section](../start/user-interface.md#filter-lists).
+**Parcourir** : cet onglet affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément. Voir à ce sujet [cette section](../start/user-interface.md#filter-lists).
 
 ![](assets/journeys-browse.png)
 
 Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lecture de segment]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**.
 
-Vous pouvez choisir d&#39;afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l&#39;aide des **[!UICONTROL filtres d&#39;activité]** et des **[!UICONTROL filtres de données]**. En outre, la variable **[!UICONTROL Filtres de publication]** vous permet de sélectionner une date de publication ou un utilisateur. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](../building-journeys/using-the-journey-designer.md).
+Vous pouvez choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** vous permettent également de sélectionner une date de publication ou un utilisateur ou une utilisatrice. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](../building-journeys/using-the-journey-designer.md).
 
 ![](assets/filter-journeys.png)
 
@@ -82,7 +82,7 @@ Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de 
 
 Voici les étapes principales pour envoyer des messages à travers des parcours :
 
-1. Dans la **Parcourir** , cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
+1. Dans l’onglet **Parcourir**, cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
 
 1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](journey-gs.md#change-properties).
 
@@ -113,7 +113,7 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
 Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
 
-Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et, si vous être administrateur, définir une durée de **[!UICONTROL Temporisation et erreur]**. Vous pouvez également attribuer des balises Adobe Experience Platform unifiées à votre parcours. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser des balises](../start/search-filter-categorize.md#tags)
+Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et, si vous être administrateur, définir une durée de **[!UICONTROL Temporisation et erreur]**. Vous pouvez également attribuer des balises unifiées Adobe Experience Platform à votre parcours. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
 
 Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur qui a publié le parcours.
 

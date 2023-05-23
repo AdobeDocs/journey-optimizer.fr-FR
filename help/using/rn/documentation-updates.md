@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
 workflow-type: tm+mt
 source-wordcount: '2769'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Mai 2023 {#may-2023}
 
-* Une nouvelle page a été ajoutée pour décrire comment configurer le sous-domaine qui sera utilisé pour publier du contenu provenant de Adobe Experience Manager Assets Essentials dans vos expériences web. [En savoir plus](../web/web-delegated-subdomains.md).
-* Une nouvelle sous-section a été ajoutée pour expliquer comment ajouter des paramètres de suivi personnalisés aux URL dans le Concepteur d&#39;email - [En savoir plus](../email/message-tracking.md#url-tracking).
+* Une nouvelle page a été ajoutée pour décrire comment configurer le sous-domaine qui sera utilisé pour publier du contenu provenant d’Adobe Experience Manager Assets Essentials dans vos expériences web. [En savoir plus](../web/web-delegated-subdomains.md).
+* Une nouvelle sous-section a été ajoutée pour expliquer comment ajouter des paramètres de tracking personnalisés aux URL dans le Concepteur d’e-mail. [En savoir plus](../email/message-tracking.md#url-tracking).
 
 ## Avril 2023 {#apr-2023}
 

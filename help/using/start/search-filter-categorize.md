@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Recherche, filtrage, organisation
+title: Interface utilisateur
 description: En savoir plus à propos de l’interface utilisateur de Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 100%
 
 ---

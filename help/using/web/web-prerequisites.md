@@ -9,11 +9,11 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Conditions préalables et barrières de sécurité {#web-prerequisites}
+# Conditions préalables et mécanismes de sécurisation {#web-prerequisites}
 
 Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL Journey Optimizer], remplissez les conditions préalables suivantes :
 

@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Prise en main du canal web {#get-sarted-web}
 
-[!DNL Journey Optimizer] vous permet de créer et de diffuser visuellement des expériences web personnalisées à vos clients.
+[!DNL Journey Optimizer] vous permet de créer et de diffuser visuellement des expériences web personnalisées à vos clients et clientes.
 
 Grâce à une interface visuelle intuitive, cette fonctionnalité vous permet de modifier facilement vos propriétés web afin d’expérimenter, d’optimiser et de personnaliser vos campagnes pour les utilisateurs et utilisatrices finaux.
 

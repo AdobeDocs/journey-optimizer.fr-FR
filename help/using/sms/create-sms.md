@@ -93,7 +93,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
    >[!CAUTION]
    >
-   > Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans la sandbox de production.
+   > Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production.
 
    ![](assets/sms_tracking_1.png)
 

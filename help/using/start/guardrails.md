@@ -21,7 +21,7 @@ Les droits, les limitations de produit et la sécurisation des performances sont
 
 Vous devez également connaître les [mécanismes de sécurisation pour les données du profil client en temps réel avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"}.
 
-Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation de [!DNL Adobe Journey Optimizer].
+Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
 ## Navigateurs pris en charge {#browsers}
 

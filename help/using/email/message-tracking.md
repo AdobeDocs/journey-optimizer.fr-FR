@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un [lien de désinscription](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini dans la variable [surface du canal](../configuration/channel-surfaces.md#email-type) lors de la création du message.
+>Les e-mails de type marketing doivent inclure un [lien de désinscription](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface du canal](../configuration/channel-surfaces.md#email-type) et lors de la création du message.
 
 ## Lien vers une page miroir {#mirror-page}
 
@@ -135,26 +135,26 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 ## Tracking des URL {#url-tracking}
 
-Généralement [Suivi des URL](email-settings.md#url-tracking) est géré au niveau de la surface, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL ;](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’email.
+Généralement, le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la surface, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le Concepteur d’e-mail.
 
-Pour ajouter des paramètres de suivi d’URL personnalisés à vos liens, procédez comme suit.
+Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
 
-1. Sélectionnez un lien et cliquez sur **[!UICONTROL Lien d’insertion]** dans la barre d’outils contextuelle.
+1. Sélectionnez un lien et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 
-1. Sélectionnez l&#39;icône de personnalisation. Elle est uniquement disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Exclusion**.
+1. Sélectionnez l’icône de personnalisation. Elle nʼest disponible que pour les types de liens suivants : **Lien externe**, **Lien de désinscription** et **Opt-out**.
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Ajoutez le paramètre de tracking des URL et sélectionnez l&#39;attribut de profil de votre choix dans l&#39;éditeur d&#39;expression.
+1. Ajoutez le paramètre de tracking des URL et sélectionnez l’attribut de profil de votre choix dans l’éditeur d’expression.
 
    ![](assets/message-tracking-perso-parameter.png)
 
 1. Enregistrez vos modifications.
 
-1. Répétez les étapes ci-dessus pour chaque lien auquel vous souhaitez ajouter ce paramètre de suivi.
+1. Répétez les étapes ci-dessus pour chaque lien auquel vous souhaitez ajouter ce paramètre de tracking.
 
-Désormais, lorsque l’email est envoyé, ce paramètre est automatiquement ajouté à la fin de l’URL. Vous pouvez ensuite capturer ce paramètre dans les outils d’analyse web ou dans les rapports de performances.
+Désormais, lorsque l’e-mail est envoyé, ce paramètre est automatiquement ajouté à la fin de l’URL. Vous pouvez ensuite capturer ce paramètre dans les outils d’analyse web ou dans les rapports de performances.
 
 >[!NOTE]
 >
->Pour vérifier l’URL finale, vous pouvez : [envoyer un bon à tirer](preview.md#send-proofs) et cliquez sur le lien contenu de l&#39;email une fois que vous avez reçu le BAT. L’URL doit afficher le paramètre de suivi. Dans l’exemple ci-dessus, l’URL finale est : https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
+>Pour vérifier l’URL finale, vous pouvez [envoyer un BAT](preview.md#send-proofs) et cliquer sur le lien dans le contenu de l’e-mail une fois que vous avez reçu le BAT. L’URL doit afficher le paramètre de tracking. Dans l’exemple ci-dessus, l’URL finale est : https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number

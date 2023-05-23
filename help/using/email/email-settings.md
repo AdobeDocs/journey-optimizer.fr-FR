@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -266,4 +266,4 @@ Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Ch
 
 >[!NOTE]
 >
->Vous pouvez également ajouter des paramètres de suivi personnalisé dynamique aux liens présents dans le contenu de votre email, mais cela n&#39;est pas possible au niveau de la surface. Vous devez le faire lors de la création de votre message à l&#39;aide du Concepteur d&#39;email. [En savoir plus](message-tracking.md#url-tracking).
+>Vous pouvez également ajouter des paramètres de suivi personnalisés et dynamiques aux liens présents dans le contenu de votre e-mail, mais cela n’est pas possible au niveau de la surface. Vous devez le faire lors de la création de votre message à l’aide du Concepteur d’e-mail. [En savoir plus](message-tracking.md#url-tracking).

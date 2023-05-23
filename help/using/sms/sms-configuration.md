@@ -29,7 +29,7 @@ Votre utilisation des services SMS sera soumise aux conditions générales suppl
 
 >[!CAUTION]
 >
->Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans la sandbox de production.
+>Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production.
 
 ## Création d’informations d’identification API {#create-api}
 

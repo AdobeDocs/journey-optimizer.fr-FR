@@ -42,4 +42,4 @@ Le graphique **[!UICONTROL Performances de lʼabonnement]** montre l’évolutio
 
 ![](assets/subscription_report_4.png)
 
-Les graphiques **Abonnements - Ventilation** et **Désabonnements - Ventilation** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours des dernières 24 heures en fonction des messages, des pages de destination et des canaux.
+Les graphiques **Abonnements - Répartition** et **Désabonnements - Répartition** représentent le nombre total de personnes qui se sont abonnées ou désabonnées au cours des dernières 24 heures en fonction des messages, des pages de destination et des canaux.
