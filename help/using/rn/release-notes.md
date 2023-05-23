@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
+source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 100%
+source-wordcount: '2379'
+ht-degree: 84%
 
 ---
 
@@ -21,24 +21,175 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Améliorations de mai 2023 {#may-improvements}
 
+## Notes de mise à jour initiales de mai 2023 {#may-rn-2023}
+
+Les informations ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication de la version et des liens directs seront ajoutés sur cette page.
+
+**** Date de mise à jour : 25 mai 2023
+
+### Nouvelles fonctionnalités{#may-2023-features}
+
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Utiliser des balises dans vos campagnes</strong><br/></th>
+<th><strong>Audience Composition</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos campagnes. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. Notez que la fonctionnalité de balises unifiées est actuellement en version Beta.
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../segment/assets/audiences-publish.png"/>
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Expérience de contenu dans les campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer prend désormais en charge les expériences dans les campagnes. Les expériences sont des essais randomisés, ce qui signifie que, dans le cadre des tests en ligne, vous exposez certains utilisateurs sélectionnés de manière aléatoire à une variante donnée d’un message, et un autre ensemble d’utilisateurs sélectionnés de manière aléatoire à une autre variante ou traitement. Après l’exposition, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, telles que les ouvertures d’emails, les abonnements ou les achats.</p>
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Objective reporting and performance measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Créer et utiliser des fragments dans le contenu de votre email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer, utiliser et gérer des fragments pour assembler rapidement vos emails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs emails à l’échelle des campagnes et parcours Journey Optimizer pour un processus de conception amélioré et accéléré.</p>
+<img src="assets/do-not-localize/fragments.gif"/>
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Utilisation des balises dans vos campagnes (version bêta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos campagnes. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. Notez que la fonctionnalité de balises unifiées est actuellement en version Beta.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Modèle de classement d’Optimization AI personnalisé (Disponibilité générale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les modèles de classement de l’IA d’optimisation personnalisée sont désormais disponibles dans la gestion de la décision. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+### Améliorations {#may-2023-improvements}
+
+<!--
+**Terminology**
+
+* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
+-->
+
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
+
+**Audiences**
+
+* Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences.
+
+**Canal SMS**
+
+* Infobip a été ajouté en tant que fournisseur lors de la configuration des surfaces de vos canaux SMS.
+* Twillio - La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twilio.
+
+**Canal in-app**
+
+* Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service.
+* Ajout de nouvelles fonctionnalités Adobe Experience Platform Assurance permettant de capturer des événements de périphérique à ajouter en tant que règles de déclenchement.
+
+**Parcours**
+
+* Vous pouvez désormais exploiter les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
+
+**Campagnes**
+
+* Il est désormais possible de dupliquer une campagne à partir de l’écran d’inventaire à l’aide du menu d’action représentant des points de suspension.
+* Vous pouvez désormais supprimer les modifications préliminaires d’une campagne en direct.
+* Les étapes d’activation d’une campagne ont été simplifiées.
+
+**Gestion des décisions**
+
+* Vous pouvez désormais modifier le plafonnement de la fréquence si l’offre a le statut En création et n’a jamais été publiée auparavant.
+
+**Personnalisation**
+
+* Vous pouvez désormais sélectionner et insérer des références de ressources directement à partir de l’éditeur de personnalisation lorsque vous travaillez dans le contenu du HTML.
+
+### Correctifs{#may-2023-fixes}
+
+* Messages in-app : correction d’un problème en raison duquel la planification de campagne était en conflit avec les paramètres de fréquence des messages.
+
 
 ## Notes de mise à jour d’avril 2023 {#apr-rn-2023}
 
@@ -67,7 +218,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Workflow de démarrage rapide de l’intégration mobile (Beta)</strong><br/></th>
+<th><strong>Processus de démarrage rapide de l’intégration mobile (bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +235,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Nouveau tableau de bord des parcours (Beta)</strong><br/></th>
+<th><strong>Nouveau tableau de bord de Parcours (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,25 +251,6 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 </tr>
 </tbody>
 </table>
-
-<!--
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 ### Améliorations {#april-2023-improvements}
 
@@ -246,7 +378,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Canal in-app (Beta)</strong><br/></th>
+<th><strong>Canal In-App (bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -264,7 +396,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Exporter des jeux de données Journey Optimizer vers des destinations d’espace de stockage (Beta)</strong><br/></th>
+<th><strong>Exportation des jeux de données Journey Optimizer vers des destinations de stockage dans le cloud (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
