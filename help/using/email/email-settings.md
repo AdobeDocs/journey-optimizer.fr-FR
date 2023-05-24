@@ -10,7 +10,7 @@ level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
 ht-degree: 100%
 
