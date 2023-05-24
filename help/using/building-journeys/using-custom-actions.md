@@ -10,7 +10,7 @@ level: Intermediate
 keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
