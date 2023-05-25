@@ -6,10 +6,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 100%
+source-wordcount: '920'
+ht-degree: 87%
 
 ---
 
@@ -55,20 +55,25 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
 
    ![](assets/sms_6.png)
 
-1. Sélectionnez votre **[!UICONTROL Fournisseur SMS]** :
+1. Configurez vos informations d’identification d’API SMS :
 
-   * **[!DNL Sinch]**
+   * Pour **[!DNL Sinch]**:
 
-      Pour rechercher votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**, accédez au menu SMS > API depuis votre compte Sinch.
+      * **[!UICONTROL Nom]**: choisissez un nom pour vos informations d’identification API.
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**: accédez à la page API, puis à vos informations d’identification sous l’onglet SMS .  [En savoir plus](https://developers.sinch.com/docs/sms/getting-started/).
+   * Pour **[!DNL Twilio]**:
 
-      Pour rechercher votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**, accédez au volet Informations du compte de la page Tableau de bord de la console.
+      * **[!UICONTROL Nom]**: choisissez un nom pour vos informations d’identification API.
 
+      * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]**: accédez au volet Informations du compte de la page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
 
-1. Entrez un **[!UICONTROL Nom]** pour vos informations d’identification API.
+      * **[!UICONTROL Message SID]**: saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. [En savoir plus](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-).
+   * Pour **[!DNL Infobip]**:
 
-1. Saisissez votre **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**.
+      * **[!UICONTROL Nom]**: choisissez un nom pour vos informations d’identification API.
+
+      * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Jeton API]**: accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. [En savoir plus](https://www.infobip.com/docs/api).
 
    ![](assets/sms_7.png)
 
