@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
+source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 79%
+source-wordcount: '2504'
+ht-degree: 80%
 
 ---
 
@@ -173,7 +173,7 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
 
 
-* Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences.
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **Canal SMS**
 
