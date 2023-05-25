@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Pour créer un jeu de données, commencez par sélectionner **Créer un jeu de d
 
 Vous pouvez :
 
-* Créer un jeu de données à partir d’un schéma. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#schema){target="_blank"}
+* Créer un jeu de données à partir d’un schéma. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
 * Créez un jeu de données à partir d’un fichier CSV. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr){target="_blank"}
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.

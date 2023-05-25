@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '2036'
-ht-degree: 100%
+source-git-commit: c9941a800783b399b587b952c4191ce906b70552
+workflow-type: tm+mt
+source-wordcount: '2262'
+ht-degree: 95%
 
 ---
 
@@ -52,6 +52,54 @@ Le widget **[!UICONTROL Statistiques de la campagne]** présente les principales
 * **[!UICONTROL Actions réalisées]** : nombre total de fois uniques où une action dans le parcours a été réalisée.
 
 * **[!UICONTROL Échec des actions en %]** : nombre total de fois uniques où une action a échoué dans le parcours par rapport au nombre total de fois uniques où une action a été réalisée.
+
+<!--
+### Objectives report {#objectives-global}
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../campaigns/reporting-configuration.md).
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+-->
+
+### Rapport d’expérience {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Mesure de succès"
+>abstract="Valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils."
+
+![](assets/experimentation_report_3.png)
+
+Le **[!UICONTROL Expérience]** fournit des informations clés sur les performances de chaque variante et identifie la variante la plus réussie.
+
+Notez que la définition de meilleure performance peut prendre un certain temps, elle sera représentée par cette icône ![](assets/experimentation_report_1.png).
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’expérience.
+
+Le widget **[!UICONTROL Résultat de l’expérience]** décrit les performances de chaque variante. Vous pouvez modifier votre ligne de base en sélectionnant l’un des traitements du menu déroulant **[!UICONTROL Ligne de base]**. Le meilleur traitement sera signalé par une icône en forme d’étoile.
+
+Le tableau présente les mesures suivantes :
+
+* **[!UICONTROL Effet élévateur sur la ligne de base]**: Mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
+
+* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL Clics sortants uniques]** : nombre total de clics sur les canaux sortants.
+
+* **[!UICONTROL Profils]** : nombre de profils ciblés pour ce traitement.
+
+* **[!UICONTROL Clics/profils sortants uniques]**: Valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
+
+Le **[!UICONTROL Intervalle de confiance]** Le graphique mesure l’incertitude quant à l’amélioration. Il détaille la différence en pourcentage de performance entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
++++
+
+Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Onglet E-mail {#email-global}
 

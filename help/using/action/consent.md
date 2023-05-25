@@ -9,16 +9,16 @@ role: Admin,Developer
 level: Experienced
 keywords: politiques, gouvernance, platform, healthcare shield, consentement
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '917'
 ht-degree: 100%
 
 ---
 
 # Utiliser les politiques de consentement {#consent-management}
 
-Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des politiques marketing afin de respecter les préférences de consentement de vos clients. Les politiques de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
+Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des politiques marketing afin de respecter les préférences de consentement de vos clients. Les politiques de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy?lang=fr).
 
 Dans Journey Optimizer, vous pouvez appliquer ces politiques de consentement à vos actions personnalisées. Par exemple, vous pouvez définir des politiques de consentement pour exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS.
 

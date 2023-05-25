@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,6 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Accédez à la liste des modèles de contenu via le menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]**.
 
-   ![](assets/content-template-list.png)
-
 1. Sélectionnez **[!UICONTROL Créer un modèle]**.
 
 1. Renseignez les détails du modèle.
@@ -95,7 +93,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Cliquez sur **[!UICONTROL Créer]** et choisissez comment concevoir votre e-mail à partir des différentes options :
+1. Cliquez sur **[!UICONTROL Créer]** et choisissez la manière dont vous souhaitez concevoir votre modèle parmi les différentes options suivantes :
 
    * [Concevez entièrement votre e-mail](content-from-scratch.md) via l’interface du Concepteur d’e-mail.
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
-workflow-type: ht
-source-wordcount: '413'
-ht-degree: 100%
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 94%
 
 ---
 
@@ -87,6 +87,8 @@ For more information on how to configure a journey, refer to [this page](../buil
    ![](assets/in_app_create_2.png)
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus](../event/about-creating.md#select-the-namespace).
+
+1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../campaigns/content-experiment.md).
 
 1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message :
 

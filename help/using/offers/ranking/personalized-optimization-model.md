@@ -7,18 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 94%
 
 ---
 
 # Modèle d’optimisation personnalisé {#personalized-optimization-model}
-
->[!CAUTION]
->
->L’utilisation des modèles d’optimisation personnalisée est actuellement disponible en accès anticipé uniquement pour certains utilisateurs.
 
 ## Présentation {#overview}
 
@@ -35,14 +31,14 @@ Par exemple, si une banque propose deux offres de cartes de crédit dont la seu
 
 ## Fonctionnement {#how}
 
-La personnalisation automatique identifie les interactions de fonctionnalités complexes entre les offres, les informations des utilisateurs et les informations contextuelles afin de recommander des offres personnalisées aux utilisateurs finaux. Les fonctionnalités sont des entrées dans le modèle.
+Le modèle identifie les interactions de fonctionnalités complexes entre les offres, les informations des utilisateurs et les informations contextuelles afin de recommander des offres personnalisées aux utilisateurs finaux. Les fonctionnalités sont des entrées dans le modèle.
 
 Il existe trois types de fonctionnalités :
 
 | Types de fonctionnalités | Comment ajouter des fonctionnalités aux modèles |
 |--------------|----------------------------|
-| Objets de prise de décision (placementID, activityID, decisionScopeID) | Partie des événements d’expérience des commentaires sur la gestion des décisions envoyés à AEP |
 | Segments | Il est possible d’ajouter de 0 à 50 segments en tant que fonctionnalités lors de la création du modèle d’IA dédiée au classement |
+| Objets de prise de décision (placementID, activityID, decisionScopeID) | Partie des événements d’expérience des commentaires sur la gestion des décisions envoyés à AEP |
 | Données contextuelles | Partie des événements d’expérience des commentaires sur la prise de décisions envoyés à AEP. Données contextuelles disponibles à ajouter au schéma : Détails du commerce, Détails du canal, Détails de l’application, Détails web, Détails de l’environnement, Détails de l’appareil, placeContext |
 
 Le modèle comporte deux phases :
@@ -66,7 +62,7 @@ En gros, il s’agit d’apprendre et de mémoriser les interactions des caract�
 Un problème de démarrage à froid se produit lorsqu’il n’y a pas assez de données pour faire une recommandation. Pour la personnalisation automatique, il existe deux types de problèmes de démarrage à froid.
 
 * **Après avoir créé une nouvelle stratégie de classement sans données historiques**, les offres seront diffusées de manière aléatoire pendant une période afin de collecter des données, et les données seront utilisées pour entraîner le premier modèle.
-* **Une fois le premier modèle libéré**, 10 % du trafic total sera affecté à une diffusion aléatoire tandis que 90 % du trafic sera utilisé pour les recommandations de modèle. Par conséquent, si de nouvelles offres étaient ajoutées à la stratégie de classement, elles seraient diffusées dans le cadre des 10 % de trafic. Les données collectées sur ces offres déterminent le nombre de fois où elles sont sélectionnées parmi les 90 % de trafic au fur et à mesure de la mise à jour du modèle.
+* **Une fois le premier modèle publié**, 10 % du trafic total sera affecté à une diffusion aléatoire tandis que 90 % du trafic sera utilisé pour les recommandations de modèle. Par conséquent, si de nouvelles offres étaient ajoutées à la stratégie de classement, elles seraient diffusées dans le cadre des 10 % de trafic. Les données collectées sur ces offres déterminent le nombre de fois où elles sont sélectionnées parmi les 90 % de trafic au fur et à mesure de la mise à jour du modèle.
 
 ## Nouvel entraînement {#re-training}
 

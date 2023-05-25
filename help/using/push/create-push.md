@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '699'
-ht-degree: 100%
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -69,6 +69,8 @@ Pour créer une notification push, procédez comme suit :
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
    ![](assets/push_create_5.png)
+
+1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../campaigns/content-experiment.md).
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 

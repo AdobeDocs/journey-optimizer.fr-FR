@@ -6,9 +6,9 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
-workflow-type: ht
-source-wordcount: '1587'
+source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
+workflow-type: tm+mt
+source-wordcount: '1588'
 ht-degree: 100%
 
 ---
@@ -119,9 +119,9 @@ Suivez les étapes de mise en œuvre présentées dans les liens ci-dessous :
 
 ### Intégration de votre application mobile au SDK Adobe Experience Platform {#integrate-mobile-app}
 
-Le SDK mobile Adobe Experience Platform fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Consultez la [documentation du SDK mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} pour configurer les SDK mobiles Adobe Experience Platform dans votre application.
+Le SDK mobile Adobe Experience Platform fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Consultez la [documentation du SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} pour configurer les SDK mobiles Adobe Experience Platform dans votre application.
 
-À la fin de cette lecture, vous aurez également créé et configuré une propriété mobile dans [!DNL Adobe Experience Platform Data Collection]. En règle générale, vous créez une propriété mobile pour chaque application mobile que vous souhaitez gérer. Découvrez comment créer et configurer une propriété mobile dans la [documentation du SDK mobile Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
+À la fin de cette lecture, vous aurez également créé et configuré une propriété mobile dans [!DNL Adobe Experience Platform Data Collection]. En règle générale, vous créez une propriété mobile pour chaque application mobile que vous souhaitez gérer. Découvrez comment créer et configurer une propriété mobile dans la [documentation du SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 
 ## Étape 1 : ajout des informations dʼidentification push de votre application dans la collecte de données Adobe Experience Platform {#push-credentials-launch}

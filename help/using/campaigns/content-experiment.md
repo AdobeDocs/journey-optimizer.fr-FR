@@ -8,14 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
-hide: true
-hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informative"
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
-source-wordcount: '1145'
-ht-degree: 100%
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -26,23 +23,11 @@ ht-degree: 100%
 >title="Expérience de contenu"
 >abstract="Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de la diffusion afin de définir plusieurs traitements de diffusion et déterminer la meilleure combinaison pour vos audiences."
 
->[!BEGINSHADEBOX]
-
-Cette documentation couvre les sujets suivants :
-
-* [Prise en main de l’expérience de contenu](get-started-experiment.md)
-* **[Créer une expérience de contenu](content-experiment.md)**
-* [Présentation des calculs statistiques](experiment-calculations.md)
-* [Configurer des rapports d’expérience](reporting-configuration.md)
-* [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
-L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel fonctionne le mieux en termes de mesure spécifiée.
-
 >[!NOTE]
 >
 >Avant de commencer l’expérience de contenu, assurez-vous que votre configuration des rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](reporting-configuration.md).
+
+L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel fonctionne le mieux en termes de mesure spécifiée.
 
 Dans l&#39;exemple ci-dessous, la cible de la diffusion a été divisée en deux groupes, représentant chacun 45 % de la population ciblée, et un groupe d’exclusion de 10 %, qui ne recevra pas la diffusion.
 
@@ -72,6 +57,8 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 -->
 1. Sélectionnez votre canal puis la **[!UICONTROL surface]** que vous souhaitez utiliser pour cette diffusion et cliquez sur **[!UICONTROL Créer]**. Pour plus d’informations à ce sujet, consultez la page [Surfaces de canaux](../configuration/channel-surfaces.md).
 
+   Dans cet exemple, nous choisissons d&#39;envoyer une campagne à l&#39;aide d&#39;emails.
+
    ![](assets/content_experiment_2.png)
 
 1. Configurez les **[!UICONTROL Propriétés]** de votre diffusion :
@@ -90,7 +77,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 1. Pour exécuter votre campagne à une date spécifique ou à une fréquence récurrente, configurez la section **[!UICONTROL Planifier]**. [En savoir plus](create-campaign.md).
 
-1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à personnaliser votre diffusion. [En savoir plus](../email/content-from-scratch.md).
+1. Cliquez sur **[!UICONTROL Modifier le contenu]** pour commencer à personnaliser votre diffusion.
 
    ![](assets/content_experiment_17.png)
 
@@ -160,57 +147,4 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_14.png)
 
-Après avoir paramétré votre expérimentation et votre campagne, vous pouvez suivre le succès de votre diffusion avec le rapport de campagne.
-
-## Rapport d’objectifs {#objectives-global}
-
->[!AVAILABILITY]
->
->La fonctionnalité Expérience de contenu est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
-
-![](assets/performance_report.gif)
-
-L’onglet **[!UICONTROL Objectifs]** de votre rapport de campagne vous permet d’affiner davantage les rapports de vos diffusions en ciblant une mesure spécifique.
-
-Les **[!UICONTROL objectifs]** répertoriés sont liés aux **[!UICONTROL Jeux de données]** définissant une connexion à un système afin de récupérer des informations supplémentaires. Une liste d’**[!UICONTROL objectifs]** intégrés est disponible, mais vous pouvez l’accroître en ajoutant un nouveau **[!UICONTROL Jeu de données]**. Pour la procédure détaillée, consultez cette [section](reporting-configuration.md).
-
-Après avoir sélectionné les objectifs que vous souhaitez cibler, les deux widgets **[!UICONTROL Présentation des performances]** et **[!UICONTROL Objectif de la campagne]** fournissent un résumé détaillé des performances de votre diffusion.
-
-Avec le widget **[!UICONTROL Objectif de la campagne]**, vous pouvez également choisir de comparer votre objectif principal à une autre mesure.
-
-Notez que chaque widget peut être redimensionné et supprimé en cas de besoin. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
-
-## Expérimentation rapport {#experimentation-global}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Mesure de succès"
->abstract="Valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils."
-
->[!AVAILABILITY]
->
->La fonctionnalité Expérience de contenu est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
-
-![](assets/experimentation_report_3.png)
-
-L’onglet **[!UICONTROL Expérimentation]** de votre **[!UICONTROL Rapport global]** Campaign détaille les informations principales relatives aux performances de chaque variante et vous indique s’il y a un meilleur résultat.
-
-Notez que la définition de meilleure performance peut prendre un certain temps, elle sera représentée par cette icône ![](assets/experimentation_report_1.png).
-
-Le widget **[!UICONTROL Résultat de l’expérience]** décrit les performances de chaque variante. Vous pouvez modifier votre ligne de base en sélectionnant l’un des traitements du menu déroulant **[!UICONTROL Ligne de base]**. Le meilleur traitement sera signalé par une icône en forme d’étoile.
-
-Le tableau présente les mesures suivantes :
-
-* **[!UICONTROL Profils]** : nombre de profils ciblés pour ce traitement.
-
-* **[!UICONTROL Clics sortants uniques]** : nombre total de clics sur les canaux sortants.
-
-* **[!UICONTROL Nombre par profil]** : valeur totale de la mesure de l’objectif de l’expérience divisée par le nombre de profils.
-
-* **[!UICONTROL Intervalle de confiance]** : différence en pourcentage de performance entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
-
-* **[!UICONTROL Effet élévateur moyen]** : pourcentage d’amélioration du taux de conversion d’un traitement donné par rapport à la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-lift)
-
-* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-confidence)
-
-Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../campaigns/get-started-experiment.md#interpret-results).
+Après avoir paramétré votre expérimentation et votre campagne, vous pouvez suivre le succès de votre diffusion avec le rapport de campagne. [En savoir plus](../reports/campaign-global-report.md#experimentation-report).

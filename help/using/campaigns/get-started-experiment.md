@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1961'
 ht-degree: 100%
 
 ---
 
 # Prise en main des expériences de contenu {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-Cette documentation couvre les sujets suivants :
-
-* **[Prise en main de l’expérience de contenu](get-started-experiment.md)**
-* [Créer une expérience de contenu](content-experiment.md)
-* [Présentation des calculs statistiques](experiment-calculations.md)
-* [Configurer des rapports d’expérience](reporting-configuration.md)
-* [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->La fonctionnalité Expérience de contenu est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
 
 ## Qu’est-ce qu’une expérience de contenu ?
 
@@ -120,7 +101,7 @@ Les méthodes statistiques nous permettent de formaliser cette incertitude. L’
 
 +++Formulez de nouvelles hypothèses et effectuez des tests continuellement
 
-Pour obtenir de véritables insights d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, poursuivez les expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec différentes modifications, sur différents segments, et en examinant l’impact sur les différentes mesures.
+Pour obtenir de véritables informations d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, poursuivez les expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec différentes modifications, sur différents segments, et en examinant l’impact sur les différentes mesures.
 +++
 
 ## Interprétation des résultats de vos expériences {#interpret-results}

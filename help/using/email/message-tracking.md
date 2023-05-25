@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
+workflow-type: tm+mt
+source-wordcount: '1063'
+ht-degree: 87%
 
 ---
 
@@ -63,30 +63,59 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * **[!UICONTROL Lien externe]** : insérez un lien vers une URL externe.
 
-   * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. En savoir plus dans [cette section](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. [En savoir plus](../landing-pages/get-started-lp.md).
 
-   * **[!UICONTROL Opt-out en un clic]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur opt-out. En savoir plus dans [cette section](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Opt-out en un clic]** : insérez un lien pour permettre aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur opt-out. [En savoir plus](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Abonnement/opt-in externe]** : insérez un lien pour accepter la réception de communications de votre marque.
 
-   * **[!UICONTROL Désabonnement/opt-out externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Désabonnement/opt-out externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. En savoir plus dans [cette section](#mirror-page).
+   * **[!UICONTROL Page miroir]**: Ajoutez un lien pour afficher le contenu de l&#39;email dans un navigateur web. [En savoir plus](#mirror-page).
 
-1. Vous pouvez personnaliser vos liens. Pour en savoir plus sur les URL personnalisées, consultez [cette section](../personalization/personalization-syntax.md#perso-urls).
+1. Saisissez l&#39;URL de votre choix dans le champ correspondant, ou sélectionnez une landing page, et définissez les styles et paramètres du lien. [En savoir plus](#adjust-links).
+
+   >[!NOTE]
+   >
+   >Pour interpréter les URL, [!DNL Journey Optimizer] conforme à la syntaxe URI ([Norme RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), qui désactive certains caractères internationaux spéciaux dans les URL. Lors de l’envoi du BAT ou de l’email, si une erreur impliquant une URL ajoutée à votre contenu vous est renvoyée, vous pouvez encoder la chaîne comme solution de contournement.
+
+1. Vous pouvez personnaliser vos liens. [En savoir plus](../personalization/personalization-syntax.md#perso-urls).
 
 1. Enregistrez vos modifications.
 
-1. Une fois le lien créé, vous pouvez toujours le modifier à partir du volet **[!UICONTROL Paramètres des composants]** à droite.
-
-   * Vous pouvez éditer le lien et en modifier le type.
-   * Vous pouvez souligner le lien ou non en cochant l’option correspondante.
+1. Une fois le lien créé, vous pouvez toujours le modifier à partir de la fonction **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** volets à droite.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >Les e-mails de type marketing doivent inclure un [lien de désinscription](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface du canal](../configuration/channel-surfaces.md#email-type) et lors de la création du message.
+
+## Ajuster les liens {#adjust-links}
+
+Vous pouvez ajuster vos liens à l’aide de la variable **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** volets à droite. Vous pouvez souligner un lien, en modifier la couleur et sélectionner sa cible.
+
+1. Dans un composant **[!UICONTROL Texte]** contenant un lien, sélectionnez ce dernier.
+
+1. Dans l’onglet **[!UICONTROL Paramètres]**, choisissez comment votre audience sera redirigée à l’aide du menu déroulant **[!UICONTROL Cible]** :
+
+   * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué (par défaut).
+   * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
+   * **[!UICONTROL Self]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué.
+   * **[!UICONTROL Parent]** : ouvre le lien dans le cadre parent.
+   * **[!UICONTROL Haut]** : ouvre le lien dans le corps complet de la fenêtre.
+
+   ![](assets/link_2.png)
+
+1. Cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
+
+   ![](assets/link_1.png)
+
+1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** dans l’onglet **[!UICONTROL Styles]**.
+
+   ![](assets/link_3.png)
+
+1. Enregistrez vos modifications.
 
 ## Lien vers une page miroir {#mirror-page}
 

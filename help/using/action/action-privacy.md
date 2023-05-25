@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '904'
-ht-degree: 100%
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+workflow-type: tm+mt
+source-wordcount: '900'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Dans Journey Optimizer, vous pouvez appliquer ces politiques à vos actions per
 Pour plus d’informations sur le cadre de gouvernance des données et sur l’utilisation des libellés et des politiques, consultez la documentation d’Adobe Experience Platform :
 
 * [Présentation du service de gouvernance des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr)
-* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr)
+* [Présentation des libellés d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [Politiques d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr)
 
 ## Remarques importantes {#important-notes}
@@ -48,7 +48,7 @@ Vous pouvez utiliser des actions marketing, des politiques et des étiquettes ex
 * Définissez une action marketing pour chaque action personnalisée tierce utilisée dans vos parcours.
 * Créez une politique de gouvernance et associez-la à l’étiquette et à l’action marketing.
 
-Pour en savoir plus sur la gestion des politiques, consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
+Pour en savoir plus sur la gestion des politiques, consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy?lang=fr).
 
 Prenons l’exemple du champ correspondant au groupe sanguin, que vous devez étiqueter comme sensible et dont vous devez limiter l’exportation vers un tiers. Voici la procédure à suivre :
 

@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +90,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
    >[!NOTE]
    >
-   >Actuellement, seuls Amazon S3 et SFTP sont pris en charge dans [!DNL Journey Optimizer].
+   >Actuellement, Amazon S3, SFTP et Azure sont pris en charge dans [!DNL Journey Optimizer].
 
 1. Renseignez les détails et les informations d’identification de votre serveur, telles que l’adresse du serveur, la clé d’accès, etc.
 
@@ -116,7 +116,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 >id="ajo_dm_surface_settings"
 >title="Définir les paramètres du publipostage direct"
 >abstract="Une surface de publipostage direct contient les paramètres de formatage du fichier qui contient les données de l’audience ciblée et qui seront utilisées par le fournisseur du publipostage direct. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration du routage du fichier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=fr#file-routing-configuration" text="Configurer le routage des fichiers"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Configurer le routage des fichiers"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ Une surface de publipostage direct doit également inclure la configuration du r
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Sélectionnez le format du fichier : **[!UICONTROL CSV]** ou **[!UICONTROL Texte délimité]**.
+
+1. Si vous sélectionnez **[!UICONTROL Texte délimité]**, définissez le séparateur de colonne de votre choix : tabulation, point-virgule, barre verticale ou esperluette.
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. Sélectionnez la **[!UICONTROL Configuration du routage des fichiers]** parmi celles que vous avez créées. Ceci définit l’endroit où le fichier sera exporté pour que votre fournisseur de publipostage direct l’utilise.
 

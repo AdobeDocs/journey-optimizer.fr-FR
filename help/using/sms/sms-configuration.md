@@ -6,9 +6,9 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
-workflow-type: ht
-source-wordcount: '848'
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+workflow-type: tm+mt
+source-wordcount: '846'
 ht-degree: 100%
 
 ---

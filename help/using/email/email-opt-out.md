@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Afin de permettre aux destinataires de se désinscrire des communications par e-
 
 Pour cela vous pouvez :
 
-* Insérer dans un e-mail un **lien vers une page de destination externe** afin de permettre aux utilisateur(utilisatrice)s d’annuler leur inscription aux communications de votre marque. [Découvrez comment ajouter un lien de désinscription externe.](#opt-out-external-lp)
+* Insérer dans un e-mail un **lien vers une page de destination externe** afin de permettre aux utilisateur(utilisatrice)s d’annuler leur inscription aux communications de votre marque. [Découvrez comment ajouter un lien d’exclusion externe](#opt-out-external-lp)
 
 * Ajoutez un **lien de désinscription en un clic** dans le contenu de votre e-mail. Ce lien permettra à vos destinataires de se désinscrire rapidement de vos communications, sans être redirigés vers une page de destination dans laquelle ils doivent confirmer leur désinscription. Cela permet d’accélérer le processus de désinscription. [Découvrez comment ajouter un lien de désinscription en un clic.](#one-click-opt-out)
 
@@ -30,7 +30,7 @@ De plus, si l’option **[!UICONTROL List-Unsubscribe]** est activée au niveau 
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un lien de désinscription, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface de canal](../configuration/channel-surfaces.md#email-type) (c’est-à-dire au niveau du préréglage du message) et lors de la création du message.
+>Les e-mails de type marketing doivent inclure un lien de désinscription, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est défini au niveau de la variable [surface du canal](../configuration/channel-surfaces.md#email-type) niveau et lors de la création du message).
 
 ## Désinscription externe {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ Pour que vos destinataires soient désinscrit(e)s lorsqu’ils ou elles envoient
 
 Cet appel POST est le suivant :
 
-Point dʼentrée : platform.adobe.io/journey/imp/consent/preferences
+Point d’entrée : https://platform.adobe.io/journey/imp/consent/preferences
 
 Paramètres de requête:
 
 * **params** : contient la payload chiffrée
-* **sig** : signature
 * **pid** : identifiant de profil chiffré
 
 Ces trois paramètres seront inclus dans l’URL de page de destination tierce envoyée à votre destinataire :

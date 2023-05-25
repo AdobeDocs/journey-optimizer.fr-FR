@@ -9,18 +9,15 @@ keywords: in-app, message, création, commencer
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
-workflow-type: ht
-source-wordcount: '553'
+badge: label="Beta" type="Informative"
+source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
 
-# Créer un message in-app dans un parcours {#create-in-app-journey}
-
->[!AVAILABILITY]
->
->L’activité in-app est actuellement disponible en version Beta pour certains utilisateurs et certaines utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+# Créer un message in-app dans un parcours. {#create-in-app-journey}
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL In-app]** depuis la section **[!UICONTROL Actions]** de la palette.
 

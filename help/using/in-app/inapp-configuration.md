@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
    * Mobile Core
    * Profile
 
-   Voir [cette page](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=fr#add-a-new-extension) pour la procédure détaillée.
+   Voir [cette page](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) pour la procédure détaillée.
 
    ![](assets/inapp_config_5.png)
 
