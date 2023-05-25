@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -30,18 +27,6 @@ ht-degree: 100%
 >id="ajo_admin_reporting_dataset"
 >title="Sélectionner un jeu de données"
 >abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement qui doit contenir au moins l’un des groupes de champs pris en charge : Détails de l’application, Détails du commerce, Détails web."
-
->[!BEGINSHADEBOX]
-
-Cette documentation couvre les sujets suivants :
-
-* [Prise en main de l’expérience de contenu](get-started-experiment.md)
-* [Créer une expérience de contenu](content-experiment.md)
-* [Présentation des calculs statistiques](experiment-calculations.md)
-* **[Configurer des rapports d’expérience](reporting-configuration.md)**
-* [Calculs statistiques dans le rapport d’expérience](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +45,7 @@ Pour cette configuration, vous devez ajouter un ou plusieurs jeu(x) de données 
 ## Conditions préalables
 
 
-Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment faire cela dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#create){target="_blank"}.
+Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment faire cela dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Vous pouvez uniquement ajouter des jeux de données de type événement.
 
