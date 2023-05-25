@@ -23,7 +23,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
 >title="Configurer une liste d’abonnements"
->abstract="Créez une liste d’abonnements afin de rassembler les profils ayant accepté de recevoir des communications sur un sujet ou un événement spécifique. "
+>abstract="Créez une liste d’abonnements afin de rassembler les profils ayant accepté de recevoir des communications sur un objet ou un événement spécifique. "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=fr#define-subscription-list" text="Créer une liste dʼabonnements"
 
 Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt spécifique etc. de manière régulière. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
