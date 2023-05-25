@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 80%
 
 ---
@@ -167,11 +167,11 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 **Canal SMS**
 
 * Infobip a été ajouté en tant que fournisseur lors de la configuration des surfaces de vos canaux SMS. [En savoir plus](../sms/sms-configuration.md).
-* Twillio - La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twilio.
+* Twillio - La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twilio. [En savoir plus](../sms/sms-configuration.md).
 
 **Canal in-app**
 
-* Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service.
+* Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service. [En savoir plus](../in-app/inapp-configuration.md).
 * Ajout de nouvelles fonctionnalités Adobe Experience Platform Assurance permettant de capturer des événements de périphérique à ajouter en tant que règles de déclenchement.
 
 **Parcours**
@@ -180,13 +180,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 **Campagnes**
 
-* Il est désormais possible de dupliquer une campagne à partir de l’écran d’inventaire à l’aide du menu d’action représentant des points de suspension.
+* Il est désormais possible de dupliquer une campagne à partir de l’écran d’inventaire à l’aide du menu d’action représentant des points de suspension. [En savoir plus](../campaigns/modify-stop-campaign.md#duplicate).
 * Vous pouvez désormais supprimer les modifications préliminaires d’une campagne en direct.
-* Les étapes d’activation d’une campagne ont été simplifiées.
+* Les étapes d’activation d’une campagne ont été simplifiées. [En savoir plus](../campaigns/modify-stop-campaign.md).
 
 **Gestion des décisions**
 
-* Vous pouvez désormais modifier le plafonnement de la fréquence si l’offre contient la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
+* Vous pouvez désormais modifier le plafonnement de la fréquence si l’offre contient la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping).
 
 **Personnalisation**
 
