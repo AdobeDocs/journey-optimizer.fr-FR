@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 84%
+source-wordcount: '2530'
+ht-degree: 79%
 
 ---
 
@@ -155,6 +155,23 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
 
 **Audiences**
+
+* En vue de la disponibilité générale de la fonction Audience Portal, Adobe Experience Platform met à jour l’utilisation des &quot;audiences&quot; et des &quot;segments&quot; dans le système et dans la documentation.
+
+   * Public : Ensemble de personnes, de comptes, de ménages ou d’autres entités qui partagent des caractéristiques et des comportements communs.
+   * Définition de segment : Dans Adobe Experience Platform, les règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible. Ce terme était auparavant appelé &quot;segment&quot;.
+
+   Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur de Adobe Experience Platform, &quot;Segments&quot; est remplacé par &quot;Audiences&quot; pour refléter ce nouveau chemin de création et de gestion de l’audience.
+
+   Les modifications seront progressivement déployées avec la prochaine interface utilisateur et les prochaines versions de la documentation.
+
+   Les traductions du terme &quot;audience&quot; lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans tous les produits Digital Experience pour les langues suivantes :
+
+   * Allemand : Zielgruppe
+   * Portugais brésilien : público-alvo
+   * Espagnol : público desatario
+
+
 
 * Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences.
 
