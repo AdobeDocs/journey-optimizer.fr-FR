@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2477'
 ht-degree: 80%
 
 ---
@@ -22,11 +22,11 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour initiales de mai 2023 {#may-rn-2023}
+## Notes de mise à jour de mai 2023 {#may-rn-2023}
 
-Les informations ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication de la version et des liens directs seront ajoutés sur cette page.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**** Date de mise à jour : 25 mai 2023
+**Release date**: May 25, 2023-->
 
 ### Nouvelles fonctionnalités{#may-2023-features}
 
@@ -60,7 +60,7 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 <td>
 <p>Adobe Journey Optimizer prend désormais en charge les expériences dans les campagnes. Les expériences sont des essais randomisés, ce qui signifie que, dans le cadre des tests en ligne, vous exposez certains utilisateurs sélectionnés de manière aléatoire à une variante donnée d’un message, et un autre ensemble d’utilisateurs sélectionnés de manière aléatoire à une autre variante ou traitement. Après l’exposition, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, telles que les ouvertures d’emails, les abonnements ou les achats.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../campaigns/content-experiment.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 <td>
 <p>Vous pouvez désormais créer, utiliser et gérer des fragments pour assembler rapidement vos emails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs emails à l’échelle des campagnes et parcours Journey Optimizer pour un processus de conception amélioré et accéléré.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../email/fragments.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -144,14 +144,6 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
 ### Améliorations {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Audiences**
@@ -163,21 +155,18 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
    Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur de Adobe Experience Platform, &quot;Segments&quot; est remplacé par &quot;Audiences&quot; pour refléter ce nouveau chemin de création et de gestion de l’audience.
 
-   Les modifications seront progressivement déployées avec la prochaine interface utilisateur et les prochaines versions de la documentation.
-
-   Les traductions du terme &quot;audience&quot; lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans tous les produits Digital Experience pour les langues suivantes :
+   Les traductions du terme &quot;audience&quot; lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans l’ensemble des produits Digital Experience pour certaines langues :
 
    * Allemand : Zielgruppe
    * Portugais brésilien : público-alvo
    * Espagnol : público desatario
 
 
-
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **Canal SMS**
 
-* Infobip a été ajouté en tant que fournisseur lors de la configuration des surfaces de vos canaux SMS.
+* Infobip a été ajouté en tant que fournisseur lors de la configuration des surfaces de vos canaux SMS. [En savoir plus](../sms/sms-configuration.md).
 * Twillio - La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twilio.
 
 **Canal in-app**
@@ -197,7 +186,7 @@ Les informations ci-dessous peuvent être modifiées sans avertissement préalab
 
 **Gestion des décisions**
 
-* Vous pouvez désormais modifier le plafonnement de la fréquence si l’offre a le statut En création et n’a jamais été publiée auparavant.
+* Vous pouvez désormais modifier le plafonnement de la fréquence si l’offre contient la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personnalisation**
 
