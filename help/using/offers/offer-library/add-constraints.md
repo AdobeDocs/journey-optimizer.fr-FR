@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 98%
+source-wordcount: '2385'
+ht-degree: 95%
 
 ---
 
@@ -140,16 +140,6 @@ Pour faire simple, la sortie d’un segment est une liste de profils, tandis qu�
 >abstract="Pour éviter de sursolliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=fr#capping-change-date" text="La modification des dates peut avoir un impact sur la limitation."
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="Définir la fréquence de limitation"
->abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. Notez qu’après avoir enregistré votre offre, vous ne pourrez plus modifier la fréquence sélectionnée."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="L’utilisation des impressions comme événements de limitation n’est disponible que pour les canaux entrants."
-
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 
 Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clients et donc d’optimiser chaque point de contact avec la meilleure offre.
@@ -183,6 +173,11 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 >Les compteurs de limitation seront réinitialisés à l’expiration de l’offre ou 2 ans après la date de début de l’offre, le premier événement prévalant. Découvrez comment définir la date d’une offre dans [cette section](creating-personalized-offers.md#create-offer).
 
 ### Événement de limitation {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impression"
+>abstract="L’utilisation des impressions comme événements de limitation n’est disponible que pour les canaux entrants."
 
 Le champ **[!UICONTROL Événement de limitation]** vous permet de définir l’**[!UICONTROL Événement de limitation]** à prendre en compte pour augmenter le compteur :
 
@@ -250,6 +245,11 @@ Vous pouvez également indiquer si vous souhaitez que la limitation soit appliqu
 
 ### Limitation de la fréquence {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Définir la fréquence de limitation"
+>abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. Notez qu’après la publication de l’offre avec la limitation de fréquence activée, vous ne pourrez pas modifier la fréquence définie."
+
 La section **[!UICONTROL Fréquence]** vous permet de définir la fréquence à laquelle le nombre de limitations est réinitialisé. Pour ce faire, définissez la période du comptage (tous les jours, toutes les semaines ou tous les mois) et saisissez le nombre de jours, semaines ou mois de votre choix.
 
 ![](../assets/offer-capping-frequency.png)
@@ -262,7 +262,9 @@ Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé 
 
 >[!CAUTION]
 >
->Une fois que vous avez enregistré votre offre, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence.
+>Après avoir publié votre offre, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence.
+>
+>Vous pouvez toujours modifier le plafonnement de la fréquence si l’offre contient la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée.
 
 ### Limitation et emplacements {#placements}
 
