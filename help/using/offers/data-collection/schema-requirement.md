@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 79%
 
 ---
 
@@ -99,6 +99,15 @@ Assurez-vous que le type d’événement et la source sont les suivants :
 ## Suivi des événements personnalisés
 
 Pour les événements personnalisés, le schéma utilisé dans le jeu de données doit également être associé au groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]**. Il n’y a toutefois aucune exigence spécifique quant au type d’événement d’expérience qui doit être utilisé pour baliser ces événements.
+
+>[!NOTE]
+>
+>Pour que vos événements personnalisés soient pris en compte dans [capping de la fréquence](../offer-library/add-constraints.md#capping), vous devez connecter l’événement d’expérience aux points de terminaison Adobe Experience Platform en l’envoyant à l’un de ces deux points de terminaison de collecte de données Edge :
+>
+>* POST /ee/v2/interaction
+>* POST /ee/v2/collect
+>
+>Si vous utilisez la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.
 
 <!--
 ## Using a ranking strategy {#using-ranking}
