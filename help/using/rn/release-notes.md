@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 80%
+source-wordcount: '2466'
+ht-degree: 81%
 
 ---
 
@@ -174,9 +174,11 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 * Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service. [En savoir plus](../in-app/inapp-configuration.md).
 * Ajout de nouvelles fonctionnalités Adobe Experience Platform Assurance permettant de capturer des événements de périphérique à ajouter en tant que règles de déclenchement.
 
-**Parcours**
+<!--
+**Journeys**
 
-* Vous pouvez désormais exploiter les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **Campagnes**
 
