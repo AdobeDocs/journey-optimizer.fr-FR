@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
+source-git-commit: cb5e5781002650c4ddb1f62dcc66d8196675b3a4
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ sur une application, un appareil ou un canal.
 
 Les fonctionnalités principales sont les suivantes :
 
-* **Connaissance du client et engagement en temps réel** : un profil intégré fusionne les données actives de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d&#39;optimiser les expériences personnelles et contextuelles des clients en temps réel.
+* **Informations sur le client et engagement en temps réel** : un profil intégré fusionne les données actives de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d&#39;optimiser les expériences personnelles et contextuelles des clients en temps réel.
 
 * **Exécution et orchestration omnicanal modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l&#39;engagement client 1:1 et les activités marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
 
@@ -67,5 +67,4 @@ Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les poin
 * [Étapes clés pour débuter](quick-start.md)
 * [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md)
 * [Rapports dynamiques](../reports/live-report.md)
-* [FAQ sur Journey Optimizer](assets/do-not-localize/AJO-FAQ.pdf) (PDF)
 * [Aperçu de la sécurité de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
