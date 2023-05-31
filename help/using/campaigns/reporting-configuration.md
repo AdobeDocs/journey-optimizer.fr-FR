@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+source-wordcount: '564'
+ht-degree: 93%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 98%
 >title="Sélectionner un jeu de données"
 >abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement qui doit contenir au moins l’un des groupes de champs pris en charge : Détails de l’application, Détails du commerce, Détails web."
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+La configuration de la source de données de rapports vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos rapports.
 
-La configuration de la source de données de rapports vous permet de récupérer des mesures supplémentaires qui seront utilisées sous l’onglet **[!UICONTROL Objectifs]** de vos rapports de campagne. [En savoir plus](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Avant de pouvoir ajouter un jeu de données à la configuration de création de 
 
    De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champ **Détails de l’application**.
 
-   Les mesures correspondant à chaque groupe de champs sont répertoriées [ici](#objective-list).
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * Vous pouvez ajouter ces groupes de champs à un ou plusieurs schémas qui seront utilisés dans un ou plusieurs jeux de données.
 
@@ -67,15 +67,17 @@ Avant de pouvoir ajouter un jeu de données à la configuration de création de 
 >
 >Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 
-## Objectifs correspondant à chaque groupe de champs {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-Le tableau ci-dessous indique les mesures qui seront ajoutées à l’onglet **[!UICONTROL Objectifs]** de vos rapports de campagne pour chaque groupe de champs.
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| Groupe de champs | Objectifs |
+| Field group | Objectives |
 |--- |--- |
-| Informations commerciales | Prix total<br>Montant du paiement<br>Passages en caisse (uniques)<br>Ajouts de listes de produits (uniques)<br>Ouvertures de listes des produits (uniques)<br>Suppression de la liste des produits (unique)<br>Vues de liste des produits (uniques)<br>Consultations de produit (uniques)<br>Achats (uniques)<br>Enregistrer pour plus tard (unique)<br>Prix total du produit<br>Nombre de produits |
-| Détails de l’application | Lancements d’application (uniques)<br>Premiers lancements d’applications<br>Installations de l’application (uniques)<br>Mises à niveau d’application (uniques) |
-| Informations web | Pages vues (uniques) |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## Ajouter des jeux de données {#add-datasets}
 
@@ -123,15 +125,16 @@ Le tableau ci-dessous indique les mesures qui seront ajoutées à l’onglet **[
    >
    >Si vous avez sélectionné un jeu de données qui n’est pas de type événement, vous ne pourrez pas continuer.
 
-Lors de la création des rapports de campagne, vous pouvez désormais voir les mesures correspondant aux groupes de champs utilisés dans les jeux de données que vous avez ajoutés. Allez à l’onglet **[!UICONTROL Objectifs]** et sélectionnez les mesures de votre choix pour affiner davantage vos rapports. [En savoir plus](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->Si vous ajoutez plusieurs jeux de données, toutes les données de tous les jeux de données seront disponibles pour la création de rapports.
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.
