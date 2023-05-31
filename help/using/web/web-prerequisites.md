@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
-workflow-type: ht
-source-wordcount: '872'
-ht-degree: 100%
+source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -111,15 +111,11 @@ Pour les pages sous authentification, si le chargement de la page de connexion �
 
 Pour que l’expérience web soit correctement diffusée, les paramètres suivants doivent être définis :
 
-* Dans la [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous qu’un flux de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, les deux options suivantes soient activées : **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]**.
+* Dans le [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous que le flux de données est défini comme sous **[!UICONTROL Adobe Experience Platform]** service que vous avez **[!UICONTROL Adobe Journey Optimizer]** activée.
 
    Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target="_blank"}.
 
    ![](assets/web-aep-datastream-ajo.png)
-
-   >[!NOTE]
-   >
-   >L’option **[!UICONTROL Adobe Journey Optimizer]** ne peut être activée que lorsque l’option **[!UICONTROL Segmentation Edge]** est déjà activée.
 
 * Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
 
