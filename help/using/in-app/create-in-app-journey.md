@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 91%
+source-wordcount: '531'
+ht-degree: 82%
 
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 91%
    * **[!UICONTROL Afficher une fois]** : n’afficher ce message que la première fois que les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
    * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
 
+1. Sélectionnez le jour de la semaine et l’heure spécifique à laquelle votre message in-app doit être déclenché, puis cliquez sur **[!UICONTROL Enregistrer]**.
+
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
 1. Une fois votre message in-app prêt, finalisez la configuration et publiez votre parcours pour l’activer.
@@ -70,7 +72,7 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
 * Les activités **[!UICONTROL Réaction]** ne peuvent pas être utilisées pour réagir à une ouverture ou un clic in-app.
 
-* Un délai d’activation se produit entre le moment où le profil d’une personne atteint une activité in-app dans la zone de travail et le moment où ladite personne commence à voir ce message in-app. Ce délai peut aller de 15 minutes à 1 heure.
+* Un délai d’activation peut survenir entre le moment où un profil utilisateur atteint une activité In-App dans la zone de travail et le moment où il commence à voir ce message in-app.
 
 **Rubriques connexes :**
 
