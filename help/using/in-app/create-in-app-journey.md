@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 50afe137c618153278c596f1553216c20637e40b
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 91%
 
 ---
 
@@ -37,21 +37,20 @@ ht-degree: 100%
 
    ![](assets/in_app_journey_4.png)
 
-1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
+1. Dans la **[!UICONTROL Déclencheur de message in-app]** , sélectionnez le ou les événements et critères qui déclencheront votre message :
+
+   1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
+   1. Dans la **[!UICONTROL Sélection d’un événement]** , sélectionnez le type d’événement de votre déclencheur.
+   1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
+   1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
+
+   ![](assets/in_app_journey_3.png)
+
+1. Sélectionnez la fréquence de déclenchement lorsque votre message in-app est principal :
 
    * **[!UICONTROL Afficher à chaque fois]** : toujours afficher le message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
    * **[!UICONTROL Afficher une fois]** : n’afficher ce message que la première fois que les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
    * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
-
-1. Dans le ou les menus déroulants **[!UICONTROL Déclencheur d’application mobile]**, choisissez le ou les événements et les critères qui déclencheront votre message :
-
-   1. Dans le menu déroulant de gauche, sélectionnez l’événement nécessaire pour déclencher le message.
-   1. Dans le menu déroulant de droite, sélectionnez la validation requise pour l’événement sélectionné.
-   1. Cliquez sur le bouton **[!UICONTROL Ajouter]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères. Répétez ensuite les étapes ci-dessus.
-   1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
-   1. Cliquez sur **[!UICONTROL Enregistrer]** une fois vos triggers configurés.
-
-   ![](assets/in_app_journey_3.png)
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
