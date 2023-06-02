@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
+source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 82%
+source-wordcount: '555'
+ht-degree: 79%
 
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 82%
    * **[!UICONTROL Afficher à chaque fois]** : toujours afficher le message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
    * **[!UICONTROL Afficher une fois]** : n’afficher ce message que la première fois que les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
    * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
+   * **[!UICONTROL X nombre de fois]**: N’affiche que le message un nombre spécifique de fois, déterminé par la valeur définie dans la variable **[!UICONTROL Temps d’affichage]** champ .
 
 1. Sélectionnez le jour de la semaine et l’heure spécifique à laquelle votre message in-app doit être déclenché, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
