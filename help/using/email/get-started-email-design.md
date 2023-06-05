@@ -48,7 +48,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
    * **Concevez vos e-mails en partant de zéro** dans l’interface du Concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
 
-   * **Codez ou collez du code HTML brut** directement dans le concepteur d’email. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
+   * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 
       >[!NOTE]
       >
@@ -66,7 +66,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 ## Tutoriels vidéo {#video}
 
-Découvrez comment créer du contenu d&#39;e-mail avec l&#39;éditeur de messages.
+Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 

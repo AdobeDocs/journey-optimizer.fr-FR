@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 23 mai ont été présentées dans la documentation. [En savoir plus](release-notes.md).
 * Une nouvelle page a été ajoutée pour décrire comment configurer le sous-domaine qui sera utilisé pour publier du contenu provenant d’Adobe Experience Manager Assets Essentials dans vos expériences web. [En savoir plus](../web/web-delegated-subdomains.md).
-* Une nouvelle sous-section a été ajoutée pour expliquer comment ajouter des paramètres de tracking personnalisés aux URL dans le Concepteur d&#39;email - [En savoir plus](../email/message-tracking.md#url-tracking).
-* Une nouvelle section a été ajoutée pour décrire comment garantir le respect du choix de vos clients qui refusent l’utilisation de leurs données de profil pour la personnalisation. [En savoir plus](../privacy/opt-out.md#opt-out-personalization).
-* Ajout d’une note sur l’utilisation de caractères internationaux spéciaux dans les URL incluses dans les contenus d’email - [En savoir plus](../email/message-tracking.md#insert-links).
-* L’autorisation nécessaire pour tester et publier des landing pages a été ajoutée. [En savoir plus](../landing-pages/create-lp.md).
-* Une note a été ajoutée au sujet des points de terminaison Adobe Experience Platform nécessaires pour que vos événements personnalisés soient pris en compte dans la limitation de la fréquence de la gestion de la décision. [En savoir plus](../offers/data-collection/schema-requirement.md#track-custom-events).
+* Une nouvelle sous-section a été ajoutée pour expliquer comment ajouter des paramètres de tracking personnalisés aux URL dans le Concepteur d’e-mail. [En savoir plus](../email/message-tracking.md#url-tracking).
+* Une nouvelle section a été ajoutée pour décrire comment garantir le respect du choix de vos clientes et clients qui refusent l’utilisation de leurs données de profil pour la personnalisation. [En savoir plus](../privacy/opt-out.md#opt-out-personalization).
+* Un note a été ajoutée sur l’utilisation de caractères internationaux spéciaux dans les URL incluses dans les contenus d’e-mail. [En savoir plus](../email/message-tracking.md#insert-links).
+* L’autorisation nécessaire pour tester et publier des pages de destination a été ajoutée. [En savoir plus](../landing-pages/create-lp.md).
+* Une note a été ajoutée au sujet des points d’entrée Adobe Experience Platform nécessaires pour que vos événements personnalisés soient pris en compte dans le capping de la fréquence de la gestion des décisions. [En savoir plus](../offers/data-collection/schema-requirement.md#track-custom-events).
 
 ## Avril 2023 {#apr-2023}
 

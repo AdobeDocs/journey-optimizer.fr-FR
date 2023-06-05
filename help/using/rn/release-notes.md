@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour de mai 2023 {#may-rn-2023}
+## Notes de mise à jour de mai 2023 {#may-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -52,13 +52,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Expérience de contenu dans les campagnes</strong><br/></th>
+<th><strong>Expérimentation de contenu dans les campagnes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer prend désormais en charge les expériences dans les campagnes. Les expériences sont des essais randomisés, ce qui signifie que, dans le cadre des tests en ligne, vous exposez certains utilisateurs sélectionnés de manière aléatoire à une variante donnée d’un message, et un autre ensemble d’utilisateurs sélectionnés de manière aléatoire à une autre variante ou traitement. Après l’exposition, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, telles que les ouvertures d’emails, les abonnements ou les achats.</p>
+<p>Adobe Journey Optimizer prend désormais en charge les expériences dans les campagnes. Les expériences sont des essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que vous exposez certains utilisateurs et utilisatrices sélectionnés de manière aléatoire à une variante donnée d’un message et un autre ensemble d’utilisateurs et utilisatrices sélectionnés de manière aléatoire à une autre variation de traitement. Après l’exposition, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’e-mails, les abonnements ou les achats.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/content-experiment.md">documentation détaillée</a>.</p>
 </td>
@@ -89,13 +89,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Créer et utiliser des fragments dans le contenu de votre email</strong><br/></th>
+<th><strong>Créer et utiliser des fragments dans le contenu de votre e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer, utiliser et gérer des fragments pour assembler rapidement vos emails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs emails à l’échelle des campagnes et parcours Journey Optimizer pour un processus de conception amélioré et accéléré.</p>
+<p>Vous pouvez désormais créer, utiliser et gérer des fragments pour rédiger rapidement vos e-mails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini, qui peut être intégré à plusieurs e-mails dans les campagnes et parcours Journey Optimizer, pour un processus de conception amélioré et plus rapide.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../email/fragments.md">documentation détaillée</a>.</p>
 </td>
@@ -107,7 +107,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Utilisation des balises dans vos campagnes (version bêta)</strong><br/></th>
+<th><strong>Utiliser des balises dans vos campagnes (version Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -126,13 +126,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Modèle de classement d’Optimization AI personnalisé (Disponibilité générale)</strong><br/></th>
+<th><strong>Modèle de classement AI d’optimisation personnalisée (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les modèles de classement de l’IA d’optimisation personnalisée sont désormais disponibles dans la gestion de la décision. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
+<p>Les modèles de classement AI d’optimisation personnalisée sont désormais disponibles dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
 </td>
@@ -148,18 +148,18 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 **Audiences**
 
-* En vue de la disponibilité générale de la fonction Audience Portal, Adobe Experience Platform met à jour l’utilisation des &quot;audiences&quot; et des &quot;segments&quot; dans le système et dans la documentation.
+* En vue de la disponibilité générale de la fonctionnalité Audience Portal, Adobe Experience Platform met à jour l’utilisation d’audiences et de segments dans le système et dans la documentation.
 
-   * Public : Ensemble de personnes, de comptes, de ménages ou d’autres entités qui partagent des caractéristiques et des comportements communs.
-   * Définition de segment : Dans Adobe Experience Platform, les règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible. Ce terme était auparavant appelé &quot;segment&quot;.
+   * Audience : ensemble de personnes, de comptes, de foyers ou d’autres entités qui partagent des caractéristiques et des comportements communs.
+   * Définition d’un segment : règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible dans Adobe Experience Platform. Ce terme était auparavant appelé « segment ».
 
-   Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur de Adobe Experience Platform, &quot;Segments&quot; est remplacé par &quot;Audiences&quot; pour refléter ce nouveau chemin de création et de gestion de l’audience.
+   Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur d&#39;Adobe Experience Platform, « Segments » est remplacé par « Audiences » pour refléter ce nouveau chemin de création et de gestion d’audience.
 
-   Les traductions du terme &quot;audience&quot; lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans l’ensemble des produits Digital Experience pour certaines langues :
+   Les traductions du terme « audience » lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans l’ensemble des produits de l’expérience digitale pour certaines langues :
 
-   * Allemand : Zielgruppe
-   * Portugais brésilien : público-alvo
-   * Espagnol : público desatario
+   * Allemand : Zielgruppe
+   * Portugais brésilien : público-alvo
+   * Espagnol : público desatario
 
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
@@ -167,12 +167,12 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 **Canal SMS**
 
 * Infobip a été ajouté en tant que fournisseur lors de la configuration des surfaces de vos canaux SMS. [En savoir plus](../sms/sms-configuration.md).
-* Twillio - La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twilio. [En savoir plus](../sms/sms-configuration.md).
+* Twillio – La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twillio. [En savoir plus](../sms/sms-configuration.md).
 
 **Canal in-app**
 
-* Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service. [En savoir plus](../in-app/inapp-configuration.md).
-* Ajout de nouvelles fonctionnalités Adobe Experience Platform Assurance permettant de capturer des événements de périphérique à ajouter en tant que règles de déclenchement.
+* Ajout de nouvelles règles de déclenchement de message pour Adobe Places Service. [En savoir plus](../in-app/inapp-configuration.md).
+* Ajout de nouvelles fonctionnalités Adobe Experience Platform Assurance permettant de capturer des événements d’appareil à ajouter en tant que règles de déclenchement.
 
 <!--
 **Journeys**
@@ -183,20 +183,20 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 **Campagnes**
 
 * Il est désormais possible de dupliquer une campagne à partir de l’écran d’inventaire à l’aide du menu d’action représentant des points de suspension. [En savoir plus](../campaigns/modify-stop-campaign.md#duplicate).
-* Vous pouvez désormais supprimer les modifications préliminaires d’une campagne en direct.
+* Vous pouvez désormais supprimer les brouillons des modifications d’une campagne active.
 * Les étapes d’activation d’une campagne ont été simplifiées. [En savoir plus](../campaigns/modify-stop-campaign.md).
 
 **Gestion des décisions**
 
-* Vous pouvez désormais modifier le plafonnement de la fréquence si l’offre contient la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping).
+* Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec le capping de la fréquence activée. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping).
 
 **Personnalisation**
 
-* Vous pouvez désormais sélectionner et insérer des références de ressources directement à partir de l’éditeur de personnalisation lorsque vous travaillez dans le contenu du HTML.
+* Vous pouvez désormais sélectionner et insérer des références de ressources directement à partir de l’éditeur de personnalisation lorsque vous travaillez dans du contenu HTML.
 
 ### Correctifs{#may-2023-fixes}
 
-* Messages in-app : correction d’un problème en raison duquel la planification de campagne était en conflit avec les paramètres de fréquence des messages.
+* Messages in-app : correction d’un problème en raison duquel la planification de campagne était en conflit avec les paramètres de fréquence des messages.
 
 
 ## Notes de mise à jour d’avril 2023 {#apr-rn-2023}
@@ -226,7 +226,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Processus de démarrage rapide de l’intégration mobile (bêta)</strong><br/></th>
+<th><strong>Workflow de démarrage rapide de l’intégration mobile (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -243,7 +243,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Nouveau tableau de bord de Parcours (version bêta)</strong><br/></th>
+<th><strong>Nouveau tableau de bord des parcours (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -386,7 +386,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Canal In-App (bêta)</strong><br/></th>
+<th><strong>Canal in-app (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -404,7 +404,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Exportation des jeux de données Journey Optimizer vers des destinations de stockage dans le cloud (version bêta)</strong><br/></th>
+<th><strong>Exporter des jeux de données Journey Optimizer vers des destinations d’espace de stockage (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -497,7 +497,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Liste autorisée** : vous pouvez désormais télécharger la liste autorisée sous la forme d’un fichier .csv. [En savoir plus](../configuration/allow-list.md#download-allowed-list).
 
-* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’email. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l‘**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’email ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#reply-to-email).
+* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’email. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l’**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’email ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#reply-to-email).
 
 * **Surface d’email** : dans la section **Paramètres de suivi des URL** des paramètres de surface d’e-mail, la limite de chaque champ **Valeur** a été mise à jour de 255 caractères à 5 Ko pour des raisons de compatibilité avec le suivi Adobe Analytics. [En savoir plus](../email/email-settings.md#url-tracking)
 

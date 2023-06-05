@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL GESTION DES DÉCISIONS]**
 
-* **[!UICONTROL Offres]** - Accédez à vos sources et jeux de données récents à partir de ce menu. Utilisez cette section pour créer des offres. [En savoir plus](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offres]** - Accédez à vos sources et jeux de données récents à partir de ce menu. Cette section vous permet de créer des offres. [En savoir plus](../offers/offer-library/creating-personalized-offers.md).
 
-* **[!UICONTROL Composants]** - Créez des emplacements, des règles et des balises. [En savoir plus](../offers/offer-library/key-steps.md)
+* **[!UICONTROL Composants]** : créez des emplacements, des règles et des balises. [En savoir plus](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL GESTION DE CONTENU]**
 
@@ -71,11 +71,11 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL CONNEXIONS]**
 
-* **[!UICONTROL Sources]** - Utilisez ce menu pour ingérer des données provenant de diverses sources, telles que des applications d’Adobe, des entrepôts dans le cloud, des bases de données, etc. Vous pouvez structurer, étiqueter et améliorer les données entrantes. [En savoir plus](get-started-sources.md)
+* **[!UICONTROL Sources]** : ce menu vous permet d’ingérer des données provenant de différentes sources (applications Adobe, espaces de stockage dans le cloud, bases de données, etc.). Vous pouvez structurer, étiqueter et améliorer les données entrantes. [En savoir plus](get-started-sources.md)
 
 **[!UICONTROL CLIENT]**
 
-* **[!UICONTROL Segments]** - Créez et gérez des définitions de segment Experience Platform, puis utilisez-les dans vos parcours. [En savoir plus](../segment/about-segments.md)
+* **[!UICONTROL Segments]** : créez et gérez des définitions de segment Experience Platform et exploitez-les dans vos parcours. [En savoir plus](../segment/about-segments.md)
 
 * **[!UICONTROL Profils]** - Le profil client en temps réel offre une vue d&#39;ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. [En savoir plus](../segment/get-started-profiles.md)
 
@@ -83,15 +83,15 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Administration des parcours]** - Utilisez ce menu pour configurer [events](../event/about-events.md), [sources de données](../datasource/about-data-sources.md), et [actions](../action/action.md) à utiliser dans vos parcours.
+* **[!UICONTROL Administration des parcours]** : ce menu permet de configurer les [événements](../event/about-events.md), les [sources de données](../datasource/about-data-sources.md) et les [actions](../action/action.md) à utiliser dans vos parcours.
 
 * **[!UICONTROL Sandbox]** : Adobe Experience Platform fournit des sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l’évolution d’applications d’expérience numérique. [En savoir plus](../administration/sandboxes.md)
 
 * **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-## Cas d&#39;utilisation internes au produit {#in-product-uc}
+## Cas d’utilisation internes au produit {#in-product-uc}
 
-De [!DNL Adobe Journey Optimizer] page d’accueil, les cas d’utilisation de produit fournissent des entrées rapides pour créer un parcours client.
+La page d’accueil d’[!DNL Adobe Journey Optimizer] propose des cas d’utilisation de produit, qui vous permettent de créer rapidement des parcours client.
 
 ![](assets/use-cases-home.png)
 
@@ -102,9 +102,9 @@ Les cas d&#39;utilisation disponibles sont les suivants :
 * **Envoyer des e-mails pour souhaiter la bienvenue aux nouveaux clients** : pour envoyer facilement jusqu&#39;à deux e-mails afin d&#39;accueillir vos nouveaux clients enregistrés. (bientôt disponible)
 * **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)
 
-Pour en savoir plus sur chaque cas d’utilisation, cliquez sur le **[!UICONTROL Afficher les détails]** lien.
+Pour en savoir plus sur un cas d’utilisation, cliquez sur le lien **[!UICONTROL Afficher les détails]**.
 
-Pour exécuter un cas d’utilisation, cliquez sur le bouton **[!UICONTROL Début]** bouton .
+Pour lancer le cas d’utilisation, cliquez sur le bouton **[!UICONTROL Commencer]**.
 
 Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **[!UICONTROL Afficher la bibliothèque de cas d&#39;utilisation]**.
 
@@ -112,17 +112,17 @@ Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **
 
 Accédez aux pages d&#39;aide principales d&#39;Adobe Journey Optimizer à partir de la section inférieure de la page d&#39;accueil.
 
-Utilisez la variable **Aide** pour accéder aux pages d’aide, contacter l’assistance et partager des commentaires. Vous pouvez rechercher des articles et des vidéos d&#39;aide dans le champ de recherche.
+Utilisez l’icône **Aide** pour accéder aux pages d’aide, contacter l’assistance et partager vos commentaires. Vous pouvez rechercher des articles et des vidéos d’aide dans le champ de recherche.
 
 ![](assets/ajo-help.png)
 
-Dans chaque page, utilisez les boutons d’aide contextuelle pour en savoir plus sur une fonction et accédez à **[!DNL Adobe Experience League]** documentation.
+Les boutons d’aide contextuelle, disponibles sur chaque page, permettent d’en savoir plus sur une fonction et d’accéder à la documentation **[!DNL Adobe Experience League]**.
 
 ![](assets/do-not-localize/Context-help.gif)
 
 ## Préférences linguistiques {#language-pref}
 
-L’interface utilisateur est disponible dans les langues suivantes :
+L’interface utilisateur est disponible dans les langues suivantes :
 
 * Anglais
 * Français
@@ -132,7 +132,7 @@ L’interface utilisateur est disponible dans les langues suivantes :
 * Portugais (brésilien)
 * Japonais
 * Coréen
-* Chinois traditionnel 
+* Chinois traditionnel
 * Chinois simplifié
 
 Votre langue d&#39;interface par défaut est déterminée par la langue préférée spécifiée dans votre profil utilisateur.
