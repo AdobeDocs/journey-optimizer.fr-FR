@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '735'
 ht-degree: 76%
 
 ---
@@ -74,6 +74,35 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 * Les activités **[!UICONTROL Réaction]** ne peuvent pas être utilisées pour réagir à une ouverture ou un clic in-app.
 
 * Un délai d’activation peut survenir entre le moment où un profil utilisateur atteint une activité In-App dans la zone de travail et le moment où il commence à voir ce message in-app.
+
+## Rapport in-app {#inapp-report}
+
+De votre Parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL In-app]** Cet onglet présente les informations principales relatives aux diffusions In-App envoyées dans vos parcours.
+
+En savoir plus sur [Rapport global parcours](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
+
+Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+
+* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
+
+* **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs.
+
+* **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d’utilisateurs ayant vu le message.
+
+* **[!UICONTROL Taux d’ignorance]** : pourcentage de messages in-app ignorés par les destinataires.
+
+Le graphique du **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions in-app pour la période concernée.
+
+Le **[!UICONTROL Clics par bouton]** les graphiques et les tableaux contiennent les données disponibles pour le comportement des destinataires par bouton :
+
+* **[!UICONTROL Clics]** : nombre total de destinataires ayant interagi avec les boutons inclus dans le message in-app.
+
+* **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs ayant interagi avec les boutons inclus dans le message in-app par rapport au nombre d’utilisateurs ayant vu le message.
++++
 
 **Rubriques connexes :**
 
