@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -260,7 +260,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** endTime
 **Titre :** date et heure de fin de l&#39;activité
-**Description :** date et heure de fin de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété &#39;endTime&#39; de schema.org définie sur http://schema.org/Action.
+**Description :** date et heure de fin de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété &quot;endTime&quot; de schema.org définie sur https://schema.org/Action.
 **Type :** chaîne
 
 +++
@@ -287,7 +287,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** startTime
 **Titre :** date et heure de début de l&#39;activité
-**Description :** date et heure de début de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété &#39;startTime&#39; de schema.org définie sur http://schema.org/Action.
+**Description :** date et heure de début de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété &quot;startTime&quot; de schema.org définie sur https://schema.org/Action.
 **Type :** chaîne
 
 +++

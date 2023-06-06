@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
       **Champ :** format
       **Titre :** format
-      **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. La bonne pratique recommandée consiste à sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de médias Internet](http://www.iana.org/ assignments/media-types/) définissant les formats de médias informatiques).
+      **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [Types de médias Internet](https://www.iana.org/ assignments/media-types/) définition des formats de médias informatiques).
       **Type :** chaîne
       **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 

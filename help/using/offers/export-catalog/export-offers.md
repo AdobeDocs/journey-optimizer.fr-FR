@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
       **Champ :** format
       **Titre :** format
-      **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de média Internet](http://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques).
+      **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de média Internet](https://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques).
       **Type :** chaîne
       **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 

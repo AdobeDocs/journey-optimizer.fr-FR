@@ -2,10 +2,10 @@
 title: Diffuser des décisions par lots
 description: Découvrez comment diffuser les décisions d’offre à tous les profils d’un segment Adobe Experience Platform donné.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Avant de configurer une demande de traitement, assurez-vous d’avoir créé :
 
 * **Un jeu de données** dans Adobe Experience Platform. Ce jeu de données sera utilisé pour stocker le résultat de la décision à l’aide du schéma « ODE DecisionEvents ». Pour en savoir plus, consultez la [documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr).
 
-* **Un segment** dans Adobe Experience Platform. Le segment doit être évalué, puis mis à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à un segment dans la [documentation relative au service de segmentation](http://www.adobe.com/go/segmentation-overview-en_fr).
+* **Un segment** dans Adobe Experience Platform. Le segment doit être évalué, puis mis à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à un segment dans la [documentation relative au service de segmentation](https://www.adobe.com/go/segmentation-overview-en).
 
    >[!NOTE]
    >
