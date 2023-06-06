@@ -67,4 +67,4 @@ Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les poin
 * [Étapes clés pour débuter](quick-start.md)
 * [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md)
 * [Rapports dynamiques](../reports/live-report.md)
-* [Aperçu de la sécurité de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+* [Vue d’ensemble de la sécurité de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

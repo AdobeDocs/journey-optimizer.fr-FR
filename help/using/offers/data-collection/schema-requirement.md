@@ -10,7 +10,7 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -102,9 +102,9 @@ Pour les événements personnalisés, le schéma utilisé dans le jeu de donnée
 
 >[!NOTE]
 >
->Pour que vos événements personnalisés soient pris en compte dans [capping de la fréquence](../offer-library/add-constraints.md#capping), vous devez connecter l’événement d’expérience aux points de terminaison Adobe Experience Platform en l’envoyant à l’un de ces deux points de terminaison de collecte de données Edge :
+>Pour que vos événements personnalisés soient pris en compte dans le [capping de la fréquence](../offer-library/add-constraints.md#capping), vous devez connecter l’événement d’expérience aux points d’entrée Adobe Experience Platform en l’envoyant à l’un de ces deux points d’entrée de collecte de données Edge :
 >
->* POST /ee/v2/interaction
+>* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Si vous utilisez la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.
+>Si vous utilisez le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.

@@ -12,11 +12,11 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la gestion des utilisateurs {#permissions-overview}
+# Prise en main de User Management {#permissions-overview}
 
 [!DNL Journey Optimizer] vous permet de définir et de gérer les autorisations attribuées à différents utilisateurs. Les autorisations sont un ensemble de droits et de restrictions qui autorisent ou refusent l&#39;accès aux fonctionnalités du produit.
 

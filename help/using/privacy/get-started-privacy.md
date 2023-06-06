@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Journey Optimizer est un puissant outil servant à collecter et à traiter de très grands volumes de données, notamment des informations personnelles et des données sensibles. La confidentialité doit donc être gérée avec soin.
 
-En outre, des règlements tels que le RGPD stipulent que vous devez respecter des exigences spécifiques avant de pouvoir utiliser les informations provenant des personnes concernées par le traitement des données. En outre, les personnes concernées par le traitement des données devraient pouvoir modifier leur consentement à tout moment.
+En outre, des règlements tels que le RGPD stipulent que vous devez respecter des exigences spécifiques avant de pouvoir utiliser les informations provenant des titulaires de données par le traitement des données. En outre, les titulaires de données devraient pouvoir modifier leur consentement à tout moment.
 
 Adobe Experience Platform et Journey Optimizer proposent différents outils pour vous aider à assurer la gestion de la confidentialité.
 

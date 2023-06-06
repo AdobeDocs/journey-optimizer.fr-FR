@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 98%
       + [Configurer des rapports d’expérience](using/campaigns/reporting-configuration.md)
       + Notes techniques {#technotes}
          + [Présentation des calculs statistiques](using/campaigns/experiment-calculations.md)
-         + [Présentation des calculs statistiques dans le rapport d’expérience](using/campaigns/experiment-report-calculations.md)
+         + [Comprendre les calculs statistiques dans le rapport d’expérience](using/campaigns/experiment-report-calculations.md)
    + [Déclenchement de campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Canal e-mail {#email}
    + [Prise en main des e-mails](using/email/get-started-email.md)
@@ -193,12 +193,12 @@ ht-degree: 98%
       + Modifier le style {#edit-style}
          + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
          + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
-         + [Ajustement de l&#39;alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
-         + [Ajout d’attributs de style intégrés](using/email/inline-styling.md)
+         + [Ajuster l&#39;alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
+         + [Ajouter des attributs de style intégrés](using/email/inline-styling.md)
    + [Prévisualiser et tester votre e-mail](using/email/preview.md)
    + [Créer des modèles de contenu](using/email/content-templates.md)
    + [Utiliser les modèles Experience Manager](using/email/aem-templates.md)
-   + [Utilisation de fragments](using/email/fragments.md)
+   + [Utiliser les fragments](using/email/fragments.md)
    + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
    + Configurer le canal e-mail {#configure-email}
       + [Prise en main de la configuration du canal e-mail](using/email/get-started-email-config.md)
@@ -305,7 +305,7 @@ ht-degree: 98%
       + [Liste des composants](using/reports/global-report-components.md)
       + [Rapport global sur les parcours](using/reports/journey-global-report.md)
       + [Rapport global de campagne](using/reports/campaign-global-report.md)
-      + [Rapport Objectif](using/reports/objective-report.md)
+      + [Rapport d’objectif](using/reports/objective-report.md)
       + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
       + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
    + Rapports de parcours {#reports}
@@ -471,11 +471,11 @@ ht-degree: 98%
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
    + Présentation du contrôle d’accès {#privacy}
-      + [Prise en main de la gestion des utilisateurs](using/administration/permissions-overview.md)
+      + [Prise en main de User Management](using/administration/permissions-overview.md)
       + [Rôles intégrés](using/administration/ootb-product-profiles.md)
       + [Autorisations intégrées](using/administration/ootb-permissions.md)
       + [Niveaux d&#39;autorisation](using/administration/high-low-permissions.md)
-   + [Gestion des utilisateurs et des rôles](using/administration/permissions.md)
+   + [Gérer les utilisateurs et utilisatrices, et les rôles](using/administration/permissions.md)
    + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
    + [Contrôle d’accès au niveau de l’objet](using/administration/object-based-access.md)
    + [Gestion des sandbox](using/administration/sandboxes.md)

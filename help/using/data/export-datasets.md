@@ -11,7 +11,7 @@ exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Les principales étapes pour exporter un jeu de données vers un emplacement d�
 
 Des informations détaillées sur chaque étape sont disponibles dans la documentation Adobe Experience Platform : [Exporter des jeux de données vers des destinations d’espace de stockage](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr).
 
-1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. [Découvrez comment créer une connexion de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup).
+1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. [Découvrez comment créer une connexion de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr#setup).
 
    <!--![](assets/dataset-export-setup.png)-->
 

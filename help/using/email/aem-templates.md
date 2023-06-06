@@ -14,7 +14,7 @@ exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Pour exporter un modèle Adobe Experience Manager vers Adobe Journey Optimiz
 
    ![](assets/aem-outbound-menu.png)
 
-1. Dans votre bibliothèque de contenu, vous pouvez utiliser des modèles configurés précédemment ou en créer un à partir de rien. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page).
+1. Dans votre bibliothèque de contenu, vous pouvez utiliser des modèles configurés précédemment ou en créer un à partir de rien. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=fr#creating-a-new-page).
 
 1. En incorporant la syntaxe de personnalisation de Journey Optimizer dans votre modèle, vous pouvez effectuer une personnalisation plus poussée. [En savoir plus](../personalization/personalization-syntax.md).
 

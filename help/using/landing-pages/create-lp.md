@@ -12,15 +12,15 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Création et publication de pages de destination {#create-lp}
+# Créer et publer des pages de destination {#create-lp}
 
 >[!CAUTION]
 >
->Pour pouvoir tester et publier des landing pages, vous devez disposer de la variable **[!UICONTROL Publication de messages]** autorisation.
+>Pour pouvoir tester et publier des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**.
 
 ## Accès aux pages de destination {#access-landing-pages}
 
@@ -212,7 +212,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
 >[!CAUTION]
 >
->Pour pouvoir tester les landing pages, vous devez disposer de la variable **[!UICONTROL Publication de messages]** autorisation.
+>Pour pouvoir tester des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**.
 >
 >Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
 
@@ -283,7 +283,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 >[!CAUTION]
 >
->Pour pouvoir publier des landing pages, vous devez disposer de la variable **[!UICONTROL Publication de messages]** autorisation.
+>Pour pouvoir publier des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**.
 
 Une fois votre page de destination configurée, vous pouvez la publier pour quʼelle puisse être utilisée dans un message.
 

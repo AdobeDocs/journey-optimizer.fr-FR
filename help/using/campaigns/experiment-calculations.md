@@ -12,7 +12,7 @@ exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 67%
 
 Cet article décrit les calculs statistiques utilisés lors de l’exécution d’expériences dans Adobe Journey Optimizer.
 
-Utilisations de l’expérience [méthodes statistiques avancées](../campaigns/assets/confidence_sequence_technical_details.pdf) pour calculer **Séquences de confiance** et **Confiance**, qui vous permettent d’exécuter vos expériences aussi longtemps que nécessaire, et de surveiller vos résultats en continu.
+L’expérimentation utilise des [méthodes statistiques avancées](../campaigns/assets/confidence_sequence_technical_details.pdf) pour calculer les **Séquences de confiance** et les degrés de **confiance**, qui vous permettent d’exécuter vos expériences aussi longtemps que nécessaire, ou encore de surveiller vos résultats en continu.
 
 Cet article décrit le fonctionnement de l’expérience et fournit une introduction intuitive aux **Séquences de confiance valides à tout moment** d’Adobe.
 
@@ -30,21 +30,21 @@ Pour les personnes expertes, les détails techniques et les références sont pr
 
 Lorsque vous exécutez une expérience, vous essayez de déterminer s’il existe une différence entre deux populations et la probabilité que cette différence soit due au hasard.
 
-Il existe généralement deux hypothèses :
+Il existe généralement deux hypothèses :
 
-* la valeur **Hypothèse nulle** ce qui signifie qu&#39;il n&#39;y a aucun effet sur le traitement.
-* la valeur **Autre hypothèse** cela signifie qu&#39;il y a un effet sur le traitement.
+* la valeur **Hypothèse nulle** signifie qu’il n’y a aucun effet sur le traitement.
+* la valeur **Autre hypothèse** signifie qu’il y a un effet sur le traitement.
 
-Sur le plan statistique, l&#39;objectif est d&#39;évaluer la force des preuves pour rejeter l&#39;hypothèse nulle. Un point important à noter est que la signification statistique est utilisée pour juger de la probabilité que les traitements soient différents, et non de la probabilité qu&#39;ils soient réussis. C’est pourquoi la signification statistique est utilisée conjointement avec **Effet élévateur**.
+Dans la signification statistique, l’objectif est d’évaluer la force des preuves pour rejeter l’hypothèse nulle. Un point important à noter est que la signification statistique est utilisée pour juger de la probabilité que les traitements soient différents, et non de la probabilité qu’ils soient réussis. C’est pourquoi la signification statistique est utilisée conjointement avec l’**effet élévateur**.
 
 Une expérimentation efficace nécessite de prendre en compte différents types d’erreurs qui pourraient provoquer des inférences incorrectes.
 
 ![](assets/technote_1.png)
 
-Le tableau ci-dessus illustre les différents types d’erreurs :
+Le tableau ci-dessus illustre les différents types d’erreurs :
 
-* **Faux positifs (erreurs de type I)**: sont un rejet incorrect de l’hypothèse nulle, alors qu’en fait elle est vraie. Dans le contexte des expériences en ligne, cela signifie que nous concluons faussement que la mesure des résultats est différente entre chaque traitement, bien qu’elle ait été la même.
-   </br>Nous sélectionnons généralement un seuil avant de lancer l’expérience`\alpha`. Une fois l’expérience terminée, la variable `p-value` est calculé, et nous rejetons la variable `null if p < \alpha`.Choix d’une `/alpha` est basé sur les conséquences d&#39;obtenir la mauvaise réponse, par exemple dans un essai clinique où la vie d&#39;une personne pourrait être affectée que vous pourriez décider d&#39;avoir une `\alpha = 0.005`. Un seuil couramment utilisé dans les expérimentations en ligne est `\alpha = 0.05`, ce qui signifie qu&#39;à long terme, nous nous attendons à ce que 5 expériences sur 100 soient des faux positifs.
+* **Faux positifs (erreurs de type I)** : sont un rejet incorrect de l’hypothèse nulle, alors qu’en fait elle est vraie. Dans le contexte des expériences en ligne, cela signifie que nous concluons à tort que la mesure des résultats est différente entre chaque traitement, alors qu’elle est en réalité la même.
+   </br>Nous sélectionnons généralement un seuil avant de lancer l’expérience`\alpha`. Une fois l’expérience terminée, la valeur `p-value` est calculée et nous rejetons la valeur `null if p < \alpha`. Le choix d’une valeur `/alpha` est basé sur les conséquences liées à l’obtention de la mauvaise réponse. Par exemple, dans un essai clinique où la vie d’une personne pourrait être affectée, vous pourriez choisir la valeur `\alpha = 0.005`. Le seuil `\alpha = 0.05` est couramment utilisé dans l’expérimentation en ligne. Cela signifie qu’à long terme, nous nous attendons à ce que 5 expériences sur 100 soient des faux positifs.
 
 * **Faux négatifs (erreurs de type II)** : signifie que nous ne parvenons pas à rejeter l’hypothèse nulle bien qu’elle soit fausse. Pour les expériences, cela signifie que nous ne rejetons pas l’hypothèse nulle, alors qu’en fait elle est différente. Pour contrôler ce type d’erreur, nous avons généralement besoin d’un nombre suffisant d’utilisateurs dans notre expérience pour garantir une certaine force, définie comme `1 - \beta`(soit 1 moins la probabilité d’erreur de type II).
 
@@ -66,7 +66,7 @@ Les fondements théoriques des **Séquences de confiance** proviennent de l’é
 
 >[!NOTE]
 >
->Les séquences de confiance peuvent être interprétées comme des analogies séquentielles sécurisées d’intervalles de confiance. Avec des intervalles de confiance, vous ne pouvez interpréter l’expérience qu’une fois que vous avez atteint la taille d’échantillon prédéterminée. Toutefois, avec les séquences de confiance, vous pouvez consulter et interpréter les données de vos expériences à tout moment, et arrêter ou continuer les expériences en toute sécurité. Tout moment de confiance valide correspondant, ou `p-value`, peut également être interprété en toute sécurité à tout moment.
+>Les séquences de confiance peuvent être interprétées comme des analogies séquentielles sécurisées d’intervalles de confiance. Avec des intervalles de confiance, vous ne pouvez interpréter l’expérience qu’une fois que vous avez atteint la taille d’échantillon prédéterminée. Toutefois, avec les séquences de confiance, vous pouvez consulter et interpréter les données de vos expériences à tout moment, et arrêter ou continuer les expériences en toute sécurité. L’attribut Confiance valide à tout moment correspondant, ou `p-value`, peut également être interprété en toute sécurité.
 
 Il est important de noter que, puisque les séquences de confiance sont « valides à tout moment », elles seront plus conservatrices qu’une méthodologie d’horizon fixe utilisée à la même taille d’échantillon. Les limites de la séquence de confiance sont généralement plus larges qu’un calcul d’intervalle de confiance, tandis que le degré de confiance valide à tout moment sera plus petit qu’un calcul de confiance à horizon fixe. L’avantage de ce conventionnalisme est que vous pouvez en toute sécurité interpréter vos résultats à tout moment.
 

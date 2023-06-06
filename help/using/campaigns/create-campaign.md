@@ -10,7 +10,7 @@ level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 100%
 

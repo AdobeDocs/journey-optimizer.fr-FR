@@ -9,7 +9,7 @@ exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -62,11 +62,11 @@ Pour configurer le SDK pour la gestion des décisions, procédez à l’une des 
 
 Cette approche est plus conviviale pour les personnes qui ont moins d’expérience en matière de codage.
 
-1. [Créer une propriété de balise](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
+1. [Créer une propriété de balise](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=fr)
 
-1. [Ajouter du code incorporé](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
+1. [Ajouter du code incorporé](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=fr)
 
-1. Installez et configurez l’extension SDK web Adobe Experience Platform avec le train de données créé lors de la sélection de la configuration dans la liste déroulante « Train de données ». Consultez la documentation relative aux [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
+1. Installez et configurez l’extension SDK web Adobe Experience Platform avec le train de données créé lors de la sélection de la configuration dans la liste déroulante « Train de données ». Consultez la documentation relative aux [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=fr).
 
    ![SDK web Adobe Experience Platform](../../assets/installed-catalog-web-sdk.png)
 
@@ -86,7 +86,7 @@ Cette approche est plus conviviale pour les personnes qui ont moins d’expérie
 
    ![Demander l’offre](../../assets/rule-request-offer.png)
 
-1. [Créez et publiez](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) une bibliothèque contenant toutes les règles, éléments de données et extensions pertinents que vous avez configurés.
+1. [Créez et publiez](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=fr) une bibliothèque contenant toutes les règles, éléments de données et extensions pertinents que vous avez configurés.
 
 ## Option 2 : implémenter manuellement à l’aide de la version autonome préconfigurée
 

@@ -5,14 +5,15 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+exl-id: 2ab7a205-5aa6-4430-a498-d703cda7b8aa
+source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Présentation des calculs statistiques dans le rapport d’expérience {#experiment-report-calculations}
+# Comprendre les calculs statistiques dans le rapport d’expérience {#experiment-report-calculations}
 
 Cette page présente les calculs statistiques détaillés utilisés dans le rapport d’expérience pour les campagnes dans Adobe Journey Optimizer.
 
@@ -99,7 +100,7 @@ Enfin, le **degré de confiance valide à tout moment** est :
 
 ![](assets/statistical_11.png){width="200" align="center"}
 
-## Déclarer qu’une expérience est concluante
+## Déclaration d’une expérience comme étant concluante
 
 Pour une expérience avec deux bras, le panneau Expérience de Journey Optimizer affiche un message indiquant qu’une expérience est **concluante** lorsque le degré de confiance valide à tout moment dépasse 95 % (c’est-à-dire lorsque la valeur-`p` valide à tout moment est inférieure à 5 %).
 

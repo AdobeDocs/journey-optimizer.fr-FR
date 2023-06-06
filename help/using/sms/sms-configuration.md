@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -55,25 +55,25 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
 
    ![](assets/sms_6.png)
 
-1. Configurez vos informations d’identification d’API SMS :
+1. Configurez vos informations dʼidentification pour lʼAPI SMS :
 
-   * Pour **[!DNL Sinch]**:
+   * Pour **[!DNL Sinch]** :
 
-      * **[!UICONTROL Nom]**: choisissez un nom pour vos informations d’identification API.
+      * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-      * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]**: accédez à la page API, puis à vos informations d’identification sous l’onglet SMS .  [En savoir plus](https://developers.sinch.com/docs/sms/getting-started/).
-   * Pour **[!DNL Twilio]**:
+      * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS.  [En savoir plus](https://developers.sinch.com/docs/sms/getting-started/).
+   * Pour **[!DNL Twilio]** :
 
-      * **[!UICONTROL Nom]**: choisissez un nom pour vos informations d’identification API.
+      * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-      * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]**: accédez au volet Informations du compte de la page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
+      * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]** : accédez au volet Informations du compte de la page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
 
-      * **[!UICONTROL Message SID]**: saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. [En savoir plus](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-).
-   * Pour **[!DNL Infobip]**:
+      * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. [En savoir plus](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-).
+   * Pour **[!DNL Infobip]** :
 
-      * **[!UICONTROL Nom]**: choisissez un nom pour vos informations d’identification API.
+      * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-      * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Jeton API]**: accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. [En savoir plus](https://www.infobip.com/docs/api).
+      * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Jeton API]** : accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. [En savoir plus](https://www.infobip.com/docs/api).
 
    ![](assets/sms_7.png)
 

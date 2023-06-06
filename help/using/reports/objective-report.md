@@ -9,16 +9,17 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6b8983d3f3fa989bd7190fc6a8b51fa8989b2293
+exl-id: b0ba68ec-0e1c-4dbe-86d8-3f3653bb7b5c
+source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Rapport global de campagne {#objective-report}
 
-Rapport global de campagne est accessible directement à partir de votre campagne à l’aide de la fonction **[!UICONTROL Afficher le rapport]** bouton .
+Rapport global de campagne peut être consulté directement à partir de votre campagne, avec le bouton **[!UICONTROL Afficher le rapport]**.
 
 Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 
@@ -42,11 +43,11 @@ Le widget **[!UICONTROL Statistiques de la campagne]** présente les principales
 
 >[!AVAILABILITY]
 >
->Le **Rapport Objectifs** Cette fonctionnalité est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant Adobe.
+>La fonctionnalité **Rapport d’objectifs** est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
 ![](assets/performance_report.gif)
 
-Le **[!UICONTROL Objectifs]** vous permet d’affiner davantage les rapports de vos diffusions en ciblant une mesure spécifique.
+L’onglet **[!UICONTROL Objectifs]** permet d’affiner davantage les rapports de vos diffusions en ciblant une mesure spécifique.
 
 Les **[!UICONTROL objectifs]** répertoriés sont liés aux **[!UICONTROL Jeux de données]** définissant une connexion à un système afin de récupérer des informations supplémentaires. Une liste d’**[!UICONTROL objectifs]** intégrés est disponible, mais vous pouvez l’accroître en ajoutant un nouveau **[!UICONTROL Jeu de données]**. Pour la procédure détaillée, consultez cette [section](../campaigns/reporting-configuration.md).
 
@@ -58,7 +59,7 @@ Avec le widget **[!UICONTROL Objectif de la campagne]**, vous pouvez également 
 
 ![](assets/experimentation_report_3.png)
 
-Le **[!UICONTROL Expérience]** fournit des informations clés sur les performances de chaque variante et identifie la variante la plus réussie.
+L’onglet **[!UICONTROL Expérimentation]** fournit des informations clés sur les performances de chaque variante et identifie la variante la plus réussie.
 
 Notez que la définition de meilleure performance peut prendre un certain temps, elle sera représentée par cette icône ![](assets/experimentation_report_1.png).
 
@@ -68,7 +69,7 @@ Le widget **[!UICONTROL Résultat de l’expérience]** décrit les performances
 
 Le tableau présente les mesures suivantes :
 
-* **[!UICONTROL Effet élévateur sur la ligne de base]**: Mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
+* **[!UICONTROL Élévation de la ligne de base]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
 * **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-confidence)
 
@@ -76,10 +77,9 @@ Le tableau présente les mesures suivantes :
 
 * **[!UICONTROL Profils]** : nombre de profils ciblés pour ce traitement.
 
-* **[!UICONTROL Clics/profils sortants uniques]**: Valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
+* **[!UICONTROL Clips sortants uniques/profils]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
 
-Le **[!UICONTROL Intervalle de confiance]** Le graphique mesure l’incertitude quant à l’amélioration. Il détaille la différence en pourcentage de performance entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
+Le graphe **[!UICONTROL Intervalle de confiance]** mesure l’incertitude quant à l’amélioration. Il indique la différence de performance en pourcentage entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
 +++
 
 Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../campaigns/get-started-experiment.md#interpret-results).
-

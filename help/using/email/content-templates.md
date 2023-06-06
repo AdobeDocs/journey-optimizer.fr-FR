@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Cliquez sur **[!UICONTROL Créer]** et choisissez la manière dont vous souhaitez concevoir votre modèle parmi les différentes options suivantes :
+1. Cliquez sur **[!UICONTROL Créer]** et choisissez comment concevoir votre modèle à partir des différentes options :
 
    * [Concevez entièrement votre e-mail](content-from-scratch.md) via l’interface du Concepteur d’e-mail.
 

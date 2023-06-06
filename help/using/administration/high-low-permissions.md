@@ -11,26 +11,26 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
-# Niveaux d&#39;autorisation {#high-low-permissions}
+# Niveaux d’autorisation {#high-low-permissions}
 
 ![](assets/do-not-localize/permissions.png)
 
-Chaque rôle se compose d’autorisations permettant aux utilisateurs d’accéder aux différentes fonctionnalités.
+Chaque rôle est constitué d’autorisations permettant aux utilisateurs et utilisatrices d’accéder aux différentes fonctionnalités.
 Elles peuvent être divisées en deux types :
 
-* **Autorisation de haut niveau**: représente les différentes autorisations qui peuvent être affectées à **[!UICONTROL Rôle]** dans le [!DNL Admin console], par exemple **[!DNL Publish journeys]** et **[!DNL Manage subdomains delegation]**. Les autorisations de haut niveau englobent les autorisations de bas niveau.
+* **Autorisation de haut niveau** : représente les différentes autorisations qui peuvent être attribuées au **[!UICONTROL rôle]** dans [!DNL Admin console], tels que **[!DNL Publish journeys]** et **[!DNL Manage subdomains delegation]**. Les autorisations de haut niveau englobent les autorisations de bas niveau.
 
 * **Autorisation de bas niveau** : représente les différentes autorisations qui proviennent de l&#39;autorisation de haut niveau.
 
-Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le rôle **[!DNL Manage journeys]** autorisation. À partir de cette autorisation, les autorisations de bas niveau permettent à lʼadministrateur de parcours dʼécrire, de lire et de supprimer des parcours.
+Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼautorisation **[!DNL Manage journeys]**. À partir de cette autorisation, les autorisations de bas niveau permettent à lʼadministrateur ou l’adminnistratrice de parcours dʼécrire, de lire et de supprimer des parcours.
 
 ## Ressource de parcours {#journey-capability}
 
-* **[!DNL Manage journeys]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des Parcours existants, ainsi que d’accéder aux objets utilisés dans la zone de travail du parcours pour créer le flux de parcours.
+* Lʼautorisation de haut niveau **[!DNL Manage journeys]** permet aux utilisateurs et utilisatrices de créer des parcours et de modifier/supprimer des parcours existants, ainsi que dʼaccéder aux objets utilisés dans la zone de travail de parcours pour concevoir le flux du parcours.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -49,7 +49,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Publish journeys]** l’autorisation de haut niveau permet aux utilisateurs de publier des parcours.
+* Lʼautorisation de haut niveau **[!DNL Publish journeys]** permet aux utilisateurs et utilisatrices de publier des parcours.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
@@ -58,7 +58,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View journeys]** l’autorisation de haut niveau permet aux utilisateurs de parcourir et d’afficher des parcours.
+* Lʼautorisation de haut niveau **[!DNL View journeys]** permet aux utilisateurs et utilisatrices de parcourir et dʼafficher les parcours.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -70,7 +70,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Manage journeys events, data sources and actions]** l’autorisation de haut niveau permet aux utilisateurs de configurer des configurations d’événement et de données.
+* Lʼautorisation de haut niveau **[!DNL Manage journeys events, data sources and actions]** permet aux utilisateurs et utilisatrices de configurer des configurations d’événement et de données.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -91,7 +91,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View journeys events, data sources and actions]** l’autorisation de haut niveau permet aux utilisateurs d’utiliser l’événement et les données dans le flux de parcours.
+* L’autorisation de haut niveau **[!DNL View journeys events, data sources and actions]** permet aux utilisateurs et utilisatrices d’utiliser lʼévénement et les données dans le flux du parcours.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -106,7 +106,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View journeys report]** l’autorisation de haut niveau permet aux utilisateurs de créer des rapports de parcours en lecture seule.
+* L’autorisation de haut niveau **[!DNL View journeys report]** permet aux utilisateurs et utilisatrices dʼafficher en lecture seule un rapport sur le parcours.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -121,9 +121,9 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-## Ressource de règles Journey Optimizer {#journey-rules-capability}
+## Ressource des règles Journey Optimizer {#journey-rules-capability}
 
-* **[!DNL Manage frequency rules]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier, supprimer et activer/désactiver les règles de fréquence.
+* L’autorisation de haut niveau **[!DNL Manage frequency rules]** permet aux utilisateurs et utilisatrices de lire, créer, modifier, supprimer et activer/désactiver les règles de fréquence.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -134,7 +134,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View frequency rules]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les règles de fréquence.
+* L’autorisation de haut niveau **[!DNL View frequency rules]** permet aux utilisateurs et utilisatrices d’afficher les règles de fréquence.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -143,9 +143,9 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-## Ressource de campagne {#campaign-capability}
+## Ressource Campaign {#campaign-capability}
 
-* **[!DNL Manage campaigns]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des campagnes.
+* Lʼautorisation de haut niveau **[!DNL Manage campaigns]** permet aux utilisateurs et utilisatrices de créer et modifier/supprimer des campagnes.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -160,7 +160,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
       * experiments.delete-->
 +++
 
-* **[!DNL Publish campaigns]** l’autorisation de haut niveau permet aux utilisateurs de publier des campagnes.
+* Lʼautorisation de haut niveau **[!DNL Publish campaigns]** permet aux utilisateurs et utilisatrices de publier des campagnes.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -172,7 +172,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View campaigns report]** l’autorisation de niveau supérieur permet aux utilisateurs de lire et de modifier le rapport des campagnes.
+* L’autorisation de haut niveau **[!DNL View campaigns report]** permet aux utilisateurs et utilisatrices de lire et de modifier des rapports de campagne.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -186,7 +186,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 ## Ressource de gestion des décisions {#decisions-permissions}
 
-* **[!DNL Manage decisions]** l’autorisation de haut niveau permet aux utilisateurs de créer et de modifier/supprimer des **[!DNL Activity entities]**, ainsi que de gérer les objets utilisés dans ces activités pour prendre des décisions.
+* Lʼautorisation de haut niveau **[!DNL Manage decisions]** permet aux utilisateurs et utilisatrices de créer et de modifier/supprimer des **[!DNL Activity entities]** existantes, ainsi que de gérer les objets utilisés dans ces activités pour prendre des décisions.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -195,8 +195,8 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
       * activities.write
       * activities.delete
       * offer.read
-      * offer.write
-      * offer.delete
+      * offers.write
+      * offers.delete
       * placements.read
       * placements.write
       * placements.delete
@@ -211,7 +211,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View decisions]** l’autorisation de haut niveau permet aux utilisateurs d’utiliser une activité existante et les objets commerciaux associés pour prendre des décisions.
+* Lʼautorisation de haut niveau **[!DNL View decisions]** permet aux utilisateurs et utilisatrices dʼutiliser une activité existante et les objets métier associés pour prendre des décisions.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -229,7 +229,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Manage offers]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer toutes les offres, tous les composants, ainsi que de lire les décisions et les collections.
+* L’autorisation de haut niveau **[!DNL Manage offers]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer toutes les offres et tous les composants, ainsi que de lire les décisions et les collections.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -250,7 +250,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Manage ranking strategies]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des stratégies de classement.
+* L’autorisation de haut niveau **[!DNL Manage ranking strategies]** permet aux utilisateurs et utilisatrices de lire, créer, modifier et supprimer des stratégies de classement.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -264,9 +264,9 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-## Ressource de configuration de canal {#administration-permissions}
+## Ressource des configurations de canal {#administration-permissions}
 
-* **[!DNL Manage subdomains delegation]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des délégations de sous-domaines (y compris le pool d’adresses IP).
+* Lʼautorisation de haut niveau **[!DNL Manage subdomains delegation]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer les délégations de sous-domaines (y compris le groupe dʼadresses IP).
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
@@ -277,7 +277,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Manage PTR records]** l’autorisation de haut niveau permet aux utilisateurs de lire et de modifier les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+* L’autorisation de haut niveau **[!DNL Manage PTR records]** permet aux utilisateurs et utilisatrices de lire et de modifier les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -288,7 +288,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View PTR records]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+* Lʼautorisation de haut niveau **[!DNL View PTR records]** permet aux utilisateurs et utilisatrices dʼafficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
@@ -298,7 +298,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Manage IP pools]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer la définition d’affinité.
+* Lʼautorisation de haut niveau **[!DNL Manage IP pools]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer la définition des affinités.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
@@ -308,7 +308,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Manage messages general settings]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des paramètres globaux au niveau de l’environnement de test.
+* Lʼautorisation de haut niveau **[!DNL Manage messages general settings]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer des paramètres globaux au niveau du sandbox.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -321,7 +321,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL View messages general settings]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les paramètres généraux des messages, tels que l’adresse d’exécution.
+* Lʼautorisation de haut niveau **[!DNL View messages general settings]** permet aux utilisateurs et utilisatrices dʼafficher les paramètres généraux des messages, tels que lʼadresse dʼexécution.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -332,7 +332,7 @@ Par exemple, la variable **[!DNL Journey administrator]** se voit attribuer le r
 
 +++
 
-* **[!DNL Manage channel surface]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des surfaces de canal sur les canaux au niveau de l’environnement de test.
+* Lʼautorisation de haut niveau **[!DNL Manage channel surface]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer des surfaces de canaux sur les canaux au niveau du sandbox.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -358,7 +358,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 * mobile_setting.read (from Adobe Experience Platform Data Collection)
 -->
 
-* **[!DNL Manage suppression]** l’autorisation de haut niveau permet aux utilisateurs de définir le nombre de rebonds avant l’ajout d’une adresse électronique à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans/depuis la liste de suppression.
+* L’autorisation de haut niveau **[!DNL Manage suppression]** permet aux utilisateurs et utilisatrices de définir le nombre de bounces avant l’ajout d’une adresse e-mail à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans la liste de suppression.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
@@ -370,7 +370,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-* **[!DNL View suppression list]** l’autorisation de haut niveau permet aux utilisateurs d’afficher le contenu et les paramètres de la liste de suppression.
+* L’autorisation de haut niveau **[!DNL View suppression list]** permet aux utilisateurs et utilisatrices d’afficher le contenu et les paramètres de la liste de suppression.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -382,7 +382,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-* **[!DNL Export suppression list]** l’autorisation de haut niveau permet aux utilisateurs de télécharger la liste de suppression sous la forme d’un fichier CSV.
+* L’autorisation de haut niveau **[!DNL Export suppression list]** permet aux utilisateurs et utilisatrices de télécharger la liste de suppression sous forme de fichier CSV.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -394,7 +394,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-* **[!DNL Manage landing page settings]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer et modifier des sous-domaines de landing page et des paramètres prédéfinis.
+* Lʼautorisation de haut niveau **[!DNL Manage landing page settings]** permet aux utilisateurs et utilisatrices de lire, créer et modifier les sous-domaines et les préréglages des pages de destination.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -417,7 +417,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
   +++ It includes the following low-level permissions: 
 -->
 
-* **[!DNL Manage messages presets]** l’autorisation de niveau supérieur permet aux utilisateurs de lire, créer, modifier et supprimer la marque de contenu.
+* L’autorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs et utilisatrices de lire, créer, modifier et supprimer du branding de contenu.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -427,12 +427,12 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.delete
       * subdomains_delegation.read
       * IP_pools.read
-   * Collecte de données spécifique :
+   * Spécifique à la collecte de données :
       * Mobile_setting.read
 
 +++
 
-* **[!DNL View messages presets]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les paramètres prédéfinis de message.
+* L’autorisation de haut niveau **[!DNL View messages presets]** permet aux utilisateurs et utilisatrices d’afficher les préréglages de message.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -440,12 +440,12 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.read
       * subdomains_delegation.read
       * IP_pools.read
-   * Collecte de données spécifique :
+   * Spécifique à la collecte de données :
       * Mobile_setting.read
 
 +++
 
-* **[!DNL Manage SMS subdomains]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des sous-domaines SMS.
+* L&#39;autorisation de haut niveau **[!DNL Manage SMS subdomains]** permet aux utilisateurs et utilisatrices de lire, créer, modifier et supprimer des sous-domaines de SMS.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 

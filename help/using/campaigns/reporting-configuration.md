@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Pour cette configuration, vous devez ajouter un ou plusieurs jeu(x) de données 
 ## Conditions préalables
 
 
-Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment faire cela dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment faire cela dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#create){target="_blank"}.
 
 * Vous pouvez uniquement ajouter des jeux de données de type événement.
 

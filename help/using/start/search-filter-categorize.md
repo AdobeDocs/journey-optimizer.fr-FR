@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Recherche, filtrage, organisation
-description: En savoir plus à propos de l’interface utilisateur de Journey Optimizer
+title: Rechercher, filtrer, organiser
+description: En savoir plus à propos de l’interface utilisateur de Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Recherche, filtrage, organisation {#search-filter-organize}
+# Rechercher, filtrer, organiser {#search-filter-organize}
 
 ## Recherche{#unified-search}
 

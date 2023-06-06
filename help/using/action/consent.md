@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Utiliser les politiques de consentement {#consent-management}
 
-Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des politiques marketing afin de respecter les préférences de consentement de vos clients. Les politiques de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy?lang=fr).
+Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des politiques marketing afin de respecter les préférences de consentement de vos clients. Les politiques de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
 
 Dans Journey Optimizer, vous pouvez appliquer ces politiques de consentement à vos actions personnalisées. Par exemple, vous pouvez définir des politiques de consentement pour exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS.
 

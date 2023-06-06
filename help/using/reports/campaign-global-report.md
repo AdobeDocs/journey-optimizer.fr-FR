@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: c9941a800783b399b587b952c4191ce906b70552
 workflow-type: tm+mt
 source-wordcount: '2262'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ![](assets/experimentation_report_3.png)
 
-Le **[!UICONTROL Expérience]** fournit des informations clés sur les performances de chaque variante et identifie la variante la plus réussie.
+L’onglet **[!UICONTROL Expérimentation]** fournit des informations clés sur les performances de chaque variante et identifie la variante la plus réussie.
 
 Notez que la définition de meilleure performance peut prendre un certain temps, elle sera représentée par cette icône ![](assets/experimentation_report_1.png).
 
@@ -86,7 +86,7 @@ Le widget **[!UICONTROL Résultat de l’expérience]** décrit les performances
 
 Le tableau présente les mesures suivantes :
 
-* **[!UICONTROL Effet élévateur sur la ligne de base]**: Mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
+* **[!UICONTROL Élévation de la ligne de base]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
 * **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-confidence)
 
@@ -94,9 +94,9 @@ Le tableau présente les mesures suivantes :
 
 * **[!UICONTROL Profils]** : nombre de profils ciblés pour ce traitement.
 
-* **[!UICONTROL Clics/profils sortants uniques]**: Valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
+* **[!UICONTROL Clips sortants uniques/profils]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
 
-Le **[!UICONTROL Intervalle de confiance]** Le graphique mesure l’incertitude quant à l’amélioration. Il détaille la différence en pourcentage de performance entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
+Le graphe **[!UICONTROL Intervalle de confiance]** mesure l’incertitude quant à l’amélioration. Il indique la différence de performance en pourcentage entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
 +++
 
 Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../campaigns/get-started-experiment.md#interpret-results).

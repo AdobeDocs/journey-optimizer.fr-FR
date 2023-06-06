@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 1. Indiquez un nom unique et une description pour le modèle d’IA, puis sélectionnez le type de modèle d’IA à créer :
 
    * L’option **[!UICONTROL Optimisation automatique]** optimise les offres en fonction des performances des offres antérieures. [En savoir plus](auto-optimization-model.md)
-   * **[!UICONTROL Optimisation personnalisée]** optimise et personnalise les offres en fonction des segments et des performances des offres. [En savoir plus](personalized-optimization-model.md)
+   * L’option **[!UICONTROL Optimisation personnalisée]** optimise et personnalise les offres en fonction des segments et des performances des offres. [En savoir plus](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -62,7 +62,7 @@ Pour créer un modèle d’IA, procédez comme suit :
    >
    >Seuls les jeux de données créés à partir de schémas associés au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de propositions]** (précédemment appelé « mixin ») s&#39;affichent dans la liste déroulante.
 
-1. Si vous créez une **[!UICONTROL Optimisation personnalisée]** Modèle AI, sélectionnez le ou les segments à utiliser pour entraîner le modèle AI.
+1. Si vous créez un modèle d’IA **[!UICONTROL Optimisation personnalisée]**, sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
 
    ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 

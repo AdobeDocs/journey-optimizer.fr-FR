@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer
 >
 >La configuration des sous-domaines de la page de destination est commune à tous les environnements. Par conséquent :
 >
->* Pour accéder aux sous-domaines de la landing page et les modifier, vous devez disposer de la variable **[!UICONTROL Gestion des sous-domaines de page d’entrée]** autorisation sur l’environnement de test de production.
+>* Pour accéder aux sous-domaines de la page de destination et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gérer les sous-domaines de la page de destination]** dans le sandbox de production.
 >
-> * Toute modification apportée à un sous-domaine de page d’entrée aura également un impact sur les environnements de test de production.
+> * Toute modification apportée à un sous-domaine de page de destination aura également un impact sur les sandbox de production.
 
 
 ## Utiliser un sous-domaine existant {#lp-use-existing-subdomain}

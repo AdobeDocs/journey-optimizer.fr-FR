@@ -11,7 +11,7 @@ exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]**
 
 >[!NOTE]
 >
->Pour pouvoir visualiser le tableau de bord, le [Afficher le tableau de bord d’utilisation de licence](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} autorisation.
+>Pour pouvoir consulter le tableau de bord, l’autorisation [Afficher le tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=fr#available-permissions){target="_blank"} doit vous avoir été accordée.
 
 Pour en savoir plus, consultez la documentation Adobe Experience Platform :
 
-* [Tableau de bord de l’utilisation des licences - Aperçu](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr){target="_blank"}
-* [Exploration du tableau de bord de l’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#exploring-the-license-usage-dashboard){target="_blank"}
+* [Vue d’ensemble du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr){target="_blank"}
+* [Exploration du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#exploring-the-license-usage-dashboard){target="_blank"}
 * [Mesures disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#available-metrics){target="_blank"}
