@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ La section **[!UICONTROL Admissibilité de l’offre]** vous permet de restreind
 
    >[!CAUTION]
    >
-   >Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, vous ne pourrez pas l’exploiter dans une offre.
+   >Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target="_blank"}, vous ne pourrez pas l’exploiter dans une offre.
 
 Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
@@ -215,7 +215,7 @@ Le champ **[!UICONTROL Événement de limitation]** vous permet de définir l’
 >
 >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. [En savoir plus](../data-collection/data-collection.md).
 >
->Pour vous assurer que chaque événement de limitation est suivi et pris en compte dans le compteur de limitation, assurez-vous que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. [En savoir plus](../data-collection/schema-requirement.md).
+>Pour vous assurer que chaque événement de limitation est suivi et comptabilisé dans le compteur de limitation, vérifiez que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. [En savoir plus](../data-collection/schema-requirement.md).
 
 ### Nombre de limitations {#capping-count}
 
@@ -248,7 +248,7 @@ Vous pouvez également indiquer si vous souhaitez que la limitation soit appliqu
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Définir la fréquence de limitation"
->abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. Notez qu’après la publication de l’offre avec la limitation de fréquence activée, vous ne pourrez pas modifier la fréquence définie."
+>abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. Notez qu’après la publication de l’offre avec le capping de la fréquence activé, vous ne pourrez pas modifier la fréquence définie."
 
 La section **[!UICONTROL Fréquence]** vous permet de définir la fréquence à laquelle le nombre de limitations est réinitialisé. Pour ce faire, définissez la période du comptage (tous les jours, toutes les semaines ou tous les mois) et saisissez le nombre de jours, semaines ou mois de votre choix.
 
@@ -262,9 +262,9 @@ Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé 
 
 >[!CAUTION]
 >
->Après avoir publié votre offre, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence.
+>Une fois que vous avez publié votre offre, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence.
 >
->Vous pouvez toujours modifier le plafonnement de la fréquence si l’offre contient la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée.
+>Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec la limitation de la fréquence activée.
 
 ### Limitation et emplacements {#placements}
 
