@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '405'
 ht-degree: 100%
 
 ---
@@ -50,6 +50,7 @@ Pour créer un workflow de composition, procédez comme suit :
    * **[!UICONTROL Audience]** : le point de départ de votre composition. Cette activité permet de sélectionner une ou plusieurs audiences comme base de votre workflow,
 
    * **[!UICONTROL Enregistrer]** : la dernière étape de votre composition. Cette activité permet d&#39;enregistrer le résultat de votre workflow dans une nouvelle audience.
+
    Pour plus d’informations sur la configuration des activités dans la zone de travail du workflow de composition, reportez-vous à la section [Utiliser la zone de travail de composition](composition-canvas.md).
 
 1. Ouvrez les propriétés de composition pour spécifier un titre et une description.
@@ -66,7 +67,7 @@ Pour créer un workflow de composition, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >Vous pouvez publier jusqu’à 75 compositions dans une sandbox donnée. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+   >Vous pouvez publier jusqu’à 10 compositions dans une sandbox donnée. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
    Si une erreur se produit lors de la publication, des alertes s’affichent avec des informations sur la façon de résoudre le problème.
 
@@ -85,7 +86,6 @@ Toutes les compositions créées sont accessibles à partir de l’onglet **[!UI
 
 * **[!UICONTROL Brouillon]** : la composition est en cours et n’a pas été publiée.
 * **[!UICONTROL Publié]** : la composition a été publiée, les audiences qui en résultent ont été enregistrées et peuvent être utilisées.
-* **[!UICONTROL Archivée]** : la composition a été archivée.
 
 ![](assets/audiences-compositions.png)
 

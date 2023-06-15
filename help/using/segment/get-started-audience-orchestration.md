@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ Cette documentation couvre les sujets suivants :
 
 >[!AVAILABILITY]
 >
->La composition de l’audience est actuellement disponible uniquement en version Beta privée et peut être fréquemment mise à jour sans préavis. La version Beta est configurée au niveau de l’organisation, ce qui signifie qu’elle aura un impact sur toutes les sandbox de votre organisation.
+>Actuellement, la composition de l’audience n’est disponible que pour un groupe limité de clients. Contactez votre représentant Adobe si vous avez des questions.
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
@@ -49,6 +49,8 @@ Une fois cette opération terminée, les **audiences obtenues** sont enregistré
 >[!IMPORTANT]
 >
 >Les audiences obtenues à partir des workflows de composition peuvent uniquement être ciblées dans des campagnes Journey Optimizer. Elles ne peuvent pas être utilisées dans des parcours.
+>
+>Les campagnes dans Adobe Journey Optimizer ne sont pas encore intégrées au service d’application des stratégies. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’audience ne seront pas appliqués dans les campagnes Journey Optimizer.
 
 La composition de l’audience est accessible à partir du menu **[!UICONTROL Segments]** d’Adobe Journey Optimizer :
 
