@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 97%
+source-wordcount: '2453'
+ht-degree: 98%
 
 ---
 
@@ -89,13 +89,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <table>
 <thead>
 <tr>
-<th><strong>Créer et utiliser des fragments dans le contenu de votre email</strong><br/></th>
+<th><strong>Créer et utiliser des fragments dans le contenu de votre e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer, utiliser et gérer des fragments pour assembler rapidement vos emails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini qui peut être référencé dans plusieurs emails à l’échelle des campagnes et parcours Journey Optimizer pour un processus de conception amélioré et accéléré.</p>
+<p>Vous pouvez désormais créer, utiliser et gérer des fragments pour rédiger rapidement vos e-mails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini, qui peut être intégré à plusieurs e-mails dans les campagnes et parcours Journey Optimizer, pour un processus de conception amélioré et plus rapide.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../email/fragments.md">documentation détaillée</a>.</p>
 </td>
@@ -153,14 +153,13 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
    * Audience : ensemble de personnes, de comptes, de foyers ou d’autres entités qui partagent des caractéristiques et des comportements communs.
    * Définition d’un segment : règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible dans Adobe Experience Platform. Ce terme était auparavant appelé « segment ».
 
-   Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur d&#39;Adobe Experience Platform, « Segments » est remplacé par « Audiences » pour refléter ce nouveau chemin de création et de gestion d’audience.
+  Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur d&#39;Adobe Experience Platform, « Segments » est remplacé par « Audiences » pour refléter ce nouveau chemin de création et de gestion d’audience.
 
-   Les traductions du terme « audience » lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans l’ensemble des produits de l’expérience digitale pour certaines langues :
+  Les traductions du terme « audience » lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans l’ensemble des produits de l’expérience digitale pour certaines langues :
 
    * Allemand : Zielgruppe
    * Portugais brésilien : público-alvo
    * Espagnol : público desatario
-
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -266,10 +265,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 * La zone de travail du parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
-* De nouveaux garde-fous ont été ajoutés aux parcours :
-   * Le nombre d’activités d’un parcours est désormais limité à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
-   * Le nombre de **parcours actifs** dans une organisation est désormais limité à 100 par sandbox. Les parcours en mode test ne sont pas pris en compte. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
-
+* Nouvelles informations sur le nombre de noeuds sur la zone de travail avec des protections pour faciliter la croissance : pour simplifier la lecture, l’assurance qualité et le dépannage des parcours avec un nombre maximal de noeuds par parcours à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
 * Lors de l’ajout d’une action [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal dans le parcours actuel.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
 
@@ -361,7 +357,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 * Pour éviter toute confusion potentielle avec la version récente de la fonctionnalité des balises dans Adobe Experience Platform, les balises de gestion des décisions ont été renommées « qualificateurs de collection ».
 
-   Notez que bien que le terme « balise » ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services back-end, tels que les API et les jeux de données.
+  Notez que bien que le terme « balise » ne soit plus utilisé dans l’interface utilisateur de la gestion des décisions, il l’est toujours dans les services back-end, tels que les API et les jeux de données.
 
 * Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. [En savoir plus](../offers/offer-library/add-constraints.md#capping).
 
@@ -377,7 +373,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 * Amélioration de la fonctionnalité de widget de création de rapports et personnalisation de l’affichage des données des utilisateurs et utilisatrices. Grâce à cette amélioration, les utilisateurs et utilisatrices peuvent désormais choisir entre plusieurs options de visualisation, notamment les graphiques, les tableaux et les graphiques en anneau.
 
-   Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md#modify-dashboard).
+  Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md#modify-dashboard).
 
 ## Notes de mise à jour de février 2023 {#feb-2023}
 

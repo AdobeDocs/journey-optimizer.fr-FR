@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, segment, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 100%
+source-wordcount: '1537'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
 * **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lire le segment).
 * **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
-* **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures.
+* **Taux d’abandon**: ratio de tous les profils ignorés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil ignoré représente une personne qui n’est pas éligible pour entrer dans le parcours, par exemple en raison d’un espace de noms incorrect ou des règles de rentrée.
 
 >[!NOTE]
 >
