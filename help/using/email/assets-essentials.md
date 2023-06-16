@@ -10,13 +10,13 @@ level: Beginner
 keywords: ressources, essentials, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
 ht-degree: 100%
 
 ---
 
-# Création et gestion des ressources.  par [!DNL Assets Essentials]{#experience-manager-assets}
+# Création et gestion des ressources avec [!DNL Assets Essentials]{#experience-manager-assets}
 
 ## Prise en main de [!DNL Assets Essentials] {#get-started-assets-essentials}
 
