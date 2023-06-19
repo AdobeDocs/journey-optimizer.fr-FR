@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 100%
+source-wordcount: '1787'
+ht-degree: 97%
 
 ---
 
@@ -43,13 +43,9 @@ La configuration de surface d’e-mail est récupérée pour envoyer des communi
 
 Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce à la surface : **Marketing** ou **Transactionnel**.
 
-* Choisissez **Marketing** pour les e-mails promotionnels : ces messages nécessitent le consentement de l’utilisateur.
+* Choisir **Marketing** pour les courriers électroniques promotionnels, tels que les promotions hebdomadaires pour un magasin de vente au détail. Ces messages requièrent le consentement de l’utilisateur.
 
-* Choisissez **Transactionnel** pour les e-mails non commerciaux tels que les confirmations de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
-
->[!CAUTION]
->
->Les e-mails **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
+* Choisir **Transactionnel** pour les emails non commerciaux, tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple. Ces emails peuvent être envoyés aux profils qui **désabonné** des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
 Lors de la création d’un message, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
@@ -95,19 +91,19 @@ Le lien de désabonnement se compose de deux éléments :
 
 * Une **adresse e-mail de désabonnement**, à laquelle toutes les requêtes de désabonnement sont envoyées.
 
-   Dans [!DNL Journey Optimizer], l’adresse e-mail de désabonnement est l’adresse par défaut **[!UICONTROL Mailto (unsubscribe)]** affichée dans la surface de canal, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
+  Dans [!DNL Journey Optimizer], l’adresse e-mail de désabonnement est l’adresse par défaut **[!UICONTROL Mailto (unsubscribe)]** affichée dans la surface de canal, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * L’**URL de désabonnement**, qui est l’URL de la page de destination vers laquelle l’utilisateur sera redirigé une fois désabonné.
 
-   Si vous ajoutez un [lien d&#39;opt-out en un clic](../privacy/opt-out.md#one-click-opt-out) pour un message créé à l’aide de cette surface, l’URL de désabonnement sera l&#39;URL définie pour le lien d&#39;opt-out en un clic.
+  Si vous ajoutez un [lien d&#39;opt-out en un clic](../privacy/opt-out.md#one-click-opt-out) pour un message créé à l’aide de cette surface, l’URL de désabonnement sera l&#39;URL définie pour le lien d&#39;opt-out en un clic.
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
+  >[!NOTE]
+  >
+  >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
 
 Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../privacy/opt-out.md#unsubscribe-header).
 
