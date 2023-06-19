@@ -6,10 +6,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Avant d’envoyer des SMS, configurez votre instance. Vous devez [intégrer les 
 
 ## Conditions préalables{#sms-prerequisites}
 
-Adobe Journey Optimizer s’intègre actuellement à des fournisseurs tiers tels que Sinch et Twilio, qui offrent des services SMS indépendants d’Adobe Journey Optimizer.
+Adobe Journey Optimizer s’intègre actuellement à des fournisseurs tiers tels que Sinch, Twilio et Infobip, qui offrent des services SMS indépendants de Adobe Journey Optimizer.
 
 Avant la configuration des SMS, vous devez créer un compte auprès de l’un de ces fournisseurs SMS afin de recevoir le jeton API et l’ID de service qui vous permettront d’établir la connexion entre Adobe Journey Optimizer et le fournisseur SMS approprié.
 
@@ -62,6 +62,7 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
       * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS.  [En savoir plus](https://developers.sinch.com/docs/sms/getting-started/).
+
    * Pour **[!DNL Twilio]** :
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
@@ -69,6 +70,7 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
       * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]** : accédez au volet Informations du compte de la page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
 
       * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. [En savoir plus](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-).
+
    * Pour **[!DNL Infobip]** :
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
@@ -114,20 +116,19 @@ Pour créer une surface de canal, procédez comme suit :
       * Choisissez **Marketing** pour les SMS promotionnels : ces messages nécessitent le consentement de l’utilisateur ou de l’utilisatrice.
       * Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
 
-      >[!CAUTION]
-      >
-      >Les SMS **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
+     >[!CAUTION]
+     >
+     >Les SMS **transactionnels** peuvent être envoyés aux profils qui se sont désabonnés des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
-      Lors de la création d’un SMS, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
+     Lors de la création d’un SMS, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
 
    * Sélectionnez la **[!UICONTROL Configuration SMS]** à associer à la surface.
 
-      Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](#create-api).
+     Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](#create-api).
 
    * Saisissez le **[!UICONTROL Numéro dʼexpéditeur]** à utiliser lors de vos communications.
 
    * Sélectionnez votre **[!UICONTROL Champ d’exécution SMS]** pour sélectionner l’**[!UICONTROL Attribut de profil]** associé aux numéros de téléphone des profils.
-
 
 1. Si vous souhaitez utiliser la fonction de raccourcissement des URL dans vos SMS, sélectionnez un élément de la liste **[!UICONTROL Sous-domaine]**.
 
