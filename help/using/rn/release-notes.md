@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8aa64e44501b144cd3ccb325e07c1453753fc65c
+source-git-commit: 68a2846c33ce347b481ebd02e4d77938c24e6040
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 98%
+source-wordcount: '2565'
+ht-degree: 96%
 
 ---
 
@@ -22,47 +22,44 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-<!--
-## June 2023 early release notes {#june-rn-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+## Notes de mise à jour initiales de juin 2023 {#june-rn-2023}
 
-**Release date**: June 21-22, 2023
+Les informations ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. La documentation mise à jour sera publiée à la date de publication de la version et des liens directs seront ajoutés sur cette page.
 
-### New capabilities{#june-2023-features}
+**Date de publication**: 21-22 juin 2023
+
+### Nouvelles fonctionnalités{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
+<th><strong>Campagnes déclenchées par l’API pour les cas d’utilisation marketing</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
-<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
+<p>Vous pouvez désormais utiliser des API pour déclencher des campagnes marketing dans Adobe Journey Optimizer à partir d’un système externe.</p>
+<p>Jusqu’à cette version, la fonctionnalité des campagnes déclenchées par l’API couvrait divers besoins de messagerie opérationnelle et transactionnelle tels que les réinitialisations de mot de passe ou le jeton OTP, mais ne pouvait pas être utilisée pour créer des campagnes marketing. Les canaux disponibles pour les campagnes déclenchées par l’API sont les suivants : Courriel, SMS et Push.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
+<p>Pour plus d’informations, consultez la <a href="../campaigns/api-triggered-campaigns.md">documentation détaillée</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
-
+<!--
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
-
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
-
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 -->
 
 ## Notes de mise à jour de mai 2023 {#may-rn-2023}
