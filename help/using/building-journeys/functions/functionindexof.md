@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, fonction, expression, parcours
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
 # indexOf {#indexOf}
 
-Vérifie si la chaîne du premier argument se termine par une chaîne spécifique (chaîne du deuxième argument). Si la chaîne est introuvable, renvoie -1.
+Renvoie la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
 
 ## Catégorie
 
