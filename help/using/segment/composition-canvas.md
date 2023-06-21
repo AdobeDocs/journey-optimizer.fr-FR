@@ -116,15 +116,15 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 
 * **[!UICONTROL Exclure l’audience]** : exclure les profils appartenant à une audience existante.
 
-   Cliquez sur le bouton **[!UICONTROL Ajouter une audience]** puis sélectionnez l’audience à exclure.
+  Cliquez sur le bouton **[!UICONTROL Ajouter une audience]** puis sélectionnez l’audience à exclure.
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL Exclure en utilisant l’attribut]** : exclure des profils en fonction d’un attribut spécifique.
 
-   Sélectionnez l’attribut à rechercher, puis spécifiez la valeur à exclure. Dans cet exemple, nous excluons des profils de composition dont l’adresse de domicile est au Japon.
+  Sélectionnez l’attribut à rechercher, puis spécifiez la valeur à exclure. Dans cet exemple, nous excluons des profils de composition dont l’adresse de domicile est au Japon.
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### Enrichir {#enrich}
 
@@ -220,15 +220,15 @@ Deux types d’opérations de partage sont disponibles :
 
 * **[!UICONTROL Partage en pourcentage]** : il s’agit de partager les profils de manière aléatoire en deux ou plusieurs chemins d’accès. Par exemple, vous pouvez partager les profils en 2 chemins distincts de 50 % chacun. <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL Partage d’attributs]** : il s’agit de partager les profils en fonction d’un attribut spécifique. Dans cet exemple, nous partagerons les profils en fonction de leurs préférences de type de chambre.
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >L’option **[!UICONTROL Autres profils]** vous permet de créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins d’accès.
+  >[!NOTE]
+  >
+  >L’option **[!UICONTROL Autres profils]** vous permet de créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins d’accès.
 
 ## Enregistrer vos audiences {#save}
 

@@ -77,7 +77,7 @@ Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communication
 
 * Les messages peuvent être envoyés à l’adresse e-mail en Cci avant les destinataires cibles. Les messages en Cci peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [rebonds](../reports/suppression-list.md#delivery-failures).
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * N’ouvrez pas et ne cliquez pas sur les e-mails envoyés à l’adresse en Cci, car cela est pris en compte dans le nombre total d’ouvertures et de clics de l’analyse d’envoi, ce qui peut entraîner des erreurs de calcul dans les [rapports](../reports/global-report.md).
 

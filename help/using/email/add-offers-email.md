@@ -95,7 +95,6 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
       ![](assets/deliver-offer-test-profiles.png)
 
-
 1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour tester votre message, puis sélectionnez un profil de test. L’offre correspondant au profil sélectionné (une femme) s’affiche.
 
    ![](assets/deliver-offer-test-profile-female-preview.png)

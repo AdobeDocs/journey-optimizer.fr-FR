@@ -61,6 +61,7 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
       ![](assets/do-not-localize/admin_2.png)
 
    1. Saisissez le nom, le groupe ou l’adresse e-mail de votre utilisateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
+
    Votre utilisateur peut désormais accéder aux **[!UICONTROL Campagnes]**.
 
 +++

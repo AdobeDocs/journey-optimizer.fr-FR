@@ -161,21 +161,21 @@ Après avoir exécuté votre expérience, plusieurs actions de suivi sont possib
 
 * **Déployer des idées gagnantes**
 
-   Avec un résultat sans ambiguïté, vous pouvez déployer cette idée gagnante, soit en remettant le traitement le plus performant à tous vos clients, ou en créant de nouvelles campagnes où la structure du traitement le plus performant est répliquée.
-   </br>Notez que dans un environnement dynamique, ce qui fonctionne bien à un moment donné, peut ne pas bien fonctionner plus tard.
+  Avec un résultat sans ambiguïté, vous pouvez déployer cette idée gagnante, soit en remettant le traitement le plus performant à tous vos clients, ou en créant de nouvelles campagnes où la structure du traitement le plus performant est répliquée.
+  </br>Notez que dans un environnement dynamique, ce qui fonctionne bien à un moment donné, peut ne pas bien fonctionner plus tard.
 
 * **Exécuter des tests de suivi**
 
-   Parfois, les résultats de vos expériences peuvent ne pas être concluants, soit parce qu’il n’y avait pas suffisamment de profils inclus pour détecter une différence de traitement, ou alors parce que les traitements que vous avez définis n’étaient pas suffisamment différents.
+  Parfois, les résultats de vos expériences peuvent ne pas être concluants, soit parce qu’il n’y avait pas suffisamment de profils inclus pour détecter une différence de traitement, ou alors parce que les traitements que vous avez définis n’étaient pas suffisamment différents.
 
-   Si l’hypothèse que vous testez est toujours pertinente, effectuer un test de relance sur une audience plus grande ou différente, ou modifier vos traitements pour qu’il y ait des différences plus claires, serait la meilleure action de suivi.
+  Si l’hypothèse que vous testez est toujours pertinente, effectuer un test de relance sur une audience plus grande ou différente, ou modifier vos traitements pour qu’il y ait des différences plus claires, serait la meilleure action de suivi.
 
 * **Effectuer des analyses approfondies**
 
-   Le traitement qui fonctionne bien pour une audience peut parfois ne pas être le meilleur traitement pour une autre. Effectuer des analyses plus approfondies sur la manière dont les traitements se comportent pour différents segments permet de générer des idées pour de nouveaux tests.
+  Le traitement qui fonctionne bien pour une audience peut parfois ne pas être le meilleur traitement pour une autre. Effectuer des analyses plus approfondies sur la manière dont les traitements se comportent pour différents segments permet de générer des idées pour de nouveaux tests.
 
-   De même, l’étude des performances de chaque traitement avec des mesures différentes peut également donner une vue plus complète de vos expériences.
+  De même, l’étude des performances de chaque traitement avec des mesures différentes peut également donner une vue plus complète de vos expériences.
 
-   >[!CAUTION]
-   >
-   >Plus d’analyses signifie une plus grande probabilité de détecter un effet indésirable, ou un faux positif.
+  >[!CAUTION]
+  >
+  >Plus d’analyses signifie une plus grande probabilité de détecter un effet indésirable, ou un faux positif.

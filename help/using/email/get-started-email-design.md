@@ -48,11 +48,11 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
    * **Concevez vos e-mails en partant de zéro** dans l’interface du Concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
 
-   * **Codez ou collez du code HTML brut** directement dans le concepteur d’email. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
+   * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 
-      >[!NOTE]
-      >
-      >Dans une campagne, vous pouvez également sélectionner le bouton **[!UICONTROL Éditeur de code]** à partir de l’écran **[!UICONTROL Modifier le contenu]** écran. [En savoir plus](create-email.md#define-email-content)
+     >[!NOTE]
+     >
+     >Dans une campagne, vous pouvez également sélectionner le bouton **[!UICONTROL Éditeur de code]** à partir de l’écran **[!UICONTROL Modifier le contenu]** écran. [En savoir plus](create-email.md#define-email-content)
 
    * **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu d’e-mail dans [cette section](existing-content.md).
 
@@ -66,7 +66,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 ## Tutoriels vidéo {#video}
 
-Découvrez comment créer du contenu d&#39;e-mail avec l&#39;éditeur de messages.
+Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 

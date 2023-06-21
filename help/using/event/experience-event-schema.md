@@ -32,27 +32,27 @@ Un schéma XDM destiné aux événements [!DNL Journey Optimizer] doit répondre
 
 * Le schéma doit appartenir à la classe XDM ExperienceEvent.
 
-   ![](assets/schema2.png)
+  ![](assets/schema2.png)
 
 * Pour les événements générés par le système, le schéma doit inclure le groupe de champs eventID Orchestration. [!DNL Journey Optimizer] emploie ce champ pour identifier les événements utilisés dans les parcours.
 
-   ![](assets/schema3.png)
+  ![](assets/schema3.png)
 
 * Déclarez un champ d’identité pour l’identification des profils individuels dans l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cela n’est pas recommandé.
 
-   ![](assets/schema4.png)
+  ![](assets/schema4.png)
 
 * Si vous souhaitez que ces données soient disponibles pour une recherche ultérieure dans un parcours, marquez le schéma et le jeu de données pour le profil.
 
-   ![](assets/schema5.png)
+  ![](assets/schema5.png)
 
-   ![](assets/schema6.png)
+  ![](assets/schema6.png)
 
 * N’hésitez pas à inclure des champs de données pour recueillir toutes les autres données contextuelles que vous souhaitez incorporer à l’événement, telles que des informations relatives à l’utilisateur, l’appareil à partir duquel l’événement a été généré, l’emplacement ou toute autre circonstance significative liée à l’événement.
 
-   ![](assets/schema7.png)
+  ![](assets/schema7.png)
 
-   ![](assets/schema8.png)
+  ![](assets/schema8.png)
 
 ## Utilisation des relations de schéma{#leverage_schema_relationships}
 

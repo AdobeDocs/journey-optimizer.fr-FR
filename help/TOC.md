@@ -363,7 +363,7 @@ ht-degree: 100%
       + [Utiliser les événements de gestion des décisions](using/offers/reports/get-started-events.md)
       + [Accès aux champs XDM des événements](using/offers/reports/xdm-fields.md)
    + Export de votre catalogue d’offres {#export-catalog}
-      + [Commencer à exporter des catalogues d’offres ](using/offers/export-catalog/get-started-export.md)
+      + [Commencer à exporter des catalogues d’offres](using/offers/export-catalog/get-started-export.md)
       + [Accès au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
       + [Jeu de données d’offres personnalisées](using/offers/export-catalog/export-offers.md)
       + [Jeu de données de décisions](using/offers/export-catalog/export-decisions.md)
@@ -426,7 +426,7 @@ ht-degree: 100%
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
       + [Exporter des jeux de données Journey Optimizer](using/data/export-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
-      + [Schémas intégrés > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
+      + [Schémas intégrés >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
    + [Requêtes](using/data/get-started-queries.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)

@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
->title="Simulation des décisions d’offre"
->abstract="La simulation vous permet de simuler les offres qui seront diffusées à un profil de test pour un emplacement donné. Vous pouvez ainsi tester et affiner différentes versions de vos offres sans aucun impact sur les destinataires ciblés. "
+>title="Simulation de décisions d’offre"
+>abstract="La simulation vous permet de simuler les offres qui seront diffusées à un profil de test pour un emplacement donné. Vous pouvez ainsi tester et affiner différentes versions de vos offres sans aucun impact sur les destinataires ciblés."
 
 ## À propos de la simulation {#about-simulation}
 
@@ -217,5 +217,5 @@ Une fois que vous avez ajouté une portée de décision et sélectionné un prof
 
    >[!NOTE]
    >
-   >Lors de la copie des payloads de la requête ou de la réponse dans votre propre code, veillez à remplacer {USER_TOKEN} et {API_KEY} par des données valides. Découvrez comment récupérer ces valeurs dans la variable [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr){target="_blank"} documentation.
+   >Lors de la copie des payloads de la requête ou de la réponse dans votre propre code, veillez à remplacer {USER_TOKEN} et {API_KEY} par des données valides. Découvrez comment récupérer ces valeurs dans la documentation des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr){target="_blank"}
 

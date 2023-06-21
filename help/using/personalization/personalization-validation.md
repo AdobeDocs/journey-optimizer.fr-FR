@@ -24,11 +24,13 @@ Dans l’écran **Éditeur d’expression**, utilisez le bouton **Valider** pour
 
 >[!NOTE]
 > La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur d&#39;expressions.
+>
 
 ## Erreurs courantes {#common-errors}
 

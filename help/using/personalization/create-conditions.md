@@ -32,11 +32,11 @@ Les règles conditionnelles sont créées à partir du menu **[!UICONTROL Condit
 
 * dans le Concepteur d’e-mail, lors de l’activation d’un contenu dynamique pour un composant présent dans le corps du message. [Découvrez comment ajouter du contenu dynamique dans les e-mails](dynamic-content.md#emails)
 
-   ![](assets/conditions-access-email.png)
+  ![](assets/conditions-access-email.png)
 
 * Dans n’importe quel champ où vous pouvez ajouter un élément de personnalisation à l’aide de la fonction [Éditeur d’expression](personalization-build-expressions.md).
 
-   ![](assets/conditions-access-editor.png)
+  ![](assets/conditions-access-editor.png)
 
 ## Créer une règle conditionnelle {#create-condition}
 

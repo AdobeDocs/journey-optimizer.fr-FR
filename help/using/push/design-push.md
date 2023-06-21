@@ -50,7 +50,7 @@ Deux options sont disponibles. Vous pouvez :
 
 * Cliquez sur le bouton **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets Essentials]** dans [cette page](../email/assets-essentials.md).
+  Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets Essentials]** dans [cette page](../email/assets-essentials.md).
 
 * Vous pouvez également saisir lʼURL du média en cliquant sur le champ **[!UICONTROL Ajouter un média]**. Dans ce cas, vous pouvez ajouter une personnalisation à l’URL.
 

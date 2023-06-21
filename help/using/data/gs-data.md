@@ -67,7 +67,7 @@ Vous pouvez utiliser la flexibilité des données de [!DNL Journey Optimizer] po
 
 * **Extraction/exportation des données** : vous pouvez lancer l’extraction des données sources à tout moment à travers l’API d’accès aux données sans pénalités ni retards. L’[API Data Access](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=fr){target="_blank"} fournit aux utilisateurs et utilisatrices une interface RESTful axée sur la capacité de découverte et l’accessibilité des jeux de données ingérés dans [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
-   Notez que le contenu utilisé dans les parcours ou les campagnes ne peut pas être extrait à travers l’API ou les méthodes de destination mentionnées ci-dessus.
+  Notez que le contenu utilisé dans les parcours ou les campagnes ne peut pas être extrait à travers l’API ou les méthodes de destination mentionnées ci-dessus.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
@@ -77,7 +77,7 @@ Vous pouvez utiliser la flexibilité des données de [!DNL Journey Optimizer] po
 
 * **Purge et mécanismes d’archivage** : la purge et l’archivage des données peuvent être librement définis et automatisés dans [!DNL Adobe Journey Optimizer] afin d’automatiser les politiques de conservation des données. Il est possible de définir différentes politiques de vieillissement pour les différentes entités de données. Des mécanismes d’exportation peuvent également être définis pour exporter automatiquement les données âgées avant qu’elles ne soient purgées ou archivées.
 
-   L’espace de travail Hygiène des données vous permet de créer et de surveiller diverses tâches d’hygiène des données, notamment la suppression des identités des client(e)s et la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield et Healthcare Shield. En savoir plus sur [cette page](../privacy/data-hygiene.md).
+  L’espace de travail Hygiène des données vous permet de créer et de surveiller diverses tâches d’hygiène des données, notamment la suppression des identités des client(e)s et la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield et Healthcare Shield. En savoir plus sur [cette page](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

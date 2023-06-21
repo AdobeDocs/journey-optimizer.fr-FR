@@ -22,6 +22,7 @@ Conformément aux normes et réglementations du secteur, tous les messages SMS d
 >[!IMPORTANT]
 >
 >Les communications par SMS peuvent être soumises à diverses exigences légales qui dépendent de la nature de ces communications, de l’endroit d’où vous envoyez vos SMS et de celui de vos destinataires. Bien qu’Adobe Journey Optimizer traite les messages sur les numéros de code long et gratuits comme décrit ci-dessus, vous devez consulter votre service juridique pour vous assurer que vos communications par SMS sont conformes à toutes les exigences légales applicables.
+>
 
 ## Mots-clés entrants natifs{#sms-native-keywords}
 

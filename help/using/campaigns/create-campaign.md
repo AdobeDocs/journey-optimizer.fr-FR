@@ -25,7 +25,6 @@ ht-degree: 100%
 >* [Création de surfaces de canal](../configuration/channel-surfaces.md)
 >* [Prise en main des segments](../segment/about-segments.md)
 
-
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
 
 ## Choisissez le type et le canal de la campagne. {#campaigntype}

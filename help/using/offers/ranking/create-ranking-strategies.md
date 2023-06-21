@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,6 @@ Pour créer un modèle d’IA, procédez comme suit :
    >Offres de classement de [!DNL Journey Optimizer] en fonction du **taux de conversion** (Taux de conversion = Nombre total d’événements de conversion/Nombre total d’événements d’impression). Le taux de conversion est calculé à l’aide de deux types de mesures :
    >* Les **événements d’impression** (les offres qui sont affichées).
    >* Les **événements de conversion** (les offres qui génèrent des clics par e-mail ou sur le Web).
-
    >
    >Ces événements sont automatiquement capturés à l’aide du SDK Web ou du SDK Mobile fourni. Pour en savoir plus à ce sujet, consultez la [présentation du SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr).
 

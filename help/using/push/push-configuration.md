@@ -9,7 +9,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 >[!AVAILABILITY]
 >
 >Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md).
+>
 
 
 ## Avant de commencer {#before-starting}
@@ -142,7 +143,7 @@ L&#39;enregistrement des informations d&#39;identification push de l&#39;applica
 
    * **Pour iOS**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. Renseignez l&#39;**ID de bundle** de l&#39;application mobile dans le champ **[!UICONTROL ID de l&#39;application (ID de bundle iOS)]**. L&#39;ID de bundle de l&#39;application se trouve dans l&#39;onglet **Général** de la cible principale dans **XCode**.
 
@@ -153,16 +154,16 @@ L&#39;enregistrement des informations d&#39;identification push de l&#39;applica
       1. Indiquez l&#39;**identifiant de clé**. Il s&#39;agit d&#39;une chaîne de 10 caractères attribuée lors de la création de la clé d&#39;authentification p8. Elle se trouve sous l&#39;onglet **Clés** de la page **Certificats**, **Identifiants** et **Profils**.
 
       1. Indiquez l&#39;**identifiant d&#39;équipe**. Il s&#39;agit d&#39;une valeur de chaîne qui se trouve sous l&#39;onglet Abonnement.
+
    * **Pour Android**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. Indiquez l&#39;**[!UICONTROL ID d&#39;application (nom du package Android)]** : en règle générale, le nom du package est l&#39;ID d&#39;application dans votre fichier `build.gradle`.
 
       1. Activez le bouton **[!UICONTROL Informations d’identification push]** pour ajouter vos informations d’identification.
 
       1. Effectuez un glisser-déposer des informations d&#39;identification push FCM. Pour plus d’informations sur l’obtention des informations d’identification push, voir la [Documentation Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer votre configuration d&#39;application.

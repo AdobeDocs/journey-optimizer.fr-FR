@@ -23,6 +23,7 @@ Cette page vous aidera à configurer et à comprendre les services et les workfl
 >[!AVAILABILITY]
 >
 >Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md).
+>
 
 Apprenez sur [cette page](create-push.md) à créer des notifications push.
 
@@ -49,13 +50,13 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 
 * Les **fournisseurs de services de notification push** sont les services web des composants principaux qui diffusent des notifications de serveurs distants vers des applications mobiles.
 
-   [!DNL Adobe Journey Optimizer] prend en charge les plateformes Android et iOS et s&#39;intègre ainsi aux fonctionnalités suivantes :
+  [!DNL Adobe Journey Optimizer] prend en charge les plateformes Android et iOS et s&#39;intègre ainsi aux fonctionnalités suivantes :
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - pour envoyer des notifications à l&#39;application mobile Android
    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - pour envoyer des notifications à l&#39;application mobile iOS
 
 * **SDK mobile Adobe Experience Platform** qui fournit des API d&#39;intégration côté client pour vos mobiles via des SDK compatibles Android et iOS. Le SDK fournit une extension [!DNL Adobe Journey Optimizer] exposant différentes API spécifiques à la messagerie push et permettant les flux de données, comme l&#39;enregistrement du jeton push ou l&#39;envoi d&#39;événements de suivi push ou de tout autre événement d&#39;expérience personnalisé à Adobe Experience Platform. Le SDK fournit également de nombreuses autres extensions qui activent d&#39;autres fonctionnalités Adobe Experience Cloud ainsi que des fonctionnalités de partenaires tiers.
 
-   L&#39;intégration du SDK nécessite également la configuration des services de [collecte de données](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) Adobe Experience Platform, notamment :{target="_blank"}
+  L&#39;intégration du SDK nécessite également la configuration des services de [collecte de données](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) Adobe Experience Platform, notamment :{target="_blank"}
 
    * Création d&#39;un flux de données pour configurer les jeux de données de profil et d&#39;événement d&#39;expérience par rapport auxquels les données sont transmises à Adobe Experience Platform
    * Création de propriétés mobiles côté client et ajout d&#39;extensions. Le SDK s&#39;intègre étroitement avec ces extensions pour offrir une expérience de collecte de données transparente.

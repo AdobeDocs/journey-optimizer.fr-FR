@@ -26,7 +26,7 @@ Il existe plusieurs façons de créer des profils de test. Vous trouverez sur ce
 
 * Créer des profils de test en chargeant un [fichier CSV](#create-test-profiles-csv) ou en utilisant des [appels d’API](#create-test-profiles-api).
 
-   Outre ces deux méthodes, Adobe Journey Optimizer est fourni avec un [cas d’utilisation intégré](#use-case-1) spécifique pour faciliter la création de profils de test.
+  Outre ces deux méthodes, Adobe Journey Optimizer est fourni avec un [cas d’utilisation intégré](#use-case-1) spécifique pour faciliter la création de profils de test.
 
 Vous pouvez également charger un fichier JSON dans un jeu de données existant. Pour en savoir plus à ce sujet, consultez la [documentation sur l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target="_blank"}.
 
@@ -54,7 +54,6 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
    >* Cliquez sur le nom du schéma pour le modifier et mettre à jour ses propriétés.
    >
    >* Cliquez sur le bouton **[!UICONTROL Ajouter]** dans la section Groupes de champs pour sélectionner d&#39;autres groupes de champs à ajouter au schéma.
-
 
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l&#39;identité principale.
    ![](assets/test-profiles-3.png)

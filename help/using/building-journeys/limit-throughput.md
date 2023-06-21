@@ -56,14 +56,14 @@ Prenons un exemple de **parcours déclenché par un segment** s’exécutant ave
    * Sur la branche 1, ils attendront 30 secondes, ce qui signifie que :
       * lors de la seconde 1, 100 profils attendront la seconde 31
       * lors de la seconde 2, 100 profils attendront la seconde 32, etc.
+
    * Sur la branche 2, ils attendront 60 secondes, ce qui signifie que :
       * Lors de la seconde 1, 100 profils attendront la seconde 61 (1 min 01 s)
       * Lors de la seconde 2, 100 profils attendront la seconde 62 (1 min 02 s), etc.
+
    * Sachant que nous prévoyons 20 secondes au maximum pour lire tous les profils, il n’y aura pas de chevauchement entre chaque branche, la seconde 20 étant la dernière durant laquelle les profils entreront dans la condition. Entre les secondes 31 et 51, tous les profils de la branche 1 seront traités. Entre la seconde 61 (1 min 01 s) et la seconde 81 (1 min 21 s), tous les profils de la branche 2 seront traités, etc.
 
    * Comme mécanisme de sécurisation, vous pouvez également ajouter une sixième branche pour avoir moins de 100 profils par branche, en particulier si votre système externe ne prend en charge que 100 requêtes/seconde.
-
-
 
 >[!IMPORTANT]
 >

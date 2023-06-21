@@ -48,7 +48,7 @@ Le tableau ci-dessous présente les actions sur lesquelles les ressources Journe
 | Préréglage de la page de destination AJO | Créer / Supprimer / Mettre à jour |
 | Sous-domaine de page de destination AJO | Créer / Supprimer / Mettre à jour |
 | Message AJO | Créer / Supprimer / Mettre à jour / Publier |
-| Paramètre de message prédéfini AJO | Créer / Supprimer / Mettre à jour |
+| Préréglage de message AJO | Créer / Supprimer / Mettre à jour |
 | Enregistrement PTR AJO | Créer / Supprimer / Mettre à jour |
 | Modèle d’expression enregistré AJO | Créer / Supprimer / Mettre à jour |
 | Informations d’identification de l’API SMS AJO | Créer / Supprimer / Mettre à jour |

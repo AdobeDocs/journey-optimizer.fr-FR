@@ -98,7 +98,6 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
    >   * Vérifiez auprès du fournisseur DNS si l’enregistrement DNS direct a bien été créé.
    >   * Les enregistrements sur les serveurs DNS peuvent ne pas se synchroniser immédiatement. Patientez quelques minutes, puis réessayez.
 
-
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications.
 
 >[!NOTE]

@@ -34,7 +34,6 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Le segment et l&#39;espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
 * Un parcours commençant par une **lecture de segment** ne peut pas commencer par un autre événement dans les versions suivantes.
-
 ## Actions personnalisées  limitations
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
@@ -43,12 +42,10 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Les adresses IP ne sont pas autorisées. 
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
-
 ## Limitations des événements
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
  
-
 ## Sources de données  limitations
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel.Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.

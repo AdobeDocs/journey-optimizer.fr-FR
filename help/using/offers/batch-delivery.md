@@ -5,7 +5,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Avant de configurer une demande de traitement, assurez-vous d’avoir créé :
 
 * **Un jeu de données** dans Adobe Experience Platform. Ce jeu de données sera utilisé pour stocker le résultat de la décision à l’aide du schéma « ODE DecisionEvents ». Pour en savoir plus, consultez la [documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr).
 
-* **Un segment** dans Adobe Experience Platform. Le segment doit être évalué, puis mis à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à un segment dans la [documentation relative au service de segmentation](https://www.adobe.com/go/segmentation-overview-en).
+* **Un segment** dans Adobe Experience Platform. Le segment doit être évalué, puis mis à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à un segment dans la [documentation relative au service de segmentation](https://www.adobe.com/go/segmentation-overview-en_fr).
 
-   >[!NOTE]
-   >
-   >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l’instantané le plus récent. Patientez jusqu’à 24 heures après la création d’un segment avant d’essayer l’API de prise de décision par lots.
+  >[!NOTE]
+  >
+  >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l’instantané le plus récent. Patientez jusqu’à 24 heures après la création d’un segment avant d’essayer l’API de prise de décision par lots.
 
 * **Une décision** dans Adobe Journey Optimizer. [Découvrez comment créer une décision](offer-activities/create-offer-activities.md)
 

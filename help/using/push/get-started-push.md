@@ -29,11 +29,11 @@ Les notifications push peuvent être créées :
 
 * Dans un **parcours** : une fois que vous avez ajouté une activité push à votre parcours et défini des paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : Push]** pour créer le contenu des notifications push.
 
-   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+  Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
 * Dans une **campagne** : une fois une campagne créée, sélectionnez Notification push comme action et définissez les paramètres de base.
 
-   Pour plus d’informations sur la configuration de votre campagne, consultez cette [page](../campaigns/create-campaign.md#configure).
+  Pour plus d’informations sur la configuration de votre campagne, consultez cette [page](../campaigns/create-campaign.md#configure).
 
 Utilisez les onglets dédiés pour définir les paramètres de notification push pour les systèmes d’exploitation **iOS** et **Android**.
 

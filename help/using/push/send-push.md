@@ -52,7 +52,7 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 
    * **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](../push/create-push.md).
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]

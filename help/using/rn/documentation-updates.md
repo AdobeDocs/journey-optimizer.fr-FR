@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Une nouvelle section a été ajoutée pour décrire comment garantir le respect du choix de vos clientes et clients qui refusent l’utilisation de leurs données de profil pour la personnalisation. [En savoir plus](../privacy/opt-out.md#opt-out-personalization).
 * Un note a été ajoutée sur l’utilisation de caractères internationaux spéciaux dans les URL incluses dans les contenus d’e-mail. [En savoir plus](../email/message-tracking.md#insert-links).
 * L’autorisation nécessaire pour tester et publier des pages de destination a été ajoutée. [En savoir plus](../landing-pages/create-lp.md).
-* Une note a été ajoutée au sujet des points de terminaison Adobe Experience Platform nécessaires pour que vos événements personnalisés soient pris en compte dans la limitation de la fréquence de la gestion de la décision. [En savoir plus](../offers/data-collection/schema-requirement.md#track-custom-events).
+* Une note a été ajoutée au sujet des points d’entrée Adobe Experience Platform nécessaires pour que vos événements personnalisés soient pris en compte dans le capping de la fréquence de la gestion des décisions. [En savoir plus](../offers/data-collection/schema-requirement.md#track-custom-events).
 
 ## Avril 2023 {#apr-2023}
 
@@ -95,7 +95,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’informations sur les jeux de données intégrés. [En savoir plus](../data/get-started-datasets.md#access-datasets)
 * Amélioration et réorganisation des sections Rapport global et Rapport dynamique. [En savoir plus](../reports/global-report.md)
 * Une liste de toutes les mesures de création de rapports disponibles dans Adobe Journey Optimizer a été ajoutée.
-   [En savoir plus](../reports/global-report.md#email-and-sms-metrics)
+  [En savoir plus](../reports/global-report.md#email-and-sms-metrics)
 * La section Envoyer l’e-mail en copie (Cci) a été déplacée vers la nouvelle page Prise en charge de l’archivage. [En savoir plus](../configuration/archiving-support.md)
 
 ## Août 2022 {#august-2022}
@@ -153,8 +153,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Les vidéos relatives aux fonctionnalités de gestion des décisions ont été mises à jour pour refléter l’interface utilisateur de Journey Optimizer. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
 * La section **Prise en main des jeux de données** a été améliorée afin d’expliquer en détail comment accéder aux jeux de données et les créer. [En savoir plus](../data/get-started-datasets.md)
 * Des liens vers les guides d’aide et les notes de mise à jour du produit ont été ajoutés à la page d’accueil de la **Documentation d’Adobe Journey Optimizer**. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
-* La section **Créer des paramètres prédéfinis de messages** indique désormais que vous ne pouvez pas procéder à la création de paramètres prédéfinis tant que le groupe d’adresses IP sélectionné est en cours d’édition (statut de **[!UICONTROL traitement]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
-* La section **Suivi des URL** des paramètres prédéfinis de messages a été mise à jour pour refléter des changements mineurs dans l’interface utilisateur. [En savoir plus](../configuration/channel-surfaces.md#url-tracking)
+* La section **Créer des préréglages de messages** indique désormais que vous ne pouvez pas procéder à la création de préréglages tant que le groupe d’adresses IP sélectionné est en cours d’édition (statut de **[!UICONTROL traitement]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* La section **Suivi des URL** des préréglages de messages a été mise à jour pour refléter des changements mineurs dans l’interface utilisateur. [En savoir plus](../configuration/channel-surfaces.md#url-tracking)
 
 ## Mars 2022 {#march-2022}
 

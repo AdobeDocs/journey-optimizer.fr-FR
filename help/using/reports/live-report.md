@@ -22,15 +22,15 @@ Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** aussit�
 
 * Si vous souhaitez cibler un parcours dans le contexte d’un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne et cliquez sur le bouton **[!UICONTROL Rapports]**.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Si vous souhaitez passer du **[!UICONTROL rapport global]** au **[!UICONTROL rapport dynamique]** pour votre diffusion, cliquez sur **[!UICONTROL Dernières 24 heures]** dans le sélecteur d’onglets.
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](#list-of-components-live).
 

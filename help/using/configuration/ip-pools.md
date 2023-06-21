@@ -119,6 +119,5 @@ Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le
 >* quelques minutes avant qu&#39;il soit consommé par les messages unitaires ;
 >* jusqu’au lot suivant pour que le pool d’adresses IP soit effectif dans les messages par lots ;
 
-
 Vous pouvez également utiliser le bouton **[!UICONTROL Supprimer]** pour supprimer un pool d’adresses IP. Notez que vous ne pouvez pas supprimer un groupe d’adresses IP associé à une surface de canal.
 

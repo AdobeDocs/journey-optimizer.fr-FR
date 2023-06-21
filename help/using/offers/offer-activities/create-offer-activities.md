@@ -76,19 +76,19 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    * Pour limiter la sélection des offres aux membres d’un segment Experience Platform, sélectionnez **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter des segments]**.
 
-      ![](../assets/activity_constraint_segment.png)
+     ![](../assets/activity_constraint_segment.png)
 
-      Ajoutez un ou plusieurs segments depuis le volet de gauche, puis combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]**/**[!UICONTROL Ou]**.
+     Ajoutez un ou plusieurs segments depuis le volet de gauche, puis combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]**/**[!UICONTROL Ou]**.
 
-      ![](../assets/activity_constraint_segment2.png)
+     ![](../assets/activity_constraint_segment2.png)
 
-      Découvrez comment utiliser des segments dans [cette section](../../segment/about-segments.md).
+     Découvrez comment utiliser des segments dans [cette section](../../segment/about-segments.md).
 
    * Si vous souhaitez ajouter une contrainte de sélection avec une règle de décision, utilisez l’option **[!UICONTROL Règle de décision]** et sélectionnez la règle de votre choix.
 
-      ![](../assets/activity_constraint_rule.png)
+     ![](../assets/activity_constraint_rule.png)
 
-      Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md).
+     Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md).
 
 1. Lorsque vous sélectionnez des segments ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
@@ -136,11 +136,11 @@ Prenons l’exemple suivant : vous disposez de deux collections, l’une dans l
 
 * Si les deux critères d’évaluation ne sont **pas combinés** et/ou dans l’ordre séquentiel (1 et 2), les deux meilleures offres éligibles selon les critères d’évaluation seront renvoyées dans la première ligne. S’il n’y a pas deux offres éligibles pour le premier critère d’évaluation, le moteur de décision passera au critère d’évaluation suivant dans l’ordre pour trouver autant d’offres que nécessaire, et renverra finalement une offre de secours si nécessaire.
 
-   ![](../assets/activity_consecutive-rank-collections.png)
+  ![](../assets/activity_consecutive-rank-collections.png)
 
 * Si les deux collections sont **évaluées en même temps**, car deux offres répondent au critère d’évaluation A et trois offres au critère d’évaluation B, les cinq offres sont regroupées et classées dans l’ordre de leurs méthodes de classement respectives. Comme deux offres sont demandées, les deux meilleures offres éligibles parmi ces cinq offres seront renvoyées.
 
-   ![](../assets/activity_same-rank-collections.png)
+  ![](../assets/activity_same-rank-collections.png)
 
 ## Ajouter une offre de secours {#add-fallback}
 
@@ -205,11 +205,11 @@ Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessou
 
 * **[!UICONTROL Supprimer]** : supprime la décision de la liste.
 
-   >[!CAUTION]
-   >
-   >La décision et son contenu ne seront plus accessibles. Cette action ne peut pas être annulée.
-   >
-   >Si la décision est utilisée dans un autre objet, elle ne peut pas être supprimée.
+  >[!CAUTION]
+  >
+  >La décision et son contenu ne seront plus accessibles. Cette action ne peut pas être annulée.
+  >
+  >Si la décision est utilisée dans un autre objet, elle ne peut pas être supprimée.
 
 * **[!UICONTROL Archiver]** : définit le statut de la décision sur **[!UICONTROL Archivé]**. La décision est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Brouillon]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement la dupliquer ou la supprimer.
 

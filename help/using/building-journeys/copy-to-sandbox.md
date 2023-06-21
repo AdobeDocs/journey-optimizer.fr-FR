@@ -82,27 +82,27 @@ Les objets suivants sont copiés :
 
 * Segment
 
-   Un segment ne peut être copié qu’une seule fois d’un sandbox à un autre. Un segment ayant été copié n’est pas modifiable sur le sandbox de destination.
+  Un segment ne peut être copié qu’une seule fois d’un sandbox à un autre. Un segment ayant été copié n’est pas modifiable sur le sandbox de destination.
 
 * Schéma
 
-   Les schémas utilisés dans ce parcours sont copiés.
+  Les schémas utilisés dans ce parcours sont copiés.
 
 * Message
 
-   Les activités d’action de canal utilisées dans le parcours. L’exhaustivité des champs utilisés pour la personnalisation dans le message n’est pas vérifiée. Les blocs de contenu ne sont pas copiés.
+  Les activités d’action de canal utilisées dans le parcours. L’exhaustivité des champs utilisés pour la personnalisation dans le message n’est pas vérifiée. Les blocs de contenu ne sont pas copiés.
 
 * Parcours : détails de la zone de travail
 
-   Représentation du parcours sur la zone de travail, y compris les objets du parcours tels que les conditions, les actions, les événements, les segments de lecture, etc. L’activité Saut n’est pas copiée.
+  Représentation du parcours sur la zone de travail, y compris les objets du parcours tels que les conditions, les actions, les événements, les segments de lecture, etc. L’activité Saut n’est pas copiée.
 
 * Événement
 
-   Les événements et les détails des événements utilisés dans le parcours sont copiés.
+  Les événements et les détails des événements utilisés dans le parcours sont copiés.
 
 * Action
 
-   Les actions et les détails des actions utilisées dans le parcours sont copiés.
+  Les actions et les détails des actions utilisées dans le parcours sont copiés.
 
 Les surfaces (c’est-à-dire les préréglages) ne sont pas copiées. Le système sélectionne automatiquement la correspondance la plus proche possible sur le sandbox de destination, en fonction du type de message et du nom de la surface. Si aucune surface n’est trouvée sur le sandbox cible, le processus de copie de la surface échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’une surface soit disponible pour la configuration. Dans ce cas, au moins une surface doit être créée, pour le bon canal du message, afin que la copie fonctionne.
 

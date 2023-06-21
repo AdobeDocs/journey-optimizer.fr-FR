@@ -43,7 +43,6 @@ Pour ce faire, vous devez effectuer une sélection dans la liste des sous-domain
 >
 > * Toute modification apportée à un sous-domaine web aura également un impact sur les sandbox de production.
 
-
 Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par défaut** sera utilisé. Vous pouvez modifier le sous-domaine web par défaut, mais un seul sous-domaine peut être utilisé à la fois.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration web]** > **[!UICONTROL Sous-domaines web]**.

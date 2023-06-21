@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ La vidéo ci-dessous montre comment créer, configurer et publier des messages i
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test A/B.
+La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test AB.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 

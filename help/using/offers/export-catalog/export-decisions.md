@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,32 +79,32 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 * Description
 
-   **Champ :** description
-   **Titre :** description
-   **Description :** description de la sélection d&#39;options. Permet de véhiculer les intentions lisibles par l&#39;homme sur la manière dont ou la raison pour laquelle cette sélection d&#39;options a été effectuée et/ou qui indiquent l&#39;option qui correspondra.
-   **Type :** chaîne
+  **Champ :** description
+  **Titre :** description
+  **Description :** description de la sélection d&#39;options. Permet de véhiculer les intentions lisibles par l&#39;homme sur la manière dont ou la raison pour laquelle cette sélection d&#39;options a été effectuée et/ou qui indiquent l&#39;option qui correspondra.
+  **Type :** chaîne
 
 * Filtre d’option
 
-   **Champ :** filtre
-   **Titre :** filtre d&#39;option
-   **Description :** référence à un filtre basé sur un qualificateur de collection (précédemment appelé « balise ») qui correspond aux options d’un inventaire à l’aide de leurs qualificateurs de collection joints. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
-   **Type :** chaîne
+  **Champ :** filtre
+  **Titre :** filtre d&#39;option
+  **Description :** référence à un filtre basé sur un qualificateur de collection (précédemment appelé « balise ») qui correspond aux options d’un inventaire à l’aide de leurs qualificateurs de collection joints. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/filter.
+  **Type :** chaîne
 
 * Type de contrainte de profil
 
-   **Champ :** optionSelectionType
-   **Titre :** type de contrainte de profil
-   **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec un ou plusieurs abonnements au segment.
-   **Type :** chaîne
-   **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
+  **Champ :** optionSelectionType
+  **Titre :** type de contrainte de profil
+  **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec un ou plusieurs abonnements au segment.
+  **Type :** chaîne
+  **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
 
 * Liste d’options
 
-   **Champ :** options
-   **Titre :** liste d&#39;options
-   **Description :** liste qui spécifie directement les options sans évaluer une requête de filtre. Vous pouvez spécifier une liste d&#39;options ou une règle de filtre d&#39;option.
-   **Type :** tableau
+  **Champ :** options
+  **Titre :** liste d&#39;options
+  **Description :** liste qui spécifie directement les options sans évaluer une requête de filtre. Vous pouvez spécifier une liste d&#39;options ou une règle de filtre d&#39;option.
+  **Type :** tableau
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
@@ -119,9 +119,9 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 * Identifiant d’emplacement
 
-   **Titre :** identifiant d&#39;emplacement
-   **Description :** référence à une entité d&#39;emplacement. La valeur est l&#39;URI (@id) de l&#39;emplacement qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
-   **Type :** chaîne
+  **Titre :** identifiant d&#39;emplacement
+  **Description :** référence à une entité d&#39;emplacement. La valeur est l&#39;URI (@id) de l&#39;emplacement qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
+  **Type :** chaîne
 
 +++
 
@@ -176,32 +176,32 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 * Identifiant
 
-   **Champ :** _id
-   **Titre :** identifiant
-   **Description :** Identité du segment dans l&#39;espace de noms connexe.
-   **Type :** chaîne
+  **Champ :** _id
+  **Titre :** identifiant
+  **Description :** Identité du segment dans l&#39;espace de noms connexe.
+  **Type :** chaîne
 
 * espace de noms
 
-   **Champ :** espace de noms
-   **Titre :** espace de noms
-   **Description :** Espace de noms associé à l&#39;attribut `xid`.
-   **Type :** objet
-   **Obligatoire :** &quot;code&quot;
+  **Champ :** espace de noms
+  **Titre :** espace de noms
+  **Description :** Espace de noms associé à l&#39;attribut `xid`.
+  **Type :** objet
+  **Obligatoire :** &quot;code&quot;
 
    * Code
 
-      **Champ :** code
-      **Titre :** code
-      **Description :** Le code est un identifiant lisible par l&#39;homme pour l&#39;espace de noms et peut être utilisé pour demander l&#39;identifiant technique d&#39;espace de noms utilisé pour le traitement des graphiques d&#39;identités.
-      **Type :** chaîne
+     **Champ :** code
+     **Titre :** code
+     **Description :** Le code est un identifiant lisible par l&#39;homme pour l&#39;espace de noms et peut être utilisé pour demander l&#39;identifiant technique d&#39;espace de noms utilisé pour le traitement des graphiques d&#39;identités.
+     **Type :** chaîne
 
 * Identifiant d’expérience
 
-   **Champ :** xid
-   **Titre :** identifiant d&#39;expérience
-   **Description** : Lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
-   **Type :** chaîne
+  **Champ :** xid
+  **Titre :** identifiant d&#39;expérience
+  **Description** : Lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
+  **Type :** chaîne
 
 +++
 
@@ -223,25 +223,25 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 * Fonction de notation
 
-   **Champ :** fonction
-   **Titre :** fonction de notation
-   **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
-   **Type :** chaîne
+  **Champ :** fonction
+  **Titre :** fonction de notation
+  **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
+  **Type :** chaîne
 
 * Type d’évaluation d’ordre**
 
-   **Champ :** orderEvaluationType
-   **Titre :** type d&#39;évaluation d&#39;ordre
-   **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
-   **Type :** chaîne
-   **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Champ :** orderEvaluationType
+  **Titre :** type d&#39;évaluation d&#39;ordre
+  **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
+  **Type :** chaîne
+  **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * Stratégie de classement
 
-   **Champ :** rankingStrategy
-   **Titre :** stratégie de classement
-   **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Type :** chaîne
+  **Champ :** rankingStrategy
+  **Titre :** stratégie de classement
+  **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Type :** chaîne
 
 +++
 
@@ -260,7 +260,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** endTime
 **Titre :** date et heure de fin de l&#39;activité
-**Description :** date et heure de fin de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété &quot;endTime&quot; de schema.org définie sur https://schema.org/Action.
+**Description :** date et heure de fin de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété « endTime » de schema.org définie sur https://schema.org/Action.
 **Type :** chaîne
 
 +++
@@ -287,7 +287,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** startTime
 **Titre :** date et heure de début de l&#39;activité
-**Description :** date et heure de début de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété &quot;startTime&quot; de schema.org définie sur https://schema.org/Action.
+**Description :** date et heure de début de la décision (auparavant « activité »). La propriété a la sémantique de la propriété « startTime » de schema.org définie sur https://schema.org/Action.
 **Type :** chaîne
 
 +++

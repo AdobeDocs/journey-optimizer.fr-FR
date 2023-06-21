@@ -10,7 +10,7 @@ level: Beginner
 keywords: ressources, essentials, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
 

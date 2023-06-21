@@ -34,11 +34,11 @@ Vous pouvez exploiter les segments dans **[!DNL Journey Optimizer]** de différe
 
 * Utilisez une activité d’orchestration **Lecture de segment** dans un parcours pour faire en sorte que tous les individus du segment rejoignent le parcours et reçoivent les messages inclus dans votre parcours.
 
-   Supposons que vous ayez un segment « client(e) Silver ». Avec cette activité, vous pouvez faire en sorte que tous les clients et clientes Silver rejoignent un parcours et leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture de segment](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+  Supposons que vous ayez un segment « client(e) Silver ». Avec cette activité, vous pouvez faire en sorte que tous les clients et clientes Silver rejoignent un parcours et leur envoyer une série de messages personnalisés. [Découvrez comment configurer une activité Lecture de segment](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
 
 * Utilisez l’activité d’événement **Qualification de segment** dans un parcours pour faire en sorte que des individus rejoignent le parcours ou y progressent en fonction des entrées et des sorties de segments Adobe Experience Platform.
 
-   Par exemple, vous pouvez faire en sorte que tous les nouveaux clients et clientes Silver rejoignent un parcours et leur envoyer des messages. Pour plus d’informations sur l’utilisation de cette activité, reportez-vous à la section [Découvrez comment configurer une activité de qualification de segment](../building-journeys/segment-qualification-events.md).
+  Par exemple, vous pouvez faire en sorte que tous les nouveaux clients et clientes Silver rejoignent un parcours et leur envoyer des messages. Pour plus d’informations sur l’utilisation de cette activité, reportez-vous à la section [Découvrez comment configurer une activité de qualification de segment](../building-journeys/segment-qualification-events.md).
 
 * Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à un segment. [Découvrez comment utiliser des segments dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -48,11 +48,11 @@ Dans Adobe Journey Optimizer, les audiences sont générées à partir des dé
 
 * **Segmentation par flux** : la liste des audiences du segment est actualisée en temps réel pendant que de nouvelles données affluent dans le système.
 
-   La segmentation par flux en continu est un processus continu de sélection des données qui met à jour vos segments en réponse à l’activité des utilisateurs et des utilisatrices. Une fois qu’un segment a été créé et enregistré, la définition du segment s’applique aux données entrantes dans Journey Optimizer. Cela signifie que des individus sont ajoutés ou supprimés du segment au fur et à mesure que leurs données de profil changent, permettant de toujours assurer la pertinence de votre audience cible.
+  La segmentation par flux en continu est un processus continu de sélection des données qui met à jour vos segments en réponse à l’activité des utilisateurs et des utilisatrices. Une fois qu’un segment a été créé et enregistré, la définition du segment s’applique aux données entrantes dans Journey Optimizer. Cela signifie que des individus sont ajoutés ou supprimés du segment au fur et à mesure que leurs données de profil changent, permettant de toujours assurer la pertinence de votre audience cible.
 
 * **Segmentation par lots** : l’évaluation de la liste des audiences du segment se fait toutes les 24 heures.
 
-   La segmentation par lots est une alternative à la segmentation par flux qui traite toutes les données de profil à la fois par le biais de définitions de segment. Cela crée un instantané de l’audience qui peut être enregistré et exporté pour utilisation. Cependant, contrairement à la segmentation par flux, la segmentation par lots ne met pas à jour la liste des audiences en temps réel, et les nouvelles données qui entrent après le traitement par lots ne seront pas répercutées dans le segment avant le traitement par lots suivant.
+  La segmentation par lots est une alternative à la segmentation par flux qui traite toutes les données de profil à la fois par le biais de définitions de segment. Cela crée un instantané de l’audience qui peut être enregistré et exporté pour utilisation. Cependant, contrairement à la segmentation par flux, la segmentation par lots ne met pas à jour la liste des audiences en temps réel, et les nouvelles données qui entrent après le traitement par lots ne seront pas répercutées dans le segment avant le traitement par lots suivant.
 
 Le système détermine la segmentation par lots et la segmentation par flux pour chaque définition de segment, en fonction de la complexité et du coût de l’évaluation de la règle de segment. Vous pouvez afficher la méthode d’évaluation pour chaque segment dans la colonne **[!UICONTROL Méthode d’évaluation]** de la liste des segments.
 

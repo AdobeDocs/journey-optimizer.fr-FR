@@ -28,7 +28,7 @@ Pour insérer du code JavaScript personnalisé dans le contenu d’une page de d
 
 * Concevez votre page de destination à partir de zéro ou d&#39;un modèle enregistré. Effectuez un glisser-déposer du composant de contenu **[!UICONTROL HTML]** dans la zone de travail et affichez le code source pour ajouter votre JavaScript dans le composant. Découvrez comment utiliser le composant HTML dans [cette section](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * Saisissez ou collez du code JavaScript directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../email/code-content.md).
 

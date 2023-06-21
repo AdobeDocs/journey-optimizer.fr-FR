@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -37,21 +37,21 @@ ht-degree: 76%
 
    ![](assets/in_app_journey_4.png)
 
-1. Dans la **[!UICONTROL Déclencheur de message in-app]** , sélectionnez le ou les événements et critères qui déclencheront votre message :
+1. Dans la fenêtre **[!UICONTROL Déclencheur de message in-app]**, choisissez le ou les événements et les critères qui déclencheront votre message :
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
-   1. Dans la **[!UICONTROL Sélection d’un événement]** , sélectionnez le type d’événement de votre déclencheur.
+   1. Dans le menu déroulant **[!UICONTROL Sélection d’un événement]**, sélectionnez le type d’événement de votre déclencheur.
    1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
    ![](assets/in_app_journey_3.png)
 
-1. Sélectionnez la fréquence de déclenchement lorsque votre message in-app est principal :
+1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
 
-   * **[!UICONTROL Chaque heure]**: Toujours afficher le message lorsque les événements sélectionnés dans la variable **[!UICONTROL Déclencheur d’application mobile]** s’affiche.
+   * **[!UICONTROL À chaque fois]** : toujours afficher le message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
    * **[!UICONTROL Une fois]** : n’affichez ce message que la première fois que les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
    * **[!UICONTROL Jusqu’au clic]** : affichez ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
-   * **[!UICONTROL X nombre de fois]**: N’affiche que le message un nombre spécifique de fois, déterminé par la valeur définie dans la variable **[!UICONTROL Temps d’affichage]** champ .
+   * **[!UICONTROL X fois]** : affichez le message uniquement un nombre spécifique de fois, déterminé par la valeur définie dans le champ **[!UICONTROL Nombre d’affichages]**.
 
 1. Sélectionnez le jour de la semaine et l’heure spécifique à laquelle votre message in-app doit être déclenché, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -73,13 +73,13 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
 * Les activités **[!UICONTROL Réaction]** ne peuvent pas être utilisées pour réagir à une ouverture ou un clic in-app.
 
-* Un délai d’activation peut survenir entre le moment où un profil utilisateur atteint une activité In-App dans la zone de travail et le moment où il commence à voir ce message in-app.
+* Un délai d’activation peut se produire entre le moment où le profil d’une personne atteint une activité in-app dans la zone de travail et le moment où ladite personne commence à voir ce message in-app.
 
 ## Rapport in-app {#inapp-report}
 
-De votre Parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL In-app]** Cet onglet présente les informations principales relatives aux diffusions In-App envoyées dans vos parcours.
+Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux diffusions in-app envoyées dans vos parcours.
 
-En savoir plus sur [Rapport global parcours](../reports/journey-global-report.md).
+En savoir plus sur le [Rapport global de parcours](../reports/journey-global-report.md).
 
 ![](assets/in-app-journey-report.png)
 
@@ -97,7 +97,7 @@ Les KPI **[!UICONTROL Performances in-app]** détaillent les informations princi
 
 Le graphique du **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions in-app pour la période concernée.
 
-Le **[!UICONTROL Clics par bouton]** les graphiques et les tableaux contiennent les données disponibles pour le comportement des destinataires par bouton :
+Les graphiques et le tableau **[!UICONTROL Clics par bouton]** contiennent les données disponibles pour le comportement des destinataires par bouton :
 
 * **[!UICONTROL Clics]** : nombre total de destinataires ayant interagi avec les boutons inclus dans le message in-app.
 

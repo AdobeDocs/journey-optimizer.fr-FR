@@ -34,11 +34,11 @@ Dans le Concepteur d&#39;email, vous pouvez personnaliser le contenu :
 
 * Dans le **message** : cliquez à l’intérieur d’un bloc de texte, puis cliquez sur le bouton **Ajouter une personnalisation** dans la barre d’outils contextuelle. Pour plus d&#39;informations sur l&#39;interface du Concepteur d&#39;email, reportez-vous à [cette section](../email/get-started-email-design.md).
 
-   ![](assets/perso_insert.png)
+  ![](assets/perso_insert.png)
 
 * Pour un **lien** : sélectionnez du texte ou une image à l&#39;intérieur d&#39;un bloc de texte, puis cliquez sur l&#39;icône **Insérer un lien** de la barre d&#39;outils contextuelle. Dans la fenêtre, vous pouvez ajouter un bloc de personnalisation en cliquant sur l&#39;icône **Ajouter une personnalisation**.
 
-   ![](assets/perso_link.png)
+  ![](assets/perso_link.png)
 
 Dans les deux cas, vous accédez à l’éditeur de personnalisation.
 

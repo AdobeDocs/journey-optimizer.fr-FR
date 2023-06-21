@@ -27,12 +27,12 @@ Pour découvrir la puissance d’Adobe Journey Optimizer en obtenant des conse
 
 * Je suis **administrateur**
 
-   Préparer votre environnement, octroyer l’accès, configurer les paramètres. [En savoir plus](path/administrator.md)
+  Préparer votre environnement, octroyer l’accès, configurer les paramètres. [En savoir plus](path/administrator.md)
 
 * Je suis **ingénieur de données**
 
-   Importer des profils, créer des audiences, créer des schémas et des jeux de données. [En savoir plus](path/data-engineer.md)
+  Importer des profils, créer des audiences, créer des schémas et des jeux de données. [En savoir plus](path/data-engineer.md)
 
 * Je suis **spécialiste marketing**
 
-   Concevoir des messages, ajouter des offres et des ressources et créer des parcours clients. [En savoir plus](path/marketer.md)
+  Concevoir des messages, ajouter des offres et des ressources et créer des parcours clients. [En savoir plus](path/marketer.md)

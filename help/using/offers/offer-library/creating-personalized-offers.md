@@ -123,11 +123,11 @@ Le bouton **[!UICONTROL Autres actions]** active les actions décrites ci-dessou
 
 * **[!UICONTROL Supprimer]** : supprime l&#39;offre de la liste.
 
-   >[!CAUTION]
-   >
-   >L&#39;offre et son contenu ne seront plus accessibles. Cette action ne peut pas être annulée.
-   >
-   >Si l&#39;offre est utilisée dans une collection ou une décision, elle ne peut pas être supprimée. Vous devez d&#39;abord supprimer l&#39;offre de tous les objets.
+  >[!CAUTION]
+  >
+  >L&#39;offre et son contenu ne seront plus accessibles. Cette action ne peut pas être annulée.
+  >
+  >Si l&#39;offre est utilisée dans une collection ou une décision, elle ne peut pas être supprimée. Vous devez d&#39;abord supprimer l&#39;offre de tous les objets.
 
 * **[!UICONTROL Archiver]** : définit le statut de l&#39;offre sur **[!UICONTROL Archivé]**. L&#39;offre est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Brouillon]** ou **[!UICONTROL Approuvé]**. Vous pouvez uniquement la dupliquer ou la supprimer.
 

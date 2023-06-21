@@ -23,14 +23,13 @@ ht-degree: 100%
 >title="Surface"
 >abstract="Une surface est une configuration définie par l’administrateur système. Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc."
 
-Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur, applications mobiles, configuration des SMS, etc.
+Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des préréglages de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur, applications mobiles, configuration des SMS, etc.
 
 >[!CAUTION]
 >
 > * Pour créer, modifier et supprimer des surfaces de canal, vous devez disposer de l’autorisation [Gérer la surface du canal](../administration/high-low-permissions.md#manage-channel-surface).
 >
 > * Vous devez effectuer les opérations suivantes : [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration du canal push](../push/push-configuration.md) et [Configuration des SMS](../sms/sms-configuration.md) avant de créer des surfaces de canal.
-
 
 Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours ou d’une campagne.
 

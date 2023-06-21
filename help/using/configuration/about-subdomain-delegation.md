@@ -59,7 +59,6 @@ La configuration de sous-domaines vous permet de configurer une sous-section de 
 >
 >* La méthode CNAME est recommandée si les politiques de votre organisation interdisent la méthode de délégation complète de sous-domaine. En conséquence, vous devrez assumer la mise à jour et la gestion des enregistrements DNS. Adobe ne pourra pas vous aider à modifier, tenir à jour ou gérer le DNS dʼun sous-domaine configuré par la méthode CNAME.
 
-
 Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le niveau d’effort impliqué :
 
 | Méthode de configuration | Fonctionnement | Niveau d&#39;effort |

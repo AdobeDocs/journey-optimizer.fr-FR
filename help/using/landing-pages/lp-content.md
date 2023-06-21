@@ -83,7 +83,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    * **[!UICONTROL Liste dʼabonnements]** : vous devez sélectionner la liste dʼabonnements à mettre à jour si le profil coche cette case. En savoir plus sur les [listes dʼabonnements](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canal (e-mail)]** : le processus d’opt-in ou d’opt-out sʼapplique à l’ensemble du canal. Par exemple, si un profil qui se désinscrit possède deux adresses e-mail, celles-ci seront exclues de toutes vos communications.
 

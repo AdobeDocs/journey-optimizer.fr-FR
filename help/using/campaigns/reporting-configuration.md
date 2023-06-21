@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 >title="Sélectionner un jeu de données"
 >abstract="Vous pouvez uniquement sélectionner un jeu de données de type événement qui doit contenir au moins l’un des groupes de champs pris en charge : Détails de l’application, Détails du commerce, Détails web."
 
-La configuration de la source de données de rapports vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos rapports.
+La configuration des sources de données de rapports vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos rapports.
 
 <!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
@@ -51,15 +51,15 @@ Avant de pouvoir ajouter un jeu de données à la configuration de création de 
 
 * Ces jeux de données doivent contenir au moins l’un des [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} suivants : **Détails de l’application**, **Détails du commerce**, **Détails web**.
 
-   >[!NOTE]
-   >
-   >Seuls ces groupes de champs sont actuellement pris en charge.
+  >[!NOTE]
+  >
+  >Seuls ces groupes de champs sont actuellement pris en charge.
 
-   Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champs **Détails du commerce**.
+  Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champs **Détails du commerce**.
 
-   De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champ **Détails de l’application**.
+  De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champ **Détails de l’application**.
 
-   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
+  <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * Vous pouvez ajouter ces groupes de champs à un ou plusieurs schémas qui seront utilisés dans un ou plusieurs jeux de données.
 

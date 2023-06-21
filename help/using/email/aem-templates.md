@@ -33,13 +33,13 @@ Avant de commencer à utiliser cette fonctionnalité, assurez-vous de répondre 
 
 * **Paramètres d’Experience Manager**
 
-   Cette fonctionnalité est disponible dans [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=fr){target="_blank"}.
+  Cette fonctionnalité est disponible dans [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=fr){target="_blank"}.
 
-   Dans le cadre du programme Beta, la configuration du service cloud est effectuée par Adobe dans Adobe Experience Manager pour se connecter à Adobe Journey Optimizer.
+  Dans le cadre du programme Beta, la configuration du service cloud est effectuée par Adobe dans Adobe Experience Manager pour se connecter à Adobe Journey Optimizer.
 
 * **Autorisations**
 
-   Pour créer, modifier et supprimer des modèles de contenu dans Adobe Journey Optimizer, vous devez disposer de l’autorisation **[!DNL Manage Library Items]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
+  Pour créer, modifier et supprimer des modèles de contenu dans Adobe Journey Optimizer, vous devez disposer de l’autorisation **[!DNL Manage Library Items]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Mécanismes de sécurisation et limitations{#aem-templates-limitations}
 

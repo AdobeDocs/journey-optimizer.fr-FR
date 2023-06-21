@@ -65,7 +65,6 @@ Pour enregistrer une expression dans la bibliothèque, procédez comme suit :
 >* Les expressions enregistrées sont triées par date de création : l’expression ajoutée le plus récemment s’affiche en premier dans la liste.
 
 
-
 Pour modifier une expression existante, ajoutez-la à l’éditeur, puis modifiez-la selon vos besoins. Cliquez sur **[!UICONTROL Ajouter à la bibliothèque]** pour valider la syntaxe et enregistrer l’expression.
 
 Pour supprimer une expression, cliquez sur le bouton représentant des points de suspension, puis cliquez sur **[!UICONTROL Supprimer]**.

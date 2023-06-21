@@ -23,9 +23,9 @@ ht-degree: 100%
 * Un **fichier HTML** avec une feuille de style incorporée ;
 * Un **dossier .zip** avec le fichier HTML, la feuille de style (.css) et les images.
 
-   >[!NOTE]
-   >
-   >Il n’existe aucune contrainte sur la structure des fichiers .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip.
+  >[!NOTE]
+  >
+  >Il n’existe aucune contrainte sur la structure des fichiers .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip.
 
 Pour importer un fichier avec du contenu HTML, procédez comme suit :
 

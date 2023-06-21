@@ -91,15 +91,15 @@ La fonction `contains` permet de déterminer si une chaîne contient une sous-ch
 
 * La fonction suivante vérifie si le prénom du profil contient la lettre A (en majuscule ou en minuscule). Si c&#39;est le cas, elle renverra &quot;true&quot;, sinon elle renverra &quot;false&quot;.
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * La requête suivante détermine si l&#39;adresse e-mail de la personne contient la chaîne « 2010@gm » en respectant la casse.
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## Ne contient pas{#doesNotContain}
 
@@ -661,6 +661,7 @@ La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d’un tex
 > Lorsque l’expression utilisée comme second argument est un caractère RegEx spécial, utilisez une double barre oblique inverse (`//`).  Les caractères RegEx spéciaux sont les suivants : [., +, *, ?, ^, $, (, ), [, ], {, }, |, \].
 > 
 > En savoir plus dans la [documentation Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Supprimer à droite {#rightTrim}
 

@@ -74,7 +74,6 @@ Une fois enregistré, votre modèle de contenu peut être utilisé dans une camp
 >
 >* De même, lorsque des modèles sont utilisés dans une campagne ou un parcours, les modifications que vous apportez au contenu de votre campagne et de votre parcours n’ont aucune incidence sur le modèle de contenu précédemment utilisé.
 
-
 ### Créer un nouveau modèle {#create-template-from-scratch}
 
 Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
@@ -168,7 +167,7 @@ Vous pouvez tester le rendu de tout modèle de contenu d’e-mail, qu’il ait �
 
    * Avant d’envoyer le BAT, vous devez sélectionner la [surface d’e-mail](../configuration/channel-surfaces.md) qui sera utilisée pour tester votre contenu.
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## Vidéo pratique {#video-templates}
 

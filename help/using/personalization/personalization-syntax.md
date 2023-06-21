@@ -82,6 +82,7 @@ Découvrez comment exploiter les attributs de profil dans des conditions dans [c
 
 >[!NOTE]
 >Pour en savoir plus sur la segmentation et le service de segmentation, consultez [cette section](../segment/about-segments.md).
+>
 
 ## Offres {#offers-syntax}
 
@@ -107,19 +108,19 @@ Toutes les références sont validées par rapport au schéma d&#39;offre avec u
 
 * Emplacement où l&#39;image est hébergée :
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * URL de la cible lorsque vous cliquez sur l&#39;image :
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * Contenu textuel de l&#39;offre provenant du moteur de décision :
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * Contenu HTML de l&#39;offre provenant du moteur de décision :
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## Assistants{#helpers-all}
@@ -134,6 +135,7 @@ Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) and closin
 >[!NOTE]
 >
 >Les fonctions d&#39;assistance sont présentées dans [cette section](functions/helpers.md).
+>
 
 ## Types littéraux {#literal-types}
 
@@ -164,6 +166,7 @@ Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre me
 >[!NOTE]
 >
 >Dans l’éditeur d’expression, lorsque vous modifiez une URL personnalisée, les fonctions dʼassistance et l’appartenance à des segments sont désactivées pour des raisons de sécurité.
+>
 
 **Exemples d’adresses URL personnalisées**
 

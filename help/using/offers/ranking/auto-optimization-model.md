@@ -10,7 +10,7 @@ exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,17 +29,17 @@ L’utilisation des modèles d’optimisation automatique pour la gestion des d�
 
 Les termes suivants sont utiles pour aborder l’optimisation automatique :
 
-* **Bandit à plusieurs bras**: A [bandit à plusieurs bras](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} L’approche de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage.
+* **Bandit manchot** : une approche de type [bandit manchot](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage.
 
 * **Échantillonnage de Thomson** : l’échantillonnage de Thompson est un algorithme relatif aux problèmes de décision en ligne où les actions sont entreprises de manière séquentielle, de façon à trouver l’équilibre entre l’exploitation de ce qui est connu pour maximiser les performances immédiates et l’investissement pour accumuler de nouvelles informations susceptibles d’améliorer les performances futures. [En savoir plus](#thompson-sampling)
 
-* [**Distribution bêta**](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}: Set of continuous [probability distributions](https://fr.wikipedia.org/wiki/Loi_de_probabilité){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://fr.wikipedia.org/wiki/Paramètre_de_forme){target="_blank"}.
+* [**Loi bêta**](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}: Set of continuous [probability distributions](https://fr.wikipedia.org/wiki/Loi_de_probabilité){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://fr.wikipedia.org/wiki/Paramètre_de_forme){target="_blank"}.
 
 ## Échantillonnage de Thompson {#thompson-sampling}
 
 L’algorithme qui sous-tend l’optimisation automatique est l’**échantillonnage de Thompson**. Dans cette section, nous abordons l’intuition sous-jacente à l’échantillonnage de Thompson.
 
-[Échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"}, ou bandits bayésiens, est une approche bayésienne du problème du bandit à plusieurs bras.  L’idée de base est de traiter la récompense moyenne ?? de chaque offre comme une **variable aléatoire** et d’utiliser les données collectées jusqu’à présent pour mettre à jour la « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une **loi de probabilité a posteriori**, qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre.Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
+L’[échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"}, ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot.  L’idée de base est de traiter la récompense moyenne ?? de chaque offre comme une **variable aléatoire** et d’utiliser les données collectées jusqu’à présent pour mettre à jour la « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une **loi de probabilité a posteriori**, qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre.Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
 
 Ce processus est illustré dans la figure ci-dessous, qui présente 3 offres différentes. Au départ, nous n’avons aucune preuve des données et nous supposons que toutes les offres ont une loi a posteriori uniforme de récompense. Nous tirons un échantillon de la loi a posteriori de récompense de chaque offre. L’échantillon sélectionné dans la loi de l’offre 2 a la valeur la plus élevée. Voici un exemple d’**exploration**. Après avoir affiché l’offre 2, nous collectons toute récompense potentielle (par exemple, conversion/pas de conversion) et mettons à jour la loi a posteriori de l’offre 2 à l’aide du théorème de Bayes, comme expliqué ci-dessous.  Nous poursuivons ce processus et mettons à jour les lois a posteriori chaque fois qu’une offre est affichée et que la récompense est collectée. Dans la seconde figure, l’offre 3 est sélectionnée. Bien que l’offre 1 ait obtenu la récompense moyenne la plus élevée (sa loi a posteriori de récompense est la plus éloignée à droite), le processus d’échantillonnage de chaque loi nous a amenés à choisir une offre 3 apparemment sous-optimale. Ce faisant, nous nous donnons la possibilité d’en savoir plus sur la loi de récompense véritable de l’offre 3.
 
@@ -71,7 +71,7 @@ L’optimisation automatique est conçue pour prendre en compte les récompenses
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-La fonction Probabilité comme nous l’avons expliqué ci-dessus est modélisée par une distribution binomiale, avec s réussites (conversions) et f échecs (aucune conversion) et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} with a [beta distribution](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
+Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (non conversions), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} with a [beta distribution](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
 
 La loi a priori est modélisée par la loi Beta et la loi a posteriori se présente comme suit :
 

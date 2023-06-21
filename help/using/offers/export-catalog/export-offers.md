@@ -9,7 +9,7 @@ exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,17 +61,17 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 * **Date et heure de fin**
 
-   **Champ :** endDate
-   **Titre :** date et heure de fin
-   **Description :** date de fin de validité des options de décision. Les options qui ont dépassé leur date de fin ne peuvent plus être proposées dans le processus de prise de décision.
-   **Type :** chaîne
+  **Champ :** endDate
+  **Titre :** date et heure de fin
+  **Description :** date de fin de validité des options de décision. Les options qui ont dépassé leur date de fin ne peuvent plus être proposées dans le processus de prise de décision.
+  **Type :** chaîne
 
 * **Date et heure de début**
 
-   **Champ :** startDate
-   **Titre :** date et heure de début
-   **Description :** date de début de validité des options de décision. Les options qui n&#39;ont pas atteint leur date de début ne peuvent pas encore être proposées dans le processus de prise de décision.
-   **Type :** chaîne
+  **Champ :** startDate
+  **Titre :** date et heure de début
+  **Description :** date de début de validité des options de décision. Les options qui n&#39;ont pas atteint leur date de début ne peuvent pas encore être proposées dans le processus de prise de décision.
+  **Type :** chaîne
 
 +++
 
@@ -102,83 +102,83 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
-   **Champ :** _type
-   **Titre :** type du composant du contenu
-   **Description :** Un ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
-   **Type :** chaîne
+  **Champ :** _type
+  **Titre :** type du composant du contenu
+  **Description :** Un ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
+  **Type :** chaîne
 
 * **_experience > decisioning > contents > components > _dc**
 
-   **Champ :** _dc
-   **Type :** objet
-   **Obligatoire :** &quot;format&quot;
+  **Champ :** _dc
+  **Type :** objet
+  **Obligatoire :** &quot;format&quot;
 
    * **Format**
 
-      **Champ :** format
-      **Titre :** format
-      **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de média Internet](https://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques).
-      **Type :** chaîne
-      **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
+     **Champ :** format
+     **Titre :** format
+     **Description :** manifestation physique ou numérique de la ressource. En règle générale, le format doit inclure le type de média de la ressource. Le format peut être utilisé pour déterminer le logiciel, le matériel ou tout autre équipement nécessaire pour afficher ou exploiter la ressource. Il est recommandé de sélectionner une valeur dans un vocabulaire contrôlé (par exemple, la liste des [types de média Internet](https://www.iana.org/assignments/media-types/) définissant les formats de médias informatiques).
+     **Type :** chaîne
+     **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Langue**
-      **Champ :** language
-      **Titre :** langue
-      **Description :** la ou les langues de la ressource. \nLes langues sont spécifiées dans le code de langue comme défini dans [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), qui fait partie de BCP 47, utilisé ailleurs dans XDM.
-      **Type :** tableau
-      **Exemples :** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **Champ :** language
+     **Titre :** langue
+     **Description :** la ou les langues de la ressource. \nLes langues sont spécifiées dans le code de langue comme défini dans [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), qui fait partie de BCP 47, utilisé ailleurs dans XDM.
+     **Type :** tableau
+     **Exemples :** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisioning > contents > components > _repo**
 
-   **Champ :** _repo
-   **Type :** objet
+  **Champ :** _repo
+  **Type :** objet
 
    * **identifiant**
 
-      **Champ :** id
-      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-      **Type :** chaîne
-      **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Champ :** id
+     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+     **Type :** chaîne
+     **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Champ :** nom
-      **Description :** conseils sur l&#39;emplacement du référentiel qui stocke la ressource externe par le \&quot;repo:id\&quot;.
-      **Type :** chaîne
+     **Champ :** nom
+     **Description :** conseils sur l&#39;emplacement du référentiel qui stocke la ressource externe par le \&quot;repo:id\&quot;.
+     **Type :** chaîne
 
    * **repositoryID**
 
-      **Champ :** repositoryID
-      **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
-      **Type :** chaîne
-      **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **Champ :** repositoryID
+     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+     **Type :** chaîne
+     **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **Champ :** resolveURL
-      **Description :** localisateur de ressource unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d&#39;obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
-      **Type :** chaîne
-      **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Champ :** resolveURL
+     **Description :** localisateur de ressource unique facultatif pour lire la ressource dans un référentiel de contenu. Il sera ainsi plus facile d&#39;obtenir la ressource sans que le client sache où celle-ci est gérée et quelles API appeler. Ceci est similaire à un lien HAL, mais la sémantique est plus simple et plus pertinente.
+     **Type :** chaîne
+     **Exemple :** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contents > components > content**
 
-   **Champ :** contenu
-   **Description :** champ facultatif pour contenir directement le contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n&#39;est pas utilisé pour les ressources de contenu composites, complexes et binaires.
-   **Type :** chaîne
+  **Champ :** contenu
+  **Description :** champ facultatif pour contenir directement le contenu. Au lieu de référencer le contenu dans un référentiel de ressources, le composant peut contenir directement du contenu simple. Ce champ n&#39;est pas utilisé pour les ressources de contenu composites, complexes et binaires.
+  **Type :** chaîne
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
-   **Champ :** deliveryURL
-   **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
-   **Type :** chaîne
-   **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Champ :** deliveryURL
+  **Description :** un localisateur de ressources unique facultatif pour obtenir la ressource à partir d’un réseau de diffusion de contenu ou d’un point d’entrée de service. Cette URL permet d&#39;accéder publiquement à la ressource par un agent utilisateur.
+  **Type :** chaîne
+  **Exemple :** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
-   **Champ :** linkURL
-   **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
-   **Type :** chaîne
-   **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Champ :** linkURL
+  **Description :** localisateur de ressource unique facultatif pour les interactions utilisateur. Cette URL permet de renvoyer l&#39;utilisateur final dans un agent utilisateur et peut faire l&#39;objet d&#39;un suivi.
+  **Type :** chaîne
+  **Exemple :** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > contents > Placement
 
@@ -259,32 +259,32 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 * **Identifiant**
 
-   **Champ :** _id
-   **Titre :** identifiant
-   **Description :** Identité du segment dans l&#39;espace de noms connexe.
-   **Type :** chaîne
+  **Champ :** _id
+  **Titre :** identifiant
+  **Description :** Identité du segment dans l&#39;espace de noms connexe.
+  **Type :** chaîne
 
 * **Espace de noms**
 
-   **Champ :** espace de noms
-   **Titre :** espace de noms
-   **Description :** Espace de noms associé à l&#39;attribut `xid`.
-   **Type :** objet
-   **Obligatoire :** &quot;code&quot;
+  **Champ :** espace de noms
+  **Titre :** espace de noms
+  **Description :** Espace de noms associé à l&#39;attribut `xid`.
+  **Type :** objet
+  **Obligatoire :** &quot;code&quot;
 
    * **Code**
 
-      **Champ :** code
-      **Titre :** code
-      **Description :** Le code est un identifiant lisible par l&#39;homme pour l&#39;espace de noms et peut être utilisé pour demander l&#39;identifiant technique d&#39;espace de noms utilisé pour le traitement des graphiques d&#39;identités.
-      **Type :** chaîne
+     **Champ :** code
+     **Titre :** code
+     **Description :** Le code est un identifiant lisible par l&#39;homme pour l&#39;espace de noms et peut être utilisé pour demander l&#39;identifiant technique d&#39;espace de noms utilisé pour le traitement des graphiques d&#39;identités.
+     **Type :** chaîne
 
 * **Identifiant d&#39;expérience**
 
-   **Champ :** xid
-   **Titre :** identifiant d&#39;expérience
-   **Description** : Lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
-   **Type :** chaîne
+  **Champ :** xid
+  **Titre :** identifiant d&#39;expérience
+  **Description** : Lorsqu&#39;elle est présente, cette valeur représente un identifiant d&#39;espace de noms croisé unique pour tous les identifiants d&#39;espace de noms inclus dans tous les espaces de noms.
+  **Type :** chaîne
 
 +++
 
@@ -306,25 +306,25 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 * **Fonction de notation**
 
-   **Champ :** fonction
-   **Titre :** fonction de notation
-   **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
-   **Type :** chaîne
+  **Champ :** fonction
+  **Titre :** fonction de notation
+  **Description :** référence à une fonction qui calcule un score numérique pour cette option de décision. Les options de décision sont ensuite classées selon ce score. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/function.
+  **Type :** chaîne
 
 * **Type d&#39;évaluation de commande**
 
-   **Champ :** orderEvaluationType
-   **Titre :** type d&#39;évaluation d&#39;ordre
-   **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
-   **Type :** chaîne
-   **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Champ :** orderEvaluationType
+  **Titre :** type d&#39;évaluation d&#39;ordre
+  **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
+  **Type :** chaîne
+  **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Stratégie de classement**
 
-   **Champ :** rankingStrategy
-   **Titre :** stratégie de classement
-   **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Type :** chaîne
+  **Champ :** rankingStrategy
+  **Titre :** stratégie de classement
+  **Description :** référence à une stratégie qui classe une liste d&#39;options de décision. Les options de décision sont renvoyées dans une liste classée. La valeur de cette propriété est l&#39;URI (@id) de la fonction à appeler avec l&#39;option active à la fois. Voir le schéma https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Type :** chaîne
 
 +++
 

@@ -25,15 +25,15 @@ Le **[!UICONTROL rapport global]** vous permet de mesurer l&#39;impact de vos pa
 
 * Si vous souhaitez cibler un parcours ou des diffusions dans le contexte d’un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]**. Vous trouverez ensuite les rapports globaux Parcours, E-mail, SMS et Push.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne et cliquez sur le bouton **[!UICONTROL Rapports]**.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Si vous souhaitez basculer du **[!UICONTROL Rapport dynamique]** au **[!UICONTROL Rapport global]** pour votre diffusion, cliquez sur **[!UICONTROL À toute heure]** dans le sélecteur d’onglets.
 
-   ![](assets/report_5.png)
+  ![](assets/report_5.png)
 
 Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](#list-of-components-global).
 

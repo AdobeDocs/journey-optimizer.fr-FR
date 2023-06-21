@@ -50,11 +50,11 @@ Dans cet exemple, nous allons créer un segment pour cibler tous les clients ré
 
    * **Attributs** : profils qui vivent à Atlanta, San Francisco ou Seattle, nés après 1980
 
-      ![](assets/add-attributes.png)
+     ![](assets/add-attributes.png)
 
    * **Événements** : profils qui ont ouvert l&#39;application Luma au cours des 7 derniers jours, puis effectué un achat dans les 2 heures suivant l&#39;ouverture de l&#39;application.
 
-      ![](assets/add-events.png)
+     ![](assets/add-events.png)
 
 1. À mesure que vous ajoutez et configurez de nouveaux champs dans l&#39;espace de travail, le volet **[!UICONTROL Propriétés du segment]** est automatiquement mis à jour avec des informations sur l&#39;estimation des profils appartenant au segment.
 

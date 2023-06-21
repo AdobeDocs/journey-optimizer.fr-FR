@@ -303,7 +303,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 * Le tableau et le graphique des politiques de consentement sont désormais disponibles dans les rapports globaux de parcours. Ces widgets vous permettent de suivre les profils exclus des politiques de vos actions personnalisées. [En savoir plus](../reports/journey-global-report.md#journey-global)
 
-   Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md).
+  Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md).
 
 **Administration**
 
@@ -677,7 +677,7 @@ En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer d
 
 **Administration**
 
-* Vous pouvez maintenant activer/désactiver le lien de désabonnement dans/à partir de l’en-tête de l’e-mail au niveau du paramètre de message prédéfini, et définir une URL de désabonnement personnalisée au niveau du message. [En savoir plus](../configuration/channel-surfaces.md#list-unsubscribe)
+* Vous pouvez maintenant activer/désactiver le lien de désabonnement dans/à partir de l’en-tête de l’e-mail au niveau du préréglage de message, et définir une URL de désabonnement personnalisée au niveau du message. [En savoir plus](../configuration/channel-surfaces.md#list-unsubscribe)
 * La liste autorisée peut désormais être activée et désactivée via l’interface [!DNL Journey Optimizer] sur les sandbox de production et hors production. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
 
 **Personnalisation**

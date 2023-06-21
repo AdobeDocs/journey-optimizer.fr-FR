@@ -57,7 +57,7 @@ Les catégories de suppression sont les suivantes :
 
 * **Hard** : un hard bounce indique une adresse e-mail non valide (c’est-à-dire une adresse e-mail qui n’existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide. L’adresse e-mail est immédiatement envoyée à la liste de suppression.
 
-   Lorsque l&#39;erreur est le résultat d&#39;une plainte de spam, elle est également classée dans la catégorie **Hard**. L’adresse e-mail du destinataire ayant émis la plainte est immédiatement envoyée à la liste de suppression.
+  Lorsque l&#39;erreur est le résultat d&#39;une plainte de spam, elle est également classée dans la catégorie **Hard**. L’adresse e-mail du destinataire ayant émis la plainte est immédiatement envoyée à la liste de suppression.
 
 * **Soft** : un soft bounce est un e-mail de rebond temporaire qui s’est produit pour une adresse e-mail valide. L’adresse e-mail est ajoutée à la liste de suppression après plusieurs reprises. Les erreurs de type Soft envoient une adresse à la liste de suppression une fois que le compteur d’erreurs a atteint le seuil limite. [En savoir plus sur les reprises](retries.md)
 
@@ -169,6 +169,7 @@ Pour ajouter un groupe d’e-mails ou de domaines à la liste de suppression, pr
    >Ne modifiez pas les noms des colonnes dans le modèle CSV.
    >
    >La taille du fichier ne doit pas dépasser 1 Mo.
+   >
 
 1. Une fois l’opération terminée, effectuez un glisser-déposer de votre fichier CSV, puis utilisez le bouton **[!UICONTROL Envoyer]** pour confirmer.
 

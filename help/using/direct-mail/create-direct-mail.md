@@ -50,7 +50,6 @@ Les messages de publipostage direct ne peuvent être créés que dans le cadre d
 >1. Une [configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être téléchargé et stocké,
 >1. Une [surface de message de publipostage direct](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
 
-
 ## Création de votre message de publipostage direct {#create}
 
 Les étapes de création et d’envoi d’un message de publipostage direct sont les suivantes :

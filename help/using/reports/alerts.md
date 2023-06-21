@@ -27,6 +27,7 @@ Pour découvrir comment vous abonner à des alertes et les configurer, reportez-
 >[!AVAILABILITY]
 >
 >Certaines modifications de conception sont en cours pour l’alerte « Échec du déclenchement de la lecture de segment ». Par conséquent, cette alerte est suspendue pour l’instant et a été temporairement supprimée de l’IU. Une fois ces modifications publiées, l’alerte sera de nouveau disponible et vous pourrez vous y abonner.
+>
 
 Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**.
 

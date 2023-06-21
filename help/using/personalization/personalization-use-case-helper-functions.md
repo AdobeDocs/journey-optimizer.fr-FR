@@ -25,7 +25,6 @@ Vous utiliserez ces types de fonctions helper :
 * La fonction de chaîne `upperCase` permettant d&#39;insérer le prénom du client en majuscules. [En savoir plus](functions/string.md#upper).
 * La fonction helper `each` permettant de répertorier les articles qui se trouvent dans le panier. [En savoir plus](functions/helpers.md#each).
 * La fonction helper `if` permettant d’insérer une note spécifique au produit si le produit associé se trouve dans le panier. [En savoir plus](functions/helpers.md#if-function).
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
@@ -168,7 +167,6 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. Collez ce code entre la balise `{{#each}}` d’ouverture et la balise `{/each}}` de fermeture :
 

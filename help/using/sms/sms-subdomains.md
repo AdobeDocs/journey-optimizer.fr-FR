@@ -45,7 +45,6 @@ Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer
 >
 > * Toute modification apportée à un sous-domaine SMS aura également un impact sur les sandbox de production.
 
-
 ## Utiliser un sous-domaine existant {#sms-use-existing-subdomain}
 
 Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
