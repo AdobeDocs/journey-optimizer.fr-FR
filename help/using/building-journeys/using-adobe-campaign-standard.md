@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: parcours, intégration, standard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 0f7a0732025e11a92292704743242f688b9629a1
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SM
 
 >[!NOTE]
 >
->Dans le cas des e-mails, si vous utilisez un modèle de transaction basé sur les profils, le mécanisme de désabonnement est géré de manière intégrée par Campaign Standard. Il vous suffit d’ajouter un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans le modèle ([en savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr)). Si vous utilisez un modèle basé sur des événements (rtEvent), vous devez ajouter, dans le message, un lien qui transmet l’e-mail de la personne dans le paramètre d’URL et qui pointe vers une page de destination de désabonnement. Vous devez créer cette page de destination et vous assurer que la décision de désabonnement de la personne est bien transmise à Adobe.
+>Lors de l&#39;utilisation du modèle transactionnel d&#39;un profil pour l&#39;email, le mécanisme de désabonnement est automatiquement géré par Adobe Campaign Standard. Pour mettre en oeuvre cette méthode, vous pouvez facilement inclure une **[!UICONTROL Lien de désabonnement]** bloc de contenu dans [le modèle d&#39;email transactionnel](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr). Cependant, si vous utilisez un modèle basé sur un événement (rtEvent), vous devez incorporer dans le message un lien qui transmet l’email du destinataire comme paramètre d’URL et le dirige vers une landing page de désinscription. Il est nécessaire de créer cette landing page et de s&#39;assurer que la décision de désabonnement du destinataire est effectivement transmise à Adobe.
 
 Vous devez, tout d’abord, choisir un modèle de message transactionnel.
 
