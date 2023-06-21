@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, segment, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -153,7 +153,7 @@ Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de s
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
-Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d&#39;erreur ou de temporisation. Si la durée de traitement de l&#39;activité qui interroge un système tiers dépasse la durée de temporisation définie dans les propriétés du parcours (champ **[!UICONTROL Temporisation et erreur]**), le deuxième chemin d&#39;accès est choisi pour effectuer une éventuelle action de remplacement.
+Lors de la modification d’une action ou d’une activité de condition, vous avez la possibilité de spécifier un autre chemin en cas d’erreur ou de dépassement de délai. Si le traitement de l’activité, qui implique l’interrogation d’un système tiers, dépasse la durée spécifiée dans les propriétés du parcours pour le délai d’expiration et la gestion des erreurs (**[!UICONTROL Délai d’expiration et erreur]** ), le deuxième chemin d’accès est sélectionné pour exécuter une action de secours si nécessaire.
 
 Les valeurs autorisées sont comprises entre 1 et 30 secondes.
 
