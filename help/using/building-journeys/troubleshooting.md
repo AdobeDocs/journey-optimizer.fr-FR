@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Les rapports produits par Journey donnent des mesures en temps réel des entrée
 
 Si l&#39;événement a été envoyé avec succès, mais que vous ne voyez pas d&#39;entrée dans le parcours, cela signifie qu&#39;une erreur s&#39;est produite entre l&#39;envoi de l&#39;événement et la réception de l&#39;événement dans le parcours.
 
-En tant qu&#39;administrateur, vous devez vérifier les points suivants :
+Vous pouvez commencer à résoudre les problèmes avec les questions suivantes :
 
 * Êtes-vous certain que le parcours où vous attendez l&#39;événement entrant est en mode test ou actif ?
 * Avez-vous enregistré l&#39;événement avant de copier la payload depuis l&#39;aperçu de la payload ?
@@ -67,10 +67,10 @@ En tant qu&#39;administrateur, vous devez vérifier les points suivants :
 * Avez-vous appliqué la structure de payload des API d&#39;ingestion en flux continu en utilisant l&#39;aperçu de la structure de payload dans le volet de configuration des événements ? Voir [cette page](../event/about-creating.md#preview-the-payload).
 * Avez-vous utilisé les paires clé-valeur appropriées dans l’en-tête de l’événement ?
 
-   ```
-   X-gw-ims-org-id - your organization's ID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your organization's ID
+  Content-type - application/json
+  ```
 
 ## Vérifier comment les gens naviguent dans le parcours{#checking-how-people-navigate-through-the-journey}
 
