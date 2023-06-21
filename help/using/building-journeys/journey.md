@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal
 
 Découvrez comment commencer et créer votre premier parcours sur [cette page](journey-gs.md).
 
-Le concepteur de parcours omnicanaux dispose d’une interface intuitive par glisser-déposer, qui vous permet de créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur des interactions client ou commerciale en temps réel et des messages omnicanaux.
+Le concepteur de parcours omnicanal vous aide à créer des parcours à plusieurs étapes, en ciblant spécifiquement les audiences et en incorporant des mises à jour basées sur les interactions client en temps réel ou commerciales. Il vous permet également de créer des messages omnicanaux à l’aide d’une interface intuitive de glisser-déposer.
 
 ![](assets/journey38.png)
 
