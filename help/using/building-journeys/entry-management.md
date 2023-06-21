@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 70%
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,7 @@ Les parcours unitaires (commençant par un événement ou une qualification de s
 
 En outre :
 
-* Si la reprise est activée, un profil peut rejoindre à nouveau plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
+* Si la rentrée est activée, un profil peut entrer un parcours plusieurs fois, mais il ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 
 * Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
 

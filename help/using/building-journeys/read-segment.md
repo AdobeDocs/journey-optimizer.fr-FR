@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 81%
 
 Utilisez l’activité **Lecture de segment** pour que tous les individus d’un segment rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
-Prenons l’exemple du segment « Ouverture et passage en caisse de l’application Luma » créé dans le cas d’utilisation de [Création de segments](../segment/about-segments.md). Avec l’activité Lecture de segment, vous pouvez faire en sorte que tous les individus appartenant à ce segment rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
+Prenons comme exemple le segment &quot;Ouverture et passage en caisse de l’application Luma&quot; créé dans la variable [Cas d’utilisation de la création de segments](../segment/about-segments.md). Avec le **[!UICONTROL Lecture de segment]** activité, vous pouvez faire entrer dans un parcours toutes les personnes appartenant à un segment et les faire s’enchaîner vers des parcours personnalisés qui exploiteront toutes les fonctionnalités de parcours : conditions, minuteurs, événements, actions.
 
 >[!NOTE]
 >
