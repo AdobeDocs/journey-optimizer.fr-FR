@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
@@ -42,6 +42,6 @@ Dans un parcours de segment lu :
 
 * Pour les parcours non récurrents : le profil rejoint une seule fois le parcours.
 
-* Pour les parcours récurrents : le profil intègre le parcours à chaque récurrence, s’il est dans le segment ou a le statut prévu. S’il était toujours dans le parcours depuis une récurrence précédente, il redémarrera au début du parcours.
+* Pour les parcours récurrents : le profil entre dans le parcours de chaque périodicité, s’il se trouve dans l’état segment/attendu. S’ils étaient toujours dans le parcours d’une périodicité précédente, ils la redémarreront dès le début.
 
-Dans les parcours d’événement métier commençant par une activité **Lecture de segment** : sachant que ce parcours est basé sur la réception d’un événement métier, si le profil est qualifié dans le segment prévu, il intègrera le parcours de chaque événement métier reçu, ce qui signifie que ce profil peut intégrer le même parcours plusieurs fois, au même moment, mais dans le contexte de divers événements métier.
+Dans les parcours d’événements professionnels commençant par un **Lecture de segment** activité : sachant que ce parcours est basé sur la réception d’un événement professionnel, si le profil est qualifié dans le segment attendu, il renverra le parcours de chaque événement commercial reçu, ce qui signifie que ce profil peut être plusieurs fois dans le même parcours, au même moment, mais dans le contexte d’événements professionnels différents.
