@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
+source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1338'
+ht-degree: 85%
 
 ---
 
@@ -87,9 +87,9 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](assets/read-segment-schedule-list.png)
 
-   Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment rejoignent le parcours. Cette option vous permet de cibler, après la première occurrence, seulement les individus qui sont entrés dans le segment depuis la dernière exécution du parcours.
+   Lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment entrent dans le parcours. Utilisez la variable **Lecture incrémentale** pour cibler, après la première occurrence, uniquement les individus qui ont rejoint le segment depuis la dernière exécution du parcours.
 
-   **Forcer une reprise sur une périodicité** : cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Par exemple, si vous avez un délai d’attente de 2 jours dans un parcours récurrent quotidien, l’activation de cette option déplacera toujours les profils lors de la prochaine exécution du parcours (c’est-à-dire le lendemain), qu’ils se trouvent ou non dans l’audience d’exécution suivante. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité, n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
+   Activation de la variable **Force une réentrée sur une période récurrente** permet de supprimer automatiquement tous les profils qui se trouvent actuellement en parcours lors de la prochaine exécution. Par exemple, en cas d’attente de deux jours dans un parcours récurrent quotidien, l’activation de cette option déplacera systématiquement les profils vers l’exécution parcours suivante (le jour suivant), qu’ils fassent partie de l’audience d’exécution suivante ou non. Toutefois, si la durée des profils dans ce parcours peut excéder la fréquence de périodicité, il est conseillé de ne pas activer cette option pour s&#39;assurer que les profils puissent terminer leur parcours.
 
 <!--
 
