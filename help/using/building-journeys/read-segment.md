@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1337'
+ht-degree: 81%
 
 ---
 
@@ -75,7 +75,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
    >
    >Le taux de limitation global par sandbox est défini sur 20 000 messages par seconde. Par conséquent, le taux de limitation de toutes les lectures de segment qui s’exécutent simultanément dans le même sandbox s’élève à 20 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
-1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
+1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours. Configurez ensuite la variable **[!UICONTROL Type de planificateur]** champ .
 
    ![](assets/read-segment-schedule.png)
 
