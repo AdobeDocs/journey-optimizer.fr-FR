@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 77%
@@ -25,6 +25,10 @@ Pour cela, vous devez d’abord créer une campagne déclenchée par une API dan
 
 Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS et les messages push.
 
+>[!NOTE]
+>
+>Pour l’instant, la diffusion rapide n’est pas prise en charge pour les campagnes déclenchées par l’API de notification push.
+
 ## Création d’une campagne déclenchée par une API {#create}
 
 ### Configurer et activer la campagne {#create-activate}
@@ -38,10 +42,6 @@ Pour créer une campagne déclenchée par une API, procédez comme suit. Vous tr
 1. Sélectionnez l’un des canaux pris en charge et la surface de canal associée à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >Pour l’instant, la diffusion rapide n’est pas prise en charge pour les campagnes déclenchées par l’API de notification push.
 
 1. Indiquez un titre et une description pour la campagne, puis cliquez sur **[!UICONTROL Modifier le contenu]** pour configurer le message à envoyer.
 
