@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel s
 Vous pouvez créer deux types de campagnes :
 
 * **Les campagnes planifiées** permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des avis juridiques ou des mises à jour de politique.
-* **Les campagnes déclenchées par API** permettent d’envoyer des messages transactionnels/opérationnels simples avec des API REST (réinitialisation de mot de passe, abandon de panier, etc.) et offrent des possibilités de personnalisation à l’aide d’attributs de profil et de données contextuelles provenant de la payload.
+* **Campagnes déclenchées par l’API** autorisez soit les communications marketing à atteindre une audience au bon moment, soit les messages transactionnels/opérationnels à une personne comme une réinitialisation de mot de passe, où le besoin peut impliquer une personnalisation en utilisant non seulement l’attribut de profil, mais également les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
 
 Suivez les étapes de création dʼune campagne décrites ci-après :
 

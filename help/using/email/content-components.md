@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
@@ -60,7 +60,7 @@ Pour ajouter des composants de contenu à votre e-mail et les ajuster selon vos 
    >
    >Vous pouvez ajouter plusieurs composants dans un seul composant de structure et dans chaque colonne d’un composant de structure.
 
-1. Ajustez les attributs de style de chaque composant à l’aide des onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** sur la droite. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md)
+1. Ajustez les attributs et la mise en forme de chaque composant à l’aide du **[!UICONTROL Paramètres]** et **[!UICONTROL Style]** onglets sur la droite. Par exemple, vous pouvez changer le style de texte, la marge intérieure ou la marge de chaque composant. [En savoir plus sur l’alignement et la marge intérieure](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -224,4 +224,4 @@ Découvrez comment ajouter des offres personnalisées dans un e-mail dans [cette
 
 >[!IMPORTANT]
 >
->Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
+>Si des modifications sont apportées à la décision d’une offre qui est utilisée dans le message d’un parcours, vous devez annuler la publication du parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.

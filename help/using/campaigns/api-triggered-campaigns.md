@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 100%
+source-wordcount: '917'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## À propos des campagnes déclenchées par API {#about}
 
-Avec [!DNL Journey Optimizer], vous pouvez créer des campagnes, puis les appeler à partir d’un système externe en fonction du déclencheur utilisateur à l’aide de la fonction [API REST d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Vous pouvez ainsi couvrir divers besoins de messagerie opérationnelle et transactionnelle tels que les réinitialisations de mot de passe, le jeton OTP, etc.
+Avec [!DNL Journey Optimizer], vous pouvez créer des campagnes, puis les appeler à partir d’un système externe en fonction du déclencheur utilisateur à l’aide de la fonction [API REST d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Cela vous permet de couvrir divers besoins en marketing et en messagerie transactionnelle, tels que les réinitialisations de mot de passe, le jeton OTP, etc.
 
 Pour cela, vous devez d’abord créer une campagne déclenchée par une API dans Journey Optimizer, puis lancer son exécution via un appel API.
 
@@ -29,15 +29,19 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 ### Configurer et activer la campagne {#create-activate}
 
-Le processus de création de campagnes déclenchées par API reste identique aux campagnes planifiées, à l’exception de la sélection d’audiences qui est effectuée dans la payload de l’API. Vous trouverez des informations détaillées sur la création d’une campagne dans [cette section](create-campaign.md).
-
-Pour créer une campagne déclenchée par API, procédez comme suit :
+Pour créer une campagne déclenchée par une API, procédez comme suit. Vous trouverez des informations détaillées sur la création d’une campagne dans [cette section](create-campaign.md).
 
 1. Créez une campagne avec le type **[!UICONTROL déclenché par API]**.
 
-1. Sélectionnez le canal et la surface du canal à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
+1. Choisissez la **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]** selon le type de communication que vous souhaitez envoyer.
+
+1. Sélectionnez l’un des canaux pris en charge et la surface de canal associée à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/api-triggered-type.png)
+
+   >[!NOTE]
+   >
+   >Pour l’instant, la diffusion rapide n’est pas prise en charge pour les campagnes déclenchées par l’API de notification push.
 
 1. Indiquez un titre et une description pour la campagne, puis cliquez sur **[!UICONTROL Modifier le contenu]** pour configurer le message à envoyer.
 
@@ -47,9 +51,11 @@ Pour créer une campagne déclenchée par API, procédez comme suit :
    >
    >L’utilisation d’un grand nombre de données contextuelles importantes dans votre contenu peut avoir un impact sur les performances.
 
-1. Dans la section **[!UICONTROL Audience]**, spécifiez l’espace de noms à utiliser pour identifier les individus du segment.
+1. Dans le **[!UICONTROL Audience]** , spécifiez l’espace de noms à utiliser pour identifier les individus.
 
-   L’option **[!UICONTROL Créer de nouveaux profils]** permet de créer automatiquement des profils qui n’existent pas dans la base de données. [En savoir plus sur la création de profils lors de l’exécution de la campagne](#profile-creation)
+   * Si vous créez une **transactionnel** campagne de type -type , les profils ciblés doivent être définis dans l’appel API. L’option **[!UICONTROL Créer de nouveaux profils]** permet de créer automatiquement des profils qui n’existent pas dans la base de données. [En savoir plus sur la création de profils lors de l’exécution de la campagne](#profile-creation)
+
+   * Pour **marketing** Campagnes de type -type , cliquez sur le bouton **[!UICONTROL Audience]** pour sélectionner l’audience à cibler.
 
 1. Configurez les dates de début et de fin de la campagne.
 
@@ -68,6 +74,8 @@ Une fois votre campagne activée, vous devez récupérer l’exemple de requête
    ![](assets/api-triggered-curl.png)
 
 1. Utilisez cette requête cURL dans les API pour créer votre payload et déclencher la campagne. Pour plus d’informations, consultez la [documentation de l’API d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   Des exemples d’appels API sont également disponibles dans [cette page](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -92,7 +100,7 @@ La syntaxe `{{context.<contextualAttribute>}}` est mappée à un type de donnée
 
 >[!IMPORTANT]
 >
->Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko.
+>Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 50 Ko et sont toujours pris en compte comme chaîne de type .
 >
 >La syntaxe `context.system` est limitée à l’utilisation interne d’Adobe uniquement et ne doit pas être utilisée pour transmettre des attributs contextuels.
 
@@ -106,12 +114,12 @@ Lorsqu’un profil n’existe pas dans la base de données, Journey Optimizer vo
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est fournie pour **la création de profil à très petit volume** dans un cas d’utilisation d’envoi transactionnel à large volume, avec la majorité des profils déjà existants dans la plateforme.
+>Dans le cas de messages transactionnels, cette fonctionnalité est fournie pour **création de profil à très petit volume** dans un cas pratique d’envoi transactionnel à volume élevé, avec la majorité des profils déjà existants dans platform.
 
-Pour activer la création de profil lors de l’exécution de la campagne, activez l’option **[!UICONTROL Créer de nouveaux profils]** dans la section **[!UICONTROL Audience]**.
+Pour activer la création de profil lors de l’exécution de la campagne, activez l’option **[!UICONTROL Créer de nouveaux profils]** dans la section **[!UICONTROL Audience.]** Si cette option est désactivée, les profils inconnus sont rejetés pour tout envoi et l’appel API échoue.
 
 ![](assets/api-triggered-create-profile.png)
 
 >[!NOTE]
 >
->Des profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de noms par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push).
+>Les profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de noms par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push).
