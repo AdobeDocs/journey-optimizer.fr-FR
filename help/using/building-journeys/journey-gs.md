@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, segment, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 92%
+source-wordcount: '1548'
+ht-degree: 91%
 
 ---
 
@@ -59,7 +59,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
 ![](assets/journeys-browse.png)
 
-Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lecture de segment]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**.
+Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lecture de segment]** ou **[!UICONTROL Événement d’entreprise]**.
 
 Vous pouvez choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** vous permettent également de sélectionner une date de publication ou un utilisateur ou une utilisatrice. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](../building-journeys/using-the-journey-designer.md).
 

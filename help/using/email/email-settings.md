@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 97%
+source-wordcount: '1783'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Définissez les paramètres d’e-mail dans la section dédiée de la configurat
 
 La configuration de surface d’e-mail est récupérée pour envoyer des communications en suivant la logique ci-dessous :
 
-* Pour les parcours par lots et en rafale, cela ne s’applique pas à l’exécution par lots ou en rafale qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. La modification sera récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
+* Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà commencé avant la configuration de la surface de l’email. La modification sera récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
 
 * Pour les messages transactionnels, la modification est immédiatement récupérée pour la communication suivante (délai de cinq minutes maximum).
 

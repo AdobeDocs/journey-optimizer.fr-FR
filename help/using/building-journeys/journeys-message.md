@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '886'
 ht-degree: 100%
 
 ---
@@ -115,10 +115,6 @@ Le modèle varie selon que vous parlez de notation ou de formation. La formation
 * Notation : application d&#39;un score à des profils individuels en fonction du modèle formé.
 
 Ces informations sont stockées avec le profil de l&#39;utilisateur et sont référencées lors de l&#39;exécution du parcours pour indiquer à Adobe Journey Optimizer quand envoyer votre message.
-
->[!CAUTION]
->
->Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
 ### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 

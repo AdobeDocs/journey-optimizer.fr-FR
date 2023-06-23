@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 97%
 
 ---
 
@@ -103,7 +103,7 @@ Pour créer une notification push, procédez comme suit :
 >title="Mode de diffusion rapide"
 >abstract="Le mode de diffusion rapide vous permet d’envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions."
 
-Le mode de diffusion rapide, précédemment connu sous le nom de mode rafale dans les parcours, est un module complémentaire [!DNL Journey Optimizer] permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
+Le mode de diffusion rapide est un [!DNL Journey Optimizer] module complémentaire permettant d’envoyer très rapidement des messages push dans de grands volumes par le biais de campagnes.
 
 Il est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux personnes qui ont installé votre application de canal d’actualités.
 
