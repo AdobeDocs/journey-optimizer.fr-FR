@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
+source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 82%
+source-wordcount: '329'
+ht-degree: 67%
 
 ---
 
@@ -42,13 +42,13 @@ Cette documentation couvre les sujets suivants :
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être **utilisées dans des campagnes** pour cibler les clients. [Découvrez comment utiliser les campagnes](../campaigns/get-started-with-campaigns.md)
+Une fois cette opération terminée, la variable **audiences résultantes** sont enregistrés dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisés pour cibler les clients dans [Campagnes Journey Optimizer](../campaigns/get-started-with-campaigns.md), ou en Adobe [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr).
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Les audiences obtenues à partir des workflows de composition peuvent uniquement être ciblées dans des campagnes Journey Optimizer. Elles ne peuvent pas être utilisées dans des parcours.
+>Pour l’instant, les audiences issues des workflows de composition ne sont pas disponibles dans parcours.
 >
 >Les campagnes dans Adobe Journey Optimizer ne sont pas encore intégrées au service d’application des stratégies. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’audience ne seront pas appliqués dans les campagnes Journey Optimizer.
 
