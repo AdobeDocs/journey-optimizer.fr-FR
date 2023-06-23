@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
+source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 67%
@@ -42,7 +42,7 @@ Cette documentation couvre les sujets suivants :
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, la variable **audiences résultantes** sont enregistrés dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisés pour cibler les clients dans [Campagnes Journey Optimizer](../campaigns/get-started-with-campaigns.md), ou en Adobe [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr).
+Une fois cette opération terminée, la variable **audiences résultantes** sont enregistrés dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisés pour cibler les clients dans [Campagnes Journey Optimizer](../campaigns/get-started-with-campaigns.md), ou en Adobe [Destinations Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
