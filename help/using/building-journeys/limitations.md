@@ -34,6 +34,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Le segment et l&#39;espace de noms sélectionnés dans **Qualification de segment** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions de parcours.
 * Un parcours commençant par une **lecture de segment** ne peut pas commencer par un autre événement dans les versions suivantes.
+
 ## Actions personnalisées  limitations
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
