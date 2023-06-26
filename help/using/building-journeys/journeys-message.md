@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 
