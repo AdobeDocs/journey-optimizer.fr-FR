@@ -3,7 +3,7 @@ title: Diffuser des décisions par lots
 description: Découvrez comment diffuser les décisions d’offre à tous les profils d’un segment Adobe Experience Platform donné.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
 ht-degree: 100%
 
