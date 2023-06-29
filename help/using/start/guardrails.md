@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 97%
+source-wordcount: '1119'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 ### Mécanismes de sécurisation généraux des parcours {#journeys-guardrails-journeys}
 
 * Le nombre d’activités d’un parcours est désormais limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Cela permet de faciliter la lisibilité, l’assurance qualité et la résolution des problèmes.
+* Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir un débit et une stabilité maximaux. Lorsque vous approchez du jalon de 100 parcours en direct à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle. Nous vous aiderons à atteindre vos objectifs.
 
 ### Actions générales {#general-actions-g}
 

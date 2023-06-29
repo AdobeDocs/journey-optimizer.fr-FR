@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 96%
+source-wordcount: '2595'
+ht-degree: 93%
 
 ---
 
@@ -301,11 +301,13 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * La zone de travail du parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
-* Nouvelles informations sur le nombre de noeuds sur la zone de travail avec des protections pour faciliter la croissance : pour simplifier la lecture, l’assurance qualité et le dépannage des parcours avec un nombre maximal de noeuds par parcours à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
 * Lors de l’ajout d’une action [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal dans le parcours actuel.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
+* Nouveaux garde-fous pour gérer la croissance des expériences fournies par les Parcours :
+   * Nous vous recommandons de limiter le nombre de noeuds à 50 ou moins afin que vos parcours restent performants, faciles à lire, à contrôler la qualité et à résoudre les problèmes. Le nombre d’activités s’affiche dans la section supérieure gauche du canevas de parcours. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
+   * Au fur et à mesure que vous développez et lancez des parcours, nous vous informerons lorsque vous approcherez le jalon de 100 parcours en direct à la fois. Si vos plans nécessitent plus de 100 parcours à la fois, créez un ticket pour l’assistance après avoir reçu la notification et nous vous aiderons. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
 
-**Créer des rapports**
+**Reporting**
 
 * Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF. [En savoir plus](../reports/global-report.md#export-reports).
 
@@ -377,7 +379,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * Dans la zone de travail Parcours, la balise **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
 * Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
 * Le taux de limitation par défaut dans les activités de lecture de segment passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
-* Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. [En savoir plus](../building-journeys/testing-the-journey.md)
+* Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés via un outil externe ne sont pas pris en compte. [En savoir plus](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
