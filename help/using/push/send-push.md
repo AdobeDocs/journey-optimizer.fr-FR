@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
@@ -38,7 +38,6 @@ Une fois le contenu de votre message défini, vous pouvez utiliser des profils d
    ![](assets/push_preview_3.png)
 
 ## Valider la notification push {#push-validate}
-
 
 Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Certaines d’entre elles sont de simples avertissements, mais d’autres peuvent vous empêcher d’envoyer le message. Deux types d’alertes peuvent se produire : avertissements et erreurs.
 
