@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Vérifiez les conditions préalables suivantes avant de commencer à exporter vo
 
 * Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions) **Gérer les destinations**, **Afficher les destinations**, **Activer des destinations**, et **Gérer et activer des destinations de jeu de données**. Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr) ou contactez votre administrateur de produit pour obtenir les autorisations requises.
 
-* Cette fonctionnalité prend uniquement en charge l’exportation des données de première génération, c’est-à-dire les données brutes définies dans la [description du produit Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Assurez-vous que le jeu de données que vous souhaitez exporter ne contient pas de données de deuxième génération.
+* Assurez-vous que le jeu de données que vous souhaitez exporter ne contient pas de données de deuxième génération. Cette fonctionnalité prend uniquement en charge l’exportation des données de première génération, c’est-à-dire les données brutes définies dans la [description du produit Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Les données de première génération incluent les jeux de données importés par l’intermédiaire de sources Adobe Experience Platform ou de jeux de données collectés à l’aide de solutions d’Adobe telles que Analytics Data Connector et les journaux/jeux de données de rapports Journey Optimizer.
 
 ## Étapes principales pour exporter des jeux de données {#main-steps}
 
