@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 Utilisez l’activité **Lecture de segment** pour que tous les individus d’un segment rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
-Prenons comme exemple le segment &quot;Ouverture et passage en caisse de l’application Luma&quot; créé dans la variable [Cas d’utilisation de la création de segments](../segment/about-segments.md). Avec le **[!UICONTROL Lecture de segment]** activité, vous pouvez faire entrer dans un parcours toutes les personnes appartenant à un segment et les faire s’enchaîner vers des parcours personnalisés qui exploiteront toutes les fonctionnalités de parcours : conditions, minuteurs, événements, actions.
+Prenons l’exemple du segment « Ouverture de l’application Luma et passage en caisse » créé dans le cas d’utilisation de [Création de segments](../segment/about-segments.md). Avec l’activité **[!UICONTROL Lecture de segment]**, vous pouvez faire en sorte que toutes les personnes appartenant à un segment rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, minuteurs, événements, actions.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
    >
    >Le taux de limitation global par sandbox est défini sur 20 000 messages par seconde. Par conséquent, le taux de limitation de toutes les lectures de segment qui s’exécutent simultanément dans le même sandbox s’élève à 20 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
-1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours. Configurez ensuite la variable **[!UICONTROL Type de planificateur]** champ .
+1. L’activité **[!UICONTROL Lecture de segment]** vous permet de spécifier l’heure à laquelle le segment rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
 
    ![](assets/read-segment-schedule.png)
 
@@ -87,9 +87,9 @@ Les étapes de configuration de l&#39;activité Lecture de segment sont les suiv
 
    ![](assets/read-segment-schedule-list.png)
 
-   Lorsqu’un parcours avec un événement récurrent **Lecture de segment** s’exécute pour la première fois, tous les profils du segment entrent dans le parcours. Utilisez la variable **Lecture incrémentale** pour cibler, après la première occurrence, uniquement les individus qui ont rejoint le segment depuis la dernière exécution du parcours.
+   Lorsqu’un parcours avec une activité récurrente **Lecture de segment** s’exécute pour la première fois, tous les profils du segment rejoignent le parcours. Utilisez l’option **Lecture incrémentielle** pour cibler, après la première occurrence, uniquement les personnes qui sont entrées dans le segment depuis la dernière exécution du parcours.
 
-   Activation de la variable **Force une réentrée sur une période récurrente** permet de supprimer automatiquement tous les profils qui se trouvent actuellement en parcours lors de la prochaine exécution. Par exemple, en cas d’attente de deux jours dans un parcours récurrent quotidien, l’activation de cette option déplacera systématiquement les profils vers l’exécution parcours suivante (le jour suivant), qu’ils fassent partie de l’audience d’exécution suivante ou non. Toutefois, si la durée des profils dans ce parcours peut excéder la fréquence de périodicité, il est conseillé de ne pas activer cette option pour s&#39;assurer que les profils puissent terminer leur parcours.
+   L’activation de l’option **Forcer une reprise sur une périodicité** permet de supprimer automatiquement tous les profils qui se trouvent actuellement dans le parcours lors de la prochaine exécution. Par exemple, en cas d’attente de deux jours dans un parcours récurrent quotidien, l’activation de cette option déplacera systématiquement les profils vers l’exécution de parcours suivante (le jour suivant), qu’ils fassent partie de l’audience d’exécution suivante ou non. Toutefois, si la durée des profils dans ce parcours peut excéder la fréquence de périodicité, il est conseillé de ne pas activer cette option pour s’assurer que les profils puissent terminer leur parcours.
 
 <!--
 
@@ -112,17 +112,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Une prise **Lecture de segment** Les parcours se déplacent vers **Terminé** 30 jours après l’exécution du parcours. Pour les **Lecture des segments**, il s’agit de 30 jours après l’exécution de la dernière occurrence.
+>Les parcours de **Lecture de segment** en une fois passent à l’état **Terminé** 30 jours après l’exécution du parcours. Pour la **Lecture de segment** planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence.
 
 ### Tester et publier le parcours {#testing-publishing}
 
-Le **[!UICONTROL Lecture de segment]** l’activité permet de tester le parcours soit sur un profil unitaire, soit sur 100 profils de test aléatoires sélectionnés parmi les profils qualifiés pour le segment.
+L’activité **[!UICONTROL Lecture de segment]** vous permet de tester le parcours sur un profil unitaire ou sur 100 profils de test aléatoires sélectionnés parmi les profils qualifiés pour le segment.
 
-Pour ce faire, activez la fonction **mode test**. Sélectionnez ensuite l’option de votre choix dans le volet de gauche.
+Pour cela, activez le **mode test**, puis sélectionnez l’option de votre choix dans le volet de gauche.
 
 ![](assets/read-segment-test-mode.png)
 
-Vous pouvez ensuite configurer et exécuter la variable **mode test** comme d&#39;habitude. [Découvrez comment tester un parcours](testing-the-journey.md).
+Vous pouvez ensuite configurer et exécuter le **mode test** comme vous le faites habituellement. [Découvrez comment tester un parcours](testing-the-journey.md).
 
 Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les journaux]** vous permet d’afficher les résultats du test en fonction de l’option de test sélectionnée :
 
