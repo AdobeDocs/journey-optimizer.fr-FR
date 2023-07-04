@@ -10,9 +10,9 @@ level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1783'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Définissez les paramètres d’e-mail dans la section dédiée de la configurat
 
 La configuration de surface d’e-mail est récupérée pour envoyer des communications en suivant la logique ci-dessous :
 
-* Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà commencé avant la configuration de la surface de l’email. La modification sera récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
+* Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. La modification sera récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
 
 * Pour les messages transactionnels, la modification est immédiatement récupérée pour la communication suivante (délai de cinq minutes maximum).
 
@@ -41,11 +41,11 @@ La configuration de surface d’e-mail est récupérée pour envoyer des communi
 >title="Définition de la catégorie d’e-mail"
 >abstract="Sélectionnez le type d’e-mails qui sera envoyé lors de l’utilisation de cette surface : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
-Dans la section **TYPE DʼE-MAIL**, sélectionnez le type de message à envoyer grâce à la surface : **Marketing** ou **Transactionnel**.
+Dans la section **Type d’e-mail**, sélectionnez le type de message à envoyer grâce à la surface : **Marketing** ou **Transactionnel**.
 
-* Choisir **Marketing** pour les courriers électroniques promotionnels, tels que les promotions hebdomadaires pour un magasin de vente au détail. Ces messages requièrent le consentement de l’utilisateur.
+* Choisissez **Marketing** pour les e-mails promotionnels, tels que les promotions hebdomadaires pour un magasin de vente au détail. Ces messages requièrent le consentement de l’utilisateur ou de l’utilisatrice.
 
-* Choisir **Transactionnel** pour les emails non commerciaux, tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple. Ces emails peuvent être envoyés aux profils qui **désabonné** des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
+* Choisissez **Transactionnel** pour les e-mails non commerciaux tels que les confirmations de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple. Ces e-mails peuvent être envoyés aux profils qui **se sont désabonnés** des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
 Lors de la création d’un message, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
