@@ -8,15 +8,15 @@ level: Experienced
 keywords: indexOf, fonction, expression, parcours
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # indexOf {#indexOf}
 
-Renvoie la position (dans le premier argument) de la première occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
+Renvoie la position (dans le premier argument) de la dernière occurrence du deuxième paramètre. Renvoie -1 s’il n’existe aucune correspondance.
 
 ## Catégorie
 
