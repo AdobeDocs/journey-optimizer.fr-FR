@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Les parcours unitaires (commençant par un événement ou une qualification de s
 
 En outre :
 
-* Si la rentrée est activée, un profil peut entrer un parcours plusieurs fois, mais il ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
+* Si la reprise est activée, un profil peut rejoindre à nouveau plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 
 * Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
 
@@ -43,9 +43,9 @@ Dans un parcours de segment lu :
 
 * Pour les parcours non récurrents : le profil rejoint une seule fois le parcours.
 
-* Pour les parcours récurrents : le profil entre dans le parcours de chaque périodicité, s’il se trouve dans l’état segment/attendu. S’ils étaient toujours dans le parcours d’une périodicité précédente, ils la redémarreront dès le début.
+* Pour les parcours récurrents : le profil intègre le parcours à chaque périodicité, s’il est dans le segment ou a le statut prévu. S’il était toujours dans le parcours d’une précédente périodicité, il la redémarrera depuis le début.
 
-Dans les parcours d’événements professionnels commençant par un **Lecture de segment** activité : sachant que ce parcours est basé sur la réception d’un événement professionnel, si le profil est qualifié dans le segment attendu, il renverra le parcours de chaque événement commercial reçu, ce qui signifie que ce profil peut être plusieurs fois dans le même parcours, au même moment, mais dans le contexte d’événements professionnels différents.
+Dans les parcours d’événement métier commençant par une activité **Lecture de segment** : sachant que ce parcours est basé sur la réception d’un événement métier, si le profil est qualifié dans le segment prévu, il intègrera le parcours de chaque événement métier reçu, ce qui signifie que ce profil peut intégrer le même parcours plusieurs fois, au même moment, mais dans le contexte de divers événements métier.
 
 <!--
 # Profile entry management {#entry-management}
