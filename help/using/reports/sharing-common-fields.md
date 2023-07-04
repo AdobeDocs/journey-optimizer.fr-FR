@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Type : Chaîne
 
 >[!NOTE]
 >
->À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID plutôt que journeyVersionName lors de l’interrogation de parcours.
+>À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID au lieu de journeyVersionName lors de l’interrogation de parcours.
 
 ## journeyVersionName {#journeyversionname-field}
 
@@ -121,7 +121,7 @@ Type : Chaîne
 
 >[!NOTE]
 >
->À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID plutôt que journeyVersionName lors de l’interrogation de parcours.
+>À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID au lieu de journeyVersionName lors de l’interrogation de parcours.
 
 ## journeyVersion {#journeyversion-field}
 
