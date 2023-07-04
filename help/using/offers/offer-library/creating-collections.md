@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Pour créer une collection, procédez comme suit :
 
    >[!NOTE]
    >
-   >L’utilisation de OLAC n’est pas disponible pour les collections dynamiques. Il doit être géré au niveau de l’offre. Par conséquent, il est possible que vous ne voyiez aucune offre dans une collection dynamique si vous n’avez accès à aucune de ces offres.
+   >OLAC n’est pas disponible pour les collections dynamiques. La gestion d’OLAC s’effectue au niveau de l’offre. Par conséquent, il est possible que vous ne voyiez aucune offre dans une collection dynamique si vous n’avez accès à aucune de ces offres.
 
 1. Une fois la collection créée, elle s&#39;affiche dans la liste. Vous pouvez la sélectionner pour la modifier ou la supprimer.
 
