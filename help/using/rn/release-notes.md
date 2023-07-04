@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '2595'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 
 
-## Notes de mise à jour de juin 2023 {#june-rn-2023}
+## Notes de mise à jour de juin 2023 {#june-rn-2023}
 
 <!--
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
@@ -36,14 +36,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Campagnes déclenchées par l’API pour les cas d’utilisation marketing</strong><br/></th>
+<th><strong>Campagnes déclenchées par API pour les cas d’utilisation marketing</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser des API pour déclencher des campagnes marketing dans Adobe Journey Optimizer à partir d’un système externe.</p>
-<p>Jusqu’à cette version, la fonctionnalité des campagnes déclenchées par l’API couvrait divers besoins de messagerie opérationnelle et transactionnelle tels que les réinitialisations de mot de passe ou le jeton OTP, mais ne pouvait pas être utilisée pour créer des campagnes marketing. Les canaux disponibles pour les campagnes déclenchées par l’API sont les suivants : Courriel, SMS et Push.</p>
+<p>Vous pouvez désormais utiliser des API pour déclencher des campagnes marketing dans Adobe Journey Optimizer à partir d’un système externe.</p>
+<p>Avant cette version, la fonctionnalité de campagnes déclenchées par API répondait à divers scénarios de messages opérationnels et transactionnels, tels que les réinitialisations de mot de passe ou les jetons OTP, mais ne permettait pas de créer des campagnes marketing. Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS et les messages push.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/api-triggered-campaigns.md">documentation détaillée</a>.
 </td>
