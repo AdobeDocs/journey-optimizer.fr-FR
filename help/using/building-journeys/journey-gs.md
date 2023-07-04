@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, segment, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1548'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
 * **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lire le segment).
 * **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
-* **Taux d’abandon**: ratio de tous les profils ignorés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil ignoré représente une personne qui n’est pas éligible pour entrer dans le parcours, par exemple en raison d’un espace de noms incorrect ou des règles de rentrée.
+* **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil rejeté représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou des règles de reprise.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
 ![](assets/journeys-browse.png)
 
-Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification du segment]**, **[!UICONTROL Lecture de segment]** ou **[!UICONTROL Événement d’entreprise]**.
+Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Les différents types sont les suivants : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de segment]**, **[!UICONTROL Lecture de segment]**, **[!UICONTROL Événement métier]**.
 
 Vous pouvez choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** vous permettent également de sélectionner une date de publication ou un utilisateur ou une utilisatrice. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](../building-journeys/using-the-journey-designer.md).
 
@@ -153,7 +153,7 @@ Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de s
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
-Lors de la modification d’une action ou d’une activité de condition, vous avez la possibilité de spécifier un autre chemin en cas d’erreur ou de dépassement de délai. Si le traitement de l’activité, qui implique l’interrogation d’un système tiers, dépasse la durée spécifiée dans les propriétés du parcours pour le délai d’expiration et la gestion des erreurs (**[!UICONTROL Délai d’expiration et erreur]** ), le deuxième chemin d’accès est sélectionné pour exécuter une action de secours si nécessaire.
+Lors de la modification d’une activité d’action ou de condition, vous avez la possibilité d’indiquer un autre chemin en cas d’erreur ou de temporisation. Si le traitement de l’activité, qui implique l’interrogation d’un système tiers, dépasse la durée spécifiée dans les propriétés du parcours relatives à la temporisation et au traitement des erreurs (champ **[!UICONTROL Temporisation et erreur]**), le deuxième chemin est sélectionné pour exécuter une action de remplacement, le cas échéant.
 
 Les valeurs autorisées sont comprises entre 1 et 30 secondes.
 
@@ -163,7 +163,7 @@ Les parcours utilisent également une temporisation globale. Pour plus d&#39;inf
 
 ### Temporisation de parcours globale {#global_timeout}
 
-Outre la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, il existe une temporisation globale qui n&#39;est pas affichée dans l&#39;interface et qui ne peut pas être modifiée. Cette valeur de temporisation mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 30 jours. Après le délai d’expiration de 30 jours, les données de l’individu sont supprimées. Les individus qui sont encore actifs dans le parcours au terme de cette période de temporisation sont arrêtés et considérés comme des « erreurs » dans le cadre du reporting.
+Outre la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, il existe une temporisation globale qui n&#39;est pas affichée dans l&#39;interface et qui ne peut pas être modifiée. Cette valeur de temporisation mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 30 jours. Après cette période de temporisation de 30 jours, les données le concernant sont supprimées. Les individus qui sont encore actifs dans le parcours au terme de cette période de temporisation sont arrêtés et considérés comme des « erreurs » dans le cadre du reporting.
 
 >[!NOTE]
 >
