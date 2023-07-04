@@ -10,9 +10,9 @@ level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -32,20 +32,20 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="**Campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. **déclenché par l’API** les campagnes sont exécutées à l’aide d’un appel API. Ils sont destinés à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, abandon de panier, etc."
+>abstract="Les **campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. Les campagnes **déclenchées par API** sont exécutées à l’aide d’un appel API. Elles sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Catégorie de campagne"
->abstract="Si vous créez une campagne planifiée, la variable **marketing** type est automatiquement sélectionné. Pour les campagnes déclenchées par l’API, choisissez si vous souhaitez envoyer une **marketing** ou **transactionnel** message, c’est-à-dire un message envoyé à la suite d’une action effectuée par un individu : réinitialisation du mot de passe, abandon de panier, etc."
+>abstract="Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par API, choisissez si vous souhaitez envoyer un message **marketing** ou **transactionnel**, c’est-à-dire un message envoyé à la suite d’une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc."
 
 1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne. Deux types de campagne sont disponibles :
 
-   * **[!UICONTROL Planifié]** : permet d’exécuter immédiatement la campagne ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing.** Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **[!UICONTROL Planifié]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Ils sont configurés et exécutés à partir de l’interface utilisateur.
 
-   * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API visent à envoyer : **marketing** ou **transactionnel** messages, c’est-à-dire messages envoyés suite à une action effectuée par un individu : réinitialisation du mot de passe, achat de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+   * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
-1. Si vous créez une campagne planifiée, la variable **marketing** type est automatiquement sélectionné. Pour les campagnes déclenchées par l’API, choisissez si vous souhaitez envoyer une **marketing** ou **transactionnel** message.&quot;
+1. Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par API, choisissez si vous souhaitez envoyer un message **marketing** ou **transactionnel**.
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur Créer.
 
