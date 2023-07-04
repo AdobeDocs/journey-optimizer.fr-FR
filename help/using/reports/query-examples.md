@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 >[!NOTE]
 >
->À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID plutôt que journeyVersionName lors de l’interrogation de parcours.
+>À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID au lieu de journeyVersionName lors de l’interrogation de parcours.
 
 ## Cas d’utilisation de base/requêtes courantes {#common-queries}
 
