@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 146dda9b180a4767b7041b50382f9a0eac0a0058
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2164'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -130,16 +130,16 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    >[!NOTE]
    >
-   >Lors de l’ajout de plusieurs portées de décision, l’ordre des critères d’évaluation est affecté. [En savoir plus](#multiple-scopes).
+   >L’ajout de plusieurs portées de décision modifie l’ordre des critères d’évaluation. [En savoir plus](#multiple-scopes).
 
 ### Ordre des critères d’évaluation {#evaluation-criteria-order}
 
 Comme décrit ci-dessus, un critère d’évaluation se compose d’une collection, de contraintes d’éligibilité et d’une méthode de classement. Vous pouvez définir l’ordre séquentiel dans lequel les critères d’évaluation s’appliquent, mais vous pouvez également combiner plusieurs critères d’évaluation afin de les appliquer ensemble et non séparément.
 
-#### Avec une portée {#one-scope}
+#### Avec une portée unique {#one-scope}
 
 
-Dans une portée de décision unique, plusieurs critères et leur regroupement déterminent la priorité des critères et le classement des offres éligibles. Le premier critère a la priorité la plus élevée et les critères combinés au sein d&#39;un même &quot;groupe&quot; ont la même priorité.
+Dans une portée de décision unique, différents critères et leur regroupement déterminent la priorité des critères et le classement des offres éligibles. Le premier critère a la priorité la plus élevée et les critères combinés au sein d’un même « groupe » ont la même priorité.
 
 Prenons l’exemple suivant : vous disposez de deux collections, l’une dans le critère d’évaluation A et l’autre dans le critère d’évaluation B. La demande concerne le renvoi de deux offres. Deux offres répondent au critère d’évaluation A et trois offres au critère d’évaluation B.
 
@@ -153,38 +153,41 @@ Prenons l’exemple suivant : vous disposez de deux collections, l’une dans l
 
 +++ **Exemple avec plusieurs critères**
 
-Examinons maintenant un exemple dans lequel plusieurs critères pour une portée unique sont divisés en différents groupes.
+Prenons maintenant un exemple où plusieurs critères pour une même portée sont divisés en différents groupes.
 
-Vous avez défini trois critères. Les critères 1 et 2 sont combinés dans le groupe 1 et le critère 3 est indépendant (groupe 2).
+Vous avez défini trois critères. Les critères 1 et 2 sont combinés dans le groupe 1 et le critère 3 est indépendant (groupe 2).
 
-Les offres éligibles pour chaque critère et leur priorité (utilisée dans l&#39;évaluation de la fonction de classement) sont les suivantes :
+Les offres éligibles pour chaque critère et leur priorité (utilisée dans l’évaluation de la fonction de classement) sont les suivantes :
 
-* Groupe 1 :
-   * Critère 1 - (Offre 1, Offre 2, Offre 3) - Priorité 1
-   * Critère 2 - (Offre 3, Offre 4, Offre 5) - Priorité 1
+* Groupe 1 :
+   * Critère 1 - (offre 1, offre 2 et offre 3) - Priorité 1
+   * Critère 2 - (offre 3, offre 4 et offre 5) - Priorité 1
 
-* Groupe 2 :
-   * Critère 3 - (Offre 5, Offre 6) - Priorité 0
+* Groupe 2 :
+   * Critère 3 - (offre 5 et offre 6) - Priorité 0
 
-Les offres des critères de priorité la plus élevée sont évaluées en premier et ajoutées à la liste des offres classées.
+Les offres répondant aux critères de priorité les plus élevés sont évaluées en premier et ajoutées à la liste des offres classées.
 
-**Itération 1 :**
+**Itération 1 :**
 
-Les offres des critères 1 et 2 sont évaluées ensemble (Offre 1, Offre 2, Offre 3, Offre 4, Offre 5). Disons que le résultat est :
+Les offres des critères 1 et 2 sont évaluées ensemble (offre 1, offre 2, offre 3, offre 4 et offre 5). Nous arrivons au résultat suivant :
 
-Offre 1 - 10 Offre 2 - 20 Offre 3 - 30 du critère 1, 45 du critère 2. Le plus élevé des deux sera pris en compte, donc 45 sera pris en compte.
-Offre 4 - 40 Offre 5 - 50
+Offre 1 - 10
+Offre 2 - 20
+Offre 3 - 30 pour le critère 1, 45 pour le critère 2. Le critère le plus élevé des deux sera pris en compte (45).
+Offre 4 - 40
+Offre 5 - 50
 
-L’offre classée se présente désormais comme suit : Offre 5, Offre 3, Offre 4, Offre 2, Offre 1.
+L’offre classée se présente désormais comme suit : offre 5, offre 3, offre 4, offre 2 et offre 1.
 
-**Itération 2 :**
+**Itération 2 :**
 
-Les offres du critère 3 sont évaluées (Offre 5, Offre 6). Disons que le résultat est :
+Les offres du critère 3 sont évaluées (offre 5 et offre 6). Nous arrivons au résultat suivant :
 
-* Offre 5 : ne sera pas évaluée puisqu’elle existe déjà dans le résultat ci-dessus.
-* Offre 6 - 60
+* Offre 5 : non évaluée, car elle existe déjà dans le résultat ci-dessus.
+* Offre 6 - 60
 
-Les offres classées sont désormais les suivantes : Offre 5 , Offre 3, Offre 4, Offre 2, Offre 1, Offre 6.
+Les offres classées sont désormais les suivantes : offre 5 , offre 3, offre 4, offre 2, offre 1 et offre 6.
 
 +++
 
@@ -192,87 +195,87 @@ Les offres classées sont désormais les suivantes : Offre 5 , Offre 3, Offre 4,
 
 **Si la duplication est désactivée**
 
-Lorsque vous ajoutez plusieurs portées de décision à une décision et que la duplication n’est pas autorisée à l’échelle de plusieurs emplacements, les offres éligibles sont sélectionnées de manière séquentielle dans l’ordre des portées de décision dans la requête.
+Lorsque vous ajoutez plusieurs portées de décision à une décision et si la duplication n’est pas autorisée entre les emplacements, les offres éligibles sont sélectionnées de manière séquentielle dans l’ordre des portées de décision de la requête.
 
 >[!NOTE]
 >
->Le **[!UICONTROL Autoriser les doublons entre emplacements]** est défini au niveau de l’emplacement. Si la duplication est définie sur false pour tout emplacement dans une requête de prise de décision, tous les emplacements de la requête hériteront du paramètre false. [En savoir plus sur le paramètre de duplication](../offer-library/creating-placements.md)
+>Le paramètre **[!UICONTROL Autoriser les doublons dans les emplacements]** est défini au niveau de l’emplacement. Si la duplication est définie sur « false » dans un emplacement d’une requête de prise de décision, tous les emplacements de la requête hériteront du paramètre « false ». [En savoir plus sur le paramètre de duplication](../offer-library/creating-placements.md)
 
-Prenons un exemple où vous avez ajouté deux portées de décision, telles que :
+Prenons un exemple où vous avez ajouté deux portées de décision, telles que :
 
-* Portée 1 : Il existe quatre offres éligibles (Offre 1, Offre 2, Offre 3, Offre 4) et la demande est de renvoyer deux offres.
-* Portée 2 : Il existe quatre offres éligibles (Offre 1, Offre 2, Offre 3, Offre 4) et la demande est de renvoyer deux offres.
+* Portée 1 : il existe quatre offres éligibles (offre 1, offre 2, offre 3 et offre 4) et la requête porte sur le renvoi de deux offres.
+* Portée 2 : il existe quatre offres éligibles (offre 1, offre 2, offre 3 et offre 4) et la requête porte sur le renvoi de deux offres.
 
 +++ **Exemple 1**
 
-La sélection est la suivante :
+La sélection se présente comme suit :
 
-1. Les deux premières offres éligibles de la portée 1 seront renvoyées (offre 1, offre 2).
-1. Les deux autres offres éligibles de la portée 2 seront renvoyées (offre 3, offre 4).
+1. Les deux meilleures offres éligibles de la portée 1 sont renvoyées (offre 1 et offre 2).
+1. Les deux autres meilleures offres éligibles de la portée 2 sont renvoyées (offre 3 et offre 4).
 
 +++
 
 +++ **Exemple 2**
 
-Dans cet exemple, l’offre 1 a atteint sa limite de fréquence maximale. [En savoir plus sur le plafonnement de la fréquence](../offer-library/add-constraints.md#capping)
+Dans cet exemple, l’offre1 a atteint sa limite de fréquence maximale. [En savoir plus sur le capping de la fréquence](../offer-library/add-constraints.md#capping)
 
-La sélection est la suivante :
+La sélection se présente comme suit :
 
-1. Les deux offres éligibles restantes de la portée 1 seront renvoyées (offre 2, offre 3).
-1. L’offre éligible restante de la portée 2 est renvoyée (offre 4).
+1. Les deux autres meilleures offres éligibles de la portée 1 sont renvoyées (offre 2 et offre 3).
+1. L’offre éligible restante de la portée 2 est renvoyée (offre 4).
 
 +++
 
-+++ **Exemple 3**
++++ **Exemple 3**
 
-Dans cet exemple, les offres 1 et 3 ont atteint leur limite de fréquence maximale. [En savoir plus sur le plafonnement de la fréquence](../offer-library/add-constraints.md#capping)
+Dans cet exemple, les offres 1 et 3 ont atteint leur limite de fréquence maximale. [En savoir plus sur le capping de la fréquence](../offer-library/add-constraints.md#capping)
 
-La sélection est la suivante :
+La sélection se présente comme suit :
 
-1. Les deux offres éligibles restantes de la portée 1 seront renvoyées (offre 2, offre 4).
-1. Il n’existe aucune autre offre éligible pour la portée 2. Par conséquent, la variable [offre de secours](#add-fallback) est renvoyée.
+1. Les deux autres meilleures offres éligibles de la portée 1 sont renvoyées (offre 2 et offre 4).
+1. Il n’existe aucune autre offre éligible pour la portée 2. Par conséquent, l’[offre de secours](#add-fallback) est renvoyée.
 
 +++
 
 **Si la duplication est activée**
 
-Lorsque la duplication est autorisée à tous les emplacements, la même offre peut être proposée plusieurs fois à différents emplacements. Si cette option est activée, le système accepte de placer la même offre dans plusieurs emplacements. [En savoir plus sur le paramètre de duplication](../offer-library/creating-placements.md)
+Lorsque la duplication est autorisée entre tous les emplacements, la même offre peut être proposée plusieurs fois à différents emplacements. Si cette option est activée, le système accepte de placer la même offre dans plusieurs emplacements. [En savoir plus sur le paramètre de duplication](../offer-library/creating-placements.md)
 
-Prenons le même exemple que ci-dessus, où vous avez ajouté deux portées de décision, telles que :
+Prenons le même exemple que ci-dessus, dans lequel vous avez ajouté deux portées de décision, telles que :
 
-* Portée 1 : Il existe quatre offres éligibles (Offre 1, Offre 2, Offre 3, Offre 4) et la demande est de renvoyer deux offres.
-* Portée 2 : Il existe quatre offres éligibles (Offre 1, Offre 2, Offre 3, Offre 4) et la demande est de renvoyer deux offres.
+* Portée 1 : il existe quatre offres éligibles (offre 1, offre 2, offre 3 et offre 4) et la requête porte sur le renvoi de deux offres.
+* Portée 2 : il existe quatre offres éligibles (offre 1, offre 2, offre 3 et offre 4) et la requête porte sur le renvoi de deux offres.
 
 +++ **Exemple 1**
 
-La sélection est la suivante :
+La sélection se présente comme suit :
 
-1. Les deux premières offres éligibles de la portée 1 seront renvoyées (offre 1, offre 2).
-1. Les deux mêmes offres éligibles de la portée 2 seront renvoyées (offre 1, offre 2).
+1. Les deux meilleures offres éligibles de la portée 1 sont renvoyées (offre 1 et offre 2).
+1. Les deux mêmes meilleures offres éligibles de la portée 2 sont renvoyées (offre 1 et offre 2).
 
 +++
 
 +++ **Exemple 2**
 
-Dans cet exemple, l’offre 1 a atteint sa limite de fréquence maximale. [En savoir plus sur le plafonnement de la fréquence](../offer-library/add-constraints.md#capping)
+Dans cet exemple, l’offre1 a atteint sa limite de fréquence maximale. [En savoir plus sur le capping de la fréquence](../offer-library/add-constraints.md#capping)
 
-La sélection est la suivante :
+La sélection se présente comme suit :
 
-1. Les deux offres éligibles restantes de la portée 1 seront renvoyées (offre 2, offre 3).
+1. Les deux autres meilleures offres éligibles de la portée 1 sont renvoyées (offre 2 et offre 3).
 
-1. Les deux offres éligibles restantes de la portée 2 seront renvoyées (offre 2, offre 3).
+1. De même, les deux autres meilleures offres éligibles de la portée 2 sont renvoyées (offre 2 et offre 3).
 
 +++
 
-+++ **Exemple 3**
++++ **Exemple 3**
 
-Dans cet exemple, les offres 1 et 3 ont atteint leur limite de fréquence maximale. [En savoir plus sur le plafonnement de la fréquence](../offer-library/add-constraints.md#capping)
+Dans cet exemple, les offres 1 et 3 ont atteint leur limite de fréquence maximale. [En savoir plus sur le capping de la fréquence](../offer-library/add-constraints.md#capping)
 
-La sélection est la suivante :
+La sélection se présente comme suit :
 
-1. Les deux offres éligibles restantes de la portée 1 seront renvoyées (offre 2, offre 4).
+1. Les deux autres meilleures offres éligibles de la portée 1 sont renvoyées (offre 2 et offre 4).
 
-1. Les deux offres éligibles restantes de la portée 2 seront renvoyées (offre 2, offre 4).
+1. De même, les deux autres meilleures offres éligibles de la portée 2 sont renvoyées (offre 2 et offre 4).
 
 +++
 
@@ -321,7 +324,7 @@ Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;éd
 
 >[!IMPORTANT]
 >
->Si des modifications sont apportées à la décision d’une offre qui est utilisée dans le message d’un parcours, vous devez annuler la publication du parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
+>Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
 
 Sélectionnez une décision active et cliquez sur **[!UICONTROL Désactiver]** pour redéfinir le statut de la décision sur **[!UICONTROL Brouillon]**.
 
