@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, événements, réaction, tracking, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: b011b979aaab7568ca951982a59ad676d05c5595
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,4 +51,4 @@ La procédure de configuration des événements de réaction comprend les étape
 
 >[!IMPORTANT]
 >
->Les clients de messagerie tels que Gmail autorisent le blocage d’images. Le suivi des ouvertures d’email est effectué à l’aide d’une image de 0 pixel incluse dans l’email. Si les images sont bloquées, les ouvertures d’email ne sont pas prises en compte.
+>Les clients de messagerie tels que Gmail autorisent le blocage d’images. Le suivi des ouvertures d’email est effectué à l’aide d’une image de 0 pixel incluse dans l’e-mail. Si les images sont bloquées, les ouvertures d’email ne sont pas prises en compte.
