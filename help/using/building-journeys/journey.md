@@ -9,9 +9,9 @@ level: Beginner
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal
 
 Découvrez comment commencer et créer votre premier parcours sur [cette page](journey-gs.md).
 
-Le concepteur de parcours omnicanal vous aide à créer des parcours à plusieurs étapes, en ciblant spécifiquement les audiences et en incorporant des mises à jour basées sur les interactions client en temps réel ou commerciales. Il vous permet également de créer des messages omnicanaux à l’aide d’une interface intuitive de glisser-déposer.
+Le concepteur de parcours omnicanal vous permet de créer des parcours à plusieurs étapes, en ciblant spécifiquement les audiences et en incorporant des mises à jour basées sur les interactions client ou commerciales en temps réel. Il vous permet également de créer des messages omnicanaux dans une interface intuitive par glisser-déposer.
 
 ![](assets/journey38.png)
 
@@ -82,7 +82,7 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 >[!NOTE]
 >
->Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la rentrée est activée, un profil peut entrer à nouveau dans un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
+>Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
 
 Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
 
