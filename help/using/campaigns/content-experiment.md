@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 -->
 1. Sélectionnez votre canal puis la **[!UICONTROL surface]** que vous souhaitez utiliser pour cette diffusion et cliquez sur **[!UICONTROL Créer]**. Pour plus d’informations à ce sujet, consultez la page [Surfaces de canaux](../configuration/channel-surfaces.md).
 
-   Dans cet exemple, nous choisissons d&#39;envoyer une campagne à l&#39;aide d&#39;emails.
+   Dans cet exemple, nous choisissons d’envoyer une campagne à l’aide d’e-mails.
 
    ![](assets/content_experiment_2.png)
 
