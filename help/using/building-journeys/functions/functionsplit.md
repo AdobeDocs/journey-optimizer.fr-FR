@@ -8,7 +8,7 @@ level: Experienced
 keywords: split, fonction, expression, parcours
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: 07682901ec94d5b736d364130aaf48f9dfe982a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 100%
 
