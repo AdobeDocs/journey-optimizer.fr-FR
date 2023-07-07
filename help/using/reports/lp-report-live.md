@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="Rapport dynamique sur les pages de destination"
 >abstract="Le rapport dynamique sur les pages de destination vous permet de mesurer et de visualiser en temps réel l’efficacité et les performances de vos pages de destination (limité aux dernières 24 heures). Le rapport se compose de plusieurs widgets présentant le succès et les erreurs de vos pages de destination. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
-Le rapport **[!UICONTROL Rapport dynamique]** sur les pages de destination affiche uniquement des détails sur l&#39;impact de vos pages de destination durant les dernières 24 heures. Pour mesurer les données de votre page de destination sur une période sélectionnée, reportez-vous à la section [Rapport global sur les pages de destination](lp-report-global.md).
+Les rapports en direct, accessibles à partir de l’onglet 24 dernières heures, affichent les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement. En comparaison, les rapports globaux portent sur les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée.
 
 Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la page de destination sélectionnée.
 
