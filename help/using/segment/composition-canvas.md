@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1373'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Activité d’enrichissement"
->abstract="L’activité d’enrichissement permet d’exclure les profils appartenant à une audience existante. Le type Exclure en utilisant l’attribut permet d’exclure des profils en fonction d’un attribut spécifique."
+>abstract="Utilisez l’activité Enrichissement pour enrichir votre audience avec des attributs supplémentaires provenant de jeux de données Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations sur le produit acheté (comme le nom, le prix ou l’identifiant de fabricant) afin de personnaliser les diffusions envoyées à l’audience."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
