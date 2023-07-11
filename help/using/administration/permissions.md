@@ -1,46 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion des utilisateurs et des profils de produits
-description: Découvrez comment gérer les utilisateurs et utilisatrices et les profils de produits.
+title: Gérer les utilisateurs et utilisatrices, et les rôles
+description: Découvrez comment gérer les utilisateurs et les rôles
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: produit, profils, sandbox
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 26%
 
 ---
 
-# Gestion des utilisateurs et des profils de produits {#manage-permissions}
+# Gérer les utilisateurs et utilisatrices, et les rôles {#manage-permissions}
 
 >[!IMPORTANT]
 >
 > Chacune des procédures présentées ci-dessous ne peut être réalisée que par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**. Pour plus d&#39;informations à ce sujet, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
 
-Les **[!UICONTROL profils de produit]** sont des ensembles d’utilisateurs qui partagent les mêmes autorisations et sandbox au sein de votre organisation.
+**[!UICONTROL Rôles]** se rapportent à un ensemble d’utilisateurs qui partagent les mêmes autorisations et environnements de test. Ces rôles vous permettent de gérer facilement les accès et les autorisations pour différents groupes d’utilisateurs au sein de votre entreprise.
 
-Le produit [!DNL Journey Optimizer] vous permet de choisir parmi différents **[!UICONTROL profils de produit]** prêts à l&#39;emploi avec différents niveaux d&#39;autorisations à affecter à vos utilisateurs. Pour plus d&#39;informations sur les **[!UICONTROL profils de produits]** disponibles, consultez cette [page](ootb-product-profiles.md).
+Avec le [!DNL Journey Optimizer] produit, vous avez la possibilité de choisir parmi une gamme de **[!UICONTROL Rôles]**, chacun disposant de différents niveaux d’autorisations, à affecter à vos utilisateurs. Pour plus d’informations sur les **[!UICONTROL Rôles]**, voir à ce sujet [page](ootb-product-profiles.md).
 
-Chaque utilisateur appartenant à un **[!UICONTROL profil de produit]** a droit aux applications et services d&#39;Adobe contenus dans le produit.
+Lorsqu’un utilisateur appartient à un **[!UICONTROL Rôle]**, ils ont accès aux applications et services Adobe contenus dans le produit.
 
-Vous pouvez également créer vos propres **[!UICONTROL profils de produit]** si vous souhaitez affiner l&#39;accès de vos utilisateurs à certaines fonctionnalités ou objets de l&#39;interface.
+Si les rôles préexistants ne répondent pas aux besoins spécifiques de votre entreprise, vous pouvez également créer des **[!UICONTROL Rôles]** pour affiner l’accès à certaines fonctionnalités ou à certains objets de l’interface. Ainsi, vous pouvez vous assurer que chaque utilisateur n’a accès qu’aux ressources et outils dont il a besoin pour exécuter ses tâches efficacement.
 
-## Attribution d&#39;un profil de produit {#assigning-product-profile}
+## Attribution d’un rôle {#assigning-role}
 
-Vous pouvez choisir d&#39;attribuer un **[!UICONTROL profil de produit]** personnalisé ou par défaut à vos utilisateurs.
+Vous pouvez choisir d’affecter une **[!UICONTROL Rôle]** à vos utilisateurs.
 
-Vous trouverez dans la section [Profils de produits natifs](ootb-product-profiles.md), la liste de tous les profils de produit par défaut auxquels des autorisations sont associées.
+Vous trouverez la liste de tous les rôles d’usine avec les autorisations attribuées dans la section [Rôles intégrés](ootb-product-profiles.md) .
 
-Pour attribuer un **[!UICONTROL profil de produit]** :
+Pour affecter une **[!UICONTROL Rôle]**:
 
-1. Dans l&#39;onglet **[!UICONTROL Produits]** de [!DNL Admin Console], sélectionnez le produit **[!UICONTROL Experience Cloud - Applications de plateforme]**.
-
-1. Sélectionnez un **[!UICONTROL profil de produit]**.
+1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez au **[!UICONTROL Rôles]** et sélectionnez le rôle souhaité.
 
    ![](assets/do-not-localize/access_control_2.png)
 
@@ -48,102 +46,83 @@ Pour attribuer un **[!UICONTROL profil de produit]** :
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. Saisissez le nom ou l&#39;adresse email de votre utilisateur et sélectionnez-le.
+1. Saisissez le nom ou l’adresse électronique de votre utilisateur, ou sélectionnez l’utilisateur dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Si l&#39;utilisateur n&#39;a pas été créé auparavant dans [!DNL Admin Console], consultez la [documentation relative à l&#39;ajout d&#39;utilisateurs](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/do-not-localize/access_control_4.png)
 
-1. Effectuez les mêmes étapes que précédemment pour ajouter d&#39;autres utilisateurs à votre **[!UICONTROL profil de produit]**. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
-
 L&#39;utilisateur doit alors recevoir un email le redirigeant vers votre instance.
 
 Pour plus d&#39;informations sur la gestion des utilisateurs, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-Lors de l&#39;accès à l&#39;instance, l&#39;utilisateur voit une vue spécifique en fonction des autorisations attribuées dans le **[!UICONTROL profil de produit]**. Si l’utilisateur ne dispose pas du droit d’accès à une fonctionnalité, le message suivant s’affiche :
+Lors de l’accès à l’instance, l’utilisateur voit une vue spécifique en fonction des autorisations attribuées dans la variable **[!UICONTROL Rôle]**. Si l’utilisateur ne dispose pas du droit d’accès à une fonctionnalité, le message suivant s’affiche :
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
-## Modification d&#39;un profil de produit existant {#edit-product-profile}
+## Modification d’un rôle existant {#edit-product-profile}
 
-Pour les **[!UICONTROL profils de produit]** personnalisés ou par défaut, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations.
+Pour les paramètres d’usine ou personnalisés **[!UICONTROL Rôles]**, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations.
 
-Dans cet exemple, nous souhaitons ajouter des **[!UICONTROL autorisations]** liées à la fonctionnalité **[!UICONTROL Parcours]** pour les utilisateurs affectés au **[!UICONTROL profil de produit]** Observateur de parcours. Les utilisateurs pourront alors publier des parcours.
+Dans cet exemple, nous allons ajouter **[!UICONTROL Autorisations]** associé au **[!UICONTROL Parcours]** ressource pour les utilisateurs affectés à la visionneuse de Parcours **[!UICONTROL Rôle]**. Les utilisateurs pourront alors publier des parcours.
 
-Veuillez noter que si vous modifiez un **[!UICONTROL profil de produit]** personnalisé ou par défaut, cela aura un impact sur chaque utilisateur affecté à ce **[!UICONTROL profil de produit]**.
+Notez que si vous modifiez une **[!UICONTROL Rôle]**, cela aura un impact sur chaque utilisateur affecté à cette tâche. **[!UICONTROL Rôle]**.
 
-1. Dans l&#39;onglet **[!UICONTROL Produits]** de [!DNL Admin Console], sélectionnez le produit **[!UICONTROL Experience Cloud - Applications de plateforme]**.
-
-1. Sélectionnez le **[!UICONTROL Profil produit]** Observateur de parcours.
-
-1. Sélectionnez l&#39;onglet **[!UICONTROL Autorisations]**.
-
-   L&#39;onglet **[!UICONTROL Autorisations]** affiche la liste des fonctionnalités qui s&#39;appliquent au produit **[!UICONTROL Experience Cloud - Applications optimisées par Platform]**.
-
+1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez le rôle de votre choix. Ici, la visionneuse de Parcours **[!UICONTROL Rôle]**.
    ![](assets/do-not-localize/access_control_5.png)
 
-1. Sélectionnez la fonctionnalité **[!UICONTROL Parcours]**.
+1. À partir de **[!UICONTROL Rôle]** tableau de bord, cliquez sur **[!UICONTROL Modifier]**.
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. Dans la liste **[!UICONTROL Éléments d&#39;autorisation disponibles]**, sélectionnez les autorisations à attribuer à votre **[!UICONTROL profil de produit]** en cliquant sur l&#39;icône plus (+).
+1. Le **[!UICONTROL Ressources]** affiche la liste des ressources qui s’appliquent au **[!UICONTROL Experience Cloud - Applications basées sur Platform]** produit. Effectuez un glisser-déposer des ressources pour attribuer une autorisation.
 
-   Ici, nous ajoutons l’autorisation **[!UICONTROL Publier les parcours]**.
+   Dans la **[!UICONTROL Parcours]** liste déroulante de ressources, nous choisissons ici le parcours de publication **[!UICONTROL Autorisation]**.
 
-1. Si nécessaire, dans **[!UICONTROL Éléments d&#39;autorisations disponibles]**, cliquez sur l&#39;icône X la plus proche pour supprimer les autorisations de votre profil de produit.
+   ![](assets/do-not-localize/access_control_14.png)
+
+1. Si nécessaire, sous **[!UICONTROL Éléments d’autorisation inclus]**, cliquez sur l’icône X en regard de pour supprimer les autorisations ou les ressources associées à votre rôle.
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Si nécessaire, vous pouvez également créer un profil de produit avec des autorisations spécifiques. Voir à ce sujet la section [Créer un profil de produit](#create-product-profile).
+Si nécessaire, vous pouvez également créer un nouveau rôle avec des autorisations spécifiques. Voir à ce sujet la section [Création d’un rôle](#create-product-profile).
 
-## Création d&#39;un profil de produit {#create-product-profile}
+## Créer un rôle {#create-product-profile}
 
-[!DNL Journey Optimizer] vous permet de créer vos propres **[!UICONTROL profils de produit]** et d’attribuer un ensemble de droits et de sandbox à vos utilisateurs. Avec les **[!UICONTROL profils de produit]**, vous pouvez autoriser ou refuser l&#39;accès à certaines fonctionnalités ou à certains objets de l&#39;interface.
+[!DNL Journey Optimizer] vous permet de créer les vôtres **[!UICONTROL Rôles]** et attribuez un ensemble d’autorisations et d’environnements de test à vos utilisateurs. Avec **[!UICONTROL Rôles]**, vous pouvez autoriser ou refuser l’accès à certaines fonctionnalités ou à certains objets de l’interface.
 
 Pour plus d’informations sur la création et la gestion des sandbox, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
 
-Dans cet exemple, nous allons créer un profil de produit nommé **Parcours en lecture seule** dans lequel nous accorderons des droits en lecture seule à la fonction Parcours. Les utilisateurs pourront uniquement accéder aux parcours et les afficher. Ils ne pourront pas accéder à dʼautres fonctionnalités telles que **[!DNL  Decision management]** dans [!DNL Journey Optimizer].
+Dans cet exemple, nous allons créer un rôle nommé **Parcours en lecture seule** où nous accorderons des droits en lecture seule à la fonctionnalité de Parcours. Les utilisateurs pourront uniquement accéder aux parcours et les afficher. Ils ne pourront pas accéder à dʼautres fonctionnalités telles que **[!DNL  Decision management]** dans [!DNL Journey Optimizer].
 
-Pour créer nos **[!UICONTROL profils de produit]** **Parcours en lecture seule** :
+Pour créer notre **Parcours en lecture seule** **[!UICONTROL Rôle]**:
 
-1. Accédez à [!DNL Admin Console].
-
-1. Dans l&#39;onglet **[!UICONTROL Produits]**, sélectionnez le produit **[!UICONTROL Experience Cloud - Applications de plateforme]**.
-
-1. Cliquez sur **[!UICONTROL Nouveau profil]**.
+1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez au **[!UICONTROL Rôles]** et cliquez sur **[!UICONTROL Création d’un rôle]**.
 
    ![](assets/do-not-localize/access_control_9.png)
 
-1. Ajoutez un **[!UICONTROL Nom du profil de produit]**, **[!UICONTROL Nom d&#39;affichage]** et **[!UICONTROL Description]** pour vos nouveaux **[!UICONTROL profils de produit]**.
+1. Ajouter un **[!UICONTROL Nom]** et **[!UICONTROL Description]** pour votre nouveau **[!UICONTROL Rôle]**. Cliquez ensuite sur **[!UICONTROL Confirmer]**.
 
    ![](assets/do-not-localize/access_control_10.png)
 
-1. Dans la catégorie **[!UICONTROL Notifications]**, indiquez si les utilisateurs seront avertis par e-mail lorsqu&#39;ils seront ajoutés ou supprimés de ce profil de produit.
-
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]** et sélectionnez les **[!UICONTROL profils de produit]** que vous venez de créer.
-
-1. Pour ajouter des autorisations permettant aux utilisateurs d&#39;accéder à différentes fonctionnalités, sélectionnez l&#39;onglet **[!UICONTROL Autorisations]**.
-
-1. Choisissez entre les différentes fonctionnalités telles que **[!DNL Journeys]**, **[!DNL Segments]** ou **[!DNL Decision management]** disponibles dans [!DNL Journey Optimizer] dans le menu de gauche.
-
-   Nous sélectionnons ici la fonctionnalité **[!UICONTROL Parcours]**.
-
-   ![](assets/do-not-localize/access_control_11.png)
-
-1. Dans la liste **[!UICONTROL Éléments d&#39;autorisation disponibles]**, sélectionnez les autorisations à attribuer à votre **[!UICONTROL profil de produit]** en cliquant sur l&#39;icône plus (+).
-
-   Nous sélectionnons ici **[!DNL View journeys]** et **[!DNL View journeys event, data sources, actions]**.
-
-   ![](assets/do-not-localize/access_control_12.png)
-
-1. Sélectionnez la fonction **[!UICONTROL Accès au sandbox]**, pour choisir un ou plusieurs sandbox à affecter à votre **[!UICONTROL profil de produit]**.
+1. Dans la **[!UICONTROL Sandbox]** menu déroulant des ressources, choisissez le ou les environnements de test à affecter à votre **[!UICONTROL Rôle]**. [En savoir plus sur les sandbox](sandboxes.md).
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des sandbox à votre profil. [En savoir plus sur les sandbox](sandboxes.md).
+1. Effectuez une sélection parmi les différentes ressources telles que **[!DNL Journeys]**, **[!DNL Segments]** ou **[!DNL Decision management]** disponible dans [!DNL Journey Optimizer] répertorié dans le menu de gauche.
+
+   Ici, sélectionnez la variable **[!UICONTROL Parcours]** ressource.
+
+   ![](assets/do-not-localize/access_control_11.png)
+
+1. Dans la **[!UICONTROL Parcours]** , sélectionnez les autorisations à attribuer à votre **[!UICONTROL Rôle]**.
+
+   Ici, sélectionnez **[!DNL View journeys]**, **[!DNL View journeys report]**  et **[!DNL View journeys event, data sources, actions]**.
+
+   ![](assets/do-not-localize/access_control_12.png)
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre **[!UICONTROL profil de produit]** est maintenant créé et configuré. Vous devez à présent l&#39;affecter aux utilisateurs.
+Votre **[!UICONTROL Rôle]** est maintenant créé et configuré. Vous devez à présent l&#39;affecter aux utilisateurs.
 
-Pour plus d&#39;informations sur la création et la gestion des profils de produits, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-product-profiles.ug.html).
+Pour plus d&#39;informations sur la création et la gestion des rôles, reportez-vous à la section [Documentation du Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=fr).

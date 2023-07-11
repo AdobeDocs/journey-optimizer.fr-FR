@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
@@ -19,10 +19,8 @@ ht-degree: 100%
 # Autorisations intégrées {#ootb-permissions}
 
 | Fonctionnalité | Autorisations |
-|---|---|
-| Alertes | **[!DNL Manage alerts]** : activation/désactivation des règles d’alertes pour les parcours et les droits.</br>**[!DNL Resolve alerts]** : permet de résoudre les alertes déclenchées.</br>**[!DNL View alerts]** : permet de visualiser les messages d’alerte reçus et d’accéder à l’onglet Alertes. </br>**[!DNL View alerts history]** : permet de visualiser l’historique des alertes reçues. |
+|-|-|
 | Campagnes | **[!DNL Manage campaigns]** : lecture, création, modification et suppression des campagnes. </br>**[!DNL Publish campaigns]** : droit de publier des campagnes.</br>**[!DNL View campaigns]** : accès en lecture seule aux campagnes. </br>**[!DNL View campaigns report]** : la lecture et la modification des rapports de campagne. |
-| Configuration de canal | **[!DNL View messages general settings]** : accès en lecture seule aux paramètres généraux des messages.</br>**[!DNL Manage web subdomain]** : la lecture, la création, la modification et la suppression des sous-domaines web.</br>**[!DNL Manage messages general settings]** : la lecture, la création, la modification et la suppression des paramètres généraux du message.</br>**[!DNL Manage suppression]** : la lecture, la création, la modification et la suppression des règles de suppression.</br>**[!DNL Manage messages presets]** : la lecture, la création, la modification et la suppression du branding de contenu.</br>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</br>**[!DNL Manage SMS subdomains]** : la lecture, la création, la modification et la suppression des sous-domaines de SMS.</br>**[!DNL Manage subdomains delegation]** : la lecture, la création, la modification et la suppression de la délégation de sous-domaine.</br>**[!DNL Manage IP pools]** : la lecture, la création, la modification et la suppression du groupe dʼadresses IP.</br>**[!DNL Manage PTR records]** : lire et modifier les enregistrements PTR.</br>**[!DNL View PTR records]** : accès en lecture seule aux enregistrements PTR.</br>**[!DNL Manage channel surfaces]** : la lecture, la création, la modification et la suppression du branding de contenu.</br>**[!DNL Manage Landing page settings]** : la lecture, la création, la modification et la suppression des sous-domaines de page de destination et des paramètres prédéfinis de page de destination.</br>**[!DNL Manage SMS settings]** : la lecture, la création, la modification et la suppression des informations d’identification des API et des surfaces de canal SMS requises pour activer le canal SMS.</br>**[!DNL Export suppression list]** : accès à la liste de suppression des exports au format CSV.</br>**[!DNL View suppression list]** : la lecture et lʼexport de la liste de suppression locale. |
 | Tableaux de bord | **[!DNL View license usage dashboards]** : accès en lecture seule au tableau de bord de l’utilisation des licences. </br>**[!DNL Manage custom dashboards]** : permet de créer un tableau de bord ou de modifier un tableau de bord existant.</br>**[!DNL View custom dashboards]** : accès en lecture seule aux tableaux de bord définis par l’utilisateur ou l’utilisatrice. </br>**[!DNL View standard dashboards]** : accès en lecture seule aux tableaux de bord Profils, Destinations et Segments.</br>**[!DNL Manage standard dashboards]** : permet de créer des widgets personnalisés et de modifier le schéma de widget par le biais de la bibliothèque de widgets. |
 | Collecte de données | **[!DNL Manage datastream]** : lecture, création et modification des trains de données.</br>**[!DNL View datastream]** : accès en lecture seule aux trains de données. |
 | Gouvernance des données | **[!DNL Manage usage labels]** : lecture, création, modification et suppression des libellés.</br>**[!DNL Manage data usage policies]** : la lecture, la ccréation, la modification et la suppression des politiques dʼutilisation des données.</br>**[!DNL View data usage policies]** : accès en lecture seule aux politiques dʼutilisation des données appartenant à votre organisation.</br>**[!DNL View user activity log]** : accès en lecture seule aux journaux d’audit enregistrés des activités de Platform. |

@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 ## Utilisation des sandbox {#using-sandbox}
 
 [!DNL Journey Optimizer] vous permet de partitionner votre instance en environnements virtuels séparés appelés Sandbox.
-Les environnements Sandbox sont affectés par le biais des profils de produit dans Admin console. [Découvrez comment affecter des sandbox](permissions.md#create-product-profile).
+Les environnements de test sont affectés par le biais de rôles dans les autorisations. [Découvrez comment affecter des sandbox](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] reflète les sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée.
 Vous pouvez créer ou réinitialiser des sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d’utilisation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
@@ -38,27 +38,21 @@ Le sélecteur de sandbox se trouve dans le coin supérieur droit de votre écran
 >
 > La gestion des sandbox peut uniquement être effectuée par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**. Pour plus d’informations à ce sujet, consultez la [documentation relative à Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-Vous pouvez choisir d’affecter différents sandbox aux **[!UICONTROL profils de produit]** prêts à l’emploi ou personnalisés.
+Vous pouvez choisir d’affecter différents environnements de test à des environnements prêts à l’emploi ou personnalisés. **[!UICONTROL Rôles]**.
 
 Pour affecter des sandbox :
 
-1. Dans l&#39;onglet **[!UICONTROL Produits]** de [!DNL Admin Console], sélectionnez le produit **[!UICONTROL Adobe Experience Platform Apps]**.
-
-1. Sélectionnez un **[!UICONTROL profil de produit]**.
+1. Dans [!DNL Permissions], de la fonction **[!UICONTROL Rôles]** , sélectionnez une **[!UICONTROL Rôle]**.
 
    ![](assets/sandbox_1.png)
 
-1. Sélectionnez l&#39;onglet **[!UICONTROL Autorisations]**.
+1. Cliquez sur **[!UICONTROL Modifier]**.
 
-1. Sélectionnez la fonctionnalité **[!UICONTROL Sandbox]**.
-
-   ![](assets/sandbox_2.png)
-
-1. Dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône plus (+) pour affecter des sandbox à votre profil. [En savoir plus sur les sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr){target="_blank"}.
+1. Dans la **[!UICONTROL Environnements de test]** menu déroulant des ressources, sélectionnez l’environnement de test qui sera affecté à votre rôle.
 
    ![](assets/sandbox_3.png)
 
-1. Si nécessaire, dans **[!UICONTROL Éléments d’autorisations disponibles]**, cliquez sur l’icône X pour supprimer l’accès des sandbox à votre **[!UICONTROL profil de produit]**.
+1. Si nécessaire, cliquez sur l’icône X en regard de pour supprimer l’accès des environnements de test à votre **[!UICONTROL Rôle]**.
 
    ![](assets/sandbox_4.png)
 
