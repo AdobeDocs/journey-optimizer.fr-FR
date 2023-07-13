@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Version bêta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 96%
+source-wordcount: '1345'
+ht-degree: 97%
 
 ---
 
@@ -138,8 +138,6 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 L’activité **[!UICONTROL Enrichir]** vous permet d’enrichir votre audience avec des attributs supplémentaires provenant de jeux de données d’Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations sur le produit acheté (comme le nom, le prix ou l’identifiant de fabricant) afin de personnaliser les diffusions envoyées à l’audience.
 
 >[!IMPORTANT]
->
->L’enrichissement est disponible pour **[!UICONOTROL Adobe Journey Optimizer]** utilisateurs uniquement.
 >
 >Pour l’instant, les libellés du jeu de données, au niveau du jeu de données ou du champ, ne sont pas propagés à l’audience nouvellement créée. Cela peut avoir une incidence sur le contrôle d’accès et/ou la gouvernance des données pour cette audience. Nous vous recommandons donc d’utiliser uniquement des données de test lors de la composition des audiences.
 
