@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + Audiences {#audiences}
       + [Commencer avec les audiences](using/audience/about-audiences.md)
       + [Création de définitions de segment](using/audience/creating-a-segment-definition.md)
+      + Composer des audiences {#audience-orchestration}
+         + [Prise en main de la composition des audiences](using/audience/get-started-audience-orchestration.md)
+         + [Créer des workflows de composition](using/audience/create-compositions.md)
+         + [Utiliser la zone de travail de composition](using/audience/composition-canvas.md)
+         + [Accéder aux audiences et les gérer](using/audience/access-audiences.md)
    + Profils{#profiles}
       + [Prise en main des profils](using/audience/get-started-profiles.md)
       + [Créer des profils de test](using/audience/creating-test-profiles.md)
    + [Identités](using/audience/get-started-identity.md)
-   + Composer des audiences {#audience-orchestration}
-      + [Prise en main de la composition des audiences](using/audience/get-started-audience-orchestration.md)
-      + [Créer des workflows de composition](using/audience/create-compositions.md)
-      + [Utiliser la zone de travail de composition](using/audience/composition-canvas.md)
-      + [Accéder aux audiences et les gérer](using/audience/access-audiences.md)
    + [Utilisation des licences](using/audience/license-usage.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
