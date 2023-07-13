@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Version bêta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 77%
+source-wordcount: '136'
+ht-degree: 88%
 
 ---
 
 # Accéder aux audiences et les gérer {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-Cette documentation couvre les sujets suivants :
-
-* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
-* [Créer votre premier workflow de composition](create-compositions.md)
-* [Utiliser la zone de travail de composition](composition-canvas.md)
-* **[Accéder aux audiences et les gérer](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 Les audiences résultant de la composition de l’audience sont accessibles à partir de la **[!UICONTROL Parcourir]** dans le **[!UICONTROL Audiences]** .
 
@@ -38,8 +25,6 @@ Cet onglet répertorie toutes les audiences stockées dans Adobe Experience Pl
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->Pour cette version bêta, plusieurs composants et/ou métadonnées initialement affichés dans l’inventaire des audiences n’apparaissent pas dans cet onglet (ventilation, méthode d’évaluation, etc.).
 >
 >Pour plus d’informations sur les autres types d’audiences disponibles dans Adobe Experience Platform, reportez-vous à la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 

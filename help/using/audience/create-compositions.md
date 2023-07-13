@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Version bêta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: '377'
+ht-degree: 97%
 
 ---
 
 # Créer votre premier workflow de composition {#create-compositions}
-
->[!BEGINSHADEBOX]
-
-Cette documentation couvre les sujets suivants :
-
-* [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
-* **[Créer votre premier workflow de composition](create-compositions.md)**
-* [Utiliser la zone de travail de composition](composition-canvas.md)
-* [Accéder aux audiences et les gérer](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 ## Créer un workflow de composition {#create}
 

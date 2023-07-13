@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Version bêta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -24,21 +22,6 @@ ht-degree: 91%
 >id="ajo_ao_create_composition"
 >title="Créer une composition"
 >abstract="Créez un workflow de composition afin de combiner les audiences d’Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (telles que le partage, l’exclusion…) pour créer de nouvelles audiences."
-
->[!BEGINSHADEBOX]
-
-Cette documentation couvre les sujets suivants :
-
-* **[Prise en main de la composition de l’audience](get-started-audience-orchestration.md)**
-* [Créer votre premier workflow de composition](create-compositions.md)
-* [Utiliser la zone de travail de composition](composition-canvas.md)
-* [Accéder aux audiences et les gérer](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Actuellement, la composition de l’audience n’est disponible que pour un groupe limité de clientes et de clients. Contactez votre représentant ou représentante Adobe si vous avez des questions.
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
