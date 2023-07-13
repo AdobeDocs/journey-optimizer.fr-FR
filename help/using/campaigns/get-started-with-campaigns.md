@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Créez des campagnes pour diffuser du contenu ponctuel sur un segment spécifique sur différents canaux. Avant de créer une campagne, assurez-vous de disposer d’une surface de canal (c’est-à-dire un préréglage de message) et d’un segment Adobe Experience Platform prêt à l’emploi."
+>abstract="Créez des campagnes pour diffuser du contenu ponctuel à une audience spécifique sur différents canaux. Avant de créer votre campagne, assurez-vous d’avoir une surface de canal (c’est-à-dire un paramètre prédéfini de message) et une audience Adobe Experience Platform prête à être utilisée."
 
-Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur un segment spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
+Utilisez les campagnes Journey Optimizer pour diffuser du contenu ponctuel à une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
 Vous pouvez créer deux types de campagnes :
 
 * **Les campagnes planifiées** permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des avis juridiques ou des mises à jour de politique.
-* Les **campagnes déclenchées par API** visent à permettre aux communications marketing d’atteindre une audience au moment opportun ou aux messages transactionnels/opérationnels d’être envoyés à une personne, comme la réinitialisation d’un mot de passe. La personnalisation de ces campagnes inclut l’attribut de profil, mais aussi les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+* **Les campagnes déclenchées par API** permettent d’envoyer des messages transactionnels/opérationnels simples avec des API REST (réinitialisation de mot de passe, abandon de panier, etc.) et offrent des possibilités de personnalisation à l’aide d’attributs de profil et de données contextuelles provenant de la payload.
 
 Suivez les étapes de création dʼune campagne décrites ci-après :
 
@@ -66,7 +66,7 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 +++
 
-1. **Vous avez besoin d’une audience**. Les segments d’audience doivent être disponibles avant de créer la campagne. Pour en savoir plus sur la création d’une audience, consultez cette [page](../segment/about-segments.md).
+1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. En savoir plus sur les audiences [dans cette page](../audience/about-audiences.md).
 1. **Vous avez besoin d’une surface de canal**. Pour pouvoir sélectionner un canal, la surface de canal correspondante (c’est-à-dire le préréglage) doit être créée et disponible. Pour en savoir plus sur les surface de canal, consultez cette [page](../configuration/channel-surfaces.md).
 
 ## Vidéo pratique {#video}

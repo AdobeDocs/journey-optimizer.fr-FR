@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 88%
 
 ---
 
-# Création d’une campagne {#create-campaign}
+# Créer une campagne {#create-campaign}
 
 >[!NOTE]
 >
->Avant de créer une campagne, assurez-vous de disposer d’un canal de surface (c’est-à-dire un préréglage de message) et d’un segment Adobe Experience Platform prêt à l’emploi. En savoir plus dans ces sections :
+>Avant de créer une nouvelle campagne, vérifiez que vous disposez d’un canal de surface (c’est-à-dire un paramètre prédéfini de message) et d’une audience Adobe Experience Platform prête à être utilisée. En savoir plus dans ces sections :
 >
 >* [Création de surfaces de canal](../configuration/channel-surfaces.md)
->* [Prise en main des segments](../segment/about-segments.md)
+>* [Commencer avec les audiences](../audience/about-audiences.md)
 
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
 
@@ -32,20 +32,18 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Les **campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. Les campagnes **déclenchées par API** sont exécutées à l’aide d’un appel API. Elles sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc."
+>abstract="Pour l’envoi d’un message marketing en spécifiant une date d’envoi, le type **Planifiée** est le plus approprié. Cependant, si vous souhaitez envoyer des messages transactionnels tels que la réinitialisation du mot de passe ou l’abandon du panier, le type **Déclenché par API** est le meilleur choix."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Catégorie de campagne"
->abstract="Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par API, choisissez si vous souhaitez envoyer un message **marketing** ou **transactionnel**, c’est-à-dire un message envoyé à la suite d’une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc."
+>abstract="La valeur de catégorie est directement associée à la valeur de type de campagne. Le type Planifiée correspond à la catégorie **Marketing** et le type Déclenchée par l’API correspond à la catégorie **Transactionnelle**."
 
 1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne. Deux types de campagne sont disponibles :
 
-   * **[!UICONTROL Planifié]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **[!UICONTROL Planifié]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de type **marketing**.
 
-   * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
-
-1. Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par API, choisissez si vous souhaitez envoyer un message **marketing** ou **transactionnel**.
+   * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur Créer.
 
@@ -122,19 +120,19 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 
 ## Définissez l’audience {#audience}
 
-Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des segments d’Adobe Experience Platform disponibles. [En savoir plus sur les segments](../segment/about-segments.md)
+Cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >Pour les campagnes déclenchées par API, l’audience doit être définie via un appel API. [En savoir plus](api-triggered-campaigns.md)
 
-Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
+Dans le **[!UICONTROL Espace de noms d’identité]** , choisissez l’espace de noms à utiliser pour identifier les individus de l’audience sélectionnée. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
-    >[!NOTE]
-    >
-    >Les personnes appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblées par la campagne.
+>[!NOTE]
+>
+>Les personnes appartenant à une audience qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblées par la campagne.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

@@ -1,0 +1,121 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Événements de qualification d’audience
+description: En savoir plus sur les événements de qualification d’audience
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
+keywords: qualification, événements, audience, parcours, plateforme
+exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 39%
+
+---
+
+# Événements de qualification d’audience {#segment-qualification}
+
+## À propos des événements de qualification d’audience{#about-segment-qualification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification"
+>title="Événements de qualification d’audience"
+>abstract="Cette activité permet à votre parcours d’écouter les entrées et les sorties des profils dans les audiences Adobe Experience Platform afin de faire entrer ou avancer les individus dans un parcours."
+
+Cette activité permet à votre parcours d’écouter les entrées et les sorties des profils dans les audiences Adobe Experience Platform afin de faire entrer ou avancer les individus dans un parcours. Pour plus d&#39;informations sur la création d&#39;une audience, reportez-vous à cette section [section](../audience/about-audiences.md).
+
+Disons que vous avez un public &quot;client Silver&quot;. Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés.
+
+Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
+
+>[!IMPORTANT]
+>
+>Gardez à l’esprit que les audiences Adobe Experience Platform sont calculées une fois par jour (**batch** audiences) ou en temps réel (**en flux continu** audiences, à l’aide de l’option Audiences haute fréquence de Adobe Experience Platform).
+>
+>Si l’audience sélectionnée est diffusée en continu, les individus appartenant à cette audience peuvent éventuellement entrer sur le parcours en temps réel. Si l’audience est par lot, les personnes nouvellement qualifiées pour cette audience peuvent éventuellement entrer dans le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
+>
+>Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une audience de lecture, une qualification d’audience ou une activité d’événement commercial.
+
+
+1. Développez l’objet **[!UICONTROL Événements]** catégorie et déposer un **[!UICONTROL Qualification de l’audience]** dans votre zone de travail.
+
+   ![](assets/segment5.png)
+
+1. Ajoutez un **[!UICONTROL libellé]** à l’activité. Cette étape est facultative.
+
+1. Cliquez sur dans le **[!UICONTROL Audience]** et sélectionnez les audiences à exploiter.
+
+   >[!NOTE]
+   >
+   >Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
+
+   ![](assets/segment6.png)
+
+   Une fois l’audience ajoutée, la variable **[!UICONTROL Copier]** permet de copier son nom et son identifiant :
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](assets/segment-copy.png)
+
+1. Dans le **[!UICONTROL Comportement]** , choisissez si vous souhaitez écouter les entrées de l’audience, les sorties ou les deux.
+
+   >[!NOTE]
+   >
+   >Notez que **[!UICONTROL Entrée]** et **[!UICONTROL Quitter]** correspondent au **Réalisé** et **Sortie** états de participation de l’audience à partir de Adobe Experience Platform. Pour plus d’informations sur l’évaluation d’une audience, reportez-vous à la section [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+
+1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé.
+
+   >[!NOTE]
+   >
+   >Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
+
+   ![](assets/segment7.png)
+
+La payload contient les informations contextuelles suivantes, utilisables dans des conditions et des actions :
+
+* le comportement (entrée, sortie)
+* l’horodatage de la qualification
+* l’identifiant de l’audience
+
+Lors de l’utilisation de l’éditeur d’expression dans une condition ou une action qui suit une **[!UICONTROL Qualification de l’audience]** , vous avez accès au **[!UICONTROL AudienceQualification]** noeud . Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
+
+Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
+
+![](assets/segment8.png)
+
+Un nouveau parcours contenant un événement de qualification de public est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
+
+## Bonnes pratiques {#best-practices-segments}
+
+Le **[!UICONTROL Qualification de l’audience]** activité permet l’entrée immédiate dans les parcours d’individus qualifiés ou disqualifiés d’une audience Adobe Experience Platform.
+
+La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, vous devez veiller à comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours.
+
+### Audiences par lots{#batch-speed-segment-qualification}
+
+Lors de l’utilisation de la qualification de l’audience pour une audience par lot, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre d’individus entrant (ou sortant) dans l’audience quotidiennement.
+
+De plus, si l’audience par lots est créée et utilisée immédiatement dans un parcours, le premier lot de calculs peut faire qu’un très grand nombre de personnes entrent dans le parcours.
+
+### Audiences diffusées en continu{#streamed-speed-segment-qualification}
+
+Lors de l’utilisation de la qualification de l’audience pour les audiences diffusées, le risque d’obtenir de grands pics d’entrées/sorties est moindre en raison de l’évaluation continue de l’audience. Néanmoins, si la définition de l’audience permet de qualifier un grand nombre de clients en même temps, il peut y avoir un pic.
+
+Pour plus d’informations sur la segmentation en flux continu, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr#api)
+
+### Éviter les surcharges{#overloads-speed-segment-qualification}
+
+Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal).
+
+N’utilisez pas dans une **[!UICONTROL Qualification de l’audience]** activité : audience par lot immédiatement après sa création. Il évitera le premier pic de calcul. Notez qu’un avertissement jaune s’affichera dans la zone de travail du parcours si vous êtes sur le point d’utiliser une audience qui n’a jamais été calculée.
+
+![](assets/segment-error.png)
+
+Mettez en place une règle de limitation pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger. Pour en savoir plus, consultez la [documentation de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}. Notez que la règle de limitation ne permet pas de nouvelle tentative. Si vous avez besoin d’effectuer une nouvelle tentative, vous devez utiliser un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les conditions ou les actions.
+
+Avant d’utiliser l’audience dans un parcours de production, évaluez toujours d’abord le volume d’individus qualifiés pour cette audience tous les jours. Pour ce faire, vous pouvez vérifier la variable **[!UICONTROL Audience]** , ouvrez l’audience, puis regardez le **[!UICONTROL Profils dans le temps]** graphique.
+
+![](assets/segment-overload.png)

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -205,7 +205,7 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
 >id="ac_preview_lp_profiles"
 >title="Prévisualiser et tester votre page de destination"
 >abstract="Une fois que vous avez défini les paramètres et le contenu de votre page de destination, vous pouvez utiliser des profils de test pour la prévisualiser."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=fr" text="Sélectionner des profils de test"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Sélectionner des profils de test"
 
 Une fois les paramètres et le contenu de votre page de destination définis, vous pouvez utiliser des profils de test pour la prévisualiser. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pourrez vérifier l’affichage de ce dernier dans la page de destination à l’aide des données de profil de test.
 
@@ -214,7 +214,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 >
 >Pour pouvoir tester des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**.
 >
->Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../segment/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT. Découvrez comment [créer des profils de test](../audience/creating-test-profiles.md).
 
 1. Dans l’interface de la page de destination, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour accéder à la sélection du profil de test.
 
