@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Utilisez le menu **[!UICONTROL Offres]** pour gérer et diffuser vos offres :
 * **[!UICONTROL Offres]** : créez vos offres personnalisées et de secours, puis accédez-y. Découvrez comment créer des [offres](../offer-library/creating-personalized-offers.md) et des [offres de secours](../offer-library/creating-fallback-offers.md).
 * **[!UICONTROL Collections]** : organisez vos offres en collections statiques et dynamiques. [En savoir plus](../offer-library/creating-collections.md).
 * **[!UICONTROL Décisions]** : créez et gérez des décisions pour diffuser vos offres. [En savoir plus](../offer-activities/create-offer-activities.md).
-* **[!UICONTROL Prise de décision par lots]** : découvrez comment diffuser les décisions d’offres à tous les profils d’un segment d’Adobe Experience Platform donné. [En savoir plus](../batch-delivery.md).
+* **[!UICONTROL Prise de décision par lots]**: Diffusez les décisions d’offre à tous les profils d’une audience Adobe Experience Platform donnée. [En savoir plus](../batch-delivery.md).
 * **[!UICONTROL Simulation]** : pour valider votre logique de prise de décision, vous pouvez simuler les offres qui seront diffusées à un profil de test pour un emplacement donné. [En savoir plus](../offer-activities/simulation.md).
 
 Utilisez le menu **[!UICONTROL Composants]** pour créer et gérer des composants nécessaires à la création d’offres et de décisions :

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 8b459f71852d031dc650b77725bdc693325cdb1d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 43%
 
 ---
 
@@ -67,15 +67,19 @@ Lors de l’utilisation des offres, les préférences de personnalisation ne son
 >
 >Les portées de décision utilisées dans les canaux [!DNL Journey Optimizer] créés répondent à cette exigence de la campagne ou du parcours auxquels ils appartiennent.
 
+1. Créez un [Audience Adobe Experience Platform](../audience/access-audiences.md) en utilisant la variable [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utiliser un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs qui ont consenti à la personnalisation.
 
+   ![](assets/perso-consent-od-audience.png)
 
-1. Créez un [Segment Adobe Experience Platform](../segment/about-segments.md) en utilisant un attribut de profil tel que : *« Concède à la personnalisation = Vrai »* pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
+1. Lors de la création d’un [décision](../offers/offer-activities/create-offer-activities.md), ajoutez une portée de décision et définissez une contrainte d’éligibilité basée sur cette audience pour chaque collection de critères d’évaluation contenant des offres personnalisées.
 
-1. Lors de la création d’une [décision](../offers/offer-activities/create-offer-activities.md), ajoutez une portée de décision et définissez une contrainte d’éligibilité basée sur ce segment pour chaque collection de critères d’évaluation contenant des offres personnalisées.
+   ![](assets/perso-consent-od-audience-decision.png)
 
 1. Créez une [offre de secours](../offers/offer-library/creating-fallback-offers.md) qui n’inclut pas de contenu personnalisé.
 
 1. [Attribuez](../offers/offer-activities/create-offer-activities.md#add-fallback) l’offre de secours non personnalisée à la décision.
+
+   ![](assets/perso-consent-od-audience-fallback.png)
 
 1. [Examinez et enregistrez](../offers/offer-activities/create-offer-activities.md#review) la décision.
 
@@ -89,3 +93,87 @@ Si un utilisateur ou une utilisatrice :
 >
 >Le consentement pour utiliser les données de profil dans la [modélisation des données](../offers/ranking/ai-models.md) n’est pas encore pris en charge dans [!DNL Journey Optimizer].
 
+## Dans l&#39;éditeur d&#39;expression
+
+<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+
+Le [Editeur d&#39;expression](../personalization/personalization-build-expressions.md) elle-même n’effectue aucune vérification ou application du consentement, car elle n’est pas impliquée dans la diffusion des messages.
+
+Cependant, l’utilisation de libellés de contrôle d’accès basés sur le droit permet de restreindre les champs pouvant être utilisés pour la personnalisation. Le [aperçu du message](../email/preview.md#preview-email) et [service de rendu des emails](../email/preview.md#email-rendering) masquera les champs identifiés avec des informations sensibles.
+
+>[!NOTE]
+>
+>En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC) dans [cette section](../administration/object-based-access.md).
+
+
+Dans [!DNL Journey Optimizer] dans les campagnes, la stratégie de consentement est appliquée comme suit :
+
+* Vous pouvez inclure des définitions de stratégie de consentement dans le cadre de la création de l’audience afin de vous assurer que l’audience sélectionnée pour la campagne a déjà été **profils filtrés qui ne correspondent pas aux critères de consentement**.
+
+* [!DNL Journey Optimizer] effectue une vérification générale du consentement au niveau du canal pour **s’assurer que les profils ont donné leur accord** pour recevoir les communications marketing sur le canal correspondant.
+
+  >[!NOTE]
+  >
+  >Le [!DNL Journey Optimizer] actuellement, l’objet campaign lui-même n’effectue aucune vérification supplémentaire de l’application de la stratégie de consentement.
+
+Pour appliquer manuellement le consentement à la personnalisation dans les campagnes, suivez l’une des options ci-dessous.
+
+### Utilisation du créateur de règles de segment
+
+Vous pouvez utiliser le créateur de règles de segment pour créer une audience contenant des profils d’exclusion.
+
+1. Créez un [Audience Adobe Experience Platform](../audience/access-audiences.md) en utilisant la variable [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
+
+   ![](assets/perso-consent-audience-build-rule.png)
+
+1. Sélectionnez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Non (opt-out)]** pour exclure les utilisateurs qui n’ont pas consenti à la personnalisation.
+
+   ![](assets/perso-consent-audience-no.png)
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+Vous pouvez désormais utiliser cette audience pour filtrer les profils qui n’ont pas donné leur consentement à la personnalisation de vos campagnes.
+
+### Utilisation d&#39;une activité de partage dans un workflow de composition
+
+Vous pouvez également ajouter une vérification du consentement de personnalisation à une audience en ajoutant une activité de partage à un workflow de composition.
+
+1. Créez une audience à l’aide du **[!UICONTROL Composer l’audience]** . [En savoir plus sur la création d’un workflow de composition](../audience/create-compositions.md)
+
+   ![](assets/perso-consent-audience-compose.png)
+
+1. Ajoutez l&#39;audience de départ à l&#39;aide du bouton dédié situé à droite.
+
+1. Cliquez sur l’icône + et sélectionnez **[!UICONTROL Partage]** pour créer une audience partagée. [En savoir plus sur l&#39;activité Partage](../audience/composition-canvas.md#split)
+
+   ![](assets/perso-consent-audience-split.png)
+
+1. Sélectionner **[!UICONTROL Partage d’attributs]** comme type de division dans le volet de droite.
+
+   ![](assets/perso-consent-audience-attribute-split.png)
+
+1. Cliquez sur l’icône en forme de crayon en regard de la propriété **[!UICONTROL Attribut]** pour afficher le champ **[!UICONTROL Sélection d’un attribut de profil]** fenêtre.
+
+1. Recherchez l’attribut de consentement de personnalisation (`profile.consents.personalize.content.val`) et sélectionnez-le.
+
+   ![](assets/perso-consent-audience-consent-attribute.png)
+
+1. **[!UICONTROL Chemin 1]** sera l’audience non personnalisée. Choisissez un libellé pertinent.
+
+1. Sélectionnez la valeur appropriée parmi celles-ci [list](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"}.
+
+   Dans ce cas, nous utiliserons `n` pour indiquer que les utilisateurs ne consentent pas à l’utilisation de leurs données à des fins de personnalisation.
+
+   ![](assets/perso-consent-audience-path-1-n.png)
+
+1. Vous pouvez créer un chemin d’accès distinct pour les autres valeurs de choix. Vous pouvez également choisir de supprimer les autres chemins et de les activer. **[!UICONTROL Autres profils]** pour inclure tous les autres profils qui n’avaient pas la valeur de choix de `n`.
+
+1. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Enregistrement de l’audience]** pour chaque chemin afin d&#39;enregistrer le résultat de votre workflow dans une nouvelle audience. Une audience sera enregistrée dans Adobe Experience Platform pour chaque chemin.
+
+1. Une fois terminé, publiez le workflow de composition.
+
+Vous pouvez désormais utiliser cette audience pour filtrer les profils qui n’ont pas donné leur consentement à la personnalisation de vos campagnes.
+
+>[!NOTE]
+>
+>Si vous créez une audience qui n&#39;a pas donné son consentement pour la personnalisation et que vous sélectionnez ensuite cette audience dans une campagne, les outils de personnalisation restent disponibles. Il appartient à vos utilisateurs marketing de comprendre que s’ils travaillent avec une audience qui ne doit pas recevoir de personnalisation, ils ne doivent pas utiliser d’outils de personnalisation.

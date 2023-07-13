@@ -8,10 +8,10 @@ role: User, Developer
 level: Experienced
 keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,7 @@ Cela est possible grâce aux éléments suivants :
 
 * **Actions personnalisées** : pour envoyer des informations à des systèmes externes, par exemple pour envoyer des e-mails par le biais d’une solution externe à l’aide des fonctionnalités d’orchestration de Journey Optimizer avec des informations de profil, des données d’audience et un contexte de parcours.
 
-Si vous utilisez des sources de données externes ou des actions personnalisées, il peut être judicieux de protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 2 000 instances/seconde pour les instances déclenchées par un segment.
+Si vous utilisez des sources de données externes ou des actions personnalisées, vous pouvez vouloir protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 2 000 instances/seconde pour les instances déclenchées par l’audience.
 
 Pour les actions personnalisées, les fonctionnalités de ralentissement existent au niveau du produit. Voir cette [page](../configuration/external-systems.md#capping).
 
@@ -37,7 +37,7 @@ Pour plus d’informations sur l’intégration aux systèmes externes, référe
 
 ## Mise en œuvre
 
-Pour les **parcours déclenchés par un segment**, vous pouvez définir le taux de limitation de votre activité Lecture de segment qui aura une incidence sur le débit des parcours.  [En savoir plus](../building-journeys/read-segment.md)
+Pour **parcours déclenchés par l’audience**, vous pouvez définir le taux de ralentissement de votre activité Lecture d’audience qui aura une incidence sur le débit des parcours.  [En savoir plus](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -45,9 +45,9 @@ Vous pouvez modifier cette valeur de 500 à 20 000 instances par seconde. Si v
 
 ![](assets/limit-throughput-2.png)
 
-Prenons un exemple de **parcours déclenché par un segment** s’exécutant avec une population de **10 000 profils** et envoyant des données à un système externe prenant en charge **100 requêtes/seconde**.
+Prenons un exemple de **parcours déclenchés par l’audience** travailler avec une population de **10 000 profils** et envoyer des données à un système externe prenant en charge **100 requêtes/seconde**.
 
-1. Vous pouvez définir votre Lecture de segment pour lire les profils avec un débit de 500 profils/seconde, ce qui signifie que la lecture de tous vos profils prendra 20 secondes. Lors de la seconde 1, vous lirez 500 d’entre eux, lors de la seconde 2, 500 de plus, etc.
+1. Vous pouvez définir votre audience de lecture pour lire les profils avec un débit de 500 profils par seconde, ce qui signifie que la lecture de tous vos profils prendra 20 secondes. Lors de la seconde 1, vous lirez 500 d’entre eux, lors de la seconde 2, 500 de plus, etc.
 
 1. Vous pouvez ensuite ajouter une activité de condition de « partage en pourcentage » avec un partage de 20 % afin d’avoir à chaque seconde 100 profils dans chaque branche.
 

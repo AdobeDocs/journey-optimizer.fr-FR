@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et un
 
 ![](assets/general-events.png)
 
-Lorsque vous déposez un événement métier, cela ajoute automatiquement une activité **Lecture de segment**. Pour plus d&#39;informations sur les événements métier, consultez [cette section](../event/about-events.md)
+Lorsque vous déposez un événement d’entreprise, il ajoute automatiquement une **Lecture d’audience** activité. Pour plus d&#39;informations sur les événements métier, consultez [cette section](../event/about-events.md)
 
 ## Écoute d&#39;événements au cours d&#39;une période spécifique {#events-specific-time}
 

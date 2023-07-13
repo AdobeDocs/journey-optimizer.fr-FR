@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: parcours, expression, éditeur, propriétés
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Voici quelques exemples d’utilisation :
 | | previousNodeName | Nom du nœud précédent | Nom de l’activité précédente (nœud) |
 | Erreurs | lastNodeUIDInError | Dernier identifiant de nœud en erreur | Identifiant de la dernière activité (nœud) en erreur |
 | | lastNodeNameInError | Nom du dernier nœud en erreur | Nom de la dernière activité (nœud) en erreur |
-| | lastNodeTypeInError | Dernier type de nœud en erreur | Type d’erreur de la dernière activité (nœud) en erreur. Types possibles :<ul><li>Événements : Événements, Réactions, QS (exemple : qualification de segment)</li><li>Contrôle de flux : Fin, Condition, Attente</li><li>Actions : Actions ACS, Saut, Action personnalisée</li></ul> |
+| | lastNodeTypeInError | Dernier type de nœud en erreur | Type d’erreur de la dernière activité (nœud) en erreur. Types possibles :<ul><li>Événements : Événements, Réactions, QS (exemple : Qualification de l’audience)</li><li>Contrôle de flux : Fin, Condition, Attente</li><li>Actions : Actions ACS, Saut, Action personnalisée</li></ul> |
 | | lastErrorCode | Dernier code d’erreur | Code d’erreur de la dernière activité (nœud) en erreur. Erreurs possibles : <ul><li>Codes d’erreur HTTP</li><li>limité</li><li>timedOut</li><li>erreur (exemple : par défaut en cas d’erreur inattendue. Ne devrait pas/extrêmement rarement se produire)</li></ul> |
 | | lastExecutedActionErrorCode | Code d’erreur de la dernière action exécutée | Code d’erreur de la dernière action en erreur |
 | | lastDataFetchErrorCode | Code d’erreur de la dernière récupération de données | Code d’erreur de la dernière récupération de données à partir des sources de données |

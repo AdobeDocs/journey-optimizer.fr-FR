@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 95%
 
 ---
 
@@ -76,13 +76,12 @@ Les attributs doivent être définis dans le schéma avant d&#39;être référen
 
 `{{profile.faxPhone.number}}`
 
-## Segments{#perso-segments}
+## Audiences{#perso-segments}
 
 Découvrez comment exploiter les attributs de profil dans des conditions dans [cette section](functions/helpers.md#if-function).
 
 >[!NOTE]
->Pour en savoir plus sur la segmentation et le service de segmentation, consultez [cette section](../segment/about-segments.md).
->
+>Pour en savoir plus sur le service de segmentation, reportez-vous à la section [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
 ## Offres {#offers-syntax}
 
@@ -165,7 +164,7 @@ Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre me
 
 >[!NOTE]
 >
->Dans l’éditeur d’expression, lorsque vous modifiez une URL personnalisée, les fonctions dʼassistance et l’appartenance à des segments sont désactivées pour des raisons de sécurité.
+>Dans l’éditeur d’expression, lorsque vous modifiez une URL personnalisée, les fonctions d’assistance et l’appartenance aux audiences sont désactivées pour des raisons de sécurité.
 >
 
 **Exemples d’adresses URL personnalisées**

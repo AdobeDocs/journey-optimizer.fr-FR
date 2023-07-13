@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -40,9 +40,9 @@ Voici les différents jeux de données disponibles :
 
 **Création de rapports**
 
-* _Création de rapports - Jeu de données d’événement de retour de message_ : logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et de segments. Les commentaires des FAI de messagerie sur les bounces sont également enregistrés dans ce jeu de données.
-* _Création de rapports - Jeu de données d’événement d’expérience de tracking e-mail_ : logs d’interaction pour le canal e-mail qui est utilisé à des fins de création de rapports et de segments. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans un e-mail (ouvertures, clics, etc.).
-* _Création de rapports - Jeu de données d’événement d’expérience de tracking push_ : logs d’interaction pour le canal push qui est utilisé à des fins de création de rapports et de segments. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans les notifications push.
+* _Création de rapports - Jeu de données d’événement de retour de message_ : logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les bounces sont également enregistrés dans ce jeu de données.
+* _Reporting - Jeu de données d’événement de suivi de messagerie_: Logs d’interaction pour le canal Email qui est utilisé à des fins de création de rapports et d’audience. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans un e-mail (ouvertures, clics, etc.).
+* _Reporting - Jeu de données d’événement de suivi push_: Logs d’interaction pour le canal Push utilisé à des fins de création de rapports et d’audience. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans les notifications push.
 * _Création de rapports - Événement d’étape de parcours_ : capture tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. Également essentiel pour la création de rapports dans Customer Journey Analytics pour l’analyse YoY. Associé à des métadonnées de parcours.
 * _Création de rapports - Parcours_ : jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours.
 * _Création de rapports - Cci_ : jeu de données d’événement de retour qui stocke les logs de diffusion pour les emails envoyés en copie (Cci). À utiliser à des fins de création de rapports.
@@ -88,7 +88,7 @@ En savoir plus sur la gouvernance des données et les libellés d’utilisation 
 
 ## Exemples et cas pratiques{#uc-datasets}
 
-Découvrez comment créer un schéma et un jeu de données et ingérer des données pour ajouter des profils de test dans Adobe Journey Optimizer dans [cet exemple de bout en bout](../segment/creating-test-profiles.md)
+Découvrez comment créer un schéma et un jeu de données et ingérer des données pour ajouter des profils de test dans Adobe Journey Optimizer dans [cet exemple de bout en bout](../audience/creating-test-profiles.md)
 
 Apprenez-en davantage sur la création d’un jeu de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}.
 

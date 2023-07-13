@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '3575'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* L’option **Forcer une reprise sur une périodicité** a été ajoutée dans les paramètres de planning de lecture de segment récurrent. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Le **Force une réentrée sur une période récurrente** a été ajoutée dans les paramètres récurrents de planification de l’audience de lecture. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administration**
 
@@ -176,7 +176,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>En tant qu’utilisateur de Journey Optimizer, vous pouvez désormais accéder aux alertes système par le biais de l’interface utilisateur afin d’être averti lorsque les parcours ne fonctionnent pas comme prévu. Vous pouvez afficher les alertes disponibles et vous y abonner. La première alerte disponible dans cette version vous avertit si une activité Lecture de segment n’a traité aucun profil pendant la période définie. D’autres informations seront disponibles maintenant que ce workflow est déverrouillé.</p>
+<p>En tant qu’utilisateur de Journey Optimizer, vous pouvez désormais accéder aux alertes système par le biais de l’interface utilisateur afin d’être averti lorsque les parcours ne fonctionnent pas comme prévu. Vous pouvez afficher les alertes disponibles et vous y abonner. La première alerte disponible dans cette version vous avertit si une activité Lecture d’audience n’a traité aucun profil pendant la période définie. D’autres informations seront disponibles maintenant que ce workflow est déverrouillé.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -196,7 +196,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 **Parcours**
 
 * Le **jeu de données d’entité** est désormais disponible en tant que jeu de données prêt à l’emploi dans Adobe Journey Optimizer. Ce jeu de données de recherche comprend des métadonnées pour enrichir les informations des jeux de données de tracking et de commentaires. Vous pourrez ainsi améliorer vos rapports et requêtes avec des données plus compréhensibles. [En savoir plus](../data/datasets-query-examples.md#entity-dataset)
-* Une nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification de segment) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
+* Une nouvelle barrière de sécurité a été ajoutée aux parcours unitaires (commençant par un événement ou une qualification d’audience) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -235,8 +235,8 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 ### Autres modifications{#sept-2022-other}
 
 * Le mode de parcours en rafale a été remplacé par le mode de diffusion rapide des campagnes. [En savoir plus](../push/create-push.md#rapid-delivery)
-* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par un segment Lecture, une qualification de segment ou une activité d’événement métier. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. [En savoir plus](../start/guardrails.md#expression-editor)
-* La limitation d’une heure pour les parcours de segment de lecture planifiés a été supprimée. Ces parcours peuvent désormais être exécutés sans délai.
+* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par une audience de lecture, une qualification d’audience ou une activité d’événement professionnel. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. [En savoir plus](../start/guardrails.md#expression-editor)
+* La limitation d’une heure pour les parcours d’audience de lecture programmée a été supprimée. Ces parcours peuvent désormais être exécutés sans délai.
 
 
 
@@ -254,7 +254,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur un segment spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
+<p>Utilisez les campagnes Journey Optimizer pour diffuser du contenu ponctuel à une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/346680">vidéo sur les fonctionnalités</a>.
 </td>
@@ -290,7 +290,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -374,7 +374,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des segments et des performances des offres.</p>
+<p>Vous pouvez désormais utiliser des systèmes de modèles d’optimisation personnalisés dans la gestion des décisions. Ce nouveau type de modèle permet d’optimiser et de personnaliser les offres en fonction des audiences et des performances des offres.</p>
 <p>L’utilisation des modèles d’IA d’optimisation personnalisés est actuellement limitée à certains utilisateurs et sera déployée dans tous les environnements dans une prochaine version.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../offers/ranking/personalized-optimization-model.md">documentation détaillée</a>.</p>
@@ -408,7 +408,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Gestion des décisions**
 
-* **Taille de l’audience** : un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’un segment ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’un segment ou d’une règle à une portée de décision.
+* **Taille de l’audience** - Un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’une audience ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’une audience ou d’une règle à une portée de décision.
 
 
 ## Version de juin 2022 {#june-2022-release}
@@ -477,7 +477,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -615,12 +615,12 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* **Lecture de segment** : les parcours de lecture de segment en une seule fois sont désormais mis à l’état Terminé 30 jours après l’exécution du parcours. Pour la lecture de segment planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-segment.md)
+* **Lecture d’audience** - Les parcours de lecture d’audience en une seule prise passent désormais à l’état Terminé 30 jours après l’exécution du parcours. Pour les audiences de lecture planifiées, il s’agit de 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-audience.md)
 * **Éditeur d’expression** : la fonction [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Administration**
 
-* **Mise à jour du tableau de bord d’utilisation des licences** : le tableau de bord d’utilisation des licences disponible dans l’interface utilisateur [!DNL Adobe Journey Optimizer] reflète désormais la valeur exacte de la richesse moyenne du profil **sous licence**. Une baisse de cette représentation de mesure s’affiche, ce qui signifie que la limite de licence est désormais correctement signalée. [En savoir plus](../segment/license-usage.md)
+* **Mise à jour du tableau de bord d’utilisation des licences** : le tableau de bord d’utilisation des licences disponible dans l’interface utilisateur [!DNL Adobe Journey Optimizer] reflète désormais la valeur exacte de la richesse moyenne du profil **sous licence**. Une baisse de cette représentation de mesure s’affiche, ce qui signifie que la limite de licence est désormais correctement signalée. [En savoir plus](../audience/license-usage.md)
 
 
 ## Version d&#39;avril 2022 {#april-2022-release}
@@ -673,7 +673,7 @@ En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer d
 **Gestion des décisions**
 
 * Vous pouvez désormais spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou par emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
-* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité Gestion des décisions pour tous les profils d’un segment donné en un seul appel. Le contenu de l’offre pour chaque profil du segment est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité de gestion de la décision pour tous les profils d’une audience donnée en un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -800,14 +800,14 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Parcours : amélioration apportée à la lecture de segment</strong><br/></th>
+<th><strong>Parcours - Amélioration de l’audience</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Lʼoption <strong>Lecture incrémentielle</strong> a été ajoutée aux activités <strong>Lecture de segment</strong> récurrentes. Cette option permet de cibler uniquement les individus qui sont entrés dans le segment depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres du segment.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentation détaillée</a>.
+<p>Le <strong>Lecture incrémentale</strong> a été ajoutée à l’option récurrente <strong>Lecture d’audience</strong> activités. Cette option permet de ne cibler que les individus entrés dans l'audience depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres de l’audience.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">documentation détaillée</a>.
 </td>
 </tr>
 </tbody>

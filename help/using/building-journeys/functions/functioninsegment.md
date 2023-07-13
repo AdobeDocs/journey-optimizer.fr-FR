@@ -7,32 +7,32 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, fonction, expression, parcours
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
 # inSegment {#inSegment}
 
-Vérifie si un individu appartient à un segment donné.
+Vérifie si un individu appartient à une audience donnée.
 
 >[!NOTE]
 >
->Vous pouvez récupérer jusqu’à 100 segments.
+>Vous pouvez récupérer jusqu’à 100 audiences.
 
-Le nom du segment doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression.
+Le nom de l’audience doit être une constante sous forme de chaîne. Il ne peut pas s’agir d’une référence de champ ni d’une expression.
 
-Les segments sont définis dans [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’éditeur d’expression fournit une liste des segments avec saisie semi-automatique .
+Les audiences sont définies dans la variable [Adobe Experience Platform](https://platform.adobe.com/audience/overview). L’éditeur d’expression fournit une liste d’audiences complétée automatiquement.
 
-Les segments peuvent posséder trois statuts :
+Les audiences peuvent avoir trois états :
 
-* existing : lʼentité reste dans le segment.
-* realized : lʼentité entre dans le segment.
-* exited : lʼentité quitte le segment.
+* existing : continue d’être dans l’audience.
+* réalisé : est en train de saisir l’audience.
+* exited : l’entité quitte l’audience.
 
-Seuls les individus présentant les statuts de participation **Réalisé** et **Existant** sont considérés comme membres du segment. Pour plus d&#39;informations sur l&#39;évaluation d&#39;un segment, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
+Seuls les individus dotés de la fonction **Réalisé** et **Existant** les états de participation de l’audience seront considérés comme des membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, reportez-vous à la section [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | Paramètre | Description | Type |
 |--- |--- |--- |
-| Segment | Nom du segment | `<string>` |
+| Segment | Nom de l’audience | `<string>` |
 
 ## Signature et type renvoyé
 
@@ -64,4 +64,4 @@ Renvoie une valeur booléenne.
 
 Explication :
 
-La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours figure dans le segment Adobe Experience Platform « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
+La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours fait partie de l’audience Adobe Experience Platform nommée &quot;men over 50&quot; (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.

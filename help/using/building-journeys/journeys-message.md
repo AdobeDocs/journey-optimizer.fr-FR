@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez également configurer des actions spécifiques pour vous envoyer des
 
 Pour ajouter un message dans un parcours, procédez comme suit :
 
-1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture de segment](read-segment.md).
+1. Commencez votre parcours par une [Événement](general-events.md) ou [Lecture d’audience](read-audience.md) activité.
 
 1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité **E-mail**, **In-app**, **SMS** ou **Push** dans la zone de travail.
 
@@ -115,6 +115,10 @@ Le modèle varie selon que vous parlez de notation ou de formation. La formation
 * Notation : application d&#39;un score à des profils individuels en fonction du modèle formé.
 
 Ces informations sont stockées avec le profil de l&#39;utilisateur et sont référencées lors de l&#39;exécution du parcours pour indiquer à Adobe Journey Optimizer quand envoyer votre message.
+
+>[!CAUTION]
+>
+>Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
 ### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 

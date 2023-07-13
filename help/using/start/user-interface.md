@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9d73848acb40d8cba703309c38f0af2b89806a6
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 65%
+source-wordcount: '869'
+ht-degree: 98%
 
 ---
 
 # Interface utilisateur {#cjm-user-interface}
 
-Pour accéder à  [!DNL Adobe Journey Optimizer], connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com) avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer].
+Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com) et naviguez jusqu’à [!DNL Journey Optimizer].
 
 Les concepts clés lors de la navigation dans l’interface utilisateur sont les mêmes que ceux d’Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target="_blank"}.
 
@@ -39,48 +39,27 @@ Utilisez les liens sur la gauche pour parcourir les fonctionnalités de [!DNL Jo
 
 Vous trouverez ci-dessous la liste complète des services et fonctionnalités disponibles dans la navigation de gauche et des liens vers la documentation associée.
 
-### Accueil {#left-nav-home}
+**Accueil**
 
-La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer.
+La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer. La liste **[!UICONTROL Récents]** fournit des raccourcis vers les événements et parcours récemment créés. Cette liste montre les dates et l&#39;état de leur création et de leur modification.
 
-La liste **[!UICONTROL Récents]** fournit des raccourcis vers les événements et parcours récemment créés. Cette liste montre les dates et l&#39;état de leur création et de leur modification.
+**[!UICONTROL GESTION DES PARCOURS]**
 
-Parcourez les cas pratiques internes au produit pour commencer à créer des ressources et des messages. [En savoir plus](#in-product-use-cases).
+* **[!UICONTROL Parcours]** : créez, configurez et orchestrez vos parcours clients. [En savoir plus](../building-journeys/journey-gs.md#jo-build)
 
-Utilisez les liens au bas de la page d’accueil pour savoir comment commencer par [!DNL Journey Optimizer]. [En savoir plus](#find-help-and-support).
+* **[!UICONTROL Pages de destination]** : créez, concevez, testez et publiez des pages de destination. [En savoir plus](../landing-pages/get-started-lp.md)
 
-### [!UICONTROL GESTION DES PARCOURS] {#left-nav-journey}
-
-Créez des campagnes et des parcours à partir de cette section.
-
-* **[!UICONTROL Campagnes]** - Créer, configurer et orchestrer des campagnes pour diffuser du contenu ponctuel vers une audience spécifique, à l’aide de divers canaux. [En savoir plus](../campaigns/get-started-with-campaigns.md).
-
-* **[!UICONTROL Parcours]** - Créez, configurez et orchestrez vos parcours client : combiner les activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes. [En savoir plus](../building-journeys/journey-gs.md#jo-build).
-
-* **[!UICONTROL Landing pages]** - Créer, concevoir, tester et publier des landing pages : envoyez à vos utilisateurs des liens vers des formulaires en ligne où ils peuvent s’inscrire ou se désinscrire de la réception de vos communications ou s’abonner à des services spécifiques. [En savoir plus](../landing-pages/get-started-lp.md)
-
-
-### [!UICONTROL GESTION DES DÉCISIONS] {#left-nav-offers}
-
-Créez des offres et des composants à partir de cette section.
+**[!UICONTROL GESTION DES DÉCISIONS]**
 
 * **[!UICONTROL Offres]** - Accédez à vos sources et jeux de données récents à partir de ce menu. Cette section vous permet de créer des offres. [En savoir plus](../offers/offer-library/creating-personalized-offers.md).
 
 * **[!UICONTROL Composants]** : créez des emplacements, des règles et des balises. [En savoir plus](../offers/offer-library/key-steps.md)
 
-### [!UICONTROL GESTION DE CONTENU] {#left-nav-content}
-
-Créez et gérez des contenus à partir de cette section.
+**[!UICONTROL GESTION DE CONTENU]**
 
 * **[!UICONTROL Ressources]** - [!DNL Adobe Experience Manager Assets Essentials] est un référentiel centralisé de ressources que vous pouvez utiliser pour renseigner vos messages. [En savoir plus](../email/assets-essentials.md)
 
-* **[!UICONTROL Modèles de contenu]** - Pour accélérer et améliorer le processus de conception, créez des modèles autonomes pour réutiliser facilement du contenu personnalisé dans les campagnes et les parcours Journey Optimizer. [En savoir plus](../email/content-templates.md).
-
-* **[!UICONTROL Fragments]** - Créer et gérer des fragments pour lisser le processus de conception des emails : précréer des blocs de contenu personnalisés qui peuvent être utilisés pour assembler rapidement les contenus d’email. [En savoir plus](../email/fragments.md)
-
-### [!UICONTROL GESTION DES DONNÉES] {#left-nav-data}
-
-Gérez vos données à partir de cette section.
+**[!UICONTROL GESTION DES DONNÉES]**
 
 * **[!UICONTROL Schémas]** - Utilisez Adobe Experience Platform pour créer et gérer des schémas de modèle de données d’expérience (XDM) dans une zone de travail visuelle interactive appelé Éditeur de schéma. [En savoir plus](../data/get-started-schemas.md)
 
@@ -88,65 +67,37 @@ Gérez vos données à partir de cette section.
 
 * **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus](../data/get-started-queries.md)
 
-* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target="_blank"}
+* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target="_blank"}.
 
-### [!UICONTROL CONNEXIONS] {#left-nav-connections}
+**[!UICONTROL CONNEXIONS]**
 
-Gérez vos connexions de données avec d’autres applications et clouds à partir de cette section.
+* **[!UICONTROL Sources]** : ce menu vous permet d’ingérer des données provenant de différentes sources (applications Adobe, espaces de stockage dans le cloud, bases de données, etc.). Vous pouvez structurer, étiqueter et améliorer les données entrantes. [En savoir plus](get-started-sources.md)
 
-* **[!UICONTROL Sources]** : ce menu vous permet d’ingérer des données provenant de différentes sources (applications Adobe, espaces de stockage dans le cloud, bases de données, etc.). Vous pouvez structurer, étiqueter et améliorer les données entrantes. [En savoir plus](get-started-sources.md).
+**[!UICONTROL CLIENT]**
 
-* **[!UICONTROL Destinations]** - Utilisez ce menu pour créer une connexion en direct avec les emplacements de stockage dans le cloud afin d’exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md)
+* **[!UICONTROL Audiences]** - Créez et gérez des définitions de segment Experience Platform et exploitez-les dans vos parcours. [En savoir plus](../audience/about-audiences.md)
 
-### [!UICONTROL CLIENT] {#left-nav-customers}
+* **[!UICONTROL Profils]** - Le profil client en temps réel offre une vue d&#39;ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. [En savoir plus](../audience/get-started-profiles.md)
 
-Gérez vos audiences et vos données de profil à partir de cette section.
+* **[!UICONTROL Identités]** - Le service d&#39;identités d&#39;Adobe Experience Platform gère l&#39;identification inter-appareils, inter-canaux et en temps quasi réel de vos clients, dans ce qu&#39;on appelle un graphique d&#39;identités dans Adobe Experience Platform. [En savoir plus](../audience/get-started-identity.md)
 
-* **[!UICONTROL Segments]** : créez et gérez des définitions de segment Experience Platform et exploitez-les dans vos parcours. [En savoir plus](../segment/about-segments.md).
+**[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Listes d&#39;abonnements]** - Dans [!DNL Journey Optimizer], les clients qui se sont inscrits à un service d’abonnement sont regroupés dans une liste d’abonnements. [En savoir plus](../landing-pages/subscription-list.md)
+* **[!UICONTROL Administration des parcours]** : ce menu permet de configurer les [événements](../event/about-events.md), les [sources de données](../datasource/about-data-sources.md) et les [actions](../action/action.md) à utiliser dans vos parcours.
 
-* **[!UICONTROL Profils]** - Le profil client en temps réel offre une vue d&#39;ensemble de chaque client en combinant des données issues de plusieurs canaux, notamment des données en ligne, hors ligne, CRM et tierces. [En savoir plus](../segment/get-started-profiles.md)
+* **[!UICONTROL Sandbox]** : Adobe Experience Platform fournit des sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l’évolution d’applications d’expérience digitale. [En savoir plus](../administration/sandboxes.md)
 
-* **[!UICONTROL Identités]** - Le service d&#39;identités d&#39;Adobe Experience Platform gère l&#39;identification inter-appareils, inter-canaux et en temps quasi réel de vos clients, dans ce qu&#39;on appelle un graphique d&#39;identités dans Adobe Experience Platform. [En savoir plus](../segment/get-started-identity.md)
-
-### [!UICONTROL CONFIDENTIALITÉ] {#left-nav-privacy}
-
-Contrôlez la gestion de la confidentialité et les demandes de cette section.
-
-* **[!UICONTROL Stratégies]** - Adobe Experience Platform vous permet d’étiqueter vos champs et de créer des actions marketing pour chaque canal. Vous pouvez ensuite définir une politique de gouvernance associée à une étiquette et à une action marketing. [En savoir plus](../action/action-privacy.md).
-
-* **[!UICONTROL Demandes]** - Les demandes de confidentialité sont gérées dans Adobe Experience Platform Privacy Service. Il fournit une API RESTful et une interface utilisateur pour vous aider à gérer les requêtes de données client. [En savoir plus](../privacy/requests.md).
-
-* **[!UICONTROL Audit]** - Accédez à cette section pour vérifier les journaux d’activité. [En savoir plus](../privacy/audit-logs.md).
-
-* **[!UICONTROL Assurance des données]** - Cette section vous permet de configurer et de planifier les opérations d’hygiène des données, en veillant à ce que vos enregistrements soient correctement conservés. [En savoir plus](../privacy/data-hygiene.md)
-
-### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
-
-* **[!UICONTROL Configurations]** - Utilisez ce menu pour configurer [Événements](../event/about-events.md), [Sources de données](../datasource/about-data-sources.md), et [Actions](../action/action.md) à utiliser dans vos parcours.
-
-  Vous pouvez également accéder au **Reporting** pour configurer les rapports pour l’expérimentation de campagnes. [En savoir plus](../campaigns/reporting-configuration.md).
-
-* **[!UICONTROL Règles]** - Utilisez cette section pour créer des règles de fréquence cross-canal afin de contrôler la fréquence à laquelle les utilisateurs reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/frequency-rules.md).
-
-* **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](../reports/alerts.md).
-
-* **[!UICONTROL Sandbox]** : Adobe Experience Platform fournit des sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l’évolution d’applications d’expérience digitale. Parcourez cette section pour gérer vos environnements de test. [En savoir plus](../administration/sandboxes.md).
-
-* **[!UICONTROL Canaux]** - Utilisez cette section pour configurer vos canaux, notamment les sous-domaines, les surfaces et les paramètres de délivrabilité. [En savoir plus](../configuration/get-started-configuration.md).
-
-* **[!UICONTROL Balises]** - Avec les balises unifiées, vous pouvez facilement classer vos parcours et campagnes pour améliorer la recherche à partir des listes. [En savoir plus](../start/search-filter-categorize.md#work-with-unified-tags)
+* **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
 ## Cas d’utilisation internes au produit {#in-product-uc}
 
-De [!DNL Adobe Journey Optimizer] page d’accueil, les cas d’utilisation de produits fournissent des entrées rapides pour créer des profils de test ou vos premiers parcours client.
+La page d’accueil d’[!DNL Adobe Journey Optimizer] propose des cas d’utilisation de produit, qui vous permettent de créer rapidement des parcours client.
 
 ![](assets/use-cases-home.png)
 
 Les cas d&#39;utilisation disponibles sont les suivants :
 
-* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas d’utilisation [sur cette page](../segment/creating-test-profiles.md#use-case-1).
+* **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas d’utilisation [sur cette page](../audience/creating-test-profiles.md#use-case-1).
 * **Envoyer un message d&#39;anniversaire aux clients** : pour envoyer automatiquement un e-mail afin de souhaiter un bon anniversaire à vos clients. (bientôt disponible)
 * **Envoyer des e-mails pour souhaiter la bienvenue aux nouveaux clients** : pour envoyer facilement jusqu&#39;à deux e-mails afin d&#39;accueillir vos nouveaux clients enregistrés. (bientôt disponible)
 * **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)
@@ -155,7 +106,7 @@ Pour en savoir plus sur un cas d’utilisation, cliquez sur le lien **[!UICONTRO
 
 Pour lancer le cas d’utilisation, cliquez sur le bouton **[!UICONTROL Commencer]**.
 
-Vous pouvez accéder aux cas d’utilisation exécutés à partir de la **[!UICONTROL Afficher la bibliothèque]** bouton .
+Vous pouvez accéder aux cas d&#39;utilisation exécutés à partir du bouton **[!UICONTROL Afficher la bibliothèque de cas d&#39;utilisation]**.
 
 ## Obtention d’aide et de support {#find-help}
 

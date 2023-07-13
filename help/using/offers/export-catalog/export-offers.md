@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -239,29 +239,29 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
-**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s&#39;agir d&#39;une règle ou d&#39;un ou plusieurs abonnements de segment.
+**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s’agir d’une règle ou d’un ou plusieurs appartenances à une audience.
 **Type :** chaîne 
 **Valeurs possibles :**
 * &quot;none&quot; (par défaut)
 * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée comme égale à true avant que l&#39;action contrainte ne soit autorisée. »
-* « anySegments » : « La contrainte de profil est exprimée sous la forme d’un ou de plusieurs segments et le profil doit être membre d’au moins l’un d’entre eux avant que l’action contrainte ne soit autorisée. »
-* « allSegments » : « La contrainte de profil est exprimée sous la forme d’un ou de plusieurs segments et le profil doit être membre de tous ces segments avant que l’action contrainte ne soit autorisée. »
+* &quot;anySegments&quot;: &quot;La contrainte de profil est exprimée en tant qu’une ou plusieurs audiences et le profil doit être membre d’au moins l’une d’elles avant que l’action contrainte ne soit autorisée.&quot;
+* &quot;allSegments&quot;: &quot;La contrainte de profil est exprimée en tant qu’une ou plusieurs audiences et le profil doit être membre de toutes celles-ci avant que l’action contrainte ne soit autorisée.&quot;
 * « rules » : « La contrainte de profil est exprimée sous la forme de plusieurs règles différentes (par exemple, l’éligibilité, l’applicabilité, l’adaptabilité), qui doivent toutes renvoyer true avant que l’action contrainte ne soit autorisée. »
 
 +++
 
 +++_experience > decisioning > profileConstraints > Segment Identifiers
 
-**Champ :** segmentIdentities
-**Titre :** Identifiants de segments
-**Description :** Identifiants des segments
-**Type :** tableau
+**Champ :** segmentIdentities
+**Titre :** Identifiants de segment
+**Description :** Identifiants des audiences
+**Type :** tableau
 
 * **Identifiant**
 
   **Champ :** _id
   **Titre :** identifiant
-  **Description :** Identité du segment dans l&#39;espace de noms connexe.
+  **Description :** Identité des audiences dans l’espace de noms associé.
   **Type :** chaîne
 
 * **Espace de noms**

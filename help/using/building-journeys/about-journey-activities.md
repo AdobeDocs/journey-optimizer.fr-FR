@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Les événements configurés par l’utilisateur ou l’utilisatrice technique (
 
 * [Événements généraux](../building-journeys/general-events.md)
 * [Réaction](../building-journeys/reaction-events.md)
-* [Qualification du segment](../building-journeys/segment-qualification-events.md)
+* [Qualification de l’audience](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 
 * [Condition](../building-journeys/condition-activity.md)
 * [Attente](../building-journeys/wait-activity.md)
-* [Lecture de segment](../building-journeys/read-segment.md)
+* [Lecture d’audience](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Voici les statuts possibles :
 
 Une fois la liste dʼabonnements créée, vous pouvez lʼutiliser dans une page de destination. Les profils inscrits par le biais du formulaire de la page de destination seront ajoutés à la liste. [En savoir plus](design-lp.md)
 
-Vous pouvez également utiliser les listes d’abonnements comme des segments lorsque vous [créez des parcours](../building-journeys/journey-gs.md#jo-build) et ajoutez de la personnalisation.
+Vous pouvez également utiliser des listes d’abonnements comme audiences lorsque [parcours de création](../building-journeys/journey-gs.md#jo-build) et l’ajout de la personnalisation.
 
 >[!NOTE]
 >

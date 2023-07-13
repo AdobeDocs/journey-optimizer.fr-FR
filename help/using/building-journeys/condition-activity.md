@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ Le mode simple vous permet d’exécuter des requêtes simples en fonction d’u
 
 ![](assets/journey64.png)
 
-Si vous utilisez le [Segmentation Service d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos segments, vous pouvez les exploiter dans vos conditions de parcours. Pour plus d&#39;informations, consultez la section [Utilisation de segments dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
+Si vous utilisez la variable [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} pour créer vos audiences, vous pouvez les exploiter dans vos conditions de parcours. Voir [Utilisation de l’audience dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ La limite de profils n’est pas prise en compte en mode test.
 
 ![](assets/profile-cap-condition.png)
 
-## Utilisation de segments dans des conditions {#using-a-segment}
+## Utilisation d’audiences dans des conditions {#using-a-segment}
 
-Cette section explique comment utiliser un segment dans une condition de parcours. Pour plus d’informations sur les segments et sur la manière de les créer, consultez [cette section](../segment/about-segments.md).
+Cette section explique comment utiliser une audience dans une condition de parcours. Pour plus d&#39;informations sur les audiences et leur création, reportez-vous à la section [cette section](../audience/about-audiences.md).
 
-Pour utiliser un segment dans une condition de parcours, procédez comme suit :
+Pour utiliser une audience dans une condition de parcours, procédez comme suit :
 
 1. Ouvrez un parcours, déposez une activité **[!UICONTROL Condition]** et choisissez la **condition de source de données**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ Pour utiliser un segment dans une condition de parcours, procédez comme suit :
 
    ![](assets/segment3.png)
 
-1. Sur le côté gauche, développez le nœud **[!UICONTROL Segments]**. Faites glisser et déposez le segment à utiliser pour votre condition. Par défaut, la condition sur le segment est &#39;true&#39;.
+1. Sur le côté gauche, développez **[!UICONTROL Audiences]** noeud . Faites glisser et déposez l’audience que vous souhaitez utiliser pour votre condition. Par défaut, la condition sur l’audience est vraie.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Notez que seuls les individus présentant les statuts de participation **Réalisé** et **Existant** sont considérés comme membres du segment. Pour plus d’informations sur l’évaluation d’un segment, consultez la [documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+   >Notez que seuls les individus dotés de la variable **Réalisé** et **Existant** les états de participation de l’audience seront considérés comme des membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, reportez-vous à la section [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.

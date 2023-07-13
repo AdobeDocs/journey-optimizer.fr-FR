@@ -5,13 +5,13 @@ title: Exporter des jeux de données vers des emplacements d’espace de stockag
 description: Découvrez comment exporter vos jeux de données à l’aide des destinations d’espace de stockage d’Adobe Experience Platform.
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
+badge: label="Version bêta" type="Informative"
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 95%
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Vérifiez les conditions préalables suivantes avant de commencer à exporter vo
 
 * Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions) **Gérer les destinations**, **Afficher les destinations**, **Activer des destinations**, et **Gérer et activer des destinations de jeu de données**. Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr) ou contactez votre administrateur de produit pour obtenir les autorisations requises.
 
-* Assurez-vous que le jeu de données que vous souhaitez exporter ne contient pas de données de deuxième génération. Cette fonctionnalité prend uniquement en charge l’exportation des données de première génération, c’est-à-dire les données brutes définies dans la [description du produit Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Les données de première génération incluent les jeux de données importés par l’intermédiaire de sources Adobe Experience Platform ou de jeux de données collectés à l’aide de solutions d’Adobe telles que Analytics Data Connector et les journaux/jeux de données de rapports Journey Optimizer.
+* Cette fonctionnalité prend uniquement en charge l’exportation des données de première génération, c’est-à-dire les données brutes définies dans la [description du produit Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Assurez-vous que le jeu de données que vous souhaitez exporter ne contient pas de données de deuxième génération.
 
 ## Étapes principales pour exporter des jeux de données {#main-steps}
 
@@ -70,7 +70,7 @@ Des informations détaillées sur chaque étape sont disponibles dans la documen
 
    >[!NOTE]
    >
-   >Si vous utilisez Adobe Journey Optimizer avec des profils client en temps réel, les cartes de destination affichent un bouton « Activer », ce qui vous permet d’exporter des jeux de données et d’activer des segments pour cette destination, en fonction des autorisations que vous avez activées.
+   >Si vous utilisez Adobe Journey Optimizer avec des profils client en temps réel, les cartes de destination affichent un bouton &quot;Activer&quot;, ce qui vous permet à la fois d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
 
 1. **Sélectionnez le ou les jeux de données** que vous souhaitez exporter vers la destination sélectionnée.
 

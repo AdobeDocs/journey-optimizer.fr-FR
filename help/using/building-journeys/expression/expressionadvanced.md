@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Cet écran vous permet d’entrer manuellement votre expression.
 La partie gauche de l’écran contient les champs et les fonctions disponibles :
 
 * **[!UICONTROL Événements]** : sélectionnez l’un des champs reçus de l’événement entrant. La liste des champs d’événement affichée est contextuelle et varie selon le(s) événement(s) ajouté(s) au parcours. [En savoir plus](../../event/about-events.md)
-* **[!UICONTROL Segments]** : si vous avez déposé un événement de **[!UICONTROL qualification de segment]**, choisissez le segment à utiliser dans votre expression. [En savoir plus](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Audiences]**: si vous avez déposé une **[!UICONTROL Qualification de l’audience]** , choisissez l’audience que vous souhaitez utiliser dans votre expression. [En savoir plus](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Sources de données]** : effectuez votre choix parmi la liste de champs disponibles à partir des groupes de champs de vos sources de données. [En savoir plus](../../datasource/about-data-sources.md)
 * **[!UICONTROL Propriétés du parcours]** : cette section regroupe les champs techniques liés au parcours pour un profil donné. [En savoir plus](journey-properties.md)
 * **[!UICONTROL Fonctions]** : effectuez votre choix parmi la liste de fonctions intégrées permettant d’effectuer un filtrage complexe. Les fonctions sont classées par catégories. [En savoir plus](functions.md)

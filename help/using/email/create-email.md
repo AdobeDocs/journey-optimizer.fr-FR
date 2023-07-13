@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-1. Suivez les étapes de création d’une campagne par e-mail, telles que les propriétés de la campagne, l’[audience](../segment/about-segments.md) et le [planning](../campaigns/create-campaign.md#schedule).
+1. Suivez les étapes de création d’une campagne par e-mail, telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 

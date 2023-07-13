@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: prévisualisation, contenu, e-mail, BAT, test, profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Pour détecter d&#39;éventuelles erreurs dans le contenu des e-mails ou les par
 >
 >Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages et envoyer des BAT.
 >
->Découvrez comment créer des profils de test dans [cette page](../segment/creating-test-profiles.md).
+>Découvrez comment créer des profils de test dans [cette page](../audience/creating-test-profiles.md).
 
 Pour tester le contenu de votre e-mail, vous devez :
 
@@ -52,7 +52,7 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=fr#email-rendering" text="Rendu des e-mails"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=fr#preview-email" text="Aperçu"
 
-Utilisez des [profils de test](../segment/creating-test-profiles.md) pour cibler des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis.
+Utilisez des [profils de test](../audience/creating-test-profiles.md) pour cibler des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis.
 
 Pour sélectionner des profils de test, procédez comme suit :
 
@@ -68,7 +68,7 @@ Pour sélectionner des profils de test, procédez comme suit :
 
    ![](assets/previewselect-namespace.png)
 
-   Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](../segment/get-started-identity.md).
+   Apprenez-en davantage sur les espaces de noms d&#39;identité d&#39;Adobe Experience Platform [dans cette section](../audience/get-started-identity.md).
 
    Dans l&#39;exemple ci-dessous, nous utiliserons l&#39;espace de noms **E-mail**.
 

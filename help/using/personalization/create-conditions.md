@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 88%
 
 ---
 
 # Utiliser des règles conditionnelles {#conditions}
 
-Les règles conditionnelles sont des ensembles de règles qui définissent le contenu à afficher dans vos messages, suivant différents critères tels que les attributs des profils, l’appartenance à un segment ou les événements contextuels.
+Les règles conditionnelles sont des ensembles de règles qui définissent le contenu à afficher dans vos messages, selon divers critères tels que les attributs des profils, l’appartenance à l’audience ou les événements contextuels.
 
 Les règles conditionnelles sont créées à l’aide de l’éditeur d’expression et peuvent être mémorisées si vous souhaitez les réutiliser dans vos contenus. [Découvrez comment enregistrer une règle conditionnelle dans la bibliothèque](#save)
 
@@ -56,17 +56,17 @@ Les principales étapes de création d’une règle conditionnelle sont les suiv
 
 1. Créez la règle conditionnelle selon vos besoins. Pour ce faire, glissez et déposez les attributs de votre choix depuis le menu de gauche vers la zone de travail, puis organisez-les.
 
-   Les étapes de combinaison des attributs dans la zone de travail sont similaires à l’expérience de création de segments. Pour plus d’informations sur l’utilisation de la zone de travail du créateur de règles, reportez-vous à [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#rule-builder-canvas).
+   Les étapes de combinaison des attributs dans la zone de travail sont similaires à l’expérience de création de définitions de segment. Pour plus d’informations sur l’utilisation de la zone de travail du créateur de règles, reportez-vous à [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    Les attributs sont organisés en trois onglets :
 
    * **[!UICONTROL Profile]** :
-      * **[!UICONTROL Appartenance au segment]** répertorie tous les attributs de segment (par exemple statut, version, etc.) pour le [Service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr),
+      * **[!UICONTROL Audiences]** répertorie tous les attributs d’audience (état, version, etc.) ; pour le [Service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr),
       * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [Schéma du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) défini dans Adobe Experience Platform.
    * **[!UICONTROL Contextuel]** : lorsque le message est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans cet onglet.
-   * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des segments créés dans [Service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+   * **[!UICONTROL Audiences]**: répertorie toutes les audiences générées à partir des définitions de segment créées dans [Service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 1. Une fois votre règle conditionnelle prête, vous pouvez l’ajouter à votre message pour créer du contenu dynamique. [Découvrez comment ajouter du contenu dynamique](dynamic-content.md)
 

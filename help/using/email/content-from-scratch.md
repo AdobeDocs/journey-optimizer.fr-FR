@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -98,7 +98,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Insérez des champs de personnalisation pour personnaliser votre contenu à partir des attributs de profil, des appartenances aux segments, des attributs contextuels, etc. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser votre contenu à partir des attributs de profil, des appartenances à l’audience, des attributs contextuels, etc. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

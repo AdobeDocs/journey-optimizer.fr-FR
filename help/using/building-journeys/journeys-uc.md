@@ -9,22 +9,22 @@ role: User
 level: Intermediate
 keywords: cas d’utilisation, multicanal, messages, parcours, canal, événements, notification push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 100%
+ht-degree: 74%
 
 ---
 
 # Cas d’utilisation : envoyer des messages multicanaux{#send-multi-channel-messages}
 
-Cette section présente un cas d&#39;utilisation qui combine une Lecture de segment, un événement, des événements de réaction et des e-mails/messages push.
+Cette section présente un cas pratique qui combine une audience de lecture, un événement, des événements de réaction et des messages électroniques/push.
 
 ![](assets/jo-uc1.png)
 
-## Description du cas d&#39;utilisation
+## Description du cas d’utilisation
 
-Dans ce cas d&#39;utilisation, nous souhaitons envoyer un premier message (email et push) à tous les clients appartenant à un segment spécifique.
+Dans ce cas pratique, nous souhaitons envoyer un premier message (email et push) à tous les clients appartenant à une audience spécifique.
 
 Sur la base de leur réaction au premier message, nous voulons envoyer des messages spécifiques.
 
@@ -36,20 +36,20 @@ Ensuite, nous attendons un achat et envoyons un message push pour remercier le c
 
 Pour que ce cas d&#39;utilisation fonctionne, vous devez configurer les éléments suivants :
 
-* un segment pour tous les clients qui habitent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
+* une audience pour tous les clients qui vivent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
 * un événement d&#39;achat
 
-### Création du segment
+### Création de l’audience
 
-Dans notre parcours, nous voulons utiliser un segment spécifique de clients. Tous les individus appartenant au segment rejoignent le parcours et suivent les différentes étapes. Dans notre exemple, nous avons besoin d&#39;un segment qui cible tous les clients qui vivent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
+Dans notre parcours, nous voulons exploiter une audience spécifique de clients. Tous les individus appartenant à l&#39;audience entrent dans le parcours et suivent les différentes étapes. Dans notre exemple, nous avons besoin d’une audience qui cible tous les clients vivant à Atlanta, San Francisco ou Seattle et nés après 1980.
 
-Pour plus d&#39;informations sur les segments, consultez cette [page](../segment/about-segments.md).
+Pour plus d&#39;informations sur les audiences, reportez-vous à cette section [page](../audience/about-audiences.md).
 
-1. Dans la section du menu CLIENT, sélectionnez **[!UICONTROL Segments]**.
+1. Dans la section du menu CLIENT , sélectionnez **[!UICONTROL Audiences]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Créer un segment]** situé en haut à droite de la liste de segments.
+1. Cliquez sur le bouton **[!UICONTROL Créer une audience]** qui se trouve en haut à droite de la liste des audiences.
 
-1. Dans le volet **[!UICONTROL Propriétés de segment]**, saisissez le nom du segment.
+1. Dans le **[!UICONTROL Propriétés d’audience]** , saisissez un nom pour l’audience.
 
 1. Réalisez un glisser-déposer dans les champs de votre choix depuis le volet de gauche vers l&#39;espace de travail central, puis configurez-les en fonction de vos besoins. Dans cet exemple, nous utilisons les champs d&#39;attributs **Ville** et **Année de naissance**.
 
@@ -57,7 +57,7 @@ Pour plus d&#39;informations sur les segments, consultez cette [page](../segment
 
    ![](assets/add-attributes.png)
 
-Le segment est maintenant configuré et prêt à être utilisé dans votre parcours. En utilisant une activité **Lecture de segment**, vous pouvez faire en sorte que tous les individus appartenant au segment rejoignent le parcours.
+L’audience est maintenant créée et prête à être utilisée dans votre parcours. Utilisation d’une **Lecture d’audience** activité, vous pouvez faire entrer dans le parcours toutes les personnes appartenant à l’audience.
 
 ### Configurer l&#39;événement
 
@@ -85,7 +85,7 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
 ## Concevoir le parcours
 
-1. Débutez le parcours avec une activité **Lecture de segment**. Sélectionnez le segment créé précédemment. Tous les individus appartenant au segment rejoignent le parcours.
+1. Commencez le parcours par un **Lecture d’audience** activité. Sélectionnez l&#39;audience créée précédemment. Tous les individus appartenant à l&#39;audience entrent dans le parcours.
 
    ![](assets/jo-uc4.png)
 
@@ -95,7 +95,7 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
 1. Placez votre curseur sur l’activité d’e-mail et cliquez sur le symbole «␣+␣» pour créer un nouveau chemin.
 
-1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L&#39;événement est déclenché lorsqu&#39;un individu appartenant au segment ouvre la version push du premier message.
+1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre la version push du premier message.
 
 1. Dans le second chemin, ajoutez un événement **Réaction** et sélectionnez **Email ouvert**. L&#39;événement est déclenché lorsque l&#39;individu ouvre l&#39;email.
 

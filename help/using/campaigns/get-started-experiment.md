@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ Les méthodes statistiques nous permettent de formaliser cette incertitude. L’
 
 +++Formulez de nouvelles hypothèses et effectuez des tests continuellement
 
-Pour obtenir de véritables informations d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, poursuivez les expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec différentes modifications, sur différents segments, et en examinant l’impact sur les différentes mesures.
+Pour obtenir de véritables informations d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, effectuez des expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec des modifications différentes, sur différentes audiences et en examinant l’impact sur les différentes mesures.
 +++
 
 ## Interprétation des résultats de vos expériences {#interpret-results}
@@ -172,7 +172,7 @@ Après avoir exécuté votre expérience, plusieurs actions de suivi sont possib
 
 * **Effectuer des analyses approfondies**
 
-  Le traitement qui fonctionne bien pour une audience peut parfois ne pas être le meilleur traitement pour une autre. Effectuer des analyses plus approfondies sur la manière dont les traitements se comportent pour différents segments permet de générer des idées pour de nouveaux tests.
+  Le traitement qui fonctionne bien pour une audience peut parfois ne pas être le meilleur traitement pour une autre. Effectuer des analyses plus approfondies sur la manière dont les traitements se comportent pour différents publics permet de générer des idées pour de nouveaux tests.
 
   De même, l’étude des performances de chaque traitement avec des mesures différentes peut également donner une vue plus complète de vos expériences.
 

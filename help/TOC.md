@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
       + [Réaction](using/building-journeys/reaction-events.md)
-      + [Qualification du segment](using/building-journeys/segment-qualification-events.md)
+      + [Qualification de l’audience](using/building-journeys/audience-qualification-events.md)
       + [Condition](using/building-journeys/condition-activity.md)
       + [Attente](using/building-journeys/wait-activity.md)
-      + [Lecture de segment](using/building-journeys/read-segment.md)
+      + [Lecture d&#39;audience](using/building-journeys/read-audience.md)
       + [E-mail, in-app, push, SMS](using/building-journeys/journeys-message.md)
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
       + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [Prise en main du contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
       + [Créer du contenu dynamique](using/personalization/dynamic-content.md)
-+ Segments, profils et identité{#segment}
-   + Segments {#segments}
-      + [Prise en main des segments](using/segment/about-segments.md)
-      + [Création de segments](using/segment/creating-a-segment.md)
++ Audiences, profils et identité{#audiences-profiles-identities}
+   + Audiences {#audiences}
+      + [Commencer avec les audiences](using/audience/about-audiences.md)
+      + [Création de définitions de segment](using/audience/creating-a-segment-definition.md)
    + Profils{#profiles}
-      + [Prise en main des profils](using/segment/get-started-profiles.md)
-      + [Créer des profils de test](using/segment/creating-test-profiles.md)
-   + [Identités](using/segment/get-started-identity.md)
+      + [Prise en main des profils](using/audience/get-started-profiles.md)
+      + [Créer des profils de test](using/audience/creating-test-profiles.md)
+   + [Identités](using/audience/get-started-identity.md)
    + Composer des audiences {#audience-orchestration}
-      + [Prise en main de la composition des audiences](using/segment/get-started-audience-orchestration.md)
-      + [Créer des workflows de composition](using/segment/create-compositions.md)
-      + [Utiliser la zone de travail de composition](using/segment/composition-canvas.md)
-      + [Accéder aux audiences et les gérer](using/segment/access-audiences.md)
-   + [Utilisation des licences](using/segment/license-usage.md)
+      + [Prise en main de la composition des audiences](using/audience/get-started-audience-orchestration.md)
+      + [Créer des workflows de composition](using/audience/create-compositions.md)
+      + [Utiliser la zone de travail de composition](using/audience/composition-canvas.md)
+      + [Accéder aux audiences et les gérer](using/audience/access-audiences.md)
+   + [Utilisation des licences](using/audience/license-usage.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
       + [Utiliser les politiques de consentement](using/action/consent.md)
    + [Gouvernance des données](using/action/action-privacy.md)
-   + [Configuration et gestion des clés gérées par le client](using/privacy/cmk.md)

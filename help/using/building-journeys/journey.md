@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 92%
 
 ---
 
@@ -22,13 +22,13 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
-* Envoyez des **diffusions unitaires** en temps réel déclenchées lorsqu’un événement est reçu ou **par lots** à l’aide de segments Adobe Experience Platform.
+* Envoyer en temps réel **diffusion unitaire** déclenché lorsqu’un événement est reçu, ou **dans le lot** à l’aide des audiences Adobe Experience Platform.
 
 * Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 
 * Utilisez les **actions intégrées** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
-* Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d’entrée ou une activité de lecture de segment, ajoutez des conditions et envoyez des messages personnalisés.
+* Avec le **Concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal
 
 Découvrez comment commencer et créer votre premier parcours sur [cette page](journey-gs.md).
 
-Le concepteur de parcours omnicanal vous permet de créer des parcours à plusieurs étapes, en ciblant spécifiquement les audiences et en incorporant des mises à jour basées sur les interactions client ou commerciales en temps réel. Il vous permet également de créer des messages omnicanaux dans une interface intuitive par glisser-déposer.
+Le concepteur de parcours omnicanaux dispose d’une interface intuitive par glisser-déposer, qui vous permet de créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur des interactions client ou commerciale en temps réel et des messages omnicanaux.
 
 ![](assets/journey38.png)
 

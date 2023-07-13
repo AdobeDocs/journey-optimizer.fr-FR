@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Contrairement aux événements unitaires, les événements métier ne sont pas liés à un profil spécifique. Le type d&#39;ID d&#39;événement est toujours basé sur des règles. Pour en savoir plus sur les événements métier, reportez-vous à [cette section](../event/about-events.md).
 
-Les parcours basés sur la lecture de segment peuvent être déclenchés en une seule fois, par un planificateur sur une base régulière ou par un événement métier, lorsque l&#39;événement se produit.
+Les parcours basés sur l’audience de lecture peuvent être déclenchés en une seule fois, de façon régulière par un planificateur ou par un événement d’entreprise, lorsque l’événement se produit.
 
 Les événements métier peuvent être « un produit est de nouveau en stock », « le cours des actions d&#39;une société a atteint une certaine valeur », etc.
 
@@ -39,12 +39,12 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 * Le schéma d&#39;événement doit contenir une identité principale non basée sur une personne. Les champs suivants doivent être sélectionnés lors de la définition de l&#39;événement : `_id` et `timestamp`
 * Les événements métier ne peuvent être placés que comme première étape d&#39;un parcours.
 * Lorsqu&#39;un événement métier est placé comme première étape d&#39;un parcours, le type de planificateur du parcours est « événement métier ».
-* Seule une activité de lecture de segment peut être placée après un événement métier. Elle est automatiquement ajoutée comme étape suivante.
+* Seule une activité d’audience de lecture peut être supprimée après un événement d’entreprise. Elle est automatiquement ajoutée comme étape suivante.
 * Pour autoriser plusieurs exécutions d&#39;événements métier, activez l&#39;option correspondante dans la section **[!UICONTROL Exécution]** des propriétés du parcours.
-* Une fois qu&#39;un événement métier est déclenché, l&#39;exportation du segment est retardée de 15 minutes à jusqu&#39;à une heure.
+* Une fois qu’un événement d’entreprise est déclenché, l’exportation de l’audience de 15 minutes à une heure est retardée.
 * Lors du test d&#39;un événement métier, vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. En outre, lorsque vous testez un parcours basé sur un événement métier, vous ne pouvez déclencher qu&#39;une seule entrée de profil. Consultez [cette section](../building-journeys/testing-the-journey.md#test-business). En mode test, aucun mode « Affichage du code » n&#39;est disponible.
 * Qu&#39;advient-il des personnes qui se trouvent actuellement dans le parcours si un nouvel événement métier se produit ? La même chose que lorsque des personnes se trouvent encore dans un parcours récurrent lorsqu&#39;une nouvelle récurrence se produit. Leur chemin est terminé. En conséquence, les spécialistes du marketing doivent veiller à ne pas créer de parcours trop longs s&#39;ils s&#39;attendent à des événements métier fréquents.
-* Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification de segment.
+* Les événements professionnels ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
 
 ## Plusieurs événements métier {#multiple-business-events}
 
@@ -54,9 +54,9 @@ Voici quelques remarques importantes qui s’appliquent lorsque plusieurs évén
 
 Les événements métier suivent les règles de rentrée de la même manière que les événements unitaires. Si un parcours permet une rentrée, l’événement métier suivant est traité.
 
-**Quelles sont les mécanismes de sécurisation permettant d’éviter la surcharge des segments matérialisés ?**
+**Quels sont les garde-fous pour éviter de surcharger des audiences matérialisées ?**
 
-Dans le cas d’événements métier unique, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de mécanisme de sécurisation. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+Dans le cas d’événements métier unique, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de mécanisme de sécurisation. En savoir plus sur les audiences dans [Documentation de Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 ## Prise en main des événements métier {#gs-business-events}
 

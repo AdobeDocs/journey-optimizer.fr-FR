@@ -1,11 +1,11 @@
 ---
 title: Diffuser des décisions par lots
-description: Découvrez comment diffuser les décisions d’offre à tous les profils d’un segment Adobe Experience Platform donné.
+description: Découvrez comment diffuser les décisions d’offre à tous les profils d’une audience Adobe Experience Platform donnée.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 ## Prise en main de la diffusion de décisions par lots {#start}
 
-Journey Optimizer vous permet de diffuser les décisions d’offre à tous les profils d’un segment Adobe Experience Platform donné.
+Journey Optimizer vous permet de diffuser les décisions d’offre à tous les profils d’une audience Adobe Experience Platform donnée.
 
-Pour ce faire, vous devez créer une demande de traitement dans Journey Optimizer qui contiendra des informations sur le segment à cibler et la décision d’offre à utiliser. Le contenu de l’offre pour chaque profil du segment est alors placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
+Pour ce faire, vous devez créer une requête de tâche dans Journey Optimizer qui contiendra des informations sur l’audience à cibler et la décision d’utilisation de l’offre. Le contenu de l’offre pour chaque profil de l’audience est ensuite placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
 
 La diffusion par lots peut également être effectuée à l’aide d’API. Voir à ce sujet la section [Documentation de l’API Batch Decisioning](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Avant de configurer une demande de traitement, assurez-vous d’avoir créé :
 
 * **Un jeu de données** dans Adobe Experience Platform. Ce jeu de données sera utilisé pour stocker le résultat de la décision à l’aide du schéma « ODE DecisionEvents ». Pour en savoir plus, consultez la [documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr).
 
-* **Un segment** dans Adobe Experience Platform. Le segment doit être évalué, puis mis à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à un segment dans la [documentation relative au service de segmentation](https://www.adobe.com/go/segmentation-overview-en_fr).
+* **Une audience** dans Adobe Experience Platform. L’audience doit être évaluée, puis mise à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à une audience dans le [Documentation de Segmentation Service](http://www.adobe.com/go/segmentation-overview-en_fr)
 
   >[!NOTE]
   >
-  >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l’instantané le plus récent. Patientez jusqu’à 24 heures après la création d’un segment avant d’essayer l’API de prise de décision par lots.
+  >Un traitement par lots s&#39;exécute hors de l&#39;instantané de profil qui se produit une fois par jour. La diffusion de décisions par lots limite la fréquence et charge toujours les profils à partir de l’instantané le plus récent. Patientez jusqu’à 24 heures après la création d’une audience avant d’essayer l’API de prise de décision par lots.
 
 * **Une décision** dans Adobe Journey Optimizer. [Découvrez comment créer une décision](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Pour créer une nouvelle demande de traitement, procédez comme suit.
 
 1. Attribuez un nom à votre demande de traitement, puis sélectionnez le jeu de données dans lequel les données de traitement doivent être envoyées.
 
-1. Sélectionnez le segment Adobe Experience Platform à cibler.
+1. Sélectionnez l’audience Adobe Experience Platform à cibler.
 
-1. Sélectionnez une ou plusieurs portées de décision d’offre à utiliser pour diffuser des offres au segment :
+1. Sélectionnez une ou plusieurs portées de décision d’offre à utiliser pour diffuser des offres à l’audience :
    1. Sélectionnez un emplacement dans la liste.
    1. Les décisions disponibles pour l’emplacement sélectionné s’affichent. Sélectionnez la décision de votre choix et cliquez sur **[!UICONTROL Ajouter]**.
    1. Répétez l’opération pour ajouter autant de portées de décision que vous le souhaitez.
@@ -93,11 +93,11 @@ Si une erreur se produit lors de l’exécution de la demande de traitement, cel
 
 La durée de bout en bout de chaque traitement par lots correspond à la durée entre le moment où la charge de travail est créée et le moment où le résultat de la décision est disponible dans le jeu de données de sortie.
 
-La taille du segment est le facteur principal qui a une incidence sur la durée de bout en bout de la décision par lots. Si la limitation de fréquence globale est activée pour l’offre éligible, la diffusion de décisions par lots prend plus de temps. Vous trouverez ci-dessous quelques approximations du temps de traitement de bout en bout pour leurs tailles de segment respectives, avec ou sans capping de la fréquence pour les offres éligibles :
+La taille de l’audience est le facteur principal qui affecte le temps de décision du lot de bout en bout. Si la limitation de fréquence globale est activée pour l’offre éligible, la diffusion de décisions par lots prend plus de temps. Vous trouverez ci-dessous quelques approximations du temps de traitement de bout en bout pour les tailles d’audience respectives, avec et sans limitation de fréquence pour les offres éligibles :
 
 Avec la limitation de fréquence activée pour les offres éligibles :
 
-| Taille du segment | Temps de traitement de bout en bout |
+| Taille de l’audience | Temps de traitement de bout en bout |
 |--------------|----------------------------|
 | 10 000 profils ou moins | 7 minutes |
 | 1 million de profils ou moins | 30 minutes |
@@ -105,7 +105,7 @@ Avec la limitation de fréquence activée pour les offres éligibles :
 
 Sans limitation de fréquence pour les offres éligibles :
 
-| Taille du segment | Temps de traitement de bout en bout |
+| Taille de l’audience | Temps de traitement de bout en bout |
 |--------------|----------------------------|
 | 10 000 profils ou moins | 6 minutes |
 | 1 million de profils ou moins | 8 minutes |

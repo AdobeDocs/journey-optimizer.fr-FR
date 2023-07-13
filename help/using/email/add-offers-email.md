@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
@@ -77,7 +77,7 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
 >[!NOTE]
 >
->Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages. Découvrez comment [créer un profil de test](../segment/creating-test-profiles.md).
+>Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages. Découvrez comment [créer un profil de test](../audience/creating-test-profiles.md).
 
 1. Sélectionnez les profils de test à utiliser pour prévisualiser l’offre :
 
@@ -85,7 +85,7 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
       >[!NOTE]
       >
-      >Dans cet exemple, nous utiliserons l’espace de noms **E-mail**. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../segment/get-started-identity.md).
+      >Dans cet exemple, nous utiliserons l’espace de noms **E-mail**. Apprenez-en davantage sur les espaces de noms d’identité d’Adobe Experience Platform [dans cette section](../audience/get-started-identity.md).
 
    1. Dans le champ **[!UICONTROL Valeur d&#39;identité]**, saisissez la valeur pour identifier le profil de test. Dans cet exemple, saisissez l&#39;adresse e-mail d&#39;un profil de test.
 
