@@ -38,7 +38,7 @@ Vous trouverez la liste de tous les rôles d’usine avec les autorisations attr
 
 Pour affecter une **[!UICONTROL Rôle]**:
 
-1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez le rôle souhaité.
+1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez au **[!UICONTROL Rôles]** et sélectionnez le rôle souhaité.
 
    ![](assets/do-not-localize/access_control_2.png)
 
@@ -68,7 +68,7 @@ Dans cet exemple, nous allons ajouter **[!UICONTROL Autorisations]** associé au
 
 Notez que si vous modifiez une **[!UICONTROL Rôle]**, cela aura un impact sur chaque utilisateur affecté à cette tâche. **[!UICONTROL Rôle]**.
 
-1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez au **[!UICONTROL Rôles]** et sélectionnez le rôle de votre choix. Ici, la visionneuse de Parcours **[!UICONTROL Rôle]**.
+1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez le rôle de votre choix. Ici, la visionneuse de Parcours **[!UICONTROL Rôle]**.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. À partir de **[!UICONTROL Rôle]** tableau de bord, cliquez sur **[!UICONTROL Modifier]**.

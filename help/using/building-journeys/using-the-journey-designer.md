@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
 workflow-type: tm+mt
 source-wordcount: '1642'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -69,11 +69,11 @@ Lorsque vous concevez votre parcours, la première question que vous devez vous 
 
 1. **Débuter avec un événement** : lorsqu&#39;un parcours est prêt à écouter les événements, les individus rejoignent le parcours **de façon unitaire** en temps réel. Les messages inclus dans votre parcours sont envoyés à la personne qui arrive actuellement dans le parcours. [En savoir plus sur les événements](../event/about-events.md)
 
-1. **Débuter avec une Lecture de segment** : vous pouvez définir votre parcours pour écouter les segments Adobe Experience Platform. Dans ce cas, tous les individus appartenant au segment spécifié rejoignent le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant au segment. [En savoir plus sur la lecture de segments](read-segment.md).
+1. **Commencer avec une audience de lecture**: vous pouvez définir votre parcours pour écouter les audiences Adobe Experience Platform. Dans ce cas, toutes les personnes appartenant à l’audience spécifiée entrent dans le parcours. Les messages inclus dans votre parcours sont envoyés aux individus appartenant à l&#39;audience. En savoir plus sur [audience de lecture](read-audience.md).
 
 ## Définir les étapes suivantes{#define-next-steps}
 
-Après votre premier événement ou votre première lecture de segment, vous pouvez combiner les différentes activités afin de créer vos scénarios cross-canal en plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
+Après votre premier événement ou les audiences de lecture, vous pouvez combiner les différentes activités pour créer vos scénarios cross-canal à plusieurs étapes. Choisissez, dans la palette, les étapes dont vous avez besoin.
 
 ### Événements{#jo-event}
 
@@ -85,13 +85,13 @@ Vous pouvez ajouter **plusieurs événements** dans votre parcours, à condition
 
 Vous pouvez également ajouter un événement de **réaction** après un message pour réagir aux données de suivi liées au message. Cela vous permet, par exemple, d&#39;envoyer un autre message si l&#39;individu a ouvert le message précédent ou cliqué dessus. [En savoir plus sur les événements de réaction](reaction-events.md).
 
-Utilisez l’activité d’événement **Qualification de segment** pour faire en sorte que des individus rejoignent un parcours ou y progressent en fonction des entrées et des sorties de segments Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](segment-qualification-events.md).
+Utilisation **Qualification de l’audience** activité d’événement pour faire entrer ou avancer des individus dans un parcours en fonction des entrées et des sorties d’audience Adobe Experience Platform. Vous pouvez faire en sorte que tous les nouveaux clients Silver rejoignent un parcours et envoyer des messages personnalisés. En savoir plus dans cette [section](audience-qualification-events.md).
 
 ### Orchestration{#jo-orch}
 
 Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours.
 
-Dans les activités d’orchestration, vous trouverez l’activité **Lecture de segment** qui vous permet de définir votre parcours pour écouter un segment Adobe Experience Platform. [En savoir plus sur l&#39;activité Lecture de segment](read-segment.md).
+Dans les activités d’orchestration, utilisez la méthode **Lecture d’audience** pour définir votre parcours d’écoute d’une audience Adobe Experience Platform. [En savoir plus sur l’activité Lecture d’audience](read-audience.md).
 
 Les autres activités vous permettent d&#39;ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d&#39;attente avant l&#39;exécution de l&#39;activité suivante, ou de terminer votre parcours. [En savoir plus sur les activités d’orchestration](about-journey-activities.md#orchestration-activities).
 
