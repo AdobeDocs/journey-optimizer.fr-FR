@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2e3335372dca8c344773eaf365e8f90589ecfd7e
+source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
 workflow-type: tm+mt
 source-wordcount: '2591'
 ht-degree: 93%
@@ -34,7 +34,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer des workflows de composition afin de combiner les audiences Adobe Experience Platform existantes dans un canevas visuel et d’exploiter diverses activités (fractionner, enrichir...) pour créer de nouvelles audiences. Les audiences nouvellement créées sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans les campagnes Journey Optimizer pour cibler les clients.</p>
+<p>Vous pouvez désormais créer des workflows de composition afin de combiner les audiences Adobe Experience Platform existantes dans un canevas visuel et d’exploiter diverses activités (fractionner, enrichir...) pour créer de nouvelles audiences. Les audiences nouvellement créées sont réenregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans les campagnes Journey Optimizer pour cibler les clients.</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>Pour plus d’informations, consultez la <a href="../audience/get-started-audience-orchestration.md">documentation détaillée</a>.</p>
 </td>
