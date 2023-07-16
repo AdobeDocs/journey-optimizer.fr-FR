@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 92%

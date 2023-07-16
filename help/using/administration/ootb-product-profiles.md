@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1133'
 ht-degree: 95%
 
 ---
@@ -29,7 +29,7 @@ Ce rôle inclut les autorisations suivantes :
 | Campagnes | <ul><li> **[!DNL Manage campaigns]** : lisez, créez, modifiez et supprimez des campagnes.</li><li>**[!DNL Publish campaigns]** : publiez les campagnes.</li><li>**[!DNL View campaigns report]** : lisez et modifiez le rapport des campagnes.</li></ul> |
 | Configurations de canal | <ul><li>**[!DNL Manage subdomains delegation]** : la lecture, la création, la modification et la suppression de la délégation de sous-domaine.</li><li>**[!DNL Manage IP pools]** : la lecture, la création, la modification et la suppression du groupe dʼadresses IP.</li><li>**[!DNL Manage PTR records]** : lire et modifier les enregistrements PTR.</li><li>**[!DNL View PTR records]** : accès en lecture seule aux enregistrements PTR.</li><li> **[!DNL Manage messages general settings]** : la lecture, la création, la modification et la suppression des paramètres généraux du message.</li><li>**[!DNL Manage messages presets]** : la lecture, la création, la modification et la suppression du branding de contenu.</li><li>**[!DNL Manage suppression rules]** : accès à la lecture, la création, la modification et la suppression des règles de suppression.</li><li>**[!DNL Export suppression list]** : accédez à la liste de suppression des exportations au format CSV.</li><li>**[!DNL View suppression list]** : la lecture et lʼexportation de la liste de suppression locale.</li><li>**[!DNL Manage alerts]** : activez/désactivez les alertes pour les campagnes, les messages et les droits.</li><li>**[!DNL Manage landing page settings]** : lisez, créez, modifiez et la supprimez les paramètres de la page de destination.</li><li>**[!DNL Manage SMS settings]** : lisez, créez, modifiez et supprimez des paramètres des SMS.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : la lecture, la création, la modification et la suppression des décisions.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des stratégies de classement.</li></ul> |
-| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]** : octroi de lʼaccès aux sandbox.</li><li>**[!DNL Manage segments]**: lire, créer, modifier et supprimer des définitions de segment. <li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Read Identity namespace]** : accès en lecture seule à lʼespace de noms d’identité.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]** : octroi de lʼaccès aux sandbox.</li><li>**[!DNL Manage segments]**: lire, créer, modifier et supprimer des définitions de segment.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Read Identity namespace]** : accès en lecture seule à lʼespace de noms d’identité.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
@@ -40,7 +40,7 @@ Le rôle **[!DNL Campaign Approver]** permet aux utilisateurs et utilisatrices d
 | Campagnes | <ul><li>**[!DNL Manage campaigns]** : lisez, créez, modifiez et supprimez des campagnes.</li><li>**[!DNL Publish campaigns]** : publiez des campagnes.</li><li>**[!DNL View Campaigns report]** : la lecture et la modification des rapports de parcours.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et lʼutilisation des fonctions dʼaction.</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**: lire, créer, modifier et supprimer des définitions de segment.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |
-| Administration | <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul> |
+| Configurations de canal | <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul> |
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
@@ -53,7 +53,7 @@ Ce rôle inclut les autorisations suivantes :
 | Campagnes | <ul><li>**[!DNL Manage campaigns]** : lire, créer, modifier et supprimer des campagnes.</li><li>**[!DNL View campaigns report]** : lecture et modification du rapport de parcours.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression de rapports de messages personnalisés et lʼutilisation des fonctions dʼaction.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: lire, créer, modifier et supprimer des définitions de segment.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |
-| Administration | <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul> |
+| Configurations de canal | <ul><li>**[!DNL View messages presets]** : accès en lecture seule aux préréglages des messages.</li></ul> |
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
@@ -94,7 +94,7 @@ Ce rôle inclut les autorisations suivantes :
 | Parcours | <ul><li>**[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours.</li><li>**[!DNL Publish journey]** : la publication des parcours.</li><li>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : la lecture et la modification des rapports de parcours.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**: lire, créer, modifier et supprimer des définitions de segment.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |
-| Administration | <ul><li>**[!DNL View channel surfaces]** : accès en lecture seule aux surfaces des canaux.</li></ul> |
+| Configurations de canal | <ul><li>**[!DNL View channel surfaces]** : accès en lecture seule aux surfaces des canaux.</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -107,7 +107,7 @@ Ce rôle inclut les autorisations suivantes :
 | Parcours | <ul><li>**[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours.</li><li>**[!DNL View journeys events]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</li><li>**[!DNL View journeys report]** : lecture et modification du rapport de parcours.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: lire, créer, modifier et supprimer des définitions de segment.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |
-| Administration | <ul><li>**[!DNL View channel surfaces]** : accès en lecture seule aux surfaces des canaux.</li></ul> |
+| Configurations de canal | <ul><li>**[!DNL View channel surfaces]** : accès en lecture seule aux surfaces des canaux.</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

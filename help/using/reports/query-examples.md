@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1471'
 ht-degree: 88%
 
 ---
@@ -26,6 +26,10 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
 * instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
 * profileID : l’identité du profil correspondant à l’espace de nommage du parcours.
+
+>[!NOTE]
+>
+>À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID au lieu de journeyVersionName lors de l’interrogation de parcours.
 
 ## Cas d’utilisation de base/requêtes courantes {#common-queries}
 

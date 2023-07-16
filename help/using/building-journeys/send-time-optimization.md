@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
-source-wordcount: '490'
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+workflow-type: tm+mt
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
@@ -37,10 +37,6 @@ Le modèle varie selon que vous parlez de notation ou de formation. La formation
 * Notation : application d&#39;un score à des profils individuels en fonction du modèle formé.
 
 Ces informations sont stockées avec le profil de l&#39;utilisateur et sont référencées lors de l&#39;exécution du parcours pour indiquer à Adobe Journey Optimizer quand envoyer votre message.
-
->[!CAUTION]
->
->Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
 ## Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 

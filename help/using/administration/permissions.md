@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produit, profils, sandbox
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -38,7 +38,7 @@ Vous trouverez la liste de tous les rôles d’usine avec les autorisations attr
 
 Pour affecter une **[!UICONTROL Rôle]**:
 
-1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez au **[!UICONTROL Rôles]** et sélectionnez le rôle souhaité.
+1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez le rôle souhaité.
 
    ![](assets/do-not-localize/access_control_2.png)
 
@@ -97,7 +97,7 @@ Dans cet exemple, nous allons créer un rôle nommé **Parcours en lecture seule
 
 Pour créer notre **Parcours en lecture seule** **[!UICONTROL Rôle]**:
 
-1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez au **[!UICONTROL Rôles]** et cliquez sur **[!UICONTROL Création d’un rôle]**.
+1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et cliquez sur **[!UICONTROL Création d’un rôle]**.
 
    ![](assets/do-not-localize/access_control_9.png)
 
@@ -109,7 +109,7 @@ Pour créer notre **Parcours en lecture seule** **[!UICONTROL Rôle]**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Choisissez entre les différentes fonctionnalités telles que **[!DNL Journeys]**, **[!DNL Segments]**<!--CHECK--> ou **[!DNL Decision management]** disponibles dans [!DNL Journey Optimizer] dans le menu de gauche.
+1. Effectuez une sélection parmi les différentes ressources telles que **[!DNL Journeys]**, **[!DNL Segments]** ou **[!DNL Decision management]** disponible dans [!DNL Journey Optimizer] répertorié dans le menu de gauche.
 
    Ici, sélectionnez la variable **[!UICONTROL Parcours]** ressource.
 

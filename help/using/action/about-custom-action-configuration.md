@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -39,8 +39,8 @@ Notez également qu’un format spécifique est attendu pour les paramètres d�
 
 Dans Journey Optimizer, vous pouvez appliquer des politiques de gouvernance des données et de consentement à vos actions personnalisées, afin d’empêcher l’exportation de champs spécifiques vers des systèmes tiers ou d’exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS. Pour plus d’informations, consultez les pages suivantes :
 
-* [Gouvernance des données](../action/action.md).
-* [Consentement](../action/action.md).
+* [Gouvernance des données](../action/action-privacy.md).
+* [Consentement](../action/action-privacy.md).
 
 
 ## Étapes de configuration {#configuration-steps}

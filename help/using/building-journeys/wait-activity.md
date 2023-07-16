@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
-source-wordcount: '349'
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+workflow-type: tm+mt
+source-wordcount: '350'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 >title="Activité d&#39;attente"
 >abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisation."
 
-Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Trois options sont disponibles :
+Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité **[!UICONTROL Attente]**. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Les options disponibles sont les suivantes :
 
 * [Durée](#duration)
 * [Valeur](#custom) personnalisée

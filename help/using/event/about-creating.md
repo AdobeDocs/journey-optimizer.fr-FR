@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
-source-wordcount: '1573'
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+workflow-type: tm+mt
+source-wordcount: '1623'
 ht-degree: 100%
 
 ---
@@ -69,6 +69,8 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
    >[!NOTE]
    >
    >L&#39;éditeur d&#39;expression avancé n&#39;est pas disponible lors de la définition de la **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles ; ils dépendent du type de données. Par exemple, pour un type de chaîne de champ, vous pouvez utiliser « contient » ou « égal à ».
+   >
+   >Si vous modifiez votre schéma avec de nouvelles valeurs d’énumération après avoir créé l’événement, vous devez suivre les étapes suivantes pour appliquer les modifications à l’événement existant : désélectionnez le champ d’énumération des champs de l’événement, confirmez la sélection, puis sélectionnez à nouveau le champ d’énumération. La nouvelle valeur d’énumération s’affiche maintenant.
 
 1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l&#39;ajout d&#39;un espace de noms permet d&#39;exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l&#39;événement. Consultez [cette section](../event/about-creating.md#select-the-namespace).
 
