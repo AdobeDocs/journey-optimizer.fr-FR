@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 >title="Rapport global sur les pages de destination"
 >abstract="Le rapport global sur les pages de destination vous permet de mesurer l’efficacité de vos pages de destination au cours d’une période donnée. Le rapport se compose de plusieurs widgets présentant le succès et les erreurs de vos pages de destination. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
-Les rapports globaux, accessibles à partir de l’onglet Temps passé , affichent les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. En comparaison, les rapports en direct se concentrent sur les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimum de deux minutes à partir de l’occurrence de l’événement.
+Les rapports globaux, accessibles à partir de l’onglet À toute heure, affichent les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. En comparaison, les rapports dynamiques portent sur les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement.
 
 Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la page de destination sélectionnée.
 
