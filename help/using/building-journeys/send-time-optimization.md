@@ -10,7 +10,7 @@ level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
