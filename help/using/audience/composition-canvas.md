@@ -12,7 +12,7 @@ badge: label="Version bêta" type="Informative"
 source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -118,7 +118,7 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Activité d’enrichissement"
->abstract="Utilisez l’activité Enrichissement pour enrichir votre audience avec des attributs supplémentaires provenant de jeux de données Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations sur le produit acheté (comme le nom, le prix ou l’identifiant de fabricant) afin de personnaliser les diffusions envoyées à l’audience."
+>abstract="Utilisez l’activité Enrichir pour enrichir votre audience avec des attributs supplémentaires provenant de jeux de données d’Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations sur le produit acheté (comme le nom, le prix ou l’identifiant de fabricant) afin de personnaliser les diffusions envoyées à l’audience."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"

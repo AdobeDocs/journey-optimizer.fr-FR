@@ -20,10 +20,10 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Ajout d’un pré-titre"
->abstract="Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase."
+>title="Ajouter un pré-en-tête"
+>abstract="Un pré-en-tête est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase."
 
-Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre client de messagerie.
+Un pré-en-tête est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie.
 
 Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase.
 
