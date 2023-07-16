@@ -41,7 +41,7 @@ Vous trouverez ci-dessous la liste complète des services et fonctionnalités di
 
 **Accueil**
 
-La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer. La liste **[!UICONTROL Récents]** fournit des raccourcis vers les événements et parcours récemment créés. Cette liste montre les dates et l&#39;état de leur création et de leur modification.
+La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressources clés pour commencer. La liste **[!UICONTROL Récents]** fournit des raccourcis vers les événements et parcours récemment créés. Cette liste montre les dates et le statut de leur création et de leur modification.
 
 **[!UICONTROL GESTION DES PARCOURS]**
 
@@ -71,7 +71,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 **[!UICONTROL CONNEXIONS]**
 
-* **[!UICONTROL Sources]** : ce menu vous permet d’ingérer des données provenant de différentes sources (applications Adobe, espaces de stockage dans le cloud, bases de données, etc.). Vous pouvez structurer, étiqueter et améliorer les données entrantes. [En savoir plus](get-started-sources.md)
+* **[!UICONTROL Sources]** : ce menu vous permet d’ingérer des données provenant de différentes sources (applications Adobe, espaces de stockage dans le cloud, bases de données, etc.). Vous pouvez structurer, étiqueter et améliorer les données entrantes. [En savoir plus](get-started-sources.md).
 
 **[!UICONTROL CLIENT]**
 
@@ -85,7 +85,7 @@ La page d&#39;accueil [!DNL Journey Optimizer] contient des liens et des ressour
 
 * **[!UICONTROL Administration des parcours]** : ce menu permet de configurer les [événements](../event/about-events.md), les [sources de données](../datasource/about-data-sources.md) et les [actions](../action/action.md) à utiliser dans vos parcours.
 
-* **[!UICONTROL Sandbox]** : Adobe Experience Platform fournit des sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l’évolution d’applications d’expérience digitale. [En savoir plus](../administration/sandboxes.md)
+* **[!UICONTROL Sandbox]** : Adobe Experience Platform fournit des sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l’évolution d’applications d’expérience digitale. [En savoir plus](../administration/sandboxes.md).
 
 * **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
