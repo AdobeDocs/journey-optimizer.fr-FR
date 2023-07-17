@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Version bêta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 88%
+source-wordcount: '169'
+ht-degree: 71%
 
 ---
 
 # Accéder aux audiences et les gérer {#access-manage-audiences}
+
+>[!BEGINSHADEBOX]
+
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 Les audiences résultant de la composition de l’audience sont accessibles à partir de la **[!UICONTROL Parcourir]** dans le **[!UICONTROL Audiences]** .
 

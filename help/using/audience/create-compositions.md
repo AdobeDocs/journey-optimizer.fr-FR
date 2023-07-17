@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Version bêta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 97%
+source-wordcount: '410'
+ht-degree: 90%
 
 ---
 
 # Créer votre premier workflow de composition {#create-compositions}
+
+>[!BEGINSHADEBOX]
+
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 ## Créer un workflow de composition {#create}
 
