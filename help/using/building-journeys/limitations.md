@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 84%
@@ -20,7 +20,7 @@ ht-degree: 84%
 
 Voici les limitations liées à l&#39;utilisation des parcours.
 
-## Limitations des actions générales
+## Limitations des actions générales {#action-limitations}
 
 * Il n’y a pas de limite d’envoi. 
 * En cas d&#39;erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. 
@@ -35,7 +35,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * La règle de rentrée doit être la même dans toutes les versions du parcours.
 * Un parcours commençant par un **Lecture d’audience** ne peut pas commencer avec un autre événement dans les versions suivantes.
  
-## Actions personnalisées  limitations
+## Actions personnalisées  limitations {#custom-actions-limitations}
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
@@ -43,11 +43,11 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Les adresses IP ne sont pas autorisées. 
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
  
-## Limitations des événements
+## Limitations des événements {#events-limitations}
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
  
-## Sources de données  limitations
+## Sources de données  limitations {#data-sources-limitations}
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel.Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 
@@ -63,6 +63,6 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
 
-## Lecture des limites d’audience
+## Lecture des limites d’audience {#read-audiences-limitations}
 
 * Les audiences diffusées en continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
