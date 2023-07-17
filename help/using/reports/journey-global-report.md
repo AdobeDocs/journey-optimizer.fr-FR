@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: ht
-source-wordcount: '2095'
-ht-degree: 100%
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+workflow-type: tm+mt
+source-wordcount: '2087'
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ Dans le **[!UICONTROL Rapport global]** de parcours, l&#39;onglet **[!UICONTROL 
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
 
-* **[!UICONTROL Ciblés]** : nombre de profils ciblés par Adobe Journey Orchestration pour toute action telle que l’envoi d’e-mails ou de SMS.
+* **[!UICONTROL Ciblés]**: Nombre de profils ciblés pour toute action telle que l’envoi d’un email ou d’un SMS.
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
@@ -193,7 +193,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONT
 
 Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
-* **[!UICONTROL Ciblés]** : nombre de profils ciblés par Adobe Journey Orchestration pour toute action telle que l’envoi d’e-mails ou de SMS.
+* **[!UICONTROL Ciblés]**: Nombre de profils ciblés pour toute action telle que l’envoi d’un email ou d’un SMS.
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
