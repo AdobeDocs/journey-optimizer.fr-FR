@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -42,7 +42,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
    >[!CAUTION]
    >
-   >Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l&#39;utiliser dans votre stratégie de classement.
+   >Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l’utiliser dans votre modèle AI.
 
 1. Saisissez un nom et enregistrez le schéma.
 
@@ -66,4 +66,4 @@ Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce sch
 
 >[!NOTE]
 >
->Ce jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼune stratégie de classement](#create-ranking-strategy).
+>Ce jeu de données peut désormais être sélectionné pour collecter des données d’événement lors de la [création d’un modèle d’IA](../ranking/create-ranking-strategies.md).

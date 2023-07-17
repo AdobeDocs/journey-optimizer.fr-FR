@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -315,7 +315,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
   **Champ :** orderEvaluationType
   **Titre :** type d&#39;évaluation d&#39;ordre
-  **Description :** Indique le mécanisme d&#39;évaluation de l&#39;ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou une stratégie de classement qui reçoit une liste pour la commander.
+  **Description :** Indique le mécanisme d’évaluation de l’ordre utilisé, la priorité statique des options de décision, une fonction de notation qui calcule une valeur numérique pour chaque option ou un modèle AI qui reçoit une liste pour la classer.
   **Type :** chaîne
   **Valeurs possibles :** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 

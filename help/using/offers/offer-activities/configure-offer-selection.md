@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 83%
 
 ---
 
@@ -62,9 +62,9 @@ Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Vous pouvez également utiliser un système de modèles entraînés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant une stratégie de classement. Découvrez comment créer une stratégie de classement dans [cette section](../ranking/create-ranking-strategies.md).
+Vous pouvez également utiliser un système de modèles formé qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle AI. Découvrez comment créer un modèle d’IA dans [cette section](../ranking/create-ranking-strategies.md).
 
-Après avoir créé une stratégie de classement, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
+Une fois qu’un modèle AI a été créé, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
 1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 
@@ -76,11 +76,11 @@ Après avoir créé une stratégie de classement, vous pouvez l’affecter à un
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Sélectionnez la stratégie de classement que vous avez créée. Tous les détails de la stratégie de classement s&#39;affichent.
+1. Sélectionnez le modèle d’IA que vous avez créé. Tous les détails du modèle s’affichent.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Cliquez sur **[!UICONTROL Sélectionner]**. La stratégie de classement est désormais associée à l&#39;emplacement.
+1. Cliquez sur **[!UICONTROL Sélectionner]**. Le modèle AI est désormais associé à l’emplacement.
 
 Si plusieurs offres sont éligibles, le système de modèles formés détermine l&#39;offre qui doit être présentée en premier pour un emplacement donné.
 
