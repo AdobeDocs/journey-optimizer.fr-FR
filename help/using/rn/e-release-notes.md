@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
+source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 23%
+source-wordcount: '636'
+ht-degree: 22%
 
 ---
 
@@ -106,6 +106,8 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Parcours**
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
+* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une action personnalisée.
+
 
 
 **Campagnes**
@@ -123,5 +125,6 @@ Avec la publication du portail de composition de l’audience, Adobe Experience 
 * Définition d’un segment : règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible dans Adobe Experience Platform. Ce terme était auparavant appelé « segment ».
 
 Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur d&#39;Adobe Experience Platform, « Segments » est remplacé par « Audiences » pour refléter ce nouveau chemin de création et de gestion d’audience.
+
 
 
