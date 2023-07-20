@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 28%
+source-wordcount: '626'
+ht-degree: 23%
 
 ---
 
@@ -55,9 +55,10 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer étend ses fonctionnalités cross-canal en ajoutant la prise en charge du canal courrier. Le publipostage direct est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de publipostage direct pour envoyer du courrier à votre clientèle.</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>Vous pouvez désormais ajouter des messages postaux dans vos campagnes et parcours. Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer les fichiers requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.</p>
+<p>Lors de la préparation d'une diffusion courrier, Journey Optimizer génère un fichier comprenant tous les profils ciblés et les coordonnées de contact sélectionnées (adresse postale, par exemple). Vous pourrez alors envoyer ce fichier à votre opérateur de services postaux qui prendra en charge l'envoi réel.</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>Pour plus d’informations, consultez la <a href="../direct-mail/create-direct-mail.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
