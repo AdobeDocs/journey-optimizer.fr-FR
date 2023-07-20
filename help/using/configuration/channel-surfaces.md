@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
+source-git-commit: 4d59989a32096190aec770364467a0a6fe31888f
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 96%
@@ -98,10 +98,10 @@ Pour créer une surface de canal, procédez comme suit :
    Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’elle a été correctement configurée. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   > Lors de la création d’une surface d’email pour un sous-domaine, le temps de traitement varie, comme décrit ci-dessous :
+   > Lors de la création d’une surface d’email pour un sous-domaine, le temps de traitement varie comme décrit ci-dessous :
    >
-   > * Pour les nouveaux sous-domaines, le processus de création de la première surface de canal peut prendre la forme **10 min à 10 jours**.
-   > * Pour **environnements de test hors production** ou si le sous-domaine sélectionné est **déjà utilisé** sur une autre surface de canal, le processus ne prend que 3 heures.
+   > * Pour **nouveaux sous-domaines**, le processus de création de la première surface de canal peut prendre **10 min à 10 jours**.
+   > * Pour **environnements de test hors production** ou si le sous-domaine sélectionné est **déjà utilisé** sur une autre surface de canal, le processus ne prend que **3 heures**.
 
    Ces vérifications comprennent des tests de configuration et des tests techniques effectués par l’équipe dʼAdobe :
 
