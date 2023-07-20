@@ -5,9 +5,9 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '617'
 ht-degree: 23%
 
 ---
@@ -90,7 +90,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais attribuer des balises Adobe Experience Platform unifiées à vos landing pages, modèles, fragments de contenu et listes d’abonnements, en plus des campagnes et des parcours. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes. Cette fonctionnalité est actuellement disponible en version GA (Général disponible).</p>
+<p>Outre les campagnes et les parcours, vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos landing pages, modèles, fragments de contenu et listes d’abonnements. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
 </td>
@@ -103,6 +103,16 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
+**Parcours**
+
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
+
+
+**Campagnes**
+
+* Les événements contextuels liés aux campagnes sont désormais disponibles dans le menu &quot;Attributs contextuels&quot; de l’éditeur de personnalisation.
+
+
 **Audiences**
 
 Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences.
@@ -114,13 +124,4 @@ Avec la publication du portail de composition de l’audience, Adobe Experience 
 
 Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur d&#39;Adobe Experience Platform, « Segments » est remplacé par « Audiences » pour refléter ce nouveau chemin de création et de gestion d’audience.
 
-
-**Parcours**
-
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
-
-
-**Campagnes**
-
-* Les événements contextuels liés aux campagnes sont désormais disponibles dans le menu &quot;Attributs contextuels&quot; de l’éditeur de personnalisation.
 
