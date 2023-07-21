@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: ht
-source-wordcount: '1189'
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+workflow-type: tm+mt
+source-wordcount: '1177'
 ht-degree: 100%
 
 ---
@@ -170,8 +170,6 @@ Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite 
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
-* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
-
 * **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message dans une diffusion.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans une diffusion.
@@ -181,8 +179,6 @@ Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 Le graphique **[!UICONTROL Synthèse des SMS]** détaille la réussite de votre diffusion :
-
-* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
