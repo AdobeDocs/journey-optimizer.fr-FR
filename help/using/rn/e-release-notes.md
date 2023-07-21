@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 22%
+source-wordcount: '616'
+ht-degree: 20%
 
 ---
 
@@ -55,7 +55,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais ajouter des messages postaux dans vos campagnes et parcours. Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer les fichiers requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.</p>
+<p>Vous pouvez désormais ajouter des messages de courrier dans vos campagnes. Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer les fichiers requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.</p>
 <p>Lors de la préparation d'une diffusion courrier, Journey Optimizer génère un fichier comprenant tous les profils ciblés et les coordonnées de contact sélectionnées (adresse postale, par exemple). Vous pourrez alors envoyer ce fichier à votre opérateur de services postaux qui prendra en charge l'envoi réel.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>Pour plus d’informations, consultez la <a href="../direct-mail/create-direct-mail.md">documentation détaillée</a>.</p>
@@ -90,7 +90,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Outre les campagnes et les parcours, vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos landing pages, modèles, fragments de contenu et listes d’abonnements. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes. </p>
+<p>Outre les campagnes et les parcours, vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos landing pages, modèles de contenu, fragments et listes d’abonnements. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
 </td>
@@ -105,7 +105,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une action personnalisée.
 
 
