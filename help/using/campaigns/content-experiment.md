@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 94%
+source-wordcount: '797'
+ht-degree: 88%
 
 ---
 
@@ -88,6 +88,16 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
    ![](assets/content_experiment_5.png)
 
 ## Configurer votre expérience de contenu {#configure-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="Dimension"
+>abstract="Choisissez la dimension spécifique à suivre pour votre expérience, par exemple les clics ou les vues spécifiques de pages spécifiques."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="Mesure de succès"
+>abstract="La mesure de succès permet de suivre et d’évaluer le traitement le plus performant dans une expérience. Veillez à configurer votre jeu de données pour certaines mesures avant de l’utiliser."
 
 1. Lorsque votre diffusion est personnalisée, dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
 
