@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2385'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -75,21 +75,21 @@ Par exemple, si vous définissez les contraintes suivantes :
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Estimation du profil total"
->abstract="Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur l’estimation des profils qualifiés."
+>abstract="Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés."
 
-Le **[!UICONTROL Eligibilité d&#39;une offre]** vous permet de restreindre l’offre à des profils spécifiques que vous définissez à l’aide d’audiences ou de règles de décision.
+La section **[!UICONTROL Éligibilité à l’offre]** vous permet de restreindre l’offre à des profils spécifiques que vous définissez à l’aide d’audiences ou de règles de décision.
 
 >[!NOTE]
 >
->En savoir plus sur l’utilisation de **audiences** versus **règles de décision** in [cette section](#segments-vs-decision-rules).
+>Pour en savoir plus sur l’utilisation des **audiences** par rapport aux **règles de décision**, consultez [cette section](#segments-vs-decision-rules).
 
 * Par défaut, l’option **[!UICONTROL Tous les visiteurs]** est sélectionnée, ce qui signifie que tout profil peut se voir présenter l’offre.
 
   ![](../assets/offer-eligibility-default.png)
 
-* Vous pouvez également limiter la présentation de l&#39;offre aux membres d&#39;une ou de plusieurs [Audiences Adobe Experience Platform](../../audience/about-audiences.md).
+* Vous pouvez également limiter la présentation de l’offre aux personnes membres d’une ou plusieurs [audiences Adobe Experience Platform](../../audience/about-audiences.md).
 
-  Pour ce faire, activez la fonction **[!UICONTROL Visiteurs appartenant à une ou plusieurs audiences]** , puis ajoutez une ou plusieurs audiences depuis le volet de gauche et combinez-les à l’aide de l’option **[!UICONTROL Et]** / **[!UICONTROL Ou]** opérateurs logiques.
+  Pour cela, activez l’option **[!UICONTROL Visiteurs appartenant à une ou plusieurs audiences]**, puis ajoutez une ou plusieurs audiences dans le volet de gauche et combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]** / **[!UICONTROL Ou]**.
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ Le **[!UICONTROL Eligibilité d&#39;une offre]** vous permet de restreindre l’
   >
   >Les offres basées sur un événement ne sont actuellement pas prises en charge dans [!DNL Journey Optimizer]. Si vous créez une règle de décision basée sur un [événement](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target="_blank"}, vous ne pourrez pas l’exploiter dans une offre.
 
-Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur l’estimation des profils qualifiés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,17 +109,17 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 >
 >Les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
 
-### Utilisation des audiences par rapport aux règles de décision {#segments-vs-decision-rules}
+### Utiliser les audiences par rapport aux règles de décision {#segments-vs-decision-rules}
 
-Pour appliquer une contrainte, vous pouvez restreindre la sélection des offres aux membres d&#39;un ou de plusieurs **Audiences Adobe Experience Platform**, ou vous pouvez utiliser une **règle de décision**, les deux solutions correspondant à des utilisations différentes.
+Pour appliquer une contrainte, vous pouvez restreindre la sélection des offres aux personnes membres d’une ou plusieurs **audiences Adobe Experience Platform**. Vous pouvez également utiliser une **règle de décision**, les deux solutions correspondant à des utilisations différentes.
 
-En gros, le résultat d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision. La différence entre ces deux usages est présentée ci-dessous.
+Pour faire simple, la sortie d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision. La différence entre ces deux usages est présentée ci-dessous.
 
 * **Audiences**
 
-  D’une part, les audiences sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la Gestion des offres ne recalcule pas l’audience, qui peut ne pas être à jour lors de la présentation de l’offre.
+  D’un côté, les audiences sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la gestion des offres ne recalcule pas l’audience, qui peut ne pas être à jour lors de la présentation de l’offre.
 
-  En savoir plus sur les audiences dans [cette section](../../audience/about-audiences.md).
+  Pour en savoir plus sur les audiences, consultez [cette section](../../audience/about-audiences.md).
 
 * **Règles de décision**
 
