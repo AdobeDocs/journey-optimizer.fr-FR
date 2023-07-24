@@ -10,9 +10,9 @@ level: Intermediate
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -201,7 +201,7 @@ Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suiva
 
 >[!NOTE]
 >
->Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, si la variable **Rapports sur les parcours** affiche ces profils comme ayant traversé le parcours ([Lecture d’audience](../building-journeys/read-audience.md) et [activités de message](../building-journeys/journeys-message.md)), la variable **Rapports par courriel** ne les inclut pas dans la variable **[!UICONTROL Envoyé]** les mesures telles qu’elles sont filtrées avant l’envoi des emails.
+>Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture d’audience](../building-journeys/read-audience.md) et [activités de message](../building-journeys/journeys-message.md)), les **rapports d’e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyé]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
 >
 >En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport global](../reports/global-report.md).
 
