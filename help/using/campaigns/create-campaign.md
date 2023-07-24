@@ -10,9 +10,9 @@ level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '863'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Avant de créer une nouvelle campagne, vérifiez que vous disposez d’un canal de surface (c’est-à-dire un paramètre prédéfini de message) et d’une audience Adobe Experience Platform prête à être utilisée. En savoir plus dans ces sections :
+>Avant de créer une campagne, assurez-vous de disposer d’un canal de surface (c’est-à-dire un préréglage de message) et d’une audience Adobe Experience Platform prête à l’emploi. En savoir plus dans ces sections :
 >
 >* [Création de surfaces de canal](../configuration/channel-surfaces.md)
 >* [Commencer avec les audiences](../audience/about-audiences.md)
