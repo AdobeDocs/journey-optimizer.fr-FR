@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ Pour créer une notification push, procédez comme suit :
 
    ![](assets/push_create_4.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour définir l’audience à cibler à partir de la liste des audiences Adobe Experience Platform disponibles. [En savoir plus](../audience/about-audiences.md).
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour définir l’audience à cibler à partir de la liste des audiences Adobe Experience Platform disponibles. [En savoir plus](../audience/about-audiences.md).
 
-1. Dans le **[!UICONTROL Espace de noms d’identité]** , choisissez l’espace de noms à utiliser pour identifier les individus de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
+1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
    ![](assets/push_create_5.png)
 
