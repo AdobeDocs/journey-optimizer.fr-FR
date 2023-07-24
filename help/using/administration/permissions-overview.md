@@ -10,9 +10,9 @@ level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 59%
 
 La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur trois concepts :
 
-* **[!UICONTROL Rôle]**: Ensemble de droits unitaires qui permet aux utilisateurs d’accéder à certaines fonctionnalités ou à certains objets de l’interface. Reportez-vous à la section [Rôles d’usine](ootb-product-profiles.md) .
+* **[!UICONTROL Rôles]** : ensemble de droits unitaires qui permet aux utilisateurs et utilisatrices d’accéder à certaines fonctionnalités ou à certains objets de l’interface. Reportez-vous à la section [Rôles prêt-à-l’emploi](ootb-product-profiles.md).
 
-* **[!UICONTROL Autorisations]**: Droits unitaires qui permettent de définir les autorisations attribuées **[!UICONTROL Rôles]**. Chaque autorisation est regroupée sous des ressources, par exemple Parcours ou Offres, qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Reportez-vous à la section [Niveaux d&#39;autorisation](high-low-permissions.md).
+* **[!UICONTROL Autorisations]** : droits unitaires qui permettent de définir les autorisations attribuées aux **[!UICONTROL Rôles]**. Chaque autorisation est regroupée sous des ressources, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Reportez-vous à la section [Niveaux d&#39;autorisation](high-low-permissions.md).
 
 * **[!UICONTROL Sandbox]** : sandbox virtuels qui divisent les instances en environnements virtuels distincts et isolés. Reportez-vous à la section [Utilisation des sandbox](sandboxes.md)..
 
@@ -36,6 +36,6 @@ Chaque concept peut être géré par des **[!UICONTROL administrateurs produits]
 
 ## Vidéo pratique{#video}
 
-En savoir plus sur le système de contrôle d’accès et les proles personnalisés dans Adobe Journey Optimizer. Découvrez comment gérer les rôles et les autorisations, ainsi que comment ajouter et gérer des utilisateurs.
+En savoir plus sur le système de contrôle d’accès et les rôles personnalisés dans Adobe Journey Optimizer. Découvrez comment gérer les rôles et les autorisations, et comment ajouter et gérer des utilisateurs et des utilisatrices.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
