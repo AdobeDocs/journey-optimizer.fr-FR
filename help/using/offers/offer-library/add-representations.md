@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -134,5 +134,5 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
    >[!NOTE]
    >
-   >Seule la variable **[!UICONTROL Attributs de profil]**, **[!UICONTROL Audiences]** et **[!UICONTROL Fonctions d’assistance]** Les sources sont disponibles pour la gestion de la décision.
+   >Seules les sources **[!UICONTROL Attributs de profil]**, **[!UICONTROL Audiences]** et **[!UICONTROL Fonctions d’assistance]** sont disponibles pour la gestion des décisions.
 
