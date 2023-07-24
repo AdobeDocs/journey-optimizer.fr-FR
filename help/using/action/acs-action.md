@@ -10,9 +10,9 @@ level: Intermediate
 keywords: campaign, standard, intégration, limitation, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent
 
 * L’intégration d’Adobe Campaign Standard est configurée par le biais d’une action intégrée dédiée dans la liste d’actions. Cela doit être configuré pour chaque sandbox.
 
-* Vous ne pouvez pas utiliser une action de Campaign Standard avec une activité de qualification d’audience ou de lecture d’audience .
+* Vous ne pouvez pas utiliser une action de Campaign Standard avec une activité de qualification d’audience ou de lecture d’audience.
 
 * Un parcours ne peut pas utiliser à la fois les messages et les actions de Campaign Standard.
 
