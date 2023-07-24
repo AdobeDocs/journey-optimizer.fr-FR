@@ -1,24 +1,24 @@
 ---
-title: API Batch Decisioning
-description: Découvrez comment utiliser l’API Batch Decisioning pour sélectionner les meilleures offres pour les profils d’audience dans une portée de décision prédéfinie.
+title: API Batch Decisioning
+description: Découvrez comment utiliser l’API Batch Decisioning pour sélectionner les meilleures offres pour les profils d’audiences dans une portée de décision prédéfinie.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Diffusion d&#39;offres à l&#39;aide de l&#39;API [!DNL Batch Decisioning] {#deliver-offers-batch}
+# Diffuser des offres à l’aide de l’API [!DNL Batch Decisioning] {#deliver-offers-batch}
 
-Le [!DNL Batch Decisioning] L’API permet aux entreprises d’utiliser la fonctionnalité de prise de décision pour tous les profils d’une audience donnée dans un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
+L’API [!DNL Batch Decisioning] permet aux organisations d’utiliser la fonctionnalité de prise de décision pour tous les profils d’une audience donnée en un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
 
-Avec le [!DNL Batch Decisioning] API, vous pouvez renseigner un jeu de données avec les meilleures offres pour tous les profils d’une audience Adobe Experience Platform pour les portées de décision. Par exemple, une organisation peut vouloir exécuter [!DNL Batch Decisioning] afin de pouvoir envoyer des offres à un fournisseur de diffusion de messages. Ces offres sont ensuite utilisées comme contenu envoyé pour la diffusion de messages par lots à la même audience d’utilisateurs.
+Avec l’API [!DNL Batch Decisioning], vous pouvez renseigner un jeu de données avec les meilleures offres pour tous les profils d’une audience Adobe Experience Platform pour les portées de décision. Par exemple, une organisation peut vouloir exécuter [!DNL Batch Decisioning] afin de pouvoir envoyer des offres à un fournisseur de diffusion de messages. Ces offres sont ensuite utilisées comme contenu envoyé pour la diffusion de messages par lots à une même audience d’utilisateurs et d’utilisatrices.
 
 Pour ce faire, l&#39;organisation :
 
