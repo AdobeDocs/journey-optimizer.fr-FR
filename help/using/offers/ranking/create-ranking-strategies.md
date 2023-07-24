@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 1. Indiquez un nom unique et une description pour le modèle d’IA, puis sélectionnez le type de modèle d’IA à créer :
 
    * L’option **[!UICONTROL Optimisation automatique]** optimise les offres en fonction des performances des offres antérieures. [En savoir plus](auto-optimization-model.md)
-   * **[!UICONTROL Optimisation personnalisée]** optimise et personnalise les offres en fonction des audiences et des performances des offres. [En savoir plus](personalized-optimization-model.md)
+   * L’**[!UICONTROL optimisation personnalisée]** optimise et personnalise les offres en fonction des audiences et des performances des offres. [En savoir plus](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -69,7 +69,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous pouvez sélectionner jusqu’à 5 audiences.
+   >Vous pouvez sélectionner jusqu’à 5 audiences.
 
 1. Enregistrez et activez le modèle d’IA.
 
