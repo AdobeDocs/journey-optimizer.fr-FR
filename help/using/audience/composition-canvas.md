@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr).
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ La première étape pour créer une composition consiste à sélectionner une ou
 1. Choisissez l’audience à cibler :
 
    * Cliquez sur le bouton **[!UICONTROL Ajouter une audience]** pour sélectionner une ou plusieurs audiences existantes,
-   * Cliquez sur le bouton **[!UICONTROL Créer une règle]** pour créer une définition d’audience à l’aide du bouton [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+   * Cliquez sur le bouton **[!UICONTROL Créer une règle]** pour créer une définition d’audience à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
    ![](assets/audiences-choose-audience.png)
 
@@ -142,11 +142,11 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 
 L’activité **[!UICONTROL Enrichir]** vous permet d’enrichir votre audience avec des attributs supplémentaires provenant de jeux de données d’Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations sur le produit acheté (comme le nom, le prix ou l’identifiant de fabricant) afin de personnaliser les diffusions envoyées à l’audience.
 
-Notez les limites suivantes lorsque vous utilisez le **[!UICONTROL Enrichir]** activité :
+Notez les limitations suivantes lorsque vous utilisez l’activité **[!UICONTROL Enrichir]** :
 
-* **Jeux de données** pour l’enrichissement doit être de type enregistrement (contrairement à un type d’événement) et il ne peut pas s’agir d’un jeu de données système ni être marqué pour profile. Elles doivent être inférieures à 1 Go.
+* Les **Jeux de données** pour l’enrichissement doivent être de type enregistrement (contrairement à un type d’événement) et il ne peut pas s’agir d’un jeu de données système ni être marqué pour le profil. Ils doivent être inférieurs à 1 Go.
 * **L’enrichissement prend en charge une jointure 1:1**. Cela signifie que si les clés de jointure comportent plusieurs correspondances sur le jeu de données d’enrichissement, le système sélectionne l’une des correspondances et l’utilise pour la jointure 1:1.
-* **Les audiences peuvent être activées dans les destinations RTCDP**, mais leurs attributs d’enrichissement, le cas échéant, ne le peuvent pas.
+* **Les audiences peuvent être activées dans les destinations RTCDP**, mais pas leurs attributs d’enrichissement, le cas échéant.
 
 Pour configurer l’activité, procédez comme suit :
 

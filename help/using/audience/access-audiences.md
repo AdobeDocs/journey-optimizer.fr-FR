@@ -11,7 +11,7 @@ exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr).
 
 >[!ENDSHADEBOX]
 
-Les audiences résultant de la composition de l’audience sont accessibles à partir de la **[!UICONTROL Parcourir]** dans le **[!UICONTROL Audiences]** .
+Les audiences obtenues à partir de la composition de l’audience sont accessibles sous l’onglet **[!UICONTROL Parcourir]** du menu **[!UICONTROL Audiences]**.
 
 Cet onglet répertorie toutes les audiences stockées dans Adobe Experience Platform. Les audiences créées à l’aide de compositions d’audience sont identifiables à leur origine **[!UICONTROL Composition de l’audience]**.
 

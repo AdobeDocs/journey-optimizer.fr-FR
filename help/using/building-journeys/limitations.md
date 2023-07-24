@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,12 +29,12 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 ## Limitations des versions de parcours {#journey-versions-limitations}
 
-* Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas commencer un parcours avec un **Qualification de l’audience** .
-* Un parcours commençant par un **Qualification de l’audience** l’activité dans v1 doit toujours commencer par une **Qualification de l’audience** dans d’autres versions.
-* L’audience et l’espace de noms sélectionnés dans **Qualification de l’audience** (premier noeud) ne peut pas être modifié dans les nouvelles versions.
-* La règle de rentrée doit être la même dans toutes les versions du parcours.
-* Un parcours commençant par un **Lecture d’audience** ne peut pas commencer avec un autre événement dans les versions suivantes.
- 
+* Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement **Qualification d’audience**.
+* Un parcours commençant par une activité **Qualification d’audience** dans la version v1 doit toujours débuter avec une **qualification d’audience** dans d’autres versions.
+* L’audience et l’espace de noms sélectionnés dans **Qualification d’audience** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
+* La règle de reprise doit être la même dans toutes les versions du parcours.
+* Un parcours commençant par une **lecture d’audience** ne peut pas commencer par un autre événement dans les versions suivantes.
+
 ## Actions personnalisées  limitations {#custom-actions-limitations}
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
@@ -61,8 +61,8 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Ajouter une activité d’attente après le premier événement pour donner à Adobe Experience Platform le temps nécessaire pour exécuter l’ingestion sur le service de profil.
 
-* Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse électronique, etc.).
+* Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse e-mail, etc).
 
-## Lecture des limites d’audience {#read-audiences-limitations}
+## Limitations de lecture d’audience {#read-audiences-limitations}
 
-* Les audiences diffusées en continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
+* Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.

@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous êtes un client Real-time Customer Profile uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous êtes un client Real-time Customer Profile uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr).
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ Une fois cette opération terminée, les **audiences obtenues** sont enregistré
 >
 >Les campagnes Adobe Journey Optimizer ne sont pas encore intégrées au service d’application de politique. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’audience ne sont pas implémentés dans les campagnes Journey Optimizer.
 
-La composition de l’audience est accessible à partir de Adobe Journey Optimizer **[!UICONTROL Audiences]** menu :
+La composition de l’audience est accessible à partir du menu **[!UICONTROL Audiences]** d’Adobe Journey Optimizer :
 
 ![](assets/audiences-browse.png)
 
-* Le **[!UICONTROL Présentation]** Cet onglet fournit un tableau de bord dédié avec des mesures clés liées aux données d’audience de votre entreprise. Pour en savoir plus, consultez le [guide des tableaux de bord d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=fr).
+* L’onglet **[!UICONTROL Vue d’ensemble]** se compose d’un tableau de bord dédié avec des mesures clés liées aux données d’audience de votre organisation. Pour en savoir plus, consultez le [guide des tableaux de bord d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=fr).
 
 * L’onglet **[!UICONTROL Parcourir]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform.
 

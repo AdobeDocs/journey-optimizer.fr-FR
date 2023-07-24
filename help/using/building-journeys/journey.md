@@ -9,7 +9,7 @@ level: Beginner
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
-* Envoyez des **diffusions unitaires** en temps réel déclenchées lorsqu’un événement est reçu ou **par lots** à l’aide des audiences Adobe Experience Platform.
+* Envoyez des **diffusions unitaires** en temps réel déclenchées lors de la réception d’un événement ou **par lots** à l’aide d’audiences Adobe Experience Platform.
 
 * Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 

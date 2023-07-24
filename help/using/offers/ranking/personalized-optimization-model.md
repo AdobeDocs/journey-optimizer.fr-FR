@@ -10,7 +10,7 @@ exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Afin de tirer pleinement parti de l’utilisation de la personnalisation automat
 
 * **Les offres sont suffisamment différentes pour que les utilisateurs aient des préférences différentes parmi les offres prises en compte**. Si les offres sont trop similaires, le modèle obtenu a moins d’impact, car les réponses semblent aléatoires.
 Par exemple, si une banque propose deux offres de cartes de crédit dont la seule différence est la couleur, la carte conseillée n’a pas d’importance. Par contre, si chaque carte comporte des conditions différentes, cela explique pourquoi certains clients en choisissent une et fournit suffisamment de différence entre les offres pour créer un modèle plus performant.
-* **La composition du trafic utilisateur est stable**. Si la composition du trafic utilisateur change considérablement au cours de l’entraînement et de la prédiction du modèle, les performances de ce dernier peuvent se dégrader. Supposons, par exemple, que, lors de la phase de formation du modèle, seules les données pour les utilisateurs de l’audience A soient disponibles, mais que le modèle formé soit utilisé pour générer des prédictions pour les utilisateurs de l’audience B. Les performances du modèle pourraient alors être affectées.
+* **La composition du trafic utilisateur est stable**. Si la composition du trafic utilisateur change considérablement au cours de l’entraînement et de la prédiction du modèle, les performances de ce dernier peuvent se dégrader. Supposons, par exemple, que, lors de la phase d’entraînement du modèle, seules les données pour les utilisateurs et utilisatrices de l’audience A soient disponibles, mais que le modèle entraîné soit utilisé pour générer des prédictions pour les utilisateurs et utilisatrices de l’audience B, les performances du modèle pourraient alors être affectées.
 * **Les performances des offres ne changent pas considérablement sur une courte période** lorsque ce modèle est mis à jour chaque semaine et que les modifications apportées aux performances sont répercutées lors des mises à jour du modèle. Par exemple, un produit était très populaire auparavant, mais un rapport public identifie le produit comme nocif pour notre santé, et ce produit devient impopulaire extrêmement rapidement. Dans ce scénario, le modèle peut continuer à prédire ce produit jusqu’à ce que le modèle se mette à jour avec les changements de comportement de l’utilisateur.
 
 ## Fonctionnement {#how}
@@ -38,7 +38,7 @@ Il existe trois types de fonctionnalités :
 | Types de fonctionnalités | Comment ajouter des fonctionnalités aux modèles |
 |--------------|----------------------------|
 | Objets de prise de décision (placementID, activityID, decisionScopeID) | Partie des événements d’expérience des commentaires sur la gestion des décisions envoyés à AEP |
-| Audiences | Il est possible d’ajouter entre 0 et 50 audiences en tant que fonctionnalités lors de la création du modèle d’IA dédiée au classement |
+| Audiences | Il est possible d’ajouter de 0 à 50 audiences en tant que fonctionnalités lors de la création du modèle d’IA dédiée au classement |
 | Données contextuelles | Partie des événements d’expérience des commentaires sur la prise de décisions envoyés à AEP. Données contextuelles disponibles à ajouter au schéma : Détails du commerce, Détails du canal, Détails de l’application, Détails web, Détails de l’environnement, Détails de l’appareil, placeContext |
 
 Le modèle comporte deux phases :

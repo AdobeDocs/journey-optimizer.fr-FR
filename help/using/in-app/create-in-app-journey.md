@@ -9,15 +9,15 @@ keywords: in-app, message, création, commencer
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
+badge: label="Version Beta" type="Informative"
 source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 100%
 
 ---
 
-# Créer un message in-app dans un parcours. {#create-in-app-journey}
+# Créer un message in-app dans un parcours {#create-in-app-journey}
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL In-app]** depuis la section **[!UICONTROL Actions]** de la palette.
 

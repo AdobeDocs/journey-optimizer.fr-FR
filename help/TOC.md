@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
       + [Qualification de l’audience](using/building-journeys/audience-qualification-events.md)
       + [Condition](using/building-journeys/condition-activity.md)
       + [Attente](using/building-journeys/wait-activity.md)
-      + [Lecture d&#39;audience](using/building-journeys/read-audience.md)
+      + [Lecture d’audience](using/building-journeys/read-audience.md)
       + [E-mail, in-app, push, SMS](using/building-journeys/journeys-message.md)
       + [Actions personnalisées](using/building-journeys/using-custom-actions.md)
       + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -282,7 +282,7 @@ ht-degree: 99%
 + Audiences, profils et identité{#audiences-profiles-identities}
    + Audiences {#audiences}
       + [Commencer avec les audiences](using/audience/about-audiences.md)
-      + [Création de définitions de segment](using/audience/creating-a-segment-definition.md)
+      + [Créer des définitions de segment](using/audience/creating-a-segment-definition.md)
       + Composer des audiences {#audience-orchestration}
          + [Prise en main de la composition des audiences](using/audience/get-started-audience-orchestration.md)
          + [Créer des workflows de composition](using/audience/create-compositions.md)

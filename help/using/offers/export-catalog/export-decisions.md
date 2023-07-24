@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
   **Champ :** optionSelectionType
   **Titre :** type de contrainte de profil
-  **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s’agir d’une requête de filtre ou d’un ou plusieurs appartenances à une audience.
+  **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec une ou plusieurs appartenances à l’audience.
   **Type :** chaîne
   **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
 
@@ -156,30 +156,30 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
-**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Il peut s’agir d’une règle ou d’un ou plusieurs appartenances à une audience.
+**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à l’audience.
 **Type :** chaîne 
 **Valeurs possibles :**
 * &quot;none&quot; (par défaut)
 * &quot;eligibilityRule&quot; : « La contrainte de profil est exprimée sous la forme d&#39;une règle unique qui doit être évaluée comme égale à true avant que l&#39;action contrainte ne soit autorisée. »
-* &quot;anySegments&quot;: &quot;La contrainte de profil est exprimée en tant qu’une ou plusieurs audiences et le profil doit être membre d’au moins l’une d’elles avant que l’action contrainte ne soit autorisée.&quot;
-* &quot;allSegments&quot;: &quot;La contrainte de profil est exprimée en tant qu’une ou plusieurs audiences et le profil doit être membre de toutes celles-ci avant que l’action contrainte ne soit autorisée.&quot;
+* « anySegments » : « La contrainte de profil est exprimée sous la forme d’une ou de plusieurs audiences et le profil doit être membre d’au moins l’une d’entre elles avant que l’action contrainte ne soit autorisée. »
+* &quot;allSegments&quot; : « La contrainte de profil est exprimée en une ou plusieurs audiences et le profil doit être membre de toutes ces audiences pour que l’action contrainte soit autorisée. »
 * « rules » : « La contrainte de profil est exprimée sous la forme de plusieurs règles différentes (par exemple, l’éligibilité, l’applicabilité, l’adaptabilité), qui doivent toutes renvoyer true avant que l’action contrainte ne soit autorisée. »
 
 +++
 
 +++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
 
-**Champ :** segmentIdentities
-**Titre :** Identifiants de segment
-**Description :** Identifiants de l’audience.
+**Champ :** segmentIdentities
+**Titre :** Identifiants de segment
+**Description :** Identifiants de l’audience.
 **Type :** tableau
 
 * Identifiant
 
   **Champ :** _id
   **Titre :** identifiant
-  **Description :** Identité de l’audience dans l’espace de noms associé.
-  **Type :** Chaîne
+  **Description :** identité de l’audience dans l’espace de noms connexe.
+  **Type :** chaîne
 
 * espace de noms
 

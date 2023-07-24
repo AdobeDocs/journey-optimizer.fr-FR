@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
@@ -65,9 +65,9 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
    * **[!UICONTROL Nom]**
    * **[!UICONTROL Description]**
 
-1. Définissez l’audience à cibler. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md)
+1. Définissez l’audience à cibler. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
 
-   Dans le **[!UICONTROL Espace de noms d’identité]** , choisissez l’espace de noms à utiliser pour identifier les individus de l’audience sélectionnée. [En savoir plus](get-started-experiment.md#content-experiment-work).
+   Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](get-started-experiment.md#content-experiment-work).
 
    ![](assets/content_experiment_16.png)
 
