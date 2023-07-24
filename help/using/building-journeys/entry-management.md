@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Au-delà de la temporisation globale par défaut de 30 jours, le statut du parc
 
 ## Parcours unitaires{#entry-unitary}
 
-Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 
 En outre :
 
@@ -37,15 +37,15 @@ En outre :
 
 * Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
 
-## Lecture des parcours d’audience{#entry-read-segment}
+## Parcours de lecture d’audience{#entry-read-segment}
 
-Dans un parcours d’audience de lecture :
+Dans un parcours de lecture d’audience :
 
 * Pour les parcours non récurrents : le profil rejoint une seule fois le parcours.
 
-* Pour les parcours récurrents : le profil entre dans le parcours de chaque périodicité, s’il se trouve dans l’état attendu de l’audience. S’il était toujours dans le parcours d’une précédente périodicité, il la redémarrera depuis le début.
+* Pour les parcours récurrents : le profil intègre le parcours à chaque périodicité, s’il a le statut d’audience attendu. S’il était toujours dans le parcours d’une précédente périodicité, il la redémarrera depuis le début.
 
-Dans les parcours d’événements professionnels commençant par un **Lecture d’audience** activité : sachant que ce parcours est basé sur la réception d’un événement professionnel, si le profil est qualifié dans l’audience attendue, il renverra le parcours de chaque événement commercial reçu, ce qui signifie que ce profil peut être plusieurs fois dans le même parcours, au même moment, mais dans le contexte d’événements professionnels différents.
+Dans les parcours d’événement métier commençant par une activité **Lecture d’audience** : sachant que ce parcours est basé sur la réception d’un événement métier, si le profil est qualifié dans l’audience prévue, il intègre le parcours de chaque événement métier reçu. Cela signifie que ce profil peut intégrer le même parcours plusieurs fois, au même moment, mais dans le contexte de divers événements métier.
 
 <!--
 # Profile entry management {#entry-management}
