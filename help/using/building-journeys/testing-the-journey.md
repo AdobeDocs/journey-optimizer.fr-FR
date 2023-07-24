@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1522'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Lors du déclenchement d’un événement, l’écran de **configuration de l’
 
 ## Mode test pour événements métier {#test-business}
 
-Lors de l’utilisation d’un [événement métier](../event/about-events.md), utilisez le mode test pour déclencher une entrée de profil de test unique dans le parcours, simuler l’événement et transmettre l’identifiant de profil approprié. Vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. Vous ne pouvez pas utiliser la variable **[!UICONTROL Jusqu’à 100 profils à la fois]** qui existe pour d’autres parcours basés sur l’audience. En mode test, aucun mode « Affichage du code » n’est disponible pour les parcours en fonction des événements métier.
+Lors de l’utilisation d’un [événement métier](../event/about-events.md), utilisez le mode test pour déclencher une entrée de profil de test unique dans le parcours, simuler l’événement et transmettre l’identifiant de profil approprié. Vous devez transmettre les paramètres d’événement et l’identifiant du profil de test qui va rejoindre le parcours au moment du test. Vous ne pouvez pas utiliser l’option **[!UICONTROL Jusqu’à 100 profils à la fois]** qui existe pour d’autres parcours basés sur les audiences. En mode test, aucun mode « Affichage du code » n’est disponible pour les parcours en fonction des événements métier.
 
 Notez que lorsque vous déclenchez pour la première fois un événement métier, vous ne pouvez pas modifier la définition de l&#39;événement métier dans la même session de test. Vous pouvez uniquement faire en sorte qu’un même individu ou qu’un autre individu rejoigne le parcours en transmettant le même identifiant ou un autre identifiant. Si vous souhaitez modifier les paramètres de l&#39;événement métier, vous devez arrêter et démarrer à nouveau le mode test.
 
