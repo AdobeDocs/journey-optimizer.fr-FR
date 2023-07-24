@@ -5,9 +5,9 @@ title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais personnaliser le contenu de vos offres à l’aide des attributs de profil et des audiences Adobe Experience Platform, à l’aide du même composant d’éditeur d’expression que celui de l’interface utilisateur de Journey Optimizer. </p>
+<p>Vous pouvez désormais personnaliser le contenu de vos offres à l’aide des attributs de profil et des audiences Adobe Experience Platform en utilisant le même composant d’éditeur d’expression que celui de l’interface utilisateur de Journey Optimizer. </p>
 <p>Pour plus d’informations, consultez la <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 **Parcours**
 
-* **Éditeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec les mappings. Cette fonctionnalité peut être exploitée avec les listes d’abonnements. Par exemple, à partir d’une audience, vous pouvez désormais obtenir une adresse électronique à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](../building-journeys/message-to-subscribers-uc.md)
+* **Éditeur d&#39;expression** - En tant qu’utilisateur avancé, vous pouvez désormais utiliser des fonctions pour travailler avec les mappings. Cette fonctionnalité peut être exploitée avec les listes d’abonnements. Par exemple, à partir d’une audience, vous pouvez désormais obtenir une adresse e-mail à partir d’une liste d’abonnements. [En savoir plus dans cet exemple](../building-journeys/message-to-subscribers-uc.md)
 
 * **Surveillance** - Les événements d’étape pour les parcours actifs et le mode test ont été améliorés. De [nouveaux champs](../reports/sharing-field-list.md#serviceevents) ont été ajoutés en rapport avec les tâches d’exportation de profil. Pour une meilleure expérience utilisateur, les champs d’événement d’étape sont désormais organisés en différentes catégories. Tous les champs d’événements d’étape précédents sont toujours disponibles dans la catégorie [stepEvents](../reports/sharing-legacy-fields.md).
 * **Accessibilité** - Des améliorations d’accessibilité ont été apportées aux parcours. 
@@ -262,12 +262,12 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 * **En-têtes dynamiques** : vous pouvez désormais transmettre des données dynamiques dans les paramètres d’en-tête HTTP. Ces paramètres peuvent être utilisés par les systèmes d’intégration qui reçoivent les appels HTTP de l’action de parcours, par exemple l’horodatage ou l’ID de suivi. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration)
 * **Chemins d’URL dynamiques** : vous pouvez désormais configurer des chemins d’URL dynamiques pour les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration)
-* Le taux de ralentissement global des audiences lues a été modifié de 17 000 à 20 000 messages par seconde. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Le taux de limitation global pour la lecture d’audiences a été modifié de 17 000 à 20 000 messages par seconde. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Interface utilisateur**
 
 * **Rechercher** : sur chaque page, vous pouvez désormais rechercher des objets métier et des articles d’aide directement dans le champ de recherche Unified Experience Cloud. [En savoir plus](../start/user-interface.md#unified-search)
-* **Récents** : l’affichage des éléments récents de la page d’accueil d’Adobe Journey Optimizer est désormais étendu aux objets métier supplémentaires. Grâce à cette mise à jour, les raccourcis vers vos accès récents comprennent les messages, les Parcours, les audiences, les schémas, les jeux de données, les sources de données, les événements, les actions, les sources et les destinations. [En savoir plus](../action/about-custom-action-configuration.md#passing-collection)
+* **Récents** : l’affichage des éléments récents de la page d’accueil d’Adobe Journey Optimizer est désormais étendu aux objets métier supplémentaires. Grâce à cette mise à jour, les raccourcis vers vos accès récents comprennent les messages, les parcours, les audiences, les schémas, les jeux de données, les sources de données, les événements, les actions, les sources et les destinations. [En savoir plus](../action/about-custom-action-configuration.md#passing-collection)
 
 **Concevoir du contenu**
 
@@ -337,12 +337,12 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 **Parcours**
 
-* Le taux de ralentissement global de toutes les audiences de lecture s’exécutant simultanément dans le même environnement de test est limité à 17 000 messages par seconde. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Le taux de limitation global de toutes les lectures d’audience qui s’exécutent simultanément dans la même sandbox est limité à 17 000 messages par seconde. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Le champ **Durée de mise en cache** a été supprimé du panneau de configuration de la source de données. [En savoir plus](../datasource/about-data-sources.md)
 * Pour les sources de données externes, une règle de limitation de 15 appels par seconde est maintenant définie automatiquement. [En savoir plus](../configuration/external-systems.md#capping)
 * Pour les parcours actifs, l’écran des propriétés du parcours affiche la date de publication et le nom de l’utilisateur qui a publié le parcours. [En savoir plus](../building-journeys/journey-gs.md#change-properties)
 * Dans l&#39;écran Liste des parcours, le filtre de type de parcours a été ajouté. [En savoir plus](../start/user-interface.md#filter-lists)
-* Le **[!UICONTROL Taux de ralentissement]** a été ajouté à l’activité Lecture d’audience . [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Le paramètre **[!UICONTROL Taux de limitation]** a été ajouté à l’activité Lecture d’audience. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
 **Prévisualiser et tester**
 
