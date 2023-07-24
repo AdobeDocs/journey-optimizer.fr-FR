@@ -10,9 +10,9 @@ level: Intermediate
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Créez des campagnes pour diffuser du contenu ponctuel à une audience spécifique sur différents canaux. Avant de créer votre campagne, assurez-vous d’avoir une surface de canal (c’est-à-dire un paramètre prédéfini de message) et une audience Adobe Experience Platform prête à être utilisée."
+>abstract="Créez des campagnes pour diffuser du contenu ponctuel à une audience spécifique sur différents canaux. Avant de créer une campagne, assurez-vous de disposer d’une surface de canal (c’est-à-dire un préréglage de message) et d’une audience Adobe Experience Platform prête à l’emploi."
 
-Utilisez les campagnes Journey Optimizer pour diffuser du contenu ponctuel à une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
+Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
 Vous pouvez créer deux types de campagnes :
 
@@ -66,7 +66,7 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 +++
 
-1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. En savoir plus sur les audiences [dans cette page](../audience/about-audiences.md).
+1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. Pour en savoir plus sur les audiences, consultez [cette page](../audience/about-audiences.md).
 1. **Vous avez besoin d’une surface de canal**. Pour pouvoir sélectionner un canal, la surface de canal correspondante (c’est-à-dire le préréglage) doit être créée et disponible. Pour en savoir plus sur les surface de canal, consultez cette [page](../configuration/channel-surfaces.md).
 
 ## Vidéo pratique {#video}
