@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ L&#39;instruction `elseif` spécifie une nouvelle condition à tester si la prem
 
 >[!NOTE]
 >
->Pour en savoir plus sur les audiences et le service de segmentation, reportez-vous à cette section [section](../../audience/about-audiences.md).
+>Pour en savoir plus sur les audiences et le service de segmentation, consultez cette [section](../../audience/about-audiences.md).
 
 
 ## Unless{#unless}
