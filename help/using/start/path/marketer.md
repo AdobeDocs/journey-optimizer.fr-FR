@@ -6,9 +6,9 @@ description: En tant que praticien Parcours, découvrez comment utiliser Journey
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ En tant que **spécialiste du marketing** ou **praticien/praticienne Parcours**,
 
 Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres et des ressources et envoyer des messages :
 
-1. **Création d’audiences**. Journey Optimizer vous permet de créer des audiences par le biais de définitions de segment directement à partir de la **Audiences** et exploitez-les dans vos parcours.  En savoir plus sur les audiences [dans cette page](../../audience/about-audiences.md). Découvrez comment créer des définitions de segment [dans cet exemple](../../audience/creating-a-segment-definition.md).
+1. **Créer des audiences** Journey Optimizer vous permet de créer des audiences via les définitions de segments directement à partir du menu **Audiences**, et de les exploiter dans vos parcours.  Pour en savoir plus sur les audiences, consultez [cette page](../../audience/about-audiences.md). Découvrez comment créer des définitions de segments [dans cet exemple](../../audience/creating-a-segment-definition.md).
 
 1. **Ajouter des éléments de personnalisation et un contenu dynamique**. Profitez des fonctionnalités de personnalisation et du contenu dynamique de Journey Optimizer pour adapter votre message à votre audience. En savoir plus sur la [personnalisation](../../personalization/personalize.md) et le [contenu dynamique](../../personalization/get-started-dynamic-content.md).
 
@@ -34,13 +34,13 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
 1. **Concevoir des parcours clients** pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
-   * Envoyer en temps réel **diffusion unitaire** déclenché lorsqu’un événement est reçu, ou **dans le lot** à l’aide des audiences Adobe Experience Platform.
+   * Envoyez des **diffusions unitaires** en temps réel déclenchées lors de la réception d’un événement ou **par lots** à l’aide d’audiences Adobe Experience Platform.
 
    * Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 
    * Utilisez les **actions de canal intégrées** (E-mail, SMS, Push) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
-   * Avec le **Concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
+   * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
 
    ![](../assets/journey-design.png)
 
