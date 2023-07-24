@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: e0f2a96054886737861e261173f68933cab56e99
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 
 ### Versions de parcours {#journey-versions-g}
 
-* Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas commencer un parcours avec un **Qualification de l’audience** .
-* Un parcours commençant par un **Qualification de l’audience** l’activité dans v1 doit toujours commencer par une **Qualification de l’audience** dans d’autres versions.
-* L’audience et l’espace de noms sélectionnés dans **Qualification de l’audience** (premier noeud) ne peut pas être modifié dans les nouvelles versions.
-* La règle de rentrée doit être la même dans toutes les versions du parcours.
-* Un parcours commençant par un **Lecture d’audience** ne peut pas commencer avec un autre événement dans les versions suivantes.
-* Vous ne pouvez pas créer de version d’un parcours d’audience de lecture avec lecture incrémentielle. Vous devez dupliquer le parcours.
+* Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement **Qualification d’audience**.
+* Un parcours commençant par une activité **Qualification d’audience** dans la version v1 doit toujours débuter avec une **qualification d’audience** dans d’autres versions.
+* L’audience et l’espace de noms sélectionnés dans **Qualification d’audience** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
+* La règle de reprise doit être la même dans toutes les versions du parcours.
+* Un parcours commençant par une **lecture d’audience** ne peut pas commencer par un autre événement dans les versions suivantes.
+* Vous ne pouvez pas créer de nouvelle version d’un parcours de lecture d’audience avec lecture incrémentielle. Vous devez dupliquer le parcours.
 
 ### Actions personnalisées {#custom-actions-g}
 
@@ -76,9 +76,9 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 ### Événements {#events-g}
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
-* Les événements professionnels ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
-* Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une barrière de sécurité qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
-* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, créez une audience basée sur ces événements et utilisez la variable **Lecture d’audience** à la place. La qualification de l’audience peut être techniquement utilisée, mais peut entraîner des défis en aval en fonction des actions utilisées.
+* Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
+* Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, créez une audience basée sur ces événements et utilisez l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée, mais peut entraîner des difficultés en aval en fonction des actions utilisées.
 
 ### Sources de données {#data-sources-g}
 
@@ -97,12 +97,12 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse e-mail, etc.).
 
-### Lecture d&#39;audience {#read-segment-g}
+### Lecture d’audience {#read-segment-g}
 
-* Les audiences diffusées en continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Ils ne sont évalués que tous les jours au moment de l’évaluation quotidienne des lots.
-* Pour les parcours qui utilisent une activité Lecture d’audience , un nombre maximum de parcours peut démarrer exactement en même temps. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture d’audience, planifié ou commençant &quot;dès que possible&quot;) à partir exactement en même temps en les répartissant dans le temps, par exemple entre 5 et 10 minutes d’intervalle.
+* Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
+* Pour les parcours qui utilisent une activité Lecture d’audience, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture d’audience, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
 
 ### Éditeur d’expression {#expression-editor}
 
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une audience de lecture, une qualification d’audience ou une activité d’événement commercial. Vous devez créer une audience et utiliser une condition d’inaudience dans le parcours.
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition dans l’audience dans le parcours.
 
