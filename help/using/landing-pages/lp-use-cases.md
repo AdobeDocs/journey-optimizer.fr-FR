@@ -10,9 +10,9 @@ level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -74,9 +74,9 @@ Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui s
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Développez l’objet **[!UICONTROL Événements]** catégorie et déposer un **[!UICONTROL Qualification de l’audience]** dans votre zone de travail. [En savoir plus](../building-journeys/audience-qualification-events.md).
+1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail. [En savoir plus](../building-journeys/audience-qualification-events.md).
 
-1. Cliquez sur dans le **[!UICONTROL Audience]** et sélectionnez la liste d’abonnements que vous avez créée.
+1. Cliquez dans le champ **[!UICONTROL Audience]** et sélectionnez la liste d’abonnements que vous avez créée.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
