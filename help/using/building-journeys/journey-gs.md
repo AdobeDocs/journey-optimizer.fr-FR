@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: parcours, premier, démarrage rapide, audience, événement, action
+keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1537'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
 
    ![](assets/jo-event7bis.png)
 
-1. **Création d’une audience**: votre parcours peut également écouter les audiences Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble spécifié de profils. Pour cela, vous devez créer des audiences. [En savoir plus](../audience/about-audiences.md).
+1. **Créer une audience** : votre parcours peut également écouter les audiences Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez créer des audiences. [En savoir plus](../audience/about-audiences.md).
 
    ![](assets/segment2.png)
 
@@ -45,7 +45,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 **Vue d’ensemble** : cet onglet affiche un tableau de bord avec les mesures clés liées à vos parcours :
 
 * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
-* **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours en direct incluent : **Parcours unitaires** (basé sur un événement) et **Parcours par lots** (lecture d’audience).
+* **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
 * **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
 * **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil rejeté représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou des règles de reprise.
 
@@ -59,7 +59,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
 ![](assets/journeys-browse.png)
 
-Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement d’entreprise]** ou **[!UICONTROL Burst]**.
+Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification d’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**.
 
 Vous pouvez choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** vous permettent également de sélectionner une date de publication ou un utilisateur ou une utilisatrice. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](../building-journeys/using-the-journey-designer.md).
 
@@ -88,7 +88,7 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
    ![](assets/jo-properties.png)
 
-1. Commencez par faire glisser un événement ou une **Lecture d’audience** de la palette vers la zone de travail. Pour en savoir plus sur la conception d&#39;un parcours, consultez [cette section](using-the-journey-designer.md).
+1. Commencez par effectuer un glisser-déposer d’un événement ou d’une activité **Lecture d’audience** de la palette vers la zone de travail. Pour en savoir plus sur la conception d&#39;un parcours, consultez [cette section](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -125,7 +125,7 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
-Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant qu’un profil puisse à nouveau entrer dans le parcours dans des parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes.
+Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes.
 
 Pour en savoir plus sur la gestion des entrées de profil, consultez [cette section](entry-management.md).
 
@@ -149,11 +149,11 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si vous ne spécifiez pas de date de fin, les profils peuvent rester jusqu’au délai d’expiration par défaut du parcours (généralement 30 jours, 7 jours avec l’offre de module complémentaire Healthcare Shield). La seule exception concerne les parcours d’audience de lecture récurrente avec **Forcer une nouvelle entrée lors de la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
+Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si vous ne spécifiez pas de date de fin, les profils peuvent rester jusqu’au délai d’expiration par défaut du parcours (généralement 30 jours, 7 jours avec l’offre de module complémentaire Healthcare Shield). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
-Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d&#39;erreur ou de temporisation. Si la durée de traitement de l&#39;activité qui interroge un système tiers dépasse la durée de temporisation définie dans les propriétés du parcours (champ **[!UICONTROL Temporisation et erreur]**), le deuxième chemin d&#39;accès est choisi pour effectuer une éventuelle action de remplacement.
+Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d&#39;erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans les propriétés du parcours (champ **[!UICONTROL Temporisation et erreur]**), le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
 
 Les valeurs autorisées sont comprises entre 1 et 30 secondes.
 
