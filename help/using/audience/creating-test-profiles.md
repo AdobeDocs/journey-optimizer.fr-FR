@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1363'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -117,31 +117,31 @@ Vous pouvez transformer un profil existant en profil de test : vous pouvez mett
 
 Pour ce faire, une méthode simple consiste à utiliser une activité d’action **[!UICONTROL Mettre à jour le profil]** dans un parcours et à redéfinir le champ booléen **testProfile** de false à true.
 
-Votre parcours sera composé d’un **[!UICONTROL Lecture d’audience]** et un **[!UICONTROL Mettre à jour le profil]** activité. Vous devez d’abord créer une audience ciblant les profils que vous souhaitez transformer en profils de test.
+Votre parcours sera composé d’une activité **[!UICONTROL Lecture d’audience]** et d’une activité **[!UICONTROL Mettre à jour le profil]**. Vous devez d’abord créer une audience ciblant les profils que vous souhaitez transformer en profils de test.
 
 >[!NOTE]
 >
 > Puisque vous allez mettre à jour le champ **testProfile**, les profils sélectionnés doivent inclure ce champ. Le schéma associé doit avoir le groupe de champs **Détails du test de profil**. Consultez [cette section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Accédez à **Audiences**, puis **Créer une audience**, en haut à droite.
+1. Accédez à **Audiences**, puis à **Créer une audience**, en haut à droite.
    ![](assets/test-profiles-22.png)
-1. Définissez un nom pour votre audience et créez l’audience : choisissez le(s) champ(s) et la(s) valeur(s) pour cibler les profils que vous souhaitez.
+1. Définissez un nom pour votre audience et créez l’audience : choisissez le ou les champs et la ou les valeurs pour cibler les profils de votre choix.
    ![](assets/test-profiles-23.png)
-1. Cliquez sur **Enregistrer** et vérifiez que les profils sont correctement ciblés par l&#39;audience.
+1. Cliquez sur **Enregistrer** et vérifiez que les profils sont correctement ciblés par l’audience.
    ![](assets/test-profiles-24.png)
 
    >[!NOTE]
    >
-   > Le calcul de l’audience peut prendre du temps. En savoir plus sur les audiences dans [cette section](../audience/about-audiences.md).
+   > Le calcul de l’audience peut prendre un certain temps. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-audiences.md).
 
-1. Créez maintenant un parcours et commencez par un **[!UICONTROL Lecture d’audience]** activité d’orchestration.
-1. Sélectionnez l’audience créée précédemment et l’espace de noms utilisé par vos profils.
+1. Créez maintenant un parcours et commencez par une activité d’orchestration **[!UICONTROL Lecture d’audience]**.
+1. Sélectionnez l’audience que vous venez de créer et l’espace de noms utilisé par vos profils.
    ![](assets/test-profiles-25.png)
 1. Ajoutez une activité d&#39;action **[!UICONTROL Mettre à jour le profil]**.
 1. Sélectionnez le schéma, le champ **testProfiles** et le jeu de données et définissez la valeur sur **true**. Pour ce faire, dans le champ **[!UICONTROL VALUE]**, cliquez sur l&#39;icône **Stylo** à droite, sélectionnez **[!UICONTROL Mode avancé]** et saisissez **true**.
    ![](assets/test-profiles-26.png)
 1. Cliquez sur **[!UICONTROL Publier]**.
-1. Dans le **[!UICONTROL Audiences]** , vérifiez que les profils ont été correctement mis à jour.
+1. Dans la section **[!UICONTROL Audiences]**, vérifiez que les profils ont été correctement mis à jour.
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
