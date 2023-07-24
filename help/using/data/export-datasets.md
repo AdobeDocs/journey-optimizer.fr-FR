@@ -5,13 +5,13 @@ title: Exporter des jeux de données vers des emplacements d’espace de stockag
 description: Découvrez comment exporter vos jeux de données à l’aide des destinations d’espace de stockage d’Adobe Experience Platform.
 role: User
 level: Beginner
-badge: label="Version bêta" type="Informative"
+badge: label="Version Beta" type="Informative"
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Des informations détaillées sur chaque étape sont disponibles dans la documen
 
    >[!NOTE]
    >
-   >Si vous utilisez Adobe Journey Optimizer avec des profils client en temps réel, les cartes de destination affichent un bouton &quot;Activer&quot;, ce qui vous permet à la fois d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
+   >Si vous utilisez Adobe Journey Optimizer avec des profils client en temps réel, les cartes de destination affichent un bouton « Activer ». Ce bouton vous permet d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
 
 1. **Sélectionnez le ou les jeux de données** que vous souhaitez exporter vers la destination sélectionnée.
 
