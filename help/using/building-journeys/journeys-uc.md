@@ -10,21 +10,21 @@ level: Intermediate
 keywords: cas d’utilisation, multicanal, messages, parcours, canal, événements, notification push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '868'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Cas d’utilisation : envoyer des messages multicanaux{#send-multi-channel-messages}
+# Cas d’utilisation : envoyer des messages multicanaux{#send-multi-channel-messages}
 
-Cette section présente un cas pratique qui combine une audience de lecture, un événement, des événements de réaction et des messages électroniques/push.
+Cette section présente un cas d’utilisation qui combine une lecture d’audience, un événement, des événements de réaction et des e-mails/messages push.
 
 ![](assets/jo-uc1.png)
 
 ## Description du cas d’utilisation
 
-Dans ce cas pratique, nous souhaitons envoyer un premier message (email et push) à tous les clients appartenant à une audience spécifique.
+Dans ce cas d’utilisation, nous souhaitons envoyer un premier message (e-mail et push) à tous les clientes et clients appartenant à une audience spécifique.
 
 Sur la base de leur réaction au premier message, nous voulons envoyer des messages spécifiques.
 
@@ -36,20 +36,20 @@ Ensuite, nous attendons un achat et envoyons un message push pour remercier le c
 
 Pour que ce cas d&#39;utilisation fonctionne, vous devez configurer les éléments suivants :
 
-* une audience pour tous les clients qui vivent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
-* un événement d&#39;achat
+* une audience pour tous les clientes et clients qui habitent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980 ;
+* un événement d’achat.
 
-### Création de l’audience
+### Créer l’audience
 
-Dans notre parcours, nous voulons exploiter une audience spécifique de clients. Tous les individus appartenant à l&#39;audience entrent dans le parcours et suivent les différentes étapes. Dans notre exemple, nous avons besoin d’une audience qui cible tous les clients vivant à Atlanta, San Francisco ou Seattle et nés après 1980.
+Dans notre parcours, nous voulons utiliser une audience spécifique de clientes et clients. Toutes les personnes appartenant à l’audience rejoignent le parcours et suivent les différentes étapes. Dans notre exemple, nous avons besoin d’une audience qui cible tous les clientes et clients qui vivent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980.
 
-Pour plus d&#39;informations sur les audiences, reportez-vous à cette section [page](../audience/about-audiences.md).
+Pour plus d’informations sur les audiences, reportez-vous à cette [page](../audience/about-audiences.md).
 
-1. Dans la section du menu CLIENT , sélectionnez **[!UICONTROL Audiences]**.
+1. Dans la section du menu CLIENT, sélectionnez **[!UICONTROL Audiences]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Créer une audience]** qui se trouve en haut à droite de la liste des audiences.
+1. Cliquez sur le bouton **[!UICONTROL Créer une audience]** situé en haut à droite de la liste d’audiences.
 
-1. Dans le **[!UICONTROL Propriétés d’audience]** , saisissez un nom pour l’audience.
+1. Dans le volet **[!UICONTROL Propriétés de l’audience]**, saisissez le nom de l’audience.
 
 1. Réalisez un glisser-déposer dans les champs de votre choix depuis le volet de gauche vers l&#39;espace de travail central, puis configurez-les en fonction de vos besoins. Dans cet exemple, nous utilisons les champs d&#39;attributs **Ville** et **Année de naissance**.
 
@@ -57,7 +57,7 @@ Pour plus d&#39;informations sur les audiences, reportez-vous à cette section [
 
    ![](assets/add-attributes.png)
 
-L’audience est maintenant créée et prête à être utilisée dans votre parcours. Utilisation d’une **Lecture d’audience** activité, vous pouvez faire entrer dans le parcours toutes les personnes appartenant à l’audience.
+L’audience est maintenant configurée et prête à être utilisée dans votre parcours. Grâce à une activité **Lecture d’audience**, vous pouvez faire en sorte que toutes les personnes appartenant à l’audience rejoignent le parcours.
 
 ### Configurer l&#39;événement
 
@@ -85,7 +85,7 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
 ## Concevoir le parcours
 
-1. Commencez le parcours par un **Lecture d’audience** activité. Sélectionnez l&#39;audience créée précédemment. Tous les individus appartenant à l&#39;audience entrent dans le parcours.
+1. Débutez le parcours avec une activité **Lecture d’audience**. Sélectionnez l’audience que vous venez de créer. Toutes les personnes appartenant à l’audience rejoignent le parcours.
 
    ![](assets/jo-uc4.png)
 
@@ -93,7 +93,7 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
    ![](assets/jo-uc5.png)
 
-1. Placez votre curseur sur l’activité d’e-mail et cliquez sur le symbole «␣+␣» pour créer un nouveau chemin.
+1. Placez votre curseur sur l’activité d’e-mail et cliquez sur le symbole « + » pour créer un nouveau chemin.
 
 1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre la version push du premier message.
 
