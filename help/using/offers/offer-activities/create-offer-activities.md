@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2164'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,17 +72,17 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 1. Utilisez le champ **[!UICONTROL Éligibilité]** pour restreindre la sélection des offres pour cet emplacement.
 
-   Cette contrainte peut être appliquée en utilisant une **règle de décision** ou un ou plusieurs **Audiences Adobe Experience Platform**. Ceux-ci sont présentés dans [cette section](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Cette contrainte peut être appliquée en utilisant une **règle de décision** ou une ou plusieurs **audiences Adobe Experience Platform**. Celles-ci sont présentées dans [cette section](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Pour restreindre la sélection des offres aux membres d’une audience Experience Platform, sélectionnez **[!UICONTROL Audiences]**, puis cliquez sur **[!UICONTROL Ajout d’audiences]**.
+   * Pour limiter la sélection des offres aux membres d’une audience Experience Platform, sélectionnez **[!UICONTROL Audiences]**, puis cliquez sur **[!UICONTROL Ajouter des audiences]**.
 
      ![](../assets/activity_constraint_segment.png)
 
-     Ajoutez une ou plusieurs audiences depuis le volet de gauche, puis combinez-les à l’aide de la fonction **[!UICONTROL Et]** / **[!UICONTROL Ou]** opérateurs logiques.
+     Ajoutez une ou plusieurs audiences depuis le volet de gauche, puis combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]**/**[!UICONTROL Ou]**.
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Découvrez comment utiliser les audiences dans [cette section](../../audience/about-audiences.md).
+     Découvrez comment utiliser des audiences dans [cette section](../../audience/about-audiences.md).
 
    * Si vous souhaitez ajouter une contrainte de sélection avec une règle de décision, utilisez l’option **[!UICONTROL Règle de décision]** et sélectionnez la règle de votre choix.
 
@@ -90,7 +90,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
      Découvrez comment créer une règle de décision dans [cette section](../offer-library/creating-decision-rules.md).
 
-1. Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur l’estimation des profils qualifiés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+1. Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
 
    >[!NOTE]
    >
