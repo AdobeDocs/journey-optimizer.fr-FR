@@ -10,9 +10,9 @@ level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -58,8 +58,8 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 
 * L’activité **[!UICONTROL Saut]** n’est disponible que dans les parcours utilisant un espace de noms.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
-* Vous ne pouvez pas accéder à un parcours qui commence par un **Qualification de l’audience** ou **Lecture d’audience**.
-* Vous ne pouvez pas avoir **[!UICONTROL Saut]** activité et une **Qualification de l’audience** ou **Lecture d’audience** dans le même parcours.
+* Vous ne pouvez pas accéder à un parcours commençant par un événement **Qualification d’audience** ou **Lecture d’audience**.
+* Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement **Qualification d’audience** ou **Lecture d’audience**.
 * Vous pouvez inclure autant d’activités **[!UICONTROL Saut]** que nécessaire dans un parcours. Après un **[!UICONTROL saut]**, vous pouvez ajouter toutes les activités nécessaires.
 * Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
 * Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
@@ -81,7 +81,7 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
    ![](assets/jump2.png)
 
 1. Cliquez dans le champ **Parcours cible**.
-La liste contient toutes les versions de parcours en version brouillon, version active ou en mode test. Parcours qui utilisent un autre espace de noms ou qui commencent par un **Qualification de l’audience** ne sont pas disponibles. Les parcours cible qui créeraient un schéma de boucle sont également filtrés.
+La liste contient toutes les versions de parcours en version brouillon, version active ou en mode test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement **Qualification d’audience** ne sont pas disponibles. Les parcours cible qui créeraient un schéma de boucle sont également filtrés.
 
    ![](assets/jump3.png)
 
