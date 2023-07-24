@@ -1,61 +1,61 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation d’une audience dans un parcours
-description: Découvrez comment utiliser une audience dans un parcours
+title: Utiliser une audience dans un parcours
+description: Découvrez comment utiliser une audience dans un parcours.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: activité, parcours, lecture, audience, plateforme
+keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Utilisation d’une audience dans un parcours {#segment-trigger-activity}
+# Utiliser une audience dans un parcours {#segment-trigger-activity}
 
-## Ajout d’une activité Lecture d’audience {#about-segment-trigger-actvitiy}
+## Ajouter une activité Lecture d’audience {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Activité Lecture d’audience"
->abstract="L’activité Lecture d’audience permet de faire entrer dans un parcours toutes les personnes appartenant à une audience Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement."
+>abstract="L’activité Lecture d’audience vous permet de faire entrer dans un parcours toutes les personnes appartenant à une audience Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement."
 
-Utilisez la variable **Lecture d’audience** pour que toutes les personnes d’une audience entrent dans le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
+Utilisez l’activité **Lecture d’audience** pour que toutes les personnes d’une audience rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
-Prenons comme exemple l’audience &quot;Ouverture et passage en caisse de l’application Luma&quot; créée dans la variable [Création d’audiences](../audience/about-audiences.md) cas d’utilisation. Avec l’activité Lecture d’audience , vous pouvez faire entrer dans un parcours toutes les personnes appartenant à cette audience et les faire passer dans des parcours personnalisés qui exploiteront toutes les fonctionnalités de parcours : conditions, minuteurs, événements, actions.
+Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’application Luma » créée dans le cas d’utilisation de [Création d’audiences](../audience/about-audiences.md). Avec l’activité Lecture d’audience, vous pouvez faire en sorte que toutes les personnes appartenant à cette audience rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, retardateurs, événements, actions.
 
 >[!NOTE]
 >
->Pour les parcours qui utilisent une activité Lecture d’audience , un nombre maximum de parcours peut démarrer exactement en même temps. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture d’audience, planifié ou commençant &quot;dès que possible&quot;) à partir exactement en même temps en les répartissant dans le temps, par exemple entre 5 et 10 minutes d’intervalle.
+>Pour les parcours qui utilisent une activité Lecture d’audience, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture d’audience, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
 >
->Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une audience de lecture, une qualification d’audience ou une activité d’événement commercial.
+>Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
 
-### Configuration de l’activité {#configuring-segment-trigger-activity}
+### Configurer l’activité {#configuring-segment-trigger-activity}
 
-Les étapes de configuration de l’activité Lecture d’audience sont les suivantes :
+Les étapes de configuration de l’activité Lecture d’audience sont les suivantes :
 
-1. Développez l’objet **[!UICONTROL Orchestration]** catégorie et déposer une **[!UICONTROL Lecture d’audience]** dans votre zone de travail.
+1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lecture d’audience]** dans votre zone de travail.
 
    L’activité doit être la première étape d’un parcours.
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité (facultatif).
 
-1. Dans le **[!UICONTROL Audience]** , sélectionnez l’audience Adobe Experience Platform qui renverra au parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans le champ **[!UICONTROL Audience]**, sélectionnez l’audience Adobe Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
    >[!NOTE]
    >
-   >Seuls les individus dotés de la fonction **Réalisé** et **Existant** les états de participation de l’audience entrent dans le parcours . Pour plus d’informations sur l’évaluation d’une audience, reportez-vous à la section [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+   >Seules les personnes présentant les statuts de participationd&#39;audience **Réalisé** et **Existant** rejoignent le parcours. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
 
    ![](assets/read-segment-selection.png)
 
-   Une fois l’audience ajoutée, la variable **[!UICONTROL Copier]** permet de copier son nom et son identifiant :
+   Une fois l’audience ajoutée, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
@@ -65,29 +65,29 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >Les personnes appartenant à une audience qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas entrer dans le parcours. Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
+   >Les personnes appartenant à une audience qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours. Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
-1. Définissez la variable **[!UICONTROL Taux de ralentissement]** à la limite de débit de l’activité de lecture d’audience.
+1. Définissez le champ **[!UICONTROL Taux de limitation]** sur la limite du débit de l’activité Lecture d’audience.
 
    Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 5 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 20 000 messages par seconde.
 
    >[!NOTE]
    >
-   >Le taux de limitation global par sandbox est défini sur 20 000 messages par seconde. Par conséquent, le taux de ralentissement de toutes les audiences lues qui s’exécutent simultanément dans le même environnement de test s’élève à 20 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
+   >Le taux de limitation global par sandbox est défini sur 20 000 messages par seconde. Par conséquent, le taux de limitation de toutes les lectures d’audiences qui s’exécutent simultanément dans la même sandbox s’élève à 20 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
-1. Le **[!UICONTROL Lecture d’audience]** l’activité vous permet de spécifier l’heure à laquelle l’audience entre dans le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de Planificateur]**.
+1. L’activité **[!UICONTROL Lecture d’audience]** vous permet de spécifier l’heure à laquelle l’audience rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de planificateur]**.
 
    ![](assets/read-segment-schedule.png)
 
-   Par défaut, les audiences entrent dans le parcours **[!UICONTROL Dès que possible]**. Si vous souhaitez que l’audience entre le parcours à une date/heure spécifique ou de manière récurrente, sélectionnez la valeur souhaitée dans la liste.
+   Par défaut, les audiences rejoignent le parcours **[!UICONTROL le plus tôt possible]**. Si vous souhaitez que l’audience rejoigne le parcours à une date et une heure spécifiques ou de façon récurrente, sélectionnez la valeur de votre choix dans la liste.
 
    >[!NOTE]
    >
-   >Notez que la variable **[!UICONTROL Planification]** n’est disponible que lorsqu’une **[!UICONTROL Lecture d’audience]** l’activité a été déposée dans la zone de travail.
+   >Notez que la section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture d’audience]** a été déposée dans la zone de travail.
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Lecture incrémentale** option : lorsqu’un parcours avec un événement récurrent **Lecture d’audience** s’exécute pour la première fois, tous les profils de l’audience entrent dans le parcours. Cette option permet de cibler, après la première occurrence, uniquement les individus entrés dans l&#39;audience depuis la dernière exécution du parcours.
+   Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture d’audience** s’exécute pour la première fois, tous les profils de l’audience rejoignent le parcours. Cette option vous permet de cibler, après la première occurrence, seulement les personnes qui sont entrées dans l’audience depuis la dernière exécution du parcours.
 
    **Forcer une reprise sur une périodicité** : cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Par exemple, si vous avez un délai d’attente de 2 jours dans un parcours récurrent quotidien, l’activation de cette option déplacera toujours les profils lors de la prochaine exécution du parcours (c’est-à-dire le lendemain), qu’ils se trouvent ou non dans l’audience d’exécution suivante. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité, n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
 
@@ -112,11 +112,11 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Les parcours Lecture d’audience en une seule prise passent à l’état Terminé 30 jours après l’exécution du parcours. Pour les audiences de lecture planifiées, il s’agit de 30 jours après l’exécution de la dernière occurrence.
+>Les parcours de lecture d’audience en une fois passent au statut Terminé 30 jours après l’exécution du parcours. Pour la Lecture d’audience planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence.
 
 ### Tester et publier le parcours {#testing-publishing}
 
-Le **[!UICONTROL Lecture d’audience]** l’activité permet de tester le parcours soit sur un profil unitaire, soit sur 100 profils de test aléatoires sélectionnés parmi les profils qualifiés pour l’audience.
+L’activité **[!UICONTROL Lecture d’audience]** vous permet de tester le parcours sur un profil unitaire ou sur 100 profils de test aléatoires sélectionnés parmi les profils qualifiés pour l’audience.
 
 Pour cela, activez le mode test, puis sélectionnez l’option de votre choix dans le volet de gauche.
 
@@ -128,25 +128,25 @@ Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les j
 
 * **[!UICONTROL Profil unique à la fois]** : les journaux de test affichent les mêmes informations que lors de l’utilisation du mode test unitaire. Voir à ce propos [cette section](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Jusqu’à 100 profils à la fois]**: les logs de test vous permettent de suivre la progression de l&#39;export de l&#39;audience depuis Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes qui sont entrées dans le parcours.
+* **[!UICONTROL Jusqu’à 100 profils à la fois]** : les journaux de test vous permettent de suivre l’avancement de l’exportation des audiences à partir d’Adobe Experience Platform, ainsi que la progression individuelle de toutes les personnes ayant rejoint le parcours.
 
   Notez que tester le parcours en utilisant jusqu’à 100 profils à la fois ne vous permet pas de suivre la progression des individus dans le parcours à l’aide du flux visuel.
 
   ![](assets/read-segment-log.png)
 
-Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant à l’audience entreront le parcours à la date/heure spécifiée dans les propriétés du parcours. **[!UICONTROL Planificateur]** .
+Une fois les tests réussis, vous pouvez publier votre parcours (voir [Publication du parcours](publishing-the-journey.md)). Les personnes appartenant à l’audience rejoindront le parcours à la date et à l’heure spécifiées dans la section **[!UICONTROL Planificateur]** des propriétés du parcours.
 
 >[!NOTE]
 >
->Pour les parcours récurrents basés sur l’audience, le parcours se ferme automatiquement une fois sa dernière occurrence exécutée. Si aucune date/heure de fin n&#39;a été spécifiée, vous devrez fermer manuellement le parcours à de nouvelles entrées pour le terminer.
+>Pour les parcours récurrents basés sur des audiences, le parcours se ferme automatiquement une fois sa dernière occurrence exécutée. Si aucune date/heure de fin n’a été spécifiée, vous devrez fermer manuellement le parcours à de nouvelles entrées pour le terminer.
 
-## Ciblage d’audience dans les parcours basés sur l’audience
+## Ciblage des audiences dans les parcours basés sur des audiences
 
-Les parcours basés sur l’audience commencent toujours par un **Lecture d’audience** pour récupérer les individus appartenant à une audience Adobe Experience Platform.
+Les parcours basés sur des audiences débutent toujours avec une activité **Lecture d’audience** pour récupérer les personnes appartenant à une audience Adobe Experience Platform.
 
-L’audience appartenant à l’audience est récupérée une ou plusieurs fois régulièrement.
+L’audience appartenant à l’audience est récupérée une fois ou régulièrement.
 
-Après avoir accédé au parcours, vous pouvez créer des cas d’utilisation d’orchestration de l’audience, ce qui permet aux individus de l’audience initiale d’entrer dans différentes branches du parcours.
+Après l’entrée dans le parcours, vous pouvez créer des cas d’utilisation d’orchestration des audiences, ce qui permet aux personnes du flux d’audience initiale de progresser dans différentes branches du parcours.
 
 **Segmentation**
 
@@ -166,7 +166,7 @@ La segmentation peut être basée sur :
 
 La même activité **Condition** utilisée pour la segmentation (voir ci-dessus) vous permet également d’exclure une partie de la population. Par exemple, vous pouvez exclure les personnes VIP en les faisant glisser dans une branche avec une étape de fin juste après.
 
-Cette exclusion peut se produire juste après la récupération de l’audience, à des fins de comptage de la population ou le long d’un parcours à plusieurs étapes.
+Cette exclusion peut se produire juste après la récupération des audiences, à des fins de comptage de population ou sur un parcours à plusieurs étapes.
 
 ![](assets/read-segment-audience2.png)
 
