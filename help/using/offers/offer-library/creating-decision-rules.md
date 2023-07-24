@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Nommez votre règle et fournissez une description, puis configurez-la en fonction de vos besoins.
 
-   Pour ce faire, le Adobe Experience Platform **Créateur de segments** est disponible pour vous aider à créer les conditions de la règle. [Découvrez comment créer des définitions de segment](../../audience/creating-a-segment-definition.md)
+   Pour ce faire, le **Créateur de segments** d’Adobe Experience Platform est disponible pour vous aider à créer les conditions de la règle. [Découvrez comment créer des définitions de segment](../../audience/creating-a-segment-definition.md).
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -43,7 +43,7 @@ Pour créer cette règle de décision, procédez comme suit :
    >
    >Le Créateur de segments fourni pour créer des règles de décision présente certaines spécificités par rapport à celui utilisé avec le service **[!UICONTROL Segmentation]**. Cependant, le processus global décrit dans la documentation du [Créateur de segments](../../audience/creating-a-segment-definition.md) est toujours valide pour créer des règles de décision d’offre. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr).
 
-1. À mesure que vous ajoutez et configurez de nouveaux champs dans l’espace de travail, la variable **[!UICONTROL Propriétés d’audience]** affiche des informations sur les profils estimés appartenant à l’audience. Cliquez sur **[!UICONTROL Actualiser l’estimation]** pour mettre à jour les données.
+1. À mesure que vous ajoutez et configurez de nouveaux champs dans l’espace de travail, le volet **[!UICONTROL Propriétés de l’audience]** affiche des informations sur l’estimation des profils appartenant à l’audience. Cliquez sur **[!UICONTROL Actualiser l’estimation]** pour mettre à jour les données.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
