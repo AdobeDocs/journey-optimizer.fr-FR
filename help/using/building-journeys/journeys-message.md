@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez également configurer des actions spécifiques pour vous envoyer des
 
 Pour ajouter un message dans un parcours, procédez comme suit :
 
-1. Commencez votre parcours par une [Événement](general-events.md) ou [Lecture d’audience](read-audience.md) activité.
+1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 
 1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité **E-mail**, **In-app**, **SMS** ou **Push** dans la zone de travail.
 
