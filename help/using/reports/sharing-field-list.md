@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -59,12 +59,12 @@ Ce mixin contient tous les champs correspondant à une tâche d’exportation de
 
 | Nom du champ | Type | Description |
 |---|---|------------|
-| Identifiant | Chaîne | L’identifiant de la tâche d’exportation d’audience déclenchée |
-| statut | Chaîne | Statut de la tâche d&#39;export d&#39;audience : en file d’attente, commencé, terminé |
-| exportCountTotal | Nombre entier | Valeur maximale possible de la tâche d’exportation d’audience |
-| exportCountRealized | Nombre entier | Nombre réel d’audiences exportées par le biais de la tâche |
-| exportCountFailed | Nombre entier | Nombre d’audiences ayant échoué lors de l’exportation via la tâche |
-| exportSegmentID | Chaîne | Identifiant de l&#39;audience exportée |
+| Identifiant | Chaîne | Identifiant du traitement d’export d’audiences déclenchée |
+| statut | Chaîne | Statut du traitement d’export d’audiences : en file d’attente, commencé, terminé |
+| exportCountTotal | Nombre entier | Valeur maximale possible du traitement d’export d’audiences |
+| exportCountRealized | Nombre entier | Nombre réel d’audiences exportées par le traitement |
+| exportCountFailed | Nombre entier | Nombre d’audiences ayant échoué lors de l’export par le traitement |
+| exportSegmentID | Chaîne | Identifiant de l’audience à exporter |
 | eventType | Chaîne | Type d’événement indiquant s’il s’agit d’un événement d’erreur ou d’un événement d’information : Info, Erreur |
 | eventCode | Chaîne | Le code d’erreur indiquant la raison eventType correspondant |
 
