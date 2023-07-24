@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 
 ![](assets/journey49.png)
 
-## Activités d&#39;action {#action-activities}
+## Activités d’action {#action-activities}
 
 Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client ou la cliente effectue.
 
