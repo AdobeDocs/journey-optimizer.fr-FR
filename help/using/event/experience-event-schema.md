@@ -10,9 +10,9 @@ level: Intermediate
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Un schéma XDM destiné aux événements [!DNL Journey Optimizer] doit répondre
 
 Adobe Experience Platform vous permet de définir des relations entre les schémas afin d&#39;utiliser un jeu de données comme table de choix pour un autre.
 
-Supposons que votre modèle de données de marque dispose d&#39;un schéma qui capture les achats. Vous possédez également un schéma pour le catalogue de produits. Vous pouvez capturer l&#39;identifiant de produit dans le schéma d&#39;achat et utiliser une relation pour rechercher des détails de produit plus complets dans le catalogue de produits. Cela vous permet de créer une audience pour tous les clients qui ont acheté un ordinateur portable, par exemple, sans avoir à répertorier explicitement tous les ID d’ordinateur portable ou à capturer tous les détails de produit dans les systèmes transactionnels.
+Supposons que votre modèle de données de marque dispose d&#39;un schéma qui capture les achats. Vous possédez également un schéma pour le catalogue de produits. Vous pouvez capturer l&#39;identifiant de produit dans le schéma d&#39;achat et utiliser une relation pour rechercher des détails de produit plus complets dans le catalogue de produits. Vous pouvez ainsi créer une audience pour tous les clientes et clients qui ont acheté un ordinateur portable, par exemple, sans avoir à répertorier explicitement tous les identifiants d’ordinateur portable ou à capturer tous les détails de produit dans les systèmes transactionnels.
 
 Pour définir une relation, vous devez disposer d&#39;un champ dédié dans le schéma source, dans ce cas le champ d&#39;identifiant de produit dans le schéma d&#39;achat. Ce champ doit référencer le champ Identifiant du produit dans le schéma de destination. Les tables source et de destination doivent être activées pour les profils et le champ commun du schéma de destination doit être défini comme identité principale.
 
