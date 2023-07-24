@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Volet de configuration de ces éléments :
   <tr>
     <td>
 
-Déclenchez un événement dans un parcours basé sur l’audience pour lequel la variable **[!UICONTROL Profil unique à la fois]** l’option est activée.
+Déclenchement d’un événement dans un parcours basé sur des audiences pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée
 
 </td>
     <td>P</td>
