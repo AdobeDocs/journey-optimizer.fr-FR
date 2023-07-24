@@ -10,9 +10,9 @@ level: Intermediate
 keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1062'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Le contrôle d’accès basé sur attribut (ABAC) permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, ce qui permet une protection supplémentaire des données personnelles.
 
-Dans Adobe Journey Optimizer, ABAC vous permet de protéger les données et d’accorder un accès spécifique à des éléments de champ spécifiques, y compris des schémas de modèle de données d’expérience (XDM), des attributs de profil et des audiences.
+Dans Adobe Journey Optimizer, l’ABAC vous permet de protéger les données et d’accorder un accès spécifique à des éléments de champ spécifiques, y compris des schémas de modèle de données d’expérience (XDM), des attributs de profil et des audiences.
 
 Pour obtenir une liste plus détaillée de la terminologie utilisée avec ABAC, reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr).
 
@@ -90,7 +90,7 @@ Les utilisateurs de la variable **Rôle démographique limité** ont désormais 
 Les **[!UICONTROL libellés]** peuvent être utilisé pour attribuer des zones de fonctionnalités spécifiques à l’aide du contrôle d’accès basé attribut.
 Dans cet exemple, nous allons restreindre l’accès au champ **Nationalité**. Ce champ est accessible uniquement aux utilisateurs qui disposent du **[!UICONTROL Libellé]** correspondant à leur **[!UICONTROL Rôle]**.
 
-Notez que vous pouvez également ajouter  **[!UICONTROL Libellé]** to  **[!UICONTROL Schéma]**,  **[!UICONTROL Jeux de données]** et  **[!UICONTROL Audiences]**.
+Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** à un **[!UICONTROL schéma]**, à des **[!UICONTROL jeux de données]** et à des **[!UICONTROL audiences]**.
 
 1. Créez votre **[!UICONTROL Schéma]**. Voir à ce propos [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr).
 
