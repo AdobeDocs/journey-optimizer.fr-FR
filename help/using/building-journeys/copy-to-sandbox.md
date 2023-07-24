@@ -10,9 +10,9 @@ level: Intermediate
 keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 85%
 >title="Objets dépendants"
 >abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne."
 
-Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, surfaces (c’est-à-dire paramètres prédéfinis), schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](#limitations).
+Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : les audiences, les surfaces (c’est-à-dire les préréglages), les schémas, les événements et les actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](#limitations).
 
 >[!CAUTION]
 >
@@ -80,9 +80,9 @@ Tous les éléments liés peuvent ne pas être copiés dans le sandbox de destin
 
 Les objets suivants sont copiés :
 
-* Audience   
+* Audience
 
-  Une audience ne peut être copiée qu’une seule fois d’un environnement de test à un autre. Une fois une audience copiée, elle n’est pas modifiable sur l’environnement de test de destination.
+  Une audience ne peut être copiée qu’une seule fois d’une sandbox à une autre. Une audience ayant été copiée n’est pas modifiable sur la sandbox de destination.
 
 * Schéma
 
@@ -94,7 +94,7 @@ Les objets suivants sont copiés :
 
 * Parcours : détails de la zone de travail
 
-  Représentation du parcours sur la zone de travail, y compris les objets du parcours tels que les conditions, les actions, les événements, les audiences de lecture, etc. L’activité Saut n’est pas copiée.
+  Représentation du parcours sur la zone de travail, y compris les objets du parcours tels que les conditions, les actions, les événements, la lecture d’audience, etc. L’activité Saut n’est pas copiée.
 
 * Événement
 
@@ -106,6 +106,6 @@ Les objets suivants sont copiés :
 
 Les surfaces (c’est-à-dire les préréglages) ne sont pas copiées. Le système sélectionne automatiquement la correspondance la plus proche possible sur le sandbox de destination, en fonction du type de message et du nom de la surface. Si aucune surface n’est trouvée sur le sandbox cible, le processus de copie de la surface échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’une surface soit disponible pour la configuration. Dans ce cas, au moins une surface doit être créée, pour le bon canal du message, afin que la copie fonctionne.
 
-Pour les schémas, les stratégies de fusion et les audiences, la deuxième fois que ces objets tentent d’être copiés, ils ne sont référencés que. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
+Pour les schémas, les politiques de fusion et les audiences, la deuxième fois que ces objets tenteront d’être copiés, ils seront seulement référencés. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
 
-Il y a un délai de cinq minutes avant que Adobe Journey Optimizer puisse référencer des schémas, des stratégies de fusion et des audiences sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.
+Un délai de cinq minutes est nécessaire pour qu’Adobe Journey Optimizer puisse référencer les schémas, les politiques de fusion et les audiences sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.
