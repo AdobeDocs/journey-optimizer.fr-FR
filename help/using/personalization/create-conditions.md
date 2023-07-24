@@ -10,15 +10,15 @@ level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Utiliser des règles conditionnelles {#conditions}
 
-Les règles conditionnelles sont des ensembles de règles qui définissent le contenu à afficher dans vos messages, selon divers critères tels que les attributs des profils, l’appartenance à l’audience ou les événements contextuels.
+Les règles conditionnelles sont des ensembles de règles qui définissent le contenu à afficher dans vos messages, suivant différents critères tels que les attributs des profils, l’appartenance à une audience ou les événements contextuels.
 
 Les règles conditionnelles sont créées à l’aide de l’éditeur d’expression et peuvent être mémorisées si vous souhaitez les réutiliser dans vos contenus. [Découvrez comment enregistrer une règle conditionnelle dans la bibliothèque](#save)
 
@@ -60,13 +60,13 @@ Les étapes de combinaison des attributs dans la zone de travail sont similaires
 
     ![](assets/conditions-create.png)
     
-    Les attributs sont organisés en trois onglets :
+    Les attributs sont organisés en trois onglets :
     
-    * **[!UICONTROL Profil]**:
-    * **[!UICONTROL Audiences]** liste tous les attributs d’audience (état, version, etc.) pour [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-    * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [schéma de modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) défini dans Adobe Experience Platform.
-    * **[!UICONTROL Contextuel]**: lorsque votre message est utilisé dans un parcours, les champs de parcours contextuels sont disponibles via cet onglet.
-    * **[!UICONTROL Audiences]**: répertorie toutes les audiences générées à partir des définitions de segment créées dans [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    * **[!UICONTROL Profil]** :
+    * **[!UICONTROL Audiences]** liste tous les attributs d’audience (c’est-à-dire le statut, la version, etc.) pour le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr),
+    * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [schéma de modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) défini dans Adobe Experience Platform.
+    * **[!UICONTROL Contextuel]** : lorsque le message est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans cet onglet.
+    * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des définitions de segment créées dans le [service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 1. Une fois votre règle conditionnelle prête, vous pouvez l’ajouter à votre message pour créer du contenu dynamique. [Découvrez comment ajouter du contenu dynamique](dynamic-content.md)
 
