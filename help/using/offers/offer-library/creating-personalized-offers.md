@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Pour créer une **offre**, procédez comme suit :
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur l’estimation des profils qualifiés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+   >Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
    >
    >Notez que les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
 
