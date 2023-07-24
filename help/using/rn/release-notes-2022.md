@@ -5,9 +5,9 @@ title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3575'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* Le **Force une réentrée sur une période récurrente** a été ajoutée dans les paramètres récurrents de planification de l’audience de lecture. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* L’option **Forcer une reprise sur une périodicité** a été ajoutée dans les paramètres de planning de lecture d’audience récurrente. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administration**
 
@@ -207,7 +207,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 **Parcours**
 
 * Le **jeu de données d’entité** est désormais disponible en tant que jeu de données prêt à l’emploi dans Adobe Journey Optimizer. Ce jeu de données de recherche comprend des métadonnées pour enrichir les informations des jeux de données de tracking et de commentaires. Vous pourrez ainsi améliorer vos rapports et requêtes avec des données plus compréhensibles. [En savoir plus](../data/datasets-query-examples.md#entity-dataset)
-* Une nouvelle barrière de sécurité a été ajoutée aux parcours unitaires (commençant par un événement ou une qualification d’audience) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
+* Un nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification d’audience) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -235,8 +235,8 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 ### Autres modifications{#sept-2022-other}
 
 * Le mode de parcours en rafale a été remplacé par le mode de diffusion rapide des campagnes. [En savoir plus](../push/create-push.md#rapid-delivery)
-* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par une audience de lecture, une qualification d’audience ou une activité d’événement professionnel. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. [En savoir plus](../start/guardrails.md#expression-editor)
-* La limitation d’une heure pour les parcours d’audience de lecture programmée a été supprimée. Ces parcours peuvent désormais être exécutés sans délai.
+* Pour améliorer les performances, les groupes de champs d’événement d’expérience ne peuvent plus être utilisés dans les parcours commençant par une lecture d’audience, une qualification d’audience ou une activité d’événement métier. Cette modification s’applique uniquement aux nouveaux parcours. Ceux qui existent déjà conserveront le comportement actuel. [En savoir plus](../start/guardrails.md#expression-editor)
+* La limitation d’une heure pour les parcours de lecture d’audience planifiés a été supprimée. Ces parcours peuvent désormais être exécutés sans délai.
 
 
 
@@ -254,7 +254,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>Utilisez les campagnes Journey Optimizer pour diffuser du contenu ponctuel à une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
+<p>Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/346680">vidéo sur les fonctionnalités</a>.
 </td>
@@ -408,7 +408,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Gestion des décisions**
 
-* **Taille de l’audience** - Un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’une audience ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’une audience ou d’une règle à une portée de décision.
+* **Taille de l’audience** : un nouveau composant d’estimation de la taille de l’audience s’affiche désormais dans l’interface utilisateur lors de la création d’une règle de décision, lors de la sélection d’une audience ou d’une règle pour définir l’éligibilité d’une offre ou lors de l’ajout d’une audience ou d’une règle à une portée de décision.
 
 
 ## Version de juin 2022 {#june-2022-release}
@@ -615,7 +615,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* **Lecture d’audience** - Les parcours de lecture d’audience en une seule prise passent désormais à l’état Terminé 30 jours après l’exécution du parcours. Pour les audiences de lecture planifiées, il s’agit de 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-audience.md)
+* **Lecture d’audience** : les parcours de lecture d’audience en une seule fois sont désormais mis au statut Terminé 30 jours après l’exécution du parcours. Pour la Lecture d’audience planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence. [En savoir plus](../building-journeys/read-audience.md)
 * **Éditeur d’expression** : la fonction [limit](../building-journeys/functions/functionlimit.md) a été ajoutée pour vous permettre de limiter le nombre d’éléments d’une liste. La fonction [sort](../building-journeys/functions/functionsort.md) vous permet désormais de trier un objet de liste. La prise en charge de listObject a également été ajoutée aux fonctions [Disctinct](../building-journeys/functions/functiondistinct.md) et [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Administration**
@@ -673,7 +673,7 @@ En tant que client d’Adobe Campaign Standard, vous pouvez désormais envoyer d
 **Gestion des décisions**
 
 * Vous pouvez désormais spécifier si la limitation de l’offre est appliquée à tous les utilisateurs ou à un profil spécifique, à tous les emplacements ou par emplacement. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
-* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité de gestion de la décision pour tous les profils d’une audience donnée en un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* L’API Batch Decisioning permet aux entreprises d’utiliser la fonctionnalité de gestion des décisions pour tous les profils d’une audience donnée en un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données AEP où il est disponible pour les workflows par lots personnalisés. [En savoir plus](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -800,13 +800,13 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Parcours - Amélioration de l’audience</strong><br/></th>
+<th><strong>Parcours : amélioration de la lecture d’audience.</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le <strong>Lecture incrémentale</strong> a été ajoutée à l’option récurrente <strong>Lecture d’audience</strong> activités. Cette option permet de ne cibler que les individus entrés dans l'audience depuis la dernière exécution du parcours. La première exécution cible toujours tous les membres de l’audience.</p>
+<p>Lʼoption <strong>Lecture incrémentielle</strong> a été ajoutée aux activités <strong>Lecture d’audience</strong> récurrentes. Cette option permet de cibler uniquement les personnes qui sont entrées dans l’audience depuis la dernière exécution du parcours. La première exécution cible toujours toutes les personnes membres de l’audience.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">documentation détaillée</a>.
 </td>
 </tr>
