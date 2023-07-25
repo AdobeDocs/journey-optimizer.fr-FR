@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
+source-git-commit: e384991599c19f72910f299350c0839fa16b4588
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 25%
+source-wordcount: '639'
+ht-degree: 27%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 25%
 
 Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version. Les liens, les écrans et la documentation mise à jour sont publiés dans la section [notes de mise à jour](release-notes.md), à la date de publication.
 
-
 ## Notes de mise à jour initiales de juillet 2023 {#july-rn-2023}
 
 **Date de publication**: 26-27 juillet
@@ -26,23 +25,6 @@ Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans p
 ### Nouvelles fonctionnalités{#july-2023-features}
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
-
-<table>
-<thead>
-<tr>
-<th><strong>API de modèles de contenu</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais créer et gérer des modèles de contenu Adobe Journey Optimizer à l’aide d’API dédiées, ce qui vous permet d’intégrer facilement votre système de contenu existant.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -62,23 +44,22 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Canal courrier</strong><br/></th>
+<th><strong>Direct mail channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais ajouter des messages de courrier dans vos campagnes. Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer les fichiers requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.</p>
-<p>Lors de la préparation d'une diffusion courrier, Journey Optimizer génère un fichier comprenant tous les profils ciblés et les coordonnées de contact sélectionnées (adresse postale, par exemple). Vous pourrez alors envoyer ce fichier à votre opérateur de services postaux qui prendra en charge l'envoi réel.</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>Pour plus d’informations, consultez la <a href="../direct-mail/create-direct-mail.md">documentation détaillée</a>.</p>
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -110,6 +91,23 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <p>Outre les campagnes et les parcours, vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos landing pages, modèles de contenu, fragments et listes d’abonnements. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>API de modèles de contenu</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer et gérer des modèles de contenu Adobe Journey Optimizer à l’aide d’API dédiées, ce qui vous permet d’intégrer facilement votre système de contenu existant.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -149,8 +147,8 @@ Authentification des API Adobe Journey Optimizer : la méthode JWT pour génére
 
 **Autres modifications**
 
-Les jeux de données Journey Optimizer exportés vers les destinations de stockage dans le cloud sont désormais disponibles pour tous les clients. Cette fonctionnalité vous permet d’établir une connexion en direct avec les emplacements de stockage dans le cloud afin d’exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
+Les jeux de données Journey Optimizer exportés vers les destinations de stockage dans le cloud sont désormais disponibles pour tous les clients en tant que version bêta publique. Cette fonctionnalité vous permet d’établir une connexion en direct avec les emplacements de stockage dans le cloud afin d’exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
 
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en version bêta et peut être modifiée.</p>
+
+
+
