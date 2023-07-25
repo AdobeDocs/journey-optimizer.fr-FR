@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
+source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
 workflow-type: tm+mt
-source-wordcount: '3125'
+source-wordcount: '3105'
 ht-degree: 85%
 
 ---
@@ -127,10 +127,10 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-**Parcours**
+<!--**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une action personnalisée.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+A new type of system alert has been introduced. You can now get notified when a custom action fails.-->
 
 
 **Campagnes**
