@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 56%
 
 ---
@@ -153,14 +153,14 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## Tutoriels vidéo{#video}
 
+* La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+
+
 * La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test AB.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
-
-* La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test AB.
-
-
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
 
 
