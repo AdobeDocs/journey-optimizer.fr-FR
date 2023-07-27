@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1388'
+ht-degree: 92%
 
 ---
 
@@ -67,13 +67,13 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
    >
    >Les personnes appartenant à une audience qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours. Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
-1. Définissez le champ **[!UICONTROL Taux de limitation]** sur la limite du débit de l’activité Lecture d’audience.
+1. Définissez la variable **[!UICONTROL Taux de ralentissement]**. Il s’agit du nombre maximum de profils pouvant entrer dans l’audience de lecture par seconde. Ce taux s&#39;applique uniquement à cette activité. Il ne s&#39;applique pas aux autres activités du parcours. Si vous souhaitez définir un taux de ralentissement pour les actions personnalisées, par exemple, vous devez utiliser l’API de ralentissement. Voir cette [page](../configuration/throttling.md).
 
-   Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 5 000 messages par seconde. Vous pouvez modifier cette valeur de 500 à 20 000 messages par seconde.
+   Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 5 000 profils par seconde. Vous pouvez modifier cette valeur de 500 à 20 000 profils par seconde.
 
    >[!NOTE]
    >
-   >Le taux de limitation global par sandbox est défini sur 20 000 messages par seconde. Par conséquent, le taux de limitation de toutes les lectures d’audiences qui s’exécutent simultanément dans la même sandbox s’élève à 20 000 messages par seconde au maximum. Vous ne pouvez pas modifier cette limite.
+   >Le taux de ralentissement global par environnement de test est défini sur 20 000 profils par seconde. Par conséquent, le taux de ralentissement de toutes les audiences lues qui s’exécutent simultanément dans le même environnement de test s’élève à 20 000 profils au maximum par seconde. Vous ne pouvez pas modifier cette limite.
 
 1. L’activité **[!UICONTROL Lecture d’audience]** vous permet de spécifier l’heure à laquelle l’audience rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de planificateur]**.
 

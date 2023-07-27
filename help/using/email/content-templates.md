@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1065'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ Pour accélérer et améliorer le processus de conception, vous pouvez créer de
 Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le contenu de travailler sur des modèles en dehors des campagnes ou des parcours. Les utilisateurs et utilisatrices marketing peuvent ensuite réutiliser et adapter ces modèles de contenu autonomes dans leurs propres parcours ou campagnes.
 
 Par exemple, un utilisateur ou une utilisatrice de votre société est responsable du contenu uniquement et n’a donc pas accès aux campagnes ou aux parcours. Cependant, cet utilisateur ou cette utilisatrice peut créer un modèle d‘email que les responsables marketing de votre organisation pourront sélectionner pour une utilisation dans tous les e-mails comme point de départ.
+
+Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Voir à ce sujet la section [Documentation des API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
 
 ➡️ [Découvrez comment créer et utiliser des modèles dans cette vidéo.](#video-templates)
 
@@ -43,7 +45,7 @@ Vous pouvez trier les modèles de contenu par date de création ou de modificati
 
 Pour modifier le contenu d’un modèle, cliquez sur l’élément de votre choix dans la liste, puis sélectionnez **[!UICONTROL Modifier le contenu]**.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 Pour supprimer un modèle, sélectionnez l’icône de corbeille en regard du modèle souhaité.
 
@@ -92,6 +94,8 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du **[!UICONTROL Balises]** pour classer le modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
+
 1. Cliquez sur **[!UICONTROL Créer]** et choisissez comment concevoir votre modèle à partir des différentes options :
 
    * [Concevez entièrement votre e-mail](content-from-scratch.md) via l’interface du Concepteur d’e-mail.
@@ -134,6 +138,10 @@ Lors de la conception d’un [e-mail](get-started-email-design.md) dans une camp
 1. Ajoutez un nom et une description pour ce modèle.
 
    ![](assets/email_designer-template-name.png)
+
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
+
+1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

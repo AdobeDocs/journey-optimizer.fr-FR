@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '747'
+ht-degree: 55%
 
 ---
 
@@ -90,13 +90,45 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../campaigns/content-experiment.md).
 
-1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message :
+1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour sélectionner le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app.
 
-   1. Cliquez sur **Ajouter une condition** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
-   1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
+   1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
+
+   1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
+
+   1. Choisissez la **[!UICONTROL Ou]** condition si vous souhaitez ajouter d’autres **[!UICONTROL Triggers]** pour développer davantage votre règle.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Choisissez la **[!UICONTROL Et]** condition si vous souhaitez ajouter **[!UICONTROL Caractéristiques]** et affinez mieux votre règle.
+
+      +++Voir Caractéristiques disponibles.
+
+      | Package | Caractéristiques  | Définition |
+      |---|---|---|
+      | Informations sur le périphérique | Nom de l’opérateur | Déclenché lorsque l’un des noms de l’opérateur de la liste est rencontré. |
+      | Informations sur le périphérique | Nom de l’appareil | Déclenché lorsque l’un des noms de périphérique est rencontré. |
+      | Informations sur le périphérique | Paramètres régionaux | Déclenché lorsque l’une des langues de la liste est remplie. |
+      | Informations sur le périphérique | Version du SE | Déclenché lorsque l’une des versions de système d’exploitation spécifiées est remplie. |
+      | Informations sur le périphérique | Version précédente du système d’exploitation | Déclenché lorsque l’une des versions précédentes du système d’exploitation spécifiées est atteinte. |
+      | Informations sur le périphérique | Mode d’exécution | Déclenché si le mode d’exécution est une application ou une extension. |
+      | Cycle de vie de l’application | ID d’application | Déclenché lorsque l’ID d’application spécifié est atteint. |
+      | Cycle de vie de l’application | Jour de la semaine | Déclenché lorsque le jour de la semaine spécifié est atteint. |
+      | Cycle de vie de l’application | Jour depuis la première utilisation | Déclenché lorsque le nombre spécifié depuis la première utilisation est atteint. |
+      | Cycle de vie de l’application | Jour depuis la dernière utilisation | Déclenché lorsque le nombre spécifié depuis la dernière utilisation est atteint. |
+      | Cycle de vie de l’application | Jour depuis la mise à niveau | Déclenché lorsque le nombre spécifié de jours depuis la dernière mise à niveau est atteint. |
+      | Cycle de vie de l’application | Date d’installation | Déclenché lorsque la date d’installation spécifiée est atteinte. |
+      | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
+      | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée est atteinte. |
+      | Places | Point ciblé actuel | Déclenché par le SDK Places lorsque votre client entre dans le point ciblé spécifié. |
+      | Places | Dernier point ciblé | Déclenché par le SDK Places en fonction du dernier point ciblé de votre client. |
+      | Places | Dernier point ciblé de sortie | Déclenché par le SDK Places en fonction du dernier point ciblé de votre client. |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
-
-   ![](assets/in_app_create_3.png)
 
 1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif. Les options disponibles sont les suivantes :
 
@@ -121,13 +153,18 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## Tutoriels vidéo{#video}
 
-La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
+* La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  +++Voir la vidéo
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
++++
 
-La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test AB.
+* La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test AB.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  +++Voir la vidéo
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
++++
+
 
 **Rubriques connexes :**
 

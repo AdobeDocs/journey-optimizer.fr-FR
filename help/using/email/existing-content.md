@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: e-mail, importation, contenu, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 60%
 
 ---
 
@@ -33,11 +33,23 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
    ![](assets/import-html_2.png)
 
-1. Faites glisser et déposez le fichier HTML ou .zip contenant votre contenu HTML.
+1. Faites glisser et déposez le fichier HTML ou ZIP contenant le contenu HTML, puis cliquez sur **[!UICONTROL Importer]**.
 
-1. Une fois le contenu HTML téléchargé, vous pouvez tirer parti des fonctions du Concepteur d’email pour modifier et prévisualiser votre e-mail. [En savoir plus](content-from-scratch.md)
+   ![](assets/html-imported_2.png)
+
+1. Une fois le contenu du HTML chargé, votre contenu sera placé dans **[!UICONTROL Mode de compatibilité]**.
+
+   Dans ce mode, vous pouvez uniquement personnaliser votre texte, ajouter des liens ou inclure des ressources à votre contenu.
+
+1. Pour pouvoir exploiter les composants de contenu du Concepteur d&#39;email, accédez à la **[!UICONTROL Convertisseur de HTMLs]** et cliquez sur **[!UICONTROL Convertir]**.
 
    ![](assets/html-imported.png)
+
+   >[!NOTE]
+   >
+   > Utilisation d’une `<table>` comme premier calque d’un fichier de HTML peut entraîner une perte de style, y compris les paramètres d’arrière-plan et de largeur dans la balise de calque supérieure.
+
+1. Vous pouvez désormais personnaliser votre fichier importé selon vos besoins à l&#39;aide des fonctionnalités du Concepteur d&#39;email . [En savoir plus](content-from-scratch.md).
 
 ## Vidéo pratique {#video}
 

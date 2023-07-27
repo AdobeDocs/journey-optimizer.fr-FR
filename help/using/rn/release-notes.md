@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '3105'
-ht-degree: 85%
+source-wordcount: '3079'
+ht-degree: 86%
 
 ---
 
@@ -22,18 +22,9 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour initiales de juillet 2023 {#july-rn-2023}
-
-Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version. Les liens, les écrans et la documentation mise à jour sont publiés à la date de publication.
-
-
-**Date de publication**: 26-27 juillet
+## Notes de mise à jour de juillet 2023 {#july-rn-2023}
 
 ### Nouvelles fonctionnalités{#july-2023-features}
-
-Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
-
-
 
 <table>
 <thead>
@@ -45,9 +36,9 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais créer des workflows de composition afin de combiner les audiences Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (comme le partage, l’enrichissement…) pour créer de nouvelles audiences. Les audiences nouvellement créées sont réenregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans les campagnes Journey Optimizer pour cibler la clientèle.</p>
-<img src="../audience/assets/audiences-publish.png"/>
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../audience/get-started-audience-orchestration.md">documentation détaillée</a>.</p>
-<p>La composition de l’audience est entièrement intégrée au nouveau menu "Audiences" de Adobe Experience Platform qui sert de portail centralisé vers les audiences. Vous pouvez désormais utiliser une page de navigation qui comprend un nouveau tableau de bord avec des tendances et des chevauchements de segments afin de trouver de nouvelles informations et d’explorer les outils de l’organisation pour le suivi et le balisage. Cette expérience s’accompagne de contrôles de gouvernance pour l’étiquetage normalisé des audiences ainsi que de fonctionnalités de gestion du cycle de vie des audiences afin de gérer les workflows d’activation. Grâce à cette nouvelle expérience de gestion, vous pouvez désormais gérer facilement et en toute sécurité les audiences à partir d’un seul emplacement. Pour plus d’informations, reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr" target="_blank">Documentation Adobe Experience Platform</a>.</p></p>
+<p>La composition de l’audience est entièrement intégrée au nouveau menu "Audiences" de Adobe Experience Platform qui sert de portail centralisé vers les audiences. Vous pouvez désormais utiliser une page de navigation qui comprend un nouveau tableau de bord avec des tendances et des chevauchements de segments afin de trouver de nouvelles informations et d’explorer les outils de l’organisation pour le suivi et le balisage. Cette expérience s’accompagne de contrôles de gouvernance pour l’étiquetage normalisé des audiences ainsi que de fonctionnalités de gestion du cycle de vie des audiences afin de gérer les workflows d’activation. Grâce à cette nouvelle expérience de gestion, vous pouvez désormais gérer facilement et en toute sécurité les audiences à partir d’un seul emplacement. Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr" target="_blank">Documentation Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +55,8 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
 <p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<img src="assets/do-not-localize/gif-dm.gif"/>
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
@@ -79,7 +71,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais importer et convertir n’importe quel contenu de HTML dans l’éditeur d’email de Journey Optimizer. Les blocs de contenu sont automatiquement identifiés et disponibles dans le Concepteur d'email : utilisez ses puissantes fonctionnalités de conception pour la mettre à jour et la personnaliser !</p>
+<p>Vous pouvez désormais importer et convertir n’importe quel contenu de HTML dans l’éditeur d’email de Journey Optimizer. Les blocs de contenu sont automatiquement identifiés et disponibles dans le Concepteur d'email : utilisez ses puissantes fonctionnalités de conception pour le mettre à jour et le personnaliser !</p>
 <img src="../email/assets/html-imported_2.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -116,12 +108,11 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais créer et gérer des modèles de contenu Adobe Journey Optimizer à l’aide d’API dédiées, ce qui vous permet d’intégrer facilement votre système de contenu existant.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ### Améliorations {#july-2023-improvements}
 

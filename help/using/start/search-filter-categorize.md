@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 76%
 
 ---
 
@@ -49,41 +49,52 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 
 Avec les [balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr) Adobe Experience Platform, vous pouvez facilement classer vos parcours et campagnes Journey Optimizer pour améliorer la recherche dans les listes.
 
->[!AVAILABILITY]
->
->Les balises unifiées sont actuellement en version Beta. La documentation et les fonctionnalités peuvent changer.
-
 ### Ajouter des balises à un objet
 
-Le champ **Balises**, dans les propriétés du [parcours](../building-journeys/journey-gs.md#change-properties) ou de la [campagne](../campaigns/create-campaign.md#create), vous permet d’ajouter des balises à votre objet. Vous pouvez sélectionner une balise existante ou créer une nouvelle balise.
+La variable **[!UICONTROL Balises]** vous permet de définir des balises pour votre objet. Les balises sont disponibles pour les objets suivants :
 
-Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste. Si elle n’est pas disponible, cliquez sur **Créer** pour créer une balise et l’ajouter. Vous pouvez définir autant de balises que vous le souhaitez.
+* [Parcours](../building-journeys/journey-gs.md#change-properties)
+* [Campagnes](../campaigns/create-campaign.md#create)
+* [Modèles](../email/content-templates.md)
+* [Fragments](../email/fragments.md)
+* [Listes dʼabonnements](../landing-pages/subscription-list.md)
+* [Pages de destination](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+Vous pouvez sélectionner une balise existante ou créer une nouvelle balise. Pour ce faire, procédez comme suit.
 
-La liste des balises définies s’affiche sous le champ **Balises**.
+1. Commencez à saisir le nom de la balise souhaitée et/ou sélectionnez-la dans la liste.
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > Les balises ne sont pas sensibles à la casse.
+
+1. Si la balise recherchée n’est pas disponible, cliquez sur **[!UICONTROL Créer &quot;&quot;]** pour en définir une nouvelle : elle sera automatiquement ajoutée à l’objet actif et sera disponible pour tous les autres objets.
+
+   ![](assets/tags4.png)
+
+1. La liste des balises sélectionnées ou créées s’affiche sous la balise **[!UICONTROL Balises]** champ . Vous pouvez définir autant de balises que vous le souhaitez.
 
 >[!NOTE]
->
-> Les balises sont sensibles à la casse.
 > 
-> Si vous dupliquez ou créez une nouvelle version d’un parcours ou d’une campagne, les balises sont conservées.
+> Si vous dupliquez ou créez une version d’un objet, les balises sont conservées.
 
 ### Filtrer les balises
 
-Les listes des parcours et des campagnes comportent une colonne dédiée permettant de visualiser facilement les balises.
+Chaque liste d’objets affiche une colonne dédiée afin que vous puissiez facilement visualiser vos balises.
 
-Un filtre est également disponible pour afficher uniquement les parcours ou les campagnes comportant les balises souhaitées.
+Un filtre est également disponible pour afficher uniquement les objets comportant certaines balises.
 
 ![](assets/tags2.png)
 
-Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcours ou de campagne (dynamique, brouillon, etc.). Cliquez sur l’icône **Plus d’actions** en regard de l’objet, puis sélectionnez **Modifier les balises**.
+Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcours ou de campagne (dynamique, brouillon, etc.). Cliquez sur l’icône **[!UICONTROL Plus d’actions]** en regard de l’objet, puis sélectionnez **[!UICONTROL Modifier les balises]**.
 
 ![](assets/tags3.png)
 
 ### Gérer les balises
 
-L’administration peut supprimer des balises et les classer par catégorie dans le menu **Balises**, sous **Administration**. En savoir plus sur la gestion des balises dans la [documentation sur les balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=fr).
+L’administration peut supprimer des balises et les classer par catégorie dans le menu **[!UICONTROL Balises]**, sous **[!UICONTROL Administration]**. En savoir plus sur la gestion des balises dans la [documentation sur les balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=fr).
 
 >[!NOTE]
 >

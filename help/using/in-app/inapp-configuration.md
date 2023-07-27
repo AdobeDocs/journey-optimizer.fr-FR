@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 87%
 
 ---
 
@@ -26,9 +26,14 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
 
 1. Ensuite, accédez au menu **[!UICONTROL Surfaces d’application]**, puis cliquez sur **[!UICONTROL Créer la surface d’application]**.
 
+   >[!NOTE]
+   >
+   > Vous avez besoin de **Gestion de la configuration de l’application** l’autorisation d’accéder à la variable **[!UICONTROL Surfaces de l’application]** . Pour plus d’informations, voir [cette vidéo](#video).
+
    ![](assets/inapp_config_1.png)
 
 1. Ajoutez un nom à votre **[!UICONTROL Surface d’application]**.
+
 
 1. Dans le menu déroulant Apple iOS, saisissez votre **ID de bundle iOS**. Voir la [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) pour plus d’informations sur l’**ID de bundle**.
 
@@ -70,3 +75,12 @@ Le canal in-app est maintenant configuré. Vous pouvez commencer à envoyer des 
 * [Création d’une campagne](../campaigns/create-campaign.md)
 * [Concevoir un message in-app](design-in-app.md)
 * [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
+
+
+## Tutoriels vidéo{#video}
+
+* La vidéo ci-dessous montre comment attribuer la variable **Gestion de la configuration de l’application** autorisation d’accès au menu surfaces de l’application .
+
+  +++Voir la vidéo
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++

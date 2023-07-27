@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 100%
+source-wordcount: '2498'
+ht-degree: 92%
 
 ---
 
@@ -36,6 +36,7 @@ La page **[!UICONTROL Rapport global]** de la campagne s&#39;affiche avec les on
 * [Push](#push-global)
 * [SMS](#sms-global)
 * [Web](#web-tab)
+* [Publipostage direct](#direct-mail-global)
 
 Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 
@@ -99,6 +100,15 @@ Le tableau présente les mesures suivantes :
 * **[!UICONTROL Clips sortants uniques/profils]** : valeur totale de la mesure de succès, précédemment sélectionnée lors de la création de vos expériences, divisée par le nombre de profils.
 
 Le graphe **[!UICONTROL Intervalle de confiance]** mesure l’incertitude quant à l’amélioration. Il indique la différence de performance en pourcentage entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
+
+![](assets/experimentation_report_4.png)
+
+Le dernier widget fournit des données relatives à la variable **[!UICONTROL Mesure de succès]** vous avez précédemment sélectionné pour vos traitements. Vous avez la possibilité de sélectionner une autre mesure ciblée dans la variable **[!UICONTROL Mesure]** menu déroulant pour effectuer le suivi des données alternatives.
+
+>[!CAUTION]
+>
+>Lorsque vous utilisez des mesures filtrées pour l’expérimentation, notez que la modification de la sélection de mesure dans la liste déroulante de la page de comparaison pour l’expérimentation ne conserve pas la valeur du filtre. Par exemple, le passage de &quot;Clics&quot; à &quot;Clics uniques&quot; entraînera la perte du filtre appliqué, rendant la comparaison inexacte ou non valide.
+
 +++
 
 Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../campaigns/get-started-experiment.md#interpret-results).
@@ -349,6 +359,25 @@ Les KPI de **[!UICONTROL Performances web]** détaillent les informations princi
 Le graphique **[!UICONTROL Résumé web]** présente l’évolution de vos expériences web (impressions, impressions uniques et clics) pour la période concernée.
 
 Le tableau **[!UICONTROL Clics par élément]** présente les informations principales relatives à l’engagement des visiteurs et visiteuses avec les différents éléments de vos pages web.
++++
+
+## Onglet Courrier {#direct-mail-global}
+
+Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Canal Courrier]** Cet onglet présente les informations principales relatives à vos diffusions courrier.
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Courrier.
+
+La variable **[!UICONTROL Courrier - Statistiques d’envoi]** le tableau détaille le succès de votre diffusion :
+
+* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
+
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+
+* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+
+* **[!UICONTROL Exclu]**: nombre de profils utilisateur, exclus des profils ciblés, qui n&#39;ont pas reçu la diffusion.
+
+La variable **[!UICONTROL Courrier - Motifs exclus]** et **[!UICONTROL Courrier - Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 +++
 
 ## Ressources supplémentaires

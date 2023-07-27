@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 100%
+source-wordcount: '1342'
+ht-degree: 91%
 
 ---
 
@@ -30,9 +30,11 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 
 * [Campagne](#campaign-live)
 * [E-mail](#email-live)
+* [In-app](#inapp-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
+* [Publipostage direct](#direct-mail-tab)
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
 
@@ -97,6 +99,26 @@ Les widgets **[!UICONTROL Causes des bounces]**, **[!UICONTROL Catégories des b
 Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
++++
+
+## Onglet in-app {#inapp-live}
+
+Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL In-app]** Cet onglet présente les informations principales relatives aux diffusions In-App envoyées dans votre campagne.
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
+
+Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+
+* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
+
+* **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs.
+
+Le graphique du **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions in-app pour la période concernée.
+
+Le graphique et le tableau **[!UICONTROL Clics par bouton]** contiennent les données disponibles pour le comportement des destinataires par bouton :
+
+* **[!UICONTROL Clics]** : nombre total de destinataires ayant interagi avec les boutons inclus dans le message in-app.
+
 +++
 
 ## Onglet Notification push {#push-live}
@@ -180,6 +202,25 @@ Les KPI de **[!UICONTROL Performances web]** détaillent les informations princi
 Le graphique **[!UICONTROL Résumé web]** présente l’évolution de vos expériences web (impressions, impressions uniques et clics) pour la période concernée.
 
 Le tableau **[!UICONTROL Clics par élément]** présente les informations principales relatives à l’engagement des visiteurs et visiteuses avec les différents éléments de vos pages web.
++++
+
+## Onglet Courrier {#direct-mail-tab}
+
+Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Canal Courrier]** Cet onglet présente les informations principales relatives à vos diffusions courrier.
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Courrier.
+
+La variable **[!UICONTROL Courrier - Statistiques d’envoi]** le tableau détaille le succès de votre diffusion :
+
+* **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
+
+* **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
+
+* **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
+
+* **[!UICONTROL Exclu]**: nombre de profils utilisateur, exclus des profils ciblés, qui n&#39;ont pas reçu la diffusion.
+
+La variable **[!UICONTROL Courrier - Motifs exclus]** et **[!UICONTROL Courrier - Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 +++
 
 ## Ressources supplémentaires
