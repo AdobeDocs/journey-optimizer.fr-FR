@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,13 +49,13 @@ Avant de pouvoir ajouter un jeu de données à la configuration de création de 
 
 * Vous pouvez uniquement ajouter des jeux de données de type événement.
 
-* Ces jeux de données doivent inclure la variable **Événement d’expérience - Interactions de propositions** [groupe de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}.
+* Ces jeux de données doivent inclure le [groupe de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group) **Événement d’expérience – Interactions de propositions**{target="_blank"}.
 
-* Ces jeux de données peuvent également contenir l’un des jeux de données suivants : [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}: **Détails de l’application**, **Détails du commerce**, **Détails web**.
+* Ces jeux de données doivent contenir au moins l’un des [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} suivants : **Détails de l’application**, **Détails du commerce**, **Détails web**.
 
   >[!NOTE]
   >
-  >D’autres groupes de champs peuvent également être inclus, mais seuls les groupes de champs ci-dessus sont actuellement pris en charge dans les rapports Journey Optimizer.
+  >D’autres groupes de champs peuvent également être inclus, mais seuls les groupes de champs ci-dessus sont actuellement pris en charge dans les rapports Journey Optimizer.
 
   Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champs **Détails du commerce**.
 

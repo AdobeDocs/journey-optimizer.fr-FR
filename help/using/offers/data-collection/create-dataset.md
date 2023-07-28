@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
    >[!CAUTION]
    >
-   >Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l’utiliser dans votre modèle AI.
+   >Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l&#39;utiliser dans votre modèle d’IA.
 
 1. Saisissez un nom et enregistrez le schéma.
 
@@ -66,4 +66,4 @@ Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce sch
 
 >[!NOTE]
 >
->Ce jeu de données peut désormais être sélectionné pour collecter des données d’événement lors de la [création d’un modèle d’IA](../ranking/create-ranking-strategies.md).
+>Ce jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼun modèle d’IA](../ranking/create-ranking-strategies.md).

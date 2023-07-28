@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
 source-wordcount: '2057'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,9 +81,9 @@ Dans le **[!UICONTROL Rapport global]** de parcours, l&#39;onglet **[!UICONTROL 
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’e-mail.
 
-Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
+Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille le succès de votre diffusion :
 
-* **[!UICONTROL Ciblés]**: Nombre de profils ciblés pour toute action telle que l’envoi d’un email ou d’un SMS.
+* **[!UICONTROL Ciblés]** : nombre de profils ciblés pour toute action telle que l’envoi d’e-mails ou de SMS.
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
@@ -193,7 +193,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONT
 
 Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
-* **[!UICONTROL Ciblés]**: Nombre de profils ciblés pour toute action telle que l’envoi d’un email ou d’un SMS.
+* **[!UICONTROL Ciblés]** : nombre de profils ciblés pour toute action telle que l’envoi d’e-mails ou de SMS.
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 

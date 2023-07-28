@@ -37,7 +37,7 @@ Voici quelques-uns des avantages :
 
 >[!NOTE]
 >
->Si vous êtes un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} utilisation de la variable **offer decisioning** , toutes les fonctionnalités de gestion de décision décrites dans cette section s’appliquent également à vous.
+>Si vous êtes un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} utilisation de la variable **Offer decisioning** , toutes les fonctionnalités de gestion de décision décrites dans cette section s’appliquent également à vous.
 
 ## À propos des offres et des décisions {#about-offers-and-decisions}
 

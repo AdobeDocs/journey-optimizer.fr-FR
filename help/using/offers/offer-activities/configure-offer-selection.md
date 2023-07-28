@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ Si plusieurs offres sont éligibles à la présentation dans cet emplacement, la
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Vous pouvez également utiliser un système de modèles formé qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle AI. Découvrez comment créer un modèle d’IA dans [cette section](../ranking/create-ranking-strategies.md).
+Vous pouvez également utiliser un système de modèles formés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle d’IA. Découvrez comment créer un modèle d’IA dans [cette section](../ranking/create-ranking-strategies.md).
 
-Une fois qu’un modèle AI a été créé, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
+Une fois un modèle d’IA créé, affectez-le à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
 1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
 
@@ -76,11 +76,11 @@ Une fois qu’un modèle AI a été créé, vous pouvez l’affecter à un empla
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Sélectionnez le modèle d’IA que vous avez créé. Tous les détails du modèle s’affichent.
+1. Sélectionnez le modèle d’IA que vous avez créé. Tous les détails du modèle d’IA s’affichent.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Cliquez sur **[!UICONTROL Sélectionner]**. Le modèle AI est désormais associé à l’emplacement.
+1. Cliquez sur **[!UICONTROL Sélectionner]**. Le modèle d’IA est désormais associé à l’emplacement.
 
 Si plusieurs offres sont éligibles, le système de modèles formés détermine l&#39;offre qui doit être présentée en premier pour un emplacement donné.
 

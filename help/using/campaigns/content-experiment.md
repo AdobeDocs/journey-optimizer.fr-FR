@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -92,7 +92,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_dimension"
 >title="Dimension"
->abstract="Choisissez la dimension spécifique à suivre pour votre expérience, par exemple les clics ou les vues spécifiques de pages spécifiques."
+>abstract="Choisissez la dimension spécifique à suivre pour votre expérience, par exemple des clics spécifiques ou des vues de pages spécifiques."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"

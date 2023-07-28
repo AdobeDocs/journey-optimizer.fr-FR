@@ -412,7 +412,7 @@ ht-degree: 99%
             + [Mise à jour d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Suppression d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
       + Création et gestion des décisions à l’aide d’API {#activities-api}
-         + [Liste des décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [Répertorier les décisions](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Recherche d’une décision](using/offers/api-reference/activities-api/activities/lookup.md)
          + [Création d’une décision](using/offers/api-reference/activities-api/activities/create.md)
          + [Mise à jour d’une décision](using/offers/api-reference/activities-api/activities/update.md)
