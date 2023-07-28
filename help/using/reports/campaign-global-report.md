@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '2498'
 ht-degree: 92%
@@ -364,6 +364,8 @@ Le tableau **[!UICONTROL Clics par élément]** présente les informations princ
 ## Onglet Courrier {#direct-mail-global}
 
 Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Canal Courrier]** Cet onglet présente les informations principales relatives à vos diffusions courrier.
+
+![](assets/direct-mail-report_1.png)
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Courrier.
 
