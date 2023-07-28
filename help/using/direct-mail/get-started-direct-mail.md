@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: courrier, message, campagne
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 49%
+ht-degree: 46%
 
 ---
 
-# Créer un message de publipostage direct {#create-direct}
+# Prise en main du courrier {#create-direct}
 
 >[!AVAILABILITY]
 >
 >Pour l’instant, le canal Courrier n’est pas disponible pour les organisations qui ont acheté l’offre complémentaire Bouclier de santé Adobe.
+>
 
 Le publipostage direct est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de publipostage direct pour envoyer du courrier à votre clientèle.
 
