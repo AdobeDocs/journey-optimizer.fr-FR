@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1383'
 ht-degree: 92%
 
 ---
@@ -67,7 +67,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
    >
    >Les personnes appartenant à une audience qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours. Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
-1. Définissez la variable **[!UICONTROL Taux de ralentissement]**. Il s’agit du nombre maximum de profils pouvant entrer dans l’audience de lecture par seconde. Ce taux s&#39;applique uniquement à cette activité. Il ne s&#39;applique pas aux autres activités du parcours. Si vous souhaitez définir un taux de ralentissement pour les actions personnalisées, par exemple, vous devez utiliser l’API de ralentissement. Voir cette [page](../configuration/throttling.md).
+1. Définissez la variable **[!UICONTROL Taux de ralentissement]**. Il s’agit du nombre maximal de profils pouvant saisir le parcours par seconde. Ce taux s&#39;applique uniquement à cette activité et à aucun autre dans le parcours. Si vous souhaitez définir un taux de ralentissement pour les actions personnalisées, par exemple, vous devez utiliser l’API de ralentissement. Voir cette [page](../configuration/throttling.md).
 
    Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 5 000 profils par seconde. Vous pouvez modifier cette valeur de 500 à 20 000 profils par seconde.
 
