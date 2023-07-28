@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 20%
+source-wordcount: '560'
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 20%
 >title="Création de publipostage direct"
 >abstract="Créez des messages de publipostage direct dans des campagnes planifiées et concevez les fichiers d’extraction requis par les fournisseurs de publipostage direct pour envoyer du courrier à votre clientèle."
 
+Pour créer des courriers, créez une opération planifiée et configurez le fichier d&#39;extraction. Ce fichier est requis par les opérateurs de services postaux pour envoyer du courrier à vos clients.
+
+>[!IMPORTANT]
+>
+>Avant de créer un courrier, vérifiez que vous avez configuré :
+>
+>1. Une [configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être téléchargé et stocké,
+>1. Une [surface de message de publipostage direct](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
+
+
 ## Créer une campagne courrier{#create-dm-campaign}
+
+Pour créer une campagne courrier, procédez comme suit :
 
 1. Créez une campagne planifiée et choisissez **[!UICONTROL Canal Courrier]** comme action.
 
@@ -46,6 +58,8 @@ ht-degree: 20%
 Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à envoyer à votre opérateur de services postaux.
 
 ## Configuration du fichier d’extraction {#extraction-file}
+
+Le fichier d&#39;extraction est requis par les opérateurs de services postaux pour envoyer du courrier à vos clients. Pour définir la configuration du fichier d&#39;extraction, procédez comme suit :
 
 1. Dans l&#39;écran de configuration de l&#39;opération, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du fichier d&#39;extraction.
 

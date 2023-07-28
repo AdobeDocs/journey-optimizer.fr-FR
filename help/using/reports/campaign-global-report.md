@@ -121,7 +121,7 @@ Dans le **[!UICONTROL Rapport global]** de campagne, l&#39;onglet **[!UICONTROL 
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’e-mail.
 
-Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille la réussite de votre diffusion :
+Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille le succès de votre diffusion :
 
 * **[!UICONTROL Ciblés]** : nombre total de messages traités lors de l’analyse de la diffusion.
 
@@ -240,7 +240,7 @@ Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL No
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
-Le tableau **[!UICONTROL Notification push - Statistiques d&#39;envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
+Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
 * **[!UICONTROL Ciblés]** : nombre total de messages traités lors de l’analyse de la diffusion.
 

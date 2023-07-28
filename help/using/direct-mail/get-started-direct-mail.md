@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: courrier, message, campagne
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 46%
+source-wordcount: '165'
+ht-degree: 33%
 
 ---
 
@@ -30,9 +30,4 @@ Les principales étapes pour envoyer des messages postaux sont les suivantes :
 
 Les messages de publipostage direct ne peuvent être créés que dans le cadre de campagnes planifiées. Ils ne sont pas disponibles pour une utilisation dans des campagnes déclenchées par l’API ou dans des parcours.
 
->[!IMPORTANT]
->
->Avant d’envoyer un message de publipostage direct, assurez-vous d’avoir configuré les éléments suivants :
->
->1. Une [configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être téléchargé et stocké,
->1. Une [surface de message de publipostage direct](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
+
