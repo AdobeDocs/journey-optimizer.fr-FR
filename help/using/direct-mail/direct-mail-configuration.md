@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Version Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '881'
 ht-degree: 100%
 
 ---
 
 # Configuration du publipostage direct {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-Cette documentation couvre les sujets suivants :
-
-* [Créer un publipostage direct](create-direct-mail.md)
-* **[Configurer le publipostage direct](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de générer les fichiers requis par les fournisseurs de publipostage direct pour envoyer du courrier à vos clients.
 
@@ -80,13 +68,13 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du routage des fichiers]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Attribuez un nom à votre configuration.
 
 1. Sélectionnez le **[!UICONTROL Type de serveur]** que vous souhaitez utiliser pour exporter les fichiers de publipostage direct.
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,7 +86,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, choisissez la **[!UICONTROL Région AWS]** où se trouve l’infrastructure du serveur.
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -137,11 +125,11 @@ Une surface de publipostage direct doit également inclure la configuration du r
 
 1. Sélectionnez le canal **[!UICONTROL Publipostage direct]**.
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Définissez les paramètres du publipostage direct dans la section dédiée de la configuration de la surface du canal.
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -157,7 +145,7 @@ Une surface de publipostage direct doit également inclure la configuration du r
    >
    >Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de publipostage direct. [En savoir plus](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
