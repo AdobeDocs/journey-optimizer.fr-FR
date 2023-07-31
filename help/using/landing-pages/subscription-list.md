@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 95%
@@ -58,11 +58,11 @@ Pour créer une liste dʼabonnements, procédez comme suit :
    >
    >Actuellement, vous ne pouvez pas utiliser d’espacement ou saisir un nom qui existe déjà pour une autre liste d’abonnements dans le champ **[!UICONTROL Titre]**.
 
-1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du **[!UICONTROL Balises]** pour classer votre page d’entrée en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
-
 1. Vous pouvez définir une date de début et de fin.
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du **[!UICONTROL Balises]** pour classer votre page d’entrée en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
