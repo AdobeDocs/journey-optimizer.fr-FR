@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 100%
+source-wordcount: '1219'
+ht-degree: 98%
 
 ---
 
@@ -44,9 +44,9 @@ Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de l
 
 >[!IMPORTANT]
 >
->Les **Règles de limitation** sont configurées au niveau de la sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de cette sandbox.
+>Les **Règles de limitation** sont configurées au niveau de la sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de cette sandbox. La limitation est disponible à la fois sur les sources de données et les actions personnalisées.
 >
->Les **Règles de limitation** sont configurées dans les sandbox de production uniquement, pour un point d’entrée spécifique, mais elles s’appliquent à tous les parcours sur l’ensemble des sandbox. Une seule configuration de limitation est autorisée par organisation.
+>Les **Règles de limitation** sont configurées dans les sandbox de production uniquement, pour un point d’entrée spécifique, mais elles s’appliquent à tous les parcours sur l’ensemble des sandbox. Une seule configuration de limitation est autorisée par organisation. Le ralentissement n’est disponible que pour les actions personnalisées.
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 
