@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Voici la structure de base d’une configuration de point d’entrée :
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -56,6 +56,12 @@ Voici la structure de base d’une configuration de point d’entrée :
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>La variable **maxHttpConnections** est facultatif. Il vous permet de limiter le nombre de connexions que Journey Optimizer va ouvrir au système externe.
+>
+>La valeur maximale pouvant être définie est de 400. Si rien n’est spécifié, le système peut s’ouvrir jusqu’à plusieurs milliers de connexions en fonction de l’échelle dynamique du système.
 
 ### Exemple :
 
@@ -67,9 +73,9 @@ Voici la structure de base d’une configuration de point d’entrée :
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
