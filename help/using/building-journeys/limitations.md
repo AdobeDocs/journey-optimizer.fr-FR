@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
+source-git-commit: 64abe386cd0d7b7e849fb6f6cdc70c00b4365feb
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
@@ -42,11 +42,11 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
- 
+
 ## Limitations des événements {#events-limitations}
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
- 
+
 ## Sources de données  limitations {#data-sources-limitations}
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel.Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
