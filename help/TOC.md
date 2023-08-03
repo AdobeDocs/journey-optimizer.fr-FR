@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
 source-wordcount: '1399'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Guides de démarrage rapide{#quick-start}
       + [Présentation](using/start/quick-start.md)
-      + [Prise en main en tant que marketeur](using/start/path/marketer.md)
+      + [Prise en main en tant que spécialiste marketing](using/start/path/marketer.md)
       + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
       + [Prise en main en tant que développeur](using/start/path/developer.md)
@@ -227,10 +227,10 @@ ht-degree: 99%
    + [Gérer les désinscriptions aux SMS](using/sms/sms-opt-out.md)
    + [Configurer le canal SMS](using/sms/sms-configuration.md)
    + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
-+ Publipostage direct {#direct-mail}
++ Courrier {#direct-mail}
    + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
-   + [Créer un publipostage direct](using/direct-mail/create-direct-mail.md)
-   + [Test et envoi d’un courrier](using/direct-mail/test-send-direct-mail.md)
+   + [Créer un courrier](using/direct-mail/create-direct-mail.md)
+   + [Tester et envoyer un message de courrier](using/direct-mail/test-send-direct-mail.md)
    + [Configurer le publipostage direct](using/direct-mail/direct-mail-configuration.md)
 + Canal web{#web}
    + [Prise en main du canal web](using/web/get-started-web.md)

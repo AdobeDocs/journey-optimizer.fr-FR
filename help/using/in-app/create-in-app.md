@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -90,39 +90,39 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../campaigns/content-experiment.md).
 
-1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour sélectionner le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app.
+1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs et utilisatrices de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app.
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
-   1. Choisissez la **[!UICONTROL Ou]** condition si vous souhaitez ajouter d’autres **[!UICONTROL Triggers]** pour développer davantage votre règle.
+   1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
       ![](assets/in_app_create_3.png)
 
-   1. Choisissez la **[!UICONTROL Et]** condition si vous souhaitez ajouter **[!UICONTROL Caractéristiques]** et affinez mieux votre règle.
+   1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      +++Voir Caractéristiques disponibles.
+      +++Voir les caractéristiques disponibles.
 
-      | Package | Caractéristiques  | Définition |
+      | Package | Caractéristiques | Définition |
       |---|---|---|
-      | Informations sur le périphérique | Nom de l’opérateur | Déclenché lorsque l’un des noms de l’opérateur de la liste est rencontré. |
-      | Informations sur le périphérique | Nom de l’appareil | Déclenché lorsque l’un des noms de périphérique est rencontré. |
-      | Informations sur le périphérique | Paramètres régionaux | Déclenché lorsque l’une des langues de la liste est remplie. |
-      | Informations sur le périphérique | Version du SE | Déclenché lorsque l’une des versions de système d’exploitation spécifiées est remplie. |
-      | Informations sur le périphérique | Version précédente du système d’exploitation | Déclenché lorsque l’une des versions précédentes du système d’exploitation spécifiées est atteinte. |
-      | Informations sur le périphérique | Mode d’exécution | Déclenché si le mode d’exécution est une application ou une extension. |
-      | Cycle de vie de l’application | ID d’application | Déclenché lorsque l’ID d’application spécifié est atteint. |
+      | Informations sur l’appareil | Nom de l’opérateur | Déclenché lorsque l’un des noms de l’opérateur de la liste est rencontré. |
+      | Informations sur l’appareil | Nom de l’appareil | Déclenché lorsque l’un des noms d’appareil est rencontré. |
+      | Informations sur l’appareil | Paramètres régionaux | Déclenché lorsque l’une des langues de la liste est rencontrée. |
+      | Informations sur l’appareil | Version du système d’exploitation | Déclenché lorsque l’une des versions de système d’exploitation spécifiées est rencontrée. |
+      | Informations sur l’appareil | Version précédente du système d’exploitation | Déclenché lorsque l’une des versions précédentes de système d’exploitation spécifiées est rencontrée. |
+      | Informations sur l’appareil | Mode d’exécution | Déclenché si le mode d’exécution est une application ou une extension. |
+      | Cycle de vie de l’application | ID d’application | Déclenché lorsque l’ID d’application spécifié est rencontré. |
       | Cycle de vie de l’application | Jour de la semaine | Déclenché lorsque le jour de la semaine spécifié est atteint. |
-      | Cycle de vie de l’application | Jour depuis la première utilisation | Déclenché lorsque le nombre spécifié depuis la première utilisation est atteint. |
-      | Cycle de vie de l’application | Jour depuis la dernière utilisation | Déclenché lorsque le nombre spécifié depuis la dernière utilisation est atteint. |
-      | Cycle de vie de l’application | Jour depuis la mise à niveau | Déclenché lorsque le nombre spécifié de jours depuis la dernière mise à niveau est atteint. |
+      | Cycle de vie de l’application | Jours depuis la première utilisation | Déclenché lorsque le nombre spécifié de jours depuis la première utilisation est atteint. |
+      | Cycle de vie de l’application | Jours depuis la dernière utilisation | Déclenché lorsque le nombre spécifié de jours depuis la dernière utilisation est atteint. |
+      | Cycle de vie de l’application | Jours depuis la mise à niveau | Déclenché lorsque le nombre spécifié de jours depuis la dernière mise à niveau est atteint. |
       | Cycle de vie de l’application | Date d’installation | Déclenché lorsque la date d’installation spécifiée est atteinte. |
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
-      | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée est atteinte. |
-      | Places | Point ciblé actuel | Déclenché par le SDK Places lorsque votre client entre dans le point ciblé spécifié. |
-      | Places | Dernier point ciblé | Déclenché par le SDK Places en fonction du dernier point ciblé de votre client. |
-      | Places | Dernier point ciblé de sortie | Déclenché par le SDK Places en fonction du dernier point ciblé de votre client. |
+      | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
+      | Places | Point ciblé actuel | Déclenché par le SDK Places lorsque votre cliente ou client accède au point ciblé spécifié. |
+      | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
+      | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
 
 +++
 

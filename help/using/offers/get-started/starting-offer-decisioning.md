@@ -85,7 +85,7 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 * **Limitation** ou **Capping de la fréquence** : la limitation est utilisée comme contrainte pour définir le nombre de présentations d&#39;une offre. Il existe deux types de limitations : le nombre de fois où une offre peut être proposée à l&#39;audience cible combinée, également appelée « limitation globale », et le nombre de fois où une offre peut être proposée au même utilisateur final, également appelée « limitation de profil ».
 
-* **Collections** : les collections sont des sous-ensembles d&#39;offres, basés sur des conditions prédéfinies établies par un marketeur, telles que la catégorie de l&#39;offre.
+* **Collections** : les collections sont des sous-ensembles d’offres, basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
 
 * **Décision** : contient la logique sous-tendant la sélection d’une offre.
 

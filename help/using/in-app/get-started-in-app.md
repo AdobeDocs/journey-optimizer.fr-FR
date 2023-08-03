@@ -10,7 +10,7 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Utilisez Journey Optimizer pour créer des notifications in-app et configurer de
 
 >[!AVAILABILITY]
 >
->Pour l’instant, le canal In-App n’est pas disponible pour les organisations qui ont acheté l’offre complémentaire Bouclier de santé Adobe.
+>Pour l’instant, le canal in-app n’est pas disponible pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield d’Adobe.
 >
 
 ## Conditions préalables{#prerequisites-in-app}

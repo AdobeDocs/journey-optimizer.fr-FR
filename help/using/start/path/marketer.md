@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de Journey Optimizer pour les professionnels du marketing
+title: Prise en main de Journey Optimizer pour les spécialistes marketing
 description: En tant que praticien Parcours, découvrez comment utiliser Journey Optimizer.
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Prise en main pour les professionnels du marketing {#get-started-marketers}
+# Prise en main pour les spécialistes marketing {#get-started-marketers}
 
 En tant que **spécialiste du marketing** ou **praticien/praticienne Parcours**, vous êtes responsable de la création des offres et des parcours, ainsi que de la conception du contenu. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur système](administrator.md) et l’[ingénieur de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
 

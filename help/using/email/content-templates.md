@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le 
 
 Par exemple, un utilisateur ou une utilisatrice de votre société est responsable du contenu uniquement et n’a donc pas accès aux campagnes ou aux parcours. Cependant, cet utilisateur ou cette utilisatrice peut créer un modèle d‘email que les responsables marketing de votre organisation pourront sélectionner pour une utilisation dans tous les e-mails comme point de départ.
 
-Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Voir à ce sujet la section [Documentation des API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Pour plus d’informations à ce sujet, consultez la [documentation relative aux API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
 
 ➡️ [Découvrez comment créer et utiliser des modèles dans cette vidéo.](#video-templates)
 
@@ -94,7 +94,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du **[!UICONTROL Balises]** pour classer le modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
 
 1. Cliquez sur **[!UICONTROL Créer]** et choisissez comment concevoir votre modèle à partir des différentes options :
 
@@ -141,7 +141,7 @@ Lors de la conception d’un [e-mail](get-started-email-design.md) dans une camp
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
 
-1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags).
+1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

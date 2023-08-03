@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Présentation {#overview}
 
-En tirant parti des technologies de pointe en matière de machine learning et de deep learning supervisés, la personnalisation automatique permet à un utilisateur professionnel (marketeur) de définir des objectifs commerciaux et d’utiliser ses données client pour entraîner des modèles orientés métier afin de fournir des offres personnalisées et d’optimiser les KPI.
+En tirant parti des technologies de pointe en matière de machine learning et de deep learning supervisés, la personnalisation automatique permet à un utilisateur professionnel (spécialiste marketing) de définir des objectifs commerciaux et d’utiliser ses données client pour entraîner des modèles orientés métier afin de fournir des offres personnalisées et d’optimiser les KPI.
 
 ## Principales hypothèses et limites du modèle {#key}
 

@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
 
    >[!NOTE]
    >
-   > Vous avez besoin de **Gestion de la configuration de l’application** l’autorisation d’accéder à la variable **[!UICONTROL Surfaces de l’application]** . Pour plus d’informations, voir [cette vidéo](#video).
+   > Vous avez besoin de l’autorisation **Gérer la configuration de l’application** pour accéder au menu **[!UICONTROL Surfaces de l’application]**. Pour plus d’informations, regardez [cette vidéo](#video).
 
    ![](assets/inapp_config_1.png)
 
@@ -79,7 +79,7 @@ Le canal in-app est maintenant configuré. Vous pouvez commencer à envoyer des 
 
 ## Tutoriels vidéo{#video}
 
-* La vidéo ci-dessous montre comment attribuer la variable **Gestion de la configuration de l’application** autorisation d’accès au menu surfaces de l’application .
+* La vidéo ci-dessous montre comment attribuer l’autorisation **Gérer la configuration de l’application** pour accéder au menu Surfaces de l’application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

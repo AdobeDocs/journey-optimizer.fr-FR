@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée.
-—>
+-->
 
 **Campagnes**
 
@@ -147,7 +147,7 @@ Authentification des API Adobe Journey Optimizer : la méthode JWT pour gén�
 
 **Autres modifications**
 
-Les jeux de données Journey Optimizer exportés vers les destinations de stockage dans le cloud sont désormais disponibles pour tous les clients en tant que version bêta publique. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
+L’export des jeux de données Journey Optimizer vers les destinations d’espace de stockage est désormais disponible pour toute la clientèle en version bêta. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
 
 
 

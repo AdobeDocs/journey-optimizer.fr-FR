@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '1495'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Cliquez sur l’icône **[!UICONTROL Autres actions]** en regard de chaque fragm
 Pour modifier un fragment, procédez comme suit.
 
 1. Cliquez sur l’élément de votre choix dans la liste **[!UICONTROL Fragments]**.
-1. À partir des propriétés du fragment, vous pouvez [explorer les références](#explore-references), [gérer son accès](../administration/object-based-access.md)et mettre à jour les détails du fragment, notamment [tags](../start/search-filter-categorize.md#tags).
+1. À partir des propriétés du fragment, vous pouvez [explorer les références](#explore-references), [gérer son accès](../administration/object-based-access.md) et mettre à jour les détails du fragment, y compris les [balises](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,7 +143,7 @@ Pour créer un fragment à partir de zéro, procédez comme suit.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du **[!UICONTROL Balises]** pour classer votre fragment en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre fragment en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -191,7 +191,7 @@ Lors de la conception d’un [modèle de contenu](content-templates.md) ou d’u
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du **Balises** pour classer le modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags).
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
 1. Cliquez de nouveau sur **[!UICONTROL Créer]**. Le fragment est enregistré dans la liste **[!UICONTROL Fragments]**, accessible à partir du menu dédié [!DNL Journey Optimizer].
 

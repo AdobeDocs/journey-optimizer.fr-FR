@@ -1,6 +1,6 @@
 ---
 title: Mise à jour des collections
-description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un marketeur, telles que la catégorie de l’offre.
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l’offre.
 feature: Offers
 topic: Integrations
 role: Data Engineer

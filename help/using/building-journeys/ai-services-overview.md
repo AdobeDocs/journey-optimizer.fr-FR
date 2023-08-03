@@ -18,7 +18,7 @@ ht-degree: 100%
 
 L&#39;intégration aux **[!DNL Adobe Intelligent Services]** vous permet d&#39;exploiter la puissance de l&#39;intelligence artificielle et du machine learning dans les cas d&#39;utilisation de l&#39;expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d&#39;une entreprise en utilisant des configurations au niveau de l&#39;entreprise sans avoir besoin d&#39;expertise en sciences des données.
 
-Les [!DNL Intelligent Services] sont basés sur Adobe Experience Platform et permettent aux responsables du marketing chargés de l&#39;expérience client d&#39;accéder à l&#39;IA en tant que service afin de prédire plus facilement le comportement des clients, de mesurer l&#39;impact d&#39;une campagne ou d&#39;optimiser chaque retour sur investissement. Pour plus d’informations sur [!DNL Adobe Intelligent Services], consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=fr){target="_blank"}.
+Les [!DNL Intelligent Services] sont basés sur Adobe Experience Platform et permettent aux spécialistes marketing chargés de l’expérience client d’accéder à l’IA en tant que service afin de prédire plus facilement le comportement des clients, de mesurer l’impact d’une campagne ou d’optimiser chaque retour sur investissement. Pour plus d’informations sur [!DNL Adobe Intelligent Services], consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=fr){target="_blank"}.
 
 L&#39;intégration entre [!DNL Journey Optimizer] et les [!DNL Intelligent Services] vous permet de tirer parti des prédictions des clients.
 

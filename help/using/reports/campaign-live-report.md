@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
-* [Publipostage direct](#direct-mail-tab)
+* [Courrier](#direct-mail-tab)
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
 
@@ -90,7 +90,7 @@ Le tableau **[!UICONTROL Envoi de mesures par e-mail]** et le graphique **[!UICO
 
 Les widgets **[!UICONTROL Causes des bounces]**, **[!UICONTROL Catégories des bounces]** et **[!UICONTROL Hard bounce et bounce - par e-mail]** contiennent les données disponibles relatives aux messages ayant fait l&#39;objet d&#39;un rebond, notamment :
 
-* **[!UICONTROL Hard bounce]** : nombre total d&#39;erreurs permanentes, telles qu&#39;une adresse email incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
+* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
 * **[!UICONTROL Soft bounces]** : nombre total d&#39;erreurs temporaires, telles qu&#39;une boîte de réception pleine.
 
@@ -101,9 +101,9 @@ Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICON
 Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;e-mail.
 +++
 
-## Onglet in-app {#inapp-live}
+## Onglet In-app {#inapp-live}
 
-Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL In-app]** Cet onglet présente les informations principales relatives aux diffusions In-App envoyées dans votre campagne.
+Dans le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux diffusions in-app envoyées dans votre campagne.
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
@@ -206,13 +206,13 @@ Le tableau **[!UICONTROL Clics par élément]** présente les informations princ
 
 ## Onglet Courrier {#direct-mail-tab}
 
-Depuis votre campagne **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Canal Courrier]** Cet onglet présente les informations principales relatives à vos diffusions courrier.
+Depuis le **[!UICONTROL rapport global]** de votre campagne, l’onglet **[!UICONTROL Courrier]** présente les informations principales relatives à vos diffusions de courrier.
 
 ![](assets/direct-mail-report_2.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Courrier.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de courrier.
 
-La variable **[!UICONTROL Courrier - Statistiques d’envoi]** le tableau détaille le succès de votre diffusion :
+Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** détaille le succès de votre diffusion :
 
 * **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
@@ -220,9 +220,9 @@ La variable **[!UICONTROL Courrier - Statistiques d’envoi]** le tableau détai
 
 * **[!UICONTROL Erreurs]** : nombre total d&#39;erreurs survenues au cours d&#39;une diffusion, l&#39;empêchant d&#39;être envoyée à des profils.
 
-* **[!UICONTROL Exclu]**: nombre de profils utilisateur, exclus des profils ciblés, qui n&#39;ont pas reçu la diffusion.
+* **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu la diffusion.
 
-La variable **[!UICONTROL Courrier - Motifs exclus]** et **[!UICONTROL Courrier - Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+Les graphiques et tableaux **[!UICONTROL Courrier – Causes d’exclusion]** et **[!UICONTROL Courrier – Causes d’erreur]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 +++
 
 ## Ressources supplémentaires

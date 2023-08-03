@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_11.png)
 
-1. Lors de la configuration d’une expérience à l’aide du canal in-app ou web et du choix de la variable **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]** , **[!UICONTROL Pages vues]** , ou **[!UICONTROL Mesures des pages vues uniques]** , la variable **[!UICONTROL Cliquez sur Action]**  permet de suivre et de surveiller précisément les clics et les vues sur des pages spécifiques.
+1. Lors de la configuration d’une expérience à l’aide du canal in-app ou web et du choix de **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures des pages vues uniques]**, le menu déroulant **[!UICONTROL Action de clic]** vous permet de suivre et de surveiller précisément les clics et les vues sur des pages spécifiques.
 
    ![](assets/content_experiment_20.png)
 

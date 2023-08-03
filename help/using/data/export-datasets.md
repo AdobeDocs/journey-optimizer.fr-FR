@@ -11,7 +11,7 @@ exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Des informations détaillées sur chaque destination sont disponibles dans la do
 
 Vérifiez les conditions préalables suivantes avant de commencer à exporter vos jeux de données :
 
-* Pour exporter des jeux de données, vous avez besoin de l’événement **Affichage des destinations** et **Gestion et activation des destinations de jeu de données** [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions). Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr) ou contactez votre administrateur de produit pour obtenir les autorisations requises.
+* Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions) **Afficher les destinations** et **Gérer et activer des destinations de jeu de données**. Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr) ou contactez votre administrateur ou administratrice du produit pour obtenir les autorisations requises.
 
 * Assurez-vous que le jeu de données que vous souhaitez exporter ne contient pas de données de deuxième génération. Cette fonctionnalité prend uniquement en charge l’export des données de première génération, c’est-à-dire les données brutes définies dans la [description du produit Real-time Customer Data Platform](https://helpx.adobe.com/fr/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Les données de première génération incluent les jeux de données importés par l’intermédiaire de jeux de données ou de sources Adobe Experience Platform collectés à l’aide de solutions Adobe telles que le connecteur Analytics Data et les journaux/jeux de données de rapports Journey Optimizer.
 

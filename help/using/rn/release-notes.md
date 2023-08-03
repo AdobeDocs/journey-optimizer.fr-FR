@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour de juillet 2023 {#july-rn-2023}
+## Notes de mise à jour de juillet 2023 {#july-rn-2023}
 
 ### Nouvelles fonctionnalités{#july-2023-features}
 
@@ -55,7 +55,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 <td>
 <p>Vous pouvez désormais ajouter du courrier dans une campagne. Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers requis par les prestataires de services postaux pour envoyer du courrier à votre clientèle.</p>
 <p>Lorsque vous créez une diffusion par courrier, Journey Optimizer génère un fichier contenant tous les profils ciblés et les coordonnées sélectionnées (adresse postale, par exemple). Vous pourrez alors envoyer ce fichier à votre prestataire de services postaux qui prendra en charge l’envoi réel.</p>
-<p>Pour l’instant, le canal Courrier n’est pas disponible pour les organisations qui ont acheté l’offre complémentaire Bouclier de santé Adobe.</p>
+<p>Pour l’instant, le canal Courrier n’est pas disponible pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield d’Adobe.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../direct-mail/get-started-direct-mail.md">documentation détaillée</a>.</p>
 </tr>
@@ -136,16 +136,16 @@ Des améliorations ont été apportées au sélecteur d’audiences dans les par
 * Audience : ensemble de personnes, de comptes, de foyers ou d’autres entités qui partagent des caractéristiques et des comportements communs.
 * Définition d’un segment : règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible dans Adobe Experience Platform. Ce terme était auparavant appelé « segment ».
 
-Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur de Adobe Experience Platform, les &quot;Segments&quot; sont remplacés par &quot;Audiences&quot; pour refléter ce nouveau chemin de création et de gestion de l’audience.
+Par conséquent, dans Adobe Journey Optimizer et l’interface utilisateur d’Adobe Experience Platform, « Segments » est remplacé par « Audiences » pour refléter ce nouveau chemin de création et de gestion d’audience.
 
 **API**
 
-La méthode JWT pour générer des jetons d’accès pour l’authentification des API Adobe Journey Optimizer a été abandonnée. Toutes les nouvelles intégrations doivent être créées à l’aide de la méthode d’authentification OAuth de serveur à serveur. Adobe vous recommande également de migrer vos intégrations existantes vers la méthode OAuth. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/authentication/).{target="_blank"}.
+La méthode JWT pour générer des jetons d’accès pour l’authentification des API Adobe Journey Optimizer a été abandonnée. Toutes les nouvelles intégrations doivent être créées à l’aide de la méthode d’authentification OAuth de serveur à serveur. Adobe vous recommande également de migrer vos intégrations existantes vers la méthode OAuth. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/authentication/).{target="_blank"}.
 
 
 **Autres modifications**
 
-Les jeux de données Journey Optimizer exportés vers les destinations de stockage dans le cloud sont désormais disponibles pour tous les clients en tant que version bêta publique. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
+L’export des jeux de données Journey Optimizer vers les destinations d’espace de stockage est désormais disponible pour toute la clientèle en version bêta. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
 
 
 

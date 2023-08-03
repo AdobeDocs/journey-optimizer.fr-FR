@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 
 ## Notes de mise en garde {#caution-notes-web}
 
-* Actuellement dans [!DNL Journey Optimizer] vous pouvez uniquement créer des expériences web dans **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
+* Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
 
 * Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées à la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
 
 
 >[!AVAILABILITY]
 >
->Pour l’instant, le canal web n’est pas disponible pour les organisations qui ont acheté l’offre complémentaire Bouclier de santé Adobe.
+>Pour l’instant, le canal web n’est pas disponible pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield d’Adobe.
 >
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}

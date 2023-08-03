@@ -11,7 +11,7 @@ exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Avec les [balises unifiées](https://experienceleague.adobe.com/docs/experience-
 
 ### Ajouter des balises à un objet
 
-La variable **[!UICONTROL Balises]** vous permet de définir des balises pour votre objet. Les balises sont disponibles pour les objets suivants :
+Le champ **[!UICONTROL Balises]** vous permet de définir des balises pour votre objet. Les balises sont disponibles pour les objets suivants :
 
 * [Parcours](../building-journeys/journey-gs.md#change-properties)
 * [Campagnes](../campaigns/create-campaign.md#create)
@@ -60,9 +60,9 @@ La variable **[!UICONTROL Balises]** vous permet de définir des balises pour vo
 * [Listes dʼabonnements](../landing-pages/subscription-list.md)
 * [Pages de destination](../landing-pages/create-lp.md)
 
-Vous pouvez sélectionner une balise existante ou créer une nouvelle balise. Pour ce faire, procédez comme suit.
+Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Pour ce faire, procédez comme suit.
 
-1. Commencez à saisir le nom de la balise souhaitée et/ou sélectionnez-la dans la liste.
+1. Commencez à saisir le nom de la balise souhaitée et sélectionnez-la dans la liste.
 
    ![](assets/tags1.png)
 
@@ -70,19 +70,19 @@ Vous pouvez sélectionner une balise existante ou créer une nouvelle balise. Po
    >
    > Les balises ne sont pas sensibles à la casse.
 
-1. Si la balise recherchée n’est pas disponible, cliquez sur **[!UICONTROL Créer &quot;&quot;]** pour en définir une nouvelle : elle sera automatiquement ajoutée à l’objet actif et sera disponible pour tous les autres objets.
+1. Si la balise recherchée n’est pas disponible, cliquez sur **[!UICONTROL Créer «»]** pour en définir une nouvelle. Elle sera automatiquement ajoutée à l’objet actif et sera disponible pour tous les autres objets.
 
    ![](assets/tags4.png)
 
-1. La liste des balises sélectionnées ou créées s’affiche sous la balise **[!UICONTROL Balises]** champ . Vous pouvez définir autant de balises que vous le souhaitez.
+1. La liste des balises sélectionnées ou créées s’affiche sous le champ **[!UICONTROL Balises]**. Vous pouvez définir autant de balises que vous le souhaitez.
 
 >[!NOTE]
 > 
-> Si vous dupliquez ou créez une version d’un objet, les balises sont conservées.
+> Si vous dupliquez ou créez une nouvelle version d’un objet, les balises sont conservées.
 
 ### Filtrer les balises
 
-Chaque liste d’objets affiche une colonne dédiée afin que vous puissiez facilement visualiser vos balises.
+La liste des objets comporte une colonne dédiée permettant de visualiser facilement les balises.
 
 Un filtre est également disponible pour afficher uniquement les objets comportant certaines balises.
 

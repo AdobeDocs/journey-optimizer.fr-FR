@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ La durée d&#39;attente maximale est de 30 jours. En mode test, le paramètre *
 
 Soyez prudent lorsque vous utilisez plusieurs activités d’attente dans un parcours, car la temporisation du parcours global est de 30 jours, ce qui signifie qu’un profil abandonnera toujours le parcours au maximum 30 jours après son entrée. Consultez [cette page](../building-journeys/journey-gs.md#global_timeout).
 
-Une personne ne peut entrer dans une activité d’attente que si elle dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant le délai d’attente de 30 jours parcours. Par exemple, si vous ajoutez deux activités d’attente définies sur 20 jours chacune, le système détectera que la seconde attente se terminera après le délai d’attente de 30 jours. La seconde attente sera donc ignorée et l’individu quittera le parcours avant de le démarrer. Dans cet exemple, le client restera 20 jours au total dans le parcours.
+Un individu ne peut entrer dans une activité d’attente que s’il dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 30 jours du parcours. Par exemple, si vous ajoutez deux activités d’attente définies sur 20 jours chacune, le système détectera que la seconde attente se terminera après la temporisation de 30 jours. La seconde attente sera donc ignorée et l’individu quittera le parcours avant de le commencer. Dans cet exemple, la cliente ou le client restera 20 jours au total dans le parcours.
 
-Il est recommandé de ne pas utiliser d’attente pour bloquer la rentrée. Utilisez plutôt la variable **Autoriser une rentrée** au niveau des propriétés du parcours. Consultez [cette page](../building-journeys/journey-gs.md#entrance).
+Il est recommandé de ne pas utiliser d’attente pour bloquer la reprise. Utilisez plutôt l’option **Autoriser la reprise** au niveau des propriétés du parcours. Consultez [cette page](../building-journeys/journey-gs.md#entrance).
 
 ## Durée de l&#39;attente{#duration}
 
@@ -92,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-Pourriez-vous, s&#39;il vous plaît, préparer quelque chose autour de ça ?
+Pourriez-vous, s’il vous plaît, préparer quelque chose à ce sujet ?
