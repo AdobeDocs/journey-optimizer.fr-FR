@@ -11,16 +11,16 @@ badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 17%
+source-wordcount: '497'
+ht-degree: 12%
 
 ---
 
 # Améliorations des actions personnalisées
 
-Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
+Vous pouvez désormais exploiter les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
 
 Cette fonctionnalité n’était disponible que lors de l’utilisation de sources de données. Vous pouvez désormais l’utiliser avec des actions personnalisées.
 
@@ -55,11 +55,11 @@ La variable **Paramètres d’action** a été renommée **Payloads**. Deux cham
 
 1. Cliquez dans le **Réponse** champ .
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. Collez un exemple de la payload renvoyée par l’appel . Vérifiez que les types de champ sont corrects (chaîne, entier, etc.).
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. Cliquez sur **Enregistrer**.
 
@@ -121,15 +121,15 @@ Il vous suffit d’ajouter l’action personnalisée à un parcours. Vous pouvez
 
 Par exemple, vous pouvez ajouter une condition pour vérifier la vitesse du vent. Lorsque la personne entre dans la boutique de surf, vous pouvez envoyer une notification push si le temps est trop venteux.
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 Dans la condition, vous devez utiliser l’éditeur avancé pour exploiter les champs de réponse de l’action, sous la propriété **Contexte** noeud .
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 Vous pouvez également utiliser la variable **jo_status** pour créer un chemin d’accès en cas d’erreur.
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ Voici les valeurs possibles pour ce champ :
 * erreur de limitation : **limité**
 * Erreur interne : **internalError**
 
+Pour plus d’informations sur les activités de parcours, voir [cette section](../building-journeys/about-journey-activities.md).
+
 ### Personnalisation des messages
 
 Vous pouvez personnaliser vos messages à l’aide des champs de réponse. Dans notre exemple, dans la notification push, nous personnalisons le contenu à l&#39;aide de la valeur de vitesse.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->L’appel n’est effectué qu’une seule fois par profil dans un parcours donné. Plusieurs messages ne déclencheront pas de nouveaux appels.
+>L’appel n’est effectué qu’une seule fois par profil dans un parcours donné. Plusieurs messages sur le même profil ne déclencheront pas de nouveaux appels.
+
+Pour plus d’informations sur la personnalisation des messages, voir [cette section](../personalization/personalize.md).
 
 ## Syntaxe des expressions
 
@@ -175,4 +179,4 @@ Voici quelques exemples :
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+Pour plus d’informations sur les références de champ, voir [cette section](../building-journeys/expression/field-references.md).
