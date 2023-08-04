@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -19,10 +19,6 @@ Vous pouvez diffuser des offres à l’aide de l’une des API suivantes : API 
 
 Cette page contient des informations sur les fonctionnalités spécifiques disponibles avec les API **Decisioning** et **Edge Decisioning**. Même si toutes deux vous permettent de diffuser des offres à vos clients, il est recommandé d’utiliser l’API **Edge Decisioning** chaque fois que possible pour les cas d’utilisation entrants. Cette dernière assure une latence plus faible et un débit plus élevé sur votre plateforme.
 
-|  | Demandes/seconde | Latence |
-|---|---|---|
-| API Decisioning | 2 000 | &lt; 500 ms |
-| API Edge Decisioning | 5000 | &lt; 250 ms |
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 * [API Decisioning](decisioning-api.md)
