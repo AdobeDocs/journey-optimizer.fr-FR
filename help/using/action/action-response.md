@@ -11,28 +11,28 @@ badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 17%
 
 ---
 
-# Améliorations des actions personnalisées {#configure-an-action}
+# Améliorations des actions personnalisées
 
 Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
 
 Cette fonctionnalité n’était disponible que lors de l’utilisation de sources de données. Vous pouvez désormais l’utiliser avec des actions personnalisées.
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> Cette fonctionnalité est actuellement disponible en version bêta privée.
+>Cette fonctionnalité est actuellement disponible en version bêta privée.
 
 ## Définition de l’action personnalisée
 
 Lors de la définition de l’action personnalisée, deux améliorations ont été apportées : l’ajout de la méthode GET et le nouveau champ de réponse de payload. Les autres options et paramètres restent inchangés. Consultez [cette page](../action/about-custom-action-configuration.md).
 
-### Configuration du point d’entrée {#url-configuration}
+### Configuration du point d’entrée
 
 La variable **Configuration d’URL** a été renommée **Configuration des points d’entrée**.
 
@@ -40,16 +40,16 @@ Dans le **Méthode** , vous pouvez maintenant sélectionner **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads {#url-configuration}
+### Payloads
 
 La variable **Paramètres d’action** a été renommée **Payloads**. Deux champs sont disponibles :
 
 * La variable **Requête** field : ce champ n&#39;est disponible que pour les méthodes d&#39;appel POST et PUT.
 * La variable **Réponse** champ : il s’agit de la nouvelle fonctionnalité. Ce champ est disponible pour toutes les méthodes d&#39;appel.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> Ces deux champs sont facultatifs.
+>Ces deux champs sont facultatifs.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ Vous pouvez également utiliser la variable **jo_status** pour créer un chemin 
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> Seules les actions personnalisées nouvellement créées comprennent ce champ prêt à l’emploi. Si vous souhaitez l’utiliser avec une action personnalisée existante, vous devez mettre à jour l’action. Par exemple, vous pouvez mettre à jour la description et enregistrer.
+>Seules les actions personnalisées nouvellement créées comprennent ce champ prêt à l’emploi. Si vous souhaitez l’utiliser avec une action personnalisée existante, vous devez mettre à jour l’action. Par exemple, vous pouvez mettre à jour la description et enregistrer.
 
 Voici les valeurs possibles pour ce champ :
 
@@ -148,9 +148,9 @@ Vous pouvez personnaliser vos messages à l’aide des champs de réponse. Dans 
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> L’appel n’est effectué qu’une seule fois par profil dans un parcours donné. Plusieurs messages ne déclencheront pas de nouveaux appels.
+>L’appel n’est effectué qu’une seule fois par profil dans un parcours donné. Plusieurs messages ne déclencheront pas de nouveaux appels.
 
 ## Syntaxe des expressions
 
