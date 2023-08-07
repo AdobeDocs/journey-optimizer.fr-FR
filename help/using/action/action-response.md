@@ -11,7 +11,7 @@ badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
 hide: true
 hidefromtoc: true
-source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
+source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 7%
@@ -147,16 +147,16 @@ Voici la syntaxe :
 Voici quelques exemples :
 
 ```json
-// action response field
-@action{<action name>.<path to the field>}
-@action{OpenWeatherMap.main.temp}
+ // action response field
+ @action{<action name>.<path to the field>}
+ @action{ActionLoyalty.status}
 ```
 
 ```json
-// action response field
-@action{<action name>.<path to the field>, defaultValue: <default value expression>}
-@action{OpenWeatherMap.main.temp, defaultValue: 273.15}
-@action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
+ // action response field
+ @action{<action name>.<path to the field>, defaultValue: <default value expression>}
+ @action{ActionLoyalty.points, defaultValue: 0}
+ @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
 ```
 
 Pour plus d’informations sur les références de champ, voir [cette section](../building-journeys/expression/field-references.md).
