@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Toutes les nouvelles fonctionnalités et améliorations de la version du 23 juillet de [!DNL Journey Optimizer] sont présentées dans la documentation. [En savoir plus](release-notes.md)
 * La page de documentation sur l’activité d’attente a été enrichie avec des informations supplémentaires et des bonnes pratiques relatives à la temporisation globale et à l’utilisation de la reprise. [En savoir plus](../building-journeys/wait-activity.md)
 * La page sur la gestion des entrées a été améliorée. [En savoir plus](../building-journeys/entry-management.md)
-* Ajout d’informations supplémentaires sur le taux de ralentissement dans la documentation sur l’activité Lecture d’audience - [En savoir plus](../building-journeys/read-audience.md)
-* La variable **Mise en oeuvre du consentement de personnalisation** mise à jour de la section pour décrire comment appliquer manuellement le consentement à la personnalisation dans les campagnes : vous pouvez utiliser le créateur de règles de segmentation pour créer une audience contenant des profils d’exclusion ou ajouter une activité de partage à un workflow de composition - [En savoir plus](../privacy/opt-out.md#opt-out-expression-editor)
+* Des informations supplémentaires sur le taux de limitation ont été ajoutées dans la documentation sur l’activité Lecture d’audience. [En savoir plus](../building-journeys/read-audience.md)
+* La section **Implémenter le consentement de personnalisation** a été mise à jour de sorte à décrire comment appliquer manuellement le consentement à la personnalisation dans les campagnes : vous pouvez utiliser le créateur de règles de segmentation pour créer une audience contenant des profils d’exclusion ou ajouter une activité de partage à un workflow de composition. [En savoir plus](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## Juin 2023 {#june-2023}
 

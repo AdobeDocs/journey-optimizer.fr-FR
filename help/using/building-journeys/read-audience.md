@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
    >
    >Les personnes appartenant à une audience qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours. Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
-1. Définissez le **[!UICONTROL taux de limitation]**. Il s’agit du nombre maximal de profils pouvant saisir le parcours par seconde. Ce taux s&#39;applique uniquement à cette activité et à aucun autre dans le parcours. Si vous souhaitez définir un taux de limitation pour les actions personnalisées, par exemple, vous devez utiliser l’API de limitation. Voir cette [page](../configuration/throttling.md).
+1. Définissez le **[!UICONTROL taux de limitation]**. Il s’agit du nombre maximum de profils pouvant entrer dans le parcours par seconde. Ce taux s’applique uniquement à cette activité et non aux autres activités du parcours. Si vous souhaitez définir un taux de limitation pour les actions personnalisées, par exemple, vous devez utiliser l’API de limitation. Voir cette [page](../configuration/throttling.md).
 
    Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 5 000 profils par seconde. Vous pouvez modifier cette valeur de 500 à 20 000 profils par seconde.
 

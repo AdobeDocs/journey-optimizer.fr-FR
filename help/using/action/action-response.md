@@ -14,19 +14,19 @@ hidefromtoc: true
 source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 7%
+ht-degree: 45%
 
 ---
 
 # Améliorations des actions personnalisées
 
-Vous pouvez désormais exploiter les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
+Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
 
 Cette fonctionnalité n’était disponible que lors de l’utilisation de sources de données. Vous pouvez désormais l’utiliser avec des actions personnalisées.
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version bêta privée.
+>Cette fonctionnalité est publiée sous forme de version Private Beta.
 
 >[!WARNING]
 >
@@ -34,22 +34,22 @@ Cette fonctionnalité n’était disponible que lors de l’utilisation de sourc
 
 ## Définition de l’action personnalisée
 
-Lors de la définition de l’action personnalisée, deux améliorations ont été apportées : l’ajout de la méthode GET et le nouveau champ de réponse de payload. Les autres options et paramètres restent inchangés. Consultez [cette page](../action/about-custom-action-configuration.md).
+Pour la définition de l’action personnalisée, deux améliorations ont été apportées : l’ajout de la méthode GET et le nouveau champ de réponse de payload. Les autres options et paramètres restent inchangés. Consultez [cette page](../action/about-custom-action-configuration.md).
 
 ### Configuration du point d’entrée
 
-La variable **Configuration d’URL** a été renommée **Configuration des points d’entrée**.
+La section **Configuration de l’URL** a été renommée **Configuration du point d’entrée**.
 
-Dans le **Méthode** , vous pouvez maintenant sélectionner **GET**.
+Dans le menu déroulant **Méthode**, vous pouvez maintenant sélectionner **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
 ### Payloads
 
-La variable **Paramètres d’action** a été renommée **Payloads**. Deux champs sont disponibles :
+La section **Paramètres d’action** a été renommée **Payloads**. Deux champs sont disponibles :
 
-* La variable **Requête** field : ce champ n&#39;est disponible que pour les méthodes d&#39;appel POST et PUT.
-* La variable **Réponse** champ : il s’agit de la nouvelle fonctionnalité. Ce champ est disponible pour toutes les méthodes d&#39;appel.
+* Le champ **Requête** : ce champ n&#39;est disponible que pour les méthodes d’appel POST et PUT.
+* Le champ **Réponse** : il s’agit de la nouvelle fonctionnalité. Ce champ est disponible pour toutes les méthodes d’appel.
 
 >[!NOTE]
 > 
@@ -57,11 +57,11 @@ La variable **Paramètres d’action** a été renommée **Payloads**. Deux cham
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
-1. Cliquez dans le **Réponse** champ .
+1. Cliquez dans le champ **Réponse**.
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Collez un exemple de la payload renvoyée par l’appel . Vérifiez que les types de champ sont corrects (chaîne, entier, etc.). Voici un exemple de payload de réponse capturée lors de l’appel . Notre point de terminaison local envoie le nombre de points de fidélité et l’état d’un profil.
+1. Collez un exemple de la payload renvoyée par l’appel. Vérifiez que les types de champ sont corrects (chaîne, entier, etc.). Voici un exemple de payload de réponse capturée lors de l’appel . Notre point de terminaison local envoie le nombre de points de fidélité et l’état d’un profil.
 
    ```
    {
@@ -82,7 +82,7 @@ La variable **Paramètres d’action** a été renommée **Payloads**. Deux cham
 
 ## Utiliser la réponse dans un parcours
 
-Il vous suffit d’ajouter l’action personnalisée à un parcours. Vous pouvez ensuite exploiter les champs de payload de réponse dans des conditions, d’autres actions et la personnalisation des messages.
+Il vous suffit d’ajouter l’action personnalisée à un parcours. Vous pouvez ensuite exploiter les champs de payload de réponse dans des conditions, dans d’autres actions et dans la personnalisation des messages.
 
 Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de points de fidélité. Lorsque la personne entre dans le restaurant, votre point de terminaison local envoie un appel avec les informations de fidélité du profil. Vous pouvez envoyer une notification push si le profil est un client Or. Et si une erreur est détectée dans l’appel , envoyez une action personnalisée pour en informer l’administrateur système.
 
@@ -123,28 +123,28 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
 
 La variable **jo_status_code** est toujours disponible même lorsqu’aucun payload de réponse n’est défini.
 
-Voici les valeurs possibles pour ce champ :
+Voici les valeurs possibles pour ce champ :
 
 * code d’état http : http_`<HTTP API call returned code>`, par exemple http_200 ou http_400
-* timeout error : **timedout**
-* erreur de limitation : **limité**
-* Erreur interne : **internalError**
+* erreur de temporisation : **expiré**
+* erreur de limitation : **limité**
+* erreur interne : **erreurInterne**
 
 Un appel d’action est considéré comme une erreur lorsque le code http renvoyé est supérieur à 2xx ou en cas d’erreur. Dans ce cas, le parcours est dirigé vers la branche Délai d’expiration ou erreur dédiée.
 
 >[!WARNING]
 >
->Seules les actions personnalisées nouvellement créées incluent la variable **jo_status_code** champ d’usine. Si vous souhaitez l’utiliser avec une action personnalisée existante, vous devez mettre à jour l’action. Par exemple, vous pouvez mettre à jour la description et enregistrer.
+>Seules les actions personnalisées nouvellement créées incluent la variable **jo_status_code** champ d’usine. Si vous souhaitez l’utiliser avec une action personnalisée existante, vous devez mettre à jour l’action. Vous pouvez par exemple mettre à jour la description et l’enregistrer.
 
 ## Syntaxe des expressions
 
-Voici la syntaxe :
+Voici la syntaxe :
 
 ```json
 #@action{myAction.myField} 
 ```
 
-Voici quelques exemples :
+Voici quelques exemples :
 
 ```json
  // action response field
@@ -159,4 +159,4 @@ Voici quelques exemples :
  @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
 ```
 
-Pour plus d’informations sur les références de champ, voir [cette section](../building-journeys/expression/field-references.md).
+Pour plus d’informations sur les références de champs, consultez [cette section](../building-journeys/expression/field-references.md).

@@ -10,7 +10,7 @@ exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Voici la structure de base d’une configuration de point d’entrée :
 
 >[!IMPORTANT]
 >
->La variable **maxHttpConnections** est facultatif. Il vous permet de limiter le nombre de connexions que Journey Optimizer va ouvrir au système externe.
+>Le paramètre **maxHttpConnections** est facultatif. Il vous permet de limiter le nombre de connexions que Journey Optimizer va ouvrir au système externe.
 >
->La valeur maximale pouvant être définie est de 400. Si rien n’est spécifié, le système peut s’ouvrir jusqu’à plusieurs milliers de connexions en fonction de l’échelle dynamique du système.
+>La valeur maximale pouvant être définie est de 400. Si rien n’est spécifié, le système peut s’ouvrir à plusieurs milliers de connexions en fonction de l’échelle dynamique du système.
 
 ### Exemple :
 

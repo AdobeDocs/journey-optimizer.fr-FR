@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
 >[!NOTE]
 >
->Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent. Les mesures sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles.
+>Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent. Les mesures sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles.
 
 ![](assets/journeys-dashboard.png)
 

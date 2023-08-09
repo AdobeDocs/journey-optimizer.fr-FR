@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
    >[!NOTE]
    >
-   >Actuellement, Amazon S3 et SFTP<!--and Azure--> sont pris en charge dans [!DNL Journey Optimizer].
+   >Actuellement, seuls Amazon S3 et SFTP<!--and Azure--> sont pris en charge dans [!DNL Journey Optimizer].
 
 1. Renseignez les détails et les informations d’identification de votre serveur, telles que l’adresse du serveur, la clé d’accès, etc.
 
@@ -135,7 +135,7 @@ Une surface de publipostage direct doit également inclure la configuration du r
 
 1. Sélectionnez le format du fichier : **[!UICONTROL CSV]** ou **[!UICONTROL Texte délimité]**.
 
-1. Si vous sélectionnez **[!UICONTROL Texte délimité]**, définissez le séparateur de colonne de votre choix : tabulation, point-virgule ou barre verticale<!--or ampersand-->.
+1. Si vous sélectionnez **[!UICONTROL Texte délimité]**, définissez le séparateur de colonne de votre choix : tabulation, point-virgule ou barre verticale<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
