@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 100%
+source-wordcount: '1783'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >Pour pouvoir tester et publier des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**.
+
+Pour diriger vos clients vers une page web définie que vous souhaitez afficher lorsqu’ils cliquent sur un lien spécifique, créez une landing page dans [!DNL Journey Optimizer], configurez la page principale et les sous-pages, testez-la et publiez-la.
+
+>[!CAUTION]
+>
+>Vous ne pouvez pas accéder à votre landing page en copiant-collant dans un navigateur web l’URL définie lors de la [création de la page](#create-landing-page), même s’il est publié. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
 
 ## Accès aux pages de destination {#access-landing-pages}
 
@@ -95,6 +101,10 @@ Suivez les étapes principales de création de pages de destination décrites ci
 
 Une fois que vous avez configuré et conçu la [page principale](#configure-primary-page) et les [sous-pages](#configure-subpages) si vous en avez, vous pouvez [tester](#test-landing-page) et [publier](#publish-landing-page) votre page de destination.
 
+>[!CAUTION]
+>
+>Vous ne pouvez pas accéder à votre page d’entrée en copiant-collant simplement l’URL définie dans un navigateur web, même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
+
 ## Configuration de la page principale {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ Pour définir les paramètres de la page principale, procédez comme suit.
    >[!CAUTION]
    >
    >LʼURL de la page de destination doit être unique.
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >Vous ne pouvez pas accéder à votre page de destination en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. Si vous souhaitez que la page de destination précharge les données de formulaire déjà disponibles, sélectionnez **[!UICONTROL Préremplir les champs de formulaire avec les informations de profil]**.
 
@@ -196,6 +204,8 @@ Pour définir les paramètres des sous-pages, procédez comme suit.
    >[!CAUTION]
    >
    >LʼURL de la page de destination doit être unique.
+   >
+   >Vous ne pouvez pas accéder à votre sous-page en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -299,5 +309,6 @@ Votre page est désormais en ligne et peut être utilisée dans un message [!DNL
 
 >[!NOTE]
 >
->Vous pouvez surveiller lʼimpact de votre page de destination au moyen de rapports spécifiques. [En savoir plus](../reports/lp-report-live.md)
+>Vous ne pouvez pas accéder à votre landing page en copiant-collant dans un navigateur web l’URL définie lors de la [création de la page](#create-landing-page), même s’il est publié. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
 
+Vous pouvez surveiller lʼimpact de votre page de destination au moyen de rapports spécifiques. [En savoir plus](../reports/lp-report-live.md)
