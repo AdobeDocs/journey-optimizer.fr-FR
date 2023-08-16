@@ -6,7 +6,7 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
 ht-degree: 100%
 
