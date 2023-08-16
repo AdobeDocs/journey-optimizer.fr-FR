@@ -12,9 +12,9 @@ keywords: action, tiers, personnalisé, parcours, API
 hide: true
 hidefromtoc: true
 source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Cette fonctionnalité n’était disponible que lors de l’utilisation de sourc
 
 >[!WARNING]
 >
->Les actions personnalisées ne doivent être utilisées qu’avec des points de terminaison privés ou internes et avec une limite de limitation ou de limitation appropriée. Consultez [cette page](../configuration/external-systems.md).
+>Les actions personnalisées ne doivent être utilisées qu’avec des points d’entrée privés ou internes et avec une limitation ou un capping de la fréquence approprié. Consultez [cette page](../configuration/external-systems.md).
 
-## Définition de l’action personnalisée
+## Définir l’action personnalisée
 
 Pour la définition de l’action personnalisée, deux améliorations ont été apportées : l’ajout de la méthode GET et le nouveau champ de réponse de payload. Les autres options et paramètres restent inchangés. Consultez [cette page](../action/about-custom-action-configuration.md).
 
@@ -61,7 +61,7 @@ La section **Paramètres d’action** a été renommée **Payloads**. Deux champ
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Collez un exemple de la payload renvoyée par l’appel. Vérifiez que les types de champ sont corrects (chaîne, entier, etc.). Voici un exemple de payload de réponse capturée lors de l’appel . Notre point de terminaison local envoie le nombre de points de fidélité et l’état d’un profil.
+1. Collez un exemple de la payload renvoyée par l’appel. Vérifiez que les types de champ sont corrects (chaîne, entier, etc.). Voici un exemple de payload de réponse capturée lors de l’appel. Notre point d’entrée local envoie le nombre de points de fidélité et le statut d’un profil.
 
    ```
    {
@@ -74,7 +74,7 @@ La section **Paramètres d’action** a été renommée **Payloads**. Deux champ
 
    À chaque appel de l’API, le système récupère tous les champs contenus dans l’exemple de payload.
 
-1. Ajoutons également le customerID comme paramètre de requête.
+1. Ajoutons également l’ID de client comme paramètre de requête.
 
    ![](assets/action-response9.png){width="80%" align="left"}
 
@@ -84,30 +84,30 @@ La section **Paramètres d’action** a été renommée **Payloads**. Deux champ
 
 Il vous suffit d’ajouter l’action personnalisée à un parcours. Vous pouvez ensuite exploiter les champs de payload de réponse dans des conditions, dans d’autres actions et dans la personnalisation des messages.
 
-Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de points de fidélité. Lorsque la personne entre dans le restaurant, votre point de terminaison local envoie un appel avec les informations de fidélité du profil. Vous pouvez envoyer une notification push si le profil est un client Or. Et si une erreur est détectée dans l’appel , envoyez une action personnalisée pour en informer l’administrateur système.
+Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de points de fidélité. Lorsque la personne entre dans le restaurant, votre point d’entrée local envoie un appel avec les informations de fidélité du profil. Vous pouvez envoyer une notification push si le profil est un client Gold. Et si une erreur est détectée dans l’appel, envoyez une action personnalisée pour en informer l’administrateur ou l’administratrice système.
 
 ![](assets/action-response5.png)
 
 1. Ajoutez votre événement et l’action personnalisée Fidélité créée précédemment.
 
-1. Dans l’action personnalisée Loyalty, associez le paramètre de requête de l’ID de client à l’ID de profil. Cochez l’option . **Ajouter un autre chemin en cas d’expiration ou d’erreur**.
+1. Dans l’action personnalisée Fidélité, associez le paramètre de requête de l’ID de client à l’identifiant du profil. Cochez l’option **Ajouter un autre chemin en cas d’expiration ou d’erreur**.
 
    ![](assets/action-response10.png)
 
-1. Dans la première branche, ajoutez une condition et utilisez l’éditeur avancé pour exploiter les champs de réponse de l’action, sous **Contexte** noeud .
+1. Dans la première branche, ajoutez une condition et utilisez l’éditeur avancé pour exploiter les champs de réponse de l’action, sous le nœud **Contexte**.
 
    ![](assets/action-response6.png)
 
-1. Ajoutez ensuite votre notification push et personnalisez votre message à l’aide des champs de réponse. Dans notre exemple, nous personnalisons le contenu à l’aide du nombre de points de fidélité et de l’état du client. Les champs de réponse de l’action sont disponibles sous **Attributs contextuels** > **Journey Orchestration** > **Actions**.
+1. Ajoutez ensuite votre notification push et personnalisez votre message à l’aide des champs de réponse. Dans notre exemple, nous personnalisons le contenu à l’aide du nombre de points de fidélité et du statut du client. Les champs de réponse de l’action sont disponibles sous **Attributs contextuels** > **Orchestration de parcours** > **Actions**.
 
    ![](assets/action-response8.png)
 
    >[!NOTE]
    >
-   >Chaque profil qui entre dans l’action personnalisée déclenche un appel . Même si la réponse est toujours la même, Parcours effectue toujours un appel par profil.
+   >Chaque profil qui entre dans l’action personnalisée déclenche un appel. Même si la réponse est toujours la même, Journey effectue toujours un appel par profil.
 
-1. Dans la branche Délai d’expiration et erreur , ajoutez une condition et utilisez le **jo_status_code** champ . Dans notre exemple, nous utilisons la variable
-   **http_400** type d’erreur. Consultez [cette section](#error-status).
+1. Dans la branche Délai d’expiration et erreur, ajoutez une condition et utilisez le champ **jo_status_code** intégré. Dans notre exemple, nous utilisons le
+   type d’erreur **http_400**. Consultez [cette section](#error-status).
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -121,11 +121,11 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
 
 ## Statut de l’erreur{#error-status}
 
-La variable **jo_status_code** est toujours disponible même lorsqu’aucun payload de réponse n’est défini.
+Le champ **jo_status_code** est toujours disponible même lorsqu’aucune payload de réponse n’est définie.
 
 Voici les valeurs possibles pour ce champ :
 
-* code d’état http : http_`<HTTP API call returned code>`, par exemple http_200 ou http_400
+* code d’état http : http_`<HTTP API call returned code>`, par exemple, http_200 ou http_400
 * erreur de temporisation : **expiré**
 * erreur de limitation : **limité**
 * erreur interne : **erreurInterne**
@@ -134,7 +134,7 @@ Un appel d’action est considéré comme une erreur lorsque le code http renvoy
 
 >[!WARNING]
 >
->Seules les actions personnalisées nouvellement créées incluent la variable **jo_status_code** champ d’usine. Si vous souhaitez l’utiliser avec une action personnalisée existante, vous devez mettre à jour l’action. Vous pouvez par exemple mettre à jour la description et l’enregistrer.
+>Seules les actions personnalisées nouvellement créées incluent le champ **jo_status_code** prêt à l’emploi. Si vous souhaitez l’utiliser avec une action personnalisée existante, vous devez mettre à jour l’action. Vous pouvez par exemple mettre à jour la description et l’enregistrer.
 
 ## Syntaxe des expressions
 
