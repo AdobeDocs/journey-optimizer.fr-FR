@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '1060'
+ht-degree: 83%
 
 ---
 
@@ -40,6 +40,10 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 Actuellement, deux types d’implémentation sont pris en charge pour permettre la création et la diffusion de campagnes de canal web sur vos propriétés web :
 
 * Côté client uniquement : pour ajouter des modifications à votre site web, vous devez implémenter le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web.
+
+  >[!NOTE]
+  >
+  >Assurez-vous que la version de votre SDK Web AEP est 2.16 ou supérieure.
 
 * Mode hybride : vous pouvez utiliser l’[API de serveur du réseau Edge d’AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
@@ -126,6 +130,24 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
   Cette politique de fusion est utilisée par les canaux entrants [!DNL Journey Optimizer] pour activer et publier correctement les campagnes entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
   ![](assets/web-aep-merge-policy.png)
+
+## Conditions préalables pour l’expérience de contenu {#experiment-prerequisites}
+
+Pour activer des expériences de contenu pour le canal web, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre implémentation web [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également présent dans votre configuration de création de rapports.
+
+En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
+
+Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>Le jeu de données est utilisé en lecture seule par la variable [!DNL Journey Optimizer] système de création de rapports et n’affecte pas la collecte de données ni l’ingestion de données.
+
+Si vous **not** à l’aide de la prédéfinie suivante : [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), veillez à ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, et `Web Details`. Ils sont nécessaires pour les [!DNL Journey Optimizer] création de rapports d’expérience de contenu alors qu’ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
+
+>[!NOTE]
+>
+>L’ajout de ces groupes de champs n’a aucune incidence sur la collecte de données normale. Il n’est additif que pour les pages où une expérience est en cours d’exécution, ce qui ne modifie pas tous les autres suivi.
 
 ## Domaines de marque pour les ressources {#branded-domains-for-assets}
 

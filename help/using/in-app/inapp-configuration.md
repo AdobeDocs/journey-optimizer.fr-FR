@@ -5,16 +5,16 @@ role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 78%
 
 ---
 
 # Configurer le canal in-app {#inapp-configuration}
 
-Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app dans [!DNL Adobe Experience Platform Data Collection].
+Avant d’envoyer des messages In-App, vous devez configurer votre canal In-App dans [!DNL Adobe Experience Platform Data Collection].
 
 1. À partir de votre compte [!DNL Adobe Experience Platform Data Collection], accédez au menu **[!UICONTROL Train de données]** et cliquez sur **[!UICONTROL Nouveau flux de données]**. Pour en savoir plus sur la création de train de données, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr).
 
@@ -24,7 +24,13 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
 
    ![](assets/inapp_config_6.png)
 
-1. Ensuite, accédez au menu **[!UICONTROL Surfaces d’application]**, puis cliquez sur **[!UICONTROL Créer la surface d’application]**.
+   >[!NOTE]
+   >
+   >Pour activer les expériences de contenu pour le canal In-App, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre in-app [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également présent dans votre configuration de création de rapports ; dans le cas contraire, les données in-app ne s’afficheront pas dans les rapports d’expérience de contenu. [Découvrez comment ajouter des jeux de données](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >Le jeu de données est utilisé en lecture seule par la variable [!DNL Journey Optimizer] système de création de rapports et n’affecte pas la collecte de données ni l’ingestion de données.
+
+1. Ensuite, accédez à la **[!UICONTROL Surfaces de l’application]** et cliquez sur **[!UICONTROL Créer la surface de l’application]**.
 
    >[!NOTE]
    >
