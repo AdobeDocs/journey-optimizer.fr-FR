@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 75%
+source-wordcount: '636'
+ht-degree: 76%
 
 ---
 
@@ -59,7 +59,7 @@ Avant de pouvoir ajouter un jeu de données à la configuration de création de 
 
   Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec la variable `Commerce Details` groupe de champs.
 
-  De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champs &quot;Détails de l’application&quot;.
+  De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec la variable `Application Details` groupe de champs.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
