@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 100%
+source-wordcount: '1113'
+ht-degree: 95%
 
 ---
 
@@ -176,6 +176,10 @@ Vous pouvez tester le rendu de tout modèle de contenu d’e-mail, qu’il ait �
    * Avant d’envoyer le BAT, vous devez sélectionner la [surface d’e-mail](../configuration/channel-surfaces.md) qui sera utilisée pour tester votre contenu.
 
      ![](assets/content-template-stimulate-proof-surface.png)
+
+>[!CAUTION]
+>
+>Actuellement, le suivi n’est pas pris en charge lors du test des modèles de contenu d’email, ce qui signifie que le suivi des événements, des paramètres UTM et des liens de page d’entrée ne sera pas efficace dans les bons à tirer envoyés à partir d’un modèle. Pour tester le tracking, [utiliser le modèle de contenu ;](email-templates.md) dans un email et [envoyer un bon à tirer](preview.md#send-proofs).
 
 ## Vidéo pratique {#video-templates}
 
