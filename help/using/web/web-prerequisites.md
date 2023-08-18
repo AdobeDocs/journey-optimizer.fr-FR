@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 83%
@@ -133,7 +133,7 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
 
 ## Conditions préalables pour l’expérience de contenu {#experiment-prerequisites}
 
-Pour activer des expériences de contenu pour le canal web, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre implémentation web [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également présent dans votre configuration de création de rapports.
+Pour activer des expériences de contenu pour le canal web, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre implémentation web [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
 
 En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
 
