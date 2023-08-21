@@ -5,9 +5,9 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '402'
 ht-degree: 43%
 
 ---
@@ -29,7 +29,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Canal in-app en parcours</strong><br/></th>
+<th><strong>Envoyer des messages In-App dans vos parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Assistant de contenu pour le texte et les images</strong><br/></th>
+<th><strong>Générer du texte et des images avec l’assistant de contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Une fois que vous avez créé et personnalisé votre message, repositionnez votre contenu au niveau supérieur avec l'assistant Contenu. Vous pouvez désormais utiliser l’assistant de contenu pour optimiser l’impact de votre message en testant différents titres et images principaux. Chaque variante est gérée en tant que Traitement unique, afin de mesurer et de comparer quel titre génère plus de clics.</p>
+<p>Cette fonctionnalité est publiée sous forme de version Private Beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ Une nouvelle API pour créer et gérer des fragments de contenu est désormais d
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
 * Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée.
+
+
+**Courrier**
+
+* Prise en charge d’Azure Blob en tant que destination de routage.
+* Prise en charge de `&amp;&quot; comme séparateur personnalisé.
