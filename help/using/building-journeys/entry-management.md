@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
+source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 82%
+source-wordcount: '613'
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez décoche
 
 ![](assets/journey-re-entrance.png)
 
-Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Les profils déjà dans le parcours terminent le parcours normalement. Les nouveaux profils ne peuvent plus entrer dans le parcours. Pour se conformer à la conformité en matière de confidentialité, ce comportement est défini sur 30 jours uniquement. Après cette période, les profils peuvent entrer à nouveau dans le parcours. Pour éviter cela, ajoutez une condition à tester si le profil est déjà renseigné ou non. En savoir plus sur le délai d’expiration du parcours dans [cette section](journey-gs.md#global_timeout).
+Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Les profils déjà dans le parcours terminent le parcours normalement. Les nouveaux profils ne peuvent plus entrer dans le parcours. Ce comportement est défini uniquement sur 30 jours (valeur par défaut du délai d’expiration par parcours), car nous supprimons toutes les informations sur les profils entrés dans le parcours 30 jours après leur saisie. Après cette période, les profils peuvent entrer à nouveau dans le parcours. Pour éviter cela, ajoutez une condition à tester si le profil est déjà renseigné ou non. En savoir plus sur le délai d’expiration du parcours dans [cette section](journey-gs.md#global_timeout).
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
