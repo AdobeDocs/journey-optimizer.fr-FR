@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
+source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3495'
 ht-degree: 93%
 
 ---
@@ -103,8 +103,8 @@ Une nouvelle option est disponible dans les paramètres de surface des emails po
 **Parcours**
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Private Beta.
-* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée.
-  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Courrier**
