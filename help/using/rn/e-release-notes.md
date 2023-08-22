@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
+source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 40%
+source-wordcount: '411'
+ht-degree: 42%
 
 ---
 
@@ -97,7 +97,7 @@ Une nouvelle API pour créer et gérer des fragments de contenu est désormais d
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Private Beta.
 * Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée.
-* Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours.
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Courrier**
