@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
+source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 100%
+source-wordcount: '1595'
+ht-degree: 99%
 
 ---
 
@@ -121,13 +121,13 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 ![](assets/journey32.png)
 
-### Entrée{#entrance}
+### Entrée et rentrée {#entrance}
 
 Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
 Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes.
 
-Pour en savoir plus sur la gestion des entrées de profil, consultez [cette section](entry-management.md).
+En savoir plus sur la gestion des entrées et des rentrées de profils, dans [cette section](entry-management.md).
 
 ### Gérer l’accès {#access}
 
