@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: b0cda95aee58a3dd3a0e22d09b5938ff11abcf32
+source-git-commit: 35f52afe61bf3eda897cc96f5484778522e38d45
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 78%
+source-wordcount: '620'
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez décoche
 
 ![](assets/journey-re-entrance.png)
 
-Après la valeur par défaut [expiration globale](journey-gs.md#global_timeout) sur 30 jours, le parcours passe à la variable **Terminé** statut. Les profils déjà dans le parcours terminent le parcours normalement. Les nouveaux profils ne peuvent plus entrer dans le parcours. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils entrés dans le parcours sont supprimées 30 jours après leur saisie. Après cette période, les profils peuvent entrer à nouveau dans le parcours. Pour éviter cela et désactiver complètement la rentrée pour ces profils, vous pouvez ajouter une condition pour tester si le profil a déjà été renseigné ou non.
+Après la valeur par défaut [expiration globale](journey-gs.md#global_timeout) sur 30 jours, le parcours passe à la variable **Terminé** statut. Les profils déjà dans le parcours terminent le parcours normalement. Les nouveaux profils ne peuvent plus entrer dans le parcours. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils entrés dans le parcours sont supprimées 30 jours après leur saisie. Après cette période, les profils peuvent entrer à nouveau dans le parcours. Pour éviter cela et désactiver complètement la rentrée pour ces profils, vous pouvez ajouter une condition afin de tester si le profil a déjà été renseigné ou non, à l&#39;aide des données de profil ou d&#39;audience.
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
