@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -131,23 +131,23 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
 
   ![](assets/web-aep-merge-policy.png)
 
-## Conditions préalables pour l’expérience de contenu {#experiment-prerequisites}
+## Conditions préalables à l’expérience de contenu {#experiment-prerequisites}
 
-Pour activer des expériences de contenu pour le canal web, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre implémentation web [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
+Pour activer les expériences de contenu pour le canal web, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans le [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} de votre implémentation web est également inclus dans la configuration des rapports.
 
-En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
+En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre train de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
 
 Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../campaigns/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >
->Le jeu de données est utilisé en lecture seule par la variable [!DNL Journey Optimizer] système de création de rapports et n’affecte pas la collecte de données ni l’ingestion de données.
+>Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’affecte pas la collecte ni l’ingestion de données.
 
-Si vous **not** à l’aide de la prédéfinie suivante : [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), veillez à ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, et `Web Details`. Ils sont nécessaires pour les [!DNL Journey Optimizer] création de rapports d’expérience de contenu alors qu’ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
+Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"} prédéfinis suivants, assurez-vous d’ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` et `Web Details`. Ils participent à la création de rapports d’expérience de contenu de [!DNL Journey Optimizer], car ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
 
 >[!NOTE]
 >
->L’ajout de ces groupes de champs n’a aucune incidence sur la collecte de données normale. Il n’est additif que pour les pages où une expérience est en cours d’exécution, ce qui ne modifie pas tous les autres suivi.
+>L’ajout de ces groupes de champs n’a aucune incidence sur la collecte de données standard. Seules les pages où une expérience est en cours d’exécution sont concernées. Les autres éléments de suivi restent inchangés.
 
 ## Domaines de marque pour les ressources {#branded-domains-for-assets}
 

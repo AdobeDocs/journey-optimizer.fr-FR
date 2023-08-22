@@ -12,16 +12,16 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Configuration des rapports pour les expériences {#reporting-configuration}
+# Configurer des rapports pour l’expérimentation {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Configurer des jeux de données pour la création de rapports"
->abstract="La configuration des rapports vous permet de récupérer des mesures supplémentaires qui seront utilisées dans les rapports de campagne. Elle doit être effectuée par un utilisateur technique."
+>abstract="La configuration des rapports vous permet de récupérer des mesures supplémentaires qui seront utilisées dans vos rapports de campagne. Elle doit être effectuée par un utilisateur technique."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -49,17 +49,17 @@ Avant de pouvoir ajouter un jeu de données à la configuration de création de 
 
 * Vous pouvez uniquement ajouter des jeux de données de type événement.
 
-* Ces jeux de données doivent inclure la variable `Experience Event - Proposition Interactions` [groupe de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}.
+* Ces jeux de données doivent inclure le [groupe de champ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group) `Experience Event - Proposition Interactions`{target="_blank"}.
 
-* Ces jeux de données peuvent également contenir l’un des éléments suivants : [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
+* Ils peuvent également contenir l’un des [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} suivants : `Application Details`, `Commerce Details` ou `Web Details`.
 
   >[!NOTE]
   >
   >D’autres groupes de champs peuvent également être inclus, mais seuls les groupes de champs ci-dessus sont actuellement pris en charge dans les rapports Journey Optimizer.
 
-  Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec la variable `Commerce Details` groupe de champs.
+  Par exemple, si vous souhaitez connaître l’impact d’une campagne par e-mail sur les données commerciales telles que les achats ou les commandes, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champs `Commerce Details`.
 
-  De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec la variable `Application Details` groupe de champs.
+  De même, si vous souhaitez générer des rapports sur les interactions mobiles, vous devez créer un jeu de données d’événement d’expérience avec le groupe de champ `Application Details`.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -127,11 +127,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >
    >Si vous avez sélectionné un jeu de données qui n’est pas de type événement, vous ne pourrez pas continuer.
 
-Pour les canaux web et in-app, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) configuré pour la collecte de données est également ajouté à cette configuration de création de rapports. Dans le cas contraire, les données web et in-app ne s’afficheront pas dans les rapports d’expérience de contenu.
+Pour les canaux web et in-app, assurez-vous que le [jeu de données](../data/get-started-datasets.md) configuré pour la collecte de données est également ajouté à la configuration des rapports. Dans le cas contraire, les données web et in-app ne s’afficheront pas dans les rapports d’expérience de contenu.
 
-* En savoir plus sur les conditions préalables des expériences de contenu pour le canal web dans [cette section](../web/web-prerequisites.md#experiment-prerequisites).
+* En savoir plus sur les conditions préalables aux expériences de contenu pour le canal web dans [cette section](../web/web-prerequisites.md#experiment-prerequisites).
 
-* En savoir plus sur la configuration du canal In-App dans [cette section](../in-app/inapp-configuration.md).
+* En savoir plus sur la configuration du canal in-app dans [cette section](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

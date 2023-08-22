@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: a68b4417c86b71d16622e8776c17625b2d061cc7
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '126'
 ht-degree: 100%
 
 ---
@@ -26,8 +26,6 @@ L&#39;export crée un jeu de données pour chaque objet de votre bibliothèque d
 
 Chaque fois que l&#39;un de ces objets est modifié dans la bibliothèque des offres, un nouveau traitement d&#39;export est automatiquement exécuté afin de mettre à jour les jeux de données.
 
-<!--
 >[!NOTE]
 >
->This feature is not enabled by default. If you want to use it, reach out to your Adobe contact to have it activated for your catalog. Once it is enabled, export jobs will be automated and will require no action from your side.
--->
+>Cette fonctionnalité n&#39;est pas activée par défaut. Si vous souhaitez l&#39;utiliser, contactez votre interlocuteur Adobe afin de l&#39;activer pour votre catalogue. Une fois qu&#39;elle est activée, les traitements d&#39;export sont automatisés et ne nécessitent aucune action de votre part.

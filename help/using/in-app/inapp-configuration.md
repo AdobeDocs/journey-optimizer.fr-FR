@@ -8,15 +8,15 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Configurer le canal in-app {#inapp-configuration}
 
-Avant d’envoyer des messages In-App, vous devez configurer votre canal In-App dans [!DNL Adobe Experience Platform Data Collection].
+Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app dans [!DNL Adobe Experience Platform Data Collection].
 
-1. À partir de votre compte [!DNL Adobe Experience Platform Data Collection], accédez au menu **[!UICONTROL Train de données]** et cliquez sur **[!UICONTROL Nouveau flux de données]**. Pour en savoir plus sur la création de train de données, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr).
+1. À partir de votre compte [!DNL Adobe Experience Platform Data Collection], accédez au menu **[!UICONTROL Train de données]** et cliquez sur **[!UICONTROL Nouveau train de données]**. Pour en savoir plus sur la création de train de données, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr).
 
 1. Sélectionnez le service [!DNL Adobe Experience Platform].
 
@@ -26,11 +26,11 @@ Avant d’envoyer des messages In-App, vous devez configurer votre canal In-App 
 
    >[!NOTE]
    >
-   >Pour activer les expériences de contenu pour le canal In-App, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre in-app [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également présent dans votre configuration de création de rapports ; dans le cas contraire, les données in-app ne s’afficheront pas dans les rapports d’expérience de contenu. [Découvrez comment ajouter des jeux de données](../campaigns/reporting-configuration.md#add-datasets)
+   >Pour activer les expériences de contenu pour le canal in-app, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans votre [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} in-app est également présent dans la configuration des rapports. Dans le cas contraire, les données in-app ne s’afficheront pas dans les rapports d’expérience de contenu. [Découvrez comment ajouter des jeux de données](../campaigns/reporting-configuration.md#add-datasets).
    >
-   >Le jeu de données est utilisé en lecture seule par la variable [!DNL Journey Optimizer] système de création de rapports et n’affecte pas la collecte de données ni l’ingestion de données.
+   >Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’a aucune incidence sur la collecte ou l’ingestion de données.
 
-1. Ensuite, accédez à la **[!UICONTROL Surfaces de l’application]** et cliquez sur **[!UICONTROL Créer la surface de l’application]**.
+1. Accédez ensuite au menu **[!UICONTROL Surfaces in-app]** et cliquez sur **[!UICONTROL Créer la surface d’application]**.
 
    >[!NOTE]
    >
