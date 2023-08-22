@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b0cda95aee58a3dd3a0e22d09b5938ff11abcf32
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 78%
 
 ---
 
@@ -31,13 +31,16 @@ Dans les parcours unitaires, vous pouvez activer ou désactiver la reprise :
 
 * Si la reprise est activée, un profil peut rejoindre à nouveau plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 
-* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours
+* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours.
 
-Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner cette option pour les parcours « uniques » ; c’est le cas, par exemple, si vous souhaitez offrir un cadeau à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique. Dans ce cas, vous ne voulez pas que le client ou la cliente puisse rejoindre de nouveau le parcours et rebénéficier de l&#39;offre. Lorsqu’un parcours se termine, son statut passe en mode **[!UICONTROL Fermé]**. Aucune nouvelle personne ne peut rejoindre le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement. [En savoir plus](journey-gs.md#entrance)
+Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez décocher l’option pour les parcours &quot;Une seule prise&quot;, par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu’une personne visite une boutique. Dans ce cas, le client ne doit pas pouvoir entrer de nouveau dans le parcours et recevoir à nouveau l’offre. Lorsqu’un parcours se termine, son statut passe en mode **[!UICONTROL Fermé]**. Aucune nouvelle personne ne peut rejoindre le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement. [En savoir plus](journey-gs.md#entrance)
 
 ![](assets/journey-re-entrance.png)
 
-Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Aucune nouvelle personne ne peut rejoindre le parcours. Les personnes déjà dans le parcours le terminent normalement. En raison de la temporisation de 30 jours du parcours, lorsque la reprise de celui-ci n’est pas autorisée, nous ne pouvons pas nous assurer que le blocage de la reprise fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 30 jours. [En savoir plus](journey-gs.md#global_timeout).
+Après la valeur par défaut [expiration globale](journey-gs.md#global_timeout) sur 30 jours, le parcours passe à la variable **Terminé** statut. Les profils déjà dans le parcours terminent le parcours normalement. Les nouveaux profils ne peuvent plus entrer dans le parcours. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils entrés dans le parcours sont supprimées 30 jours après leur saisie. Après cette période, les profils peuvent entrer à nouveau dans le parcours. Pour éviter cela et désactiver complètement la rentrée pour ces profils, vous pouvez ajouter une condition pour tester si le profil a déjà été renseigné ou non.
+
+<!--
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
 Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 
