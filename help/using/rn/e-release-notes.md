@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 42%
+source-wordcount: '362'
+ht-degree: 48%
 
 ---
 
@@ -52,7 +52,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle consiste en des adresses de messagerie de test auxquelles vous envoyez un courrier électronique avant de l’envoyer à votre audience réelle. Utilisez cette fonctionnalité pour surveiller les copies d’emails envoyées et vous assurer que tous les formats d’affichage, URL, images et liens sont corrects.</p>
+<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d'adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l'exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que tous les formats d’affichage, URL, images et liens sont corrects.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Générer du texte et des images avec l’assistant de contenu</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une fois que vous avez créé et personnalisé votre message, repositionnez votre contenu au niveau supérieur avec l'assistant Contenu. Vous pouvez désormais utiliser l’assistant de contenu pour optimiser l’impact de votre message en testant différents titres et images principaux. Chaque variante est gérée en tant que Traitement unique, afin de mesurer et de comparer quel titre génère plus de clics.</p>
-<p>Cette fonctionnalité est actuellement disponible en version bêta privée.</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ Une nouvelle API pour créer et gérer des fragments de contenu est désormais d
 
 **Canal e-mail**
 
-* Une nouvelle option est disponible dans les paramètres de surface des emails pour inclure les adresses email supprimées en raison d’une plainte de spam dans vos audiences de messages transactionnels. Même s’ils ont marqué des messages marketing comme spam, ces profils peuvent alors recevoir des messages transactionnels, tels que la réinitialisation du mot de passe ou les instructions de compte. Par défaut, cette option est désactivée.
+Une nouvelle option est disponible dans les paramètres de surface des emails pour inclure les adresses email supprimées en raison d’une plainte de spam dans vos audiences de messages transactionnels. Même s’ils ont marqué des messages marketing comme spam, ces profils peuvent alors recevoir des messages transactionnels, tels que la réinitialisation du mot de passe ou les instructions de compte. Par défaut, cette option est désactivée.
 
 **Parcours**
 
@@ -102,5 +102,5 @@ Une nouvelle API pour créer et gérer des fragments de contenu est désormais d
 
 **Courrier**
 
-* Prise en charge d’Azure Blob en tant que destination de routage.
-* Assistance `&` comme séparateur personnalisé.
+* Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage de fichiers.
+* L’esperluette est désormais disponible en tant que champ de séparateur de colonne dans les paramètres de surface du courrier.
