@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
+source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 43%
+source-wordcount: '411'
+ht-degree: 42%
 
 ---
 
@@ -71,7 +71,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tr>
 <td>
 <p>Une fois que vous avez créé et personnalisé votre message, repositionnez votre contenu au niveau supérieur avec l'assistant Contenu. Vous pouvez désormais utiliser l’assistant de contenu pour optimiser l’impact de votre message en testant différents titres et images principaux. Chaque variante est gérée en tant que Traitement unique, afin de mesurer et de comparer quel titre génère plus de clics.</p>
-<p>Cette fonctionnalité est publiée sous forme de version Private Beta.</p>
+<p>Cette fonctionnalité est actuellement disponible en version bêta privée.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -95,7 +95,7 @@ Une nouvelle API pour créer et gérer des fragments de contenu est désormais d
 
 **Parcours**
 
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses.
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Private Beta.
 * Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée.
 
 
