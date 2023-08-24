@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -22,9 +22,9 @@ Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer 
 
 * Tirez parti des **fonctionnalités de conception d’e-mail** [!DNL Journey Optimizer] pour créer ou importer des e-mails réactifs. [En savoir plus](content-from-scratch.md)
 
-* Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](assets-essentials.md)
+* Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../content-management/assets-essentials.md)
 
-* Rechercher des **photos Adobe Stock** pour créer votre contenu et améliorer votre conception d’e-mail. [En savoir plus](stock.md)
+* Rechercher des **photos Adobe Stock** pour créer votre contenu et améliorer votre conception d’e-mail. [En savoir plus](../content-management/stock.md)
 
 * Améliorez l’expérience des clients en créant des messages dynamiques personnalisés en fonction de leurs attributs de profil. En savoir plus sur [Personnalisation](../personalization/personalize.md) et [Contenu dynamique](../personalization/get-started-dynamic-content.md).
 
@@ -32,7 +32,7 @@ Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer 
 
 ## Bonnes pratiques en matière de conception d’e-mail {#best-practices}
 
-Lors de l’envoi d’e-mails, n’oubliez pas que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu. Ceci est particulièrement vrai lors de l’utilisation de classes CSS qui peuvent ne pas être prises en charge par le fournisseur de messagerie utilisé pour le transfert, notamment si vous utilisez la classe « CSS is-desktop-hidden » pour masquer une image sur les périphériques mobiles.
+Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’e-mail. Vous risquez de rencontrer ces problèmes si vous utilisez des classes CSS non prises en charge par le fournisseur de messagerie utilisé pour le transfert, comme « is-desktop-hidden », par exemple, pour masquer une image sur les appareils mobiles.
 
 Pour minimiser ces problèmes de rendu, nous vous recommandons de garder votre structure de conception d’e-mail aussi simple que possible. Essayez d’utiliser une conception unique qui fonctionne aussi bien pour les ordinateurs de bureau et les appareils mobiles, et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception qui ne sont pas entièrement pris en charge par tous les clients de messagerie. En suivant ces bonnes pratiques, vous aurez l’assurance que vos e-mails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
 
@@ -46,7 +46,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 1. Dans la page d’accueil du Concepteur d’e-mail, choisissez la manière de concevoir votre e-mail à l’aide des options suivantes :
 
-   * **Concevez vos e-mails en partant de zéro** dans l’interface du Concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets Essentials](assets-essentials.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
+   * **Concevez vos e-mails en partant de zéro** dans l’interface du Concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
 
    * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 

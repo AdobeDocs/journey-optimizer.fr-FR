@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
-workflow-type: ht
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
@@ -151,4 +151,4 @@ Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.ad
 
 ## Domaines de marque pour les ressources {#branded-domains-for-assets}
 
-Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque d’[Adobe Experience Manager Assets Essentials](../email/assets-essentials.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. [En savoir plus](web-delegated-subdomains.md).
+Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque d’[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. [En savoir plus](web-delegated-subdomains.md).

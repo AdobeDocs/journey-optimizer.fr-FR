@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, balises
-badge: label="Version Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
@@ -20,10 +19,6 @@ ht-degree: 100%
 # Gérer les balises dans les parcours {#journey_tags}
 
 En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez identifier vos parcours à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche.
-
->[!AVAILABILITY]
->
-> Les balises unifiées sont actuellement en version Beta. La documentation et les fonctionnalités peuvent changer.
 
 ## Ajouter des balises à un parcours
 

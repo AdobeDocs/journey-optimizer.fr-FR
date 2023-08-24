@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr).
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr).{target="_blank"}.
 
 >[!ENDSHADEBOX]
 

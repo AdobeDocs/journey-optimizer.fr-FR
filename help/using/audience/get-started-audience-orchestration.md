@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous êtes un client ou une cliente Profil client en temps réel uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr).
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous êtes un client ou une cliente Profil client en temps réel uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ La composition de l’audience est accessible à partir du menu **[!UICONTROL Au
 
 ![](assets/audiences-browse.png)
 
-* L’onglet **[!UICONTROL Vue d’ensemble]** se compose d’un tableau de bord dédié avec des mesures clés liées aux données d’audience de votre organisation. Pour en savoir plus, consultez le [guide des tableaux de bord d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=fr).
+* La variable **[!UICONTROL Présentation]** Cet onglet fournit un tableau de bord dédié avec des mesures clés liées aux données d’audience de votre entreprise. Pour en savoir plus, consultez le [guide des tableaux de bord d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=fr).
 
 * L’onglet **[!UICONTROL Parcourir]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform.
 

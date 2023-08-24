@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: code, HTML, éditeur
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
 
 >[!CAUTION]
 >
-> Les images provenant de [Adobe Experience Manager Assets Essentials](assets-essentials.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
+> Les images provenant de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
 
 1. Dans la page d’accueil du Concepteur d’e-mail, sélectionnez **[!UICONTROL Coder le vôtre]**.
 

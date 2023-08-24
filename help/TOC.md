@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 98%
 
 ---
 
@@ -185,9 +185,6 @@ ht-degree: 100%
       + Concevoir votre contenu {#add-content}
          + [Utiliser des composants de contenu](using/email/content-components.md)
          + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
-         + Gérer les ressources {#manage-asset}
-            + [Utiliser Assets Essentials](using/email/assets-essentials.md)
-            + [Utilisation d’Adobe Stock](using/email/stock.md)
          + [Insérer des offres personnalisées](using/email/add-offers-email.md)
          + [Génération de la version texte](using/email/text-version-email.md)
          + [Ajout d’un pré-titre](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 100%
    + Configuration des pages de destination   {#lp-configuration}
       + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
++ Gestion de contenu {#content-management}
+   + [Utiliser Assets Essentials](using/content-management/assets-essentials.md)
+   + [Utilisation d’Adobe Stock](using/content-management/stock.md)
+   + Utilisation de l’assistant de contenu{#content-assistant}
+      + [Prise en main de l’assistant de contenu](using/content-management/gs-generative.md)
+      + [Génération de titres](using/content-management/generative-title.md)
+      + [Génération d’images](using/content-management/generative-image.md)
 + Personnalisation et contenu dynamique {#personalized-dynamic-content}
    + Personnalisation {#personalization}
       + [Prise en main de la personnalisation](using/personalization/personalize.md)

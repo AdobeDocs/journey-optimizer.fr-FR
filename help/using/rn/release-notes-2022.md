@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour 2022
 description: Notes de mise à jour 2022 pour Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
@@ -445,7 +445,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Le module d’intégration du Concepteur d’e-mail Adobe Stock et Adobe Journey Optimizer fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br>La nouvelle option <b>Rechercher des photos Stock similaires</b> vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>Pour plus d’informations, consultez la <a href="../email/stock.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../content-management/stock.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
