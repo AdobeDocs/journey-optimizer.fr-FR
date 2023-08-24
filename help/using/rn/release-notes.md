@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '3495'
-ht-degree: 93%
+source-wordcount: '3384'
+ht-degree: 97%
 
 ---
 
@@ -22,32 +22,27 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour initiales d’août 2023 {#aug-rn-2023}
-
-Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication. Les liens, les écrans et la documentation mise à jour sont publiés à la date de publication.
-
-
-**Date de publication**: 23-24 août 2023
+## Notes de mise à jour d’août 2023 {#aug-rn-2023}
 
 ### Nouvelles fonctionnalités{#aug-2023-features}
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Envoyer des messages In-App dans vos parcours</strong><br/></th>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais envoyer des messages In-App personnalisés aux utilisateurs de votre application dans un parcours. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
+<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -61,7 +56,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d'adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l'exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que tous les formats d’affichage, URL, images et liens sont corrects.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../configuration/seed-lists.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,25 +87,26 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-**API**
+<!--
+**APIs**
 
-Une nouvelle API pour créer et gérer des fragments de contenu est désormais disponible. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
-**Canal e-mail**
+<!--**Email channel**
 
-Une nouvelle option est disponible dans les paramètres de surface des emails pour inclure les adresses email supprimées en raison d’une plainte de spam dans vos audiences de messages transactionnels. Même s’ils ont marqué des messages marketing comme spam, ces profils peuvent alors recevoir des messages transactionnels, tels que la réinitialisation du mot de passe ou les instructions de compte. Par défaut, cette option est désactivée.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **Parcours**
 
-Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Private Beta.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Private Beta. [En savoir plus](../action/action-response.md).
+* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée. [En savoir plus](../reports/alerts.md).
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Courrier**
 
-* Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage de fichiers.
-* L’esperluette est désormais disponible en tant que champ de séparateur de colonne dans les paramètres de surface du courrier.
+* Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage de fichiers. [En savoir plus](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* L’esperluette est désormais disponible en tant que champ de séparateur de colonne dans les paramètres de surface du courrier. [En savoir plus](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

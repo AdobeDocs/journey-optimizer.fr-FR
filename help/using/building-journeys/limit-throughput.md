@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
@@ -42,6 +42,7 @@ Pour les **parcours déclenchés par une audience**, vous pouvez définir le tau
 >[!NOTE]
 >
 > Il s’agit du nombre maximum de profils pouvant entrer dans le parcours par seconde. Ce taux s’applique uniquement à cette activité et non aux autres activités du parcours. [En savoir plus](../building-journeys/read-audience.md)
+
 
 ![](assets/limit-throughput-1.png)
 

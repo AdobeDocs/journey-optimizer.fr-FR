@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 100%
+source-wordcount: '1941'
+ht-degree: 91%
 
 ---
 
@@ -181,6 +181,31 @@ Pour ce faire, activez la fonctionnalité **[!UICONTROL E-mail Cci]** au niveau 
 En outre, lors de la définition de l’adresse **[!UICONTROL E-mail en Cci]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de surface d’e-mail échouera.
 
 Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
+
+## Liste de contrôle {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="Ajouter une liste de contrôle"
+>abstract="Sélectionnez la liste de contrôle de votre choix pour inclure automatiquement des adresses de contrôle email spécifiques dans vos diffusions. Ces adresses seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte de la diffusion à des fins d’assurance."
+
+Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure automatiquement des adresses de contrôle d’email spécifiques dans vos diffusions. [En savoir plus](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>Actuellement, cette fonctionnalité ne s’applique qu’au canal email.
+
+Sélectionnez la liste qui vous intéresse dans le **[!UICONTROL Liste de contrôle]** . Découvrez comment créer une liste de contrôle dans [cette section](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>Une seule liste de contrôle peut être sélectionnée à la fois.
+
+Lorsque la surface actuelle est utilisée dans une opération ou un parcours, les adresses email de la liste de contrôle sélectionnée sont incluses au moment de l&#39;exécution de la diffusion, ce qui signifie qu&#39;elles recevront une copie de la diffusion à des fins d&#39;assurance.
+
+Découvrez comment utiliser la liste de contrôle dans une campagne ou un parcours dans [cette section](../configuration/seed-lists.md#use-seed-list).
 
 ## Paramètres de reprise de lʼe-mail {#email-retry}
 

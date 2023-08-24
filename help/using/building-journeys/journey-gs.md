@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 99%
+source-wordcount: '1662'
+ht-degree: 95%
 
 ---
 
@@ -172,3 +172,20 @@ Outre la [temporisation](#timeout_and_error) utilisée dans les activités de pa
 Compte tenu de la temporisation de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 30 jours.
 
 Un individu ne peut entrer dans une activité d’attente que s’il dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 30 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
+
+## Dupliquer un parcours {#duplicate-a-journey}
+
+Vous pouvez dupliquer un parcours existant à partir du **Parcourir** . Tous les objets et paramètres sont dupliqués dans la copie de parcours.
+
+Pour ce faire, suivez les étapes ci-après :
+
+1. Accédez au parcours à copier, puis cliquez sur le bouton **Autres actions** (les trois points en regard du nom du parcours).
+1. Sélectionnez **Dupliquer**.
+
+   ![Dupliquer un parcours](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. Le nouveau parcours est créé et disponible dans la liste des parcours.

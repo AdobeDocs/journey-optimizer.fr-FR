@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurer une action personnalisée
-description: Découvrez comment configurer une action personnalisée
+title: Améliorations des actions personnalisées
+description: En savoir plus sur les dernières améliorations apportées aux actions personnalisées
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '666'
+ht-degree: 96%
 
 ---
 
-# Améliorations des actions personnalisées
+# Améliorations des actions personnalisées {#custom-action-enhancements}
 
 Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
 
-Cette fonctionnalité n’était disponible que lors de l’utilisation de sources de données. Vous pouvez désormais l’utiliser avec des actions personnalisées.
+Auparavant, cette fonctionnalité n’était disponible que lors de l’utilisation de sources de données. Vous pouvez désormais l’utiliser avec des actions personnalisées.
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ Cette fonctionnalité n’était disponible que lors de l’utilisation de sourc
 >
 >Les actions personnalisées ne doivent être utilisées qu’avec des points d’entrée privés ou internes et avec une limitation ou un capping de la fréquence approprié. Consultez [cette page](../configuration/external-systems.md).
 
-## Définir l’action personnalisée
+## Définition de l’action personnalisée {#define-custom-action}
 
 Pour la définition de l’action personnalisée, deux améliorations ont été apportées : l’ajout de la méthode GET et le nouveau champ de réponse de payload. Les autres options et paramètres restent inchangés. Consultez [cette page](../action/about-custom-action-configuration.md).
 
-### Configuration du point d’entrée
+### Configuration du point d’entrée {#endpoint-configuration}
 
 La section **Configuration de l’URL** a été renommée **Configuration du point d’entrée**.
 
@@ -44,7 +42,7 @@ Dans le menu déroulant **Méthode**, vous pouvez maintenant sélectionner **GET
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads
+### Payloads {#payloads-new}
 
 La section **Paramètres d’action** a été renommée **Payloads**. Deux champs sont disponibles :
 
@@ -80,7 +78,7 @@ La section **Paramètres d’action** a été renommée **Payloads**. Deux champ
 
 1. Cliquez sur **Enregistrer**.
 
-## Utiliser la réponse dans un parcours
+## Utiliser la réponse dans un parcours {#response-in-journey}
 
 Il vous suffit d’ajouter l’action personnalisée à un parcours. Vous pouvez ensuite exploiter les champs de payload de réponse dans des conditions, dans d’autres actions et dans la personnalisation des messages.
 
@@ -119,7 +117,7 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
 
    ![](assets/action-response11.png)
 
-## Statut de l’erreur{#error-status}
+## Statut de l’erreur {#error-status}
 
 Le champ **jo_status_code** est toujours disponible même lorsqu’aucune payload de réponse n’est définie.
 
@@ -136,7 +134,7 @@ Un appel d’action est considéré comme une erreur lorsque le code http renvoy
 >
 >Seules les actions personnalisées nouvellement créées incluent le champ **jo_status_code** prêt à l’emploi. Si vous souhaitez l’utiliser avec une action personnalisée existante, vous devez mettre à jour l’action. Vous pouvez par exemple mettre à jour la description et l’enregistrer.
 
-## Syntaxe des expressions
+## Syntaxe des expressions {#exp-syntax}
 
 Voici la syntaxe :
 
@@ -160,3 +158,4 @@ Voici quelques exemples :
 ```
 
 Pour plus d’informations sur les références de champs, consultez [cette section](../building-journeys/expression/field-references.md).
+

@@ -1,6 +1,6 @@
 ---
 title: Créer une notification in-app dans un parcours
-description: Découvrez comment créer un message in-app dans Journey Optimizer
+description: Découvrez comment ajouter un message in-app dans un parcours
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,17 @@ keywords: in-app, message, création, commencer
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Version Beta" type="Informative"
-source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 94%
 
 ---
 
+
 # Créer un message in-app dans un parcours {#create-in-app-journey}
+
+Pour ajouter un message In-App dans un parcours, procédez comme suit :
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL In-app]** depuis la section **[!UICONTROL Actions]** de la palette.
 
@@ -85,7 +87,7 @@ En savoir plus sur le [Rapport global de parcours](../reports/journey-global-rep
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
-Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance clés détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages In-App, telles que :
 
 * **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
 

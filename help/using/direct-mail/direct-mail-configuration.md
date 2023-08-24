@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '893'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +36,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 >id="ajo_dm_file_routing_details"
 >title="Définir la configuration du routage des fichiers"
 >abstract="Une fois que vous avez créé un message de publipostage direct, le fichier contenant les données de l’audience ciblée sera généré et exporté vers un serveur. Vous devez spécifier les détails du serveur afin que votre fournisseur de publipostage direct puisse accéder à ce fichier et l’utiliser pour diffuser du publipostage direct."
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Créer un message de publipostage direct"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
    >[!NOTE]
    >
-   >Actuellement, seuls Amazon S3 et SFTP<!--and Azure--> sont pris en charge dans [!DNL Journey Optimizer].
+   >Actuellement, Amazon S3, SFTP et Azure sont pris en charge dans [!DNL Journey Optimizer].
 
 1. Renseignez les détails et les informations d’identification de votre serveur, telles que l’adresse du serveur, la clé d’accès, etc.
 
@@ -135,7 +133,7 @@ Une surface de publipostage direct doit également inclure la configuration du r
 
 1. Sélectionnez le format du fichier : **[!UICONTROL CSV]** ou **[!UICONTROL Texte délimité]**.
 
-1. Si vous sélectionnez **[!UICONTROL Texte délimité]**, définissez le séparateur de colonne de votre choix : tabulation, point-virgule ou barre verticale<!--or ampersand-->.
+1. Si vous sélectionnez **[!UICONTROL Texte délimité]**, définissez le séparateur de colonne de votre choix : tabulation, point-virgule, barre verticale ou esperluette.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
