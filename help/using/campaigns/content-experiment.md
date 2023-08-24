@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 100%
+source-wordcount: '838'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Expérience de contenu"
->abstract="Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur de la diffusion afin de définir plusieurs traitements de diffusion et déterminer la meilleure combinaison pour vos audiences."
+>abstract="Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur du message afin de définir plusieurs traitements et de déterminer la meilleure combinaison pour vos audiences."
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 >title="Mesure de succès"
 >abstract="La mesure de succès permet de suivre et d’évaluer le traitement le plus performant dans une expérience. Veillez à configurer votre jeu de données pour certaines mesures avant de l’utiliser."
 
-1. Lorsque votre diffusion est personnalisée, dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
+1. Lorsque votre message est personnalisé, dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu.
 
    ![](assets/content_experiment_3.png)
 
 1. Sélectionnez les **[!UICONTROL mesures de succès]** que vous souhaitez définir pour votre expérience.
 
-   Pour notre expérience, nous sélectionnons **[!UICONTROL Ouvertures d’e-mails]** pour tester si les destinataires ouvriront leurs e-mails lorsque le code de promotion se trouve dans l’objet.
+   Pour cet exemple, sélectionnez **[!UICONTROL Ouverture d’email]** pour tester si les profils ouvrent leurs emails si le code promotion se trouve dans la ligne d’objet.
 
    ![](assets/content_experiment_11.png)
 
