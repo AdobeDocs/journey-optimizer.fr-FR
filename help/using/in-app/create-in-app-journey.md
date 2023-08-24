@@ -6,10 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, création, commencer
-hide: true
-hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 94%

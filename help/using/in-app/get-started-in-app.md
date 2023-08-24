@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ Avant d’envoyer des messages in-app, vous devez :
 
 * Configurer le canal in-app. [En savoir plus](inapp-configuration.md)
 
-* Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer.<!--, even if you plan to only use in-app messages in journeys. Campaign permissions are still required-->. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer, même si vous prévoyez d’utiliser uniquement les messages in-app dans parcours. Les autorisations de Campaign sont toujours requises. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Une fois cette opération terminée, vous pouvez créer, configurer et envoyer votre premier message in-app. Découvrez comment accomplir cela dans [cette section](create-in-app.md).
 

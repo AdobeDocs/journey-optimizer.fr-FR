@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '3384'
-ht-degree: 97%
+source-wordcount: '3432'
+ht-degree: 96%
 
 ---
 
@@ -28,21 +28,21 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Send In-app messages in your journeys</strong><br/></th>
+<th><strong>Envoyer des messages In-App dans vos parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<p>Vous pouvez désormais envoyer des messages In-App personnalisés aux utilisateurs de votre application dans un parcours. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <img src="assets/in_app_journey_1.png"/>
-<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../in-app/create-in-app-journey.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>
