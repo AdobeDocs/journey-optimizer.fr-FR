@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
 workflow-type: tm+mt
-source-wordcount: '3206'
-ht-degree: 99%
+source-wordcount: '3279'
+ht-degree: 97%
 
 ---
 
@@ -18,10 +18,15 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Août 2023 {#august-2023}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 23 août ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Remarque concernant **gestion du cache d&#39;authentification** dans parcours a été mis à jour afin de préciser que le jeton n’est pas partagé entre différents parcours. [En savoir plus](../datasource/external-data-sources.md#custom-authentication-mode)
+* La page sur le parcours **gestion des entrées** a été mis à jour afin de clarifier le comportement. [En savoir plus](../building-journeys/entry-management.md)
+* Offer decisioning **exportation de jeux de données** sont désormais activées par défaut. La note sur le comportement précédent a été supprimée.  [En savoir plus](../offers/export-catalog/get-started-export.md)
+* Divers **mesures des rapports de campagne** ont été renommées dans les rapports en direct et globaux. [En savoir plus](../reports/campaign-global-report.md)
 * Ajout d’une section sur les conditions préalables des expériences de contenu pour le canal web. [En savoir plus](../web/web-prerequisites.md#experiment-prerequisites)
 * Ajout d’un avertissement sur la page **Utiliser les modèles de contenu** pour indiquer que le suivi actuel n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Pour tester le suivi, vous devez utiliser le modèle de contenu d’un e-mail et envoyer un BAT. [En savoir plus](../email/content-templates.md#test-template)
 * Ajout de plusieurs avertissements dans la section **Créer et publier des pages de destination** pour indiquer que vous ne pouvez pas accéder à votre page de destination en copiant-collant dans un navigateur web l’URL définie lors de la création de la page, même si elle est publiée. Testez-la plutôt à l’aide de la fonction de prévisualisation. [En savoir plus](../landing-pages/create-lp.md)
-* Ajout d’une section sur la gestion du consentement pour le canal courrier - [En savoir plus](../direct-mail/test-send-direct-mail.md)
+* Ajout d’une section sur la procédure à suivre **gérer le consentement** pour le canal courrier. [En savoir plus](../direct-mail/test-send-direct-mail.md)
+
 
 ## Juillet 2023 {#july-2023}
 
