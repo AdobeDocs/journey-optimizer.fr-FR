@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 100%
+source-wordcount: '2258'
+ht-degree: 93%
 
 ---
 
@@ -34,6 +34,7 @@ La page **[!UICONTROL Rapport global]** du parcours s&#39;affiche avec les ongle
 * [E-mail](#email-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [In-app](#in-app-global)
 
 Le rapport **[!UICONTROL global]** de parcours est divisé en différents widgets détaillant la réussite et les erreurs de votre parcours. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent
 
 Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
 
++++
+
+## Onglet In-app {#in-app-global}
+
+Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux diffusions in-app envoyées dans vos parcours.
+
+![](assets/in-app-journey-report.png)
+
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
+
+Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+
+* **[!UICONTROL Impressions uniques]**: nombre d&#39;utilisateurs uniques auxquels le message in-app a été affiché.
+
+* **[!UICONTROL Impressions]**: nombre total de messages In-App affichés à tous les utilisateurs.
+
+  >[!NOTE]
+  >
+  >Pour s’assurer qu’une impression est comptabilisée, l’utilisateur doit répondre à deux critères :
+  >* Qualification au sein de l’expérience in-app, obtenue en atteignant l’activité in-app spécifique dans leur parcours.
+  >* Respecter les conditions spécifiées dans les règles Trigger.
+  > 
+  >En raison du deuxième critère, il peut y avoir des variations notables entre le nombre de profils ciblés et le nombre d’impressions uniques.
+
+* **[!UICONTROL Taux d&#39;interaction]**: pourcentage d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics, les rejets ou toute autre interaction.
+
+La variable **[!UICONTROL Résumé in-app]** Le graphique montre l’évolution de vos impressions et interactions In-App pendant la période concernée.
+
+La variable **[!UICONTROL Interactions par type]** les graphiques et les tableaux détaillent la manière dont les utilisateurs ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions.
 +++

@@ -6,11 +6,13 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, création, commencer
+hide: true
+hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 94%
+source-wordcount: '587'
+ht-degree: 92%
 
 ---
 
@@ -60,20 +62,6 @@ Pour ajouter un message In-App dans un parcours, procédez comme suit :
 1. Une fois votre message in-app prêt, finalisez la configuration et publiez votre parcours pour l’activer.
 
 Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
-
-## Limites des activités in-app {#in-app-activity-limitations}
-
-* Cette fonctionnalité n’est actuellement pas disponible pour les clientes et clients du secteur de la santé.
-
-* La personnalisation ne peut contenir que des attributs de profil.
-
-* L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil.  Par conséquent, il n’est pas possible d’arrêter un message in-app directement à partir d’une activité de parcours. Vous devez plutôt terminer le parcours entier pour que les messages in-app ne s’affichent pas sur le profil.
-
-* En mode test, l’affichage in-app dépend de la durée de vie du parcours. Pour éviter que le parcours ne se termine trop tôt au cours du test, ajustez la valeur **[!UICONTROL Temps d’attente]** de vos activités **[!UICONTROL Attente]**.
-
-* Les activités **[!UICONTROL Réaction]** ne peuvent pas être utilisées pour réagir à une ouverture ou un clic in-app.
-
-* Un délai d’activation peut se produire entre le moment où le profil d’une personne atteint une activité in-app dans la zone de travail et le moment où ladite personne commence à voir ce message in-app.
 
 ## Rapport in-app {#inapp-report}
 

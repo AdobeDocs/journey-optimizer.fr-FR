@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -31,13 +31,13 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Envoyer des messages in-app dans vos parcours</strong><br/></th>
+<th><strong>Envoyer des messages In-App dans vos parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans un parcours. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
+<p>Vous pouvez désormais envoyer des messages In-App personnalisés aux utilisateurs de votre application dans un parcours. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <img src="assets/do-not-localize/in-app-GA.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../in-app/create-in-app.md">documentation détaillée</a>.</p>
 </tr>
@@ -54,7 +54,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d'adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l'exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que tous les formats d’affichage, URL, images et liens sont corrects.</p>
+<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d'adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l'exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que tous les formats d’affichage, URL, images et liens sont corrects.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>Pour plus d’informations, consultez la <a href="../configuration/seed-lists.md">documentation détaillée</a>.</p>
 </td>
@@ -98,12 +98,12 @@ A new option is available in the email surface settings to include email address
 
 **Parcours**
 
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Beta privée. [En savoir plus](../action/action-response.md).
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est publiée sous forme de version Private Beta. [En savoir plus](../action/action-response.md).
 * Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée. [En savoir plus](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
-**Publipostage direct**
+**Courrier**
 
 * Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage de fichiers. [En savoir plus](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 * L’esperluette est désormais disponible en tant que champ de séparateur de colonne dans les paramètres de surface du courrier. [En savoir plus](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
@@ -532,7 +532,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
+<p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>
 </tr>
@@ -628,7 +628,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
+<p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la mise en page, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <p><strong>Attention</strong> : cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Pour plus d'informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1352'
+ht-degree: 89%
 
 ---
 
@@ -109,15 +109,13 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UIC
 
 Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
 
-* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
-
 * **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs.
 
-Le graphique du **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions in-app pour la période concernée.
+* **[!UICONTROL Interactions]**: nombre total d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics, les rejets ou toute autre interaction.
 
-Le graphique et le tableau **[!UICONTROL Clics par bouton]** contiennent les données disponibles pour le comportement des destinataires par bouton :
+La variable **[!UICONTROL Résumé in-app]** Le graphique montre l’évolution de vos impressions et interactions In-App pendant la période concernée.
 
-* **[!UICONTROL Clics]** : nombre total de destinataires ayant interagi avec les boutons inclus dans le message in-app.
+La variable **[!UICONTROL Interactions par type]** les graphiques et les tableaux détaillent la manière dont les utilisateurs ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions.
 
 +++
 
@@ -187,21 +185,19 @@ Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL 
 
 ## Onglet Web {#web-tab}
 
-Depuis votre **[!UICONTROL rapport global]** de campagne, l’onglet **[!UICONTROL Web]** présente les informations principales relatives à vos pages web.
+Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Web]** Cet onglet présente les informations principales relatives à vos pages Web.
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport web.
 
 Les KPI de **[!UICONTROL Performances web]** détaillent les informations principales relatives à l’engagement de vos visiteurs avec vos expériences web, telles que :
 
-* **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels l’expérience web a été diffusée.
-
 * **[!UICONTROL Impressions]** : nombre total d’expériences web diffusées à tous les utilisateurs.
 
-* **[!UICONTROL Clics]** : nombre total de visites d’URL.
+* **[!UICONTROL Interactions]**: nombre total d’engagements pour votre page Web. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics ou toute autre interaction.
 
-Le graphique **[!UICONTROL Résumé web]** présente l’évolution de vos expériences web (impressions, impressions uniques et clics) pour la période concernée.
+La variable **[!UICONTROL Résumé web]** Le graphique montre l’évolution de vos expériences web (impressions, impressions et interactions uniques) au cours des dernières 24 heures.
 
-Le tableau **[!UICONTROL Clics par élément]** présente les informations principales relatives à l’engagement des visiteurs et visiteuses avec les différents éléments de vos pages web.
+La variable **[!UICONTROL Interactions par élément]** le tableau présente les informations principales relatives à l’engagement des visiteurs avec les différents éléments de vos pages web.
 +++
 
 ## Onglet Courrier {#direct-mail-tab}

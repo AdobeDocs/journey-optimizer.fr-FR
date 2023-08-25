@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 98%
 
 ---
 
@@ -105,3 +105,19 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition dans l’audience dans le parcours.
 
+
+### Limites des activités in-app {#in-app-activity-limitations}
+
+* Cette fonctionnalité n’est actuellement pas disponible pour les clientes et clients du secteur de la santé.
+
+* La personnalisation ne peut contenir que des attributs de profil.
+
+* L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil.  Par conséquent, il n’est pas possible d’arrêter un message in-app directement à partir d’une activité de parcours. Vous devez plutôt terminer le parcours entier pour que les messages in-app ne s’affichent pas sur le profil.
+
+* En mode test, l’affichage in-app dépend de la durée de vie du parcours. Pour éviter que le parcours ne se termine trop tôt au cours du test, ajustez la valeur **[!UICONTROL Temps d’attente]** de vos activités **[!UICONTROL Attente]**.
+
+* Les activités **[!UICONTROL Réaction]** ne peuvent pas être utilisées pour réagir à une ouverture ou un clic in-app.
+
+* Un délai d’activation peut se produire entre le moment où le profil d’une personne atteint une activité in-app dans la zone de travail et le moment où ladite personne commence à voir ce message in-app.
+
+* La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
