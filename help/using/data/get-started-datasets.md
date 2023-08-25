@@ -8,9 +8,9 @@ level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,12 +36,12 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 
-Les jeux de données système pour Adobe Journey Optimizer sont répertoriés ci-dessous.
+Les jeux de données système pour Adobe Journey Optimizer sont répertoriés ci-dessous.
 
 
 >[!CAUTION]
 >
-> Jeux de données système **ne doit pas être modifié**. Toute modification est automatiquement annulée à chaque mise à jour de produit.
+> Les jeux de données système **ne doivent pas être modifiés**. Toute modification est automatiquement annulée à chaque mise à jour du produit.
 >
 
 **Création de rapports**
