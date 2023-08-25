@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 91%
+source-wordcount: '1967'
+ht-degree: 90%
 
 ---
 
@@ -187,7 +187,10 @@ Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela sign
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Ajouter une liste de contrôle"
->abstract="Sélectionnez la liste de contrôle de votre choix pour inclure automatiquement des adresses de contrôle email spécifiques dans vos diffusions. Ces adresses seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte de la diffusion à des fins d’assurance."
+>abstract="Sélectionnez la liste de contrôle de votre choix pour ajouter automatiquement des adresses internes spécifiques à vos audiences. Ces adresses de contrôle seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte du message à des fins d’assurance."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Que sont les listes de contrôle ?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Créer des listes de contrôle"
+
 
 Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure automatiquement des adresses de contrôle d’email spécifiques dans vos diffusions. [En savoir plus](../configuration/seed-lists.md)
 

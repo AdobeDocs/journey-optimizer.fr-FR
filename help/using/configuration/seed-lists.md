@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: liste de contrôle, liste de contrôle, adresse de contrôle, configuration
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 13%
+source-wordcount: '919'
+ht-degree: 12%
 
 ---
 
@@ -71,14 +71,14 @@ Vous pouvez cliquer sur le nom d&#39;une liste de contrôle pour l&#39;éditer. 
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Définir votre liste de contrôle"
->abstract="Renseignez les détails de la liste de contrôle pour inclure automatiquement des adresses de contrôle spécifiques dans vos diffusions. Ces adresses seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte de la diffusion à des fins d’assurance."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Quelles sont les listes de contrôle ?"
+>title="Définir une liste de contrôle"
+>abstract="Utilisez une liste de contrôle pour ajouter automatiquement des adresses internes spécifiques à votre audience de diffusion à des fins d&#39;assurance. Les listes de contrôle vous permettent de surveiller les copies de message envoyées pour vous assurer que tous les éléments d’affichage sont corrects et protéger votre liste de messagerie. Actuellement, cette fonctionnalité ne s’applique qu’au canal email."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Que sont les listes de contrôle ?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Préciser les adresses de contrôle à utiliser"
->abstract="Ajoutez les adresses de contrôle qui seront automatiquement incluses dans vos diffusions. Vous pouvez importer un fichier CSV ou saisir manuellement des adresses électroniques."
+>title="Remplir la liste de contrôle"
+>abstract="Sélectionnez les adresses qui seront incluses au moment de l&#39;exécution de la diffusion et qui recevront une copie exacte de votre message. Vous pouvez importer un fichier CSV ou saisir manuellement des adresses électroniques."
 
 Pour créer une liste de contrôle, procédez comme suit.
 
