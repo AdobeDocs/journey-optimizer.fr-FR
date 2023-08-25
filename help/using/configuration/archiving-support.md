@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 100%
+source-wordcount: '1137'
+ht-degree: 91%
 
 ---
 
@@ -35,9 +35,9 @@ Des réglementations telles que la loi HIPAA exigent que [!DNL Journey Optimizer
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Définition d’une adresse e-mail en Cci"
->abstract="Vous pouvez conserver une copie des e-mails envoyés en les envoyant à une boîte de réception en Cci. Saisissez l&#39;adresse e-mail de votre choix afin que chaque e-mail envoyé soit copié de façon invisible vers cette adresse Cci. Notez que le domaine de l’adresse en copie (Cci) ne doit pas être le même que celui d’un sous-domaine délégué à Adobe. Cette fonctionnalité est facultative."
+>abstract="Vous pouvez conserver une copie des e-mails envoyés en les envoyant à une boîte de réception en Cci. Saisissez l&#39;adresse e-mail de votre choix afin que chaque e-mail envoyé soit copié de façon invisible vers cette adresse Cci. Notez que le domaine de l’adresse en Cci doit être différent de tout sous-domaine délégué à l’Adobe. Cette fonctionnalité est facultative."
 
-Vous pouvez envoyer une copie identique (ou copie carbone invisible) d’un e-mail envoyé par [!DNL Journey Optimizer] vers une boîte de réception Cci. Cette fonctionnalité facultative vous permet de conserver des copies des communications par e-mail que vous envoyez à vos utilisateurs à des fins de conformité et/ou d’archivage. Cela sera invisible pour les destinataires de la diffusion.
+Vous pouvez envoyer une copie carbone invisible (Cci) d’un email envoyé par [!DNL Journey Optimizer] à une adresse Cci dédiée. Cette fonctionnalité facultative vous permet de conserver des copies des communications par e-mail que vous envoyez à vos utilisateurs à des fins de conformité et/ou d’archivage. L&#39;adresse en Cci n&#39;est pas visible par les autres destinataires du message.
 
 ### Activer les e-mails en Cci {#enable-bcc}
 
@@ -55,11 +55,11 @@ Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l&#39;adresse e-m
 
 ![](assets/preset-bcc.png)
 
-Tous les e-mails utilisant cette surface seront copiés de façon invisible vers l’adresse e-mail en Cci que vous avez saisie. De là, ils peuvent être traités et archivés à l’aide d’un système externe.
+Une fois la configuration terminée, tous les emails basés sur cette surface sont copiés en aveugle vers l&#39;adresse email en Cci que vous avez saisie. A partir de là, les messages peuvent être traités et archivés à l&#39;aide d&#39;un système externe.
 
 >[!CAUTION]
 >
->Votre utilisation de la fonctionnalité Cci sera décomptée en fonction du nombre de messages pour lesquels vous disposez d’une licence. Par conséquent, activez-la uniquement dans les surfaces utilisées pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
+>L’utilisation de votre fonctionnalité en Cci est comptabilisée par rapport au nombre de messages pour lesquels vous possédez une licence. Par conséquent, activez-la uniquement dans les surfaces utilisées pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
 
 Le paramètre d’adresse e-mail en Cci est immédiatement enregistré et traité au niveau de la surface. Lorsque vous créez un message avec cette surface, l’adresse e-mail en Cci s’affiche automatiquement.
 
