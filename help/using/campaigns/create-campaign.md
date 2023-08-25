@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
+source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 92%
 
 ---
 
@@ -32,12 +32,12 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
->abstract="Les **campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. Les campagnes **déclenchées par API** sont exécutées à l’aide d’un appel API. Elles sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc."
+>abstract="Les **campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. Les campagnes **déclenchées par API** sont exécutées à l’aide d’un appel API. Ils sont destinés à envoyer soit des messages marketing (messages promotionnels nécessitant le consentement de l’utilisateur), soit des messages transactionnels (messages non commerciaux, qui peuvent également être envoyés à des profils désabonnés dans des contextes spécifiques)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Catégorie de campagne"
->abstract="Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par API, choisissez si vous souhaitez envoyer un message **marketing** ou **transactionnel**, c’est-à-dire un message envoyé à la suite d’une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc."
+>abstract="Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par l’API, choisissez si vous souhaitez envoyer une **marketing** message (message promotionnel nécessitant un consentement de l’utilisateur) ou **transactionnel** message (message non commercial, qui peut également être envoyé aux profils désabonnés dans des contextes spécifiques)."
 
 1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne. Deux types de campagne sont disponibles :
 
