@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: liste de contrôle, liste de contrôle, adresse de contrôle, configuration
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 12%
+source-wordcount: '912'
+ht-degree: 11%
 
 ---
 
@@ -49,9 +49,14 @@ Les adresses de contrôle ne sont ni des profils réels ni des profils de test, 
 
 Pour accéder aux listes de contrôle déjà créées, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]**, puis sélectionnez **[!UICONTROL Liste de contrôle]**.
 
+<!--
 >[!CAUTION]
 >
->Les autorisations pour afficher, exporter et gérer les listes de contrôle sont limitées à [Administrateurs de parcours](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>Pour pouvoir afficher, modifier et gérer les listes de contrôle, vous devez disposer de la variable **[!UICONTROL Gérer la liste de contrôle]** autorisation.
 
 ![](assets/seed-list-access.png)
 
