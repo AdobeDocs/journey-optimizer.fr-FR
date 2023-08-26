@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 93%
+source-wordcount: '2257'
+ht-degree: 91%
 
 ---
 
@@ -286,7 +286,7 @@ Le widget **[!UICONTROL Synthèse des SMS]** détaille les informations principa
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
+La variable **[!UICONTROL SMS : clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** Les widgets détaillent les informations principales relatives à l’engagement des visiteurs avec vos URL.
 
 +++
 
@@ -298,7 +298,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONT
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
-Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance clés détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages In-App, telles que :
 
 * **[!UICONTROL Impressions uniques]**: nombre d&#39;utilisateurs uniques auxquels le message in-app a été affiché.
 
@@ -312,7 +312,7 @@ Les KPI **[!UICONTROL Performances in-app]** détaillent les informations princi
   > 
   >En raison du deuxième critère, il peut y avoir des variations notables entre le nombre de profils ciblés et le nombre d’impressions uniques.
 
-* **[!UICONTROL Taux d&#39;interaction]**: pourcentage d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics, les rejets ou toute autre interaction.
+* **[!UICONTROL Interaction]**: nombre d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics, les rejets ou toute autre interaction.
 
 La variable **[!UICONTROL Résumé in-app]** Le graphique montre l’évolution de vos impressions et interactions In-App pendant la période concernée.
 
