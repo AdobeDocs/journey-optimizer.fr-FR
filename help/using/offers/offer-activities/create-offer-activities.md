@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -146,7 +146,7 @@ Prenons l’exemple suivant : vous disposez de deux collections, l’une dans l
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Si les deux collections sont **évaluées en même temps**, car deux offres répondent au critère d’évaluation A et trois offres au critère d’évaluation B, les cinq offres sont regroupées et classées dans l’ordre de leurs méthodes de classement respectives. Comme deux offres sont demandées, les deux meilleures offres éligibles parmi ces cinq offres seront renvoyées.
+* Si les deux collections sont **évalué simultanément**, puisqu’il existe deux offres éligibles du critère d’évaluation A et trois offres éligibles du critère d’évaluation B, les cinq offres seront toutes classées selon la valeur déterminée par les méthodes de classement respectives. Comme deux offres sont demandées, les deux meilleures offres éligibles parmi ces cinq offres seront renvoyées.
 
   ![](../assets/activity_same-rank-collections.png)
 
