@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: liste de contrôle, liste de contrôle, adresse de contrôle, configuration
-source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
+source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '947'
 ht-degree: 11%
 
 ---
@@ -22,6 +22,8 @@ Listes de contrôle dans [!DNL Journey Optimizer] vous permettent d&#39;inclure 
 >[!CAUTION]
 >
 >Actuellement, cette fonctionnalité ne s’applique qu’au canal email.
+>
+>Les variantes ne sont actuellement pas prises en charge. Comme chaque profil de l&#39;audience ciblée, les adresses de contrôle reçoivent une seule copie du message et non toutes les variantes (telles que les différents traitements d&#39;un [expérience de contenu](../campaigns/get-started-experiment.md)).
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme tout autre destinataire cible.
 
