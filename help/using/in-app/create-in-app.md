@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 78%
@@ -220,19 +220,25 @@ Pour ajouter un message In-App dans une campagne, procédez comme suit :
 * La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
 
   +++Voir la vidéo
+
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+
 +++
 
 * La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages In-App de test A/B.
 
   +++Voir la vidéo
+
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+
 +++
 
 * La vidéo ci-dessous montre comment créer un message in-app dans un parcours et comment tester et publier votre parcours.
 
   +++Voir la vidéo
+
   >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
 +++
 
 **Rubriques connexes :**
