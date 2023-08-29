@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
 workflow-type: tm+mt
 source-wordcount: '1352'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -107,7 +107,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UIC
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
-Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance clés détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages In-App, telles que :
 
 * **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs.
 

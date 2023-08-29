@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,10 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
    >Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’a aucune incidence sur la collecte ou l’ingestion de données.
 
 1. Accédez ensuite au menu **[!UICONTROL Surfaces in-app]** et cliquez sur **[!UICONTROL Créer la surface d’application]**.
+
+   >[!NOTE]
+   >
+   > Vous avez besoin de l’autorisation **Gérer la configuration de l’application** pour accéder au menu **[!UICONTROL Surfaces de l’application]**. Pour plus d’informations, regardez [cette vidéo](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,8 @@ Le canal in-app est maintenant configuré. Vous pouvez commencer à envoyer des 
 
 * La vidéo ci-dessous montre comment attribuer l’autorisation **Gérer la configuration de l’application** pour accéder au menu Surfaces de l’application.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++Voir la vidéo
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++
+
 

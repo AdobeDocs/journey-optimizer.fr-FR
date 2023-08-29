@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
+source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 95%
+source-wordcount: '1940'
+ht-degree: 78%
 
 ---
 
@@ -38,25 +38,73 @@ Pour ajouter un message In-App dans un parcours, procédez comme suit :
 
 1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-in-app.md).
 
-1. Cliquez sur **[!UICONTROL Modifier le trigger]** pour configurer votre trigger.
+1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs et utilisatrices de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app.
 
    ![](assets/in_app_journey_4.png)
 
-1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
+   1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-   * **[!UICONTROL Afficher à chaque fois]** : toujours afficher le message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
-   * **[!UICONTROL Afficher une fois]** : n’afficher ce message que la première fois que les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
-   * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
+      +++Voir Déclencheurs disponibles.
 
-1. Dans le ou les menus déroulants **[!UICONTROL Déclencheur d’application mobile]**, choisissez le ou les événements et les critères qui déclencheront votre message :
+      | Package | Déclencheur | Définition |
+      |---|---|---|
+      | Envoi de données à Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
+      | Suivi principal | Suivi de l’action | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) est appelée. |
+      | Suivi principal | Suivi de l’état | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) est appelée. |
+      | Suivi principal | Collecter les PII | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) est appelée. |
+      | Cycle de vie de l’application | Lancement de l’application | Déclenché à chaque exécution, y compris les blocages et les installations. Également déclenché à la mise en premier plan de l’application lorsque le délai d’expiration de la session de cycle de vie a été dépassé. |
+      | Cycle de vie de l’application | Installation de l’application | Déclenchée lors de la première exécution après l’installation ou la réinstallation. |
+      | Cycle de vie de l’application | Mise à jour des applications | Déclenché lors de la première exécution après une mise à niveau ou lorsque le numéro de version change. |
+      | Cycle de vie de l’application | Fermeture de l’application | Déclenché lorsque l’application est fermée. |
+      | Cycle de vie de l’application | Blocage de l’application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son blocage. La création de rapports de blocage d’Adobe Mobile n’implémente pas un gestionnaire d’exceptions non interceptées global. |
+      | Places | Entrée dans le point ciblé | Déclenché par le SDK Places lorsque votre client entre dans le point ciblé que vous avez configuré. |
+      | Places | Quitter le point ciblé | Déclenché par le SDK Places lorsque votre client quitte le point ciblé que vous avez configuré. |
 
-   1. Dans le menu déroulant de gauche, sélectionnez l’événement nécessaire pour déclencher le message.
-   1. Dans le menu déroulant de droite, sélectionnez la validation requise pour l’événement sélectionné.
-   1. Cliquez sur le bouton **[!UICONTROL Ajouter]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères. Répétez ensuite les étapes ci-dessus.
-   1. Sélectionnez le mode de liaison de vos événements, par exemple choisissez **[!UICONTROL And]** si vous voulez que les déclencheurs soient **tous les deux** vérifiés pour que le message s’affiche ou choisissez **[!UICONTROL Or]** si vous souhaitez que le message ne s’affiche que si **l’un ou l’autre** des déclencheurs est vérifié.
-   1. Cliquez sur **[!UICONTROL Enregistrer]** une fois vos triggers configurés.
++++
 
-   ![](assets/in_app_journey_3.png)
+   1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
+
+   1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
+
+      +++Voir les caractéristiques disponibles.
+
+      | Package | Caractéristiques | Définition |
+      |---|---|---|
+      | Informations sur l’appareil | Nom de l’opérateur | Déclenché lorsque l’un des noms de l’opérateur de la liste est rencontré. |
+      | Informations sur l’appareil | Nom de l’appareil | Déclenché lorsque l’un des noms d’appareil est rencontré. |
+      | Informations sur l’appareil | Paramètres régionaux | Déclenché lorsque l’une des langues de la liste est rencontrée. |
+      | Informations sur l’appareil | Version du système d’exploitation | Déclenché lorsque l’une des versions de système d’exploitation spécifiées est rencontrée. |
+      | Informations sur l’appareil | Version précédente du système d’exploitation | Déclenché lorsque l’une des versions précédentes de système d’exploitation spécifiées est rencontrée. |
+      | Informations sur l’appareil | Mode d’exécution | Déclenché si le mode d’exécution est une application ou une extension. |
+      | Cycle de vie de l’application | ID d’application | Déclenché lorsque l’ID d’application spécifié est rencontré. |
+      | Cycle de vie de l’application | Jour de la semaine | Déclenché lorsque le jour de la semaine spécifié est atteint. |
+      | Cycle de vie de l’application | Jours depuis la première utilisation | Déclenché lorsque le nombre spécifié de jours depuis la première utilisation est atteint. |
+      | Cycle de vie de l’application | Jours depuis la dernière utilisation | Déclenché lorsque le nombre spécifié de jours depuis la dernière utilisation est atteint. |
+      | Cycle de vie de l’application | Jours depuis la mise à niveau | Déclenché lorsque le nombre spécifié de jours depuis la dernière mise à niveau est atteint. |
+      | Cycle de vie de l’application | Date d’installation | Déclenché lorsque la date d’installation spécifiée est atteinte. |
+      | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
+      | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
+      | Places | Point ciblé actuel | Déclenché par le SDK Places lorsque votre cliente ou client accède au point ciblé spécifié. |
+      | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
+      | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
+   1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
+
+      ![](assets/in_app_journey_3.png)
+
+   1. Sélectionnez la fréquence de votre déclencheur lorsque votre message in-app est actif :
+
+      * **[!UICONTROL Afficher à chaque fois]** : toujours afficher le message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
+      * **[!UICONTROL Afficher une fois]** : n’afficher ce message que la première fois que les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent.
+      * **[!UICONTROL Afficher jusqu’au clic]** : afficher ce message lorsque les événements sélectionnés dans le menu déroulant **[!UICONTROL Déclencheur d’application mobile]** se produisent jusqu’à ce qu’un événement d’interaction soit envoyé par le SDK avec une action « faisant l’objet d’un clic ».
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
@@ -93,6 +141,24 @@ Pour ajouter un message In-App dans une campagne, procédez comme suit :
 1. Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs et utilisatrices de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions, telles que l’envoi d’un message in-app.
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
+
+      +++Voir Déclencheurs disponibles.
+
+      | Package | Déclencheur | Définition |
+      |---|---|---|
+      | Envoi de données à Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
+      | Suivi principal | Suivi de l’action | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) est appelée. |
+      | Suivi principal | Suivi de l’état | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) est appelée. |
+      | Suivi principal | Collecter les PII | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) est appelée. |
+      | Cycle de vie de l’application | Lancement de l’application | Déclenché à chaque exécution, y compris les blocages et les installations. Également déclenché à la mise en premier plan de l’application lorsque le délai d’expiration de la session de cycle de vie a été dépassé. |
+      | Cycle de vie de l’application | Installation de l’application | Déclenchée lors de la première exécution après l’installation ou la réinstallation. |
+      | Cycle de vie de l’application | Mise à jour des applications | Déclenché lors de la première exécution après une mise à niveau ou lorsque le numéro de version change. |
+      | Cycle de vie de l’application | Fermeture de l’application | Déclenché lorsque l’application est fermée. |
+      | Cycle de vie de l’application | Blocage de l’application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son blocage. La création de rapports de blocage d’Adobe Mobile n’implémente pas un gestionnaire d’exceptions non interceptées global. |
+      | Places | Entrée dans le point ciblé | Déclenché par le SDK Places lorsque votre client entre dans le point ciblé que vous avez configuré. |
+      | Places | Quitter le point ciblé | Déclenché par le SDK Places lorsque votre client quitte le point ciblé que vous avez configuré. |
+
++++
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
@@ -153,14 +219,21 @@ Pour ajouter un message In-App dans une campagne, procédez comme suit :
 
 * La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
 
+  +++Voir la vidéo
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
++++
 
+* La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages In-App de test A/B.
 
-* La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test AB.
-
+  +++Voir la vidéo
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
++++
 
+* La vidéo ci-dessous montre comment créer un message in-app dans un parcours et comment tester et publier votre parcours.
 
+  +++Voir la vidéo
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
++++
 
 **Rubriques connexes :**
 
