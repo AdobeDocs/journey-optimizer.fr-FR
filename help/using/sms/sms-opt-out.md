@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
+source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Conformément aux normes et réglementations du secteur, tous les messages SMS d
 
 ## Mots-clés entrants natifs{#sms-native-keywords}
 
-Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les messages sans frais et à code long : STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE. Notez que seul Sinch prend en charge les mots-clés natifs lorsqu’il est utilisé avec Journey Optimizer.
+Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les messages sans frais et à code long : STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE. Notez que seuls Sinch et Infobip prennent en charge les mots-clés natifs lorsqu’ils sont utilisés avec Journey Optimizer.
 
 Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers. Contactez votre fournisseur ou consultez son site de documentation pour en avoir la confirmation.
 
@@ -46,7 +46,7 @@ Cependant, Journey Optimizer prend en charge les désinscriptions globales bas�
 
 ## ID d’expéditeur alphanumérique {#alphanumeric}
 
-Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés SMS STOP, START, HELP d’Adobe Journey Optimizer ne s’appliquent pas aux ID d’expéditeur alphanumériques. Dès lors, vous devez fournir d’autres instructions aux utilisateurs pour la désinscription des SMS. Par exemple, en leur offrant la possibilité d’écrire à l’équipe d’assistance, d’appeler un numéro d’aide ou d’envoyer un SMS à un autre numéro ou code.
+Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés Adobe Journey Optimizer SMS STOP, START, HELP ne s’appliquent pas aux ID d’expéditeur Alpha. Dès lors, vous devez fournir d’autres instructions aux utilisateurs pour la désinscription des SMS. Par exemple, en leur offrant la possibilité d’écrire à l’équipe d’assistance, d’appeler un numéro d’aide ou d’envoyer un SMS à un autre numéro ou code.
 
 ## Vidéo {#video-sms}
 
