@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Génération d’images avec l’assistant de contenu
-description: Prise en main de l’assistant de contenu
+description: Commencer avec l’assistant de contenu
 feature: Overview
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
 source-git-commit: 76eafb06b43d2964c4e85d1f77d35750f93eee0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 **Table des matières**
 
-* [Prise en main de l’assistant de contenu](gs-generative.md)
+* [Commencer avec l’assistant de contenu](gs-generative.md)
 * [Générer du texte avec l’assistant de contenu](generative-title.md)
 * **[Générer des images avec l’assistant de contenu](generative-image.md)**
 
@@ -31,9 +31,9 @@ ht-degree: 4%
 
 
 
-Une fois que vous avez créé et personnalisé vos emails ou pages web, repositionnez votre contenu au niveau supérieur avec l&#39;assistant de contenu. Cet outil puissant vous permet de personnaliser et d’améliorer votre contenu sans effort.
+Une fois que vous avez créé et personnalisé vos e-mails ou pages web, améliorez la qualité de votre contenu avec l’assistant de contenu. Cet outil puissant vous permet de personnaliser et d’améliorer votre contenu sans effort.
 
-Dans l’exemple ci-dessous, découvrez comment utiliser l’assistant de contenu pour mettre à jour et améliorer vos ressources afin d’offrir une meilleure expérience utilisateur. Procédez de la façon suivante :
+Dans l’exemple ci-dessous, découvrez comment utiliser l’assistant de contenu pour mettre à jour et améliorer vos ressources, afin d’offrir une meilleure expérience à vos clientes et clients. Procédez de la façon suivante :
 
 1. Après avoir créé et configuré votre message, cliquez sur **[!UICONTROL Créer du contenu]** et personnalisez-le selon vos besoins.
 
@@ -45,19 +45,19 @@ Dans l’exemple ci-dessous, découvrez comment utiliser l’assistant de conten
 
 1. Ajoutez une invite pour optimiser les résultats et cliquez sur **[!UICONTROL Générer]**.
 
-   Activez la variable **[!UICONTROL Amélioration du contenu actuel]** pour l’assistant de contenu afin de personnaliser les nouvelles ressources en fonction de votre message, du nom de la campagne et de l’audience sélectionnée.
+   Activez l’option **[!UICONTROL Améliorer le contenu actuel]** pour l’assistant de contenu afin de personnaliser les nouvelles ressources en fonction de votre message, du nom de la campagne et de l’audience sélectionnée.
 
    ![](assets/gen-ai-image-2.png)
 
 1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver la ressource souhaitée.
 
-1. Une fois que vous avez sélectionné **[!UICONTROL Variante]**, accédez au menu avancé de la ressource sélectionnée.
+1. Une fois que vous avez choisi votre **[!UICONTROL Variante]**, accédez au menu avancé de la ressource sélectionnée.
 
    ![](assets/gen-ai-image-3.png)
 
-1. Vous pouvez choisir **[!UICONTROL Rendre similaire]** pour générer plus de variante en fonction de la variante sélectionnée.
+1. Vous pouvez choisir **[!UICONTROL Rendre similaire]** pour générer plus de variantes en fonction de la variante sélectionnée.
 
-1. Cliquez sur **[!UICONTROL Modifier l’image]** pour accéder au **[!UICONTROL Sélectionner une nouvelle image]** .
+1. Cliquez sur **[!UICONTROL Modifier l’image]** pour accéder au menu **[!UICONTROL Sélectionner une nouvelle image]**.
 
 1. Dans ce menu, vous pouvez générer une nouvelle ressource ou choisir d’en utiliser une existante à partir de vos dossiers de ressources.
 
@@ -71,9 +71,9 @@ Dans l’exemple ci-dessous, découvrez comment utiliser l’assistant de conten
 
    ![](assets/gen-ai-image-6.png)
 
-1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../email/preview.md)
+1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../email/preview.md)
 
-1. Une fois votre message prêt, dans la page de résumé de votre campagne, vous pouvez cliquer sur **[!UICONTROL Réviser pour activer]** pour afficher un résumé de l&#39;opération. Des alertes s’affichent si un paramètre est incorrect ou manquant.
+1. Lorsque votre message est prêt, vous pouvez cliquer, depuis votre page de résumé de la campagne, sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne. Des alertes s’affichent si un paramètre est incorrect ou manquant.
 
 1. Avant de lancer votre campagne, vérifiez que toutes les configurations sont correctes, puis cliquez sur **[!UICONTROL Activer]**.
 
