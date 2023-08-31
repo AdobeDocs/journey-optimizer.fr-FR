@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Avant d’envoyer des messages in-app, vous devez :
 
 * Configurer le canal in-app. [En savoir plus](inapp-configuration.md)
 
-* Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer, même si vous prévoyez d’utiliser uniquement les messages in-app dans parcours. Les autorisations de Campaign sont toujours requises. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer, même si vous prévoyez d’utiliser uniquement les messages in-app dans des parcours. Les autorisations de Campaign sont toujours requises. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Une fois cette opération terminée, vous pouvez créer, configurer et envoyer votre premier message in-app. Découvrez comment accomplir cela dans [cette section](create-in-app.md).
 
@@ -57,7 +57,7 @@ Une fois cette opération terminée, vous pouvez créer, configurer et envoyer v
 <img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Accès au rapport In-App</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Accéder au rapport in-app</strong></a>
 </div>
 <p>
 </td>
