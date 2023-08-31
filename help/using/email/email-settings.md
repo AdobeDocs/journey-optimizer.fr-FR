@@ -10,9 +10,9 @@ level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -187,18 +187,18 @@ Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela sign
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Ajouter une liste de contrôle"
->abstract="Sélectionnez la liste de contrôle de votre choix pour ajouter automatiquement des adresses internes spécifiques à vos audiences. Ces adresses de contrôle seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte du message à des fins d’assurance."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Que sont les listes de contrôle ?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Créer des listes de contrôle"
+>abstract="Sélectionnez la liste de contrôle de votre choix pour ajouter automatiquement des adresses internes spécifiques à vos audiences. Ces adresses de contrôle seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte du message à des fins de vérification."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=fr#use-seed-list" text="Que sont les listes de contrôle ?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=fr#create-seed-list" text="Créer des listes de contrôle"
 
 
-Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure automatiquement des adresses de contrôle d’email spécifiques dans vos diffusions. [En savoir plus](../configuration/seed-lists.md)
+Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure automatiquement des adresses de contrôle d’e-mail spécifiques dans vos diffusions. [En savoir plus](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
->Actuellement, cette fonctionnalité ne s’applique qu’au canal email.
+>Actuellement, cette fonctionnalité s’applique uniquement au canal e-mail.
 
-Sélectionnez la liste qui vous intéresse dans le **[!UICONTROL Liste de contrôle]** . Découvrez comment créer une liste de contrôle dans [cette section](../configuration/seed-lists.md#create-seed-list).
+Sélectionnez la liste qui vous intéresse dans la section **[!UICONTROL Liste de contrôle]**. Découvrez comment créer une liste de contrôle dans [cette section](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png)
 
@@ -206,7 +206,7 @@ Sélectionnez la liste qui vous intéresse dans le **[!UICONTROL Liste de contr�
 >
 >Une seule liste de contrôle peut être sélectionnée à la fois.
 
-Lorsque la surface actuelle est utilisée dans une opération ou un parcours, les adresses email de la liste de contrôle sélectionnée sont incluses au moment de l&#39;exécution de la diffusion, ce qui signifie qu&#39;elles recevront une copie de la diffusion à des fins d&#39;assurance.
+Lorsque la surface actuelle est utilisée dans une campagne ou un parcours, les adresses e-mail de la liste de contrôle sélectionnée sont incluses au moment de l’exécution de la diffusion, ce qui signifie qu’elles recevront une copie de la diffusion à des fins de vérification.
 
 Découvrez comment utiliser la liste de contrôle dans une campagne ou un parcours dans [cette section](../configuration/seed-lists.md#use-seed-list).
 
