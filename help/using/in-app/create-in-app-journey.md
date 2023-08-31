@@ -1,6 +1,6 @@
 ---
 title: Créer une notification in-app dans un parcours
-description: Découvrez comment ajouter un message in-app dans un parcours
+description: Découvrez comment ajouter un message in-app dans un parcours.
 feature: Overview
 topic: Content Management
 role: User
@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Créer un message in-app dans un parcours {#create-in-app-journey}
 
-Pour ajouter un message In-App dans un parcours, procédez comme suit :
+Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL In-app]** depuis la section **[!UICONTROL Actions]** de la palette.
 
@@ -73,7 +73,7 @@ En savoir plus sur le [Rapport global de parcours](../reports/journey-global-rep
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
-La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance clés détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages In-App, telles que :
+Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs et visiteuses en lien avec vos messages in-app. Cela concerne notamment les éléments suivants :
 
 * **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
 
