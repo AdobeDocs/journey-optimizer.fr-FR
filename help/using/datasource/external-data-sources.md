@@ -10,9 +10,9 @@ level: Intermediate
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1493'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -91,8 +91,8 @@ Pour le jeu de paramètres « long/lat », nous créons un groupe de champs av
 
 Dans le cas d’un appel GET nécessitant un ou plusieurs paramètres, vous devez indiquer ce(s) dernier(s) dans le champ **[!UICONTROL Valeurs dynamiques]**. Ils sont alors automatiquement ajoutés à la fin de l’appel. Dans le cas d’un appel POST, vous devez :
 
-* répertorie les paramètres à transmettre au moment de l’appel dans la variable **[!UICONTROL Valeurs dynamiques]** (dans l’exemple ci-dessous : &quot;identifier&quot;).
-* spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour cela, vous devez ajouter : &quot;param&quot;: &quot;nom de votre paramètre&quot; (dans l&#39;exemple ci-dessous : &quot;identifiant&quot;). Respectez la syntaxe ci-dessous :
+* répertorier les paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Valeurs dynamiques]** (« identifiant » dans l’exemple ci-dessous) ;
+* spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour ce faire, vous devez ajouter : « param » : « nom de votre paramètre » (« identifiant » dans l’exemple ci-dessous). Respectez la syntaxe ci-dessous :
 
   ```
   {"id":{"param":"identifier"}}
@@ -208,7 +208,7 @@ Voici un exemple pour le type d’authentification du porteur :
 
 >[!NOTE]
 >
->Le jeton d’authentification est mis en cache par parcours : si deux parcours utilisent la même action personnalisée, chaque parcours dispose de son propre jeton mis en cache. Ce jeton n’est pas partagé entre ces parcours.
+>Le jeton d’authentification est mis en cache par parcours : si deux parcours utilisent la même action personnalisée, chaque parcours dispose de son propre jeton mis en cache. Ce jeton n’est pas partagé entre ces parcours.
 >
 >La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload de l’authentification personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
 >
