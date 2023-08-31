@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -51,14 +51,14 @@ Lorsque votre campagne par courrier est prête, cliquez sur le bouton **[!UICONT
 
 Une fois le message envoyé, vous pouvez mesurer l’impact de votre campagne par courrier dans les rapports de la campagne. Pour plus d’informations sur les rapports, consultez cette section.
 
-## Gérer le consentement pour un courrier {#dm-consent-management}
+## Gérer le consentement relatif au courrier {#dm-consent-management}
 
-Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications.
+Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications.
 
-Si un profil s’est désabonné de la réception de courrier, dans les attributs de profil Experience Platform correspondants, la valeur de `consents.marketing.postalMail.val` sera `n` et le profil correspondant sera exclu des prochaines diffusions.
+Si un profil s’est désabonné de la réception de courrier, dans les attributs de profil d’Experience Platform correspondants, la valeur de `consents.marketing.postalMail.val` sera `n` et le profil correspondant sera exclu des prochaines diffusions.
 
-Pour l’activer à nouveau, l’attribut de profil doit être redéfini sur `consents.marketing.postalMail.val` : `y`.
+Pour l’activer à nouveau, l’attribut de profil doit être redéfini sur `consents.marketing.postalMail.val` : `y`.
 
-Pour gérer les attributs d’un profil, accédez à l’Experience Platform et au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
+Pour gérer les attributs d’un profil, accédez à Experience Platform et au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
-En savoir plus sur la gestion de l’exclusion dans Journey Optimizer dans [cette section](../privacy/opt-out.md).
+En savoir plus sur la gestion des désinscriptions de Journey Optimizer dans [cette section](../privacy/opt-out.md).
