@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ En savoir plus sur [Journey Optimizer + Stock](../content-management/stock.md).
 
 ## Services intelligents Adobe{#integration-intelligent-service}
 
-Les services intelligents Adobe, intégrés nativement à Real-Time Customer Data Platform, vous permettent de tirer parti de la puissance de l’intelligence artificielle et du machine learning dans les cas d’utilisation de l’expérience client. Les analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d&#39;une entreprise en utilisant des configurations au niveau de l&#39;entreprise sans avoir besoin d&#39;expertise en sciences des données.
+Les services intelligents Adobe, intégrés nativement à Real-Time Customer Data Platform, vous permettent de tirer parti de la puissance de l’intelligence artificielle et du machine learning dans les cas d’utilisation de l’expérience client. Les personnes analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’expertise en sciences des données.
 
 L’IA dédiée aux clients permet aux marques de créer des scores d’attrition ou de conversion basés sur le machine learning, qui seront disponibles sous forme d’attributs de profil dans Adobe Experience Platform et prêts à être utilisés pour personnaliser un parcours.
 
