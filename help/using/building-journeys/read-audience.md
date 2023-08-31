@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
+source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -67,13 +67,13 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
    >
    >Les personnes appartenant à une audience qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne peuvent pas rejoindre le parcours. Vous pouvez uniquement sélectionner un espace de noms d’identité basé sur les personnes. Si vous avez défini un espace de noms pour une table de correspondance (par exemple : espace de noms ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Espace de noms**.
 
-1. Définissez le **[!UICONTROL taux de limitation]**. Il s’agit du nombre maximum de profils pouvant entrer dans le parcours par seconde. Ce taux s’applique uniquement à cette activité et non aux autres activités du parcours. Si vous souhaitez définir un taux de limitation pour les actions personnalisées, par exemple, vous devez utiliser l’API de limitation. Voir cette [page](../configuration/throttling.md).
+1. Définissez la variable **[!UICONTROL Taux de lecture]**. Il s’agit du nombre maximum de profils pouvant entrer dans le parcours par seconde. Ce taux s’applique uniquement à cette activité et non aux autres activités du parcours. Si vous souhaitez définir un taux de limitation pour les actions personnalisées, par exemple, vous devez utiliser l’API de limitation. Voir cette [page](../configuration/throttling.md).
 
    Cette valeur est stockée dans la payload de version du parcours. La valeur par défaut est de 5 000 profils par seconde. Vous pouvez modifier cette valeur de 500 à 20 000 profils par seconde.
 
    >[!NOTE]
    >
-   >Le taux de limitation global par sandbox est défini sur 20 000 profils par seconde. Par conséquent, le taux de limitation de toutes les lectures d’audiences qui s’exécutent simultanément dans le même sandbox s’élève à 20 000 profils par seconde au maximum. Vous ne pouvez pas modifier cette limite.
+   >Le taux de lecture global par environnement de test est défini sur 20 000 profils par seconde. Par conséquent, le taux de lecture de toutes les audiences de lecture qui s’exécutent simultanément dans le même environnement de test s’élève à au plus 20 000 profils par seconde. Vous ne pouvez pas modifier cette limite.
 
 1. L’activité **[!UICONTROL Lecture d’audience]** vous permet de spécifier l’heure à laquelle l’audience rejoindra le parcours. Pour cela, cliquez sur le lien **[!UICONTROL Modifier le planning du parcours]** pour accéder aux propriétés du parcours, puis configurez le champ **[!UICONTROL Type de planificateur]**.
 
