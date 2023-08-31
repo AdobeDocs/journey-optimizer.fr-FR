@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2472'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -219,11 +219,11 @@ Les KPI **[!UICONTROL Performances in-app]** détaillent les informations princi
 
 * **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs.
 
-* **[!UICONTROL Taux d&#39;interactions]**: pourcentage d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics, les rejets ou toute autre interaction.
+* **[!UICONTROL Taux d’interaction]** : pourcentage d’engagements en lien avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
 
-La variable **[!UICONTROL Résumé in-app]** Le graphique montre l’évolution de vos impressions et interactions In-App pendant la période concernée.
+Le graphe **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions et interactions in-app pour la période concernée.
 
-La variable **[!UICONTROL Interactions par type]** les graphiques et les tableaux détaillent la manière dont les utilisateurs ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions.
+Les graphes et le tableau **[!UICONTROL Interactions par type]** détaillent la manière dont les personnes ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions.
 +++
 
 ## Onglet Notification push {#push-global}
@@ -348,11 +348,11 @@ Les KPI de **[!UICONTROL Performances web]** détaillent les informations princi
 
 * **[!UICONTROL Impressions]** : nombre total d’expériences web diffusées à tous les utilisateurs.
 
-* **[!UICONTROL Taux d&#39;interaction]**: pourcentage d’engagements pour votre page Web. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics ou toute autre interaction.
+* **[!UICONTROL Taux d’interaction]** : pourcentage d’engagements en lien avec votre page web. Cela inclut toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
 
-La variable **[!UICONTROL Résumé web]** Le graphique montre l’évolution de vos expériences web (impressions, impressions et interactions uniques) pendant la période concernée.
+Le graphe **[!UICONTROL Résumé web]** présente l’évolution de vos expériences web (impressions, impressions et interactions uniques) pour la période concernée.
 
-La variable **[!UICONTROL Interactions par élément]** le tableau présente les informations principales relatives à l’engagement des visiteurs avec les différents éléments de vos pages web.
+Le tableau **[!UICONTROL Interactions par élément]** présente les informations principales relatives à l’engagement des visiteurs et visiteuses en lien avec les différents éléments de vos pages web.
 +++
 
 ## Onglet Courrier {#direct-mail-global}
