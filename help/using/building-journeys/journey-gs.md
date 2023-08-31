@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -121,13 +121,13 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 ![](assets/journey32.png)
 
-### Entrée et rentrée {#entrance}
+### Entrée et reprise {#entrance}
 
-Par défaut, les nouveaux parcours autorisent une rentrée. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
+Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
 Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes.
 
-En savoir plus sur la gestion des entrées et des rentrées de profils, dans [cette section](entry-management.md).
+En savoir plus sur la gestion des entrées et des reprises de profils dans [cette section](entry-management.md).
 
 ### Gérer l’accès {#access}
 
@@ -175,14 +175,14 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
 
 ## Dupliquer un parcours {#duplicate-a-journey}
 
-Vous pouvez dupliquer un parcours existant à partir du **Parcourir** . Tous les objets et paramètres sont dupliqués dans la copie de parcours.
+Vous pouvez dupliquer un parcours existant à partir de l’onglet **Parcourir**. Tous les objets et paramètres sont dupliqués dans la copie de parcours.
 
 Pour ce faire, suivez les étapes ci-après :
 
-1. Accédez au parcours à copier, puis cliquez sur le bouton **Autres actions** (les trois points en regard du nom du parcours).
+1. Accédez au parcours à copier, puis cliquez sur l’icône **Autres actions** (les points de suspension en regard du nom du parcours).
 1. Sélectionnez **Dupliquer**.
 
-   ![Dupliquer un parcours](assets/duplicate-jo.png)
+   ![Duplication d’un parcours.](assets/duplicate-jo.png)
 
 <!--1. Enter the name of the journey and confirm. 
 
