@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ La composition de l’audience est accessible à partir du menu **[!UICONTROL Au
 
 ![](assets/audiences-browse.png)
 
-* La variable **[!UICONTROL Présentation]** Cet onglet fournit un tableau de bord dédié avec des mesures clés liées aux données d’audience de votre entreprise. Pour en savoir plus, consultez le [guide des tableaux de bord d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=fr).
+* L’onglet **[!UICONTROL Vue d’ensemble]** se compose d’un tableau de bord dédié avec des mesures clés liées aux données d’audience de votre organisation. Pour en savoir plus, consultez le [guide des tableaux de bord d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=fr).
 
 * L’onglet **[!UICONTROL Parcourir]** répertorie toutes les audiences existantes stockées dans Adobe Experience Platform.
 
