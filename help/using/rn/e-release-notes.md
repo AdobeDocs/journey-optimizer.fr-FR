@@ -6,9 +6,9 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d'adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l'exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que tous les formats d’affichage, URL, images et liens sont corrects.</p>
+<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d’adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l’exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que les formats d’affichage, les URL, les images et les liens sont corrects.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -100,7 +100,7 @@ Une nouvelle option est disponible dans les paramètres de surface des e-mails p
 * When duplicating a journey, you can now define the name of the journey copy.-->
 
 
-**Publipostage direct**
+**Courrier (publipostage direct)**
 
-* Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage de fichiers.
+* Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage des fichiers.
 * L’esperluette est désormais disponible en tant que champ de séparateur de colonne dans les paramètres de surface du courrier.
