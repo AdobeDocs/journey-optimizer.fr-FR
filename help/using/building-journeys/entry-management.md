@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 35f52afe61bf3eda897cc96f5484778522e38d45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Par défaut, les nouveaux parcours autorisent une reprise. Vous pouvez désélec
 
 ![](assets/journey-re-entrance.png)
 
-Après le [délai d’expiration global](journey-gs.md#global_timeout) par défaut de 30 jours, le statut du parcours passe à **Terminé**. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils de cleintes et clients ne peuvent plus rejoindre le parcours. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils déjà entrés dans le parcours sont supprimées 30 jours après leur entrée. Après cette période, les profils de clientes et clients peuvent entrer à nouveau dans le parcours. Pour éviter cela et désactiver complètement la rentrée pour ces profils, vous pouvez ajouter une condition afin de tester si le profil a déjà été renseigné ou non, à l&#39;aide des données de profil ou d&#39;audience.
+Après le [délai d’expiration global](journey-gs.md#global_timeout) par défaut de 30 jours, le statut du parcours passe à **Terminé**. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils de cleintes et clients ne peuvent plus rejoindre le parcours. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils déjà entrés dans le parcours sont supprimées 30 jours après leur entrée. Après cette période, les profils de clientes et clients peuvent entrer à nouveau dans le parcours. Pour éviter cela et désactiver complètement la possibilité de reprise pour ces profils, vous pouvez ajouter une condition de test pour savoir si le profil est déjà entré ou non, à l’aide des données de profil ou d’audience.
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
