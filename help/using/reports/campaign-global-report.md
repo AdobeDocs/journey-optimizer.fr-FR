@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2472'
 ht-degree: 100%
 
@@ -342,7 +342,7 @@ Depuis votre **[!UICONTROL rapport global]** de campagne, l’onglet **[!UICONTR
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport web.
 
-Les KPI de **[!UICONTROL Performances web]** détaillent les informations principales relatives à l’engagement de vos visiteurs avec vos expériences web, telles que :
+Les KPI de **[!UICONTROL Performances web]** détaillent les informations principales relatives à l’engagement de vos visiteurs et visiteuses avec vos expériences web, telles que :
 
 * **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels l’expérience web a été diffusée.
 

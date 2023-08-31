@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour d’août 2023 {#aug-rn-2023}
+## Notes de mise à jour d’août 2023 {#aug-rn-2023}
 
 ### Nouvelles fonctionnalités{#aug-2023-features}
 
@@ -54,7 +54,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d'adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l'exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que tous les formats d’affichage, URL, images et liens sont corrects.</p>
+<p>Vous pouvez désormais créer et gérer des listes de contrôle dans Journey Optimizer. Une liste de contrôle est composée d’adresses internes qui peuvent être ajoutées à votre audience réelle et recevoir le même message que les profils ciblés au moment de l’exécution de la diffusion. Utilisez cette fonctionnalité pour surveiller les communications envoyées et vous assurer que les formats d’affichage, les URL, les images et les liens sont corrects.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>Pour plus d’informations, consultez la <a href="../configuration/seed-lists.md">documentation détaillée</a>.</p>
 </td>
@@ -103,9 +103,9 @@ A new option is available in the email surface settings to include email address
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
-**Publipostage direct**
+**Courrier (publipostage direct)**
 
-* Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage de fichiers. [En savoir plus](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* Azure peut désormais être sélectionné comme type de serveur dans la configuration de routage des fichiers. [En savoir plus](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 * L’esperluette est désormais disponible en tant que champ de séparateur de colonne dans les paramètres de surface du courrier. [En savoir plus](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 

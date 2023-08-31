@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
 source-wordcount: '2257'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -298,23 +298,23 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONT
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
-La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance clés détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages In-App, telles que :
+Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs et visiteuses en lien avec vos messages in-app. Cela concerne notamment les éléments suivants :
 
-* **[!UICONTROL Impressions uniques]**: nombre d&#39;utilisateurs uniques auxquels le message in-app a été affiché.
+* **[!UICONTROL Impressions uniques]** : nombre de personnes uniques auxquelles le message in-app a été délivré.
 
-* **[!UICONTROL Impressions]**: nombre total de messages In-App affichés à tous les utilisateurs.
+* **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à toutes les personnes.
 
   >[!NOTE]
   >
-  >Pour s’assurer qu’une impression est comptabilisée, l’utilisateur doit répondre à deux critères :
-  >* Qualification au sein de l’expérience in-app, obtenue en atteignant l’activité in-app spécifique dans leur parcours.
-  >* Respecter les conditions spécifiées dans les règles Trigger.
+  >Pour s’assurer qu’une impression est comptabilisée, la personne doit répondre à deux critères :
+  >* Qualification au sein de l’expérience in-app, obtenue en atteignant l’activité in-app spécifique dans son parcours.
+  >* Respect des conditions spécifiées dans les règles de déclenchement.
   > 
   >En raison du deuxième critère, il peut y avoir des variations notables entre le nombre de profils ciblés et le nombre d’impressions uniques.
 
-* **[!UICONTROL Interaction]**: nombre d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les utilisateurs, telles que les clics, les rejets ou toute autre interaction.
+* **[!UICONTROL Interaction]**: nombre d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
 
-La variable **[!UICONTROL Résumé in-app]** Le graphique montre l’évolution de vos impressions et interactions In-App pendant la période concernée.
+Le graphe **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions et interactions in-app pour la période concernée.
 
-La variable **[!UICONTROL Interactions par type]** les graphiques et les tableaux détaillent la manière dont les utilisateurs ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions.
+Les graphes et le tableau **[!UICONTROL Interactions par type]** détaillent la manière dont les personnes ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions.
 +++

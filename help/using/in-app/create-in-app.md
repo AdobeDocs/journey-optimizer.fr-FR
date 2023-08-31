@@ -1,5 +1,5 @@
 ---
-title: Création d’une notification In-App dans Journey Optimizer
+title: Créer une notification in-app dans Journey Optimizer
 description: Découvrez comment créer un message in-app dans Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -10,19 +10,19 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
 # Créer un message in-app {#create-in-app}
 
-Vous pouvez ajouter un message in-app dans une campagne ou dans un parcours. Suivez les étapes détaillées ci-dessous pour créer un message in-app dans les deux contextes.
+Vous pouvez ajouter un message in-app dans une campagne ou dans un parcours. Suivez les étapes détaillées ci-dessous pour créer un message in-app dans les deux contextes.
 
 >[!BEGINTABS]
 
 >[!TAB Ajouter un message in-app à un parcours]
 
-Pour ajouter un message In-App dans un parcours, procédez comme suit :
+Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL In-app]** depuis la section **[!UICONTROL Actions]** de la palette.
 
@@ -114,7 +114,7 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
 >[!TAB Ajouter un message in-app à une campagne]
 
-Pour ajouter un message In-App dans une campagne, procédez comme suit :
+Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 

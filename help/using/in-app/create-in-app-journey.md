@@ -10,14 +10,14 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Créer un message in-app dans un parcours {#create-in-app-journey}
+# Création d’un message in-app dans un parcours {#create-in-app-journey}
 
 Pour ajouter un message in-app dans un parcours, procédez comme suit :
 

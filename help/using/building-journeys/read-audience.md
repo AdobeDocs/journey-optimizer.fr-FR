@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -157,7 +157,7 @@ La segmentation peut être basée sur :
 * des données de source de données
 * le contexte des événements faisant partie des données du parcours, par exemple : est-ce qu’une personne a cliqué sur le message reçu il y a une heure ?
 * une date, par exemple : sommes-nous en juin lorsqu&#39;une personne traverse le parcours?
-* une heure, par exemple : est-ce le matin dans le fuseau horaire de la personne ?
+* une heure, par exemple : est-ce le matin dans le fuseau horaire de la personne ?
 * un algorithme fractionnant l’audience circulant dans le parcours en fonction d’un pourcentage, par exemple : 90 à 10 % pour exclure une population témoin
 
 ![](assets/read-segment-audience1.png)

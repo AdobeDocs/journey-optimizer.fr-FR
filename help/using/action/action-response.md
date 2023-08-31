@@ -10,7 +10,7 @@ level: Experienced
 badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 
