@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Améliorations des actions personnalisées
-description: En savoir plus sur les dernières améliorations apportées aux actions personnalisées
+description: En savoir plus sur les dernières améliorations en date apportées aux actions personnalisées.
 feature: Actions
 topic: Administration
 role: Admin
@@ -10,9 +10,9 @@ level: Experienced
 badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Auparavant, cette fonctionnalité n’était disponible que lors de l’utilisat
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée sous forme de version Private Beta.
+>Cette fonctionnalité est publiée sous forme de version Beta privée.
 
 >[!WARNING]
 >
 >Les actions personnalisées ne doivent être utilisées qu’avec des points d’entrée privés ou internes et avec une limitation ou un capping de la fréquence approprié. Consultez [cette page](../configuration/external-systems.md).
 
-## Définition de l’action personnalisée {#define-custom-action}
+## Définir l’action personnalisée {#define-custom-action}
 
 Pour la définition de l’action personnalisée, deux améliorations ont été apportées : l’ajout de la méthode GET et le nouveau champ de réponse de payload. Les autres options et paramètres restent inchangés. Consultez [cette page](../action/about-custom-action-configuration.md).
 
