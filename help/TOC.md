@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -250,8 +250,8 @@ ht-degree: 98%
 + Gestion de contenu {#content-management}
    + [Utiliser Assets Essentials](using/content-management/assets-essentials.md)
    + [Utilisation d’Adobe Stock](using/content-management/stock.md)
-   + Utilisation de l’assistant de contenu{#content-assistant}
-      + [Prise en main de l’assistant de contenu](using/content-management/gs-generative.md)
+   + Utiliser l’assistant de contenu{#content-assistant}
+      + [Commencer avec l’assistant de contenu](using/content-management/gs-generative.md)
       + [Génération de titres](using/content-management/generative-title.md)
       + [Génération d’images](using/content-management/generative-image.md)
 + Personnalisation et contenu dynamique {#personalized-dynamic-content}
@@ -475,7 +475,7 @@ ht-degree: 98%
          + [Configuration d’une action](using/action/about-custom-action-configuration.md)
          + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
          + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Utilisation des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
+         + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
    + Présentation du contrôle d’accès {#privacy}
