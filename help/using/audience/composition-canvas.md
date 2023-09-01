@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 100%
+source-wordcount: '1482'
+ht-degree: 93%
 
 ---
 
@@ -116,9 +116,13 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 
   Sélectionnez l’attribut à rechercher, puis spécifiez la valeur à exclure. Dans cet exemple, nous excluons des profils de composition dont l’adresse de domicile est au Japon.
 
+  >[!NOTE]
+  >
+  >Une seule valeur d’exclusion peut être spécifiée.
+
   ![](assets/audiences-exclude-attribute.png)
 
-### Enrichir {#enrich}
+### Activité d’enrichissement {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ Deux types d’opérations de partage sont disponibles :
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >L’option **[!UICONTROL Autres profils]** vous permet de créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins d’accès.
+  Pour configurer une activité de partage basée sur un attribut :
+
+   1. cliquez sur le bouton en regard de l’option **[!UICONTROL Attribut]** pour sélectionner l’attribut à sélectionner comme critère.
+   1. Ajoutez autant de chemins que vous le souhaitez, puis spécifiez pour chaque chemin un libellé et la valeur à utiliser pour sélectionner les profils à inclure dans le chemin.
+
+      >[!NOTE]
+      >
+      >Une seule valeur peut être spécifiée pour chaque chemin.
+
+   1. Activez l’option **[!UICONTROL Autres profils]** pour créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins.
 
 ## Enregistrer vos audiences {#save}
 
