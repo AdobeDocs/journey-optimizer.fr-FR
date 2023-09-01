@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 93%
 
 ---
@@ -224,10 +224,10 @@ Deux types d’opérations de partage sont disponibles :
 
   ![](assets/audiences-split.png)
 
-  Pour configurer une activité de partage basée sur un attribut :
+  Pour configurer une activité de partage basée sur des attributs, procédez comme suit :
 
-   1. cliquez sur le bouton en regard de l’option **[!UICONTROL Attribut]** pour sélectionner l’attribut à sélectionner comme critère.
-   1. Ajoutez autant de chemins que vous le souhaitez, puis spécifiez pour chaque chemin un libellé et la valeur à utiliser pour sélectionner les profils à inclure dans le chemin.
+   1. Cliquez sur le bouton situé en regard de l’option **[!UICONTROL Attribut]** pour sélectionner l’attribut à utiliser comme critère de division.
+   1. Ajoutez autant de chemins que nécessaire. Pour chaque chemin, fournissez un libellé et spécifiez la valeur qui sera utilisée pour déterminer les profils à inclure dans ce chemin spécifique.
 
       >[!NOTE]
       >
