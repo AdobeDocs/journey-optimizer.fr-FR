@@ -10,10 +10,10 @@ level: Beginner
 badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 280b1c2c7276b872143062aeba0939a899897d42
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 **Table des matières**
 
 * **[Commencer avec l’assistant de contenu](gs-generative.md)**
-* [Générer du texte avec l’assistant de contenu](generative-title.md)
+* [Générer du texte avec l’assistant de contenu](generative-content.md)
 * [Générer des images avec l’assistant de contenu](generative-image.md)
 
 >[!ENDSHADEBOX]
@@ -36,7 +36,7 @@ L’assistant de contenu d’Adobe Journey Optimizer offre des suggestions pro
 
 
 
-Utilisez l’assistant de contenu pour optimiser l’impact de votre message en testant plusieurs images et titres principaux. Générez plusieurs variantes et créez une expérience pour les comparer. L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de message afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion. L’audience du message est attribuée de manière aléatoire à chaque traitement afin de déterminer laquelle fonctionne le mieux avec la mesure spécifiée. En savoir plus sur l’expérience de contenu dans [cette section](../campaigns/content-experiment.md).
+Utilisez l’assistant de contenu pour optimiser l’impact de votre message en testant plusieurs images et titres principaux. Générez plusieurs variantes et créez une expérience pour les comparer. L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de message afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu ou l&#39;objet de la diffusion. L’audience du message est attribuée de manière aléatoire à chaque traitement afin de déterminer laquelle fonctionne le mieux avec la mesure spécifiée. En savoir plus sur l’expérience de contenu dans [cette section](../campaigns/content-experiment.md).
 
 
 >[!AVAILABILITY]

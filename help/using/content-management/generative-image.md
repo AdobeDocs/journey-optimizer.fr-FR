@@ -10,7 +10,7 @@ level: Beginner
 badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 76eafb06b43d2964c4e85d1f77d35750f93eee0c
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 **Table des matières**
 
 * [Commencer avec l’assistant de contenu](gs-generative.md)
-* [Générer du texte avec l’assistant de contenu](generative-title.md)
+* [Générer du texte avec l’assistant de contenu](generative-content.md)
 * **[Générer des images avec l’assistant de contenu](generative-image.md)**
 
 >[!ENDSHADEBOX]
