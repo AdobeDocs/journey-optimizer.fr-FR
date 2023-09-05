@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 100%
+source-wordcount: '2466'
+ht-degree: 98%
 
 ---
 
@@ -145,9 +145,9 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille le s
 
 Le widget **[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l’activité destinataire de votre diffusion :
 
-* **[!UICONTROL Ouvertures]** :nombre de fois où la diffusion a été ouverte dans une diffusion.
+* **[!UICONTROL Ouvertures]**: nombre d’ouvertures de l’email.
 
-* **[!UICONTROL Ouvertures uniques]** : pourcentage de diffusions ouvertes.
+* **[!UICONTROL Ouvertures uniques]**: pourcentage d&#39;emails ouverts.
 
 * **[!UICONTROL Taux d&#39;ouvertures]** : nombre total de messages ouverts par rapport au nombre de messages diffusés.
 
@@ -196,7 +196,9 @@ Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]
 Le graphique **[!UICONTROL Optimisé ou non optimisé]** détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
 
 * **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
-* **[!UICONTROL Ouvertures]** : nombre de fois où la diffusion a été ouverte dans une diffusion.
+
+* **[!UICONTROL Ouvertures]**: nombre d’ouvertures du message.
+
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans un e-mail.
 
 L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de votre diffusion selon la méthode d’envoi : optimisé ou normal.
@@ -213,7 +215,7 @@ Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL In
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
-Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app, telles que :
+Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs et visiteuses en lien avec vos messages in-app. Cela concerne notamment les éléments suivants :
 
 * **[!UICONTROL Impressions uniques]** : nombre d’utilisateurs uniques auxquels le message in-app a été délivré.
 
@@ -330,7 +332,7 @@ Le widget **[!UICONTROL Performances de SMS par date]** détaille les informatio
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL Causes des bounces]** et **[!UICONTROL Raisons des erreurs]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
+La variable **[!UICONTROL SMS : clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** Les widgets détaillent les informations principales relatives à l’engagement des visiteurs avec vos URL.
 
 +++
 
