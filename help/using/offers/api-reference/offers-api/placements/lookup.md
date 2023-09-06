@@ -6,92 +6,67 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: dded2a2f647b34bbd8137fb192ce25dce3a65fa5
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '72'
+ht-degree: 33%
 
 ---
 
 # Recherche d’un emplacement {#look-up-placement}
 
-Vous pouvez rechercher des emplacements spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut soit l’emplacement `@id` soit le nom de l’emplacement dans le chemin de la requête.
+Vous pouvez rechercher des emplacements spécifiques en adressant une requête de GET à la fonction [!DNL Offer Library] API qui inclut l’emplacement `id`.
 
 **Format d’API**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/placements/{ID}
 ```
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Conteneur où se trouvent les emplacements. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | Définit le schéma associé aux emplacements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | Chaîne utilisée pour faire correspondre la propriété `@id` des entités. La chaîne correspond exactement. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Chaîne utilisée pour correspondre à la propriété xdm:name des entités. La chaîne correspond exactement, avec la capitalisation, mais des caractères génériques peuvent être utilisés. Les paramètres `id` et `name` ne peuvent pas être utilisés ensemble | `Sales and Promotions Placement` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `offerPlacement1234` |
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&name=Sales%20and%20Promotions%20Placement' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema='\''https://ns.adobe.com/experience/xcore/hal/results'\''' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement1234' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur votre ID de conteneur, l’ID d’instance et l’`@id` d’emplacement unique.
+Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur l’emplacement unique. `id`.
 
 ```json
 {
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4",
-    "requestTime": "2020-10-21T20:04:53.656503Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "9aa58fd0-13d7-11eb-928b-576735ea4db8",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 2,
-                "repo:createdDate": "2020-10-21T19:57:09.837456Z",
-                "repo:lastModifiedDate": "2020-10-21T19:59:10.700149Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_score": 0,
-                "_instance": {
-                    "xdm:name": "Sales and Promotions Placement",
-                    "xdm:componentType": "https://ns.adobe.com/experience/offer-management/content-component-html",
-                    "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
-                    "xdm:description": "A test placement to contain offers of sales and discounts",
-                    "@id": "xcore:offer-placement:124e0be5699743d3"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4#9aa58fd0-13d7-11eb-928b-576735ea4db8",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/9aa58fd0-13d7-11eb-928b-576735ea4db8",
-                        "@type": "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"
-                    }
-                }
-            }
-        ],
-        "total": 1,
-        "count": 1
-    },
-    "_links": {
-        "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4&name=Sales%20and%20Promotions%20Placement",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
-        }
+    "created": "2023-05-15T11:22:50.031+00:00",
+    "modified": "2023-05-15T11:22:50.031+00:00",
+    "etag": 1,
+    "schemas": [
+        "https://ns.adobe.com/experience/offer-management/offer-placement;version=0.5"
+    ],
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "offerPlacement1234",
+    "name": "Placement",
+    "description": "Placement description",
+    "componentType": "html",
+    "channel": "https://ns.adobe.com/xdm/channel-types/web",
+    "itemCount": 1,
+    "allowDuplicatePlacements": false,
+    "returnContent": false,
+    "returnMetaData": {
+        "decisionName": true,
+        "offerName": true,
+        "offerAttributes": true,
+        "offerPriority": true,
+        "placementName": true,
+        "channelType": true,
+        "contentType": true
     }
 }
 ```
