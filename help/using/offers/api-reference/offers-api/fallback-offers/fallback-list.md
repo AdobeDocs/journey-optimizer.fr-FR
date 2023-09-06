@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '283'
+ht-degree: 100%
 
 ---
 
@@ -17,28 +17,31 @@ ht-degree: 48%
 
 Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
 
-Vous pouvez afficher une liste de toutes les offres de secours en adressant une seule requête de GET au [!DNL Offer Library] API.
+Vous pouvez afficher une liste de toutes les offres de secours au sein d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
 **Format d’API**
 
 ```http
-GET /{ENDPOINT_PATH}/offers?offer-type=fallback&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_OFFER}&{QUERY_PARAMS}
 ```
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Conteneur où se trouvent les offres de secours. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FALLBACK_OFFER}` | Définit le schéma associé aux offres de secours. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=1` |
 
 **Requête**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback&limit=2' \
--H 'Accept: *,application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&limit=1' \
+  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 ## Utilisation des paramètres de requête {#using-query-parameters}
@@ -51,84 +54,103 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `property` | Un filtre de propriété facultatif : <br> <ul> - Les propriétés sont regroupées par opération ET. <br><br> - Les paramètres peuvent être répétés comme suit : property=<property-expr>[&amp;property=<property-expr2>..] ou property=<property-expr1>[,<property-expr2>..] <br><br> - Les expressions de propriété sont au format [!]field[op]value, avec op in [== !=,&lt;=,>=,&lt;,>~], prise en charge des expressions régulières | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | Limitez le nombre d’entités renvoyées. | `limit=5` |
+| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | `default` |
+| `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
+| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
+| `limit` | Limitez le nombre d’offres de secours renvoyées. | `limit=5` |
 
 **Réponse**
 
-Une réponse réussie renvoie une liste d’offres de secours auxquelles vous avez accès.
+Une réponse réussie renvoie une liste d’offres de secours présentes dans le conteneur auquel vous avez accès.
 
 ```json
 {
-    "results": [
-        {
-            "created": "2023-06-08T14:04:41.011+00:00",
-            "modified": "2023-06-08T14:04:41.011+00:00",
-            "etag": 1,
-            "schemas": [
-                "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.8"
-            ],
-            "createdBy": "{CREATED_BY}",
-            "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "fallbackOffer1234",
-            "name": "Fallback Offer Web",
-            "description": "Fallback Offer Web Description",
-            "status": "draft",
-            "representations": [
-                {
-                    "channel": "https://ns.adobe.com/xdm/channel-types/web",
-                    "placement": "offerPlacement5678",
-                    "components": [
+    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
+    "schemaNs": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1",
+    "requestTime": "2020-10-22T07:12:30.923768Z",
+    "_embedded": {
+        "results": [
+            {
+                "instanceId": "053bc610-f8f9-11ea-ad6e-775ad2c9b1a1",
+                "schemas": [
+                    "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 3,
+                "repo:createdDate": "2020-09-17T15:18:20.657299Z",
+                "repo:lastModifiedDate": "2020-10-02T02:34:48.034583Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "xdm:name": "F1: Web fallback ",
+                    "xdm:representations": [
                         {
-                            "type": "imagelink",
-                            "format": "image/png",
-                            "deliveryURL": "https://mysite.com"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "created": "2022-10-07T11:23:55.885+00:00",
-            "modified": "2022-10-07T11:23:55.885+00:00",
-            "etag": 1,
-            "schemas": [
-                "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.7"
-            ],
-            "createdBy": "{CREATED_BY}",
-            "lastModifiedBy": "{MODIFIED_BY}",
-            "id": "fallbackOffer5678",
-            "name": "Fallback Offer email",
-            "status": "approved",
-            "representations": [
-                {
-                    "channel": "https://ns.adobe.com/xdm/channel-types/email",
-                    "placement": "offerPlacement1234",
-                    "components": [
+                            "xdm:components": [
+                                {
+                                    "xdm:content": "aaa",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                                    "dc:format": "application/json",
+                                    "repo:name": "aa"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:122201b2150d98c2"
+                        },
                         {
-                            "type": "component-text",
-                            "format": "text/template",
-                            "content": "Get free shipping!"
+                            "xdm:components": [
+                                {
+                                    "xdm:content": "bb",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-html",
+                                    "dc:format": "text/html",
+                                    "repo:name": "bb"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:122201c34354a2b4"
+                        },
+                        {
+                            "xdm:components": [
+                                {
+                                    "xdm:deliveryURL": "https://mysite.com",
+                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                                    "dc:format": "image/png",
+                                    "repo:name": "ll"
+                                }
+                            ],
+                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
+                            "xdm:placement": "xcore:offer-placement:122207eddb05205a"
                         }
-                    ]
-                }
-            ],
-            "labels": [
-                "core/C1"
-            ]
-        }
-    ],
-    "count": 2,
-    "total": 3,
+                    ],
+                    "xdm:status": "approved",
+                    "xdm:tags": [],
+                    "@id": "xcore:fallback-offer:122206064e0d98df"
+                },
+                "_links": {
+                    "self": {
+                        "name": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.5#053bc610-f8f9-11ea-ad6e-775ad2c9b1a1",
+                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/053bc610-f8f9-11ea-ad6e-775ad2c9b1a1",
+                        "@type": "https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.5"
+                    }
+                },
+                "sandboxName": "ode-prod-va7-edge-testing"
+            }
+        ],
+        "total": 5,
+        "count": 1
+    },
     "_links": {
         "self": {
-            "href": "/offers?offer-type=fallback&href={SELF_HREF}&limit=2",
-            "type": "application/json"
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&limit=1",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         },
         "next": {
-            "href": "/offers?offer-type=fallback&href={NEXT_HREF}&limit=2",
-            "type": "application/json"
+            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=053bc610-f8f9-11ea-ad6e-775ad2c9b1a1&orderby=instanceId&schema=https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1&limit=1",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
         }
     }
 }

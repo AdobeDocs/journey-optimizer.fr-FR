@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 4f2bbef98b2e529c2f6a663a3cf7e1ad5493c41a
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 96%
+source-wordcount: '565'
+ht-degree: 100%
 
 ---
 
@@ -39,15 +39,99 @@ Pour lancer des appels aux API [!DNL Adobe Experience Platform], vous devez d’
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
-* `x-sandbox-name: {SANDBOX_NAME}`
 
 Toutes les requêtes contenant une payload (POST, PUT, PATCH) requièrent un en-tête supplémentaire :
 
 * `Content-Type: application/json`
 
+## Gérer l&#39;accès à un conteneur {#manage-access-to-container}
+
+Un conteneur est un mécanisme d&#39;isolement qui permet de séparer différentes préoccupations. L&#39;ID de conteneur est le premier élément de chemin d&#39;accès pour toutes les API du référentiel. Tous les objets de prise de décision résident dans un conteneur.
+
+Un administrateur peut regrouper des entités principales, des ressources et des autorisations d&#39;accès similaires dans des profils. La charge de gestion est ainsi réduite et est assurée par l&#39;[Adobe Admin Console](https://adminconsole.adobe.com/). Pour créer des profils et leur affecter des utilisateurs, vous devez être un administrateur de produit pour Adobe Experience Platform. Il suffit de créer des profils de produit qui correspondent à certaines autorisations en une seule étape, puis d&#39;ajouter des utilisateurs à ces profils. Les profils agissent comme des groupes ayant reçu des autorisations, et chaque utilisateur réel ou technique de ce groupe hérite de ces autorisations.
+
+Avec les privilèges d&#39;administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs via l‘[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target="_blank"}.
+
+### Liste des conteneurs accessibles aux utilisateurs et aux intégrations {#list-containers-accessible-to-users-and-integrations}
+
+**Format d&#39;API**
+
+```http
+GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
+```
+
+| Paramètre | Description | Exemple |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | Filtre la liste des conteneurs par leur association aux contextes de produits. | `acp` |
+| `{PROPERTY}` | Filtre le type de conteneur renvoyé. | `_instance.containerType==decisioning` |
+
+**Requête**
+
+```shell
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/?product=acp&property=_instance.containerType==decisioning' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
+**Réponse**
+
+Une réponse positive renvoie des informations concernant les conteneurs de gestion de décision. Elle inclut un attribut `instanceId` dont la valeur est votre identifiant de conteneur.
+
+```json
+{
+    "_embedded": {
+        "https://ns.adobe.com/experience/xcore/container": [
+            {
+                "instanceId": "{INSTANCE_ID}",
+                "schemas": [
+                    "https://ns.adobe.com/experience/xcore/container;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
+                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "containerType": "decisioning",
+                    "repo:name": "{REPO_NAME}",
+                    "dataCenter": "{DATA_CENTER}",
+                    "parentName": "{PARENT_NAME}",
+                    "parentId": "{PARENT_ID}"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/containers/{INSTANCE_ID}"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "/?product=acp&property=_instance.containerType==decisioning",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/home"
+        }
+    }
+}
+```
+
 ## Étapes suivantes {#next-steps}
 
-Ce document couvrait les connaissances préalables requises pour effectuer des appels à la fonction [!DNL Offer Library] API. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
+Ce document couvrait les connaissances préalables requises pour effectuer des appels à l&#39;API [!DNL Offer Library], y compris l&#39;acquisition de votre ID de conteneur. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
+<!--
+>[!NOTE]
+>
+> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
+-->
 
 ## Vidéo pratique {#video}
 
