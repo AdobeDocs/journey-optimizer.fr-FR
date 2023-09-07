@@ -6,20 +6,31 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 76%
 
 ---
 
 # Création de règles de décision {#create-decision-rules}
+
+## A propos des règles de décision {#about}
 
 Vous pouvez créer des règles de décision d&#39;offre basées sur les données disponibles dans Adobe Experience Platform. Les règles de décision déterminent pour qui une offre peut être affichée.
 
 Par exemple, vous pouvez indiquer que vous souhaitez qu&#39;une « offre vêtements d&#39;hiver pour femmes » s&#39;affiche lorsque (genre = « femme ») et (région = « nord-est »).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+
+Voici une liste des limites à connaître lors de l’utilisation de règles de décision :
+
+* Lors de la création d’une règle, vous pouvez utiliser des événements historiques, mais il existe des limites quant au moment où ces règles sont utilisables.
+* La prise de décision Edge utilise le profil Edge qui ne stocke pas d’événements. Par conséquent, toute règle utilisée dans une décision Edge sera invalide.
+* Les parcours qui utilisent les décisions d’offre ne tiendront pas compte des événements historiques. Par conséquent, ces règles seront invalides.
+* Les demandes de décision qui utilisent le profil hub étudieront les 100 derniers événements d’expérience du profil pour évaluer les règles qui référencent des événements d’expérience historiques.
+
+## Création d’une règle de décision {#create}
 
 La liste des règles de décision créées est accessible dans le menu **[!UICONTROL Composants]**.
 
