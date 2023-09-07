@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
+source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -197,7 +197,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>Vous pouvez désormais créer et gérer des modèles de contenu Adobe Journey Optimizer à l’aide d’API dédiées, ce qui permet une intégration transparente de votre système de contenu existant.</p>
-<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
