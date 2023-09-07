@@ -4,16 +4,20 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 100%
+source-wordcount: '3303'
+ht-degree: 99%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
+
+## Septembre 2023 (#september-2023)
+
+* Une liste des limites à connaître lors de la création de règles de décision a été ajoutée à la documentation de la gestion des décisions. [En savoir plus](../offers/offer-library/creating-decision-rules.md)
 
 ## Août 2023 {#august-2023}
 
