@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 94%
 
 ---
 
@@ -71,6 +71,10 @@ Si vous avez configuré des actions personnalisées, elles s’affichent égalem
 La plupart des activités vous permettent de définir un **[!UICONTROL libellé]**. Vous pouvez ainsi ajouter un suffixe au nom qui apparaîtra sous votre activité dans la zone de travail. Cela s’avère utile si vous utilisez plusieurs fois la même activité dans votre parcours et souhaitez faciliter son identification. Cela facilite également le débogage lorsque des erreurs se produisent et permet une lecture plus facile des rapports. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>Pour certaines activités, leur identifiant est également visible dans le volet . Cet identifiant peut être utilisé dans les rapports sous la forme d’une clé plus stable que le libellé, qui peut changer.
 
 ### Gérer les paramètres avancés {#advanced-parameters}
 
