@@ -4,7 +4,7 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Des informations ont été ajoutées sur les points de terminaison d’authentification personnalisés dans la documentation de limitation. [En savoir plus](../configuration/external-systems.md)
 * Un nouvel exemple d’authentification personnalisée a été ajouté à la section Sources de données externes. [En savoir plus](../datasource/external-data-sources.md#custom-authentication-mode)
 * Une note a été ajoutée concernant le service principal de collecte de données (DCCS) pour les parcours déclenchés par un événement. [En savoir plus](../start/guardrails.md#events-g)
-* Une note sur la récupération des espaces de noms d’identité a été ajoutée dans la [Lecture d’audience](../building-journeys/read-audience.md), [Qualification du segment](../building-journeys/segment-qualification-events.md) et [Création d’événement](../event/about-creating.md) sections.
+* Une note sur la récupération des espaces de noms d’identité a été ajoutée dans la [Lecture d’audience](../building-journeys/read-audience.md), [Qualification de l’audience](../building-journeys/audience-qualification-events.md) et [Création d’événement](../event/about-creating.md) sections.
 * Les fonctionnalités d’accessibilité dans [!DNL Journey Optimizer] sont désormais regroupées dans une page dédiée. [En savoir plus](../start/accessibility.md).
 * Les exemples ont été mis à jour dans la section Opérateurs de la documentation avancée de l’éditeur d’expression. [En savoir plus](../building-journeys/expression/operators.md)
 * Ajout d’une note concernant la limitation de la recherche avec un tableau d’objets - [En savoir plus](../event/experience-event-schema.md#relationships_limitations).
