@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3468'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,24 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
+## Mises à jour de septembre 2023 {#sept-rn-2023}
+
+### Nouvelles fonctionnalités{#sept-2023-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Stockage des informations d’identification de l’application mobile par environnement de test</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette nouvelle fonctionnalité vous permet de gérer et d’associer facilement des informations d’identification push à un environnement de test dédié dans les interfaces d’application.</p>
+<p>Pour plus d’informations, consultez la <a href="../in-app/inapp-configuration.md">documentation détaillée</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ## Notes de mise à jour d’août 2023 {#aug-rn-2023}
 

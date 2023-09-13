@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 99%
+source-wordcount: '551'
+ht-degree: 67%
 
 ---
 
@@ -36,20 +36,47 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
    >
    > Vous avez besoin de l’autorisation **Gérer la configuration de l’application** pour accéder au menu **[!UICONTROL Surfaces de l’application]**. Pour plus d’informations, regardez [cette vidéo](#video).
 
-   >[!NOTE]
-   >
-   > Vous avez besoin de l’autorisation **Gérer la configuration de l’application** pour accéder au menu **[!UICONTROL Surfaces de l’application]**. Pour plus d’informations, regardez [cette vidéo](#video).
-
    ![](assets/inapp_config_1.png)
 
 1. Ajoutez un nom à votre **[!UICONTROL Surface d’application]**.
 
+   ![](assets/inapp_config_2b.png)
 
-1. Dans le menu déroulant Apple iOS, saisissez votre **ID de bundle iOS**. Voir la [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) pour plus d’informations sur l’**ID de bundle**.
+1. Dans la **[!UICONTROL Apple iOS]** , configurez votre application mobile pour Apple iOS.
 
-   ![](assets/inapp_config_2.png)
++++ En savoir plus
 
-1. Dans le menu déroulant Android, saisissez votre **nom du package Android**. Voir la [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) pour plus d’informations sur le **nom du package**.
+   1. Saisissez votre **[!UICONTROL Identifiant du lot iOS]**. Voir la [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) pour plus d’informations sur l’**ID de bundle**.
+
+   1. (Facultatif) Choisissez la **[!UICONTROL Sandbox]** d’où vous souhaitez envoyer des notifications push. Notez que le choix d’un environnement de test spécifique nécessite les autorisations d’accès nécessaires.
+
+      Pour plus d’informations sur la gestion des environnements de test, voir [cette page](../administration/sandboxes.md#assign-sandboxes).
+
+   1. Activez la variable **[!UICONTROL Informations d’identification push]** pour faire glisser et déposer votre fichier de clé d’authentification .p8 si nécessaire.
+
+      Vous pouvez également activer la variable **[!UICONTROL Saisie manuelle des informations d’identification push]** pour copier et coller directement votre clé d’authentification APNS.
+
+   1. Saisissez votre **[!UICONTROL ID de clé]** et **[!UICONTROL Identifiant de l’équipe]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. Dans la **[!UICONTROL Android]** , configurez votre application mobile pour Android.
+
++++ En savoir plus
+
+   1. Saisissez votre **[!UICONTROL Nom du package Android]**. Voir la [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) pour plus d’informations sur le **nom du package**.
+
+   1. (Facultatif) Choisissez la **[!UICONTROL Sandbox]** d’où vous souhaitez envoyer des notifications push. Notez que le choix d’un environnement de test spécifique nécessite les autorisations d’accès nécessaires.
+
+      Pour plus d’informations sur la gestion des environnements de test, voir [cette page](../administration/sandboxes.md#assign-sandboxes).
+
+   1. Activez la variable **[!UICONTROL Informations d’identification push]** pour faire glisser et déposer votre fichier de clé privée .json si nécessaire.
+
+      Vous pouvez également activer la variable **[!UICONTROL Saisie manuelle des informations d’identification push]** pour copier et coller directement votre clé privée FCM.
+
+      ![](assets/inapp_config_7.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé la configuration de votre **[!UICONTROL Surface d’application]**.
 
