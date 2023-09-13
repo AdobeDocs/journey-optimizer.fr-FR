@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 27b5d9d66cd2659b4254ee26ac7de928cdd13fe1
 workflow-type: tm+mt
 source-wordcount: '3468'
 ht-degree: 99%
@@ -21,9 +21,9 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Mises à jour de septembre 2023 {#sept-rn-2023}
+## Mise à jour de septembre 2023 {#sept-rn-2023}
 
-### Nouvelles fonctionnalités{#sept-2023-features}
+### Nouvelle fonctionnalité {#sept-2023-features}
 
 <table>
 <thead>
