@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
 source-wordcount: '2257'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -286,7 +286,7 @@ Le widget **[!UICONTROL Synthèse des SMS]** détaille les informations principa
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-La variable **[!UICONTROL SMS : clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** Les widgets détaillent les informations principales relatives à l’engagement des visiteurs avec vos URL.
+Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
 
 +++
 
@@ -312,7 +312,7 @@ Les KPI **[!UICONTROL Performances in-app]** détaillent les informations princi
   > 
   >En raison du deuxième critère, il peut y avoir des variations notables entre le nombre de profils ciblés et le nombre d’impressions uniques.
 
-* **[!UICONTROL Interaction]**: nombre d’engagements avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
+* **[!UICONTROL Interactions]** : nombre d’engagements en lien avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
 
 Le graphe **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions et interactions in-app pour la période concernée.
 

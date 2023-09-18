@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
 * **[!UICONTROL Politiques]** - Adobe Experience Platform vous permet d’étiqueter vos champs et de créer des actions marketing pour chaque canal. Vous pouvez ensuite définir une politique de gouvernance associée à une étiquette et à une action marketing. [En savoir plus](../action/action-privacy.md).
 
-* **[!UICONTROL Demandes]** - Les demandes d’accès à des informations personnelles sont gérées dans Adobe Experience Platform Privacy Service. Il fournit une API RESTful et une interface utilisateur pour vous aider à gérer les demandes liées aux données de la clientèle. [En savoir plus](../privacy/requests.md).
+* **[!UICONTROL Demandes]** - Les demandes d’accès à des données personnelles sont gérées dans Adobe Experience Platform Privacy Service. Il fournit une API RESTful et une interface utilisateur pour vous aider à gérer les demandes liées aux données de la clientèle. [En savoir plus](../privacy/requests.md).
 
 * **[!UICONTROL Audit]** - Accédez à cette section pour vérifier les journaux d’activité. [En savoir plus](../privacy/audit-logs.md).
 

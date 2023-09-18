@@ -11,7 +11,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -367,7 +367,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* **[!DNL Manage Seedlist]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer la liste de contrôle.
+* L&#39;autorisation de haut niveau **[!DNL Manage Seedlist]** permet de lire, créer, modifier et supprimer des listes de contrôle.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 

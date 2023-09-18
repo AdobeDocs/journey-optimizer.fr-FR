@@ -11,7 +11,7 @@ exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Pour plus d’informations sur l’intégration aux systèmes externes, référe
 
 ## Mise en œuvre
 
-Pour **parcours déclenchés par l’audience**, vous pouvez définir le taux de lecture de votre activité Lecture d’audience qui aura une incidence sur le débit parcours. [En savoir plus](../building-journeys/read-audience.md)
+Pour les **parcours déclenchés par une audience**, vous pouvez définir le taux de lecture de votre activité Lecture d’audience qui aura une incidence sur le débit des parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >

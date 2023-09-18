@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -145,9 +145,9 @@ Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille le s
 
 Le widget **[!UICONTROL E-mail - Statistiques de suivi]** contient les données disponibles pour l’activité destinataire de votre diffusion :
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures de l’email.
+* **[!UICONTROL Ouvertures]** : nombre de fois que l’e-mail a été ouvert.
 
-* **[!UICONTROL Ouvertures uniques]**: pourcentage d&#39;emails ouverts.
+* **[!UICONTROL Ouvertures uniques]** : pourcentage d’e-mails ouverts.
 
 * **[!UICONTROL Taux d&#39;ouvertures]** : nombre total de messages ouverts par rapport au nombre de messages diffusés.
 
@@ -197,7 +197,7 @@ Le graphique **[!UICONTROL Optimisé ou non optimisé]** détaille les informati
 
 * **[!UICONTROL Envoyés]** : nombre total d’envois pour la diffusion.
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures du message.
+* **[!UICONTROL Ouvertures]** : nombre de fois que le message a été ouvert.
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans un e-mail.
 
@@ -332,7 +332,7 @@ Le widget **[!UICONTROL Performances de SMS par date]** détaille les informatio
 
 Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL Causes des bounces]** et **[!UICONTROL Raisons des erreurs]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-La variable **[!UICONTROL SMS : clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** Les widgets détaillent les informations principales relatives à l’engagement des visiteurs avec vos URL.
+Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
 
 +++
 

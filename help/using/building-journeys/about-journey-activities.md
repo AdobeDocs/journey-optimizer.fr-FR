@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ La plupart des activités vous permettent de définir un **[!UICONTROL libellé]
 
 >[!NOTE]
 >
->Pour certaines activités, leur identifiant est également visible dans le volet . Cet identifiant peut être utilisé dans les rapports sous la forme d’une clé plus stable que le libellé, qui peut changer.
+>Pour certaines activités, leur identifiant est également visible dans le volet. Cet identifiant peut être utilisé dans les rapports sous la forme d’une clé plus stable que le libellé, qui peut changer.
 
 ### Gérer les paramètres avancés {#advanced-parameters}
 

@@ -11,7 +11,7 @@ keywords: liste de contrôle, contrôle, configuration
 source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Les listes de contrôle dans [!DNL Journey Optimizer] vous permettent d’inclur
 >
 >Actuellement, cette fonctionnalité s’applique uniquement au canal e-mail.
 >
->Les variantes ne sont actuellement pas prises en charge. Comme chaque profil de l&#39;audience ciblée, les adresses de contrôle reçoivent une seule copie de chaque message, mais pas toutes les variantes d&#39;un même message (telles que les différents traitements d&#39;un [expérience de contenu](../campaigns/get-started-experiment.md)).
+>Les variantes ne sont actuellement pas prises en charge. Comme chaque profil de l’audience ciblée, les adresses de contrôle reçoivent une seule copie de chaque message, mais pas toutes les variantes d’un même message (telles que les différents traitements d’une [expérience de contenu](../campaigns/get-started-experiment.md)).
 
 Les adresses de contrôle permettent de cibler des personnes destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible.
 
@@ -58,7 +58,7 @@ Pour accéder aux listes de contrôle déjà créées, accédez à **[!UICONTROL
 
 >[!CAUTION]
 >
->Pour pouvoir afficher, modifier et gérer les listes de contrôle, vous devez disposer de la variable **[!UICONTROL Gérer la liste de contrôle]** autorisation.
+>Pour pouvoir afficher, modifier et gérer les listes de contrôle, vous devez disposer de l’autorisation **[!UICONTROL Gérer la liste de contrôle]**.
 
 ![](assets/seed-list-access.png)
 

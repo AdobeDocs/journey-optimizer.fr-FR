@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
 source-wordcount: '1493'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -122,11 +122,11 @@ L’activité **[!UICONTROL Exclure]** vous permet d’exclure des profils de vo
 
   ![](assets/audiences-exclude-attribute.png)
 
-### Activité d’enrichissement {#enrich}
+### Activité Enrichir {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="Activité d’enrichissement"
+>title="Activité Enrichir"
 >abstract="Utilisez l’activité Enrichir pour enrichir votre audience avec des attributs supplémentaires provenant de jeux de données d’Adobe Experience Platform. Par exemple, vous pouvez ajouter des informations sur le produit acheté (comme le nom, le prix ou l’identifiant de fabricant) afin de personnaliser les diffusions envoyées à l’audience."
 
 >[!CONTEXTUALHELP]
@@ -224,16 +224,16 @@ Deux types d’opérations de partage sont disponibles :
 
   ![](assets/audiences-split.png)
 
-  Pour configurer une activité de partage basée sur des attributs, procédez comme suit :
+  Pour configurer une activité de partage basée sur des attributs, procédez comme suit :
 
-   1. Cliquez sur le bouton situé en regard de l’option **[!UICONTROL Attribut]** pour sélectionner l’attribut à utiliser comme critère de division.
+   1. Cliquez sur le bouton situé en regard du champ **[!UICONTROL Attribut]** pour sélectionner l’attribut à utiliser comme critère de partage.
    1. Ajoutez autant de chemins que nécessaire. Pour chaque chemin, fournissez un libellé et spécifiez la valeur qui sera utilisée pour déterminer les profils à inclure dans ce chemin spécifique.
 
       >[!NOTE]
       >
       >Une seule valeur peut être spécifiée pour chaque chemin.
 
-   1. Activez l’option **[!UICONTROL Autres profils]** pour créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins.
+   1. L’option **[!UICONTROL Autres profils]** vous permet de créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins d’accès.
 
 ## Enregistrer vos audiences {#save}
 

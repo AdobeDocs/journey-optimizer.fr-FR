@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -44,21 +44,21 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      +++Voir Déclencheurs disponibles.
+      +++Voir les déclencheurs disponibles.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
-      | Envoi de données à Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
-      | Suivi principal | Suivi de l’action | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) est appelée. |
-      | Suivi principal | Suivi de l’état | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) est appelée. |
-      | Suivi principal | Collecter les PII | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) est appelée. |
+      | Envoyer des données à Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
+      | Suivi principal | Suivi de l’action | Déclenché lorsque la fonctionnalité héritée proposée dans l’API de code mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) est appelée. |
+      | Suivi principal | Suivi de l’état | Déclenché lorsque la fonctionnalité héritée proposée dans l’API de code mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) est appelée. |
+      | Suivi principal | Collecte des PII | Déclenchée lorsque la fonctionnalité héritée proposée dans l’API de code mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) est appelée. |
       | Cycle de vie de l’application | Lancement de l’application | Déclenché à chaque exécution, y compris les blocages et les installations. Également déclenché à la mise en premier plan de l’application lorsque le délai d’expiration de la session de cycle de vie a été dépassé. |
       | Cycle de vie de l’application | Installation de l’application | Déclenchée lors de la première exécution après l’installation ou la réinstallation. |
-      | Cycle de vie de l’application | Mise à jour des applications | Déclenché lors de la première exécution après une mise à niveau ou lorsque le numéro de version change. |
-      | Cycle de vie de l’application | Fermeture de l’application | Déclenché lorsque l’application est fermée. |
-      | Cycle de vie de l’application | Blocage de l’application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son blocage. La création de rapports de blocage d’Adobe Mobile n’implémente pas un gestionnaire d’exceptions non interceptées global. |
-      | Places | Entrée dans le point ciblé | Déclenché par le SDK Places lorsque votre client entre dans le point ciblé que vous avez configuré. |
-      | Places | Quitter le point ciblé | Déclenché par le SDK Places lorsque votre client quitte le point ciblé que vous avez configuré. |
+      | Cycle de vie de l’application | Mise à jour de l’application | Déclenchée lors de la première exécution après une mise à niveau ou lorsque le numéro de version change. |
+      | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
+      | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
+      | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
+      | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
 +++
 
@@ -142,21 +142,21 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      +++Voir Déclencheurs disponibles.
+      +++Voir les déclencheurs disponibles.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
-      | Envoi de données à Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
-      | Suivi principal | Suivi de l’action | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) est appelée. |
-      | Suivi principal | Suivi de l’état | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) est appelée. |
-      | Suivi principal | Collecter les PII | Déclenché lorsque la fonctionnalité héritée est proposée dans l’API de code mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) est appelée. |
+      | Envoyer des données à Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
+      | Suivi principal | Suivi de l’action | Déclenché lorsque la fonctionnalité héritée proposée dans l’API de code mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) est appelée. |
+      | Suivi principal | Suivi de l’état | Déclenché lorsque la fonctionnalité héritée proposée dans l’API de code mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) est appelée. |
+      | Suivi principal | Collecte des PII | Déclenchée lorsque la fonctionnalité héritée proposée dans l’API de code mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) est appelée. |
       | Cycle de vie de l’application | Lancement de l’application | Déclenché à chaque exécution, y compris les blocages et les installations. Également déclenché à la mise en premier plan de l’application lorsque le délai d’expiration de la session de cycle de vie a été dépassé. |
       | Cycle de vie de l’application | Installation de l’application | Déclenchée lors de la première exécution après l’installation ou la réinstallation. |
-      | Cycle de vie de l’application | Mise à jour des applications | Déclenché lors de la première exécution après une mise à niveau ou lorsque le numéro de version change. |
-      | Cycle de vie de l’application | Fermeture de l’application | Déclenché lorsque l’application est fermée. |
-      | Cycle de vie de l’application | Blocage de l’application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son blocage. La création de rapports de blocage d’Adobe Mobile n’implémente pas un gestionnaire d’exceptions non interceptées global. |
-      | Places | Entrée dans le point ciblé | Déclenché par le SDK Places lorsque votre client entre dans le point ciblé que vous avez configuré. |
-      | Places | Quitter le point ciblé | Déclenché par le SDK Places lorsque votre client quitte le point ciblé que vous avez configuré. |
+      | Cycle de vie de l’application | Mise à jour de l’application | Déclenchée lors de la première exécution après une mise à niveau ou lorsque le numéro de version change. |
+      | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
+      | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
+      | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
+      | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
 +++
 
@@ -225,7 +225,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
 +++
 
-* La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages In-App de test A/B.
+* La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test A/B.
 
   +++Voir la vidéo
 

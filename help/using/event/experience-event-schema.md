@@ -11,7 +11,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 90%
 
 Les événements [!DNL Journey Optimizer] sont des événements d’expérience XDM envoyés à Adobe Experience Platform par l’intermédiaire de l’ingestion en flux continu.
 
-Par conséquent, il s’agit d’un prérequis important pour la configuration des événements pour [!DNL Journey Optimizer] est que vous connaissez Adobe Experience Platform Experience Data Model (ou XDM) et que vous savez composer des schémas d’événement d’expérience XDM et diffuser des données au format XDM vers Adobe Experience Platform.
+À ce titre, il est important pour la configuration des événements dans [!DNL Journey Optimizer] de maîtriser le modèle de données d’expérience (ou XDM) d’Adobe Experience Platform et de savoir composer des schémas d’événements d’expérience XDM et diffuser des données au format XDM vers Adobe Experience Platform.
 
 ## Schéma requis pour les événements [!DNL Journey Optimizer]  {#schema-requirements}
 
-La première étape de la configuration d’un événement pour [!DNL Journey Optimizer] consiste à définir un schéma XDM pour représenter l’événement et à créer un jeu de données pour enregistrer les instances de l’événement dans Adobe Experience Platform. Il n’est pas strictement nécessaire de disposer d’un jeu de données pour vos événements, mais envoyer les événements à un jeu de données spécifique vous permettra de conserver l’historique des événements des utilisateurs pour une référence et une analyse futures. C’est donc toujours une bonne idée. Si vous ne disposez pas déjà d’un schéma et d’un jeu de données appropriés pour votre événement, il est possible de réaliser ces deux tâches dans l’interface web d’Adobe Experience Platform.
+La première étape de la configuration d’un événement pour [!DNL Journey Optimizer] consiste à définir un schéma XDM pour représenter l’événement et à créer un jeu de données pour enregistrer les instances de l’événement dans Adobe Experience Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements. Cela dit, le fait d’envoyer les événements à un jeu de données spécifique permet de conserver l’historique des événements des personnes pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d’un schéma et d’un jeu de données appropriés pour votre événement, il est possible de réaliser ces deux tâches dans l’interface web d’Adobe Experience Platform.
 
 ![](assets/schema1.png)
 

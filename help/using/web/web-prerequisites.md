@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Lors de l’utilisation du concepteur web d’Adobe [!DNL Journey Optimizer], s
 
 1. Assurez-vous que l’extension de navigateur Visual Editing Helper est correctement installée.
 
-1. Si le site web se comporte toujours de manière inattendue, assurez-vous que les cookies tiers sont autorisés dans votre navigateur. Sinon, la page web ne peut pas être chargée dans la variable [!DNL Journey Optimizer] web designer.
+1. Si le site web se comporte toujours de manière inattendue, assurez-vous que les cookies tiers sont autorisés dans votre navigateur. Sinon, la page web ne peut pas être chargée dans le concepteur web [!DNL Journey Optimizer].
 
 Pour les pages sous authentification, si le chargement de la page de connexion échoue ou si vous ne parvenez pas à vous connecter :
 
