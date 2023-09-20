@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1001'
 ht-degree: 26%
 
 ---
@@ -70,7 +70,7 @@ Pour commencer à créer votre expérience basée sur du code par le biais d’u
 >id="ajo_code_based_experience"
 >title="Utilisation de l’éditeur de code"
 >abstract="Insérez et modifiez le code que vous souhaitez diffuser dans le cadre de cette action d’expérience basée sur le code."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/build-expressions/expression-editor/personalization-build-expressions.html" text="Commencer avec l’éditeur d’expression"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Commencer avec l’éditeur d’expression"
 
 1. Dans l&#39;écran d&#39;édition de campagne, sélectionnez **[!UICONTROL Modifier le code]**.
 
