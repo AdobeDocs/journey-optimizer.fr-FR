@@ -5,7 +5,7 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
+source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 38%
@@ -46,7 +46,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Génération de l’exportation de jeux de données (GA)</strong><br/></th>
+<th><strong>Destinations d’exportation de jeux de données (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
