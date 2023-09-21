@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, pools, groupes, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 8%
@@ -43,7 +43,7 @@ Pour créer une campagne de réchauffement des adresses IP, procédez comme suit
 
    >[!NOTE]
    >
-   >Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une surface d’email dans [cette section](using/email/email-settings.md#subdomains-and-ip-pools).
+   >Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une surface d’email dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. Créez un [campaign](../campaigns/create-campaign.md) et sélectionnez la variable [Email](../email/create-email.md#create-email-journey-campaign) action.
 
@@ -68,4 +68,6 @@ Pour créer une campagne de réchauffement des adresses IP, procédez comme suit
 >Pour une campagne en direct avec le plan de chauffage par IP activé, la variable **[!UICONTROL Supprimer]** est disponible jusqu’à ce qu’il soit associé à un plan de chauffage par IP.
 
 Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
+
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
