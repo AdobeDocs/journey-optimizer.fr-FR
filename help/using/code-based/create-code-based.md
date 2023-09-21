@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 26%
 
 ---
@@ -68,7 +68,7 @@ Pour commencer à créer votre expérience basée sur du code par le biais d’u
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Utilisation de l’éditeur de code"
+>title="Utilisation de l’éditeur d’expression"
 >abstract="Insérez et modifiez le code que vous souhaitez diffuser dans le cadre de cette action d’expérience basée sur le code."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Commencer avec l’éditeur d’expression"
 
@@ -76,7 +76,7 @@ Pour commencer à créer votre expérience basée sur du code par le biais d’u
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. L’éditeur de code s’ouvre. Il s’agit d’une interface de création d’expérience non visuelle.
+1. La variable [Editeur d&#39;expression](../personalization/personalization-build-expressions.md) s’ouvre. Il s’agit d’une interface de création d’expérience non visuelle qui vous permet de créer votre code.
 
 1. Vous pouvez passer du mode de création HTML au mode JSON, et inversement.
 
@@ -84,7 +84,7 @@ Pour commencer à créer votre expérience basée sur du code par le biais d’u
    >
    >Si vous changez de mode de création, vous perdrez l’ensemble de votre code actuel. Veillez donc à changer de mode avant de commencer la création.
 
-1. Saisissez votre code selon vos besoins. L’éditeur de code tire parti de la variable [!DNL Journey Optimizer] Editeur d&#39;expression avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
+1. Saisissez votre code selon vos besoins. Vous pouvez utiliser la variable [!DNL Journey Optimizer] Editeur d&#39;expression avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ Pour afficher un aperçu de votre expérience modifiée basée sur le code, proc
 >
 >Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../audience/creating-test-profiles.md).
 
-1. Dans l’écran Éditeur de code ou Modifier le contenu, sélectionnez **[!UICONTROL Simulation du contenu]**.
+1. Dans l’écran Editeur d’expression ou Modifier le contenu, sélectionnez **[!UICONTROL Simulation du contenu]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

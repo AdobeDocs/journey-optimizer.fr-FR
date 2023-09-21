@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou
 * Il est axé sur le marketeur-persona.
 
 **Expérience basée sur le code**
-* Modifiez votre contenu à l’aide du [éditeur de code](create-code-based.md#edit-code).
+* Modifiez votre contenu à l’aide du [Editeur d&#39;expression](create-code-based.md#edit-code).
 * L’expérience basée sur le code nécessite un travail de développement précédent sur votre implémentation pour s’assurer que vos surfaces peuvent interpréter et diffuser le contenu publié sur le serveur Edge par [!DNL Journey Optimizer] pour ces surfaces. [En savoir plus](#surface-definition)
 * Il nécessite davantage de planification et ne peut modifier que les éléments spécifiés par les développeurs. Il est donc essentiel d’identifier les composants (bannière d’accueil, image principale, barre de menus, etc.) sur les surfaces qui doivent être modifiées pour la personnalisation ou le test, et collaborez avec votre équipe de développement pour créer l’implémentation nécessaire pour gérer ces modifications.
 * Il vous permet d’utiliser du contenu de code JSON.
@@ -133,7 +133,7 @@ Les étapes clés de mise en oeuvre d’une campagne basée sur du code sont les
 
 1. Définition d’une [surface](#surface-definition), qui est essentiellement l’emplacement où vous souhaitez ajouter votre expérience basée sur le code, et créer une campagne dans [!DNL Journey Optimizer] en utilisant cette surface. [Voici comment procéder.](create-code-based.md#create-code-based-campaign)
 
-1. Composition d’une expérience en spécifiant du contenu pour la surface sélectionnée à l’aide de la propriété [!DNL Journey Optimizer] éditeur de code. [Voici comment procéder.](create-code-based.md#edit-code)
+1. Composition d’une expérience en spécifiant du contenu pour la surface sélectionnée à l’aide de la propriété [!DNL Journey Optimizer] Éditeur d’expression. [Voici comment procéder.](create-code-based.md#edit-code)
 
 1. Votre équipe de mise en oeuvre d’application effectue des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces nommées, comme &quot;Texte de bannière&quot; ou &quot;Bac Recommendations 1&quot;, ou des points de décision non liés à l’interface utilisateur dans une application, comme &quot;paramètres d’algorithme de recherche&quot;. Dans ce cas, l’équipe de mise en oeuvre est chargée du rendu ou de l’interprétation ou de l’action sur le contenu renvoyé.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
