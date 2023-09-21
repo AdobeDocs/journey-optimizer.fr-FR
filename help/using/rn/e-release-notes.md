@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
+<th><strong>Stockage des informations d’identification de l’application mobile par environnement de test</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette nouvelle fonctionnalité vous permet de gérer et d’associer facilement des informations d’identification push à un environnement de test dédié dans les interfaces d’application.</p>
+<p>Pour plus d’informations, consultez la <a href="../in-app/inapp-configuration.md">documentation détaillée</a>.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Rapports Canal consolidé</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La fonction Rapport Canal offre aux analystes et aux spécialistes du marketing un aperçu complet des mesures de trafic et d’engagement au niveau du canal. Pour accéder au menu "Rapport", vous devez disposer de l’autorisation **Afficher les rapports de canal**.</p>
+<p>La fonction Rapport Canal offre aux analystes et aux spécialistes du marketing un aperçu complet des mesures de trafic et d’engagement au niveau du canal. Pour accéder au menu "Rapport", vous devez disposer de l’autorisation "Afficher les rapports Canal".</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -78,7 +93,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Alerte**
 
-Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti lorsqu’un segment de lecture échoue.
+* Deux nouveaux types d’alertes système ont été introduits. Vous pouvez désormais être averti lorsqu’une action personnalisée ou un segment de lecture échoue.
 
 **Canal web**
 
@@ -88,9 +103,9 @@ Introduction d’un nouveau type d’alerte système. Vous pouvez désormais êt
 
 **Parcours**
 
-* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée.
+* Les fonctionnalités de réponse d’action personnalisée sont désormais GA. Cela vous permet d’exploiter les réponses d’appel API dans des actions personnalisées et d’orchestrer votre parcours en fonction de ces réponses. En outre, une nouvelle barrière de sécurité a été ajoutée pour limiter toutes les actions douanières à 5 000 appels/s par point de terminaison.
 * Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours.
-
+* La durée maximale que vous pouvez définir dans l’activité Attente est désormais de 29 jours au lieu de 30.
 
 **Canal e-mail**
 
