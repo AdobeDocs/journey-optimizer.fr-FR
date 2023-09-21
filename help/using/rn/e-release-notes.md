@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
-<table>
-<thead>
-<tr>
-<th><strong>Stockage des informations d’identification de l’application mobile par environnement de test</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Cette nouvelle fonctionnalité vous permet de gérer et d’associer facilement des informations d’identification push à un environnement de test dédié dans les interfaces d’application.</p>
-<p>Pour plus d’informations, consultez la <a href="../in-app/inapp-configuration.md">documentation détaillée</a>.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Stockage des informations d’identification de l’application mobile par environnement de test</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette nouvelle fonctionnalité vous permet de gérer et d’associer facilement des informations d’identification push à un environnement de test dédié dans les interfaces d’application.</p>
+<p>Pour plus d’informations, consultez la <a href="../in-app/inapp-configuration.md">documentation détaillée</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ### Améliorations {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 * Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes.
-* Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences.
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * Vous pouvez désormais cibler les audiences issues des workflows de composition en parcours.
 
 **Personnalisation**
@@ -111,6 +111,6 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 Une nouvelle option de configuration de la surface de l&#39;email permet de choisir d&#39;envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent dans la liste de suppression de Adobe Journey Optimizer.
 
-**Gestion des décisions**
+<!--**Decision management**
 
-Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
