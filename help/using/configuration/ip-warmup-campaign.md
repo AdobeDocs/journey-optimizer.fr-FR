@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, pools, groupes, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 9%
+source-wordcount: '251'
+ht-degree: 8%
 
 ---
 
@@ -39,11 +39,17 @@ Vous devez créer une ou plusieurs campagnes avec une option spécifique activé
 
 Pour créer une campagne de réchauffement des adresses IP, procédez comme suit.
 
-1. Créez un [surface](channel-surfaces.md) pour le domaine et les adresses IP que vous avez identifiées pour votre plan de chaleur.<!--how do you identify these or who does it at the customer level?-->
+1. Créer un email [surface](channel-surfaces.md) pour le domaine et les adresses IP que vous avez identifiées pour votre plan de chaleur.<!--how do you identify these or who does it at the customer level?-->
+
+   >[!NOTE]
+   >
+   >Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une surface d’email dans [cette section](using/email/email-settings.md#subdomains-and-ip-pools).
 
 1. Créez un [campaign](../campaigns/create-campaign.md) et sélectionnez la variable [Email](../email/create-email.md#create-email-journey-campaign) action.
 
 1. Sélectionnez la surface que vous avez créée pour le réchauffement des adresses IP.
+
+   ![](assets/ip-warmup-campaign-surface.png)
 
    <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
@@ -53,7 +59,7 @@ Pour créer une campagne de réchauffement des adresses IP, procédez comme suit
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   La campagne [planning](../campaigns/create-campaign.md#schedule) sera piloté par le plan de chaleur IP auquel il sera associé, ce qui signifie que le planning n’est plus défini dans la campagne elle-même.
+   La campagne [planning](../campaigns/create-campaign.md#schedule) sera piloté par la variable [formule de chauffage par IP](ip-warmup-plan.md) il sera associé à , ce qui signifie que le planning n&#39;est plus défini dans l&#39;opération elle-même.
 
 1. [Activer](../campaigns/review-activate-campaign.md) la campagne. Une fois en ligne, elle est prête à être utilisée dans un plan de chauffage par IP.
 

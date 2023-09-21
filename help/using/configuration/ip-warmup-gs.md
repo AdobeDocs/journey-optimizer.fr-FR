@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, groupes, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 26%
 
 ---
@@ -73,4 +73,4 @@ Les étapes clés de la mise en oeuvre d’un plan de chauffage par IP sont les 
 
 1. Créez un plan de chauffage par IP et téléchargez votre plan. [En savoir plus](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. Ajustez chaque phase de votre plan et activez les exécutions. [En savoir plus](ip-warmup-running.md)
+1. Sélectionnez une opération pour chaque phase de votre plan et activez les exécutions correspondantes. [En savoir plus](ip-warmup-running.md)

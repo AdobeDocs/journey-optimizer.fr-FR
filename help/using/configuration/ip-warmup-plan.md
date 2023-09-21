@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, pools, groupes, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 7%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -29,6 +29,8 @@ Ce guide vous apportera la documentation suivante :
 * [Exécution de la formule de chauffage des adresses IP](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+Une fois que [création d’une ou de plusieurs campagnes](ip-warmup-campaign.md) avec une surface dédiée et l’option de réchauffement des adresses IP activée, vous pouvez commencer à créer votre plan de réchauffement des adresses IP.
 
 ## Accès et gestion des plans de chauffage des adresses IP {#manage-ip-warmup-plans}
 
