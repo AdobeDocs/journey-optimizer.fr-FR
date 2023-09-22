@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 94f6a1ee3a226f22042776b2f8b3ffa99c61cc55
+source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '556'
+ht-degree: 22%
 
 ---
 
@@ -96,7 +96,8 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal web**
 
-* Vous pouvez maintenant sélectionner les vues spécifiques auxquelles vous souhaitez appliquer les modifications de vos pages web. Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse.
+* Les applications d’une seule page (SPA) peuvent désormais être créées dans l’éditeur visuel web. Vous pouvez maintenant sélectionner les vues spécifiques auxquelles vous souhaitez appliquer les modifications de vos pages web. Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse. Une configuration unique pour les développeurs est nécessaire pour définir les vues dans l’implémentation du SDK Web de Adobe Experience Platform. Cela permet aux marketeurs de créer et d’exécuter des campagnes Web Adobe Journey Optimizer sur SPA.
+
 * Lors de la modification d’une page à l’aide du concepteur web, vous pouvez désormais ajouter de nouvelles modifications à votre contenu directement à partir du volet Modifications , sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur.
 * Lors de la configuration de sous-domaines web, vous avez désormais la possibilité d’ajouter votre propre sous-domaine, en plus d’utiliser un sous-domaine déjà délégué à Adobe.
 
