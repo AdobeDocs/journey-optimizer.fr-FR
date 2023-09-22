@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 11%
 
 ---
@@ -182,11 +182,11 @@ Les offres classées sont désormais les suivantes : offre 5 , offre 3, offre
 
 ## Utilisation de la stratégie de décision dans l’éditeur de code {#use-decision-policy}
 
-Une fois créée, la stratégie de décision peut être utilisée dans la variable [éditeur de code](../code-based/create-code-based.md#edit-code). Pour ce faire, procédez comme suit.
+Une fois créée, la stratégie de décision peut être utilisée dans la variable [Editeur d&#39;expression](../code-based/create-code-based.md#edit-code). Pour ce faire, procédez comme suit.
 
 >[!NOTE]
 >
->L’éditeur de code tire parti de la variable [!DNL Journey Optimizer] Editeur d&#39;expression avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
+>L’expérience basée sur le code tire parti de la variable [!DNL Journey Optimizer] Editeur d&#39;expression avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 1. Cliquez sur l’icône + . Le code correspondant à la stratégie de décision est ajouté. Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code.
 
@@ -198,7 +198,7 @@ Une fois créée, la stratégie de décision peut être utilisée dans la variab
 
 1. Cliquez sur la stratégie de décision. Les attributs de décision s’affichent.
 
-   Ces attributs sont stockés dans la variable **[!UICONTROL Offres]** schéma du catalogue. Les attributs personnalisés sont stockés dans la variable **_cjmstage** Attributs de dossier et standard dans **_experience** dossier. [En savoir plus sur le schéma du catalogue d&#39;offres](catalogs.md)
+   Ces attributs sont stockés dans la variable **[!UICONTROL Offres]** schéma du catalogue. Les attributs personnalisés sont stockés dans la variable **`_<imsOrg`>** Attributs de dossier et standard dans **`_experience`** dossier. [En savoir plus sur le schéma du catalogue d&#39;offres](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

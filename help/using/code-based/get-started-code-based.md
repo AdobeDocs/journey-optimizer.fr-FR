@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -168,10 +168,10 @@ Le tableau ci-dessous répertorie quelques exemples de définition d’URI de su
 | Web | web://domain.com/*#element | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
 | Bureau | desktop://com.vendor.bundle | Représente une application de bureau spécifique. |
 | Bureau | desktop://com.vendor.bundle#element | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
-| Application iOS | ios://com.vendor.bundle | Représente une application mobile spécifique pour une seule plateforme, dans ce cas l’application iOS. |
-| Application iOS | ios://com.vendor.bundle/activity | Représente une activité spécifique (vue) dans une application mobile. |
-| Application iOS | ios://com.vendor.bundle/activity#element | Représente un élément spécifique dans une activité, tel qu’un bouton ou un autre élément de vue. |
-| Application Android | android://com.vendor.bundle | Représente une application mobile spécifique pour une seule plateforme, dans ce cas une application Android. |
+| Application iOS | mobileapp://com.vendor.bundle | Représente une application mobile spécifique pour une seule plateforme, dans ce cas l’application iOS. |
+| Application iOS | mobileapp://com.vendor.bundle/activity | Représente une activité spécifique (vue) dans une application mobile. |
+| Application iOS | mobileapp://com.vendor.bundle/activity#element | Représente un élément spécifique dans une activité, tel qu’un bouton ou un autre élément de vue. |
+| Application Android | mobileapp://com.vendor.bundle | Représente une application mobile spécifique pour une seule plateforme, dans ce cas une application Android. |
 | application tvOS | tvos://com.vendor.bundle | Représente une application tvOS spécifique. |
 | application TV | tvcd://com.vendor.bundle | Représente un identifiant de lot spécifique à l’application d’appareil connectée à la télévision ou à la télévision. |
 | Service | service://servicename | Représente un processus côté serveur ou une autre entité manuelle. |
