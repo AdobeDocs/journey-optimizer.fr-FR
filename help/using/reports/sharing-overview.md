@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '475'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ La liste des champs XDM transmis est complète. Certains contiennent des codes g
 
 >[!CAUTION]
 >
->Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que le bouton bascule **[!UICONTROL Profil]** est désactivé..
+>Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que la variable **[!UICONTROL Profil]** La bascule est désactivée.
 
 [!DNL Journey Optimizer] envoie les données au fur et à mesure, en flux continu. Vous pouvez appliquer des requêtes à ces données à l’aide du service Requêtes. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI pour visualiser les données concernant ces étapes.
 

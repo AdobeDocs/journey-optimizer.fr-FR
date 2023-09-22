@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 >[!NOTE]
 >
->Pour l’instant, la diffusion rapide n’est pas prise en charge pour les campagnes déclenchées par l’API de notification push.
+>Pour l’instant, le mode de diffusion Rapid n’est pas pris en charge pour les campagnes déclenchées par l’API de notification push.
 
 ## Créer une campagne déclenchée par API {#create}
 
