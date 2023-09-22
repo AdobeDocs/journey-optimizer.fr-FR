@@ -5,10 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 22%
+source-wordcount: '550'
+ht-degree: 24%
 
 ---
 
@@ -92,7 +92,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Alerte**
 
-* Deux nouveaux types d’alertes système ont été introduits. Vous pouvez désormais être averti lorsqu’une action personnalisée ou un segment de lecture échoue.
+* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une audience de lecture.
 
 **Canal web**
 
@@ -103,13 +103,20 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Les fonctionnalités de réponse d’action personnalisée sont désormais GA. Cela vous permet d’exploiter les réponses d’appel API dans des actions personnalisées et d’orchestrer votre parcours en fonction de ces réponses. En outre, une nouvelle barrière de sécurité a été ajoutée pour limiter toutes les actions douanières à 5 000 appels/s par point de terminaison.
+* La prise en charge des réponses d’action personnalisée est désormais GA. Cela vous permet d’exploiter les réponses d’appel API dans des actions personnalisées et d’orchestrer votre parcours en fonction de ces réponses. En outre, une nouvelle barrière de sécurité a été ajoutée pour limiter toutes les actions douanières à 5 000 appels/s par point de terminaison.
 * Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours.
-* La durée maximale que vous pouvez définir dans l’activité Attente est désormais de 29 jours au lieu de 30.
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **Canal e-mail**
 
 Une nouvelle option de configuration de la surface de l&#39;email permet de choisir d&#39;envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent dans la liste de suppression de Adobe Journey Optimizer.
+
+**Reporting**
+
+Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. [En savoir plus](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
