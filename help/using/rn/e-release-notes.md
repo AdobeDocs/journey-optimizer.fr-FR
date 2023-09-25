@@ -5,9 +5,9 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '586'
 ht-degree: 23%
 
 ---
@@ -96,7 +96,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal web**
 
-* Les applications d’une seule page (SPA) peuvent désormais être créées dans l’éditeur visuel du concepteur web. Vous pouvez maintenant sélectionner les vues spécifiques auxquelles vous souhaitez appliquer les modifications de vos pages web. Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse. Une configuration unique pour les développeurs est nécessaire pour définir les vues dans l’implémentation du SDK Web de Adobe Experience Platform. Cela permet aux marketeurs de créer et d’exécuter des campagnes Web Adobe Journey Optimizer sur SPA.
+* Les applications d’une seule page (SPA) peuvent désormais être créées dans l’éditeur visuel du concepteur web, ce qui vous permet de sélectionner les vues spécifiques auxquelles vous souhaitez appliquer les modifications de vos pages web. Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse. Pour créer et exécuter des campagnes web Adobe Journey Optimizer sur SPA, une configuration unique du développeur est nécessaire pour définir les vues dans l’implémentation du SDK web Adobe Experience Platform.
 
 * Lors de la modification d’une page à l’aide du concepteur web, vous pouvez désormais ajouter de nouvelles modifications à votre contenu directement à partir de la **Modifications** volet : sans avoir à sélectionner un composant et à le modifier dans l’interface de Designer.
 * Lors de la configuration de sous-domaines web, vous avez désormais la possibilité d’ajouter votre propre sous-domaine, en plus d’utiliser un sous-domaine déjà délégué à Adobe.

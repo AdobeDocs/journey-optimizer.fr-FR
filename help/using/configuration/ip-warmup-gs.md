@@ -7,13 +7,13 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, pools, groupes, sous-domaines, délivrabilité
+keywords: IP, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 26%
+source-wordcount: '295'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ Ce guide vous apportera la documentation suivante :
 * **[Prise en main du réchauffement des adresses IP](ip-warmup-gs.md)**
 * [Créer des campagnes de réchauffement des adresses IP](ip-warmup-campaign.md)
 * [Créer une formule de chauffage des adresses IP](ip-warmup-plan.md)
-* [Exécution de la formule de chauffage des adresses IP](ip-warmup-running.md)
+* [Exécution de la formule de chauffage par IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de
 
 Lorsque vous envoyez des emails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des emails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 
-Pour éviter que les emails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité de plan de réchauffement des adresses IP. Une nouvelle option de la fonction **[!UICONTROL Administration]** vous permet de le faire plus facilement au lieu de créer des parcours quotidiens complexes. Cela devrait garantir un développement fluide de la phase de démarrage et vous permettre de réduire le taux global d&#39;adresses invalides.
+Pour éviter que les emails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité de plan de réchauffement des adresses IP . Cette nouvelle option dans la variable **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes. Cela devrait garantir un développement fluide de la phase de démarrage et vous permettre de réduire le taux global d&#39;adresses invalides.
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 Les étapes clés de la mise en oeuvre d’un plan de chauffage par IP sont les suivantes :
 
-1. Vous devez d’abord créer une ou plusieurs campagnes pour lesquelles l’option de réchauffement des adresses IP est activée. [En savoir plus](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. Vous devez d’abord créer une ou plusieurs campagnes pour lesquelles l’option de réchauffement des adresses IP est activée. [En savoir plus](ip-warmup-campaign.md)
 
-1. Créez un plan de chauffage par IP et téléchargez votre plan. [En savoir plus](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Créer un plan de chauffage par IP dans [!DNL Journey Optimizer] et téléchargez la feuille Excel préparée avec l’aide de votre consultant en délivrabilité. [En savoir plus](ip-warmup-plan.md)
 
-1. Sélectionnez une opération pour chaque phase de votre plan et activez les exécutions correspondantes. [En savoir plus](ip-warmup-running.md)
+1. Sélectionnez une opération pour chaque phase de votre plan et activez les exécutions correspondantes. [En savoir plus](ip-warmup-execution.md)
