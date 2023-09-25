@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d92152d5b9ab01398c095adb8051ac51a3202973
+source-git-commit: e0564971b18932d311d44a31a0b3acafa467e809
 workflow-type: tm+mt
-source-wordcount: '3978'
+source-wordcount: '3976'
 ht-degree: 88%
 
 ---
@@ -124,7 +124,7 @@ deux nouveaux champs, **Message d’Opt-in** et **Message d’aide**, ont été 
 
 **Reporting**
 
-Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. [En savoir plus](../reports/global-report.md#export-reports)
+Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. <!--[Learn more](../reports/global-report.md#export-reports)-->
 
 <!--**Decision management**
 
