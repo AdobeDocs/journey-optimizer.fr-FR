@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0564971b18932d311d44a31a0b3acafa467e809
+source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
 workflow-type: tm+mt
-source-wordcount: '3976'
-ht-degree: 88%
+source-wordcount: '4024'
+ht-degree: 87%
 
 ---
 
@@ -30,6 +30,23 @@ Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement
 ### Nouvelles fonctionnalités{#sept-2023-features}
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
+
+<table>
+<thead>
+<tr>
+<th><strong>Attributs calculés</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les attributs calculés permettent de résumer facilement les données d’événement dans les attributs de profil par le biais d’une interface utilisateur intuitive pour une segmentation, une personnalisation et une activation optimisées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations de profil client en temps réel ou Journey Optimizer.<br/><br/>
+En outre, les attributs calculés simplifient la segmentation et les workflows de parcours pour vous aider à diffuser facilement des expériences pertinentes. En savoir plus dans la section <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentation détaillée</a>.</p>
+<img src="assets/computed-attributes.png">
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -92,7 +109,6 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Personnalisation**
 
 * Outre les fragments visuels, il est désormais possible de créer, enregistrer et réutiliser des fragments d’expression à partir de l’interface de Journey Optimizer via l’éditeur d’expression. Les fragments d’expression remplacent les expressions enregistrées précédemment.
-* Vous pouvez désormais utiliser des attributs calculés Adobe Experience Platform pour la personnalisation dans Journey Optimizer. Les attributs calculés sont des valeurs agrégées qui sont calculées selon les jeux de données d’événements d’expérience activés pour le profil ingérés dans Adobe Experience Platform.
 
 **Alerte**
 
