@@ -5,7 +5,7 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
+source-git-commit: 75a03fbd6a369d9b8f75db819cfa995257eaf77f
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 21%
@@ -85,8 +85,9 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Les attributs calculés permettent de résumer facilement les données d’événement dans les attributs de profil par le biais d’une interface utilisateur intuitive pour une segmentation, une personnalisation et une activation optimisées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations de profil client en temps réel ou Journey Optimizer. <br/>
+<p>Les attributs calculés permettent de résumer facilement les données d’événement dans les attributs de profil par le biais d’une interface utilisateur intuitive pour une segmentation, une personnalisation et une activation optimisées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations de profil client en temps réel ou Journey Optimizer.<br/><br/>
 En outre, les attributs calculés simplifient la segmentation et les workflows de parcours pour vous aider à diffuser facilement des expériences pertinentes. En savoir plus dans la section <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentation détaillée</a>.</p>
+<img src="assets/computed-attributes.png">
 </tr>
 </tbody>
 </table>
