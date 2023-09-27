@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
+source-git-commit: 57671f18d216209fb738fed34bc6b03051893b9f
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 55%
+source-wordcount: '246'
+ht-degree: 54%
 
 ---
 
@@ -52,7 +52,7 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `property` | Un filtre de propriété facultatif : <br> <ul> - Les propriétés sont regroupées par opération ET. <br><br> - Les paramètres peuvent être répétés comme suit : property=<property-expr>[&amp;property=<property-expr2>..] ou property=<property-expr1>[&amp;<property-expr2>..] <br><br> - Les expressions de propriété sont au format [!]field[op]value, avec op in [== !=,&lt;=,>=,&lt;,>~], prise en charge des expressions régulières | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération ET.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` in `[==,!=,<=,>=,<,>,~]`, prise en charge des expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitez le nombre d’entités renvoyées. | `limit=5` |
 
