@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
@@ -40,6 +40,8 @@ La personnalisation est basée sur les données de profil gérées par le schém
 
 >[!CAUTION]
 >Le schéma **Profil individuel XDM** est le seul que vous pouvez utiliser pour personnaliser le contenu dans [!DNL Journey Optimizer].
+
+En outre, vous pouvez également tirer parti des **attributs calculés** pour personnaliser votre contenu. Les attributs calculés sont basés sur des jeux de données d’événements d’expérience activés pour le profil ingérés dans Adobe Experience Platform et servent de points de données agrégés stockés dans les profils client qui résument les événements comportementaux individuels. [Découvrez comment utiliser des attributs calculés](../audience/computed-attributes.md)
 
 ## Ajouter la personnalisation dans différents contextes {#contexts}
 

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 100%
+source-wordcount: '2258'
+ht-degree: 87%
 
 ---
 
@@ -41,7 +41,7 @@ La configuration de surface d’e-mail est récupérée pour envoyer des communi
 >title="Définition de la catégorie d’e-mail"
 >abstract="Sélectionnez le type d’e-mails qui sera envoyé lors de l’utilisation de cette surface : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
-Dans la section **Type d’e-mail**, sélectionnez le type de message à envoyer grâce à la surface : **Marketing** ou **Transactionnel**.
+Dans la section **Type d’e-mail**, sélectionnez le type de message à envoyer grâce à la surface : **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**.
 
 * Choisissez **Marketing** pour les e-mails promotionnels, tels que les promotions hebdomadaires pour un magasin de vente au détail. Ces messages requièrent le consentement de l’utilisateur ou de l’utilisatrice.
 
@@ -182,6 +182,36 @@ En outre, lors de la définition de l’adresse **[!UICONTROL E-mail en Cci]**, 
 
 Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
+## Envoi à des adresses email supprimées {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="Remplacer la priorité de la liste de suppression"
+>abstract="Vous pouvez décider d’envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent sur la liste de suppression de Adobe Journey Optimizer en raison d’une plainte de spam. Par défaut, cette option est désactivée."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Gérer la liste de suppression"
+
+>[!IMPORTANT]
+>
+>Cette option n’est disponible que si vous avez sélectionné l’option **[!UICONTROL Transactionnel]** type d’email. [En savoir plus](#email-type)
+
+Dans [!DNL Journey Optimizer], toutes les adresses électroniques marquées comme hard bounces, soft bounces et spams sont automatiquement collectées dans la variable [liste de suppression](../configuration/manage-suppression-list.md) et exclus de l’envoi dans un parcours ou une campagne.
+
+Cependant, vous pouvez décider de poursuivre l’envoi des messages du **transactionnel** saisissez des profils même si leurs adresses email figurent sur la liste de suppression en raison d’une plainte de spam de l’utilisateur.
+
+En effet, les messages transactionnels contiennent généralement des informations utiles et attendues, telles qu’une confirmation de commande ou une notification de réinitialisation de mot de passe. Par conséquent, même s’ils ont signalé l’un de vos messages marketing comme spam, la plupart du temps, vous souhaitez que vos clients reçoivent ce type d’email non commercial.
+
+Pour inclure les adresses électroniques supprimées en raison d’une plainte de spam dans votre audience de message transactionnel, sélectionnez l’option correspondante dans la **[!UICONTROL Envoyer aux adresses email supprimées]** .
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>Par défaut, cette option est désactivée.
+
+Cette option est une bonne pratique en matière de délivrabilité. Elle est désactivée par défaut pour garantir que les clients qui se sont désinscrits ne sont pas contactés. Vous pouvez toutefois modifier cette option par défaut, qui vous permet ensuite d’envoyer des messages transactionnels à vos clients.
+
+Une fois cette option activée, bien qu’un client ait marqué votre email marketing comme indésirable, ce client pourra recevoir vos messages transactionnels à l’aide de la surface actuelle. Veillez toujours à gérer les préférences de désinscription conformément aux bonnes pratiques en matière de délivrabilité.
+
 ## Liste de contrôle {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela sign
 >title="Ajouter une liste de contrôle"
 >abstract="Sélectionnez la liste de contrôle de votre choix pour ajouter automatiquement des adresses internes spécifiques à vos audiences. Ces adresses de contrôle seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte du message à des fins de vérification."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=fr#use-seed-list" text="Que sont les listes de contrôle ?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=fr#create-seed-list" text="Créer des listes de contrôle"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Créer des listes de contrôle"
 
 
 Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure automatiquement des adresses de contrôle d’e-mail spécifiques dans vos diffusions. [En savoir plus](../configuration/seed-lists.md)

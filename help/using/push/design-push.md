@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 96%
 
 ---
 
@@ -62,17 +62,15 @@ Créez une notification exploitable en ajoutant des boutons à votre contenu pus
 
 Si l&#39;écran de l&#39;appareil est verrouillé, les boutons suivants ne s&#39;affichent pas : seuls le **Titre** et le **Message** de la notification sont visibles. Si leur appareil est déverrouillé, les destinataires verront les boutons.
 
-Dans la version iOS, vous pouvez ajouter jusquʼà quatre boutons. Dans la version Android, vous pouvez ajouter jusquʼà trois boutons.
+Dans la version Android, vous pouvez ajouter jusquʼà trois boutons.
 
->[!NOTE]
->
->Pour iOS, utilisez le champ **[!UICONTROL catégorie iOS]** pour associer les actions à une catégorie de notification.
+Dans la version iOS, un identifiant de catégorie de notification est spécifié. Les catégories de notifications doivent être préconfigurées dans l&#39;application iOS, qui définira les boutons à afficher et les actions à effectuer. Voir [Documentation Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) pour plus d’informations.
 
 1. Cliquez sur **[!UICONTROL Ajouter un bouton]** pour définir les paramètres : le libellé et lʼaction correspondante. Les actions possibles sont les mêmes que pour le [comportement en cas de clic](#on-click-behavior).
 
 1. Utilisez l’icone **[!UICONTROL Expansion de l’affichage]** sous l’image d’aperçu centrale pour prévisualiser vos boutons personnalisés.
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## Envoyer une notification silencieuse {#silent-notification}
 

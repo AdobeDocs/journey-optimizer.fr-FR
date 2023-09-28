@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, essentials, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 89%
 
 ---
 
@@ -44,6 +44,19 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 1. Sur la page d’accueil de [!DNL Adobe Journey Optimizer], sélectionnez l’onglet **[!UICONTROL Ressources]** dans le menu **[!UICONTROL Gestion de contenu]** pour accéder à [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. Sélectionnez le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel as a Cloud Service Assets, à condition que vous possédiez cette solution.
+
+   ![](assets/media_library_4.png)
+
++++
+Découvrez comment changer de référentiel d’Assets.
+
+   Pour modifier votre référentiel Assets, sélectionnez l’icône Compte dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Sélectionner un référentiel]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. Double-cliquez sur un dossier dans la section centrale ou dans l’arborescence pour l’ouvrir.
 

@@ -9,55 +9,99 @@ role: Admin
 level: Experienced
 badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
-source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
+exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 83%
 
 ---
 
-# Améliorations des actions personnalisées {#custom-action-enhancements}
+# Utiliser des réponses d’appel API dans des actions personnalisées {#custom-action-enhancements}
 
-Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
-
-Auparavant, cette fonctionnalité n’était disponible que lors de l’utilisation de sources de données. Vous pouvez désormais l’utiliser avec des actions personnalisées.
+Vous pouvez exploiter les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée sous forme de version Beta privée.
+>Cette fonctionnalité est actuellement disponible en version bêta.
 
->[!WARNING]
->
->Les actions personnalisées ne doivent être utilisées qu’avec des points d’entrée privés ou internes et avec une limitation ou un capping de la fréquence approprié. Consultez [cette page](../configuration/external-systems.md).
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-## Définir l’action personnalisée {#define-custom-action}
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
 
-Pour la définition de l’action personnalisée, deux améliorations ont été apportées : l’ajout de la méthode GET et le nouveau champ de réponse de payload. Les autres options et paramètres restent inchangés. Consultez [cette page](../action/about-custom-action-configuration.md).
+## Remarques importantes{#custom-action-enhancements-notes}
 
-### Configuration du point d’entrée {#endpoint-configuration}
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
 
-La section **Configuration de l’URL** a été renommée **Configuration du point d’entrée**.
+* Les tableaux scalaires sont pris en charge dans la payload de réponse :
 
-Dans le menu déroulant **Méthode**, vous pouvez maintenant sélectionner **GET**.
+  ```
+  "dummyScalarArray": [
+  "val1",
+  "val2"
+  ]
+  ```
+
+* Les tableaux hétérogènes ne sont pas pris en charge dans la payload de réponse :
+
+  ```
+  "dummyRandomArray": [
+  20,
+  "aafw",
+  false
+  ]
+  ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
+## Define the custom action {#define-custom-action}
+
+When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
+
+### Endpoint configuration {#endpoint-configuration}
+
+The **URL configuration** section has been renamed **Endpoint configuration**.
+
+In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
 ### Payloads {#payloads-new}
 
-La section **Paramètres d’action** a été renommée **Payloads**. Deux champs sont disponibles :
+The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
-* Le champ **Requête** : ce champ n&#39;est disponible que pour les méthodes d’appel POST et PUT.
-* Le champ **Réponse** : il s’agit de la nouvelle fonctionnalité. Ce champ est disponible pour toutes les méthodes d’appel.
+* The **Request** field: this field is only available for POST and PUT calling methods.
+* The **Response** field: this is the new capability. This field as available for all calling methods.
 
 >[!NOTE]
 > 
->Ces deux champs sont facultatifs.
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## Configurer l’action personnalisée {#config-response}
+
+1. Créez l’action personnalisée. Voir [cette page](../action/about-custom-action-configuration.md).
 
 1. Cliquez dans le champ **Réponse**.
 
-   ![](assets/action-response3.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%" align="left"}
 
 1. Collez un exemple de la payload renvoyée par l’appel. Vérifiez que les types de champ sont corrects (chaîne, entier, etc.). Voici un exemple de payload de réponse capturée lors de l’appel. Notre point d’entrée local envoie le nombre de points de fidélité et le statut d’un profil.
 
@@ -117,6 +161,12 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
 
    ![](assets/action-response11.png)
 
+## Journaux du mode test {#test-mode-logs}
+
+Vous pouvez accéder, via le mode test, aux journaux d’état liés aux réponses d’action personnalisée. Si vous avez défini des actions personnalisées avec des réponses dans votre parcours, une **actionsHistory** sur ces journaux affichant la charge utile renvoyée par le point de terminaison externe (en réponse à cette action personnalisée). Cela peut être très utile en termes de débogage.
+
+![](assets/action-response12.png)
+
 ## Statut de l’erreur {#error-status}
 
 Le champ **jo_status_code** est toujours disponible même lorsqu’aucune payload de réponse n’est définie.
@@ -158,4 +208,3 @@ Voici quelques exemples :
 ```
 
 Pour plus d’informations sur les références de champs, consultez [cette section](../building-journeys/expression/field-references.md).
-

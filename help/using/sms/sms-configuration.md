@@ -6,10 +6,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
+source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '951'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,10 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
       * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS.  [En savoir plus](https://developers.sinch.com/docs/sms/getting-started/).
+
+      * **[!UICONTROL Message d’inclusion]**: saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL Message d’inclusion]**.
+
+      * **[!UICONTROL Message d’aide]**: saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL Message d’aide]**.
 
    * Pour **[!DNL Twilio]** :
 

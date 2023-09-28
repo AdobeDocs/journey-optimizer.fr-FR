@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 100%
+source-wordcount: '1689'
+ht-degree: 98%
 
 ---
 
@@ -184,8 +184,8 @@ Pour ce faire, suivez les étapes ci-après :
 
    ![Duplication d’un parcours.](assets/duplicate-jo.png)
 
-<!--1. Enter the name of the journey and confirm. 
+1. Saisissez le nom du parcours et confirmez. Vous pouvez également modifier le nom dans l’écran des propriétés du parcours. Par défaut, le nom est défini comme suit : `[JOURNEY-NAME]_copy`
 
-    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+   ![](assets/duplicate-jo2.png)
 
 1. Le nouveau parcours est créé et disponible dans la liste des parcours.

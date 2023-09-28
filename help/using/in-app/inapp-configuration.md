@@ -1,42 +1,38 @@
 ---
-title: Configuration in-app
+title: Conditions préalables pour les canaux in-app
 description: Découvrez comment configurer votre environnement pour envoyer des messages in-app avec Journey Optimizer
 role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 68%
+source-wordcount: '727'
+ht-degree: 62%
 
 ---
 
-# Configurer le canal in-app {#inapp-configuration}
+# Conditions préalables pour les canaux in-app {#inapp-configuration}
 
-Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app dans [!DNL Adobe Experience Platform Data Collection].
+## Conditions préalables à la diffusion {#delivery-prerequisites}
 
-1. À partir de votre compte [!DNL Adobe Experience Platform Data Collection], accédez au menu **[!UICONTROL Train de données]** et cliquez sur **[!UICONTROL Nouveau train de données]**. Pour en savoir plus sur la création de train de données, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr).
+Pour que les messages In-App soient correctement diffusés, les paramètres suivants doivent être définis :
 
-1. Sélectionnez le service [!DNL Adobe Experience Platform].
+* Dans le [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous que le flux de données est défini comme sous **[!UICONTROL Adobe Experience Platform]** vous disposez du service Adobe Experience Platform Edge et **[!UICONTROL Adobe Journey Optimizer]** activée.
 
-   [!DNL Edge Segmentation] et [!DNL Adobe Journey Optimizer] doivent être sélectionnés.
+  Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target="_blank"}.
 
-   ![](assets/inapp_config_6.png)
+  ![](assets/inapp_config_6.png)
 
-   >[!NOTE]
-   >
-   >Pour activer les expériences de contenu pour le canal in-app, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans votre [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} in-app est également présent dans la configuration des rapports. Dans le cas contraire, les données in-app ne s’afficheront pas dans les rapports d’expérience de contenu. [Découvrez comment ajouter des jeux de données](../campaigns/reporting-configuration.md#add-datasets).
-   >
-   >Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’a aucune incidence sur la collecte ou l’ingestion de données.
+* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
 
-1. Accédez ensuite au menu **[!UICONTROL Surfaces in-app]** et cliquez sur **[!UICONTROL Créer la surface d’application]**.
+  Cette politique de fusion est utilisée par les canaux entrants [!DNL Journey Optimizer] pour activer et publier correctement les campagnes entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
-   >[!NOTE]
-   >
-   > Vous avez besoin de l’autorisation **Gérer la configuration de l’application** pour accéder au menu **[!UICONTROL Surfaces de l’application]**. Pour plus d’informations, regardez [cette vidéo](#video).
+  ![](assets/inapp_config_8.png)
 
-   ![](assets/inapp_config_1.png)
+## Conditions préalables pour la configuration des canaux {#channel-prerequisites}
+
+1. Accédez au **[!UICONTROL Surfaces de l’application]** et cliquez sur **[!UICONTROL Créer la surface de l’application]**.
 
 1. Ajoutez un nom à votre **[!UICONTROL Surface d’application]**.
 
@@ -106,13 +102,23 @@ Avant d’envoyer des messages in-app, vous devez configurer votre canal in-app 
 
 Le canal in-app est maintenant configuré. Vous pouvez commencer à envoyer des messages in-app à vos utilisateurs.
 
-**Rubriques connexes :**
+## Conditions préalables à l’expérience de contenu {#experiment-prerequisites}
 
-* [Créer un message in-app](create-in-app.md)
-* [Création d’une campagne](../campaigns/create-campaign.md)
-* [Concevoir un message in-app](design-in-app.md)
-* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
+Pour activer des expériences de contenu pour le canal In-App, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre implémentation In-App [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
 
+En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre train de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
+
+Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’affecte pas la collecte ni l’ingestion de données.
+
+Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"} prédéfinis suivants, assurez-vous d’ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` et `Web Details`. Ils participent à la création de rapports d’expérience de contenu de [!DNL Journey Optimizer], car ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
+
+>[!NOTE]
+>
+>L’ajout de ces groupes de champs n’a aucune incidence sur la collecte de données standard. Seules les pages où une expérience est en cours d’exécution sont concernées. Les autres éléments de suivi restent inchangés.
 
 ## Tutoriels vidéo{#video}
 
@@ -124,4 +130,10 @@ Le canal in-app est maintenant configuré. Vous pouvez commencer à envoyer des 
 
 +++
 
+**Rubriques connexes :**
+
+* [Créer un message in-app](create-in-app.md)
+* [Création d’une campagne](../campaigns/create-campaign.md)
+* [Concevoir un message in-app](design-in-app.md)
+* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
 

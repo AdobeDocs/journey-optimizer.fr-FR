@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: '1108'
+ht-degree: 80%
 
 ---
 
@@ -119,6 +119,24 @@ Ces informations sont stockées avec le profil de l&#39;utilisateur et sont réf
 >[!CAUTION]
 >
 >Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
+
+### Questions fréquentes {#faq-send-time}
+
+Que peut faire l’optimisation du temps d’envoi ? Comment gère-t-il les nouveaux profils ? Est-ce que l’envoi s’étend sur une fenêtre de 6/12/24 heure ?
+
+Send-Time Optimization tente de prévoir le meilleur moment pour interagir avec les clients et optimiser les taux d’ouverture/clic des emails. Le score est dans un format de `3*7*24` attributs pour chaque profil. La variable `7*24` Les attributs décrivent le classement du meilleur moment prédit pour envoyer des emails au destinataire. 3 est destiné à optimiser le taux d’ouverture des emails, le taux de clics des emails et le taux d’ouverture des notifications push.
+
+Où puis-je voir l’heure d’envoi attendue pour chaque profil ?
+
+Vous pouvez voir le score global dans la variable **Profils** . Pour chacun des trois ensembles de 168 scores, les grades vont de -83 à 84. Plus le rang est élevé, plus le temps d&#39;interaction avec le destinataire a été choisi. Puisque vous pouvez définir le début et la durée d’un parcours, le meilleur rang (84) peut ne pas tomber dans cette fenêtre temporelle. Dans ce cas, nous vous recommandons de choisir une heure avec la valeur de rang la plus élevée.
+
+Quels rapports sont disponibles ?
+
+Accédez à votre parcours, cliquez sur **Afficher le rapport** en haut à droite et sélectionnez l’option **Parcours** de gauche. [En savoir plus](../reports/journey-global-report.md)
+
+Comment les données d’optimisation du temps d’envoi affectent-elles la richesse des profils ?
+
+L’optimisation du temps d’envoi ajoute le score/les attributs à chaque profil, mais aucun nouveau profil n’est créé.
 
 ### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 

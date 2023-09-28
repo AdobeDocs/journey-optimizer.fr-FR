@@ -7,10 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 58223b4b6e6e2ef5b7fc23c5b475e74ad72d0d13
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Pour créer une audience répartie dans la composition de l’audience, procéde
 
 1. Dans Chemin 1 : choisissez un libellé qui vous aidera à définir l’audience non personnalisée.
 
-1. Sélectionnez la valeur appropriée dans la liste suivante : https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values
+1. Sélectionnez la valeur appropriée dans cette liste : https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
 
    Dans ce cas, nous utiliserons un « n » pour signifier NON comme désinscription de la personnalisation.
 

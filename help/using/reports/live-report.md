@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 74%
 
 ---
 
@@ -68,11 +68,15 @@ Votre tableau de bord est maintenant enregistré. Vos différentes modifications
 
 ## Exporter vos rapports {#export-reports}
 
-Vous pouvez facilement exporter vos différents rapports au format PDF, ce qui vous permet de les partager ou de les imprimer.
+Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager ou de les imprimer.
 
-1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]**.
+>[!BEGINTABS]
 
-   ![](assets/export_2.png)
+>[!TAB Exporter votre rapport sous la forme d’un fichier PDF]
+
+1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Fichier PDF]**.
+
+   ![](assets/export_6.png)
 
 1. Dans la fenêtre Imprimer, configurez votre document selon vos besoins. Notez que les options peuvent varier en fonction de votre navigateur.
 
@@ -81,3 +85,21 @@ Vous pouvez facilement exporter vos différents rapports au format PDF, ce qui v
 1. Localisez le dossier dans lequel vous souhaitez enregistrer votre fichier, renommez-le si nécessaire, puis cliquez sur Enregistrer.
 
 Votre rapport peut maintenant être affiché ou partagé dans un fichier PDF.
+
+>[!TAB Exportation de votre rapport au format CSV]
+
+1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL fichier CSV]** pour générer un fichier CSV au niveau du rapport global.
+
+   ![](assets/export_4.png)
+
+1. Vous pouvez également choisir d’exporter des données à partir d’un widget spécifique. Cliquez sur **[!UICONTROL Exportation des données de widget au format CSV]** en regard du widget sélectionné.
+
+   ![](assets/export_5.png)
+
+1. Votre fichier est automatiquement téléchargé et peut se trouver dans vos fichiers locaux.
+
+   Si vous avez généré le fichier au niveau du rapport, il contient des informations détaillées pour chaque widget, notamment son titre et ses données.
+
+   Si vous avez généré le fichier au niveau du widget, il fournit spécifiquement des données pour le widget sélectionné.
+
+>[!ENDTABS]

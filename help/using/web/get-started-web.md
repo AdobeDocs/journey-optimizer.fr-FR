@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -56,11 +56,11 @@ Découvrez les étapes détaillées pour créer une campagne web dans [cette vid
 <p>
 </td>
 <td>
-<a href="../reports/campaign-global-report.md#web-tab.md">
+<a href="monitor-web-campaigns.md">
 <img alt="Validation" src="../assets/do-not-localize/web-reporting.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#web-tab"><strong>Créer des rapports</strong></a>
+<a href="monitor-web-campaigns.md"><strong>Créer des rapports</strong></a>
 </div>
 <p>
 </td>

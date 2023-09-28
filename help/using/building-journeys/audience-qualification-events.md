@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -31,14 +31,17 @@ Supposons que vous ayez une audience « cliente ou cliente Silver ». Avec cet
 
 Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
 
->[!IMPORTANT]
->
->N’oubliez pas que les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lots**) ou en temps réel (audiences **en flux continu** à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
->
->Si l’audience sélectionnée est en flux continu, les personnes appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel. Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
->
->Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
+### Remarques importantes{#important-notes-segment-qualification}
 
+* N’oubliez pas que les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lots**) ou en temps réel (audiences **en flux continu** à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
+
+* Si l’audience sélectionnée est en flux continu, les personnes appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel. Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
+
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
+
+* Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut prendre jusqu’à 10 minutes pour être active et écouter les profils entrant ou sortant de l’audience.
+
+### Configurer l’activité{#cnfigure-segment-qualification}
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 

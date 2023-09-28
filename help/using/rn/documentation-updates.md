@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Septembre 2023 {#september-2023}
 
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 septembre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* Ajout d’une nouvelle page contenant les bonnes pratiques de mise à l’échelle et des conseils de mise en combinaison en temps réel - [En savoir plus](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* Une section Questions fréquentes a été ajoutée pour l’optimisation de l’heure d’envoi. [En savoir plus](../building-journeys/journeys-message.md#faq-send-time)
+* Une note a été ajoutée pour l’activité de qualification de l’audience. L’activation et l’écoute des profils entrant ou sortant de l’audience peuvent prendre jusqu’à 10 minutes. [En savoir plus](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Une liste des limites à connaître lors de la création de règles de décision a été ajoutée à la documentation de la gestion des décisions. [En savoir plus](../offers/offer-library/creating-decision-rules.md)
+* Mise à jour des liens vers la documentation sur le contrôle d’accès - [En savoir plus](../administration/permissions.md)
+* Les conditions préalables du canal in-app ont été mises à jour avec les détails de la collecte de données Adobe Experience Platform. [En savoir plus](../in-app/inapp-configuration.md)
+
+
+
 
 ## Août 2023 {#august-2023}
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
@@ -62,6 +62,8 @@ Voici la structure de base d’une configuration de point d’entrée :
 >Le paramètre **maxHttpConnections** est facultatif. Il vous permet de limiter le nombre de connexions que Journey Optimizer va ouvrir au système externe.
 >
 >La valeur maximale pouvant être définie est de 400. Si rien n’est spécifié, le système peut s’ouvrir à plusieurs milliers de connexions en fonction de l’échelle dynamique du système.
+>
+>Lorsque la configuration de limitation est déployée, si aucune valeur &#39;maxHttpConnection&#39; n’a été fournie, une valeur par défaut &quot;maxHttpConnection = -1&quot; est ajoutée dans la configuration déployée, ce qui signifie que Journey Optimizer utilisera la valeur système par défaut.
 
 ### Exemple :
 
@@ -73,14 +75,12 @@ Voici la structure de base d’une configuration de point d’entrée :
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 50,
       "rating": {
         "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
-  },
-  "orgId": "<IMS Org Id>"
+  }
 }
 ```
 

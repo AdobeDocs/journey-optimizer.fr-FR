@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 95%
+source-wordcount: '1114'
+ht-degree: 93%
 
 ---
 
@@ -166,6 +166,8 @@ Vous pouvez passer du mode **[!UICONTROL Conception]** par défaut au mode de **
 Dans le mode de **[!UICONTROL Navigation]**, vous pouvez accéder à la page exacte à partir de la surface sélectionnée à personnaliser.
 
 Il est particulièrement utile lorsque vous traitez des pages qui se trouvent derrière une authentification ou qui ne sont pas disponibles depuis le début à une certaine URL. Par exemple, vous serez en mesure de vous authentifier, d’accéder à la page de votre compte ou à la page de votre panier, puis de revenir au mode **[!UICONTROL Conception]** pour effectuer les modifications sur la page souhaitée.
+
+Utilisation **[!UICONTROL Parcourir]** vous permet également de parcourir toutes les vues de votre site web lors de la création d’applications d’une seule page. [En savoir plus](web-spa.md)
 
 ### Modifier la taille de l’appareil {#change-device-size}
 

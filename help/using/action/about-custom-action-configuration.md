@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1277'
+ht-degree: 78%
 
 ---
 
@@ -34,6 +34,16 @@ Les actions personnalisées sont assorties de quelques limites répertoriées da
 Dans les paramètres d’action personnalisés, vous pouvez transmettre une collection simple, ainsi qu’une collection d’objets. En savoir plus au sujet de ces limites de collection sur [cette page](../building-journeys/collections.md#limitations).
 
 Notez également qu’un format spécifique est attendu pour les paramètres d’action personnalisés (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence. En savoir plus sur ce [cas d’utilisation](../building-journeys/collections.md).
+
+## Bonnes pratiques{#custom-action-enhancements-best-practices}
+
+Une limite de limitation de 5 000 appels/s est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation des clients, afin de protéger les points de terminaison externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limite de limitation ou de ralentissement plus élevée via nos API de limitation/limitation. Consultez [cette page](../configuration/external-systems.md).
+
+Vous ne devez pas cibler les points de terminaison publics avec des actions personnalisées pour diverses raisons :
+
+* Sans limitation ou limitation appropriée, il existe un risque d’envoyer trop d’appels à un point de terminaison public qui ne prend pas en charge un tel volume.
+* Les données de profil peuvent être envoyées par le biais d’actions personnalisées, de sorte que le ciblage d’un point de terminaison public peut entraîner le partage accidentel d’informations personnelles en externe.
+* Vous n’avez aucun contrôle sur les données renvoyées par les points de terminaison publics. Si un point de terminaison modifie son API ou commence à envoyer des informations incorrectes, celles-ci seront rendues disponibles dans les communications envoyées, avec des impacts négatifs potentiels.
 
 ## Consentement et gouvernance des données {#privacy}
 
@@ -70,11 +80,11 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
    >
    >Lorsqu&#39;une action personnalisée est utilisée dans un parcours, la plupart des paramètres sont en lecture seule. Vous ne pouvez modifier que les champs **[!UICONTROL Nom]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** et la section **[!UICONTROL Authentification.]**
 
-## Configurer des URL {#url-configuration}
+## Configuration du point d’entrée {#url-configuration}
 
-Lors de la configuration d&#39;une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration d&#39;URL]** suivants :
+Lors de la configuration d’une action personnalisée, vous devez définir ce qui suit : **[!UICONTROL Configuration du point d’entrée]** parameters:
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. Dans le champ **[!UICONTROL URL]**, spécifiez l&#39;URL du service externe :
 
@@ -92,7 +102,7 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
    >
    >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
-1. Sélectionnez la **[!UICONTROL Méthode]** d&#39;appel : il peut s&#39;agir de **[!UICONTROL POST]** ou de **[!UICONTROL PUT]**.
+1. Sélectionner l’appel **[!UICONTROL Méthode]**: il peut être **[!UICONTROL POST]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ Lors de la configuration d&#39;une action personnalisée, vous devez définir le
    >
    >Les en-têtes sont validés conformément à des règles d’analyse. En savoir plus dans [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Définition des paramètres d’action {#define-the-message-parameters}
+## Définition des paramètres de payload {#define-the-message-parameters}
 
-Dans la section **[!UICONTROL Paramètres d&#39;action]**, collez un exemple de payload JSON à envoyer au service externe.
+1. Dans le **[!UICONTROL Requête]** collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d&#39;appel POST et PUT.
 
-![](assets/messageparameterssection.png)
+1. Dans le **[!UICONTROL Réponse]** , collez un exemple de la payload renvoyée par l’appel . Ce champ est facultatif et disponible pour toutes les méthodes d&#39;appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à la section [cette page](../action/action-response.md).
+
+>[!NOTE]
+>
+>La fonctionnalité de réponse est actuellement disponible en version bêta.
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >
