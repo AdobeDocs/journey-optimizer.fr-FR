@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 74%
@@ -77,20 +77,6 @@ Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, c
 
 >[!BEGINTABS]
 
->[!TAB Exporter votre rapport sous la forme d’un fichier PDF]
-
-1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Fichier PDF]**.
-
-   ![](assets/export_2.png)
-
-1. Dans la fenêtre Imprimer, configurez votre document selon vos besoins. Notez que les options peuvent varier en fonction de votre navigateur.
-
-1. Choisissez d’imprimer ou d’enregistrer votre rapport en tant que PDF.
-
-1. Localisez le dossier dans lequel vous souhaitez enregistrer votre fichier, renommez-le si nécessaire, puis cliquez sur Enregistrer.
-
-Votre rapport peut maintenant être affiché ou partagé dans un fichier PDF.
-
 >[!TAB Exportation de votre rapport au format CSV]
 
 1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL fichier CSV]** pour générer un fichier CSV au niveau du rapport global.
@@ -106,5 +92,21 @@ Votre rapport peut maintenant être affiché ou partagé dans un fichier PDF.
    Si vous avez généré le fichier au niveau du rapport, il contient des informations détaillées pour chaque widget, notamment son titre et ses données.
 
    Si vous avez généré le fichier au niveau du widget, il fournit spécifiquement des données pour le widget sélectionné.
+
+>[!TAB Exporter votre rapport sous la forme d’un fichier PDF]
+
+1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Fichier PDF]**.
+
+   ![](assets/export_2.png)
+
+1. Dans la fenêtre Imprimer, configurez votre document selon vos besoins. Notez que les options peuvent varier en fonction de votre navigateur.
+
+1. Choisissez d’imprimer ou d’enregistrer votre rapport en tant que PDF.
+
+1. Localisez le dossier dans lequel vous souhaitez enregistrer votre fichier, renommez-le si nécessaire, puis cliquez sur Enregistrer.
+
+Votre rapport peut maintenant être affiché ou partagé dans un fichier PDF.
+
+
 
 >[!ENDTABS]
