@@ -6,9 +6,9 @@ description: Découvrez comment utiliser des attributs calculés.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: d2619b3b3871073b35faf04adba71dbb1ddd29a1
+source-git-commit: 608394da88d42095a1adc517a067c725eac52707
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '546'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Chaque attribut calculé est un attribut de profil que vous pouvez exploiter pou
 
 Pour créer des attributs calculés, accédez au **[!UICONTROL Attributs calculés]** dans le **[!UICONTROL Profils]** situé sur le côté gauche.
 
-Dans cet écran, vous pouvez créer des attributs calculés en créant des règles qui combinent des attributs d’événement, des fonctions agrégées, au cours d’une période de recherche en amont spécifiée. Par exemple, vous pouvez calculer la somme des achats effectués au cours des trois derniers mois, identifier l’article le plus récent consulté par un profil qui n’a pas effectué d’achat au cours de la dernière semaine ou calculer le total des points de récompense cumulés par chaque profil.
+Dans cet écran, vous pouvez créer des attributs calculés en créant des règles qui combinent des attributs d’événement, des fonctions d’agrégat, au cours d’une période de recherche en amont spécifiée. Par exemple, vous pouvez calculer la somme des achats effectués au cours des trois derniers mois, identifier l’article le plus récent consulté par un profil qui n’a effectué aucun achat au cours de la dernière semaine ou calculer le total des points de récompense cumulés par chaque profil.
 
 ![](assets/computed-attributes.png)
 
