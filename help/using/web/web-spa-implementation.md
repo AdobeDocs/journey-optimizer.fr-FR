@@ -4,17 +4,15 @@ description: Découvrez comment mettre en oeuvre SPA vues dans Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+level: Intermediate
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '830'
 ht-degree: 3%
 
 ---
 
-# Implémentation d’applications d’une seule page {#web-spa-implementation}
+# Mise en oeuvre d’applications d’une seule page (SPA) {#web-spa-implementation}
 
 Le SDK Web de Adobe Experience Platform offre des fonctionnalités riches qui permettent à votre entreprise d’exécuter la personnalisation sur les technologies côté client de nouvelle génération, telles que les applications d’une seule page (SPA).
 
@@ -24,7 +22,7 @@ Les applications web modernes, telles que les applications d’une seule page (S
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## Avantages du SDK Web AEP pour SPA
+## Avantages du SDK Web Adobe Experience Platform pour SPA {#web-spa-benefits}
 
 Voici quelques avantages de l’utilisation du SDK Web Adobe Experience Platform pour vos applications d’une seule page :
 
@@ -32,7 +30,7 @@ Voici quelques avantages de l’utilisation du SDK Web Adobe Experience Platform
 * Améliorez considérablement l’expérience utilisateur de votre site, car les offres sont immédiatement affichées via le cache sans délai intégré aux appels serveur traditionnels.
 * La configuration unique des développeurs permet aux marketeurs de créer et d’exécuter des activités de personnalisation et d’expérimentation via l’éditeur visuel web Adobe Journey Optimizer sur votre SPA.
 
-## Vues XDM et applications d’une seule page
+## Vues XDM et applications d’une seule page {#web-spa-xdm}
 
 L&#39;Adobe **[!UICONTROL Journey Optimizer]** l’éditeur web tire parti d’un concept appelé vues : un groupe logique d’éléments visuels qui, ensemble, constituent une expérience SPA. Une application d’une seule page peut donc être considérée comme une transition entre les vues, au lieu des URL, selon les interactions de l’utilisateur. Une vue peut généralement représenter un site entier, une seule page ou des éléments visuels regroupés dans une page.
 
@@ -91,7 +89,7 @@ Pour effectuer une configuration de développeur unique, procédez comme suit :
 
 Cette section présente deux exemples d’appel de la méthode `sendEvent()` dans React pour une SPA de commerce électronique hypothétique.
 
-### Exemple 1 : page d’accueil du test A/B
+### Exemple 1 : page d’accueil du test A/B {#web-spa-sample-1}
 
 L’équipe marketing souhaite exécuter des tests A/B sur l’ensemble de la page d’accueil.
 
@@ -136,7 +134,7 @@ history.listen(onViewChange);
 <Router history={hashHistory} onUpdate={onViewChange} >
 ```
 
-### Exemple 2 : produits personnalisés
+### Exemple 2 : produits personnalisés {#web-spa-sample-2}
 
 L’équipe marketing souhaite personnaliser la deuxième ligne de produits en définissant la couleur du libellé du prix sur rouge après qu’un utilisateur ait cliqué pour afficher tous les produits Men.
 
