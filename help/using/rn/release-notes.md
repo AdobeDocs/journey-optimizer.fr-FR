@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4069'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -21,11 +21,8 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Notes de mise à jour initiales de septembre 2023 {#sept-rn-2023}
 
-Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les écrans et la documentation mise à jour sont publiés à la date de publication.
-
-**Date de publication**: 26-27 septembre 2023
+## Notes de mise à jour de septembre 2023 {#sept-rn-2023}
 
 ### Nouvelles fonctionnalités{#sept-2023-features}
 
@@ -41,8 +38,8 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tr>
 <td>
 <p>Les attributs calculés permettent de résumer facilement les données d’événement dans les attributs de profil par le biais d’une interface utilisateur intuitive pour une segmentation, une personnalisation et une activation optimisées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations de profil client en temps réel ou Journey Optimizer.<br/><br/>
-En outre, les attributs calculés simplifient la segmentation et les workflows de parcours pour vous aider à diffuser facilement des expériences pertinentes. En savoir plus dans la section <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentation détaillée</a>.</p>
-<img src="assets/computed-attributes.png">
+En outre, les attributs calculés simplifient la segmentation et les workflows de parcours pour vous aider à diffuser facilement des expériences pertinentes. En savoir plus dans la section <a href="../audience/computed-attributes.md">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>
@@ -57,9 +54,10 @@ En outre, les attributs calculés simplifient la segmentation et les workflows d
 <tbody>
 <tr>
 <td>
-<p>La fonction Rapport Canal offre aux analystes et aux spécialistes du marketing un aperçu complet des mesures de trafic et d’engagement au niveau du canal. Pour accéder au menu "Rapport", vous devez disposer de l’autorisation "Afficher les rapports Canal".</p>
+<p>La fonction Rapport Canal offre aux analystes et aux spécialistes du marketing un aperçu complet des mesures de trafic et d’engagement au niveau du canal.</p>
+<p>Pour accéder au <b>Rapport</b> , vous devez disposer de la variable <b>Affichage des rapports Canal</b> autorisation.</p>
 <img src="assets/channel-reports.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, voir la section <a href="../reports/channel-report.md">documentation détaillée</a>, et &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
 </tr>
 </tbody>
 </table>
@@ -76,7 +74,7 @@ En outre, les attributs calculés simplifient la segmentation et les workflows d
 <td>
 <p>L’exportation des jeux de données Journey Optimizer vers des destinations de stockage dans le cloud est désormais disponible en général. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données.</p>
 <img src="../data/assets/dataset-export-setup.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../data/export-datasets.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,50 +99,52 @@ En outre, les attributs calculés simplifient la segmentation et les workflows d
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-<!--**Audiences**
+<!--**Personalization**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-**Personnalisation**
+<!--
+**Alerting**
 
-* Outre les fragments visuels, il est désormais possible de créer, enregistrer et réutiliser des fragments d’expression à partir de l’interface de Journey Optimizer via l’éditeur d’expression. Les fragments d’expression remplacent les expressions enregistrées précédemment.
-
-**Alerte**
-
-* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une audience de lecture.
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
 
 **Canal web**
 
-* Les applications d’une seule page (SPA) peuvent désormais être créées dans l’éditeur visuel web. Vous pouvez maintenant sélectionner les vues spécifiques auxquelles vous souhaitez appliquer les modifications de vos pages web. Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse. Une configuration unique pour les développeurs est nécessaire pour définir les vues dans l’implémentation du SDK Web de Adobe Experience Platform. Cela permet aux marketeurs de créer et d’exécuter des campagnes Web Adobe Journey Optimizer sur SPA.
+* Les applications d’une seule page (SPA) peuvent désormais être créées dans l’éditeur visuel web, ce qui vous permet de sélectionner les vues spécifiques auxquelles vous souhaitez appliquer les modifications de vos pages web. Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse. Une configuration unique pour les développeurs est nécessaire pour définir les vues dans l’implémentation du SDK Web de Adobe Experience Platform. Cela permet aux marketeurs de créer et d’exécuter des campagnes Web Adobe Journey Optimizer sur SPA. [En savoir plus](../web/web-spa.md)
 
-* Lors de la modification d’une page à l’aide du concepteur web, vous pouvez désormais ajouter de nouvelles modifications à votre contenu directement à partir du volet Modifications , sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur.
-* Lors de la configuration de sous-domaines web, vous avez désormais la possibilité d’ajouter votre propre sous-domaine, en plus d’utiliser un sous-domaine déjà délégué à Adobe.
+* Lors de la modification d’une page à l’aide du concepteur web, vous pouvez désormais ajouter de nouvelles modifications à votre contenu directement à partir du volet Modifications , sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur. [En savoir plus](../web/manage-web-modifications.md#add-modifications)
+
+* Lors de la configuration de sous-domaines web, vous avez désormais la possibilité d’ajouter votre propre sous-domaine, en plus d’utiliser un sous-domaine déjà délégué à Adobe. [En savoir plus](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **Parcours**
 
-* La prise en charge des réponses d’action personnalisée est désormais GA. Cela vous permet d’exploiter les réponses d’appel API dans des actions personnalisées et d’orchestrer votre parcours en fonction de ces réponses. En outre, une nouvelle barrière de sécurité a été ajoutée pour limiter toutes les actions douanières à 5 000 appels/s par point de terminaison.
-* Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours.
+Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#uplicate-a-journey)
+
 
 <!--
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **Canal e-mail**
 
-Une nouvelle option de configuration de la surface de l&#39;email permet de choisir d&#39;envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent dans la liste de suppression de Adobe Journey Optimizer.
+Une nouvelle option de configuration de la surface de l&#39;email permet de choisir d&#39;envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent sur l&#39;Adobe. [!DNL Journey Optimizer] liste de suppression. [En savoir plus](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canal SMS**
 
-deux nouveaux champs, **Message d’Opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch.
+deux nouveaux champs, **Message d’Opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../sms/sms-configuration.md)
 
 **Canal de publipostage direct**
 
-Vous avez désormais la possibilité de chiffrer les fichiers destinés à vos opérateurs de services postaux lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement.
+Vous avez désormais la possibilité de chiffrer les fichiers destinés à vos opérateurs de services postaux lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement. [En savoir plus](../direct-mail/direct-mail-configuration.md).
 
-**Reporting**
+**Créer des rapports**
 
-Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. <!--[Learn more](../reports/global-report.md#export-reports)-->
+Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. [En savoir plus](../reports/global-report.md#export-reports)
+
+**Assets**
+
+Une nouvelle option pour Assets vous permet de choisir le référentiel pour vos Ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel as a Cloud Service Assets, à condition que vous possédiez cette solution. [En savoir plus](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
