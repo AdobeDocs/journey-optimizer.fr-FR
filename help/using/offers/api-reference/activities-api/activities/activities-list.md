@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: b1dc5aba32e3b736d837563f384a320bb3382b4f
+source-git-commit: c00a93d223cf71ce616fa7f68c4fffc11b5dbf4e
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 41%
 
 ---
@@ -51,9 +51,10 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `property` | Un filtre de propriété facultatif : <ul><li> Les propriétés sont regroupées par opération ET. <br><br> - Les paramètres peuvent être répétés comme suit : property=`<property-expr>`[&amp;property=`<property-expr2>`..] ou property=`<property-expr1>`[&amp;`<property-expr2>`..] <br><br> - Les expressions de propriété sont au format [!]field[op]value, avec op in [== !=,&lt;=,>=,&lt;,>~], prise en charge des expressions régulières </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtre de propriété facultatif : <ul><li> Les propriétés sont regroupées par opération ET. <br><br> - Les paramètres peuvent être répétés comme suit : property=`<property-expr>`[&amp;property=`<property-expr2>`..] ou property=`<property-expr1>`[&amp;`<property-expr2>`..] <br><br> - Les expressions de propriété sont au format `[!]field[op]` value, avec op in `[==,!=,'<=',>=,<,>,~]`, prise en charge des expressions régulières  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitez le nombre d’entités renvoyées. | `limit=5` |
+
 
 **Réponse**
 
