@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4010'
 ht-degree: 87%
 
 ---
@@ -57,7 +57,7 @@ En outre, les attributs calculés simplifient la segmentation et les workflows d
 <p>La fonction Rapport Canal offre aux analystes et aux spécialistes du marketing un aperçu complet des mesures de trafic et d’engagement au niveau du canal.</p>
 <p>Pour accéder au <b>Rapport</b> , vous devez disposer de la variable <b>Affichage des rapports Canal</b> autorisation.</p>
 <img src="assets/channel-reports.png"/>
-<p>Pour plus d’informations, voir la section <a href="../reports/channel-report.md">documentation détaillée</a>, et &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
+<p>Pour plus d’informations, voir la section <a href="../reports/channel-report.md">documentation détaillée</a>, et <a href="../reports/channel-report.md#how-to-video-channel-report-video">vidéo pratique</a>.</p>
 </tr>
 </tbody>
 </table>

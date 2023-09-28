@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 08f24547237c01c581248d675c55c834c261b173
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 48%
+source-wordcount: '988'
+ht-degree: 47%
 
 ---
 
@@ -26,9 +26,6 @@ Vous pouvez exporter des jeux de données vers 6 destinations d’espace de sto
 
 ![](assets/dataset-export-setup.png)
 
->[!AVAILABILITY]
->
->Ces destinations sont toutes disponibles en version bêta et peuvent faire l’objet de modifications.
 
 Des informations détaillées sur chaque destination sont disponibles dans la documentation Adobe Experience Platform :
 
