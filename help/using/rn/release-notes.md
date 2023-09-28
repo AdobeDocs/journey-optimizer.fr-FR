@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '4010'
+source-wordcount: '4018'
 ht-degree: 87%
 
 ---
@@ -140,7 +140,7 @@ Vous avez désormais la possibilité de chiffrer les fichiers destinés à vos o
 
 **Créer des rapports**
 
-Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. [En savoir plus](../reports/global-report.md#export-reports)
+Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. En savoir plus dans la section [documentation détaillée](../reports/global-report.md#export-reports) et la variable [vidéo pratique](../reports/global-report.md#video-csv).
 
 **Assets**
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 74%
+source-wordcount: '569'
+ht-degree: 70%
 
 ---
 
@@ -73,7 +73,10 @@ Votre tableau de bord est maintenant enregistré. Vos différentes modifications
 
 ## Exporter vos rapports {#export-reports}
 
-Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager ou de les imprimer.
+Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager ou de les imprimer. Les étapes d&#39;export des rapports sont présentées dans les onglets ci-dessous.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ Votre rapport peut maintenant être affiché ou partagé dans un fichier PDF.
 
 
 >[!ENDTABS]
+
+
+### Exporter des rapports (vidéo) {#video-csv}
+
+Découvrez comment télécharger un rapport CSV pour un rapport et un widget unique dans la vidéo pratique suivante.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+
