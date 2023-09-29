@@ -11,9 +11,9 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -47,6 +47,11 @@ Chaque phase est composée de plusieurs exécutions auxquelles vous affectez une
 >title="Exclure des groupes de domaines"
 >abstract="Sélectionnez les domaines que vous souhaitez exclure de la phase actuelle. L’exclusion de domaine requiert une phase non exécutée, vous devrez peut-être donc diviser une phase d’exécution pour ajouter des exclusions."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Fractionner une phase"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="Définition des phases de votre plan"
+>abstract="Chaque phase est composée de plusieurs exécutions auxquelles vous affectez une seule campagne."
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >Si vous supprimez toutes les phases du plan de chauffage par IP, il est recommandé de charger à nouveau un plan. [En savoir plus](#re-upload-plan)
 
 ## Définition des exécutions {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="Définir chaque exécution"
+>abstract="Définissez et activez chaque exécution pour toutes les phases."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="Filtrer sur l&#39;engagement"
+>abstract="Cette colonne est un filtre qui cible uniquement les utilisateurs engagés avec votre marque au cours des 20 derniers jours, par exemple. Vous pouvez également modifier ce paramètre à l’aide de l’option **Modifier l’exécution** ."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="Définition d’une fenêtre temporelle"
+>abstract="Vous pouvez définir une période pendant laquelle la campagne de chaleur IP peut être exécutée en cas de retard dans la tâche de segmentation."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="Annulation des exécutions avec des erreurs d’audience"
+>abstract="Sélectionnez cette option pour annuler une exécution si les profils qualifiés sont inférieurs aux profils ciblés une fois l’audience évaluée pour cette exécution."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="Affichage des profils qualifiés"
+>abstract="Cette colonne affiche le nombre de profils qualifiés. Une fois que l’audience a été évaluée pour une exécution, s’il existe plus de profils ciblés que de profils qualifiés, l’exécution est toujours exécutée, sauf si la variable **Pause pour les erreurs** est activée. Dans ce cas, l’exécution est annulée."
 
 1. Sélectionnez un planning pour chaque exécution.
 

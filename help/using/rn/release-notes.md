@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ Une nouvelle option de configuration de la surface de l&#39;email permet de choi
 
 **Canal SMS**
 
-deux nouveaux champs, **Message d’Opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../sms/sms-configuration.md)
+* deux nouveaux champs, **Message d’Opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../sms/sms-configuration.md#create-api)
+
+* L’exclusion des SMS n’est plus gérée au niveau du canal. Il est maintenant spécifique au nombre, ce qui signifie que si certains profils se désinscrivent d&#39;un numéro ou d&#39;un numéro court donné, vous pouvez toujours leur envoyer des messages à partir d&#39;autres numéros que vous utilisez pour envoyer des SMS. Une nouvelle option vous permet de sélectionner la variable **Numéro d’opt-out** vous voulez utiliser pour une surface donnée. [En savoir plus](../sms/sms-configuration.md#message-preset-sms)
 
 **Canal de publipostage direct**
 
