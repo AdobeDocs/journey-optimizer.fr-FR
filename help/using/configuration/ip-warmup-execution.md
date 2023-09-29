@@ -11,9 +11,9 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
+source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1503'
 ht-degree: 1%
 
 ---
@@ -122,23 +122,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
-1. Sélectionnez la variable **[!UICONTROL Pause pour les erreurs]** si vous souhaitez suspendre les exécutions en cas d’erreur.<!--can't see the Paused status for runs? Is it failed?-->
+1. Sélectionnez la variable **[!UICONTROL Pause pour les erreurs]** pour annuler une exécution si les profils qualifiés sont inférieurs aux profils ciblés une fois l’audience évaluée pour cette exécution.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   Par exemple, une fois la tâche de segmentation exécutée, si le nombre de profils ciblés est inférieur à ce qui était prévu, l’exécution est annulée.
-
-1. **[!UICONTROL Activer]** la course. Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécution de la tâche de segmentation.
-
-   ![](assets/ip-warmup-plan-activate.png)
-
-   >[!CAUTION]
-   >
-   >Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle. Sinon, la segmentation risque de ne pas être terminée. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
-
-   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
-
-   <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+1. **[!UICONTROL Activer]** la course. [En savoir plus](#activate-run)
 
 1. L’état de cette exécution passe à **[!UICONTROL En direct]**. Les différents états d’exécution sont répertoriés dans la section [cette section](#monitor-plan). Si l&#39;exécution de la campagne n&#39;a pas démarré, vous pouvez arrêter une exécution en direct.<!--why?-->
 
@@ -152,6 +140,37 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
+## Activation d’une exécution {#activate-run}
+
+Pour activer une exécution, sélectionnez la variable **[!UICONTROL Activer]** bouton .
+
+Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécution de la tâche de segmentation.
+
+![](assets/ip-warmup-plan-activate.png)
+
+>[!CAUTION]
+>
+>Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle. Sinon, la segmentation risque de ne pas être terminée.
+
+Lorsque vous activez une exécution, plusieurs segments sont automatiquement créés :
+
+* Si vous activez la première exécution d’une phase :
+
+   * Un segment est créé pour les audiences de campagne exclues (le cas échéant).
+   * Un autre segment est créé pour les groupes de domaines exclus (le cas échéant).
+
+* Lors de l’activation d’une exécution :
+
+   * Un autre segment est créé pour le dernier filtre d’engagement.
+   * Une composition d&#39;audience est créée correspondant à l&#39;audience à laquelle la campagne sera envoyée.
+
+<!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
+
+<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+
+<!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+
+
 ## Gérer votre formule {#manage-plan}
 
 À tout moment, si votre plan de réchauffement des adresses IP ne fonctionne pas comme prévu, vous pouvez prendre les mesures ci-dessous.
@@ -164,7 +183,7 @@ Si vous souhaitez ajouter une nouvelle phase à partir d’une exécution spéci
 
 Une nouvelle phase est créée pour les exécutions restantes de la phase en cours.
 
-Par exemple, si vous sélectionnez cette option pour Exécuter #4, Exécuter #4 sur #8 sera déplacé vers une nouvelle phase.
+Par exemple, si vous sélectionnez cette option pour Exécuter #4, Exécuter #4 sur #8 sera déplacé vers une nouvelle phase juste après la phase actuelle.
 
 Suivez les étapes [above](#define-phases) pour définir la nouvelle phase.
 
@@ -196,13 +215,23 @@ Si votre plan de réchauffement des adresses IP ne fonctionne pas comme prévu (
 
 ![](assets/ip-warmup-re-upload-plan.png)
 
-Toutes les exécutions exécutées précédemment seront marquées comme étant terminées. Le nouveau plan est affiché sous le premier plan.
+Toutes les exécutions précédemment exécutées seront en lecture seule. Le nouveau plan est affiché sous le premier plan.
 
 Suivez les étapes [above](#define-phases) définir les phases du nouveau plan.
 
 >[!NOTE]
 >
->Les détails du plan de chaleur de l’adresse IP changeront en fonction du fichier qui vient d’être chargé. Les exécutions en direct et terminées ne sont pas affectées.
+>Les détails du plan de chaleur de l’adresse IP changeront en fonction du fichier qui vient d’être chargé. Les exécutions exécutées précédemment (quelle que soit leur [status](#monitor-plan)) ne sont pas affectés.
+
+Prenons un exemple:
+
+* Avec le plan initial de chauffage des adresses IP, la phase 2 comportait 9 exécutions.
+
+* 4 exécutions ont été exécutées (peu importe si l’exécution a échoué, terminée ou annulée ; tant qu’une exécution a été tentée, il s’agit d’une exécution exécutée).
+
+* Si vous téléchargez à nouveau un plan, la phase 2 avec les 4 premières exécutions passe en mode lecture seule.
+
+* Les 5 exécutions restantes (qui sont en état de brouillon) sont déplacées vers une nouvelle phase (Phase 3) qui s’affiche conformément au plan nouvellement chargé.
 
 ## Surveiller le plan {#monitor-plan}
 
@@ -216,6 +245,6 @@ Une exécution peut avoir les états suivants :
 
 * **[!UICONTROL Version préliminaire]** : à chaque fois qu’une exécution est créée, au choix, lorsque [création d’un plan](ip-warmup-plan.md) ou [ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, la variable **[!UICONTROL Version préliminaire]** statut.
 * **[!UICONTROL En direct]**: chaque fois que vous activez une exécution, la fonction prend la valeur **[!UICONTROL En direct]** statut.
-* **[!UICONTROL Terminé]**<!--TBC-->: l’exécution de la campagne pour cette exécution est terminée. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Terminé]**: l’exécution de la campagne pour cette exécution est terminée. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
 * **[!UICONTROL Annulé]**: a **[!UICONTROL En direct]** L’exécution a été annulée à l’aide de la fonction **[!UICONTROL Arrêter]** bouton . Ce bouton n&#39;est disponible que si l&#39;exécution de la campagne n&#39;a pas démarré. [En savoir plus](#define-runs)
-* **[!UICONTROL En échec]**: une erreur s&#39;est produite par le système ou la campagne utilisée pour la phase en cours a été arrêtée<!--what should the user do in that case?-->.
+* **[!UICONTROL En échec]**: une erreur s&#39;est produite par le système ou la campagne utilisée pour la phase en cours a été arrêtée. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.
