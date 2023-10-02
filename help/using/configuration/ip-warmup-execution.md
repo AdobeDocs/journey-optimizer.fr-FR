@@ -11,10 +11,10 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 1%
+source-wordcount: '1696'
+ht-degree: 2%
 
 ---
 
@@ -138,11 +138,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Vous pouvez éventuellement définir une fenêtre temporelle pendant laquelle la campagne d’optimisation des adresses IP peut être exécutée en cas de retard dans la tâche de segmentation. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la variable **[!UICONTROL Réessayer l’exécution]** liste déroulante pour sélectionner une durée - jusqu’à 240 minutes (4 heures).
+1. Vous pouvez éventuellement définir une fenêtre temporelle pendant laquelle la campagne de réchauffement des adresses IP peut être exécutée en cas de retard dans la variable [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} tâche. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la variable **[!UICONTROL Réessayer l’exécution]** liste déroulante pour sélectionner une durée - jusqu’à 240 minutes (4 heures).
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   Par exemple, si vous définissez une heure d’envoi un jour donné à 21 h, et que vous sélectionnez 120 minutes comme heure d’exécution de la reprise, une fenêtre d’opportunité de 2 heures s’affiche pour que la tâche de segmentation soit exécutée.
+   Si, par exemple, vous définissez une heure d’envoi un jour donné à 9h00 et que vous sélectionnez 120 minutes comme heure d’exécution de la nouvelle tentative, une fenêtre d’opportunité de 2 heures (de 9h00 à 11h00) est disponible pour l’exécution de la tâche de segmentation.
 
    >[!NOTE]
    >
@@ -158,7 +158,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. **[!UICONTROL Activer]** la course. [En savoir plus](#activate-run)
 
-1. L’état de cette exécution passe à **[!UICONTROL En direct]**. Les différents états d’exécution sont répertoriés dans la section [cette section](#monitor-plan). Si l&#39;exécution de la campagne n&#39;a pas démarré, vous pouvez arrêter une exécution en direct.<!--why?-->
+1. L’état de cette exécution passe à **[!UICONTROL En direct]**. Les différents états d’exécution sont répertoriés dans la section [cette section](#monitor-plan).
+
+1. Si l&#39;exécution de la campagne n&#39;a pas démarré, vous pouvez arrêter une exécution en direct.<!--why?-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -166,7 +168,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Une fois l&#39;exécution de l&#39;opération démarrée, la variable **[!UICONTROL Arrêter]** n’est plus disponible.
 
-1. Pour ajouter une exécution, sélectionnez **[!UICONTROL Ajoutez une exécution ci-dessous.]** à partir de l’icône de trois points.
+1. Pour ajouter une exécution, sélectionnez **[!UICONTROL Ajoutez une exécution ci-dessous.]** à partir de l’icône Autres actions .
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -174,7 +176,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 Pour activer une exécution, sélectionnez la variable **[!UICONTROL Activer]** bouton .
 
-Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécution de la tâche de segmentation.
+Assurez-vous que vous avez planifié suffisamment de temps pour autoriser le [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} à exécuter.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -182,17 +184,17 @@ Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécu
 >
 >Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle. Sinon, la segmentation risque de ne pas être terminée.
 
-Lorsque vous activez une exécution, plusieurs segments sont automatiquement créés :
+Lorsque vous activez une exécution, plusieurs segments sont automatiquement créés.
 
 * Si vous activez la première exécution d’une phase :
 
-   * Un segment est créé pour les audiences de campagne exclues (le cas échéant).
+   * A [segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créé pour les audiences de campagne exclues (le cas échéant).
    * Un autre segment est créé pour les groupes de domaines exclus (le cas échéant).
 
 * Lors de l’activation d’une exécution :
 
    * Un autre segment est créé pour le dernier filtre d’engagement.
-   * Une composition d&#39;audience est créée correspondant à l&#39;audience à laquelle la campagne sera envoyée.
+   * Un [composition de l&#39;audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"} est créé correspondant à l’audience à laquelle la campagne sera envoyée.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -200,14 +202,13 @@ Lorsque vous activez une exécution, plusieurs segments sont automatiquement cr�
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
 
-
 ## Gérer votre formule {#manage-plan}
 
 À tout moment, si votre plan de réchauffement des adresses IP ne fonctionne pas comme prévu, vous pouvez prendre les mesures ci-dessous.
 
 ### Fractionner une phase {#split-phase}
 
-Si vous souhaitez ajouter une nouvelle phase à partir d’une exécution spécifique, sélectionnez la **[!UICONTROL Option Partager sur une nouvelle phase]** à partir de l’icône de trois points.
+Si vous souhaitez ajouter une nouvelle phase à partir d’une exécution spécifique, sélectionnez la **[!UICONTROL Option Partager sur une nouvelle phase]** à partir de l’icône Autres actions .
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -257,7 +258,7 @@ Prenons un exemple:
 
 * Avec le plan initial de chauffage des adresses IP, la phase 2 comportait 9 exécutions.
 
-* 4 exécutions ont été exécutées (peu importe si l’exécution a échoué, terminée ou annulée ; tant qu’une exécution a été tentée, il s’agit d’une exécution exécutée).
+* 4 exécutions ont été exécutées (peu importe si l’exécution a échoué, terminée ou annulée).<!--as long as a run has been attempted, it is an executed run-->).
 
 * Si vous téléchargez à nouveau un plan, la phase 2 avec les 4 premières exécutions passe en mode lecture seule.
 
@@ -276,5 +277,5 @@ Une exécution peut avoir les états suivants :
 * **[!UICONTROL Version préliminaire]** : à chaque fois qu’une exécution est créée, au choix, lorsque [création d’un plan](ip-warmup-plan.md) ou [ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, la variable **[!UICONTROL Version préliminaire]** statut.
 * **[!UICONTROL En direct]**: chaque fois que vous activez une exécution, la fonction prend la valeur **[!UICONTROL En direct]** statut.
 * **[!UICONTROL Terminé]**: l’exécution de la campagne pour cette exécution est terminée. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Annulé]**: a **[!UICONTROL En direct]** L’exécution a été annulée à l’aide de la fonction **[!UICONTROL Arrêter]** bouton . Ce bouton n&#39;est disponible que si l&#39;exécution de la campagne n&#39;a pas démarré. [En savoir plus](#define-runs)
+* **[!UICONTROL Annulé]**: a **[!UICONTROL En direct]** L’exécution a été annulée à l’aide de la fonction **[!UICONTROL Arrêter]** ou si vous avez activé la fonction **[!UICONTROL Pause pour les erreurs]** et une erreur s’est produite. [En savoir plus](#define-runs)
 * **[!UICONTROL En échec]**: une erreur s&#39;est produite par le système ou la campagne utilisée pour la phase en cours a été arrêtée. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.

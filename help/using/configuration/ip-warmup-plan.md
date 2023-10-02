@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 5%
@@ -85,6 +86,8 @@ Utilisez la variable **[!UICONTROL Groupe de domaines personnalisé]** pour déf
 
 Par exemple, si vous ajoutez le domaine personnalisé Luma, vous souhaitez inclure les sous-domaines suivants : luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## Accès et gestion des plans de chauffage des adresses IP {#manage-ip-warmup-plans}
 
 1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Plans de chauffage des adresses IP]** . Tous les plans de chauffage des adresses IP créés jusqu’à présent s’affichent.
@@ -95,7 +98,7 @@ Par exemple, si vous ajoutez le domaine personnalisé Luma, vous souhaitez inclu
 
    * **Pas démarré**: aucune exécution n’a encore été activée. [En savoir plus](ip-warmup-execution.md#define-runs)
    * **En direct**: le plan passe à ce statut dès que la première exécution de la première phase a été activée avec succès. [En savoir plus](ip-warmup-execution.md#define-runs)
-   * **Terminé**: le plan a été marqué comme terminé. Cette option n’est disponible que si toutes les exécutions du plan sont incluses dans **[!UICONTROL Succès]** ou **[!UICONTROL Version préliminaire]** status (aucune exécution ne peut être exécutée. **[!UICONTROL En direct]**). [En savoir plus](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **Terminé**: le plan a été marqué comme terminé. Cette option n’est disponible que si toutes les exécutions du plan sont incluses dans **[!UICONTROL Terminé]** ou **[!UICONTROL Version préliminaire]** status (aucune exécution ne peut être exécutée. **[!UICONTROL En direct]**). [En savoir plus](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Pour supprimer un plan de chauffage par IP, sélectionnez le **[!UICONTROL Supprimer]** en regard du nom d’un plan et confirmez la suppression.

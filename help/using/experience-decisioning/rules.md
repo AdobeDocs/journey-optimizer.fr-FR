@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '283'
 ht-degree: 8%
 
 ---
@@ -37,6 +38,8 @@ Ce guide vous apportera la documentation suivante :
 Les règles de décision vous permettent de définir l’audience des éléments de décision en appliquant des contraintes, directement au niveau de l’élément de décision ou dans une stratégie de sélection spécifique. Vous pouvez ainsi contrôler précisément quels éléments doivent être présentés à qui.
 
 Par exemple, imaginons un scénario où des éléments de décision avec des produits liés au yoga sont conçus pour les femmes. Avec les règles de décision, vous pouvez spécifier que ces éléments ne doivent être affichés que pour les profils dont le genre est &quot;Femme&quot; et qui ont indiqué un &quot;Point ciblé&quot; dans &quot;Yoga&quot;.
+
+Outre les règles de décision relatives aux éléments et à la stratégie de sélection, vous pouvez créer des paramètres supplémentaires pour l’audience prévue au niveau de la campagne. [En savoir plus](../campaigns/create-campaign.md)
 
 La liste des règles de décision est accessible dans la variable **[!UICONTROL Configuration]** / **[!UICONTROL Règles de décision]** .
 
