@@ -5,10 +5,11 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 9%
+source-wordcount: '464'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +23,9 @@ ht-degree: 9%
 >abstract="Les modifications seront appliquées uniquement pour les vues sélectionnées. Les vues peuvent être découvertes à l’aide de la variable **Parcourir** et accédez-y. Vous ne trouvez pas la vue que vous recherchez ?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
-**Applications d’une seule page** (SPA) peut désormais être créé dans l’éditeur visuel du concepteur web. Vous pouvez ainsi sélectionner les vues spécifiques auxquelles vous souhaitez appliquer les modifications de vos pages web.
+**Applications d’une seule page** (SPA) peut désormais être créé dans l’éditeur visuel du concepteur web. Vous pouvez ainsi sélectionner la variable spécifique **views** vous souhaitez appliquer vos modifications de page web à .
+
+[Découvrez comment créer des applications monopage dans cette vidéo](#video)
 
 Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse.
 
@@ -54,7 +57,7 @@ Une fois SPA configuration effectuée dans l’implémentation du SDK Web de Ado
 
 ## Application de modifications à d’autres vues {#apply-modifications-views}
 
-Une fois que vous avez ajouté une modification dans une vue spécifique, vous pouvez l’appliquer à d’autres vues sélectionnées. Suivez les étapes ci-dessous.
+Une fois que vous avez ajouté une modification alors que vous vous trouvez dans une vue spécifique, vous pouvez l’appliquer à d’autres vues sélectionnées. Suivez les étapes ci-dessous.
 
 >[!CAUTION]
 >
@@ -77,3 +80,14 @@ Une fois que vous avez ajouté une modification dans une vue spécifique, vous p
 1. Basculer vers **[!UICONTROL Parcourir]** pour vérifier que les modifications sont appliquées sur les pages souhaitées.
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## Vidéo pratique{#video}
+
+Cette vidéo explique comment :
+
+* Découvrez SPA vues à l’aide de **[!UICONTROL Parcourir]** mode
+* Effectuer la création dans la vue actuelle
+* Application des modifications de site web à plusieurs vues ou à toutes les vues découvertes
+* Actions en bloc sur les modifications
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

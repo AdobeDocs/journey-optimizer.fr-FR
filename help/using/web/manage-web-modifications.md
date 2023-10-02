@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 18%
 
 ---
@@ -58,7 +58,7 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
 
 Lors de la modification d’une page à l’aide du concepteur web, vous pouvez ajouter de nouvelles modifications à votre contenu directement à partir du **[!UICONTROL Modifications]** volet : sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur web. Suivez les étapes ci-dessous.
 
-1. Dans la **[!UICONTROL Modifications]**, cliquez sur le **[!UICONTROL Autres actions]** bouton .
+1. Dans la **[!UICONTROL Modifications]** cliquez sur le volet **[!UICONTROL Autres actions]** bouton .
 
 1. Sélectionner **[!UICONTROL Ajouter une modification]**.
 
@@ -66,7 +66,7 @@ Lors de la modification d’une page à l’aide du concepteur web, vous pouvez 
 
 1. Sélectionnez le type de modification :
 
-   * **[!UICONTROL Sélecteur CSS]**- [En savoir plus](#css-selector)
+   * **[!UICONTROL Sélecteur CSS]** - [En savoir plus](#css-selector)
    * **[!UICONTROL Page`<Head>`]** - [En savoir plus](#page-head)
 
 1. Saisissez votre contenu et **[!UICONTROL Enregistrer]** vos modifications.
@@ -184,4 +184,3 @@ Chaque modification crée un élément dans la variable **[!UICONTROL Modificati
 Si vous utilisez la variable **[!UICONTROL Page`<head>`]** type de modification pour deux campagnes ayant un impact sur la même URL, le code JavaScript est injecté dans la page à partir des deux campagnes. [!DNL Journey Optimizer] détermine automatiquement l’ordre du contenu diffusé. Assurez-vous que le code ne dépend pas de l’emplacement. C’est à vous de vous assurer qu’il n’y a aucun conflit dans le code.
 
 +++
-

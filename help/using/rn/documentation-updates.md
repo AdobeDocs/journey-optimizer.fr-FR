@@ -4,9 +4,9 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3711'
 ht-degree: 90%
 
 ---
@@ -20,16 +20,14 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 septembre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
 * Ajout d’une nouvelle page contenant les bonnes pratiques de mise à l’échelle et des conseils de mise en combinaison en temps réel - [En savoir plus](../start/best-practices.md)
 
-<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+  <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * Une section Questions fréquentes a été ajoutée pour l’optimisation de l’heure d’envoi. [En savoir plus](../building-journeys/journeys-message.md#faq-send-time)
 * Une note a été ajoutée pour l’activité de qualification de l’audience. L’activation et l’écoute des profils entrant ou sortant de l’audience peuvent prendre jusqu’à 10 minutes. [En savoir plus](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Une liste des limites à connaître lors de la création de règles de décision a été ajoutée à la documentation de la gestion des décisions. [En savoir plus](../offers/offer-library/creating-decision-rules.md)
 * Mise à jour des liens vers la documentation sur le contrôle d’accès - [En savoir plus](../administration/permissions.md)
 * Les conditions préalables du canal in-app ont été mises à jour avec les détails de la collecte de données Adobe Experience Platform. [En savoir plus](../in-app/inapp-configuration.md)
-
-
-
+* Certaines expressions présentées dans des exemples de formule de classement ont été mises à jour afin d’éviter les erreurs de validation. [En savoir plus](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 ## Août 2023 {#august-2023}
 
@@ -42,7 +40,6 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Ajout d’un avertissement sur la page **Utiliser les modèles de contenu** pour indiquer que le suivi actuel n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Pour tester le suivi, vous devez utiliser le modèle de contenu d’un e-mail et envoyer un BAT. [En savoir plus](../email/content-templates.md#test-template)
 * Ajout de plusieurs avertissements dans la section **Créer et publier des pages de destination** pour indiquer que vous ne pouvez pas accéder à votre page de destination en copiant-collant dans un navigateur web l’URL définie lors de la création de la page, même si elle est publiée. Testez-la plutôt à l’aide de la fonction de prévisualisation. [En savoir plus](../landing-pages/create-lp.md)
 * Une section a été ajoutée sur la procédure à suivre pour **gérer le consentement** du canal courrier. [En savoir plus](../direct-mail/test-send-direct-mail.md)
-
 
 ## Juillet 2023 {#july-2023}
 
