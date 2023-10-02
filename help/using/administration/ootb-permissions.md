@@ -8,9 +8,9 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
-exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
-workflow-type: tm+mt
+exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+workflow-type: ht
 source-wordcount: '689'
 ht-degree: 100%
 
