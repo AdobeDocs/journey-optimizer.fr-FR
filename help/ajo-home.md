@@ -5,7 +5,7 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
@@ -145,10 +145,10 @@ ht-degree: 100%
       <a href="using/content-management/assets-essentials.md">Ressources</a>
     </li>
     <li>
-      <a href="using/email/content-templates.md">Modèles de contenu</a>
+      <a href="using/content-management/content-templates.md">Modèles de contenu</a>
     </li>
       <li>
-      <a href="using/email/fragments.md">Fragments</a>
+      <a href="using/content-management/fragments.md">Fragments</a>
     </li>
     <p>
     <p>GESTION DES DONNÉES</p>

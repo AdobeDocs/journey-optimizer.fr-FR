@@ -4,7 +4,7 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 90%
@@ -37,7 +37,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * L’option **Exporter des jeux de données** pour Offer Decisioning est désormais activée par défaut. La note sur le comportement précédent a été supprimée.  [En savoir plus](../offers/export-catalog/get-started-export.md)
 * Diverses **mesures des rapports de campagne** ont été renommées dans les rapports dynamiques et globaux. [En savoir plus](../reports/campaign-global-report.md)
 * Ajout d’une section sur les conditions préalables des expériences de contenu pour le canal web. [En savoir plus](../web/web-prerequisites.md#experiment-prerequisites)
-* Ajout d’un avertissement sur la page **Utiliser les modèles de contenu** pour indiquer que le suivi actuel n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Pour tester le suivi, vous devez utiliser le modèle de contenu d’un e-mail et envoyer un BAT. [En savoir plus](../email/content-templates.md#test-template)
+* Ajout d’un avertissement sur la page **Utiliser les modèles de contenu** pour indiquer que le suivi actuel n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Pour tester le suivi, vous devez utiliser le modèle de contenu d’un e-mail et envoyer un BAT. [En savoir plus](../content-management/content-templates.md#test-template)
 * Ajout de plusieurs avertissements dans la section **Créer et publier des pages de destination** pour indiquer que vous ne pouvez pas accéder à votre page de destination en copiant-collant dans un navigateur web l’URL définie lors de la création de la page, même si elle est publiée. Testez-la plutôt à l’aide de la fonction de prévisualisation. [En savoir plus](../landing-pages/create-lp.md)
 * Une section a été ajoutée sur la procédure à suivre pour **gérer le consentement** du canal courrier. [En savoir plus](../direct-mail/test-send-direct-mail.md)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
    * **Importez du contenu HTML existant** à partir d’un fichier ou d’un dossier .zip. Découvrez comment importer un contenu d’e-mail dans [cette section](existing-content.md).
 
-   * **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’e-mail dans [cette section](email-templates.md).
+   * **Sélectionnez un contenu existant** à partir d’une liste de modèles intégrés ou personnalisés. Découvrez comment utiliser des modèles d’e-mail dans [cette section](../email/use-email-templates.md).
 
    ![](assets/email_designer_create_options.png)
 

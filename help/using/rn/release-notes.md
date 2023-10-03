@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -469,7 +469,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Vous pouvez désormais créer, utiliser et gérer des fragments pour rédiger rapidement vos e-mails et vos modèles de contenu. Un fragment est un composant réutilisable prédéfini, qui peut être intégré à plusieurs e-mails dans les campagnes et parcours Journey Optimizer, pour un processus de conception amélioré et plus rapide.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../email/fragments.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../content-management/fragments.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -906,7 +906,7 @@ Note that each widget can be resized and deleted as needed.
 <p>Vous pouvez désormais créer des modèles de contenu autonomes qui peuvent être utilisés dans plusieurs parcours et campagnes pour une réutilisation rapide.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Découvrez comment créer, modifier et utiliser des modèles de contenu dans <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=fr">cette vidéo</a>. Pour plus d’informations, consultez la <a href="../email/content-templates.md">documentation détaillée</a>.
+<p>Découvrez comment créer, modifier et utiliser des modèles de contenu dans <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=fr">cette vidéo</a>. Pour plus d’informations, consultez la <a href="../content-management/content-templates.md">documentation détaillée</a>.
 </p>
 </td>
 </tr>
