@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 68%
+source-wordcount: '154'
+ht-degree: 57%
 
 ---
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la règle de décision, y compris son identifiant d’instance unique et l’`@id` de règle de décision.
+Une réponse réussie renvoie les détails mis à jour de la règle de décision, y compris sa règle de décision unique. `id`.
 
 ```json
 {

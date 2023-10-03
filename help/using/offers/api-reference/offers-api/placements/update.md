@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 66%
+source-wordcount: '144'
+ht-degree: 56%
 
 ---
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de l’emplacement, y compris son identifiant d’instance unique et l’`id` d’emplacement.
+Une réponse réussie renvoie les détails mis à jour de l’emplacement, y compris son emplacement unique. `id`.
 
 ```json
 {

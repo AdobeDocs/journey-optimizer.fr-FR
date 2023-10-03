@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 55%
+source-wordcount: '119'
+ht-degree: 47%
 
 ---
 
@@ -33,8 +33,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Conteneur où se trouvent les règles de décision. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
 
 **Requête**
 
@@ -69,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la règle de décision nouvellement créée, y compris l’emplacement. `id`. Vous pouvez utiliser la variable `id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre règle de décision ou l’utiliser dans un tutoriel ultérieur pour créer des décisions, des règles de décision et des offres de secours.
+Une réponse réussie renvoie des informations sur la règle de décision nouvellement créée. `id`. Vous pouvez utiliser la variable `id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre règle de décision ou l’utiliser dans un tutoriel ultérieur pour créer des décisions, des règles de décision et des offres de secours.
 
 ```json
 {

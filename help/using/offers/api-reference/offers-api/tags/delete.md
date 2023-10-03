@@ -6,33 +6,36 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 35%
+source-wordcount: '157'
+ht-degree: 100%
 
 ---
 
+
 # Supprimer un qualificateur de collection {#delete-tag}
 
-Il peut parfois être nécessaire de supprimer (DELETE) un qualificateur de collection (précédemment appelé « balise »). Pour ce faire, il vous suffit d’adresser une requête de DELETE au [!DNL Offer Library] API utilisant l’identifiant du qualificateur de collection que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) un qualificateur de collection (précédemment appelé « balise »). Seuls les qualificateurs de collection créés dans le conteneur client peuvent être supprimés. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’« $id » du qualificateur de collection que vous souhaitez supprimer.
 
 **Format d’API**
 
 ```http
-DELETE /{ENDPOINT_PATH}/tags/{ID}
+DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | ID de l’entité que vous souhaitez supprimer. | `tag1234` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Conteneur où se trouvent les qualificateurs de collection. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | Identifiant d’instance du qualificateur de collection que vous souhaitez mettre à jour. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Requête**
 
 ```shell
-curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
--H 'Content-Type: application/json' \
+curl -X DELETE \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/d48fd160-13dc-11eb-bc55-c11be7252432' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
@@ -41,6 +44,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Réponse**
 
-Une réponse réussie renvoie un état HTTP 200 et un corps vide.
+Une réponse réussie renvoie un statut HTTP 202 (Pas de contenu) et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) au qualificateur de collection et vous devriez recevoir le statut HTTP 404 (Introuvable), car il a été supprimé.
+Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) au qualificateur de collection. Vous devez inclure l’en-tête Accept dans la requête, mais vous devriez recevoir le statut HTTP 404 (Introuvable), car le qualificateur de collection a été supprimé du conteneur.

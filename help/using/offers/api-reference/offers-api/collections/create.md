@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 75%
+source-wordcount: '128'
+ht-degree: 46%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la collection nouvellement créée, y compris son identifiant d&#39;instance unique et l&#39;`@id` d&#39;emplacement. Vous pouvez utiliser l&#39;ID d&#39;instance aux étapes suivantes pour mettre à jour ou supprimer votre collection. Vous pouvez utiliser votre `@id` de collection unique dans un tutoriel ultérieur pour créer une décision.
+Une réponse réussie renvoie des informations sur la collection que vous venez de créer, y compris sur ses `id`. Vous pouvez utiliser la variable `id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre collection, ou dans un tutoriel ultérieur pour créer une décision.
 
 ```json
 {

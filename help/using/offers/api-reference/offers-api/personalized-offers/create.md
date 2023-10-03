@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 60%
+source-wordcount: '157'
+ht-degree: 59%
 
 ---
 
@@ -26,7 +26,6 @@ Le tableau suivant affiche les valeurs valides qui comprennent la variable *Cont
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
 | Content-Type | `application/json` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Format d&#39;API**
 
@@ -113,4 +112,4 @@ Une réponse réussie renvoie les détails de la nouvelle offre personnalisée, 
 
 ## Limites {#limitations}
 
-Certaines contraintes et représentations d’offre ne sont actuellement pas prises en charge avec les workflows [!DNL Experience Edge] mobiles, par exemple `Capping`. La valeur du champ `Capping` indique le nombre de fois où une offre peut être présentée à tous les utilisateurs. Pour plus d’informations, voir [Documentation sur les règles d’éligibilité et les contraintes d’offres](../../../offer-library/creating-personalized-offers.md).
+Certaines contraintes et représentations d’offre ne sont actuellement pas prises en charge avec les workflows [!DNL Experience Edge] mobiles, par exemple `Capping`. La valeur du champ `Capping` indique le nombre de fois où une offre peut être présentée à tous les utilisateurs. Pour plus d’informations, voir [Documentation sur les règles d’éligibilité et les contraintes d’offres](../../../../offers/offer-library/creating-personalized-offers.md).
