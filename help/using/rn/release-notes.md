@@ -4,10 +4,10 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
 workflow-type: tm+mt
-source-wordcount: '4086'
-ht-degree: 86%
+source-wordcount: '4121'
+ht-degree: 85%
 
 ---
 
@@ -99,9 +99,9 @@ En outre, les attributs calculés simplifient la segmentation et les workflows d
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-<!--**Personalization**
+**Personnalisation**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
+* Outre les fragments visuels, il est désormais possible de créer, enregistrer et réutiliser des fragments d’expression à partir de l’interface de Journey Optimizer via l’éditeur d’expression. Les fragments d’expression remplacent les expressions enregistrées précédemment. [En savoir plus](../content-management/fragments.md#create-expression-fragment)
 
 <!--
 **Alerting**
