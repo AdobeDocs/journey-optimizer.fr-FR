@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
-workflow-type: ht
-source-wordcount: '2164'
-ht-degree: 100%
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
+workflow-type: tm+mt
+source-wordcount: '2225'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,12 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
    Ils possèdent désormais le même rang et seront donc évalués en même temps. [En savoir plus](#evaluation-criteria-order).
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* If [Modèle AI](../ranking/ai-models.md) est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement AI et ils doivent utiliser le même modèle d’AI spécifique.
+   >
+   >* Un seul groupe de critères d’évaluation peut utiliser le modèle AI. Tous les autres groupes d’une portée de décision doivent utiliser d’autres méthodes de classement (priorité ou formule). [En savoir plus sur les méthodes de classement](../offer-activities/configure-offer-selection.md)
 
 1. Pour ajouter un emplacement supplémentaire pour vos offres dans le cadre de cette décision, cliquez sur le bouton **[!UICONTROL Nouvelle portée]**. Répétez les étapes ci-dessus pour chaque portée de décision.
 
@@ -323,7 +329,7 @@ Sélectionnez le bouton **[!UICONTROL Modifier]** pour revenir au mode d&#39;éd
 
 >[!IMPORTANT]
 >
->Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier.  Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
+>Si des modifications sont apportées à une décision d’offres qui est utilisée dans le message d’un parcours, vous devez dépublier le parcours et le republier. Cela permet de s’assurer que les modifications sont intégrées au message du parcours et que le message est cohérent avec les dernières mises à jour.
 
 Sélectionnez une décision active et cliquez sur **[!UICONTROL Désactiver]** pour redéfinir le statut de la décision sur **[!UICONTROL Brouillon]**.
 
