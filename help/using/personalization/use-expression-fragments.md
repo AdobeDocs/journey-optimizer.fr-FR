@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 10%
 
 ---
@@ -68,7 +68,7 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 
 >[!NOTE]
 >
->Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md) , les sauts de ligne sont conservés. Ainsi, veillez à prévisualiser et à tester votre [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) avant de l’envoyer.
+>Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md) , les sauts de ligne sont conservés. Veillez donc à tester vos [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) avant de l’envoyer.
 
 ## Rompre l’héritage {#break-inheritance}
 
