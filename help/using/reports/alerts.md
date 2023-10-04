@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
+source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 15%
+source-wordcount: '461'
+ht-degree: 14%
 
 ---
 
@@ -31,13 +31,13 @@ Vous pouvez vous abonner individuellement à chaque alerte depuis l’interface 
 
 ![](assets/alert-subscribe.png)
 
-Vous pouvez également vous abonner aux alertes par le biais de [Notifications d’événements d’E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}, toutefois, les règles d’alerte sont organisées en différents packages d’abonnement.
+Vous pouvez également vous abonner aux alertes par le biais de [Notifications d’événements d’E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés ci-dessous.
 
 Si un comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés. Selon les préférences de l’utilisateur, les alertes sont envoyées par courrier électronique ou directement dans le centre de notification Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur.
 
 Lorsqu’une alerte est résolue, les abonnés reçoivent une notification &quot;Résolue&quot;.
 
->[!WARNING]
+>[!CAUTION]
 >
 >Les alertes spécifiques à Adobe Journey Optimizer s’appliquent uniquement à **live** parcours. Les alertes ne sont pas déclenchées pour les parcours en mode test.
 
@@ -51,7 +51,7 @@ Les alertes relatives aux actions personnalisées sont résolues lorsque, au cou
 
 * il n&#39;y a pas eu d&#39;erreur sur cette action personnalisée (ou d&#39;erreur sous le seuil de 1 %),
 
-* Ou, aucun profil n’a atteint cette action personnalisée.
+* ou, aucun profil n’a atteint cette action personnalisée.
 
 Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte d’action personnalisée est **Échec de l’action personnalisée parcours**.
 
