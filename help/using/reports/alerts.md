@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 14%
 
 ---
 
 # Prise en main des alertes {#alerts}
 
-## Fonctionnalités des alertes {#alerting-capabilities}
+## Accès et abonnement aux alertes {#alerting-capabilities}
 
-Vous pouvez accéder aux alertes système par le biais de l’interface utilisateur ou recevoir un courrier électronique en cas d’échec. Dans la **Alertes** , vous pouvez afficher les alertes disponibles et vous abonner à celles-ci. Lorsqu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système enfreint un seuil), des messages d’alerte sont envoyés à tous les utilisateurs de votre organisation qui s’y sont abonnés.
+En cas d’échec, vous pouvez obtenir des alertes système dans le centre de notification de Journey Optimizer et recevoir un e-mail. Dans la **Alertes** , vous pouvez afficher les alertes disponibles et vous abonner à celles-ci. Lorsqu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système enfreint un seuil), des messages d’alerte sont envoyés à tous les utilisateurs de votre organisation qui s’y sont abonnés.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
