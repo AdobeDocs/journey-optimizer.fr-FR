@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 61%
+source-wordcount: '107'
+ht-degree: 76%
 
 ---
 
@@ -20,8 +20,13 @@ Vous pouvez créer une décision en adressant une requête POST à l’API [!DNL
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-    @@ -22,61 +22,67 @@ Le tableau suivant affiche les valeurs valides qui comprennent *Content-Type* et
-**Format d’API**
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
+
+| Nom de l&#39;en-tête | Valeur |
+| ----------- | ----- |
+| Content-Type | `application/json` |
+
+**Format d&#39;API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances

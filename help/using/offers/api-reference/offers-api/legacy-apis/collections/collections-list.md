@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 83%
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
@@ -56,10 +56,10 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Caractères + - = &amp;&amp; |  | > &lt; ! ( ) { } [ ] ^ \&quot; ~ * ? : \ / ont une signification spéciale et doivent être précédés d’une barre oblique inverse lorsqu’ils apparaissent dans la chaîne de requête. collection de démonstration |
-| `qop` | S’applique `AND` ou `OR` à des valeurs dans `q` paramètre de chaîne de requête. | `AND` / `OR` |
-| field | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
-| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le titre (orderby=-title) triera les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
+| `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | `demo collection` |
+| `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
+| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l’ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limitez le nombre de collections renvoyées. | `limit=5` |
 
 **Réponse**

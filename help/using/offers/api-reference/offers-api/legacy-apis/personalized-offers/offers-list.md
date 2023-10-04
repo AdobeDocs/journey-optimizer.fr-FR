@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 97%
@@ -25,10 +25,12 @@ Vous pouvez afficher une liste de toutes les offres personnalisées dans un cont
 ```http
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
+
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
+
 **Requête**
 
 ```shell
@@ -40,9 +42,13 @@ curl -X GET \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
 ## Utilisation des paramètres de requête {#using-query-parameters}
+
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
+
 ### Pagination {#paging}
+
 Les paramètres de requête les plus courants pour la pagination sont les suivants :
 
 | Paramètre | Description | Exemple |

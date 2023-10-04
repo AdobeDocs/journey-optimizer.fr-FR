@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 91%
+source-wordcount: '158'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,9 @@ Vous pouvez modifier ou mettre à jour une décision dans votre conteneur en ex�
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
-    @@ -19,61 +19,62 @@ Le tableau suivant affiche les valeurs valides qui comprennent *Content-Type* et
+## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |

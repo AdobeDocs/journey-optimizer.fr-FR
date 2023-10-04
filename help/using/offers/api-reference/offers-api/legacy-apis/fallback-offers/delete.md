@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '153'
 ht-degree: 100%
 
 ---
@@ -39,11 +39,11 @@ curl -X DELETE \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
-	@@ -37,6 +36,6 @@ curl -X DELETE \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
 
-**Response**
+**Réponse**
 
-A successful response returns HTTP status 202 (No Content) and a blank body.
+Une réponse réussie renvoie un statut HTTP 202 (Pas de contenu) et un corps vide.
 
-You can confirm the deletion by attempting a lookup (GET) request to the fallback offer. You will need to include an Accept header in the request, but should receive an HTTP status 404 (Not Found) because the fallback offer has been removed from the container.
-
+Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à l’offre de secours. Vous devez inclure un en-tête Accepter dans la requête, mais vous devriez recevoir le statut HTTP 404 (Introuvable) car l’offre de secours a été supprimée du conteneur.
