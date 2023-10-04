@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
+source-git-commit: 62ae151ddd92904ac514ee85639c9ba3a18beb0e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 14%
+source-wordcount: '493'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 14%
 
 ## Accès et abonnement aux alertes {#alerting-capabilities}
 
-En cas d’échec, vous pouvez obtenir des alertes système dans le centre de notification de Journey Optimizer et recevoir un e-mail. Dans la **Alertes** , vous pouvez afficher les alertes disponibles et vous abonner à celles-ci. Lorsqu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système enfreint un seuil), des messages d’alerte sont envoyés à tous les utilisateurs de votre organisation qui s’y sont abonnés.
+En cas d’échec, vous pouvez obtenir des alertes système dans le centre de notification Journey Optimizer (alertes in-app) et/ou recevoir un courrier électronique.
+
+Dans la **Alertes** , vous pouvez afficher les alertes disponibles et vous abonner à celles-ci. Lorsqu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système enfreint un seuil), des messages d’alerte sont envoyés à tous les utilisateurs de votre organisation qui s’y sont abonnés.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
@@ -33,7 +35,7 @@ Vous pouvez vous abonner individuellement à chaque alerte depuis l’interface 
 
 Vous pouvez également vous abonner aux alertes par le biais de [Notifications d’événements d’E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés ci-dessous.
 
-Si un comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés. Selon les préférences de l’utilisateur, les alertes sont envoyées par courrier électronique ou directement dans le centre de notification Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur.
+Si un comportement inattendu se produit, une notification d’alerte est envoyée aux abonnés. En fonction des préférences de l’utilisateur, les alertes sont envoyées par courrier électronique ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur. Par défaut, seules les alertes in-app sont activées. Pour activer les alertes par email, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 Lorsqu’une alerte est résolue, les abonnés reçoivent une notification &quot;Résolue&quot;.
 
