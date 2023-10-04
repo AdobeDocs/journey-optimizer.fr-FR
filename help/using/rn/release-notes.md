@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
+source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
 workflow-type: tm+mt
-source-wordcount: '4121'
+source-wordcount: '4143'
 ht-degree: 85%
 
 ---
@@ -103,10 +103,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * Outre les fragments visuels, il est désormais possible de créer, enregistrer et réutiliser des fragments d’expression à partir de l’interface de Journey Optimizer via l’éditeur d’expression. Les fragments d’expression remplacent les expressions enregistrées précédemment. [En savoir plus](../content-management/fragments.md#create-expression-fragment)
 
-<!--
-**Alerting**
+**Alerte**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une audience de lecture. [En savoir plus](../reports/alerts.md).
 
 **Canal web**
 
