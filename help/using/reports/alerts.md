@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
+source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 15%
 
 ---
@@ -57,12 +57,12 @@ Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte d�
 
 ## Lecture du déclencheur de segment infructueuse {#alert-read-audiences}
 
-Cette alerte vous avertit si une **Lecture de segment** l’activité n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide.
+Cette alerte vous avertit si une **Lecture d’audience** l’activité n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide.
 
 ![](assets/alerts1.png)
 
-Alertes sur **Lecture de segment** Les activités ne s’appliquent qu’aux parcours récurrents. **Lecture de segment** activités dans des parcours actifs dont l’exécution est planifiée **Une fois** ou **Dès que possible** sont ignorées.
+Alertes sur **Lecture d’audience** Les activités ne s’appliquent qu’aux parcours récurrents. **Lecture d’audience** activités dans des parcours actifs dont l’exécution est planifiée **Une fois** ou **Dès que possible** sont ignorées.
 
-Alertes sur **Lecture de segment** sont résolus lorsqu’un profil entre dans la variable **Lecture de segment** noeud .
+Alertes sur **Lecture d’audience** sont résolus lorsqu’un profil entre dans la variable **Lecture d’audience** noeud .
 
-Nom de l’abonnement à l’événement I/O correspondant à la variable **Lecture de segment** alerte **Lecture par parcours des segments Retards, échecs et erreurs**.
+Nom de l’abonnement à l’événement I/O correspondant à la variable **Lecture du déclencheur de segment infructueuse** alerte **Lecture par parcours des segments Retards, échecs et erreurs**.

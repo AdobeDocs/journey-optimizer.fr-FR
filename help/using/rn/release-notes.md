@@ -4,9 +4,9 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Alerte**
 
-* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti en cas d’échec d’une audience de lecture. [En savoir plus](../reports/alerts.md).
+* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti lorsqu’une **Lecture d’audience** l’activité échoue. [En savoir plus](../reports/alerts.md).
 
 **Canal web**
 
@@ -117,7 +117,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ Lors de la duplication d’un parcours, vous pouvez désormais définir le nom d
 
 **Canal e-mail**
 
-Une nouvelle option de configuration de la surface de l&#39;email permet de choisir d&#39;envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent sur l&#39;Adobe. [!DNL Journey Optimizer] liste de suppression. [En savoir plus](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Une nouvelle option de configuration de la surface de l&#39;email permet de choisir d&#39;envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent sur l&#39;Adobe. [!DNL Journey Optimizer] liste de suppression. [En savoir plus](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canal SMS**
 
@@ -137,15 +137,15 @@ Une nouvelle option de configuration de la surface de l&#39;email permet de choi
 
 **Canal de publipostage direct**
 
-Vous avez désormais la possibilité de chiffrer les fichiers destinés à vos opérateurs de services postaux lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement. [En savoir plus](../direct-mail/direct-mail-configuration.md).
+* Vous pouvez désormais chiffrer les fichiers destinés à vos opérateurs de services postaux lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement. [En savoir plus](../direct-mail/direct-mail-configuration.md).
 
 **Créer des rapports**
 
-Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. En savoir plus dans la section [documentation détaillée](../reports/global-report.md#export-reports) et la variable [vidéo pratique](../reports/global-report.md#video-csv).
+* Vous pouvez désormais exporter des rapports Journey Optimizer au format CSV. En savoir plus dans la section [documentation détaillée](../reports/global-report.md#export-reports) et la variable [vidéo pratique](../reports/global-report.md#video-csv).
 
 **Assets**
 
-Une nouvelle option pour Assets vous permet de choisir le référentiel pour vos Ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel as a Cloud Service Assets, à condition que vous possédiez cette solution. [En savoir plus](../content-management/assets-essentials.md)
+* Une nouvelle option pour Assets vous permet de choisir le référentiel pour vos Ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel as a Cloud Service Assets, à condition que vous possédiez cette solution. [En savoir plus](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
