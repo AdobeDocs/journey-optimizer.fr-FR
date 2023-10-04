@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 95%
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,8 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
-ens35577 a marqué cette conversation comme résolue.
-Afficher résolu
 
-**Format d’API**
+**Format d&#39;API**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
