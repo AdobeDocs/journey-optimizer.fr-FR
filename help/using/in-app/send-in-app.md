@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 1. Dans la fenêtre **[!UICONTROL Connexion à l’appareil]**, cliquez sur **[!UICONTROL Commencer]**.
 
-1. Saisissez l’**[!UICONTROL URL de base]** de votre application, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez le **[!UICONTROL URL de base]** de votre application, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/in_app_create_7.png)
 
@@ -52,7 +52,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 Votre campagne est maintenant activée. La notification in-app configurée dans la campagne est envoyée immédiatement ou le sera à la date indiquée.
 
-Une fois votre message envoyé, vous pouvez en mesurer l’impact dans les rapports Campaign ou Journey. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
+Une fois votre message in-app envoyé, vous pouvez en mesurer l’impact dans les rapports Campaign ou Journey. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report.md#inapp-report).
 
 **Rubriques connexes :**
 

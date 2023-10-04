@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 97%
 
 ---
 
@@ -141,11 +141,11 @@ Vous pouvez également ajouter une vérification du consentement à la personnal
 
 1. Ajoutez l’audience de départ à l’aide du bouton spécifique situé à droite.
 
-1. Cliquez sur l’icône + et sélectionnez **[!UICONTROL Partage]** pour créer une audience partagée. [En savoir plus sur l’activité Partage](../audience/composition-canvas.md#split).
+1. Cliquez sur le bouton **+** et sélectionnez une **[!UICONTROL Partage]** pour créer une audience partagée. [En savoir plus sur l’activité Partage](../audience/composition-canvas.md#split).
 
    ![](assets/perso-consent-audience-split.png)
 
-1. Sélectionner **[!UICONTROL Partage d’attributs]** comme type de partage dans le volet de droite.
+1. Dans le volet de droite, sélectionnez **[!UICONTROL Partage d’attributs]** comme type de partage.
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
