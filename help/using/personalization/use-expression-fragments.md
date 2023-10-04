@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 11%
+source-wordcount: '456'
+ht-degree: 10%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 11%
 
 Lorsque vous utilisez l’éditeur d’expression, vous pouvez exploiter tous les fragments d’expression qui ont été créés ou enregistrés dans l’environnement de test actuel.
 
->[!NOTE]
->
->Découvrez comment créer et gérer des fragments dans [cette section](../content-management/fragments.md).
+Découvrez comment créer et gérer des fragments dans [cette section](../content-management/fragments.md).
 
 ➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 
 1. Vous pouvez ensuite personnaliser et valider votre contenu comme vous le faites habituellement à l’aide de toutes les fonctionnalités de personnalisation et de création de [Editeur d&#39;expression](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md) , les sauts de ligne sont conservés. Ainsi, veillez à prévisualiser et à tester votre [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) avant de l’envoyer.
+
 ## Rompre l’héritage {#break-inheritance}
 
 Lors de l’ajout d’un ID de fragment à l’éditeur d’expression, les modifications apportées au fragment d’expression d’origine sont synchronisées.
@@ -79,13 +81,4 @@ Cependant, vous pouvez également coller le contenu d’un fragment d’expressi
 Dans ce cas, l’héritage du fragment d’origine est rompu. Le contenu du fragment est copié dans l’éditeur et les modifications ne sont plus synchronisées.
 
 Il devient un élément autonome qui n’est plus lié au fragment d’origine. Vous pouvez le modifier comme tout autre élément de votre code.
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
