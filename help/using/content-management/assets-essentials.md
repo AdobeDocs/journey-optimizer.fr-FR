@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ressources, essentials, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 89%
@@ -49,8 +49,7 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 
    ![](assets/media_library_4.png)
 
-+++
-Découvrez comment changer de référentiel d’Assets.
++++ Découvrez comment changer de référentiel d’Assets.
 
    Pour modifier votre référentiel Assets, sélectionnez l’icône Compte dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Sélectionner un référentiel]**.
 
