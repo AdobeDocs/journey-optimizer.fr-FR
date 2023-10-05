@@ -4,7 +4,7 @@ product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '4190'
 ht-degree: 84%
@@ -121,7 +121,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 
 
-* La prise en charge des réponses d’action personnalisée est désormais GA. Cette fonctionnalité vous permet d’exploiter les réponses d’appel API dans des actions personnalisées et d’orchestrer votre parcours en fonction de ces réponses. En outre, une nouvelle barrière de sécurité a été ajoutée pour limiter toutes les actions douanières à 15 000 appels de plus de 30 secondes par point de terminaison. [En savoir plus](../action/action-response.md)
+* La prise en charge des réponses d’action personnalisée est désormais GA. Cette fonctionnalité vous permet d’exploiter les réponses d’appel API dans des actions personnalisées et d’orchestrer votre parcours en fonction de ces réponses. En outre, une nouvelle barrière de sécurité a été ajoutée pour limiter toutes les actions douanières à 150 000 appels de plus de 30 secondes par point de terminaison. [En savoir plus](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
