@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 78%
+source-wordcount: '1278'
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ Notez également qu’un format spécifique est attendu pour les paramètres d�
 
 ## Bonnes pratiques{#custom-action-enhancements-best-practices}
 
-Une limite de limitation de 5 000 appels/s est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation des clients, afin de protéger les points de terminaison externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limite de limitation ou de ralentissement plus élevée via nos API de limitation/limitation. Consultez [cette page](../configuration/external-systems.md).
+Une limite de limitation de 150 000 appels de plus de 30 secondes est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation des clients, afin de protéger les points de terminaison externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limite de limitation ou de ralentissement plus élevée via nos API de limitation/limitation. Consultez [cette page](../configuration/external-systems.md).
 
 Vous ne devez pas cibler les points de terminaison publics avec des actions personnalisées pour diverses raisons :
 
@@ -148,7 +148,7 @@ Vous aurez la possibilité de définir le type de paramètre (par exemple : str
 
 Vous pourrez également préciser si le paramètre est une constante ou une variable :
 
-* Le paramètre « **Constant** » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une persona ayant un rôle technique. La valeur reste identique dans tous les parcours Le spécialiste marketing ne la voit pas lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond à la valeur transmise.
+* Le paramètre « **Constant** » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une persona ayant un rôle technique. La valeur reste identique dans tous les parcours Elle ne varie pas et le marketeur ne la voit pas lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond à la valeur transmise.
 * Le paramètre « **Variable** » signifie que la valeur du paramètre varie. Le spécialiste marketing qui utilise cette action personnalisée dans un parcours sera libre de transmettre la valeur de son choix ou bien d’indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le spécialiste marketing voit dans le parcours pour nommer ce paramètre.
 
 ![](assets/customactionpayloadmessage2.png)

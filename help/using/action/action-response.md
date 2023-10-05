@@ -9,21 +9,17 @@ role: Admin
 level: Experienced
 badge: label="Version Beta" type="Informative"
 keywords: action, tiers, personnalisé, parcours, API
-exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 83%
+source-wordcount: '603'
+ht-degree: 84%
 
 ---
 
 # Utiliser des réponses d’appel API dans des actions personnalisées {#custom-action-enhancements}
 
 Vous pouvez exploiter les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement disponible en version bêta.
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
