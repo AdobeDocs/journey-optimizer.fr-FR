@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 78%
@@ -38,7 +38,7 @@ Une fois votre message in-app créé et son contenu défini et personnalisé, vo
 ## Disposition des messages {#message-layout}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_inapp_authoring_message_layout"
 >title="Définition du contenu in-app"
 >abstract="La mise en page du message contient les modèles couramment utilisés pour encadrer votre message. La disposition personnalisée fournit des options pour charger ou composer des messages de HTML personnalisés."
 
