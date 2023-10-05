@@ -9,18 +9,19 @@ role: User
 level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 93%
 
 ---
 
 # Prise en main des e-mails {#get-started-email}
 
->[!IMPORTANT]
->
->Si c’est la première fois que vous créez un e-mail, vérifiez que le canal e-mail a été configuré. [En savoir plus](email-settings.md)
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card4"
+>title="Conception d&#39;emails"
+>abstract="Utilisation **Adobe Journey Optimizer** pour envoyer des emails à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail."
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des e-mails à vos client(e)s. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail.
 
@@ -34,10 +35,16 @@ Les diffusions d’e-mails peuvent être créées :
 
   Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
 
+
+>[!IMPORTANT]
+>
+>Si c’est la première fois que vous créez un e-mail, vérifiez que le canal e-mail a été configuré. [En savoir plus](email-settings.md)
+
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="Prospect" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="Créer" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>Créer un email</strong>
 </div>
@@ -45,7 +52,7 @@ Les diffusions d’e-mails peuvent être créées :
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="Peu fréquent" src="../assets/do-not-localize/email-design.jpg">
+<img alt="Conception" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
 <a href="get-started-email-design.md"><strong>Concevoir un email</strong></a>
@@ -53,16 +60,16 @@ Les diffusions d’e-mails peuvent être créées :
 <p></td>
 <td>
 <a href="email-opt-out.md">
-<img alt="Validation" src="../assets/do-not-localize/email-opt-out.jpg">
+<img alt="Désinscription (opt-out)" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>Gérer le processus de désinscription aux e-mails</strong></a>
+<a href="email-opt-out.md"><strong>Gestion du processus de désinscription aux e-mails</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="Validation" src="../assets/do-not-localize/email-config.jpg">
+<img alt="Configuration" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>Configurer le canal E-mail</strong></a>
