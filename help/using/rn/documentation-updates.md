@@ -4,10 +4,10 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 90%
+source-wordcount: '3765'
+ht-degree: 88%
 
 ---
 
@@ -28,6 +28,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Mise à jour des liens vers la documentation sur le contrôle d’accès - [En savoir plus](../administration/permissions.md)
 * Les conditions préalables du canal in-app ont été mises à jour avec les détails de la collecte de données Adobe Experience Platform. [En savoir plus](../in-app/inapp-configuration.md)
 * Certaines expressions présentées dans des exemples de formule de classement ont été mises à jour afin d’éviter les erreurs de validation. [En savoir plus](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* Un avertissement a été ajouté à la variable **Définition des portées de décision** pour indiquer que si le modèle d’AI est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement d’AI, avec le même modèle d’AI spécifique. En outre, un seul groupe de critères d’évaluation peut utiliser le modèle d’IA. [En savoir plus](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Août 2023 {#august-2023}
 
