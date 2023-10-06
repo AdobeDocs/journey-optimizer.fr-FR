@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 4905c3c395ee06e1af34da9a2b5cae9b4a3c39e6
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 94%
+source-wordcount: '640'
+ht-degree: 93%
 
 ---
 
@@ -113,7 +113,7 @@ L’avertissement potentiel est :
 
 Cette section décrit les cinq principaux cas d’utilisation que vous pouvez mettre en œuvre pour gérer la configuration des limitations dans [!DNL Journey Optimizer].
 
-Pour vous aider dans les tests et la configuration, une collection Postman est disponible [ici](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Pour vous aider dans les tests et la configuration, une collection Postman est disponible [ici](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json).
 
 Elle a été créée pour partager la collection de variables Postman générée par le biais des options __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayez-la > Télécharger pour Postman__, qui génère un fichier d’environnement Postman contenant les valeurs d’intégration sélectionnées.
 
