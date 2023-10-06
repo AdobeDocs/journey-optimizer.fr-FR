@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 70%
 
 ---
 
@@ -40,9 +40,9 @@ Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widg
 
 Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](live-report.md#list-of-components-live).
 
-## Onglet Campagne {#campaign-global}
+## Onglet Campagne {#campaign-live}
 
-### Diffusion {#delivery-global}
+### Diffusion {#delivery-live}
 
 Le widget **[!UICONTROL Statistiques de la campagne]** présente les principales informations relatives à votre campagne :
 
@@ -103,6 +103,21 @@ Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine destinataire]
 
 ## Onglet In-app {#inapp-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_performance"
+>title="Performances in-app"
+>abstract="Les indicateurs de performance clés des performances in-app fournissent des informations essentielles sur l’engagement des visiteurs avec les messages in-app au cours des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_interactions"
+>title="Interactions par type"
+>abstract="Les interactions par type de graphiques et de tableau détaillent la manière dont les utilisateurs ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_summary"
+>title="Résumé in-app"
+>abstract="Le graphique de synthèse in-app illustre la progression de vos impressions et interactions in-app au cours des 24 dernières heures."
+
 Dans le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux diffusions in-app envoyées dans votre campagne.
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
@@ -121,13 +136,43 @@ Les graphes et le tableau **[!UICONTROL Interactions par type]** détaillent la 
 
 ## Onglet Notification push {#push-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_performance"
+>title="Notification push - Envoi des performances"
+>abstract="Le graphique Performance d’envoi de notifications push résume les données essentielles relatives à vos notifications push, telles que les erreurs ou les messages délivrés au cours des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_statistics"
+>title="Notification push - Statistiques"
+>abstract="Le tableau Statistiques push fournit des données sur l&#39;activité des destinataires pour votre diffusion depuis les dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_summary"
+>title="Notification push - Synthèse des envois"
+>abstract="Le graphique Résumé de l’envoi des notifications push affiche les données disponibles pour les notifications push envoyées des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_excluded_reasons"
+>title="Notification push - Raisons exclues"
+>abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, exclus de l’audience ciblée, et qui n’ont pas reçu le message au cours des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_error_reasons"
+>title="Notification push - Raisons de l&#39;erreur"
+>abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures de diffusion."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_breakdown_platform"
+>title="Notification push - Répartition par plateforme"
+>abstract="Le tableau et les graphiques Ventilation par plateforme fournissent une répartition du succès de vos notifications push au cours des dernières 24 heures en fonction du système d’exploitation du destinataire."
+
 Dans le **[!UICONTROL Rapport dynamique]** de campagne, l’onglet **[!UICONTROL Notification push]** détaille les principales informations relatives aux diffusions push envoyées dans votre campagne.
 
 ![](assets/campaign_report_live_2.png)
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
-Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!UICONTROL Résumé des notifications push]** et **[!UICONTROL Mesures d’envoi par notification push]** présentent les informations principales relatives à votre message :
+**[!UICONTROL Performances d&#39;envoi des notifications push]**, **[!UICONTROL Synthèse des notifications push]** et **[!UICONTROL Notification push - Statistiques]** Les widgets détaillent les informations principales relatives à votre message :
 
 * **[!UICONTROL Envoyés]** : nombre total d&#39;envois pour la diffusion.
 
@@ -151,6 +196,31 @@ Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL 
 +++
 
 ## Onglet SMS {#sms-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_statistics"
+>title="SMS - Statistiques"
+>abstract="Le tableau Statistiques d’envoi de SMS récapitule les données essentielles relatives à vos messages SMS, telles que les messages ciblés ou délivrés au cours des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_performance"
+>title="SMS : performance par date"
+>abstract="Le widget Performances des SMS par date fournit des informations clés des dernières 24 heures sur vos messages par le biais d’une représentation graphique."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_error_reasons"
+>title="SMS - Raisons de l’erreur"
+>abstract="Le tableau et les graphiques SMS - Raisons d&#39;erreur vous permettent d&#39;identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures de diffusion."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_excluded_reasons"
+>title="SMS - Motifs exclus"
+>abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, exclus de l’audience ciblée, et qui n’ont pas reçu le message au cours des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_bounces_reasons"
+>title="SMS - Raisons des rebonds"
+>abstract="Les graphiques et les tableaux Rebonds contiennent les données disponibles depuis les dernières 24 heures relatives aux messages rebonds."
 
 Dans le **[!UICONTROL Rapport dynamique]** de campagne, l’onglet **[!UICONTROL SMS]** détaille les principales informations relatives aux diffusions SMS envoyées dans votre campagne.
 
@@ -185,6 +255,21 @@ Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL 
 
 ## Onglet Web {#web-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_performance"
+>title="Performances web"
+>abstract="Les IPC de performances web fournissent des informations complètes sur l’engagement de vos visiteurs avec vos expériences web au cours des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_summary"
+>title="Résumé web"
+>abstract="Le graphique Résumé web illustre la progression de vos expériences web, y compris les impressions, les impressions uniques et les interactions, depuis les dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_interactions"
+>title="Interactions par élément"
+>abstract="Le tableau Interactions par élément fournit des informations clés sur l’engagement de vos visiteurs avec différents éléments de vos pages web au cours des dernières 24 heures."
+
 Dans votre **[!UICONTROL rapport dynamique]** Campaign, l’onglet **[!UICONTROL Web]** présente les informations principales relatives à vos pages web.
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport web.
@@ -202,7 +287,22 @@ Le tableau **[!UICONTROL Interactions par élément]** présente les information
 
 ## Onglet Courrier {#direct-mail-tab}
 
-Depuis le **[!UICONTROL rapport global]** de votre campagne, l’onglet **[!UICONTROL Courrier]** présente les informations principales relatives à vos diffusions de courrier.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_sending_statistics"
+>title="Courrier - Statistiques d’envoi"
+>abstract="Le tableau Statistiques d’envoi de courrier récapitule les données essentielles des dernières 24 heures relatives à vos messages de courrier, telles que les messages ciblés ou délivrés."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_error_reasons"
+>title="Courrier - Raisons de l’erreur"
+>abstract="Le tableau Courrier - Raisons d’erreur vous permet d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_excluded_reasons"
+>title="Courrier - Motifs exclus"
+>abstract="Le tableau et les graphiques des motifs d’exclusion du courrier illustrent les différents facteurs qui ont conduit aux profils utilisateur, exclus de l’audience ciblée, et qui n’ont pas reçu le message au cours des dernières 24 heures."
+
+Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Canal Courrier]** Cet onglet présente les informations principales relatives à vos diffusions courrier.
 
 ![](assets/direct-mail-report_2.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 98%
+source-wordcount: '2955'
+ht-degree: 78%
 
 ---
 
@@ -45,6 +45,11 @@ Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journe
 ## Onglet Campagne {#campaign-global}
 
 ### Diffusion {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="Statistiques de la campagne"
+>abstract="Le widget Statistiques de la campagne présente les informations principales relatives à votre campagne, telles que les Profils d&#39;entrée et les Actions diffusées."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de
 
 ## Onglet in-app {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="Performances in-app"
+>abstract="Les IPC de performances In-App fournissent des informations essentielles sur l’engagement des visiteurs avec les messages In-App."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="Interactions par type"
+>abstract="Les graphes et le tableau Interactions par type détaillent la manière dont les personnes ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="Résumé in-app"
+>abstract="Le graphique de synthèse In-App illustre la progression de vos impressions et interactions In-App au cours de la période spécifiée."
+
 Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux diffusions in-app envoyées dans votre campagne.
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ Les KPI **[!UICONTROL Performances in-app]** détaillent les informations princi
 
 * **[!UICONTROL Taux d’interaction]** : pourcentage d’engagements en lien avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
 
-Le graphe **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions et interactions in-app pour la période concernée.
-
 Les graphes et le tableau **[!UICONTROL Interactions par type]** détaillent la manière dont les personnes ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions.
+
+Le graphe **[!UICONTROL Résumé in-app]** présente l’évolution de vos impressions et interactions in-app pour la période concernée.
 +++
 
 ## Onglet Notification push {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="Notification push - Statistiques d&#39;envoi"
+>abstract="Le tableau Statistiques d’envoi de notifications push résume les données essentielles sur vos notifications push, telles que les messages ciblés ou délivrés."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="Notification push - Statistiques de tracking"
+>abstract="Les statistiques de tracking des notifications push fournissent des données sur l&#39;activité des destinataires pour votre diffusion."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="Notification push - Synthèse des envois"
+>abstract="Le graphique Résumé de l’envoi des notifications push affiche les données disponibles pour les notifications push envoyées."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="Notification push - Raisons exclues"
+>abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, qui ont été exclus de l’audience ciblée et qui n’ont pas reçu le message."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="Notification push - Raisons de l&#39;erreur"
+>abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours de votre diffusion."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="Notification push - Répartition par plateforme"
+>abstract="Le tableau et les graphiques Ventilation par plateforme fournissent une répartition du succès de vos notifications push en fonction du système d’exploitation du destinataire."
+
 Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL Notification push]** détaille les principales informations relatives aux diffusions push envoyées dans votre campagne.
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)Les indicateurs de performance clés (IPC) des performances in-app détaillent les informations principales relatives à l’engagement des visiteurs avec vos messages in-app.
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
 
-Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
+La variable **[!UICONTROL Notification push - Statistiques d&#39;envoi]** Le tableau détaille les informations principales relatives à vos notifications push
 
 * **[!UICONTROL Ciblés]** : nombre total de messages traités lors de l’analyse de la diffusion.
 
@@ -295,14 +345,44 @@ L’**[!UICONTROL Optimisation de l’heure d’envoi]** détaille le succès de
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s&#39;est produite au cours de votre diffusion.
+La variable **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelle erreur s’est produite au cours de votre diffusion.
 
-Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
+La variable **[!UICONTROL Exclure des motifs]** les graphiques et les tableaux affichent les différentes raisons qui ont empêché les profils utilisateur, exclus des profils ciblés, de recevoir le message.
 
-Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système d&#39;exploitation de votre destinataire.
+La variable **[!UICONTROL Ventilation par plateforme]** un graphique et un tableau détaillent le succès de votre notification push en fonction du système d&#39;exploitation du destinataire.
 +++
 
 ## Onglet SMS {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="SMS - Statistiques d&#39;envoi"
+>abstract="Le tableau Statistiques d’envoi de SMS récapitule les données essentielles relatives à vos messages SMS, tels que les messages ciblés ou délivrés."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS - Raisons de l’erreur"
+>abstract="Le tableau et les graphiques SMS - Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours de votre diffusion."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS : performance par date"
+>abstract="Le widget Performances des SMS par date fournit des informations clés sur vos messages par le biais d’une représentation graphique."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS - Motifs exclus"
+>abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, qui ont été exclus de l’audience ciblée et qui n’ont pas reçu le message."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS - Raisons des rebonds"
+>abstract="Les graphiques et les tableaux Rebonds contiennent les données disponibles relatives aux messages rebonds."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS : clics par liens"
+>abstract="Le widget SMS - Clics par liens fournit des informations essentielles sur l’engagement des visiteurs avec les URL de vos messages."
 
 Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL SMS]** détaille les principales informations relatives aux diffusions SMS envoyées dans votre campagne.
 
@@ -330,13 +410,28 @@ Le widget **[!UICONTROL Performances de SMS par date]** détaille les informatio
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
-Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL Causes des bounces]** et **[!UICONTROL Raisons des erreurs]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
+La variable **[!UICONTROL Exclure les raisons]** et **[!UICONTROL Raisons des rebonds]** et **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Les widgets **[!UICONTROL SMS - Clics par liens]** et **[!UICONTROL SMS - Statistiques de tracking]** affichent les principales informations relatives à l’engagement des visiteurs et des visiteuses sur vos URL.
+La variable **[!UICONTROL SMS : clics par liens]** Les widgets détaillent les informations principales relatives à l’engagement des visiteurs avec vos URL.
 
 +++
 
 ## Onglet Web {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="Performances web"
+>abstract="Les indicateurs de performance clés des performances web fournissent des informations complètes sur l’engagement de vos visiteurs avec vos expériences web."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Résumé web"
+>abstract="Le graphique Résumé web illustre la progression de vos expériences web, y compris les impressions, les impressions uniques et les interactions, au cours de la période spécifiée."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="Interactions par élément"
+>abstract="Le tableau Interactions par élément fournit des informations clés sur l’engagement des visiteurs avec différents éléments de vos pages web."
 
 Depuis votre **[!UICONTROL rapport global]** de campagne, l’onglet **[!UICONTROL Web]** présente les informations principales relatives à vos pages web.
 
@@ -358,6 +453,21 @@ Le tableau **[!UICONTROL Interactions par élément]** présente les information
 +++
 
 ## Onglet Courrier {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="Courrier - Statistiques d’envoi"
+>abstract="Le tableau Statistiques d’envoi de courrier récapitule les données essentielles relatives à vos messages courrier, telles que les messages ciblés ou délivrés."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="Courrier - Raisons de l’erreur"
+>abstract="Le tableau et les graphiques Courrier - Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours de votre diffusion."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="Courrier - Motifs exclus"
+>abstract="Le tableau et les graphiques des motifs d’exclusion du courrier illustrent les différents facteurs qui ont conduit à la création de profils d’utilisateurs, qui ont été exclus de l’audience ciblée, et qui n’ont pas reçu le message."
 
 Depuis le **[!UICONTROL rapport global]** de votre campagne, l’onglet **[!UICONTROL Courrier]** présente les informations principales relatives à vos diffusions de courrier.
 
