@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
+source-git-commit: 4b23f9fa2d6d7d12988f3c590d6e835637c05bea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 19%
+source-wordcount: '280'
+ht-degree: 17%
 
 ---
 
@@ -39,7 +39,10 @@ Les règles de décision vous permettent de définir l’audience des éléments
 
 Par exemple, imaginons un scénario où des éléments de décision avec des produits liés au yoga sont conçus pour les femmes. Avec les règles de décision, vous pouvez spécifier que ces éléments ne doivent être affichés que pour les profils dont le genre est &quot;Femme&quot; et qui ont indiqué un &quot;Point ciblé&quot; dans &quot;Yoga&quot;.
 
-Outre les règles de décision relatives aux éléments et à la stratégie de sélection, vous pouvez créer des paramètres supplémentaires pour l’audience prévue au niveau de la campagne. [En savoir plus](../campaigns/create-campaign.md)
+>[!NOTE]
+>
+>Outre les règles de décision relatives aux éléments et à la stratégie de sélection, vous pouvez définir l’audience prévue au niveau de la campagne. [En savoir plus](../campaigns/create-campaign.md#audience)
+
 
 La liste des règles de décision est accessible dans la variable **[!UICONTROL Configuration]** / **[!UICONTROL Règles de décision]** .
 
@@ -49,7 +52,7 @@ La liste des règles de décision est accessible dans la variable **[!UICONTROL 
 >
 >Pour l’instant, les règles de décision sont gérées à l’aide du Journey Optimizer **Gestion des décisions** . Par conséquent, la variable **[!UICONTROL Règles de décision]** La liste dans Experience Decisioning englobe les règles créées à partir des deux Journey Optimizer **[!UICONTROL Gestion des décisions]** ou **[!UICONTROL Experience Decisioning]** menus.
 
-Pour créer une collection, procédez comme suit :
+Pour créer une règle, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Configuration]** / **[!UICONTROL Règles de décision]**.
 1. L’interface utilisateur de la gestion des décisions de Journey Optimizer s’affiche dans la zone centrale. Suivez les étapes présentées dans la section [Documentation sur la gestion des décisions](../offers/offer-library/creating-decision-rules.md) pour créer votre règle en fonction de vos besoins.
