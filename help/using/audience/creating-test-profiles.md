@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 100%
+source-wordcount: '1362'
+ht-degree: 96%
 
 ---
 
@@ -41,18 +41,18 @@ Pour **créer un schéma**, procédez comme suit :
 
 1. Dans la section du menu DATA MANAGEMENT, cliquez sur **[!UICONTROL Schémas]**.
    ![](assets/test-profiles-0.png)
-1. Cliquez sur **[!UICONTROL Créer un schéma]** dans le coin supérieur droit, puis sélectionnez un type de schéma, par exemple **Profil individuel XDM**.
+1. Cliquez sur **[!UICONTROL Créer un schéma]**, en haut à droite, sélectionnez un type de schéma, par exemple **Profil individuel** et cliquez sur **Suivant**.
    ![](assets/test-profiles-1.png)
-1. Sélectionnez les groupes de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
+1. Saisissez le nom de votre schéma, puis cliquez sur **Terminer**.
+   ![](assets/test-profiles-1-bis.png)
+1. Dans le **Groupes de champs** , sur la gauche, cliquez sur **Ajouter** et sélectionnez les groupes de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
    ![](assets/test-profiles-1-ter.png)
 Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s&#39;affiche dans l&#39;écran aperçu du schéma.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* Cliquez sur le nom du schéma pour le modifier et mettre à jour ses propriétés.
-   >
-   >* Cliquez sur le bouton **[!UICONTROL Ajouter]** dans la section Groupes de champs pour sélectionner d&#39;autres groupes de champs à ajouter au schéma.
+   >Cliquez sur le nom du schéma pour mettre à jour ses propriétés.
 
 1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l&#39;identité principale.
    ![](assets/test-profiles-3.png)

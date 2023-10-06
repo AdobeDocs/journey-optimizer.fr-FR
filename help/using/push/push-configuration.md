@@ -6,10 +6,10 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 100%
+source-wordcount: '1609'
+ht-degree: 96%
 
 ---
 
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 Pour que ce parcours fonctionne, vous devez créer un schéma XDM. Pour plus d’informations, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#schemas-and-data-ingestion){target="_blank"}.
 
-1. Dans le menu de gauche, accédez à **[!UICONTROL Schémas]**.
-
-1. Cliquez sur **[!UICONTROL Créer un schéma]** puis sélectionnez **[!UICONTROL XDM ExperienceEvent]**.
-
+1. Dans la section du menu DATA MANAGEMENT, cliquez sur **[!UICONTROL Schémas]**.
+   ![](assets/test_push_1.png)
+1. Cliquez sur **[!UICONTROL Créer un schéma]**, dans le coin supérieur droit, sélectionnez **[!UICONTROL Événement d’expérience]** et cliquez sur **Suivant**.
    ![](assets/test_push_2.png)
-
-1. Sélectionnez **[!UICONTROL Créer un groupe de champs]**.
+1. Saisissez le nom et la description de votre schéma, puis cliquez sur **Terminer**.
+   ![](assets/test_push_3.png)
+1. Dans le **Groupes de champs** , sur la gauche, cliquez sur **Ajouter** et sélectionnez **[!UICONTROL Créer un groupe de champs]**.
 
 1. Saisissez un **[!UICONTROL Nom d&#39;affichage]** et une **[!UICONTROL Description]**. Cliquez sur **[!UICONTROL Ajouter des groupes de champs]** lorsque vous avez terminé. Pour plus d’informations sur la création de groupes de champs, consultez la [documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. Sur le côté gauche, sélectionnez le schéma. Dans le volet de droite, saisissez le nom de votre schéma et votre description. Activez ce schéma pour **[!UICONTROL Profil]**.
+1. Sur le côté gauche, sélectionnez le schéma. Dans le volet de droite, activez ce schéma pour **[!UICONTROL Profil]**.
 
    ![](assets/test_push_4b.png)
 
