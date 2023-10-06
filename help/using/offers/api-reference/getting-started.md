@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Ce guide nécessite une compréhension professionnelle des composants suivants d
 
 Ce guide fournit des exemples d’appels API pour démontrer comment formater vos requêtes. Il s’agit notamment de chemins d’accès, d’en-têtes requis et de payloads de requêtes correctement formatés. L’exemple JSON renvoyé dans les réponses de l’API est également fourni. Pour plus d’informations sur les conventions utilisées dans la documentation pour les exemples d’appels d’API, voir la section concernant la [lecture d’exemples d’appels d’API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=fr#how-do-i-format-an-api-request){target="_blank"} dans le guide de dépannage [!DNL Experience Platform].
 
-## Collecte des valeurs des en-têtes requis {#gather-values-for-required-headers}
+## Collecter des valeurs pour les en-têtes requis {#gather-values-for-required-headers}
 
 Pour lancer des appels aux API [!DNL Adobe Experience Platform], vous devez d’abord suivre le [tutoriel d’authentification](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=fr){target="_blank"}. Le tutoriel d&#39;authentification fournit les valeurs de chacun des en-têtes requis dans tous les appels d&#39;API [!DNL Experience Platform], comme indiqué ci-dessous :
 
@@ -47,7 +47,7 @@ Toutes les requêtes contenant une payload (POST, PUT, PATCH) requièrent un en-
 
 ## Étapes suivantes {#next-steps}
 
-Ce document couvrait les connaissances préalables requises pour effectuer des appels à la fonction [!DNL Offer Library] API. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
+Dans ce document, vous avez découvert les connaissances préalables requises pour effectuer des appels vers l’API [!DNL Offer Library]. Vous pouvez désormais procéder aux exemples d&#39;appel fournis dans ce guide de développement et suivre leurs instructions.
 <!--
 >[!NOTE]
 >

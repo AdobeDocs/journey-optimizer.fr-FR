@@ -11,7 +11,7 @@ badge: label="Version Beta"
 source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* [Prise en main d’Experience Decisioning](gs-experience-decisioning.md)
-* Gestion des éléments de décision
-   * [Configuration du catalogue d’éléments](catalogs.md)
-   * [Création d’éléments de décision](items.md)
-   * [Gestion des collections d’éléments](collections.md)
-* Configuration de la sélection d’éléments
+* [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
+* Gérer les éléments de décision
+   * [Configurer le catalogue d’éléments](catalogs.md)
+   * [Créer des éléments de décision](items.md)
+   * [Gérer des collections d’éléments](collections.md)
+* Configurer la sélection d’éléments
    * [Créer des règles de décision](rules.md)
-   * [Création de méthodes de classement](ranking.md)
+   * [Créer des méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
-* [Création de stratégies de décision](create-decision.md)
+* [Créer des stratégies de décision](create-decision.md)
 * **[Découvrir un cas pratique](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
@@ -54,7 +54,7 @@ Vous devez d’abord créer des éléments, les regrouper dans des collections, 
 
 1. Build **stratégies de sélection** qui tirent parti des collections, des règles de décision et des méthodes de classement afin d’identifier les éléments de décision adaptés à l’affichage sur les profils. [En savoir plus](selection-strategies.md)
 
-## Création de stratégies de décision
+## Créer des stratégies de décision
 
 Pour présenter la meilleure offre et expérience dynamique aux visiteurs de votre site web ou de votre application mobile, ajoutez une stratégie de décision à une campagne basée sur du code.
 

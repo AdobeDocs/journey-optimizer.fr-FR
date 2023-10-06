@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 32%
+ht-degree: 38%
 
 ---
 
@@ -19,18 +20,18 @@ ht-degree: 32%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* [Prise en main d’Experience Decisioning](gs-experience-decisioning.md)
-* Gestion des éléments de décision
-   * [Configuration du catalogue d’éléments](catalogs.md)
-   * [Création d’éléments de décision](items.md)
-   * [Gestion des collections d’éléments](collections.md)
-* Configuration de la sélection d’éléments
+* [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
+* Gérer les éléments de décision
+   * [Configurer le catalogue d’éléments](catalogs.md)
+   * [Créer des éléments de décision](items.md)
+   * [Gérer des collections d’éléments](collections.md)
+* Configurer la sélection d’éléments
    * [Créer des règles de décision](rules.md)
-   * [Création de méthodes de classement](ranking.md)
+   * [Créer des méthodes de classement](ranking.md)
 * **[Créer des stratégies de sélection](selection-strategies.md)**
-* [Création de stratégies de décision](create-decision.md)
+* [Créer des stratégies de décision](create-decision.md)
 
 >[!ENDSHADEBOX]
 
@@ -117,4 +118,3 @@ Une fois créée, vous pouvez utiliser cette formule dans une stratégie de sél
 Vous pouvez également utiliser un système de modèles formés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle d’IA. Découvrez comment créer un modèle d’IA dans [cette section](ranking.md).
 
 Une fois qu’un modèle AI a été créé, vous pouvez l’utiliser dans une stratégie de sélection. Si plusieurs offres sont éligibles, le système de modèle formé détermine l’offre qui doit être présentée en premier pour cette stratégie de sélection.
-

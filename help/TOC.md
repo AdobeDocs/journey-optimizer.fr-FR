@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 93%
       + [Configurer les paramètres de la surface d’e-mails](using/email/email-settings.md)
 + Canal in-app{#in-app}
    + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
-   + [Conditions préalables pour les canaux in-app](using/in-app/inapp-configuration.md)
+   + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
    + [Créer un message in-app](using/in-app/create-in-app.md)
    + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
    + [Tester et envoyer une notification in-app](using/in-app/send-in-app.md)
@@ -227,7 +227,7 @@ ht-degree: 93%
    + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
    + [Créer un courrier](using/direct-mail/create-direct-mail.md)
    + [Tester et envoyer un message de courrier](using/direct-mail/test-send-direct-mail.md)
-   + [Configurer le publipostage direct](using/direct-mail/direct-mail-configuration.md)
+   + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
 + Canal web {#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
    + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
@@ -235,14 +235,14 @@ ht-degree: 93%
    + Créer des pages web {#author-web-pages}
       + [Modifier le contenu d’une page web](using/web/edit-web-content.md)
       + [Gérer les modifications](using/web/manage-web-modifications.md)
-      + [Surveillance des campagnes web](using/web/monitor-web-campaigns.md)
-      + [Créer des applications d’une seule page](using/web/web-spa.md)
+      + [Surveiller vos campagnes web](using/web/monitor-web-campaigns.md)
+      + [Créer des applications monopage](using/web/web-spa.md)
    + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
 + Expérience basée sur le code {#code-based-experience}
    + [Prise en main du canal basé sur le code](using/code-based/get-started-code-based.md)
    + [Conditions préalables basées sur le code](using/code-based/code-based-prerequisites.md)
-   + [Exemples de mise en oeuvre basés sur le code](using/code-based/code-based-implementation-samples.md)
-   + [Création d’expériences basées sur du code](using/code-based/create-code-based.md)
+   + [Exemples de mises en œuvre basées sur le code](using/code-based/code-based-implementation-samples.md)
+   + [Créer des expériences basées sur le code](using/code-based/create-code-based.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Création d’une page de destination](using/landing-pages/create-lp.md)
@@ -306,7 +306,7 @@ ht-degree: 93%
    + Profils{#profiles}
       + [Prise en main des profils](using/audience/get-started-profiles.md)
       + [Créer des profils de test](using/audience/creating-test-profiles.md)
-      + [Utilisation d’attributs calculés](using/audience/computed-attributes.md)
+      + [Utiliser des attributs calculés](using/audience/computed-attributes.md)
    + [Identités](using/audience/get-started-identity.md)
    + [Utilisation des licences](using/audience/license-usage.md)
 + Suivre et surveiller {#reporting}
@@ -325,9 +325,9 @@ ht-degree: 93%
       + [Rapport d’objectif](using/reports/objective-report.md)
       + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
       + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
-   + Rapports sur les canaux {#channel-report}
-      + [Prise en main des rapports Canal](using/reports/channel-report-gs.md)
-      + [Rapports sur les canaux](using/reports/channel-report.md)
+   + Rapports sur le canal {#channel-report}
+      + [Prise en main des rapports sur le canal](using/reports/channel-report-gs.md)
+      + [Rapports sur le canal](using/reports/channel-report.md)
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
@@ -483,17 +483,17 @@ ht-degree: 93%
          + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Experience Decisioning {#experience-decisioning}
-   + [Prise en main d’Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-   + Gestion des éléments de décision {#decision-items}
-      + [Configuration du catalogue d’éléments](using/experience-decisioning/catalogs.md)
-      + [Création d’éléments de décision](using/experience-decisioning/items.md)
-      + [Gestion des collections d’éléments](using/experience-decisioning/collections.md)
-   + Configuration de la sélection d’éléments {#selection}
++ Prise de décision basée sur l’expérience {#experience-decisioning}
+   + [Prise en main de la prise de décision basée sur l’expérience](using/experience-decisioning/gs-experience-decisioning.md)
+   + Gérer les éléments de décision {#decision-items}
+      + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
+      + [Créer des éléments de décision](using/experience-decisioning/items.md)
+      + [Gérer des collections d’éléments](using/experience-decisioning/collections.md)
+   + Configurer la sélection d’éléments {#selection}
       + [Créer des règles de décision](using/experience-decisioning/rules.md)
-      + [Création de méthodes de classement](using/experience-decisioning/ranking.md)
+      + [Créer des méthodes de classement](using/experience-decisioning/ranking.md)
    + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
-   + [Création de stratégies de décision](using/experience-decisioning/create-decision.md)
+   + [Créer des stratégies de décision](using/experience-decisioning/create-decision.md)
 + Gestion des données {#data-management}
    + [Prise en main de la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
@@ -512,11 +512,11 @@ ht-degree: 93%
       + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
       + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
       + [Création de groupes d’adresses IP](using/configuration/ip-pools.md)
-   + Mettre en oeuvre un plan de chauffage par IP {#implement-ip-warmup-plan}
-      + [Prise en main des plans de chauffage des adresses IP](using/configuration/ip-warmup-gs.md)
-      + [Créer des campagnes de réchauffement des adresses IP](using/configuration/ip-warmup-campaign.md)
-      + [Créer une formule de chauffage des adresses IP](using/configuration/ip-warmup-plan.md)
-      + [Exécution de la formule de chauffage des adresses IP](using/configuration/ip-warmup-execution.md)
+   + Mettre en œuvre un plan de préchauffage des adresses IP {#implement-ip-warmup-plan}
+      + [Prise en main des plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
+      + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
+      + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
+      + [Exécuter un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-execution.md)
    + Surveiller des adresses e-mail {#monitor-reputation}
       + [Liste de suppression](using/configuration/manage-suppression-list.md)
       + [Reprises](using/configuration/retries.md)
@@ -525,7 +525,7 @@ ht-degree: 93%
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles de fréquence](using/configuration/frequency-rules.md)
-   + [Mise en oeuvre d’applications d’une seule page](using/web/web-spa-implementation.md)
+   + [Mettre en œuvre des applications monopage](using/web/web-spa-implementation.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}

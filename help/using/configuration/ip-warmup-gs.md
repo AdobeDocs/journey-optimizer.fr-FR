@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des plans de chauffage des adresses IP
-description: Découvrez comment mettre en oeuvre un plan de chauffage par IP
+title: Prise en main des plans de préchauffage d’adresses IP
+description: Découvrez comment mettre en œuvre un plan de préchauffage d’adresses IP.
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -10,14 +10,15 @@ level: Experienced
 keywords: IP, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
-# Prise en main des plans de chauffage des adresses IP {#ip-warmup-gs}
+# Prise en main des plans de préchauffage d’adresses IP {#ip-warmup-gs}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -28,32 +29,32 @@ ht-degree: 25%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* **[Prise en main du réchauffement des adresses IP](ip-warmup-gs.md)**
-* [Créer des campagnes de réchauffement des adresses IP](ip-warmup-campaign.md)
-* [Créer une formule de chauffage des adresses IP](ip-warmup-plan.md)
-* [Exécution de la formule de chauffage par IP](ip-warmup-execution.md)
+* **[Prise en main du préchauffage d’adresses IP](ip-warmup-gs.md)**
+* [Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)
+* [Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)
+* [Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->La fonctionnalité de réchauffement des adresses IP est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>La fonctionnalité de préchauffage d’adresses IP est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
-Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de chauffage des adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
+Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
 
 >[!CAUTION]
 >
 >Cette fonctionnalité s&#39;applique uniquement au canal e-mail.
 
-Lorsque vous envoyez des emails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des emails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
+Lorsque vous envoyez des e-mails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les marque souvent comme spam.
 
-Pour éviter que les emails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité de plan de réchauffement des adresses IP . Cette nouvelle option dans la variable **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes. Cela devrait garantir un développement fluide de la phase de démarrage et vous permettre de réduire le taux global d&#39;adresses invalides.
+Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité du plan de préchauffage d’adresses IP. Cette nouvelle option dans le menu **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes. Cela devrait garantir un développement fluide de la phase de démarrage et vous permettre de réduire le taux global d’adresses invalides.
 
 >[!NOTE]
 >
->En savoir plus sur l’amélioration de la réputation de vos emails grâce au réchauffement des adresses IP dans la section [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr).
+>Apprenez-en plus sur la façon d’accroître la réputation de vos e-mails grâce au préchauffage dʼadresses IP dans la section [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr).
 
 <!--
 Benefits
@@ -67,10 +68,10 @@ Benefits
 * There is an expectation that with this, it will ease around 30% of effort and will be much better experience for consultant/partner/practitioner - right from planning to execution to reporting
 -->
 
-Les étapes clés de la mise en oeuvre d’un plan de chauffage par IP sont les suivantes :
+Les étapes clés de la mise en œuvre d’un plan de préchauffage d’adresses IP sont les suivantes :
 
-1. Vous devez d’abord créer une ou plusieurs campagnes pour lesquelles l’option de réchauffement des adresses IP est activée. [En savoir plus](ip-warmup-campaign.md)
+1. Vous devez d’abord créer une ou plusieurs campagnes pour lesquelles l’option de préchauffage d’adresses IP est activée. [En savoir plus](ip-warmup-campaign.md)
 
-1. Créer un plan de chauffage par IP dans [!DNL Journey Optimizer] et téléchargez la feuille Excel préparée avec l’aide de votre consultant en délivrabilité. [En savoir plus](ip-warmup-plan.md)
+1. Créez un plan de préchauffage d’adresses IP dans [!DNL Journey Optimizer] et téléchargez la feuille Excel préparée avec l’aide de votre consultant ou consultante en délivrabilité. [En savoir plus](ip-warmup-plan.md)
 
-1. Sélectionnez une opération pour chaque phase de votre plan et activez les exécutions correspondantes. [En savoir plus](ip-warmup-execution.md)
+1. Sélectionnez une campagne pour chaque phase de votre plan et activez les exécutions correspondantes. [En savoir plus](ip-warmup-execution.md)

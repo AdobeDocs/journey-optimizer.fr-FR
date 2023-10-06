@@ -1,5 +1,5 @@
 ---
-title: Exemples de mise en oeuvre basés sur le code
+title: Exemples de mises en œuvre basées sur le code
 description: Cette page présente des exemples de la méthode de mise en oeuvre de la fonctionnalité basée sur le code Journey Optimizer.
 feature: Offers
 topic: Content Management
@@ -8,11 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 18%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
 * [Prise en main du canal basé sur le code](get-started-code-based.md)
 * [Conditions préalables basées sur le code](code-based-prerequisites.md)
-* **[Exemples de mise en oeuvre basés sur le code](code-based-implementation-samples.md)**
-* [Création d’expériences basées sur du code](create-code-based.md)
+* **[Exemples de mises en œuvre basées sur le code](code-based-implementation-samples.md)**
+* [Créer des expériences basées sur le code](create-code-based.md)
 
 >[!ENDSHADEBOX]
 

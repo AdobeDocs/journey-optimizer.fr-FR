@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 5%
@@ -65,6 +66,3 @@ Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vou
 * Si les mêmes conditions sont répétées sur plusieurs parcours (contrôles du consentement, suppressions), envisagez de les déplacer dans le cadre de la définition de segment. Par exemple, si vous avez une condition pour vérifier que &quot;l’adresse électronique n’est pas vide&quot; sur plusieurs parcours, cette condition est incluse dans la définition de segment.
 * Si votre parcours comporte plusieurs conditions pour diviser l’audience afin d’afficher les nombres à chaque étape, pensez à utiliser Customer Journey Analytics ou d’autres solutions de création de rapports mieux adaptées à l’analyse.
 * Si vous approchez de la limite des noeuds sur la zone de travail, envisagez de consolider les actions avec des paramètres ou du contenu dynamiques pour servir le contenu approprié plutôt que des noeuds explicites.
-
-
-

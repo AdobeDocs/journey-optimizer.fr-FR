@@ -10,7 +10,8 @@ level: Beginner
 badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
+exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
@@ -21,8 +22,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
->title="Créer le contenu de l’e-mail"
->abstract="L’assistant de contenu d’Adobe Journey Optimizer offre des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images."
+>title="Créer le contenu d’un e-mail"
+>abstract="L’assistant de contenu d’Adobe Journey Optimizer offre des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. "
 
 
 >[!BEGINSHADEBOX]
@@ -48,4 +49,3 @@ Utilisez l’assistant de contenu pour optimiser l’impact de votre message en 
 >[!AVAILABILITY]
 >
 >L’assistant de contenu Adobe Journey Optimizer est actuellement disponible en version Beta pour certaines personnes uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
-

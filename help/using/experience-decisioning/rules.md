@@ -12,7 +12,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* [Prise en main d’Experience Decisioning](gs-experience-decisioning.md)
-* Gestion des éléments de décision
-   * [Configuration du catalogue d’éléments](catalogs.md)
-   * [Création d’éléments de décision](items.md)
-   * [Gestion des collections d’éléments](collections.md)
-* Configuration de la sélection d’éléments
+* [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
+* Gérer les éléments de décision
+   * [Configurer le catalogue d’éléments](catalogs.md)
+   * [Créer des éléments de décision](items.md)
+   * [Gérer des collections d’éléments](collections.md)
+* Configurer la sélection d’éléments
    * **[Créer des règles de décision](rules.md)**
-   * [Création de méthodes de classement](ranking.md)
+   * [Créer des méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
-* [Création de stratégies de décision](create-decision.md)
+* [Créer des stratégies de décision](create-decision.md)
 
 >[!ENDSHADEBOX]
 

@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ Notez également qu’un format spécifique est attendu pour les paramètres d�
 
 ## Bonnes pratiques{#custom-action-enhancements-best-practices}
 
-Une limite de limitation de 150 000 appels de plus de 30 secondes est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation des clients, afin de protéger les points de terminaison externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limite de limitation ou de ralentissement plus élevée via nos API de limitation/limitation. Consultez [cette page](../configuration/external-systems.md).
+Une limite de limitation de 150 000 appels de plus de 30 secondes est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limite de limitation ou de ralentissement plus élevée via nos API de limitation/limitation. Consultez [cette page](../configuration/external-systems.md).
 
 Vous ne devez pas cibler les points de terminaison publics avec des actions personnalisées pour diverses raisons :
 

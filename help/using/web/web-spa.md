@@ -1,5 +1,5 @@
 ---
-title: Créer des applications d’une seule page
+title: Créer des applications monopage
 description: Découvrez comment créer des SPA et appliquer des modifications à différentes vues dans Journey Optimizer
 feature: Web Channel
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 8%
+ht-degree: 23%
 
 ---
 
-# Créer des applications d’une seule page {#web-author-spas}
+# Créer des applications monopage {#web-author-spas}
 
 ## À propos des vues {#about-views}
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 
 [Découvrez comment créer des applications monopage dans cette vidéo](#video)
 
-Une vue peut être définie comme un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse.
+Une vue peut être définie pour un site entier ou un groupe d’éléments visuels sur un site, tels que la page d’accueil, l’ensemble du site de produits ou les préférences de livraison, encadrés sur toutes les pages de passage en caisse.
 
 Une configuration de développeur unique est nécessaire pour définir les vues dans l’implémentation du SDK Web de Adobe Experience Platform. Vous pouvez ainsi créer et exécuter des campagnes web Adobe Journey Optimizer sur SPA.
 
@@ -83,11 +83,11 @@ Une fois que vous avez ajouté une modification alors que vous vous trouvez dans
 
 ## Vidéo pratique{#video}
 
-Cette vidéo explique comment :
+Cette vidéo explique comment :
 
 * Découvrez SPA vues à l’aide de **[!UICONTROL Parcourir]** mode
-* Effectuer la création dans la vue actuelle
-* Application des modifications de site web à plusieurs vues ou à toutes les vues découvertes
+* Effectuer une création dans la vue actuelle
+* Appliquer des modifications de site Web à plusieurs vues ou à toutes les vues découvertes
 * Actions en bloc sur les modifications
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

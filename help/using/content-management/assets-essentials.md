@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Pour plus d’informations sur le téléchargement de ressources, consultez la d
 
    ![](assets/media_library_1.png)
 
-1. Sélectionnez le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel as a Cloud Service Assets, à condition que vous possédiez cette solution.
+1. Sélectionnez le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel Assets as a Cloud Service, à condition que vous possédiez cette solution.
 
    ![](assets/media_library_4.png)
 

@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation d’attributs calculés
+title: Utiliser des attributs calculés
 description: Découvrez comment utiliser des attributs calculés.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 608394da88d42095a1adc517a067c725eac52707
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-
-# Utilisation d’attributs calculés {#computed-attributes}
+# Utiliser des attributs calculés {#computed-attributes}
 
 Les attributs calculés vous permettent de résumer des événements comportementaux individuels en attributs de profil calculés disponibles sur Adobe Experience Platform. Ces attributs calculés sont basés sur des jeux de données d’événement d’expérience activés pour le profil ingérés dans Adobe Experience Platform et servent de points de données agrégés stockés dans les profils client.
 
@@ -34,7 +34,7 @@ Dans cet écran, vous pouvez créer des attributs calculés en créant des règl
 
 Une fois votre règle prête, publiez l’attribut calculé pour le rendre disponible dans d’autres services en aval, y compris Journey Optimizer.
 
-Des informations détaillées sur la création et la gestion des attributs calculés sont disponibles dans la section [Documentation sur les attributs calculés](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+Des informations détaillées sur la création et la gestion des attributs calculés sont disponibles dans la section [Documentation sur les attributs calculés](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=fr)
 
 ## Ajout d’attributs calculés à la source de données Adobe Experience Platform {#source}
 

@@ -1,5 +1,5 @@
 ---
-title: Prise en main d’Experience Decisioning
+title: Prise en main de la prise de décision basée sur l’expérience
 description: En savoir plus sur Experience Decisioning
 feature: Offers
 topic: Integrations
@@ -8,30 +8,30 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-exl-id: 903c1cb0-3e15-4f44-a9bf-bdb436316531
-source-git-commit: 979970d05f52fdbdb76d03a232d405af7097ba30
+exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
-# Prise en main d’Experience Decisioning {#get-started-experience-decisioning}
+# Prise en main de la prise de décision basée sur l’expérience {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* **[Prise en main d’Experience Decisioning](gs-experience-decisioning.md)**
-* Gestion des éléments de décision
-   * [Configuration du catalogue d’éléments](catalogs.md)
-   * [Création d’éléments de décision](items.md)
-   * [Gestion des collections d’éléments](collections.md)
-* Configuration de la sélection d’éléments
+* **[Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)**
+* Gérer les éléments de décision
+   * [Configurer le catalogue d’éléments](catalogs.md)
+   * [Créer des éléments de décision](items.md)
+   * [Gérer des collections d’éléments](collections.md)
+* Configurer la sélection d’éléments
    * [Créer des règles de décision](rules.md)
-   * [Création de méthodes de classement](ranking.md)
+   * [Créer des méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
-* [Création de stratégies de décision](create-decision.md)
+* [Créer des stratégies de décision](create-decision.md)
 
 >[!ENDSHADEBOX]
 

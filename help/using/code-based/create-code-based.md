@@ -1,5 +1,5 @@
 ---
-title: Création d’expériences basées sur du code
+title: Créer des expériences basées sur le code
 description: Découvrez comment créer des expériences basées sur du code dans Journey Optimizer
 feature: Offers
 topic: Content Management
@@ -8,29 +8,30 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
-# Création d’expériences basées sur du code {#create-code-based}
+# Créer des expériences basées sur le code {#create-code-based}
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
 * [Prise en main du canal basé sur le code](get-started-code-based.md)
 * [Conditions préalables basées sur le code](code-based-prerequisites.md)
-* [Exemples de mise en oeuvre basés sur le code](code-based-implementation-samples.md)
-* **[Création d’expériences basées sur du code](create-code-based.md)**
+* [Exemples de mises en œuvre basées sur le code](code-based-implementation-samples.md)
+* **[Créer des expériences basées sur le code](create-code-based.md)**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Le canal d’expérience basé sur le code est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>La fonctionnalité de canal d’expérience basée sur le code est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
 ## Création d’une campagne basée sur du code {#create-code-based-campaign}
 

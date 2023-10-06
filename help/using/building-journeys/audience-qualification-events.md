@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
 
-* Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut prendre jusqu’à 10 minutes pour être active et écouter les profils entrant ou sortant de l’audience.
+* Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 
 ### Configurer l’activité{#cnfigure-segment-qualification}
 

@@ -1,5 +1,5 @@
 ---
-title: Conditions préalables pour les canaux in-app
+title: Conditions préalables pour le canal in-app
 description: Découvrez comment configurer votre environnement pour envoyer des messages in-app avec Journey Optimizer
 role: Admin
 level: Intermediate
@@ -8,11 +8,11 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
-# Conditions préalables pour les canaux in-app {#inapp-configuration}
+# Conditions préalables pour le canal in-app {#inapp-configuration}
 
 ## Conditions préalables à la diffusion {#delivery-prerequisites}
 

@@ -29,7 +29,7 @@ Accédez aux sections suivantes pour en savoir plus sur chaque rubrique :
 
 * [Gérer les modifications](manage-web-modifications.md)
 
-* [Surveillance des campagnes web](monitor-web-campaigns.md)
+* [Surveiller vos campagnes web](monitor-web-campaigns.md)
 
 ## Utilisation du concepteur web {#work-with-web-designer}
 

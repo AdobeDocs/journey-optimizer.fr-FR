@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer des campagnes de réchauffement des adresses IP
+title: Créer des campagnes de préchauffage d’adresses IP
 description: Découvrez comment créer une campagne de réchauffement des adresses IP
 feature: Application Settings
 topic: Administration
@@ -10,14 +10,15 @@ level: Intermediate
 keywords: IP, pools, délivrabilité
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
-# Créer des campagnes de réchauffement des adresses IP {#create-ip-warmup-campaign}
+# Créer des campagnes de préchauffage d’adresses IP {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
@@ -26,12 +27,12 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* [Prise en main du réchauffement des adresses IP](ip-warmup-gs.md)
-* **[Créer des campagnes de réchauffement des adresses IP](ip-warmup-campaign.md)**
-* [Créer une formule de chauffage des adresses IP](ip-warmup-plan.md)
-* [Exécution de la formule de chauffage par IP](ip-warmup-execution.md)
+* [Prise en main du préchauffage d’adresses IP](ip-warmup-gs.md)
+* **[Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)**
+* [Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)
+* [Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -82,4 +83,3 @@ Pour créer une campagne de réchauffement des adresses IP, procédez comme suit
 Une fois active, la campagne est prête à être utilisée dans un plan de chauffage par IP. [En savoir plus](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-

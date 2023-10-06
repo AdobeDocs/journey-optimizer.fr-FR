@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapports sur les canaux
-description: Prise en main des rapports Canal
+title: Rapports sur le canal
+description: Prise en main des rapports sur le canal
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
-# Prise en main des rapports Canal {#channel-report-gs}
+# Prise en main des rapports sur le canal {#channel-report-gs}
 
 Les rapports Canal constituent un puissant outil qui fournit un aperçu complet des mesures de trafic et d’engagement dans un rapport unifié pour chaque canal, englobant toutes les actions de tous les Parcours et campagnes. Il est divisé en différents widgets, chacun d’eux fournissant une vue spécifique des performances de votre campagne ou de votre parcours.
 

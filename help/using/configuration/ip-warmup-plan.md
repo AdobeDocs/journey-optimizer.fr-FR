@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Créer une formule de chauffage des adresses IP
+title: Créer un plan de préchauffage d’adresses IP
 description: Découvrez comment créer un plan de chauffage par IP dans Journey Optimizer
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
-# Créer une formule de chauffage des adresses IP {#ip-warmup}
+# Créer un plan de préchauffage d’adresses IP {#ip-warmup}
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* [Prise en main du réchauffement des adresses IP](ip-warmup-gs.md)
-* [Créer des campagnes de réchauffement des adresses IP](ip-warmup-campaign.md)
-* **[Créer une formule de chauffage des adresses IP](ip-warmup-plan.md)**
-* [Exécution de la formule de chauffage par IP](ip-warmup-execution.md)
+* [Prise en main du préchauffage d’adresses IP](ip-warmup-gs.md)
+* [Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)
+* **[Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)**
+* [Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ Par exemple, si vous ajoutez le domaine personnalisé Luma, vous souhaitez inclu
    >
    >Le plan de chauffage d’une adresse IP sélectionné sera définitivement supprimé.
 
-## Créer une formule de chauffage des adresses IP {#create-ip-warmup-plan}
+## Créer un plan de préchauffage d’adresses IP {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
@@ -121,7 +121,7 @@ Par exemple, si vous ajoutez le domaine personnalisé Luma, vous souhaitez inclu
 >title="Sélectionner une surface marketing"
 >abstract="Vous devez sélectionner la même surface que celle sélectionnée dans l&#39;opération que vous souhaitez associer à votre plan de chaleur IP."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Configurer des surfaces de canal"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Créer des campagnes de réchauffement des adresses IP"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Créer des campagnes de préchauffage d’adresses IP"
 
 Lorsqu’une ou plusieurs campagnes en direct avec la variable **[!UICONTROL Activation du plan de chauffage par IP]** Les options activées sont activées. Vous pouvez les associer à un plan de réchauffement des adresses IP.
 

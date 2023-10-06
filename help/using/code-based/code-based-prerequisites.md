@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 43%
+ht-degree: 48%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
 * [Prise en main du canal basé sur le code](get-started-code-based.md)
 * **[Conditions préalables basées sur le code](code-based-prerequisites.md)**
-* [Exemples de mise en oeuvre basés sur le code](code-based-implementation-samples.md)
-* [Création d’expériences basées sur du code](create-code-based.md)
+* [Exemples de mises en œuvre basées sur le code](code-based-implementation-samples.md)
+* [Créer des expériences basées sur le code](create-code-based.md)
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +37,7 @@ Pour pouvoir utiliser des actions d’expérience basées sur le code dans [!DNL
 
 ## Notes de mise en garde {#caution-notes-web}
 
-* Le canal d’expérience basé sur le code est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+* La fonctionnalité de canal d’expérience basée sur le code est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
 * Actuellement dans [!DNL Journey Optimizer] vous pouvez uniquement créer des expériences basées sur du code dans **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure)
 
@@ -79,5 +80,3 @@ Découvrez comment ajouter des jeux de données pour les rapports d’expérienc
 >[!NOTE]
 >
 >Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’affecte pas la collecte ni l’ingestion de données.
-
-

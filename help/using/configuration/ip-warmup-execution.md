@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Exécution de la formule de chauffage des adresses IP
+title: Exécuter un plan de préchauffage d’adresses IP
 description: Découvrez comment exécuter et surveiller un plan de réchauffement des adresses IP
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Exécution de la formule de chauffage par IP {#ip-warmup-running}
+# Exécuter le plan de préchauffage d’adresses IP {#ip-warmup-running}
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* [Prise en main du réchauffement des adresses IP](ip-warmup-gs.md)
-* [Créer des campagnes de réchauffement des adresses IP](ip-warmup-campaign.md)
-* [Créer une formule de chauffage des adresses IP](ip-warmup-plan.md)
-* **[Exécution de la formule de chauffage par IP](ip-warmup-execution.md)**
+* [Prise en main du préchauffage d’adresses IP](ip-warmup-gs.md)
+* [Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)
+* [Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)
+* **[Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)**
 
 >[!ENDSHADEBOX]
 

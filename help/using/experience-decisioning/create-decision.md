@@ -8,14 +8,15 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
-# Création de stratégies de décision {#create-decision}
+# Créer des stratégies de décision {#create-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
@@ -25,18 +26,18 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-Ce guide vous apportera la documentation suivante :
+Ce guide couvre les sujets suivants :
 
-* [Prise en main d’Experience Decisioning](gs-experience-decisioning.md)
-* Gestion des éléments de décision
-   * [Configuration du catalogue d’éléments](catalogs.md)
-   * [Création d’éléments de décision](items.md)
-   * [Gestion des collections d’éléments](collections.md)
-* Configuration de la sélection d’éléments
+* [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
+* Gérer les éléments de décision
+   * [Configurer le catalogue d’éléments](catalogs.md)
+   * [Créer des éléments de décision](items.md)
+   * [Gérer des collections d’éléments](collections.md)
+* Configurer la sélection d’éléments
    * [Créer des règles de décision](rules.md)
-   * [Création de méthodes de classement](ranking.md)
+   * [Créer des méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
-* **[Création de stratégies de décision](create-decision.md)**
+* **[Créer des stratégies de décision](create-decision.md)**
 
 >[!ENDSHADEBOX]
 

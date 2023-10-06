@@ -7,14 +7,15 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
+exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
-# Rapports sur les canaux {#channel-report}
+# Rapports sur le canal {#channel-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
@@ -23,7 +24,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
-> Pour accéder au **Rapport** , vous devez disposer de la variable **[!UICONTROL Affichage des rapports Canal]** autorisation. [En savoir plus](channel-report-gs.md#before-starting-manage-reports-prereq)
+> Pour accéder au menu **Rapport**, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports du canal.]** [En savoir plus](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 Les rapports Canal offrent aux utilisateurs un aperçu complet des mesures de trafic et d’engagement au niveau du canal. Les mesures sont agrégées afin de présenter des valeurs consolidées pour les actions provenant du canal choisi, couvrant plusieurs campagnes et parcours.
 
