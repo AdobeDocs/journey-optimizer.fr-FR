@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 100%
+source-wordcount: '1522'
+ht-degree: 98%
 
 ---
 
@@ -70,6 +70,7 @@ Pour utiliser le mode test, procédez comme suit :
 * Vous ne pouvez pas modifier votre parcours lorsque le mode test est activé. En mode test, vous pouvez publier directement le parcours, sans avoir à désactiver ce mode au préalable.
 * Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
 * Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut **Brouillon**.
+* Les événements déclenchés par le mode test sont stockés dans des jeux de données dédiés. Ces jeux de données sont libellés comme suit : `JOtestmode - <schema of your event>`
 
 ## Déclencher vos événements {#firing_events}
 
