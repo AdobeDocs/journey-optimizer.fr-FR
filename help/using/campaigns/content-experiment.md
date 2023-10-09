@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
@@ -28,6 +28,9 @@ ht-degree: 100%
 >Avant de commencer l’expérience de contenu, assurez-vous que votre configuration des rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](reporting-configuration.md).
 
 L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel fonctionne le mieux en termes de mesure spécifiée.
+
+![](../rn/assets/do-not-localize/experiment.gif)
+
 
 Dans l&#39;exemple ci-dessous, la cible de la diffusion a été divisée en deux groupes, représentant chacun 45 % de la population ciblée, et un groupe d’exclusion de 10 %, qui ne recevra pas la diffusion.
 

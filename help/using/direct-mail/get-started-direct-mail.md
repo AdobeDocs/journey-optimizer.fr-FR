@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
@@ -24,6 +24,9 @@ ht-degree: 100%
 Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les opérateurs de services postaux pour envoyer du courrier à votre clientèle.
 
 Lorsque vous créez une campagne par courrier, Journey Optimizer génère automatiquement un fichier contenant tous les profils ciblés et les données sélectionnées comme des adresses postales et des attributs de profil, par exemple. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par l’opérateur de services postaux de votre choix, qui gérera le processus de courrier réel pour vous.
+
+![](../rn/assets/do-not-localize/gif-dm.gif)
+
 
 Les principales étapes pour envoyer des messages de courrier sont les suivantes :
 

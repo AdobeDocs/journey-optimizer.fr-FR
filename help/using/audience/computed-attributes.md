@@ -7,7 +7,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 6%
@@ -19,6 +19,10 @@ ht-degree: 6%
 Les attributs calculés vous permettent de résumer des événements comportementaux individuels en attributs de profil calculés disponibles sur Adobe Experience Platform. Ces attributs calculés sont basés sur des jeux de données d’événement d’expérience activés pour le profil ingérés dans Adobe Experience Platform et servent de points de données agrégés stockés dans les profils client.
 
 Chaque attribut calculé est un attribut de profil que vous pouvez exploiter pour la segmentation, la personnalisation et l’activation dans les parcours et les campagnes. Cette simplification permet à vos clients d’offrir des expériences personnalisées pertinentes et opportunes.
+
+
+![](../rn/assets/do-not-localize/computed-attributes.gif)
+
 
 >[!NOTE]
 >
