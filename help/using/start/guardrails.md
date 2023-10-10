@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 95%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -123,3 +123,32 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 * Un délai d’activation peut se produire entre le moment où le profil d’une personne atteint une activité in-app dans la zone de travail et le moment où ladite personne commence à voir ce message in-app.
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
+
+## Gestion des décisions {#decision-management}
+
+### Protections des performances {#performance-guardrails}
+
+Le débit de diffusion correspond au nombre de réponses de décision qui peuvent être diffusées par le service de l’application Decision Management dans un délai spécifié. Le nombre de décisions par seconde est indiqué dans le tableau ci-dessous.
+
+| API | Décisions par seconde |
+|---------|----------|
+| Requêtes d’API de prise de décision | 500 par seconde |
+| Requêtes d’API de prise de décision Edge | 5 000 par seconde |
+
+### Limites {#offers-limitations}
+
+Les limites de la gestion de la décision sont répertoriées ci-dessous.
+
+* **Offres personnalisées approuvées + Offres de secours** - Jusqu’à 10 000 offres personnalisées approuvées et offres de secours approuvées.
+* **Décisions** - Jusqu&#39;à 10 000 décisions.
+* **Décisions en direct** - Offer Decisioning App Service prend en charge jusqu’à 1 000 décisions en direct.
+* **Offres renvoyées par réponse** - Offer Decisioning prend en charge jusqu’à 100 offres renvoyées par requête pour toutes les portées de décision dans la requête.
+* **Collections** - Jusqu’à 10 000 collections.
+* **Collections par décision** - Jusqu’à 30 collections par décision.
+* **Règles de décision + fonctions de classement** Jusqu’à 10 000 règles de décision et fonctions de classement combinées.
+* **Emplacements** - Jusqu’à 1 000 emplacements.
+* **Emplacements par décision** - Jusqu’à 30 emplacements par décision.
+* **Méthode de classement par décision** - Offer Decisioning App Service prend en charge jusqu’à 30 fonctions de classement par décision.
+* **Modèle de classement AI** - Offer Decisioning App Service prend en charge jusqu’à 5 modèles de classement AI.
+* **Qualificateur de collection par offre ou collection** - Offer Decisioning App Service prend en charge jusqu’à 20 qualificateurs de collection dans n’importe quelle offre personnalisée ou collection unique.
+* **Total des qualificateurs de collection** - Offer Decisioning App Service prend en charge jusqu’à 1 000 qualificateurs de collection.

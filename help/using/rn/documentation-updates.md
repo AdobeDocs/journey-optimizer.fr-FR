@@ -4,9 +4,9 @@ product: journey optimizer
 title: Mises à jour de la documentation
 description: En savoir plus sur les dernières mises à jour de la documentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3829'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Ajout de GIFs pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Canal Courrier](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../campaigns/content-experiment.md).
 * Le processus de création de schémas a été mis à jour pour prendre en compte les dernières mises à jour apportées à l’interface utilisateur, avec des modifications apportées à Adobe Experience Platform. [En savoir plus](../audience/creating-test-profiles.md)
+* Les barrières de sécurité de la gestion des décisions ont été ajoutées à la page Barrières de sécurité et limites . [En savoir plus](../start/guardrails.md#decision-management)
 
 ## Septembre 2023 {#september-2023}
 
