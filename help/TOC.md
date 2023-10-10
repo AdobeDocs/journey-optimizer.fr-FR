@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 99%
+source-wordcount: '1666'
+ht-degree: 98%
 
 ---
 
@@ -263,6 +263,9 @@ ht-degree: 99%
       + [Commencer avec l’assistant de contenu](using/content-management/gs-generative.md)
       + [Génération de contenu](using/content-management/generative-content.md)
       + [Génération d’images](using/content-management/generative-image.md)
+   + Utilisation de contenu multilingue{#content-multilingual}
+      + [Créer du contenu multilingue](using/content-management/multilingual-manual.md)
++ Personnalisation et contenu dynamique {#personalized-dynamic-content}
    + Personnalisation {#personalization}
       + [Prise en main de la personnalisation](using/personalization/personalize.md)
       + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
