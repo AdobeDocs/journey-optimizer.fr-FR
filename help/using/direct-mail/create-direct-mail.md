@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 90%
 
 ---
 
@@ -58,6 +58,32 @@ Pour créer une campagne par courrier, procédez comme suit :
 Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à envoyer à votre opérateur de services postaux.
 
 ## Configurer le fichier d’extraction {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="Champs de données"
+>abstract="Ajoutez et configurez les colonnes et les informations à afficher dans le fichier d&#39;extraction requis par les opérateurs de services postaux pour envoyer du courrier à vos clients. Vous pouvez ajouter jusqu’à 50 colonnes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="Formatage des fichiers d&#39;extraction"
+>abstract="La variable <b>Tri par</b> permet d&#39;utiliser le champ sélectionné pour trier les colonnes du fichier d&#39;extraction. Lorsque cette option est désactivée, les colonnes sont triées automatiquement en fonction du champ Identifiant du profil ."
+
+1. Configurez les colonnes et les informations à afficher dans le fichier d’extraction :
+
+   1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle colonne.
+
+   1. Le volet **[!UICONTROL Formatage]** s’affiche sur le côté droit, ce qui vous permet de configurer la colonne sélectionnée. Spécifiez un **[!UICONTROL Libellé]** pour la colonne.
+
+   1. Dans le champ **[!UICONTROL Données]**, sélectionnez les attributs de profil à afficher à l’aide de l’[éditeur d’expression](../personalization/personalization-build-expressions.md).
+
+   1. Pour trier le fichier d’extraction à l&#39;aide d’une colonne, sélectionnez la colonne et activez l’option **[!UICONTROL Trier par]**. L’icône **[!UICONTROL Trier par]** s’affiche en regard du libellé de la colonne dans la section **[!UICONTROL Champs de données]**.
+
+
+
+
+
+
 
 Le fichier d’extraction est requis par les opérateurs de services postaux pour envoyer du courrier à vos clientes et clients. Pour définir la configuration du fichier d&#39;extraction, procédez comme suit :
 
