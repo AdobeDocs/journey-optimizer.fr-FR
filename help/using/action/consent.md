@@ -86,7 +86,7 @@ Les autres étapes de configuration d’une action personnalisée sont présent�
 >[!CONTEXTUALHELP]
 >id="ajo_consent_additional_marketing_action_canvas"
 >title="Action marketing supplémentaire"
->abstract="Ajoutez une autre action marketing en plus de celle requise. Les politiques de consentement liées aux deux actions marketing seront appliquées."
+>abstract="Ajoutez une autre action marketing en plus de celle requise. Les règles de consentement liées aux deux actions marketing seront appliquées."
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_refresh_policies_canvas"
