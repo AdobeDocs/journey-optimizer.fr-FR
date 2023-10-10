@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main du contenu multilingue
 description: En savoir plus sur le contenu multilingue dans Journey Optimizer
-feature: Multilingual
+feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
-source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
+source-git-commit: 42b1243f713743d299a60aa93546ed99d4dcf156
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 15%
