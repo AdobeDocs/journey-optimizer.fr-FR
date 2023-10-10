@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -122,7 +122,7 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 
 ## Définissez l’audience {#audience}
 
-Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des segments d’Adobe Experience Platform disponibles. [En savoir plus sur les segments](../audience/about-audiences.md)
+Cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
 
 >[!NOTE]
 >
