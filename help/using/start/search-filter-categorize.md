@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '543'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,11 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 ![](assets/journey4.png)
 
 ## Utiliser des balises unifiées {#tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_tags"
+>title="Balises"
+>abstract="Ce champ vous permet d’attribuer des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes."
 
 Avec les [balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr) Adobe Experience Platform, vous pouvez facilement classer vos parcours et campagnes Journey Optimizer pour améliorer la recherche dans les listes.
 
