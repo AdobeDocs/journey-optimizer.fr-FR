@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 90%
 
 ---
@@ -65,9 +65,9 @@ Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à en
 >abstract="Ajoutez et configurez les colonnes et les informations à afficher dans le fichier d&#39;extraction requis par les opérateurs de services postaux pour envoyer du courrier à vos clients. Vous pouvez ajouter jusqu’à 50 colonnes."
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="Formatage des fichiers d&#39;extraction"
->abstract="La variable <b>Tri par</b> permet d&#39;utiliser le champ sélectionné pour trier les colonnes du fichier d&#39;extraction. Lorsque cette option est désactivée, les colonnes sont triées automatiquement en fonction du champ Identifiant du profil ."
+>abstract="Pour chaque champ, indiquez un libellé et les informations à afficher à l&#39;aide de l&#39;éditeur d&#39;expression. <br/><br/> La variable <b>Tri par</b> permet d&#39;utiliser le champ sélectionné pour trier les colonnes du fichier d&#39;extraction."
 
 1. Configurez les colonnes et les informations à afficher dans le fichier d’extraction :
 
