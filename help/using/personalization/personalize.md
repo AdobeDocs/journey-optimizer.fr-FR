@@ -9,7 +9,7 @@ role: Data Engineer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 5e7a430feba5f67e5778704fde63003876c5dc67
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 76%
@@ -70,3 +70,4 @@ Découvrez comment utiliser les informations d’événement contextuelles d’u
 Découvrez comment ajouter une personnalisation basée sur un profil à un message et comment utiliser l’appartenance à une audience comme condition préalable à un bloc de personnalisation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+
