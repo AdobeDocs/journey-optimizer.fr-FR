@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -230,14 +230,16 @@ ht-degree: 98%
    + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
 + Canal web {#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
-   + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
+   + Configuration du canal web {#configure-web-channel}
+      + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
+      + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
+      + [Mise en oeuvre d’applications d’une seule page](using/web/web-spa-implementation.md)
    + [Créer des expériences web](using/web/create-web.md)
    + Créer des pages web {#author-web-pages}
       + [Modifier le contenu d’une page web](using/web/edit-web-content.md)
       + [Gérer les modifications](using/web/manage-web-modifications.md)
       + [Surveiller vos campagnes web](using/web/monitor-web-campaigns.md)
       + [Créer des applications monopage](using/web/web-spa.md)
-   + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
 + Expérience basée sur le code {#code-based-experience}
    + [Prise en main du canal basé sur le code](using/code-based/get-started-code-based.md)
    + [Conditions préalables basées sur le code](using/code-based/code-based-prerequisites.md)
@@ -528,7 +530,6 @@ ht-degree: 98%
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles de fréquence](using/configuration/frequency-rules.md)
-   + [Mettre en œuvre des applications monopage](using/web/web-spa-implementation.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}
