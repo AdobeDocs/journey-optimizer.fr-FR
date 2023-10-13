@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: parcours, intégration, campaign, v7, v8, classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
 
-# Actions d&#39;Adobe Campaign v7/v8 {#using_campaign_classic}
+# Actions d&#39;Adobe Campaign v7/v8 {#using_campaign_classic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acc"
+>title="Actions personnalisées"
+>abstract="Une intégration est disponible si vous disposez d’Adobe Campaign v7 ou v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign."
 
 Une intégration est disponible si vous disposez d&#39;Adobe Campaign v7 ou v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign.
 

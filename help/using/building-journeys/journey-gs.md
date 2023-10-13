@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 97%
+source-wordcount: '1727'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,11 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
    ![](assets/custom2.png)
 
 ## Accéder aux parcours {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Parcours"
+>abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. La variable **Présentation** affiche un tableau de bord avec des mesures clés liées à vos parcours. La variable **Parcourir** affiche la liste des parcours existants."
 
 Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles :
 
@@ -77,11 +82,6 @@ Dans les volets de configuration des événements, des sources de données et de
 ![](assets/journey3bis.png)
 
 ## Création de votre parcours{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Création de votre parcours"
->abstract="Cet écran affiche la liste des parcours existants. Ouvrez un parcours ou cliquez sur « Créer un parcours », puis combinez les différentes activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes."
 
 Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de parcours**. C&#39;est là que vous créez vos parcours. Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 
