@@ -1,12 +1,12 @@
 ---
 title: Diffusion d'offres
 description: La gestion des décisions est un ensemble de services et d'interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d'offres personnalisées aux utilisateurs finaux par le biais de canaux et d'applications en s'appuyant sur une logique métier et des règles de décision.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 100%

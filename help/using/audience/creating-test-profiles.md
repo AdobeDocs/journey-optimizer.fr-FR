@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Créer un profil de test
 description: Découvrez comment créer un profil de test
-feature: Journeys
+feature: Profiles, Test Profiles
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 96%

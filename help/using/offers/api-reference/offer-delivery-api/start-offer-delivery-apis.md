@@ -1,12 +1,12 @@
 ---
 title: Prise en main des API de diffusion d’offres
 description: Découvrez les API disponibles pour diffuser des offres personnalisées.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%

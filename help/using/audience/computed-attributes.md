@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser des attributs calculés
 description: Découvrez comment utiliser des attributs calculés.
-feature: Profiles
+feature: Audiences, Profiles
 role: User
-level: Beginner
+level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 6%

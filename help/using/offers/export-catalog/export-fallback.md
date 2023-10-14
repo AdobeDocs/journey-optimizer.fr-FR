@@ -1,12 +1,12 @@
 ---
 title: Jeu de données d'offres de secours
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les offres de secours.
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 100%
