@@ -36,7 +36,7 @@ Le sélecteur de sandbox se trouve dans le coin supérieur droit de votre écran
 
 >[!IMPORTANT]
 >
-> La gestion des sandbox peut uniquement être effectuée par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**.
+> La gestion des sandbox peut uniquement être effectuée par un administrateur ou une administratrice **[!UICONTROL Produit]** ou **[!UICONTROL Système]**.
 
 Vous pouvez choisir d’affecter différentes sandbox aux **[!UICONTROL Rôles]** prêts à l’emploi ou personnalisés.
 

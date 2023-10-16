@@ -1,6 +1,6 @@
 ---
-title: Gestion des modifications web
-description: Découvrez comment gérer les modifications du contenu de la page web Journey Optimizer
+title: Gérer les modifications web
+description: Découvrez comment gérer les modifications du contenu de la page web Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
-# Gestion des modifications web {#manage-web-modifications}
+# Gérer les modifications web {#manage-web-modifications}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
@@ -22,7 +22,7 @@ ht-degree: 18%
 
 Vous pouvez facilement gérer tous les composants, réglages et styles que vous avez ajoutés à votre page web. Vous pouvez également ajouter des modifications directement à partir du volet dédié.
 
-## Utilisation du volet Modifications {#use-modifications-pane}
+## Utiliser le volet Modifications {#use-modifications-pane}
 
 1. Sélectionnez l’icône **[!UICONTROL Modifications]** pour afficher le volet correspondant à gauche.
 
@@ -30,7 +30,7 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
 
 1. Vous pouvez passer en revue chacune des modifications que vous avez apportées à la page.
 
-1. Sélectionnez une modification non souhaitée et cliquez sur le bouton **[!UICONTROL Suppression de la modification]** de l’option **[!UICONTROL Autres actions]** pour la supprimer.
+1. Sélectionnez une modification non souhaitée et cliquez sur l’option **[!UICONTROL Supprimer la modification]** à partir du bouton **[!UICONTROL Plus d’actions]** pour la supprimer.
 
    ![](assets/web-designer-modifications-delete.png)
 
@@ -38,7 +38,7 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
    >
    >Procédez avec précaution lors de la suppression d’une action, car elle peut avoir un impact sur les actions suivantes.
 
-1. Pour supprimer plusieurs modifications en même temps, cliquez sur le bouton **[!UICONTROL Sélectionner]** en haut de la page **[!UICONTROL Modifications]** , vérifiez les modifications de votre choix et cliquez sur le bouton **[!UICONTROL Supprimer]** Icône
+1. Pour supprimer plusieurs modifications en même temps, cliquez sur le bouton **[!UICONTROL Sélectionner]** en haut du volet **[!UICONTROL Modifications]**, vérifiez les modifications de votre choix et cliquez sur l’icône **[!UICONTROL Supprimer]**.
 
    ![](assets/web-designer-modifications-select-delete.png)
 
@@ -48,48 +48,48 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
 
 1. Vous pouvez également supprimer uniquement les modifications non valides, c’est-à-dire les modifications qui ont été remplacées par d’autres modifications. Par exemple, si vous modifiez la couleur d’un texte, puis que vous le supprimez, la modification de couleur devient non valide car le texte n’existe plus.
 
-1. Vous pouvez annuler et rétablir des actions à l’aide de la variable **[!UICONTROL Annuler/rétablir]** en haut à droite de l’écran.
+1. Vous pouvez annuler et rétablir des actions à l’aide du bouton **[!UICONTROL Annuler/rétablir]** en haut à droite de l’écran.
 
    ![](assets/web-designer-undo-redo.png)
 
    Cliquez sur le bouton et maintenez-le enfoncé pour passer de l’option **[!UICONTROL Annuler]** à l’option **[!UICONTROL Rétablir]**, et inversement. Cliquez ensuite sur le bouton lui-même pour appliquer l’action souhaitée.
 
-## Ajout de modifications à partir du volet dédié {#add-modifications}
+## Ajouter des modifications à partir du volet dédié {#add-modifications}
 
-Lors de la modification d’une page à l’aide du concepteur web, vous pouvez ajouter de nouvelles modifications à votre contenu directement à partir du **[!UICONTROL Modifications]** volet : sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur web. Suivez les étapes ci-dessous.
+Lors de la modification d’une page à l’aide du concepteur web, vous pouvez ajouter de nouvelles modifications à votre contenu directement à partir du volet **[!UICONTROL Modifications]**, sans avoir à sélectionner un composant et à le modifier dans l’interface du concepteur web. Suivez les étapes ci-dessous.
 
-1. Dans la **[!UICONTROL Modifications]** cliquez sur le volet **[!UICONTROL Autres actions]** bouton .
+1. Dans le volet **[!UICONTROL Modifications]**, cliquez sur le bouton **[!UICONTROL Plus d’actions]**.
 
-1. Sélectionner **[!UICONTROL Ajouter une modification]**.
+1. Sélectionnez **[!UICONTROL Ajouter une modification]**.
 
    ![](assets/web-designer-add-modification.png)
 
-1. Sélectionnez le type de modification :
+1. Sélectionnez le type de modification :
 
    * **[!UICONTROL Sélecteur CSS]** - [En savoir plus](#css-selector)
    * **[!UICONTROL Page`<Head>`]** - [En savoir plus](#page-head)
 
-1. Saisissez votre contenu et **[!UICONTROL Enregistrer]** vos modifications.
+1. Saisissez votre contenu et **[!UICONTROL enregistrez]** vos modifications.
 
-1. Cliquez sur le bouton **[!UICONTROL Autres actions]** en regard de votre modification et sélectionnez **[!UICONTROL Infos]** pour afficher ses détails.
+1. Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de votre modification et sélectionnez **[!UICONTROL Infos]** pour afficher ses détails.
 
    ![](assets/web-designer-add-modification-info.png)
 
-### sélecteur CSS {#css-selector}
+### Sélecteur CSS {#css-selector}
 
-Pour ajouter une **Sélecteur CSS** modification par type, suivez les étapes ci-dessous.
+Pour ajouter une modification de type **Sélecteur CSS**, suivez les étapes ci-dessous.
 
-1. Sélectionner **[!UICONTROL Sélecteur CSS]** comme type de modification.
+1. Sélectionnez **[!UICONTROL Sélecteur CSS]** comme type de modification.
 
-1. La variable **[!UICONTROL Sélecteur d’éléments CSS]** vous aide à rechercher et à sélectionner les éléments de HTML (ou les noeuds dans l’arborescence DOM) sur lesquels vous souhaitez appliquer les modifications. <!--specify the desired CSS element that you want to modify.-->
+1. Le champ **[!UICONTROL Sélecteur d’éléments CSS]** vous aide à rechercher et à sélectionner les éléments HTML (ou les nœuds dans l’arborescence DOM) sur lesquels vous souhaitez appliquer les modifications. <!--specify the desired CSS element that you want to modify.-->
 
    ![](assets/web-designer-add-modification-css.png)
 
 1. Sélectionnez un type d’action (**[!UICONTROL Définir le contenu]** ou **[!UICONTROL Définir l’attribut]**) et renseignez les informations/le contenu requis.
 
-   * **[!UICONTROL Définir le contenu]**: indiquez le contenu qui va dans l’élément identifié par la propriété **[!UICONTROL Sélecteur d’éléments CSS]** champ .
+   * **[!UICONTROL Définir le contenu]** : indiquez le contenu qui va dans l’élément identifié par le champ **[!UICONTROL Sélecteur d’éléments CSS]**.
 
-   * **[!UICONTROL Définir l’attribut]**: spécifiez un attribut à associer au sélecteur CSS actuel afin que ce sélecteur puisse ensuite être également identifié par cet attribut. Pour ce faire, saisissez un nom dans le champ **[!UICONTROL Nom de l’attribut]** et une valeur dans la variable **[!UICONTROL Contenu]** champ . Si l’attribut existe déjà, la valeur est mise à jour ; dans le cas contraire, un nouvel attribut est ajouté avec le nom et la valeur spécifiés.
+   * **[!UICONTROL Définir l’attribut]** : indiquez un attribut à associer au sélecteur CSS actuel afin que ce sélecteur puisse ensuite être également identifié par cet attribut. Pour ce faire, saisissez un nom dans le champ **[!UICONTROL Nom de l’attribut]** et une valeur dans le champ **[!UICONTROL Contenu]**. Si l’attribut existe déjà, la valeur est mise à jour; dans le cas contraire, un nouvel attribut est ajouté avec le nom et la valeur spécifiés.
 
      ![](assets/web-designer-add-modification-css-attribute.png)
 
@@ -97,40 +97,40 @@ Pour ajouter une **Sélecteur CSS** modification par type, suivez les étapes ci
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
->title="Ajout d’un code personnalisé"
->abstract="L’élément HEAD est un conteneur pour les métadonnées et est placé entre la balise HTML et la balise BODY. Ajoutez uniquement les éléments SCRIPT et STYLE . L’ajout de balises DIV et d’autres éléments peut entraîner l’apparition des éléments HEAD restants dans le corps."
+>title="Ajouter un code personnalisé"
+>abstract="L’élément HEAD est un conteneur pour les métadonnées et est placé entre la balise HTML et la balise BODY. Ajoutez uniquement les éléments SCRIPT et STYLE. L’ajout de balises DIV et d’autres éléments risque d’entraîner l’apparition des éléments HEAD restants dans la section BODY."
 
-Vous pouvez ajouter du code personnalisé à l’aide de la variable **[!UICONTROL Page`<head>`]** type de modification.
+Vous pouvez ajouter du code personnalisé à l’aide du type de modification **[!UICONTROL Page`<head>`]**.
 
-La variable `<head>` L’élément est un conteneur pour les métadonnées (données relatives aux données) et est placé entre la variable `<html>` et `<body>` balise . Dans ce cas, le code n’attend pas les événements de chargement de corps ou de page ; il est exécuté au début du chargement de la page.
+L’élément `<head>` est un conteneur pour les métadonnées et est placé entre la balise `<html>` et la balise `<body>`. Dans ce cas, le code n’attend pas les événements de chargement de page ou de corps, il est exécuté au début du chargement de la page.
 
-La variable `<head>` est généralement utilisé pour ajouter du code JavaScript ou CSS en haut de la page. Les sélecteurs pour les actions visuelles suivantes dépendent des éléments de HTML ajoutés dans cet onglet.
+L’élément `<head>` est généralement utilisé pour ajouter du code JavaScript ou CSS en haut de la page. Les sélecteurs pour les actions visuelles suivantes dépendent des éléments HTML ajoutés dans cet onglet.
 
-Pour ajouter une **Page`<head>`** modification par type, suivez les étapes ci-dessous.
+Pour ajouter une modification de type **Page`<head>`**, suivez les étapes ci-dessous.
 
-1. Sélectionner **[!UICONTROL Page`<head>`]** comme type de modification.
+1. Sélectionnez **[!UICONTROL Page`<head>`]** comme type de modification.
 
    ![](assets/web-designer-add-modification-head-type.png)
 
-1. Ajoutez votre code personnalisé dans le **[!UICONTROL Contenu]** de la boîte.
+1. Ajoutez votre code personnalisé dans la zone **[!UICONTROL Contenu]**.
 
    >[!CAUTION]
    >
-   >Vous pouvez uniquement ajouter `<script>` et `<style>` aux éléments `<head>` . L’ajout de balises `<div>` et d’autres éléments risque d’entraîner l’apparition des éléments `<head>` restants dans la section `<body>`. 
+   >Vous pouvez uniquement ajouter les éléments `<script>` et `<style>` à la section `<head>`. L’ajout de balises `<div>` et d’autres éléments risque d’entraîner l’apparition des éléments `<head>` restants dans la section `<body>`.
 
-1. Cliquez sur le bouton **[!UICONTROL Options de modification avancées]** bouton . L’éditeur d’expression s’ouvre.
+1. Cliquez sur le bouton **[!UICONTROL Options de modification avancées]**. L’éditeur d’expression s’ouvre.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   Vous pouvez utiliser la variable [!DNL Journey Optimizer] Editeur d&#39;expression avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
+   Vous pouvez utiliser l’éditeur d’expression [!DNL Journey Optimizer] avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 #### Exemples de code personnalisé {#custom-code-examples}
 
-Vous pouvez utiliser la variable **[!UICONTROL Page`<head>`]** type de modification sur :
+Vous pouvez utiliser le type de modification **[!UICONTROL Page`<head>`]** pour :
 
 * Utilisez JavaScript intégré ou un lien vers un fichier JavaScript externe.
 
-  Par exemple, pour modifier la couleur d’un élément :
+  Par exemple, pour modifier la couleur d’un élément :
 
   ```
   <script type="text/javascript">
@@ -138,9 +138,9 @@ Vous pouvez utiliser la variable **[!UICONTROL Page`<head>`]** type de modificat
   </script>
   ```
 
-* Configurer un style intégré ou un lien vers une feuille de style externe
+* Configurez un style intégré ou un lien vers une feuille de style externe.
 
-  Par exemple, pour définir une classe pour un élément de recouvrement :
+  Par exemple, pour définir une classe pour un élément de recouvrement :
 
   ```
   <style>
@@ -169,18 +169,18 @@ Si vous n’avez plus besoin du code personnalisé, laissez ce conteneur vide, m
 
 +++ **N’effectuez pas d’actions document.write dans les scripts de code personnalisé.**
 
-Les scripts sont exécutés de manière asynchrone. Cela entraîne souvent l’affichage des actions document.write au mauvais endroit sur votre page. L’utilisation de document.write dans des scripts créés avec du code personnalisé n’est pas recommandée.
+Les scripts sont exécutés de manière asynchrone. Sinon, les actions document.write apparaissent souvent au mauvais endroit sur votre page. Utiliser document.write dans des scripts créés avec du code personnalisé n’est pas recommandé.
 
 +++
 
-+++ **Si vous créez un élément puis le modifiez, ne supprimez pas l’élément d’origine.**
++++ **Si vous créez un élément et que vous le modifiez par la suite, ne supprimez pas l’élément d’origine.**
 
-Chaque modification crée un élément dans la variable **[!UICONTROL Modifications]** du panneau. La deuxième action modifiant l’élément 1, si vous supprimez l’élément 1, cette action n’a plus rien à modifier, la modification ne fonctionne donc plus.
+Chaque modification crée un nouvel élément dans le panneau **[!UICONTROL Modifications]**. La deuxième action modifiant l’élément 1, si vous supprimez l’élément 1, cette action n’a plus rien à modifier, la modification ne fonctionne donc plus.
 
 +++
 
-+++ **Soyez prudent lors de l’utilisation de la variable**[!UICONTROL  Page `<head>`]**type de modification pour deux campagnes ayant un impact sur la même URL.**
++++ **Faites preuve de prudence lors de l’utilisation du type de modification**[!UICONTROL  Page `<head>`]**pour deux campagnes ayant un impact sur la même URL.**
 
-Si vous utilisez la variable **[!UICONTROL Page`<head>`]** type de modification pour deux campagnes ayant un impact sur la même URL, le code JavaScript est injecté dans la page à partir des deux campagnes. [!DNL Journey Optimizer] détermine automatiquement l’ordre du contenu diffusé. Assurez-vous que le code ne dépend pas de l’emplacement. C’est à vous de vous assurer qu’il n’y a aucun conflit dans le code.
+Si vous utilisez le type de modification **[!UICONTROL Page`<head>`]** pour deux campagnes ayant un impact sur la même URL, le code JavaScript est injecté dans la page à partir des deux campagnes. [!DNL Journey Optimizer] détermine automatiquement l’ordre du contenu diffusé. Assurez-vous que le code ne dépend pas de l’emplacement. C’est à vous de vous assurer qu’il n’y a aucun conflit dans le code.
 
 +++

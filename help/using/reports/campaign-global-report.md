@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 50%
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >title="Rapport global de campagne"
 >abstract="Le rapport global de campagne permet de mesurer l’efficacité de vos campagnes au cours d’une période donnée. Le rapport dyamique de campagne est composé de plusieurs widgets présentant le succès et les erreurs de votre campagne. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
 
-Rapports globaux, accessibles à partir de **Tout le temps** , affichez les événements qui se sont produits il y a au moins deux heures et couvrez les événements sur une période sélectionnée. En comparaison, les rapports dynamiques portent sur les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement.
+Les rapports globaux, accessibles à partir de l’onglet **À toute heure**, affichent les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. En comparaison, les rapports dynamiques portent sur les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement.
 
 Pour accéder directement au rapport global de campagne à partir de votre campagne, cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
 
@@ -183,7 +183,7 @@ La variable **[!UICONTROL Statistiques d’envoi d’emails]** graph détaille l
 
 * **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Taux de rebond]** : pourcentage d&#39;e-mails ayant rebondi par rapport aux e-mails envoyés.
+* **[!UICONTROL Taux de rebond]** : pourcentage d’e-mails ayant rebondi par rapport aux e-mails envoyés.
 
 * **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
 
@@ -233,7 +233,7 @@ Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppre
 
 La variable **[!UICONTROL Raisons de l’erreur]** le graphique et le tableau vous permettent de voir quelle erreur s’est produite pendant le processus d’envoi.
 
-Le graphique et le tableau **[!UICONTROL Exclure des raisons]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
+Le graphique et le tableau **[!UICONTROL Raisons de l’exclusion]** affichent les différentes raisons qui ont empêché les profils utilisateur, exclus des profils ciblés, de recevoir le message.
 
 La variable **[!UICONTROL Email - Top Url]** détails du graphique et du tableau des URL de votre email les plus visitées.
 
@@ -245,7 +245,7 @@ La variable **[!UICONTROL Email - Domaine du destinataire principal]** le graphi
 
 Le graphique **[!UICONTROL Optimisé ou non optimisé]** détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
 
-* **[!UICONTROL Envoyé]**: nombre total d’envois.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Ouvertures]** : nombre de fois que le message a été ouvert.
 
@@ -351,7 +351,7 @@ La variable **[!UICONTROL Notification push - Statistiques d&#39;envoi]** Le tab
 
 * **[!UICONTROL Taux de rebond]** : pourcentage de notifications push ayant rebondi par rapport aux notifications push envoyées.
 
-* **[!UICONTROL Erreurs]**: nombre total d’erreurs qui se sont produites pour empêcher son envoi aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues, l’empêchant d’être envoyée à des profils.
 
 * **[!UICONTROL Taux d’erreur]**: pourcentage d’erreurs qui se sont produites pendant l’interdiction d’envoi par rapport au nombre de notifications push envoyées.
 
@@ -375,11 +375,11 @@ Le graphique **[!UICONTROL Résumé des notifications push]** contient les donn�
 
 * **[!UICONTROL Actions]** : nombre total d&#39;actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées et traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Rebonds]** : nombre total d&#39;erreurs cumulées lors du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]**: nombre total d’erreurs qui se sont produites pour empêcher son envoi aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues empêchant l’e-mail d’être envoyé à des profils.
 
 >[!NOTE]
 >
@@ -454,7 +454,7 @@ La variable **[!UICONTROL SMS - Statistiques d&#39;envoi]** Le tableau décrit l
 
 * **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]**: nombre total d’erreurs qui se sont produites pour empêcher son envoi aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues empêchant l’e-mail d’être envoyé à des profils.
 
 Le widget **[!UICONTROL Performances de SMS par date]** détaille les informations principales relatives à votre message sous forme de graphique :
 
@@ -462,7 +462,7 @@ Le widget **[!UICONTROL Performances de SMS par date]** détaille les informatio
 
 * **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]**: nombre total d’erreurs qui se sont produites pour empêcher son envoi aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues empêchant l’e-mail d’être envoyé à des profils.
 
 La variable **[!UICONTROL Exclure les raisons]** et **[!UICONTROL Raisons des rebonds]** et **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions se sont produites au cours du processus d’envoi.
 

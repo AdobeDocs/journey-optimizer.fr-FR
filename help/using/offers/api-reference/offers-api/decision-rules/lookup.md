@@ -9,13 +9,13 @@ exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 # Rechercher une règle de décision {#lookup-decision-rule}
 
-Vous pouvez rechercher une règle de décision spécifique en adressant une requête GET à la fonction [!DNL Offer Library] API qui inclut la règle de décision `id` dans le chemin d’accès de la requête.
+Vous pouvez rechercher une règle de décision spécifique en adressant une requête GET à l’API [!DNL Offer Library] qui inclut la règle de décision `id` dans le chemin de la requête.
 
 **Format d’API**
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/offer-rules/{ID}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `offerRule1234` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | ID de l’entité que vous souhaitez rechercher. | `offerRule1234` |
 
 **Requête**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la règle de décision spécifique que vous avez recherchée, y compris des informations sur sa règle de décision unique. `id`.
+Une réponse réussie renvoie les détails de la règle de décision spécifique que vous avez recherchée, y compris des informations sur son `id` de règle de décision unique.
 
 ```json
   {

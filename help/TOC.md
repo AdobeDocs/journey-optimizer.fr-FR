@@ -331,8 +331,8 @@ ht-degree: 98%
       + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
       + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
    + Rapports sur le canal {#channel-report}
-      + [Prise en main des rapports sur le canal](using/reports/channel-report-gs.md)
-      + [Rapports sur le canal](using/reports/channel-report.md)
+      + [Prise en main des rapports sur les canaux](using/reports/channel-report-gs.md)
+      + [Rapports sur les canaux](using/reports/channel-report.md)
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
@@ -430,7 +430,7 @@ ht-degree: 98%
          + Offres de secours {#fallback-offers}
             + [Liste des offres de secours](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [Recherche d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [Création d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Créer une offre de secours](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [Mise à jour d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Suppression d’une offre de secours](using/offers/api-reference/offers-api/fallback-offers/delete.md)
          + Décisions {#decisions-api}
@@ -468,7 +468,7 @@ ht-degree: 98%
             + Offres de secours {#fallback-offers}
                + [Liste des offres de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
                + [Recherche d’une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
-               + [Création d’une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+               + [Créer une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
                + [Mise à jour d’une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
                + [Suppression d’une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
             + Collections {#collections}
@@ -521,7 +521,7 @@ ht-degree: 98%
       + [Prise en main des plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
       + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
-      + [Exécuter un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-execution.md)
+      + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)
    + Surveiller des adresses e-mail {#monitor-reputation}
       + [Liste de suppression](using/configuration/manage-suppression-list.md)
       + [Reprises](using/configuration/retries.md)

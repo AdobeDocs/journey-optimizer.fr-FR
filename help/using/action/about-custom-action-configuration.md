@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -37,13 +37,13 @@ Notez également qu’un format spécifique est attendu pour les paramètres d�
 
 ## Bonnes pratiques{#custom-action-enhancements-best-practices}
 
-Une limite de limitation de 150 000 appels de plus de 30 secondes est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limite de limitation ou de ralentissement plus élevée via nos API de limitation/limitation. Consultez [cette page](../configuration/external-systems.md).
+Une limite de limitation de 150 000 appels de plus de 30 secondes est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 
-Vous ne devez pas cibler les points de terminaison publics avec des actions personnalisées pour diverses raisons :
+Vous ne devez pas cibler les points d’entrée publics avec des actions personnalisées pour diverses raisons :
 
-* Sans limitation ou limitation appropriée, il existe un risque d’envoyer trop d’appels à un point de terminaison public qui ne prend pas en charge un tel volume.
-* Les données de profil peuvent être envoyées par le biais d’actions personnalisées, de sorte que le ciblage d’un point de terminaison public peut entraîner le partage accidentel d’informations personnelles en externe.
-* Vous n’avez aucun contrôle sur les données renvoyées par les points de terminaison publics. Si un point de terminaison modifie son API ou commence à envoyer des informations incorrectes, celles-ci seront rendues disponibles dans les communications envoyées, avec des impacts négatifs potentiels.
+* Sans limitation ou ralentissement approprié, il existe un risque d’envoyer trop d’appels à un point d’entrée public qui ne prend pas en charge un tel volume.
+* Les données de profil peuvent être envoyées par le biais d’actions personnalisées, de sorte que le ciblage d’un point d’entrée public peut entraîner le partage accidentel d’informations personnelles en externe.
+* Vous n’avez aucun contrôle sur les données renvoyées par les points d’entrée publics. Si un point d’entrée modifie son API ou commence à envoyer des informations incorrectes, celles-ci seront rendues disponibles dans les communications envoyées, avec des impacts négatifs potentiels.
 
 ## Consentement et gouvernance des données {#privacy}
 
@@ -82,7 +82,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
 ## Configuration du point d’entrée {#url-configuration}
 
-Lors de la configuration d’une action personnalisée, vous devez définir ce qui suit : **[!UICONTROL Configuration du point d’entrée]** parameters:
+Lors de la configuration d’une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration de point d’entrée]** suivants :
 
 ![](assets/action-response1bis.png){width="70%" align="left"}
 
@@ -102,7 +102,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir ce q
    >
    >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
-1. Sélectionner l’appel **[!UICONTROL Méthode]**: il peut être **[!UICONTROL POST]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
+1. Sélectionnez la **[!UICONTROL Méthode]** d’appel : il peut s’agir de **[!UICONTROL POST]**, **[!UICONTROL GET]** ou **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -128,15 +128,15 @@ Lors de la configuration d’une action personnalisée, vous devez définir ce q
    >
    >Les en-têtes sont validés conformément à des règles d’analyse. En savoir plus dans [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Définition des paramètres de payload {#define-the-message-parameters}
+## Définir les paramètres de payload {#define-the-message-parameters}
 
-1. Dans le **[!UICONTROL Requête]** collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d&#39;appel POST et PUT.
+1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d’appel POST et PUT.
 
-1. Dans le **[!UICONTROL Réponse]** , collez un exemple de la payload renvoyée par l’appel . Ce champ est facultatif et disponible pour toutes les méthodes d&#39;appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à la section [cette page](../action/action-response.md).
+1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyée par l’appel. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à la section [cette page](../action/action-response.md).
 
 >[!NOTE]
 >
->La fonctionnalité de réponse est actuellement disponible en version bêta.
+>La fonctionnalité de réponse est actuellement disponible en version Beta.
 
 ![](assets/action-response2bis.png){width="70%" align="left"}
 

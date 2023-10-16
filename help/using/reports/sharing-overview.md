@@ -11,7 +11,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La liste des champs XDM transmis est complète. Certains contiennent des codes g
 
 >[!CAUTION]
 >
->Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que la variable **[!UICONTROL Profil]** La bascule est désactivée.
+>Les jeux de données ne peuvent pas être activés pour le service de profil en temps réel. Assurez-vous que le bouton **[!UICONTROL Profil]** est désactivé.
 
 [!DNL Journey Optimizer] envoie les données au fur et à mesure, en flux continu. Vous pouvez appliquer des requêtes à ces données à l’aide du service Requêtes. Vous pouvez vous connecter à Customer Journey Analytics ou à d’autres outils de BI pour visualiser les données concernant ces étapes.
 
@@ -58,7 +58,7 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaill�
 
 ## Intégration à Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] Les événements d’étape peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}.
+Les événements d’étape [!DNL Journey Optimizer] peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}.
 
 Le workflow général est le suivant :
 

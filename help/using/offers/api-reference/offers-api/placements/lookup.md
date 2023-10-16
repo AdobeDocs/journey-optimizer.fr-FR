@@ -9,13 +9,13 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # Recherche d’un emplacement {#look-up-placement}
 
-Vous pouvez rechercher des emplacements spécifiques en adressant une requête de GET à la fonction [!DNL Offer Library] API qui inclut l’emplacement `id`.
+Vous pouvez rechercher des collections spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut l’`id` d’emplacement .
 
 **Format d’API**
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/placements/{ID}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `offerPlacement1234` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | ID de l’entité que vous souhaitez rechercher. | `offerPlacement1234` |
 
 ```shell
 curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement1234' \
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur l’emplacement unique. `id`.
+Une réponse réussie renvoie les détails de l’emplacement, y compris les informations sur l’`id` d’emplacement unique.
 
 ```json
 {

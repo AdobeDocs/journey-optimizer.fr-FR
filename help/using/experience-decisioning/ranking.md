@@ -1,6 +1,6 @@
 ---
 title: Méthodes de classement
-description: Découvrez comment utiliser les méthodes de classement
+description: Découvrez comment utiliser les méthodes de classement.
 feature: Offers
 topic: Integrations
 role: User
@@ -12,7 +12,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -31,21 +31,21 @@ Ce guide couvre les sujets suivants :
    * [Créer des règles de décision](rules.md)
    * **[Créer des méthodes de classement](ranking.md)**
 * [Créer des stratégies de sélection](selection-strategies.md)
-* [Créer des stratégies de décision](create-decision.md)
+* [Créer des politiques de décision](create-decision.md)
 
 >[!ENDSHADEBOX]
 
 Les méthodes de classement vous permettent de classer les éléments à afficher pour un profil donné. Une fois qu’une méthode de classement a été créée, vous pouvez l’affecter à une stratégie de décision afin de définir les éléments à sélectionner en premier.
 
-Les méthodes de classement sont accessibles à partir de la variable **[!UICONTROL Configuration]** / **[!UICONTROL Méthodes de classement]** . Deux types de méthodes de classement sont disponibles :
+Les méthodes de classement sont accessibles à partir du menu **[!UICONTROL Configuration]** / **[!UICONTROL Méthodes de classement]**. Deux types de méthodes de classement sont disponibles :
 
-* **Formules** vous permettent de définir des règles qui déterminent quel élément doit être présenté en premier, plutôt que de prendre en compte les scores de priorité de l’élément.
+* Les **formules** vous permettent de définir des règles déterminant l’élément qui doit être présenté en premier au lieu de prendre en compte les scores de priorité de l’élément.
 
-* **Modèles AI** vous permettent d’utiliser des systèmes de modèle formés qui exploitent plusieurs points de données pour déterminer quel élément doit être présenté en premier.
+* Les **modèles d’IA** vous permettent d’utiliser des systèmes de modèles entraînés qui exploitent plusieurs points de données pour déterminer l’élément qui doit être présenté en premier.
 
 ![](assets/ranking-create.png)
 
-Vous trouverez des informations détaillées sur chaque type de méthode de classement et sur la manière de les créer dans la documentation de la gestion des décisions, accessible ici :
+Vous trouverez des informations détaillées sur chaque type de méthode de classement et sur la manière de les créer dans la documentation sur la gestion des décisions, accessible ici :
 
 * [Formules de classement](../offers/ranking/create-ranking-formulas.md)
 * [Modèles d’IA](../offers/ranking/ai-models.md)

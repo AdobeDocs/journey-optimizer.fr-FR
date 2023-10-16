@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,13 +86,13 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >title="Prévisualiser votre expérience web."
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience web."
 
-Une fois que [création de votre expérience web](edit-web-content.md) grâce au web designer, vous pouvez afficher un aperçu de vos pages web modifiées avant d’activer votre campagne. Pour ce faire, procédez comme suit.
+Une fois que vous avez [créé votre expérience web](edit-web-content.md) grâce au concepteur web, vous pouvez afficher un aperçu de vos pages web modifiées avant d’activer votre campagne. Pour ce faire, procédez comme suit.
 
 >[!CAUTION]
 >
 >Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../audience/creating-test-profiles.md).
 
-1. Dans l&#39;écran de modification du contenu de la campagne web ou dans le concepteur web, sélectionnez **[!UICONTROL Simulation du contenu]**.
+1. À partir de l’écran Modifier le contenu de la campagne web ou du concepteur web, sélectionnez **[!UICONTROL Simuler le contenu]**.
 
    <!--![](assets/web-designer-simulate.png)-->
 

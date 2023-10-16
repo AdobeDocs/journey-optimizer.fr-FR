@@ -1,6 +1,6 @@
 ---
 title: Conditions préalables pour le canal in-app
-description: Découvrez comment configurer votre environnement pour envoyer des messages in-app avec Journey Optimizer
+description: Découvrez comment configurer votre environnement pour envoyer des messages in-app avec Journey Optimizer.
 role: Admin
 level: Intermediate
 keywords: in-app, message, configuration, platform
@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 63%
 
 ## Conditions préalables à la diffusion {#delivery-prerequisites}
 
-Pour que les messages In-App soient correctement diffusés, les paramètres suivants doivent être définis :
+Pour que les messages in-app soit correctement diffusés, les paramètres suivants doivent être définis :
 
-* Dans le [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous que le flux de données est défini comme sous **[!UICONTROL Adobe Experience Platform]** vous disposez du service Adobe Experience Platform Edge et **[!UICONTROL Adobe Journey Optimizer]** activée.
+* Dans la [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous qu’un train de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, les options Adobe Experience Platform Edge et **[!UICONTROL Adobe Journey Optimizer]** soient activées.
 
   Cela permet de s’assurer que les événements entrants Journey Optimizer sont correctement gérés par Adobe Experience Platform Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr){target="_blank"}.
 
@@ -30,47 +30,47 @@ Pour que les messages In-App soient correctement diffusés, les paramètres suiv
 
   ![](assets/inapp_config_8.png)
 
-## Conditions préalables pour la configuration des canaux {#channel-prerequisites}
+## Conditions préalables à la configuration des canaux {#channel-prerequisites}
 
-1. Accédez au **[!UICONTROL Surfaces de l’application]** et cliquez sur **[!UICONTROL Créer la surface de l’application]**.
+1. Accédez au menu **[!UICONTROL Surfaces d’application]** et cliquez sur **[!UICONTROL Créer une surface d’application]**.
 
 1. Ajoutez un nom à votre **[!UICONTROL Surface d’application]**.
 
    ![](assets/inapp_config_2b.png)
 
-1. Dans la **[!UICONTROL Apple iOS]** , configurez votre application mobile pour Apple iOS.
+1. Dans la liste déroulante **[!UICONTROL Apple iOS]**, configurez votre application mobile pour Apple iOS.
 
 +++ En savoir plus
 
-   1. Saisissez votre **[!UICONTROL Identifiant du lot iOS]**. Voir la [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) pour plus d’informations sur l’**ID de bundle**.
+   1. Saisissez votre **[!UICONTROL ID de bundle iOS]**. Voir la [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) pour plus d’informations sur l’**ID de bundle**.
 
-   1. (Facultatif) Choisissez la **[!UICONTROL Sandbox]** d’où vous souhaitez envoyer des notifications push. Notez que le choix d’un environnement de test spécifique nécessite les autorisations d’accès nécessaires.
+   1. (Facultatif) Choisissez la **[!UICONTROL Sandbox]** d’où vous souhaitez envoyer des notifications push. Notez que le choix d’une sandbox spécifique nécessite les autorisations d’accès nécessaires.
 
-      Pour plus d’informations sur la gestion des environnements de test, voir [cette page](../administration/sandboxes.md#assign-sandboxes).
+      Pour plus d’informations sur la gestion des sandbox, consultez [cette page](../administration/sandboxes.md#assign-sandboxes).
 
-   1. Activez la variable **[!UICONTROL Informations d’identification push]** pour faire glisser et déposer votre fichier de clé d’authentification .p8 si nécessaire.
+   1. Activez l’option **[!UICONTROL Informations d’identification push]** pour faire glisser et déposer votre fichier de clé d’authentification .p8 si nécessaire.
 
-      Vous pouvez également activer la variable **[!UICONTROL Saisie manuelle des informations d’identification push]** pour copier et coller directement votre clé d’authentification APNS.
+      Vous pouvez également activer l’option **[!UICONTROL Saisie manuelle des informations d’identification push]** pour copier et coller directement votre clé d’authentification APNS.
 
-   1. Saisissez votre **[!UICONTROL ID de clé]** et **[!UICONTROL Identifiant de l’équipe]**.
+   1. Saisissez votre **[!UICONTROL Identifiant de clé]** et votre **[!UICONTROL Identifiant d’équipe]**.
 
       ![](assets/inapp_config_2.png)
 
 +++
 
-1. Dans la **[!UICONTROL Android]** , configurez votre application mobile pour Android.
+1. Dans la liste déroulante **[!UICONTROL Android]**, configurez votre application mobile pour Android.
 
 +++ En savoir plus
 
-   1. Saisissez votre **[!UICONTROL Nom du package Android]**. Voir la [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) pour plus d’informations sur le **nom du package**.
+   1. Saisissez le **[!UICONTROL Nom du package Android]**. Voir la [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) pour plus d’informations sur le **nom du package**.
 
-   1. (Facultatif) Choisissez la **[!UICONTROL Sandbox]** d’où vous souhaitez envoyer des notifications push. Notez que le choix d’un environnement de test spécifique nécessite les autorisations d’accès nécessaires.
+   1. (Facultatif) Choisissez la **[!UICONTROL Sandbox]** d’où vous souhaitez envoyer des notifications push. Notez que le choix d’une sandbox spécifique nécessite les autorisations d’accès nécessaires.
 
-      Pour plus d’informations sur la gestion des environnements de test, voir [cette page](../administration/sandboxes.md#assign-sandboxes).
+      Pour plus d’informations sur la gestion des sandbox, consultez [cette page](../administration/sandboxes.md#assign-sandboxes).
 
-   1. Activez la variable **[!UICONTROL Informations d’identification push]** pour faire glisser et déposer votre fichier de clé privée .json si nécessaire.
+   1. Activez l’option **[!UICONTROL Informations d’identification push]** pour faire glisser et déposer votre fichier de clé privée .json si nécessaire.
 
-      Vous pouvez également activer la variable **[!UICONTROL Saisie manuelle des informations d’identification push]** pour copier et coller directement votre clé privée FCM.
+      Vous pouvez également activer l’option **[!UICONTROL Saisie manuelle des informations d’identification push]** pour copier et coller directement votre clé privée FCM.
 
       ![](assets/inapp_config_7.png)
 
@@ -104,7 +104,7 @@ Le canal in-app est maintenant configuré. Vous pouvez commencer à envoyer des 
 
 ## Conditions préalables à l’expérience de contenu {#experiment-prerequisites}
 
-Pour activer des expériences de contenu pour le canal In-App, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans votre implémentation In-App [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
+Pour activer les expériences de contenu pour le canal in-app, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans le [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} de votre implémentation in-app est également inclus dans la configuration des rapports.
 
 En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre train de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
 

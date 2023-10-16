@@ -1,5 +1,5 @@
 ---
-title: Création d’une offre de secours
+title: Créer une offre de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
 feature: Offers, API
 topic: Integrations
@@ -9,17 +9,17 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Création d’une offre de secours {#create-fallback-offer}
+# Créer une offre de secours {#create-fallback-offer}
 
-Vous pouvez créer une offre de secours en adressant une requête de POST à la variable [!DNL Offer Library] API.
+Vous pouvez créer une offre de secours en adressant une requête POST à l’API [!DNL Offer Library].
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
-Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
 
 **Requête**
 
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur l’offre de secours nouvellement créée, y compris son offre de secours unique. `id`. Vous pouvez utiliser la variable `id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre offre de secours ou pour créer une décision dans un tutoriel ultérieur.
+Une réponse réussie renvoie des informations sur l’offre de secours nouvellement créée, y compris son `id` d’offre de secours unique. Vous pouvez utiliser le `id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre offre de secours ou pour créer une décision dans un tutoriel ultérieur.
 
 
 ```json

@@ -12,7 +12,7 @@ keywords: produit, profils, sandbox
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
-> Chacune des procédures présentées ci-dessous ne peut être réalisée que par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**.
+> Chacune des procédures présentées ci-dessous ne peut être réalisée que par un administrateur ou une administratrice **[!UICONTROL Produit]** ou **[!UICONTROL Système]**.
 
 Les **[!UICONTROL rôles]** se rapportent à un ensemble d’utilisateurs et d’utilisatrices qui partagent les mêmes autorisations et sandbox. Ces rôles vous permettent de gérer facilement les accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation.
 
@@ -48,13 +48,13 @@ Pour attribuer un **[!UICONTROL rôle]** :
 
 1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez l’utilisateur ou l’utilisatrice dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Si la personne utilisatrice n’a pas été créée auparavant dans [!DNL Admin Console], consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
+   Si la personne utilisatrice n’a pas été créée auparavant dans [!DNL Admin Console], consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=fr).
 
    ![](assets/do-not-localize/access_control_4.png)
 
-L&#39;utilisateur doit alors recevoir un email le redirigeant vers votre instance.
+L’utilisateur ou l’utilisatrice doit alors recevoir un e-mail le ou la redirigeant vers votre instance.
 
-Pour plus d’informations sur la gestion des utilisateurs, reportez-vous à la section [Documentation sur le contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr).
+Pour plus d’informations sur la gestion des utilisateurs et utilisatrices, consultez la [documentation relative au contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr).
 
 Lors de l’accès à l’instance, une vue spécifique s’affiche pour l’utilisateur ou l’utilisatrice en fonction des autorisations attribuées dans le **[!UICONTROL rôle]**. Si l’utilisateur ou l’utilisatrice ne dispose pas du droit d’accès à une fonctionnalité, le message suivant s’affiche :
 
@@ -125,4 +125,4 @@ Pour créer notre **[!UICONTROL rôle]** **Parcours en lecture seule** :
 
 Votre **[!UICONTROL rôle]** est désormais créé et configuré. Vous devez à présent l’affecter aux utilisateurs et utilisatrices.
 
-Pour plus d’informations sur la création et la gestion des rôles, consultez la [documentation relative à Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+Pour plus d’informations sur la création et la gestion des rôles, consultez la [documentation relative à Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=fr).

@@ -9,13 +9,13 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # Rechercher des offres de secours {#look-up-fallback-offers}
 
-Vous pouvez rechercher des offres de secours spécifiques en adressant une demande de GET à la fonction [!DNL Offer Library] API qui inclut l’identifiant de l’offre de secours dans le chemin de la requête.
+Vous pouvez rechercher des offres de secours spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut l’identifiant de l’offre de secours dans le chemin de la requête.
 
 **Format d’API**
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | ID de l’entité que vous souhaitez rechercher. | `fallbackOffer1234` |
 
 **Requête**
 

@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -189,7 +189,7 @@ Pour ce faire, suivez les étapes ci-après :
 
    ![Duplication d’un parcours.](assets/duplicate-jo.png)
 
-1. Saisissez le nom du parcours et confirmez. Vous pouvez également modifier le nom dans l’écran des propriétés du parcours. Par défaut, le nom est défini comme suit : `[JOURNEY-NAME]_copy`
+1. Saisissez le nom du parcours et confirmez. Vous pouvez également modifier le nom dans l’écran des propriétés du parcours. Par défaut, le nom est défini comme suit : `[JOURNEY-NAME]_copy`
 
    ![](assets/duplicate-jo2.png)
 

@@ -9,13 +9,13 @@ exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # Rechercher un qualificateur de collection {#look-up-tag}
 
-Vous pouvez rechercher des qualificateurs de collection spécifiques (précédemment appelés &quot;balises&quot;) en adressant une demande de GET à la fonction [!DNL Offer Library] API incluant le qualificateur de collection `id` dans le chemin d’accès de la requête.
+Vous pouvez rechercher des qualificateurs de collection spécifiques (auparavant appelés « balises ») en exécutant une requête GET sur l’API [!DNL Offer Library] qui inclut l’`id` de qualificateur de collection dans le chemin de la requête.
 
 **Format d’API**
 
@@ -26,7 +26,7 @@ GET /{ENDPOINT_PATH}/tags/{ID}
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `tag1234` |
+| `{ID}` | ID de l’entité que vous souhaitez rechercher. | `tag1234` |
 
 **Requête**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails du qualificateur de collection, y compris les informations sur votre qualificateur de collection unique. `id`.
+Une réponse réussie renvoie les détails du qualificateur de collection, y compris les informations sur l’`id` de votre qualificateur de collection unique.
 
 ```json
 {

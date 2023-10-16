@@ -31,7 +31,7 @@ Un conteneur est un mécanisme d&#39;isolement qui permet de séparer différent
 
 Un administrateur peut regrouper des entités principales, des ressources et des autorisations d&#39;accès similaires dans des profils. La charge de gestion est ainsi réduite et est assurée par l&#39;[Adobe Admin Console](https://adminconsole.adobe.com/). Pour créer des profils et leur affecter des utilisateurs, vous devez être un administrateur de produit pour Adobe Experience Platform. Il suffit de créer des profils de produit qui correspondent à certaines autorisations en une seule étape, puis d&#39;ajouter des utilisateurs à ces profils. Les profils agissent comme des groupes ayant reçu des autorisations, et chaque utilisateur réel ou technique de ce groupe hérite de ces autorisations.
 
-Avec les privilèges d&#39;administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs via l‘[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target="_blank"}.
+Avec les privilèges d&#39;administrateur, vous pouvez accorder ou retirer des autorisations aux utilisateurs et utilisatrices via [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target="_blank"}.
 
 ### Liste des conteneurs accessibles aux utilisateurs et aux intégrations {#list-containers-accessible-to-users-and-integrations}
 
@@ -60,7 +60,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse positive renvoie des informations concernant les conteneurs de gestion de décision. Elle inclut un attribut `instanceId` dont la valeur est votre identifiant de conteneur.
+Une réponse positive renvoie des informations concernant les conteneurs de gestion de décision. Cela inclut un attribut `instanceId` dont la valeur est votre identifiant de conteneur.
 
 ```json
 {

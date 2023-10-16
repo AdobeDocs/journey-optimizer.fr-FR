@@ -9,7 +9,7 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 40%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 40%
 
 Une décision contient la logique sous-tendant la sélection d’une offre.
 
-Vous pouvez afficher une liste de toutes les décisions en adressant une seule requête de GET au [!DNL Offer Library] API.
+Vous pouvez afficher une liste de toutes les décisions en exécutant une seule requête GET sur l&#39;API [!DNL Offer Library].
 
 **Format d’API**
 
@@ -27,7 +27,7 @@ GET /{ENDPOINT_PATH}/offer-decisions?{QUERY_PARAMS}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
 
 **Requête**
@@ -51,9 +51,9 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération ET.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` in `[==,!=,<=,>=,<,>,~]`, prise en charge des expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | Limitez le nombre d’entités renvoyées. | `limit=5` |
+| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération AND.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` in `[==,!=,<=,>=,<,>,~]`, prise en charge des expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limitez le nombre d’entitées renvoyées. | `limit=5` |
 
 
 **Réponse**

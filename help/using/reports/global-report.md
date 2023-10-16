@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -73,20 +73,20 @@ Votre tableau de bord est maintenant enregistré. Vos différentes modifications
 
 ## Exporter vos rapports {#export-reports}
 
-Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager ou de les imprimer. Les étapes d&#39;export des rapports sont présentées dans les onglets ci-dessous.
+Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, ce qui vous permet de les partager ou de les imprimer. Les étapes d’export des rapports sont présentées dans les onglets ci-dessous.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video-csv)
 
 
 >[!BEGINTABS]
 
->[!TAB Exportation de votre rapport au format CSV]
+>[!TAB Exporter votre rapport au format CSV]
 
-1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL fichier CSV]** pour générer un fichier CSV au niveau du rapport global.
+1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Fichier CSV]** pour générer un fichier CSV au niveau du rapport global.
 
    ![](assets/export_1.png)
 
-1. Vous pouvez également choisir d’exporter des données à partir d’un widget spécifique. Cliquez sur **[!UICONTROL Exportation des données de widget au format CSV]** en regard du widget sélectionné.
+1. Vous pouvez également choisir d’exporter des données à partir d’un widget spécifique. Cliquez sur **[!UICONTROL Exporter des données de widget au format CSV]** en regard du widget sélectionné.
 
    ![](assets/export_3.png)
 
@@ -96,7 +96,7 @@ Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, c
 
    Si vous avez généré le fichier au niveau du widget, il fournit spécifiquement des données pour le widget sélectionné.
 
->[!TAB Exporter votre rapport sous la forme d’un fichier PDF]
+>[!TAB Exporter votre rapport au format PDF]
 
 1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Fichier PDF]**.
 

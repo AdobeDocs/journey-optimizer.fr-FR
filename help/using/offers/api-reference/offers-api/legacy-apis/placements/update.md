@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Mise à jour d’un emplacement {#update-placement}
+# Mettre à jour un emplacement {#update-placement}
 
 Vous pouvez modifier ou mettre à jour un emplacement dans votre conteneur en adressant une requête PATCH à l’API [!DNL Offer Library].
 

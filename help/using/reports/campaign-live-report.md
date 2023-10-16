@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -112,7 +112,7 @@ Le widget **[!UICONTROL Statistiques d’envoi des e-mails]** présente les prin
 
 La variable **[!UICONTROL Envoi de mesures par courrier électronique]** table et **[!UICONTROL Email Summary]** graph détaille le succès de votre email :
 
-* **[!UICONTROL Envoyé]**: nombre total d’envois.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
@@ -214,7 +214,7 @@ Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONT
 
 **[!UICONTROL Performances d&#39;envoi des notifications push]**, **[!UICONTROL Synthèse des notifications push]** et **[!UICONTROL Notification push - Statistiques]** Les widgets détaillent les informations principales relatives à votre message :
 
-* **[!UICONTROL Envoyé]**: nombre total d’envois.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
@@ -274,7 +274,7 @@ La variable **[!UICONTROL SMS - Statistiques]** Le tableau décrit le succès de
 
 * **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
 
-* **[!UICONTROL Envoyé]**: nombre total d’envois.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours.
 
@@ -284,7 +284,7 @@ La variable **[!UICONTROL SMS - Statistiques]** Le tableau décrit le succès de
 
 Le widget **[!UICONTROL Performances de SMS par date]** détaille les informations principales relatives à votre message sous forme de graphique :
 
-* **[!UICONTROL Envoyé]**: nombre total d’envois.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours.
 
@@ -352,7 +352,7 @@ La variable **[!UICONTROL Courrier - Statistiques d’envoi]** Le tableau décri
 
 * **[!UICONTROL Ciblés]**: nombre de profils utilisateur qualifiés comme profils cibles.
 
-* **[!UICONTROL Envoyé]**: nombre total d’envois.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
 

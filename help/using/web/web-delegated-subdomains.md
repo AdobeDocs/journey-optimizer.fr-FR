@@ -10,7 +10,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Déléguer un sous-domaine web"
->abstract="Si vous ajoutez du contenu provenant d’Adobe Experience Manager Assets Essentials à vos expériences web, vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. Effectuez une sélection parmi les sous-domaines déjà délégués à l’Adobe ou configurez un nouveau sous-domaine."
+>abstract="Si vous ajoutez du contenu provenant d’Adobe Experience Manager Assets Essentials à vos expériences web, vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. Choisissez parmi les sous-domaines déjà délégués à Adobe ou configurez un nouveau sous-domaine."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -45,13 +45,13 @@ Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer
 
 Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par défaut** sera utilisé. Vous pouvez modifier le sous-domaine web par défaut, mais un seul sous-domaine peut être utilisé à la fois.
 
-## Accès et gestion des sous-domaines web {#access-web-subdomains}
+## Accéder à des sous-domaines web et les gérer {#access-web-subdomains}
 
-1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** , puis sélectionnez **[!UICONTROL Configuration web]** > **[!UICONTROL Sous-domaines web]**. Tous les sous-domaines configurés avec l’environnement de test actuel s’affichent.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration web]** > **[!UICONTROL Sous-domaines web]**. Tous les sous-domaines configurés avec la sandbox actuelle s’affichent.
 
    ![](assets/web-access-subdomains.png)
 
-1. Vous pouvez filtrer selon l’utilisateur qui a délégué chaque sous-domaine ou l’état de délégation (**[!UICONTROL Version préliminaire]**, **[!UICONTROL Traitement]**, **[!UICONTROL Succès]** ou **[!UICONTROL En échec]**).
+1. Vous pouvez filtrer selon l’utilisateur ou l’utilisatrice qui a délégué chaque sous-domaine ou selon le statut de délégation (**[!UICONTROL Brouillon]**, **[!UICONTROL En cours de traitement]**, **[!UICONTROL Succès]** ou **[!UICONTROL Échec]**).
 
    ![](assets/web-filter-subdomains.png)
 
@@ -71,7 +71,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
-1. Sélectionnez la variable **[!UICONTROL Utilisation d’un sous-domaine délégué]** de l’option **[!UICONTROL Type de configuration]** et sélectionnez un sous-domaine délégué dans la liste.
+1. Sélectionnez l’option **[!UICONTROL Utiliser un sous-domaine délégué]** de la section **[!UICONTROL Type de configuration]** et sélectionnez un sous-domaine délégué dans la liste.
 
    ![](assets/web-subdomain-details.png)
 
@@ -100,11 +100,11 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="Générer l’enregistrement DNS correspondant"
->abstract="Pour configurer un nouveau sous-domaine web, vous devez copier les informations du serveur de noms d’Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour publier du contenu provenant de la bibliothèque Experience Manager Assets Essentials."
+>abstract="Pour configurer un nouveau sous-domaine web, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour publier du contenu provenant de la bibliothèque Experience Manager Assets Essentials."
 
 Pour configurer un nouveau sous-domaine, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** , puis sélectionnez **[!UICONTROL configuration web]** > **[!UICONTROL sous-domaines web]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration web]** > **[!UICONTROL Sous-domaines web]**.
 
 1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
 
@@ -124,7 +124,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les sous-domaines à plusieurs niveaux (du même domaine parent) sont pris en charge. Par exemple, vous pouvez utiliser &#39;web.marketing.votreentreprise.com&#39;.
+   >Les sous-domaines à plusieurs niveaux (du même domaine parent) sont pris en charge. Par exemple, vous pouvez utiliser « web.marketing.yourcompany.com ».
 
 1. Pour définir ce sous-domaine par défaut, sélectionnez l’option correspondante.
 
@@ -146,9 +146,9 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
    >[!NOTE]
    >
-   >Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages web, vous devez attendre que l’Adobe effectue les vérifications requises, qui peuvent prendre jusqu’à 4 heures.
+   >Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages web, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.
 
-1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour créer des surfaces de canal web.
+1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Vous pouvez à présent l’utiliser pour créer des surfaces de canal web.
 
    Le statut du sous-domaine sera marqué comme en **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
 

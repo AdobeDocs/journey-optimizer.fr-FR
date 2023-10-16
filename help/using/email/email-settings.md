@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
 source-wordcount: '2258'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -182,25 +182,25 @@ En outre, lors de la définition de l’adresse **[!UICONTROL E-mail en Cci]**, 
 
 Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
-## Envoi à des adresses email supprimées {#send-to-suppressed-email-addresses}
+## Envoyer à des adresses e-mail supprimées {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="Remplacer la priorité de la liste de suppression"
->abstract="Vous pouvez décider d’envoyer des messages transactionnels aux profils même si leurs adresses email se trouvent sur la liste de suppression de Adobe Journey Optimizer en raison d’une plainte de spam. Par défaut, cette option est désactivée."
+>abstract="Vous pouvez décider d’envoyer des messages transactionnels aux profils même si leurs adresses e-mail se trouvent sur la liste de suppression d’Adobe Journey Optimizer en raison d’une plainte relative aux spams. Par défaut, cette option est désactivée."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Gérer la liste de suppression"
 
 >[!IMPORTANT]
 >
->Cette option n’est disponible que si vous avez sélectionné l’option **[!UICONTROL Transactionnel]** type d’email. [En savoir plus](#email-type)
+>Cette option n’est disponible que si vous avez sélectionné le type d’e-mail **[!UICONTROL Transactionnel]**. [En savoir plus](#email-type)
 
-Dans [!DNL Journey Optimizer], toutes les adresses électroniques marquées comme hard bounces, soft bounces et spams sont automatiquement collectées dans la variable [liste de suppression](../configuration/manage-suppression-list.md) et exclus de l’envoi dans un parcours ou une campagne.
+Dans [!DNL Journey Optimizer], toutes les adresses e-mail marquées comme hard bounces, soft bounces et plaintes relatives aux spams sont automatiquement collectées dans la [liste de suppression](../configuration/manage-suppression-list.md) et exclues de l’envoi dans un parcours ou une campagne.
 
-Cependant, vous pouvez décider de poursuivre l’envoi des messages du **transactionnel** saisissez des profils même si leurs adresses email figurent sur la liste de suppression en raison d’une plainte de spam de l’utilisateur.
+Cependant, vous pouvez décider de poursuivre l’envoi des messages de type **transactionnel** aux profils même si leurs adresses e-mail figurent sur la liste de suppression en raison d’une plainte relative aux spams de l’utilisateur ou de l’utilisatrice.
 
-En effet, les messages transactionnels contiennent généralement des informations utiles et attendues, telles qu’une confirmation de commande ou une notification de réinitialisation de mot de passe. Par conséquent, même s’ils ont signalé l’un de vos messages marketing comme spam, la plupart du temps, vous souhaitez que vos clients reçoivent ce type d’email non commercial.
+En effet, les messages transactionnels contiennent généralement des informations utiles et attendues, telles que des confirmations de commande ou des notifications de réinitialisation de mot de passe. Par conséquent, même s’ils ont signalé l’un de vos messages marketing comme spam, la plupart du temps, vous souhaitez que vos clientes et clients reçoivent ce type d’e-mail non commercial.
 
-Pour inclure les adresses électroniques supprimées en raison d’une plainte de spam dans votre audience de message transactionnel, sélectionnez l’option correspondante dans la **[!UICONTROL Envoyer aux adresses email supprimées]** .
+Pour inclure les adresses e-mail supprimées en raison d’une plainte relative aux spams dans votre audience de message transactionnel, sélectionnez l’option correspondante dans la section **[!UICONTROL Envoyer aux adresses e-mail supprimées]**.
 
 ![](assets/preset-suppressed-email-addresses.png)
 
@@ -208,9 +208,9 @@ Pour inclure les adresses électroniques supprimées en raison d’une plainte d
 >
 >Par défaut, cette option est désactivée.
 
-Cette option est une bonne pratique en matière de délivrabilité. Elle est désactivée par défaut pour garantir que les clients qui se sont désinscrits ne sont pas contactés. Vous pouvez toutefois modifier cette option par défaut, qui vous permet ensuite d’envoyer des messages transactionnels à vos clients.
+Cette option est une bonne pratique en matière de délivrabilité. Elle est désactivée par défaut pour garantir que les clientes et clients qui se sont désinscrits ne soient pas contactés. Vous pouvez toutefois modifier cette option par défaut, qui vous permet ensuite d’envoyer des messages transactionnels à vos clientes et clients.
 
-Une fois cette option activée, bien qu’un client ait marqué votre email marketing comme indésirable, ce client pourra recevoir vos messages transactionnels à l’aide de la surface actuelle. Veillez toujours à gérer les préférences de désinscription conformément aux bonnes pratiques en matière de délivrabilité.
+Une fois cette option activée, bien qu’un client ou une cliente ait marqué votre e-mail marketing comme indésirable, ce client ou cette cliente pourra recevoir vos messages transactionnels à l’aide de la surface actuelle. Veillez toujours à gérer les préférences de désinscription conformément aux bonnes pratiques en matière de délivrabilité.
 
 ## Liste de contrôle {#seed-list}
 

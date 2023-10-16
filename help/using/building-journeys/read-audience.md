@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Tester et publier le parcours {#testing-publishing}
 
-La variable **[!UICONTROL Lecture d’audience]** activité vous permet de tester le parcours sur un profil unitaire.
+L’activité **[!UICONTROL Lecture d’audience]** vous permet de tester le parcours sur un profil unitaire.
 
 Pour cela, activez le mode test.
 
@@ -124,7 +124,7 @@ Pour cela, activez le mode test.
 
 Configurez et exécutez le mode test comme vous le faites habituellement. [Découvrez comment tester un parcours](testing-the-journey.md).
 
-Une fois le test en cours d’exécution, la variable **[!UICONTROL Afficher les journaux]** vous permet d’afficher les résultats du test. Voir à ce propos [cette section](testing-the-journey.md#viewing_logs)
+Une fois le test en cours d’exécution, le bouton **[!UICONTROL Afficher les logs]** vous permet d’afficher les résultats du test. Voir à ce propos [cette section](testing-the-journey.md#viewing_logs).
 
 ![](assets/read-segment-log.png)
 

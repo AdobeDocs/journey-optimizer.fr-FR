@@ -9,7 +9,7 @@ exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 43%
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 
 Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 
-Vous pouvez afficher une liste de toutes les offres personnalisées en adressant une seule requête de GET à la variable [!DNL Offer Library] API.
+Vous pouvez afficher une liste de toutes les offres personnalisées en adressant une seule requête GET à l’API [!DNL Offer Library].
 
 **Format d’API**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
 
 **Requête**
@@ -52,13 +52,13 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération ET.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` in `[==,!=,<=,>=,<,>,~]`, prise en charge des expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération AND.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` in `[==,!=,<=,>=,<,>,~]`, prise en charge des expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limitez le nombre d’emplacements renvoyés. | `limit=5` |
 
 **Réponse**
 
-Une réponse réussie renvoie une liste d’offres personnalisées présentes avec celles auxquelles vous avez accès.
+Une réponse réussie renvoie une liste d’offres personnalisées présentes aux côtés de celles auxquelles vous avez accès.
 
 ```json
 {

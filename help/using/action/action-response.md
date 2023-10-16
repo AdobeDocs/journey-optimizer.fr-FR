@@ -12,13 +12,13 @@ exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Utiliser des réponses d’appel API dans des actions personnalisées {#custom-action-enhancements}
 
-Vous pouvez exploiter les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
+Vous pouvez utiliser les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
@@ -32,7 +32,7 @@ This capability was previously only available when using data sources. You can n
 * Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
 -->
 
-* Les tableaux scalaires sont pris en charge dans la payload de réponse :
+* Les tableaux scalaires sont pris en charge dans la payload de réponse :
 
   ```
   "dummyScalarArray": [
@@ -41,7 +41,7 @@ This capability was previously only available when using data sources. You can n
   ]
   ```
 
-* Les tableaux hétérogènes ne sont pas pris en charge dans la payload de réponse :
+* Les tableaux hétérogènes ne sont pas pris en charge dans la payload de réponse :
 
   ```
   "dummyRandomArray": [
@@ -158,7 +158,7 @@ Par exemple, vous pouvez ajouter une condition pour vérifier le nombre de point
 
 ## Journaux du mode test {#test-mode-logs}
 
-Vous pouvez accéder, via le mode test, aux journaux d’état liés aux réponses d’action personnalisée. Si vous avez défini des actions personnalisées avec des réponses dans votre parcours, une **actionsHistory** sur ces journaux affichant la charge utile renvoyée par le point de terminaison externe (en réponse à cette action personnalisée). Cela peut être très utile en termes de débogage.
+Vous pouvez accéder, via le mode test, aux journaux de statut liés aux réponses d’action personnalisée. Si vous avez défini des actions personnalisées avec des réponses dans votre parcours, une section **actionsHistory** sur ces journaux affiche la payload renvoyée par le point d’entrée externe (en réponse à cette action personnalisée). Cela peut être très utile en termes de débogage.
 
 ![](assets/action-response12.png)
 

@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Lors de la [création d’un message de publipostage direct](../direct-mail/crea
 
 Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants :
 
-1. A [configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffrer le fichier, le cas échéant.
+1. Une [configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
 
 1. Une [surface de publipostage direct](#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
 
@@ -90,7 +90,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
    >
    >Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
 
-1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le **[!UICONTROL Clé de chiffrement PGP/GPG]** champ .
+1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
 1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [surface de publipostage direct](#direct-mail-surface).
 

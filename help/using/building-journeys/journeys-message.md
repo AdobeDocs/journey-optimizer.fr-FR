@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 80%
+ht-degree: 99%
 
 ---
 
@@ -127,21 +127,21 @@ Ces informations sont stockées avec le profil de l&#39;utilisateur et sont réf
 
 ### Questions fréquentes {#faq-send-time}
 
-Que peut faire l’optimisation du temps d’envoi ? Comment gère-t-il les nouveaux profils ? Est-ce que l’envoi s’étend sur une fenêtre de 6/12/24 heure ?
+Que peut faire l’optimisation de l’heure d’envoi ? Comment sont gérés les nouveaux profils ? L’envoi est-il étendu sur une fenêtre de 6/12/24 heures ?
 
-Send-Time Optimization tente de prévoir le meilleur moment pour interagir avec les clients et optimiser les taux d’ouverture/clic des emails. Le score est dans un format de `3*7*24` attributs pour chaque profil. La variable `7*24` Les attributs décrivent le classement du meilleur moment prédit pour envoyer des emails au destinataire. 3 est destiné à optimiser le taux d’ouverture des emails, le taux de clics des emails et le taux d’ouverture des notifications push.
+L’optimisation de l’heure d’envoi tente de prévoir le meilleur moment pour interagir avec la clientèle et d’optimiser les taux d’ouverture/de clics des e-mails. Le score prend un format d’attributs `3*7*24` pour chaque profil. Les attributs `7*24` décrivent le classement du meilleur moment prédit pour envoyer des e-mails au destinataire ; 3 est destiné à optimiser le taux d’ouverture des e-mails, le taux de clics sur les e-mails et le taux d’ouverture des notifications push.
 
-Où puis-je voir l’heure d’envoi attendue pour chaque profil ?
+Où puis-je afficher l’heure d’envoi prévue pour chaque profil ?
 
-Vous pouvez voir le score global dans la variable **Profils** . Pour chacun des trois ensembles de 168 scores, les grades vont de -83 à 84. Plus le rang est élevé, plus le temps d&#39;interaction avec le destinataire a été choisi. Puisque vous pouvez définir le début et la durée d’un parcours, le meilleur rang (84) peut ne pas tomber dans cette fenêtre temporelle. Dans ce cas, nous vous recommandons de choisir une heure avec la valeur de rang la plus élevée.
+Vous pouvez voir le score global dans l’interface **Profils**. Pour chacun des trois ensembles de 168 scores, les classements vont de -83 à 84. Plus le classement est élevé, plus le moment choisi pour l’interaction avec le ou la destinataire est bon. Puisque vous pouvez définir le début et la durée d’un parcours, il est possible que le meilleur classement (84) ne tombe pas dans cette fenêtre temporelle. Dans ce cas, nous vous recommandons de choisir une heure ayant la valeur de classement la plus élevée.
 
-Quels rapports sont disponibles ?
+Quels sont les rapports disponibles ?
 
-Accédez à votre parcours, cliquez sur **Afficher le rapport** en haut à droite et sélectionnez l’option **Parcours** de gauche. [En savoir plus](../reports/journey-global-report.md)
+Accédez à votre parcours, cliquez sur le bouton **Afficher le rapport** en haut à droite et sélectionnez l’onglet **Parcours** de gauche. [En savoir plus](../reports/journey-global-report.md)
 
-Comment les données d’optimisation du temps d’envoi affectent-elles la richesse des profils ?
+Comment les données d’optimisation de l’heure d’envoi affectent-elles la richesse des profils ?
 
-L’optimisation du temps d’envoi ajoute le score/les attributs à chaque profil, mais aucun nouveau profil n’est créé.
+L’optimisation de l’heure d’envoi ajoute le score/les attributs à chaque profil, mais aucun nouveau profil n’est créé.
 
 ### Activer l’optimisation de l’heure d’envoi{#activate-send-time-optimization}
 

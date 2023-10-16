@@ -10,7 +10,7 @@ exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 4905c3c395ee06e1af34da9a2b5cae9b4a3c39e6
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Voici la structure de base d’une configuration de point d’entrée :
 >
 >La valeur maximale pouvant être définie est de 400. Si rien n’est spécifié, le système peut s’ouvrir à plusieurs milliers de connexions en fonction de l’échelle dynamique du système.
 >
->Lorsque la configuration de limitation est déployée, si aucune valeur &#39;maxHttpConnection&#39; n’a été fournie, une valeur par défaut &quot;maxHttpConnection = -1&quot; est ajoutée dans la configuration déployée, ce qui signifie que Journey Optimizer utilisera la valeur système par défaut.
+>Lorsque la configuration de limitation est déployée, si aucune valeur « maxHttpConnection » n’a été fournie, une valeur par défaut « maxHttpConnection = -1 » est ajoutée dans la configuration déployée, ce qui signifie que Journey Optimizer utilisera la valeur système par défaut.
 
 ### Exemple :
 

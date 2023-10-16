@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 46%
+ht-degree: 73%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 46%
 
 Les collections sont des sous-ensembles d&#39;offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l&#39;offre.
 
-Vous pouvez créer une collection en adressant une requête de POST à la fonction [!DNL Offer Library] API.
+Vous pouvez créer une collection en adressant une requête POST à l’API [!DNL Offer Library].
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
-Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/offer-collections
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
 
 **Requête**
 

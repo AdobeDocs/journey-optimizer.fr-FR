@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -206,7 +206,7 @@ Ce fragment est maintenant prêt à être utilisé lors de la création d’un [
 
 1. Cliquez sur **[!UICONTROL Créer]**. L’éditeur d’expression s’ouvre.
 
-1. Vous pouvez utiliser la variable [!DNL Journey Optimizer] Editeur d&#39;expression avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
+1. Vous pouvez utiliser l’éditeur d’expression [!DNL Journey Optimizer] avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 

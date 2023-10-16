@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -115,7 +115,7 @@ Pour créer une surface de canal, procédez comme suit :
 
    ![](assets/sms-surface-settings.png)
 
-   Commencez par sélectionner la variable **[!UICONTROL Type de SMS]** qui sera envoyé avec la surface : **[!UICONTROL Transactionnel]** ou **[!UICONTROL Marketing]**.
+   Sélectionnez le **[!UICONTROL Type de SMS]** qui sera envoyé avec la surface : **[!UICONTROL Transactionnel]** ou **[!UICONTROL Marketing]**.
 
    * Choisissez **Marketing** pour les SMS promotionnels : ces messages nécessitent le consentement de l’utilisateur ou de l’utilisatrice.
    * Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
@@ -140,11 +140,11 @@ Pour créer une surface de canal, procédez comme suit :
    >
    >Avant de pouvoir sélectionner un sous-domaine, vous devez avoir configuré au moins un sous-domaine SMS. [Voici comment procéder.](sms-subdomains.md)
 
-1. Saisissez le **[!UICONTROL Numéro d’opt-out]** vous voulez utiliser pour cette surface. Lorsque les profils s’excluent de ce nombre, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous utilisez pour envoyer des SMS avec [!DNL Journey Optimizer].
+1. Saisissez le **[!UICONTROL numéro d’opt-out]** que vous voulez utiliser pour cette surface. Lorsque les profils décident de ne plus recevoir de messages depuis ce numéro, vous pouvez toujours leur en envoyer à partir d’autres numéros que vous pouvez utiliser pour envoyer des SMS avec [!DNL Journey Optimizer].
 
    >[!NOTE]
    >
-   >Dans [!DNL Journey Optimizer], l’exclusion des SMS n’est plus gérée au niveau du canal. Il est désormais spécifique à un nombre.
+   >Dans [!DNL Journey Optimizer], la désinscription aux SMS n’est plus gérée au niveau du canal. Elle est désormais spécifique à un numéro.
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer la surface de canal en tant que brouillon et reprendre sa configuration ultérieurement.
 

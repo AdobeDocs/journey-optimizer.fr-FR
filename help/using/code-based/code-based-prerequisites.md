@@ -1,6 +1,6 @@
 ---
-title: Conditions préalables requises pour une expérience basée sur le code
-description: Pour pouvoir modifier des applications et des pages web à l’aide de la fonction basée sur le code Journey Optimizer, suivez les conditions préalables sur cette page.
+title: Conditions préalables pour une expérience basée sur le code
+description: Pour pouvoir modifier des applications et des pages web à l’aide de la fonctionnalité basée sur le code Journey Optimizer, respectez les conditions préalables présentées dans cette page.
 feature: Offers
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -29,33 +29,33 @@ Ce guide couvre les sujets suivants :
 
 >[!ENDSHADEBOX]
 
-Pour pouvoir utiliser des actions d’expérience basées sur le code dans [!DNL Journey Optimizer] et diffusez la payload du contenu de code qui peut être utilisée par vos applications, procédez comme suit :
+Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, procédez comme suit :
 
-* Pour ajouter des modifications à vos applications, vous devez disposer d’une mise en oeuvre spécifique. [En savoir plus](#implementation-prerequisites)
+* Pour ajouter des modifications à vos applications, vous devez disposer d’une implémentation spécifique. [En savoir plus](#implementation-prerequisites)
 
-* Pour que les expériences basées sur le code soient correctement diffusées, veillez à définir les paramètres Adobe Experience Platform détaillés. [here](#delivery-prerequisites).
+* Pour que les expériences basées sur le code soient correctement diffusées, veillez à définir les paramètres d’Experience Platform présentés [ici](#delivery-prerequisites).
 
 ## Notes de mise en garde {#caution-notes-web}
 
 * La fonctionnalité de canal d’expérience basée sur le code est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
-* Actuellement dans [!DNL Journey Optimizer] vous pouvez uniquement créer des expériences basées sur du code dans **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure)
+* Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure)
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 
-L’expérience basée sur le code prend en charge n’importe quel type d’implémentation client, comme illustré dans les options ci-dessous. Vous pouvez utiliser une méthode de mise en oeuvre côté client, côté serveur ou hybride pour vos propriétés :
+L’expérience basée sur le code prend en charge n’importe quel type d’implémentation du client ou de la cliente, comme illustré dans les options ci-dessous. Vous pouvez utiliser une méthode d’implémentation côté client, côté serveur ou hybride pour vos propriétés :
 
-* Côté client uniquement : pour ajouter des modifications à vos pages web ou applications mobiles, vous devez mettre en oeuvre l’une des fonctionnalités suivantes : [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
+* Côté client uniquement : pour ajouter des modifications à vos pages web ou applications mobiles, vous devez mettre en œuvre le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
 
-* Mode hybride : vous pouvez utiliser l’[API de serveur du réseau Edge d’AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Mode hybride : vous pouvez utiliser l’[API EP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
-* Côté serveur : vous pouvez utiliser la variable [API du serveur réseau AEP Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur. Votre équipe de développement doit gérer la réponse et effectuer le rendu des modifications côté client dans l’implémentation de votre application.
+* Côté serveur : vous pouvez utiliser l’[API AEP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur. Votre équipe de développement doit gérer la réponse et effectuer le rendu des modifications côté client dans la mise en œuvre de votre application.
 
-Vous trouverez des exemples pour chaque méthode de mise en oeuvre ci-dessus dans la section [cette section](code-based-implementation-samples.md).
+Vous trouverez des exemples de chaque méthode d’implémentation ci-dessus dans [cette section](code-based-implementation-samples.md).
 
 ## Conditions préalables à la diffusion {#delivery-prerequisites}
 
-Pour que les expériences basées sur le code soient correctement diffusées, les paramètres suivants doivent être définis :
+Pour que les expériences basées sur le code soient correctement diffusées, les paramètres suivants doivent être définis :
 
 * Dans la [Collecte de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}, assurez-vous qu’un train de données est défini, de telle sorte que sous le service **[!UICONTROL Adobe Experience Platform]**, l’option **[!UICONTROL Adobe Journey Optimizer]** soit activée.
 
@@ -71,9 +71,9 @@ Pour que les expériences basées sur le code soient correctement diffusées, le
 
 ## Conditions préalables à l’expérience de contenu {#experiment-prerequisites}
 
-Pour activer des expériences de contenu pour le canal basé sur le code, vous devez vous assurer que la variable [dataset](../data/get-started-datasets.md) utilisé dans l’implémentation de votre application [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
+Pour activer les expériences de contenu pour le canal basé sur le code, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans le [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} de votre implémentation web est également inclus dans la configuration des rapports.
 
-En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données d’application, les données d’application ne s’afficheront pas dans les rapports d’expérience de contenu.
+En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans le train de données de votre application, les données de l’application ne s’afficheront pas dans les rapports d’expérience de contenu.
 
 Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../campaigns/reporting-configuration.md#add-datasets).
 

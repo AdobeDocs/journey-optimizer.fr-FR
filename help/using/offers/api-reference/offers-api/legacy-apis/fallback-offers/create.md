@@ -1,5 +1,5 @@
 ---
-title: Création d’une offre de secours
+title: Créer une offre de secours
 description: Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.
 feature: Offers, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Création d&#39;une offre de secours {#create-fallback-offer}
+# Créer une offre de secours {#create-fallback-offer}
 
 Vous pouvez créer une offre de secours en adressant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 

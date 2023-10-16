@@ -10,10 +10,11 @@ level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
-source-git-commit: 42b1243f713743d299a60aa93546ed99d4dcf156
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+source-git-commit: e79653c67da6ce125e5120c885260522e5e4a1c0
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -133,7 +134,7 @@ Une fois envoyé, vous pouvez mesurer l’impact de vos campagnes dans les rappo
 
 ## Rapport de campagne multilingue {#multilingual-campaign-report}
 
-Rapports globaux, accessibles à partir de **Tout le temps** , affichez les événements qui se sont produits il y a au moins deux heures et couvrez les événements sur une période sélectionnée. Pour accéder directement au rapport global de campagne à partir de votre campagne, cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
+Les rapports globaux, accessibles à partir de l’onglet **À toute heure**, affichent les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. Pour accéder directement au rapport global de campagne à partir de votre campagne, cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
 
 Pour plus d’informations sur les données disponibles dans le rapport Campaign, reportez-vous à la section [cette page](../reports/campaign-global-report.md).
 

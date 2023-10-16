@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 >[!NOTE]
 >
->Pour l’instant, le mode de diffusion Rapid n’est pas pris en charge pour les campagnes déclenchées par l’API de notification push.
+>Pour l’instant, le mode Diffusion rapide n’est pas pris en charge pour les campagnes déclenchées par l’API de notification push.
 
 ## Créer une campagne déclenchée par API {#create}
 

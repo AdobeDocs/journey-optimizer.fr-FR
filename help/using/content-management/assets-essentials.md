@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -41,17 +41,17 @@ Pour importer des fichiers dans [!DNL Assets Essentials], vous devez d&#39;abord
 
 Pour plus d’informations sur le téléchargement de ressources, consultez la documentation [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=fr){target="_blank"}.
 
-1. Sur la page d’accueil de [!DNL Adobe Journey Optimizer], sélectionnez l’onglet **[!UICONTROL Ressources]** dans le menu **[!UICONTROL Gestion de contenu]** pour accéder à [!DNL Assets Essentials].
+1. Sur la page d’accueil d’[!DNL Adobe Journey Optimizer], sélectionnez l’onglet **[!UICONTROL Ressources]** dans le menu **[!UICONTROL Gestion de contenu]** pour accéder à [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
-1. Sélectionnez le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel Assets as a Cloud Service, à condition que vous possédiez cette solution.
+1. Sélectionnez le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel Assets as a Cloud Service, à condition que vous possédiez cette solution.
 
    ![](assets/media_library_4.png)
 
-+++ Découvrez comment changer de référentiel d’Assets.
++++ Découvrez comment changer de référentiel Assets.
 
-   Pour modifier votre référentiel Assets, sélectionnez l’icône Compte dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Sélectionner un référentiel]**.
+   Pour modifier votre référentiel Assets, sélectionnez l’icône Compte en haut à droite, puis cliquez sur **[!UICONTROL Sélectionner un référentiel]**.
 
    ![](assets/media_library_3.png)
 

@@ -9,7 +9,7 @@ exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Pour plus d’informations sur JSON Patch, notamment les opérations disponibles
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
-Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | ID de l’entité que vous souhaitez mettre à jour. | `personalizedOffer1234` |
 
 **Requête**
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1
 
 | Paramètre | Description |
 | --------- | ----------- |
-| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations incluent : `add`, `replace`, `remove`, `copy` et `test`. |
+| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace`, `remove`, `copy` et `test`. |
 | `path` | Chemin d’accès du paramètre à mettre à jour. |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de l’emplacement, y compris l’identifiant d’emplacement.
+Une réponse réussie renvoie les détails mis à jour du placement, y compris l’identifiant d’emplacement.
 
 ```json
 {

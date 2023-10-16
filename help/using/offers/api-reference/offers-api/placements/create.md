@@ -9,17 +9,17 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # Création d’un emplacement {#create-placement}
 
-Vous pouvez créer un emplacement en adressant une requête de POST à la variable [!DNL Offer Library] API.
+Vous pouvez créer un emplacement en adressant une requête POST à l’API [!DNL Offer Library].
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
-Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/placements
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
 
 **Requête**
 
@@ -66,7 +66,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement nouvellement créé et de l’emplacement. `id`. Vous pouvez l’utiliser ultérieurement pour mettre à jour ou supprimer votre emplacement. Vous pouvez utiliser l’`id` d’emplacement unique dans des tutoriels ultérieurs pour créer des décisions, des règles de décision et des offres de secours.
+Une réponse réussie renvoie les détails de l’emplacement nouvellement créé et son `id`. Vous pouvez l’utiliser aux étapes suivantes pour mettre à jour ou supprimer votre emplacement. Vous pouvez utiliser l’`id` d’emplacement unique dans des tutoriels ultérieurs pour créer des décisions, des règles de décision et des offres de secours.
 
 ```json
 {

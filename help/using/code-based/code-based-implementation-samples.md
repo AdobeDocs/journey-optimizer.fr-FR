@@ -1,6 +1,6 @@
 ---
 title: Exemples de mises en œuvre basées sur le code
-description: Cette page présente des exemples de la méthode de mise en oeuvre de la fonctionnalité basée sur le code Journey Optimizer.
+description: Cette page présente des exemples de la méthode de mise en œuvre de la fonctionnalité basée sur le code Journey Optimizer.
 feature: Offers
 topic: Content Management
 role: User
@@ -12,11 +12,11 @@ exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Exemples de méthodes de mise en oeuvre basées sur le code {#implementation-samples}
+# Exemples de méthodes de mise en œuvre basées sur le code {#implementation-samples}
 
 >[!BEGINSHADEBOX]
 
@@ -29,23 +29,23 @@ Ce guide couvre les sujets suivants :
 
 >[!ENDSHADEBOX]
 
-L’expérience basée sur le code prend en charge n’importe quel type d’implémentation client. Sur cette page, vous trouverez des exemples pour chaque méthode d’implémentation :
+L’expérience basée sur le code est compatible avec n’importe quelle mise en œuvre du client ou de la cliente. Sur cette page, vous trouverez des exemples pour chaque méthode de mise en œuvre :
 
 * [Côté client](#client-side-implementation)
 * [Côté serveur](#server-side-implementation)
 * [Hybride](#hybrid-implementation)
 
-Vous pouvez également suivre [ce lien](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} pour trouver des exemples de mise en oeuvre pour différents cas d’utilisation de personnalisation et d’expérimentation. Consultez-les et exécutez-les afin de mieux comprendre les étapes de mise en oeuvre nécessaires et le fonctionnement du flux de personnalisation de bout en bout.
+Vous pouvez également suivre [ce lien](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} pour trouver des exemples de mise en œuvre pour différents cas pratiques de personnalisation et d’expérimentation. Consultez-les et exécutez-les afin de mieux comprendre les étapes de mise en œuvre nécessaires et le fonctionnement du flux de personnalisation de bout en bout.
 
-## Mise en oeuvre côté client {#client-side-implementation}
+## Mise en œuvre côté client {#client-side-implementation}
 
-Si vous disposez d’une mise en oeuvre côté client, vous pouvez utiliser l’un des SDK client AEP : SDK Web AEP ou SDK mobile AEP. Les étapes ci-dessous décrivent le processus de récupération du contenu publié en périphérie par les campagnes d’expérience basées sur le code dans un exemple d’implémentation du SDK Web et l’affichage du contenu personnalisé.
+Si vous disposez d’une mise en œuvre côté client, vous pouvez utiliser l’un des SDK AEP client : SDK AEP Web ou SDK AEP Mobile. Les étapes ci-dessous décrivent le processus de récupération du contenu publié en périphérie par les campagnes d’expérience basées sur le code dans un exemple de mise en œuvre du SDK Web et l’affichage du contenu personnalisé.
 
 ### Fonctionnement
 
-1. [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} est inclus dans la page.
+1. Le [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} est inclus dans la page.
 
-1. Vous devez utiliser la variable `sendEvent` et spécifiez l’URI de surface pour récupérer le contenu de personnalisation.
+1. Vous devez utiliser la commande `sendEvent` et spécifier l’URI de surface pour récupérer le contenu de personnalisation.
 
    ```javascript
    alloy("sendEvent", {
@@ -56,9 +56,9 @@ Si vous disposez d’une mise en oeuvre côté client, vous pouvez utiliser l’
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Les éléments d’expérience basés sur le code doivent être appliqués manuellement par le code d’implémentation (à l’aide de la variable [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} ) pour mettre à jour le modèle DOM en fonction de la décision.
+1. Les éléments d’expérience basés sur le code doivent être appliqués manuellement par le code de mise en œuvre (à l’aide de la méthode [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) pour mettre à jour le modèle DOM en fonction de la décision.
 
-1. Pour les campagnes d’expérience basées sur du code, les événements d’affichage doivent être envoyés manuellement pour indiquer le moment où le contenu a été affiché. Cela s’effectue via la commande `sendEvent`.
+1. Pour les campagnes d’expériences basées sur le code, les événements d’affichage doivent être envoyés manuellement pour indiquer le moment où le contenu a été affiché. Cela s’effectue via la commande `sendEvent`.
 
 ```javascript
 function sendDisplayEvent(decision) {
@@ -88,21 +88,21 @@ function sendDisplayEvent(decision) {
 
 **Cookies**
 
-Les cookies sont utilisés pour conserver l’identité de l’utilisateur et les informations de cluster. Lors de l’utilisation d’une mise en oeuvre côté client, le SDK Web gère automatiquement le stockage et l’envoi de ces cookies pendant le cycle de vie de la requête.
+Les cookies sont utilisés pour conserver l’identité de l’utilisateur ou de l’utilisatrice et les informations de cluster. Lors de l’utilisation d’une mise en œuvre côté client, le SDK Web gère le stockage et l’envoi automatiques de ces cookies pendant le cycle de vie des requêtes.
 
 | Cookie | Rôle | Stocké par | Envoyé par |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
-| kndctr_AdobeOrg_identity | Contient des détails de l’identité de l’utilisateur | SDK Web | SDK Web |
-| kndctr_AdobeOrg_cluster | Indique quelle grappe d’expériences doit être utilisée pour répondre aux requêtes. | SDK Web | SDK Web |
+| kndctr_AdobeOrg_identity | Contient des détails de l’identité de l’utilisateur ou de l’utilisatrice | SDK Web | SDK Web |
+| kndctr_AdobeOrg_cluster | Indique quel cluster Edge d’expérience doit être utilisé pour répondre aux requêtes | SDK Web | SDK Web |
 
 **Demander l’emplacement**
 
-Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires pour obtenir des propositions et envoyer une notification d’affichage. Lors de l’utilisation d’une mise en oeuvre côté client, le SDK Web effectue ces requêtes lorsque la variable `sendEvent` est utilisée.
+Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires pour obtenir des propositions et envoyer une notification d’affichage. Lors de l’utilisation d’une mise en œuvre côté client, le SDK Web effectue ces requêtes lorsque la commande `sendEvent` est utilisée.
 
 | Requête | Créée par |
 | ---------------------------------------------- | ----------------------------------- |
-| requête d’interaction pour obtenir des propositions | SDK web à l’aide de la commande sendEvent |
-| demande d’interaction pour envoyer des notifications d’affichage | SDK web à l’aide de la commande sendEvent |
+| requête d’interaction pour obtenir des propositions | SDK Web utilisant la commande sendEvent |
+| requête d’interaction pour envoyer des notifications d’affichage | SDK Web utilisant la commande sendEvent |
 
 **Diagramme de flux**
 
@@ -110,12 +110,12 @@ Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires p
 
 ## Mise en œuvre côté serveur {#server-side-implementation}
 
-Si vous disposez d’une mise en oeuvre côté serveur, vous pouvez utiliser l’une des API réseau AEP Edge. Les étapes ci-dessous décrivent le processus de récupération du contenu publié en périphérie par les campagnes d’expérience basées sur le code dans un exemple d’implémentation de l’API réseau Edge pour une page web et l’affichage du contenu personnalisé.
+Si vous disposez d’une mise en œuvre côté serveur, vous pouvez utiliser l’une des API AEP Edge Network. Les étapes ci-dessous décrivent le processus de récupération du contenu publié en périphérie par les campagnes d’expérience basées sur le code dans un exemple de mise en œuvre de l’API Edge Network pour une page web et l’affichage du contenu personnalisé.
 
 ### Fonctionnement
 
-1. La page web est demandée et tous les cookies précédemment stockés par le navigateur, précédés du préfixe `kndctr_` sont inclus.
-1. Lorsque la page est demandée auprès du serveur d’applications, un événement est envoyé au [point d’entrée de la collecte de données interactive](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr) pour récupérer du contenu de personnalisation. Cet exemple d’application utilise certaines méthodes d’assistance pour simplifier la création et l’envoi de requêtes à l’API (voir [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mais la demande est simplement une `POST` avec un payload contenant un événement et une requête. Les cookies (s’ils sont disponibles) de l’étape précédente sont inclus avec la requête dans la variable `meta>state>entries` tableau.
+1. La page web est demandée et tous les cookies précédemment stockés par le navigateur, précédés du préfixe `kndctr_`, sont inclus.
+1. Lorsque la page est demandée auprès du serveur d’applications, un événement est envoyé au [point d’entrée de la collecte de données interactive](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr) pour récupérer du contenu de personnalisation. Cet exemple d’application utilise des méthodes d’assistance pour simplifier la création et l’envoi de requêtes à l’API (voir [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Mais la requête est simplement un `POST` avec une payload contenant un événement et une requête. Les cookies (s’ils sont disponibles) de l’étape précédente sont inclus avec la requête dans le tableau `meta>state>entries`.
 
    ```javascript
    fetch(
@@ -196,8 +196,8 @@ Si vous disposez d’une mise en oeuvre côté serveur, vous pouvez utiliser l�
    ).then((res) => res.json());
    ```
 
-1. L’expérience JSON de la campagne d’expérience basée sur le code est lue à partir de la réponse et utilisée lors de la production de la réponse de HTML.
-1. Pour les campagnes d’expérience basées sur du code, les événements d’affichage doivent être envoyés manuellement dans l’implémentation pour indiquer le moment où le contenu de la campagne a été affiché. Dans cet exemple, la notification est envoyée côté serveur pendant le cycle de vie de la requête.
+1. L’expérience JSON de la campagne d’expérience basée sur le code est lue à partir de la réponse et utilisée lors de la production de la réponse HTML.
+1. Pour les campagnes d’expérience basées sur le code, les événements d’affichage doivent être envoyés manuellement dans la mise en œuvre pour indiquer le moment où le contenu de la campagne a été affiché. Dans cet exemple, la notification est envoyée côté serveur, pendant le cycle de vie de la requête.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {
@@ -250,21 +250,21 @@ Si vous disposez d’une mise en oeuvre côté serveur, vous pouvez utiliser l�
 
 **Cookies**
 
-Les cookies sont utilisés pour conserver l’identité de l’utilisateur et les informations de cluster. Lors de l’utilisation d’une mise en oeuvre côté serveur, le serveur d’applications doit gérer le stockage et l’envoi de ces cookies pendant le cycle de vie de la demande.
+Les cookies sont utilisés pour conserver l’identité de l’utilisateur ou de l’utilisatrice et les informations de cluster. Lors de l’utilisation d’une mise en œuvre côté serveur, le serveur d’applications doit gérer le stockage et l’envoi de ces cookies pendant le cycle de vie des requêtes.
 
 | Cookie | Rôle | Stocké par | Envoyé par |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
-| kndctr_AdobeOrg_identity | Contient des détails de l’identité de l’utilisateur | serveur applicatif | serveur applicatif |
-| kndctr_AdobeOrg_cluster | Indique quelle grappe d’expériences doit être utilisée pour répondre aux requêtes. | serveur applicatif | serveur applicatif |
+| kndctr_AdobeOrg_identity | Contient des détails de l’identité de l’utilisateur ou de l’utilisatrice | serveur d’applications | serveur d’applications |
+| kndctr_AdobeOrg_cluster | Indique quel cluster Edge d’expérience doit être utilisé pour répondre aux requêtes | serveur d’applications | serveur d’applications |
 
-**Demander l’emplacement**
+**Emplacement de la requête**
 
-Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires pour obtenir des propositions et envoyer une notification d’affichage. Lors de l’utilisation d’une mise en oeuvre côté client, le SDK Web effectue ces requêtes lorsque la variable `sendEvent` est utilisée.
+Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires pour obtenir des propositions et envoyer une notification d’affichage. Lors de l’utilisation d’une mise en œuvre côté client, le SDK Web effectue ces requêtes lorsque la commande `sendEvent` est utilisée.
 
 | Requête | Créée par |
 | ---------------------------------------------- | ------------------------------------------------------------ |
-| requête d’interaction pour obtenir des propositions | serveur d’applications appelant l’API Adobe Experience Platform |
-| demande d’interaction pour envoyer des notifications d’affichage | serveur d’applications appelant l’API Adobe Experience Platform |
+| requête d’interaction pour obtenir des propositions | serveur d’applications appelant l’API Adobe Experience Platform |
+| requête d’interaction pour envoyer des notifications d’affichage | serveur d’applications appelant l’API Adobe Experience Platform |
 
 **Diagramme de flux**
 
@@ -272,7 +272,7 @@ Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires p
 
 ## Implémentation hybride {#hybrid-implementation}
 
-Si vous disposez d’une mise en oeuvre hybride, consultez les liens ci-dessous.
+Si vous disposez d’une mise en œuvre hybride, consultez les liens ci-dessous.
 
-* Adobe Tech Blog : [Personnalisation hybride dans le SDK Web de Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentation du SDK : [Personnalisation hybride à l’aide du SDK Web et de l’API Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Blog sur les technologies Adobe : [Personnalisation hybride dans le SDK Web d’Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* Documentation SDK : [Personnalisation hybride à l’aide du SDK Web et de l’API Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=fr){target="_blank"}

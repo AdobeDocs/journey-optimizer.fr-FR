@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion des utilisateurs - Aperçu
+title: Gestion des utilisateurs et des utilisatrices - Vue d’ensemble
 description: Découvrez comment définir et gérer les autorisations.
 feature: Access Management
 topic: Administration

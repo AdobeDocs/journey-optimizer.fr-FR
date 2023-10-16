@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Mise à jour d’une règle de décision {#update-decision-rule}
+# Mettre à jour une règle de décision {#update-decision-rule}
 
 Vous pouvez créer une offre de secours en adressant une requête POST à l&#39;API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 

@@ -9,7 +9,7 @@ exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 44%
 
 Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 
-Vous pouvez rechercher des offres personnalisées spécifiques en adressant une demande de GET à la fonction [!DNL Offer Library] API qui inclut l’identifiant d’offre personnalisé dans le chemin d’accès de la requête.
+Vous pouvez rechercher des offres personnalisées spécifiques en adressant une requête GET à l’API [!DNL Offer Library] qui inclut l’identifiant d’offre personnalisée dans le chemin d’accès de la requête.
 
 **Format d’API**
 
@@ -27,8 +27,8 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `personalizedOffer1234` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | ID de l’entité que vous souhaitez rechercher. | `personalizedOffer1234` |
 
 **Requête**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’offre personnalisée, y compris les informations sur votre offre personnalisée unique. `id`.
+Une réponse réussie renvoie les détails de l’offre personnalisée, y compris les informations sur votre offre personnalisée unique `id`.
 
 ```json
 {

@@ -9,13 +9,13 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 53%
+ht-degree: 72%
 
 ---
 
 # Créer une décision {#create-decision}
 
-Vous pouvez créer une décision en adressant une requête de POST à la fonction [!DNL Offer Library] API.
+Vous pouvez créer une décision en adressant une requête POST à l’API [!DNL Offer Library].
 
 ## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
 
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/offer-decisions
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
 
 **Requête**
 

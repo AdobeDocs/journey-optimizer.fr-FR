@@ -9,13 +9,13 @@ exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # Suppression d’une collection {#delete-collection}
 
-Il peut parfois être nécessaire de supprimer (DELETE) une collection. Pour ce faire, il vous suffit d’adresser une requête de DELETE au [!DNL Offer Library] API utilisant la variable `id` de la collection que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) une collection. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API [!DNL Offer Library] en utilisant l’`id` de la collection que vous souhaitez supprimer.
 
 **Format d’API**
 
@@ -25,7 +25,7 @@ DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point de terminaison des API de persistance. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | ID de l’entité que vous souhaitez supprimer. | `offerCollection1234` |
 
 **Requête**
@@ -41,6 +41,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Réponse**
 
-Une réponse réussie renvoie un état HTTP 200 et un corps vide.
+Une réponse réussie renvoie un état HTTP 200 et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à la collection. Vous devriez recevoir le statut HTTP 404 (Introuvable) car la collection a été supprimée.
+Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à la collection. Vous devriez recevoir le statut HTTP 404 (Introuvable) car la collection a été supprimée.

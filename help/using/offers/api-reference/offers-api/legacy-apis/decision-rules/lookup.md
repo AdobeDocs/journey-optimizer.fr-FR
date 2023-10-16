@@ -9,7 +9,7 @@ exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la règle de décision spécifique que vous avez recherchée, y compris des informations sur sa règle de décision unique. `id`.
+Une réponse réussie renvoie les détails de la règle de décision spécifique que vous avez recherchée, y compris des informations sur son `id` de règle de décision unique.
 
 ```json
   {

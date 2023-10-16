@@ -1,6 +1,6 @@
 ---
-title: Modifier le contenu web
-description: Découvrez comment créer une page web et modifier son contenu dans Journey Optimizer
+title: Modifier un contenu web
+description: Découvrez comment créer une page web et modifier son contenu dans Journey Optimizer.
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Modifier le contenu web {#edit-web-content}
+# Modifier un contenu web {#edit-web-content}
 
 Après l’[ajout d’une action web](create-web.md#create-web-campaign) dans votre campagne, vous pouvez modifier le contenu de votre site à l’aide du concepteur web.
 
@@ -25,13 +25,13 @@ Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension
 >
 >Pour créer des pages web dans l’interface utilisateur de [!DNL Journey Optimizer] et y accéder, suivez les conditions préalables répertoriées dans [cette section](web-prerequisites.md).
 
-Accédez aux sections suivantes pour en savoir plus sur chaque rubrique :
+Accédez aux sections suivantes pour en savoir plus sur chaque rubrique :
 
 * [Gérer les modifications](manage-web-modifications.md)
 
 * [Surveiller vos campagnes web](monitor-web-campaigns.md)
 
-## Utilisation du concepteur web {#work-with-web-designer}
+## Utiliser le concepteur web {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -138,7 +138,7 @@ Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [of
 
 ## Naviguer dans le concepteur web {#navigate-web-designer}
 
-Cette section décrit les différentes manières de naviguer dans le concepteur web. Pour afficher et gérer les modifications ajoutées à votre expérience web, voir [cette section](manage-web-modifications.md).
+Cette section décrit les différentes manières de naviguer dans le concepteur web. Pour afficher et gérer les modifications ajoutées à votre expérience web, consultez [cette section](manage-web-modifications.md).
 
 ### Utiliser des chemins de navigation {#breadcrumbs}
 
@@ -167,7 +167,7 @@ Dans le mode de **[!UICONTROL Navigation]**, vous pouvez accéder à la page exa
 
 Il est particulièrement utile lorsque vous traitez des pages qui se trouvent derrière une authentification ou qui ne sont pas disponibles depuis le début à une certaine URL. Par exemple, vous serez en mesure de vous authentifier, d’accéder à la page de votre compte ou à la page de votre panier, puis de revenir au mode **[!UICONTROL Conception]** pour effectuer les modifications sur la page souhaitée.
 
-Utilisation **[!UICONTROL Parcourir]** vous permet également de parcourir toutes les vues de votre site web lors de la création d’applications d’une seule page. [En savoir plus](web-spa.md)
+L’utilisation du mode **[!UICONTROL Parcourir]** vous permet également de parcourir toutes les vues de votre site web lors de la création d’applications monopage. [En savoir plus](web-spa.md)
 
 ### Modifier la taille de l’appareil {#change-device-size}
 

@@ -9,7 +9,7 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 51%
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 51%
 
 Les emplacements sont des conteneurs utilisés pour présenter vos offres. Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 
-Vous pouvez afficher une liste de tous les emplacements en adressant une seule requête de GET au [!DNL Offer Library] API.
+Vous pouvez afficher une liste de tous les emplacements en exécutant une seule requête GET sur l’API [!DNL Offer Library].
 
 **Format d’API**
 
@@ -39,8 +39,8 @@ Les paramètres de requête les plus courants pour la pagination sont les suivan
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération ET.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` in `[==,!=,<=,>=,<,>,~]`, prise en charge des expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération AND.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}..]</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` in `[==,!=,<=,>=,<,>,~]`, prise en charge des expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 
 **Requête**
 
@@ -55,7 +55,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements?limit=2' \
 
 **Réponse**
 
-Une réponse réussie renvoie une liste d’emplacements présents et auxquels vous avez accès.
+Une réponse réussie renvoie une liste d’emplacements présents et ceux auxquels vous avez accès.
 
 ```json
 {
