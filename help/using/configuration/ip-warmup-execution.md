@@ -11,10 +11,10 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
+source-git-commit: 4e0d75c677ffa1a5350c83300e4a1b0f0150d7c1
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 4%
+source-wordcount: '1693'
+ht-degree: 3%
 
 ---
 
@@ -63,13 +63,14 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-select-campaign.png)
 
-   Prenez note des points suivants :
+   >[!IMPORTANT]
+   >
+   >    * Seules les campagnes avec la variable **[!UICONTROL Activation du plan de chauffage par IP]** option activée <!--and live?--> sont disponibles pour sélection. [En savoir plus](#create-ip-warmup-campaign)
+   >
+   >* Vous devez sélectionner une opération qui utilise la même surface que celle sélectionnée pour le plan de chaleur IP en cours.
+   >
+   >* Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans une autre campagne de chaleur IP.
 
-   * Seules les campagnes avec la variable **[!UICONTROL Activation du plan de chauffage par IP]** option activée <!--and live?--> sont disponibles pour sélection. [En savoir plus](#create-ip-warmup-campaign)
-
-   * Vous devez sélectionner une opération qui utilise la même surface que celle sélectionnée pour le plan de chaleur IP en cours.
-
-   * Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans une autre campagne de chaleur IP.
 
 1. Dans le **[!UICONTROL Exclusion de profil]** , vous pouvez constater que les profils des exécutions précédentes de cette phase sont toujours exclus. Par exemple, si dans Exécuter #1 un profil est couvert dans les 4800 premières personnes ciblées, le système s’assure automatiquement que le même profil ne reçoit pas l’email dans Exécuter #2.
 
