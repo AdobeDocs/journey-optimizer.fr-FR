@@ -11,7 +11,7 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 4e0d75c677ffa1a5350c83300e4a1b0f0150d7c1
+source-git-commit: 9236848f0f9ee3ece555833283378570ec498b1d
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 3%
@@ -69,7 +69,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Vous devez sélectionner une opération qui utilise la même surface que celle sélectionnée pour le plan de chaleur IP en cours.
    >
-   >* Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans une autre campagne de chaleur IP.
+   >* Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans un autre plan de chauffage par IP.
 
 
 1. Dans le **[!UICONTROL Exclusion de profil]** , vous pouvez constater que les profils des exécutions précédentes de cette phase sont toujours exclus. Par exemple, si dans Exécuter #1 un profil est couvert dans les 4800 premières personnes ciblées, le système s’assure automatiquement que le même profil ne reçoit pas l’email dans Exécuter #2.
