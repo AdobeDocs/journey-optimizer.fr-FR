@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: prévisualisation, contenu, e-mail, BAT, test, profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '991'
 ht-degree: 100%
 
 ---
 
 # Prévisualiser et tester votre e-mail {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Prévisualiser et tester vos messages"
+>abstract="Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester."
 
 Une fois le contenu votre d’e-mail défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du [contenu personnalisé](../personalization/personalize.md), vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
@@ -44,13 +49,6 @@ De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour pr
 ➡️ [Découvrez comment prévisualiser et tester votre e-mail dans cette vidéo](#video-preview)
 
 ## Sélectionner des profils de test {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="Prévisualiser et tester vos messages"
->abstract="Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=fr#email-rendering" text="Rendu des e-mails"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=fr#preview-email" text="Aperçu"
 
 Utilisez des [profils de test](../audience/creating-test-profiles.md) pour cibler des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis.
 
