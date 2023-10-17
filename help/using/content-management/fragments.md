@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 53%
@@ -21,7 +21,7 @@ ht-degree: 53%
 >id="ajo_create_fragment"
 >title="Définition de vos propres fragments"
 >abstract="Créez et gérez des fragments autonomes pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="Créer des fragments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Créer des fragments"
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes et parcours [!DNL Journey Optimizer].
 
@@ -194,7 +194,7 @@ Ce fragment est maintenant prêt à être utilisé lors de la création d’un [
 >id="ajo_create_expression_fragment"
 >title="Sélectionner le type d’expression"
 >abstract="Créez un fragment d’expression autonome pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes. Lorsque vous utilisez l’éditeur d’expression, vous pouvez exploiter tous les fragments d’expression créés sur l’environnement de test actuel."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="Utilisation des fragments d’expression"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Utilisation des fragments d’expression"
 
 1. [Création d’un fragment](#create-from-scratch) de la **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]** dans le menu de gauche, puis sélectionnez **[!UICONTROL Fragment d’expression]** type.
 
