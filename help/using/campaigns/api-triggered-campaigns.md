@@ -9,14 +9,19 @@ role: Developer, Admin
 level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 7064d9e6dce2c2b96a0c0b4df5eff24e91d42260
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 98%
 
 ---
 
 # Déclencher des campagnes à l’aide d’API {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="Type de campagne"
+>abstract="Pour une fonctionnalité de disponibilité limitée permettant d’envoyer des messages sans créer de profils, suivez les étapes présentées dans la documentation."
 
 ## À propos des campagnes déclenchées par API {#about}
 
