@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: Modèles d’optimisation automatique
 description: En savoir plus sur les modèles d’optimisation automatique.
-feature: Ranking Formulas, Offers
+feature: Ranking, Offers
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 100%
