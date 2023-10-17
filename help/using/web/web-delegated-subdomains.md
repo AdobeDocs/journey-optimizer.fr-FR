@@ -4,10 +4,11 @@ product: journey optimizer
 title: Configurer des sous-domaines web
 description: Découvrez comment configurer des sous-domaines web avec Journey Optimizer.
 role: Admin
-level: Intermediate
+feature: Web Channel, Subdomains
+level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%

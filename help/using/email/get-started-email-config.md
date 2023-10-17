@@ -4,12 +4,12 @@ product: journey optimizer
 title: Prise en main de la configuration du canal e-mail
 description: En savoir plus sur la configuration du canal e-mail dans  [!DNL Journey Optimizer].
 role: Admin
-level: Intermediate
-feature: Application Settings
+level: Experienced
+feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuration, surface, sous-domaines
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%

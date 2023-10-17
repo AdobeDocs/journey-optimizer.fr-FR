@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuration de notifications push
 description: Découvrez comment configurer votre environnement pour envoyer des notifications push avec Journey Optimizer.
+feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1609'
 ht-degree: 96%

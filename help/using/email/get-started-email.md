@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des e-mails
 description: Découvrez comment créer un e-mail dans Journey Optimizer.
-feature: Overview
+feature: Email
 topic: Content Management
 role: User
 level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 93%

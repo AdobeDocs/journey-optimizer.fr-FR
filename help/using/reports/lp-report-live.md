@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Rapport dynamique sur les pages de destination
 description: Découvrez comment utiliser les données de vos rapports dynamiques sur les pages de destination
-feature: Journeys
+feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le me
 
 ![](assets/landing_page_report.png)
 
-Le **[!UICONTROL Rapport dynamique]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
+La landing page **[!UICONTROL Rapport en direct]** est divisé en différents widgets détaillant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport dynamique de la page de destination.
 

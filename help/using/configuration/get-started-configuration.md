@@ -4,12 +4,12 @@ product: journey optimizer
 title: Commencer la configuration de  [!DNL Journey Optimizer]
 description: En savoir plus sur la configuration de  [!DNL Journey Optimizer]
 role: Admin, Developer
-level: Intermediate
+level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%

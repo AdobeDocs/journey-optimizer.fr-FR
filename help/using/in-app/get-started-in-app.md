@@ -1,13 +1,13 @@
 ---
 title: Prise en main de la messagerie in-app
 description: Découvrez comment envoyer des notifications in-app avec Journey Optimizer
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%

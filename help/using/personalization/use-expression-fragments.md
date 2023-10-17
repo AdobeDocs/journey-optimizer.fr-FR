@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilisation de fragments d’expression
 description: Découvrez comment utiliser des fragments d’expression dans le [!DNL Journey Optimizer] Éditeur d’expression.
-feature: Personalization
+feature: Personalization, Templates
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 10%

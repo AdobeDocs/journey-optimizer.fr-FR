@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Génération d’images avec l’assistant de contenu
 description: Commencer avec l’assistant de contenu
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
@@ -11,7 +11,7 @@ badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
@@ -29,8 +29,6 @@ ht-degree: 100%
 * **[Générer des images avec l’assistant de contenu](generative-image.md)**
 
 >[!ENDSHADEBOX]
-
-
 
 Une fois que vous avez créé et personnalisé vos e-mails ou pages web, améliorez la qualité de votre contenu avec l’assistant de contenu. Cet outil puissant vous permet de personnaliser et d’améliorer votre contenu sans effort.
 

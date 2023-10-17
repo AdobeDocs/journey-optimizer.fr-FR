@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main du style des e-mails
 description: Découvrez les différentes manières d’ajuster le style de contenu de votre e-mail.
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: e-mail, style, css, corps, structure
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%

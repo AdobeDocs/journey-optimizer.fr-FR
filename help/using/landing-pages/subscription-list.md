@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Création d’une liste dʼabonnements
 description: Découvrez comment configurer une liste dʼabonnements dans Journey Optimizer
-feature: Landing Pages
+feature: Subscriptions
 topic: Content Management
 role: User
 level: Beginner
 keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
+source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%

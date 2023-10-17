@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Définir les préréglages de page de destination
 description: Découvrez comment configurer votre environnement pour créer et utiliser des pages de destination avec Journey Optimizer.
+feature: Landing Pages, Channel Configuration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 100%

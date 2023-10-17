@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Ajustement de l'alignement vertical et la marge intérieure dans Journey Optimizer
 description: Découvrez comment ajuster l'alignement vertical et la marge intérieure
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: alignement vertical, éditeur d’e-mail, marge intérieure
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%

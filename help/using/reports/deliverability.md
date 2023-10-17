@@ -5,13 +5,13 @@ title: Prise en main de la délivrabilité
 description: Découvrez les directives relatives à la délivrabilité
 feature: Deliverability
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ La délivrabilité est une mesure du succès de vos diffusions atteignant les bo
 
 >[!NOTE]
 >
->Pour les client(e)s qui accordent des licences pour Healthcare Shield, Adobe utilise le protocole TLS (Transport Layer Security) 1.2 afin de sécuriser l’échange de données entre les systèmes des utilisateurs et utilisatrices (destinataires) et Journey Optimizer (expéditeur). Si le serveur d’e-mails de réception ne prend pas en charge TLS 1.2, les clients rencontreront des problèmes de délivrabilité, notamment le rebond des e-mails vers l’expéditeur.
+>Pour les clients qui accordent des licences pour Healthcare Shield, Adobe utilise le protocole TLS (Transport Layer Security) 1.2 afin de sécuriser l’échange de données entre les systèmes des utilisateurs (destinataires) et Journey Optimizer (expéditeur). Si le serveur d’e-mails de réception ne prend pas en charge TLS 1.2, les clients rencontreront des problèmes de délivrabilité, notamment le rebond des e-mails vers l’expéditeur.
 
 **La délivrabilité des emails désigne l&#39;ensemble des caractéristiques qui déterminent la capacité d&#39;un message à atteindre sa destination, par l&#39;intermédiaire d&#39;une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.** Ces caractéristiques se répartissent dans quatre catégories principales : qualité des données, message et contenu, infrastructure d&#39;envoi et réputation. Ensemble, elles forment la base d&#39;un programme de délivrabilité des emails réussi.
 

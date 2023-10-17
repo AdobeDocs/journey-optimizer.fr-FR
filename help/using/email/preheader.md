@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Ajouter un pré-titre dans Journey Optimizer
 description: Découvrez comment concevoir le contenu de vos e-mails
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: pré-titre, éditeur, résumé, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Envoi de messages à l'aide de Campaign v7/v8
 description: Découvrez comment envoyer un message à l'aide de Campaign v7/v8
-feature: Actions
+feature: Integrations
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: parcours, message, campagne, intégration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des pages de destination
 description: En savoir plus sur les pages de destination dans Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Beginner
 keywords: destination, page de destination, commencer, prise en main
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%

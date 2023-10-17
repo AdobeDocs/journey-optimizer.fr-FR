@@ -5,11 +5,11 @@ title: Utilisation de code JavaScript personnalisé dans une page de destination
 description: Découvrez comment concevoir le contenu dʼune page de destination dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
-role: User
-level: Beginner
+role: Developer
+level: Experienced
 keywords: destination, page de destination, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%

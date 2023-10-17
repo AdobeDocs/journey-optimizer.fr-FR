@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Personnaliser l’arrière-plan de votre e-mail
 description: Découvrez comment personnaliser l’arrière-plan de votre e-mail
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: arrière-plan, e-mail, couleur, éditeur
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%

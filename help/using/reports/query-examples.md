@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Exemples de requêtes
 description: Exemples de requêtes
-feature: Reporting
+feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
 * instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
-* profileID : l’identité du profil correspondant à l’espace de nommage du parcours.
+* profileID : l’identité du profil correspondant à l’espace de noms du parcours.
 
 >[!NOTE]
 >

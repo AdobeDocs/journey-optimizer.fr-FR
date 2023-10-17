@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Création d’un SMS
 description: Découvrez comment créer un message SMS dans Journey Optimizer
-feature: Overview
+feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 97%

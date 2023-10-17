@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Présentation du service IA
 description: Présentation du service IA
+feature: Integrations
 role: User
 level: Intermediate
 keywords: artificiel, IA, intelligent, parcours, service
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%

@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Créer un plan de préchauffage d’adresses IP
 description: Découvrez comment créer un plan de préchauffage d’adresses IP dans Journey Optimizer.
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
@@ -11,7 +11,7 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
+source-git-commit: 82c189545ab4f37a2e4b1044c0b8cfeb539aed13
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 97%

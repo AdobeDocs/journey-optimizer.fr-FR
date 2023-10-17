@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Création de la version texte d'un email
 description: Découvrez comment créer la version texte d'un e-mail
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: texte, e-mail, version, brut, éditeur
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%

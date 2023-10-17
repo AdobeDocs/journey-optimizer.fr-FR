@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des plans de préchauffage d’adresses IP
 description: Découvrez comment mettre en œuvre un plan de préchauffage d’adresses IP.
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
@@ -11,7 +11,7 @@ keywords: IP, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 82c189545ab4f37a2e4b1044c0b8cfeb539aed13
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
