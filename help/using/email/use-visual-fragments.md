@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilisation de fragments visuels
 description: Découvrez comment utiliser des fragments visuels lors de la création d’emails dans des campagnes et des parcours Journey Optimizer
-feature: Email Design, Templates
+feature: Email Design, Fragments
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 72%

@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Clés gérées par le client
 description: Découvrez comment configurer et gérer les clés de la clientèle pour Adobe Journey Optimizer.
-feature: Monitoring
+feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%

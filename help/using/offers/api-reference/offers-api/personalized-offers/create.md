@@ -1,12 +1,12 @@
 ---
 title: Créer une offre personnalisée
 description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%

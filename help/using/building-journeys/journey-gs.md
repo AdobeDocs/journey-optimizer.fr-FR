@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Créer votre premier parcours
 description: Étapes clés de création de votre premier parcours avec Adobe Journey Optimizer
-feature: Journeys
+feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 96%

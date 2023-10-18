@@ -1,15 +1,15 @@
 ---
 title: Créer des emplacements
 description: Découvrez comment créer des emplacements pour vos offres
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ Pour créer une emplacement, procédez comme suit :
 
    * **[!UICONTROL Autoriser les doublons dans les emplacements]** : permet de déterminer si la même offre peut être proposée plusieurs fois à différents emplacements. Si cette option est activée, le système accepte de placer la même offre dans plusieurs emplacements. Par défaut, ce paramètre est défini sur « false ».
 
-     Si cette option est définie sur « false » dans un emplacement d’une requête de prise de décision, tous les emplacements de la requête hériteront du paramètre « false ».
+     Si cette option est définie sur false pour tout emplacement dans une requête de prise de décision, tous les emplacements de la requête hériteront du paramètre &quot;false&quot;.
 
    * **[!UICONTROL Demande d’offre]** : par défaut, une offre de la portée de décision est renvoyée pour chaque profil. Cette option vous permet d’ajuster le nombre d’offres renvoyées. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour la portée de décision sélectionnée.
 
-   * **[!UICONTROL Inclure le contenu]**/**[!UICONTROL Inclure les métadonnées]** : indiquez si le contenu et les métadonnées de l’offre doivent être renvoyés dans la réponse d’API. Vous pouvez inclure toutes les métadonnées ou seulement des champs spécifiques. Par défaut, la valeur du champ Inclure les métadonnées est définie sur « true ».
+   * **[!UICONTROL Inclure le contenu]** / **[!UICONTROL Inclure les métadonnées]**: spécifiez si le contenu et les métadonnées de l’offre doivent être renvoyés dans la réponse de l’API. Vous pouvez inclure toutes les métadonnées ou seulement des champs spécifiques. Par défaut, la valeur du champ Inclure les métadonnées est définie sur « true ».
 
    Ces paramètres peuvent également être définis directement dans votre requête API si vous utilisez l’[API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=fr). Toutefois, leur configuration dans l’interface utilisateur peut vous aider à gagner du temps, car vous n’aurez pas à les transmettre dans chaque requête API. Notez que si vous configurez les paramètres à la fois dans l’interface utilisateur et dans la requête API, les valeurs de la requête API prévalent sur celles de l’interface.
 

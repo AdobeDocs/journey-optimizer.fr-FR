@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Listes de contrôle
 description: Découvrez comment utiliser les listes de contrôle dans Journey Optimizer.
-feature: Channel Configuration, Email
+feature: Seed Lists, Channel Configuration
 topic: Content Management
 role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 100%

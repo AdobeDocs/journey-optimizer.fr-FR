@@ -1,7 +1,7 @@
 ---
 title: Méthodes de classement
 description: Découvrez comment utiliser les méthodes de classement.
-feature: Offers
+feature: Experience Decisioning, Ranking
 topic: Integrations
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%

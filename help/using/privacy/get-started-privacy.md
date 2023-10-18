@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main de la confidentialité
 description: En savoir plus sur la confidentialité dans Adobe Journey Optimizer et Adobe Experience Platform.
-feature: Monitoring
+feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%

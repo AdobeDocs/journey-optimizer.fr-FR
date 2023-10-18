@@ -1,12 +1,12 @@
 ---
 title: Création de collections
 description: Découvrez comment organiser des offres à l’aide de collections.
-feature: Offers, Collections
+feature: Decision Management, Collections
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%

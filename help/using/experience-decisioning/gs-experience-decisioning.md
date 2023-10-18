@@ -1,7 +1,7 @@
 ---
 title: Prise en main de la prise de décision basée sur l’expérience
 description: En savoir plus sur Experience Decisioning
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%

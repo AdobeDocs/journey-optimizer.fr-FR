@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Accélération de vos diffusions
 description: Découvrez comment accélérer vos diffusions
-feature: Journeys
+feature: Journeys, Use Cases, IP Warmup Plans
 topic: Content Management
-role: User
-level: Intermediate
+role: User, Data Engineer
+level: Intermediate, Experienced
 keywords: délivrabilité, parcours, cas d’utilisation, e-mail, réputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%

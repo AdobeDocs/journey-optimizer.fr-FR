@@ -1,12 +1,12 @@
 ---
 title: Utiliser les événements de gestion des décisions
 description: Découvrez comment créer des rapports de gestion des décisions dans Adobe Experience Platform.
-feature: Offers
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
-level: Beginner
+role: User, Data Engineer
+level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%

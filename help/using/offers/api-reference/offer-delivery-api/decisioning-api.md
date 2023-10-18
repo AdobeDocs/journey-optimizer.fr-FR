@@ -1,15 +1,15 @@
 ---
 title: Diffusion d'offres
 description: La gestion des décisions est un ensemble de services et d'interfaces utilisateur qui permet aux spécialistes marketing de créer et de proposer des expériences d'offres personnalisées aux utilisateurs finaux par le biais de canaux et d'applications en s'appuyant sur une logique métier et des règles de décision.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ curl -X POST \
 | `xdm:allowDuplicatePropositions` | Cet objet représente la structure de contrôle des règles de déduplication. Il s&#39;agit d&#39;une série d&#39;indicateurs qui définissent si la même option peut être proposée dans une certaine dimension. Un indicateur défini sur true signifie que les duplicatas sont autorisés et ne doivent pas être supprimés pour la catégorie indiquée par l&#39;indicateur. Un indicateur défini sur false signifie que le moteur de décision ne doit pas faire la même proposition pour la dimension et doit plutôt choisir la meilleure option suivante pour l&#39;une des sous-décisions. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Si la valeur est définie sur true, plusieurs décisions peuvent se voir attribuer la même option. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Si la valeur est définie sur true, plusieurs emplacements peuvent se voir attribuer la même option. | `"xdm:acrossPlacements": true` |
-| `xdm:mergePolicy.xdm:id` | Identifie la politique de fusion selon laquelle gérer les données renvoyées par le service d&#39;accès aux profils. S&#39;il n&#39;y a pas de stratégie spécifiée dans la requête, la gestion des décisions ne transmet aucun service d&#39;accès au profil. Dans le cas contraire, il transmet l&#39;identifiant fourni par l&#39;appelant.  | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
+| `xdm:mergePolicy.xdm:id` | Identifie la politique de fusion selon laquelle gérer les données renvoyées par le service d&#39;accès aux profils. Si l’un d’eux n’est pas spécifié dans la requête, la gestion de la décision ne transmettra aucun service d’accès aux profils, sinon elle transmettra l’identifiant fourni par l’appelant. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Ensemble d&#39;indicateurs qui formate le contenu de la réponse. |
 | `xdm:responseFormat.xdm:includeContent` | Valeur booléenne qui, si elle est définie sur `true`, inclut le contenu de la réponse. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | Objet utilisé pour spécifier les métadonnées supplémentaires renvoyées. Si cette propriété n&#39;est pas incluse, `xdm:id` et `repo:etag` sont renvoyés par défaut. | `name` |

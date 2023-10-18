@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Actions d'Adobe Campaign v7/v8
 description: En savoir plus sur les actions Adobe Campaign v7/v8
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: User
 level: Intermediate
 keywords: parcours, intégration, campaign, v7, v8, classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%

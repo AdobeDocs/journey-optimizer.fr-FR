@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Actions d'Adobe Campaign Standard
 description: En savoir plus sur les actions Adobe Campaign Standard
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: User
 level: Intermediate
 keywords: parcours, intégration, standard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 98%

@@ -3,20 +3,20 @@ product: experience platform
 solution: Experience Platform
 title: Modèles d’optimisation automatique
 description: En savoir plus sur les modèles d’optimisation automatique.
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
-level: Intermediate
+level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Modèles d’optimisation automatique {#auto-optimization-model}
 
-Un modèle d’optimisation automatique vise à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances « globales » des offres.
+Un modèle d’optimisation automatique vise à proposer des offres qui optimisent le retour (KPI) défini par les clients commerciaux. Ces KPI peuvent prendre la forme de taux de conversion, de chiffres dʼaffaires, etc. À ce stade, l’optimisation automatique cherche à optimiser les clics sur les offres, avec comme cible la conversion de lʼoffre. L’optimisation automatique n’est pas personnalisée et s’optimise en fonction des performances &quot;globales&quot; des offres.
 
 ## Limites {#limitations}
 
@@ -39,9 +39,9 @@ Les termes suivants sont utiles pour aborder l’optimisation automatique :
 
 L’algorithme qui sous-tend l’optimisation automatique est l’**échantillonnage de Thompson**. Dans cette section, nous abordons l’intuition sous-jacente à l’échantillonnage de Thompson.
 
-L’[échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"}, ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot.  L’idée de base est de traiter la récompense moyenne ?? de chaque offre comme une **variable aléatoire** et d’utiliser les données collectées jusqu’à présent pour mettre à jour la « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une **loi de probabilité a posteriori**, qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre.Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
+L’[échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"}, ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot.  L’idée de base est de traiter la ?? moyenne de récompense de chaque offre comme une **variable aléatoire** et utiliser les données que nous avons collectées jusqu&#39;à présent, pour mettre à jour notre &quot;croyance&quot; sur la récompense moyenne. Cette &quot;croyance&quot; est représentée mathématiquement par une **distribution des probabilités postérieures** - soit essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre. Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
 
-Ce processus est illustré dans la figure ci-dessous, qui présente 3 offres différentes. Au départ, nous n’avons aucune preuve des données et nous supposons que toutes les offres ont une loi a posteriori uniforme de récompense. Nous tirons un échantillon de la loi a posteriori de récompense de chaque offre. L’échantillon sélectionné dans la loi de l’offre 2 a la valeur la plus élevée. Voici un exemple d’**exploration**. Après avoir affiché l’offre 2, nous collectons toute récompense potentielle (par exemple, conversion/pas de conversion) et mettons à jour la loi a posteriori de l’offre 2 à l’aide du théorème de Bayes, comme expliqué ci-dessous.  Nous poursuivons ce processus et mettons à jour les lois a posteriori chaque fois qu’une offre est affichée et que la récompense est collectée. Dans la seconde figure, l’offre 3 est sélectionnée. Bien que l’offre 1 ait obtenu la récompense moyenne la plus élevée (sa loi a posteriori de récompense est la plus éloignée à droite), le processus d’échantillonnage de chaque loi nous a amenés à choisir une offre 3 apparemment sous-optimale. Ce faisant, nous nous donnons la possibilité d’en savoir plus sur la loi de récompense véritable de l’offre 3.
+Ce processus est illustré dans la figure ci-dessous, qui présente 3 offres différentes. Au départ, nous n’avons aucune preuve des données et nous supposons que toutes les offres ont une loi a posteriori uniforme de récompense. Nous tirons un échantillon de la loi a posteriori de récompense de chaque offre. L’échantillon sélectionné dans la loi de l’offre 2 a la valeur la plus élevée. Voici un exemple d’**exploration**. Après avoir affiché l’offre 2, nous collectons toute récompense potentielle (par exemple, conversion/pas de conversion) et mettons à jour la loi a posteriori de l’offre 2 à l’aide du théorème de Bayes, comme expliqué ci-dessous.  Nous poursuivons ce processus et mettons à jour les lois a posteriori chaque fois qu’une offre est affichée et que la récompense est collectée. Dans la seconde figure, l’offre 3 est sélectionnée. Bien que l’offre 1 ait obtenu la récompense moyenne la plus élevée (sa loi a posteriori de récompense est la plus éloignée à droite), le processus d’échantillonnage de chaque loi nous a amenés à choisir une offre 3 apparemment sous-optimale. Ce faisant, nous nous donnons la possibilité d&#39;en savoir plus sur la distribution de la vraie récompense d&#39;Offer 3.
 
 À mesure que davantage d’échantillons sont collectés, la confiance augmente et une estimation plus précise de la récompense possible est obtenue (correspondant à des lois de récompense plus étroites).Ce processus de mise à jour de nos croyances au fur et à mesure que de nouvelles preuves deviennent disponibles est connu sous le nom d’**inférence bayésienne**.
 
@@ -99,8 +99,8 @@ Le problème du « démarrage à froid » se produit lorsqu’une nouvelle off
 
 ## Mesure de Lift {#lift}
 
-« Lift » est la mesure utilisée pour mesurer les performances de toute stratégie déployée dans le service de classement, par rapport à la stratégie de base (service des offres uniquement de manière aléatoire).
+&quot;Effet élévateur&quot; est la mesure utilisée pour mesurer les performances de toute stratégie déployée dans le service de classement, par rapport à la stratégie de base (service des offres uniquement de manière aléatoire).
 
-Par exemple, si nous voulons mesurer les performances d’une stratégie d’échantillonnage de Thompson (TS) utilisée dans le service de classement et que le KPI est le taux de conversion (CVR), le « Lift » de la stratégie TS par rapport à la stratégie de base est défini comme suit :
+Par exemple, si nous voulons mesurer les performances d’une stratégie d’échantillonnage de Thompson (TS) utilisée dans le service de classement et que l’indicateur de performance clé est le taux de conversion (CVR), l’&quot;effet élévateur&quot; de la stratégie TS par rapport à la stratégie de base est défini comme suit :
 
 ![](../assets/ai-ranking-lift.png)

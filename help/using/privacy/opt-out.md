@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gérer le processus d’opt-out
 description: Découvrez comment gérer le processus d’opt-out et la confidentialité
-feature: Privacy
+feature: Privacy, Consent Management
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 97%

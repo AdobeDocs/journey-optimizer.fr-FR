@@ -1,12 +1,12 @@
 ---
 title: Ajouter des contraintes à une offre
 description: Découvrez comment définir les conditions d’affichage d’une offre
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: c710f647707168105a863ae8b0ea087b7d015aa5
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '2381'
 ht-degree: 99%

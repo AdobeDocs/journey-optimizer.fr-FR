@@ -1,7 +1,7 @@
 ---
 title: Créer des expériences basées sur le code
 description: Découvrez comment créer des expériences basées sur le code dans Journey Optimizer.
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 100%

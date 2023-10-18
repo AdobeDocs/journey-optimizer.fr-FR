@@ -1,12 +1,12 @@
 ---
 title: Formules de classement
 description: Apprenez à créer des formules pour classer les offres
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%

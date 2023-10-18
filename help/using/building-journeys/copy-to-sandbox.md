@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Copier un parcours dans une autre sandbox
 description: Découvrez comment copier un parcours dans une autre sandbox
-feature: Journeys
+feature: Journeys, Sandoxes
 topic: Content Management
-role: User, Developer
-level: Intermediate
+role: User, Developer, Data Engineer
+level: Experienced
 keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: aaa9dcbfc691eac0fd9d06e905c2e1d7612d854a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 98%

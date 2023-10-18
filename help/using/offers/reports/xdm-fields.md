@@ -1,11 +1,11 @@
 ---
 title: Accès aux champs XDM des événements
 description: En savoir plus sur le schéma XDM DecisioningEvents.
-feature: Offers, Datasets
-role: User
+feature: Decision Management, Datasets
+role: User, Data Engineer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%

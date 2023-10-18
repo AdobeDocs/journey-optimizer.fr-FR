@@ -1,15 +1,15 @@
 ---
 title: Exemples de mises en œuvre basées sur le code
 description: Cette page présente des exemples de la méthode de mise en œuvre de la fonctionnalité basée sur le code Journey Optimizer.
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%

@@ -1,15 +1,15 @@
 ---
 title: Prise en main des expériences basées sur le code
 description: En savoir plus sur les expériences basées sur le code dans Journey Optimizer
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: User, Developer, Admin
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 100%

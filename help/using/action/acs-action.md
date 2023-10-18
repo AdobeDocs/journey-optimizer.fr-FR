@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Intégration à Adobe Campaign Standard
 description: Découvrez comment intégrer Journey Optimizer à Adobe Campaign Standard.
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
+role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, standard, intégration, limitation, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%

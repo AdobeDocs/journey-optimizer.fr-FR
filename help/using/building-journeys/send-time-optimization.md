@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Optimisation de l'heure d'envoi
 description: Découvrez comment paramétrer l’optimisation de l’heure d’envoi dans vos messages
-feature: Journeys
+feature: Journeys, Activities, Email, Push, Send Time Optimization
 topic: Content Management
 role: User
 level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
