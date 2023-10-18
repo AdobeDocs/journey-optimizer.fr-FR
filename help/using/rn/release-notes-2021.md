@@ -4,8 +4,11 @@ product: journey optimizer
 title: Notes de mise à jour précédentes (2021)
 description: Notes de mise à jour 2021 pour Journey Optimizer
 feature: Release Notes
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 98%

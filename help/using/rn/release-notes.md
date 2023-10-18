@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notes de mise à jour
-feature: Journeys, Release Notes
-topic: Journeys
+feature: Release Notes
+topic: Content Management
 role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '4254'
 ht-degree: 97%
