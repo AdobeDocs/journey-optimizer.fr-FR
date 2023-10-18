@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 100%
+source-wordcount: '1059'
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,7 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 
 >[!AVAILABILITY]
 >
->Pour l’instant, le canal web n’est pas disponible pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield d’Adobe.
->
+>Pour l’instant, le canal web n’est pas disponible pour les organisations qui ont acheté l’Adobe **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 
