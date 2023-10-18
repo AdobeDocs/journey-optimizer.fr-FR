@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des connecteurs source dans Journey Optimizer
 description: Découvrez comment ingérer des données à partir de sources externes dans Adobe Journey Optimizer
+feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
