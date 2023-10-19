@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 92%
@@ -123,10 +123,7 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d�
 
 * **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. Les notifications d&#39;absence du bureau et les réponses aux défis sont également reçues à cette adresse.
 
-  >[!NOTE]
-  >
-  >Si vous souhaitez recevoir les notifications d’absence du bureau et demander des réponses à une adresse électronique spécifique qui n’est pas déléguée à Adobe, vous devez configurer une [processus de transfert](#forward-email). Dans ce cas, veillez à mettre en place une solution manuelle ou automatisée pour traiter les emails entrant dans cette boîte de réception.
-
+  Si vous souhaitez recevoir les notifications d’absence du bureau et demander des réponses à une adresse électronique spécifique qui n’est pas déléguée à Adobe, vous devez configurer une [processus de transfert](#forward-email). Dans ce cas, veillez à mettre en place une solution manuelle ou automatisée pour traiter les emails entrant dans cette boîte de réception.
 
 >[!CAUTION]
 >
@@ -333,4 +330,4 @@ Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Ch
 
 >[!NOTE]
 >
->Vous pouvez également ajouter des paramètres de suivi personnalisés et dynamiques aux liens présents dans le contenu de votre e-mail, mais cela n’est pas possible au niveau de la surface. Vous devez le faire lors de la création de votre message à l’aide du Concepteur d’e-mail. [En savoir plus](message-tracking.md#url-tracking).
+>Vous pouvez également ajouter des paramètres de suivi personnalisés et dynamiques aux liens présents dans le contenu de votre e-mail, mais cela n’est pas possible au niveau de la surface. Vous devez le faire lors de la création de votre message à l’aide du concepteur d’e-mail. [En savoir plus](message-tracking.md#url-tracking).
