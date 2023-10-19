@@ -1,40 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prévisualiser et tester votre SMS
-description: Découvrez comment prévisualiser et tester votre SMS dans Journey Optimizer.
+title: Vérifier et tester votre SMS
+description: Découvrez comment vérifier et envoyer votre SMS dans Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 69%
 
 ---
 
-# Prévisualiser et tester votre SMS {#send-sms}
+# Vérifier et envoyer votre SMS {#send-sms}
 
 ## Prévisualiser votre SMS {#preview-sms}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser et le tester. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
-1. Cliquez sur **[!UICONTROL Simuler du contenu]**.
+Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** ajoutez ensuite un profil de test pour vérifier votre message à l’aide des données de profil de test.
 
-1. Cliquez sur **[!UICONTROL Gérer les profils de test]** pour ajouter un profil de test.
+![](assets/sms_preview_2.png)
 
-1. Recherchez votre profil de test avec les champs **[!UICONTROL Espace de noms d’identité]** et **[!UICONTROL Valeur d’identité]**. Cliquez ensuite sur **[!UICONTROL Ajouter un profil]**.
-
-   ![](assets/sms_preview_3.png)
-
-1. Une fois que vous avez sélectionné votre profil de test, vous pouvez fermer la fenêtre **[!UICONTROL Ajouter un profil de test]**.
-
-1. Dans la fenêtre **Prévisualiser et tester**, les données du profil de test sont ajoutées au contenu du message.
-
-   ![](assets/sms_preview_2.png)
-
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
 
 ## Valider votre SMS{#sms-validate}
 

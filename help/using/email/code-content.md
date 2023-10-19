@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: code, HTML, éditeur
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
 >
 > Les images provenant de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) ne peuvent pas être référencées lors de l’utilisation de cette méthode. Les images référencées dans votre code HTML doivent être stockées dans un emplacement public.
 
-1. Dans la page d’accueil du Concepteur d’e-mail, sélectionnez **[!UICONTROL Coder le vôtre]**.
+1. Dans la page d’accueil du concepteur d’e-mail, sélectionnez **[!UICONTROL Coder le vôtre]**.
 
    ![](assets/code-your-own.png)
 
@@ -42,9 +42,9 @@ Utilisez le mode **[!UICONTROL Coder votre propre contenu]** pour importer du co
 
    >[!NOTE]
    >
-   >Cette action ouvre le modèle sélectionné dans le Concepteur d’e-mail. À partir de là, vous pouvez soit terminer la conception de votre e-mail, soit revenir à l’éditeur de code à l’aide de l’option **[!UICONTROL Basculer vers l’éditeur de code]**.
+   >Cette action ouvre le modèle sélectionné dans le concepteur d’e-mail. À partir de là, vous pouvez soit terminer la conception de votre e-mail, soit revenir à l’éditeur de code à l’aide de l’option **[!UICONTROL Basculer vers l’éditeur de code]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test. [En savoir plus](preview.md)
+1. Cliquez sur le bouton **[!UICONTROL Aperçu]** pour vérifier la conception et la personnalisation des messages à l’aide de profils de test. [En savoir plus](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

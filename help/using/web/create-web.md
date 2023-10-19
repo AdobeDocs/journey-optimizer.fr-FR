@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 89%
 
 ---
 
@@ -86,28 +86,19 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >title="Prévisualiser votre expérience web."
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience web."
 
-Une fois que vous avez [créé votre expérience web](edit-web-content.md) grâce au concepteur web, vous pouvez afficher un aperçu de vos pages web modifiées avant d’activer votre campagne. Pour ce faire, procédez comme suit.
+Une fois que [création de votre expérience web](edit-web-content.md) grâce au web designer, vous pouvez utiliser des profils de test pour prévisualiser vos pages web modifiées. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu à l’aide des données de profil de test.
 
->[!CAUTION]
+Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** depuis l&#39;écran d&#39;édition de contenu de la campagne web ou le web designer, ajoutez un profil de test pour vérifier votre page web à l&#39;aide des données du profil de test.
+
+![](assets/web-designer-preview.png)
+
+Vous pouvez également l’ouvrir dans le navigateur par défaut ou copier l’URL de test pour la coller dans n’importe quel navigateur. Vous pouvez ainsi partager le lien avec votre équipe et les parties prenantes qui pourront prévisualiser la nouvelle expérience web dans n’importe quel navigateur avant que la campagne ne soit activée.
+
+>[!NOTE]
 >
->Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../audience/creating-test-profiles.md).
+>Lors de la copie de l’URL de test, le contenu affiché est celui personnalisé pour le profil de test utilisé lors de la génération de la simulation de contenu dans [!DNL Journey Optimizer].
 
-1. À partir de l’écran Modifier le contenu de la campagne web ou du concepteur web, sélectionnez **[!UICONTROL Simuler le contenu]**.
-
-   <!--![](assets/web-designer-simulate.png)-->
-
-   ![](assets/web-campaign-simulate.png)
-
-1. Cliquez sur **[!UICONTROL Gérer les profils de test]** pour sélectionner un ou plusieurs profils de test.
-1. Un aperçu de la page web modifiée s’affiche.
-
-   ![](assets/web-designer-preview.png)
-
-1. Vous pouvez également l’ouvrir dans le navigateur par défaut ou copier l’URL de test pour la coller dans n’importe quel navigateur. Vous pouvez ainsi partager le lien avec votre équipe et les parties prenantes qui pourront prévisualiser la nouvelle expérience web dans n’importe quel navigateur avant que la campagne ne soit activée.
-
-   >[!NOTE]
-   >
-   >Lors de la copie de l’URL de test, le contenu affiché est celui personnalisé pour le profil de test utilisé lors de la génération de la simulation de contenu dans [!DNL Journey Optimizer].
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
 
 ## Activation de la campagne web {#activate-web-campaign}
 

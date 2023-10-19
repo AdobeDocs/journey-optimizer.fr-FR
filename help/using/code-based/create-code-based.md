@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 100%
+source-wordcount: '1031'
+ht-degree: 97%
 
 ---
 
@@ -108,7 +108,7 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 >title="Prévisualiser votre expérience basée sur le code"
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience basée sur le code."
 
-Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous.
+Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section  [Prévisualiser et tester votre page de contenu](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

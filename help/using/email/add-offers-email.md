@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Par exemple, vous pouvez ajouter une décision qui affichera dans votre e-mail u
 
 Pour insérer une décision dans un email, procédez comme suit :
 
-1. Créez votre email, puis ouvrez le Concepteur d&#39;email pour configurer son contenu.
+1. Créez votre email, puis ouvrez le concepteur d’e-mail pour configurer son contenu.
 
 1. Ajoutez un composant de contenu **[!UICONTROL Décision d&#39;offre]**.
 
@@ -74,10 +74,6 @@ Vous pouvez prévisualiser les différentes offres qui font partie de la décisi
 ![](assets/deliver-offer-preview.png)
 
 Pour afficher les différentes offres qui font partie de la décision avec un profil client, procédez comme suit.
-
->[!NOTE]
->
->Vous devez disposer de profils de test pour pouvoir prévisualiser vos messages. Découvrez comment [créer un profil de test](../audience/creating-test-profiles.md).
 
 1. Sélectionnez les profils de test à utiliser pour prévisualiser l’offre :
 

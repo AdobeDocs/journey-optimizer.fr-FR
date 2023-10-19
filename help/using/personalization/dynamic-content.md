@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, dynamique, contenu
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Adobe Journey Optimizer vous permet d’utiliser des règles conditionnelles cr�
 
 Le contenu dynamique peut être créé dans n’importe quel champ où vous pouvez ajouter une personnalisation à l’aide de l’éditeur d’expression. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur les contextes de personnalisation](personalization-contexts.md)
 
-De plus, vous pouvez utiliser des règles conditionnelles dans le Concepteur d’e-mails pour créer plusieurs variantes d’un composant de contenu.
+De plus, vous pouvez utiliser des règles conditionnelles dans le concepteur d’e-mails pour créer plusieurs variantes d’un composant de contenu.
 
 ## Ajouter du contenu dynamique aux expressions {#perso-expressions}
 
@@ -42,7 +42,7 @@ Les étapes suivantes permettent d’ajouter du contenu dynamique aux expression
 
    ![](assets/conditions-language-sample.png)
 
-1. Une fois que votre contenu est prêt, vous pouvez prévisualiser les différentes variantes à l’aide du bouton **[!UICONTROL Simuler un contenu]**. [Découvrez comment tester et prévisualiser des messages](../email/preview.md).
+1. Une fois que votre contenu est prêt, vous pouvez prévisualiser les différentes variantes à l’aide du bouton **[!UICONTROL Simuler un contenu]**. [Découvrez comment tester et prévisualiser des messages](../content-management/preview-test.md).
 
    ![](assets/conditions-preview.png)
 
@@ -58,9 +58,9 @@ Les étapes suivantes permettent d’ajouter du contenu dynamique aux expression
 >title="Contenu conditionnel"
 >abstract="Utilisez une règle conditionnelle enregistrée dans la bibliothèque ou créez-en une."
 
-Les étapes de création de variantes d’un composant de contenu dans le Concepteur d’e-mails sont les suivantes :
+Les étapes de création de variantes d’un composant de contenu dans le concepteur d’e-mails sont les suivantes :
 
-1. Dans le Concepteur d’e-mails, sélectionnez un composant de contenu, puis cliquez sur **[!UICONTROL Activer le contenu conditionnel]**.
+1. Dans le concepteur d’e-mails, sélectionnez un composant de contenu, puis cliquez sur **[!UICONTROL Activer le contenu conditionnel]**.
 
    ![](assets/conditions-enable-conditional.png)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 100%
@@ -85,8 +85,6 @@ Vous devez d’abord sélectionner les profils de test que vous allez utiliser p
    >Les profils sélectionnés restent répertoriés en tant que profils de test dans l’onglet **[!UICONTROL Simulation]** d’une session à l’autre jusqu’à ce qu’ils soient supprimés à l’aide de **[!UICONTROL Gérer le profil]**.
 
 1. Vous pouvez cliquer sur le lien **[!UICONTROL Détails du profil]** pour afficher les données de profil sélectionnées. 
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Ajout de portée de décision {#add-decision-scopes}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '916'
+ht-degree: 92%
 
 ---
 
@@ -80,7 +80,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="Configurer le contenu des e-mails"
->abstract="Créez le contenu de votre e-mail. Définissez son objet, puis utilisez le Concepteur d’e-mails pour créer et personnaliser le corps de l’e-mail."
+>abstract="Créez le contenu de votre e-mail. Définissez son objet, puis utilisez le concepteur d’e-mails pour créer et personnaliser le corps de l’e-mail."
 
 1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu de l’e-mail. [En savoir plus](get-started-email-design.md)
 
@@ -92,7 +92,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
 1. Vous pouvez ajouter une ligne d’objet. Saisissez du texte brut directement dans le champ correspondant ou utilisez l’[éditeur d&#39;expression](../personalization/personalization-build-expressions.md) pour personnaliser votre objet.
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour commencer à créer votre contenu à l’aide du Concepteur d’e-mail [!DNL Journey Optimizer]. [En savoir plus](get-started-email-design.md)
+1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour commencer à créer votre contenu à l’aide du concepteur d’e-mail [!DNL Journey Optimizer]. [En savoir plus](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    >[!NOTE]
    >
-   >Si vous avez déjà créé ou importé du contenu par l’intermédiaire du Concepteur d’e-mail, ce contenu s’affiche par HTML.
+   >Si vous avez déjà créé ou importé du contenu par l’intermédiaire du concepteur d’e-mail, ce contenu s’affiche par HTML.
 
 ## Vérifier les alertes {#check-email-alerts}
 
@@ -146,11 +146,15 @@ Deux types d’alertes peuvent avoir lieu :
 >
 >Pour pouvoir tester ou activer le parcours/la campagne à l’aide de l’e-mail, vous devez résoudre toutes les alertes d’**erreurs**.
 
-## Prévisualiser et envoyer l’e-mail
+## Vérifier et envoyer votre email
 
-Une fois le contenu de votre message défini, vous pouvez le prévisualiser afin de contrôler le rendu de votre e-mail, et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](preview.md)
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour le prévisualiser, envoyer des bons à tirer et contrôler son rendu sur les clients de bureau, mobiles et web les plus populaires. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
+
+Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** ajoutez ensuite un profil de test pour vérifier votre message à l’aide des données de profil de test.
 
 ![](assets/email_designer_edit_simulate.png)
+
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
 
 Une fois votre e-mail prêt, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) et activez-le pour envoyer le message.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%
@@ -135,7 +135,7 @@ Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de
 
 >[!NOTE]
 >
->Dans le [BAT](preview.md#send-proofs) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n&#39;est activé que dans les messages finaux.
+>Dans le [BAT](../content-management/proofs.md) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n&#39;est activé que dans les messages finaux.
 
 La période de conservation d’une page miroir est de 60 jours. Passé ce délai, la page miroir n’est plus disponible.
 
@@ -164,7 +164,7 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 ## Tracking des URL {#url-tracking}
 
-Généralement, le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la surface, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le Concepteur d’e-mail.
+Généralement, le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la surface, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’e-mail.
 
 Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
 
@@ -186,4 +186,4 @@ Désormais, lorsque l’e-mail est envoyé, ce paramètre est automatiquement aj
 
 >[!NOTE]
 >
->Pour vérifier l’URL finale, vous pouvez [envoyer un BAT](preview.md#send-proofs) et cliquer sur le lien dans le contenu de l’e-mail une fois que vous avez reçu le BAT. L’URL doit afficher le paramètre de tracking. Dans l’exemple ci-dessus, l’URL finale est : <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>.
+>Pour vérifier l’URL finale, vous pouvez [envoyer un BAT](../content-management/preview-test.md#send-proofs) et cliquer sur le lien dans le contenu de l’e-mail une fois que vous avez reçu le BAT. L’URL doit afficher le paramètre de tracking. Dans l’exemple ci-dessus, l’URL finale est : <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>.

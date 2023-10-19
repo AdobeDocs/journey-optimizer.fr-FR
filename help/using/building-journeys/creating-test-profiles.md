@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: profils de test, tests, test, parcours
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 96%
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 # Créer des profils de test {#create-test-profiles}
 
-Les profils de test sont requis lors de l’utilisation du [mode test](../building-journeys/testing-the-journey.md) dans un parcours ainsi que pour [prévisualiser et tester le contenu](../email/preview.md).
+Les profils de test sont requis lors de l’utilisation du [mode test](../building-journeys/testing-the-journey.md) dans un parcours ainsi que pour [prévisualiser et tester le contenu](../content-management/preview-test.md).
 
 Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 98%
@@ -112,7 +112,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 ### Correctifs
 
 * Correction d’un problème qui empêchait l’affichage de la liste des parcours, de la liste des messages et du concepteur d’e-mail lorsque la langue du navigateur n’était pas l’anglais.
-* Correction d’une erreur de syntaxe qui survenait lors de l’ajout d’une personnalisation à l’aide d’une expression dans le Concepteur d’e-mail : les caractères étaient placés par erreur dans une séquence d’échappement. 
+* Correction d’une erreur de syntaxe qui survenait lors de l’ajout d’une personnalisation à l’aide d’une expression dans le concepteur d’e-mail : les caractères étaient placés par erreur dans une séquence d’échappement. 
 * Correction d’un problème qui entraînait une erreur 404 lors de la navigation dans le menu **Administration**. 
 * Correction d’un problème qui déclenchait d’autres parcours actifs lors du test d’un parcours à l’aide d’un événement métier. 
 
@@ -275,7 +275,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 **Concevoir du contenu**
 
-* **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../email/preview.md)
+* **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../content-management/preview-test.md)
 * **Lien d’opt-out en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**opt-out** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur opt-out. [En savoir plus](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personnalisation**
@@ -350,9 +350,9 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 
 **Prévisualiser et tester**
 
-* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../email/preview.md#preview-your-messages)
+* L&#39;identité et l&#39;espace de noms sont maintenant visibles dans l&#39;écran **[!UICONTROL Aperçu]**. [En savoir plus](../content-management/preview-test.md#preview-your-messages)
 * Le nombre d&#39;e-mails de test pour les BAT est maintenant limité à 10.
-* Les caractères autorisés pour le **préfixe de ligne d&#39;objet** dans les BAT sont maintenant limités. [En savoir plus](../email/preview.md#send-proofs)
+* Les caractères autorisés pour le **préfixe de ligne d&#39;objet** dans les BAT sont maintenant limités. [En savoir plus](../content-management/preview-test.md#send-proofs)
 
 **Personnalisation de l&#39;éditeur d&#39;expression**
 

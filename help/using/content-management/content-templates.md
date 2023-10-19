@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 99%
 
 ---
@@ -105,9 +105,9 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Créer]** et choisissez comment concevoir votre modèle à partir des différentes options :
 
-   * [Concevez entièrement votre e-mail](../email/content-from-scratch.md) via l’interface du Concepteur d’e-mail.
+   * [Concevez entièrement votre e-mail](../email/content-from-scratch.md) via l’interface du concepteur d’e-mail.
 
-   * [Codez ou copiez et collez du code HTML brut](../email/code-content.md) directement dans le Concepteur d’e-mail.
+   * [Codez ou copiez et collez du code HTML brut](../email/code-content.md) directement dans le concepteur d’e-mail.
 
    * [Importez du contenu HTML existant](../email/existing-content.md) à partir d’un fichier ou d’un dossier .zip.
 
@@ -115,7 +115,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
    ![](../email/assets/content-template-design.png)
 
-1. Le [Concepteur d’e-mail](../email/get-started-email-design.md) s’affiche. Modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail contenu dans un parcours ou une campagne, selon l’option que vous avez sélectionnée.
+1. Le [concepteur d’e-mail](../email/get-started-email-design.md) s’affiche. Modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail contenu dans un parcours ou une campagne, selon l’option que vous avez sélectionnée.
 
    Vous pouvez tester votre contenu si nécessaire. [Voici comment procéder.](#test-template)
 
@@ -136,7 +136,7 @@ Ce modèle est maintenant prêt à être utilisé lors de la création d’un e-
 
 Lors de la conception d’un [e-mail](../email/get-started-email-design.md) dans une campagne ou un parcours, vous pouvez enregistrer le contenu de votre email pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
 
-1. Dans le Concepteur d’e-mail, cliquez sur les points de suspension en haut à droite de l’écran.
+1. Dans le concepteur d’e-mail, cliquez sur les points de suspension en haut à droite de l’écran.
 
 1. Sélectionnez **[!UICONTROL Enregistrer en tant que modèle de contenu]** dans le menu déroulant.
 
@@ -164,21 +164,17 @@ Vous pouvez désormais utiliser ce modèle lors de la création d’un [e-mail](
 
 Vous pouvez tester le rendu de tout modèle de contenu d’e-mail, qu’il ait été créé entièrement ou à partir d’un e-mail. Pour ce faire, procédez comme suit.
 
->[!CAUTION]
->
->Pour simuler le contenu, vous devez disposer de l’autorisation **[!DNL Manage Simulate Content]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
-
 1. Pour accéder à la liste des modèles de contenu, consultez le menu **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** et sélectionnez n’importe quel modèle.
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** dans les **[!UICONTROL Propriétés du modèle]**.
 
-1. Cliquez sur **[!UICONTROL Simuler du contenu]** et sélectionnez un profil de test pour vérifier le rendu des e-mails. Vous pouvez choisir la vue bureau ou la vue mobile. [En savoir plus](../email/preview.md).
+1. Cliquez sur **[!UICONTROL Simuler du contenu]** et sélectionnez un profil de test pour vérifier le rendu des e-mails. Vous pouvez choisir la vue bureau ou la vue mobile. [En savoir plus](../content-management/preview-test.md).
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. Vous pouvez envoyer un BAT pour tester votre contenu et le faire approuver par certains utilisateurs et utilisatrices internes avant de l’utiliser pour un parcours ou une campagne.
 
-   * Pour ce faire, cliquez sur le bouton **[!UICONTROL Envoyer un BAT]** et suivez les étapes décrites dans [cette section](../email/preview.md#send-proofs).
+   * Pour ce faire, cliquez sur le bouton **[!UICONTROL Envoyer un BAT]** et suivez les étapes décrites dans [cette section](../content-management/proofs.md).
 
    * Avant d’envoyer le BAT, vous devez sélectionner la [surface d’e-mail](../configuration/channel-surfaces.md) qui sera utilisée pour tester votre contenu.
 
@@ -186,7 +182,7 @@ Vous pouvez tester le rendu de tout modèle de contenu d’e-mail, qu’il ait �
 
 >[!CAUTION]
 >
->Pour l’instant, le suivi n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Dès lors, le suivi des événements, des paramètres UTM et des liens de page de destination n’est pas assuré dans les BAT envoyés à partir d’un modèle. Pour tester le suivi, [utilisez le modèle de contenu](../email/use-email-templates.md) d’un e-mail et [envoyez un BAT](../email/preview.md#send-proofs).
+>Pour l’instant, le suivi n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Dès lors, le suivi des événements, des paramètres UTM et des liens de page de destination n’est pas assuré dans les BAT envoyés à partir d’un modèle. Pour tester le suivi, [utilisez le modèle de contenu](../email/use-email-templates.md) d’un e-mail et [envoyez un BAT](../content-management/preview-test.md#send-proofs).
 
 ## Vidéo pratique {#video-templates}
 

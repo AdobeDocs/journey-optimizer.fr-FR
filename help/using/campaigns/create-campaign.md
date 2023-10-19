@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 91%
@@ -110,7 +110,7 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
     </tr>
     </table>
 
-1. Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../email/preview.md).
+1. Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../content-management/preview-test.md).
 
 1. Cliquez sur la flèche pour revenir à l’écran de création de la campagne.
 

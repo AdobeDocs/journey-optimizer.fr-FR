@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 97%
@@ -97,7 +97,7 @@ Si un utilisateur ou une utilisatrice :
 
 L’[éditeur d’expression](../personalization/personalization-build-expressions.md) lui-même n’effectue aucune vérification ou application du consentement, car il n’est pas impliqué dans la diffusion de messages.
 
-Cependant, l’utilisation de libellés de contrôle d’accès basés sur le droit permet de restreindre les champs pouvant être utilisés pour la personnalisation. L’[aperçu du message](../email/preview.md#preview-email) et le [service de rendu des e-mails](../email/preview.md#email-rendering) masquera les champs identifiés avec des informations sensibles.
+Cependant, l’utilisation de libellés de contrôle d’accès basés sur le droit permet de restreindre les champs pouvant être utilisés pour la personnalisation. L’[aperçu du message](../content-management/preview.md) et le [service de rendu des e-mails](../content-management/rendering.md) masquera les champs identifiés avec des informations sensibles.
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
@@ -80,7 +80,7 @@ Dans cet exemple particulier, apprenez à envoyer une notification push accroche
 
    ![](assets/gen-ai-title-7.png)
 
-1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../email/preview.md)
+1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md)
 
 1. Lorsque votre expérience de contenu est prête, depuis votre page de résumé de la campagne, cliquez sur **[!UICONTROL Examiner pour activer]** afin d’afficher un résumé de la campagne. Des alertes s’affichent si un paramètre est incorrect ou manquant.
 

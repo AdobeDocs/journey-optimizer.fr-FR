@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
@@ -154,7 +154,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_19.png)
 
-1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../email/preview.md).
+1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md).
 
 1. Lorsque votre expérience de contenu est prête, vous pouvez cliquer, depuis votre page de résumé de la campagne, sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne. Des alertes s’affichent si un paramètre est incorrect ou manquant.
 

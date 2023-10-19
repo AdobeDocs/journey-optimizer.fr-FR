@@ -1,40 +1,30 @@
 ---
-title: Tester et envoyer un message de courrier
-description: Découvrez comment tester et envoyer un message de courrier dans Journey Optimizer.
+title: Vérifier et envoyer un message
+description: Découvrez comment vérifier et envoyer un courrier dans Journey Optimizer
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 84%
 
 ---
 
-# Tester et envoyer un message de courrier {#direct-mail-test-send}
+# Vérifier et envoyer un message {#direct-mail-test-send}
 
 ## Prévisualiser le fichier d’extraction {#preview-dm}
 
 Une fois le contenu du fichier d’extraction défini, vous pouvez utiliser des profils de test pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
-1. Dans l’écran de configuration du contenu du fichier d’extraction, cliquez sur **[!UICONTROL Simuler du contenu]**.
+Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** ajoutez ensuite un profil de test pour vérifier le rendu du fichier d&#39;extraction à l&#39;aide des données de profil de test.
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. Cliquez sur **[!UICONTROL Gérer les profils de test]** pour ajouter un profil de test.
-
-1. Recherchez votre profil de test avec les champs **[!UICONTROL Espace de noms d’identité]** et **[!UICONTROL Valeur d’identité]**. Cliquez ensuite sur **[!UICONTROL Ajouter un profil]**.
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. Une fois que vous avez sélectionné votre profil de test, vous pouvez fermer la fenêtre **[!UICONTROL Ajouter un profil de test]**.
-
-1. Dans la fenêtre **Prévisualiser et tester**, les données de profil de test sont ajoutées au contenu du fichier d’extraction, ce qui vous permet de prévisualiser le rendu du fichier.
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
 
 Une fois que le contenu du fichier est prêt à être envoyé, fermez l’écran de simulation, puis cliquez sur le bouton **[!UICONTROL Examiner pour activer]**.
 

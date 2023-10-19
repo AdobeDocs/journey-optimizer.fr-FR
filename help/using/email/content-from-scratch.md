@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '667'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Définir les colonnes des e-mails"
->abstract="Le Concepteur d’e-mail vous permet de définir facilement la disposition de votre e-mail en sélectionnant la structure des colonnes."
+>abstract="Le concepteur d’e-mail vous permet de définir facilement la disposition de votre e-mail en sélectionnant la structure des colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
@@ -116,9 +116,8 @@ Pour commencer à créer votre contenu , procédez comme suit :
    >
    >Vous ne pouvez pas revenir au concepteur visuel de cet e-mail après avoir basculé vers l’éditeur de code.
 
-1. Une fois que votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier le rendu. Vous pouvez choisir la vue bureau ou la vue mobile. [En savoir plus sur la prévisualisation de votre e-mail](preview.md)
+1. Une fois que votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier le rendu. Vous pouvez choisir la vue bureau ou la vue mobile. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
 
    ![](assets/email_designer_simulate_content.png)
 
 1. Lorsque votre contenu est prêt, cliquez sur **[!UICONTROL Enregistrer]**.
-
