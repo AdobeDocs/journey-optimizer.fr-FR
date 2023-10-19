@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 97%
+source-wordcount: '3845'
+ht-degree: 96%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 97%
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
 
-
-
 ## Octobre 2023 {#oct-2023}
 
 * Ajout de GIFs pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Canal Courrier](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../campaigns/content-experiment.md).
 * Le processus de création de schémas a été mis à jour pour prendre en compte les dernières mises à jour apportées à l’interface utilisateur, avec des modifications apportées à Adobe Experience Platform. [En savoir plus](../audience/creating-test-profiles.md)
 * Les barrières de sécurité de la gestion des décisions ont été ajoutées à la page Barrières de sécurité et limites . [En savoir plus](../start/guardrails.md#decision-management)
+* Une nouvelle section sur la prévisualisation et le test de votre contenu a été créée. [En savoir plus](../content-management/preview-test.md)
 
 ## Septembre 2023 {#september-2023}
 
@@ -76,7 +75,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 23 mai ont été présentées dans la documentation. [En savoir plus](release-notes.md).
 * Une nouvelle page a été ajoutée pour décrire comment configurer le sous-domaine qui sera utilisé pour publier du contenu provenant d’Adobe Experience Manager Assets Essentials dans vos expériences web. [En savoir plus](../web/web-delegated-subdomains.md).
-* Une nouvelle sous-section a été ajoutée pour expliquer comment ajouter des paramètres de tracking personnalisés aux URL dans le Concepteur d’e-mail. [En savoir plus](../email/message-tracking.md#url-tracking).
+* Une nouvelle sous-section a été ajoutée pour expliquer comment ajouter des paramètres de tracking personnalisés aux URL dans le concepteur d’e-mail. [En savoir plus](../email/message-tracking.md#url-tracking).
 * Une nouvelle section a été ajoutée pour décrire comment garantir le respect du choix de vos clientes et clients qui refusent l’utilisation de leurs données de profil pour la personnalisation. [En savoir plus](../privacy/opt-out.md#opt-out-personalization).
 * Un note a été ajoutée sur l’utilisation de caractères internationaux spéciaux dans les URL incluses dans les contenus d’e-mail. [En savoir plus](../email/message-tracking.md#insert-links).
 * L’autorisation nécessaire pour tester et publier des pages de destination a été ajoutée. [En savoir plus](../landing-pages/create-lp.md).
