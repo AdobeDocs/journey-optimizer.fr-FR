@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
-
-<table>
-<thead>
-<tr>
-<th><strong>MMS (Multimedia Message Service) en SMS (bêta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des messages MMS (Multimedia Message Service), ce qui permet le partage d’images, de GIFs ou de vidéos avec vos clients. Notez que cette fonctionnalité est actuellement disponible en version bêta avec Sinch uniquement.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Audiences composées dans les parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais utiliser les audiences créées dans les workflows de composition de vos parcours pour cibler les clients. Une fois qu’une composition d’audience est publiée et que l’audience est enregistrée, utilisez une activité Lecture d’audience pour sélectionner cette nouvelle audience dans la zone de travail de votre parcours.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>Pour plus d’informations, consultez la <a href="../audience/get-started-audience-orchestration.md">documentation détaillée</a>.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) en SMS (bêta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des messages MMS (Multimedia Message Service), ce qui permet le partage d’images, de GIFs ou de vidéos avec vos clients. Notez que cette fonctionnalité est actuellement disponible en version bêta avec Sinch uniquement.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Améliorations {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 * Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes.
-* Vous pouvez désormais cibler des audiences issues de processus de composition dans vos parcours.
 
 **Score de spam pour les emails**
 
