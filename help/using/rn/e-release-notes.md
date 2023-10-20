@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
+source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 24%
 
 ---
@@ -40,7 +40,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez utiliser la fonction d’outils d’environnement de test de Adobe Journey Optimizer pour sélectionner différents objets et les exporter dans un package. Un package peut se composer d’un seul objet, de plusieurs objets ou d’un environnement de test entier. Tous les objets inclus dans un package doivent provenir du même environnement de test.</p>
+<p>L’outil Sandbox vous permet de copier des objets sur plusieurs environnements de test en exploitant l’exportation et l’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même environnement de test.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
