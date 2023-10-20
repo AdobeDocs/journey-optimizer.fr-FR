@@ -4,14 +4,19 @@ description: Découvrez comment sélectionner des profils de test pour prévisua
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 48%
+source-wordcount: '230'
+ht-degree: 42%
 
 ---
 
 # Sélectionner des profils de test {#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_test_profiles"
+>title="Utiliser des profils de test pour vérifier votre contenu"
+>abstract="Utilisez des profils de test pour prévisualiser et tester votre contenu. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l&#39;aide des données de profil de test."
 
 Avant de prévisualiser ou de tester votre contenu, vous devez d&#39;abord sélectionner des profils de test, c&#39;est-à-dire des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage définis. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md)
 
