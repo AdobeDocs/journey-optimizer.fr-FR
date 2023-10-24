@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Pour plus d’informations, consultez la <a href="../audience/get-started-audience-orchestration.md">documentation détaillée</a>.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) en SMS (bêta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des messages MMS (Multimedia Message Service), ce qui permet le partage d’images, de GIFs ou de vidéos avec vos clients. Notez que cette fonctionnalité est actuellement disponible en version bêta avec Sinch uniquement.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Améliorations {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 * Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes.
+* Vous pouvez désormais cibler les audiences créées par le biais de la composition de l’audience et utiliser les attributs d’enrichissement dans les Parcours.
 
-**Score de spam pour les emails**
+>[!AVAILABILITY]
+>
+>Ces fonctionnalités sont actuellement disponibles en version bêta privée.
 
-* Lors de la simulation d&#39;un contenu d&#39;email, une nouvelle option permet de vérifier les performances de votre contenu par rapport au filtrage anti-spam des boîtes de réception. Cette fonctionnalité est actuellement proposée à un ensemble de clients uniquement (disponibilité limitée) et disponible pour le canal Email.
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **Alerte**
 
-* De nouvelles alertes relatives aux campagnes Journey Optimizer sont désormais disponibles dans la variable **Alertes** .
+* Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche désormais dans la liste des campagnes avec l’état de la campagne.
 
 **Campagnes**
 
@@ -86,8 +108,16 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* La durée maximale que vous pouvez définir dans l’activité Attente est désormais de 29 jours au lieu de 30.
+* La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cela s’applique à :
+
+   * la valeur **Durée** dans le champ [activité d’attente](../building-journeys/wait-activity.md)
+   * la valeur **Période d’attente de rentrée** in [Propriétés du parcours](../building-journeys/journey-gs.md#entrance)
+   * la valeur **Attendre** dans la définition du délai d’expiration de [general](../building-journeys/general-events.md#events-specific-time) et [réaction](../building-journeys/reaction-events.md) événements .
 
 **Consentement dans la configuration du canal**
 
 * Vous pouvez désormais sélectionner une action marketing au niveau de la surface du canal. Lorsqu’elles sont utilisées en surface, toutes les stratégies de consentement associées à cette action marketing sont exploitées afin de respecter les préférences de vos clients.
+
+**Gestion des décisions**
+
+* Plusieurs libellés relatifs à la limitation des offres dans l’interface de gestion des décisions ont été mis à jour.
