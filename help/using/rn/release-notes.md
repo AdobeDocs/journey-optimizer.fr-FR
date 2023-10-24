@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
-ht-degree: 90%
+source-wordcount: '4584'
+ht-degree: 91%
 
 ---
 
@@ -120,10 +120,6 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
    * la valeur **Durée** dans le champ [activité d’attente](../building-journeys/wait-activity.md)
    * la valeur **Période d’attente de rentrée** in [Propriétés du parcours](../building-journeys/journey-gs.md#entrance)
    * la valeur **Attendre** dans la définition du délai d’expiration de [general](../building-journeys/general-events.md#events-specific-time) et [réaction](../building-journeys/reaction-events.md) événements .
-
-**Pages de destination**
-
-* Lors de l’utilisation du composant Formulaire de page d’entrée, vous pouvez désormais ajouter un champ d’email avec ses propres options spécifiques.
 
 **Consentement dans la configuration du canal**
 
