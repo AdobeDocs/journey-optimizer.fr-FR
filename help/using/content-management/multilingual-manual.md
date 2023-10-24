@@ -10,17 +10,35 @@ level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
-exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 18%
+source-wordcount: '658'
+ht-degree: 7%
 
 ---
 
-# Créer du contenu multilingue {#multilingual}
+# Créer du contenu multilingue avec traduction manuelle {#multilingual-manual}
 
-La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une seule campagne. Grâce à cette fonctionnalité, vous pouvez basculer entre les langues lors de la modification de votre campagne, ce qui rationalise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement le contenu multilingue.
+>[!BEGINSHADEBOX]
+
+**Table des matières**
+
+* [Prise en main du contenu multilingue](multilingual-gs.md)
+* **[Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)**
+* [Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)
+* [Rapport de campagne multilingue](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+Grâce au flux manuel, vous pouvez traduire facilement votre contenu directement dans votre campagne par email, notification push ou SMS, ce qui vous permet de disposer d’options de contrôle et de personnalisation précises pour vos messages multilingues. De plus, vous pouvez facilement importer du contenu multilingue préexistant à l’aide de l’option Importer un HTML .
+
+Pour créer du contenu multilingue à l’aide de la traduction manuelle, procédez comme suit :
+
+1. [Créer vos paramètres régionaux](#create-locale).
+
+1. [Création de paramètres de langue](#create-language-settings).
+
+1. [Créer une campagne multilingue](#create-a-multilingual-campaign).
 
 ## Créer un paramètre régional {#create-locale}
 
@@ -86,7 +104,9 @@ Dans cette section, vous pouvez définir votre langue principale et les paramèt
 
 ## Créer une campagne multilingue {#create-multilingual-campaign}
 
-1. Commencez par créer et configurer votre campagne en fonction de vos besoins. [En savoir plus](../campaigns/create-campaign.md)
+Après avoir configuré votre contenu multilingue, vous êtes prêt à concevoir votre campagne et à personnaliser le contenu pour chacun des paramètres régionaux sélectionnés.
+
+1. Commencez par créer et configurer votre campagne Email, SMS ou Notification push selon vos besoins. [En savoir plus](../campaigns/create-campaign.md)
 
 1. Accédez au **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Modifier le contenu]**.
 
@@ -132,34 +152,6 @@ Votre campagne est maintenant activée. Le message paramétré dans la campagne 
 
 Une fois envoyé, vous pouvez mesurer l’impact de vos campagnes dans les rapports de campagne.
 
-## Rapport de campagne multilingue {#multilingual-campaign-report}
-
-Les rapports globaux, accessibles à partir de l’onglet **À toute heure**, affichent les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. Pour accéder directement au rapport global de campagne à partir de votre campagne, cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
-
-Pour plus d’informations sur les données disponibles dans le rapport Campaign, reportez-vous à la section [cette page](../reports/campaign-global-report.md).
-
-+++En savoir plus sur les différents widgets et mesures disponibles pour votre contenu multilingue.
-
-![](assets/report_multilingual.png)
-
-La variable **[!UICONTROL Statistiques d&#39;envoi d&#39;emails par langue]** Le widget détaille le succès de votre diffusion en fonction de votre **[!UICONTROL Paramètres régionaux]**:
-
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
-
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
-
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
-
-La variable **[!UICONTROL Statistiques de tracking des emails par langue]** Le widget contient les données disponibles pour l’activité des destinataires pour votre diffusion, selon votre **[!UICONTROL Paramètres régionaux]**:
-
-* **[!UICONTROL Désabonne]**: nombre de clics sur le lien de désinscription.
-
-* **[!UICONTROL Ouvertures]** : nombre de fois que le message a été ouvert.
-
-* **[!UICONTROL Clics]**: nombre de clics sur un contenu.
-+++
-
-
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
 
@@ -167,14 +159,4 @@ La variable **[!UICONTROL Statistiques de tracking des emails par langue]** Le w
 1. From your delivery action, click Edit content.
 1. Click Add languages.
 
-# Translation project/ Create translation project:
-
-1. From the Translation projects menu, click Create project.
-1. Type-in a Name and Description.
-1. Select the Source locale.
-1. Click Add language to access the menu and define the languages for your translation project.
-1. Select from the list your Target locale(s) and choose which Translation provider you want to use.
-1. Click Add language when you finished linking your Target locale with the correct Translation provider.
-1. Click Save.
-1. From the Advanced menu of your Translation project, you can choose to Edit, deactive or delete it.
 -->
