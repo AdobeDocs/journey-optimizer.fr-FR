@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 86%
+source-wordcount: '1650'
+ht-degree: 85%
 
 ---
 
@@ -124,7 +124,11 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
 
-## Gestion des décisions {#decision-management}
+## Barrières de sécurité des audiences {#audience}
+
+* Vous pouvez publier jusqu’à 10 compositions d’audience dans un environnement de test donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+
+## Mécanismes de sécurisation de la gestion des décisions {#decision-management}
 
 ### Protections des performances {#performance-guardrails}
 
