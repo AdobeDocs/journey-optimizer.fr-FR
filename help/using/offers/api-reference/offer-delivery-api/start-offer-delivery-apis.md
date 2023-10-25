@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '631'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 100%
 Vous pouvez diffuser des offres à l’aide de l’une des API suivantes : API **Decisioning** ou **Edge Decisioning.** En outre, l’API **Batch Decisioning** vous permet de diffuser des offres à tous les profils d’une audience donnée en un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
 
 Cette page contient des informations sur les fonctionnalités spécifiques disponibles avec les API **Decisioning** et **Edge Decisioning**. Même si toutes deux vous permettent de diffuser des offres à vos clients, il est recommandé d’utiliser l’API **Edge Decisioning** chaque fois que possible pour les cas d’utilisation entrants. Cette dernière assure une latence plus faible et un débit plus élevé sur votre plateforme.
-
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 * [API Decisioning](decisioning-api.md)
@@ -127,7 +126,6 @@ Lors de la transmission de données contextuelles avec une demande de l’API Ed
 
 Les fonctionnalités répertoriées ci-dessous ne sont disponibles qu’avec l’API Decisioning. Si vous avez besoin de l’une d’entre elles pour répondre à vos besoins, utilisez l’API Decisioning. Dans le cas contraire, il est recommandé d’utiliser les API Edge Decisioning.
 
-* **Événements d’expérience** : permet de tirer parti des événements d’expérience pour créer vos règles de prise de décision.
 * **Contenu et caractéristiques de l’offre** : vous pouvez choisir de ne pas renvoyer le contenu et les caractéristiques d’une offre à l’aide d’une option dédiée.
 * **Métadonnées de l’offre** : permet d’activer une option pour renvoyer les métadonnées d’une offre.
 * **Politique de fusion** : permet d’utiliser dans votre demande une politique de fusion différente de celle associée à votre sandbox.

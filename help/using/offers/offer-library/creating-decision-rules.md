@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 87%
 
 ---
 
@@ -25,10 +25,9 @@ Par exemple, vous pouvez indiquer que vous souhaitez qu&#39;une « offre vêtem
 
 Voici une liste des limites à connaître lors de l’utilisation de règles de décision :
 
-* Lors de la création d’une règle, vous pouvez utiliser des événements historiques, mais il existe des limites quant au moment où ces règles sont utilisables.
 * La prise de décision Edge utilise le profil Edge qui ne stocke pas d’événements. Par conséquent, toute règle utilisée dans une décision Edge sera invalide.
-* Les parcours qui utilisent les décisions d’offre ne tiennent pas compte des événements historiques. Par conséquent, ces règles seront invalides.
-* Les demandes de décision qui utilisent le profil hub étudient les 100 derniers événements d’expérience du profil pour évaluer les règles qui référencent des événements d’expérience historiques.
+* Lors de la création d’une règle de décision, la recherche dans une période précédente n’est pas prise en charge. Par exemple, si vous spécifiez un événement d’expérience qui s’est produit au cours du dernier mois en tant que composant de la règle. Toute tentative d’inclusion d’une période de recherche arrière lors de la création d’une règle déclenche une erreur lors de son enregistrement.
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Créer une règle de décision {#create}
 
