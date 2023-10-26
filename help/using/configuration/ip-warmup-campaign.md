@@ -11,7 +11,7 @@ keywords: IP, groupes, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 77d8da88b72cada82d30afa8bab5a63ab435f625
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 75%
@@ -50,7 +50,8 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
 1. Création d’un marketing planifié [campaign](../campaigns/create-campaign.md) et sélectionnez la variable [Email](../email/create-email.md#create-email-journey-campaign) action.
 
-   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
+
 1. Sélectionnez la surface que vous avez créée pour le préchauffage d’adresses IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
