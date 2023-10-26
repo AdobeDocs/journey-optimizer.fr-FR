@@ -30,7 +30,7 @@ Les règles conditionnelles sont créées à l’aide de l’éditeur d’expres
 
 Les règles conditionnelles sont créées à partir du menu **[!UICONTROL Conditions]** dans l’éditeur d’expression, accessible soit :
 
-* dans le Concepteur d’e-mail, lors de l’activation d’un contenu dynamique pour un composant présent dans le corps du message. [Découvrez comment ajouter du contenu dynamique dans les e-mails](dynamic-content.md#emails)
+* dans le concepteur d’e-mail, lors de l’activation d’un contenu dynamique pour un composant présent dans le corps du message. [Découvrez comment ajouter du contenu dynamique dans les e-mails](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
@@ -52,7 +52,7 @@ Les règles conditionnelles sont créées à partir du menu **[!UICONTROL Condit
 
 Les principales étapes de création d’une règle conditionnelle sont les suivantes :
 
-1. Accédez au menu **[!UICONTROL Conditions]** dans l’éditeur d’expression ou dans le Concepteur d’e-mail, puis cliquez sur **[!UICONTROL Créer]**.
+1. Accédez au menu **[!UICONTROL Conditions]** dans l’éditeur d’expression ou dans le concepteur d’e-mail, puis cliquez sur **[!UICONTROL Créer]**.
 
 1. Créez la règle conditionnelle selon vos besoins. Pour ce faire, glissez et déposez les attributs de votre choix depuis le menu de gauche vers la zone de travail, puis organisez-les.
 

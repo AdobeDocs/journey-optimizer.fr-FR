@@ -172,7 +172,7 @@ Pour créer un fragment à partir de zéro, procédez comme suit.
    >
    >Actuellement, pour les fragments visuels uniquement, la variable **Email** channel est pris en charge.
 
-1. Le [Concepteur d’e-mail](../email/get-started-email-design.md) s’affiche. Modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail contenu dans un parcours ou une campagne.
+1. Le [concepteur d’e-mail](../email/get-started-email-design.md) s’affiche. Modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail contenu dans un parcours ou une campagne.
 
    >[!NOTE]
    >
@@ -224,7 +224,7 @@ Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez en
 
 Lors de la conception d’une [modèle de contenu](content-templates.md) ou [email](../email/get-started-email-design.md) dans une campagne ou un parcours, vous pouvez enregistrer une partie de votre contenu en tant que fragment visuel. Pour ce faire, suivez les étapes ci-après.
 
-1. Dans le [Concepteur d’e-mail](../email/get-started-email-design.md), cliquez sur les points de suspension en haut à droite de l’écran.
+1. Dans le [concepteur d’e-mail](../email/get-started-email-design.md), cliquez sur les points de suspension en haut à droite de l’écran.
 
 1. Sélectionnez **[!UICONTROL Enregistrer en tant que fragment]** dans le menu déroulant.
 

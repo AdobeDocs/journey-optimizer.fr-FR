@@ -40,7 +40,7 @@ Vous pouvez choisir parmi les options suivantes :
 
 Pour commencer à créer votre contenu avec l’un des exemples ou des modèles enregistrés, procédez comme suit.
 
-1. [Accédez au Concepteur d’e-mail](get-started-email-design.md) dans l’écran **[!UICONTROL Modifier le contenu]** de l’e-mail.
+1. [Accédez au concepteur d’e-mail](get-started-email-design.md) dans l’écran **[!UICONTROL Modifier le contenu]** de l’e-mail.
 
 1. Sur l’écran **[!UICONTROL Créer votre e-mail]**, l’onglet **[!UICONTROL Exemples de modèles]** est sélectionné par défaut.
 

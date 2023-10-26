@@ -104,7 +104,7 @@ Pour commencer à créer votre campagne web, procédez comme suit :
    * [HTML](../email/content-components.md#HTML)
    * [Image](../email/content-components.md#image)
    * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
-   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le Concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
+   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
    * Lien
    * [Décision d’offre](../email/add-offers-email.md)
 

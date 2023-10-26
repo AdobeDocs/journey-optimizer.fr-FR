@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser les composants de contenu du Concepteur d’email
+title: Utiliser les composants de contenu du concepteur d’e-mail
 description: Découvrez comment utiliser les composants de contenu dans vos e-mails
 feature: Email Design
 topic: Content Management
@@ -82,7 +82,7 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 1. À partir de la section **[!UICONTROL Composants de contenu]**, faites glisser et déposez le composant **[!UICONTROL Bouton]** dans un **[!UICONTROL composant de structure]**.
 
-1. Cliquez sur le bouton nouvellement ajouté pour personnaliser le texte et accéder aux onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** dans le volet droit du Concepteur d’e-mail.
+1. Cliquez sur le bouton nouvellement ajouté pour personnaliser le texte et accéder aux onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** dans le volet droit du concepteur d’e-mail.
 
    ![](assets/email_designer_button_component.png)
 
@@ -108,7 +108,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
 
 1. À partir des **[!UICONTROL composants de contenu]**, faites glisser et déposez le composant de **[!UICONTROL texte]** dans un **[!UICONTROL composant de structure]**.
 
-1. Cliquez sur le composant nouvellement ajouté pour personnaliser le texte et accéder aux onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** dans le volet droit du Concepteur d’e-mail.
+1. Cliquez sur le composant nouvellement ajouté pour personnaliser le texte et accéder aux onglets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** dans le volet droit du concepteur d’e-mail.
 
 1. Modifiez votre texte à l’aide des options suivantes disponibles dans la barre d’outils :
 
@@ -157,7 +157,7 @@ Utilisez le composant **[!UICONTROL HTML]** pour copier-coller les différentes 
 
 >[!NOTE]
 >
->Pour rendre un contenu externe compatible avec le Concepteur d’e-mail, Adobe recommande de créer entièrement un message et de copier le contenu de votre e-mail existant dans des composants.
+>Pour rendre un contenu externe compatible avec le concepteur d’e-mail, Adobe recommande de créer entièrement un message et de copier le contenu de votre e-mail existant dans des composants.
 
 ## Image {#image}
 

@@ -23,7 +23,7 @@ ht-degree: 96%
 >abstract="Les modifications seront appliquées uniquement pour les vues sélectionnées. Pour découvrir les vues, utilisez le mode **Parcourir** et accédez aux vues. Vous ne trouvez pas la vue que vous recherchez ?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
-Les **applications à une seule page** (SPA) peuvent désormais être créées dans l’éditeur visuel du concepteur web. Vous pouvez ainsi sélectionner les **vues** spécifiques auxquelles vous souhaitez appliquer vos modifications de page web.
+Les **applications monopages** peuvent désormais être créées dans l’éditeur visuel du concepteur web. Vous pouvez ainsi sélectionner les **vues** spécifiques auxquelles vous souhaitez appliquer vos modifications de page web.
 
 [Découvrez comment créer des applications à une seule page dans cette vidéo](#video)
 

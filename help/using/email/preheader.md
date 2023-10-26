@@ -33,7 +33,7 @@ Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement 
 
 Pour définir le pré-titre d’un e-mail, procédez comme suit :
 
-1. Depuis le Concepteur d’e-mail, ajoutez au moins un **[!UICONTROL composant de structure]** pour commencer à concevoir votre e-mail.
+1. Depuis le concepteur d’e-mail, ajoutez au moins un **[!UICONTROL composant de structure]** pour commencer à concevoir votre e-mail.
 
 1. Cliquez sur l’icône **[!UICONTROL Arborescence de navigation]** dans le volet de gauche, puis sélectionnez **[!UICONTROL Corps]**.
 
