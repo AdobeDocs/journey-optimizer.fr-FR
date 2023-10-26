@@ -1,44 +1,52 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Copier un parcours dans une autre sandbox
-description: Découvrez comment copier un parcours dans une autre sandbox
+title: Copier un parcours dans un autre sandbox
+description: Découvrez comment copier un parcours dans un autre environnement de test
 feature: Journeys, Sandboxes
 topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 98%
+source-wordcount: '612'
+ht-degree: 39%
 
 ---
 
 # Copier un parcours dans un autre sandbox {#copy-to-sandbox}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Copier un parcours dans un autre sandbox"
->abstract="Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de l’environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours."
+>title="Copy a journey to another sandbox"
+>abstract="Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from the Stage sandbox environment to your Production sandbox. In addition to the Journey itself, Journey Optimizer also copies most of the objects the journey depends on."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="Détails des sandbox"
->abstract="Sélectionnez le sandbox de destination dans lequel vous souhaitez copier le parcours. Seules les sandbox de votre organisation sont disponibles."
+>title="Sandbox details"
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="Détails de l’objet"
->abstract="Il s’agit du parcours que vous allez copier."
+>title="Object details"
+>abstract="This is the journey you are going to copy."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="Objets dépendants"
->abstract="Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne."
+>title="Dependent objects"
+>abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
+-->
 
-Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : les audiences, les surfaces (c’est-à-dire les préréglages), les schémas, les événements et les actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](#limitations).
+Les outils Sandbox vous permettent de copier des objets sur plusieurs environnements de test en exploitant l’exportation et l’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même environnement de test.
+
+Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte de Journey Optimizer. Pour plus d’informations sur la fonctionnalité elle-même, reportez-vous à la section [Documentation Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+
+## Prise en main des outils Sandbox{#sandbox-gs}
+
+Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -46,66 +54,58 @@ Journey Optimizer vous permet de copier un parcours complet d’un sandbox à u
 
 Les objets copiés dans le sandbox cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages qu’il contient sont transférés en mode brouillon. Vous pouvez ainsi effectuer une validation approfondie du parcours avant sa publication sur le sandbox cible. Le processus de copie ne copie que les métadonnées et les objets de ce parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
 
+## Exporter le parcours {#export}
+
 Pour copier un parcours dans un autre sandbox, procédez comme suit :
 
 1. Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s&#39;affiche.
 
-2. Recherchez le parcours à copier, puis cliquez sur l’icône **Plus d’actions** (les trois points en regard du nom du parcours) et sélectionnez **Copier dans le sandbox**.
+1. Recherchez le parcours à copier, puis cliquez sur le bouton **Autres actions** (les trois points en regard du nom du parcours) et cliquez sur **Ajouter au package**.
 
-   ![](assets/copy-sandbox1.png)
+![](assets/journey-sandbox1.png)
 
-   L’écran **Copier dans le sandbox** s’affiche.
+La variable **Ajouter au package** s’affiche.
 
-   ![](assets/copy-sandbox2.png)
+![](assets/journey-sandbox2.png)
 
-3. Sélectionnez le **sandbox cible** dans le champ déroulant. Seules les sandbox de votre organisation sont disponibles.
+1. Choisissez si vous souhaitez ajouter le parcours à un package existant ou créer un nouveau package :
 
-4. Consultez la section **Objets dépendants**. Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom, le type d’objet et l’ID Journey Optimizer interne.
+   * **Package existant**: sélectionnez le package dans le menu déroulant.
+   * **Créer un nouveau package**: saisissez le nom du module. Vous pouvez également ajouter une description.
 
-5. Cliquez sur le bouton **Copier** situé dans le coin supérieur droit pour commencer à copier le parcours dans le sandbox cible.
+1. Dans la section du menu ADMINISTRATION, cliquez sur **[!UICONTROL Environnements de test]**, sélectionnez la variable **Packages** et cliquez sur le package à exporter.
 
-   ![](assets/copy-sandbox3.png)
+   ![](assets/journey-sandbox3.png)
 
-   Le processus de copie démarre et la progression de chacun des objets est affichée. La durée du processus de copie dépend de la complexité du parcours et du nombre d’objets à copier. Si une erreur se produit, un message s’affiche pour l’objet concerné.
+1. Sélectionnez les objets à exporter, puis cliquez sur **Publier**
 
-   ![](assets/copy-sandbox4.png)
+   ![](assets/journey-sandbox4.png)
 
-6. Lorsque la copie est terminée, cliquez sur **Fermer**.
+   En cas d&#39;échec de la publication, vous pouvez vérifier les journaux pour identifier la raison de l&#39;échec. Ouvrez le module, puis cliquez sur **Voir Tâches en échec**, sélectionnez la tâche d’importation, puis cliquez sur **Affichage des détails d’importation**.
 
-7. Accédez à votre sandbox cible et vérifiez minutieusement que tous les objets sont copiés.
+   ![](assets/journey-sandbox9.png)
 
-## Processus de copie et limitations {#limitations}
+## Importer le parcours {#export}
 
-Tous les éléments liés peuvent ne pas être copiés dans le sandbox de destination. Adobe recommande vivement d’effectuer une vérification approfondie. Identifiez tout objet potentiel manquant et créez-le manuellement avant de publier le parcours.
+1. Dans la liste des packages, cliquez sur l’icône + en regard du nom du package.
 
-Les objets suivants sont copiés :
+   ![](assets/journey-sandbox5.png)
 
-* Audience
+1. Sélectionnez la variable **Environnement de test Target** dans le champ déroulant, puis cliquez sur **Suivant**. Seules les sandbox de votre organisation sont disponibles.
 
-  Une audience ne peut être copiée qu’une seule fois d’une sandbox à une autre. Une audience ayant été copiée n’est pas modifiable sur la sandbox de destination.
+   ![](assets/journey-sandbox6.png)
 
-* Schéma
+1. Examinez les objets et les dépendances du package. Il s’agit de la liste des objets associés utilisés dans le parcours. Cette liste affiche le nom et le type d’objet. Pour chaque objet, vous pouvez choisir d’en créer un nouveau ou d’en utiliser un existant dans l’environnement de test cible.
 
-  Les schémas utilisés dans ce parcours sont copiés.
+   ![](assets/journey-sandbox7.png)
 
-* Message
+1. Cliquez sur le bouton **Terminer** , dans le coin supérieur droit, pour commencer à copier le module dans l’environnement de test cible. La durée du processus de copie dépend de la complexité du parcours et du nombre d’objets à copier.
 
-  Les activités d’action de canal utilisées dans le parcours. L’exhaustivité des champs utilisés pour la personnalisation dans le message n’est pas vérifiée. Les blocs de contenu ne sont pas copiés.
+1. Cliquez sur la tâche d’importation pour consulter le résultat de la copie :
 
-* Parcours : détails de la zone de travail
+   * Cliquez sur **Affichage des objets importés** pour afficher chaque objet copié.
+   * Cliquez sur **Affichage des détails d’importation** pour vérifier les résultats de l’importation pour chaque objet.
 
-  Représentation du parcours sur la zone de travail, y compris les objets du parcours tels que les conditions, les actions, les événements, la lecture d’audience, etc. L’activité Saut n’est pas copiée.
+   ![](assets/journey-sandbox8.png)
 
-* Événement
-
-  Les événements et les détails des événements utilisés dans le parcours sont copiés.
-
-* Action
-
-  Les actions et les détails des actions utilisées dans le parcours sont copiés.
-
-Les surfaces (c’est-à-dire les préréglages) ne sont pas copiées. Le système sélectionne automatiquement la correspondance la plus proche possible sur le sandbox de destination, en fonction du type de message et du nom de la surface. Si aucune surface n’est trouvée sur le sandbox cible, le processus de copie de la surface échoue. Cela signifie que la copie du message échouera également, car un message nécessite qu’une surface soit disponible pour la configuration. Dans ce cas, au moins une surface doit être créée, pour le bon canal du message, afin que la copie fonctionne.
-
-Pour les schémas, les politiques de fusion et les audiences, la deuxième fois que ces objets tenteront d’être copiés, ils seront seulement référencés. Ils seront traités comme des objets qui existent déjà et seront à nouveau copiés. Cela signifie que ces objets ne peuvent être copiés qu’une seule fois.
-
-Un délai de cinq minutes est nécessaire pour qu’Adobe Journey Optimizer puisse référencer les schémas, les politiques de fusion et les audiences sans afficher d’erreur dans la zone de travail. Patientez cinq minutes et ces références seront disponibles.
+1. Accédez à votre sandbox cible et vérifiez minutieusement que tous les objets sont copiés.

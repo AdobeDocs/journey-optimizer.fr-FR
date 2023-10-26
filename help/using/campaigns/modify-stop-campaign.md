@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**,
 
 De plus, vous pouvez filtrer la liste en fonction du type et du canal de la campagne, ou des balises qui ont été affectées aux campagnes lors de leur création. [Découvrir comment attribuer des balises à une campagne](create-campaign.md#create)
 
-## Statuts des campagnes {#statuses}
+## Statuts et alertes des campagnes {#statuses}
 
 Les campagnes peuvent avoir plusieurs statuts :
 
@@ -47,6 +47,10 @@ Les campagnes peuvent avoir plusieurs statuts :
 >[!NOTE]
 >
 >L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée. [En savoir plus](modify-stop-campaign.md#modify).
+
+Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche à côté de l’état de la campagne. Cliquez dessus pour afficher les informations relatives à l’alerte. Ces alertes peuvent se produire dans différentes situations, par exemple lorsque le message de l&#39;opération n&#39;a pas été publié ou si la surface choisie est incorrecte.
+
+![](assets/campaign-alerts.png)
 
 ## Modification d’une campagne récurrente {#modify}
 

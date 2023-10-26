@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 100%
+source-wordcount: '1068'
+ht-degree: 91%
 
 ---
 
@@ -152,7 +152,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr> 
   <tr> 
    <td> Clics uniques<br/> </td> 
-   <td> Nombre de destinataires qui ont cliqué sur un contenu dans un e-mail.<br/> </td> 
+   <td> Nombre de destinataires qui ont cliqué sur un contenu dans un e-mail.<br> Notez que lors du calcul des clics uniques, les 10 derniers jours sont pris en compte. Si un profil enregistre plusieurs clics au cours de la période de 10 jours, ils sont comptés comme des clics uniques. Cependant, si un profil a deux clics à plus de 10 jours d’intervalle, ils ne seront pas considérés comme des clics uniques.<br/> </td> 
 </tr> 
   <tr> 
    <td>Taux de clics uniques<br/> </td> 
@@ -160,7 +160,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
   <tr> 
    <td> Ouvertures uniques<br/> </td> 
-   <td>Nombre de destinataires ayant ouvert la diffusion.<br/> </td> 
+   <td>Nombre de destinataires ayant ouvert la diffusion. <br> Notez que lors du calcul des ouvertures uniques, les 10 derniers jours sont pris en compte. Si un profil enregistre plusieurs ouvertures au cours de la période de 10 jours, elles sont comptées comme des ouvertures uniques. Cependant, si un profil a 2 ouvertures séparées de plus de 10 jours, elles ne seront pas considérées comme des ouvertures uniques.<br/> </td> 
 </tr> 
   <tr> 
    <td> Désabonnements<br/> </td> 

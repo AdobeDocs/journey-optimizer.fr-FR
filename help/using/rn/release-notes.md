@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 93%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>L’outil Sandbox vous permet de copier des objets sur plusieurs environnements de test en exploitant l’exportation et l’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même environnement de test.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/copy-to-sandbox.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>MMS (Multimedia Message Service) dans les SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des messages MMS (Multimedia Message Service), ce qui permet le partage d’images, de GIFs ou de vidéos avec vos clients. Notez que cette fonctionnalité est actuellement disponible avec Sinch uniquement.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#sms-content">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 * Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes.
-* Vous pouvez désormais cibler les audiences créées par le biais de la composition de l’audience et utiliser les attributs d’enrichissement dans les Parcours.
+* Vous pouvez désormais cibler les audiences créées par le biais de la composition de l’audience et utiliser les attributs d’enrichissement dans les Parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Campagnes**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche désormais dans la liste des campagnes avec l’état de la campagne.
+* Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche désormais dans la liste des campagnes avec l’état de la campagne. [En savoir plus](../campaigns/modify-stop-campaign.md#statuses)
 
 **Parcours**
 
-* La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cela s’applique à :
+* La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cette amélioration a été introduite afin d’éviter que les durées d’attente ne dépassent les 30 jours de parcours. Cela s’applique à :
 
    * la valeur **Durée** dans le champ [activité d’attente](../building-journeys/wait-activity.md)
    * la valeur **Période d’attente de rentrée** in [Propriétés du parcours](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Gestion des décisions**
 
-* Plusieurs libellés relatifs à la limitation des offres dans l’interface de gestion des décisions ont été mis à jour.
+* Plusieurs libellés relatifs à la limitation des offres dans l’interface de gestion des décisions ont été mis à jour. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 
 ## Notes de mise à jour de septembre 2023 {#sept-rn-2023}
 

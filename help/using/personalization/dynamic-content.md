@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, dynamique, contenu
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 90%
 
 ---
 
@@ -60,13 +60,13 @@ Les étapes suivantes permettent d’ajouter du contenu dynamique aux expression
 
 Les étapes de création de variantes d’un composant de contenu dans le concepteur d’e-mails sont les suivantes :
 
-1. Dans le concepteur d’e-mails, sélectionnez un composant de contenu, puis cliquez sur **[!UICONTROL Activer le contenu conditionnel]**.
+1. Dans le [Concepteur d&#39;email](../email/content-from-scratch.md), sélectionnez un composant, puis cliquez sur **[!UICONTROL Activation du contenu conditionnel]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. Le volet **[!UICONTROL Contenu conditionnel]** s’affiche à gauche. Dans ce volet, vous pouvez créer plusieurs variantes du composant de contenu sélectionné à l’aide de conditions.
 
-   Configurez votre première variante en sélectionnant le bouton **[!UICONTROL Appliquer la condition]**.
+   Configurez votre première variante en sélectionnant **[!UICONTROL Sélectionner une condition]** bouton .
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ Les étapes de création de variantes d’un composant de contenu dans le concep
 
    Vous pouvez également créer une règle en cliquant sur **[!UICONTROL Créer]**. [Découvrez comment créer des conditions.](create-conditions.md)
 
-1. La règle conditionnelle est associée à la variante. Pour une meilleure lisibilité, il est recommandé de renommer la variante en cliquant sur le menu des points de suspension.
+1. La règle conditionnelle est associée à la variante. Pour une meilleure lisibilité, renommez la variante en sélectionnant le champ **[!UICONTROL Renommer]** à partir de l’icône Autres actions .
 
-   Maintenant, configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s’il s’agit de la langue préférée du destinataire.
+   ![](assets/conditions-rename.png)
+
+1. Configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s’il s’agit de la langue préférée du destinataire.
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ Les étapes de création de variantes d’un composant de contenu dans le concep
    >Si aucune des règles définies dans les variantes n’est respectée lors de l’envoi du message, le composant de contenu affiche le contenu défini dans la variable **[!UICONTROL Variante par défaut]**.
    >
    >Le contenu conditionnel sera évalué par rapport aux règles associées dans l’ordre d’affichage des variantes. La variante par défaut est toujours affichée si aucune autre condition n’est remplie.
+
+1. Pour supprimer une variante, cliquez sur l&#39;icône Autres actions située en regard de la variante souhaitée et sélectionnez **[!UICONTROL Supprimer]**.
+
+   ![](assets/conditions-delete.png)

@@ -9,10 +9,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, messages, parcours, canal, événements, notification push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 87%
 
 ---
 
@@ -24,13 +24,13 @@ Cette section présente un cas d’utilisation qui combine une lecture d’audie
 
 ## Description du cas d’utilisation
 
-Dans ce cas d’utilisation, nous souhaitons envoyer un premier message (e-mail et push) à tous les clientes et clients appartenant à une audience spécifique.
+Dans ce cas pratique, nous souhaitons envoyer un premier email à tous les clients appartenant à une audience spécifique.
 
 Sur la base de leur réaction au premier message, nous voulons envoyer des messages spécifiques.
 
-Après le premier message, nous attendons un jour que les clients ouvrent le message push ou l&#39;email. S&#39;il n&#39;y a pas de réaction, nous leur envoyons un email de relance.
+Si le client ouvre l’email, nous attendons un achat et envoyons un message push pour remercier le client.
 
-Ensuite, nous attendons un achat et envoyons un message push pour remercier le client.
+S&#39;il n&#39;y a pas de réaction, nous leur envoyons un email de relance.
 
 ## Conditions préalables
 
@@ -93,21 +93,13 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
    ![](assets/jo-uc5.png)
 
-1. Placez votre curseur sur l’activité d’e-mail et cliquez sur le symbole « + » pour créer un nouveau chemin.
+1. Ajouter un **Réaction** et sélectionnez **Email ouvert**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre l’email.
 
-1. Dans le premier chemin, ajoutez un événement **Réaction** et sélectionnez **Notification push ouverte**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre la version push du premier message.
-
-1. Dans le second chemin, ajoutez un événement **Réaction** et sélectionnez **Email ouvert**. L&#39;événement est déclenché lorsque l&#39;individu ouvre l&#39;email.
-
-1. Dans l&#39;une des activités de la réaction, cochez la case **Définir la temporisation de l&#39;événement**, définissez une durée (1 jour dans notre exemple) et cochez **Ajouter un itinéraire de temporisation**. Cela crée un autre itinéraire pour les individus qui n&#39;ouvrent pas le premier message push ou l&#39;email.
-
-   >[!NOTE]
-   >
-   >Lors de la configuration d&#39;une temporisation sur plusieurs événements (les deux réactions dans ce cas), il vous suffit de configurer la temporisation sur l&#39;un de ces événements.
+1. Vérifiez les **Définition du délai d’expiration de l’événement** , définissez une durée (1 jour dans notre exemple) et cochez la case **Définition d’un chemin de temporisation**. Cela crée un autre itinéraire pour les individus qui n&#39;ouvrent pas le premier message push ou l&#39;email.
 
 1. Dans l’itinéraire de temporisation, déposez une activité d’action **E-mail** et définissez le contenu du message de « relance ». Ce message est envoyé aux individus qui n’ouvrent pas le premier email ou la première notification push le lendemain. Consultez cette [section](../email/create-email.md) pour savoir comment configurer et concevoir un e-mail.
 
-1. Connectez les trois chemins à l&#39;événement d&#39;achat créé précédemment. L&#39;événement est déclenché lorsqu&#39;un individu effectue un achat.
+1. Dans le premier chemin, ajoutez l’événement d’achat créé précédemment. L&#39;événement est déclenché lorsqu&#39;un individu effectue un achat.
 
 1. Après l’événement, déposez une activité d’action **Push** et définissez le contenu du message « merci ». Consultez cette section [section](../push/create-push.md) pour savoir comment configurer et concevoir une notification push.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 96%
+source-wordcount: '3956'
+ht-degree: 94%
 
 ---
 
@@ -21,10 +21,15 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Octobre 2023 {#oct-2023}
 
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 octobre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
 * Ajout de GIFs pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Canal Courrier](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../campaigns/content-experiment.md).
 * Le processus de création de schémas a été mis à jour pour prendre en compte les dernières mises à jour apportées à l’interface utilisateur, avec des modifications apportées à Adobe Experience Platform. [En savoir plus](../audience/creating-test-profiles.md)
 * Les barrières de sécurité de la gestion des décisions ont été ajoutées à la page Barrières de sécurité et limites . [En savoir plus](../start/guardrails.md#decision-management)
+* La section Paramètres d’en-tête a été mise à jour afin de refléter la manière dont les notifications d’absence du bureau et les réponses aux défis sont traitées (elles sont reçues sur la page **[!UICONTROL Email d’erreur]**). [En savoir plus](../email/email-settings.md#email-header)
 * Une nouvelle section sur la prévisualisation et le test de votre contenu a été créée. [En savoir plus](../content-management/preview-test.md)
+* La page Mise en oeuvre d’applications d’une seule page a été déplacée vers la documentation du SDK Web Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* La section Limitation a été mise à jour afin de prendre en compte les modifications de libellé relatives à la limitation des offres dans l’interface de gestion des décisions. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
+* Mise à jour de l&#39;option Ajouter du contenu dynamique dans les emails avec des informations sur la suppression d&#39;une variante - [En savoir plus](../personalization/dynamic-content.md#emails)
 
 ## Septembre 2023 {#september-2023}
 
@@ -39,7 +44,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Les liens vers la documentation sur le contrôle d’accès ont été mis à jour. [En savoir plus](../administration/permissions.md)
 * Les conditions préalables du canal in-app ont été mises à jour avec les détails de la collecte de données Adobe Experience Platform. [En savoir plus](../in-app/inapp-configuration.md)
 * Certaines expressions présentées dans des exemples de formule de classement ont été mises à jour afin d’éviter les erreurs de validation. [En savoir plus](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Un avertissement a été ajouté à la variable **Définition des portées de décision** pour indiquer que si le modèle d’AI est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement d’AI, avec le même modèle d’AI spécifique. En outre, un seul groupe de critères d’évaluation peut utiliser le modèle d’IA. [En savoir plus](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Un avertissement a été ajouté à la section Définir les portées de décision afin d’indiquer que si le modèle AI est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement AI, avec le même modèle AI spécifique. En outre, un seul groupe de critères d’évaluation peut utiliser le modèle d’IA. [En savoir plus](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Août 2023 {#august-2023}
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
@@ -35,6 +35,8 @@ Dans les parcours unitaires, vous pouvez activer ou désactiver la reprise :
 
 Par défaut, les nouveaux parcours autorisent une reprise. Vous pouvez désélectionner cette option pour les parcours « uniques ». C’est le cas, par exemple, si vous souhaitez offrir un cadeau ponctuel à un utilisateur ou à une utilisatrice qui effectue sa première visite dans la boutique. Dans ce cas, le client ou la cliente ne doit pas pouvoir recommencer le parcours et bénéficier une nouvelle fois de l’offre. Lorsqu’un parcours se termine, son statut passe en mode **[!UICONTROL Fermé]**. Aucune nouvelle personne ne peut rejoindre le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement. [En savoir plus](journey-gs.md#entrance)
 
+Lorsque la variable **Autoriser une rentrée** est activée, l’option **Période d’attente de rentrée** vous permet de définir le temps d’attente avant qu’un profil ne puisse entrer à nouveau dans le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 29 jours.
+
 ![](assets/journey-re-entrance.png)
 
 Après le [délai d’expiration global](journey-gs.md#global_timeout) par défaut de 30 jours, le statut du parcours passe à **Terminé**. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils de cleintes et clients ne peuvent plus rejoindre le parcours. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils déjà entrés dans le parcours sont supprimées 30 jours après leur entrée. Après cette période, les profils de clientes et clients peuvent entrer à nouveau dans le parcours. Pour éviter cela et désactiver complètement la possibilité de reprise pour ces profils, vous pouvez ajouter une condition de test pour savoir si le profil est déjà entré ou non, à l’aide des données de profil ou d’audience.
@@ -42,9 +44,7 @@ Après le [délai d’expiration global](journey-gs.md#global_timeout) par défa
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
-
-La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
+La clé permet de vérifier qu’une personne est dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
 ## Parcours de lecture d’audience{#entry-read-segment}
 
