@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dc3ddb92a8d47b135535107928e5b812c101d93
+source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
-source-wordcount: '4556'
+source-wordcount: '4526'
 ht-degree: 92%
 
 ---
@@ -32,10 +32,6 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 ## Notes de mise à jour initiales d’octobre 2023 {#oct-rn-2023}
-
-Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les écrans et la documentation mise à jour sont publiés à la date de publication.
-
-**Date de publication**: 25-26 octobre 2023
 
 ### Nouvelles fonctionnalités{#oct-2023-features}
 
