@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 7dc3ddb92a8d47b135535107928e5b812c101d93
 workflow-type: tm+mt
-source-wordcount: '4558'
+source-wordcount: '4556'
 ht-degree: 92%
 
 ---
@@ -119,7 +119,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
    * la valeur **Durée** dans le champ [activité d’attente](../building-journeys/wait-activity.md)
    * la valeur **Période d’attente de rentrée** in [Propriétés du parcours](../building-journeys/journey-gs.md#entrance)
-   * la valeur **Attendre** dans la définition du délai d’expiration de [general](../building-journeys/general-events.md#events-specific-time) et [réaction](../building-journeys/reaction-events.md) événements .
+   * la valeur **Attendre** dans la définition du délai d’expiration de [activités d’événement](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
