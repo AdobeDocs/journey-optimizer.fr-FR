@@ -11,10 +11,10 @@ keywords: IP, groupes, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 75%
 
 ---
 
@@ -36,7 +36,7 @@ Ce guide couvre les sujets suivants :
 
 >[!ENDSHADEBOX]
 
-Avant de créer le plan de préchauffage d’adresses IP dans [!DNL Journey Optimizer], vous devez d’abord créer une ou plusieurs campagnes avec l’option dédiée activée afin qu’elles puissent être utilisées dans un plan de préchauffage d’adresses IP.
+Avant de créer le plan de chauffage par IP dans [!DNL Journey Optimizer], vous devez d’abord créer une ou plusieurs campagnes spécialement conçues pour être utilisées dans le cadre d’un forfait de chauffage par IP.<!--through a dedicated option-->.
 
 Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci-dessous.
 
@@ -48,8 +48,9 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
    >
    >Contactez votre conseiller ou conseillère en délivrabilité pour identifier le domaine et les adresses IP à utiliser pour votre plan de préchauffage d’adresses IP.<!--TBC-->
 
-1. Créez une [campagne](../campaigns/create-campaign.md) et sélectionnez l’action [E-mail](../email/create-email.md#create-email-journey-campaign).
+1. Création d’un marketing planifié [campaign](../campaigns/create-campaign.md) et sélectionnez la variable [Email](../email/create-email.md#create-email-journey-campaign) action.
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. Sélectionnez la surface que vous avez créée pour le préchauffage d’adresses IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
    >
    >Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
-1. [Activez](../campaigns/review-activate-campaign.md) la campagne.
+1. [Activez](../campaigns/review-activate-campaign.md) la campagne. Son état passe à **[!UICONTROL En direct]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
 Une fois active, la campagne est prête à être utilisée dans un plan de préchauffage d’adresses IP. [En savoir plus](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+Une campagne de chaleur IP ne peut être utilisée que dans un seul plan de chaleur IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de chaleur IP. [En savoir plus](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>Lorsqu’une campagne active est utilisée dans un plan de chauffage par IP, une fois que le plan est [marqué comme terminé](ip-warmup-execution.md#mark-as-completed), l’état de cette campagne passe à **[!UICONTROL Stoppé]**.
+

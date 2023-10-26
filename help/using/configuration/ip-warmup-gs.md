@@ -11,9 +11,9 @@ keywords: IP, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de
 
 Lorsque vous envoyez des e-mails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les marque souvent comme spam.
 
-Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité du plan de préchauffage d’adresses IP. Cette nouvelle option dans le menu **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes. Cela devrait garantir un développement fluide de la phase de démarrage et vous permettre de réduire le taux global d’adresses invalides.
+Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité du plan de préchauffage d’adresses IP. Cette nouvelle option dans le menu **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes.
 
 >[!NOTE]
 >
