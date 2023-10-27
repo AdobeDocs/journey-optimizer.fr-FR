@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
 ht-degree: 100%
 
