@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation, message, abonnés, liste, lecture
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
