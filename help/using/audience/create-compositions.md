@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 87%
 
 ---
 
@@ -74,7 +74,9 @@ Pour créer un workflow de composition, procédez comme suit :
 >title="Publier votre audience"
 >abstract="Publiez votre composition pour enregistrer les audiences obtenues dans Adobe Experience Platform."
 
-Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]** . Elles peuvent avoir plusieurs statuts :
+Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]** . Vous pouvez dupliquer ou supprimer une composition existante à tout moment à l’aide du bouton représentant des points de suspension dans la liste.
+
+Les compositions peuvent avoir plusieurs états :
 
 * **[!UICONTROL Brouillon]** : la composition est en cours et n’a pas été publiée.
 * **[!UICONTROL Publié]** : la composition a été publiée, les audiences qui en résultent ont été enregistrées et peuvent être utilisées.
@@ -83,4 +85,4 @@ Toutes les compositions créées sont accessibles à partir de l’onglet **[!UI
 
 >[!NOTE]
 >
->Vous pouvez dupliquer ou supprimer une composition existante à tout moment à l’aide du bouton représentant des points de suspension dans la liste.
+>La composition de l’audience n’est actuellement pas intégrée à la fonctionnalité de réinitialisation des environnements de test. Avant de réinitialiser un environnement de test, vous devez supprimer vos compositions manuellement pour vous assurer que les données d’audience associées sont correctement nettoyées. Des informations détaillées sont disponibles dans Adobe Experience Platform [Documentation des environnements de test](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
