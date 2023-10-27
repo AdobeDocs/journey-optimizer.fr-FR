@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Pour collecter des événements d’expérience, vous devez d’abord créer un 
 
 Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
-1. Dans la **[!UICONTROL Data Management]** menu, sélectionnez **[!UICONTROL Schéma]**.
+1. Dans le menu **[!UICONTROL Gestion des données]**, sélectionnez **[!UICONTROL Schéma]**.
 
 1. Cliquez sur **[!UICONTROL Créer un schéma]**, dans le coin supérieur droit, sélectionnez **[!UICONTROL Événement d’expérience]** et cliquez sur **Suivant**.
 
@@ -28,7 +28,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+   >Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de vue d’ensemble du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 
 1. Saisissez le nom et la description de votre schéma, puis cliquez sur **Terminer**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -47,7 +47,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
    >
    >Le schéma qui sera utilisé dans votre jeu de données doit être associé au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de proposition]**. Sinon, vous ne pourrez pas l&#39;utiliser dans votre modèle d’IA.
 
-1. Enregistrement du schéma.
+1. Enregistrez le schéma.
 
 >[!NOTE]
 >

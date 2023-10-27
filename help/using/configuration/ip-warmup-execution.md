@@ -14,7 +14,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -63,7 +63,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans un autre plan de chauffage par IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de chaleur IP.
+   >Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans un autre plan de préchauffage des adresses IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de chaleur IP.
 
    ![](assets/ip-warmup-plan-select-campaign.png)
 
@@ -140,11 +140,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Vous pouvez éventuellement définir une fenêtre temporelle pendant laquelle la campagne de réchauffement des adresses IP peut être exécutée en cas de retard dans la variable [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} tâche. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la liste déroulante **[!UICONTROL Temps d’exécution de reprise]** pour sélectionner une durée, jusqu’à 240 minutes (4 heures).
+1. Vous pouvez éventuellement définir un intervalle de temps pendant lequel la campagne de préchauffage des adresses IP peut être exécutée en cas de retard dans le traitement de [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la liste déroulante **[!UICONTROL Temps d’exécution de reprise]** pour sélectionner une durée, jusqu’à 240 minutes (4 heures).
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   Si, par exemple, vous définissez une heure d’envoi un jour donné à 9h00 et que vous sélectionnez 120 minutes comme heure d’exécution de la nouvelle tentative, une fenêtre d’opportunité de 2 heures (de 9h00 à 11h00) est disponible pour l’exécution de la tâche de segmentation.
+   Par exemple, si vous définissez une heure d’envoi un jour donné à 9 h et que vous sélectionnez 120 minutes comme temps d’exécution de reprise, une fenêtre d’opportunité de 2 heures (9 h à 11 h) s’affiche pour l’exécution du traitement de segmentation.
 
    >[!NOTE]
    >
@@ -174,7 +174,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Une fois que l’exécution de la campagne a démarré, le bouton **[!UICONTROL Arrêter]** n’est plus disponible.
 
-1. Pour ajouter une exécution, sélectionnez **[!UICONTROL Ajoutez une exécution ci-dessous.]** à partir de l’icône Autres actions .
+1. Pour ajouter une exécution, sélectionnez **[!UICONTROL Ajouter une exécution ci-dessous]** à partir de l’icône Plus d’actions.
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -182,7 +182,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 Pour activer une exécution, sélectionnez le bouton **[!UICONTROL Activer]**.
 
-Assurez-vous que vous avez planifié suffisamment de temps pour autoriser le [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} à exécuter.
+Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécution du traitement de [segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -194,13 +194,13 @@ Lorsque vous activez une exécution, plusieurs segments sont automatiquement cr�
 
 * Si vous activez la première exécution d’une phase :
 
-   * A [segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créé pour les audiences de campagne exclues (le cas échéant).
+   * Un [segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créé pour les audiences de campagne exclues (le cas échéant).
    * Un autre segment est créé pour les groupes de domaines exclus (le cas échéant).
 
 * Lors de l’activation d’une exécution :
 
    * Un autre segment est créé pour le dernier filtre d’engagement.
-   * Un [composition de l&#39;audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"} est créé correspondant à l’audience à laquelle la campagne sera envoyée.
+   * Une [composition d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"} est créée correspondant à l’audience à laquelle la campagne sera envoyée.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -214,7 +214,7 @@ Lorsque vous activez une exécution, plusieurs segments sont automatiquement cr�
 
 ### Diviser une phase {#split-phase}
 
-Si vous souhaitez ajouter une nouvelle phase à partir d’une exécution spécifique, sélectionnez la **[!UICONTROL Option Partager sur une nouvelle phase]** à partir de l’icône Autres actions .
+Si vous souhaitez ajouter une nouvelle phase à partir d’une exécution spécifique, sélectionnez l’**[!UICONTROL option Scinder en une nouvelle phase]** à partir de l’icône représentant Plus d’actions.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -264,7 +264,7 @@ Prenons un exemple :
 
 * Avec le plan initial de préchauffage des adresses IP, la phase 2 comportait 9 exécutions.
 
-* 4 exécutions ont été exécutées (peu importe si l’exécution a échoué, terminée ou annulée).<!--as long as a run has been attempted, it is an executed run-->).
+* 4 exécutions ont été exécutées (peu importe si elles ont échoué, ont été terminées ou annulées<!--as long as a run has been attempted, it is an executed run-->).
 
 * Si vous rechargez un plan, la phase 2 avec les 4 premières exécutions effectuées passe en mode lecture seule.
 
@@ -283,5 +283,5 @@ Une exécution peut avoir les statuts suivants :
 * **[!UICONTROL Brouillon]** : chaque fois qu’une exécution est créée, soit lors de la [création d’un plan](ip-warmup-plan.md) ou de l’[ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, son statut est **[!UICONTROL Brouillon]**.
 * **[!UICONTROL Actif]** : chaque fois que vous activez une exécution, son statut est **[!UICONTROL Actif]**.
 * **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Annulé]**: a **[!UICONTROL En direct]** L’exécution a été annulée à l’aide de la fonction **[!UICONTROL Arrêter]** ou si vous avez activé la fonction **[!UICONTROL Pause pour les erreurs]** et une erreur s’est produite. [En savoir plus](#define-runs)
+* **[!UICONTROL Annulé]** : une exécution **[!UICONTROL active]** a été annulée à l’aide du bouton **[!UICONTROL Arrêter]** ou si vous avez activé l’option **[!UICONTROL Pause pour erreurs]** et qu’une erreur s’est produite. [En savoir plus](#define-runs)
 * **[!UICONTROL Échec]** : une erreur rencontrée par le système ou la campagne utilisée pour la phase en cours a été arrêtée. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.

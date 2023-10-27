@@ -112,7 +112,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 <td>
 <img src="../../assets/do-not-localize/icon-decision.svg" width="60px">
 <div>
-<a href="../offer-activities/create-offer-activities.md">Créer des décisions</a>
+<a href="../offer-activities/create-offer-activities.md">Création de décisions</a>
 </div>
 <p>
 </td>
@@ -126,7 +126,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 <td>
 <img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px">
 <div>
-<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Attribution d'un classement</a>
+<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Attribution d’un classement</a>
 </div>
 <p>
 </td>

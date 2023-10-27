@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des e-mails
+title: Commencer avec les e-mails
 description: Découvrez comment créer un e-mail dans Journey Optimizer.
 feature: Email
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Prise en main des e-mails {#get-started-email}
+# Commencer avec les e-mails {#get-started-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
->title="Conception d&#39;emails"
->abstract="Utilisation **Adobe Journey Optimizer** pour envoyer des emails à vos clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail."
+>title="Concevoir des e-mails"
+>abstract="Utilisez **Adobe Journey Optimizer** pour envoyer des e-mails à vos clientes et clients. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail."
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des e-mails à vos client(e)s. Vous pouvez créer, personnaliser et prévisualiser des messages dans le concepteur d’e-mail.
 
@@ -46,7 +46,7 @@ Les diffusions d’e-mails peuvent être créées :
 <a href="create-email.md">
 <img alt="Créer" src="../assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="create-email.md"><strong>Créer un email</strong>
+<div><a href="create-email.md"><strong>Créer un e-mail</strong>
 </div>
 <p>
 </td>
@@ -55,7 +55,7 @@ Les diffusions d’e-mails peuvent être créées :
 <img alt="Conception" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="get-started-email-design.md"><strong>Concevoir un email</strong></a>
+<a href="get-started-email-design.md"><strong>Concevoir un e-mail</strong></a>
 </div>
 <p></td>
 <td>

@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Créer des parcours"
->abstract="Utilisation **Adobe Journey Optimizer** pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données."
+>abstract="Utilisez **Adobe Journey Optimizer** pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données."
 
 ## Conditions préalables{#start-prerequisites}
 
@@ -48,7 +48,7 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Parcours"
->abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. La variable **Présentation** affiche un tableau de bord avec des mesures clés liées à vos parcours. La variable **Parcourir** affiche la liste des parcours existants."
+>abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
 
 Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles :
 
@@ -81,7 +81,7 @@ Dans les volets de configuration des événements, des sources de données et de
 
 ![](assets/journey3bis.png)
 
-## Création de votre parcours{#jo-build}
+## Créer votre parcours{#jo-build}
 
 Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de parcours**. C&#39;est là que vous créez vos parcours. Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
 

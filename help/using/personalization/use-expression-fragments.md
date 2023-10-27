@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation de fragments d’expression
-description: Découvrez comment utiliser des fragments d’expression dans le [!DNL Journey Optimizer] Éditeur d’expression.
+title: Utiliser des fragments d’expression
+description: Découvrez comment utiliser les fragments d’expression dans l’éditeur d’expression de  [!DNL Journey Optimizer] .
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
@@ -12,31 +12,31 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-# Utilisation des fragments d’expression {#use-expression-fragments}
+# Utiliser des fragments d’expression {#use-expression-fragments}
 
-Lorsque vous utilisez l’éditeur d’expression, vous pouvez exploiter tous les fragments d’expression qui ont été créés ou enregistrés dans l’environnement de test actuel.
+Lorsque vous utilisez l’éditeur d’expression, vous pouvez utiliser tous les fragments d’expression qui ont été créés ou enregistrés dans le sandbox actuel.
 
 Découvrez comment créer et gérer des fragments dans [cette section](../content-management/fragments.md).
 
-➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo](../content-management/fragments.md#video-fragments)
+➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo.](../content-management/fragments.md#video-fragments)
 
-## Utilisation d’un fragment d’expression {#use-expression-fragment}
+## Utiliser un fragment d’expression {#use-expression-fragment}
 
-Pour ajouter des fragments d’expression à votre contenu, procédez comme suit.
+Pour ajouter des fragments d’expression à votre contenu, procédez comme suit :
 
-1. Ouvrez le [Editeur d&#39;expression](personalization-build-expressions.md) et sélectionnez la variable **[!UICONTROL Fragments]** dans le volet de gauche.
+1. Ouvrez l’[éditeur d’expression](personalization-build-expressions.md) et sélectionnez le bouton **[!UICONTROL Fragments]** dans le volet de gauche.
 
    ![](assets/expression-fragments-pane.png)
 
-   La liste affiche tous les fragments d’expression qui ont été créés ou enregistrés en tant que fragments sur l’environnement de test actuel. [En savoir plus](../content-management/fragments.md#create-expression-fragment)
+   La liste affiche tous les fragments d’expression qui ont été créés ou enregistrés en tant que fragments sur le sandbox actuel. [En savoir plus](../content-management/fragments.md#create-expression-fragment)
 
    >[!NOTE]
    >
-   >Les fragments sont triés par date de création : les fragments d’expression récemment ajoutés sont affichés en premier dans la liste.
+   >Les fragments enregistrés sont triés par date de création : les fragments d’expression récemment ajoutés s’affichent en premier dans la liste.
 
 1. Vous pouvez également actualiser la liste.
 
@@ -48,27 +48,27 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 
    ![](assets/expression-fragment-add.png)
 
-   Une fois l’identifiant du fragment ajouté, si vous ouvrez le fragment d’expression correspondant et [modifier](../content-management/fragments.md#edit-fragments) depuis l’interface , les modifications sont synchronisées. Ils sont automatiquement propagés à tous **[!UICONTROL Version préliminaire]** parcours/campagnes contenant cet identifiant de fragment.
+   Une fois l’ID du fragment ajouté, si vous ouvrez le fragment d’expression correspondant et que vous [le modifiez](../content-management/fragments.md#edit-fragments) depuis l’interface, les modifications sont synchronisées. Elles sont automatiquement propagées à toutes les **[!UICONTROL versions préliminaires]** de parcours/campagnes contenant cet ID de fragment.
 
    >[!NOTE]
    >
-   >Les modifications ne sont pas propagées au contenu utilisé dans **[!UICONTROL En direct]** parcours ou campagnes.
+   >Les modifications ne sont pas propagées au contenu utilisé dans les parcours ou campagnes **[!UICONTROL dynamiques]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Autres actions]** en regard d’un fragment.
+1. Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard d’un fragment.
 
-1. Dans le menu contextuel qui s’ouvre, sélectionnez **[!UICONTROL Afficher le fragment]** pour obtenir plus d’informations sur ce fragment. La variable **[!UICONTROL Identifiant du fragment]** s’affiche également et peut être copié à partir de cet emplacement.
+1. Dans le menu contextuel qui s’ouvre, sélectionnez **[!UICONTROL Afficher le fragment]** pour obtenir plus d’informations sur ce fragment. L’**[!UICONTROL ID du fragment]** s’affiche également et peut être copié à partir de cet emplacement.
 
    ![](assets/expression-fragment-view.png)
 
-1. Vous pouvez ouvrir le fragment d’expression dans une autre fenêtre pour modifier son contenu et ses propriétés, à l’aide de la fonction **[!UICONTROL Ouvrir le fragment]** dans le menu contextuel ou à partir de l’ **[!UICONTROL Informations sur le fragment]** volet. [Découvrez comment modifier un fragment](../content-management/fragments.md#edit-fragments)
+1. Vous pouvez ouvrir le fragment d’expression dans une autre fenêtre pour modifier son contenu et ses propriétés, à l’aide de l’option **[!UICONTROL Ouvrir le fragment]** dans le menu contextuel ou à partir du volet **[!UICONTROL Informations sur le fragment]**. [En savoir plus sur la modification d’un fragment](../content-management/fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
-1. Vous pouvez ensuite personnaliser et valider votre contenu comme vous le faites habituellement à l’aide de toutes les fonctionnalités de personnalisation et de création de [Editeur d&#39;expression](personalization-build-expressions.md).
+1. Vous pouvez ensuite personnaliser et valider votre contenu comme vous le faites habituellement à l’aide de toutes les fonctionnalités de personnalisation et de création de l’[éditeur d’expression](personalization-build-expressions.md).
 
 >[!NOTE]
 >
->Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans [SMS](../sms/create-sms.md#sms-content) ou [push](../push/design-push.md) , les sauts de ligne sont conservés. Veillez donc à tester vos [SMS](../sms/send-sms.md) ou [push](../push/send-push.md) avant de l’envoyer.
+>Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans un contenu [SMS](../sms/create-sms.md#sms-content) ou [notification push](../push/design-push.md), les sauts de ligne sont conservés. Veillez donc à tester votre [SMS](../sms/send-sms.md) ou [notification push](../push/send-push.md) avant de l’envoyer.
 
 ## Rompre l’héritage {#break-inheritance}
 

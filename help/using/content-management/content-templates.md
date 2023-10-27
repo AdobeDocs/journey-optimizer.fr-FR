@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le 
 
 >[!NOTE]
 >
->Actuellement, seule la variable **email** les modèles de contenu sont pris en charge.
+>Actuellement, seuls les modèles de contenu d’**e-mail** sont pris en charge.
 
 Par exemple, un utilisateur ou une utilisatrice de votre société est responsable du contenu uniquement et n’a donc pas accès aux campagnes ou aux parcours. Cependant, cet utilisateur ou cette utilisatrice peut créer un modèle d‘email que les responsables marketing de votre organisation pourront sélectionner pour une utilisation dans tous les e-mails comme point de départ.
 

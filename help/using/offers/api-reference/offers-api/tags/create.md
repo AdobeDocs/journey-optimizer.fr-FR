@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Vous pouvez créer un qualificateur de collection (auparavant appelé « balise ») en exécutant une requête POST sur l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

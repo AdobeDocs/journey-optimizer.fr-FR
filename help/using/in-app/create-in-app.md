@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1987'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
->title="Gestion des Triggers In-App"
->abstract="Contrôlez efficacement vos déclencheurs en sélectionnant les événements et critères spécifiques qui activeront vos messages. Avec le créateur de règles, les utilisateurs peuvent définir des conditions et des valeurs précises. Lorsque ces conditions sont remplies, elles déclenchent une série d’actions, y compris la diffusion de messages in-app."
+>title="Gérer des déclencheurs in-app"
+>abstract="Contrôlez efficacement vos déclencheurs en sélectionnant les événements et critères spécifiques qui activeront vos messages. Avec le créateur de règles, les personnes peuvent définir des conditions et des valeurs précises. Lorsque ces conditions sont remplies, elles déclenchent une série d’actions, y compris la diffusion de messages in-app."
 
 Vous pouvez ajouter un message in-app dans une campagne ou dans un parcours. Suivez les étapes détaillées ci-dessous pour créer un message in-app dans les deux contextes.
 

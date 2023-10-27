@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -64,9 +64,9 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
 
       * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS.  [En savoir plus](https://developers.sinch.com/docs/sms/getting-started/).{target="_blank"}.
 
-      * **[!UICONTROL Message d’inclusion]**: saisissez la réponse personnalisée automatiquement envoyée en tant que **[!UICONTROL Message d’inclusion]**.
+      * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
 
-      * **[!UICONTROL Message d’aide]**: saisissez la réponse personnalisée automatiquement envoyée en tant que **Message d’aide**.
+      * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
 
    * Pour **[!DNL Sinch MMS]** :
 

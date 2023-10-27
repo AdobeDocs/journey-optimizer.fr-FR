@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personnalisation du contenu dans Journey Optimizer
-description: Prise en main de la personnalisation.
+description: Commencer avec la personnalisation.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -12,16 +12,16 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la personnalisation{#add-personalization}
+# Commencer avec la personnalisation{#add-personalization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
->title="Personnalisation des expériences"
->abstract="Utilisation **Adobe Journey Optimizer** pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous disposez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêt, de son lieu de vie, de ce qu’il a acheté, etc."
+>title="Personnaliser des expériences"
+>abstract="Utilisez **Adobe Journey Optimizer** pour adapter vos messages à chaque personne destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêt, de son lieu de vie, de ce qu’il a acheté, etc."
 
 
 Découvrez les fonctionnalités de personnalisation de [!DNL Adobe Journey Optimizer] pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêt, de son lieu de vie, de ce qu’il a acheté, etc.
@@ -38,7 +38,7 @@ Découvrez les fonctionnalités de personnalisation de [!DNL Adobe Journey Optim
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Lors du traitement du message (email et push), Journey Optimizer remplace l&#39;expression par les données contenues dans la base de données Experience Platform :  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` devient &quot;Bonjour John Doe&quot;.
+Lors du traitement du message (e-mail et notification push), Journey Optimizer remplace l’expression par les données contenues dans la base de données Experience Platform : `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` devient « Bonjour, Jean Dupont ».
 
 ## Utiliser les données de profil pour personnaliser les messages {#data}
 

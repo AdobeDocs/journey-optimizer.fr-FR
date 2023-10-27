@@ -12,7 +12,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ La liste des règles de décision est accessible dans le menu **[!UICONTROL Conf
 >
 >Pour l’instant, les règles de décision sont gérées à l’aide du menu **Gestion des décisions** de Journey Optimizer. Par conséquent, la liste **[!UICONTROL Règles de décision]** dans la prise de décision basée sur l’expérience englobe les règles créées à partir des menus **[!UICONTROL Gestion des décisions]** ou **[!UICONTROL Prise de décision basée sur l’expérience]** de Journey Optimizer.
 
-Pour créer une règle, procédez comme suit :
+Pour créer une règle, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Configuration]**/**[!UICONTROL Règles de décision]**.
 1. L’interface utilisateur de la gestion des décisions de Journey Optimizer s’affiche dans la zone centrale. Suivez les étapes présentées dans la [documentation sur la gestion des décisions](../offers/offer-library/creating-decision-rules.md) pour créer votre règle en fonction de vos besoins.

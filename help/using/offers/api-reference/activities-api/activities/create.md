@@ -9,7 +9,7 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 Vous pouvez créer une décision en adressant une requête POST à l’API [!DNL Offer Library].
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son unique `id`. Vous pouvez utiliser la variable `id` lors des étapes suivantes pour mettre à jour ou supprimer votre décision.
+Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son `id` unique. Vous pouvez utiliser l’`id` dans les étapes suivantes pour mettre à jour ou supprimer votre décision.
 
 ```json
 {

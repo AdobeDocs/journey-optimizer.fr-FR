@@ -19,7 +19,7 @@ Vous pouvez modifier ou mettre à jour une décision dans votre conteneur en ex�
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

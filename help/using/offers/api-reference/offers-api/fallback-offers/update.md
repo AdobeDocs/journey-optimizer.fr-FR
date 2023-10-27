@@ -9,7 +9,7 @@ exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez modifier ou mettre à jour une offre de secours dans votre conteneur
 
 Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

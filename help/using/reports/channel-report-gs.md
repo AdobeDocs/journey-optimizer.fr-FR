@@ -11,7 +11,7 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour attribuer l’autorisation correspondante à votre **[!UICONTROL rôle]** 
 
    ![](assets/channel_permission_1.png)
 
-1. Faites glisser et déposez le **[!UICONTROL Rapports]** ressource pour attribuer une autorisation.
+1. Faites glisser et déposez la ressource **[!UICONTROL Rapports]** pour attribuer une autorisation.
 
    Dans le menu déroulant des ressources du **[!UICONTROL Rapport]**, sélectionnez l’autorisation **[!UICONTROL Afficher les rapports sur les canaux]**.
 

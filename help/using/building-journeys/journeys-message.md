@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Activité Message"
->abstract="Journey Optimizer est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter une activité de message push, SMS, in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
+>abstract="Journey Optimizer est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter une activité de message push, SMS, in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
 [!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter une activité de message push, SMS, in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 

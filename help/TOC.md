@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 94%
          + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
 + Campagnes{#campaigns}
-   + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
+   + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Création d’une campagne](using/campaigns/create-campaign.md)
    + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
@@ -185,7 +185,7 @@ ht-degree: 94%
          + [Utiliser des modèles d’e-mail](using/email/use-email-templates.md)
       + Concevoir votre contenu {#add-content}
          + [Utiliser des composants de contenu](using/email/content-components.md)
-         + [Utilisation des fragments visuels](using/email/use-visual-fragments.md)
+         + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
          + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
          + [Insérer des offres personnalisées](using/email/add-offers-email.md)
          + [Génération de la version texte](using/email/text-version-email.md)
@@ -230,7 +230,7 @@ ht-degree: 94%
    + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
 + Canal web {#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
-   + Configuration du canal web {#configure-web-channel}
+   + Configurer le canal web {#configure-web-channel}
       + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
       + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
    + [Créer des expériences web](using/web/create-web.md)
@@ -262,8 +262,8 @@ ht-degree: 94%
       + [Commencer avec l’assistant de contenu](using/content-management/gs-generative.md)
       + [Génération de contenu](using/content-management/generative-content.md)
       + [Génération d’images](using/content-management/generative-image.md)
-   + Utilisation de contenu multilingue{#content-multilingual}
-      + [Prise en main du contenu multilingue](using/content-management/multilingual-gs.md)
+   + Utiliser du contenu multilingue{#content-multilingual}
+      + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
       + [Rapport de campagne multilingue](using/content-management/multilingual-report.md)
@@ -271,13 +271,13 @@ ht-degree: 94%
       + [Utiliser Assets Essentials](using/content-management/assets-essentials.md)
       + [Utilisation d’Adobe Stock](using/content-management/stock.md)
    + Personnalisation {#personalization}
-      + [Prise en main de la personnalisation](using/personalization/personalize.md)
+      + [Commencer avec la personnalisation](using/personalization/personalize.md)
       + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + Utilisation de l’éditeur d’expression {#expression-editor}
          + [À propos de l’éditeur d’expression](using/personalization/personalization-build-expressions.md)
          + [Ajout d’attributs aux favoris](using/personalization/personalization-favorites.md)
-         + [Utilisation de fragments d’expression](using/personalization/use-expression-fragments.md)
+         + [Utiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
       + Fonctions helper{#functions}
          + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
@@ -294,7 +294,7 @@ ht-degree: 94%
       + Cas d’utilisation de la personnalisation{#personalization-use-cases}
          + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
-   + Gestion du contenu réutilisable {#reusable-content}
+   + Gérer du contenu réutilisable {#reusable-content}
       + [Utiliser des modèles de contenu d’e-mail](using/content-management/content-templates.md)
       + [Utiliser les fragments](using/content-management/fragments.md)
    + Contenu dynamique {#dynamic}

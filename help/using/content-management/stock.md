@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Prise en main d’[!DNL Adobe Stock] {#get-started-stock}
 
-Le plug-in d’intégration d’[!DNL Adobe Stock] et du Concepteur d’e-mail [!DNL Adobe Journey Optimizer] fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages.
+Le plug-in d’intégration d’[!DNL Adobe Stock] et du concepteur d’e-mail [!DNL Adobe Journey Optimizer] fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages.
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} permet d’accéder à des millions de photos, vidéos, illustrations et graphiques vectoriels de qualité supérieure, organisés et libres de droits. Vous pouvez choisir d’acheter un pack de crédits pour acquérir des ressources sous licence ou d’acheter uniquement une licence Standard ou Étendue pour la ressource nécessaire. Adobe Stock fournit également une collection gratuite de ressources.
 
@@ -36,9 +36,9 @@ Pour en savoir plus à ce sujet, consultez la [documentation Assets Essentials](
 
 Pour ajouter des images à votre contenu depuis [!DNL Adobe Stock], procédez comme suit :
 
-1. Dans la section **[!UICONTROL Composants de contenu]** du Concepteur d’e-mail, effectuez un glisser-déposer d’une **Image**.
+1. Dans la section **[!UICONTROL Composants de contenu]** du concepteur d’e-mail, effectuez un glisser-déposer d’une **Image**.
 
-1. Cliquez sur le bouton **[!UICONTROL Trouver des photos Adobe Stock]** sur le côté gauche du Concepteur d’e-mail.
+1. Cliquez sur le bouton **[!UICONTROL Trouver des photos Adobe Stock]** sur le côté gauche du concepteur d’e-mail.
 
    ![](assets/stock-find-photos.png)
 

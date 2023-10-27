@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation de fragments visuels
-description: Découvrez comment utiliser des fragments visuels lors de la création d’emails dans des campagnes et des parcours Journey Optimizer
+title: Utiliser des fragments visuels
+description: Découvrez comment utiliser des fragments visuels lors de la création d’e-mails dans des campagnes et des parcours Journey Optimizer.
 feature: Email Design, Fragments
 topic: Content Management
 role: User
@@ -11,29 +11,29 @@ exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# Ajout de fragments visuels à vos emails {#use-visual-fragments}
+# Ajouter des fragments visuels à vos e-mails {#use-visual-fragments}
 
-Vous pouvez utiliser un fragment visuel dans une [email](get-started-email-design.md) dans un parcours ou une campagne, ou dans un [modèle de contenu](../content-management/content-templates.md).
+Vous pouvez utiliser un fragment visuel dans un [e-mail](get-started-email-design.md) au sein d’un parcours, d’une campagne, ou d’un [modèle de contenu](../content-management/content-templates.md).
 
 >[!NOTE]
 >
 >Découvrez comment créer et gérer des fragments dans [cette section](../content-management/fragments.md).
 
-➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo](../content-management/fragments.md#video-fragments)
+➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo.](../content-management/fragments.md#video-fragments)
 
-## Utilisation d’un fragment {#use-fragment}
+## Utiliser un fragment {#use-fragment}
 
-1. Ouvrez le contenu d’un e-mail ou d’un modèle à l’aide du [Concepteur d’e-mail](get-started-email-design.md).
+1. Ouvrez le contenu d’un e-mail ou d’un modèle à l’aide du [concepteur d’e-mail](get-started-email-design.md).
 
 1. Sélectionnez l’icône **[!UICONTROL Fragments]** dans le rail de gauche.
 
    ![](assets/fragments-in-designer.png)
 
-1. La liste de tous les fragments visuels créés sur l’environnement de test actuel s’affiche. Vous pouvez :
+1. La liste de tous les fragments visuels créés dans le sandbox actuel s’affiche. Vous pouvez :
 
    * Rechercher un fragment spécifique en commençant à saisir son libellé.
    * Trier les fragments par ordre croissant ou décroissant.
@@ -41,7 +41,7 @@ Vous pouvez utiliser un fragment visuel dans une [email](get-started-email-desig
 
    >[!NOTE]
    >
-   >Les fragments sont triés par date de création : les fragments visuels récemment ajoutés sont affichés en premier dans la liste.
+   >Les fragments sont triés par date de création : les fragments visuels récemment ajoutés sont affichés en premier dans la liste.
 
 1. Vous pouvez rechercher et actualiser la liste.
 

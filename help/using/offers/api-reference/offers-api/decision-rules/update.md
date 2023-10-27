@@ -9,7 +9,7 @@ exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez modifier ou mettre à jour des règles de décision en adressant une
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la règle de décision, y compris sa règle de décision unique. `id`.
+Une réponse réussie renvoie les détails mis à jour de la règle de décision, y compris son `id` de règle de décision.
 
 ```json
 {

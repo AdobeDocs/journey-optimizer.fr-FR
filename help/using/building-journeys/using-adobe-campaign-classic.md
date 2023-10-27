@@ -16,12 +16,12 @@ ht-degree: 100%
 
 ---
 
-# Actions d&#39;Adobe Campaign v7/v8 {#using_campaign_classic}
+# Actions d’Adobe Campaign v7/v8 {#using_campaign_classic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="Actions personnalisées"
->abstract="Une intégration est disponible si vous disposez d’Adobe Campaign v7 ou v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign."
+>abstract="Une intégration est disponible si vous disposez d’Adobe Campaign v7 ou v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign."
 
 Une intégration est disponible si vous disposez d&#39;Adobe Campaign v7 ou v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign.
 

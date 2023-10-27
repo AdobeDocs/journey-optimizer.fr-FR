@@ -30,9 +30,9 @@ Lorsque vous créez un e-mail, vous pouvez ajouter une personnalisation dans le 
 
 ![](assets/perso_subject.png)
 
-Dans le Concepteur d&#39;email, vous pouvez personnaliser le contenu :
+Dans le concepteur d’e-mail, vous pouvez personnaliser le contenu :
 
-* Dans le **message** : cliquez à l’intérieur d’un bloc de texte, puis cliquez sur le bouton **Ajouter une personnalisation** dans la barre d’outils contextuelle. Pour plus d&#39;informations sur l&#39;interface du Concepteur d&#39;email, reportez-vous à [cette section](../email/get-started-email-design.md).
+* Dans le **message** : cliquez à l’intérieur d’un bloc de texte, puis cliquez sur le bouton **Ajouter une personnalisation** dans la barre d’outils contextuelle. Pour plus d’informations sur l’interface du concepteur d’e-mail, reportez-vous à [cette section](../email/get-started-email-design.md).
 
   ![](assets/perso_insert.png)
 

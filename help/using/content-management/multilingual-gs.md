@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main du contenu multilingue
-description: En savoir plus sur le contenu multilingue dans Journey Optimizer
+title: Commencer avec le contenu multilingue
+description: En savoir plus sur le contenu multilingue dans Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -13,24 +13,24 @@ hidefromtoc: true
 source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 8%
+ht-degree: 59%
 
 ---
 
-# Prise en main du contenu multilingue {#multilingual-gs}
+# Commencer avec le contenu multilingue {#multilingual-gs}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* **[Prise en main du contenu multilingue](multilingual-gs.md)**
+* **[Commencer avec le contenu multilingue](multilingual-gs.md)**
 * [Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)
 * [Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)
 * [Rapport de campagne multilingue](multilingual-report.md)
 
 >[!ENDSHADEBOX]
 
-La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une seule campagne. Grâce à cette fonctionnalité, vous pouvez basculer entre les langues lors de la modification de votre campagne, ce qui rationalise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement le contenu multilingue.
+La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une seule campagne. Grâce à cette fonctionnalité, vous pouvez passer d’une langue à une autre lors de la modification de votre campagne, ce qui optimise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement du contenu multilingue.
 
 Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilingue par le biais de deux méthodes distinctes :
 

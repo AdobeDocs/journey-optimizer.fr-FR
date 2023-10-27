@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 53%
+ht-degree: 98%
 
 ---
 
@@ -19,33 +19,33 @@ ht-degree: 53%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Définition de vos propres fragments"
+>title="Définir vos propres fragments"
 >abstract="Créez et gérez des fragments autonomes pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Créer des fragments"
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes et parcours [!DNL Journey Optimizer].
 
-Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement les contenus d’email dans un processus de conception amélioré.
+Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par des personnes chargées du marketing pour assembler rapidement les contenus d’e-mail dans un processus de conception amélioré.
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [Découvrez comment gérer, créer et utiliser des fragments dans ces vidéos](#video-fragments)
+➡️ [Découvrez comment gérer, créer et utiliser des fragments dans ces vidéos.](#video-fragments)
 
 Pour optimiser l’utilisation des fragments :
 
 * Créez vos propres fragments. Vous pouvez créer des fragments visuels ou des fragments d’expression. [En savoir plus](#create-fragments)
 
-* Utilisez-les autant de fois que nécessaire dans votre contenu. Voir [Ajout de fragments visuels](../email/use-visual-fragments.md) et [Utilisation des fragments d’expression](../personalization/use-expression-fragments.md)
+* Utilisez-les autant de fois que nécessaire dans votre contenu. Voir [Ajouter des fragments visuels](../email/use-visual-fragments.md) et [Utiliser des fragments d’expression](../personalization/use-expression-fragments.md)
 
 ## Avant de commencer {#fragment-prerequisites}
 
-Pour créer, modifier et archiver des fragments, vous devez disposer de la variable **[!DNL Manage Library Items]** autorisation incluse dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
+Pour créer, modifier et archiver des fragments, vous devez disposer de l’autorisation **[!DNL Manage Library Items]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 
-Dans cette version, les restrictions suivantes s’appliquent :
+Dans cette version, les restrictions suivantes s’appliquent :
 
-* Les fragments visuels ne sont disponibles que pour le canal Email.
+* Les fragments visuels ne sont disponibles que pour le canal E-mail.
 
-* Les fragments d&#39;expression ne sont pas disponibles pour les canaux web et in-app
+* Les fragments d’expression ne sont pas disponibles pour les canaux Web et In-app.
 
 ## Accéder aux fragments et les gérer {#access-manage-fragments}
 
@@ -53,31 +53,31 @@ Pour accéder à la liste des fragments, sélectionnez **[!UICONTROL Gestion de 
 
 ![](assets/fragment-list.png)
 
-Tous les fragments créés sur l’environnement de test actuel, soit [de la **[!UICONTROL Fragments]** menu](#create-fragments), soit en utilisant la variable [Enregistrer en tant que fragment](#save-as-fragment) option : s’affichent.
+Tous les fragments qui ont été créés sur le sandbox actuel, soit [à partir du menu **[!UICONTROL Fragments]**](#create-fragments), soit à l’aide de l’option [Enregistrer en tant que fragment](#save-as-fragment), s’affichent.
 
-Vous pouvez filtrer les fragments selon leur emplacement :
+Vous pouvez filtrer les fragments selon leur :
 
-* Type : **[!UICONTROL Visuel]** ou **[!UICONTROL Expression]**
+* Type : **[!UICONTROL visuel]** ou d’**[!UICONTROL expression]**
 * Balises
 * Date de création ou de modification
 
-Vous pouvez choisir d’afficher tous les fragments ou uniquement les éléments créés ou modifiés par l’utilisateur ou l’utilisatrice actuel(le).
+Vous pouvez choisir d’afficher tous les fragments ou uniquement les éléments créés ou modifiés par la personne actuelle.
 
 Vous pouvez également afficher les fragments **[!UICONTROL archivés]**. [En savoir plus](#archive-fragments).
 
 ![](assets/fragment-list-filters.png)
 
-Dans la **[!UICONTROL Autres actions]** en regard de chaque fragment, vous pouvez effectuer les opérations suivantes :
+Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque fragment pour effectuer les opérations suivantes :
 
 * Dupliquer un fragment.
 
 * Utilisez l’option **[!UICONTROL Explorer les références]** pour afficher les parcours, les campagnes ou les modèles dans lesquels ils sont utilisés. [En savoir plus](#explore-references).
 
-* Copiez un fragment dans un autre environnement de test. <!--Learn more?-->
+* Copier un parcours dans un autre sandbox. <!--Learn more?-->
 
 * Archiver un fragment. [En savoir plus](#archive-fragments).
 
-* Modifier le de [tags](../start/search-filter-categorize.md#tags).
+* Modifier les [balises](../start/search-filter-categorize.md#tags) d’un fragment.
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -85,7 +85,7 @@ Dans la **[!UICONTROL Autres actions]** en regard de chaque fragment, vous pouve
 
 Pour modifier un fragment, procédez comme suit.
 
-1. Cliquez sur l’élément de votre choix dans la **[!UICONTROL Fragments]** liste.
+1. Cliquez sur l’élément de votre choix dans la liste **[!UICONTROL Fragments]**.
 1. À partir des propriétés du fragment, vous pouvez [explorer les références](#explore-references), [gérer son accès](../administration/object-based-access.md) et mettre à jour les détails du fragment, y compris les [balises](../start/search-filter-categorize.md#tags).
 
    ![](../email/assets/fragment-edit-content.png)
@@ -94,7 +94,7 @@ Pour modifier un fragment, procédez comme suit.
 
 >[!NOTE]
 >
->Lorsque vous modifiez un fragment, les modifications sont automatiquement propagées à tout le contenu utilisant ce fragment, à l’exception du contenu utilisé dans **[!UICONTROL En direct]** parcours ou campagnes. Vous pouvez également rompre l’héritage du fragment d’origine. En savoir plus dans la section [Ajout de fragments visuels à vos emails](../email/use-visual-fragments.md#break-inheritance) et [Utilisation des fragments d’expression](../personalization/use-expression-fragments.md#break-inheritance) sections.
+>Lorsque vous modifiez un fragment, les modifications sont automatiquement propagées à tous les contenus à l’aide de ce fragment, à l’exception du contenu utilisé dans les parcours ou campagnes **[!UICONTROL dynamiques]**. Vous pouvez également rompre l’héritage du fragment d’origine. En savoir plus dans les sections [Ajouter des fragments visuels à vos e-mails](../email/use-visual-fragments.md#break-inheritance) et [Utiliser des fragments d’expression](../personalization/use-expression-fragments.md#break-inheritance).
 
 ### Explorer les références {#explore-references}
 
@@ -116,7 +116,7 @@ Sélectionnez un onglet pour basculer entre les parcours, les campagnes, les mod
 
 Vous pouvez supprimer de la liste des fragments des éléments qui ne sont plus pertinents pour votre marque.
 
-Pour ce faire, cliquez sur le bouton **[!UICONTROL Autres actions]** en regard du fragment souhaité et sélectionnez **[!UICONTROL Archiver]**. Il disparaîtra de la liste des fragments, ce qui empêche leur utilisation dans les futurs e-mails ou modèles.
+Pour ce faire, cliquez sur l’icône **[!UICONTROL Plus d’actions]** en regard du fragment souhaité, puis sélectionnez **[!UICONTROL Archiver]**. Il disparaîtra de la liste des fragments, ce qui empêche leur utilisation dans les futurs e-mails ou modèles.
 
 ![](assets/fragment-list-archive.png)
 
@@ -136,7 +136,7 @@ Vous pouvez créer des fragments de deux manières :
 
 * Lors de la conception de contenu, enregistrez une partie de votre contenu en tant que fragment. [Voici comment procéder.](#save-as-fragment)
 
-Une fois enregistré, votre fragment peut être utilisé dans un parcours, une campagne ou un modèle. Qu’il soit créé à partir de zéro ou d’un contenu existant, vous pouvez désormais utiliser ce fragment lors de la création de tout contenu dans [!DNL Journey Optimizer]. Voir [Ajout de fragments visuels](../email/use-visual-fragments.md) et [Utilisation des fragments d’expression](../personalization/use-expression-fragments.md)
+Une fois enregistré, votre fragment peut être utilisé dans un parcours, une campagne ou un modèle. Que ce fragment soit créé à partir de zéro ou à partir d’un contenu existant, vous pouvez désormais l’utiliser lors de la création d’un contenu dans [!DNL Journey Optimizer]. Voir [Ajouter des fragments visuels](../email/use-visual-fragments.md) et [Utiliser des fragments d’expression](../personalization/use-expression-fragments.md)
 
 ### Créer à partir de zéro {#create-from-scratch}
 
@@ -150,7 +150,7 @@ Pour créer un fragment à partir de zéro, procédez comme suit.
 
    ![](assets/fragment-details.png)
 
-1. Sélectionnez le type de fragment : [Fragment visuel](#create-visual-fragment) ou [Fragment d’expression](#create-expression-fragment).
+1. Sélectionnez le type de fragment : [Fragment visuel](#create-visual-fragment) ou [Fragment d’expression](#create-expression-fragment).
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
@@ -158,19 +158,19 @@ Pour créer un fragment à partir de zéro, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-### Création d’un fragment visuel {#create-visual-fragment}
+### Créer un fragment visuel {#create-visual-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Sélection du type visuel"
->abstract="Créez un fragment visuel autonome pour rendre votre contenu réutilisable dans un email au sein d’un parcours ou d’une campagne, ou dans un modèle de contenu."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Ajout de fragments visuels à vos emails"
+>title="Sélectionner le type Visuel"
+>abstract="Créez un fragment visuel autonome pour rendre votre contenu réutilisable dans un e-mail au sein d’un parcours ou d’une campagne, ou dans un modèle de contenu."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=fr" text="Ajouter des fragments visuels à vos e-mails"
 
-1. [Création d’un fragment](#create-from-scratch) de la **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]** dans le menu de gauche, puis sélectionnez **[!UICONTROL Fragment visuel]** type.
+1. [Créez un fragment](#create-from-scratch) depuis le menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**, puis sélectionnez le type **[!UICONTROL Fragment visuel]**.
 
    >[!NOTE]
    >
-   >Actuellement, pour les fragments visuels uniquement, la variable **Email** channel est pris en charge.
+   >Actuellement, seul le canal **E-mail** est pris en charge pour les fragments visuels.
 
 1. Le [concepteur d’e-mail](../email/get-started-email-design.md) s’affiche. Modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail contenu dans un parcours ou une campagne.
 
@@ -180,7 +180,7 @@ Pour créer un fragment à partir de zéro, procédez comme suit.
 
    ![](assets/fragment-designer.png)
 
-1. Une fois votre fragment prêt, cliquez sur **[!UICONTROL Enregistrer]**. Il est ajouté à la variable [liste de fragments](#access-manage-fragments).
+1. Une fois votre fragment prêt, cliquez sur **[!UICONTROL Enregistrer]**. Il est ajouté à la [liste de fragments](#access-manage-fragments).
 
 1. Si nécessaire, cliquez sur la flèche en regard du nom du fragment pour revenir à l’écran **[!UICONTROL Détails]** et le modifier.
 
@@ -192,13 +192,13 @@ Ce fragment est maintenant prêt à être utilisé lors de la création d’un [
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
->title="Sélectionner le type d’expression"
->abstract="Créez un fragment d’expression autonome pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes. Lorsque vous utilisez l’éditeur d’expression, vous pouvez exploiter tous les fragments d’expression créés sur l’environnement de test actuel."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Utilisation des fragments d’expression"
+>title="Sélectionner le type Expression"
+>abstract="Créez un fragment d’expression autonome à partir de zéro pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes. Lorsque vous utilisez l’éditeur d’expression, vous pouvez utiliser tous les fragments d’expression qui ont été créés dans le sandbox actuel."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Utiliser des fragments d’expression"
 
-1. [Création d’un fragment](#create-from-scratch) de la **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]** dans le menu de gauche, puis sélectionnez **[!UICONTROL Fragment d’expression]** type.
+1. [Créez un fragment](#create-from-scratch) depuis le menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**, puis sélectionnez le type **[!UICONTROL Fragment d’expression]**.
 
-1. Sélectionnez le type de code à utiliser : **[!UICONTROL HTML]**, **[!UICONTROL JSON]** ou **[!UICONTROL Texte]**.
+1. Sélectionnez le type de code à utiliser : **[!UICONTROL HTML]**, **[!UICONTROL JSON]** ou **[!UICONTROL Texte]**.
 
    ![](assets/fragment-expression-type.png)
 
@@ -210,11 +210,11 @@ Ce fragment est maintenant prêt à être utilisé lors de la création d’un [
 
    ![](assets/fragment-expression-editor.png)
 
-1. Une fois votre fragment prêt, cliquez sur **[!UICONTROL Enregistrer]**. Il est ajouté à la variable [liste de fragments](#access-manage-fragments).
+1. Une fois votre fragment prêt, cliquez sur **[!UICONTROL Enregistrer]**. Il est ajouté à la [liste de fragments](#access-manage-fragments).
 
 1. Si nécessaire, cliquez sur la flèche en regard du nom du fragment pour revenir à l’écran **[!UICONTROL Détails]** et le modifier.
 
-Ce fragment est maintenant prêt à être utilisé lors de la création d’un contenu dans le [!DNL Journey Optimizer] Éditeur d’expression. [Voici comment procéder.](../personalization/use-expression-fragments.md)
+Ce fragment est maintenant prêt à être utilisé lors de la création d’un contenu dans l’éditeur d’expression [!DNL Journey Optimizer]. [Voici comment procéder.](../personalization/use-expression-fragments.md)
 
 ## Enregistrer en tant que fragment {#save-as-fragment}
 
@@ -222,7 +222,7 @@ Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez en
 
 ### Enregistrer en tant que fragment visuel {#save-as-visual-fragment}
 
-Lors de la conception d’une [modèle de contenu](content-templates.md) ou [email](../email/get-started-email-design.md) dans une campagne ou un parcours, vous pouvez enregistrer une partie de votre contenu en tant que fragment visuel. Pour ce faire, suivez les étapes ci-après.
+Lors de la conception d’un [modèle de contenu](content-templates.md) ou d’un [e-mail](../email/get-started-email-design.md) dans une campagne ou un parcours, vous pouvez enregistrer une partie de votre contenu en tant que fragment visuel. Pour ce faire, suivez les étapes ci-après.
 
 1. Dans le [concepteur d’e-mail](../email/get-started-email-design.md), cliquez sur les points de suspension en haut à droite de l’écran.
 
@@ -244,7 +244,7 @@ Lors de la conception d’une [modèle de contenu](content-templates.md) ou [ema
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
-1. Cliquez de nouveau sur **[!UICONTROL Créer]**. Le fragment est enregistré dans ajouté à la fonction [liste de fragments](#access-manage-fragments), accessible à partir du [!DNL Journey Optimizer] menu dédié.
+1. Cliquez de nouveau sur **[!UICONTROL Créer]**. Le fragment est enregistré dans la [liste de fragments](#access-manage-fragments), accessible à partir du menu dédié [!DNL Journey Optimizer].
 
    Il devient alors un modèle de contenu autonome [accessible](#access-manage-fragments) pouvant être [édité](#edit-fragments) et [archivé](#archive-fragments) comme tout autre élément de cette liste.
 
@@ -259,15 +259,15 @@ Ce fragment est maintenant prêt à être utilisé lors de la création d’un [
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Enregistrer en tant que fragment d’expression"
->abstract="La variable [!DNL Journey Optimizer] L&#39;éditeur d&#39;expression permet d&#39;enregistrer le contenu en tant que fragments d&#39;expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé."
+>abstract="L’éditeur d’expression [!DNL Journey Optimizer] vous permet d’enregistrer le contenu en tant que fragments d’expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé."
 
-La variable [!DNL Journey Optimizer] L&#39;éditeur d&#39;expression permet d&#39;enregistrer le contenu en tant que fragments d&#39;expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé.
+L’éditeur d’expression [!DNL Journey Optimizer] vous permet d’enregistrer le contenu en tant que fragments d’expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé.
 
 Pour enregistrer du contenu en tant que fragment d’expression, procédez comme suit.
 
-1. Dans le [Editeur d&#39;expression](../personalization/personalization-build-expressions.md) , créez une expression, puis cliquez sur **[!UICONTROL Enregistrer en tant que fragment]**.
+1. Dans l’interface de l’[éditeur d’expression](../personalization/personalization-build-expressions.md), créez une expression, puis cliquez sur **[!UICONTROL Enregistrer en tant que fragment]**.
 
-1. Dans le volet de droite, saisissez un nom et une description pour l’expression afin d’aider les utilisateurs à la trouver plus facilement.
+1. Dans le volet de droite, saisissez un nom et une description pour l’expression afin d’aider les personnes à la trouver plus facilement.
 
    ![](assets/expression-fragment-save-as.png)
 
@@ -275,7 +275,7 @@ Pour enregistrer du contenu en tant que fragment d’expression, procédez comme
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Le fragment d’expression est ajouté au [liste de fragments](#access-manage-fragments). Vous pouvez désormais l’utiliser pour créer du contenu personnalisé.
+1. Le fragment d’expression est ajouté à la [liste de fragments](#access-manage-fragments). Vous pouvez désormais l’utiliser pour créer du contenu personnalisé.
 
 >[!NOTE]
 >

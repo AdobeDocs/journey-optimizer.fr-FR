@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="Sélection de l’audience de l’opération"
->abstract="Cette liste affiche toutes les audiences Adobe Experience Platform disponibles. Sélectionnez l&#39;audience à cibler avec votre campagne. Le message paramétré dans l&#39;opération sera envoyé à tous les individus appartenant à l&#39;audience sélectionnée. [En savoir plus sur les audiences](../audience/about-audiences.md)."
+>title="Sélectionner l’audience de la campagne"
+>abstract="Cette liste affiche toutes les audiences Adobe Experience Platform disponibles. Sélectionnez l’audience à cibler avec votre campagne. Le message configuré dans l’opération sera envoyé à toutes les personnes appartenant à l’audience sélectionnée. [En savoir plus sur les audiences](../audience/about-audiences.md)."
 
 [!DNL Journey Optimizer] vous permet de créer d’utiliser des audiences Adobe Experience Platform à l’aide des données de profil client en temps réel directement à partir du menu **[!UICONTROL Audiences]** et de les utiliser dans vos parcours ou campagnes.
 

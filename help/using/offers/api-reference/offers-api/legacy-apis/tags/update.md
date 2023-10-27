@@ -9,7 +9,7 @@ exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez modifier ou mettre à jour un qualificateur de collection (auparavan
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
@@ -34,7 +34,8 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| Paramètre | Description | Exemple | | `{ENDPOINT_PATH}` | Chemin d’accès du point de terminaison des API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
+  Paramètre   Description   Exemple  
+  `{ENDPOINT_PATH}`   Chemin d’accès du point d’entrée des API du référentiel. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Conteneur où se trouvent les balises. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | ID d’instance de la balise que vous souhaitez mettre à jour. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 

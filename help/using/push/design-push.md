@@ -11,13 +11,13 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Configurer une notification push {#design-push-notification}
 
-## Titre et contenu {#push-title-body}
+## Titre et corps {#push-title-body}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
@@ -47,10 +47,10 @@ Sélectionnez le comportement lorsquʼun utilisateur clique sur le contenu de la
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-media"
->title="Ajout de médias à votre notification push"
->abstract="Vous pouvez ajouter une image, une vidéo ou un GIF qui s&#39;affichent dans votre notification."
+>title="Ajouter des médias à votre notification push"
+>abstract="Vous pouvez ajouter une image, une vidéo ou un GIF qui s’affichent dans votre notification."
 
-Dans la version iOS de votre notification push, vous pouvez ajouter une image, une vidéo ou un GIF qui s&#39;affichent dans votre notification.
+Dans la version iOS de votre notification push, vous pouvez ajouter une image, une vidéo ou un GIF qui s’affiche dans votre notification.
 
 Dans la version Android, vous pouvez uniquement ajouter une icône d&#39;image et une image pour les notifications étendues.
 
@@ -70,8 +70,8 @@ Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
->title="Ajoutez des boutons pour que les utilisateurs puissent interagir avec votre notification push."
->abstract="Cette section vous permettra d&#39;ajouter des boutons d&#39;appel à l&#39;action à votre message. Pour iOS, indiquez un identifiant de catégorie de notification. Pour Android, vous pouvez inclure du texte et des cibles personnalisés pour chaque bouton."
+>title="Ajoutez des boutons pour que les personnes puissent interagir avec votre notification push."
+>abstract="Cette section vous permettra d’ajouter des boutons d’appel à l’action à votre message. Pour iOS, indiquez un identifiant de catégorie de notification. Pour Android, vous pouvez inclure du texte et des cibles personnalisés pour chaque bouton."
 
 Créez une notification exploitable en ajoutant des boutons à votre contenu push.
 
@@ -114,7 +114,7 @@ Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter d
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-advanced"
 >title="Configurez les options avancées de votre notification push."
->abstract="Cette section vous permet d&#39;améliorer la personnalisation de votre notification push."
+>abstract="Cette section vous permet d’améliorer la personnalisation de votre notification push."
 
 Vous pouvez configurer les **[!UICONTROL options avancées]** pour votre notification push. Les paramètres disponibles sont répertoriés ci-dessous :
 

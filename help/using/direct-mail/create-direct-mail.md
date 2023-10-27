@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -62,12 +62,12 @@ Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à en
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Champs de données"
->abstract="Ajoutez et configurez les colonnes et les informations à afficher dans le fichier d&#39;extraction requis par les opérateurs de services postaux pour envoyer du courrier à vos clients. Vous pouvez ajouter jusqu’à 50 colonnes."
+>abstract="Ajoutez et configurez les colonnes et les informations à afficher dans le fichier d’extraction requis par les fournisseurs de publipostage direct pour envoyer du courrier à vos clientes et clients. Vous pouvez ajouter jusqu’à 50 colonnes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="Formatage des fichiers d&#39;extraction"
->abstract="Pour chaque champ, indiquez un libellé et les informations à afficher à l&#39;aide de l&#39;éditeur d&#39;expression. <br/><br/> La variable <b>Tri par</b> permet d&#39;utiliser le champ sélectionné pour trier les colonnes du fichier d&#39;extraction."
+>title="Formatage des fichiers d’extraction"
+>abstract="Pour chaque champ, indiquez un libellé et les informations à afficher à l’aide de l’éditeur d’expression. <br/><br/>L’option <b>Trier par</b> vous permet d’utiliser le champ sélectionné pour trier les colonnes du fichier d’extraction."
 
 1. Configurez les colonnes et les informations à afficher dans le fichier d’extraction :
 

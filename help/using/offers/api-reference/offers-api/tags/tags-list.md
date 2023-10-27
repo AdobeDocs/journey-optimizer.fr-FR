@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Les qualificateurs de collection (précédemment appelés « balises ») vous permettent de mieux organiser et trier vos offres. Par exemple, vous pouvez libeller vos offres Black Friday à l’aide du qualificateur de collection « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à ce qualificateur de collection.
 
-Les qualificateurs de collection peuvent également être utilisées pour regrouper les offres sous forme de collections. Pour plus d’informations, consultez le tutoriel sur la [création de collections](../../../offer-library/creating-collections.md)
+Les qualificateurs de collection peuvent également être utilisées pour regrouper les offres sous forme de collections. Pour plus d’informations, consultez le tutoriel sur la [création de collections](../../../offer-library/creating-collections.md).
 
 Vous pouvez afficher une liste de tous les qualificateurs de collection au sein d’un conteneur en exécutant une requête GET unique sur l’API [!DNL Offer Library].
 

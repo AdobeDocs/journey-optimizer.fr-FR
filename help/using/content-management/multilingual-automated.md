@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main du contenu multilingue
-description: En savoir plus sur le contenu multilingue dans Journey Optimizer
+title: Commencer avec le contenu multilingue
+description: En savoir plus sur le contenu multilingue dans Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 4%
+ht-degree: 39%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 **Table des matières**
 
-* [Prise en main du contenu multilingue](multilingual-gs.md)
+* [Commencer avec le contenu multilingue](multilingual-gs.md)
 * [Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)
 * **[Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)**
 * [Rapport de campagne multilingue](multilingual-report.md)
@@ -38,7 +38,7 @@ Pour créer du contenu multilingue à l’aide de la traduction automatisée, pr
 
 1. [Créer un projet de langue](#create-translation-project).
 
-1. [Création de paramètres de langue](#create-language-settings).
+1. [Créer des paramètres de langue](#create-language-settings).
 
 1. [Créer une campagne multilingue](#create-a-multilingual-campaign).
 
@@ -46,17 +46,17 @@ Pour créer du contenu multilingue à l’aide de la traduction automatisée, pr
 
 ## Créer un paramètre régional {#create-locale}
 
-Lors de la configuration des paramètres de langue, comme décrit dans la section [Créer vos paramètres de langue](#language-settings) , si un paramètre régional spécifique n’est pas disponible pour votre contenu multilingue, vous avez la possibilité de créer autant de paramètres régionaux que nécessaire à l’aide de la fonction **[!UICONTROL Traduction]** .
+Lors de la configuration des paramètres de langue, comme décrit dans la section [Créer vos paramètres de langue](#language-settings), si un paramètre régional spécifique n’est pas disponible pour votre contenu multilingue, vous avez la possibilité de créer autant de paramètres régionaux que nécessaire à l’aide du menu **[!UICONTROL Traduction]**.
 
-1. Dans la **[!UICONTROL Administration]** menu, accès **[!UICONTROL Canal]**.
+1. Dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Canal]**.
 
-   Le menu Traductions permet d&#39;accéder à la liste des paramètres régionaux activés.
+   Le menu des traductions vous permet d’accéder à la liste des paramètres régionaux activés.
 
-1. Dans la **[!UICONTROL Dictionnaire des paramètres régionaux]** , cliquez sur **[!UICONTROL Ajouter un paramètre régional]**.
+1. Dans l’onglet **[!UICONTROL Dictionnaire des paramètres régionaux]**, cliquez sur **[!UICONTROL Ajouter un paramètre régional]**.
 
    ![](assets/locale_1.png)
 
-1. Sélectionnez votre code de langue dans la **[!UICONTROL Langue]** et la liste associée **[!UICONTROL Région]**.
+1. Sélectionnez votre code de paramètre régional dans la liste **[!UICONTROL Langue]** et la **[!UICONTROL Région]** associée.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer votre paramètre régional.
 
@@ -66,13 +66,13 @@ Lors de la configuration des paramètres de langue, comme décrit dans la sectio
 
 Démarrez votre projet de traduction en spécifiant les paramètres régionaux de Target, en indiquant la langue ou la région spécifique pour votre contenu. Vous pouvez ensuite choisir votre fournisseur de traduction.
 
-1. Dans la **[!UICONTROL Projets de traduction]** sous **[!UICONTROL Gestion de contenu]**, cliquez sur **[!UICONTROL Créer un projet]**.
+1. Dans le menu **[!UICONTROL Projets de traduction]** sous **[!UICONTROL Gestion de contenu]**, cliquez sur **[!UICONTROL Créer un projet]**.
 
    ![](assets/translation_project_1.png)
 
-1. Saisissez un **[!UICONTROL Nom]** et **[!UICONTROL Description]**.
+1. Saisissez un **[!UICONTROL nom]** et une **[!UICONTROL description]**.
 
-1. Sélectionnez la variable **[!UICONTROL Paramètre source]**.
+1. Sélectionnez le **[!UICONTROL paramètre régional source]**.
 
    ![](assets/translation_project_2.png)
 
@@ -83,13 +83,13 @@ Démarrez votre projet de traduction en spécifiant les paramètres régionaux d
 
 1. Cliquez sur **[!UICONTROL Ajouter un paramètre régional]** pour accéder au menu et définir les langues de votre projet de traduction.
 
-   Si une **[!UICONTROL Paramètres régionaux]** est manquante, vous pouvez le créer manuellement au préalable à partir de la fonction **[!UICONTROL Traduction]** ou par API. Voir [Création d’un paramètre régional](#create-locale).
+   Si un **[!UICONTROL paramètre régional]** est manquant, vous pouvez le créer manuellement au préalable à partir du menu **[!UICONTROL Traduction]** ou par API. Voir [Créer un paramètre régional](#create-locale).
 
    ![](assets/translation_project_3.png)
 
-1. Sélectionnez dans la liste votre **[!UICONTROL Paramètre(s) cible(s)]** et choisissez laquelle **[!UICONTROL Fournisseur de traduction]** vous souhaitez utiliser pour chaque paramètre régional.
+1. Sélectionnez dans la liste vos **[!UICONTROL paramètres régionaux cibles]** et choisissez le **[!UICONTROL prestataire de services de traduction]** que vous souhaitez utiliser pour chaque paramètre régional.
 
-1. Cliquez sur **[!UICONTROL Ajouter un paramètre régional]** lorsque vous avez terminé de lier vos paramètres régionaux Target au fournisseur de traduction approprié. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Ajouter un paramètre régional]** lorsque vous avez terminé de lier votre paramètre régional cible au prestataire de services de traduction approprié. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
    Notez que si un fournisseur est grisé pour un paramètre régional cible, cela indique que le fournisseur ne prend pas en charge ce paramètre régional particulier.
 
@@ -99,29 +99,29 @@ Démarrez votre projet de traduction en spécifiant les paramètres régionaux d
 
 Votre projet de traduction est maintenant créé et peut être utilisé dans une campagne multilingue.
 
-## Création de paramètres de langue {#language-settings}
+## Créer des paramètres de langue {#language-settings}
 
-Dans cette section, vous pouvez définir votre langue principale et les paramètres régionaux associés pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil.
+Dans cette section, vous pouvez définir votre langue principale et les paramètres régionaux associés pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil..
 
-1. Dans la **[!UICONTROL Administration]** menu, accès **[!UICONTROL Canal]**.
+1. Dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Canal]**.
 
-1. Dans le **[!UICONTROL Paramètres de langue]** , cliquez sur **[!UICONTROL Création de paramètres de langue]**.
+1. Dans le menu **[!UICONTROL Paramètres de langue]**, cliquez sur **[!UICONTROL Créer des paramètre de langue]**.
 
    ![](assets/language_settings_1.png)
 
-1. Saisissez le nom de votre **[!UICONTROL Paramètres de langue]**.
+1. Saisissez le nom de vos **[!UICONTROL Paramètres de langue]**.
 
-1. Choisissez la **[!UICONTROL Projet de traduction]** .
+1. Choisissez l’option **[!UICONTROL Projet de traduction]**.
 
-1. Dans la **[!UICONTROL Projet de traduction]** champ, cliquez sur **[!UICONTROL Modifier]** et sélectionnez les **[!UICONTROL Projet de traduction]**.
+1. Dans le champ **[!UICONTROL Projet de traduction]**, cliquez sur **[!UICONTROL Modifier]** et sélectionnez le **[!UICONTROL projet de traduction]** créé précédemment.
 
    Les paramètres régionaux précédemment configurés sont automatiquement importés.
 
    ![](assets/language_settings_2.png)
 
-1. Dans la **[!UICONTROL Préférence d’envoi]** sélectionnez l’attribut à rechercher pour trouver des informations sur les langues de profil.
+1. Dans le menu **[!UICONTROL Préférence d’envoi]**, sélectionnez l’attribut à rechercher pour trouver des informations sur les langues de profil.
 
-1. Cliquez sur **[!UICONTROL Modifier]** en regard de votre **[!UICONTROL Paramètres régionaux]** pour la personnaliser davantage et ajouter **[!UICONTROL Préférences de profil]**.
+1. Cliquez sur **[!UICONTROL Modifier]** en regard de votre **[!UICONTROL Paramètre régional]** pour le personnaliser davantage et ajouter des **[!UICONTROL Préférences de profil]**.
 
    ![](assets/language_settings_3.png)
 
@@ -129,7 +129,7 @@ Dans cette section, vous pouvez définir votre langue principale et les paramèt
 
    ![](assets/language_settings_4.png)
 
-1. Cliquez sur **[!UICONTROL Envoyer]** pour créer votre **[!UICONTROL Paramètres de langue]**.
+1. Cliquez sur **[!UICONTROL Envoyer]** pour créer vos **[!UICONTROL paramètres de langue]**.
 
 <!--
 1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
@@ -145,7 +145,7 @@ Une fois que vous avez configuré le projet de traduction et les paramètres de 
 
 1. Commencez par créer et configurer votre campagne Email, SMS ou Notification push selon vos besoins. [En savoir plus](../campaigns/create-campaign.md)
 
-1. Une fois votre contenu principal créé, cliquez sur **[!UICONTROL Enregistrer]** et revenez à l&#39;écran de configuration de campaign.
+1. Une fois votre contenu principal créé, cliquez sur **[!UICONTROL Enregistrer]** et revenez à l’écran de configuration de la campagne
 
 1. Cliquez sur **[!UICONTROL Ajouter des langues]**.  [En savoir plus](#create-language-settings)
 
@@ -183,7 +183,7 @@ Une fois que vous avez configuré le projet de traduction et les paramètres de 
 
    ![](assets/translation_review_9.png)
 
-1. Cliquez sur **[!UICONTROL Réviser pour activer]** pour afficher un résumé de l&#39;opération.
+1. Cliquez sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne.
 
    Le résumé vous permet de modifier votre campagne si nécessaire et de vérifier si un paramètre est incorrect ou manquant.
 
@@ -193,9 +193,9 @@ Une fois que vous avez configuré le projet de traduction et les paramètres de 
 
 1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
 
-Votre campagne est maintenant activée. Le message paramétré dans la campagne est envoyé immédiatement ou à la date indiquée. Notez que dès que votre campagne est active, elle ne peut pas être modifiée. Pour réutiliser du contenu, vous pouvez dupliquer votre campagne.
+Votre campagne est maintenant activée. Le message configuré dans la campagne est envoyé immédiatement ou à la date indiquée. Notez que dès que votre campagne est active, elle ne peut pas être modifiée. Pour réutiliser du contenu, vous pouvez dupliquer votre campagne.
 
-Une fois envoyé, vous pouvez mesurer l’impact de vos campagnes dans les rapports de campagne.
+Une fois le message envoyé, vous pouvez mesurer l’impact de vos campagnes dans les rapports de campagne.
 
 ## Gérer un projet de traduction interne {#manage-ht-project}
 

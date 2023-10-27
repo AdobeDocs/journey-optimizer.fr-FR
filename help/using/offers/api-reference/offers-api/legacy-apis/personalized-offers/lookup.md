@@ -9,7 +9,7 @@ exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
 
-Vous pouvez rechercher des offres personnalisées spécifiques en adressant une demande de GET à la fonction **Bibliothèque d’offres** API qui inclut l’une des offres personnalisées `@id` ou le nom de l’offre personnalisée dans le chemin de la requête.
+Vous pouvez rechercher des offres personnalisées spécifiques en adressant une requête GET à l’API **Bibliothèque des offres** qui inclut soit l’offre personnalisée `@id`, soit le nom de l’offre personnalisée dans le chemin de la requête.
 
 **Format d’API**
 

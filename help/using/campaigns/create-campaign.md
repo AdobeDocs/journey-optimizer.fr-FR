@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -122,7 +122,7 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 
 ## Définissez l’audience {#audience}
 
-Cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
+Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences d’Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ Les individus appartenant à un segment qui n’a pas l’identité sélectionn�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Planning de la campagne"
->abstract="Par défaut, les campagnes démarrent lors d’une activation manuelle et se terminent immédiatement après l’envoi du message une seule fois. Vous avez toutefois la possibilité de définir une date et une heure spécifiques pour l&#39;envoi du message. De plus, vous pouvez spécifier une date de fin pour les campagnes récurrentes ou déclenchées par l’API. Dans les déclencheurs d’action, vous pouvez également configurer la fréquence d’envoi des messages en fonction de vos préférences."
+>abstract="Par défaut, les campagnes démarrent lors d’une activation manuelle et se terminent immédiatement après l’envoi du message. Vous avez toutefois la possibilité de définir une date et une heure spécifiques pour l’envoi du message. De plus, vous pouvez spécifier une date de fin pour les campagnes récurrentes ou déclenchées par l’API. Dans les déclencheurs d’action, vous pouvez également configurer la fréquence d’envoi des messages en fonction de vos préférences."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

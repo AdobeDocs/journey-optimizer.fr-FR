@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
 source-wordcount: '4525'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nouveautés"
->abstract="**Adobe Journey Optimizer** offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
+>abstract="**Adobe Journey Optimizer** offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour.
 
@@ -205,7 +205,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Gestion des décisions**
 
-* De nouvelles API pour la création et la gestion d’objets de gestion de décision sont désormais disponibles. Ces API offrent des performances accrues et une expérience utilisateur améliorée. Les API héritées seront prises en charge jusqu’au 03/27/2024. [En savoir plus](../offers/api-reference/getting-started.md)
+* De nouvelles API pour la création et la gestion d’objets de gestion de décision sont désormais disponibles. Ces API offrent des performances accrues et une expérience client améliorée. Les API héritées seront prises en charge jusqu’au 27/03/2024. [En savoir plus](../offers/api-reference/getting-started.md)
 
 **Personnalisation**
 
@@ -213,7 +213,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Alerte**
 
-* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais être averti lorsqu’une **Lecture d’audience** l’activité échoue. [En savoir plus](../reports/alerts.md).
+* Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une activité **Lecture d’audience**. [En savoir plus](../reports/alerts.md).
 
 **Canal web**
 
@@ -229,7 +229,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 
 
-* La prise en charge des réponses d’action personnalisée est désormais disponible pour tous. Cette fonctionnalité vous permet d’exploiter les réponses d’appel API dans des actions personnalisées et d’orchestrer votre parcours en fonction de ces réponses. En outre, une nouvelle barrière de sécurité a été ajoutée pour limiter toutes les actions douanières à 150 000 appels de plus de 30 secondes par point de terminaison. [En savoir plus](../action/action-response.md)
+* La prise en charge des réponses d’action personnalisée est désormais disponible pour tout le monde. Cette fonctionnalité vous permet d’utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. En outre, un nouveau mécanisme de sécurisation a été ajouté pour limiter toutes les actions personnalisées à 150 000 appels sur 30 secondes par point d’entrée. [En savoir plus](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal courrier**
 
-* Vous pouvez désormais chiffrer les fichiers destinés à vos opérateurs de services postaux lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement. [En savoir plus](../direct-mail/direct-mail-configuration.md).
+* Vous pouvez désormais chiffrer les fichiers destinés à vos fournisseurs de publipostage direct lorsqu’ils sont transférés sur un serveur. Pour ce faire, un nouveau champ est disponible dans l’écran de configuration du routage des fichiers, ce qui vous permet de copier-coller votre clé de chiffrement. [En savoir plus](../direct-mail/direct-mail-configuration.md).
 
 **Reporting**
 

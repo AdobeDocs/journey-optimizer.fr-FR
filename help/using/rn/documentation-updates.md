@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
 source-wordcount: '4010'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Octobre 2023 {#oct-2023}
 
 * Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 octobre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
-* Ajout de GIFs pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Canal Courrier](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../campaigns/content-experiment.md).
-* Le processus de création de schémas a été mis à jour pour prendre en compte les dernières mises à jour apportées à l’interface utilisateur, avec des modifications apportées à Adobe Experience Platform. [En savoir plus](../audience/creating-test-profiles.md)
-* Les barrières de sécurité de la gestion des décisions ont été ajoutées à la page Barrières de sécurité et limites . [En savoir plus](../start/guardrails.md#decision-management)
+* Ajout de GIF pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Publipostage direct](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../campaigns/content-experiment.md).
+* Le processus de création de schémas a été mis à jour pour prendre en compte les dernières mises à jour apportées à l’interface utilisateur, avec des modifications apportées à Adobe Experience Platform. [En savoir plus](../audience/creating-test-profiles.md)
+* Des mécanismes de sécurisation de la gestion des décisions ont été ajoutés à la page Mécanismes de sécurisation et limites. [En savoir plus](../start/guardrails.md#decision-management)
 * La section Paramètres d’en-tête a été mise à jour afin de refléter la manière dont les notifications d’absence du bureau et les réponses aux défis sont traitées (elles sont reçues sur la page **[!UICONTROL Email d’erreur]**). [En savoir plus](../email/email-settings.md#email-header)
 * Une nouvelle section sur la prévisualisation et le test de votre contenu a été créée. [En savoir plus](../content-management/preview-test.md)
 * La page Mise en oeuvre d’applications d’une seule page a été déplacée vers la documentation du SDK Web Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}

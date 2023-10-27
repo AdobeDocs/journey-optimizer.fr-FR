@@ -9,23 +9,23 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Guide du développeur de l&#39;API de gestion des décisions {#decision-management-api-developer-guide}
+# Guide de développement de l’API de gestion des décisions {#decision-management-api-developer-guide}
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
->title="Nouvelles API de gestion de décision"
->abstract="De nouvelles API pour la création et la gestion d’objets de gestion de décision sont désormais disponibles. Les api héritées seront prises en charge jusqu’au 03/27/2024."
+>title="Nouvelles API de gestion des décisions"
+>abstract="De nouvelles API pour la création et la gestion d’objets de gestion de décision sont désormais disponibles. Les API héritées seront prises en charge jusqu’au 27/03/2024."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_api_support"
->title="Nouvelles API de gestion de décision"
->abstract="De nouvelles API pour la création et la gestion d’objets de gestion de décision sont désormais disponibles. Les api héritées seront prises en charge jusqu’au 03/27/2024."
+>title="Nouvelles API de gestion des décisions"
+>abstract="De nouvelles API pour la création et la gestion d’objets de gestion de décision sont désormais disponibles. Les API héritées seront prises en charge jusqu’au 27/03/2024."
 
-Ce guide du développeur décrit les étapes à suivre pour commencer à utiliser l&#39;API [!DNL Offer Library]. Le guide fournit ensuite des exemples d’appels d’API pour effectuer des opérations clés à l’aide du moteur de décisions.
+Ce guide de développement décrit les étapes à suivre pour commencer à utiliser l’API [!DNL Offer Library]. Le guide fournit ensuite des exemples d’appels d’API pour effectuer des opérations clés à l’aide du moteur de décisions.
 
 ➡️ [En savoir plus sur les composants de la gestion des décisions dans cette vidéo](#video)
 

@@ -11,7 +11,7 @@ exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_tags"
 >title="Balises"
->abstract="Ce champ vous permet d’attribuer des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes."
+>abstract="Ce champ vous permet d’attribuer des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes."
 
 Avec les [balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr) Adobe Experience Platform, vous pouvez facilement classer vos parcours et campagnes Journey Optimizer pour améliorer la recherche dans les listes.
 

@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
-* [Courrier](#direct-mail-tab)
+* [Publipostage direct](#direct-mail-tab)
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
 
@@ -58,45 +58,45 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
->title="Email - Statistiques d&#39;envoi"
->abstract="Le graphique Email - Statistiques d’envoi résume les données essentielles relatives à votre email, telles que Ciblés ou Délivrés, depuis les dernières 24 heures."
+>title="E-mail - Statistiques d’envoi"
+>abstract="Le graphique E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblés ou Diffusés, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_statistics"
->title="Email - Statistics"
->abstract="Le tableau Email - Statistiques fournit des données sur l’activité de profil de votre email au cours des dernières 24 heures."
+>title="E-mail - Statistiques"
+>abstract="Le tableau E-mail - Statistiques fournit les données sur l’activité de profil pour votre e-mail, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
->title="Email - Catégories de rebond"
->abstract="Le tableau et les graphiques des catégories Email - Bounce fournissent des données sur les erreurs temporaires et permanentes des dernières 24 heures."
+>title="E-mail - Catégories de rebond"
+>abstract="Le tableau et les graphiques E-mail - Catégories de rebond fournissent des données sur les erreurs temporaires et permanentes des dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
->title="Email - Performance par date"
->abstract="Le graphique Email - Performances par date présente des données complètes relatives aux derniers 24 heures concernant les emails envoyés, en fournissant des informations sur les mesures clés telles que les diffusions et les bounces, ce qui permet une analyse détaillée du processus de diffusion des emails."
+>title="E-mail - Performances par date"
+>abstract="Le graphique E-mail - Performances par date présente des données complètes des dernières 24 heures sur les e-mails envoyés, en fournissant des informations sur les mesures clés telles que les diffusions et les rebonds, ce qui permet d’effectuer une analyse détaillée du processus de diffusion des e-mails."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_reasons"
->title="Email - Raisons des rebonds"
->abstract="Les graphiques et tableaux Email - Raisons des bounces contiennent les données disponibles relatives aux messages rebonds des dernières 24 heures."
+>title="E-mail - Causes des rebonds"
+>abstract="Les graphiques et le tableau E-mail - Causes des rebonds contiennent les données disponibles relatives aux messages ayant fait l’objet d’un rebond, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
->title="Email - Raisons de l’erreur"
->abstract="Le tableau Email - Raisons de l’erreur vous permet d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi au cours des dernières 24 heures."
+>title="E-mail - Causes d’erreur"
+>abstract="Le tableau et les graphiques E-mail - Causes d’erreur vous permet d’identifier les erreurs spécifiques qui se sont produites pendant le processus d’envoi au cours des dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
->title="Email - Exclu"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, exclus de l’audience ciblée, et qui n’ont pas reçu le message au cours des dernières 24 heures."
+>title="E-mail - Causes d’exclusion"
+>abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
->title="Email - Meilleur domaine de destinataire"
->abstract="Le tableau et graphique Email - Meilleur domaine de destinataire fournit une ventilation détaillée des domaines que les destinataires utilisent le plus souvent pour ouvrir l&#39;email, offrant des informations précieuses sur le comportement des destinataires au cours des dernières 24 heures."
+>title="E-mail - Meilleur domaine de destinataire"
+>abstract="Le tableau et le graphique E-mail - Meilleur domaine de destinataire fournissent une ventilation détaillée des domaines que les personnes destinataires utilisent le plus souvent pour ouvrir l’e-mail, offrant des informations précieuses sur le comportement des personnes destinataires, depuis les dernières 24 heures."
 
-Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Email]** Cet onglet présente les informations principales relatives à l&#39;email envoyé dans votre campagne.
+Dans le **[!UICONTROL Rapport dynamique]** de campagne, l’onglet **[!UICONTROL E-mail]** détaille les principales informations relatives à l’e-mail envoyé dans votre campagne.
 
 ![](assets/campaign_report_live_1.png)
 
@@ -106,23 +106,23 @@ Le widget **[!UICONTROL Statistiques d’envoi des e-mails]** présente les prin
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-La variable **[!UICONTROL Envoi de mesures par courrier électronique]** table et **[!UICONTROL Email Summary]** graph détaille le succès de votre email :
+Le tableau **[!UICONTROL Mesures d’envoi par e-mail]** et le graphique **[!UICONTROL Résumé des e-mails]** détaillent le succès de votre e-mail :
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures d’un message.
+* **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message.
 
-* **[!UICONTROL Clics]**: nombre de clics sur un contenu.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu.
 
 * **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
@@ -136,9 +136,9 @@ Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de r
 
 * **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
 
-La variable **[!UICONTROL Raisons de l’erreur]** et **[!UICONTROL Exclure les raisons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions se sont produites au cours du processus d’envoi.
+Les graphiques et tableaux **[!UICONTROL Causes d’erreur]** et **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de la procédure d’envoi.
 
-Le graphique et le tableau **[!UICONTROL Email - Meilleur domaine destinataire]** indiquent les domaines les plus utilisés par les destinataires pour ouvrir l&#39;email.
+Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine du destinataire]** indiquent les domaines les plus utilisés par les personnes destinataires pour ouvrir l’e-mail.
 +++
 
 ## Onglet In-app {#inapp-live}
@@ -146,25 +146,25 @@ Le graphique et le tableau **[!UICONTROL Email - Meilleur domaine destinataire]*
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="Performances in-app"
->abstract="Les indicateurs de performance clés des performances in-app fournissent des informations essentielles sur l’engagement des visiteurs avec les messages in-app au cours des dernières 24 heures."
+>abstract="Les KPI de performances in-app fournissent des informations essentielles sur l’engagement de vos visiteurs et visiteuses avec les messages in-app, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_interactions"
 >title="Interactions par type"
->abstract="Les interactions par type de graphiques et de tableau détaillent la manière dont les utilisateurs ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions des dernières 24 heures."
+>abstract="Les graphiques et le tableau Interactions par type détaillent la manière dont les personnes ont interagi avec votre message in-app en suivant les clics, les rejets ou les interactions, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_summary"
 >title="Résumé in-app"
->abstract="Le graphique de synthèse in-app illustre la progression de vos impressions et interactions in-app au cours des 24 dernières heures."
+>abstract="Le graphique Synthèse in-app illustre la progression de vos impressions et interactions in-app au cours des dernières 24 heures."
 
-Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL In-app]** Cet onglet présente les informations principales relatives aux messages In-App envoyés dans votre campagne.
+Dans le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux messages in-app envoyées dans votre campagne.
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport in-app.
 
 Les KPI **[!UICONTROL Performances in-app]** détaillent les informations principales relatives à l’engagement des visiteurs et visiteuses en lien avec vos messages in-app. Cela concerne notamment les éléments suivants :
 
-* **[!UICONTROL Impressions]**: nombre total de messages In-App envoyés à tous les utilisateurs.
+* **[!UICONTROL Impressions]** : nombre total de messages in-app envoyés à toutes les personnes.
 
 * **[!UICONTROL Interactions]** : nombre total d’engagements en lien avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
 
@@ -178,57 +178,57 @@ Les graphes et le tableau **[!UICONTROL Interactions par type]** détaillent la 
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
->title="Notification push - Envoi des performances"
->abstract="Le graphique Performance d’envoi de notifications push résume les données essentielles relatives à votre notification push, telles que les erreurs ou les messages délivrés au cours des dernières 24 heures."
+>title="Notifications push - Performances d’envoi"
+>abstract="Le graphique Notifications push - Performances d’envoi résume les données essentielles sur votre notification push, telles que les erreurs ou les messages ciblés ou diffusés des dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_statistics"
 >title="Notification push - Statistiques"
->abstract="Le tableau Statistiques push fournit des données sur l&#39;activité des destinataires pour votre notification push depuis les dernières 24 heures."
+>abstract="Le tableau Notification push - Statistiques fournit des données sur l’activité des personnes destinataires pour votre notification push, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
 >title="Notification push - Synthèse des envois"
->abstract="Le graphique Résumé de l’envoi des notifications push affiche les données disponibles pour les notifications push envoyées des dernières 24 heures."
+>abstract="Le graphique Notifications push - Synthèse des envois affiche les données disponibles pour les notifications push envoyées, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
->title="Notification push - Raisons exclues"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, exclus de l’audience ciblée, et qui n’ont pas reçu le message au cours des dernières 24 heures."
+>title="Notification push - Causes d’exclusion"
+>abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
->title="Notification push - Raisons de l&#39;erreur"
->abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures du processus d’envoi."
+>title="Notification push - Causes d’erreur"
+>abstract="Les graphiques et le tableau Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures pendant le processus d’envoi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
 >title="Notification push - Répartition par plateforme"
->abstract="Le tableau et les graphiques Ventilation par plateforme fournissent une répartition du succès de vos notifications push au cours des dernières 24 heures en fonction du système d’exploitation du destinataire."
+>abstract="Le tableau et les graphiques Répartition par plateforme fournissent une répartition du succès de vos notifications push au cours des dernières 24 heures en fonction du système d’exploitation des personnes destinataires."
 
-Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives à la notification push envoyée dans votre campagne.
+Dans le **[!UICONTROL Rapport dynamique]** de campagne, l’onglet **[!UICONTROL Notification push]** détaille les principales informations relatives à la notification push envoyée dans votre campagne.
 
 ![](assets/campaign_report_live_2.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport push.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de notification push.
 
-**[!UICONTROL Performances d&#39;envoi des notifications push]**, **[!UICONTROL Synthèse des notifications push]** et **[!UICONTROL Notification push - Statistiques]** Les widgets détaillent les informations principales relatives à votre message :
+Les widgets **[!UICONTROL Notification push - Performances d’envoi]**, **[!UICONTROL Notification push - Synthèse]** et **[!UICONTROL Notification push - Statistiques]** présentent les informations principales relatives à votre message :
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures d’un message.
+* **[!UICONTROL Ouvertures]** : nombre d’ouvertures d’un message.
 
 * **[!UICONTROL Actions]** : nombre total d&#39;actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
 
 * **[!UICONTROL Engagements]** : nombre total d&#39;ouvertures et d&#39;actions pour cette notification push, c&#39;est-à-dire si le profil a ouvert la notification ou si un utilisateur a cliqué sur un bouton.
 
-La variable **[!UICONTROL Raisons de l’erreur]** et **[!UICONTROL Exclure les raisons]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions se sont produites au cours du processus d’envoi .
+Les graphiques et tableaux **[!UICONTROL Causes d’erreur]** et **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de la procédure d’envoi.
 
 Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
 
@@ -240,57 +240,57 @@ Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_statistics"
 >title="SMS - Statistiques"
->abstract="Le tableau Statistiques d’envoi de SMS récapitule les données essentielles relatives à vos messages SMS, telles que les messages ciblés ou délivrés au cours des dernières 24 heures."
+>abstract="Le tableau SMS - Statistiques d’envoi récapitule les données essentielles relatives à vos SMS, telles que les messages ciblés ou délivrés, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_performance"
->title="SMS : performance par date"
->abstract="Le widget Performances des SMS par date fournit des informations clés des dernières 24 heures sur vos messages par le biais d’une représentation graphique."
+>title="SMS - Performances par date"
+>abstract="Le widget SMS - Performances par date fournit des informations clés des dernières 24 heures sur vos messages par le biais d’une représentation graphique."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
->title="SMS - Raisons de l’erreur"
->abstract="Les graphiques et tableaux SMS - Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures pendant le processus d’envoi."
+>title="SMS - Causes d’erreur"
+>abstract="Les graphiques et le tableau SMS - Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures pendant le processus d’envoi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
->title="SMS - Motifs exclus"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, exclus de l’audience ciblée, et qui n’ont pas reçu le message au cours des dernières 24 heures."
+>title="SMS - Causes d’exclusion"
+>abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message, depuis les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_bounces_reasons"
->title="SMS - Raisons des rebonds"
->abstract="Les graphiques et les tableaux Rebonds contiennent les données disponibles depuis les dernières 24 heures relatives aux messages rebonds."
+>title="SMS - Causes de rebonds"
+>abstract="Les graphiques et le tableau Causes de rebond contiennent les données disponibles sur les messages ayant fait l’objet d’un rebond, depuis les dernières 24 heures."
 
-Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL SMS]** Cet onglet présente les informations principales relatives au SMS envoyé dans votre campagne.
+Dans le **[!UICONTROL Rapport dynamique]** de campagne, l’onglet **[!UICONTROL SMS]** détaille les principales informations relatives aux SMS envoyés dans votre campagne.
 
 ![](assets/campaign_report_live_3.png)
 
 +++En savoir plus sur les différents widgets et mesures disponibles pour le rapport SMS.
 
-La variable **[!UICONTROL SMS - Statistiques]** Le tableau décrit le succès de votre SMS :
+Le tableau **[!UICONTROL SMS - Statistiques]** détaille le succès de votre SMS :
 
-* **[!UICONTROL Ciblés]**: nombre de profils utilisateur qualifiés comme profils cibles.
+* **[!UICONTROL Ciblés]** : nombre de profils de personnes qui sont qualifiés en tant que profils cibles.
 
-* **[!UICONTROL Exclus]** : nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu le message.
+* **[!UICONTROL Exclus]** : nombre de profils utilisateurs, exclus des profils ciblés, qui n’ont pas reçu le message.
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
 * **[!UICONTROL Clics]** : nombre total de visites d’URL.
 
-Le widget **[!UICONTROL Performances de SMS par date]** détaille les informations principales relatives à votre message sous forme de graphique :
+Le widget **[!UICONTROL SMS Performances par date]** détaille les informations principales relatives à votre message sous forme de graphique :
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
-* **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-La variable **[!UICONTROL Exclure les raisons]**, **[!UICONTROL Raisons des rebonds]** et **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions se sont produites au cours du processus d’envoi.
+Les graphiques et tableaux **[!UICONTROL Motifs d’exclusion]**, **[!UICONTROL Causes de rebond]** et **[!UICONTROL Causes d’erreur]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de la procédure d’envoi.
 +++
 
 ## Onglet Web {#web-tab}
@@ -298,17 +298,17 @@ La variable **[!UICONTROL Exclure les raisons]**, **[!UICONTROL Raisons des rebo
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"
 >title="Performances web"
->abstract="Les IPC de performances web fournissent des informations complètes sur l’engagement de vos visiteurs avec vos expériences web au cours des dernières 24 heures."
+>abstract="Les KPI de Performances web fournissent des informations complètes sur l’engagement de vos visiteurs et visiteuses avec vos expériences web au cours des dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_summary"
 >title="Résumé web"
->abstract="Le graphique Résumé web illustre la progression de vos expériences web, y compris les impressions, les impressions uniques et les interactions, depuis les dernières 24 heures."
+>abstract="Le graphique Résumé web présente la progression de vos expériences web, y compris les impressions, les impressions uniques et les interactions, pour les dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_interactions"
 >title="Interactions par élément"
->abstract="Le tableau Interactions par élément fournit des informations clés sur l’engagement de vos visiteurs avec différents éléments de vos pages web au cours des dernières 24 heures."
+>abstract="Le tableau Interactions par élément fournit des informations clés sur l’engagement des visiteurs et visiteuses avec différents éléments de vos pages web, depuis les dernières 24 heures."
 
 Dans votre **[!UICONTROL rapport dynamique]** Campaign, l’onglet **[!UICONTROL Web]** présente les informations principales relatives à vos pages web.
 
@@ -325,45 +325,45 @@ Le graphe **[!UICONTROL Résumé web]** présente l’évolution de vos expérie
 Le tableau **[!UICONTROL Interactions par élément]** présente les informations principales relatives à l’engagement des visiteurs et visiteuses en lien avec les différents éléments de vos pages web.
 +++
 
-## Onglet Courrier {#direct-mail-tab}
+## Onglet Publipostage direct {#direct-mail-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
 >title="Courrier - Statistiques d’envoi"
->abstract="Le tableau Statistiques d’envoi de courrier récapitule les données essentielles des dernières 24 heures relatives à vos messages de courrier, telles que les messages ciblés ou délivrés."
+>abstract="Le tableau Courrier - Statistiques d’envoi résume les données essentielles des dernières 24 heures relatives à votre courrier, telles que les messages ciblés ou diffusés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
->title="Courrier - Raisons de l’erreur"
->abstract="Le tableau Courrier - Raisons d’erreur vous permet d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures."
+>title="Courrier - Causes d’erreur"
+>abstract="Les graphiques et le tableau Courrier - Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours des dernières 24 heures."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
->title="Courrier - Motifs exclus"
->abstract="Le tableau et les graphiques des motifs d’exclusion du courrier illustrent les différents facteurs qui ont conduit aux profils utilisateur, exclus de l’audience ciblée, et qui n’ont pas reçu le message au cours des dernières 24 heures."
+>title="Courrier - Causes d’exclusion"
+>abstract="Les graphiques et le tableau Causes d’exclusion de courrier illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message, depuis les dernières 24 heures."
 
-Depuis votre campagne **[!UICONTROL Rapport en direct]**, la variable **[!UICONTROL Canal Courrier]** Cet onglet présente les informations principales relatives à votre courrier.
+Depuis le **[!UICONTROL Rapport dynamique]** de votre campagne, l’onglet **[!UICONTROL Courrier]** présente les informations principales relatives à votre courrier.
 
 ![](assets/direct-mail-report_2.png)
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport de courrier.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport Publipostage direct.
 
-La variable **[!UICONTROL Courrier - Statistiques d’envoi]** Le tableau décrit le succès de votre canal Courrier :
+Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** détaille le succès de votre courrier :
 
-* **[!UICONTROL Ciblés]**: nombre de profils utilisateur qualifiés comme profils cibles.
+* **[!UICONTROL Ciblés]** : nombre de profils de personnes qui sont qualifiés en tant que profils cibles.
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-* **[!UICONTROL Exclu]**: nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu votre courrier.
+* **[!UICONTROL Exclus]** : nombre de profils de personnes, exclus des profils ciblés, qui n’ont pas reçu votre courrier.
 
-La variable **[!UICONTROL Courrier - Motifs exclus]** et **[!UICONTROL Courrier - Raisons de l’erreur]** les graphiques et les tableaux vous permettent de voir quelles erreurs et exclusions se sont produites au cours du processus d’envoi.
+Les graphiques et tableaux **[!UICONTROL Courrier - Causes d’exclusion]** et **[!UICONTROL Courrier - Causes d’erreur]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de la procédure d’envoi.
 +++
 
 ## Ressources supplémentaires
 
-* [Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)
+* [Commencer avec les campagnes](../campaigns/get-started-with-campaigns.md)
 * [Création d’une campagne](../campaigns/create-campaign.md)
 * [Créer des campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
 * [Modification ou arrêt d’une campagne](../campaigns/modify-stop-campaign.md)

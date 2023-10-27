@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ La page Rapport s’affiche avec les onglets suivants :
 * [SMS](#sms)
 * [In-app](#inapp)
 * [Web](#web)
-* [Courrier](#direct-mail)
+* [Publipostage direct](#direct-mail)
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#channel-report-video)
 
@@ -45,63 +45,63 @@ La page Rapport s’affiche avec les onglets suivants :
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
->title="Email - Nombre total de statistiques d&#39;envoi"
->abstract="Les indicateurs de performance clés des statistiques d’envoi totales résument les données essentielles relatives à vos notifications push, telles que les messages ciblés ou délivrés."
+>title="E-mail - Statistiques totales d’envoi"
+>abstract="Les KPI E-mail - Statistiques totales d’envoi résument les données essentielles sur vos notifications push, telles que les messages ciblés ou diffusés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="Email - Statistiques de tracking totales"
->abstract="Les indicateurs de performance clés Email - Statistiques de tracking totales fournissent des données sur l’activité de profil pour vos emails."
+>title="E-mail - Statistiques totales de tracking"
+>abstract="Les KPI E-mail - Statistiques totales de tracking fournissent des données sur l’activité de profil pour vos e-mails."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
->title="Email - Envoi de statistiques dans le temps"
->abstract="Le graphique Email - Statistiques d’envoi dans le temps présente des données concernant les emails envoyés, ventilées par heure, jour, semaine ou mois."
+>title="E-mail - Statistiques d’envoi dans le temps"
+>abstract="Le graphique E-mail - Statistiques d’envoi dans le temps présente des données concernant les e-mails envoyés, ventilées par heure, jour, semaine ou mois."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
->title="Email - Statistiques de tracking dans le temps"
->abstract="Le graphique Email - Statistiques de suivi dans le temps fournit des données sur l’activité de profil de vos emails, ventilées par heure, jour, semaine ou mois."
+>title="E-mail - Statistiques de tracking dans le temps"
+>abstract="Le graphique E-mail - Statistiques de tracking dans le temps fournit des données sur l’activité de profil de vos e-mails, ventilées par heure, jour, semaine ou mois."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
->title="Catégories rebonds"
->abstract="Les graphiques et les tableaux des catégories de rebonds fournissent des données sur les erreurs temporaires et permanentes."
+>title="Catégories de rebond"
+>abstract="Le tableau et les graphiques Catégories de rebond fournissent des données sur les erreurs temporaires et permanentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
 >title="Raisons de rebond"
->abstract="Les graphiques et les tableaux Rebonds contiennent les données disponibles relatives aux messages rebonds."
+>abstract="Les graphiques et le tableau Causes de rebonds contiennent les données disponibles sur les messages ayant fait l’objet d’un rebond."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
 >title="Raisons de l’erreur"
->abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
+>abstract="Les graphiques et le tableau Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
->title="Exclure des motifs"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, qui ont été exclus de l’audience ciblée et qui n’ont pas reçu le message."
+>title="Raisons des exclusions"
+>abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="Envoyé et diffusé par domaines"
->abstract="Le tableau et graphique Envoyés et délivrés par domaines représentent la ventilation au niveau du domaine de chaque donnée importante d’envoi d’emails."
+>title="Envoyés et diffusés par domaines"
+>abstract="Le tableau et le graphique Envoyés et diffusés par domaines représentent la répartition au niveau du domaine de toutes les données importantes relatives à l’envoi d’e-mails."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
 >title="Rebonds et erreurs par domaine"
->abstract="Le graphique et le tableau Rebonds et erreurs par domaine représentent la ventilation au niveau du domaine des erreurs spécifiques survenues pendant le processus d’envoi."
+>abstract="Le graphique et le tableau Rebonds et erreurs par domaines représentent la répartition au niveau du domaine des erreurs spécifiques survenues au cours du processus d’envoi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="Ouverture et clics par domaine"
->abstract="Le tableau et graphique Open &amp; clicks by domains représentent la ventilation au niveau du domaine de l’engagement des visiteurs de votre email."
+>title="Ouvertures et clics par domaines"
+>abstract="Le tableau et le graphique Ouvertures et clics par domaines représentent la répartition au niveau du domaine de l’engagement de vos visiteurs et visiteuses avec votre e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
->title="Raisons des bounces par domaine"
->abstract="Le graphique et le tableau des raisons de rebond par domaine représentent la ventilation des données au niveau du domaine sur les erreurs temporaires et permanentes."
+>title="Raisons de rebond par domaine"
+>abstract="Le graphique et le tableau Raisons de rebond par domaine représentent la répartition au niveau du domaine des données sur les erreurs temporaires et permanentes."
 
 Dans les rapports au niveau des canaux, le menu E-mail présente les informations principales relatives aux e-mails envoyés dans vos campagnes et parcours. Les mesures sont détaillées ci-dessous.
 
@@ -131,7 +131,7 @@ Le graphique **[!UICONTROL Statistiques d’envoi d’e-mail total]** détaille 
 
 * **[!UICONTROL Exclus]** : pourcentage de profils qui ont été exclus par Adobe Journey Optimizer.
 
-La variable **[!UICONTROL Statistiques de tracking total des emails]** Le widget contient les données disponibles pour l’activité de profil de vos emails :
+Le widget **[!UICONTROL E-mail - Statistiques totales de tracking]** contient les données disponibles pour l’activité de profil de vos e-mails :
 
 * **[!UICONTROL Ouvertures]** : nombre de fois que le message a été ouvert.
 
@@ -182,43 +182,43 @@ Les tableaux et graphiques **[!UICONTROL Raisons de rebond par domaine]**, **[!U
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
->title="Notifications push - Statistiques totales d&#39;envoi"
->abstract="Les indicateurs de performance clés des statistiques d’envoi totales résument les données essentielles relatives à vos notifications push, telles que Ciblées ou Diffusées."
+>title="Notifications push - Statistiques totales d’envoi"
+>abstract="Les KPI Notifications push - Statistiques totales d’envoi résument les données essentielles sur vos notifications push, telles que Ciblés ou Diffusés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
 >title="Notification push - Statistiques totales de tracking"
->abstract="Les statistiques de tracking totales des notifications push fournissent des données sur l’activité de profil pour vos notifications push."
+>abstract="Les Notification push - Statistiques totales de tracking fournissent des données sur l’activité de profil pour vos notifications push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_overtime"
->title="Notifications push - Envoi de statistiques au fil du temps"
->abstract="Le graphique des statistiques d’envoi de notifications push au fil du temps présente les données concernant les notifications push envoyées, ventilées par heure, jour, semaine ou mois."
+>title="Notifications push - Statistiques d’envoi dans le temps"
+>abstract="Le graphique Notification push - Statistiques d’envoi dans le temps présente des données concernant les notifications push envoyées, ventilées par heure, jour, semaine ou mois."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
->title="Notifications push - Statistiques de suivi dans le temps"
->abstract="Le graphique Notifications push - Statistiques de suivi dans le temps fournit des données sur l’activité de profil pour vos notifications push, ventilées par heure, jour, semaine ou mois."
+>title="Notifications push - Statistiques de tracking dans le temps"
+>abstract="Le graphe Notifications push - Statistiques de tracking dans le temps fournit des données sur l’activité de profil de vos notifications push, ventilées par heure, jour, semaine ou mois."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
->title="Exclure des motifs"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, qui ont été exclus de l’audience ciblée et qui n’ont pas reçu le message."
+>title="Raisons des exclusions"
+>abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
 >title="Raisons de l’erreur"
->abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
+>abstract="Les graphiques et le tableau Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
 >title="Statistiques de tracking par plateforme"
->abstract="Le tableau et graphique Statistiques de tracking par plateforme fournit des données sur l’activité des profils pour vos notifications push en fonction du système opérationnel de votre profil."
+>abstract="Le tableau et le graphique Statistiques de tracking par plateforme fournissent des données sur l’activité de profil pour vos notifications push en fonction du système opérationnel de votre profil."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
->title="Envoi de statistiques par plateforme"
->abstract="Le tableau et graphique Statistiques d’envoi par plateforme présente les données concernant les notifications push envoyées."
+>title="Statistiques d’envoi par plateforme"
+>abstract="Le tableau et le graphique Statistiques d’envoi par plateforme présente les données concernant les notifications push envoyées."
 
 Dans les rapports sur les canaux, le menu Notification push présente les informations principales relatives aux notifications push envoyées dans vos campagnes et parcours. Les mesures sont présentées ci-dessous.
 
@@ -248,7 +248,7 @@ Le tableau **[!UICONTROL Notification push - Statistiques d’envoi totales]** p
 
 * **[!UICONTROL Exclus]** : pourcentage de profils qui ont été exclus par Adobe Journey Optimizer.
 
-La variable **[!UICONTROL Notification push - Statistiques totales de tracking]** contient les données disponibles pour l’activité de profil pour vos notifications push :
+Le graphique **[!UICONTROL Notifications push - Statistiques totales de tracking]** contient les données disponibles pour l’activité de profil de vos notifications push :
 
 * **[!UICONTROL Ouvertures]** : nombre de fois qu’une notification push a été ouverte.
 
@@ -274,7 +274,7 @@ Le graphique et le tableau **[!UICONTROL Raisons de l’exclusion]** affichent l
 
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite.
 
-La variable **[!UICONTROL Tracking par plateforme]** et **[!UICONTROL Envoi par plateforme]** les graphiques et les tableaux détaillent le succès de votre notification push en fonction du système opérationnel de votre profil.
+Les graphiques et les tableaux **[!UICONTROL Tracking par plateforme]** et **[!UICONTROL Envoi par plateforme]** présentent le succès de votre notification push en fonction du système opérationnel de votre profil.
 +++
 
 ## SMS {#sms}
@@ -282,37 +282,37 @@ La variable **[!UICONTROL Tracking par plateforme]** et **[!UICONTROL Envoi par 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
 >title="SMS - Statistiques totales d’envoi"
->abstract="Les indicateurs de performance clés des statistiques d’envoi totales résument les données essentielles relatives à vos messages SMS tels que Ciblés ou Délivrés."
+>abstract="Les KPI SMS - Statistiques totales d’envoi résument les données essentielles relatives à vos SMS, telles que Ciblés ou Diffusés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
 >title="SMS - Statistiques totales de tracking"
->abstract="Les statistiques de suivi SMS - Total fournissent des données sur l’activité de profil pour vos SMS."
+>abstract="Les statistiques totales de tracking des SMS fournissent des données sur l’activité de profil pour vos SMS."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics_overtime"
->title="SMS - Envoi de statistiques dans le temps"
->abstract="Le graphique SMS - Envoi de statistiques dans le temps présente les données concernant les SMS envoyés, ventilées par heure, jour, semaine ou mois."
+>title="SMS - Statistiques d’envoi dans le temps"
+>abstract="Le graphique SMS - Statistiques d’envoi dans le temps présente des données concernant les SMS envoyés, ventilées par heure, jour, semaine ou mois."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
->title="SMS : statistiques de suivi dans le temps"
->abstract="Le graphique SMS - Statistiques de suivi dans le temps fournit des données sur l’activité de profil de vos SMS, ventilées par heure, jour, semaine ou mois."
+>title="SMS - Statistiques de tracking dans le temps"
+>abstract="Le graphique SMS - Statistiques de tracking dans le temps fournit des données sur l’activité de profil de vos SMS, ventilées par heure, jour, semaine ou mois."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
->title="Exclure des motifs"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, qui ont été exclus de l’audience ciblée et qui n’ont pas reçu le message."
+>title="Raisons des exclusions"
+>abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
 >title="Raisons de rebond"
->abstract="Les graphiques et les tableaux Rebonds contiennent les données disponibles relatives aux messages rebonds."
+>abstract="Les graphiques et le tableau Causes de rebonds contiennent les données disponibles sur les messages ayant fait l’objet d’un rebond."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
 >title="Raisons de l’erreur"
->abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
+>abstract="Les graphiques et le tableau Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
 
 Dans les rapports sur les canaux, le menu SMS présente les informations principales relatives aux SMS envoyés dans vos campagnes et parcours. Les mesures sont détaillées ci-dessous.
 
@@ -362,28 +362,28 @@ Les graphiques et tableaux **[!UICONTROL Raisons de l’exclusion]**, **[!UICONT
 
 +++
 
-## Courrier {#direct-mail}
+## Publipostage direct {#direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
 >title="Courrier - Statistiques totales d’envoi"
->abstract="Les indicateurs de performance clés des statistiques d’envoi des courriers résument les données essentielles relatives à vos courriers, tels que Ciblés ou Délivrés."
+>abstract="Les KPI Courrier - Statistiques totales d’envoi résument les données essentielles relatives à votre courrier, telles que Ciblés ou Diffusés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
->title="Exclure des motifs"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont conduit à des profils d’utilisateurs, qui ont été exclus de l’audience ciblée et qui n’ont pas reçu le message."
+>title="Raisons des exclusions"
+>abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
 >title="Raisons de l’erreur"
->abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
+>abstract="Les graphiques et le tableau Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
 
 Dans les rapports au niveau des canaux, le menu Courrier présente les informations principales relatives aux messages de courrier envoyés dans vos campagnes et parcours. Les mesures sont détaillées ci-dessous.
 
 ![](assets/direct_mail_channel_1.png)
 
-+++ En savoir plus sur les différents widgets et mesures disponibles pour le rapport Courrier.
++++ En savoir plus sur les différents widgets et mesures disponibles pour le rapport Publipostage direct.
 
 Le tableau **[!UICONTROL Courrier – Statistiques totales d’envoi]** détaille le succès de vos messages :
 
@@ -407,12 +407,12 @@ Les graphiques et tableaux **[!UICONTROL Raisons de l’exclusion]** et **[!UICO
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
 >title="In-app - Engagement total"
->abstract="Les indicateurs de performance clés d’engagement total dans l’application fournissent des informations complètes sur l’engagement de vos visiteurs avec vos messages in-app, y compris des mesures telles que les impressions et les interactions."
+>abstract="Les KPI In-app - Engagement total fournissent des informations complètes sur l’engagement de vos visiteurs et visiteuses avec vos messages in-app, y compris des mesures telles que les impressions et les interactions."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
->title="In-App - Engagement au fil du temps"
->abstract="Le graphique In-App - Engagement au fil du temps effectue le suivi des impressions et interactions in-app, fournissant des ventilations horaires, quotidiennes, hebdomadaires et mensuelles."
+>title="In-app - Engagement dans le temps"
+>abstract="Le graphique In-app - Engagement dans le temps effectue le suivi des impressions et interactions in-app, fournissant des ventilations par heure, jour, semaine et mois."
 
 Dans les rapports au niveau des canaux, le menu In-app présente les informations principales relatives aux messages in-app envoyés dans vos campagnes et parcours. Les mesures sont détaillées ci-dessous.
 
@@ -426,9 +426,9 @@ Les KPI **[!UICONTROL Engagement total in-app]** détaillent les informations pr
 
 * **[!UICONTROL Interactions]** : nombre total d’engagements en lien avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
 
-* **[!UICONTROL Ignorations]**: nombre total de messages In-App ignorés par les profils en cliquant sur le bouton de fermeture ou en l’ignorant automatiquement.
+* **[!UICONTROL Abandons]** : nombre total de messages in-app que les profils ont abandonnés en cliquant sur le bouton de fermeture ou en l’abandonnant automatiquement.
 
-* **[!UICONTROL Taux d&#39;abandon]**: pourcentage de messages In-App ignorés par les profils.
+* **[!UICONTROL Taux d’abandon]** : pourcentage de messages in-app abandonnés par les profils.
 
 Le graphique **[!UICONTROL Engagement in-app dans le temps]** montre l’évolution de vos impressions et interactions in-app pour la période concernée en suivant toute impression, abandon ou interaction.
 
@@ -439,12 +439,12 @@ Le graphique **[!UICONTROL Engagement in-app dans le temps]** montre l’évolut
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
 >title="Web - Engagement total"
->abstract="Les indicateurs de performance clés (IPC) d’engagement total fournissent des informations complètes sur l’engagement des visiteurs de vos pages Web, y compris des mesures telles que Impressions et Interactions."
+>abstract="Les KPI Web - Engagement total fournissent des informations complètes sur l’engagement de vos visiteurs et visiteuses avec vos pages web, y compris des mesures telles que les impressions et les interactions."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"
->title="Web - Nombre total d’engagements au fil du temps"
->abstract="Le graphique Web : engagement au fil du temps effectue le suivi des impressions et interactions de vos pages Web, ce qui fournit des ventilations horaires, quotidiennes, hebdomadaires et mensuelles."
+>title="Web - Engagement total dans le temps"
+>abstract="Le graphique Web - Engagement dans le temps effectue le suivi des impressions et interactions de vos pages web, fournissant des ventilations par heure, jour, semaine et mois."
 
 Dans les rapports au niveau des canaux, le menu Web présente les informations principales relatives aux pages web incluses dans vos campagnes et parcours. Les mesures sont détaillées ci-dessous.
 
@@ -458,9 +458,9 @@ Les KPI **[!UICONTROL Engagement web total]** détaillent les informations princ
 
 * **[!UICONTROL Interactions]** : nombre total d’engagements en lien avec votre page web. Cela inclut toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
 
-* **[!UICONTROL Ignorations]**: nombre total de pages Web ignorées par les profils.
+* **[!UICONTROL Abandons]** : nombre total de pages web que les profils ont abandonnées.
 
-* **[!UICONTROL Taux d&#39;abandon]**: pourcentage de pages web ignorées par les profils.
+* **[!UICONTROL Taux d’abandon]** : pourcentage de pages web abandonnées par les profils.
 
 Le graphique **[!UICONTROL Engagement web dans le temps]** présente les informations principales relatives à l’engagement des visiteurs et des visiteuses envers vos pages web.
 

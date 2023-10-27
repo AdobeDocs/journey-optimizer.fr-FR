@@ -40,13 +40,13 @@ Pour minimiser ces problèmes de rendu, nous vous recommandons de garder votre s
 
 Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou une campagne, vous pouvez commencer à créer le contenu de votre e-mail.
 
-1. Dans l’écran de configuration des parcours ou des campagnes, parcourez l’écran **[!UICONTROL Modifier le contenu]** pour accéder au Concepteur d’e-mail. [En savoir plus](create-email.md#define-email-content)
+1. Dans l’écran de configuration des parcours ou des campagnes, parcourez l’écran **[!UICONTROL Modifier le contenu]** pour accéder au concepteur d’e-mail. [En savoir plus](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Dans la page d’accueil du Concepteur d’e-mail, choisissez la manière de concevoir votre e-mail à l’aide des options suivantes :
+1. Dans la page d’accueil du concepteur d’e-mail, choisissez la manière de concevoir votre e-mail à l’aide des options suivantes :
 
-   * **Concevez vos e-mails en partant de zéro** dans l’interface du Concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
+   * **Concevez vos e-mails en partant de zéro** dans l’interface du concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
 
    * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 

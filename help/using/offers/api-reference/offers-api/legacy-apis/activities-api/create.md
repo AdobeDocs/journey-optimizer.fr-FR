@@ -9,7 +9,7 @@ exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 76%
 
 Vous pouvez créer une décision en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre ID de conteneur.
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son unique `id`. Vous pouvez utiliser `id` lors des étapes suivantes pour mettre à jour ou supprimer votre décision.
+Une réponse réussie renvoie des informations sur la décision nouvellement créée, y compris son `id` unique. Vous pouvez utiliser l’`id` dans les étapes suivantes pour mettre à jour ou supprimer votre décision.
 
 ```json
 {

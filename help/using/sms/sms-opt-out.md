@@ -11,7 +11,7 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ Conformément aux normes et réglementations du secteur, tous les messages SMS d
 
 >[!IMPORTANT]
 >
->Les communications par SMS peuvent être soumises à diverses exigences légales qui dépendent de la nature de ces communications, de l’endroit d’où vous envoyez vos SMS et de celui de vos destinataires. Bien que Adobe Journey Optimizer gère les messages sur les numéros courts, longs et sans frais comme décrit ci-dessous, consultez votre service juridique pour vous assurer que vos communications de messagerie texte sont conformes à toutes les exigences de conformité légales applicables.
+>Les communications par SMS peuvent être soumises à diverses exigences légales qui dépendent de la nature de ces communications, de l’endroit d’où vous envoyez vos SMS et de celui de vos destinataires. Bien qu’Adobe Journey Optimizer traite les messages sur les numéros de code long, court et les numéros gratuits comme décrit ci-dessus, vous devez consulter votre service juridique pour vous assurer que vos communications par SMS sont conformes à toutes les exigences légales applicables.
 >
 
 ## Mots-clés entrants natifs {#sms-native-keywords}
 
-Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les codes courts, les codes sans fil et les codes longs : STOP, UNSTOP, START, QUIT, CANCEL, END et UNSUBSCRIBE. Notez que seuls Sinch et Infobip prennent en charge les mots-clés natifs lorsqu’ils sont utilisés avec Journey Optimizer.
+Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les messages sans frais, et à code long et court : STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE. Notez que seuls Sinch et Infobip prennent en charge les mots-clés natifs lorsqu’ils sont utilisés avec Journey Optimizer.
 
 Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers. Contactez votre fournisseur ou consultez son site de documentation pour en avoir la confirmation.
 

@@ -61,11 +61,11 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 ## Étape 2 : créer l’e-mail{#configure-email}
 
-1. Dans l’activité **E-mail**, cliquez sur **[!UICONTROL Modifier le contenu]**, puis cliquez sur **[!UICONTROL Concepteur d’e-mail]**.
+1. Dans l’activité **E-mail**, cliquez sur **[!UICONTROL Modifier le contenu]**, puis cliquez sur **[!UICONTROL concepteur d’e-mail]**.
 
    ![](assets/personalization-uc-helpers-1.png)
 
-1. Dans la palette gauche de la page d&#39;accueil du Concepteur d&#39;email, effectuez un glisser-déposer de trois composants de structure dans le corps du message.
+1. Dans la palette gauche de la page d&#39;accueil du concepteur d’e-mail, effectuez un glisser-déposer de trois composants de structure dans le corps du message.
 
 1. Effectuez un glisser-déposer d’un composant de contenu HTML dans chaque nouveau composant de structure.
 
@@ -73,7 +73,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 ## Étape 3 : insérer le prénom du client en majuscules {#uppercase-function}
 
-1. Sur la page d’accueil du Concepteur d’email, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
+1. Sur la page d’accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -117,7 +117,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 1. Rouvrez le contenu du message.
 
-1. Sur la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
+1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -214,7 +214,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 ## Étape 5 : insérer une note spécifique au produit {#if-helper}
 
-1. Sur la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le composant HTML dans lequel vous souhaitez insérer la note.
+1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez insérer la note.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
    ![](assets/personalization-uc-helpers-3.png)

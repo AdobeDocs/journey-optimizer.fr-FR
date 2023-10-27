@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la règle de décision nouvellement créée. `id`. Vous pouvez utiliser le `id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre règle de décision ou l’utiliser dans un tutoriel ultérieur pour créer des décisions, des règles de décision et des offres de secours.
+Une réponse réussie renvoie des informations sur l’`id` de règle de décision nouvellement créé. Vous pouvez utiliser l’`id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre règle de décision ou l’utiliser dans un tutoriel ultérieur pour créer des décisions, des règles de décision et des offres de secours.
 
 ```json
 {

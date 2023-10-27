@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Prise en main du style des e-mails {#get-started-email-style}
 
-Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL Journey Optimizer], vous pouvez ajuster un certain nombre de paramètres et d’attributs de style dans le volet **[!UICONTROL Styles]** du Concepteur d’e-mail.
+Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL Journey Optimizer], vous pouvez ajuster un certain nombre de paramètres et d’attributs de style dans le volet **[!UICONTROL Styles]** du concepteur d’e-mail.
 
 Vous pouvez appliquer vos modifications au corps de l’e-mail, à un composant de structure ou à un composant de contenu.
 

@@ -29,7 +29,7 @@ ht-degree: 100%
 
 Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
-1. Dans la page d’accueil du Concepteur d’e-mail, sélectionnez **[!UICONTROL Importer du contenu HTML]**.
+1. Dans la page d’accueil du concepteur d’e-mail, sélectionnez **[!UICONTROL Importer du contenu HTML]**.
 
    ![](assets/import-html_2.png)
 
@@ -41,7 +41,7 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
    Dans ce mode, vous pouvez uniquement personnaliser votre texte, ajouter des liens ou inclure des ressources à votre contenu.
 
-1. Pour pouvoir utiliser les composants de contenu du Concepteur d’e-mail, accédez à l’onglet **[!UICONTROL Convertisseur HTML]** et cliquez sur **[!UICONTROL Convertir]**.
+1. Pour pouvoir utiliser les composants de contenu du concepteur d’e-mail, accédez à l’onglet **[!UICONTROL Convertisseur HTML]** et cliquez sur **[!UICONTROL Convertir]**.
 
    ![](assets/html-imported.png)
 
@@ -49,7 +49,7 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
    >
    > L’utilisation d’une balise `<table>` comme première couche d’un fichier HTML peut entraîner une perte de style, y compris les paramètres d’arrière-plan et de largeur dans la balise de couche supérieure.
 
-1. Vous pouvez désormais personnaliser votre fichier importé selon vos besoins à l’aide des fonctionnalités du Concepteur d’e-mail. [En savoir plus](content-from-scratch.md)
+1. Vous pouvez désormais personnaliser votre fichier importé selon vos besoins à l’aide des fonctionnalités du concepteur d’e-mail. [En savoir plus](content-from-scratch.md)
 
 ## Vidéo pratique {#video}
 

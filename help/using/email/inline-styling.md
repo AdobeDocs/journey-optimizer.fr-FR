@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Ajout d’attributs de style intégrés {#inline-styling}
 
-Dans l’interface du Concepteur d’email, lorsque vous sélectionnez un élément et en affichez les paramètres dans le panneau latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
+Dans l’interface du concepteur d’e-mail, lorsque vous sélectionnez un élément et en affichez les paramètres dans le panneau latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
 1. Sélectionnez un élément de votre contenu.
 

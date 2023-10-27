@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur la collection que vous venez de créer, y compris sur ses `id`. Vous pouvez utiliser la variable `id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre collection, ou dans un tutoriel ultérieur pour créer une décision.
+Une réponse réussie renvoie des informations sur la collection nouvellement créée, y compris son `id`. Vous pouvez utiliser l’`id` lors d’étapes ultérieures pour mettre à jour ou supprimer votre collection ou pour créer une décision dans un tutoriel ultérieur.
 
 ```json
 {

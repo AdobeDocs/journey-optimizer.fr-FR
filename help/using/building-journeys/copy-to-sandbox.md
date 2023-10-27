@@ -12,7 +12,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 39%
+ht-degree: 41%
 
 ---
 
@@ -50,7 +50,7 @@ Journey Optimizer vous permet de copier un parcours complet d’un sandbox à u
 
 >[!CAUTION]
 >
->Certains éléments associés peuvent échapper à la copie dans le sandbox de destination. Il est vivement recommandé de vérifier la viabilité du parcours avant sa publication. Vous pourrez ainsi identifier tout objet potentiel manquant.
+>Certains éléments associés peuvent échapper à la copie dans le sandbox de destination. Il est vivement recommandé de vérifier la viabilité du parcours avant sa publication. Vous pourrez ainsi identifier tout objet potentiellement manquant.
 
 Les objets copiés dans le sandbox cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages qu’il contient sont transférés en mode brouillon. Vous pouvez ainsi effectuer une validation approfondie du parcours avant sa publication sur le sandbox cible. Le processus de copie ne copie que les métadonnées et les objets de ce parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
 

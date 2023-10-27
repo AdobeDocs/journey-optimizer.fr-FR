@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des campagnes
+title: Commencer avec les campagnes
 description: Apprenez en plus sur les campagnes dans Journey Optimizer.
 feature: Campaigns
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Prise en main des campagnes {#get-started-campaigns}
+# Commencer avec les campagnes {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
 >title="Créer des campagnes"
->abstract="Utilisation **Adobe Journey Optimizer** pour diffuser du contenu unique à une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié."
+>abstract="Utilisez **Adobe Journey Optimizer** pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié."
 
 
 >[!CONTEXTUALHELP]

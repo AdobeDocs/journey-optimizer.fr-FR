@@ -26,7 +26,7 @@ Ce tutoriel nécessite aussi que vous disposiez d&#39;un identifiant d&#39;empla
 
 ➡️  [Découvrez cette fonctionnalité en vidéo](#video)
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
 

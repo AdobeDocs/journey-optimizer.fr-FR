@@ -9,7 +9,7 @@ exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez modifier ou mettre à jour un emplacement en adressant une requête�
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
-## En-têtes Accepter et Type de contenu {#accept-and-content-type-headers}
+## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
 Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de l’emplacement, y compris son emplacement unique. `id`.
+Une réponse réussie renvoie les détails mis à jour de l’emplacement, y compris son `id` d’emplacement unique.
 
 ```json
 {

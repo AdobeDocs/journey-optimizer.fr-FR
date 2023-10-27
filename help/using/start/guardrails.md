@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1698'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 
 ### Actions personnalisées {#custom-actions-g}
 
-* Une limite de limitation de 150 000 appels de plus de 30 secondes est définie pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
+* Un plafond de 150 000 appels sur 30 secondes est défini pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
 * Les méthodes d’appel POST, PUT et GET sont prises en charge.
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »
@@ -137,29 +137,29 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 ## Mécanismes de sécurisation de la gestion des décisions {#decision-management}
 
-### Protections des performances {#performance-guardrails}
+### Mécanismes de sécurisation des performances {#performance-guardrails}
 
-Le débit de diffusion correspond au nombre de réponses de décision qui peuvent être diffusées par le service de l’application Decision Management dans un délai spécifié. Le nombre de décisions par seconde est indiqué dans le tableau ci-dessous.
+Le débit de diffusion correspond au nombre de réponses de décision qui peuvent être diffusées par le service de l’application de gestion des décisions dans un délai spécifié. Le nombre de décisions par seconde est indiqué dans le tableau ci-dessous.
 
 | API | Décisions par seconde |
 |---------|----------|
-| Requêtes d’API de prise de décision | 500 par seconde |
-| Requêtes d’API de prise de décision Edge | 5 000 par seconde |
+| Requêtes de l’API Decisioning | 500 par seconde |
+| Requêtes de l’API Edge Decisioning | 5 000 par seconde |
 
 ### Limites {#offers-limitations}
 
-Les limites de la gestion de la décision sont répertoriées ci-dessous.
+Les limites de la gestion des décisions sont répertoriées ci-dessous.
 
-* **Offres personnalisées approuvées + Offres de secours** - Jusqu’à 10 000 offres personnalisées approuvées et offres de secours approuvées.
-* **Décisions** - Jusqu&#39;à 10 000 décisions.
-* **Décisions en direct** - Offer Decisioning App Service prend en charge jusqu’à 1 000 décisions en direct.
-* **Offres renvoyées par réponse** - Offer Decisioning prend en charge jusqu’à 100 offres renvoyées par requête pour toutes les portées de décision dans la requête.
-* **Collections** - Jusqu’à 10 000 collections.
-* **Collections par décision** - Jusqu’à 30 collections par décision.
-* **Règles de décision + fonctions de classement** Jusqu’à 10 000 règles de décision et fonctions de classement combinées.
-* **Emplacements** - Jusqu’à 1 000 emplacements.
-* **Emplacements par décision** - Jusqu’à 30 emplacements par décision.
-* **Méthode de classement par décision** - Offer Decisioning App Service prend en charge jusqu’à 30 fonctions de classement par décision.
-* **Modèle de classement AI** - Offer Decisioning App Service prend en charge jusqu’à 5 modèles de classement AI.
-* **Qualificateur de collection par offre ou collection** - Offer Decisioning App Service prend en charge jusqu’à 20 qualificateurs de collection dans n’importe quelle offre personnalisée ou collection unique.
-* **Total des qualificateurs de collection** - Offer Decisioning App Service prend en charge jusqu’à 1 000 qualificateurs de collection.
+* **Offres personnalisées approuvées + Offres de secours** - Jusqu’à 10 000 offres personnalisées approuvées et offres de secours approuvées.
+* **Décisions** - Jusqu’à 10 000 décisions.
+* **Décisions en direct** - Le service de l’application Offer Decisioning prend en charge jusqu’à 1 000 décisions en direct.
+* **Offres renvoyées par réponse** - La prise de décisions sur les offres prend en charge jusqu’à 100 offres renvoyées par requête pour toutes les portées de décision dans la requête.
+* **Collections** - Jusqu’à 10 000 collections.
+* **Collections par décision** - Jusqu’à 30 collections par décision.
+* **Règles de décision + Fonctions de classement** - Jusqu’à 10 000 règles de décision et fonctions de classement.
+* **Emplacements** - Jusqu’à 1 000 emplacements.
+* **Emplacements par décision** - Jusqu’à 30 emplacements par décision.
+* **Méthode de classement par décision** - Le service de l’application Offer Decisioning prend en charge jusqu’à 30 fonctions de classement par décision.
+* **Modèle de classement AI** - Le service de l’application Offer Decisioning prend en charge jusqu’à 5 modèles de classement AI.
+* **Qualificateur de collection par offre ou collection** - Le service de l’application Offer Decisioning prend en charge jusqu’à 20 qualificateurs de collection dans n’importe quelle offre personnalisée ou collection unique.
+* **Total des qualificateurs de collection** - Le service de l’application Offer Decisioning prend en charge jusqu’à 1 000 qualificateurs de collection.

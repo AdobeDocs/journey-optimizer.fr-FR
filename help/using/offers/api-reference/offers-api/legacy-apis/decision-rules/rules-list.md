@@ -9,13 +9,13 @@ exl-id: 600aea10-3675-47b7-8f4b-f378308afd69
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Liste des règles de décision {#list-decision-rules}
 
-Les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité. Vous pouvez afficher une liste des règles de décision existantes dans un conteneur en adressant une seule requête de GET à la variable [!DNL Offer Library] API.
+Les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité. Vous pouvez afficher une liste de règles de décision existantes dans un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 
 **Format d’API**
 

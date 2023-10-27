@@ -12,7 +12,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1367'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ Pour pouvoir créer des profils, il vous faut d’abord créer un schéma ainsi 
 
 Pour **créer un schéma**, procédez comme suit :
 
-1. Dans la section du menu DATA MANAGEMENT, cliquez sur **[!UICONTROL Schémas]**.
+1. Dans la section du menu Gestion des données, cliquez sur **[!UICONTROL Schémas]**.
    ![](assets/test-profiles-0.png)
-1. Cliquez sur **[!UICONTROL Créer un schéma]**, en haut à droite, sélectionnez un type de schéma, par exemple **Profil individuel** et cliquez sur **Suivant**.
+1. Cliquez sur **[!UICONTROL Créer un schéma]**, dans le coin supérieur droit, sélectionnez un type de schéma, par exemple **Profil individuel** et cliquez sur **Suivant**.
    ![](assets/test-profiles-1.png)
 1. Saisissez le nom de votre schéma, puis cliquez sur **Terminer**.
    ![](assets/test-profiles-1-bis.png)
-1. Dans le **Groupes de champs** , sur la gauche, cliquez sur **Ajouter$$ et sélectionnez les groupes de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
+1. Dans la section **Groupes de champs**, à gauche, cliquez sur **Ajouter$$ et sélectionnez les groupe de champs appropriés. Veillez à ajouter le groupe de champs **Détails du profil de test**.
    ![](assets/test-profiles-1-ter.png)
 Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes de champs]** : la liste des groupes de champs s&#39;affiche dans l&#39;écran aperçu du schéma.
    ![](assets/test-profiles-2.png)
@@ -55,7 +55,7 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
    >
    >Cliquez sur le nom du schéma pour mettre à jour ses propriétés.
 
-1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l&#39;identité principale.
+1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l’identité principale.
    ![](assets/test-profiles-3.png)
 1. Dans le volet de droite **[!UICONTROL Propriétés du champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité principale]**, puis sélectionnez un espace de noms. Si vous souhaitez que l&#39;identité principale soit une adresse e-mail, choisissez l&#39;espace de noms **[!UICONTROL E-mail]**. Cliquez sur **[!UICONTROL Appliquer]**.
    ![](assets/test-profiles-4bis.png)
