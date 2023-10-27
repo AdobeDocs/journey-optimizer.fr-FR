@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 98%
@@ -35,7 +35,7 @@ Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;ac
 
 ## À propos de l&#39;activité d&#39;attente{#about_wait}
 
-La durée d&#39;attente maximale est de 30 jours. En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md).
+La durée d&#39;attente maximale est de 29 jours. En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. Voir [cette page](../building-journeys/testing-the-journey.md).
 
 Soyez prudent lorsque vous utilisez plusieurs activités d’attente dans un parcours, car la temporisation du parcours global est de 30 jours, ce qui signifie qu’un profil abandonnera toujours le parcours au maximum 30 jours après son entrée. Consultez [cette page](../building-journeys/journey-gs.md#global_timeout).
 
