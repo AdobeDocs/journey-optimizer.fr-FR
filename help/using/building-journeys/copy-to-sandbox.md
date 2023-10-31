@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 41%
+source-wordcount: '718'
+ht-degree: 34%
 
 ---
 
@@ -44,6 +44,10 @@ Les outils Sandbox vous permettent de copier des objets sur plusieurs environnem
 
 Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte de Journey Optimizer. Pour plus d’informations sur la fonctionnalité elle-même, reportez-vous à la section [Documentation Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>Cette fonctionnalité nécessite les autorisations suivantes : manage-sandbox (ou view-sandbox) et manage-package.
+
 ## Prise en main des outils Sandbox{#sandbox-gs}
 
 Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production. Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ Journey Optimizer vous permet de copier un parcours complet d’un sandbox à u
 
 Les objets copiés dans le sandbox cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages qu’il contient sont transférés en mode brouillon. Vous pouvez ainsi effectuer une validation approfondie du parcours avant sa publication sur le sandbox cible. Le processus de copie ne copie que les métadonnées et les objets de ce parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
 
-## Exporter le parcours {#export}
+Le processus de copie est réalisé via un export de package et un import entre les environnements de test source et cible. Les étapes générales pour copier un parcours d’un environnement de test vers un autre sont les suivantes :
 
-Pour copier un parcours dans un autre sandbox, procédez comme suit :
+1. Ajoutez le parcours en tant que package dans l’environnement de test source.
+1. Exportez le package vers l’environnement de test cible.
+
+## Ajouter le parcours sous la forme d’un package{#export}
+
+Pour copier un parcours dans un autre environnement de test, vous devez d’abord ajouter le parcours sous la forme d’un package dans l’environnement de test source. Procédez de la façon suivante :
 
 1. Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. La liste des parcours s&#39;affiche.
 
 1. Recherchez le parcours à copier, puis cliquez sur le bouton **Autres actions** (les trois points en regard du nom du parcours) et cliquez sur **Ajouter au package**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-La variable **Ajouter au package** s’affiche.
+   La variable **Ajouter au package** s’affiche.
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. Choisissez si vous souhaitez ajouter le parcours à un package existant ou créer un nouveau package :
 
@@ -85,9 +94,11 @@ La variable **Ajouter au package** s’affiche.
 
    ![](assets/journey-sandbox9.png)
 
-## Importer le parcours {#import}
+## Exportez le package vers l’environnement de test cible. {#import}
 
-1. Dans la liste des packages, cliquez sur l’icône + en regard du nom du package.
+Une fois le package publié, vous devez l’exporter vers l’environnement de test cible.
+
+1. Dans l’environnement de test source, cliquez sur le **[!UICONTROL Environnements de test]** , sélectionnez **Packages** et cliquez sur l’icône + en regard du package à exporter.
 
    ![](assets/journey-sandbox5.png)
 
