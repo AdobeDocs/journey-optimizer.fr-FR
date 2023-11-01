@@ -40,7 +40,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Outils Sandbox</strong><br/></th>
+<th><strong>Outils sandbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
