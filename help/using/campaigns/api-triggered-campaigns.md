@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 98%
+source-wordcount: '967'
+ht-degree: 95%
 
 ---
 
@@ -36,6 +36,8 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 >[!NOTE]
 >
 >Pour l’instant, le mode Diffusion rapide n’est pas pris en charge pour les campagnes déclenchées par l’API de notification push.
+
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Créer une campagne déclenchée par API {#create}
 
@@ -132,3 +134,9 @@ Pour activer la création de profil lors de l’exécution de la campagne, activ
 >[!NOTE]
 >
 >Les profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de noms par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push).
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions utilisateur, à l’aide de l’API REST Interactive Message Execution.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
