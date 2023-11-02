@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 97%
+source-wordcount: '1356'
+ht-degree: 94%
 
 ---
 
@@ -47,13 +47,13 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité (facultatif).
 
-1. Dans le champ **[!UICONTROL Audience]**, sélectionnez l’audience Adobe Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**.
-
-   Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
+1. Dans le champ **[!UICONTROL Audience]**, sélectionnez l’audience Adobe Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez sélectionner n’importe quelle audience Adobe Experience Platform générée à l’aide de [définitions de segment](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Seules les personnes présentant les statuts de participationd&#39;audience **Réalisé** et **Existant** rejoignent le parcours. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+   >Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d&#39;audience](../audience/get-started-audience-orchestration.md) ou [téléchargé à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version bêta privée.
+
+   Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >Seules les personnes présentant les statuts de participationd&#39;audience **Réalisé** et **Existant** rejoignent le parcours. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
 
 1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace).
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 93%
 
 ---
 
@@ -27,11 +27,15 @@ ht-degree: 100%
 >title="Sélectionner l’audience de la campagne"
 >abstract="Cette liste affiche toutes les audiences Adobe Experience Platform disponibles. Sélectionnez l’audience à cibler avec votre campagne. Le message configuré dans l’opération sera envoyé à toutes les personnes appartenant à l’audience sélectionnée. [En savoir plus sur les audiences](../audience/about-audiences.md)."
 
-[!DNL Journey Optimizer] vous permet de créer d’utiliser des audiences Adobe Experience Platform à l’aide des données de profil client en temps réel directement à partir du menu **[!UICONTROL Audiences]** et de les utiliser dans vos parcours ou campagnes.
-
-Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+[!DNL Journey Optimizer] vous permet de créer d’utiliser des audiences Adobe Experience Platform à l’aide des données de profil client en temps réel directement à partir du menu **[!UICONTROL Audiences]** et de les utiliser dans vos parcours ou campagnes. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 ## Utiliser des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+Vous pouvez sélectionner dans des campagnes et des parcours toute audience Adobe Experience Platform générée à l’aide de [définitions de segment](../audience/creating-a-segment-definition.md).
+
+>[!NOTE]
+>
+>Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d&#39;audience](../audience/get-started-audience-orchestration.md) ou [téléchargé à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version bêta privée.
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
