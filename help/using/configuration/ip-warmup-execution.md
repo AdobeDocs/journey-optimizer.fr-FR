@@ -11,7 +11,7 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 96%
@@ -190,7 +190,7 @@ Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécu
 >
 >Chaque exécution doit être activée au moins 12 heures avant l’heure d’envoi réelle. Sinon, la segmentation risque de ne pas être terminée.
 
-Lorsque vous activez une exécution, plusieurs segments sont automatiquement créés.
+Lorsque vous activez une exécution, plusieurs audiences sont automatiquement créées.
 
 * Si vous activez la première exécution d’une phase :
 
