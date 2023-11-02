@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,8 @@ Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailin
 >[!NOTE]
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
+
+En outre, vous pouvez tirer parti de Journey Optimizer **API REST de suppression** pour contrôler vos messages sortants à l’aide de la suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## Pourquoi une liste de suppression ? {#why-suppression-list}
 

@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 34%
+source-wordcount: '750'
+ht-degree: 32%
 
 ---
 
@@ -62,6 +62,8 @@ Le processus de copie est réalisé via un export de package et un import entre 
 
 1. Ajoutez le parcours en tant que package dans l’environnement de test source.
 1. Exportez le package vers l’environnement de test cible.
+
+En outre, vous pouvez tirer parti de Journey Optimizer **API REST du service de copie d’objet** pour gérer les objets des environnements de test. [Découvrez comment utiliser l’API REST du service de copie d’objet](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Ajouter le parcours sous la forme d’un package{#export}
 

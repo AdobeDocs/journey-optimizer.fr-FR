@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion de la liste de suppression
+title: Gérer la liste de suppression
 description: Découvrez comment accéder à la liste de suppression de Journey Optimizer et la gérer
 feature: Deliverability, Channel Configuration
 topic: Administration
@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: suppression, liste, bounce, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '1595'
+ht-degree: 98%
 
 ---
 
@@ -27,6 +27,8 @@ Pour en savoir plus sur le concept et l’utilisation de la liste de suppression
 >[!NOTE]
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
+
+En outre, vous pouvez tirer parti de Journey Optimizer **API REST de suppression** pour contrôler vos messages sortants à l’aide de la suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## Accéder à la liste de suppression {#access-suppression-list}
 
