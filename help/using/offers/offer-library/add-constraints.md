@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2396'
 ht-degree: 92%
 
 ---
@@ -44,6 +44,10 @@ Les contraintes vous permettent de définir les conditions d’affichage d’une
 1. Définissez la **[!UICONTROL Priorité]** de l&#39;offre par rapport à d&#39;autres si l&#39;utilisateur est éligible à plusieurs offres. Plus la priorité d&#39;une offre est élevée, plus elle sera comparée à celle d&#39;autres offres.
 
    ![](../assets/offer-priority.png)
+
+   >[!NOTE]
+   >
+   >La priorité de l’offre doit être une valeur entière (pas de décimales).
 
 1. Spécifiez la **[!UICONTROL Limitation]** de l’offre, soit le nombre total de fois où l’offre sera présentée. [En savoir plus](#capping)
 

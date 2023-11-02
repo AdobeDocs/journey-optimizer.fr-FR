@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 84%
+source-wordcount: '1034'
+ht-degree: 83%
 
 ---
 
@@ -76,6 +76,10 @@ Pour créer un élément de décision, procédez comme suit :
    1. Définissez la **[!UICONTROL Priorité]** de l’élément de décision par rapport aux autres, si un profil est qualifié pour plusieurs éléments. Une priorité plus élevée confère à l’élément une préséance sur les autres.
 
    ![](assets/item-attributes.png)
+
+   >[!NOTE]
+   >
+   >La priorité est un type de données entier. Tous les attributs qui sont des types de données entiers doivent contenir des valeurs entières (pas de décimales).
 
 1. Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont définis dans le schéma de catalogue des éléments de décision. [Découvrez comment utiliser les catalogues](catalogs.md).
 
