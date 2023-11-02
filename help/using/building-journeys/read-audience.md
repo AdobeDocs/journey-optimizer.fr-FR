@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 97%
@@ -37,7 +37,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 * Pour l’instant, l’utilisation des audiences [importé d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) dans parcours est disponible en version bêta privée. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-### Configurer l’activité {#configuring-segment-trigger-activity}
+## Configurer l’activité {#configuring-segment-trigger-activity}
 
 Les étapes de configuration de l’activité Lecture d’audience sont les suivantes :
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >Les parcours de lecture d’audience en une fois passent au statut Terminé 30 jours après l’exécution du parcours. Pour la Lecture d’audience planifiée, cela se passe 30 jours après l’exécution de la dernière occurrence.
 
-### Tester et publier le parcours {#testing-publishing}
+## Tester et publier le parcours {#testing-publishing}
 
 L’activité **[!UICONTROL Lecture d’audience]** vous permet de tester le parcours sur un profil unitaire.
 
