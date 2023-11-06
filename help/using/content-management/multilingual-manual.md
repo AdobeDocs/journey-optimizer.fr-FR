@@ -10,10 +10,11 @@ level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
-workflow-type: tm+mt
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,22 +24,22 @@ ht-degree: 83%
 
 **Table des matières**
 
-* [Commencer avec le contenu multilingue](multilingual-gs.md)
+* [Prise en main du contenu multilingue](multilingual-gs.md)
 * **[Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)**
 * [Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)
 * [Rapport de campagne multilingue](multilingual-report.md)
 
 >[!ENDSHADEBOX]
 
-Grâce au flux manuel, vous pouvez traduire facilement votre contenu directement dans votre campagne par email, notification push ou SMS, ce qui vous permet de disposer d’options de contrôle et de personnalisation précises pour vos messages multilingues. De plus, vous pouvez facilement importer du contenu multilingue préexistant à l’aide de l’option Importer un HTML .
+Grâce au flux manuel, vous pouvez traduire facilement votre contenu directement dans votre campagne par e-mail, notification push ou SMS, ce qui vous permet de disposer d’options de contrôle et de personnalisation précises pour vos messages multilingues. De plus, vous pouvez facilement importer du contenu multilingue préexistant à l’aide de l’option Importer un HTML.
 
-Pour créer du contenu multilingue à l’aide de la traduction manuelle, procédez comme suit :
+Pour créer du contenu multilingue à l’aide de la traduction manuelle, procédez comme suit :
 
 1. [Créer vos paramètres régionaux](#create-locale).
 
-1. [Créer des paramètres de langue](#create-language-settings).
+1. [Créez des paramètres de langue](#create-language-settings).
 
-1. [Créer une campagne multilingue](#create-a-multilingual-campaign).
+1. [Créez une campagne multilingue](#create-a-multilingual-campaign).
 
 ## Créer un paramètre régional {#create-locale}
 
@@ -104,9 +105,9 @@ Dans cette section, vous pouvez définir votre langue principale et les paramèt
 
 ## Créer une campagne multilingue {#create-multilingual-campaign}
 
-Après avoir configuré votre contenu multilingue, vous êtes prêt à concevoir votre campagne et à personnaliser le contenu pour chacun des paramètres régionaux sélectionnés.
+Après avoir configuré votre contenu multilingue, vous pouvez concevoir votre campagne et personnaliser le contenu de chacun des paramètres régionaux sélectionnés.
 
-1. Commencez par créer et configurer votre campagne Email, SMS ou Notification push selon vos besoins. [En savoir plus](../campaigns/create-campaign.md)
+1. Commencez par créer et configurer votre campagne par e-mail, SMS ou notification push selon vos besoins. [En savoir plus](../campaigns/create-campaign.md)
 
 1. Accédez au menu **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Modifier le contenu]**.
 
