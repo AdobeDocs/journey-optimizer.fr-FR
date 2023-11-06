@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Pour créer une formule de classement, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >Lors de la création d’une formule de classement, la recherche dans une période précédente n’est pas prise en charge. Par exemple, si vous spécifiez un événement d’expérience survenu au cours du dernier mois comme composant de la formule. Toute tentative d’inclusion d’une période de recherche arrière lors de la création de la formule déclenche une erreur lors de son enregistrement.
+   >Lors de la création d’une formule de classement, la recherche dans une période précédente n’est pas prise en charge. Par exemple, si vous spécifiez un événement d’expérience qui s’est produit au cours du dernier mois en tant que composant de la formule. Toute tentative d’inclusion d’une période de recherche arrière lors de la création d’une formule déclenche une erreur lors de son enregistrement.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Votre formule de classement est créée. Vous pouvez la sélectionner dans la liste pour obtenir des détails et la modifier ou la supprimer.
 
