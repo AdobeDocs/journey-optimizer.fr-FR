@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    >[!CAUTION]
    >
-   >* If [Modèle AI](../ranking/ai-models.md) est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement AI et ils doivent utiliser le même modèle d’AI spécifique.
+   >* Si le [modèle d’IA](../ranking/ai-models.md) est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement AI et le même modèle d’AI spécifique.
    >
-   >* Un seul groupe de critères d’évaluation peut utiliser le modèle AI. Tous les autres groupes d’une portée de décision doivent utiliser d’autres méthodes de classement (priorité ou formule). [En savoir plus sur les méthodes de classement](../offer-activities/configure-offer-selection.md)
+   >* Un seul groupe de critères d’évaluation peut utiliser le modèle d’IA. Tous les autres groupes d’une portée de décision doivent utiliser d’autres méthodes de classement (priorité ou formule). [En savoir plus sur les méthodes de classement](../offer-activities/configure-offer-selection.md)
 
 1. Pour ajouter un emplacement supplémentaire pour vos offres dans le cadre de cette décision, cliquez sur le bouton **[!UICONTROL Nouvelle portée]**. Répétez les étapes ci-dessus pour chaque portée de décision.
 
