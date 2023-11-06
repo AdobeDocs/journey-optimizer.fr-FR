@@ -1,21 +1,22 @@
 ---
-title: Prévisualiser le contenu
+title: Prévisualiser votre contenu
 description: Découvrez comment prévisualiser votre contenu.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+exl-id: 6477270c-0309-411a-8254-c7ffc4419492
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Prévisualiser le contenu {#preview}
+# Prévisualiser votre contenu {#preview}
 
-Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser le contenu de votre Suivez les étapes ci-dessous :
+Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser votre contenu. Suivez les étapes ci-dessous :
 
-1. Dans l&#39;écran d&#39;édition du contenu de votre message ou dans le Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+1. Dans l’écran Modifier le contenu de votre message, ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
 1. Sélectionnez un profil de test. Vous pouvez vérifier les valeurs disponibles dans les colonnes. Utilisez les flèches droite/gauche pour parcourir les données.
 
@@ -35,4 +36,4 @@ Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez pr�
 
    ![](../email/assets/preview-test-profile.png)
 
-1. Sélectionnez d&#39;autres profils de test pour prévisualiser votre email pour chaque variante de votre message.
+1. Sélectionnez d’autres profils de test pour prévisualiser votre e-mail pour chaque variante de votre message.
