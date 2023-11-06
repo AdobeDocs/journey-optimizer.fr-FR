@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -184,7 +184,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <tbody>
 <tr>
 <td>
-<p>Envoyez automatiquement vos notifications push ou vos e-mails au meilleur moment pour chaque client avec Adobe Journey Optimizer. L’optimisation du temps d’envoi, optimisée par les services d’IA de l’Adobe, prédit le meilleur moment pour envoyer un message électronique ou push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clics historiques prêts à l’emploi.</p>
+<p>Envoyez automatiquement vos notifications push ou vos e-mails au meilleur moment pour chaque client avec Adobe Journey Optimizer. L’optimisation de l’heure d’envoi, proposée par les services d’IA d’Adobe, prédit le meilleur moment pour envoyer un e-mail ou une notification push afin d’optimiser l’engagement en fonction des taux d’ouverture et de clics historiques prêts à l’emploi.</p>
 <p>Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.</p>
 <p>Pour plus d'informations, consultez la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentation détaillée</a>.</p>
 </td>
