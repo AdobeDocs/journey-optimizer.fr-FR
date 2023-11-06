@@ -4,10 +4,11 @@ description: Découvrez comment sélectionner des profils de test pour prévisua
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
-workflow-type: tm+mt
+exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +17,17 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="Utiliser des profils de test pour vérifier votre contenu"
->abstract="Utilisez des profils de test pour prévisualiser et tester votre contenu. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l&#39;aide des données de profil de test."
+>abstract="Utilisez des profils de test pour prévisualiser et tester votre contenu. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l’aide des données de profil de test."
 
-Avant de prévisualiser ou de tester votre contenu, vous devez d&#39;abord sélectionner des profils de test, c&#39;est-à-dire des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage définis. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md)
+Avant de prévisualiser ou de tester votre contenu, vous devez d’abord sélectionner des profils de test, c’est-à-dire des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage définis. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md).
 
-Pour sélectionner des profils de test, procédez comme suit :
+Pour sélectionner des profils de test, procédez comme suit :
 
-1. Dans l&#39;écran d&#39;édition du contenu de votre message ou dans le Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+1. Dans l’écran Modifier le contenu de votre message, ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Gestion des profils de test]** puis sélectionnez l’espace de noms à utiliser pour identifier les profils de test en cliquant sur le bouton **[!UICONTROL Espace de noms d’identité]** icône de sélection. [En savoir plus sur les espaces de noms d’identité Adobe Experience Platform](../audience/get-started-identity.md).
+1. Cliquez sur le bouton **[!UICONTROL Gérer des profils de test]** puis sélectionnez l’espace de noms à utiliser pour identifier les profils de test en cliquant sur l’icône de sélection **[!UICONTROL Espace de noms d’identité]**. [Apprenez-en davantage sur les espaces de noms d’identité Adobe Experience Platform](../audience/get-started-identity.md).
 
-   Dans l’exemple ci-dessous, nous utilisons la méthode **Email** espace de noms.
+   Dans l’exemple ci-dessous, nous utilisons l’espace de noms **E-mail**.
 
    ![](../email/assets/previewselect-namespace.png)
 
