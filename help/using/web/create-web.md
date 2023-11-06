@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >title="Prévisualiser votre expérience web."
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience web."
 
-Une fois que [création de votre expérience web](edit-web-content.md) grâce au web designer, vous pouvez utiliser des profils de test pour prévisualiser vos pages web modifiées. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu à l’aide des données de profil de test.
+Une fois que vous avez [créé votre expérience web](edit-web-content.md) grâce au concepteur web, vous pouvez afficher un aperçu de vos pages web modifiées. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu à l’aide des données de profil de test.
 
-Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** depuis l&#39;écran d&#39;édition de contenu de la campagne web ou le web designer, ajoutez un profil de test pour vérifier votre page web à l&#39;aide des données du profil de test.
+Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]** depuis l’écran de modification de contenu de la campagne web ou le concepteur web, ajoutez un profil de test pour vérifier votre page web à l’aide des données du profil de test.
 
 ![](assets/web-designer-preview.png)
 
@@ -98,7 +98,7 @@ Vous pouvez également l’ouvrir dans le navigateur par défaut ou copier l’U
 >
 >Lors de la copie de l’URL de test, le contenu affiché est celui personnalisé pour le profil de test utilisé lors de la génération de la simulation de contenu dans [!DNL Journey Optimizer].
 
-Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 ## Activation de la campagne web {#activate-web-campaign}
 
