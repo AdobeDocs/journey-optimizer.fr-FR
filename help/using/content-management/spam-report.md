@@ -1,41 +1,42 @@
 ---
-title: Utiliser le rapport spam
-description: Découvrez comment utiliser le rapport spam.
+title: Utiliser le rapport de spam
+description: Découvrez comment utiliser le rapport de spam.
 feature: Preview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
-workflow-type: tm+mt
+exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Utiliser le rapport Spam {#spam-report}
+# Utiliser le rapport de spam {#spam-report}
 
 >[!AVAILABILITY]
 >
->La fonctionnalité de rapport Spam est actuellement disponible en version bêta et ne permet de sélectionner que des utilisateurs. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>La fonctionnalité de rapport de spam est actuellement disponible en version Beta pour certains utilisateurs ou certaines utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
-[!DNL Journey Optimizer] vous permet de vérifier les performances de votre contenu par rapport au filtrage du spam et de vous assurer que vos messages entrent dans les boîtes de réception de vos clients, et non dans le spam.
+[!DNL Journey Optimizer] vous permet de vérifier les performances de votre contenu par rapport au filtrage du spam et de vous assurer que vos messages arrivent dans les boîtes de réception de vos clientes et clients, et non dans les spams.
 
 >[!CAUTION]
 >
->* Cette fonctionnalité est actuellement disponible uniquement pour le canal Email.
+>* Cette fonctionnalité est actuellement disponible uniquement pour le canal E-mail.
 >
 >* Pour l’instant, l’analyse du rapport de spam ne peut être effectuée que pour le contenu en anglais.
 
-Lors de la modification ou de la prévisualisation de votre contenu, la variable **[!UICONTROL Rapport Spam]** fournit une notation et des conseils afin d’améliorer les scores de chaque élément répertorié.
+Lors de la modification ou de la prévisualisation de votre contenu, l’option **[!UICONTROL Rapport de spam]** fournit une notation et des conseils afin d’améliorer les scores de chaque élément répertorié.
 
-Cela vous permet de déterminer si un message risque d’être considéré comme indésirable par les outils anti-spam utilisés à sa réception et d’agir dans le cas contraire.
+Cela vous permet de déterminer si un message risque d’être considéré comme un spam par les outils anti-spam utilisés à sa réception et d’agir dans le cas contraire.
 
 >[!CAUTION]
 >
->Le rapport Spam ne fournit que des indications et des avertissements. Notez que l’envoi de messages n’est pas empêché si le rapport Spam indique que votre contenu est considéré comme indésirable. Vous avez le choix d’agir en fonction du score et des améliorations suggérées.
+>Le rapport de spam ne fournit que des indications et des avertissements. Notez que l’envoi de messages n’est pas empêché si le rapport de spam indique que votre contenu est considéré comme un spam. Vous avez le choix d’agir en fonction du score et des améliorations suggérées.
 
-Pour utiliser la variable **[!UICONTROL Rapport Spam]** , suivez les étapes ci-dessous.
+Pour utiliser la fonctionnalité **[!UICONTROL Rapport de spam]**, suivez les étapes ci-dessous.
 
 <!--For example spam scoring tool can tell that there are too many Images compared to the text. Retailers tend to do this even though the spam score gets worse because the content is more engaging.-->
 
@@ -47,7 +48,7 @@ They should be able to get scores for each individual items as shown by market s
 
 They should also get suggestions on how to improve the score better to be confident that the messages don't get categorised as spam.-->
 
-1. Dans la **[!UICONTROL Simuler]** , cliquez sur l’écran **[!UICONTROL Rapport Spam]** bouton .
+1. Dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Rapport de spam]**.
 
    ![](assets/spam-report-button.png)
 
@@ -57,7 +58,7 @@ They should also get suggestions on how to improve the score better to be confid
     ![](assets/spam-report-check-score.png)
 -->
 
-1. Une vérification anti-spam est automatiquement effectuée et le **[!UICONTROL Rapport Spam]** affiche les résultats. Il indique comment se comporte votre contenu en termes de disposition du corps, de structure, de taille d’image, de mots déclencheurs de spam, le cas échéant, etc.
+1. Une vérification anti-spam est automatiquement effectuée et la fenêtre **[!UICONTROL Rapport de spam]** affiche les résultats. Elle indique comment se comporte votre contenu en termes de disposition du corps, de structure, de taille d’image, de mots déclencheurs de spam, le cas échéant, etc.
 
    ![](assets/spam-report-high-score.png)
 
@@ -65,9 +66,9 @@ They should also get suggestions on how to improve the score better to be confid
 
    Si le score est supérieur à 5, un avertissement s’affiche. Il indique que certains messages peuvent être bloqués ou marqués comme spam par les outils anti-spam lors de leur réception.
 
-1. En fonction de cette notation, si vous considérez que certains éléments peuvent être améliorés, accédez à votre contenu à l’aide de la variable [Concepteur d&#39;email](../email/content-from-scratch.md) et effectuez les mises à jour nécessaires.
+1. En fonction de cette notation, si vous considérez que certains éléments peuvent être améliorés, accédez à votre contenu à l’aide du [Concepteur d’e-mail](../email/content-from-scratch.md) et effectuez les mises à jour nécessaires.
 
-1. Une fois les modifications effectuées, revenez à la **[!UICONTROL Rapport Spam]** pour vous assurer que votre score a été amélioré.
+1. Une fois les modifications effectuées, revenez à l’écran **[!UICONTROL Rapport de spam]** pour vous assurer de l’amélioration de votre score.
 
    ![](assets/spam-report-low-score.png)
 
@@ -79,6 +80,3 @@ They should also get suggestions on how to improve the score better to be confid
 
     ![](assets/spam-report-alert.png)
 -->
-
-
-
