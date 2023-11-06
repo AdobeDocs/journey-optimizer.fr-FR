@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
 source-wordcount: '1034'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
 >title="Gérer les éléments de décision"
->abstract="Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Actuellement, tous les éléments de décision créés sont consolidés dans un seul catalogue &quot;Offres&quot;. Depuis cet écran, vous pouvez également accéder au schéma du catalogue à l’aide de la fonction **Edition du schéma** et créez des attributs personnalisés pour vos éléments de décision."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurer le catalogue d’éléments"
+>abstract="Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Actuellement, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres ». Depuis cet écran, vous pouvez également accéder au schéma du catalogue à l’aide du bouton **Modifier le schéma** et créer des attributs personnalisés pour vos éléments de décision."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configurer le catalogue d’éléments"
 
 >[!BEGINSHADEBOX]
 
@@ -49,21 +49,21 @@ Avant de créer un élément de décision, veillez à créer une **règle de dé
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
->title="Définition de la priorité de l’élément de décision"
+>title="Définir la priorité de l’élément de décision"
 >abstract="Si un profil est admissible pour plusieurs éléments, la priorité permet de comparer cet élément de décision à d’autres. Une priorité plus élevée confère à l’élément une préséance sur les autres."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="Définition des attributs personnalisés"
->abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Elles sont créées dans le schéma de catalogue des éléments de décision. Cette section s’affiche uniquement si vous avez ajouté au moins un attribut personnalisé au schéma de catalogue."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurer le catalogue d’éléments"
+>title="Définir les attributs personnalisés"
+>abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision. Cette section s’affiche uniquement si vous avez ajouté au moins un attribut personnalisé au schéma de catalogue."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configurer le catalogue d’éléments"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
->title="Ajout d’audiences ou de règles de décision"
->abstract="Par défaut, tous les profils sont éligibles pour recevoir l’élément de décision, mais vous pouvez utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Utilisation des audiences"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Utilisation de règles de décision"
+>title="Ajouter des audiences ou des règles de décision"
+>abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Utiliser des audiences"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=fr" text="Utiliser des règles de décision"
 
 Pour créer un élément de décision, procédez comme suit :
 

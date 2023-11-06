@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '4527'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Les notes de mise à jour précédentes sont disponibles sur [cette page](releas
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Notes de mise à jour d’octobre 2023 {#oct-rn-2023}
+## Notes de mise à jour d’octobre 2023 {#oct-rn-2023}
 
 ### Nouvelles fonctionnalités{#oct-2023-features}
 
@@ -40,13 +40,13 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Outils sandbox</strong><br/></th>
+<th><strong>Outil Sandbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’outil Sandbox vous permet de copier des objets sur plusieurs environnements de test en exploitant l’exportation et l’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même environnement de test.</p>
+<p>L’outil Sandbox vous permet de copier des objets sur plusieurs sandbox en exploitant l’export et l’import de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/copy-to-sandbox.md">documentation détaillée</a>.</p>
 </td>
@@ -73,13 +73,13 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>MMS (Multimedia Message Service) dans les SMS</strong><br/></th>
+<th><strong>MMS (Multimedia Message Service, service de messagerie multimédia) dans les SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des messages MMS (Multimedia Message Service), ce qui permet le partage d’images, de GIFs ou de vidéos avec vos clients. Notez que cette fonctionnalité est actuellement disponible avec Sinch uniquement.</p>
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Notez que cette fonctionnalité est actuellement disponible avec Sinch uniquement.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../sms/create-sms.md#sms-content">documentation détaillée</a>.</p>
 </tr>
@@ -93,11 +93,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 * Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
-* Vous pouvez désormais cibler les audiences créées par le biais de la composition de l’audience et utiliser les attributs d’enrichissement dans les Parcours. [En savoir plus](../building-journeys/read-audience.md)
+* Vous pouvez désormais cibler les audiences créées par le biais de la composition de l’audience et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
->Ces fonctionnalités sont actuellement disponibles en version bêta privée.
+>Ces fonctionnalités sont actuellement disponibles en version Private Beta.
 
 <!--
 **Spam scoring for emails**
@@ -107,15 +107,15 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Campagnes**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche désormais dans la liste des campagnes avec l’état de la campagne. [En savoir plus](../campaigns/modify-stop-campaign.md#statuses)
+* Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche désormais dans la liste des campagnes avec le statut de la campagne. [En savoir plus](../campaigns/modify-stop-campaign.md#statuses)
 
 **Parcours**
 
-* La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cette amélioration a été introduite afin d’éviter que les durées d’attente ne dépassent les 30 jours de parcours. Cela s’applique à :
+* La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cette amélioration a été introduite afin d’éviter que les temps d’attente ne dépassent la durée de vie de 30 jours du parcours. Cela s’applique aux éléments suivants :
 
-   * la valeur **Durée** dans le champ [activité d’attente](../building-journeys/wait-activity.md)
-   * la valeur **Période d’attente de rentrée** in [Propriétés du parcours](../building-journeys/journey-gs.md#entrance)
-   * la valeur **Attendre** dans la définition du délai d’expiration de [activités d’événement](../building-journeys/general-events.md#events-specific-time).
+   * Le champ **Durée** dans l’[activité d’attente](../building-journeys/wait-activity.md).
+   * La **période d’attente de reprise** dans les [propriétés du parcours](../building-journeys/journey-gs.md#entrance).
+   * Le champ **Attendre pendant** dans la définition du délai d’expiration des [activités d’événement](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**

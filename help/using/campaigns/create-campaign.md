@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher 
 
 >[!IMPORTANT]
 >
->Pour l’instant, l’utilisation des audiences [importé d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) dans les campagnes est disponible en version bêta privée. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Pour l’instant, l’utilisation des audiences [importées depuis un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) dans les campagnes est disponible en version Private Beta. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 >
 >Pour les campagnes déclenchées par API, l’audience doit être définie via un appel API. [En savoir plus](api-triggered-campaigns.md)
 

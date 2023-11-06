@@ -14,7 +14,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Une fois que vous avez créé une ou plusieurs [campagnes de préchauffage d’a
 
 >[!CAUTION]
 >
->Pour accéder, créer, modifier et supprimer les plans de réchauffement des adresses IP, vous devez disposer de la variable **[!UICONTROL Consultant en matière de délivrabilité]** autorisation. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>Pour créer, modifier supprimer des plans de préchauffage d’adresses IP, et y accéder, vous devez disposer de l’autorisation **[!UICONTROL Consultant ou consultante en délivrabilité]**. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 
 ## Préparer un fichier de plan de préchauffage d’adresses IP {#prepare-file}
 
@@ -45,7 +45,7 @@ Cette activité est réalisée en temps opportun avec l’aide d’un spécialis
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
-Avant de pouvoir créer un plan de chauffage par IP dans la variable [!DNL Journey Optimizer] , vous devez renseigner dans un modèle Excel toutes les données qui alimenteront votre plan.
+Avant de pouvoir créer un plan de préchauffage d’adresses IP dans l’interface [!DNL Journey Optimizer], vous devez renseigner un modèle Excel avec toutes les données qui alimenteront votre plan.
 
 >[!CAUTION]
 >
@@ -59,20 +59,20 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
 
 >[!NOTE]
 >
->Pour l’instant, vous devez laisser le champ **Propriétés** et **Valeur** cellules intactes.
+>Pour l’instant, vous ne devez pas toucher aux cellules **Propriétés** et **Valeur**.
 
 ### Onglet Plan de préchauffage d’adresses IP {#ip-warmup-plan-tab}
 
-* Dans cet exemple, un plan a été préparé sur 17 jours (appelé &quot;**exécutions**&quot;) pour atteindre un volume cible de plus d’un million de profils.
+* Dans cet exemple, un plan a été préparé sur 17 jours (appelé « **exécutions** ») pour atteindre un volume cible de plus d’un million de profils.
 
-* Ce planifié est exécuté par six **phases**, chacune d’elles contenant au moins une exécution.
+* Ce plan est exécuté en six **phases**, chacune d’elles contenant au moins une exécution.
 
-* Vous pouvez avoir autant de colonnes que vous le souhaitez pour les domaines sur lesquels vous souhaitez envoyer des messages. Dans cet exemple, le plan est divisé en six colonnes :
+* Vous pouvez avoir autant de colonnes que vous le souhaitez pour les domaines sur lesquels vous souhaitez envoyer des messages. Dans cet exemple, le plan est divisé en six colonnes :
 
-   * Quatre d&#39;entre eux correspondent à **Groupes de domaines d’usine** à utiliser dans votre plan (Gmail, Microsoft, Yahoo et Orange).
-   * L’un correspond à un groupe de domaines personnalisé (que vous devez ajouter à l’aide de la variable [Groupe de domaines personnalisé](#custom-domain-group-tab) ).
-   * La sixième colonne, **Autres**, contient toutes les adresses restantes d’autres domaines qui ne sont pas explicitement couverts dans le plan. Cette colonne est facultative : si elle est omise, les emails seront envoyés uniquement aux domaines spécifiés.
-* La variable **Jours d’engagement** indique que seuls les profils engagés avec votre marque au cours de la dernière période saisie sont ciblés.
+   * Quatre d’entre elles correspondent aux **groupes de domaines prêts à l’emploi** à utiliser dans votre plan (Gmail, Microsoft, Yahoo et Orange).
+   * L’une correspond à un groupe de domaines personnalisé (que vous devez ajouter à l’aide de l’onglet [Groupe de domaines personnalisé](#custom-domain-group-tab)).
+   * La sixième colonne, **Autres**, contient toutes les adresses restantes d’autres domaines qui ne sont pas explicitement couverts dans le plan. Cette colonne est facultative : si elle est omise, les e-mails seront envoyés uniquement aux domaines spécifiés.
+* La colonne **Jours d’engagement** indique que seuls les profils impliqués dans votre marque au cours de la dernière période sont ciblés.
 
 L’idée est d’augmenter progressivement le nombre d’adresses ciblées au cours de chaque exécution, tout en réduisant le nombre d’exécutions pour chaque phase.
 
@@ -152,46 +152,46 @@ Par exemple, si vous ajoutez le domaine personnalisé Luma, vous souhaitez inclu
 
 ### Exemple {#example}
 
-Supposons que vous souhaitiez avoir deux groupes de domaines personnalisés :
+Supposons que vous souhaitiez avoir deux groupes de domaines personnalisés :
 
 * Un pour les domaines Hotmail uniquement.
 * Un pour tous les autres domaines du groupe de domaines Microsoft (excluant ainsi tous les domaines Hotmail).
 
-Notez que tous les autres domaines seront rassemblés dans la variable **[!UICONTROL Autres]** colonne .
+Notez que tous les autres domaines seront rassemblés dans la colonne **[!UICONTROL Autres]**.
 
-1. Dans le **[!UICONTROL Groupe de domaines personnalisé]** , créez le **Hotmail** groupe de domaines.
+1. Dans l’onglet **[!UICONTROL Groupe de domaines personnalisé]**, créez le groupe de domaines **Hotmail**.
 
 1. Ajoutez tous les domaines Hotmail sur la même ligne.
 
-   Vous pouvez [copier-coller](#copy-paste) tous les domaines Hotmail répertoriés dans la variable [Onglet Plan de stockage d’adresses IP](#ip-warmup-plan-tab) .
+   Vous pouvez [copier et coller](#copy-paste) tous les domaines Hotmail répertoriés dans la section de l’[onglet Plan de préchauffage d’adresses IP](#ip-warmup-plan-tab).
 
 1. Ajoutez une autre ligne.
 
-1. Créez le **Microsoft_X** groupe de domaines.
+1. Créez le groupe de domaines **Microsoft_X**.
 
 1. Ajoutez tous les domaines Microsoft qui ne sont pas Hotmail sur la même ligne. De même, vous pouvez les copier et les coller à partir de la liste ci-dessus. [En savoir plus](#copy-paste)
 
-1. Revenez au **[!UICONTROL Formule de Warmup IP]** .
+1. Revenez à l’onglet **[!UICONTROL Plan de préchauffage d’adresses IP]**.
 
-1. Créez trois colonnes : une pour **Hotmail**, un pour **Microsoft_X** et un pour **Autres**.
+1. Créez trois colonnes : une pour **Hotmail**, une pour **Microsoft_X** et une pour **Autres**.
 
 1. Renseignez les colonnes selon vos besoins.
 
 >[!NOTE]
 >
->Une fois le plan de chauffage par IP téléchargé dans [!DNL Journey Optimizer], il n’est pas nécessaire d’exclure les groupes de domaines Microsoft.
+>Une fois le plan de préchauffage d’adresses IP chargé dans [!DNL Journey Optimizer], il n’est pas nécessaire d’exclure les groupes de domaines Microsoft.
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 
-### Copier-coller les domaines par défaut {#copy-paste}
+### Copier et coller les domaines par défaut {#copy-paste}
 
-Si vous souhaitez créer un groupe de domaines personnalisé contenant par exemple tous les domaines Hotmail, vous pouvez copier et coller les domaines de la liste par défaut fournie. [above](#ip-warmup-plan-tab).
+Si vous souhaitez créer un groupe de domaines personnalisé contenant par exemple tous les domaines Hotmail, vous pouvez copier et coller les domaines à partir de la liste par défaut fournie [ci-dessus](#ip-warmup-plan-tab).
 
-Utilisez ensuite l’outil de conversion Excel pour convertir le texte en colonnes :
+Utilisez ensuite l’outil de conversion Excel pour convertir le texte en colonnes :
 
-1. Sélectionner **[!UICONTROL Données]** > **[!UICONTROL Texte en colonnes...]**, choisissez **[!UICONTROL Délimité]** et sélectionnez **[!UICONTROL Suivant]**.
+1. Sélectionnez **[!UICONTROL Données]** > **[!UICONTROL Texte en colonnes…]**, choisissez **[!UICONTROL Délimité]** et sélectionnez **[!UICONTROL Suivant]**.
 
-1. Sélectionner **[!UICONTROL Point-virgule]**, cliquez sur **[!UICONTROL Suivant]** et **[!UICONTROL Terminer]**.
+1. Sélectionnez **[!UICONTROL Point-virgule]**, cliquez sur **[!UICONTROL Suivant]** et **[!UICONTROL Terminer]**.
 
 Chaque domaine s’affiche désormais dans une colonne différente sur la même ligne.
 
@@ -212,7 +212,7 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 
    >[!NOTE]
    >
-   >ne prévoit que l’événement **Pas démarré** peut être supprimé.
+   >Seuls les plans ayant le statut **Non démarré** peuvent être supprimés.
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -234,7 +234,7 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Configurer des surfaces de canal"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Créer des campagnes de préchauffage d’adresses IP"
 
-Pour créer un plan de chauffage par IP, procédez comme suit.
+Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci-dessous.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Plans de préchauffage d’adresses IP]**, puis cliquez sur **[!UICONTROL Créer un plan de préchauffage d’adresses IP]**.
 
@@ -244,11 +244,11 @@ Pour créer un plan de chauffage par IP, procédez comme suit.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Sélectionnez la variable [surface](channel-surfaces.md) que vous voulez vous échauffer. Seules les surfaces marketing peuvent être sélectionnées. [En savoir plus sur le type d’e-mail](../email/email-settings.md#email-type)
+1. Sélectionnez la [surface](channel-surfaces.md) que vous voulez vous préchauffer. Seules les surfaces marketing peuvent être sélectionnées. [En savoir plus sur le type d’e-mail](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >Les campagnes que vous souhaitez associer à votre plan de réchauffement des adresses IP doivent utiliser la même surface. [Découvrez comment créer une campagne de préchauffage d’adresses IP](ip-warmup-campaign.md).
+   >Les campagnes que vous souhaitez associer à votre plan de préchauffage d’adresses IP doivent utiliser la même surface. [Découvrez comment créer une campagne de préchauffage d’adresses IP](ip-warmup-campaign.md).
 
 1. Chargez le fichier Excel contenant votre plan de préchauffage d’adresses IP. [En savoir plus](#prepare-file)
 
@@ -259,10 +259,10 @@ Pour créer un plan de chauffage par IP, procédez comme suit.
 
    >[!NOTE]
    >
-   >En cas d’échec du téléchargement, assurez-vous d’utiliser la mise en forme et le format de fichier corrects (.xls ou .xlsx). Utilisez l’exemple fourni par Adobe.
+   >En cas d’échec du chargement, assurez-vous d’utiliser le formatage et le format de fichier corrects (.xls ou .xlsx). Utilisez l’exemple fourni par Adobe.
 
 1. Cliquez sur **[!UICONTROL Créer]**. Toutes les phases, les exécutions, les colonnes et leur contenu définis dans le fichier que vous avez chargé sont automatiquement affichés dans l’interface de [!DNL Journey Optimizer].
 
    ![](assets/ip-warmup-plan-uploaded.png)
 
-Vous êtes maintenant prêt à exécuter votre plan de chauffage par IP. [En savoir plus](ip-warmup-execution.md)
+Vous pouvez maintenant exécuter votre plan de préchauffage d’adresses IP. [En savoir plus](ip-warmup-execution.md)

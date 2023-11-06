@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
 source-wordcount: '2396'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -150,7 +150,7 @@ Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifique
 
 Pour définir la limitation, procédez comme suit.
 
-1. Assurez-vous que la variable **[!UICONTROL Activation de la limitation]** bouton bascule est sélectionné. La limitation est activée par défaut.
+1. Assurez-vous de sélectionner le bouton (bascule) **[!UICONTROL Activer la limitation]**. La limitation est activée par défaut.
 
    >[!CAUTION]
    >
@@ -164,7 +164,7 @@ Pour définir la limitation, procédez comme suit.
 
 1. Définissez la **[!UICONTROL Fréquence]** pour définir la fréquence à laquelle le nombre de limitations est réinitialisé. [En savoir plus](#frequency-capping).
 
-1. Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation. **à tous les emplacements** ou **à chaque emplacement**. [En savoir plus](#placements).
+1. Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation **à tous les emplacements** ou **pour chaque emplacement**. [En savoir plus](#placements).
 
 1. Une fois enregistrée et validée, si l’offre a été présentée le nombre de fois que vous avez spécifiées dans ce champ en fonction des critères et du délai que vous avez définis, sa diffusion s’arrêtera.
 
@@ -183,7 +183,7 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 >title="Impression"
 >abstract="L’utilisation des impressions comme événements de limitation n’est disponible que pour les canaux entrants."
 
-La variable **[!UICONTROL Événement de limitation]** vous permet de définir l’événement qui sera pris en compte pour augmenter le compteur :
+Le champ **[!UICONTROL Événement de limitation]** vous permet de définir l’événement à prendre en compte pour augmenter la valeur du compteur :
 
 ![](../assets/offer-capping-event.png)
 
@@ -223,7 +223,7 @@ La variable **[!UICONTROL Événement de limitation]** vous permet de définir l
 
 ### Nombre de limitations {#capping-count}
 
-La variable **[!UICONTROL Limite du nombre de limitations]** vous permet de spécifier le nombre de fois où l’offre peut être présentée.
+Le champ **[!UICONTROL Nombre de limitations]** vous permet d’indiquer le nombre de fois où l’offre peut être présentée.
 
 ![](../assets/offer-capping-times.png)
 
@@ -231,7 +231,7 @@ La variable **[!UICONTROL Limite du nombre de limitations]** vous permet de spé
 >
 >Le nombre doit être un entier supérieur à 0.
 
-Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous entrez 10 dans la variable **[!UICONTROL Limite du nombre de limitations]** , aucune autre offre ne sera envoyée après 10 passages en caisse.
+Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous saisissez « 10 » dans le champ **[!UICONTROL Limite du nombre de limitations]**, aucune autre offre ne sera envoyée après 10 passages en caisse.
 
 ### Type de limitation {#capping-type}
 
@@ -262,7 +262,7 @@ La section **[!UICONTROL Fréquence]** vous permet de définir la fréquence à 
 >
 >La réinitialisation se produit à 00 h 00 UTC, le jour que vous avez défini ou le premier jour de la semaine ou du mois, le cas échéant. Le jour de début de semaine est le dimanche. La durée que vous avez choisie ne peut pas dépasser 2 ans (ou le nombre correspondant de mois, de semaines ou de jours).
 
-Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante, puis saisissez **2** dans l’autre champ. La réinitialisation a lieu un dimanche sur deux à 12 h 00 UTC.
+Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ. La réinitialisation a lieu un dimanche sur deux à 12 h 00 UTC.
 
 >[!CAUTION]
 >
@@ -272,15 +272,15 @@ Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé 
 
 ### Limitation et emplacements {#placements}
 
-Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer la limitation à tous les emplacements ou à chaque emplacement.
+Si vous avez défini plusieurs [représentations](add-representations.md) pour votre offre, indiquez si vous souhaitez appliquer une limitation à tous les emplacements ou pour chaque emplacement.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Appliquer une limitation à tous les emplacements]**: le nombre de limitations va total toutes les décisions parmi les emplacements associés à l’offre.
+* **[!UICONTROL Appliquer la limitation à tous les emplacements]** : le nombre de limitations va totaliser toutes les décisions parmi les emplacements associés à l’offre.
 
   Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil à tous les emplacements**, chaque profil peut alors recevoir l’offre jusqu’à 2 fois au total, quelle que soit la combinaison d’emplacements.
 
-* **[!UICONTROL Appliquer une limitation à chaque emplacement]**: les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
+* **[!UICONTROL Appliquer la limitation pour chaque emplacement]** : les valeurs de limitation appliqueront séparément les valeurs de décision pour chaque emplacement.
 
   Par exemple, si une offre comporte un emplacement **E-mail** et un emplacement **Web** et que vous définissez la limitation sur **2 par profil pour chaque emplacement**, alors chaque profil peut recevoir l’offre jusqu’à 2 fois pour l’emplacement de l’e-mail, et 2 fois supplémentaires pour l’emplacement web.
 

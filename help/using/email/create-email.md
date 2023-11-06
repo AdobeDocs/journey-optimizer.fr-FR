@@ -10,7 +10,7 @@ level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 100%
 

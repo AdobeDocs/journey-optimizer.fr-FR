@@ -10,7 +10,7 @@ level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 

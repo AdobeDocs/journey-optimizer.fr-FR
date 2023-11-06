@@ -10,7 +10,7 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 100%
 

@@ -14,7 +14,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -63,19 +63,19 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans un autre plan de préchauffage des adresses IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de chaleur IP.
+   >Vous ne pouvez pas sélectionner une campagne qui est déjà utilisée dans un autre plan de préchauffage des adresses IP. Cependant, la même campagne peut être utilisée dans une ou plusieurs phases du même plan de préchauffage d’adresses IP.
 
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >* Seules les campagnes ayant l’option **[!UICONTROL Activation du plan de préchauffage des adresses IP]** activée  sont disponibles pour sélection. [En savoir plus](#create-ip-warmup-campaign)
+   >* Seules les campagnes ayant l’option **[!UICONTROL Activation du plan de préchauffage des adresses IP]** activée sont disponibles pour sélection. [En savoir plus](#create-ip-warmup-campaign)
    >
    >* Vous devez sélectionner une campagne qui utilise la même surface que celle sélectionnée pour le plan de préchauffage des adresses IP en cours.
 
 1. Dans la section **[!UICONTROL Exclusion de profil]**, vous pouvez constater que les profils des exécutions précédentes de cette phase sont toujours exclus. Par exemple, si dans Exécuter #1 un profil est couvert dans les 4 800 premières personnes ciblées, le système s’assure automatiquement que le même profil ne reçoive pas l’e-mail dans Exécuter #2.
 
-1. Dans la **[!UICONTROL Audiences de campagne exclues]** , sélectionnez les audiences de l’opération à partir d’autres <!--executed/live?-->campagnes que vous souhaitez exclure de la phase actuelle.
+1. Dans la section **[!UICONTROL Audiences de campagne exclues]**, sélectionnez les audiences d’autres campagnes <!--executed/live?--> que vous souhaitez exclure de la phase actuelle.
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -156,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Si vous ne souhaitez appliquer aucune période d’engagement à une exécution, saisissez 0 dans la variable **[!UICONTROL Dernier engagement]** champ .
+   >Si vous ne souhaitez appliquer aucune période d’engagement à une exécution, saisissez 0 dans le champ **[!UICONTROL Dernier engagement]**.
 
 1. Sélectionnez l’option **[!UICONTROL Pause pour erreurs]** pour annuler une exécution si les profils qualifiés sont inférieurs aux profils ciblés une fois que l’audience a été évaluée pour cette exécution.
 

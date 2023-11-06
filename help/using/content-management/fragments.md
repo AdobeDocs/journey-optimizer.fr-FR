@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >id="ajo_create_fragment"
 >title="Définir vos propres fragments"
 >abstract="Créez et gérez des fragments autonomes pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Créer des fragments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=fr#create-fragments" text="Créer des fragments"
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes et parcours [!DNL Journey Optimizer].
 
@@ -196,7 +196,7 @@ Ce fragment est maintenant prêt à être utilisé lors de la création d’un [
 >id="ajo_create_expression_fragment"
 >title="Sélectionner le type Expression"
 >abstract="Créez un fragment d’expression autonome à partir de zéro pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes. Lorsque vous utilisez l’éditeur d’expression, vous pouvez utiliser tous les fragments d’expression qui ont été créés dans le sandbox actuel."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Utiliser des fragments d’expression"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=fr" text="Utiliser des fragments d’expression"
 
 1. [Créez un fragment](#create-from-scratch) depuis le menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**, puis sélectionnez le type **[!UICONTROL Fragment d’expression]**.
 

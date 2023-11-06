@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -108,21 +108,21 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
    ![](assets/sms_tracking_2.png)
 
-1. Dans le `originalUrl` , collez l’URL à raccourcir, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans le champ `originalUrl`, collez l’URL à raccourcir, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Activez l&#39;option MMS pour ajouter un média à votre contenu SMS.
+1. Activez l’option MMS pour ajouter un média à votre contenu SMS.
 
-   MMS est fourni avec quelques limites répertoriées dans [cette page](../start/guardrails.md#sms-guardrails).
+   Le MMS est fourni avec quelques limites répertoriées dans [cette page](../start/guardrails.md#sms-guardrails).
 
    >[!NOTE]
    >
-   > L’option MMS n’est disponible qu’avec Sinch. Vous devez créer des informations d’identification d’API spécifiques pour créer MMS. [En savoir plus](sms-configuration.md#create-new-api)
+   > L’option MMS n’est disponible qu’avec Sinch. Vous devez créer des informations d’identification d’API spécifiques pour créer un MMS. [En savoir plus](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
-1. Ajouter un **[!UICONTROL Titre]** à vos médias.
+1. Ajoutez un **[!UICONTROL Titre]** à votre média.
 
-1. Saisissez l’URL de votre média dans la variable **[!UICONTROL Média]** champ .
+1. Saisissez lʼURL de votre média dans le champ **[!UICONTROL Média]**.
 
    ![](assets/sms_create_7.png)
 

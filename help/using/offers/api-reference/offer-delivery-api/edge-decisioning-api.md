@@ -9,7 +9,7 @@ exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Cette approche est plus conviviale pour les personnes qui ont moins d’expérie
 
 1. [Ajouter du code incorporé](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=fr)
 
-1. Installez et configurez l’extension du SDK Web Adobe Experience Platform avec le Datastream que vous avez créé en sélectionnant la configuration dans la liste déroulante &quot;Datastream&quot;. Consultez la documentation relative aux [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=fr).
+1. Installez et configurez l’extension SDK web Adobe Experience Platform avec le train de données créé lors de la sélection de la configuration dans la liste déroulante « Train de données ». Consultez la documentation relative aux [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=fr).
 
    ![SDK web Adobe Experience Platform](../../assets/installed-catalog-web-sdk.png)
 
@@ -76,7 +76,7 @@ Cette approche est plus conviviale pour les personnes qui ont moins d’expérie
 
 1. Créez vos [Règles](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=fr) en procédant comme suit :
 
-   Ajoutez une action Envoyer l’événement du SDK Web Platform et ajoutez les étendues de décision appropriées à la configuration de cette action.
+   Ajoutez une action d’envoi d’événement pour le SDK web Platform et ajoutez les portées de décision appropriées à la configuration de cette action.
 
    ![Rendre l’offre](../../assets/rule-render-offer.png)
 

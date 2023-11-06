@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
 
-* Pour l’instant, l’utilisation des audiences [importé d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) dans parcours est disponible en version bêta privée. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+* Pour l’instant, l’utilisation des audiences [importées depuis un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou [résultant des workflows de composition](../audience/get-started-audience-orchestration.md) dans les parcours est disponible en version Private Beta. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}
 
@@ -51,7 +51,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d&#39;audience](../audience/get-started-audience-orchestration.md) ou [téléchargé à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version bêta privée.
+   >Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d&#39;audience](../audience/get-started-audience-orchestration.md) ou [téléchargé à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version Private Beta.
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
