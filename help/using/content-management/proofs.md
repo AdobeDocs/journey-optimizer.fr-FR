@@ -1,17 +1,18 @@
 ---
-title: Envoyer des bons à tirer par email
-description: Découvrez comment envoyer des BAT d'email.
+title: Envoyer des BAT d’e-mail
+description: Découvrez comment envoyer des BAT d’e-mail.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+exl-id: e742c04e-2987-4466-84af-bdaf4d714552
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Envoyer des bons à tirer par email {#send-proofs}
+# Envoyer des BAT d’e-mail {#send-proofs}
 
 Un BAT est un message spécifique qui permet de tester un message avant son envoi à l&#39;audience principale. Les destinataires du BAT sont chargés d&#39;approuver le message : rendu, contenu, paramètres de personnalisation, configuration.
 
@@ -27,9 +28,9 @@ Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez env
 
    ![](../email/assets/send-proof-add.png)
 
-1. Sélectionnez la variable **Profils de test** pour personnaliser le contenu du message.
+1. Sélectionnez les **profils de test** à utiliser pour personnaliser le contenu du message.
 
-   Chaque destinataire du BAT reçoit autant de messages que le nombre de profils de test sélectionnés. Par exemple, si vous avez ajouté cinq e-mails de destinataires et sélectionné dix profils de test, vous enverrez alors cinquante messages de BAT et chaque destinataire en recevra dix.
+   Chaque destinataire du BAT recevra autant de messages que le nombre de profils de test sélectionnés. Par exemple, si vous avez ajouté cinq e-mails de destinataires et sélectionné dix profils de test, vous enverrez alors cinquante messages de BAT et chaque destinataire en recevra dix.
 
 1. Si nécessaire, vous pouvez ajouter un préfixe à l&#39;objet du BAT. Seuls les caractères alphanumériques et les caractères spéciaux, comme . - _ ( ) [ Les ] sont autorisées comme préfixe à l’objet.
 
