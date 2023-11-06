@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Le panneau Expérience de Parcours affiche des intervalles de confiance « vali
 
 La séquence de confiance pour une variante individuelle `ν` est au cœur de la méthodologie statistique utilisée par Adobe. Vous trouverez sa définition sur [cette page](https://doi.org/10.48550/arXiv.2103.06476) (reproduite à partir de [Waudby-Smith et al.]).
 
-Si vous souhaitez estimer un paramètre cible `ψ` comme le taux de conversion d’une variante dans une expérience, la dichotomie entre une séquence d’intervalles de confiance (CI) à &quot;temps fixe&quot; et une séquence de confiance uniforme (CS) peut être résumée comme suit :
+Si vous souhaitez estimer un paramètre cible `ψ` comme le taux de conversion d’une variante dans une expérience, la dichotomie entre une séquence d’intervalles de confiance (CI) « à temps fixe » et une séquence de confiance uniforme (CS) peut être résumée comme suit :
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
