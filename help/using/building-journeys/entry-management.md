@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Dans les parcours unitaires, vous pouvez activer ou désactiver la reprise :
 
 Par défaut, les nouveaux parcours autorisent une reprise. Vous pouvez désélectionner cette option pour les parcours « uniques ». C’est le cas, par exemple, si vous souhaitez offrir un cadeau ponctuel à un utilisateur ou à une utilisatrice qui effectue sa première visite dans la boutique. Dans ce cas, le client ou la cliente ne doit pas pouvoir recommencer le parcours et bénéficier une nouvelle fois de l’offre. Lorsqu’un parcours se termine, son statut passe en mode **[!UICONTROL Fermé]**. Aucune nouvelle personne ne peut rejoindre le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement. [En savoir plus](journey-gs.md#entrance)
 
-Lorsque la variable **Autoriser une rentrée** est activée, l’option **Période d’attente de rentrée** vous permet de définir le temps d’attente avant qu’un profil ne puisse entrer à nouveau dans le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 29 jours.
+Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 29 jours.
 
 ![](assets/journey-re-entrance.png)
 
@@ -44,7 +44,7 @@ Après le [délai d’expiration global](journey-gs.md#global_timeout) par défa
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-La clé permet de vérifier qu’une personne est dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
+La clé sert à vérifier qu’une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
 ## Parcours de lecture d’audience{#entry-read-segment}
 
