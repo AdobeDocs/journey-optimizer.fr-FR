@@ -10,10 +10,11 @@ level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
-workflow-type: tm+mt
+exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 59%
 
 **Table des matières**
 
-* **[Commencer avec le contenu multilingue](multilingual-gs.md)**
+* **[Prise en main du contenu multilingue](multilingual-gs.md)**
 * [Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)
 * [Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)
 * [Rapport de campagne multilingue](multilingual-report.md)
@@ -32,11 +33,11 @@ ht-degree: 59%
 
 La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une seule campagne. Grâce à cette fonctionnalité, vous pouvez passer d’une langue à une autre lors de la modification de votre campagne, ce qui optimise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement du contenu multilingue.
 
-Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilingue par le biais de deux méthodes distinctes :
+Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilingue par le biais de deux méthodes distinctes :
 
-* **Traduction manuelle**: Traduisez votre contenu directement dans le Concepteur d&#39;email ou importez du contenu multilingue existant. [En savoir plus](multilingual-manual.md)
+* **Traduction manuelle** : traduisez votre contenu directement dans le Concepteur d’e-mail ou importez du contenu multilingue existant. [En savoir plus](multilingual-manual.md)
 
-* **Traduction automatisée**: envoyez du contenu à votre fournisseur de langue préféré pour une traduction automatisée. [En savoir plus](multilingual-automated.md)
+* **Traduction automatisée** : envoyez du contenu à votre fournisseur de services linguistiques préféré pour une traduction automatisée. [En savoir plus](multilingual-automated.md)
 
 </br>
 
