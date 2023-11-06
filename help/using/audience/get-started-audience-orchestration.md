@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Une fois cette opération terminée, les **audiences obtenues** sont enregistré
 
 >[!IMPORTANT]
 >
->Pour l’instant, l’utilisation d’audiences issues de processus de composition dans des parcours est disponible en version bêta privée. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Pour l’instant, l’utilisation d’audiences issues de workflows de composition dans des parcours est disponible en version Private Beta. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 >
 >Les campagnes Adobe Journey Optimizer ne sont pas encore intégrées au service d’application de politique. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’audience ne sont pas implémentés dans les campagnes Journey Optimizer.
 
