@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Vous ne pouvez pas ajouter de pré-titre à une page de destination.
 * Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
 
-## Protections des SMS {#sms-guardrails}
+## Mécanismes de sécurisation des SMS {#sms-guardrails}
 
 * La fonctionnalité MMS n’est disponible que pour Sinch.
-* Les fichiers multimédias pour MMS peuvent être inclus via une URL prise en charge. Assurez-vous que le fichier multimédia est téléchargé séparément.
-* La synchronisation des commentaires des messages n’est actuellement pas disponible pour MMS.
-* La gestion du consentement fonctionne au niveau du canal SMS pour MMS.
+* Les fichiers multimédias pour MMS peuvent être inclus via une URL prise en charge. Assurez-vous que le fichier multimédia est chargé séparément.
+* La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
+* La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
 
 ## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 
@@ -131,9 +131,9 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
 
-## Barrières de sécurité des audiences {#audience}
+## Mécanismes de sécurisation des audiences {#audience}
 
-* Vous pouvez publier jusqu’à 10 compositions d’audience dans un environnement de test donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+* Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
 ## Mécanismes de sécurisation de la gestion des décisions {#decision-management}
 
