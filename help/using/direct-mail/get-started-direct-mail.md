@@ -8,9 +8,9 @@ level: Beginner
 keywords: courrier, message, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->Pour l’instant, le canal Courrier n’est pas disponible pour les organisations qui ont acheté l’Adobe **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+>Pour l’instant, le canal Publipostage direct n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield**.
 
 Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les opérateurs de services postaux pour envoyer du courrier à votre clientèle.
 
