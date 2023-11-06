@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Vérifier et envoyer votre notification push
-description: Découvrez comment vérifier et envoyer votre notification push dans Journey Optimizer
+description: Découvrez comment vérifier et envoyer votre notification push dans Journey Optimizer.
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 76%
 
 ## Prévisualiser votre notification push {#preview-push}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
+Une fois le contenu de votre message défini, vous pouvez utiliser les profils de test pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
-Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** ajoutez ensuite un profil de test. Vous pouvez ensuite sélectionner le type de périphérique sur lequel prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
+Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis ajoutez un profil de test. Vous pouvez sélectionner le type d’appareil sur lequel prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
 ![](assets/push_preview_3.png)
 
-Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 ## Valider la notification push {#push-validate}
 
