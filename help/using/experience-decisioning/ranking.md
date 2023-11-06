@@ -10,7 +10,7 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
->title="Création de formules de classement"
+>title="Créer des formules de classement"
 >abstract="Les formules vous permettent de définir des règles déterminant l’élément qui doit être présenté en premier au lieu de prendre en compte les scores de priorité de l’élément. Une fois qu’une méthode de classement a été créée, vous pouvez l’affecter à une stratégie de décision afin de définir les éléments à sélectionner en premier."
 
 >[!BEGINSHADEBOX]
