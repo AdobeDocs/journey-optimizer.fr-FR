@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 ## Octobre 2023 {#oct-2023}
 
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 23 octobre a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] d’octobre 2023 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * Ajout de GIF pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Publipostage direct](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../campaigns/content-experiment.md).
 * Le processus de création de schémas a été mis à jour pour prendre en compte les dernières mises à jour apportées à l’interface utilisateur, avec des modifications apportées à Adobe Experience Platform. [En savoir plus](../audience/creating-test-profiles.md)
 * Des mécanismes de sécurisation de la gestion des décisions ont été ajoutés à la page Mécanismes de sécurisation et limites. [En savoir plus](../start/guardrails.md#decision-management)
-* La section Paramètres d’en-tête a été mise à jour afin de refléter la manière dont les notifications d’absence du bureau et les réponses aux défis sont traitées (elles sont reçues sur la page **[!UICONTROL Email d’erreur]**). [En savoir plus](../email/email-settings.md#email-header)
+* La section Paramètres d’en-tête a été mise à jour afin de refléter la manière dont les notifications d’absence du bureau et les réponses de défi sont traitées (elles sont reçues sur la page **[!UICONTROL E-mail d’erreur]**). [En savoir plus](../email/email-settings.md#email-header)
 * Une nouvelle section sur la prévisualisation et le test de votre contenu a été créée. [En savoir plus](../content-management/preview-test.md)
-* La page Mise en oeuvre d’applications d’une seule page a été déplacée vers la documentation du SDK Web Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* La page Implémenter des applications monopages a été déplacée vers la documentation du SDK Web Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
 * La section Limitation a été mise à jour afin de prendre en compte les modifications de libellé relatives à la limitation des offres dans l’interface de gestion des décisions. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
-* Mise à jour de l&#39;option Ajouter du contenu dynamique dans les emails avec des informations sur la suppression d&#39;une variante - [En savoir plus](../personalization/dynamic-content.md#emails)
+* L’option Ajouter du contenu dynamique dans les e-mails a été mise à jour avec des informations sur la suppression d’une variante. [En savoir plus](../personalization/dynamic-content.md#emails)
 * L’exemple de configuration de limitation et de ralentissement a été mis à jour. [En savoir plus](../configuration/external-systems.md)
 * La limitation concernant les tableaux scalaires a été supprimée de la section de source de données externe. [En savoir plus](../datasource/external-data-sources.md)
 * Le cas d’utilisation des parcours multicanaux a été mis à jour. [En savoir plus](../building-journeys/journeys-uc.md)
-* Le jeu de documentation Journey Optimizer a été mis à jour pour prendre en compte le nouveau processus de création de schéma Experience Platform.
+* L’ensemble de la documentation Journey Optimizer a été mis à jour pour prendre en compte le nouveau processus de création de schéma Experience Platform.
 
 ## Septembre 2023 {#september-2023}
 
@@ -48,7 +48,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Les liens vers la documentation sur le contrôle d’accès ont été mis à jour. [En savoir plus](../administration/permissions.md)
 * Les conditions préalables du canal in-app ont été mises à jour avec les détails de la collecte de données Adobe Experience Platform. [En savoir plus](../in-app/inapp-configuration.md)
 * Certaines expressions présentées dans des exemples de formule de classement ont été mises à jour afin d’éviter les erreurs de validation. [En savoir plus](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Un avertissement a été ajouté à la section Définir les portées de décision afin d’indiquer que si le modèle AI est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement AI, avec le même modèle AI spécifique. En outre, un seul groupe de critères d’évaluation peut utiliser le modèle d’IA. [En savoir plus](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Un avertissement a été ajouté à la section Définir les portées de décision pour indiquer que si le modèle d’IA est utilisé dans un groupe de critères d’évaluation, tous les critères d’évaluation de ce groupe doivent utiliser la méthode de classement AI, avec le même modèle d’IA spécifique. En outre, un seul groupe de critères d’évaluation peut utiliser le modèle d’IA. [En savoir plus](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Août 2023 {#august-2023}
 
