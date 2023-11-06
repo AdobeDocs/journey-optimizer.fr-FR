@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2340'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -121,9 +121,9 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d�
 
 * **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. [En savoir plus](#reply-to-email)
 
-* **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. Les notifications d&#39;absence du bureau et les réponses aux défis sont également reçues à cette adresse.
+* **[!UICONTROL Message d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (bounces asynchrones) sont reçues sur cette adresse. Les notifications d’absence du bureau et les réponses de défi sont également reçues à cette adresse.
 
-  Si vous souhaitez recevoir les notifications d’absence du bureau et demander des réponses à une adresse électronique spécifique qui n’est pas déléguée à Adobe, vous devez configurer une [processus de transfert](#forward-email). Dans ce cas, veillez à mettre en place une solution manuelle ou automatisée pour traiter les emails entrant dans cette boîte de réception.
+  Si vous souhaitez recevoir les notifications d’absence du bureau et demander des réponses de défi à une adresse e-mail spécifique qui n’est pas déléguée à Adobe, vous devez configurer un [processus de transfert](#forward-email). Dans ce cas, veillez à mettre en place une solution manuelle ou automatisée pour traiter les e-mails arrivant dans cette boîte de réception.
 
 >[!CAUTION]
 >
@@ -139,7 +139,7 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d�
 
 Lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, vous pouvez indiquer toute adresse e-mail à condition qu’il s’agisse d’une adresse valide, au format approprié et sans erreur de frappe.
 
-La boîte de réception utilisée pour les réponses recevra tous les emails de réponse, à l’exception des notifications d’absence du bureau et des réponses de défi, qui sont reçus sur la page **[!UICONTROL Email d’erreur]** adresse.
+La boîte de réception utilisée pour les réponses recevra tous les e-mails de réponse, à l’exception des notifications d’absence du bureau et des réponses de défi, qui sont reçues sur l’adresse **[!UICONTROL E-mail d’erreur]**.
 
 Pour assurer une bonne gestion des réponses, procédez comme suit :
 
@@ -159,26 +159,26 @@ Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela sign
 
 ### Transférer un e-mail {#forward-email}
 
-Pour transférer vers une adresse électronique spécifique tous les courriers électroniques reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué, contactez l’assistance clientèle d’Adobe.
+Pour transférer vers une adresse e-mail spécifique tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué, contactez l’Assistance clientèle d’Adobe.
 
 >[!NOTE]
 >
->Si le sous-domaine utilisé pour la variable **[!UICONTROL Répondre à (email)]** L’adresse n’est pas déléguée à l’Adobe, le transfert ne peut pas fonctionner pour cette adresse.
+>Si le sous-domaine utilisé pour l’adresse **[!UICONTROL Répondre à (e-mail)]** L’adresse n’est pas déléguée à Adobe, le transfert ne peut pas fonctionner pour cette adresse.
 
-Vous devez fournir les éléments suivants :
+Vous devrez fournir les éléments suivants :
 
 * Adresse e-mail de transfert de votre choix. Notez que le domaine de l’adresse e-mail de transfert ne peut correspondre à aucun sous-domaine délégué à Adobe.
 * Nom de votre sandbox.
-* Nom de la surface ou du sous-domaine pour lequel l’adresse électronique de transfert sera utilisée.
+* Nom de la surface ou sous-domaine pour lesquels l’adresse e-mail de transfert sera utilisée.
   <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
 
 >[!NOTE]
 >
 >Il ne peut y avoir qu’une seule adresse e-mail de transfert par sous-domaine. Par conséquent, si plusieurs surfaces utilisent le même sous-domaine, la même adresse e-mail de transfert doit être utilisée pour tous les sous-domaines.
 
-L’adresse email de transfert est configurée par Adobe. Cela peut prendre 3 à 4 jours.
+L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 à 4 jours.
 
-Une fois que vous avez terminé, tous les messages reçus sur le **[!UICONTROL Répondre à (email)]** et **[!UICONTROL Email d’erreur]** Les adresses sont transférées vers l’adresse électronique spécifique que vous avez fournie.
+Une fois que vous avez terminé, tous les messages reçus sur les adresses **[!UICONTROL Répondre à (e-mail)]** et **[!UICONTROL E-mail d’erreur]** sont transférés vers l’adresse e-mail spécifique que vous avez fournie.
 
 ## E-mail Cci {#bcc-email}
 
