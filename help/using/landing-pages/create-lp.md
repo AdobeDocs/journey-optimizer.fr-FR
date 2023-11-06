@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -238,7 +238,7 @@ Une fois les paramètres et le contenu de votre page de destination définis, vo
 
    ![](assets/lp_test-profiles.png)
 
-   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont détaillées dans la section [Gestion de contenu](../content-management/test-profiles.md) .
+   Les étapes de sélection des profils de test sont identiques à celles du test d’un message. Elles sont détaillées dans la section [Gestion de contenu](../content-management/test-profiles.md).
 
 1. Sélectionnez **[!UICONTROL Ouvrir l’aperçu]** pour tester votre page de destination.
 
