@@ -1,30 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’un MMS
-description: Découvrez comment créer un MMS dans Journey Optimizer
+title: Créer un MMS
+description: Découvrez comment créer un MMS dans Journey Optimizer.
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '1093'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Création d’un message MMS {#create-mms}
+# Créer un MMS {#create-mms}
 
 ## Conditions préalables{#sms-prerequisites}
 
-Avant de créer votre SMS, vous devez d&#39;abord configurer votre fournisseur de SMS avec Journey Optimizer. Procédez comme suit :
+Avant de créer votre SMS, vous devez d’abord configurer votre fournisseur de SMS avec Journey Optimizer. Procédez comme suit :
 
 * Avant d’envoyer des SMS, vous devez intégrer les paramètres du fournisseur à Journey Optimizer.
 
-+++ Découvrez comment créer des informations d’identification d’API Sling MMS.
++++ Découvrez comment créer des informations d’identification d’API MMS Sinch.
 
    1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
@@ -36,7 +37,7 @@ Avant de créer votre SMS, vous devez d&#39;abord configurer votre fournisseur d
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-      * **[!UICONTROL Identifiant de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL Jeton API]**: dans le menu API de conversation, vous trouverez vos informations d’identification dans le menu Application.  [En savoir plus](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html).
+      * **[!UICONTROL ID de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL jeton API]** : dans le menu API de conversation, vous trouverez vos informations d’identification dans le menu Application.  [En savoir plus](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html).
 
      ![](assets/mms_provider.png)
 
@@ -48,7 +49,7 @@ Avant de créer votre SMS, vous devez d&#39;abord configurer votre fournisseur d
 
 * Une fois cette opération terminée, vous devrez créer une surface SMS. Ces étapes doivent être exécutées par un Administrateur système Adobe Journey Optimizer.
 
-+++ Découvrez comment créer la surface de votre canal.
++++ Découvrez comment créer votre surface de canal.
 
    1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Branding]** > **[!UICONTROL Surfaces de canal]**. Cliquez sur le bouton **[!UICONTROL Créer une surface de canal]**.
 
@@ -169,7 +170,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 >[!ENDTABS]
 
-## Définition du contenu MMS{#mms-content}
+## Définir le contenu de votre MMS{#mms-content}
 
 1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du SMS.
 
@@ -179,17 +180,17 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 1. Utilisez l’éditeur d’expression pour définir le contenu et ajouter du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. En savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur d’expression.
 
-1. Activez l&#39;option MMS pour ajouter un média à votre contenu SMS.
+1. Activez l’option MMS pour ajouter un média à votre contenu SMS.
 
    >[!NOTE]
    >
-   > L’option MMS n’est disponible qu’avec Sinch. Vous devez créer des informations d’identification d’API spécifiques pour créer MMS. [En savoir plus](sms-configuration.md#create-new-api)
+   > L’option MMS n’est disponible qu’avec Sinch. Vous devez créer des informations d’identification d’API spécifiques pour créer un MMS. [En savoir plus](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
-1. Ajouter un **[!UICONTROL Titre]** à vos médias.
+1. Ajoutez un **[!UICONTROL Titre]** à votre média.
 
-1. Saisissez l’URL de votre média dans la variable **[!UICONTROL Média]** champ .
+1. Saisissez lʼURL de votre média dans le champ **[!UICONTROL Média]**.
 
    ![](assets/sms_create_7.png)
 
