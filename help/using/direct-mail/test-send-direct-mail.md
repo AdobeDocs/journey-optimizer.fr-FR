@@ -1,6 +1,6 @@
 ---
-title: Vérifier et envoyer un message
-description: Découvrez comment vérifier et envoyer un courrier dans Journey Optimizer
+title: Vérifier et envoyer un message de publipostage direct
+description: Découvrez comment vérifier et envoyer un message de publipostage direct dans Journey Optimizer.
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
@@ -8,23 +8,23 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Vérifier et envoyer un message {#direct-mail-test-send}
+# Vérifier et envoyer un message de publipostage direct {#direct-mail-test-send}
 
 ## Prévisualiser le fichier d’extraction {#preview-dm}
 
 Une fois le contenu du fichier d’extraction défini, vous pouvez utiliser des profils de test pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
-Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** ajoutez ensuite un profil de test pour vérifier le rendu du fichier d&#39;extraction à l&#39;aide des données de profil de test.
+Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, ajoutez ensuite un profil de test pour vérifier le rendu du fichier d’extraction à l’aide des données de profil de test.
 
 ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 Une fois que le contenu du fichier est prêt à être envoyé, fermez l’écran de simulation, puis cliquez sur le bouton **[!UICONTROL Examiner pour activer]**.
 
