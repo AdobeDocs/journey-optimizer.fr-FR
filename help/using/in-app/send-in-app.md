@@ -1,6 +1,6 @@
 ---
 title: Vérifier et envoyer votre notification in-app
-description: Découvrez comment vérifier et envoyer un message in-app dans Journey Optimizer
+description: Découvrez comment vérifier et envoyer un message in-app dans Journey Optimizer.
 feature: In App
 topic: Content Management
 role: User
@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
