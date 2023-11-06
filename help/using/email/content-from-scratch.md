@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
    >
    >Vous ne pouvez pas revenir au concepteur visuel de cet e-mail après avoir basculé vers l’éditeur de code.
 
-1. Une fois que votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier le rendu. Vous pouvez choisir la vue bureau ou la vue mobile. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
+1. Une fois que votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour vérifier le rendu. Vous pouvez choisir la vue bureau ou la vue mobile. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
 
