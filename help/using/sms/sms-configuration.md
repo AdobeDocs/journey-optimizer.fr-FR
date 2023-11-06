@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Pour configurer votre fournisseur de SMS avec Journey Optimizer, procédez comme
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-      * **[!UICONTROL Identifiant de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL Jeton API]**: dans le menu API de conversation, vous trouverez vos informations d’identification dans le menu Application.  [En savoir plus](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html).
+      * **[!UICONTROL ID de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL jeton API]** : dans le menu API de conversation, vous trouverez vos informations d’identification dans le menu Application. [En savoir plus](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html).
 
    * Pour **[!DNL Twilio]** :
 
