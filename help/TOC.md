@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 96%
 + Canal SMS{#sms}
    + [Prise en main des SMS](using/sms/get-started-sms.md)
    + [Création d’un SMS](using/sms/create-sms.md)
-   + [Création d’un message MMS](using/sms/create-mms.md)
+   + [Créer un MMS](using/sms/create-mms.md)
    + [Vérifier et envoyer votre SMS](using/sms/send-sms.md)
    + [Gérer les désinscriptions aux SMS](using/sms/sms-opt-out.md)
    + [Configurer le canal SMS](using/sms/sms-configuration.md)
@@ -226,7 +226,7 @@ ht-degree: 96%
 + Courrier {#direct-mail}
    + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
    + [Créer un courrier](using/direct-mail/create-direct-mail.md)
-   + [Vérifier et envoyer un message](using/direct-mail/test-send-direct-mail.md)
+   + [Vérifier et envoyer un message de publipostage direct](using/direct-mail/test-send-direct-mail.md)
    + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
 + Canal web {#web}
    + [Prise en main du canal web](using/web/get-started-web.md)
@@ -263,7 +263,7 @@ ht-degree: 96%
       + [Génération de contenu](using/content-management/generative-content.md)
       + [Génération d’images](using/content-management/generative-image.md)
    + Utiliser du contenu multilingue{#content-multilingual}
-      + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
+      + [Prise en main du contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
       + [Rapport de campagne multilingue](using/content-management/multilingual-report.md)
@@ -304,10 +304,10 @@ ht-degree: 96%
    + Prévisualiser et tester votre contenu {#preview-test}
       + [Prise en main de la prévisualisation et du test](using/content-management/preview-test.md)
       + [Sélectionner des profils de test](using/content-management/test-profiles.md)
-      + [Prévisualiser le contenu](using/content-management/preview.md)
-      + [Envoyer des bons à tirer par email](using/content-management/proofs.md)
+      + [Prévisualiser votre contenu](using/content-management/preview.md)
+      + [Envoyer des BAT d’e-mail](using/content-management/proofs.md)
       + [Tester le rendu des e-mails](using/content-management/rendering.md)
-      + [Utiliser le rapport Spam](using/content-management/spam-report.md)
+      + [Utiliser le rapport de spam](using/content-management/spam-report.md)
 + Audiences, profils et identité{#audiences-profiles-identities}
    + Audiences {#audiences}
       + [Commencer avec les audiences](using/audience/about-audiences.md)
