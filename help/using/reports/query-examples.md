@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
 * instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
-* profileID : l’identité du profil correspondant à l’espace de noms du parcours.
+* profileID : l’identité du profil correspondant à l’espace de noms du parcours.
 
 >[!NOTE]
 >
