@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, modèles, conception
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >id="ajo_use_template"
 >title="Créer du contenu à partir d’un modèle"
 >abstract="Pour commencer à créer le contenu de votre e-mail, sélectionnez un modèle prêt à l’emploi ou un modèle existant personnalisé (créé à partir de zéro ou enregistré comme modèle à partir d’un précédent e-mail)."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="Créer des modèles de contenu"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html?lang=fr#create-content-templates" text="Créer des modèles de contenu"
 
 Depuis l’écran **[!UICONTROL Créer votre e-mail]**, utilisez la section **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à créer votre contenu à partir d’un modèle.
 
