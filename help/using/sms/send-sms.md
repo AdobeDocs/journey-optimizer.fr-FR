@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Vérifier et tester votre SMS
-description: Découvrez comment vérifier et envoyer votre SMS dans Journey Optimizer
+description: Découvrez comment vérifier et tester votre SMS dans Journey Optimizer.
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 69%
 
 ## Prévisualiser votre SMS {#preview-sms}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
+Une fois le contenu de votre message défini, vous pouvez utiliser les profils de test pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
-Pour ce faire, cliquez sur **[!UICONTROL Simulation du contenu]** ajoutez ensuite un profil de test pour vérifier votre message à l’aide des données de profil de test.
+Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis ajoutez un profil de test pour vérifier votre message à l’aide des données de profil de test.
 
 ![](assets/sms_preview_2.png)
 
-Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md) .
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 ## Valider votre SMS{#sms-validate}
 
