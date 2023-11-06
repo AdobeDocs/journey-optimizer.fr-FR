@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, messages, parcours, canal, événements, notification push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Cette section présente un cas d’utilisation qui combine une lecture d’audie
 
 ## Description du cas d’utilisation
 
-Dans ce cas pratique, nous souhaitons envoyer un premier email à tous les clients appartenant à une audience spécifique.
+Dans ce cas d’utilisation, nous souhaitons envoyer un premier e-mail à l’ensemble des clientes et clients appartenant à une audience spécifique.
 
-Sur la base de leur réaction au premier message, nous voulons envoyer des messages spécifiques.
+Sur la base de leur réaction au premier message, nous souhaitons envoyer des messages spécifiques.
 
-Si le client ouvre l’email, nous attendons un achat et envoyons un message push pour remercier le client.
+Si le client ou la cliente ouvre l’e-mail, nous attendons un achat et envoyons une notification push pour le ou la remercier.
 
-S&#39;il n&#39;y a pas de réaction, nous leur envoyons un email de relance.
+S’il n’y a pas de réaction, nous leur envoyons un e-mail de relance.
 
 ## Conditions préalables
 
@@ -93,9 +93,9 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
    ![](assets/jo-uc5.png)
 
-1. Ajouter un **Réaction** et sélectionnez **Email ouvert**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre l’email.
+1. Ajoutez un événement **Réaction** et sélectionnez **E-mail ouvert**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre l’e-mail.
 
-1. Vérifiez les **Définition du délai d’expiration de l’événement** , définissez une durée (1 jour dans notre exemple) et cochez la case **Définition d’un chemin de temporisation**. Cela crée un autre itinéraire pour les individus qui n&#39;ouvrent pas le premier message push ou l&#39;email.
+1. Cochez la case **Définir la temporisation de l’événement**, définissez une durée (1 jour dans notre exemple) et cochez **Ajouter un chemin de temporisation**. Cela crée un autre itinéraire pour les personnes qui n’ouvrent pas le premier message push ou l’e-mail.
 
 1. Dans l’itinéraire de temporisation, déposez une activité d’action **E-mail** et définissez le contenu du message de « relance ». Ce message est envoyé aux individus qui n’ouvrent pas le premier email ou la première notification push le lendemain. Consultez cette [section](../email/create-email.md) pour savoir comment configurer et concevoir un e-mail.
 
