@@ -1,23 +1,24 @@
 ---
 title: Tester le rendu des e-mails
-description: Découvrez comment tester le rendu des emails.
+description: Découvrez comment tester le rendu des e-mails.
 feature: Preview
 role: User
 level: Beginner
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
-workflow-type: tm+mt
+exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Tester le rendu des e-mails {#email-rendering}
 
-Vous pouvez exploiter votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception.
+Vous pouvez exploiter votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d’e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception.
 
-Pour vérifier le rendu des emails, procédez comme suit :
+Pour vérifier le rendu des e-mails, procédez comme suit :
 
-1. Dans l&#39;écran d&#39;édition du contenu de votre message ou dans le Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Simulation du contenu]** bouton .
+1. Dans l’écran Modifier le contenu de votre message, ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
 1. Sélectionnez le bouton **[!UICONTROL Rendu d’e-mail]**.
 
