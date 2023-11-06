@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de l
 >
 >Les **Règles de limitation** sont configurées dans les sandbox de production uniquement, pour un point d’entrée spécifique, mais elles s’appliquent à tous les parcours sur l’ensemble des sandbox. Une seule configuration de limitation est autorisée par organisation. La limitation n’est disponible que pour les actions personnalisées.
 >
->La variable **maxCallsCount** doit être supérieure à 1.
+>La valeur **maxCallsCount** doit être supérieure à 1.
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 
