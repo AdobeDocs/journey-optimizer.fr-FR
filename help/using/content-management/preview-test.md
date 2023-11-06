@@ -4,10 +4,11 @@ description: Découvrez comment prévisualiser et tester votre contenu.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
-workflow-type: tm+mt
+exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +24,13 @@ ht-degree: 26%
 >title="Vérifier le rendu de votre contenu"
 >abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct en fonction du canal que vous utilisez."
 
-## A propos de la prévisualisation et du test de contenu {#about}
+## À propos de la prévisualisation et du test du contenu {#about}
 
-Une fois votre contenu défini, vous pouvez utiliser des profils de test pour [aperçu](preview.md) son contenu avant l’envoi du message. Il s’agit d’une étape essentielle pour s’assurer qu’elle est exacte, mais également exempte d’erreurs dans les paramètres de contenu et de personnalisation.
+Une fois votre contenu défini, vous pouvez utiliser les profils de test pour le [prévisualiser](preview.md) avant d’envoyer le message. Il s’agit d’une étape cruciale pour vous assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
 
-Vous pouvez également [envoyer des diffusions de test ;](proofs.md) (BAT) de vos emails à des destinataires ou des abonnés spécifiques à des fins de test et de validation, et [vérifier leur rendu](rendering.md) sur les clients de bureau, mobiles et web les plus populaires.
+Vous pouvez également [envoyer des diffusions de test](proofs.md) (BAT) de vos e-mails à des destinataires ou des personnes abonnées spécifiques à des fins de test et de validation, et [vérifier leur rendu](rendering.md) pour les clients de bureau, mobiles et web populaires.
 
-Toutes ces actions peuvent être effectuées à l’aide de la variable **[!UICONTROL Simulation du contenu]** accessible à partir de l&#39;écran d&#39;édition du contenu de votre message ou à partir des concepteurs d&#39;email et web pour les canaux email et web.
+Toutes ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler du contenu]** accessible à partir de l’écran d’édition du contenu de votre message ou à partir des concepteurs d’e-mail et web pour les canaux e-mail et web.
 
 ![](../email/assets/email-preview-button.png)
 
@@ -41,7 +42,7 @@ Toutes ces actions peuvent être effectuées à l’aide de la variable **[!UICO
 
 ## Conditions préalables {#prerequisites}
 
-Pour simuler le contenu, vous devez disposer de la variable **[!DNL Manage Simulate Content]** autorisation incluse dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
+Pour simuler le contenu, vous devez disposer de l’autorisation **[!DNL Manage Simulate Content]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
 Vous devez également disposer de profils de test pour pouvoir prévisualiser vos messages. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md)
 
