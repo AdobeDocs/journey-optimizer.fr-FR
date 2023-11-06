@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
+source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 96%
+source-wordcount: '365'
+ht-degree: 90%
 
 ---
 
@@ -66,6 +66,6 @@ L’audience peut désormais être utilisée dans vos parcours. Voir à ce propo
 
 ## Vidéo pratique{#video-segment}
 
-Découvrez comment créer des audiences.
+Découvrez comment Journey Optimizer utilise des règles pour générer une audience et comment utiliser des attributs, des événements et des audiences existantes pour créer une audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
