@@ -10,15 +10,15 @@ level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1167'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Rôles intégrés {#ootb-product-profiles}
 
-Les rôles natifs sont un ensemble de droits unitaires qui permet aux utilisateurs d’accéder à certaines fonctionnalités ou à certains objets de l’interface. Voir [cette page](ootb-permissions.md) pour obtenir la liste des autorisations disponibles pour créer votre rôle.
+Les rôles intégrés sont un ensemble de droits unitaires qui permet aux utilisateurs et utilisatrices d’accéder à certaines fonctionnalités ou à certains objets dans l’interface. Consultez [cette page](ootb-permissions.md) pour obtenir la liste des autorisations disponibles pour créer votre rôle.
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
