@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collection_rules"
->title="Définition de règles pour votre collection"
+>title="Définir des règles pour votre collection"
 >abstract="Ajoutez une ou plusieurs règles pour déterminer les éléments à inclure dans la collection. Sélectionnez un attribut d’élément à utiliser comme critère. Sélectionnez l’opérateur souhaité et saisissez la valeur sur laquelle filtrer les données. Ajoutez autant de règles que nécessaire."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
->title="Choisissez une collection"
->abstract="Sélectionnez la collection contenant les offres à prendre en compte. Cette étape est obligatoire lors de la création d’une stratégie de sélection. Les collections vous permettent de classer et de regrouper vos éléments de décision en fonction de vos préférences. Par exemple, vous pouvez créer une collection qui inclut tous les éléments de décision avec la valeur &quot;Yoga&quot; dans l’attribut personnalisé &quot;Catégorie&quot;."
+>title="Choisir une collection"
+>abstract="Sélectionnez la collection qui contient les offres à prendre en compte. Cette étape est obligatoire lors de la création d’une stratégie de sélection. Les collections vous permettent de classer et de regrouper vos éléments de décision en fonction de vos préférences. Par exemple, vous pouvez créer une collection qui inclut tous les éléments de décision avec la valeur « Yoga » dans l’attribut personnalisé « Categorie »."
 
 >[!BEGINSHADEBOX]
 
