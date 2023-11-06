@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 
 >[!AVAILABILITY]
 >
->Pour l’instant, le canal web n’est pas disponible pour les organisations qui ont acheté l’Adobe **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+>Pour l’instant, le canal web n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield**.
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 
