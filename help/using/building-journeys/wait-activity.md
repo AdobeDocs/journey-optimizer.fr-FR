@@ -10,9 +10,9 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Il est recommandé de ne pas utiliser d’attente pour bloquer la reprise. Utili
 
 ## Durée de l&#39;attente{#duration}
 
-Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante. La durée maximale est de 29 jours.
+Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante. La durée maximale est de 29 jours.
 
 ![](assets/journey55.png)
 
