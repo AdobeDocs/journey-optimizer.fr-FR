@@ -10,9 +10,9 @@ level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les campagnes peuvent avoir plusieurs statuts :
 >
 >L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne a été créée et n’a pas encore été activée. [En savoir plus](modify-stop-campaign.md#modify).
 
-Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche à côté de l’état de la campagne. Cliquez dessus pour afficher les informations relatives à l’alerte. Ces alertes peuvent se produire dans différentes situations, par exemple lorsque le message de l&#39;opération n&#39;a pas été publié ou si la surface choisie est incorrecte.
+Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche avec le statut de la campagne. Cliquez dessus pour afficher les informations relatives à l’alerte. Ces alertes peuvent se produire dans différentes situations, par exemple lorsque le message de la campagne n’a pas été publié ou si la surface choisie est incorrecte.
 
 ![](assets/campaign-alerts.png)
 
