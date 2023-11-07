@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,12 @@ Chaque tableau de bord de reporting peut être modifié en modifiant la période
 1. Dans votre rapport global, sélectionnez une heure de début et une heure de fin pour cibler des données spécifiques.
 
    ![](assets/report_modify_1.png)
+
+1. Pour les rapports de Parcours qui impliquent plusieurs **[!UICONTROL Actions]**, sélectionnez une **[!UICONTROL Action]** dans le menu déroulant.
+
+1. Si vous souhaitez ne cibler qu’un ou plusieurs messages récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+
+   ![](assets/report_modify_12.png)
 
 1. Choisissez si vous souhaitez exclure les événements de test de vos rapports avec la barre de bascule. Pour plus d’informations sur les événements de test, consultez [cette page](../building-journeys/testing-the-journey.md).
 

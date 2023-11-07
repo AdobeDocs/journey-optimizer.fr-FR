@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 100%
+source-wordcount: '1100'
+ht-degree: 97%
 
 ---
 
@@ -89,6 +89,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   <tr> 
    <td> Taux d’erreur<br/> </td> 
    <td> Pourcentage d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée, par rapport aux e-mails envoyés.<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> Raison de l’erreur<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les raisons des erreurs</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Exclus<br/> </td> 
@@ -332,7 +337,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   <tr> 
    <td> Taux d’erreur<br/> </td> 
    <td> Pourcentage d’erreurs survenues pendant une diffusion qui l’empêchent d’être envoyée par rapport aux notifications push envoyées.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Raison de l’erreur<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les raisons des erreurs</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Exclus<br/> </td> 
    <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
@@ -356,7 +365,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures de page de destination {#landing-page-metrics}
+## Mesures de page de destination {#landing-page-metrics}
 
 <table> 
  <thead> 
