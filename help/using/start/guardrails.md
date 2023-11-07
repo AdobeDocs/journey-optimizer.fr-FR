@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 100%
+source-wordcount: '1708'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 
 ### Actions personnalisées {#custom-actions-g}
 
-* Un plafond de 150 000 appels sur 30 secondes est défini pour toutes les actions personnalisées. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
+* Une limite de limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par environnement de test. Voir [cette page](../building-journeys/about-journey-activities.md#action-activities). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
 * Les méthodes d’appel POST, PUT et GET sont prises en charge.
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »
