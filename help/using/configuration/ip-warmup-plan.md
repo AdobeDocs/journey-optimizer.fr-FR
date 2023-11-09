@@ -224,8 +224,8 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="Définir votre plan de préchauffage d’adresses IP"
->abstract="Téléchargez le modèle CSV et renseignez-le avec des données pour les phases de préchauffage d’adresses IP et le nombre cible de profils."
+>title="Définition de votre plan de préchauffage d’adresses IP"
+>abstract="Téléchargez le modèle CSV et remplissez-le de données pour les phases de préchauffage d’adresses IP et le nombre cible de profils."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
