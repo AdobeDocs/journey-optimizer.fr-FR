@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c�
 
 >[!CAUTION]
 >
-> * Pour créer, modifier et supprimer des surfaces de canal, vous devez disposer de l’autorisation [Gérer la surface du canal](../administration/high-low-permissions.md#manage-channel-surface).
+> * Pour créer, modifier et supprimer des surfaces de canal, vous devez disposer de la variable [Gestion des paramètres prédéfinis de message](../administration/high-low-permissions.md#administration-permissions) autorisation.
 >
 > * Vous devez effectuer les opérations suivantes : [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration du canal push](../push/push-configuration.md) et [Configuration des SMS](../sms/sms-configuration.md) avant de créer des surfaces de canal.
 
@@ -47,7 +47,7 @@ Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Paramètres de surface de canal"
->abstract="Pour pouvoir créer des actions telles que des e-mails provenant d’un parcours ou d’une campagne, vous devez d’abord créer une surface de canal qui définit tous les paramètres techniques requis pour vos messages. Vous devez disposer de l’autorisation Gérer la surface de canal pour créer, modifier et supprimer les surfaces de canal."
+>abstract="Pour pouvoir créer des actions telles que des e-mails provenant d’un parcours ou d’une campagne, vous devez d’abord créer une surface de canal qui définit tous les paramètres techniques requis pour vos messages. Vous devez disposer de l’autorisation Gérer les paramètres prédéfinis de message pour créer, modifier et supprimer des surfaces de canal."
 
 Pour créer une surface de canal, procédez comme suit :
 

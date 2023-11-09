@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 100%
+source-wordcount: '1079'
+ht-degree: 98%
 
 ---
 
@@ -288,20 +288,6 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 ## Ressource des configurations de canal {#administration-permissions}
 
-* Lʼautorisation de haut niveau **[!DNL Manage channel surface]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer des surfaces de canaux sur les canaux au niveau du sandbox.
-
-+++ Elle comprend les autorisations de bas niveau suivantes :
-
-   * Spécifiques à Journey Optimizer :
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read (à partir d&#39;Adobe Experience Platform Launch)
-
-+++
-
 * Lʼautorisation de haut niveau **[!DNL Manage IP pools]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer la définition des affinités.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
@@ -341,7 +327,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* L’autorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs et utilisatrices de lire, créer, modifier et supprimer du branding de contenu.
+* **[!DNL Manage messages presets]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des surfaces de canal sur les canaux au niveau de l’environnement de test.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -353,7 +339,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * IP_pools.read
 
    * Spécifique à la collecte de données :
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* Lʼautorisation de haut niveau **[!DNL Manage subdomains delegation]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer les délégations de sous-domaines (y compris le groupe dʼadresses IP).
+* Lʼautorisation de haut niveau **[!DNL Manage subdomains delegations]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer les délégations de sous-domaines (y compris le groupe dʼadresses IP).
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
