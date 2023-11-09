@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 523c0cf8dd32eb9a1d2616258a7f5a142fd3499c
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 93%
+source-wordcount: '2394'
+ht-degree: 94%
 
 ---
 
@@ -84,7 +84,7 @@ Dans le **[!UICONTROL Rapport global]** de parcours, l&#39;onglet **[!UICONTROL 
 
 Le graphique **[!UICONTROL Statistiques d&#39;envoi d’e-mail]** détaille le succès de votre diffusion :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre email récurrent dans votre parcours. Pour ne cibler qu’un ou plusieurs emails récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-la dans le **[!UICONTROL Heure d’exécution]** menu déroulant.
 
 * **[!UICONTROL Ciblés]** : nombre de profils ciblés pour toute action telle que l’envoi d’e-mails ou de SMS.
 
@@ -198,7 +198,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONT
 
 Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push avec un graphique et des KPI :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre notification push récurrente dans votre parcours. Pour ne cibler qu’une ou plusieurs notifications push récurrentes, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-la dans le **[!UICONTROL Heure d’exécution]** menu déroulant.
 
 * **[!UICONTROL Ciblés]** : nombre de profils ciblés pour toute action telle que l’envoi d’e-mails ou de SMS.
 
@@ -218,7 +218,7 @@ Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente
 
 Les **[!UICONTROL Statistiques de suivi - push]** contiennent les données disponibles pour l&#39;activité destinataire de votre diffusion :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre notification push récurrente dans votre parcours. Pour ne cibler qu’une ou plusieurs notifications push récurrentes, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-la dans le **[!UICONTROL Heure d’exécution]** menu déroulant.
 
 * **[!UICONTROL Ouvertures]** : nombre de fois qu&#39;un message a été ouvert dans une diffusion.
 
@@ -274,7 +274,7 @@ Le **[!UICONTROL Rapport global]** SMS est divisé en différents widgets prése
 
 Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre diffusion :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre SMS récurrent dans votre parcours. Pour ne cibler qu’un ou plusieurs SMS récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-la dans le **[!UICONTROL Heure d’exécution]** menu déroulant.
 
 * **[!UICONTROL Ciblés]** : nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour cette diffusion.
 
