@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 94%
+source-wordcount: '773'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Une fois que [delegate](delegate-subdomain.md) votre premier sous-domaine à Ado
 
 ![](assets/ptr-records.png)
 
-La liste affiche les enregistrements PTR générés pour chaque sous-domaine délégué, en utilisant la syntaxe ci-dessous :
+La liste affiche les enregistrements PTR générés en utilisant la syntaxe ci-dessous :
 
 * &quot;r&quot; pour l&#39;enregistrement,
 * &quot;xx&quot; pour les deux derniers chiffres de l&#39;adresse IP,
