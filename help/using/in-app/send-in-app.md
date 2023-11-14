@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 94%
 
 ---
 
@@ -35,6 +35,14 @@ Pour ce faire, suivez les étapes ci-après :
 1. Scannez le code QR avec votre appareil et saisissez le code PIN affiché.
 
 Votre message in-app peut maintenant être déclenché directement sur votre appareil, ce qui vous permet de prévisualiser et de vérifier votre message sur un appareil réel.
+
+## Aperçu avec profils de test {#simulate}
+
+Une fois votre message in-app défini, vous pouvez utiliser des profils de test pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
+
+Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis ajoutez un profil de test pour vérifier votre message à l’aide des données de profil de test.
+
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 ## Vérifier et activer votre notification in-app{#in-app-review}
 

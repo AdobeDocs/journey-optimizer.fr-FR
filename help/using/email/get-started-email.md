@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 92%
 
 ---
 
@@ -27,19 +27,14 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des e-mails à vos client(e)s. Vo
 
 Les diffusions d’e-mails peuvent être créées :
 
-* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message.
+* Dans un **parcours** : une fois que vous avez ajouté une activité **[!UICONTROL E-mail]** dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : e-mail]** pour créer le contenu du message. [Découvrez comment créer un parcours](../building-journeys/journey-gs.md)
 
-  Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
-
-* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base.
-
-  Pour plus d’informations sur la configuration de vos campagnes, consultez cette [page](../campaigns/create-campaign.md#configure).
+* Dans une **campagne** : une fois que vous avez créé une campagne, sélectionnez **[!UICONTROL E-mail]** comme action et définissez les paramètres de base. [Découvrez comment créer une campagne](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
 >
 >Si c’est la première fois que vous créez un e-mail, vérifiez que le canal e-mail a été configuré. [En savoir plus](email-settings.md)
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
