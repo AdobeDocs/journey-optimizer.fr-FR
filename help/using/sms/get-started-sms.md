@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 96%
 
 ---
 
@@ -21,13 +21,9 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte à vos clients
 
 Les diffusions SMS peuvent être créées :
 
-* Dans un **parcours** : une fois que vous avez ajouté une activité de SMS dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : SMS]** pour créer le contenu du message SMS.
+* Dans un **parcours** : une fois que vous avez ajouté une activité de SMS dans votre parcours et défini les paramètres de base, utilisez le volet de droite **[!UICONTROL Actions : SMS]** pour créer le contenu du message SMS. [Découvrez comment créer un parcours](../building-journeys/journey-gs.md)
 
-  Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
-
-* Dans une **campagne** : une fois une campagne créée, sélectionnez SMS comme action et définissez les paramètres de base.
-
-  Pour plus d’informations sur la configuration de votre campagne, consultez cette [page](../campaigns/create-campaign.md#configure).
+* Dans une **campagne** : une fois une campagne créée, sélectionnez SMS comme action et définissez les paramètres de base. [Découvrez comment créer une campagne](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]
