@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 100%
+source-wordcount: '1405'
+ht-degree: 94%
 
 ---
 
@@ -167,11 +167,17 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
    ![](assets/email_designer_image_content.png)
 
-1. Cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image dans vos ressources.
+1. Dans la **[!UICONTROL Paramètres]** , cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources ou **[!UICONTROL Importation de médias]** pour charger une ressource vers des Assets Essentials.
 
    Pour en savoir plus sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
-1. Cliquez sur le composant nouvellement ajouté et configurez les propriétés de l’image à l’aide de l’onglet **[!UICONTROL Paramètres]** :
+   >[!NOTE]
+   >
+   > Pour que vos liens restent actifs et éviter tout problème d’expiration, nous vous recommandons d’utiliser Adobe Assets plutôt que de vous fier à une URL source pour vos images.
+
+1. Vous pouvez également effectuer directement des recherches dans Adobe Stock à l’aide de la fonction **[!UICONTROL Recherche de photos Adobe Stock]** .
+
+1. Cliquez sur le nouveau composant ajouté et configurez vos propriétés d’image :
 
    * **[!UICONTROL Titre d’image]** vous permet de définir un titre pour votre image.
    * **[!UICONTROL Text alt]** vous permet de définir la légende liée à votre image. Cela correspond à l’attribut alt en HTML.
