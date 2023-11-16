@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -24,11 +24,11 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 1. Une [configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
 
-1. Une [surface de publipostage direct](#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
+   >[!CAUTION]
+   >
+   >Pour créer une configuration de routage de fichier, vous devez disposer de la variable **[!DNL Manage file routing]** autorisation intégrée. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
->[!CAUTION]
->
->Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de publipostage direct.
+1. Une [surface de publipostage direct](#direct-mail-surface) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de surface de publipostage direct.
 
 ## Configurer le routage des fichiers {#file-routing-configuration}
 
