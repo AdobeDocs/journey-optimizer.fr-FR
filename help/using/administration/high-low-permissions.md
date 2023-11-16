@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 98%
+source-wordcount: '1126'
+ht-degree: 95%
 
 ---
 
@@ -288,6 +288,17 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 ## Ressource des configurations de canal {#administration-permissions}
 
+* **[!DNL Manage file routing]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des configurations de routage de fichiers.
+
++++ Elle comprend les autorisations de bas niveau suivantes :
+   * Spécifiques à Journey Optimizer :
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * Lʼautorisation de haut niveau **[!DNL Manage IP pools]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer la définition des affinités.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
@@ -399,13 +410,12 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* Lʼautorisation de haut niveau **[!DNL View PTR records]** permet aux utilisateurs et utilisatrices dʼafficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+* **[!DNL View file routing]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les configurations de routage de fichiers.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
 
-      * PTR_records.read
-      * subdomains_delegation.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * Mobile_setting.read
 
 +++
+
+* Lʼautorisation de haut niveau **[!DNL View PTR records]** permet aux utilisateurs et utilisatrices dʼafficher les enregistrements PTR qui ont été configurés en fonction du sous-domaine.
+
++++ Elle comprend les autorisations de bas niveau suivantes :
+   * Spécifiques à Journey Optimizer :
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
