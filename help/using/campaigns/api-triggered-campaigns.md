@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -137,6 +137,6 @@ Pour activer la création de profil lors de l’exécution de la campagne, activ
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions utilisateur, à l’aide de l’API REST Interactive Message Execution.
+Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST d’exécution de message interactif.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
