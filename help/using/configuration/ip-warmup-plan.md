@@ -11,10 +11,10 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 86%
 
 ---
 
@@ -33,9 +33,43 @@ Ce guide couvre les sujets suivants :
 
 Une fois que vous avez créé une ou plusieurs [campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md) avec une surface dédiée et l’option correspondante activée, vous pouvez commencer à créer votre plan de préchauffage d’adresses IP.
 
->[!CAUTION]
->
->Pour créer, modifier supprimer des plans de préchauffage d’adresses IP, et y accéder, vous devez disposer de l’autorisation **[!UICONTROL Consultant ou consultante en délivrabilité]**. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+Pour accéder, créer, modifier et supprimer les plans de réchauffement des adresses IP, vous devez disposer de la variable **[!UICONTROL Consultant en matière de délivrabilité]** autorisations associées aux plans de réchauffement des rôles ou des adresses IP.
+
++++Découvrez comment attribuer le rôle de consultant en délivrabilité ou les autorisations associées aux plans de réchauffement des adresses IP
+
+Pour attribuer l’autorisation correspondante à un **[!UICONTROL Rôle]**:
+
+1. Dans la [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez le rôle que vous souhaitez mettre à jour avec la nouvelle **[!UICONTROL Configurations de Warmup IP]** autorisations.
+
+1. À partir du tableau de bord **[!UICONTROL Rôle]**, cliquez sur **[!UICONTROL Modifier]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. Faites glisser et déposez le **[!UICONTROL Configurations de Warmup IP]** ressource pour attribuer une autorisation.
+
+1. Dans la **[!UICONTROL Configurations de Warmup IP]** , sélectionnez la ou les autorisations dont votre utilisateur a besoin.
+
+   ![](assets/ip_permissions_2.png)
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+Pour affecter le rôle correspondant à un **[!UICONTROL Utilisateur]**:
+
+1. Dans la [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez **[!UICONTROL Consultant en matière de délivrabilité]** rôle intégré.
+
+1. Dans **[!UICONTROL Rôle]** tableau de bord, accédez au **[!UICONTROL Utilisateurs]** .
+
+   ![](assets/ip_permissions_3.png)
+
+1. Cliquez sur **[!UICONTROL Ajouter un utilisateur]** pour affecter la variable **[!UICONTROL Consultant en matière de délivrabilité]** rôle intégré.
+
+   ![](assets/ip_permissions_4.png)
+
+1. Sélectionnez votre **[!UICONTROL Utilisateur]** et cliquez sur **[!UICONTROL Enregistrer]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## Préparer un fichier de plan de préchauffage d’adresses IP {#prepare-file}
 
@@ -264,5 +298,9 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 1. Cliquez sur **[!UICONTROL Créer]**. Toutes les phases, les exécutions, les colonnes et leur contenu définis dans le fichier que vous avez chargé sont automatiquement affichés dans l’interface de [!DNL Journey Optimizer].
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >La variable **[!UICONTROL Ciblés]** La colonne indique la somme de tous les profils ciblés pour chaque exécution, c’est-à-dire tous les profils de chaque groupe de domaines que vous avez défini, y compris le **Autres** le cas échéant.
 
 Vous pouvez maintenant exécuter votre plan de préchauffage d’adresses IP. [En savoir plus](ip-warmup-execution.md)
