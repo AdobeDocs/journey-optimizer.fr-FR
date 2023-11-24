@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 >[!AVAILABILITY]
 >
->Ces fonctionnalités sont actuellement disponibles en version Private Beta.
+>Ces fonctionnalités sont actuellement disponibles en version bêta privée.
 
 <!--
 **Spam scoring for emails**
@@ -286,7 +286,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Valider vos emails avec des listes de contrôle</strong><br/></th>
+<th><strong>Valider vos e-mails avec des listes de contrôle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -971,9 +971,9 @@ Note that each widget can be resized and deleted as needed.
 
 * **Liste autorisée** : vous pouvez désormais télécharger la liste autorisée sous la forme d’un fichier .csv. [En savoir plus](../configuration/allow-list.md#download-allowed-list).
 
-* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’email. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l’**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’email ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#reply-to-email).
+* **Surface d’e-mail** : une vérification supplémentaire a été ajoutée aux paramètres de surface d’e-mail. Si l’enregistrement MX pour le sous-domaine utilisé dans l’**adresse (e-mail) de réponse** ou dans l’**adresse e-mail en Cci** n’est pas correctement configuré, la surface d’e-mail ne peut plus être créée. Vous devez le configurer ou en utiliser un autre. [En savoir plus](../email/email-settings.md#reply-to-email).
 
-* **Surface d’email** : dans la section **Paramètres de suivi des URL** des paramètres de surface d’e-mail, la limite de chaque champ **Valeur** a été mise à jour de 255 caractères à 5 Ko pour des raisons de compatibilité avec le suivi Adobe Analytics. [En savoir plus](../email/email-settings.md#url-tracking)
+* **Surface d’e-mail** : dans la section **Paramètres de suivi des URL** des paramètres de surface d’e-mail, la limite de chaque champ **Valeur** a été mise à jour de 255 caractères à 5 Ko pour des raisons de compatibilité avec le suivi Adobe Analytics. [En savoir plus](../email/email-settings.md#url-tracking)
 
 **Gestion des décisions**
 
