@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Chaque tableau de bord de reporting peut être modifié en modifiant la période
 
    ![](assets/report_modify_1.png)
 
-1. Pour les rapports de Parcours qui impliquent plusieurs **[!UICONTROL Actions]**, sélectionnez une **[!UICONTROL Action]** dans le menu déroulant.
+1. Pour les rapports de parcours qui impliquent plusieurs **[!UICONTROL Actions]**, sélectionnez une **[!UICONTROL Action]** dans le menu déroulant.
 
-1. Si vous souhaitez ne cibler qu’un ou plusieurs messages récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+1. Si vous souhaitez ne cibler qu’un ou plusieurs messages récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
    ![](assets/report_modify_12.png)
 
