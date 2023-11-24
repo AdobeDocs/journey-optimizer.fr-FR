@@ -10,9 +10,9 @@ level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -288,7 +288,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 ## Ressource des configurations de canal {#administration-permissions}
 
-* **[!DNL Manage file routing]** l’autorisation de haut niveau permet aux utilisateurs de créer, modifier et supprimer des configurations de routage de fichiers.
+* Lʼautorisation de haut niveau **[!DNL Manage file routing]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer les configuration des routages.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
@@ -338,7 +338,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* **[!DNL Manage messages presets]** l’autorisation de haut niveau permet aux utilisateurs de lire, créer, modifier et supprimer des surfaces de canal sur les canaux au niveau de l’environnement de test.
+* Lʼautorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer des surfaces de canaux sur les canaux au niveau du sandbox.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -410,7 +410,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* **[!DNL View file routing]** l’autorisation de haut niveau permet aux utilisateurs d’afficher les configurations de routage de fichiers.
+* L’autorisation de haut niveau **[!DNL View file routing]** permet aux utilisateurs et utilisatrices d’afficher les configurations de routage de fichiers.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
