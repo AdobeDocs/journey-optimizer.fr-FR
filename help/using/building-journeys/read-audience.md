@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1356'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
 1. Ajoutez un **[!UICONTROL libellé]** à l’activité (facultatif).
 
-1. Dans le champ **[!UICONTROL Audience]**, sélectionnez l’audience Adobe Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez sélectionner n’importe quelle audience Adobe Experience Platform générée à l’aide de [définitions de segment](../audience/creating-a-segment-definition.md).
+1. Dans le champ **[!UICONTROL Audience]**, sélectionnez l’audience Adobe Experience Platform qui va rejoindre le parcours, puis cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez sélectionner n’importe quelle audience Adobe Experience Platform générée à l’aide des [définitions de segment](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d&#39;audience](../audience/get-started-audience-orchestration.md) ou [téléchargé à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version Private Beta.
+   >Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide des [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [téléchargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version bêta privée.
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
