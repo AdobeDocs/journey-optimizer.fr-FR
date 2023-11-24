@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1275'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -33,39 +33,39 @@ Ce guide couvre les sujets suivants :
 
 Une fois que vous avez créé une ou plusieurs [campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md) avec une surface dédiée et l’option correspondante activée, vous pouvez commencer à créer votre plan de préchauffage d’adresses IP.
 
-Pour accéder, créer, modifier et supprimer les plans de réchauffement des adresses IP, vous devez disposer de la variable **[!UICONTROL Consultant en matière de délivrabilité]** autorisations associées aux plans de réchauffement des rôles ou des adresses IP.
+Pour créer, modifier supprimer des plans de préchauffage d’adresses IP et y accéder, vous devez disposer des autorisations associées au rôle **[!UICONTROL Consultant en délivrabilité]** ou aux plans de préchauffage des adresses IP.
 
-+++Découvrez comment attribuer le rôle de consultant en délivrabilité ou les autorisations associées aux plans de réchauffement des adresses IP
++++Découvrez comment attribuer le rôle Consultant en délivrabilité, ou encore les autorisations associées aux plans de préchauffage des adresses IP.
 
-Pour attribuer l’autorisation correspondante à un **[!UICONTROL Rôle]**:
+Pour attribuer l’autorisation correspondant à un **[!UICONTROL rôle]** spécifique :
 
-1. Dans la [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez le rôle que vous souhaitez mettre à jour avec la nouvelle **[!UICONTROL Configurations de Warmup IP]** autorisations.
+1. Dans le produit [!DNL Permissions], accédez au menu **[!UICONTROL Rôles]** et sélectionnez le rôle à mettre à jour avec les nouvelles autorisations **[!UICONTROL Configuration de préchauffage des adresses IP]**.
 
 1. À partir du tableau de bord **[!UICONTROL Rôle]**, cliquez sur **[!UICONTROL Modifier]**.
 
    ![](assets/ip_permissions_1.png)
 
-1. Faites glisser et déposez le **[!UICONTROL Configurations de Warmup IP]** ressource pour attribuer une autorisation.
+1. Faites glisser et déposez la ressource **[!UICONTROL Configurations de préchauffage des adresses IP]** pour attribuer une autorisation.
 
-1. Dans la **[!UICONTROL Configurations de Warmup IP]** , sélectionnez la ou les autorisations dont votre utilisateur a besoin.
+1. Dans **[!UICONTROL Configurations de préchauffage des adresses IP]**, sélectionnez la ou les autorisations dont votre utilisateur ou votre utilisatrice a besoin.
 
    ![](assets/ip_permissions_2.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Pour affecter le rôle correspondant à un **[!UICONTROL Utilisateur]**:
+Pour affecter le rôle correspondant à **[!UICONTROL un utilisateur ou une utilisatrice]** :
 
-1. Dans la [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez **[!UICONTROL Consultant en matière de délivrabilité]** rôle intégré.
+1. Dans le produit [!DNL Permissions], accédez au menu **[!UICONTROL Rôles]** et sélectionnez le rôle intégré **[!UICONTROL Consultant en délivrabilité]**.
 
-1. Dans **[!UICONTROL Rôle]** tableau de bord, accédez au **[!UICONTROL Utilisateurs]** .
+1. Dans le tableau de bord **[!UICONTROL Rôle]**, accédez à l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**.
 
    ![](assets/ip_permissions_3.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter un utilisateur]** pour affecter la variable **[!UICONTROL Consultant en matière de délivrabilité]** rôle intégré.
+1. Cliquez sur **[!UICONTROL Ajouter un utilisateur ou une utilisatrice]** pour affecter le rôle intégré **[!UICONTROL Consultant en délivrabilité]**.
 
    ![](assets/ip_permissions_4.png)
 
-1. Sélectionnez votre **[!UICONTROL Utilisateur]** et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez votre **[!UICONTROL utilisateur ou utilisatrice]** et cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/ip_permissions_5.png)
 
@@ -301,6 +301,6 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >La variable **[!UICONTROL Ciblés]** La colonne indique la somme de tous les profils ciblés pour chaque exécution, c’est-à-dire tous les profils de chaque groupe de domaines que vous avez défini, y compris le **Autres** le cas échéant.
+   >La colonne **[!UICONTROL Ciblé]** indique la somme de tous les profils ciblés pour chaque exécution, c’est-à-dire tous les profils de chaque groupe de domaines que vous avez défini, y compris la colonne **Autres**, le cas échéant.
 
 Vous pouvez maintenant exécuter votre plan de préchauffage d’adresses IP. [En savoir plus](ip-warmup-execution.md)
