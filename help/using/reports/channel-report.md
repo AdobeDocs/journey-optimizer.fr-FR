@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapports au niveau du canal
+title: Rapports au niveau des canaux
 description: Découvrez comment utiliser les données des rapports Canal
 feature: Reporting
 topic: Content Management
@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2664'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Vous pouvez accéder aux rapports au niveau des canaux en accédant au menu **Ra
 La page Rapport s’affiche avec les onglets suivants :
 
 * [E-mail](#email)
-* [Push Notifications](#push)
+* [Notification push Notifications](#push)
 * [SMS](#sms)
 * [In-app](#inapp)
 * [Web](#web)
@@ -240,7 +240,7 @@ Le tableau **[!UICONTROL Notification push - Statistiques d’envoi totales]** p
 
 * **[!UICONTROL Taux de rebond]** : pourcentage de notifications push ayant rebondi par rapport aux notifications push envoyées.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues, l’empêchant d’être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues empêchant l’e-mail d’être envoyé à des profils.
 
 * **[!UICONTROL Taux d’erreurs]** : pourcentage d’erreurs survenues empêchant l’envoi, par rapport aux notifications push envoyées.
 
@@ -268,7 +268,7 @@ Le graphique **[!UICONTROL Notifications push - Statistiques d’envoi dans le t
 
 * **[!UICONTROL Rebonds]** : nombre total d&#39;erreurs cumulées lors du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues, l’empêchant d’être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues empêchant l’e-mail d’être envoyé à des profils.
 
 Le graphique et le tableau **[!UICONTROL Raisons de l’exclusion]** affichent les différentes raisons qui ont empêché les profils utilisateur, à part les profils ciblés, de recevoir le message.
 
