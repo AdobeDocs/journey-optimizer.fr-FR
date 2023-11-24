@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 55%
+source-wordcount: '933'
+ht-degree: 59%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 55%
 
 ## Utiliser des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Vous pouvez sélectionner dans des campagnes et des parcours toute audience Adobe Experience Platform générée à l’aide de [définitions de segment](../audience/creating-a-segment-definition.md).
+Vous pouvez sélectionner dans des campagnes et des parcours toute audience Adobe Experience Platform générée à l’aide de [définitions de segment](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d&#39;audience](../audience/get-started-audience-orchestration.md) ou [téléchargé à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version Private Beta.
+>Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide des [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [chargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version bêta privée.
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
@@ -111,7 +111,7 @@ Par conséquent, pour optimiser les performances de la segmentation par flux, é
 
 * **Message envoyé** Événement d’état de retour
 
-  La variable **Message envoyé** l’événement feedback est souvent utilisé pour la vérification de la fréquence ou de la suppression avant l’envoi d’un email. Adobe recommande de l’éviter si possible, car la capacité globale actuelle du nombre d’événements pouvant être diffusés par seconde prend de l’espace.
+  La variable **Message envoyé** l’événement feedback est souvent utilisé pour la vérification de la fréquence ou de la suppression avant l’envoi d’un email. Adobe recommande de l’éviter, car cela met une pression sur les performances et peut entraîner une dégradation du système.
 
   Par conséquent, pour la logique de fréquence ou de suppression, utilisez des règles de fonctionnement plutôt que **Message envoyé** événements de retour . Notez que des limites de fréquence quotidiennes pour les profils individuels seront bientôt disponibles, en complément de la cadence mensuelle existante pour les règles de fonctionnement.
 
