@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3357'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ La page **[!UICONTROL Rapport global]** de la campagne s&#39;affiche avec les on
 * [Campagne](#campaign-global)
 * [E-mail](#email-global)
 * [In-app](#inapp-global)
-* [Push](#push-global)
+* [Notification push](#push-global)
 * [SMS](#sms-global)
 * [Web](#web-tab)
 * [Publipostage direct](#direct-mail-global)
@@ -173,7 +173,7 @@ Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL E-
 
 Le graphique **[!UICONTROL E-mail - Statistiques d’envoi]** détaille la réussite de votre e-mail :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre email récurrent. Pour ne cibler qu’un ou plusieurs emails récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre e-mail récurrent. Pour ne cibler qu’un ou plusieurs e-mails récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ciblés]** : nombre total de messages traités lors de la procédure d’envoi.
 
@@ -197,7 +197,7 @@ Le graphique **[!UICONTROL E-mail - Statistiques d’envoi]** détaille la réus
 
 Le widget **[!UICONTROL E-mail - Statistiques de tracking]** contient les données disponibles pour l’activité de profil de votre e-mail :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre email récurrent. Pour ne cibler qu’un ou plusieurs emails récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre e-mail récurrent. Pour ne cibler qu’un ou plusieurs e-mails récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ouvertures]** : nombre de fois que l’e-mail a été ouvert.
 
@@ -247,7 +247,7 @@ Le graphique et le tableau **[!UICONTROL E-mail - Meilleur domaine de destinatai
 >
 > Le widget **[!UICONTROL E-mail - Meilleur domaine de destinataire]** a un taux de précision de 99,95 %.
 
-La variable **[!UICONTROL Email - Optimisé par rapport à Normal]** graph détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
+Le graphique **[!UICONTROL E-mail - Optimisé / normal]** détaille les informations principales relatives à votre message, qu’elles soient optimisées ou non :
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
@@ -255,7 +255,7 @@ La variable **[!UICONTROL Email - Optimisé par rapport à Normal]** graph déta
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans un e-mail.
 
-La variable **[!UICONTROL Email - Optimisation de l’heure d’envoi]** détaille le succès de votre email selon la méthode d&#39;envoi : optimisé ou normal.
+**[!UICONTROL E-mail - Optimisation de l’heure d’envoi]** détaille le succès de votre e-mail selon la méthode d’envoi : optimisé ou normal.
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -343,7 +343,7 @@ Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL No
 
 Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente les principales informations relatives à vos notifications push.:
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre notification push récurrente. Pour ne cibler qu’une ou plusieurs notifications push récurrentes, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre notification push récurrente. Pour ne cibler qu’une ou plusieurs notifications push récurrentes, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ciblés]** : nombre total de messages traités lors de l’analyse.
 
@@ -357,7 +357,7 @@ Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente
 
 * **[!UICONTROL Taux de rebond]** : pourcentage de notifications push ayant rebondi par rapport aux notifications push envoyées.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues, l’empêchant d’être envoyée à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues empêchant l’e-mail d’être envoyé à des profils.
 
 * **[!UICONTROL Taux d’erreurs]** : pourcentage d’erreurs survenues empêchant l’envoi de l’e-mail, par rapport aux notifications push envoyées.
 
@@ -365,7 +365,7 @@ Le tableau **[!UICONTROL Notification push - Statistiques d’envoi]** présente
 
 Les **[!UICONTROL Notication push - Statistiques de tracking]** contiennent les données disponibles pour l’activité du profil de votre notification push :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre notification push récurrente. Pour ne cibler qu’une ou plusieurs notifications push récurrentes, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre notification push récurrente. Pour ne cibler qu’une ou plusieurs notifications push récurrentes, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ouvertures]** : nombre de fois que votre notification push a été ouverte.
 
@@ -454,7 +454,7 @@ Dans le **[!UICONTROL Rapport global]** de campagne, l’onglet **[!UICONTROL SM
 
 Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite de votre SMS :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre SMS récurrent. Pour ne cibler qu’un ou plusieurs SMS récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre SMS récurrent. Pour ne cibler qu’un ou plusieurs SMS récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ciblés]** : nombre de profils de personnes qui sont qualifiés en tant que profils cibles.
 
@@ -541,7 +541,7 @@ Depuis le **[!UICONTROL rapport global]** de votre campagne, l’onglet **[!UICO
 
 Le tableau **[!UICONTROL Courrier – Statistiques d’envoi]** détaille le succès de votre courrier :
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre courrier récurrent. Pour ne cibler qu’un ou plusieurs Courriers récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre publipostage direct récurrent. Pour ne cibler qu’un ou plusieurs publipostages directs récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ciblés]** : nombre de profils de personnes qui sont qualifiés en tant que profils cibles pour ce courrier.
 
