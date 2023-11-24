@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="Enregistrements PTR des sous-domaines"
->abstract="Une fois que le premier sous-domaine est délégué à Adobe dans Journey Optimizer, les enregistrements PTR sont automatiquement créés."
+>abstract="Une fois que le premier sous-domaine est délégué à Adobe dans Journey Optimizer, les enregistrements PTR sont automatiquement créés."
 
 ## À propos des enregistrements PTR {#about-ptr-records}
 
@@ -36,11 +36,11 @@ Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent v
 
 ## Accès aux enregistrements PTR de vos sous-domaines {#access-ptr-records}
 
-Une fois que [delegate](delegate-subdomain.md) votre premier sous-domaine à Adobe dans [!DNL Journey Optimizer], les enregistrements PTR sont automatiquement créés pour vos adresses IP. Vous pouvez y accéder à partir de la **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des emails]** > **[!UICONTROL Enregistrements PTR]** .
+Dès que vous [déléguez](delegate-subdomain.md) votre premier sous-domaine à Adobe dans [!DNL Journey Optimizer], les enregistrements PTR sont automatiquement créés pour vos adresses IP. Vous pouvez y accéder à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]** > **[!UICONTROL Enregistrements PTR]**.
 
 ![](assets/ptr-records.png)
 
-La liste affiche les enregistrements PTR générés en utilisant la syntaxe ci-dessous :
+La liste affiche les enregistrements PTR générés en utilisant la syntaxe ci-dessous :
 
 * &quot;r&quot; pour l&#39;enregistrement,
 * &quot;xx&quot; pour les deux derniers chiffres de l&#39;adresse IP,
