@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
    Une fois l’audience ajoutée, le bouton **[!UICONTROL Copier]** permet de copier son nom et son ID :
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
@@ -107,7 +107,9 @@ De plus, si l’audience par lots est créée et utilisée immédiatement dans u
 
 Lors de l’utilisation de la qualification d’audience pour les audiences en flux continu, il y a moins de risque d’obtenir d’importants pics d’entrées/sorties en raison de l’évaluation continue de l’audience. Néanmoins, si la définition de l’audience conduit à qualifier un grand nombre de clientes et clients en même temps, un pic peut également se produire.
 
-Pour plus d’informations sur la segmentation en flux continu, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr#api)
+Évitez d’utiliser des événements d’ouverture et d’envoi avec la segmentation par flux. Utilisez plutôt des signaux d’activité utilisateur réels tels que des clics, des achats ou des données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que d’envoyer des événements. [En savoir plus](../audience/about-audiences.md#open-and-send-event-guardrails)
+
+Pour plus d’informations sur la segmentation en flux continu, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr#api).
 
 ### Éviter les surcharges{#overloads-speed-segment-qualification}
 

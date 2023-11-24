@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 96%
+source-wordcount: '401'
+ht-degree: 88%
 
 ---
 
@@ -55,6 +55,10 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clientes 
    * **Événements** : profils qui ont ouvert l’application Luma au cours des 7 derniers jours, puis effectué un achat dans les 2 heures suivant l’ouverture de l’application.
 
      ![](assets/add-events.png)
+
+     >[!NOTE]
+     >
+     >Adobe recommande de ne pas utiliser les événements d’ouverture et d’envoi avec la segmentation par flux. Utilisez plutôt des signaux d’activité utilisateur réels tels que des clics, des achats ou des données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que d’envoyer des événements. [En savoir plus](about-audiences.md#open-and-send-event-guardrails)
 
 1. À mesure que vous ajoutez et configurez de nouveaux champs dans l’espace de travail, le volet **[!UICONTROL Propriétés d’audience]** est automatiquement mis à jour avec des informations sur l’estimation des profils appartenant à l’audience.
 
