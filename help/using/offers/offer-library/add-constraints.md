@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -154,7 +154,7 @@ Pour définir la limitation, procédez comme suit.
 
    >[!CAUTION]
    >
-   >Il n’est pas possible d’activer ou de désactiver la limitation de la fréquence pour les offres créées précédemment. Pour cela, vous devez créer une offre.
+   >Il n’est pas possible d’activer ou de désactiver le capping de la fréquence pour les offres créées précédemment. Pour cela, vous devez créer une offre.
 
 1. Définissez l’**[!UICONTROL Événement de limitation]** à prendre en compte pour augmenter le compteur. [En savoir plus](#capping-event).
 
@@ -168,7 +168,7 @@ Pour définir la limitation, procédez comme suit.
 
 1. Une fois enregistrée et validée, si l’offre a été présentée le nombre de fois que vous avez spécifiées dans ce champ en fonction des critères et du délai que vous avez définis, sa diffusion s’arrêtera.
 
-Le nombre de fois où une offre est proposée est calculé au moment de la préparation de l&#39;email. Par exemple, si vous préparez un email contenant un certain nombre d&#39;offres, ces chiffres sont pris en compte dans votre limitation maximale, et ce que l&#39;email soit envoyé ou non.
+Le nombre de fois où une offre est proposée est calculé au moment de la préparation de l&#39;e-mail. Par exemple, si vous préparez un e-mail contenant un certain nombre d&#39;offres, ces chiffres sont pris en compte dans votre limitation maximale, et ce que l&#39;e-mail soit envoyé ou non.
 
 <!--If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.-->
 
@@ -247,7 +247,7 @@ Vous pouvez également indiquer si vous souhaitez que la limitation soit appliqu
 
   Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
 
-### Limitation de la fréquence {#frequency-capping}
+### Capping de la fréquence {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
@@ -268,7 +268,7 @@ Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé 
 >
 >Une fois que vous avez publié votre offre, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence.
 >
->Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec la limitation de la fréquence activée.
+>Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec la capping de la fréquence activée.
 
 ### Limitation et emplacements {#placements}
 
