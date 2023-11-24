@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,8 +92,8 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
 </tr> 
   <tr> 
-   <td> Raison de l’erreur<br/> </td> 
-   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les raisons des erreurs</a>.<br/> </td> 
+   <td> Motif de l’erreur<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Exclus<br/> </td> 
@@ -339,8 +339,8 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage d’erreurs survenues pendant une diffusion qui l’empêchent d’être envoyée par rapport aux notifications push envoyées.<br/> </td> 
 </tr>
   <tr> 
-   <td> Raison de l’erreur<br/> </td> 
-   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les raisons des erreurs</a>.<br/> </td> 
+   <td> Motif de l’erreur<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Exclus<br/> </td> 
