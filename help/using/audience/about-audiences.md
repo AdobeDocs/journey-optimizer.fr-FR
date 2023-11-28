@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 59%
@@ -51,7 +51,7 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 * Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
-## Méthodes d’évaluation d’audience{#evaluation-method-in-journey-optimizer}
+## Méthodes d’évaluation d’audience {#evaluation-method-in-journey-optimizer}
 
 Dans Adobe Journey Optimizer, les audiences sont générées à partir des définitions de segment à l’aide de l’une des trois méthodes d’évaluation ci-dessous.
 
@@ -97,11 +97,11 @@ Une fois que vous avez défini une audience pour la première fois, les profils 
 
 Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
 
-### Utilisation des événements avec la segmentation par flux {#open-and-send-event-guardrails}
+### Utilisation des événements avec la segmentation par flux {#streaming-segmentation-events-guardrails}
 
 La segmentation par flux est utile pour la personnalisation en temps réel avec des cas d’utilisation à forte valeur ajoutée. Cependant, il est important de choisir la [events](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target="_blank"} à utiliser comme critères de segmentation.
 
-Par conséquent, pour optimiser les performances de la segmentation par flux, évitez d’utiliser les événements suivants :
+Par conséquent, pour une segmentation par flux optimale des performances, évitez d’utiliser les événements suivants :
 
 * **Message ouvert** Événement Type d’interaction
 

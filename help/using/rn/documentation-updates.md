@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
-source-wordcount: '4120'
-ht-degree: 99%
+source-wordcount: '4174'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 
 * Le mécanisme de sécurisation qui limite toutes les actions personnalisées a été modifié de 150 000 appels de plus de 30 secondes à 300 000 appels de plus d’une minute. En outre, la limitation par défaut ne s’applique plus à chaque point d’entrée. Elle est désormais effectuée par hôte et par sandbox. Par exemple, sur un sandbox, si vous avez deux points d’entrée avec le même hôte (par exemple, `https://www.adobe.com/endpoint1` et `https://www.adobe.com/endpoint2`), la limitation s’applique à tous les points d’entrée sous l’hôte adobe.com. Le point d’entrée 1 et le point d’entrée 2 partagent la même configuration de limitation. En outre, le fait qu’un point d’entrée atteigne la limite a un impact sur l’autre point d’entrée. [En savoir plus](../action/about-custom-action-configuration.md)
 * Un nouvel état pour les campagnes par e-mail a été ajouté à la liste des statuts des campagnes. [En savoir plus](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* La section Prise en main des audiences Adobe Experience Platform a été mise à jour afin de prendre en compte les méthodes d’évaluation d’audience disponibles et de savoir comment les sélectionner. [En savoir plus](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* Une nouvelle sous-section a été ajoutée pour spécifier les événements à éviter lors de la création de votre audience si vous utilisez la méthode d’évaluation de la segmentation par flux. [En savoir plus](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## Octobre 2023 {#oct-2023}
 
