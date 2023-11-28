@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clientes 
 
 ➡️ [Découvrez comment créer des audiences dans cette vidéo](#video-segment).
 
-1. Dans la **[!UICONTROL Audiences]** , cliquez sur **[!UICONTROL Créer une audience]** et sélectionnez **[!UICONTROL Créer une règle]**.
+1. Dans le menu **[!UICONTROL Audiences]**, cliquez sur le bouton **[!UICONTROL Créer une audience]** et sélectionnez **[!UICONTROL Créer une règle]**.
 
    ![](assets/create-segment.png)
 
