@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Utiliser des fragments d’expression {#use-expression-fragments}
 
-Lorsque vous utilisez l’éditeur d’expression, vous pouvez utiliser tous les fragments d’expression qui ont été créés ou enregistrés dans le sandbox actuel.
+Lors de l’utilisation de la variable **Editeur d&#39;expression**, vous pouvez exploiter tous les fragments d’expression qui ont été créés ou enregistrés dans l’environnement de test actuel.
 
 Découvrez comment créer et gérer des fragments dans [cette section](../content-management/fragments.md).
 
