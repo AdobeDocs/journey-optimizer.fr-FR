@@ -11,9 +11,9 @@ keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
+source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1535'
 ht-degree: 80%
 
 ---
@@ -112,6 +112,7 @@ L’idée est d’augmenter progressivement le nombre d’adresses ciblées au c
 
 Les groupes de domaines principaux prêts à l’emploi que vous pouvez ajouter à votre plan sont répertoriés ci-dessous :
 
+<!--
 * Gmail
 * Adobe
 * WP
@@ -127,12 +128,13 @@ Les groupes de domaines principaux prêts à l’emploi que vous pouvez ajouter 
 * Italia Online
 * La Poste
 * Apple
+-->
 
-+++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
++++ Gmail
+gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
-+++ Adobe
-
++++ Adobe adobe.com
 +++
 
 +++WP wp.pl;o2.pl
