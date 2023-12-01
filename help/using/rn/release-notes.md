@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
@@ -254,7 +254,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Assets**
 
-* Une nouvelle option pour Assets vous permet de choisir le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel Assets as a Cloud Service, à condition que vous possédiez cette solution. [En savoir plus](../content-management/assets-essentials.md)
+* Une nouvelle option pour Assets vous permet de choisir le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel Assets Essentials ou un référentiel Assets as a Cloud Service, à condition que vous possédiez cette solution. [En savoir plus](../content-management/assets.md)
 
 <!--**Decision management**
 
