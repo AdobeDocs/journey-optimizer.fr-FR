@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
-workflow-type: ht
-source-wordcount: '1405'
-ht-degree: 100%
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **Taille de police** : sélectionnez la taille de police de votre texte en pixels.
    * **[!UICONTROL Changer la couleur de la police]** : choisissez la couleur de votre police.
    * **[!UICONTROL Insérer un lien]** : ajoutez n’importe quel type de lien à votre contenu.
-   * **[!UICONTROL Modifier l’image]** : ajoutez une image ou une ressource à votre composant de texte. [En savoir plus sur la gestion des ressources](../content-management/assets-essentials.md)
+   * **[!UICONTROL Modifier l’image]** : ajoutez une image ou une ressource à votre composant de texte. [En savoir plus sur la gestion des ressources](../content-management/assets.md)
    * **[!UICONTROL Modifier la couleur de la police]** : choisissez la couleur de votre police.
    * **[!UICONTROL Ajouter une personnalisation]** : ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
    * **[!UICONTROL Afficher le code source]** : affichez le code source de votre texte. Ceci ne peut pas être modifié.
@@ -167,9 +167,9 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
    ![](assets/email_designer_image_content.png)
 
-1. Dans l’onglet **[!UICONTROL Paramètres]**, cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources ou sur **[!UICONTROL Importer un média]** pour charger une ressource vers Assets Essentials.
+1. Dans la **[!UICONTROL Paramètres]** , cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources ou **[!UICONTROL Importation de médias]** pour charger une ressource dans Adobe Experience Manager Assets.
 
-   Pour en savoir plus sur [!DNL Assets Essentials], consultez la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
+   Pour en savoir plus sur [!DNL Adobe Experience Manager Assets], consultez la [documentation Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
    >[!NOTE]
    >

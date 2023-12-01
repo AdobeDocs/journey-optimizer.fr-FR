@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 97%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Déléguer un sous-domaine web"
->abstract="Si vous ajoutez du contenu provenant d’Adobe Experience Manager Assets Essentials à vos expériences web, vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. Choisissez parmi les sous-domaines déjà délégués à Adobe ou configurez un nouveau sous-domaine."
+>abstract="Si vous ajoutez du contenu provenant d’Adobe Experience Manager Assets  à vos expériences web, vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. Choisissez parmi les sous-domaines déjà délégués à Adobe ou configurez un nouveau sous-domaine."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="Définir un sous-domaine web"
 >abstract="Sélectionnez un sous-domaine dans la liste des sous-domaines délégués à Adobe. Vous pouvez définir ce sous-domaine web comme sous-domaine par défaut, mais un seul sous-domaine par défaut peut être utilisé à la fois."
 
-Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque d’[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
+Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque d’[Adobe Experience Manager Assets ](../content-management/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
 
@@ -101,7 +101,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="Générer l’enregistrement DNS correspondant"
->abstract="Pour configurer un nouveau sous-domaine web, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour publier du contenu provenant de la bibliothèque Experience Manager Assets Essentials."
+>abstract="Pour configurer un nouveau sous-domaine web, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour publier du contenu provenant de la bibliothèque Adobe Experience Manager Assets."
 
 Pour configurer un nouveau sous-domaine, procédez comme suit :
 

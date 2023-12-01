@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer 
 
 * Tirez parti des **fonctionnalités de conception d’e-mail** [!DNL Journey Optimizer] pour créer ou importer des e-mails réactifs. [En savoir plus](content-from-scratch.md)
 
-* Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../content-management/assets-essentials.md)
+* Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../content-management/assets.md)
 
 * Rechercher des **photos Adobe Stock** pour créer votre contenu et améliorer votre conception d’e-mail. [En savoir plus](../content-management/stock.md)
 
@@ -46,7 +46,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 1. Dans la page d’accueil du concepteur d’e-mail, choisissez la manière de concevoir votre e-mail à l’aide des options suivantes :
 
-   * **Concevez vos e-mails en partant de zéro** dans l’interface du concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
+   * **Concevez vos e-mails en partant de zéro** dans l’interface du concepteur d’e-mail et tirez parti des images provenant d’[Adobe Experience Manager Assets ](../content-management/assets.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
 
    * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 

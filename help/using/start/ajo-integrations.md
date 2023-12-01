@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -40,13 +40,13 @@ Vous pouvez exploiter toutes les données d’événement comportemental Adobe 
 En savoir plus sur [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets Essentials]. Intégrés nativement à [!DNL Adobe Journey Optimizer], accédez à [!DNL Assets Essentials] pour stocker, gérer, découvrir et distribuer des ressources numériques. Ceci fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages.
+Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets]. Intégrés nativement à [!DNL Adobe Journey Optimizer], accédez à [!DNL Adobe Experience Manager Assets] pour stocker, gérer, découvrir et distribuer des ressources numériques. Ceci fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages.
 
-[!DNL Adobe Experience Manager Assets Essentials] est accessible directement depuis [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** du menu de gauche.
+[!DNL Adobe Experience Manager Assets] est accessible directement depuis [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** du menu de gauche.
 
-En savoir plus sur [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
+En savoir plus sur [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}
