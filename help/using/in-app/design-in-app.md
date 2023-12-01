@@ -7,8 +7,8 @@ role: User
 level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: tm+mt
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: ht
 source-wordcount: '1147'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Le champ **[!UICONTROL Média]** permet d’ajouter des médias à votre message
 
 ![](assets/in_app_content_3.png)
 
-Saisissez votre URL de média ou cliquez sur l’icône **[!UICONTROL Sélectionner les ressources]** pour ajouter directement des ressources stockées dans votre bibliothèque de ressources à votre message in-app. [En savoir plus sur la gestion des ressources](../content-management/assets-essentials.md).
+Saisissez votre URL de média ou cliquez sur l’icône **[!UICONTROL Sélectionner les ressources]** pour ajouter directement des ressources stockées dans votre bibliothèque de ressources à votre message in-app. [En savoir plus sur la gestion des ressources](../content-management/assets.md).
 Vous pouvez également ajouter un **[!UICONTROL Texte secondaire]** pour les applications de lecture d’écran.
 
 +++Plus d’options avec Formatage avancé
