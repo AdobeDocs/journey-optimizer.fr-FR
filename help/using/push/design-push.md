@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: tm+mt
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: ht
 source-wordcount: '1407'
 ht-degree: 100%
 
@@ -58,9 +58,9 @@ Dans la version Android, vous pouvez uniquement ajouter une icône d&#39;image e
 
 Deux options sont disponibles. Vous pouvez :
 
-* Cliquez sur le bouton **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets Essentials]**.
+* Cliquez sur le bouton **[!UICONTROL Ajouter un média]** pour sélectionner une ressource dans **[!DNL Adobe Experience Manager Assets]**.
 
-  Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets Essentials]** dans [cette page](../content-management/assets-essentials.md).
+  Découvrez comment utiliser **[!DNL Adobe Experience Manager Assets]** dans [cette page](../content-management/assets.md).
 
 * Vous pouvez également saisir lʼURL du média en cliquant sur le champ **[!UICONTROL Ajouter un média]**. Dans ce cas, vous pouvez ajouter une personnalisation à l’URL.
 
