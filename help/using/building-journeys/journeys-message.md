@@ -7,23 +7,23 @@ feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: parcours, message, notification push, sms, e-mail, in-app
+keywords: parcours, message, push, sms, email, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 100%
+source-wordcount: '1167'
+ht-degree: 94%
 
 ---
 
-# E-mail, in-app, push, SMS{#add-a-message-in-a-journey}
+# Email, In-App, Push, SMS/MMS{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Activité Message"
->abstract="Journey Optimizer est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter une activité de message push, SMS, in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
+>abstract="Journey Optimizer est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une notification push, un message texte (SMS/MMS), une activité de message in-app ou email et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter une activité de message push, SMS, in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une activité push, SMS/MMS, une activité In-App ou email et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 
 Vous pouvez également configurer des actions spécifiques pour vous envoyer des messages :
 
@@ -74,7 +74,7 @@ Pour ajouter un message dans un parcours, procédez comme suit :
    <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Créer des SMS</strong></a>
+   <a href="../sms/create-sms.md"><strong>Créer des messages texte (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
