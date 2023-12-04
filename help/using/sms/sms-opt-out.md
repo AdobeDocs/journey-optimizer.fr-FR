@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion du processus de désinscription aux SMS
-description: Découvrez comment gérer la désinscription aux SMS
+title: Gestion des opt-out pour les messages texte
+description: Découvrez comment gérer l’exclusion avec les messages SMS/MMS
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 95%
 
 ---
 
-# Gestion du processus de désinscription aux SMS {#sms-opt-out}
+# Gestion des opt-out pour les messages texte {#sms-opt-out}
 
 Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et de la désinscription](../privacy/opt-out.md)
 

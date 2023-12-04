@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [Notes de mise à jour anticipées](using/rn/e-release-notes.md)
    + [Dernières notes de mise à jour de](using/rn/release-notes.md)
    + Notes de mise à jour précédentes {#previous-rn-new}
+      + [Notes de mise à jour 2023](using/rn/release-notes-2023.md)
       + [Notes de mise à jour 2022](using/rn/release-notes-2022.md)
       + [Notes de mise à jour 2021](using/rn/release-notes-2021.md)
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
@@ -215,12 +216,12 @@ ht-degree: 99%
       + [Flux de notification push](using/push/push-gs.md)
       + [Configurer le canal de notification push](using/push/push-configuration.md)
       + [Workflow de démarrage rapide de l’intégration mobile](using/push/mobile-onboarding-wf.md)
-+ Canal SMS{#sms}
-   + [Prise en main des SMS](using/sms/get-started-sms.md)
-   + [Création d’un SMS](using/sms/create-sms.md)
++ Canal SMS/MMS{#sms}
+   + [Prise en main de la messagerie texte](using/sms/get-started-sms.md)
+   + [Création d’un message texte](using/sms/create-sms.md)
    + [Créer un MMS](using/sms/create-mms.md)
-   + [Vérifier et envoyer votre SMS](using/sms/send-sms.md)
-   + [Gérer les désinscriptions aux SMS](using/sms/sms-opt-out.md)
+   + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
+   + [Gestion de l’exclusion des messages texte](using/sms/sms-opt-out.md)
    + [Configurer le canal SMS](using/sms/sms-configuration.md)
    + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
 + Courrier {#direct-mail}
@@ -234,7 +235,7 @@ ht-degree: 99%
       + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
       + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
    + [Créer des expériences web](using/web/create-web.md)
-   + Créer des pages web {#author-web-pages}
+   + Création de pages web {#author-web-pages}
       + [Modifier le contenu d’une page web](using/web/edit-web-content.md)
       + [Gérer les modifications](using/web/manage-web-modifications.md)
       + [Surveiller vos campagnes web](using/web/monitor-web-campaigns.md)
@@ -254,7 +255,7 @@ ht-degree: 99%
       + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
    + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
    + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
-   + Configuration des pages de destination   {#lp-configuration}
+   + Configuration des landing pages {#lp-configuration}
       + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
 + Gestion de contenu {#content-management}
@@ -542,7 +543,7 @@ ht-degree: 99%
    + [Configurer des règles de fréquence](using/configuration/frequency-rules.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
-      + Intégration aux systèmes externes {#external-systems}
+      + Intégration avec des systèmes externes {#external-systems}
          + [Intégration des parcours à des systèmes externes](using/configuration/external-systems.md)
          + [API de plafonnement](using/configuration/capping.md)
          + [API de limitation](using/configuration/throttling.md)

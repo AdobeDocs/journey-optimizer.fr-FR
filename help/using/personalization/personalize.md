@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personnalisation du contenu dans Journey Optimizer
-description: Commencer avec la personnalisation.
+description: Prise en main de la personnalisation.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 100%
 >id="ajo_homepage_card5"
 >title="Personnaliser des expériences"
 >abstract="Utilisez **Adobe Journey Optimizer** pour adapter vos messages à chaque personne destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêt, de son lieu de vie, de ce qu’il a acheté, etc."
-
 
 Découvrez les fonctionnalités de personnalisation de [!DNL Adobe Journey Optimizer] pour adapter vos messages à chaque destinataire spécifique en exploitant les données et informations que vous possédez à son sujet. Il peut s’agir de son prénom, de ses centres d’intérêt, de son lieu de vie, de ce qu’il a acheté, etc.
 
@@ -57,7 +56,7 @@ En outre, vous pouvez également tirer parti des **attributs calculés** pour pe
 
 [!DNL Journey Optimizer] fournit un éditeur d’expression dans lequel vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser le contenu.
 
-Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation (fonctions d’assistance, bibliothèque d’expressions prédéfinies, favorisation d’attributs, etc.).
+Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation, tels que : fonctions de felper, bibliothèque d’expressions prédéfinies, attributs favorisant l’écriture, etc.
 
 En savoir plus sur l’éditeur d’expression de [!DNL Journey Optimizer] dans [cette section](personalization-build-expressions.md).
 
