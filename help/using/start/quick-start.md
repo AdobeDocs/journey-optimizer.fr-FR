@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Démarrage rapide
-description: En tant spécialiste marketing, administrateur ou ingénieur de données, découvrez la puissance d’Adobe Journey Optimizer avec des conseils détaillés..
+description: En tant que spécialiste du marketing, administrateur/administratrice ou ingénieur de données, découvrez la puissance d’Adobe Journey Optimizer et bénéficiez de conseils pas à pas.
 feature: Overview
 topic: Content Management
 role: User
