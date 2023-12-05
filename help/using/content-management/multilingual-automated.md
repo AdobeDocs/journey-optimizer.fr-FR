@@ -11,10 +11,10 @@ keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1315'
+ht-degree: 94%
 
 ---
 
@@ -90,6 +90,14 @@ Démarrez votre projet de traduction en spécifiant les paramètres régionaux c
 
 1. Sélectionnez dans la liste vos **[!UICONTROL paramètres régionaux cibles]** et choisissez le **[!UICONTROL prestataire de services de traduction]** que vous souhaitez utiliser pour chaque paramètre régional.
 
+   **[!UICONTROL Fournisseur de traduction]** sont accessibles à partir du **[!UICONTROL Traduction]** dans le menu **[!UICONTROL Administration]** de la section .
+
+   >[!NOTE]
+   >
+   >La gestion des contrats avec le fournisseur de traduction n’entre pas dans le cadre de cette fonctionnalité. Assurez-vous que vous disposez d’un contrat valide et actif avec le partenaire de traduction désigné.
+   >
+   ></br>Le fournisseur de traduction détient la propriété de la qualité du contenu traduit.
+
 1. Cliquez sur **[!UICONTROL Ajouter un paramètre régional]** lorsque vous avez terminé de lier votre paramètre régional cible au prestataire de services de traduction approprié. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
    Notez que si un fournisseur est grisé pour un paramètre régional cible, cela indique que le fournisseur ne prend pas en charge ce paramètre régional particulier.
@@ -102,7 +110,7 @@ Votre projet de traduction est maintenant créé et peut être utilisé dans une
 
 ## Créer des paramètres de langue {#language-settings}
 
-Dans cette section, vous pouvez définir votre langue principale et les paramètres régionaux associés pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil..
+Dans cette section, vous pouvez définir votre langue principale et les paramètres régionaux associés pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil.
 
 1. Dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Canal]**.
 
