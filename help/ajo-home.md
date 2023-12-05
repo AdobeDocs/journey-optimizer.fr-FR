@@ -5,7 +5,7 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 34bfaf6b161b13e881fbcb88c343c1b424072752
+source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ## Nouveautés ?
 
-Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez le [Notes de mise à jour](using/rn/release-notes.md).  Tenez-vous au courant des dernières modifications apportées à notre documentation en consultant le [page mises à jour de la documentation](using/rn/documentation-updates.md).
+Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez le [Notes de mise à jour](using/rn/release-notes.md). Tenez-vous au courant des dernières modifications apportées à notre documentation en consultant le [page mises à jour de la documentation](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envo
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Gestion de contenu</strong><br/><a href="using/content-management/assets-essentials.md">Ressources/images</a> - <a href="using/personalization/personalize.md">Personnalisation</a> - <a href="using/content-management/content-templates.md">Réutilisable</a> &amp; <a href="using/personalization/dynamic-content.md">dynamic</a> content - <a href="using/content-management/preview-test.md">Test et prévisualisation du contenu</a>
+      <strong>Gestion de contenu</strong><br/><a href="using/content-management/assets.md">Ressources/images</a> - <a href="using/personalization/personalize.md">Personnalisation</a> - <a href="using/content-management/content-templates.md">Réutilisable</a> &amp; <a href="using/personalization/dynamic-content.md">dynamic</a> content - <a href="using/content-management/preview-test.md">Test et prévisualisation du contenu</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
