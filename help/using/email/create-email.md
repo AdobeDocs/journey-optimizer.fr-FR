@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 87%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Création d&#39;un e-mail"
->abstract="Définissez vos paramètres d&#39;e-mail en trois étapes simples."
+>abstract="Définissez l’objet de l’email et ouvrez le Concepteur d’email pour créer le contenu de l’email."
 
-Pour créer un e-mail dans [!DNL Journey Optimizer], procédez comme indiqué ci-dessous.
 
-## Créer un e-mail dans un parcours ou une campagne {#create-email-journey-campaign}
+## Ajout d’une action de courrier électronique {#email-action}
 
-Ajoutez une action **[!UICONTROL E-mail]** à un parcours ou à une campagne, et suivez les étapes ci-dessous en fonction de votre situation.
+Pour créer un courrier électronique dans [!DNL Journey Optimizer], ajoutez une **[!UICONTROL Email]** à un parcours ou à une campagne. Suivez ensuite les étapes ci-dessous, en fonction de votre cas.
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    ![](assets/email_campaign_edit_content.png)
 
-1. Dans la section **[!UICONTROL En-tête]** de l’écran **[!UICONTROL Modifier le contenu]**, le **[!UICONTROL nom de l’expéditeur]**, **[!UICONTROL l’adresse e-mail d’expédition]** et le champ **[!UICONTROL Cci]** proviennent de la surface d’e-mail que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
+   Dans le **[!UICONTROL En-tête]** de la **[!UICONTROL Modifier le contenu]** l’écran **[!UICONTROL À partir du nom]**, **[!UICONTROL Adresse électronique]** et **[!UICONTROL Cci]** sont configurés dans la surface de l&#39;email que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Vous pouvez ajouter une ligne d’objet. Saisissez du texte brut directement dans le champ correspondant ou utilisez l’[éditeur d&#39;expression](../personalization/personalization-build-expressions.md) pour personnaliser votre objet.
+1. Ajoutez un objet pour votre message. Pour configurer et personnaliser la ligne d’objet à l’aide de l’éditeur d’expression, cliquez sur le bouton **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** Icône [En savoir plus](../personalization/personalization-build-expressions.md)
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour commencer à créer votre contenu à l’aide du concepteur d’e-mail [!DNL Journey Optimizer]. [En savoir plus](get-started-email-design.md)
+1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’email]** pour accéder au Concepteur d&#39;email et commencer à créer votre contenu. [En savoir plus](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
