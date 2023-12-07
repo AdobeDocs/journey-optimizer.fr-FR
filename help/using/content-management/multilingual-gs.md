@@ -11,14 +11,15 @@ keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+badge: label="Version Beta" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
-# Commencer avec le contenu multilingue {#multilingual-gs}
+# Prise en main du contenu multilingue {#multilingual-gs}
 
 >[!BEGINSHADEBOX]
 

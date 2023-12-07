@@ -10,16 +10,17 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+badge: label="Version Beta" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
 
 # Rapport global de campagne {#objective-report}
 
-Rapport global de campagne peut être consulté directement à partir de votre campagne, avec le bouton **[!UICONTROL Afficher le rapport]**.
+Pour accéder directement au rapport global de campagne à partir de votre campagne, cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
 
 Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/global-report.md#modify-dashboard).
 

@@ -7,7 +7,8 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
+source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
 ht-degree: 99%
@@ -134,7 +135,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * Deux nouveaux champs, **Message d’opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs et utilisatrices de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../sms/sms-configuration.md#create-api)
 
-* La désinscription aux SMS n’est plus gérée au niveau du canal. Il est maintenant spécifique au nombre, ce qui signifie que si certains profils se désinscrivent d’un numéro ou d’un numéro court donné, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous utilisez pour envoyer des SMS. Une nouvelle option vous permet de sélectionner le **numéro d’opt-out** que vous souhaitez utiliser pour une surface donnée. [En savoir plus](../sms/sms-configuration.md#message-preset-sms)
+* La désinscription aux SMS n’est plus gérée au niveau du canal. Il est maintenant spécifique au nombre, ce qui signifie que si certains profils indiquent leur opt-out pour un numéro ou un numéro abrégé donné, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous utilisez pour envoyer des SMS. Une nouvelle option vous permet de sélectionner le **numéro d’opt-out** que vous souhaitez utiliser pour une surface donnée. [En savoir plus](../sms/sms-configuration.md#message-preset-sms)
 
 **Canal courrier**
 

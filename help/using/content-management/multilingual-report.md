@@ -11,9 +11,10 @@ keywords: prise en main, commencer, contenu, expérience
 hide: true
 hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+badge: label="Version Beta" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
@@ -41,7 +42,7 @@ Le widget **[!UICONTROL Statistiques d’envoi d’e-mails par langue]** détail
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d&#39;une diffusion, l’empêchant d&#39;être envoyée à des profils.
 
