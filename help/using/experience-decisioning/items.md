@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
-workflow-type: ht
-source-wordcount: '1034'
-ht-degree: 100%
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 97%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 100%
 >abstract="Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Actuellement, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres ». Depuis cet écran, vous pouvez également accéder au schéma du catalogue à l’aide du bouton **Modifier le schéma** et créer des attributs personnalisés pour vos éléments de décision."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configurer le catalogue d’éléments"
 
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
+>[!BEGINSHADEBOX &quot;Ce que vous trouverez dans ce guide de documentation&quot;]
 
 * [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision
-   * [Configurer le catalogue d’éléments](catalogs.md)
-   * **[Créer des éléments de décision](items.md)**
-   * [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection d’éléments
-   * [Créer des règles de décision](rules.md)
-   * [Créer des méthodes de classement](ranking.md)
+* Gérer les éléments de décision : [Configuration du catalogue d’éléments](catalogs.md) - **[Création d’éléments de décision](items.md)** - [Gestion des collections d’éléments](collections.md)
+* Configuration de la sélection des éléments : [Créer des règles de décision](rules.md) - [Création de méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
 * [Créer des politiques de décision](create-decision.md)
 

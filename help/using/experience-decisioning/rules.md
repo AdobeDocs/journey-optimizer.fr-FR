@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 100%
 >title="Créer des règles de décision"
 >abstract="Les règles de décision vous permettent de définir l’audience des éléments de décision en appliquant des contraintes, directement au niveau de l’élément de décision ou dans une stratégie de sélection spécifique. Vous pouvez ainsi contrôler précisément quels éléments doivent être présentés à qui."
 
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
+>[!BEGINSHADEBOX &quot;Ce que vous trouverez dans ce guide de documentation&quot;]
 
 * [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision
-   * [Configurer le catalogue d’éléments](catalogs.md)
-   * [Créer des éléments de décision](items.md)
-   * [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection d’éléments
-   * **[Créer des règles de décision](rules.md)**
-   * [Créer des méthodes de classement](ranking.md)
+* Gérer les éléments de décision : [Configuration du catalogue d’éléments](catalogs.md) - [Création d’éléments de décision](items.md) - [Gestion des collections d’éléments](collections.md)
+* Configuration de la sélection des éléments : **[Créer des règles de décision](rules.md)** - [Création de méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
 * [Créer des politiques de décision](create-decision.md)
 

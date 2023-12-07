@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 96%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Utiliser des audiences"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=fr" text="Utiliser des règles de décision"
 
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
+>[!BEGINSHADEBOX &quot;Ce que vous trouverez dans ce guide de documentation&quot;]
 
 * [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision
-   * [Configurer le catalogue d’éléments](catalogs.md)
-   * [Créer des éléments de décision](items.md)
-   * [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection d’éléments
-   * [Créer des règles de décision](rules.md)
-   * [Créer des méthodes de classement](ranking.md)
+* Gérer les éléments de décision : [Configuration du catalogue d’éléments](catalogs.md) - [Création d’éléments de décision](items.md) - [Gestion des collections d’éléments](collections.md)
+* Configuration de la sélection des éléments : [Créer des règles de décision](rules.md) - [Création de méthodes de classement](ranking.md)
 * **[Créer des stratégies de sélection](selection-strategies.md)**
 * [Créer des politiques de décision](create-decision.md)
 
@@ -83,6 +76,8 @@ Pour créer une stratégie de sélection, procédez comme suit.
    ![](assets/strategy-create-screen.png)
 
 1. Sélectionnez la [collection](collections.md) qui contient les offres à prendre en compte.
+
+1. Sélectionnez la [collection](collections.md) d’offres qui contient les offres à prendre en compte.
 
 1. Utilisez le champ **[!UICONTROL Éligibilité]** pour restreindre la sélection des offres pour cette stratégie de sélection.
 

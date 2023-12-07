@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 97%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 100%
 >abstract="Les politiques de décision utilisent le moteur de prise de décision d’expérience afin de choisir le meilleur contenu à diffuser, en fonction de l’audience."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=fr" text="À propos de la prise de décision basée sur l’expérience"
 
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
+>[!BEGINSHADEBOX &quot;Ce que vous trouverez dans ce guide de documentation&quot;]
 
 * [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision
-   * [Configurer le catalogue d’éléments](catalogs.md)
-   * [Créer des éléments de décision](items.md)
-   * [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection d’éléments
-   * [Créer des règles de décision](rules.md)
-   * [Créer des méthodes de classement](ranking.md)
+* Gérer les éléments de décision : [Configuration du catalogue d’éléments](catalogs.md) - [Création d’éléments de décision](items.md) - [Gestion des collections d’éléments](collections.md)
+* Configuration de la sélection des éléments : [Créer des règles de décision](rules.md) - [Création de méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
 * **[Créer des politiques de décision](create-decision.md)**
 
