@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP, délivrabilité
 hide: true
 hidefromtoc: true
+badge: label="Version Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
 # Prise en main des plans de préchauffage d’adresses IP {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ Ce guide couvre les sujets suivants :
 >La fonctionnalité de préchauffage d’adresses IP est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
 Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
+
+➡️ [Découvrez comment créer et exécuter un plan de chauffage par IP dans cette vidéo](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ Les étapes clés de la mise en œuvre d’un plan de préchauffage d’adresses
 1. Créez un plan de préchauffage d’adresses IP dans [!DNL Journey Optimizer] et téléchargez la feuille Excel préparée avec l’aide de votre consultant ou consultante en délivrabilité. [En savoir plus](ip-warmup-plan.md)
 
 1. Sélectionnez une campagne pour chaque phase de votre plan et activez les exécutions correspondantes. [En savoir plus](ip-warmup-execution.md)
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer et exécuter un plan de chauffage par IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
